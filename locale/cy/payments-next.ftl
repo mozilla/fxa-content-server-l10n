@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Mae'n ymddangos bod gwall g
 page-not-found-title = Heb ganfod y dudalen
 page-not-found-description = Heb ganfod y dudalen rydych wedi gofyn amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni all fod wedi'u torri.
 page-not-found-back-button = Mynd Nôl
+alert-dialog-title = Deialog rhybuddio
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Mynd Nôl
 subscription-management-breadcrumb-account-home = Cartref y Cyfrif
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Tanysgrifiadau
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Rheoli Dulliau Talu
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Mynd yn ôl i { $page }
 
@@ -285,8 +288,11 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } treth</strong><span> wedi'i bilio ar { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> wedi'i filio ar { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credyd wedi'i roi i'ch cyfrif
 subscription-content-coupon-applied = { $promotionName } wedi'i osod
+subscription-content-next-bill-excl-disc-with-tax = Mae bil nesaf <strong>{ $nextInvoiceTotal } + { $taxDue } treth</strong>, heb gynnwys gostyngiadau, yn ddyledus ar <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Mae'r bil nesaf o <strong>{ $nextInvoiceTotal }</strong>, heb gynnwys gostyngiadau, yn ddyledus ar <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad
 subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.

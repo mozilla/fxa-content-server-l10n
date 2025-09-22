@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Parece haber un error con l
 page-not-found-title = Página no encontrada
 page-not-found-description = No se encontró la página solicitada. Hemos sido notificados y vamos a arreglar cualquier enlace que pueda estar roto.
 page-not-found-back-button = Retroceder
+alert-dialog-title = Diálogo de alerta
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Retroceder
 subscription-management-breadcrumb-account-home = Inicio de cuenta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Suscripciones
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Administrar métodos de pago
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Volver a { $page }
 
@@ -285,8 +288,11 @@ next-new-user-subscribe-product-assurance = Solo usamos tu correo electrónico p
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } impuestos</strong><span> facturado el { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> facturado el { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> de crédito emitido a tu cuenta
 subscription-content-coupon-applied = { $promotionName } aplicada
+subscription-content-next-bill-excl-disc-with-tax = La próxima factura de <strong>{ $nextInvoiceTotal } + { $taxDue } impuestos</strong>, sin incluir descuentos, vence el <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = La próxima factura de <strong>{ $nextInvoiceTotal }</strong>, sin incluir descuentos, vence el <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancelar suscripción
 subscription-content-no-longer-use-message = No se podrá usar { $productName } después de { $currentPeriodEnd }, el último día del ciclo de facturación.

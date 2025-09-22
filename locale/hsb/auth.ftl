@@ -192,9 +192,29 @@ payment-plan-charged = { $invoiceTotal } dnja { $invoiceDateOnly } wotknihowane
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Přichodna zličbowanka: { $nextInvoiceDateOnly }
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Płaćenska metoda: { $cardName } so na { $lastFour } kónči
+payment-provider-card-ending-in-plaintext = Płaćenska metoda: Karta so na { $lastFour } kónči
+payment-provider-card-ending-in = <b>Płaćenska metoda:</b> Karta so na { $lastFour } kónči
+payment-provider-card-ending-in-card-name = <b>Płaćenska metoda:</b> { $cardName } so na { $lastFour } kónči
+subscription-charges-invoice-summary = Zjeće zličbowanki
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Čisło zličbowanki:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Čisło zličbowanki: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
+subscription-charges-prorated-price = Podźělna płaćizna
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Mjezysuma: { $invoiceSubtotal }
 

@@ -190,11 +190,77 @@ payment-plan-charged = Levonás: { $invoiceTotal }, ekkor: { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Következő díjbekérő: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Fizetési mód:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Fizetési mód: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Fizetési mód: { $cardName }, ezekre végződése: { $lastFour }
+payment-provider-card-ending-in-plaintext = Fizetési mód: { $lastFour } végződésű kártya
+payment-provider-card-ending-in = <b>Fizetési mód:</b> { $lastFour } végződésű kártya
+payment-provider-card-ending-in-card-name = <b>Fizetési mód:</b> { $cardName }, ezek száma: { $lastFour }
+subscription-charges-invoice-summary = Számlaösszesítő
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Számla száma:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Számla száma: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Dátum:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Dátum: { $invoiceDateOnly }
+subscription-charges-prorated-price = Arányított ár
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Osztályos ár: { $remainingAmountTotal }
+subscription-charges-list-price = Listaár
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Listaár: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Jóváírás a fel nem használt időből
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Jóváírás a fel nem használt időből: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Részösszeg</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Részösszeg: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Egyszeri kedvezmény
+subscription-charges-one-time-discount-plaintext = Egyszeri kedvezmény: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration } havi kedvezmény
+       *[other] { $discountDuration } havi kedvezmény
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration } havi kedvezmény: { $invoiceDiscountAmount }
+       *[other] { $discountDuration } havi kedvezmény: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Kedvezmény
+subscription-charges-discount-plaintext = Kedvezmény: { $invoiceDiscountAmount }
+subscription-charges-taxes = Adók és díjak
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Adók és díjak: { $invoiceTaxAmount }
+subscription-charges-total = <b>Összesen</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Összesen: { $invoiceTotal }
+subscription-charges-credit-applied = Jóváírás alkalmazva
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Jóváírás: { $creditApplied }
+subscription-charges-amount-paid = <b>Kifizetett összeg</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Kifizetett összeg: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = { $creditReceived } összegű fiókjóváírást kapott, amely a jövőbeni számláin lesz felhasználva.
 
 ##
 
@@ -206,6 +272,13 @@ subscriptionSupport-plaintext = Kérdése van az előfizetéséről? A támogat�
 subscriptionSupportContact = Köszönjük, hogy előfizetett a { $productName } szolgáltatásra. Ha kérdése van az előfizetésével kapcsolatban, vagy további információra van szükséges a { $productName } szolgáltatással kapcsolatban, akkor <a data-l10n-name="subscriptionSupportUrl">lépjen velünk kapcsolatba</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Köszönjük, hogy előfizetett a { $productName } szolgáltatásra. Ha kérdése van az előfizetésével kapcsolatban, vagy további információra van szükséges a { $productName } szolgáltatással kapcsolatban, akkor lépjen velünk kapcsolatba:
+subscription-support-get-help = Segítség az előfizetéshez
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Előfizetés kezelése</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Előfizetés kezelése:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kapcsolatfelvétel az ügyfélszolgálattal</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Kapcsolatfelvétel az ügyfélszolgálattal:
 subscriptionUpdateBillingEnsure = Itt meggyőződhet arról, hogy fizetési módja és fiókja adatai naprakészek <a data-l10n-name="updateBillingUrl">itt</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Itt meggyőződhet arról, hogy fizetési módja és fiókja adatai naprakészek:
@@ -246,6 +319,7 @@ location-state-country = { $stateCode }, { $country } (becsült)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (becsült)
+view-invoice-link-action = Számla megtekintése
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -588,6 +662,9 @@ subscriptionFirstInvoice-content-processing = Az ön befizetése feldolgozás al
 subscriptionFirstInvoice-content-install-2 = Külön e-mailt fog kapni a { $productName } használatának megkezdéséről.
 subscriptionFirstInvoice-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = A következő számlát { $nextInvoiceDateOnly } állítja ki.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = A(z) { $productName } fizetési módja lejárt vagy hamarosan lejár
 subscriptionPaymentExpired-title-2 = A fizetési módja lejárt vagy hamarosan lejár
@@ -657,6 +734,9 @@ subscriptionSubsequentInvoice-title = Köszönjük, hogy előfizető lett!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Megkaptuk legutóbbi { $productName } befizetését.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = A következő számlát { $nextInvoiceDateOnly } állítja ki.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Frissített erre: { $productName }

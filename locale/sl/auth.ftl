@@ -190,11 +190,81 @@ payment-plan-charged = Zaračunano: { $invoiceTotal } dne { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Način plačila:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Način plačila: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Način plačila: { $cardName }, ki se končuje s { $lastFour }
+payment-provider-card-ending-in-plaintext = Način plačila: Kartica, ki se končuje s { $lastFour }
+payment-provider-card-ending-in = <b>Način plačila:</b> Kartica, ki se končuje s { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Način plačila:</b> { $cardName }, ki se končuje s { $lastFour }
+subscription-charges-invoice-summary = Povzetek računa
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Številka računa:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Številka računa: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
+subscription-charges-prorated-price = Sorazmerna cena
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Sorazmerna cena: { $remainingAmountTotal }
+subscription-charges-list-price = Cenik
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Maloprodajna cena: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Dobropis neizkoriščenega časa
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Dobropis od neuporabljenega časa: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Vmesna vsota</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Vmesni seštevek: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Enkratni popust
+subscription-charges-one-time-discount-plaintext = Enkratni popust: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-mesečni popust
+        [two] { $discountDuration }-mesečni popust
+        [few] { $discountDuration }-mesečni popust
+       *[other] { $discountDuration }-mesečni popust
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-mesečni popust: { $invoiceDiscountAmount }
+        [two] { $discountDuration }-mesečni popust: { $invoiceDiscountAmount }
+        [few] { $discountDuration }-mesečni popust: { $invoiceDiscountAmount }
+       *[other] { $discountDuration }-mesečni popust: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Popust
+subscription-charges-discount-plaintext = Popust: { $invoiceDiscountAmount }
+subscription-charges-taxes = Davki in pristojbine
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Davki in pristojbine: { $invoiceTaxAmount }
+subscription-charges-total = <b>Skupaj</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Skupaj: { $invoiceTotal }
+subscription-charges-credit-applied = Dobropis uveljavljen
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Uporabljeno dobro: { $creditApplied }
+subscription-charges-amount-paid = <b>Plačan znesek</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Plačan znesek: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Prejeli ste dobroimetje { $creditReceived }, ki se bo uporabljalo pri vaših prihodnjih računih.
 
 ##
 
@@ -206,6 +276,13 @@ subscriptionSupport-plaintext = Imate vprašanja o vaši naročnini? Naša ekipa
 subscriptionSupportContact = Hvala, ker ste se naročili na { $productName }. Če imate kakršnakoli vprašanja o naročnini ali če potrebujete več informacij o { $productName }, <a data-l10n-name="subscriptionSupportUrl">nam pišite</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Hvala, ker ste se naročili na { $productName }. Če imate kakršnakoli vprašanja o naročnini ali če potrebujete več informacij o { $productName }, nam pišite:
+subscription-support-get-help = Poiščite pomoč za svojo naročnino
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Upravljanje naročnine</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Upravljajte naročnino:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Obrnite se na podporo</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Stopite v stik s podporo:
 subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Tukaj</a> lahko poskrbite, da so vaš način plačila in podatki o računu posodobljeni.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Tukaj lahko poskrbite, da so vaš način plačila in podatki o računu posodobljeni:
@@ -246,6 +323,7 @@ location-state-country = { $stateCode }, { $country } (ocena)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (ocena)
+view-invoice-link-action = Ogled računa
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -590,6 +668,9 @@ subscriptionFirstInvoice-content-processing = Vaše plačilo je trenutno v obdel
 subscriptionFirstInvoice-content-install-2 = Prejeli boste ločeno e-poštno sporočilo, ki vam bo pomagalo začeti uporabljati { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Naslednji račun bo izdan { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Plačilnemu sredstvu za { $productName } je ali bo kmalu potekla veljavnost
 subscriptionPaymentExpired-title-2 = Vašemu plačilnemu sredstvu je ali bo kmalu potekla veljavnost
@@ -659,6 +740,9 @@ subscriptionSubsequentInvoice-title = Hvala, ker ste naš naročnik!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Prejeli smo vaše zadnje plačilo za { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Naslednji račun bo izdan { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Nadgradili ste na { $productName }

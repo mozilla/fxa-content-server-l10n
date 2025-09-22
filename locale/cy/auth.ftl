@@ -190,11 +190,85 @@ payment-plan-charged = Codwyd: { $invoiceTotal } ar { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Anfoneb Nesaf: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Dull talu:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Dull talu: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Dull talu: { $cardName } yn gorffen gyda { $lastFour }
+payment-provider-card-ending-in-plaintext = Dull talu: Cerdyn yn gorffen gyda { $lastFour }
+payment-provider-card-ending-in = <b>Dull talu:</b> Cerdyn yn gorffen gyda { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Dull talu:</b> { $cardName } yn gorffen gyda { $lastFour }
+subscription-charges-invoice-summary = Crynodeb o'r Anfoneb
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Rhif yr anfoneb:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Rhif anfoneb: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Dyddiad:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Dyddiad: { $invoiceDateOnly }
+subscription-charges-prorated-price = Pris prorated
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Pris prorated: { $remainingAmountTotal }
+subscription-charges-list-price = Pris rhestr
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Pris rhestr: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Credyd am amser heb ei ddefnyddio
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Credyd o amser heb ei ddefnyddio: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Is-gyfanswm</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Is-gyfanswm: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Gostyngiad un-amser
+subscription-charges-one-time-discount-plaintext = Gostyngiad un-amser: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [zero] Gostyngiad o { $discountDuration } mis
+        [one] Gostyngiad o { $discountDuration } mis
+        [two] Gostyngiad o { $discountDuration } mis
+        [few] Gostyngiad o { $discountDuration } mis
+        [many] Gostyngiad o { $discountDuration } mis
+       *[other] Gostyngiad o { $discountDuration } mis
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [zero] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
+        [one] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
+        [two] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
+        [few] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
+        [many] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
+       *[other] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Gostyngiad
+subscription-charges-discount-plaintext = Gostyngiad: { $invoiceDiscountAmount }
+subscription-charges-taxes = Trethi a ffioedd
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Trethi a ffioedd: { $invoiceTaxAmount }
+subscription-charges-total = <b>Cyfanswm</ b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Cyfanswm: { $invoiceTotal }
+subscription-charges-credit-applied = Credyd wedi'i osod
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Credyd wedi'i gymhwyso: { $creditApplied }
+subscription-charges-amount-paid = <b>Swm a dalwyd</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Swm a dalwyd: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Rydych wedi derbyn credyd cyfrif o { $creditReceived }, a fydd yn cael ei gymhwyso i'ch anfonebau yn y dyfodol.
 
 ##
 
@@ -206,6 +280,13 @@ subscriptionSupport-plaintext = Cwestiynau am eich tanysgrifiad? Mae ein tîm cy
 subscriptionSupportContact = Diolch am danysgrifio i { $productName }. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am{ $productName }, <a data-l10n-name="subscriptionSupportUrl">cysylltwch â ni</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Diolch am danysgrifio i { $productName }. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am { $productName }, cysylltwch â ni.
+subscription-support-get-help = Cael help gyda'ch tanysgrifiad
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Rheolwch eich tanysgrifiad</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Rheoli eich tanysgrifiad:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Cysylltu â chefnogaeth</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Cymorth cyswllt:
 subscriptionUpdateBillingEnsure = Gallwch sicrhau bod eich dull talu a manylion eich cyfrif yn gyfredol <a data-l10n-name="updateBillingUrl">yma</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Gallwch sicrhau bod eich dull talu a manylion eich cyfrif yn gyfredol yma:
@@ -246,6 +327,7 @@ location-state-country = { $stateCode }, { $country } (amcan)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (amcan)
+view-invoice-link-action = Gweld anfoneb
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -592,6 +674,9 @@ subscriptionFirstInvoice-content-processing = Mae'ch taliad yn cael ei brosesu a
 subscriptionFirstInvoice-content-install-2 = Byddwch yn derbyn e-bost ar wahân ar sut i ddechrau defnyddio { $productName } .
 subscriptionFirstInvoice-content-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Bydd eich anfoneb nesaf yn cael ei chyhoeddi ar { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Mae'r dull talu ar gyfer { $productName } wedi dod i ben neu'n dod i ben yn fuan
 subscriptionPaymentExpired-title-2 = Mae eich dull talu wedi dod i ben neu ar fin dod i ben
@@ -661,6 +746,9 @@ subscriptionSubsequentInvoice-title = Diolch am fod yn danysgrifiwr!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Rydym wedi derbyn eich taliad diweddaraf am { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Bydd eich anfoneb nesaf yn cael ei chyhoeddi ar { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Rydych wedi uwchraddio i { $productName }

@@ -192,11 +192,77 @@ payment-plan-charged = { $invoiceTotal } facturés le { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Prochaine facture : { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Mode de paiement :</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Mode de paiement : { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Mode de paiement : { $cardName } se terminant par { $lastFour }
+payment-provider-card-ending-in-plaintext = Mode de paiement : carte se terminant par { $lastFour }
+payment-provider-card-ending-in = <b>Mode de paiement :</b> Carte se terminant par { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Mode de paiement :</b> { $cardName } se terminant par { $lastFour }
+subscription-charges-invoice-summary = Récapitulatif de facture
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Numéro de facture :</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Numéro de facture : { $invoiceNumber }
+subscription-charges-invoice-date = <b>Date :</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Date : { $invoiceDateOnly }
+subscription-charges-prorated-price = Prix au prorata
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Prix au prorata : { $remainingAmountTotal }
+subscription-charges-list-price = Prix courant
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Prix courant : { $offeringPrice }
+subscription-charges-credit-from-unused-time = Avoir pour le temps non utilisé
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Crédit pour le temps non utilisé : { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Sous-total</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Sous-total : { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Remise unique
+subscription-charges-one-time-discount-plaintext = Remise unique : { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-mois de remise
+       *[other] { $discountDuration }-mois de remise
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Remise de { $discountDuration } mois : { $invoiceDiscountAmount }
+       *[other] Remise de { $discountDuration } mois : { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Remise
+subscription-charges-discount-plaintext = Remise : { $invoiceDiscountAmount }
+subscription-charges-taxes = Taxes et frais
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Taxes et frais : { $invoiceTaxAmount }
+subscription-charges-total = <b>Total</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Total : { $invoiceTotal }
+subscription-charges-credit-applied = Avoir appliqué
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Avoir appliqué : { $creditApplied }
+subscription-charges-amount-paid = <b>Montant payé</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Montant payé : { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Vous avez reçu un crédit de { $creditReceived }, qui sera appliqué à vos prochaines factures.
 
 ##
 
@@ -208,6 +274,13 @@ subscriptionSupport-plaintext = Des questions sur votre abonnement ? Notre équ
 subscriptionSupportContact = Merci d’avoir souscrit à { $productName }. Si vous avez des questions sur votre abonnement ou avez besoin de plus d’informations sur { $productName }, veuillez <a data-l10n-name="subscriptionSupportUrl">nous contacter</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Merci d’avoir souscrit à { $productName }. Si vous avez des questions sur votre abonnement ou avez besoin de plus d’informations sur { $productName }, veuillez nous contacter :
+subscription-support-get-help = Obtenez de l’aide pour votre abonnement
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Gérez votre abonnement</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Gérer votre abonnement :
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contacter l’assistance</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Contacter l’assistance :
 subscriptionUpdateBillingEnsure = Vous pouvez vous assurer que votre mode de paiement et les informations de votre compte sont à jour <a data-l10n-name="updateBillingUrl">ici</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Vous pouvez vous assurer que votre mode de paiement et les informations de votre compte sont à jour ici :
@@ -248,6 +321,7 @@ location-state-country = { $stateCode }, { $country } (approximatif)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (approximatif)
+view-invoice-link-action = Voir la facture
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -590,6 +664,9 @@ subscriptionFirstInvoice-content-processing = Votre paiement est en cours de tra
 subscriptionFirstInvoice-content-install-2 = Vous recevrez un e-mail séparé expliquant comment commencer à utiliser { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Votre abonnement sera automatiquement renouvelé à chaque période de facturation, sauf si vous choisissez de l’annuler.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Votre prochaine facture sera émise le { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Le mode de paiement pour { $productName } a expiré ou expire bientôt
 subscriptionPaymentExpired-title-2 = Votre mode de paiement est arrivé à expiration ou est sur le point d’y être
@@ -659,6 +736,9 @@ subscriptionSubsequentInvoice-title = Merci pour votre abonnement !
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Nous avons reçu votre dernier paiement pour { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Votre prochaine facture sera émise le { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Vous utilisez maintenant { $productName }

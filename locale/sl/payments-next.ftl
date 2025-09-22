@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Videti je, da je prišlo do
 page-not-found-title = Strani ni mogoče najti
 page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.
 page-not-found-back-button = Nazaj
+alert-dialog-title = Pogovorno okno z opozorilom
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Nazaj
 subscription-management-breadcrumb-account-home = Domača stran računa
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Naročnine
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Upravljanje plačilnih metod
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Nazaj na { $page }
 
@@ -285,8 +288,11 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } davek</strong><span> obračunan { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> obračunano { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> dobroimetja
 subscription-content-coupon-applied = { $promotionName } uporabljeno
+subscription-content-next-bill-excl-disc-with-tax = Naslednji račun <strong>{ $nextInvoiceTotal } + { $taxDue } davek</strong>, brez popustov, bo <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Naslednji račun v višini <strong>{ $nextInvoiceTotal }</strong>, brez popustov, prihaja <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Prekliči naročnino
 subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.

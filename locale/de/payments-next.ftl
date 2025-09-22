@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Es scheint ein Problem mit 
 page-not-found-title = Seite nicht gefunden
 page-not-found-description = Die angeforderte Seite wurde nicht gefunden. Wir wurden informiert und werden alle möglicherweise defekten Links reparieren.
 page-not-found-back-button = Zurück
+alert-dialog-title = Warnungsdialog
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Zurück
 subscription-management-breadcrumb-account-home = Startseite des Kontos
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonnements
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Zahlungsmethoden verwalten
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Zurück zu { $page }
 
@@ -285,8 +288,11 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } Steuern</strong><span> am { $billedOnDate } abgerechnet</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> abgerechnet auf { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> Guthaben auf Ihrem Konto ausgestellt
 subscription-content-coupon-applied = { $promotionName } angewendet
+subscription-content-next-bill-excl-disc-with-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal } + { $taxDue } Steuern</strong>, ohne Skonto, ist fällig am <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal }</strong> (ohne Rabatte) ist am <strong>{ $nextBillDate }</strong> . fällig
 subscription-content-heading-cancel-subscription = Dauerauftrag stornieren
 subscription-content-no-longer-use-message = Sie können { $productName } nach dem { $currentPeriodEnd }, dem letzten Tag Ihres Abrechnungszeitraums, nicht mehr verwenden.
