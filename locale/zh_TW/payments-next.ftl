@@ -288,8 +288,11 @@ next-new-user-subscribe-product-assurance = 我們只會使用您的電子郵件
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <span>於 { $billedOnDate } 收費</span> <strong>{ $invoiceTotal } + { $taxDue } 稅金</strong>
+subscription-content-current-billed-on-no-tax = <span>於 { $billedOnDate } 收費</span> <strong>{ $invoiceTotal }</strong>
 subscription-content-credit-issued-to-your-account = 已發出 <strong>{ $creditApplied }</strong> 信用額度到您的帳號
 subscription-content-coupon-applied = 已套用「{ $promotionName }」折扣
+subscription-content-next-bill-excl-disc-with-tax = 下期帳單金額 <strong>{ $nextInvoiceTotal } + { $taxDue } 稅金</strong>（未計算折扣），將於 <strong>{ $nextBillDate }</strong> 出帳
 subscription-content-next-bill-excl-no-tax = 下期帳單金額 <strong>{ $nextInvoiceTotal }</strong>（未計算折扣），將於 <strong>{ $nextBillDate }</strong> 出帳
 subscription-content-heading-cancel-subscription = 取消訂閱
 subscription-content-no-longer-use-message = 在帳務週期最後一天（{ $currentPeriodEnd }）之後，將無法繼續使用 { $productName }。
