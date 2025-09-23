@@ -34,6 +34,13 @@ checkout-error-not-eligible = Et voi tilata tätä tuotetta - ota yhteys tukeemm
 checkout-error-already-subscribed = Olet jo tilannut tämän tuotteen.
 checkout-error-contact-support = Ota yhteys tukeen, jotta voimme auttaa sinua.
 
+## Error pages - Payment method failure messages
+
+intent-expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
+intent-payment-error-generic = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
+intent-payment-error-insufficient-funds = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
+general-paypal-error = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -69,6 +76,7 @@ subscription-management-account-profile-picture = Tilin profiilikuva
 
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Maksun tiedot
 subscription-management-button-add-payment-method-aria = Lisää maksutapa
 subscription-management-button-add-payment-method = Lisää
 subscription-management-button-change-payment-method-aria = Vaihda maksutapaa
@@ -220,6 +228,7 @@ subscription-content-heading-cancel-subscription = Peruuta tilaus
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
+resubscribe-success-dialog-title = Kiitos! Kaikki on nyt valmiina.
 resubscribe-success-dialog-action-button-close = Sulje
     .aria-label = Sulje ikkuna
 
@@ -295,3 +304,8 @@ metadata-title-upgrade-needs-input = Toimenpiteitä vaaditaan | { $productTitle 
 # Default
 metadata-title-default = Sivua ei löytynyt | { $productTitle }
 metadata-description-default = Pyytämääsi sivua ei löytynyt.
+
+## Coupon Error Messages
+
+next-coupon-error-expired = Antamasi koodi on vanhentunut.
+next-coupon-error-invalid = Antamasi koodi on virheellinen.

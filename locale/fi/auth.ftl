@@ -597,6 +597,13 @@ verify-description-2 = Vahvista tilisi ja ota kaikki hyöty irti { -brand-mozill
 verify-subject = Viimeistele tilisi luominen
 verify-action-2 = Vahvista tili
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Se vanhenee { $expirationTime } minuutin kuluttua.
+       *[other] Se vanhenee { $expirationTime } minuutin kuluttua.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Kirjauduitko { $clientName }iin?
 verifyLogin-description-2 = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
