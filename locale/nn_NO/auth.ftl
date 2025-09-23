@@ -193,11 +193,50 @@ payment-plan-charged = Belasta: { $invoiceTotal } den { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Neste faktura: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Betalingsmåte:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Betalingsmåte: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Betalingsmåte: { $cardName } som sluttar på { $lastFour }
+payment-provider-card-ending-in-plaintext = Betalingsmåte: Kort som sluttar på { $lastFour }
+payment-provider-card-ending-in = <b>Betalingsmåte:</b> Kort som sluttar på { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Betalingsmåte:</b> { $cardName } som sluttar på { $lastFour }
+subscription-charges-invoice-summary = Fakturasamandrag
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Fakturanummer:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Fakturanummer: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Dato:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Dato: { $invoiceDateOnly }
+subscription-charges-prorated-price = Pris justert etter bruk
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Pris justert etter bruk: { $remainingAmountTotal }
+subscription-charges-list-price = Listepris
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Listepris: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Kreditt frå ubrukt tid
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Kreditt frå ubrukt tid: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Delsum</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Delsum: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Eingongsrabatt
 
 ##
 
