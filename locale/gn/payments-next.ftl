@@ -146,6 +146,7 @@ paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹ
 page-not-found-title = Kuatiarogue ojejuhu’ỹva
 page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne mba’ejerure ha romoĩporãta juajuha ikatúva oñembyai.
 page-not-found-back-button = Guevijey
+alert-dialog-title = Ñomongeta kyhyjerãva
 
 ## Navigation breadcrumbs
 
@@ -153,6 +154,8 @@ page-not-found-back-button = Guevijey
 subscription-management-breadcrumb-account-home = Mba’ete Moñepyrũ
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Ñemboheraguapy
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Eñangareko jehepyme’ẽrãre
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Ejevyjey { $page }-pe
 
