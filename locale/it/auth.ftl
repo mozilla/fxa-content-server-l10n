@@ -205,7 +205,7 @@ payment-provider-card-name-ending-in-plaintext = Metodo di pagamento: { $cardNam
 payment-provider-card-ending-in-plaintext = Metodo di pagamento: carta che termina con { $lastFour }
 payment-provider-card-ending-in = <b>Metodo di pagamento:</b> carta che termina con { $lastFour }
 payment-provider-card-ending-in-card-name = <b>Metodo di pagamento:</b> { $cardName } che termina con { $lastFour }
-subscription-charges-invoice-summary = Riepilogo fatture
+subscription-charges-invoice-summary = Riepilogo fattura
 
 # Variables:
 
@@ -260,7 +260,7 @@ subscription-charges-amount-paid = <b>Importo pagato</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Importo pagato: { $invoiceAmountDue }
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscription-charges-credit-received = Hai ricevuto un credito sul tuo account di { $creditReceived }, che verrà applicato alle tue fatture future.
+subscription-charges-credit-received = Hai ricevuto un credito di { $creditReceived } sul tuo account che verrà applicato alle tue fatture future.
 
 ##
 

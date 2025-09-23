@@ -175,7 +175,7 @@ product-no-such-plan = Nessun piano di questo tipo per questo prodotto.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
-price-details-tax = { $priceAmount } + { $taxAmount } tasse
+price-details-tax = { $priceAmount } + { $taxAmount } di tasse
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-no-tax-day =
     { $intervalCount ->
@@ -223,46 +223,46 @@ price-details-no-tax-year =
 # $intervalCount (Number) - The interval between payments, in days.
 price-details-tax-day =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } tasse al giorno
-       *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } giorni
+        [one] { $priceAmount } + { $taxAmount } di tasse al giorno
+       *[other] { $priceAmount } + { $taxAmount } di tasse ogni { $intervalCount } giorni
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } tasse al giorno
-           *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } giorni
+            [one] { $priceAmount } + { $taxAmount } di tasse al giorno
+           *[other] { $priceAmount } + { $taxAmount } di tasse ogni { $intervalCount } giorni
         }
 # $intervalCount (Number) - The interval between payments, in weeks.
 price-details-tax-week =
     { $intervalCount ->
         [one] { $priceAmount } + { $taxAmount } alla settimana
-       *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } settimane
+       *[other] { $priceAmount } + { $taxAmount } di tasse ogni { $intervalCount } settimane
     }
     .title =
         { $intervalCount ->
             [one] { $priceAmount } + { $taxAmount } alla settimana
-           *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } settimane
+           *[other] { $priceAmount } + { $taxAmount } di tasse ogni { $intervalCount } settimane
         }
 # $intervalCount (Number) - The interval between payments, in months.
 price-details-tax-month =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } tasse al mese
-       *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } mesi
+        [one] { $priceAmount } + { $taxAmount } di tasse al mese
+       *[other] { $priceAmount } + { $taxAmount } di tasse ogni { $intervalCount } mesi
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } tax al mese
-           *[other] { $priceAmount } + { $taxAmount } tax ogni { $intervalCount } mesi
+            [one] { $priceAmount } + { $taxAmount } di tasse al mese
+           *[other] { $priceAmount } + { $taxAmount } di tasse ogni { $intervalCount } mesi
         }
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
     { $intervalCount ->
-        [one] { $priceAmount } + { $taxAmount } tasse all’anno
-       *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } anni
+        [one] { $priceAmount } + { $taxAmount } di tasse all’anno
+       *[other] { $priceAmount } + { $taxAmount } di tasse ogni { $intervalCount } anni
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } + { $taxAmount } tasse all’anno
-           *[other] { $priceAmount } + { $taxAmount } tasse ogni { $intervalCount } anni
+            [one] { $priceAmount } + { $taxAmount } di tasse all’anno
+           *[other] { $priceAmount } + { $taxAmount } di tasse ogni { $intervalCount } anni
         }
 
 ## Component - SubscriptionTitle

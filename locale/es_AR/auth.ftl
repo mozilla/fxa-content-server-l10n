@@ -201,10 +201,10 @@ payment-method-payment-provider-plaintext = Método de pago: { $paymentProviderN
 ##  $cardName (String) - The brand name of the credit card, e.g. American Express
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
-payment-provider-card-name-ending-in-plaintext = Método de pago: { $cardName } que terminan en { $lastFour }
+payment-provider-card-name-ending-in-plaintext = Método de pago: { $cardName } que termina en { $lastFour }
 payment-provider-card-ending-in-plaintext = Método de pago: Tarjeta que termina en { $lastFour }
 payment-provider-card-ending-in = <b>Método de pago:</b> Tarjeta que termina en { $lastFour }
-payment-provider-card-ending-in-card-name = <b>Método de pago:</b> { $cardName } que terminan en { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Método de pago:</b> { $cardName } que termina en { $lastFour }
 subscription-charges-invoice-summary = Resumen de factura
 
 # Variables:
@@ -233,16 +233,16 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
-subscription-charges-one-time-discount = Descuento único
-subscription-charges-one-time-discount-plaintext = Descuento único: { $invoiceDiscountAmount }
+subscription-charges-one-time-discount = Descuento por única vez
+subscription-charges-one-time-discount-plaintext = Descuento por única vez: { $invoiceDiscountAmount }
 subscription-charges-repeating-discount =
     { $discountDuration ->
-        [one] { $discountDuration }-mes de descuento
-       *[other] { $discountDuration }-mes de descuento
+        [one] { $discountDuration } mes de descuento
+       *[other] { $discountDuration } meses de descuento
     }
 subscription-charges-repeating-discount-plaintext =
     { $discountDuration ->
-        [one] Descuento de { $discountDuration } meses: { $invoiceDiscountAmount }
+        [one] Descuento de { $discountDuration } mes: { $invoiceDiscountAmount }
        *[other] Descuento de { $discountDuration } meses: { $invoiceDiscountAmount }
     }
 subscription-charges-discount = Descuento
