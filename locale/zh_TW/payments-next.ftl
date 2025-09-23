@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } �
 page-not-found-title = 找不到頁面
 page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。
 page-not-found-back-button = 回上一頁
+alert-dialog-title = 警告對話框
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = 回上一頁
 subscription-management-breadcrumb-account-home = 帳號首頁
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = 訂閱
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = 管理付款方式
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = 回到{ $page }
 
