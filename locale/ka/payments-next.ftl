@@ -291,8 +291,11 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } გადასახადი</strong><span> ანგარიშსწორების თარიღით { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal } + { $taxDue } გადასახადი</strong><span> ანგარიშსწორების თარიღით { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> დანარიცხია გაცემული თქვენს ანგარიშზე
 subscription-content-coupon-applied = { $promotionName } გამოყენებულია
+subscription-content-next-bill-excl-disc-with-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal } + { $taxDue } გადასახადი</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBilDate }</strong>
 subscription-content-next-bill-excl-no-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal }</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
 subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
