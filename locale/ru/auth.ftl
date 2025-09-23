@@ -252,6 +252,19 @@ subscription-charges-repeating-discount-plaintext =
 subscription-charges-discount = Скидка
 subscription-charges-discount-plaintext = Скидка: { $invoiceDiscountAmount }
 subscription-charges-taxes = Налоги и сборы
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Налоги и сборы: { $invoiceTaxAmount }
+subscription-charges-total = <b>Всего</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Всего: { $invoiceTotal }
+subscription-charges-credit-applied = Кредит применён
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Кредит применён: { $creditApplied }
+subscription-charges-amount-paid = <b>Сумма платежа</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Оплаченная сумма: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Вы получили кредит аккаунта в размере { $creditReceived }, который будет учитываться для выставления счетов в будущем.
 
 ##
 
@@ -263,6 +276,13 @@ subscriptionSupport-plaintext = У вас есть вопросы по ваше�
 subscriptionSupportContact = Спасибо, что подписались на { $productName }. Если у вас есть какие-либо вопросы о подписке или нужны дополнительные сведения о { $productName }, вы можете <a data-l10n-name="subscriptionSupportUrl">связаться с нами</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Спасибо, что подписались на { $productName }. Если у вас есть какие-либо вопросы о подписке или нужны дополнительные сведения о { $productName }, вы можете связаться с нами:
+subscription-support-get-help = Получить помощь по вашей подписке
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Управляйте своей подпиской</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Управляйте своей подпиской:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Обратиться в службу поддержки</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Связаться с поддержкой:
 subscriptionUpdateBillingEnsure = Если вы хотите убедиться, что ваш способ оплаты и информация об аккаунте актуальны, вы можете сделать это <a data-l10n-name="updateBillingUrl">здесь</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Если вы хотите убедиться, что ваш способ оплаты и информация об аккаунте актуальны, вы можете сделать это здесь:
@@ -303,6 +323,7 @@ location-state-country = { $stateCode }, { $country } (приблизитель�
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (приблизительно)
+view-invoice-link-action = Просмотреть счёт
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -646,6 +667,9 @@ subscriptionFirstInvoice-content-processing = Ваш платёж в насто�
 subscriptionFirstInvoice-content-install-2 = Вы получите отдельное электронное письмо о том, как начать использовать { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Ваша подписка будет автоматически продлеваться каждый платёжный период, пока вы не решите её отменить.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Ваш следующий счёт будет выставлен { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Срок действия способа оплаты за { $productName } истёк или в скором времени истечёт
 subscriptionPaymentExpired-title-2 = Срок действия вашего способа оплаты истёк или скоро истечёт
@@ -715,6 +739,9 @@ subscriptionSubsequentInvoice-title = Спасибо за то, что явля�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Мы получили ваш последний платёж за { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Ваш следующий счёт будет выставлен { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Вы успешно обновились до { $productName }

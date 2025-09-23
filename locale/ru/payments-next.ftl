@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Похоже, в вашем
 page-not-found-title = Страница не найдена
 page-not-found-description = Запрошенная страница не найдена. Мы уже получили уведомление и исправим все возможные ошибки в ссылках.
 page-not-found-back-button = Вернуться назад
+alert-dialog-title = Окно предупреждения
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Вернуться назад
 subscription-management-breadcrumb-account-home = Домашняя страница аккаунта
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Подписки
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Управление способами платежей
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Вернуться на { $page }
 
@@ -285,8 +288,11 @@ next-new-user-subscribe-product-assurance = Мы используем вашу �
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } налог</strong><span>, оплаченный { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> оплачено { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> кредита, выданного на ваш аккаунт
 subscription-content-coupon-applied = { $promotionName } применён
+subscription-content-next-bill-excl-disc-with-tax = Следующий счёт в размере <strong>{ $nextInvoiceTotal } + { $taxDue } налог</strong>, исключая скидки, подлежит оплате <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Следующий счёт в размере <strong>{ $nextInvoiceTotal }</strong>, без учёта скидки, подлежит оплате <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Отменить подписку
 subscription-content-no-longer-use-message = Вы не сможете больше использовать { $productName } после { $currentPeriodEnd }, последнего дня вашего платёжного цикла.

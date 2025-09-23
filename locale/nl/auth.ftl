@@ -278,6 +278,9 @@ subscription-support-get-help = Hulp bij uw abonnement verkrijgen
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Uw abonnement beheren</a>
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Uw abonnement beheren:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contact opnemen</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Contact opnemen:
 subscriptionUpdateBillingEnsure = U kunt <a data-l10n-name="updateBillingUrl">hier</a> ervoor zorgen dat uw betalingsmethode en accountgegevens actueel zijn.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = U kunt hier ervoor zorgen dat uw betalingsmethode en accountgegevens actueel zijn:
@@ -318,6 +321,7 @@ location-state-country = { $stateCode }, { $country } (geschat)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (geschat)
+view-invoice-link-action = Factuur bekijken
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -660,6 +664,9 @@ subscriptionFirstInvoice-content-processing = Uw betaling wordt momenteel verwer
 subscriptionFirstInvoice-content-install-2 = U ontvangt een apart e-mailbericht over hoe u { $productName } kunt gaan gebruiken.
 subscriptionFirstInvoice-content-auto-renew = Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om op te zeggen.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Uw volgende factuur wordt op { $nextInvoiceDateOnly } in rekening gebracht.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Betalingsmethode voor { $productName } is verlopen of verloopt binnenkort
 subscriptionPaymentExpired-title-2 = Uw betalingsmethode is verlopen of verloopt binnenkort
@@ -729,6 +736,9 @@ subscriptionSubsequentInvoice-title = Bedankt dat u abonnee bent!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = We hebben uw laatste betaling voor { $productName } ontvangen.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Uw volgende factuur wordt op { $nextInvoiceDateOnly } in rekening gebracht.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = U hebt geüpgraded naar { $productName }
