@@ -257,6 +257,8 @@ subscription-charges-credit-applied-plaintext = Virume’ẽmbyre: { $creditAppl
 subscription-charges-amount-paid = <b>Mboýpa ehepyme’ẽ</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Mboýpa ehepyme’ẽ: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Og̃uahẽ ndéve peteĩ crédito ne mba’ete { $creditReceived }-guápe, oñemboguapýtava kuatiañemure oútavape.
 
 ##
 
@@ -272,6 +274,7 @@ subscription-support-get-help = Eñepytyvõta ne mboheraguapy ndive
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Eñangareko ne ñemboheraguapy:</a>
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Eñangareko ne ñemboheraguapy:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Eñe’ẽ pytyvõha ndive</a>
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Eñe’ẽ pytyvõha aty ndive:
 subscriptionUpdateBillingEnsure = Eikuaáta mba’éichapa ehepyme’ẽta ha pe marandu ne mba’ete rehegua hekopyahúma <a data-l10n-name="updateBillingUrl">ápe</a>.
@@ -656,6 +659,9 @@ subscriptionFirstInvoice-content-processing = Rehepyme’ẽva oku’éma ko’a
 subscriptionFirstInvoice-content-install-2 = Og̃uahẽta ñanduti veve peteĩteĩ mba’éichapa eiporukuaáta { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Nde kuatiañemure oútava osẽta { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Mba’éichapa ehepyme’ẽta { $productName }-pe g̃uarã ndoikói térã potaite
 subscriptionPaymentExpired-title-2 = Nde jehepyme’ẽrã opáma térã ndoikovéi potaite
@@ -725,6 +731,9 @@ subscriptionSubsequentInvoice-title = ¡Aguyje ne mboheraguapýre!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Og̃uahẽma ne ñehepyme’ẽ paha { $productName } rupi.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Nde kuatiañemure oútava osẽta { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Embohekopyahúma { $productName }-pe

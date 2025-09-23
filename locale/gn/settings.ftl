@@ -794,6 +794,8 @@ tfa-create-code-error = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyrã j
 tfa-replace-code-success-alert-4 = Ayvu ñemoneĩrã jeykekoha hekopyahupyre
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Ayvu ñemoneĩrã jeykekoha moheñoimbyre
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã ñongatujeyrã ndoikói
 
 ## Page2faSetup
 
