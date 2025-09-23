@@ -189,12 +189,20 @@ payment-plan-charged = Hepyme’ẽmbyre: { $invoiceTotal } { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Jehepyme’ẽ rape:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Jehepyme’ẽ rape:</b> { $paymentProviderName }
+
 ## This string displays when the type of credit card is known
 ## https://stripe.com/docs/payments/cards/supported-card-brands
 ## Variables:
 ##  $cardName (String) - The brand name of the credit card, e.g. American Express
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
+payment-provider-card-name-ending-in-plaintext = Jehepyme’ẽ rape: { $cardName } opáva { $lastFour }-pe
+payment-provider-card-ending-in-plaintext = Jehepyme’ẽ rape: Kuatia’atã opáva { $lastFour }-pe
+payment-provider-card-ending-in = <b>Jehepyme’ẽ rape: Kuatia’atã opáva { $lastFour }-pe
 subscription-charges-invoice-summary = Ñemuhague mombykypy
 
 # Variables:
