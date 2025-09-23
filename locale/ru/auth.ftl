@@ -192,11 +192,66 @@ payment-plan-charged = { $invoiceDateOnly } оплачено { $invoiceTotal }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Следующая оплата: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Способ оплаты:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Способ оплаты: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Способ оплаты: { $cardName }, оканчивающаяся на { $lastFour }
+payment-provider-card-ending-in-plaintext = Способ оплаты: Карта, оканчивающаяся на { $lastFour }
+payment-provider-card-ending-in = <b>Способ оплаты:</b> Карта, заканчивающаяся на { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Способ оплаты:</b> { $cardName }, заканчивающаяся на { $lastFour }
+subscription-charges-invoice-summary = Сводка по счёту
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Номер счёта:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Номер счёта: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Дата:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Дата: { $invoiceDateOnly }
+subscription-charges-prorated-price = Пропорциональная цена
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Пропорциональная цена: { $remainingAmountTotal }
+subscription-charges-list-price = Цена по прейскуранту
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Цена по прейскуранту: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Кредит за неиспользованное время
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Кредит за неиспользованное время: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Промежуточный итог</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Промежуточный итог: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Разовая скидка
+subscription-charges-one-time-discount-plaintext = Разовая скидка: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-месячная скидка
+        [few] { $discountDuration }-месячная скидка
+       *[many] { $discountDuration }-месячная скидка
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-месячная скидка: { $invoiceDiscountAmount }
+        [few] { $discountDuration }-месячная скидка: { $invoiceDiscountAmount }
+       *[many] { $discountDuration }-месячная скидка: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Скидка
+subscription-charges-discount-plaintext = Скидка: { $invoiceDiscountAmount }
+subscription-charges-taxes = Налоги и сборы
 
 ##
 

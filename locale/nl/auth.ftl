@@ -192,11 +192,77 @@ payment-plan-charged = { $invoiceTotal } in rekening gebracht op { $invoiceDateO
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Volgende factuur: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Betalingsmethode:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Betalingsmethode: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Betalingsmethode: { $cardName } eindigend op { $lastFour }
+payment-provider-card-ending-in-plaintext = Betalingsmethode: kaart eindigend op { $lastFour }
+payment-provider-card-ending-in = <b>Betalingsmethode:</b> kaart eindigend op { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Betalingsmethode:</b> { $cardName } eindigend op { $lastFour }
+subscription-charges-invoice-summary = Factuursamenvatting
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Factuurnummer:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Factuurnummer: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
+subscription-charges-prorated-price = Naar rato prijs
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Naar rato prijs: { $remainingAmountTotal }
+subscription-charges-list-price = Normale prijs
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Normale prijs: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Tegoed van ongebruikte tijd
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Tegoed van ongebruikte tijd: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Subtotaal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotaal: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Eenmalige korting
+subscription-charges-one-time-discount-plaintext = Eenmalige korting: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration } maand korting
+       *[other] { $discountDuration } maanden korting
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration } maand korting: { $invoiceDiscountAmount }
+       *[other] { $discountDuration } maanden korting: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Korting
+subscription-charges-discount-plaintext = Korting: { $invoiceDiscountAmount }
+subscription-charges-taxes = Btw en toeslagen
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Btw en toeslagen: { $invoiceTaxAmount }
+subscription-charges-total = <b>Totaal</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Totaal: { $invoiceTotal }
+subscription-charges-credit-applied = Tegoed toegepast
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Tegoed toegepast: { $creditApplied }
+subscription-charges-amount-paid = <b>Betaald bedrag</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Betaald bedrag: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = U hebt een accounttegoed van { $creditRevious } ontvangen. Dit tegoed wordt op uw toekomstige facturen toegepast.
 
 ##
 
@@ -208,6 +274,10 @@ subscriptionSupport-plaintext = Vragen over uw abonnement? Ons ondersteuningstea
 subscriptionSupportContact = Bedankt voor uw abonnement op { $productName }. Als u vragen over uw abonnement hebt, of meer informatie over { $productName } wilt, <a data-l10n-name="subscriptionSupportUrl">neem dan contact op</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Bedankt voor uw abonnement op { $productName }. Als u vragen over uw abonnement hebt, of meer informatie over { $productName } wilt, neem dan contact op:
+subscription-support-get-help = Hulp bij uw abonnement verkrijgen
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Uw abonnement beheren</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Uw abonnement beheren:
 subscriptionUpdateBillingEnsure = U kunt <a data-l10n-name="updateBillingUrl">hier</a> ervoor zorgen dat uw betalingsmethode en accountgegevens actueel zijn.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = U kunt hier ervoor zorgen dat uw betalingsmethode en accountgegevens actueel zijn:
