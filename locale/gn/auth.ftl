@@ -234,6 +234,27 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Oĩmba’ỹva: { $invoiceSu
 
 subscription-charges-one-time-discount = Tepykue mboguejy
 subscription-charges-one-time-discount-plaintext = Tepykue mboguejy: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration } tepyguejy jasygua
+       *[other] { $discountDuration } tepyguejy jasygua
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+       *[other] { $discountDuration } Tepykue mboguejy: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Tepyguejy
+subscription-charges-discount-plaintext = Tepyguejy: { $invoiceDiscountAmount }
+subscription-charges-taxes = Impuesto ha tarifa
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Impuesto ha tarifa: { $invoiceTaxAmount }
+subscription-charges-total = <b>Oĩmba</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Oĩmba: { $invoiceTotal }
+subscription-charges-credit-applied = Virume’ẽmbyre
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Virume’ẽmbyre: { $creditApplied }
+subscription-charges-amount-paid = <b>Mboýpa ehepyme’ẽ</b>
 
 ##
 
