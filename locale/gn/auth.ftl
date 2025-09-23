@@ -189,9 +189,24 @@ payment-plan-charged = Hepyme’ẽmbyre: { $invoiceTotal } { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+subscription-charges-invoice-summary = Ñemuhague mombykypy
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Ñemuhague papapy:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Ñemuhague papapy: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Arange:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Arange: { $invoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Oĩmba’ỹva: { $invoiceSubtotal }
 
