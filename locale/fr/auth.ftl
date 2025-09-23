@@ -205,7 +205,7 @@ payment-method-payment-provider-plaintext = Mode de paiement : { $paymentProvid
 
 payment-provider-card-name-ending-in-plaintext = Mode de paiement : { $cardName } se terminant par { $lastFour }
 payment-provider-card-ending-in-plaintext = Mode de paiement : carte se terminant par { $lastFour }
-payment-provider-card-ending-in = <b>Mode de paiement :</b> Carte se terminant par { $lastFour }
+payment-provider-card-ending-in = <b>Mode de paiement :</b> carte se terminant par { $lastFour }
 payment-provider-card-ending-in-card-name = <b>Mode de paiement :</b> { $cardName } se terminant par { $lastFour }
 subscription-charges-invoice-summary = Récapitulatif de facture
 
