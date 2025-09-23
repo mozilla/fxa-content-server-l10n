@@ -255,6 +255,8 @@ subscription-charges-credit-applied = Virume’ẽmbyre
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-applied-plaintext = Virume’ẽmbyre: { $creditApplied }
 subscription-charges-amount-paid = <b>Mboýpa ehepyme’ẽ</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Mboýpa ehepyme’ẽ: { $invoiceAmountDue }
 
 ##
 
@@ -266,6 +268,12 @@ subscriptionSupport-plaintext = ¿Porandu ne ñemboheraguapýre? Ore aty pytyvõ
 subscriptionSupportContact = Aguyje eñemboheraguapýre { $productName } ndive. Eporanduséramo ne ñemboheraguapýre térã eikotevẽve marandu { $productName } rehegua, ikatúpa <a data-l10n-name="subscriptionSupportUrl">eñe’ẽmi orendive</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Aguyje eñemboheraguapýre { $productName } ndive. Eporanduséramo ne ñemboheraguapýre térã eikotevẽve marandu { $productName } rehegua, ikatúpa eñe’ẽmi orendive:
+subscription-support-get-help = Eñepytyvõta ne mboheraguapy ndive
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Eñangareko ne ñemboheraguapy:</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Eñangareko ne ñemboheraguapy:
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Eñe’ẽ pytyvõha aty ndive:
 subscriptionUpdateBillingEnsure = Eikuaáta mba’éichapa ehepyme’ẽta ha pe marandu ne mba’ete rehegua hekopyahúma <a data-l10n-name="updateBillingUrl">ápe</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Eikuaáta mba’éichapa ehepyme’ẽta ha pe marandu ne mba’ete rehegua hekopyahúma ápe:
@@ -306,6 +314,7 @@ location-state-country = { $stateCode }, { $country } (kuaaporã’ỹva)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (kuaaporã’ỹva)
+view-invoice-link-action = Ehecha kuatiañemure
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
