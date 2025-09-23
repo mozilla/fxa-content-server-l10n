@@ -203,6 +203,7 @@ payment-method-payment-provider-plaintext = Jehepyme’ẽ rape:</b> { $paymentP
 payment-provider-card-name-ending-in-plaintext = Jehepyme’ẽ rape: { $cardName } opáva { $lastFour }-pe
 payment-provider-card-ending-in-plaintext = Jehepyme’ẽ rape: Kuatia’atã opáva { $lastFour }-pe
 payment-provider-card-ending-in = <b>Jehepyme’ẽ rape: Kuatia’atã opáva { $lastFour }-pe
+payment-provider-card-ending-in-card-name = <b> Jehepyme’ẽ rape:</b> { $cardName } opáva { $lastFour }-pe
 subscription-charges-invoice-summary = Ñemuhague mombykypy
 
 # Variables:
@@ -215,6 +216,15 @@ subscription-charges-invoice-number = <b>Ñemuhague papapy:</b> { $invoiceNumber
 subscription-charges-invoice-number-plaintext = Ñemuhague papapy: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Arange:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Arange: { $invoiceDateOnly }
+subscription-charges-prorated-price = Tepy mboja’opyre
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Tepy mboja’opyre: { $remainingAmountTotal }
+subscription-charges-list-price = Tysýi repy
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Tysýi repy: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Virume’ẽ aravo eiporu’ỹvare
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Virume’ẽ aravo eiporu’ỹvare: { $unusedAmountTotal }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Oĩmba’ỹva: { $invoiceSubtotal }
 
