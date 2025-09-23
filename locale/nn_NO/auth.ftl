@@ -237,6 +237,7 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Delsum: { $invoiceSubtotal }
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
 subscription-charges-one-time-discount = Eingongsrabatt
+subscription-charges-one-time-discount-plaintext = Eingongsrabatt: { $invoiceDiscountAmount }
 
 ##
 
