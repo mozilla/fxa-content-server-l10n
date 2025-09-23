@@ -491,6 +491,7 @@ pay-update-manage-btn = Hallitse
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Seuraava laskutus { $date }
+sub-next-bill-due-date = Seuraava maksu veloitetaan { $date }
 sub-expires-on = Vanhenee { $date }
 
 ## Routes - Subscription - PaymentUpdate

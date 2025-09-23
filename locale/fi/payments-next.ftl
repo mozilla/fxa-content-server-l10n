@@ -18,6 +18,7 @@ upgrade-page-payment-information = Maksun tiedot
 
 ## Authentication Error page
 
+auth-error-page-title = Emme voineet kirjata sinua sisään
 checkout-error-boundary-retry-button = Yritä uudelleen
 checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudelleen tai <contactSupportLink>ota yhteyttä tukeen.</contactSupportLink>
 
@@ -62,6 +63,26 @@ next-payment-confirmation-download-button = Jatka lataamiseen
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-account-profile-picture = Tilin profiilikuva
+
+## Page - Subscription Management
+
+subscription-management-button-add-payment-method-aria = Lisää maksutapa
+subscription-management-button-add-payment-method = Lisää
+subscription-management-button-change-payment-method-aria = Vaihda maksutapaa
+subscription-management-button-change-payment-method = Vaihda
+subscription-management-button-manage-payment-method-aria = Hallinnoi maksutapaa
+subscription-management-button-manage-payment-method = Hallitse
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kortti päättyen { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Vanhenee { $expirationDate }
+subscription-management-subscriptions-heading = Tilaukset
+subscription-management-your-subscriptions-aria = Tilauksesi
+subscription-management-no-subscriptions = Sinulla ei ole vielä tilauksia
+
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
@@ -69,6 +90,15 @@ next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 page-not-found-title = Sivua ei löydy
 page-not-found-description = Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme korjaamaan rikkinäiset linkit.
 page-not-found-back-button = Palaa takaisin
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Tilin koti
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Tilaukset
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Hallitse maksutapoja
 
 ## Component - Payment Consent Checkbox
 
@@ -124,6 +154,13 @@ payments-client-loading-spinner =
     .aria-label = Ladataan…
     .alt = Ladataan…
 
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Aseta oletusmaksutavaksi
+# Save button for saving a new payment method
+payment-method-management-save-method = Tallenna maksutapa
+
 ## Payment Section
 
 next-new-user-card-title = Anna korttisi tiedot
@@ -166,6 +203,25 @@ next-new-user-subscribe-product-updates-mdnplus = Haluan saada tuoteuutisia ja p
 next-new-user-subscribe-product-updates-mozilla = Haluan saada tuoteuutisia ja päivityksiä { -brand-mozilla }lta
 next-new-user-subscribe-product-updates-snp = Haluan saada turvallisuus- ja tietosuojauutisia sekä päivityksiä { -brand-mozilla }lta
 next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi vain tilin luomiseen. Emme koskaan myy sitä kolmannelle osapuolelle.
+
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-heading-cancel-subscription = Peruuta tilaus
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-success-dialog-action-button-close = Sulje
+    .aria-label = Sulje ikkuna
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -169,11 +169,30 @@ payment-plan-charged = Veloitettu: { $invoiceTotal } { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+subscription-charges-invoice-summary = Laskun yhteenveto
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Laskun numero:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Laskun numero: { $invoiceNumber }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Välisumma: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-discount = Alennus
+subscription-charges-discount-plaintext = Alennus: { $invoiceDiscountAmount }
 
 ##
 
@@ -310,6 +329,7 @@ passwordResetAccountRecovery-information = Kirjasimme sinut ulos kaikista synkro
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Kirjasimme sinut ulos kaikista synkronoiduista laitteistasi. Loimme uuden tilin palautusavaimen korvaamaan käyttämäsi. Voit vaihtaa sen tilisi asetuksista:
 passwordResetAccountRecovery-action-4 = Hallinnoi tiliä
+passwordResetRecoveryPhone-action = Hallinnoi tiliä
 passwordResetWithRecoveryKeyPrompt-subject = Salasanasi on nollattu
 passwordResetWithRecoveryKeyPrompt-title = Salasanasi on nollattu
 # Details of the device and date/time where the password was reset
@@ -347,6 +367,7 @@ postChangePrimary-title = Uusi ensisijainen sähköposti
 postChangePrimary-description-2 = Olet vaihtanut ensisijaiseksi sähköpostiosoitteeksi { $email }. Tämä osoite on nyt käyttäjätunnuksesi { -product-mozilla-account }lle kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään.
 postChangePrimary-action = Hallinnoi tiliä
 postChangeRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
+postChangeTwoStepAuthentication-action = Hallinnoi tiliä
 postConsumeRecoveryCode-action = Hallinnoi tiliä
 postNewRecoveryCodes-subject-2 = Uudet varatodennuskoodit luotu
 postNewRecoveryCodes-title-2 = Loit uudet varatodennuskoodit
