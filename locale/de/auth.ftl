@@ -253,9 +253,9 @@ subscriptionCharges-content-tax-plaintext = Steuern und Gebühren: { $invoiceTax
 subscription-charges-total = <b>Gesamt</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Gesamt: { $invoiceTotal }
-subscription-charges-credit-applied = Guthaben angewendet
+subscription-charges-credit-applied = Guthaben genutzt
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
-subscription-charges-credit-applied-plaintext = Aufgeschlagenes Guthaben: { $creditApplied }
+subscription-charges-credit-applied-plaintext = genutztes Guthaben: { $creditApplied }
 subscription-charges-amount-paid = <b>Gezahlter Betrag</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Gezahlter Betrag: { $invoiceAmountDue }
@@ -319,7 +319,7 @@ location-state-country = { $stateCode }, { $country } (geschätzt)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (geschätzt)
-view-invoice-link-action = Rechnung anzeigen
+view-invoice-link-action = Rechnung ansehen
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/

@@ -288,8 +288,8 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } Steuern</strong><span> am { $billedOnDate } abgerechnet</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> abgerechnet auf { $billedOnDate }</span>
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } Steuern</strong><span> abgerechnet am { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> abgerechnet am { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> Guthaben auf Ihrem Konto ausgestellt
 subscription-content-coupon-applied = { $promotionName } angewendet
 subscription-content-next-bill-excl-disc-with-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal } + { $taxDue } Steuern</strong>, ohne Skonto, ist fällig am <strong>{ $nextBillDate }</strong>
