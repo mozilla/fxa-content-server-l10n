@@ -190,9 +190,43 @@ payment-plan-charged = 已於 { $invoiceDateOnly } 收取 { $invoiceTotal }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>付款方式：</b>{ $paymentProviderName }
+payment-method-payment-provider-plaintext = 付款方式：{ $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = 付款方式：卡號尾碼為 { $lastFour } 的 { $cardName } 卡片
+payment-provider-card-ending-in-plaintext = 付款方式：卡號尾碼為 { $lastFour } 的卡片
+payment-provider-card-ending-in = <b>付款方式：</b>卡號尾碼為 { $lastFour } 的卡片
+payment-provider-card-ending-in-card-name = <b>付款方式：</b>卡號尾碼為 { $lastFour } 的 { $cardName } 卡片
+subscription-charges-invoice-summary = 請款單摘要
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>請款單號碼：</b>{ $invoiceNumber }
+subscription-charges-invoice-number-plaintext = 請款單號碼：{ $invoiceNumber }
+subscription-charges-invoice-date = <b>日期：</b>{ $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = 日期：{ $invoiceDateOnly }
+subscription-charges-prorated-price = 按比例破月計算價格
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = 按比例破月計算價格：{ $remainingAmountTotal }
+subscription-charges-list-price = 牌價
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = 牌價：{ $offeringPrice }
+subscription-charges-credit-from-unused-time = 未使用期間轉儲值餘額
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = 未使用期間轉儲值餘額：{ $unusedAmountTotal }
+subscription-charges-subtotal = <b>小計</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = 小計：{ $invoiceSubtotal }
 
