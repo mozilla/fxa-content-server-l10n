@@ -33,6 +33,12 @@ brand-close-banner =
 brand-m-logo =
     .alt = { -brand-mozilla } چ آرم
 
+## ButtonBack component
+## Allows users to click a back arrow to navigate to the previous page
+
+button-back-aria-label = بازگشت
+button-back-title = بازگشت
+
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -85,6 +91,21 @@ datablock-copy =
 datablock-print =
     .message = چاپ شد
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] کد رونوشت شد
+       *[other] کدها رونوشت شدند
+    }
+
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = رونوشت شد
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -122,6 +143,10 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = تأیید گذرواژه
 form-password-with-inline-criteria-reset-submit-button = ایجاد گذرواژه جدید
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = گذرواژه
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = تکرار گذرواژه
 form-password-with-inline-criteria-match-error = گذرواژه‌ها منطبق نیستند
 form-password-with-inline-criteria-sr-too-short-message = گذرواژه باید حداقل حاوی ۸ نویسه باشد.
 form-password-with-inline-criteria-sr-not-email-message = گذرواژه نباید حاوی نشانی رایانامه شما باشد.
@@ -237,6 +262,11 @@ input-password-show = نمایش گذرواژه
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = کشور را انتخاب کنید
+input-phone-number-enter-number = شماره تلفن را وارد کنید
+input-phone-number-country-united-states = ایالات متحده
+input-phone-number-country-canada = کانادا
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = بازگشت
 
@@ -252,6 +282,19 @@ account-recovery-notification-cta = ایجاد
 ## Ready component
 
 ready-continue = ادامه
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = پایان
+
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-warning-icon = هشدار
 
 ## User's avatar
 
@@ -306,6 +349,15 @@ flow-container-back = بازگشت
 
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = انصراف
+
+## FlowSetup2faApp
+
+flow-setup-2fa-button = ادامه
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-confirm-code-button = تایید
+flow-setup-phone-confirm-code-resend-code-success = کد ارسال شد
 
 ## HeaderLockup component, the header in account settings
 
