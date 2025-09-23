@@ -286,9 +286,14 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } impuesto</strong><span> ikuatiáva { $billedOnDate }</span> rupi
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> ikuatiáva { $billedOnDate }</span>-pe
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jedeverã og̃uahẽva ne mba’etépe
 subscription-content-coupon-applied = { $promotionName } mboajepyre
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
+subscription-content-cancel-access-message =
+    Ehejarei aikeha ha che mba’ekuaarã ñongatupyre
+    { $productName } pegua { $currentPeriodEnd } guive
 subscription-content-button-stay-subscribed = Eime mboheguapýpe
     .aria-label = Eime mboheguapýpe { $productName }
 subscription-content-button-cancel-subscription = Ejheja mboheraguapy

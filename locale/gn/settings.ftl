@@ -782,6 +782,11 @@ nav-data-collection = Ñembyaty ha mba’ekuaarã jeporu
 nav-paid-subs = Ñemboheraguapy ñehepyme’ẽgua
 nav-email-comm = Ñemongeta ñanduti veve rupive
 
+## Page2faChange
+
+page-2fa-change-title = Emombue ñemboaje mokõi jeku’egua
+page-2fa-change-success = Oñembohekopyahúma ñemboaje mokõi jeku’egua
+
 ## Two Step Authentication - replace backup authentication code
 
 # Page title
