@@ -225,8 +225,15 @@ subscription-charges-list-price-plaintext = Tysýi repy: { $offeringPrice }
 subscription-charges-credit-from-unused-time = Virume’ẽ aravo eiporu’ỹvare
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-from-unused-time-plaintext = Virume’ẽ aravo eiporu’ỹvare: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Oĩmba’ỹva</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Oĩmba’ỹva: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Tepykue mboguejy
+subscription-charges-one-time-discount-plaintext = Tepykue mboguejy: { $invoiceDiscountAmount }
 
 ##
 
