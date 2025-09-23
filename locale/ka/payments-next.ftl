@@ -151,6 +151,7 @@ paypal-payment-management-page-invalid-description = როგორც ჩა�
 page-not-found-title = გვერდი ვერ მოიძებნა
 page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.
 page-not-found-back-button = უკან დაბრუნება
+alert-dialog-title = გაფრთხილების არე
 
 ## Navigation breadcrumbs
 
@@ -158,6 +159,8 @@ page-not-found-back-button = უკან დაბრუნება
 subscription-management-breadcrumb-account-home = ანგარიშის მთავარი გვერდი
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = გამოწერები
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = გადახდის საშუალებების მართვა
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = უკან დაბრუნება – { $page }
 

@@ -192,11 +192,77 @@ payment-plan-charged = ჩამოიჭრა: { $invoiceTotal } თარი�
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = შემდეგი ზედნადები: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>გადახდის საშუალება:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = გადახდის საშუალება: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = გადახდის საშუალება: { $cardName } დაბოლოებით { $lastFour }
+payment-provider-card-ending-in-plaintext = გადახდის საშუალება: ბარათი დაბოლოებით { $lastFour }
+payment-provider-card-ending-in = <b>გადახდის საშუალება:</b> ბარათი დაბოლოებით { $lastFour }
+payment-provider-card-ending-in-card-name = <b>გადახდის საშუალება:</b> { $cardName } დაბოლოებით { $lastFour }
+subscription-charges-invoice-summary = ზედნადების შეჯამება
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>ზედნადების ნომერი:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = ზედნადების ნომერი: { $invoiceNumber }
+subscription-charges-invoice-date = <b>თარიღი:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = თარიღი: { $invoiceDateOnly }
+subscription-charges-prorated-price = დანაწილებული ფასი
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = დანაწილებული ფასი: { $remainingAmountTotal }
+subscription-charges-list-price = ფასების ჩამონათვალი
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = ფასების ჩამონათვალი: { $offeringPrice }
+subscription-charges-credit-from-unused-time = დანარიცხი დროის გამოუყენებელი მონაკვეთიდან
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = დანარიცხი დროის გამოუყენებელი მონაკვეთიდან: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>შუალედური ჯამი</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = შუალედური ჯამი: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = ერთჯერადი ფასდაკლება
+subscription-charges-one-time-discount-plaintext = ერთჯერადი ფასდაკლება: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-თვიანი ფასდაკლება
+       *[other] { $discountDuration }-თვიანი ფასდაკლება
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-თვიანი ფასდაკლება: { $invoiceDiscountAmount }
+       *[other] { $discountDuration }-თვიანი ფასდაკლება: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = ფასდაკლება
+subscription-charges-discount-plaintext = ფასდაკლება: { $invoiceDiscountAmount }
+subscription-charges-taxes = გადასახადები და მოსაკრებლები
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = გადასახადები და მოსაკრებლები: { $invoiceTaxAmount }
+subscription-charges-total = <b>ჯამი</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = ჯამი: { $invoiceSubtotal }
+subscription-charges-credit-applied = დანარიცხი ასახულია
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = დანარიცხი ასახულია: { $creditApplied }
+subscription-charges-amount-paid = <b>გადახდილი ოდენობა</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = გადახდილი ოდენობა: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = თქვენ მიიღეთ ანგარიშზე დანარიცხი { $creditReceived }, რომელიც გათვალისწინებული იქნება მომდევნო ზედნადებების გამოწერისას.
 
 ##
 
@@ -208,6 +274,13 @@ subscriptionSupport-plaintext = კითხვები გაქვთ თქ�
 subscriptionSupportContact = გმადლობთ, რომ გამოწერილი გაქვთ { $productName }. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ { $productName }, გთხოვთ <a data-l10n-name="subscriptionSupportUrl">დაგვიკავშირდეთ</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = გმადლობთ, რომ გამოწერილი გაქვთ { $productName }. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ { $productName }, გთხოვთ დაგვიკავშირდეთ.
+subscription-support-get-help = მიიღეთ მხარდაჭერა თქვენი გამოწერის შესახებ
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">თქვენი გამოწერის მართვა</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = გამოწერების მართვა:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">კავშირი მხარდაჭერისთვის</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = კავშირი მხარდაჭერისთვის
 subscriptionUpdateBillingEnsure = შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, <a data-l10n-name="updateBillingUrl">აქედან</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, აქედან:
@@ -248,6 +321,7 @@ location-state-country = { $stateCode }, { $country } (მიახლოებ�
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (მიახლოებით)
+view-invoice-link-action = იხილეთ ზედნადები
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -590,6 +664,9 @@ subscriptionFirstInvoice-content-processing = თქვენი გადახ
 subscriptionFirstInvoice-content-install-2 = ცალკე მიიღებთ წერილს ახსნით, როგორ უნდა გამოიყენოთ { $productName }.
 subscriptionFirstInvoice-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = თქვენი შემდეგი ზედნადები გაიცემა თარიღით { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = { $productName } მომსახურებისთვის გადახდის საშუალებას ვადა გაუვიდა ან მალე გაუვა
 subscriptionPaymentExpired-title-2 = თქვენს გადახდის საშუალებას ვადა გაუვიდა ან მალე გაუვა
@@ -659,6 +736,9 @@ subscriptionSubsequentInvoice-title = გმადლობთ, რომ ჩვ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = მიღებულია თქვენი ბოლო გადახდა პროდუქტისთვის { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = თქვენი შემდეგი ზედნადები გაიცემა თარიღით { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = განახლების შედეგად მიიღეთ { $productName }
