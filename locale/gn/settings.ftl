@@ -792,6 +792,8 @@ tfa-replace-code-error-3 = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyr�
 tfa-create-code-error = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Ayvu ñemoneĩrã jeykekoha hekopyahupyre
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Ayvu ñemoneĩrã jeykekoha moheñoimbyre
 
 ## Page2faSetup
 
