@@ -148,7 +148,7 @@ paypal-payment-management-page-invalid-description = Es scheint ein Problem mit 
 page-not-found-title = Seite nicht gefunden
 page-not-found-description = Die angeforderte Seite wurde nicht gefunden. Wir wurden informiert und werden alle möglicherweise defekten Links reparieren.
 page-not-found-back-button = Zurück
-alert-dialog-title = Warnungsdialog
+alert-dialog-title = Warnhinweis
 
 ## Navigation breadcrumbs
 
