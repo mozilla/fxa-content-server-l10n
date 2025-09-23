@@ -254,7 +254,7 @@ subscription-charges-taxes = გადასახადები და მო�
 subscriptionCharges-content-tax-plaintext = გადასახადები და მოსაკრებლები: { $invoiceTaxAmount }
 subscription-charges-total = <b>ჯამი</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
-subscription-charges-total-plaintext = ჯამი: { $invoiceSubtotal }
+subscription-charges-total-plaintext = ჯამი: { $invoiceTotal }
 subscription-charges-credit-applied = დანარიცხი ასახულია
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-applied-plaintext = დანარიცხი ასახულია: { $creditApplied }
