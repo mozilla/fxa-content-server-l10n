@@ -256,11 +256,11 @@ subscription-charges-total-plaintext = Total: { $invoiceTotal }
 subscription-charges-credit-applied = Crédito aplicado
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-applied-plaintext = Crédito aplicado: { $creditApplied }
-subscription-charges-amount-paid = <b>Cantidad pagada</b>
+subscription-charges-amount-paid = <b>Monto pagado</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Monto pagado: { $invoiceAmountDue }
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscription-charges-credit-received = Recibió un crédito en la cuenta de { $creditReceived }, que se aplicará a sus facturas futuras.
+subscription-charges-credit-received = Recibiste un crédito en cuenta de { $creditReceived }, que se aplicará a tus facturas futuras.
 
 ##
 
