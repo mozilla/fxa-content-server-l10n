@@ -148,7 +148,7 @@ paypal-payment-management-page-invalid-description = Il semble y avoir une erreu
 page-not-found-title = Page introuvable
 page-not-found-description = La page demandée est introuvable. Nous en avons été informés et nous rétablirons les liens éventuellement cassés.
 page-not-found-back-button = Retour
-alert-dialog-title = Boîte de dialogue d’alerte
+alert-dialog-title = Fenêtre d’alerte
 
 ## Navigation breadcrumbs
 
@@ -292,7 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> facturés le { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> crédités sur votre compte
 subscription-content-coupon-applied = { $promotionName } appliqué
-subscription-content-next-bill-excl-disc-with-tax = La prochaine facture de <strong>{ $nextInvoiceTotal } + { $taxDue } taxes</strong>, hors remises, est due le <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-disc-with-tax = La prochaine facture de <strong>{ $nextInvoiceTotal } + { $taxDue } de taxes</strong>, hors remises, sera due le <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = La prochaine facture de <strong>{ $nextInvoiceTotal }</strong>, hors remises, sera due le <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Annuler l’abonnement
 subscription-content-no-longer-use-message = Vous ne pourrez plus utiliser { $productName } après le { $currentPeriodEnd }, le dernier jour de votre cycle de facturation.

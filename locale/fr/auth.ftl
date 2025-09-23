@@ -227,7 +227,7 @@ subscription-charges-list-price = Prix courant
 subscription-charges-list-price-plaintext = Prix courant : { $offeringPrice }
 subscription-charges-credit-from-unused-time = Avoir pour le temps non utilisé
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
-subscription-charges-credit-from-unused-time-plaintext = Crédit pour le temps non utilisé : { $unusedAmountTotal }
+subscription-charges-credit-from-unused-time-plaintext = Avoir pour le temps non utilisé : { $unusedAmountTotal }
 subscription-charges-subtotal = <b>Sous-total</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Sous-total : { $invoiceSubtotal }
@@ -237,16 +237,8 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Sous-total : { $invoiceSubt
 
 subscription-charges-one-time-discount = Remise unique
 subscription-charges-one-time-discount-plaintext = Remise unique : { $invoiceDiscountAmount }
-subscription-charges-repeating-discount =
-    { $discountDuration ->
-        [one] { $discountDuration }-mois de remise
-       *[other] { $discountDuration }-mois de remise
-    }
-subscription-charges-repeating-discount-plaintext =
-    { $discountDuration ->
-        [one] Remise de { $discountDuration } mois : { $invoiceDiscountAmount }
-       *[other] Remise de { $discountDuration } mois : { $invoiceDiscountAmount }
-    }
+subscription-charges-repeating-discount = Remise de { $discountDuration } mois
+subscription-charges-repeating-discount-plaintext = Remise de { $discountDuration } mois : { $invoiceDiscountAmount }
 subscription-charges-discount = Remise
 subscription-charges-discount-plaintext = Remise : { $invoiceDiscountAmount }
 subscription-charges-taxes = Taxes et frais
@@ -262,7 +254,7 @@ subscription-charges-amount-paid = <b>Montant payé</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Montant payé : { $invoiceAmountDue }
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscription-charges-credit-received = Vous avez reçu un crédit de { $creditReceived }, qui sera appliqué à vos prochaines factures.
+subscription-charges-credit-received = Vous avez reçu un avoir de { $creditReceived }, qui sera appliqué à vos prochaines factures.
 
 ##
 
@@ -275,7 +267,7 @@ subscriptionSupportContact = Merci d’avoir souscrit à { $productName }. Si vo
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Merci d’avoir souscrit à { $productName }. Si vous avez des questions sur votre abonnement ou avez besoin de plus d’informations sur { $productName }, veuillez nous contacter :
 subscription-support-get-help = Obtenez de l’aide pour votre abonnement
-subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Gérez votre abonnement</a>
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Gérer votre abonnement</a>
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Gérer votre abonnement :
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contacter l’assistance</a>
