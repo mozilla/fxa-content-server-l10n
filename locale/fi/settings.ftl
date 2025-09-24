@@ -471,6 +471,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla }lta
 
 connect-another-fx-mobile = Hanki { -brand-firefox } puhelimeen tai tablettiin
 connect-another-find-fx-mobile-2 = Löydä { -brand-firefox } { -google-play }sta ja { -app-store }sta.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Lataa { -brand-firefox } { -google-play }sta
+connect-another-app-store-image-3 =
+    .alt = Lataa { -brand-firefox } { -app-store }sta
 
 ## Connected services section
 
@@ -591,9 +597,41 @@ flow-recovery-key-info-cancel-link = Peruuta
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-cant-scan-qr-button = Etkö voi skannata QR-koodia?
 flow-setup-2fa-manual-key-heading = Kirjoita koodi manuaalisesti
 flow-setup-2fa-scan-qr-instead-button = Haluatko sen sijaan skannata QR-koodin?
 flow-setup-2fa-button = Jatka
+flow-setup-2fa-input-label = Kirjoita 6-numeroinen koodi
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+flow-setup-2fa-backup-choice-heading = Valitse palautustapa
+flow-setup-2fa-backup-choice-phone-badge = Helpoin
+flow-setup-2fa-backup-choice-code-badge = Turvallisin
+
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+flow-setup-2fa-backup-code-confirm-code-input = Kirjoita 10-merkkinen koodi
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Valmis
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-button-continue = Jatka
+
+##
+
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } koodi jäljellä
+       *[other] { $count } koodia jäljellä
+    }
+flow-setup-2fa-prompt-continue-button = Jatka
 
 ## FlowSetupPhoneConfirmCode
 
@@ -621,6 +659,8 @@ header-menu-open = Sulje valikko
 header-menu-closed = Sivuston navigointivalikko
 header-back-to-top-link =
     .title = Takaisin ylös
+header-back-to-settings-link =
+    .title = Takaisin { -product-mozilla-account }n asetuksiin
 header-title-2 = { -product-mozilla-account }
 header-help = Ohje
 
@@ -641,6 +681,16 @@ nav-linked-accounts = { la-heading }
 modal-close-title = Sulje
 modal-cancel-button = Peruuta
 modal-default-confirm-button = Vahvista
+
+## ModalMfaProtected
+
+modal-mfa-protected-title = Kirjoita vahvistuskoodi
+modal-mfa-protected-input-label = Kirjoita 6-numeroinen koodi
+modal-mfa-protected-cancel-button = Peruuta
+modal-mfa-protected-confirm-button = Vahvista
+modal-mfa-protected-code-expired = Vanheniko koodi?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Lähetä uusi koodi sähköpostiin.
 
 ## Modal Verify Session
 
@@ -669,6 +719,14 @@ nav-email-comm = Sähköpostiviestintä
 tfa-replace-code-error-3 = Varatodennuskoodiesi korvaamisessa ilmeni ongelma
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Varatodennuskoodeja luotaessa ilmeni ongelma
+
+## Page2faSetup
+
+page-2fa-setup-title = Kaksivaiheinen todennus
+page-2fa-setup-totpinfo-error = Kaksivaiheisen todennuksen määrittämisessä tapahtui virhe. Yritä myöhemmin uudelleen.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Koodi ei ole oikein. Yritä uudelleen.
+page-2fa-setup-success = Kaksivaiheinen todennus on otettu käyttöön
 
 ## Avatar change page
 
@@ -1100,6 +1158,8 @@ auth-error-1031 = Ikä täytyy antaa rekisteröitymistä varten
 auth-error-1032 = Sinun tulee antaa kelvollinen ikä rekisteröityäksesi
 auth-error-1054 = Virheellinen kaksivaiheisen todennuksen koodi
 auth-error-1062 = Virheellinen uudelleenohjaus
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Kirjoititko sähköpostiosoitteen väärin? { $domain } ei ole kelvollinen sähköpostipalvelu
 auth-error-1066 = Sähköpostimaskeja ei voi käyttää tilin luomiseen.
 auth-error-1067 = Kirjoititko sähköpostiosoitteesi väärin?
 # Displayed when we want to reference a user's previously set up recovery phone
@@ -1214,6 +1274,7 @@ inline-totp-setup-security-code-placeholder = Toodennuskoodi
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Todennuskoodi vaaditaan
 tfa-qr-code-alt = Ota käyttöön kaksivaiheinen todennus tuetuissa sovelluksissa käyttämällä koodia { $code }.
+inline-totp-setup-page-title = Kaksivaiheinen todennus
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1370,6 +1431,8 @@ reset-password-complete-banner-heading = Salasanasi on nollattu.
 confirm-backup-code-reset-password-input-label = Kirjoita 10-merkkinen koodi
 confirm-backup-code-reset-password-confirm-button = Vahvista
 confirm-backup-code-reset-password-subheader = Anna varatodennuskoodi
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Jäitkö ulos tililtäsi?
 
 ## Confirm Reset Password With Code
 
@@ -1391,6 +1454,7 @@ confirm-reset-password-otp-different-account-link = Käytä toista tiliä
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Nollaa salasanasi
+confirm-totp-reset-password-subheader-v2 = Kirjoita kaksivaiheisen todennuksen koodi
 confirm-totp-reset-password-trouble-code = Ongelmia koodin kirjoittamisen kanssa?
 confirm-totp-reset-password-confirm-button = Vahvista
 confirm-totp-reset-password-input-label-v2 = Kirjoita 6-numeroinen koodi
@@ -1415,6 +1479,7 @@ reset-password-confirmed-cta = Jatka palveluun { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Nollaa salasanasi
 password-reset-recovery-method-subheader = Valitse palautustapa
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 password-reset-recovery-method-code-info =
@@ -1425,6 +1490,20 @@ password-reset-recovery-method-code-info =
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Nollaa salasanasi
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Kirjoita palautuskoodi
+reset-password-recovery-phone-input-label = Kirjoita 6-numeroinen koodi
+reset-password-recovery-phone-code-submit-button = Vahvista
+reset-password-recovery-phone-resend-code-button = Lähetä koodi uudelleen
+reset-password-recovery-phone-resend-success = Koodi lähetetty
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Jäitkö ulos tililtäsi?
+reset-password-recovery-phone-send-code-error-heading = Koodin lähettämisessä oli ongelma
+reset-password-recovery-phone-code-verification-error-heading = Koodisi vahvistamisessa oli ongelma
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Yritä myöhemmin uudelleen.
+reset-password-recovery-phone-invalid-code-error-description = Koodi on virheellinen tai vanhentunut.
 reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
 reset-password-complete-new-password-saved = Uusi salasana tallennettu!
 reset-password-complete-recovery-key-created = Uusi tilin palautusavain luotu. Lataa ja tallenna se nyt.
@@ -1457,6 +1536,11 @@ signin-header = Kirjaudu sisään
 signin-use-a-different-account-link = Käytä toista tiliä
 signin-forgot-password-link = Unohditko salasanan?
 signin-password-button-label = Salasana
+signin-code-expired-error = Koodi vanhentunut. Kirjaudu sisään uudelleen.
+signin-account-locked-banner-heading = Nollaa salasanasi
+signin-account-locked-banner-description = Lukitsimme tilisi suojataksemme sitä epäilyttävältä toiminnalta.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Kirjaudu sisään nollaamalla salasanasi
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1507,6 +1591,8 @@ signin-recovery-method-code-info-v2 =
         [one] { $numBackupCodes } koodi jäljellä
        *[other] { $numBackupCodes } koodia jäljellä
     }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Ongelma lähetettäessä koodia palauttamisen puhelinnumeroon
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1574,6 +1660,7 @@ signin-token-code-resend-error = Jokin meni pieleen. Uutta koodia ei voitu lähe
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-header = Kirjaudu sisään
+signin-totp-code-subheader-v2 = Kirjoita kaksivaiheisen todennuksen koodi
 signin-totp-code-input-label-v4 = Syötä 6-numeroinen koodi
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Vahvista
@@ -1612,6 +1699,7 @@ confirm-signup-code-heading-2 = Anna vahvistuskoodi<span> { -product-mozilla-acc
 confirm-signup-code-input-label = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Vahvista
+confirm-signup-code-sync-button = Aloita synkronointi
 confirm-signup-code-code-expired = Vanheniko koodi?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Lähetä uusi koodi sähköpostiin.
@@ -1622,6 +1710,7 @@ confirm-signup-code-is-required-error = Vahvistuskoodi vaaditaan
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Luo salasana
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Miksi minun pitää luoda tämä tili?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1629,3 +1718,13 @@ signup-pocket-info-banner = Miksi minun pitää luoda tämä tili?
 signup-pocket-info-banner-link = Lue lisää
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Vaihda sähköpostiosoite
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
+signup-confirmed-sync-header = Synkronointi on käytössä
+signup-confirmed-sync-success-banner = { -product-mozilla-account } vahvistettu
+signup-confirmed-sync-button = Aloita selaaminen
+signup-confirmed-sync-add-device-link = Lisää toinen laite
+signup-confirmed-sync-manage-sync-button = Hallinnoi synkronointia
+signup-confirmed-sync-set-password-success-banner = Synkronoinnin salasana luotu
