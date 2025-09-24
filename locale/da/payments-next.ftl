@@ -121,7 +121,13 @@ subscription-management-button-support = Få hjælp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjælp til { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple }-abonnementer købt i appen
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: køb i appen
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google }-abonnementer købt i appen
+subscription-management-google-in-app-purchase-1 = { -brand-google }: køb i appen
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Næste regning forfalder til betaling den <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Dit abonnement udløber den <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Håndter abonnement på { $productName }
 subscription-management-button-manage-subscription = Håndter
@@ -142,6 +148,7 @@ paypal-payment-management-page-invalid-description = Der ser ud til at være en 
 page-not-found-title = Siden blev ikke fundet
 page-not-found-description = Den ønskede side blev ikke fundet. Vi har fået besked og vil rette links, der ikke virker.
 page-not-found-back-button = Gå tilbage
+alert-dialog-title = Advarselsdialogboks
 
 ## Navigation breadcrumbs
 
@@ -149,6 +156,8 @@ page-not-found-back-button = Gå tilbage
 subscription-management-breadcrumb-account-home = Startside for konto
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonnementer
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Håndter betalingsmetoder
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Gå tilbage til { $page }
 
@@ -279,6 +288,9 @@ next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } afgift</strong><span> faktureret den { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> faktureret den { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = Tilgodehavende på <strong>{ $creditApplied }</strong> føjet til din konto
 subscription-content-heading-cancel-subscription = Annuller abonnement
 subscription-content-no-longer-use-message = Du vil ikke længere kunne bruge { $productName } efter { $currentPeriodEnd }, der er den sidste dag i din faktureringsperiode.
 subscription-content-cancel-access-message = Annuller min adgang og kassér mine informationer gemt i { $productName } den { $currentPeriodEnd }

@@ -205,6 +205,9 @@ payment-method-payment-provider-plaintext = Betalingsmetode: { $paymentProviderN
 
 payment-provider-card-name-ending-in-plaintext = Betalingsmetode: { $cardName }, der ender på { $lastFour }
 payment-provider-card-ending-in-plaintext = Betalingsmetode: Kort, der ender på { $lastFour }
+payment-provider-card-ending-in = <b>Betalingsmetode:</b> Kort, der ender på { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Betalingsmetode:</b> { $cardName }, der ender på { $lastFour }
+subscription-charges-invoice-summary = Fakturaoversigt
 
 # Variables:
 
@@ -212,8 +215,54 @@ payment-provider-card-ending-in-plaintext = Betalingsmetode: Kort, der ender på
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Fakturanummer:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Fakturanummer: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Dato:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Dato: { $invoiceDateOnly }
+subscription-charges-prorated-price = Forholdsmæssig pris
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Forholdsmæssig pris: { $remainingAmountTotal }
+subscription-charges-list-price = Listepris
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Listepris: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Tilgodehavende fra ubrugt tid
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Tilgodehavende fra ubrugt tid:{ $unusedAmountTotal }
+subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Engangsrabat
+subscription-charges-one-time-discount-plaintext = Engangsrabat: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-måneds rabat
+       *[other] { $discountDuration }-måneders rabat
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-måneds rabat: { $invoiceDiscountAmount }
+       *[other] { $discountDuration }-måneders rabat: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Rabat
+subscription-charges-discount-plaintext = Rabat: { $invoiceDiscountAmount }
+subscription-charges-taxes = Afgifter og gebyrer
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Afgifter og gebyrer: { $invoiceTaxAmount }
+subscription-charges-total = <b>I alt</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = I alt: { $invoiceTotal }
+subscription-charges-credit-applied = Tilgodehavende anvendt
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Tilgodehavende anvendt: { $creditApplied }
+subscription-charges-amount-paid = <b>Beløb betalt</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Beløb betalt: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Du er blevet godskrevet { $creditReceived }, som vil blive anvendt på dine fremtidige fakturaer.
 
 ##
 
@@ -225,6 +274,13 @@ subscriptionSupport-plaintext = Har du spørgsmål om dit abonnement? Vores supp
 subscriptionSupportContact = Tak fordi du abonnerer på { $productName }. Hvis du har nogle spørgsmål om dit abonnement eller brug for mere information om { $productName }, så <a data-l10n-name="subscriptionSupportUrl">kontakt os</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Tak fordi du abonnerer på { $productName }. Hvis du har nogle spørgsmål om dit abonnement eller har brug for mere information om { $productName }, så kontakt os:
+subscription-support-get-help = Få hjælp med dit abonnement
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Håndter dit abonnement</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Håndter dit abonnement:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontakt support</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Kontakt support:
 subscriptionUpdateBillingEnsure = Du kan sikre dig, at din betalingsmetode og dine kontooplysninger er opdaterede <a data-l10n-name="updateBillingUrl">her</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Du kan sikre dig, at din betalingsmetode og dine kontooplysninger er opdaterede her:
@@ -265,6 +321,7 @@ location-state-country = { $stateCode }, { $country } (anslået)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (anslået)
+view-invoice-link-action = Se faktura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -607,6 +664,9 @@ subscriptionFirstInvoice-content-processing = Din betaling behandles i øjeblikk
 subscriptionFirstInvoice-content-install-2 = Du vil modtage en separat mail om, hvordan du begynder at bruge { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Din næste faktura udstedes den { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Betalingsmetode for { $productName } er udløbet eller udløber snart
 subscriptionPaymentExpired-title-2 = Din betalingsmetode er udløbet eller udløber snart
@@ -676,6 +736,9 @@ subscriptionSubsequentInvoice-title = Tak fordi du er abonnent!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Vi modtog din seneste betaling for { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Din næste faktura udstedes den { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Du har opgraderet til { $productName }
