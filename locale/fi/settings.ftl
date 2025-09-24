@@ -91,6 +91,25 @@ datablock-copy =
 datablock-print =
     .message = Tulostettu
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] Koodi kopioitu
+       *[other] Koodit kopioitu
+    }
+datablock-download-success =
+    { $count ->
+        [one] Koodi ladattu
+       *[other] Koodit ladattu
+    }
+datablock-print-success =
+    { $count ->
+        [one] Koodi tulostettu
+       *[other] Koodit tulostettu
+    }
+
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -134,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Vahvista salasana
 form-password-with-inline-criteria-reset-submit-button = Luo uusi salasana
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Salasana
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Toista salasana
+form-password-with-inline-criteria-set-password-submit-button = Aloita synkronointi
 form-password-with-inline-criteria-match-error = Salasanat eivät täsmää
 form-password-with-inline-criteria-sr-too-short-message = Salasanan tulee sisältää vähintään 8 merkkiä.
 form-password-with-inline-criteria-sr-not-email-message = Salasana ei saa sisältää sähköpostiosoitettasi.
@@ -323,6 +347,8 @@ confirmation-link-reused-message = Tämä vahvistuslinkki on jo käytetty, ja li
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Valitse kieli
+locale-toggle-browser-default = Selaimen oletus
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Virheellinen pyyntö
 
@@ -335,16 +361,20 @@ password-info-balloon-reset-risk-info = Nollauksen seurauksena saatat menettää
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Valitse vahva salasana, jota et ole käyttänyt muilla sivustoilla. Varmista, että se täyttää turvallisuusvaatimukset:
+password-strength-short-instruction = Valitse vahva salasana:
 password-strength-inline-min-length = Vähintään 8 merkkiä
 password-strength-inline-not-email = Ei sinun sähköpostiosoite
 password-strength-inline-not-common = Ei yleisesti käytetty salasana
 password-strength-inline-confirmed-must-match = Vahvistus vastaa uutta salasanaa
+password-strength-inline-passwords-match = Salasanat täsmäävät
 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Luo
 account-recovery-notification-header-value = Älä menetä tietojasi, jos unohdat salasanasi
 account-recovery-notification-header-description = Luo tilin palautusavain synkronoitujen selaustietojen palauttamiseksi, jos unohdat salasanasi.
+recovery-phone-promo-cta = Lisää palauttamisen puhelinnumero
 
 ## Ready component
 
@@ -558,6 +588,12 @@ flow-recovery-key-info-key-bullet-point-v2 = Siksi tilin palautusavaimen luomine
 flow-recovery-key-info-cta-text-v3 = Aloitetaan
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Peruuta
+
+## FlowSetup2faApp
+
+flow-setup-2fa-manual-key-heading = Kirjoita koodi manuaalisesti
+flow-setup-2fa-scan-qr-instead-button = Haluatko sen sijaan skannata QR-koodin?
+flow-setup-2fa-button = Jatka
 
 ## FlowSetupPhoneConfirmCode
 
