@@ -1600,6 +1600,8 @@ signin-recovery-method-send-code-error-heading = Ongelma lähetettäessä koodia
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = Kirjaudu sisään
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Kirjoita yksi kertakäyttöisistä koodeista, jotka tallensit kaksivaiheisen todennuksen määrittämisen yhteydessä.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = Kirjoita 10-merkkinen koodi
 # Form button to confirm if the backup authentication code entered by the user is valid
