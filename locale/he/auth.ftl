@@ -312,6 +312,7 @@ location-state-country = ‏{ $stateCode }, { $country } (משוער)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (משוער)
+view-invoice-link-action = הצגת חשבונית
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/

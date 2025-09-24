@@ -145,11 +145,14 @@ paypal-payment-management-page-invalid-description = נראה שיש שגיאה 
 page-not-found-title = הדף לא נמצא
 page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.
 page-not-found-back-button = חזרה אחורה
+alert-dialog-title = תיבת דו־שיח של התראה
 
 ## Navigation breadcrumbs
 
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = מינויים
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = ניהול אמצעי תשלום
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = חזרה ל{ $page }
 
@@ -277,8 +280,11 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <span>חיוב של</span> <strong>{ $invoiceTotal } + מס בסך { $taxDue }</strong> <span>בוצע בתאריך { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <span>חיוב של</span> <strong>{ $invoiceTotal }</strong> <span>בוצע בתאריך { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = זיכוי בסך <strong>{ $creditApplied }</strong> הונפק לחשבון שלך
 subscription-content-coupon-applied = ‏{ $promotionName } הוחל
+subscription-content-next-bill-excl-disc-with-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal } + מס בסך { $taxDue }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = ביטול מינוי
 subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
