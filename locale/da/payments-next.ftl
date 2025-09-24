@@ -291,6 +291,7 @@ next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at
 subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } afgift</strong><span> faktureret den { $billedOnDate }</span>
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> faktureret den { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = Tilgodehavende på <strong>{ $creditApplied }</strong> føjet til din konto
+subscription-content-coupon-applied = { $promotionName } anvendt
 subscription-content-heading-cancel-subscription = Annuller abonnement
 subscription-content-no-longer-use-message = Du vil ikke længere kunne bruge { $productName } efter { $currentPeriodEnd }, der er den sidste dag i din faktureringsperiode.
 subscription-content-cancel-access-message = Annuller min adgang og kassér mine informationer gemt i { $productName } den { $currentPeriodEnd }
