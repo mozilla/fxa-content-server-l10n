@@ -186,6 +186,75 @@ payment-plan-charged = חיוב של { $invoiceTotal } בתאריך { $invoiceDa
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = החשבונית הבאה: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>אמצעי תשלום:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = אמצעי תשלום: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = אמצעי תשלום: { $cardName } המסתיים ב־{ $lastFour }
+payment-provider-card-ending-in-plaintext = אמצעי תשלום: כרטיס המסתיים ב־{ $lastFour }
+payment-provider-card-ending-in = <b>אמצעי תשלום:</b> כרטיס המסתיים ב־{ $lastFour }
+payment-provider-card-ending-in-card-name = <b>אמצעי תשלום:</b> { $cardName } המסתיים ב־{ $lastFour }
+subscription-charges-invoice-summary = סיכום חשבונית
+
+# Variables:
+
+
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+subscription-charges-invoice-number = <b>מספר חשבונית:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = מספר חשבונית: { $invoiceNumber }
+subscription-charges-invoice-date = <b>תאריך:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = תאריך: { $invoiceDateOnly }
+subscription-charges-prorated-price = מחיר יחסי
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = מחיר יחסי: { $remainingAmountTotal }
+subscription-charges-credit-from-unused-time = זיכוי על זמן לא מנוצל
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = זיכוי על זמן לא מנוצל: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>סכום ביניים</b>
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = הנחה חד פעמית
+subscription-charges-one-time-discount-plaintext = הנחה חד פעמית: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] הנחה לחודש אחד
+        [two] הנחה לחודשיים
+       *[other] הנחה ל־{ $discountDuration } חודשים
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] הנחה לחודש אחד: { $invoiceDiscountAmount }
+        [two] הנחה לחודשיים: { $invoiceDiscountAmount }
+       *[other] הנחה ל־{ $discountDuration } חודשים: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = הנחה
+subscription-charges-discount-plaintext = הנחה: { $invoiceDiscountAmount }
+subscription-charges-taxes = מיסים ועמלות
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = מיסים ועמלות: { $invoiceTaxAmount }
+subscription-charges-total = <b>סה״כ</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = סה״כ: { $invoiceTotal }
+subscription-charges-credit-applied = זיכוי שהוחל
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = זיכוי שהוחל: { $creditApplied }
+subscription-charges-amount-paid = <b>הסכום ששולם</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = הסכום ששולם: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = קיבלת זיכוי בחשבון שלך בסך { $creditReceived }, אשר יחול על החשבוניות העתידיות שלך.
+
 ##
 
 subscriptionSupport = שאלות לגבי המינוי שלך? <a data-l10n-name="subscriptionSupportUrl">צוות התמיכה</a> שלנו כאן כדי לעזור לך.
@@ -196,6 +265,13 @@ subscriptionSupport-plaintext = שאלות לגבי המנוי שלך? צוות 
 subscriptionSupportContact = תודה שנרשמת ל־{ $productName }. אם יש לך שאלות כלשהן לגבי המינוי שלך או שיש לך צורך במידע נוסף על { $productName }, באפשרותך <a data-l10n-name="subscriptionSupportUrl">ליצור איתנו קשר</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = תודה שנרשמת ל־{ $productName }. אם יש לך שאלות כלשהן לגבי המינוי שלך או שיש לך צורך במידע נוסף על { $productName }, באפשרותך ליצור איתנו קשר:
+subscription-support-get-help = קבלת עזרה עם המינוי שלך
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">ניהול המינוי שלך</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = ניהול המינוי שלך:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">יצירת קשר עם התמיכה</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = יצירת קשר עם התמיכה:
 subscriptionUpdateBillingEnsure = באפשרותך לוודא שאמצעי התשלום ופרטי החשבון שלך מעודכנים <a data-l10n-name="updateBillingUrl">כאן</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = באפשרותך לוודא שאמצעי התשלום ופרטי החשבון שלך מעודכנים כאן:
