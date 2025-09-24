@@ -262,7 +262,7 @@ subscription-charges-amount-paid = <b>Betaald bedrag</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Betaald bedrag: { $invoiceAmountDue }
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscription-charges-credit-received = U hebt een accounttegoed van { $creditRevious } ontvangen. Dit tegoed wordt op uw toekomstige facturen toegepast.
+subscription-charges-credit-received = U hebt een accounttegoed van { $creditReceived } ontvangen. Dit tegoed wordt op uw toekomstige facturen toegepast.
 
 ##
 
