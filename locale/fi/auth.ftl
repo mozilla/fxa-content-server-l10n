@@ -179,12 +179,21 @@ payment-plan-charged = Veloitettu: { $invoiceTotal } { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Maksutapa:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Maksutapa: { $paymentProviderName }
+
 ## This string displays when the type of credit card is known
 ## https://stripe.com/docs/payments/cards/supported-card-brands
 ## Variables:
 ##  $cardName (String) - The brand name of the credit card, e.g. American Express
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
+payment-provider-card-name-ending-in-plaintext = Maksutapa: { $cardName } päättyy numeroihin { $lastFour }
+payment-provider-card-ending-in-plaintext = Maksutapa: Kortti, joka päättyy numeroihin { $lastFour }
+payment-provider-card-ending-in = <b>Maksutapa:</b> Kortti, joka päättyy numeroihin { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Maksutapa:</b> { $cardName } päättyen numeroihin { $lastFour }
 subscription-charges-invoice-summary = Laskun yhteenveto
 
 # Variables:
@@ -195,14 +204,37 @@ subscription-charges-invoice-summary = Laskun yhteenveto
 
 subscription-charges-invoice-number = <b>Laskun numero:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Laskun numero: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Päivämäärä:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Päivämäärä: { $invoiceDateOnly }
+subscription-charges-list-price = Listahinta
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Listahinta: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Hyvitys käyttämättömästä ajasta
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Hyvitys käyttämättömästä ajasta: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Välisumma</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Välisumma: { $invoiceSubtotal }
 
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount = Kertaluonteinen alennus
+subscription-charges-one-time-discount-plaintext = Kertaluonteinen alennus: { $invoiceDiscountAmount }
 subscription-charges-discount = Alennus
 subscription-charges-discount-plaintext = Alennus: { $invoiceDiscountAmount }
+subscription-charges-taxes = Verot ja maksut
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Verot ja maksut: { $invoiceTaxAmount }
+subscription-charges-total = <b>Yhteensä</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Yhteensä: { $invoiceTotal }
+subscription-charges-credit-applied = Hyvitys käytetty
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Hyvitys käytetty: { $creditApplied }
+subscription-charges-amount-paid = <b>Maksettu summa</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Maksettu summa: { $invoiceAmountDue }
 
 ##
 
@@ -214,6 +246,12 @@ subscriptionSupport-plaintext = Kysymyksiä tilaukseesi liittyen? Tukitiimimme a
 subscriptionSupportContact = Kiitos, että tilasit { $productName }:n. Jos sinulla on kysymyksiä tilaukseen liittyen tai tarvitset lisätietoja { $productName }:stä, <a data-l10n-name="subscriptionSupportUrl">ota yhteys meihin</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Kiitos, että tilasit { $productName }:n. Jos sinulla on kysymyksiä tilaukseen liittyen tai tarvitset lisätietoja { $productName }:stä, ota yhteys meihin:
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Hallitse tilaustasi</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Hallitse tilaustasi:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Ota yhteys tukeen</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Ota yhteys tukeen:
 subscriptionUpdateBillingEnsure = Voit varmistaa, että maksutapasi ja tilitietosi ovat ajan tasalla <a data-l10n-name="updateBillingUrl">täällä</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Voit varmistaa, että maksutapa- ja tilitiedot ovat ajan tasalla:
@@ -322,6 +360,8 @@ passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
 passwordChanged-description-2 = { -product-mozilla-account }si salasanasi vaihdettiin onnistuneesti seuraavalta laitteelta:
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
+passwordChangeRequired-action = Nollaa salasana
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Unohditko salasanan?
 password-forgot-otp-title = Unohditko salasanasi?
 password-forgot-otp-request = Saimme { -product-mozilla-account }n salasanan vaihtopyynnön lähteestä:
@@ -362,7 +402,10 @@ postAddLinkedAccount-subject-2 = Uusi tili yhdistetty { -product-mozilla-account
 postAddLinkedAccount-title-2 = { $providerName }-tilisi on linkitetty { -product-mozilla-account }in
 postAddLinkedAccount-action = Hallinnoi tiliä
 postAddRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
+postAddRecoveryPhone-title-v2 = Lisäsit palauttamisen puhelinnumeron
 postAddRecoveryPhone-action = Hallinnoi tiliä
+postAddTwoStepAuthentication-preview = Tilisi on suojattu
+postAddTwoStepAuthentication-subject-v3 = Kaksivaiheinen todennus on käytössä
 postAddTwoStepAuthentication-title-2 = Otit kaksivaiheisen todennuksen käyttöön
 postAddTwoStepAuthentication-action = Hallinnoi tiliä
 postChangeAccountRecovery-subject = Tilin palautusavain vaihdettu
@@ -376,7 +419,12 @@ postChangePrimary-title = Uusi ensisijainen sähköposti
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Olet vaihtanut ensisijaiseksi sähköpostiosoitteeksi { $email }. Tämä osoite on nyt käyttäjätunnuksesi { -product-mozilla-account }lle kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään.
 postChangePrimary-action = Hallinnoi tiliä
+postChangeRecoveryPhone-subject = Palauttamisen puhelinnumero päivitetty
 postChangeRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
+postChangeRecoveryPhone-title = Vaihdoit palauttamisen puhelinnumerosi
+postChangeTwoStepAuthentication-preview = Tilisi on suojattu
+postChangeTwoStepAuthentication-subject = Kaksivaiheinen todennus päivitetty
+postChangeTwoStepAuthentication-title = Kaksivaiheinen todennus on päivitetty
 postChangeTwoStepAuthentication-action = Hallinnoi tiliä
 postConsumeRecoveryCode-action = Hallinnoi tiliä
 postNewRecoveryCodes-subject-2 = Uudet varatodennuskoodit luotu
@@ -389,7 +437,9 @@ postRemoveAccountRecovery-title-3 = Poistit tilisi palautusavaimen
 postRemoveAccountRecovery-body-part1 = Tilisi palautusavainta tarvitaan salattujen selaustietojesi palauttamiseen, jos unohdat salasanasi.
 postRemoveAccountRecovery-body-part2 = Jos et vielä ole, niin luo uusi tilin palautusavain tilisi asetuksissa, jotta et menetä tallennettuja salasanojasi, kirjanmerkkejäsi, selaushistoriaasi ja paljon muuta.
 postRemoveAccountRecovery-action = Hallinnoi tiliä
+postRemoveRecoveryPhone-subject = Palauttamisen puhelinnumero poistettu
 postRemoveRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
+postRemoveRecoveryPhone-title = Palauttamisen puhelinnumero poistettu
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 # Variables:
@@ -512,6 +562,9 @@ subscriptionFirstInvoice-content-install-2 = Saat erillisen sähköpostin { $pro
 subscriptionFirstInvoice-content-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Maksutapa tuotteelle { $productName } on vanhentunut tai vanhenee pian
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } -maksu epäonnistui
 subscriptionPaymentFailed-title = Valitettavasti maksusi kanssa ilmeni ongelmia
 # Variables:
@@ -551,6 +604,9 @@ subscriptionRenewalReminder-content-closing = Terveisin
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } -tiimi
+subscriptionReplaced-title = Tilauksesi on päivitetty
+subscriptionReplaced-content-no-action = Sinulta ei vaadita toimenpiteitä.
+subscriptionsPaymentExpired-title-2 = Maksutapasi on vanhentunut tai vanhenemassa
 subscriptionsPaymentProviderCancelled-subject = Maksutietojen päivitys vaaditaan { -brand-mozilla }-tilauksiin
 subscriptionsPaymentProviderCancelled-title = Valitettavasti valitsemasi maksutavan kanssa ilmeni ongelmia
 subscriptionsPaymentProviderCancelled-content-detected = Havaitsimme ongelman seuraavien tilausten maksutavan kohdalla.
@@ -606,6 +662,15 @@ verify-title-3 = Avaa Internet { -brand-mozilla }lla
 verify-description-2 = Vahvista tilisi ja ota kaikki hyöty irti { -brand-mozilla }sta kaikkialla missä kirjaudut sisään, aloittaen tästä:
 verify-subject = Viimeistele tilisi luominen
 verify-action-2 = Vahvista tili
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Tämä koodi vanhenee { $expirationTime } minuutin kuluttua.
+       *[other] Tämä koodi vanhenee { $expirationTime } minuutin kuluttua.
+    }
+verifyAccountChange-title = Oletko muuttamassa tilitietojasi?
+verifyAccountChange-prompt = Jos kyllä, tässä on valtuutuskoodisi:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =
