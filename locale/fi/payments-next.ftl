@@ -24,6 +24,17 @@ upgrade-page-payment-information = Maksun tiedot
 auth-error-page-title = Emme voineet kirjata sinua sisään
 checkout-error-boundary-retry-button = Yritä uudelleen
 checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudelleen tai <contactSupportLink>ota yhteyttä tukeen.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex }-logo
+diners-logo-alt-text = { -brand-diner }-logo
+discover-logo-alt-text = { -brand-discover }-logo
+jcb-logo-alt-text = { -brand-jcb }-logo
+mastercard-logo-alt-text = { -brand-mastercard }-logo
+paypal-logo-alt-text = { -brand-paypal }-logo
+unionpay-logo-alt-text = { -brand-unionpay }-logo
+visa-logo-alt-text = { -brand-visa }-logo
+link-logo-alt-text = { -brand-link }-logo
+apple-pay-logo-alt-text = { -brand-apple-pay } -logo
+google-pay-logo-alt-text = { -brand-google-pay } -logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -106,6 +117,7 @@ subscription-management-button-support = Tuki
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName } -tuotetuki
 subscription-management-your-apple-iap-subscriptions-aria = Sovelluksen sisäiset { -brand-apple }-ostoksesi
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: sovelluksen sisäinen osto
 subscription-management-your-google-iap-subscriptions-aria = Sovelluksen sisäiset { -brand-google }-ostoksesi
 subscription-management-google-in-app-purchase-1 = { -brand-google }: sovelluksen sisäinen osto
 # $date (String) - Date of next bill
@@ -114,6 +126,7 @@ subscription-management-iap-sub-next-bill-is-due = Seuraava lasku erääntyy <st
 subscription-management-iap-sub-will-expire-on = Tilauksesi vanhenee <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Hallinnoi { $productName } -tilausta
+subscription-management-button-manage-subscription = Hallitse
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -123,6 +136,7 @@ subscription-management-page-subscription-interval-monthly = { $productName } (k
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 kuukautta)
 subscription-management-page-subscription-interval-yearly = { $productName } (vuosittain)
 subscription-management-page-paypal-error-banner = Virheelliset maksutiedot; tililläsi on virhe.
+subscription-management-page-paypal-error-banner-link = Hallitse
 paypal-payment-management-page-invalid-header = Virheelliset laskutustiedot
 # Page - Not Found
 page-not-found-title = Sivua ei löydy
@@ -137,6 +151,8 @@ subscription-management-breadcrumb-account-home = Tilin koti
 subscription-management-breadcrumb-subscriptions = Tilaukset
 # Link title - Payment method management
 subscription-management-breadcrumb-payment-2 = Hallitse maksutapoja
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Siirry takaisin sivulle { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -210,6 +226,8 @@ next-plan-details-header = Tuotteen tiedot
 next-plan-details-list-price = Listahinta
 next-plan-details-tax = Verot ja maksut
 next-plan-details-total-label = Yhteensä
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Maksettavaa
 next-plan-details-hide-button = Piilota tiedot
 next-plan-details-show-button = Näytä tiedot
 next-coupon-success = Tilauksesi uusitaan automaattisesti listahintaan.
@@ -259,6 +277,11 @@ subscription-content-heading-cancel-subscription = Peruuta tilaus
 subscription-cancellation-dialog-aside = Onko sinulla kysyttävää? Käy <LinkExternal>{ -brand-mozilla }-tuessa</LinkExternal>.
 subscription-content-button-resubscribe = Tilaa uudelleen
     .aria-label = Tilaa { $productName } uudelleen
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Käyttöoikeutesi palveluun { $name } päättyy <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = Haluatko jatkaa tuotteen { $name } käyttämistä?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
@@ -326,12 +349,14 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (vuosittain)
 
 # Checkout start
 metadata-title-checkout-start = Kassa | { $productTitle }
+metadata-description-checkout-start = Kirjoita maksutietosi ostoksen suorittamiseksi loppuun.
 # Checkout processing
 metadata-title-checkout-processing = Käsitellään | { $productTitle }
 # Checkout error
 metadata-title-checkout-error = Virhe | { $productTitle }
 # Checkout success
 metadata-title-checkout-success = Onnistui | { $productTitle }
+metadata-description-checkout-success = Onnittelut! Olet suorittanut ostoksen onnistuneesti.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Toimenpiteitä vaaditaan | { $productTitle }
 # Upgrade processing
