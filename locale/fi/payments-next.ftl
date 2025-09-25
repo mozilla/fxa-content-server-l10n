@@ -102,6 +102,7 @@ subscription-management-card-expires-date = Vanhenee { $expirationDate }
 subscription-management-subscriptions-heading = Tilaukset
 subscription-management-your-subscriptions-aria = Tilauksesi
 subscription-management-no-subscriptions = Sinulla ei ole vielä tilauksia
+subscription-management-google-in-app-purchase-1 = { -brand-google }: sovelluksen sisäinen osto
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill-is-due = Seuraava lasku erääntyy <strong>{ $date }</strong>
 # $date (String) - Date of In-App purchase expires
@@ -110,6 +111,10 @@ subscription-management-iap-sub-will-expire-on = Tilauksesi vanhenee <strong>{ $
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-weekly = { $productName } (viikoittain)
+subscription-management-page-subscription-interval-monthly = { $productName } (kuukausittain)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 kuukautta)
+subscription-management-page-subscription-interval-yearly = { $productName } (vuosittain)
 subscription-management-page-paypal-error-banner = Virheelliset maksutiedot; tililläsi on virhe.
 paypal-payment-management-page-invalid-header = Virheelliset laskutustiedot
 # Page - Not Found
@@ -186,6 +191,7 @@ payments-client-loading-spinner =
 payment-method-management-save-default = Aseta oletusmaksutavaksi
 # Save button for saving a new payment method
 payment-method-management-save-method = Tallenna maksutapa
+manage-stripe-payments-title = Hallitse maksutapoja
 
 ## Payment Section
 
@@ -239,13 +245,20 @@ next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi v
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> hyvitetty tilillesi
 subscription-content-heading-cancel-subscription = Peruuta tilaus
+subscription-cancellation-dialog-aside = Onko sinulla kysyttävää? Käy <LinkExternal>{ -brand-mozilla }-tuessa</LinkExternal>.
+subscription-content-button-resubscribe = Tilaa uudelleen
+    .aria-label = Tilaa { $productName } uudelleen
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Tilaa uudelleen
+    .aria-label = Tilaa { $productName } uudelleen
 resubscribe-success-dialog-title = Kiitos! Kaikki on nyt valmiina.
 resubscribe-success-dialog-action-button-close = Sulje
     .aria-label = Sulje ikkuna
@@ -326,4 +339,5 @@ metadata-description-default = Pyytämääsi sivua ei löytynyt.
 ## Coupon Error Messages
 
 next-coupon-error-expired = Antamasi koodi on vanhentunut.
+next-coupon-error-generic = Koodia käsiteltäessä tapahtui virhe. Yritä uudelleen.
 next-coupon-error-invalid = Antamasi koodi on virheellinen.
