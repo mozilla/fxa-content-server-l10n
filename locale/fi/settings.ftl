@@ -597,11 +597,17 @@ flow-recovery-key-info-cancel-link = Peruuta
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Yhdistä todennussovellukseesi
 flow-setup-2fa-cant-scan-qr-button = Etkö voi skannata QR-koodia?
 flow-setup-2fa-manual-key-heading = Kirjoita koodi manuaalisesti
+flow-setup-2fa-manual-key-instruction = <strong>Vaihe 1:</strong> Syötä tämä koodi haluamaasi todennussovellukseen.
 flow-setup-2fa-scan-qr-instead-button = Haluatko sen sijaan skannata QR-koodin?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Lue lisää todennussovelluksista
 flow-setup-2fa-button = Jatka
+flow-setup-2fa-step-2-instruction = <strong>Vaihe 2:</strong> Syötä todennussovelluksestasi saamasi koodi.
 flow-setup-2fa-input-label = Kirjoita 6-numeroinen koodi
+flow-setup-2fa-code-error = Virheellinen tai vanhentunut koodi. Tarkista todennussovelluksesi ja yritä uudelleen.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -631,6 +637,10 @@ flow-setup-2fa-inline-complete-backup-code-info =
         [one] { $count } koodi jäljellä
        *[other] { $count } koodia jäljellä
     }
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Jatka palveluun { $serviceName }
+flow-setup-2fa-prompt-heading = Ota käyttöön kaksivaiheinen todennus
 flow-setup-2fa-prompt-continue-button = Jatka
 
 ## FlowSetupPhoneConfirmCode
@@ -860,6 +870,7 @@ recent-activity-account-secondary-email-added = Toissijainen sähköpostiosoite 
 recent-activity-account-secondary-email-removed = Toissijainen sähköpostiosoite poistettu
 recent-activity-account-emails-swapped = Ensisijainen ja toissijainen sähköpostiosoite vaihdettu
 recent-activity-session-destroy = Kirjauduttu ulos istunnosta
+recent-activity-must-reset-password = Salasanan nollaus vaaditaan
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Muuta toimintaa tilillä
 

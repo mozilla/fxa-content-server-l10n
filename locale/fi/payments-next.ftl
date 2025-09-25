@@ -97,7 +97,7 @@ subscription-management-account-profile-picture = Tilin profiilikuva
 
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Tilin luottosaldo
+subscription-management-account-credit-balance-heading = Tilin hyvityssaldo
 subscription-management-account-credit-balance-message = Hyvitys kohdistetaan automaattisesti tuleviin laskuihin
 subscription-management-payment-information-heading = Maksun tiedot
 subscription-management-button-add-payment-method-aria = Lisää maksutapa
@@ -131,6 +131,7 @@ subscription-management-button-manage-subscription = Hallitse
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (päivittäin)
 subscription-management-page-subscription-interval-weekly = { $productName } (viikoittain)
 subscription-management-page-subscription-interval-monthly = { $productName } (kuukausittain)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 kuukautta)
@@ -226,6 +227,11 @@ next-plan-details-header = Tuotteen tiedot
 next-plan-details-list-price = Listahinta
 next-plan-details-tax = Verot ja maksut
 next-plan-details-total-label = Yhteensä
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Hyvitys käyttämättömästä ajasta
+purchase-details-subtotal-label = Välisumma
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Hyvitys käytetty
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
 purchase-details-total-due-label = Maksettavaa
 next-plan-details-hide-button = Piilota tiedot
@@ -272,8 +278,18 @@ next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi v
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } vero</strong><span> veloitettu { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> veloitettu { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> hyvitetty tilillesi
 subscription-content-heading-cancel-subscription = Peruuta tilaus
+subscription-content-button-stay-subscribed = Jatka tilausta
+    .aria-label = Jatka tuotteen { $productName } tilausta
+subscription-content-button-cancel-subscription = Peruuta tilaus
+    .aria-label = Peruuta tuotteen { $productName } tilaus
+subscription-content-button-cancel = Peruuta
+    .aria-label = Peruuta tuotteen { $productName } tilaus
+subscription-content-cancel-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
+subscription-cancellation-dialog-title = Jäämme kaipaamaan sinua
 subscription-cancellation-dialog-aside = Onko sinulla kysyttävää? Käy <LinkExternal>{ -brand-mozilla }-tuessa</LinkExternal>.
 subscription-content-button-resubscribe = Tilaa uudelleen
     .aria-label = Tilaa { $productName } uudelleen
@@ -334,6 +350,9 @@ upgrade-purchase-details-current-plan-label = Nykyinen tilaustyyppi
 upgrade-purchase-details-new-plan-label = Uusi tilaustyyppi
 upgrade-purchase-details-promo-code = Tarjouskoodi
 upgrade-purchase-details-tax-label = Verot ja maksut
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Tilille myönnetty hyvitys
+upgrade-purchase-details-credit-will-be-applied = Hyvitys lisätään tilillesi ja sitä käytetään tulevien laskujen maksamiseen.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -361,6 +380,7 @@ metadata-description-checkout-success = Onnittelut! Olet suorittanut ostoksen on
 metadata-title-checkout-needs-input = Toimenpiteitä vaaditaan | { $productTitle }
 # Upgrade processing
 metadata-title-upgrade-processing = Käsitellään | { $productTitle }
+metadata-description-upgrade-processing = Odota, kun käsittelemme maksuasi.
 # Upgrade error
 metadata-title-upgrade-error = Virhe | { $productTitle }
 # Upgrade success
@@ -373,6 +393,9 @@ metadata-description-default = Pyytämääsi sivua ei löytynyt.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Antamaasi koodia ei voi lunastaa — tililläsi on aiempi tilaus johonkin palveluistamme.
 next-coupon-error-expired = Antamasi koodi on vanhentunut.
 next-coupon-error-generic = Koodia käsiteltäessä tapahtui virhe. Yritä uudelleen.
 next-coupon-error-invalid = Antamasi koodi on virheellinen.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Antamasi koodi on käytetty liian monta kertaa.
