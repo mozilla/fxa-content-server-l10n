@@ -102,10 +102,16 @@ subscription-management-card-expires-date = Vanhenee { $expirationDate }
 subscription-management-subscriptions-heading = Tilaukset
 subscription-management-your-subscriptions-aria = Tilauksesi
 subscription-management-no-subscriptions = Sinulla ei ole vielä tilauksia
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Seuraava lasku erääntyy <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Tilauksesi vanhenee <strong>{ $date }</strong>
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-paypal-error-banner = Virheelliset maksutiedot; tililläsi on virhe.
+paypal-payment-management-page-invalid-header = Virheelliset laskutustiedot
 # Page - Not Found
 page-not-found-title = Sivua ei löydy
 page-not-found-description = Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme korjaamaan rikkinäiset linkit.
