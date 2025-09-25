@@ -223,6 +223,7 @@ subscription-charges-total = <b>Total</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Total: { $invoiceTotal }
 subscription-charges-credit-applied = Credito applicate
+subscription-charges-amount-paid = <b>Amonta pagate</b>
 
 ##
 
