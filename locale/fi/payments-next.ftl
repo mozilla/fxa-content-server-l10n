@@ -102,11 +102,18 @@ subscription-management-card-expires-date = Vanhenee { $expirationDate }
 subscription-management-subscriptions-heading = Tilaukset
 subscription-management-your-subscriptions-aria = Tilauksesi
 subscription-management-no-subscriptions = Sinulla ei ole vielä tilauksia
+subscription-management-button-support = Tuki
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = { $productName } -tuotetuki
+subscription-management-your-apple-iap-subscriptions-aria = Sovelluksen sisäiset { -brand-apple }-ostoksesi
+subscription-management-your-google-iap-subscriptions-aria = Sovelluksen sisäiset { -brand-google }-ostoksesi
 subscription-management-google-in-app-purchase-1 = { -brand-google }: sovelluksen sisäinen osto
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill-is-due = Seuraava lasku erääntyy <strong>{ $date }</strong>
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-will-expire-on = Tilauksesi vanhenee <strong>{ $date }</strong>
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Hallinnoi { $productName } -tilausta
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -227,6 +234,8 @@ select-tax-location-error-missing-postal-code = Kirjoita postinumerosi
 select-tax-location-error-invalid-postal-code = Kirjoita kelvollinen postinumero
 select-tax-location-successfully-updated = Sijaintisi on päivitetty.
 select-tax-location-error-location-not-updated = Sijaintiasi ei voitu päivittää. Yritä uudelleen.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Tilisi laskutus tapahtuu valuutassa { $currencyDisplayName }. Valitse maa, joka käyttää valuuttaa { $currencyDisplayName }.
 signin-form-continue-button = Jatka
 signin-form-email-input = Kirjoita sähköpostiosoitteesi
 signin-form-email-input-missing = Kirjoita sähköpostiosoitteesi
@@ -309,6 +318,7 @@ upgrade-purchase-details-tax-label = Verot ja maksut
 upgrade-purchase-details-new-plan-daily = { $productName } (päivittäin)
 upgrade-purchase-details-new-plan-weekly = { $productName } (viikoittain)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kuukausittain)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 kuukautta)
 upgrade-purchase-details-new-plan-yearly = { $productName } (vuosittain)
 
 ## Page Metadata Information
