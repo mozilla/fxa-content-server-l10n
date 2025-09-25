@@ -206,7 +206,11 @@ subscription-charges-invoice-summary = Summario del factura
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Numero de factura:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Numero de factura: { $invoiceNumber }
+subscription-charges-invoice-date-plaintext = Data: { $invoiceDateOnly }
+subscription-charges-credit-from-unused-time = Credito de tempore inutilisate
+subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
 
@@ -215,6 +219,10 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal
 
 subscription-charges-discount = Disconto
 subscription-charges-discount-plaintext = Disconto: { $invoiceDiscountAmount }
+subscription-charges-total = <b>Total</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Total: { $invoiceTotal }
+subscription-charges-credit-applied = Credito applicate
 
 ##
 
