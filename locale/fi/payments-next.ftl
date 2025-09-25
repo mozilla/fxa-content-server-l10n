@@ -9,8 +9,11 @@ next-payment-method-header = Valitse maksutapa
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Sinun on ensin hyväksyttävä tilauksesi
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Valitse maasi ja anna postinumerosi <p>jatkaaksesi tuotteen { $productName } kanssa kassalle</p>
 location-banner-info = Emme pystyneet tunnistamaan sijaintiasi automaattisesti
 location-required-disclaimer = Käytämme tätä tietoa vain verojen ja valuutan laskemiseen.
+location-banner-currency-change = Valuutanvaihtoa ei tueta. Jatka valitsemalla maa, joka vastaa nykyistä laskutusvaluuttaasi.
 
 ## Page - Upgrade page
 
@@ -33,13 +36,20 @@ checkout-error-contact-support-button = Ota yhteys tukeen
 checkout-error-not-eligible = Et voi tilata tätä tuotetta - ota yhteys tukeemme, jotta voimme auttaa sinua.
 checkout-error-already-subscribed = Olet jo tilannut tämän tuotteen.
 checkout-error-contact-support = Ota yhteys tukeen, jotta voimme auttaa sinua.
+cart-error-currency-not-determined = Emme pystyneet määrittämään tämän ostoksen valuuttaa. Yritä uudelleen.
+checkout-processing-general-error = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
+cart-total-mismatch-error = Laskun summa on muuttunut. Yritä uudelleen.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yritä uudestaan.
 intent-expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
+intent-payment-error-try-again = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Yritä uudestaan tai ole yhteydessä kortin myöntäjään.
+intent-payment-error-get-in-touch = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Ole yhteydessä kortin myöntäjään.
 intent-payment-error-generic = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
 intent-payment-error-insufficient-funds = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
 general-paypal-error = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
+paypal-active-subscription-no-billing-agreement-error = Vaikuttaa siltä, että { -brand-paypal }-tilisi laskutuksessa oli ongelma. Ota automaattiset maksut uudelleen käyttöön tilauksessasi.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -76,6 +86,8 @@ subscription-management-account-profile-picture = Tilin profiilikuva
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Tilin luottosaldo
+subscription-management-account-credit-balance-message = Hyvitys kohdistetaan automaattisesti tuleviin laskuihin
 subscription-management-payment-information-heading = Maksun tiedot
 subscription-management-button-add-payment-method-aria = Lisää maksutapa
 subscription-management-button-add-payment-method = Lisää
