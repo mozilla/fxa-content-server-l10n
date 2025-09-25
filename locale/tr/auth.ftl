@@ -189,11 +189,48 @@ payment-plan-charged = { $invoiceDateOnly } tarihinde { $invoiceTotal } tahsil e
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Sonraki fatura: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Ödeme yöntemi:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Ödeme yöntemi: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Ödeme yöntemi: { $lastFour } ile biten { $cardName }
+payment-provider-card-ending-in-plaintext = Ödeme yöntemi: { $lastFour } ile biten kart
+payment-provider-card-ending-in = <b>Ödeme yöntemi:</b> { $lastFour } ile biten kart
+payment-provider-card-ending-in-card-name = <b>Ödeme yöntemi:</b> { $lastFour } ile biten { $cardName }
+subscription-charges-invoice-summary = Fatura özeti
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Fatura numarası:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Fatura numarası: { $invoiceNumber }
+subscription-charges-invoice-date-plaintext = Tarih: { $invoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ara toplam: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Tek seferlik indirim
+subscription-charges-one-time-discount-plaintext = Tek seferlik indirim: { $invoiceDiscountAmount }
+subscription-charges-discount = İndirim
+subscription-charges-discount-plaintext = İndirim: { $invoiceDiscountAmount }
+subscription-charges-taxes = Vergiler ve ücretler
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Vergiler ve ücretler: { $invoiceTaxAmount }
+subscription-charges-total = <b>Toplam</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Toplam: { $invoiceTotal }
 
 ##
 
@@ -205,6 +242,13 @@ subscriptionSupport-plaintext = Aboneliğinizle ilgili sorularınız mı var? De
 subscriptionSupportContact = { $productName } abonesi olduğunuz için teşekkür ederiz. Aboneliğinizle ilgili bir sorunuz veya { $productName } hakkında daha fazla bilgiye ihtiyacınız varsa lütfen <a data-l10n-name="subscriptionSupportUrl">bizimle iletişime geçin</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = { $productName } abonesi olduğunuz için teşekkür ederiz. Aboneliğinizle ilgili bir sorunuz veya { $productName } hakkında daha fazla bilgiye ihtiyacınız varsa lütfen bizimle iletişime geçin:
+subscription-support-get-help = Aboneliğinizle ilgili yardım alın
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Aboneliğinizi yönetin</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Aboneliğinizi yönetin:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Destek birimine ulaşın</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Destek birimine ulaşın:
 subscriptionUpdateBillingEnsure = Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını <a data-l10n-name="updateBillingUrl">buradan</a> kontrol edebilirsiniz.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını buradan kontrol edebilirsiniz:
@@ -245,6 +289,7 @@ location-state-country = { $stateCode }, { $country } (tahmini)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (tahmini)
+view-invoice-link-action = Faturayı görüntüle
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/

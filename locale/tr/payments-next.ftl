@@ -140,6 +140,7 @@ paypal-payment-management-page-invalid-header = Geçersiz fatura bilgileri
 page-not-found-title = Sayfa bulunamadı
 page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik.
 page-not-found-back-button = Geri dön
+alert-dialog-title = Uyarı penceresi
 
 ## Navigation breadcrumbs
 
@@ -147,6 +148,8 @@ page-not-found-back-button = Geri dön
 subscription-management-breadcrumb-account-home = Hesap ana sayfası
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonelikler
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Ödeme yöntemlerini yönet
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = { $page } sayfasına geri dön
 
