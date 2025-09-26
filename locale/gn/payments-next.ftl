@@ -142,6 +142,7 @@ subscription-management-page-subscription-interval-yearly = { $productName } (ar
 subscription-management-page-paypal-error-banner = Marandu jehepyme’ẽrã ndoikói; ojavy ne mba’ete.
 subscription-management-page-paypal-error-banner-link = Ñangareko
 paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹva
+paypal-payment-management-page-invalid-description = Oĩvaicha jejavy { -brand-paypal } mba’ete ndive. Roikotevẽ emboguata mba’eichaitépa emoĩporãta ko apañuái jehepyme’ẽ rehegua.
 # Page - Not Found
 page-not-found-title = Kuatiarogue ojejuhu’ỹva
 page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne mba’ejerure ha romoĩporãta juajuha ikatúva oñembyai.

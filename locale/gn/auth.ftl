@@ -505,6 +505,7 @@ postChangeRecoveryPhone-requested-device = Ejerure upe guive:
 postChangeTwoStepAuthentication-preview = Ne mba’ete oñemo’ãma
 postChangeTwoStepAuthentication-subject = Ndoikói ñemoneĩ mokõi jeku’egua
 postChangeTwoStepAuthentication-title = Oñembohekopyahúma ñemoneĩ mokõi jeku’egua
+postChangeTwoStepAuthentication-use-new-account = Ko’ág̃a eipuruva’erã { -product-mozilla-account } jeike pyahu ne rembiporu’i ñemoneĩmbyrépe. Pe itujavéva ndoikomo’ãvéitama ha ikatu embogue.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Nde ejerure kóva chupe:
 postChangeTwoStepAuthentication-action = Mba’ete ñangareko
