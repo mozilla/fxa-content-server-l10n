@@ -236,7 +236,7 @@ next-plan-details-total-label = 总计
 purchase-details-unused-time-label = 转换自未使用天数的余额
 purchase-details-subtotal-label = 小计
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
-purchase-details-credit-applied-label = 使用余额
+purchase-details-credit-applied-label = 已使用余额
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
 purchase-details-total-due-label = 合计应付
 next-plan-details-hide-button = 隐藏详细信息
