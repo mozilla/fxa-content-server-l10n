@@ -192,6 +192,10 @@ payment-plan-charged = { $invoiceTotal } yn rekkening brocht op { $invoiceDateOn
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Betellingsmetoade:</b> { $paymentProviderName }
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
