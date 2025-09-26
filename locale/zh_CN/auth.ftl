@@ -244,6 +244,8 @@ subscription-charges-credit-applied-plaintext = 已使用余额：{ $creditAppli
 subscription-charges-amount-paid = <b>实付金额</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = 实付金额
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = 您已收到 { $creditReceived } 账户余额，将于以后付款时抵用。
 
 ##
 
@@ -255,6 +257,13 @@ subscriptionSupport-plaintext = 遇到订阅相关的问题？我们的支持团
 subscriptionSupportContact = 感谢您订阅 { $productName }。如果您对您的订阅有任何疑问，或需要了解有关 { $productName } 的更多信息，请<a data-l10n-name="subscriptionSupportUrl">联系我们</a>。
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = 感谢您订阅 { $productName }。如果您对您的订阅有任何疑问，或需要了解有关{ $productName } 的更多信息，请联系我们：
+subscription-support-get-help = 获取订阅方面的帮助
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">管理订阅</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = 管理订阅：
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">联系支持</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = 联系支持：
 subscriptionUpdateBillingEnsure = 您可以在<a data-l10n-name="updateBillingUrl">此处</a>确认您的付款方式和账户信息是否为最新。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = 您可以在此处确认您的付款方式和账户信息是否为最新：
@@ -295,6 +304,7 @@ location-state-country = { $country }，{ $stateCode }（估计）
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country }（估计）
+view-invoice-link-action = 查看发票
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -636,6 +646,9 @@ subscriptionFirstInvoice-content-processing = 正在处理您的款项，最多�
 subscriptionFirstInvoice-content-install-2 = 您将收到另一封电子邮件，介绍如何开始使用 { $productName }。
 subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = 下次将于 { $nextInvoiceDateOnly } 开具发票。
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = { $productName } 的付款方式已过期或即将到期
 subscriptionPaymentExpired-title-2 = 您的付款方式已过期或即将到期
@@ -706,6 +719,9 @@ subscriptionSubsequentInvoice-title = 感谢您成为订阅者！
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = 我们已收到您最近为 { $productName } 支付的款项。
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = 下次将于 { $nextInvoiceDateOnly } 开具发票。
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = 您已升级至 { $productName }
 subscriptionUpgrade-title = 感谢您的升级订阅！
@@ -745,12 +761,12 @@ subscriptionUpgrade-content-new-price-month = 此后，您将需要月付 { $pay
 subscriptionUpgrade-content-new-price-halfyear = 此后，您将需要每六个月支付 { $paymentAmountNew }（未含折扣）。
 subscriptionUpgrade-content-new-price-year = 此后，您将需要年付 { $paymentAmountNew }（未含折扣）。
 subscriptionUpgrade-content-new-price-default = 此后，您将需要每账单周期支付 { $paymentAmountNew }（未含折扣）。
-subscriptionUpgrade-content-new-price-day-dtax = 此后，您将需要日付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
-subscriptionUpgrade-content-new-price-week-tax = 此后，您将需要周付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
-subscriptionUpgrade-content-new-price-month-tax = 此后，您将需要月付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
-subscriptionUpgrade-content-new-price-halfyear-tax = 此后，您将需要每六个月支付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
-subscriptionUpgrade-content-new-price-year-tax = 此后，您将需要年付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
-subscriptionUpgrade-content-new-price-default-tax = 此后，您将需要每账单周期支付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-day-dtax = 此后，您将需要日付 { $paymentAmountNew } + 税款 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-week-tax = 此后，您将需要周付 { $paymentAmountNew } + 税款 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-month-tax = 此后，您将需要月付 { $paymentAmountNew } + 税款 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-halfyear-tax = 此后，您将需要每六个月支付 { $paymentAmountNew } + 税款 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-year-tax = 此后，您将需要年付 { $paymentAmountNew } + 税款 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-default-tax = 此后，您将需要每账单周期支付 { $paymentAmountNew } + 税款 { $paymentTaxNew }（未含折扣）。
 subscriptionUpgrade-existing = 若此次的升级内容与您现有的订阅重合，我们将进行处理，并向您单独发送一封邮件说明详细信息。若您的新方案包含需要安装的产品，我们将向您单独发送一封邮件说明安装方法。
 subscriptionUpgrade-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 unblockCode-subject = 账户授权码

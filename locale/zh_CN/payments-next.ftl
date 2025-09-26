@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } �
 page-not-found-title = 找不到页面
 page-not-found-description = 找不到您要打开的页面。我们已获悉此问题，并将修复可能出现问题的链接。
 page-not-found-back-button = 返回
+alert-dialog-title = 提示对话框
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = 返回
 subscription-management-breadcrumb-account-home = 账户主页
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = 订阅
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = 管理付款方式
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = 返回{ $page }
 
@@ -285,6 +288,7 @@ next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + 税款 { $taxDue }</strong><span>结算日为 { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> 余额已存入您的账户
 subscription-content-coupon-applied = 已享“{ $promotionName }”优惠
 subscription-content-next-bill-excl-no-tax = 下次将于 <strong>{ $nextBillDate }</strong> 收取 <strong>{ $nextInvoiceTotal }</strong>（未含优惠）
