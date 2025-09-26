@@ -292,6 +292,7 @@ subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</stron
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jedeverã og̃uahẽva ne mba’etépe
 subscription-content-coupon-applied = { $promotionName } mboajepyre
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
+subscription-content-no-longer-use-message = Ndojeporukuaamo’ãi { $productName } pe { $currentPeriodEnd } rire, pe ára paha iñemuhakuatia hag̃ua.
 subscription-content-cancel-access-message =
     Ehejarei aikeha ha che mba’ekuaarã ñongatupyre
     { $productName } pegua { $currentPeriodEnd } guive
@@ -320,6 +321,7 @@ resubscribe-dialog-title = ¿Eiporusépa gueteri { $name }?
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
+resubscribe-dialog-content = { $name } jeike oku’ejeýta, ha pe ñemuhakuatia rape ha jehepyme’ẽ naiñambuemo’ãi. Pe jehepyme’ẽ oútava { $amount } mba’e { $endDate } og̃uahẽvo.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Eñemboheraguapyjey
     .aria-label = Eñemboheraguapyjey { $productName }-pe

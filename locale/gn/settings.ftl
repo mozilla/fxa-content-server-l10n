@@ -754,6 +754,7 @@ modal-default-confirm-button = Moneĩ
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Emoinge ayvu ñemoneĩrã
+modal-mfa-protected-subtitle = Ore pytyvõ roikuaa hag̃ua ndeha emoambuéva ne mba’ete marandu.
 modal-mfa-protected-input-label = Emoinge ayvu 6 taíva
 modal-mfa-protected-cancel-button = Heja
 modal-mfa-protected-confirm-button = Moneĩ
