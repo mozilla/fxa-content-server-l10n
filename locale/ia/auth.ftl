@@ -219,6 +219,12 @@ subscription-charges-invoice-number = <b>Numero de factura:</b> { $invoiceNumber
 subscription-charges-invoice-number-plaintext = Numero de factura: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Data:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Data: { $invoiceDateOnly }
+subscription-charges-prorated-price = Precio dividite pro rata
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Precio dividite pro rata: { $remainingAmountTotal }
+subscription-charges-list-price = Precio de lista
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Precio de lista: { $offeringPrice }
 subscription-charges-credit-from-unused-time = Credito de tempore inutilisate
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-from-unused-time-plaintext = Credito ab tempore non usate: { $unusedAmountTotal }
@@ -229,8 +235,23 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount = Disconto una tantum
+subscription-charges-one-time-discount-plaintext = Disconto una tantum: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] Disconto de { $discountDuration }-mense
+       *[other] Disconto de { $discountDuration }-menses
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Disconto de { $discountDuration }-mense: { $invoiceDiscountAmount }
+       *[other] Disconto de { $discountDuration }-menses: { $invoiceDiscountAmount }
+    }
 subscription-charges-discount = Disconto
 subscription-charges-discount-plaintext = Disconto: { $invoiceDiscountAmount }
+subscription-charges-taxes = Taxas e oneres
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Taxas e oneres: { $invoiceTaxAmount }
 subscription-charges-total = <b>Total</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Total: { $invoiceTotal }
