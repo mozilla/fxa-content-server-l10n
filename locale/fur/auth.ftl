@@ -192,6 +192,25 @@ payment-plan-charged = Adebit: { $invoiceTotal } ai { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Prossime fature: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Metodi di paiament:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Metodi di paiament: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Metodi di paiament: { $cardName } che e finìs cun { $lastFour }
+payment-provider-card-ending-in-plaintext = Metodi di paiament: cjarte che e finìs cun { $lastFour }
+payment-provider-card-ending-in = <b>Metodi di paiament:</b> cjarte che e finìs cun { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Metodi di paiament:</b> { $cardName } che e finìs cun { $lastFour }
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
