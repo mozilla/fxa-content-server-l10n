@@ -207,6 +207,7 @@ payment-provider-card-name-ending-in-plaintext = Metodi di paiament: { $cardName
 payment-provider-card-ending-in-plaintext = Metodi di paiament: cjarte che e finìs cun { $lastFour }
 payment-provider-card-ending-in = <b>Metodi di paiament:</b> cjarte che e finìs cun { $lastFour }
 payment-provider-card-ending-in-card-name = <b>Metodi di paiament:</b> { $cardName } che e finìs cun { $lastFour }
+subscription-charges-invoice-summary = Sintesi fature
 
 # Variables:
 
@@ -214,8 +215,54 @@ payment-provider-card-ending-in-card-name = <b>Metodi di paiament:</b> { $cardNa
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Numar fature:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Numar fature: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Date:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Date: { $invoiceDateOnly }
+subscription-charges-prorated-price = Presit ripartît in mût proporzionâl
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Presit ripartît in mût proporzionâl: { $remainingAmountTotal }
+subscription-charges-list-price = Presit di listin
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Presit di listin: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Credit dal timp che no tu âs doprât
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Credit dal timp che no tu âs doprât: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Totâl parziâl</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Totâl parziâl: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Scont una tantum
+subscription-charges-one-time-discount-plaintext = Scont una tantum: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] Scont di { $discountDuration } mês
+       *[other] Scont di { $discountDuration } mês
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Scont di { $discountDuration } mês: { $invoiceDiscountAmount }
+       *[other] Scont di { $discountDuration } mês: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Scont
+subscription-charges-discount-plaintext = Scont: { $invoiceDiscountAmount }
+subscription-charges-taxes = Tassis e comissions
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Tassis e comissions: { $invoiceTaxAmount }
+subscription-charges-total = <b>Totâl</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Totâl: { $invoiceTotal }
+subscription-charges-credit-applied = Credit aplicât
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Credit aplicât: { $creditApplied }
+subscription-charges-amount-paid = <b>Impuart paiât</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Impuart paiât: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Tu âs ricevût un credit di { $creditReceived } sul to account che al vignarà aplicât aes tôs faturis futuris.
 
 ##
 
@@ -227,6 +274,13 @@ subscriptionSupport-plaintext = Domandis sul abonament? Il nestri grup di supuar
 subscriptionSupportContact = Graciis pal to abonament a { $productName }. Se tu âs domandis in merit o tu âs bisugne di vê plui informazions su { $productName }, <a data-l10n-name="subscriptionSupportUrl">contatinus</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Graciis pal abonament a { $productName }. Se tu âs domandis sul abonament o tu âs bisugne di vê plui informazions su { $productName }, contatinus:
+subscription-support-get-help = Oten jutori pal to abonament
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Gjestìs il to abonament</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Gjestìs il to abonament:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contate il supuart</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Contate il supuart:
 subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Achì</a> tu puedis verificâ che il metodi di paiament e lis informazions sul account a sedin inzornâts.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Tu puedis verificâ che il metodi di paiament e lis informazions sul account a sedin inzornâts achì:
@@ -267,6 +321,7 @@ location-state-country = { $stateCode }, { $country } (stimât)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (stimât)
+view-invoice-link-action = Visualize fature
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
