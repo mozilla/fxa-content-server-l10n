@@ -228,8 +228,27 @@ subscription-charges-list-price-plaintext = Normale priis: { $offeringPrice }
 subscription-charges-credit-from-unused-time = Tegoed fan net-brûkte tiid
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-from-unused-time-plaintext = Tegoed fan net-brûkte tiid: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Subtotaal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotaal: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Ienmalige koarting
+subscription-charges-one-time-discount-plaintext = Ienmalige koarting: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration } moanne koarting
+       *[other] { $discountDuration } moannen koarting
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration } moanne koarting: { $invoiceDiscountAmount }
+       *[other] { $discountDuration } moannen koarting: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Koarting
+subscription-charges-discount-plaintext = Koarting: { $invoiceDiscountAmount }
 
 ##
 
