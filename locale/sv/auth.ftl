@@ -239,25 +239,25 @@ subscription-charges-one-time-discount = Engångsrabatt
 subscription-charges-one-time-discount-plaintext = Engångsrabatt: { $invoiceDiscountAmount }
 subscription-charges-repeating-discount =
     { $discountDuration ->
-        [one] { $discountDuration }-månaders rabatt
+        [one] { $discountDuration }-månads rabatt
        *[other] { $discountDuration }-månaders rabatt
     }
 subscription-charges-repeating-discount-plaintext =
     { $discountDuration ->
-        [one] { $discountDuration }-månaders rabatt: { $invoiceDiscountAmount }
+        [one] { $discountDuration }-månads rabatt: { $invoiceDiscountAmount }
        *[other] { $discountDuration }-månaders rabatt: { $invoiceDiscountAmount }
     }
 subscription-charges-discount = Rabatt
 subscription-charges-discount-plaintext = Rabatt: { $invoiceDiscountAmount }
-subscription-charges-taxes = Skatter & avgifter
+subscription-charges-taxes = Skatter och avgifter
 # $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax-plaintext = Skatter och avgifter: { $invoiceTaxAmount }
 subscription-charges-total = <b>Totalt</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Totalt: { $invoiceTotal }
-subscription-charges-credit-applied = Kredit tillämpas
+subscription-charges-credit-applied = Kredit tillämpad
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
-subscription-charges-credit-applied-plaintext = Använd kredit: { $creditApplied }
+subscription-charges-credit-applied-plaintext = Kredit tillämpad: { $creditApplied }
 subscription-charges-amount-paid = <b> Betalt belopp</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Betalt belopp: { $invoiceAmountDue }
