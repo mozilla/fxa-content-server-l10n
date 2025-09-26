@@ -239,7 +239,7 @@ next-plan-details-total-label = 总计
 purchase-details-unused-time-label = 转换自未使用天数的余额
 purchase-details-subtotal-label = 小计
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
-purchase-details-credit-applied-label = 已使用余额
+purchase-details-credit-applied-label = 使用余额
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
 purchase-details-total-due-label = 合计应付
 next-plan-details-hide-button = 隐藏详细信息
@@ -289,9 +289,11 @@ next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + 税款 { $taxDue }</strong><span>结算日为 { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span>结算日为 { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> 余额已存入您的账户
 subscription-content-coupon-applied = 已享“{ $promotionName }”优惠
-subscription-content-next-bill-excl-no-tax = 下次将于 <strong>{ $nextBillDate }</strong> 收取 <strong>{ $nextInvoiceTotal }</strong>（未含优惠）
+subscription-content-next-bill-excl-disc-with-tax = 下次将于 <strong>{ $nextBillDate }</strong> 收取 <strong>{ $nextInvoiceTotal } + 税款 { $taxDue }</strong>（未含折扣）
+subscription-content-next-bill-excl-no-tax = 下次将于 <strong>{ $nextBillDate }</strong> 收取 <strong>{ $nextInvoiceTotal }</strong>（未含折扣）
 subscription-content-heading-cancel-subscription = 取消订阅
 subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消我的 { $productName } 使用权，并删除保存的信息

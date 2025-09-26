@@ -202,7 +202,7 @@ payment-method-payment-provider-plaintext = 付款方式：{ $paymentProviderNam
 payment-provider-card-name-ending-in-plaintext = 付款方式：尾号为 { $lastFour } 的 { $cardName }
 payment-provider-card-ending-in-plaintext = 付款方式：尾号为 { $lastFour } 的卡片
 payment-provider-card-ending-in = <b>付款方式：</b>尾号为 { $lastFour } 的卡片
-payment-provider-card-ending-in-card-name = <b>付款方式</b>：尾号为 { $lastFour } 的 { $cardName } 卡
+payment-provider-card-ending-in-card-name = <b>付款方式：</b>尾号为 { $lastFour } 的 { $cardName } 卡
 subscription-charges-invoice-summary = 发票摘要
 
 # Variables:
@@ -218,6 +218,9 @@ subscription-charges-invoice-date-plaintext = 日期：{ $invoiceDateOnly }
 subscription-charges-prorated-price = 差价
 # $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
 subscription-charges-prorated-price-plaintext = 差价：{ $remainingAmountTotal }
+subscription-charges-list-price = 原价
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = 原价：{ $offeringPrice }
 subscription-charges-credit-from-unused-time = 转换自未使用天数的余额
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-from-unused-time-plaintext = 转换自未使用天数的余额：{ $unusedAmountTotal }
@@ -230,6 +233,8 @@ subscriptionFirstInvoiceDiscount-content-subtotal = 小计：{ $invoiceSubtotal 
 
 subscription-charges-one-time-discount = 一次性折扣
 subscription-charges-one-time-discount-plaintext = 一次性折扣：{ $invoiceDiscountAmount }
+subscription-charges-repeating-discount = { $discountDuration } 个月折扣
+subscription-charges-repeating-discount-plaintext = { $discountDuration } 个月折扣：{ $invoiceDiscountAmount }
 subscription-charges-discount = 折扣
 subscription-charges-discount-plaintext = 折扣：{ $invoiceDiscountAmount }
 subscription-charges-taxes = 税费
@@ -238,9 +243,9 @@ subscriptionCharges-content-tax-plaintext = 税费：{ $invoiceTaxAmount }
 subscription-charges-total = <b>总计</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = 总计：{ $invoiceTotal }
-subscription-charges-credit-applied = 已使用余额
+subscription-charges-credit-applied = 使用余额
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
-subscription-charges-credit-applied-plaintext = 已使用余额：{ $creditApplied }
+subscription-charges-credit-applied-plaintext = 使用余额：{ $creditApplied }
 subscription-charges-amount-paid = <b>实付金额</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = 实付金额

@@ -195,10 +195,39 @@ payment-plan-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
 ## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
 
 payment-method-payment-provider = <b>Betellingsmetoade:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Betellingsmetoade: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Betellingsmetoade: { $cardName } einigjend op { $lastFour }
+payment-provider-card-ending-in-plaintext = Betellingsmetoade: kaart einigjend op { $lastFour }
+payment-provider-card-ending-in = <b>Betellingsmetoade:</b> kaart einigjend op { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Betellingsmetoade:</b> { $cardName } einigjend op { $lastFour }
+subscription-charges-invoice-summary = Faktuergearfetting
+
+# Variables:
+
 
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Faktuernûmer:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Faktuernûmer: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
+subscription-charges-prorated-price = Nei rato priis
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Nei rato priis: { $remainingAmountTotal }
+subscription-charges-list-price = Normale priis
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Normale priis: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Tegoed fan net-brûkte tiid
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Tegoed fan net-brûkte tiid: { $unusedAmountTotal }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotaal: { $invoiceSubtotal }
 
