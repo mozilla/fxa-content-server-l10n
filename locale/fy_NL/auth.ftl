@@ -249,6 +249,20 @@ subscription-charges-repeating-discount-plaintext =
     }
 subscription-charges-discount = Koarting
 subscription-charges-discount-plaintext = Koarting: { $invoiceDiscountAmount }
+subscription-charges-taxes = Btw en taslaggen
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Belestingen en taslaggen: { $invoiceTaxAmount }
+subscription-charges-total = <b>Totaal</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Totaal: { $invoiceTotal }
+subscription-charges-credit-applied = Tegoed tapast
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Tegoed tapast: { $creditApplied }
+subscription-charges-amount-paid = <b>Betelle bedrach</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Betelle bedrach: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Jo hawwe in accounttegoed fan { $creditReceived } ûntfongen. Dit tegoed wurdt op jo takomstige faktueren tapast.
 
 ##
 
@@ -260,6 +274,13 @@ subscriptionSupport-plaintext = Fragen oer jo abonnemint? Us stipeteam is der om
 subscriptionSupportContact = Tank foar jo abonnemint op { $productName }. As jo fragen oer jo abonnemint hawwe, of mear ynformaasje oer { $productName } wolle, <a data-l10n-name="subscriptionSupportUrl">nim dan kontakt op</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Tank foar jo abonnemint op { $productName }. As jo fragen oer jo abonnemint hawwe, of mear ynformaasje oer { $productName } wolle, nim dan kontakt op:
+subscription-support-get-help = Help by jo abonnemint krije
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Jo abonnemint beheare</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Jo abonnemint beheare:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontakt opnimme</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Kontakt opnimme:
 subscriptionUpdateBillingEnsure = Jo kinne <a data-l10n-name="updateBillingUrl">hjir</a> derfoar soargje dat jo betellingsmetoade en accountgegevens aktueel binne.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Jo kinne hjir derfoar soargje dat jo betellingsmetoade en accountgegevens aktueel binne:
@@ -300,6 +321,7 @@ location-state-country = { $stateCode }, { $country } (skat)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (skat)
+view-invoice-link-action = Faktuer besjen
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -642,6 +664,9 @@ subscriptionFirstInvoice-content-processing = Jo betelling wurdt op dit stuit fe
 subscriptionFirstInvoice-content-install-2 = Jo ûntfange in apart e-mailberjocht oer hoe’t jo { $productName } brûke gean kinne.
 subscriptionFirstInvoice-content-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Jo folgjende faktuer wurdt op { $nextInvoiceDateOnly } yn rekkening brocht.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Betellingsmetoade foar { $productName } is ferrûn of ferrint ynkoarten
 subscriptionPaymentExpired-title-2 = Jo betellingsmetoade is ferrûn of ferrint ynkoarten
@@ -711,6 +736,9 @@ subscriptionSubsequentInvoice-title = Tank dat jo abonnee binne!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Wy hawwe jo lêste betelling foar { $productName } ûntfongen.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Jo folgjende faktuer wurdt op { $nextInvoiceDateOnly } yn rekkening brocht.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Jo hawwe opwurdearre nei { $productName }
