@@ -664,6 +664,9 @@ subscriptionFirstInvoice-content-processing = Il paiament al è in fase di elabo
 subscriptionFirstInvoice-content-install-2 = Tu ricevarâs une altre e-mail cu lis informazions su cemût scomençâ a doprâ { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = La prossime fature e vignarà emetude ai { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Il metodi di paiament par { $productName } al è scjadût o al sta par scjadê
 subscriptionPaymentExpired-title-2 = Il metodi di paiament al è scjadût o al sta par scjadê
@@ -733,6 +736,9 @@ subscriptionSubsequentInvoice-title = Graciis pal to abonament!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = O vin ricevût il to ultin paiament par { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = La prossime fature e vignarà emetude ai { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tu âs inzornât a { $productName }

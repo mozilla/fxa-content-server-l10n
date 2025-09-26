@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Zonte metodi di paiamen
 subscription-management-button-add-payment-method = Zonte
 subscription-management-button-change-payment-method-aria = Cambie metodi di paiament
 subscription-management-button-change-payment-method = Modifiche
+subscription-management-button-manage-payment-method-aria = Gjestìs metodi di paiament
+subscription-management-button-manage-payment-method = Gjestìs
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = La cjarte e che e finìs cun { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -132,6 +134,8 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ae
 subscription-management-page-subscription-interval-monthly = { $productName } (al mês)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 mês)
 subscription-management-page-subscription-interval-yearly = { $productName } (al an)
+subscription-management-page-paypal-error-banner-link = Gjestìs
+paypal-payment-management-page-invalid-header = Informazions di faturazion no validis
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.
