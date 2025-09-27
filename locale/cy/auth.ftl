@@ -237,18 +237,18 @@ subscription-charges-one-time-discount = Gostyngiad un-tro
 subscription-charges-one-time-discount-plaintext = Gostyngiad un-tro: { $invoiceDiscountAmount }
 subscription-charges-repeating-discount =
     { $discountDuration ->
-        [zero] Gostyngiad o { $discountDuration } mis
+        [zero] Gostyngiad o { $discountDuration } misoedd
         [one] Gostyngiad o { $discountDuration } mis
-        [two] Gostyngiad o { $discountDuration } mis
+        [two] Gostyngiad o { $discountDuration } fis
         [few] Gostyngiad o { $discountDuration } mis
         [many] Gostyngiad o { $discountDuration } mis
        *[other] Gostyngiad o { $discountDuration } mis
     }
 subscription-charges-repeating-discount-plaintext =
     { $discountDuration ->
-        [zero] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
+        [zero] Gostyngiad o { $discountDuration }-misoedd: { $invoiceDiscountAmount }
         [one] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
-        [two] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
+        [two] Gostyngiad o { $discountDuration }-fis: { $invoiceDiscountAmount }
         [few] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
         [many] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
        *[other] Gostyngiad o { $discountDuration }-mis: { $invoiceDiscountAmount }
@@ -261,14 +261,14 @@ subscriptionCharges-content-tax-plaintext = Trethi a ffioedd: { $invoiceTaxAmoun
 subscription-charges-total = <b>Cyfanswm</ b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Cyfanswm: { $invoiceTotal }
-subscription-charges-credit-applied = Credyd wedi'i osod
+subscription-charges-credit-applied = Credyd wedi'i gynnwys
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
-subscription-charges-credit-applied-plaintext = Credyd wedi'i gymhwyso: { $creditApplied }
-subscription-charges-amount-paid = <b>Swm a dalwyd</b>
+subscription-charges-credit-applied-plaintext = Credyd wedi'i gynnwys: { $creditApplied }
+subscription-charges-amount-paid = <b>Swm dalwyd</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
-subscription-charges-amount-paid-plaintext = Swm a dalwyd: { $invoiceAmountDue }
+subscription-charges-amount-paid-plaintext = Swm dalwyd: { $invoiceAmountDue }
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscription-charges-credit-received = Rydych wedi derbyn credyd cyfrif o { $creditReceived }, a fydd yn cael ei gymhwyso i'ch anfonebau yn y dyfodol.
+subscription-charges-credit-received = Rydych wedi derbyn credyd cyfrif o { $creditReceived }, a fydd yn cael ei gynnwys i'ch anfonebau yn y dyfodol.
 
 ##
 
@@ -281,7 +281,7 @@ subscriptionSupportContact = Diolch am danysgrifio i { $productName }. Os oes ge
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Diolch am danysgrifio i { $productName }. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am { $productName }, cysylltwch â ni.
 subscription-support-get-help = Cael help gyda'ch tanysgrifiad
-subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Rheolwch eich tanysgrifiad</a>
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Rheoli eich tanysgrifiad</a>
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Rheoli eich tanysgrifiad:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Cysylltu â chefnogaeth</a>
