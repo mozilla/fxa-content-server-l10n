@@ -238,6 +238,15 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Delsum: { $invoiceSubtotal }
 
 subscription-charges-one-time-discount = Eingongsrabatt
 subscription-charges-one-time-discount-plaintext = Eingongsrabatt: { $invoiceDiscountAmount }
+subscription-charges-discount = Rabatt
+subscription-charges-discount-plaintext = Rabatt: { $invoiceDiscountAmount }
+subscription-charges-taxes = Skattar og avgifter
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Skattar og avgifter: { $invoiceTaxAmount }
+subscription-charges-total = <b>Totalt</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Totalt: { $invoiceTotal }
+subscription-charges-credit-applied = Kreditt brukt
 
 ##
 
