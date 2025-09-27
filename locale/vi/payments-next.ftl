@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Có vẻ như đã xảy ra
 page-not-found-title = Không tìm thấy trang
 page-not-found-description = Không tìm thấy trang bạn yêu cầu. Chúng tôi đã để ý và sẽ sửa bất kỳ liên kết nào có thể bị hỏng.
 page-not-found-back-button = Quay lại
+alert-dialog-title = Hộp thoại cảnh báo
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Quay lại
 subscription-management-breadcrumb-account-home = Trang chủ tài khoản
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Gói đăng ký
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Quản lý phương thức thanh toán
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Quay lại { $page }
 
@@ -234,7 +237,7 @@ next-plan-details-tax = Thuế và phí
 next-plan-details-total-label = Tổng
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
 purchase-details-unused-time-label = Tín dụng từ thời gian chưa sử dụng
-purchase-details-subtotal-label = Tổng phụ
+purchase-details-subtotal-label = Tổng tạm tính
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = Tín dụng được áp dụng
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
@@ -285,8 +288,11 @@ next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>Khoản tiền { $invoiceTotal } + { $taxDue } thuế</strong><span> đã được lập hoá đơn vào ngày { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>Khoản tiền { $invoiceTotal }</strong><span> đã được lập hoá đơn vào ngày { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tín dụng được cấp vào tài khoản của bạn
 subscription-content-coupon-applied = { $promotionName } đã được áp dụng
+subscription-content-next-bill-excl-disc-with-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal } + { $taxDue } thuế</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal }</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Hủy đăng ký
 subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.

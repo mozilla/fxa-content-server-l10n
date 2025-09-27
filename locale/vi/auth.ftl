@@ -195,12 +195,69 @@ payment-plan-next-invoice = Hóa đơn tiếp theo: { $nextInvoiceDateOnly }
 ## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
 
 payment-method-payment-provider = <b>Phương thức thanh toán:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Phương thức thanh toán: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Phương thức thanh toán: Thẻ { $cardName } kết thúc bằng { $lastFour }
+payment-provider-card-ending-in-plaintext = Phương thức thanh toán: Thẻ kết thúc bằng { $lastFour }
+payment-provider-card-ending-in = <b>Phương thức thanh toán:</b> Thẻ kết thúc bằng { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Phương thức thanh toán:</b> { $cardName } kết thúc bằng { $lastFour }
+subscription-charges-invoice-summary = Tóm tắt hoá đơn
+
+# Variables:
+
 
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Số hóa đơn:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Số hóa đơn: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Ngày:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Ngày: { $invoiceDateOnly }
+subscription-charges-prorated-price = Giá theo tỷ lệ
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Giá theo tỷ lệ: { $remainingAmountTotal }
+subscription-charges-list-price = Giá niêm yết
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Giá niêm yết: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Tín dụng từ thời gian chưa sử dụng
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Tín dụng từ thời gian chưa sử dụng: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Tổng tạm tính</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoiceDiscount-content-subtotal = Tổng tiền: { $invoiceSubtotal }
+subscriptionFirstInvoiceDiscount-content-subtotal = Tổng tạm tính: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Giảm giá một lần
+subscription-charges-one-time-discount-plaintext = Giảm giá một lần: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+       *[other] Giảm giá { $discountDuration } tháng
+    }
+subscription-charges-repeating-discount-plaintext = Giảm giá { $discountDuration } tháng: { $invoiceDiscountAmount }
+subscription-charges-discount = Giảm giá
+subscription-charges-discount-plaintext = Giảm giá: { $invoiceDiscountAmount }
+subscription-charges-taxes = Thuế & phí
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Thuế & phí: { $invoiceTaxAmount }
+subscription-charges-total = <b>Tổng</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Tổng: { $invoiceTotal }
+subscription-charges-credit-applied = Tín dụng được áp dụng
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Tín dụng được áp dụng: { $creditApplied }
+subscription-charges-amount-paid = <b>Số tiền đã thanh toán</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Số tiền đã thanh toán: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Bạn đã nhận được khoản tín dụng tài khoản là { $creditReceived }, sẽ được áp dụng cho các thanh toán trong tương lai của bạn.
 
 ##
 
@@ -212,6 +269,13 @@ subscriptionSupport-plaintext = Có câu hỏi về thuê bao của bạn? Nhóm
 subscriptionSupportContact = Cảm ơn bạn đã đăng ký { $productName }. Nếu bạn có bất kỳ câu hỏi nào về thuê bao của mình hoặc cần thêm thông tin về { $productName }, vui lòng <a data-l10n-name="subscriptionSupportUrl">liên hệ với chúng tôi</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Cảm ơn bạn đã đăng ký { $productName }. Nếu bạn có bất kỳ câu hỏi nào về thuê bao của mình hoặc cần thêm thông tin về { $productName }, vui lòng liên hệ với chúng tôi:
+subscription-support-get-help = Nhận trợ giúp với gói đăng ký của bạn
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Quản lý gói đăng ký của bạn</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Quản lý gói đăng ký của bạn:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Liên hệ hỗ trợ</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Liên hệ hỗ trợ:
 subscriptionUpdateBillingEnsure = Bạn có thể đảm bảo rằng phương thức thanh toán và thông tin tài khoản của mình được cập nhật <a data-l10n-name="updateBillingUrl">tại đây</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Bạn có thể đảm bảo rằng phương thức thanh toán và thông tin tài khoản của mình được cập nhật tại đây:
@@ -252,6 +316,7 @@ location-state-country = { $stateCode }, { $country } (ước tính)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (ước tính)
+view-invoice-link-action = Xem hoá đơn
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -593,6 +658,9 @@ subscriptionFirstInvoice-content-processing = Thanh toán của bạn hiện đa
 subscriptionFirstInvoice-content-install-2 = Bạn sẽ nhận được một email riêng về cách bắt đầu sử dụng { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Hóa đơn tiếp theo của bạn sẽ được phát hành vào { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Phương thức thanh toán cho { $productName } đã hết hạn hoặc sắp hết hạn
 subscriptionPaymentExpired-title-2 = Phương thức thanh toán của bạn đã hết hạn hoặc sắp hết hạn
@@ -662,6 +730,9 @@ subscriptionSubsequentInvoice-title = Cảm ơn bạn đã là một thuê bao!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Chúng tôi đã nhận được khoản thanh toán mới nhất của bạn cho { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Hóa đơn tiếp theo của bạn sẽ được phát hành vào { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Bạn đã nâng cấp lên { $productName }
