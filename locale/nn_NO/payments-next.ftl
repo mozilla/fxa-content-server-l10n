@@ -144,6 +144,7 @@ paypal-payment-management-page-invalid-description = Det ser ut til å vere ein 
 page-not-found-title = Fann ikkje sida
 page-not-found-description = Fann ikkje sida du spurde etter. Vi er varsla og vil reparere lenker som ikkje fungerer.
 page-not-found-back-button = Gå tilbake
+alert-dialog-title = Varslingsdialogboks
 
 ## Navigation breadcrumbs
 
@@ -151,6 +152,8 @@ page-not-found-back-button = Gå tilbake
 subscription-management-breadcrumb-account-home = Startside for kontoen
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonnement
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Handsam betalingsmåtar
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Gå tilbake til { $page }
 
@@ -281,6 +284,7 @@ next-new-user-subscribe-product-assurance = Vi brukar berre e-postadressa di for
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-applied = { $promotionName } vart brukt
 subscription-content-heading-cancel-subscription = Avbryt abonnementet
 subscription-content-no-longer-use-message = Du vil ikkje lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
 subscription-content-cancel-access-message = Avbryt tilgangen min og lagra informasjon i { $productName } den { $currentPeriodEnd }

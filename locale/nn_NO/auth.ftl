@@ -247,6 +247,11 @@ subscription-charges-total = <b>Totalt</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Totalt: { $invoiceTotal }
 subscription-charges-credit-applied = Kreditt brukt
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Kreditt brukt: { $creditApplied }
+subscription-charges-amount-paid = <b>Betalt beløp</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Betalt beløp: { $invoiceAmountDue }
 
 ##
 
@@ -258,6 +263,9 @@ subscriptionSupport-plaintext = Har du spørsmål om abonnementet ditt? Supportt
 subscriptionSupportContact = Takk for at du abonnerer på { $productName }. Dersom du har spørsmål om abonnementet ditt eller treng meir informasjon om { $productName }, kan du <a data-l10n-name="subscriptionSupportUrl">kontakte oss</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Takk for at du abonnerer på { $productName }. Dersom du har spørsmål om abonnementet ditt eller treng meir informasjon om { $productName }, kan du kontakte oss:
+subscription-support-get-help = Få hjelp med abonnementet ditt
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Kontakt kundestøtte:
 subscriptionUpdateBillingEnsure = Du kan sørge for at betalingsmåten og kontoinformasjonen din er oppdatert <a data-l10n-name="updateBillingUrl">her</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Du kan sørge for at betalingsmåten og kontoinformasjonen din er oppdatert her:
@@ -298,6 +306,7 @@ location-state-country = { $stateCode }, { $country } (estimert)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (estimert)
+view-invoice-link-action = Vis faktura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
