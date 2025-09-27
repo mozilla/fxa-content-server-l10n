@@ -217,12 +217,12 @@ subscription-charges-invoice-number = <b>Rhif yr anfoneb:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Rhif anfoneb: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Dyddiad:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Dyddiad: { $invoiceDateOnly }
-subscription-charges-prorated-price = Pris prorated
+subscription-charges-prorated-price = Pris prorata
 # $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
-subscription-charges-prorated-price-plaintext = Pris prorated: { $remainingAmountTotal }
-subscription-charges-list-price = Pris rhestr
+subscription-charges-prorated-price-plaintext = Pris prorata: { $remainingAmountTotal }
+subscription-charges-list-price = Rhestru'r pris
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
-subscription-charges-list-price-plaintext = Pris rhestr: { $offeringPrice }
+subscription-charges-list-price-plaintext = Rhestr pris: { $offeringPrice }
 subscription-charges-credit-from-unused-time = Credyd am amser heb ei ddefnyddio
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-from-unused-time-plaintext = Credyd o amser heb ei ddefnyddio: { $unusedAmountTotal }
@@ -233,8 +233,8 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Is-gyfanswm: { $invoiceSubto
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
-subscription-charges-one-time-discount = Gostyngiad un-amser
-subscription-charges-one-time-discount-plaintext = Gostyngiad un-amser: { $invoiceDiscountAmount }
+subscription-charges-one-time-discount = Gostyngiad un-tro
+subscription-charges-one-time-discount-plaintext = Gostyngiad un-tro: { $invoiceDiscountAmount }
 subscription-charges-repeating-discount =
     { $discountDuration ->
         [zero] Gostyngiad o { $discountDuration } mis
