@@ -192,11 +192,55 @@ payment-plan-charged = Χρέωση: { $invoiceTotal } στις { $invoiceDateOn
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Επόμενο παραστατικό: { $nextInvoiceDateOnly }
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+subscription-charges-invoice-summary = Σύνοψη παραστατικού
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Αριθμός παραστατικού:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Αριθμός παραστατικού: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Ημερομηνία:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Ημερομηνία: { $invoiceDateOnly }
+subscription-charges-prorated-price = Αναλογική τιμή
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Αναλογική τιμή: { $remainingAmountTotal }
+subscription-charges-credit-from-unused-time = Πίστωση από μη χρησιμοποιημένο χρόνο
+subscription-charges-subtotal = <b>Υποσύνολο</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Υποσύνολο: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Εφάπαξ έκπτωση
+subscription-charges-one-time-discount-plaintext = Εφάπαξ έκπτωση: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] Έκπτωση { $discountDuration } μήνα
+       *[other] Έκπτωση { $discountDuration } μηνών
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Έκπτωση { $discountDuration } μήνα: { $invoiceDiscountAmount }
+       *[other] Έκπτωση { $discountDuration } μηνών: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Έκπτωση
+subscription-charges-discount-plaintext = Έκπτωση: { $invoiceDiscountAmount }
+subscription-charges-taxes = Φόροι και τέλη
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Φόροι και τέλη: { $invoiceTaxAmount }
+subscription-charges-total = <b>Σύνολο</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Σύνολο: { $invoiceTotal }
 
 ##
 
