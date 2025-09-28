@@ -273,6 +273,7 @@ next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınız�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-applied = { $promotionName } uygulandı
 subscription-content-heading-cancel-subscription = Aboneliği iptal et
 subscription-content-no-longer-use-message = Fatura döneminizin son günü olan { $currentPeriodEnd } tarihinden sonra { $productName } ürününü kullanamayacaksınız.
 subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.

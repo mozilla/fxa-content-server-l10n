@@ -214,6 +214,7 @@ subscription-charges-invoice-summary = Fatura özeti
 
 subscription-charges-invoice-number = <b>Fatura numarası:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Fatura numarası: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Tarih:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Tarih: { $invoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ara toplam: { $invoiceSubtotal }
