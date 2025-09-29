@@ -597,19 +597,21 @@ flow-setup-2fa-prompt-continue-button = 続ける
 flow-setup-phone-confirm-code-heading = 確認コードを入力してください
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = テキストメッセージで <span>{ $phoneNumber }</span> に 6 桁のコードを送信しました。コードは 5 分間で有効期限切れになります。
+flow-setup-phone-confirm-code-instruction = <span>{ $phoneNumber }</span> にテキストメッセージで 6 桁のコードを送信しました。このコードは 5 分間で有効期限切れになります。
 flow-setup-phone-confirm-code-input-label = 6 桁のコードを入力
 flow-setup-phone-confirm-code-button = 確認
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = コードの有効期限が切れていますか？
 flow-setup-phone-confirm-code-resend-code-button = 確認コードを再送する
+flow-setup-phone-confirm-code-resend-code-success = コードを送信しました
+flow-setup-phone-confirm-code-success-message-v2 = 回復用電話番号を追加しました
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = 電話番号を確認します
 # The code is a 6-digit code send by text message/SMS
-flow-setup-phone-verify-number-instruction = 電話番号を確認するため { -brand-mozilla } からテキストメッセージが送信されます。このコードは誰にも教えないでください。
+flow-setup-phone-verify-number-instruction = 電話番号を確認するために { -brand-mozilla } からテキストメッセージを送信します。このコードは誰とも共有しないでください。
 # The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
