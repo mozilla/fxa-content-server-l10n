@@ -214,7 +214,7 @@ subscription-charges-invoice-summary = Přehled faktur
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
 subscription-charges-invoice-number = <b>Číslo faktury:</b> { $invoiceNumber }
-subscription-charges-invoice-number-plaintext = Číslo dokladu: { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Číslo faktury: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
 subscription-charges-prorated-price = Poměrná cena
@@ -237,8 +237,8 @@ subscription-charges-one-time-discount = Jednorázová sleva
 subscription-charges-one-time-discount-plaintext = Jednorázová sleva: { $invoiceDiscountAmount }
 subscription-charges-repeating-discount =
     { $discountDuration ->
-        [one] Sleva { $discountDuration } měsíců
-        [few] Sleva { $discountDuration } měsíců
+        [one] Sleva { $discountDuration } měsíc
+        [few] Sleva { $discountDuration } měsíce
        *[other] Sleva { $discountDuration } měsíců
     }
 subscription-charges-repeating-discount-plaintext =
@@ -257,12 +257,12 @@ subscription-charges-total = <b>Celkem</b>
 subscription-charges-total-plaintext = Celkem: { $invoiceTotal }
 subscription-charges-credit-applied = Použitý kredit
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
-subscription-charges-credit-applied-plaintext = Připsaný kredit: { $creditApplied }
+subscription-charges-credit-applied-plaintext = Použitý kredit: { $creditApplied }
 subscription-charges-amount-paid = <b>Zaplacená částka</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Zaplacená částka: { $invoiceAmountDue }
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-subscription-charges-credit-received = Obdrželi jste kredit na bankovní účet ve výši { $creditReceived }, který bude použit na vaše budoucí faktury.
+subscription-charges-credit-received = Na váš účet byl připsán kredit ve výši { $creditReceived }, který bude použit na vaše budoucí faktury.
 
 ##
 
