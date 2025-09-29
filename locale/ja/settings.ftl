@@ -539,6 +539,11 @@ flow-setup-2fa-backup-choice-code-info = 1 度だけ使用できる認証コー�
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = バックアップ認証コードを保存してください
+flow-setup-2fa-backup-code-dl-button-continue = 続ける
+
+##
+
+flow-setup-2fa-prompt-continue-button = 続ける
 
 ## FlowSetupPhoneConfirmCode
 
@@ -1318,7 +1323,7 @@ password-reset-flow-heading = パスワードをリセット
 password-reset-body-2 = アカウントを安全に保つために、あなただけが知っていることをいくつか質問します。
 password-reset-email-input =
     .label = メールアドレスを入力
-password-reset-submit-button-2 = 続行
+password-reset-submit-button-2 = 続ける
 
 ## ResetPasswordConfirmed
 
