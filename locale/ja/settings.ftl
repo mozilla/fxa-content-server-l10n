@@ -505,6 +505,15 @@ flow-recovery-key-info-cta-text-v3 = はじめる
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = キャンセル
 
+## FlowSetup2faApp
+
+flow-setup-2fa-qr-heading = 認証アプリを設定します
+flow-setup-2fa-cant-scan-qr-button = QR コードをスキャンできませんか？
+flow-setup-2fa-scan-qr-instead-button = 代わりに QR コードをスキャンしますか？
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = 認証アプリについての詳細
+flow-setup-2fa-button = 続ける
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -579,8 +588,14 @@ nav-data-collection = データの収集と使用
 nav-paid-subs = 有料サブスクリプション
 nav-email-comm = メールの設定管理
 
+## Page2faChange
+
+page-2fa-change-qr-instruction = <strong>ステップ 1:</strong> 認証アプリ (Duo や Google Authenticator など) を使用して、この QR コードをスキャンしてください。これにより新しい設定が作成され、以前の設定は機能しなくなります。
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = バックアップ認証コード
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = バックアップ認証コードの差し替え時に問題が発生しました
 # Error shown when API call fails while creating new backup codes (user had none)
