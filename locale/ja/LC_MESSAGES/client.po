@@ -2,18 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-02-10 10:20+0000\n"
-"Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
-"Language-Team: Japanese\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pontoon\n"
-"X-POOTLE-MTIME: 1429765208.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -89,7 +83,6 @@ msgstr "予備のメールアドレスを確認しました"
 msgid "Sign-in confirmed"
 msgstr "ログインが確認されました"
 
-# %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
 #: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
 msgstr "%(serviceName)s が使えるようになりました"
@@ -892,7 +885,6 @@ msgstr "新しいリンクを受け取る"
 msgid "Reset password with account recovery key"
 msgstr "アカウント回復用キーでパスワードをリセット"
 
-# %(serviceName)s を利用できるようになりました。だと「た。」だけ2行目になって残念だったので短めに
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
@@ -1274,7 +1266,7 @@ msgstr "完了すると、入力するセキュリティコードの生成が開
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr "この秘密キーを認証アプリに入力してください。"
+msgstr "この秘密鍵を認証アプリに入力してください。"
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
