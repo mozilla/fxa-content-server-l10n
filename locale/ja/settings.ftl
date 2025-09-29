@@ -520,7 +520,14 @@ flow-setup-2fa-scan-qr-instead-button = 代わりに QR コードをスキャン
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = 認証アプリについての詳細
 flow-setup-2fa-button = 続ける
+flow-setup-2fa-step-2-instruction = <strong>ステップ 2:</strong> 認証アプリからコードを入力してください。
+flow-setup-2fa-input-label = 6 桁のコードを入力
 flow-setup-2fa-code-error = コードが無効であるか、有効期限が切れています。認証アプリを確認してもう一度お試しください。
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+flow-setup-2fa-backup-choice-heading = 回復方法を選択してください
 
 ## FlowSetupPhoneConfirmCode
 
