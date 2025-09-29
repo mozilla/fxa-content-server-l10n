@@ -528,6 +528,9 @@ flow-setup-2fa-code-error = コードが無効であるか、有効期限が切�
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = 回復方法を選択してください
+flow-setup-2fa-backup-choice-description = モバイル端末や認証アプリにアクセスできない場合でも、この方法でログインできるようになります。
+flow-setup-2fa-backup-choice-phone-title = 回復用電話番号
+flow-setup-2fa-backup-choice-phone-badge = 簡単
 
 ## FlowSetupPhoneConfirmCode
 
