@@ -595,6 +595,9 @@ flow-setup-2fa-prompt-continue-button = 続ける
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = 確認コードを入力してください
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = テキストメッセージで <span>{ $phoneNumber }</span> に 6 桁のコードを送信しました。コードは 5 分間で有効期限切れになります。
 flow-setup-phone-confirm-code-input-label = 6 桁のコードを入力
 flow-setup-phone-confirm-code-button = 確認
 # button to resend a code by text message to the user's phone
