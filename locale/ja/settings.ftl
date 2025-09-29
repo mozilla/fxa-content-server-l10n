@@ -1091,6 +1091,7 @@ inline-totp-setup-security-code-placeholder = 認証コード
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = 認証コードが必要です
 tfa-qr-code-alt = コード { $code } を使って対応アプリケーション内で 2 段階認証を設定してください。
+inline-totp-setup-page-title = 2 段階認証
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
