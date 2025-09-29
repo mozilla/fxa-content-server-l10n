@@ -156,22 +156,38 @@ get-data-trio-print-2 =
 # Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = 警告標識
+authenticator-app-aria-label =
+    .aria-label = 認証アプリ
 backup-codes-icon-aria-label-v2 =
     .aria-label = バックアップ認証コードが有効
 backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = バックアップ認証コードが無効
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = 回復用 SMS が有効
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = 回復用 SMS が無効
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = カナダ国旗
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
     .aria-label = チェックマーク
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = 完了
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = 有効
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = メッセージを閉じる
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = コード
+error-icon-aria-label =
+    .aria-label = エラー
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = アメリカ国旗
@@ -535,6 +551,8 @@ flow-setup-2fa-backup-choice-phone-info = 回復用コードをテキストメ�
 flow-setup-2fa-backup-choice-code-title = バックアップ認証コード
 flow-setup-2fa-backup-choice-code-badge = 安全
 flow-setup-2fa-backup-choice-code-info = 1 度だけ使用できる認証コードを作成し、保存します。
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = 回復と SIM スワップの危険性についての詳細
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -555,6 +573,18 @@ flow-setup-2fa-backup-code-dl-button-continue = 続ける
 
 ##
 
+flow-setup-2fa-inline-complete-success-banner = 2 段階認証が有効になりました
+flow-setup-2fa-inline-complete-backup-code = バックアップ認証コード
+flow-setup-2fa-inline-complete-backup-phone = 回復用電話番号
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info = コード: 残り { $count } 個
+flow-setup-2fa-inline-complete-backup-code-description = 携帯端末や認証アプリでログインできない場合にアカウントを回復する最も安全な方法です。
+flow-setup-2fa-inline-complete-backup-phone-description = 認証アプリでログインできない場合でも簡単にアカウントを回復できる方法です。
+flow-setup-2fa-inline-complete-learn-more-link = アカウント保護に役立つ理由
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = { $serviceName } へ進む
 flow-setup-2fa-prompt-continue-button = 続ける
 
 ## FlowSetupPhoneConfirmCode
@@ -891,6 +921,8 @@ tfa-row-backup-codes-get-new-cta-v2 = 新しいコードを作成
 tfa-row-backup-codes-add-cta = 追加
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = 携帯端末や認証アプリを使用できない場合にアカウントを回復する最も安全な方法です。
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = 変更
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = 追加
 # "this" refers to recovery phone
@@ -978,6 +1010,7 @@ tfa-row-enabled = 有効
 tfa-row-disabled-status = 無効
 tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
+tfa-row-action-change = 変更
 tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
