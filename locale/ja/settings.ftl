@@ -935,6 +935,8 @@ tfa-row-backup-phone-not-available-v2 = 電話番号が追加されていませ�
 tfa-row-backup-phone-change-cta = 変更
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = 追加
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = 回復用電話番号を削除します
 # "this" refers to recovery phone
 tfa-row-backup-phone-description-v2 = 認証アプリを使用できない場合でも簡単にアカウントを回復できる方法です。
 
