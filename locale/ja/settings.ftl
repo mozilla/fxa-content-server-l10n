@@ -536,9 +536,21 @@ flow-setup-2fa-backup-choice-code-title = バックアップ認証コード
 flow-setup-2fa-backup-choice-code-badge = 安全
 flow-setup-2fa-backup-choice-code-info = 1 度だけ使用できる認証コードを作成し、保存します。
 
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+flow-setup-2fa-backup-code-confirm-heading = バックアップ認証コードを入力してください
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = 保存していることを確認するためにコードを一つ入力してください。認証アプリを使用できない場合、コードがないとログインできません。
+flow-setup-2fa-backup-code-confirm-code-input = 10 文字のコードを入力
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = 完了
+
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = バックアップ認証コードを保存してください
+flow-setup-2fa-backup-code-dl-save-these-codes = 思い出しやすい場所に保管してください。認証アプリにアクセスできない場合、ログインするために一つ入力する必要があります。
 flow-setup-2fa-backup-code-dl-button-continue = 続ける
 
 ##
