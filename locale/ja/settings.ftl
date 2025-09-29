@@ -531,6 +531,7 @@ flow-setup-2fa-backup-choice-heading = 回復方法を選択してください
 flow-setup-2fa-backup-choice-description = モバイル端末や認証アプリにアクセスできない場合でも、この方法でログインできるようになります。
 flow-setup-2fa-backup-choice-phone-title = 回復用電話番号
 flow-setup-2fa-backup-choice-phone-badge = 簡単
+flow-setup-2fa-backup-choice-phone-info = 回復用コードをテキストメッセージで受け取ります。現在、アメリカとカナダのみで利用可能です。
 
 ## FlowSetupPhoneConfirmCode
 
