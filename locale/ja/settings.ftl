@@ -515,11 +515,12 @@ flow-setup-2fa-qr-alt-text =
     .alt = 2 段階認証を設定するための QR コードです。スキャンするか、「QR コードをスキャンできませんか？」からセットアップ用の秘密鍵を入手してください。
 flow-setup-2fa-cant-scan-qr-button = QR コードをスキャンできませんか？
 flow-setup-2fa-manual-key-heading = 手動でコードを入力してください
-flow-setup-2fa-manual-key-instruction = <strong>ステップ 1:</strong> このコードを使用したい認証アプリに入力してください。
+flow-setup-2fa-manual-key-instruction = <strong>ステップ 1:</strong> 使用したい認証アプリにこのコードを入力してください。
 flow-setup-2fa-scan-qr-instead-button = 代わりに QR コードをスキャンしますか？
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = 認証アプリについての詳細
 flow-setup-2fa-button = 続ける
+flow-setup-2fa-code-error = コードが無効であるか、有効期限が切れています。認証アプリを確認してもう一度お試しください。
 
 ## FlowSetupPhoneConfirmCode
 
