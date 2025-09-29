@@ -309,6 +309,9 @@ password-strength-inline-confirmed-must-match = 確認のための再入力が�
 account-recovery-notification-cta = 作成
 account-recovery-notification-header-value = パスワードを忘れてもデータを復元できるように設定してください
 account-recovery-notification-header-description = アカウント回復用キーを作成すると、もしパスワードを忘れても同期しているブラウジングデータを回復できます。
+recovery-phone-promo-cta = 回復用電話番号を追加
+recovery-phone-promo-heading = 回復用電話番号でアカウントの保護を強化しましょう
+recovery-phone-promo-description = 2 段階認証アプリを使用できない場合は、SMS 経由のワンタイムパスワードを使用してログインできるようになりました。
 
 ## Ready component
 
@@ -921,6 +924,8 @@ tfa-row-backup-codes-get-new-cta-v2 = 新しいコードを作成
 tfa-row-backup-codes-add-cta = 追加
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = 携帯端末や認証アプリを使用できない場合にアカウントを回復する最も安全な方法です。
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = 電話番号が追加されていません
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = 変更
 # button to add/configure a recovery phone
