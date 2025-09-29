@@ -248,7 +248,7 @@ subscription-charges-credit-applied = 使用余额
 subscription-charges-credit-applied-plaintext = 使用余额：{ $creditApplied }
 subscription-charges-amount-paid = <b>实付金额</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
-subscription-charges-amount-paid-plaintext = 实付金额
+subscription-charges-amount-paid-plaintext = 实付金额：{ $invoiceAmountDue }
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscription-charges-credit-received = 您已收到 { $creditReceived } 账户余额，将于以后付款时抵用。
 
