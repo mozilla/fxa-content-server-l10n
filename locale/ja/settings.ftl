@@ -532,6 +532,13 @@ flow-setup-2fa-backup-choice-description = モバイル端末や認証アプリ�
 flow-setup-2fa-backup-choice-phone-title = 回復用電話番号
 flow-setup-2fa-backup-choice-phone-badge = 簡単
 flow-setup-2fa-backup-choice-phone-info = 回復用コードをテキストメッセージで受け取ります。現在、アメリカとカナダのみで利用可能です。
+flow-setup-2fa-backup-choice-code-title = バックアップ認証コード
+flow-setup-2fa-backup-choice-code-badge = 安全
+flow-setup-2fa-backup-choice-code-info = 1 度だけ使用できる認証コードを作成し、保存します。
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-heading = バックアップ認証コードを保存してください
 
 ## FlowSetupPhoneConfirmCode
 
