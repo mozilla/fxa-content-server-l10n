@@ -429,6 +429,10 @@ passwordChangeRequired-different-password-2 = <b>Wažny:</b> Wubjeŕśo mócne g
 passwordChangeRequired-different-password-plaintext-2 = Wažny: Wubjeŕśo mócne gronidło, kótarež se wót togo rozeznawa, kótarež sćo wužywał w zajźonosći.
 passwordChangeRequired-action = Gronidło slědk stajiś
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Wužywajśo { $code }, aby swójo gronidło změnił
+password-forgot-otp-preview = Toś ten kod za 10 minutow spadnjo
 password-forgot-otp-title = Sćo swójo gronidło zabył?
 password-forgot-otp-request = Smy dostali pšosbu wó změnjanje gronidła za wašo { -product-mozilla-account(case: "acc", capitalization: "lower") }:
 password-forgot-otp-code-2 = Jolic sćo to był wy, how jo waš wobkšuśeński kod, aby wy pókšacował:
@@ -792,6 +796,10 @@ subscriptionUpgrade-content-new-price-year-tax = Wótněnta musyśo { $paymentAm
 subscriptionUpgrade-content-new-price-default-tax = Wótněnta musyśo { $paymentAmountNew } + { $paymentTaxNew } danka na wótliceński interwal płaśiś, mimo rabatow.
 subscriptionUpgrade-existing = Jolic se jaden z wašych eksistěrujucych abonementow z toś teju aktualizaciju prěkuju, buźomy se z nim zaběraś a wam separatnu mejlku z drobnostkami słaś. Jolic waš nowy plan produkty wopśimujo, kótarež se instalaciju pominaju, buźomy wam separatnu mejlku z instalaciskimi instrukcijami słaś.
 subscriptionUpgrade-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Wužywajśo { $unblockCode } za pśizjawjenje
+unblockCode-preview = Toś ten kod za jadnu góźinu spadnjo
 unblockCode-title = Cośo se wy pśizjawiś?
 unblockCode-prompt = Jolic jo, how jo awtorizěrowański kod, kótaryž trjebaśo:
 # Variables:
@@ -852,6 +860,10 @@ verifyLogin-description-2 = Wobkšuśćo, až sćo se pśizjawił, aby nam pomag
 verifyLogin-subject-2 = Pśizjawjenje wobkšuśiś
 verifyLogin-action = Pśizjawjenje wobkšuśiś
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Wužywajśo { $code } za pśizjawjenje
+verifyLoginCode-preview = Toś ten kod za 5 minutow spadnjo.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Sćo se pśizjawił pla { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -864,6 +876,10 @@ verifyPrimary-subject = Primarnu e-maijlowu adresu wobkšuśiś
 verifyPrimary-action-2 = E-mailowu adresu wobkšuśiś
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Gaž su wobkšuśone, su kontowe změny móžne, kaž na pśikład pśidawanje sekundarneje e-mailoweje adrese z toś togo rěda.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Wužywajśo { $code }, aby swóju sekundarnu e-mailowu adresu wobkšuśił
+verifySecondaryCode-preview = Toś ten kod za 5 minutow spadnjo.
 verifySecondaryCode-title-2 = Sekundarnu e-mailowu adresu wobkšuśiś
 verifySecondaryCode-action-2 = E-mailowu adresu wobkšuśiś
 # Variables:
@@ -871,6 +887,10 @@ verifySecondaryCode-action-2 = E-mailowu adresu wobkšuśiś
 verifySecondaryCode-explainer-2 = Slědujuce konto { -product-mozilla-account } jo pominało, { $email } ako drugu e-mailowu adresu wužywaś:
 verifySecondaryCode-prompt-2 = Toś ten wobkšuśeński kod wužywaś:
 verifySecondaryCode-expiry-notice-2 = Spadnjo za 5 minutow. Gaž jo se wobkšuśiła, toś ta adresa zachopijo wěstotne powěźeńki a wobkšuśenja dostawaś.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Wužywajśo { $code }, aby swójo konto wobkšuśił
+verifyShortCode-preview-2 = Toś ten kod za 5 minutow spadnjo
 verifyShortCode-title-3 = Wócyńśo internet z { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -brand-mozilla }, wšuźi, źož se pśizjawjaśo, zachopinajucy z:
