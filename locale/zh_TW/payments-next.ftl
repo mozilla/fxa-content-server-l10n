@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <span>於 { $billedOnDate } 收費<
 subscription-content-current-billed-on-no-tax = <span>於 { $billedOnDate } 收費</span> <strong>{ $invoiceTotal }</strong>
 subscription-content-credit-issued-to-your-account = 已發出 <strong>{ $creditApplied }</strong> 信用額度到您的帳號
 subscription-content-coupon-applied = 已套用「{ $promotionName }」折扣
+subscription-content-coupon-will-be-applied = 將套用「{ $promotionName }」折扣
 subscription-content-next-bill-excl-disc-with-tax = 下期帳單金額 <strong>{ $nextInvoiceTotal } + { $taxDue } 稅金</strong>（未計算折扣），將於 <strong>{ $nextBillDate }</strong> 出帳
 subscription-content-next-bill-excl-no-tax = 下期帳單金額 <strong>{ $nextInvoiceTotal }</strong>（未計算折扣），將於 <strong>{ $nextBillDate }</strong> 出帳
 subscription-content-heading-cancel-subscription = 取消訂閱

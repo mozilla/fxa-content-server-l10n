@@ -412,6 +412,10 @@ passwordChangeRequired-different-password-2 = <b>重要：</b>請使用您從未
 passwordChangeRequired-different-password-plaintext-2 = 重要：請使用您從未使用過的、足夠強大的密碼。
 passwordChangeRequired-action = 重設密碼
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }：
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = 使用 { $code } 更改密碼
+password-forgot-otp-preview = 此代碼將於 10 分鐘後失效
 password-forgot-otp-title = 忘記密碼了嗎？
 password-forgot-otp-request = 我們收到要更改您 { -product-mozilla-account }密碼的請求：
 password-forgot-otp-code-2 = 若是您提出的話，請使用下列確認碼：
@@ -775,6 +779,10 @@ subscriptionUpgrade-content-new-price-year-tax = 未來，將收取每年 { $pay
 subscriptionUpgrade-content-new-price-default-tax = 未來，將收取每期 { $paymentAmountNew } + { $paymentTaxNew } 稅，不含折扣。
 subscriptionUpgrade-existing = 若您現有的訂閱與此次升級有重疊部分，我們會用另外一封電子郵件向您說明完整處理方式；若您的新方案當中包含需要安裝軟體的產品，則也會再用另一封電子郵件向您說明如何安裝。
 subscriptionUpgrade-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動續約並收費。
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = 使用 { $unblockCode } 登入
+unblockCode-preview = 此代碼將於 1 小時後失效
 unblockCode-title = 要登入的是您嗎？
 unblockCode-prompt = 是的話，以下是您的授權碼：
 # Variables:
@@ -823,6 +831,10 @@ verifyLogin-description-2 = 請確認您下列時間的登入紀錄，幫助我�
 verifyLogin-subject-2 = 確認登入
 verifyLogin-action = 確認登入
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = 使用 { $code } 登入
+verifyLoginCode-preview = 此代碼將於 5 分鐘後失效。
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = 您是否有登入 { $serviceName }？
 # After the colon is a description of the device used to sign in to the service
@@ -835,6 +847,10 @@ verifyPrimary-subject = 確認主要電子郵件地址
 verifyPrimary-action-2 = 確認電子郵件信箱
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }：
 verifyPrimary-post-verify-2 = 驗證完成後，即可從此裝置進行新增次要電子郵件地址等帳號變更操作。
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = 使用 { $code } 確認您的次要電子郵件信箱
+verifySecondaryCode-preview = 此代碼將於 5 分鐘後失效。
 verifySecondaryCode-title-2 = 確認次要電子郵件地址
 verifySecondaryCode-action-2 = 確認電子郵件信箱
 # Variables:
@@ -842,6 +858,10 @@ verifySecondaryCode-action-2 = 確認電子郵件信箱
 verifySecondaryCode-explainer-2 = 有人要求將 { $email } 加入為下列 { -product-mozilla-account }帳號的次要郵件帳號：
 verifySecondaryCode-prompt-2 = 使用這組驗證碼：
 verifySecondaryCode-expiry-notice-2 = 驗證碼將於 5 分鐘後失效。驗證完成後，此信箱也會收到安全性通知與確認郵件。
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = 使用 { $code } 確認您的帳號
+verifyShortCode-preview-2 = 此代碼將於 5 分鐘後失效
 verifyShortCode-title-3 = 與 { -brand-mozilla } 一起打開網路環境
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 確認您的帳號，就可以在任何登入的裝置中發揮 { -brand-mozilla } 產品的最大功能：
