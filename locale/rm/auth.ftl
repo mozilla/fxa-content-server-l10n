@@ -296,7 +296,6 @@ passwordChanged-subject = Actualisà il pled-clav
 passwordChanged-title = Midà cun success il pled-clav
 passwordChanged-description-2 = Il pled-clav da tes { -product-mozilla-account } è vegnì midà cun success cun agid da suandant apparat:
 passwordChangeRequired-subject = Observà ina activitad suspecta
-password-forgot-otp-subject = Emblidà tes pled-clav?
 password-forgot-otp-title = Emblidà tes pled-clav?
 password-forgot-otp-request = Nus avain retschavì ina dumonda da midar il pled-clav per tes { -product-mozilla-account } da:
 password-forgot-otp-code-2 = Sche ti es stà quai, qua è tes code da conferma per cuntinuar:
@@ -569,7 +568,6 @@ subscriptionUpgrade-title = Grazia per l’upgrade!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Tes abunament vegn renovà automaticamain la fin da mintga perioda da facturaziun, nun che ti ta decidas da l’annullar.
-unblockCode-subject = Code d’autorisaziun dal conto
 unblockCode-title = Emprovas ti da t’annunziar?
 unblockCode-prompt = Sche gea, quai è il code d’autorisaziun che ti dovras:
 # Variables:
@@ -606,9 +604,6 @@ verifyLogin-subject-2 = Confermar l'annunzia
 verifyLogin-action = Confermar l’annunzia
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Acceptar l'annunzia en { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Es ti t'annunzia en { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Ans gida da proteger tes conto cun acceptar tia annunzia en:
@@ -620,7 +615,6 @@ verifyPrimary-subject = Confermar l’adressa dad e-mail principala
 verifyPrimary-action-2 = Confermar l’adressa d‘e-mail
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Suenter la conferma èsi pussaivel da modifitgar il conto (p.ex. agiuntar ina adressa dad e-mail alternativa) cun agid da quest apparat.
-verifySecondaryCode-subject = Confermar l’adressa dad e-mail secundara
 verifySecondaryCode-title-2 = Confermar l'adressa dad e-mail secundara
 verifySecondaryCode-action-2 = Confermar l’adressa d‘e-mail
 # Variables:
@@ -628,10 +622,6 @@ verifySecondaryCode-action-2 = Confermar l’adressa d‘e-mail
 verifySecondaryCode-explainer-2 = Ina dumonda per utilisar { $email } sco adressa dad e-mail secundara è vegnida fatga da suandant { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Utilisescha quest code da conferma:
 verifySecondaryCode-expiry-notice-2 = El scada en 5 minutas. Uschespert che questa adressa è confermada, retschaiva ella avis e confermas da segirezza.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Conferma tes conto
-verifyShortCode-preview = Utilisescha il code inclus per confermar tes { -product-mozilla-account }.
 verifyShortCode-title-3 = Avra l'internet cun { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Conferma tes conto e profitescha al maximum da { -brand-mozilla } – dapertut là nua che ti t’annunzias. L‘emprim pass:

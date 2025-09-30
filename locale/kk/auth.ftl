@@ -301,7 +301,6 @@ passwordChangeRequired-preview = Пароліңізді дереу өзгерт�
 passwordChangeRequired-title-2 = Пароліңізді қалпына келтіріңіз
 passwordChangeRequired-action = Парольді тастау
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Пароліңізді ұмыттыңыз ба?
 password-forgot-otp-title = Пароліңізді ұмыттыңыз ба?
 password-forgot-otp-request = Біз сіздің { -product-mozilla-account } тіркелгіңізді паролін өзгерту туралы сұрауды алдық:
 password-forgot-otp-code-2 = Бұл сіз болсаңыз, міне, жалғастыру үшін сіздің растау кодыңыз:
@@ -592,7 +591,6 @@ subscriptionUpgrade-upgrade-info-2 = Сіз { $productName } нұсқасына 
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
-unblockCode-subject = Тіркелгіні авторизациялау коды
 unblockCode-title = Кірем деген сіз бе?
 unblockCode-prompt = Иә болса, міне, сізге керек авторизация коды:
 # Variables:
@@ -629,9 +627,6 @@ verifyLogin-subject-2 = Кіруді растау
 verifyLogin-action = Кіруді растау
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = { $serviceName } жүйесіне кіруді растау
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } ішіне кірдіңіз бе?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Жүйеге келесі кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
@@ -643,7 +638,6 @@ verifyPrimary-subject = Біріншілік эл. поштаңызды раст
 verifyPrimary-action-2 = Эл. поштаны растау
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Расталғаннан кейін, екіншілік эл. поштаны қосу сияқты тіркелгіні өзгерту бұл тіркелгіден қолжетерлік болады.
-verifySecondaryCode-subject = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-title-2 = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-action-2 = Эл. поштаны растау
 # Variables:
@@ -651,9 +645,6 @@ verifySecondaryCode-action-2 = Эл. поштаны растау
 verifySecondaryCode-explainer-2 = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі { -product-mozilla-account } тіркелгісінен жасалған:
 verifySecondaryCode-prompt-2 = Бұл растау кодын пайдалану:
 verifySecondaryCode-expiry-notice-2 = Оның мерзімі 5 минутта бітеді. Расталғаннан кейін бұл адрес қауіпсіздік хабарландырулары мен растауларын ала бастайды.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Тіркелгіңізді растаңыз
 verifyShortCode-title-3 = { -brand-mozilla } көмегімен Интернетті ашыңыз
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Тіркелгіңізді растаңыз және { -brand-mozilla } мүмкіндігін барлық жүйеге кірген жерлерде пайдаланыңыз, келесіден бастап:

@@ -308,7 +308,6 @@ passwordChanged-subject = Lykilorð uppfært
 passwordChanged-title = Tókst að breyta lykilorði
 passwordChanged-description-2 = Lykilorðinu fyrir { -product-mozilla-account } þinn var breytt af eftirfarandi tæki:
 passwordChangeRequired-subject = Vart við grunsamlega virkni
-password-forgot-otp-subject = Gleymdirðu lykilorðinu þínu?
 password-forgot-otp-title = Gleymdirðu lykilorðinu þínu?
 password-forgot-otp-request = Við fengum beiðni um breytingu á lykilorði á { -product-mozilla-account }-reikningnum þínum frá:
 password-forgot-otp-code-2 = Ef þetta varst þú, þá er hér staðfestingarkóði þinn til að halda áfram:
@@ -597,7 +596,6 @@ subscriptionUpgrade-upgrade-info-2 = Þú hefur uppfært í { $productName }.
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
-unblockCode-subject = Auðkenningarkóði reiknings
 unblockCode-title = Er þetta þú að skrá þig inn?
 unblockCode-prompt = Ef já, þá er hérna auðkenningarkóðinn sem þú þarft:
 # Variables:
@@ -634,9 +632,6 @@ verifyLogin-subject-2 = Staðfestu innskráningu
 verifyLogin-action = Staðfesta innskráningu
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Samþykkja innskráningu á { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Skráðir þú þig inn á { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Hjálpaðu okkur að halda reikningnum þínum öruggum með því að staðfesta innskráninguna þína á:
@@ -648,7 +643,6 @@ verifyPrimary-subject = Staðfestu aðaltölvupóstfang
 verifyPrimary-action-2 = Staðfestu tölvupóstfangið
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Þegar staðfesting hefur farið fram, verða mögulegar ýmsar breytingar á borð við að bæta við aukapóstfangi af þessu tæki.
-verifySecondaryCode-subject = Staðfestu aukatölvupóstfang
 verifySecondaryCode-title-2 = Staðfestu aukatölvupóstfang
 verifySecondaryCode-action-2 = Staðfestu tölvupóstfangið
 # Variables:
@@ -656,10 +650,6 @@ verifySecondaryCode-action-2 = Staðfestu tölvupóstfangið
 verifySecondaryCode-explainer-2 = Beiðni um að nota { $email } sem aukatölvupóstfang hefur verið gerð úr eftirfarandi { -product-mozilla-account }-reikningi:
 verifySecondaryCode-prompt-2 = Notaðu þennan staðfestingarkóða:
 verifySecondaryCode-expiry-notice-2 = Hann rennur út eftir 5 mínútur. Eftir að tölvupóstfangið hefur verið staðfest, mun það fara að fá öryggistilkynningar og staðfestingar.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Staðfestu reikninginn þinn
-verifyShortCode-preview = Notaðu meðfylgjandi kóða til að staðfesta { -product-mozilla-account }.
 verifyShortCode-title-3 = Opnaðu internetið með { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-mozilla } hvar sem þú skráir þig inn, til dæmis fyrst á:

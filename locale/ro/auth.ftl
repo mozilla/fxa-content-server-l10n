@@ -347,7 +347,6 @@ passwordChangeRequired-different-password-2 = <b>Important:</b> Alege o parolă 
 passwordChangeRequired-different-password-plaintext-2 = Important: Alege o parolă puternică, diferită de cea folosită anterior.
 passwordChangeRequired-action = Resetează parola
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Ți-ai uitat parola?
 password-forgot-otp-title = Ți-ai uitat parola?
 password-forgot-otp-request = Am primit o solicitare de schimbare a parolei pentru contul { -product-mozilla-account } de la:
 password-forgot-otp-code-2 = Dacă ai fost tu, iată codul de confirmare ca să continui:
@@ -704,7 +703,6 @@ subscriptionUpgrade-content-new-price-year-tax = De acum înainte, ți se va fac
 subscriptionUpgrade-content-new-price-default-tax = De acum înainte, ți se va factura { $paymentAmountNew } + { $paymentTaxNew } taxe pe perioadă de facturare, excluzând reducerile.
 subscriptionUpgrade-existing = Dacă oricare dintre abonamentele tale existente se suprapune cu această trecere la o versiune superioară, le vom gestiona și îți vom trimite un mesaj separat pe e-mail cu detaliile. Dacă noul tău plan include produse care necesită instalare, îți vom trimite un mesaj separat pe e-mail cu instrucțiuni de configurare.
 subscriptionUpgrade-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
-unblockCode-subject = Cod de autorizare al contului
 unblockCode-title = Tu ești încerci să te autentifici?
 unblockCode-prompt = Dacă da, iată codul de autorizare de care ai nevoie:
 # Variables:
@@ -764,9 +762,6 @@ verifyLogin-subject-2 = Confirmă autentificarea
 verifyLogin-action = Confirmă autentificarea
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Aprobă autentificarea la { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Te-ai autentificat în { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Ajută-ne să îți protejăm contul aprobând autentificarea în:
@@ -778,7 +773,6 @@ verifyPrimary-subject = Confirmă adresa primară de e-mail
 verifyPrimary-action-2 = Confirmă adresa de e-mail
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Odată confirmată, vor fi posibile modificări ale contului de pe acest dispozitiv, precum adăugarea unei adrese de e-mail secundare.
-verifySecondaryCode-subject = Confirmă adresa de e-mail secundară
 verifySecondaryCode-title-2 = Confirmă adresa de e-mail secundară
 verifySecondaryCode-action-2 = Confirmă adresa de e-mail
 # Variables:
@@ -786,10 +780,6 @@ verifySecondaryCode-action-2 = Confirmă adresa de e-mail
 verifySecondaryCode-explainer-2 = A fost trimisă o cerere pentru a folosi { $email } ca adresă de e-mail secundară de pe următorul cont { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Folosește acest cod de confirmare:
 verifySecondaryCode-expiry-notice-2 = Expiră în 5 minute. Odată confirmată, această adresă va începe să primească notificări de securitate și confirmări.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Confirmă contul
-verifyShortCode-preview = Folosește codul inclus pentru a-ți confirma contul { -product-mozilla-account }.
 verifyShortCode-title-3 = Intră pe internet cu { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirmă-ți contul și obține maximul de la { -brand-mozilla } oriunde te autentifici, începând cu:

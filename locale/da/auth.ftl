@@ -423,7 +423,6 @@ passwordChangeRequired-different-password-2 = <b>Vigtigt:</b> Vælg en stærk ad
 passwordChangeRequired-different-password-plaintext-2 = Vigtigt: Vælg en stærk adgangskode, der er anderledes end adgangskoder, du har brugt tidligere.
 passwordChangeRequired-action = Nulstil adgangskode
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Glemt din adgangskode?
 password-forgot-otp-title = Glemt din adgangskode?
 password-forgot-otp-request = Vi har modtaget en anmodning om at ændre adgangskoden til din { -product-mozilla-account } fra:
 password-forgot-otp-code-2 = Hvis det var dig, så er din bekræftelseskode til at fortsætte her:
@@ -787,7 +786,6 @@ subscriptionUpgrade-content-new-price-year-tax = Fremover vil du blive opkrævet
 subscriptionUpgrade-content-new-price-default-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } afgift per faktureringsperiode, eksklusive rabatter.
 subscriptionUpgrade-existing = Hvis nogle af dine eksisterende abonnementer overlapper med denne opgradering, tager vi højde for det og sender dig en separat mail med detaljerne. Hvis din nye plan inkluderer produkter, der kræver installation, sender vi dig en separat mail med en opsætningsvejledning.
 subscriptionUpgrade-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
-unblockCode-subject = Godkendelseskode til konto
 unblockCode-title = Er det dig, der logger ind?
 unblockCode-prompt = Hvis det er, skal du bruge denne godkendelseskode:
 # Variables:
@@ -845,9 +843,6 @@ verifyLogin-subject-2 = Bekræft login
 verifyLogin-action = Bekræft login
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Godkend login på { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Har du logget ind på { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Hold din konto sikker ved at bekræfte dit login på:
@@ -859,7 +854,6 @@ verifyPrimary-subject = Bekræft primær mailadresse
 verifyPrimary-action-2 = Bekræft mailadresse
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Når denne mailadresse er blevet bekræftet, kan ændringer af kontoen som fx tilføjelse af en sekundær mailadresse foretages fra denne enhed.
-verifySecondaryCode-subject = Bekræft sekundær mailadresse
 verifySecondaryCode-title-2 = Bekræft sekundær mailadresse
 verifySecondaryCode-action-2 = Bekræft mailadresse
 # Variables:
@@ -867,10 +861,6 @@ verifySecondaryCode-action-2 = Bekræft mailadresse
 verifySecondaryCode-explainer-2 = Den følgende { -product-mozilla-account } har anmodet om at bruge { $email } som sekundær mailadresse:
 verifySecondaryCode-prompt-2 = Brug denne bekræftelseskode:
 verifySecondaryCode-expiry-notice-2 = Den udløber om 5 minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Bekræft din konto
-verifyShortCode-preview = Brug den medfølgende kode til at bekræfte din { -product-mozilla-account }.
 verifyShortCode-title-3 = Åbn internettet med { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Bekræft din konto og få mest muligt ud af { -brand-mozilla }, overalt hvor du logger ind:

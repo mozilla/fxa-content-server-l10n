@@ -93,7 +93,6 @@ subscriptionReactivation-subject = { $productName }-ի բաժանորդագրո�
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-unblockCode-subject = Հաշվի թույլտվության կոդ
 unblockCode-title = Դու՞ք եք մուտք գործել։
 unblockCode-prompt = Եթե այո, ապա Ձեզ հարկավոր է լիազորման կոդ․
 unblockCode-report-plaintext = Եթե ոչ, օգնեք մեզ խուսափել ներխուժումներից և դա զեկուցեք մեզ այդ մասին։
@@ -114,10 +113,6 @@ verifyPrimary-description = Հերևյալ սարքից հաշվի փոփոխո�
 verifyPrimary-subject = Հաստատեք հիմնական էլ․ փոստը
 verifyPrimary-action-2 = Հաստատեք էլ․ փոստը
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }.
-verifySecondaryCode-subject = Հաստատեք երկրորդական էլ․ փոստը
 verifySecondaryCode-title-2 = Հաստատեք երկրորդական էլ․ փոստը
 verifySecondaryCode-action-2 = Հաստատեք էլ․ փոստը
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Հաստատեք Ձեր հաշիվը
 verifyShortCode-expiry-notice = Այն ավարտվում է 5 րոպեի ընթացքում։

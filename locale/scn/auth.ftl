@@ -344,7 +344,6 @@ passwordChangeRequired-sign-in-3 = Pi tràsiri arrè nnô to cuntu, hâ risittar
 passwordChangeRequired-different-password-2 = <b>Mpurtanti:</b> scarta na chiavi forti diversa di tutti chiḍḍi chi già usasti ’n passatu.
 passwordChangeRequired-action = Risetta a chiavi
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Ti scurdasti a chiavi?
 password-forgot-otp-title = Ti scurdasti a chiavi?
 password-forgot-otp-request = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
 password-forgot-otp-code-2 = Siḍḍu fusti tu, cca cc’è u còdici di cunferma pi jiri avanti:
@@ -646,7 +645,6 @@ subscriptionUpgrade-upgrade-info-2 = L’attualizzu a { $productName } jìu bonu
 subscriptionUpgrade-content-charge-credit = Ricivisti un crèditu di { $paymentProrated } nnô to cuntu.
 subscriptionUpgrade-existing = Si quarchidunu di l’abbunamenti chi già ài nchiudi parti di st’attualizzu, manijamu nuiautri a situazzioni e ti mannamu n’e-mail chî minutagghi. Si u to chianu novu abbisogna di nzitari autri prudutti, ti mannamu n’autra e-mail cu l’istruzzioni pû nzitamentu.
 subscriptionUpgrade-auto-renew = U to abbunamentu si rinova di manera autumàtica p’ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
-unblockCode-subject = Còdici d’auturizzazzioni dû cuntu
 unblockCode-title = Sì tu chi sta’ trasennu?
 unblockCode-prompt = Si sì tu, chistu è u còdici d’auturizzazzioni chi ti serbi:
 # Variables:
@@ -683,9 +681,6 @@ verifyLogin-subject-2 = Cunferma a trasuta
 verifyLogin-action = Cunferma a trasuta
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Approva trasuta nne { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Trasisti nne { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Ajùtani a tèniri u to cuntu ô sicuru appruvannu a to trasuta nne:
@@ -697,7 +692,6 @@ verifyPrimary-subject = Cunferma u nnirizzu di posta elittrònica primariu
 verifyPrimary-action-2 = Cunferma nnirizzu di posta elittrònica
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Na vota chi cunfirmasti, di stu dispusitivu sarà pussìbbili fari canci ô cuntu, a tipu jùnciri nu nnirizzu di posta elittrònica sicunnariu.
-verifySecondaryCode-subject = Cunferma u nnirizzu di posta elittrònica sicunnariu
 verifySecondaryCode-title-2 = Cunferma u nnirizzu di posta elittrònica sicunnariu
 verifySecondaryCode-action-2 = Cunferma nnirizzu di posta elittrònica
 # Variables:
@@ -705,10 +699,6 @@ verifySecondaryCode-action-2 = Cunferma nnirizzu di posta elittrònica
 verifySecondaryCode-explainer-2 = U { -product-mozilla-account } appressu addumanna di usari { $email } comu nnirizzu di posta elittrònica sicunnariu:
 verifySecondaryCode-prompt-2 = Usa stu còdici di cunferma:
 verifySecondaryCode-expiry-notice-2 = Scadi ntra 5 minuti. Na vota chi cunfirmasti, stu nnirizzu accumincia a ricìviri i nutìfichi e i cunfermi di sicurizza.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Cunferma u to cuntu
-verifyShortCode-preview = Usa u còdici pi cunfirmari u to { -product-mozilla-account }.
 verifyShortCode-title-3 = Grapi a riti cu { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Cunferma u to cuntu e pìgghiati u megghiu di { -brand-mozilla } unni trasi-trasi, principiannu di:

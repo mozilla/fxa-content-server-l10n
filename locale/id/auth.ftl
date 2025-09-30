@@ -295,7 +295,6 @@ passwordChanged-subject = Sandi telah diperbarui
 passwordChanged-title = Sandi sukses diganti
 passwordChanged-description-2 = { -product-mozilla-account } Anda telah berhasil diubah untuk perangkat berikut ini:
 passwordChangeRequired-subject = Aktivitas mencurigakan terdeteksi
-password-forgot-otp-subject = Lupa sandi Anda?
 password-forgot-otp-title = Lupa sandi Anda?
 password-forgot-otp-request = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:
 password-forgot-otp-code-2 = Jika ini Anda, berikut adalah kode konfirmasi Anda untuk melanjutkan:
@@ -558,7 +557,6 @@ subscriptionSubsequentInvoice-title = Terima kasih telah menjadi pelanggan!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Langganan Anda akan diperpanjang secara otomatis setiap periode penagihan kecuali Anda memilih untuk membatalkan.
-unblockCode-subject = Kode otorisasi akun
 unblockCode-title = Apakah Anda benar-benar sedang masuk?
 unblockCode-prompt = Jika ya, ini adalah kode otorisasi yang Anda butuhkan:
 # Variables:
@@ -595,9 +593,6 @@ verifyLogin-subject-2 = Konfirmasi masuk
 verifyLogin-action = Mengkonfirmasi proses masuk
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Setujui proses masuk ke { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Apakah Anda sudah masuk ke { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Bantu kami menjaga keamanan akun Anda dengan menyetujui proses masuk Anda pada:
@@ -609,15 +604,10 @@ verifyPrimary-subject = Konfirmasi surel utama
 verifyPrimary-action-2 = Konfirmasi surel
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Setelah dikonfirmasi, perubahan akun seperti menambahkan surel sekunder akan dimungkinkan dari perangkat ini.
-verifySecondaryCode-subject = Konfirmasi surel sekunder
 verifySecondaryCode-title-2 = Konfirmasi surel sekunder
 verifySecondaryCode-action-2 = Konfirmasi surel
 verifySecondaryCode-prompt-2 = Gunakan kode konfirmasi ini:
 verifySecondaryCode-expiry-notice-2 = Kedaluwarsa dalam 5 menit. Setelah dikonfirmasi, alamat ini akan mulai menerima pemberitahuan dan konfirmasi keamanan.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Konfirmasikan akun Anda
-verifyShortCode-preview = Gunakan kode yang disertakan untuk mengonfirmasi { -product-mozilla-account } Anda.
 verifyShortCode-title-3 = Buka internet dengan { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Konfirmasikan akun Anda dan dapatkan manfaat maksimal dari { -brand-mozilla } di mana pun Anda masuk dimulai dengan:

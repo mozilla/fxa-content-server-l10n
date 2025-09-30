@@ -410,7 +410,6 @@ passwordChangeRequired-different-password-2 = <b>重要提醒：</b>请使用强
 passwordChangeRequired-different-password-plaintext-2 = 重要提醒：请使用强密码，并确保此前未曾使用过。
 passwordChangeRequired-action = 重设密码
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }：
-password-forgot-otp-subject = 忘记密码？
 password-forgot-otp-title = 忘记密码？
 password-forgot-otp-request = 我们收到更改 { -product-mozilla-account }密码的请求，来自：
 password-forgot-otp-code-2 = 如果是您本人请求，请使用此确认码来继续操作：
@@ -774,7 +773,6 @@ subscriptionUpgrade-content-new-price-year-tax = 此后，您将需要年付 { $
 subscriptionUpgrade-content-new-price-default-tax = 此后，您将需要每账单周期支付 { $paymentAmountNew } + 税款 { $paymentTaxNew }（未含折扣）。
 subscriptionUpgrade-existing = 若此次的升级内容与您现有的订阅重合，我们将进行处理，并向您单独发送一封邮件说明详细信息。若您的新方案包含需要安装的产品，我们将向您单独发送一封邮件说明安装方法。
 subscriptionUpgrade-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
-unblockCode-subject = 账户授权码
 unblockCode-title = 是您在登录吗？
 unblockCode-prompt = 是的话，这是您所需的授权码：
 # Variables:
@@ -824,9 +822,6 @@ verifyLogin-subject-2 = 确认登录
 verifyLogin-action = 确认登录
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = 准许登录 { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = 您是否登录了 { $serviceName }？
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = 请确认您的登录活动，以确保账户安全：
@@ -838,7 +833,6 @@ verifyPrimary-subject = 确认主邮箱
 verifyPrimary-action-2 = 验证电子邮箱
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }：
 verifyPrimary-post-verify-2 = 验证完成后，即可从此设备进行添加备用邮箱等账户更改操作。
-verifySecondaryCode-subject = 确认备用邮箱地址
 verifySecondaryCode-title-2 = 验证备用邮箱
 verifySecondaryCode-action-2 = 验证电子邮箱
 # Variables:
@@ -846,10 +840,6 @@ verifySecondaryCode-action-2 = 验证电子邮箱
 verifySecondaryCode-explainer-2 = 已请求使用 { $email } 作为下列 { -product-mozilla-account }的备用电子邮件地址：
 verifySecondaryCode-prompt-2 = 请使用此确认码：
 verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证完成后，此邮箱也将开始接收安全通知和验证邮件。
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = 验证您的账户
-verifyShortCode-preview = 通过随附的验证码来确认 { -product-mozilla-account }。
 verifyShortCode-title-3 = 携手 { -brand-mozilla } 打开互联网世界
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 确认您的账户后，即可在所有登录设备上解锁 { -brand-mozilla } 完整体验。体验第一站：

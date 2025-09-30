@@ -349,7 +349,6 @@ subscriptionUpgrade-title = Хвала што сте ажурирали!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Ваша претплата ће се аутоматски обнављати сваког обрачунског периода, осим ако не одлучите да је откажете.
-unblockCode-subject = Код за ауторизацију налога
 unblockCode-title = Да ли сте се ово ви пријавили?
 unblockCode-prompt = Ако јесте, ево ауторизационог кода који вам је потребан:
 # Variables:
@@ -378,9 +377,6 @@ verifyLogin-subject-2 = Потврдите пријаву
 verifyLogin-action = Потврдите пријаву
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Одобри пријаву у { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Да ли сте се пријавили у { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Помозите нам да заштитимо ваш налог тако што ћете потврдити пријаву на:
@@ -392,13 +388,9 @@ verifyPrimary-subject = Потврдите примарну адресу е-по
 verifyPrimary-action-2 = Потврдите адресу е-поште
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Једном када потврдите, измене налога као што је додавање секундарне адресе, ће бити могуће и са овог уређаја.
-verifySecondaryCode-subject = Потврдите секундарну адресу е-поште
 verifySecondaryCode-title-2 = Потврдите секундарну адресу е-поште
 verifySecondaryCode-action-2 = Потврдите адресу е-поште
 verifySecondaryCode-prompt-2 = Искористите овај код за потврду:
 verifySecondaryCode-expiry-notice-2 = Истиче за 5 минута. Једном када верификујете, адреса ће добијати безбедносна обавештења и потврде о пријавама.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Потврдите налог
 verifyShortCode-prompt-3 = Искористите овај код за потврду:
 verifyShortCode-expiry-notice = Истиче за 5 минута.

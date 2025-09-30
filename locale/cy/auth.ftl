@@ -433,7 +433,6 @@ passwordChangeRequired-different-password-2 = <b>Pwysig:</b> Dewiswch gyfrinair 
 passwordChangeRequired-different-password-plaintext-2 = Pwysig: Dewiswch gyfrinair cryf sy'n wahanol i'r un rydych chi wedi'i ddefnyddio yn y gorffennol.
 passwordChangeRequired-action = Ailosodwch y cyfrinair
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Wedi anghofio eich cyfrinair?
 password-forgot-otp-title = Wedi anghofio eich cyfrinair?
 password-forgot-otp-request = Rydym wedi derbyn cais i newid cyfrinair ar eich cyfrif { -product-mozilla-account } oddi wrth:
 password-forgot-otp-code-2 = Os mai chi oedd hwn, dyma'ch cod cadarnhau i symud ymlaen:
@@ -797,7 +796,6 @@ subscriptionUpgrade-content-new-price-year-tax = Yn y dyfodol, byddwn yn codi { 
 subscriptionUpgrade-content-new-price-default-tax = Yn y dyfodol, byddwn yn codi { $paymentAmountNew } + { $paymentTaxNew } treth arnoch fesul cyfnod bilio, heb gynnwys gostyngiadau.
 subscriptionUpgrade-existing = Os bydd unrhyw un o'ch tanysgrifiadau presennol yn gorgyffwrdd â'r uwchraddio hwn, byddwn yn eu trin ac yn anfon e-bost ar wahân atoch gyda'r manylion. Os yw eich cynllun newydd yn cynnwys cynnyrch sydd angen eu gosod, byddwn yn anfon e-bost ar wahân atoch gyda chyfarwyddiadau gosod.
 subscriptionUpgrade-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
-unblockCode-subject = Cod awdurdodi cyfrif
 unblockCode-title = Ai hwn yw chi’n allgofnodi?
 unblockCode-prompt = Os ie, dyma’r cod awdurdodi sydd ei angen arnoch:
 # Variables:
@@ -863,9 +861,6 @@ verifyLogin-subject-2 = Cadarnhewch eich mewngofnodi
 verifyLogin-action = Cadarnhau eich mewngofnodi
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Cymeradwyo mewngofnodi i { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = A wnaethoch chi fewngofnodi i { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Helpwch ni i gadw'ch cyfrif yn ddiogel trwy gymeradwyo eich mewngofnodi:
@@ -877,7 +872,6 @@ verifyPrimary-subject = Cadarnhau’r prif e-bost
 verifyPrimary-action-2 = Cadarnhau'r e-bost
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Unwaith y bydd wedi ei gadarnhau, bydd newid cyfrif fel ychwanegu ail e-bost yn bosib o'r ddyfais hon.
-verifySecondaryCode-subject = Cadarnhau’r ail e-bost
 verifySecondaryCode-title-2 = Cadarnhau'r ail e-bost
 verifySecondaryCode-action-2 = Cadarnhau'r e-bost
 # Variables:
@@ -885,10 +879,6 @@ verifySecondaryCode-action-2 = Cadarnhau'r e-bost
 verifySecondaryCode-explainer-2 = Mae cais i ddefnyddio { $email } fel cyfeiriad ail e-bost wedi'i wneud o'r cyfrif { -product-mozilla-account } canlynol:
 verifySecondaryCode-prompt-2 = Defnyddiwch y cod cadarnhau yma:
 verifySecondaryCode-expiry-notice-2 = Daw i ben ymhen 5 munud. Ar ôl ei gadarnhau, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Cadarnhewch eich cyfrif
-verifyShortCode-preview = Defnyddiwch y cod sydd wedi'i gynnwys i gadarnhau eich { -product-mozilla-account }.
 verifyShortCode-title-3 = Agorwch y rhyngrwyd gyda { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Cadarnhewch eich cyfrif a chael y gorau o { -brand-mozilla } ym mhob man rydych yn mewngofnodi gan ddechrau gyda:

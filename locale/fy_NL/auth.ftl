@@ -423,7 +423,6 @@ passwordChangeRequired-different-password-2 = <b>Wichtich:</b> kies in sterk wac
 passwordChangeRequired-different-password-plaintext-2 = Wichtich: kies in sterk wachtwurd dat oars is as in wachtwurd dat jo yn it ferline brûkt hawwe.
 passwordChangeRequired-action = Wachtwurd opnij ynstelle
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Jo wachtwurd ferjitten?
 password-forgot-otp-title = Jo wachtwurd ferjitten?
 password-forgot-otp-request = Wy hawwe in fersyk ûntfongen foar in wachtwurdwiziging op jo { -product-mozilla-account } fan:
 password-forgot-otp-code-2 = As jo dit wiene, dan is dit jo befêstigingskoade om troch te gean:
@@ -787,7 +786,6 @@ subscriptionUpgrade-content-new-price-year-tax = Fan no ôf wurdt { $paymentAmou
 subscriptionUpgrade-content-new-price-default-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per fakturearringsynterval yn rekken brocht, eksklusyf koartingen.
 subscriptionUpgrade-existing = As ien fan jo besteande abonneminten oerlaapje mei dizze opwurdearring, sille wy se behannelje en jo in aparte e-mailberjocht stjoere mei de details. As jo nije plan produkten omfettet dy’t ynstallaasje fereaskje, sille wy jo in apart e-mailberjocht stjoere mei ynstallaasje-ynstruksjes.
 subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
-unblockCode-subject = Accountautorisaasjekoade
 unblockCode-title = Binne jo dit, dy’t harren oanmeldt?
 unblockCode-prompt = As ja, dan is hjir de autorisaasjekoade dy’t jo nedich hawwe:
 # Variables:
@@ -845,9 +843,6 @@ verifyLogin-subject-2 = Oanmelding befêstigje
 verifyLogin-action = Oanmelding befêstigje
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Oanmelding by { $serviceName } goedkarre
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Hawwe jo jo oanmeld by { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Help ús jo account feilich te hâlden troch jo oanmelding goed te karren op:
@@ -859,7 +854,6 @@ verifyPrimary-subject = Primêr e-mailadres befêstigje
 verifyPrimary-action-2 = E-mailadres befêstigje
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Nei befêstiging wurde accountwizigingen, lykas it tafoegjen fan in sekundêr e-mailadres, mooglik fan dit apparaat ôf.
-verifySecondaryCode-subject = Sekundêr e-mailadres befêstigje
 verifySecondaryCode-title-2 = Sekundêr e-mailadres befêstigje
 verifySecondaryCode-action-2 = E-mailadres befêstigje
 # Variables:
@@ -867,10 +861,6 @@ verifySecondaryCode-action-2 = E-mailadres befêstigje
 verifySecondaryCode-explainer-2 = Der is in oanfraach foar it gebrûk fan { $email } as twadde e-mailadres dien fan de folgjende { -product-mozilla-account } ôf:
 verifySecondaryCode-prompt-2 = Brûk dizze befêstigingskoade:
 verifySecondaryCode-expiry-notice-2 = Dizze ferrint oer 5 minuten. Nei befêstiging ûntfangt dit adres befeiligingsmeldingen en befêstigingen.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Befêstigje jo account
-verifyShortCode-preview = Brûk de opnommen koade om jo { -product-mozilla-account } te befêstigjen.
 verifyShortCode-title-3 = Iepenje it ynternet mei { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-mozilla }, te begjinnen mei:

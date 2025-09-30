@@ -395,7 +395,6 @@ passwordChangeRequired-different-password-2 = <b>Σημαντικό:</b> Επι�
 passwordChangeRequired-different-password-plaintext-2 = Σημαντικό: Επιλέξτε έναν ισχυρό κωδικό πρόσβασης που διαφέρει από αυτόν που χρησιμοποιούσατε στο παρελθόν.
 passwordChangeRequired-action = Επαναφορά κωδικού πρόσβασης
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Ξεχάσατε τον κωδικό πρόσβασής σας;
 password-forgot-otp-title = Ξεχάσατε τον κωδικό πρόσβασής σας;
 password-forgot-otp-request = Λάβαμε ένα αίτημα αλλαγής κωδικού πρόσβασης για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας από:
 password-forgot-otp-code-2 = Εάν το κάνατε εσείς, συνεχίστε με τον παρακάτω κωδικό επιβεβαίωσης:
@@ -753,7 +752,6 @@ subscriptionUpgrade-content-new-price-year-tax = Στο εξής, θα χρεώ�
 subscriptionUpgrade-content-new-price-default-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά διάστημα χρέωσης, εξαιρουμένων των εκπτώσεων.
 subscriptionUpgrade-existing = Αν κάποια από τις υπάρχουσες συνδρομές σας συμπίπτει με αυτήν την αναβάθμιση, θα τη διαχειριστούμε και θα σας στείλουμε ξεχωριστό email με τις λεπτομέρειες. Αν το νέο σας πακέτο περιλαμβάνει προϊόντα που απαιτούν εγκατάσταση, θα σας στείλουμε ξεχωριστό email με τις οδηγίες.
 subscriptionUpgrade-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
-unblockCode-subject = Κωδικός ταυτοποίησης λογαριασμού
 unblockCode-title = Κάνετε εσείς σύνδεση;
 unblockCode-prompt = Αν ναι, ορίστε ο κωδικός ταυτοποίησης που χρειάζεστε:
 # Variables:
@@ -811,9 +809,6 @@ verifyLogin-subject-2 = Επιβεβαίωση σύνδεσης
 verifyLogin-action = Επιβεβαίωση εισόδου
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Έγκριση σύνδεσης στο { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Συνδεθήκατε στο { $serviceName };
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Βοηθήστε μας να προστατέψουμε τον λογαριασμό σας εγκρίνοντας τη σύνδεσή σας στο:
@@ -825,7 +820,6 @@ verifyPrimary-subject = Επιβεβαίωση κύριου email
 verifyPrimary-action-2 = Επιβεβαίωση email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Μόλις γίνει επιβεβαίωση, θα καταστούν δυνατές οι αλλαγές στον λογαριασμού, όπως η προσθήκη δευτερεύοντος email, από αυτήν τη συσκευή.
-verifySecondaryCode-subject = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-title-2 = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-action-2 = Επιβεβαίωση email
 # Variables:
@@ -833,10 +827,6 @@ verifySecondaryCode-action-2 = Επιβεβαίωση email
 verifySecondaryCode-explainer-2 = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-mozilla-account(case: "acc", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
 verifySecondaryCode-expiry-notice-2 = Λήγει σε 5 λεπτά. Μόλις γίνει επιβεβαίωση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Επιβεβαίωση του λογαριασμού σας
-verifyShortCode-preview = Χρησιμοποιήστε τον παρεχόμενο κωδικό για να επιβεβαιώσετε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας.
 verifyShortCode-title-3 = «Ανοίξτε» το διαδίκτυο με τη { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο τις υπηρεσίες της { -brand-mozilla }, όπου κι αν συνδεθείτε, ξεκινώντας με:

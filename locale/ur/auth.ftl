@@ -65,5 +65,4 @@ verify-subject = اپنا اکاؤنٹ بنانا ختم کریں
 verifyLogin-action = سائن کی تصدیق کریں
 verifyLoginCode-expiry-notice = یہ 5 منٹ میں ختم ہو جاتا ہے۔
 verifyPrimary-subject = بنیادی ای میل کی تصدیق کریں
-verifySecondaryCode-subject = ثانوی ای میل کی تصدیق کریں
 verifyShortCode-expiry-notice = یہ 5 منٹ میں ختم ہو جاتا ہے۔

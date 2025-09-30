@@ -354,7 +354,6 @@ passwordChangeRequired-different-password-2 = <b>중요:</b> 이전에 사용했
 passwordChangeRequired-different-password-plaintext-2 = 중요: 이전에 사용했던 것과 다른 강력한 비밀번호를 선택하세요.
 passwordChangeRequired-action = 비밀번호 재설정
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = 비밀번호를 잊으셨나요?
 password-forgot-otp-title = 비밀번호를 잊으셨나요?
 password-forgot-otp-request = 다음으로부터 { -product-mozilla-account } 비밀번호 변경 요청을 받았습니다:
 password-forgot-otp-code-2 = 본인이 확인했다면 진행을 위한 확인 코드는 다음과 같습니다:
@@ -677,7 +676,6 @@ subscriptionUpgrade-content-charge-prorated-1 = 이 결제 기간의 나머지 �
 subscriptionUpgrade-content-charge-credit = { $paymentProrated }의 계정 크레딧을 받았습니다.
 subscriptionUpgrade-existing = 기존 구독이 이번 업그레이드와 중복되는 경우, 이를 처리하여 세부 사항이 담긴 별도의 이메일을 보내드립니다. 새 요금제에 설치가 필요한 제품이 포함 된 경우 설정 지침이 포함된 별도의 이메일을 보내드립니다.
 subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
-unblockCode-subject = 계정 인증 코드
 unblockCode-title = 로그인하신 게 맞나요?
 unblockCode-prompt = 그렇다면 인증 코드를 사용하세요:
 # Variables:
@@ -714,9 +712,6 @@ verifyLogin-subject-2 = 로그인 확인
 verifyLogin-action = 로그인 확인
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = { $serviceName } 로그인 승인
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName }에 로그인하셨나요?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = 다음 기기에서 발생한 로그인을 확인하여 계정을 안전하게 보호하세요.
@@ -728,7 +723,6 @@ verifyPrimary-subject = 기본 이메일 확인
 verifyPrimary-action-2 = 이메일 확인
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = 검증이 되면 이 기기에서 보조 이메일 추가와 같은 계정 변경이 가능합니다.
-verifySecondaryCode-subject = 보조 이메일 확인
 verifySecondaryCode-title-2 = 보조 이메일 확인
 verifySecondaryCode-action-2 = 이메일 확인
 # Variables:
@@ -736,10 +730,6 @@ verifySecondaryCode-action-2 = 이메일 확인
 verifySecondaryCode-explainer-2 = 다음 { -product-mozilla-account }으로부터 { $email } 이메일을 보조 이메일 주소로 사용하기 위한 요청이 왔습니다:
 verifySecondaryCode-prompt-2 = 인증 코드 사용:
 verifySecondaryCode-expiry-notice-2 = 5분 후에 만료됩니다. 확인되면 이 주소는 보안 알림 및 확인을 받기 시작합니다.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = 계정 확인
-verifyShortCode-preview = 포함된 코드를 사용하여 { -product-mozilla-account }를 확인하세요.
 verifyShortCode-title-3 = { -brand-mozilla }로 인터넷을 여세요.
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 계정을 확인하고, 모든 곳에서 { -brand-mozilla }를 최대한 활용하세요.

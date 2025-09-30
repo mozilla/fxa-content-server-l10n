@@ -408,7 +408,6 @@ passwordChangeRequired-different-password-2 = <b>Viktig:</b> Vel eit sterkt pass
 passwordChangeRequired-different-password-plaintext-2 = Viktig: Vel eit sterkt passord som er ulikt frå eit du har brukt tidlegare.
 passwordChangeRequired-action = Tilbakestill passordet
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Gløymt passordet ditt?
 password-forgot-otp-title = Gløymt passordet ditt?
 password-forgot-otp-request = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:
 password-forgot-otp-code-2 = Viss dette var deg, her er stadfestingskoden for å halde fram:
@@ -766,7 +765,6 @@ subscriptionUpgrade-content-new-price-year-tax = Framover vil du bli belasta { $
 subscriptionUpgrade-content-new-price-default-tax = Framover vil du bli belasta { $paymentAmountNew } + { $paymentTaxNew } moms per faktureringsintervall, eksklusive rabattar.
 subscriptionUpgrade-existing = Viss nokon av dei eksisterande abonnementa dine overlappar med denne oppgraderinga, handsamar vi dei og sender deg ein eigen e-post med detaljane. Dersom den nye planen din inkluderer produkt som krev installasjon, sender vi deg ein eigen e-post med konfigurasjonsinstruksjonar.
 subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
-unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som loggar inn?
 unblockCode-prompt = Dersom ja, her er godkjenningskoden du treng:
 # Variables:
@@ -824,9 +822,6 @@ verifyLogin-subject-2 = Stadfest innlogging
 verifyLogin-action = Stadfest innlogging
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Godkjenn innlogging på { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Logga du inn på { $serviceName }
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Hjelp oss med å halde kontoen din trygg ved å godkjenne innlogginga di på:
@@ -838,7 +833,6 @@ verifyPrimary-subject = Stadfest primær e-postadresse
 verifyPrimary-action-2 = Stadfest e-postadressa
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Når stadfesta, vil endringar i kontoen, som å leggje til ein sekundær e-post, verte mogleg frå denne eininga.
-verifySecondaryCode-subject = Stadfest sekundær e-postadresse
 verifySecondaryCode-title-2 = Stadfest sekundær e-postadresse
 verifySecondaryCode-action-2 = Stadfest e-postadressa
 # Variables:
@@ -846,10 +840,6 @@ verifySecondaryCode-action-2 = Stadfest e-postadressa
 verifySecondaryCode-explainer-2 = Ein førespurnad om å bruke { $email } som ei sekundær e-postadresse er gjort frå følgjande { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Bruk denne stadfestingskoden:
 verifySecondaryCode-expiry-notice-2 = Den går ut om 5 minutt. Når den er bekrefta, vil denne adressa få tryggingsvarsel og stadfestingar.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Stadfest kontoen din
-verifyShortCode-preview = Bruk den medfølgjande koden for å stadfeste { -product-mozilla-account }en din.
 verifyShortCode-title-3 =
     Opne internett med
      { -brand-mozilla }

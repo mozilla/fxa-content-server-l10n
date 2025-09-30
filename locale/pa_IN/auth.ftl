@@ -316,7 +316,6 @@ passwordChangeRequired-preview = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਫ�
 passwordChangeRequired-title-2 = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲੋ
 passwordChangeRequired-action = ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }
-password-forgot-otp-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 password-forgot-otp-title = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 password-forgot-otp-request = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
 password-forgot-otp-code-2 = ਜੇ ਇਹ ਤੁਸੀਂ ਹੋ ਤਾਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਤੁਹਾਡਾ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਇਹ ਹੈ:
@@ -567,7 +566,6 @@ subscriptionUpgrade-title = ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਤੁਹਾ�
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = ਜਦ ਤੱਕ ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਨਹੀਂ ਕਰਦੇ ਹੋ, ਤਦ ਤੱਕ ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਹਰ ਬਿੱਲਿੰਗ ਸਮੇਂ ਉੱਤੇ ਆਪਣੇ-ਆਪ ਨਵਿਆਈ ਜਾਵੇਗੀ।
-unblockCode-subject = ਖਾਤਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 unblockCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ?
 unblockCode-prompt = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
 # Variables:
@@ -613,9 +611,6 @@ verifyLogin-subject-2 = ਸਾਈਨ ਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 verifyLogin-action = ਸਾਈਨ ਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = { $serviceName } ਲਈ ਸਾਈਨ-ਇਨ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰੋ
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = ਕੀ ਤੁਸੀਂ { $serviceName } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਸਾਡੀ ਮਦਦ ਵਾਸਤੇ ਆਪਣੇ ਸਾਈਨ-ਇਨ ਨੂੰ ਇਸ ਤੋਂ ਮਨਜ਼ੂਰ ਕਰੋ:
@@ -627,14 +622,10 @@ verifyPrimary-subject = ਪ੍ਰਾਇਮਰੀ ਈਮੇਲ ਤਸਦੀਕ �
 verifyPrimary-action-2 = ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }
 verifyPrimary-post-verify-2 = ਇੱਕ ਵਾਰ ਤਸਦੀਕ ਹੋਣ ਦੇ ਬਾਅਦ ਇਸ ਡਿਵਾਈਸ ਤੋਂ ਖਾਤਾ ਤਬਦੀਲੀਆਂ ਜਿਵੇਂ ਕਿ ਸੈਕੰਡਰੀ ਈਮੇਲ ਜੋੜਨੇ ਵਾਂਗ ਤਬਦੀਲੀਆਂ ਕਰ ਸਕਦੇ ਹੋ।
-verifySecondaryCode-subject = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifySecondaryCode-title-2 = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifySecondaryCode-action-2 = ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 verifySecondaryCode-prompt-2 = ਇਹ ਤਸਦੀਕੀ ਕੋਡ ਵਰਤੋ:
 verifySecondaryCode-expiry-notice-2 = ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ। ਇੱਕ ਵਾਰ ਤਸਦੀਕ ਕਰਨ ਤੋਂ ਬਾਅਦ ਇਸ ਸਿਰਨਾਵੇਂ ਉੱਤੇ ਸੁਰੱਖਿਆ ਸੂਚਨਾਵਾਂ ਅਤੇ ਤਸਦੀਕੀ ਜਾਣਕਾਰੀ ਮਿਲਣੀ ਸ਼ੁਰੂ ਹੋ ਜਾਵੇਗੀ।
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
 verifyShortCode-title-3 = { -brand-mozilla } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ੍ਹੋ
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ ਅਤੇ ਹਰੇਕ ਥਾਂ ਉੱਤੇ ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ { -brand-mozilla } ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਫਾਇਦਾ ਲਵੋ।

@@ -305,7 +305,6 @@ passwordChanged-subject = パスワードを更新しました
 passwordChanged-title = パスワード変更完了
 passwordChanged-description-2 = あなたの { -product-mozilla-account }のパスワードが次の端末から変更されました:
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
-password-forgot-otp-subject = パスワードをお忘れですか？
 password-forgot-otp-title = パスワードをお忘れですか？
 password-forgot-otp-request = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:
 password-forgot-otp-code-2 = その場合、次の確認コードを使用してください:
@@ -553,7 +552,6 @@ subscriptionUpgrade-title = アップグレードしていただきありがと�
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
-unblockCode-subject = アカウントの認証コード
 unblockCode-title = ログインしようとしているのはあなた自身ですか？
 unblockCode-prompt = あなた自身の場合は、こちらの認証コードを使用してください:
 # Variables:
@@ -590,9 +588,6 @@ verifyLogin-subject-2 = ログインを確認
 verifyLogin-action = ログインを確認
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = { $serviceName } へのログインを承認
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } にログインしましたか？
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = アカウントを安全に保つために、次の端末からのログインを承認してください:
@@ -604,7 +599,6 @@ verifyPrimary-subject = 優先メールアドレス確認
 verifyPrimary-action-2 = メールアドレスを確認
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = 確認が済むと、予備アドレスの追加などのアカウント変更をこの端末から行えるようになります。
-verifySecondaryCode-subject = 予備メールアドレスの確認
 verifySecondaryCode-title-2 = 予備メールアドレスの確認
 verifySecondaryCode-action-2 = メールアドレスを確認
 # Variables:
@@ -612,9 +606,6 @@ verifySecondaryCode-action-2 = メールアドレスを確認
 verifySecondaryCode-explainer-2 = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-mozilla-account }から行われました:
 verifySecondaryCode-prompt-2 = この確認コードを使用してください:
 verifySecondaryCode-expiry-notice-2 = この確認コードは 5 分で有効期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = アカウントを確認してください
 verifyShortCode-title-3 = { -brand-mozilla } でインターネットをオープンに
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = アカウントを確認すると、ログインしたどの端末からでも { -brand-mozilla } を最大限に活用できます。まずこちらから:

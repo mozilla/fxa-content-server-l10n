@@ -419,7 +419,6 @@ passwordChangeRequired-different-password-2 = <b>Mba’eporã:</b> Eiporavo pete
 passwordChangeRequired-different-password-plaintext-2 = Mba’eporã: Eiporavo peteĩ ñe’ẽñemi hekorosãva iñambuéva pe eiporuva’ekuégui ymave.
 passwordChangeRequired-action = Erujey ñe’ẽñemi
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-title = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-request = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-mozilla-account } rehegua:
 password-forgot-otp-code-2 = Ndetéramo voi, kóva nde ayvu ñemoneĩrã eku’ekuaa jey hag̃ua:
@@ -783,7 +782,6 @@ subscriptionUpgrade-content-new-price-year-tax = Ko’águi tenondévo, oñehepy
 subscriptionUpgrade-content-new-price-default-tax = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } + { $paymentTaxNew } ñemure mbokuatia pa’ũme, oguejy’ỹre hepy.
 subscriptionUpgrade-existing = Oĩramo ne ñemboheraguapy ag̃agua okañy ko ñembohekopyahu ndive, roñangarekóta hese ha romondóta ndéve ñanduti veve umi mba’emimi reheve. Ne mba’epyahu orekórõ apopyre oikotevẽrõ ñemohenda, romondóta ndéve ñanduti veve orekóva mba’éichapa embohekóta.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
-unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
 unblockCode-title = ¿Ndépa emoñepyrũve tembiapo?
 unblockCode-prompt = Upéicharõ, ayvu jeguerujeyrã eikotevẽva ha’e kóva:
 # Variables:
@@ -841,9 +839,6 @@ verifyLogin-subject-2 = Emoneĩ tembiapo ñepyrũ
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Emoneĩ tembiapo ñepyrũ { $serviceName } rupive
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = ¿Emoñepyrũ tembiapo { $serviceName } ndive?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Orepytyvõ rorekóvo ne mba’ete tekorosãme emoneĩvo tembiapo ñepyrũ amo:
@@ -855,7 +850,6 @@ verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
 verifyPrimary-action-2 = Ñanduti veve ñemoneĩ:
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Oñemoneĩvo, umi mba’ete ñemoambue ojuajukuaáva ñanduti veve mokõihávare ejapokuaa ko mba’e’oka guive.
-verifySecondaryCode-subject = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-title-2 = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 # Variables:
@@ -863,10 +857,6 @@ verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 verifySecondaryCode-explainer-2 = Ojejerure ojeporu hag̃ua { $email } ñanduti veve mokõháva ambue { -product-mozilla-account } peg̃uarã:
 verifySecondaryCode-prompt-2 = Eiporu ko ayvu rechajeyrã:
 verifySecondaryCode-expiry-notice-2 = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽta marandu’i tekorosã ha ñemoneĩ rehegua.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Emoneĩjey ne mba’ete
-verifyShortCode-preview = Eiporu ayvu reheve emoneĩ hag̃ua nde { -product-mozilla-account }
 verifyShortCode-title-3 = Embojuruja ñanduti { -brand-mozilla } ndive
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Emoneĩ ne mba’ete ha eiporuporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:

@@ -244,7 +244,6 @@ newDeviceLogin-action = Хисап белән идарә итү
 passwordChanged-subject = Серсүз яңартылды
 passwordChanged-title = Парол уңышлы үзгәртелде
 passwordChangeRequired-subject = Шөбһәле гамәлләр ачыкланды
-password-forgot-otp-subject = Серсүзегезне оныттыгызмы?
 password-forgot-otp-title = Серсүзегезне оныттыгызмы?
 password-forgot-otp-expiry-notice = Бу кодның яраклылык вакыты 10 минут.
 passwordReset-subject-2 = Серсүзегез үзгәртелде
@@ -403,7 +402,6 @@ subscriptionUpgrade-title = Яңартуыгыз өчен рәхмәт!
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-unblockCode-subject = Хисабыгызны авторизацияләү коды
 unblockCode-title = Керүче Сезме?
 unblockCode-prompt = Әйе булса, Сезгә кирәкле авторизация коды менә бу:
 # Variables:
@@ -432,9 +430,6 @@ verifyLogin-subject-2 = Керүне раслау
 verifyLogin-action = Керүне раслау
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = { $serviceName } хезмәтенә керүне раслагыз
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } хезмәтенә кердегезме?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Керүегезне раслап, хисабыгызның куркынычсызлыгын сакларга ярдәм итегез:
@@ -446,13 +441,9 @@ verifyPrimary-subject = Төп эл. почтаны раслау
 verifyPrimary-action-2 = Эл. почтагызны раслагыз
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Расланганнан соң, икенчел эл. почта адресын өстәү кебек хисапка үзгәрешләр кертү бу җиһаздан мөмкин булачак.
-verifySecondaryCode-subject = Икенчел эл. почтаны раслау
 verifySecondaryCode-title-2 = Икенчел эл. почтагызны раслагыз
 verifySecondaryCode-action-2 = Эл. почтагызны раслагыз
 verifySecondaryCode-prompt-2 = Бу раслау кодын кулланыгыз:
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Хисабыгызны раслагыз
 verifyShortCode-title-3 = Интернетны { -brand-mozilla } белән ачыгыз
 verifyShortCode-prompt-3 = Бу раслау кодын куллану:
 verifyShortCode-expiry-notice = Кодның яраклылык вакыты 5 минут.

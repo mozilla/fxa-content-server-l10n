@@ -43,7 +43,6 @@ recovery-action = أنشئ كلمة سر جديدة
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-unblockCode-subject = رمز تخويل الحساب
 unblockCode-title = هل هذا أنت من تُحاول الولوج؟
 unblockCode-prompt = إذا كان الجواب نعم، هذا هو رمز التخويل الذي تحتاجة:
 unblockCode-report-plaintext = إن لم يكن كذلك فساعدنا على منع المتسللين بإبلاغنا عن هذا.
@@ -52,5 +51,4 @@ verifyLogin-action = أكّد الولوج
 verifyLoginCode-expiry-notice = ستنقضي صلاحيته خلال خمس دقائق.
 verifyPrimary-description = طُلب إجراء تغيير للحساب من الجهاز الآتي:
 verifyPrimary-subject = أكّد البريد الإلكتروني الأولي
-verifySecondaryCode-subject = أكّد البريد الإلكتروني الثانوي
 verifyShortCode-expiry-notice = ستنقضي صلاحيته خلال خمس دقائق.

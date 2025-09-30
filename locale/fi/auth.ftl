@@ -362,7 +362,6 @@ passwordChanged-description-2 = { -product-mozilla-account }si salasanasi vaihde
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
 passwordChangeRequired-action = Nollaa salasana
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Unohditko salasanan?
 password-forgot-otp-title = Unohditko salasanasi?
 password-forgot-otp-request = Saimme { -product-mozilla-account }n salasanan vaihtopyynnön lähteestä:
 password-forgot-otp-code-2 = Jos se olit sinä, tässä on vahvistuskoodi jatkaaksesi:
@@ -633,7 +632,6 @@ subscriptionUpgrade-title = Kiitos, että päivitit!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
-unblockCode-subject = Tilin valtuuskoodi
 unblockCode-title = Kirjaudutko sinä sisään?
 unblockCode-prompt = Jos kirjaudut, tässä on tarvitsemasi valtuuskoodi:
 # Variables:
@@ -686,9 +684,6 @@ verifyLogin-subject-2 = Vahvista sisäänkirjautuminen
 verifyLogin-action = Vahvista kirjautuminen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Hyväksy sisäänkirjautuminen palveluun { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Kirjauduitko palveluun { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
@@ -700,7 +695,6 @@ verifyPrimary-subject = Vahvista ensisijainen sähköpostiosoite
 verifyPrimary-action-2 = Vahvista sähköposti
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Vahvistuksen jälkeen tilimuutokset, kuten toissijaisen sähköpostiosoitteen lisääminen, ovat mahdollisia tällä laitteella.
-verifySecondaryCode-subject = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-title-2 = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-action-2 = Vahvista sähköposti
 # Variables:
@@ -708,10 +702,6 @@ verifySecondaryCode-action-2 = Vahvista sähköposti
 verifySecondaryCode-explainer-2 = Pyyntö käyttää osoitetta { $email } toissijaisena sähköpostina on tehty seuraavalta { -product-mozilla-account }ltä:
 verifySecondaryCode-prompt-2 = Käytä tätä vahvistuskoodia:
 verifySecondaryCode-expiry-notice-2 = Se vanhenee 5 minuutissa. Vahvistamisen jälkeen tämä osoite alkaa vastaanottamaan turvallisuusilmoituksia ja -vahvistuksia.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Vahvista tilisi
-verifyShortCode-preview = Käytä mukana tulevaa koodia vahvistaaksesi { -product-mozilla-account }si.
 verifyShortCode-title-3 = Avaa Internet { -brand-mozilla }lla
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Vahvista tilisi ja ota kaikki hyöty irti { -brand-mozilla }sta kaikkialla missä kirjaudut sisään, aloittaen tästä:

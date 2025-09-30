@@ -421,7 +421,6 @@ passwordChangeRequired-different-password-2 = <b>Fontos:</b> Válasszon egy erő
 passwordChangeRequired-different-password-plaintext-2 = Fontos: Válasszon egy erős jelszót, amely különbözik a múltban használttól.
 passwordChangeRequired-action = Jelszó visszaállítása
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Elfelejtette a jelszavát?
 password-forgot-otp-title = Elfelejtette a jelszavát?
 password-forgot-otp-request = A { -product-mozilla-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:
 password-forgot-otp-code-2 = Ha ez Ön volt, akkor itt a megerősítő kódja a folytatáshoz:
@@ -785,7 +784,6 @@ subscriptionUpgrade-content-new-price-year-tax = A jövőben { $paymentAmountNew
 subscriptionUpgrade-content-new-price-default-tax = A jövőben { $paymentAmountNew } + { $paymentTaxNew } adó lesz levonva számlázási időszakonként, a kedvezményeket nem számítva.
 subscriptionUpgrade-existing = Ha bármelyik meglévő előfizetése fedi ezt a frissítést, akkor azt kezeljük, és külön e-mailt küldünk a részletekről. Ha az új előfizetése telepítést igénylő termékeket tartalmaz, akkor külön e-mailt küldünk a beállítási utasításokkal.
 subscriptionUpgrade-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
-unblockCode-subject = Fiók engedélyezési kód
 unblockCode-title = Ez az ön bejelentkezése?
 unblockCode-prompt = Ha igen, akkor erre az engedélyezési kódra van szüksége:
 # Variables:
@@ -843,9 +841,6 @@ verifyLogin-subject-2 = Bejelentkezés megerősítése
 verifyLogin-action = Bejelentkezés megerősítése
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Bejelentkezés jóváhagyása a következőbe: { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Bejelentkezett a következőbe: { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Segítsen nekünk megőrizni fiókja biztonságát azzal, hogy jóváhagyja a bejelentkezését:
@@ -857,7 +852,6 @@ verifyPrimary-subject = Elsődleges e-mail cím megerősítése
 verifyPrimary-action-2 = E-mail-cím megerősítése
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Amint megerősíti, a fiókváltoztatások, mint a másodlagos e-mail-cím hozzáadása, lehetségesek lesznek erről az eszközről.
-verifySecondaryCode-subject = Másodlagos e-mail megerősítése
 verifySecondaryCode-title-2 = Másodlagos e-mail-cím megerősítése
 verifySecondaryCode-action-2 = E-mail-cím megerősítése
 # Variables:
@@ -865,10 +859,6 @@ verifySecondaryCode-action-2 = E-mail-cím megerősítése
 verifySecondaryCode-explainer-2 = A kérés, hogy a(z) { $email } címet használja másodlagos e-mail-címként a következő { -product-mozilla-account }ból érkezett:
 verifySecondaryCode-prompt-2 = Használja ezt a megerősítő kódot:
 verifySecondaryCode-expiry-notice-2 = 5 perc múlva lejár. Ha megerősíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Fiók jóváhagyása
-verifyShortCode-preview = Használja a mellékelt kódot a { -product-mozilla-account }ja megerősítéséhez.
 verifyShortCode-title-3 = Nyissa meg az internetet a { -brand-mozilla(ending: "accented") }val
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Erősítse meg fiókját, és hozza ki a lehető legtöbbet a { -brand-mozilla(ending: "accented") }ból mindenhol, ahol bejelentkezik:

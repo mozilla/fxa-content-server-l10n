@@ -257,7 +257,6 @@ subscriptionDowngrade-content-auto-renew = Langganan anjeun bakal otomatis diany
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
-unblockCode-subject = Kodeu otorisasi akun
 unblockCode-title = Nu asup téh anjeun lin?
 unblockCode-prompt = Mun enya mah, ieu kodeu otorisasi nu anjeun perlukeun:
 unblockCode-report-plaintext = Mun henteu, bantuan kami nyingkahan nu ngaganggu sarta laporkeun ka kami.
@@ -266,5 +265,4 @@ verifyLogin-action = Konfirmasi peta asup
 verifyLoginCode-expiry-notice = Bakal kadaluwarsa dina 5 menit.
 verifyPrimary-description = Pamundut pikeun milampah parobahan akun geus dijieun ti perangkat di handap:
 verifyPrimary-subject = Puguhkeun surél utama
-verifySecondaryCode-subject = Puguhkeun surél sekundér
 verifyShortCode-expiry-notice = Bakal kadaluwarsa dina 5 menit.

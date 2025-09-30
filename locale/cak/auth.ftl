@@ -210,7 +210,6 @@ subscriptionUpgrade-title = ¡Matyox ruma xak’ëx!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
-unblockCode-subject = Rub’itz‘ib' ruya'oj q'ij ri rub'i' taqoya'l
 unblockCode-title = ¿La ja rat yatajowan natikirisaj molojri’ïl?
 unblockCode-prompt = We ke ri’, ja re‘ ri rub'itz'ib' ya'oj q'ij nik'atzin chawe:
 # Variables:
@@ -233,10 +232,6 @@ verifyPrimary-description = Xk’utüx chi tib‘an jun rujalik ri rub'i' taqoya
 verifyPrimary-subject = Tijikib’äx ri nab‘ey taqoya'l
 verifyPrimary-action-2 = Tijikib'äx taqoya'l
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
-verifySecondaryCode-subject = Tijikib’äx ruka‘n taqoya'l
 verifySecondaryCode-title-2 = Tijikib'äx ruka'n taqoya'l
 verifySecondaryCode-action-2 = Tijikib'äx taqoya'l
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Tajikib'a' rub'i' ataqoya'l
 verifyShortCode-expiry-notice = Xtik’is ruq‘ijul pa 5 ch'utiramaj.

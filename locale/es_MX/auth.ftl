@@ -272,7 +272,6 @@ passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
 passwordChanged-description-2 = La contraseña de tu { -product-mozilla-account } fue cambiada correctamente desde el siguiente dispositivo:
 passwordChangeRequired-subject = Actividad sospechosa detectada
-password-forgot-otp-subject = ¿Olvidaste tu contraseña?
 password-forgot-otp-title = ¿Olvidaste tu contraseña?
 password-forgot-otp-request = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } desde:
 password-forgot-otp-code-2 = Si fuiste tu, aquí está tu código de confirmación para continuar:
@@ -541,7 +540,6 @@ subscriptionUpgrade-title = ¡Gracias por la actualización!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación a menos que quieras cancelar.
-unblockCode-subject = Código de autorización de la cuenta
 unblockCode-title = ¿Eres tú iniciando sesión?
 unblockCode-prompt = Si es así, aquí está el código de autorización que necesitas:
 # Variables:
@@ -577,9 +575,6 @@ verifyLogin-subject-2 = Confirmar inicio de sesión
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Aprobar el inicio de sesión en { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = ¿Iniciaste sesión en { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Ayúdanos a mantener tu cuenta segura autorizando tu inicio de sesión en:
@@ -591,7 +586,6 @@ verifyPrimary-subject = Confirmar correo principal
 verifyPrimary-action-2 = Confirmar correo electrónico
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Una vez confirmado, los cambios de cuenta, como agregar un correo electrónico secundario, serán posibles desde este dispositivo.
-verifySecondaryCode-subject = Confirmar correo secundario
 verifySecondaryCode-title-2 = Confirmar correo secundario
 verifySecondaryCode-action-2 = Confirmar correo electrónico
 # Variables:
@@ -599,10 +593,6 @@ verifySecondaryCode-action-2 = Confirmar correo electrónico
 verifySecondaryCode-explainer-2 = Se ha realizado una solicitud para utilizar { $email } como dirección de correo electrónico secundario desde la siguiente { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Usar este código de confirmación:
 verifySecondaryCode-expiry-notice-2 = Caduca en 5 minutos. Una vez confirmada, esta dirección comenzará a recibir notificaciones y confirmaciones de seguridad.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Confirma tu cuenta
-verifyShortCode-preview = Utiliza el código incluido para confirmar tu { -product-mozilla-account }.
 verifyShortCode-title-3 = Abre Internet con { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirma tu cuenta y sácale el máximo provecho a { -brand-mozilla } donde sea que te conectes empezando por:

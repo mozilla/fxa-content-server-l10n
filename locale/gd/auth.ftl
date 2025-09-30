@@ -164,4 +164,3 @@ verify-subject = Cuir crìoch air cruthachadh a’ chunntais agad
 verifyLogin-action = Dearbh an clàradh a-steach
 verifyPrimary-description = Chaidh iarrtas airson atharrachadh sa chunntas a dhèanamh air an uidheam a leanas:
 verifyPrimary-subject = Dearbh am prìomh phost-d
-verifySecondaryCode-subject = Dearbh am post-d eile

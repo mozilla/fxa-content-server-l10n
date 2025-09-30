@@ -272,7 +272,6 @@ passwordChanged-title = Пароль паспяхова зменены
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
 passwordChangeRequired-preview = Неадкладна змяніце пароль
 passwordChangeRequired-title-2 = Скінуць пароль
-password-forgot-otp-subject = Забылі свой пароль?
 password-forgot-otp-title = Забылі свой пароль?
 password-forgot-otp-request = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:
 password-forgot-otp-expiry-notice = Гэты код дзейнічае 10 хвілін
@@ -499,7 +498,6 @@ subscriptionUpgrade-title = Дзякуй за абнаўленне!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Ваша падпіска будзе аўтаматычна падаўжацца кожны плацежны перыяд, пакуль вы не вырашыце яе скасаваць.
-unblockCode-subject = Код аўтарызацыі ўліковага запісу
 unblockCode-title = Гэта вы ўваходзіце?
 unblockCode-prompt = Калі так, вось код аўтарызацыі, які вам патрэбен:
 # Variables:
@@ -535,9 +533,6 @@ verifyLogin-subject-2 = Пацвердзіць уваход
 verifyLogin-action = Пацвердзіць уваход
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Пацвердзіце ўваход у { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Вы ўвайшлі ў { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Дапамажыце нам захаваць ваш уліковы запіс у бяспецы, пацвердзіўшы, што вы ўвайшлі ў сістэму:
@@ -549,7 +544,6 @@ verifyPrimary-subject = Пацвердзіце асноўную электрон
 verifyPrimary-action-2 = Пацвердзіце электронную пошту
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Пасля пацверджання з гэтай прылады стануць магчымымі змены ўліковага запісу, такія як даданне другога адрасу электроннай пошты.
-verifySecondaryCode-subject = Пацвердзіце альтэрнатыўную электронную пошту
 verifySecondaryCode-title-2 = Пацвердзіце альтэрнатыўную электронную пошту
 verifySecondaryCode-action-2 = Пацвердзіце электронную пошту
 # Variables:
@@ -557,9 +551,6 @@ verifySecondaryCode-action-2 = Пацвердзіце электронную п�
 verifySecondaryCode-explainer-2 = Запыт на выкарыстанне { $email } у якасці другога адрасу электроннай пошты быў зроблены з наступнага { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Выкарыстайце гэты код пацверджання:
 verifySecondaryCode-expiry-notice-2 = Яго тэрмін дзеяння мінае праз 5 хвілін. Пасля пацверджання, гэты адрас пачне атрымліваць абвесткі бяспекі і пацвярджэнні.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Пацвердзіце свой уліковы запіс
 verifyShortCode-title-3 = Адкрыйце Інтэрнэт з дапамогай { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Пацвердзіце свой уліковы запіс і атрымайце максімальную аддачу ад { -brand-mozilla } усюды, дзе ўвайшлі, пачынаючы з:

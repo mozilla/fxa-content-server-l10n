@@ -310,7 +310,6 @@ passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
 passwordChanged-description-2 = Fjalëkalimi juaj për { -product-mozilla-account } u ndryshua me sukses që nga pajisja vijuese:
 passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
-password-forgot-otp-subject = Harruat fjalëkalimin tuaj?
 password-forgot-otp-title = Harruat fjalëkalimin tuaj?
 password-forgot-otp-request = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:
 password-forgot-otp-code-2 = Nëse qetë ju, ja kodi juaj i ripohimit, për të vazhduar:
@@ -597,7 +596,6 @@ subscriptionUpgrade-upgrade-info-2 = E keni përmirësuar me sukses me { $produc
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
-unblockCode-subject = Kod autorizimi llogarie
 unblockCode-title = A jeni ju që po hyni?
 unblockCode-prompt = Nëse po, ja ku keni kodin e autorizimit që ju duhet:
 # Variables:
@@ -634,9 +632,6 @@ verifyLogin-subject-2 = Ripohoni hyrjen
 verifyLogin-action = Ripohoni hyrjen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Miratoni hyrje te { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = A bëtë hyrjen te { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Ndihmonani ta mbajmë llogarinë tuaj të parrezik, duke miratuar hyrjen në:
@@ -648,7 +643,6 @@ verifyPrimary-subject = Ripohoni email parësor
 verifyPrimary-action-2 = Ripohoni email-in
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Pasi të jetë ripohuar, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor.
-verifySecondaryCode-subject = Ripohoni email dytësor
 verifySecondaryCode-title-2 = Ripohoni email dytësor
 verifySecondaryCode-action-2 = Ripohoni email-in
 # Variables:
@@ -656,10 +650,6 @@ verifySecondaryCode-action-2 = Ripohoni email-in
 verifySecondaryCode-explainer-2 = Prej llogarisë vijuese { -product-mozilla-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondaryCode-prompt-2 = Përdor këtë kod ripohimi:
 verifySecondaryCode-expiry-notice-2 = Skadon për 5 minuta. Pas ripohimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Ripohoni llogarinë tuaj
-verifyShortCode-preview = Përdorni kodin e përfshirë këtu, që të ripohoni  { -product-mozilla-account } tuaj.
 verifyShortCode-title-3 = Hapeni internetin me { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:

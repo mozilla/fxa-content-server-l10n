@@ -296,7 +296,6 @@ passwordChanged-subject = Pasahitza eguneratuta
 passwordChanged-title = Pasahitza ondo aldatu da
 passwordChanged-description-2 = Zure { -product-mozilla-account }-ko pasahitza ondo aldatu da ondorengo gailutik:
 passwordChangeRequired-subject = Aktibitate susmagarria detektatu da
-password-forgot-otp-subject = Pasahitza ahaztu duzu?
 password-forgot-otp-title = Pasahitza ahaztu duzu?
 password-forgot-otp-request = Zure { -product-mozilla-account } pasahitza aldatzeko eskaera jaso dugu hemendik:
 password-forgot-otp-code-2 = Hau zu bazara, hona hemen zure berrespen-kodea aurrera egiteko:
@@ -571,7 +570,6 @@ subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
-unblockCode-subject = Kontuaren baimen-kodea
 unblockCode-title = Zuk hasi duzu saioa?
 unblockCode-prompt = Hala bada, hau da behar duzun baimen-kodea:
 # Variables:
@@ -608,9 +606,6 @@ verifyLogin-subject-2 = Berretsi saio-hasiera
 verifyLogin-action = Berretsi saio-hasiera
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Onartu saioa hastea { $serviceName }(e)n
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Hasi duzu saioa { $serviceName }-(e)n?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Lagundu iezaguzu zure kontua seguru mantentzen saioa hastea onartuz:
@@ -622,7 +617,6 @@ verifyPrimary-subject = Berretsi helbide elektroniko lehenetsia
 verifyPrimary-action-2 = Berretsi helbide elektronikoa
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Berretsi ondoren, kontu-aldaketak egin ahal izango dira gailu honetatik bigarren mailako mezu elektroniko bat gehitzea, esaterako.
-verifySecondaryCode-subject = Berretsi bigarren helbide elektronikoa
 verifySecondaryCode-title-2 = Berretsi bigarren helbide elektronikoa
 verifySecondaryCode-action-2 = Berretsi helbide elektronikoa
 # Variables:
@@ -630,10 +624,6 @@ verifySecondaryCode-action-2 = Berretsi helbide elektronikoa
 verifySecondaryCode-explainer-2 = { $email } bigarren helbide elektroniko gisa erabiltzeko eskaera egin da { -product-mozilla-account } honetatik:
 verifySecondaryCode-prompt-2 = Sartu baieztapen-kode hau:
 verifySecondaryCode-expiry-notice-2 = 5 minututan iraungiko da. Behin baieztatuta, helbide hau segurtasun jakinarazpenak eta berrespenak jasotzen hasiko da.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Berretsi zure kontua
-verifyShortCode-preview = Erabili sartutako kodea zure { -product-mozilla-account } berresteko.
 verifyShortCode-title-3 = Ireki internet { -brand-mozilla }z
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Berretsi kontua eta atera etekinik handiena { -brand-mozilla }-ri saioa hasten duzun toki guztietan:

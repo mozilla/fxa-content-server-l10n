@@ -349,7 +349,6 @@ passwordChangeRequired-different-password-2 = <b>Important:</b> Pick a strong pa
 passwordChangeRequired-different-password-plaintext-2 = Important: Pick a strong password that’s different from one you’ve used in the past.
 passwordChangeRequired-action = Reset password
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Forgot your password?
 password-forgot-otp-title = Forgot your password?
 password-forgot-otp-request = We received a request for a password change on your { -product-mozilla-account } from:
 password-forgot-otp-code-2 = If this was you, here is your confirmation code to proceed:
@@ -666,7 +665,6 @@ subscriptionUpgrade-content-new-price-year-tax = Going forward, you will be char
 subscriptionUpgrade-content-new-price-default-tax = Going forward, you will be charged { $paymentAmountNew } + { $paymentTaxNew } tax per billing interval, excluding discounts.
 subscriptionUpgrade-existing = If any of your existing subscriptions overlap with this upgrade, we’ll handle them and send you a separate email with the details. If your new plan includes products that require installation, we’ll send you a separate email with setup instructions.
 subscriptionUpgrade-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
-unblockCode-subject = Account authorization code
 unblockCode-title = Is this you signing in?
 unblockCode-prompt = If yes, here is the authorization code you need:
 # Variables:
@@ -703,9 +701,6 @@ verifyLogin-subject-2 = Confirm sign-in
 verifyLogin-action = Confirm sign-in
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Approve sign-in to { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Did you sign in to { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Help us keep your account safe by approving your sign-in on:
@@ -717,7 +712,6 @@ verifyPrimary-subject = Confirm primary email
 verifyPrimary-action-2 = Confirm email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Once confirmed, account changes like adding a secondary email will become possible from this device.
-verifySecondaryCode-subject = Confirm secondary email
 verifySecondaryCode-title-2 = Confirm secondary email
 verifySecondaryCode-action-2 = Confirm email
 # Variables:
@@ -725,10 +719,6 @@ verifySecondaryCode-action-2 = Confirm email
 verifySecondaryCode-explainer-2 = A request to use { $email } as a secondary email address has been made from the following { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Use this confirmation code:
 verifySecondaryCode-expiry-notice-2 = It expires in 5 minutes. Once confirmed, this address will begin receiving security notifications and confirmations.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Confirm your account
-verifyShortCode-preview = Use the included code to confirm your { -product-mozilla-account }.
 verifyShortCode-title-3 = Open the internet with { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirm your account and get the most out of { -brand-mozilla } everywhere you sign in starting with:

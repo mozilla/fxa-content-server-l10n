@@ -429,7 +429,6 @@ passwordChangeRequired-different-password-2 = <b>Wažny:</b> Wubjerće mócne he
 passwordChangeRequired-different-password-plaintext-2 = Wažny: Wubjerće mócne hesło, kotrež so wot toho rozeznawa, kotrež sće w zańdźenosći wužiwał.
 passwordChangeRequired-action = Hesło wróćo stajić
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Sće swoje hesło zabył?
 password-forgot-otp-title = Sće swoje hesło zabył?
 password-forgot-otp-request = Smy próstwu wo změnjenje hesła za waše { -product-mozilla-account(case: "acc", capitalization: "lower") } dóstali:
 password-forgot-otp-code-2 = Jeli to běšće wy, tu je waš wobkrućenski kod, zo byšće pokročował:
@@ -793,7 +792,6 @@ subscriptionUpgrade-content-new-price-year-tax = Wotnětka dyrbiće { $paymentAm
 subscriptionUpgrade-content-new-price-default-tax = Wotnětka dyrbiće { $paymentAmountNew } + { $paymentTaxNew } dawka na wotličenski interwal płaćić, nimo rabatow.
 subscriptionUpgrade-existing = Jeli so jedyn z wašich eksistowacych abonementow z tutej aktualizaciju překrywaja, budźemy so z nim zaběrać a wam separatnu mejlku z podrobnosćemi słać. Jeli waš nowy plan produkty wopřijima, kotrež sej instalaciju wužaduja, budźemy wam separatnu mejlku z instalaciskimi instrukcijemi słać.
 subscriptionUpgrade-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
-unblockCode-subject = Kod kontoweje awtorizacije
 unblockCode-title = Chceće so wy přizjewić?
 unblockCode-prompt = Jeli haj, tu je awtorizowanski kod, kotryž trjebaće:
 # Variables:
@@ -855,9 +853,6 @@ verifyLogin-subject-2 = Přizjewjenje wobkrućić
 verifyLogin-action = Přizjewjenje wobkrućić
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Přizjewjenje pola { $serviceName } schwalić
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Sće so pola { $serviceName } přizjewił?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Schwalće swoje přizjewjenje, zo byšće nam pomhał, waše konto škitać.
@@ -869,7 +864,6 @@ verifyPrimary-subject = Primarnu e-mejlowu adresu wobkrućić
 verifyPrimary-action-2 = E-mejlowu adresu wobkrućić
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Hdyž su wobkrućene, su kontowe změny móžne, kaž na přikład přidawanje sekundarneje e-mejloweje adresy z tutoho grata.
-verifySecondaryCode-subject = Sekundarnu e-mejlowu adresu wobkrućić
 verifySecondaryCode-title-2 = Sekundarnu e-mejlowu adresu wobkrućić
 verifySecondaryCode-action-2 = E-mejlowu adresu wobkrućić
 # Variables:
@@ -877,10 +871,6 @@ verifySecondaryCode-action-2 = E-mejlowu adresu wobkrućić
 verifySecondaryCode-explainer-2 = Slědowace konto { -product-mozilla-account } je požadało, { $email } jako druhu e-mejlowu adresu wužiwać:
 verifySecondaryCode-prompt-2 = Tutón wobkrućenski kod zapodać:
 verifySecondaryCode-expiry-notice-2 = Spadnje za 5 mjeńšin. Tak ruče kaž je so wobkrućiła, tuta adresa započnje, wěstotne zdźělenki a wobkrućenja dóstawać.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Wobkrućće swoje konto
-verifyShortCode-preview = Wužiwajće připołoženy kod, zo byšće swoje konto { -product-mozilla-account } wobkrućił.
 verifyShortCode-title-3 = Wočińće internet z { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Wobkrućće swoje konto a wućehńće najlěpše z { -brand-mozilla }, wšudźe, hdźež so přizjewjeće, započinajo z:

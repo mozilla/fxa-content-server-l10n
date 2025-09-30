@@ -350,7 +350,6 @@ passwordChangeRequired-different-password-2 = <b>Dôležité:</b> zvoľte si sil
 passwordChangeRequired-different-password-plaintext-2 = Dôležité: zvoľte si silné heslo, ktoré sa líši od hesla, ktoré ste používali v minulosti.
 passwordChangeRequired-action = Zmeniť heslo
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Zabudli ste heslo?
 password-forgot-otp-title = Zabudli ste heslo?
 password-forgot-otp-request = Dostali sme žiadosť o zmenu hesla k vášmu { -product-mozilla-account(capitalization: "lower", case: "dat") } z:
 password-forgot-otp-code-2 = Ak ste to boli vy, tu je váš potvrdzovací kód, aby ste mohli pokračovať:
@@ -708,7 +707,6 @@ subscriptionUpgrade-content-new-price-year-tax = Odteraz vám bude účtovaná s
 subscriptionUpgrade-content-new-price-default-tax = Odteraz vám bude účtovaná suma { $paymentAmountNew } + { $paymentTaxNew } daň za každé fakturačné obdobie, bez zliav.
 subscriptionUpgrade-existing = Ak sa niektoré z vašich existujúcich predplatných prekrývajú s touto inováciou, budeme sa nimi zaoberať a pošleme vám samostatný e‑mail s podrobnosťami. Ak váš nový program obsahuje produkty, ktoré vyžadujú inštaláciu, pošleme vám samostatný e‑mail s pokynmi na ich inštaláciu a nastavenie.
 subscriptionUpgrade-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
-unblockCode-subject = Autorizačný kód účtu
 unblockCode-title = Spoznávate toto prihlásenie?
 unblockCode-prompt = Ak áno, tu je autorizačný kód, ktorý potrebujete:
 # Variables:
@@ -770,9 +768,6 @@ verifyLogin-subject-2 = Potvrdenie prihlásenia
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Schválenie prihlásenia - { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Prihlásili ste sa do produktu { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Pomôžte nám zabezpečiť bezpečnosť vášho účtu schválením prihlásenia na zariadení:
@@ -784,7 +779,6 @@ verifyPrimary-subject = Potvrdenie hlavnej e‑mailovej adresy
 verifyPrimary-action-2 = Potvrdiť e‑mailovú adresu
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Po potvrdení budú k dispozícii zmeny v účte, napríklad pridanie alternatívnej e‑mailovej adresy.
-verifySecondaryCode-subject = Potvrdenie alternatívnej e‑mailovej adresy
 verifySecondaryCode-title-2 = Potvrdenie alternatívnej e‑mailovej adresy
 verifySecondaryCode-action-2 = Potvrdiť e‑mailovú adresu
 # Variables:
@@ -792,10 +786,6 @@ verifySecondaryCode-action-2 = Potvrdiť e‑mailovú adresu
 verifySecondaryCode-explainer-2 = Požiadavka na použitie adresy { $email } ako alternatívnej e‑mailovej adresy bola vytvorená z nasledujúceho { -product-mozilla-account(case: "gen", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Použite tento potvrdzovací kód:
 verifySecondaryCode-expiry-notice-2 = Jeho platnosť vyprší po 5 minútach. Po potvrdení začnete na túto e‑mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Potvrďte svoj účet
-verifyShortCode-preview = Pomocou priloženého kódu potvrďte svoj { -product-mozilla-account(capitalization: "lower") }.
 verifyShortCode-title-3 = Poďte na internet vďaka { -brand-mozilla(case: "dat") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrďte svoj účet a vyťažte zo svojej { -brand-mozilla(case: "gen") } čo najviac, začínajúc s:

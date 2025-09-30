@@ -417,7 +417,6 @@ passwordChangeRequired-different-password-2 = <b>Quan trọng:</b> Chọn một 
 passwordChangeRequired-different-password-plaintext-2 = Quan trọng: Chọn một mật khẩu mạnh, khác với mật khẩu bạn đã từng sử dụng trước đây.
 passwordChangeRequired-action = Đặt lại mật khẩu
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Bạn đã quên mật khẩu?
 password-forgot-otp-title = Bạn đã quên mật khẩu?
 password-forgot-otp-request = Chúng tôi đã nhận được yêu cầu thay đổi mật khẩu { -product-mozilla-account } của bạn từ:
 password-forgot-otp-code-2 = Nếu đây là bạn, đây là mã xác minh để bạn tiếp tục:
@@ -781,7 +780,6 @@ subscriptionUpgrade-content-new-price-year-tax = Từ giờ trở đi, bạn s�
 subscriptionUpgrade-content-new-price-default-tax = Từ giờ trở đi, bạn sẽ phải trả { $paymentAmountNew } + { $paymentTaxNew } thuế cho mỗi kỳ thanh toán, không bao gồm chiết khấu.
 subscriptionUpgrade-existing = Nếu bất kỳ gói đăng ký hiện tại nào của bạn trùng với bản nâng cấp này, chúng tôi sẽ xử lý chúng và gửi cho bạn một email riêng có thông tin chi tiết. Nếu gói mới của bạn bao gồm các sản phẩm yêu cầu cài đặt, chúng tôi sẽ gửi cho bạn một email riêng có hướng dẫn thiết lập.
 subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
-unblockCode-subject = Mã xác minh tài khoản
 unblockCode-title = Đây có phải là bạn đăng nhập không?
 unblockCode-prompt = Nếu đúng, dưới đây là mã xác minh bạn cần:
 # Variables:
@@ -831,9 +829,6 @@ verifyLogin-subject-2 = Xác nhận đăng nhập
 verifyLogin-action = Xác nhận lần đăng nhập này
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Phê duyệt đăng nhập vào { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Bạn đã đăng nhập vào { $serviceName } chưa?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Giúp chúng tôi giữ an toàn cho tài khoản của bạn bằng cách chấp thuận đăng nhập của bạn trên:
@@ -845,7 +840,6 @@ verifyPrimary-subject = Xác nhận email chính
 verifyPrimary-action-2 = Xác minh email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Sau khi được xác minh, các thay đổi tài khoản như thêm email phụ sẽ có thể thực hiện được từ thiết bị này.
-verifySecondaryCode-subject = Xác nhận email phụ
 verifySecondaryCode-title-2 = Xác minh email phụ
 verifySecondaryCode-action-2 = Xác minh email
 # Variables:
@@ -853,10 +847,6 @@ verifySecondaryCode-action-2 = Xác minh email
 verifySecondaryCode-explainer-2 = Yêu cầu sử dụng { $email } làm địa chỉ email phụ đã được gửi từ { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Sử dụng mã xác minh này:
 verifySecondaryCode-expiry-notice-2 = Nó hết hạn sau 5 phút. Sau khi được xác minh, địa chỉ này sẽ bắt đầu nhận được thông báo bảo mật và xác nhận.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Xác minh tài khoản của bạn
-verifyShortCode-preview = Sử dụng mã đi kèm để xác nhận { -product-mozilla-account } của bạn.
 verifyShortCode-title-3 = Mở ra thế giới internet với { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Xác nhận tài khoản của bạn và tận dụng tối đa { -brand-mozilla } ở mọi nơi bạn đăng nhập, bắt đầu bằng:

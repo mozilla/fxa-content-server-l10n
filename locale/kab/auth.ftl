@@ -262,7 +262,6 @@ passwordChangeRequired-subject = Armud anida yella ccek yettwaf
 passwordChangeRequired-title-2 = Wennez awal uffir-ik⋅im
 passwordChangeRequired-action = Wennez awal n uɛeddi
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-title = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-request = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-mozilla-account }-inek·inem seg:
 password-forgot-otp-expiry-notice = Tangalt-a ad temmet deg 10 n tseddatin.
@@ -475,7 +474,6 @@ subscriptionUpgrade-upgrade-info-2 = Tleqqmeḍ akken iwata ɣer { $productName 
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
-unblockCode-subject = Tangalt n tsiregt n umiḍan
 unblockCode-title = D kečč i d-yessutren tuqqna agi?
 unblockCode-prompt = Ma yella ih, hattan tengalt n tsiregt i tesriḍ:
 # Variables:
@@ -505,9 +503,6 @@ verifyLogin-subject-2 = Sentem tuqqna
 verifyLogin-action = Sentem tuqqna
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Sentem tuqqna ɣer { $serviceName }
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Teqqneḍ ɣer { $serviceName }?
 verifyLoginCode-expiry-notice = Ad immet deg 5 n tseddatin.
 verifyPrimary-title-2 = Sentem tansa tagejdant
@@ -516,7 +511,6 @@ verifyPrimary-subject = Sentem tansa tagejdant
 verifyPrimary-action-2 = Sentem imayl
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Mi yedda usentem, tzemreḍ ad tesnifleḍ amiḍan deg ibenk-a am tirna n tansa n imayl tis snat.
-verifySecondaryCode-subject = Sentem tansa tis snat
 verifySecondaryCode-title-2 = Sentem tansa tis snat
 verifySecondaryCode-action-2 = Sentem imayl
 # Variables:
@@ -524,9 +518,6 @@ verifySecondaryCode-action-2 = Sentem imayl
 verifySecondaryCode-explainer-2 = Tdda tuttra i wseqdec n { $email } am tansa n imayl tis snat si umiḍan-agi n { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Seqdec tangalt-a n usentem:
 verifySecondaryCode-expiry-notice-2 = Aya ad yemmet deg 5 n tesdatin. Ticki yettwasentem, tansa-yagi ad as-d-aweḍen yilγa n tγellist akked usentem.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Sentem amiḍan inek
 verifyShortCode-title-3 = Ldi internet s { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Sentem amiḍan-ik daɣen faṛes tagnit seg { -brand-mozilla } sekra wanida i teqqneḍ, bdu s:

@@ -292,7 +292,6 @@ passwordChangeRequired-preview = Ниҳонвожаи худро фавран и
 passwordChangeRequired-title-2 = Барқарор кардани ниҳонвожаи худ
 passwordChangeRequired-action = Барқарор кардани ниҳонвожа
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-title = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-code-2 = Агар ин шумо будед, он гоҳ ин рамзи тасдиқкунандаи шумо барои идома мебошад:
 password-forgot-otp-expiry-notice = Муҳлати ин рамз пас аз 10 дақиқа ба анҷом мерасад.
@@ -514,7 +513,6 @@ subscriptionUpgrade-upgrade-info-2 = Шумо бо муваффақият ба �
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-unblockCode-subject = Рамзи санҷиши дастрасӣ ба ҳисоб
 unblockCode-title = Оё ин шумо ворид мешавед?
 verificationReminderFinal-subject = Ёдоварии ниҳоӣ барои тасдиқ кардани ҳисоби худ
 confirm-account = Тасдиқ кардани ҳисоб
@@ -537,9 +535,6 @@ verifyLogin-subject-2 = Тасдиқ кардани воридшавӣ
 verifyLogin-action = Тасдиқ кардани воридшавӣ
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Тасдиқ кардани воридшавӣ ба «{ $serviceName }»
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Оё ин шумо ба «{ $serviceName }» ворид шудаед?
 verifyLoginCode-prompt-3 = Агар ҳа, рамзи санҷиши дастрасии шумо ҳамин аст:
 verifyLoginCode-expiry-notice = Муҳлаташ пас аз 5 дақиқа ба анҷом мерасад.
@@ -547,13 +542,9 @@ verifyPrimary-title-2 = Почтаи электронии асосиро тас�
 verifyPrimary-subject = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-action-2 = Тасдиқ кардани почтаи электронӣ
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
-verifySecondaryCode-subject = Почтаи электронии иловагиро тасдиқ кунед
 verifySecondaryCode-title-2 = Почтаи электронии иловагиро тасдиқ кунед
 verifySecondaryCode-action-2 = Тасдиқ кардани почтаи электронӣ
 verifySecondaryCode-prompt-2 = Аз ин рамзи тасдиқкунанда истифода баред:
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Ҳисоби худро тасдиқ кунед
 verifyShortCode-title-3 = Интернетро боз бо «{ -brand-mozilla }» кашф кунед
 verifyShortCode-prompt-3 = Аз ин рамзи тасдиқкунанда истифода баред:
 verifyShortCode-expiry-notice = Муҳлаташ пас аз 5 дақиқа ба анҷом мерасад.

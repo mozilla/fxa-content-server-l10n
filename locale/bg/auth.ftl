@@ -245,7 +245,6 @@ subscriptionUpgrade-title = Благодарим ви, че надградихт
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-unblockCode-subject = Код за упълномощаване на профила
 unblockCode-title = Вие ли се вписахте?
 unblockCode-prompt = Ако е така, ето кода за упълномощаване:
 unblockCode-report-plaintext = Ако ли пък не – ни помогнете да отблъснем натрапниците като ни ги докладвате.
@@ -253,4 +252,3 @@ verify-subject = Завършете създаването на профила �
 verifyLogin-action = Потвърждаване на вписването
 verifyPrimary-description = Заявка за промяна на сметката е направена от следното устройство:
 verifyPrimary-subject = Потвърждаване на основен електронен адрес
-verifySecondaryCode-subject = Потвърждаване на допълнителен електронен адрес

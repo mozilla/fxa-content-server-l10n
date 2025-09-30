@@ -423,7 +423,6 @@ passwordChangeRequired-different-password-2 = <b>Belangrijk:</b> kies een sterk 
 passwordChangeRequired-different-password-plaintext-2 = Belangrijk: kies een sterk wachtwoord dat anders is dan een wachtwoord dat u in het verleden hebt gebruikt.
 passwordChangeRequired-action = Wachtwoord opnieuw instellen
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Uw wachtwoord vergeten?
 password-forgot-otp-title = Uw wachtwoord vergeten?
 password-forgot-otp-request = We hebben een verzoek ontvangen voor een wachtwoordwijziging op uw { -product-mozilla-account } van:
 password-forgot-otp-code-2 = Als u dit was, dan is dit uw bevestigingscode om verder te gaan:
@@ -787,7 +786,6 @@ subscriptionUpgrade-content-new-price-year-tax = Vanaf nu wordt { $paymentAmount
 subscriptionUpgrade-content-new-price-default-tax = Vanaf nu wordt { $paymentAmountNew } + { $paymentTaxNew } btw per factureringsinterval in rekening gebracht, exclusief kortingen.
 subscriptionUpgrade-existing = Als een van uw bestaande abonnementen deze upgrade overlapt, verwerken we deze en sturen we u een apart e-mailbericht met de details. Als uw nieuwe abonnement producten omvat die installatie vereisen, sturen we u een afzonderlijk e-mailbericht met installatie-instructies.
 subscriptionUpgrade-auto-renew = Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om op te zeggen.
-unblockCode-subject = Accountautorisatiecode
 unblockCode-title = Bent u dit die zich aanmeldt?
 unblockCode-prompt = Zo ja, dan is hier de benodigde autorisatiecode:
 # Variables:
@@ -845,9 +843,6 @@ verifyLogin-subject-2 = Aanmelding bevestigen
 verifyLogin-action = Aanmelding bevestigen
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Aanmelding bij { $serviceName } goedkeuren
-# Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Hebt u zich aangemeld bij { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Help ons uw account veilig te houden door uw aanmelding goed te keuren op:
@@ -859,7 +854,6 @@ verifyPrimary-subject = Primair e-mailadres bevestigen
 verifyPrimary-action-2 = E-mailadres bevestigen
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Na bevestiging worden accountwijzigingen zoals het toevoegen van een secundair e-mailadres mogelijk vanaf dit apparaat.
-verifySecondaryCode-subject = Secundair e-mailadres bevestigen
 verifySecondaryCode-title-2 = Secundair e-mailadres bevestigen
 verifySecondaryCode-action-2 = E-mailadres bevestigen
 # Variables:
@@ -867,10 +861,6 @@ verifySecondaryCode-action-2 = E-mailadres bevestigen
 verifySecondaryCode-explainer-2 = Er is een aanvraag voor het gebruik van { $email } als tweede e-mailadres gedaan vanaf de volgende { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Gebruik deze bevestigingscode:
 verifySecondaryCode-expiry-notice-2 = Deze verloopt over 5 minuten. Na bevestiging ontvangt dit adres beveiligingsmeldingen en bevestigingen.
-# Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Bevestig uw account
-verifyShortCode-preview = Gebruik de bijgevoegde code om uw { -product-mozilla-account } te bevestigen.
 verifyShortCode-title-3 = Open het internet met { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Bevestig uw account en haal overal waar u zich aanmeldt het meeste uit { -brand-mozilla }, te beginnen met:

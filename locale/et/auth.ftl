@@ -307,7 +307,6 @@ subscriptionUpgrade-title = Täname, et sooritasid uuenduse!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Sinu tellimust uuendatakse automaatselt igal arveldusperioodil, kui sa ei otsusta tühistada.
-unblockCode-subject = Konto autoriseerimiskood
 unblockCode-title = Kas see on sinu sisselogimine?
 unblockCode-prompt = Kui jah, siis siin on vajalik autoriseerimiskood:
 # Variables:
@@ -320,5 +319,4 @@ verifyLogin-action = Kinnita sisselogimine
 verifyLoginCode-expiry-notice = See aegub 5 minuti pärast.
 verifyPrimary-description = Nõue konto muutmiseks tehti järgmisest seadmest:
 verifyPrimary-subject = Kinnita peamine e-posti aadress
-verifySecondaryCode-subject = Kinnita teine e-posti aadress
 verifyShortCode-expiry-notice = See aegub 5 minuti pärast.
