@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> gefactureerd op { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tegoed toegekend aan uw account
 subscription-content-coupon-applied = { $promotionName } toegepast
+subscription-content-coupon-will-be-applied = Korting vanwege { $promotionName } wordt toegepast
 subscription-content-next-bill-excl-disc-with-tax = De volgende factuur van <strong>{ $nextInvoiceTotal } + { $taxDue } btw</strong>, exclusief kortingen, is verschuldigd op <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = De volgende factuur van <strong>{ $nextInvoiceTotal }</strong>, exclusief kortingen, is verschuldigd op <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonnement opzeggen

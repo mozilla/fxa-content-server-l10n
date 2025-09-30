@@ -423,6 +423,10 @@ passwordChangeRequired-different-password-2 = <b>Wichtich:</b> kies in sterk wac
 passwordChangeRequired-different-password-plaintext-2 = Wichtich: kies in sterk wachtwurd dat oars is as in wachtwurd dat jo yn it ferline brûkt hawwe.
 passwordChangeRequired-action = Wachtwurd opnij ynstelle
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Brûk { $code } om jo wachtwurd te wizigjen
+password-forgot-otp-preview = Dizze koade ferrint oer 10 minuten.
 password-forgot-otp-title = Jo wachtwurd ferjitten?
 password-forgot-otp-request = Wy hawwe in fersyk ûntfongen foar in wachtwurdwiziging op jo { -product-mozilla-account } fan:
 password-forgot-otp-code-2 = As jo dit wiene, dan is dit jo befêstigingskoade om troch te gean:
@@ -786,6 +790,10 @@ subscriptionUpgrade-content-new-price-year-tax = Fan no ôf wurdt { $paymentAmou
 subscriptionUpgrade-content-new-price-default-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per fakturearringsynterval yn rekken brocht, eksklusyf koartingen.
 subscriptionUpgrade-existing = As ien fan jo besteande abonneminten oerlaapje mei dizze opwurdearring, sille wy se behannelje en jo in aparte e-mailberjocht stjoere mei de details. As jo nije plan produkten omfettet dy’t ynstallaasje fereaskje, sille wy jo in apart e-mailberjocht stjoere mei ynstallaasje-ynstruksjes.
 subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Brûk { $unblockCode } om jo oan te melden
+unblockCode-preview = Dizze koade ferrint oer in oere
 unblockCode-title = Binne jo dit, dy’t harren oanmeldt?
 unblockCode-prompt = As ja, dan is hjir de autorisaasjekoade dy’t jo nedich hawwe:
 # Variables:
@@ -842,6 +850,10 @@ verifyLogin-description-2 = Help ús jo account feilich te hâlden troch te bef�
 verifyLogin-subject-2 = Oanmelding befêstigje
 verifyLogin-action = Oanmelding befêstigje
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Brûk { $code } om jo oan te melden
+verifyLoginCode-preview = Dizze koade ferrint oer 5 minuten.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Hawwe jo jo oanmeld by { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -854,6 +866,10 @@ verifyPrimary-subject = Primêr e-mailadres befêstigje
 verifyPrimary-action-2 = E-mailadres befêstigje
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Nei befêstiging wurde accountwizigingen, lykas it tafoegjen fan in sekundêr e-mailadres, mooglik fan dit apparaat ôf.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Brûk { $code } om jo sekundêre e-mailadres te befêstigjen
+verifySecondaryCode-preview = Dizze koade ferrint oer 5 minuten.
 verifySecondaryCode-title-2 = Sekundêr e-mailadres befêstigje
 verifySecondaryCode-action-2 = E-mailadres befêstigje
 # Variables:
