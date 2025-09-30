@@ -424,7 +424,7 @@ passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 # Variables:
 #  $code (String) - The confirmation code for sign-in
 password-forgot-otp-subject-2 = Usá { $code } para cambiar tu contraseña
-password-forgot-otp-preview = Este código expira en 10 minutos
+password-forgot-otp-preview = Este código caduca en 10 minutos
 password-forgot-otp-title = ¿Te olvidaste la contraseña?
 password-forgot-otp-request = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } de:
 password-forgot-otp-code-2 = Si fuiste vos, este es tu código de confirmación para continuar:
@@ -790,8 +790,8 @@ subscriptionUpgrade-existing = Si alguna de las suscripciones existentes se supe
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente cada período de facturación a menos que elijas cancelar.
 # Variables:
 #  $unblockCode (String) - The authorization code for sign-in
-unblockCode-subject-2 = Usar { $unblockCode } para iniciar sesión
-unblockCode-preview = Este código expira en una hora
+unblockCode-subject-2 = Usá { $unblockCode } para iniciar sesión
+unblockCode-preview = Este código caduca en una hora
 unblockCode-title = ¿Sos vos iniciando una sesión?
 unblockCode-prompt = Si es así, acá está el código de autorización necesario:
 # Variables:
@@ -849,8 +849,8 @@ verifyLogin-subject-2 = Confirmar inicio de sesión
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
 #  $code (String) - The confirmation code for sign-in
-verifyLoginCode-subject-line-3 = Usar { $code } para iniciar sesión
-verifyLoginCode-preview = Este código expira en 5 minutos.
+verifyLoginCode-subject-line-3 = Usá { $code } para iniciar sesión
+verifyLoginCode-preview = Este código caduca en 5 minutos.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = ¿Iniciaste sesión en { $serviceName }?
@@ -867,7 +867,7 @@ verifyPrimary-post-verify-2 = Cuando se confirme, los cambios de cuenta como agr
 # Variables:
 #  $code (String) - The confirmation code for secondary email
 verifySecondaryCode-subject-2 = Usá { $code } para confirmar tu correo electrónico secundario
-verifySecondaryCode-preview = Este código expira en 5 minutos.
+verifySecondaryCode-preview = Este código caduca en 5 minutos.
 verifySecondaryCode-title-2 = Confirmar correo electrónico secundario
 verifySecondaryCode-action-2 = Confirmar correo electrónico
 # Variables:
@@ -878,7 +878,7 @@ verifySecondaryCode-expiry-notice-2 = Caduca en 5 minutos. Una vez confirmada, e
 # Variables:
 #  $code (String) - comfirmation code for the account
 verifyShortCode-subject-4 = Usá { $code } para confirmar tu cuenta
-verifyShortCode-preview-2 = Este código expira en 5 minutos
+verifyShortCode-preview-2 = Este código caduca en 5 minutos
 verifyShortCode-title-3 = Abrí Internet con { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirmá tu cuenta y aprovechá { -brand-mozilla } al máximo cada vez que iniciás una sesión con:
