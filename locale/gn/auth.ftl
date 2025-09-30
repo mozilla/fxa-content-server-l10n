@@ -846,6 +846,10 @@ verifyLogin-description-2 = Orepytyvõ rorekóvo ne mba’ete tekorosãme emone�
 verifyLogin-subject-2 = Emoneĩ tembiapo ñepyrũ
 verifyLogin-action = Tembiapo ñepyrũ ñemoneĩ
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Eiporu { $code } eike hag̃ua
+verifyLoginCode-preview = Ko ayvu ndoikovéitama 5 aravo’ípe.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = ¿Emoñepyrũ tembiapo { $serviceName } ndive?
 # After the colon is a description of the device used to sign in to the service
@@ -858,6 +862,10 @@ verifyPrimary-subject = Emoneĩ ñanduti veve tuichavéva
 verifyPrimary-action-2 = Ñanduti veve ñemoneĩ:
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Oñemoneĩvo, umi mba’ete ñemoambue ojuajukuaáva ñanduti veve mokõihávare ejapokuaa ko mba’e’oka guive.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Eiporu { $code } emoneĩ hag̃ua ne ñanduti veve mokõiháva
+verifySecondaryCode-preview = Ko ayvu opaitétama 5 aravo’ípe.
 verifySecondaryCode-title-2 = Emoneĩ ñandutiveve mokõiguáva
 verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 # Variables:
@@ -865,6 +873,10 @@ verifySecondaryCode-action-2 = Ñandutiveve ñemoneĩ
 verifySecondaryCode-explainer-2 = Ojejerure ojeporu hag̃ua { $email } ñanduti veve mokõháva ambue { -product-mozilla-account } peg̃uarã:
 verifySecondaryCode-prompt-2 = Eiporu ko ayvu rechajeyrã:
 verifySecondaryCode-expiry-notice-2 = Opáta 5 aravo’ípe. Ojehechajey vove, ko kundaharapépe og̃uahẽta marandu’i tekorosã ha ñemoneĩ rehegua.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Eiporu { $code } emoneĩ hag̃ua ne mba’ete
+verifyShortCode-preview-2 = Ko ayvu opaitétama 5 aravo’ípe.
 verifyShortCode-title-3 = Embojuruja ñanduti { -brand-mozilla } ndive
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Emoneĩ ne mba’ete ha eiporuporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:
