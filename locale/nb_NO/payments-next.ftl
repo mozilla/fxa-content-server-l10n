@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturert den { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit utstedt til kontoen din
 subscription-content-coupon-applied = { $promotionName } ble brukt
+subscription-content-coupon-will-be-applied = { $promotionName }-rabatt vil bli brukt
 subscription-content-next-bill-excl-disc-with-tax = Neste faktura på <strong>{ $nextInvoiceTotal } + { $taxDue } moms</strong>, uten rabatter, forfaller <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Neste faktura på <strong>{ $nextInvoiceTotal }</strong>, uten rabatter, forfaller <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Avbryt abonnement

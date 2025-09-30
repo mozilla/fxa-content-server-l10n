@@ -868,6 +868,7 @@ verifyPrimary-post-verify-2 = Når bekreftet, vil endringer i kontoen som å leg
 # Variables:
 #  $code (String) - The confirmation code for secondary email
 verifySecondaryCode-subject-2 = Bruk { $code } for å bekrefte din sekundære e-postadresse
+verifySecondaryCode-preview = Denne koden utløper om 5 minutter.
 verifySecondaryCode-title-2 = Bekreft sekundær e-postadresse
 verifySecondaryCode-action-2 = Bekreft e-postadressen
 # Variables:
@@ -875,6 +876,10 @@ verifySecondaryCode-action-2 = Bekreft e-postadressen
 verifySecondaryCode-explainer-2 = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Bruk denne bekreftelseskoden:
 verifySecondaryCode-expiry-notice-2 = Den utløper om 5 minutter. Når e-postadressen er bekreftet, vil den begynne å motta sikkerhetsvarsler og bekreftelser.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Bruk { $code } for å bekrefte kontoen din
+verifyShortCode-preview-2 = Denne koden utløper om 5 minutter
 verifyShortCode-title-3 = Åpne internett med { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Bekreft kontoen din og få mest mulig ut av { -brand-mozilla } overalt hvor du logger deg på, og start med:
