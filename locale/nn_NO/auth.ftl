@@ -238,6 +238,11 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Delsum: { $invoiceSubtotal }
 
 subscription-charges-one-time-discount = Eingongsrabatt
 subscription-charges-one-time-discount-plaintext = Eingongsrabatt: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-månads rabatt
+       *[other] { $discountDuration }-månadars rabatt
+    }
 subscription-charges-discount = Rabatt
 subscription-charges-discount-plaintext = Rabatt: { $invoiceDiscountAmount }
 subscription-charges-taxes = Skattar og avgifter
