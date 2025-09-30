@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> оплачено { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> кредита, выданного на ваш аккаунт
 subscription-content-coupon-applied = { $promotionName } применён
+subscription-content-coupon-will-be-applied = Будет применена скидка { $promotionName }
 subscription-content-next-bill-excl-disc-with-tax = Следующий счёт в размере <strong>{ $nextInvoiceTotal } + { $taxDue } налог</strong>, исключая скидки, подлежит оплате <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Следующий счёт в размере <strong>{ $nextInvoiceTotal }</strong>, без учёта скидки, подлежит оплате <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Отменить подписку
