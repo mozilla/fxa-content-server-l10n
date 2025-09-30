@@ -824,6 +824,8 @@ tfa-row-cannot-disable-2 = Немагчыма адключыць двухэта�
 terms-privacy-agreement-intro-2 = Працягваючы, вы згаджаецеся з:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = <pocketTos>Умовы выкарыстання</pocketTos> і <pocketPrivacy>Паведамленне аб прыватнасці</pocketPrivacy> { -product-pocket }
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Працягваючы, вы згаджаецеся з <mozillaAccountsTos>умовамі абслугоўвання</mozillaAccountsTos> і <mozillaAccountsPrivacy>паведамленнем аб прыватнасці</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)

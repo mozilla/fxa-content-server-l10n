@@ -81,6 +81,7 @@ subplat-privacy = Прыватнасць
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Калі ваш уліковы запіс будзе выдалены, вы ўсё роўна будзеце атрымліваць электронныя лісты ад Mozilla Corporation і Mozilla Foundation, калі вы не <a data-l10n-name="unsubscribeLink">папросіце адпісацца</a>.
 account-deletion-info-block-support = Калі ў вас ёсць якія-небудзь пытанні ці вам патрэбна дапамога, звяжыцеся з нашай <a data-l10n-name="supportLink">службай падтрымкі</a>.
+account-deletion-info-block-communications-plaintext = Калі ваш уліковы запіс будзе выдалены, вы ўсё роўна будзеце атрымліваць электронныя лісты ад Mozilla Corporation і Mozilla Foundation, калі вы не папросіце адпісацца:
 account-deletion-info-block-support-plaintext = Калі ў вас ёсць якія-небудзь пытанні ці вам патрэбна дапамога, не саромейцеся звяртацца ў нашу службу падтрымкі:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
