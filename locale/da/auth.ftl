@@ -374,8 +374,8 @@ inactiveAccountFirstWarning-action = Log ind for at beholde din konto
 inactiveAccountFirstWarning-preview = Log ind for at beholde din konto
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Log ind for at beholde din konto:
-inactiveAccountSecondWarning-subject = Handling påkrævet: Sletning af konto om 7 dage
-inactiveAccountSecondWarning-title = Din { -brand-mozilla }-konto og tilknyttede data vil blive slettet om 7 dage
+inactiveAccountSecondWarning-subject = Handling påkrævet: Sletning af konto om syv dage
+inactiveAccountSecondWarning-title = Din { -brand-mozilla }-konto og tilknyttede data vil blive slettet om syv dage
 inactiveAccountSecondWarning-account-description-v2 = Din { -product-mozilla-account } bruges til at få adgang til gratis privatlivs- og browsing-produkter som fx synkronisering af { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Din konto og dine personlige data vil blive permanent slettet den <strong>{ $deletionDate }</strong>, fordi du ikke har været aktiv.
@@ -814,7 +814,7 @@ confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Bekræft konto
 verificationReminderSecond-subject-2 = Husk at bekræfte din konto
 verificationReminderSecond-title-3 = Gå ikke glip af { -brand-mozilla }!
-verificationReminderSecond-description-4 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste 10 dage, ellers bliver den slettet automatisk.
+verificationReminderSecond-description-4 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Bekræft din konto inden for de næste ti dage, ellers bliver den slettet automatisk.
 verificationReminderSecond-second-description-3 = Din { -product-mozilla-account } giver dig mulighed for at synkronisere alt det, du bruger { -brand-firefox } til, på tværs af enheder - og adgang til flere produkter fra { -brand-mozilla }, der beskytter dit privatliv.
 verificationReminderSecond-sub-description-2 = Vær en del af vores mission om at transformere internettet til et sted, der er åbent for alle.
 verificationReminderSecond-action-2 = Bekræft konto
