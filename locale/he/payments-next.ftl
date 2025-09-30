@@ -284,6 +284,7 @@ subscription-content-current-billed-on-tax = <span>חיוב של</span> <strong>
 subscription-content-current-billed-on-no-tax = <span>חיוב של</span> <strong>{ $invoiceTotal }</strong> <span>בוצע בתאריך { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = זיכוי בסך <strong>{ $creditApplied }</strong> הונפק לחשבון שלך
 subscription-content-coupon-applied = ‏{ $promotionName } הוחל
+subscription-content-coupon-will-be-applied = תוחל הנחה של { $promotionName }
 subscription-content-next-bill-excl-disc-with-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal } + מס בסך { $taxDue }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = ביטול מינוי

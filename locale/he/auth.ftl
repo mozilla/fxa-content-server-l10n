@@ -401,6 +401,10 @@ passwordChangeRequired-different-password-2 = <b>חשוב:</b> יש לבחור �
 passwordChangeRequired-different-password-plaintext-2 = חשוב: יש לבחור בססמה חזקה ושונה מזו שהשתמשת בה בעבר.
 passwordChangeRequired-action = איפוס ססמה
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = יש להשתמש ב־{ $code } כדי לשנות את הססמה שלך
+password-forgot-otp-preview = הקוד יפוג בתוך 10 דקות
 password-forgot-otp-title = שכחת את הססמה שלך?
 password-forgot-otp-request = קיבלנו בקשה לשינוי ססמה ב{ -product-mozilla-account(case: "the") } שלך מ:
 password-forgot-otp-code-2 = אם פעולה זו הגיעה ממך, להלן קוד האימות שלך כדי להמשיך:
@@ -626,6 +630,9 @@ subscriptionFirstInvoice-title = תודה שנרשמת ל־{ $productName }
 subscriptionFirstInvoice-content-processing = התשלום שלך מעובד כעת ועשוי לארוך עד ארבעה ימי עסקים.
 subscriptionFirstInvoice-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = החשבונית הבאה שלך תונפק בתאריך { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = פג תוקף אמצעי התשלום עבור { $productName }, או שהוא יפוג בקרוב
 subscriptionPaymentExpired-title-2 = פג תוקף אמצעי התשלום שלך, או שהוא יפוג בקרוב
@@ -690,6 +697,9 @@ subscriptionSubsequentInvoice-title = תודה שבחרת להיות מנוי!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = קיבלנו את התשלום האחרון שלך עבור { $productName }.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = החשבונית הבאה שלך תונפק בתאריך { $nextInvoiceDateOnly }.
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = שידרגת ל־{ $productName }
 subscriptionUpgrade-title = תודה ששידרגת!
@@ -737,6 +747,10 @@ subscriptionUpgrade-content-new-price-year-tax = מעתה והלאה, יבוצע
 subscriptionUpgrade-content-new-price-default-tax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } לכל מרווח חיוב, לא כולל הנחות.
 subscriptionUpgrade-existing = אם יש לך מינויים קיימים החופפים לשדרוג זה, נטפל בהם ונשלח לך הודעת דוא״ל נפרדת עם הפרטים. אם התוכנית החדשה שלך כוללת מוצרים הדורשים התקנה, נשלח לך דוא״ל נפרד עם הוראות התקנה.
 subscriptionUpgrade-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = יש להשתמש ב־{ $unblockCode } כדי להיכנס
+unblockCode-preview = הקוד יפוג בתוך שעה אחת
 unblockCode-title = האם התחברות זו מוכרת לך?
 unblockCode-prompt = אם כן, להלן קוד ההרשאה בו יש לך צורך:
 # Variables:
@@ -793,6 +807,10 @@ verifyLogin-description-2 = באפשרותך לעזור לנו לשמור על �
 verifyLogin-subject-2 = אישור התחברות
 verifyLogin-action = אישור התחברות
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = יש להשתמש ב־{ $code } כדי להיכנס
+verifyLoginCode-preview = הקוד יפוג בתוך 5 דקות.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = האם נכנסת אל { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -805,6 +823,10 @@ verifyPrimary-subject = אימות כתובת דוא״ל ראשית
 verifyPrimary-action-2 = אימות דוא״ל
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = לאחר האימות, שינויים בחשבון כגון הוספת כתובת דוא״ל משנית יתאפשרו ממכשיר זה.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = יש להשתמש ב־{ $code } כדי לאמת את כתובת הדוא״ל המשנית שלך
+verifySecondaryCode-preview = הקוד יפוג בתוך 5 דקות.
 verifySecondaryCode-title-2 = אימות כתובת דוא״ל משנית
 verifySecondaryCode-action-2 = אימות דוא״ל
 # Variables:
@@ -812,6 +834,10 @@ verifySecondaryCode-action-2 = אימות דוא״ל
 verifySecondaryCode-explainer-2 = הוגשה בקשה להשתמש בכתובת { $email } ככתובת דוא״ל משנית מ{ -product-mozilla-account(case: "the") } הבא:
 verifySecondaryCode-prompt-2 = נא להשתמש בקוד האימות הזה:
 verifySecondaryCode-expiry-notice-2 = הקוד יפוג בתוך 5 דקות. לאחר האימות כל התרעות האבטחה והאישורים יישלחו לכתובת הזו.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = יש להשתמש ב־{ $code } כדי לאמת את החשבון שלך
+verifyShortCode-preview-2 = הקוד יפוג בתוך 5 דקות
 verifyShortCode-title-3 = לפתוח את האינטרנט עם { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = אימות החשבון שלך יאפשר לך להפיק את המיטב מ־{ -brand-mozilla } עם כל מכשיר מחובר לרבות:
