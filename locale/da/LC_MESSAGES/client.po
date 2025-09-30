@@ -1032,7 +1032,7 @@ msgstr "Indtast bekræftelseskoden <span class=\"card-subheader\" id=\"subheader
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Indtast koden, der blev sendt til %(escapedEmail)s, indenfor 5 minutter."
+msgstr "Indtast koden, der blev sendt til %(escapedEmail)s, indenfor fem minutter."
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6

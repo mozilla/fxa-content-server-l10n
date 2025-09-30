@@ -6,7 +6,7 @@ session-verify-send-push-body-2 = Klik her for at bekræfte, at det er dig
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
-recovery-phone-setup-sms-body = { $code } er din { -brand-mozilla }-bekræftelseskode. Den udløber om 5 minutter.
+recovery-phone-setup-sms-body = { $code } er din { -brand-mozilla }-bekræftelseskode. Den udløber om fem minutter.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -16,7 +16,7 @@ recovery-phone-setup-sms-short-body = { -brand-mozilla }-bekræftelseskode: { $c
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
-recovery-phone-signin-sms-body = { $code } er din { -brand-mozilla }-genoprettelseskode. Den udløber om 5 minutter.
+recovery-phone-signin-sms-body = { $code } er din { -brand-mozilla }-genoprettelseskode. Den udløber om fem minutter.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -26,7 +26,7 @@ recovery-phone-signin-sms-short-body = { -brand-mozilla }-kode: { $code }
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
-recovery-phone-reset-password-sms-body = { $code } er din { -brand-mozilla }-genoprettelseskode. Den udløber om 5 minutter.
+recovery-phone-reset-password-sms-body = { $code } er din { -brand-mozilla }-genoprettelseskode. Den udløber om fem minutter.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -423,10 +423,14 @@ passwordChangeRequired-different-password-2 = <b>Vigtigt:</b> Vælg en stærk ad
 passwordChangeRequired-different-password-plaintext-2 = Vigtigt: Vælg en stærk adgangskode, der er anderledes end adgangskoder, du har brugt tidligere.
 passwordChangeRequired-action = Nulstil adgangskode
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Brug { $code } til at ændre din adgangskode
+password-forgot-otp-preview = Denne kode udløber om ti minutter
 password-forgot-otp-title = Glemt din adgangskode?
 password-forgot-otp-request = Vi har modtaget en anmodning om at ændre adgangskoden til din { -product-mozilla-account } fra:
 password-forgot-otp-code-2 = Hvis det var dig, så er din bekræftelseskode til at fortsætte her:
-password-forgot-otp-expiry-notice = Denne kode udløber om 10 minutter.
+password-forgot-otp-expiry-notice = Denne kode udløber om ti minutter.
 passwordReset-subject-2 = Din adgangskode er blevet nulstillet
 passwordReset-title-2 = Din adgangskode er blevet nulstillet
 # This sentence is followed by information about the device and time of the password reset
@@ -786,6 +790,10 @@ subscriptionUpgrade-content-new-price-year-tax = Fremover vil du blive opkrævet
 subscriptionUpgrade-content-new-price-default-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } afgift per faktureringsperiode, eksklusive rabatter.
 subscriptionUpgrade-existing = Hvis nogle af dine eksisterende abonnementer overlapper med denne opgradering, tager vi højde for det og sender dig en separat mail med detaljerne. Hvis din nye plan inkluderer produkter, der kræver installation, sender vi dig en separat mail med en opsætningsvejledning.
 subscriptionUpgrade-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Brug { $unblockCode } til at logge ind
+unblockCode-preview = Denne kode udløber om en time
 unblockCode-title = Er det dig, der logger ind?
 unblockCode-prompt = Hvis det er, skal du bruge denne godkendelseskode:
 # Variables:
@@ -842,27 +850,39 @@ verifyLogin-description-2 = Hold din konto sikker ved at bekræfte, at du logged
 verifyLogin-subject-2 = Bekræft login
 verifyLogin-action = Bekræft login
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Brug { $code } til at logge ind
+verifyLoginCode-preview = Denne kode udløber om fem minutter.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Har du logget ind på { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Hold din konto sikker ved at bekræfte dit login på:
 verifyLoginCode-prompt-3 = Hvis du har, så er din godkendelseskode her:
-verifyLoginCode-expiry-notice = Den udløber om 5 minutter.
+verifyLoginCode-expiry-notice = Den udløber om fem minutter.
 verifyPrimary-title-2 = Bekræft primær mailadresse
 verifyPrimary-description = Følgende enhed har anmodet om at foretage en ændring af kontoen:
 verifyPrimary-subject = Bekræft primær mailadresse
 verifyPrimary-action-2 = Bekræft mailadresse
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Når denne mailadresse er blevet bekræftet, kan ændringer af kontoen som fx tilføjelse af en sekundær mailadresse foretages fra denne enhed.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Brug { $code } til at bekræfte din sekundære mailadresse
+verifySecondaryCode-preview = Denne kode udløber om fem minutter.
 verifySecondaryCode-title-2 = Bekræft sekundær mailadresse
 verifySecondaryCode-action-2 = Bekræft mailadresse
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Den følgende { -product-mozilla-account } har anmodet om at bruge { $email } som sekundær mailadresse:
 verifySecondaryCode-prompt-2 = Brug denne bekræftelseskode:
-verifySecondaryCode-expiry-notice-2 = Den udløber om 5 minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
+verifySecondaryCode-expiry-notice-2 = Den udløber om fem minutter. Når denne mailadresse er blevet bekræftet, vil den begynde at modtage sikkerhedsmeddelelser og bekræftelser.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Brug { $code } til at bekræfte din konto
+verifyShortCode-preview-2 = Denne kode udløber om fem minutter
 verifyShortCode-title-3 = Åbn internettet med { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Bekræft din konto og få mest muligt ud af { -brand-mozilla }, overalt hvor du logger ind:
 verifyShortCode-prompt-3 = Brug denne bekræftelseskode:
-verifyShortCode-expiry-notice = Den udløber om 5 minutter.
+verifyShortCode-expiry-notice = Den udløber om fem minutter.
