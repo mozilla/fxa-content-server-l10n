@@ -418,7 +418,7 @@ passwordChangeRequired-action-plaintext = { passwordChangeRequired-action } :
 # Variables:
 #  $code (String) - The confirmation code for sign-in
 password-forgot-otp-subject-2 = Utiliser { $code } pour changer votre mot de passe
-password-forgot-otp-preview = Ce code expire dans 10 minutes
+password-forgot-otp-preview = Ce code expire dans 10 minutes
 password-forgot-otp-title = Mot de passe oublié ?
 password-forgot-otp-request = Nous avons reçu une demande de changement de mot de passe pour votre { -product-mozilla-account } depuis :
 password-forgot-otp-code-2 = Si c’était vous, voici le code de confirmation pour continuer :
@@ -844,7 +844,7 @@ verifyLogin-action = Confirmer la connexion
 # Variables:
 #  $code (String) - The confirmation code for sign-in
 verifyLoginCode-subject-line-3 = Utilisez { $code } pour vous connecter
-verifyLoginCode-preview = Ce code expire dans 5 minutes.
+verifyLoginCode-preview = Ce code expire dans 5 minutes.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Vous êtes-vous connecté·e via { $serviceName } ?
@@ -861,7 +861,7 @@ verifyPrimary-post-verify-2 = Une fois le compte confirmé, il sera possible de 
 # Variables:
 #  $code (String) - The confirmation code for secondary email
 verifySecondaryCode-subject-2 = Utilisez { $code } pour confirmer votre adresse e-mail secondaire
-verifySecondaryCode-preview = Ce code expire dans 5 minutes.
+verifySecondaryCode-preview = Ce code expire dans 5 minutes.
 verifySecondaryCode-title-2 = Confirmer l’adresse e-mail secondaire
 verifySecondaryCode-action-2 = Confirmez votre adresse e-mail
 # Variables:
