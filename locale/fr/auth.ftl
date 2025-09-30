@@ -417,7 +417,7 @@ passwordChangeRequired-action = Réinitialiser le mot de passe
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action } :
 # Variables:
 #  $code (String) - The confirmation code for sign-in
-password-forgot-otp-subject-2 = Utiliser { $code } pour changer votre mot de passe
+password-forgot-otp-subject-2 = Utilisez { $code } pour changer votre mot de passe
 password-forgot-otp-preview = Ce code expire dans 10 minutes
 password-forgot-otp-title = Mot de passe oublié ?
 password-forgot-otp-request = Nous avons reçu une demande de changement de mot de passe pour votre { -product-mozilla-account } depuis :
