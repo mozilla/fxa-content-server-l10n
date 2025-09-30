@@ -796,6 +796,9 @@ subscriptionUpgrade-content-new-price-year-tax = Wotnětka dyrbiće { $paymentAm
 subscriptionUpgrade-content-new-price-default-tax = Wotnětka dyrbiće { $paymentAmountNew } + { $paymentTaxNew } dawka na wotličenski interwal płaćić, nimo rabatow.
 subscriptionUpgrade-existing = Jeli so jedyn z wašich eksistowacych abonementow z tutej aktualizaciju překrywaja, budźemy so z nim zaběrać a wam separatnu mejlku z podrobnosćemi słać. Jeli waš nowy plan produkty wopřijima, kotrež sej instalaciju wužaduja, budźemy wam separatnu mejlku z instalaciskimi instrukcijemi słać.
 subscriptionUpgrade-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Wužiwajće { $unblockCode } za přizjewjenje
 unblockCode-preview = Tutón kod za jednu hodźinu spadnje
 unblockCode-title = Chceće so wy přizjewić?
 unblockCode-prompt = Jeli haj, tu je awtorizowanski kod, kotryž trjebaće:
@@ -856,6 +859,9 @@ verifyLogin-title-2 = Sće so pola { $clientName } přizjewił?
 verifyLogin-description-2 = Wobkrućće, zo sće so přizjewił, zo byšće nam pomhał, waše konto škitać.
 verifyLogin-subject-2 = Přizjewjenje wobkrućić
 verifyLogin-action = Přizjewjenje wobkrućić
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Wužiwajće { $code } za přizjewjenje
 verifyLoginCode-preview = Tutón kod za 5 mjeńšin spadnje.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -870,6 +876,9 @@ verifyPrimary-subject = Primarnu e-mejlowu adresu wobkrućić
 verifyPrimary-action-2 = E-mejlowu adresu wobkrućić
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Hdyž su wobkrućene, su kontowe změny móžne, kaž na přikład přidawanje sekundarneje e-mejloweje adresy z tutoho grata.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Wužiwajće { $code }, zo byšće swoju sekundarnu e-mejlowu adresu wobkrućił
 verifySecondaryCode-preview = Tutón kod za 5 mjeńšin spadnje.
 verifySecondaryCode-title-2 = Sekundarnu e-mejlowu adresu wobkrućić
 verifySecondaryCode-action-2 = E-mejlowu adresu wobkrućić
@@ -878,6 +887,9 @@ verifySecondaryCode-action-2 = E-mejlowu adresu wobkrućić
 verifySecondaryCode-explainer-2 = Slědowace konto { -product-mozilla-account } je požadało, { $email } jako druhu e-mejlowu adresu wužiwać:
 verifySecondaryCode-prompt-2 = Tutón wobkrućenski kod zapodać:
 verifySecondaryCode-expiry-notice-2 = Spadnje za 5 mjeńšin. Tak ruče kaž je so wobkrućiła, tuta adresa započnje, wěstotne zdźělenki a wobkrućenja dóstawać.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Wužiwajće { $code }, zo byšće swoje konto wobkrućił
 verifyShortCode-preview-2 = Tutón kod za 5 mjeńšin spadnje
 verifyShortCode-title-3 = Wočińće internet z { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.

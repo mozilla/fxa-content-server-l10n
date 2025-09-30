@@ -295,6 +295,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong> <span>je so { $billedOnDate } wobličił</span>
 subscription-content-credit-issued-to-your-account = Dobropis <strong>{ $creditApplied }</strong> je so wašemu kontu dobropisał
 subscription-content-coupon-applied = { $promotionName } nałoženy
+subscription-content-coupon-will-be-applied = Rabat { $promotionName } so nałoži
 subscription-content-next-bill-excl-disc-with-tax = Přichodna zličbowanka <strong>{ $nextInvoiceTotal } + { $taxDue } dawka</strong>, bjez rabatow, je płaćomna <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Přichodna zličbowanja <strong>{ $nextInvoiceTotal }</strong>, bjez rabatow, je płaćomna <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonement wupowědźić
