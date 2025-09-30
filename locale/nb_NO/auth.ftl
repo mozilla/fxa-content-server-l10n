@@ -422,6 +422,9 @@ passwordChangeRequired-different-password-2 = <b>Viktig:</b> Velg et sterkt pass
 passwordChangeRequired-different-password-plaintext-2 = Viktig: Velg et sterkt passord som er forskjellig fra et du har brukt tidligere.
 passwordChangeRequired-action = Tilbakestill passord
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Bruk { $code } for å endre passordet ditt
 password-forgot-otp-title = Glemt passord ditt?
 password-forgot-otp-request = Vi mottok en forespørsel om passordendring på din { -product-mozilla-account } fra:
 password-forgot-otp-code-2 = Hvis dette var deg, her er bekreftelseskoden for å fortsette:
