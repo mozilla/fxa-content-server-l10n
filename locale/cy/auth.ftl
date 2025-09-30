@@ -433,6 +433,10 @@ passwordChangeRequired-different-password-2 = <b>Pwysig:</b> Dewiswch gyfrinair 
 passwordChangeRequired-different-password-plaintext-2 = Pwysig: Dewiswch gyfrinair cryf sy'n wahanol i'r un rydych chi wedi'i ddefnyddio yn y gorffennol.
 passwordChangeRequired-action = Ailosodwch y cyfrinair
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Defnyddiwch { $code } i newid eich cyfrinair
+password-forgot-otp-preview = Mae'r cod hwn yn dod i ben mewn 10 munud
 password-forgot-otp-title = Wedi anghofio eich cyfrinair?
 password-forgot-otp-request = Rydym wedi derbyn cais i newid cyfrinair ar eich cyfrif { -product-mozilla-account } oddi wrth:
 password-forgot-otp-code-2 = Os mai chi oedd hwn, dyma'ch cod cadarnhau i symud ymlaen:
@@ -796,6 +800,10 @@ subscriptionUpgrade-content-new-price-year-tax = Yn y dyfodol, byddwn yn codi { 
 subscriptionUpgrade-content-new-price-default-tax = Yn y dyfodol, byddwn yn codi { $paymentAmountNew } + { $paymentTaxNew } treth arnoch fesul cyfnod bilio, heb gynnwys gostyngiadau.
 subscriptionUpgrade-existing = Os bydd unrhyw un o'ch tanysgrifiadau presennol yn gorgyffwrdd â'r uwchraddio hwn, byddwn yn eu trin ac yn anfon e-bost ar wahân atoch gyda'r manylion. Os yw eich cynllun newydd yn cynnwys cynnyrch sydd angen eu gosod, byddwn yn anfon e-bost ar wahân atoch gyda chyfarwyddiadau gosod.
 subscriptionUpgrade-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Defnyddiwch { $unblockCode } i fewngofnodi
+unblockCode-preview = Daw'r cod hwn i ben mewn awr
 unblockCode-title = Ai hwn yw chi’n allgofnodi?
 unblockCode-prompt = Os ie, dyma’r cod awdurdodi sydd ei angen arnoch:
 # Variables:
@@ -860,6 +868,10 @@ verifyLogin-description-2 = Helpwch ni i gadw'ch cyfrif yn ddiogel drwy gadarnha
 verifyLogin-subject-2 = Cadarnhewch eich mewngofnodi
 verifyLogin-action = Cadarnhau eich mewngofnodi
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Defnyddiwch { $code } i fewngofnodi
+verifyLoginCode-preview = Mae'r cod hwn yn dod i ben mewn 5 munud.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = A wnaethoch chi fewngofnodi i { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -872,6 +884,10 @@ verifyPrimary-subject = Cadarnhau’r prif e-bost
 verifyPrimary-action-2 = Cadarnhau'r e-bost
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Unwaith y bydd wedi ei gadarnhau, bydd newid cyfrif fel ychwanegu ail e-bost yn bosib o'r ddyfais hon.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Defnyddiwch { $code } i gadarnhau eich e-bost eilaidd
+verifySecondaryCode-preview = Mae'r cod hwn yn dod i ben mewn 5 munud.
 verifySecondaryCode-title-2 = Cadarnhau'r ail e-bost
 verifySecondaryCode-action-2 = Cadarnhau'r e-bost
 # Variables:
@@ -879,6 +895,10 @@ verifySecondaryCode-action-2 = Cadarnhau'r e-bost
 verifySecondaryCode-explainer-2 = Mae cais i ddefnyddio { $email } fel cyfeiriad ail e-bost wedi'i wneud o'r cyfrif { -product-mozilla-account } canlynol:
 verifySecondaryCode-prompt-2 = Defnyddiwch y cod cadarnhau yma:
 verifySecondaryCode-expiry-notice-2 = Daw i ben ymhen 5 munud. Ar ôl ei gadarnhau, bydd y cyfeiriad hwn yn dechrau derbyn hysbysiadau a chadarnhad diogelwch.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Defnyddiwch { $code } i gadarnhau eich cyfrif
+verifyShortCode-preview-2 = Mae'r cod hwn yn dod i ben mewn 5 munud
 verifyShortCode-title-3 = Agorwch y rhyngrwyd gyda { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Cadarnhewch eich cyfrif a chael y gorau o { -brand-mozilla } ym mhob man rydych yn mewngofnodi gan ddechrau gyda:

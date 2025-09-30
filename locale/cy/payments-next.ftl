@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> wedi'i filio ar { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credyd wedi'i roi i'ch cyfrif
 subscription-content-coupon-applied = { $promotionName } wedi'i osod
+subscription-content-coupon-will-be-applied = Bydd gostyngiad o { $promotionName } yn cael ei gymhwyso
 subscription-content-next-bill-excl-disc-with-tax = Mae bil nesaf <strong>{ $nextInvoiceTotal } + { $taxDue } treth</strong>, heb gynnwys gostyngiadau, yn ddyledus ar <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Mae'r bil nesaf o <strong>{ $nextInvoiceTotal }</strong>, heb gynnwys gostyngiadau, yn ddyledus ar <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad

@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fatturati il { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credito emesso sul tuo account
 subscription-content-coupon-applied = { $promotionName } applicato
+subscription-content-coupon-will-be-applied = Verrà applicato uno sconto di { $promotionName }
 subscription-content-next-bill-excl-disc-with-tax = La prossima fattura di <strong>{ $nextInvoiceTotal } + { $taxDue } di tasse</strong>, sconti esclusi, scadrà il <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = La prossima fattura di <strong>{ $nextInvoiceTotal }</strong>, sconti esclusi, scadrà il <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancella abbonamento

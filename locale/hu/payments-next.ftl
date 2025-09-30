@@ -294,6 +294,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> számlázási dátuma: { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jóváírás a számlájában
 subscription-content-coupon-applied = { $promotionName } alkalmazva
+subscription-content-coupon-will-be-applied = { $promotionName } kedvezmény lesz alkalmazva
 subscription-content-next-bill-excl-disc-with-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal } + { $taxDue } adó</strong> számla esedékessége <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal }</strong> számla esedékessége <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Előfizetés lemondása

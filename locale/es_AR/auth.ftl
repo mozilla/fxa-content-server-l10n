@@ -421,6 +421,10 @@ passwordChangeRequired-different-password-2 = <b>Importante:</b> Elegí una cont
 passwordChangeRequired-different-password-plaintext-2 = Importante: Elegí una contraseña segura que sea diferente a la que usaste en el pasado.
 passwordChangeRequired-action = Restablecer contraseña
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Usá { $code } para cambiar tu contraseña
+password-forgot-otp-preview = Este código expira en 10 minutos
 password-forgot-otp-title = ¿Te olvidaste la contraseña?
 password-forgot-otp-request = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } de:
 password-forgot-otp-code-2 = Si fuiste vos, este es tu código de confirmación para continuar:
@@ -784,6 +788,10 @@ subscriptionUpgrade-content-new-price-year-tax = De ahora en adelante, se cobrar
 subscriptionUpgrade-content-new-price-default-tax = De ahora en adelante, se cobrarán { $paymentAmountNew } + { $paymentTaxNew } de impuestos por intervalo de facturación, sin incluir descuentos.
 subscriptionUpgrade-existing = Si alguna de las suscripciones existentes se superpone con esta actualización, lo manejaremos y enviaremos un correo electrónico por separado con los detalles. Si el nuevo plan incluye productos que requieren instalación, enviaremos un correo electrónico por separado con instrucciones de configuración.
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente cada período de facturación a menos que elijas cancelar.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Usar { $unblockCode } para iniciar sesión
+unblockCode-preview = Este código expira en una hora
 unblockCode-title = ¿Sos vos iniciando una sesión?
 unblockCode-prompt = Si es así, acá está el código de autorización necesario:
 # Variables:
@@ -840,6 +848,10 @@ verifyLogin-description-2 = Ayudanos a mantener tu cuenta segura confirmando que
 verifyLogin-subject-2 = Confirmar inicio de sesión
 verifyLogin-action = Confirmar inicio de sesión
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Usar { $code } para iniciar sesión
+verifyLoginCode-preview = Este código expira en 5 minutos.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = ¿Iniciaste sesión en { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -852,6 +864,10 @@ verifyPrimary-subject = Confirmar correo electrónico principal
 verifyPrimary-action-2 = Confirmar correo electrónico
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Cuando se confirme, los cambios de cuenta como agregar un correo electrónico secundario serán posibles desde este dispositivo.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Usá { $code } para confirmar tu correo electrónico secundario
+verifySecondaryCode-preview = Este código expira en 5 minutos.
 verifySecondaryCode-title-2 = Confirmar correo electrónico secundario
 verifySecondaryCode-action-2 = Confirmar correo electrónico
 # Variables:
@@ -859,6 +875,10 @@ verifySecondaryCode-action-2 = Confirmar correo electrónico
 verifySecondaryCode-explainer-2 = Se recibió una solicitud para utilizar { $email } como cuenta secundaria de correo electrónico desde la siguiente { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Usá este código de confirmación:
 verifySecondaryCode-expiry-notice-2 = Caduca en 5 minutos. Una vez confirmada, esta dirección a a empezar a recibir notificaciones de seguridad y confirmaciones.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Usá { $code } para confirmar tu cuenta
+verifyShortCode-preview-2 = Este código expira en 5 minutos
 verifyShortCode-title-3 = Abrí Internet con { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirmá tu cuenta y aprovechá { -brand-mozilla } al máximo cada vez que iniciás una sesión con:

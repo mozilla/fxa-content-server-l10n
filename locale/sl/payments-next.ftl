@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> obračunano { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> dobroimetja
 subscription-content-coupon-applied = { $promotionName } uporabljeno
+subscription-content-coupon-will-be-applied = uveljavljen bo popust { $promotionName }
 subscription-content-next-bill-excl-disc-with-tax = Naslednji račun <strong>{ $nextInvoiceTotal } + { $taxDue } davek</strong>, brez popustov, bo <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Naslednji račun v višini <strong>{ $nextInvoiceTotal }</strong>, brez popustov, prihaja <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Prekliči naročnino

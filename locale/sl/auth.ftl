@@ -427,6 +427,10 @@ passwordChangeRequired-different-password-2 = <b>Pomembno:</b> Izberite močno g
 passwordChangeRequired-different-password-plaintext-2 = Pomembno: izberite močno geslo, ki je drugačno od tistega, ki ste ga uporabljali v preteklosti.
 passwordChangeRequired-action = Ponastavi geslo
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Uporabite { $code } za spremembo gesla
+password-forgot-otp-preview = Koda poteče čez 10 minut
 password-forgot-otp-title = Ste pozabili geslo?
 password-forgot-otp-request = Prejeli smo zahtevo za spremembo gesla vašega { -product-mozilla-account(sklon: "rodilnik") } z:
 password-forgot-otp-code-2 = Če ste to bili vi, je tu potrditvena koda za nadaljevanje:
@@ -790,6 +794,10 @@ subscriptionUpgrade-content-new-price-year-tax = V prihodnje vam bomo zaračunav
 subscriptionUpgrade-content-new-price-default-tax = V prihodnje vam bomo zaračunavali { $paymentAmountNew } + { $paymentTaxNew } davek na obračunski interval brez popustov.
 subscriptionUpgrade-existing = Če se katera od vaših obstoječih naročnin prekriva s to nadgradnjo, bomo to posodobili in vam poslali ločeno e-poštno sporočilo s podrobnostmi. Če vaša nova naročnina vključuje izdelke, ki zahtevajo namestitev, vam bomo poslali ločeno e-pošto z navodili za namestitev.
 subscriptionUpgrade-auto-renew = Naročnina se bo vsako obračunsko obdobje samodejno podaljšala, razen če se odločite za preklic.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Za prijavo uporabite { $unblockCode }
+unblockCode-preview = Koda poteče čez eno uro
 unblockCode-title = Se prijavljate vi?
 unblockCode-prompt = Če je tako, je to overitvena koda, ki jo potrebujete:
 # Variables:
@@ -850,6 +858,10 @@ verifyLogin-description-2 = Pomagajte nam zaščititi vaš račun, tako da potrd
 verifyLogin-subject-2 = Potrdi prijavo
 verifyLogin-action = Potrdite prijavo
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Za prijavo uporabite { $code }
+verifyLoginCode-preview = Koda poteče čez 5 minut.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Ali ste se vi prijavili v { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -862,6 +874,10 @@ verifyPrimary-subject = Potrdi glavni e-poštni naslov
 verifyPrimary-action-2 = Potrdi e-poštni naslov
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Potem ko ga potrdite, bodo na tej napravi omogočene tudi spremembe računa, kot je dodajanje pomožnega e-poštnega naslova.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Uporabite { $code } za potrditev pomožnega e-poštnega naslova
+verifySecondaryCode-preview = Koda poteče čez 5 minut.
 verifySecondaryCode-title-2 = Potrdi pomožni e-poštni naslov
 verifySecondaryCode-action-2 = Potrdi e-poštni naslov
 # Variables:
@@ -869,6 +885,10 @@ verifySecondaryCode-action-2 = Potrdi e-poštni naslov
 verifySecondaryCode-explainer-2 = Poslana je bila zahteva za uporabo { $email } kot pomožni e-poštni naslov naslednjega { -product-mozilla-account(sklon: "rodilnik") }:
 verifySecondaryCode-prompt-2 = Uporabite to potrditveno kodo:
 verifySecondaryCode-expiry-notice-2 = Poteče čez 5 minut. Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Uporabite { $code } za potrditev računa
+verifyShortCode-preview-2 = Koda poteče čez 5 minut
 verifyShortCode-title-3 = Odprite internet z { -brand-mozilla(sklon: "orodnik") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potrdite svoj račun in kar najbolje izkoristite { -brand-mozilla(sklon: "tozilnik") } na vseh napravah, začenši z:

@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> zaúčtováno { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = Na váš účet bude připsán kredit <strong>{ $creditApplied }</strong>
 subscription-content-coupon-applied = Kupón { $promotionName } byl použit
+subscription-content-coupon-will-be-applied = Bude uplatněna sleva { $promotionName }
 subscription-content-next-bill-excl-disc-with-tax = Další platba <strong>{ $nextInvoiceTotal } + { $taxDue } daň</strong>, vyjma slev, je splatná <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Další platba <strong>{ $nextInvoiceTotal }</strong>, kromě diskontů, je splatná <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Zrušit předplatné

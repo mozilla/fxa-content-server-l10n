@@ -423,6 +423,10 @@ passwordChangeRequired-different-password-2 = <b>Viktigt:</b> Välj ett starkt l
 passwordChangeRequired-different-password-plaintext-2 = Viktigt: Välj ett starkt lösenord som skiljer sig från ett du har använt tidigare.
 passwordChangeRequired-action = Återställ lösenord
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Använd { $code } för att ändra ditt lösenord
+password-forgot-otp-preview = Denna kod upphör efter 10 minuter
 password-forgot-otp-title = Glömt ditt lösenord?
 password-forgot-otp-request = Vi fick en begäran om lösenordsändring på ditt { -product-mozilla-account } från:
 password-forgot-otp-code-2 = Om det var du, här är din bekräftelsekod för att fortsätta:
@@ -786,6 +790,10 @@ subscriptionUpgrade-content-new-price-year-tax = Från och med nu kommer du att 
 subscriptionUpgrade-content-new-price-default-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per faktureringsintervall, exklusive rabatter.
 subscriptionUpgrade-existing = Om några av dina befintliga prenumerationer överlappar denna uppgradering, hanterar vi dem och skickar ett separat mejl med detaljerna. Om din nya plan innehåller produkter som kräver installation, skickar vi ett separat e-postmeddelande med installationsinstruktioner.
 subscriptionUpgrade-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Använd { $unblockCode } för att logga in
+unblockCode-preview = Denna kod upphör efter en timme
 unblockCode-title = Är det du som loggar in?
 unblockCode-prompt = Om ja, här behörighetskoden som du behöver:
 # Variables:
@@ -842,6 +850,10 @@ verifyLogin-description-2 = Hjälp oss att hålla ditt konto säkert genom att b
 verifyLogin-subject-2 = Bekräfta inloggning
 verifyLogin-action = Bekräfta inloggning
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Använd { $code } för att logga in
+verifyLoginCode-preview = Denna kod upphör efter 5 minuter.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Loggade du in på { $serviceName }
 # After the colon is a description of the device used to sign in to the service
@@ -854,6 +866,10 @@ verifyPrimary-subject = Bekräfta primär e-postadress
 verifyPrimary-action-2 = Bekräfta e-postadress
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = När du har bekräftat kommer kontoändringar som att lägga till en sekundär e-post att bli möjliga från den här enheten.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Använd { $code } för att bekräfta din sekundära e-postadress
+verifySecondaryCode-preview = Denna kod upphör efter 5 minuter.
 verifySecondaryCode-title-2 = Bekräfta sekundär e-postadress
 verifySecondaryCode-action-2 = Bekräfta e-postadress
 # Variables:
@@ -861,6 +877,10 @@ verifySecondaryCode-action-2 = Bekräfta e-postadress
 verifySecondaryCode-explainer-2 = En begäran om att använda { $email } som en sekundär e-postadress har gjorts från följande { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Använd denna bekräftelsekod:
 verifySecondaryCode-expiry-notice-2 = Den upphör efter 5 minuter. När adressen har bekräftats kommer den att börja ta emot säkerhetsmeddelanden och bekräftelser.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Använd { $code } för att bekräfta ditt konto
+verifyShortCode-preview-2 = Denna kod upphör efter 5 minuter
 verifyShortCode-title-3 = Öppna internet med { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Bekräfta ditt konto och få ut det mesta av { -brand-mozilla } överallt där du loggar in, med början med:

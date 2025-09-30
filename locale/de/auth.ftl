@@ -421,6 +421,10 @@ passwordChangeRequired-different-password-2 = <b>Wichtig:</b> Wählen Sie ein st
 passwordChangeRequired-different-password-plaintext-2 = Wichtig: Wählen Sie ein starkes Passwort, das sich von dem unterscheidet, das Sie in der Vergangenheit verwendet haben.
 passwordChangeRequired-action = Passwort zurücksetzen
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Verwenden Sie { $code }, um Ihr Passwort zu ändern
+password-forgot-otp-preview = Dieser Code läuft in 10 Minuten ab
 password-forgot-otp-title = Passwort vergessen?
 password-forgot-otp-request = Wir haben eine Anfrage zur Passwortänderung für Ihr { -product-mozilla-account } erhalten von:
 password-forgot-otp-code-2 = Wenn Sie das waren, ist hier Ihr Bestätigungscode, um fortzufahren:
@@ -784,6 +788,10 @@ subscriptionUpgrade-content-new-price-year-tax = Ab sofort werden Ihnen { $payme
 subscriptionUpgrade-content-new-price-default-tax = Ab sofort werden Ihnen { $paymentAmountNew } + { $paymentTaxNew } Steuern pro Abrechnungsintervall (ohne Rabatte) berechnet.
 subscriptionUpgrade-existing = Wenn sich Ihre bestehenden Abonnements bei diesem Upgrade überschneiden, bearbeiten wir diese und schicken Ihnen eine separate E-Mail mit den Details. Wenn Ihr neuer Plan Produkte enthält, die installiert werden müssen, senden wir Ihnen eine separate E-Mail mit Anweisungen zur Einrichtung.
 subscriptionUpgrade-auto-renew = Ihr Abonnement verlängert sich automatisch jeden Abrechnungszeitraum, sofern Sie nicht kündigen.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Verwenden Sie { $unblockCode } zur Anmeldung
+unblockCode-preview = Dieser Code läuft in einer Stunde ab
 unblockCode-title = Sind Sie das, der sich da anmeldet?
 unblockCode-prompt = Wenn ja, ist hier der benötigte Autorisierungscode:
 # Variables:
@@ -840,6 +848,10 @@ verifyLogin-description-2 = Helfen Sie uns, Ihr Konto zu schützen, indem Sie be
 verifyLogin-subject-2 = Anmeldung bestätigen
 verifyLogin-action = Anmeldung bestätigen
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Verwenden Sie { $code } zur Anmeldung
+verifyLoginCode-preview = Dieser Code läuft in 5 Minuten ab.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Haben Sie sich bei { $serviceName } angemeldet?
 # After the colon is a description of the device used to sign in to the service
@@ -852,6 +864,10 @@ verifyPrimary-subject = Primäre E-Mail-Adresse bestätigen
 verifyPrimary-action-2 = E-Mail-Adresse bestätigen
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Nach der Bestätigung sind Kontoänderungen wie das Hinzufügen einer sekundären E-Mail-Adresse von diesem Gerät aus möglich.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Verwenden Sie { $code }, um Ihre sekundäre E-Mail-Adresse zu bestätigen
+verifySecondaryCode-preview = Dieser Code läuft in 5 Minuten ab.
 verifySecondaryCode-title-2 = Sekundäre E-Mail-Adresse bestätigen
 verifySecondaryCode-action-2 = E-Mail-Adresse bestätigen
 # Variables:
@@ -859,6 +875,10 @@ verifySecondaryCode-action-2 = E-Mail-Adresse bestätigen
 verifySecondaryCode-explainer-2 = Von folgendem { -product-mozilla-account } erfolgte eine Anfrage, { $email } als Zweit-E-Mail-Adresse zu nutzen:
 verifySecondaryCode-prompt-2 = Verwenden Sie diesen Bestätigungscode:
 verifySecondaryCode-expiry-notice-2 = Er läuft in fünf Minuten ab. Nach der Bestätigung erhält diese Adresse Sicherheitsbenachrichtigungen und Bestätigungen.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Verwenden Sie { $code }, um Ihr Konto zu bestätigen
+verifyShortCode-preview-2 = Dieser Code läuft in 5 Minuten ab
 verifyShortCode-title-3 = Öffnen Sie das Internet mit { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Bestätigen Sie Ihr Konto und nutzen Sie { -brand-mozilla } überall dort, wo Sie sich anmelden. Erster Schritt:

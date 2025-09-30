@@ -425,6 +425,10 @@ passwordChangeRequired-different-password-2 = <b>Důležité:</b> Zvolte silné 
 passwordChangeRequired-different-password-plaintext-2 = Důležité: Zvolte si silné heslo, které se liší od hesla, které jste používali v minulosti.
 passwordChangeRequired-action = Obnovit heslo
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Pro změnu hesla použijte aplikaci { $code }
+password-forgot-otp-preview = Platnost kódu vyprší za 10 minut
 password-forgot-otp-title = Zapomněli jste heslo?
 password-forgot-otp-request = Obdrželi jsme žádost o změnu hesla k vašemu { -product-mozilla-account(case: "dat", capitalization: "lowercase") } z:
 password-forgot-otp-code-2 = Pokud jste to byli vy, zde je váš potvrzovací kód:
@@ -788,6 +792,10 @@ subscriptionUpgrade-content-new-price-year-tax = Do budoucna vám bude účtová
 subscriptionUpgrade-content-new-price-default-tax = Od nynějška vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň za každé interval účtování bez slev.
 subscriptionUpgrade-existing = Pokud se některé z vašich stávajících předplatných překrývá s tímto upgradem, my se tím budeme zabývat a zašleme vám samostatný e-mail s podrobnostmi. Pokud váš nový plán obsahuje produkty, které vyžadují instalaci, zašleme vám samostatný e-mail s pokyny k nastavení.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Pro přihlášení použijte { $unblockCode }
+unblockCode-preview = Platnost kódu vyprší za hodinu
 unblockCode-title = Jste to vy, kdo se přihlašuje?
 unblockCode-prompt = Pokud ano, zde je váš autorizační kód, který potřebujete:
 # Variables:
@@ -846,6 +854,10 @@ verifyLogin-description-2 = Pomozte nám udržet váš účet v bezpečí tím, 
 verifyLogin-subject-2 = Potvrdit přihlášení
 verifyLogin-action = Potvrdit přihlášení
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Pro přihlášení použijte { $code }
+verifyLoginCode-preview = Platnost kódu vyprší za 5 minut.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Přihlásili jste se do produktu { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -858,6 +870,10 @@ verifyPrimary-subject = Ověřit hlavní e-mailovou adresu
 verifyPrimary-action-2 = Potvrdit e-mailovou adresu
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Po potvrzení budou z tohoto zařízení možné změny účtu, jako je přidání záložní e-mailové adresy.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Použijte { $code } k potvrzení své záložní e-mailové adresy
+verifySecondaryCode-preview = Platnost kódu vyprší za 5 minut.
 verifySecondaryCode-title-2 = Ověřit záložní e-mailovou adresu
 verifySecondaryCode-action-2 = Potvrdit e-mailovou adresu
 # Variables:
@@ -865,6 +881,10 @@ verifySecondaryCode-action-2 = Potvrdit e-mailovou adresu
 verifySecondaryCode-explainer-2 = Žádost o použití adresy { $email } jako záložní e-mailové adresy byla podána z následujícího { -product-mozilla-account(case: "gen") }:
 verifySecondaryCode-prompt-2 = Použijte tento potvrzovací kód:
 verifySecondaryCode-expiry-notice-2 = Platnost vyprší za 5 minut. Po ověření budete na tuto e-mailovou adresu dostávat bezpečnostní oznámení a potvrzení.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Použijte { $code } pro potvrzení svého účtu
+verifyShortCode-preview-2 = Platnost kódu vyprší za 5 minut
 verifyShortCode-title-3 = Pojďte na internet pomocí { -brand-mozilla(case: "acc") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrďte svůj účet a využívejte výhody { -brand-mozilla(case: "gen") } všude, kde se přihlásíte, počínaje:
