@@ -791,7 +791,7 @@ subscriptionUpgrade-auto-renew = Il tuo abbonamento si rinnoverà automaticament
 # Variables:
 #  $unblockCode (String) - The authorization code for sign-in
 unblockCode-subject-2 = Utilizza { $unblockCode } per accedere
-unblockCode-preview = Questo codice scadrà tra un’ora
+unblockCode-preview = Questo codice scade tra un’ora
 unblockCode-title = Hai effettuato tu questo accesso?
 unblockCode-prompt = In caso affermativo, questo è il codice di autorizzazione da utilizzare:
 # Variables:
@@ -874,7 +874,7 @@ verifySecondaryCode-action-2 = Conferma indirizzo email
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Il seguente { -product-mozilla-account } richiede di utilizzare { $email } come indirizzo email secondario:
 verifySecondaryCode-prompt-2 = Usa questo codice di conferma:
-verifySecondaryCode-expiry-notice-2 = Il codice scadrà tra 5 minuti. Una volta confermato, il presente indirizzo email riceverà notifiche di sicurezza e messaggi di conferma.
+verifySecondaryCode-expiry-notice-2 = Il codice scade tra 5 minuti. Una volta confermato, il presente indirizzo email riceverà notifiche di sicurezza e messaggi di conferma.
 # Variables:
 #  $code (String) - comfirmation code for the account
 verifyShortCode-subject-4 = Utilizza { $code } per confermare il tuo account
