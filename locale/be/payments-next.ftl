@@ -45,12 +45,21 @@ next-payment-confirmation-download-button = Працягнуць сцягван�
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Карта, нумар якой заканчваецца на { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-account-profile-picture = Фота профілю ўліковага запісу
+
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
 # Page - Not Found
 page-not-found-title = Старонка не знойдзена
 page-not-found-back-button = Вярнуцца
+
+## Navigation breadcrumbs
+
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Падпіскі
 
 ## Component - Payment Consent Checkbox
 
@@ -76,6 +85,8 @@ next-coupon-submit = Прымяніць
 
 payments-header-bento-close =
     .alt = Закрыць
+payments-header-avatar-expanded-signed-in-as = Увайшоўшы як
+payments-header-avatar-expanded-sign-out = Выйсці
 
 ## Payment Section
 
@@ -97,6 +108,8 @@ next-coupon-success-repeating = Ваш план будзе аўтаматычн�
 
 select-tax-location-save-button = Захаваць
 select-tax-location-country-code-label = Краіна
+signin-form-email-input-missing = Калі ласка, увядзіце свой адрас электроннай пошты
+signin-form-email-input-invalid = Калі ласка, увядзіце сапраўдны адрас электроннай пошты
 next-new-user-subscribe-product-updates-mdnplus = Я хачу атрымліваць навіны аб прадуктах і абнаўленні ад { -product-mdn-plus } і { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Я хачу атрымліваць навіны аб прадуктах і абнаўленні ад { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Я хачу атрымліваць навіны і абнаўленні па бяспецы і прыватнасці ад { -brand-mozilla }
