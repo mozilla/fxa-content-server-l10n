@@ -1430,7 +1430,7 @@ msgstr "Indtast en reserve-godkendelseskode, som du fik under opsætningen af to
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr "Indtast 10-cifret reserve-godkendelseskode"
+msgstr "Indtast ticifret reserve-godkendelseskode"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1450,7 +1450,7 @@ msgstr "Indtast bekræftelseskoden <span class=\"card-subheader\">til din Mozill
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr "Indtast koden, der blev sendt til %(email)s, indenfor 5 minutter."
+msgstr "Indtast koden, der blev sendt til %(email)s, indenfor fem minutter."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1662,7 +1662,7 @@ msgstr "Indtast bekræftelseskode"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Indtast den bekræftelseskode, der blev sendt til %(escapedEmail)s, indenfor 5 minutter."
+msgstr "Indtast den bekræftelseskode, der blev sendt til %(escapedEmail)s, indenfor fem minutter."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"

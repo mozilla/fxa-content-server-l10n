@@ -427,7 +427,7 @@ passwordChangeRequired-action = Obnovit heslo
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 # Variables:
 #  $code (String) - The confirmation code for sign-in
-password-forgot-otp-subject-2 = Pro změnu hesla použijte aplikaci { $code }
+password-forgot-otp-subject-2 = Pro změnu hesla použijte { $code }
 password-forgot-otp-preview = Platnost kódu vyprší za 10 minut
 password-forgot-otp-title = Zapomněli jste heslo?
 password-forgot-otp-request = Obdrželi jsme žádost o změnu hesla k vašemu { -product-mozilla-account(case: "dat", capitalization: "lowercase") } z:

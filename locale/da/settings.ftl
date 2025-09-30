@@ -260,7 +260,7 @@ hearts-verified-image-aria-label =
 signin-recovery-code-image-description =
     .aria-label = Dokument, der indeholder skjult tekst.
 signin-totp-code-image-label =
-    .aria-label = En enhed med en skjult 6-cifret kode.
+    .aria-label = En enhed med en skjult sekscifret kode.
 confirm-signup-aria-label =
     .aria-label = En konvolut med et link
 # Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
@@ -661,7 +661,7 @@ flow-setup-2fa-backup-choice-learn-more-link = Læs om genoprettelse og SIM-swap
 flow-setup-2fa-backup-code-confirm-heading = Indtast reserve-godkendelseskode
 # codes here refers to backup authentication codes
 flow-setup-2fa-backup-code-confirm-confirm-saved = Bekræft at du har gemt dine koder ved at indtaste en af dem. Uden disse koder kan du muligvis ikke logge ind, hvis du ikke har din godkendelsesapp.
-flow-setup-2fa-backup-code-confirm-code-input = Indtast koden på 10 tegn
+flow-setup-2fa-backup-code-confirm-code-input = Indtast koden på ti tegn
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Afslut
 
@@ -704,7 +704,7 @@ flow-setup-2fa-prompt-continue-button = Fortsæt
 flow-setup-phone-confirm-code-heading = Indtast bekræftelseskode
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = En sekscifret kode blev sendt til <span>{ $phoneNumber }</span> i en SMS-besked. Denne kode udløber efter 5 minutter.
+flow-setup-phone-confirm-code-instruction = En sekscifret kode blev sendt til <span>{ $phoneNumber }</span> i en SMS-besked. Denne kode udløber efter fem minutter.
 flow-setup-phone-confirm-code-input-label = Indtast sekscifret kode
 flow-setup-phone-confirm-code-button = Bekræft
 # button to resend a code by text message to the user's phone
@@ -787,7 +787,7 @@ mvs-enter-verification-code-2 = Indtast din bekræftelseskode
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc-2 = Indtast den bekræftelseskode, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
+mvs-enter-verification-code-desc-2 = Indtast den bekræftelseskode, der blev sendt til <email>{ $email }</email>, indenfor fem minutter.
 msv-cancel-button = Annuller
 msv-submit-button-2 = Bekræft
 
@@ -1042,7 +1042,7 @@ verify-secondary-email-verify-button-2 = Bekræft
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code-2 = Indtast den bekræftelseskode, der blev sendt til <strong>{ $email }</strong>, indenfor 5 minutter.
+verify-secondary-email-please-enter-code-2 = Indtast den bekræftelseskode, der blev sendt til <strong>{ $email }</strong>, indenfor fem minutter.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -1614,7 +1614,7 @@ complete-reset-password-desktop-relay = { -brand-firefox } vil forsøge at sende
 
 # ConfirmBackupCodeResetPassword page
 
-confirm-backup-code-reset-password-input-label = Indtast koden på 10 tegn
+confirm-backup-code-reset-password-input-label = Indtast koden på ti tegn
 confirm-backup-code-reset-password-confirm-button = Bekræft
 confirm-backup-code-reset-password-subheader = Indtast reserve-godkendelseskode
 confirm-backup-code-reset-password-instruction = Indtast en af engangskoderne, du gemte, da du opsatte totrinsgodkendelse.
@@ -1629,7 +1629,7 @@ confirm-reset-password-with-code-heading = Tjek din mail
 confirm-reset-password-with-code-instruction = Vi sendte en bekræftelseskode til <span>{ $email }</span>.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
-confirm-reset-password-code-input-group-label = Indtast 8-cifret kode indenfor 10 minutter
+confirm-reset-password-code-input-group-label = Indtast ottecifret kode indenfor ti minutter
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Fortsæt
@@ -1817,7 +1817,7 @@ signin-recovery-code-sub-heading = Indtast reserve-godkendelseskode
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Indtast en af engangskoderne, du gemte, da du opsatte totrinsgodkendelse.
 # code here refers to backup authentication code
-signin-recovery-code-input-label-v2 = Indtast koden på 10 tegn
+signin-recovery-code-input-label-v2 = Indtast koden på ti tegn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekræft
 # Link to go to the page to use recovery phone instead
@@ -1840,7 +1840,7 @@ signin-recovery-phone-flow-heading = Log ind
 signin-recovery-phone-heading = Indtast genoprettelseskode
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = En sekscifret kode blev sendt i en SMS-besked til telefonnummeret, der ender på <span>{ $lastFourPhoneDigits }</span>. Denne kode udløber efter 5 minutter. Del ikke denne kode med nogen.
+signin-recovery-phone-instruction-v3 = En sekscifret kode blev sendt i en SMS-besked til telefonnummeret, der ender på <span>{ $lastFourPhoneDigits }</span>. Denne kode udløber efter fem minutter. Del ikke denne kode med nogen.
 signin-recovery-phone-input-label = Indtast sekscifret kode
 signin-recovery-phone-code-submit-button = Bekræft
 signin-recovery-phone-resend-code-button = Send kode igen
@@ -1871,7 +1871,7 @@ signin-reported-message = Vores team har fået besked. Rapporter som denne hjæl
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Indtast bekræftelseskoden<span> til din { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-signin-token-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
+signin-token-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor fem minutter.
 signin-token-code-input-label-v2 = Indtast sekscifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekræft
@@ -1937,7 +1937,7 @@ confirm-signup-code-page-title = Indtast bekræftelseskode
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Indtast bekræftelseskoden <span>til din { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
+confirm-signup-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor fem minutter.
 confirm-signup-code-input-label = Indtast sekscifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekræft
