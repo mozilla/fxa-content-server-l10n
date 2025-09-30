@@ -159,7 +159,7 @@ form-password-with-inline-criteria-set-password-confirm-password-label =
     .label = Gentag adgangskode
 form-password-with-inline-criteria-set-password-submit-button = Start synkronisering
 form-password-with-inline-criteria-match-error = Adgangskoderne er ikke ens
-form-password-with-inline-criteria-sr-too-short-message = Adgangskoden skal indeholde mindst 8 tegn.
+form-password-with-inline-criteria-sr-too-short-message = Adgangskoden skal indeholde mindst otte tegn.
 form-password-with-inline-criteria-sr-not-email-message = Adgangskoden må ikke indeholde din mailadresse.
 form-password-with-inline-criteria-sr-not-common-message = Adgangskoden må ikke være en ofte anvendt adgangskode.
 form-password-with-inline-criteria-sr-requirements-met = Den indtastede adgangskode opfylder alle kravene til adgangskoder.
@@ -378,7 +378,7 @@ password-info-balloon-reset-risk-info = En nulstilling kan medføre tab af data 
 
 password-strength-long-instruction = Vælg en stærk adgangskode, du ikke har brugt på andre websteder. Sørg for, at den opfylder sikkerhedskravene:
 password-strength-short-instruction = Vælg en stærk adgangskode:
-password-strength-inline-min-length = Mindst 8 tegn
+password-strength-inline-min-length = Mindst otte tegn
 password-strength-inline-not-email = Ikke din mailadresse
 password-strength-inline-not-common = Ikke en almindeligt brugt adgangskode
 password-strength-inline-confirmed-must-match = Bekræftelsen matcher den nye adgangskode
@@ -871,7 +871,7 @@ avatar-page-image-too-large-error-2 = Billedfilen er for stor til at blive uploa
 
 pw-change-header =
     .title = Skift adgangskode
-pw-8-chars = Mindst 8 tegn
+pw-8-chars = Mindst otte tegn
 pw-not-email = Ikke din mailadresse
 pw-change-must-match = Ny adgangskode matcher bekræftelsen
 pw-commonly-used = Ikke en almindeligt brugt adgangskode

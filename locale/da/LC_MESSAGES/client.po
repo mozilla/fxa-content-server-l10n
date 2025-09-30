@@ -563,7 +563,7 @@ msgstr "Din nye adgangskode skal være forskellig"
 
 #: .es5/lib/auth-errors.js:346
 msgid "Must be at least 8 characters"
-msgstr "Skal indeholde mindst 8 tegn"
+msgstr "Skal indeholde mindst otte tegn"
 
 #: .es5/lib/auth-errors.js:350
 msgid "Valid password required"
@@ -1887,7 +1887,7 @@ msgstr "Krav til adgangskode"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr "Mindst 8 tegn"
+msgstr "Mindst otte tegn"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"

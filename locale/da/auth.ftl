@@ -110,7 +110,7 @@ automated-email-support = Besøg <a data-l10n-name="supportLink">{ -brand-mozill
 automated-email-change-plaintext-2 = Hvis du ikke foretog denne handling, så skift din adgangskode med det samme:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Besøg { -brand-mozilla } Support for at få mere at vide:
-automated-email-inactive-account = Denne mail er sendt automatisk. Du modtager den, fordi du har en { -product-mozilla-account }, og det er 2 år siden, du sidst loggede ind.
+automated-email-inactive-account = Denne mail er sendt automatisk. Du modtager den, fordi du har en { -product-mozilla-account }, og det er to år siden, du sidst loggede ind.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a> for mere info.
 automated-email-no-action-plaintext = Denne mail er sendt automatisk. Hvis du har modtaget den ved en fejl, behøver du ikke foretage dig noget.
@@ -366,7 +366,7 @@ inactiveAccountFinalWarning-action-plaintext = Log ind for at beholde din konto:
 inactiveAccountFirstWarning-subject = Mist ikke din konto
 inactiveAccountFirstWarning-title = Vil du beholde din { -brand-mozilla }-konto og de tilknyttede data?
 inactiveAccountFirstWarning-account-description-v2 = Din { -product-mozilla-account } bruges til at få adgang til gratis privatlivs- og browsing-produkter som fx synkronisering af { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
-inactiveAccountFirstWarning-inactive-status = Vi har bemærket, at du ikke har logget ind i 2 år.
+inactiveAccountFirstWarning-inactive-status = Vi har bemærket, at du ikke har logget ind i to år.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Din konto og dine personlige data vil blive permanent slettet den <strong>{ $deletionDate }</strong>, fordi du ikke har været aktiv.
