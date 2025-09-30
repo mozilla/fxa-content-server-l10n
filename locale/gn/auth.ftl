@@ -419,6 +419,10 @@ passwordChangeRequired-different-password-2 = <b>Mba’eporã:</b> Eiporavo pete
 passwordChangeRequired-different-password-plaintext-2 = Mba’eporã: Eiporavo peteĩ ñe’ẽñemi hekorosãva iñambuéva pe eiporuva’ekuégui ymave.
 passwordChangeRequired-action = Erujey ñe’ẽñemi
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Eiporu { $code } emoambue hag̃ua ñe’ẽñemi
+password-forgot-otp-preview = Ko ayvu ndoikovéitama 10 aravo’ípe
 password-forgot-otp-title = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-request = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-mozilla-account } rehegua:
 password-forgot-otp-code-2 = Ndetéramo voi, kóva nde ayvu ñemoneĩrã eku’ekuaa jey hag̃ua:
@@ -782,6 +786,10 @@ subscriptionUpgrade-content-new-price-year-tax = Ko’águi tenondévo, oñehepy
 subscriptionUpgrade-content-new-price-default-tax = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } + { $paymentTaxNew } ñemure mbokuatia pa’ũme, oguejy’ỹre hepy.
 subscriptionUpgrade-existing = Oĩramo ne ñemboheraguapy ag̃agua okañy ko ñembohekopyahu ndive, roñangarekóta hese ha romondóta ndéve ñanduti veve umi mba’emimi reheve. Ne mba’epyahu orekórõ apopyre oikotevẽrõ ñemohenda, romondóta ndéve ñanduti veve orekóva mba’éichapa embohekóta.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Eiporu { $unblockCode } eike hag̃ua
+unblockCode-preview = Ko ayvu opáta peteĩ aravópe
 unblockCode-title = ¿Ndépa emoñepyrũve tembiapo?
 unblockCode-prompt = Upéicharõ, ayvu jeguerujeyrã eikotevẽva ha’e kóva:
 # Variables:
