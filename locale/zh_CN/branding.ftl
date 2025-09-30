@@ -48,8 +48,8 @@
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-amex = 美国运通
--brand-diners = 大来卡（Diners Club）
--brand-discover = 发现卡（Discover）
+-brand-diners = Diners Club
+-brand-discover = Discover
 -brand-jcb = JCB
 # Link payment processor (by Stripe)
 -brand-link = Link
