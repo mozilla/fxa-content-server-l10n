@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturearre op { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tegoed takend oan jo account
 subscription-content-coupon-applied = { $promotionName } tapast
+subscription-content-coupon-will-be-applied = Koarting fanwegen { $promotionName } wurdt tapast
 subscription-content-next-bill-excl-disc-with-tax = De folgjende faktuer fan <strong>{ $nextInvoiceTotal } + { $taxDue } btw</strong>, eksklusyf koartingen, is ferskuldige op <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = De folgjende faktuer fan <strong>{ $nextInvoiceTotal }</strong>, eksklusyf koartingen, is ferskuldige op <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonnemint opsizze

@@ -877,6 +877,10 @@ verifySecondaryCode-action-2 = E-mailadres befêstigje
 verifySecondaryCode-explainer-2 = Der is in oanfraach foar it gebrûk fan { $email } as twadde e-mailadres dien fan de folgjende { -product-mozilla-account } ôf:
 verifySecondaryCode-prompt-2 = Brûk dizze befêstigingskoade:
 verifySecondaryCode-expiry-notice-2 = Dizze ferrint oer 5 minuten. Nei befêstiging ûntfangt dit adres befeiligingsmeldingen en befêstigingen.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Brûk { $code } om jo account te befêstigjen
+verifyShortCode-preview-2 = Dizze koade ferrint oer 5 minuten
 verifyShortCode-title-3 = Iepenje it ynternet mei { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-mozilla }, te begjinnen mei:
