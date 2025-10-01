@@ -342,7 +342,11 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }に新しいアカ�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } のアカウントが { -product-mozilla-account }にリンクされています
 postAddLinkedAccount-action = アカウント管理
-postAddRecoveryPhone-subject = 回復用の電話番号を追加しました
+postAddRecoveryPhone-subject = 回復用電話番号を追加しました
+postAddRecoveryPhone-title-v2 = 回復用電話番号を追加しました
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = 回復用電話番号として { $maskedLastFourPhoneNumber } を追加しました
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = アカウント保護に役立つ理由
 postAddRecoveryPhone-how-protect-plaintext = アカウント保護に役立つ理由:
@@ -364,6 +368,7 @@ postChangePrimary-title = 新しい優先メールアドレス
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 優先メールアドレスが { $email } に変更されました。このアドレスは今後、{ -product-mozilla-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
+postChangeRecoveryPhone-requested-device = 次の端末からリクエストしました:
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = 次の端末からリクエストしました:
 postConsumeRecoveryCode-action = アカウント管理
@@ -377,6 +382,7 @@ postRemoveAccountRecovery-title-3 = アカウント回復用キーを削除し�
 postRemoveAccountRecovery-body-part1 = パスワードを忘れた場合、暗号化されたブラウジングデータを復元するには、アカウント回復用キーが必要になります。
 postRemoveAccountRecovery-body-part2 = まだ作成していない場合は、アカウント設定で新しいアカウント回復キーを作成し、保存されたパスワード、ブックマーク、閲覧履歴などが失われないようにしましょう。
 postRemoveAccountRecovery-action = アカウント管理
+postRemoveRecoveryPhone-requested-device = 次の端末からリクエストしました:
 postRemoveSecondary-subject = 予備アドレスが削除されました
 postRemoveSecondary-title = 予備アドレスが削除されました
 # Variables:
