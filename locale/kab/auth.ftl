@@ -176,6 +176,18 @@ payment-plan-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Asemday-arnaw: { $invoiceSubtotal }
 
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-discount = Asenɣes
+subscription-charges-discount-plaintext = Asenqes: { $invoiceDiscountAmount }
+subscription-charges-total = <b>Asemday</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Asemday: { $invoiceSubtotal }
+subscription-charges-credit-applied = Yettwasnas usmad
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Asmad i yettwasnasen: { $creditApplied }
+
 ##
 
 subscriptionSupport = Isteqsiyen ɣer ujerred-ik? <a data-l10n-name="subscriptionSupportUrl">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus.
@@ -186,6 +198,11 @@ subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tal
 subscriptionSupportContact = Tanemmirt imi tjerrdeḍ ɣer { $productName }. Ma tesɛiḍ isteqsiyen ɣef ujerred-ik•im neɣ tuḥwaǧeḍ ugar telɣut ɣef { $productName }, ttxil <a data-l10n-name="subscriptionSupportUrl">nermes-aɣ-d</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Tanemmirt imi tjerrdeḍ ɣer{ $productName }. Ma tesɛiḍ isteqsiyen ɣef ujerred-ik•im neɣ tuḥwaǧeḍ ugar n telɣut ɣef{ $productName }, ttxil nermes-aɣ-d:
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Sefrek amulteɣ-ik⋅im:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Nermes tallalt</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Nermes tallalt:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Tzemreḍ ad tḍemneḍ tarrayt-ik·im n uxelleḍ d telɣut n umiḍan-ik·im ttwaleqqamen da:
 subscriptionUpdatePayment = Akken ur tḥebbes ara tenfiwt-ik, ttxil-k·m <a data-l10n-name="updateBillingUrl"> leqqem talɣut n lexlaṣ-ik </a> s lɛejlan.
@@ -200,6 +217,22 @@ device-all = { $uaBrowser } ɣef { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } ɣef { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (ahat)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (ahat)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (ahat)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (ahat)
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -229,6 +262,7 @@ inactiveAccountFinalWarning-action = Kcem akken ad tḥerzeḍ amiḍan-ik·im
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Kcem akken ad tḥerzeḍ amiḍan-ik·im:
 inactiveAccountFirstWarning-subject = Ur sṛuḥuy ara amiḍan-ik·im
+inactiveAccountFirstWarning-title = Tebɣiḍ ad tḥerzeḍ amiḍan d yisefka inek⋅inem n { -brand-mozilla }?
 inactiveAccountFirstWarning-action = Kcem akken ad tḥerzeḍ amiḍan-ik·im
 inactiveAccountFirstWarning-preview = Kcem akken ad tḥerzeḍ amiḍan-ik·im
 # followed by link to sign in
@@ -253,6 +287,9 @@ newDeviceLogin-subjectForMozillaAccount = Tuqqna tamaynut ɣer { -product-mozill
 newDeviceLogin-title-3 = Yettwaseqdac { -product-mozilla-account }-ik i tuqqna
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
+newDeviceLogin-change-password = Mačči d kečč⋅kemm? <a data-l10n-name="passwordChangeLink">Senfel awal n uɛeddi</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Mačči d kečč·kemm? Beddel awal-ik·im uffir:
 newDeviceLogin-action = Sefrek amiḍan
 passwordChanged-subject = Awal uffir yettuleqqem
@@ -264,6 +301,7 @@ passwordChangeRequired-action = Wennez awal n uɛeddi
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-title = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-request = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-mozilla-account }-inek·inem seg:
+password-forgot-otp-code-2 = Ma yella d kečč⋅kemm, ha-tt-a tengalt n usentem i ukemmel:
 password-forgot-otp-expiry-notice = Tangalt-a ad temmet deg 10 n tseddatin.
 passwordReset-subject-2 = Awla inek uffir yettuwennez
 passwordReset-title-2 = Awla inek uffir yettuwennez
