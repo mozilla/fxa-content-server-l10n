@@ -348,7 +348,10 @@ postAddRecoveryPhone-how-protect = アカウント保護に役立つ理由
 postAddRecoveryPhone-how-protect-plaintext = アカウント保護に役立つ理由:
 postAddRecoveryPhone-enabled-device = 次の端末から有効にしました:
 postAddRecoveryPhone-action = アカウントの管理
+postAddTwoStepAuthentication-subject-v3 = 2 段階認証がオンです
 postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = 次の端末からリクエストしました:
 postAddTwoStepAuthentication-action = アカウント管理
 postChangeAccountRecovery-subject = アカウント回復用キーが変更されました
 postChangeAccountRecovery-title = アカウント回復用キーを変更しました
@@ -361,6 +364,8 @@ postChangePrimary-title = 新しい優先メールアドレス
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 優先メールアドレスが { $email } に変更されました。このアドレスは今後、{ -product-mozilla-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = 次の端末からリクエストしました:
 postConsumeRecoveryCode-action = アカウント管理
 postNewRecoveryCodes-subject-2 = 新しいバックアップ認証コードが生成されました
 postNewRecoveryCodes-title-2 = 新しいバックアップ認証コードを生成しました
