@@ -201,7 +201,7 @@ payment-method-payment-provider-plaintext = Fizetési mód: { $paymentProviderNa
 ##  $cardName (String) - The brand name of the credit card, e.g. American Express
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
-payment-provider-card-name-ending-in-plaintext = Fizetési mód: { $cardName }, ezekre végződése: { $lastFour }
+payment-provider-card-name-ending-in-plaintext = Fizetési mód: { $lastFour } végződésű { $cardName } kártya
 payment-provider-card-ending-in-plaintext = Fizetési mód: { $lastFour } végződésű kártya
 payment-provider-card-ending-in = <b>Fizetési mód:</b> { $lastFour } végződésű kártya
 payment-provider-card-ending-in-card-name = <b>Fizetési mód:</b> { $cardName }, ezek száma: { $lastFour }
