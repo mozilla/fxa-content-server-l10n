@@ -269,6 +269,9 @@ subscriptionSupportContact = Takk for at du abonnerer på { $productName }. Ders
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Takk for at du abonnerer på { $productName }. Dersom du har spørsmål om abonnementet ditt eller treng meir informasjon om { $productName }, kan du kontakte oss:
 subscription-support-get-help = Få hjelp med abonnementet ditt
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Handsam abonnementet ditt
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontakt kundestøtte</a>
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Kontakt kundestøtte:
 subscriptionUpdateBillingEnsure = Du kan sørge for at betalingsmåten og kontoinformasjonen din er oppdatert <a data-l10n-name="updateBillingUrl">her</a>.
@@ -413,6 +416,10 @@ passwordChangeRequired-different-password-2 = <b>Viktig:</b> Vel eit sterkt pass
 passwordChangeRequired-different-password-plaintext-2 = Viktig: Vel eit sterkt passord som er ulikt frå eit du har brukt tidlegare.
 passwordChangeRequired-action = Tilbakestill passordet
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Bruk { $code } for å endre passordet ditt
+password-forgot-otp-preview = Denne koden går ut om 10 minutt
 password-forgot-otp-title = Gløymt passordet ditt?
 password-forgot-otp-request = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:
 password-forgot-otp-code-2 = Viss dette var deg, her er stadfestingskoden for å halde fram:
