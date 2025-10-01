@@ -357,6 +357,13 @@ postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = 次の端末からリクエストしました:
 postAddTwoStepAuthentication-action = アカウント管理
+postAddTwoStepAuthentication-code-required-v4 = 今後はログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
+postAddTwoStepAuthentication-recovery-method-codes = 回復方法としてバックアップ認証コードも追加しました。
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = 回復用電話番号として { $maskedPhoneNumber } も追加しました
+postAddTwoStepAuthentication-how-protects-link = アカウント保護に役立つ理由
+postAddTwoStepAuthentication-how-protects-plaintext = アカウント保護に役立つ理由:
 postChangeAccountRecovery-subject = アカウント回復用キーが変更されました
 postChangeAccountRecovery-title = アカウント回復用キーを変更しました
 postChangeAccountRecovery-body-part1 = 新しいアカウント回復キーを作成しました。以前のキーは削除されました。
@@ -371,6 +378,7 @@ postChangePrimary-action = アカウント管理
 postChangeRecoveryPhone-requested-device = 次の端末からリクエストしました:
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = 次の端末からリクエストしました:
+postChangeTwoStepAuthentication-action = アカウント管理
 postConsumeRecoveryCode-action = アカウント管理
 postNewRecoveryCodes-subject-2 = 新しいバックアップ認証コードが生成されました
 postNewRecoveryCodes-title-2 = 新しいバックアップ認証コードを生成しました
@@ -395,6 +403,7 @@ postRemoveTwoStepAuthentication-title-2 = 2 段階認証をオフにしました
 postRemoveTwoStepAuthentication-from-device = 次の端末から無効にしました:
 postRemoveTwoStepAuthentication-action = アカウント管理
 postRemoveTwoStepAuthentication-not-required-2 = 今後はログイン時に認証アプリからのセキュリティコードを必要としません。
+postSigninRecoveryPhone-action = アカウント管理
 postVerify-sub-title-3 = 会えて光栄です！
 postVerify-title-2 = 2 台の端末で同じタブを表示したいですか？
 postVerify-description-2 = 簡単です！別の端末に { -brand-firefox } をインストールして同期するだけです。まるで魔法のようです！
