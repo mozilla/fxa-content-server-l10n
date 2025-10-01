@@ -423,6 +423,10 @@ passwordChangeRequired-different-password-2 = <b>Importante:</b> Elige un contra
 passwordChangeRequired-different-password-plaintext-2 = Importante: Elige un contrasigno complexe que es differente de un que tu ha usate in le passato.
 passwordChangeRequired-action = Reinitialisar le contrasigno
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Usa { $code } pro modificar tu contrasigno
+password-forgot-otp-preview = Iste codice expira in 10 minutas
 password-forgot-otp-title = Contrasigno oblidate?
 password-forgot-otp-request = Nos recipeva un requesta pro un cambio de contrasigno sur tu { -product-mozilla-account } ab:
 password-forgot-otp-code-2 = Si isto era tu, ecce tu codice de confirmation pro continuar:
@@ -788,6 +792,10 @@ subscriptionUpgrade-content-new-price-year-tax = Desde ora, tu sera cargate { $p
 subscriptionUpgrade-content-new-price-default-tax = Desde ora, tu sera cargate { $paymentAmountNew } + taxa de { $paymentTaxNew } per intervallo de facturation, salvo discontos.
 subscriptionUpgrade-existing = Si il ha alcun imbrication de tu abonamentos existente con iste promotion, nos los tractara e te inviara un email separate con le detalios. Si tu nove plano include productos que require installation, nos te inviara un email separate con le instructiones de installation.
 subscriptionUpgrade-auto-renew = Tu subscription sera renovate automaticamente cata termino de facturation usque tu non seligera de cancellar lo.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Usa { $unblockCode } pro aperir session
+unblockCode-preview = Iste codice expira in un hora
 unblockCode-title = Es tu qui aperi session?
 unblockCode-prompt = In tal caso, ecce le codice de autorisation que tu require:
 # Variables:
@@ -844,6 +852,10 @@ verifyLogin-description-2 = Adjuta nos a mantener tu conto secur confirmante que
 verifyLogin-subject-2 = Confirmar accesso
 verifyLogin-action = Confirmar apertura de session
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Usa { $code } pro aperir session
+verifyLoginCode-preview = Iste codice expira in 5 minutas.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Habeva tu accedite a { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -856,6 +868,10 @@ verifyPrimary-subject = Confirmar e-mail primari
 verifyPrimary-action-2 = Confirmar email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Post le confirmation sera possibile per le apparato le cambios del conto, como adder le email secundari.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Usa { $code } pro confirmar tu email secundari
+verifySecondaryCode-preview = Iste codice expira in 5 minutas.
 verifySecondaryCode-title-2 = Confirmar email secundari
 verifySecondaryCode-action-2 = Confirmar email
 # Variables:
@@ -863,6 +879,10 @@ verifySecondaryCode-action-2 = Confirmar email
 verifySecondaryCode-explainer-2 = Un requesta de usar { $email } como adresse email secundari ha essite facite ab le sequente { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Usa iste codice de confirmation:
 verifySecondaryCode-expiry-notice-2 = Illo expira in 5 minutas. Un vice confirmate, iste adresse comenciara a reciper notificationes e confirmationes de securitate.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Usa { $code } pro confirmar tu conto
+verifyShortCode-preview-2 = Iste codice expira in 5 minutas
 verifyShortCode-title-3 = Aperi internet con { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirma tu conto e tira le maximo de { -brand-mozilla } ubicunque tu aperi session, a comenciar per:

@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong> { $invoiceTotal } + { $tax
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong> <span>facturate le { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credito emittite pro tu conto
 subscription-content-coupon-applied = { $promotionName } applicate
+subscription-content-coupon-will-be-applied = Le discount { $promotionName } sera applicate
 subscription-content-next-bill-excl-disc-with-tax = Le proxime factura de <strong>{ $nextInvoiceTotal } + { $taxDue } de taxas</strong>, salvo discontos, es debite le <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Le proxime factura de <strong>{ $nextInvoiceTotal }</strong>, salvo discontos, es debite le <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancellar abonamento
