@@ -660,6 +660,9 @@ subscriptionFirstInvoice-content-processing = Betalinga vert no behandla og det 
 subscriptionFirstInvoice-content-install-2 = Du vil få ein separat e-post om korleis du begynner å bruke { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Abonnementet ditt vert fornya automatisk kvar faktureringsperiode, med mindre du vel å avslutte.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Den neste fakturaen din blir skriven ut den { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Betalingsmåten for { $productName } har gått ut eller går snart ut
 subscriptionPaymentExpired-title-2 = Betalingsmetoden din har gått ut eller i ferd med å gå ut
@@ -729,6 +732,9 @@ subscriptionSubsequentInvoice-title = Takk for at du abonnerer!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Vi har fått den siste betalinga di for { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Den neste fakturaen din blir skriven ut den { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Du har oppgradert til { $productName }
