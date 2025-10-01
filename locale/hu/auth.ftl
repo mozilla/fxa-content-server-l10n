@@ -204,7 +204,7 @@ payment-method-payment-provider-plaintext = Fizetési mód: { $paymentProviderNa
 payment-provider-card-name-ending-in-plaintext = Fizetési mód: { $lastFour } végződésű { $cardName } kártya
 payment-provider-card-ending-in-plaintext = Fizetési mód: { $lastFour } végződésű kártya
 payment-provider-card-ending-in = <b>Fizetési mód:</b> { $lastFour } végződésű kártya
-payment-provider-card-ending-in-card-name = <b>Fizetési mód:</b> { $cardName }, ezek száma: { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Fizetési mód:</b> { $lastFour } végződésű { $cardName } kártya
 subscription-charges-invoice-summary = Számlaösszesítő
 
 # Variables:
@@ -217,9 +217,9 @@ subscription-charges-invoice-number = <b>Számla száma:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Számla száma: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Dátum:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Dátum: { $invoiceDateOnly }
-subscription-charges-prorated-price = Arányított ár
+subscription-charges-prorated-price = Időarányos ár
 # $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
-subscription-charges-prorated-price-plaintext = Osztályos ár: { $remainingAmountTotal }
+subscription-charges-prorated-price-plaintext = Időarányos ár: { $remainingAmountTotal }
 subscription-charges-list-price = Listaár
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Listaár: { $offeringPrice }
