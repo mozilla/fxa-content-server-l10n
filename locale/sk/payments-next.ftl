@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Zdá sa, že sa vyskytla ch
 page-not-found-title = Stránka sa nenašla
 page-not-found-description = Požadovaná stránka nebola nájdená. Boli sme na to upozornení a prípadné odkazy smerujúce na túto stránku opravíme.
 page-not-found-back-button = Prejsť naspäť
+alert-dialog-title = Dialógové okno upozornenia
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Prejsť naspäť
 subscription-management-breadcrumb-account-home = Domovská stránka účtu
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Predplatné
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Spravovať spôsoby platby
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Späť na { $page }
 

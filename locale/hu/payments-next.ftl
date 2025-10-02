@@ -121,7 +121,7 @@ subscription-management-your-subscriptions-aria = Saját előfizetések
 subscription-management-no-subscriptions = Még nincs előfizetése
 subscription-management-button-support = Segítség kérése
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscription-management-button-support-aria = Segítség { $productName } összegért
+subscription-management-button-support-aria = Segítség ehhez: { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } alkalmazásbeli előfizetései
 subscription-management-apple-in-app-purchase-1 = { -brand-apple }: alkalmazáson belüli vásárlás
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } alkalmazásbeli előfizetései
@@ -142,15 +142,15 @@ subscription-management-page-subscription-interval-weekly = { $productName } (he
 subscription-management-page-subscription-interval-monthly = { $productName } (havonta)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 hónapos)
 subscription-management-page-subscription-interval-yearly = { $productName } (évente)
-subscription-management-page-paypal-error-banner = Érvénytelen fizetési információk; hiba van a fiókjával.
+subscription-management-page-paypal-error-banner = Érvénytelen fizetési információk; hiba van a fiókjában.
 subscription-management-page-paypal-error-banner-link = Kezelés
 paypal-payment-management-page-invalid-header = Érvénytelen számlázási információk
-paypal-payment-management-page-invalid-description = Úgy tűnik, hogy hiba lépett fel a(z) { -brand-paypal } fiókjával. Meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
+paypal-payment-management-page-invalid-description = Úgy tűnik, hogy hiba történt a(z) { -brand-paypal }-fiókjával kapcsolatban. Meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
 # Page - Not Found
 page-not-found-title = Az oldal nem található
 page-not-found-description = A kért oldal nem található. Értesítést kaptunk, és kijavítunk minden, esetleg hibás hivatkozást.
 page-not-found-back-button = Ugrás vissza
-alert-dialog-title = Riasztási párbeszédpanel
+alert-dialog-title = Figyelmeztető párbeszédablak
 
 ## Navigation breadcrumbs
 
@@ -291,8 +291,8 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } adó</strong><span>, ekkor számlázva: { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> számlázási dátuma: { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jóváírás a számlájában
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span>, ekkor számlázva: { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jóváírás a számlájára
 subscription-content-coupon-applied = { $promotionName } alkalmazva
 subscription-content-coupon-will-be-applied = { $promotionName } kedvezmény lesz alkalmazva
 subscription-content-next-bill-excl-disc-with-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal } + { $taxDue } adó</strong> számla esedékessége <strong>{ $nextBillDate }</strong>
@@ -312,8 +312,8 @@ subscription-cancellation-dialog-title = Sajnáljuk, hogy távozik
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Lemondta a(z) { $name }-előfizetését. { $date }-ig továbbra is el fogja érni a(z) { $name } szolgáltatást.
 subscription-cancellation-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
-subscription-content-button-resubscribe = Előfizetés újra
-    .aria-label = Iratkozzon fel újra erre: { $productName }
+subscription-content-button-resubscribe = Újbóli előfizetés
+    .aria-label = Újbóli előfizetés erre: { $productName }
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = El fogja veszíteni a hozzáférését a(z) { $name } termékhez, ekkor: <strong>{ $date }</strong>.

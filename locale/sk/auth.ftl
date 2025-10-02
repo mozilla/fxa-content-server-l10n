@@ -192,11 +192,81 @@ payment-plan-charged = Účtované: { $invoiceTotal } dňa { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Ďalšia faktúra: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Spôsob platby:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Spôsob platby: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Spôsob platby: { $cardName } končiaca na { $lastFour }
+payment-provider-card-ending-in-plaintext = Spôsob platby: Karta končiaca na { $lastFour }
+payment-provider-card-ending-in = <b>Spôsob platby:</b> Karta končiaca na { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Spôsob platby:</b> { $cardName } končiaca na { $lastFour }
+subscription-charges-invoice-summary = Súhrn faktúry
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Číslo faktúry:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Číslo faktúry: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Dátum:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Dátum: { $invoiceDateOnly }
+subscription-charges-prorated-price = Pomerná cena
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Pomerná cena: { $remainingAmountTotal }
+subscription-charges-list-price = Katalógová cena
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Katalógová cena: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Kredit z nevyužitého času
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Kredit z nevyužitého času: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Medzisúčet</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Medzisúčet: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Jednorazová zľava
+subscription-charges-one-time-discount-plaintext = Jednorazová zľava: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-mesačná zľava
+        [few] { $discountDuration }-mesačná zľava
+        [many] { $discountDuration }-mesačná zľava
+       *[other] { $discountDuration }-mesačná zľava
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-mesačná zľava: { $invoiceDiscountAmount }
+        [few] { $discountDuration }-mesačná zľava: { $invoiceDiscountAmount }
+        [many] { $discountDuration }-mesačná zľava: { $invoiceDiscountAmount }
+       *[other] { $discountDuration }-mesačná zľava: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Zľava
+subscription-charges-discount-plaintext = Zľava: { $invoiceDiscountAmount }
+subscription-charges-taxes = Dane a poplatky
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Dane a poplatky: { $invoiceTaxAmount }
+subscription-charges-total = <b>Celkom</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Celkom: { $invoiceTotal }
+subscription-charges-credit-applied = Použitý kredit
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Použitý kredit: { $creditApplied }
+subscription-charges-amount-paid = <b>Zaplatená suma</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Zaplatená suma: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Na váš účet bol pripísaný kredit vo výške { $creditReceived }, ktorý bude použitý na vaše budúce faktúry.
 
 ##
 
@@ -208,6 +278,13 @@ subscriptionSupport-plaintext = Máte otázky týkajúce sa vášho predplatnéh
 subscriptionSupportContact = Ďakujeme, že ste si predplatili { $productName }. Ak máte akékoľvek otázky týkajúce sa predplatného alebo potrebujete ďalšie informácie o produkte { $productName }, <a data-l10n-name="subscriptionSupportUrl">kontaktujte nás</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Ďakujeme, že ste si predplatili { $productName }. Ak máte akékoľvek otázky týkajúce sa predplatného alebo potrebujete ďalšie informácie o produkte { $productName }, kontaktujte nás:
+subscription-support-get-help = Získajte pomoc s predplatným
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Spravovať predplatné</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Spravujte svoje predplatné:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontaktovať podporu</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Kontaktujte podporu:
 subscriptionUpdateBillingEnsure = Ak sa chcete uistiť, že váš spôsob platby a informácie o účte sú aktuálne, môžete tak urobiť <a data-l10n-name="updateBillingUrl">tu</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Ak sa chcete uistiť, že váš spôsob platby a informácie o účte sú aktuálne, môžete tak urobiť tu:
@@ -248,6 +325,7 @@ location-state-country = { $stateCode }, { $country } (odhad)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (odhad)
+view-invoice-link-action = Zobraziť faktúru
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -350,6 +428,10 @@ passwordChangeRequired-different-password-2 = <b>Dôležité:</b> zvoľte si sil
 passwordChangeRequired-different-password-plaintext-2 = Dôležité: zvoľte si silné heslo, ktoré sa líši od hesla, ktoré ste používali v minulosti.
 passwordChangeRequired-action = Zmeniť heslo
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Na zmenu hesla použite kód { $code }
+password-forgot-otp-preview = Platnosť tohto kódu vyprší o 10 minút
 password-forgot-otp-title = Zabudli ste heslo?
 password-forgot-otp-request = Dostali sme žiadosť o zmenu hesla k vášmu { -product-mozilla-account(capitalization: "lower", case: "dat") } z:
 password-forgot-otp-code-2 = Ak ste to boli vy, tu je váš potvrdzovací kód, aby ste mohli pokračovať:
@@ -590,6 +672,9 @@ subscriptionFirstInvoice-content-processing = Vaša platba sa momentálne spraco
 subscriptionFirstInvoice-content-install-2 = Dostanete samostatný e‑mail o tom, ako začať používať { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Vaša ďalšia faktúra bude vystavená dňa { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Platnosť spôsobu platby pre { $productName } vypršala alebo čoskoro vyprší
 subscriptionPaymentExpired-title-2 = Platnosť vášho spôsobu platby vypršala alebo čoskoro vyprší
@@ -660,6 +745,9 @@ subscriptionSubsequentInvoice-title = Ďakujeme, že využívate naše predplatn
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Dostali sme vašu poslednú platbu za { $productName }.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Vaša ďalšia faktúra bude vystavená dňa { $nextInvoiceDateOnly }.
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Inovovali ste na produkt { $productName }
 subscriptionUpgrade-title = Ďakujeme, že ste inovovali!
@@ -707,6 +795,10 @@ subscriptionUpgrade-content-new-price-year-tax = Odteraz vám bude účtovaná s
 subscriptionUpgrade-content-new-price-default-tax = Odteraz vám bude účtovaná suma { $paymentAmountNew } + { $paymentTaxNew } daň za každé fakturačné obdobie, bez zliav.
 subscriptionUpgrade-existing = Ak sa niektoré z vašich existujúcich predplatných prekrývajú s touto inováciou, budeme sa nimi zaoberať a pošleme vám samostatný e‑mail s podrobnosťami. Ak váš nový program obsahuje produkty, ktoré vyžadujú inštaláciu, pošleme vám samostatný e‑mail s pokynmi na ich inštaláciu a nastavenie.
 subscriptionUpgrade-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Na prihlásenie použite kód { $unblockCode }
+unblockCode-preview = Tento kód vyprší o hodinu
 unblockCode-title = Spoznávate toto prihlásenie?
 unblockCode-prompt = Ak áno, tu je autorizačný kód, ktorý potrebujete:
 # Variables:
@@ -767,6 +859,10 @@ verifyLogin-description-2 = Pomôžte nám zabezpečiť bezpečnosť vášho ú�
 verifyLogin-subject-2 = Potvrdenie prihlásenia
 verifyLogin-action = Potvrdiť prihlásenie
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Na prihlásenie použite kód { $code }
+verifyLoginCode-preview = Platnosť tohto kódu vyprší o 5 minút.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Prihlásili ste sa do produktu { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -779,6 +875,10 @@ verifyPrimary-subject = Potvrdenie hlavnej e‑mailovej adresy
 verifyPrimary-action-2 = Potvrdiť e‑mailovú adresu
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Po potvrdení budú k dispozícii zmeny v účte, napríklad pridanie alternatívnej e‑mailovej adresy.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Na potvrdenie vášho sekundárneho e‑mailu použite kód { $code }
+verifySecondaryCode-preview = Platnosť tohto kódu vyprší o 5 minút.
 verifySecondaryCode-title-2 = Potvrdenie alternatívnej e‑mailovej adresy
 verifySecondaryCode-action-2 = Potvrdiť e‑mailovú adresu
 # Variables:
@@ -786,6 +886,10 @@ verifySecondaryCode-action-2 = Potvrdiť e‑mailovú adresu
 verifySecondaryCode-explainer-2 = Požiadavka na použitie adresy { $email } ako alternatívnej e‑mailovej adresy bola vytvorená z nasledujúceho { -product-mozilla-account(case: "gen", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Použite tento potvrdzovací kód:
 verifySecondaryCode-expiry-notice-2 = Jeho platnosť vyprší po 5 minútach. Po potvrdení začnete na túto e‑mailovú adresu dostávať bezpečnostné upozornenia a potvrdenia.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Na potvrdenie vášho účtu použite kód { $code }
+verifyShortCode-preview-2 = Platnosť tohto kódu vyprší o 5 minút
 verifyShortCode-title-3 = Poďte na internet vďaka { -brand-mozilla(case: "dat") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrďte svoj účet a vyťažte zo svojej { -brand-mozilla(case: "gen") } čo najviac, začínajúc s:
