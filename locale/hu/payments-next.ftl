@@ -295,8 +295,8 @@ subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</stron
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jóváírás a számlájára
 subscription-content-coupon-applied = { $promotionName } alkalmazva
 subscription-content-coupon-will-be-applied = { $promotionName } kedvezmény lesz alkalmazva
-subscription-content-next-bill-excl-disc-with-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal } + { $taxDue } adó</strong> számla esedékessége <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal }</strong> számla esedékessége <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-disc-with-tax = A következő <strong>{ $nextInvoiceTotal } + { $taxDue } adó</strong> összegű (kedvezmények nélkül) számla esedékessége: <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = A következő <strong>{ $nextInvoiceTotal }</strong> összegű (kedvezmények nélkül) számla esedékessége: <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Előfizetés lemondása
 subscription-content-no-longer-use-message = Az utolsó számlázási periódusa után ({ $currentPeriodEnd }) nem fogja tudni használni a(z) { $productName } szolgáltatást,
 subscription-content-cancel-access-message = A(z) { $productName } hozzáférésének lemondása, és az abban mentett adatok törlése ekkor: { $currentPeriodEnd }
@@ -325,12 +325,12 @@ resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $name }?
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
-resubscribe-dialog-content = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési ciklusa is változatlan marad. A következő terhelés { $amount } lesz, ekkor: { $endDate }.
-resubscribe-dialog-content-with-tax = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési ciklusa is változatlan marad. A következő terhelés { $amount } + { $tax } adó lesz ekkor: { $endDate }.
+resubscribe-dialog-content = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési időszaka is változatlan marad. A következő terhelése { $amount } lesz, ekkor: { $endDate }.
+resubscribe-dialog-content-with-tax = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési időszaka is változatlan marad. A következő terhelése { $amount } + { $tax } adó lesz, ekkor: { $endDate }.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Előfizetés újra
-    .aria-label = Iratkozzon fel újra erre: { $productName }
-resubscribe-success-dialog-title = Köszönjük! Minden készen állsz.
+    .aria-label = Előfizetés újra erre: { $productName }
+resubscribe-success-dialog-title = Köszönjük! Minden készen áll.
 resubscribe-success-dialog-action-button-close = Bezárás
     .aria-label = Párbeszédablak bezárása
 
