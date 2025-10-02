@@ -205,6 +205,8 @@ payment-method-payment-provider-plaintext = Μέθοδος πληρωμής: { $
 
 payment-provider-card-name-ending-in-plaintext = Μέθοδος πληρωμής: { $cardName } με κατάληξη { $lastFour }
 payment-provider-card-ending-in-plaintext = Μέθοδος πληρωμής: Κάρτα με κατάληξη { $lastFour }
+payment-provider-card-ending-in = <b>Μέθοδος πληρωμής:</b> Κάρτα με κατάληξη { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Μέθοδος πληρωμής:</b> { $cardName } με κατάληξη { $lastFour }
 subscription-charges-invoice-summary = Σύνοψη παραστατικού
 
 # Variables:
@@ -220,6 +222,9 @@ subscription-charges-invoice-date-plaintext = Ημερομηνία: { $invoiceDa
 subscription-charges-prorated-price = Αναλογική τιμή
 # $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
 subscription-charges-prorated-price-plaintext = Αναλογική τιμή: { $remainingAmountTotal }
+subscription-charges-list-price = Τιμή καταλόγου
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Τιμή καταλόγου: { $offeringPrice }
 subscription-charges-credit-from-unused-time = Πίστωση από μη χρησιμοποιημένο χρόνο
 subscription-charges-subtotal = <b>Υποσύνολο</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
@@ -259,6 +264,8 @@ subscriptionSupport-plaintext = Έχετε απορίες για τη συνδρ
 subscriptionSupportContact = Σας ευχαριστούμε για την εγγραφή σας στο { $productName }. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το { $productName }, <a data-l10n-name="subscriptionSupportUrl">επικοινωνήστε μαζί μας</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Σας ευχαριστούμε για την εγγραφή σας στο { $productName }. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το { $productName }, επικοινωνήστε μαζί μας:
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Επικοινωνία με την υποστήριξη:
 subscriptionUpdateBillingEnsure = Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα <a data-l10n-name="updateBillingUrl">εδώ</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα εδώ:
@@ -299,6 +306,7 @@ location-state-country = { $stateCode }, { $country } (εκτίμηση)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (εκτίμηση)
+view-invoice-link-action = Προβολή παραστατικού
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -402,6 +410,10 @@ passwordChangeRequired-different-password-2 = <b>Σημαντικό:</b> Επι�
 passwordChangeRequired-different-password-plaintext-2 = Σημαντικό: Επιλέξτε έναν ισχυρό κωδικό πρόσβασης που διαφέρει από αυτόν που χρησιμοποιούσατε στο παρελθόν.
 passwordChangeRequired-action = Επαναφορά κωδικού πρόσβασης
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Χρησιμοποιήστε το { $code } για να αλλάξετε τον κωδικό πρόσβασής σας
+password-forgot-otp-preview = Αυτός ο κωδικός λήγει σε 10 λεπτά
 password-forgot-otp-title = Ξεχάσατε τον κωδικό πρόσβασής σας;
 password-forgot-otp-request = Λάβαμε ένα αίτημα αλλαγής κωδικού πρόσβασης για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας από:
 password-forgot-otp-code-2 = Εάν το κάνατε εσείς, συνεχίστε με τον παρακάτω κωδικό επιβεβαίωσης:
