@@ -192,12 +192,19 @@ payment-plan-charged = Χρέωση: { $invoiceTotal } στις { $invoiceDateOn
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Επόμενο παραστατικό: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Μέθοδος πληρωμής:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Μέθοδος πληρωμής: { $paymentProviderName }
+
 ## This string displays when the type of credit card is known
 ## https://stripe.com/docs/payments/cards/supported-card-brands
 ## Variables:
 ##  $cardName (String) - The brand name of the credit card, e.g. American Express
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
+payment-provider-card-name-ending-in-plaintext = Μέθοδος πληρωμής: { $cardName } με κατάληξη { $lastFour }
+payment-provider-card-ending-in-plaintext = Μέθοδος πληρωμής: Κάρτα με κατάληξη { $lastFour }
 subscription-charges-invoice-summary = Σύνοψη παραστατικού
 
 # Variables:
