@@ -1628,7 +1628,7 @@ confirm-reset-password-otp-submit-button = Continuer
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Renvoyer le code
 # Link to cancel the password reset and sign in with a different account
-confirm-reset-password-otp-different-account-link = Utiliser un autre { -product-mozilla-account }
+confirm-reset-password-otp-different-account-link = Utiliser un autre compte
 
 ## PasswordResetConfirmTotp Page
 
@@ -1638,7 +1638,7 @@ confirm-totp-reset-password-instruction-v2 = Consultez votre <strong>application
 confirm-totp-reset-password-trouble-code = Un problème pour saisir le code ?
 confirm-totp-reset-password-confirm-button = Confirmer
 confirm-totp-reset-password-input-label-v2 = Saisissez le code à 6 chiffres
-confirm-totp-reset-password-use-different-account = Utiliser un autre { -product-mozilla-account }
+confirm-totp-reset-password-use-different-account = Utiliser un autre compte
 
 ## ResetPassword start page
 
@@ -1726,7 +1726,7 @@ signin-subheader-without-logo-with-servicename = Continuez vers { $serviceName }
 signin-subheader-without-logo-default = Continuer vers les paramètres du compte
 signin-button = Connexion
 signin-header = Connexion
-signin-use-a-different-account-link = Utiliser un autre { -product-mozilla-account }
+signin-use-a-different-account-link = Utiliser un autre compte
 signin-forgot-password-link = Mot de passe oublié ?
 signin-password-button-label = Mot de passe
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
@@ -1885,7 +1885,7 @@ signin-totp-code-instruction-v4 = Consultez votre <strong>application d’authen
 signin-totp-code-input-label-v4 = Saisissez le code à 6 chiffres
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmer
-signin-totp-code-other-account-link = Utiliser un autre { -product-mozilla-account }
+signin-totp-code-other-account-link = Utiliser un autre compte
 signin-totp-code-recovery-code-link = Un problème pour saisir le code ?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Code d’authentification requis
