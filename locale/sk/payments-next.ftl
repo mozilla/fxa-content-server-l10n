@@ -288,8 +288,12 @@ next-new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } daň</strong><span> fakturované dňa { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturované dňa { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = Na váš účet bol pripísaný kredit <strong>{ $creditApplied }</strong>
 subscription-content-coupon-applied = Kupón { $promotionName } bol použitý
+subscription-content-coupon-will-be-applied = Zľava { $promotionName } bude uplatnená
+subscription-content-next-bill-excl-disc-with-tax = Ďalšia faktúra vo výške <strong>{ $nextInvoiceTotal } + { $taxDue } daň</strong>, bez zliav, je splatná dňa <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Ďalšia faktúra vo výške <strong>{ $nextInvoiceTotal }</strong>, bez zliav, je splatná dňa <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Zrušiť predplatné
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, poslednom dni vášho fakturačného cyklu, už produkt { $productName } nebudete môcť používať.
