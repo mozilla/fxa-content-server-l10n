@@ -124,6 +124,10 @@ subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple 
 subscription-management-apple-in-app-purchase-1 = { -brand-apple }: kjøp i app
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google } kjøp i app-abonnement
 subscription-management-google-in-app-purchase-1 = { -brand-google }: kjøp i app
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Neste rekning forfell <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Abonnementet ditt går ut <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrer abonnement for { $productName }
 subscription-management-button-manage-subscription = Handsam
@@ -284,7 +288,13 @@ next-new-user-subscribe-product-assurance = Vi brukar berre e-postadressa di for
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } moms</strong><span> fakturert den { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturert den { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit skrive ut til kontoen din
 subscription-content-coupon-applied = { $promotionName } vart brukt
+subscription-content-coupon-will-be-applied = { $promotionName }-rabatt vil bli brukt
+subscription-content-next-bill-excl-disc-with-tax = Neste faktura på <strong>{ $nextInvoiceTotal } + { $taxDue } moms</strong>, utan rabatter, forfell <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Neste faktura på <strong>{ $nextInvoiceTotal }</strong>, utan rabattar, forfell <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Avbryt abonnementet
 subscription-content-no-longer-use-message = Du vil ikkje lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
 subscription-content-cancel-access-message = Avbryt tilgangen min og lagra informasjon i { $productName } den { $currentPeriodEnd }

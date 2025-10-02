@@ -295,6 +295,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> ანგარიშსწორების თარიღით { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> დანარიცხია გაცემული თქვენს ანგარიშზე
 subscription-content-coupon-applied = { $promotionName } გამოყენებულია
+subscription-content-coupon-will-be-applied = { $promotionName } ფასდაკლება აისახება
 subscription-content-next-bill-excl-disc-with-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal } + { $taxDue } გადასახადი</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal }</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება

@@ -243,6 +243,11 @@ subscription-charges-repeating-discount =
         [one] { $discountDuration }-månads rabatt
        *[other] { $discountDuration }-månadars rabatt
     }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-månads rabatt: { $invoiceDiscountAmount }
+       *[other] { $discountDuration }-månadars rabatt: { $invoiceDiscountAmount }
+    }
 subscription-charges-discount = Rabatt
 subscription-charges-discount-plaintext = Rabatt: { $invoiceDiscountAmount }
 subscription-charges-taxes = Skattar og avgifter
@@ -257,6 +262,8 @@ subscription-charges-credit-applied-plaintext = Kreditt brukt: { $creditApplied 
 subscription-charges-amount-paid = <b>Betalt beløp</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Betalt beløp: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Du har fått ein kontokreditt på { $creditReceived }, som vil bli brukt på dei framtidige fakturaene dine.
 
 ##
 
@@ -269,6 +276,7 @@ subscriptionSupportContact = Takk for at du abonnerer på { $productName }. Ders
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Takk for at du abonnerer på { $productName }. Dersom du har spørsmål om abonnementet ditt eller treng meir informasjon om { $productName }, kan du kontakte oss:
 subscription-support-get-help = Få hjelp med abonnementet ditt
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Handsam abonnement ditt</a>
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Handsam abonnementet ditt
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontakt kundestøtte</a>
@@ -783,6 +791,10 @@ subscriptionUpgrade-content-new-price-year-tax = Framover vil du bli belasta { $
 subscriptionUpgrade-content-new-price-default-tax = Framover vil du bli belasta { $paymentAmountNew } + { $paymentTaxNew } moms per faktureringsintervall, eksklusive rabattar.
 subscriptionUpgrade-existing = Viss nokon av dei eksisterande abonnementa dine overlappar med denne oppgraderinga, handsamar vi dei og sender deg ein eigen e-post med detaljane. Dersom den nye planen din inkluderer produkt som krev installasjon, sender vi deg ein eigen e-post med konfigurasjonsinstruksjonar.
 subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Bruk { $unblockCode } for å logge inn
+unblockCode-preview = Denne koden går ut om éin time
 unblockCode-title = Er det du som loggar inn?
 unblockCode-prompt = Dersom ja, her er godkjenningskoden du treng:
 # Variables:
@@ -839,6 +851,10 @@ verifyLogin-description-2 = Hjelp oss med å halde kontoen din trygg ved å stad
 verifyLogin-subject-2 = Stadfest innlogging
 verifyLogin-action = Stadfest innlogging
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Bruk { $code } for å logge inn
+verifyLoginCode-preview = Denne koden går ut om 5 minutt
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Logga du inn på { $serviceName }
 # After the colon is a description of the device used to sign in to the service
@@ -851,6 +867,10 @@ verifyPrimary-subject = Stadfest primær e-postadresse
 verifyPrimary-action-2 = Stadfest e-postadressa
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Når stadfesta, vil endringar i kontoen, som å leggje til ein sekundær e-post, verte mogleg frå denne eininga.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Bruk { $code } for å stadfeste den sekundære e-postadressa di
+verifySecondaryCode-preview = Denne koden går ut om 5 minutt
 verifySecondaryCode-title-2 = Stadfest sekundær e-postadresse
 verifySecondaryCode-action-2 = Stadfest e-postadressa
 # Variables:
@@ -858,6 +878,10 @@ verifySecondaryCode-action-2 = Stadfest e-postadressa
 verifySecondaryCode-explainer-2 = Ein førespurnad om å bruke { $email } som ei sekundær e-postadresse er gjort frå følgjande { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Bruk denne stadfestingskoden:
 verifySecondaryCode-expiry-notice-2 = Den går ut om 5 minutt. Når den er bekrefta, vil denne adressa få tryggingsvarsel og stadfestingar.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Bruk { $code } for å stadfeste kontoen din
+verifyShortCode-preview-2 = Denne koden går ut om 5 minutt
 verifyShortCode-title-3 =
     Opne internett med
      { -brand-mozilla }
