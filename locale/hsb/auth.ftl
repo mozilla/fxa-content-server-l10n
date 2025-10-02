@@ -280,10 +280,10 @@ subscriptionSupportContact = Wulki dźak, zo sće { $productName } abonował. Je
 subscriptionSupportContact-plaintext = Wulki dźak, zo sće { $productName } abonował. Jeli prašenja wo swojim abonemenće maće abo wjace informacijow wo { $productName }s trjebaće,  stajće so prošu z nami do zwiska.
 subscription-support-get-help = Wobstarajće sej pomoc za swój abonement
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Rjadujće swój abonement</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Rjadujće swój abonement:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Pomoc skontaktować</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Pomoc skontaktować:
 subscriptionUpdateBillingEnsure = Móžeće <a data-l10n-name="updateBillingUrl">tu</a> zawěsćić, zo waša płaćenska metoda a waše kontowe informacije su aktualne:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

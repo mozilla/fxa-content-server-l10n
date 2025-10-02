@@ -437,7 +437,6 @@ bento-menu-title-3 = { -brand-mozilla } produktuak
 bento-menu-tagline = Zure pribatutasuna babesten duten { -brand-mozilla }ren produktu gehiago
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Mahaigainerako { -brand-firefox } nabigatzailea
 bento-menu-firefox-mobile = Mugikorrerako { -brand-firefox } nabigatzailea
@@ -729,14 +728,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } datuak sinkronizatzen
 delete-account-product-firefox-addons = { -brand-firefox } gehigarriak
 delete-account-acknowledge = Mesedez aitor ezazu kontua ezabatzeak ondorengoa eragingo duela:
-delete-account-chk-box-1-v3 =
-    .label = Ordaindutako harpidetzak bertan behera utziko dira ({ -product-pocket } izan ezik)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } produktuetan gordeta duzun informazio eta eginbideak gal litzakezu
 delete-account-chk-box-3 =
@@ -746,8 +742,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Jarraitu
 delete-account-password-input =
     .label = Idatzi pasahitza
-pocket-delete-notice = Pocket Premium-era harpidetzen bazara, ziurtatu <a>harpidetza bertan behera uzten duzula</a> zure kontua ezabatu aurretik.
-pocket-delete-notice-marketing = Mozilla Corporation eta Mozilla Foundationen marketin-mezu elektronikoak jasotzeari uzteko, <a>zure marketin-datuak ezabatzeko eskatu behar duzu.</a>
 delete-account-cancel-button = Utzi
 delete-account-delete-button-2 = Ezabatu
 
@@ -1064,8 +1058,6 @@ tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Aurrera eginez gero, hauek onartzen dituzu:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Zerbitzu-baldintzak</pocketTos> eta <pocketPrivacy>Pribatutasun-oharra</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } Harpidetza zerbitzuak <mozSubscriptionTosLink>Zerbitzu-baldintzak</mozSubscriptionTosLink> eta <mozSubscriptionPrivacyLink>Pribatutasun-oharra</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1193,7 +1185,6 @@ index-relay-header = Sortu posta elektronikoko maskara bat
 index-relay-subheader = Mesedez, eman maskaratutako mezu elektronikoak birbidali nahi dituzun helbide elektronikoa.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Jarraitu { $serviceName } zerbitzura
-index-subheader-with-logo = Jarraitu <span>{ $serviceLogo }</span>ra
 index-subheader-default = Jarraitu kontu-ezarpenekin
 index-cta = Erregistratu edo hasi saioa
 index-account-info = { -product-mozilla-account } batek pribatutasuna babesten duten produktu gehiagorako sarbidea desblokeatzen du { -brand-mozilla }-tik.
@@ -1448,7 +1439,7 @@ password-reset-submit-button-2 = Jarraitu
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Zure pasahitza berrezarri egin da
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
 
 ## ResetPasswordRecoveryPhone page
@@ -1477,9 +1468,6 @@ signin-link-expired-message-2 = Sakatu duzun esteka iraungi egin da edo dagoenek
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Sartu <span>zure { -product-mozilla-account }</span> pasahitza
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Jarraitu <span>{ $serviceLogo }</span>ra
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Jarraitu { $serviceName } zerbitzura
@@ -1696,10 +1684,5 @@ confirm-signup-code-desktop-relay = { -brand-firefox } saioa hasi ondoren posta 
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = Pasahitz bat behar da maskaratutako mezu elektronikoak modu seguruan kudeatzeko eta { -brand-mozilla }-ren segurtasun-tresnetara atzitzeko.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Zergatik sortu behar dut kontu hau?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Jakin hemen
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Aldatu helbide elektronikoa

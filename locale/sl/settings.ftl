@@ -488,7 +488,6 @@ bento-menu-title-3 = Izdelki { -brand-mozilla }
 bento-menu-tagline = Več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki varujejo vašo zasebnost
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Brskalnik { -brand-firefox } za namizja
 bento-menu-firefox-mobile = Mobilni brskalnik { -brand-firefox }
@@ -916,14 +915,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sinhronizacija podatkov { -brand-firefox(sklon: "tozilnik") }
 delete-account-product-firefox-addons = Dodatki za { -brand-firefox }
 delete-account-acknowledge = Zavedajte se, da boste z izbrisom računa:
-delete-account-chk-box-1-v3 =
-    .label = Vse morebitne plačljive naročnine bodo preklicane (razen { -product-pocket })
 delete-account-chk-box-2 =
     .label = lahko izgubili shranjene podatke in možnosti v izdelkih { -brand-mozilla(sklon: "rodilnik") }
 delete-account-chk-box-3 =
@@ -933,8 +929,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Nadaljuj
 delete-account-password-input =
     .label = Vnesite geslo
-pocket-delete-notice = Če ste naročeni na Pocket Premium, pred izbrisom računa <a>prekličite naročnino</a>.
-pocket-delete-notice-marketing = Če želite prenehati prejemati trženjska sporočila Mozille Corporation in Mozilla Foundation, <a>zahtevajte izbris svojih trženjskih podatkov.</a>
 delete-account-cancel-button = Prekliči
 delete-account-delete-button-2 = Izbriši
 
@@ -1070,14 +1064,8 @@ inactive-update-status-success-alert = Prijava uspešna. Vaš { -product-mozilla
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Ugotovite, kje so razkriti vaši zasebni podatki, in prevzemite nadzor
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Za { $price }/mesec prihranite pri { -product-mozilla-vpn-short }u, zaščiti data-brokerja za { -product-mozilla-monitor-short } in { -product-firefox-relay-short }u neomejene e-poštne maske.
 # Links out to the Monitor site
 product-promo-monitor-cta = Zagotovite si brezplačen pregled
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Pridobite celoletno zaščito
 
 ## Profile section
 
@@ -1268,8 +1256,6 @@ tfa-row-verify-session-info = Za nastavitev overjanja v dveh korakih morate potr
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Z nadaljevanjem se strinjate z:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> storitve { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>pogoji uporabe</mozSubscriptionTosLink> in <mozSubscriptionPrivacyLink>obvestilom o zasebnosti</mozSubscriptionPrivacyLink> naročniških storitev { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1401,7 +1387,6 @@ index-relay-header = Ustvarite e-poštno masko
 index-relay-subheader = Navedite e-poštni naslov, na katerega želite posredovati sporočila s svoje e-poštne maske.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Nadaljuj na { $serviceName }
-index-subheader-with-logo = Nadaljuj na <span>{ $serviceLogo }</span>
 index-subheader-default = Nadaljuj na nastavitve računa
 index-cta = Registracija ali prijava
 index-account-info = { -product-mozilla-account } omogoča tudi dostop do izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki bolj varujejo zasebnost.
@@ -1671,7 +1656,7 @@ password-reset-submit-button-2 = Nadaljuj
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Vaše geslo je bilo ponastavljeno
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Nadaljuj na { $serviceName }
 
 ## Reset password recovery method page
@@ -1742,9 +1727,6 @@ signin-link-expired-message-2 = Povezavi, ki ste jo kliknili, je potekla veljavn
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Vnesite geslo <span>za { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Nadaljuj na <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Nadaljuj na { $serviceName }
@@ -1976,11 +1958,6 @@ signup-heading-v2 = Ustvarite geslo
 signup-relay-info = Geslo je potrebno za varno upravljanje zamaskirane e-pošte in dostop do { -brand-mozilla(sklon: "rodilnik") } varnostnih orodij.
 signup-sync-info = Sinhronizirajte gesla, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
 signup-sync-info-with-payment = Sinhronizirajte gesla, plačilna sredstva, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Zakaj moram ustvariti ta račun?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Preberite tukaj
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Spremeni e-pošto
 

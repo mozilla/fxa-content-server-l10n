@@ -278,10 +278,10 @@ subscriptionSupportContact = Спасибо, что подписались на 
 subscriptionSupportContact-plaintext = Спасибо, что подписались на { $productName }. Если у вас есть какие-либо вопросы о подписке или нужны дополнительные сведения о { $productName }, вы можете связаться с нами:
 subscription-support-get-help = Получить помощь по вашей подписке
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Управляйте своей подпиской</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Управляйте своей подпиской:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Обратиться в службу поддержки</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Связаться с поддержкой:
 subscriptionUpdateBillingEnsure = Если вы хотите убедиться, что ваш способ оплаты и информация об аккаунте актуальны, вы можете сделать это <a data-l10n-name="updateBillingUrl">здесь</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

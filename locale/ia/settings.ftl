@@ -482,7 +482,6 @@ bento-menu-title-3 = Productos { -brand-mozilla }
 bento-menu-tagline = Plus de productos { -brand-mozilla } que protege tu confidentialitate
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser pro scriptorio
 bento-menu-firefox-mobile = { -brand-firefox } navigator pro mobile
@@ -908,14 +907,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronisation datos de { -brand-firefox }
 delete-account-product-firefox-addons = Additivos de { -brand-firefox }
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
-delete-account-chk-box-1-v3 =
-    .label = Tote tu abonamentos a pagamento sera annullate (salvo { -product-pocket })
 delete-account-chk-box-2 =
     .label = Tu pote perder informationes salvate e functionalitates in le productos { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -925,8 +921,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Insere le contrasigno
-pocket-delete-notice = Si tu te abona a Pocket Premium, assecura te que tu <a>cancella tu abonamento</a> ante deler tu conto.
-pocket-delete-notice-marketing = Pro cessar de reciper emails commercial ab Mozilla Corporation e Mozilla Foundation, tu debe <a>requirer le deletion de tu datos commercial.</a>
 delete-account-cancel-button = Cancellar
 delete-account-delete-button-2 = Deler
 
@@ -1062,14 +1056,8 @@ inactive-update-status-success-alert = Accedite con successo. Tu { -product-mozi
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Discoperi ubi tu info private es exponite, e recupera controlo
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Pro { $price }/me, sparnia sur le protection contra le mercatores de datos de { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short }, e maskas email illimitate de { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Obtene un scansion gratuite
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Obtener protection de tote le anno
 
 ## Profile section
 
@@ -1259,8 +1247,6 @@ tfa-row-verify-session-info = Tu debera confirmar tu actual session pro implemen
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Si tu procede, tu concorda con:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } Servicios de Abonamento<mozSubscriptionTosLink>Terminos de servicio</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Aviso de confidentialitate</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1392,7 +1378,6 @@ index-relay-header = Crear un masca de e-mail
 index-relay-subheader = Forni le adresse email ubi tu volerea inultrar emails ab tu email mascate.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
-index-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
 index-subheader-default = Passa a parametros de conto
 index-cta = Inscriber se o acceder
 index-account-info = Un { -product-mozilla-account } alsi disbloca le accesso a altere productos de protection del confidentialitate de { -brand-mozilla }.<
@@ -1662,7 +1647,7 @@ password-reset-submit-button-2 = Continuar
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Tu contrasigno ha essite remontate
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Continuar a { $serviceName }
 
 ## Reset password recovery method page
@@ -1728,9 +1713,6 @@ signin-link-expired-message-2 = Le ligamine que tu cliccava ha expirate o ha jam
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Insere tu contrasigno <span>pro tu { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
@@ -1960,11 +1942,6 @@ signup-heading-v2 = Crear un contrasigno
 signup-relay-info = Un contrasigno es necesse pro gerer in modo secur tu alias de posta electronic e acceder al instrumentos de securitate de { -brand-mozilla }.
 signup-sync-info = Synchronisa tu contrasignos, marcapaginas e altero ubique tu usa { -brand-firefox }.
 signup-sync-info-with-payment = Synchronisa tu contrasignos, methodos de pagamento, marcapaginas e altero ubique tu usa { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Perque debe io crear iste conto?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Discoperi lo hic
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar email
 

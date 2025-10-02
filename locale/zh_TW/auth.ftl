@@ -266,10 +266,10 @@ subscriptionSupportContact = 感謝您訂閱 { $productName }。若有關於訂�
 subscriptionSupportContact-plaintext = 感謝您訂閱 { $productName }。若有關於訂閱內容的任何疑問，或需要 { $productName } 的更多資訊，請透過下列方式聯絡我們：
 subscription-support-get-help = 獲得有關訂閱項目的協助
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">管理您的訂閱項目</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = 管理您的訂閱項目：
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">聯絡支援團隊</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = 聯絡支援團隊：
 subscriptionUpdateBillingEnsure = 您可以到<a data-l10n-name="updateBillingUrl">此處</a>確認您的付款方式與帳號資訊。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

@@ -446,7 +446,6 @@ bento-menu-title-3 = { -brand-mozilla } hugbúnaður
 bento-menu-tagline = Fleiri vörur frá { -brand-mozilla } sem vernda friðhelgi þína
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-vafri fyrir vinnutölvur
 bento-menu-firefox-mobile = { -brand-firefox }-vafri fyrir farsíma
@@ -762,14 +761,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Samstilli { -brand-firefox }-gögn
 delete-account-product-firefox-addons = { -brand-firefox }-viðbætur
 delete-account-acknowledge = Staðfestu að þú sért upplýst/ur um að með því að eyða reikningnum þínum:
-delete-account-chk-box-1-v3 =
-    .label = Öllum greiddum áskriftum sem þú ert með verður sagt upp (nema { -product-pocket })
 delete-account-chk-box-2 =
     .label = Þú gætir glatað vistuðum upplýsingum og eiginleikum í { -brand-mozilla } þjónustum
 delete-account-chk-box-3 =
@@ -779,8 +775,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Halda áfram
 delete-account-password-input =
     .label = Settu inn lykilorð
-pocket-delete-notice = Ef þú gerist áskrifandi að Pocket Premium skaltu ganga úr skugga um að þú <a>segir upp áskriftinni</a> áður en þú eyðir reikningnum þínum.
-pocket-delete-notice-marketing = Til að hætta að fá markaðspóst frá Mozilla Corporation og Mozilla Foundation þarftu að <a>biðja um eyðingu markaðsgagnanna þinna.</a>
 delete-account-cancel-button = Hætta við
 delete-account-delete-button-2 = Eyða
 
@@ -1103,8 +1097,6 @@ tfa-row-cannot-disable-2 = Ekki var hægt að gera tveggja-þrepa auðkenningu �
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Með því að halda áfram, samþykkir þú:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Þjónustuskilmála</pocketTos> { -product-pocket } og <pocketPrivacy>persónuverndarstefnu</pocketPrivacy> { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Þjónustuskilmálar</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>meðferð persónuupplýsinga</mozSubscriptionPrivacyLink> { -brand-mozilla } áskriftarþjónustunnar
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1232,7 +1224,6 @@ index-relay-header = Útbúa tölvupósthulu
 index-relay-subheader = Gefðu upp póstfangið sem þú vilt áframsenda á tölvupóst frá hulda póstinum þínum.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Halda áfram í { $serviceName }
-index-subheader-with-logo = Halda áfram í <span>{ $serviceLogo }</span>
 index-subheader-default = Halda áfram í stillingar reiknings
 index-cta = Nýskráðu þig eða skráðu þig inn
 index-account-info = { -product-mozilla-account }-reikningur opnar einnig aðgang að öðrum persónuverndandi hugbúnaði frá { -brand-mozilla }.
@@ -1492,7 +1483,7 @@ password-reset-submit-button-2 = Halda áfram
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Lykilorðið þitt var endurstillt
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Halda áfram í { $serviceName }
 
 ## Reset password recovery method page
@@ -1540,9 +1531,6 @@ signin-link-expired-message-2 = Tengillinn sem þú smelltir á er útrunninn e�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Settu inn lykilorðið þitt <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Halda áfram í <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Halda áfram í { $serviceName }
@@ -1749,10 +1737,5 @@ confirm-signup-code-desktop-relay = { -brand-firefox } mun reyna að senda þig 
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = Lykilorð er nauðsynlegt til að stýra huldum póstföngum þínum á öruggan hátt og fá aðgang að öryggisverkfærum { -brand-mozilla }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Af hverju þarf ég að búa til þennan reikning?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Kynntu þér málið hér
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Breyta tölvupóstfangi

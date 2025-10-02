@@ -482,7 +482,6 @@ bento-menu-title-3 = { -brand-mozilla } ürünleri
 bento-menu-tagline = Gizliliğinizi koruyan diğer { -brand-mozilla } ürünleri
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Bilgisayarlar için { -brand-firefox } tarayıcısı
 bento-menu-firefox-mobile = Mobil cihazlar için { -brand-firefox } tarayıcısı
@@ -905,14 +904,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } verilerini eşitleme
 delete-account-product-firefox-addons = { -brand-firefox } Eklentileri
 delete-account-acknowledge = Hesabınızı sildiğinizde aşağıdakileri de kabul etmiş olursunuz:
-delete-account-chk-box-1-v3 =
-    .label = Tüm ücretli abonelikleriniz iptal edilecektir ({ -product-pocket } hariç)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } ürünlerinde kayıtlı bilgilerinizi ve özellikleri kaybedebilirsiniz
 delete-account-chk-box-3 =
@@ -922,8 +918,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Devam
 delete-account-password-input =
     .label = Parolanızı yazın
-pocket-delete-notice = Pocket Premium abonesiyseniz hesabınızı silmeden önce lütfen <a>aboneliğinizi iptal etmeyi</a> unutmayın.
-pocket-delete-notice-marketing = Mozilla Corporation ve Mozilla Vakfından pazarlama e-postaları almayı durdurmak için <a>pazarlama verilerinizin silinmesini talep etmelisiniz</a>.
 delete-account-cancel-button = İptal
 delete-account-delete-button-2 = Sil
 
@@ -1059,14 +1053,8 @@ inactive-update-status-success-alert = Başarıyla giriş yapıldı. { -product-
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Kişisel bilgilerinizin nerede ele geçirildiğini öğrenin
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Aylık { $price } fiyatla { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } veri toplayıcı koruması ve sınırsız { -product-firefox-relay-short } e-posta maskesine sahip olun, tasarrufunuzu artırın.
 # Links out to the Monitor site
 product-promo-monitor-cta = Ücretsiz taramayı başlat
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Yıl boyunca korumaya kavuşun
 
 ## Profile section
 
@@ -1247,8 +1235,6 @@ tfa-row-verify-session-info = İki aşamalı doğrulamayı ayarlamak için mevcu
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Devam ettiğinizde şunları kabul etmiş olursunuz:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Kullanım Koşulları</pocketTos> ve <pocketPrivacy>Gizlilik Bildirimi</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } Abonelik Hizmetleri <mozSubscriptionTosLink>Hizmet Koşulları</mozSubscriptionTosLink> ve <mozSubscriptionPrivacyLink>Gizlilik Bildirimi</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1380,7 +1366,6 @@ index-relay-header = E-posta maskesi oluştur
 index-relay-subheader = Lütfen maskeli e-posta adresinize gelen e-postaların iletileceği e-posta adresini girin.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } hizmetine devam et
-index-subheader-with-logo = <span>{ $serviceLogo }</span> hizmetine devam et
 index-subheader-default = Hesap ayarlarına devam et
 index-cta = Kaydol veya giriş yap
 index-account-info = { -product-mozilla-account }, gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerine de erişmenizi sağlar.
@@ -1650,7 +1635,7 @@ password-reset-submit-button-2 = Devam et
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Parolanız sıfırlandı
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = { $serviceName } hizmetine devam et
 
 ## Reset password recovery method page
@@ -1716,9 +1701,6 @@ signin-link-expired-message-2 = Tıkladığınız bağlantının süresi dolmuş
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> parolanızı yazın
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = <span>{ $serviceLogo }</span> hizmetine devam et
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } hizmetine devam et
@@ -1948,11 +1930,6 @@ signup-heading-v2 = Parola oluşturun
 signup-relay-info = Maskeli e-postalarınızı güvenli bir şekilde yönetmek ve { -brand-mozilla }’nın güvenlik araçlarına erişmek için bir parolaya ihtiyacınız var.
 signup-sync-info = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, yer imlerinizi ve daha fazlasını eşitleyin.
 signup-sync-info-with-payment = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, ödeme yöntemlerinizi, yer imlerinizi ve daha fazlasını eşitleyin.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Neden bu hesabı oluşturmam gerekiyor?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Nedenini öğrenin
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-postayı değiştir
 

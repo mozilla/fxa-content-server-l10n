@@ -280,10 +280,10 @@ subscriptionSupportContact = Ďakujeme, že ste si predplatili { $productName }.
 subscriptionSupportContact-plaintext = Ďakujeme, že ste si predplatili { $productName }. Ak máte akékoľvek otázky týkajúce sa predplatného alebo potrebujete ďalšie informácie o produkte { $productName }, kontaktujte nás:
 subscription-support-get-help = Získajte pomoc s predplatným
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Spravovať predplatné</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Spravujte svoje predplatné:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontaktovať podporu</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Kontaktujte podporu:
 subscriptionUpdateBillingEnsure = Ak sa chcete uistiť, že váš spôsob platby a informácie o účte sú aktuálne, môžete tak urobiť <a data-l10n-name="updateBillingUrl">tu</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

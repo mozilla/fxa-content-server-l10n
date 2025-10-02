@@ -274,10 +274,10 @@ subscriptionSupportContact = Gracias por suscribirte a { $productName }. Si ten�
 subscriptionSupportContact-plaintext = Gracias por suscribirte a { $productName }. Si tenés alguna pregunta sobre la suscripción o necesitás más información sobre { $productName }, contactanos:
 subscription-support-get-help = Obtené ayuda con tu suscripción
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Administrar tu suscripción</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Administrar tu suscripción:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contactar soporte</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Contactar soporte:
 subscriptionUpdateBillingEnsure = Asegurate que tu método de pago e información de cuenta están actualizados <a data-l10n-name="updateBillingUrl">aquí</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

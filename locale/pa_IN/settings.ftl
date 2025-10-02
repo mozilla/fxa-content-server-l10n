@@ -463,7 +463,6 @@ bento-menu-title-3 = { -brand-mozilla } ਉਤਪਾਦ
 bento-menu-tagline = ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਦੀ ਸੁਰੱਖਿਆ ਲਈ { -brand-mozilla } ਵਲੋਂ ਹੋਰ ਉਤਪਾਦ
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } ਡੈਸਕਟਾਪ ਲਈ ਬਰਾਊਜ਼ਰ
 bento-menu-firefox-mobile = { -brand-firefox } ਮੋਬਾਈਲ ਲਈ ਬਰਾਊਜ਼ਰ
@@ -825,7 +824,6 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } ਡਾਟਾ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
@@ -960,8 +958,6 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = ਪਤਾ ਕਰੋ ਕਿ ਤੁਹਾਡੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਕਿੱਥੇ ਦਿਸਦੀ ਹੈ, ਉਸ ਨੂੰ ਆਪਣੇ ਹੱਥ ਹੇਠ ਕਰੋ
 # Links out to the Monitor site
 product-promo-monitor-cta = ਮੁਫ਼ਤ ਸਕੈਨ ਲਵੋ
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = ਪੂਰੇ ਸਾਲ ਭਰ ਲਈ ਸੁਰੱਖਿਆ ਲਵੋ
 
 ## Profile section
 
@@ -1130,8 +1126,6 @@ tfa-row-cannot-disable-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = ਜਾਰੀ ਰੱਖਣ ਕੇ ਤੁਸੀਂ ਸਹਿਮਤ ਇਹਨਾਂ ਨਾਲ ਹੁੰਦੇ ਹੋ:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket }  <pocketTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</pocketTos> ਅਤੇ <pocketPrivacy>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</pocketPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</mozillaAccountsTos> ਅਤੇ <mozillaAccountsPrivacy>ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
@@ -1247,7 +1241,6 @@ index-relay-header = ਈਮੇਲ ਮਾਸਕ ਬਣਾਓ
 index-relay-subheader = ਆਪਣੀ ਮਾਸਕ ਕੀਤੀ ਈਮੇਲ ਤੋਂ ਜਿੱਥੇ ਤੁਸੀਂ ਈਮੇਲ ਅੱਗੇ ਭੇਜਣੀਆਂ ਚਾਹੁੰਦੇ ਹੋ, ਉਹ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਦਿਓ।
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
-index-subheader-with-logo = <span>{ $serviceLogo }</span> ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 index-subheader-default = ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 index-cta = ਸਾਈਨ ਅੱਪ ਜਾਂ ਸਾਈਨ ਇਨ ਕਰੋ
 index-account-info = { -product-mozilla-account } ਖਾਤਾ { -brand-mozilla } ਵਲੋਂ ਹੋਰ ਪਰਦੇਦਾਰੀ-ਸੁਰੱਖਿਅਤ ਖਾਤਿਆਂ ਲਈ ਪਹੁੰਚ ਵੀ ਦਿੰਦਾ ਹੈ।
@@ -1501,7 +1494,7 @@ password-reset-submit-button-2 = ਜਾਰੀ ਰੱਖੋ
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 
 ## Reset password recovery method page
@@ -1553,9 +1546,6 @@ signin-link-expired-message-2 = ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿੱਕ 
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>ਆਪਣੇ { -product-mozilla-account }</span> ਲਈ ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = <span>{ $serviceLogo }</span> ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
@@ -1742,11 +1732,6 @@ confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ �
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading-v2 = ਪਾਸਵਰਡ ਬਣਾਓ
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = ਮੈਨੂੰ ਇਹ ਖਾਤਾ ਬਣਾਉਣ ਦੀ ਲੋੜ ਕਿਉਂ ਹੈ?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = ਇੱਥੇ ਹੋਰ ਲੱਭੋ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ਈਮੇਲ ਬਦਲੋ
 

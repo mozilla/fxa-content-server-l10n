@@ -485,7 +485,6 @@ bento-menu-title-3 = produkty { -brand-mozilla(case: "gen") }
 bento-menu-tagline = Další produkty od { -brand-mozilla(case: "gen") }, které chrání vaše soukromí
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Prohlížeč { -brand-firefox } pro počítač
 bento-menu-firefox-mobile = Prohlížeč { -brand-firefox } pro mobily
@@ -913,14 +912,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizují se údaje { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Doplňky { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Potvrďte prosím, že berete na vědomí, že smazáním svého účtu:
-delete-account-chk-box-1-v3 =
-    .label = Všechna placená předplatná, která máte, budou zrušena (kromě služby { -product-pocket })
 delete-account-chk-box-2 =
     .label = V produktech { -brand-mozilla(case: "gen") } můžete přijít o uložené informace a funkce
 delete-account-chk-box-3 =
@@ -930,8 +926,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
-pocket-delete-notice = Pokud jste si předplatili Pocket Premium, ujistěte se, že jste před smazáním účtu <a>zrušili své předplatné</a>.
-pocket-delete-notice-marketing = Chcete-li ukončit zasílání marketingových e-mailů od společností Mozilla Corporation a Mozilla Foundation, musíte <a>požádat o výmaz svých marketingových dat</a>.
 delete-account-cancel-button = Zrušit
 delete-account-delete-button-2 = Smazat
 
@@ -1067,14 +1061,8 @@ inactive-update-status-success-alert = Přihlášení bylo úspěšné. Váš { 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Zjistěte, kde jsou vaše soukromé informace vystaveny, a převezměte kontrolu
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Za { $price } měsíčně ušetříte na { -product-mozilla-vpn-short }, ochraně dat { -product-mozilla-monitor-short } a neomezených maskách e-mailů { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Zkontrolovat
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Získejte celoroční ochranu
 
 ## Profile section
 
@@ -1258,8 +1246,6 @@ tfa-row-verify-session-info = Pro nastavení dvoufázového ověřování je pot
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Pokračováním souhlasíte s:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Podmínky poskytování služby</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Oznámení o ochraně osobních údajů</mozSubscriptionPrivacyLink> pro služby předplatného { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1391,7 +1377,6 @@ index-relay-header = Vytvoření e-mailové masky
 index-relay-subheader = Uveďte e-mailovou adresu, na kterou chcete přeposílat e-maily z maskovaného e-mailu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Pokračovat do služby { $serviceName }
-index-subheader-with-logo = Pokračovat do služby <span>{ $serviceLogo }</span>
 index-subheader-default = Pokračujte do nastavení účtu
 index-cta = Přihlásit nebo registrovat
 index-account-info = { -product-mozilla-account } odemyká přístup k dalším produktům { -brand-mozilla(case: "gen") }, které chrání soukromí.
@@ -1661,7 +1646,7 @@ password-reset-submit-button-2 = Pokračovat
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Vaše heslo bylo obnoveno
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Pokračovat do služby { $serviceName }
 
 ## Reset password recovery method page
@@ -1728,9 +1713,6 @@ signin-link-expired-message-2 = Odkaz, na který jste klepli, vypršel nebo byl 
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Zadejte své heslo <span>k účtu { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Pokračovat do služby <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Pokračovat do služby { $serviceName }
@@ -1961,11 +1943,6 @@ signup-heading-v2 = Vytvoření hesla
 signup-relay-info = Heslo je potřeba pro bezpečnou správu e-mailových masek a pro přístup k bezpečnostním nástrojům { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizujte svá hesla, záložky a další data všude, kde používáte { -brand-firefox }.
 signup-sync-info-with-payment = Synchronizujte svá hesla, platební metody, záložky a další svá data všude, kde používáte { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Proč si musím vytvořit tento účet?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Zjistěte to zde
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Změna e-mailu
 

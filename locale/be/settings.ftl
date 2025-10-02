@@ -313,7 +313,6 @@ avatar-default-avatar =
 bento-menu-title-3 = Прадукты { -brand-mozilla }
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Браўзер { -brand-firefox } для камп'ютара
 bento-menu-firefox-mobile = Браўзер { -brand-firefox } для мабільных
@@ -578,14 +577,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Сінхранізуюцца звесткі { -brand-firefox }
 delete-account-product-firefox-addons = Дадаткі { -brand-firefox }
 delete-account-acknowledge = Калі ласка, пацвердзіце, што пры выдаленні ўліковага запісу:
-delete-account-chk-box-1-v3 =
-    .label = Усе вашы платныя падпіскі будуць скасаваны (акрамя { -product-pocket })
 delete-account-chk-box-2 =
     .label = Вы можаце страціць захаваную інфармацыю і функцыі ў прадуктах { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -595,7 +591,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Працягнуць
 delete-account-password-input =
     .label = Увядзіце пароль
-pocket-delete-notice = Калі вы падпісаліся на Pocket Premium, пераканайцеся, што вы <a>скасавалі падпіску</a> перад выдаленнем свайго ўліковага запісу.
 delete-account-cancel-button = Скасаваць
 delete-account-delete-button-2 = Выдаліць
 
@@ -822,8 +817,6 @@ tfa-row-cannot-disable-2 = Немагчыма адключыць двухэта�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Працягваючы, вы згаджаецеся з:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Умовы выкарыстання</pocketTos> і <pocketPrivacy>Паведамленне аб прыватнасці</pocketPrivacy> { -product-pocket }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Працягваючы, вы згаджаецеся з <mozillaAccountsTos>умовамі абслугоўвання</mozillaAccountsTos> і <mozillaAccountsPrivacy>паведамленнем аб прыватнасці</mozillaAccountsPrivacy>.
 
@@ -1112,9 +1105,6 @@ signin-link-expired-header = Тэрмін дзеяння спасылкі для
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Увядзіце пароль <span>для свайго { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Працягнуць у <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Працягнуць у { $serviceName }

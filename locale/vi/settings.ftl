@@ -470,7 +470,6 @@ bento-menu-title-3 = Các sản phẩm { -brand-mozilla }
 bento-menu-tagline = Các sản phẩm khác từ { -brand-mozilla } bảo vệ quyền riêng tư của bạn
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Trình duyệt { -brand-firefox } dành cho máy tính để bàn
 bento-menu-firefox-mobile = Trình duyệt { -brand-firefox } dành cho di động
@@ -886,14 +885,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Đang đồng bộ hóa dữ liệu { -brand-firefox }
 delete-account-product-firefox-addons = Tiện ích { -brand-firefox }
 delete-account-acknowledge = Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:
-delete-account-chk-box-1-v3 =
-    .label = Mọi thuê bao trả phí mà bạn có sẽ bị hủy (Ngoại trừ { -product-pocket })
 delete-account-chk-box-2 =
     .label = Bạn có thể sẽ mất thông tin và tính năng đã lưu trong các sản phẩm của { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -903,8 +899,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Tiếp tục
 delete-account-password-input =
     .label = Nhập mật khẩu
-pocket-delete-notice = Nếu bạn đăng ký Pocket Premium, vui lòng đảm bảo rằng bạn <a>đã hủy đăng ký</a> trước khi xóa tài khoản của mình.
-pocket-delete-notice-marketing = Để ngừng nhận email tiếp thị từ Mozilla Corporation và Mozilla Foundation, bạn phải <a>yêu cầu xóa dữ liệu tiếp thị của bạn.</a>
 delete-account-cancel-button = Hủy bỏ
 delete-account-delete-button-2 = Xóa
 
@@ -1040,14 +1034,8 @@ inactive-update-status-success-alert = Đã đăng nhập thành công. { -produ
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Tìm nơi thông tin cá nhân của bạn bị lộ và kiểm soát chúng
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Với { $price }/tháng, hãy tiết kiệm cho { -product-mozilla-vpn-short }, bảo vệ khỏi môi giói dữ liệu với { -product-mozilla-monitor-short }, và email ẩn danh không giới hạn của { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Quét miễn phí
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Đăng ký bảo vệ quanh năm
 
 ## Profile section
 
@@ -1230,8 +1218,6 @@ tfa-row-verify-session-info = Bạn cần xác nhận phiên hiện tại của 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Bằng cách tiếp tục, bạn đồng ý với:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Điều khoản dịch vụ</pocketTos> và <pocketPrivacy>thông báo về quyền riêng tư</pocketPrivacy> của { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Điều khoản dịch vụ</mozSubscriptionTosLink> và <mozSubscriptionPrivacyLink>thông báo về quyền riêng tư</mozSubscriptionPrivacyLink> của Dịch vụ thuê bao { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1363,7 +1349,6 @@ index-relay-header = Tạo email ẩn danh
 index-relay-subheader = Vui lòng cung cấp địa chỉ email mà bạn muốn chuyển tiếp email từ email ẩn danh của mình.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Tiếp tục đến { $serviceName }
-index-subheader-with-logo = Tiếp tục đến <span>{ $serviceLogo }</span>
 index-subheader-default = Tiếp tục đến cài đặt tài khoản
 index-cta = Đăng ký hoặc đăng nhập
 index-account-info = Một { -product-mozilla-account } cũng mở khóa quyền truy cập vào nhiều sản phẩm bảo vệ quyền riêng tư hơn từ { -brand-mozilla }.
@@ -1635,7 +1620,7 @@ password-reset-submit-button-2 = Tiếp tục
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Tiếp tục đến { $serviceName }
 
 ## Reset password recovery method page
@@ -1700,9 +1685,6 @@ signin-link-expired-message-2 = Liên kết bạn nhấp vào đã hết hạn h
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Nhập mật khẩu của bạn <span>cho { -product-mozilla-account } của bạn</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Tiếp tục đến <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Tiếp tục đến { $serviceName }
@@ -1928,11 +1910,6 @@ signup-heading-v2 = Tạo một mật khẩu
 signup-relay-info = Cần có mật khẩu để quản lý an toàn các email ẩn danh và quyền truy cập vào các công cụ bảo mật của { -brand-mozilla } của bạn.
 signup-sync-info = Đồng bộ hóa mật khẩu, dấu trang và nhiều thứ khác ở mọi nơi bạn sử dụng { -brand-firefox }.
 signup-sync-info-with-payment = Đồng bộ hóa mật khẩu, phương thức thanh toán, dấu trang và nhiều thông tin khác ở mọi nơi bạn sử dụng { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Tại sao tôi cần tạo tài khoản này?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Tìm hiểu ở đây
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Thay đổi email
 

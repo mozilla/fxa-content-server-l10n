@@ -484,7 +484,6 @@ bento-menu-title-3 = { -brand-mozilla }-ს ნაწარმი
 bento-menu-tagline = { -brand-mozilla }-ს მეტი ნაწარმი თქვენი პირადულობის დასაცავად
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
 bento-menu-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
@@ -908,14 +907,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = სინქრონდება { -brand-firefox }-მონაცემები
 delete-account-product-firefox-addons = { -brand-firefox } დამატებები
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
-delete-account-chk-box-1-v3 =
-    .label = ყველა ფასიანი გამოწერა გაუქმდება (დარჩება მხოლოდ { -product-pocket })
 delete-account-chk-box-2 =
     .label = შეიძლება დაკარგოთ შენახული ინფორმაცია და შესაძლებლობები { -brand-mozilla }-ს პროდუქტების
 delete-account-chk-box-3 =
@@ -925,8 +921,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = გაგრძელება
 delete-account-password-input =
     .label = შეიყვანეთ პაროლი
-pocket-delete-notice = თუ გამოწერილი გაქვთ Pocket Premium, გთხოვთ, დარწმუნდეთ, რომ <a>გამოწერა გაუქმებული გაქვთ</a> ანგარიშის წაშლამდე.
-pocket-delete-notice-marketing = იმისთვის, რომ აღარ მიიღოთ მარკეტინგული წერილები Mozilla-ს კორპორაციისა და Mozilla-ფონდისგან, უნდა <a>მოითხოვოთ თქვენი მარკეტინგული მონაცემების წაშლა.</a>
 delete-account-cancel-button = გაუქმება
 delete-account-delete-button-2 = წაშლა
 
@@ -1062,14 +1056,8 @@ inactive-update-status-success-alert = ანგარიშზე შესვ�
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = გამოარკვიეთ, სადმე ხომ არ გამჟღავნდა თქვენი მონაცემები და დაიბრუნეთ განკარგვის უფლება
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = მხოლოდ { $price }/თვეში, შეღავათიანად გამოიყენეთ { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } მონაცემით მოვაჭრეებისგან დაცვითა და { -product-firefox-relay-short } ელფოსტის შეუზღუდავი ნიღბებით.
 # Links out to the Monitor site
 product-promo-monitor-cta = შეამოწმეთ უფასოდ
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = ისარგებლეთ სრულწლიანი დაცვით
 
 ## Profile section
 
@@ -1256,8 +1244,6 @@ tfa-row-verify-session-info = ორბიჯიანი შესვლის 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = თუ განაგრძობთ, ამით თანახმა ხართ მიიღოთ:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket }-ის <pocketTos>მომსახურების პირობები</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადი</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla }-ს გამოწერილი მომსახურებების <mozSubscriptionTosLink> პირობები</mozSubscriptionTosLink> და <mozSubscriptionPrivacyLink>პირადულობის განაცხადი</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1389,7 +1375,6 @@ index-relay-header = ელფოსტის ნიღბის შექმნ
 index-relay-subheader = გთხოვთ მიუთითოთ ელფოსტის მისამართი, რომელზეც გსურთ გადაიგზავნოს თქვენი შენიღბული ელფოსტიდან წერილები.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = განაგრძეთ და იხილეთ { $serviceName }
-index-subheader-with-logo = განაგრძეთ და იხილეთ <span>{ $serviceLogo }</span>
 index-subheader-default = განაგრძეთ და იხილეთ ანგარიშის პარამეტრები
 index-cta = შედით ან შექმენით ანგარიში
 index-account-info = { -product-mozilla-account } აგრეთვე გზას გიხსნით პირადულობის უზრუნველმყოფ სხვა პროდუქტებისკენაც, რომელთაც ქმნის { -brand-mozilla }.
@@ -1661,7 +1646,7 @@ password-reset-submit-button-2 = განაგრძეთ
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = თქვენი პაროლი აღდგა.
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = განაგრძეთ და იხილეთ { $serviceName }
 
 ## Reset password recovery method page
@@ -1730,9 +1715,6 @@ signin-link-expired-message-2 = ბმული, რომელზეც გა
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = შეიყვანეთ პაროლი <span>თქვენი { -product-mozilla-account(case: "ben") }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = განაგრძეთ, რომ იხილოთ <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = გაიხსნება { $serviceName }
@@ -1962,11 +1944,6 @@ signup-heading-v2 = პაროლის შექმნა
 signup-relay-info = პაროლი საჭიროა შენიღბული ელფოსტის უსაფრთხოდ სამართავად და დაცვის საშუალებებთან წვდომისთვის, რომელთაც უზრუნველყოფს { -brand-mozilla }.
 signup-sync-info = დაასინქრონეთ თქვენი პაროლები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
 signup-sync-info-with-payment = დაასინქრონეთ თქვენი პაროლები, გადახდის საშუალებები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = რისთვისაა საჭირო ანგარიშის შექმნა?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = გაეცანით სრულად აქ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ელფოსტის შეცვლა
 

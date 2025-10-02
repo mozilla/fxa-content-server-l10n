@@ -482,7 +482,6 @@ bento-menu-title-3 = { -brand-mozilla }-produkt
 bento-menu-tagline = Fleire produkt frå { -brand-mozilla } som tek vare på personvernet ditt
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-nettlesaren for datamaskiner
 bento-menu-firefox-mobile = { -brand-firefox }-nettlesar for mobil
@@ -906,14 +905,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tillegg
 delete-account-acknowledge = Stadfest at når du slettar kontoen din:
-delete-account-chk-box-1-v3 =
-    .label = Eventuelle betalte abonnement du har, vil bli annulert (Med unntak av { -product-pocket })
 delete-account-chk-box-2 =
     .label = Du kan miste lagra informasjon og funksjonar i { -brand-mozilla }-produkt
 delete-account-chk-box-3 =
@@ -923,8 +919,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Hald fram
 delete-account-password-input =
     .label = Skriv inn passord
-pocket-delete-notice = Dersom du abonnerer på Pocket Premium, sørg for at du <a>avbryt abonnementet</a> før du slettar kontoen din.
-pocket-delete-notice-marketing = For å slutte å få marknadsførings-e-postar frå Mozilla Corporation og Mozilla Foundation, må du <a>be om sletting av marknadsføringsdataa dine.</a>
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
@@ -1060,14 +1054,8 @@ inactive-update-status-success-alert = Innlogga. { -product-mozilla-account }-en
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Finn ut kvar den private informasjonen din er eksponert og ta kontroll
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = For { $price }/mnd, spar på { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } sitt datameklarvern og { -product-firefox-relay-short } sitt ubegrensa antal e-postaliasar.
 # Links out to the Monitor site
 product-promo-monitor-cta = Få ei gratis skanning
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Få vern året rundt
 
 ## Profile section
 
@@ -1256,8 +1244,6 @@ tfa-row-verify-session-info = Du må stadfeste den noverande økta di for å kon
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Ved å halde fram seier du deg samd i:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>tenestevilkår</pocketTos> og <pocketPrivacy>personvernfråsegn</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } abonnementstenester <mozSubscriptionTosLink>tenestevilkår</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>personvernfråsegn</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1389,7 +1375,6 @@ index-relay-header = Lag eit e-postalias
 index-relay-subheader = Skriv inn e-postadressa dit du vill vidaresende e-postmeldingar frå den maskerte e-postadressa di.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Hald fram til { $serviceName }
-index-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
 index-subheader-default = Hald fram til kontoinnstillingar
 index-cta = Registrer deg eller logg inn
 index-account-info = Ein { -product-mozilla-account } låser også opp tilgang til meir personvern-beskyttande produkt frå { -brand-mozilla }.
@@ -1661,7 +1646,7 @@ password-reset-submit-button-2 = Hald fram
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Passordet ditt er tilbakestilt
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Hald fram til { $serviceName }
 
 ## Reset password recovery method page
@@ -1730,9 +1715,6 @@ signin-link-expired-message-2 = Lenka du klikka på har gått ut, eller er aller
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Skriv inn passordet ditt <span>for { -product-mozilla-account }en din</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Hald fram til { $serviceName }
@@ -1962,11 +1944,6 @@ signup-heading-v2 = Opprett passord
 signup-relay-info = Eit passord er nødvendig for å sikkert administrere dei maskerte e-postane dine og få tilgang til tryggingsverktøya til { -brand-mozilla }.
 signup-sync-info = Synkroniser passorda, bokmerka, og meir, overalt der du brukar { -brand-firefox }.
 signup-sync-info-with-payment = Synkroniser passorda, betalingsmetodar, bokmerka, og meir, overalt der du brukar { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Kvifor må eg opprette denne kontoen?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Finn ut av det her
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Endre e-post
 

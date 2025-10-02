@@ -311,7 +311,6 @@ avatar-default-avatar =
 bento-menu-title-3 = محصولات { -brand-mozilla }
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } مرورگر برای میزکار
 bento-menu-firefox-mobile = { -brand-firefox } مرورگر برای موبایل
