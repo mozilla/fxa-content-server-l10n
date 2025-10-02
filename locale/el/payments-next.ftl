@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Φαίνεται ότι υ�
 page-not-found-title = Η σελίδα δεν βρέθηκε
 page-not-found-description = Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα διορθώσουμε τυχόν συνδέσμους που ενδέχεται να μην λειτουργούν.
 page-not-found-back-button = Επιστροφή
+alert-dialog-title = Παράθυρο ειδοποίησης
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Επιστροφή
 subscription-management-breadcrumb-account-home = Αρχική σελίδα λογαριασμού
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Συνδρομές
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Διαχείριση μεθόδων πληρωμής
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Επιστροφή στη σελίδα «{ $page }»
 
@@ -285,8 +288,12 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } (φόρος)</strong><span> χρεώθηκαν στις { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> χρεώθηκαν στις { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = Εκδόθηκε πίστωση <strong>{ $creditApplied }</strong> στον λογαριασμό σας
 subscription-content-coupon-applied = Εφαρμόστηκε το { $promotionName }
+subscription-content-coupon-will-be-applied = Θα εφαρμοστεί έκπτωση { $promotionName }
+subscription-content-next-bill-excl-disc-with-tax = Ο επόμενος λογαριασμός των <strong>{ $nextInvoiceTotal } + { $taxDue } (φόρος)</strong>, εξαιρουμένων των εκπτώσεων, λήγει στις <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Ο επόμενος λογαριασμός <strong>{ $nextInvoiceTotal }</strong>, εξαιρουμένων των εκπτώσεων, λήγει στις <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Ακύρωση συνδρομής
 subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.

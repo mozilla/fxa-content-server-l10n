@@ -226,6 +226,8 @@ subscription-charges-list-price = Τιμή καταλόγου
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Τιμή καταλόγου: { $offeringPrice }
 subscription-charges-credit-from-unused-time = Πίστωση από μη χρησιμοποιημένο χρόνο
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Πίστωση από αχρησιμοποίητο χρόνο: { $unusedAmountTotal }
 subscription-charges-subtotal = <b>Υποσύνολο</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Υποσύνολο: { $invoiceSubtotal }
@@ -253,6 +255,14 @@ subscriptionCharges-content-tax-plaintext = Φόροι και τέλη: { $invoi
 subscription-charges-total = <b>Σύνολο</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Σύνολο: { $invoiceTotal }
+subscription-charges-credit-applied = Εφαρμοσμένη πίστωση
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Εφαρμοσμένη πίστωση: { $creditApplied }
+subscription-charges-amount-paid = <b>Πληρωτέο ποσό</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Πληρωτέο ποσό: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Έχετε λάβει μια πίστωση λογαριασμού των { $creditReceived }, η οποία θα εφαρμοστεί στα μελλοντικά σας παραστατικά.
 
 ##
 
@@ -264,6 +274,11 @@ subscriptionSupport-plaintext = Έχετε απορίες για τη συνδρ
 subscriptionSupportContact = Σας ευχαριστούμε για την εγγραφή σας στο { $productName }. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το { $productName }, <a data-l10n-name="subscriptionSupportUrl">επικοινωνήστε μαζί μας</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Σας ευχαριστούμε για την εγγραφή σας στο { $productName }. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το { $productName }, επικοινωνήστε μαζί μας:
+subscription-support-get-help = Λάβετε βοήθεια με τη συνδρομή σας
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Διαχειριστείτε τη συνδρομή σας</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Διαχειριστείτε τη συνδρομή σας:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Επικοινωνία με την υποστήριξη</a>
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Επικοινωνία με την υποστήριξη:
 subscriptionUpdateBillingEnsure = Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα <a data-l10n-name="updateBillingUrl">εδώ</a>.
@@ -654,6 +669,9 @@ subscriptionFirstInvoice-content-processing = Η πληρωμής σας βρί�
 subscriptionFirstInvoice-content-install-2 = Θα λάβετε ένα ξεχωριστό email σχετικά με το πώς να ξεκινήσετε τη χρήση του { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Το επόμενο παραστατικό σας θα εκδοθεί στις { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Η μέθοδος πληρωμής για το { $productName } έληξε ή λήγει σύντομα
 subscriptionPaymentExpired-title-2 = Η μέθοδος πληρωμής σας έχει ή πρόκειται να λήξει
@@ -724,6 +742,9 @@ subscriptionSubsequentInvoice-title = Ευχαριστούμε για τη συ�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Λάβαμε την τελευταία σας πληρωμή για το { $productName }.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Το επόμενο παραστατικό σας θα εκδοθεί στις { $nextInvoiceDateOnly }.
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Έχετε αναβαθμίσει στο { $productName }
 subscriptionUpgrade-title = Ευχαριστούμε για την αναβάθμιση!
@@ -771,6 +792,10 @@ subscriptionUpgrade-content-new-price-year-tax = Στο εξής, θα χρεώ�
 subscriptionUpgrade-content-new-price-default-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά διάστημα χρέωσης, εξαιρουμένων των εκπτώσεων.
 subscriptionUpgrade-existing = Αν κάποια από τις υπάρχουσες συνδρομές σας συμπίπτει με αυτήν την αναβάθμιση, θα τη διαχειριστούμε και θα σας στείλουμε ξεχωριστό email με τις λεπτομέρειες. Αν το νέο σας πακέτο περιλαμβάνει προϊόντα που απαιτούν εγκατάσταση, θα σας στείλουμε ξεχωριστό email με τις οδηγίες.
 subscriptionUpgrade-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Χρησιμοποιήστε το { $unblockCode } για να συνδεθείτε
+unblockCode-preview = Αυτός ο κωδικός λήγει σε μία ώρα
 unblockCode-title = Κάνετε εσείς σύνδεση;
 unblockCode-prompt = Αν ναι, ορίστε ο κωδικός ταυτοποίησης που χρειάζεστε:
 # Variables:
@@ -827,6 +852,10 @@ verifyLogin-description-2 = Βοηθήστε μας να προστατέψου�
 verifyLogin-subject-2 = Επιβεβαίωση σύνδεσης
 verifyLogin-action = Επιβεβαίωση εισόδου
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Χρησιμοποιήστε το { $code } για να συνδεθείτε
+verifyLoginCode-preview = Αυτός ο κωδικός λήγει σε 5 λεπτά.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Συνδεθήκατε στο { $serviceName };
 # After the colon is a description of the device used to sign in to the service
@@ -839,6 +868,10 @@ verifyPrimary-subject = Επιβεβαίωση κύριου email
 verifyPrimary-action-2 = Επιβεβαίωση email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Μόλις γίνει επιβεβαίωση, θα καταστούν δυνατές οι αλλαγές στον λογαριασμού, όπως η προσθήκη δευτερεύοντος email, από αυτήν τη συσκευή.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Χρησιμοποιήστε το { $code } για να επιβεβαιώσετε το δευτερεύον email σας
+verifySecondaryCode-preview = Αυτός ο κωδικός λήγει σε 5 λεπτά.
 verifySecondaryCode-title-2 = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-action-2 = Επιβεβαίωση email
 # Variables:
@@ -846,6 +879,10 @@ verifySecondaryCode-action-2 = Επιβεβαίωση email
 verifySecondaryCode-explainer-2 = Έχει υποβληθεί ένα αίτημα για τη χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-mozilla-account(case: "acc", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
 verifySecondaryCode-expiry-notice-2 = Λήγει σε 5 λεπτά. Μόλις γίνει επιβεβαίωση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Χρησιμοποιήστε το { $code } για να επιβεβαιώσετε τον λογαριασμό σας
+verifyShortCode-preview-2 = Αυτός ο κωδικός λήγει σε 5 λεπτά
 verifyShortCode-title-3 = «Ανοίξτε» το διαδίκτυο με τη { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο τις υπηρεσίες της { -brand-mozilla }, όπου κι αν συνδεθείτε, ξεκινώντας με:

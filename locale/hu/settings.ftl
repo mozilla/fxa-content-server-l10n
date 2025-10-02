@@ -765,7 +765,7 @@ modal-default-confirm-button = Megerősítés
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Adja meg a megerősítő kódot
-modal-mfa-protected-subtitle = Segítsen nekünk megbizonyosodni, hogy megváltoztattuk-e a fiókadatait
+modal-mfa-protected-subtitle = Segítsen nekünk megbizonyosodni arról, hogy megváltoztattuk-e a fiókadatait
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -775,7 +775,7 @@ modal-mfa-protected-subtitle = Segítsen nekünk megbizonyosodni, hogy megválto
 modal-mfa-protected-instruction =
     { $expirationTime ->
         [one] Adja meg a(z) <email>{ $email }</email> címre küldött kódot { $expirationTime } percen belül.
-       *[other] Adja meg { $expirationTime } percen belül a(z) <email>{ $email }</email> címre küldött kódot.
+       *[other] Adja meg a(z) <email>{ $email }</email> címre küldött kódot { $expirationTime } percen belül.
     }
 modal-mfa-protected-input-label = Adja meg a 6 számjegyű kódot
 modal-mfa-protected-cancel-button = Mégse
