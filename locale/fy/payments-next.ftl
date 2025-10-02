@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Der liket in flater te barr
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
 page-not-found-back-button = Tebek
+alert-dialog-title = Warskôgingsdialoochfinster
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Tebek
 subscription-management-breadcrumb-account-home = Account-startside
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonneminten
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Betellingsmetoaden beheare
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Tebek nei { $page }
 
@@ -285,8 +288,12 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } btw</strong><span> fakturearre op { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturearre op { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tegoed takend oan jo account
 subscription-content-coupon-applied = { $promotionName } tapast
+subscription-content-coupon-will-be-applied = Koarting fanwegen { $promotionName } wurdt tapast
+subscription-content-next-bill-excl-disc-with-tax = De folgjende faktuer fan <strong>{ $nextInvoiceTotal } + { $taxDue } btw</strong>, eksklusyf koartingen, is ferskuldige op <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = De folgjende faktuer fan <strong>{ $nextInvoiceTotal }</strong>, eksklusyf koartingen, is ferskuldige op <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonnemint opsizze
 subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
