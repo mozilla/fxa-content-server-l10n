@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxD
 subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> faktureras { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit har utfärdats till ditt konto
 subscription-content-coupon-applied = { $promotionName } tillämpad
+subscription-content-coupon-will-be-applied = { $promotionName } rabatt kommer att tillämpas
 subscription-content-next-bill-excl-disc-with-tax = Nästa räkning på <strong>{ $nextInvoiceTotal } + { $taxDue } moms</strong>, exklusive rabatter, förfaller den <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Nästa räkning på <strong>{ $nextInvoiceTotal }</strong>, exklusive rabatter, förfaller den <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Avbryt prenumeration

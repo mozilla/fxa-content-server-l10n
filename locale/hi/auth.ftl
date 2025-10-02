@@ -96,7 +96,6 @@ subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } में आप�
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-unblockCode-subject = खाता प्राधिकरण कोड
 unblockCode-title = क्या आप ही साइन-इन कर रहे हैं?
 unblockCode-prompt = यदि हाँ, तो ये है आपका प्राधिकरण कोड जिसकी आपको ज़रूरत है:
 unblockCode-report-plaintext = यदि नहीं, तो हमें घुसपैठियों को रोकने मे मदद करें और हमें इसकी रिपोर्ट करें।
@@ -109,5 +108,4 @@ verifyLoginCode-expiry-notice = यह 5 मिनट में समाप्�
 verifyPrimary-description = खाता परिवर्तन करने के लिए एक अनुरोध निम्न डिवाइस से किया गया है:
 verifyPrimary-subject = प्राथमिक ईमेल की पुष्टि करें
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
-verifySecondaryCode-subject = द्वितीयक ईमेल की पुष्टि करें
 verifyShortCode-expiry-notice = यह 5 मिनट में समाप्त हो जाता है।

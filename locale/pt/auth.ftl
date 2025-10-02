@@ -421,7 +421,10 @@ passwordChangeRequired-different-password-2 = <b>Importante:</b> Escolha uma pal
 passwordChangeRequired-different-password-plaintext-2 = Importante: Escolha uma palavra-passe forte que seja diferente das que utilizou no passado.
 passwordChangeRequired-action = Repor palavra-passe
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-subject = Esqueceu-se da sua palavra-passe?
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Utilizar { $code } para alterar a sua palavra-passe
+password-forgot-otp-preview = Este código expira em 10 minutos
 password-forgot-otp-title = Esqueceu-se da sua palavra-passe?
 password-forgot-otp-request = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-mozilla-account } de:
 password-forgot-otp-code-2 = Se foi você, aqui está o seu código de confirmação para continuar:
@@ -785,7 +788,10 @@ subscriptionUpgrade-content-new-price-year-tax = A partir de agora, ser-lhe-a de
 subscriptionUpgrade-content-new-price-default-tax = A partir de agora, serão cobrados { $paymentAmountNew } + { $paymentTaxNew } de impostos por intervalo de faturação, excluindo extras.
 subscriptionUpgrade-existing = Se alguma das suas subscrições existentes se sobrepor a esta atualização, iremos gerir a mesma e enviar-lhe um e-mail separado com os detalhes. Se o seu novo plano incluir produtos que requeiram instalação, iremos enviar-lhe um e-mail separado com as instruções de configuração.
 subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
-unblockCode-subject = Código de autorização da conta
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Utilizar { $unblockCode } para iniciar sessão
+unblockCode-preview = Este código expira numa hora
 unblockCode-title = É mesmo você a iniciar sessão?
 unblockCode-prompt = Se sim, aqui está o código de autorização de que necessita:
 # Variables:
@@ -842,8 +848,9 @@ verifyLogin-description-2 = Ajude-nos a manter a sua conta segura confirmando qu
 verifyLogin-subject-2 = Confirmar início de sessão
 verifyLogin-action = Confirmar novo início de sessão
 # Variables:
-#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Aprovar início de sessão para { $serviceName }
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Utilizar { $code } para iniciar sessão
+verifyLoginCode-preview = Este código expira em 5 minutos.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Iniciou a sessão com { $serviceName }?
@@ -857,7 +864,10 @@ verifyPrimary-subject = Confirmar e-mail principal
 verifyPrimary-action-2 = Confirmar email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Depois de confirmado, alterações à conta, como adicionar um endereço de correio eletrónico secundário, irão ficar disponíveis a partir deste dispositivo.
-verifySecondaryCode-subject = Confirmar e-mail secundário
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Utilizar { $code } para confirmar o seu e-mail secundário
+verifySecondaryCode-preview = Este código expira em 5 minutos.
 verifySecondaryCode-title-2 = Confirmar e-mail secundário
 verifySecondaryCode-action-2 = Confirmar e-mail
 # Variables:
@@ -866,9 +876,9 @@ verifySecondaryCode-explainer-2 = Foi efetuado um pedido para utilizar { $email 
 verifySecondaryCode-prompt-2 = Utilizar este código de confirmação:
 verifySecondaryCode-expiry-notice-2 = Este expira em 5 minutos. Depois de confirmado, este endereço irá começar a receber notificações e confirmações de segurança.
 # Variables:
-#  $code (Number) - e.g. 123456
-verifyShortCode-subject-3 = Confirmar a sua conta
-verifyShortCode-preview = Utilize o código incluído para confirmar a sua { -product-mozilla-account }.
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Utilizar { $code } para confirmar a sua conta
+verifyShortCode-preview-2 = Este código expira em 5 minutos
 verifyShortCode-title-3 = Aceda à Internet com a { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirme a sua conta e aproveite ao máximo a { -brand-mozilla } em todos os sítios em que iniciar sessão, começando com:
