@@ -423,7 +423,7 @@ passwordChangeRequired-action = Jelszó visszaállítása
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 # Variables:
 #  $code (String) - The confirmation code for sign-in
-password-forgot-otp-subject-2 = Változtassa meg a jelszavát: { $code }
+password-forgot-otp-subject-2 = Használja a(z) { $code } kódot a jelszava módosításához
 password-forgot-otp-preview = Ez a kód 10 perc múlva lejár
 password-forgot-otp-title = Elfelejtette a jelszavát?
 password-forgot-otp-request = A { -product-mozilla-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:
@@ -666,7 +666,7 @@ subscriptionFirstInvoice-content-install-2 = Külön e-mailt fog kapni a { $prod
 subscriptionFirstInvoice-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
-subscriptionFirstInvoice-content-your-next-invoice = A következő számlát { $nextInvoiceDateOnly } állítja ki.
+subscriptionFirstInvoice-content-your-next-invoice = A következő számla ekkor lesz kiállítva: { $nextInvoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = A(z) { $productName } fizetési módja lejárt vagy hamarosan lejár
@@ -739,7 +739,7 @@ subscriptionSubsequentInvoice-title = Köszönjük, hogy előfizető lett!
 subscriptionSubsequentInvoice-content-received = Megkaptuk legutóbbi { $productName } befizetését.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
-subscriptionSubsequentInvoice-content-your-next-invoice = A következő számlát { $nextInvoiceDateOnly } állítja ki.
+subscriptionSubsequentInvoice-content-your-next-invoice = A következő számla ekkor lesz kiállítva: { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Frissített erre: { $productName }
@@ -790,7 +790,7 @@ subscriptionUpgrade-existing = Ha bármelyik meglévő előfizetése fedi ezt a 
 subscriptionUpgrade-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 # Variables:
 #  $unblockCode (String) - The authorization code for sign-in
-unblockCode-subject-2 = Bejelentkezéshez használja: { $unblockCode }
+unblockCode-subject-2 = Használja a(z) { $unblockCode } kódot a bejelentkezéshez
 unblockCode-preview = Ez a kód egy órán belül lejár
 unblockCode-title = Ez az ön bejelentkezése?
 unblockCode-prompt = Ha igen, akkor erre az engedélyezési kódra van szüksége:
@@ -849,7 +849,7 @@ verifyLogin-subject-2 = Bejelentkezés megerősítése
 verifyLogin-action = Bejelentkezés megerősítése
 # Variables:
 #  $code (String) - The confirmation code for sign-in
-verifyLoginCode-subject-line-3 = Bejelentkezéshez használja: { $code }
+verifyLoginCode-subject-line-3 = Használja a(z) { $code } kódot a bejelentkezéshez
 verifyLoginCode-preview = Ez a kód 5 perc múlva lejár.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -866,7 +866,7 @@ verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Amint megerősíti, a fiókváltoztatások, mint a másodlagos e-mail-cím hozzáadása, lehetségesek lesznek erről az eszközről.
 # Variables:
 #  $code (String) - The confirmation code for secondary email
-verifySecondaryCode-subject-2 = A másodlagos e-mail megerősítéséhez használja a(z) { $code } címkét
+verifySecondaryCode-subject-2 = Használja a(z) { $code } kódot a másodlagos e-mail-cím megerősítéséhez
 verifySecondaryCode-preview = Ez a kód 5 perc múlva lejár.
 verifySecondaryCode-title-2 = Másodlagos e-mail-cím megerősítése
 verifySecondaryCode-action-2 = E-mail-cím megerősítése
@@ -877,7 +877,7 @@ verifySecondaryCode-prompt-2 = Használja ezt a megerősítő kódot:
 verifySecondaryCode-expiry-notice-2 = 5 perc múlva lejár. Ha megerősíti, akkor ez a cím meg fogja kapni a biztonsági értesítéseket és megerősítéseket.
 # Variables:
 #  $code (String) - comfirmation code for the account
-verifyShortCode-subject-4 = Erősítse meg a fiókját ezzel: { $code }
+verifyShortCode-subject-4 = Használja a(z) { $code } kódot a fiókja megerősítéséhez
 verifyShortCode-preview-2 = Ez a kód 5 perc múlva lejár
 verifyShortCode-title-3 = Nyissa meg az internetet a { -brand-mozilla(ending: "accented") }val
 # Information on the browser and device triggering this confirmation email follows below this string.
