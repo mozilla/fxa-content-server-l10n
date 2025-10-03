@@ -292,6 +292,7 @@ subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</stron
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jedeverã og̃uahẽva ne mba’etépe
 subscription-content-coupon-applied = { $promotionName } mboajepyre
 subscription-content-coupon-will-be-applied = Oguejýta { $promotionName } repy
+subscription-content-next-bill-excl-disc-with-tax = Kuatiañemure oútava <strong>{ $nextInvoiceTotal } + </strong>, impuestoita</strong>, oĩ’ỹhápe tepyguejy, opáta <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Pe kuatiañemure oútava <strong>{ $nextInvoiceTotal }</strong>, oĩ’ỹhápe hepyguejyha, opáta <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
 subscription-content-no-longer-use-message = Ndojeporukuaamo’ãi { $productName } pe { $currentPeriodEnd } rire, pe ára paha iñemuhakuatia hag̃ua.
@@ -324,6 +325,7 @@ resubscribe-dialog-title = ¿Eiporusépa gueteri { $name }?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = { $name } jeike oku’ejeýta, ha pe ñemuhakuatia rape ha jehepyme’ẽ naiñambuemo’ãi. Pe jehepyme’ẽ oútava { $amount } mba’e { $endDate } og̃uahẽvo.
+resubscribe-dialog-content-with-tax = { $name }-pe jeike oku’ejeýta, ha ñemuhakuatia rape ha jehepyme’ẽ naiñambuemo’ãi. Jehepyme’ẽ oútava { $amount } mba’e + { $tax } impuestoita rehegua { $endDate }.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Eñemboheraguapyjey
     .aria-label = Eñemboheraguapyjey { $productName }-pe

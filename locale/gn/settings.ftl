@@ -682,6 +682,7 @@ flow-setup-2fa-inline-complete-backup-code-info =
         [one] { $count } ayvu hembýva
        *[other] { $count } ayvuita hembýva
     }
+flow-setup-2fa-inline-complete-backup-code-description = Kóicha añoite erujeýta tekorosãme ndereiporukuaáiramo ne pumbyry mba’e’oka térã tembiporu’i ñemoneĩrã.
 flow-setup-2fa-inline-complete-learn-more-link = Mba’éichapa omo’ãta ne mba’ete
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
