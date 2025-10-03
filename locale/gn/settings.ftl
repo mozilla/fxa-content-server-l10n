@@ -683,11 +683,15 @@ flow-setup-2fa-inline-complete-backup-code-info =
        *[other] { $count } ayvuita hembýva
     }
 flow-setup-2fa-inline-complete-backup-code-description = Kóicha añoite erujeýta tekorosãme ndereiporukuaáiramo ne pumbyry mba’e’oka térã tembiporu’i ñemoneĩrã.
+flow-setup-2fa-inline-complete-backup-phone-description = Kóicha erujeýta tekorosãme ndereiporukuaáirõ pumbyry mba’e’oka térã tembiporu’i ñemoneĩrã.
 flow-setup-2fa-inline-complete-learn-more-link = Mba’éichapa omo’ãta ne mba’ete
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Eku’ejey { $serviceName } ndive
 flow-setup-2fa-prompt-heading = Emboheko ñemoneĩ mokõi jeku’épe
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } ojerure emohenda hag̃ua mokõi tape ñemoneĩrã ereko hag̃ua ne mba’ete tekorosãme.
 flow-setup-2fa-prompt-continue-button = Ku’ejey
 
 ## FlowSetupPhoneConfirmCode
@@ -885,6 +889,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Embojuehe mba’ekuaarã { -brand-firefox } rehegua
 delete-account-product-firefox-addons = { -brand-firefox } Moĩmbaha
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
+delete-account-chk-box-1-v4 =
+    .label = Umi ñemboheraguapy jehepyme’ẽrãva opytareíta
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
@@ -1212,6 +1218,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Ojepe’áma ñemoneĩ mokõi jeku’egua
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
+tfa-row-verify-session-info = Tekotevẽ emoneĩ ne rembiapo ag̃agua emboheko hag̃ua ñemoneĩ mokõi jeku’egua
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
