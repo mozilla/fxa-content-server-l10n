@@ -423,6 +423,10 @@ passwordChangeRequired-different-password-2 = <b>impuartant:</b> sielç une pass
 passwordChangeRequired-different-password-plaintext-2 = impuartant: sielç une password complicade, divierse di chê che tu âs doprât prime.
 passwordChangeRequired-action = Ristabilìs password
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Dopre { $code } par cambiâ la tô password
+password-forgot-otp-preview = Chest codiç al scjât ca di 10 minûts
 password-forgot-otp-title = Password dismenteade?
 password-forgot-otp-request = O vin ricevût une richieste di modifiche de tô password pal to { -product-mozilla-account } di:
 password-forgot-otp-code-2 = Se tu jeris tu, ve chi il codiç di conferme par continuâ:
@@ -786,6 +790,10 @@ subscriptionUpgrade-content-new-price-year-tax = Di cumò indevant, ti vignaran 
 subscriptionUpgrade-content-new-price-default-tax = Di cumò indevant ti vignaran adebitâts { $paymentAmountNew } + { $paymentTaxNew } di tassis par dade di faturazion, gjavâts i sconts.
 subscriptionUpgrade-existing = Se un dai tiei abonaments esistents si sorepon cun chest inzornament, lu tratarìn e ti inviarìn une e-mail separade cui detais. Se il to gnûf plan al inclût prodots di instalâ, ti mandarìn une e-mail separade cu lis istruzions pe instalazion.
 subscriptionUpgrade-auto-renew = Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Dopre { $unblockCode } par jentrâ
+unblockCode-preview = Chest codiç al scjât ca di une ore
 unblockCode-title = Sêstu tu a jentrâ?
 unblockCode-prompt = Se sì, chest al è il codiç di autorizazion che ti covente:
 # Variables:
@@ -842,6 +850,10 @@ verifyLogin-description-2 = Judinus a mantignî sigûr il to account confermant 
 verifyLogin-subject-2 = Conferme acès
 verifyLogin-action = Conferme acès
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Dopre { $code } par jentrâ
+verifyLoginCode-preview = Chest codiç al scjât ca di 5 minûts.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Jeristu tu a jentrâ vie { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -854,6 +866,10 @@ verifyPrimary-subject = Conferme la e-mail primarie
 verifyPrimary-action-2 = Conferme la direzion e-mail
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Une volte confermade la richieste, al sarà pussibil modificâ, di chest dispositîf, lis impostazions dal account, come chê di zontâ une e-mail secondarie.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Dopre { $code } par confermâ la tô e-mail secondarie
+verifySecondaryCode-preview = Chest codiç al scjât ca di 5 minûts.
 verifySecondaryCode-title-2 = Conferme la e-mail secondarie
 verifySecondaryCode-action-2 = Conferme la direzion e-mail
 # Variables:
@@ -861,6 +877,10 @@ verifySecondaryCode-action-2 = Conferme la direzion e-mail
 verifySecondaryCode-explainer-2 = Chest { -product-mozilla-account } al domande di doprâ { $email } come direzion e-mail secondarie:
 verifySecondaryCode-prompt-2 = Dopre chest codiç di conferme:
 verifySecondaryCode-expiry-notice-2 = Al scjât chi di 5 minûts. Une volte confermade, cheste direzion e-mail e ricevarà notifichis di sigurece e messaçs di conferme.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Dopre { $code } par confermâ il to account
+verifyShortCode-preview-2 = Chest codiç al scjât ca di 5 minûts
 verifyShortCode-title-3 = Esplore internet cun { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Conferme il to account e tire fûr il massim di { -brand-mozilla } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:

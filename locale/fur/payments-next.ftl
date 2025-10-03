@@ -121,7 +121,13 @@ subscription-management-button-support = Oten jutori
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Oten jutori par { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: acuist te aplicazion
 subscription-management-your-google-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-google }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: acuist te aplicazion
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = La prossime fature e je dovude pai <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Il to abonament al scjadarà ai <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gjestìs abonaments par { $productName }
 subscription-management-button-manage-subscription = Gjestìs
@@ -134,6 +140,7 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ae
 subscription-management-page-subscription-interval-monthly = { $productName } (al mês)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 mês)
 subscription-management-page-subscription-interval-yearly = { $productName } (al an)
+subscription-management-page-paypal-error-banner = Informazions di paiament no validis; al è vignût fûr un erôr cul to account.
 subscription-management-page-paypal-error-banner-link = Gjestìs
 paypal-payment-management-page-invalid-header = Informazions di faturazion no validis
 # Page - Not Found
