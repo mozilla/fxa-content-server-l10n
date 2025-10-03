@@ -392,6 +392,7 @@ passwordChangeRequired-different-password-2 = <b>Önemli:</b> Geçmişte kulland
 passwordChangeRequired-different-password-plaintext-2 = Önemli: Geçmişte kullandığınızdan farklı ve güçlü bir parola seçin.
 passwordChangeRequired-action = Parolayı sıfırla
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+password-forgot-otp-preview = Kodun geçerlilik süresi 10 dakikadır
 password-forgot-otp-title = Parolanızı unuttunuz mu?
 password-forgot-otp-request = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
 password-forgot-otp-code-2 = Bunu siz talep ettiyseniz aşağıdaki onay koduyla devam edebilirsiniz:
@@ -756,6 +757,7 @@ verifyLogin-title-2 = { $clientName } uygulamasına giriş yaptınız mı?
 verifyLogin-description-2 = Hesabınızı güvende tutabilmemiz için giriş yaptığınızı onaylayın:
 verifyLogin-subject-2 = Girişi onayla
 verifyLogin-action = Girişi onayla
+verifyLoginCode-preview = Kodun geçerlilik süresi 5 dakikadır.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } hizmetine giriş yaptınız mı?
@@ -769,6 +771,7 @@ verifyPrimary-subject = Ana e-posta adresini onayla
 verifyPrimary-action-2 = E-postanızı doğrulayın
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Cihaz doğrulandıktan sonra, bu cihazdan ikinci e-posta ekleme gibi hesap değişiklikleri yapmak mümkün olacaktır.
+verifySecondaryCode-preview = Kodun geçerlilik süresi 5 dakikadır.
 verifySecondaryCode-title-2 = İkinci e-postayı onayla
 verifySecondaryCode-action-2 = E-postanızı doğrulayın
 # Variables:
@@ -776,6 +779,7 @@ verifySecondaryCode-action-2 = E-postanızı doğrulayın
 verifySecondaryCode-explainer-2 = { $email } adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki { -product-mozilla-account }ndan bir istek yapıldı:
 verifySecondaryCode-prompt-2 = Bu doğrulama kodunu kullanın:
 verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
+verifyShortCode-preview-2 = Kodun geçerlilik süresi 5 dakikadır
 verifyShortCode-title-3 = İnternete { -brand-mozilla } ile açılın
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Hesabınızı doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. Kullandığınız cihaz:
