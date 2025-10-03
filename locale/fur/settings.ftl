@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Schermi dal dispositîf cun codiçs
 sync-clouds-image-aria-label =
     .aria-label = Nui cuntune icone di sincronizazion
+confetti-falling-image-aria-label =
+    .aria-label = Animazion cun coriandui che a colin
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -361,6 +363,7 @@ confirmation-link-reused-message = Chel colegament di conferme al è za stât do
 ## Locale Toggle Component
 
 locale-toggle-select-label = Selezione lenghe
+locale-toggle-browser-default = Predefinide dal navigadôr
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richieste sbaliade
 
@@ -751,6 +754,28 @@ nav-linked-accounts = { la-heading }
 modal-close-title = Siere
 modal-cancel-button = Anule
 modal-default-confirm-button = Conferme
+
+## ModalMfaProtected
+
+modal-mfa-protected-title = Inserìs il codiç di conferme
+modal-mfa-protected-subtitle = Judinus a verificâ che tu sedis pardabon tu a modificâ lis informazions dal to account
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Inserìs il codiç che al è stât mandât a <email>{ $email }</email> dentri di { $expirationTime } minût.
+       *[other] Inserìs il codiç che al è stât mandât a <email>{ $email }</email> dentri di { $expirationTime } minûts.
+    }
+modal-mfa-protected-input-label = Inserìs il codiç a 6 cifris
+modal-mfa-protected-cancel-button = Anule
+modal-mfa-protected-confirm-button = Conferme
+modal-mfa-protected-code-expired = Codiç scjadût?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Mande e-mail cul gnûf codiç.
 
 ## Modal Verify Session
 

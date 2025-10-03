@@ -143,10 +143,12 @@ subscription-management-page-subscription-interval-yearly = { $productName } (al
 subscription-management-page-paypal-error-banner = Informazions di paiament no validis; al è vignût fûr un erôr cul to account.
 subscription-management-page-paypal-error-banner-link = Gjestìs
 paypal-payment-management-page-invalid-header = Informazions di faturazion no validis
+paypal-payment-management-page-invalid-description = Al somee che al sedi un erôr cul to account { -brand-paypal }. Par risolvi chest probleme di paiament, al covente che tu fasedis chescj passaçs.
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.
 page-not-found-back-button = Torne indaûr
+alert-dialog-title = Dialic di avîs
 
 ## Navigation breadcrumbs
 
@@ -154,6 +156,8 @@ page-not-found-back-button = Torne indaûr
 subscription-management-breadcrumb-account-home = Pagjine principâl dal account
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonaments
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Gjestìs metodis di paiament
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Torne a { $page }
 
@@ -284,6 +288,13 @@ next-new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par cre
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } di tassis</strong><span> faturâts ai { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> faturâts ai { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credit mandât fûr sul to account
+subscription-content-coupon-applied = { $promotionName } aplicât
+subscription-content-coupon-will-be-applied = Al vignarà aplicât un scont di { $promotionName }
+subscription-content-next-bill-excl-disc-with-tax = La prossime fature di <strong>{ $nextInvoiceTotal } + { $taxDue } di tassis</strong>, gjavâts i sconts, e je dovude pai <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = La prossime fature di <strong>{ $nextInvoiceTotal }</strong>, gjavâts i sconts, e je dovude pai <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Scancele abonament
 subscription-content-no-longer-use-message = No tu rivarâs plui a doprâ { $productName } dopo { $currentPeriodEnd }, l'ultin dì dal cicli di faturazion.
 subscription-content-cancel-access-message = Scancele il gno acès e gjave lis informazions salvadis in { $productName } prime dai { $currentPeriodEnd }
