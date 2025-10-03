@@ -206,6 +206,7 @@ payment-method-payment-provider-plaintext = Metoda płatności: { $paymentProvid
 payment-provider-card-name-ending-in-plaintext = Metoda płatności: Karta { $cardName } kończąca się na { $lastFour }
 payment-provider-card-ending-in-plaintext = Metoda płatności: Karta kończąca się na { $lastFour }
 payment-provider-card-ending-in = <b>Metoda płatności:</b> Karta kończąca się na { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Metoda płatności:</b> Karta { $cardName } kończąca się na { $lastFour }
 
 # Variables:
 
