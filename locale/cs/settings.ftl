@@ -831,7 +831,7 @@ tfa-create-code-success-alert = Záložní ověřovací kódy byly vytvořeny
 tfa-replace-code-download-description = Uložte si je na místo, které si budete pamatovat. Vaše staré kódy budou nahrazeny po dokončení dalšího kroku.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
-tfa-replace-code-confirm-description = Potvrďte uložení kódů zadáním jednoho. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
+tfa-replace-code-confirm-description = Potvrďte uložení kódů zadáním jednoho z nich. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Nesprávný záložní ověřovací kód
 
@@ -918,7 +918,7 @@ delete-account-product-firefox-sync = Synchronizují se údaje { -brand-firefox(
 delete-account-product-firefox-addons = Doplňky { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Potvrďte prosím, že berete na vědomí, že smazáním svého účtu:
 delete-account-chk-box-1-v4 =
-    .label = budou zrušena všechna vaše předplatná
+    .label = Veškeré placené předplatné bude zrušeno.
 delete-account-chk-box-2 =
     .label = V produktech { -brand-mozilla(case: "gen") } můžete přijít o uložené informace a funkce
 delete-account-chk-box-3 =
