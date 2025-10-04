@@ -288,18 +288,18 @@ next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme p
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } daň</strong><span> účtováno { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> zaúčtováno { $billedOnDate }</span>
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } daň</strong><span> účtováno dne { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> účtováno dne { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = Na váš účet bude připsán kredit <strong>{ $creditApplied }</strong>
 subscription-content-coupon-applied = Kupón { $promotionName } byl použit
 subscription-content-coupon-will-be-applied = Bude uplatněna sleva { $promotionName }
-subscription-content-next-bill-excl-disc-with-tax = Další platba <strong>{ $nextInvoiceTotal } + { $taxDue } daň</strong>, vyjma slev, je splatná <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-disc-with-tax = Další platba <strong>{ $nextInvoiceTotal } + { $taxDue } daň</strong>, vyjma slev, je splatná dne <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Další platba <strong>{ $nextInvoiceTotal }</strong>, kromě diskontů, je splatná <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Zrušit předplatné
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, posledním dni vašeho fakturačního období, nebudete moci { $productName } používat.
 subscription-content-cancel-access-message = Zrušit můj přístup a ukládání mých informací v průběhu { $productName } dne { $currentPeriodEnd }
 subscription-content-button-stay-subscribed = Zachovat předplatné
-    .aria-label = Předplaťte si { $productName }
+    .aria-label = Zachovejte si předplatné produktu { $productName }
 subscription-content-button-cancel-subscription = Zrušit předplatné
     .aria-label = Zrušení předplatného { $productName }
 subscription-content-button-cancel = Zrušit

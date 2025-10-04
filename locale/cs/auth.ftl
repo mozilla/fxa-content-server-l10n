@@ -168,8 +168,8 @@ automated-email-reset-pwd-plaintext-v3 = Pokud jste tuto akci neprovedli, okamž
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Obnovit dvoufázové ověřování v:
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = V poslední době bylo { -brand-firefox } vývojářů doplňků zaměřeno na phishingové e-mailové útoky. E-maily týkající se vašich { -product-mozilla-account } z <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> budeme zasílat pouze.
-banner-warning-message-plaintext = V poslední době bylo { -brand-firefox } vývojářů doplňků zaměřeno na phishingové e-mailové útoky. O vašich { -product-mozilla-account } vám budeme zasílat e-maily pouze z této e-mailové adresy:
+banner-warning-message = Vývojáři doplňků aplikace { -brand-firefox }  se v poslední době stávají terčem phishingových e-mailových útoků. E-maily o vašem { -product-mozilla-account(case: "gen") } budeme zasílat pouze z <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = Vývojáři doplňků aplikace { -brand-firefox } se v poslední době stávají terčem phishingových e-mailových útoků. Z této e-mailové adresy budeme zasílat pouze e-maily týkající se vašeho { -product-mozilla-account(case: "gen") }:
 banner-warning-check = Zkontrolujte, zda je přihlášené zařízení a umístění správné.
 brand-banner-message = Víte, že jsme změnili název z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Zjistit více</a>
 cancellationSurvey = Pomozte nám vylepšit naše služby tím, že se zúčastníte tohoto <a data-l10n-name="cancellationSurveyUrl">krátkého průzkumu</a>.
@@ -243,9 +243,9 @@ subscription-charges-repeating-discount =
     }
 subscription-charges-repeating-discount-plaintext =
     { $discountDuration ->
-        [one] { $discountDuration }měsíční sleva: { $invoiceDiscountAmount }
-        [few] { $discountDuration }měsíční sleva: { $invoiceDiscountAmount }
-       *[other] { $discountDuration }měsíční sleva: { $invoiceDiscountAmount }
+        [one] { $discountDuration }-měsíční sleva: { $invoiceDiscountAmount }
+        [few] { $discountDuration }-měsíční sleva: { $invoiceDiscountAmount }
+       *[other] { $discountDuration }-měsíční sleva: { $invoiceDiscountAmount }
     }
 subscription-charges-discount = Sleva
 subscription-charges-discount-plaintext = Sleva: { $invoiceDiscountAmount }
@@ -514,7 +514,7 @@ postChangeRecoveryPhone-requested-device = Vyžádali jste si ho z:
 postChangeTwoStepAuthentication-preview = Váš účet je chráněn
 postChangeTwoStepAuthentication-subject = Dvoufázové ověřování bylo aktualizováno
 postChangeTwoStepAuthentication-title = Dvoufázové ověřování bylo aktualizováno
-postChangeTwoStepAuthentication-use-new-account = Nyní je potřeba ve své autentizační aplikaci použít novou položku { -product-mozilla-account }. Starší z nich už nebude fungovat a můžete ji odebrat.
+postChangeTwoStepAuthentication-use-new-account = Nyní je potřeba ve své autentizační aplikaci použít novou položku pro { -product-mozilla-account(case: "acc") }. Starší z nich už nebude fungovat a můžete ji odebrat.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Vyžádali jste o to z:
 postChangeTwoStepAuthentication-action = Správa účtu
