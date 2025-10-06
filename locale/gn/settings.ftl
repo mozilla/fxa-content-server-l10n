@@ -793,6 +793,7 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 page-2fa-change-title = Emombue ñemboaje mokõi jeku’egua
 page-2fa-change-success = Oñembohekopyahúma ñemboaje mokõi jeku’egua
+page-2fa-change-totpinfo-error = Oiko jejavy emyengoviávo tembiporu’i ñemoneĩha mokõi jeku’egua. Eha’ãjey ag̃ave.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -806,6 +807,9 @@ tfa-create-code-error = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyrã j
 tfa-replace-code-success-alert-4 = Ayvu ñemoneĩrã jeykekoha hekopyahupyre
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Ayvu ñemoneĩrã jeykekoha moheñoimbyre
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Eñongatu nemandu’a hag̃uáme uperire. Nde ayvu itujavéva hekoviáta ejapopávo ko jeku’e.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã ñongatujeyrã ndoikói
 
