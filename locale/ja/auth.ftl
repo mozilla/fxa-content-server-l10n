@@ -246,6 +246,9 @@ location-city-country = { $country }、{ $city } (おおよその位置)
 #  $country (String) - User's country
 location-state-country = { $stateCode }、{ $country } (おおよその位置)
 # Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (おおよその位置)
+# Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = 請求書の表示：{ $invoiceLink }
