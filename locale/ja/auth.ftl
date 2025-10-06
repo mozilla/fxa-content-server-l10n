@@ -338,6 +338,7 @@ passwordChanged-title = パスワード変更完了
 passwordChanged-description-2 = あなたの { -product-mozilla-account }のパスワードが次の端末から変更されました:
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
 passwordChangeRequired-preview = すぐにパスワードを変更してください
+passwordChangeRequired-title-2 = パスワードをリセットしてください
 password-forgot-otp-title = パスワードをお忘れですか？
 password-forgot-otp-request = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:
 password-forgot-otp-code-2 = その場合、次の確認コードを使用してください:
@@ -355,6 +356,7 @@ passwordResetAccountRecovery-information = 同期されていたすべての端�
 passwordResetAccountRecovery-information-txt = 同期されていたすべての端末からログアウトしました。使用したアカウント回復用キーを置き換える新しいキーを作成しました。アカウント設定から変更できます:
 passwordResetAccountRecovery-action-4 = アカウント管理
 passwordResetRecoveryPhone-subject = 回復用電話番号を使用しました
+passwordResetRecoveryPhone-preview = あなたの操作であることを確認してください
 passwordResetWithRecoveryKeyPrompt-subject = あなたのパスワードはリセットされました
 passwordResetWithRecoveryKeyPrompt-title = あなたのパスワードはリセットされました
 # Details of the device and date/time where the password was reset
@@ -409,6 +411,7 @@ postChangePrimary-title = 新しい優先メールアドレス
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 優先メールアドレスが { $email } に変更されました。このアドレスは今後、{ -product-mozilla-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
+postChangeRecoveryPhone-description = 新しい回復用電話番号を登録しました。以前の電話番号は削除されました。
 postChangeRecoveryPhone-requested-device = 次の端末からリクエストしました:
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = 次の端末からリクエストしました:
