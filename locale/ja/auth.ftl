@@ -418,7 +418,7 @@ postChangePrimary-title = 新しい優先メールアドレス
 postChangePrimary-description-2 = 優先メールアドレスが { $email } に変更されました。このアドレスは今後、{ -product-mozilla-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
 postChangeRecoveryPhone-subject = 回復用電話番号を更新しました
-postChangeRecoveryPhone-title = 回復用電話番号を変更しました
+postChangeRecoveryPhone-title = あなたの回復用電話番号が変更されました
 postChangeRecoveryPhone-description = 新しい回復用電話番号を登録しました。以前の電話番号は削除されました。
 postChangeRecoveryPhone-requested-device = 次の端末からリクエストしました:
 # After the colon, there is a description of the device that the user used to enable two-step authentication
