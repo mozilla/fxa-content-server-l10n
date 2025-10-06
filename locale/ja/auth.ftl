@@ -160,6 +160,19 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = あなたがこの操作を許可していない場合は、今すぐ { $resetLink } でパスワードをリセットしてください。
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    この操作に覚えがない場合、すぐに<a data-l10n-name="resetLink">パスワードリセット</a>と <a data-l10n-name="twoFactorSettingsLink">2 段階認証のリセット</a>をしてください。
+    詳細については、<a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = この操作に覚えがない場合、すぐにパスワードをリセットしてください:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = 同時に、2 段階認証もリセットしてください:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = 最近、{ -brand-firefox } アドオンの開発者を標的としたフィッシングメール攻撃が発生しています。{ -product-mozilla-account }に関するメールを <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> 以外から送信することはありません。
+banner-warning-message-plaintext = 最近、{ -brand-firefox } アドオンの開発者を標的としたフィッシングメール攻撃が発生しています。次のメールアドレス以外から { -product-mozilla-account }に関するメールを送信することはありません:
+banner-warning-check = ログインした端末と位置情報が正しいことを確認してください。
 brand-banner-message = アカウントの名称が { -product-firefox-accounts } から { -product-mozilla-accounts } に変更されたことをご存知ですか？ <a data-l10n-name="learnMore">詳細</a>
 cancellationSurvey = この <a data-l10n-name="cancellationSurveyUrl">簡単なアンケート</a> に回答して、サービスの改善にご協力ください。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -205,6 +218,12 @@ subscriptionUpdatePayment = サービスの中断を防ぐため、できるだ�
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = 詳細については、<a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = 詳細については、{ -brand-mozilla } サポートをご覧ください: { $supportUrl }
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -213,6 +232,19 @@ device-all = { $uaOS } { $uaOSVersion } 上の { $uaBrowser }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS } 上の { $uaBrowser }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }、{ $stateCode }、{ $country } (おおよその位置)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $country }、{ $city } (おおよその位置)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }、{ $country } (おおよその位置)
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -305,6 +337,7 @@ passwordChanged-subject = パスワードを更新しました
 passwordChanged-title = パスワード変更完了
 passwordChanged-description-2 = あなたの { -product-mozilla-account }のパスワードが次の端末から変更されました:
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
+passwordChangeRequired-preview = すぐにパスワードを変更してください
 password-forgot-otp-title = パスワードをお忘れですか？
 password-forgot-otp-request = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:
 password-forgot-otp-code-2 = その場合、次の確認コードを使用してください:
@@ -321,6 +354,7 @@ passwordResetAccountRecovery-information = 同期されていたすべての端�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = 同期されていたすべての端末からログアウトしました。使用したアカウント回復用キーを置き換える新しいキーを作成しました。アカウント設定から変更できます:
 passwordResetAccountRecovery-action-4 = アカウント管理
+passwordResetRecoveryPhone-subject = 回復用電話番号を使用しました
 passwordResetWithRecoveryKeyPrompt-subject = あなたのパスワードはリセットされました
 passwordResetWithRecoveryKeyPrompt-title = あなたのパスワードはリセットされました
 # Details of the device and date/time where the password was reset
