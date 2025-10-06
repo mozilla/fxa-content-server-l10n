@@ -761,6 +761,17 @@ modal-default-confirm-button = Moneĩ
 
 modal-mfa-protected-title = Emoinge ayvu ñemoneĩrã
 modal-mfa-protected-subtitle = Ore pytyvõ roikuaa hag̃ua ndeha emoambuéva ne mba’ete marandu.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Ehai ayvu ohóva <email>{ $email }</email>-pe { $expirationTime } aravo’i pa’ũme.
+       *[other] Ehai ayvu ohóva <email>{ $email }</email>-pe { $expirationTime } aravo’ieta pa’ũme.
+    }
 modal-mfa-protected-input-label = Emoinge ayvu 6 taíva
 modal-mfa-protected-cancel-button = Heja
 modal-mfa-protected-confirm-button = Moneĩ
