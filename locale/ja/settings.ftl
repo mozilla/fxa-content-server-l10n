@@ -91,6 +91,13 @@ datablock-copy =
 datablock-print =
     .message = 印刷済み
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success = コードをコピーしました
+datablock-download-success = コードをダウンロードしました
+datablock-print-success = コードを印刷しました
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -128,6 +135,10 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = 新しいパスワードの確認
 form-password-with-inline-criteria-reset-submit-button = 新しいパスワードを作成
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = パスワード
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = パスワードを再入力してください
 form-password-with-inline-criteria-match-error = パスワードが一致しません
 form-password-with-inline-criteria-sr-too-short-message = パスワードは 8 文字以上にする必要があります。
 form-password-with-inline-criteria-sr-not-email-message = パスワードにメールアドレスを含めることはできません。
@@ -656,7 +667,7 @@ modal-default-confirm-button = 確認
 
 ## ModalMfaProtected
 
-modal-mfa-protected-title = 確認コードの入力
+modal-mfa-protected-title = 確認コードを入力してください
 modal-mfa-protected-subtitle = アカウント情報を変更しようとしているのがあなた本人であることを確認します
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
@@ -695,6 +706,7 @@ nav-email-comm = メールの設定管理
 
 ## Page2faChange
 
+page-2fa-change-success = 2 段階認証が更新されました
 page-2fa-change-qr-instruction = <strong>ステップ 1:</strong> 認証アプリ (Duo や Google Authenticator など) を使用して、この QR コードをスキャンしてください。これにより新しい設定が作成され、以前の設定は機能しなくなります。
 
 ## Two Step Authentication - replace backup authentication code
@@ -705,6 +717,10 @@ tfa-backup-codes-page-title = バックアップ認証コード
 tfa-replace-code-error-3 = バックアップ認証コードの差し替え時に問題が発生しました
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = バックアップ認証コードの生成時に問題が発生しました
+
+## Page2faSetup
+
+page-2fa-setup-success = 2 段階認証が有効化されました
 
 ## Avatar change page
 
