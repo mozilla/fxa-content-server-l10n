@@ -113,7 +113,7 @@ automated-email-support-plaintext = 若需更多資訊，請造訪 { -brand-mozi
 automated-email-inactive-account = 這是一封系統自動寄出的郵件，您會收到是因為曾經註冊 { -product-mozilla-account }，並且已經超過 2 年未登入。
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
-automated-email-no-action-plaintext = 這是一封自動寄發的郵件。若您意外收到這封郵件，可直接忽略。
+automated-email-no-action-plaintext = 這是一封自動寄發的郵件。若您意外收到這封郵件可直接忽略。
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = 這是一封自動發出的郵件。若您並未進行此操作，請立刻修改密碼：
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
