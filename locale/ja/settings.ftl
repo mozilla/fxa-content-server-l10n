@@ -656,6 +656,19 @@ modal-default-confirm-button = 確認
 
 ## ModalMfaProtected
 
+modal-mfa-protected-title = 確認コードの入力
+modal-mfa-protected-subtitle = アカウント情報を変更しようとしているのがあなた本人であることを確認します
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction = { $expirationTime } 分以内に <email>{ $email }</email> 宛に送信されたコードを入力してください。
+modal-mfa-protected-input-label = 6 桁のコードを入力
+modal-mfa-protected-cancel-button = キャンセル
+modal-mfa-protected-confirm-button = 確認
+modal-mfa-protected-code-expired = コードの有効期限が切れていますか？
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = 新しいコードをメールに送信する。
 

@@ -351,7 +351,7 @@ passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-title = パスワードをお忘れですか？
 password-forgot-otp-request = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:
 password-forgot-otp-code-2 = その場合、次の確認コードを使用してください:
-password-forgot-otp-expiry-notice = このコードの有効期限は 10分です。
+password-forgot-otp-expiry-notice = このコードの有効期限は 10 分です。
 passwordReset-subject-2 = あなたのパスワードはリセットされました
 passwordReset-title-2 = パスワードがリセットされました
 # This sentence is followed by information about the device and time of the password reset
