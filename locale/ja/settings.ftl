@@ -1524,6 +1524,8 @@ confirm-signup-code-page-title = 確認コードの入力
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = <span>{ -product-mozilla-account }</span> の確認コードを入力してください
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = 5 分以内に <email>{ $email }</email> 宛に送信されたコードを入力してください。
 confirm-signup-code-input-label = 6 桁のコードを入力してください
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 確認
