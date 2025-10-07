@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Banner component
+
+resend-code-success-banner-heading = 新しいコードをメールに送信しました。
+resend-link-success-banner-heading = 新しいリンクをメールに送信しました。
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = 確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
+
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
@@ -646,6 +653,11 @@ nav-linked-accounts = { la-heading }
 modal-close-title = 閉じる
 modal-cancel-button = キャンセル
 modal-default-confirm-button = 確認
+
+## ModalMfaProtected
+
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = 新しいコードをメールに送信する。
 
 ## Modal Verify Session
 
@@ -1481,6 +1493,7 @@ signin-token-code-code-expired = コードの有効期限が切れています�
 signin-token-code-resend-code-link = 新しいコードをメールに送信する。
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = 確認コードが必要です
+signin-token-code-resend-error = エラーが発生しました。新しいコードを送信できませんでした。
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
