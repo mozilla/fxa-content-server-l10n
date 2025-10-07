@@ -292,6 +292,7 @@ subscription-content-current-billed-on-tax = <strong>Khoản tiền { $invoiceTo
 subscription-content-current-billed-on-no-tax = <strong>Khoản tiền { $invoiceTotal }</strong><span> đã được lập hoá đơn vào ngày { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tín dụng được cấp vào tài khoản của bạn
 subscription-content-coupon-applied = { $promotionName } đã được áp dụng
+subscription-content-coupon-will-be-applied = Giảm giá { $promotionName } sẽ được áp dụng
 subscription-content-next-bill-excl-disc-with-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal } + { $taxDue } thuế</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal }</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Hủy đăng ký
