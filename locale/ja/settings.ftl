@@ -1442,6 +1442,17 @@ reset-password-complete-header = パスワードがリセットされました
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } へ進む
 
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
+password-reset-recovery-method-header = パスワードのリセット
+password-reset-recovery-method-subheader = 回復方法を選択してください
+password-reset-recovery-method-phone = 回復用電話番号
+password-reset-recovery-method-code = バックアップ認証コード
+
 ## ResetPasswordRecoveryPhone page
 
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
