@@ -1212,6 +1212,7 @@ auth-error-102 = חשבון לא ידוע
 auth-error-103 = ססמה שגויה
 auth-error-105-2 = קוד אימות שגוי
 auth-error-110 = אסימון לא חוקי
+auth-error-110-2 = הפעלה לא חוקית. נא להתנתק ולהתחבר שוב.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = ניסית  יותר מידי פעמים. נא לנסות שוב מאוחר יותר.
@@ -1224,6 +1225,7 @@ auth-error-114 = ניסית להתחבר יותר מידי פעמים. נא לנ
 auth-error-125 = הבקשה נחסמה מסיבות אבטחה
 auth-error-129-2 = הכנסת מספר טלפון לא חוקי. נא לבדוק אותו ולנסות שוב.
 auth-error-138-2 = הפעלה בלתי מאומתת
+auth-error-138-3 = הפעלה לא מאומתת. נא להתנתק ולהתחבר שוב.
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא
 auth-error-159 = מפתח שחזור חשבון שגוי
