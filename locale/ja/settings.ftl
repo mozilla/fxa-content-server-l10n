@@ -419,6 +419,7 @@ bento-menu-title-3 = { -brand-mozilla } の製品
 bento-menu-tagline = プライバシーを保護する他の { -brand-mozilla } の製品
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = デスクトップ向け { -brand-firefox } ブラウザー
 bento-menu-firefox-mobile = モバイル向け { -brand-firefox } ブラウザー
@@ -804,11 +805,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } データの同期
 delete-account-product-firefox-addons = { -brand-firefox } のアドオン
 delete-account-acknowledge = アカウントを削除する前に、以下の事項をご確認ください:
+delete-account-chk-box-1-v3 =
+    .label = 有料サブスクリプションがあればキャンセルされます ({ -product-pocket } を除く)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 製品内に保存された情報と機能が失われる可能性があります
 delete-account-chk-box-3 =
@@ -818,6 +822,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = 続ける
 delete-account-password-input =
     .label = パスワードを入力してください
+pocket-delete-notice = Pocket Premium を購読している場合は、アカウントを削除する前に必ず <a>購読をキャンセル</a> してください。
+pocket-delete-notice-marketing = Mozilla Corporation および Mozilla Foundation からのマーケティング メールの受信を停止するには、<a>マーケティングデータの削除をリクエスト</a>する必要があります。
 delete-account-cancel-button = キャンセル
 delete-account-delete-button-2 = 削除
 
@@ -1094,6 +1100,8 @@ tfa-row-cannot-disable-2 = 2 段階認証を無効化できませんでした
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 続けることにより、次のことに同意したものとみなされます:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>サービス利用規約</pocketTos> および <pocketPrivacy>プライバシー通知</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } サブスクリプションサービスの <mozSubscriptionTosLink>利用規約</mozSubscriptionTosLink> および <mozSubscriptionPrivacyLink>プライバシー通知</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1195,6 +1203,7 @@ index-sync-header = { -product-mozilla-account }へ進む
 index-sync-subheader = { -brand-firefox } を使用しているすべての場所で、パスワード、タブ、ブックマークを同期しましょう。
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } へ進む
+index-subheader-with-logo = <span>{ $serviceLogo }</span> に進む
 index-subheader-default = アカウント設定に進む
 index-cta = ログインまたはアカウント登録
 index-account-info = { -product-mozilla-account }を使用すると、さらにプライバシーを保護する他の { -brand-mozilla } 製品にもアクセスできます。
@@ -1430,7 +1439,7 @@ password-reset-submit-button-2 = 続ける
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = パスワードがリセットされました
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } へ進む
 
 ## ResetPasswordRecoveryPhone page
@@ -1453,6 +1462,9 @@ signin-link-expired-message-2 = クリックしたリンクは有効期限が切
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> のパスワードを入力してください
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span> に進む
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } へ進む

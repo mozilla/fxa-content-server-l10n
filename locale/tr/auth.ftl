@@ -245,10 +245,10 @@ subscriptionSupportContact = { $productName } abonesi olduğunuz için teşekkü
 subscriptionSupportContact-plaintext = { $productName } abonesi olduğunuz için teşekkür ederiz. Aboneliğinizle ilgili bir sorunuz veya { $productName } hakkında daha fazla bilgiye ihtiyacınız varsa lütfen bizimle iletişime geçin:
 subscription-support-get-help = Aboneliğinizle ilgili yardım alın
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Aboneliğinizi yönetin</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Aboneliğinizi yönetin:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Destek birimine ulaşın</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Destek birimine ulaşın:
 subscriptionUpdateBillingEnsure = Ödeme yönteminizin ve hesap bilgilerinizin güncel olup olmadığını <a data-l10n-name="updateBillingUrl">buradan</a> kontrol edebilirsiniz.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

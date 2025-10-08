@@ -437,6 +437,7 @@ bento-menu-title-3 = Products da { -brand-mozilla }
 bento-menu-tagline = Ulteriurs products da { -brand-mozilla } che protegian tia sfera privata
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navigatur { -brand-firefox } per computers
 bento-menu-firefox-mobile = Navigatur { -brand-firefox } per apparats mobils
@@ -726,11 +727,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronisaziun da las datas da { -brand-firefox }
 delete-account-product-firefox-addons = Supplements da { -brand-firefox }
 delete-account-acknowledge = Considerescha, cun stizzar tes conto:
+delete-account-chk-box-1-v3 =
+    .label = Tut tes abunaments che custan vegnan annullads (cun excepziun da { -product-pocket })
 delete-account-chk-box-2 =
     .label = Perdas ti eventualmain infurmaziuns memorisadas e funcziuns che fan part da products da { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -740,6 +744,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Cuntinuar
 delete-account-password-input =
     .label = Endatar il pled-clav
+pocket-delete-notice = Sche ti abuneschas Pocket Premium, fa la segira che ti <a>annulleschas tes abunament</a> avant che ti stizzas tes conto.
+pocket-delete-notice-marketing = Per betg pli retschaiver e-mails da marketing da la Mozilla Corporation e da la Mozilla Foundation, stos ti <a>pretender che tias datas da marketing vegnian stizzadas</a>.
 delete-account-cancel-button = Interrumper
 delete-account-delete-button-2 = Stizzar
 
@@ -1058,6 +1064,8 @@ tfa-row-cannot-disable-2 = Impussibel da deactivar l'autentificaziun en dus pass
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Cun cuntinuar acceptas ti:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = Las <pocketTos>cundiziuns d'utilisaziun</pocketTos> e las <pocketPrivacy>infurmaziuns davart la protecziun da datas</pocketPrivacy> da { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = Las <mozSubscriptionTosLink>cundiziuns d’utilisaziun</mozSubscriptionTosLink> e las <mozSubscriptionPrivacyLink>infurmaziuns davart la protecziun da datas</mozSubscriptionPrivacyLink> dals servetschs d’abunament { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1185,6 +1193,7 @@ index-relay-header = Crear in alias dad e-mail
 index-relay-subheader = Inditgescha per plaschair l’adressa dad e-mail a la quala ti vuls trametter e-mails drizzads a tes alias.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Cuntinuar sin { $serviceName }
+index-subheader-with-logo = Cuntinuar sin <span>{ $serviceLogo }</span>
 index-subheader-default = Ir tar ils parameters dal conto
 index-cta = Sa registrar u s’annunziar
 index-account-info = In { -product-mozilla-account } dat era access ad ulteriurs products da { -brand-mozilla } che servan a la protecziun da datas.
@@ -1439,7 +1448,7 @@ password-reset-submit-button-2 = Cuntinuar
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Tes pled-clav è vegnì reinizialisà
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Cuntinuar vers { $serviceName }
 
 ## ResetPasswordRecoveryPhone page
@@ -1468,6 +1477,9 @@ signin-link-expired-message-2 = La colliaziun cliccada è scadida u ch’ella è
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Endatescha il pled-clav da <span>tes { -product-mozilla-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Cuntinuar cun <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Cuntinuar cun { $serviceName }
@@ -1684,5 +1696,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vegn ad empruvar da ta re
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = In pled-clav è necessari per administrar a moda segira tes e-mails cun alias e per pudair acceder als utensils da segirezza da { -brand-mozilla }.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Pertge stoss jau crear quest conto?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Ve a savair quai qua
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Midar l'adressa dad e-mail

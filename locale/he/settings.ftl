@@ -466,6 +466,7 @@ bento-menu-title-3 = מוצרי { -brand-mozilla }
 bento-menu-tagline = מוצרים נוספים מ־{ -brand-mozilla } שמגנים על הפרטיות שלך
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = דפדפן ‏{ -brand-firefox } למחשבים שולחניים
 bento-menu-firefox-mobile = דפדפן ‏{ -brand-firefox } לטלפונים ניידים
@@ -863,13 +864,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account(case: "a") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = בתהליך סנכרון נתוני { -brand-firefox }
 delete-account-product-firefox-addons = תוספות של { -brand-firefox }
 delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
-delete-account-chk-box-1-v4 =
-    .label = כל המינויים בתשלום שיש לך יבוטלו
+delete-account-chk-box-1-v3 =
+    .label = כל המינויים בתשלום שיש לך יבוטלו (למעט { -product-pocket })
 delete-account-chk-box-2 =
     .label = מידע ותכונות שנשמרו במוצרי { -brand-mozilla } עלולים להיאבד
 delete-account-chk-box-3 =
@@ -879,6 +881,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = המשך
 delete-account-password-input =
     .label = נא להכניס ססמה
+pocket-delete-notice = אם נרשמת כמינוי ל־Pocket Premium, נא לוודא <a>שיבוצע ביטול של המינוי </a> לפני מחיקת החשבון שלך.
+pocket-delete-notice-marketing = כדי להפסיק לקבל דוא״ל שיווקיים מ־Mozilla Corporation ומ־Mozilla Foundation, יש <a>לבקש מחיקה של נתוני השיווק שלך.</a>
 delete-account-cancel-button = ביטול
 delete-account-delete-button-2 = מחיקה
 
@@ -1180,6 +1184,8 @@ tfa-row-verify-session-info = עליך לאמת את ההפעלה הנוכחית
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = המשך התהליך מהווה הסכמה ל:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>תנאי השירות</pocketTos> ו<pocketPrivacy>הצהרת הפרטיות</pocketPrivacy> של { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>תנאי השירות</mozSubscriptionTosLink> ו<mozSubscriptionPrivacyLink>הצהרת הפרטיות</mozSubscriptionPrivacyLink> של שירותי המינויים של { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1307,6 +1313,7 @@ index-relay-header = יצירת מסיכת דוא״ל
 index-relay-subheader = נא לספק את כתובת הדוא״ל שאליה ברצונך להעביר הודעות דוא״ל מהדוא״ל המסוכה שלך.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = המשך אל { $serviceName }
+index-subheader-with-logo = המשך אל <span>{ $serviceLogo }</span>
 index-subheader-default = המשך אל הגדרות החשבון
 index-cta = הרשמה או התחברות
 index-account-info = { -product-mozilla-account(case: "a") } גם פותח גישה למוצרים נוספים המגנים על הפרטיות, מבית { -brand-mozilla }.
@@ -1570,7 +1577,7 @@ password-reset-submit-button-2 = המשך
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = הססמה שלך אופסה
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = המשך אל { $serviceName }
 
 ## Reset password recovery method page
@@ -1633,6 +1640,9 @@ signin-link-expired-message-2 = פג תוקף הקישור עליו לחצת, א
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = נא להכניס את הססמה שלך <span>עבור { -product-mozilla-account(case: "the") } שלך</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = המשך אל <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = המשך אל { $serviceName }
@@ -1856,6 +1866,11 @@ signup-heading-v2 = יצירת ססמה
 signup-relay-info = יש צורך בססמה כדי לנהל בצורה מאובטחת את חשבונות הדוא״ל המסוכות שלך ולגשת לכלי האבטחה של { -brand-mozilla }.
 signup-sync-info = סנכרון הססמאות, הסימניות ועוד, בכל מקום בו יש לך את { -brand-firefox }.
 signup-sync-info-with-payment = סנכרון הססמאות, אמצעי התשלום, הסימניות ועוד, בכל מקום בו יש לך את { -brand-firefox }.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = מדוע עליי ליצור חשבון זה?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = ניתן למצוא את ההסבר כאן
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = שינוי כתובת דוא״ל
 

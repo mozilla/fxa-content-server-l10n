@@ -111,6 +111,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-made-by-mozilla = B'anon ruma { -brand-mozilla }
 
@@ -261,6 +262,7 @@ delete-account-step-2-2 = 2 xak richin 2
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-addons = { -brand-firefox } Taq tz'aqat
 delete-account-acknowledge = Tanataj chi toq nayüj el ri rub'i' ataqoya'l:

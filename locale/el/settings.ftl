@@ -482,6 +482,7 @@ bento-menu-title-3 = Προϊόντα { -brand-mozilla }
 bento-menu-tagline = Περισσότερα προϊόντα από τη { -brand-mozilla } που προστατεύουν το απόρρητό σας
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } για υπολογιστές
 bento-menu-firefox-mobile = { -brand-firefox } για κινητές συσκευές
@@ -907,13 +908,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account(case: "nom",
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Συγχρονισμός δεδομένων { -brand-firefox }
 delete-account-product-firefox-addons = Πρόσθετα { -brand-firefox }
 delete-account-acknowledge = Σημειώστε ότι η διαγραφή του λογαριασμού σας:
-delete-account-chk-box-1-v4 =
-    .label = Όλες οι επί πληρωμή συνδρομές σας θα ακυρωθούν
+delete-account-chk-box-1-v3 =
+    .label = Θα ακυρωθούν τυχόν επί πληρωμή συνδρομές σας (εκτός του { -product-pocket })
 delete-account-chk-box-2 =
     .label = Ενδέχεται να χάσετε τις αποθηκευμένες πληροφορίες και λειτουργίες από τα προϊόντα { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -923,6 +925,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Συνέχεια
 delete-account-password-input =
     .label = Εισαγωγή κωδικού πρόσβασης
+pocket-delete-notice = Εάν διαθέτετε συνδρομή στο Pocket Premium, φροντίστε να <a>ακυρώσετε τη συνδρομή σας</a> προτού διαγράψετε τον λογαριασμό σας.
+pocket-delete-notice-marketing = Για να διακόψετε τη λήψη διαφημιστικών email από τη Mozilla Corporation και το Mozilla Foundation, πρέπει να <a>αιτηθείτε τη διαγραφή των δεδομένων μάρκετινγκ.</a>
 delete-account-cancel-button = Ακύρωση
 delete-account-delete-button-2 = Διαγραφή
 
@@ -1058,8 +1062,14 @@ inactive-update-status-success-alert = Έγινε επιτυχής σύνδεσ�
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τον έλεγχό τους
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Με { $price }/μήνα, εξοικονομήστε χρήματα στο { -product-mozilla-vpn-short }, την προστασία από εμπόρους δεδομένων του { -product-mozilla-monitor-short } και τις απεριόριστες μάσκες email του { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Δωρεάν σάρωση
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Λάβετε προστασία όλο τον χρόνο
 
 ## Profile section
 
@@ -1248,6 +1258,8 @@ tfa-row-verify-session-info = Θα χρειαστεί να επιβεβαιώσ�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Συνεχίζοντας, συμφωνείτε με:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = τους <pocketTos>Όρους υπηρεσίας</pocketTos> και τη <pocketPrivacy>Σημείωση απορρήτου</pocketPrivacy> του { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Όροι υπηρεσίας</mozSubscriptionTosLink> και <mozSubscriptionPrivacyLink>Σημείωση απορρήτου</mozSubscriptionPrivacyLink> των συνδρομητικών υπηρεσιών της { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1379,6 +1391,7 @@ index-relay-header = Δημιουργία μάσκας email
 index-relay-subheader = Εισαγάγετε τη διεύθυνση email όπου θα θέλατε να προωθούνται τα email από τη μάσκα email σας.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Συνέχεια στο { $serviceName }
+index-subheader-with-logo = Συνέχεια στο <span>{ $serviceLogo }</span>
 index-subheader-default = Συνέχεια στις ρυθμίσεις λογαριασμού
 index-cta = Εγγραφή ή σύνδεση
 index-account-info = Ένας { -product-mozilla-account(case: "nom", capitalization: "lower") } ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της { -brand-mozilla } που προστατεύουν το απόρρητό σας.
@@ -1650,7 +1663,7 @@ password-reset-submit-button-2 = Συνέχεια
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Συνέχεια στο { $serviceName }
 
 ## Reset password recovery method page
@@ -1719,6 +1732,9 @@ signin-link-expired-message-2 = Ο σύνδεσμος στον οποίο κάν
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Εισαγάγετε τον κωδικό πρόσβασης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Συνέχεια στο <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Συνέχεια στο { $serviceName }
@@ -1948,6 +1964,11 @@ signup-heading-v2 = Δημιουργία κωδικού πρόσβασης
 signup-relay-info = Απαιτείται ένας κωδικός πρόσβασης για τη διαχείριση των μασκών email σας και την πρόσβαση στα εργαλεία ασφαλείας της { -brand-mozilla }.
 signup-sync-info = Συγχρονίστε τους κωδικούς πρόσβασης, τους σελιδοδείκτες και πολλά άλλα, σε όποια συσκευή χρησιμοποιείτε το { -brand-firefox }.
 signup-sync-info-with-payment = Συγχρονίστε τους κωδικούς πρόσβασης, τις μεθόδους πληρωμής, τους σελιδοδείκτες και πολλά άλλα, σε όποια συσκευή χρησιμοποιείτε το { -brand-firefox }.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό;
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Μάθετέ το εδώ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Αλλαγή email
 

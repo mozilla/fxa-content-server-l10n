@@ -276,10 +276,10 @@ subscriptionSupportContact = Σας ευχαριστούμε για την εγ�
 subscriptionSupportContact-plaintext = Σας ευχαριστούμε για την εγγραφή σας στο { $productName }. Αν έχετε οποιαδήποτε απορία σχετικά με τη συνδρομή σας ή αν χρειάζεστε περισσότερες πληροφορίες σχετικά με το { $productName }, επικοινωνήστε μαζί μας:
 subscription-support-get-help = Λάβετε βοήθεια με τη συνδρομή σας
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Διαχειριστείτε τη συνδρομή σας</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Διαχειριστείτε τη συνδρομή σας:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Επικοινωνία με την υποστήριξη</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Επικοινωνία με την υποστήριξη:
 subscriptionUpdateBillingEnsure = Μπορείτε να εξασφαλίσετε ότι η μέθοδος πληρωμής και τα στοιχεία του λογαριασμού σας είναι ενημερωμένα <a data-l10n-name="updateBillingUrl">εδώ</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

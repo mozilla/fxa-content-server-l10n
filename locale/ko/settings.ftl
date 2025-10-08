@@ -465,6 +465,7 @@ bento-menu-title-3 = { -brand-mozilla } 제품
 bento-menu-tagline = 사용자의 개인 정보를 보호하는 더 많은 { -brand-mozilla }의 제품
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = 데스크톱 용 { -brand-firefox } 브라우저
 bento-menu-firefox-mobile = 모바일 용 { -brand-firefox } 브라우저
@@ -841,11 +842,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } 데이터 동기화
 delete-account-product-firefox-addons = { -brand-firefox } 부가 기능
 delete-account-acknowledge = 계정 삭제 전 다음 사항에 유의하세요.
+delete-account-chk-box-1-v3 =
+    .label = { -product-pocket }을 제외한 모든 유료 구독이 취소됩니다.
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 제품에 포함된 저장 정보와 기능을 잃을 수 있습니다.
 delete-account-chk-box-3 =
@@ -855,6 +859,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = 계속하기
 delete-account-password-input =
     .label = 비밀번호 입력
+pocket-delete-notice = Pocket Premium에 가입한 경우 계정을 삭제하기 전에 <a>구독을 취소</a>하세요.
+pocket-delete-notice-marketing = Mozilla Corporation 및 Mozilla Foundation에서 마케팅 이메일을 더 이상 받지 않으려면 <a>마케팅 데이터 삭제를 요청</a>해야 합니다.
 delete-account-cancel-button = 취소
 delete-account-delete-button-2 = 삭제
 
@@ -1174,6 +1180,8 @@ tfa-row-cannot-disable-2 = 2단계 인증을 비활성화할 수 없습니다.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 계속 진행하면 다음 사항에 동의하게 됩니다:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>이용 약관</pocketTos> 및 <pocketPrivacy>개인정보 보호정책</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } 구독 서비스 <mozSubscriptionTosLink>이용 약관</mozSubscriptionTosLink> 및 <mozSubscriptionPrivacyLink>개인정보 보호정책</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1302,6 +1310,7 @@ index-relay-header = 이메일 마스크 생성
 index-relay-subheader = 마스킹된 이메일에서 받은 이메일을 전달할 이메일 주소를 입력해 주세요.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName }로 계속
+index-subheader-with-logo = <span>{ $serviceLogo }</span>로 계속
 index-subheader-default = 계정 설정 계속하기
 index-cta = 가입 또는 로그인
 index-account-info = { -product-mozilla-account }를 사용하면 { -brand-mozilla }의 더 많은 개인 정보 보호 제품에 접근할 수 있습니다.
@@ -1557,7 +1566,7 @@ password-reset-submit-button-2 = 계속
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = 비밀번호가 재설정되었습니다
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName }로 계속
 
 ## Reset password recovery method page
@@ -1603,6 +1612,9 @@ signin-link-expired-message-2 = 클릭한 링크가 만료되었거나 이미 �
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span> 비밀번호를 입력하세요
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span>로 계속
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName }로 계속
@@ -1783,5 +1795,10 @@ confirm-signup-code-is-required-error = 확인 코드가 필요합니다.
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = 안전하게 가려진 이메일을 관리하고 { -brand-mozilla }의 보안 도구에 접근하려면 비밀번호가 필요합니다.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = 왜 이 계정을 만들어야 하나요?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = 자세히 보기
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 이메일 변경

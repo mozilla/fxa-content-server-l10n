@@ -461,6 +461,7 @@ bento-menu-title-3 = { -brand-mozilla }-tuotteet
 bento-menu-tagline = Lisää yksityisyyttäsi suojaavia tuotteita { -brand-mozilla }lta
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-selain työpöydälle
 bento-menu-firefox-mobile = { -brand-firefox }-selain mobiililaitteille
@@ -806,11 +807,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkronoidaan { -brand-firefox }-tietoja
 delete-account-product-firefox-addons = { -brand-firefox }-lisäosat
 delete-account-acknowledge = Huomioi, että tilisi poistamalla:
+delete-account-chk-box-1-v3 =
+    .label = Kaikki käytössäsi olevat maksulliset tilaukset perutaan ({ -product-pocket } pois lukien)
 delete-account-chk-box-2 =
     .label = Saatat menettää { -brand-mozilla }n tuotteisiin tallennetut tiedot ja ominaisuudet
 delete-account-chk-box-3 =
@@ -820,6 +824,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Jatka
 delete-account-password-input =
     .label = Kirjoita salasana
+pocket-delete-notice = Jos tilaat tai olet tilannut Pocket Premiumin, varmista, että <a>peruutat tilauksesi</a> ennen tilisi poistamista.
 delete-account-cancel-button = Peruuta
 delete-account-delete-button-2 = Poista
 
@@ -1107,6 +1112,8 @@ tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöst�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Jatkamalla hyväksyt:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket }in <pocketTos>käyttöehdot</pocketTos> ja <pocketPrivacy>tietosuojakäytännön</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla }n tilauspalvelujen <mozSubscriptionTosLink>käyttöehdot</mozSubscriptionTosLink> ja <mozSubscriptionPrivacyLink>tietosuojakäytäntö</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1227,6 +1234,7 @@ index-relay-header = Luo sähköpostimaski
 index-relay-subheader = Anna sähköpostiosoite, johon haluat välittää sähköpostiviestit sähköpostimaskistasi.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Jatka palveluun { $serviceName }
+index-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
 index-subheader-default = Jatka tilin asetuksiin
 index-cta = Rekisteröidy tai kirjaudu sisään
 index-email-input =
@@ -1473,7 +1481,7 @@ password-reset-submit-button-2 = Jatka
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Salasanasi on nollattu
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Jatka palveluun { $serviceName }
 
 ## Reset password recovery method page
@@ -1527,6 +1535,9 @@ signin-link-expired-message-2 = Napsautamasi linkki on vanhentunut tai se on jo 
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Anna <span>{ -product-mozilla-account }si</span> salasana
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Jatka palveluun { $serviceName }
@@ -1713,6 +1724,11 @@ confirm-signup-code-is-required-error = Vahvistuskoodi vaaditaan
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading-v2 = Luo salasana
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Miksi minun pitää luoda tämä tili?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Lue lisää
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Vaihda sähköpostiosoite
 

@@ -198,10 +198,10 @@ subscriptionSupport-plaintext = Isteqsiyen ɣer ujerred-ik? Tarbeɛt-nneɣ n tal
 subscriptionSupportContact = Tanemmirt imi tjerrdeḍ ɣer { $productName }. Ma tesɛiḍ isteqsiyen ɣef ujerred-ik•im neɣ tuḥwaǧeḍ ugar telɣut ɣef { $productName }, ttxil <a data-l10n-name="subscriptionSupportUrl">nermes-aɣ-d</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Tanemmirt imi tjerrdeḍ ɣer{ $productName }. Ma tesɛiḍ isteqsiyen ɣef ujerred-ik•im neɣ tuḥwaǧeḍ ugar n telɣut ɣef{ $productName }, ttxil nermes-aɣ-d:
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Sefrek amulteɣ-ik⋅im:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Nermes tallalt</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Nermes tallalt:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Tzemreḍ ad tḍemneḍ tarrayt-ik·im n uxelleḍ d telɣut n umiḍan-ik·im ttwaleqqamen da:

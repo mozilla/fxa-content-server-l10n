@@ -272,10 +272,10 @@ subscriptionSupportContact = Aguyje eñemboheraguapýre { $productName } ndive. 
 subscriptionSupportContact-plaintext = Aguyje eñemboheraguapýre { $productName } ndive. Eporanduséramo ne ñemboheraguapýre térã eikotevẽve marandu { $productName } rehegua, ikatúpa eñe’ẽmi orendive:
 subscription-support-get-help = Eñepytyvõta ne mboheraguapy ndive
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Eñangareko ne ñemboheraguapy:</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Eñangareko ne ñemboheraguapy:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Eñe’ẽ pytyvõha ndive</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Eñe’ẽ pytyvõha aty ndive:
 subscriptionUpdateBillingEnsure = Eikuaáta mba’éichapa ehepyme’ẽta ha pe marandu ne mba’ete rehegua hekopyahúma <a data-l10n-name="updateBillingUrl">ápe</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

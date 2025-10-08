@@ -404,6 +404,7 @@ bento-menu-title-3 = Маҳсулоти «{ -brand-mozilla }»
 bento-menu-tagline = Маҳсулоти бештар аз «{ -brand-mozilla }», ки махфияти шуморо муҳофизат мекунанд
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Браузери «{ -brand-firefox }» барои мизи корӣ
 bento-menu-firefox-mobile = Браузери «{ -brand-firefox }» барои дастгоҳи мобилӣ
@@ -648,6 +649,7 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Ҳамоҳангсозии маълумоти «{ -brand-firefox }»
@@ -1056,7 +1058,7 @@ password-reset-submit-button-2 = Идома додан
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ниҳонвожаи шумо аз нав барқарор карда шуд
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Ба «{ $serviceName }» идома диҳед
 
 ## Reset password recovery method page
@@ -1102,6 +1104,9 @@ signin-link-expired-header = Муҳлати пайванди тасдиқи во
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Ба «<span>{ $serviceLogo }</span>» идома диҳед
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Ба «{ $serviceName }» идома диҳед

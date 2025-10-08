@@ -424,6 +424,7 @@ bento-menu-title-3 = { -brand-mozilla } proizvodi
 bento-menu-tagline = Daljnji { -brand-mozilla } proizvodi koji štite tvoju privatnost
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Preglednik { -brand-firefox } za računala
 bento-menu-firefox-mobile = Preglednik { -brand-firefox } za mobilne uređaje
@@ -663,6 +664,7 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sinkroniziranje { -brand-firefox } podataka
@@ -927,6 +929,8 @@ tfa-row-cannot-disable-2 = Nije bilo moguće deaktivirati autentifikaciju u dva 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Ako nastaviš, prihvaćaš:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>uvjete usluge</pocketTos> i <pocketPrivacy>napomene o privatnosti</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } usluge pretplate <mozSubscriptionTosLink>uvjeti usluge</mozSubscriptionTosLink> i <mozSubscriptionPrivacyLink>napomena o privatnosti</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1024,6 +1028,7 @@ cookies-disabled-learn-more = Saznaj više
 index-header = Upiši svoju e-mail adresu
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Nastavi na { $serviceName }
+index-subheader-with-logo = Nastavi na <span>{ $serviceLogo }</span>
 index-subheader-default = Nastavi na postavke računa
 index-cta = Registriraj se ili se prijavi
 index-email-input =
@@ -1194,6 +1199,9 @@ signin-link-expired-header = Poveznica potvrde je oštećena
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Upiši svoju lozinku <span>za tvoj { -product-mozilla-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Nastavi na <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Nastavi na { $serviceName }
@@ -1332,5 +1340,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } će te pokušati vratiti 
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = Za sigurno upravljanje tvojim maskiranim e-mail adresama i pristup sigurnosnim { -brand-mozilla } alatima je potrebna lozinka.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Zašto moram stvoriti ovaj račun?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Saznaj ovdje
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Promijeni e-mail adresu

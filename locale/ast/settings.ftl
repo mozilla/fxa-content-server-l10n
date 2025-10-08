@@ -6,6 +6,7 @@
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Restolador { -brand-firefox } pa ordenadores
 bento-menu-firefox-mobile = Restolador { -brand-firefox } pa móviles
@@ -109,6 +110,7 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-chk-box-4 =
     .label = Van desaniciase toles estensiones y estilos qu'espublizares n'addons.mozilla.org

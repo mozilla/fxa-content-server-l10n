@@ -278,10 +278,10 @@ subscriptionSupportContact = Hvala, ker ste se naročili na { $productName }. Č
 subscriptionSupportContact-plaintext = Hvala, ker ste se naročili na { $productName }. Če imate kakršnakoli vprašanja o naročnini ali če potrebujete več informacij o { $productName }, nam pišite:
 subscription-support-get-help = Poiščite pomoč za svojo naročnino
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Upravljanje naročnine</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Upravljajte naročnino:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Obrnite se na podporo</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Stopite v stik s podporo:
 subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Tukaj</a> lahko poskrbite, da so vaš način plačila in podatki o računu posodobljeni.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
