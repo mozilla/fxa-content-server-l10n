@@ -1510,6 +1510,7 @@ back = 戻る
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = ログイン
+signin-recovery-method-subheader = 回復方法を選択してください
 signin-recovery-method-phone = 回復用電話番号
 signin-recovery-method-code-v2 = バックアップ認証コード
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
