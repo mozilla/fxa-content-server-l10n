@@ -1290,6 +1290,7 @@ auth-error-102 = Njeznate konto
 auth-error-103 = Wopačne hesło
 auth-error-105-2 = Njepłaćiwy wobkrućenski kod
 auth-error-110 = Njepłaćiwy token
+auth-error-110-2 = Njepłaćiwe posedźenje. Prošu wotzjewće so a přizjewće so zaso.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Sće to přehusto spytał. Spytajće prošu pozdźišo hišće raz.
@@ -1302,6 +1303,7 @@ auth-error-114 = Sće to přehusto spytał. Spytajće za { $retryAfter } hišće
 auth-error-125 = Naprašowanje je so z přičinow wěstoty zablokowało
 auth-error-129-2 = Sće njepłaćiwe telefonowe čisło zapodał. Prošu přepruwujće jo a spytajće hišće raz.
 auth-error-138-2 = Njewobkrućene posedźenje
+auth-error-138-3 = Njewobkrućene posedźenje. Prošu wotzjewće so a přizjewće so zaso.
 auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać
 auth-error-155 = TOTP-token njeje so namakał
 # Error shown when the user submits an invalid backup authentication code

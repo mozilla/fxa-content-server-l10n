@@ -1290,6 +1290,7 @@ auth-error-102 = Njeznate konto
 auth-error-103 = Wopacne gronidło
 auth-error-105-2 = Njepłaśiwy wobkšuśeński kod
 auth-error-110 = Njepłaśiwy token
+auth-error-110-2 = Njepłaśiwe pósejźenje. Pšosym wótzjawśo se a pśizjawśo se zasej.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Sćo to pśecesto wopytał. Wopytajśo pšosym pózdźej hyšći raz.
@@ -1302,6 +1303,7 @@ auth-error-114 = Sćo wopytał to pśecesto. Wopytajśo za { $retryAfter } hyš�
 auth-error-125 = Napšašowanje jo se z pśicynow wěstoty zablokěrowało
 auth-error-129-2 = Sćo zapódał njepłaśiwy telefonowy numer. Pšosym pśeglědujśo jen a wopytajśo hyšći raz.
 auth-error-138-2 = Njewobkšuśone pósejźenje
+auth-error-138-3 = Njewobkšuśone pósejźenje. Pšosym wótzjawśo se a pśizjawśo se zasej.
 auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
 auth-error-155 = TOTP-token njejo se namakał
 # Error shown when the user submits an invalid backup authentication code
