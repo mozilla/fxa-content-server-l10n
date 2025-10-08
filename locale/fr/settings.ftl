@@ -1270,6 +1270,7 @@ auth-error-102 = Compte inconnu
 auth-error-103 = Mot de passe incorrect
 auth-error-105-2 = Code de confirmation invalide
 auth-error-110 = Jeton invalide
+auth-error-110-2 = Session invalide. Veuillez vous déconnecter puis vous reconnecter.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Vous avez effectué trop d’essais. Veuillez réessayer plus tard.
@@ -1282,6 +1283,7 @@ auth-error-114 = Vous avez effectué trop d’essais. Veuillez réessayer { $ret
 auth-error-125 = La requête a été bloquée par mesure de sécurité.
 auth-error-129-2 = Vous avez saisi un numéro de téléphone invalide. Veuillez le vérifier puis réessayer.
 auth-error-138-2 = Session non confirmée
+auth-error-138-3 = Session non confirmée. Veuillez vous déconnecter puis vous reconnecter.
 auth-error-139 = L’adresse alternative doit être différente de l’adresse de votre compte
 auth-error-155 = Jeton TOTP introuvable
 # Error shown when the user submits an invalid backup authentication code

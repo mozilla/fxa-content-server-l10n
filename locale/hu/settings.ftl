@@ -1282,6 +1282,7 @@ auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
 auth-error-105-2 = Érvénytelen megerősítő kód!
 auth-error-110 = Érvénytelen token
+auth-error-110-2 = Érvénytelen munkamenet. Jelentkezzen ki, majd jelentkezzen be újra.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Túl sokszor próbálkozott. Próbálja újra később.
@@ -1294,6 +1295,7 @@ auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter }.
 auth-error-125 = A kérés biztonsági okokból blokkolva lett
 auth-error-129-2 = Érvénytelen telefonszámot adott meg. Ellenőrizze, és próbálja újra.
 auth-error-138-2 = Meg nem erősített munkamenet
+auth-error-138-3 = Meg nem erősített munkamenet. Jelentkezzen ki, majd jelentkezzen be újra.
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
 # Error shown when the user submits an invalid backup authentication code

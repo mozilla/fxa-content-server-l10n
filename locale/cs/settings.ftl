@@ -1280,6 +1280,7 @@ auth-error-102 = Neznámý účet
 auth-error-103 = Nesprávné heslo
 auth-error-105-2 = Špatný potvrzovací kód
 auth-error-110 = Neplatný token
+auth-error-110-2 = Neplatná relace. Odhlaste se prosím a znovu se přihlaste.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Vyčerpali jste příliš mnoho pokusů. Prosím zkuste to znovu později.
@@ -1292,6 +1293,7 @@ auth-error-114 = Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu { $ret
 auth-error-125 = Z bezpečnostních důvodů byl požadavek zablokován
 auth-error-129-2 = Vložili jste neplatné telefonní číslo. Zkontrolujte ho a zkuste to znovu.
 auth-error-138-2 = Nepotvrzená relace
+auth-error-138-3 = Nepotvrzená relace. Odhlaste se prosím a znovu se přihlaste.
 auth-error-139 = Záložní e-mailová adresa musí být jiná než adresa účtu
 auth-error-155 = TOTP token nenalezen
 # Error shown when the user submits an invalid backup authentication code

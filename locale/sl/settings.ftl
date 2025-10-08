@@ -1290,6 +1290,7 @@ auth-error-102 = Neznan račun
 auth-error-103 = Napačno geslo
 auth-error-105-2 = Neveljavna potrditvena koda
 auth-error-110 = Neveljaven žeton
+auth-error-110-2 = Neveljavna seja. Prosimo, odjavite se in se ponovno prijavite.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Preveč poskusov. Poskusite znova pozneje.
@@ -1302,6 +1303,7 @@ auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-125 = Zahteva je bila zavrnjena iz varnostnih razlogov
 auth-error-129-2 = Vnesli ste neveljavno telefonsko številko. Preverite in poskusite znova.
 auth-error-138-2 = Nepotrjena seja
+auth-error-138-3 = Nepotrjena seja. Prosimo, odjavite se in se ponovno prijavite.
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
 # Error shown when the user submits an invalid backup authentication code

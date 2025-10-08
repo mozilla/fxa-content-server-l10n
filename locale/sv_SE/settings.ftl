@@ -1280,6 +1280,7 @@ auth-error-102 = Okänt konto
 auth-error-103 = Felaktigt lösenord
 auth-error-105-2 = Ogiltig bekräftelsekod
 auth-error-110 = Ogiltig tecken
+auth-error-110-2 = Ogiltig session. Logga ut och logga in igen.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Du har försökt för många gånger. Vänligen försök igen senare.
@@ -1292,6 +1293,7 @@ auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAft
 auth-error-125 = Begäran blockerades av säkerhetsskäl
 auth-error-129-2 = Du angav ett ogiltigt telefonnummer. Kontrollera och försök igen.
 auth-error-138-2 = Obekräftad session
+auth-error-138-3 = Obekräftad session. Logga ut och logga in igen.
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
 # Error shown when the user submits an invalid backup authentication code

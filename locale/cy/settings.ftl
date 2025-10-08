@@ -1296,6 +1296,7 @@ auth-error-102 = Cyfrif anhysbys
 auth-error-103 = Cyfrinair anghywir
 auth-error-105-2 = Cod cadarnhau annilys
 auth-error-110 = Tocyn annilys
+auth-error-110-2 = Sesiwn annilys. Allgofnodwch a mewngofnodwch eto.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Rydych chi wedi ceisio gormod o weithiau. Ceisiwch eto yn nes ymlaen.
@@ -1308,6 +1309,7 @@ auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { 
 auth-error-125 = Cafodd y cais ei rwystro am resymau diogelwch
 auth-error-129-2 = Rydych wedi rhoi rhif ffôn annilys. Gwiriwch ef a rhowch gynnig arall arni.
 auth-error-138-2 = Sesiwn heb ei gadarnhau
+auth-error-138-3 = Sesiwn Heb ei Gadarnhau. Allgofnodwch a mewngofnodwch eto.
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
 # Error shown when the user submits an invalid backup authentication code
