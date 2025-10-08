@@ -1149,6 +1149,11 @@ auth-error-1011 = 有効なメールアドレスが必要です
 auth-error-1031 = 登録するには年齢を入力してください
 auth-error-1032 = 登録するには有効な年齢を入力する必要があります
 auth-error-1062 = リダイレクトが無効です
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = 末尾が { $lastFourPhoneNumber } の電話番号
 oauth-error-1000 = エラーが発生しました。このタブを閉じて、もう一度試してください。
 
 ## Cannot Create Account page
@@ -1400,6 +1405,7 @@ complete-reset-password-error-alert = 申し訳ありませんが、パスワー
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-confirm-button = 確認
 
 ## Confirm Reset Password With Code
 
@@ -1450,11 +1456,18 @@ reset-password-confirmed-cta = { $serviceName } へ進む
 
 password-reset-recovery-method-header = パスワードのリセット
 password-reset-recovery-method-subheader = 回復方法を選択してください
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = 登録している回復方法であなたかどうかを確認します。
 password-reset-recovery-method-phone = 回復用電話番号
 password-reset-recovery-method-code = バックアップ認証コード
 
 ## ResetPasswordRecoveryPhone page
 
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = 下 4 桁が <span>{ $lastFourPhoneDigits }</span> の電話番号にテキストメッセージで 6 桁のコードを送信しました。このコードは 5 分間で有効期限切れになります。コードは誰とも共有しないでください。
+reset-password-recovery-phone-input-label = 6 桁のコードを入力
+reset-password-recovery-phone-code-submit-button = 確認
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 
 ## CompleteSignin component
@@ -1511,6 +1524,7 @@ back = 戻る
 
 signin-recovery-method-header = ログイン
 signin-recovery-method-subheader = 回復方法を選択してください
+signin-recovery-method-details = 登録している回復方法であなたかどうかを確認します。
 signin-recovery-method-phone = 回復用電話番号
 signin-recovery-method-code-v2 = バックアップ認証コード
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
@@ -1533,6 +1547,9 @@ signin-recovery-code-required-error = バックアップ認証コードが必要
 ## SigninRecoveryPhone page
 
 signin-recovery-phone-flow-heading = ログイン
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = 下 4 桁が <span>{ $lastFourPhoneDigits }</span> の電話番号にテキストメッセージで 6 桁のコードを送信しました。このコードは 5 分間で有効期限切れになります。コードは誰とも共有しないでください。
 signin-recovery-phone-input-label = 6 桁のコードを入力
 signin-recovery-phone-code-submit-button = 確認
 signin-recovery-phone-resend-code-button = 確認コードを再送する
