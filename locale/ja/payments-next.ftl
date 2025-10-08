@@ -12,6 +12,16 @@ next-payment-method-first-approve = まず、サブスクリプションの承�
 
 checkout-error-boundary-retry-button = 再試行
 checkout-error-boundary-basic-error-message = 問題が発生しました。もう一度試すか、<contactSupportLink>サポートにお問い合わせください。</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } ロゴ
+diners-logo-alt-text = { -brand-diner } ロゴ
+discover-logo-alt-text = { -brand-discover } ロゴ
+jcb-logo-alt-text = { -brand-jcb } ロゴ
+mastercard-logo-alt-text = { -brand-mastercard } ロゴ
+paypal-logo-alt-text = { -brand-paypal } ロゴ
+unionpay-logo-alt-text = { -brand-unionpay } ロゴ
+visa-logo-alt-text = { -brand-visa } ロゴ
+link-logo-alt-text = { -brand-link } ロゴ
+apple-pay-logo-alt-text = { -brand-apple-pay } ロゴ
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -47,6 +57,11 @@ next-payment-confirmation-download-button = ダウンロードを続行
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 下 4 桁が { $last4 } のカード
 
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = アカウントホーム
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = 私がサブスクリプションをキャンセルするまでの間、{ -brand-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
@@ -80,12 +95,19 @@ payments-header-bento =
     .alt = { -brand-mozilla } ロゴ
 payments-header-bento-close =
     .alt = 閉じる
+payments-header-bento-tagline = プライバシーを保護する他の { -brand-mozilla } の製品
+payments-header-bento-firefox-desktop = デスクトップ版 { -brand-firefox } ブラウザー
+payments-header-bento-firefox-mobile = モバイル版 { -brand-firefox } ブラウザー
+payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-made-by-mozilla = Made by { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }メニュー
+payments-header-avatar-icon =
+    .alt = アカウントのプロファイル写真
 payments-header-avatar-expanded-signed-in-as = ログイン中のアカウント
+payments-header-avatar-expanded-sign-out = ログアウト
 payments-client-loading-spinner =
     .aria-label = 読み込み中...
     .alt = 読み込み中...
