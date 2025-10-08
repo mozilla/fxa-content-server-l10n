@@ -437,6 +437,7 @@ bento-menu-title-3 = Produkte { -brand-mozilla }
 bento-menu-tagline = Më tepër produkte nga { -brand-mozilla } që mbrojnë privatësinë tuaj
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Shfletuesi { -brand-firefox } për Desktop
 bento-menu-firefox-mobile = Shfletuesi { -brand-firefox } për Celular
@@ -720,11 +721,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Po njëkohësohen të dhëna { -brand-firefox }
 delete-account-product-firefox-addons = Shtesa { -brand-firefox }
 delete-account-acknowledge = Ju lutemi, dijeni që duke fshirë llogarinë tuaj:
+delete-account-chk-box-1-v3 =
+    .label = Çfarëdo pajtimesh të paguara do të anulohen (Hiq { -product-pocket })
 delete-account-chk-box-2 =
     .label = Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -734,6 +738,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Vazhdo
 delete-account-password-input =
     .label = Jepni fjalëkalimin
+pocket-delete-notice = Nëse pajtoheni te Pocket Premium, ju lutemi, mos harroni të <a>anuloni pajtimin tuaj</a>, para fshirjes së llogarisë tuaj.
+pocket-delete-notice-marketing = Që të reshtet së marri email-e marketingu nga Mozilla Corporation dhe Mozilla Foundation, duhet <a>të kërkoni fshirjen e të dhënave tuaja rreth marketingut.</a>
 delete-account-cancel-button = Anuloje
 delete-account-delete-button-2 = Fshije
 
@@ -1052,6 +1058,8 @@ tfa-row-cannot-disable-2 = Mirëfilltësimi dyhapësh s’u çaktivizua dot
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Duke vazhduar, pajtoheni me:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Kushte Shërbimi</pocketTos> dhe <pocketPrivacy>Shënim mbi Privatësinë</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Kushte Shërbimi</mozSubscriptionTosLink> dhe <mozSubscriptionPrivacyLink>Shënim Privatësie</mozSubscriptionPrivacyLink> Shërbimesh Pajtimesh { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1180,6 +1188,7 @@ index-relay-header = Krijoni një maskë email-i
 index-relay-subheader = Ju lutemi, jepni adresën email ku do të doni të përcillen email-et prej email-it tuaj të maskuar.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Vazhdoni te { $serviceName }
+index-subheader-with-logo = Vazhdoni te <span>{ $serviceLogo }</span>
 index-subheader-default = Vazhdoni te rregullime llogarie
 index-cta = Regjistrohuni, ose bëni hyrjen
 index-account-info = Një { -product-mozilla-account } shkyç gjithashtu përdorim të më tepër produktesh nga { -brand-mozilla } që mbrojnë privatësinë.
@@ -1434,7 +1443,7 @@ password-reset-submit-button-2 = Vazhdo
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Fjalëkalimi juaj u ricaktua
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Vazhdoni te { $serviceName }
 
 ## ResetPasswordRecoveryPhone page
@@ -1463,6 +1472,9 @@ signin-link-expired-message-2 = Lidhja që klikuat, ka skaduar, ose është për
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Jepni fjalëkalimin tuaj <span>për { -product-mozilla-account } tuaj</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Vazhdoni te <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Vazhdoni te { $serviceName }
@@ -1679,5 +1691,10 @@ confirm-signup-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = A password is needed Që të administroni në mënyrë të siguruar email-et tuaj të maskuar dhe të përdorni mjete sigurie { -brand-mozilla }, lypset një fjalëkalim.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Pse më duhet të krijoj një llogari?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Shiheni këtu
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Ndryshoni email

@@ -276,6 +276,17 @@
     }
     .gender = masculine
 -product-firefox-relay-short = Relay
+-product-pocket =
+    { $case ->
+        [gen] Pocketu
+        [dat] Pocketu
+        [acc] Pocket
+        [voc] Pocket
+        [loc] Pocketu
+        [ins] Pocketem
+       *[nom] Pocket
+    }
+    .gender = masculine
 -brand-apple =
     { $case ->
         [gen] Applu

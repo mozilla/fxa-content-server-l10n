@@ -264,10 +264,10 @@ subscriptionSupportContact = 感谢您订阅 { $productName }。如果您对您�
 subscriptionSupportContact-plaintext = 感谢您订阅 { $productName }。如果您对您的订阅有任何疑问，或需要了解有关{ $productName } 的更多信息，请联系我们：
 subscription-support-get-help = 获取订阅方面的帮助
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">管理订阅</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = 管理订阅：
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">联系支持</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = 联系支持：
 subscriptionUpdateBillingEnsure = 您可以在<a data-l10n-name="updateBillingUrl">此处</a>确认您的付款方式和账户信息是否为最新。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

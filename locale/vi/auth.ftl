@@ -271,10 +271,10 @@ subscriptionSupportContact = Cảm ơn bạn đã đăng ký { $productName }. N
 subscriptionSupportContact-plaintext = Cảm ơn bạn đã đăng ký { $productName }. Nếu bạn có bất kỳ câu hỏi nào về thuê bao của mình hoặc cần thêm thông tin về { $productName }, vui lòng liên hệ với chúng tôi:
 subscription-support-get-help = Nhận trợ giúp với gói đăng ký của bạn
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Quản lý gói đăng ký của bạn</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Quản lý gói đăng ký của bạn:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Liên hệ hỗ trợ</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Liên hệ hỗ trợ:
 subscriptionUpdateBillingEnsure = Bạn có thể đảm bảo rằng phương thức thanh toán và thông tin tài khoản của mình được cập nhật <a data-l10n-name="updateBillingUrl">tại đây</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

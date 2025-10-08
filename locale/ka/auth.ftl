@@ -276,10 +276,10 @@ subscriptionSupportContact = გმადლობთ, რომ გამოწ
 subscriptionSupportContact-plaintext = გმადლობთ, რომ გამოწერილი გაქვთ { $productName }. თუ გექნებათ კითხვა, თქვენი გამოწერის შესახებ ან ისურვებთ უკეთ გაიცნოთ { $productName }, გთხოვთ დაგვიკავშირდეთ.
 subscription-support-get-help = მიიღეთ მხარდაჭერა თქვენი გამოწერის შესახებ
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">თქვენი გამოწერის მართვა</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = გამოწერების მართვა:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">კავშირი მხარდაჭერისთვის</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = კავშირი მხარდაჭერისთვის
 subscriptionUpdateBillingEnsure = შეგიძლიათ გადაამოწმოთ, თქვენი გადახდის საშუალებისა და ანგარიშის მონაცემების სისწორე, <a data-l10n-name="updateBillingUrl">აქედან</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

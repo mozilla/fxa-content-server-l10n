@@ -488,6 +488,7 @@ bento-menu-title-3 = Produkty { -brand-mozilla }
 bento-menu-tagline = Dalše produkty wot { -brand-mozilla }, kotrež wašu priwatnosć škitaja
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Wobhladowak { -brand-firefox } za desktop
 bento-menu-firefox-mobile = Wobhladowak { -brand-firefox } za mobilne graty
@@ -915,13 +916,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Daty { -brand-firefox } so synchronizuja
 delete-account-product-firefox-addons = Přidatki { -brand-firefox }
 delete-account-acknowledge = Prošu zhašejće swoje konto, zo byšće to wobkrućił:
-delete-account-chk-box-1-v4 =
-    .label = Wšě zapłaćene abonementy, kotrež maće, so wupowědźa
+delete-account-chk-box-1-v3 =
+    .label = Někotre z wašich abonementow so anuluja (nimo { -product-pocket })
 delete-account-chk-box-2 =
     .label = Móžeće składowane informacije a funkcije produktow { -brand-mozilla } zhubić
 delete-account-chk-box-3 =
@@ -931,6 +933,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Dale
 delete-account-password-input =
     .label = Hesło zapodać
+pocket-delete-notice = Jeli Pocket Premium abonujeće, zawěsćće prošu, zo <a>swój abonement wupowědźiće</a>, prjedy hač swoje konto zhašeće.
+pocket-delete-notice-marketing = Zo byšće přestał marketingowe mejlki wot předewzaća Mozilla Corporation a załožby Mozilla Foundation přijimaś, dyrbiće wo <a>zhašenje swojich marketingowych datow prosyć</a>.
 delete-account-cancel-button = Přetorhnyć
 delete-account-delete-button-2 = Zhašeć
 
@@ -1066,8 +1070,14 @@ inactive-update-status-success-alert = Wuspěšnje přizjewjeny. Waše { -produc
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Wuslědźće, hdźež so waše informacije wotkrywaja a přewozmiće kontrolu
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Lutujće za { $price }/měsac z { -product-mozilla-vpn-short }, ze škitom datowych wikowarjow { -product-mozilla-monitor-short } a z njewobmjezowanymi e-mejlowymi maskami { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Dóstańće darmotny sken
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Wobstarajće sej cyłolětny škit
 
 ## Profile section
 
@@ -1258,6 +1268,8 @@ tfa-row-verify-session-info = Dyrbiće swoje aktualne posedźenje wobkrućić, z
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Hdyž pokročujeće, zwoliće do:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Słužbne wuměnjenja</pocketTos> a <pocketPrivacy>zdźělenka priwatnosće</pocketPrivacy> słužby { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Wužiwanske wuměnenja</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Zdźělenka priwatnosće</mozSubscriptionPrivacyLink> abonementowych słužbow { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1389,6 +1401,7 @@ index-relay-header = E-mejlowu masku wutworić
 index-relay-subheader = Prošu podajće e-mejlowu adresu, na kotruž chceće mejlki wot swojeje maskowaneje e-mejle dale sposrědkować.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Dale k { $serviceName }
+index-subheader-with-logo = Dale k <span>{ $serviceLogo }</span>
 index-subheader-default = Dale ke kontowym nastajenjam
 index-cta = Registrować abo přizjewić
 index-account-info = Konto { -product-mozilla-account } tež přistup k wjace produktam škita datow wot { -brand-mozilla } zmóžnja.
@@ -1660,7 +1673,7 @@ password-reset-submit-button-2 = Dale
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Waše hesło je so wróćo stajiło
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Dale k { $serviceName }
 
 ## Reset password recovery method page
@@ -1731,6 +1744,9 @@ signin-link-expired-message-2 = Wotkaz, na kotryž sće kliknył, je spadnjeny a
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Zapodajće swoje hesło <span>za swoje { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Dale k <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Dale k { $serviceName }
@@ -1962,6 +1978,11 @@ signup-heading-v2 = Hesło wutworić
 signup-relay-info = Hesło je trěbna, zo byšće swoje maskowane mejlki wěsće rjadować a k wěstotnym nastrojam { -brand-mozilla } přistup měł.
 signup-sync-info = Synchronizujće swoje hesła, zapołožki a wjace wšudźe, hdźež { -brand-firefox } wužiwaće.
 signup-sync-info-with-payment = Synchronizujće swoje hesła, płaćenske metody, zapołožki a wjace wšudźe, hdźež { -brand-firefox } wužiwaće.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Namakajće tu won
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mejlowu adresu změnić
 

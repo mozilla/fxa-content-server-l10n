@@ -276,10 +276,10 @@ subscriptionSupportContact = Bedankt voor uw abonnement op { $productName }. Als
 subscriptionSupportContact-plaintext = Bedankt voor uw abonnement op { $productName }. Als u vragen over uw abonnement hebt, of meer informatie over { $productName } wilt, neem dan contact op:
 subscription-support-get-help = Hulp bij uw abonnement verkrijgen
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Uw abonnement beheren</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Uw abonnement beheren:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contact opnemen</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Contact opnemen:
 subscriptionUpdateBillingEnsure = U kunt <a data-l10n-name="updateBillingUrl">hier</a> ervoor zorgen dat uw betalingsmethode en accountgegevens actueel zijn.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

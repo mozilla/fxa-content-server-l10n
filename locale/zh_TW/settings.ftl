@@ -470,6 +470,7 @@ bento-menu-title-3 = { -brand-mozilla } 產品
 bento-menu-tagline = { -brand-mozilla } 更多會保護您隱私的產品
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser 桌面版
 bento-menu-firefox-mobile = { -brand-firefox } Browser 行動版
@@ -881,13 +882,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } 的同步資料
 delete-account-product-firefox-addons = { -brand-firefox } 附加元件
 delete-account-acknowledge = 請確認若刪除帳號：
-delete-account-chk-box-1-v4 =
-    .label = 將取消您所有已付款的訂閱內容
+delete-account-chk-box-1-v3 =
+    .label = 將取消所有付費訂閱項目（{ -product-pocket } 除外）
 delete-account-chk-box-2 =
     .label = 您可能會失去 { -brand-mozilla } 產品中儲存的資訊與部分功能
 delete-account-chk-box-3 =
@@ -897,6 +899,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = 繼續
 delete-account-password-input =
     .label = 輸入密碼
+pocket-delete-notice = 若您訂閱了 Pocket Premium，請務必先<a>取消訂閱</a>再刪除帳號。
+pocket-delete-notice-marketing = 若要停止接收 Mozilla Corporation 及 Mozilla Foundation 的行銷郵件，必須<a>要求刪除行銷資料。</a>
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 刪除
 
@@ -1032,8 +1036,14 @@ inactive-update-status-success-alert = 登入成功。將繼續保留您的 { -p
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = 看看您的隱私資訊在哪裡外洩，並且進行管控
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = 只需每月 { $price }，即可獲得 { -product-mozilla-vpn-short }、{ -product-mozilla-monitor-short } 的資料交易商保護，以及 { -product-firefox-relay-short } 的無限轉寄信箱優惠。
 # Links out to the Monitor site
 product-promo-monitor-cta = 免費掃描
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = 獲得全年保護
 
 ## Profile section
 
@@ -1208,6 +1218,8 @@ tfa-row-verify-session-info = 必須先驗證您目前的使用階段，才能�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 使用本服務，代表您同意：
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } 的<pocketTos>服務條款</pocketTos>與<pocketPrivacy>隱私權公告</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } 訂閱服務的<mozSubscriptionTosLink>服務條款</mozSubscriptionTosLink>與<mozSubscriptionPrivacyLink>隱私權公告</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1339,6 +1351,7 @@ index-relay-header = 建立新轉寄信箱
 index-relay-subheader = 請提供要實際收到轉寄信件的電子郵件信箱。
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = 繼續前往 { $serviceName }
+index-subheader-with-logo = 繼續前往 <span>{ $serviceLogo }</span>
 index-subheader-default = 繼續前往帳號設定
 index-cta = 註冊或登入
 index-account-info = 註冊 { -product-mozilla-account }，即可使用 { -brand-mozilla } 更多隱私保護相關產品。
@@ -1608,7 +1621,7 @@ password-reset-submit-button-2 = 繼續
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = 已重設您的密碼
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = 繼續前往 { $serviceName }
 
 ## Reset password recovery method page
@@ -1670,6 +1683,9 @@ signin-link-expired-message-2 = 您點擊的鏈結已失效，或已經被使用
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = 請輸入您的密碼 <span>{ -product-mozilla-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = 繼續前往 <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = 繼續前往 { $serviceName }
@@ -1895,6 +1911,11 @@ signup-heading-v2 = 設定密碼
 signup-relay-info = 需要設定密碼，才能安全地管理轉寄信箱，並使用 { -brand-mozilla } 的安全工具。
 signup-sync-info = 在使用 { -brand-firefox } 的所有地方同步您的密碼、書籤與更多資料。
 signup-sync-info-with-payment = 在使用 { -brand-firefox } 的所有地方同步您的密碼、付款方式、書籤與更多資料。
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = 為什麼需要建立此帳號？
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = 到此了解
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改電子郵件地址
 

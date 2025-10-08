@@ -198,6 +198,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } прегледач за десктоп
 bento-menu-firefox-mobile = { -brand-firefox } прегледач за мобилни
@@ -432,10 +433,13 @@ delete-account-step-2-2 = Корак 2 од 2
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Синхронизовање { -brand-firefox } података
 delete-account-product-firefox-addons = { -brand-firefox } додаци
 delete-account-acknowledge = Брисањем налога признајете да:
+delete-account-chk-box-1-v3 =
+    .label = Све ваше плаћене претплате биће отказане (осим { -product-pocket }-а)
 delete-account-chk-box-2 =
     .label = Можете изгубити податке и функције сачуване на { -brand-mozilla } производима
 delete-account-chk-box-3 =
@@ -445,6 +449,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Настави
 delete-account-password-input =
     .label = Унесите лозинку
+pocket-delete-notice = Ако сте претплаћени на Pocket Premium, обавезно <a>откажите претплату</a> пре него што избришете ваш налог.
 delete-account-cancel-button = Откажи
 delete-account-delete-button-2 = Обриши
 
@@ -896,6 +901,9 @@ signin-link-expired-header = Веза за потврду је истекла
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Настави на <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Настави на { $serviceName }

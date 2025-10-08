@@ -474,6 +474,7 @@ bento-menu-title-3 = { -brand-mozilla } өнімдері
 bento-menu-tagline = Жекелігіңізді қорғайтын басқа да { -brand-mozilla } өнімдері
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Компьютер үшін { -brand-firefox } браузері
 bento-menu-firefox-mobile = Мобильді { -brand-firefox } браузері
@@ -815,11 +816,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } деректерін синхрондау
 delete-account-product-firefox-addons = { -brand-firefox } қосымшалары
 delete-account-acknowledge = Тіркелгіңізді өшіру кезінде мынаны растаңыз:
+delete-account-chk-box-1-v3 =
+    .label = Сізде бар ақылы жазылулар өшіріледі ({ -product-pocket } басқа)
 delete-account-chk-box-2 =
     .label = { -brand-mozilla }өнімдерінде сақталған ақпаратты және мүмкіндіктерді жоғалтуыңыз мүмкін
 delete-account-chk-box-3 =
@@ -829,6 +833,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Жалғастыру
 delete-account-password-input =
     .label = Парольді енгізіңіз
+pocket-delete-notice = Pocket Premium-ге жазылсаңыз, тіркелгіңізді өшірмес бұрын <a>жазылымнан бас тартқаныңызға</a> көз жеткізіңіз.
+pocket-delete-notice-marketing = Mozilla Corporation және Mozilla Foundation маркетингтік электрондық хаттарды алуды тоқтату үшін <a>маркетинг деректеріңізді өшіруді сұрауыңыз керек.</a>
 delete-account-cancel-button = Бас тарту
 delete-account-delete-button-2 = Өшіру
 
@@ -1122,6 +1128,8 @@ tfa-row-cannot-disable-2 = Екі қадамды аутентификациян�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Жалғастыру арқылы сіз келесімен келісесіз:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } қызметінің <pocketTos>Қолдану шарттары</pocketTos> және <pocketPrivacy>Қауіпсіздік ескертуі</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } жазылымы қызметтерінің <mozSubscriptionTosLink>Қызмет көрсету шарттары</mozSubscriptionTosLink> және <mozSubscriptionPrivacyLink>Жекелік ескертуі</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1230,6 +1238,7 @@ index-sync-header = { -product-mozilla-account } тіркелгіңізге жа
 index-sync-subheader = { -brand-firefox } қолданатын әр жерде парольдер, беттер, және бетбелгілерді синхрондаңыз.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } ішіне жалғастыру
+index-subheader-with-logo = <span>{ $serviceLogo }</span> ішіне жалғастыру
 index-subheader-default = Тіркелгі баптауларына жалғастыру
 index-cta = Тіркелгіні жасау немесе кіру
 index-account-info = { -product-mozilla-account } { -brand-mozilla }-дан жекелігіңізді қорғайтын көбірек өнімдерге кіруге мүмкіндік береді.
@@ -1479,7 +1488,7 @@ password-reset-submit-button-2 = Жалғастыру
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Пароліңіз тасталды
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } қызметіне жалғастыру
 
 ## Reset password recovery method page
@@ -1529,6 +1538,9 @@ signin-link-expired-message-2 = Сіз басқан сілтеменің мер�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Өзіңіздің <span>{ -product-mozilla-account } тіркелгіңіз</span> үшін парольді енгізіңіз
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = <span>{ $serviceLogo }</span> ішіне жалғастыру
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } ішіне жалғастыру
@@ -1703,6 +1715,11 @@ confirm-signup-code-is-required-error = Растау коды қажет
 
 signup-heading-v2 = Парольді жасау
 signup-relay-info = Маскамен жасырылған эл. пошталарды қауіпсіз басқару және { -brand-mozilla } қауіпсіздік құралдарына кіру үшін пароль керек.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Бұл тіркелгіні маған не үшін жасау керек?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Осы жерден біліңіз
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Эл. поштаны өзгерту
 
