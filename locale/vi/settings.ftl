@@ -1040,14 +1040,8 @@ inactive-update-status-success-alert = Đã đăng nhập thành công. { -produ
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Tìm nơi thông tin cá nhân của bạn bị lộ và kiểm soát chúng
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Với { $price }/tháng, hãy tiết kiệm cho { -product-mozilla-vpn-short }, bảo vệ khỏi môi giói dữ liệu với { -product-mozilla-monitor-short }, và email ẩn danh không giới hạn của { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Quét miễn phí
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Đăng ký bảo vệ quanh năm
 
 ## Profile section
 

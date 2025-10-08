@@ -1062,14 +1062,8 @@ inactive-update-status-success-alert = Έγινε επιτυχής σύνδεσ�
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τον έλεγχό τους
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Με { $price }/μήνα, εξοικονομήστε χρήματα στο { -product-mozilla-vpn-short }, την προστασία από εμπόρους δεδομένων του { -product-mozilla-monitor-short } και τις απεριόριστες μάσκες email του { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Δωρεάν σάρωση
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Λάβετε προστασία όλο τον χρόνο
 
 ## Profile section
 

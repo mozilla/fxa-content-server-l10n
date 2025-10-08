@@ -1036,14 +1036,8 @@ inactive-update-status-success-alert = 登入成功。將繼續保留您的 { -p
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = 看看您的隱私資訊在哪裡外洩，並且進行管控
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = 只需每月 { $price }，即可獲得 { -product-mozilla-vpn-short }、{ -product-mozilla-monitor-short } 的資料交易商保護，以及 { -product-firefox-relay-short } 的無限轉寄信箱優惠。
 # Links out to the Monitor site
 product-promo-monitor-cta = 免費掃描
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = 獲得全年保護
 
 ## Profile section
 

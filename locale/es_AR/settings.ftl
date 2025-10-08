@@ -1058,14 +1058,8 @@ inactive-update-status-success-alert = Iniciaste sesión correctamente. Tu { -pr
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Encontrá dónde está expuesta tu información privada y tomá el control
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Por { $price }/mes, ahorrá en { -product-mozilla-vpn-short }, la protección de data-broker de { -product-mozilla-monitor-short } y máscaras de correo electrónico ilimitadas de { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Hacé un escaneo gratuito
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Obtené protección durante todo el año
 
 ## Profile section
 

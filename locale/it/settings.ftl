@@ -1056,14 +1056,8 @@ inactive-update-status-success-alert = Accesso effettuato correttamente. Il tuo 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Scopri dove sono esposte le tue informazioni personali e riprendine il controllo
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Per { $price }/mese, risparmia su { -product-mozilla-vpn-short }, sulla protezione anti-data-broker di { -product-mozilla-monitor-short } e sugli alias di posta elettronica illimitati di { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Ottieni una scansione gratuita
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Ottieni protezione tutto l’anno
 
 ## Profile section
 

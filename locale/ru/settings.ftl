@@ -1063,14 +1063,8 @@ inactive-update-status-success-alert = Вы успешно вошли. Ваш { 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Найдите, где находится ваша личная информация, и возьмите под контроль
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = За { $price }/мес. экономьте на { -product-mozilla-vpn-short }, защите от брокеров данных { -product-mozilla-monitor-short } и неограниченном количестве псевдонимов электронной почты { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Получить бесплатное сканирование
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Получите годовую защиту
 
 ## Profile section
 

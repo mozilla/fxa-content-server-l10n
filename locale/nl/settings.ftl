@@ -1060,14 +1060,8 @@ inactive-update-status-success-alert = Met succes aangemeld. Uw { -product-mozil
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Ontdek waar uw privégegevens zijn gelekt en neem de controle
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Bespaar voor { $price }/mnd op { -product-mozilla-vpn-short }, de bescherming tegen gegevenshandelaars van { -product-mozilla-monitor-short } en de onbeperkte e-mailmaskers van { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Ontvang een gratis scan
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Ontvang het hele jaar door bescherming
 
 ## Profile section
 

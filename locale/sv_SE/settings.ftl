@@ -1060,14 +1060,8 @@ inactive-update-status-success-alert = Inloggad. Ditt { -product-mozilla-account
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Hitta var din privata information exponeras och ta kontrollen
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = För { $price }/månad, spara på { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short }:s datamäklarskydd och { -product-firefox-relay-short }: s obegränsade e-postalias.
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Få skydd året runt
 
 ## Profile section
 

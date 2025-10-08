@@ -1056,14 +1056,8 @@ inactive-update-status-success-alert = Connexion réussie. Votre { -product-mozi
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Découvrez où vos informations personnelles ont fuité et reprenez le contrôle
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Pour { $price }/mois, économisez sur { -product-mozilla-vpn-short }, la protection contre les courtiers en données  { -product-mozilla-monitor-short } et un nombre illimité d’alias de messagerie { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Effectuer un scan gratuit
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Bénéficiez d’une protection toute l’année
 
 ## Profile section
 

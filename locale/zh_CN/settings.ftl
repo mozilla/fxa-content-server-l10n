@@ -1038,14 +1038,8 @@ inactive-update-status-success-alert = 登录成功。您的 { -product-mozilla-
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = 扫描隐私信息泄露，掌控属于您的秘密
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = 每月仅需 { $price }，惠享 { -product-mozilla-vpn-short } 和 { -product-mozilla-monitor-short } 的数据代理商防护，以及 { -product-firefox-relay-short } 的无限量马甲邮箱。
 # Links out to the Monitor site
 product-promo-monitor-cta = 免费扫描
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = 获取全年保护
 
 ## Profile section
 

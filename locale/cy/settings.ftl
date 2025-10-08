@@ -1078,14 +1078,8 @@ inactive-update-status-success-alert = Wedi mewngofnodi'n llwyddiannus. Bydd eic
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Dewch o hyd i ble mae'ch manylion preifat wedi'i ddatgelu a chymryd rheolaeth o'r sefyllfa
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Am { $price }/mis, arbedwch ar { -product-mozilla-vpn-short }, diogelwch rhag broceriaid data { -product-mozilla-monitor-short }, ac arallenwau e-bost diderfyn { -product-firefox-relay-short } .
 # Links out to the Monitor site
 product-promo-monitor-cta = Cael sgan am ddim
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Cael diogelwch trwy gydol y flwyddyn
 
 ## Profile section
 

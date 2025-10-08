@@ -1062,14 +1062,8 @@ inactive-update-status-success-alert = ანგარიშზე შესვ�
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = გამოარკვიეთ, სადმე ხომ არ გამჟღავნდა თქვენი მონაცემები და დაიბრუნეთ განკარგვის უფლება
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = მხოლოდ { $price }/თვეში, შეღავათიანად გამოიყენეთ { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } მონაცემით მოვაჭრეებისგან დაცვითა და { -product-firefox-relay-short } ელფოსტის შეუზღუდავი ნიღბებით.
 # Links out to the Monitor site
 product-promo-monitor-cta = შეამოწმეთ უფასოდ
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = ისარგებლეთ სრულწლიანი დაცვით
 
 ## Profile section
 

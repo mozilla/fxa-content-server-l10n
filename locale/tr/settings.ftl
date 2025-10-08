@@ -1059,14 +1059,8 @@ inactive-update-status-success-alert = Başarıyla giriş yapıldı. { -product-
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Kişisel bilgilerinizin nerede ele geçirildiğini öğrenin
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Aylık { $price } fiyatla { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } veri toplayıcı koruması ve sınırsız { -product-firefox-relay-short } e-posta maskesine sahip olun, tasarrufunuzu artırın.
 # Links out to the Monitor site
 product-promo-monitor-cta = Ücretsiz taramayı başlat
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Yıl boyunca korumaya kavuşun
 
 ## Profile section
 

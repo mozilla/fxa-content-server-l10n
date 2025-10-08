@@ -1058,14 +1058,8 @@ inactive-update-status-success-alert = Acès eseguît cun sucès. Il to { -produ
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Scuvierç dulà che a vegnin metudis fûr lis tôs informazions personâls e torne cjape il control
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Par { $price }/mês, sparagne su { -product-mozilla-vpn-short }, su la protezion dai brokers di dâts di { -product-mozilla-monitor-short } e su lis mascaris di e-mail ilimitadis di { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Oten une scansion gratuite
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Oten protezion par dut l’an
 
 ## Profile section
 

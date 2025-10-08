@@ -1067,14 +1067,8 @@ inactive-update-status-success-alert = Přihlášení bylo úspěšné. Váš { 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Zjistěte, kde jsou vaše soukromé informace vystaveny, a převezměte kontrolu
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Za { $price } měsíčně ušetříte na { -product-mozilla-vpn-short }, ochraně dat { -product-mozilla-monitor-short } a neomezených maskách e-mailů { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Zkontrolovat
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Získejte celoroční ochranu
 
 ## Profile section
 

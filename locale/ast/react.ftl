@@ -8,16 +8,7 @@ app-footer-mozilla-logo-label = Logotipu de { -brand-mozilla }
 app-footer-privacy-notice = Avisu de privacidá del sitiu web
 app-footer-terms-of-service = Términos del serviciu
 
-## FxA React - Strings shared between multiple FxA products for application page title
-
-
-## FxA React - Strings shared between multiple FxA products for external link
-
-
 ## FxA React - Strings shared between multiple FxA products for loading spinner
 
 # Aria label for spinner image indicating data is loading
 app-loading-spinner-aria-label-loading = Cargando…
-
-## FxA React - Strings shared between multiple FxA products for logo lockup
-

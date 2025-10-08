@@ -1058,14 +1058,8 @@ inactive-update-status-success-alert = Innlogget. { -product-mozilla-account }-e
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Finn ut hvor din private informasjon er eksponert og ta kontroll
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = For { $price }/mnd, spar på { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } sin datameglerbeskyttelse og { -product-firefox-relay-short } sitt ubegrensede antall e-postaliaser.
 # Links out to the Monitor site
 product-promo-monitor-cta = Få gratis skanning
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Få beskyttelse året rundt
 
 ## Profile section
 

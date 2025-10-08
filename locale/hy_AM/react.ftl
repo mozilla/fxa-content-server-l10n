@@ -1,9 +1,3 @@
-## FxA React - Strings shared between multiple FxA products for application error dialog
-
-
-## FxA React - Strings shared between multiple FxA products for application footer
-
-
 ## FxA React - Strings shared between multiple FxA products for application page title
 
 # This string is used as the default title for pages, displayed in the browser tab.
@@ -18,6 +12,3 @@ link-sr-new-window = Բացում է նոր պատուհանում
 
 # Aria label for spinner image indicating data is loading
 app-loading-spinner-aria-label-loading = Բեռնում…
-
-## FxA React - Strings shared between multiple FxA products for logo lockup
-

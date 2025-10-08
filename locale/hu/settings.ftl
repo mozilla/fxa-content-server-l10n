@@ -1064,14 +1064,8 @@ inactive-update-status-success-alert = Sikeresen bejelentkezett. A { -product-mo
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Találja meg, hol kerülnek ki a személyes adatai, és vegye kezébe az irányítást
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = { $price }/hó áron, spóroljon a { -product-mozilla-vpn-short }-en, a { -product-mozilla-monitor-short } adatbróker-védelmén, és a { -product-firefox-relay-short } korlátlan számú e-mail-maszkján.
 # Links out to the Monitor site
 product-promo-monitor-cta = Ingyenes vizsgálat kérése
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Kapjon egész éves védelmet
 
 ## Profile section
 

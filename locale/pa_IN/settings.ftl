@@ -960,8 +960,6 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = ਪਤਾ ਕਰੋ ਕਿ ਤੁਹਾਡੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਕਿੱਥੇ ਦਿਸਦੀ ਹੈ, ਉਸ ਨੂੰ ਆਪਣੇ ਹੱਥ ਹੇਠ ਕਰੋ
 # Links out to the Monitor site
 product-promo-monitor-cta = ਮੁਫ਼ਤ ਸਕੈਨ ਲਵੋ
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = ਪੂਰੇ ਸਾਲ ਭਰ ਲਈ ਸੁਰੱਖਿਆ ਲਵੋ
 
 ## Profile section
 

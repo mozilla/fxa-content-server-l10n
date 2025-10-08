@@ -1070,14 +1070,8 @@ inactive-update-status-success-alert = Wuspěšnje pśizjawjony. Waše { -produc
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Wuslěźćo, źož se waše priwatne informacije wótekšywaju a pśewzejśo kontrolu
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Žaŕśo za { $price }/mjasec z { -product-mozilla-vpn-short }, ze šćitom datowych wikowarjow { -product-mozilla-monitor-short } a z njewobgranicowanymi e-mailowymi maskami { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Dostańśo dermotny scan
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Wobstarajśo se cełolětny šćit
 
 ## Profile section
 

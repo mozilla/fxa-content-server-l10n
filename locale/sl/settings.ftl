@@ -1070,14 +1070,8 @@ inactive-update-status-success-alert = Prijava uspešna. Vaš { -product-mozilla
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Ugotovite, kje so razkriti vaši zasebni podatki, in prevzemite nadzor
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Za { $price }/mesec prihranite pri { -product-mozilla-vpn-short }u, zaščiti data-brokerja za { -product-mozilla-monitor-short } in { -product-firefox-relay-short }u neomejene e-poštne maske.
 # Links out to the Monitor site
 product-promo-monitor-cta = Zagotovite si brezplačen pregled
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Pridobite celoletno zaščito
 
 ## Profile section
 

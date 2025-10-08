@@ -1062,14 +1062,8 @@ inactive-update-status-success-alert = Pomyślnie zalogowano. Twoje { -product-m
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Dowiedz się, gdzie wyciekły Twoje dane osobowe i je odzyskaj
-# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
-# $price - formatted for user locale, in the target market's currency (for launch, always USD)
-# /mo is 'per month'
-product-promo-monitor-special-promo-description = Za { $price } na miesiąc oszczędzaj na { -product-mozilla-vpn-short }, ochronie przed brokerami danych { -product-mozilla-monitor-short } i nieograniczonych maskach dla adresów e-mail { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Przeszukaj bezpłatnie
-# Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Zdobądź całoroczną ochronę
 
 ## Profile section
 
