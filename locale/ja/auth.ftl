@@ -192,6 +192,11 @@ payment-plan-charged = 支払日: { $invoiceDateOnly } に合計 { $invoiceTotal
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = 次回の請求: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>支払い方法:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = 支払い方法: { $paymentProviderName }
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
