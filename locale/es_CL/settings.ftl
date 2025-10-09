@@ -1274,6 +1274,7 @@ auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
 auth-error-105-2 = Código de confirmación inválido
 auth-error-110 = Llave inválida
+auth-error-110-2 = Sesión inválida. Cierra la sesión y vuelve a iniciarla.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Has intentado muchas veces. Por favor, vuelve a intentarlo más tarde.
@@ -1286,6 +1287,7 @@ auth-error-114 = Has intentado muchas veces. Vuelve a intentarlo { $retryAfter }
 auth-error-125 = La solicitud fue bloqueada por razones de seguridad
 auth-error-129-2 = Ingresaste un número de teléfono no válido. Revísalo y vuelve a intentarlo.
 auth-error-138-2 = Sesión no confirmada
+auth-error-138-3 = Sesión no confirmada. Cierra la sesión y vuelve a iniciarla.
 auth-error-139 = El correo secundario debe ser diferente al correo de tu cuenta
 auth-error-155 = Token TOTP no encontrado
 # Error shown when the user submits an invalid backup authentication code
