@@ -1266,6 +1266,7 @@ auth-error-102 = Ukjent konto
 auth-error-103 = Feil passord
 auth-error-105-2 = Ugyldig bekreftelseskode
 auth-error-110 = Ugyldig token
+auth-error-110-2 = Ugyldig økt. Logg ut og logg inn på nytt.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Du har prøvd for mange ganger. Prøv igjen senere.
@@ -1278,6 +1279,7 @@ auth-error-114 = Du har prøvd for mange ganger. Prøv igjen { $retryAfter }.
 auth-error-125 = Forespørselen ble blokkert av sikkerhetsmessige årsaker
 auth-error-129-2 = Du skrev inn et ugyldig telefonnummer. Sjekk det og prøv på nytt.
 auth-error-138-2 = Ubekreftet økt
+auth-error-138-3 = Ubekreftet økt. Logg ut og logg inn på nytt.
 auth-error-139 = Sekundær e-postadresse må være forskjellig fra e-postadressen til din konto
 auth-error-155 = TOTP-token ikke funnet
 # Error shown when the user submits an invalid backup authentication code
