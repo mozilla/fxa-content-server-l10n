@@ -1240,6 +1240,7 @@ auth-error-102 = 未知帳號
 auth-error-103 = 密碼不正確
 auth-error-105-2 = 確認碼無效
 auth-error-110 = token 無效
+auth-error-110-2 = 使用階段無效，請登出再重新登入。
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = 您已嘗試太多次，請稍候再試。
@@ -1252,6 +1253,7 @@ auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }再試。
 auth-error-125 = 因為安全性因素，已封鎖請求
 auth-error-129-2 = 您輸入的電話號碼無效，請檢查後再試一次。
 auth-error-138-2 = 未驗證的使用階段
+auth-error-138-3 = 無法確認使用階段，請登出再重新登入。
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
 # Error shown when the user submits an invalid backup authentication code
