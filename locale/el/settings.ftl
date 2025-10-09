@@ -1280,6 +1280,7 @@ auth-error-102 = Άγνωστος λογαριασμός
 auth-error-103 = Λάθος κωδικός πρόσβασης
 auth-error-105-2 = Μη έγκυρος κωδικός επιβεβαίωσης
 auth-error-110 = Μη έγκυρο διακριτικό
+auth-error-110-2 = Άκυρη συνεδρία. Παρακαλούμε αποσυνδεθείτε και συνδεθείτε ξανά.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Έχετε προσπαθήσει πάρα πολλές φορές. Δοκιμάστε ξανά αργότερα.
@@ -1292,6 +1293,7 @@ auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορ�
 auth-error-125 = Το αίτημα αποκλείστηκε για λόγους ασφαλείας
 auth-error-129-2 = Πληκτρολογήσατε μη έγκυρο αριθμό τηλεφώνου. Ελέγξτε τον και δοκιμάστε ξανά.
 auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
+auth-error-138-3 = Μη επιβεβαιωμένη συνεδρία. Παρακαλούμε αποσυνδεθείτε και συνδεθείτε ξανά.
 auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 # Error shown when the user submits an invalid backup authentication code
