@@ -482,6 +482,7 @@ bento-menu-title-3 = Produtos da { -brand-mozilla }
 bento-menu-tagline = Mais produtos da { -brand-mozilla } que protegem a sua privacidade
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para computador
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
@@ -903,13 +904,14 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = A sincronizar os dados do { -brand-firefox }
 delete-account-product-firefox-addons = Extras do { -brand-firefox }
 delete-account-acknowledge = Por favor, note que, ao eliminar a sua conta:
-delete-account-chk-box-1-v4 =
-    .label = Quaisquer subscrições pagas que tenha serão canceladas
+delete-account-chk-box-1-v3 =
+    .label = Quaisquer subscrições pagas que tiver serão canceladas (Exceto { -product-pocket })
 delete-account-chk-box-2 =
     .label = Poderá perder informações e funcionalidades guardadas dentro dos produtos da { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -919,6 +921,8 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Inserir palavra-passe
+pocket-delete-notice = Se subscrever o Pocket Premium, por favor, certifique-se que <a>cancela a sua subscrição</a> antes de eliminar a sua conta.
+pocket-delete-notice-marketing = Para parar de receber e-mails de marketing da Mozilla Corporation e da Mozilla Foundation, deve <a>solicitar a remoção dos seus dados de marketing.</a>
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
@@ -1242,6 +1246,8 @@ tfa-row-verify-session-info = Precisa de confirmar a sua sessão atual para conf
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Ao continuar, concorda com os:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Termos do Serviço</pocketTos> e <pocketPrivacy>Informação de Privacidade</pocketPrivacy> do { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Termos do serviço</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Informação de privacidade</mozSubscriptionPrivacyLink> da subscrição dos serviços da { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1268,6 +1274,7 @@ auth-error-102 = Conta desconhecida
 auth-error-103 = Palavra-passe incorreta
 auth-error-105-2 = Código de confirmação inválido
 auth-error-110 = Código inválido
+auth-error-110-2 = Sessão inválida. Por favor, termine sessão e inicie sessão novamente.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Tentou demasiadas vezes. Por favor, tente novamente mais tarde.
@@ -1280,6 +1287,7 @@ auth-error-114 = Tentou demasiadas vezes. Tente novamente { $retryAfter }.
 auth-error-125 = O pedido foi bloqueado por questões de segurança
 auth-error-129-2 = Introduziu um número de telefone inválido. Por favor, verifique e tente novamente.
 auth-error-138-2 = Sessão não confirmada
+auth-error-138-3 = Sessão não confirmada. Por favor, termine sessão e inicie sessão novamente.
 auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua conta
 auth-error-155 = Código TOTP não encontrado
 # Error shown when the user submits an invalid backup authentication code
@@ -1373,6 +1381,7 @@ index-relay-header = Criar uma máscara de e-mail
 index-relay-subheader = Por favor, forneça o endereço de e-mail para o qual deseja encaminhar as mensagens do seu e-mail mascarado.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar para { $serviceName }
+index-subheader-with-logo = Continue para <span>{ $serviceLogo }</span>
 index-subheader-default = Continuar para as definições da conta
 index-cta = Criar conta ou iniciar sessão
 index-account-info = Uma { -product-mozilla-account } também desbloqueia o acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
@@ -1644,7 +1653,7 @@ password-reset-submit-button-2 = Continuar
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = A sua palavra-passe foi reposta
-# $serviceName is a product name such as Monitor, Relay
+# $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar para { $serviceName }
 
 ## Reset password recovery method page
@@ -1710,6 +1719,9 @@ signin-link-expired-message-2 = A ligação que clicou expirou ou já foi utiliz
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Insira a sua palavra-passe <span>para a sua { -product-mozilla-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Continue para <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar para { $serviceName }
@@ -1939,6 +1951,11 @@ signup-heading-v2 = Criar uma palavra-passe
 signup-relay-info = É necessária uma palavra-passe para gerir com segurança os seus e-mails mascarados e aceder às ferramentas de segurança da { -brand-mozilla }.
 signup-sync-info = Sincronize as suas palavras-passe, marcadores e mais onde quer que utilize o { -brand-firefox }.
 signup-sync-info-with-payment = Sincronize as suas palavras-passe, métodos de pagamento, marcadores e muito mais onde quer que utilize o { -brand-firefox }.
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Porque preciso de criar esta conta?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Descubra aqui
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Alterar e-mail
 
