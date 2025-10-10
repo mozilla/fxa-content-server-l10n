@@ -87,7 +87,7 @@ choose-newsletters-option-reclaim-the-internet =
 datablock-download =
     .message = ダウンロード済み
 datablock-copy =
-    .message = コピー済み
+    .message = コピーしました
 datablock-print =
     .message = 印刷済み
 
@@ -97,6 +97,12 @@ datablock-print =
 datablock-copy-success = コードをコピーしました
 datablock-download-success = コードをダウンロードしました
 datablock-print-success = コードを印刷しました
+
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = コピーしました
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -1469,6 +1475,12 @@ reset-password-recovery-phone-instruction-v3 = 下 4 桁が <span>{ $lastFourPho
 reset-password-recovery-phone-input-label = 6 桁のコードを入力
 reset-password-recovery-phone-code-submit-button = 確認
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
+reset-password-complete-new-password-saved = 新しいパスワードを保存しました！
+reset-password-complete-recovery-key-created = 新しいアカウント回復キーを作成しました。今すぐダウンロードして保管してください。
+reset-password-complete-recovery-key-download-info =
+    このキーは
+    パスワードを忘れた場合にデータの回復に必要です。<b>今すぐダウンロードして
+    安全な場所に保管してください。後で再度このページにアクセスすることはできません。</b>
 
 ## CompleteSignin component
 
