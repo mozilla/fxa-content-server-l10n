@@ -1289,7 +1289,7 @@ auth-error-114 = Probaste demasiadas veces. Intentá { $retryAfter }.
 auth-error-125 = Se bloqueó este pedido por razones de seguridad
 auth-error-129-2 = Ingresaste un número de teléfono no válido. Verificalo y probá de nuevo.
 auth-error-138-2 = Sesión no confirmada
-auth-error-138-3 = Sesión sin confirmar. Salga y vuelva a iniciar sesión.
+auth-error-138-3 = Sesión sin confirmar. Salí y volvé a iniciar sesión.
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = No se econtró el token TOTP.
 # Error shown when the user submits an invalid backup authentication code

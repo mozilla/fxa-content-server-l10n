@@ -1242,7 +1242,7 @@ auth-error-102 = 未知账户
 auth-error-103 = 密码错误
 auth-error-105-2 = 确认码无效
 auth-error-110 = 无效令牌
-auth-error-110-2 = 会话无效。请先退出登录后重新登录。
+auth-error-110-2 = 会话无效。请退出登录后重新登录。
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = 您的尝试次数过多，请稍后再试。
@@ -1255,7 +1255,7 @@ auth-error-114 = 您已尝试太多次，请在 { $retryAfter }再试。
 auth-error-125 = 因为安全性因素，已拦截请求
 auth-error-129-2 = 您输入的电话号码无效，请核对并重试。
 auth-error-138-2 = 未验证的会话
-auth-error-138-3 = 会话未确认。请先退出登录后重新登录。
+auth-error-138-3 = 会话未确认。请退出登录后重新登录。
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
 # Error shown when the user submits an invalid backup authentication code
