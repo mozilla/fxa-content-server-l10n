@@ -1276,6 +1276,7 @@ auth-error-102 = Account no cognossût
 auth-error-103 = Password sbaliade
 auth-error-105-2 = Codiç di conferme no valit
 auth-error-110 = Gjeton no valit
+auth-error-110-2 = Session no valide. Par plasê jes e torne jentre.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Tu âs provât masse voltis. Torne prove plui tart.
@@ -1288,6 +1289,7 @@ auth-error-114 = Tu âs provât masse voltis. Torne prove { $retryAfter }.
 auth-error-125 = La richieste e je stade blocade par motîfs di sigurece
 auth-error-129-2 = Tu âs inserît un numar di telefon che nol è valit. Controlilu e torne prove.
 auth-error-138-2 = Session no confermade
+auth-error-138-3 = Session no confermade. Par plasê jes e torne jentre.
 auth-error-139 = La e-mail secondarie e à di sei diferente di chê principâl dal to account
 auth-error-155 = Gjeton TOTP no cjatât
 # Error shown when the user submits an invalid backup authentication code
