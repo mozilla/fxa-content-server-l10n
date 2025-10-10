@@ -1276,7 +1276,7 @@ auth-error-102 = Cuenta desconocida
 auth-error-103 = Contraseña incorrecta
 auth-error-105-2 = Código de confirmación inválido
 auth-error-110 = Token inválido
-auth-error-110-2 = Sesión inválida. Salga y vuelva a iniciar sesión.
+auth-error-110-2 = Sesión inválida. Salí y volvé a iniciar sesión.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Probaste demasiadas veces. Intentalo de nuevo más tarde.
