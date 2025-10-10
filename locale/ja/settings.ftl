@@ -1568,6 +1568,8 @@ signin-reported-message = 担当者に通知が送られました。こうした
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> の確認コードを入力してください
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = 5 分以内に <email>{ $email }</email> 宛に送信されたコードを入力してください。
 signin-token-code-input-label-v2 = 6 桁のコードを入力してください
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 確認

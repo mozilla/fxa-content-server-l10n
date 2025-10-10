@@ -660,6 +660,9 @@ verifyLogin-description-2 = アカウントを安全に保つために、次の�
 verifyLogin-subject-2 = ログインを確認
 verifyLogin-action = ログインを確認
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = { $code } を使用してログイン
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } にログインしましたか？
 # After the colon is a description of the device used to sign in to the service
