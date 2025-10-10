@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } е вашият код за потв�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Kод за { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } е вашият код за потвърждаване от { -brand-mozilla }. Изтича след 5 минути.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Kод за { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -69,6 +79,7 @@ subplat-legal = Правна информация
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Поверителност
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Ако вашият профил бъде изтрит, пак ще получавате имейли от Mozilla Corporation и Mozilla Foundation, освен ако не <a data-l10n-name="unsubscribeLink">поискате да се отпишете.</a>
 account-deletion-info-block-communications-plaintext = Ако вашият профил е изтрит, пак ще получавате имейли от Mozilla Corporation и Mozilla Foundation, освен ако не поискате да се отпишете:
 account-deletion-info-block-support-plaintext = Ако имате въпроси или се нуждаете от помощ, не се колебайте да се свържете с нашия екип за поддръжка:
 # Variables:
@@ -96,6 +107,8 @@ automated-email-change-2 = Ако не сте предприели това де
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = За повече информация посетете поддръжката на { -brand-mozilla }:
 automated-email-no-action-plaintext = Това е автоматично електронно писмо. Ако сте го получили по погрешка, не е необходимо да правите нищо.
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = За повече информация посетете поддръжката на { -brand-mozilla }:
 change-password-plaintext = Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си.
 manage-account = Управление на сметка
 manage-account-plaintext = { manage-account }:
@@ -111,8 +124,17 @@ payment-plan-charged = Таксувано: { $invoiceTotal } на { $invoiceDate
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Следваща фактура: { $nextInvoiceDateOnly }
 
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+# $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Междинна сума: { $invoiceSubtotal }
+
 ##
 
+subscriptionSupport = Имате въпроси относно абонамента си? Нашият <a data-l10n-name="subscriptionSupportUrl">екип за поддръжка</a> е тук, за да ви помогне.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = Имате въпроси относно абонамента си? Екипът ни за поддръжка е тук, за да ви помогне:
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX

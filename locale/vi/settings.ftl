@@ -1252,6 +1252,7 @@ auth-error-102 = Tài khoản không xác định
 auth-error-103 = Mật khẩu không đúng
 auth-error-105-2 = Mã xác minh không hợp lệ
 auth-error-110 = Mã không hợp lệ
+auth-error-110-2 = Phiên không hợp lệ. Vui lòng đăng xuất và đăng nhập lại.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Bạn đã thử quá nhiều lần. Hãy thử lại sau.
@@ -1264,6 +1265,7 @@ auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $r
 auth-error-125 = Yêu cầu đã bị chặn vì lý do bảo mật
 auth-error-129-2 = Bạn đã nhập số điện thoại không hợp lệ. Vui lòng kiểm tra và thử lại.
 auth-error-138-2 = Phiên chưa được xác minh
+auth-error-138-3 = Phiên chưa được xác nhận. Vui lòng đăng xuất và đăng nhập lại.
 auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
 # Error shown when the user submits an invalid backup authentication code
