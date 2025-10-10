@@ -1278,6 +1278,7 @@ auth-error-102 = Onbekende account
 auth-error-103 = Onjuist wachtwoord
 auth-error-105-2 = Ongeldige bevestigingscode
 auth-error-110 = Ongeldige token
+auth-error-110-2 = Ongeldige sessie. Meld u af en opnieuw aan.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = U hebt het te vaak geprobeerd. Probeer het later opnieuw.
@@ -1290,6 +1291,7 @@ auth-error-114 = U hebt het te vaak geprobeerd. Probeer het { $retryAfter } opni
 auth-error-125 = De aanvraag is om veiligheidsredenen geblokkeerd
 auth-error-129-2 = U hebt een ongeldig telefoonnummer ingevoerd. Controleer dit en probeer het opnieuw.
 auth-error-138-2 = Onbevestigde sessie
+auth-error-138-3 = Onbevestigde sessie. Meld u af en opnieuw aan.
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
 # Error shown when the user submits an invalid backup authentication code
