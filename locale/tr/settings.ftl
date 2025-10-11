@@ -1269,6 +1269,7 @@ auth-error-102 = Bilinmeyen hesap
 auth-error-103 = Parola yanlış
 auth-error-105-2 = Geçersiz onay kodu
 auth-error-110 = Geçersiz jeton
+auth-error-110-2 = Geçersiz oturum. Lütfen çıkış yapıp yeniden giriş yapın.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Çok fazla deneme yaptınız. Lütfen daha sonra yeniden deneyin.
@@ -1281,6 +1282,7 @@ auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } yeniden deneyin.
 auth-error-125 = Bu istek güvenlik nedeniyle engellendi
 auth-error-129-2 = Geçersiz bir telefon numarası yazdınız. Lütfen kontrol edip yeniden deneyin.
 auth-error-138-2 = Onaylanmamış oturum
+auth-error-138-3 = Onaylanmamış oturum. Lütfen çıkış yapıp yeniden giriş yapın.
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
 # Error shown when the user submits an invalid backup authentication code

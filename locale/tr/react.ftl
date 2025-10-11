@@ -4,6 +4,10 @@ app-general-err-heading = Genel uygulama hatası
 app-general-err-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Hatalı istek: Geçersiz sorgu parametresi
+# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
+# or maybe the session token is stale and the user needs to sign back in again.
+app-invalid-session-err-heading = Geçersiz oturum
+app-invalid-session-err-message = Lütfen çıkış yapıp yeniden giriş yapın.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
