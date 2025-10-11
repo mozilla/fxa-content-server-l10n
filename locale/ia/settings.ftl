@@ -1281,6 +1281,7 @@ auth-error-102 = Conto incognite
 auth-error-103 = Contrasigno incorrecte
 auth-error-105-2 = Codice de confirmation invalide
 auth-error-110 = Token invalide
+auth-error-110-2 = Session non valide. Claude session e  re-accede.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Tu ha tentate troppo de vices. Retenta plus tarde.
@@ -1293,6 +1294,7 @@ auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
 auth-error-125 = Le requesta ha essite blocate pro rationes de securitate
 auth-error-129-2 = Tu insereva un numero de telephono non valide. Verifica lo e retenta.
 auth-error-138-2 = Session non confirmate
+auth-error-138-3 = Session non confirmate. Claude session e  re-accede.
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
 auth-error-155 = Token TOTP non trovate
 # Error shown when the user submits an invalid backup authentication code
