@@ -1915,7 +1915,7 @@ signin-unblock-submit-button = Hald fram
 signin-unblock-code-required-error = Godkjenningskode påkravd
 signin-unblock-code-incorrect-length = Godkjenningskoden må innehalde 8 teikn
 signin-unblock-code-incorrect-format-2 = Godkjenningskoden kan berre innehalde bokstavar og/eller tal
-signin-unblock-resend-code-button = Ikkje i innboksen eller spam-mappa? Send på nytt
+signin-unblock-resend-code-button = Ikkje i innboksen eller søppelpost-mappa? Send på nytt
 signin-unblock-support-link = Kvifor skjer dette?
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after

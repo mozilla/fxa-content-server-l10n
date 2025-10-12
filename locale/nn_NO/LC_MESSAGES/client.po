@@ -1009,7 +1009,7 @@ msgstr "Sjekk e-posten din for påloggingsstadfestinga som er sendt til %(escape
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
-msgstr "Ikkje i Innboks eller Uønskt-mappa («spam»)? Send på nytt"
+msgstr "Ikkje i Innboks eller Uønskt-mappa? Send på nytt"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
