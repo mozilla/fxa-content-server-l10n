@@ -625,6 +625,10 @@ subscriptionUpgrade-title = アップグレードしていただきありがと�
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = { $unblockCode } を使用してログイン
+unblockCode-preview = このコードの有効期限は 1 時間です
 unblockCode-title = ログインしようとしているのはあなた自身ですか？
 unblockCode-prompt = あなた自身の場合は、こちらの認証コードを使用してください:
 # Variables:
@@ -653,7 +657,19 @@ verify-title-3 = { -brand-mozilla } 製品でインターネットをオープ�
 verify-description-2 = アカウントを確認すると、ログインしたどの端末からでも { -brand-mozilla } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
 verify-action-2 = アカウントを確認
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = { $code } を使用してアカウントを変更
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview = このコードの有効期限は { $expirationTime } 分です。
 verifyAccountChange-title = アカウント情報を変更しようとしていますか？
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = アカウントを安全に保つために、次の端末からのアカウントの変更を承認してください:
+verifyAccountChange-prompt = はいの場合の認証コードはこちら:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice = { $expirationTime } 分以内に確認コードを入力してください。
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = { $clientName } にログインしましたか？
@@ -663,6 +679,7 @@ verifyLogin-action = ログインを確認
 # Variables:
 #  $code (String) - The confirmation code for sign-in
 verifyLoginCode-subject-line-3 = { $code } を使用してログイン
+verifyLoginCode-preview = このコードの有効期限は 5 分です。
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } にログインしましたか？
@@ -676,6 +693,7 @@ verifyPrimary-subject = 優先メールアドレス確認
 verifyPrimary-action-2 = メールアドレスを確認
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = 確認が済むと、予備アドレスの追加などのアカウント変更をこの端末から行えるようになります。
+verifySecondaryCode-preview = このコードの有効期限は 5 分です。
 verifySecondaryCode-title-2 = 予備メールアドレスの確認
 verifySecondaryCode-action-2 = メールアドレスを確認
 # Variables:
