@@ -145,6 +145,7 @@ form-password-with-inline-criteria-set-password-new-password-label =
     .label = パスワード
 form-password-with-inline-criteria-set-password-confirm-password-label =
     .label = パスワードを再入力してください
+form-password-with-inline-criteria-set-password-submit-button = 同期を開始
 form-password-with-inline-criteria-match-error = パスワードが一致しません
 form-password-with-inline-criteria-sr-too-short-message = パスワードは 8 文字以上にする必要があります。
 form-password-with-inline-criteria-sr-not-email-message = パスワードにメールアドレスを含めることはできません。
