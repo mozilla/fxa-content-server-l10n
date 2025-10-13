@@ -150,6 +150,8 @@ form-password-with-inline-criteria-match-error = パスワードが一致しま�
 form-password-with-inline-criteria-sr-too-short-message = パスワードは 8 文字以上にする必要があります。
 form-password-with-inline-criteria-sr-not-email-message = パスワードにメールアドレスを含めることはできません。
 form-password-with-inline-criteria-sr-not-common-message = パスワードは一般的に使用されているパスワードにしてはいけません。
+form-password-with-inline-criteria-sr-requirements-met = 入力されたパスワードはすべてのパスワード要件を満たしています。
+form-password-with-inline-criteria-sr-passwords-match = 入力したパスワードは一致しています。
 
 ## FormVerifyCode
 
