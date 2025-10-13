@@ -4,6 +4,10 @@ app-general-err-heading = Algemiene tapassingsflater
 app-general-err-message = Der is wat misgien. Probearje it letter opnij.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Unjildige oanfraach: ûnjildige queryparameters
+# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
+# or maybe the session token is stale and the user needs to sign back in again.
+app-invalid-session-err-heading = Unjildige sesje
+app-invalid-session-err-message = Meld jo ôf en meld jo opnij oan.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
