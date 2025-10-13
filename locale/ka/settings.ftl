@@ -1278,6 +1278,7 @@ auth-error-102 = უცნობი ანგარიში
 auth-error-103 = არასწორი პაროლი
 auth-error-105-2 = არასწორი დამადასტურებელი კოდი
 auth-error-110 = უმართებულო საშვი
+auth-error-110-2 = უმართებულო სეანსი. გთხოვთ, გამოხვიდეთ ანგარიშიდან და ხელახლა შეხვიდეთ.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = ზედმეტად ბევრი მცდელობა. კვლავ სინჯეთ მოგვიანებით.
@@ -1290,6 +1291,7 @@ auth-error-114 = ზედმეტად ბევრი მცდელობ�
 auth-error-125 = მოთხოვნა უარყოფილია უსაფრთხოების მიზნით
 auth-error-129-2 = მითითებული ტელეფონის ნომერი უმართებულოა. გთხოვთ გადაამოწმოთ და კვლავ სცადოთ.
 auth-error-138-2 = დაუმოწმებელი სეანსი
+auth-error-138-3 = დაუმოწმებელი სეანსი. გთხოვთ, გამოხვიდეთ ანგარიშიდან და ხელახლა შეხვიდეთ.
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
 auth-error-155 = TOTP-საშვი ვერ მოიძებნა
 # Error shown when the user submits an invalid backup authentication code
