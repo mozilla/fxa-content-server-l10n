@@ -653,6 +653,7 @@ verify-title-3 = { -brand-mozilla } 製品でインターネットをオープ�
 verify-description-2 = アカウントを確認すると、ログインしたどの端末からでも { -brand-mozilla } を最大限に活用できます。まずこちらから:
 verify-subject = アカウント作成を完了してください
 verify-action-2 = アカウントを確認
+verifyAccountChange-title = アカウント情報を変更しようとしていますか？
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = { $clientName } にログインしましたか？
