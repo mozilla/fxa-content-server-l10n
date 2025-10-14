@@ -1282,6 +1282,7 @@ auth-error-102 = Unbekend account
 auth-error-103 = Ferkeard wachtwurd
 auth-error-105-2 = Ferkearde befêstigingskoade
 auth-error-110 = Unjildich token
+auth-error-110-2 = Unjildige sesje. Meld jo ôf en meld jo opnij oan.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Jo hawwe te faaks besocht. Probearje letter opnij.
@@ -1294,6 +1295,7 @@ auth-error-114 = Jo hawwe it te faak probearre. Probearje it { $retryAfter } opn
 auth-error-125 = De oanfraach is om reden fan feilichheid blokkearre
 auth-error-129-2 = Jo hawwe in ûnjildich telefoannûmer ynfierd. Kontrolearje dit en probearje it opnij.
 auth-error-138-2 = Net-befêstige sesje
+auth-error-138-3 = Net-befêstige sesje. Meld jo ôf en meld jo opnij oan.
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
 # Error shown when the user submits an invalid backup authentication code
