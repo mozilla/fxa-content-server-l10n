@@ -178,11 +178,34 @@ payment-plan-charged = ਵਸੂਲੇ: { $invoiceDateOnly } ਨੂੰ { $invoic
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = ਅਗਲਾ ਭੁਗਤਾਨ: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>ਭੁਗਤਾਨ ਦਾ ਢੰਗ:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = ਭੁਗਤਾਨ ਦਾ ਢੰਗ: { $paymentProviderName }
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-date = <b>ਤਾਰੀਖ:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = ਤਾਰੀਖ: { $invoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = ਅਧੀਨ ਜੋੜ: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = ਇੱਕ ਵਾਰ ਦੀ ਰਿਆਇਤ
+subscription-charges-discount = ਰਿਆਇਤ
+subscription-charges-discount-plaintext = ਰਿਆਇਤ: { $invoiceDiscountAmount }
+subscription-charges-taxes = ਟੈਕਸ ਅਤੇ ਫੀਸਾਂ
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ: { $invoiceTaxAmount }
+subscription-charges-total = <b>ਕੁੱਲ ਜੋੜ</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = ਕੁੱਲ ਜੋੜ: { $invoiceTotal }
+subscription-charges-credit-applied = ਕਰੈਡਿਟ ਲਾਗੂ ਕੀਤਾ
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = ਕਰੈਡਿਟ ਲਾਗੂ ਕੀਤਾ: { $creditApplied }
 
 ##
 
