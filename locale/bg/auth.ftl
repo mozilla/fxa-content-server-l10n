@@ -80,6 +80,7 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Поверителност
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Ако вашият профил бъде изтрит, пак ще получавате имейли от Mozilla Corporation и Mozilla Foundation, освен ако не <a data-l10n-name="unsubscribeLink">поискате да се отпишете.</a>
+account-deletion-info-block-support = Ако имате въпроси или се нуждаете от помощ, можете да се свържете с нашия <a data-l10n-name="supportLink">екип за поддръжка</a>.
 account-deletion-info-block-communications-plaintext = Ако вашият профил е изтрит, пак ще получавате имейли от Mozilla Corporation и Mozilla Foundation, освен ако не поискате да се отпишете:
 account-deletion-info-block-support-plaintext = Ако имате въпроси или се нуждаете от помощ, не се колебайте да се свържете с нашия екип за поддръжка:
 # Variables:
@@ -104,9 +105,16 @@ ios-download-plaintext = Изтеглете { $productName } от App Store:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Инсталирайте { $productName } на друго устройство:
 automated-email-change-2 = Ако не сте предприели това действие, <a data-l10n-name="passwordChangeLink">променете паролата си</a> веднага.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Ако не сте предприели това действие, веднага сменете паролата си:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = За повече информация посетете поддръжката на { -brand-mozilla }:
 automated-email-no-action-plaintext = Това е автоматично електронно писмо. Ако сте го получили по погрешка, не е необходимо да правите нищо.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Тази заявка дойде от { $uaBrowser } на { $uaOS }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
@@ -116,6 +124,10 @@ automatedEmailRecoveryKey-origin-device-browser-only = Тази заявка и�
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 # - $uaOSVersion - the user agent's operating system version
 automatedEmailRecoveryKey-origin-device-OS-version-only = Тази заявка идва от { $uaOS } { $uaOSVersion }.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Тази заявка дойде от:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Ако това не сте били вие, изтрийте новия ключ:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = За повече информация посетете поддръжката на { -brand-mozilla }:
 change-password-plaintext = Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си.
