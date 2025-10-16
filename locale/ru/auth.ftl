@@ -278,10 +278,10 @@ subscriptionSupportContact = Спасибо, что подписались на 
 subscriptionSupportContact-plaintext = Спасибо, что подписались на { $productName }. Если у вас есть какие-либо вопросы о подписке или нужны дополнительные сведения о { $productName }, вы можете связаться с нами:
 subscription-support-get-help = Получить помощь по вашей подписке
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Управляйте своей подпиской</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Управляйте своей подпиской:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Обратиться в службу поддержки</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Связаться с поддержкой:
 subscriptionUpdateBillingEnsure = Если вы хотите убедиться, что ваш способ оплаты и информация об аккаунте актуальны, вы можете сделать это <a data-l10n-name="updateBillingUrl">здесь</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -805,19 +805,19 @@ unblockCode-prompt-plaintext = Если да, вот - код авторизац
 unblockCode-report = Если нет, помогите нам в борьбе со злоумышленниками и <a data-l10n-name="reportSignInLink">сообщите нам об этом</a>.
 unblockCode-report-plaintext = Если нет, помогите нам в борьбе со злоумышленниками и сообщите нам об этом.
 verificationReminderFinal-subject = Последнее напоминание для подтверждения вашего аккаунта
-verificationReminderFinal-description-2 = Пару недель назад вы создали { -product-mozilla-account }, но так и не подтвердили ее. В целях вашей безопасности мы удаляем учетную запись, если она не будет подтверждена в течение следующих 24 часов.
+verificationReminderFinal-description-2 = Пару недель назад вы создали { -product-mozilla-account }, но так и не подтвердили его. В целях вашей безопасности мы удаляем аккаунт, если он не будет подтверждён в течение следующих 24 часов.
 confirm-account = Подтвердить аккаунт
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудьте подтвердить свой аккаунт
 verificationReminderFirst-title-3 = Добро пожаловать в { -brand-mozilla }!
-verificationReminderFirst-description-3 = Несколько дней назад вы создали { -product-mozilla-account }, но так и не подтвердили ее. Пожалуйста, подтвердите свою учетную запись в течение следующих 15 дней, или она будет автоматически удалена.
+verificationReminderFirst-description-3 = Несколько дней назад вы создали { -product-mozilla-account }, но так и не подтвердили его. Пожалуйста, подтвердите свой аккаунт в течение следующих 15 дней, или он будет автоматически удалён.
 verificationReminderFirst-sub-description-3 = Не пропустите браузер, который ставит вас и вашу приватность на первое место.
 confirm-email-2 = Подтвердить аккаунт
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Подтвердить аккаунт
 verificationReminderSecond-subject-2 = Не забудьте подтвердить свой аккаунт
 verificationReminderSecond-title-3 = Не упустите в { -brand-mozilla }!
-verificationReminderSecond-description-4 = Несколько дней назад вы создали { -product-mozilla-account }, но так и не подтвердили ее. Пожалуйста, подтвердите свой аккаунт в течение следующих 10 дней, или он будет автоматически удалён.
+verificationReminderSecond-description-4 = Несколько дней назад вы создали { -product-mozilla-account }, но так и не подтвердили его. Пожалуйста, подтвердите свой аккаунт в течение следующих 10 дней, или он будет автоматически удалён.
 verificationReminderSecond-second-description-3 = Ваш { -product-mozilla-account } позволяет синхронизировать работу с { -brand-firefox } на разных устройствах и открывает доступ к большему количеству продуктов от { -brand-mozilla }, защищающих конфиденциальность.
 verificationReminderSecond-sub-description-2 = Станьте частью нашей миссии по трансформации Интернета в место, открытое для всех.
 verificationReminderSecond-action-2 = Подтвердить аккаунт
