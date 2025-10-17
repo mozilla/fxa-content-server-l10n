@@ -68,6 +68,12 @@ next-payment-confirmation-download-button = Continuar para baixar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 
+## Page - Subscription Management
+
+subscription-management-payment-information-heading = Informações de pagamento
+subscription-management-button-add-payment-method = Adicionar
+subscription-management-button-support = Obter ajuda
+
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
@@ -75,6 +81,11 @@ next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 page-not-found-title = Página não encontrada
 page-not-found-description = A página solicitada não foi encontrada. Fomos notificados e corrigiremos os links que podem estar quebrados.
 page-not-found-back-button = Voltar
+
+## Navigation breadcrumbs
+
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Assinaturas
 
 ## Component - Payment Consent Checkbox
 
@@ -177,6 +188,19 @@ next-new-user-subscribe-product-updates-mozilla = Quero receber notícias e novi
 next-new-user-subscribe-product-updates-snp = Quero de receber notícias e novidades da { -brand-mozilla } sobre segurança e privacidade
 next-new-user-subscribe-product-assurance = Só usamos seu email para criar sua conta. Nunca iremos vender a terceiros.
 
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-heading-cancel-subscription = Cancelar assinatura
+subscription-content-button-cancel = Cancelar
+    .aria-label = Cancelar sua assinatura do { $productName }
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -239,3 +263,5 @@ metadata-title-checkout-success = Sucesso | { $productTitle }
 metadata-description-checkout-success = Parabéns! Você concluiu sua compra com sucesso.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Ação necessária | { $productTitle }
+# Default
+metadata-title-default = Página não encontrada | { $productTitle }

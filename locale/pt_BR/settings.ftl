@@ -91,6 +91,12 @@ datablock-copy =
 datablock-print =
     .message = Impresso
 
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copiado
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -128,6 +134,10 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Confirmar senha
 form-password-with-inline-criteria-reset-submit-button = Criar nova senha
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Senha
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Repetir senha
 form-password-with-inline-criteria-match-error = As senhas não coincidem
 form-password-with-inline-criteria-sr-too-short-message = A senha deve ter pelo menos 8 caracteres.
 form-password-with-inline-criteria-sr-not-email-message = A senha não pode ter seu endereço de email
