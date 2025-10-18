@@ -217,6 +217,12 @@ payment-provider-card-ending-in-card-name = <b>Metoda płatności:</b> Karta { $
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Suma częściowa: { $invoiceSubtotal }
 
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-discount = Zniżka
+subscription-charges-discount-plaintext = Zniżka: { $invoiceDiscountAmount }
+
 ##
 
 subscriptionSupport = Masz pytania dotyczące subskrypcji? Nasz <a data-l10n-name="subscriptionSupportUrl">zespół wsparcia</a> Ci pomoże.
@@ -369,6 +375,7 @@ passwordChangeRequired-different-password-2 = <b>Ważne:</b> wybierz silne hasł
 passwordChangeRequired-different-password-plaintext-2 = Ważne: wybierz silne hasło inne niż używane wcześniej.
 passwordChangeRequired-action = Zmień hasło
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+password-forgot-otp-preview = Ten kod wygaśnie za 10 minut
 password-forgot-otp-title = Nie pamiętasz hasła?
 password-forgot-otp-request = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z urządzenia:
 password-forgot-otp-code-2 = Jeśli to Ty, oto kod potwierdzenia:
@@ -688,6 +695,7 @@ subscriptionUpgrade-content-charge-prorated-1 = Została naliczona jednorazowa o
 subscriptionUpgrade-content-charge-credit = Otrzymano środki na koncie w wysokości { $paymentProrated }.
 subscriptionUpgrade-existing = Jeśli któraś z istniejących subskrypcji pokrywa się z tym przełączeniem, zajmiemy się nimi i wyślemy Ci osobną wiadomość e-mail z informacjami. Jeśli nowy plan obejmuje produkty wymagające instalacji, wyślemy Ci osobną wiadomość e-mail z instrukcjami konfiguracji.
 subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
+unblockCode-preview = Ten kod wygaśnie za godzinę
 unblockCode-title = Czy to Ty się logujesz?
 unblockCode-prompt = Jeśli tak, to potrzebny jest ten kod upoważnienia:
 # Variables:
@@ -717,11 +725,28 @@ verify-description-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozill
 verify-subject = Dokończ tworzenie konta
 verify-action-2 = Potwierdź konto
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Ten kod wygasa za { $expirationTime } minutę.
+        [few] Ten kod wygasa za { $expirationTime } minuty.
+       *[many] Ten kod wygasa za { $expirationTime } minut.
+    }
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Wygasa za { $expirationTime } minutę.
+        [few] Wygasa za { $expirationTime } minuty.
+       *[many] Wygasa za { $expirationTime } minut.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Czy zalogowano do „{ $clientName }”?
 verifyLogin-description-2 = Pomóż nam zapewnić bezpieczeństwo Twojego konta, potwierdzając logowanie na:
 verifyLogin-subject-2 = Potwierdź logowanie
 verifyLogin-action = Potwierdź logowanie
+verifyLoginCode-preview = Ten kod wygaśnie za 5 minut.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Czy zalogowano do „{ $serviceName }”?
@@ -735,6 +760,7 @@ verifyPrimary-subject = Potwierdź główny adres e-mail
 verifyPrimary-action-2 = Potwierdź adres e-mail
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Po potwierdzeniu na tym urządzeniu będzie można wykonywać zmiany na koncie, takie jak dodawanie dodatkowego adresu e-mail.
+verifySecondaryCode-preview = Ten kod wygaśnie za 5 minut.
 verifySecondaryCode-title-2 = Potwierdź dodatkowy adres e-mail
 verifySecondaryCode-action-2 = Potwierdź adres e-mail
 # Variables:
@@ -742,6 +768,7 @@ verifySecondaryCode-action-2 = Potwierdź adres e-mail
 verifySecondaryCode-explainer-2 = Z tego { -product-mozilla-account(case: "gen", capitalization: "lower") } wysłano prośbę o dodanie { $email } jako dodatkowego adresu e-mail:
 verifySecondaryCode-prompt-2 = Użyj tego kodu potwierdzenia:
 verifySecondaryCode-expiry-notice-2 = Wygasa za 5 minut. Po potwierdzeniu ten adres będzie otrzymywał powiadomienia bezpieczeństwa i potwierdzenia.
+verifyShortCode-preview-2 = Ten kod wygaśnie za 5 minut
 verifyShortCode-title-3 = Uczyń Internet bardziej otwartym z { -brand-mozilla(case: "ins") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozilla(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:

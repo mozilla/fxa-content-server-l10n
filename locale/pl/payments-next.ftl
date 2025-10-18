@@ -119,7 +119,9 @@ subscription-management-your-subscriptions-aria = Twoje subskrypcje
 subscription-management-no-subscriptions = Nie masz jeszcze żadnych subskrypcji
 subscription-management-button-support = Pomoc
 subscription-management-your-apple-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: zakup w aplikacji
 subscription-management-your-google-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-google }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: zakup w aplikacji
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-will-expire-on = Twoja subskrypcja wygaśnie dnia <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
