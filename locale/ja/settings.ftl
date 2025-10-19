@@ -1223,6 +1223,8 @@ index-cta = ログインまたはアカウント登録
 index-account-info = { -product-mozilla-account }を使用すると、さらにプライバシーを保護する他の { -brand-mozilla } 製品にもアクセスできます。
 index-email-input =
     .label = メールアドレスを入力
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = アカウントの削除が完了しました
 
 ## InlineRecoveryKeySetup page component
 
