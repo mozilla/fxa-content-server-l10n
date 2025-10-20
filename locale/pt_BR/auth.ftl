@@ -582,6 +582,7 @@ subscriptionRenewalReminder-content-closing = Atenciosamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A equipe do { $productName }
+subscriptionReplaced-subject = Sua assinatura foi atualizada como parte da sua mudança
 subscriptionReplaced-title = Sua assinatura foi atualizada
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Sua assinatura individual do { $productName } foi substituída e agora está incluída em seu novo pacote.
@@ -601,6 +602,10 @@ subscriptionSubsequentInvoice-content-received = Recebemos seu último pagamento
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Você atualizou para { $productName }
 subscriptionUpgrade-title = Obrigado por atualizar!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Sua mudança do { $productName } foi concluída com sucesso.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -613,6 +618,7 @@ subscriptionUpgrade-title = Obrigado por atualizar!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-credit = Você recebeu um crédito na conta no valor de { $paymentProrated }.
+subscriptionUpgrade-existing = Se alguma de suas assinaturas existentes interferir com esta mudança, cuidaremos disso e enviaremos um email separado com os detalhes. Caso seu novo plano inclua produtos que necessitem de instalação, enviaremos um email separado com instruções de configuração.
 subscriptionUpgrade-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 unblockCode-title = Foi você que tentou entrar na sua conta?
 unblockCode-prompt = Se foi você, use este código de verificação:
