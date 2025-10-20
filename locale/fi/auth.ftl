@@ -247,10 +247,10 @@ subscriptionSupportContact = Kiitos, että tilasit { $productName }:n. Jos sinul
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Kiitos, että tilasit { $productName }:n. Jos sinulla on kysymyksiä tilaukseen liittyen tai tarvitset lisätietoja { $productName }:stä, ota yhteys meihin:
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Hallitse tilaustasi</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Hallitse tilaustasi:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Ota yhteys tukeen</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Ota yhteys tukeen:
 subscriptionUpdateBillingEnsure = Voit varmistaa, että maksutapasi ja tilitietosi ovat ajan tasalla <a data-l10n-name="updateBillingUrl">täällä</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

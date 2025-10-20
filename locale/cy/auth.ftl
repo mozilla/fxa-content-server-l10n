@@ -282,10 +282,10 @@ subscriptionSupportContact = Diolch am danysgrifio i { $productName }. Os oes ge
 subscriptionSupportContact-plaintext = Diolch am danysgrifio i { $productName }. Os oes gennych unrhyw gwestiynau am eich tanysgrifiad neu os oes angen mwy o wybodaeth arnoch am { $productName }, cysylltwch â ni.
 subscription-support-get-help = Cael help gyda'ch tanysgrifiad
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Rheoli eich tanysgrifiad</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Rheoli eich tanysgrifiad:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Cysylltu â chefnogaeth</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Cymorth cyswllt:
 subscriptionUpdateBillingEnsure = Gallwch sicrhau bod eich dull talu a manylion eich cyfrif yn gyfredol <a data-l10n-name="updateBillingUrl">yma</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

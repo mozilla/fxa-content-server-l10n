@@ -267,10 +267,10 @@ subscriptionSupportContact = תודה שנרשמת ל־{ $productName }. אם י
 subscriptionSupportContact-plaintext = תודה שנרשמת ל־{ $productName }. אם יש לך שאלות כלשהן לגבי המינוי שלך או שיש לך צורך במידע נוסף על { $productName }, באפשרותך ליצור איתנו קשר:
 subscription-support-get-help = קבלת עזרה עם המינוי שלך
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">ניהול המינוי שלך</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = ניהול המינוי שלך:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">יצירת קשר עם התמיכה</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = יצירת קשר עם התמיכה:
 subscriptionUpdateBillingEnsure = באפשרותך לוודא שאמצעי התשלום ופרטי החשבון שלך מעודכנים <a data-l10n-name="updateBillingUrl">כאן</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

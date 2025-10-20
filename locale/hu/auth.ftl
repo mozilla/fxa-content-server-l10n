@@ -274,10 +274,10 @@ subscriptionSupportContact = Köszönjük, hogy előfizetett a { $productName } 
 subscriptionSupportContact-plaintext = Köszönjük, hogy előfizetett a { $productName } szolgáltatásra. Ha kérdése van az előfizetésével kapcsolatban, vagy további információra van szükséges a { $productName } szolgáltatással kapcsolatban, akkor lépjen velünk kapcsolatba:
 subscription-support-get-help = Segítség az előfizetéshez
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Előfizetés kezelése</a>
-# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Előfizetés kezelése:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kapcsolatfelvétel az ügyfélszolgálattal</a>
-# After the colon, there's a link to https://accounts.firefox.com/support
+# After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Kapcsolatfelvétel az ügyfélszolgálattal:
 subscriptionUpdateBillingEnsure = Itt meggyőződhet arról, hogy fizetési módja és fiókja adatai naprakészek <a data-l10n-name="updateBillingUrl">itt</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
