@@ -187,6 +187,19 @@ payment-plan-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Samtala: { $invoiceSubtotal }
 
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-discount = Afsláttur
+subscription-charges-discount-plaintext = Afsláttur: { $invoiceDiscountAmount }
+subscription-charges-taxes = Skattar og gjöld
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Skattar og gjöld: { $invoiceTaxAmount }
+subscription-charges-total = <b>Samtals</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Samtals: { $invoiceTotal }
+subscription-charges-amount-paid = <b>Greidd upphæð</b>
+
 ##
 
 subscriptionSupport = Spurningar varðandi áskriftina þína? <a data-l10n-name="subscriptionSupportUrl">Aðstoðarteymið</a> okkar er hér til að hjálpa þér.
@@ -197,6 +210,8 @@ subscriptionSupport-plaintext = Spurningar um áskriftina þína? Þjónustuteym
 subscriptionSupportContact = Þakka þér fyrir að gerast áskrifandi að { $productName }. Ef þú hefur einhverjar spurningar um áskriftina þína eða þarft frekari upplýsingar um { $productName } geturðu <a data-l10n-name="subscriptionSupportUrl">haft samband við okkur</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Þakka þér fyrir að gerast áskrifandi að { $productName }. Ef þú hefur einhverjar spurningar um áskriftina þína eða þarft frekari upplýsingar um { $productName } geturðu haft samband við okkur:
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Hafa samband við aðstoðarteymið:
 subscriptionUpdateBillingEnsure = Þú getur tryggt að greiðslumáti og reikningsupplýsingar þínar séu uppfærðar <a data-l10n-name="updateBillingUrl">hér</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Þú getur tryggt að greiðslumáti og reikningsupplýsingar þínar séu uppfærðar hér:
@@ -215,6 +230,22 @@ device-all = { $uaBrowser } á { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } á { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (áætlað)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (áætlað)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (áætlað)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (áætlað)
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -308,6 +339,8 @@ passwordChanged-subject = Lykilorð uppfært
 passwordChanged-title = Tókst að breyta lykilorði
 passwordChanged-description-2 = Lykilorðinu fyrir { -product-mozilla-account } þinn var breytt af eftirfarandi tæki:
 passwordChangeRequired-subject = Vart við grunsamlega virkni
+passwordChangeRequired-action = Endurstilla lykilorð
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-title = Gleymdirðu lykilorðinu þínu?
 password-forgot-otp-request = Við fengum beiðni um breytingu á lykilorði á { -product-mozilla-account }-reikningnum þínum frá:
 password-forgot-otp-code-2 = Ef þetta varst þú, þá er hér staðfestingarkóði þinn til að halda áfram:
