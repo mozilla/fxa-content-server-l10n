@@ -678,6 +678,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Folytatás
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Kétlépcsős hitelesítés engedélyezve
+flow-setup-2fa-inline-complete-success-banner-description = A csatlakoztatott eszközeinek védelme érdekében ki kell jelentkeznie mindenhol, ahol ezt a fiókot használja, majd jelentkezzen be újra az új kétlépcsős hitelesítésével.
 flow-setup-2fa-inline-complete-backup-code = Tartalék hitelesítési kódok
 flow-setup-2fa-inline-complete-backup-phone = Helyreállítási telefonszám
 # $count (Number) - an integer representing the number of backup
@@ -809,6 +810,7 @@ nav-email-comm = E-mail kommunikáció
 
 page-2fa-change-title = Kétlépcsős hitelesítés módosítása
 page-2fa-change-success = A kétlépcsős hitelesítés frissítve lett
+page-2fa-change-success-additional-message = A csatlakoztatott eszközeinek védelme érdekében ki kell jelentkeznie mindenhol, ahol ezt a fiókot használja, majd jelentkezzen be újra az új kétlépcsős hitelesítésével.
 page-2fa-change-totpinfo-error = Hiba történt a kétlépcsős hitelesítő alkalmazás cseréjekor. Próbálja újra később.
 page-2fa-change-qr-instruction = <strong>1. lépés:</strong> Olvassa le ezt a QR-kódot bármely hitelesítő alkalmazással, például a Duo vagy a Google Hitelesítő segítségével. Ez egy új kapcsolatot hoz létre, a régi kapcsolatok nem fognak működni.
 
@@ -840,6 +842,7 @@ page-2fa-setup-totpinfo-error = Hiba történt a kétlépcsős hitelesítés be�
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ez a kód nem helyes. Próbálja újra.
 page-2fa-setup-success = A kétlépcsős hitelesítés engedélyezve lett
+page-2fa-setup-success-additional-message = Az összes csatlakoztatott eszközének védelme érdekében ki kell jelentkeznie mindenhol, ahol ezt a fiókot használja, majd jelentkezzen be újra a kétlépcsős hitelesítéssel.
 
 ## Avatar change page
 

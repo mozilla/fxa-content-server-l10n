@@ -679,6 +679,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Pokračovat
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Dvoufázové ověřování je zapnuto
+flow-setup-2fa-inline-complete-success-banner-description = Pro ochranu všech vašich připojených zařízení byste se měli odhlásit všude, kde používáte tento účet, a poté se znovu přihlaste pomocí nového dvoufázového ověření.
 flow-setup-2fa-inline-complete-backup-code = Záložní ověřovací kódy
 flow-setup-2fa-inline-complete-backup-phone = Telefon pro obnovení
 # $count (Number) - an integer representing the number of backup
@@ -812,6 +813,7 @@ nav-email-comm = E-mailová sdělení
 
 page-2fa-change-title = Změnit dvoufázové ověřování
 page-2fa-change-success = Dvoufázové ověřování bylo aktualizováno
+page-2fa-change-success-additional-message = Pro ochranu všech vašich připojených zařízení byste se měli odhlásit všude, kde používáte tento účet, a poté se znovu přihlaste pomocí nového dvoufázového ověření.
 page-2fa-change-totpinfo-error = Při výměně vaší aplikace pro dvoufázové ověřování nastala chyba. Zkuste to znovu později.
 page-2fa-change-qr-instruction = <strong>Krok 1:</strong> Naskenujte tento QR kód pomocí libovolné aplikace, jako je Duo nebo Google Authenticator. Toto vytvoří nové připojení. Stará připojení nebudou nadále fungovat.
 
@@ -843,6 +845,7 @@ page-2fa-setup-totpinfo-error = Při nastavování dvoufázového ověřování 
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Tento kód není správný. Zkuste to znovu.
 page-2fa-setup-success = Bylo povoleno dvoufázové ověřování
+page-2fa-setup-success-additional-message = Pro ochranu všech vašich připojených zařízení byste se měli odhlásit všude, kde používáte tento účet, a poté se znovu přihlaste pomocí dvoufázového ověření.
 
 ## Avatar change page
 

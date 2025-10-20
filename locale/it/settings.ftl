@@ -670,6 +670,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continua
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Autenticazione in due passaggi attivata
+flow-setup-2fa-inline-complete-success-banner-description = Per proteggere tutti i tuoi dispositivi connessi, devi disconnetterti da tutti i dispositivi in cui stai utilizzando questo account, quindi accedere nuovamente utilizzando la nuova autenticazione in due passaggi.
 flow-setup-2fa-inline-complete-backup-code = Codici di autenticazione di backup
 flow-setup-2fa-inline-complete-backup-phone = Telefono per il recupero dell’account
 # $count (Number) - an integer representing the number of backup
@@ -801,6 +802,7 @@ nav-email-comm = Comunicazioni via email
 
 page-2fa-change-title = Modifica l’autenticazione in due passaggi
 page-2fa-change-success = L’autenticazione in due passaggi è stata aggiornata
+page-2fa-change-success-additional-message = Per proteggere tutti i tuoi dispositivi connessi, devi disconnetterti da tutti i dispositivi in cui stai utilizzando questo account, quindi accedere nuovamente utilizzando la nuova autenticazione in due passaggi.
 page-2fa-change-totpinfo-error = Si è verificato un errore durante la sostituzione dell’app per l’autenticazione in due passaggi. Riprova più tardi.
 page-2fa-change-qr-instruction = <strong>Passaggio 1:</strong> scansiona questo codice QR utilizzando un’app di autenticazione, come Duo o Google Authenticator. Questa operazione crea una nuova connessione; tutte le connessioni esistenti smetteranno di funzionare.
 
@@ -832,6 +834,7 @@ page-2fa-setup-totpinfo-error = Si è verificato un errore durante la configuraz
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Il codice non è corretto. Riprova.
 page-2fa-setup-success = L’autenticazione in due passaggi è stata attivata
+page-2fa-setup-success-additional-message = Per proteggere tutti i tuoi dispositivi connessi, devi disconnetterti da tutti i dispositivi in cui stai utilizzando questo account, quindi accedere nuovamente utilizzando l’autenticazione in due passaggi.
 
 ## Avatar change page
 

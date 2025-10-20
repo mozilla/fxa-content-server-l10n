@@ -672,6 +672,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Weiter
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Zwei-Schritt-Authentifizierung aktiviert
+flow-setup-2fa-inline-complete-success-banner-description = Um alle Ihre verbundenen Geräte zu schützen, sollten Sie sich überall abmelden, wo Sie dieses Konto verwenden, und sich mit Ihrer neuen Zwei-Schritt-Authentifizierung wieder anmelden.
 flow-setup-2fa-inline-complete-backup-code = Sicherungs-Authentifizierungscodes
 flow-setup-2fa-inline-complete-backup-phone = Telefonnummer zur Kontowiederherstellung
 # $count (Number) - an integer representing the number of backup
@@ -803,6 +804,7 @@ nav-email-comm = E-Mail-Kommunikation
 
 page-2fa-change-title = Zwei-Schritt-Authentifizierung ändern
 page-2fa-change-success = Die Zwei-Schritt-Authentifizierung wurde aktualisiert.
+page-2fa-change-success-additional-message = Um alle Ihre verbundenen Geräte zu schützen, sollten Sie sich überall abmelden, wo Sie dieses Konto verwenden, und sich mit Ihrer neuen Zwei-Schritt-Authentifizierung wieder anmelden.
 page-2fa-change-totpinfo-error = Beim Ersetzen Ihrer App für Zwei-Schritt-Authentifizierung ist ein Fehler aufgetreten. Versuchen Sie es später erneut.
 page-2fa-change-qr-instruction = <strong>Schritt 1:</strong> Scannen Sie diesen QR-Code mit einer Authentifizierungs-App wie Duo oder Google Authenticator. Dies erstellt eine neue Verbindung, alle alten Verbindungen werden nicht mehr funktionieren.
 
@@ -834,6 +836,7 @@ page-2fa-setup-totpinfo-error = Beim Einrichten der Zwei-Schritt-Authentifizieru
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Dieser Code ist nicht korrekt. Versuchen Sie es erneut.
 page-2fa-setup-success = Zwei-Schritt-Authentifizierung wurde aktiviert
+page-2fa-setup-success-additional-message = Um alle Ihre verbundenen Geräte zu schützen, sollten Sie sich überall abmelden, wo Sie dieses Konto verwenden, und sich mit Zwei-Schritt-Authentifizierung wieder anmelden.
 
 ## Avatar change page
 

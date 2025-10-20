@@ -491,6 +491,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Emellett tartalék hiteles�
 postAddTwoStepAuthentication-recovery-method-phone = Ezenkívül hozzáadta a(z) { $maskedPhoneNumber } helyreállítási telefonszámot.
 postAddTwoStepAuthentication-how-protects-link = Hogyan védi ez a fiókját
 postAddTwoStepAuthentication-how-protects-plaintext = Hogyan védi ez a fiókját:
+postAddTwoStepAuthentication-device-sign-out-message = A csatlakoztatott eszközeinek védelme érdekében ki kell jelentkeznie mindenhol, ahol ezt a fiókot használja, majd jelentkezzen be újra a kétlépcsős hitelesítéssel.
 postChangeAccountRecovery-subject = A fiók-helyreállítási kulcs megváltozott
 postChangeAccountRecovery-title = Módosította a fiók-helyreállítási kulcsát
 postChangeAccountRecovery-body-part1 = Új fiók-helyreállítási kulcsa van. Az előző kulcsát törölték.
@@ -516,6 +517,7 @@ postChangeTwoStepAuthentication-from-device = Ezt kérte a következőtől:
 postChangeTwoStepAuthentication-action = Fiók kezelése
 postChangeTwoStepAuthentication-how-protects-link = Hogyan védi ez a fiókját
 postChangeTwoStepAuthentication-how-protects-plaintext = Hogyan védi ez a fiókját:
+postChangeTwoStepAuthentication-device-sign-out-message = A csatlakoztatott eszközeinek védelme érdekében ki kell jelentkeznie mindenhol, ahol ezt a fiókot használja, majd jelentkezzen be újra az új kétlépcsős hitelesítésével.
 postConsumeRecoveryCode-title-3 = A tartalék hitelesítési kódját egy jelszó-visszaállítás megerősítéséhez használták
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

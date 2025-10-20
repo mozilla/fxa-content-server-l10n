@@ -495,6 +495,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Přidali jste také zálož
 postAddTwoStepAuthentication-recovery-method-phone = Také jste přidali telefonní číslo { $maskedPhoneNumber } pro obnovení.
 postAddTwoStepAuthentication-how-protects-link = Jak tato funkce chrání váš účet
 postAddTwoStepAuthentication-how-protects-plaintext = Jak tato nastavení chrání váš účet:
+postAddTwoStepAuthentication-device-sign-out-message = Pro ochranu všech vašich připojených zařízení byste se měli odhlásit všude, kde používáte tento účet, a poté se znovu přihlásit pomocí dvoufázového ověření.
 postChangeAccountRecovery-subject = Obnovovací klíč k účtu byl změněn
 postChangeAccountRecovery-title = Změnili jste svůj obnovovací klíč k účtu
 postChangeAccountRecovery-body-part1 = Nyní máte nový obnovovací klíč k účtu. Váš předchozí klíč byl smazán.
@@ -520,6 +521,7 @@ postChangeTwoStepAuthentication-from-device = Vyžádali jste o to z:
 postChangeTwoStepAuthentication-action = Správa účtu
 postChangeTwoStepAuthentication-how-protects-link = Jak tato funkce chrání váš účet
 postChangeTwoStepAuthentication-how-protects-plaintext = Jak to chrání váš účet:
+postChangeTwoStepAuthentication-device-sign-out-message = Pro ochranu všech vašich připojených zařízení byste se měli odhlásit všude, kde používáte tento účet, a poté se znovu přihlásit pomocí nového dvoufázového ověření.
 postConsumeRecoveryCode-title-3 = Váš záložní ověřovací kód byl použit jako potvrzení obnovení hesla
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

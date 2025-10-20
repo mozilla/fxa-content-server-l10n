@@ -493,6 +493,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Du har också lagt till res
 postAddTwoStepAuthentication-recovery-method-phone = Du har också lagt till { $maskedPhoneNumber } som ditt återställningstelefonnummer.
 postAddTwoStepAuthentication-how-protects-link = Hur skyddar detta ditt konto
 postAddTwoStepAuthentication-how-protects-plaintext = Hur skyddar detta ditt konto:
+postAddTwoStepAuthentication-device-sign-out-message = För att skydda alla dina anslutna enheter bör du logga ut överallt där du använder det här kontot och sedan logga in igen med tvåstegsautentisering.
 postChangeAccountRecovery-subject = Nyckeln för kontoåterställning har ändrats
 postChangeAccountRecovery-title = Du har ändrat din kontoåterställningsnyckel
 postChangeAccountRecovery-body-part1 = Du har nu en ny kontoåterställningsnyckel. Din tidigare nyckel raderades.
@@ -518,6 +519,7 @@ postChangeTwoStepAuthentication-from-device = Du begärde detta från:
 postChangeTwoStepAuthentication-action = Hantera konto
 postChangeTwoStepAuthentication-how-protects-link = Hur detta skyddar ditt konto
 postChangeTwoStepAuthentication-how-protects-plaintext = Hur detta skyddar ditt konto:
+postChangeTwoStepAuthentication-device-sign-out-message = För att skydda alla dina anslutna enheter bör du logga ut överallt där du använder det här kontot och sedan logga in igen med din nya tvåstegsautentisering.
 postConsumeRecoveryCode-title-3 = Din reservautentiseringskod användes för att bekräfta en lösenordsåterställning
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

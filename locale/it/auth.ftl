@@ -491,6 +491,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Hai anche aggiunto dei codi
 postAddTwoStepAuthentication-recovery-method-phone = Hai anche aggiunto { $maskedPhoneNumber } come telefono per il recupero dell’account.
 postAddTwoStepAuthentication-how-protects-link = Come aiuta a proteggere il tuo account
 postAddTwoStepAuthentication-how-protects-plaintext = Come aiuta a proteggere il tuo account:
+postAddTwoStepAuthentication-device-sign-out-message = Per proteggere tutti i tuoi dispositivi connessi, devi disconnetterti da tutti i dispositivi in cui utilizzi questo account, quindi accedere nuovamente utilizzando l’autenticazione in due passaggi.
 postChangeAccountRecovery-subject = Chiave di recupero dell’account modificata
 postChangeAccountRecovery-title = Hai modificato la chiave di recupero dell’account
 postChangeAccountRecovery-body-part1 = Ora hai una nuova chiave di recupero dell’account. La chiave precedente è stata eliminata.
@@ -516,6 +517,7 @@ postChangeTwoStepAuthentication-from-device = L’hai richiesto da:
 postChangeTwoStepAuthentication-action = Gestisci account
 postChangeTwoStepAuthentication-how-protects-link = Come aiuta a proteggere il tuo account
 postChangeTwoStepAuthentication-how-protects-plaintext = Come aiuta a proteggere il tuo account:
+postChangeTwoStepAuthentication-device-sign-out-message = Per proteggere tutti i tuoi dispositivi connessi, devi disconnetterti da tutti i dispositivi in cui utilizzi questo account, quindi accedere nuovamente utilizzando la nuova autenticazione in due passaggi.
 postConsumeRecoveryCode-title-3 = Il codice di autenticazione di backup è stato utilizzato per confermare la reimpostazione della password
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

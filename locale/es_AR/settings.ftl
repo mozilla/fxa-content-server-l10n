@@ -672,6 +672,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continuar
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Se habilitó la autenticación en dos pasos
+flow-setup-2fa-inline-complete-success-banner-description = Para proteger todos sus dispositivos conectados, debe cerrar sesión en todos los lugares donde esté usando esta cuenta y luego volver a iniciar sesión con su nueva autenticación de dos pasos.
 flow-setup-2fa-inline-complete-backup-code = Códigos de autenticación de respaldo
 flow-setup-2fa-inline-complete-backup-phone = Teléfono de recuperación
 # $count (Number) - an integer representing the number of backup
@@ -803,6 +804,7 @@ nav-email-comm = Comunicaciones por correo electrónico
 
 page-2fa-change-title = Cambiar la autenticación de dos pasos
 page-2fa-change-success = Se actualizó la autenticación de dos pasos
+page-2fa-change-success-additional-message = Para proteger todos sus dispositivos conectados, debe cerrar sesión en todos los lugares donde esté usando esta cuenta y luego volver a iniciar sesión con su nueva autenticación de dos pasos.
 page-2fa-change-totpinfo-error = Hubo un error al reemplazar la aplicación de autenticación de dos pasos. Probá de nuevo más tarde.
 page-2fa-change-qr-instruction = <strong>Paso 1:</strong> Escaneá este código QR con cualquier aplicación de autenticación, como Duo o Google Authenticator. Esto crea una nueva conexión, cualquier conexión vieja no funcionará más.
 
@@ -834,6 +836,7 @@ page-2fa-setup-totpinfo-error = Hubo un error configurando la autenticación de 
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ese código no es correcto. Probá de nuevo.
 page-2fa-setup-success = Se habilitó la autenticación de dos pasos
+page-2fa-setup-success-additional-message = Para proteger todos sus dispositivos conectados, debe cerrar sesión en todos los lugares donde esté usando esta cuenta y luego volver a iniciar sesión usando la autenticación de dos pasos.
 
 ## Avatar change page
 

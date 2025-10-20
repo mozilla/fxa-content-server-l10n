@@ -680,6 +680,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Nadaljuj
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Overitev v dveh korakih je omogočena
+flow-setup-2fa-inline-complete-success-banner-description = Za zaščito vseh povezanih naprav se odjavite na vseh mestih, kjer uporabljate ta račun, in se nato prijavite z novim overjanjem v dveh korakih.
 flow-setup-2fa-inline-complete-backup-code = Rezervne overitvene kode
 flow-setup-2fa-inline-complete-backup-phone = Telefonska številka za obnovitev
 # $count (Number) - an integer representing the number of backup
@@ -815,6 +816,7 @@ nav-email-comm = E-poštno obveščanje
 
 page-2fa-change-title = Spremeni overjanje v dveh korakih
 page-2fa-change-success = Overjanje v dveh korakih je bilo ponovno nastavljeno
+page-2fa-change-success-additional-message = Za zaščito vseh povezanih naprav se odjavite na vseh mestih, kjer uporabljate ta račun, in se nato prijavite z novim overjanjem v dveh korakih.
 page-2fa-change-totpinfo-error = Pri menjavi aplikacije za overjanje v dveh korakih je prišlo do napake. Poskusite znova pozneje.
 page-2fa-change-qr-instruction = <strong>1. korak:</strong> skenirajte to kodo QR s katerokoli aplikacijo za overitev, kot je Duo ali Google Authenticator. To ustvari novo povezavo, vse stare povezave ne bodo več delovale.
 
@@ -846,6 +848,7 @@ page-2fa-setup-totpinfo-error = Pri nastavljanju overjanja v dveh korakih je pri
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ta koda ni pravilna. Poskusite znova.
 page-2fa-setup-success = Overitev v dveh korakih je omogočena
+page-2fa-setup-success-additional-message = Za zaščito vseh povezanih naprav se odjavite na vseh mestih, kjer uporabljate ta račun, in se nato prijavite z uporabo overjanja v dveh korakih.
 
 ## Avatar change page
 

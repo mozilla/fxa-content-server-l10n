@@ -497,6 +497,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Kot metodo za obnovitev ste
 postAddTwoStepAuthentication-recovery-method-phone = Kot telefonsko številko za obnovitev ste dodali tudi { $maskedPhoneNumber }.
 postAddTwoStepAuthentication-how-protects-link = Kako to ščiti vaš račun
 postAddTwoStepAuthentication-how-protects-plaintext = Kako to ščiti vaš račun:
+postAddTwoStepAuthentication-device-sign-out-message = Za zaščito vseh povezanih naprav se odjavite povsod, kjer uporabljate ta račun, in se nato prijavite nazaj s pomočjo overjanja v dveh korakih.
 postChangeAccountRecovery-subject = Ključ za obnovitev računa spremenjen
 postChangeAccountRecovery-title = Spremenili ste ključ za obnovitev računa
 postChangeAccountRecovery-body-part1 = Zdaj imate nov ključ za obnovitev računa. Vaš prejšnji ključ je bil izbrisan.
@@ -522,6 +523,7 @@ postChangeTwoStepAuthentication-from-device = To ste zahtevali z naslednje napra
 postChangeTwoStepAuthentication-action = Upravljanje računa
 postChangeTwoStepAuthentication-how-protects-link = Kako to ščiti vaš račun
 postChangeTwoStepAuthentication-how-protects-plaintext = Kako to ščiti vaš račun:
+postChangeTwoStepAuthentication-device-sign-out-message = Za zaščito vseh povezanih naprav se odjavite povsod, kjer uporabljate ta račun, in se nato prijavite z novim overjanjem v dveh korakih.
 postConsumeRecoveryCode-title-3 = Za potrditev ponastavitve gesla je bila uporabljena vaša rezervna overitvena koda
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

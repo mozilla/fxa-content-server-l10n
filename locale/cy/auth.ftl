@@ -503,6 +503,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Rydych chi hefyd wedi ychwa
 postAddTwoStepAuthentication-recovery-method-phone = Rydych hefyd wedi ychwanegu { $maskedPhoneNumber } fel eich rhif ffôn adfer.
 postAddTwoStepAuthentication-how-protects-link = Sut mae hyn yn diogelu eich cyfrif
 postAddTwoStepAuthentication-how-protects-plaintext = Sut mae hyn yn diogelu eich cyfrif:
+postAddTwoStepAuthentication-device-sign-out-message = Er mwyn amddiffyn eich holl ddyfeisiau cysylltiedig, dylech allgofnodi ym mhob man rydych chi'n defnyddio'r cyfrif hwn, ac yna mewngofnodi eto gan ddefnyddio dilysiad dau gam.
 postChangeAccountRecovery-subject = Allwedd adfer cyfrif wedi'i newid
 postChangeAccountRecovery-title = Rydych wedi newid eich allwedd adfer cyfrif
 postChangeAccountRecovery-body-part1 = Mae gennych bellach allwedd adfer cyfrif newydd. Cafodd eich allwedd flaenorol ei dileu.
@@ -528,6 +529,7 @@ postChangeTwoStepAuthentication-from-device = Rydych wedi gofyn am hyn oddi wrth
 postChangeTwoStepAuthentication-action = Rheoli cyfrif
 postChangeTwoStepAuthentication-how-protects-link = Sut mae hyn yn diogelu'ch cyfrif
 postChangeTwoStepAuthentication-how-protects-plaintext = Sut mae hyn yn diogelu'ch cyfrif:
+postChangeTwoStepAuthentication-device-sign-out-message = Er mwyn amddiffyn eich holl ddyfeisiau cysylltiedig, dylech allgofnodi ym mhobman rydych yn defnyddio'r cyfrif hwn, ac yna mewngofnodi eto gan ddefnyddio'ch dilysiad dau gam newydd.
 postConsumeRecoveryCode-title-3 = Defnyddiwyd eich cod dilysu wrth gefn i gadarnhau ailosod y cyfrinair
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

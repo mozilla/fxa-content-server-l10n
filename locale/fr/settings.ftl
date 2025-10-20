@@ -670,6 +670,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continuer
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Authentification en deux étapes activée
+flow-setup-2fa-inline-complete-success-banner-description = Afin de protéger tous vos appareils connectés, vous devriez vous déconnecter partout où vous utilisez ce compte, puis vous reconnecter en utilisant votre nouvelle authentification en deux étapes.
 flow-setup-2fa-inline-complete-backup-code = Codes d’authentification de secours
 flow-setup-2fa-inline-complete-backup-phone = Numéro de téléphone de secours
 # $count (Number) - an integer representing the number of backup
@@ -801,6 +802,7 @@ nav-email-comm = Communications électroniques
 
 page-2fa-change-title = Modifier l’authentification en deux étapes
 page-2fa-change-success = L’authentification en deux étapes a été mise à jour
+page-2fa-change-success-additional-message = Afin de protéger tous vos appareils connectés, vous devriez vous déconnecter partout où vous utilisez ce compte, puis vous reconnecter en utilisant votre nouvelle authentification en deux étapes.
 page-2fa-change-totpinfo-error = Une erreur s’est produite lors du remplacement de votre application d’authentification en deux étapes. Réessayez plus tard.
 page-2fa-change-qr-instruction = <strong>Étape 1 :</strong> scannez ce code QR en utilisant n’importe quelle application d’authentification, comme Duo ou Google Authenticator. Ceci crée une nouvelle connexion, les anciennes connexions ne fonctionneront plus.
 
@@ -832,6 +834,7 @@ page-2fa-setup-totpinfo-error = Une erreur s’est produite lors de la configura
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ce code est incorrect. Veuillez réessayer.
 page-2fa-setup-success = L’authentification en deux étapes a été activée
+page-2fa-setup-success-additional-message = Afin de protéger tous vos appareils connectés, vous devriez vous déconnecter partout où vous utilisez ce compte, puis vous reconnecter en utilisant l’authentification en deux étapes.
 
 ## Avatar change page
 
