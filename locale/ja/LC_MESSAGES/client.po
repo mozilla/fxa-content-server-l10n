@@ -1799,19 +1799,19 @@ msgstr "アカウントにログイン"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr "<span class = \"number\">1</ span> デバイスでカメラアプリを開いてください"
+msgstr "<span class = \"number\">1</span> デバイスでカメラアプリを開いてください"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class = \"number\">2</ span> カメラを QR コードに向け、表示されるリンクをタップしてください"
+msgstr "<span class = \"number\">2</span> カメラを QR コードに向け、表示されるリンクをタップしてください"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr "<span class = \"number\">3</ span> Firefox をインストールして、デバイスで開いてください"
+msgstr "<span class = \"number\">3</span> Firefox をインストールして、デバイスで開いてください"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr "<span class = \"number\">4</ span> アカウントにログインしてください"
+msgstr "<span class = \"number\">4</span> アカウントにログインしてください"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"

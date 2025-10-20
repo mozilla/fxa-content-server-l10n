@@ -148,9 +148,9 @@ payment-validate-name-error = Rhowch eich enw
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-3 = Mae { -brand-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
-payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Polisi preifatrwydd { -brand-name-stripe }</ stripePrivacyLink> &nbsp; <paypalPrivacyLink>polisi preifatrwydd { -brand-paypal }</ paypalPrivacyLink>
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Polisi preifatrwydd { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>polisi preifatrwydd { -brand-paypal }</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = Mae { -brand-mozilla } yn defnyddio { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
-payment-legal-link-paypal-3 = <paypalPrivacyLink>Polisi preifatrwydd { -brand-paypal } </ paypalPrivacyLink>
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Polisi preifatrwydd { -brand-paypal } </paypalPrivacyLink>
 payment-legal-copy-stripe-3 = Mae { -brand-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau'n ddiogel.
 payment-legal-link-stripe-3 = <stripePrivacyLink>Polisi preifatrwydd { -brand-name-stripe }</stripePrivacyLink>.
 
@@ -557,7 +557,7 @@ sub-item-cancel-msg =
     Ni fydd modd i chi ddefnyddio { $name } mwyach ar ôl
     { $period }, diwrnod olaf eich cylch bilio.
 sub-item-cancel-confirm =
-    Diddymwch fy mynediad a'm manylion sydd wedi'u 
+    Diddymwch fy mynediad a'm manylion sydd wedi'u
     cadw o fewn { $name } ar { $period }
 # $promotion_name (String) - The name of the promotion.
 # The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:

@@ -258,7 +258,7 @@ subscription-charges-discount-plaintext = Gostyngiad: { $invoiceDiscountAmount }
 subscription-charges-taxes = Trethi a ffioedd
 # $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax-plaintext = Trethi a ffioedd: { $invoiceTaxAmount }
-subscription-charges-total = <b>Cyfanswm</ b>
+subscription-charges-total = <b>Cyfanswm</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Cyfanswm: { $invoiceTotal }
 subscription-charges-credit-applied = Credyd wedi'i gynnwys
