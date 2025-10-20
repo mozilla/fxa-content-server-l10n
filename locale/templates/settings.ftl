@@ -746,6 +746,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continue
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Two-step authentication enabled
+flow-setup-2fa-inline-complete-success-banner-description = To protect all your connected devices, you should sign out everywhere you’re using this account, and then sign back in using your new two-step authentication.
 
 flow-setup-2fa-inline-complete-backup-code = Backup authentication codes
 flow-setup-2fa-inline-complete-backup-phone = Recovery phone
@@ -890,6 +891,7 @@ nav-email-comm = Email Communications
 
 page-2fa-change-title = Change two-step authentication
 page-2fa-change-success = Two-step authentication has been updated
+page-2fa-change-success-additional-message = To protect all your connected devices, you should sign out everywhere you’re using this account, and then sign back in using your new two-step authentication.
 page-2fa-change-totpinfo-error = There was an error replacing your two-step authentication app. Try again later.
 page-2fa-change-qr-instruction = <strong>Step 1:</strong> Scan this QR code using any authenticator app, like Duo or Google Authenticator. This creates a new connection, any old connections won’t work anymore.
 
@@ -932,6 +934,7 @@ page-2fa-setup-totpinfo-error = There was an error setting up two-step authentic
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = That code is not correct. Try again.
 page-2fa-setup-success = Two-step authentication has been enabled
+page-2fa-setup-success-additional-message = To protect all your connected devices, you should sign out everywhere you’re using this account, and then sign back in using two-step authentication.
 
 ##
 
