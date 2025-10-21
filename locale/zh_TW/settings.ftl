@@ -658,6 +658,7 @@ flow-setup-2fa-backup-code-dl-button-continue = 繼續
 ##
 
 flow-setup-2fa-inline-complete-success-banner = 已開啟兩階段驗證
+flow-setup-2fa-inline-complete-success-banner-description = 為了保護您所有的連線裝置，您應該從所有使用此帳號的裝置登出，然後再重新經過新的兩階段驗證登入。
 flow-setup-2fa-inline-complete-backup-code = 備用驗證碼
 flow-setup-2fa-inline-complete-backup-phone = 救援電話號碼
 # $count (Number) - an integer representing the number of backup
@@ -781,6 +782,7 @@ nav-email-comm = 電子郵件通訊
 
 page-2fa-change-title = 更改兩階段驗證設定
 page-2fa-change-success = 已更新兩階段驗證設定
+page-2fa-change-success-additional-message = 為了保護您所有的連線裝置，您應該從所有使用此帳號的裝置登出，然後再重新經過新的兩階段驗證登入。
 page-2fa-change-totpinfo-error = 取代您的兩階段驗證設定時發生錯誤，請稍後再試。
 page-2fa-change-qr-instruction = <strong>第 1 步：</strong>使用任何驗證器應用程式（例如 Duo 或 Google Authenticator）掃描此 QR Code。這會建立一筆新項目，原本的項目將無法再使用。
 
@@ -812,6 +814,7 @@ page-2fa-setup-totpinfo-error = 設定兩階段驗證時發生錯誤，請稍後
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = 備用驗證碼不正確，請再試一次。
 page-2fa-setup-success = 已開啟兩階段驗證
+page-2fa-setup-success-additional-message = 為了保護您所有的連線裝置，您應該從所有使用此帳號的裝置登出，然後再重新經過兩階段驗證登入。
 
 ## Avatar change page
 

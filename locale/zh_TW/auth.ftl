@@ -482,6 +482,7 @@ postAddTwoStepAuthentication-recovery-method-codes = 您也新增了備用驗證
 postAddTwoStepAuthentication-recovery-method-phone = 您也將 { $maskedPhoneNumber } 新增為救援電話號碼。
 postAddTwoStepAuthentication-how-protects-link = 此功能如何保護您的帳號
 postAddTwoStepAuthentication-how-protects-plaintext = 此功能如何保護您的帳號：
+postAddTwoStepAuthentication-device-sign-out-message = 為了保護您所有的連線裝置，您應該從所有使用此帳號的裝置登出，然後再重新經過兩階段驗證登入。
 postChangeAccountRecovery-subject = 已變更帳號救援金鑰
 postChangeAccountRecovery-title = 您已更換帳號救援金鑰
 postChangeAccountRecovery-body-part1 = 您已產生新的帳號救援金鑰，舊金鑰已刪除。
@@ -507,6 +508,7 @@ postChangeTwoStepAuthentication-from-device = 您從下列位置要求：
 postChangeTwoStepAuthentication-action = 管理帳號
 postChangeTwoStepAuthentication-how-protects-link = 此功能如何保護您的帳號
 postChangeTwoStepAuthentication-how-protects-plaintext = 此功能如何保護您的帳號：
+postChangeTwoStepAuthentication-device-sign-out-message = 為了保護您所有的連線裝置，您應該從所有使用此帳號的裝置登出，然後再重新經過新的兩階段驗證登入。
 postConsumeRecoveryCode-title-3 = 已使用您的備用驗證碼確認密碼重設
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
