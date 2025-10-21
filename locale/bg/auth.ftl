@@ -105,11 +105,23 @@ ios-download-plaintext = Изтеглете { $productName } от App Store:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Инсталирайте { $productName } на друго устройство:
 automated-email-change-2 = Ако не сте предприели това действие, <a data-l10n-name="passwordChangeLink">променете паролата си</a> веднага.
+automated-email-support = За повече информация посетете <a data-l10n-name="supportLink">поддръжката на { -brand-mozilla }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Ако не сте предприели това действие, веднага сменете паролата си:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = За повече информация посетете поддръжката на { -brand-mozilla }:
+automated-email-inactive-account = Това е автоматично изпратено писмо. Получавате го, защото имате { -product-mozilla-account } и са изминали 2 години от последното ви вписване.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } За повече информация посетете <a data-l10n-name="supportLink">поддръжката на { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Това е автоматично електронно писмо. Ако сте го получили по погрешка, не е необходимо да правите нищо.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Това е автоматично изпратено писмо; ако вие не сте упълномощили това действие, моля, сменете паролата си:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Тази заявка дойде от { $uaBrowser } на { $uaOS } { $uaOSVersion }.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
