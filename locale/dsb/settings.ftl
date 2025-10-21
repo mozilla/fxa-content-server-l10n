@@ -680,6 +680,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Dalej
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Dwójokšacowa awtentifikacija jo se zmóžniła
+flow-setup-2fa-inline-complete-success-banner-description = Aby wšykne swóje zwězane rědy šćitał, wy měł se wšuźi, źož toś te konto wužywaśo, wótzjawić a se pón z pomocu swójeje noweje dwójokšacoweje awtentifikacije zasej pśizjawiś.
 flow-setup-2fa-inline-complete-backup-code = Kody za zawěsćeńsku awtentifikaciju
 flow-setup-2fa-inline-complete-backup-phone = Wótnowjeński telefon
 # $count (Number) - an integer representing the number of backup
@@ -815,6 +816,7 @@ nav-email-comm = E-mailowa komunikacija
 
 page-2fa-change-title = Dwójokšacowu awtentifikaciju zmeniś
 page-2fa-change-success = Dwójokšacowa awtentifikacija jo se zaktualizěrowała
+page-2fa-change-success-additional-message = Aby wšykne swóje zwězane rědy šćitał, wy měł se wšuźi, źož toś te konto wužywaśo, wótzjawić a se pón z pomocu swójeje noweje dwójokšacoweje awtentifikacije zasej pśizjawiś.
 page-2fa-change-totpinfo-error = Pśi wuměnjanju nałoženja dwójokšacoweje awtentifikacije jo zmólka nastała. Wopytajśo pózdźej hyšći raz.
 page-2fa-change-qr-instruction = <strong>Kšac 1:</strong> Scannujśo toś ten QR-kod z pomocu awtentifikaciskego nałoženja, na pśikład Duo abo Google Authenticator. To nowy zwisk napórajo, stare zwiski njebudu wěcej funkcioněrowaś.
 
@@ -846,6 +848,7 @@ page-2fa-setup-totpinfo-error = Pśi konfiguraciji dwójokšacoweje awtentifikac
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ten kod njejo korektny. Wopytajśo hyšći raz.
 page-2fa-setup-success = Dwójokšacowa awtentifikacija jo se zmóžniła
+page-2fa-setup-success-additional-message = Aby wšykne swóje zwězane rědy šćitał, wy měł se wšuźi, źož toś te konto wužywaśo, wótzjawić a se pón z pomocu dwójokšacoweje awtentifikacije zasej pśizjawiś.
 
 ## Avatar change page
 
