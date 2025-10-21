@@ -674,6 +674,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Doorgaan
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Authenticatie in twee stappen ingeschakeld
+flow-setup-2fa-inline-complete-success-banner-description = Om al uw verbonden apparaten te beschermen, dient u zich overal waar u deze account gebruikt af te melden en vervolgens weer aan te melden met uw nieuwe authenticatie in twee stappen.
 flow-setup-2fa-inline-complete-backup-code = Reserve-authenticatiecodes
 flow-setup-2fa-inline-complete-backup-phone = Hersteltelefoonnummer
 # $count (Number) - an integer representing the number of backup
@@ -805,6 +806,7 @@ nav-email-comm = E-mailcommunicatie
 
 page-2fa-change-title = Authenticatie in twee stappen wijzigen
 page-2fa-change-success = Authenticatie in twee stappen is bijgewerkt
+page-2fa-change-success-additional-message = Om al uw verbonden apparaten te beschermen, dient u zich overal waar u deze account gebruikt af te melden en vervolgens weer aan te melden met uw nieuwe authenticatie in twee stappen.
 page-2fa-change-totpinfo-error = Er is een fout opgetreden bij het vervangen van uw app voor authenticatie in twee stappen. Probeer het later opnieuw.
 page-2fa-change-qr-instruction = <strong>Stap 1:</strong> scan deze QR-code met een authenticator-app, zoals Duo of Google Authenticator. Dit creëert een nieuwe verbinding, oude verbindingen zullen niet meer werken.
 
@@ -836,6 +838,7 @@ page-2fa-setup-totpinfo-error = Er is een fout opgetreden bij het instellen van 
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Die code is niet juist. Probeer het opnieuw.
 page-2fa-setup-success = Authenticatie in twee stappen is ingeschakeld
+page-2fa-setup-success-additional-message = Om al uw verbonden apparaten te beschermen, dient u zich overal waar u deze account gebruikt af te melden en vervolgens weer aan te melden met authenticatie in twee stappen.
 
 ## Avatar change page
 

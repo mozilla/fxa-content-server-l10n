@@ -493,6 +493,7 @@ postAddTwoStepAuthentication-recovery-method-codes = U hebt ook reserve-authenti
 postAddTwoStepAuthentication-recovery-method-phone = U hebt ook { $maskedPhoneNumber } toegevoegd als uw hersteltelefoonnummer.
 postAddTwoStepAuthentication-how-protects-link = Hoe dit uw account beschermt
 postAddTwoStepAuthentication-how-protects-plaintext = Hoe dit uw account beschermt:
+postAddTwoStepAuthentication-device-sign-out-message = Om al uw verbonden apparaten te beschermen, dient u zich overal waar u deze account gebruikt af te melden en vervolgens weer aan te melden met authenticatie in twee stappen.
 postChangeAccountRecovery-subject = Accountherstelsleutel gewijzigd
 postChangeAccountRecovery-title = U hebt uw accountherstelsleutel gewijzigd
 postChangeAccountRecovery-body-part1 = U hebt nu een nieuwe accountherstelsleutel. Uw vorige sleutel is verwijderd.
@@ -518,6 +519,7 @@ postChangeTwoStepAuthentication-from-device = U hebt dit opgevraagd van:
 postChangeTwoStepAuthentication-action = Account beheren
 postChangeTwoStepAuthentication-how-protects-link = Hoe dit uw account beschermt
 postChangeTwoStepAuthentication-how-protects-plaintext = Hoe dit uw account beschermt:
+postChangeTwoStepAuthentication-device-sign-out-message = Om al uw verbonden apparaten te beschermen, dient u zich overal waar u deze account gebruikt af te melden en vervolgens weer aan te melden met uw nieuwe authenticatie in twee stappen.
 postConsumeRecoveryCode-title-3 = Uw reserve-authenticatiecode is gebruikt om een wachtwoordherinitialisatie te bevestigen
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
