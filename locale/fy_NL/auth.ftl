@@ -493,6 +493,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Jo hawwe ek reserve-autenti
 postAddTwoStepAuthentication-recovery-method-phone = Jo hawwe ek { $maskedPhoneNumber } as jo wersteltelefoannûmer tafoege.
 postAddTwoStepAuthentication-how-protects-link = Hoe dit jo account beskermet
 postAddTwoStepAuthentication-how-protects-plaintext = Hoe dit jo account beskermet:
+postAddTwoStepAuthentication-device-sign-out-message = Om al jo ferbûne apparaten te beskermjen, moatte jo oeral wêr’t jo dizze account brûke ôfmelde, en dêrnei wer oanmelde mei autentikaasje yn twa stappen.
 postChangeAccountRecovery-subject = Accountwerstelkaai wizige
 postChangeAccountRecovery-title = Jo hawwe jo accountwerstelkaai wizigje
 postChangeAccountRecovery-body-part1 = Jo hawwe no in nije accountwerstelkaai. Jo foarige kaai is fuortsmiten.
@@ -518,6 +519,7 @@ postChangeTwoStepAuthentication-from-device = Jo hawwe dit opfrege fan:
 postChangeTwoStepAuthentication-action = Account beheare
 postChangeTwoStepAuthentication-how-protects-link = Hoe dit jo account beskermet
 postChangeTwoStepAuthentication-how-protects-plaintext = Hoe dit jo account beskermet:
+postChangeTwoStepAuthentication-device-sign-out-message = Om al jo ferbûne apparaten te beskermjen, moatte jo oeral wêr’t jo dizze account brûke ôfmelde, en dêrnei wer oanmelde mei jo nije autentikaasje yn twa stappen.
 postConsumeRecoveryCode-title-3 = Jo reserve-autentikaasjekoade is brûkt om in wachtwurdwerinisjalisaasje te befêstigjen
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
