@@ -491,7 +491,7 @@ postAddTwoStepAuthentication-recovery-method-codes = También agregaste códigos
 postAddTwoStepAuthentication-recovery-method-phone = También agregaste { $maskedPhoneNumber } como tu número de teléfono de recuperación.
 postAddTwoStepAuthentication-how-protects-link = Cómo esto protege tu cuenta
 postAddTwoStepAuthentication-how-protects-plaintext = Cómo esto protege tu cuenta:
-postAddTwoStepAuthentication-device-sign-out-message = Para proteger todos sus dispositivos conectados, debe cerrar la sesión en todos los lugares donde esté usando esta cuenta y luego volver a iniciar sesión usando la autenticación de dos pasos.
+postAddTwoStepAuthentication-device-sign-out-message = Para proteger todos los dispositivos conectados, tenés que cerrar sesión en todos los lugares donde se esté usando esta cuenta y luego volver a iniciar sesión usando la autenticación de dos pasos.
 postChangeAccountRecovery-subject = Se cambió la clave de recuperación de la cuenta
 postChangeAccountRecovery-title = Cambiaste la clave de recuperación de la cuenta
 postChangeAccountRecovery-body-part1 = Ahora tenés una nueva clave de recuperación de cuenta. Se eliminó tu clave anterior.
@@ -517,7 +517,7 @@ postChangeTwoStepAuthentication-from-device = Pediste esto a:
 postChangeTwoStepAuthentication-action = Administrar cuenta
 postChangeTwoStepAuthentication-how-protects-link = Cómo esto protege tu cuenta
 postChangeTwoStepAuthentication-how-protects-plaintext = Cómo esto protege tu cuenta:
-postChangeTwoStepAuthentication-device-sign-out-message = Para proteger todos sus dispositivos conectados, debe cerrar la sesión en todos los lugares donde esté usando esta cuenta y luego volver a iniciar sesión con su nueva autenticación de dos pasos.
+postChangeTwoStepAuthentication-device-sign-out-message = Para proteger todos los dispositivos conectados, tenés que cerrar sesión en todos los lugares donde se esté usando esta cuenta y luego volver a iniciar sesión con la nueva autenticación de dos pasos.
 postConsumeRecoveryCode-title-3 = Tu código de autenticación de respaldo fue usado para confirmar un restablecimiento de contraseña
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
