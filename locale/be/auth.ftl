@@ -174,6 +174,15 @@ payment-plan-next-invoice = Наступны рахунак-фактура: { $n
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Прамежкавы вынік: { $invoiceSubtotal }
 
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-discount = Зніжка
+subscription-charges-discount-plaintext = Зніжка: { $invoiceDiscountAmount }
+subscription-charges-taxes = Падаткі і зборы
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Падаткі і зборы: { $invoiceTaxAmount }
+
 ##
 
 subscriptionSupport = Пытанні наконт вашай падпіскі? Наша <a data-l10n-name="subscriptionSupportUrl">служба падтрымкі</a> тут, каб дапамагчы вам.
@@ -273,6 +282,7 @@ passwordChanged-title = Пароль паспяхова зменены
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
 passwordChangeRequired-preview = Неадкладна змяніце пароль
 passwordChangeRequired-title-2 = Скінуць пароль
+passwordChangeRequired-action = Скінуць пароль
 password-forgot-otp-title = Забылі свой пароль?
 password-forgot-otp-request = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:
 password-forgot-otp-expiry-notice = Гэты код дзейнічае 10 хвілін
