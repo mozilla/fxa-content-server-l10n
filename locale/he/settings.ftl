@@ -651,6 +651,7 @@ flow-setup-2fa-backup-code-dl-button-continue = המשך
 ##
 
 flow-setup-2fa-inline-complete-success-banner = אימות דו־שלבי הופעל
+flow-setup-2fa-inline-complete-success-banner-description = כדי להגן על כל המכשירים המחוברים שלך, עליך להתנתק מכל מקום שבו חשבון זה נמצא בשימוש, ולאחר מכן להתחבר שוב באמצעות האימות הדו־שלבי החדש שלך.
 flow-setup-2fa-inline-complete-backup-phone = טלפון לשחזור
 # $count (Number) - an integer representing the number of backup
 # authentication codes remaining
