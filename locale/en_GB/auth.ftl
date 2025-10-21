@@ -491,6 +491,7 @@ postAddTwoStepAuthentication-recovery-method-codes = You also added backup authe
 postAddTwoStepAuthentication-recovery-method-phone = You also added { $maskedPhoneNumber } as your recovery phone number.
 postAddTwoStepAuthentication-how-protects-link = How this protects your account
 postAddTwoStepAuthentication-how-protects-plaintext = How this protects your account:
+postAddTwoStepAuthentication-device-sign-out-message = To protect all your connected devices, you should sign out everywhere youʼre using this account, and then sign back in using two-step authentication.
 postChangeAccountRecovery-subject = Account recovery key changed
 postChangeAccountRecovery-title = You changed your account recovery key
 postChangeAccountRecovery-body-part1 = You now have a new account recovery key. Your previous key was deleted.
@@ -516,6 +517,7 @@ postChangeTwoStepAuthentication-from-device = You requested this from:
 postChangeTwoStepAuthentication-action = Manage account
 postChangeTwoStepAuthentication-how-protects-link = How this protects your account
 postChangeTwoStepAuthentication-how-protects-plaintext = How this protects your account:
+postChangeTwoStepAuthentication-device-sign-out-message = To protect all your connected devices, you should sign out everywhere youʼre using this account, and then sign back in using your new two-step authentication.
 postConsumeRecoveryCode-title-3 = Your backup authentication code was used to confirm a password reset
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
