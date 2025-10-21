@@ -42,6 +42,14 @@ checkout-error-contact-support = Ju lutemi, lidhuni me asistencën, që të mund
 cart-error-currency-not-determined = S’qemë në gjendje të përcaktojmë monedhën për këtë blerje, ju lutemi, riprovoni.
 checkout-processing-general-error = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
 
+## Error pages - Payment method failure messages
+
+intent-payment-error-try-again = Hëm. Pati një problem me autorizimin e pagesës tuaj. Riprovoni ose lidhuni me emetuesin e kartës tuaj.
+intent-payment-error-get-in-touch = Hëm. Pati një problem me autorizimin e pagesës tuaj. Lidhuni me emetuesin e kartës tuaj.
+intent-payment-error-generic = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
+intent-payment-error-insufficient-funds = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
+general-paypal-error = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -71,6 +79,30 @@ next-payment-confirmation-download-button = Vazhdoni te shkarkimi
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-account-profile-picture = Foto profili llogarie
+
+## Page - Subscription Management
+
+subscription-management-payment-information-heading = Hollësi Pagese
+subscription-management-button-add-payment-method-aria = Shtoni metodë pagese
+subscription-management-button-add-payment-method = Shto
+subscription-management-button-change-payment-method-aria = Ndryshoni metodë pagesash
+subscription-management-button-change-payment-method = Ndryshoje
+subscription-management-button-manage-payment-method-aria = Administroni metodë pagesash
+subscription-management-button-manage-payment-method = Administrojini
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kartë që përfundon me { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Skadon më { $expirationDate }
+subscription-management-subscriptions-heading = Pajtime
+subscription-management-your-subscriptions-aria = Pajtimet tuaja
+subscription-management-button-support = Merrni ndihmë
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Merrni ndihmë për { $productName }
+subscription-management-button-manage-subscription = Administrojini
+
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
@@ -78,6 +110,13 @@ next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 
 page-not-found-title = S’u gjet faqe
 page-not-found-description = Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo lidhje që mund të jetë e dëmtuar.
 page-not-found-back-button = Kthehu Mbrapsht
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Kreu i Llogarive
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Pajtime
 
 ## Component - Payment Consent Checkbox
 
@@ -133,6 +172,11 @@ payments-client-loading-spinner =
     .aria-label = Po ngarkohet…
     .alt = Po ngarkohet…
 
+## Payment method management page - Stripe
+
+# Save button for saving a new payment method
+payment-method-management-save-method = Ruaje metodën e pagesave
+
 ## Payment Section
 
 next-new-user-card-title = Jepni hollësitë e kartës tuaj
@@ -179,6 +223,27 @@ next-new-user-subscribe-product-updates-mdnplus = Do të doja të merrja lajme d
 next-new-user-subscribe-product-updates-mozilla = Do të doja të merrja nga { -brand-mozilla } lajme dhe përditësime produktesh
 next-new-user-subscribe-product-updates-snp = Do të doja të merrja nga { -brand-mozilla } lajme mbi sigurinë dhe privatësinë
 next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të krijuar llogarinë tuaj. S’do t’ia shesim kurrë një pale të tretë.
+
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-heading-cancel-subscription = Anulojeni Pajtimin
+subscription-content-button-cancel-subscription = Anulojeni Pajtimin
+    .aria-label = Anuloni pajtimin tuaj te { $productName }
+subscription-content-button-cancel = Anuloje
+    .aria-label = Anuloni pajtimin tuaj te { $productName }
+subscription-content-cancel-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
+subscription-cancellation-dialog-title = Na vjen keq t’ju shohim të largoheni
+
+##
+
+dialog-close = Mbylle dialogun
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -228,3 +293,22 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (E përjavshme)
 upgrade-purchase-details-new-plan-monthly = { $productName } (E përmuajshme)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-muaj)
 upgrade-purchase-details-new-plan-yearly = { $productName } (E përvitshme)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+# Checkout needs_input
+metadata-title-checkout-needs-input = Lypset veprim | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Gabim | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Sukses | { $productTitle }
+metadata-description-default = Faqja që kërkuat s’u gjet.
+
+## Coupon Error Messages
+
+next-coupon-error-expired = Kodi që dhatë ka skaduar.
+next-coupon-error-generic = Ndodhi një gabim me përpunimin e kodit. Ju lutemi, riprovoni.
+next-coupon-error-invalid = Kodi që dhatë është i pavlefshëm.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Kodi që dhatë ka mbërritur në kufirin e vet.
