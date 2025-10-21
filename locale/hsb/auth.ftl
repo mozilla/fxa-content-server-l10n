@@ -499,6 +499,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Sće tež kody za awtentifi
 postAddTwoStepAuthentication-recovery-method-phone = Sće tež { $maskedPhoneNumber } jako swoje wobnowjenske telefonowe čisło přidał.
 postAddTwoStepAuthentication-how-protects-link = Kak to waše konto škita
 postAddTwoStepAuthentication-how-protects-plaintext = Kak to waše konto škita:
+postAddTwoStepAuthentication-device-sign-out-message = Zo byšće wšě swoje zwjazane graty škitał, wy měł so wšudźe, hdźež tute konto wužiwaće, wotzjewić a so potom z pomocu dwukročeloweje awtentifikacije zaso přizjewić.
 postChangeAccountRecovery-subject = Kontowy wobnowjenski kluč je so změnił
 postChangeAccountRecovery-title = Sće swój kontowy wobnowjenski kluč změnił
 postChangeAccountRecovery-body-part1 = Maće nětko nowy kontowy wobnowjenski kluč. Waš předchadny kluč je so zhašał.
@@ -524,6 +525,7 @@ postChangeTwoStepAuthentication-from-device = Sće to požadał wot:
 postChangeTwoStepAuthentication-action = Konto rjadować
 postChangeTwoStepAuthentication-how-protects-link = Kak to waše konto škita
 postChangeTwoStepAuthentication-how-protects-plaintext = Kak to waše konto škita:
+postChangeTwoStepAuthentication-device-sign-out-message = Zo byšće wšě swoje zwjazane graty škitał, wy měł so wšudźe, hdźež tute konto wužiwaće, wotzjewić a so potom z pomocu swojeje noweje dwukročeloweje awtentifikacije zaso přizjewić.
 postConsumeRecoveryCode-title-3 = Waš awtentifikaciski kod za zawěsćenje je so wobkrućenje wróćostajenja hesła wužił
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
