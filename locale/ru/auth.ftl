@@ -496,6 +496,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Вы также добав�
 postAddTwoStepAuthentication-recovery-method-phone = Вы также добавили { $maskedPhoneNumber } в качестве номера телефона для восстановления.
 postAddTwoStepAuthentication-how-protects-link = Как это защищает ваш аккаунт
 postAddTwoStepAuthentication-how-protects-plaintext = Как это защищает ваш аккаунт:
+postAddTwoStepAuthentication-device-sign-out-message = Чтобы защитить все подключённые устройства, вам следует выйти везде, где вы используете этот аккаунт, а затем войти снова, используя двухэтапную аутентификацию.
 postChangeAccountRecovery-subject = Ключ восстановления аккаунта изменён
 postChangeAccountRecovery-title = Вы изменили ключ восстановления своего аккаунта
 postChangeAccountRecovery-body-part1 = Теперь у вас есть новый ключ восстановления аккаунта. Ваш предыдущий ключ был удалён.
@@ -521,6 +522,7 @@ postChangeTwoStepAuthentication-from-device = Вы запросили это с:
 postChangeTwoStepAuthentication-action = Управление аккаунтом
 postChangeTwoStepAuthentication-how-protects-link = Как это защищает ваш аккаунт
 postChangeTwoStepAuthentication-how-protects-plaintext = Как это защищает ваш аккаунт:
+postChangeTwoStepAuthentication-device-sign-out-message = Чтобы защитить все подключённые устройства, вам следует выйти везде, где вы используете этот аккаунт, а затем войти снова, используя новую двухэтапную аутентификацию.
 postConsumeRecoveryCode-title-3 = Ваш резервный код аутентификации был использован для подтверждения сброса пароля
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

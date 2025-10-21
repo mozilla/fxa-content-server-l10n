@@ -675,6 +675,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Продолжить
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Двухэтапная аутентификация включена
+flow-setup-2fa-inline-complete-success-banner-description = Чтобы защитить все подключённые устройства, вам следует выйти из этого аккаунта везде, где вы используете его, а затем войти снова, используя новую двухэтапную аутентификацию.
 flow-setup-2fa-inline-complete-backup-code = Резервные коды аутентификации
 flow-setup-2fa-inline-complete-backup-phone = Телефон для восстановления
 # $count (Number) - an integer representing the number of backup
@@ -808,6 +809,7 @@ nav-email-comm = Почтовые рассылки
 
 page-2fa-change-title = Изменить двухэтапную аутентификацию
 page-2fa-change-success = Двухэтапная аутентификация была обновлена
+page-2fa-change-success-additional-message = Чтобы защитить все подключённые устройства, вам следует выйти из этого аккаунта везде, где вы используете его, а затем войти снова, используя новую двухэтапную аутентификацию.
 page-2fa-change-totpinfo-error = При замене вашего приложения двухэтапной аутентификации произошла ошибка. Подождите некоторое время и попробуйте снова.
 page-2fa-change-qr-instruction = <strong>Шаг 1:</strong> Отсканируйте этот QR-код с помощью любого приложения для аутентификации, например, Duo или Google Authenticator. Будет создано новое подключение, все старые подключения больше не будут работать.
 
@@ -839,6 +841,7 @@ page-2fa-setup-totpinfo-error = При настройке двухэтапной
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Этот код неверен. Попробуйте снова.
 page-2fa-setup-success = Двухэтапная аутентификация включена
+page-2fa-setup-success-additional-message = Чтобы защитить все подключённые устройства, вам следует выйти везде, где вы используете этот аккаунт, а затем войти снова, используя двухэтапную аутентификацию.
 
 ## Avatar change page
 
