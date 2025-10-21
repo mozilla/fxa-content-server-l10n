@@ -779,6 +779,7 @@ nav-email-comm = תקשורת בדוא״ל
 
 page-2fa-change-title = שינוי אימות דו־שלבי
 page-2fa-change-success = האימות הדו־שלבי עודכן
+page-2fa-change-success-additional-message = כדי להגן על כל המכשירים המחוברים שלך, עליך להתנתק מכל מקום שבו חשבון זה נמצא בשימוש, ולאחר מכן להתחבר שוב באמצעות האימות הדו־שלבי החדש שלך.
 page-2fa-change-totpinfo-error = אירעה שגיאה בהחלפת יישומון האימות הדו־שלבי שלך. נא לנסות שוב מאוחר יותר.
 page-2fa-change-qr-instruction = <strong>שלב 1:</strong> יש לסרוק את קוד QR זה באמצעות כל יישומון מאמת, כמו Duo או Google Authenticator. פעולה זו תיצור חיבור חדש, חיבורים ישנים לא יעבדו יותר.
 
@@ -795,6 +796,7 @@ page-2fa-setup-totpinfo-error = אירעה שגיאה בהגדרת האימות 
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = הקוד הזה שגוי. נא לנסות שוב.
 page-2fa-setup-success = אימות דו־שלבי הופעל
+page-2fa-setup-success-additional-message = כדי להגן על כל המכשירים המחוברים שלך, עליך להתנתק מכל מקום שבו חשבון זה נמצא בשימוש, ולאחר מכן להתחבר שוב באמצעות אימות דו־שלבי.
 
 ## Avatar change page
 
