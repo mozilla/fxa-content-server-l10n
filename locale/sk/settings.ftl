@@ -678,6 +678,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Pokračovať
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Dvojstupňové overenie bolo povolené
+flow-setup-2fa-inline-complete-success-banner-description = Ak chcete chrániť všetky pripojené zariadenia, mali by ste sa odhlásiť všade, kde používate tento účet, a potom sa znova prihlásiť pomocou nového dvojstupňového overenia.
 flow-setup-2fa-inline-complete-backup-code = Záložné overovacie kódy
 flow-setup-2fa-inline-complete-backup-phone = Obnovenie pomocou telefónu
 # $count (Number) - an integer representing the number of backup
@@ -813,6 +814,7 @@ nav-email-comm = E‑mailová komunikácia
 
 page-2fa-change-title = Zmena dvojstupňového overenia
 page-2fa-change-success = Dvojstupňové overenie bolo aktualizované
+page-2fa-change-success-additional-message = Ak chcete chrániť všetky pripojené zariadenia, mali by ste sa odhlásiť všade, kde používate tento účet, a potom sa znova prihlásiť pomocou nového dvojstupňového overenia.
 page-2fa-change-totpinfo-error = Pri zmene aplikácie na dvojstupňové overenie sa vyskytla chyba. Skúste to znova neskôr.
 page-2fa-change-qr-instruction = <strong>Krok 1:</strong> Naskenujte tento QR kód pomocou ľubovoľnej overovacej aplikácie, ako je Duo alebo Google Authenticator. Týmto sa vytvorí nové pripojenie, všetky staré pripojenia už nebudú fungovať.
 
@@ -844,6 +846,7 @@ page-2fa-setup-totpinfo-error = Pri nastavovaní dvojstupňového overenia sa vy
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Tento kód nie je správny. Skúste to znova.
 page-2fa-setup-success = Dvojstupňové overenie bolo povolené
+page-2fa-setup-success-additional-message = Ak chcete chrániť všetky pripojené zariadenia, mali by ste sa odhlásiť všade, kde používate tento účet, a potom sa znova prihlásiť pomocou dvojstupňového overenia.
 
 ## Avatar change page
 
