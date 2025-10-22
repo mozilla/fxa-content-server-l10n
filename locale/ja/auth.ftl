@@ -693,6 +693,9 @@ verifyPrimary-subject = 優先メールアドレス確認
 verifyPrimary-action-2 = メールアドレスを確認
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = 確認が済むと、予備アドレスの追加などのアカウント変更をこの端末から行えるようになります。
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = { $code } を使用して予備アドレスを確認
 verifySecondaryCode-preview = このコードの有効期限は 5 分です。
 verifySecondaryCode-title-2 = 予備メールアドレスの確認
 verifySecondaryCode-action-2 = メールアドレスを確認
@@ -701,6 +704,9 @@ verifySecondaryCode-action-2 = メールアドレスを確認
 verifySecondaryCode-explainer-2 = { $email } を予備アドレスとして使用するためのリクエストが以下の { -product-mozilla-account }から行われました:
 verifySecondaryCode-prompt-2 = この確認コードを使用してください:
 verifySecondaryCode-expiry-notice-2 = この確認コードは 5 分で有効期限切れになります。確認が済み次第、このアドレスにセキュリティ通知や確認のメールが送られるようになります。
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = { $code } を使用してアカウントを確認
 verifyShortCode-title-3 = { -brand-mozilla } でインターネットをオープンに
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = アカウントを確認すると、ログインしたどの端末からでも { -brand-mozilla } を最大限に活用できます。まずこちらから:
