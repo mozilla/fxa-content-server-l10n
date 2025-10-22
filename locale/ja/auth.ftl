@@ -707,6 +707,7 @@ verifySecondaryCode-expiry-notice-2 = この確認コードは 5 分で有効期
 # Variables:
 #  $code (String) - comfirmation code for the account
 verifyShortCode-subject-4 = { $code } を使用してアカウントを確認
+verifyShortCode-preview-2 = このコードの有効期限は 5 分です。
 verifyShortCode-title-3 = { -brand-mozilla } でインターネットをオープンに
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = アカウントを確認すると、ログインしたどの端末からでも { -brand-mozilla } を最大限に活用できます。まずこちらから:
