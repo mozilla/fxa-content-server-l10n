@@ -676,6 +676,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continuar
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Authentication a duo passos activate
+flow-setup-2fa-inline-complete-success-banner-description = Pro proteger tote tu apparatos connexe, tu deberea disconnecter te ubique tu usa iste conto, e pois reconnecter te per tu nove authentication a duo passos.
 flow-setup-2fa-inline-complete-backup-code = Codices de authentication de reserva
 flow-setup-2fa-inline-complete-backup-phone = Numero de telephono de recuperation
 # $count (Number) - an integer representing the number of backup
@@ -807,6 +808,7 @@ nav-email-comm = Communicationes email
 
 page-2fa-change-title = Cambiar authentication a duo passos
 page-2fa-change-success = Le authentication a duo passos ha essite actualisate
+page-2fa-change-success-additional-message = Pro proteger tote tu apparatos connexe, tu deberea disconnecter te ubique tu usa iste conto, e pois reconnecter te per tu nove authentication a duo passos.
 page-2fa-change-totpinfo-error = Il habeva un error replaciante le authentication a duo passos. Retenta.
 page-2fa-change-qr-instruction = <strong>Passo 1:</strong> Scande iste codice QR usante alcun application de authentication, como Duo o Google Authenticator. Isto crea un nove connexion, alcun vetere connexiones non functionara plus.
 
@@ -838,6 +840,7 @@ page-2fa-setup-totpinfo-error = Il habeva un error configurante le authenticatio
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Iste codice non es correcte. Retenta.
 page-2fa-setup-success = Authentication a duo passos activate
+page-2fa-setup-success-additional-message = Pro proteger tote tu apparatos connexe, tu deberea disconnecter te ubique tu usa iste conto, e pois reconnecter te per authentication a duo passos.
 
 ## Avatar change page
 

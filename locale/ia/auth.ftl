@@ -493,6 +493,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Tu alsi addeva codices de a
 postAddTwoStepAuthentication-recovery-method-phone = Tu alsi addeva { $maskedPhoneNumber } como tu numero de telephono de recuperation.
 postAddTwoStepAuthentication-how-protects-link = Como isto protege tu conto
 postAddTwoStepAuthentication-how-protects-plaintext = Como isto protege tu conto:
+postAddTwoStepAuthentication-device-sign-out-message = Pro proteger tote tu apparatos connexe, tu deberea disconnecter te ubique tu usa iste conto, e pois reconnecter te per authentication a duo passos.
 postChangeAccountRecovery-subject = Clave de recuperation del conto cambiate
 postChangeAccountRecovery-title = Tu cambiava tu clave de recuperation del conto
 postChangeAccountRecovery-body-part1 = Tu ora ha un nove clave de recuperation del conto.Tu clave precedente era delite.
@@ -520,6 +521,7 @@ postChangeTwoStepAuthentication-from-device = Tu lo ha requirite ab:
 postChangeTwoStepAuthentication-action = Gerer le conto
 postChangeTwoStepAuthentication-how-protects-link = Como isto protege tu conto
 postChangeTwoStepAuthentication-how-protects-plaintext = Como isto protege tu conto:
+postChangeTwoStepAuthentication-device-sign-out-message = Pro proteger tote tu apparatos connexe, tu deberea disconnecter te ubique tu usa iste conto, e pois reconnecter te per tu nove authentication a duo passos.
 postConsumeRecoveryCode-title-3 = Tu codice de authentication de reserva era usate pro confirmar un redefinition de contrasigno
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
