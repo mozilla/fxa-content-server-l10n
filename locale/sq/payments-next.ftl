@@ -30,6 +30,17 @@ checkout-error-boundary-retry-button = Riprovoni
 checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
 amex-logo-alt-text = Stemë { -brand-amex }-i
 diners-logo-alt-text = Stemë { -brand-diner }-i
+discover-logo-alt-text = Stemë { -brand-discover }-i
+jcb-logo-alt-text = Stemë { -brand-jcb }-je
+mastercard-logo-alt-text = Stemë { -brand-mastercard }-i
+paypal-logo-alt-text = Stemë { -brand-paypal }-i
+unionpay-logo-alt-text = Stemë { -brand-unionpay }-i
+visa-logo-alt-text = Stemë { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Stemë pa markë
+link-logo-alt-text = Stemë { -brand-link }
+apple-pay-logo-alt-text = Stemë { -brand-apple-pay }
+google-pay-logo-alt-text = Stemë { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -43,9 +54,12 @@ checkout-error-already-subscribed = Jeni tashmë i pajtuar te ky produkt.
 checkout-error-contact-support = Ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
 cart-error-currency-not-determined = S’qemë në gjendje të përcaktojmë monedhën për këtë blerje, ju lutemi, riprovoni.
 checkout-processing-general-error = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
+cart-total-mismatch-error = Vlera e faturës ka ndryshuar. Ju lutemi, riprovoni.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Transaksioni juaj s’u krye dot. Ju lutemi, verifikoni të dhënat e kartës tuaj të kreditit dhe riprovoni.
+intent-expired-card-error = Duket sikur karta juaj e kreditit të ketë skaduar. Provoni një kartë tjetër.
 intent-payment-error-try-again = Hëm. Pati një problem me autorizimin e pagesës tuaj. Riprovoni ose lidhuni me emetuesin e kartës tuaj.
 intent-payment-error-get-in-touch = Hëm. Pati një problem me autorizimin e pagesës tuaj. Lidhuni me emetuesin e kartës tuaj.
 intent-payment-error-generic = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
@@ -100,14 +114,28 @@ subscription-management-card-ending-in = Kartë që përfundon me { $last4 }
 subscription-management-card-expires-date = Skadon më { $expirationDate }
 subscription-management-subscriptions-heading = Pajtime
 subscription-management-your-subscriptions-aria = Pajtimet tuaja
+subscription-management-no-subscriptions = Ende s’keni ndonjë pajtim
 subscription-management-button-support = Merrni ndihmë
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Merrni ndihmë për { $productName }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Fatura e ardhshme skadon më <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Pajtimi juaj do të skadojë më <strong>{ $date }</strong>
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Administroni pajtim për { $productName }
 subscription-management-button-manage-subscription = Administrojini
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (përditë)
+subscription-management-page-subscription-interval-weekly = { $productName } (çdo javë)
+subscription-management-page-subscription-interval-monthly = { $productName } (çdo muaj)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-muaj)
+subscription-management-page-subscription-interval-yearly = { $productName } (e përvitshme)
+subscription-management-page-paypal-error-banner-link = Administrojini
+paypal-payment-management-page-invalid-header = Hollësi faturimi të pavlefshme
 # Page - Not Found
 page-not-found-title = S’u gjet faqe
 page-not-found-description = Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo lidhje që mund të jetë e dëmtuar.
@@ -119,6 +147,10 @@ page-not-found-back-button = Kthehu Mbrapsht
 subscription-management-breadcrumb-account-home = Kreu i Llogarive
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Pajtime
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Administroni Metoda Pagesash
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Shkoni mbrapsht te { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -176,8 +208,11 @@ payments-client-loading-spinner =
 
 ## Payment method management page - Stripe
 
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Vëre si metodë parazgjedhje pagesash
 # Save button for saving a new payment method
 payment-method-management-save-method = Ruaje metodën e pagesave
+manage-stripe-payments-title = Administroni metoda pagesash
 
 ## Payment Section
 
@@ -189,6 +224,9 @@ next-plan-details-header = Hollësi produkti
 next-plan-details-list-price = Çmim Liste
 next-plan-details-tax = Taksa dhe Tarifa
 next-plan-details-total-label = Gjithsej
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Kredit nga kohë e papërdorur
+purchase-details-subtotal-label = Nënshumë
 next-plan-details-hide-button = Fshihi hollësitë
 next-plan-details-show-button = Shfaq hollësi
 next-coupon-success = Plani juaj do të rinovohet vetvetiu me çmimin e treguar te lista.
@@ -242,6 +280,20 @@ subscription-content-button-cancel = Anuloje
     .aria-label = Anuloni pajtimin tuaj te { $productName }
 subscription-content-cancel-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
 subscription-cancellation-dialog-title = Na vjen keq t’ju shohim të largoheni
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = Doni të vazhdoni të përdorni { $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Ripajtohuni
+    .aria-label = Ripajtohuni te { $productName }
+resubscribe-success-dialog-title = Faleminderit! Gjithçka gati.
+resubscribe-success-dialog-action-button-close = Mbylle
+    .aria-label = Mbylleni dialogun
 
 ##
 
@@ -264,6 +316,7 @@ next-subscription-processing-title = Po ripohohet pajtimi…
 next-subscription-error-title = Gabim në ripohim pajtimi…
 subscription-title-sub-exists = Jeni pajtuar tashmë
 subscription-title-plan-change-heading = Shqyrtoni ndryshimin tuaj
+subscription-title-not-supported = Ky ndryshim plani pajtimi nuk mbulohet
 next-sub-guarantee = 30 ditë garanci kthimi parash
 
 ## Component - TermsAndPrivacy
