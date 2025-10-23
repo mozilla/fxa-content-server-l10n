@@ -660,6 +660,7 @@ flow-setup-2fa-backup-code-dl-button-continue = 继续
 ##
 
 flow-setup-2fa-inline-complete-success-banner = 已启用两步验证
+flow-setup-2fa-inline-complete-success-banner-description = 为保护所有连接的设备，您应在所有使用此账户的设备上退出登录，然后再使用新的两步验证信息重新登录。
 flow-setup-2fa-inline-complete-backup-code = 备用验证码
 flow-setup-2fa-inline-complete-backup-phone = 恢复电话号码
 # $count (Number) - an integer representing the number of backup
@@ -783,6 +784,7 @@ nav-email-comm = 新闻通讯
 
 page-2fa-change-title = 更改两步验证
 page-2fa-change-success = 两步验证已更新
+page-2fa-change-success-additional-message = 为保护所有连接的设备，您应在所有使用此账户的设备上退出登录，然后再使用新的两步验证信息重新登录。
 page-2fa-change-totpinfo-error = 替换两步验证应用时出错，请稍后再试。
 page-2fa-change-qr-instruction = <strong>第 1 步：</strong>使用任意一款身份验证应用（例如 Duo 或 Google 身份验证器）扫描此二维码。此操作将创建新的连接，而旧连接将失效。
 
@@ -814,6 +816,7 @@ page-2fa-setup-totpinfo-error = 设置两步验证时出错，请稍后再试。
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = 备用验证码错误，请重试。
 page-2fa-setup-success = 已启用两步验证
+page-2fa-setup-success-additional-message = 为保护所有连接的设备，您应在所有使用此账户的设备上退出登录，然后再使用两步验证重新登录。
 
 ## Avatar change page
 

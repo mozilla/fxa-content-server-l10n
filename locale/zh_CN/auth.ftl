@@ -480,6 +480,7 @@ postAddTwoStepAuthentication-recovery-method-codes = 您已同时将备用验证
 postAddTwoStepAuthentication-recovery-method-phone = 您已同时将 { $maskedPhoneNumber } 添加为恢复电话号码。
 postAddTwoStepAuthentication-how-protects-link = 此举如何保护您的账户
 postAddTwoStepAuthentication-how-protects-plaintext = 此举如何保护您的账户：
+postAddTwoStepAuthentication-device-sign-out-message = 为保护所有连接的设备，您应在所有使用此账户的设备上退出登录，然后再使用两步验证重新登录。
 postChangeAccountRecovery-subject = 账户恢复密钥已更改
 postChangeAccountRecovery-title = 您更改了账户恢复密钥
 postChangeAccountRecovery-body-part1 = 您现在有了新的账户恢复密钥，先前的密钥已删除。
@@ -505,6 +506,7 @@ postChangeTwoStepAuthentication-from-device = 您已从以下设备请求：
 postChangeTwoStepAuthentication-action = 管理账户
 postChangeTwoStepAuthentication-how-protects-link = 此举如何保护您的账户
 postChangeTwoStepAuthentication-how-protects-plaintext = 此举如何保护您的账户：
+postChangeTwoStepAuthentication-device-sign-out-message = 为保护所有连接的设备，您应在所有使用此账户的设备上退出登录，然后再使用新的两步验证信息重新登录。
 postConsumeRecoveryCode-title-3 = 您的备用验证码已用于确认密码重设
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
