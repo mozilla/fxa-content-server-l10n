@@ -684,7 +684,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Parhau
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Mae dilysu dau gam wedi ei alluogi
-flow-setup-2fa-inline-complete-success-banner-description = Er mwyn amddiffyn eich holl ddyfeisiau cysylltiedig, dylech allgofnodi ym mhob man rydych chi'n defnyddio'r cyfrif hwn, ac yna mewngofnodi eto gan ddefnyddio'ch dilysiad dau gam newydd.
+flow-setup-2fa-inline-complete-success-banner-description = Er mwyn diogelu eich holl ddyfeisiau cysylltiedig, dylech allgofnodi ym mhob man rydych chi'n defnyddio'r cyfrif hwn, ac yna mewngofnodi eto gan ddefnyddio'ch dilysiad dau gam newydd.
 flow-setup-2fa-inline-complete-backup-code = Codau dilysu wrth gefn
 flow-setup-2fa-inline-complete-backup-phone = Ffôn adfer
 # $count (Number) - an integer representing the number of backup
@@ -824,7 +824,7 @@ nav-email-comm = Cyfathrebu Trwy E-bost
 
 page-2fa-change-title = Newid dilysu dau gam
 page-2fa-change-success = Mae dilysu dau gam wedi'i ddiweddaru
-page-2fa-change-success-additional-message = Er mwyn amddiffyn eich holl ddyfeisiau cysylltiedig, dylech allgofnodi ym mhob man rydych chi'n defnyddio'r cyfrif hwn, ac yna mewngofnodi eto gan ddefnyddio'ch dilysiad dau gam newydd.
+page-2fa-change-success-additional-message = Er mwyn diogelu eich holl ddyfeisiau cysylltiedig, dylech allgofnodi ym mhob man rydych chi'n defnyddio'r cyfrif hwn, ac yna mewngofnodi eto gan ddefnyddio'ch dilysiad dau gam newydd.
 page-2fa-change-totpinfo-error = Bu gwall wrth amnewid eich ap dilysu dau gam. Ceisiwch eto yn nes ymlaen.
 page-2fa-change-qr-instruction = <strong>Cam 1:</strong> Sganiwch y cod QR hwn gan ddefnyddio unrhyw ap dilysu, fel Duo neu Google Authenticator. Mae hyn yn creu cysylltiad newydd, bydd unrhyw hen gysylltiadau ddim yn gweithio mwyach.
 
@@ -856,7 +856,7 @@ page-2fa-setup-totpinfo-error = Bu gwall wrth osod dilysiad dau gam. Ceisiwch et
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Nid yw'r cod hwnnw'n gywir. Ceisiwch eto.
 page-2fa-setup-success = Mae dilysu dau gam wedi'i alluogi
-page-2fa-setup-success-additional-message = Er mwyn amddiffyn eich holl ddyfeisiau cysylltiedig, dylech allgofnodi ym mhobman rydych chi'n defnyddio'r cyfrif hwn, ac yna mewngofnodi eto gan ddefnyddio dilysiad dau gam.
+page-2fa-setup-success-additional-message = Er mwyn diogelu eich holl ddyfeisiau cysylltiedig, dylech allgofnodi ym mhobman rydych chi'n defnyddio'r cyfrif hwn, ac yna mewngofnodi eto gan ddefnyddio dilysiad dau gam.
 
 ## Avatar change page
 
