@@ -741,6 +741,7 @@ verifySecondaryCode-expiry-notice-2 = Skadon për 5 minuta. Pas ripohimit, kjo a
 # Variables:
 #  $code (String) - comfirmation code for the account
 verifyShortCode-subject-4 = Përdorni { $code } që të ripohoni llogarinë tuaj
+verifyShortCode-preview-2 = Ky kod skadon për 5 minuta
 verifyShortCode-title-3 = Hapeni internetin me { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:

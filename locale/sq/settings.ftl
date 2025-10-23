@@ -91,6 +91,12 @@ datablock-copy =
 datablock-print =
     .message = U shtyp
 
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = U kopjua
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -128,6 +134,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Ripohoni fjalëkalimin
 form-password-with-inline-criteria-reset-submit-button = Krijoni fjalëkalim të ri
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Fjalëkalim
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Rijepeni fjalëkalimin
+form-password-with-inline-criteria-set-password-submit-button = Fillo njëkohësim
 form-password-with-inline-criteria-match-error = Fjalëkalimet nuk përputhen
 form-password-with-inline-criteria-sr-too-short-message = Fjalëkalimi duhet të përmbajë të paktën 8 shenja.
 form-password-with-inline-criteria-sr-not-email-message = Fjalëkalimi s’duhet të përmbajë adresën tuaj email.
@@ -328,6 +339,8 @@ confirmation-link-reused-message = Ajo lidhje ripohimi qe përdorur tashmë dhe 
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Përzgjidhni gjuhë
+locale-toggle-browser-default = Parazgjedhje shfletuesi
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Kërkesë e Gabuar
 
@@ -344,12 +357,16 @@ password-strength-inline-min-length = Të paktën 8 shenja
 password-strength-inline-not-email = Jo adresën tuaj email
 password-strength-inline-not-common = Jo një fjalëkalim të përdorur rëndom
 password-strength-inline-confirmed-must-match = Ripohimi përkon me fjalëkalimin e ri
+password-strength-inline-passwords-match = Fjalëkalimi përputhet
 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Krijoje
 account-recovery-notification-header-value = Mos humbni të dhënat tuaja, nëse harroni fjalëkalimin
 account-recovery-notification-header-description = Krijoni një kyç rimarrjeje llogarie, që të riktheni të dhëna shfletimi të njëkohësuara, nëse harroni ndonjëherë fjalëkalimin tuaj.
+recovery-phone-promo-cta = Shtoni telefon rimarrjeje
+promo-banner-dismiss-button =
+    .aria-label = Hidh tej banderolën
 
 ## Ready component
 
@@ -447,6 +464,12 @@ bento-menu-made-by-mozilla = Krijuar nga { -brand-mozilla }
 
 connect-another-fx-mobile = Merreni { -brand-firefox }-in për celular ose tablet
 connect-another-find-fx-mobile-2 = Gjejeni { -brand-firefox }-in te { -google-play } dhe { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Shkarkojeni  { -brand-firefox } nga { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Shkarkojeni { -brand-firefox } nga { -app-store }
 
 ## Connected services section
 
@@ -564,6 +587,35 @@ flow-recovery-key-info-cta-text-v3 = Fillojani
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Anuloje
 
+## FlowSetup2faApp
+
+flow-setup-2fa-manual-key-heading = Jepeni kodin dorazi
+flow-setup-2fa-scan-qr-instead-button = Të skanohet kodi QR, në vend të kësaj?
+flow-setup-2fa-button = Vazhdo
+flow-setup-2fa-input-label = Jepni kodin 6-shifror
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+flow-setup-2fa-backup-choice-heading = Zgjidhni një metodë rikthimi
+flow-setup-2fa-backup-choice-phone-title = Telefon rimarrjeje
+flow-setup-2fa-backup-choice-code-title = Kode mirëfilltësimi kopjeruajtjeje
+
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+flow-setup-2fa-backup-code-confirm-heading = Jepni kod mirëfilltësimi kopjeruajtjeje
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Ripohoni se i ruajtët kodet tuaj, duke dhënë një të tillë. Pa këta kode, mund të mos jeni në gjendje të bëni hyrjen, nëse s’keni aplikacionin tuaj të mirëfilltësimeve.
+flow-setup-2fa-backup-code-confirm-code-input = Jepni kodin me 10 shenja
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Përfundoje
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-heading = Ruani kode mirëfilltësimi kopjeruajtjeje
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -580,6 +632,7 @@ flow-setup-phone-confirm-code-expired = Skadoi kodi?
 flow-setup-phone-confirm-code-resend-code-button = Ridërgo kodin
 flow-setup-phone-confirm-code-resend-code-success = Kodi i dërgua
 flow-setup-phone-confirm-code-success-message-v2 = U shtua telefon rimarrje
+flow-change-phone-confirm-code-success-message = U ndryshua telefon rimarrje
 
 ## FlowSetupPhoneConfirmCode
 
@@ -622,6 +675,14 @@ modal-close-title = Mbylle
 modal-cancel-button = Anuloje
 modal-default-confirm-button = Ripohojeni
 
+## ModalMfaProtected
+
+modal-mfa-protected-cancel-button = Anuloje
+modal-mfa-protected-confirm-button = Ripohojeni
+modal-mfa-protected-code-expired = Skadoi kodi?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Dërgo me email kod të ri.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Ripohoni email-in tuaj
@@ -643,14 +704,32 @@ nav-data-collection = Grumbullim dhe Përdorim të Dhënash
 nav-paid-subs = Pajtime Me Pagesë
 nav-email-comm = Komunikime Me Email
 
+## Page2faChange
+
+page-2fa-change-title = Ndryshoni mirëfilltësim dyhapësh
+page-2fa-change-success = Mirëfilltësimi dyhapësh u përditësua
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Kode mirëfilltësimi kopjeruajtjeje
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Pati një problem me zëvendësimin e kodeve tuaj të mirëfilltësimit kopjeruajtje.
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Pati një problem me krijimin e kodeve tuaj të mirëfilltësimit të kopjeruajtjes.
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = U përditësuan kode mirëfilltësimi kopjeruajtjeje
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = U krijuan kode mirëfilltësimi kopjeruajtjeje
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Kod mirëfilltësimi kopjeruajtje i pasaktë
+
+## Page2faSetup
+
+page-2fa-setup-title = Mirëfilltësim dyhapësh
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Ai kod s’është i saktë. Riprovoi.
+page-2fa-setup-success = Mirëfilltësimi dyhapësh u aktivizua
 
 ## Avatar change page
 
@@ -793,6 +872,7 @@ recent-activity-account-recovery-phone-removed = U hoq telefon rimarrjeje
 recent-activity-account-recovery-codes-replaced = U zëvendësua telefon rimarrjeje
 recent-activity-account-recovery-codes-created = U krijuan kode rimarrjeje
 recent-activity-account-recovery-codes-signin-complete = U plotësua hyrje me kode rimarrjeje
+recent-activity-must-reset-password = Ricaktim i domosdoshëm fjalëkalimi
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Tjetër veprimtari në llogari
 
@@ -821,6 +901,7 @@ settings-recovery-phone-remove-success = U hoq telefon rimarrjeje
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Shtoni telefon rimarrjeje
+page-change-recovery-phone = Ndryshoni telefon rimarrjeje
 page-setup-recovery-phone-back-button-title = Mbrapsht te rregullimet
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Ndryshoni numër telefoni
@@ -1033,6 +1114,7 @@ tfa-row-enabled = I aktivizuar
 tfa-row-disabled-status = E çaktivizuar
 tfa-row-action-add = Shtoje
 tfa-row-action-disable = Çaktivizoje
+tfa-row-action-change = Ndryshoje
 tfa-row-button-refresh =
     .title = Rifreskoni mirëfilltësim dyhapësh
 tfa-row-cannot-refresh =
@@ -1074,6 +1156,9 @@ terms-privacy-agreement-default-2 = Duke vazhduar, pajtoheni me <mozillaAccounts
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = Ose
+# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
+# This could also be translated as "Sign in with the following" or "Sign in with the below".
+third-party-auth-options-sign-in-with = Hyni me
 continue-with-google-button = Vazhdo me { -brand-google }
 continue-with-apple-button = Vazhdo me { -brand-apple }
 
@@ -1241,6 +1326,7 @@ inline-totp-setup-security-code-placeholder = Kod mirëfilltësimi
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Lypset kod mirëfilltësimi
 tfa-qr-code-alt = Përdoreni kodin { $code } që të rregulloni mirëfilltësim dyhapësh te aplikacione që e mbulojnë.
+inline-totp-setup-page-title = Mirëfilltësim dyhapësh
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1402,6 +1488,12 @@ complete-reset-password-desktop-relay = Pasi të bëni hyrjen në llogari, { -br
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Jepni kodin me 10 shenja
+confirm-backup-code-reset-password-confirm-button = Ripohojeni
+confirm-backup-code-reset-password-subheader = Jepni kod mirëfilltësimi kopjeruajtjeje
+confirm-backup-code-reset-password-instruction = Jepni një nga kodet për përdorim vetëm një herë që ruajtët kur ujdisët mirëfilltësimin dyhapësh.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Jeni kyçur jashtë?
 
 ## Confirm Reset Password With Code
 
@@ -1446,8 +1538,38 @@ reset-password-complete-header = Fjalëkalimi juaj u ricaktua
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Vazhdoni te { $serviceName }
 
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
+password-reset-recovery-method-header = Ricaktoni fjalëkalimin tuaj
+password-reset-recovery-method-subheader = Zgjidhni një metodë rikthimi
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Le të sigurohemi se jeni ju ai që po përdorni metodat tuaja të rimarrjes.
+password-reset-recovery-method-phone = Telefon rimarrjeje
+password-reset-recovery-method-code = Kode mirëfilltësimi kopjeruajtjeje
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] Edhe { $numBackupCodes } kod
+       *[other] Edhe { $numBackupCodes } kode
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Pati një problem me dërgimin e një kodi te telefoni juaj i rimarrjes
+password-reset-recovery-method-send-code-error-description = Ju lutemi, riprovoni, ose përdorni kodet tuaj kopjeruajtje të mirëfilltësimit.
+
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Ricaktoni fjalëkalimin tuaj
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Jepni kod rikthimi
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Te numri i telefonit që mbaron me <span>{ $lastFourPhoneDigits }</span> u dërgua përmes një mesazhi tekst një kod 6-shifror. Ky kod skadon pas 5 minutash. Mos ia tregoni kujt këtë kod.
+reset-password-recovery-phone-input-label = Jepni kodin 6-shifror
+reset-password-recovery-phone-code-submit-button = Ripohojeni
 reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
 reset-password-complete-new-password-saved = Fjalëkalimi i ri u ruajt!
 reset-password-complete-recovery-key-created = U krijua kyç i ri rimarrjeje llogarie. Tani shkarkojeni dhe depozitojeni.
