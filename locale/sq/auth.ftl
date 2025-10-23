@@ -197,6 +197,8 @@ payment-method-payment-provider-plaintext = Metodë pagese: { $paymentProviderNa
 payment-provider-card-name-ending-in-plaintext = Metodë pagese: { $cardName } që përfundon me { $lastFour }
 payment-provider-card-ending-in-plaintext = Metodë pagese: Kartë që përfundon me { $lastFour }
 payment-provider-card-ending-in = <b>Metodë pagese:</b> Kartë që përfundon me { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Metodë pagese:</b>> { $cardName } që përfundon me { $lastFour }
+subscription-charges-invoice-summary = Përmbledhje Fature
 
 # Variables:
 
@@ -204,8 +206,36 @@ payment-provider-card-ending-in = <b>Metodë pagese:</b> Kartë që përfundon m
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Numër fature</b>b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Numër fature: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Datë:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Datë: { $invoiceDateOnly }
+subscription-charges-list-price = Çmim normal
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Çmim normal: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Kredit nga kohë e papërdorur
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Kredit nga kohë e papërdorur: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Nënshumë</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Nënshumë: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Zbritje për një herë vetëm
+subscription-charges-one-time-discount-plaintext = Zbritje për një herë vetëm: { $invoiceDiscountAmount }
+subscription-charges-discount = Zbritje
+subscription-charges-discount-plaintext = Zbritje: { $invoiceDiscountAmount }
+subscription-charges-taxes = Taksa & tarifa
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Taksa & tarifa: { $invoiceTaxAmount }
+subscription-charges-total = <b>Gjithsej</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Gjithsej: { $invoiceTotal }
+subscription-charges-amount-paid = <b>Sasi e paguar</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Sasi e paguar: { $invoiceAmountDue }
 
 ##
 
@@ -217,6 +247,13 @@ subscriptionSupport-plaintext = Pyetje rreth pajtimit tuaj? Ekipi ynë i asisten
 subscriptionSupportContact = Faleminderit për pajtimin te { $productName }. Nëse keni ndonjë pyetje mbi pajtimin tuaj, ose ju duhet më tepër informacion rreth { $productName }, ju lutemi, <a data-l10n-name="subscriptionSupportUrl">lidhuni me ne</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Faleminderit për pajtimin te { $productName }. Nëse keni ndonjë pyetje mbi pajtimin tuaj, ose ju duhet më tepër informacion rreth { $productName }, ju lutemi, lidhuni me ne:
+subscription-support-get-help = Merrni ndihmë për pajtimin tuaj
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Administroni pajtimin tuaj</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Administroni pajtimin tuaj:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Lidhuni me asistencën</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Lidhuni me asistencën:
 subscriptionUpdateBillingEnsure = Nga <a data-l10n-name="updateBillingUrl">këtu</a>, mund të siguroheni se metoda juaj e pagesës dhe hollësitë e llogarisë janë të sakta.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Nga këtu, mund të siguroheni se metoda juaj e pagesës dhe hollësitë e llogarisë janë të sakta:
@@ -227,6 +264,12 @@ subscriptionUpdatePayment = Që të parandalohet çfarëdo ndërprerje në shër
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, përditësoni të dhënat tuaja të pagesës sa më shpejt të jetë e mundur:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Për më tepër hollësi, vizitoni <a data-l10n-name="supportLink">Asistencën { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Për më tepër hollësi, vizitoni Asistencën { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -235,6 +278,23 @@ device-all = { $uaBrowser } në { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } në { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (hamendësuar)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (hamendësim)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (hamendësuar)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (hamendësim)
+view-invoice-link-action = Shihni faturën
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -328,6 +388,7 @@ passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
 passwordChanged-description-2 = Fjalëkalimi juaj për { -product-mozilla-account } u ndryshua me sukses që nga pajisja vijuese:
 passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
+passwordChangeRequired-preview = Ndryshoni menjëherë fjalëkalimin tuaj
 password-forgot-otp-title = Harruat fjalëkalimin tuaj?
 password-forgot-otp-request = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:
 password-forgot-otp-code-2 = Nëse qetë ju, ja kodi juaj i ripohimit, për të vazhduar:
@@ -543,6 +604,10 @@ subscriptionFirstInvoice-content-install-2 = Do të merrni një email më vete s
 subscriptionFirstInvoice-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Metoda e pagesës për { $productName } që ka skaduar, ose skadon së shpejti
+subscriptionPaymentExpired-title-2 = Metoda juaj e pagesës ka skaduar, ose është afër skadimit
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pagesa për { $productName } dështoi
 subscriptionPaymentFailed-title = Na ndjeni, po kemi probleme me pagesën tuaj
 # Variables:
@@ -584,6 +649,8 @@ subscriptionRenewalReminder-content-closing = Sinqerisht,
 subscriptionRenewalReminder-content-signature = Ekipi i { $productName }-s
 subscriptionReplaced-title = Pajtimi juaj është përditësuar
 subscriptionReplaced-content-no-action = Nga ana juaj s’lypset ndonjë veprim.
+subscriptionsPaymentExpired-subject-2 = Metoda e pagesës për pajtimet tuaja ka skaduar, ose skadon së shpejti
+subscriptionsPaymentExpired-title-2 = Metoda juaj e pagesës ka skaduar, ose është afër skadimit
 subscriptionsPaymentProviderCancelled-subject = Lypset përditësim hollësish pagese për pajtime { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me metodën tuaj të pagesave
 subscriptionsPaymentProviderCancelled-content-detected = Pikasëm një problem me metodën tuaj të pagesës për pajtimet vijuese.
@@ -642,12 +709,14 @@ verify-title-3 = Hapeni internetin me { -brand-mozilla }
 verify-description-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-subject = Përfundoni krijimin e llogarisë tuaj
 verify-action-2 = Ripohoni llogarinë
+verifyAccountChange-prompt = Nëse po, ja kodi juaj i autorizimit:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = A bëtë hyrjen te { $clientName }?
 verifyLogin-description-2 = Ndihmonani ta mbajmë llogarinë tuaj të parrezik, duke ripohuar se keni hyrë në:
 verifyLogin-subject-2 = Ripohoni hyrjen
 verifyLogin-action = Ripohoni hyrjen
+verifyLoginCode-preview = Ky kod skadon për 5 minuta.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = A bëtë hyrjen te { $serviceName }?
@@ -661,6 +730,7 @@ verifyPrimary-subject = Ripohoni email parësor
 verifyPrimary-action-2 = Ripohoni email-in
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Pasi të jetë ripohuar, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor.
+verifySecondaryCode-preview = Ky kod skadon për 5 minuta.
 verifySecondaryCode-title-2 = Ripohoni email dytësor
 verifySecondaryCode-action-2 = Ripohoni email-in
 # Variables:
@@ -668,6 +738,9 @@ verifySecondaryCode-action-2 = Ripohoni email-in
 verifySecondaryCode-explainer-2 = Prej llogarisë vijuese { -product-mozilla-account } është bërë një kërkesë për të përdorur { $email } si një adresë dytësore email:
 verifySecondaryCode-prompt-2 = Përdor këtë kod ripohimi:
 verifySecondaryCode-expiry-notice-2 = Skadon për 5 minuta. Pas ripohimit, kjo adresë do të fillojë të marrë njoftime sigurie dhe ripohime.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Përdorni { $code } që të ripohoni llogarinë tuaj
 verifyShortCode-title-3 = Hapeni internetin me { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
