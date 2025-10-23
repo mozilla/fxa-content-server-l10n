@@ -276,10 +276,10 @@ subscriptionSupportContact = Tack för att du prenumererar på { $productName }.
 subscriptionSupportContact-plaintext = Tack för att du prenumererar på { $productName }. Om du har några frågor om din prenumeration eller behöver mer information om { $productName }, vänligen kontakta oss:
 subscription-support-get-help = Få hjälp med din prenumeration
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Hantera din prenumeration</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Hantera din prenumeration:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontakta supporten</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Kontakta support:
 subscriptionUpdateBillingEnsure = Du kan se till att din betalningsmetod och kontoinformation är uppdaterad <a data-l10n-name="updateBillingUrl">här</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -493,7 +493,6 @@ postAddTwoStepAuthentication-recovery-method-codes = Du har också lagt till res
 postAddTwoStepAuthentication-recovery-method-phone = Du har också lagt till { $maskedPhoneNumber } som ditt återställningstelefonnummer.
 postAddTwoStepAuthentication-how-protects-link = Hur skyddar detta ditt konto
 postAddTwoStepAuthentication-how-protects-plaintext = Hur skyddar detta ditt konto:
-postAddTwoStepAuthentication-device-sign-out-message = För att skydda alla dina anslutna enheter bör du logga ut överallt där du använder det här kontot och sedan logga in igen med tvåstegsautentisering.
 postChangeAccountRecovery-subject = Nyckeln för kontoåterställning har ändrats
 postChangeAccountRecovery-title = Du har ändrat din kontoåterställningsnyckel
 postChangeAccountRecovery-body-part1 = Du har nu en ny kontoåterställningsnyckel. Din tidigare nyckel raderades.
@@ -519,7 +518,6 @@ postChangeTwoStepAuthentication-from-device = Du begärde detta från:
 postChangeTwoStepAuthentication-action = Hantera konto
 postChangeTwoStepAuthentication-how-protects-link = Hur detta skyddar ditt konto
 postChangeTwoStepAuthentication-how-protects-plaintext = Hur detta skyddar ditt konto:
-postChangeTwoStepAuthentication-device-sign-out-message = För att skydda alla dina anslutna enheter bör du logga ut överallt där du använder det här kontot och sedan logga in igen med din nya tvåstegsautentisering.
 postConsumeRecoveryCode-title-3 = Din reservautentiseringskod användes för att bekräfta en lösenordsåterställning
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

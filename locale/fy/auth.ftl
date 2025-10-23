@@ -276,10 +276,10 @@ subscriptionSupportContact = Tank foar jo abonnemint op { $productName }. As jo 
 subscriptionSupportContact-plaintext = Tank foar jo abonnemint op { $productName }. As jo fragen oer jo abonnemint hawwe, of mear ynformaasje oer { $productName } wolle, nim dan kontakt op:
 subscription-support-get-help = Help by jo abonnemint krije
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Jo abonnemint beheare</a>
-# After the colon, there's a link to https://payments.firefox.com/subscriptions
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Jo abonnemint beheare:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontakt opnimme</a>
-# After the colon, there's a link to https://support.mozilla.com/products
+# After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Kontakt opnimme:
 subscriptionUpdateBillingEnsure = Jo kinne <a data-l10n-name="updateBillingUrl">hjir</a> derfoar soargje dat jo betellingsmetoade en accountgegevens aktueel binne.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
@@ -493,7 +493,6 @@ postAddTwoStepAuthentication-recovery-method-codes = Jo hawwe ek reserve-autenti
 postAddTwoStepAuthentication-recovery-method-phone = Jo hawwe ek { $maskedPhoneNumber } as jo wersteltelefoannûmer tafoege.
 postAddTwoStepAuthentication-how-protects-link = Hoe dit jo account beskermet
 postAddTwoStepAuthentication-how-protects-plaintext = Hoe dit jo account beskermet:
-postAddTwoStepAuthentication-device-sign-out-message = Om al jo ferbûne apparaten te beskermjen, moatte jo oeral wêr’t jo dizze account brûke ôfmelde, en dêrnei wer oanmelde mei autentikaasje yn twa stappen.
 postChangeAccountRecovery-subject = Accountwerstelkaai wizige
 postChangeAccountRecovery-title = Jo hawwe jo accountwerstelkaai wizigje
 postChangeAccountRecovery-body-part1 = Jo hawwe no in nije accountwerstelkaai. Jo foarige kaai is fuortsmiten.
@@ -519,7 +518,6 @@ postChangeTwoStepAuthentication-from-device = Jo hawwe dit opfrege fan:
 postChangeTwoStepAuthentication-action = Account beheare
 postChangeTwoStepAuthentication-how-protects-link = Hoe dit jo account beskermet
 postChangeTwoStepAuthentication-how-protects-plaintext = Hoe dit jo account beskermet:
-postChangeTwoStepAuthentication-device-sign-out-message = Om al jo ferbûne apparaten te beskermjen, moatte jo oeral wêr’t jo dizze account brûke ôfmelde, en dêrnei wer oanmelde mei jo nije autentikaasje yn twa stappen.
 postConsumeRecoveryCode-title-3 = Jo reserve-autentikaasjekoade is brûkt om in wachtwurdwerinisjalisaasje te befêstigjen
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

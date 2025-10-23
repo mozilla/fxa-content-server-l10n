@@ -678,7 +678,6 @@ flow-setup-2fa-backup-code-dl-button-continue = Trochgean
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Autentikaasje yn twa stappen ynskeakele
-flow-setup-2fa-inline-complete-success-banner-description = Om al jo ferbûne apparaten te beskermjen, moatte jo oeral wêr’t jo dizze account brûke ôfmelde, en dêrnei wer oanmelde mei jo nije autentikaasje yn twa stappen.
 flow-setup-2fa-inline-complete-backup-code = Reserve-autentikaasjekoaden
 flow-setup-2fa-inline-complete-backup-phone = Wersteltelefoannûmer
 # $count (Number) - an integer representing the number of backup
@@ -810,7 +809,6 @@ nav-email-comm = E-mailkommunikaasje
 
 page-2fa-change-title = Autentikaasje yn twa stappen wizigje
 page-2fa-change-success = Twa-stapautentikaasje is bywurke
-page-2fa-change-success-additional-message = Om al jo ferbûne apparaten te beskermjen, moatte jo oeral wêr’t jo dizze account brûke ôfmelde, en dêrnei wer oanmelde mei jo nije autentikaasje yn twa stappen.
 page-2fa-change-totpinfo-error = Der is in flater bard by it ferfangen fan jo twa-stapsautentikaasje-app. Probearje it letter opnij.
 page-2fa-change-qr-instruction = <strong>Stap 1:</strong> scan dizze QR-koade mei in autentikaasje-app, lykas Duo of Google Authenticator. Dit makket in nije ferbining, âlde ferbiningen sille net mear wurkje.
 
@@ -842,7 +840,6 @@ page-2fa-setup-totpinfo-error = Der is in flater bard by it ynstellen fan twasta
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Dy koade is net korrekt. Probearje it opnij.
 page-2fa-setup-success = Autentikaasje yn twa stappen is ynskeakele
-page-2fa-setup-success-additional-message = Om al jo ferbûne apparaten te beskermjen, moatte jo oeral wêr’t jo dizze account brûke ôfmelde, en dêrnei wer oanmelde mei autentikaasje yn twa stappen.
 
 ## Avatar change page
 

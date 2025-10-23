@@ -1470,6 +1470,14 @@ recovery-phone-number-ending-digits = Number ending in { $lastFourPhoneNumber }
 
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+cannot-create-account-header = Cannot create account
+cannot-create-account-requirements-2 = You must meet certain age requirements to create a { -product-mozilla-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Learn more
+
 ## Connect Another Device page
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = You’re signed into { -brand-firefox }
