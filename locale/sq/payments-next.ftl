@@ -28,6 +28,8 @@ upgrade-page-acknowledgment =
 
 checkout-error-boundary-retry-button = Riprovoni
 checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
+amex-logo-alt-text = Stemë { -brand-amex }-i
+diners-logo-alt-text = Stemë { -brand-diner }-i
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
