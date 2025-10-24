@@ -487,6 +487,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Bạn cũng đã thêm mã 
 postAddTwoStepAuthentication-recovery-method-phone = Bạn cũng đã thêm { $maskedPhoneNumber } làm số điện thoại khôi phục của mình.
 postAddTwoStepAuthentication-how-protects-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
 postAddTwoStepAuthentication-how-protects-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:
+postAddTwoStepAuthentication-device-sign-out-message = Để bảo vệ tất cả các thiết bị được kết nối, bạn nên đăng xuất ở mọi nơi bạn sử dụng tài khoản này, sau đó đăng nhập lại bằng xác thực hai bước.
 postChangeAccountRecovery-subject = Khóa khôi phục tài khoản đã thay đổi
 postChangeAccountRecovery-title = Bạn đã thay đổi khóa khôi phục tài khoản của mình
 postChangeAccountRecovery-body-part1 = Bây giờ bạn đã có khóa khôi phục tài khoản mới. Khóa trước của bạn đã bị xóa.
@@ -512,6 +513,7 @@ postChangeTwoStepAuthentication-from-device = Bạn đã yêu cầu điều này
 postChangeTwoStepAuthentication-action = Quản lý tài khoản
 postChangeTwoStepAuthentication-how-protects-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
 postChangeTwoStepAuthentication-how-protects-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:
+postChangeTwoStepAuthentication-device-sign-out-message = Để bảo vệ tất cả các thiết bị được kết nối của bạn, bạn nên đăng xuất ở mọi nơi bạn sử dụng tài khoản này, sau đó đăng nhập lại bằng xác thực hai bước mới.
 postConsumeRecoveryCode-title-3 = Mã xác thực dự phòng của bạn đã được sử dụng để xác nhận đặt lại mật khẩu
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

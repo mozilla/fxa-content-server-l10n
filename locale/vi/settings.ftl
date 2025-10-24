@@ -662,6 +662,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Tiếp tục
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Đã bật xác thực hai bước
+flow-setup-2fa-inline-complete-success-banner-description = Để bảo vệ tất cả các thiết bị được kết nối, bạn nên đăng xuất ở mọi nơi bạn sử dụng tài khoản này, sau đó đăng nhập lại bằng xác thực hai bước mới.
 flow-setup-2fa-inline-complete-backup-code = Mã xác thực dự phòng
 flow-setup-2fa-inline-complete-backup-phone = Số điện thoại khôi phục
 # $count (Number) - an integer representing the number of backup
@@ -785,6 +786,7 @@ nav-email-comm = Truyền thông email
 
 page-2fa-change-title = Thay đổi xác thực hai bước
 page-2fa-change-success = Xác thực hai bước đã được cập nhật
+page-2fa-change-success-additional-message = Để bảo vệ tất cả các thiết bị được kết nối, bạn nên đăng xuất ở mọi nơi bạn sử dụng tài khoản này, sau đó đăng nhập lại bằng xác thực hai bước mới.
 page-2fa-change-totpinfo-error = Đã xảy ra lỗi khi thay thế ứng dụng xác thực hai bước của bạn. Vui lòng thử lại sau.
 page-2fa-change-qr-instruction = <strong>Bước 1:</strong> Quét mã QR này bằng bất kỳ ứng dụng xác thực nào, chẳng hạn như Duo hoặc Google Authenticator. Thao tác này sẽ tạo một kết nối mới, mọi kết nối cũ sẽ không còn hoạt động.
 
@@ -816,6 +818,7 @@ page-2fa-setup-totpinfo-error = Đã xảy ra lỗi khi thiết lập xác thự
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Mã đó không đúng. Hãy thử lại.
 page-2fa-setup-success = Xác thực hai bước đã được bật
+page-2fa-setup-success-additional-message = Để bảo vệ tất cả các thiết bị được kết nối, bạn nên đăng xuất ở mọi nơi bạn sử dụng tài khoản này, sau đó đăng nhập lại bằng xác thực hai bước.
 
 ## Avatar change page
 
