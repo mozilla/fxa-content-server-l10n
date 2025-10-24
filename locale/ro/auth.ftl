@@ -869,6 +869,10 @@ verifyPrimary-subject = Confirmă adresa primară de e-mail
 verifyPrimary-action-2 = Confirmă adresa de e-mail
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Odată confirmată, vor fi posibile modificări ale contului de pe acest dispozitiv, precum adăugarea unei adrese de e-mail secundare.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Folosește { $code } pentru confirmarea adresei secundare de e-mail
+verifySecondaryCode-preview = Codul expiră în 5 minute.
 verifySecondaryCode-title-2 = Confirmă adresa de e-mail secundară
 verifySecondaryCode-action-2 = Confirmă adresa de e-mail
 # Variables:
@@ -876,6 +880,10 @@ verifySecondaryCode-action-2 = Confirmă adresa de e-mail
 verifySecondaryCode-explainer-2 = A fost trimisă o cerere pentru a folosi { $email } ca adresă de e-mail secundară de pe următorul cont { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Folosește acest cod de confirmare:
 verifySecondaryCode-expiry-notice-2 = Expiră în 5 minute. Odată confirmată, această adresă va începe să primească notificări de securitate și confirmări.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Folosește { $code } pentru confirmarea contului
+verifyShortCode-preview-2 = Codul expiră în 5 minute.
 verifyShortCode-title-3 = Intră pe internet cu { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirmă-ți contul și obține maximul de la { -brand-mozilla } oriunde te autentifici, începând cu:

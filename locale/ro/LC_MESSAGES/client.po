@@ -1428,11 +1428,11 @@ msgstr "Introdu codul de autentificare de rezervă"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Te rugăm să introduci un cod de autentificare de rezervă pe care l-ai primit la configurarea autentificării în doi pași."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Introdu codul de autentificare de rezervă format din 10 cifre"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1448,11 +1448,11 @@ msgstr "Echipa noastră a fost notificată. Raporturi precum acestea ne ajută s
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Introdu codul de confirmare <span class=\"card-subheader\">pentru contul tău Mozilla</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Introdu codul primit pe %(email)s în termen de 5 minute."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1480,7 +1480,7 @@ msgstr "Introdu codul de autorizare"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Setează-ți parola"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1496,7 +1496,7 @@ msgstr "Ai nevoie de această parolă ca să accesezi orice date criptate pe car
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Obține mai multe de la Mozilla:"
 
 #: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
@@ -1508,7 +1508,7 @@ msgstr "Creează cont"
 
 #: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Sigla Mozilla m"
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
@@ -1604,11 +1604,11 @@ msgstr "Conectare realizată cu succes"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Te rugăm să închizi pagina și să continui pe celălalt dispozitiv."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Autentificare nouă în Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
