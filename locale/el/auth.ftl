@@ -495,6 +495,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Προσθέσατε επί
 postAddTwoStepAuthentication-recovery-method-phone = Προσθέσατε επίσης το { $maskedPhoneNumber } ως τον αριθμό τηλεφώνου ανάκτησής σας.
 postAddTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
 postAddTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
+postAddTwoStepAuthentication-device-sign-out-message = Για την προστασία όλων των συνδεδεμένων συσκευών σας, θα πρέπει να αποσυνδεθείτε από οπουδήποτε χρησιμοποιείτε αυτόν τον λογαριασμό και έπειτα, να συνδεθείτε ξανά με τη χρήση της ταυτοποίησης δύο παραγόντων.
 postChangeAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού άλλαξε
 postChangeAccountRecovery-title = Αλλάξατε το κλειδί ανάκτησης του λογαριασμού σας
 postChangeAccountRecovery-body-part1 = Διαθέτετε πλέον ένα νέο κλειδί ανάκτησης λογαριασμού. Το προηγούμενο κλειδί σας έχει διαγραφεί.
@@ -520,6 +521,7 @@ postChangeTwoStepAuthentication-from-device = Ζητήσατε αυτήν την
 postChangeTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postChangeTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
 postChangeTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
+postChangeTwoStepAuthentication-device-sign-out-message = Για την προστασία όλων των συνδεδεμένων συσκευών σας, θα πρέπει να αποσυνδεθείτε από οπουδήποτε χρησιμοποιείτε αυτόν τον λογαριασμό και έπειτα, να συνδεθείτε ξανά με τη χρήση της νέας σας ταυτοποίησης δύο παραγόντων.
 postConsumeRecoveryCode-title-3 = Ο εφεδρικός κωδικός ταυτοποίησής σας χρησιμοποιήθηκε για την επιβεβαίωση μιας επαναφοράς του κωδικού πρόσβασης
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

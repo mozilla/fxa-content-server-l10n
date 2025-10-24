@@ -676,6 +676,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Συνέχεια
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
+flow-setup-2fa-inline-complete-success-banner-description = Για την προστασία όλων των συνδεδεμένων συσκευών σας, θα πρέπει να αποσυνδεθείτε από οπουδήποτε χρησιμοποιείτε αυτόν τον λογαριασμό και έπειτα, να συνδεθείτε ξανά με τη χρήση της νέας σας ταυτοποίησης δύο παραγόντων.
 flow-setup-2fa-inline-complete-backup-code = Εφεδρικοί κωδικοί ταυτοποίησης
 flow-setup-2fa-inline-complete-backup-phone = Τηλέφωνο ανάκτησης
 # $count (Number) - an integer representing the number of backup
@@ -807,6 +808,7 @@ nav-email-comm = Επικοινωνία μέσω email
 
 page-2fa-change-title = Τροποποίηση ελέγχου ταυτότητας δύο παραγόντων
 page-2fa-change-success = Η ταυτοποίηση δύο παραγόντων έχει ενημερωθεί
+page-2fa-change-success-additional-message = Για την προστασία όλων των συνδεδεμένων συσκευών σας, θα πρέπει να αποσυνδεθείτε από οπουδήποτε χρησιμοποιείτε αυτόν τον λογαριασμό και έπειτα, να συνδεθείτε ξανά με τη χρήση της νέας σας ταυτοποίησης δύο παραγόντων.
 page-2fa-change-totpinfo-error = Προέκυψε σφάλμα κατά την αντικατάσταση της εφαρμογής ταυτοποίησης δύο παραγόντων. Δοκιμάστε ξανά αργότερα.
 page-2fa-change-qr-instruction = <strong>Βήμα 1:</strong> Σαρώστε τον κωδικό QR με οποιαδήποτε εφαρμογή ελέγχου ταυτότητας, όπως το Duo ή το Google Authenticator. Αυτό δημιουργεί μια νέα σύνδεση και οι παλιές συνδέσεις δεν θα λειτουργούν πλέον.
 
@@ -838,6 +840,7 @@ page-2fa-setup-totpinfo-error = Προέκυψε σφάλμα κατά τη ρύ
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Αυτός ο κωδικός δεν είναι σωστός. Δοκιμάστε ξανά.
 page-2fa-setup-success = Η ταυτοποίηση δύο παραγόντων έχει ενεργοποιηθεί
+page-2fa-setup-success-additional-message = Για την προστασία όλων των συνδεδεμένων συσκευών σας, θα πρέπει να αποσυνδεθείτε από οπουδήποτε χρησιμοποιείτε αυτόν τον λογαριασμό και έπειτα, να συνδεθείτε ξανά με τη χρήση της ταυτοποίησης δύο παραγόντων.
 
 ## Avatar change page
 
