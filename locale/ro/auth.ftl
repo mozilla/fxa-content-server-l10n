@@ -189,11 +189,79 @@ payment-plan-charged = Debitat: { $invoiceTotal } la data de { $invoiceDateOnly 
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Următoarea factură: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Metodă de plată:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Metodă de plată: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Metodă de plată: { $cardName } care se termină în { $lastFour }
+payment-provider-card-ending-in-plaintext = Metodă de plată: Card care se termină în { $lastFour }
+payment-provider-card-ending-in = <b>Metodă de plată:</b> Card care se termină în { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Metodă de plată:</b> { $cardName } care se termină în { $lastFour }
+subscription-charges-invoice-summary = Rezumatul facturii
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Număr factură:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Număr factură: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Data:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Data: { $invoiceDateOnly }
+subscription-charges-prorated-price = Preț proporțional
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Preț proporțional: { $remainingAmountTotal }
+subscription-charges-list-price = Preț de listă
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Preț de listă: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Credit din timpul neutilizat
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Credit din timpul neutilizat: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Reducere unică
+subscription-charges-one-time-discount-plaintext = Reducere unică: -{ $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] Reducere de { $discountDuration } lună
+        [few] Reducere de { $discountDuration } luni
+       *[other] Reducere de { $discountDuration } de luni
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Reducere de { $discountDuration } lună: { $invoiceDiscountAmount }
+        [few] Reducere de { $discountDuration } luni: { $invoiceDiscountAmount }
+       *[other] Reducere de { $discountDuration } de luni: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Reducere
+subscription-charges-discount-plaintext = Reducere: { $invoiceDiscountAmount }
+subscription-charges-taxes = Taxe și comisioane
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Taxe și comisioane: { $invoiceTaxAmount }
+subscription-charges-total = <b>Total</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Total: { $invoiceTotal }
+subscription-charges-credit-applied = Credit aplicat
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Credit aplicat: { $creditApplied }
+subscription-charges-amount-paid = <b>Sumă achitată</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Sumă achitată: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Ai primit un credit în cont de { $creditReceived }, care va fi aplicat facturilor viitoare.
 
 ##
 
@@ -205,6 +273,12 @@ subscriptionSupport-plaintext = Întrebări despre abonament? Echipa noastră de
 subscriptionSupportContact = Îți mulțumim că te-ai abonat la { $productName }. Dacă ai întrebări despre abonament sau vrei mai multe informații despre { $productName }, <a data-l10n-name="subscriptionSupportUrl">contactează-ne</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Îți mulțumim că te-ai abonat la { $productName }. Dacă ai întrebări despre abonament sau vrei mai multe informații despre { $productName }, contactează-ne.
+subscription-support-get-help = Obține ajutor pentru abonament
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Gestionează-ți abonamentul</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Gestionează-ți abonamentul:
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Contactează serviciul de asistență:
 subscriptionUpdateBillingEnsure = Te poți asigura că metoda de plată și informațiile contului sunt la zi <a data-l10n-name="updateBillingUrl">aici</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Te poți asigura că metoda de plată și informațiile contului sunt la zi aici:
@@ -245,6 +319,7 @@ location-state-country = { $stateCode }, { $country } (estimate)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (estimată)
+view-invoice-link-action = Vezi factura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -347,6 +422,10 @@ passwordChangeRequired-different-password-2 = <b>Important:</b> Alege o parolă 
 passwordChangeRequired-different-password-plaintext-2 = Important: Alege o parolă puternică, diferită de cea folosită anterior.
 passwordChangeRequired-action = Resetează parola
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Folosește { $code } pentru a-ți schimba parola
+password-forgot-otp-preview = Codul expiră în 10 minute.
 password-forgot-otp-title = Ți-ai uitat parola?
 password-forgot-otp-request = Am primit o solicitare de schimbare a parolei pentru contul { -product-mozilla-account } de la:
 password-forgot-otp-code-2 = Dacă ai fost tu, iată codul de confirmare ca să continui:
@@ -413,6 +492,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Ai adăugat și coduri de a
 postAddTwoStepAuthentication-recovery-method-phone = Ai adăugat și { $maskedPhoneNumber } ca număr de telefon pentru recuperare.
 postAddTwoStepAuthentication-how-protects-link = Cum îți protejează contul
 postAddTwoStepAuthentication-how-protects-plaintext = Cum îți protejează contul
+postAddTwoStepAuthentication-device-sign-out-message = Pentru a-ți proteja toate dispozitivele conectate, trebuie să te deconectezi de peste tot unde folosești acest cont și apoi să te conectezi din nou utilizând autentificarea în doi pași.
 postChangeAccountRecovery-subject = Cheie de recuperare a contului modificată
 postChangeAccountRecovery-title = Ți-ai modificat cheia de recuperare a contului
 postChangeAccountRecovery-body-part1 = Acum ai o cheie nouă de recuperare a contului. Cea anterioară a fost ștearsă.
@@ -432,11 +512,13 @@ postChangeRecoveryPhone-requested-device = Ai făcut cererea de pe:
 postChangeTwoStepAuthentication-preview = Contul tău este protejat
 postChangeTwoStepAuthentication-subject = Autentificare în doi pași actualizată
 postChangeTwoStepAuthentication-title = Autentificarea în doi pași a fost actualizată
+postChangeTwoStepAuthentication-use-new-account = Acum trebuie să utilizezi noua intrare { -product-mozilla-account } în aplicația de autentificare. Cea veche nu va mai funcționa și o poți elimina.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Ai făcut cererea de pe:
 postChangeTwoStepAuthentication-action = Gestionează contul
 postChangeTwoStepAuthentication-how-protects-link = Cum îți protejează contul
 postChangeTwoStepAuthentication-how-protects-plaintext = Cum îți protejează contul:
+postChangeTwoStepAuthentication-device-sign-out-message = Pentru a-ți proteja toate dispozitivele conectate, trebuie să te deconectezi de peste tot unde folosești acest cont și apoi să te conectezi din nou utilizând noua autentificare în doi pași.
 postConsumeRecoveryCode-title-3 = Codul de autentificare de rezervă a fost folosit pentru a confirma resetarea parolei.
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -586,6 +668,9 @@ subscriptionFirstInvoice-content-processing = Plata efectuată este în procesar
 subscriptionFirstInvoice-content-install-2 = Vei primi un mesaj nou pe e-mail despre cum să începi să utilizezi { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Următoarea factură va fi emisă pe data de { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Metodă de plată pentru { $productName } expirată sau care expiră în curând
 subscriptionPaymentExpired-title-2 = Metoda ta de plată a expirat sau va expira în curând
@@ -656,6 +741,9 @@ subscriptionSubsequentInvoice-title = Îți mulțumim că te-ai abonat!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Am primit ultima plată pentru { $productName }.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Următoarea factură va fi emisă pe data de { $nextInvoiceDateOnly }.
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ai trecut la o versiune superioară de { $productName }
 subscriptionUpgrade-title = Îți mulțumim că ai trecut la noua versiune!
@@ -703,6 +791,10 @@ subscriptionUpgrade-content-new-price-year-tax = De acum înainte, ți se va fac
 subscriptionUpgrade-content-new-price-default-tax = De acum înainte, ți se va factura { $paymentAmountNew } + { $paymentTaxNew } taxe pe perioadă de facturare, excluzând reducerile.
 subscriptionUpgrade-existing = Dacă oricare dintre abonamentele tale existente se suprapune cu această trecere la o versiune superioară, le vom gestiona și îți vom trimite un mesaj separat pe e-mail cu detaliile. Dacă noul tău plan include produse care necesită instalare, îți vom trimite un mesaj separat pe e-mail cu instrucțiuni de configurare.
 subscriptionUpgrade-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Folosește { $unblockCode } pentru autentificare
+unblockCode-preview = Codul expiră într-o oră
 unblockCode-title = Tu ești încerci să te autentifici?
 unblockCode-prompt = Dacă da, iată codul de autorizare de care ai nevoie:
 # Variables:
@@ -760,6 +852,10 @@ verifyLogin-title-2 = Te-ai autentificat în { $clientName }?
 verifyLogin-description-2 = Ajută-ne să îți protejăm contul confirmând autentificarea în:
 verifyLogin-subject-2 = Confirmă autentificarea
 verifyLogin-action = Confirmă autentificarea
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Folosește { $code } pentru autentificare
+verifyLoginCode-preview = Codul expiră în 5 minute.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Te-ai autentificat în { $serviceName }?

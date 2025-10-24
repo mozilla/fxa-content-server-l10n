@@ -68,7 +68,7 @@ payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } să îm
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Încearcă din nou
-payment-error-manage-subscription-button = Gestionează abonamentul meu
+payment-error-manage-subscription-button = Gestionează-mi abonamentul
 
 ## Component - PaymentForm
 
