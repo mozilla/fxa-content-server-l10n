@@ -1252,7 +1252,7 @@ auth-error-1020 = האם כתובת הדוא״ל הוקלדה בצורה שגו�
 auth-error-1031 = עליך להכניס את גילך כדי להשלים את ההרשמה
 auth-error-1032 = עליך להקליד גיל תקני כדי להירשם
 auth-error-1054 = קוד אימות דו־שלבי לא תקין
-auth-error-1062 = הפנייה לא חוקית
+auth-error-1062 = הפניה לא חוקית
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
 auth-error-1064 = האם כתובת הדוא״ל הוקלדה בצורה שגויה? { $domain } אינו שירות דוא״ל חוקי
 auth-error-1066 = לא ניתן להשתמש במסיכות דוא״ל ליצירת חשבון.

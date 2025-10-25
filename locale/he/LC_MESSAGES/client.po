@@ -683,7 +683,7 @@ msgstr "נא להקליד את קוד האימות"
 
 #: .es5/lib/auth-errors.js:593
 msgid "Invalid redirect"
-msgstr "הפנייה לא חוקית"
+msgstr "הפניה לא חוקית"
 
 #: .es5/lib/auth-errors.js:604
 msgid "Mistyped email? %(domain)s does not offer email."
