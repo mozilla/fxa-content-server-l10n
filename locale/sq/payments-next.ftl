@@ -352,12 +352,36 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (E përvitshme)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+metadata-description-checkout-start = Që të plotësoni blerjen tuaj, jepni hollësitë tuaja për pagesën.
+# Checkout processing
+metadata-title-checkout-processing = Po përpunohet | { $productTitle }
+metadata-description-checkout-processing = Ju lutemi, pritni, teksa përfundojmë përpunimin e pagesës tuaj.
+# Checkout error
+metadata-title-checkout-error = Gabim | { $productTitle }
+metadata-description-checkout-error = Pati një gabim gjatë përpunimit të pajtimit tuaj. Nëse ky problem vazhdon, ju lutemi, lidhuni me asistencën.
+# Checkout success
+metadata-title-checkout-success = Sukses | { $productTitle }
+metadata-description-checkout-success = Përgëzime! E plotësuat me sukses blerjen tuaj.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Lypset veprim | { $productTitle }
+metadata-description-checkout-needs-input = Ju lutemi, që të ecet më tej me pagesën tuaj, plotësoni veprimin e domosdoshëm.
+# Upgrade start
+metadata-title-upgrade-start = Përmirësim | { $productTitle }
+metadata-description-upgrade-start = Që të plotësohet përmirësimi për ju, jepni hollësitë tuaja për pagesën.
+# Upgrade processing
+metadata-title-upgrade-processing = Po përpunohet | { $productTitle }
+metadata-description-upgrade-processing = Ju lutemi, pritni, teksa përfundojmë përpunimin e pagesës tuaj.
 # Upgrade error
 metadata-title-upgrade-error = Gabim | { $productTitle }
+metadata-description-upgrade-error = Pati një gabim gjatë përpunimit të përmirësimit për ju. Nëse ky problem vazhdon, ju lutemi, lidhuni me asistencën.
 # Upgrade success
 metadata-title-upgrade-success = Sukses | { $productTitle }
+metadata-description-upgrade-success = Përgëzime! E plotësuat me sukses përmirësimin tuaj.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Lypset veprim | { $productTitle }
+metadata-description-upgrade-needs-input = Ju lutemi, që të ecet më tej me pagesën tuaj, plotësoni veprimin e domosdoshëm.
+# Default
+metadata-title-default = Faqe që s’gjendet | { $productTitle }
 metadata-description-default = Faqja që kërkuat s’u gjet.
 
 ## Coupon Error Messages

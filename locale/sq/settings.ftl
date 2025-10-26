@@ -615,6 +615,19 @@ flow-setup-2fa-backup-code-confirm-button-finish = Përfundoje
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Ruani kode mirëfilltësimi kopjeruajtjeje
+flow-setup-2fa-backup-code-dl-button-continue = Vazhdo
+
+##
+
+flow-setup-2fa-inline-complete-success-banner = Mirëfilltësimi dyhapësh u aktivizua
+flow-setup-2fa-inline-complete-backup-code = Kode mirëfilltësimi kopjeruajtjeje
+flow-setup-2fa-inline-complete-backup-phone = Telefon rimarrjeje
+flow-setup-2fa-inline-complete-learn-more-link = Si e mbron kjo llogarinë tuaj
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Vazhdoni te { $serviceName }
+flow-setup-2fa-prompt-heading = Ujdisni mirëfilltësim dyhapësh
+flow-setup-2fa-prompt-continue-button = Vazhdo
 
 ## FlowSetupPhoneConfirmCode
 
@@ -677,6 +690,8 @@ modal-default-confirm-button = Ripohojeni
 
 ## ModalMfaProtected
 
+modal-mfa-protected-title = Jepni kodin e ripohimit
+modal-mfa-protected-input-label = Jepni kodin 6-shifror
 modal-mfa-protected-cancel-button = Anuloje
 modal-mfa-protected-confirm-button = Ripohojeni
 modal-mfa-protected-code-expired = Skadoi kodi?
@@ -1570,6 +1585,16 @@ reset-password-recovery-phone-heading = Jepni kod rikthimi
 reset-password-recovery-phone-instruction-v3 = Te numri i telefonit që mbaron me <span>{ $lastFourPhoneDigits }</span> u dërgua përmes një mesazhi tekst një kod 6-shifror. Ky kod skadon pas 5 minutash. Mos ia tregoni kujt këtë kod.
 reset-password-recovery-phone-input-label = Jepni kodin 6-shifror
 reset-password-recovery-phone-code-submit-button = Ripohojeni
+reset-password-recovery-phone-resend-code-button = Ridërgo kodin
+reset-password-recovery-phone-resend-success = Kodi u dërgua
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Jeni kyçur jashtë?
+reset-password-recovery-phone-send-code-error-heading = Pati një problem me dërgimin e një kodi
+reset-password-recovery-phone-code-verification-error-heading = Pati një problem me verifikimin e kodit tuaj
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Ju lutemi, riprovoni më vonë.
+reset-password-recovery-phone-invalid-code-error-description = Kodi është i pavlefshëm, ose ka skaduar.
+reset-password-recovery-phone-invalid-code-error-link = Në vend të kësaj, të përdoren kode mirëfilltësimi kopjeruajtjeje?
 reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
 reset-password-complete-new-password-saved = Fjalëkalimi i ri u ruajt!
 reset-password-complete-recovery-key-created = U krijua kyç i ri rimarrjeje llogarie. Tani shkarkojeni dhe depozitojeni.
@@ -1610,6 +1635,8 @@ signin-password-button-label = Fjalëkalim
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
+signin-code-expired-error = Kodi ka skaduar. Ju lutemi, ribëni hyrjen.
+signin-account-locked-banner-heading = Ricaktoni fjalëkalimin tuaj
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1812,6 +1839,7 @@ confirm-signup-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Krijoni fjalëkalim
 signup-relay-info = A password is needed Që të administroni në mënyrë të siguruar email-et tuaj të maskuar dhe të përdorni mjete sigurie { -brand-mozilla }, lypset një fjalëkalim.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pse më duhet të krijoj një llogari?
@@ -1820,3 +1848,10 @@ signup-pocket-info-banner = Pse më duhet të krijoj një llogari?
 signup-pocket-info-banner-link = Shiheni këtu
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Ndryshoni email
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
+signup-confirmed-sync-button = Nisni shfletimin
+signup-confirmed-sync-add-device-link = Shtoni pajisje tjetër
+signup-confirmed-sync-manage-sync-button = Administroni njëkohësim
