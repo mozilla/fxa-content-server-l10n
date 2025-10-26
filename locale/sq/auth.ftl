@@ -160,10 +160,19 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Nëse s’e autorizuat këtë veprim, ju lutemi, ricaktoni fjalëkalimin tuaj tani, te { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Nëse s’e ndërmorët ju këtë veprim, atëherë <a data-l10n-name="resetLink">ricaktoni fjalëkalimin tuaj</a> dhe <a data-l10n-name="twoFactorSettingsLink">riujdisni mirëfilltësim dyhapësh</a> menjëherë.
+    Për më tepër informacion, ju lutemi, vizioni <a data-l10n-name="supportLink">Asistencën e { -brand-mozilla }-s</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Nëse këtë veprim s’e ndërmorët ju, atëherë ricaktoni fjalëkalimin tuaj mu tani, te:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Riujdisni gjithashtu mirëfilltësimin dyhapësh, te:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = Zhvillues shtesash { -brand-firefox } tani së fundi kanë qen objekt sulmesh me email-e karremëzimi. Ne do t’ju dërgojmë vetëm rreth { -product-mozilla-account } tuaj që nga <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = Zhvillues shtesash { -brand-firefox } tani së fundi kanë qen objekt sulmesh me email-e karremëzimi. Ne do t’ju dërgojmë vetëm rreth { -product-mozilla-account } tuaj që nga kjo adresë email:
+banner-warning-check = Kontrolloni për t’u siguruar se pajisja dhe vendndodhja prej nga bëtë hyrjen janë të sakta.
 brand-banner-message = E dini se ndryshuam emrin tonë nga { -product-firefox-accounts } në { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mësoni më tepër</a>
 cancellationSurvey = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë <a data-l10n-name="cancellationSurveyUrl">pyetësor të shkurtër</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -225,6 +234,15 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Nënshumë: { $invoiceSubtot
 
 subscription-charges-one-time-discount = Zbritje për një herë vetëm
 subscription-charges-one-time-discount-plaintext = Zbritje për një herë vetëm: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+       *[other] Zbritje { $discountDuration }-mujore
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Zbritje { $discountDuration }-mujore: { $invoiceDiscountAmount }
+       *[other] Zbritje { $discountDuration }-mujore: { $invoiceDiscountAmount }
+    }
 subscription-charges-discount = Zbritje
 subscription-charges-discount-plaintext = Zbritje: { $invoiceDiscountAmount }
 subscription-charges-taxes = Taksa & tarifa
@@ -233,6 +251,9 @@ subscriptionCharges-content-tax-plaintext = Taksa & tarifa: { $invoiceTaxAmount 
 subscription-charges-total = <b>Gjithsej</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Gjithsej: { $invoiceTotal }
+subscription-charges-credit-applied = Krediti u aplikua
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Kredit i aplikuar: { $creditApplied }
 subscription-charges-amount-paid = <b>Sasi e paguar</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Sasi e paguar: { $invoiceAmountDue }
@@ -389,6 +410,13 @@ passwordChanged-title = Fjalëkalimi u ndryshua me sukses
 passwordChanged-description-2 = Fjalëkalimi juaj për { -product-mozilla-account } u ndryshua me sukses që nga pajisja vijuese:
 passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
 passwordChangeRequired-preview = Ndryshoni menjëherë fjalëkalimin tuaj
+passwordChangeRequired-title-2 = Ricaktoni fjalëkalimin tuaj
+passwordChangeRequired-action = Ricaktoni fjalëkalimin
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Që të ndryshoni fjalëkalimin tuaj përdorni { $code }
+password-forgot-otp-preview = Ky kod skadon për 10 minuta
 password-forgot-otp-title = Harruat fjalëkalimin tuaj?
 password-forgot-otp-request = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:
 password-forgot-otp-code-2 = Nëse qetë ju, ja kodi juaj i ripohimit, për të vazhduar:
@@ -405,6 +433,10 @@ passwordResetAccountRecovery-information = Kemi bërë nxjerrjen tuaj nga krejt 
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Kemi bërë nxjerrjen tuaj nga krejt llogaritë në krejt pajisjet tuaja të njëkohësuara. Krijuam një kyç të ri rimarrjeje llogarie, për të zëvendësuar atë që përdorët. Mund ta ndryshoni që nga rregullimet e llogarisë tuaj:
 passwordResetAccountRecovery-action-4 = Administroni llogarinë
+passwordResetRecoveryPhone-subject = U përdor telefon rimarrjeje
+passwordResetRecoveryPhone-preview = Kontrolloni, për t’u siguruar se qetë ju
+passwordResetRecoveryPhone-title = Telefoni juaj i rimarrjeve u përdor për ripohim ricaktimi fjalëkalimi
+passwordResetRecoveryPhone-device = U përdor telefon rimarrjeje nga:
 passwordResetRecoveryPhone-action = Administroni llogarinë
 passwordResetWithRecoveryKeyPrompt-subject = Fjalëkalimi juaj u ricaktua
 passwordResetWithRecoveryKeyPrompt-title = Fjalëkalimi juaj u ricaktua
@@ -438,7 +470,11 @@ postAddRecoveryPhone-how-protect = Si e mbron kjo llogarinë tuaj
 postAddRecoveryPhone-how-protect-plaintext = Si e mbron kjo llogarinë tuaj:
 postAddRecoveryPhone-enabled-device = E aktivizuat që nga:
 postAddRecoveryPhone-action = Administroni llogarinë
+postAddTwoStepAuthentication-preview = Llogaria juaj është e mbrojtur
+postAddTwoStepAuthentication-subject-v3 = Mirëfilltësimi dyhapësh është aktiv
 postAddTwoStepAuthentication-title-2 = Aktivizuat mirëfilltësim dyhapësh
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = E kërkuat prej:
 postAddTwoStepAuthentication-action = Administroni llogarinë
 postChangeAccountRecovery-subject = U ndryshua kyç rimarrjeje llogarie
 postChangeAccountRecovery-title = Ndryshuat kyçin e rimarrjes së llogarisë tuaj
