@@ -1897,6 +1897,8 @@ confirm-signup-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-
 
 signup-heading-v2 = Krijoni fjalëkalim
 signup-relay-info = A password is needed Që të administroni në mënyrë të siguruar email-et tuaj të maskuar dhe të përdorni mjete sigurie { -brand-mozilla }, lypset një fjalëkalim.
+signup-sync-info = Njëkohësoni fjalëkalimet, faqerojtësit tuaj, etj, kudo që përdorni { -brand-firefox }-in.
+signup-sync-info-with-payment = Njëkohësoni fjalëkalimet tuaja, metoda pagesash, faqerojtës, etj, kudo që përdorni { -brand-firefox }-in.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pse më duhet të krijoj një llogari?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1911,3 +1913,4 @@ signup-change-email-link = Ndryshoni email
 signup-confirmed-sync-button = Nisni shfletimin
 signup-confirmed-sync-add-device-link = Shtoni pajisje tjetër
 signup-confirmed-sync-manage-sync-button = Administroni njëkohësim
+signup-confirmed-sync-set-password-success-banner = U krijua fjalëkalim njëkohësimesh
