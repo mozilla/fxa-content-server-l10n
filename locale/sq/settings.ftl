@@ -654,6 +654,15 @@ flow-setup-2fa-backup-code-dl-button-continue = Vazhdo
 flow-setup-2fa-inline-complete-success-banner = Mirëfilltësimi dyhapësh u aktivizua
 flow-setup-2fa-inline-complete-backup-code = Kode mirëfilltësimi kopjeruajtjeje
 flow-setup-2fa-inline-complete-backup-phone = Telefon rimarrjeje
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Edhe { $count } kod
+       *[other] Edhe { $count } kode
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Kjo është metoda më e parrezik për rimarrje, nëse s’arrini të bëni hyrjen me pajisjen tuaj celulare, apo aplikacionin e mirëfilltësimeve.
+flow-setup-2fa-inline-complete-backup-phone-description = Kjo është metoda më e kollajtë për rimarrje, nëse s’arrini të bëni hyrjen me aplikacionin tuaj të mirëfilltësimeve.
 flow-setup-2fa-inline-complete-learn-more-link = Si e mbron kjo llogarinë tuaj
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
@@ -1215,6 +1224,7 @@ auth-error-102 = Llogari e panjohur
 auth-error-103 = Fjalëkalim i pasaktë
 auth-error-105-2 = Kod i pavlefshëm ripohimi
 auth-error-110 = Token i pavlefshëm
+auth-error-110-2 = Sesion i pavlefshëm. Ju lutemi, dilni dhe rihyni në llogari.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = E provuat shumë herë. Ju lutemi, riprovoni më vonë.
@@ -1227,6 +1237,7 @@ auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter 
 auth-error-125 = Kërkesa u bllokua për arsye sigurie
 auth-error-129-2 = Dhatë një numër të pavlefshëm telefoni. Ju lutemi, kontrollojeni dhe riprovoni.
 auth-error-138-2 = Sesion i paripohuar
+auth-error-138-3 = Sesion i Paripohuar. Ju lutemi, dilni dhe rihyni në llogari.
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP
 # Error shown when the user submits an invalid backup authentication code
@@ -1492,6 +1503,14 @@ pair-wait-for-auth-heading-text = Miratim i domosdoshëm tani <span>që nga paji
 pair-unsupported-header = Çiftoji duke përdorur një aplikacion
 pair-unsupported-message = Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda aplikacionit { -brand-firefox }.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading-v2 = Që të bëhet njëkohësim, krijoni fjalëkalim
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1669,6 +1688,8 @@ signin-password-button-label = Fjalëkalim
 signin-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 signin-code-expired-error = Kodi ka skaduar. Ju lutemi, ribëni hyrjen.
 signin-account-locked-banner-heading = Ricaktoni fjalëkalimin tuaj
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Që të bëni hyrjen, ricaktoni fjalëkalimin tuaj
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1854,9 +1875,12 @@ confirm-signup-code-page-title = Jepni kodin e ripohimit
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Jepni kod ripohimi <span>për { -product-mozilla-account } tuajën</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Jepni brenda 5 minutash kodin që u dërgua te <email>{ $email }</email>.
 confirm-signup-code-input-label = Jepni kodin 6-shifror
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Ripohojeni
+confirm-signup-code-sync-button = Fillo njëkohësim
 confirm-signup-code-code-expired = Skadoi kodi?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Dërgo me email kod të ri.
