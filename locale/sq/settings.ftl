@@ -91,6 +91,25 @@ datablock-copy =
 datablock-print =
     .message = U shtyp
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] Kodi u kopjua
+       *[other] Kodet u kopjuan
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kodi u shkarkua
+       *[other] Kodet u shkarkuan
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kodi u shtyp
+       *[other] Kodet u shtypën
+    }
+
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -265,6 +284,10 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Pajisje celulare me aftësi mesazhesh tekst SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = Ekran pajisje me kode
+sync-clouds-image-aria-label =
+    .aria-label = Re me një ikonë njëkohësimi
+confetti-falling-image-aria-label =
+    .aria-label = Karamele që bien nga qielli
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key

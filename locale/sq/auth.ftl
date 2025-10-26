@@ -665,6 +665,9 @@ subscriptionFirstInvoice-content-processing = Pagesa juaj po kryhet dhe që të 
 subscriptionFirstInvoice-content-install-2 = Do të merrni një email më vete se si të nisni të përdorni { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Fatura juaj pasuese do të bëhet gati më { $nextInvoiceDateOnly }.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Metoda e pagesës për { $productName } që ka skaduar, ose skadon së shpejti
 subscriptionPaymentExpired-title-2 = Metoda juaj e pagesës ka skaduar, ose është afër skadimit
@@ -686,6 +689,7 @@ subscriptionPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me meto
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Pikasëm një problem me metodën tuaj të pagesës për { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Mundet të ketë skaduar metoda juaj e pagesës, ose metoda juaj e tanishme e pagesave të jetë e vjetruar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Pajtimi në { $productName } u riaktivizua
@@ -734,6 +738,9 @@ subscriptionSubsequentInvoice-title = Faleminderit që jeni një pajtimtar!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Morëm pagesën tuaj më të re për { $productName }.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Fatura juaj pasuese do të bëhet gati më { $nextInvoiceDateOnly }.
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = E përmirësuat me { $productName }
 subscriptionUpgrade-title = Faleminderit për përmirësimin!
@@ -752,6 +759,33 @@ subscriptionUpgrade-upgrade-info-2 = E keni përmirësuar me sukses me { $produc
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Ju është faturuar një tarifë prej { $invoiceAmountDue } për vetëm një herë, për të pasqyruar çmim më të lartë të pajtimit tuaj për pjesën e mbetur të kësaj periudhe faturimi { $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Keni marrë një sasi krediti llogarie prej { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Duke filluar nga faturimi juaj i ardhshëm, çmimi i pajtimit tuaj do të ndryshojë.
+subscriptionUpgrade-content-old-price-day = Tarifa e mëparshme qe { $paymentAmountOld } në ditë.
+subscriptionUpgrade-content-old-price-week = Tarifa e mëparshme qe { $paymentAmountOld } në javë.
+subscriptionUpgrade-content-old-price-month = Tarifa e mëparshme qe { $paymentAmountOld } në muaj.
+subscriptionUpgrade-content-old-price-halfyear = Tarifa e mëparshme qe { $paymentAmountOld } në gjashtë muaj.
+subscriptionUpgrade-content-old-price-year = Tarifa e mëparshme qe { $paymentAmountOld } në vit.
+subscriptionUpgrade-content-old-price-default = Tarifa e mëparshme qe { $paymentAmountOld } për periudhë faturimi.
+subscriptionUpgrade-content-old-price-day-tax = Tarifa e mëparshme qe { $paymentAmountOld } + { $paymentTaxOld } taksë në ditë.
+subscriptionUpgrade-content-old-price-week-tax = Tarifa e mëparshme qe { $paymentAmountOld } + { $paymentTaxOld } taksë në javë.
+subscriptionUpgrade-content-old-price-month-tax = Tarifa e mëparshme qe { $paymentAmountOld } + { $paymentTaxOld } taksë në muaj.
+subscriptionUpgrade-content-old-price-halfyear-tax = Tarifa e mëparshme qe { $paymentAmountOld } + { $paymentTaxOld } taksë për gjashtë muaj.
+subscriptionUpgrade-content-old-price-year-tax = Tarifa e mëparshme qe { $paymentAmountOld } + { $paymentTaxOld } taksë në vit.
+subscriptionUpgrade-content-old-price-default-tax = Tarifa e mëparshme qe { $paymentAmountOld } + { $paymentTaxOld } taksë për periudhë faturimi.
+subscriptionUpgrade-content-new-price-day = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } në ditë, hiq zbritje.
+subscriptionUpgrade-content-new-price-week = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } në javë, hiq zbritje.
+subscriptionUpgrade-content-new-price-month = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } në muaj, hiq zbritje.
+subscriptionUpgrade-content-new-price-halfyear = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } për gjashtë muaj, hiq zbritje.
+subscriptionUpgrade-content-new-price-year = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } në vit, hiq zbritje.
+subscriptionUpgrade-content-new-price-default = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } për periudhë faturimi, hiq zbritje.
+subscriptionUpgrade-content-new-price-day-dtax = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } + { $paymentTaxNew } taksë në ditë, hiq zbritje.
+subscriptionUpgrade-content-new-price-week-tax = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } + { $paymentTaxNew } taksë në javë, hiq zbritje.
+subscriptionUpgrade-content-new-price-month-tax = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } + { $paymentTaxNew } taksë në muaj, hiq zbritje.
+subscriptionUpgrade-content-new-price-halfyear-tax = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } + { $paymentTaxNew } taksë në gjashtë muaj, hiq zbritje.
+subscriptionUpgrade-content-new-price-year-tax = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } + { $paymentTaxNew } taksë në vit, hiq zbritje.
+subscriptionUpgrade-content-new-price-default-tax = Këtej e tutje, do të t’ju faturohet { $paymentAmountNew } + { $paymentTaxNew } taksë për periudhë faturimi, hiq zbritje.
 subscriptionUpgrade-existing = Nëse ndonjë nga pajtimet tuaja ekzistues mbivendoset me këtë përmirësim, do ta zgjidhim dhe do t’ju dërgojmë një email më vete me hollësitë. Nëse plani juaj i ri përfshin produkte që lypin instalim, do t’ju dërgojmë një email më vete me udhëzime ujdisjeje.
 subscriptionUpgrade-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
 # Variables:
