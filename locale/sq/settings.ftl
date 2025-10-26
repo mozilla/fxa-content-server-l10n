@@ -376,6 +376,8 @@ password-info-balloon-reset-risk-info = Ricaktimi do të thotë humbje potencial
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Zgjidhni një fjalëkalim të fuqishëm që s’e keni përdorur në sajte të tjerë. Sigurohuni se plotëson domosdoshmëritë për sigurinë.
+password-strength-short-instruction = Zgjidhni një fjalëkalim të fuqishëm:
 password-strength-inline-min-length = Të paktën 8 shenja
 password-strength-inline-not-email = Jo adresën tuaj email
 password-strength-inline-not-common = Jo një fjalëkalim të përdorur rëndom
@@ -388,6 +390,7 @@ account-recovery-notification-cta = Krijoje
 account-recovery-notification-header-value = Mos humbni të dhënat tuaja, nëse harroni fjalëkalimin
 account-recovery-notification-header-description = Krijoni një kyç rimarrjeje llogarie, që të riktheni të dhëna shfletimi të njëkohësuara, nëse harroni ndonjëherë fjalëkalimin tuaj.
 recovery-phone-promo-cta = Shtoni telefon rimarrjeje
+recovery-phone-promo-heading = Shtojini llogarisë tuaj edhe më tepër mbrojtje përmes një telefoni rimarrjeje
 promo-banner-dismiss-button =
     .aria-label = Hidh tej banderolën
 
@@ -612,10 +615,16 @@ flow-recovery-key-info-cancel-link = Anuloje
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-cant-scan-qr-button = S’e skanoni dot kodin QR?
 flow-setup-2fa-manual-key-heading = Jepeni kodin dorazi
+flow-setup-2fa-manual-key-instruction = <strong>Hapi 1:</strong> Jepeni këtë kod te aplikacioni juaj i parapëlqyer i mirëfilltësimeve.
 flow-setup-2fa-scan-qr-instead-button = Të skanohet kodi QR, në vend të kësaj?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Mësoni më tepër mbi aplikacione mirëfilltësimesh
 flow-setup-2fa-button = Vazhdo
+flow-setup-2fa-step-2-instruction = <strong>Hapi 2:</strong> Jepni kodin prej aplikacionit tuaj të mirëfilltësimeve.
 flow-setup-2fa-input-label = Jepni kodin 6-shifror
+flow-setup-2fa-code-error = Kod i pavlefshëm, ose i skaduar. Kontrolli aplikacionin tuaj të mirëfilltësimeve dhe riprovoni.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
