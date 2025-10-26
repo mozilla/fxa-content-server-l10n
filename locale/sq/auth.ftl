@@ -476,6 +476,14 @@ postAddTwoStepAuthentication-title-2 = Aktivizuat mirëfilltësim dyhapësh
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = E kërkuat prej:
 postAddTwoStepAuthentication-action = Administroni llogarinë
+postAddTwoStepAuthentication-code-required-v4 = Tani e tutje, sa herë që bëni hyrjen, kërkohet kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
+postAddTwoStepAuthentication-recovery-method-codes = Shtuat edhe kode mirëfilltësim kopjeruajtjesh si metodë tuajën.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Shtuat edhe { $maskedPhoneNumber } si numrin tuaj të telefonit për rimarrje.
+postAddTwoStepAuthentication-how-protects-link = Si e mbron kjo llogarinë tuaj
+postAddTwoStepAuthentication-how-protects-plaintext = Si e mbron kjo llogarinë tuaj:
+postAddTwoStepAuthentication-device-sign-out-message = Që të mbroni krejt pajisjet tuaja të lidhura, duhet të bëni daljen nga llogaria kudo ku e keni në përdorim atë dhe mandej të ribëni hyrjen duke përdorur mirëfilltësimin dyhapësh.
 postChangeAccountRecovery-subject = U ndryshua kyç rimarrjeje llogarie
 postChangeAccountRecovery-title = Ndryshuat kyçin e rimarrjes së llogarisë tuaj
 postChangeAccountRecovery-body-part1 = Tani keni një kyç të ri rimarrjeje llogarie. Kyçi juaj i mëparshëm u fshi.
@@ -492,11 +500,21 @@ postChangeRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfakto
 postChangeRecoveryPhone-title = Ndryshuat telefonin tuaj të rimarrjes
 postChangeRecoveryPhone-description = Tani keni një telefon të ri rimarrjeje. Numri juaj i mëparshëm telefonik u fshi.
 postChangeRecoveryPhone-requested-device = E kërkuar prej:
+postChangeTwoStepAuthentication-preview = Llogaria juaj është e mbrojtur
+postChangeTwoStepAuthentication-subject = U përditësua mirëfilltësimi dyhapësh
+postChangeTwoStepAuthentication-title = Mirëfilltësimi dyhapësh është përditësuar
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = E kërkuat prej:
+postChangeTwoStepAuthentication-action = Administroni llogarinë
+postChangeTwoStepAuthentication-how-protects-link = Si e mbron kjo llogarinë tuaj
+postChangeTwoStepAuthentication-how-protects-plaintext = Si e mbron kjo llogarinë tuaj:
 postConsumeRecoveryCode-title-3 = Kodi juaj i mirëfilltësimit të kopjeruajtjes qe përdorur për të ripohuar një ricaktim fjalëkalimi
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Kod i përdorur për:
 postConsumeRecoveryCode-action = Administroni llogarinë
+postConsumeRecoveryCode-subject-v3 = U përdorën kode mirëfilltësimi kopjeruajtjeje
+postConsumeRecoveryCode-preview = Kontrolloni, për t’u siguruar se qetë ju
 postNewRecoveryCodes-subject-2 = U krijuan kode të rinj mirëfilltësimi kopjeruajtjeje
 postNewRecoveryCodes-title-2 = Krijuat kode të rinj mirëfilltësimi kopjeruajtje
 # After the colon, there is information about the device that the authentication codes were created on
