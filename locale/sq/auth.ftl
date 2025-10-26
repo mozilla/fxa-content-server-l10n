@@ -508,6 +508,7 @@ postChangeTwoStepAuthentication-from-device = E kërkuat prej:
 postChangeTwoStepAuthentication-action = Administroni llogarinë
 postChangeTwoStepAuthentication-how-protects-link = Si e mbron kjo llogarinë tuaj
 postChangeTwoStepAuthentication-how-protects-plaintext = Si e mbron kjo llogarinë tuaj:
+postChangeTwoStepAuthentication-device-sign-out-message = Që të mbroni krejt pajisjet tuaja të lidhura, duhet të bëni daljen nga llogaria kudo ku e keni në përdorim atë dhe mandej të ribëni hyrjen duke përdorur mirëfilltësimin tuaj të ri dyhapësh.
 postConsumeRecoveryCode-title-3 = Kodi juaj i mirëfilltësimit të kopjeruajtjes qe përdorur për të ripohuar një ricaktim fjalëkalimi
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -662,6 +663,9 @@ subscriptionPaymentExpired-subject-2 = Metoda e pagesës për { $productName } q
 subscriptionPaymentExpired-title-2 = Metoda juaj e pagesës ka skaduar, ose është afër skadimit
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Metoda e pagesës që po përdorni për { $productName } ka skaduar ose është afër skadimit.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pagesa për { $productName } dështoi
 subscriptionPaymentFailed-title = Na ndjeni, po kemi probleme me pagesën tuaj
 # Variables:
@@ -701,6 +705,7 @@ subscriptionRenewalReminder-content-closing = Sinqerisht,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Ekipi i { $productName }-s
+subscriptionReplaced-subject = Pajtimi juaj është përditësuar si pjesë e përmirësimit tuaj
 subscriptionReplaced-title = Pajtimi juaj është përditësuar
 subscriptionReplaced-content-no-action = Nga ana juaj s’lypset ndonjë veprim.
 subscriptionsPaymentExpired-subject-2 = Metoda e pagesës për pajtimet tuaja ka skaduar, ose skadon së shpejti
@@ -763,13 +768,26 @@ verify-title-3 = Hapeni internetin me { -brand-mozilla }
 verify-description-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-subject = Përfundoni krijimin e llogarisë tuaj
 verify-action-2 = Ripohoni llogarinë
+verifyAccountChange-title = Po ndryshoni hollësi të llogarisë tuaj?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Ndihmonani ta mbajmë të parrezik llogarinë tuaj, duke miratuar këtë ndryshim te:
 verifyAccountChange-prompt = Nëse po, ja kodi juaj i autorizimit:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Skadon për { $expirationTime } minutë.
+       *[other] Skadon për { $expirationTime } minuta.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = A bëtë hyrjen te { $clientName }?
 verifyLogin-description-2 = Ndihmonani ta mbajmë llogarinë tuaj të parrezik, duke ripohuar se keni hyrë në:
 verifyLogin-subject-2 = Ripohoni hyrjen
 verifyLogin-action = Ripohoni hyrjen
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Që të bëni hyrjen, përdorni { $code }
 verifyLoginCode-preview = Ky kod skadon për 5 minuta.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -784,6 +802,9 @@ verifyPrimary-subject = Ripohoni email parësor
 verifyPrimary-action-2 = Ripohoni email-in
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Pasi të jetë ripohuar, prej kësaj pajisje do të jenë të mundshme ndryshime llogarie, të tillë si shtimi i një email-i dytësor.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Përdorni { $code } që të ripohoni email-in tuaj dytësor
 verifySecondaryCode-preview = Ky kod skadon për 5 minuta.
 verifySecondaryCode-title-2 = Ripohoni email dytësor
 verifySecondaryCode-action-2 = Ripohoni email-in
