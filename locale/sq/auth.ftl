@@ -257,6 +257,8 @@ subscription-charges-credit-applied-plaintext = Kredit i aplikuar: { $creditAppl
 subscription-charges-amount-paid = <b>Sasi e paguar</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Sasi e paguar: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Keni marrë një sasi krediti prej { $creditReceived }, e cila do të aplikohet te faturat tuaja të ardhshme.
 
 ##
 
@@ -411,6 +413,10 @@ passwordChanged-description-2 = Fjalëkalimi juaj për { -product-mozilla-accoun
 passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
 passwordChangeRequired-preview = Ndryshoni menjëherë fjalëkalimin tuaj
 passwordChangeRequired-title-2 = Ricaktoni fjalëkalimin tuaj
+passwordChangeRequired-suspicious-activity-3 = E kyçëm llogarinë tuaj për ta mbajtur të parrezik nga veprimtari e dyshimtë. Jeni nxjerrë jashtë llogarisë tuaj në krejt pajisjet tuaja dhe, si masë paraprake, çfarëdo të dhënash të njëkohësuara janë fshirë.
+passwordChangeRequired-sign-in-3 = Që të rihyni te llogaria juaj, krejt ç’ju duhet është të ricaktoni fjalëkalimin tuaj.
+passwordChangeRequired-different-password-2 = <b>E rëndësishme:</b> Zgjidhni një fjalëkalim të fuqishëm, që është i ndryshëm nga ai që përdornit në të kaluarën.
+passwordChangeRequired-different-password-plaintext-2 = E rëndësishme: Zgjidhni një fjalëkalim të fuqishëm, që është i ndryshëm nga ai që përdornit në të kaluarën.
 passwordChangeRequired-action = Ricaktoni fjalëkalimin
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 # Variables:
@@ -503,6 +509,7 @@ postChangeRecoveryPhone-requested-device = E kërkuar prej:
 postChangeTwoStepAuthentication-preview = Llogaria juaj është e mbrojtur
 postChangeTwoStepAuthentication-subject = U përditësua mirëfilltësimi dyhapësh
 postChangeTwoStepAuthentication-title = Mirëfilltësimi dyhapësh është përditësuar
+postChangeTwoStepAuthentication-use-new-account = Tani ju duhet të përdorni zërin e ri { -product-mozilla-account } te aplikacioni juaj i mirëfilltësimeve. I vjetri s’do të punojë më dhe mund ta hiqni.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = E kërkuat prej:
 postChangeTwoStepAuthentication-action = Administroni llogarinë
@@ -671,6 +678,7 @@ subscriptionPaymentFailed-title = Na ndjeni, po kemi probleme me pagesën tuaj
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Patëm një problem me pagesën tuaj të fundit për { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Mundet të ketë skaduar metoda juaj e pagesës, ose metoda juaj e tanishme e pagesave të jetë e vjetruar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Lypset përditësim të dhënash pagese për { $productName }
@@ -707,12 +715,17 @@ subscriptionRenewalReminder-content-closing = Sinqerisht,
 subscriptionRenewalReminder-content-signature = Ekipi i { $productName }-s
 subscriptionReplaced-subject = Pajtimi juaj është përditësuar si pjesë e përmirësimit tuaj
 subscriptionReplaced-title = Pajtimi juaj është përditësuar
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Pajtimi juaj individual { $productName } është zëvendësuar dhe tani përfshihet te paketa juaj e re.
+subscriptionReplaced-content-credit = Do të përfitoni një kredit për çfarëdo kohe të papërdorur nga pajtimi juaj i mëparshëm, Ky kredit do të aplikohet automatikisht te llogaria juaj dhe përdoret për faturime të ardhshme.
 subscriptionReplaced-content-no-action = Nga ana juaj s’lypset ndonjë veprim.
 subscriptionsPaymentExpired-subject-2 = Metoda e pagesës për pajtimet tuaja ka skaduar, ose skadon së shpejti
 subscriptionsPaymentExpired-title-2 = Metoda juaj e pagesës ka skaduar, ose është afër skadimit
+subscriptionsPaymentExpired-content-2 = Metoda e pagesave që po përdorni për të bërë pagesa për pajtimet vijuese ka skaduar, ose është afër skadimit.
 subscriptionsPaymentProviderCancelled-subject = Lypset përditësim hollësish pagese për pajtime { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me metodën tuaj të pagesave
 subscriptionsPaymentProviderCancelled-content-detected = Pikasëm një problem me metodën tuaj të pagesës për pajtimet vijuese.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Mundet të ketë skaduar metoda juaj e pagesës, ose metoda juaj e tanishme e pagesave të jetë e vjetruar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Pagesa për { $productName } u mor
@@ -739,7 +752,12 @@ subscriptionUpgrade-upgrade-info-2 = E keni përmirësuar me sukses me { $produc
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-existing = Nëse ndonjë nga pajtimet tuaja ekzistues mbivendoset me këtë përmirësim, do ta zgjidhim dhe do t’ju dërgojmë një email më vete me hollësitë. Nëse plani juaj i ri përfshin produkte që lypin instalim, do t’ju dërgojmë një email më vete me udhëzime ujdisjeje.
 subscriptionUpgrade-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Që të bëni hyrjen, përdorni { $unblockCode }
+unblockCode-preview = Ky kod skadon pas një orë
 unblockCode-title = A jeni ju që po hyni?
 unblockCode-prompt = Nëse po, ja ku keni kodin e autorizimit që ju duhet:
 # Variables:
@@ -768,6 +786,16 @@ verify-title-3 = Hapeni internetin me { -brand-mozilla }
 verify-description-2 = Ripohoni llogarinë tuaj dhe përfitoni maksimumin nga { -brand-mozilla }-i, nga kudo që bëni hyrjen në llogarinë tuaj duke filluar me:
 verify-subject = Përfundoni krijimin e llogarisë tuaj
 verify-action-2 = Ripohoni llogarinë
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Përdorni { $code } që të ndryshoni llogarinë tuaj
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Ky kod skadon për { $expirationTime } minutë.
+       *[other] Ky kod skadon për { $expirationTime } minuta.
+    }
 verifyAccountChange-title = Po ndryshoni hollësi të llogarisë tuaj?
 # After the colon is a description of the device used to sign in to the service
 verifyAccountChange-safe = Ndihmonani ta mbajmë të parrezik llogarinë tuaj, duke miratuar këtë ndryshim te:
