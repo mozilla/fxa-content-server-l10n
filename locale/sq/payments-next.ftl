@@ -26,6 +26,7 @@ upgrade-page-acknowledgment =
 
 ## Authentication Error page
 
+auth-error-page-title = S’bënë Dot Futjen Tuaj Në Llogari
 checkout-error-boundary-retry-button = Riprovoni
 checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
 amex-logo-alt-text = Stemë { -brand-amex }-i
@@ -46,6 +47,7 @@ google-pay-logo-alt-text = Stemë { -brand-google-pay }
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Administroni pajtimet e mia
+next-iap-blocked-contact-support = Keni një pajtim “in-app” celulari që përplaset me këtë produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
 next-payment-error-retry-button = Riprovoni
 next-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
 checkout-error-contact-support-button = Lidhuni Me Asistencën
@@ -65,6 +67,7 @@ intent-payment-error-get-in-touch = Hëm. Pati një problem me autorizimin e pag
 intent-payment-error-generic = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
 intent-payment-error-insufficient-funds = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
 general-paypal-error = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
+paypal-active-subscription-no-billing-agreement-error = Duket se pati një problem me faturimin e llogarisë suaj { -brand-paypal }. Ju lutemi, riaktivizoni pagesa të automatizuara për pajtimin tuaj.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -101,6 +104,8 @@ subscription-management-account-profile-picture = Foto profili llogarie
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Balancë krediti llogarie
+subscription-management-account-credit-balance-message = Krediti do të aplikohet automatikisht në faturat e ardhme
 subscription-management-payment-information-heading = Hollësi Pagese
 subscription-management-button-add-payment-method-aria = Shtoni metodë pagese
 subscription-management-button-add-payment-method = Shto
@@ -118,6 +123,10 @@ subscription-management-no-subscriptions = Ende s’keni ndonjë pajtim
 subscription-management-button-support = Merrni ndihmë
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Merrni ndihmë për { $productName }
+subscription-management-your-apple-iap-subscriptions-aria = Pajtimet Tuaja { -brand-apple } In-App
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: blerje që nga aplikacioni
+subscription-management-your-google-iap-subscriptions-aria = Pajtimet Tuaja { -brand-google } In-App
+subscription-management-google-in-app-purchase-1 = { -brand-google }: blerje që nga aplikacioni
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill-is-due = Fatura e ardhshme skadon më <strong>{ $date }</strong>
 # $date (String) - Date of In-App purchase expires
@@ -134,6 +143,7 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ç
 subscription-management-page-subscription-interval-monthly = { $productName } (çdo muaj)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-muaj)
 subscription-management-page-subscription-interval-yearly = { $productName } (e përvitshme)
+subscription-management-page-paypal-error-banner = Hollësi të pavlefshme pagese; ka një gabim me llogarinë tuaj.
 subscription-management-page-paypal-error-banner-link = Administrojini
 paypal-payment-management-page-invalid-header = Hollësi faturimi të pavlefshme
 # Page - Not Found
@@ -227,6 +237,10 @@ next-plan-details-total-label = Gjithsej
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
 purchase-details-unused-time-label = Kredit nga kohë e papërdorur
 purchase-details-subtotal-label = Nënshumë
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Krediti u aplikua
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Detyrim gjithsej
 next-plan-details-hide-button = Fshihi hollësitë
 next-plan-details-show-button = Shfaq hollësi
 next-coupon-success = Plani juaj do të rinovohet vetvetiu me çmimin e treguar te lista.
