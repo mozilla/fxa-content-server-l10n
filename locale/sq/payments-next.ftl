@@ -146,10 +146,12 @@ subscription-management-page-subscription-interval-yearly = { $productName } (e 
 subscription-management-page-paypal-error-banner = Hollësi të pavlefshme pagese; ka një gabim me llogarinë tuaj.
 subscription-management-page-paypal-error-banner-link = Administrojini
 paypal-payment-management-page-invalid-header = Hollësi faturimi të pavlefshme
+paypal-payment-management-page-invalid-description = Duket të ketë një gabim me llogarinë tuaj { -brand-paypal }. Duam që të ndërmerrni hapat e nevojshëm për të zgjidhur këtë problem pagese.
 # Page - Not Found
 page-not-found-title = S’u gjet faqe
 page-not-found-description = Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo lidhje që mund të jetë e dëmtuar.
 page-not-found-back-button = Kthehu Mbrapsht
+alert-dialog-title = Dialog sinjalizimi
 
 ## Navigation breadcrumbs
 
@@ -287,13 +289,33 @@ next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm pë
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } taksë</strong><span> faturuar më { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> faturuar më { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit i dhënë për llogarinë tuaj
+subscription-content-coupon-applied = U aplikua { $promotionName }
+subscription-content-coupon-will-be-applied = Do të aplikohet zbritja { $promotionName }
+subscription-content-next-bill-excl-disc-with-tax = Faturimi pasues prej <strong>{ $nextInvoiceTotal } + { $taxDue } taksë</strong>, hiq zbritje, duhet paguar deri më <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Faturimi pasues prej <strong>{ $nextInvoiceTotal }</strong>, hiq zbritje, duhet paguar deri më <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Anulojeni Pajtimin
+subscription-content-no-longer-use-message = Pas { $currentPeriodEnd }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $productName }.
+subscription-content-cancel-access-message = Më { $currentPeriodEnd }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $productName }
+subscription-content-button-stay-subscribed = Qëndroni i Pajtuar
+    .aria-label = Qëndroni i pajtuar te { $productName }
 subscription-content-button-cancel-subscription = Anulojeni Pajtimin
     .aria-label = Anuloni pajtimin tuaj te { $productName }
 subscription-content-button-cancel = Anuloje
     .aria-label = Anuloni pajtimin tuaj te { $productName }
 subscription-content-cancel-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
 subscription-cancellation-dialog-title = Na vjen keq t’ju shohim të largoheni
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Pajtimi juaj në { $name } është anuluar. Do të mund të përdorni ende { $name } deri më { $date }.
+subscription-cancellation-dialog-aside = Keni pyetje? Vizitoni <LinkExternal>{ -brand-mozilla } Asistencën</LinkExternal>.
+subscription-content-button-resubscribe = Ripajtohuni
+    .aria-label = Ripajtohuni te { $productName }
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Do të humbni mundësinë e përdorimit të { $name } më <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = Doni të vazhdoni të përdorni { $name }?
 
@@ -302,6 +324,8 @@ resubscribe-dialog-title = Doni të vazhdoni të përdorni { $name }?
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
+resubscribe-dialog-content = Përdorimi juaj i { $name } do të vazhdojë, dhe cikli juaj i faturimit dhe pagesa do të mbeten të njëjtët. Faturimi juaj pasues do të jetë { $amount } më { $endDate }.
+resubscribe-dialog-content-with-tax = Përdorimi juaj i { $name } do të vazhdojë, dhe cikli juaj i faturimit dhe pagesa do të mbeten të njëjtët. Faturimi juaj pasues do të jetë { $amount } + { $tax } taksë më { $endDate }.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Ripajtohuni
     .aria-label = Ripajtohuni te { $productName }
@@ -353,6 +377,9 @@ upgrade-purchase-details-current-plan-label = Plani i tanishëm
 upgrade-purchase-details-new-plan-label = Plan i ri
 upgrade-purchase-details-promo-code = Kod Promocional
 upgrade-purchase-details-tax-label = Taksa dhe Tarifa
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Krediti u aplikua në llogari
+upgrade-purchase-details-credit-will-be-applied = Krediti do të aplikohet te llogaria juaj dhe do të përdoret në fatura të ardhshme.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -366,6 +393,8 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (E përvitshme)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Përfundim blerjeje | { $productTitle }
 metadata-description-checkout-start = Që të plotësoni blerjen tuaj, jepni hollësitë tuaja për pagesën.
 # Checkout processing
 metadata-title-checkout-processing = Po përpunohet | { $productTitle }
@@ -400,6 +429,7 @@ metadata-description-default = Faqja që kërkuat s’u gjet.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Kodi që dhatë s’mund të përdoret — llogaria juaj ka një pajtim të mëparshëm në një nga shërbimet tona.
 next-coupon-error-expired = Kodi që dhatë ka skaduar.
 next-coupon-error-generic = Ndodhi një gabim me përpunimin e kodit. Ju lutemi, riprovoni.
 next-coupon-error-invalid = Kodi që dhatë është i pavlefshëm.
