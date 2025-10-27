@@ -1415,7 +1415,6 @@ auth-error-102 = Unknown account
 auth-error-103 = Incorrect password
 auth-error-105-2 = Invalid confirmation code
 auth-error-110 = Invalid token
-auth-error-110-2 = Invalid session. Please sign out and sign in again.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = You’ve tried too many times. Please try again later.
@@ -1428,7 +1427,6 @@ auth-error-114 = You’ve tried too many times. Please try again { $retryAfter }
 auth-error-125 = The request was blocked for security reasons
 auth-error-129-2 = You entered an invalid phone number. Please check it and try again.
 auth-error-138-2 = Unconfirmed session
-auth-error-138-3 = Unconfirmed Session. Please sign out and sign in again.
 auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
 # Error shown when the user submits an invalid backup authentication code
@@ -1469,14 +1467,6 @@ auth-error-1067 = Mistyped email?
 recovery-phone-number-ending-digits = Number ending in { $lastFourPhoneNumber }
 
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Cannot create account
-cannot-create-account-requirements-2 = You must meet certain age requirements to create a { -product-mozilla-account }.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Learn more
 
 ## Connect Another Device page
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -2078,6 +2068,12 @@ signin-totp-code-header = Sign in
 signin-totp-code-subheader-v2 = Enter two-step authentication code
 signin-totp-code-instruction-v4 = Check your <strong>authenticator app</strong> to confirm your sign-in.
 signin-totp-code-input-label-v4 = Enter 6-digit code
+
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Why are you being asked to authenticate?
+signin-totp-code-aal-banner-content = You set up two-step authentication on your account, but haven’t signed in with a code on this device yet.
+signin-totp-code-aal-sign-out = Sign out on this device
+signin-totp-code-aal-sign-out-error = Sorry, there was a problem signing you out
 
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirm

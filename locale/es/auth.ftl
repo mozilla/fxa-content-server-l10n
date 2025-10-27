@@ -188,9 +188,27 @@ payment-plan-charged = Cobrado: { $invoiceTotal } el { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+subscription-charges-invoice-summary = Resumen de la factura
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Número de factura:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Número de factura: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Fecha:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Fecha: { $invoiceDateOnly }
+subscription-charges-prorated-price = Precio prorrateado
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Precio prorrateado: { $remainingAmountTotal }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
 
@@ -613,6 +631,10 @@ subscriptionUpgrade-upgrade-info-2 = La actualización a { $productName } se ha 
 subscriptionUpgrade-content-charge-credit = Recibiste un crédito en la cuenta por la cantidad de { $paymentProrated }.
 subscriptionUpgrade-existing = Si alguna de tus suscripciones actuales se solapa con esta actualización, nos encargaremos de ello y te enviaremos un correo electrónico separado con los detalles. Si tu nuevo plan incluye productos que requieren instalación, te enviaremos un correo electrónico separado con las instrucciones de configuración.
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Use { $unblockCode } para iniciar sesión
+unblockCode-preview = Este código caduca en una hora
 unblockCode-title = ¿Eres tú identificándote?
 unblockCode-prompt = Si es así, el código de autorización que necesitas es este:
 # Variables:
@@ -641,6 +663,16 @@ verify-title-3 = Abre internet con { -brand-mozilla }
 verify-description-2 = Confirma tu cuenta y sácale el máximo partido a { -brand-mozilla } cada vez que inicies sesión, empezando por:
 verify-subject = Termina de crear tu cuenta
 verify-action-2 = Confirmar cuenta
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Use { $code } para cambiar su cuenta
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Este código caduca en { $expirationTime } minuto.
+       *[other] Este código caduca en { $expirationTime } minutos.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = ¿Has iniciado sesión en { $clientName }?

@@ -674,6 +674,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Fortsätt
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Tvåstegsautentisering aktiverad
+flow-setup-2fa-inline-complete-success-banner-description = För att skydda alla dina anslutna enheter bör du logga ut överallt där du använder det här kontot och sedan logga in igen med din nya tvåstegsautentisering.
 flow-setup-2fa-inline-complete-backup-code = Säkerhetskopiera autentiseringskoder
 flow-setup-2fa-inline-complete-backup-phone = Telefon för återställning
 # $count (Number) - an integer representing the number of backup
@@ -805,6 +806,7 @@ nav-email-comm = E-postkommunikation
 
 page-2fa-change-title = Ändra tvåstegsautentisering
 page-2fa-change-success = Tvåstegsautentisering har uppdaterats
+page-2fa-change-success-additional-message = För att skydda alla dina anslutna enheter bör du logga ut överallt där du använder det här kontot och sedan logga in igen med din nya tvåstegsautentisering.
 page-2fa-change-totpinfo-error = Det uppstod ett fel vid ersättning av din tvåstegsautentiseringsapp. Försök igen senare.
 page-2fa-change-qr-instruction = <strong>Steg 1:</strong> Skanna den här QR-koden med en autentiseringsapp, som Duo eller Google Authenticator. Detta skapar en ny anslutning, alla gamla anslutningar fungerar inte längre.
 
@@ -836,6 +838,7 @@ page-2fa-setup-totpinfo-error = Det uppstod ett fel vid inställningen av tvåst
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Den koden är inte korrekt. Försök igen.
 page-2fa-setup-success = Tvåstegsautentisering har aktiverats
+page-2fa-setup-success-additional-message = För att skydda alla dina anslutna enheter bör du logga ut överallt där du använder det här kontot och sedan logga in igen med tvåstegsautentisering.
 
 ## Avatar change page
 
