@@ -391,6 +391,8 @@ account-recovery-notification-header-value = Mos humbni të dhënat tuaja, nëse
 account-recovery-notification-header-description = Krijoni një kyç rimarrjeje llogarie, që të riktheni të dhëna shfletimi të njëkohësuara, nëse harroni ndonjëherë fjalëkalimin tuaj.
 recovery-phone-promo-cta = Shtoni telefon rimarrjeje
 recovery-phone-promo-heading = Shtojini llogarisë tuaj edhe më tepër mbrojtje përmes një telefoni rimarrjeje
+recovery-phone-promo-description = Tani mund të bëni hyrjen me një fjalëkalim për një herë të vetme, përmes SMS-je, nëse s’përdorni dot aplikacionin tuaj për mirëfilltësim dyhapësh.
+recovery-phone-promo-info-link = Mësoni më tepër rreth rimarrjesh dhe rrezikut nga këmbim SIM-esh
 promo-banner-dismiss-button =
     .aria-label = Hidh tej banderolën
 
@@ -615,6 +617,11 @@ flow-recovery-key-info-cancel-link = Anuloje
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Lidhuni me aplikacioni tuaj të mirëfilltësimeve
+# DEV NOTE: "2a" in the id should be "2fa". This typo is kept intentionally to
+# avoid losing existing translations; fix it when creating a new version of
+# this string.
+flow-setup-2a-qr-instruction = <strong>Hapi 1:</strong> Skanoni këtë kod QR duke përdorur çfarëdo aplikacioni mirëfilltësimesh, fjala vjen, Duo, ose Google Authenticator.
 flow-setup-2fa-cant-scan-qr-button = S’e skanoni dot kodin QR?
 flow-setup-2fa-manual-key-heading = Jepeni kodin dorazi
 flow-setup-2fa-manual-key-instruction = <strong>Hapi 1:</strong> Jepeni këtë kod te aplikacioni juaj i parapëlqyer i mirëfilltësimeve.
