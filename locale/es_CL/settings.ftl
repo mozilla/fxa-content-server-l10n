@@ -672,6 +672,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continuar
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Autenticación en dos pasos activada
+flow-setup-2fa-inline-complete-success-banner-description = Para proteger todos tus dispositivos conectados, debes cerrar la sesión en todos los lugares donde utilices esta cuenta y luego volver a conectarte mediante tu nueva autenticación de dos pasos.
 flow-setup-2fa-inline-complete-backup-code = Códigos de autenticación de respaldo
 flow-setup-2fa-inline-complete-backup-phone = Teléfono de recuperación
 # $count (Number) - an integer representing the number of backup
@@ -803,6 +804,7 @@ nav-email-comm = Comunicaciones por correo
 
 page-2fa-change-title = Cambiar la autenticación en dos pasos
 page-2fa-change-success = La autenticación en dos pasos ha sido actualizada
+page-2fa-change-success-additional-message = Para proteger todos tus dispositivos conectados, debes cerrar la sesión en todos los lugares donde utilices esta cuenta y luego volver a conectarte mediante tu nueva autenticación de dos pasos.
 page-2fa-change-totpinfo-error = Se produjo un error al reemplazar tu aplicación de autenticación en dos pasos. Vuelve a inténtalo más tarde.
 page-2fa-change-qr-instruction = <strong>Paso 1:</strong> Escanea este código QR con cualquier aplicación de autenticación, como Duo o Google Authenticator. Esto crea una nueva conexión, cualquier conexión anterior dejará de funcionar.
 
@@ -834,6 +836,7 @@ page-2fa-setup-totpinfo-error = Se produjo un error al configurar la autenticaci
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ese código no es correcto. Vuelve a intentarlo.
 page-2fa-setup-success = La autenticación en dos pasos ha sido activada
+page-2fa-setup-success-additional-message = Para proteger todos tus dispositivos conectados, debes cerrar la sesión en todos los lugares donde utilices esta cuenta y luego volver a conectarte mediante la autenticación de dos pasos.
 
 ## Avatar change page
 
