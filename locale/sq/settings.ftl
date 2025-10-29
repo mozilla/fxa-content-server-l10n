@@ -639,6 +639,8 @@ flow-setup-2fa-code-error = Kod i pavlefshëm, ose i skaduar. Kontrolli aplikaci
 flow-setup-2fa-backup-choice-heading = Zgjidhni një metodë rikthimi
 flow-setup-2fa-backup-choice-phone-title = Telefon rimarrjeje
 flow-setup-2fa-backup-choice-code-title = Kode mirëfilltësimi kopjeruajtjeje
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Mësoni rreth rimarrjesh dhe rrezikut nga këmbim SIM-esh
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -715,6 +717,8 @@ header-menu-open = Mbylle menunë
 header-menu-closed = Menu lëvizje në sajt
 header-back-to-top-link =
     .title = Mbrapsht te kreu
+header-back-to-settings-link =
+    .title = Mbrapsht te rregullime { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Ndihmë
 
