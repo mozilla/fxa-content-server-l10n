@@ -181,11 +181,25 @@ payment-plan-charged = Пардохт шуд: { $invoiceTotal } дар { $invoic
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider-plaintext = Тарзи пардохт: { $paymentProviderName }
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-list-price = Нархнома
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ҷамъи миёна: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-discount = Тахфиф
+subscription-charges-discount-plaintext = Тахфиф: { $invoiceDiscountAmount }
+subscription-charges-taxes = Андозҳо ва ҳаққи ҳизматрасонӣ
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Андозҳо ва ҳаққи ҳизматрасонӣ: { $invoiceTaxAmount }
 
 ##
 
