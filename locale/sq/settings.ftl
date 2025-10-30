@@ -657,6 +657,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Përfundoje
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Ruani kode mirëfilltësimi kopjeruajtjeje
+flow-setup-2fa-backup-code-dl-save-these-codes = Mbajini në një vend që s’e harroni. Nëse s’përdorni dot aplikacionin tuaj të mirëfilltësimeve, do t’ju duhet të jepni një prej tyre, që të bëni hyrjen.
 flow-setup-2fa-backup-code-dl-button-continue = Vazhdo
 
 ##
@@ -681,6 +682,8 @@ flow-setup-2fa-prompt-heading = Ujdisni mirëfilltësim dyhapësh
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } lyp të ujdisni mirëfilltësim dyhapësh që të mbahet e parrezik llogaria juaj.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Që të vazhdohet, mund të përdorni cilindo nga <authenticationAppsLink>këta aplikacione mirëfilltësimi</authenticationAppsLink>.
 flow-setup-2fa-prompt-continue-button = Vazhdo
 
 ## FlowSetupPhoneConfirmCode
@@ -747,6 +750,18 @@ modal-default-confirm-button = Ripohojeni
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Jepni kodin e ripohimit
+modal-mfa-protected-subtitle = Ndihmoni të sigurohemi se jeni ju që po ndryshoni hollësi të llogarisë tuaj
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Jepni brenda { $expirationTime } minute kodin që u dërgua te <email>{ $email }</email>.
+       *[other] Jepni brenda { $expirationTime } minutash kodin që u dërgua te <email>{ $email }</email>
+    }
 modal-mfa-protected-input-label = Jepni kodin 6-shifror
 modal-mfa-protected-cancel-button = Anuloje
 modal-mfa-protected-confirm-button = Ripohojeni
@@ -779,6 +794,8 @@ nav-email-comm = Komunikime Me Email
 
 page-2fa-change-title = Ndryshoni mirëfilltësim dyhapësh
 page-2fa-change-success = Mirëfilltësimi dyhapësh u përditësua
+page-2fa-change-success-additional-message = Që të mbroni krejt pajisjet tuaja të lidhura, duhet të bëni daljen nga llogaria kudo ku e keni në përdorim atë dhe mandej të ribëni hyrjen duke përdorur mirëfilltësimin tuaj të ri dyhapësh.
+page-2fa-change-totpinfo-error = Pati një gabim me zëvendësimin e aplikacionit tuaj të mirëfilltësimeve dyhapësh. Riprovoni më vonë.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -792,15 +809,23 @@ tfa-create-code-error = Pati një problem me krijimin e kodeve tuaj të mirëfil
 tfa-replace-code-success-alert-4 = U përditësuan kode mirëfilltësimi kopjeruajtjeje
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = U krijuan kode mirëfilltësimi kopjeruajtjeje
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Mbajini në një vend që s’e harroni. Kodet tuaj të vjetër do të zëvendësohen pasi të përfundoni hapin vijues.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Ripohoni se i ruajtët kodet tuaj, duke dhënë një të tillë. Kodet tuaj të vjetër të mirëfilltësimit do të çaktivizohen, sapo të jetë plotësuar ky hap.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Kod mirëfilltësimi kopjeruajtje i pasaktë
 
 ## Page2faSetup
 
 page-2fa-setup-title = Mirëfilltësim dyhapësh
+page-2fa-setup-totpinfo-error = Pati një gabim me ujdisjen e mirëfilltësimeve dyhapësh. Riprovoni më vonë.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ai kod s’është i saktë. Riprovoi.
 page-2fa-setup-success = Mirëfilltësimi dyhapësh u aktivizua
+page-2fa-setup-success-additional-message = Që të mbroni krejt pajisjet tuaja të lidhura, duhet të bëni daljen nga llogaria kudo ku e keni në përdorim atë dhe mandej të ribëni hyrjen duke përdorur mirëfilltësimin dyhapësh.
 
 ## Avatar change page
 
@@ -943,6 +968,8 @@ recent-activity-account-recovery-phone-removed = U hoq telefon rimarrjeje
 recent-activity-account-recovery-codes-replaced = U zëvendësua telefon rimarrjeje
 recent-activity-account-recovery-codes-created = U krijuan kode rimarrjeje
 recent-activity-account-recovery-codes-signin-complete = U plotësua hyrje me kode rimarrjeje
+recent-activity-password-reset-otp-sent = Kodi i ripohimit për ricaktim fjalëkalimi u dërgua
+recent-activity-password-reset-otp-verified = Kodi i ripohimit për ricaktim fjalëkalimi u verifikua
 recent-activity-must-reset-password = Ricaktim i domosdoshëm fjalëkalimi
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Tjetër veprimtari në llogari
@@ -1022,6 +1049,7 @@ inactive-update-status-success-alert = U hy me sukses. { -product-mozilla-accoun
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Gjeni se ku është ekspozuar informacion i juaji privat dhe rifitoni kontrollin
 # Links out to the Monitor site
 product-promo-monitor-cta = Përfitoni kontroll falas
 
@@ -1205,6 +1233,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Mirëfilltësimi dyhapësh u çaktivizua
 tfa-row-cannot-disable-2 = Mirëfilltësimi dyhapësh s’u çaktivizua dot
+tfa-row-verify-session-info = Që të ujdiset mirëfilltësim dyhapësh, duhet të ripohoni sesionin tuaj të tanishëm
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1525,6 +1554,8 @@ pair-unsupported-message = Përdorët kamerën e sistemit? Duhet të bëni çift
 # password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading-v2 = Që të bëhet njëkohësim, krijoni fjalëkalim
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Kjo fshehtëzon të dhënat tuaja. Lypset të jetë i ndryshëm nga fjalëkalimi juaj për llogarinë në { -brand-google }, ose { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1703,6 +1734,7 @@ signin-password-button-label = Fjalëkalim
 signin-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 signin-code-expired-error = Kodi ka skaduar. Ju lutemi, ribëni hyrjen.
 signin-account-locked-banner-heading = Ricaktoni fjalëkalimin tuaj
+signin-account-locked-banner-description = E kyçëm llogarinë tuaj për ta mbajtur të parrezik nga veprimtari e dyshimtë.
 # This link points to https://accounts.firefox.com/reset_password
 signin-account-locked-banner-link = Që të bëni hyrjen, ricaktoni fjalëkalimin tuaj
 
@@ -1826,6 +1858,8 @@ signin-reported-message = Ekipi ynë i njoftua. Raporte si ky na ndihmojnë të 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Jepni kod ripohimi <span>për { -product-mozilla-account } tuajën</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Jepni brenda 5 minutash kodin që u dërgua te <email>{ $email }</email>.
 signin-token-code-input-label-v2 = Jepni kodin 6-shifror
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Ripohojeni
@@ -1925,6 +1959,8 @@ signup-change-email-link = Ndryshoni email
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Njëkohësimi është i aktivizuar
+signup-confirmed-sync-success-banner = { -product-mozilla-account } u ripohua
 signup-confirmed-sync-button = Nisni shfletimin
 signup-confirmed-sync-add-device-link = Shtoni pajisje tjetër
 signup-confirmed-sync-manage-sync-button = Administroni njëkohësim
