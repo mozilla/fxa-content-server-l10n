@@ -4,6 +4,10 @@ app-general-err-heading = Generel applikationsfejl
 app-general-err-message = Noget gik galt. Prøv igen senere.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Forkert forespørgsel: Ugyldige søgeparametre
+# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
+# or maybe the session token is stale and the user needs to sign back in again.
+app-invalid-session-err-heading = Ugyldig session
+app-invalid-session-err-message = Log ud og log ind igen.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

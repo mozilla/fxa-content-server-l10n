@@ -674,6 +674,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Fortsæt
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Totrinsgodkendelse aktiveret
+flow-setup-2fa-inline-complete-success-banner-description = For at beskytte alle dine forbundne enheder, bør du logge ud overalt, hvor du bruger denne konto, og derefter logge ind igen ved hjælp af din nye totrinsgodkendelse.
 flow-setup-2fa-inline-complete-backup-code = Reserve-godkendelseskoder
 flow-setup-2fa-inline-complete-backup-phone = Telefonnummer til genoprettelse
 # $count (Number) - an integer representing the number of backup
@@ -805,6 +806,7 @@ nav-email-comm = Mail-kommunikation
 
 page-2fa-change-title = Skift totrinsgodkendelse
 page-2fa-change-success = Totrinsgodkendelse er blevet opdateret
+page-2fa-change-success-additional-message = For at beskytte alle dine forbundne enheder, bør du logge ud overalt, hvor du bruger denne konto, og derefter logge ind igen ved hjælp af din nye totrinsgodkendelse.
 page-2fa-change-totpinfo-error = Der opstod en fejl under udskiftningen af din godkendelsesapp til totrinsgodkendelse. Prøv igen senere.
 page-2fa-change-qr-instruction = <strong>Trin 1:</strong> Skan denne QR-kode ved hjælp af en godkendelsesapp, såsom Duo eller Google Authenticator. Dette opretter en ny forbindelse, og gamle forbindelser vil ikke længere fungere.
 
@@ -836,6 +838,7 @@ page-2fa-setup-totpinfo-error = Der opstod en fejl under opsætningen af totrins
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Den kode er ikke korrekt. Prøv igen.
 page-2fa-setup-success = Totrinsgodkendelse er blevet aktiveret
+page-2fa-setup-success-additional-message = For at beskytte alle dine forbundne enheder, bør du logge ud overalt, hvor du bruger denne konto, og derefter logge ind igen ved hjælp af totrinsgodkendelse.
 
 ## Avatar change page
 
@@ -1278,6 +1281,7 @@ auth-error-102 = Ukendt konto
 auth-error-103 = Forkert adgangskode
 auth-error-105-2 = Ugyldig bekræftelseskode
 auth-error-110 = Ugyldigt token
+auth-error-110-2 = Ugyldig session. Log ud og log ind igen.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Du har prøvet for mange gange. Prøv igen senere.
@@ -1290,6 +1294,7 @@ auth-error-114 = Du har prøvet for mange gange. Prøv igen { $retryAfter }.
 auth-error-125 = Forespørgslen blev blokeret af sikkerhedsmæssige årsager
 auth-error-129-2 = Du har indtastet et ugyldigt telefonnummer. Kontroller det, og prøv igen.
 auth-error-138-2 = Ubekræftet session
+auth-error-138-3 = Ubekræftet session. Log ud og log ind igen.
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet
 # Error shown when the user submits an invalid backup authentication code

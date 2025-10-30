@@ -493,6 +493,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Du har også tilføjet rese
 postAddTwoStepAuthentication-recovery-method-phone = Du har også tilføjet { $maskedPhoneNumber } som dit telefonnummer til genoprettelse.
 postAddTwoStepAuthentication-how-protects-link = Sådan beskytter det din konto
 postAddTwoStepAuthentication-how-protects-plaintext = Sådan beskytter det din konto:
+postAddTwoStepAuthentication-device-sign-out-message = For at beskytte alle dine forbundne enheder, bør du logge ud overalt, hvor du bruger denne konto, og derefter logge ind igen ved hjælp af totrinsgodkendelse.
 postChangeAccountRecovery-subject = Genoprettelsesnøgle til kontoen blev ændret
 postChangeAccountRecovery-title = Du ændrede din genoprettelsesnøgle til kontoen
 postChangeAccountRecovery-body-part1 = Du har nu en ny genoprettelsesnøgle til kontoen. Din tidligere nøgle blev slettet.
@@ -518,6 +519,7 @@ postChangeTwoStepAuthentication-from-device = Du har bedt om dette fra:
 postChangeTwoStepAuthentication-action = Håndter konto
 postChangeTwoStepAuthentication-how-protects-link = Sådan beskytter det din konto
 postChangeTwoStepAuthentication-how-protects-plaintext = Sådan beskytter det din konto:
+postChangeTwoStepAuthentication-device-sign-out-message = For at beskytte alle dine forbundne enheder, bør du logge ud overalt, hvor du bruger denne konto, og derefter logge ind igen ved hjælp af din nye totrinsgodkendelse.
 postConsumeRecoveryCode-title-3 = Din reserve-godkendelseskode blev brugt til at bekræfte nulstilling af adgangskode
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
