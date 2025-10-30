@@ -639,6 +639,7 @@ flow-setup-2fa-code-error = Kod i pavlefshëm, ose i skaduar. Kontrolli aplikaci
 flow-setup-2fa-backup-choice-heading = Zgjidhni një metodë rikthimi
 flow-setup-2fa-backup-choice-phone-title = Telefon rimarrjeje
 flow-setup-2fa-backup-choice-code-title = Kode mirëfilltësimi kopjeruajtjeje
+flow-setup-2fa-backup-choice-code-info = Krijoni dhe ruani kode njëpërdorimsh mirëfilltësimi .
 # This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 flow-setup-2fa-backup-choice-learn-more-link = Mësoni rreth rimarrjesh dhe rrezikut nga këmbim SIM-esh
 
@@ -677,6 +678,9 @@ flow-setup-2fa-inline-complete-learn-more-link = Si e mbron kjo llogarinë tuaj
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Vazhdoni te { $serviceName }
 flow-setup-2fa-prompt-heading = Ujdisni mirëfilltësim dyhapësh
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } lyp të ujdisni mirëfilltësim dyhapësh që të mbahet e parrezik llogaria juaj.
 flow-setup-2fa-prompt-continue-button = Vazhdo
 
 ## FlowSetupPhoneConfirmCode
