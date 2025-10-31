@@ -360,6 +360,8 @@ confirmation-link-reused-message = That confirmation link was already used, and 
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Select language
+locale-toggle-browser-default = Browser default
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Bad Request
 
@@ -752,6 +754,28 @@ modal-close-title = Close
 modal-cancel-button = Cancel
 modal-default-confirm-button = Confirm
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Enter confirmation code
+modal-mfa-protected-subtitle = Help us make sure it’s you changing your account info
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Enter the code that was sent to <email>{ $email }</email> within { $expirationTime } minute.
+       *[other] Enter the code that was sent to <email>{ $email }</email> within { $expirationTime } minutes.
+    }
+modal-mfa-protected-input-label = Enter 6-digit code
+modal-mfa-protected-cancel-button = Cancel
+modal-mfa-protected-confirm-button = Confirm
+modal-mfa-protected-code-expired = Code expired?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Email new code.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Confirm your email
@@ -773,14 +797,33 @@ nav-data-collection = Data Collection and Use
 nav-paid-subs = Paid Subscriptions
 nav-email-comm = Email Communications
 
+## Page2faChange
+
+page-2fa-change-title = Change two-step authentication
+page-2fa-change-success = Two-step authentication has been updated
+page-2fa-change-totpinfo-error = There was an error replacing your two-step authentication app. Try again later.
+page-2fa-change-qr-instruction = <strong>Step 1:</strong> Scan this QR code using any authenticator app, like Duo or Google Authenticator. This creates a new connection, any old connections won’t work anymore.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Backup authentication codes
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = There was a problem replacing your backup authentication codes
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = There was a problem creating your backup authentication codes
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Backup authentication codes updated
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Backup authentication codes created
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Keep these in a place you’ll remember. Your old codes will be replaced after you finish the next step.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Confirm you saved your codes by entering one. Your old backup authentication codes will be disabled once this step is completed.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Incorrect backup authentication code
 
 ## Page2faSetup
 
@@ -1176,6 +1219,7 @@ tfa-row-enabled = Enabled
 tfa-row-disabled-status = Disabled
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
+tfa-row-action-change = Change
 tfa-row-button-refresh =
     .title = Refresh two-step authentication
 tfa-row-cannot-refresh = Sorry, there was a problem refreshing two-step authentication.
@@ -1216,6 +1260,9 @@ terms-privacy-agreement-default-2 = By proceeding, you agree to the <mozillaAcco
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = or
+# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
+# This could also be translated as "Sign in with the following" or "Sign in with the below".
+third-party-auth-options-sign-in-with = Sign in with
 continue-with-google-button = Continue with { -brand-google }
 continue-with-apple-button = Continue with { -brand-apple }
 
