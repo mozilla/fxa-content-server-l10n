@@ -1476,7 +1476,7 @@ pair-auth-complete-heading = Eining tilkopla
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-now-syncing-device-text = Du synkroniserer no med: { $deviceFamily } på { $deviceOS }
 pair-auth-complete-sync-benefits-text = No får du tilgang til opne faner, passord og bokmerke på alle einingane dine.
-pair-auth-complete-see-tabs-button = Syn faner frå andre einingar
+pair-auth-complete-see-tabs-button = Vis faner frå andre einingar
 pair-auth-complete-manage-devices-link = Handsam einingar
 
 ## AuthTotp page

@@ -1977,7 +1977,7 @@ msgstr "No får du tilgang til opne faner, passord og bokmerke på alle einingan
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr "Syn faner frå andre einingar"
+msgstr "Vis faner frå andre einingar"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
