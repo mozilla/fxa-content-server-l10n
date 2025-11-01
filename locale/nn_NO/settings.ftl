@@ -674,6 +674,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Hald fram
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Tostegs-autentisering aktivert
+flow-setup-2fa-inline-complete-success-banner-description = For å verne alle tilkopla einingar bør du logge ut overalt der du brukar denne kontoen, og deretter logge inn igjen med den nye tostegs-utentiseringa di.
 flow-setup-2fa-inline-complete-backup-code = Reserve-autentiseringskodar
 flow-setup-2fa-inline-complete-backup-phone = Gjenopprettingstelefon
 # $count (Number) - an integer representing the number of backup
@@ -805,6 +806,7 @@ nav-email-comm = E-postkommunikasjon
 
 page-2fa-change-title = Endre tostegs-autentisering
 page-2fa-change-success = Tostegs-autentisering er oppdatert
+page-2fa-change-success-additional-message = For å verne alle tilkopla einingar bør du logge ut overalt der du brukar denne kontoen, og deretter logge inn igjen med den nye tostegs-utentiseringa di.
 page-2fa-change-totpinfo-error = Det oppstod ein feil ved byte av tostegs-autentiseringsappen. Prøv igjen seinare.
 page-2fa-change-qr-instruction = <strong>Steg 1:</strong> Skann denne QR-koden med ein autentiseringsapp, til dømes Duo eller Google Authenticator. Dette opprettar ei ny tilkopling, og eventuelle gamle tilkoplingar vil ikkje lenger fungere.
 
@@ -836,7 +838,7 @@ page-2fa-setup-totpinfo-error = Det oppstod ein feil under oppsett av tostegs-au
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Den koden er ikkje rett. Prøv på nytt.
 page-2fa-setup-success = Tostegs-autentisering er slått på
-page-2fa-setup-success-additional-message = For å verne alle tilkopla einingar bør du logge ut overalt der du brukar denne kontoen, og deretter logge på igjen med den nye tostegs-autentiseringa di.
+page-2fa-setup-success-additional-message = For å verne alle tilkopla einingar bør du logge ut overalt der du brukar denne kontoen, og deretter logge inn igjen med tostegs-autentisering.
 
 ## Avatar change page
 

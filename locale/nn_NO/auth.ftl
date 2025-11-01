@@ -494,6 +494,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Du har òg lagt til reserve
 postAddTwoStepAuthentication-recovery-method-phone = Du la òg til { $maskedPhoneNumber } som telefonnummer for gjenoppretting.
 postAddTwoStepAuthentication-how-protects-link = Korleis dette vernar kontoen din
 postAddTwoStepAuthentication-how-protects-plaintext = Korleis dette vernar kontoen din:
+postAddTwoStepAuthentication-device-sign-out-message = For å verne alle tilkopla einingar bør du logge ut overalt der du brukar denne kontoen, og deretter logge inn igjen med tostegs-autentisering.
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
 postChangeAccountRecovery-title = Du endra kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har no ein ny kontogjenopprettingsnøkkel. Den førre nøkkelen din vart sletta.
@@ -519,6 +520,7 @@ postChangeTwoStepAuthentication-from-device = Du ba om dette frå:
 postChangeTwoStepAuthentication-action = Handsam kontoen
 postChangeTwoStepAuthentication-how-protects-link = Korleis dette vernar kontoen din
 postChangeTwoStepAuthentication-how-protects-plaintext = Korleis dette vernar kontoen din:
+postChangeTwoStepAuthentication-device-sign-out-message = For å verne alle tilkopla einingar bør du logge ut overalt der du brukar denne kontoen, og deretter logge inn igjen med den nye tostegs-autentiseringa di.
 postConsumeRecoveryCode-title-3 = Reserve-autentiseringskoden din vart brukt til å stadfeste tilbakestilling av passord
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
