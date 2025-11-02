@@ -140,6 +140,10 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Гэты запыт п
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Гэты запыт прыйшоў ад { $uaOS }.
 automatedEmailRecoveryKey-more-info = Для атрымання дадатковай інфармацыі наведайце <a data-l10n-name="supportLink">падтрымку { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Гэты запыт паступіў ад:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Калі гэта былі не вы, выдаліце новы ключ:
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Калі гэта былі не вы, змяніце пароль:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
@@ -283,6 +287,9 @@ passwordChangeRequired-subject = Выяўлена падазроная акты�
 passwordChangeRequired-preview = Неадкладна змяніце пароль
 passwordChangeRequired-title-2 = Скінуць пароль
 passwordChangeRequired-action = Скінуць пароль
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Выкарыстайце { $code }, каб змяніць пароль
 password-forgot-otp-title = Забылі свой пароль?
 password-forgot-otp-request = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:
 password-forgot-otp-expiry-notice = Гэты код дзейнічае 10 хвілін
@@ -291,6 +298,7 @@ passwordReset-title-2 = Ваш пароль быў скінуты
 passwordResetAccountRecovery-subject-2 = Ваш пароль быў скінуты
 passwordResetAccountRecovery-title-3 = Ваш пароль быў скінуты
 passwordResetAccountRecovery-action-4 = Кіраваць уліковым запісам
+passwordResetRecoveryPhone-action = Кіраванне ўліковым запісам
 passwordResetWithRecoveryKeyPrompt-subject = Ваш пароль быў скінуты
 passwordResetWithRecoveryKeyPrompt-title = Ваш пароль быў скінуты
 postAddAccountRecovery-subject-3 = Створаны новы ключ аднаўлення ўліковага запісу
@@ -302,6 +310,11 @@ postAddAccountRecovery-action = Кіраванне ўліковым запіса
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Уліковы запіс { $providerName } быў звязаны з вашым { -product-mozilla-account }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
+postAddRecoveryPhone-preview = Уліковы запіс абаронены двухэтапнай аўтэнтыфікацыяй
+postAddRecoveryPhone-title-v2 = Вы дадалі нумар тэлефона для аднаўлення
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Вы дадалі { $maskedLastFourPhoneNumber } у якасці нумара тэлефона для аднаўлення
 postAddRecoveryPhone-enabled-device = Вы ўключылі яе з:
 postAddRecoveryPhone-action = Кіраванне ўліковым запісам
 postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапную аўтэнтыфікацыю
@@ -325,6 +338,9 @@ postNewRecoveryCodes-action = Кіраванне ўліковым запісам
 postRemoveAccountRecovery-subject-2 = Ключ аднаўлення ўліковага запісу выдалены
 postRemoveAccountRecovery-title-3 = Вы выдалілі ключ аднаўлення ўліковага запісу
 postRemoveAccountRecovery-action = Кіраванне ўліковым запісам
+postRemoveRecoveryPhone-subject = Нумар тэлефона для аднаўлення выдалены
+postRemoveRecoveryPhone-title = Нумар тэлефона для аднаўлення выдалены
+postRemoveRecoveryPhone-requested-device = Вы запыталі гэта з:
 postRemoveSecondary-subject = Другі адрас эл.пошты выдалены
 postRemoveSecondary-title = Другі адрас эл.пошты выдалены
 # Variables:
