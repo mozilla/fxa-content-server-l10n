@@ -201,10 +201,10 @@ payment-method-payment-provider-plaintext = Način plačila: { $paymentProviderN
 ##  $cardName (String) - The brand name of the credit card, e.g. American Express
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
-payment-provider-card-name-ending-in-plaintext = Način plačila: { $cardName }, ki se končuje s { $lastFour }
-payment-provider-card-ending-in-plaintext = Način plačila: Kartica, ki se končuje s { $lastFour }
-payment-provider-card-ending-in = <b>Način plačila:</b> Kartica, ki se končuje s { $lastFour }
-payment-provider-card-ending-in-card-name = <b>Način plačila:</b> { $cardName }, ki se končuje s { $lastFour }
+payment-provider-card-name-ending-in-plaintext = Plačilno sredstvo: { $cardName }, ki se končuje s { $lastFour }
+payment-provider-card-ending-in-plaintext = Plačilno sredstvo: kartica, ki se končuje s { $lastFour }
+payment-provider-card-ending-in = <b>Plačilno sredstvo:</b> kartica, ki se končuje s { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Plačilno sredstvo:</b> { $cardName }, ki se končuje s { $lastFour }
 subscription-charges-invoice-summary = Povzetek računa
 
 # Variables:
@@ -421,10 +421,10 @@ passwordChanged-description-2 = Geslo vašega { -product-mozilla-account(sklon: 
 passwordChangeRequired-subject = Odkrita sumljiva aktivnost
 passwordChangeRequired-preview = Takoj spremenite geslo
 passwordChangeRequired-title-2 = Ponastavite geslo
-passwordChangeRequired-suspicious-activity-3 = Vaš račun smo zaklenili, da bi bil zaščiten pred sumljivo dejavnostjo. Odjavljeni ste bili iz vseh naprav in vsi sinhronizirani podatki so bili previdnostno izbrisani.
+passwordChangeRequired-suspicious-activity-3 = Vaš račun smo zaklenili, da bi ga zaščitili pred sumljivo dejavnostjo. Odjavljeni ste bili iz vseh naprav in vsi sinhronizirani podatki so bili preventivno izbrisani.
 passwordChangeRequired-sign-in-3 = Če se želite znova prijaviti v svoj račun, morate samo ponastaviti geslo.
-passwordChangeRequired-different-password-2 = <b>Pomembno:</b> Izberite močno geslo, ki se razlikuje od tistega, ki ste ga uporabljali v preteklosti.
-passwordChangeRequired-different-password-plaintext-2 = Pomembno: izberite močno geslo, ki je drugačno od tistega, ki ste ga uporabljali v preteklosti.
+passwordChangeRequired-different-password-2 = <b>Pomembno:</b> Izberite močno geslo, različno od dosedanjih.
+passwordChangeRequired-different-password-plaintext-2 = Pomembno: Izberite močno geslo, različno od dosedanjih.
 passwordChangeRequired-action = Ponastavi geslo
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 # Variables:
@@ -879,7 +879,7 @@ verifyPrimary-post-verify-2 = Potem ko ga potrdite, bodo na tej napravi omogoče
 # Variables:
 #  $code (String) - The confirmation code for secondary email
 verifySecondaryCode-subject-2 = Uporabite { $code } za potrditev pomožnega e-poštnega naslova
-verifySecondaryCode-preview = Koda poteče čez 5 minut.
+verifySecondaryCode-preview = Ta koda poteče čez 5 minut.
 verifySecondaryCode-title-2 = Potrdi pomožni e-poštni naslov
 verifySecondaryCode-action-2 = Potrdi e-poštni naslov
 # Variables:

@@ -388,7 +388,7 @@ password-strength-inline-min-length = vsebuje vsaj 8 znakov
 password-strength-inline-not-email = ni vaš e-poštni naslov
 password-strength-inline-not-common = ni eno od pogostih gesel
 password-strength-inline-confirmed-must-match = Potrditev se ujema z novim geslom
-password-strength-inline-passwords-match = Gesla se ujemajo
+password-strength-inline-passwords-match = Gesli se ujemata
 
 ## Notification Promo Banner component
 
@@ -692,7 +692,7 @@ flow-setup-2fa-inline-complete-backup-code-info =
         [few] Ostaja še { $count } kod
        *[other] Ostaja še { $count } kod
     }
-flow-setup-2fa-inline-complete-backup-code-description = To je najvarnejša metoda obnovitve, če se ne morete prijaviti z mobilno napravo ali aplikacijo za overitev.
+flow-setup-2fa-inline-complete-backup-code-description = To je najvarnejša metoda obnovitve, če nimate možnosti prijave z mobilno napravo ali z aplikacijo za overjanje.
 flow-setup-2fa-inline-complete-backup-phone-description = To je najpreprostejša metoda obnovitve, če se nimate možnosti prijaviti v aplikacijo za overjanje.
 flow-setup-2fa-inline-complete-learn-more-link = Kako to ščiti vaš račun
 # $serviceName (String) - the name of the product that the user will be

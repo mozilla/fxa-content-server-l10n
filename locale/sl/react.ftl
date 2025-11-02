@@ -7,7 +7,7 @@ app-query-parameter-err-heading = Nepravilna zahteva: neveljavni parametri poizv
 # Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
 # or maybe the session token is stale and the user needs to sign back in again.
 app-invalid-session-err-heading = Neveljavna seja
-app-invalid-session-err-message = Prosimo, odjavite se in se ponovno prijavite.
+app-invalid-session-err-message = Odjavite se in se znova prijavite.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
