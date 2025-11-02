@@ -390,6 +390,16 @@ passwordChanged-description-2 = Se ha cambiado correctamente la contraseña de t
 passwordChangeRequired-subject = Se ha detectado actividad sospechosa
 passwordChangeRequired-preview = Cambia tu contraseña inmediatamente
 passwordChangeRequired-title-2 = Restablecer tu contraseña
+passwordChangeRequired-suspicious-activity-3 = Hemos bloqueado tu cuenta para protegerla de actividades sospechosas. Se ha cerrado la sesión en todos tus dispositivos y se han eliminado los datos sincronizados como medida de precaución.
+passwordChangeRequired-sign-in-3 = Para volver a iniciar sesión en tu cuenta, solo tienes que restablecer tu contraseña.
+passwordChangeRequired-different-password-2 = <b>Importante:</b> Elige una contraseña segura que sea diferente de las que has utilizado en el pasado.
+passwordChangeRequired-different-password-plaintext-2 = Importante: Elige una contraseña segura que sea diferente de las que has utilizado en el pasado.
+passwordChangeRequired-action = Restablecer contraseña
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action } :
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Usa { $code } para cambiar su contraseña
+password-forgot-otp-preview = Este código caduca en 10 minutos.
 password-forgot-otp-title = ¿Olvidaste tu contraseña?
 password-forgot-otp-request = Hemos recibido una solicitud para cambiar la contraseña en tu { -product-mozilla-account } desde:
 password-forgot-otp-code-2 = En fuiste tú, aquí está tu código de confirmación:
@@ -443,6 +453,8 @@ postAddRecoveryPhone-how-protect = Cómo protege tu cuenta
 postAddRecoveryPhone-how-protect-plaintext = Cómo protege tu cuenta:
 postAddRecoveryPhone-enabled-device = Lo has activado desde:
 postAddRecoveryPhone-action = Administrar cuenta
+postAddTwoStepAuthentication-preview = Tu cuenta está protegida
+postAddTwoStepAuthentication-subject-v3 = La autenticación en dos pasos está activada
 postAddTwoStepAuthentication-title-2 = Has activado la autenticación en dos pasos
 postAddTwoStepAuthentication-action = Administrar cuenta
 postChangeAccountRecovery-subject = Clave de recuperación de cuenta cambiada

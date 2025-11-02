@@ -26,6 +26,17 @@ upgrade-page-acknowledgment = Tu plan cambiará de inmediato y se te cobrará ho
 auth-error-page-title = No hemos podido iniciar la sesión
 checkout-error-boundary-retry-button = Volver a intentarlo
 checkout-error-boundary-basic-error-message = Algo salió mal. Inténtalo de nuevo o <contactSupportLink>contacta con el servicio de asistencia</contactSupportLink>.
+amex-logo-alt-text = Logo de { -brand-amex }
+diners-logo-alt-text = Logo de { -brand-diner }
+discover-logo-alt-text = Logo de { -brand-discover }
+jcb-logo-alt-text = Logo de { -brand-jcb }
+mastercard-logo-alt-text = Logo de { -brand-mastercard }
+paypal-logo-alt-text = Logo de { -brand-paypal }
+unionpay-logo-alt-text = Logo de { -brand-unionpay }
+visa-logo-alt-text = Logo de { -brand-visa }
+link-logo-alt-text = Logo de { -brand-link }
+apple-pay-logo-alt-text = Logo de { -brand-apple-pay }
+google-pay-logo-alt-text = Logo de { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -40,6 +51,17 @@ checkout-error-already-subscribed = Ya estás suscrito a este producto.
 checkout-error-contact-support = Por favor contacta con el servicio de asistencia para que podamos ayudarte.
 cart-error-currency-not-determined = No hemos podido determinar la moneda para esta compra, por favor vuelve a intentarlo.
 checkout-processing-general-error = Ha ocurrido un error inesperado al procesar el pago, por favor prueba de nuevo.
+
+## Error pages - Payment method failure messages
+
+intent-card-error = Tu transacción no pudo ser procesada. Verifica la información de tu tarjeta de crédito y vuelve a intentarlo.
+intent-expired-card-error = Parece que tu tarjeta de crédito ha caducado. Prueba con otra tarjeta.
+intent-payment-error-try-again = Hmm. Hubo un problema autorizando tu pago. Inténtalo otra vez o ponte en contacto con el emisor de su tarjeta
+intent-payment-error-get-in-touch = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
+intent-payment-error-generic = Ha ocurrido un error inesperado al procesar el pago, por favor prueba de nuevo.
+intent-payment-error-insufficient-funds = Parece que tu tarjeta no tiene fondos suficientes. Prueba con otra tarjeta.
+general-paypal-error = Ha ocurrido un error inesperado al procesar el pago, por favor prueba de nuevo.
+paypal-active-subscription-no-billing-agreement-error = Parece que hubo un problema al facturar tu cuenta { -brand-paypal }. Vuelve a activar los pagos automáticos de tu suscripción.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -70,13 +92,57 @@ next-payment-confirmation-download-button = Continuar para descargar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-account-profile-picture = Foto de perfil de la cuenta
+
+## Page - Subscription Management
+
+subscription-management-account-credit-balance-message = El crédito se aplicará automáticamente a futuras facturas.
+subscription-management-payment-information-heading = Información de pago
+subscription-management-button-add-payment-method-aria = Añadir un método de pago
+subscription-management-button-add-payment-method = Añadir
+subscription-management-button-change-payment-method-aria = Cambiar método de pago
+subscription-management-button-change-payment-method = Cambiar
+subscription-management-button-manage-payment-method-aria = Administrar métodos de pago
+subscription-management-button-manage-payment-method = Administrar
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Tarjeta que termina en { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Caduca { $expirationDate }
+subscription-management-subscriptions-heading = Suscripciones
+subscription-management-your-subscriptions-aria = Tus suscripciones
+subscription-management-no-subscriptions = Todavía no tienes ninguna suscripción.
+subscription-management-button-support = Obtener ayuda
+subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-apple }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: compras en la app
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = La próxima factura vence el <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Su suscripción expirará el <strong>{ $date }</strong>
+subscription-management-button-manage-subscription = Administrar
+
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (diario)
+subscription-management-page-subscription-interval-weekly = { $productName } (semanal)
+subscription-management-page-subscription-interval-monthly = { $productName } (mensual)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 meses)
+subscription-management-page-subscription-interval-yearly = { $productName } (anual)
+subscription-management-page-paypal-error-banner-link = Administrar
 # Page - Not Found
 page-not-found-title = Página no encontrada
 page-not-found-description = No se ha encontrado la página solicitada. Hemos sido notificados y arreglaremos cualquier enlace que pueda estar roto.
 page-not-found-back-button = Retroceder
+alert-dialog-title = Diálogo de alerta
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Página principal de la cuenta
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Suscripciones
 
 ## Component - Payment Consent Checkbox
 
@@ -178,6 +244,32 @@ next-new-user-subscribe-product-updates-mdnplus = Me gustaría recibir noticias 
 next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir noticias y actualizaciones de productos de { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
+
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> de crédito emitido a tu cuenta
+subscription-content-coupon-will-be-applied = Se aplicará el descuento de { $promotionName }
+subscription-cancellation-dialog-aside = ¿Alguna pregunta? Visita la <LinkExternal>ayuda de { -brand-mozilla }</LinkExternal>.
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = ¿Quieres seguir usando { $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-success-dialog-title = ¡Gracias! Está todo listo.
+
+##
+
+dialog-close = Cerrar el diálogo
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
