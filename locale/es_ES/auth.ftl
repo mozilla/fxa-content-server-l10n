@@ -188,12 +188,21 @@ payment-plan-charged = Cobrado: { $invoiceTotal } el { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Método de pago:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Método de pago: { $paymentProviderName }
+
 ## This string displays when the type of credit card is known
 ## https://stripe.com/docs/payments/cards/supported-card-brands
 ## Variables:
 ##  $cardName (String) - The brand name of the credit card, e.g. American Express
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
+payment-provider-card-name-ending-in-plaintext = Método de pago: { $cardName } que termina en { $lastFour }
+payment-provider-card-ending-in-plaintext = Método de pago: Tarjeta que termina en { $lastFour }
+payment-provider-card-ending-in = <b>Método de pago:</b> Tarjeta que termina en { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Método de pago:</b> { $cardName } que termina en { $lastFour }
 subscription-charges-invoice-summary = Resumen de la factura
 
 # Variables:
@@ -209,8 +218,29 @@ subscription-charges-invoice-date-plaintext = Fecha: { $invoiceDateOnly }
 subscription-charges-prorated-price = Precio prorrateado
 # $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
 subscription-charges-prorated-price-plaintext = Precio prorrateado: { $remainingAmountTotal }
+subscription-charges-list-price = Precio de lista
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Precio de lista: { $offeringPrice }
+subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-discount = Descuento
+subscription-charges-discount-plaintext = Descuento: { $invoiceDiscountAmount }
+subscription-charges-taxes = Impuestos y cargos
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Impuestos y cargos: { $invoiceTaxAmount }
+subscription-charges-total = <b>Total</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Total: { $invoiceTotal }
+subscription-charges-amount-paid = <b>Importe pagado</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Importe pagado: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Has recibido un crédito en tu cuenta de { $creditReceived }, que se aplicará a tus facturas futuras.
 
 ##
 
@@ -222,6 +252,8 @@ subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equip
 subscriptionSupportContact = Gracias por suscribirte a { $productName }. Si tienes alguna pregunta sobre tu suscripción o necesitas más información sobre { $productName }, por favor <a data-l10n-name="subscriptionSupportUrl">ponte en contacto con nosotros</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Gracias por suscribirte a { $productName }. Si tienes alguna pregunta sobre tu suscripción o necesitas más información sobre { $productName }, por favor ponte en contacto con nosotros:
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Contactar con la asistencia:
 subscriptionUpdateBillingEnsure = Puedes asegurarte de que tu método de pago y la información de tu cuenta están actualizados <a data-l10n-name="updateBillingUrl">aquí</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Puedes asegurarte de que tu método de pago y la información de tu cuenta están actualizados aquí:
@@ -232,6 +264,12 @@ subscriptionUpdatePayment = Para evitar cualquier interrupción en tu servicio, 
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, por favor actualiza tu información de pago lo antes posible:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Para más información, visita <a data-l10n-name="supportLink">Ayuda de { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Para más información, visita Ayuda de { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -240,6 +278,23 @@ device-all = { $uaBrowser } en { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } en { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (estimado)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (estimado)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (estimado)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (estimado)
+view-invoice-link-action = Ver factura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -333,6 +388,8 @@ passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Has cambiado la contraseña correctamente
 passwordChanged-description-2 = Se ha cambiado correctamente la contraseña de tu { -product-mozilla-account } desde el siguiente dispositivo:
 passwordChangeRequired-subject = Se ha detectado actividad sospechosa
+passwordChangeRequired-preview = Cambia tu contraseña inmediatamente
+passwordChangeRequired-title-2 = Restablecer tu contraseña
 password-forgot-otp-title = ¿Olvidaste tu contraseña?
 password-forgot-otp-request = Hemos recibido una solicitud para cambiar la contraseña en tu { -product-mozilla-account } desde:
 password-forgot-otp-code-2 = En fuiste tú, aquí está tu código de confirmación:
