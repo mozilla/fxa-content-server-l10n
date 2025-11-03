@@ -91,6 +91,20 @@ datablock-copy =
 datablock-print =
     .message = Imprimido
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] Código copiado
+       *[other] Códigos copiados
+    }
+datablock-download-success =
+    { $count ->
+        [one] Código descargado
+       *[other] Códigos descargados
+    }
+
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -136,6 +150,9 @@ form-password-with-inline-criteria-confirm-password =
 form-password-with-inline-criteria-reset-submit-button = Crear nueva contraseña
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = Contraseña
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Repetir contraseña
+form-password-with-inline-criteria-set-password-submit-button = Empezar a sincronizar
 form-password-with-inline-criteria-match-error = Las contraseñas no coinciden
 form-password-with-inline-criteria-sr-too-short-message = La contraseña debe contener al menos 8 caracteres.
 form-password-with-inline-criteria-sr-not-email-message = La contraseña no debe contener tu dirección de correo electrónico.
@@ -336,6 +353,7 @@ confirmation-link-reused-message = Ese enlace de confirmación ya ha sido usado 
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Selecciona un idioma
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud incorrecta
 
@@ -348,6 +366,8 @@ password-info-balloon-reset-risk-info = Un reinicio podría ocasionar la pérdid
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Elige una contraseña segura que no hayas usado en otros sitios. Asegúrate de que cumpla con los requisitos de seguridad:
+password-strength-short-instruction = Elige una contraseña segura:
 password-strength-inline-min-length = Al menos 8 caracteres
 password-strength-inline-not-email = Diferente a tu dirección de correo electrónico
 password-strength-inline-not-common = Que no sea una contraseña de uso común
@@ -461,6 +481,12 @@ bento-menu-made-by-mozilla = Creado por { -brand-mozilla }
 
 connect-another-fx-mobile = Obtén { -brand-firefox } en un dispositivo móvil o tableta
 connect-another-find-fx-mobile-2 = Busca { -brand-firefox } en { -google-play } y { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Descarga { -brand-firefox } en { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Descargar { -brand-firefox } en { -app-store }
 
 ## Connected services section
 
@@ -634,6 +660,20 @@ flow-setup-2fa-backup-code-confirm-button-finish = Finalizar
 flow-setup-2fa-backup-code-dl-heading = Guardar códigos de autenticación de respaldo
 flow-setup-2fa-backup-code-dl-save-these-codes = Guárdalos en un lugar que puedas recordar. Si no tienes acceso a tu aplicación de autenticación, necesitarás uno para conectarte.
 flow-setup-2fa-backup-code-dl-button-continue = Continuar
+
+##
+
+flow-setup-2fa-inline-complete-success-banner = Autenticación en dos pasos activada
+flow-setup-2fa-inline-complete-success-banner-description = Para proteger todos tus dispositivos conectados, debes cerrar sesión en todos los lugares donde uses esta cuenta y luego volver a iniciar sesión usando la nueva autenticación en dos pasos.
+flow-setup-2fa-inline-complete-backup-code = Códigos de autenticación de respaldo
+flow-setup-2fa-inline-complete-backup-phone = Teléfono de recuperación
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } código restante
+       *[other] { $count } códigos restantes
+    }
 
 ## FlowSetupPhoneConfirmCode
 

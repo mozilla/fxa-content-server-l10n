@@ -198,6 +198,10 @@ payments-client-loading-spinner =
     .aria-label = Cargando…
     .alt = Cargando…
 
+## Payment method management page - Stripe
+
+manage-stripe-payments-title = Administrar métodos de pago
+
 ## Payment Section
 
 next-new-user-card-title = Escribe la información de tu tarjeta
@@ -255,8 +259,23 @@ next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> de crédito emitido a tu cuenta
+subscription-content-coupon-applied = { $promotionName } aplicado
 subscription-content-coupon-will-be-applied = Se aplicará el descuento de { $promotionName }
+subscription-content-button-cancel-subscription = Cancelar suscripción
+    .aria-label = Cancelar suscripción a { $productName }
+subscription-content-button-cancel = Cancelar
+    .aria-label = Cancelar suscripción a { $productName }
+subscription-content-cancel-action-error = Se ha producido un error inesperado. Inténtalo de nuevo.
+subscription-cancellation-dialog-title = Lamentamos que te vayas.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Tu suscripción a { $name } ha sido cancelada. Todavía tendrás acceso a { $name } hasta el { $date }.
 subscription-cancellation-dialog-aside = ¿Alguna pregunta? Visita la <LinkExternal>ayuda de { -brand-mozilla }</LinkExternal>.
+subscription-content-button-resubscribe = Volver a suscribir
+    .aria-label = Volver a suscribirse a { $productName }
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Perderás acceso a { $name } el <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = ¿Quieres seguir usando { $name }?
 
@@ -265,6 +284,9 @@ resubscribe-dialog-title = ¿Quieres seguir usando { $name }?
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Volver a suscribir
+    .aria-label = Volver a suscribirse a { $productName }
 resubscribe-success-dialog-title = ¡Gracias! Está todo listo.
 
 ##
