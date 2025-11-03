@@ -674,6 +674,18 @@ flow-setup-2fa-inline-complete-backup-code-info =
         [one] { $count } código restante
        *[other] { $count } códigos restantes
     }
+flow-setup-2fa-inline-complete-backup-code-description = Este es el método de recuperación más seguro si no puedes iniciar sesión con tu dispositivo móvil o la aplicación de autenticación.
+flow-setup-2fa-inline-complete-backup-phone-description = Este es el método de recuperación más sencillo si no puedes iniciar sesión con tu aplicación de autenticación.
+flow-setup-2fa-inline-complete-learn-more-link = Cómo protege tu cuenta
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Continuar a { $serviceName }
+flow-setup-2fa-prompt-heading = Configurar la autenticación en dos pasos
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } requiere que configures la autenticación en dos pasos para mantener tu cuenta segura.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Puedes usar cualquiera de estas <authenticationAppsLink>aplicaciones de autenticación</authenticationAppsLink> para continuar.
 
 ## FlowSetupPhoneConfirmCode
 
@@ -1149,6 +1161,7 @@ tfa-row-enabled = Activado
 tfa-row-disabled-status = Desactivado
 tfa-row-action-add = Añadir
 tfa-row-action-disable = Desactivar
+tfa-row-action-change = Cambiar
 tfa-row-button-refresh =
     .title = Actualizar autenticación en dos pasos
 tfa-row-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la autenticación en dos pasos.
@@ -1355,6 +1368,7 @@ inline-totp-setup-security-code-placeholder = Código de autenticación
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Código de autenticación requerido
 tfa-qr-code-alt = Usa el código { $code } para configurar la autenticación en dos pasos en las aplicaciones admitidas.
+inline-totp-setup-page-title = Autenticación en dos pasos
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1472,6 +1486,14 @@ pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde tu otro di
 
 pair-unsupported-header = Conectarse mediante una aplicación
 pair-unsupported-message = ¿Has usado la cámara del sistema? Tienes que conectarla desde una aplicación de { -brand-firefox }.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading-v2 = Crea una contraseña para sincronizar
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1648,6 +1670,11 @@ signin-password-button-label = Contraseña
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } intentará enviarte nuevamente donde estabas para que uses una máscara de correo electrónico después de iniciar sesión.
+signin-code-expired-error = El código ha caducado. Por favor, inicia sesión de nuevo.
+signin-account-locked-banner-heading = Restablecer tu contraseña
+signin-account-locked-banner-description = Hemos bloqueado tu cuenta para protegerla de actividades sospechosas.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Restablece tu contraseña para iniciar sesión
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1840,6 +1867,7 @@ confirm-signup-code-instruction-v2 = Introduce en un plazo de 5 minutos el códi
 confirm-signup-code-input-label = Introduce el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
+confirm-signup-code-sync-button = Empezar a sincronizar
 confirm-signup-code-code-expired = ¿Código caducado?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Enviar código nuevo por correo electrónico.
@@ -1854,6 +1882,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } intentará enviarte nueva
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Crear una contraseña
 signup-relay-info = Se necesita una contraseña para administrar de forma segura tus correos electrónicos enmascarados y acceder a las herramientas de seguridad de { -brand-mozilla }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
@@ -1862,3 +1891,12 @@ signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
 signup-pocket-info-banner-link = Descúbrelo aquí
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
+signup-confirmed-sync-header = La sincronización está activada
+signup-confirmed-sync-button = Comienza a navegar
+signup-confirmed-sync-add-device-link = Añadir otro dispositivo
+signup-confirmed-sync-manage-sync-button = Administrar sincronización
+signup-confirmed-sync-set-password-success-banner = Contraseña de sincronización creada
