@@ -100,39 +100,39 @@ next-payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informations de paiement invalides
 subscription-management-page-paypal-error-banner-message-account-error = Une erreur s’est produite avec votre compte.
 subscription-management-button-manage-payment-method-1 = Gérer le moyen de paiement
-subscription-management-page-banner-warning-title-no-payment-method = Aucun mode de paiement ajouté
-subscription-management-page-banner-warning-link-no-payment-method = Ajouter un mode de paiement
+subscription-management-page-banner-warning-title-no-payment-method = Aucun moyen de paiement ajouté
+subscription-management-page-banner-warning-link-no-payment-method = Ajouter un moyen de paiement
 subscription-management-subscriptions-heading = Abonnements
 # Heading for mobile only quick links menu
-subscription-management-jump-to-heading = Aller à
+subscription-management-jump-to-heading = Atteindre
 subscription-management-nav-payment-details = Informations de paiement
 subscription-management-nav-active-subscriptions = Abonnements actifs
 subscription-management-payment-details-heading = Informations de paiement
 subscription-management-email-label = Adresse e-mail
-subscription-management-credit-balance-label = solde créditeur
+subscription-management-credit-balance-label = Solde créditeur
 subscription-management-credit-balance-message = Le crédit sera automatiquement appliqué aux prochaines factures
 subscription-management-payment-method-label = Moyen de paiement
 subscription-management-button-add-payment-method-aria = Ajouter un moyen de paiement
 subscription-management-button-add-payment-method = Ajouter
-subscription-management-page-warning-message-no-payment-method = Veuillez ajouter un mode de paiement pour éviter l'interruption de vos abonnements.
+subscription-management-page-warning-message-no-payment-method = Veuillez ajouter un moyen de paiement pour éviter l’interruption de vos abonnements.
 subscription-management-button-manage-payment-method-aria = Gérer le moyen de paiement
 subscription-management-button-manage-payment-method = Gérer
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Carte se terminant par { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expiration : { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Il y a un problème avec votre compte { -brand-paypal }. Veuillez résoudre le problème pour conserver vos abonnements actifs.
+subscription-management-error-paypal-billing-agreement = Il y a un problème avec votre compte { -brand-paypal }. Merci de le régler afin de garder vos abonnements actifs.
 subscription-management-active-subscriptions-heading = Abonnements actifs
-subscription-management-you-have-no-active-subscriptions = Vous n'avez aucun abonnement actif
+subscription-management-you-have-no-active-subscriptions = Vous n’avez aucun abonnement actif
 subscription-management-new-subs-will-appear-here = Les nouveaux abonnements apparaîtront ici.
 subscription-management-your-active-subscriptions-aria = Vos abonnements actifs
 subscription-management-button-support = Obtenir de l’aide
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obtenir de l’aide pour { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vos abonnements { -brand-apple } via l’application
-subscription-management-apple-in-app-purchase-2 = { -brand-apple } via achat via l’application
+subscription-management-apple-in-app-purchase-2 = Achat intégré { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Vos abonnements { -brand-google } via l’application
-subscription-management-google-in-app-purchase-2 = { -brand-google } via achat via l’application
+subscription-management-google-in-app-purchase-2 = Achat intégré { -brand-google }
 # $date (String) - Date of next bill
 subscription-management-iap-sub-expires-on-expiry-date = Date d’expiration : { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
