@@ -106,8 +106,18 @@ subscription-management-button-manage-payment-method-1 = Administroni metodë pa
 subscription-management-page-banner-warning-title-no-payment-method = S’u shtua metodë pagesash
 subscription-management-page-banner-warning-link-no-payment-method = Shtoni një metodë pagese
 subscription-management-subscriptions-heading = Pajtime
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Kaloni te
+subscription-management-nav-payment-details = Hollësi pagese
+subscription-management-nav-active-subscriptions = Pajtime Aktive
+subscription-management-payment-details-heading = Hollësi pagese
+subscription-management-email-label = Email
+subscription-management-credit-balance-label = Balancë krediti
+subscription-management-credit-balance-message = Krediti do të aplikohet automatikisht në faturat e ardhme
+subscription-management-payment-method-label = Metodë pagesash
 subscription-management-button-add-payment-method-aria = Shtoni metodë pagese
 subscription-management-button-add-payment-method = Shto
+subscription-management-page-warning-message-no-payment-method = Ju lutemi, shtoni një metodë pagesash, që të shmanget ndërprerje te pajtimet tuaja.
 subscription-management-button-manage-payment-method-aria = Administroni metodë pagesash
 subscription-management-button-manage-payment-method = Administrojini
 # $last4 (String) - Last four numbers of credit card
