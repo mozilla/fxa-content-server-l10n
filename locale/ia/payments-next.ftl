@@ -110,6 +110,8 @@ subscription-management-nav-active-subscriptions = Abonamentos active
 subscription-management-payment-details-heading = Detalios de pagamento
 subscription-management-email-label = Email
 subscription-management-credit-balance-label = Saldo a credito
+subscription-management-credit-balance-message = Le credito sera automaticamente applicate al facturas futur
+subscription-management-payment-method-label = Methodo de pagamento
 subscription-management-button-add-payment-method-aria = Adder methodo de pagamento
 subscription-management-button-add-payment-method = Adder
 subscription-management-button-manage-payment-method-aria = Gerer le methodo de pagamento
@@ -118,14 +120,23 @@ subscription-management-button-manage-payment-method = Gerer
 subscription-management-card-ending-in = Carta que fini in { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expira le { $expirationDate }
+subscription-management-active-subscriptions-heading = Abonamentos active
+subscription-management-you-have-no-active-subscriptions = Tu non ha alcun abonamento active.
+subscription-management-new-subs-will-appear-here = Le abonamentos nove apparera ci.
+subscription-management-your-active-subscriptions-aria = Tu abonamentos active
 subscription-management-button-support = Obtener auxilio
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obtener auxilio pro { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Tu abonamentos a  { -brand-apple } via le application
 subscription-management-apple-in-app-purchase-2 = Compra integrate { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Tu abonamentos a  { -brand-google } via le application
+subscription-management-google-in-app-purchase-2 = Compra integrate { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Expira le { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gerer abonamento pro { $productName }
+subscription-management-button-manage-subscription-1 = Gerer abonamento
+manage-payment-methods-heading = Gerer methodos de pagamento
 paypal-payment-management-page-invalid-header = Informationes de facturation non valide
 paypal-payment-management-page-invalid-description = Il pare haber un error con tu conto de { -brand-paypal }. Nos besonia que tu face le passos necessari pro resolver iste problema de pagamento.
 # Page - Not Found
@@ -276,9 +287,20 @@ subscription-content-coupon-will-be-applied = Le discount { $promotionName } ser
 subscription-content-heading-cancel-subscription = Cancellar abonamento
 subscription-content-no-longer-use-message = Tu non plus potera usar { $productName } post { $currentPeriodEnd }, le ultime die de tu termino de facturation.
 subscription-content-cancel-access-message = Cancellar mi accesso e mi informationes salvate intra { $productName } in { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Ultime factura • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + taxa de { $taxDue }
+subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Vider le factura
+subscription-management-link-view-invoice-aria = Vider le factura pro { $productName }
+subscription-content-expires-on-expiry-date = Expira le { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Proxime factura • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + taxa de { $taxDue }
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Restar abonate
     .aria-label = Restar abonate a { $productName }
+subscription-content-button-cancel-subscription-1 = Cancellar abonamento
 subscription-content-button-cancel-subscription = Cancellar abonamento
     .aria-label = Cancella tu abonamento a { $productName }
 subscription-content-button-cancel = Cancellar
