@@ -97,6 +97,11 @@ next-payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Ongeldige betalingsgegevens
+subscription-management-page-paypal-error-banner-message-account-error = Er is een fout met uw account opgetreden.
+subscription-management-button-manage-payment-method-1 = Betalingsmethode beheren
+subscription-management-page-banner-warning-title-no-payment-method = Geen betalingsmethode toegevoegd
+subscription-management-page-banner-warning-link-no-payment-method = Een betalingsmethode toevoegen
 subscription-management-subscriptions-heading = Abonnementen
 subscription-management-button-add-payment-method-aria = Betalingsmethode toevoegen
 subscription-management-button-add-payment-method = Toevoegen
