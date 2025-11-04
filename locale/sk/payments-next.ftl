@@ -97,22 +97,48 @@ next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $las
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Neplatné informácie o platbe
+subscription-management-page-paypal-error-banner-message-account-error = Vo vašom účte sa vyskytla chyba.
+subscription-management-button-manage-payment-method-1 = Spravovať spôsob platby
+subscription-management-page-banner-warning-title-no-payment-method = Žiadny spôsob platby nebol pridaný
+subscription-management-page-banner-warning-link-no-payment-method = Pridať spôsob platby
 subscription-management-subscriptions-heading = Predplatné
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Prejsť na
+subscription-management-nav-payment-details = Podrobnosti o platbe
+subscription-management-nav-active-subscriptions = Aktívne predplatné
+subscription-management-payment-details-heading = Podrobnosti o platbe
+subscription-management-email-label = E-mail
+subscription-management-credit-balance-label = Kreditný zostatok
+subscription-management-credit-balance-message = Kredit sa automaticky použije na budúce faktúry
+subscription-management-payment-method-label = Spôsob platby
 subscription-management-button-add-payment-method-aria = Pridať platobnú metódu
 subscription-management-button-add-payment-method = Pridať
+subscription-management-page-warning-message-no-payment-method = Pridajte si spôsob platby, aby ste predišli prerušeniu svojich predplatných.
 subscription-management-button-manage-payment-method-aria = Spravovať spôsob platby
 subscription-management-button-manage-payment-method = Spravovať
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karta končiaca číslicami { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vyprší { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Vyskytol sa problém s vaším účtom { -brand-paypal }. Vyriešte problém, aby ste si zachovali aktívne predplatné.
+subscription-management-active-subscriptions-heading = Aktívne predplatné
+subscription-management-you-have-no-active-subscriptions = Nemáte žiadne aktívne predplatné
+subscription-management-new-subs-will-appear-here = Nové predplatné sa zobrazia tu.
+subscription-management-your-active-subscriptions-aria = Vaše aktívne predplatné
 subscription-management-button-support = Získať pomoc
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Získajte pomoc pre { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Nákup v aplikácii { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-google }
+subscription-management-google-in-app-purchase-2 = Nákup v aplikácii { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Vyprší dňa { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Spravovať predplatné pre { $productName }
+subscription-management-button-manage-subscription-1 = Spravovať predplatné
+manage-payment-methods-heading = Spravovať spôsoby platby
 paypal-payment-management-page-invalid-header = Neplatné fakturačné údaje
 paypal-payment-management-page-invalid-description = Zdá sa, že sa vyskytla chyba vo vašom účte { -brand-paypal }. Potrebujeme, aby ste podnikli potrebné kroky na vyriešenie tohto problému s platbou.
 # Page - Not Found
@@ -263,8 +289,20 @@ subscription-content-coupon-will-be-applied = Zľava { $promotionName } bude upl
 subscription-content-heading-cancel-subscription = Zrušiť predplatné
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, poslednom dni vášho fakturačného cyklu, už produkt { $productName } nebudete môcť používať.
 subscription-content-cancel-access-message = Zrušiť môj prístup k produktu { $productName } a dáta v ňom uložené ku dňu { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Posledná faktúra • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } daň
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Zobraziť faktúru
+subscription-management-link-view-invoice-aria = Zobraziť faktúru za { $productName }
+subscription-content-expires-on-expiry-date = Vyprší dňa { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Ďalšia faktúra • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } daň
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Ponechať predplatné
     .aria-label = Ponechať predplatné produktu { $productName }
+subscription-content-button-cancel-subscription-1 = Zrušiť predplatné
 subscription-content-button-cancel-subscription = Zrušiť predplatné
     .aria-label = Zrušiť predplatné produktu { $productName }
 subscription-content-button-cancel = Zrušiť
