@@ -1873,6 +1873,9 @@ signin-totp-code-header = Aperir session
 signin-totp-code-subheader-v2 = Insere le codice de authentication a duo passos
 signin-totp-code-instruction-v4 = Verifica tu <strong>app de authentication</strong> pro confirmar tu authentication.
 signin-totp-code-input-label-v4 = Insere le codice de 6 digitos
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Perque te es demandate de authenticar te?
+signin-totp-code-aal-banner-content = Tu ha configurate authentication a duo passos sur tu conto, ma ancora tu non ha habeva accedite con un codice sur iste apparato.
 signin-totp-code-aal-sign-out = Disconnecter iste apparato
 signin-totp-code-aal-sign-out-error = Desolate, problema durante tu disconnexion
 # Form button to confirm if the authentication code entered by the user is valid

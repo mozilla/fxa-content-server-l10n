@@ -114,12 +114,14 @@ subscription-management-credit-balance-message = Le credito sera automaticamente
 subscription-management-payment-method-label = Methodo de pagamento
 subscription-management-button-add-payment-method-aria = Adder methodo de pagamento
 subscription-management-button-add-payment-method = Adder
+subscription-management-page-warning-message-no-payment-method = Adde un methodo de pagamento pro evitar interruption a tu abonamentos.
 subscription-management-button-manage-payment-method-aria = Gerer le methodo de pagamento
 subscription-management-button-manage-payment-method = Gerer
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Carta que fini in { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expira le { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Il ha un problema con tu conto { -brand-paypal }. Resolve le problema pro mantener tu abonamentos active.
 subscription-management-active-subscriptions-heading = Abonamentos active
 subscription-management-you-have-no-active-subscriptions = Tu non ha alcun abonamento active.
 subscription-management-new-subs-will-appear-here = Le abonamentos nove apparera ci.
