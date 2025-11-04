@@ -97,9 +97,17 @@ next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε 
 
 ## Page - Subscription Management
 
+subscription-management-button-manage-payment-method-1 = Διαχείριση μεθόδου πληρωμής
+subscription-management-page-banner-warning-link-no-payment-method = Προσθήκη μεθόδου πληρωμής
 subscription-management-subscriptions-heading = Συνδρομές
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Μετάβαση σε
 subscription-management-nav-payment-details = Στοιχεία πληρωμής
 subscription-management-nav-active-subscriptions = Ενεργές συνδρομές
+subscription-management-payment-details-heading = Στοιχεία πληρωμής
+subscription-management-email-label = Email
+subscription-management-credit-balance-label = Πιστωτικό υπόλοιπο
+subscription-management-payment-method-label = Μέθοδος πληρωμής
 subscription-management-button-add-payment-method-aria = Προσθήκη μεθόδου πληρωμής
 subscription-management-button-add-payment-method = Προσθήκη
 subscription-management-button-manage-payment-method-aria = Διαχείριση μεθόδου πληρωμής
@@ -108,11 +116,19 @@ subscription-management-button-manage-payment-method = Διαχείριση
 subscription-management-card-ending-in = Κάρτα που λήγει σε { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Λήγει στις { $expirationDate }
+subscription-management-active-subscriptions-heading = Ενεργές συνδρομές
+subscription-management-you-have-no-active-subscriptions = Δεν έχετε καμία ενεργή συνδρομή.
+subscription-management-new-subs-will-appear-here = Οι νέες συνδρομές θα εμφανίζονται εδώ.
+subscription-management-your-active-subscriptions-aria = Οι ενεργές συνδρομές σας
 subscription-management-button-support = Λήψη βοήθειας
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Λήψη βοήθειας για το { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Αγορά εντός εφαρμογής μέσω { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-google }
+subscription-management-google-in-app-purchase-2 = Αγορά εντός εφαρμογής μέσω { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Λήγει στις { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
 subscription-management-button-manage-subscription-1 = Διαχείριση συνδρομής
