@@ -921,7 +921,7 @@ delete-account-product-firefox-sync = Synchronizují se údaje { -brand-firefox(
 delete-account-product-firefox-addons = Doplňky { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Potvrďte prosím, že berete na vědomí, že smazáním svého účtu:
 delete-account-chk-box-1-v4 =
-    .label = Veškeré placené předplatné bude zrušeno.
+    .label = Veškeré placené předplatné, které máte, bude zrušeno.
 delete-account-chk-box-2 =
     .label = V produktech { -brand-mozilla(case: "gen") } můžete přijít o uložené informace a funkce
 delete-account-chk-box-3 =
@@ -1875,10 +1875,10 @@ signin-totp-code-subheader-v2 = Zadejte kód pro dvoufázové ověření
 signin-totp-code-instruction-v4 = Zkontrolujte svou <strong>ověřovací aplikaci</strong> a potvrďte přihlášení.
 signin-totp-code-input-label-v4 = Zadejte šestimístný kód
 # Shown to users when they need to re-enter their authentication code, for their current device
-signin-totp-code-aal-banner-header = Proč jste žádáni o ověření?
+signin-totp-code-aal-banner-header = Proč jste požádáni o ověření?
 signin-totp-code-aal-banner-content = Pro váš účet jste nastavili dvoufázové ověřování, ale zatím jste se na tomto zařízení nepřihlásili pomocí kódu.
-signin-totp-code-aal-sign-out = Odhlaste se na tomto zařízení
-signin-totp-code-aal-sign-out-error = Omlouváme se, odhlášení se nezdařilo
+signin-totp-code-aal-sign-out = Odhlásit se na tomto zařízení
+signin-totp-code-aal-sign-out-error = Omlouváme se, došlo k problému s odhlášením.
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdit
 signin-totp-code-other-account-link = Použít jiný účet
