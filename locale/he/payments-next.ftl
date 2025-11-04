@@ -95,7 +95,18 @@ next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $l
 
 ## Page - Subscription Management
 
+subscription-management-button-manage-payment-method-1 = ניהול אמצעי תשלום
+subscription-management-page-banner-warning-title-no-payment-method = לא נוספו אמצעי תשלום
+subscription-management-page-banner-warning-link-no-payment-method = הוספת אמצעי תשלום
 subscription-management-subscriptions-heading = מינויים
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = מעבר אל
+subscription-management-nav-payment-details = פרטי תשלום
+subscription-management-nav-active-subscriptions = מינויים פעילים
+subscription-management-payment-details-heading = פרטי תשלום
+subscription-management-email-label = דוא״ל
+subscription-management-credit-balance-message = הזיכוי יחול באופן אוטומטי על חשבוניות עתידיות
+subscription-management-payment-method-label = אמצעי תשלום
 subscription-management-button-add-payment-method-aria = הוספת אמצעי תשלום
 subscription-management-button-add-payment-method = הוספה
 subscription-management-button-manage-payment-method-aria = ניהול אמצעי תשלום

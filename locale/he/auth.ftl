@@ -470,6 +470,7 @@ postAddTwoStepAuthentication-code-required-v4 = מעתה יש להשתמש בק�
 postAddTwoStepAuthentication-recovery-method-phone = הוספת גם את { $maskedPhoneNumber } כמספר טלפון השחזור שלך.
 postAddTwoStepAuthentication-how-protects-link = כיצד זה מגן על החשבון שלך
 postAddTwoStepAuthentication-how-protects-plaintext = כיצד זה מגן על החשבון שלך:
+postAddTwoStepAuthentication-device-sign-out-message = כדי להגן על כל המכשירים המחוברים שלך, עליך להתנתק מכל מקום שבו חשבון זה נמצא בשימוש, ולאחר מכן להתחבר שוב באמצעות אימות דו־שלבי.
 postChangeAccountRecovery-subject = מפתח לשחזור החשבון השתנה
 postChangeAccountRecovery-title = שינית את המפתח לשחזור החשבון שלך
 postChangeAccountRecovery-body-part1 = כעת יש לך מפתח שחזור חשבון חדש. המפתח הקודם שלך נמחק.
@@ -495,6 +496,7 @@ postChangeTwoStepAuthentication-from-device = ביקשת את זה מ:
 postChangeTwoStepAuthentication-action = ניהול חשבון
 postChangeTwoStepAuthentication-how-protects-link = כיצד זה מגן על החשבון שלך
 postChangeTwoStepAuthentication-how-protects-plaintext = כיצד זה מגן על החשבון שלך:
+postChangeTwoStepAuthentication-device-sign-out-message = כדי להגן על כל המכשירים המחוברים שלך, עליך להתנתק מכל מקום שבו חשבון זה נמצא בשימוש, ולאחר מכן להתחבר שוב באמצעות האימות הדו־שלבי החדש שלך.
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = נעשה שימוש בקוד מ:
