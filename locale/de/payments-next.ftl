@@ -123,18 +123,18 @@ subscription-management-card-ending-in = Karte endet auf { $last4 }
 subscription-management-card-expires-date = Läuft ab { $expirationDate }
 subscription-management-error-paypal-billing-agreement = Es gibt ein Problem mit Ihrem Konto { -brand-paypal }. Bitte lösen Sie das Problem, um Ihre aktiven Abonnements zu erhalten.
 subscription-management-active-subscriptions-heading = Aktive Abonnements
-subscription-management-you-have-no-active-subscriptions = Sie haben keine aktiven Daueraufträge
+subscription-management-you-have-no-active-subscriptions = Sie haben keine aktiven Abonnements
 subscription-management-new-subs-will-appear-here = Neue Abonnements werden hier angezeigt.
-subscription-management-your-active-subscriptions-aria = Ihre aktiven Daueraufträge
+subscription-management-your-active-subscriptions-aria = Ihre aktiven Abonnements
 subscription-management-button-support = Unterstützung erhalten
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Hilfe für { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Ihre { -brand-apple }-In-App-Abonnements
-subscription-management-apple-in-app-purchase-2 = { -brand-apple } In-App-Kauf
+subscription-management-apple-in-app-purchase-2 = { -brand-apple }-In-App-Kauf
 subscription-management-your-google-iap-subscriptions-aria = Ihre { -brand-google }-In-App-Abonnements
-subscription-management-google-in-app-purchase-2 = { -brand-google } In-App-Kauf
+subscription-management-google-in-app-purchase-2 = { -brand-google }-In-App-Kauf
 # $date (String) - Date of next bill
-subscription-management-iap-sub-expires-on-expiry-date = Läuft ab { $date }
+subscription-management-iap-sub-expires-on-expiry-date = Läuft am { $date } ab
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnement für { $productName } verwalten
 subscription-management-button-manage-subscription-1 = Abonnement verwalten
@@ -295,7 +295,7 @@ subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } Steuer
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Rechnung ansehen
 subscription-management-link-view-invoice-aria = Rechnung für { $productName } ansehen
-subscription-content-expires-on-expiry-date = Läuft ab { $date }
+subscription-content-expires-on-expiry-date = Läuft am { $date } ab
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Nächste Rechnung • { $billedOnDate }
 subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } Steuern
