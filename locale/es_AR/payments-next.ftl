@@ -121,7 +121,7 @@ subscription-management-button-manage-payment-method = Administrar
 subscription-management-card-ending-in = Tarjeta que termina en { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vencimiento { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Hay un problema con su cuenta de { -brand-paypal }. Resuelva el problema para mantener sus suscripciones activas.
+subscription-management-error-paypal-billing-agreement = Hay un problema con tu cuenta de { -brand-paypal }. Resolvé el problema para mantener tus suscripciones activas.
 subscription-management-active-subscriptions-heading = Suscripciones activas
 subscription-management-you-have-no-active-subscriptions = No tenés suscripciones activas
 subscription-management-new-subs-will-appear-here = Las nuevas suscripciones aparecerán aquí.
@@ -134,7 +134,7 @@ subscription-management-apple-in-app-purchase-2 = { -brand-apple } compras integ
 subscription-management-your-google-iap-subscriptions-aria = Tus suscripciones In-App de { -brand-google }
 subscription-management-google-in-app-purchase-2 = { -brand-google } compras integradas
 # $date (String) - Date of next bill
-subscription-management-iap-sub-expires-on-expiry-date = Expira el { $date }
+subscription-management-iap-sub-expires-on-expiry-date = Vence el { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrar suscripción para { $productName }
 subscription-management-button-manage-subscription-1 = Administrar suscripción
@@ -295,7 +295,7 @@ subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impues
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Ver factura
 subscription-management-link-view-invoice-aria = Ver factura de { $productName }
-subscription-content-expires-on-expiry-date = Expira el { $date }
+subscription-content-expires-on-expiry-date = Vence el { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Próxima factura • { $billedOnDate }
 subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } impuestos
