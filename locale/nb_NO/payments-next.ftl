@@ -97,7 +97,18 @@ next-payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Ugyldig betalingsinformasjon
+subscription-management-page-paypal-error-banner-message-account-error = Det er en feil med kontoen din.
+subscription-management-button-manage-payment-method-1 = Behandle betalingsmåte
+subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmåte lagt til
+subscription-management-page-banner-warning-link-no-payment-method = Legg til en betalingsmåte
 subscription-management-subscriptions-heading = Abonnementer
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Hopp til
+subscription-management-nav-payment-details = Betalingsinformasjon
+subscription-management-nav-active-subscriptions = Aktive abonnementer
+subscription-management-payment-details-heading = Betalingsinformasjon
+subscription-management-email-label = E-post
 subscription-management-button-add-payment-method-aria = Legg til betalingsmåte
 subscription-management-button-add-payment-method = Legg til
 subscription-management-button-manage-payment-method-aria = Behandle betalingsmåte
