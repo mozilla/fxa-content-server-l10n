@@ -734,7 +734,7 @@ modal-cancel-button = ביטול
 ## ModalMfaProtected
 
 modal-mfa-protected-title = נא להכניס את קוד האימות
-modal-mfa-protected-subtitle = נא לסייע לנו לוודא שאתה זה שמשנה את פרטי החשבון שלך
+modal-mfa-protected-subtitle = נא לעזור לנו לוודא ששינוי פרטי החשבון שלך מתבצע על ידך
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
