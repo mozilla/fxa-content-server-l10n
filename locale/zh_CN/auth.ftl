@@ -808,7 +808,7 @@ verificationReminderSecond-second-description-3 = 您的 { -product-mozilla-acco
 verificationReminderSecond-sub-description-2 = 让互联网成为对所有人开放的地方，是我们使命的一部分。
 verificationReminderSecond-action-2 = 验证账户
 verify-title-3 = 携手 { -brand-mozilla } 打开互联网世界
-verify-description-2 = 确认您的账户即可在任何登录的设备中解锁 { -brand-mozilla } 完整体验，现在开始：
+verify-description-2 = 确认您的账户后，即可在所有已登录设备上解锁 { -brand-mozilla } 完整体验。体验第一站：
 verify-subject = 账户创建完成
 verify-action-2 = 验证账户
 # Variables:
@@ -864,6 +864,6 @@ verifyShortCode-subject-4 = 使用 { $code } 以确认账户
 verifyShortCode-preview-2 = 验证码 5 分钟内有效
 verifyShortCode-title-3 = 携手 { -brand-mozilla } 打开互联网世界
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = 确认您的账户后，即可在所有登录设备上解锁 { -brand-mozilla } 完整体验。体验第一站：
+verifyShortCode-title-subtext-2 = 确认您的账户后，即可在所有已登录设备上解锁 { -brand-mozilla } 完整体验。体验第一站：
 verifyShortCode-prompt-3 = 请使用此确认码：
 verifyShortCode-expiry-notice = 5 分钟内有效。
