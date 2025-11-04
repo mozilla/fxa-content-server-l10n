@@ -858,7 +858,7 @@ verifyLoginCode-preview = Denne koden utløper om 5 minutter.
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Logget du inn på { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
-verifyLoginCode-safe = Hjelp oss med å holde kontoen din trygg ved å godkjenne påloggingen din på:
+verifyLoginCode-safe = Hjelp oss med å holde kontoen din trygg ved å godkjenne innloggingen din på:
 verifyLoginCode-prompt-3 = Hvis ja, her er autorisasjonskoden din:
 verifyLoginCode-expiry-notice = Den løper ut om 5 minutter.
 verifyPrimary-title-2 = Bekreft primær e-postadresse
