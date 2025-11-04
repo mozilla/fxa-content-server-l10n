@@ -485,7 +485,6 @@ bento-menu-title-3 = produkty { -brand-mozilla(case: "gen") }
 bento-menu-tagline = Další produkty od { -brand-mozilla(case: "gen") }, které chrání vaše soukromí
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Prohlížeč { -brand-firefox } pro počítač
 bento-menu-firefox-mobile = Prohlížeč { -brand-firefox } pro mobily
@@ -916,14 +915,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizují se údaje { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Doplňky { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Potvrďte prosím, že berete na vědomí, že smazáním svého účtu:
-delete-account-chk-box-1-v3 =
-    .label = Všechna placená předplatná, která máte, budou zrušena (kromě služby { -product-pocket })
 delete-account-chk-box-2 =
     .label = V produktech { -brand-mozilla(case: "gen") } můžete přijít o uložené informace a funkce
 delete-account-chk-box-3 =
@@ -933,8 +929,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Pokračovat
 delete-account-password-input =
     .label = Zadejte heslo
-pocket-delete-notice = Pokud jste si předplatili Pocket Premium, ujistěte se, že jste před smazáním účtu <a>zrušili své předplatné</a>.
-pocket-delete-notice-marketing = Chcete-li ukončit zasílání marketingových e-mailů od společností Mozilla Corporation a Mozilla Foundation, musíte <a>požádat o výmaz svých marketingových dat</a>.
 delete-account-cancel-button = Zrušit
 delete-account-delete-button-2 = Smazat
 
@@ -1255,8 +1249,6 @@ tfa-row-verify-session-info = Pro nastavení dvoufázového ověřování je pot
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Pokračováním souhlasíte s:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Podmínky poskytování služby</pocketTos> a <pocketPrivacy>Oznámení o ochraně osobních údajů</pocketPrivacy> služby { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Podmínky poskytování služby</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Oznámení o ochraně osobních údajů</mozSubscriptionPrivacyLink> pro služby předplatného { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1283,7 +1275,6 @@ auth-error-102 = Neznámý účet
 auth-error-103 = Nesprávné heslo
 auth-error-105-2 = Špatný potvrzovací kód
 auth-error-110 = Neplatný token
-auth-error-110-2 = Neplatná relace. Odhlaste se prosím a znovu se přihlaste.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Vyčerpali jste příliš mnoho pokusů. Prosím zkuste to znovu později.
@@ -1296,7 +1287,6 @@ auth-error-114 = Vyčerpali jste příliš mnoho pokusů. Zkuste to znovu { $ret
 auth-error-125 = Z bezpečnostních důvodů byl požadavek zablokován
 auth-error-129-2 = Vložili jste neplatné telefonní číslo. Zkontrolujte ho a zkuste to znovu.
 auth-error-138-2 = Nepotvrzená relace
-auth-error-138-3 = Nepotvrzená relace. Odhlaste se prosím a znovu se přihlaste.
 auth-error-139 = Záložní e-mailová adresa musí být jiná než adresa účtu
 auth-error-155 = TOTP token nenalezen
 # Error shown when the user submits an invalid backup authentication code
@@ -1335,14 +1325,6 @@ auth-error-1067 = Chybně zadaný e-mail?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Číslo končící na { $lastFourPhoneNumber }
 oauth-error-1000 = Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Účet nelze vytvořit
-cannot-create-account-requirements-2 = Pokud si chcete vytvořit { -product-mozilla-account(case: "acc", capitalization: "lower") }, musíte splňovat stanovené věkové požadavky.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Zjistit více
 
 ## Connect Another Device page
 
@@ -1390,7 +1372,6 @@ index-relay-header = Vytvoření e-mailové masky
 index-relay-subheader = Uveďte e-mailovou adresu, na kterou chcete přeposílat e-maily z maskovaného e-mailu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Pokračovat do služby { $serviceName }
-index-subheader-with-logo = Pokračovat do služby <span>{ $serviceLogo }</span>
 index-subheader-default = Pokračujte do nastavení účtu
 index-cta = Přihlásit nebo registrovat
 index-account-info = { -product-mozilla-account } odemyká přístup k dalším produktům { -brand-mozilla(case: "gen") }, které chrání soukromí.
@@ -1660,7 +1641,7 @@ password-reset-submit-button-2 = Pokračovat
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Vaše heslo bylo obnoveno
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Pokračovat do služby { $serviceName }
 
 ## Reset password recovery method page
@@ -1727,9 +1708,6 @@ signin-link-expired-message-2 = Odkaz, na který jste klepli, vypršel nebo byl 
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Zadejte své heslo <span>k účtu { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Pokračovat do služby <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Pokračovat do služby { $serviceName }
@@ -1960,11 +1938,6 @@ signup-heading-v2 = Vytvoření hesla
 signup-relay-info = Heslo je potřeba pro bezpečnou správu e-mailových masek a pro přístup k bezpečnostním nástrojům { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizujte svá hesla, záložky a další data všude, kde používáte { -brand-firefox }.
 signup-sync-info-with-payment = Synchronizujte svá hesla, platební metody, záložky a další svá data všude, kde používáte { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Proč si musím vytvořit tento účet?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Zjistěte to zde
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Změna e-mailu
 

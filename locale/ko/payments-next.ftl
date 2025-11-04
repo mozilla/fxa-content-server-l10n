@@ -95,28 +95,17 @@ next-payment-confirmation-download-button = 다운로드 계속 하기
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = 계정 프로필 사진
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = 계정 잔액
-subscription-management-account-credit-balance-message = 요금은 청구할 때 자동으로 적용됩니다.
-subscription-management-payment-information-heading = 결제 정보
+subscription-management-subscriptions-heading = 구독
 subscription-management-button-add-payment-method-aria = 결제 수단 추가
 subscription-management-button-add-payment-method = 추가
-subscription-management-button-change-payment-method-aria = 결제 수단 변경
-subscription-management-button-change-payment-method = 변경
 subscription-management-button-manage-payment-method-aria = 결제 방법 관리
 subscription-management-button-manage-payment-method = 관리
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = 끝자리가 { $last4 } 인 카드
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = 만료 { $expirationDate }
-subscription-management-subscriptions-heading = 구독
-subscription-management-your-subscriptions-aria = 구독 목록
-subscription-management-no-subscriptions = 아직 구독정보가 없습니다.
 subscription-management-button-support = 도움말
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName }에 대한 도움말 보기
@@ -124,18 +113,6 @@ subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } 앱
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } 앱 내부 구독
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } 구독 관리
-subscription-management-button-manage-subscription = 관리
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (매일)
-subscription-management-page-subscription-interval-weekly = { $productName } (주간)
-subscription-management-page-subscription-interval-monthly = { $productName } (월간)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6개월)
-subscription-management-page-subscription-interval-yearly = { $productName } (연간)
-subscription-management-page-paypal-error-banner = 유효하지 않은 결제 정보입니다. 계정에 오류가 있습니다.
-subscription-management-page-paypal-error-banner-link = 관리
 paypal-payment-management-page-invalid-header = 유효하지 않은 결제 정보
 paypal-payment-management-page-invalid-description = { -brand-paypal } 계정에 오류가 있는 것 같습니다. 이 결제 문제를 해결하기 위해 필요한 조치를 취해 주시기 바랍니다.
 # Page - Not Found

@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = 前往下載
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = 帳號個人資料照片
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = 帳號餘額
-subscription-management-account-credit-balance-message = 未來付款時，將自動使用儲值餘額折抵應付款項
-subscription-management-payment-information-heading = 付款資訊
+subscription-management-subscriptions-heading = 訂閱項目
 subscription-management-button-add-payment-method-aria = 新增付款方式
 subscription-management-button-add-payment-method = 新增
-subscription-management-button-change-payment-method-aria = 更改付款方式
-subscription-management-button-change-payment-method = 變更
 subscription-management-button-manage-payment-method-aria = 管理付款方式
 subscription-management-button-manage-payment-method = 管理
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = 卡號末四碼：{ $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = 到期於 { $expirationDate }
-subscription-management-subscriptions-heading = 訂閱項目
-subscription-management-your-subscriptions-aria = 您的訂閱項目
-subscription-management-no-subscriptions = 您尚未訂閱任何項目
 subscription-management-button-support = 取得幫助
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = 取得 { $productName } 的協助
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 應用程式內訂閱項目
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }：應用程式內購買
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 應用程式內訂閱項目
-subscription-management-google-in-app-purchase-1 = { -brand-google }：應用程式內購買
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = 下次出帳時間為 <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = 您的訂閱將於 <strong>{ $date }</strong> 到期
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 訂閱
-subscription-management-button-manage-subscription = 管理
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName }（每日收費）
-subscription-management-page-subscription-interval-weekly = { $productName }（每週收費）
-subscription-management-page-subscription-interval-monthly = { $productName }（每月收費）
-subscription-management-page-subscription-interval-halfyearly = { $productName }（每 6 個月收費）
-subscription-management-page-subscription-interval-yearly = { $productName }（每年收費）
-subscription-management-page-paypal-error-banner = 您的帳號發生問題，付款資訊無效。
-subscription-management-page-paypal-error-banner-link = 管理
 paypal-payment-management-page-invalid-header = 帳務資訊無效
 paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } 帳號似乎發生問題，請採取下列步驟處理付款問題。
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = 我們只會使用您的電子郵件
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <span>於 { $billedOnDate } 收費</span> <strong>{ $invoiceTotal } + { $taxDue } 稅金</strong>
-subscription-content-current-billed-on-no-tax = <span>於 { $billedOnDate } 收費</span> <strong>{ $invoiceTotal }</strong>
-subscription-content-credit-issued-to-your-account = 已發出 <strong>{ $creditApplied }</strong> 信用額度到您的帳號
-subscription-content-coupon-applied = 已套用「{ $promotionName }」折扣
 subscription-content-coupon-will-be-applied = 將套用「{ $promotionName }」折扣
-subscription-content-next-bill-excl-disc-with-tax = 下期帳單金額 <strong>{ $nextInvoiceTotal } + { $taxDue } 稅金</strong>（未計算折扣），將於 <strong>{ $nextBillDate }</strong> 出帳
-subscription-content-next-bill-excl-no-tax = 下期帳單金額 <strong>{ $nextInvoiceTotal }</strong>（未計算折扣），將於 <strong>{ $nextBillDate }</strong> 出帳
 subscription-content-heading-cancel-subscription = 取消訂閱
 subscription-content-no-longer-use-message = 在帳務週期最後一天（{ $currentPeriodEnd }）之後，將無法繼續使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 之後取消我對 { $productName } 的使用權限與儲存的所有資訊

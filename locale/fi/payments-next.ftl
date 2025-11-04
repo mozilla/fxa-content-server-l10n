@@ -91,53 +91,24 @@ next-payment-confirmation-download-button = Jatka lataamiseen
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Tilin profiilikuva
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Tilin hyvityssaldo
-subscription-management-account-credit-balance-message = Hyvitys kohdistetaan automaattisesti tuleviin laskuihin
-subscription-management-payment-information-heading = Maksun tiedot
+subscription-management-subscriptions-heading = Tilaukset
 subscription-management-button-add-payment-method-aria = Lisää maksutapa
 subscription-management-button-add-payment-method = Lisää
-subscription-management-button-change-payment-method-aria = Vaihda maksutapaa
-subscription-management-button-change-payment-method = Vaihda
 subscription-management-button-manage-payment-method-aria = Hallinnoi maksutapaa
 subscription-management-button-manage-payment-method = Hallitse
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kortti päättyen { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vanhenee { $expirationDate }
-subscription-management-subscriptions-heading = Tilaukset
-subscription-management-your-subscriptions-aria = Tilauksesi
-subscription-management-no-subscriptions = Sinulla ei ole vielä tilauksia
 subscription-management-button-support = Tuki
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName } -tuotetuki
 subscription-management-your-apple-iap-subscriptions-aria = Sovelluksen sisäiset { -brand-apple }-ostoksesi
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: sovelluksen sisäinen osto
 subscription-management-your-google-iap-subscriptions-aria = Sovelluksen sisäiset { -brand-google }-ostoksesi
-subscription-management-google-in-app-purchase-1 = { -brand-google }: sovelluksen sisäinen osto
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Seuraava lasku erääntyy <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Tilauksesi vanhenee <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Hallinnoi { $productName } -tilausta
-subscription-management-button-manage-subscription = Hallitse
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (päivittäin)
-subscription-management-page-subscription-interval-weekly = { $productName } (viikoittain)
-subscription-management-page-subscription-interval-monthly = { $productName } (kuukausittain)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 kuukautta)
-subscription-management-page-subscription-interval-yearly = { $productName } (vuosittain)
-subscription-management-page-paypal-error-banner = Virheelliset maksutiedot; tililläsi on virhe.
-subscription-management-page-paypal-error-banner-link = Hallitse
 paypal-payment-management-page-invalid-header = Virheelliset laskutustiedot
 # Page - Not Found
 page-not-found-title = Sivua ei löydy
@@ -278,9 +249,6 @@ next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi v
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } vero</strong><span> veloitettu { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> veloitettu { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> hyvitetty tilillesi
 subscription-content-heading-cancel-subscription = Peruuta tilaus
 subscription-content-button-stay-subscribed = Jatka tilausta
     .aria-label = Jatka tuotteen { $productName } tilausta

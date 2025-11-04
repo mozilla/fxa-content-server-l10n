@@ -94,53 +94,24 @@ next-payment-confirmation-download-button = Emboguejy ehóvo
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Ta’ãnga mba’etepegua
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Crédito hembýva ne mba’etépe
-subscription-management-account-credit-balance-message = Ko’ág̃a guive, ojehepyme’ẽta { $paymentAmountNew } peteĩ aragua, oĩ’ỹhápe tepyguejy.
-subscription-management-payment-information-heading = Jehepyme’ẽrã marandu
+subscription-management-subscriptions-heading = Ñemboheraguapy
 subscription-management-button-add-payment-method-aria = Embojuapy mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method = Mbojuaju
-subscription-management-button-change-payment-method-aria = Emoambue mba’éichapa ehepyme’ẽta
-subscription-management-button-change-payment-method = Moambue
 subscription-management-button-manage-payment-method-aria = Eñangareko mba’éichapa ehepyme’ẽta
 subscription-management-button-manage-payment-method = Ñangareko
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Hu’ãta { $expirationDate }
-subscription-management-subscriptions-heading = Ñemboheraguapy
-subscription-management-your-subscriptions-aria = Ne ñemboheraguapy
-subscription-management-no-subscriptions = Nde nereñemboheraguapýi gueteri
 subscription-management-button-support = Eipota pytyvõ
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Eñepytyvõ { $productName }-pe g̃uarã
 subscription-management-your-apple-iap-subscriptions-aria = Ne ñemboheraguapy tembiporu’i ryepýpe { -brand-apple }
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: ejogua tembiporu’i guive
 subscription-management-your-google-iap-subscriptions-aria = Ne ñemboheraguapy { -brand-google } rembiporu’i ryepýpe
-subscription-management-google-in-app-purchase-1 = { -brand-google }: ejogua tembiporu’i ryepýpe
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Kuatiañemure hu’ãta <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Ne ñemboheraguapy hu’ãta <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Eñangareko teraguapy { $productName }-pe g̃uarã
-subscription-management-button-manage-subscription = Ñangareko
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (aragua)
-subscription-management-page-subscription-interval-weekly = { $productName } (arapokõindygua)
-subscription-management-page-subscription-interval-monthly = { $productName } (jasygua)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6-jasygua)
-subscription-management-page-subscription-interval-yearly = { $productName } (arygua)
-subscription-management-page-paypal-error-banner = Marandu jehepyme’ẽrã ndoikói; ojavy ne mba’ete.
-subscription-management-page-paypal-error-banner-link = Ñangareko
 paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹva
 paypal-payment-management-page-invalid-description = Oĩvaicha jejavy { -brand-paypal } mba’ete ndive. Roikotevẽ emboguata mba’eichaitépa emoĩporãta ko apañuái jehepyme’ẽ rehegua.
 # Page - Not Found
@@ -287,13 +258,7 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } impuesto</strong><span> ikuatiáva { $billedOnDate }</span> rupi
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> ikuatiáva { $billedOnDate }</span>-pe
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jedeverã og̃uahẽva ne mba’etépe
-subscription-content-coupon-applied = { $promotionName } mboajepyre
 subscription-content-coupon-will-be-applied = Oguejýta { $promotionName } repy
-subscription-content-next-bill-excl-disc-with-tax = Kuatiañemure oútava <strong>{ $nextInvoiceTotal } + { $taxDue } impuestoita</strong>, oĩ’ỹhápe tepyguejy, opáta <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Pe kuatiañemure oútava <strong>{ $nextInvoiceTotal }</strong>, oĩ’ỹhápe hepyguejyha, opáta <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
 subscription-content-no-longer-use-message = Ndojeporukuaamo’ãi { $productName } pe { $currentPeriodEnd } rire, pe ára paha iñemuhakuatia hag̃ua.
 subscription-content-cancel-access-message =

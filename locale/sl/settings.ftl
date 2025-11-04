@@ -488,7 +488,6 @@ bento-menu-title-3 = Izdelki { -brand-mozilla }
 bento-menu-tagline = Več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki varujejo vašo zasebnost
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Brskalnik { -brand-firefox } za namizja
 bento-menu-firefox-mobile = Mobilni brskalnik { -brand-firefox }
@@ -919,14 +918,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sinhronizacija podatkov { -brand-firefox(sklon: "tozilnik") }
 delete-account-product-firefox-addons = Dodatki za { -brand-firefox }
 delete-account-acknowledge = Zavedajte se, da boste z izbrisom računa:
-delete-account-chk-box-1-v3 =
-    .label = Vse morebitne plačljive naročnine bodo preklicane (razen { -product-pocket })
 delete-account-chk-box-2 =
     .label = lahko izgubili shranjene podatke in možnosti v izdelkih { -brand-mozilla(sklon: "rodilnik") }
 delete-account-chk-box-3 =
@@ -936,8 +932,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Nadaljuj
 delete-account-password-input =
     .label = Vnesite geslo
-pocket-delete-notice = Če ste naročeni na Pocket Premium, pred izbrisom računa <a>prekličite naročnino</a>.
-pocket-delete-notice-marketing = Če želite prenehati prejemati trženjska sporočila Mozille Corporation in Mozilla Foundation, <a>zahtevajte izbris svojih trženjskih podatkov.</a>
 delete-account-cancel-button = Prekliči
 delete-account-delete-button-2 = Izbriši
 
@@ -1265,8 +1259,6 @@ tfa-row-verify-session-info = Za nastavitev overjanja v dveh korakih morate potr
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Z nadaljevanjem se strinjate z:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Pogoji storitve</pocketTos> in <pocketPrivacy>Obvestilo o zasebnosti</pocketPrivacy> storitve { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>pogoji uporabe</mozSubscriptionTosLink> in <mozSubscriptionPrivacyLink>obvestilom o zasebnosti</mozSubscriptionPrivacyLink> naročniških storitev { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1293,7 +1285,6 @@ auth-error-102 = Neznan račun
 auth-error-103 = Napačno geslo
 auth-error-105-2 = Neveljavna potrditvena koda
 auth-error-110 = Neveljaven žeton
-auth-error-110-2 = Neveljavna seja. Prosimo, odjavite se in se ponovno prijavite.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Preveč poskusov. Poskusite znova pozneje.
@@ -1306,7 +1297,6 @@ auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-125 = Zahteva je bila zavrnjena iz varnostnih razlogov
 auth-error-129-2 = Vnesli ste neveljavno telefonsko številko. Preverite in poskusite znova.
 auth-error-138-2 = Nepotrjena seja
-auth-error-138-3 = Nepotrjena seja. Prosimo, odjavite se in se ponovno prijavite.
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
 # Error shown when the user submits an invalid backup authentication code
@@ -1345,14 +1335,6 @@ auth-error-1067 = Napačen e-poštni naslov?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Številka, ki se končuje na { $lastFourPhoneNumber }
 oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Ni mogoče ustvariti računa
-cannot-create-account-requirements-2 = Za ustvarjanje { -product-mozilla-account(sklon: "rodilnik") } morate izpolniti starostne pogoje.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Več o tem
 
 ## Connect Another Device page
 
@@ -1400,7 +1382,6 @@ index-relay-header = Ustvarite e-poštno masko
 index-relay-subheader = Navedite e-poštni naslov, na katerega želite posredovati sporočila s svoje e-poštne maske.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Nadaljuj na { $serviceName }
-index-subheader-with-logo = Nadaljuj na <span>{ $serviceLogo }</span>
 index-subheader-default = Nadaljuj na nastavitve računa
 index-cta = Registracija ali prijava
 index-account-info = { -product-mozilla-account } omogoča tudi dostop do izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki bolj varujejo zasebnost.
@@ -1670,7 +1651,7 @@ password-reset-submit-button-2 = Nadaljuj
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Vaše geslo je bilo ponastavljeno
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Nadaljuj na { $serviceName }
 
 ## Reset password recovery method page
@@ -1741,9 +1722,6 @@ signin-link-expired-message-2 = Povezavi, ki ste jo kliknili, je potekla veljavn
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Vnesite geslo <span>za { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Nadaljuj na <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Nadaljuj na { $serviceName }
@@ -1975,11 +1953,6 @@ signup-heading-v2 = Ustvarite geslo
 signup-relay-info = Geslo je potrebno za varno upravljanje zamaskirane e-pošte in dostop do { -brand-mozilla(sklon: "rodilnik") } varnostnih orodij.
 signup-sync-info = Sinhronizirajte gesla, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
 signup-sync-info-with-payment = Sinhronizirajte gesla, plačilna sredstva, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Zakaj moram ustvariti ta račun?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Preberite tukaj
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Spremeni e-pošto
 

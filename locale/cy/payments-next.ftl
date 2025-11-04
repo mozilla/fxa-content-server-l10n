@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Parhau i lwytho i lawr
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Llun proffil cyfrif
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Balans credyd cyfrif
-subscription-management-account-credit-balance-message = Bydd credyd yn cael ei osod yn awtomatig tuag at anfonebau yn y dyfodol
-subscription-management-payment-information-heading = Manylion Talu
+subscription-management-subscriptions-heading = Tanysgrifiadau
 subscription-management-button-add-payment-method-aria = Ychwanegu dull talu
 subscription-management-button-add-payment-method = Ychwanegu
-subscription-management-button-change-payment-method-aria = Newid dull talu
-subscription-management-button-change-payment-method = Newid
 subscription-management-button-manage-payment-method-aria = Rheoli dull talu
 subscription-management-button-manage-payment-method = Rheoli
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Daw i ben ar { $expirationDate }
-subscription-management-subscriptions-heading = Tanysgrifiadau
-subscription-management-your-subscriptions-aria = Eich tanysgrifiadau
-subscription-management-no-subscriptions = Does gennych chi ddim tanysgrifiadau eto
 subscription-management-button-support = Derbyn cymorth
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Derbyn cymorth ar gyfer { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-apple } o Fewn yr Ap
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: prynu o fewn yr ap
 subscription-management-your-google-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-google } o Fewn yr Ap
-subscription-management-google-in-app-purchase-1 = { -brand-google }: prynu o fewn yr ap
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Mae'r bil nesaf yn ddyledus ar <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Bydd eich tanysgrifiad yn dod i ben ar <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad { $productName }
-subscription-management-button-manage-subscription = Rheoli
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (dyddiol)
-subscription-management-page-subscription-interval-weekly = { $productName } (wythnosol)
-subscription-management-page-subscription-interval-monthly = { $productName } (misol)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6-misol)
-subscription-management-page-subscription-interval-yearly = { $productName } (blynyddol)
-subscription-management-page-paypal-error-banner = Manylion talu annilys; mae gwall gyda'ch cyfrif.
-subscription-management-page-paypal-error-banner-link = Rheoli
 paypal-payment-management-page-invalid-header = Manylion bilio annilys
 paypal-payment-management-page-invalid-description = Mae'n ymddangos bod gwall gyda'ch cyfrif { -brand-paypal }. Mae angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } treth</strong><span> wedi'i bilio ar { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> wedi'i filio ar { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credyd wedi'i roi i'ch cyfrif
-subscription-content-coupon-applied = { $promotionName } wedi'i osod
 subscription-content-coupon-will-be-applied = Bydd gostyngiad o { $promotionName } yn cael ei osod
-subscription-content-next-bill-excl-disc-with-tax = Mae bil nesaf <strong>{ $nextInvoiceTotal } + { $taxDue } treth</strong>, heb gynnwys gostyngiadau, yn ddyledus ar <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Mae'r bil nesaf o <strong>{ $nextInvoiceTotal }</strong>, heb gynnwys gostyngiadau, yn ddyledus ar <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad
 subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
 subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }

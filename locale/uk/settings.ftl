@@ -449,7 +449,6 @@ bento-menu-title-3 = Продукти { -brand-mozilla }
 bento-menu-tagline = Інші продукти від { -brand-mozilla }, які захищають вашу приватність
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Браузер { -brand-firefox } для комп'ютера
 bento-menu-firefox-mobile = Браузер { -brand-firefox } для мобільного
@@ -789,14 +788,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account(capitalizati
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Синхронізація даних { -brand-firefox }
 delete-account-product-firefox-addons = Додатки { -brand-firefox }
 delete-account-acknowledge = Будь ласка, підтвердьте, що при видаленні свого облікового запису:
-delete-account-chk-box-1-v3 =
-    .label = Усі ваші передплати буде скасовано (окрім { -product-pocket })
 delete-account-chk-box-2 =
     .label = Ви можете втратити збережену інформацію та функції продуктів { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -806,8 +802,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Продовжити
 delete-account-password-input =
     .label = Введіть пароль
-pocket-delete-notice = Якщо ви передплатили Pocket Premium, обов'язково <a>скасуйте передплату</a> перш ніж видаляти обліковий запис.
-pocket-delete-notice-marketing = Щоб припинити отримання маркетингових електронних листів від Mozilla Corporation і Mozilla Foundation, ви повинні <a>подати запит на видалення своїх маркетингових даних.</a>
 delete-account-cancel-button = Скасувати
 delete-account-delete-button-2 = Видалити
 
@@ -1131,8 +1125,6 @@ tfa-row-cannot-disable-2 = Неможливо вимкнути двоетапн�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Продовжуючи, ви погоджуєтеся з:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Умовами надання послуг</pocketTos> і <pocketPrivacy>Положенням про приватність</pocketPrivacy> { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Умови надання послуг</mozSubscriptionTosLink> і <mozSubscriptionPrivacyLink>Положення про приватність</mozSubscriptionPrivacyLink> Послуг передплати { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1207,14 +1199,6 @@ auth-error-1067 = Неправильно введено адресу елект�
 recovery-phone-number-ending-digits = Номер, що закінчується на { $lastFourPhoneNumber }
 oauth-error-1000 = Щось пішло не так. Закрийте цю вкладку і спробуйте знову.
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Неможливо створити обліковий запис
-cannot-create-account-requirements-2 = Щоб створити { -product-mozilla-account }, ваш вік має відповідати вимогам.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Докладніше
-
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -1261,7 +1245,6 @@ index-relay-header = Створити маску електронної пошт
 index-relay-subheader = Вкажіть адресу електронної пошти, на яку ви хочете пересилати електронні листи з вашої замаскованої адреси е-пошти.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Продовжити в { $serviceName }
-index-subheader-with-logo = Продовжити в <span>{ $serviceLogo }</span>
 index-subheader-default = Перейти до налаштувань облікового запису
 index-cta = Зареєструватися або увійти
 index-account-info = { -product-mozilla-account } також відкриває доступ до інших продуктів { -brand-mozilla }, які захищають вашу приватність.
@@ -1520,7 +1503,7 @@ password-reset-submit-button-2 = Продовжити
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ваш пароль було відновлено
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Продовжити в { $serviceName }
 
 ## Reset password recovery method page
@@ -1590,9 +1573,6 @@ signin-link-expired-message-2 = Термін дії посилання, яке �
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Введіть пароль <span>для свого { -product-mozilla-account(case: "gen") }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Продовжити в <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Продовжити в { $serviceName }
@@ -1814,10 +1794,5 @@ confirm-signup-code-desktop-relay = { -brand-firefox } спробує повер
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = Пароль потрібен для безпечного керування замаскованими адресами е-пошти та доступу до інструментів безпеки { -brand-mozilla }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Чому мені потрібно створити цей обліковий запис?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Дізнайтеся тут
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Змінити адресу електронної пошти

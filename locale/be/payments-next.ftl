@@ -45,12 +45,7 @@ next-payment-confirmation-download-button = Працягнуць сцягван�
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Карта, нумар якой заканчваецца на { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Фота профілю ўліковага запісу
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+## Page - Subscription Management
 
 # Page - Not Found
 page-not-found-title = Старонка не знойдзена

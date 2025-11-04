@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Tiếp tục tải xuống
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Ảnh đại diện tài khoản
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Số dư tín dụng tài khoản
-subscription-management-account-credit-balance-message = Tín dụng sẽ được tự động áp dụng cho các hóa đơn trong tương lai
-subscription-management-payment-information-heading = Thông tin thanh toán
+subscription-management-subscriptions-heading = Gói đăng ký
 subscription-management-button-add-payment-method-aria = Thêm phương thức thanh toán
 subscription-management-button-add-payment-method = Thêm
-subscription-management-button-change-payment-method-aria = Thay đổi phương thức thanh toán
-subscription-management-button-change-payment-method = Thay đổi
 subscription-management-button-manage-payment-method-aria = Quản lý phương thức thanh toán
 subscription-management-button-manage-payment-method = Quản lý
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Thẻ kết thúc bằng { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Hết hạn vào { $expirationDate }
-subscription-management-subscriptions-heading = Gói đăng ký
-subscription-management-your-subscriptions-aria = Gói đăng ký của tôi
-subscription-management-no-subscriptions = Bạn chưa có gói đăng ký nào
 subscription-management-button-support = Nhận trợ giúp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Nhận trợ giúp cho { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-apple } của bạn
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: mua hàng trong ứng dụng
 subscription-management-your-google-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-google } của bạn
-subscription-management-google-in-app-purchase-1 = { -brand-google }: mua hàng trong ứng dụng
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Hoá đơn tiếp theo sẽ đến hạn vào <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Gói đăng ký của bạn sẽ hết hạn vào <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Quản lý gói đăng ký cho { $productName }
-subscription-management-button-manage-subscription = Quản lý
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (hàng ngày)
-subscription-management-page-subscription-interval-weekly = { $productName } (hàng tuần)
-subscription-management-page-subscription-interval-monthly = { $productName } (hàng tháng)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 tháng)
-subscription-management-page-subscription-interval-yearly = { $productName } (hàng năm)
-subscription-management-page-paypal-error-banner = Thông tin thanh toán không hợp lệ; có lỗi với tài khoản của bạn.
-subscription-management-page-paypal-error-banner-link = Quản lý
 paypal-payment-management-page-invalid-header = Thông tin thanh toán không hợp lệ
 paypal-payment-management-page-invalid-description = Có vẻ như đã xảy ra lỗi với tài khoản { -brand-paypal } của bạn, chúng tôi cần bạn thực hiện các bước cần thiết để giải quyết vấn đề thanh toán này.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>Khoản tiền { $invoiceTotal } + { $taxDue } thuế</strong><span> đã được lập hoá đơn vào ngày { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>Khoản tiền { $invoiceTotal }</strong><span> đã được lập hoá đơn vào ngày { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tín dụng được cấp vào tài khoản của bạn
-subscription-content-coupon-applied = { $promotionName } đã được áp dụng
 subscription-content-coupon-will-be-applied = Giảm giá { $promotionName } sẽ được áp dụng
-subscription-content-next-bill-excl-disc-with-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal } + { $taxDue } thuế</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal }</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Hủy đăng ký
 subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.
 subscription-content-cancel-access-message = Hủy quyền truy cập và thông tin đã lưu của tôi trong { $productName } vào { $currentPeriodEnd }

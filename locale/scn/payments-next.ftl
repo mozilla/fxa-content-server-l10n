@@ -70,8 +70,7 @@ next-payment-confirmation-download-button = Cuntinua cû scarricamentu
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta chi finisci pi { $last4 }
 
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+## Page - Subscription Management
 
 # Page - Not Found
 page-not-found-title = Pàggina nun truvata

@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Weiter zum Download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karte endet auf { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Profilbild des Kontos
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Guthaben auf dem Konto
-subscription-management-account-credit-balance-message = Die Gutschrift wird automatisch für zukünftige Rechnungen verwendet
-subscription-management-payment-information-heading = Zahlungsinformationen
+subscription-management-subscriptions-heading = Abonnements
 subscription-management-button-add-payment-method-aria = Zahlungsmethode hinzufügen
 subscription-management-button-add-payment-method = Hinzufügen
-subscription-management-button-change-payment-method-aria = Zahlungsmethode ändern
-subscription-management-button-change-payment-method = Ändern
 subscription-management-button-manage-payment-method-aria = Zahlungsmethode verwalten
 subscription-management-button-manage-payment-method = Verwalten
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karte endet auf { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Läuft ab { $expirationDate }
-subscription-management-subscriptions-heading = Abonnements
-subscription-management-your-subscriptions-aria = Ihre Abonnements
-subscription-management-no-subscriptions = Sie haben noch keine Abonnements
 subscription-management-button-support = Unterstützung erhalten
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Hilfe für { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Ihre { -brand-apple }-In-App-Abonnements
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: In-App-Kauf
 subscription-management-your-google-iap-subscriptions-aria = Ihre { -brand-google }-In-App-Abonnements
-subscription-management-google-in-app-purchase-1 = { -brand-google }: In-App-Kauf
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Die nächste Rechnung ist fällig am <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Ihr Abonnement läuft am <strong>{ $date }</strong> ab
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnement für { $productName } verwalten
-subscription-management-button-manage-subscription = Verwalten
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (täglich)
-subscription-management-page-subscription-interval-weekly = { $productName } (wöchentlich)
-subscription-management-page-subscription-interval-monthly = { $productName } (monatlich)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (sechs Monate)
-subscription-management-page-subscription-interval-yearly = { $productName } (jährlich)
-subscription-management-page-paypal-error-banner = Ungültige Zahlungsinformationen; Es gibt ein Problem mit Ihrem Konto.
-subscription-management-page-paypal-error-banner-link = Verwalten
 paypal-payment-management-page-invalid-header = Ungültige Zahlungsinformationen
 paypal-payment-management-page-invalid-description = Es scheint ein Problem mit Ihrem { -brand-paypal }-Konto zu bestehen. Sie müssen die erforderlichen Schritte ausführen, um dieses Zahlungsproblem zu lösen.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } Steuern</strong><span> abgerechnet am { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> abgerechnet am { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> Guthaben auf Ihrem Konto ausgestellt
-subscription-content-coupon-applied = { $promotionName } angewendet
 subscription-content-coupon-will-be-applied = Rabatt von { $promotionName } wird angewendet
-subscription-content-next-bill-excl-disc-with-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal } + { $taxDue } Steuern</strong>, ohne Skonto, ist fällig am <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal }</strong> (ohne Rabatte) ist am <strong>{ $nextBillDate }</strong> . fällig
 subscription-content-heading-cancel-subscription = Dauerauftrag stornieren
 subscription-content-no-longer-use-message = Sie können { $productName } nach dem { $currentPeriodEnd }, dem letzten Tag Ihres Abrechnungszeitraums, nicht mehr verwenden.
 subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodEnd } beenden und meine in { $productName } gespeicherten Daten entfernen

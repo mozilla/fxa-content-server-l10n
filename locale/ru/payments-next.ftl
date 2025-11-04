@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Продолжить загрузк�
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Номер карты заканчивается на { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Фото профиля аккаунта
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Баланс кредита на аккаунте
-subscription-management-account-credit-balance-message = Кредит будет автоматически использован для оплаты будущих счетов
-subscription-management-payment-information-heading = Платежная информация
+subscription-management-subscriptions-heading = Подписки
 subscription-management-button-add-payment-method-aria = Добавить способ оплаты
 subscription-management-button-add-payment-method = Добавить
-subscription-management-button-change-payment-method-aria = Изменить способ оплаты
-subscription-management-button-change-payment-method = Изменить
 subscription-management-button-manage-payment-method-aria = Управление способом оплаты
 subscription-management-button-manage-payment-method = Управление
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Номер карты заканчивается на { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Срок действия истекает { $expirationDate }
-subscription-management-subscriptions-heading = Подписки
-subscription-management-your-subscriptions-aria = Ваши подписки
-subscription-management-no-subscriptions = У вас пока нет подписок
 subscription-management-button-support = Получить помощь
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Получить помощь для { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Ваши подписки в приложении { -brand-apple }
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: покупка в приложении
 subscription-management-your-google-iap-subscriptions-aria = Ваши подписки в приложении { -brand-google }
-subscription-management-google-in-app-purchase-1 = { -brand-google }: покупка в приложении
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Следующий счёт подлежит оплате до <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Ваша подписка истекает <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Управление подпиской на { $productName }
-subscription-management-button-manage-subscription = Управление
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (ежедневно)
-subscription-management-page-subscription-interval-weekly = { $productName } (еженедельно)
-subscription-management-page-subscription-interval-monthly = { $productName } (ежемесячно)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (каждые полгода)
-subscription-management-page-subscription-interval-yearly = { $productName } (ежегодно)
-subscription-management-page-paypal-error-banner = Некорректная платежная информация; в вашем аккаунте произошла ошибка.
-subscription-management-page-paypal-error-banner-link = Управление
 paypal-payment-management-page-invalid-header = Неверная платёжная информация
 paypal-payment-management-page-invalid-description = Похоже, в вашем аккаунте { -brand-paypal } произошла ошибка. Нам нужно, чтобы вы предприняли необходимые шаги для решения этой проблемы с оплатой.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = Мы используем вашу �
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } налог</strong><span>, оплаченный { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> оплачено { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> кредита, выданного на ваш аккаунт
-subscription-content-coupon-applied = { $promotionName } применён
 subscription-content-coupon-will-be-applied = Будет применена скидка { $promotionName }
-subscription-content-next-bill-excl-disc-with-tax = Следующий счёт в размере <strong>{ $nextInvoiceTotal } + { $taxDue } налог</strong>, исключая скидки, подлежит оплате <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Следующий счёт в размере <strong>{ $nextInvoiceTotal }</strong>, без учёта скидки, подлежит оплате <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Отменить подписку
 subscription-content-no-longer-use-message = Вы не сможете больше использовать { $productName } после { $currentPeriodEnd }, последнего дня вашего платёжного цикла.
 subscription-content-cancel-access-message = Отменить мой доступ и сохранённую информацию в { $productName } { $currentPeriodEnd }

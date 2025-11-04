@@ -111,7 +111,6 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-made-by-mozilla = B'anon ruma { -brand-mozilla }
 
@@ -262,7 +261,6 @@ delete-account-step-2-2 = 2 xak richin 2
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-addons = { -brand-firefox } Taq tz'aqat
 delete-account-acknowledge = Tanataj chi toq nayüj el ri rub'i' ataqoya'l:
@@ -424,13 +422,6 @@ auth-error-155 = Man xilitäj ta ri TOTP token
 auth-error-183-2 = Man okel ta o xk'is ruq'ijl ri rub'itz'ib' jikib'anem
 auth-error-999 = Man oyob'en ta re sachoj
 auth-error-1008 = K'o chi junwi ri k'ak'a' ewan atzij
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Man nitikïr ta nutz'ük ri rub'i' taqoya'l
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Tetamäx ch'aqa' chik
 
 ## Connect Another Device page
 

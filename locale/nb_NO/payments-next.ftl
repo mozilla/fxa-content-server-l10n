@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Fortsett til nedlasting
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Kontoprofilbilde
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Kreditsaldo på kontoen
-subscription-management-account-credit-balance-message = Kreditten blir automatisk trukket fra på fremtidige fakturaer
-subscription-management-payment-information-heading = Betalingsinformasjon
+subscription-management-subscriptions-heading = Abonnementer
 subscription-management-button-add-payment-method-aria = Legg til betalingsmåte
 subscription-management-button-add-payment-method = Legg til
-subscription-management-button-change-payment-method-aria = Endre betalingsmåte
-subscription-management-button-change-payment-method = Endre
 subscription-management-button-manage-payment-method-aria = Behandle betalingsmåte
 subscription-management-button-manage-payment-method = Behandle
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kort som slutter på { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Utløper { $expirationDate }
-subscription-management-subscriptions-heading = Abonnementer
-subscription-management-your-subscriptions-aria = Dine abonnementer
-subscription-management-no-subscriptions = Du har ingen abonnementer ennå
 subscription-management-button-support = Få hjelp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjelp med { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple } kjøp i app-abonnement
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: kjøp i app
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google } kjøp i app-abonnementer
-subscription-management-google-in-app-purchase-1 = { -brand-google }: kjøp i app
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Neste regning forfaller <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Abonnementet ditt utløper <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Behandle abonnement for { $productName }
-subscription-management-button-manage-subscription = Behandle
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (daglig)
-subscription-management-page-subscription-interval-weekly = { $productName } (ukentlig)
-subscription-management-page-subscription-interval-monthly = { $productName } (månedlig)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 måneder)
-subscription-management-page-subscription-interval-yearly = { $productName } (årlig)
-subscription-management-page-paypal-error-banner = Ugyldig betalingsinformasjon. Det er en feil med kontoen din.
-subscription-management-page-paypal-error-banner-link = Behandle
 paypal-payment-management-page-invalid-header = Ugyldig faktureringsinformasjon
 paypal-payment-management-page-invalid-description = Det ser ut til å være en feil med { -brand-paypal }-kontoen din. Vi trenger at du tar de nødvendige skrittene for å løse dette betalingsproblemet.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } moms</strong><span> fakturert den { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturert den { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit utstedt til kontoen din
-subscription-content-coupon-applied = { $promotionName } ble brukt
 subscription-content-coupon-will-be-applied = { $promotionName }-rabatt vil bli brukt
-subscription-content-next-bill-excl-disc-with-tax = Neste faktura på <strong>{ $nextInvoiceTotal } + { $taxDue } moms</strong>, uten rabatter, forfaller <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Neste faktura på <strong>{ $nextInvoiceTotal }</strong>, uten rabatter, forfaller <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Avbryt abonnement
 subscription-content-no-longer-use-message = Du vil ikke lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
 subscription-content-cancel-access-message = Avbryt tilgangen min og lagret informasjon for { $productName } den { $currentPeriodEnd }

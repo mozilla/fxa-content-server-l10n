@@ -4,10 +4,6 @@ app-general-err-heading = Error general del application
 app-general-err-message = Alco errate eveniva. Reproba plus tarde.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Mal requesta: parametros de consulta non valide
-# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
-# or maybe the session token is stale and the user needs to sign back in again.
-app-invalid-session-err-heading = Session non valide
-app-invalid-session-err-message = Claude session e  re-accede
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

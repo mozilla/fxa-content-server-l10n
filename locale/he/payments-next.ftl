@@ -93,52 +93,24 @@ next-payment-confirmation-download-button = המשך להורדה
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = תמונת פרופיל חשבון
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-message = הזיכוי יחול באופן אוטומטי על חשבוניות עתידיות
-subscription-management-payment-information-heading = פרטי תשלום
+subscription-management-subscriptions-heading = מינויים
 subscription-management-button-add-payment-method-aria = הוספת אמצעי תשלום
 subscription-management-button-add-payment-method = הוספה
-subscription-management-button-change-payment-method-aria = שינוי אמצעי תשלום
-subscription-management-button-change-payment-method = שינוי
 subscription-management-button-manage-payment-method-aria = ניהול אמצעי תשלום
 subscription-management-button-manage-payment-method = ניהול
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = כרטיס המסתיים ב־{ $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = תאריך תוקף { $expirationDate }
-subscription-management-subscriptions-heading = מינויים
-subscription-management-your-subscriptions-aria = המינויים שלך
-subscription-management-no-subscriptions = אין לך מינויים עדיין.
 subscription-management-button-support = קבלת עזרה
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = קבלת עזרה עבור { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-apple }
-subscription-management-apple-in-app-purchase-1 = ‏{ -brand-apple }: רכישה מתוך היישומון
 subscription-management-your-google-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-google }
-subscription-management-google-in-app-purchase-1 = ‏{ -brand-google }: רכישה מתוך היישומון
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = החשבון הבא לתשלום בתאריך <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = המינוי שלך יפוג בתאריך <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
-subscription-management-button-manage-subscription = ניהול
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = ‏{ $productName } (יומי)
-subscription-management-page-subscription-interval-weekly = ‏{ $productName } (שבועי)
-subscription-management-page-subscription-interval-monthly = ‏{ $productName } (חודשי)
-subscription-management-page-subscription-interval-halfyearly = ‏{ $productName } (6 חודשים)
-subscription-management-page-subscription-interval-yearly = ‏{ $productName } (שנתי)
-subscription-management-page-paypal-error-banner = פרטי חיוב שגויים; אירעה שגיאה בחשבון שלך.
-subscription-management-page-paypal-error-banner-link = ניהול
 paypal-payment-management-page-invalid-header = פרטי חיוב שגויים
 paypal-payment-management-page-invalid-description = נראה שיש שגיאה בחשבון ה־{ -brand-paypal } שלך. אנחנו צריכים שתנקוט בצעדים הדרושים כדי לפתור בעיית תשלום זו.
 # Page - Not Found
@@ -280,13 +252,7 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <span>חיוב של</span> <strong>{ $invoiceTotal } + מס בסך { $taxDue }</strong> <span>בוצע בתאריך { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <span>חיוב של</span> <strong>{ $invoiceTotal }</strong> <span>בוצע בתאריך { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = זיכוי בסך <strong>{ $creditApplied }</strong> הונפק לחשבון שלך
-subscription-content-coupon-applied = ‏{ $promotionName } הוחל
 subscription-content-coupon-will-be-applied = תוחל הנחה של { $promotionName }
-subscription-content-next-bill-excl-disc-with-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal } + מס בסך { $taxDue }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = ביטול מינוי
 subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
 subscription-content-cancel-access-message = בטלו את הגישה ואת המידע השמור שלי בתוך { $productName } בתאריך { $currentPeriodEnd }

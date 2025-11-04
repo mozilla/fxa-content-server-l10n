@@ -95,48 +95,22 @@ next-payment-confirmation-download-button = Kontynuuj, aby pobrać
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Zdjęcie profilowe konta
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Stan konta
-subscription-management-account-credit-balance-message = Środki zostaną automatycznie zastosowane do przyszłych faktur
-subscription-management-payment-information-heading = Informacje o płatnościach
+subscription-management-subscriptions-heading = Subskrypcje
 subscription-management-button-add-payment-method-aria = Dodaj metodę płatności
 subscription-management-button-add-payment-method = Dodaj
-subscription-management-button-change-payment-method-aria = Zmień metodę płatności
-subscription-management-button-change-payment-method = Zmień
 subscription-management-button-manage-payment-method-aria = Zarządzaj metodą płatności
 subscription-management-button-manage-payment-method = Zarządzaj
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karta kończąca się na { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Wygasa { $expirationDate }
-subscription-management-subscriptions-heading = Subskrypcje
-subscription-management-your-subscriptions-aria = Twoje subskrypcje
-subscription-management-no-subscriptions = Nie masz jeszcze żadnych subskrypcji
 subscription-management-button-support = Pomoc
 subscription-management-your-apple-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-apple }
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: zakup w aplikacji
 subscription-management-your-google-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-google }
-subscription-management-google-in-app-purchase-1 = { -brand-google }: zakup w aplikacji
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Twoja subskrypcja wygaśnie dnia <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Zarządzaj subskrypcją { $productName }
-subscription-management-button-manage-subscription = Zarządzaj
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (dziennie)
-subscription-management-page-subscription-interval-weekly = { $productName } (tygodniowo)
-subscription-management-page-subscription-interval-monthly = { $productName } (miesięcznie)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (co 6 miesięcy)
-subscription-management-page-subscription-interval-yearly = { $productName } (rocznie)
-subscription-management-page-paypal-error-banner-link = Zarządzaj
 paypal-payment-management-page-invalid-header = Nieprawidłowe dane płatnicze
 # Page - Not Found
 page-not-found-title = Nie odnaleziono strony

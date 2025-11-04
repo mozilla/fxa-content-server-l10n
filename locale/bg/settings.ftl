@@ -157,12 +157,6 @@ continue-with-apple-button = Напред с { -brand-apple }
 auth-error-114 = Твърде много опити. Опитайте отново { $retryAfter }.
 auth-error-1002 = Сесията е изтекла. Впишете се, за да продължите.
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Научете повече
-
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 

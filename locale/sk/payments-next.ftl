@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Pokračovať na stiahnutie
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Profilová fotka účtu
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Kreditný zostatok na účte
-subscription-management-account-credit-balance-message = Kredit sa automaticky použije na budúce faktúry
-subscription-management-payment-information-heading = Informácie o platbe
+subscription-management-subscriptions-heading = Predplatné
 subscription-management-button-add-payment-method-aria = Pridať platobnú metódu
 subscription-management-button-add-payment-method = Pridať
-subscription-management-button-change-payment-method-aria = Zmeniť spôsob platby
-subscription-management-button-change-payment-method = Zmeniť
 subscription-management-button-manage-payment-method-aria = Spravovať spôsob platby
 subscription-management-button-manage-payment-method = Spravovať
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karta končiaca číslicami { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vyprší { $expirationDate }
-subscription-management-subscriptions-heading = Predplatné
-subscription-management-your-subscriptions-aria = Vaše predplatné
-subscription-management-no-subscriptions = Zatiaľ nemáte žiadne predplatné
 subscription-management-button-support = Získať pomoc
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Získajte pomoc pre { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-apple }
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: nákup v aplikácii
 subscription-management-your-google-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-google }
-subscription-management-google-in-app-purchase-1 = { -brand-google }: nákup v aplikácii
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Ďalšia faktúra je splatná <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Vaše predplatné vyprší dňa <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Spravovať predplatné pre { $productName }
-subscription-management-button-manage-subscription = Spravovať
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (denne)
-subscription-management-page-subscription-interval-weekly = { $productName } (týždenne)
-subscription-management-page-subscription-interval-monthly = { $productName } (mesačne)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 mesiacov)
-subscription-management-page-subscription-interval-yearly = { $productName } (ročne)
-subscription-management-page-paypal-error-banner = Neplatné platobné informácie; vo vašom účte sa vyskytla chyba.
-subscription-management-page-paypal-error-banner-link = Spravovať
 paypal-payment-management-page-invalid-header = Neplatné fakturačné údaje
 paypal-payment-management-page-invalid-description = Zdá sa, že sa vyskytla chyba vo vašom účte { -brand-paypal }. Potrebujeme, aby ste podnikli potrebné kroky na vyriešenie tohto problému s platbou.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } daň</strong><span> fakturované dňa { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturované dňa { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = Na váš účet bol pripísaný kredit <strong>{ $creditApplied }</strong>
-subscription-content-coupon-applied = Kupón { $promotionName } bol použitý
 subscription-content-coupon-will-be-applied = Zľava { $promotionName } bude uplatnená
-subscription-content-next-bill-excl-disc-with-tax = Ďalšia faktúra vo výške <strong>{ $nextInvoiceTotal } + { $taxDue } daň</strong>, bez zliav, je splatná dňa <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Ďalšia faktúra vo výške <strong>{ $nextInvoiceTotal }</strong>, bez zliav, je splatná dňa <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Zrušiť predplatné
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, poslednom dni vášho fakturačného cyklu, už produkt { $productName } nebudete môcť používať.
 subscription-content-cancel-access-message = Zrušiť môj prístup k produktu { $productName } a dáta v ňom uložené ku dňu { $currentPeriodEnd }

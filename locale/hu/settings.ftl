@@ -482,7 +482,6 @@ bento-menu-title-3 = { -brand-mozilla } termékek
 bento-menu-tagline = A { -brand-mozilla } további termékei, amelyek védik a magánszféráját
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } asztali böngésző
 bento-menu-firefox-mobile = { -brand-firefox } mobilböngésző
@@ -913,14 +912,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = A { -brand-firefox } adatainak szinkronizálása
 delete-account-product-firefox-addons = { -brand-firefox } Kiegészítők
 delete-account-acknowledge = Erősítse meg ezt a fiókja a törlésével:
-delete-account-chk-box-1-v3 =
-    .label = Az összes előfizetése lemondásra kerül (kivéve a { -product-pocket }et)
 delete-account-chk-box-2 =
     .label = Elveszítheti a { -brand-mozilla } termékekben elmentett információkat és szolgáltatásokat
 delete-account-chk-box-3 =
@@ -930,8 +926,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Folytatás
 delete-account-password-input =
     .label = Adja meg a jelszót
-pocket-delete-notice = Ha előfizet a Pocket Premiumra, akkor győződjön meg arról, hogy <a>lemondta meg az előfizetését</a>, mielőtt törölné a fiókját.
-pocket-delete-notice-marketing = Ha nem szeretne több marketinges e-mailt kapni a Mozilla Corporationtől és a Mozilla Foundationtől, <a>kérnie kell a marketingadatai törlését</a>.
 delete-account-cancel-button = Mégse
 delete-account-delete-button-2 = Törlés
 
@@ -1257,8 +1251,6 @@ tfa-row-verify-session-info = A kétlépcsős hitelesítés beállításához me
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = A folytatással elfogadja a következőket:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Szolgáltatási feltételek</pocketTos> és az <pocketPrivacy>Adatvédelmi nyilatkozat</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = A { -brand-mozilla } előfizetéses szolgáltatásainak <mozSubscriptionTosLink>Szolgáltatási feltételei</mozSubscriptionTosLink> és <mozSubscriptionPrivacyLink>Adatvédelmi nyilatkozata</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1285,7 +1277,6 @@ auth-error-102 = Ismeretlen fiók
 auth-error-103 = Helytelen jelszó
 auth-error-105-2 = Érvénytelen megerősítő kód!
 auth-error-110 = Érvénytelen token
-auth-error-110-2 = Érvénytelen munkamenet. Jelentkezzen ki, majd be újra.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Túl sokszor próbálkozott. Próbálja újra később.
@@ -1298,7 +1289,6 @@ auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter }.
 auth-error-125 = A kérés biztonsági okokból blokkolva lett
 auth-error-129-2 = Érvénytelen telefonszámot adott meg. Ellenőrizze, és próbálja újra.
 auth-error-138-2 = Meg nem erősített munkamenet
-auth-error-138-3 = Meg nem erősített munkamenet. Jelentkezzen ki, majd be újra.
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
 # Error shown when the user submits an invalid backup authentication code
@@ -1337,14 +1327,6 @@ auth-error-1067 = Elírta az e-mail-címet?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = { $lastFourPhoneNumber } végű szám
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Nem hozható létre fiók
-cannot-create-account-requirements-2 = Bizonyos korkövetelményeknek meg kell felelni a { -product-mozilla-account } létrehozásához.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = További tudnivalók
 
 ## Connect Another Device page
 
@@ -1392,7 +1374,6 @@ index-relay-header = Hozzon létre egy e-mail-maszkot
 index-relay-subheader = Adja meg azt az e-mail-címet, ahová a maszkolt e-mail-címből érkező leveleket továbbítani szeretné.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Tovább erre: { $serviceName }
-index-subheader-with-logo = Tovább erre: <span>{ $serviceLogo }</span>
 index-subheader-default = Folytatás a fiókbeállításokhoz
 index-cta = Regisztráljon vagy jelentkezzen be
 index-account-info = Egy { -product-mozilla-account } a { -brand-mozilla } további adatvédelmi termékeihez is hozzáférést biztosít.
@@ -1662,7 +1643,7 @@ password-reset-submit-button-2 = Folytatás
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = A jelszó vissza lett állítva
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Tovább erre: { $serviceName }
 
 ## Reset password recovery method page
@@ -1731,9 +1712,6 @@ signin-link-expired-message-2 = A hivatkozás, amelyre kattintott, lejárt, vagy
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Adja meg a <span>{ -product-mozilla-account }</span> jelszavát
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Tovább erre: <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Tovább erre: { $serviceName }
@@ -1963,11 +1941,6 @@ signup-heading-v2 = Jelszó létrehozása
 signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
 signup-sync-info = Szinkronizálja jelszavait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
 signup-sync-info-with-payment = Szinkronizálja jelszavait, fizetési módjait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Miért kell létrehoznia ezt a fiókot?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Tudja meg itt
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mail-cím módosítása
 

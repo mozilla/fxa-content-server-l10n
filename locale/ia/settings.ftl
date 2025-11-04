@@ -482,7 +482,6 @@ bento-menu-title-3 = Productos { -brand-mozilla }
 bento-menu-tagline = Plus de productos { -brand-mozilla } que protege tu confidentialitate
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser pro scriptorio
 bento-menu-firefox-mobile = { -brand-firefox } navigator pro mobile
@@ -911,14 +910,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronisation datos de { -brand-firefox }
 delete-account-product-firefox-addons = Additivos de { -brand-firefox }
 delete-account-acknowledge = Per favor recognosce que per deler tu conto:
-delete-account-chk-box-1-v3 =
-    .label = Tote tu abonamentos a pagamento sera annullate (salvo { -product-pocket })
 delete-account-chk-box-2 =
     .label = Tu pote perder informationes salvate e functionalitates in le productos { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -928,8 +924,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Insere le contrasigno
-pocket-delete-notice = Si tu te abona a Pocket Premium, assecura te que tu <a>cancella tu abonamento</a> ante deler tu conto.
-pocket-delete-notice-marketing = Pro cessar de reciper emails commercial ab Mozilla Corporation e Mozilla Foundation, tu debe <a>requirer le deletion de tu datos commercial.</a>
 delete-account-cancel-button = Cancellar
 delete-account-delete-button-2 = Deler
 
@@ -1256,8 +1250,6 @@ tfa-row-verify-session-info = Tu debera confirmar tu actual session pro implemen
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Si tu procede, tu concorda con:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Terminos de servicio</pocketTos> e <pocketPrivacy>Aviso de confidentialitate</pocketPrivacy> de { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } Servicios de Abonamento<mozSubscriptionTosLink>Terminos de servicio</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Aviso de confidentialitate</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1284,7 +1276,6 @@ auth-error-102 = Conto incognite
 auth-error-103 = Contrasigno incorrecte
 auth-error-105-2 = Codice de confirmation invalide
 auth-error-110 = Token invalide
-auth-error-110-2 = Session non valide. Claude session e  re-accede.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Tu ha tentate troppo de vices. Retenta plus tarde.
@@ -1297,7 +1288,6 @@ auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
 auth-error-125 = Le requesta ha essite blocate pro rationes de securitate
 auth-error-129-2 = Tu insereva un numero de telephono non valide. Verifica lo e retenta.
 auth-error-138-2 = Session non confirmate
-auth-error-138-3 = Session non confirmate. Claude session e  re-accede.
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
 auth-error-155 = Token TOTP non trovate
 # Error shown when the user submits an invalid backup authentication code
@@ -1336,14 +1326,6 @@ auth-error-1067 = Email incorrecte?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numero finiente in { $lastFourPhoneNumber }
 oauth-error-1000 = Un error ha occurrite. Per favor claude iste scheda e retenta.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Impossibile crear le conto
-cannot-create-account-requirements-2 = Tu debe satisfacer certe requisitos de etate pro crear un { -product-mozilla-account }.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Pro saper plus
 
 ## Connect Another Device page
 
@@ -1391,7 +1373,6 @@ index-relay-header = Crear un masca de e-mail
 index-relay-subheader = Forni le adresse email ubi tu volerea inultrar emails ab tu email mascate.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
-index-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
 index-subheader-default = Passa a parametros de conto
 index-cta = Inscriber se o acceder
 index-account-info = Un { -product-mozilla-account } alsi disbloca le accesso a altere productos de protection del confidentialitate de { -brand-mozilla }.<
@@ -1661,7 +1642,7 @@ password-reset-submit-button-2 = Continuar
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Tu contrasigno ha essite remontate
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Continuar a { $serviceName }
 
 ## Reset password recovery method page
@@ -1727,9 +1708,6 @@ signin-link-expired-message-2 = Le ligamine que tu cliccava ha expirate o ha jam
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Insere tu contrasigno <span>pro tu { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar a { $serviceName }
@@ -1959,11 +1937,6 @@ signup-heading-v2 = Crear un contrasigno
 signup-relay-info = Un contrasigno es necesse pro gerer in modo secur tu alias de posta electronic e acceder al instrumentos de securitate de { -brand-mozilla }.
 signup-sync-info = Synchronisa tu contrasignos, marcapaginas e altero ubique tu usa { -brand-firefox }.
 signup-sync-info-with-payment = Synchronisa tu contrasignos, methodos de pagamento, marcapaginas e altero ubique tu usa { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Perque debe io crear iste conto?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Discoperi lo hic
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar email
 

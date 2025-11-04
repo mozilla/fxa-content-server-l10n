@@ -283,7 +283,6 @@ avatar-default-avatar =
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Компьютерлар өчен { -brand-firefox } браузеры
 bento-menu-firefox-mobile = Мобиль җиһазлар өчен { -brand-firefox } браузеры
@@ -488,7 +487,6 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } мәгълүматларын синхронлау
@@ -741,14 +739,6 @@ auth-error-1032 = Теркәлү өчен, дөрес яшьне күрсәтү�
 auth-error-1062 = Яраксыз юнәлтү
 oauth-error-1000 = Нидер булды. Бу табны ябып, зинһар янәдән тырышып карагыз.
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Хисап ясый алмыйм
-cannot-create-account-requirements-2 = { -product-mozilla-account } булдыру өчен билгеле бер яшьтән өлкәнрәк булуыгыз кирәк.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Күбрәк белү
-
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -943,7 +933,7 @@ password-reset-submit-button-2 = Дәвам итү
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Серсүзегез алмаштырылды
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = { $serviceName } хезмәтенә күчү
 
 ## ResetPasswordRecoveryPhone page
@@ -967,9 +957,6 @@ signin-link-expired-message-2 = Сез баскан сылтаманың вак�
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account } хисабыгыз өчен</span> серсүзегезне кертегез
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = <span>{ $serviceLogo }</span> хезмәтенә күчү
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = { $serviceName } хезмәтенә күчү

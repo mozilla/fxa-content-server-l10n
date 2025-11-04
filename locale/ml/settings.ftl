@@ -323,7 +323,6 @@ alert-bar-close-message = സന്ദേശം അടയ്ക്കുക
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 
 ##
@@ -466,7 +465,6 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } ദത്ത സമന്വയിപ്പിക്കുന്നു
@@ -682,7 +680,7 @@ password-reset-submit-button-2 = തുടരുക
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = താങ്കളുടെ ഒളിവാക്കു് പുനഃസജ്ജമാക്കി
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = { $serviceName }-ലോട്ടു് തുടരുക
 
 ## CompleteSignin component
@@ -768,8 +766,5 @@ signin-unblock-submit-button = തുടരുക
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = ഇവിടെ കണ്ടെത്തുക
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ഇതപാൽ മാറ്റുക

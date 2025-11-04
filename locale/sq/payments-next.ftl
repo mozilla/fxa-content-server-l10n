@@ -98,53 +98,24 @@ next-payment-confirmation-download-button = Vazhdoni te shkarkimi
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Foto profili llogarie
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Balancë krediti llogarie
-subscription-management-account-credit-balance-message = Krediti do të aplikohet automatikisht në faturat e ardhme
-subscription-management-payment-information-heading = Hollësi Pagese
+subscription-management-subscriptions-heading = Pajtime
 subscription-management-button-add-payment-method-aria = Shtoni metodë pagese
 subscription-management-button-add-payment-method = Shto
-subscription-management-button-change-payment-method-aria = Ndryshoni metodë pagesash
-subscription-management-button-change-payment-method = Ndryshoje
 subscription-management-button-manage-payment-method-aria = Administroni metodë pagesash
 subscription-management-button-manage-payment-method = Administrojini
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kartë që përfundon me { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Skadon më { $expirationDate }
-subscription-management-subscriptions-heading = Pajtime
-subscription-management-your-subscriptions-aria = Pajtimet tuaja
-subscription-management-no-subscriptions = Ende s’keni ndonjë pajtim
 subscription-management-button-support = Merrni ndihmë
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Merrni ndihmë për { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Pajtimet Tuaja { -brand-apple } In-App
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: blerje që nga aplikacioni
 subscription-management-your-google-iap-subscriptions-aria = Pajtimet Tuaja { -brand-google } In-App
-subscription-management-google-in-app-purchase-1 = { -brand-google }: blerje që nga aplikacioni
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Fatura e ardhshme skadon më <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Pajtimi juaj do të skadojë më <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administroni pajtim për { $productName }
-subscription-management-button-manage-subscription = Administrojini
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (përditë)
-subscription-management-page-subscription-interval-weekly = { $productName } (çdo javë)
-subscription-management-page-subscription-interval-monthly = { $productName } (çdo muaj)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6-muaj)
-subscription-management-page-subscription-interval-yearly = { $productName } (e përvitshme)
-subscription-management-page-paypal-error-banner = Hollësi të pavlefshme pagese; ka një gabim me llogarinë tuaj.
-subscription-management-page-paypal-error-banner-link = Administrojini
 paypal-payment-management-page-invalid-header = Hollësi faturimi të pavlefshme
 paypal-payment-management-page-invalid-description = Duket të ketë një gabim me llogarinë tuaj { -brand-paypal }. Duam që të ndërmerrni hapat e nevojshëm për të zgjidhur këtë problem pagese.
 # Page - Not Found
@@ -289,13 +260,7 @@ next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm pë
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } taksë</strong><span> faturuar më { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> faturuar më { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit i dhënë për llogarinë tuaj
-subscription-content-coupon-applied = U aplikua { $promotionName }
 subscription-content-coupon-will-be-applied = Do të aplikohet zbritja { $promotionName }
-subscription-content-next-bill-excl-disc-with-tax = Faturimi pasues prej <strong>{ $nextInvoiceTotal } + { $taxDue } taksë</strong>, hiq zbritje, duhet paguar deri më <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Faturimi pasues prej <strong>{ $nextInvoiceTotal }</strong>, hiq zbritje, duhet paguar deri më <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Anulojeni Pajtimin
 subscription-content-no-longer-use-message = Pas { $currentPeriodEnd }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $productName }.
 subscription-content-cancel-access-message = Më { $currentPeriodEnd }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $productName }

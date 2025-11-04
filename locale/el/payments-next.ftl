@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Συνέχεια στη λήψη
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Εικόνα προφίλ λογαριασμού
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Πιστωτικό υπόλοιπο λογαριασμού
-subscription-management-account-credit-balance-message = Η πίστωση θα εφαρμόζεται αυτόματα στα μελλοντικά παραστατικά
-subscription-management-payment-information-heading = Στοιχεία πληρωμής
+subscription-management-subscriptions-heading = Συνδρομές
 subscription-management-button-add-payment-method-aria = Προσθήκη μεθόδου πληρωμής
 subscription-management-button-add-payment-method = Προσθήκη
-subscription-management-button-change-payment-method-aria = Αλλαγή μεθόδου πληρωμής
-subscription-management-button-change-payment-method = Αλλαγή
 subscription-management-button-manage-payment-method-aria = Διαχείριση μεθόδου πληρωμής
 subscription-management-button-manage-payment-method = Διαχείριση
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Κάρτα που λήγει σε { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Λήγει στις { $expirationDate }
-subscription-management-subscriptions-heading = Συνδρομές
-subscription-management-your-subscriptions-aria = Οι συνδρομές σας
-subscription-management-no-subscriptions = Δεν έχετε καμία συνδρομή ακόμα
 subscription-management-button-support = Λήψη βοήθειας
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Λήψη βοήθειας για το { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-apple }
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: αγορά εντός εφαρμογής
 subscription-management-your-google-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-google }
-subscription-management-google-in-app-purchase-1 = { -brand-google }: αγορά εντός εφαρμογής
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Ο επόμενος λογαριασμός λήγει στις <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Η συνδρομή σας θα λήξει στις <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
-subscription-management-button-manage-subscription = Διαχείριση
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (ημερήσια)
-subscription-management-page-subscription-interval-weekly = { $productName } (εβδομαδιαία)
-subscription-management-page-subscription-interval-monthly = { $productName } (μηνιαία)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (εξαμηνιαία)
-subscription-management-page-subscription-interval-yearly = { $productName } (ετήσια)
-subscription-management-page-paypal-error-banner = Μη έγκυρα στοιχεία πληρωμής· υπάρχει σφάλμα με τον λογαριασμό σας.
-subscription-management-page-paypal-error-banner-link = Διαχείριση
 paypal-payment-management-page-invalid-header = Μη έγκυρα στοιχεία χρέωσης
 paypal-payment-management-page-invalid-description = Φαίνεται ότι υπάρχει σφάλμα με τον λογαριασμό σας στο { -brand-paypal }. Θα πρέπει να λάβετε τα απαραίτητα μέτρα για την επίλυση αυτού του προβλήματος πληρωμής.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } (φόρος)</strong><span> χρεώθηκαν στις { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> χρεώθηκαν στις { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = Εκδόθηκε πίστωση <strong>{ $creditApplied }</strong> στον λογαριασμό σας
-subscription-content-coupon-applied = Εφαρμόστηκε το { $promotionName }
 subscription-content-coupon-will-be-applied = Θα εφαρμοστεί έκπτωση { $promotionName }
-subscription-content-next-bill-excl-disc-with-tax = Ο επόμενος λογαριασμός των <strong>{ $nextInvoiceTotal } + { $taxDue } (φόρος)</strong>, εξαιρουμένων των εκπτώσεων, λήγει στις <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Ο επόμενος λογαριασμός <strong>{ $nextInvoiceTotal }</strong>, εξαιρουμένων των εκπτώσεων, λήγει στις <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Ακύρωση συνδρομής
 subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.
 subscription-content-cancel-access-message = Ακύρωση της πρόσβασής μου και των αποθηκευμένων πληροφοριών μου εντός του { $productName } στις { $currentPeriodEnd }

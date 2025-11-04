@@ -484,7 +484,6 @@ bento-menu-title-3 = { -brand-mozilla }-ს ნაწარმი
 bento-menu-tagline = { -brand-mozilla }-ს მეტი ნაწარმი თქვენი პირადულობის დასაცავად
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
 bento-menu-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
@@ -911,14 +910,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = სინქრონდება { -brand-firefox }-მონაცემები
 delete-account-product-firefox-addons = { -brand-firefox } დამატებები
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
-delete-account-chk-box-1-v3 =
-    .label = ყველა ფასიანი გამოწერა გაუქმდება (დარჩება მხოლოდ { -product-pocket })
 delete-account-chk-box-2 =
     .label = შეიძლება დაკარგოთ შენახული ინფორმაცია და შესაძლებლობები { -brand-mozilla }-ს პროდუქტების
 delete-account-chk-box-3 =
@@ -928,8 +924,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = გაგრძელება
 delete-account-password-input =
     .label = შეიყვანეთ პაროლი
-pocket-delete-notice = თუ გამოწერილი გაქვთ Pocket Premium, გთხოვთ, დარწმუნდეთ, რომ <a>გამოწერა გაუქმებული გაქვთ</a> ანგარიშის წაშლამდე.
-pocket-delete-notice-marketing = იმისთვის, რომ აღარ მიიღოთ მარკეტინგული წერილები Mozilla-ს კორპორაციისა და Mozilla-ფონდისგან, უნდა <a>მოითხოვოთ თქვენი მარკეტინგული მონაცემების წაშლა.</a>
 delete-account-cancel-button = გაუქმება
 delete-account-delete-button-2 = წაშლა
 
@@ -1253,8 +1247,6 @@ tfa-row-verify-session-info = ორბიჯიანი შესვლის 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = თუ განაგრძობთ, ამით თანახმა ხართ მიიღოთ:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket }-ის <pocketTos>მომსახურების პირობები</pocketTos> და <pocketPrivacy>პირადულობის დაცვის განაცხადი</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla }-ს გამოწერილი მომსახურებების <mozSubscriptionTosLink> პირობები</mozSubscriptionTosLink> და <mozSubscriptionPrivacyLink>პირადულობის განაცხადი</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1281,7 +1273,6 @@ auth-error-102 = უცნობი ანგარიში
 auth-error-103 = არასწორი პაროლი
 auth-error-105-2 = არასწორი დამადასტურებელი კოდი
 auth-error-110 = უმართებულო საშვი
-auth-error-110-2 = უმართებულო სეანსი. გთხოვთ, გამოხვიდეთ ანგარიშიდან და ხელახლა შეხვიდეთ.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = ზედმეტად ბევრი მცდელობა. კვლავ სინჯეთ მოგვიანებით.
@@ -1294,7 +1285,6 @@ auth-error-114 = ზედმეტად ბევრი მცდელობ�
 auth-error-125 = მოთხოვნა უარყოფილია უსაფრთხოების მიზნით
 auth-error-129-2 = მითითებული ტელეფონის ნომერი უმართებულოა. გთხოვთ გადაამოწმოთ და კვლავ სცადოთ.
 auth-error-138-2 = დაუმოწმებელი სეანსი
-auth-error-138-3 = დაუმოწმებელი სეანსი. გთხოვთ, გამოხვიდეთ ანგარიშიდან და ხელახლა შეხვიდეთ.
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
 auth-error-155 = TOTP-საშვი ვერ მოიძებნა
 # Error shown when the user submits an invalid backup authentication code
@@ -1333,14 +1323,6 @@ auth-error-1067 = მცდარბეჭდილია ელფოსტა?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = ნომრის დაბოლოებაა { $lastFourPhoneNumber }
 oauth-error-1000 = რაღაც ხარვეზია. გთხოვთ დახუროთ ჩანართი და სცადოთ ხელახლა.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = ანგარიშის შექმნა ვერ მოხერხდა
-cannot-create-account-requirements-2 = უნდა აკმაყოფილებდეთ ასაკის გარკვეულ მოთხოვნებს { -product-mozilla-account(case: "gen") } შესაქმნელად.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = ვრცლად
 
 ## Connect Another Device page
 
@@ -1388,7 +1370,6 @@ index-relay-header = ელფოსტის ნიღბის შექმნ
 index-relay-subheader = გთხოვთ მიუთითოთ ელფოსტის მისამართი, რომელზეც გსურთ გადაიგზავნოს თქვენი შენიღბული ელფოსტიდან წერილები.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = განაგრძეთ და იხილეთ { $serviceName }
-index-subheader-with-logo = განაგრძეთ და იხილეთ <span>{ $serviceLogo }</span>
 index-subheader-default = განაგრძეთ და იხილეთ ანგარიშის პარამეტრები
 index-cta = შედით ან შექმენით ანგარიში
 index-account-info = { -product-mozilla-account } აგრეთვე გზას გიხსნით პირადულობის უზრუნველმყოფ სხვა პროდუქტებისკენაც, რომელთაც ქმნის { -brand-mozilla }.
@@ -1660,7 +1641,7 @@ password-reset-submit-button-2 = განაგრძეთ
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = თქვენი პაროლი აღდგა.
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = განაგრძეთ და იხილეთ { $serviceName }
 
 ## Reset password recovery method page
@@ -1729,9 +1710,6 @@ signin-link-expired-message-2 = ბმული, რომელზეც გა
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = შეიყვანეთ პაროლი <span>თქვენი { -product-mozilla-account(case: "ben") }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = განაგრძეთ, რომ იხილოთ <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = გაიხსნება { $serviceName }
@@ -1961,11 +1939,6 @@ signup-heading-v2 = პაროლის შექმნა
 signup-relay-info = პაროლი საჭიროა შენიღბული ელფოსტის უსაფრთხოდ სამართავად და დაცვის საშუალებებთან წვდომისთვის, რომელთაც უზრუნველყოფს { -brand-mozilla }.
 signup-sync-info = დაასინქრონეთ თქვენი პაროლები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
 signup-sync-info-with-payment = დაასინქრონეთ თქვენი პაროლები, გადახდის საშუალებები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = რისთვისაა საჭირო ანგარიშის შექმნა?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = გაეცანით სრულად აქ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ელფოსტის შეცვლა
 

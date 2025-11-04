@@ -482,7 +482,6 @@ bento-menu-title-3 = { -brand-mozilla } apopyrekuéra
 bento-menu-tagline = { -brand-mozilla } apopyrekuéra omo’ãva nde rekoñemi
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } kundahára mesa arigua
 bento-menu-firefox-mobile = { -brand-firefox } kundahára pumbyrýpe g̃uarã
@@ -902,14 +901,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Embojuehe mba’ekuaarã { -brand-firefox } rehegua
 delete-account-product-firefox-addons = { -brand-firefox } Moĩmbaha
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
-delete-account-chk-box-1-v3 =
-    .label = Oimeraẽva jehepyme’ẽ mboheraguapy erekóva oñemboykéta (ndaha’éiva { -product-pocket })
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
@@ -919,8 +915,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Ku’ejey
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
-pocket-delete-notice = Eñemboheraguapýramo Pocket Premium ndive, ejapóke <a>ñemboheraguapy jejoko</a> emboguete mboyve ne mba’ete.
-pocket-delete-notice-marketing = Og̃uahẽ’ỹve hag̃ua ndéve ñanduti veve Mozilla Corporation ha Mozilla Foundation ñemurãgui, <a>ejeruréke toñembogue ne mba’ekuaarã ñemurãgui.</a>
 delete-account-cancel-button = Heja
 delete-account-delete-button-2 = Mboguete
 
@@ -1246,8 +1240,6 @@ tfa-row-verify-session-info = Tekotevẽ emoneĩ ne rembiapo ag̃agua emboheko h
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Eku’ejeývo, emoneĩ:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Mba’eporurã ñemboguata</pocketTos> ha <pocketPrivacy>Marandu Ñemigua</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Mba’epytyvõrã ñemboguata</mozSubscriptionTosLink> ha <mozSubscriptionPrivacyLink>Marandu’i ñemigua</mozSubscriptionPrivacyLink> { -brand-mozilla } mba’eporurã mboheraguapyrã
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1325,14 +1317,6 @@ auth-error-1067 = ¿Ñanduti veve ojehaivai?
 recovery-phone-number-ending-digits = Papapy opáva { $lastFourPhoneNumber }-pe
 oauth-error-1000 = Oĩ ndoikóiva. Emboty ko tendayke ha eha’ãjey.
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Ndaikatúi emoheñói mba’ete
-cannot-create-account-requirements-2 = Eguerekova’erã ary ojejuréva emoheñoikuaa hag̃ua { -product-mozilla-account }.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Kuaave
-
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -1379,7 +1363,6 @@ index-relay-header = Emoheñói ñanduti veve rovamo’ãha
 index-relay-subheader = Ikatúpa, eme’ẽ ne ñanditi veve réra emondojeyseha ne ñanditi veve hovañemo’ãva guive.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Eku’ejey { $serviceName } ndive
-index-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span> ndive
 index-subheader-default = Eku’ejey mba’ete mbohekopyahúpe
 index-cta = Emoinge térã eñemboheraguapy
 index-account-info = Peteĩ { -product-mozilla-account } ombojurujakuaa heta apopyrépe jeike { -brand-mozilla } ñemigua omo’ãvape.
@@ -1651,7 +1634,7 @@ password-reset-submit-button-2 = Ku’ejey
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Eku’ejey { $serviceName } ndive
 
 ## Reset password recovery method page
@@ -1720,9 +1703,6 @@ signin-link-expired-message-2 = Pe juajuha eikutuva’ekue ndoikovéima térã o
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Ehai ñe’ẽñemi <span>ne { -product-mozilla-account }</span> peg̃uarã
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Eku’ejey { $serviceName }
@@ -1952,11 +1932,6 @@ signup-heading-v2 = Emoheñói ñe’ẽñemi
 signup-relay-info = Tekotevẽ ñe’ẽñemi eñangareko hag̃ua tekorosãme ñanduti veve hovamo’ãvare ha eike { -brand-mozilla } rembiporu hekorosãvape.
 signup-sync-info = Embojuehe ñe’ẽñemi, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
 signup-sync-info-with-payment = Embojuehe ñe’ẽñemi, jepagarã, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = ¿Mba’ére amoheñoiva’erã ko mba’ete?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Ehechakuaa ko’ápe
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Emoambue  ñanduti veve
 

@@ -68,37 +68,20 @@ next-payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4
 
 ## Page - Subscription Management
 
-subscription-management-payment-information-heading = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
+subscription-management-subscriptions-heading = ਮੈਂਬਰੀਆਂ
 subscription-management-button-add-payment-method-aria = ਭੁਗਤਾਨ ਢੰਗ ਨੂੰ ਜੋੜੋ
 subscription-management-button-add-payment-method = ਜੋੜੋ
-subscription-management-button-change-payment-method-aria = ਭੁਗਤਾਨ ਢੰਗ ਨੂੰ ਬਦਲੋ
-subscription-management-button-change-payment-method = ਬਦਲੋ
 subscription-management-button-manage-payment-method-aria = ਭੁਗਤਾਨ ਢੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ
 subscription-management-button-manage-payment-method = ਬੰਦੋਬਸਤ
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = ਮਿਆਦ { $expirationDate }
-subscription-management-subscriptions-heading = ਮੈਂਬਰੀਆਂ
-subscription-management-your-subscriptions-aria = ਤੁਹਾਡੀਆਂ ਮੈਂਬਰੀਆਂ
 subscription-management-button-support = ਮਦਦ ਲਵੋ
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName } ਲਈ ਮਦਦ ਲਵੋ
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: ਐਪ-ਵਿੱਚ ਖਰੀਦੋ
-subscription-management-google-in-app-purchase-1 = { -brand-google }: ਐਪ-ਵਿੱਚ ਖਰੀਦੋ
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } ਲਈ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-subscription-management-button-manage-subscription = ਬੰਦੋਬਸਤ
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (ਰੋਜ਼ਾਨਾ)
-subscription-management-page-subscription-interval-weekly = { $productName } (ਹਫ਼ਤੇਵਾਰ)
-subscription-management-page-subscription-interval-monthly = { $productName } (ਮਹੀਨੇਵਾਰ)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6-ਮਹੀਨੇ)
-subscription-management-page-subscription-interval-yearly = { $productName } (ਸਾਲਾਨਾ)
-subscription-management-page-paypal-error-banner-link = ਬੰਦੋਬਸਤ
 # Page - Not Found
 page-not-found-title = ਸਫਾ ਨਹੀ ਲੱਭਾ
 page-not-found-back-button = ਪਿੱਛੇ ਜਾਓ
@@ -200,7 +183,6 @@ next-new-user-subscribe-product-assurance = ਅਸੀਂ ਤੁਹਾਡੇ ਈ�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-coupon-applied = { $promotionName } ਨੂੰ ਲਾਗੂ ਕੀਤਾ
 subscription-content-heading-cancel-subscription = ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕਰੋ
 subscription-content-button-stay-subscribed = ਮੈਂਬਰ ਬਣੇ ਰਹੋ
     .aria-label = { $productName } ਲਈ ਮੈਂਬਰ ਬਣੇ ਰਹੋ

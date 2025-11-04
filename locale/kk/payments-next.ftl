@@ -76,39 +76,19 @@ next-payment-confirmation-download-button = Жүктеп алуды жалғас
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын карта
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Тіркелгі профилінің суреті
-
 ## Page - Subscription Management
 
-subscription-management-payment-information-heading = Төлем ақпараты
+subscription-management-subscriptions-heading = Жазылулар
 subscription-management-button-add-payment-method-aria = Төлем әдісін қосу
 subscription-management-button-add-payment-method = Қосу
-subscription-management-button-change-payment-method-aria = Төлем әдісін өзгерту
-subscription-management-button-change-payment-method = Өзгерту
 subscription-management-button-manage-payment-method-aria = Төлем әдісін басқару
 subscription-management-button-manage-payment-method = Басқару
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = { $last4 } деп аяқталатын карта
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Мерзімі { $expirationDate } күні аяқталады
-subscription-management-subscriptions-heading = Жазылулар
-subscription-management-your-subscriptions-aria = Сіздің жазылуларыңыз
 subscription-management-button-support = Көмек алу
 subscription-management-your-apple-iap-subscriptions-aria = Сіздің { -brand-apple } қолданбадағы жазылымдарыңыз
-subscription-management-google-in-app-purchase-1 = { -brand-google }: қолданбада сатып алу
-subscription-management-button-manage-subscription = Басқару
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (күн сайын)
-subscription-management-page-subscription-interval-weekly = { $productName } (апта сайын)
-subscription-management-page-subscription-interval-monthly = { $productName } (ай сайын)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 ай сайын)
-subscription-management-page-subscription-interval-yearly = { $productName } (жыл сайын)
-subscription-management-page-paypal-error-banner-link = Басқару
 paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
 # Page - Not Found
 page-not-found-title = Бет табылмады

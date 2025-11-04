@@ -482,7 +482,6 @@ bento-menu-title-3 = { -brand-mozilla }-producten
 bento-menu-tagline = Meer producten van { -brand-mozilla } die uw privacy beschermen
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } Browser voor desktop
 bento-menu-firefox-mobile = { -brand-firefox } Browser voor mobiel
@@ -909,14 +908,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox }-gegevens  synchroniseren
 delete-account-product-firefox-addons = { -brand-firefox }-add-ons
 delete-account-acknowledge = Bevestig dat door uw account te verwijderen:
-delete-account-chk-box-1-v3 =
-    .label = Al uw betaalde abonnementen worden opgezegd (behalve { -product-pocket })
 delete-account-chk-box-2 =
     .label = U opgeslagen informatie en functies in { -brand-mozilla }-producten kunt verliezen
 delete-account-chk-box-3 =
@@ -926,8 +922,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Doorgaan
 delete-account-password-input =
     .label = Voer wachtwoord in
-pocket-delete-notice = Als u een abonnement hebt op Pocket Premium, zorg er dan voor dat u <a>uw abonnement opzegt</a> voordat u uw account verwijdert.
-pocket-delete-notice-marketing = Om geen marketingberichten van Mozilla Corporation en Mozilla Foundation meer te ontvangen, moet u <a>verwijdering van uw marketinggegevens aanvragen.</a>
 delete-account-cancel-button = Annuleren
 delete-account-delete-button-2 = Verwijderen
 
@@ -1253,8 +1247,6 @@ tfa-row-verify-session-info = U moet uw huidige sessie bevestigen om authenticat
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Door verder te gaan, gaat u akkoord met de:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = De <pocketTos>Servicevoorwaarden</pocketTos> en <pocketPrivacy>Privacyverklaring</pocketPrivacy> van { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla }-abonnementsservices, <mozSubscriptionTosLink>Servicevoorwaarden</mozSubscriptionTosLink> en <mozSubscriptionPrivacyLink>Privacyverklaring</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1281,7 +1273,6 @@ auth-error-102 = Onbekende account
 auth-error-103 = Onjuist wachtwoord
 auth-error-105-2 = Ongeldige bevestigingscode
 auth-error-110 = Ongeldige token
-auth-error-110-2 = Ongeldige sessie. Meld u af en opnieuw aan.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = U hebt het te vaak geprobeerd. Probeer het later opnieuw.
@@ -1294,7 +1285,6 @@ auth-error-114 = U hebt het te vaak geprobeerd. Probeer het { $retryAfter } opni
 auth-error-125 = De aanvraag is om veiligheidsredenen geblokkeerd
 auth-error-129-2 = U hebt een ongeldig telefoonnummer ingevoerd. Controleer dit en probeer het opnieuw.
 auth-error-138-2 = Onbevestigde sessie
-auth-error-138-3 = Onbevestigde sessie. Meld u af en opnieuw aan.
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
 # Error shown when the user submits an invalid backup authentication code
@@ -1333,14 +1323,6 @@ auth-error-1067 = Hebt u het e-mailadres verkeerd getypt?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer eindigend op { $lastFourPhoneNumber }
 oauth-error-1000 = Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Kan geen account aanmaken
-cannot-create-account-requirements-2 = U moet aan bepaalde leeftijdscriteria voldoen om een { -product-mozilla-account } aan te maken.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Meer info
 
 ## Connect Another Device page
 
@@ -1388,7 +1370,6 @@ index-relay-header = Een e-mailmasker aanmaken
 index-relay-subheader = Geef het e-mailadres op waarnaar u e-mailberichten vanuit uw gemaskeerde e-mailadres wilt doorsturen.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Doorgaan naar { $serviceName }
-index-subheader-with-logo = Doorgaan naar <span>{ $serviceLogo }</span>
 index-subheader-default = Doorgaan naar accountinstellingen
 index-cta = Registreren of aanmelden
 index-account-info = Een { -product-mozilla-account } ontgrendelt ook de toegang tot meer privacybeschermende producten van { -brand-mozilla }.
@@ -1660,7 +1641,7 @@ password-reset-submit-button-2 = Doorgaan
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Uw wachtwoord is opnieuw ingesteld
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Doorgaan naar { $serviceName }
 
 ## Reset password recovery method page
@@ -1726,9 +1707,6 @@ signin-link-expired-message-2 = De koppeling waarop u hebt geklikt is verlopen o
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Voer uw wachtwoord in <span>voor uw { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Doorgaan naar <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Doorgaan naar { $serviceName }
@@ -1958,11 +1936,6 @@ signup-heading-v2 = Maak een wachtwoord aan
 signup-relay-info = Er is een wachtwoord nodig om uw gemaskeerde e-mailadressen veilig te beheren en toegang te krijgen tot de beveiligingshulpmiddelen van { -brand-mozilla }.
 signup-sync-info = Synchroniseer uw wachtwoorden, bladwijzers en meer, overal waar u { -brand-firefox } gebruikt.
 signup-sync-info-with-payment = Synchroniseer uw wachtwoorden, betalingsmethoden, bladwijzers en meer, overal waar u { -brand-firefox } gebruikt.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Waarom moet ik deze account aanmaken?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Ontdek het hier
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailadres wijzigen
 

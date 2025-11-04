@@ -494,7 +494,6 @@ bento-menu-title-3 = Cynnyrch { -brand-mozilla }
 bento-menu-tagline = Rhagor o gynnyrch { -brand-mozilla } sy'n diogelu'ch preifatrwydd
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Porwr { -brand-firefox } ar gyfer y Bwrdd Gwaith
 bento-menu-firefox-mobile = Porwr { -brand-firefox } ar gyfer Symudol
@@ -927,14 +926,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Wrthi'n cydweddu data { -brand-firefox }
 delete-account-product-firefox-addons = Ychwanegion { -brand-firefox }
 delete-account-acknowledge = Cydnabyddwch hynny trwy ddileu eich cyfrif:
-delete-account-chk-box-1-v3 =
-    .label = Bydd unrhyw danysgrifiadau taledig sydd gennych yn cael eu diddymu (Ac eithrio { -product-pocket })
 delete-account-chk-box-2 =
     .label = Efallai y byddwch yn colli manylion a nodweddion sydd wedi'u cadw o fewn cynnyrch { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -944,8 +940,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Parhau
 delete-account-password-input =
     .label = Rhowch gyfrinair
-pocket-delete-notice = Os ydych yn tanysgrifio i Pocket Premium, gwnewch yn siŵr eich bod yn <a>diddymu'ch tanysgrifiad</a> cyn dileu eich cyfrif.
-pocket-delete-notice-marketing = Er mwyn peidio â derbyn e-byst marchnata gan y Mozilla Corporation a'r Mozilla Foundation, rhaid <a>gofyn am ddileu eich data marchnata.</a>
 delete-account-cancel-button = Diddymu
 delete-account-delete-button-2 = Dileu
 
@@ -1271,8 +1265,6 @@ tfa-row-verify-session-info = Mae angen i chi gadarnhau eich sesiwn gyfredol i o
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Drwy barhau, rydych yn cytuno i:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Amodau Gwasanaeth</pocketTos> a <pocketPrivacy>Hysbysiad Preifatrwydd</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } Gwasanaethau Tanysgrifio <mozSubscriptionTosLink>Telerau Gwasanaeth</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Hysbysiad Preifatrwydd</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1299,7 +1291,6 @@ auth-error-102 = Cyfrif anhysbys
 auth-error-103 = Cyfrinair anghywir
 auth-error-105-2 = Cod cadarnhau annilys
 auth-error-110 = Tocyn annilys
-auth-error-110-2 = Sesiwn annilys. Allgofnodwch a mewngofnodwch eto.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Rydych chi wedi ceisio gormod o weithiau. Ceisiwch eto yn nes ymlaen.
@@ -1312,7 +1303,6 @@ auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { 
 auth-error-125 = Cafodd y cais ei rwystro am resymau diogelwch
 auth-error-129-2 = Rydych wedi rhoi rhif ffôn annilys. Gwiriwch ef a rhowch gynnig arall arni.
 auth-error-138-2 = Sesiwn heb ei gadarnhau
-auth-error-138-3 = Sesiwn Heb ei Gadarnhau. Allgofnodwch a mewngofnodwch eto.
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
 # Error shown when the user submits an invalid backup authentication code
@@ -1351,14 +1341,6 @@ auth-error-1067 = Camdeipio'r e-bost?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Rhif sy'n gorffen gyda { $lastFourPhoneNumber }
 oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Methu creu cyfrif
-cannot-create-account-requirements-2 = Rhaid i chi fodloni gofynion oedran penodol i greu cyfrif { -product-mozilla-account }.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Dysgu rhagor
 
 ## Connect Another Device page
 
@@ -1406,7 +1388,6 @@ index-relay-header = Crëwch arallenw e-bost
 index-relay-subheader = Rhowch y cyfeiriad e-bost lle yr hoffech anfon e-byst ymlaen o'ch e-bost ag arallenw.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Ymlaen i { $serviceName }
-index-subheader-with-logo = Ymlaen i <span>{ $serviceLogo }</span>
 index-subheader-default = Ymlaen i osodiadau'r cyfrif
 index-cta = Cofrestrwch neu fewngofnodwch
 index-account-info = Mae { -product-mozilla-account } hefyd yn datgloi mynediad i fwy o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
@@ -1676,7 +1657,7 @@ password-reset-submit-button-2 = Parhau
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Parhau i { $serviceName }
 
 ## Reset password recovery method page
@@ -1746,9 +1727,6 @@ signin-link-expired-message-2 = Mae'r ddolen a gliciwyd gennych wedi dod i ben n
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Rhowch eich cyfrinair <span>ar gyfer eich cyfrif { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Parhau i <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Parhau i { $serviceName }
@@ -1982,11 +1960,6 @@ signup-heading-v2 = Crëwch gyfrinair
 signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst ag arallenw yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
 signup-sync-info = Cydweddwch eich cyfrineiriau a nodau tudalen a rhagor ym mhob man rydych yn defnyddio { -brand-firefox }.
 signup-sync-info-with-payment = Cydweddwch eich cyfrineiriau, dulliau talu a nodau tudalen, a rhagor ym mhob man rydych yn defnyddio { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Dysgu rhagor
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Newid e-bost
 

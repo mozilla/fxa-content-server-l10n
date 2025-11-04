@@ -94,47 +94,24 @@ next-payment-confirmation-download-button = İndirmeye devam et
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Hesap profil resmi
-
 ## Page - Subscription Management
 
-subscription-management-payment-information-heading = Ödeme bilgileri
+subscription-management-subscriptions-heading = Abonelikler
 subscription-management-button-add-payment-method-aria = Ödeme yöntemi ekle
 subscription-management-button-add-payment-method = Ekle
-subscription-management-button-change-payment-method-aria = Ödeme yöntemini değiştir
-subscription-management-button-change-payment-method = Değiştir
 subscription-management-button-manage-payment-method-aria = Ödeme yöntemini yönet
 subscription-management-button-manage-payment-method = Yönet
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = { $last4 } ile biten kart
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Son kullanım: { $expirationDate }
-subscription-management-subscriptions-heading = Abonelikler
-subscription-management-your-subscriptions-aria = Abonelikleriniz
-subscription-management-no-subscriptions = Henüz aboneliğiniz yok
 subscription-management-button-support = Yardım al
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName } için yardım alın
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } uygulama içi abonelikleriniz
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: uygulama içi satın alma
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } uygulama içi abonelikleriniz
-subscription-management-google-in-app-purchase-1 = { -brand-google }: uygulama içi satın alma
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } aboneliğini yönet
-subscription-management-button-manage-subscription = Yönet
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (günlük)
-subscription-management-page-subscription-interval-weekly = { $productName } (haftalık)
-subscription-management-page-subscription-interval-monthly = { $productName } (aylık)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 aylık)
-subscription-management-page-subscription-interval-yearly = { $productName } (yıllık)
-subscription-management-page-paypal-error-banner = Geçersiz ödeme bilgileri: Hesabınızla ilgili bir sorun var.
-subscription-management-page-paypal-error-banner-link = Yönet
 paypal-payment-management-page-invalid-header = Geçersiz fatura bilgileri
 # Page - Not Found
 page-not-found-title = Sayfa bulunamadı
@@ -273,7 +250,6 @@ next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınız�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-coupon-applied = { $promotionName } uygulandı
 subscription-content-heading-cancel-subscription = Aboneliği iptal et
 subscription-content-no-longer-use-message = Fatura döneminizin son günü olan { $currentPeriodEnd } tarihinden sonra { $productName } ürününü kullanamayacaksınız.
 subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.

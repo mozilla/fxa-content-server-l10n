@@ -41,7 +41,6 @@
 -product-firefox-cloud = Firefox Cloud
 -product-mozilla-monitor = മോസില്ല മോണിറ്റർ
 -product-firefox-relay = Firefox Relay
--product-pocket = Pocket
 -brand-apple = Apple
 -brand-google = Google
 -brand-paypal = PayPal

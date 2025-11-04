@@ -62,33 +62,15 @@ next-payment-confirmation-download-button = Идома додани боргир
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Корте, ки бо { $last4 } анҷом меёбад
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Расми профили ҳисоб
-
 ## Page - Subscription Management
 
+subscription-management-subscriptions-heading = Обунаҳо
 subscription-management-button-add-payment-method-aria = Илова кардани тарзи пардохт
 subscription-management-button-add-payment-method = Илова кардан
-subscription-management-button-change-payment-method-aria = Иваз кардани тарзи пардохт
-subscription-management-button-change-payment-method = Тағйир додан
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Корте, ки бо { $last4 } анҷом меёбад
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Муҳлаташ дар { $expirationDate } ба анҷом мерасад
-subscription-management-subscriptions-heading = Обунаҳо
-subscription-management-your-subscriptions-aria = Обунаҳои шумо
-subscription-management-no-subscriptions = Шумо ҳоло ягон обуна надоред
-subscription-management-button-manage-subscription = Идоракунӣ
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (Барои ҳар рӯз)
-subscription-management-page-subscription-interval-weekly = { $productName } (Барои ҳар ҳафта)
-subscription-management-page-subscription-interval-monthly = { $productName } (Барои ҳар моҳ)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (Барои 6 моҳ)
-subscription-management-page-subscription-interval-yearly = { $productName } (Барои ҳар сол)
 # Page - Not Found
 page-not-found-title = Саҳифа ёфт нашуд
 page-not-found-back-button = Бозгашт

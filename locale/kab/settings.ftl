@@ -287,7 +287,6 @@ avatar-default-avatar =
 bento-menu-title-3 = Ifarisen n { -brand-mozilla }
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Iminig { -brand-firefox } i tnarit
 bento-menu-firefox-mobile = Iminig { -brand-firefox } i uziraz
@@ -510,13 +509,10 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-addons = Isiɣzaf n { -brand-firefox }
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
-delete-account-chk-box-1-v3 =
-    .label = Aerred akk n lexlaṣ i tesεiḍ ttwasfesxen (slid { -product-pocket })
 delete-account-chk-box-2 =
     .label = Izmer ad tesruḥeḍ tilɣa yettwaskelsen d tmahilin deg yifuras { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -784,13 +780,6 @@ auth-error-1032 = Ilaq ad teskecmeḍ awtay ameɣtu iwakken ad tjerrdeḍ
 auth-error-1062 = Awelleh arameɣtu
 oauth-error-1000 = Yella wayen ur yeddin ara akken iwata. Ma ulac aɣilif, mdel iccer agi, sakin ɛreḍ tikelt nniḍen.
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Ur yezmir ara ad yernu amiḍan
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Issin ugar
-
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -820,7 +809,6 @@ index-header = Sekcem imayl inek
 index-sync-header = Kemmel ɣer umiḍan-ik { -product-mozilla-account }
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Kemmel ɣer { $serviceName }
-index-subheader-with-logo = Kemmel ɣer <span>{ $serviceLogo }</span>
 index-subheader-default = Kemmel ɣer yiɣewwaren n umiḍan
 index-cta = Kcem neɣ qqen
 index-email-input =
@@ -976,9 +964,6 @@ signin-link-expired-header = Aseɣwen n usentem yezri
 
 ## Signin page
 
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Kemmel ɣer <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Kemmel ɣer { $serviceName }
@@ -1088,7 +1073,5 @@ confirm-signup-code-is-required-error = Tangalt n usentem tettwasra
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Acuɣer i ilaq ad d-snulfuɣ amiḍan-a?
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Snifel imayl

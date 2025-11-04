@@ -87,18 +87,12 @@ next-payment-confirmation-cc-card-ending-in = Card care se termină cu { $last4 
 
 ## Page - Subscription Management
 
+subscription-management-subscriptions-heading = Abonamente
 subscription-management-button-add-payment-method-aria = Adaugă metoda de plată
 subscription-management-button-manage-payment-method-aria = Gestionează metoda de plată
 subscription-management-button-manage-payment-method = Gestionează
-subscription-management-subscriptions-heading = Abonamente
-subscription-management-your-subscriptions-aria = Abonamentele tale
-subscription-management-no-subscriptions = Nu ai încă niciun abonament
 subscription-management-button-support = Obține ajutor
 subscription-management-your-apple-iap-subscriptions-aria = Abonamentele tale în aplicația { -brand-apple }
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
 # Page - Not Found
 page-not-found-title = Pagina nu a fost găsită
 page-not-found-description = Pagina pe care ai solicitat-o nu a fost găsită. Am fost anunțați și vom repara orice linkuri care ar putea fi defecte.

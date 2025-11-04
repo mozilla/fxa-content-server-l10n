@@ -4,10 +4,6 @@ app-general-err-heading = Gabim i përgjithshëm aplikacioni
 app-general-err-message = Diç shkoi ters. Ju lutemi, riprovoni.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Kërkesë e Gabuar: Parametra të Pavlefshëm Kërkese
-# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
-# or maybe the session token is stale and the user needs to sign back in again.
-app-invalid-session-err-heading = Sesion i Pavlefshëm
-app-invalid-session-err-message = Ju lutemi, dilni dhe rihyni në llogari.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

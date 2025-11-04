@@ -488,7 +488,6 @@ bento-menu-title-3 = Produkty { -brand-mozilla }
 bento-menu-tagline = Dalšne produkty wót { -brand-mozilla }, kótarež wašu priwatnosć šćitaju
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Wobglědowak { -brand-firefox } za desktop
 bento-menu-firefox-mobile = Wobglědowak { -brand-firefox } za mobilne rědy
@@ -919,14 +918,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Daty { -brand-firefox } se synchronizěruju
 delete-account-product-firefox-addons = Dodanki { -brand-firefox }
 delete-account-acknowledge = Pšosym lašujśo swójo konto, aby to wobkšuśił:
-delete-account-chk-box-1-v3 =
-    .label = Někotare z wašych abonementow se anulěruju (mimo { -product-pocket })
 delete-account-chk-box-2 =
     .label = Móžośo skłaźone informacije a funkcije produktow { -brand-mozilla } zgubiś
 delete-account-chk-box-3 =
@@ -936,8 +932,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Dalej
 delete-account-password-input =
     .label = Gronidło zapódaś
-pocket-delete-notice = Jolic Pocket Premium aboněrujośo, zawěsććo pšosym, až <a>swój abonement wupowěźejośo</a>, nježli až swójo konto wulašujośo.
-pocket-delete-notice-marketing = Aby pśestał marketingowe mejlki wót pśedewześa Mozilla Corporation a załožby Mozilla Foundation dostawaś, musyśo wó <a>lašowanje swójich marketingowych datow pšosyś</a>.
 delete-account-cancel-button = Pśetergnuś
 delete-account-delete-button-2 = Lašowaś
 
@@ -1265,8 +1259,6 @@ tfa-row-verify-session-info = Musyśo swójo aktualne pósejźenje wobkšuśiś,
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Gaž pókšacujośo, zwólijośo do:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Wužywańske wuměnjenja</pocketTos> a <pocketPrivacy>powěźeńka priwatnosći</pocketPrivacy> { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Wužywańske wuměnenja</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Powěźeńka priwatnosći</mozSubscriptionPrivacyLink> abonomentowych słužbow { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1293,7 +1285,6 @@ auth-error-102 = Njeznate konto
 auth-error-103 = Wopacne gronidło
 auth-error-105-2 = Njepłaśiwy wobkšuśeński kod
 auth-error-110 = Njepłaśiwy token
-auth-error-110-2 = Njepłaśiwe pósejźenje. Pšosym wótzjawśo se a pśizjawśo se zasej.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Sćo to pśecesto wopytał. Wopytajśo pšosym pózdźej hyšći raz.
@@ -1306,7 +1297,6 @@ auth-error-114 = Sćo wopytał to pśecesto. Wopytajśo za { $retryAfter } hyš�
 auth-error-125 = Napšašowanje jo se z pśicynow wěstoty zablokěrowało
 auth-error-129-2 = Sćo zapódał njepłaśiwy telefonowy numer. Pšosym pśeglědujśo jen a wopytajśo hyšći raz.
 auth-error-138-2 = Njewobkšuśone pósejźenje
-auth-error-138-3 = Njewobkšuśone pósejźenje. Pšosym wótzjawśo se a pśizjawśo se zasej.
 auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
 auth-error-155 = TOTP-token njejo se namakał
 # Error shown when the user submits an invalid backup authentication code
@@ -1345,14 +1335,6 @@ auth-error-1067 = Sćo e-mailowu adresu wopak napisał?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numer, kótaryž se na { $lastFourPhoneNumber } kóńcy.
 oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Konto njedajo se załožyś
-cannot-create-account-requirements-2 = Musyśo wěste starstwowe pominanja docyniś, aby konto { -product-mozilla-account(case: "acc", capitalization: "lower") } załožył.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Dalšne informacije
 
 ## Connect Another Device page
 
@@ -1400,7 +1382,6 @@ index-relay-header = E-mailowu masku napóraś
 index-relay-subheader = Pšosym pódajśo e-mailowu adresu, na kótaruž cośo mejlki wót swójeje maskěrowaneje e-maile dalej pósrědniś.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Dalej k { $serviceName }
-index-subheader-with-logo = Dalej k <span>{ $serviceLogo }</span>
 index-subheader-default = Dalej ku kontowym nastajenjam
 index-cta = Registrěrowaś abo pśizjawiś
 index-account-info = Konto { -product-mozilla-account } teke pśistup k wěcej produktam šćita datow wót { -brand-mozilla } zmóžnja.
@@ -1672,7 +1653,7 @@ password-reset-submit-button-2 = Dalej
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Wašo gronidło jo se slědk stajiło
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Dalej k { $serviceName }
 
 ## Reset password recovery method page
@@ -1743,9 +1724,6 @@ signin-link-expired-message-2 = Wótkaz, na kótaryž sćo kliknuł, jo spadnjon
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Zapódajśo swójo gronidło <span>za swójo { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Dalej k <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Dalej k { $serviceName }
@@ -1977,11 +1955,6 @@ signup-heading-v2 = Gronidło napóraś
 signup-relay-info = Gronidło jo trjebna, aby swóje maskěrowane mejlki wěsće zastojaś a k wěstotnym rědam { -brand-mozilla } pśistup měł.
 signup-sync-info = Synchronizěrujśo swóje gronidła, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
 signup-sync-info-with-payment = Synchronizěrujśo swóje gronidła, płaśeńske metody, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Cogodla musym toś to konto załožyś?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Namakajśo how wen
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailowu adresu změniś
 

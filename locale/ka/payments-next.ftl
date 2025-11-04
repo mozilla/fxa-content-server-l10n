@@ -98,53 +98,24 @@ next-payment-confirmation-download-button = განაგრძეთ ჩა�
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = ანგარიშის პროფილის სურათი
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = ანგარიშზე დარიცხული ნაშთი
-subscription-management-account-credit-balance-message = დანარიცხი თავისთავად იქნება გამოყენებული მომდევნო გადახდებისას
-subscription-management-payment-information-heading = გადახდის მონაცემები
+subscription-management-subscriptions-heading = გამოწერები
 subscription-management-button-add-payment-method-aria = გადახდის საშუალების დამატება
 subscription-management-button-add-payment-method = დამატება
-subscription-management-button-change-payment-method-aria = გადახდის საშუალებების შეცვლა
-subscription-management-button-change-payment-method = შეცვლა
 subscription-management-button-manage-payment-method-aria = გადახდის საშუალების მართვა
 subscription-management-button-manage-payment-method = მართვა
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = ბარათი დაბოლოებით { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = მოქმედების ვადა { $expirationDate }
-subscription-management-subscriptions-heading = გამოწერები
-subscription-management-your-subscriptions-aria = თქვენი გამოწერილები
-subscription-management-no-subscriptions = გამოწერილები ჯერ არაა
 subscription-management-button-support = დახმარების მიღება
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = დახმარების მიღება – { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = თქვენი { -brand-apple } შიდა გამოწერებით
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: აპის შიდა შესყიდვა
 subscription-management-your-google-iap-subscriptions-aria = თქვენი { -brand-google } შიდა გამოწერებით
-subscription-management-google-in-app-purchase-1 = { -brand-google }: აპის შიდა შესყიდვა
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = შემდეგი ანგარიშსწორების ვადაა <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = თქვენი გამოწერის ვადაა <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = გამოწერის მართვა – { $productName }
-subscription-management-button-manage-subscription = მართვა
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (ყოველდღიური)
-subscription-management-page-subscription-interval-weekly = { $productName } (ყოველკვირეული)
-subscription-management-page-subscription-interval-monthly = { $productName } (ყოველთვიური)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6-თვიანი)
-subscription-management-page-subscription-interval-yearly = { $productName } (ყოველწლიური)
-subscription-management-page-paypal-error-banner = გადახდის არამართებული მონაცემები; შეცდომა წარმოიშვა ანგარიშთან დაკავშირებით.
-subscription-management-page-paypal-error-banner-link = მართვა
 paypal-payment-management-page-invalid-header = ანგარიშსწორების უმართებულო მონაცემები
 paypal-payment-management-page-invalid-description = როგორც ჩანს, თქვენს { -brand-paypal }-ანგარიშთან დაკავშირებით წარმოიშვა შეცდომა. ამ საკითხის მოსაგვარებლად სათანადო ზომების მიღება დაგვჭირდება.
 # Page - Not Found
@@ -291,13 +262,7 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } გადასახადი</strong><span> ანგარიშსწორების თარიღით { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> ანგარიშსწორების თარიღით { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> დანარიცხია გაცემული თქვენს ანგარიშზე
-subscription-content-coupon-applied = { $promotionName } გამოყენებულია
 subscription-content-coupon-will-be-applied = { $promotionName } ფასდაკლება აისახება
-subscription-content-next-bill-excl-disc-with-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal } + { $taxDue } გადასახადი</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal }</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
 subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
 subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }

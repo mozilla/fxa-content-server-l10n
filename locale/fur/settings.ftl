@@ -482,7 +482,6 @@ bento-menu-title-3 = Prodots { -brand-mozilla }
 bento-menu-tagline = Altris prodots di { -brand-mozilla } che a protezin la tô riservatece
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navigadôr { -brand-firefox } par scritori
 bento-menu-firefox-mobile = Navigadôr { -brand-firefox } par dispositîfs mobii
@@ -904,14 +903,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizazion dâts in { -brand-firefox }
 delete-account-product-firefox-addons = Components adizionâi in { -brand-firefox }
 delete-account-acknowledge = Eliminant il to account tu ricognossis che:
-delete-account-chk-box-1-v3 =
-    .label = Ducj i tiei abonaments a paiament a vignaran anulâts (gjavât { -product-pocket })
 delete-account-chk-box-2 =
     .label = Tu podaressis pierdi cualchi dât e funzionalitât che a fasin part dai prodots { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -921,8 +917,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continue
 delete-account-password-input =
     .label = Inserìs la password
-pocket-delete-notice = Se tu âs l’abonament a Pocket Premium, verifiche di <a>anulâ l’abonament</a> prime di eliminâ il to account.
-pocket-delete-notice-marketing = Par no ricevi plui lis e-mail promozionâls di Mozilla Corporation e Mozilla Foundation, al covente <a>domandâ la eliminazion dai dâts di marketing.</a>
 delete-account-cancel-button = Anule
 delete-account-delete-button-2 = Elimine
 
@@ -1248,8 +1242,6 @@ tfa-row-verify-session-info = Tu scugnis confermâ la session corinte par config
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Se tu continuis tu acetis:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Cundizions di utilizazion dal servizi</pocketTos> e <pocketPrivacy>Informative su la riservatece</pocketPrivacy> di { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Cundizions di utilizazion dal servizi</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Informative su la riservatece</mozSubscriptionPrivacyLink> dai servizis in abonament { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1276,7 +1268,6 @@ auth-error-102 = Account no cognossût
 auth-error-103 = Password sbaliade
 auth-error-105-2 = Codiç di conferme no valit
 auth-error-110 = Gjeton no valit
-auth-error-110-2 = Session no valide. Par plasê jes e torne jentre.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Tu âs provât masse voltis. Torne prove plui tart.
@@ -1289,7 +1280,6 @@ auth-error-114 = Tu âs provât masse voltis. Torne prove { $retryAfter }.
 auth-error-125 = La richieste e je stade blocade par motîfs di sigurece
 auth-error-129-2 = Tu âs inserît un numar di telefon che nol è valit. Controlilu e torne prove.
 auth-error-138-2 = Session no confermade
-auth-error-138-3 = Session no confermade. Par plasê jes e torne jentre.
 auth-error-139 = La e-mail secondarie e à di sei diferente di chê principâl dal to account
 auth-error-155 = Gjeton TOTP no cjatât
 # Error shown when the user submits an invalid backup authentication code
@@ -1328,14 +1318,6 @@ auth-error-1067 = Erôrs di batidure pe e-mail?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numar che al finìs cun { $lastFourPhoneNumber }
 oauth-error-1000 = Alc al è lât strucj. Siere cheste schede e torne prove.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Impussibil creâ un account
-cannot-create-account-requirements-2 = Par creâ un { -product-mozilla-account } tu scugnis sodisfâ determinâts recuisîts di etât.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Plui informazions
 
 ## Connect Another Device page
 
@@ -1383,7 +1365,6 @@ index-relay-header = Cree une mascare di e-mail
 index-relay-subheader = Indiche la direzion de e-mail dulà che tu vuelis mandâ indenant la pueste de tô mascare di pueste eletroniche.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continue su { $serviceName }
-index-subheader-with-logo = Continue su <span>{ $serviceLogo }</span>
 index-subheader-default = Passe aes impostazions dal account
 index-cta = Regjistriti o jentre
 index-account-info = Un { -product-mozilla-account } al permet ancje di acedi a altris prodots { -brand-mozilla } pe protezion de riservatece.
@@ -1655,7 +1636,7 @@ password-reset-submit-button-2 = Continue
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = La password e je stade ristabilide
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Continue su { $serviceName }
 
 ## Reset password recovery method page
@@ -1724,9 +1705,6 @@ signin-link-expired-message-2 = Tu âs fat clic suntun colegament che al è scja
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Inserìs la password <span>pal to { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Continue su <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continue su { $serviceName }
@@ -1956,11 +1934,6 @@ signup-heading-v2 = Cree une password
 signup-relay-info = E covente une password par gjestî in sigurece lis tôs mascaris di pueste e acedi ai struments di sigurece di { -brand-mozilla }.
 signup-sync-info = Sincronize passwords, segnelibris e altri dapardut là che tu dopris { -brand-firefox }.
 signup-sync-info-with-payment = Sincronize passwords, metodis di paiament, segnelibris e altri dapardut là che tu dopris { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Parcè scuegnio creâ chest account?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Scuvierzilu achì
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambie e-mail
 

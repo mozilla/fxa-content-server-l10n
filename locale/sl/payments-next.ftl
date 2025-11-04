@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Nadaljuj prenos
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Profilna slika računa
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Dobroimetje na računu
-subscription-management-account-credit-balance-message = Dobropis se bo samodejno vpisal pri prihodnjih računih
-subscription-management-payment-information-heading = Podatki o plačilu
+subscription-management-subscriptions-heading = Naročnine
 subscription-management-button-add-payment-method-aria = Dodaj način plačila
 subscription-management-button-add-payment-method = Dodaj
-subscription-management-button-change-payment-method-aria = Spremeni način plačila
-subscription-management-button-change-payment-method = Spremeni
 subscription-management-button-manage-payment-method-aria = Upravljanje plačilnega sredstva
 subscription-management-button-manage-payment-method = Upravljaj
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kartica, ki se končuje s { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Poteče { $expirationDate }
-subscription-management-subscriptions-heading = Naročnine
-subscription-management-your-subscriptions-aria = Vaše naročnine
-subscription-management-no-subscriptions = Nimate še nobene naročnine
 subscription-management-button-support = Pomoč
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Pomoč za { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše naročnine v aplikaciji za { -brand-apple }
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: nakup v aplikaciji
 subscription-management-your-google-iap-subscriptions-aria = Vaše naročnine v aplikaciji za { -brand-google }
-subscription-management-google-in-app-purchase-1 = { -brand-google }: nakup v aplikaciji
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Naslednji račun zapade do <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Vaša naročnina bo potekla <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Upravljanje naročnine na { $productName }
-subscription-management-button-manage-subscription = Upravljaj
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (dnevno)
-subscription-management-page-subscription-interval-weekly = { $productName } (tedensko)
-subscription-management-page-subscription-interval-monthly = { $productName } (mesečno)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (na 6 mesecev)
-subscription-management-page-subscription-interval-yearly = { $productName } (letno)
-subscription-management-page-paypal-error-banner = Neveljavni podatki o plačilu; pri uporabi vašega računa je prišlo do napake.
-subscription-management-page-paypal-error-banner-link = Upravljaj
 paypal-payment-management-page-invalid-header = Neveljavni podatki za obračun
 paypal-payment-management-page-invalid-description = Videti je, da je prišlo do napake z vašim računom { -brand-paypal }. Uresničite vse potrebne ukrepe za razrešitev težave s plačilom.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } davek</strong><span> obračunan { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> obračunano { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> dobroimetja
-subscription-content-coupon-applied = { $promotionName } uporabljeno
 subscription-content-coupon-will-be-applied = uveljavljen bo popust { $promotionName }
-subscription-content-next-bill-excl-disc-with-tax = Naslednji račun <strong>{ $nextInvoiceTotal } + { $taxDue } davek</strong>, brez popustov, bo <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Naslednji račun v višini <strong>{ $nextInvoiceTotal }</strong>, brez popustov, prihaja <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Prekliči naročnino
 subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.
 subscription-content-cancel-access-message = Prekliči moj dostop in moje shranjene podatke do { $productName } dne { $currentPeriodEnd }

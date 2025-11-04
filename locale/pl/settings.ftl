@@ -482,7 +482,6 @@ bento-menu-title-3 = Produkty { -brand-mozilla(case: "gen") }
 bento-menu-tagline = Więcej produktów od { -brand-mozilla(case: "gen") }, które chronią Twoją prywatność
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Przeglądarka { -brand-firefox } na komputery
 bento-menu-firefox-mobile = Przeglądarka { -brand-firefox } na telefon
@@ -908,14 +907,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizowanie danych { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Dodatki do { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
-delete-account-chk-box-1-v3 =
-    .label = Wszystkie posiadane płatne subskrypcje zostaną anulowane (z wyjątkiem { -product-pocket })
 delete-account-chk-box-2 =
     .label = Zachowane informacje i funkcje w produktach { -brand-mozilla(case: "gen") } mogą zostać utracone
 delete-account-chk-box-3 =
@@ -925,8 +921,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Kontynuuj
 delete-account-password-input =
     .label = Wpisz hasło
-pocket-delete-notice = Jeśli subskrybujesz Pocket Premium, upewnij się, że <a>anulujesz subskrypcję</a> przed usunięciem konta.
-pocket-delete-notice-marketing = Aby przestać otrzymywać wiadomości marketingowe od Mozilla Corporation i Mozilla Foundation, musisz <a>poprosić o usunięcie swoich danych marketingowych.</a>
 delete-account-cancel-button = Anuluj
 delete-account-delete-button-2 = Usuń
 
@@ -1253,8 +1247,6 @@ tfa-row-verify-session-info = Musisz potwierdzić obecną sesję, aby skonfiguro
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Kontynuując, wyrażasz zgodę na:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>regulamin usługi</pocketTos> i <pocketPrivacy>zasady ochrony prywatności</pocketPrivacy> serwisu { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>regulamin usługi</mozSubscriptionTosLink> i <mozSubscriptionPrivacyLink>zasady ochrony prywatności</mozSubscriptionPrivacyLink> usług subskrypcyjnych { -brand-mozilla(case: "gen") }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1332,14 +1324,6 @@ auth-error-1067 = Błąd w adresie e-mail?
 recovery-phone-number-ending-digits = Numer kończący się na { $lastFourPhoneNumber }
 oauth-error-1000 = Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie.
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Nie można utworzyć konta
-cannot-create-account-requirements-2 = Należy spełnić wymagania dotyczące wieku, aby utworzyć { -product-mozilla-account(case: "acc", capitalization: "lower") }.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Więcej informacji
-
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -1386,7 +1370,6 @@ index-relay-header = Utwórz maskę dla adresu e-mail
 index-relay-subheader = Podaj adres e-mail, na który przekazywać wiadomości z zamaskowanego adresu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Przejdź do usługi { $serviceName }
-index-subheader-with-logo = Przejdź do usługi <span>{ $serviceLogo }</span>
 index-subheader-default = Przejdź do ustawień konta
 index-cta = Zarejestruj się lub zaloguj
 index-account-info = { -product-mozilla-account } odblokowuje również dostęp do innych produktów { -brand-mozilla(case: "gen") } chroniących prywatność.
@@ -1656,7 +1639,7 @@ password-reset-submit-button-2 = Kontynuuj
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Zmieniono hasło
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Przejdź do usługi { $serviceName }
 
 ## Reset password recovery method page
@@ -1726,9 +1709,6 @@ signin-link-expired-message-2 = Kliknięty odnośnik wygasł lub został już wy
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Wpisz hasło <span>do { -product-mozilla-account(case: "gen", capitalization: "lower") }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Przejdź do usługi <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Przejdź do usługi { $serviceName }
@@ -1959,11 +1939,6 @@ signup-heading-v2 = Utwórz hasło
 signup-relay-info = Hasło jest potrzebne do bezpiecznego zarządzania zamaskowanymi adresami e-mail i do dostępu do narzędzi bezpieczeństwa { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizuj hasła, zakładki i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
 signup-sync-info-with-payment = Synchronizuj hasła, metody płatności, zakładki i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Dlaczego muszę założyć to konto?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Więcej informacji
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmień adres e-mail
 

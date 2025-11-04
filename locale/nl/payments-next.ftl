@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Doorgaan naar download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Accountprofielafbeelding
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Accountsaldo
-subscription-management-account-credit-balance-message = Tegoed wordt automatisch toegepast op toekomstige facturen
-subscription-management-payment-information-heading = Betalingsgegevens
+subscription-management-subscriptions-heading = Abonnementen
 subscription-management-button-add-payment-method-aria = Betalingsmethode toevoegen
 subscription-management-button-add-payment-method = Toevoegen
-subscription-management-button-change-payment-method-aria = Betalingsmethode wijzigen
-subscription-management-button-change-payment-method = Wijzigen
 subscription-management-button-manage-payment-method-aria = Betalingsmethode beheren
 subscription-management-button-manage-payment-method = Beheren
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Creditcard eindigend op { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vervalt op { $expirationDate }
-subscription-management-subscriptions-heading = Abonnementen
-subscription-management-your-subscriptions-aria = Uw abonnementen
-subscription-management-no-subscriptions = U hebt nog geen abonnementen
 subscription-management-button-support = Hulp verkrijgen
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Hulp voor { $productName } verkrijgen
 subscription-management-your-apple-iap-subscriptions-aria = Uw { -brand-apple }-in-app-abonnementen
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: in-app-aankoop
 subscription-management-your-google-iap-subscriptions-aria = Uw { -brand-google }-in-app-abonnementen
-subscription-management-google-in-app-purchase-1 = { -brand-google }: in-app-aankoop
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = De volgende factuur is verschuldigd op <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Uw abonnement verloopt op <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnement voor { $productName } beheren
-subscription-management-button-manage-subscription = Beheren
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (dagelijks)
-subscription-management-page-subscription-interval-weekly = { $productName } (wekelijks)
-subscription-management-page-subscription-interval-monthly = { $productName } (maandelijks)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (halfjaarlijks)
-subscription-management-page-subscription-interval-yearly = { $productName } (jaarlijks)
-subscription-management-page-paypal-error-banner = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account.
-subscription-management-page-paypal-error-banner-link = Beheren
 paypal-payment-management-page-invalid-header = Ongeldige facturatiegegevens
 paypal-payment-management-page-invalid-description = Er lijkt een fout op te treden met uw { -brand-paypal }-account. U dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen o
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } btw</strong><span> gefactureerd op { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> gefactureerd op { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tegoed toegekend aan uw account
-subscription-content-coupon-applied = { $promotionName } toegepast
 subscription-content-coupon-will-be-applied = Korting vanwege { $promotionName } wordt toegepast
-subscription-content-next-bill-excl-disc-with-tax = De volgende factuur van <strong>{ $nextInvoiceTotal } + { $taxDue } btw</strong>, exclusief kortingen, is verschuldigd op <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = De volgende factuur van <strong>{ $nextInvoiceTotal }</strong>, exclusief kortingen, is verschuldigd op <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonnement opzeggen
 subscription-content-no-longer-use-message = U kunt { $productName } niet meer gebruiken na { $currentPeriodEnd }, de laatste dag van uw betalingscyclus.
 subscription-content-cancel-access-message = Mijn toegang tot en opgeslagen gegevens in { $productName } op { $currentPeriodEnd } opzeggen

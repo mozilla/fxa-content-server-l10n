@@ -4,10 +4,6 @@ app-general-err-heading = Γενικό σφάλμα εφαρμογής
 app-general-err-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Εσφαλμένο αίτημα: Μη έγκυρες παράμετροι ερωτήματος
-# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
-# or maybe the session token is stale and the user needs to sign back in again.
-app-invalid-session-err-heading = Άκυρη συνεδρία
-app-invalid-session-err-message = Παρακαλούμε αποσυνδεθείτε και συνδεθείτε ξανά.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

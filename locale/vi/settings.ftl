@@ -470,7 +470,6 @@ bento-menu-title-3 = Các sản phẩm { -brand-mozilla }
 bento-menu-tagline = Các sản phẩm khác từ { -brand-mozilla } bảo vệ quyền riêng tư của bạn
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Trình duyệt { -brand-firefox } dành cho máy tính để bàn
 bento-menu-firefox-mobile = Trình duyệt { -brand-firefox } dành cho di động
@@ -889,14 +888,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Đang đồng bộ hóa dữ liệu { -brand-firefox }
 delete-account-product-firefox-addons = Tiện ích { -brand-firefox }
 delete-account-acknowledge = Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:
-delete-account-chk-box-1-v3 =
-    .label = Mọi thuê bao trả phí mà bạn có sẽ bị hủy (Ngoại trừ { -product-pocket })
 delete-account-chk-box-2 =
     .label = Bạn có thể sẽ mất thông tin và tính năng đã lưu trong các sản phẩm của { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -906,8 +902,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Tiếp tục
 delete-account-password-input =
     .label = Nhập mật khẩu
-pocket-delete-notice = Nếu bạn đăng ký Pocket Premium, vui lòng đảm bảo rằng bạn <a>đã hủy đăng ký</a> trước khi xóa tài khoản của mình.
-pocket-delete-notice-marketing = Để ngừng nhận email tiếp thị từ Mozilla Corporation và Mozilla Foundation, bạn phải <a>yêu cầu xóa dữ liệu tiếp thị của bạn.</a>
 delete-account-cancel-button = Hủy bỏ
 delete-account-delete-button-2 = Xóa
 
@@ -1227,8 +1221,6 @@ tfa-row-verify-session-info = Bạn cần xác nhận phiên hiện tại của 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Bằng cách tiếp tục, bạn đồng ý với:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Điều khoản dịch vụ</pocketTos> và <pocketPrivacy>thông báo về quyền riêng tư</pocketPrivacy> của { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Điều khoản dịch vụ</mozSubscriptionTosLink> và <mozSubscriptionPrivacyLink>thông báo về quyền riêng tư</mozSubscriptionPrivacyLink> của Dịch vụ thuê bao { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1255,7 +1247,6 @@ auth-error-102 = Tài khoản không xác định
 auth-error-103 = Mật khẩu không đúng
 auth-error-105-2 = Mã xác minh không hợp lệ
 auth-error-110 = Mã không hợp lệ
-auth-error-110-2 = Phiên không hợp lệ. Vui lòng đăng xuất và đăng nhập lại.
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = Bạn đã thử quá nhiều lần. Hãy thử lại sau.
@@ -1268,7 +1259,6 @@ auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $r
 auth-error-125 = Yêu cầu đã bị chặn vì lý do bảo mật
 auth-error-129-2 = Bạn đã nhập số điện thoại không hợp lệ. Vui lòng kiểm tra và thử lại.
 auth-error-138-2 = Phiên chưa được xác minh
-auth-error-138-3 = Phiên chưa được xác nhận. Vui lòng đăng xuất và đăng nhập lại.
 auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
 # Error shown when the user submits an invalid backup authentication code
@@ -1307,14 +1297,6 @@ auth-error-1067 = Nhập sai email?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Số kết thúc bằng { $lastFourPhoneNumber }
 oauth-error-1000 = Đã xảy ra lỗi. Vui lòng đóng thẻ này và thử lại.
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Không thể tạo tài khoản
-cannot-create-account-requirements-2 = Bạn phải đáp ứng các yêu cầu về độ tuổi nhất định để tạo { -product-mozilla-account }.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Tìm hiểu thêm
 
 ## Connect Another Device page
 
@@ -1362,7 +1344,6 @@ index-relay-header = Tạo email ẩn danh
 index-relay-subheader = Vui lòng cung cấp địa chỉ email mà bạn muốn chuyển tiếp email từ email ẩn danh của mình.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Tiếp tục đến { $serviceName }
-index-subheader-with-logo = Tiếp tục đến <span>{ $serviceLogo }</span>
 index-subheader-default = Tiếp tục đến cài đặt tài khoản
 index-cta = Đăng ký hoặc đăng nhập
 index-account-info = Một { -product-mozilla-account } cũng mở khóa quyền truy cập vào nhiều sản phẩm bảo vệ quyền riêng tư hơn từ { -brand-mozilla }.
@@ -1634,7 +1615,7 @@ password-reset-submit-button-2 = Tiếp tục
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Tiếp tục đến { $serviceName }
 
 ## Reset password recovery method page
@@ -1699,9 +1680,6 @@ signin-link-expired-message-2 = Liên kết bạn nhấp vào đã hết hạn h
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Nhập mật khẩu của bạn <span>cho { -product-mozilla-account } của bạn</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Tiếp tục đến <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Tiếp tục đến { $serviceName }
@@ -1927,11 +1905,6 @@ signup-heading-v2 = Tạo một mật khẩu
 signup-relay-info = Cần có mật khẩu để quản lý an toàn các email ẩn danh và quyền truy cập vào các công cụ bảo mật của { -brand-mozilla } của bạn.
 signup-sync-info = Đồng bộ hóa mật khẩu, dấu trang và nhiều thứ khác ở mọi nơi bạn sử dụng { -brand-firefox }.
 signup-sync-info-with-payment = Đồng bộ hóa mật khẩu, phương thức thanh toán, dấu trang và nhiều thông tin khác ở mọi nơi bạn sử dụng { -brand-firefox }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Tại sao tôi cần tạo tài khoản này?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Tìm hiểu ở đây
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Thay đổi email
 

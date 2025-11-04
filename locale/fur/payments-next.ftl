@@ -95,53 +95,24 @@ next-payment-confirmation-download-button = Continue par discjariâ
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Imagjin dal profîl pal account
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Salt dal account
-subscription-management-account-credit-balance-message = Il credit al vignarà aplicât in automatic tes prossimis faturis
-subscription-management-payment-information-heading = Informazions sul paiament
+subscription-management-subscriptions-heading = Abonaments
 subscription-management-button-add-payment-method-aria = Zonte metodi di paiament
 subscription-management-button-add-payment-method = Zonte
-subscription-management-button-change-payment-method-aria = Cambie metodi di paiament
-subscription-management-button-change-payment-method = Modifiche
 subscription-management-button-manage-payment-method-aria = Gjestìs metodi di paiament
 subscription-management-button-manage-payment-method = Gjestìs
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = La cjarte e che e finìs cun { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Al scjât al/ai { $expirationDate }
-subscription-management-subscriptions-heading = Abonaments
-subscription-management-your-subscriptions-aria = I tiei abonaments
-subscription-management-no-subscriptions = No tu âs ancjemò nissun abonament
 subscription-management-button-support = Oten jutori
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Oten jutori par { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-apple }
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: acuist te aplicazion
 subscription-management-your-google-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-google }
-subscription-management-google-in-app-purchase-1 = { -brand-google }: acuist te aplicazion
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = La prossime fature e je dovude pai <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Il to abonament al scjadarà ai <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gjestìs abonaments par { $productName }
-subscription-management-button-manage-subscription = Gjestìs
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (al dì)
-subscription-management-page-subscription-interval-weekly = { $productName } (ae setemane)
-subscription-management-page-subscription-interval-monthly = { $productName } (al mês)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 mês)
-subscription-management-page-subscription-interval-yearly = { $productName } (al an)
-subscription-management-page-paypal-error-banner = Informazions di paiament no validis; al è vignût fûr un erôr cul to account.
-subscription-management-page-paypal-error-banner-link = Gjestìs
 paypal-payment-management-page-invalid-header = Informazions di faturazion no validis
 paypal-payment-management-page-invalid-description = Al somee che al sedi un erôr cul to account { -brand-paypal }. Par risolvi chest probleme di paiament, al covente che tu fasedis chescj passaçs.
 # Page - Not Found
@@ -288,13 +259,7 @@ next-new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par cre
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } di tassis</strong><span> faturâts ai { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> faturâts ai { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credit mandât fûr sul to account
-subscription-content-coupon-applied = { $promotionName } aplicât
 subscription-content-coupon-will-be-applied = Al vignarà aplicât un scont di { $promotionName }
-subscription-content-next-bill-excl-disc-with-tax = La prossime fature di <strong>{ $nextInvoiceTotal } + { $taxDue } di tassis</strong>, gjavâts i sconts, e je dovude pai <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = La prossime fature di <strong>{ $nextInvoiceTotal }</strong>, gjavâts i sconts, e je dovude pai <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Scancele abonament
 subscription-content-no-longer-use-message = No tu rivarâs plui a doprâ { $productName } dopo { $currentPeriodEnd }, l'ultin dì dal cicli di faturazion.
 subscription-content-cancel-access-message = Scancele il gno acès e gjave lis informazions salvadis in { $productName } prime dai { $currentPeriodEnd }

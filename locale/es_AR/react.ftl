@@ -4,10 +4,6 @@ app-general-err-heading = Error de aplicación general
 app-general-err-message = Algo salió mal. Probá de nuevo más tarde.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Solicitud incorrecta: parámetros de consulta no válidos
-# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
-# or maybe the session token is stale and the user needs to sign back in again.
-app-invalid-session-err-heading = Sesión inválida
-app-invalid-session-err-message = Salí y volvé a iniciar sesión.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

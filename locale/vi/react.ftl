@@ -4,10 +4,6 @@ app-general-err-heading = Lỗi ứng dụng
 app-general-err-message = Có gì đó không ổn. Vui lòng thử lại sau.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Yêu cầu không hợp lệ: Tham số truy vấn không hợp lệ
-# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
-# or maybe the session token is stale and the user needs to sign back in again.
-app-invalid-session-err-heading = Phiên không hợp lệ
-app-invalid-session-err-message = Vui lòng đăng xuất và đăng nhập lại.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

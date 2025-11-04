@@ -70,13 +70,8 @@ next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-payment-information-heading = Informações de pagamento
 subscription-management-button-add-payment-method = Adicionar
 subscription-management-button-support = Obter ajuda
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
 # Page - Not Found
 page-not-found-title = Página não encontrada
 page-not-found-description = A página solicitada não foi encontrada. Fomos notificados e corrigiremos os links que podem estar quebrados.

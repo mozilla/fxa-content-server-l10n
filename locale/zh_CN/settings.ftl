@@ -470,7 +470,6 @@ bento-menu-title-3 = { -brand-mozilla } 产品
 bento-menu-tagline = { -brand-mozilla } 的更多保护您隐私的产品。
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } 桌面浏览器
 bento-menu-firefox-mobile = { -brand-firefox } 移动浏览器
@@ -887,14 +886,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = 同步 { -brand-firefox } 数据
 delete-account-product-firefox-addons = { -brand-firefox } 附加组件
 delete-account-acknowledge = 请确认，若您真要删除账户：
-delete-account-chk-box-1-v3 =
-    .label = 您的付费订阅都将被取消（{ -product-pocket } 除外）
 delete-account-chk-box-2 =
     .label = 您可能丢失在 { -brand-mozilla } 产品中保存的信息以及功能
 delete-account-chk-box-3 =
@@ -904,8 +900,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = 继续
 delete-account-password-input =
     .label = 请输入密码
-pocket-delete-notice = 如果您订阅了 Pocket Premium，请确保在删除账户之前<a>取消订阅</a>。
-pocket-delete-notice-marketing = 若要停止接受来自 Mozilla 公司和 Mozilla 基金会的营销邮件，您需要<a>请求删除自己的营销数据</a>。
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 删除
 
@@ -1217,8 +1211,6 @@ tfa-row-verify-session-info = 在设置两步验证前，需要先确认当前�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = 继续操作即表示您同意：
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = { -product-pocket } 的<pocketTos>服务条款</pocketTos>和<pocketPrivacy>隐私声明</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } 订阅服务的<mozSubscriptionTosLink>服务条款</mozSubscriptionTosLink>和<mozSubscriptionPrivacyLink>隐私声明</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1245,7 +1237,6 @@ auth-error-102 = 未知账户
 auth-error-103 = 密码错误
 auth-error-105-2 = 确认码无效
 auth-error-110 = 无效令牌
-auth-error-110-2 = 会话无效。请退出登录后重新登录。
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = 您的尝试次数过多，请稍后再试。
@@ -1258,7 +1249,6 @@ auth-error-114 = 您已尝试太多次，请在 { $retryAfter }再试。
 auth-error-125 = 因为安全性因素，已拦截请求
 auth-error-129-2 = 您输入的电话号码无效，请核对并重试。
 auth-error-138-2 = 未验证的会话
-auth-error-138-3 = 会话未确认。请退出登录后重新登录。
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
 # Error shown when the user submits an invalid backup authentication code
@@ -1297,14 +1287,6 @@ auth-error-1067 = 您输入的邮箱地址可能有误
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = 手机尾号为 { $lastFourPhoneNumber }
 oauth-error-1000 = 出了点问题。请关闭此标签页，然后再试一次。
-
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = 无法创建账户
-cannot-create-account-requirements-2 = 您必须符合年龄要求才能创建 { -product-mozilla-account }。
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = 详细了解
 
 ## Connect Another Device page
 
@@ -1352,7 +1334,6 @@ index-relay-header = 创建马甲邮箱
 index-relay-subheader = 请填写用于接收马甲邮箱转发邮件的邮箱地址。
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = 继续使用 { $serviceName }
-index-subheader-with-logo = 继续使用<span>{ $serviceLogo }</span>
 index-subheader-default = 进入账户设置
 index-cta = 注册或登录
 index-account-info = { -product-mozilla-account }还可用于访问 { -brand-mozilla } 的更多隐私保护产品。
@@ -1628,7 +1609,7 @@ password-reset-submit-button-2 = 继续
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = 您的密码已重置
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = 继续使用 { $serviceName }
 
 ## Reset password recovery method page
@@ -1690,9 +1671,6 @@ signin-link-expired-message-2 = 您点击的链接已过期或已被使用。
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>{ -product-mozilla-account }</span>请输入密码
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = 继续使用<span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = 继续使用 { $serviceName }
@@ -1918,11 +1896,6 @@ signup-heading-v2 = 创建密码
 signup-relay-info = 需通过密码来安全管理您的马甲邮箱，以及使用 { -brand-mozilla } 的安全工具。
 signup-sync-info = 在您使用 { -brand-firefox } 的各设备间，同步密码、书签等数据。
 signup-sync-info-with-payment = 在您使用 { -brand-firefox } 的各设备间，同步密码、付款信息、书签等数据。
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = 为什么要创建此账户？
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = 请参阅此处
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改邮箱
 

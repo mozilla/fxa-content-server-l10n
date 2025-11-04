@@ -4,10 +4,6 @@ app-general-err-heading = 應用程式一般錯誤
 app-general-err-message = 某些東西不對勁，請稍候再試一次。
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = 請求錯誤：查詢參數無效
-# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
-# or maybe the session token is stale and the user needs to sign back in again.
-app-invalid-session-err-heading = 使用階段無效
-app-invalid-session-err-message = 請登出再重新登入。
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

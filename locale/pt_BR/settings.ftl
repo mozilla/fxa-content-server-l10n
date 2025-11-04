@@ -453,7 +453,6 @@ bento-menu-title-3 = Produtos { -brand-mozilla }
 bento-menu-tagline = Mais produtos da { -brand-mozilla } que protegem sua privacidade
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Navegador { -brand-firefox } para computador
 bento-menu-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
@@ -735,14 +734,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account(capitalizati
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizando dados do { -brand-firefox }
 delete-account-product-firefox-addons = Extensões do { -brand-firefox }
 delete-account-acknowledge = Esteja ciente que ao excluir sua conta:
-delete-account-chk-box-1-v3 =
-    .label = Todas as assinaturas pagas que você tiver serão canceladas (exceto o { -product-pocket })
 delete-account-chk-box-2 =
     .label = Você pode perder informações e recursos salvos dentro de produtos { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -752,8 +748,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Digite a senha
-pocket-delete-notice = Se você tiver assinatura do Pocket Premium, certifique-se de <a>cancelar sua assinatura</a> antes de excluir sua conta.
-pocket-delete-notice-marketing = Para parar de receber emails de marketing da Mozilla Corporation e da Fundação Mozilla, você deve <a>solicitar a exclusão de seus dados de marketing</a>.
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Excluir
 
@@ -1065,8 +1059,6 @@ tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação em duas
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Ao prosseguir, você declara que concorda com os:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Termos do serviço</pocketTos> e <pocketPrivacy>Aviso de privacidade</pocketPrivacy> do { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = Serviços de assinatura <mozSubscriptionTosLink>Termos do serviço</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Aviso de privacidade</mozSubscriptionPrivacyLink> da { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1141,14 +1133,6 @@ auth-error-1067 = Digitou errado o email?
 recovery-phone-number-ending-digits = Número terminado em { $lastFourPhoneNumber }
 oauth-error-1000 = Algo deu errado. Feche esta aba e tente novamente.
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Não foi possível criar conta
-cannot-create-account-requirements-2 = Você deve atender a certos requisitos de idade para criar uma { -product-mozilla-account }.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Saiba mais
-
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -1195,7 +1179,6 @@ index-relay-header = Criar uma máscara de email
 index-relay-subheader = Indique o endereço de email para onde quer que sejam encaminhadas mensagens enviadas para sua máscara de email.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar para { $serviceName }
-index-subheader-with-logo = Continuar para <span>{ $serviceLogo }</span>
 index-subheader-default = Continuar para as configurações da conta
 index-cta = Entrar na sua conta ou criar uma
 index-account-info = Uma { -product-mozilla-account } também libera acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
@@ -1454,7 +1437,7 @@ password-reset-submit-button-2 = Avançar
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Sua senha foi redefinida
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Continuar para { $serviceName }
 
 ## Reset password recovery method page
@@ -1502,9 +1485,6 @@ signin-link-expired-message-2 = O link que você clicou expirou ou já foi usado
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Digite a senha <span>da sua { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Continuar para <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Continuar para { $serviceName }
@@ -1725,10 +1705,5 @@ confirm-signup-code-desktop-relay = O { -brand-firefox } irá tentar redireciona
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = É necessária uma senha para gerenciar de forma segura suas máscaras de email e acessar as ferramentas de segurança da { -brand-mozilla }.
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = Por que preciso criar esta conta?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = Descubra aqui
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Alterar email

@@ -4,10 +4,6 @@ app-general-err-heading = שגיאת יישום כללית
 app-general-err-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = בקשה שגויה: פרמטרי שאילתה לא חוקיים
-# Specific handler for issues where something went side with the session. Maybe it did't have proper permissions,
-# or maybe the session token is stale and the user needs to sign back in again.
-app-invalid-session-err-heading = הפעלה לא חוקית
-app-invalid-session-err-message = נא להתנתק ולהתחבר שוב.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

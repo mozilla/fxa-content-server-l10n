@@ -451,7 +451,6 @@ bento-menu-title-3 = Prudutti { -brand-mozilla }
 bento-menu-tagline = Autri prudutti { -brand-mozilla } chi prutègginu a to privatizza
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox } pû Scagnu
 bento-menu-firefox-mobile = { -brand-firefox } pû Tilèfunu
@@ -787,14 +786,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account(capitalizati
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Staju sincrunizzannu i dati di { -brand-firefox }
 delete-account-product-firefox-addons = Juncitini di { -brand-firefox }
 delete-account-acknowledge = Teni ’n cuntu chi, scancillannu u to cuntu:
-delete-account-chk-box-1-v3 =
-    .label = Tutti l’abbunamenti a pagamentu chi ài vennu scancillati (abbestra di { -product-pocket })
 delete-account-chk-box-2 =
     .label = Putissi pèrdiri i nfurmazzioni e i funziunalità dî prudutti { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -804,8 +800,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Cuntinua
 delete-account-password-input =
     .label = Metti a chiavi
-pocket-delete-notice = Si t’abboni a Pocket Premium, pi favuri <a>scancella u to abbunamentu</a> prima di scancillari u to cuntu.
-pocket-delete-notice-marketing = Pi nun ricìviri cchiù posta pubblicitaria di Mozilla Corporation e Mozilla Foundation, hâ <a>addumannari di scancillari i to dati pubblicitari</a>.
 delete-account-cancel-button = Sfai
 delete-account-delete-button-2 = Scancella
 
@@ -1120,8 +1114,6 @@ tfa-row-cannot-disable-2 = Nun potti sdisabbilitari l’autinticazzioni a du’ 
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Cuntinuannu, accetti i:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Tèrmini di sirbizzu</pocketTos> e l’<pocketPrivacy>Abbisu di risirbatizza</pocketPrivacy> di { -product-pocket }
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1190,14 +1182,6 @@ auth-error-1067 = Sbagghiasti a scrìviri u nnirizzu di posta elittrònica?
 recovery-phone-number-ending-digits = Nùmmaru chi finisci pi { $lastFourPhoneNumber }
 oauth-error-1000 = Quarchi cosa sfarsijau. Pi favuri chiuji sta scheda e torna a prova.
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = Nun potti criari un cuntu
-cannot-create-account-requirements-2 = Pi criari un { -product-mozilla-account } hâ aviri certi riquisiti d’età.
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = Cchiù nfurmazzioni
-
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -1244,7 +1228,6 @@ index-relay-header = Crìa nu nnirizzu di posta mascaratu
 index-relay-subheader = Pi favuri metti u nnirizzu di posta elittrònica unni âm’a mannari l’e-mail ricivuti dû nnirizzu mascaratu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Cuntinua nne { $serviceName }
-index-subheader-with-logo = Cuntinua nne <span>{ $serviceLogo }</span>
 index-subheader-default = Cuntinua ê mpustazzioni dû cuntu
 index-cta = Riggìstrati o trasi
 index-account-info = Un { -product-mozilla-account } ti duna l’accessu a autri prudutti di { -brand-mozilla } chi prutègginu a to privatizza.
@@ -1473,7 +1456,7 @@ password-reset-submit-button-2 = Cuntinua
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = A chiavi fu risittata
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Cuntinua nne { $serviceName }
 
 ## ResetPasswordRecoveryPhone page
@@ -1499,9 +1482,6 @@ signin-link-expired-message-2 = A lijami chi ammaccasti scadìu o già fu usata.
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Metti a chiavi <span>pû to { -product-mozilla-account }</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = Cuntinua nne <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Cuntinua nne { $serviceName }

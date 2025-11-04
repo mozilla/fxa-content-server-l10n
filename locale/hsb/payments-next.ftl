@@ -98,53 +98,24 @@ next-payment-confirmation-download-button = Dale k sćehnjenju
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } kónči
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Kontowy profilowy wobraz
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Kontowe dobroměće
-subscription-management-account-credit-balance-message = Dobroměće so awtomatisce na přichodne zličbowanki nałožuje
-subscription-management-payment-information-heading = Płaćenske informacije
+subscription-management-subscriptions-heading = Abonementy
 subscription-management-button-add-payment-method-aria = Płaćensku metodu přidać
 subscription-management-button-add-payment-method = Přidać
-subscription-management-button-change-payment-method-aria = Płaćensku metodu změnić
-subscription-management-button-change-payment-method = Změnić
 subscription-management-button-manage-payment-method-aria = Płaćensku metodu rjadować
 subscription-management-button-manage-payment-method = Rjadować
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karta, kotraž so na { $last4 } kónči
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Spadnje { $expirationDate }
-subscription-management-subscriptions-heading = Abonementy
-subscription-management-your-subscriptions-aria = Waše abonementy
-subscription-management-no-subscriptions = Hišće abonementy nimaće.
 subscription-management-button-support = Pomoc sej wobstarać
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Wobstarajće sej pomoc za { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-apple }
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: kup w nałoženju
 subscription-management-your-google-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-google }
-subscription-management-google-in-app-purchase-1 = { -brand-google }: kup w nałoženju
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Přichodna zličbowanka je płaćomna <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Waš abonement <strong>{ $date }</strong> spadnje
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonement za { $productName } rjadować
-subscription-management-button-manage-subscription = Rjadować
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (kóždy dźeń)
-subscription-management-page-subscription-interval-weekly = { $productName } (kóždy tydźeń)
-subscription-management-page-subscription-interval-monthly = { $productName } (kóždy měsac)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6-měsacny)
-subscription-management-page-subscription-interval-yearly = { $productName } (kóžde lěto)
-subscription-management-page-paypal-error-banner = Njepłaćiwe płaćenske informacije; je zmylk z wašim kontom.
-subscription-management-page-paypal-error-banner-link = Rjadować
 paypal-payment-management-page-invalid-header = Njepłaćiwe wotličenske informacije
 paypal-payment-management-page-invalid-description = Zda so, zo je zmylk z wašim kontom { -brand-paypal }. Dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
 # Page - Not Found
@@ -291,13 +262,7 @@ next-new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } dawka</strong> <span>stej so { $billedOnDate } wobličiłoj</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong> <span>je so { $billedOnDate } wobličił</span>
-subscription-content-credit-issued-to-your-account = Dobropis <strong>{ $creditApplied }</strong> je so wašemu kontu dobropisał
-subscription-content-coupon-applied = { $promotionName } nałoženy
 subscription-content-coupon-will-be-applied = Rabat { $promotionName } so nałoži
-subscription-content-next-bill-excl-disc-with-tax = Přichodna zličbowanka <strong>{ $nextInvoiceTotal } + { $taxDue } dawka</strong>, bjez rabatow, je płaćomna <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Přichodna zličbowanja <strong>{ $nextInvoiceTotal }</strong>, bjez rabatow, je płaćomna <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonement wupowědźić
 subscription-content-no-longer-use-message =
     Po { $currentPeriodEnd }, poslednim dnju swojeho wotličenskeje periody,

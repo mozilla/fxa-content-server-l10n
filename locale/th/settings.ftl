@@ -433,7 +433,6 @@ bento-menu-title-3 = ผลิตภัณฑ์ของ { -brand-mozilla }
 bento-menu-tagline = ผลิตภัณฑ์เพิ่มเติมจาก { -brand-mozilla } ที่ปกป้องความเป็นส่วนตัวของคุณ
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
-bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = เบราว์เซอร์ { -brand-firefox } สำหรับเดสก์ท็อป
 bento-menu-firefox-mobile = เบราว์เซอร์ { -brand-firefox } สำหรับมือถือ
@@ -706,14 +705,11 @@ delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
-delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = การซิงค์ข้อมูลใน { -brand-firefox }
 delete-account-product-firefox-addons = ส่วนเสริมใน { -brand-firefox }
 delete-account-acknowledge = โปรดรับทราบว่าการลบบัญชีของคุณ:
-delete-account-chk-box-1-v3 =
-    .label = การสมัครสมาชิกแบบชำระเงินทั้งหมดที่คุณมีจะถูกยกเลิก (ยกเว้น { -product-pocket })
 delete-account-chk-box-2 =
     .label = คุณอาจสูญเสียข้อมูลและคุณลักษณะต่าง ๆ ที่บันทึกไว้ภายในผลิตภัณฑ์ของ { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -723,8 +719,6 @@ delete-account-chk-box-4 =
 delete-account-continue-button = ดำเนินการต่อ
 delete-account-password-input =
     .label = ใส่รหัสผ่าน
-pocket-delete-notice = หากคุณสมัครสมาชิก Pocket Premium กรุณาตรวจสอบให้แน่ใจว่าคุณได้<a>ยกเลิกการสมัครสมาชิก</a>ก่อนที่จะลบบัญชี
-pocket-delete-notice-marketing = ถ้าต้องการหยุดรับอีเมลการตลาดจาก Mozilla Corporation และ Mozilla Foundation คุณต้อง<a>ร้องขอให้ลบข้อมูลการตลาดของคุณ</a>
 delete-account-cancel-button = ยกเลิก
 delete-account-delete-button-2 = ลบ
 
@@ -977,8 +971,6 @@ tfa-row-cannot-disable-2 = ไม่สามารถปิดใช้งา�
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = เมื่อดำเนินการต่อ จะถือว่าคุณยอมรับ:
-# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>เงื่อนไขการให้บริการ</pocketTos>และ<pocketPrivacy>ประกาศความเป็นส่วนตัว</pocketPrivacy>สำหรับ { -product-pocket }
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>เงื่อนไขการให้บริการ</mozSubscriptionTosLink>และ<mozSubscriptionPrivacyLink>ประกาศความเป็นส่วนตัว</mozSubscriptionPrivacyLink>สำหรับบริการแบบสมัครสมาชิกของ { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1030,14 +1022,6 @@ auth-error-1032 = คุณต้องใส่อายุที่ถูก�
 auth-error-1062 = การเปลี่ยนเส้นทางไม่ถูกต้อง
 oauth-error-1000 = มีความผิดพลาดบางประการ โปรดปิดแท็บนี้และลองใหม่อีกครั้ง
 
-## Cannot Create Account page
-## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
-
-cannot-create-account-header = ไม่สามารถสร้างบัญชีได้
-cannot-create-account-requirements-2 = คุณต้องมีอายุตามข้อกำหนดในการสร้าง{ -product-mozilla-account }
-# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
-cannot-create-account-learn-more-link = เรียนรู้เพิ่มเติม
-
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -1082,7 +1066,6 @@ index-sync-header = ดำเนินการต่อไปยัง { -produ
 index-sync-subheader = ซิงค์รหัสผ่าน แท็บ และที่คั่นหน้าของคุณในทุกที่ที่คุณใช้ { -brand-firefox }
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = ดำเนินการต่อไปยัง { $serviceName }
-index-subheader-with-logo = ดำเนินการต่อไปยัง <span>{ $serviceLogo }</span>
 index-subheader-default = ดำเนินการต่อไปยังการตั้งค่าบัญชี
 index-cta = ลงทะเบียนหรือลงชื่อเข้า
 index-account-info = { -product-mozilla-account } จะช่วยปลดล็อกสิทธิ์เข้าถึงผลิตภัณฑ์ที่ปกป้องความเป็นส่วนตัวจาก { -brand-mozilla } เช่นกัน
@@ -1331,7 +1314,7 @@ password-reset-submit-button-2 = ดำเนินการต่อ
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = ตั้งรหัสผ่านของคุณใหม่แล้ว
-# $serviceName is a product name such as Monitor, Pocket, Relay
+# $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = ดำเนินการต่อไปยัง { $serviceName }
 
 ## ResetPasswordRecoveryPhone page
@@ -1357,9 +1340,6 @@ signin-link-expired-message-2 = ลิงก์ที่คุณคลิกห
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = ใส่รหัสผ่านของคุณ<span>สำหรับ{ -product-mozilla-account } ของคุณ</span>
-# $serviceLogo - an image of the logo of the service which the user is authenticating for.
-# For languages structured like English, the phrase can read "to continue to"
-signin-subheader-with-logo = ดำเนินการต่อไปยัง <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = ดำเนินการต่อไปยัง { $serviceName }
@@ -1528,10 +1508,5 @@ confirm-signup-code-desktop-relay = { -brand-firefox } จะลองนำค�
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = คุณต้องใส่รหัสผ่านเพื่อที่จะจัดการอีเมลที่ปกปิดของคุณและเข้าถึงเครื่องมือความปลอดภัยของ { -brand-mozilla } ได้อย่างปลอดภัย
-# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
-signup-pocket-info-banner = ทำไมฉันถึงต้องสร้างบัญชีนี้ด้วย?
-# Link included in a dismissible info banner that is only displayed to Pocket clients
-# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
-signup-pocket-info-banner-link = หาคำตอบได้ที่นี่
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = เปลี่ยนอีเมล

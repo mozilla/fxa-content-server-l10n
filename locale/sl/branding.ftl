@@ -144,7 +144,6 @@
 -product-mozilla-monitor-short = Monitor
 -product-firefox-relay = Firefox Relay
 -product-firefox-relay-short = Relay
--product-pocket = Pocket
 -brand-apple =
     { $sklon ->
         [rodilnik] Appla
