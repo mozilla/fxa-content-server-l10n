@@ -911,6 +911,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tillegg
 delete-account-acknowledge = Bekreft at når du sletter kontoen din:
+delete-account-chk-box-1-v4 =
+    .label = Alle betalte abonnement du har vil bli sagt opp
 delete-account-chk-box-2 =
     .label = Du kan miste lagret informasjon og funksjoner i { -brand-mozilla }-produkter
 delete-account-chk-box-3 =
@@ -1861,6 +1863,11 @@ signin-totp-code-header = Logg inn
 signin-totp-code-subheader-v2 = Skriv inn totrinns-autentiseringskode
 signin-totp-code-instruction-v4 = Sjekk <strong>autentiseringsappen</strong> din for å bekrefte innloggingen din.
 signin-totp-code-input-label-v4 = Skriv inn 6-sifret kode
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Hvorfor blir du bedt om å autentisere deg?
+signin-totp-code-aal-banner-content = Du har konfigurert totrinnsautentisering på kontoen din, men har ikke logget på med en kode på denne enheten ennå.
+signin-totp-code-aal-sign-out = Logg ut på denne enheten
+signin-totp-code-aal-sign-out-error = Beklager, det oppstod et problem med å logge deg av
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekreft
 signin-totp-code-other-account-link = Bruk en annen konto

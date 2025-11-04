@@ -298,8 +298,11 @@ subscription-management-link-view-invoice-aria = Vis faktura for { $productName 
 subscription-content-expires-on-expiry-date = Utløper den { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Neste faktura • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } moms
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Fortsett abonnementet
     .aria-label = Fortsett abonnementet på { $productName }
+subscription-content-button-cancel-subscription-1 = Avbryt abonnement
 subscription-content-button-cancel-subscription = Avbryt abonnementet
     .aria-label = Avbryt abonnementet på { $productName }
 subscription-content-button-cancel = Avbryt

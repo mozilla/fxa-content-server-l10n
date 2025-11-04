@@ -97,15 +97,33 @@ next-payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Ugyldig betalingsinformasjon
+subscription-management-page-paypal-error-banner-message-account-error = Det er ein feil med kontoen din.
+subscription-management-button-manage-payment-method-1 = Handsam betalingsmåte
+subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmåte lagt til
+subscription-management-page-banner-warning-link-no-payment-method = Legg til en betalingsmåte
 subscription-management-subscriptions-heading = Abonnement
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Hopp til
+subscription-management-nav-payment-details = Betalningsinformasjon
+subscription-management-nav-active-subscriptions = Aktive abonnement
+subscription-management-payment-details-heading = Betalningsinformasjon
+subscription-management-email-label = E-post
+subscription-management-credit-balance-label = Kredittsaldo
+subscription-management-credit-balance-message = Kreditt vil automatisk bli brukt på framtidige fakturaer
+subscription-management-payment-method-label = Betalingsmåte
 subscription-management-button-add-payment-method-aria = Legg til betalingsinformasjon
 subscription-management-button-add-payment-method = Legg til
+subscription-management-page-warning-message-no-payment-method = Legg til ein betalingsmåte for å unngå avbrot i abonnementa dine.
 subscription-management-button-manage-payment-method-aria = Handsam betalingsmåte
 subscription-management-button-manage-payment-method = Handsam
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kortet sluttar på { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Går ut { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Det er eit problem med { -brand-paypal }-kontoen din. Løys problemet for å oppretthalde dei aktive abonnementa dine.
+subscription-management-active-subscriptions-heading = Aktive abonnement
+subscription-management-you-have-no-active-subscriptions = Du har ingen aktive abonnement
 subscription-management-button-support = Få hjelp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjelp med { $productName }
