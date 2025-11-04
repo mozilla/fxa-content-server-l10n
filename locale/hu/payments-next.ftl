@@ -99,22 +99,48 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Érvénytelen fizetési információk
+subscription-management-page-paypal-error-banner-message-account-error = Hiba történt a fiókjával.
+subscription-management-button-manage-payment-method-1 = Fizetési mód kezelése
+subscription-management-page-banner-warning-title-no-payment-method = Nincs fizetési mód hozzáadva
+subscription-management-page-banner-warning-link-no-payment-method = Fizetési mód hozzáadása
 subscription-management-subscriptions-heading = Előfizetések
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Ugrás ide:
+subscription-management-nav-payment-details = Fizetési részletek
+subscription-management-nav-active-subscriptions = Aktív előfizetések
+subscription-management-payment-details-heading = Fizetési részletek
+subscription-management-email-label = E-mail
+subscription-management-credit-balance-label = Egyenleg
+subscription-management-credit-balance-message = A jóváírás automatikusan a jövőbeli számlákon lesz
+subscription-management-payment-method-label = Fizetési mód
 subscription-management-button-add-payment-method-aria = Fizetési mód hozzáadása
 subscription-management-button-add-payment-method = Hozzáadás
+subscription-management-page-warning-message-no-payment-method = Adjon meg egy fizetési módot, hogy elkerülje az előfizetések megszakításait.
 subscription-management-button-manage-payment-method-aria = Fizetési mód kezelése
 subscription-management-button-manage-payment-method = Kezelés
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = { $last4 } végződésű kártya
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Lejárat: { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Probléma van a(z) { -brand-paypal } fiókjával. Oldja meg a problémát, hogy megtartsa az aktív előfizetéseit.
+subscription-management-active-subscriptions-heading = Aktív előfizetések
+subscription-management-you-have-no-active-subscriptions = Nincs aktív előfizetése
+subscription-management-new-subs-will-appear-here = Az új előfizetések itt fognak megjelenni.
+subscription-management-your-active-subscriptions-aria = Az aktív előfizetései
 subscription-management-button-support = Segítség kérése
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Segítség ehhez: { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } alkalmazásbeli előfizetései
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } értékű alkalmazásbeli vásárlás
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } alkalmazásbeli előfizetései
+subscription-management-google-in-app-purchase-2 = { -brand-google } értékű alkalmazásbeli vásárlás
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Lejár: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } előfizetés kezelése
+subscription-management-button-manage-subscription-1 = Előfizetés kezelése
+manage-payment-methods-heading = Fizetési módok kezelése
 paypal-payment-management-page-invalid-header = Érvénytelen számlázási információk
 paypal-payment-management-page-invalid-description = Úgy tűnik, hogy hiba történt a(z) { -brand-paypal }-fiókjával kapcsolatban. Meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
 # Page - Not Found
@@ -265,8 +291,20 @@ subscription-content-coupon-will-be-applied = { $promotionName } kedvezmény les
 subscription-content-heading-cancel-subscription = Előfizetés lemondása
 subscription-content-no-longer-use-message = Az utolsó számlázási periódusa után ({ $currentPeriodEnd }) nem fogja tudni használni a(z) { $productName } szolgáltatást,
 subscription-content-cancel-access-message = A(z) { $productName } hozzáférésének lemondása, és az abban mentett adatok törlése ekkor: { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Utolsó számla • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } adó
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Számla megtekintése
+subscription-management-link-view-invoice-aria = { $productName } összegű számla megtekintése
+subscription-content-expires-on-expiry-date = Lejár: { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Következő számla • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } adó
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Előfizetés megtartása
     .aria-label = { $productName } előfizetés megtartása
+subscription-content-button-cancel-subscription-1 = Előfizetés lemondása
 subscription-content-button-cancel-subscription = Előfizetés lemondása
     .aria-label = { $productName } előfizetés megszüntetése
 subscription-content-button-cancel = Mégse

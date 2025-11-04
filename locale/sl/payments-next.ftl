@@ -97,22 +97,48 @@ next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Neveljavni podatki za plačilo
+subscription-management-page-paypal-error-banner-message-account-error = Prišlo je do napake z vašim računom.
+subscription-management-button-manage-payment-method-1 = Upravljanje plačilnega sredstva
+subscription-management-page-banner-warning-title-no-payment-method = Ni dodanega načina plačila
+subscription-management-page-banner-warning-link-no-payment-method = Dodaj plačilno sredstvo
 subscription-management-subscriptions-heading = Naročnine
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Skoči na
+subscription-management-nav-payment-details = Podatki o plačilu
+subscription-management-nav-active-subscriptions = Aktivne naročnine
+subscription-management-payment-details-heading = Podatki o plačilu
+subscription-management-email-label = E-pošta
+subscription-management-credit-balance-label = Dobroimetje
+subscription-management-credit-balance-message = Dobroimetje se bo samodejno pripisalo prihodnjim računom
+subscription-management-payment-method-label = Način plačila
 subscription-management-button-add-payment-method-aria = Dodaj način plačila
 subscription-management-button-add-payment-method = Dodaj
+subscription-management-page-warning-message-no-payment-method = Prosimo, dodajte plačilno sredstvo, da se izognete prekinjanju svojih naročnin.
 subscription-management-button-manage-payment-method-aria = Upravljanje plačilnega sredstva
 subscription-management-button-manage-payment-method = Upravljaj
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kartica, ki se končuje s { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Poteče { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Prišlo je do težave z vašim računom { -brand-paypal }. Odpravite težavo, da ohranite svoje dejavne naročnine.
+subscription-management-active-subscriptions-heading = Aktivne naročnine
+subscription-management-you-have-no-active-subscriptions = Nimate aktivnih naročnin
+subscription-management-new-subs-will-appear-here = Nove naročnine se bodo pojavile tukaj.
+subscription-management-your-active-subscriptions-aria = Vaše aktivne naročnine
 subscription-management-button-support = Pomoč
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Pomoč za { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše naročnine v aplikaciji za { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Nakup v aplikaciji { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Vaše naročnine v aplikaciji za { -brand-google }
+subscription-management-google-in-app-purchase-2 = Nakup v aplikaciji { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Preteče { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Upravljanje naročnine na { $productName }
+subscription-management-button-manage-subscription-1 = Upravljanje naročnine
+manage-payment-methods-heading = Upravljanje plačilnih sredstev
 paypal-payment-management-page-invalid-header = Neveljavni podatki za obračun
 paypal-payment-management-page-invalid-description = Videti je, da je prišlo do napake z vašim računom { -brand-paypal }. Uresničite vse potrebne ukrepe za razrešitev težave s plačilom.
 # Page - Not Found
@@ -263,8 +289,20 @@ subscription-content-coupon-will-be-applied = uveljavljen bo popust { $promotion
 subscription-content-heading-cancel-subscription = Prekliči naročnino
 subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.
 subscription-content-cancel-access-message = Prekliči moj dostop in moje shranjene podatke do { $productName } dne { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Zadnji račun • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } davek
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Ogled računa
+subscription-management-link-view-invoice-aria = Prikaži račun za { $productName }
+subscription-content-expires-on-expiry-date = Preteče { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Naslednji račun • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } davek
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Ostanite naročnik
     .aria-label = Ostanite naročeni na { $productName }
+subscription-content-button-cancel-subscription-1 = Prekliči naročnino
 subscription-content-button-cancel-subscription = Prekliči naročnino
     .aria-label = Prekličite naročnino na { $productName }
 subscription-content-button-cancel = Prekliči

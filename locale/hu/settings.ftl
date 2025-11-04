@@ -917,6 +917,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = A { -brand-firefox } adatainak szinkronizálása
 delete-account-product-firefox-addons = { -brand-firefox } Kiegészítők
 delete-account-acknowledge = Erősítse meg ezt a fiókja a törlésével:
+delete-account-chk-box-1-v4 =
+    .label = Az összes előfizetése lemondásra kerül
 delete-account-chk-box-2 =
     .label = Elveszítheti a { -brand-mozilla } termékekben elmentett információkat és szolgáltatásokat
 delete-account-chk-box-3 =
@@ -1875,6 +1877,11 @@ signin-totp-code-header = Bejelentkezés
 signin-totp-code-subheader-v2 = Adja meg a kétlépcsős hitelesítési kódot
 signin-totp-code-instruction-v4 = Ellenőrizze a <strong>hitelesítő alkalmazását</strong>, hogy megerősítse bejelentkezését.
 signin-totp-code-input-label-v4 = Adja meg a 6 számjegyű kódot
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Miért kérik, hogy hitelesítsen?
+signin-totp-code-aal-banner-content = Beállította a kétlépcsős hitelesítést a fiókjában, de még nem jelentkezett be kóddal ezen az eszközön.
+signin-totp-code-aal-sign-out = Jelentkezzen ki ezen az eszközön
+signin-totp-code-aal-sign-out-error = Sajnos probléma merült fel a kijelentkezésekor
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Megerősítés
 signin-totp-code-other-account-link = Másik fiók használata

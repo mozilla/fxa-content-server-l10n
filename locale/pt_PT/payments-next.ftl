@@ -97,22 +97,48 @@ next-payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informação de pagamento inválida
+subscription-management-page-paypal-error-banner-message-account-error = Existe um erro com a sua conta.
+subscription-management-button-manage-payment-method-1 = Gerir método de pagamento
+subscription-management-page-banner-warning-title-no-payment-method = Nenhum método de pagamento adicionado
+subscription-management-page-banner-warning-link-no-payment-method = Adicionar um método de pagamento
 subscription-management-subscriptions-heading = Subscrições
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Ir para
+subscription-management-nav-payment-details = Detalhes de pagamento
+subscription-management-nav-active-subscriptions = Subscrições ativas
+subscription-management-payment-details-heading = Detalhes de pagamento
+subscription-management-email-label = Email
+subscription-management-credit-balance-label = Balanço creditado
+subscription-management-credit-balance-message = O crédito será aplicado automaticamente a faturas futuras
+subscription-management-payment-method-label = Método de pagamento
 subscription-management-button-add-payment-method-aria = Adicionar método de pagamento
 subscription-management-button-add-payment-method = Adicionar
+subscription-management-page-warning-message-no-payment-method = Por favor, adicione um método de pagamento para evitar interrupção nas suas subscrições.
 subscription-management-button-manage-payment-method-aria = Gerir método de pagamento
 subscription-management-button-manage-payment-method = Gerir
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Cartão que terminar em { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expira em { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Existe um problema com a sua conta { -brand-paypal }. Por favor resolva o problema para manter as suas subscrições ativas.
+subscription-management-active-subscriptions-heading = Subscrições ativas
+subscription-management-you-have-no-active-subscriptions = Não tem subscrições ativas
+subscription-management-new-subs-will-appear-here = Novas subscrições irão aparecer aqui.
+subscription-management-your-active-subscriptions-aria = As suas subscrições ativas
 subscription-management-button-support = Obter ajuda
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obter ajuda para { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = As suas { -brand-apple } subscrições na aplicação
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } compras na aplicação
 subscription-management-your-google-iap-subscriptions-aria = As suas { -brand-google } subscrições na aplicação
+subscription-management-google-in-app-purchase-2 = { -brand-google } compras na aplicação
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Expira a { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gerir subscrição para { $productName }
+subscription-management-button-manage-subscription-1 = Gerir subscrição
+manage-payment-methods-heading = Gerir métodos de pagamento
 paypal-payment-management-page-invalid-header = Informação de faturação inválida
 paypal-payment-management-page-invalid-description = Parece haver um erro com a sua conta { -brand-paypal }. Precisamos que execute os passos necessários para resolver este problema de pagamento.
 # Page - Not Found
@@ -263,8 +289,20 @@ subscription-content-coupon-will-be-applied = { $promotionName } de desconto ser
 subscription-content-heading-cancel-subscription = Cancelar subscrição
 subscription-content-no-longer-use-message = Deixará de poder utilizar { $productName } depois de { $currentPeriodEnd }, o último dia do seu ciclo de faturação.
 subscription-content-cancel-access-message = Cancelar o meu acesso e a minha informação guardada em { $productName } em { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Última fatura • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impostos
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Ver fatura
+subscription-management-link-view-invoice-aria = Ver fatura para { $productName }
+subscription-content-expires-on-expiry-date = Expira a { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Próxima fatura • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } impostos
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Manter a subscrição
     .aria-label = Manter a subscrição em { $productName }
+subscription-content-button-cancel-subscription-1 = Cancelar subscrição
 subscription-content-button-cancel-subscription = Cancelar subscrição
     .aria-label = Cancelar a sua subscrição para { $productName }
 subscription-content-button-cancel = Cancelar

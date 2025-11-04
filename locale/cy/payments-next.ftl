@@ -97,22 +97,48 @@ next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Gwybodaeth talu annilys
+subscription-management-page-paypal-error-banner-message-account-error = Mae gwall gyda'ch cyfrif.
+subscription-management-button-manage-payment-method-1 = Rheoli dull talu
+subscription-management-page-banner-warning-title-no-payment-method = Dim dull talu wedi'i ychwanegu
+subscription-management-page-banner-warning-link-no-payment-method = Ychwanegu dull talu
 subscription-management-subscriptions-heading = Tanysgrifiadau
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Neidio i
+subscription-management-nav-payment-details = Manylion talu
+subscription-management-nav-active-subscriptions = Tanysgrifiadau gweithredol
+subscription-management-payment-details-heading = Manylion talu
+subscription-management-email-label = E-bost
+subscription-management-credit-balance-label = Balans credyd
+subscription-management-credit-balance-message = Bydd credyd yn cael ei gymhwyso'n awtomatig i anfonebau yn y dyfodol
+subscription-management-payment-method-label = Dull talu
 subscription-management-button-add-payment-method-aria = Ychwanegu dull talu
 subscription-management-button-add-payment-method = Ychwanegu
+subscription-management-page-warning-message-no-payment-method = Ychwanegwch ddull talu i osgoi amharu ar eich tanysgrifiadau.
 subscription-management-button-manage-payment-method-aria = Rheoli dull talu
 subscription-management-button-manage-payment-method = Rheoli
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Daw i ben ar { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Mae problem gyda'ch cyfrif { -brand-paypal }. Datryswch y mater i gynnal eich tanysgrifiadau gweithredol.
+subscription-management-active-subscriptions-heading = Tanysgrifiadau gweithredol
+subscription-management-you-have-no-active-subscriptions = Nid oes gennych unrhyw danysgrifiadau gweithredol
+subscription-management-new-subs-will-appear-here = Bydd tanysgrifiadau newydd yn ymddangos yma.
+subscription-management-your-active-subscriptions-aria = Eich tanysgrifiadau gweithredol
 subscription-management-button-support = Derbyn cymorth
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Derbyn cymorth ar gyfer { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-apple } o Fewn yr Ap
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } pryniant o fewn yr ap
 subscription-management-your-google-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-google } o Fewn yr Ap
+subscription-management-google-in-app-purchase-2 = { -brand-google } pryniant o fewn yr ap
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Yn dod i ben ar: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad { $productName }
+subscription-management-button-manage-subscription-1 = Rheoli'r tanysgrifo
+manage-payment-methods-heading = Rheoli dulliau talu
 paypal-payment-management-page-invalid-header = Manylion bilio annilys
 paypal-payment-management-page-invalid-description = Mae'n ymddangos bod gwall gyda'ch cyfrif { -brand-paypal }. Mae angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.
 # Page - Not Found
@@ -263,8 +289,20 @@ subscription-content-coupon-will-be-applied = Bydd gostyngiad o { $promotionName
 subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad
 subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
 subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Bil diwethaf • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } treth
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Gweld anfoneb
+subscription-management-link-view-invoice-aria = Gweld anfoneb am { $productName }
+subscription-content-expires-on-expiry-date = Yn dod i ben ar: { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Bil nesaf • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } treth
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Parhau Wedi Tanysgrifio
     .aria-label = Parhau i danysgrifio i { $productName }
+subscription-content-button-cancel-subscription-1 = Canslo tanysgrifiad
 subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
     .aria-label = Diddymu'ch tanysgrifiad i { $productName }
 subscription-content-button-cancel = Diddymu

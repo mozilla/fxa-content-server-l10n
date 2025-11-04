@@ -923,6 +923,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sinhronizacija podatkov { -brand-firefox(sklon: "tozilnik") }
 delete-account-product-firefox-addons = Dodatki za { -brand-firefox }
 delete-account-acknowledge = Zavedajte se, da boste z izbrisom računa:
+delete-account-chk-box-1-v4 =
+    .label = preklicali vse plačane naročnine
 delete-account-chk-box-2 =
     .label = lahko izgubili shranjene podatke in možnosti v izdelkih { -brand-mozilla(sklon: "rodilnik") }
 delete-account-chk-box-3 =
@@ -1887,6 +1889,11 @@ signin-totp-code-header = Prijava
 signin-totp-code-subheader-v2 = Vnesite kodo za overjanje v dveh korakih
 signin-totp-code-instruction-v4 = V <strong>aplikaciji za overjanje</strong> potrdite prijavo.
 signin-totp-code-input-label-v4 = Vnesite 6-mestno kodo
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Zakaj se zahteva overjanje?
+signin-totp-code-aal-banner-content = Za svoj račun ste nastavili overitev v dveh korakih, vendar se na tej napravi še niste prijavili s kodo.
+signin-totp-code-aal-sign-out = Odjava v tej napravi
+signin-totp-code-aal-sign-out-error = Oprostite, prišlo je do težave pri odjavljanju
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potrdi
 signin-totp-code-other-account-link = Uporabi drug račun

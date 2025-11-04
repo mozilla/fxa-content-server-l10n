@@ -913,6 +913,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserar { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox } Tillägg
 delete-account-acknowledge = Bekräfta följande för att radera ditt konto:
+delete-account-chk-box-1-v4 =
+    .label = Alla betalda prenumerationer du har kommer att sägas upp
 delete-account-chk-box-2 =
     .label = Du kan förlora sparad information och funktioner i { -brand-mozilla }-produkter
 delete-account-chk-box-3 =
@@ -1875,6 +1877,11 @@ signin-totp-code-header = Logga in
 signin-totp-code-subheader-v2 = Ange tvåstegsautentiseringskod
 signin-totp-code-instruction-v4 = Kontrollera din <strong>autentiseringsapp</strong> för att bekräfta din inloggning.
 signin-totp-code-input-label-v4 = Ange 6-siffrig kod
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Varför blir du ombedd att autentisera?
+signin-totp-code-aal-banner-content = Du konfigurerar tvåstegsautentisering på ditt konto, men har inte loggat in med en kod på den här enheten än.
+signin-totp-code-aal-sign-out = Logga ut på den här enheten
+signin-totp-code-aal-sign-out-error = Tyvärr, det gick inte att logga ut dig
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekräfta
 signin-totp-code-other-account-link = Använd ett annat konto
