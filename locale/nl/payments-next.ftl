@@ -103,21 +103,42 @@ subscription-management-button-manage-payment-method-1 = Betalingsmethode behere
 subscription-management-page-banner-warning-title-no-payment-method = Geen betalingsmethode toegevoegd
 subscription-management-page-banner-warning-link-no-payment-method = Een betalingsmethode toevoegen
 subscription-management-subscriptions-heading = Abonnementen
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Snel naar
+subscription-management-nav-payment-details = Betalingsgegevens
+subscription-management-nav-active-subscriptions = Actieve abonnementen
+subscription-management-payment-details-heading = Betalingsgegevens
+subscription-management-email-label = E-mailadres
+subscription-management-credit-balance-label = Tegoedsaldo
+subscription-management-credit-balance-message = Tegoed wordt automatisch toegepast op toekomstige facturen
+subscription-management-payment-method-label = Betalingsmethode
 subscription-management-button-add-payment-method-aria = Betalingsmethode toevoegen
 subscription-management-button-add-payment-method = Toevoegen
+subscription-management-page-warning-message-no-payment-method = Voeg een betalingsmethode toe om onderbreking van uw abonnementen te voorkomen.
 subscription-management-button-manage-payment-method-aria = Betalingsmethode beheren
 subscription-management-button-manage-payment-method = Beheren
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Creditcard eindigend op { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vervalt op { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Er is een probleem met uw { -brand-paypal }-account. Los het probleem op om uw actieve abonnementen te behouden.
+subscription-management-active-subscriptions-heading = Actieve abonnementen
+subscription-management-you-have-no-active-subscriptions = U hebt geen actieve abonnementen
+subscription-management-new-subs-will-appear-here = Nieuwe abonnementen verschijnen hier.
+subscription-management-your-active-subscriptions-aria = Uw actieve abonnementen
 subscription-management-button-support = Hulp verkrijgen
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Hulp voor { $productName } verkrijgen
 subscription-management-your-apple-iap-subscriptions-aria = Uw { -brand-apple }-in-app-abonnementen
+subscription-management-apple-in-app-purchase-2 = { -brand-apple }-in-app-aankoop
 subscription-management-your-google-iap-subscriptions-aria = Uw { -brand-google }-in-app-abonnementen
+subscription-management-google-in-app-purchase-2 = { -brand-google }-in-app-aankoop
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Vervalt op { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnement voor { $productName } beheren
+subscription-management-button-manage-subscription-1 = Abonnement beheren
+manage-payment-methods-heading = Betalingsmethoden beheren
 paypal-payment-management-page-invalid-header = Ongeldige facturatiegegevens
 paypal-payment-management-page-invalid-description = Er lijkt een fout op te treden met uw { -brand-paypal }-account. U dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
 # Page - Not Found
@@ -268,8 +289,20 @@ subscription-content-coupon-will-be-applied = Korting vanwege { $promotionName }
 subscription-content-heading-cancel-subscription = Abonnement opzeggen
 subscription-content-no-longer-use-message = U kunt { $productName } niet meer gebruiken na { $currentPeriodEnd }, de laatste dag van uw betalingscyclus.
 subscription-content-cancel-access-message = Mijn toegang tot en opgeslagen gegevens in { $productName } op { $currentPeriodEnd } opzeggen
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Laatste factuur • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } btw
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Factuur bekijken
+subscription-management-link-view-invoice-aria = Factuur voor { $productName } bekijken
+subscription-content-expires-on-expiry-date = Vervalt op { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Volgende factuur • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } btw
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Abonnement behouden
     .aria-label = Abonnement op { $productName } behouden
+subscription-content-button-cancel-subscription-1 = Abonnement opzeggen
 subscription-content-button-cancel-subscription = Abonnement opzeggen
     .aria-label = Abonnement op { $productName } opzeggen
 subscription-content-button-cancel = Opzeggen

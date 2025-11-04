@@ -913,6 +913,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox }-gegevens  synchroniseren
 delete-account-product-firefox-addons = { -brand-firefox }-add-ons
 delete-account-acknowledge = Bevestig dat door uw account te verwijderen:
+delete-account-chk-box-1-v4 =
+    .label = Al uw betaalde abonnementen worden opgezegd
 delete-account-chk-box-2 =
     .label = U opgeslagen informatie en functies in { -brand-mozilla }-producten kunt verliezen
 delete-account-chk-box-3 =
@@ -1870,6 +1872,11 @@ signin-totp-code-header = Aanmelden
 signin-totp-code-subheader-v2 = Voer tweestaps-authenticatiecode in
 signin-totp-code-instruction-v4 = Controleer uw <strong>authenticatie-app</strong> om uw aanmelding te bevestigen.
 signin-totp-code-input-label-v4 = Voer 6-cijferige code in
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Waarom wordt u gevraagd om te authenticeren?
+signin-totp-code-aal-banner-content = U hebt authenticatie in twee stappen op uw account ingesteld, maar hebt zich op dit apparaat nog niet met een code aangemeld.
+signin-totp-code-aal-sign-out = Afmelden op dit apparaat
+signin-totp-code-aal-sign-out-error = Sorry, er is een probleem opgetreden bij het afmelden
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bevestigen
 signin-totp-code-other-account-link = Een andere account gebruiken
