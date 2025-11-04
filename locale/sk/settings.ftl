@@ -921,6 +921,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizujú sa údaje { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Doplnky pre { -brand-firefox }
 delete-account-acknowledge = Potvrďte, že odstránením svojho účtu:
+delete-account-chk-box-1-v4 =
+    .label = Všetky platené predplatné, ktoré máte, budú zrušené
 delete-account-chk-box-2 =
     .label = môžete prísť o uložené informácie a niektoré funkcie produktov { -brand-mozilla(case: "gen") }
 delete-account-chk-box-3 =
@@ -1881,6 +1883,11 @@ signin-totp-code-header = Prihlásenie
 signin-totp-code-subheader-v2 = Zadajte kód pre dvojstupňové overenie
 signin-totp-code-instruction-v4 = Skontrolujte svoju <strong>overovaciu aplikáciu</strong> a potvrďte svoje prihlásenie.
 signin-totp-code-input-label-v4 = Zadajte šesťmiestny kód
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Prečo sa od vás žiada o overenie totožnosti?
+signin-totp-code-aal-banner-content = Nastavili ste si dvojstupňové overenie vo svojom účte, ale ešte ste sa na tomto zariadení neprihlásili pomocou kódu.
+signin-totp-code-aal-sign-out = Odhlásiť sa na tomto zariadení
+signin-totp-code-aal-sign-out-error = Ľutujeme, vyskytol sa problém s odhlásením
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potvrdiť
 signin-totp-code-other-account-link = Použiť iný účet
