@@ -97,8 +97,19 @@ next-payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informationes de pagamento non valide
+subscription-management-page-paypal-error-banner-message-account-error = Il ha un error con tu conto.
+subscription-management-button-manage-payment-method-1 = Gerer methodo de pagamento
+subscription-management-page-banner-warning-title-no-payment-method = Necun methodo de pagamento addite
+subscription-management-page-banner-warning-link-no-payment-method = Adder un methodo de pagamento
 subscription-management-subscriptions-heading = Subscriptiones
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Saltar a
 subscription-management-nav-payment-details = Detalios de pagamento
+subscription-management-nav-active-subscriptions = Abonamentos active
+subscription-management-payment-details-heading = Detalios de pagamento
+subscription-management-email-label = Email
+subscription-management-credit-balance-label = Saldo a credito
 subscription-management-button-add-payment-method-aria = Adder methodo de pagamento
 subscription-management-button-add-payment-method = Adder
 subscription-management-button-manage-payment-method-aria = Gerer le methodo de pagamento
