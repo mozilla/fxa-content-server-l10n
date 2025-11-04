@@ -1602,7 +1602,7 @@ msgstr "נא לסגור דף זה ולהמשיך במכשיר השני."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr "התחברות חדשה ל־Firefox"
+msgstr "כניסה חדשה ל־Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
