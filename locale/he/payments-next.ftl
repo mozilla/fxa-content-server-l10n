@@ -105,21 +105,30 @@ subscription-management-nav-payment-details = פרטי תשלום
 subscription-management-nav-active-subscriptions = מינויים פעילים
 subscription-management-payment-details-heading = פרטי תשלום
 subscription-management-email-label = דוא״ל
+subscription-management-credit-balance-label = יתרת זכות
 subscription-management-credit-balance-message = הזיכוי יחול באופן אוטומטי על חשבוניות עתידיות
 subscription-management-payment-method-label = אמצעי תשלום
 subscription-management-button-add-payment-method-aria = הוספת אמצעי תשלום
 subscription-management-button-add-payment-method = הוספה
+subscription-management-page-warning-message-no-payment-method = נא להוסיף אמצעי תשלום כדי למנוע הפרעה למינויים שלך.
 subscription-management-button-manage-payment-method-aria = ניהול אמצעי תשלום
 subscription-management-button-manage-payment-method = ניהול
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = כרטיס המסתיים ב־{ $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = תאריך תוקף { $expirationDate }
+subscription-management-error-paypal-billing-agreement = יש בעיה בחשבון ה־{ -brand-paypal } שלך. יש לפתור את הבעיה כדי לשמור על המינויים הפעילים שלך.
+subscription-management-active-subscriptions-heading = מינויים פעילים
+subscription-management-you-have-no-active-subscriptions = אין לך מינויים פעילים
+subscription-management-new-subs-will-appear-here = מינויים חדשים יופיעו כאן.
+subscription-management-your-active-subscriptions-aria = המינויים הפעילים שלך
 subscription-management-button-support = קבלת עזרה
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = קבלת עזרה עבור { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = יפוג בתאריך { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
 paypal-payment-management-page-invalid-header = פרטי חיוב שגויים
