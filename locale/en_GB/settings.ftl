@@ -913,6 +913,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronising { -brand-firefox } data
 delete-account-product-firefox-addons = { -brand-firefox } Add-ons
 delete-account-acknowledge = Please acknowledge that by deleting your account:
+delete-account-chk-box-1-v4 =
+    .label = Any paid subscriptions you have will be cancelled
 delete-account-chk-box-2 =
     .label = You may lose saved information and features within { -brand-mozilla } products
 delete-account-chk-box-3 =
@@ -1873,6 +1875,11 @@ signin-totp-code-header = Sign in
 signin-totp-code-subheader-v2 = Enter two-step authentication code
 signin-totp-code-instruction-v4 = Check your <strong>authenticator app</strong> to confirm your sign-in.
 signin-totp-code-input-label-v4 = Enter 6-digit code
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Why are you being asked to authenticate?
+signin-totp-code-aal-banner-content = You set up two-step authentication on your account, but haven’t signed in with a code on this device yet.
+signin-totp-code-aal-sign-out = Sign out on this device
+signin-totp-code-aal-sign-out-error = Sorry, there was a problem signing you out
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirm
 signin-totp-code-other-account-link = Use a different account
