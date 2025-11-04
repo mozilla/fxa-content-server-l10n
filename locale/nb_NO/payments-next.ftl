@@ -114,6 +114,7 @@ subscription-management-credit-balance-message = Kreditt vil automatisk bli bruk
 subscription-management-payment-method-label = Betalingsmåte
 subscription-management-button-add-payment-method-aria = Legg til betalingsmåte
 subscription-management-button-add-payment-method = Legg til
+subscription-management-page-warning-message-no-payment-method = Legg til en betalingsmåte for å unngå avbrudd i abonnementene dine.
 subscription-management-button-manage-payment-method-aria = Behandle betalingsmåte
 subscription-management-button-manage-payment-method = Behandle
 # $last4 (String) - Last four numbers of credit card
