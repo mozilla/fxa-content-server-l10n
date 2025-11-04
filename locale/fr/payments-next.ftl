@@ -98,7 +98,7 @@ next-payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 ## Page - Subscription Management
 
 subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informations de paiement invalides
-subscription-management-page-paypal-error-banner-message-account-error = Une erreur s’est produite avec votre compte.
+subscription-management-page-paypal-error-banner-message-account-error = Il y a une erreur avec votre compte.
 subscription-management-button-manage-payment-method-1 = Gérer le moyen de paiement
 subscription-management-page-banner-warning-title-no-payment-method = Aucun moyen de paiement ajouté
 subscription-management-page-banner-warning-link-no-payment-method = Ajouter un moyen de paiement
@@ -294,7 +294,7 @@ subscription-content-last-bill = Dernière facture • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } de taxes
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Voir la facture
-subscription-management-link-view-invoice-aria = Voir la facture de { $productName }
+subscription-management-link-view-invoice-aria = Voir la facture pour { $productName }
 subscription-content-expires-on-expiry-date = Date d’expiration : { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Prochaine facture • { $billedOnDate }

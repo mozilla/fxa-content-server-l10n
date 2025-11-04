@@ -24,5 +24,7 @@
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox account
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-vpn-short = VPN
 -product-firefox-cloud = Firefox Cloud
 -brand-name-stripe = Stripe

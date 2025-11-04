@@ -1863,7 +1863,7 @@ signin-totp-code-subheader-v2 = Saisissez le code d’authentification en deux �
 signin-totp-code-instruction-v4 = Consultez votre <strong>application d’authentification</strong> pour confirmer votre connexion.
 signin-totp-code-input-label-v4 = Saisissez le code à 6 chiffres
 # Shown to users when they need to re-enter their authentication code, for their current device
-signin-totp-code-aal-banner-header = Pourquoi est-ce qu’on vous demande de vous authentifier ?
+signin-totp-code-aal-banner-header = Pour quelle raison vous demande-t-on de vous authentifier ?
 signin-totp-code-aal-banner-content = Vous avez configuré l’authentification en deux étapes pour votre compte, mais vous ne vous êtes pas encore connecté·e avec un code sur cet appareil.
 signin-totp-code-aal-sign-out = Se déconnecter sur cet appareil
 signin-totp-code-aal-sign-out-error = Un problème est survenu lors de votre déconnexion
