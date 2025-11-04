@@ -1893,6 +1893,9 @@ signin-totp-code-instruction-v4 = Zmóžńće swoje <strong>nałoženje awtentiz
 signin-totp-code-input-label-v4 = 6-městnowy kod zapodać
 # Shown to users when they need to re-enter their authentication code, for their current device
 signin-totp-code-aal-banner-header = Čehodla proša was wo awtentifikaciju?
+signin-totp-code-aal-banner-content = Sće dwukročelowu awtentifikaciju na swojim konće konfigurował, ale hišće njejsće z kodom na tutym graće přizjewił.
+signin-totp-code-aal-sign-out = Na tutym graće wotzjewić
+signin-totp-code-aal-sign-out-error = Bohužel je při wotzjewjenju problem nastał
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Wobkrućić
 signin-totp-code-other-account-link = Wužiwajće druhe konto

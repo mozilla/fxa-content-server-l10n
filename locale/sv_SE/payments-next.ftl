@@ -291,7 +291,7 @@ subscription-content-no-longer-use-message = Du kommer inte längre att kunna an
 subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade information inom { $productName } den { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Senaste räkning • { $billedOnDate }
-subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } skatt
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } moms
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Visa faktura
 subscription-management-link-view-invoice-aria = Visa faktura för { $productName }
