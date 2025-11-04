@@ -124,13 +124,24 @@ subscription-management-button-manage-payment-method = Administrojini
 subscription-management-card-ending-in = Kartë që përfundon me { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Skadon më { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Ka një problem me llogarinë tuaj { -brand-paypal }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
+subscription-management-active-subscriptions-heading = Pajtime Aktive
+subscription-management-you-have-no-active-subscriptions = S’keni pajtime aktive
+subscription-management-new-subs-will-appear-here = Pajtimet e reja do të duken këtu.
+subscription-management-your-active-subscriptions-aria = Pajtimet tuaja aktive
 subscription-management-button-support = Merrni ndihmë
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Merrni ndihmë për { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Pajtimet Tuaja { -brand-apple } In-App
+subscription-management-apple-in-app-purchase-2 = Blerje që nga aplikacioni { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Pajtimet Tuaja { -brand-google } In-App
+subscription-management-google-in-app-purchase-2 = Blerje që nga aplikacioni { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Skadon më { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administroni pajtim për { $productName }
+subscription-management-button-manage-subscription-1 = Administroni pajtim
+manage-payment-methods-heading = Administroni metoda pagesash
 paypal-payment-management-page-invalid-header = Hollësi faturimi të pavlefshme
 paypal-payment-management-page-invalid-description = Duket të ketë një gabim me llogarinë tuaj { -brand-paypal }. Duam që të ndërmerrni hapat e nevojshëm për të zgjidhur këtë problem pagese.
 # Page - Not Found
@@ -279,8 +290,20 @@ subscription-content-coupon-will-be-applied = Do të aplikohet zbritja { $promot
 subscription-content-heading-cancel-subscription = Anulojeni Pajtimin
 subscription-content-no-longer-use-message = Pas { $currentPeriodEnd }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $productName }.
 subscription-content-cancel-access-message = Më { $currentPeriodEnd }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $productName }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Fatura e fundit më • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } taksë
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Shihni faturën
+subscription-management-link-view-invoice-aria = Shihni faturën për { $productName }
+subscription-content-expires-on-expiry-date = Skadon më { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Fatura pasuese më • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } taksë
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Qëndroni i Pajtuar
     .aria-label = Qëndroni i pajtuar te { $productName }
+subscription-content-button-cancel-subscription-1 = Anulojeni pajtimin
 subscription-content-button-cancel-subscription = Anulojeni Pajtimin
     .aria-label = Anuloni pajtimin tuaj te { $productName }
 subscription-content-button-cancel = Anuloje

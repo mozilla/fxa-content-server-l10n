@@ -911,6 +911,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Po njëkohësohen të dhëna { -brand-firefox }
 delete-account-product-firefox-addons = Shtesa { -brand-firefox }
 delete-account-acknowledge = Ju lutemi, dijeni që duke fshirë llogarinë tuaj:
+delete-account-chk-box-1-v4 =
+    .label = Do të anulohet çfarëdo pajtimi me pagesë që keni
 delete-account-chk-box-2 =
     .label = Mund të humbni të dhëna dhe veçori të ruajtura brenda produktesh { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -1871,6 +1873,11 @@ signin-totp-code-header = Hyni
 signin-totp-code-subheader-v2 = Jepni kod mirëfilltësimi dyfaktorësh
 signin-totp-code-instruction-v4 = Shihni te <strong>aplikacioni juaj i mirëfilltësimeve</strong>, për ripohim se është bërë hyrja.
 signin-totp-code-input-label-v4 = Jepni kodin 6-shifror
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Pse po ju kërkohet të bëni mirëfilltësim?
+signin-totp-code-aal-banner-content = Ujdisët mirëfilltësim dyhapësh në llogarinë tuaj, por ende s’keni bërë hyrje me ndonjë kod në këtë pajisje.
+signin-totp-code-aal-sign-out = Dilni nga llogaria në këtë pajisje
+signin-totp-code-aal-sign-out-error = Na ndjeni, pati një problem me daljen tuaj nga llogaria
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Ripohojeni
 signin-totp-code-other-account-link = Përdorni një llogari tjetër
