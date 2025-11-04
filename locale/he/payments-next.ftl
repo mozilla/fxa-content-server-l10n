@@ -95,6 +95,8 @@ next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $l
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = פרטי תשלום שגויים
+subscription-management-page-paypal-error-banner-message-account-error = אירעה שגיאה עם החשבון שלך.
 subscription-management-button-manage-payment-method-1 = ניהול אמצעי תשלום
 subscription-management-page-banner-warning-title-no-payment-method = לא נוספו אמצעי תשלום
 subscription-management-page-banner-warning-link-no-payment-method = הוספת אמצעי תשלום
@@ -131,6 +133,8 @@ subscription-management-your-google-iap-subscriptions-aria = המינויים ש
 subscription-management-iap-sub-expires-on-expiry-date = יפוג בתאריך { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
+subscription-management-button-manage-subscription-1 = ניהול מינויי
+manage-payment-methods-heading = ניהול אמצעי תשלום
 paypal-payment-management-page-invalid-header = פרטי חיוב שגויים
 paypal-payment-management-page-invalid-description = נראה שיש שגיאה בחשבון ה־{ -brand-paypal } שלך. אנחנו צריכים שתנקוט בצעדים הדרושים כדי לפתור בעיית תשלום זו.
 # Page - Not Found
@@ -276,8 +280,20 @@ subscription-content-coupon-will-be-applied = תוחל הנחה של { $promotio
 subscription-content-heading-cancel-subscription = ביטול מינוי
 subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
 subscription-content-cancel-access-message = בטלו את הגישה ואת המידע השמור שלי בתוך { $productName } בתאריך { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = החשבונית האחרונה • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + מס בסך { $taxDue }
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = הצגת חשבונית
+subscription-management-link-view-invoice-aria = הצגת חשבונית עבור { $productName }
+subscription-content-expires-on-expiry-date = יפוג בתאריך { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = החשבונית הבאה • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + מס בסך { $taxDue }
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = להישאר רשום כמינוי
     .aria-label = להישאר רשום כמינוי ל־{ $productName }
+subscription-content-button-cancel-subscription-1 = ביטול מינוי
 subscription-content-button-cancel-subscription = לבטל את המינוי
     .aria-label = לבטל את המינוי שלך ל־{ $productName }
 subscription-content-button-cancel = ביטול המינוי

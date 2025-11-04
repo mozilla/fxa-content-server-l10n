@@ -871,6 +871,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = בתהליך סנכרון נתוני { -brand-firefox }
 delete-account-product-firefox-addons = תוספות של { -brand-firefox }
 delete-account-acknowledge = נא לאשר שבעצם מחיקת החשבון שלך:
+delete-account-chk-box-1-v4 =
+    .label = כל המנויים בתשלום שיש לך יבוטלו
 delete-account-chk-box-2 =
     .label = מידע ותכונות שנשמרו במוצרי { -brand-mozilla } עלולים להיאבד
 delete-account-chk-box-3 =
@@ -1783,6 +1785,11 @@ signin-totp-code-header = כניסה
 signin-totp-code-subheader-v2 = נא להכניס קוד אימות דו־שלבי
 signin-totp-code-instruction-v4 = נא לפתוח את <strong>היישומון המאמת</strong> שלך ולאמת את ההתחברות שלך.
 signin-totp-code-input-label-v4 = נא להזין קוד בן 6 ספרות
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = למה מבקשים ממך לבצע אימות?
+signin-totp-code-aal-banner-content = הגדרת אימות דו־שלבי בחשבון שלך, אך עדיין לא התחברת באמצעות קוד במכשיר זה.
+signin-totp-code-aal-sign-out = התנתקות במכשיר זה
+signin-totp-code-aal-sign-out-error = הייתה בעיה בהתנתקות מהחשבון שלך, עמך הסליחה
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = אישור
 signin-totp-code-other-account-link = שימוש בחשבון אחר
