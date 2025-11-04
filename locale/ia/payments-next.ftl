@@ -98,6 +98,7 @@ next-payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
 ## Page - Subscription Management
 
 subscription-management-subscriptions-heading = Subscriptiones
+subscription-management-nav-payment-details = Detalios de pagamento
 subscription-management-button-add-payment-method-aria = Adder methodo de pagamento
 subscription-management-button-add-payment-method = Adder
 subscription-management-button-manage-payment-method-aria = Gerer le methodo de pagamento
