@@ -97,7 +97,10 @@ next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε 
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Μη έγκυρα στοιχεία πληρωμής
+subscription-management-page-paypal-error-banner-message-account-error = Προέκυψε σφάλμα με τον λογαριασμό σας.
 subscription-management-button-manage-payment-method-1 = Διαχείριση μεθόδου πληρωμής
+subscription-management-page-banner-warning-title-no-payment-method = Δεν έχει προστεθεί καμία μέθοδος πληρωμής
 subscription-management-page-banner-warning-link-no-payment-method = Προσθήκη μεθόδου πληρωμής
 subscription-management-subscriptions-heading = Συνδρομές
 # Heading for mobile only quick links menu
@@ -107,15 +110,18 @@ subscription-management-nav-active-subscriptions = Ενεργές συνδρομ
 subscription-management-payment-details-heading = Στοιχεία πληρωμής
 subscription-management-email-label = Email
 subscription-management-credit-balance-label = Πιστωτικό υπόλοιπο
+subscription-management-credit-balance-message = Η πίστωση θα εφαρμόζεται αυτόματα σε μελλοντικά παραστατικά
 subscription-management-payment-method-label = Μέθοδος πληρωμής
 subscription-management-button-add-payment-method-aria = Προσθήκη μεθόδου πληρωμής
 subscription-management-button-add-payment-method = Προσθήκη
+subscription-management-page-warning-message-no-payment-method = Προσθέστε μια μέθοδο πληρωμής για να αποφύγετε τη διακοπή των συνδρομών σας.
 subscription-management-button-manage-payment-method-aria = Διαχείριση μεθόδου πληρωμής
 subscription-management-button-manage-payment-method = Διαχείριση
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Κάρτα που λήγει σε { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Λήγει στις { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Υπάρχει πρόβλημα με τον λογαριασμό σας στο { -brand-paypal }, Επιλύστε το ζήτημα για να διατηρήσετε τις ενεργές συνδρομές σας.
 subscription-management-active-subscriptions-heading = Ενεργές συνδρομές
 subscription-management-you-have-no-active-subscriptions = Δεν έχετε καμία ενεργή συνδρομή.
 subscription-management-new-subs-will-appear-here = Οι νέες συνδρομές θα εμφανίζονται εδώ.
@@ -288,6 +294,7 @@ subscription-content-last-bill = Τελευταίος λογαριασμός •
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } (φόρος)
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Προβολή παραστατικού
+subscription-management-link-view-invoice-aria = Προβολή παραστατικού για το { $productName }
 subscription-content-expires-on-expiry-date = Λήγει στις { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Επόμενος λογαριασμός • { $billedOnDate }

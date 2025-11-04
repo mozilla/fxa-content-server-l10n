@@ -1877,6 +1877,10 @@ signin-totp-code-header = Σύνδεση
 signin-totp-code-subheader-v2 = Εισαγάγετε κωδικό ταυτοποίησης δύο παραγόντων
 signin-totp-code-instruction-v4 = Ελέγξτε την <strong>εφαρμογή ταυτοποίησής</strong> σας για να επιβεβαιώσετε τη σύνδεσή σας.
 signin-totp-code-input-label-v4 = Εισαγάγετε τον εξαψήφιο κωδικό
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Γιατί σας ζητείται να κάνετε ταυτοποίηση;
+signin-totp-code-aal-banner-content = Έχετε ρυθμίσει την ταυτοποίηση δύο παραγόντων στον λογαριασμό σας, αλλά δεν έχετε συνδεθεί ακόμα με κωδικό σε αυτήν τη συσκευή.
+signin-totp-code-aal-sign-out = Αποσύνδεση σε αυτήν τη συσκευή
 signin-totp-code-aal-sign-out-error = Δυστυχώς, προέκυψε πρόβλημα κατά την αποσύνδεση
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Επιβεβαίωση

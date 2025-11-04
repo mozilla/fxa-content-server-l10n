@@ -97,6 +97,7 @@ next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Unjildige betellingsgegevens
 subscription-management-subscriptions-heading = Abonneminten
 subscription-management-button-add-payment-method-aria = Betellingsmetoade tafoegje
 subscription-management-button-add-payment-method = Tafoegje
