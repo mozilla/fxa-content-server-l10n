@@ -289,8 +289,20 @@ subscription-content-coupon-will-be-applied = { $promotionName }-rabatt vil bli 
 subscription-content-heading-cancel-subscription = Avbryt abonnementet
 subscription-content-no-longer-use-message = Du vil ikkje lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
 subscription-content-cancel-access-message = Avbryt tilgangen min og lagra informasjon i { $productName } den { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Siste faktura • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } moms
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Vis faktura
+subscription-management-link-view-invoice-aria = Vis faktura for { $productName }
+subscription-content-expires-on-expiry-date = Går ut { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Neste faktura • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } moms
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Fortset abonnementet
     .aria-label = Fortset abonnementet { $productName }
+subscription-content-button-cancel-subscription-1 = Avbryt abonnementet
 subscription-content-button-cancel-subscription = Avbryt abonnementet
     .aria-label = Avbryt abonnementet på { $productName }
 subscription-content-button-cancel = Avbryt
