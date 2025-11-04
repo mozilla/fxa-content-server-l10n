@@ -220,9 +220,9 @@ subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
 subscription-charges-prorated-price = Sorazmerna cena
 # $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
 subscription-charges-prorated-price-plaintext = Sorazmerna cena: { $remainingAmountTotal }
-subscription-charges-list-price = Cenik
+subscription-charges-list-price = Redna cena
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
-subscription-charges-list-price-plaintext = Maloprodajna cena: { $offeringPrice }
+subscription-charges-list-price-plaintext = Redna cena: { $offeringPrice }
 subscription-charges-credit-from-unused-time = Dobropis neizkoriščenega časa
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-from-unused-time-plaintext = Dobropis od neuporabljenega časa: { $unusedAmountTotal }
