@@ -124,13 +124,21 @@ subscription-management-card-expires-date = Går ut { $expirationDate }
 subscription-management-error-paypal-billing-agreement = Det er eit problem med { -brand-paypal }-kontoen din. Løys problemet for å oppretthalde dei aktive abonnementa dine.
 subscription-management-active-subscriptions-heading = Aktive abonnement
 subscription-management-you-have-no-active-subscriptions = Du har ingen aktive abonnement
+subscription-management-new-subs-will-appear-here = Nye abonnement vil visast her.
+subscription-management-your-active-subscriptions-aria = Dei aktive abonnementa dine
 subscription-management-button-support = Få hjelp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjelp med { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple } kjøp i app-abonnement
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } kjøp i app
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google } kjøp i app-abonnement
+subscription-management-google-in-app-purchase-2 = { -brand-google } kjøp i app
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Går ut { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrer abonnement for { $productName }
+subscription-management-button-manage-subscription-1 = Handsame abonnement
+manage-payment-methods-heading = Handsam betalingsmåtar
 paypal-payment-management-page-invalid-header = Ugyldig faktureringsinformasjon
 paypal-payment-management-page-invalid-description = Det ser ut til å vere ein feil med { -brand-paypal }-kontoen din. Vi treng at du tek dei nødvendige stega for å løyse dette betalingsproblemet.
 # Page - Not Found
