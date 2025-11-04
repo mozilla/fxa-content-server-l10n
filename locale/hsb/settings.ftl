@@ -923,6 +923,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Daty { -brand-firefox } so synchronizuja
 delete-account-product-firefox-addons = Přidatki { -brand-firefox }
 delete-account-acknowledge = Prošu zhašejće swoje konto, zo byšće to wobkrućił:
+delete-account-chk-box-1-v4 =
+    .label = Wšě zapłaćene abonementy, kotrež maće, so wupowědźa
 delete-account-chk-box-2 =
     .label = Móžeće składowane informacije a funkcije produktow { -brand-mozilla } zhubić
 delete-account-chk-box-3 =
@@ -1889,6 +1891,8 @@ signin-totp-code-header = Přizjewić
 signin-totp-code-subheader-v2 = Zapodajće kod za dwukročelowu awtentifikaciju
 signin-totp-code-instruction-v4 = Zmóžńće swoje <strong>nałoženje awtentizowanja</strong>, zo byšće swoje přizjewjenje wobkrućił.
 signin-totp-code-input-label-v4 = 6-městnowy kod zapodać
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Čehodla proša was wo awtentifikaciju?
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Wobkrućić
 signin-totp-code-other-account-link = Wužiwajće druhe konto

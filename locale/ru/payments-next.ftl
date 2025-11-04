@@ -97,22 +97,48 @@ next-payment-confirmation-cc-card-ending-in = Номер карты заканч
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Неверная платежная информация
+subscription-management-page-paypal-error-banner-message-account-error = В вашем аккаунте произошла ошибка.
+subscription-management-button-manage-payment-method-1 = Управление способом оплаты
+subscription-management-page-banner-warning-title-no-payment-method = Способ оплаты не добавлен
+subscription-management-page-banner-warning-link-no-payment-method = Добавить способ оплаты
 subscription-management-subscriptions-heading = Подписки
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Перейти к
+subscription-management-nav-payment-details = Детали оплаты
+subscription-management-nav-active-subscriptions = Активные подписки
+subscription-management-payment-details-heading = Детали оплаты
+subscription-management-email-label = Эл. почта
+subscription-management-credit-balance-label = Кредитный баланс
+subscription-management-credit-balance-message = Кредит будет автоматически применен к будущим счетам
+subscription-management-payment-method-label = Способ оплаты
 subscription-management-button-add-payment-method-aria = Добавить способ оплаты
 subscription-management-button-add-payment-method = Добавить
+subscription-management-page-warning-message-no-payment-method = Пожалуйста, добавьте способ оплаты, чтобы избежать прерывания ваших подписок.
 subscription-management-button-manage-payment-method-aria = Управление способом оплаты
 subscription-management-button-manage-payment-method = Управление
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Номер карты заканчивается на { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Срок действия истекает { $expirationDate }
+subscription-management-error-paypal-billing-agreement = С вашим аккаунтом { -brand-paypal } возникла проблема. Пожалуйста, решите эту проблему, чтобы сохранить ваши активные подписки.
+subscription-management-active-subscriptions-heading = Активные подписки
+subscription-management-you-have-no-active-subscriptions = У вас нет активных подписок
+subscription-management-new-subs-will-appear-here = Новые подписки появятся здесь.
+subscription-management-your-active-subscriptions-aria = Ваши активные подписки
 subscription-management-button-support = Получить помощь
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Получить помощь для { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Ваши подписки в приложении { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Покупка в приложении { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Ваши подписки в приложении { -brand-google }
+subscription-management-google-in-app-purchase-2 = Покупка в приложении { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Истекает { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Управление подпиской на { $productName }
+subscription-management-button-manage-subscription-1 = Управление подпиской
+manage-payment-methods-heading = Управление способами оплаты
 paypal-payment-management-page-invalid-header = Неверная платёжная информация
 paypal-payment-management-page-invalid-description = Похоже, в вашем аккаунте { -brand-paypal } произошла ошибка. Нам нужно, чтобы вы предприняли необходимые шаги для решения этой проблемы с оплатой.
 # Page - Not Found
@@ -263,8 +289,20 @@ subscription-content-coupon-will-be-applied = Будет применена ск
 subscription-content-heading-cancel-subscription = Отменить подписку
 subscription-content-no-longer-use-message = Вы не сможете больше использовать { $productName } после { $currentPeriodEnd }, последнего дня вашего платёжного цикла.
 subscription-content-cancel-access-message = Отменить мой доступ и сохранённую информацию в { $productName } { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Последний платёж • { $illedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } налог
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Просмотреть счёт
+subscription-management-link-view-invoice-aria = Просмотреть счёт-фактуру за { $productName }
+subscription-content-expires-on-expiry-date = Истекает { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Следующая оплата • { $illedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } налог
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Оставить подписку
     .aria-label = Оставить подписку на { $productName }
+subscription-content-button-cancel-subscription-1 = Отменить подписку
 subscription-content-button-cancel-subscription = Отменить подписку
     .aria-label = Отменить вашу подписку на { $productName }
 subscription-content-button-cancel = Отменить

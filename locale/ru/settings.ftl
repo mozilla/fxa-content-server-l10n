@@ -916,6 +916,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Синхронизация данных { -brand-firefox }
 delete-account-product-firefox-addons = Дополнения { -brand-firefox }
 delete-account-acknowledge = Пожалуйста, подтвердите, что при удалении вашего аккаунта:
+delete-account-chk-box-1-v4 =
+    .label = Все оплаченные вами подписки будут отменены
 delete-account-chk-box-2 =
     .label = Вы можете потерять сохранённую информацию и возможности продуктов { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -1875,6 +1877,11 @@ signin-totp-code-header = Войти
 signin-totp-code-subheader-v2 = Введите код двухэтапной аутентификации
 signin-totp-code-instruction-v4 = Проверьте своё <strong>приложение-аутентификатор</strong>, чтобы подтвердить свой вход.
 signin-totp-code-input-label-v4 = Введите код из 6 цифр
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Почему вас просят пройти аутентификацию?
+signin-totp-code-aal-banner-content = Вы настроили двухэтапную аутентификацию в своём аккаунте, но ещё не входили с кодом на этом устройстве.
+signin-totp-code-aal-sign-out = Выйти на этом устройстве
+signin-totp-code-aal-sign-out-error = К сожалению, при выходе возникла проблема
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Подтвердить
 signin-totp-code-other-account-link = Использовать другой аккаунт
