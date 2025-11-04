@@ -114,7 +114,7 @@ subscription-management-credit-balance-message = El crédito se aplicará autom�
 subscription-management-payment-method-label = Método de pago
 subscription-management-button-add-payment-method-aria = Agregar método de pago
 subscription-management-button-add-payment-method = Agregar
-subscription-management-page-warning-message-no-payment-method = Agrega un método de pago para evitar la interrupción de tus suscripciones.
+subscription-management-page-warning-message-no-payment-method = Agregá un método de pago para evitar la interrupción de tus suscripciones.
 subscription-management-button-manage-payment-method-aria = Administrar método de pago
 subscription-management-button-manage-payment-method = Administrar
 # $last4 (String) - Last four numbers of credit card
