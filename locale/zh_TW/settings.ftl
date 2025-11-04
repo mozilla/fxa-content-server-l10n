@@ -889,6 +889,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } 的同步資料
 delete-account-product-firefox-addons = { -brand-firefox } 附加元件
 delete-account-acknowledge = 請確認若刪除帳號：
+delete-account-chk-box-1-v4 =
+    .label = 將取消您所有已付款的訂閱內容
 delete-account-chk-box-2 =
     .label = 您可能會失去 { -brand-mozilla } 產品中儲存的資訊與部分功能
 delete-account-chk-box-3 =
@@ -1822,6 +1824,11 @@ signin-totp-code-header = 登入
 signin-totp-code-subheader-v2 = 請輸入兩階段驗證碼
 signin-totp-code-instruction-v4 = 請使用您的<strong>驗證程式</strong>確認登入動作。
 signin-totp-code-input-label-v4 = 請輸入六位數的驗證碼
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = 為什麼會要求您進行驗證？
+signin-totp-code-aal-banner-content = 您為帳號設定了兩階段驗證，但還沒有在此裝置上使用驗證碼登入過。
+signin-totp-code-aal-sign-out = 登出此裝置
+signin-totp-code-aal-sign-out-error = 很抱歉，將您登出時發生問題
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 使用另一個帳號

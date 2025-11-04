@@ -98,6 +98,8 @@ next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε 
 ## Page - Subscription Management
 
 subscription-management-subscriptions-heading = Συνδρομές
+subscription-management-nav-payment-details = Στοιχεία πληρωμής
+subscription-management-nav-active-subscriptions = Ενεργές συνδρομές
 subscription-management-button-add-payment-method-aria = Προσθήκη μεθόδου πληρωμής
 subscription-management-button-add-payment-method = Προσθήκη
 subscription-management-button-manage-payment-method-aria = Διαχείριση μεθόδου πληρωμής
@@ -113,6 +115,8 @@ subscription-management-your-apple-iap-subscriptions-aria = Συνδρομές �
 subscription-management-your-google-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-google }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
+subscription-management-button-manage-subscription-1 = Διαχείριση συνδρομής
+manage-payment-methods-heading = Διαχείριση μεθόδων πληρωμής
 paypal-payment-management-page-invalid-header = Μη έγκυρα στοιχεία χρέωσης
 paypal-payment-management-page-invalid-description = Φαίνεται ότι υπάρχει σφάλμα με τον λογαριασμό σας στο { -brand-paypal }. Θα πρέπει να λάβετε τα απαραίτητα μέτρα για την επίλυση αυτού του προβλήματος πληρωμής.
 # Page - Not Found
@@ -263,8 +267,19 @@ subscription-content-coupon-will-be-applied = Θα εφαρμοστεί έκπτ
 subscription-content-heading-cancel-subscription = Ακύρωση συνδρομής
 subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.
 subscription-content-cancel-access-message = Ακύρωση της πρόσβασής μου και των αποθηκευμένων πληροφοριών μου εντός του { $productName } στις { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Τελευταίος λογαριασμός • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } (φόρος)
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Προβολή παραστατικού
+subscription-content-expires-on-expiry-date = Λήγει στις { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Επόμενος λογαριασμός • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } (φόρος)
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Διατήρηση συνδρομής
     .aria-label = Παραμείνετε συνδρομητής του { $productName }
+subscription-content-button-cancel-subscription-1 = Ακύρωση συνδρομής
 subscription-content-button-cancel-subscription = Ακύρωση συνδρομής
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
 subscription-content-button-cancel = Ακύρωση

@@ -97,22 +97,46 @@ next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = 付款資訊無效
+subscription-management-page-paypal-error-banner-message-account-error = 您的帳號發生錯誤。
+subscription-management-button-manage-payment-method-1 = 管理付款方式
+subscription-management-page-banner-warning-title-no-payment-method = 未新增付款方式
+subscription-management-page-banner-warning-link-no-payment-method = 新增付款方式
 subscription-management-subscriptions-heading = 訂閱項目
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = 跳到
+subscription-management-nav-payment-details = 付款詳細資訊
+subscription-management-nav-active-subscriptions = 有效訂閱
+subscription-management-payment-details-heading = 付款詳細資訊
+subscription-management-email-label = 電子郵件地址
+subscription-management-payment-method-label = 付款方式
 subscription-management-button-add-payment-method-aria = 新增付款方式
 subscription-management-button-add-payment-method = 新增
+subscription-management-page-warning-message-no-payment-method = 請新增付款方式以避免訂閱中斷。
 subscription-management-button-manage-payment-method-aria = 管理付款方式
 subscription-management-button-manage-payment-method = 管理
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = 卡號末四碼：{ $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = 到期於 { $expirationDate }
+subscription-management-error-paypal-billing-agreement = 您的 { -brand-paypal } 帳號發生問題。請解決此問題以繼續維持訂閱。
+subscription-management-active-subscriptions-heading = 有效訂閱
+subscription-management-you-have-no-active-subscriptions = 您沒有有效訂閱
+subscription-management-new-subs-will-appear-here = 新的訂閱紀錄將顯示於此處。
+subscription-management-your-active-subscriptions-aria = 您的有效訂閱
 subscription-management-button-support = 取得幫助
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = 取得 { $productName } 的協助
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 應用程式內訂閱項目
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } 應用程式內購買
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 應用程式內訂閱項目
+subscription-management-google-in-app-purchase-2 = { -brand-google } 應用程式內購買
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = 於 { $date } 到期
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 訂閱
+subscription-management-button-manage-subscription-1 = 管理訂閱
+manage-payment-methods-heading = 管理付款方式
 paypal-payment-management-page-invalid-header = 帳務資訊無效
 paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } 帳號似乎發生問題，請採取下列步驟處理付款問題。
 # Page - Not Found
@@ -263,8 +287,20 @@ subscription-content-coupon-will-be-applied = 將套用「{ $promotionName }」�
 subscription-content-heading-cancel-subscription = 取消訂閱
 subscription-content-no-longer-use-message = 在帳務週期最後一天（{ $currentPeriodEnd }）之後，將無法繼續使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 之後取消我對 { $productName } 的使用權限與儲存的所有資訊
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = 最新帳單 • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } 稅
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = 檢視請款單
+subscription-management-link-view-invoice-aria = 檢視 { $productName } 的請款單
+subscription-content-expires-on-expiry-date = 於 { $date } 到期
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = 次期帳單 • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 稅
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = 保持訂閱
     .aria-label = 保持訂閱 { $productName }
+subscription-content-button-cancel-subscription-1 = 取消訂閱
 subscription-content-button-cancel-subscription = 取消訂閱
     .aria-label = 取消訂閱 { $productName }
 subscription-content-button-cancel = 取消
