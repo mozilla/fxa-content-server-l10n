@@ -1878,6 +1878,8 @@ signin-totp-code-input-label-v4 = Skriv inn 6-sifra kode
 # Shown to users when they need to re-enter their authentication code, for their current device
 signin-totp-code-aal-banner-header = Kvifor vert du beden om å autentisere deg?
 signin-totp-code-aal-banner-content = Du har konfigurert tostegs-autentisering på kontoen din, men har ikkje logga på med ein kode på denne eininga enno.
+signin-totp-code-aal-sign-out = Logg ut på denne eininga
+signin-totp-code-aal-sign-out-error = Beklagar, det oppstod eit problem med å logge deg ut
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest
 signin-totp-code-other-account-link = Bruk ein annan konto
