@@ -923,6 +923,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Daty { -brand-firefox } se synchronizěruju
 delete-account-product-firefox-addons = Dodanki { -brand-firefox }
 delete-account-acknowledge = Pšosym lašujśo swójo konto, aby to wobkšuśił:
+delete-account-chk-box-1-v4 =
+    .label = Wšykne zapłaśone abonementy, kótarež maśo, se wupowěźeju
 delete-account-chk-box-2 =
     .label = Móžośo skłaźone informacije a funkcije produktow { -brand-mozilla } zgubiś
 delete-account-chk-box-3 =
@@ -1889,6 +1891,11 @@ signin-totp-code-header = Pśizjawiś
 signin-totp-code-subheader-v2 = Zapódajśo kod za dwójokšacowu awtentifikaciju
 signin-totp-code-instruction-v4 = Zmóžniśo swójo <strong>nałoženje awtentizěrowanja</strong>, aby swójo pśizjawjenje wobkšuśił.
 signin-totp-code-input-label-v4 = 6-městnowy kod zapódaś
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Cogodla pšose was wó awtentifikaciju?
+signin-totp-code-aal-banner-content = Sćo konfigurěrował dwójokšacowu awtentifikaciju na swójom konśe, ale hyšći njejsćo se pśizjawił z kodom na toś tom rěźe.
+signin-totp-code-aal-sign-out = Na toś tom rěźe wótzjawiś
+signin-totp-code-aal-sign-out-error = Bóžko jo pśi wótzjawjanju problem nastał
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Wobkšuśiś
 signin-totp-code-other-account-link = Wužywajśo druge konto

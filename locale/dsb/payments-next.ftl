@@ -294,8 +294,20 @@ subscription-content-no-longer-use-message =
     Pó { $currentPeriodEnd }, slědnem dnju swójogo wótliceńskeje periody,
     wěcej njamóžośo { $productName } wužywaś.
 subscription-content-cancel-access-message = Wótwónoźćo mój pśistup a móje skłaźone informacije w { $productName } dnja { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Slědna zliceńka • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } danka
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Zliceńku se woglědaś
+subscription-management-link-view-invoice-aria = Zliceńku za { $productName } se woglědaś
+subscription-content-expires-on-expiry-date = Spadnjo { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Pśiduca zliceńka • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } danka
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Dalej aboněrowaś
     .aria-label = { $productName } dalej aboněrowaś
+subscription-content-button-cancel-subscription-1 = Abonement wupowěźeś
 subscription-content-button-cancel-subscription = Abonement wupowěźeś
     .aria-label = Waš { $productName } dalej aboněrowaś
 subscription-content-button-cancel = Wupowěźeś
