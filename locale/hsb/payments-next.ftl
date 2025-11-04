@@ -101,7 +101,17 @@ next-payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } k�
 ## Page - Subscription Management
 
 subscription-management-page-paypal-error-banner-title-invalid-payment-information = Njepłaćiwe płaćenske informacije
+subscription-management-page-paypal-error-banner-message-account-error = Je zmylk z wašim kontom.
+subscription-management-button-manage-payment-method-1 = Płaćensku metodu rjadować
+subscription-management-page-banner-warning-title-no-payment-method = Žana płaćenska metoda přidata
+subscription-management-page-banner-warning-link-no-payment-method = Płaćensku metodu přidać
 subscription-management-subscriptions-heading = Abonementy
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Skočić k
+subscription-management-nav-payment-details = Płaćenske podrobnosće
+subscription-management-nav-active-subscriptions = Aktiwne abonementy
+subscription-management-payment-details-heading = Płaćenske podrobnosće
+subscription-management-email-label = E-mejlowa adresa
 subscription-management-button-add-payment-method-aria = Płaćensku metodu přidać
 subscription-management-button-add-payment-method = Přidać
 subscription-management-button-manage-payment-method-aria = Płaćensku metodu rjadować
