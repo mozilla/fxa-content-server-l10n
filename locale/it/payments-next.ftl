@@ -17,7 +17,7 @@ location-banner-currency-change = Cambio valuta non supportato. Per continuare, 
 
 ## Page - Upgrade page
 
-upgrade-page-payment-information = Informazioni sul pagamento
+upgrade-page-payment-information = Informazioni di pagamento
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato oggi un importo ripartito proporzionalmente per la parte restante del ciclo di fatturazione. A partire da { $nextInvoiceDate } ti verrà addebitato l’intero importo.
 
@@ -82,7 +82,7 @@ next-payment-confirmation-order-heading = Dettagli dell’ordine
 next-payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
-next-payment-confirmation-details-heading-2 = Informazioni sul pagamento
+next-payment-confirmation-details-heading-2 = Informazioni di pagamento
 
 ## Success pages (/checkout and /upgrade)
 ## Common strings used in multiple checkout pages
@@ -109,7 +109,7 @@ subscription-management-nav-payment-details = Dettagli del pagamento
 subscription-management-nav-active-subscriptions = Abbonamenti attivi
 subscription-management-payment-details-heading = Dettagli del pagamento
 subscription-management-email-label = Email
-subscription-management-credit-balance-label = Saldo a credito
+subscription-management-credit-balance-label = Credito residuo
 subscription-management-credit-balance-message = Il credito verrà automaticamente applicato alle fatture future
 subscription-management-payment-method-label = Metodo di pagamento
 subscription-management-button-add-payment-method-aria = Aggiungi metodo di pagamento
@@ -130,9 +130,9 @@ subscription-management-button-support = Ottieni assistenza
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Ottieni assistenza per { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = I tuoi abbonamenti in-app via { -brand-apple }
-subscription-management-apple-in-app-purchase-2 = { -brand-apple } acquisti in-app
+subscription-management-apple-in-app-purchase-2 = Acquisto in-app con { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = I tuoi abbonamenti in-app via { -brand-google }
-subscription-management-google-in-app-purchase-2 = { -brand-google } acquisti in-app
+subscription-management-google-in-app-purchase-2 = Acquisto in-app con { -brand-google }
 # $date (String) - Date of next bill
 subscription-management-iap-sub-expires-on-expiry-date = Scade il { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

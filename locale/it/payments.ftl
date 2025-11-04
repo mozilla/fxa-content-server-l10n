@@ -66,7 +66,7 @@ payment-confirmation-order-heading = Dettagli dell’ordine
 payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 payment-confirmation-invoice-date = { $invoiceDate }
-payment-confirmation-details-heading-2 = Informazioni sul pagamento
+payment-confirmation-details-heading-2 = Informazioni di pagamento
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
@@ -392,7 +392,7 @@ new-user-submit = Abbonati adesso
 
 ## Routes - Product and Subscriptions
 
-sub-update-payment-title = Informazioni sul pagamento
+sub-update-payment-title = Informazioni di pagamento
 
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
