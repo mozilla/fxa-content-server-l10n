@@ -111,6 +111,7 @@ subscription-management-button-support = Obtener auxilio
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obtener auxilio pro { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Tu abonamentos a  { -brand-apple } via le application
+subscription-management-apple-in-app-purchase-2 = Compra integrate { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Tu abonamentos a  { -brand-google } via le application
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gerer abonamento pro { $productName }
@@ -264,6 +265,7 @@ subscription-content-coupon-will-be-applied = Le discount { $promotionName } ser
 subscription-content-heading-cancel-subscription = Cancellar abonamento
 subscription-content-no-longer-use-message = Tu non plus potera usar { $productName } post { $currentPeriodEnd }, le ultime die de tu termino de facturation.
 subscription-content-cancel-access-message = Cancellar mi accesso e mi informationes salvate intra { $productName } in { $currentPeriodEnd }
+subscription-content-view-invoice = Vider le factura
 subscription-content-button-stay-subscribed = Restar abonate
     .aria-label = Restar abonate a { $productName }
 subscription-content-button-cancel-subscription = Cancellar abonamento

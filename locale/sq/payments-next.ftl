@@ -100,6 +100,11 @@ next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informacion i pavlefshëm pagese
+subscription-management-page-paypal-error-banner-message-account-error = Ka një gabim me llogarinë tuaj.
+subscription-management-button-manage-payment-method-1 = Administroni metodë pagesash
+subscription-management-page-banner-warning-title-no-payment-method = S’u shtua metodë pagesash
+subscription-management-page-banner-warning-link-no-payment-method = Shtoni një metodë pagese
 subscription-management-subscriptions-heading = Pajtime
 subscription-management-button-add-payment-method-aria = Shtoni metodë pagese
 subscription-management-button-add-payment-method = Shto
