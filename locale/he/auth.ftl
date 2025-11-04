@@ -380,7 +380,7 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = כניסה חדשה ל־{ $clientName }
-newDeviceLogin-subjectForMozillaAccount = התחברות חדשה ל{ -product-mozilla-account(case: "the") } שלך
+newDeviceLogin-subjectForMozillaAccount = כניסה חדשה ל{ -product-mozilla-account(case: "the") } שלך
 newDeviceLogin-title-3 = נעשה שימוש ב{ -product-mozilla-account(case: "the") } שלך להתחברות
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
@@ -793,7 +793,7 @@ verifyAccountChange-preview =
     }
 verifyAccountChange-title = האם הינך בתהליך שינוי פרטי החשבון שלך?
 # After the colon is a description of the device used to sign in to the service
-verifyAccountChange-safe = באפשרותך לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור שינוי זה במכשיר:
+verifyAccountChange-safe = נא לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור שינוי זה במכשיר:
 verifyAccountChange-prompt = אם כן, להלן קוד האישור שלך:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
@@ -805,7 +805,7 @@ verifyAccountChange-expiry-notice =
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = האם התחברת ל־{ $clientName }?
-verifyLogin-description-2 = באפשרותך לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור הכניסה שלך במכשיר:
+verifyLogin-description-2 = נא לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור הכניסה שלך במכשיר:
 verifyLogin-subject-2 = אישור התחברות
 verifyLogin-action = אישור התחברות
 # Variables:
@@ -816,7 +816,7 @@ verifyLoginCode-preview = הקוד יפוג בתוך 5 דקות.
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = האם נכנסת אל { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
-verifyLoginCode-safe = באפשרותך לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור הכניסה שלך במכשיר:
+verifyLoginCode-safe = נא לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור הכניסה שלך במכשיר:
 verifyLoginCode-prompt-3 = אם כן, להלן קוד האישור שלך:
 verifyLoginCode-expiry-notice = הקוד יפוג בתוך 5 דקות.
 verifyPrimary-title-2 = אימות כתובת דוא״ל ראשית
