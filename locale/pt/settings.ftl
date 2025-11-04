@@ -672,6 +672,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continuar
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Autenticação de dois fatores ativada
+flow-setup-2fa-inline-complete-success-banner-description = Para proteger todos os seus dispositivos associados, termine sessão em todos os lugares em que estiver a utilizar esta conta e depois inicie sessão novamente utilizando a sua nova autenticação de dois passos.
 flow-setup-2fa-inline-complete-backup-code = Códigos de autenticação de recuperação
 flow-setup-2fa-inline-complete-backup-phone = Telefone de recuperação
 # $count (Number) - an integer representing the number of backup
@@ -803,6 +804,7 @@ nav-email-comm = Comunicações por e-mail
 
 page-2fa-change-title = Alterar autenticação de dois passos
 page-2fa-change-success = A autenticação de dois passos foi atualizada
+page-2fa-change-success-additional-message = Para proteger todos os seus dispositivos associados, termine sessão em todos os lugares em que estiver a utilizar esta conta e depois inicie sessão novamente utilizando a sua nova autenticação de dois passos.
 page-2fa-change-totpinfo-error = Ocorreu um erro ao substituir a sua aplicação de autenticação de dois passos. Tente novamente mais tarde.
 page-2fa-change-qr-instruction = <strong>Etapa 1:</strong> Digitalize este código QR utilizando qualquer aplicação de autenticação, como o Duo ou o Google Authenticator. Isto cria uma nova ligação. Quaisquer ligações antigas deixarão de funcionar.
 
@@ -834,6 +836,7 @@ page-2fa-setup-totpinfo-error = Ocorreu um erro ao configurar a autenticação d
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Esse código não está correto. Tente novamente.
 page-2fa-setup-success = A autenticação de dois passos foi ativada
+page-2fa-setup-success-additional-message = Para proteger todos os seus dispositivos ligados, deve terminar sessão em todos os lugares em que estiver a utilizar esta conta e depois iniciar sessão novamente utilizando a autenticação de dois passos.
 
 ## Avatar change page
 
