@@ -100,6 +100,7 @@ next-payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } k�
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Njepłaćiwe płaćenske informacije
 subscription-management-subscriptions-heading = Abonementy
 subscription-management-button-add-payment-method-aria = Płaćensku metodu přidać
 subscription-management-button-add-payment-method = Přidać
