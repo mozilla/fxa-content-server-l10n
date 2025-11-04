@@ -671,7 +671,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Fortsett
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Totrinns-autentisering aktivert
-flow-setup-2fa-inline-complete-success-banner-description = For å beskytte alle tilkoblede enheter bør du logge av overalt hvor du bruker denne kontoen, og deretter logge på igjen med den nye totrinnsautentiseringen din.
+flow-setup-2fa-inline-complete-success-banner-description = For å beskytte alle tilkoblede enheter bør du logge ut overalt hvor du bruker denne kontoen, og deretter logge på igjen med den nye totrinnsautentiseringen din.
 flow-setup-2fa-inline-complete-backup-code = Reserve-autentiseringskoder
 flow-setup-2fa-inline-complete-backup-phone = Gjenopprettingstelefon
 # $count (Number) - an integer representing the number of backup
@@ -803,7 +803,7 @@ nav-email-comm = E-postkommunikasjon
 
 page-2fa-change-title = Endre totrinns-autentisering
 page-2fa-change-success = Totrinns-autentisering er oppdatert
-page-2fa-change-success-additional-message = For å beskytte alle tilkoblede enheter bør du logge av overalt hvor du bruker denne kontoen, og deretter logge på igjen med den nye totrinnsautentiseringen din.
+page-2fa-change-success-additional-message = For å beskytte alle tilkoblede enheter bør du logge ut overalt hvor du bruker denne kontoen, og deretter logge på igjen med den nye totrinnsautentiseringen din.
 page-2fa-change-totpinfo-error = Det oppstod en feil ved bytte av totrinns-autentiseringsappen. Prøv igjen senere.
 page-2fa-change-qr-instruction = <strong>Trinn 1:</strong> Skann denne QR-koden med en autentiseringsapp, for eksempel Duo eller Google Authenticator. Dette oppretter en ny tilkobling, og eventuelle gamle tilkoblinger vil ikke lenger fungere.
 
@@ -835,7 +835,7 @@ page-2fa-setup-totpinfo-error = Det oppstod en feil under oppsett av totrinns-au
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Den koden er ikke riktig. Prøv på nytt.
 page-2fa-setup-success = Totrinns-autentisering er aktivert
-page-2fa-setup-success-additional-message = For å beskytte alle tilkoblede enheter bør du logge av overalt hvor du bruker denne kontoen, og deretter logge på igjen med totrinnsautentisering.
+page-2fa-setup-success-additional-message = For å beskytte alle tilkoblede enheter bør du logge ut overalt hvor du bruker denne kontoen, og deretter logge på igjen med totrinnsautentisering.
 
 ## Avatar change page
 

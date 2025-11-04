@@ -492,7 +492,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Du har også lagt til reser
 postAddTwoStepAuthentication-recovery-method-phone = Du la også til { $maskedPhoneNumber } som telefonnummer for gjenoppretting.
 postAddTwoStepAuthentication-how-protects-link = Slik beskytter dette kontoen din
 postAddTwoStepAuthentication-how-protects-plaintext = Slik beskytter dette kontoen din:
-postAddTwoStepAuthentication-device-sign-out-message = For å beskytte alle tilkoblede enheter bør du logge av overalt hvor du bruker denne kontoen, og deretter logge på igjen med totrinnsautentisering.
+postAddTwoStepAuthentication-device-sign-out-message = For å beskytte alle tilkoblede enheter bør du logge ut overalt hvor du bruker denne kontoen, og deretter logge på igjen med totrinnsautentisering.
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endret
 postChangeAccountRecovery-title = Du endret kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har nå en ny kontogjenopprettingsnøkkel. Den forrige nøkkelen din ble slettet.
@@ -518,7 +518,7 @@ postChangeTwoStepAuthentication-from-device = Du ba om dette fra:
 postChangeTwoStepAuthentication-action = Behandle konto
 postChangeTwoStepAuthentication-how-protects-link = Hvordan dette beskytter kontoen din
 postChangeTwoStepAuthentication-how-protects-plaintext = Hvordan dette beskytter kontoen din
-postChangeTwoStepAuthentication-device-sign-out-message = For å beskytte alle tilkoblede enheter bør du logge av overalt hvor du bruker denne kontoen, og deretter logge på igjen med den nye totrinnsautentiseringen din.
+postChangeTwoStepAuthentication-device-sign-out-message = For å beskytte alle tilkoblede enheter bør du logge ut overalt hvor du bruker denne kontoen, og deretter logge på igjen med den nye totrinnsautentiseringen din.
 postConsumeRecoveryCode-title-3 = Reserve-autentiseringskoden din ble brukt til å bekrefte tilbakestilling av passord
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
