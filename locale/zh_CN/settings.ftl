@@ -1830,6 +1830,10 @@ signin-totp-code-header = 登录
 signin-totp-code-subheader-v2 = 请输入两步验证的验证码
 signin-totp-code-instruction-v4 = 请通过<strong>身份验证应用</strong>确认登录。
 signin-totp-code-input-label-v4 = 请输入 6 位验证码
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = 为什么需要进行身份验证？
+signin-totp-code-aal-banner-content = 您为账户设置了两步验证，但未通过验证码登录过此设备。
+signin-totp-code-aal-sign-out = 从此设备退出登录
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 确认
 signin-totp-code-other-account-link = 换个账户登录
