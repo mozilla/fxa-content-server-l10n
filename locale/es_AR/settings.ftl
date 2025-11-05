@@ -1874,7 +1874,7 @@ signin-totp-code-subheader-v2 = Ingresá el código de autenticación de dos pas
 signin-totp-code-instruction-v4 = Usá tu <strong>aplicación de autenticación</strong> para confirmar el inicio de sesión.
 signin-totp-code-input-label-v4 = Ingresá el código de 6 dígitos
 # Shown to users when they need to re-enter their authentication code, for their current device
-signin-totp-code-aal-banner-header = ¿Por qué se le pide que se autentique?
+signin-totp-code-aal-banner-header = ¿Por qué se pide que te autentiqués?
 signin-totp-code-aal-banner-content = Configuraste la autenticación de dos pasos en tu cuenta, pero todavía no iniciaste sesión con un código en este dispositivo.
 signin-totp-code-aal-sign-out = Cerrar la sesión en este dispositivo
 signin-totp-code-aal-sign-out-error = Disculpá, hubo un problema al cerrar la sesión
