@@ -1834,6 +1834,7 @@ signin-totp-code-input-label-v4 = 请输入 6 位验证码
 signin-totp-code-aal-banner-header = 为什么需要进行身份验证？
 signin-totp-code-aal-banner-content = 您为账户设置了两步验证，但未通过验证码登录过此设备。
 signin-totp-code-aal-sign-out = 从此设备退出登录
+signin-totp-code-aal-sign-out-error = 抱歉，退出登录时出现问题。
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 确认
 signin-totp-code-other-account-link = 换个账户登录
