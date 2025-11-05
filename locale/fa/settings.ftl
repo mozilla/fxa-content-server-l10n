@@ -147,6 +147,7 @@ form-password-with-inline-criteria-set-password-new-password-label =
     .label = گذرواژه
 form-password-with-inline-criteria-set-password-confirm-password-label =
     .label = تکرار گذرواژه
+form-password-with-inline-criteria-set-password-submit-button = آغاز همگام‌سازی
 form-password-with-inline-criteria-match-error = گذرواژه‌ها منطبق نیستند
 form-password-with-inline-criteria-sr-too-short-message = گذرواژه باید حداقل حاوی ۸ نویسه باشد.
 form-password-with-inline-criteria-sr-not-email-message = گذرواژه نباید حاوی نشانی رایانامه شما باشد.
@@ -346,12 +347,29 @@ flow-container-back = بازگشت
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = آغاز کنید
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = انصراف
 
 ## FlowSetup2faApp
 
 flow-setup-2fa-button = ادامه
+
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = پایان
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-button-continue = ادامه
+
+##
+
+flow-setup-2fa-prompt-continue-button = ادامه
 
 ## FlowSetupPhoneConfirmCode
 
@@ -371,12 +389,17 @@ header-help = راهنما
 
 la-heading = حساب‌های مرتبط
 la-description = شما مجوز دسترسی به حساب‌های زیر را دارید.
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = بستن
 modal-cancel-button = لغو
 modal-default-confirm-button = تایید
+
+## ModalMfaProtected
+
+modal-mfa-protected-confirm-button = تایید
 
 ## Modal Verify Session
 
@@ -444,6 +467,12 @@ delete-account-header =
     .title = حذف حساب کاربری
 delete-account-step-1-2 = مرحله ۱ از ۲
 delete-account-step-2-2 = مرحله ۲ از ۲
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-acknowledge = لطفا در تایید کنید که با حذف حساب کاربری خود:
 delete-account-continue-button = ادامه
 delete-account-password-input =
@@ -479,6 +508,23 @@ security-heading = امنیت
 security-password =
     .header = گذرواژه
 security-action-create = ایجاد
+
+## SubRow component
+
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = افزودن
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = تغییر
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = افزودن
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = حذف
+
+## Sub-section row Defaults
+
+row-defaults-action-add = افزودن
+row-defaults-action-change = تغییر
 
 ## Account recovery key sub-section on main Settings page
 
