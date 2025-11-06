@@ -290,14 +290,14 @@ subscription-content-heading-cancel-subscription = Отменить подпис
 subscription-content-no-longer-use-message = Вы не сможете больше использовать { $productName } после { $currentPeriodEnd }, последнего дня вашего платёжного цикла.
 subscription-content-cancel-access-message = Отменить мой доступ и сохранённую информацию в { $productName } { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
-subscription-content-last-bill = Последний платёж • { $illedOnDate }
+subscription-content-last-bill = Последний платёж • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } налог
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Просмотреть счёт
 subscription-management-link-view-invoice-aria = Просмотреть счёт-фактуру за { $productName }
 subscription-content-expires-on-expiry-date = Истекает { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
-subscription-content-next-bill = Следующая оплата • { $illedOnDate }
+subscription-content-next-bill = Следующая оплата • { $billedOnDate }
 subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } налог
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Оставить подписку
