@@ -97,7 +97,16 @@ next-payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = 付款信息无效
+subscription-management-page-paypal-error-banner-message-account-error = 您的账户存在问题。
+subscription-management-button-manage-payment-method-1 = 管理付款方式
+subscription-management-page-banner-warning-title-no-payment-method = 未添加付款方式
+subscription-management-page-banner-warning-link-no-payment-method = 添加付款方式
 subscription-management-subscriptions-heading = 订阅
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = 跳转到
+subscription-management-nav-payment-details = 付款详情
+subscription-management-nav-active-subscriptions = 生效中订阅
 subscription-management-button-add-payment-method-aria = 添加付款方式
 subscription-management-button-add-payment-method = 添加
 subscription-management-button-manage-payment-method-aria = 管理付款方式
