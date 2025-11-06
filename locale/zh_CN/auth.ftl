@@ -654,7 +654,7 @@ subscriptionFirstInvoice-content-processing = 正在处理您的款项，最多�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = 您将收到另一封电子邮件，介绍如何开始使用 { $productName }。
-subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
+subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否则将在每个周期开始时自动更新订阅并收费。
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 subscriptionFirstInvoice-content-your-next-invoice = 下次将于 { $nextInvoiceDateOnly } 开具发票。

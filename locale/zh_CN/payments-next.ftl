@@ -107,21 +107,37 @@ subscription-management-subscriptions-heading = 订阅
 subscription-management-jump-to-heading = 跳转到
 subscription-management-nav-payment-details = 付款详情
 subscription-management-nav-active-subscriptions = 生效中订阅
+subscription-management-payment-details-heading = 付款详情
+subscription-management-email-label = 电子邮件
+subscription-management-credit-balance-label = 余额
+subscription-management-credit-balance-message = 余额将于以后付款时自动抵用
+subscription-management-payment-method-label = 付款方式
 subscription-management-button-add-payment-method-aria = 添加付款方式
 subscription-management-button-add-payment-method = 添加
+subscription-management-page-warning-message-no-payment-method = 请添加付款方式，以避免订阅中断。
 subscription-management-button-manage-payment-method-aria = 管理付款方式
 subscription-management-button-manage-payment-method = 管理
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = 尾号 { $last4 } 的卡片
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = 有效期 { $expirationDate }
+subscription-management-active-subscriptions-heading = 生效中订阅
+subscription-management-you-have-no-active-subscriptions = 暂无生效中订阅
+subscription-management-new-subs-will-appear-here = 新的订阅将显示于此处。
+subscription-management-your-active-subscriptions-aria = 您的生效中订阅
 subscription-management-button-support = 获取帮助
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = 获取 { $productName } 的帮助信息
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 应用内订阅
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } 应用内购买
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 应用内订阅
+subscription-management-google-in-app-purchase-2 = { -brand-google } 应用内购买
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = { $date } 到期
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 的订阅
+subscription-management-button-manage-subscription-1 = 管理订阅
+manage-payment-methods-heading = 管理付款方式
 paypal-payment-management-page-invalid-header = 账单信息无效
 paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } 账户似乎存在问题，请按下列必要步骤解决此付款问题。
 # Page - Not Found
@@ -272,8 +288,20 @@ subscription-content-coupon-will-be-applied = 将使用 { $promotionName } 折�
 subscription-content-heading-cancel-subscription = 取消订阅
 subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消我的 { $productName } 使用权，并删除保存的信息
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = 上个结算日 • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + 税费 { $taxDue }
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = 查看发票
+subscription-management-link-view-invoice-aria = 查看 { $productName } 的发票
+subscription-content-expires-on-expiry-date = { $date } 到期
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = 下个结算日 • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + 税费 { $taxDue }
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = 继续订阅
     .aria-label = 继续订阅 { $productName }
+subscription-content-button-cancel-subscription-1 = 取消订阅
 subscription-content-button-cancel-subscription = 取消订阅
     .aria-label = 取消订阅 { $productName }
 subscription-content-button-cancel = 取消
