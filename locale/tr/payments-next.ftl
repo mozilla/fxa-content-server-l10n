@@ -96,7 +96,17 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Geçersiz ödeme bilgileri
+subscription-management-page-paypal-error-banner-message-account-error = Hesabınızla ilgili bir hata var.
+subscription-management-button-manage-payment-method-1 = Ödeme yöntemini yönet
+subscription-management-page-banner-warning-title-no-payment-method = Ödeme yöntemi eklenmedi
+subscription-management-page-banner-warning-link-no-payment-method = Ödeme yöntemi ekle
 subscription-management-subscriptions-heading = Abonelikler
+subscription-management-nav-payment-details = Ödeme ayrıntıları
+subscription-management-nav-active-subscriptions = Aktif abonelikler
+subscription-management-payment-details-heading = Ödeme ayrıntıları
+subscription-management-email-label = E-posta
+subscription-management-payment-method-label = Ödeme yöntemi
 subscription-management-button-add-payment-method-aria = Ödeme yöntemi ekle
 subscription-management-button-add-payment-method = Ekle
 subscription-management-button-manage-payment-method-aria = Ödeme yöntemini yönet
@@ -105,14 +115,25 @@ subscription-management-button-manage-payment-method = Yönet
 subscription-management-card-ending-in = { $last4 } ile biten kart
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Son kullanım: { $expirationDate }
+subscription-management-active-subscriptions-heading = Aktif abonelikler
+subscription-management-you-have-no-active-subscriptions = Hiç aktif aboneliğiniz yok
+subscription-management-new-subs-will-appear-here = Yeni abonelikler burada görünecek.
+subscription-management-your-active-subscriptions-aria = Aktif abonelikleriniz
 subscription-management-button-support = Yardım al
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName } için yardım alın
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } uygulama içi abonelikleriniz
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } uygulama içi satın alma
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } uygulama içi abonelikleriniz
+subscription-management-google-in-app-purchase-2 = { -brand-google } uygulama içi satın alma
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Son geçerlilik tarihi: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } aboneliğini yönet
+subscription-management-button-manage-subscription-1 = Abonelikleri yönet
+manage-payment-methods-heading = Ödeme yöntemlerini yönet
 paypal-payment-management-page-invalid-header = Geçersiz fatura bilgileri
+paypal-payment-management-page-invalid-description = { -brand-paypal } hesabınızda bir sorun var gibi görünüyor. Bu ödeme sorununu çözmek için birkaç adımı tamamlamalısınız.
 # Page - Not Found
 page-not-found-title = Sayfa bulunamadı
 page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik.
@@ -252,6 +273,11 @@ next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınız�
 
 subscription-content-heading-cancel-subscription = Aboneliği iptal et
 subscription-content-no-longer-use-message = Fatura döneminizin son günü olan { $currentPeriodEnd } tarihinden sonra { $productName } ürününü kullanamayacaksınız.
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Faturayı görüntüle
+subscription-management-link-view-invoice-aria = { $productName } faturasını görüntüle
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
+subscription-content-button-cancel-subscription-1 = Aboneliği iptal et
 subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
 subscription-cancellation-dialog-title = Gitmenize üzüldük
 # $name (String) - The name of the subscribed product.
