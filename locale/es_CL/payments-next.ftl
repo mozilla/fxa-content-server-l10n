@@ -130,7 +130,9 @@ subscription-management-button-support = Obtener ayuda
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obtener ayuda para { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Compras desde la app en { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-google }
+subscription-management-google-in-app-purchase-2 = Compras desde la app en { -brand-google }
 # $date (String) - Date of next bill
 subscription-management-iap-sub-expires-on-expiry-date = Expira el { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
