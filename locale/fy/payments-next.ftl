@@ -95,53 +95,50 @@ next-payment-confirmation-download-button = Trochgean mei download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Accountprofylôfbylding
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Accountsaldo
-subscription-management-account-credit-balance-message = Tegoed wurdt automatysk tapast op takomstige faktueren
-subscription-management-payment-information-heading = Betellingsgegevens
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Unjildige betellingsgegevens
+subscription-management-page-paypal-error-banner-message-account-error = Der is in flater mei jo account bard.
+subscription-management-button-manage-payment-method-1 = Betellingsmetoade beheare
+subscription-management-page-banner-warning-title-no-payment-method = Gjin betellingsmetoade tafoege
+subscription-management-page-banner-warning-link-no-payment-method = In betellingsmetoade tafoegje
+subscription-management-subscriptions-heading = Abonneminten
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Fluch nei
+subscription-management-nav-payment-details = Betellingsgegevens
+subscription-management-nav-active-subscriptions = Aktive abonneminten
+subscription-management-payment-details-heading = Betellingsgegevens
+subscription-management-email-label = E-mailadres
+subscription-management-credit-balance-label = Tegoedsaldo
+subscription-management-credit-balance-message = Tegoed wurdt automatysk tapast op takomstige faktueren
+subscription-management-payment-method-label = Betellingsmetoade
 subscription-management-button-add-payment-method-aria = Betellingsmetoade tafoegje
 subscription-management-button-add-payment-method = Tafoegje
-subscription-management-button-change-payment-method-aria = Betellingsmetoade wizigje
-subscription-management-button-change-payment-method = Wizigje
+subscription-management-page-warning-message-no-payment-method = Foegje in betellingsmetoade ta om ûnderbrekking fan jo abonneminten foar te kommen.
 subscription-management-button-manage-payment-method-aria = Betellingsmetoade beheare
 subscription-management-button-manage-payment-method = Beheare
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Creditcard einigjend op { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Ferrint op { $expirationDate }
-subscription-management-subscriptions-heading = Abonneminten
-subscription-management-your-subscriptions-aria = Jo abonneminten
-subscription-management-no-subscriptions = Jo hawwe noch gjin abonneminten
+subscription-management-error-paypal-billing-agreement = Der is in probleem mei jo { -brand-paypal }-account. Los it probleem op om jo aktive abonneminten te behâlden.
+subscription-management-active-subscriptions-heading = Aktive abonneminten
+subscription-management-you-have-no-active-subscriptions = Jo hawwe gjin aktive abonneminten
+subscription-management-new-subs-will-appear-here = Nije abonneminten ferskine hjir.
+subscription-management-your-active-subscriptions-aria = Jo aktive abonneminten
 subscription-management-button-support = Help krije
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Help foar { $productName } krije
 subscription-management-your-apple-iap-subscriptions-aria = Jo { -brand-apple }-yn-app-abonneminten
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: yn-app-oankeap
+subscription-management-apple-in-app-purchase-2 = { -brand-apple }-yn-app-oankeap
 subscription-management-your-google-iap-subscriptions-aria = Jo { -brand-google }-yn-app-abonneminten
-subscription-management-google-in-app-purchase-1 = { -brand-google }: yn-app-oankeap
+subscription-management-google-in-app-purchase-2 = { -brand-google }-yn-app-oankeap
 # $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = De folgjende faktuer is ferskuldige op <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Jo abonnemint ferrint op <strong>{ $date }</strong>
+subscription-management-iap-sub-expires-on-expiry-date = Ferrint op { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnemint foar { $productName } beheare
-subscription-management-button-manage-subscription = Beheare
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (deistich)
-subscription-management-page-subscription-interval-weekly = { $productName } (wykliks)
-subscription-management-page-subscription-interval-monthly = { $productName } (moanliks)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 moanliks)
-subscription-management-page-subscription-interval-yearly = { $productName } (jierliks)
-subscription-management-page-paypal-error-banner = Ungjidige betellingsgegevens; der is in flater bard mei jo account.
-subscription-management-page-paypal-error-banner-link = Beheare
+subscription-management-button-manage-subscription-1 = Abonnemint beheare
+manage-payment-methods-heading = Betellingsmetoaden beheare
 paypal-payment-management-page-invalid-header = Ungjildige fakturaasjegegevens
 paypal-payment-management-page-invalid-description = Der liket in flater te barren mei jo { -brand-paypal }-account. Jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
 # Page - Not Found
@@ -288,18 +285,24 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } btw</strong><span> fakturearre op { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturearre op { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tegoed takend oan jo account
-subscription-content-coupon-applied = { $promotionName } tapast
 subscription-content-coupon-will-be-applied = Koarting fanwegen { $promotionName } wurdt tapast
-subscription-content-next-bill-excl-disc-with-tax = De folgjende faktuer fan <strong>{ $nextInvoiceTotal } + { $taxDue } btw</strong>, eksklusyf koartingen, is ferskuldige op <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = De folgjende faktuer fan <strong>{ $nextInvoiceTotal }</strong>, eksklusyf koartingen, is ferskuldige op <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonnemint opsizze
 subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
 subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens yn { $productName } op { $currentPeriodEnd } opsizze
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Lêste faktuer • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } btw
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Faktuer besjen
+subscription-management-link-view-invoice-aria = Faktuer foar { $productName } besjen
+subscription-content-expires-on-expiry-date = Ferrint op { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Folgjende faktuer • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } btw
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Abonnemint behâlde
     .aria-label = Abonnemint op { $productName } behâlde
+subscription-content-button-cancel-subscription-1 = Abonnemint opsizze
 subscription-content-button-cancel-subscription = Abonnemint opsizze
     .aria-label = Abonnemint op { $productName } opsizze
 subscription-content-button-cancel = Opsizze

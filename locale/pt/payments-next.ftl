@@ -95,53 +95,50 @@ next-payment-confirmation-download-button = Continuar para descarregar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Imagem de perfil da conta
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Balanço de crédito na conta
-subscription-management-account-credit-balance-message = O crédito será aplicado automaticamente para futuras faturas
-subscription-management-payment-information-heading = Informação de pagamento
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informação de pagamento inválida
+subscription-management-page-paypal-error-banner-message-account-error = Existe um erro com a sua conta.
+subscription-management-button-manage-payment-method-1 = Gerir método de pagamento
+subscription-management-page-banner-warning-title-no-payment-method = Nenhum método de pagamento adicionado
+subscription-management-page-banner-warning-link-no-payment-method = Adicionar um método de pagamento
+subscription-management-subscriptions-heading = Subscrições
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Ir para
+subscription-management-nav-payment-details = Detalhes de pagamento
+subscription-management-nav-active-subscriptions = Subscrições ativas
+subscription-management-payment-details-heading = Detalhes de pagamento
+subscription-management-email-label = Email
+subscription-management-credit-balance-label = Balanço creditado
+subscription-management-credit-balance-message = O crédito será aplicado automaticamente a faturas futuras
+subscription-management-payment-method-label = Método de pagamento
 subscription-management-button-add-payment-method-aria = Adicionar método de pagamento
 subscription-management-button-add-payment-method = Adicionar
-subscription-management-button-change-payment-method-aria = Alterar método de pagamento
-subscription-management-button-change-payment-method = Alterar
+subscription-management-page-warning-message-no-payment-method = Por favor, adicione um método de pagamento para evitar interrupção nas suas subscrições.
 subscription-management-button-manage-payment-method-aria = Gerir método de pagamento
 subscription-management-button-manage-payment-method = Gerir
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Cartão que terminar em { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expira em { $expirationDate }
-subscription-management-subscriptions-heading = Subscrições
-subscription-management-your-subscriptions-aria = As suas subscrições
-subscription-management-no-subscriptions = Ainda não tem quaisquer subscrições
+subscription-management-error-paypal-billing-agreement = Existe um problema com a sua conta { -brand-paypal }. Por favor resolva o problema para manter as suas subscrições ativas.
+subscription-management-active-subscriptions-heading = Subscrições ativas
+subscription-management-you-have-no-active-subscriptions = Não tem subscrições ativas
+subscription-management-new-subs-will-appear-here = Novas subscrições irão aparecer aqui.
+subscription-management-your-active-subscriptions-aria = As suas subscrições ativas
 subscription-management-button-support = Obter ajuda
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obter ajuda para { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = As suas { -brand-apple } subscrições na aplicação
-subscription-management-apple-in-app-purchase-1 = { -brand-apple }: compra na aplicação
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } compras na aplicação
 subscription-management-your-google-iap-subscriptions-aria = As suas { -brand-google } subscrições na aplicação
-subscription-management-google-in-app-purchase-1 = { -brand-google }: compra na aplicação
+subscription-management-google-in-app-purchase-2 = { -brand-google } compras na aplicação
 # $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Próxima fatura vence a <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = A sua subscrição irá expirar a <strong>{ $date }</strong>
+subscription-management-iap-sub-expires-on-expiry-date = Expira a { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gerir subscrição para { $productName }
-subscription-management-button-manage-subscription = Gerir
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (diariamente)
-subscription-management-page-subscription-interval-weekly = { $productName } (por semana)
-subscription-management-page-subscription-interval-monthly = { $productName } (mensal)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6-meses)
-subscription-management-page-subscription-interval-yearly = { $productName } (anualmente)
-subscription-management-page-paypal-error-banner = Informação de pagamento inválida; existe um erro com a sua conta.
-subscription-management-page-paypal-error-banner-link = Gerir
+subscription-management-button-manage-subscription-1 = Gerir subscrição
+manage-payment-methods-heading = Gerir métodos de pagamento
 paypal-payment-management-page-invalid-header = Informação de faturação inválida
 paypal-payment-management-page-invalid-description = Parece haver um erro com a sua conta { -brand-paypal }. Precisamos que execute os passos necessários para resolver este problema de pagamento.
 # Page - Not Found
@@ -288,18 +285,24 @@ next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } impostos</strong><span> faturados a { $billedOnDate }</span>
-subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> debitado a { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> crédito emitido para a sua conta
-subscription-content-coupon-applied = { $promotionName } aplicados
 subscription-content-coupon-will-be-applied = { $promotionName } de desconto será aplicado
-subscription-content-next-bill-excl-disc-with-tax = A próxima fatura de <strong>{ $nextInvoiceTotal } + { $taxDue } impostos</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = A próxima fatura de <strong>{ $nextInvoiceTotal }</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancelar subscrição
 subscription-content-no-longer-use-message = Deixará de poder utilizar { $productName } depois de { $currentPeriodEnd }, o último dia do seu ciclo de faturação.
 subscription-content-cancel-access-message = Cancelar o meu acesso e a minha informação guardada em { $productName } em { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Última fatura • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impostos
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Ver fatura
+subscription-management-link-view-invoice-aria = Ver fatura para { $productName }
+subscription-content-expires-on-expiry-date = Expira a { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Próxima fatura • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } impostos
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Manter a subscrição
     .aria-label = Manter a subscrição em { $productName }
+subscription-content-button-cancel-subscription-1 = Cancelar subscrição
 subscription-content-button-cancel-subscription = Cancelar subscrição
     .aria-label = Cancelar a sua subscrição para { $productName }
 subscription-content-button-cancel = Cancelar
