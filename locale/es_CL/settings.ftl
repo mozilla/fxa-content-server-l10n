@@ -911,6 +911,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizando datos de { -brand-firefox }
 delete-account-product-firefox-addons = Complementos de { -brand-firefox }
 delete-account-acknowledge = Por favor, ten en cuenta que al eliminar tu cuenta:
+delete-account-chk-box-1-v4 =
+    .label = Toda suscripción de paga que tengas será cancelada
 delete-account-chk-box-2 =
     .label = Podrías perder tu información guardada y otras funcionalidades dentro de los productos de { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -1869,6 +1871,11 @@ signin-totp-code-header = Conectarse
 signin-totp-code-subheader-v2 = Ingresar código de autenticación en dos pasos
 signin-totp-code-instruction-v4 = Verifica tu <strong>aplicación de autenticación</strong> para confirmar tu conexión.
 signin-totp-code-input-label-v4 = Ingresa el código de 6 dígitos
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = ¿Por qué se te pide que te autentiques?
+signin-totp-code-aal-banner-content = Has configurado la autenticación en dos pasos en tu cuenta, pero aún no te has conectado con un código en este dispositivo.
+signin-totp-code-aal-sign-out = Salir en este dispositivo
+signin-totp-code-aal-sign-out-error = Lo sentimos, hubo un problema al cerrar tu sesión
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirmar
 signin-totp-code-other-account-link = Usar una cuenta diferente
