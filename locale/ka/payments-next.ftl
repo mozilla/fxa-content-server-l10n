@@ -100,22 +100,48 @@ next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლ
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = გადახდის არასწორი მონაცემები
+subscription-management-page-paypal-error-banner-message-account-error = თქვენს ანგარიშს რაღაც შეცდომა ახლავს.
+subscription-management-button-manage-payment-method-1 = გადახდის საშუალების მართვა
+subscription-management-page-banner-warning-title-no-payment-method = გადახდის საშუალების არაა დამატებული
+subscription-management-page-banner-warning-link-no-payment-method = გადახდის საშუალების დამატება
 subscription-management-subscriptions-heading = გამოწერები
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = გადასვლა:
+subscription-management-nav-payment-details = გადახდის მონაცემები
+subscription-management-nav-active-subscriptions = მოქმედი გამოწერები
+subscription-management-payment-details-heading = გადახდის მონაცემები
+subscription-management-email-label = ელფოსტა
+subscription-management-credit-balance-label = საკრედიტო ნაშთი
+subscription-management-credit-balance-message = დანარიცხი თავისთავად იქნება გამოყენებული მომდევნო გადახდებისას
+subscription-management-payment-method-label = გადახდის საშუალება
 subscription-management-button-add-payment-method-aria = გადახდის საშუალების დამატება
 subscription-management-button-add-payment-method = დამატება
+subscription-management-page-warning-message-no-payment-method = გთხოვთ, დაამატოთ გადახდის საშუალება თქვენი გამოწერების შეფერხების ასარიდებლად.
 subscription-management-button-manage-payment-method-aria = გადახდის საშუალების მართვა
 subscription-management-button-manage-payment-method = მართვა
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = ბარათი დაბოლოებით { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = მოქმედების ვადა { $expirationDate }
+subscription-management-error-paypal-billing-agreement = ხარვეზი აქვს თქვენს { -brand-paypal }-ანგარიშს. გთხოვთ, მოაგვაროთ ეს საკითხი მოქმედი გამოწერების შესანარჩუნებლად.
+subscription-management-active-subscriptions-heading = მოქმედი გამოწერები
+subscription-management-you-have-no-active-subscriptions = თქვენ არ გაქვთ მოქმედი გამოწერები
+subscription-management-new-subs-will-appear-here = ახალი გამოწერები გამოჩნდება აქ.
+subscription-management-your-active-subscriptions-aria = მოქმედი გამოწერები
 subscription-management-button-support = დახმარების მიღება
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = დახმარების მიღება – { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = თქვენი { -brand-apple } შიდა გამოწერებით
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } აპის შიდა შესყიდვით
 subscription-management-your-google-iap-subscriptions-aria = თქვენი { -brand-google } შიდა გამოწერებით
+subscription-management-google-in-app-purchase-2 = { -brand-google } აპის შიდა შესყიდვით
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = ვადის გასვლის თარიღი { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = გამოწერის მართვა – { $productName }
+subscription-management-button-manage-subscription-1 = გამოწერის მართვა
+manage-payment-methods-heading = გადახდის საშუალებების მართვა
 paypal-payment-management-page-invalid-header = ანგარიშსწორების უმართებულო მონაცემები
 paypal-payment-management-page-invalid-description = როგორც ჩანს, თქვენს { -brand-paypal }-ანგარიშთან დაკავშირებით წარმოიშვა შეცდომა. ამ საკითხის მოსაგვარებლად სათანადო ზომების მიღება დაგვჭირდება.
 # Page - Not Found
@@ -266,8 +292,20 @@ subscription-content-coupon-will-be-applied = { $promotionName } ფასდა
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
 subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
 subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = ბოლო ანგარიშსწორება • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } გადასახადი
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = იხილეთ ზედნადები
+subscription-management-link-view-invoice-aria = იხილეთ ზედნადები – { $productName }
+subscription-content-expires-on-expiry-date = ვადის გასვლის თარიღი { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = მომდევნო ანგარიშსწორება • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } გადასახადი
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = შეინარჩუნეთ გამოწერა
     .aria-label = შეინარჩუნეთ გამოწერილი { $productName }
+subscription-content-button-cancel-subscription-1 = გამოწერის გაუქმება
 subscription-content-button-cancel-subscription = გააუქმეთ გამოწერა
     .aria-label = გააუქმეთ თქვენ მიერ გამოწერილი { $productName }
 subscription-content-button-cancel = გაუქმება
