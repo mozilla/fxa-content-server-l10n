@@ -915,6 +915,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = სინქრონდება { -brand-firefox }-მონაცემები
 delete-account-product-firefox-addons = { -brand-firefox } დამატებები
 delete-account-acknowledge = გთხოვთ, გაითვალისწინოთ, რომ თქვენი ანგარიშის წაშლით:
+delete-account-chk-box-1-v4 =
+    .label = თქვენი ყველა ფასიანი გამოწერა გაუქმდება
 delete-account-chk-box-2 =
     .label = შეიძლება დაკარგოთ შენახული ინფორმაცია და შესაძლებლობები { -brand-mozilla }-ს პროდუქტების
 delete-account-chk-box-3 =
@@ -1873,6 +1875,11 @@ signin-totp-code-header = შესვლა
 signin-totp-code-subheader-v2 = ორბიჯიანი დამოწმების კოდის შეიყვანა
 signin-totp-code-instruction-v4 = გამოიყენეთ <strong>დამმოწმებელი პროგრამა</strong> შესვლის დასამოწმებლად.
 signin-totp-code-input-label-v4 = შეიყვანეთ 6-ნიშნა კოდი
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = რატომ მოგეთხოვათ დამოწმება?
+signin-totp-code-aal-banner-content = ორსაფეხურიანი დამოწმება გაქვთ გამართული ანგარიშზე, მაგრამ ამ მოწყობილობიდან კოდით ჯერ არ შესულხართ.
+signin-totp-code-aal-sign-out = გამოსვლა ამ მოწყობილობაზე
+signin-totp-code-aal-sign-out-error = სამწუხაროდ, ხარვეზი წარმოიშვა გამოსვლისას
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = დასტური
 signin-totp-code-other-account-link = სხვა ანგარიშის გამოყენება
