@@ -97,20 +97,20 @@ next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Gwybodaeth talu annilys
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Manylion talu annilys
 subscription-management-page-paypal-error-banner-message-account-error = Mae gwall gyda'ch cyfrif.
 subscription-management-button-manage-payment-method-1 = Rheoli dull talu
 subscription-management-page-banner-warning-title-no-payment-method = Dim dull talu wedi'i ychwanegu
 subscription-management-page-banner-warning-link-no-payment-method = Ychwanegu dull talu
 subscription-management-subscriptions-heading = Tanysgrifiadau
 # Heading for mobile only quick links menu
-subscription-management-jump-to-heading = Neidio i
+subscription-management-jump-to-heading = Symud i
 subscription-management-nav-payment-details = Manylion talu
 subscription-management-nav-active-subscriptions = Tanysgrifiadau gweithredol
 subscription-management-payment-details-heading = Manylion talu
 subscription-management-email-label = E-bost
 subscription-management-credit-balance-label = Balans credyd
-subscription-management-credit-balance-message = Bydd credyd yn cael ei gymhwyso'n awtomatig i anfonebau yn y dyfodol
+subscription-management-credit-balance-message = Bydd credyd yn cael ei osod yn awtomatig i anfonebau yn y dyfodol
 subscription-management-payment-method-label = Dull talu
 subscription-management-button-add-payment-method-aria = Ychwanegu dull talu
 subscription-management-button-add-payment-method = Ychwanegu
