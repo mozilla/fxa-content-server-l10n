@@ -486,7 +486,7 @@ connect-another-app-store-image-3 =
 
 cs-heading = שירותים מחוברים
 cs-description = כל מה שמשמש אותך והתחברת אליו.
-cs-cannot-refresh = הייתה בעיה ברענון רשימת השירותים המחוברים, עמך הסליחה.
+cs-cannot-refresh = הייתה בעיה בריענון רשימת השירותים המחוברים, עמך הסליחה.
 cs-cannot-disconnect = הלקוח לא נמצא, לא ניתן להתנתק
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -494,7 +494,7 @@ cs-cannot-disconnect = הלקוח לא נמצא, לא ניתן להתנתק
 #                       (for example: "Firefox Lockwise")
 cs-logged-out-2 = נותקת מ־{ $service }
 cs-refresh-button =
-    .title = רענון שירותים מחוברים
+    .title = ריענון שירותים מחוברים
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = פריטים חסרים או כפולים?
 cs-disconnect-sync-heading = ניתוק מ־Sync
@@ -1112,7 +1112,7 @@ rk-action-change-button = שינוי
 rk-action-remove = הסרה
 rk-key-removed-2 = מפתח לשחזור החשבון הוסר
 rk-cannot-remove-key = לא ניתן היה להסיר את מפתח שחזור החשבון שלך.
-rk-refresh-key-1 = רענון מפתח שחזור חשבון
+rk-refresh-key-1 = ריענון מפתח שחזור חשבון
 rk-content-explain = שחזור המידע שלך כאשר הססמה שלך נשכחה.
 rk-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 rk-remove-modal-heading-1 = להסיר את מפתח שחזור החשבון?
@@ -1125,7 +1125,7 @@ unit-row-recovery-key-delete-icon-button-title = מחיקת מפתח שחזור 
 
 se-heading = כתובת דוא״ל משנית
     .header = כתובת דוא״ל משנית
-se-cannot-refresh-email = אירעה שגיאה ברענון דוא״ל זה, עמך הסליחה.
+se-cannot-refresh-email = אירעה שגיאה בריענון דוא״ל זה, עמך הסליחה.
 se-cannot-resend-code-3 = הייתה בעיה בשליחת קוד האימות מחדש, עמך הסליחה
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -1144,7 +1144,7 @@ se-remove-email =
     .title = הסרת דוא״ל
 # Button to refresh secondary email status
 se-refresh-email =
-    .title = רענון דוא״ל
+    .title = ריענון דוא״ל
 se-unverified-2 = לא מאומת
 se-resend-code-2 = נדרש אימות. ניתן <button>לשלוח מחדש את קוד האימות</button> אם הוא לא נמצא בתיבת הדואר הנכנס או בתיקיית הספאם שלך.
 # Button to make secondary email the primary
@@ -1163,8 +1163,8 @@ tfa-row-action-add = הוספה
 tfa-row-action-disable = השבתה
 tfa-row-action-change = שינוי
 tfa-row-button-refresh =
-    .title = רענון אימות דו־שלבי
-tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
+    .title = ריענון אימות דו־שלבי
+tfa-row-cannot-refresh = אירעה שגיאה בריענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-enabled-description = החשבון שלך מוגן על־ידי אימות דו־שלבי. יהיה עליך להכניס קוד גישה חד פעמי מהיישומון המאמת שלך בעת הכניסה ל{ -product-mozilla-account(case: "the") } שלך.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
