@@ -92,45 +92,19 @@ next-payment-confirmation-download-button = Continuar para descargar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
-## Layout - Subscription Management
-
-subscription-management-account-profile-picture = Foto de perfil de la cuenta
-
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-message = El crédito se aplicará automáticamente a futuras facturas.
-subscription-management-payment-information-heading = Información de pago
+subscription-management-subscriptions-heading = Suscripciones
 subscription-management-button-add-payment-method-aria = Añadir un método de pago
 subscription-management-button-add-payment-method = Añadir
-subscription-management-button-change-payment-method-aria = Cambiar método de pago
-subscription-management-button-change-payment-method = Cambiar
 subscription-management-button-manage-payment-method-aria = Administrar métodos de pago
 subscription-management-button-manage-payment-method = Administrar
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Tarjeta que termina en { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Caduca { $expirationDate }
-subscription-management-subscriptions-heading = Suscripciones
-subscription-management-your-subscriptions-aria = Tus suscripciones
-subscription-management-no-subscriptions = Todavía no tienes ninguna suscripción.
 subscription-management-button-support = Obtener ayuda
 subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-apple }
-subscription-management-google-in-app-purchase-1 = { -brand-google }: compras en la app
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = La próxima factura vence el <strong>{ $date }</strong>
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-will-expire-on = Su suscripción expirará el <strong>{ $date }</strong>
-subscription-management-button-manage-subscription = Administrar
-
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-subscription-management-page-subscription-interval-daily = { $productName } (diario)
-subscription-management-page-subscription-interval-weekly = { $productName } (semanal)
-subscription-management-page-subscription-interval-monthly = { $productName } (mensual)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6 meses)
-subscription-management-page-subscription-interval-yearly = { $productName } (anual)
-subscription-management-page-paypal-error-banner-link = Administrar
 # Page - Not Found
 page-not-found-title = Página no encontrada
 page-not-found-description = No se ha encontrado la página solicitada. Hemos sido notificados y arreglaremos cualquier enlace que pueda estar roto.
@@ -258,8 +232,6 @@ next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> de crédito emitido a tu cuenta
-subscription-content-coupon-applied = { $promotionName } aplicado
 subscription-content-coupon-will-be-applied = Se aplicará el descuento de { $promotionName }
 subscription-content-button-cancel-subscription = Cancelar suscripción
     .aria-label = Cancelar suscripción a { $productName }
