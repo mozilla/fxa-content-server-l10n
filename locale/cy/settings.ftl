@@ -1897,8 +1897,8 @@ signin-totp-code-subheader-v2 = Rhowch god dilysu dau gam
 signin-totp-code-instruction-v4 = Gwiriwch eich <strong>ap dilysu</strong> i gadarnhau eich mewngofnodi.
 signin-totp-code-input-label-v4 = Rhowch y cod 6 digid
 # Shown to users when they need to re-enter their authentication code, for their current device
-signin-totp-code-aal-banner-header = Pam y gofynnir i chi ddilysu?
-signin-totp-code-aal-banner-content = Rydych chi wedi sefydlu dilysiad dau gam ar eich cyfrif, ond nid ydych wedi mewngofnodi gyda chod ar y ddyfais hon eto.
+signin-totp-code-aal-banner-header = Pam mae angen i chi ddilysu?
+signin-totp-code-aal-banner-content = Rydych chi wedi gosod dilysiad dau gam ar eich cyfrif, ond heb fewngofnodi gyda chod ar y ddyfais hon eto.
 signin-totp-code-aal-sign-out = Allgofnodwch ar y ddyfais hon
 signin-totp-code-aal-sign-out-error = Ymddiheuriadau, bu anhawster wrth i chi allgofnodi.
 # Form button to confirm if the authentication code entered by the user is valid
