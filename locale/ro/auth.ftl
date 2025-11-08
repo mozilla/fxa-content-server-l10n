@@ -820,7 +820,7 @@ verificationReminderSecond-second-description-3 = Contul { -product-mozilla-acco
 verificationReminderSecond-sub-description-2 = Alătură-te misiunii noastre de a transforma internetul într-un loc deschis tuturor.
 verificationReminderSecond-action-2 = Confirmă contul
 verify-title-3 = Intră pe internet cu { -brand-mozilla }
-verify-description-2 = Confirmă-ți contul și obține maximul de la { -brand-mozilla } oriunde te autentifici, începând cu:
+verify-description-2 = Confirmă-ți contul și folosește la maxim { -brand-mozilla } oriunde te autentifici, începând cu:
 verify-subject = Finalizează crearea contului
 verify-action-2 = Confirmă contul
 # Variables:
@@ -886,6 +886,6 @@ verifyShortCode-subject-4 = Folosește { $code } pentru confirmarea contului
 verifyShortCode-preview-2 = Codul expiră în 5 minute.
 verifyShortCode-title-3 = Intră pe internet cu { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = Confirmă-ți contul și obține maximul de la { -brand-mozilla } oriunde te autentifici, începând cu:
+verifyShortCode-title-subtext-2 = Confirmă-ți contul și folosește la maxim { -brand-mozilla } oriunde te autentifici, începând cu:
 verifyShortCode-prompt-3 = Folosește acest cod de confirmare:
 verifyShortCode-expiry-notice = Expiră în 5 minute.

@@ -206,7 +206,7 @@ msgstr "Descărcat"
 
 #: .es5/views/mixins/save-options-mixin.js:80
 msgid "Printed"
-msgstr "Tipărit"
+msgstr "Printat"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -1221,7 +1221,7 @@ msgstr "Copiază"
 
 #: .es5/templates/inline_recovery_setup.mustache:7
 msgid "Print"
-msgstr "Tipărește"
+msgstr "Printează"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:17
