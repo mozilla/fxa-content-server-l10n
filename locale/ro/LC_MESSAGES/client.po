@@ -1628,19 +1628,19 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Retrimite fila"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
-msgstr ""
+msgstr "Nu ajunge fila? Trimite un mesaj pe e-mail în schimb"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Te rugăm să creezi o parolă pentru a continua cu Firefox Sync. Datele tale sunt criptate cu parola pentru a-ți proteja confidențialitatea."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Creează parola"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1660,11 +1660,11 @@ msgstr "Poate mai târziu"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Introdu codul de verificare"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Te rugăm să introduci, în termen de 5 minute, codul de confirmare trimis către %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1686,6 +1686,8 @@ msgstr "pentru a continua pe %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Am detectat un comportament suspect în contul tău Mozilla. Pentru a-ți proteja contul, te rugăm să creezi o parolă nouă. O vei folosi pentru a te conecta din nou la toate serviciile contului tău "
+"Mozilla."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1725,19 +1727,19 @@ msgstr "Abonează %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Linkul pe care ai dat clic avea caractere lipsă și este posibil să fi fost defect al clientului tău de e-mail."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Creează un cont Mozilla"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
-msgstr ""
+msgstr "Continuă spre %(productName)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
 msgid "Enter a password"
-msgstr ""
+msgstr "Introdu o parolă"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
 msgid "Confirm password"
