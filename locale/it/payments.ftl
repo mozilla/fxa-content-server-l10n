@@ -347,7 +347,7 @@ plan-price-interval-year =
 
 # App error dialog
 general-error-heading = Errore generale dell’applicazione
-basic-error-message = Qualcosa è andato storto. Riprovare più tardi.
+basic-error-message = Si è verificato un problema. Riprova più tardi.
 payment-error-1 = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Riprova o contatta l’emittente della carta.
 payment-error-2 = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Contatta l’emittente della carta.
 payment-error-3b = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
