@@ -296,7 +296,7 @@ subscription-content-last-bill = Utolsó számla • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } adó
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Számla megtekintése
-subscription-management-link-view-invoice-aria = { $productName } összegű számla megtekintése
+subscription-management-link-view-invoice-aria = { $productName } számla megtekintése
 subscription-content-expires-on-expiry-date = Lejár: { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Következő számla • { $billedOnDate }

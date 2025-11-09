@@ -1878,7 +1878,7 @@ signin-totp-code-subheader-v2 = Adja meg a kétlépcsős hitelesítési kódot
 signin-totp-code-instruction-v4 = Ellenőrizze a <strong>hitelesítő alkalmazását</strong>, hogy megerősítse bejelentkezését.
 signin-totp-code-input-label-v4 = Adja meg a 6 számjegyű kódot
 # Shown to users when they need to re-enter their authentication code, for their current device
-signin-totp-code-aal-banner-header = Miért kérik, hogy hitelesítsen?
+signin-totp-code-aal-banner-header = Miért kérjük, hogy hitelesítsen?
 signin-totp-code-aal-banner-content = Beállította a kétlépcsős hitelesítést a fiókjában, de még nem jelentkezett be kóddal ezen az eszközön.
 signin-totp-code-aal-sign-out = Jelentkezzen ki ezen az eszközön
 signin-totp-code-aal-sign-out-error = Sajnos probléma merült fel a kijelentkezésekor
