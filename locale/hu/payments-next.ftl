@@ -112,11 +112,11 @@ subscription-management-nav-active-subscriptions = Aktív előfizetések
 subscription-management-payment-details-heading = Fizetési részletek
 subscription-management-email-label = E-mail
 subscription-management-credit-balance-label = Egyenleg
-subscription-management-credit-balance-message = A jóváírás automatikusan a jövőbeli számlákon lesz
+subscription-management-credit-balance-message = A jóváírás automatikusan a jövőbeli számlákra lesz alkalmazva
 subscription-management-payment-method-label = Fizetési mód
 subscription-management-button-add-payment-method-aria = Fizetési mód hozzáadása
 subscription-management-button-add-payment-method = Hozzáadás
-subscription-management-page-warning-message-no-payment-method = Adjon meg egy fizetési módot, hogy elkerülje az előfizetések megszakításait.
+subscription-management-page-warning-message-no-payment-method = Adjon meg egy fizetési módot, hogy elkerülje az előfizetések megszakadásait.
 subscription-management-button-manage-payment-method-aria = Fizetési mód kezelése
 subscription-management-button-manage-payment-method = Kezelés
 # $last4 (String) - Last four numbers of credit card
