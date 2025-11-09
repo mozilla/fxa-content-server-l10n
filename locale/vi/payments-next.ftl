@@ -97,22 +97,48 @@ next-payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Thông tin thanh toán không hợp lệ
+subscription-management-page-paypal-error-banner-message-account-error = Có lỗi với tài khoản của bạn.
+subscription-management-button-manage-payment-method-1 = Quản lý phương thức thanh toán
+subscription-management-page-banner-warning-title-no-payment-method = Không có phương thức thanh toán nào được thêm
+subscription-management-page-banner-warning-link-no-payment-method = Thêm phương thức thanh toán
 subscription-management-subscriptions-heading = Gói đăng ký
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Đi đến
+subscription-management-nav-payment-details = Chi tiết thanh toán
+subscription-management-nav-active-subscriptions = Gói đăng ký đang hoạt động
+subscription-management-payment-details-heading = Chi tiết thanh toán
+subscription-management-email-label = Email
+subscription-management-credit-balance-label = Số dư tín dụng
+subscription-management-credit-balance-message = Tín dụng sẽ tự động được áp dụng cho các hóa đơn trong tương lai
+subscription-management-payment-method-label = Phương thức thanh toán
 subscription-management-button-add-payment-method-aria = Thêm phương thức thanh toán
 subscription-management-button-add-payment-method = Thêm
+subscription-management-page-warning-message-no-payment-method = Vui lòng thêm phương thức thanh toán để tránh gián đoạn gói đăng ký của bạn.
 subscription-management-button-manage-payment-method-aria = Quản lý phương thức thanh toán
 subscription-management-button-manage-payment-method = Quản lý
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Thẻ kết thúc bằng { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Hết hạn vào { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Có sự cố với tài khoản { -brand-paypal } của bạn. Vui lòng giải quyết sự cố để duy trì gói đăng ký đang hoạt động của bạn.
+subscription-management-active-subscriptions-heading = Gói đăng ký đang hoạt động
+subscription-management-you-have-no-active-subscriptions = Bạn không có gói đăng ký nào đang hoạt động
+subscription-management-new-subs-will-appear-here = Các gói đăng ký mới sẽ xuất hiện ở đây.
+subscription-management-your-active-subscriptions-aria = Gói đăng ký đang hoạt động của bạn
 subscription-management-button-support = Nhận trợ giúp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Nhận trợ giúp cho { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-apple } của bạn
+subscription-management-apple-in-app-purchase-2 = Mua hàng trong ứng dụng với { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-google } của bạn
+subscription-management-google-in-app-purchase-2 = Mua hàng trong ứng dụng với { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Hết hạn vào { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Quản lý gói đăng ký cho { $productName }
+subscription-management-button-manage-subscription-1 = Quản lí gói đăng ký
+manage-payment-methods-heading = Quản lý phương thức thanh toán
 paypal-payment-management-page-invalid-header = Thông tin thanh toán không hợp lệ
 paypal-payment-management-page-invalid-description = Có vẻ như đã xảy ra lỗi với tài khoản { -brand-paypal } của bạn, chúng tôi cần bạn thực hiện các bước cần thiết để giải quyết vấn đề thanh toán này.
 # Page - Not Found
@@ -263,8 +289,20 @@ subscription-content-coupon-will-be-applied = Giảm giá { $promotionName } s�
 subscription-content-heading-cancel-subscription = Hủy đăng ký
 subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.
 subscription-content-cancel-access-message = Hủy quyền truy cập và thông tin đã lưu của tôi trong { $productName } vào { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Hoá đơn gần đây nhất • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } thuế
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Xem hoá đơn
+subscription-management-link-view-invoice-aria = Xem hoá đơn cho { $productName }
+subscription-content-expires-on-expiry-date = Hết hạn vào { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Hoá đơn tiếp theo • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } thuế
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Giữ gói đăng ký
     .aria-label = Giữ gói đăng ký { $productName }
+subscription-content-button-cancel-subscription-1 = Hủy đăng ký
 subscription-content-button-cancel-subscription = Huỷ gói đăng ký
     .aria-label = Huỷ gói đăng ký { $productName } của bạn
 subscription-content-button-cancel = Huỷ gói

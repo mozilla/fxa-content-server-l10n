@@ -893,6 +893,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Đang đồng bộ hóa dữ liệu { -brand-firefox }
 delete-account-product-firefox-addons = Tiện ích { -brand-firefox }
 delete-account-acknowledge = Vui lòng xác nhận nếu bạn thực sự muốn xóa tài khoản của mình:
+delete-account-chk-box-1-v4 =
+    .label = Mọi gói đăng ký trả phí bạn có sẽ bị hủy
 delete-account-chk-box-2 =
     .label = Bạn có thể sẽ mất thông tin và tính năng đã lưu trong các sản phẩm của { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -1839,6 +1841,11 @@ signin-totp-code-header = Đăng nhập
 signin-totp-code-subheader-v2 = Nhập mã xác thực hai bước
 signin-totp-code-instruction-v4 = Kiểm tra <strong>ứng dụng xác thực</strong> của bạn để xác nhận thông tin đăng nhập của bạn.
 signin-totp-code-input-label-v4 = Nhập mã gồm 6 chữ số
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Tại sao bạn được yêu cầu thực?
+signin-totp-code-aal-banner-content = Bạn đã thiết lập xác thực hai bước trên tài khoản của mình nhưng vẫn chưa đăng nhập bằng mã trên thiết bị này.
+signin-totp-code-aal-sign-out = Đăng xuất trên thiết bị này
+signin-totp-code-aal-sign-out-error = Xin lỗi, đã xảy ra sự cố khi đăng xuất cho bạn
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Xác nhận
 signin-totp-code-other-account-link = Sử dụng một tài khoản khác
