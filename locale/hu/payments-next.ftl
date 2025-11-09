@@ -132,9 +132,9 @@ subscription-management-button-support = Segítség kérése
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Segítség ehhez: { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } alkalmazásbeli előfizetései
-subscription-management-apple-in-app-purchase-2 = { -brand-apple } értékű alkalmazásbeli vásárlás
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } alkalmazáson belüli vásárlás
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } alkalmazásbeli előfizetései
-subscription-management-google-in-app-purchase-2 = { -brand-google } értékű alkalmazásbeli vásárlás
+subscription-management-google-in-app-purchase-2 = { -brand-google } alkalmazáson belüli vásárlás
 # $date (String) - Date of next bill
 subscription-management-iap-sub-expires-on-expiry-date = Lejár: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
