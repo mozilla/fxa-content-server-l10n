@@ -836,7 +836,7 @@ page-2fa-setup-title = Tostegs-autentisering
 page-2fa-setup-totpinfo-error = Det oppstod ein feil under oppsett av tostegs-autentisering. Prøv på nytt seinare.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Den koden er ikkje rett. Prøv på nytt.
-page-2fa-setup-success = Tostegs-autentisering er slått på
+page-2fa-setup-success = Tostegs-autentisering er aktivert
 page-2fa-setup-success-additional-message = For å verne alle tilkopla einingar bør du logge ut overalt der du brukar denne kontoen, og deretter logge inn igjen med tostegs-autentisering.
 
 ## Avatar change page
