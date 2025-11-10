@@ -551,7 +551,7 @@ postRemoveSecondary-title = Sekundær e-postadesse fjerna
 postRemoveSecondary-description-2 = Du har sletta { $secondaryEmail } som ei sekundær e-postadresse frå { -product-mozilla-account }en din. Tryggingsmeldingar og innloggingsstadfestingar vil ikkje lenger bli leverte til denne adressa.
 postRemoveSecondary-action = Handsam kontoen
 postRemoveTwoStepAuthentication-subject-line-2 = Tostegs-autentisering er slått av
-postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-autentisering
+postRemoveTwoStepAuthentication-title-2 = Du har slått av tostegs-autentisering
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Du har slått det av frå:
 postRemoveTwoStepAuthentication-action = Handsam kontoen
