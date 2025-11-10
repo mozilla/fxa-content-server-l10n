@@ -721,7 +721,7 @@ verificationReminderSecond-second-description-3 = { -product-mozilla-account } u
 verificationReminderSecond-sub-description-2 = Bądź częścią naszej misji przekształcania Internetu w miejsce otwarte dla wszystkich.
 verificationReminderSecond-action-2 = Potwierdź konto
 verify-title-3 = Uczyń Internet bardziej otwartym z { -brand-mozilla(case: "ins") }
-verify-description-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozilla(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
+verify-description-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozilla(case: "acc") } wszędzie, gdzie się zalogujesz, zaczynając od:
 verify-subject = Dokończ tworzenie konta
 verify-action-2 = Potwierdź konto
 # Variables:
@@ -771,6 +771,6 @@ verifySecondaryCode-expiry-notice-2 = Wygasa za 5 minut. Po potwierdzeniu ten a
 verifyShortCode-preview-2 = Ten kod wygaśnie za 5 minut
 verifyShortCode-title-3 = Uczyń Internet bardziej otwartym z { -brand-mozilla(case: "ins") }
 # Information on the browser and device triggering this confirmation email follows below this string.
-verifyShortCode-title-subtext-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozilla(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
+verifyShortCode-title-subtext-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozilla(case: "acc") } wszędzie, gdzie się zalogujesz, zaczynając od:
 verifyShortCode-prompt-3 = Użyj tego kodu potwierdzenia:
 verifyShortCode-expiry-notice = Wygasa za 5 minut.
