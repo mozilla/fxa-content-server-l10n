@@ -1,5 +1,8 @@
 ## Page
 
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ці
+continue-signin-with-apple-button = Працягнуць з { -brand-apple }
 next-payment-method-header = Выберыце спосаб аплаты
 next-payment-method-first-approve = Спачатку вам трэба будзе зацвердзіць вашу падпіску
 
@@ -13,6 +16,7 @@ checkout-error-boundary-retry-button = Паспрабаваць зноў
 next-payment-error-manage-subscription-button = Кіраваць маёй падпіскай
 next-payment-error-retry-button = Паспрабаваць зноў
 next-basic-error-message = Нешта пайшло не так. Калі ласка, паспрабуйце зноў пазней.
+checkout-error-contact-support-button = Звязацца з падтрымкай
 
 ## Error pages - Payment method failure messages
 
