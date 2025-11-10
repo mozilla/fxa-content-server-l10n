@@ -1616,7 +1616,7 @@ msgstr "Confirmă autentificarea"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Dacă suspectezi că cineva încearcă să obțină acces la contul tău, <a id=\"change-password\" href=\"/settings/change_password\">te rugăm să îți schimbi parola.</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
