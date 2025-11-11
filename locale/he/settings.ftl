@@ -1298,7 +1298,7 @@ cookies-disabled-learn-more = מידע נוסף
 index-header = נא להכניס את כתובת הדוא״ל שלך
 index-sync-header = המשך אל { -product-mozilla-account(case: "the") } שלך
 index-sync-subheader = סנכרון הססמאות, הלשוניות פתוחות והסימניות שלך בכל מקום בו יש לך את { -brand-firefox }.
-index-relay-header = יצירת מסיכת דוא״ל
+index-relay-header = יצירת מסכת דוא״ל
 index-relay-subheader = נא לספק את כתובת הדוא״ל שאליה ברצונך להעביר הודעות דוא״ל מהדוא״ל המסוכה שלך.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = המשך אל { $serviceName }
@@ -1517,7 +1517,7 @@ reset-password-complete-banner-message = מומלץ ליצור מפתח שחזו
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-complete-reset-password-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
+complete-reset-password-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
 
 # ConfirmBackupCodeResetPassword page
 
@@ -1640,7 +1640,7 @@ signin-password-button-label = ססמה
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
+signin-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
 signin-code-expired-error = פג תוקף הקוד. נא להתחבר שוב.
 signin-account-locked-banner-heading = איפוס הססמה שלך
 signin-account-locked-banner-description = נעלנו את החשבון שלך כדי להגן עליו מפני פעילות חשודה.
@@ -1775,7 +1775,7 @@ signin-token-code-resend-error = משהו השתבש. לא ניתן היה לש�
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-token-code-instruction-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
+signin-token-code-instruction-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1799,7 +1799,7 @@ signin-totp-code-required-error = נדרש קוד אימות
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-totp-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
+signin-totp-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1818,7 +1818,7 @@ signin-unblock-support-link = מדוע זה קורה?
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-unblock-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
+signin-unblock-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1847,7 +1847,7 @@ confirm-signup-code-is-required-error = נדרש קוד אימות
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-confirm-signup-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
+confirm-signup-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email

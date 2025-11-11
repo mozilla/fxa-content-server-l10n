@@ -1155,7 +1155,7 @@ msgstr "המשך אל <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</di
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr "יצירת מסיכת דוא״ל"
+msgstr "יצירת מסכת דוא״ל"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
