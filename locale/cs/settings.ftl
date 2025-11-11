@@ -733,7 +733,7 @@ flow-setup-phone-verify-number-instruction = { -brand-mozilla } vám zašle text
 flow-setup-phone-submit-number-info-message-v2 = Telefon pro obnovení je k dispozici pouze ve Spojených státech a Kanadě. VoIP čísla a telefonní masky se nedoporučují.
 flow-setup-phone-submit-number-legal = Poskytnutím vašeho telefonního čísla souhlasíte s jeho uložením, abychom vám mohli posílat textové zprávy pouze pro ověření účtu. Mohou být účtovány poplatky za zprávy a data.
 # cliking on the button sends a code by text message to the phone number typed in by the user
-flow-setup-phone-submit-number-button = Odeslat kód
+flow-setup-phone-submit-number-button = Zaslat kód
 
 ## HeaderLockup component, the header in account settings
 
