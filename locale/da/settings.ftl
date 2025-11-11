@@ -1871,6 +1871,10 @@ signin-totp-code-header = Log ind
 signin-totp-code-subheader-v2 = Indtast kode til totrinsgodkendelse
 signin-totp-code-instruction-v4 = Tjek din <strong>godkendelsesapp</strong> for at bekræfte dit login.
 signin-totp-code-input-label-v4 = Indtast sekscifret kode
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Hvorfor bliver du bedt om at godkende?
+signin-totp-code-aal-banner-content = Du har opsat totrinsgodkendelse på din konto, men har ikke logget ind med en kode på denne enhed endnu.
+signin-totp-code-aal-sign-out = Log ud på denne enhed
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekræft
 signin-totp-code-other-account-link = Brug en anden konto

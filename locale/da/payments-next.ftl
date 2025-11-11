@@ -97,22 +97,48 @@ next-payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Ugyldig betalingsinformation
+subscription-management-page-paypal-error-banner-message-account-error = Der er en fejl med din konto.
+subscription-management-button-manage-payment-method-1 = Håndter betalingsmetode
+subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmetode tilføjet
+subscription-management-page-banner-warning-link-no-payment-method = Tilføj en betalingsmetode
 subscription-management-subscriptions-heading = Abonnementer
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Hop til
+subscription-management-nav-payment-details = Betalingsdetaljer
+subscription-management-nav-active-subscriptions = Aktive abonnementer
+subscription-management-payment-details-heading = Betalingsdetaljer
+subscription-management-email-label = Mailadresse
+subscription-management-credit-balance-label = Tilgodehavende
+subscription-management-credit-balance-message = Tilgodehavende vil automatisk blive brugt til fremtidige fakturaer
+subscription-management-payment-method-label = Betalingsmetode
 subscription-management-button-add-payment-method-aria = Tilføj betalingsmetode
 subscription-management-button-add-payment-method = Tilføj
+subscription-management-page-warning-message-no-payment-method = Tilføj en betalingsmetode for at undgå afbrydelser i dine abonnementer.
 subscription-management-button-manage-payment-method-aria = Håndter betalingsmetode
 subscription-management-button-manage-payment-method = Håndter
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kort, der ender på { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Udløber { $expirationDate }
+subscription-management-error-paypal-billing-agreement = Der er et problem med din { -brand-paypal }-konto. Løs problemet for at beholde dine aktive abonnementer.
+subscription-management-active-subscriptions-heading = Aktive abonnementer
+subscription-management-you-have-no-active-subscriptions = Du har ingen aktive abonnementer
+subscription-management-new-subs-will-appear-here = Nye abonnementer vil blive vist her.
+subscription-management-your-active-subscriptions-aria = Dine aktive abonnementer
 subscription-management-button-support = Få hjælp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjælp til { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple }-abonnementer købt i appen
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } køb i appen
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google }-abonnementer købt i appen
+subscription-management-google-in-app-purchase-2 = { -brand-google } køb i appen
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Udløber den { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Håndter abonnement på { $productName }
+subscription-management-button-manage-subscription-1 = Håndter abonnement
+manage-payment-methods-heading = Håndter betalingsmetoder
 paypal-payment-management-page-invalid-header = Ugyldige faktureringsoplysninger
 paypal-payment-management-page-invalid-description = Der ser ud til at være en fejl med din { -brand-paypal }-konto. Du skal udføre de nødvendige ændringer for at løse problemet.
 # Page - Not Found
@@ -263,8 +289,20 @@ subscription-content-coupon-will-be-applied = Rabatten { $promotionName } vil bl
 subscription-content-heading-cancel-subscription = Annuller abonnement
 subscription-content-no-longer-use-message = Du vil ikke længere kunne bruge { $productName } efter { $currentPeriodEnd }, der er den sidste dag i din faktureringsperiode.
 subscription-content-cancel-access-message = Annuller min adgang og kassér mine informationer gemt i { $productName } den { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Seneste regning • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } afgift
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Se faktura
+subscription-management-link-view-invoice-aria = Se faktura for { $productName }
+subscription-content-expires-on-expiry-date = Udløber den { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Næste regning • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } afgift
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Behold abonnement
     .aria-label = Behold  abonnement på { $productName }
+subscription-content-button-cancel-subscription-1 = Annuller abonnement
 subscription-content-button-cancel-subscription = Annuller abonnement
     .aria-label = Annuller abonnement på { $productName }
 subscription-content-button-cancel = Annuller
