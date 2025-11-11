@@ -1247,7 +1247,7 @@ auth-error-1054 = קוד אימות דו־שלבי לא תקין
 auth-error-1062 = הפניה לא חוקית
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
 auth-error-1064 = האם כתובת הדוא״ל הוקלדה בצורה שגויה? { $domain } אינו שירות דוא״ל חוקי
-auth-error-1066 = לא ניתן להשתמש במסיכות דוא״ל ליצירת חשבון.
+auth-error-1066 = לא ניתן להשתמש במסכות דוא״ל ליצירת חשבון.
 auth-error-1067 = טעות בהקלדת כתובת הדוא״ל?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
