@@ -401,8 +401,8 @@ lowRecoveryCodes-subject-2 =
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-newDeviceLogin-subject = Nyt login til { $clientName }
-newDeviceLogin-subjectForMozillaAccount = Nyt login til din { -product-mozilla-account }
+newDeviceLogin-subject = Nyt login på { $clientName }
+newDeviceLogin-subjectForMozillaAccount = Nyt login på din { -product-mozilla-account }
 newDeviceLogin-title-3 = Din { -product-mozilla-account } blev brugt til at logge ind
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.

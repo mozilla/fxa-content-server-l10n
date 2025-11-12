@@ -1606,7 +1606,7 @@ msgstr "Luk denne side og fortsæt på den anden enhed."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr "Nyt login til Firefox"
+msgstr "Nyt login på Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
