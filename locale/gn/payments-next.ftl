@@ -96,6 +96,8 @@ next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Jehepyme’ẽ marandu ndoikói
+subscription-management-page-paypal-error-banner-message-account-error = Oiko peteĩ jajavy ne mba’ete ndive.
 subscription-management-subscriptions-heading = Ñemboheraguapy
 subscription-management-button-add-payment-method-aria = Embojuapy mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method = Mbojuaju
