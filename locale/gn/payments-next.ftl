@@ -127,9 +127,15 @@ subscription-management-button-support = Eipota pytyvõ
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Eñepytyvõ { $productName }-pe g̃uarã
 subscription-management-your-apple-iap-subscriptions-aria = Ne ñemboheraguapy tembiporu’i ryepýpe { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } ejogua tembiporu’i guive
 subscription-management-your-google-iap-subscriptions-aria = Ne ñemboheraguapy { -brand-google } rembiporu’i ryepýpe
+subscription-management-google-in-app-purchase-2 = { -brand-google } ejogua tembiporu’i guive
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Opáta { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Eñangareko teraguapy { $productName }-pe g̃uarã
+subscription-management-button-manage-subscription-1 = Mboheraguapýre ñangareko
+manage-payment-methods-heading = Eñangareko mba’éicha ehepyme’ẽta
 paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹva
 paypal-payment-management-page-invalid-description = Oĩvaicha jejavy { -brand-paypal } mba’ete ndive. Roikotevẽ emboguata mba’eichaitépa emoĩporãta ko apañuái jehepyme’ẽ rehegua.
 # Page - Not Found
@@ -282,6 +288,9 @@ subscription-content-no-longer-use-message = Ndojeporukuaamo’ãi { $productNam
 subscription-content-cancel-access-message =
     Ehejarei aikeha ha che mba’ekuaarã ñongatupyre
     { $productName } pegua { $currentPeriodEnd } guive
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Kuatiañemure paha • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impuesto
 subscription-content-button-stay-subscribed = Eime mboheguapýpe
     .aria-label = Eime mboheguapýpe { $productName }
 subscription-content-button-cancel-subscription = Ejheja mboheraguapy
