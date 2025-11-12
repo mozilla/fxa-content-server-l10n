@@ -291,8 +291,17 @@ subscription-content-cancel-access-message =
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Kuatiañemure paha • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impuesto
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Ehecha kuatiañemure
+subscription-management-link-view-invoice-aria = Ehecha kuatiañemure { $productName }
+subscription-content-expires-on-expiry-date = Opáta { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Kuatiañemure oútava • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } impuesto
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Eime mboheguapýpe
     .aria-label = Eime mboheguapýpe { $productName }
+subscription-content-button-cancel-subscription-1 = Ñemboheraguapy jeheja
 subscription-content-button-cancel-subscription = Ejheja mboheraguapy
     .aria-label = Ejheja mboheraguapy { $productName }
 subscription-content-button-cancel = Heja
