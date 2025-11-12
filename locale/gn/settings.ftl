@@ -906,6 +906,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Embojuehe mba’ekuaarã { -brand-firefox } rehegua
 delete-account-product-firefox-addons = { -brand-firefox } Moĩmbaha
 delete-account-acknowledge = Nemandu’áke emboguetéramo ne mba’ete:
+delete-account-chk-box-1-v4 =
+    .label = Opaite ñemboheraguapy jehepyme’ẽgua opytareíta
 delete-account-chk-box-2 =
     .label = Ikatu okañy marandu ha tembiapoite ñongatupyre { -brand-mozilla } apopyrépe
 delete-account-chk-box-3 =
@@ -1866,6 +1868,10 @@ signin-totp-code-header = Eñemboheraguapy
 signin-totp-code-subheader-v2 = Ehai mba’eñemi ñemoneĩrã mokõi jeku’épe
 signin-totp-code-instruction-v4 = Ehechajey ne <strong>rembiporu’i ñemoneĩrã</strong> emoneĩ hag̃ua nde jeike.
 signin-totp-code-input-label-v4 = Emoinge mba’eñemi 6 taíva
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = ¿Mba’érepa ojejerure ndéve ejekuaaukávo?
+signin-totp-code-aal-sign-out = Emboty tembiapo ko mba’e’okápe
+signin-totp-code-aal-sign-out-error = Ore ñyrõ, iñapañuái embotykuévo ne rembiapo
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Moneĩ
 signin-totp-code-other-account-link = Eiporu ambuéva mba’ete
