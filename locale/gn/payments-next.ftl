@@ -107,6 +107,10 @@ subscription-management-jump-to-heading = Epo amo
 subscription-management-nav-payment-details = Mba’éicha ehepyme’ẽta
 subscription-management-nav-active-subscriptions = Hendýva ñemboheraguapy
 subscription-management-payment-details-heading = Jehepyme’ẽ rehegua
+subscription-management-email-label = Ñanduti veve
+subscription-management-credit-balance-label = Viruporuka mohenda
+subscription-management-credit-balance-message = Viruporuka oku’éta ijehegui kuatiañemure oútavape
+subscription-management-payment-method-label = Mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method-aria = Embojuapy mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method = Mbojuaju
 subscription-management-button-manage-payment-method-aria = Eñangareko mba’éichapa ehepyme’ẽta
@@ -115,6 +119,10 @@ subscription-management-button-manage-payment-method = Ñangareko
 subscription-management-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Hu’ãta { $expirationDate }
+subscription-management-active-subscriptions-heading = Hendýva ñemboheraguapy
+subscription-management-you-have-no-active-subscriptions = Ndererekói hendýva ñemboheraguapy
+subscription-management-new-subs-will-appear-here = Ñemboheraguapy pyahu ehecháta ápe.
+subscription-management-your-active-subscriptions-aria = Ne ñemboheraguapy hendýva
 subscription-management-button-support = Eipota pytyvõ
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Eñepytyvõ { $productName }-pe g̃uarã
