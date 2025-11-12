@@ -99,7 +99,14 @@ next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 subscription-management-page-paypal-error-banner-title-invalid-payment-information = Jehepyme’ẽ marandu ndoikói
 subscription-management-page-paypal-error-banner-message-account-error = Oiko peteĩ jajavy ne mba’ete ndive.
 subscription-management-button-manage-payment-method-1 = Ehecha mba’éicha ehepyme’ẽta
+subscription-management-page-banner-warning-title-no-payment-method = Ndaipóri mba’éicha ehepyme’ẽta
+subscription-management-page-banner-warning-link-no-payment-method = Embojuaju mba’éicha ehepyme’ẽta
 subscription-management-subscriptions-heading = Ñemboheraguapy
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Epo amo
+subscription-management-nav-payment-details = Mba’éicha ehepyme’ẽta
+subscription-management-nav-active-subscriptions = Hendýva ñemboheraguapy
+subscription-management-payment-details-heading = Jehepyme’ẽ rehegua
 subscription-management-button-add-payment-method-aria = Embojuapy mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method = Mbojuaju
 subscription-management-button-manage-payment-method-aria = Eñangareko mba’éichapa ehepyme’ẽta
