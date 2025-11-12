@@ -913,6 +913,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkronisering af { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tilføjelser
 delete-account-acknowledge = Bekræft venligst, at når du sletter din konto:
+delete-account-chk-box-1-v4 =
+    .label = Bliver alle dine betalte abonnementer annulleret
 delete-account-chk-box-2 =
     .label = Kan du miste gemte oplysninger og funktioner i { -brand-mozilla }-produkter
 delete-account-chk-box-3 =
@@ -1875,6 +1877,7 @@ signin-totp-code-input-label-v4 = Indtast sekscifret kode
 signin-totp-code-aal-banner-header = Hvorfor bliver du bedt om at godkende?
 signin-totp-code-aal-banner-content = Du har opsat totrinsgodkendelse på din konto, men har ikke logget ind med en kode på denne enhed endnu.
 signin-totp-code-aal-sign-out = Log ud på denne enhed
+signin-totp-code-aal-sign-out-error = Der var desværre et problem med at logge dig ud
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekræft
 signin-totp-code-other-account-link = Brug en anden konto
