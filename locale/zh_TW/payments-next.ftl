@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = 付款資訊無效
-subscription-management-page-paypal-error-banner-message-account-error = 您的帳號發生錯誤。
-subscription-management-button-manage-payment-method-1 = 管理付款方式
 subscription-management-page-banner-warning-title-no-payment-method = 未新增付款方式
 subscription-management-page-banner-warning-link-no-payment-method = 新增付款方式
 subscription-management-subscriptions-heading = 訂閱項目
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = 管理
 subscription-management-card-ending-in = 卡號末四碼：{ $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = 到期於 { $expirationDate }
-subscription-management-error-paypal-billing-agreement = 您的 { -brand-paypal } 帳號發生問題。請解決此問題以繼續維持訂閱。
 subscription-management-active-subscriptions-heading = 有效訂閱
 subscription-management-you-have-no-active-subscriptions = 您沒有有效訂閱
 subscription-management-new-subs-will-appear-here = 新的訂閱紀錄將顯示於此處。
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = 於 { $date } 到期
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 訂閱
 subscription-management-button-manage-subscription-1 = 管理訂閱
+subscription-management-button-manage-payment-method-1 = 管理付款方式
+subscription-management-error-paypal-billing-agreement = 您的 { -brand-paypal } 帳號發生問題。請解決此問題以繼續維持訂閱。
 manage-payment-methods-heading = 管理付款方式
 paypal-payment-management-page-invalid-header = 帳務資訊無效
 paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } 帳號似乎發生問題，請採取下列步驟處理付款問題。

@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε 
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Μη έγκυρα στοιχεία πληρωμής
-subscription-management-page-paypal-error-banner-message-account-error = Προέκυψε σφάλμα με τον λογαριασμό σας.
-subscription-management-button-manage-payment-method-1 = Διαχείριση μεθόδου πληρωμής
 subscription-management-page-banner-warning-title-no-payment-method = Δεν έχει προστεθεί καμία μέθοδος πληρωμής
 subscription-management-page-banner-warning-link-no-payment-method = Προσθήκη μεθόδου πληρωμής
 subscription-management-subscriptions-heading = Συνδρομές
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Διαχείριση
 subscription-management-card-ending-in = Κάρτα που λήγει σε { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Λήγει στις { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Υπάρχει πρόβλημα με τον λογαριασμό σας στο { -brand-paypal }, Επιλύστε το ζήτημα για να διατηρήσετε τις ενεργές συνδρομές σας.
 subscription-management-active-subscriptions-heading = Ενεργές συνδρομές
 subscription-management-you-have-no-active-subscriptions = Δεν έχετε καμία ενεργή συνδρομή.
 subscription-management-new-subs-will-appear-here = Οι νέες συνδρομές θα εμφανίζονται εδώ.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Λήγει στις { $
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
 subscription-management-button-manage-subscription-1 = Διαχείριση συνδρομής
+subscription-management-button-manage-payment-method-1 = Διαχείριση μεθόδου πληρωμής
+subscription-management-error-paypal-billing-agreement = Υπάρχει πρόβλημα με τον λογαριασμό σας στο { -brand-paypal }, Επιλύστε το ζήτημα για να διατηρήσετε τις ενεργές συνδρομές σας.
 manage-payment-methods-heading = Διαχείριση μεθόδων πληρωμής
 paypal-payment-management-page-invalid-header = Μη έγκυρα στοιχεία χρέωσης
 paypal-payment-management-page-invalid-description = Φαίνεται ότι υπάρχει σφάλμα με τον λογαριασμό σας στο { -brand-paypal }. Θα πρέπει να λάβετε τα απαραίτητα μέτρα για την επίλυση αυτού του προβλήματος πληρωμής.

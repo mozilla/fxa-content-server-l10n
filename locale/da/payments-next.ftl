@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Ugyldig betalingsinformation
-subscription-management-page-paypal-error-banner-message-account-error = Der er en fejl med din konto.
-subscription-management-button-manage-payment-method-1 = Håndter betalingsmetode
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmetode tilføjet
 subscription-management-page-banner-warning-link-no-payment-method = Tilføj en betalingsmetode
 subscription-management-subscriptions-heading = Abonnementer
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Håndter
 subscription-management-card-ending-in = Kort, der ender på { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Udløber { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Der er et problem med din { -brand-paypal }-konto. Løs problemet for at beholde dine aktive abonnementer.
 subscription-management-active-subscriptions-heading = Aktive abonnementer
 subscription-management-you-have-no-active-subscriptions = Du har ingen aktive abonnementer
 subscription-management-new-subs-will-appear-here = Nye abonnementer vil blive vist her.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Udløber den { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Håndter abonnement på { $productName }
 subscription-management-button-manage-subscription-1 = Håndter abonnement
+subscription-management-button-manage-payment-method-1 = Håndter betalingsmetode
+subscription-management-error-paypal-billing-agreement = Der er et problem med din { -brand-paypal }-konto. Løs problemet for at beholde dine aktive abonnementer.
 manage-payment-methods-heading = Håndter betalingsmetoder
 paypal-payment-management-page-invalid-header = Ugyldige faktureringsoplysninger
 paypal-payment-management-page-invalid-description = Der ser ud til at være en fejl med din { -brand-paypal }-konto. Du skal udføre de nødvendige ændringer for at løse problemet.

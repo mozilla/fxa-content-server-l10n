@@ -100,9 +100,6 @@ next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლ
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = გადახდის არასწორი მონაცემები
-subscription-management-page-paypal-error-banner-message-account-error = თქვენს ანგარიშს რაღაც შეცდომა ახლავს.
-subscription-management-button-manage-payment-method-1 = გადახდის საშუალების მართვა
 subscription-management-page-banner-warning-title-no-payment-method = გადახდის საშუალების არაა დამატებული
 subscription-management-page-banner-warning-link-no-payment-method = გადახდის საშუალების დამატება
 subscription-management-subscriptions-heading = გამოწერები
@@ -124,7 +121,6 @@ subscription-management-button-manage-payment-method = მართვა
 subscription-management-card-ending-in = ბარათი დაბოლოებით { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = მოქმედების ვადა { $expirationDate }
-subscription-management-error-paypal-billing-agreement = ხარვეზი აქვს თქვენს { -brand-paypal }-ანგარიშს. გთხოვთ, მოაგვაროთ ეს საკითხი მოქმედი გამოწერების შესანარჩუნებლად.
 subscription-management-active-subscriptions-heading = მოქმედი გამოწერები
 subscription-management-you-have-no-active-subscriptions = თქვენ არ გაქვთ მოქმედი გამოწერები
 subscription-management-new-subs-will-appear-here = ახალი გამოწერები გამოჩნდება აქ.
@@ -141,6 +137,8 @@ subscription-management-iap-sub-expires-on-expiry-date = ვადის გა�
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = გამოწერის მართვა – { $productName }
 subscription-management-button-manage-subscription-1 = გამოწერის მართვა
+subscription-management-button-manage-payment-method-1 = გადახდის საშუალების მართვა
+subscription-management-error-paypal-billing-agreement = ხარვეზი აქვს თქვენს { -brand-paypal }-ანგარიშს. გთხოვთ, მოაგვაროთ ეს საკითხი მოქმედი გამოწერების შესანარჩუნებლად.
 manage-payment-methods-heading = გადახდის საშუალებების მართვა
 paypal-payment-management-page-invalid-header = ანგარიშსწორების უმართებულო მონაცემები
 paypal-payment-management-page-invalid-description = როგორც ჩანს, თქვენს { -brand-paypal }-ანგარიშთან დაკავშირებით წარმოიშვა შეცდომა. ამ საკითხის მოსაგვარებლად სათანადო ზომების მიღება დაგვჭირდება.

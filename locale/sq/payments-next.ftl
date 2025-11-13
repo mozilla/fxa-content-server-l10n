@@ -100,9 +100,6 @@ next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informacion i pavlefshëm pagese
-subscription-management-page-paypal-error-banner-message-account-error = Ka një gabim me llogarinë tuaj.
-subscription-management-button-manage-payment-method-1 = Administroni metodë pagesash
 subscription-management-page-banner-warning-title-no-payment-method = S’u shtua metodë pagesash
 subscription-management-page-banner-warning-link-no-payment-method = Shtoni një metodë pagese
 subscription-management-subscriptions-heading = Pajtime
@@ -124,7 +121,6 @@ subscription-management-button-manage-payment-method = Administrojini
 subscription-management-card-ending-in = Kartë që përfundon me { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Skadon më { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Ka një problem me llogarinë tuaj { -brand-paypal }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
 subscription-management-active-subscriptions-heading = Pajtime Aktive
 subscription-management-you-have-no-active-subscriptions = S’keni pajtime aktive
 subscription-management-new-subs-will-appear-here = Pajtimet e reja do të duken këtu.
@@ -141,6 +137,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Skadon më { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administroni pajtim për { $productName }
 subscription-management-button-manage-subscription-1 = Administroni pajtim
+subscription-management-button-manage-payment-method-1 = Administroni metodë pagesash
+subscription-management-error-paypal-billing-agreement = Ka një problem me llogarinë tuaj { -brand-paypal }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
 manage-payment-methods-heading = Administroni metoda pagesash
 paypal-payment-management-page-invalid-header = Hollësi faturimi të pavlefshme
 paypal-payment-management-page-invalid-description = Duket të ketë një gabim me llogarinë tuaj { -brand-paypal }. Duam që të ndërmerrni hapat e nevojshëm për të zgjidhur këtë problem pagese.

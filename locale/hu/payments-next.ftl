@@ -99,9 +99,6 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Érvénytelen fizetési információk
-subscription-management-page-paypal-error-banner-message-account-error = Hiba történt a fiókjával.
-subscription-management-button-manage-payment-method-1 = Fizetési mód kezelése
 subscription-management-page-banner-warning-title-no-payment-method = Nincs fizetési mód hozzáadva
 subscription-management-page-banner-warning-link-no-payment-method = Fizetési mód hozzáadása
 subscription-management-subscriptions-heading = Előfizetések
@@ -123,7 +120,6 @@ subscription-management-button-manage-payment-method = Kezelés
 subscription-management-card-ending-in = { $last4 } végződésű kártya
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Lejárat: { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Probléma van a(z) { -brand-paypal } fiókjával. Oldja meg a problémát, hogy megtartsa az aktív előfizetéseit.
 subscription-management-active-subscriptions-heading = Aktív előfizetések
 subscription-management-you-have-no-active-subscriptions = Nincs aktív előfizetése
 subscription-management-new-subs-will-appear-here = Az új előfizetések itt fognak megjelenni.
@@ -140,6 +136,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Lejár: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } előfizetés kezelése
 subscription-management-button-manage-subscription-1 = Előfizetés kezelése
+subscription-management-button-manage-payment-method-1 = Fizetési mód kezelése
+subscription-management-error-paypal-billing-agreement = Probléma van a(z) { -brand-paypal } fiókjával. Oldja meg a problémát, hogy megtartsa az aktív előfizetéseit.
 manage-payment-methods-heading = Fizetési módok kezelése
 paypal-payment-management-page-invalid-header = Érvénytelen számlázási információk
 paypal-payment-management-page-invalid-description = Úgy tűnik, hogy hiba történt a(z) { -brand-paypal }-fiókjával kapcsolatban. Meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.

@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Ongeldige betalingsgegevens
-subscription-management-page-paypal-error-banner-message-account-error = Er is een fout met uw account opgetreden.
-subscription-management-button-manage-payment-method-1 = Betalingsmethode beheren
 subscription-management-page-banner-warning-title-no-payment-method = Geen betalingsmethode toegevoegd
 subscription-management-page-banner-warning-link-no-payment-method = Een betalingsmethode toevoegen
 subscription-management-subscriptions-heading = Abonnementen
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Beheren
 subscription-management-card-ending-in = Creditcard eindigend op { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vervalt op { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Er is een probleem met uw { -brand-paypal }-account. Los het probleem op om uw actieve abonnementen te behouden.
 subscription-management-active-subscriptions-heading = Actieve abonnementen
 subscription-management-you-have-no-active-subscriptions = U hebt geen actieve abonnementen
 subscription-management-new-subs-will-appear-here = Nieuwe abonnementen verschijnen hier.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Vervalt op { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnement voor { $productName } beheren
 subscription-management-button-manage-subscription-1 = Abonnement beheren
+subscription-management-button-manage-payment-method-1 = Betalingsmethode beheren
+subscription-management-error-paypal-billing-agreement = Er is een probleem met uw { -brand-paypal }-account. Los het probleem op om uw actieve abonnementen te behouden.
 manage-payment-methods-heading = Betalingsmethoden beheren
 paypal-payment-management-page-invalid-header = Ongeldige facturatiegegevens
 paypal-payment-management-page-invalid-description = Er lijkt een fout op te treden met uw { -brand-paypal }-account. U dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.

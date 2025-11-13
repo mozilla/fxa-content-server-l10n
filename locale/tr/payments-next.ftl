@@ -96,9 +96,6 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Geçersiz ödeme bilgileri
-subscription-management-page-paypal-error-banner-message-account-error = Hesabınızla ilgili bir hata var.
-subscription-management-button-manage-payment-method-1 = Ödeme yöntemini yönet
 subscription-management-page-banner-warning-title-no-payment-method = Ödeme yöntemi eklenmedi
 subscription-management-page-banner-warning-link-no-payment-method = Ödeme yöntemi ekle
 subscription-management-subscriptions-heading = Abonelikler
@@ -131,6 +128,7 @@ subscription-management-iap-sub-expires-on-expiry-date = Son geçerlilik tarihi:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } aboneliğini yönet
 subscription-management-button-manage-subscription-1 = Abonelikleri yönet
+subscription-management-button-manage-payment-method-1 = Ödeme yöntemini yönet
 manage-payment-methods-heading = Ödeme yöntemlerini yönet
 paypal-payment-management-page-invalid-header = Geçersiz fatura bilgileri
 paypal-payment-management-page-invalid-description = { -brand-paypal } hesabınızda bir sorun var gibi görünüyor. Bu ödeme sorununu çözmek için birkaç adımı tamamlamalısınız.

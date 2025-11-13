@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Номер карты заканч
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Неверная платежная информация
-subscription-management-page-paypal-error-banner-message-account-error = В вашем аккаунте произошла ошибка.
-subscription-management-button-manage-payment-method-1 = Управление способом оплаты
 subscription-management-page-banner-warning-title-no-payment-method = Способ оплаты не добавлен
 subscription-management-page-banner-warning-link-no-payment-method = Добавить способ оплаты
 subscription-management-subscriptions-heading = Подписки
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Управление
 subscription-management-card-ending-in = Номер карты заканчивается на { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Срок действия истекает { $expirationDate }
-subscription-management-error-paypal-billing-agreement = С вашим аккаунтом { -brand-paypal } возникла проблема. Пожалуйста, решите эту проблему, чтобы сохранить ваши активные подписки.
 subscription-management-active-subscriptions-heading = Активные подписки
 subscription-management-you-have-no-active-subscriptions = У вас нет активных подписок
 subscription-management-new-subs-will-appear-here = Новые подписки появятся здесь.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Истекает { $dat
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Управление подпиской на { $productName }
 subscription-management-button-manage-subscription-1 = Управление подпиской
+subscription-management-button-manage-payment-method-1 = Управление способом оплаты
+subscription-management-error-paypal-billing-agreement = С вашим аккаунтом { -brand-paypal } возникла проблема. Пожалуйста, решите эту проблему, чтобы сохранить ваши активные подписки.
 manage-payment-methods-heading = Управление способами оплаты
 paypal-payment-management-page-invalid-header = Неверная платёжная информация
 paypal-payment-management-page-invalid-description = Похоже, в вашем аккаунте { -brand-paypal } произошла ошибка. Нам нужно, чтобы вы предприняли необходимые шаги для решения этой проблемы с оплатой.

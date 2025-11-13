@@ -29,6 +29,9 @@ brand-learn-more = Află mai multe
 # Alt text for close banner image
 brand-close-banner =
     .alt = Închide bannerul
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Logo { -brand-mozilla } m
 
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
@@ -63,6 +66,18 @@ recovery-key-pdf-support = Află mai multe despre cheia ta de recuperare a contu
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Ne pare rău, a apărut o problemă la descărcarea cheii tale de recuperare a contului
 
+## ChooseNewsletters component
+## Checklist of newsletters that the user can choose to sign up to
+
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Obține mai multe de la { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Obține cele mai recente știri și actualizări de produse
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Acces timpuriu pentru testarea de produse noi
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -71,6 +86,104 @@ datablock-copy =
     .message = Copiat
 datablock-print =
     .message = Printat
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] Cod copiat
+       *[other] Coduri copiate
+    }
+datablock-download-success =
+    { $count ->
+        [one] Cod descărcat
+       *[other] Coduri descărcate
+    }
+datablock-print-success =
+    { $count ->
+        [one] Cod printat
+       *[other] Coduri printate
+    }
+
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copiat
+
+## DeviceInfoBlock component
+## The strings here are used to display information about the origin of activity happening on a user's account
+## For example, when connecting another device to the user's account
+
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (estimate)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (estimate)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (estimate)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (estimată)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Locație necunoscută
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } pe { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Adresă IP: { $ipAddress }
+
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Parolă
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Repetă parola
+form-password-with-inline-criteria-signup-submit-button = Creează un cont
+form-password-with-inline-criteria-reset-new-password =
+    .label = Parolă nouă
+form-password-with-inline-criteria-confirm-password =
+    .label = Confirmă parola
+form-password-with-inline-criteria-reset-submit-button = Creează o parolă nouă
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Parolă
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Repetă parola
+form-password-with-inline-criteria-set-password-submit-button = Începe sincronizarea
+form-password-with-inline-criteria-match-error = Parolele nu se potrivesc
+form-password-with-inline-criteria-sr-too-short-message = Parola trebuie să aibă cel puțin 8 caractere.
+form-password-with-inline-criteria-sr-not-email-message = Parola nu trebuie să conțină adresa ta de e-mail.
+form-password-with-inline-criteria-sr-not-common-message = Parola nu trebuie să fie o parolă utilizată în mod obișnuit.
+form-password-with-inline-criteria-sr-requirements-met = Parola introdusă respectă toate cerințele pentru parole.
+form-password-with-inline-criteria-sr-passwords-match = Parolele introduse se potrivesc.
+
+## FormVerifyCode
+
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Câmp obligatoriu
+
+## FormVerifyTotp component
+## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
+
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Introdu codul de { $codeLength } cifre pentru a continua
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Introdu codul de { $codeLength } caractere pentru a continua
+
+# GetDataTrio component, part of Account Recovery Key flow
+
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Cheie de recuperare a contului { -brand-firefox }
 
 ## Input Password
 

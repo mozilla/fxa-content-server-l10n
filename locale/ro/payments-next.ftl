@@ -87,9 +87,6 @@ next-payment-confirmation-cc-card-ending-in = Card care se termină cu { $last4 
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informații nevalide pentru plăți
-subscription-management-page-paypal-error-banner-message-account-error = A apărut o eroare cu contul tău.
-subscription-management-button-manage-payment-method-1 = Gestionează metoda de plată
 subscription-management-page-banner-warning-title-no-payment-method = Nicio metodă de plată adăugată
 subscription-management-page-banner-warning-link-no-payment-method = Adaugă o metodă de plată
 subscription-management-subscriptions-heading = Abonamente
@@ -111,7 +108,6 @@ subscription-management-button-manage-payment-method = Gestionează
 subscription-management-card-ending-in = Card care se termină cu { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Data expirării { $expirationDate }
-subscription-management-error-paypal-billing-agreement = A apărut o problemă în contul tău { -brand-paypal }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
 subscription-management-active-subscriptions-heading = Abonamente active
 subscription-management-you-have-no-active-subscriptions = Nu ai abonamente active
 subscription-management-new-subs-will-appear-here = Aici vor apărea abonamentele noi.
@@ -123,6 +119,8 @@ subscription-management-your-apple-iap-subscriptions-aria = Abonamentele tale î
 subscription-management-your-google-iap-subscriptions-aria = Abonamentele tale în aplicația { -brand-google }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gestionează abonamentul pentru { $productName }
+subscription-management-button-manage-payment-method-1 = Gestionează metoda de plată
+subscription-management-error-paypal-billing-agreement = A apărut o problemă în contul tău { -brand-paypal }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
 # Page - Not Found
 page-not-found-title = Pagina nu a fost găsită
 page-not-found-description = Pagina pe care ai solicitat-o nu a fost găsită. Am fost anunțați și vom repara orice linkuri care ar putea fi defecte.
@@ -232,8 +230,14 @@ subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } taxe
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Vezi factura
 subscription-management-link-view-invoice-aria = Vezi factura pentru { $productName }
+subscription-content-expires-on-expiry-date = Expiră la { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Factura următoare • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } taxe
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Păstrează abonamentul
     .aria-label = Păstrează abonamentul la { $productName }
+subscription-content-button-cancel-subscription-1 = Anulează abonamentul
 subscription-content-button-cancel-subscription = Anulează abonamentul
     .aria-label = Anulează abonamentul la { $productName }
 subscription-content-button-cancel = Anulează
@@ -265,6 +269,8 @@ resubscribe-dialog-content-with-tax = Vei avea în continuare acces la { $name }
 resubscribe-dialog-action-button-resubscribe = Reabonare
     .aria-label = Reabonare la { $productName }
 resubscribe-success-dialog-title = Îți mulțumim! Totul este gata.
+resubscribe-success-dialog-action-button-close = Închide
+    .aria-label = Închide caseta de dialog
 
 ##
 

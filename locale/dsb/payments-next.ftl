@@ -100,9 +100,6 @@ next-payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Njepłaśiwe płaśeńske informacije
-subscription-management-page-paypal-error-banner-message-account-error = Dajo zmólka z wašym kontom.
-subscription-management-button-manage-payment-method-1 = Płaśeńsku metodu zastojaś
 subscription-management-page-banner-warning-title-no-payment-method = Žedna płaśeńska metoda pśidana
 subscription-management-page-banner-warning-link-no-payment-method = Płaśeńsku metodu pśidaś
 subscription-management-subscriptions-heading = Abonementy
@@ -124,7 +121,6 @@ subscription-management-button-manage-payment-method = Zastojaś
 subscription-management-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Spadnjo { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Dajo problem z wašym kontom { -brand-paypal }. Pšosym rozwěžćo problem, aby swóje aktiwne abonementy wobchował.
 subscription-management-active-subscriptions-heading = Aktiwne abonementy
 subscription-management-you-have-no-active-subscriptions = Njamaśo aktiwne abonementy.
 subscription-management-new-subs-will-appear-here = Nowe abonementy se how zjawiju.
@@ -141,6 +137,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Spadnjo { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonement za { $productName } zastojaś
 subscription-management-button-manage-subscription-1 = Abonement zastojaś
+subscription-management-button-manage-payment-method-1 = Płaśeńsku metodu zastojaś
+subscription-management-error-paypal-billing-agreement = Dajo problem z wašym kontom { -brand-paypal }. Pšosym rozwěžćo problem, aby swóje aktiwne abonementy wobchował.
 manage-payment-methods-heading = Płaśeńske metody zastojaś
 paypal-payment-management-page-invalid-header = Njepłaśiwe wótliceńske informacije
 paypal-payment-management-page-invalid-description = Zda se, až dajo zmólka z wašym kontom { -brand-paypal }. Musymy trjebne kšace pśewjasć, aby toś ten płaśeński problem rozwězali.

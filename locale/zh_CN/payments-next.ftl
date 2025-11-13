@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = 付款信息无效
-subscription-management-page-paypal-error-banner-message-account-error = 您的账户存在问题。
-subscription-management-button-manage-payment-method-1 = 管理付款方式
 subscription-management-page-banner-warning-title-no-payment-method = 未添加付款方式
 subscription-management-page-banner-warning-link-no-payment-method = 添加付款方式
 subscription-management-subscriptions-heading = 订阅
@@ -137,6 +134,7 @@ subscription-management-iap-sub-expires-on-expiry-date = { $date } 到期
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 的订阅
 subscription-management-button-manage-subscription-1 = 管理订阅
+subscription-management-button-manage-payment-method-1 = 管理付款方式
 manage-payment-methods-heading = 管理付款方式
 paypal-payment-management-page-invalid-header = 账单信息无效
 paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } 账户似乎存在问题，请按下列必要步骤解决此付款问题。

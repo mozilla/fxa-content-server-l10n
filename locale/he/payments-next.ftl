@@ -95,9 +95,6 @@ next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $l
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = פרטי תשלום שגויים
-subscription-management-page-paypal-error-banner-message-account-error = אירעה שגיאה עם החשבון שלך.
-subscription-management-button-manage-payment-method-1 = ניהול אמצעי תשלום
 subscription-management-page-banner-warning-title-no-payment-method = לא נוספו אמצעי תשלום
 subscription-management-page-banner-warning-link-no-payment-method = הוספת אמצעי תשלום
 subscription-management-subscriptions-heading = מינויים
@@ -119,7 +116,6 @@ subscription-management-button-manage-payment-method = ניהול
 subscription-management-card-ending-in = כרטיס המסתיים ב־{ $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = תאריך תוקף { $expirationDate }
-subscription-management-error-paypal-billing-agreement = יש בעיה בחשבון ה־{ -brand-paypal } שלך. יש לפתור את הבעיה כדי לשמור על המינויים הפעילים שלך.
 subscription-management-active-subscriptions-heading = מינויים פעילים
 subscription-management-you-have-no-active-subscriptions = אין לך מינויים פעילים
 subscription-management-new-subs-will-appear-here = מינויים חדשים יופיעו כאן.
@@ -136,6 +132,8 @@ subscription-management-iap-sub-expires-on-expiry-date = יפוג בתאריך {
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
 subscription-management-button-manage-subscription-1 = ניהול מינויי
+subscription-management-button-manage-payment-method-1 = ניהול אמצעי תשלום
+subscription-management-error-paypal-billing-agreement = יש בעיה בחשבון ה־{ -brand-paypal } שלך. יש לפתור את הבעיה כדי לשמור על המינויים הפעילים שלך.
 manage-payment-methods-heading = ניהול אמצעי תשלום
 paypal-payment-management-page-invalid-header = פרטי חיוב שגויים
 paypal-payment-management-page-invalid-description = נראה שיש שגיאה בחשבון ה־{ -brand-paypal } שלך. אנחנו צריכים שתנקוט בצעדים הדרושים כדי לפתור בעיית תשלום זו.

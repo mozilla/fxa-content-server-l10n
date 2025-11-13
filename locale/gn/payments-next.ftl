@@ -96,9 +96,6 @@ next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Jehepyme’ẽ marandu ndoikói
-subscription-management-page-paypal-error-banner-message-account-error = Oiko peteĩ jajavy ne mba’ete ndive.
-subscription-management-button-manage-payment-method-1 = Ehecha mba’éicha ehepyme’ẽta
 subscription-management-page-banner-warning-title-no-payment-method = Ndaipóri mba’éicha ehepyme’ẽta
 subscription-management-page-banner-warning-link-no-payment-method = Embojuaju mba’éicha ehepyme’ẽta
 subscription-management-subscriptions-heading = Ñemboheraguapy
@@ -135,6 +132,7 @@ subscription-management-iap-sub-expires-on-expiry-date = Opáta { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Eñangareko teraguapy { $productName }-pe g̃uarã
 subscription-management-button-manage-subscription-1 = Mboheraguapýre ñangareko
+subscription-management-button-manage-payment-method-1 = Ehecha mba’éicha ehepyme’ẽta
 manage-payment-methods-heading = Eñangareko mba’éicha ehepyme’ẽta
 paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹva
 paypal-payment-management-page-invalid-description = Oĩvaicha jejavy { -brand-paypal } mba’ete ndive. Roikotevẽ emboguata mba’eichaitépa emoĩporãta ko apañuái jehepyme’ẽ rehegua.

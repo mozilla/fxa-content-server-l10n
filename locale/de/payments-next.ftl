@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Karte endet auf { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Ungültige Zahlungsinformationen
-subscription-management-page-paypal-error-banner-message-account-error = Es gibt ein Problem bei Ihrem Konto.
-subscription-management-button-manage-payment-method-1 = Zahlungsmethode verwalten
 subscription-management-page-banner-warning-title-no-payment-method = Keine Zahlungsmethode hinzugefügt
 subscription-management-page-banner-warning-link-no-payment-method = Eine Zahlungsmethode hinzufügen
 subscription-management-subscriptions-heading = Abonnements
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Verwalten
 subscription-management-card-ending-in = Karte endet auf { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Läuft ab { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Es gibt ein Problem mit Ihrem Konto { -brand-paypal }. Bitte lösen Sie das Problem, um Ihre aktiven Abonnements zu erhalten.
 subscription-management-active-subscriptions-heading = Aktive Abonnements
 subscription-management-you-have-no-active-subscriptions = Sie haben keine aktiven Abonnements
 subscription-management-new-subs-will-appear-here = Neue Abonnements werden hier angezeigt.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Läuft am { $date } ab
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnement für { $productName } verwalten
 subscription-management-button-manage-subscription-1 = Abonnement verwalten
+subscription-management-button-manage-payment-method-1 = Zahlungsmethode verwalten
+subscription-management-error-paypal-billing-agreement = Es gibt ein Problem mit Ihrem Konto { -brand-paypal }. Bitte lösen Sie das Problem, um Ihre aktiven Abonnements zu erhalten.
 manage-payment-methods-heading = Zahlungsmethoden verwalten
 paypal-payment-management-page-invalid-header = Ungültige Zahlungsinformationen
 paypal-payment-management-page-invalid-description = Es scheint ein Problem mit Ihrem { -brand-paypal }-Konto zu bestehen. Sie müssen die erforderlichen Schritte ausführen, um dieses Zahlungsproblem zu lösen.

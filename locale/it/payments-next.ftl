@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Carta che termina con { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informazioni di pagamento non valide
-subscription-management-page-paypal-error-banner-message-account-error = Si è verificato un errore con il tuo account.
-subscription-management-button-manage-payment-method-1 = Gestisci il metodo di pagamento
 subscription-management-page-banner-warning-title-no-payment-method = Nessun metodo di pagamento aggiunto
 subscription-management-page-banner-warning-link-no-payment-method = Aggiungi un metodo di pagamento
 subscription-management-subscriptions-heading = Abbonamenti
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Gestisci
 subscription-management-card-ending-in = Carta che termina con { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Scade il { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Si è verificato un problema con il tuo account { -brand-paypal }. Risolvi il problema per mantenere attivi gli abbonamenti.
 subscription-management-active-subscriptions-heading = Abbonamenti attivi
 subscription-management-you-have-no-active-subscriptions = Non ci sono abbonamenti attivi
 subscription-management-new-subs-will-appear-here = I nuovi abbonamenti verranno visualizzati qui.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Scade il { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gestisci abbonamento a { $productName }
 subscription-management-button-manage-subscription-1 = Gestisci abbonamento
+subscription-management-button-manage-payment-method-1 = Gestisci il metodo di pagamento
+subscription-management-error-paypal-billing-agreement = Si è verificato un problema con il tuo account { -brand-paypal }. Risolvi il problema per mantenere attivi gli abbonamenti.
 manage-payment-methods-heading = Gestisci metodi di pagamento
 paypal-payment-management-page-invalid-header = Informazioni di fatturazione non valide
 paypal-payment-management-page-invalid-description = Sembra che si sia verificato un errore con il tuo account { -brand-paypal }. È necessario seguire i passaggi richiesti per risolvere questo problema con il pagamento.

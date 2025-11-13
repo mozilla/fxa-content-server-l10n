@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Manylion talu annilys
-subscription-management-page-paypal-error-banner-message-account-error = Mae gwall gyda'ch cyfrif.
-subscription-management-button-manage-payment-method-1 = Rheoli dull talu
 subscription-management-page-banner-warning-title-no-payment-method = Dim dull talu wedi'i ychwanegu
 subscription-management-page-banner-warning-link-no-payment-method = Ychwanegu dull talu
 subscription-management-subscriptions-heading = Tanysgrifiadau
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Rheoli
 subscription-management-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Daw i ben ar { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Mae problem gyda'ch cyfrif { -brand-paypal }. Datryswch y mater i gynnal eich tanysgrifiadau gweithredol.
 subscription-management-active-subscriptions-heading = Tanysgrifiadau gweithredol
 subscription-management-you-have-no-active-subscriptions = Does gennych chi ddim tanysgrifiadau gweithredol
 subscription-management-new-subs-will-appear-here = Bydd tanysgrifiadau newydd yn ymddangos yma.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Yn dod i ben ar: { $dat
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad { $productName }
 subscription-management-button-manage-subscription-1 = Rheoli'r tanysgrifio
+subscription-management-button-manage-payment-method-1 = Rheoli dull talu
+subscription-management-error-paypal-billing-agreement = Mae problem gyda'ch cyfrif { -brand-paypal }. Datryswch y mater i gynnal eich tanysgrifiadau gweithredol.
 manage-payment-methods-heading = Rheoli dulliau talu
 paypal-payment-management-page-invalid-header = Manylion bilio annilys
 paypal-payment-management-page-invalid-description = Mae'n ymddangos bod gwall gyda'ch cyfrif { -brand-paypal }. Mae angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.

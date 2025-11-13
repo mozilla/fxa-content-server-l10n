@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $las
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Neplatné informácie o platbe
-subscription-management-page-paypal-error-banner-message-account-error = Vo vašom účte sa vyskytla chyba.
-subscription-management-button-manage-payment-method-1 = Spravovať spôsob platby
 subscription-management-page-banner-warning-title-no-payment-method = Žiadny spôsob platby nebol pridaný
 subscription-management-page-banner-warning-link-no-payment-method = Pridať spôsob platby
 subscription-management-subscriptions-heading = Predplatné
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Spravovať
 subscription-management-card-ending-in = Karta končiaca číslicami { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vyprší { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Vyskytol sa problém s vaším účtom { -brand-paypal }. Vyriešte problém, aby ste si zachovali aktívne predplatné.
 subscription-management-active-subscriptions-heading = Aktívne predplatné
 subscription-management-you-have-no-active-subscriptions = Nemáte žiadne aktívne predplatné
 subscription-management-new-subs-will-appear-here = Nové predplatné sa zobrazia tu.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Vyprší dňa { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Spravovať predplatné pre { $productName }
 subscription-management-button-manage-subscription-1 = Spravovať predplatné
+subscription-management-button-manage-payment-method-1 = Spravovať spôsob platby
+subscription-management-error-paypal-billing-agreement = Vyskytol sa problém s vaším účtom { -brand-paypal }. Vyriešte problém, aby ste si zachovali aktívne predplatné.
 manage-payment-methods-heading = Spravovať spôsoby platby
 paypal-payment-management-page-invalid-header = Neplatné fakturačné údaje
 paypal-payment-management-page-invalid-description = Zdá sa, že sa vyskytla chyba vo vašom účte { -brand-paypal }. Potrebujeme, aby ste podnikli potrebné kroky na vyriešenie tohto problému s platbou.

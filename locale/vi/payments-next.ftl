@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Thông tin thanh toán không hợp lệ
-subscription-management-page-paypal-error-banner-message-account-error = Có lỗi với tài khoản của bạn.
-subscription-management-button-manage-payment-method-1 = Quản lý phương thức thanh toán
 subscription-management-page-banner-warning-title-no-payment-method = Không có phương thức thanh toán nào được thêm
 subscription-management-page-banner-warning-link-no-payment-method = Thêm phương thức thanh toán
 subscription-management-subscriptions-heading = Gói đăng ký
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Quản lý
 subscription-management-card-ending-in = Thẻ kết thúc bằng { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Hết hạn vào { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Có sự cố với tài khoản { -brand-paypal } của bạn. Vui lòng giải quyết sự cố để duy trì gói đăng ký đang hoạt động của bạn.
 subscription-management-active-subscriptions-heading = Gói đăng ký đang hoạt động
 subscription-management-you-have-no-active-subscriptions = Bạn không có gói đăng ký nào đang hoạt động
 subscription-management-new-subs-will-appear-here = Các gói đăng ký mới sẽ xuất hiện ở đây.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Hết hạn vào { $dat
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Quản lý gói đăng ký cho { $productName }
 subscription-management-button-manage-subscription-1 = Quản lí gói đăng ký
+subscription-management-button-manage-payment-method-1 = Quản lý phương thức thanh toán
+subscription-management-error-paypal-billing-agreement = Có sự cố với tài khoản { -brand-paypal } của bạn. Vui lòng giải quyết sự cố để duy trì gói đăng ký đang hoạt động của bạn.
 manage-payment-methods-heading = Quản lý phương thức thanh toán
 paypal-payment-management-page-invalid-header = Thông tin thanh toán không hợp lệ
 paypal-payment-management-page-invalid-description = Có vẻ như đã xảy ra lỗi với tài khoản { -brand-paypal } của bạn, chúng tôi cần bạn thực hiện các bước cần thiết để giải quyết vấn đề thanh toán này.

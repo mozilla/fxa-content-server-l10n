@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Neplatné platební údaje
-subscription-management-page-paypal-error-banner-message-account-error = U vašeho účtu došlo k chybě.
-subscription-management-button-manage-payment-method-1 = Správa platební metody
 subscription-management-page-banner-warning-title-no-payment-method = Nebyla přidána žádná platební metoda
 subscription-management-page-banner-warning-link-no-payment-method = Přidat platební metodu
 subscription-management-subscriptions-heading = Předplatné
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Správa
 subscription-management-card-ending-in = Karta končící na { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Konec platnosti { $expirationDate }
-subscription-management-error-paypal-billing-agreement = U vašeho účtu { -brand-paypal } se vyskytl problém. Chcete-li zachovat vaše aktivní předplatná, vyřešte prosím problém.
 subscription-management-active-subscriptions-heading = Aktivní předplatná
 subscription-management-you-have-no-active-subscriptions = Nemáte žádná aktivní předplatná
 subscription-management-new-subs-will-appear-here = Zde se zobrazí nová předplatná.
@@ -138,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Vyprší dne { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Spravovat předplatné pro { $productName }
 subscription-management-button-manage-subscription-1 = Spravovat předplatné
+subscription-management-button-manage-payment-method-1 = Správa platební metody
+subscription-management-error-paypal-billing-agreement = U vašeho účtu { -brand-paypal } se vyskytl problém. Chcete-li zachovat vaše aktivní předplatná, vyřešte prosím problém.
 manage-payment-methods-heading = Spravovat platební metody
 paypal-payment-management-page-invalid-header = Neplatné platební údaje
 paypal-payment-management-page-invalid-description = Zdá se, že ve vašem účtu { -brand-paypal } došlo k chybě. Je potřeba, abyste podnikli nezbytné kroky k vyřešení tohoto problému s platbou.

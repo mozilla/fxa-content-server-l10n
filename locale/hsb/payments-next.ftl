@@ -100,9 +100,6 @@ next-payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } k�
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Njepłaćiwe płaćenske informacije
-subscription-management-page-paypal-error-banner-message-account-error = Je zmylk z wašim kontom.
-subscription-management-button-manage-payment-method-1 = Płaćensku metodu rjadować
 subscription-management-page-banner-warning-title-no-payment-method = Žana płaćenska metoda přidata
 subscription-management-page-banner-warning-link-no-payment-method = Płaćensku metodu přidać
 subscription-management-subscriptions-heading = Abonementy
@@ -124,7 +121,6 @@ subscription-management-button-manage-payment-method = Rjadować
 subscription-management-card-ending-in = Karta, kotraž so na { $last4 } kónči
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Spadnje { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Je problem z wašim kontom { -brand-paypal }. Prošu rozrisajće problem, zo byšće swoje aktiwne abonementy wobchował.
 subscription-management-active-subscriptions-heading = Aktiwne abonementy
 subscription-management-you-have-no-active-subscriptions = Nimaće aktiwne abonementy.
 subscription-management-new-subs-will-appear-here = Nowe abonementy so tu zjewja.
@@ -141,6 +137,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Spadnje { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonement za { $productName } rjadować
 subscription-management-button-manage-subscription-1 = Abonement zrjadować
+subscription-management-button-manage-payment-method-1 = Płaćensku metodu rjadować
+subscription-management-error-paypal-billing-agreement = Je problem z wašim kontom { -brand-paypal }. Prošu rozrisajće problem, zo byšće swoje aktiwne abonementy wobchował.
 manage-payment-methods-heading = Płaćenske metody rjadować
 paypal-payment-management-page-invalid-header = Njepłaćiwe wotličenske informacije
 paypal-payment-management-page-invalid-description = Zda so, zo je zmylk z wašim kontom { -brand-paypal }. Dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
