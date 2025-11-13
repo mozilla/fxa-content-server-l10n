@@ -276,6 +276,7 @@ avatar-default-avatar =
 bento-menu-title-3 = produse { -brand-mozilla }
 bento-menu-tagline = Mai multe produse de la { -brand-mozilla } care îți protejează confidențialitatea
 bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-firefox-desktop = Browserul { -brand-firefox } pentru desktop
 bento-menu-firefox-mobile = Browserul { -brand-firefox } pentru dispozitiv mobil
 bento-menu-made-by-mozilla = Realizat de { -brand-mozilla }

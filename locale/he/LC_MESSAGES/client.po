@@ -1899,7 +1899,7 @@ msgstr "שמרו על עצמכם &mdash; אל תשתמשו באותה הססמה
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "הממ, יש בעיה במערכת שלנו. אנו מתקנים זאת כעת ומצטערים על אי הנוחות. נא לנסות שוב מאוחר יותר."
+msgstr "הממ, ישנה בעיה במערכת שלנו. אנו מתקנים זאת כעת ומצטערים על אי הנוחות. נא לנסות שוב מאוחר יותר."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
