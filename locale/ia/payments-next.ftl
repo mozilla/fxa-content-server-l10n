@@ -134,6 +134,10 @@ subscription-management-iap-sub-expires-on-expiry-date = Expira le { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gerer abonamento pro { $productName }
 subscription-management-button-manage-subscription-1 = Gerer abonamento
+error-payment-method-banner-title-expired-card = Carta expirate
+error-payment-method-banner-message-add-new-card = Adde un nove carta o methodo de pagamento pro evitar interruption a tu abonamentos.
+error-payment-method-banner-label-update-payment-method = Actualisar methodo de pagamento
+error-payment-method-banner-title-invalid-payment-information = Informationes de pagamento non valide
 subscription-management-button-manage-payment-method-1 = Gerer methodo de pagamento
 subscription-management-error-paypal-billing-agreement = Il ha un problema con tu conto { -brand-paypal }. Resolve le problema pro mantener tu abonamentos active.
 manage-payment-methods-heading = Gerer methodos de pagamento
