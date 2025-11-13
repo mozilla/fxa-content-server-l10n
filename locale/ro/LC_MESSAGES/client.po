@@ -1624,7 +1624,7 @@ msgstr "Trimite o notificare push pentru conectare"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Verifică-ți dispozitivele Firefox conectate pentru a vedea fila de confirmare a autentificării pe care ți-am trimis-o."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1827,11 +1827,11 @@ msgstr "<span class=\"number\">4</span>Autentifică-te în cont"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "De ce trebuie să creez acest cont? <a %(escapedSuggestionAttrs)s>Află aici</a>"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Conturile Firefox vor fi redenumite conturi Mozilla de pe 1 noiembrie"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -2039,11 +2039,11 @@ msgstr "Nu acum"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "Pentru a sincroniza Firefox pe telefon sau tabletă, trebuie mai întâi să descarci Firefox pentru mobil. Iată cum:"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Pasul 1</b>: Descarcă Firefox scanând acest cod QR cu camera dispozitivului mobil:"
 
 #: .es5/templates/pair/index.mustache:21
 msgid "QR code (located in the middle of the screen)"
@@ -2051,11 +2051,11 @@ msgstr "Cod QR (situat în mijlocul ecranului)"
 
 #: .es5/templates/pair/index.mustache:22
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Pasul 2</b>: Selectează „Continuă cu sincronizarea” pentru sincronizarea experienței tale Firefox pe dispozitivul mobil."
 
 #: .es5/templates/pair/index.mustache:23
 msgid "Continue to sync"
-msgstr ""
+msgstr "Continuă cu sincronizarea"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2067,7 +2067,7 @@ msgstr "Asociere reușită."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Confirmă asocierea <span class=\"card-subheader\">pentru <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
@@ -2075,7 +2075,7 @@ msgstr "Confirmă asocierea"
 
 #: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "Ups! Se pare că nu folosești Firefox."
 
 #: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
@@ -2083,15 +2083,15 @@ msgstr "Atenție:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Treci pe Firefox și deschide această pagină ca să conectezi alt dispozitiv."
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
-msgstr ""
+msgstr "Descarcă Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
-msgstr ""
+msgstr "Se deschide în fereastră nouă"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
@@ -2103,12 +2103,12 @@ msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o a
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Descarcă Firefox acum"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Ups! Ceva nu a funcționat."
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Te rugăm să închizi această filă și să încerci din nou."
