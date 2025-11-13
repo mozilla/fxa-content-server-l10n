@@ -1620,7 +1620,7 @@ msgstr "Dacă suspectezi că cineva încearcă să obțină acces la contul tău
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Trimite o notificare push pentru conectare"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
