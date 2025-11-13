@@ -85,6 +85,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Contul Mozilla folosește funcționalități care\n"
+"                        nu mai au suport în versiunea ta de Firefox. Te rugăm\n"
+"                        să descarci și să instalezi cea mai recentă versiune Firefox\n"
+"                        pentru a continua."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"

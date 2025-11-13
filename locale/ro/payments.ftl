@@ -6,25 +6,66 @@
 ## Component - AppLayout
 
 settings-home = Pagina principală a contului
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Cod promoțional aplicat
 coupon-submit = Aplică
 coupon-remove = Elimină
+coupon-error = Codul introdus este nevalid sau expirat.
+coupon-error-generic = A apărut o eroare la procesarea codului. Te rugăm să încerci din nou.
+coupon-error-expired = Codul introdus a expirat.
+coupon-error-limit-reached = Codul introdus a ajuns la limită.
+coupon-error-invalid = Codul introdus este nevalid.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-enter-code =
+    .placeholder = Introdu codul
 
 ## Component - Fields
 
 default-input-error = Acest câmp este obligatoriu
 input-error-is-required = { $label } este necesar
 
+## Component - Header
+
+brand-name-mozilla-logo = Logo { -brand-mozilla }
+
+## Component - NewUserEmailForm
+
+new-user-sign-in-link-2 = Ai deja un { -product-mozilla-account }? <a>Intră în cont</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = Introdu adresa de e-mail
+new-user-confirm-email =
+    .label = Confirmă adresa de e-mail
+new-user-subscribe-product-updates-mozilla = Aș dori să primesc noutăți și actualizări despre produse de la { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Aș dori să primesc noutăți și actualizări despre securitate și confidențialitate de la { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Aș dori să primesc noutăți și actualizări despre produse de la { -product-mozilla-hubs } și { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Aș dori să primesc noutăți și actualizări despre produse de la { -product-mdn-plus } și { -brand-mozilla }
+new-user-subscribe-product-assurance = Îți folosim adresa de e-mail doar pentru crearea contului. Nu o vom vinde niciodată către terți.
+new-user-email-validate = Adresa de e-mail nu este validă
+new-user-email-validate-confirm = Adresele de e-mail nu se potrivesc.
+new-user-already-has-account-sign-in = Ai deja un cont. <a>Intră în cont</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Ai scris greșit adresa de e-mail? { $domain } nu oferă servicii de poștă electronică.
+
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = Îți mulțumim!
+payment-confirmation-thanks-heading-account-exists = Îți mulțumim! Acum verifică-ți e-mailul!
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = A fost trimis un e-mail de confirmare către { $email } cu detalii despre cum să începi să folosești { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Vei primi un mesaj pe e-mail la { $email } cu instrucțiuni pentru configurarea contului, precum și detaliile de plată.
 payment-confirmation-order-heading = Detalii comandă
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Informații pentru plăți
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -64,11 +105,19 @@ payment-confirmation-download-button = Continuă cu descărcarea
 ## Component - PaymentConsentCheckbox
 
 payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } să îmi perceapă, prin metoda mea de plată, suma afișată, conform <termsOfServiceLink>Condițiilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
+payment-confirm-checkbox-error = Trebuie să termini aici ca să treci mai departe
 
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Încearcă din nou
 payment-error-manage-subscription-button = Gestionează-mi abonamentul
+
+## Component - PaymentErrorView - IAP upgrade errors
+
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Ai deja un abonament la { $productName } prin magazinele de aplicații { -brand-google } sau { -brand-apple }.
+iap-upgrade-no-bundle-support = Nu oferim suport pentru upgrade-uri la aceste abonamente, dar o vom face în curând.
+iap-upgrade-contact-support = Încă poți obține produsul — te rugăm să contactezi serviciul de asistență pentru a te putea ajuta.
 
 ## Component - PaymentForm
 
@@ -162,6 +211,8 @@ sub-update-payment-title = Informații pentru plăți
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Plătește cu cardul
+product-invoice-preview-error-title = Problemă la încărcarea previzualizării facturii
+product-invoice-preview-error-text = Nu s-a putut încărca previzualizarea facturii
 
 ## Routes - Product - Subscription upgrade
 
