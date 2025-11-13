@@ -245,6 +245,45 @@ price-details-tax-day =
             [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } zile
            *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de zile
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taxe săptămânal
+        [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } săptămâni
+       *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de săptămâni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taxe săptămânal
+            [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } săptămâni
+           *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de săptămâni
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taxe lunar
+        [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } luni
+       *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de luni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taxe lunar
+            [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } luni
+           *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de luni
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } taxe anual
+        [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } ani
+       *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de ani
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taxe anual
+            [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } ani
+           *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de ani
+        }
 
 ## Component - SubscriptionTitle
 
@@ -252,12 +291,18 @@ subscription-create-title = Configurează-ți abonamentul
 subscription-success-title = Confirmare abonament
 subscription-processing-title = Se confirmă abonamentul …
 subscription-error-title = Eroare la confirmarea abonamentului …
+subscription-noplanchange-title = Această modificare de plan nu este acceptată
+subscription-iapsubscribed-title = Deja abonat(ă)
 sub-guarantee = Garanție de rambursare a banilor în 30 de zile
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Condiții de utilizare a serviciilor
 privacy = Notificare privind confidențialitatea
+terms-download = Descarcă condițiile
 
 ## App-level string(s) and messages shared by multiple components or routes
 
@@ -267,6 +312,25 @@ document =
 close-aria =
     .aria-label = Închide fereastra de dialog
 settings-subscriptions-title = Abonamente
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Cod promoțional
+
+## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
+## $amount (Number) - The amount billed. It will be formatted as currency.
+
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } zilnic
+        [few] { $amount } la fiecare { $intervalCount } zile
+       *[other] { $amount } la fiecare { $intervalCount } de zile
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } zilnic
+            [few] { $amount } la fiecare { $intervalCount } zile
+           *[other] { $amount } la fiecare { $intervalCount } de zile
+        }
 
 ## Error messages
 
