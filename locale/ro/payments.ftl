@@ -331,6 +331,45 @@ plan-price-interval-day =
             [few] { $amount } la fiecare { $intervalCount } zile
            *[other] { $amount } la fiecare { $intervalCount } de zile
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } săptămânal
+        [few] { $amount } la fiecare { $intervalCount } săptămâni
+       *[other] { $amount } la fiecare { $intervalCount } de săptămâni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } săptămânal
+            [few] { $amount } la fiecare { $intervalCount } săptămâni
+           *[other] { $amount } la fiecare { $intervalCount } de săptămâni
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } lunar
+        [few] { $amount } la fiecare { $intervalCount } luni
+       *[other] { $amount } la fiecare { $intervalCount } de luni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } lunar
+            [few] { $amount } la fiecare { $intervalCount } luni
+           *[other] { $amount } la fiecare { $intervalCount } de luni
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } anual
+        [few] { $amount } la fiecare { $intervalCount } ani
+       *[other] { $amount } la fiecare { $intervalCount } de ani
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } anual
+            [few] { $amount } la fiecare { $intervalCount } ani
+           *[other] { $amount } la fiecare { $intervalCount } de ani
+        }
 
 ## Error messages
 
@@ -339,6 +378,7 @@ general-error-heading = Eroare generală de aplicație
 basic-error-message = Ceva nu a funcționat. Te rugăm să încerci mai târziu.
 payment-error-1 = Hmm. A apărut o problemă la autorizarea plății tale. Încearcă din nou sau contactează emitentul cardului.
 payment-error-2 = Hmm. A apărut o problemă la autorizarea plății tale. Contactează emitentul cardului.
+payment-error-3b = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
 expired-card-error = Se pare că ți-a expirat cardul de credit. Încearcă alt card.
 insufficient-funds-error = Se pare că nu ai fonduri suficiente pe card. Încearcă alt card.
 withdrawal-count-limit-exceeded-error = Se pare că această tranzacție îți depășește limita de credit. Încearcă alt card.
@@ -350,6 +390,13 @@ card-error = Tranzacția nu a putut fi procesată. Te rugăm să verifici inform
 country-currency-mismatch = Moneda acestui abonament nu este valabilă pentru țara asociată plății tale.
 currency-currency-mismatch = Ne pare rău. Nu poți trece de la o monedă la alta.
 location-unsupported = Locația ta actuală nu este acceptată conform Condițiilor noastre de utilizare a serviciilor.
+no-subscription-change = Ne pare rău. Nu îți poți modifica planul de abonament.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Ești deja abonat(ă) prin { $mobileAppStore }.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Înregistrarea ta la { $productName } a eșuat din cauza unei erori de sistem. Metoda de plată nu a fost debitată. Te rugăm să încerci din nou.
+fxa-post-passwordless-sub-error = Abonament confirmat, dar pagina de confirmare nu s-a încărcat. Te rugăm să verifici adresa de e-mail pentru a-ți configura contul.
+newsletter-signup-error = Nu ești înscris(ă) pentru e-mailuri cu actualizări despre produse. Poți încerca din nou în setările contului tău.
 product-plan-error =
     .title = Problemă la încărcarea planurilor
 product-profile-error =
@@ -357,6 +404,19 @@ product-profile-error =
 product-customer-error =
     .title = Problemă la încărcarea clientului
 product-plan-not-found = Planul nu a fost găsit
+product-location-unsupported-error = Locația nu are suport
+
+## Hooks - coupons
+
+coupon-success = Planul se va reînnoi automat cu prețul de listă.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = Planul se va reînnoi automat după { $couponDurationDate } cu prețul de listă.
+
+## Routes - Checkout - New user
+
+new-user-step-1-2 = 1. Fă-ți un { -product-mozilla-account }
+new-user-card-title = Introdu informațiile cardului
+new-user-submit = Abonează-mă acum
 
 ## Routes - Product and Subscriptions
 
@@ -444,12 +504,17 @@ sub-route-idx-cancel-msg =
     Abonamentul tău pentru { $name } a fost anulat.
           <br />
           Vei mai avea acces la { $name } până la data de { $date }.
+sub-route-idx-cancel-aside-2 = Ai întrebări? Intră pe <a>{ -brand-mozilla } Asistență</a>.
 
 ## Routes - Subscriptions - Errors
 
 sub-customer-error =
     .title = Problemă la încărcarea clientului
+sub-invoice-error =
+    .title = Problemă la încărcarea facturilor
 sub-billing-update-success = Informațiile tale de facturare au fost actualizate cu succes
+sub-invoice-previews-error-title = Problemă la încărcarea previzualizării facturilor
+sub-invoice-previews-error-text = Nu s-au putut încărca previzualizările de facturi
 
 ## Routes - Subscription - ActionButton
 
@@ -462,6 +527,8 @@ pay-update-manage-btn = Gestionează
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Data următoarei facturi: { $date }
+sub-next-bill-due-date = Următoarea factură este scadentă la { $date }
+sub-expires-on = Expiră la { $date }
 
 ## Routes - Subscription - PaymentUpdate
 

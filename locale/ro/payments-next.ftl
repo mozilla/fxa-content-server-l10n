@@ -87,16 +87,39 @@ next-payment-confirmation-cc-card-ending-in = Card care se termină cu { $last4 
 
 ## Page - Subscription Management
 
+subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informații nevalide pentru plăți
+subscription-management-page-paypal-error-banner-message-account-error = A apărut o eroare cu contul tău.
+subscription-management-button-manage-payment-method-1 = Gestionează metoda de plată
+subscription-management-page-banner-warning-title-no-payment-method = Nicio metodă de plată adăugată
+subscription-management-page-banner-warning-link-no-payment-method = Adaugă o metodă de plată
 subscription-management-subscriptions-heading = Abonamente
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Sari la
+subscription-management-nav-payment-details = Detalii de plată
+subscription-management-nav-active-subscriptions = Abonamente active
+subscription-management-payment-details-heading = Detalii de plată
+subscription-management-email-label = E-mail
+subscription-management-credit-balance-label = Sold creditor
+subscription-management-credit-balance-message = Creditul va fi aplicat automat în facturile viitoare
 subscription-management-button-add-payment-method-aria = Adaugă metoda de plată
+subscription-management-button-add-payment-method = Adaugă
 subscription-management-button-manage-payment-method-aria = Gestionează metoda de plată
 subscription-management-button-manage-payment-method = Gestionează
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Card care se termină cu { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Data expirării { $expirationDate }
 subscription-management-button-support = Obține ajutor
 subscription-management-your-apple-iap-subscriptions-aria = Abonamentele tale în aplicația { -brand-apple }
 # Page - Not Found
 page-not-found-title = Pagina nu a fost găsită
 page-not-found-description = Pagina pe care ai solicitat-o nu a fost găsită. Am fost anunțați și vom repara orice linkuri care ar putea fi defecte.
 page-not-found-back-button = Înapoi
+
+## Navigation breadcrumbs
+
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonamente
 
 ## Component - Payment Consent Checkbox
 
@@ -132,6 +155,7 @@ payments-header-bento =
 payments-header-bento-close =
     .alt = Închide
 payments-header-bento-tagline = Mai multe produse de la { -brand-mozilla } care îți protejează confidențialitatea
+payments-header-avatar-expanded-sign-out = Ieși din cont
 payments-client-loading-spinner =
     .aria-label = Se încarcă…
     .alt = Se încarcă…
@@ -143,6 +167,8 @@ next-new-user-card-title = Introdu informațiile cardului
 ## Component - PurchaseDetails
 
 next-plan-details-header = Detalii produs
+next-plan-details-list-price = Preț de listă
+next-plan-details-tax = Taxe și comisioane
 next-plan-details-total-label = Total
 next-plan-details-hide-button = Ascunde detaliile
 next-plan-details-show-button = Afișează detaliile
@@ -157,12 +183,17 @@ select-tax-location-edit-button = Editează
 select-tax-location-save-button = Salvează
 select-tax-location-country-code-label = Țară
 select-tax-location-country-code-placeholder = Selectează țara
+signin-form-email-input-invalid = Te rugăm să precizezi o adresă de e-mail validă
+next-new-user-subscribe-product-updates-mdnplus = Aș dori să primesc noutăți și actualizări despre produse de la { -product-mdn-plus } și { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Aș dori să primesc noutăți și actualizări despre produse de la { -brand-mozilla }
+next-new-user-subscribe-product-updates-snp = Aș dori să primesc noutăți și actualizări despre securitate și confidențialitate de la { -brand-mozilla }
+next-new-user-subscribe-product-assurance = Îți folosim adresa de e-mail doar pentru crearea contului. Nu o vom vinde niciodată către terți.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 plan-price-interval-daily = { $amount } zilnic
+plan-price-interval-weekly = { $amount } săptămânal
 
 ## Component - SubscriptionTitle
 
