@@ -24,7 +24,7 @@ if [[ $# -lt 1 ]]; then
     usage;
 fi
 
-MAILER_DIR="./fxa-auth-server"
+MAILER_DIR="../libs/accounts/email-renderer"
 CONTENT_DIR="./fxa-content-server"
 PAYMENTS_DIR="./fxa-payments-server"
 PAYMENTS_NEXT_DIR="../apps/payments/next"
@@ -142,7 +142,7 @@ sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/
 cp $PAYMENTS_DIR/public/locales/en/payments.ftl $L10N_DIR/locale/templates
 cp $PAYMENTS_NEXT_DIR/public/locales/en/payments-next.ftl $L10N_DIR/locale/templates
 cp $SETTINGS_DIR/public/locales/en/settings.ftl $L10N_DIR/locale/templates
-cp $MAILER_DIR/public/locales/en/auth.ftl $L10N_DIR/locale/templates
+cp $MAILER_DIR/public/locales/en/emails.ftl $L10N_DIR/locale/templates
 cp $REACT_DIR/public/locales/en/react.ftl $L10N_DIR/locale/templates
 cp $SHARED_DIR/l10n/src/lib/branding.ftl $L10N_DIR/locale/templates
 
