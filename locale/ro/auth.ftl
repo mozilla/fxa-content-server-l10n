@@ -1,7 +1,7 @@
 ## Non-email strings
 
-session-verify-send-push-title-2 = Te conectezi la contul tău { -product-mozilla-account }?
-session-verify-send-push-body-2 = Dă clic aici ca să confirmi că ești tu
+session-verify-send-push-title-2 = Te conectezi la { -product-mozilla-account }?
+session-verify-send-push-body-2 = Dă clic aici să confirmi că ești tu
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
