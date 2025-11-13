@@ -433,6 +433,7 @@ postChangeRecoveryPhone-requested-device = 次の端末からリクエストし�
 postChangeTwoStepAuthentication-from-device = 次の端末からリクエストしました:
 postChangeTwoStepAuthentication-action = アカウント管理
 postConsumeRecoveryCode-action = アカウント管理
+postConsumeRecoveryCode-preview = あなたの操作であることを確認してください
 postNewRecoveryCodes-subject-2 = 新しいバックアップ認証コードが生成されました
 postNewRecoveryCodes-title-2 = 新しいバックアップ認証コードを生成しました
 # After the colon, there is information about the device that the authentication codes were created on
