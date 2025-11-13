@@ -137,11 +137,17 @@ payment-validate-name-error = Te rugăm să îți introduci numele
 
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } folosește { -brand-name-stripe } și { -brand-paypal } pentru procesarea în siguranță a plăților.
 payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } politica de confidențialitate</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } politica de confidențialitate</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } folosește { -brand-paypal } pentru prelucrarea în siguranță a plăților.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } politica de confidențialitate</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } folosește { -brand-name-stripe } pentru procesarea în siguranță a plăților.
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } politica de confidențialitate</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Alege metoda de plată
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Mai întâi va trebui să aprobi abonamentul
 
 ## Component - PaymentProcessing
 
@@ -151,16 +157,42 @@ payment-processing-message = Vă rugăm să așteptați în timp ce procesăm pl
 
 payment-confirmation-cc-card-ending-in = Card care se termină cu { $last4 }
 
+## Component - PayPalButton
+
+pay-with-heading-paypal-2 = Plătește cu { -brand-paypal }
+
 ## Component - PlanDetails
 
 plan-details-header = Detalii produs
+plan-details-list-price = Preț de listă
 plan-details-show-button = Afișează detaliile
 plan-details-hide-button = Ascunde detaliile
 plan-details-total-label = Total
+plan-details-tax = Taxe și comisioane
 
 ## Component - PlanErrorDialog
 
 product-no-such-plan = Nu există un astfel de plan pentru acest produs.
+
+## Price details including tax
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } taxe
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } zilnic
+        [few] { $priceAmount } la fiecare { $intervalCount } zile
+       *[other] { $priceAmount } zilnic
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } la fiecare { $intervalCount } zi
+            [few] { $priceAmount } la fiecare { $intervalCount } zile
+           *[other] { $priceAmount } la fiecare { $intervalCount } de zile
+        }
 
 ## Component - SubscriptionTitle
 
