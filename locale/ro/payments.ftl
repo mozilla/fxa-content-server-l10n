@@ -214,11 +214,40 @@ pay-with-heading-card-only = Plătește cu cardul
 product-invoice-preview-error-title = Problemă la încărcarea previzualizării facturii
 product-invoice-preview-error-text = Nu s-a putut încărca previzualizarea facturii
 
+## Routes - Product - IapRoadblock
+
+subscription-iaperrorupgrade-title = Nu te putem trece la o versiune superioară încă
+
+# The following are not terms because they are not used directly in messages,
+# but rather looked up in code and passed into the message as variables.
+
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
+
 ## Routes - Product - Subscription upgrade
 
+product-plan-change-heading = Vezi modificarea
+sub-change-failed = Modificarea planului a eșuat
+sub-update-acknowledgment =
+    Planul tău va fi modificat imediat și astăzi ți se va percepe o 
+    sumă proporțională cu restul acestui ciclu de facturare. Începând cu { $startingDate } 
+    ți se va percepe suma totală.
+sub-change-submit = Confirmă modificarea
 sub-update-current-plan-label = Plan curent
 sub-update-new-plan-label = Plan nou
 sub-update-total-label = Total nou
+sub-update-prorated-upgrade = Trecere la nivel superior calculată pro-rata
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-daily = { $productName } (Zilnic)
+sub-update-new-plan-weekly = { $productName } (Săptămânal)
+sub-update-new-plan-monthly = { $productName } (Lunar)
+sub-update-new-plan-yearly = { $productName } (Anual)
+sub-update-prorated-upgrade-credit = Soldul negativ afișat va fi creditat în contul tău și utilizat pentru facturile viitoare.
 
 ## Routes - Subscriptions - Cancel
 
@@ -234,6 +263,19 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Anulează-mi accesul și informațiile mele salvate în
     { $name } la { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = { $promotion_name } cupon aplicat: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Această plată a abonamentului a dus la o creditare a soldului din contul tău: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
