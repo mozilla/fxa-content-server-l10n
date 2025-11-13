@@ -118,6 +118,7 @@ payment-error-manage-subscription-button = Gestionează-mi abonamentul
 iap-upgrade-already-subscribed-2 = Ai deja un abonament la { $productName } prin magazinele de aplicații { -brand-google } sau { -brand-apple }.
 iap-upgrade-no-bundle-support = Nu oferim suport pentru upgrade-uri la aceste abonamente, dar o vom face în curând.
 iap-upgrade-contact-support = Încă poți obține produsul — te rugăm să contactezi serviciul de asistență pentru a te putea ajuta.
+iap-upgrade-get-help-button = Obține ajutor
 
 ## Component - PaymentForm
 
@@ -129,7 +130,13 @@ payment-cc =
 payment-cancel-btn = Anulează
 payment-update-btn = Actualizează
 payment-pay-btn = Plătește acum
+payment-pay-with-paypal-btn-2 = Plătește cu { -brand-paypal }
 payment-validate-name-error = Te rugăm să îți introduci numele
+
+## Component - PaymentLegalBlurb
+
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } folosește { -brand-name-stripe } și { -brand-paypal } pentru procesarea în siguranță a plăților.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } politica de confidențialitate</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } politica de confidențialitate</paypalPrivacyLink>
 
 ## Component - PaymentMethodHeader
 
