@@ -185,13 +185,65 @@ price-details-no-tax-day =
     { $intervalCount ->
         [one] { $priceAmount } zilnic
         [few] { $priceAmount } la fiecare { $intervalCount } zile
-       *[other] { $priceAmount } zilnic
+       *[other] { $priceAmount } la fiecare { $intervalCount } de zile
     }
     .title =
         { $intervalCount ->
-            [one] { $priceAmount } la fiecare { $intervalCount } zi
+            [one] { $priceAmount } zilnic
             [few] { $priceAmount } la fiecare { $intervalCount } zile
            *[other] { $priceAmount } la fiecare { $intervalCount } de zile
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } săptămânal
+        [few] { $priceAmount } la fiecare { $intervalCount } săptămâni
+       *[other] { $priceAmount } la fiecare { $intervalCount } de săptămâni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } săptămânal
+            [few] { $priceAmount } la fiecare { $intervalCount } săptămâni
+           *[other] { $priceAmount } la fiecare { $intervalCount } de săptămâni
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } lunar
+        [few] { $priceAmount } la fiecare { $intervalCount } luni
+       *[other] { $priceAmount } la fiecare { $intervalCount } de luni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } lunar
+            [few] { $priceAmount } la fiecare { $intervalCount } luni
+           *[other] { $priceAmount } la fiecare { $intervalCount } de luni
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } anual
+        [few] { $priceAmount } la fiecare { $intervalCount } ani
+       *[other] { $priceAmount } la fiecare { $intervalCount } de ani
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } anual
+            [few] { $priceAmount } la fiecare { $intervalCount } ani
+           *[other] { $priceAmount } la fiecare { $intervalCount } de ani
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } +{ $taxAmount } taxe zilnic
+        [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } zile
+       *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de zile
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } taxe zilnic
+            [few] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } zile
+           *[other] { $priceAmount } + { $taxAmount } taxe la fiecare { $intervalCount } de zile
         }
 
 ## Component - SubscriptionTitle
