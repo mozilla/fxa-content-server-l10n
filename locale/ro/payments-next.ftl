@@ -101,16 +101,28 @@ subscription-management-payment-details-heading = Detalii de plată
 subscription-management-email-label = E-mail
 subscription-management-credit-balance-label = Sold creditor
 subscription-management-credit-balance-message = Creditul va fi aplicat automat în facturile viitoare
+subscription-management-payment-method-label = Metodă de plată
 subscription-management-button-add-payment-method-aria = Adaugă metoda de plată
 subscription-management-button-add-payment-method = Adaugă
+subscription-management-page-warning-message-no-payment-method = Te rugăm să adaugi o metodă de plată pentru a evita întreruperea abonamentelor.
 subscription-management-button-manage-payment-method-aria = Gestionează metoda de plată
 subscription-management-button-manage-payment-method = Gestionează
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Card care se termină cu { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Data expirării { $expirationDate }
+subscription-management-error-paypal-billing-agreement = A apărut o problemă în contul tău { -brand-paypal }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
+subscription-management-active-subscriptions-heading = Abonamente active
+subscription-management-you-have-no-active-subscriptions = Nu ai abonamente active
+subscription-management-new-subs-will-appear-here = Aici vor apărea abonamentele noi.
+subscription-management-your-active-subscriptions-aria = Abonamentele tale active
 subscription-management-button-support = Obține ajutor
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Obține ajutor pentru { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Abonamentele tale în aplicația { -brand-apple }
+subscription-management-your-google-iap-subscriptions-aria = Abonamentele tale în aplicația { -brand-google }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Gestionează abonamentul pentru { $productName }
 # Page - Not Found
 page-not-found-title = Pagina nu a fost găsită
 page-not-found-description = Pagina pe care ai solicitat-o nu a fost găsită. Am fost anunțați și vom repara orice linkuri care ar putea fi defecte.
@@ -120,6 +132,8 @@ page-not-found-back-button = Înapoi
 
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonamente
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Înapoi la { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -170,6 +184,13 @@ next-plan-details-header = Detalii produs
 next-plan-details-list-price = Preț de listă
 next-plan-details-tax = Taxe și comisioane
 next-plan-details-total-label = Total
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Credit din timpul neutilizat
+purchase-details-subtotal-label = Subtotal
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Credit aplicat
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Total de plată
 next-plan-details-hide-button = Ascunde detaliile
 next-plan-details-show-button = Afișează detaliile
 next-coupon-success = Planul se va reînnoi automat cu prețul de listă.
@@ -181,6 +202,7 @@ next-coupon-success-repeating = Planul se va reînnoi automat după { $couponDur
 select-tax-location-title = Locație
 select-tax-location-edit-button = Editează
 select-tax-location-save-button = Salvează
+select-tax-location-continue-to-checkout-button = Mergi la plată
 select-tax-location-country-code-label = Țară
 select-tax-location-country-code-placeholder = Selectează țara
 signin-form-email-input-invalid = Te rugăm să precizezi o adresă de e-mail validă
@@ -189,20 +211,63 @@ next-new-user-subscribe-product-updates-mozilla = Aș dori să primesc noutăți
 next-new-user-subscribe-product-updates-snp = Aș dori să primesc noutăți și actualizări despre securitate și confidențialitate de la { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Îți folosim adresa de e-mail doar pentru crearea contului. Nu o vom vinde niciodată către terți.
 
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-heading-cancel-subscription = Anulează abonamentul
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 plan-price-interval-daily = { $amount } zilnic
 plan-price-interval-weekly = { $amount } săptămânal
+plan-price-interval-monthly = { $amount } lunar
+plan-price-interval-halfyearly = { $amount } la fiecare 6 luni
+plan-price-interval-yearly = { $amount } anual
 
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = Configurează-ți abonamentul
+next-subscription-success-title = Confirmare abonament
 next-subscription-processing-title = Se confirmă abonamentul …
 next-subscription-error-title = Eroare la confirmarea abonamentului …
+subscription-title-plan-change-heading = Vezi modificarea
 next-sub-guarantee = Garanție de rambursare a banilor în 30 de zile
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 next-terms = Condiții de utilizare a serviciilor
 next-privacy = Notificare privind confidențialitatea
+next-terms-download = Descarcă condițiile
+terms-and-privacy-stripe-label = { -brand-mozilla } folosește { -brand-name-stripe } pentru procesarea în siguranță a plăților.
+
+## Component - UpdatedPurchaseDetails
+
+upgrade-purchase-details-current-plan-label = Plan curent
+upgrade-purchase-details-new-plan-label = Plan nou
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+metadata-description-upgrade-needs-input = Te rugăm să finalizezi acțiunea necesară ca să poți merge la plată.
+# Default
+metadata-title-default = Pagina nu a fost găsită | { $productTitle }
+metadata-description-default = Pagina pe care ai cerut-o nu a fost găsită.
+
+## Coupon Error Messages
+
+next-coupon-error-cannot-redeem = Codul introdus nu poate fi valorificat — contul tău are un abonament anterior la unul dintre serviciile noastre.
+next-coupon-error-expired = Codul introdus a expirat.
+next-coupon-error-generic = A apărut o eroare la procesarea codului. Te rugăm să încerci din nou.
+next-coupon-error-invalid = Codul introdus este nevalid.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Codul introdus a ajuns la limită.
