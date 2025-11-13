@@ -132,6 +132,9 @@ subscription-management-iap-sub-expires-on-expiry-date = יפוג בתאריך {
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
 subscription-management-button-manage-subscription-1 = ניהול מינויי
+error-payment-method-banner-title-expired-card = כרטיס שפג תוקפו
+error-payment-method-banner-message-add-new-card = יש להוסיף כרטיס חדש או אמצעי תשלום כדי למנוע הפרעה למינויים שלך.
+error-payment-method-banner-label-update-payment-method = עדכון אמצעי התשלום
 subscription-management-button-manage-payment-method-1 = ניהול אמצעי תשלום
 subscription-management-error-paypal-billing-agreement = יש בעיה בחשבון ה־{ -brand-paypal } שלך. יש לפתור את הבעיה כדי לשמור על המינויים הפעילים שלך.
 manage-payment-methods-heading = ניהול אמצעי תשלום

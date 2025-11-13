@@ -184,6 +184,61 @@ form-verify-totp-disabled-button-title-alphanumeric = Introdu codul de { $codeLe
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Cheie de recuperare a contului { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Coduri de autentificare de rezervă
+get-data-trio-download-2 =
+    .title = Descarcă
+    .aria-label = Descarcă
+get-data-trio-copy-2 =
+    .title = Copiază
+    .aria-label = Copiază
+get-data-trio-print-2 =
+    .title = Printează
+    .aria-label = Printează
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Alertă
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Atenție
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Avertisment
+authenticator-app-aria-label =
+    .aria-label = Aplicație de autentificare
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Coduri de rezervă de autentificare activate
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Coduri de rezervă de autentificare dezactivate
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS de recuperare activat
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS de recuperare dezactivat
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Drapelul canadian
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Bifează
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Succes
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Activat
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Închide mesajul
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Cod
+error-icon-aria-label =
+    .aria-label = Eroare
 
 ## Input Password
 
@@ -195,7 +250,12 @@ input-password-show = Afișează parola
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-previously-signed-in-device-2 = Ai vreun dispozitiv pe care te-ai conectat anterior?
 password-reset-data-may-be-saved-locally-2 = Este posibil să ai datele din browser salvate pe dispozitivul respectiv. Resetează-ți parola, apoi intră în cont pe dispozitiv ca să îți restaurezi și să îți sincronizezi datele.
+password-reset-no-old-device-2 = Ai un dispozitiv nou, dar nu ai acces la niciunul dintre cele anterioare?
+password-reset-encrypted-data-cannot-be-recovered-2 = Ne pare rău, dar datele criptate ale browserului tău nu pot fi recuperate de pe serverele { -brand-firefox }.
+password-reset-warning-have-key = Ai o cheie de recuperare a contului?
+password-reset-warning-use-key-link = Folosește-o acum ca să resetezi parola și să-ți păstrezi datele
 
 ## Alert Bar
 
@@ -213,6 +273,9 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = produse { -brand-mozilla }
+bento-menu-tagline = Mai multe produse de la { -brand-mozilla } care îți protejează confidențialitatea
+bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-firefox-desktop = Browserul { -brand-firefox } pentru desktop
 bento-menu-firefox-mobile = Browserul { -brand-firefox } pentru dispozitiv mobil
 bento-menu-made-by-mozilla = Realizat de { -brand-mozilla }
