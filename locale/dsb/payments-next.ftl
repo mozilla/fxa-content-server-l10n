@@ -137,7 +137,15 @@ subscription-management-iap-sub-expires-on-expiry-date = Spadnjo { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonement za { $productName } zastojaś
 subscription-management-button-manage-subscription-1 = Abonement zastojaś
+error-payment-method-banner-title-expired-card = Pśepadnjona kórta
+error-payment-method-banner-message-add-new-card = Pśidajśo nowu kórtu abo płaśeńsku metodu, aby se pśetergnjenja swójich abonementow wobinuł.
+error-payment-method-banner-label-update-payment-method = Płaśeńsku metodu aktualizěrowaś
+error-payment-method-expired-card = Waša kórta jo spadnuła. Pšosym pśidajśo nowu kórtu abo płaśeńsku metodu, aby se pśetergnjenja swójich abonementow wobinuł.
+error-payment-method-banner-title-invalid-payment-information = Njepłaśiwe płaśeńske informacije
+error-payment-method-banner-message-account-issue = Dajo problem z wašym kontom.
 subscription-management-button-manage-payment-method-1 = Płaśeńsku metodu zastojaś
+subscription-management-error-apple-pay = Dajo problem z wašym kontom { -brand-apple-pay }. Pšosym rozwěžćo problem, aby swóje aktiwne abonementy wobchował.
+subscription-management-error-google-pay = Dajo problem z wašym kontom { -brand-google-pay }. Pšosym rozwěžćo problem, aby swóje aktiwne abonementy wobchował.
 subscription-management-error-paypal-billing-agreement = Dajo problem z wašym kontom { -brand-paypal }. Pšosym rozwěžćo problem, aby swóje aktiwne abonementy wobchował.
 manage-payment-methods-heading = Płaśeńske metody zastojaś
 paypal-payment-management-page-invalid-header = Njepłaśiwe wótliceńske informacije
