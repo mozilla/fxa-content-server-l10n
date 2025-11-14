@@ -723,7 +723,7 @@ msgstr "მიიღეთ უახლესი ცნობები Mozilla-�
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "დაგვეხმარეთ ინტერნეტის სიჯანსაღის შენარჩუნებაში"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"

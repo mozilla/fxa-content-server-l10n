@@ -1551,7 +1551,7 @@ pair-unsupported-message = სისტემის კამერას იყ
 
 set-password-heading-v2 = პაროლის შექმნა დასინქრონებისთვის
 # "This" refers to the heading, "Create password to sync"
-set-password-info-v2 = ამით დაიშიფრება თქვენი მონაცემები. უნდა განსხვავდებოდეს თქვენი { -brand-google }- ან { -brand-apple }-ანგარიშის პაროლისგან.
+set-password-info-v2 = ამით დაიშიფრება თქვენი მონაცემები. განსხვავებული პაროლებით უნდა გქონდეთ ანგარიშები { -brand-google } და { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.

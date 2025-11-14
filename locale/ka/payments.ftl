@@ -111,7 +111,7 @@ payment-error-manage-subscription-button = გამოწერების მ
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed-2 = უკვე გამოწერილი გაქვთ { $productName } ან { -brand-google }-ის, ან { -brand-apple }-ის მაღაზიიდან.
+iap-upgrade-already-subscribed-2 = უკვე გამოწერილი გაქვთ { $productName } მაღაზიიდან { -brand-google } ან { -brand-apple }.
 iap-upgrade-no-bundle-support = ჯერ არაა მხარდაჭერილი ამ გამოწერების გაუმჯობესება, მაგრამ მუშავდება.
 iap-upgrade-contact-support = კვლავ შეგიძლიათ ამ პროდუქტის მიღება — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
 iap-upgrade-get-help-button = დახმარების მიღება
