@@ -134,10 +134,10 @@ subscription-management-iap-sub-expires-on-expiry-date = Vence el { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrar suscripción para { $productName }
 subscription-management-button-manage-subscription-1 = Administrar suscripción
-error-payment-method-banner-title-expired-card = Tarjeta caducada
-error-payment-method-banner-message-add-new-card = Agrega una nueva tarjeta o método de pago para evitar la interrupción de tus suscripciones.
+error-payment-method-banner-title-expired-card = Tarjeta vencida
+error-payment-method-banner-message-add-new-card = Agregá una nueva tarjeta o método de pago para evitar la interrupción de tus suscripciones.
 error-payment-method-banner-label-update-payment-method = Actualizar método de pago
-error-payment-method-expired-card = Tu tarjeta ha expirado. Agrega una nueva tarjeta o método de pago para evitar la interrupción de tus suscripciones.
+error-payment-method-expired-card = Tu tarjeta ha expirado. Agregá una nueva tarjeta o método de pago para evitar la interrupción de tus suscripciones.
 error-payment-method-banner-title-invalid-payment-information = La información de pago no es válida
 error-payment-method-banner-message-account-issue = Hay un problema con tu cuenta.
 subscription-management-button-manage-payment-method-1 = Administrar método de pago
