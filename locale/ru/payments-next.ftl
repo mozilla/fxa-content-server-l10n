@@ -134,6 +134,12 @@ subscription-management-iap-sub-expires-on-expiry-date = Истекает { $dat
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Управление подпиской на { $productName }
 subscription-management-button-manage-subscription-1 = Управление подпиской
+error-payment-method-banner-title-expired-card = Просроченная карта
+error-payment-method-banner-message-add-new-card = Добавьте новую карту или способ оплаты, чтобы не прерывать ваши подписки.
+error-payment-method-banner-label-update-payment-method = Обновить способ оплаты
+error-payment-method-expired-card = Срок действия вашей карты истёк. Пожалуйста, добавьте новую карту или способ оплаты, чтобы избежать прерывания ваших подписок.
+error-payment-method-banner-title-invalid-payment-information = Неверная платежная информация
+error-payment-method-banner-message-account-issue = С вашим аккаунтом возникла проблема.
 subscription-management-button-manage-payment-method-1 = Управление способом оплаты
 subscription-management-error-paypal-billing-agreement = С вашим аккаунтом { -brand-paypal } возникла проблема. Пожалуйста, решите эту проблему, чтобы сохранить ваши активные подписки.
 manage-payment-methods-heading = Управление способами оплаты
