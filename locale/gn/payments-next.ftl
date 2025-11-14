@@ -110,6 +110,7 @@ subscription-management-credit-balance-message = Viruporuka oku’éta ijehegui 
 subscription-management-payment-method-label = Mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method-aria = Embojuapy mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method = Mbojuaju
+subscription-management-page-warning-message-no-payment-method = Ikatúpa embojuaju jehepyme’ẽrã ani hag̃ua oso’oso ne ñemboheraguapyita.
 subscription-management-button-manage-payment-method-aria = Eñangareko mba’éichapa ehepyme’ẽta
 subscription-management-button-manage-payment-method = Ñangareko
 # $last4 (String) - Last four numbers of credit card
@@ -132,6 +133,7 @@ subscription-management-iap-sub-expires-on-expiry-date = Opáta { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Eñangareko teraguapy { $productName }-pe g̃uarã
 subscription-management-button-manage-subscription-1 = Mboheraguapýre ñangareko
+error-payment-method-banner-title-expired-card = Kuatia’atã ndoikovéima
 subscription-management-button-manage-payment-method-1 = Ehecha mba’éicha ehepyme’ẽta
 manage-payment-methods-heading = Eñangareko mba’éicha ehepyme’ẽta
 paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹva
