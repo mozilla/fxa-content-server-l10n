@@ -137,7 +137,16 @@ subscription-management-iap-sub-expires-on-expiry-date = Skadon më { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administroni pajtim për { $productName }
 subscription-management-button-manage-subscription-1 = Administroni pajtim
+error-payment-method-banner-title-expired-card = Kartë e skaduar
+error-payment-method-banner-message-add-new-card = Shtoni një kartë të re, ose metodë pagesash të re, që të shmangni ndërprerje të pajtimeve tuaja.
+error-payment-method-banner-label-update-payment-method = Përditësoni metodë pagesash
+error-payment-method-expired-card = Karta juaj ka skaduar. Shtoni një kartë të re, ose metodë pagesash të re, që të shmangni ndërprerje të pajtimeve tuaja.
+error-payment-method-banner-title-invalid-payment-information = Informacion i pavlefshëm pagese
+error-payment-method-banner-message-account-issue = Ka një problem me llogarinë tuaj.
 subscription-management-button-manage-payment-method-1 = Administroni metodë pagesash
+subscription-management-error-apple-pay = Ka një problem me llogarinë tuaj { -brand-apple-pay }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
+subscription-management-error-google-pay = Ka një problem me llogarinë tuaj { -brand-google-pay }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
+subscription-management-error-link = Ka një problem me llogarinë tuaj { -brand-link }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
 subscription-management-error-paypal-billing-agreement = Ka një problem me llogarinë tuaj { -brand-paypal }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
 manage-payment-methods-heading = Administroni metoda pagesash
 paypal-payment-management-page-invalid-header = Hollësi faturimi të pavlefshme
