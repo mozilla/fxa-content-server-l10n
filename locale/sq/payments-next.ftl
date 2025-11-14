@@ -148,6 +148,7 @@ subscription-management-error-apple-pay = Ka një problem me llogarinë tuaj { -
 subscription-management-error-google-pay = Ka një problem me llogarinë tuaj { -brand-google-pay }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
 subscription-management-error-link = Ka një problem me llogarinë tuaj { -brand-link }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
 subscription-management-error-paypal-billing-agreement = Ka një problem me llogarinë tuaj { -brand-paypal }. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
+subscription-management-error-payment-method = Ka një problem me metodën tuaj të pagesave. Ju lutemi, zgjidhni problemin, që të mbahen pajtimet tuaja aktive.
 manage-payment-methods-heading = Administroni metoda pagesash
 paypal-payment-management-page-invalid-header = Hollësi faturimi të pavlefshme
 paypal-payment-management-page-invalid-description = Duket të ketë një gabim me llogarinë tuaj { -brand-paypal }. Duam që të ndërmerrni hapat e nevojshëm për të zgjidhur këtë problem pagese.
