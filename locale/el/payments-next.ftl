@@ -134,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Λήγει στις { $
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
 subscription-management-button-manage-subscription-1 = Διαχείριση συνδρομής
+error-payment-method-banner-label-update-payment-method = Ενημέρωση μεθόδου πληρωμής
+error-payment-method-banner-title-invalid-payment-information = Μη έγκυρα στοιχεία πληρωμής
 subscription-management-button-manage-payment-method-1 = Διαχείριση μεθόδου πληρωμής
 subscription-management-error-paypal-billing-agreement = Υπάρχει πρόβλημα με τον λογαριασμό σας στο { -brand-paypal }, Επιλύστε το ζήτημα για να διατηρήσετε τις ενεργές συνδρομές σας.
 manage-payment-methods-heading = Διαχείριση μεθόδων πληρωμής
