@@ -134,6 +134,9 @@ subscription-management-iap-sub-expires-on-expiry-date = Ferrint op { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnemint foar { $productName } beheare
 subscription-management-button-manage-subscription-1 = Abonnemint beheare
+error-payment-method-banner-title-expired-card = Ferrûne kaart
+error-payment-method-banner-message-add-new-card = Foegje in nije kaart of betellingsmetoade ta om ûnderbrekking fan jo abonneminten foar te kommen.
+error-payment-method-banner-label-update-payment-method = Betellingsmetoade bywukje
 subscription-management-button-manage-payment-method-1 = Betellingsmetoade beheare
 subscription-management-error-paypal-billing-agreement = Der is in probleem mei jo { -brand-paypal }-account. Los it probleem op om jo aktive abonneminten te behâlden.
 manage-payment-methods-heading = Betellingsmetoaden beheare
