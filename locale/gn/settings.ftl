@@ -821,6 +821,9 @@ tfa-create-code-success-alert = Ayvu ñemoneĩrã jeykekoha moheñoimbyre
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
 tfa-replace-code-download-description = Eñongatu nemandu’a hag̃uáme uperire. Nde ayvu itujavéva hekoviáta ejapopávo ko jeku’e.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Emoañete eñongatuhague nde ayvukuéra emoingévo peteĩ. Umi ayvu ñemoneĩrãva jeykokeha oguéta ejapopávo ko jeku’e.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã ñongatujeyrã ndoikói
 
