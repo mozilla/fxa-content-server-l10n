@@ -134,9 +134,16 @@ subscription-management-iap-sub-expires-on-expiry-date = Λήγει στις { $
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
 subscription-management-button-manage-subscription-1 = Διαχείριση συνδρομής
+error-payment-method-banner-title-expired-card = Ληγμένη κάρτα
+error-payment-method-banner-message-add-new-card = Προσθέστε μια νέα κάρτα ή μέθοδο πληρωμής για να αποφύγετε τη διακοπή των συνδρομών σας.
 error-payment-method-banner-label-update-payment-method = Ενημέρωση μεθόδου πληρωμής
+error-payment-method-expired-card = Η κάρτα σας έχει λήξει. Προσθέστε μια νέα κάρτα ή μέθοδο πληρωμής για να αποφύγετε τη διακοπή των συνδρομών σας.
 error-payment-method-banner-title-invalid-payment-information = Μη έγκυρα στοιχεία πληρωμής
+error-payment-method-banner-message-account-issue = Προέκυψε πρόβλημα με τον λογαριασμό σας.
 subscription-management-button-manage-payment-method-1 = Διαχείριση μεθόδου πληρωμής
+subscription-management-error-apple-pay = Υπάρχει πρόβλημα με τον λογαριασμό σας στο { -brand-apple-pay }. Επιλύστε το ζήτημα για να διατηρήσετε τις ενεργές συνδρομές σας.
+subscription-management-error-google-pay = Υπάρχει πρόβλημα με τον λογαριασμό σας στο { -brand-google-pay }. Επιλύστε το ζήτημα για να διατηρήσετε τις ενεργές συνδρομές σας.
+subscription-management-error-link = Υπάρχει πρόβλημα με τον λογαριασμό σας στο { -brand-link }. Επιλύστε το ζήτημα για να διατηρήσετε τις ενεργές συνδρομές σας.
 subscription-management-error-paypal-billing-agreement = Υπάρχει πρόβλημα με τον λογαριασμό σας στο { -brand-paypal }, Επιλύστε το ζήτημα για να διατηρήσετε τις ενεργές συνδρομές σας.
 manage-payment-methods-heading = Διαχείριση μεθόδων πληρωμής
 paypal-payment-management-page-invalid-header = Μη έγκυρα στοιχεία χρέωσης
