@@ -1873,6 +1873,7 @@ signin-totp-code-instruction-v4 = Ehechajey ne <strong>rembiporu’i ñemoneĩr�
 signin-totp-code-input-label-v4 = Emoinge mba’eñemi 6 taíva
 # Shown to users when they need to re-enter their authentication code, for their current device
 signin-totp-code-aal-banner-header = ¿Mba’érepa ojejerure ndéve ejekuaaukávo?
+signin-totp-code-aal-banner-content = Embohekóma ñemoneĩ mokõi jeku’gua ne mba’etépe, hákatu na’írã gueteri eike pe ayvu ndive ko mba’e’okápe.
 signin-totp-code-aal-sign-out = Emboty tembiapo ko mba’e’okápe
 signin-totp-code-aal-sign-out-error = Ore ñyrõ, iñapañuái embotykuévo ne rembiapo
 # Form button to confirm if the authentication code entered by the user is valid
