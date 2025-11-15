@@ -64,6 +64,7 @@ intent-payment-error-get-in-touch = Épa. Oĩ apañuái ehepyme’ẽnguévo. E�
 intent-payment-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperireve.
 intent-payment-error-insufficient-funds = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
 general-paypal-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Ikatúpiko eha’ãjey uperire.
+paypal-active-subscription-no-billing-agreement-error = Ha’ete ku oĩva apañuái emonguatiávo nde { -brand-paypal } mba’etépe. Ikatúpiko emyandy jey jehepyme’ẽ ijeheguíva ne ñemboheraguapyrã.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -142,6 +143,7 @@ error-payment-method-banner-message-account-issue = Oĩ peteĩ apañuái ne mba�
 subscription-management-button-manage-payment-method-1 = Ehecha mba’éicha ehepyme’ẽta
 subscription-management-error-apple-pay = Oĩ apañuái ne { -brand-apple-pay } mba’etépe. Ikatúpiko emoĩporã upe apañuái eguereko hag̃ua ne ñemboheraguapy hendyhápe.
 subscription-management-error-google-pay = Oĩ apañuái ne { -brand-google-pay } mba’etépe. Ikatúpiko emoĩporã upe apañuái eguereko hag̃ua ne ñemboheraguapy hendyhápe.
+subscription-management-error-link = Oĩ apañuái ne { -brand-link } mba’etépe. Ikatúpiko emoĩporã upe apañuái eguereko hag̃ua ne ñemboheraguapy hendyhápe.
 subscription-management-error-paypal-billing-agreement = Oĩ apañuái ne { -brand-paypal } mba’etépe. Ikatúpiko emoĩporã upe apañuái eguereko hag̃ua ne ñemboheraguapy hendyhápe.
 subscription-management-error-payment-method = Oĩ apañuái ne jehepyme’ẽrãme. Ikatúpiko emoĩporã upe apañuái eguereko hag̃ua ne ñemboheraguapy hendyhápe.
 manage-payment-methods-heading = Eñangareko mba’éicha ehepyme’ẽta
