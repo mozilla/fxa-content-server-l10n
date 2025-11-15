@@ -128,6 +128,9 @@ subscription-management-iap-sub-expires-on-expiry-date = Son geçerlilik tarihi:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } aboneliğini yönet
 subscription-management-button-manage-subscription-1 = Abonelikleri yönet
+error-payment-method-banner-label-update-payment-method = Ödeme yöntemini güncelle
+error-payment-method-banner-title-invalid-payment-information = Geçersiz ödeme bilgileri
+error-payment-method-banner-message-account-issue = Hesabınızla ilgili bir sorun var.
 subscription-management-button-manage-payment-method-1 = Ödeme yöntemini yönet
 manage-payment-methods-heading = Ödeme yöntemlerini yönet
 paypal-payment-management-page-invalid-header = Geçersiz fatura bilgileri
