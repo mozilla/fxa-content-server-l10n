@@ -827,6 +827,9 @@ terms-privacy-agreement-default-2 = Працягваючы, вы згаджае�
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = Або
+# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
+# This could also be translated as "Sign in with the following" or "Sign in with the below".
+third-party-auth-options-sign-in-with = Увайсці з дапамогай
 continue-with-google-button = Працягнуць з { -brand-google }
 continue-with-apple-button = Працягнуць з { -brand-apple }
 
@@ -891,6 +894,10 @@ cookies-disabled-enable-prompt-2 = Калі ласка, уключыце кук�
 cookies-disabled-button-try-again = Паспрабаваць зноў
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Падрабязней
+
+## Index / home page
+
+index-cta = Зарэгістравацца або ўвайсці
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1119,11 +1126,18 @@ signin-bounced-help = Калі гэта сапраўдны адрас элект
 signin-bounced-create-new-account = Больш не валодаеце гэтым адрасам? Стварыце новы ўліковы запіс
 back = Назад
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+signin-recovery-method-header = Увайсці
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Увайсці
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Сцвердзіць
 # External link for support if the user can't use two-step autentication or a backup authentication code
