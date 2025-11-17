@@ -1149,7 +1149,7 @@ msgstr "Перайсці да <div class=\"graphic %(serviceLogo)s\">%(serviceNa
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "Стварыць маску электроннай пошты"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."

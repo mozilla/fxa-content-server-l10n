@@ -238,6 +238,11 @@ error-bad-request = Дрэнны запыт
 password-info-balloon-why-password-info = Вам патрэбны гэты пароль для доступу да любых зашыфраваных звестак, якія вы захоўваеце ў нас.
 password-info-balloon-reset-risk-info = Скід азначае патэнцыйную страту такіх звестак, як паролі ці закладкі.
 
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
+
+password-strength-inline-not-email = Не ваш адрас электроннай пошты
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Стварыць

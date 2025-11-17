@@ -51,6 +51,7 @@ next-payment-confirmation-cc-card-ending-in = Карта, нумар якой з
 
 ## Page - Subscription Management
 
+subscription-management-email-label = Электронная пошта
 # Page - Not Found
 page-not-found-title = Старонка не знойдзена
 page-not-found-back-button = Вярнуцца
@@ -107,6 +108,7 @@ next-coupon-success-repeating = Ваш план будзе аўтаматычн�
 
 select-tax-location-save-button = Захаваць
 select-tax-location-country-code-label = Краіна
+signin-form-email-input = Увядзіце сваю электронную пошту
 signin-form-email-input-missing = Калі ласка, увядзіце свой адрас электроннай пошты
 signin-form-email-input-invalid = Калі ласка, увядзіце сапраўдны адрас электроннай пошты
 next-new-user-subscribe-product-updates-mdnplus = Я хачу атрымліваць навіны аб прадуктах і абнаўленні ад { -product-mdn-plus } і { -brand-mozilla }
