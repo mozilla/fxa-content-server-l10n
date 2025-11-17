@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Informação de pagamento inválida
-subscription-management-page-paypal-error-banner-message-account-error = Existe um erro com a sua conta.
-subscription-management-button-manage-payment-method-1 = Gerir método de pagamento
 subscription-management-page-banner-warning-title-no-payment-method = Nenhum método de pagamento adicionado
 subscription-management-page-banner-warning-link-no-payment-method = Adicionar um método de pagamento
 subscription-management-subscriptions-heading = Subscrições
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Gerir
 subscription-management-card-ending-in = Cartão que terminar em { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expira em { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Existe um problema com a sua conta { -brand-paypal }. Por favor resolva o problema para manter as suas subscrições ativas.
 subscription-management-active-subscriptions-heading = Subscrições ativas
 subscription-management-you-have-no-active-subscriptions = Não tem subscrições ativas
 subscription-management-new-subs-will-appear-here = Novas subscrições irão aparecer aqui.
@@ -138,6 +134,18 @@ subscription-management-iap-sub-expires-on-expiry-date = Expira a { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gerir subscrição para { $productName }
 subscription-management-button-manage-subscription-1 = Gerir subscrição
+error-payment-method-banner-title-expired-card = Cartão expirado
+error-payment-method-banner-message-add-new-card = Adicione um novo cartão ou método de pagamento para evitar a interrupção nas suas subscrições.
+error-payment-method-banner-label-update-payment-method = Atualizar método de pagamento
+error-payment-method-expired-card = O seu cartão expirou. Por favor, adicione um novo cartão ou método de pagamento para evitar a interrupção nas suas subscrições.
+error-payment-method-banner-title-invalid-payment-information = Informação de pagamento inválida
+error-payment-method-banner-message-account-issue = Existe um problema com a sua conta.
+subscription-management-button-manage-payment-method-1 = Gerir método de pagamento
+subscription-management-error-apple-pay = Existe um problema com a sua conta { -brand-apple-pay }. Por favor resolva o problema para manter as suas subscrições ativas.
+subscription-management-error-google-pay = Existe um problema com a sua conta { -brand-google-pay }. Por favor resolva o problema para manter as suas subscrições ativas.
+subscription-management-error-link = Existe um problema com a sua conta { -brand-link }. Por favor resolva o problema para manter as suas subscrições ativas.
+subscription-management-error-paypal-billing-agreement = Existe um problema com a sua conta { -brand-paypal }. Por favor resolva o problema para manter as suas subscrições ativas.
+subscription-management-error-payment-method = Há um problema com o seu método de pagamento. Por favor resolva o problema para manter as suas subscrições ativas.
 manage-payment-methods-heading = Gerir métodos de pagamento
 paypal-payment-management-page-invalid-header = Informação de faturação inválida
 paypal-payment-management-page-invalid-description = Parece haver um erro com a sua conta { -brand-paypal }. Precisamos que execute os passos necessários para resolver este problema de pagamento.

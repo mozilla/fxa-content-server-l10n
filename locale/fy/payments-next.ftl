@@ -97,9 +97,6 @@ next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
 ## Page - Subscription Management
 
-subscription-management-page-paypal-error-banner-title-invalid-payment-information = Unjildige betellingsgegevens
-subscription-management-page-paypal-error-banner-message-account-error = Der is in flater mei jo account bard.
-subscription-management-button-manage-payment-method-1 = Betellingsmetoade beheare
 subscription-management-page-banner-warning-title-no-payment-method = Gjin betellingsmetoade tafoege
 subscription-management-page-banner-warning-link-no-payment-method = In betellingsmetoade tafoegje
 subscription-management-subscriptions-heading = Abonneminten
@@ -121,7 +118,6 @@ subscription-management-button-manage-payment-method = Beheare
 subscription-management-card-ending-in = Creditcard einigjend op { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Ferrint op { $expirationDate }
-subscription-management-error-paypal-billing-agreement = Der is in probleem mei jo { -brand-paypal }-account. Los it probleem op om jo aktive abonneminten te behâlden.
 subscription-management-active-subscriptions-heading = Aktive abonneminten
 subscription-management-you-have-no-active-subscriptions = Jo hawwe gjin aktive abonneminten
 subscription-management-new-subs-will-appear-here = Nije abonneminten ferskine hjir.
@@ -138,6 +134,18 @@ subscription-management-iap-sub-expires-on-expiry-date = Ferrint op { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnemint foar { $productName } beheare
 subscription-management-button-manage-subscription-1 = Abonnemint beheare
+error-payment-method-banner-title-expired-card = Ferrûne kaart
+error-payment-method-banner-message-add-new-card = Foegje in nije kaart of betellingsmetoade ta om ûnderbrekking fan jo abonneminten foar te kommen.
+error-payment-method-banner-label-update-payment-method = Betellingsmetoade bywukje
+error-payment-method-expired-card = Jo kaart is ferrûn. Foegje in nije kaart of betellingsmetoade ta om ûnderbrekking fan jo abonneminten foar te kommen.
+error-payment-method-banner-title-invalid-payment-information = Unjildige betellingsgegevens
+error-payment-method-banner-message-account-issue = Der is in probleem mei jo account.
+subscription-management-button-manage-payment-method-1 = Betellingsmetoade beheare
+subscription-management-error-apple-pay = Der is in probleem mei jo { -brand-apple-pay }-account. Los it probleem op om jo aktive abonneminten te behâlden.
+subscription-management-error-google-pay = Der is in probleem mei jo { -brand-google-pay }-account. Los it probleem op om jo aktive abonneminten te behâlden.
+subscription-management-error-link = Der is in probleem mei jo { -brand-link }-account. Los it probleem op om jo aktive abonneminten te behâlden.
+subscription-management-error-paypal-billing-agreement = Der is in probleem mei jo { -brand-paypal }-account. Los it probleem op om jo aktive abonneminten te behâlden.
+subscription-management-error-payment-method = Der is in probleem mei jo betellingsmetoade. Los it probleem op om jo aktive abonneminten te behâlden.
 manage-payment-methods-heading = Betellingsmetoaden beheare
 paypal-payment-management-page-invalid-header = Ungjildige fakturaasjegegevens
 paypal-payment-management-page-invalid-description = Der liket in flater te barren mei jo { -brand-paypal }-account. Jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
