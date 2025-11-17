@@ -485,6 +485,11 @@ modal-close-title = Закрыць
 modal-cancel-button = Скасаваць
 modal-default-confirm-button = Пацвердзіць
 
+## ModalMfaProtected
+
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Адправіць новы код па электроннай пошце.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Пацвердзіце сваю электронную пошту
@@ -862,6 +867,8 @@ auth-error-999 = Нечаканая памылка
 auth-error-1003 = Лакальнае сховішча або кукі па-ранейшаму адключаны
 auth-error-1008 = Ваш новы пароль павінен адрознівацца
 auth-error-1011 = Патрэбен сапраўдны адрас электроннай пошты
+auth-error-1018 = Ваш электронны ліст пацверджання толькі што вярнуўся. Памылка ўпісвання адраса?
+auth-error-1067 = Няправільна набраны адрас пошты?
 
 ## Connect Another Device page
 
@@ -902,7 +909,11 @@ cookies-disabled-learn-more = Падрабязней
 
 ## Index / home page
 
+index-header = Увядзіце сваю электронную пошту
+index-relay-header = Стварыць маску электроннай пошты
 index-cta = Зарэгістравацца або ўвайсці
+index-email-input =
+    .label = Увядзіце сваю электронную пошту
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1072,6 +1083,7 @@ complete-reset-password-error-alert = На жаль, падчас усталяв
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Праверце сваю электронную пошту
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Працягнуць
@@ -1131,6 +1143,11 @@ signin-bounced-message = Электронны ліст з пацвярджэн�
 signin-bounced-help = Калі гэта сапраўдны адрас электроннай пошты, <linkExternal>паведаміце нам пра гэта</linkExternal>, і мы дапаможам разблакаваць ваш уліковы запіс.
 signin-bounced-create-new-account = Больш не валодаеце гэтым адрасам? Стварыце новы ўліковы запіс
 back = Назад
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-send-email-link = Выслаць код на эл. пошту
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -1198,6 +1215,8 @@ signin-totp-code-required-error = Патрабуецца код аўтэнтыф
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Аўтарызуйце гэты ўваход
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Праверце ў сваёй электроннай пошце код аўтарызацыі, дасланы на { $email }.
 signin-unblock-code-input = Увядзіце код аўтарызацыі
 signin-unblock-submit-button = Працягнуць
 # Shown when the user attempts to submit the form without including a code
