@@ -755,7 +755,7 @@ la-unlink-account-button = Odpojit
 la-set-password-button = Nastavení hesla
 la-unlink-heading = Odpojit od účtu třetí strany
 la-unlink-content-3 = Opravdu chcete odpojit svůj účet? Jeho odpojení vás automaticky neodhlásí z vašich propojených služeb. K tomu je třeba se odhlásit ručně v sekci Propojené služby.
-la-unlink-content-4 = Před zrušením propojení účtu je nutné nastavit heslo. Bez hesla se po odpojení účtu nemůžete přihlásit.
+la-unlink-content-4 = Před odpojením účtu je nutné nastavit heslo. Bez hesla byste se po odpojení účtu neměli moci jak přihlásit.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
