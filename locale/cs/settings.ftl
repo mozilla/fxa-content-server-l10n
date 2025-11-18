@@ -754,7 +754,7 @@ la-unlink-button = Odpojit
 la-unlink-account-button = Odpojit
 la-set-password-button = Nastavení hesla
 la-unlink-heading = Odpojit od účtu třetí strany
-la-unlink-content-3 = Opravdu chcete odpojit svůj účet? Jeho odpojení nezpůsobí odhlášení z vašich propojených služeb. Pokud toho chcete dosáhnout, odhlaste se ručně v sekci Propojené služby.
+la-unlink-content-3 = Opravdu chcete odpojit svůj účet? Jeho odpojení vás automaticky neodhlásí z vašich propojených služeb. K tomu je třeba se odhlásit ručně v sekci Propojené služby.
 la-unlink-content-4 = Před zrušením propojení účtu je nutné nastavit heslo. Bez hesla se po odpojení účtu nemůžete přihlásit.
 nav-linked-accounts = { la-heading }
 
