@@ -197,9 +197,28 @@ payment-plan-next-invoice = 次回の請求: { $nextInvoiceDateOnly }
 payment-method-payment-provider = <b>支払い方法:</b> { $paymentProviderName }
 payment-method-payment-provider-plaintext = 支払い方法: { $paymentProviderName }
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = 支払い方法: 末尾が { $lastFour } の { $cardName }
+payment-provider-card-ending-in-plaintext = 支払い方法: 末尾が { $lastFour } のカード
+payment-provider-card-ending-in = <b>支払い方法:</b> 末尾が { $lastFour } のカード
+payment-provider-card-ending-in-card-name = <b>支払い方法:</b> 末尾が { $lastFour } の { $cardName }
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>請求書番号:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = 請求書番号: { $invoiceNumber }
+subscription-charges-invoice-date = <b>日付:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = 日付: { $invoiceDateOnly }
+subscription-charges-prorated-price = 日割り価格
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = 小計: { $invoiceSubtotal }
 
