@@ -219,6 +219,11 @@ subscription-charges-invoice-number-plaintext = 請求書番号: { $invoiceNumbe
 subscription-charges-invoice-date = <b>日付:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = 日付: { $invoiceDateOnly }
 subscription-charges-prorated-price = 日割り価格
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = 日割り価格: { $remainingAmountTotal }
+subscription-charges-list-price = 定価
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = 定価: { $offeringPrice }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = 小計: { $invoiceSubtotal }
 
@@ -232,6 +237,13 @@ subscriptionSupport-plaintext = サブスクリプションについて質問が
 subscriptionSupportContact = { $productName } にご登録いただきありがとうございます。{ $productName } のサブスクリプションや他の情報についての質問は、<a data-l10n-name="subscriptionSupportUrl">こちらからお問い合わせください</a>。
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = { $productName } にご登録いただきありがとうございます。{ $productName } のサブスクリプションや他の情報についての質問は、こちらからお問い合わせください:
+subscription-support-get-help = サブスクリプションのヘルプを見る
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">サブスクリプションを管理</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = サブスクリプションを管理:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">サポートへの問い合わせ</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = サポートへの問い合わせ:
 subscriptionUpdateBillingEnsure = 現在のお支払い方法とアカウント情報は <a data-l10n-name="updateBillingUrl">こちら</a> で確認できます。
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = 現在のお支払い方法とアカウント情報はこちらで確認できます:
