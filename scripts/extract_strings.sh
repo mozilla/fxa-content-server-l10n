@@ -25,6 +25,7 @@ if [[ $# -lt 1 ]]; then
 fi
 
 MAILER_DIR="../libs/accounts/email-renderer"
+AUTH_DIR="./fxa-auth-server"
 CONTENT_DIR="./fxa-content-server"
 PAYMENTS_DIR="./fxa-payments-server"
 PAYMENTS_NEXT_DIR="../apps/payments/next"
@@ -40,6 +41,10 @@ param="$1"
 case $param in
     --mailer-repo)
     MAILER_DIR="$2"
+    shift 2
+    ;;
+    --mailer-repo)
+    AUTH_DIR="$2"
     shift 2
     ;;
     --content-repo)
@@ -78,6 +83,8 @@ done
 
 printf "Checking $MAILER_DIR.. "
 check_folder $MAILER_DIR
+printf "Checking $AUTH_DIR.. "
+check_folder $AUTH_DIR
 printf "Checking $CONTENT_DIR.. "
 check_folder $CONTENT_DIR
 printf "Checking $PAYMENTS_DIR.. "
@@ -143,6 +150,7 @@ cp $PAYMENTS_DIR/public/locales/en/payments.ftl $L10N_DIR/locale/templates
 cp $PAYMENTS_NEXT_DIR/public/locales/en/payments-next.ftl $L10N_DIR/locale/templates
 cp $SETTINGS_DIR/public/locales/en/settings.ftl $L10N_DIR/locale/templates
 cp $MAILER_DIR/public/locales/en/emails.ftl $L10N_DIR/locale/templates
+cp $AUTH_DIR/public/locales/en/auth.ftl $L10N_DIR/locale/templates
 cp $REACT_DIR/public/locales/en/react.ftl $L10N_DIR/locale/templates
 cp $SHARED_DIR/l10n/src/lib/branding.ftl $L10N_DIR/locale/templates
 
