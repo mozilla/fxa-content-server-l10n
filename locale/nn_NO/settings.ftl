@@ -1541,7 +1541,7 @@ pair-wait-for-auth-heading-text = Godkjenning er no påkravd <span>frå den andr
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Paring via ein app
-pair-unsupported-message = Brukte du systemkameraet? Du må pare ved hjelp av ein { -brand-firefox }-app.
+pair-unsupported-message = Brukte du systemkameraet? Du må pare med ein { -brand-firefox }-app.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a

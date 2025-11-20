@@ -2097,7 +2097,7 @@ msgstr "Paring via ein app"
 
 #: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Brukte du systemkameraet? Du må pare ved hjelp av ein Firefox-app."
+msgstr "Brukte du systemkameraet? Du må pare med ein Firefox-app."
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
