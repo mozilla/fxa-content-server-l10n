@@ -1300,6 +1300,9 @@ auth-error-125 = Napšašowanje jo se z pśicynow wěstoty zablokěrowało
 auth-error-129-2 = Sćo zapódał njepłaśiwy telefonowy numer. Pšosym pśeglědujśo jen a wopytajśo hyšći raz.
 auth-error-138-2 = Njewobkšuśone pósejźenje
 auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Toś ta e-mailowa adresa jo drugemu kontoju wuměnjona. Wopytajśo pózdźej hyšći raz abo wužywajśo drugu e-mailowu adresu.
 auth-error-155 = TOTP-token njejo se namakał
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Awtentifikaciski kod za zawěsćenje njejo se namakał
