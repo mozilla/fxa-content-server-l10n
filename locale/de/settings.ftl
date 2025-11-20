@@ -1286,6 +1286,9 @@ auth-error-125 = Die Anfrage wurde aus Sicherheitsgründen blockiert.
 auth-error-129-2 = Sie haben eine ungültige Telefonnummer eingegeben. Bitte überprüfen Sie diese und versuchen Sie es erneut.
 auth-error-138-2 = Unbestätigte Sitzung
 auth-error-139 = Die Zweit-E-Mail-Adresse muss sich von der Adresse Ihres Kontos unterscheiden.
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Diese E-Mail-Adresse ist für einen anderen Account reserviert. Versuchen Sie es später erneut oder verwenden Sie eine andere E-Mail-Adresse.
 auth-error-155 = TOTP-Token nicht gefunden
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Sicherungs-Authentifizierungscode nicht gefunden

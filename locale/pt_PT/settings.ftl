@@ -1284,6 +1284,9 @@ auth-error-125 = O pedido foi bloqueado por questões de segurança
 auth-error-129-2 = Introduziu um número de telefone inválido. Por favor, verifique e tente novamente.
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua conta
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Este email está reservado para outra conta. Tente novamente mais tarde ou utilize um endereço de email diferente.
 auth-error-155 = Código TOTP não encontrado
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Código de autenticação de recuperação não encontrado

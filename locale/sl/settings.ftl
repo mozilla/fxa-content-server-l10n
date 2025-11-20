@@ -1300,6 +1300,9 @@ auth-error-125 = Zahteva je bila zavrnjena iz varnostnih razlogov
 auth-error-129-2 = Vnesli ste neveljavno telefonsko številko. Preverite in poskusite znova.
 auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Ta e-poštni naslov je rezerviran za drug račun. Poskusite znova pozneje ali pa uporabite drug e-poštni naslov.
 auth-error-155 = Žetona TOTP ni mogoče najti
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Rezervne overitvene kode ni bilo mogoče najti
