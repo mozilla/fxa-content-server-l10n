@@ -1282,7 +1282,7 @@ auth-error-138-2 = Session non confirmée
 auth-error-139 = L’adresse alternative doit être différente de l’adresse de votre compte
 # (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
 # The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
-auth-error-144 = Cette adresse e-mail est réservée par un autre compte. Réessayez plus tard ou utilisez une autre adresse électronique.
+auth-error-144 = Cette adresse e-mail est réservée par un autre compte. Réessayez plus tard ou utilisez une autre adresse e-mail.
 auth-error-155 = Jeton TOTP introuvable
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Code d’authentification de secours introuvable
