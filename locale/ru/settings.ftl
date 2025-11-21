@@ -1290,6 +1290,9 @@ auth-error-125 = Запрос заблокирован по соображени
 auth-error-129-2 = Вы ввели некорректный номер телефона. Пожалуйста, проверьте его и попробуйте снова.
 auth-error-138-2 = Неподтверждённая сессия
 auth-error-139 = Дополнительный адрес электронной почты должен отличаться от основного
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Этот адрес электронной почты зарезервирован другим аккаунтом. Подождите некоторое время и попробуйте снова или используйте другой адрес электронной почты.
 auth-error-155 = TOTP-токен не найден
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Резервный код аутентификации не найден
