@@ -338,6 +338,7 @@ confirmation-link-reused-message = Esse link de confirmação já foi usado e s�
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Selecionar idioma
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Requisição inválida
 
@@ -577,6 +578,10 @@ flow-recovery-key-info-cta-text-v3 = Começar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancelar
 
+## FlowSetup2faApp
+
+flow-setup-2fa-manual-key-heading = Insira o código manualmente
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -635,6 +640,14 @@ modal-close-title = Fechar
 modal-cancel-button = Cancelar
 modal-default-confirm-button = Confirmar
 
+## ModalMfaProtected
+
+modal-mfa-protected-cancel-button = Cancelar
+modal-mfa-protected-confirm-button = Confirmar
+modal-mfa-protected-code-expired = O código expirou?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Enviar novo código por email.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Confirme seu email
@@ -664,6 +677,10 @@ tfa-replace-code-error-3 = Houve um problema ao substituir seus códigos de aute
 tfa-create-code-error = Houve um problema ao criar seus códigos de autenticação de backup
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Códigos de autenticação de backup atualizados
+
+## Page2faSetup
+
+page-2fa-setup-title = Autenticação em duas etapas
 
 ## Avatar change page
 
@@ -1464,6 +1481,11 @@ password-reset-recovery-method-send-code-error-description = Tente novamente mai
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-code-submit-button = Confirmar
+reset-password-recovery-phone-resend-code-button = Reenviar código
+reset-password-recovery-phone-resend-success = Código enviado
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Tente novamente mais tarde.
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-complete-new-password-saved = Nova senha salva!
 reset-password-complete-recovery-key-created = Criada nova chave de recuperação de conta. Baixe e guarde agora mesmo.
@@ -1498,6 +1520,7 @@ signin-password-button-label = Senha
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = O { -brand-firefox } irá tentar redirecionar de volta para você usar uma máscara de email após entrar na sua conta.
+signin-account-locked-banner-heading = Redefina a sua senha
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,

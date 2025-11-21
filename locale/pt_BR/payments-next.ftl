@@ -70,6 +70,8 @@ next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-subscriptions-heading = Assinaturas
+subscription-management-button-add-payment-method-aria = Adicionar método de pagamento
 subscription-management-button-add-payment-method = Adicionar
 subscription-management-button-support = Obter ajuda
 # Page - Not Found
@@ -193,8 +195,13 @@ next-new-user-subscribe-product-assurance = Só usamos seu email para criar sua 
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-heading-cancel-subscription = Cancelar assinatura
+subscription-content-button-stay-subscribed = Manter assinatura
+    .aria-label = Manter a assinatura do { $productName }
+subscription-content-button-cancel-subscription = Cancelar assinatura
+    .aria-label = Cancelar sua assinatura do { $productName }
 subscription-content-button-cancel = Cancelar
     .aria-label = Cancelar sua assinatura do { $productName }
+subscription-content-cancel-action-error = Ocorreu um erro inesperado. Tente novamente.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -258,5 +265,9 @@ metadata-title-checkout-success = Sucesso | { $productTitle }
 metadata-description-checkout-success = Parabéns! Você concluiu sua compra com sucesso.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Ação necessária | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Erro | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Sucesso | { $productTitle }
 # Default
 metadata-title-default = Página não encontrada | { $productTitle }
