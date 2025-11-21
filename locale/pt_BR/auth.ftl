@@ -194,6 +194,12 @@ payment-plan-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
 
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Você recebeu um crédito em conta de { $creditReceived }, que será aplicado em suas futuras faturas.
+
 ##
 
 subscriptionSupport = Dúvidas sobre sua assinatura? Nossa <a data-l10n-name="subscriptionSupportUrl">equipe de suporte</a> está aqui para ajudar.
@@ -204,6 +210,7 @@ subscriptionSupport-plaintext = Dúvidas sobre sua assinatura? Nossa equipe de s
 subscriptionSupportContact = Obrigado por assinar o { $productName }. Se tiver dúvidas sobre sua assinatura ou precisar de mais informações sobre o { $productName }, <a data-l10n-name="subscriptionSupportUrl">entre em contato conosco</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Obrigado por assinar o { $productName }. Se tiver dúvidas sobre sua assinatura ou precisar de mais informações sobre o { $productName }, entre em contato conosco:
+subscription-support-get-help = Obtenha ajuda para sua assinatura
 subscriptionUpdateBillingEnsure = Você pode verificar <a data-l10n-name="updateBillingUrl">aqui</a> se a forma de pagamento e as informações da conta estão atualizadas.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Você pode verificar aqui se a forma de pagamento e as informações da conta estão atualizadas:
