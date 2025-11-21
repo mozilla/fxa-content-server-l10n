@@ -1295,6 +1295,9 @@ auth-error-125 = Z bezpečnostných dôvodov bola požiadavka zablokovaná
 auth-error-129-2 = Zadali ste neplatné telefónne číslo. Skontrolujte ho a skúste to znova.
 auth-error-138-2 = Nepotvrdená relácia
 auth-error-139 = Alternatívna e‑mailová adresa musí byť iná ako adresa účtu
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Tento e‑mail je rezervovaný pre iný účet. Skúste to znova neskôr alebo použite inú e‑mailovú adresu.
 auth-error-155 = Token TOTP sa nenašiel
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Záložný overovací kód sa nenašiel
