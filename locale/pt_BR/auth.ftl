@@ -211,6 +211,12 @@ subscriptionSupportContact = Obrigado por assinar o { $productName }. Se tiver d
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Obrigado por assinar o { $productName }. Se tiver dúvidas sobre sua assinatura ou precisar de mais informações sobre o { $productName }, entre em contato conosco:
 subscription-support-get-help = Obtenha ajuda para sua assinatura
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Gerencie sua assinatura</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Gerencie sua assinatura:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Entre em contato com o suporte</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Entre em contato com o suporte:
 subscriptionUpdateBillingEnsure = Você pode verificar <a data-l10n-name="updateBillingUrl">aqui</a> se a forma de pagamento e as informações da conta estão atualizadas.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Você pode verificar aqui se a forma de pagamento e as informações da conta estão atualizadas:
@@ -229,6 +235,7 @@ device-all = { $uaBrowser } em { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } em { $uaOS }
+view-invoice-link-action = Ver fatura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -324,7 +331,16 @@ passwordChanged-description-2 = A senha da sua { -product-mozilla-account } foi 
 passwordChangeRequired-subject = Detectada atividade suspeita
 passwordChangeRequired-preview = Mude sua senha imediatamente
 passwordChangeRequired-title-2 = Redefina sua senha
+passwordChangeRequired-suspicious-activity-3 = Nós bloqueamos a sua conta para mantê-la segura contra atividades suspeitas. Você foi desconectado de todos os seus dispositivos e quaisquer dados sincronizados foram excluídos por precaução.
+passwordChangeRequired-sign-in-3 = Para entrar novamente na sua conta, tudo o que você precisa fazer é redefinir a sua senha.
+passwordChangeRequired-different-password-2 = <b>Importante:</b> Escolha uma senha forte, que seja diferente das que você utilizou anteriormente.
+passwordChangeRequired-different-password-plaintext-2 = Importante: Escolha uma senha forte, que seja diferente das que você utilizou anteriormente.
 passwordChangeRequired-action = Redefinir senha
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Use { $code } para alterar a sua senha
+password-forgot-otp-preview = Este código expira em 10 minutos
 password-forgot-otp-title = Esqueceu sua senha?
 password-forgot-otp-request = Recebemos uma solicitação de alteração de senha da sua { -product-mozilla-account } vinda de:
 password-forgot-otp-code-2 = Se foi você, use este código de confirmação para prosseguir:
@@ -379,8 +395,16 @@ postAddRecoveryPhone-how-protect-plaintext = Como isso protege sua conta:
 postAddRecoveryPhone-enabled-device = Você ativou a partir de:
 postAddRecoveryPhone-action = Gerenciar conta
 postAddTwoStepAuthentication-preview = Sua conta está protegida
+postAddTwoStepAuthentication-subject-v3 = A autenticação em duas etapas está ativada
 postAddTwoStepAuthentication-title-2 = Você ativou a autenticação em duas etapas
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Você solicitou isso de:
 postAddTwoStepAuthentication-action = Gerenciar conta
+postAddTwoStepAuthentication-code-required-v4 = Códigos de segurança do seu aplicativo de autenticação agora serão necessários sempre que você entrar na conta.
+postAddTwoStepAuthentication-recovery-method-codes = Você também adicionou códigos de autenticação de backup como método de recuperação.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Você também adicionou { $maskedPhoneNumber } como número de celular de recuperação.
 postAddTwoStepAuthentication-how-protects-link = Como isso protege sua conta
 postAddTwoStepAuthentication-how-protects-plaintext = Como isso protege sua conta:
 postChangeAccountRecovery-subject = Alterada a chave de recuperação de conta
@@ -399,7 +423,15 @@ postChangeRecoveryPhone-preview = Conta protegida por autenticação em duas eta
 postChangeRecoveryPhone-title = Você alterou seu celular de recuperação de conta
 postChangeRecoveryPhone-description = Agora você tem um novo celular de recuperação de conta. Seu número de celular anterior foi excluído.
 postChangeRecoveryPhone-requested-device = Você solicitou a partir de:
+postChangeTwoStepAuthentication-preview = Sua conta está protegida
+postChangeTwoStepAuthentication-subject = Atualização em duas etapas atualizada
+postChangeTwoStepAuthentication-title = A atualização em duas etapas foi atualizada
+postChangeTwoStepAuthentication-use-new-account = Agora você precisa usar o novo item { -product-mozilla-account } no seu aplicativo de autenticação. O antigo não funciona mais e você pode remover.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Você solicitou isso de:
 postChangeTwoStepAuthentication-action = Gerenciar conta
+postChangeTwoStepAuthentication-how-protects-link = Como isso protege sua conta
+postChangeTwoStepAuthentication-how-protects-plaintext = Como isso protege sua conta:
 postConsumeRecoveryCode-title-3 = Seu código de autenticação de backup foi usado para confirmar uma redefinição de senha
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
