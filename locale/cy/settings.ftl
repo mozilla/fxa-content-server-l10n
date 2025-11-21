@@ -1308,7 +1308,7 @@ auth-error-138-2 = Sesiwn heb ei gadarnhau
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 # (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
 # The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
-auth-error-144 = Mae'r e-bost hwn yn cael ei gadw gan gyfrif arall. Ceisiwch eto yn nes ymlaen neu defnyddiwch gyfeiriad e-bost gwahanol.
+auth-error-144 = Mae'r e-bost hwn ar gadw i gyfrif arall. Ceisiwch eto yn nes ymlaen neu defnyddiwch gyfeiriad e-bost gwahanol.
 auth-error-155 = Heb ganfod tocyn TOTP
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Heb ganfod cod dilysu wrth gefn
