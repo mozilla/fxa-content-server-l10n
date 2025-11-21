@@ -23,9 +23,6 @@ coupon-error-invalid = کدی که وارد کردید نامعتبر است.
 default-input-error = این خانه لازم است.
 input-error-is-required = { $label } ضروری است
 
-## Component - Header
-
-
 ## Component - NewUserEmailForm
 
 new-user-email-validate = رایانامه معتبر نیست
@@ -38,16 +35,10 @@ payment-confirmation-thanks-heading = سپاسگذاریم!
 payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = اطلاعات پرداخت
 
-## Component - PaymentConsentCheckbox
-
-
 ## Component - PaymentErrorView
 
 payment-error-retry-button = تلاش دوباره
 payment-error-manage-subscription-button = مدیریت اشتراک من
-
-## Component - PaymentErrorView - IAP upgrade errors
-
 
 ## Component - PaymentForm
 
@@ -60,21 +51,9 @@ payment-cancel-btn = لغو
 payment-update-btn = به‌روزرسانی
 payment-validate-name-error = لطفاً نام خود را وارد کنید
 
-## Component - PaymentLegalBlurb
-
-
 ## Component - PaymentMethodHeader
 
 payment-method-header = روش پرداخت خود را انتخاب کنید
-
-## Component - PaymentProcessing
-
-
-## Component - PaymentProviderDetails
-
-
-## Component - PayPalButton
-
 
 ## Component - PlanDetails
 
@@ -84,13 +63,11 @@ plan-details-show-button = نمایش جزئیات
 plan-details-hide-button = نهفتن جزئیات
 plan-details-total-label = مجموع
 
-## Component - PlanErrorDialog
-
-
 ## Price details including tax
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
 
 ## Component - SubscriptionTitle
 
@@ -98,15 +75,16 @@ sub-guarantee = با ضمانت برگشت ۳۰ روزهٔ پول
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
+terms = شرایط ارائهٔ خدمات
+privacy = نکات حفظ حریم خصوصی
 
 ## App-level string(s) and messages shared by multiple components or routes
 
 document =
     .title = حساب‌های Firefox
-
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ## Error messages
 
@@ -134,13 +112,6 @@ sub-update-payment-title = اطلاعات پرداخت
 
 pay-with-heading-card-only = پرداخت با کارت
 
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
-
 ## Routes - Product - Subscription upgrade
 
 sub-change-failed = تغییر طرح ناموفق بود
@@ -153,30 +124,19 @@ sub-update-total-label = مجموع جدید
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (روزانه)
+sub-update-new-plan-weekly = { $productName } (هفتگی)
+sub-update-new-plan-monthly = { $productName } (ماهانه)
+sub-update-new-plan-yearly = { $productName } (سالانه)
 
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = لغو اشتراک
 
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-
-## Routes - Subscription
-
-
-## Routes - Subscriptions - Errors
-
-
 ## Routes - Subscription - ActionButton
 
+pay-update-change-btn = تغییر
 pay-update-manage-btn = مدیریت
-
-## Routes - Subscriptions - Cancel and IapItem
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $date (Date) - The date for the next time a charge will occur.
-
 
 ## Routes - Subscription - PaymentUpdate
 
@@ -184,13 +144,6 @@ pay-update-manage-btn = مدیریت
 # $expirationDate (Date) - The payment card's expiration date.
 
 sub-route-idx-updating = در حال به‌روزرسانی اطلاعات صورت‌حساب…
-
-## Routes - Subscription - SubscriptionItem
-
-
-## Routes - Subscriptions - Reactivate
-## $name (String) - The name of the subscribed product.
-
 
 ## $date (Date) - Last day of product access
 
