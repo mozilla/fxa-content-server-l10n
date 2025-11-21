@@ -134,6 +134,12 @@ subscription-management-iap-sub-expires-on-expiry-date = Går ut { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrer abonnement for { $productName }
 subscription-management-button-manage-subscription-1 = Handsame abonnement
+error-payment-method-banner-title-expired-card = Utgått kort
+error-payment-method-banner-message-add-new-card = Legg til eit nytt kort eller ein ny betalingsmåte for å unngå avbrot i abonnementa dine.
+error-payment-method-banner-label-update-payment-method = Oppdater betalingsmåte
+error-payment-method-expired-card = Kortet ditt har gått ut. Legg til eit nytt kort eller ein ny betalingsmåte for å unngå avbrot i abonnementa dine.
+error-payment-method-banner-title-invalid-payment-information = Ugyldig betalingsinformasjon
+error-payment-method-banner-message-account-issue = Det er eit problem med kontoen din.
 subscription-management-button-manage-payment-method-1 = Handsam betalingsmåte
 subscription-management-error-paypal-billing-agreement = Det er eit problem med { -brand-paypal }-kontoen din. Løys problemet for å oppretthalde dei aktive abonnementa dine.
 manage-payment-methods-heading = Handsam betalingsmåtar
