@@ -202,6 +202,7 @@ subscription-content-button-cancel-subscription = Cancelar assinatura
 subscription-content-button-cancel = Cancelar
     .aria-label = Cancelar sua assinatura do { $productName }
 subscription-content-cancel-action-error = Ocorreu um erro inesperado. Tente novamente.
+subscription-cancellation-dialog-title = Ficamos tristes com sua decisão.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
