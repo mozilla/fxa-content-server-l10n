@@ -1276,6 +1276,9 @@ auth-error-125 = Forespørselen ble blokkert av sikkerhetsmessige årsaker
 auth-error-129-2 = Du skrev inn et ugyldig telefonnummer. Sjekk det og prøv på nytt.
 auth-error-138-2 = Ubekreftet økt
 auth-error-139 = Sekundær e-postadresse må være forskjellig fra e-postadressen til din konto
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Denne e-postadressen er reservert av en annen konto. Prøv igjen senere, eller bruk en annen e-postadresse.
 auth-error-155 = TOTP-token ikke funnet
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Fant ikke reserve-autentiseringskode
