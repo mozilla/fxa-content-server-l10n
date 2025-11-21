@@ -135,9 +135,11 @@ subscription-management-iap-sub-expires-on-expiry-date = Expiră la { $date }
 subscription-management-button-manage-subscription-aria = Gestionează abonamentul pentru { $productName }
 error-payment-method-banner-title-expired-card = Card expirat
 error-payment-method-banner-message-add-new-card = Adaugă un card nou sau o metodă de plată nouă pentru a evita întreruperea abonamentelor.
+error-payment-method-banner-label-update-payment-method = Actualizează metoda de plată
 subscription-management-button-manage-payment-method-1 = Gestionează metoda de plată
 subscription-management-error-paypal-billing-agreement = A apărut o problemă în contul tău { -brand-paypal }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
 paypal-payment-management-page-invalid-header = Informații de facturare nevalide
+paypal-payment-management-page-invalid-description = Se pare că există o eroare în contul tău { -brand-paypal }. Trebuie să iei măsurile necesare pentru a rezolva această problemă de plată.
 # Page - Not Found
 page-not-found-title = Pagina nu a fost găsită
 page-not-found-description = Pagina pe care ai solicitat-o nu a fost găsită. Am fost anunțați și vom repara orice linkuri care ar putea fi defecte.
