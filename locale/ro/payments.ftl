@@ -537,12 +537,18 @@ sub-expires-on = Expiră la { $date }
 
 pay-update-card-exp = Data expirării: { $expirationDate }
 sub-route-idx-updating = Se actualizează informațiile de facturare…
+sub-route-payment-modal-heading = Informații de facturare nevalide
+sub-route-payment-modal-message-2 = Se pare că există o eroare în contul tău { -brand-paypal }. Trebuie să iei măsurile necesare pentru a rezolva această problemă de plată.
 sub-route-missing-billing-agreement-payment-alert = Informații de plată nevalide; a apărut o eroare cu contul tău. <div>Gestionează</div>
 sub-route-funding-source-payment-alert = Informații de plată nevalide; a apărut o eroare cu contul tău. Această alertă poate dura ceva timp până să dispară după ce îți actualizezi cu succes informațiile. <div>Gestionează</div>
 
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = Nu există un asemenea plan pentru acest abonament.
+invoice-not-found = Factura ulterioară nu a fost găsită
+sub-item-no-such-subsequent-invoice = Factura ulterioară nu a fost găsită pentru acest abonament.
+sub-invoice-preview-error-title = Previzualizarea facturii nu a fost găsită
+sub-invoice-preview-error-text = Previzualizarea facturii nu a fost găsită pentru acest abonament
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -569,3 +575,9 @@ reactivate-confirm-button = Reabonare
 reactivate-panel-copy = Vei pierde accesul la { $name } pe data de <strong>{ $date }</strong>.
 reactivate-success-copy = Îți mulțumim! Totul este gata.
 reactivate-success-button = Închide
+
+## Routes - Subscriptions - Subscription iap item
+
+sub-iap-item-google-purchase-2 = { -brand-google }: achiziții în aplicație
+sub-iap-item-apple-purchase-2 = { -brand-apple }: achiziții în aplicație
+sub-iap-item-manage-button = Gestionează

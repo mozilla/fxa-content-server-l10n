@@ -25,6 +25,7 @@ upgrade-page-acknowledgment = Planul tău va fi modificat imediat și astăzi ț
 
 auth-error-page-title = Nu am reușit să te conectăm
 checkout-error-boundary-retry-button = Încearcă din nou
+checkout-error-boundary-basic-error-message = Ceva nu a mers bine. Te rugăm să încerci din nou sau <contactSupportLink>contactează serviciul de asistență.</contactSupportLink>
 amex-logo-alt-text = Logo { -brand-amex }
 diners-logo-alt-text = Logo { -brand-diner }
 discover-logo-alt-text = Logo { -brand-discover }
@@ -33,6 +34,11 @@ mastercard-logo-alt-text = Logo { -brand-mastercard }
 paypal-logo-alt-text = Logo { -brand-paypal }
 unionpay-logo-alt-text = Logo { -brand-unionpay }
 visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo fără marcă
+link-logo-alt-text = Logo { -brand-link }
+apple-pay-logo-alt-text = Logo { -brand-apple-pay }
+google-pay-logo-alt-text = Logo { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -46,15 +52,19 @@ checkout-error-not-eligible = Nu ești eligibil(ă) să te abonezi la acest prod
 checkout-error-already-subscribed = Ai deja abonament la acest produs.
 checkout-error-contact-support = Te rugăm să contactezi serviciul de asistență ca să te putem ajuta.
 cart-error-currency-not-determined = Nu am putut determina moneda pentru această achiziție. Te rugăm să încerci din nou.
+checkout-processing-general-error = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
 cart-total-mismatch-error = Suma facturii s-a modificat. Te rugăm să încerci din nou.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Tranzacția nu a putut fi procesată. Te rugăm să verifici informațiile cardului de credit și încearcă din nou.
+intent-expired-card-error = Se pare că ți-a expirat cardul de credit. Încearcă cu alt card.
 intent-payment-error-try-again = Hmm. A apărut o problemă la autorizarea plății. Încearcă din nou sau contactează emitentul cardului.
 intent-payment-error-get-in-touch = Hmm. A apărut o problemă la autorizarea plății tale. Contactează emitentul cardului.
 intent-payment-error-generic = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
 intent-payment-error-insufficient-funds = Se pare că nu ai fonduri suficiente pe card. Încearcă alt card.
 general-paypal-error = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
+paypal-active-subscription-no-billing-agreement-error = Se pare că a apărut o problemă la facturarea contului tău { -brand-paypal }. Te rugăm să reactivezi plățile automate pentru abonament.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -116,11 +126,18 @@ subscription-management-button-support = Obține ajutor
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obține ajutor pentru { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Abonamentele tale în aplicația { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Achiziții în aplicație { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Abonamentele tale în aplicația { -brand-google }
+subscription-management-google-in-app-purchase-2 = Achiziții în aplicație { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Expiră la { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gestionează abonamentul pentru { $productName }
+error-payment-method-banner-title-expired-card = Card expirat
+error-payment-method-banner-message-add-new-card = Adaugă un card nou sau o metodă de plată nouă pentru a evita întreruperea abonamentelor.
 subscription-management-button-manage-payment-method-1 = Gestionează metoda de plată
 subscription-management-error-paypal-billing-agreement = A apărut o problemă în contul tău { -brand-paypal }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
+paypal-payment-management-page-invalid-header = Informații de facturare nevalide
 # Page - Not Found
 page-not-found-title = Pagina nu a fost găsită
 page-not-found-description = Pagina pe care ai solicitat-o nu a fost găsită. Am fost anunțați și vom repara orice linkuri care ar putea fi defecte.
@@ -128,6 +145,8 @@ page-not-found-back-button = Înapoi
 
 ## Navigation breadcrumbs
 
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Pagina principală a contului
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonamente
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
@@ -136,11 +155,15 @@ subscription-management-breadcrumb-back-aria = Înapoi la { $page }
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } să îmi perceapă, prin metoda mea de plată, suma afișată, conform <termsOfServiceLink>Condițiilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
+next-payment-confirm-checkbox-error = Trebuie să termini aici ca să treci mai departe
 
 ## Checkout Form
 
 next-new-user-submit = Abonează-mă acum
 next-payment-validate-name-error = Te rugăm să îți introduci numele
+next-pay-with-heading-paypal = Plătește cu { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Numele așa cum apare pe card
 payment-name-placeholder = Nume complet
 
 ## Component - CouponForm
@@ -167,6 +190,17 @@ payments-header-bento =
 payments-header-bento-close =
     .alt = Închide
 payments-header-bento-tagline = Mai multe produse de la { -brand-mozilla } care îți protejează confidențialitatea
+payments-header-bento-firefox-desktop = Browser { -brand-firefox } pentru desktop
+payments-header-bento-firefox-mobile = Browser { -brand-firefox } pentru dispozitive mobile
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-made-by-mozilla = Realizat de { -brand-mozilla }
+payments-header-avatar =
+    .title = Meniu { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Fotografie de profil a contului
+payments-header-avatar-expanded-signed-in-as = Autentificat(ă) ca
 payments-header-avatar-expanded-sign-out = Ieși din cont
 payments-client-loading-spinner =
     .aria-label = Se încarcă…
@@ -203,6 +237,21 @@ select-tax-location-save-button = Salvează
 select-tax-location-continue-to-checkout-button = Mergi la plată
 select-tax-location-country-code-label = Țară
 select-tax-location-country-code-placeholder = Selectează țara
+select-tax-location-error-missing-country-code = Te rugăm să selectezi țara
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } nu este disponibil în această locație.
+select-tax-location-postal-code-label = Cod poștal
+select-tax-location-postal-code =
+    .placeholder = Introdu codul poștal
+select-tax-location-error-missing-postal-code = Te rugăm să introduci codul poștal
+select-tax-location-error-invalid-postal-code = Te rugăm să introduci un cod poștal valid
+select-tax-location-successfully-updated = Locația a fost actualizată.
+select-tax-location-error-location-not-updated = Locația ta nu a putut fi actualizată. Te rugăm să încerci din nou.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Contul tău este facturat în { $currencyDisplayName }. Selectează o țară care folosește { $currencyDisplayName }.
+signin-form-continue-button = Continuă
+signin-form-email-input = Introdu adresa de e-mail
+signin-form-email-input-missing = Te rugăm să îți introduci adresa de e-mail
 signin-form-email-input-invalid = Te rugăm să precizezi o adresă de e-mail validă
 next-new-user-subscribe-product-updates-mdnplus = Aș dori să primesc noutăți și actualizări despre produse de la { -product-mdn-plus } și { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Aș dori să primesc noutăți și actualizări despre produse de la { -brand-mozilla }
@@ -303,11 +352,16 @@ next-terms = Condiții de utilizare a serviciilor
 next-privacy = Notificare privind confidențialitatea
 next-terms-download = Descarcă condițiile
 terms-and-privacy-stripe-label = { -brand-mozilla } folosește { -brand-name-stripe } pentru procesarea în siguranță a plăților.
+terms-and-privacy-stripe-link = Politică de confidențialitate { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } folosește { -brand-paypal } pentru prelucrarea în siguranță a plăților.
+terms-and-privacy-paypal-link = Politică de confidențialitate { -brand-paypal }
 
 ## Component - UpdatedPurchaseDetails
 
 upgrade-purchase-details-current-plan-label = Plan curent
 upgrade-purchase-details-new-plan-label = Plan nou
+upgrade-purchase-details-promo-code = Cod promoțional
+upgrade-purchase-details-tax-label = Taxe și comisioane
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
