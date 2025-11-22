@@ -362,6 +362,7 @@ passwordChanged-description-2 = { -product-mozilla-account }si salasanasi vaihde
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
 passwordChangeRequired-action = Nollaa salasana
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+password-forgot-otp-preview = Tämä koodi vanhenee 10 minuutissa
 password-forgot-otp-title = Unohditko salasanasi?
 password-forgot-otp-request = Saimme { -product-mozilla-account }n salasanan vaihtopyynnön lähteestä:
 password-forgot-otp-code-2 = Jos se olit sinä, tässä on vahvistuskoodi jatkaaksesi:
@@ -632,6 +633,7 @@ subscriptionUpgrade-title = Kiitos, että päivitit!
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Tilaus uusiutuu automaattisesti joka laskutuskauden päätteeksi, ellet peru tilausta.
+unblockCode-preview = Tämä koodi vanhenee tunnin kuluttua
 unblockCode-title = Kirjaudutko sinä sisään?
 unblockCode-prompt = Jos kirjaudut, tässä on tarvitsemasi valtuuskoodi:
 # Variables:
@@ -668,6 +670,8 @@ verifyAccountChange-preview =
        *[other] Tämä koodi vanhenee { $expirationTime } minuutin kuluttua.
     }
 verifyAccountChange-title = Oletko muuttamassa tilitietojasi?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Auta meitä pitämään tilisi turvassa hyväksymällä tämä muutos:
 verifyAccountChange-prompt = Jos kyllä, tässä on valtuutuskoodisi:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes

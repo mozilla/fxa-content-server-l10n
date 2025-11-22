@@ -273,6 +273,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobiililaite tekstiviestitoiminnoilla
 backup-authentication-codes-image-aria-label =
     .aria-label = Laitteen näyttö ja koodeja
+sync-clouds-image-aria-label =
+    .aria-label = Pilviä, joissa on synkronointikuvake
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -640,6 +642,9 @@ flow-setup-2fa-inline-complete-backup-code-info =
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Jatka palveluun { $serviceName }
 flow-setup-2fa-prompt-heading = Ota käyttöön kaksivaiheinen todennus
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } edellyttää kaksivaiheisen todennuksen käyttöönottoa tilisi turvallisuuden takaamiseksi.
 flow-setup-2fa-prompt-continue-button = Jatka
 
 ## FlowSetupPhoneConfirmCode
@@ -694,6 +699,7 @@ modal-default-confirm-button = Vahvista
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Kirjoita vahvistuskoodi
+modal-mfa-protected-subtitle = Auta meitä varmistamaan, että sinä itse muutat tilisi tietoja
 modal-mfa-protected-input-label = Kirjoita 6-numeroinen koodi
 modal-mfa-protected-cancel-button = Peruuta
 modal-mfa-protected-confirm-button = Vahvista
@@ -1143,6 +1149,9 @@ auth-error-125 = Pyyntö estettiin tietoturvasyistä
 auth-error-129-2 = Kirjoitit virheellisen puhelinnumeron. Tarkista se ja yritä uudelleen.
 auth-error-138-2 = Vahvistamaton istunto
 auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Tämä sähköpostiosoite on varattu toiselle tilille. Yritä myöhemmin uudelleen tai käytä toista sähköpostiosoitetta.
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-159 = Virheellinen tilin palautusavain
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
@@ -1387,6 +1396,14 @@ pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <span>joltain muult
 
 pair-unsupported-header = Muodosta pari sovelluksella
 pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostaminen tulee tehdä { -brand-firefox }-sovelluksesta.
+
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading-v2 = Luo salasana synkronointia varten
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1656,6 +1673,8 @@ signin-token-code-resend-error = Jokin meni pieleen. Uutta koodia ei voitu lähe
 signin-totp-code-header = Kirjaudu sisään
 signin-totp-code-subheader-v2 = Kirjoita kaksivaiheisen todennuksen koodi
 signin-totp-code-input-label-v4 = Syötä 6-numeroinen koodi
+signin-totp-code-aal-sign-out = Kirjaudu ulos tältä laitteelta
+signin-totp-code-aal-sign-out-error = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Vahvista
 signin-totp-code-other-account-link = Käytä toista tiliä
