@@ -418,6 +418,17 @@ cs-refresh-button =
 cs-missing-device-help = Obiecte lipsă sau duplicate?
 cs-disconnect-sync-heading = Deconectare de la Sync
 
+## This string is used in a modal dialog when the user starts the disconnect from
+## Sync process.
+## Variables:
+##   $device (String) - the name of a device using Mozilla accounts
+##                      (for example: "Firefox Nightly on Google Pixel 4a")
+
+cs-disconnect-sync-content-3 =
+    Datele de navigare vor rămâne pe <span>{ $device }</span>, 
+    însă nu se vor mai sincroniza cu contul tău.
+cs-disconnect-sync-reason-3 = Care este principalul motiv pentru deconectarea <span>{ $device }</span>?
+
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
@@ -432,6 +443,7 @@ cs-disconnect-sync-opt-not-say = Prefer să nu spun
 
 cs-disconnect-advice-confirm = OK, am înțeles
 cs-disconnect-lost-advice-heading = Dispozitiv pierdut sau furat deconectat
+cs-disconnect-lost-advice-content-3 = Întrucât dispozitivul a fost pierdut sau furat, pentru a-ți păstra informațiile în siguranță, ar trebui să schimbi parola { -product-mozilla-account } în setările contului. De asemenea, ar trebui să cauți informații de la producătorul dispozitivului despre ștergerea datelor de la distanță.
 cs-disconnect-suspicious-advice-heading = Dispozitiv suspect deconectat
 cs-sign-out-button = Deconectează-te
 
@@ -448,6 +460,19 @@ drop-down-menu-sign-out = Deconectează-te
 
 flow-container-back = Înapoi
 
+## FlowSetup2faApp
+
+flow-setup-2fa-step-2-instruction = <strong>Pasul 2:</strong> Introdu codul din aplicația de autentificare.
+flow-setup-2fa-input-label = Introdu codul de 6 cifre
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+flow-setup-2fa-backup-choice-heading = Alege o metodă de recuperare
+flow-setup-2fa-backup-choice-description = Îți permite să te conectezi dacă nu poți accesa dispozitivul mobil sau aplicația de autentificare.
+flow-setup-2fa-backup-choice-phone-title = Număr de telefon de recuperare
+flow-setup-2fa-backup-choice-phone-badge = Cel mai ușor
+
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = Închide meniul
@@ -455,6 +480,16 @@ header-menu-closed = Meniu de navigare pe site
 header-back-to-top-link =
     .title = Înapoi în partea de sus
 header-help = Ajutor
+
+## Linked Accounts section
+
+la-unlink-button = Anulează asocierea
+la-unlink-account-button = Anulează asocierea
+la-set-password-button = Setează parola
+la-unlink-heading = Anulează asocierea cu contul terț
+la-unlink-content-3 = Sigur vrei să anulezi asocierea contului? Anularea asocierii nu te deconectează automat de la Serviciile Conectate. Pentru asta va trebui să te deconectezi manual din secțiunea Servicii Conectate.
+la-unlink-content-4 = Înainte de anularea asocierii contului, trebuie să setezi o parolă. Fără parolă nu ai cum să te autentifici după anularea asocierii contului.
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
