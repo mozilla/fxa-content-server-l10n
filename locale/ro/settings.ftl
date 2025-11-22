@@ -77,6 +77,10 @@ choose-newsletters-option-latest-news =
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Acces timpuriu pentru testarea de produse noi
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Alerte de acțiune pentru revendicarea internetului
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -239,6 +243,18 @@ code-icon-aria-label =
     .aria-label = Cod
 error-icon-aria-label =
     .aria-label = Eroare
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informații
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Steagul Statelor Unite
+
+## Images - these are all aria labels used for illustrations
+## Aria labels are used as alternate text that can be read aloud by screen readers.
+
+hearts-broken-image-aria-label =
+    .aria-label = Un calculator și un telefon mobil și o imagine a unei inimi frânte pe fiecare
 
 ## Input Password
 
@@ -247,9 +263,98 @@ input-password-hide = Ascunde parola
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Afișează parola
 
+## Locale Toggle Component
+
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Cerere nereușită
+
+## PasswordInfoBalloon
+## Balloon displayed next to password input field
+
+password-info-balloon-why-password-info = Ai nevoie de această parolă pentru a accesa orice date criptate pe care le stochezi la noi.
+password-info-balloon-reset-risk-info = O resetare înseamnă pierderea potențială a unor date precum parole și marcaje.
+
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
+
+password-strength-long-instruction = Alege o parolă puternică pe care nu ai mai folosit-o pe alte site-uri. Asigură-te că îndeplinește cerințele de securitate:
+password-strength-short-instruction = Alege o parolă puternică:
+password-strength-inline-min-length = Cel puțin 8 caractere
+password-strength-inline-not-email = Nu adresa ta de e-mail
+password-strength-inline-not-common = Nu o parolă utilizată frecvent
+password-strength-inline-confirmed-must-match = Confirmarea corespunde cu noua parolă
+password-strength-inline-passwords-match = Parolele se potrivesc
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Creează
+account-recovery-notification-header-value = Nu-ți pierde datele dacă uiți parola
+account-recovery-notification-header-description = Creează o cheie de recuperare a contului pentru a-ți restaura datele de navigare sincronizate dacă uiți parola.
+recovery-phone-promo-cta = Adaugă un număr de telefon de recuperare
+recovery-phone-promo-heading = Adaugă protecție suplimentară contului tău cu un număr de telefon de recuperare
+recovery-phone-promo-description = Acum te poți autentifica cu o parolă de unică folosință prin SMS dacă nu poți folosi aplicația de autentificare în doi pași.
+recovery-phone-promo-info-link = Află mai multe despre recuperare și riscul de schimbare a cartelei SIM
+promo-banner-dismiss-button =
+    .aria-label = Închide bannerul
+
+## Ready component
+
+ready-complete-set-up-instruction = Finalizează configurarea prin introducerea noii parole pe celelalte dispozitive { -brand-firefox }.
+manage-your-account-button = Gestionează-ți contul
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Acum ești gata să utilizezi { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Acum ești gata să utilizezi setările contului
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Contul tău este gata!
+ready-continue = Continuă
+sign-in-complete-header = Autentificare confirmată
+sign-up-complete-header = Cont confirmat
+primary-email-verified-header = Adresă de e-mail primară confirmată
+
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Locuri unde poți păstra cheia:
+flow-recovery-key-download-storage-ideas-folder-v2 = Dosar pe dispozitiv securizat
+flow-recovery-key-download-storage-ideas-cloud = Stocare de încredere în cloud
+flow-recovery-key-download-storage-ideas-print-v2 = Copie fizică scoasă la imprimantă
+flow-recovery-key-download-storage-ideas-pwd-manager = Manager de parole
+
+## RecoveryKeySetupHint
+## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Adaugă un indiciu pentru a te ajuta să-ți găsești cheia
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Indiciul ar trebui să te ajute să-ți amintești unde ai stocat cheia de recuperare a contului. Ți-l putem arăta în timpul resetării parolei pentru a-ți recupera datele.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Introdu un indiciu (opțional)
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Finalizează
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Indiciul trebuie să conțină mai puțin de 255 de caractere.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Indiciul nu poate conține caractere Unicode nesigure. Sunt permise doar litere, cifre, semne de punctuație și simboluri.
+
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Avertisment
+password-reset-chevron-expanded = Restrânge avertismentul
+password-reset-chevron-collapsed = Extinde avertismentul
 password-reset-previously-signed-in-device-2 = Ai vreun dispozitiv pe care te-ai conectat anterior?
 password-reset-data-may-be-saved-locally-2 = Este posibil să ai datele din browser salvate pe dispozitivul respectiv. Resetează-ți parola, apoi intră în cont pe dispozitiv ca să îți restaurezi și să îți sincronizezi datele.
 password-reset-no-old-device-2 = Ai un dispozitiv nou, dar nu ai acces la niciunul dintre cele anterioare?

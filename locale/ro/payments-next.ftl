@@ -133,17 +133,27 @@ subscription-management-google-in-app-purchase-2 = Achiziții în aplicație { -
 subscription-management-iap-sub-expires-on-expiry-date = Expiră la { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gestionează abonamentul pentru { $productName }
+subscription-management-button-manage-subscription-1 = Gestionează abonamentul
 error-payment-method-banner-title-expired-card = Card expirat
 error-payment-method-banner-message-add-new-card = Adaugă un card nou sau o metodă de plată nouă pentru a evita întreruperea abonamentelor.
 error-payment-method-banner-label-update-payment-method = Actualizează metoda de plată
+error-payment-method-expired-card = Cardul a expirat. Te rugăm să adaugi un card nou sau o nouă metodă de plată pentru a evita întreruperea abonamentelor.
+error-payment-method-banner-title-invalid-payment-information = Informații nevalide pentru plăți
+error-payment-method-banner-message-account-issue = Există o problemă cu contul tău.
 subscription-management-button-manage-payment-method-1 = Gestionează metoda de plată
+subscription-management-error-apple-pay = A apărut o problemă în contul tău { -brand-apple-pay }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
+subscription-management-error-google-pay = A apărut o problemă în contul tău { -brand-google-pay }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
+subscription-management-error-link = A apărut o problemă în contul tău { -brand-link }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
 subscription-management-error-paypal-billing-agreement = A apărut o problemă în contul tău { -brand-paypal }. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
+subscription-management-error-payment-method = A apărut o problemă cu metoda ta de plată. Te rugăm să o rezolvi pentru a-ți menține abonamentele active.
+manage-payment-methods-heading = Gestionează metodele de plată
 paypal-payment-management-page-invalid-header = Informații de facturare nevalide
 paypal-payment-management-page-invalid-description = Se pare că există o eroare în contul tău { -brand-paypal }. Trebuie să iei măsurile necesare pentru a rezolva această problemă de plată.
 # Page - Not Found
 page-not-found-title = Pagina nu a fost găsită
 page-not-found-description = Pagina pe care ai solicitat-o nu a fost găsită. Am fost anunțați și vom repara orice linkuri care ar putea fi defecte.
 page-not-found-back-button = Înapoi
+alert-dialog-title = Casetă de dialog de alertă
 
 ## Navigation breadcrumbs
 
@@ -151,6 +161,8 @@ page-not-found-back-button = Înapoi
 subscription-management-breadcrumb-account-home = Pagina principală a contului
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonamente
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Gestionează metodele de plată
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Înapoi la { $page }
 
@@ -208,6 +220,14 @@ payments-client-loading-spinner =
     .aria-label = Se încarcă…
     .alt = Se încarcă…
 
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Setează ca metodă de plată implicită
+# Save button for saving a new payment method
+payment-method-management-save-method = Salvează metoda de plată
+manage-stripe-payments-title = Gestionează metodele de plată
+
 ## Payment Section
 
 next-new-user-card-title = Introdu informațiile cardului
@@ -216,6 +236,8 @@ next-new-user-card-title = Introdu informațiile cardului
 
 next-plan-details-header = Detalii produs
 next-plan-details-list-price = Preț de listă
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Preț proporțional pentru { $productName }
 next-plan-details-tax = Taxe și comisioane
 next-plan-details-total-label = Total
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
@@ -251,6 +273,8 @@ select-tax-location-successfully-updated = Locația a fost actualizată.
 select-tax-location-error-location-not-updated = Locația ta nu a putut fi actualizată. Te rugăm să încerci din nou.
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = Contul tău este facturat în { $currencyDisplayName }. Selectează o țară care folosește { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Selectează o țară care corespunde monedei abonamentelor tale active.
+select-tax-location-new-tax-rate-info = Actualizarea locației va aplica noua cotă de impozitare tuturor abonamentelor active din contul tău, începând cu următorul ciclu de facturare.
 signin-form-continue-button = Continuă
 signin-form-email-input = Introdu adresa de e-mail
 signin-form-email-input-missing = Te rugăm să îți introduci adresa de e-mail
@@ -342,7 +366,9 @@ next-subscription-create-title = Configurează-ți abonamentul
 next-subscription-success-title = Confirmare abonament
 next-subscription-processing-title = Se confirmă abonamentul …
 next-subscription-error-title = Eroare la confirmarea abonamentului …
+subscription-title-sub-exists = Te-ai abonat deja
 subscription-title-plan-change-heading = Vezi modificarea
+subscription-title-not-supported = Această modificare de plan nu este acceptată
 next-sub-guarantee = Garanție de rambursare a banilor în 30 de zile
 
 ## Component - TermsAndPrivacy
@@ -357,6 +383,7 @@ terms-and-privacy-stripe-label = { -brand-mozilla } folosește { -brand-name-str
 terms-and-privacy-stripe-link = Politică de confidențialitate { -brand-name-stripe }
 terms-and-privacy-paypal-label = { -brand-mozilla } folosește { -brand-paypal } pentru prelucrarea în siguranță a plăților.
 terms-and-privacy-paypal-link = Politică de confidențialitate { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } folosește { -brand-name-stripe } și { -brand-paypal } pentru procesarea în siguranță a plăților.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -364,10 +391,51 @@ upgrade-purchase-details-current-plan-label = Plan curent
 upgrade-purchase-details-new-plan-label = Plan nou
 upgrade-purchase-details-promo-code = Cod promoțional
 upgrade-purchase-details-tax-label = Taxe și comisioane
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Credit emis în cont
+upgrade-purchase-details-credit-will-be-applied = Creditul va fi aplicat contului și utilizat pentru facturile viitoare.
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
+upgrade-purchase-details-new-plan-daily = { $productName } (Zilnic)
+upgrade-purchase-details-new-plan-weekly = { $productName } (Săptămânal)
+upgrade-purchase-details-new-plan-monthly = { $productName } (Lunar)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 luni)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Anual)
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Finalizare comandă | { $productTitle }
+metadata-description-checkout-start = Introdu detaliile de plată pentru a finaliza achiziția.
+# Checkout processing
+metadata-title-checkout-processing = Procesare | { $productTitle }
+metadata-description-checkout-processing = Te rugăm să aștepți în timp ce terminăm de procesat plata.
+# Checkout error
+metadata-title-checkout-error = Eroare | { $productTitle }
+metadata-description-checkout-error = A apărut o eroare la procesarea abonamentului. Dacă problema persistă, te rugăm să contactezi serviciul de asistență.
+# Checkout success
+metadata-title-checkout-success = Succes | { $productTitle }
+metadata-description-checkout-success = Felicitări! Ai finalizat cu succes achiziția.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Acțiune necesară | { $productTitle }
+metadata-description-checkout-needs-input = Te rugăm să finalizezi acțiunea necesară ca să poți merge la plată.
+# Upgrade start
+metadata-title-upgrade-start = Upgrade | { $productTitle }
+metadata-description-upgrade-start = Introdu detaliile de plată pentru a finaliza upgrade-ul.
+# Upgrade processing
+metadata-title-upgrade-processing = Procesare | { $productTitle }
+metadata-description-upgrade-processing = Te rugăm să aștepți în timp ce terminăm de procesat plata.
+# Upgrade error
+metadata-title-upgrade-error = Eroare | { $productTitle }
+metadata-description-upgrade-error = A apărut o eroare la procesarea upgrade-ului. Dacă problema persistă, te rugăm să contactezi serviciul de asistență.
+# Upgrade success
+metadata-title-upgrade-success = Succes | { $productTitle }
+metadata-description-upgrade-success = Felicitări! Ai finalizat cu succes actualizarea.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Acțiune necesară | { $productTitle }
 metadata-description-upgrade-needs-input = Te rugăm să finalizezi acțiunea necesară ca să poți merge la plată.
 # Default
 metadata-title-default = Pagina nu a fost găsită | { $productTitle }
