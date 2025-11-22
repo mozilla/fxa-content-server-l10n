@@ -1,20 +1,13 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Accounts\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-06 07:53+0000\n"
-"Last-Translator: Valery Ledovskoy <valery@ledovskoy.com>\n"
-"Language-Team: Mozilla Russia <ru@li.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pontoon\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-POOTLE-MTIME: 1448126634.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1809,7 +1802,7 @@ msgstr "Наведите камеру на QR-код и нажмите на по
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr "Установите Firefox и откройте его на своем устройстве"
+msgstr "Установите Firefox и откройте его на своём устройстве"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
@@ -1817,7 +1810,7 @@ msgstr "Войдите в свой аккаунт"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr "<span class=\"number\">1</span>Откройте приложение камеры на своем устройстве"
+msgstr "<span class=\"number\">1</span>Откройте приложение камеры на своём устройстве"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
@@ -1986,7 +1979,7 @@ msgstr "Теперь вы можете просматривать свои от�
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr "Просматривайте вкладки на синхронизированных устройствах"
+msgstr "Просмотреть вкладки на синхронизированных устройствах"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2050,7 +2043,7 @@ msgstr "Чтобы синхронизировать Firefox на вашем те
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>Шаг 1</b>: Загрузите Firefox, отсканировав этот QR-код камерой вашего мобильного устройства:"
+msgstr "<b>Шаг 1</b>: Скачайте Firefox, отсканировав этот штрих-код камерой вашего мобильного устройства:"
 
 #: .es5/templates/pair/index.mustache:21
 msgid "QR code (located in the middle of the screen)"

@@ -1467,7 +1467,7 @@ pair-auth-complete-heading = Устройство подключено
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-now-syncing-device-text = Теперь вы синхронизируетесь с: { $deviceFamily } на { $deviceOS }
 pair-auth-complete-sync-benefits-text = Теперь вы можете просматривать свои открытые вкладки, пароли и закладки на всех устройствах.
-pair-auth-complete-see-tabs-button = Просматривайте вкладки на синхронизированных устройствах
+pair-auth-complete-see-tabs-button = Просмотреть вкладки на синхронизированных устройствах
 pair-auth-complete-manage-devices-link = Управление устройствами
 
 ## AuthTotp page
