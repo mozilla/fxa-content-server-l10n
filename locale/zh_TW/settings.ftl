@@ -1250,6 +1250,9 @@ auth-error-125 = 因為安全性因素，已封鎖請求
 auth-error-129-2 = 您輸入的電話號碼無效，請檢查後再試一次。
 auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = 此電子郵件地址已被其他帳號保留。請稍後再試或使用不同地址。
 auth-error-155 = 找不到 TOTP token
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = 找不到備用驗證碼

@@ -1288,6 +1288,9 @@ auth-error-125 = De aanvraag is om veiligheidsredenen geblokkeerd
 auth-error-129-2 = U hebt een ongeldig telefoonnummer ingevoerd. Controleer dit en probeer het opnieuw.
 auth-error-138-2 = Onbevestigde sessie
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Dit e-mailadres is door een andere account gereserveerd. Probeer het later opnieuw of gebruik een ander e-mailadres.
 auth-error-155 = TOTP-token niet gevonden
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Reserve-authenticatiecode niet gevonden
