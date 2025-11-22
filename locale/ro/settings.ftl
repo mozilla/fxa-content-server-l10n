@@ -355,6 +355,7 @@ flow-recovery-key-hint-unsafe-char-error = Indiciul nu poate conține caractere 
 password-reset-warning-icon = Avertisment
 password-reset-chevron-expanded = Restrânge avertismentul
 password-reset-chevron-collapsed = Extinde avertismentul
+password-reset-data-may-not-be-recovered = Este posibil să nu se poată recupera datele din browser
 password-reset-previously-signed-in-device-2 = Ai vreun dispozitiv pe care te-ai conectat anterior?
 password-reset-data-may-be-saved-locally-2 = Este posibil să ai datele din browser salvate pe dispozitivul respectiv. Resetează-ți parola, apoi intră în cont pe dispozitiv ca să îți restaurezi și să îți sincronizezi datele.
 password-reset-no-old-device-2 = Ai un dispozitiv nou, dar nu ai acces la niciunul dintre cele anterioare?
@@ -382,6 +383,7 @@ bento-menu-title-3 = produse { -brand-mozilla }
 bento-menu-tagline = Mai multe produse de la { -brand-mozilla } care îți protejează confidențialitatea
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = Browserul { -brand-firefox } pentru desktop
 bento-menu-firefox-mobile = Browserul { -brand-firefox } pentru dispozitiv mobil
 bento-menu-made-by-mozilla = Realizat de { -brand-mozilla }
@@ -389,6 +391,13 @@ bento-menu-made-by-mozilla = Realizat de { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Obține { -brand-firefox } pe dispozitivul mobil sau tabletă
+connect-another-find-fx-mobile-2 = Caută { -brand-firefox } în { -google-play } și { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Descarcă { -brand-firefox } din { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Descarcă { -brand-firefox } din { -app-store }
 
 ## Connected services section
 
@@ -398,6 +407,11 @@ cs-cannot-refresh =
     Ne pare rău, a apărut o problemă la actualizarea listei de servicii
     conectate.
 cs-cannot-disconnect = Clientul nu a fost găsit, imposibil de deconectat
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Mozilla accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Deconectat de la { $service }
 cs-refresh-button =
     .title = Reîmprospătează serviciile conectate
 # Link text to a support page on missing or duplicate devices
