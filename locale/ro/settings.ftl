@@ -604,10 +604,15 @@ modal-cancel-button = Anulează
 
 ## ModalMfaProtected
 
-modal-mfa-protected-title = Introduce codul de confirmare
+modal-mfa-protected-title = Introdu codul de confirmare
 
 ## Modal Verify Session
 
+mvs-enter-verification-code-2 = Introdu codul de confirmare
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Te rugăm să introduci, în termen de 5 minute, codul de confirmare trimis către <email>{ $email }</email>.
 msv-cancel-button = Anulează
 
 ## Settings Nav
@@ -710,6 +715,8 @@ add-secondary-email-save-button = Salvează
 add-secondary-email-step-2 = Pasul 2 din 2
 verify-secondary-email-page-title =
     .title = E-mail secundar
+verify-secondary-email-verification-code-2 =
+    .label = Introdu codul de confirmare
 verify-secondary-email-cancel-button = Anulează
 
 ##
