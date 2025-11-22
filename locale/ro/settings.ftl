@@ -255,6 +255,33 @@ usa-flag-icon-aria-label =
 
 hearts-broken-image-aria-label =
     .aria-label = Un calculator și un telefon mobil și o imagine a unei inimi frânte pe fiecare
+hearts-verified-image-aria-label =
+    .aria-label = Un calculator, un telefon mobil și o tabletă cu câte o inimă pulsând pe fiecare
+signin-recovery-code-image-description =
+    .aria-label = Document care conține text ascuns.
+signin-totp-code-image-label =
+    .aria-label = Un dispozitiv cu un cod ascuns de 6 cifre.
+confirm-signup-aria-label =
+    .aria-label = Un plic care conține un link
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustrație care reprezintă o cheie de recuperare a contului.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustrație care reprezintă o cheie de recuperare a contului.
+password-image-aria-label =
+    .aria-label = O ilustrație care reprezintă tastarea unei parole.
+lightbulb-aria-label =
+    .aria-label = Ilustrație care reprezintă crearea unui indiciu de stocare.
+email-code-image-aria-label =
+    .aria-label = Ilustrație care reprezintă un e-mail care conține un cod.
+recovery-phone-image-description =
+    .aria-label = Dispozitiv mobil care primește un cod prin mesaj text.
+recovery-phone-code-image-description =
+    .aria-label = Cod primit pe un dispozitiv mobil.
+confetti-falling-image-aria-label =
+    .aria-label = Confeti animate care cad
 
 ## Input Password
 
@@ -262,6 +289,21 @@ hearts-broken-image-aria-label =
 input-password-hide = Ascunde parola
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Afișează parola
+
+## LinkRememberPassword component
+
+# immediately before remember-password-signin-link
+remember-password-text = Îți amintești parola?
+# link navigates to the sign in page
+remember-password-signin-link = Intră în cont
+
+## LinkUsed component
+
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Adresă de e-mail primară deja confirmată
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Autentificare deja confirmată
+confirmation-link-reused-message = Linkul de confirmare a fost deja folosit și nu poate fi reutilizat.
 
 ## Locale Toggle Component
 
@@ -450,18 +492,68 @@ cs-sign-out-button = Deconectează-te
 ## Data collection section
 
 dc-heading = Colectarea și utilizarea datelor
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Browser { -brand-firefox }
+dc-subheader-content-2 = Permite ca { -product-mozilla-accounts } să trimită informații tehnice și de interacțiune către { -brand-mozilla }.
+dc-opt-out-success-2 = Dezactivare realizată cu succes. { -product-mozilla-accounts } nu va trimite date tehnice sau de interacțiune către { -brand-mozilla }.
+dc-opt-in-success-2 = Îți mulțumim! Partajarea acestor date ne ajută să îmbunătățim { -product-mozilla-accounts }.
+dc-opt-in-out-error-2 = Ne pare rău, a apărut o problemă la modificarea preferințelor de colectare a datelor
 dc-learn-more = Află mai multe
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = Meniu { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Autentificat(ă) ca
 drop-down-menu-sign-out = Deconectează-te
+drop-down-menu-sign-out-error-2 = Ne pare rău, a apărut o problemă la deconectare
 
 ## Flow Container
 
 flow-container-back = Înapoi
 
+## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen asks the user to confirm their password before generating a new key
+
+flow-recovery-key-confirm-pwd-heading-v2 = Reintrodu parola pentru securitate
+flow-recovery-key-confirm-pwd-input-label = Introdu parola
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Creează o cheie de recuperare a contului
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Creează o cheie nouă de recuperare a contului
+
+## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
+## Users see this view when they are generating a new account recovery key
+## This screen displays the generated key and allows users to download or copy the key
+
+flow-recovery-key-download-heading-v2 = Cheia de recuperare a contului a fost creată — Descarc-o și salveaz-o acum
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Continuă fără descărcare
+
+## FlowRecoveryKeyHint
+## This is the fourth and final step in the account recovery key creation flow in account settings
+## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
+
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Cheia de recuperare a contului a fost creată
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Creează o cheie de recuperare a contului pentru cazul în care uiți parola
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Schimbă-ți cheia de recuperare a contului
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Începe
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Anulează
+
 ## FlowSetup2faApp
 
+flow-setup-2fa-manual-key-heading = Introdu codul manual
 flow-setup-2fa-step-2-instruction = <strong>Pasul 2:</strong> Introdu codul din aplicația de autentificare.
 flow-setup-2fa-input-label = Introdu codul de 6 cifre
 
@@ -473,12 +565,26 @@ flow-setup-2fa-backup-choice-description = Îți permite să te conectezi dacă 
 flow-setup-2fa-backup-choice-phone-title = Număr de telefon de recuperare
 flow-setup-2fa-backup-choice-phone-badge = Cel mai ușor
 
+## FlowSetupPhoneConfirmCode
+
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Introdu codul de verificare
+flow-setup-phone-confirm-code-button = Confirmă
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Codul a expirat?
+flow-setup-phone-confirm-code-resend-code-button = Retrimite codul
+flow-setup-phone-confirm-code-resend-code-success = Cod trimis
+flow-setup-phone-confirm-code-success-message-v2 = Număr de telefon de recuperare adăugat
+
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = Închide meniul
 header-menu-closed = Meniu de navigare pe site
 header-back-to-top-link =
     .title = Înapoi în partea de sus
+header-title-2 = { -product-mozilla-account }
 header-help = Ajutor
 
 ## Linked Accounts section
@@ -495,6 +601,10 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = Închide
 modal-cancel-button = Anulează
+
+## ModalMfaProtected
+
+modal-mfa-protected-title = Introduce codul de confirmare
 
 ## Modal Verify Session
 
