@@ -1222,6 +1222,9 @@ auth-error-125 = הבקשה נחסמה מסיבות אבטחה
 auth-error-129-2 = הכנסת מספר טלפון לא חוקי. נא לבדוק אותו ולנסות שוב.
 auth-error-138-2 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = כתובת דוא״ל זו שמורה על־ידי חשבון אחר. נא לנסות שוב מאוחר יותר או להשתמש בכתובת דוא״ל אחרת.
 auth-error-155 = אסימון TOTP לא נמצא
 auth-error-159 = מפתח שחזור חשבון שגוי
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
