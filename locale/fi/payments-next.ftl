@@ -93,22 +93,41 @@ next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = Maksutapaa ei lisätty
+subscription-management-page-banner-warning-link-no-payment-method = Lisää maksutapa
 subscription-management-subscriptions-heading = Tilaukset
+subscription-management-nav-payment-details = Maksun tiedot
+subscription-management-nav-active-subscriptions = Aktiiviset tilaukset
+subscription-management-payment-details-heading = Maksun tiedot
+subscription-management-email-label = Sähköposti
+subscription-management-payment-method-label = Maksutapa
 subscription-management-button-add-payment-method-aria = Lisää maksutapa
 subscription-management-button-add-payment-method = Lisää
+subscription-management-page-warning-message-no-payment-method = Lisää maksutapa, jotta tilauksesi eivät keskeydy.
 subscription-management-button-manage-payment-method-aria = Hallinnoi maksutapaa
 subscription-management-button-manage-payment-method = Hallitse
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kortti päättyen { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vanhenee { $expirationDate }
+subscription-management-active-subscriptions-heading = Aktiiviset tilaukset
+subscription-management-you-have-no-active-subscriptions = Sinulla ei ole aktiivisia tilauksia
+subscription-management-new-subs-will-appear-here = Uudet tilaukset näkyvät täällä.
+subscription-management-your-active-subscriptions-aria = Aktiiviset tilauksesi
 subscription-management-button-support = Tuki
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName } -tuotetuki
 subscription-management-your-apple-iap-subscriptions-aria = Sovelluksen sisäiset { -brand-apple }-ostoksesi
 subscription-management-your-google-iap-subscriptions-aria = Sovelluksen sisäiset { -brand-google }-ostoksesi
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Vanhenee { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Hallinnoi { $productName } -tilausta
+subscription-management-button-manage-subscription-1 = Hallinnoi tilausta
+error-payment-method-banner-title-expired-card = Vanhentunut kortti
+error-payment-method-banner-label-update-payment-method = Päivitä maksutapa
+subscription-management-button-manage-payment-method-1 = Hallinnoi maksutapaa
+manage-payment-methods-heading = Hallinnoi maksutapoja
 paypal-payment-management-page-invalid-header = Virheelliset laskutustiedot
 # Page - Not Found
 page-not-found-title = Sivua ei löydy
@@ -250,8 +269,19 @@ next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi v
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-heading-cancel-subscription = Peruuta tilaus
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Viimeisin lasku • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } vero
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Näytä lasku
+subscription-content-expires-on-expiry-date = Vanhenee { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Seuraava lasku • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } vero
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Jatka tilausta
     .aria-label = Jatka tuotteen { $productName } tilausta
+subscription-content-button-cancel-subscription-1 = Peru tilaus
 subscription-content-button-cancel-subscription = Peruuta tilaus
     .aria-label = Peruuta tuotteen { $productName } tilaus
 subscription-content-button-cancel = Peruuta
@@ -339,8 +369,10 @@ metadata-title-checkout-start = Kassa | { $productTitle }
 metadata-description-checkout-start = Kirjoita maksutietosi ostoksen suorittamiseksi loppuun.
 # Checkout processing
 metadata-title-checkout-processing = Käsitellään | { $productTitle }
+metadata-description-checkout-processing = Odota, kun käsittelemme maksuasi.
 # Checkout error
 metadata-title-checkout-error = Virhe | { $productTitle }
+metadata-description-checkout-error = Tilauksesi käsittelyssä tapahtui virhe. Jos ongelma jatkuu, ota yhteys tukeen.
 # Checkout success
 metadata-title-checkout-success = Onnistui | { $productTitle }
 metadata-description-checkout-success = Onnittelut! Olet suorittanut ostoksen onnistuneesti.
