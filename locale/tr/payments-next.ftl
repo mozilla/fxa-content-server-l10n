@@ -274,9 +274,11 @@ next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınız�
 
 subscription-content-heading-cancel-subscription = Aboneliği iptal et
 subscription-content-no-longer-use-message = Fatura döneminizin son günü olan { $currentPeriodEnd } tarihinden sonra { $productName } ürününü kullanamayacaksınız.
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } vergi
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Faturayı görüntüle
 subscription-management-link-view-invoice-aria = { $productName } faturasını görüntüle
+subscription-content-expires-on-expiry-date = Son geçerlilik tarihi: { $date }
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-cancel-subscription-1 = Aboneliği iptal et
 subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
