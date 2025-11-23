@@ -1290,6 +1290,9 @@ auth-error-125 = Το αίτημα αποκλείστηκε για λόγους 
 auth-error-129-2 = Πληκτρολογήσατε μη έγκυρο αριθμό τηλεφώνου. Ελέγξτε τον και δοκιμάστε ξανά.
 auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
 auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Αυτή η διεύθυνση email έχει δεσμευτεί από άλλο λογαριασμό. Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε μια άλλη διεύθυνση email.
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Δεν βρέθηκε εφεδρικός κωδικός ταυτοποίησης
