@@ -1291,6 +1291,9 @@ auth-error-125 = Le requesta ha essite blocate pro rationes de securitate
 auth-error-129-2 = Tu insereva un numero de telephono non valide. Verifica lo e retenta.
 auth-error-138-2 = Session non confirmate
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Iste adresse e-mail es reservate per un altere conto. Retenta plus tarde o usa un altere adresse e-mail.
 auth-error-155 = Token TOTP non trovate
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Codice de authentication de reserva non trovate
