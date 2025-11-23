@@ -1262,6 +1262,9 @@ auth-error-125 = Yêu cầu đã bị chặn vì lý do bảo mật
 auth-error-129-2 = Bạn đã nhập số điện thoại không hợp lệ. Vui lòng kiểm tra và thử lại.
 auth-error-138-2 = Phiên chưa được xác minh
 auth-error-139 = Email phụ phải khác với email chính của bạn
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Email này đã tạm thời được sử dụng cho một tài khoản khác. Vui lòng thử lại sau hoặc sử dụng địa chỉ email khác.
 auth-error-155 = Không tìm thấy token TOTP
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Không tìm thấy mã xác thực dự phòng
