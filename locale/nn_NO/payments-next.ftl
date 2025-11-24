@@ -141,6 +141,7 @@ error-payment-method-expired-card = Kortet ditt har gått ut. Legg til eit nytt 
 error-payment-method-banner-title-invalid-payment-information = Ugyldig betalingsinformasjon
 error-payment-method-banner-message-account-issue = Det er eit problem med kontoen din.
 subscription-management-button-manage-payment-method-1 = Handsam betalingsmåte
+subscription-management-error-apple-pay = Det er eit problem med { -brand-apple-pay }-kontoen din. Ver vennleg og løys problemet for å oppretthalde dei aktive abonnementa dine.
 subscription-management-error-paypal-billing-agreement = Det er eit problem med { -brand-paypal }-kontoen din. Løys problemet for å oppretthalde dei aktive abonnementa dine.
 manage-payment-methods-heading = Handsam betalingsmåtar
 paypal-payment-management-page-invalid-header = Ugyldig faktureringsinformasjon
