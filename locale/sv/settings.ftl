@@ -1290,6 +1290,9 @@ auth-error-125 = Begäran blockerades av säkerhetsskäl
 auth-error-129-2 = Du angav ett ogiltigt telefonnummer. Kontrollera och försök igen.
 auth-error-138-2 = Obekräftad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Den här e-postadressen är reserverad av ett annat konto. Försök igen senare eller använd en annan e-postadress.
 auth-error-155 = TOTP-tecken hittades inte
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Reservautentiseringskoden hittades inte
