@@ -545,7 +545,7 @@ cs-disconnect-lost-advice-heading = Dispozitiv pierdut sau furat deconectat
 cs-disconnect-lost-advice-content-3 = Întrucât dispozitivul a fost pierdut sau furat, pentru a-ți păstra informațiile în siguranță, ar trebui să schimbi parola { -product-mozilla-account } în setările contului. De asemenea, ar trebui să cauți informații de la producătorul dispozitivului despre ștergerea datelor de la distanță.
 cs-disconnect-suspicious-advice-heading = Dispozitiv suspect deconectat
 cs-disconnect-suspicious-advice-content-2 = Dacă dispozitivul deconectat este într-adevăr suspect, pentru a-ți păstra în siguranță informațiile, ar trebui să îți schimbi parola { -product-mozilla-account } în setările contului. Ar trebui să schimbi și orice alte parole pe care le-ai salvat în { -brand-firefox } tastând about:logins în bara de adrese.
-cs-sign-out-button = Deconectează-te
+cs-sign-out-button = Ieși din cont
 
 ## Data collection section
 
@@ -565,7 +565,7 @@ drop-down-menu-title-2 = Meniu { -product-mozilla-account }
 # This is displayed in the Settings menu after user's click on their profile icon.
 # Following this string on a new line will be their display name (user's name or email)
 drop-down-menu-signed-in-as-v2 = Autentificat(ă) ca
-drop-down-menu-sign-out = Deconectează-te
+drop-down-menu-sign-out = Ieși din cont
 drop-down-menu-sign-out-error-2 = Ne pare rău, a apărut o problemă la deconectare
 
 ## Flow Container
@@ -1030,3 +1030,10 @@ legal-terms-of-service-link = Condiții de utilizare a serviciilor
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
 legal-terms-heading = Condiții de utilizare a serviciilor
+
+## SigninTOTPCode page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during sign-in.
+
+signin-totp-code-aal-sign-out = Ieși din cont pe acest dispozitiv
+signin-totp-code-aal-sign-out-error = Ne pare rău, a apărut o problemă la ieșirea din cont

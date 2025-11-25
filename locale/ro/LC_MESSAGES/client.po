@@ -15,7 +15,7 @@ msgstr "Resetare parolă"
 
 #: .es5/views/confirm_reset_password.js:185
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Parolă resetată cu succes. Autentifică-te pentru a continua."
+msgstr "Parolă resetată cu succes. Intră în cont pentru a continua."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
@@ -535,7 +535,7 @@ msgstr "Încercare de autentificare anulată"
 
 #: .es5/lib/auth-errors.js:318
 msgid "Session expired. Sign in to continue."
-msgstr "Sesiune expirată. Autentifică-te pentru a continua."
+msgstr "Sesiune expirată. Intră în cont pentru a continua."
 
 #: .es5/lib/auth-errors.js:322
 msgid "Cookies are still disabled"
@@ -962,7 +962,7 @@ msgstr "Reintrodu parola"
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
-msgstr "Îți amintești parola? Autentifică-te"
+msgstr "Îți amintești parola? Intră în cont"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -1074,7 +1074,7 @@ msgstr "Te-ai autentificat în Firefox"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
-msgstr "Autentifică-te în acest Firefox pentru a finaliza configurarea"
+msgstr "Intră în cont în acest browser Firefox pentru a finaliza configurarea"
 
 #: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
@@ -1169,7 +1169,7 @@ msgstr "Te rugăm să ne dai adresa de e-mail la care vrei să îți redirecțio
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
-msgstr "Înscrie-te sau autentifică-te"
+msgstr "Intră în cont sau fă-ți un cont"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1807,7 +1807,7 @@ msgstr "Instalează Firefox și deschide-l pe dispozitiv"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr "Autentifică-te în cont"
+msgstr "Intră în cont"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"

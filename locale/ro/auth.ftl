@@ -357,14 +357,14 @@ fraudulentAccountDeletion-contact = Pentru orice întrebări, contactează <a da
 fraudulentAccountDeletion-contact-plaintext = Pentru orice întrebări, contactează echipa de asistență: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Ultima șansă ca să îți păstrezi { -product-mozilla-account }
 inactiveAccountFinalWarning-title = Contul { -brand-mozilla } și datele vor fi șterse
-inactiveAccountFinalWarning-preview = Autentifică-te ca să îți păstrezi contul
+inactiveAccountFinalWarning-preview = Intră în cont ca să îl păstrezi
 inactiveAccountFinalWarning-account-description = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = La data de <strong>{ $deletionDate }</strong>, contul și datele personale vor fi șterse definitiv dacă nu te conectezi.
-inactiveAccountFinalWarning-action = Autentifică-te ca să îți păstrezi contul
+inactiveAccountFinalWarning-action = Intră în cont ca să îl păstrezi
 # followed by link to sign in
-inactiveAccountFinalWarning-action-plaintext = Autentifică-te ca să îți păstrezi contul:
+inactiveAccountFinalWarning-action-plaintext = Intră în cont ca să îl păstrezi:
 inactiveAccountFirstWarning-subject = Nu-ți pierde contul
 inactiveAccountFirstWarning-title = Vrei să îți păstrezi contul și datele { -brand-mozilla }?
 inactiveAccountFirstWarning-account-description-v2 = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
@@ -372,19 +372,19 @@ inactiveAccountFirstWarning-inactive-status = Am observat că nu te-ai conectat 
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Contul și datele personale vor fi șterse definitiv pe data de <strong>{ $deletionDate }</strong> pentru că nu ai fost activ(ă).
-inactiveAccountFirstWarning-action = Autentifică-te ca să îți păstrezi contul
-inactiveAccountFirstWarning-preview = Autentifică-te ca să îți păstrezi contul
+inactiveAccountFirstWarning-action = Intră în cont ca să îl păstrezi
+inactiveAccountFirstWarning-preview = Intră în cont ca să îl păstrezi
 # followed by link to sign in
-inactiveAccountFirstWarning-action-plaintext = Autentifică-te ca să îți păstrezi contul:
+inactiveAccountFirstWarning-action-plaintext = Intră în cont ca să îl păstrezi:
 inactiveAccountSecondWarning-subject = Acțiune necesară: Contul va fi șters în 7 zile
 inactiveAccountSecondWarning-title = Contul { -brand-mozilla } și datele vor fi șterse în 7 zile
 inactiveAccountSecondWarning-account-description-v2 = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Contul și datele personale vor fi șterse definitiv pe data de <strong>{ $deletionDate }</strong> pentru că nu ai fost activ(ă).
-inactiveAccountSecondWarning-action = Autentifică-te ca să îți păstrezi contul
-inactiveAccountSecondWarning-preview = Autentifică-te ca să îți păstrezi contul
+inactiveAccountSecondWarning-action = Intră în cont ca să îl păstrezi
+inactiveAccountSecondWarning-preview = Intră în cont ca să îl păstrezi
 # followed by link to sign in
-inactiveAccountSecondWarning-action-plaintext = Autentifică-te ca să îți păstrezi contul:
+inactiveAccountSecondWarning-action-plaintext = Intră în cont ca să îl păstrezi:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ai epuizat codurile de autentificare de rezervă!
 codes-reminder-title-one = Ai ajuns la ultimul cod de autentificare de rezevă
@@ -572,7 +572,7 @@ postSigninRecoveryPhone-device = Te-ai conectat de pe:
 postSigninRecoveryPhone-action = Gestionează contul
 postVerify-sub-title-3 = Suntem încântați să te vedem!
 postVerify-title-2 = Vrei să vezi aceeași filă pe două dispozitive?
-postVerify-description-2 = E simplu! Instalează { -brand-firefox } pe un alt dispozitiv și autentifică-te pentru sincronizare. E ca prin magie!
+postVerify-description-2 = E simplu! Instalează { -brand-firefox } pe un alt dispozitiv și intră în cont pentru sincronizare. E ca prin magie!
 postVerify-sub-description = (Psst… Înseamnă și că poți accesa marcajele, parolele și alte date { -brand-firefox } oriunde ești conectat(ă).)
 postVerify-subject-4 = Bine ai venit la { -brand-mozilla }!
 postVerify-setup-2 = Conectează un alt dispozitiv:
