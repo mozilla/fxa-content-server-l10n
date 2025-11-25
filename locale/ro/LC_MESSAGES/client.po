@@ -1082,7 +1082,7 @@ msgstr "Adaugi și alte dispozitive?"
 
 #: .es5/templates/connect_another_device.mustache:20
 msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Autentifică-te în Firefox de pe alt dispozitiv pentru a finaliza configurarea"
+msgstr "Intră în contul Firefox de pe alt dispozitiv pentru a finaliza configurarea"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
@@ -1711,7 +1711,7 @@ msgstr "Acest Firefox este conectat"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr "Autentifică-te pentru mai multe"
+msgstr "Intră în cont pentru mai multe"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
@@ -1823,7 +1823,7 @@ msgstr "<span class=\"number\">3</span>Instalează Firefox și deschide-l pe dis
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr "<span class=\"number\">4</span>Autentifică-te în cont"
+msgstr "<span class=\"number\">4</span>Intră în cont"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
