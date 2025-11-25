@@ -496,7 +496,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Ai adăugat și coduri de a
 postAddTwoStepAuthentication-recovery-method-phone = Ai adăugat și { $maskedPhoneNumber } ca număr de telefon pentru recuperare.
 postAddTwoStepAuthentication-how-protects-link = Cum îți protejează contul
 postAddTwoStepAuthentication-how-protects-plaintext = Cum îți protejează contul
-postAddTwoStepAuthentication-device-sign-out-message = Pentru a-ți proteja toate dispozitivele conectate, trebuie să te deconectezi de peste tot unde folosești acest cont și apoi să te conectezi din nou utilizând autentificarea în doi pași.
+postAddTwoStepAuthentication-device-sign-out-message = Pentru a-ți proteja toate dispozitivele conectate, trebuie să ieși din cont de peste tot pe unde îl folosești și apoi să intri iar în cont utilizând noua autentificare în doi pași.
 postChangeAccountRecovery-subject = Cheie de recuperare a contului modificată
 postChangeAccountRecovery-title = Ți-ai modificat cheia de recuperare a contului
 postChangeAccountRecovery-body-part1 = Acum ai o cheie nouă de recuperare a contului. Cea anterioară a fost ștearsă.
@@ -522,7 +522,7 @@ postChangeTwoStepAuthentication-from-device = Ai făcut cererea de pe:
 postChangeTwoStepAuthentication-action = Gestionează contul
 postChangeTwoStepAuthentication-how-protects-link = Cum îți protejează contul
 postChangeTwoStepAuthentication-how-protects-plaintext = Cum îți protejează contul:
-postChangeTwoStepAuthentication-device-sign-out-message = Pentru a-ți proteja toate dispozitivele conectate, trebuie să te deconectezi de peste tot unde folosești acest cont și apoi să te conectezi din nou utilizând noua autentificare în doi pași.
+postChangeTwoStepAuthentication-device-sign-out-message = Pentru a-ți proteja toate dispozitivele conectate, trebuie să ieși din cont de peste tot pe unde îl folosești și apoi să intri iar în cont utilizând noua autentificare în doi pași.
 postConsumeRecoveryCode-title-3 = Codul de autentificare de rezervă a fost folosit pentru a confirma resetarea parolei.
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
