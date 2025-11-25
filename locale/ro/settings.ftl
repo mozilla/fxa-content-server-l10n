@@ -280,8 +280,26 @@ recovery-phone-image-description =
     .aria-label = Dispozitiv mobil care primește un cod prin mesaj text.
 recovery-phone-code-image-description =
     .aria-label = Cod primit pe un dispozitiv mobil.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Dispozitiv mobil cu funcții de trimitere mesaje text SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Ecranul dispozitivului cu coduri
+sync-clouds-image-aria-label =
+    .aria-label = Nori cu o pictogramă de sincronizare
 confetti-falling-image-aria-label =
     .aria-label = Confeti animate care cad
+
+## InlineRecoveryKeySetupCreate component
+## Users see this view when we prompt them to generate an account recovery key
+## after signing in.
+
+inline-recovery-key-setup-signed-in-firefox-2 = Ești autentificat(ă) în { -brand-firefox }.
+inline-recovery-key-setup-create-header = Securizează-ți contul
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Ai un minut să-ți protejezi datele?
+inline-recovery-key-setup-info = Creează o cheie de recuperare a contului pentru a-ți restaura datele de navigare sincronizate dacă uiți parola.
+inline-recovery-key-setup-start-button = Creează o cheie de recuperare a contului
+inline-recovery-key-setup-later-button = Fă-o mai târziu
 
 ## Input Password
 
@@ -289,6 +307,43 @@ confetti-falling-image-aria-label =
 input-password-hide = Ascunde parola
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Afișează parola
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Parola ta este vizibilă acum pe ecran.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Parola ta este ascunsă acum.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Parola ta este vizibilă acum pe ecran.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Parola ta este ascunsă acum.
+
+## Phone number component
+
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Selectează țara
+input-phone-number-enter-number = Introdu numărul de telefon
+input-phone-number-country-united-states = Statele Unite
+input-phone-number-country-canada = Canada
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Înapoi
+
+## LinkDamaged component
+
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Link de resetare a parolei corupt
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Link de confirmare corupt
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Link corupt
+# The user followed a link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Linkul pe care ai dat clic avea caractere lipsă și este posibil să fi fost deteriorat de către clientul de e-mail. Copiază adresa cu grijă și încearcă din nou.
+
+## LinkExpired component
+
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Primește un link nou
 
 ## LinkRememberPassword component
 
@@ -307,6 +362,8 @@ confirmation-link-reused-message = Linkul de confirmare a fost deja folosit și 
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Selectează limba
+locale-toggle-browser-default = Implicit în browser
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Cerere nereușită
 
@@ -487,6 +544,7 @@ cs-disconnect-advice-confirm = OK, am înțeles
 cs-disconnect-lost-advice-heading = Dispozitiv pierdut sau furat deconectat
 cs-disconnect-lost-advice-content-3 = Întrucât dispozitivul a fost pierdut sau furat, pentru a-ți păstra informațiile în siguranță, ar trebui să schimbi parola { -product-mozilla-account } în setările contului. De asemenea, ar trebui să cauți informații de la producătorul dispozitivului despre ștergerea datelor de la distanță.
 cs-disconnect-suspicious-advice-heading = Dispozitiv suspect deconectat
+cs-disconnect-suspicious-advice-content-2 = Dacă dispozitivul deconectat este într-adevăr suspect, pentru a-ți păstra în siguranță informațiile, ar trebui să îți schimbi parola { -product-mozilla-account } în setările contului. Ar trebui să schimbi și orice alte parole pe care le-ai salvat în { -brand-firefox } tastând about:logins în bara de adrese.
 cs-sign-out-button = Deconectează-te
 
 ## Data collection section
@@ -495,6 +553,7 @@ dc-heading = Colectarea și utilizarea datelor
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Browser { -brand-firefox }
 dc-subheader-content-2 = Permite ca { -product-mozilla-accounts } să trimită informații tehnice și de interacțiune către { -brand-mozilla }.
+dc-subheader-ff-content = Pentru revizuirea sau actualizarea setărilor tehnice și de interacțiune ale browserului { -brand-firefox }, deschide setările { -brand-firefox } și mergi la Confidențialitate și securitate.
 dc-opt-out-success-2 = Dezactivare realizată cu succes. { -product-mozilla-accounts } nu va trimite date tehnice sau de interacțiune către { -brand-mozilla }.
 dc-opt-in-success-2 = Îți mulțumim! Partajarea acestor date ne ajută să îmbunătățim { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Ne pare rău, a apărut o problemă la modificarea preferințelor de colectare a datelor
@@ -530,6 +589,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Creează o cheie nouă 
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Cheia de recuperare a contului a fost creată — Descarc-o și salveaz-o acum
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Cheia îți permite să îți recuperezi datele dacă uiți parola. Descarc-o acum și stocheaz-o undeva unde să ții minte că ai pus-o — nu veți putea reveni la această pagină mai târziu.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Continuă fără descărcare
 
@@ -546,6 +607,10 @@ flow-recovery-key-success-alert = Cheia de recuperare a contului a fost creată
 flow-recovery-key-info-header = Creează o cheie de recuperare a contului pentru cazul în care uiți parola
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Schimbă-ți cheia de recuperare a contului
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Criptăm datele de navigare –– parole, marcaje și multe altele. Este excelent pentru confidențialitate, dar îți poți pierde datele dacă uiți parola.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = De aceea, crearea unei chei de recuperare a contului este atât de importantă –– o poți folosi pentru restaurarea datelor.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Începe
 # Link to cancel account recovery key change and return to settings
@@ -553,6 +618,17 @@ flow-recovery-key-info-cancel-link = Anulează
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Conectează-te la aplicația ta de autentificare
+# DEV NOTE: "2a" in the id should be "2fa". This typo is kept intentionally to
+# avoid losing existing translations; fix it when creating a new version of
+# this string.
+flow-setup-2a-qr-instruction = <strong>Pasul 1:</strong> Scanează acest cod QR folosind orice aplicație de autentificare, cum ar fi Duo sau Google Authenticator.
+# Alt text for the QR-code image shown during two-step authentication setup.
+# “setup secret key” refers to the long code you can copy instead of scanning.
+# Not to be confused with the 6-digit codes generated by the authenticator app.
+flow-setup-2fa-qr-alt-text =
+    .alt = Cod QR pentru configurarea autentificării în doi pași. Scanează-l sau alege „Nu poți scana codul QR?” pentru a obține în schimb o cheie secretă de configurare.
+flow-setup-2fa-cant-scan-qr-button = Nu poți scana codul?
 flow-setup-2fa-manual-key-heading = Introdu codul manual
 flow-setup-2fa-step-2-instruction = <strong>Pasul 2:</strong> Introdu codul din aplicația de autentificare.
 flow-setup-2fa-input-label = Introdu codul de 6 cifre
@@ -570,6 +646,10 @@ flow-setup-2fa-backup-choice-phone-badge = Cel mai ușor
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Introdu codul de verificare
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = A fost trimis prin SMS un cod de 6 cifre la <span>{ $phoneNumber }</span>. Codul expiră după 5 minute.
+flow-setup-phone-confirm-code-input-label = Introdu codul de 6 cifre
 flow-setup-phone-confirm-code-button = Confirmă
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
@@ -577,6 +657,15 @@ flow-setup-phone-confirm-code-expired = Codul a expirat?
 flow-setup-phone-confirm-code-resend-code-button = Retrimite codul
 flow-setup-phone-confirm-code-resend-code-success = Cod trimis
 flow-setup-phone-confirm-code-success-message-v2 = Număr de telefon de recuperare adăugat
+
+## FlowSetupPhoneConfirmCode
+
+flow-setup-phone-submit-number-heading = Verifică numărul de telefon
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Vei primi un mesaj text de la { -brand-mozilla } cu un cod pentru verificarea numărului. Nu-l distribui nimănui.
+flow-setup-phone-submit-number-legal = Prin furnizarea numărului, ești de acord să îl stocăm pentru a-ți putea trimite mesaje text doar pentru verificarea contului. Se pot aplica tarife pentru mesaje și date.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Trimite codul
 
 ## HeaderLockup component, the header in account settings
 
