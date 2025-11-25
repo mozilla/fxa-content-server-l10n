@@ -1292,6 +1292,9 @@ auth-error-125 = De oanfraach is om reden fan feilichheid blokkearre
 auth-error-129-2 = Jo hawwe in ûnjildich telefoannûmer ynfierd. Kontrolearje dit en probearje it opnij.
 auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Dit e-mailadres is troch in oare account reservearre. Probearje it letter nochris of brûk in oar e-mailadres.
 auth-error-155 = TOTP-token net fûn
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Reserve-autentikaasjekoade net fûn
