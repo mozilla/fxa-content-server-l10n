@@ -647,10 +647,53 @@ flow-setup-2fa-backup-choice-description = Îți permite să te conectezi dacă 
 flow-setup-2fa-backup-choice-phone-title = Număr de telefon de recuperare
 flow-setup-2fa-backup-choice-phone-badge = Cel mai ușor
 flow-setup-2fa-backup-choice-phone-info = Primește un cod de recuperare prin mesaj text. Disponibil în SUA și Canada.
+flow-setup-2fa-backup-choice-code-title = Coduri de autentificare de rezervă
+flow-setup-2fa-backup-choice-code-badge = Cel mai sigur
+flow-setup-2fa-backup-choice-code-info = Creează și salvează coduri de autentificare de unică folosință.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Află despre recuperare și riscul de schimbare a cartelei SIM
+
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+flow-setup-2fa-backup-code-confirm-heading = Introdu codul de autentificare de rezervă
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Confirmă că ai salvat codurile introducând unul. Fără aceste coduri, este posibil să nu poți intra în cont dacă nu ai aplicația de autentificare.
+flow-setup-2fa-backup-code-confirm-code-input = Introdu codul de 10 caractere
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Termină
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-heading = Salvează codurile de autentificare de rezervă
+flow-setup-2fa-backup-code-dl-save-these-codes = Păstrează-le într-un loc pe care să îl ții minte. Dacă nu ai acces la aplicația de autentificare, va trebui să introduci unul ca să intri în cont.
+flow-setup-2fa-backup-code-dl-button-continue = Continuă
 
 ##
 
+flow-setup-2fa-inline-complete-success-banner = Autentificare în doi pași activată
 flow-setup-2fa-inline-complete-success-banner-description = Pentru a-ți proteja toate dispozitivele conectate, trebuie să ieși din cont de peste tot pe unde îl folosești și apoi să intri iar în cont utilizând noua autentificare în doi pași.
+flow-setup-2fa-inline-complete-backup-code = Coduri de autentificare de rezervă
+flow-setup-2fa-inline-complete-backup-phone = Număr de telefon de recuperare
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } cod rămas
+        [few] { $count } coduri rămase
+       *[other] { $count } de coduri rămase
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Este cea mai sigură metodă de recuperare dacă nu poți intra în cont cu dispozitivul mobil sau aplicația de autentificare.
+flow-setup-2fa-inline-complete-backup-phone-description = Este cea mai ușoară metodă de recuperare dacă nu poți intra în cont cu aplicația de autentificare.
+flow-setup-2fa-inline-complete-learn-more-link = Cum îți protejează contul
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Continuă cu { $serviceName }
+flow-setup-2fa-prompt-heading = Configurează autentificarea în doi pași
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } necesită configurarea autentificării în doi pași ca să îți menții contul în siguranță.
 
 ## FlowSetupPhoneConfirmCode
 
@@ -709,6 +752,7 @@ nav-linked-accounts = { la-heading }
 
 modal-close-title = Închide
 modal-cancel-button = Anulează
+modal-default-confirm-button = Confirmă
 
 ## ModalMfaProtected
 
@@ -720,12 +764,14 @@ modal-mfa-protected-resend-code-link = Trimite un cod nou prin e-mail.
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Confirmă adresa de e-mail
 mvs-enter-verification-code-2 = Introdu codul de confirmare
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
 mvs-enter-verification-code-desc-2 = Te rugăm să introduci, în termen de 5 minute, codul de confirmare trimis către <email>{ $email }</email>.
 msv-cancel-button = Anulează
+msv-submit-button-2 = Confirmă
 
 ## Settings Nav
 
@@ -749,6 +795,10 @@ page-2fa-change-qr-instruction = <strong>Pasul 1:</strong> Scanează acest cod Q
 
 # Page title
 tfa-backup-codes-page-title = Coduri de autentificare de rezervă
+# Error shown when API call fails while replacing existing backup codes
+tfa-replace-code-error-3 = A apărut o problemă la înlocuirea codurilor de autentificare de rezervă
+# Error shown when API call fails while creating new backup codes (user had none)
+tfa-create-code-error = A apărut o problemă la crearea codurilor de autentificare de rezervă
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Coduri de autentificare de rezervă create
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
