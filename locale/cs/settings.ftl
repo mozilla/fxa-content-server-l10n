@@ -638,7 +638,7 @@ flow-setup-2fa-manual-key-heading = Zadejte kód ručně
 flow-setup-2fa-manual-key-instruction = <strong>Krok 1:</strong> Zadejte tento kód do preferované ověřovací aplikace.
 flow-setup-2fa-scan-qr-instead-button = Místo toho naskenovat QR kód?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
-flow-setup-2fa-more-info-link = Zjistit více o autentizačních aplikacích
+flow-setup-2fa-more-info-link = Zjistit více o ověřovacích aplikacích
 flow-setup-2fa-button = Pokračovat
 flow-setup-2fa-step-2-instruction = <strong>Krok 2:</strong>Zadejte kód z vaší ověřovací aplikace.
 flow-setup-2fa-input-label = Zadejte šestimístný kód
@@ -648,7 +648,7 @@ flow-setup-2fa-code-error = Neplatný nebo prošlý kód. Zkontrolujte údaj ve 
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = Vyberte způsob obnovení
-flow-setup-2fa-backup-choice-description = Díky tomu se můžete přihlásit, pokud nemáte přístup ke svému mobilnímu zařízení nebo aplikaci pro ověřování.
+flow-setup-2fa-backup-choice-description = Díky tomu se můžete přihlásit, pokud nemáte přístup ke svému mobilnímu zařízení nebo své ověřovací aplikaci.
 flow-setup-2fa-backup-choice-phone-title = Telefon pro obnovení
 flow-setup-2fa-backup-choice-phone-badge = Nejjednodušší
 flow-setup-2fa-backup-choice-phone-info = Získejte obnovovací kód prostřednictvím textové zprávy. Momentálně dostupné v USA a Kanadě.
@@ -664,7 +664,7 @@ flow-setup-2fa-backup-choice-learn-more-link = Další informace o riziku obnove
 
 flow-setup-2fa-backup-code-confirm-heading = Zadejte záložní ověřovací kód
 # codes here refers to backup authentication codes
-flow-setup-2fa-backup-code-confirm-confirm-saved = Potvrďte uložení kódů zadáním jednoho z nich. Bez těchto kódů se možná nebudete moci přihlásit, pokud nemáte aplikaci pro ověření.
+flow-setup-2fa-backup-code-confirm-confirm-saved = Potvrďte uložení kódů zadáním jednoho z nich. Bez těchto kódů se možná nebudete moci přihlásit, pokud nemáte ověřovací aplikaci.
 flow-setup-2fa-backup-code-confirm-code-input = Zadejte 10místný kód
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Dokončit
@@ -672,7 +672,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Dokončit
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Uložit záložní ověřovací kódy
-flow-setup-2fa-backup-code-dl-save-these-codes = Uložte si je na místo, které si budete pamatovat. Pokud nemáte přístup ke své ověřovací aplikaci, budete ho muset před přihlášením zadat.
+flow-setup-2fa-backup-code-dl-save-these-codes = Uložte si je na místo, které si budete pamatovat. Pokud nemáte přístup ke své ověřovací aplikaci, budete muset při přihlašování jeden z nich zadat.
 flow-setup-2fa-backup-code-dl-button-continue = Pokračovat
 
 ##
@@ -689,7 +689,7 @@ flow-setup-2fa-inline-complete-backup-code-info =
         [few] Zbývají { $count } kódy
        *[other] Zbývá { $count } kódů
     }
-flow-setup-2fa-inline-complete-backup-code-description = Toto je nejbezpečnější způsob obnovení, pokud se nemůžete přihlásit pomocí svého mobilního zařízení nebo aplikace pro ověřování.
+flow-setup-2fa-inline-complete-backup-code-description = Toto je nejbezpečnější způsob obnovení, pokud se nemůžete přihlásit pomocí svého mobilního zařízení nebo své ověřovací aplikace.
 flow-setup-2fa-inline-complete-backup-phone-description = Toto je nejjednodušší způsob obnovení, pokud se nemůžete přihlásit pomocí své ověřovací aplikace.
 flow-setup-2fa-inline-complete-learn-more-link = Jak tato funkce chrání váš účet
 # $serviceName (String) - the name of the product that the user will be
@@ -814,7 +814,7 @@ page-2fa-change-title = Změnit dvoufázové ověřování
 page-2fa-change-success = Dvoufázové ověřování bylo aktualizováno
 page-2fa-change-success-additional-message = Pro ochranu všech vašich připojených zařízení byste se měli odhlásit všude, kde používáte tento účet, a poté se znovu přihlaste pomocí nového dvoufázového ověření.
 page-2fa-change-totpinfo-error = Při výměně vaší aplikace pro dvoufázové ověřování nastala chyba. Zkuste to znovu později.
-page-2fa-change-qr-instruction = <strong>Krok 1:</strong> Naskenujte tento QR kód pomocí libovolné aplikace, jako je Duo nebo Google Authenticator. Toto vytvoří nové připojení. Stará připojení nebudou nadále fungovat.
+page-2fa-change-qr-instruction = <strong>Krok 1:</strong> Naskenujte tento QR kód pomocí libovolné aplikace, jako je Duo nebo Google Authenticator. Tím se vytvoří nové připojení a všechna stará připojení přestanou fungovat.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -1124,7 +1124,7 @@ tfa-row-backup-codes-get-new-cta-v2 = Vytvořit nové kódy
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Přidat
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = Pokud nemůžete použít mobilní zařízení nebo aplikaci autentikátoru, je to nejbezpečnější způsob obnovy.
+tfa-row-backup-codes-description-2 = Pokud nemůžete použít mobilní zařízení nebo ověřovací aplikaci, je to nejbezpečnější způsob obnovy.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefon pro obnovení
@@ -1140,7 +1140,7 @@ tfa-row-backup-phone-delete-button = Odebrat
 tfa-row-backup-phone-delete-title-v2 = Odebrat telefon pro obnovení
 tfa-row-backup-phone-delete-restriction-v2 = Pokud chcete odebrat telefon pro obnovení, přidejte nejprve záložní ověřovací kódy nebo vypněte dvoufázové ověřování, abyste se vyhnuli zablokování účtu.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = Jedná se o nejjednodušší metodu obnovení, pokud nemůžete použít aplikaci autentizátoru.
+tfa-row-backup-phone-description-v2 = Jedná se o nejjednodušší způsob obnovení, pokud nemůžete použít ověřovací aplikaci.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1234,7 +1234,7 @@ tfa-row-enabled-description = Váš účet je chráněn dvoufázovým ověřová
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Jak to chrání váš účet
-tfa-row-disabled-description-v2 = Pomozte zabezpečit svůj účet pomocí aplikace ověřovatele třetí strany jako druhého kroku přihlášení.
+tfa-row-disabled-description-v2 = Pomozte zabezpečit svůj účet pomocí ověřovací aplikace třetí strany jakožto druhého kroku přihlášení.
 tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
 tfa-row-disable-modal-confirm = Vypnout
