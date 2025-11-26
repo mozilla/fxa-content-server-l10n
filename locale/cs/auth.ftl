@@ -515,7 +515,7 @@ postChangeRecoveryPhone-requested-device = Vyžádali jste si ho z:
 postChangeTwoStepAuthentication-preview = Váš účet je chráněn
 postChangeTwoStepAuthentication-subject = Dvoufázové ověřování bylo aktualizováno
 postChangeTwoStepAuthentication-title = Dvoufázové ověřování bylo aktualizováno
-postChangeTwoStepAuthentication-use-new-account = Nyní je potřeba ve své autentizační aplikaci použít novou položku pro { -product-mozilla-account(case: "acc") }. Starší z nich už nebude fungovat a můžete ji odebrat.
+postChangeTwoStepAuthentication-use-new-account = Nyní je potřeba ve své ověřovací aplikaci použít novou položku pro { -product-mozilla-account(case: "acc") }. Starší z nich už nebude fungovat a můžete ji odebrat.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Vyžádali jste o to z:
 postChangeTwoStepAuthentication-action = Správa účtu
