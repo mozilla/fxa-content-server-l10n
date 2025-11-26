@@ -1629,7 +1629,7 @@ confirm-reset-password-otp-different-account-link = Použít jiný účet
 
 confirm-totp-reset-password-header = Obnovit heslo
 confirm-totp-reset-password-subheader-v2 = Zadejte kód pro dvoufázové ověření
-confirm-totp-reset-password-instruction-v2 = Pro obnovení hesla zkontrolujte <strong>aplikaci pro autentizaci</strong>.
+confirm-totp-reset-password-instruction-v2 = Pro obnovení hesla se podívejte do své <strong>ověřovací aplikace</strong>.
 confirm-totp-reset-password-trouble-code = Problém se zadáváním kódu?
 confirm-totp-reset-password-confirm-button = Potvrdit
 confirm-totp-reset-password-input-label-v2 = Zadejte šestimístný kód
@@ -1875,7 +1875,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } se vás pokusí
 
 signin-totp-code-header = Přihlásit se
 signin-totp-code-subheader-v2 = Zadejte kód pro dvoufázové ověření
-signin-totp-code-instruction-v4 = Zkontrolujte svou <strong>ověřovací aplikaci</strong> a potvrďte přihlášení.
+signin-totp-code-instruction-v4 = Podívejte se do své <strong>ověřovací aplikace</strong> a potvrďte přihlášení.
 signin-totp-code-input-label-v4 = Zadejte šestimístný kód
 # Shown to users when they need to re-enter their authentication code, for their current device
 signin-totp-code-aal-banner-header = Proč jste požádáni o ověření?
