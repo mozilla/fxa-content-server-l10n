@@ -66,7 +66,7 @@ subplat-terms-policy = Podmínky zrušení
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Zrušit předplatné
 subplat-cancel-plaintext = { subplat-cancel }:
-subplat-reactivate = Obnovit předplatné
+subplat-reactivate = Znovu aktivovat předplatné
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aktualizovat platební informace
 subplat-privacy-policy = { -brand-mozilla } a soukromí
@@ -701,7 +701,7 @@ subscriptionPaymentProviderCancelled-content-reason-1 = Možná, že platnost va
 subscriptionReactivation-subject = Předplatné produktu { $productName } bylo znovu aktivované
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-title = Děkujeme, že jste znovu aktivovali předplatné { $productName }!
+subscriptionReactivation-title = Děkujeme, že jste si znovu aktivovali předplatné produktu { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20

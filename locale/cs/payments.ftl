@@ -513,7 +513,7 @@ subscription-management-account-credit-balance = Tato platba za předplatné zp�
 
 ## Routes - Subscription
 
-sub-route-idx-reactivating = Předplatné se nepodařilo obnovit
+sub-route-idx-reactivating = Předplatné se nepodařilo opětovně aktivovat
 sub-route-idx-cancel-failed = Předplatné se nepodařilo zrušit
 sub-route-idx-contact = Kontaktujte podporu
 sub-route-idx-cancel-msg-title = Je nám líto, že odcházíte
