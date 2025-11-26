@@ -1284,6 +1284,9 @@ auth-error-125 = Ojejokóma ko mba’ejerure tekorosãrãve
 auth-error-129-2 = Ehaíma peteĩ pumbyry papapy ndovaléiva. Ehechajey ha eha’ã ag̃amie.
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Ko ñanduti vevére oñembojárama ambue mba’ete. Eha’ã jey ag̃ave térã eiporu ambue ñandti veve.
 auth-error-155 = Token TOTP ojejuhu’ỹva
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Ndojejuhúi ayvu ñemoneĩrã jeykekoha
