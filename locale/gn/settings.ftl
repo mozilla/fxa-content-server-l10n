@@ -834,6 +834,7 @@ page-2fa-setup-totpinfo-error = Oiko jejavy embohekokuévo ñemoneĩ mokõi jeku
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Pe ayvu naiporãi. Eha’ãjey ag̃amieve.
 page-2fa-setup-success = Oñembojurujáma ñemoneĩ mokõi jeku’egua
+page-2fa-setup-success-additional-message = Emo’ãmbaite hag̃ua ne mba’e’okakuéra jeikepyre, embotypaite’arã opaite tenda eiporuhápe ko mba’ete ha upéi eike jey ñemoneĩ mokõi jeku’egua rupive.
 
 ## Avatar change page
 
