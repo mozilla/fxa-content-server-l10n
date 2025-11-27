@@ -613,7 +613,7 @@ flow-recovery-key-info-header = Vytvořte si obnovovací klíč k účtu pro př
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Změna vašeho obnovovacího klíče k účtu
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-shield-bullet-point-v2 = Šifrujeme data procházení – hesla, záložky a další. Je to skvělé pro ochranu soukromí, ale znamená to, že pokud zapomenete heslo, můžete ztratit svá data.
+flow-recovery-key-info-shield-bullet-point-v2 = Šifrujeme data procházení – hesla, záložky a další věci. Je to skvělé pro ochranu soukromí, ale znamená to, že pokud zapomenete heslo, můžete ztratit svá data.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-key-bullet-point-v2 = Proto je vytvoření obnovovacího klíče k účtu tak důležité – svůj klíč můžete použít k obnovu svých dat.
 # The text of the "submit" button to start creating (or changing) an account recovery key
