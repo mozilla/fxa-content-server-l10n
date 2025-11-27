@@ -792,7 +792,7 @@ subscriptionUpgrade-content-new-price-month-tax = Do budoucna vám bude účtov�
 subscriptionUpgrade-content-new-price-halfyear-tax = Od teď vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň každých šest měsíců bez slev.
 subscriptionUpgrade-content-new-price-year-tax = Do budoucna vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň ročně bez slev.
 subscriptionUpgrade-content-new-price-default-tax = Od nynějška vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň za každé interval účtování bez slev.
-subscriptionUpgrade-existing = Pokud se některé z vašich stávajících předplatných překrývá s tímto upgradem, my se tím budeme zabývat a zašleme vám samostatný e-mail s podrobnostmi. Pokud váš nový plán obsahuje produkty, které vyžadují instalaci, zašleme vám samostatný e-mail s pokyny k nastavení.
+subscriptionUpgrade-existing = Pokud se některé z vašich stávajících předplatných překrývá s touto aktualizací, my se tím budeme zabývat a zašleme vám samostatný e-mail s podrobnostmi. Pokud váš nový plán obsahuje produkty, které vyžadují instalaci, zašleme vám samostatný e-mail s pokyny k nastavení.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 # Variables:
 #  $unblockCode (String) - The authorization code for sign-in
