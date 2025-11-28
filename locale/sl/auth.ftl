@@ -429,7 +429,7 @@ passwordChangeRequired-action = Ponastavi geslo
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 # Variables:
 #  $code (String) - The confirmation code for sign-in
-password-forgot-otp-subject-2 = Uporabite { $code } za spremembo gesla
+password-forgot-otp-subject-2 = Za spremembo gesla uporabite kodo { $code }
 password-forgot-otp-preview = Koda poteče čez 10 minut
 password-forgot-otp-title = Ste pozabili geslo?
 password-forgot-otp-request = Prejeli smo zahtevo za spremembo gesla vašega { -product-mozilla-account(sklon: "rodilnik") } z:
@@ -731,13 +731,13 @@ subscriptionReplaced-title = Vaša naročnina je bila posodobljena
 subscriptionReplaced-content-replaced = Vaša posamezna naročnina na { $productName } je bila zamenjana in je zdaj vključena v vašo novo svežnjo.
 subscriptionReplaced-content-credit = Prejeli boste dobro za ves neporabljen čas iz prejšnje naročnine. Dobroimetje bo samodejno pripisano vašemu računu in porabljeno za prihodnje stroške.
 subscriptionReplaced-content-no-action = Ni vam treba storiti ničesar.
-subscriptionsPaymentExpired-subject-2 = Način plačila za vaše naročnine je potekel ali pa bo kmalu potekel
-subscriptionsPaymentExpired-title-2 = Vaše plačilno sredstvo je poteklo ali bo kmalu poteklo
-subscriptionsPaymentExpired-content-2 = Način plačila, s katerim plačujete naslednje naročnine, je ali bo kmalu potekel.
+subscriptionsPaymentExpired-subject-2 = Plačilnemu sredstvu za vaše naročnine je ali bo kmalu potekla veljavnost
+subscriptionsPaymentExpired-title-2 = Vašemu plačilnemu sredstvu je ali bo kmalu potekla veljavnost
+subscriptionsPaymentExpired-content-2 = Plačilnemu sredstvu, s katerim plačujete naslednje naročnine, je ali bo kmalu potekla veljavnost.
 subscriptionsPaymentProviderCancelled-subject = Potrebna je posodobitev podatkov o plačilu za naročnine { -brand-mozilla(sklon: "rodilnik") }
 subscriptionsPaymentProviderCancelled-title = Žal imamo težave z vašim načinom plačila
 subscriptionsPaymentProviderCancelled-content-detected = Zaznali smo težavo z vašim načinom plačila za naslednje naročnine.
-subscriptionsPaymentProviderCancelled-content-payment-1 = Morda je vaše plačilo poteklo ali pa je trenutno način plačila zastarel.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Morda je vašemu plačilnemu sredstvu potekla veljavnost ali pa je trenutni način plačila zastarel.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Plačilo za { $productName } prejeto
@@ -798,7 +798,7 @@ subscriptionUpgrade-existing = Če se katera od vaših obstoječih naročnin pre
 subscriptionUpgrade-auto-renew = Naročnina se bo vsako obračunsko obdobje samodejno podaljšala, razen če se odločite za preklic.
 # Variables:
 #  $unblockCode (String) - The authorization code for sign-in
-unblockCode-subject-2 = Za prijavo uporabite { $unblockCode }
+unblockCode-subject-2 = Za prijavo uporabite kodo { $unblockCode }
 unblockCode-preview = Koda poteče čez eno uro
 unblockCode-title = Se prijavljate vi?
 unblockCode-prompt = Če je tako, je to overitvena koda, ki jo potrebujete:
@@ -861,7 +861,7 @@ verifyLogin-subject-2 = Potrdi prijavo
 verifyLogin-action = Potrdite prijavo
 # Variables:
 #  $code (String) - The confirmation code for sign-in
-verifyLoginCode-subject-line-3 = Za prijavo uporabite { $code }
+verifyLoginCode-subject-line-3 = Za prijavo uporabite kodo { $code }
 verifyLoginCode-preview = Koda poteče čez 5 minut.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -878,7 +878,7 @@ verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Potem ko ga potrdite, bodo na tej napravi omogočene tudi spremembe računa, kot je dodajanje pomožnega e-poštnega naslova.
 # Variables:
 #  $code (String) - The confirmation code for secondary email
-verifySecondaryCode-subject-2 = Uporabite { $code } za potrditev pomožnega e-poštnega naslova
+verifySecondaryCode-subject-2 = Za potrditev pomožnega e-poštnega naslova uporabite kodo { $code }
 verifySecondaryCode-preview = Ta koda poteče čez 5 minut.
 verifySecondaryCode-title-2 = Potrdi pomožni e-poštni naslov
 verifySecondaryCode-action-2 = Potrdi e-poštni naslov
@@ -889,7 +889,7 @@ verifySecondaryCode-prompt-2 = Uporabite to potrditveno kodo:
 verifySecondaryCode-expiry-notice-2 = Poteče čez 5 minut. Ko naslov potrdite, bo začel prejemati varnostna obvestila in potrditve.
 # Variables:
 #  $code (String) - comfirmation code for the account
-verifyShortCode-subject-4 = Uporabite { $code } za potrditev računa
+verifyShortCode-subject-4 = Za potrditev računa uporabite kodo { $code }
 verifyShortCode-preview-2 = Koda poteče čez 5 minut
 verifyShortCode-title-3 = Odprite internet z { -brand-mozilla(sklon: "orodnik") }
 # Information on the browser and device triggering this confirmation email follows below this string.

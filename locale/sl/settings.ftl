@@ -1133,7 +1133,7 @@ tfa-row-backup-codes-description-2 = To je najvarnejša metoda obnovitve, če ni
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefonska številka za obnovitev
 # Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available-v2 = Ni dodane telefonske številke
+tfa-row-backup-phone-not-available-v2 = Telefonska številka ni dodana
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Spremeni
 # button to add/configure a recovery phone
@@ -1144,7 +1144,7 @@ tfa-row-backup-phone-delete-button = Odstrani
 tfa-row-backup-phone-delete-title-v2 = Odstranite telefonsko številko za obnovitev
 tfa-row-backup-phone-delete-restriction-v2 = Če želite odstraniti telefonsko številko za obnovitev, najprej dodajte rezervne overitvene kode ali onemogočite overjanje v dveh korakih, da preprečite izgubo dostopa do računa.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = To je najpreprostejša metoda obnovitve, če ne morete uporabiti aplikacije za overitev.
+tfa-row-backup-phone-description-v2 = To je najpreprostejša metoda obnovitve, če nimate možnosti uporabe aplikacije za overitev.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1302,7 +1302,7 @@ auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 # (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
 # The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
-auth-error-144 = Ta e-poštni naslov je rezerviran za drug račun. Poskusite znova pozneje ali pa uporabite drug e-poštni naslov.
+auth-error-144 = Ta e-poštni naslov je rezerviran za drug račun. Poskusite znova pozneje ali uporabite drug naslov.
 auth-error-155 = Žetona TOTP ni mogoče najti
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Rezervne overitvene kode ni bilo mogoče najti
@@ -1324,7 +1324,7 @@ auth-error-1008 = Novo geslo mora biti drugačno
 auth-error-1010 = Zahtevano je veljavno geslo
 auth-error-1011 = Zahtevan je veljaven e-poštni naslov
 auth-error-1018 = Vaša potrditvena e-pošta se je pravkar vrnila. Ste se zatipkali v e-poštnem naslovu?
-auth-error-1020 = Napačna e-pošta? firefox.com ni veljavna e-poštna storitev
+auth-error-1020 = Napačen naslov? firefox.com ni veljaven ponudnik e-pošte
 auth-error-1031 = Za registracijo morate vnesti svojo starost
 auth-error-1032 = Za registracijo morate vnesti veljavno starost
 auth-error-1054 = Neveljavna koda za overitev v dveh korakih
@@ -1894,7 +1894,7 @@ signin-totp-code-instruction-v4 = V <strong>aplikaciji za overjanje</strong> pot
 signin-totp-code-input-label-v4 = Vnesite 6-mestno kodo
 # Shown to users when they need to re-enter their authentication code, for their current device
 signin-totp-code-aal-banner-header = Zakaj se zahteva overjanje?
-signin-totp-code-aal-banner-content = Za svoj račun ste nastavili overitev v dveh korakih, vendar se na tej napravi še niste prijavili s kodo.
+signin-totp-code-aal-banner-content = Za svoj račun ste nastavili overjanje v dveh korakih, vendar se na tej napravi še niste prijavili s kodo.
 signin-totp-code-aal-sign-out = Odjava v tej napravi
 signin-totp-code-aal-sign-out-error = Oprostite, prišlo je do težave pri odjavljanju
 # Form button to confirm if the authentication code entered by the user is valid

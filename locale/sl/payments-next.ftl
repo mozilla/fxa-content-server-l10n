@@ -97,7 +97,7 @@ next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4
 
 ## Page - Subscription Management
 
-subscription-management-page-banner-warning-title-no-payment-method = Ni dodanega načina plačila
+subscription-management-page-banner-warning-title-no-payment-method = Dodano ni nobeno plačilno sredstvo
 subscription-management-page-banner-warning-link-no-payment-method = Dodaj plačilno sredstvo
 subscription-management-subscriptions-heading = Naročnine
 # Heading for mobile only quick links menu
@@ -108,7 +108,7 @@ subscription-management-payment-details-heading = Podatki o plačilu
 subscription-management-email-label = E-pošta
 subscription-management-credit-balance-label = Dobroimetje
 subscription-management-credit-balance-message = Dobroimetje se bo samodejno pripisalo prihodnjim računom
-subscription-management-payment-method-label = Način plačila
+subscription-management-payment-method-label = Plačilno sredstvo
 subscription-management-button-add-payment-method-aria = Dodaj način plačila
 subscription-management-button-add-payment-method = Dodaj
 subscription-management-page-warning-message-no-payment-method = Prosimo, dodajte plačilno sredstvo, da se izognete prekinjanju svojih naročnin.
@@ -299,14 +299,14 @@ subscription-content-no-longer-use-message = { $productName } po { $currentPerio
 subscription-content-cancel-access-message = Prekliči moj dostop in moje shranjene podatke do { $productName } dne { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Zadnji račun • { $billedOnDate }
-subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } davek
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } davka
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Ogled računa
 subscription-management-link-view-invoice-aria = Prikaži račun za { $productName }
 subscription-content-expires-on-expiry-date = Preteče { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Naslednji račun • { $billedOnDate }
-subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } davek
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } davka
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Ostanite naročnik
     .aria-label = Ostanite naročeni na { $productName }
