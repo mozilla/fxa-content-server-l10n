@@ -3,13 +3,17 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Component - AppLayout
-
-
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Промо код - приложен
 coupon-submit = Прилагане
 coupon-remove = Премахване
+coupon-error = Въведеният код е недопустим или е с изтекъл срок.
+coupon-error-generic = Възникна грешка при обработване на кода. Моля, опитайте отново.
+coupon-error-expired = Въведеният от вас код е с изтекла давност.
+coupon-error-limit-reached = Въведеният код е достигнал ограничението си.
+coupon-error-invalid = Въведеният от вас код е недопустим.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
     .placeholder = Въведете кода
@@ -18,9 +22,6 @@ coupon-enter-code =
 
 default-input-error = Това поле е задължително
 input-error-is-required = Изисква се { $label }
-
-## Component - Header
-
 
 ## Component - NewUserEmailForm
 
@@ -31,17 +32,27 @@ new-user-enter-email =
     .label = Въведете своята ел. поща
 new-user-confirm-email =
     .label = Потвърждаване на адреса
-new-user-email-validate = Адресът на електронната поща не е действителен
+new-user-subscribe-product-updates-mozilla = Бих желал да получавам продуктови новини и обновления от { -brand-mozilla }
+new-user-subscribe-product-updates-snp = Бих желал да получавам новини и обновления за сигурността и поверителността от { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Бих желал да получавам новини за продукти от { -product-mozilla-hubs } и { -brand-mozilla }
+new-user-subscribe-product-assurance = Използваме вашия имейл единствено за създаване на профил или вход в такъв. Никога няма да го продадем на трета страна.
+new-user-email-validate = Адресът на електронната поща е недействителен.
 new-user-email-validate-confirm = Адресите на ел. поща не съвпадат
+new-user-already-has-account-sign-in = Вече имате профил. <a>Влизане</a>
 
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = Благодарим ви!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = Потвърждаващо писмо бе изпратено до { $email } с подробности как да започнете с { $product_name }.
 payment-confirmation-invoice-number = Фактура № { $invoiceNumber }
 payment-confirmation-details-heading-2 = Информация за плащането
+payment-confirmation-download-button = Продължете към изтегляне
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-checkbox-error = Трябва да завършите това, преди да продължите
 
 ## Component - PaymentErrorView
 
@@ -50,6 +61,8 @@ payment-error-manage-subscription-button = Управление на абона�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-no-bundle-support = Не поддържаме надстройки за тези абонаменти, но скоро ще го направим.
+iap-upgrade-contact-support = Все още имате възможност да получите този продукт — моля, свържете се с отдела за поддръжка, за да можем да ви съдействаме.
 
 ## Component - PaymentForm
 
@@ -63,56 +76,45 @@ payment-update-btn = Обновяване
 payment-pay-btn = Плащане
 payment-validate-name-error = Въведете вашето име
 
-## Component - PaymentLegalBlurb
-
-
-## Component - PaymentMethodHeader
-
-
-## Component - PaymentProcessing
-
-
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = Карта, завършваща на { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Плащане с { -brand-paypal }
 
 ## Component - PlanDetails
 
+plan-details-list-price = Каталожна цена
 plan-details-show-button = Показване на детайли
 plan-details-hide-button = Скриване на детайли
 plan-details-total-label = Всичко
+plan-details-tax = Данъци и такси
 
 ## Component - PlanErrorDialog
 
 product-no-such-plan = Няма такъв план за този продукт.
 
-## Price details including tax
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-
-
 ## Component - SubscriptionTitle
 
 subscription-create-title = Настройте своя абонамент
 subscription-success-title = Потвърждение на абонамента
+subscription-processing-title = Потвърждаване на абонамент…
+subscription-noplanchange-title = Не се поддържа подобна промяна на абонаментен план
 subscription-iapsubscribed-title = Вече сте абонирани
 sub-guarantee = 30-дневна гаранция за връщане на парите
 
 ## Component - TermsAndPrivacy
 
 terms = Условия за ползване
+privacy = Политика на поверителност
 
 ## App-level string(s) and messages shared by multiple components or routes
 
 document =
     .title = Firefox Accounts
 settings-subscriptions-title = Абонаменти
-
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ## Error messages
 
@@ -140,12 +142,6 @@ product-customer-error =
     .title = Проблем при зареждане на клиентите
 product-plan-not-found = Планът не е намерен
 
-## Hooks - coupons
-
-
-## Routes - Checkout - New user
-
-
 ## Routes - Product and Subscriptions
 
 sub-update-payment-title = Информация за плащането
@@ -155,40 +151,20 @@ sub-update-payment-title = Информация за плащането
 
 pay-with-heading-card-only = Платете с карта
 
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
-
 ## Routes - Product - Subscription upgrade
 
 sub-change-submit = Потвърдете промяната
 sub-update-current-plan-label = Текущ план
 sub-update-new-plan-label = Нов план
 
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Прекратяване на абонамент
-
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
 
 ## Routes - Subscription
 
 sub-route-idx-contact = Свържете се с поддръжката
 sub-route-idx-cancel-msg-title = Съжаляваме, че си тръгвате.
-
-## Routes - Subscriptions - Errors
-
 
 ## Routes - Subscription - ActionButton
 
@@ -201,15 +177,6 @@ pay-update-manage-btn = Управление
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-expires-on = Изтича на { $date }
-
-## Routes - Subscription - PaymentUpdate
-
-
-# $expirationDate (Date) - The payment card's expiration date.
-
-
-## Routes - Subscription - SubscriptionItem
-
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
