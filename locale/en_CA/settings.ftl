@@ -671,6 +671,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continue
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Two-step authentication enabled
+flow-setup-2fa-inline-complete-success-banner-description = To protect all your connected devices, you should sign out everywhere you’re using this account, and then sign back in using your new two-step authentication.
 flow-setup-2fa-inline-complete-backup-code = Backup authentication codes
 flow-setup-2fa-inline-complete-backup-phone = Recovery phone
 # $count (Number) - an integer representing the number of backup
@@ -802,6 +803,7 @@ nav-email-comm = Email Communications
 
 page-2fa-change-title = Change two-step authentication
 page-2fa-change-success = Two-step authentication has been updated
+page-2fa-change-success-additional-message = To protect all your connected devices, you should sign out everywhere you’re using this account, and then sign back in using your new two-step authentication.
 page-2fa-change-totpinfo-error = There was an error replacing your two-step authentication app. Try again later.
 page-2fa-change-qr-instruction = <strong>Step 1:</strong> Scan this QR code using any authenticator app, like Duo or Google Authenticator. This creates a new connection, any old connections won’t work anymore.
 
@@ -833,6 +835,7 @@ page-2fa-setup-totpinfo-error = There was an error setting up two-step authentic
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = That code is not correct. Try again.
 page-2fa-setup-success = Two-step authentication has been enabled
+page-2fa-setup-success-additional-message = To protect all your connected devices, you should sign out everywhere you’re using this account, and then sign back in using two-step authentication.
 
 ## Avatar change page
 
@@ -908,6 +911,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Syncing { -brand-firefox } data
 delete-account-product-firefox-addons = { -brand-firefox } Add-ons
 delete-account-acknowledge = Please acknowledge that by deleting your account:
+delete-account-chk-box-1-v4 =
+    .label = Any paid subscriptions you have will be cancelled
 delete-account-chk-box-2 =
     .label = You may lose saved information and features within { -brand-mozilla } products
 delete-account-chk-box-3 =
@@ -1279,6 +1284,9 @@ auth-error-125 = The request was blocked for security reasons
 auth-error-129-2 = You entered an invalid phone number. Please check it and try again.
 auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = This email is reserved by another account. Try again later or use a different email address.
 auth-error-155 = TOTP token not found
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Backup authentication code not found
@@ -1866,6 +1874,11 @@ signin-totp-code-header = Sign in
 signin-totp-code-subheader-v2 = Enter two-step authentication code
 signin-totp-code-instruction-v4 = Check your <strong>authenticator app</strong> to confirm your sign-in.
 signin-totp-code-input-label-v4 = Enter 6-digit code
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Why are you being asked to authenticate?
+signin-totp-code-aal-banner-content = You set up two-step authentication on your account, but haven’t signed in with a code on this device yet.
+signin-totp-code-aal-sign-out = Sign out on this device
+signin-totp-code-aal-sign-out-error = Sorry, there was a problem signing you out
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Confirm
 signin-totp-code-other-account-link = Use a different account

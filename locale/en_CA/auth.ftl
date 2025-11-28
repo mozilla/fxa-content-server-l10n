@@ -237,6 +237,10 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal
 
 subscription-charges-one-time-discount = One-time discount
 subscription-charges-one-time-discount-plaintext = One-time discount: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+       *[other] { $discountDuration }-month discount
+    }
 subscription-charges-repeating-discount-plaintext =
     { $discountDuration ->
        *[other] { $discountDuration }-month discount: { $invoiceDiscountAmount }
