@@ -97,22 +97,56 @@ next-payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = No payment method added
+subscription-management-page-banner-warning-link-no-payment-method = Add a payment method
 subscription-management-subscriptions-heading = Subscriptions
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Jump to
+subscription-management-nav-payment-details = Payment details
+subscription-management-nav-active-subscriptions = Active subscriptions
+subscription-management-payment-details-heading = Payment details
+subscription-management-email-label = Email
+subscription-management-credit-balance-label = Credit balance
+subscription-management-credit-balance-message = Credit will automatically be applied to future invoices
+subscription-management-payment-method-label = Payment method
 subscription-management-button-add-payment-method-aria = Add payment method
 subscription-management-button-add-payment-method = Add
+subscription-management-page-warning-message-no-payment-method = Please add a payment method to avoid interruption to your subscriptions.
 subscription-management-button-manage-payment-method-aria = Manage payment method
 subscription-management-button-manage-payment-method = Manage
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Card ending in { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expires { $expirationDate }
+subscription-management-active-subscriptions-heading = Active subscriptions
+subscription-management-you-have-no-active-subscriptions = You have no active subscriptions
+subscription-management-new-subs-will-appear-here = New subscriptions will appear here.
+subscription-management-your-active-subscriptions-aria = Your active subscriptions
 subscription-management-button-support = Get help
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Get help for { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Your { -brand-apple } In-App Subscriptions
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } in-app purchase
 subscription-management-your-google-iap-subscriptions-aria = Your { -brand-google } In-App Subscriptions
+subscription-management-google-in-app-purchase-2 = { -brand-google } in-app purchase
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Expires on { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Manage subscription for { $productName }
+subscription-management-button-manage-subscription-1 = Manage subscription
+error-payment-method-banner-title-expired-card = Expired card
+error-payment-method-banner-message-add-new-card = Add a new card or payment method to avoid interruption to your subscriptions.
+error-payment-method-banner-label-update-payment-method = Update payment method
+error-payment-method-expired-card = Your card has expired. Please add a new card or payment method to avoid interruption to your subscriptions.
+error-payment-method-banner-title-invalid-payment-information = Invalid payment information
+error-payment-method-banner-message-account-issue = There is an issue with your account.
+subscription-management-button-manage-payment-method-1 = Manage payment method
+subscription-management-error-apple-pay = There is an issue with your { -brand-apple-pay } account. Please resolve the issue to maintain your active subscriptions.
+subscription-management-error-google-pay = There is an issue with your { -brand-google-pay } account. Please resolve the issue to maintain your active subscriptions.
+subscription-management-error-link = There is an issue with your { -brand-link } account. Please resolve the issue to maintain your active subscriptions.
+subscription-management-error-paypal-billing-agreement = There is an issue with your { -brand-paypal } account. Please resolve the issue to maintain your active subscriptions.
+subscription-management-error-payment-method = There is an issue with your payment method. Please resolve the issue to maintain your active subscriptions.
+manage-payment-methods-heading = Manage payment methods
 paypal-payment-management-page-invalid-header = Invalid billing information
 paypal-payment-management-page-invalid-description = There seems to be an error with your { -brand-paypal } account. We need you to take the necessary steps to resolve this payment issue.
 # Page - Not Found
@@ -263,8 +297,20 @@ subscription-content-coupon-will-be-applied = { $promotionName } discount will b
 subscription-content-heading-cancel-subscription = Cancel Subscription
 subscription-content-no-longer-use-message = You will no longer be able to use { $productName } after { $currentPeriodEnd }, the last day of your billing cycle.
 subscription-content-cancel-access-message = Cancel my access and my saved information within { $productName } on { $currentPeriodEnd }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Last bill • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } tax
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = View invoice
+subscription-management-link-view-invoice-aria = View invoice for { $productName }
+subscription-content-expires-on-expiry-date = Expires on { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Next bill • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } tax
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Stay Subscribed
     .aria-label = Stay subscribed to { $productName }
+subscription-content-button-cancel-subscription-1 = Cancel subscription
 subscription-content-button-cancel-subscription = Cancel Subscription
     .aria-label = Cancel your subscription to { $productName }
 subscription-content-button-cancel = Cancel
