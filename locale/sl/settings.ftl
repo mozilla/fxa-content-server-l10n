@@ -382,7 +382,7 @@ password-info-balloon-reset-risk-info = Ponastavitev lahko povzroči izgubo poda
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
-password-strength-long-instruction = Izberite močno geslo, ki ga niste uporabili na drugih spletnih mestih. Zagotovite, da ustreza varnostnim zahtevam:
+password-strength-long-instruction = Izberite močno geslo, ki ga ne uporabljate na drugih spletnih mestih. Zagotovite, da ustreza varnostnim zahtevam:
 password-strength-short-instruction = Izberite močno geslo:
 password-strength-inline-min-length = vsebuje vsaj 8 znakov
 password-strength-inline-not-email = ni vaš e-poštni naslov
