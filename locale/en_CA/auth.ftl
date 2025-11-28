@@ -192,11 +192,67 @@ payment-plan-charged = Charged: { $invoiceTotal } on { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Next Invoice: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Payment method:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Payment method: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Payment method: { $cardName } ending in { $lastFour }
+payment-provider-card-ending-in-plaintext = Payment method: Card ending in { $lastFour }
+payment-provider-card-ending-in = <b>Payment method:</b> Card ending in { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Payment method:</b> { $cardName } ending in { $lastFour }
+subscription-charges-invoice-summary = Invoice Summary
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Invoice number:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Invoice number: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Date:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Date: { $invoiceDateOnly }
+subscription-charges-prorated-price = Prorated price
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Prorated price: { $remainingAmountTotal }
+subscription-charges-list-price = List price
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = List price: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Credit from unused time
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Credit from unused time: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = One-time discount
+subscription-charges-one-time-discount-plaintext = One-time discount: { $invoiceDiscountAmount }
+subscription-charges-discount = Discount
+subscription-charges-discount-plaintext = Discount: { $invoiceDiscountAmount }
+subscription-charges-taxes = Taxes & fees
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Taxes & fees: { $invoiceTaxAmount }
+subscription-charges-total = <b>Total</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Total: { $invoiceTotal }
+subscription-charges-credit-applied = Credit applied
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Credit applied: { $creditApplied }
+subscription-charges-amount-paid = <b>Amount paid</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Amount paid: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = You have received an account credit of { $creditReceived }, which will be applied to your future invoices.
 
 ##
 
@@ -208,6 +264,8 @@ subscriptionSupport-plaintext = Questions about your subscription? Our support t
 subscriptionSupportContact = Thank you for subscribing to { $productName }. If you have any questions about your subscription or need more information about { $productName }, please <a data-l10n-name="subscriptionSupportUrl">contact us</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Thank you for subscribing to { $productName }. If you have any questions about your subscription or need more information about { $productName }, please contact us:
+subscription-support-get-help = Get help with your subscription
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Manage your subscription</a>
 # After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Manage your subscription:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contact support</a>
@@ -767,12 +825,24 @@ verifyAccountChange-preview =
 verifyAccountChange-title = Are you changing your account info?
 # After the colon is a description of the device used to sign in to the service
 verifyAccountChange-safe = Help us keep your account safe by approving this change on:
+verifyAccountChange-prompt = If yes, here is your authorization code:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] It expires in { $expirationTime } minute.
+       *[other] It expires in { $expirationTime } minutes.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Did you sign in to { $clientName }?
 verifyLogin-description-2 = Help us keep your account safe by confirming you signed in on:
 verifyLogin-subject-2 = Confirm sign-in
 verifyLogin-action = Confirm sign-in
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Use { $code } to sign in
+verifyLoginCode-preview = This code expires in 5 minutes.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Did you sign in to { $serviceName }?
@@ -786,6 +856,10 @@ verifyPrimary-subject = Confirm primary email
 verifyPrimary-action-2 = Confirm email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Once confirmed, account changes like adding a secondary email will become possible from this device.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Use { $code } to confirm your secondary email
+verifySecondaryCode-preview = This code expires in 5 minutes.
 verifySecondaryCode-title-2 = Confirm secondary email
 verifySecondaryCode-action-2 = Confirm email
 # Variables:
@@ -793,6 +867,10 @@ verifySecondaryCode-action-2 = Confirm email
 verifySecondaryCode-explainer-2 = A request to use { $email } as a secondary email address has been made from the following { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Use this confirmation code:
 verifySecondaryCode-expiry-notice-2 = It expires in 5 minutes. Once confirmed, this address will begin receiving security notifications and confirmations.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Use { $code } to confirm your account
+verifyShortCode-preview-2 = This code expires in 5 minutes
 verifyShortCode-title-3 = Open the internet with { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirm your account and get the most out of { -brand-mozilla } everywhere you sign in starting with:

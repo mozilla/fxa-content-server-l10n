@@ -36,6 +36,9 @@ unionpay-logo-alt-text = { -brand-unionpay } logo
 visa-logo-alt-text = { -brand-visa } logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Unbranded logo
+link-logo-alt-text = { -brand-link } logo
+apple-pay-logo-alt-text = { -brand-apple-pay } logo
+google-pay-logo-alt-text = { -brand-google-pay } logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -61,6 +64,7 @@ intent-payment-error-get-in-touch = Hmm. There was a problem authorizing your pa
 intent-payment-error-generic = An unexpected error has occurred while processing your payment, please try again.
 intent-payment-error-insufficient-funds = It looks like your card has insufficient funds. Try another card.
 general-paypal-error = An unexpected error has occurred while processing your payment, please try again.
+paypal-active-subscription-no-billing-agreement-error = It looks like there was a problem billing your { -brand-paypal } account. Please re-enable automatic payments for your subscription.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -96,18 +100,26 @@ next-payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 subscription-management-subscriptions-heading = Subscriptions
 subscription-management-button-add-payment-method-aria = Add payment method
 subscription-management-button-add-payment-method = Add
+subscription-management-button-manage-payment-method-aria = Manage payment method
+subscription-management-button-manage-payment-method = Manage
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Card ending in { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expires { $expirationDate }
+subscription-management-button-support = Get help
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Get help for { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Your { -brand-apple } In-App Subscriptions
 subscription-management-your-google-iap-subscriptions-aria = Your { -brand-google } In-App Subscriptions
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Manage subscription for { $productName }
+paypal-payment-management-page-invalid-header = Invalid billing information
+paypal-payment-management-page-invalid-description = There seems to be an error with your { -brand-paypal } account. We need you to take the necessary steps to resolve this payment issue.
 # Page - Not Found
 page-not-found-title = Page not found
 page-not-found-description = The page you requested was not found. We’ve been notified and will fix any links that may be broken.
 page-not-found-back-button = Go Back
+alert-dialog-title = Alert dialog
 
 ## Navigation breadcrumbs
 
@@ -115,6 +127,10 @@ page-not-found-back-button = Go Back
 subscription-management-breadcrumb-account-home = Account Home
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subscriptions
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Manage Payment Methods
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Go back to { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -243,6 +259,7 @@ next-new-user-subscribe-product-assurance = We only use your email to create you
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-will-be-applied = { $promotionName } discount will be applied
 subscription-content-heading-cancel-subscription = Cancel Subscription
 subscription-content-no-longer-use-message = You will no longer be able to use { $productName } after { $currentPeriodEnd }, the last day of your billing cycle.
 subscription-content-cancel-access-message = Cancel my access and my saved information within { $productName } on { $currentPeriodEnd }
@@ -252,6 +269,37 @@ subscription-content-button-cancel-subscription = Cancel Subscription
     .aria-label = Cancel your subscription to { $productName }
 subscription-content-button-cancel = Cancel
     .aria-label = Cancel your subscription to { $productName }
+subscription-content-cancel-action-error = An unexpected error occurred. Please try again.
+subscription-cancellation-dialog-title = We’re sorry to see you go
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Your { $name } subscription has been cancelled. You will still have access to { $name } until { $date }.
+subscription-cancellation-dialog-aside = Have questions? Visit <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+subscription-content-button-resubscribe = Resubscribe
+    .aria-label = Resubscribe to { $productName }
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = You will lose access to { $name } on <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = Want to keep using { $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-dialog-content = Your access to { $name } will continue, and your billing cycle and payment will stay the same. Your next charge will be { $amount } on { $endDate }.
+resubscribe-dialog-content-with-tax = Your access to { $name } will continue, and your billing cycle and payment will stay the same. Your next charge will be { $amount } + { $tax } tax on { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Resubscribe
+    .aria-label = Resubscribe to { $productName }
+resubscribe-success-dialog-title = Thanks! You’re all set.
+resubscribe-success-dialog-action-button-close = Close
+    .aria-label = Close dialog
+
+##
+
+dialog-close = Close dialog
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

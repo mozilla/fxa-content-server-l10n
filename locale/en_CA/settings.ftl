@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Device screen with codes
 sync-clouds-image-aria-label =
     .aria-label = Clouds with a sync icon
+confetti-falling-image-aria-label =
+    .aria-label = Animated falling confetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
