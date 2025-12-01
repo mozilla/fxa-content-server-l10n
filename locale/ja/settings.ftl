@@ -909,7 +909,6 @@ add-secondary-email-mask = メールマスクは予備メールアドレスと�
 ## Verify secondary email page
 
 add-secondary-email-step-2 = ステップ 2/2
-verify-secondary-email-error-3 = 確認コードの送信に問題がありました
 verify-secondary-email-page-title =
     .title = 予備アドレス
 verify-secondary-email-verification-code-2 =

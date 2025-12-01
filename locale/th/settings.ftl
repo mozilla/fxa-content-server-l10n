@@ -792,7 +792,6 @@ add-secondary-email-mask = ไม่สามารถใช้ตัวปก�
 ## Verify secondary email page
 
 add-secondary-email-step-2 = ขั้นตอนที่ 2 จาก 2
-verify-secondary-email-error-3 = เกิดปัญหาในการส่งรหัสยืนยัน
 verify-secondary-email-page-title =
     .title = อีเมลสำรอง
 verify-secondary-email-verification-code-2 =

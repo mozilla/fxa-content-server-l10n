@@ -670,7 +670,6 @@ add-secondary-email-save-button = Захаваць
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Крок 2 з 2
-verify-secondary-email-error-3 = Узнікла праблема пры адпраўцы кода пацвярджэння
 verify-secondary-email-page-title =
     .title = Дадатковая пошта
 verify-secondary-email-verification-code-2 =

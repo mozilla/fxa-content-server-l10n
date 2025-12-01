@@ -928,7 +928,6 @@ add-secondary-email-mask = ਈਮੇਲ ਮਾਸਕਾਂ ਨੂੰ ਸੈਕ�
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2 ਚੋਂ 2 ਪੜਾਅ
-verify-secondary-email-error-3 = ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਭੇਜਣ ਦੌਰਾਨ ਗੜਬੜ ਹੋਈ।
 verify-secondary-email-page-title =
     .title = ਸੈਕੰਡਰੀ ਈਮੇਲ
 verify-secondary-email-verification-code-2 =

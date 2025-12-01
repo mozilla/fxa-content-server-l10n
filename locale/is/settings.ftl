@@ -882,7 +882,6 @@ add-secondary-email-mask = Ekki er hægt að nota tölvupósthulur sem aukapóst
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Skref 2 af 2
-verify-secondary-email-error-3 = Vandamál kom upp við að senda staðfestingarkóðann
 verify-secondary-email-page-title =
     .title = Aukatölvupóstfang
 verify-secondary-email-verification-code-2 =

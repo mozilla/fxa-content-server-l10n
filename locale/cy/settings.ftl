@@ -1049,7 +1049,6 @@ add-secondary-email-mask = Nid oes modd defnyddio arallenwau e-bost fel ail e-bo
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Cam 2 o 2
-verify-secondary-email-error-3 = Bu anhawster anfon y cod cadarnhau.
 verify-secondary-email-page-title =
     .title = Ail e-bost
 verify-secondary-email-verification-code-2 =

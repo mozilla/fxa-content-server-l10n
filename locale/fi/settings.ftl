@@ -915,7 +915,6 @@ add-secondary-email-mask = Sähköpostimaskeja ei voi käyttää toissijaisena s
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Vaihe 2/2
-verify-secondary-email-error-3 = Vahvistuskoodin lähettämisessä ilmeni ongelma
 verify-secondary-email-page-title =
     .title = Toissijainen sähköposti
 verify-secondary-email-verification-code-2 =

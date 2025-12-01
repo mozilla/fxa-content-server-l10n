@@ -225,7 +225,6 @@ add-secondary-email-save-button = Desa
 
 ## Verify secondary email page
 
-verify-secondary-email-error-3 = S'ha produït un problema en enviar el codi de confirmació
 verify-secondary-email-page-title =
     .title = Adreça electrònica secundària
 verify-secondary-email-verification-code-2 =

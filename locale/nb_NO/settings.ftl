@@ -1029,7 +1029,6 @@ add-secondary-email-mask = E-postalias kan ikke brukes som en sekundær e-postad
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Trinn 2 av 2
-verify-secondary-email-error-3 = Det oppstod et problem med å sende bekreftelseskoden
 verify-secondary-email-page-title =
     .title = Sekundær e-postadresse
 verify-secondary-email-verification-code-2 =

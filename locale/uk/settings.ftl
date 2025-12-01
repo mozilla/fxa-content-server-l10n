@@ -909,7 +909,6 @@ add-secondary-email-mask = Маски електронної пошти не м�
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Крок 2 з 2
-verify-secondary-email-error-3 = Виникла проблема під час надсилання коду підтвердження
 verify-secondary-email-page-title =
     .title = Додаткова адреса електронної пошти
 verify-secondary-email-verification-code-2 =

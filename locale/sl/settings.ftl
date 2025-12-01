@@ -1041,7 +1041,6 @@ add-secondary-email-mask = Za pomožni naslov ni mogoče uporabiti e-poštne mas
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Korak 2 od 2
-verify-secondary-email-error-3 = Prišlo je do napake pri pošiljanju potrditvene kode
 verify-secondary-email-page-title =
     .title = Pomožni e-poštni naslov
 verify-secondary-email-verification-code-2 =

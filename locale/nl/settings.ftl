@@ -1031,7 +1031,6 @@ add-secondary-email-mask = E-mailmaskers kunnen niet als secundair e-mailadres w
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Stap 2 van 2
-verify-secondary-email-error-3 = Er is een probleem opgetreden bij het verzenden van de bevestigingscode
 verify-secondary-email-page-title =
     .title = Secundair e-mailadres
 verify-secondary-email-verification-code-2 =

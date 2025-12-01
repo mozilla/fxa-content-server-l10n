@@ -1038,7 +1038,6 @@ add-secondary-email-mask = E-mailové masky nelze použít jako záložní e-mai
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Krok 2 ze 2
-verify-secondary-email-error-3 = Nepodařilo se odeslat potvrzovací kód
 verify-secondary-email-page-title =
     .title = Záložní e-mailová adresa
 verify-secondary-email-verification-code-2 =

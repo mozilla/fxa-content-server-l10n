@@ -843,7 +843,6 @@ add-secondary-email-mask = I n'è betg pussaivel da duvrar alias dad e-mail sco 
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Pass 2 da 2
-verify-secondary-email-error-3 = Igl ha dà in problem cun trametter il code da conferma
 verify-secondary-email-page-title =
     .title = Adressa d'e-mail secundara
 verify-secondary-email-verification-code-2 =

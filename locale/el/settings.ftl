@@ -1033,7 +1033,6 @@ add-secondary-email-mask = Οι μάσκες email δεν μπορούν να χ
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Βήμα 2 από 2
-verify-secondary-email-error-3 = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού επιβεβαίωσης
 verify-secondary-email-page-title =
     .title = Δευτερεύον email
 verify-secondary-email-verification-code-2 =

@@ -756,7 +756,6 @@ add-secondary-email-mask = Maske za e-mail adrese se ne mogu koristiti kao sekun
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Korak 2 od 2
-verify-secondary-email-error-3 = Došlo je do problema pri slanju potvrdnog koda
 verify-secondary-email-page-title =
     .title = Sekundarna adresa e-pošte
 verify-secondary-email-verification-code-2 =

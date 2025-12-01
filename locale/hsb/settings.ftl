@@ -1041,7 +1041,6 @@ add-secondary-email-mask = E-mejlowe maski njedadźa so jako sekundarna e-mejlow
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Krok 2 z 2
-verify-secondary-email-error-3 = Při słanju wobkrućenskeho koda je problem nastał
 verify-secondary-email-page-title =
     .title = Druha e-mejlowa adresa
 verify-secondary-email-verification-code-2 =

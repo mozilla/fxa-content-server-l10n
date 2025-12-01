@@ -215,7 +215,6 @@ add-secondary-email-save-button = భద్రపరుచు
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2లో 2వ దశ
-verify-secondary-email-error-3 = నిర్ధారణ కోడ్‌ని పంపడంలో సమస్య ఉంది
 verify-secondary-email-page-title =
     .title = రెండవ ఇమెయిల్
 verify-secondary-email-verification-code-2 =

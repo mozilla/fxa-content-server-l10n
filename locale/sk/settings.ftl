@@ -1039,7 +1039,6 @@ add-secondary-email-mask = E‑mailové masky nie je možné použiť ako altern
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Krok 2 z 2
-verify-secondary-email-error-3 = Pri odosielaní potvrdzovacieho kódu sa vyskytol problém
 verify-secondary-email-page-title =
     .title = Alternatívna e‑mailová adresa
 verify-secondary-email-verification-code-2 =

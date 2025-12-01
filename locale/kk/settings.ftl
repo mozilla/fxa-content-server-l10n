@@ -919,7 +919,6 @@ add-secondary-email-mask = Электрондық пошта маскалары�
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Қадам 2, барлығы 2
-verify-secondary-email-error-3 = Растау кодын жіберу кезінде мәселе орын алды
 verify-secondary-email-page-title =
     .title = Екіншілік эл. пошта адресі
 verify-secondary-email-verification-code-2 =

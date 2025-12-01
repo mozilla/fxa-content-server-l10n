@@ -1007,7 +1007,6 @@ add-secondary-email-mask = 不可使用轉寄信箱作為次要電子郵件地�
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 第 2 步，共 2 步
-verify-secondary-email-error-3 = 寄出驗證碼時發生錯誤
 verify-secondary-email-page-title =
     .title = 次要電子郵件地址
 verify-secondary-email-verification-code-2 =

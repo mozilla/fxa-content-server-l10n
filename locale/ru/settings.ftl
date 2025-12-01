@@ -1034,7 +1034,6 @@ add-secondary-email-mask = Псевдонимы электронной почт�
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Шаг 2 из 2
-verify-secondary-email-error-3 = При отправке кода подтверждения возникла проблема
 verify-secondary-email-page-title =
     .title = Дополнительный адрес электронной почты
 verify-secondary-email-verification-code-2 =

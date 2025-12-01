@@ -1009,7 +1009,6 @@ add-secondary-email-mask = 无法将马甲邮箱设为备用邮箱
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 步骤（2 / 2）
-verify-secondary-email-error-3 = 发送确认码时出现问题
 verify-secondary-email-page-title =
     .title = 备用邮箱地址
 verify-secondary-email-verification-code-2 =

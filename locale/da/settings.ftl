@@ -1031,7 +1031,6 @@ add-secondary-email-mask = Mail-masker kan ikke bruges som sekundær mailadresse
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Trin 2 af 2
-verify-secondary-email-error-3 = Der opstod et problem under afsendelse af bekræftelseskoden
 verify-secondary-email-page-title =
     .title = Sekundær mailadresse
 verify-secondary-email-verification-code-2 =

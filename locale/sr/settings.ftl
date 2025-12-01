@@ -487,7 +487,6 @@ add-secondary-email-save-button = Сачувај
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Корак 2 од 2
-verify-secondary-email-error-3 = Дошло је до грешке при слању кода за потврду
 verify-secondary-email-page-title =
     .title = Секундарна е-пошта
 verify-secondary-email-verification-code-2 =

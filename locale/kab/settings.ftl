@@ -581,7 +581,6 @@ add-secondary-email-save-button = Sekles
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Asurif 2 seg 2
-verify-secondary-email-error-3 = Yella-d wugur deg tuzzna n tengalt n usentem
 verify-secondary-email-page-title =
     .title = Imayl wis sin
 verify-secondary-email-verification-code-2 =

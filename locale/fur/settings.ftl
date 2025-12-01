@@ -1024,7 +1024,6 @@ add-secondary-email-mask = Nol è pussibil doprâ lis mascaris di e-mail come e-
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passaç 2 di 2
-verify-secondary-email-error-3 = Al è vignût fûr un probleme tal inviâ il codiç di conferme
 verify-secondary-email-page-title =
     .title = E-mail secondarie
 verify-secondary-email-verification-code-2 =

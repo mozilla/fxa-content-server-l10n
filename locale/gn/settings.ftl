@@ -1028,7 +1028,6 @@ add-secondary-email-mask = Ñanduti veve rovamo’ãha ndojeporukuaái ñanduti 
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Ku’e 2 2-gui
-verify-secondary-email-error-3 = Oiko apañuái emondokuévo nde ayvu jehechajeyrã
 verify-secondary-email-page-title =
     .title = Ñanduti veve mokõiháva
 verify-secondary-email-verification-code-2 =

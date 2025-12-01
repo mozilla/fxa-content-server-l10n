@@ -1029,7 +1029,6 @@ add-secondary-email-mask = As máscaras de e-mail não podem ser utilizadas como
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passo 2 de 2
-verify-secondary-email-error-3 = Ocorreu um problema ao enviar o código de confirmação
 verify-secondary-email-page-title =
     .title = E-mail secundário
 verify-secondary-email-verification-code-2 =

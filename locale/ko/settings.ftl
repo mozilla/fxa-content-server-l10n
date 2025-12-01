@@ -962,7 +962,6 @@ add-secondary-email-mask = 이메일 마스크는 보조 이메일로 사용할 
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2단계 중 2단계
-verify-secondary-email-error-3 = 인증 코드를 보내는 데 문제가 발생했습니다.
 verify-secondary-email-page-title =
     .title = 보조 이메일
 verify-secondary-email-verification-code-2 =

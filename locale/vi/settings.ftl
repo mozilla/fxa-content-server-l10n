@@ -1011,7 +1011,6 @@ add-secondary-email-mask = Không thể sử dụng email ẩn danh làm email p
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Bước 2/2
-verify-secondary-email-error-3 = Đã xảy ra sự cố khi gửi mã xác minh
 verify-secondary-email-page-title =
     .title = Email phụ
 verify-secondary-email-verification-code-2 =

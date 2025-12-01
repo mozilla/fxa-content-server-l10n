@@ -1031,7 +1031,6 @@ add-secondary-email-mask = E-postalias kan inte användas som ett sekundär e-po
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Steg 2 av 2
-verify-secondary-email-error-3 = Det uppstod ett problem då bekräftelsekoden skulle skickas
 verify-secondary-email-page-title =
     .title = Sekundär e-post
 verify-secondary-email-verification-code-2 =

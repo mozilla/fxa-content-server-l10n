@@ -1041,7 +1041,6 @@ add-secondary-email-mask = E-mailowe maski njedaju se ako sekundarna e-mailowa a
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Kšac 2 z 2
-verify-secondary-email-error-3 = Pśi słanju wobkšuśeńskego koda jo problem nastał
 verify-secondary-email-page-title =
     .title = Druga e-mailowa adresa
 verify-secondary-email-verification-code-2 =

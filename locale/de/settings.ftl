@@ -1029,7 +1029,6 @@ add-secondary-email-mask = E-Mail-Masken können nicht als Zweit-E-Mail-Adresse 
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Schritt 2 von 2
-verify-secondary-email-error-3 = Beim Senden des Bestätigungscodes ist ein Fehler aufgetreten.
 verify-secondary-email-page-title =
     .title = Zweit-E-Mail-Adresse
 verify-secondary-email-verification-code-2 =

@@ -1029,7 +1029,6 @@ add-secondary-email-mask = Maskat email s’mund të përdoren si një email dyt
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Hapi 2 nga 2
-verify-secondary-email-error-3 = Pati një problem me dërgimin e kodit të ripohimit
 verify-secondary-email-page-title =
     .title = Email dytësor
 verify-secondary-email-verification-code-2 =

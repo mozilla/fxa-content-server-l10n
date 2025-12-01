@@ -1027,7 +1027,6 @@ add-secondary-email-mask = Non è possibile utilizzare alias di posta elettronic
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passaggio 2 di 2
-verify-secondary-email-error-3 = Si è verificato un problema durante l’invio del codice di conferma
 verify-secondary-email-page-title =
     .title = Email secondaria
 verify-secondary-email-verification-code-2 =

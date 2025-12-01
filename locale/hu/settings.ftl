@@ -1035,7 +1035,6 @@ add-secondary-email-mask = Az e-mail-maszkok nem használhatók másodlagos e-ma
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2. / 2. lépés
-verify-secondary-email-error-3 = Hiba történt az megerősítő kód elküldésekor
 verify-secondary-email-page-title =
     .title = Másodlagos e-mail
 verify-secondary-email-verification-code-2 =

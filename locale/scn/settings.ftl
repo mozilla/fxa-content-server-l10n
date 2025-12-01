@@ -907,7 +907,6 @@ add-secondary-email-mask = I nnirizzi di posta elittrònica mascarati nun ponnu 
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Passu 2 di 2
-verify-secondary-email-error-3 = Cci fu un prubblema mentri chi mannava u còdici di cunferma
 verify-secondary-email-page-title =
     .title = Nnirizzu di posta elittrònica sicunnariu
 verify-secondary-email-verification-code-2 =

@@ -1033,7 +1033,6 @@ add-secondary-email-mask = ელფოსტის ნიღბები ვე
 ## Verify secondary email page
 
 add-secondary-email-step-2 = მე-2 ნაბიჯი 2-დან
-verify-secondary-email-error-3 = ხარვეზი წარმოიშვა დადასტურების კოდის გამოგზავნისას
 verify-secondary-email-page-title =
     .title = დამატებითი ელფოსტა
 verify-secondary-email-verification-code-2 =

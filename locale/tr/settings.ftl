@@ -1027,7 +1027,6 @@ add-secondary-email-mask = İkinci e-posta olarak e-posta maskesi kullanılamaz
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Adım 2/2
-verify-secondary-email-error-3 = Onay kodu gönderilirken bir sorun oluştu
 verify-secondary-email-page-title =
     .title = İkinci e-posta
 verify-secondary-email-verification-code-2 =

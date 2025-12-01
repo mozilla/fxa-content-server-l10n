@@ -845,7 +845,6 @@ add-secondary-email-mask = Posta elektronikoko maskarak ezin dira bigarren posta
 ## Verify secondary email page
 
 add-secondary-email-step-2 = 2tik 2. urratsa
-verify-secondary-email-error-3 = Arazoa egon da baieztapen-kodea bidaltzean.
 verify-secondary-email-page-title =
     .title = Ordezko helbide elektronikoa
 verify-secondary-email-verification-code-2 =
