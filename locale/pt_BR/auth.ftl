@@ -197,6 +197,8 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-discount = Desconto
+subscription-charges-total = <b>Total</b>
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscription-charges-credit-received = Você recebeu um crédito em conta de { $creditReceived }, que será aplicado em suas futuras faturas.
 
