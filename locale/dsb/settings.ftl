@@ -1055,6 +1055,7 @@ verify-secondary-email-please-enter-code-2 = Pšosym zapódajśo wobkšuśeński
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } jo se wuspěšnje pśidała
+verify-secondary-email-resend-code-button = Wobkšuśeński kod hyšći raz pósłaś
 
 ##
 

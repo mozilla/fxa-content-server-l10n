@@ -454,3 +454,8 @@ next-coupon-error-limit-reached = Zapódany kod jo dostał swój limit.
 ## Stay Subscribed Error Messages
 
 stay-subscribed-error-expired = Toś to póbitowanje jo spadnjone.
+stay-subscribed-error-discount-used = Rabatowy kod jo se nałožył.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Toś ten rabat jo jano za aktualne abonenty{ $productTitle } k dispoziciji.
+stay-subscribed-error-still-active = Waš abonement { $productTitle } jo hyšći aktiwny.
+stay-subscribed-error-general = Pśi wobnowjenju wašogo abonementa jo problem nastał.
