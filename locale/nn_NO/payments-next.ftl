@@ -445,3 +445,10 @@ next-coupon-error-generic = Det oppstod ein feil under handsaming av koden. Prø
 next-coupon-error-invalid = Koden du skreiv inn er ugyldig.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Koden du skreiv inn har nådd grensa si.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Dette tilbodet har gått ut.
+stay-subscribed-error-discount-used = Rabattkoden er allereie brukt.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Denne rabatten er berre tilgjengeleg for noverande { $productTitle }-abonnentar.
