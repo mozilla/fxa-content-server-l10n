@@ -449,7 +449,7 @@ next-coupon-error-limit-reached = Der eingegebene Code hat sein Limit erreicht.
 ## Stay Subscribed Error Messages
 
 stay-subscribed-error-expired = Dieses Angebot ist abgelaufen.
-stay-subscribed-error-discount-used = Rabattcode wurde bereits angewendet.
+stay-subscribed-error-discount-used = Rabattcode wurde bereits eingelöst.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Dieser Rabatt ist nur für aktuelle { $productTitle }-Abonnenten verfügbar.
 stay-subscribed-error-still-active = Ihr Abonnement von { $productTitle } ist noch aktiv.
