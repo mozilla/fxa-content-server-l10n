@@ -18,6 +18,19 @@ upgrade-page-payment-information = Informacije o plaćanju
 
 checkout-error-boundary-retry-button = Pokušaj ponovo
 checkout-error-boundary-basic-error-message = Nešto nije u redu. Pokušaj ponovo ili <contactSupportLink>kontaktiraj podršku.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } logotip
+diners-logo-alt-text = { -brand-diner } logotip
+discover-logo-alt-text = { -brand-discover } logotip
+jcb-logo-alt-text = { -brand-jcb } logotip
+mastercard-logo-alt-text = { -brand-mastercard } logotip
+paypal-logo-alt-text = { -brand-paypal } logotip
+unionpay-logo-alt-text = { -brand-unionpay } logotip
+visa-logo-alt-text = { -brand-visa } logotip
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Nebrendirani logotip
+link-logo-alt-text = { -brand-link } logotip
+apple-pay-logo-alt-text = { -brand-apple-pay } logotip
+google-pay-logo-alt-text = { -brand-google-pay } logotip
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -28,6 +41,14 @@ next-basic-error-message = Nešto nije u redu. Pokušaj kasnije ponovo.
 checkout-error-contact-support-button = Kontaktiraj podršku
 checkout-error-not-eligible = Ne ispunjavaš uvjete za pretplatu na ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
 checkout-error-contact-support = Kontaktiraj podršku kako bismo ti pomogli.
+
+## Error pages - Payment method failure messages
+
+intent-card-error = Neuspjela obrada tvoje transakcije. Provjeri podatke tvoje kreditne kartice i pokušaj ponovo.
+intent-expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s jednom drugom karticom.
+intent-payment-error-try-again = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Pokušaj ponovo ili kontaktiraj izdavatelja kartice.
+intent-payment-error-get-in-touch = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
+intent-payment-error-generic = Dogodila se neočekivana greška tijekom obrade tvoje uplate, pokušaj ponovo.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -60,9 +81,36 @@ next-payment-confirmation-cc-card-ending-in = Kartica završava s { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = Nije dodan nijedan način plaćanja
+subscription-management-page-banner-warning-link-no-payment-method = Dodaj način plaćanja
+subscription-management-subscriptions-heading = Pretplate
+subscription-management-nav-payment-details = Podaci o plaćanju
+subscription-management-nav-active-subscriptions = Aktivne pretplate
+subscription-management-payment-details-heading = Podaci o plaćanju
+subscription-management-email-label = E-mail adresa
+subscription-management-payment-method-label = Način plaćanja
+subscription-management-button-add-payment-method-aria = Dodaj način plaćanja
+subscription-management-button-add-payment-method = Dodaj
+subscription-management-button-manage-payment-method-aria = Upravljaj načinom plaćanja
+subscription-management-button-manage-payment-method = Upravljaj
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kartica završava sa { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Isteče { $expirationDate }
+subscription-management-active-subscriptions-heading = Aktivne pretplate
+subscription-management-button-support = Dobij pomoć
+subscription-management-your-apple-iap-subscriptions-aria = Tvoje { -brand-apple } pretplate unutar aplikacije
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Upravljaj pretplatom na { $productName }
+subscription-management-button-manage-payment-method-1 = Upravljaj načinom plaćanja
 # Page - Not Found
 page-not-found-title = Stranica nije pronađena
 page-not-found-back-button = Idi natrag
+
+## Navigation breadcrumbs
+
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Pretplate
 
 ## Component - Payment Consent Checkbox
 
@@ -101,6 +149,8 @@ payments-header-bento =
     .alt = { -brand-mozilla } logotip
 payments-header-bento-close =
     .alt = Zatvori
+payments-header-bento-firefox-desktop = { -brand-firefox } preglednik za desktop
+payments-header-bento-firefox-mobile = { -brand-firefox } preglednik za mobilne uređaje
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
