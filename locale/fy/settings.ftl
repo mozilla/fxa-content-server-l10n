@@ -1035,7 +1035,6 @@ add-secondary-email-mask = E-mailmaskers kinne net as sekundêr e-mailadres brû
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Stap 2 fan 2
-verify-secondary-email-error-3 = Der is in probleem bard by it ferstjoeren fan de befêstigingskoade
 verify-secondary-email-page-title =
     .title = Sekundêr e-mailadres
 verify-secondary-email-verification-code-2 =
