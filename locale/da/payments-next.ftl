@@ -134,6 +134,8 @@ subscription-management-iap-sub-expires-on-expiry-date = Udløber den { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Håndter abonnement på { $productName }
 subscription-management-button-manage-subscription-1 = Håndter abonnement
+error-payment-method-banner-title-expired-card = Udløbet kort
+error-payment-method-banner-label-update-payment-method = Opdater betalingsmetode
 subscription-management-button-manage-payment-method-1 = Håndter betalingsmetode
 subscription-management-error-paypal-billing-agreement = Der er et problem med din { -brand-paypal }-konto. Løs problemet for at beholde dine aktive abonnementer.
 manage-payment-methods-heading = Håndter betalingsmetoder
