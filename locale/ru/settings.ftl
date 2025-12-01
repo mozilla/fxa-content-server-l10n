@@ -1048,6 +1048,7 @@ verify-secondary-email-please-enter-code-2 = Пожалуйста, введит�
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } успешно добавлен
+verify-secondary-email-resend-code-button = Отправить код подтверждения ещё раз
 
 ##
 

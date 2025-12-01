@@ -445,3 +445,12 @@ next-coupon-error-generic = При обработке кода произошл�
 next-coupon-error-invalid = Введённый вами код некорректен.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Введённый вами код достиг своего лимита.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Срок предложения истёк.
+stay-subscribed-error-discount-used = Код на скидку уже применён.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Эта скидка доступна только для текущих подписчиков на { $productTitle }.
+stay-subscribed-error-still-active = Ваша подписка на { $productTitle } всё ещё активна.
+stay-subscribed-error-general = При продлении вашей подписки возникла проблема.
