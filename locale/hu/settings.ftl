@@ -1294,7 +1294,7 @@ auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 # (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
 # The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
-auth-error-144 = Ezt az e-mail címet egy másik fiók foglalta le. Próbálja újra később, vagy adjon meg egy másik e-mail címet.
+auth-error-144 = Ezt az e-mail-címet egy másik fiók foglalta le. Próbálja újra később, vagy adjon meg egy másik e-mail-címet.
 auth-error-155 = A TOTP token nem található
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Nem található tartalék hitelesítési kód
