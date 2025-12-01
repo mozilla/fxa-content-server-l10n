@@ -994,6 +994,7 @@ verify-secondary-email-please-enter-code-2 = נא להכניס את קוד הא�
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = הכתובת { $email } נוספה בהצלחה
+verify-secondary-email-resend-code-button = שליחה חוזרת של קוד האימות
 
 ##
 

@@ -71,9 +71,17 @@ next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 ## Page - Subscription Management
 
 subscription-management-subscriptions-heading = Assinaturas
+subscription-management-payment-details-heading = Detalhes do pagamento
+subscription-management-email-label = Email
+subscription-management-payment-method-label = Método de pagamento
 subscription-management-button-add-payment-method-aria = Adicionar método de pagamento
 subscription-management-button-add-payment-method = Adicionar
+subscription-management-button-manage-payment-method-aria = Gerenciar método de pagamento
+subscription-management-button-manage-payment-method = Gerenciar
+subscription-management-active-subscriptions-heading = Assinaturas ativas
 subscription-management-button-support = Obter ajuda
+subscription-management-button-manage-subscription-1 = Gerenciar assinatura
+manage-payment-methods-heading = Gerenciar métodos de pagamento
 # Page - Not Found
 page-not-found-title = Página não encontrada
 page-not-found-description = A página solicitada não foi encontrada. Fomos notificados e corrigiremos os links que podem estar quebrados.
@@ -138,6 +146,12 @@ payments-client-loading-spinner =
     .aria-label = Carregando…
     .alt = Carregando…
 
+## Payment method management page - Stripe
+
+# Save button for saving a new payment method
+payment-method-management-save-method = Salvar método de pagamento
+manage-stripe-payments-title = Gerenciar métodos de pagamento
+
 ## Payment Section
 
 next-new-user-card-title = Digite as informações do seu cartão
@@ -197,6 +211,7 @@ next-new-user-subscribe-product-assurance = Só usamos seu email para criar sua 
 subscription-content-heading-cancel-subscription = Cancelar assinatura
 subscription-content-button-stay-subscribed = Manter assinatura
     .aria-label = Manter a assinatura do { $productName }
+subscription-content-button-cancel-subscription-1 = Cancelar assinatura
 subscription-content-button-cancel-subscription = Cancelar assinatura
     .aria-label = Cancelar sua assinatura do { $productName }
 subscription-content-button-cancel = Cancelar

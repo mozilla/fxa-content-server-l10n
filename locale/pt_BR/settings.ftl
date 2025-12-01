@@ -582,6 +582,21 @@ flow-recovery-key-info-cancel-link = Cancelar
 
 flow-setup-2fa-manual-key-heading = Insira o código manualmente
 
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Concluir
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-button-continue = Continuar
+
+##
+
+flow-setup-2fa-prompt-continue-button = Continuar
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership

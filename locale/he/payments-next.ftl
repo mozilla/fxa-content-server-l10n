@@ -438,3 +438,12 @@ next-coupon-error-generic = אירעה שגיאה בעיבוד הקוד. נא ל
 next-coupon-error-invalid = הקוד שהזנת אינו חוקי.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = הקוד שהזנת הגיע למגבלה שלו.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = פג תוקפה של הצעה זו.
+stay-subscribed-error-discount-used = קוד ההנחה כבר הוחל.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = הנחה זו זמינה רק למינויים קיימים של { $productTitle }.
+stay-subscribed-error-still-active = המינוי שלך ל־{ $productTitle } עדיין פעיל.
+stay-subscribed-error-general = הייתה בעיה בחידוש המינוי שלך.
