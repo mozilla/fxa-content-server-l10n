@@ -447,3 +447,12 @@ next-coupon-error-generic = Un error occurreva processante le codice. Retenta.
 next-coupon-error-invalid = Le codice que tu ha inserite non es valide.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Le codice que tu ha inserite ha attingite su limite.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Iste offerta ha expirate.
+stay-subscribed-error-discount-used = Codice de disconto jam applicate.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Iste disconto es solo disponibile pro abonatos actual de { $productTitle }.
+stay-subscribed-error-still-active = Tu abonamento a { $productTitle } es ancora active.
+stay-subscribed-error-general = Il habeva un problema renovante tu abonamento.
