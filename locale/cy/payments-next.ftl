@@ -445,3 +445,12 @@ next-coupon-error-generic = Bu gwall wrth brosesu'r cod. Ceisiwch eto, os gwelwc
 next-coupon-error-invalid = Mae'r cod hynny'n annilys.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Mae'r cod hynny wedi cyrraedd ei derfyn.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Mae'r cynnig hwn wedi dod i ben.
+stay-subscribed-error-discount-used = Cod disgownt eisoes wedi'i gymhwyso.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Mae'r gostyngiad hwn ar gael i'r { $productTitle } tanysgrifwyr presennol yn unig.
+stay-subscribed-error-still-active = Mae eich tanysgrifiad { $productTitle } yn dal yn weithredol.
+stay-subscribed-error-general = Bu problem gydag adnewyddu eich tanysgrifiad.

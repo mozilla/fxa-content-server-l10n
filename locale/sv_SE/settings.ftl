@@ -1045,6 +1045,7 @@ verify-secondary-email-please-enter-code-2 = Ange bekräftelsekoden som skickade
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } har lagts till
+verify-secondary-email-resend-code-button = Skicka bekräftelsekoden igen
 
 ##
 

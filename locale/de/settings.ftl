@@ -1043,6 +1043,7 @@ verify-secondary-email-please-enter-code-2 = Bitte geben Sie innerhalb von fünf
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } erfolgreich hinzugefügt.
+verify-secondary-email-resend-code-button = Bestätigungscode erneut senden
 
 ##
 

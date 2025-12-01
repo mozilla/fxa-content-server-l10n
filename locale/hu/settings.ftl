@@ -1049,6 +1049,7 @@ verify-secondary-email-please-enter-code-2 = Adja meg 5 percen belül a(z) <stro
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = A(z) { $email } sikeresen hozzáadva
+verify-secondary-email-resend-code-button = Megerősítő kód újraküldése
 
 ##
 

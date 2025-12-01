@@ -447,3 +447,12 @@ next-coupon-error-generic = Hiba történt a kód feldolgozása során. Próbál
 next-coupon-error-invalid = A megadott kód érvénytelen.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = A megadott kód elérte a korlátját.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Ez az ajánlat lejárt.
+stay-subscribed-error-discount-used = A kedvezménykód már alkalmazva.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Ez a kedvezmény csak a jelenlegi { $productTitle } előfizetők számára érhető el.
+stay-subscribed-error-still-active = A(z) { $productTitle } előfizetése még aktív.
+stay-subscribed-error-general = Hiba történt az előfizetés megújításakor.

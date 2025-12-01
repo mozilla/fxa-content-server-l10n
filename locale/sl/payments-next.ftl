@@ -445,3 +445,12 @@ next-coupon-error-generic = Pri obdelavi kode je prišlo do napake. Poskusite zn
 next-coupon-error-invalid = Koda, ki ste jo vnesli, je neveljavna.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Koda, ki ste jo vnesli, je dosegla svojo omejitev.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Ta ponudba je potekla.
+stay-subscribed-error-discount-used = Koda za popust je že uveljavljena.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Ta popust je na voljo samo za trenutne naročnike { $productTitle }.
+stay-subscribed-error-still-active = Vaša naročnina na { $productTitle } je še vedno aktivna.
+stay-subscribed-error-general = Pri podaljšanju naročnine je prišlo do težave.

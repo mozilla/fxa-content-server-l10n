@@ -445,3 +445,12 @@ next-coupon-error-generic = Beim Verarbeiten des Codes ist ein Fehler aufgetrete
 next-coupon-error-invalid = Der eingegebene Code ist ungültig.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Der eingegebene Code hat sein Limit erreicht.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Dieses Angebot ist abgelaufen.
+stay-subscribed-error-discount-used = Rabattcode wurde bereits angewendet.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Dieser Rabatt ist nur für aktuelle { $productTitle }-Abonnenten verfügbar.
+stay-subscribed-error-still-active = Ihr Abonnement von { $productTitle } ist noch aktiv.
+stay-subscribed-error-general = Bei der Erneuerung Ihres Abonnements ist ein Problem aufgetreten.

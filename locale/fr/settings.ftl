@@ -1041,6 +1041,7 @@ verify-secondary-email-please-enter-code-2 = Veuillez saisir au cours des 5 pro
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = L’adresse { $email } a bien été ajoutée
+verify-secondary-email-resend-code-button = Renvoyer le code de confirmation
 
 ##
 

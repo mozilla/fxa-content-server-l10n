@@ -450,3 +450,12 @@ next-coupon-error-generic = Při předźěłowanju koda je zmylk nastał. Prošu
 next-coupon-error-invalid = Zapodaty kod je njepłaćiwy.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Zapodaty kod je swój limit docpěł.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Tutón poskitk je spadnjeny.
+stay-subscribed-error-discount-used = Rabatowy kod je so hižo nałožił.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Tutón rabat je jenož za aktualnych abonentow { $productTitle } k dispoziciji.
+stay-subscribed-error-still-active = Waš abonement { $productTitle } je hišće aktiwny.
+stay-subscribed-error-general = Při wobnowjenju wašeho abonementa je problem nastał.
