@@ -451,6 +451,6 @@ next-coupon-error-limit-reached = El código que ingresaste ya llegó a su lími
 stay-subscribed-error-expired = Esta oferta ya caducó.
 stay-subscribed-error-discount-used = Código de descuento ya aplicado.
 # $productTitle (String) - The name of the product
-stay-subscribed-error-not-current-subscriber = Este descuento solo está disponible para { $productTitle } suscriptores actuales.
-stay-subscribed-error-still-active = Tu suscripción de { $productTitle } sigue activa.
+stay-subscribed-error-not-current-subscriber = Este descuento solo está disponible para suscriptores actuales de { $productTitle }.
+stay-subscribed-error-still-active = Tu suscripción de { $productTitle } todavía está activa.
 stay-subscribed-error-general = Hubo un problema con la renovación de la suscripción.
