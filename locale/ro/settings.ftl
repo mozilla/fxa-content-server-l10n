@@ -76,7 +76,7 @@ choose-newsletters-option-latest-news =
     .label = Obține cele mai recente știri și actualizări de produse
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
-    .label = Acces timpuriu pentru testarea de produse noi
+    .label = Acces timpuriu pentru a testa produse noi
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
 # "Action alerts" can be interpreted as "Calls to action"
 choose-newsletters-option-reclaim-the-internet =
@@ -478,7 +478,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
-bento-menu-title-3 = produse { -brand-mozilla }
+bento-menu-title-3 = Produse { -brand-mozilla }
 bento-menu-tagline = Mai multe produse de la { -brand-mozilla } care îți protejează confidențialitatea
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
