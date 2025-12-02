@@ -224,6 +224,22 @@ device-all = { $uaBrowser } na { $uaOS } { $uaOSVersion }
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } na { $uaOS }
 # Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (procijenjeno)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (procijenjeno)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (procijenjeno)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (procijenjeno)
+# Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Pogledaj račun: { $invoiceLink }
