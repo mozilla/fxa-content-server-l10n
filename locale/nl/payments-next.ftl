@@ -445,3 +445,12 @@ next-coupon-error-generic = Er is een fout opgetreden bij het verwerken van de c
 next-coupon-error-invalid = De ingevoerde code is ongeldig.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = De ingevoerde code heeft zijn limiet bereikt.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Deze aanbieding is verlopen.
+stay-subscribed-error-discount-used = Kortingscode al toegepast.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Deze korting is alleen beschikbaar voor huidige abonnees van { $productTitle }.
+stay-subscribed-error-still-active = Uw { $productTitle }-abonnement is nog actief.
+stay-subscribed-error-general = Er is een probleem opgetreden bij het verlengen van uw abonnement.

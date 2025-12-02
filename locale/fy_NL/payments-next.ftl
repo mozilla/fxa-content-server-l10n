@@ -445,3 +445,11 @@ next-coupon-error-generic = Der is in flater bard by it ferwurkjen fan de koade.
 next-coupon-error-invalid = De ynfierde koade is ûnjildich.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = De ynfierde koade hat syn limyt berikt.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Dizze oanbieding is ferrûn.
+stay-subscribed-error-discount-used = Koartingskoade al tapast.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Dizze koarting is allinnich beskikber foar hjoeddeiske abonnees fan { $productTitle }.
+stay-subscribed-error-still-active = Jo { $productTitle }-abonnemint is noch aktyf.

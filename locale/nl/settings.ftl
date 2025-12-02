@@ -1045,6 +1045,7 @@ verify-secondary-email-please-enter-code-2 = Voer binnen 5 minuten de bevestigin
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } met succes toegevoegd
+verify-secondary-email-resend-code-button = Bevestigingscode opnieuw verzenden
 
 ##
 
