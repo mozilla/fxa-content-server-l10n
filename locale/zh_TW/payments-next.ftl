@@ -445,3 +445,11 @@ next-coupon-error-generic = 處理折扣碼時發生錯誤，請再試一次。
 next-coupon-error-invalid = 您輸入的折扣碼無效。
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = 您輸入的折扣碼已達使用次數上限。
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = 此活動已經結束。
+stay-subscribed-error-discount-used = 已經套用此折扣碼。
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = 此折扣僅適用於目前的 { $productTitle } 訂閱者。
+stay-subscribed-error-still-active = 您的 { $productTitle } 訂閱仍然有效。
