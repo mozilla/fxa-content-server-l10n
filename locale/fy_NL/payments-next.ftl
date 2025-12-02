@@ -453,3 +453,4 @@ stay-subscribed-error-discount-used = Koartingskoade al tapast.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Dizze koarting is allinnich beskikber foar hjoeddeiske abonnees fan { $productTitle }.
 stay-subscribed-error-still-active = Jo { $productTitle }-abonnemint is noch aktyf.
+stay-subscribed-error-general = Der is in probleem bard by it ferlingjen fan jo abonnemint.
