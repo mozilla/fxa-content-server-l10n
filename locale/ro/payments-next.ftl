@@ -449,3 +449,12 @@ next-coupon-error-generic = A apărut o eroare la procesarea codului. Te rugăm 
 next-coupon-error-invalid = Codul introdus este nevalid.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Codul introdus a ajuns la limită.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Oferta a expirat.
+stay-subscribed-error-discount-used = Codul de reducere a fost deja aplicat.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Reducerea este disponibilă doar abonaților { $productTitle } actuali.
+stay-subscribed-error-still-active = Abonamentul tău la { $productTitle } este încă activ.
+stay-subscribed-error-general = A apărut o problemă la reînnoirea abonamentului.

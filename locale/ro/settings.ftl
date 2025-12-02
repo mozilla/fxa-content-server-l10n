@@ -694,6 +694,9 @@ flow-setup-2fa-prompt-heading = Configurează autentificarea în doi pași
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } necesită configurarea autentificării în doi pași ca să îți menții contul în siguranță.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Poți folosi oricare dintre <authenticationAppsLink>aceste aplicații de autentificare</authenticationAppsLink> pentru a continua.
+flow-setup-2fa-prompt-continue-button = Continuă
 
 ## FlowSetupPhoneConfirmCode
 
@@ -733,6 +736,8 @@ header-menu-open = Închide meniul
 header-menu-closed = Meniu de navigare pe site
 header-back-to-top-link =
     .title = Înapoi în partea de sus
+header-back-to-settings-link =
+    .title = Înapoi la setările { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Ajutor
 
@@ -799,6 +804,8 @@ tfa-backup-codes-page-title = Coduri de autentificare de rezervă
 tfa-replace-code-error-3 = A apărut o problemă la înlocuirea codurilor de autentificare de rezervă
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = A apărut o problemă la crearea codurilor de autentificare de rezervă
+# Success message shown in alert bar after successfully replacing existing backup codes
+tfa-replace-code-success-alert-4 = Codurile de autentificare de rezervă au fost actualizate
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Coduri de autentificare de rezervă create
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
@@ -845,12 +852,16 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Nu s-a putut inițializa camera
 avatar-page-new-avatar =
     .alt = poză de profil nouă
+avatar-page-file-upload-error-3 = A apărut o problemă la încărcarea fotografiei de profil
+avatar-page-delete-error-3 = A apărut o problemă la ștergerea fotografiei de profil
+avatar-page-image-too-large-error-2 = Fișierul de imagine este prea mare și nu poate fi încărcat
 
 ## Password change page
 
 pw-change-header =
     .title = Schimbă parola
 pw-8-chars = Cel puțin 8 caractere
+pw-not-email = Nu adresa ta de e-mail
 pw-change-must-match = Noua parolă să se potrivească cu confirmarea
 pw-change-cancel-button = Anulează
 pw-change-save-button = Salvează
