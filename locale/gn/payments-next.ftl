@@ -454,3 +454,5 @@ stay-subscribed-error-expired = Ko ñekuave’ẽ ndoikovéima.
 stay-subscribed-error-discount-used = Tepyguejy ayvu oikopyrémava.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Ko tepyguejy oiporukuaa oñemboheraguapýva { $productTitle } ndive añoite.
+stay-subscribed-error-still-active = Ne ñemboheraguapy { $productTitle } oiko gueteri.
+stay-subscribed-error-general = Oĩ apañuái onembohekopyahukuévo ne ñemboheraguapy.

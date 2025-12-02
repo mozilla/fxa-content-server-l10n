@@ -1042,6 +1042,7 @@ verify-secondary-email-please-enter-code-2 = Ikatúpa ehai 5 aravo’i mboyve pe
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } ojuajúma hekoitépe
+verify-secondary-email-resend-code-button = Emondojey ayvu ñemoneĩrã
 
 ##
 
