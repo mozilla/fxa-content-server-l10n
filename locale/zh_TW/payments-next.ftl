@@ -453,3 +453,4 @@ stay-subscribed-error-discount-used = 已經套用此折扣碼。
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = 此折扣僅適用於目前的 { $productTitle } 訂閱者。
 stay-subscribed-error-still-active = 您的 { $productTitle } 訂閱仍然有效。
+stay-subscribed-error-general = 續訂時發生問題。

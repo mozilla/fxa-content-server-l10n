@@ -1021,6 +1021,7 @@ verify-secondary-email-please-enter-code-2 = 請於 5 分鐘內輸入發送到 <
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = 成功加入 { $email }
+verify-secondary-email-resend-code-button = 重寄確認碼
 
 ##
 
