@@ -1191,15 +1191,30 @@ se-cannot-resend-code-3 = Ne pare rău, a apărut o problemă la retrimiterea co
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } este acum adresa ta de e-mail primară
+se-set-primary-error-2 = Ne pare rău, a apărut o problemă la modificarea adresei principale de e-mail
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } ștearsă cu succes
+se-delete-email-error-2 = Ne pare rău, a apărut o problemă la ștergerea adresei de e-mail
+se-verify-session-3 = Va trebui să îți confirmi sesiunea actuală pentru a efectua această acțiune.
+se-verify-session-error-3 = Ne pare rău, a apărut o problemă la confirmarea sesiunii
 # Button to remove the secondary email
 se-remove-email =
     .title = Elimină adresa de e-mail
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Reîmprospătează e-mailul
+se-unverified-2 = neconfirmată
+se-resend-code-2 =
+    Necesită confirmare. <button>Retrimite codul de confirmare</button>
+    dacă nu se află în dosarul de mesaje primite sau spam.
 # Button to make secondary email the primary
 se-make-primary = Setează ca e-mail principal
 se-default-content = Accesează contul dacă nu te poți autentifica în e-mailul principal.
+se-content-note-1 =
+    Notă: o adresă secundară de e-mail nu îți va restabili informațiile — vei
+    avea nevoie de o <a>cheie de recuperare a contului</a>.
 # Default value for the secondary email
 se-secondary-email-none = Niciunul
 
@@ -1207,22 +1222,35 @@ se-secondary-email-none = Niciunul
 
 tfa-row-header = Autentificare în doi pași
 tfa-row-enabled = Activat
+tfa-row-disabled-status = Dezactivat
 tfa-row-action-add = Adaugă
 tfa-row-action-disable = Dezactivează
+tfa-row-action-change = Modifică
 tfa-row-button-refresh =
     .title = Reîmprospătează autentificarea în doi pași
 tfa-row-cannot-refresh =
     Ne pare rău, a apărut o problemă la reîmprospătarea
     autentificării în doi pași.
+tfa-row-enabled-description = Contul este protejat prin autentificare în doi pași. Va trebui să introduci o parolă de unică folosință din aplicația de autentificare când vrei să intri în { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+tfa-row-enabled-info-link = Cum îți protejează contul
+tfa-row-disabled-description-v2 = Securizează-ți contul utilizând o aplicație de autentificare terță ca al doilea pas pentru autentificare.
+tfa-row-cannot-verify-session-4 = Ne pare rău, a apărut o problemă la confirmarea sesiunii
 tfa-row-disable-modal-heading = Dezactivezi autentificarea în doi pași?
 tfa-row-disable-modal-confirm = Dezactivează
 tfa-row-disable-modal-explain-1 =
     Acțiunea este ireversibilă. Mai ai și
     opțiunea <linkExternal>să înlocuiești codurile de autentificare de rezervă</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Autentificare în doi pași dezactivată
+tfa-row-cannot-disable-2 = Autentificarea în doi pași nu a putut fi dezactivată
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Prin continuare, ești de acord cu:
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Condiții de utilizare a serviciilor</mozSubscriptionTosLink> și <mozSubscriptionPrivacyLink>Notificare privind confidențialitatea</mozSubscriptionPrivacyLink> pentru serviciile de abonamente { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
@@ -1230,13 +1258,76 @@ terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "u
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Prin continuare, ești de acord cu <mozillaAccountsTos>Condițiile de utilizare a serviciilor</mozillaAccountsTos> și <mozillaAccountsPrivacy>Notificarea privind confidențialitatea</mozillaAccountsPrivacy>.
 
+## ThirdPartyAuth component
+## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
+
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account.
+# Firefox account login appears on top, and third party options appear on bottom.
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
+third-party-auth-options-or = sau
+continue-with-google-button = Continuă cu { -brand-google }
+continue-with-apple-button = Continuă cu { -brand-apple }
+
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Cont necunoscut
 auth-error-103 = Parolă incorectă
+auth-error-105-2 = Cod de confirmare nevalid
 auth-error-110 = Jeton nevalid
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Ai încercat de prea multe ori. Te rugăm să încerci din nou mai târziu.
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
+auth-error-114 = Ai încercat de prea multe ori. Te rugăm să încerci din nou { $retryAfter }.
+auth-error-125 = Cererea a fost blocată din motive de securitate
+auth-error-129-2 = Ai introdus un număr de telefon nevalid. Te rugăm să îl verifici și să încerci din nou.
+auth-error-138-2 = Sesiune neconfirmată
+auth-error-139 = Adresa de e-mail secundară trebuie să fie diferită de adresa de e-mail a contului
 auth-error-155 = Jetonul TOTP nu a fost găsit
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Cod de autentificare de rezervă negăsit
+auth-error-159 = Cheie nevalidă de recuperare a contului
+auth-error-183-2 = Cod de confirmare nevalid sau expirat
+auth-error-202 = Funcționalitate neactivată
+auth-error-203 = Sistem indisponibil; încearcă din nou mai târziu
+auth-error-206 = Nu se poate crea o parolă, parola este deja setată.
+auth-error-214 = Numărul de telefon de recuperare există deja
+auth-error-215 = Numărul de telefon de recuperare nu există
+auth-error-216 = Ai atins limita pentru mesaje text
+auth-error-218 = Nu se poate elimina numărul de telefon de recuperare, lipsesc codurile de autentificare de rezervă.
+auth-error-999 = Eroare neașteptată
+auth-error-1001 = Încercare de autentificare anulată
+auth-error-1002 = Sesiune expirată. Intră în cont pentru a continua.
+auth-error-1003 = Stocarea locală sau cookie-urile sunt încă dezactivate
 auth-error-1008 = Noua ta parolă trebuie să fie diferită
+auth-error-1010 = Este necesară o parolă validă
+auth-error-1011 = Este necesară o adresă de e-mail validă
+auth-error-1031 = Trebuie să introduci vârsta ca să îți faci cont
+auth-error-1032 = Trebuie să introduci o vârstă validă ca să îți faci cont
+auth-error-1054 = Cod de autentificare în doi pași nevalid
+auth-error-1062 = Redirecționare nevalidă
+oauth-error-1000 = Ceva nu a mers. Închide fila și încearcă din nou.
+
+## Connect Another Device page
+
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Ești autentificat(ă) în { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Adresă de e-mail confirmată
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Autentificare confirmată
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Autentifică-te în acest { -brand-firefox } pentru a finaliza configurarea
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Intră în cont
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Încă adaugi dispozitive? Autentifică-te în { -brand-firefox } de pe alt dispozitiv pentru a finaliza configurarea
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Autentifică-te în { -brand-firefox } de pe alt dispozitiv pentru a finaliza configurarea
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs

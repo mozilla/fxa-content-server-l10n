@@ -140,7 +140,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Solicitarea venit de l
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Solicitarea venit de la { $uaOS }.
-automatedEmailRecoveryKey-delete-key-change-pwd = Dacă nu ai fost tu, <a data-l10n-name="revokeAccountRecoveryLink">șterge noua cheie</a> și <a data-l10n-name="passwordChangeLink">schimbă-ți parola</a>.
+automatedEmailRecoveryKey-delete-key-change-pwd = Dacă nu ai fost tu, <a data-l10n-name="revokeAccountRecoveryLink">șterge cheia nouă</a> și <a data-l10n-name="passwordChangeLink">schimbă-ți parola</a>.
 automatedEmailRecoveryKey-change-pwd-only = Dacă nu ai fost tu, <a data-l10n-name="passwordChangeLink">schimbă-ți parola</a>.
 automatedEmailRecoveryKey-more-info = Pentru mai multe informații, intră pe <a data-l10n-name="supportLink">{ -brand-mozilla } Asistență</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
@@ -497,7 +497,7 @@ postAddTwoStepAuthentication-recovery-method-phone = Ai adăugat și { $maskedPh
 postAddTwoStepAuthentication-how-protects-link = Cum îți protejează contul
 postAddTwoStepAuthentication-how-protects-plaintext = Cum îți protejează contul
 postAddTwoStepAuthentication-device-sign-out-message = Pentru a-ți proteja toate dispozitivele conectate, trebuie să ieși din cont de peste tot pe unde îl folosești și apoi să intri iar în cont utilizând noua autentificare în doi pași.
-postChangeAccountRecovery-subject = Cheie de recuperare a contului modificată
+postChangeAccountRecovery-subject = Cheie modificată de recuperare a contului
 postChangeAccountRecovery-title = Ți-ai modificat cheia de recuperare a contului
 postChangeAccountRecovery-body-part1 = Acum ai o cheie nouă de recuperare a contului. Cea anterioară a fost ștearsă.
 postChangeAccountRecovery-body-part2 = Salvează cheia nouă într-un loc sigur — vei avea nevoie de ea ca să restaurezi datele de navigare criptate dacă uiți parola.

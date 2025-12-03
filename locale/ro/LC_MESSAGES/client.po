@@ -470,7 +470,7 @@ msgstr "Cheie de recuperare a contului negăsită"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr "Cheie de recuperare a contului nevalidă"
+msgstr "Cheie nevalidă de recuperare a contului"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
