@@ -106,6 +106,18 @@ datablock-download-success =
         [few] koda preuzeta
        *[other] kodova preuzeto
     }
+datablock-print-success =
+    { $count ->
+        [one] kod ispisan
+        [few] koda ispisana
+       *[other] kodova ispisao
+    }
+
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Kopirano
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -144,6 +156,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Potvrdi lozinku
 form-password-with-inline-criteria-reset-submit-button = Stvori novu lozinku
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Lozinka
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Ponovi lozinku
+form-password-with-inline-criteria-set-password-submit-button = Započni sinkronizaciju
 form-password-with-inline-criteria-match-error = Lozinke se ne podudaraju
 form-password-with-inline-criteria-sr-too-short-message = Lozinka mora sadržati barem 8 znakova.
 form-password-with-inline-criteria-sr-not-email-message = Lozinka ne smije sadržati tvoju e-mail adresu.
@@ -270,6 +287,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobilni uređaj s mogućnostima slanja SMS poruka
 backup-authentication-codes-image-aria-label =
     .aria-label = Ekran uređaja s kodovima
+confetti-falling-image-aria-label =
+    .aria-label = Animirani padajući konfeti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
