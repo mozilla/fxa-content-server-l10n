@@ -448,3 +448,12 @@ next-coupon-error-generic = Προέκυψε σφάλμα κατά την επε
 next-coupon-error-invalid = Ο κωδικός που καταχωρήσατε δεν είναι έγκυρος.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Ο κωδικός που καταχωρήσατε έχει φτάσει το όριό του.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Αυτή η προσφορά έχει λήξει.
+stay-subscribed-error-discount-used = Ο εκπτωτικός κωδικός έχει ήδη εφαρμοστεί.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Αυτή η έκπτωση διατίθεται μόνο για τρέχοντες συνδρομητές του { $productTitle }.
+stay-subscribed-error-still-active = Η συνδρομή σας στο { $productTitle } είναι ακόμα ενεργή.
+stay-subscribed-error-general = Προέκυψε πρόβλημα με την ανανέωση της συνδρομής σας.

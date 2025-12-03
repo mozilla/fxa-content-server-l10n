@@ -1047,6 +1047,7 @@ verify-secondary-email-please-enter-code-2 = Εισαγάγετε τον κωδ�
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = Το { $email } προστέθηκε επιτυχώς
+verify-secondary-email-resend-code-button = Εκ νέου αποστολή κωδικού επιβεβαίωσης
 
 ##
 
