@@ -109,10 +109,14 @@ subscription-management-iap-sub-expires-on-expiry-date = Isteče { $date }
 subscription-management-button-manage-subscription-aria = Upravljaj pretplatom na { $productName }
 subscription-management-button-manage-subscription-1 = Upravljaj pretplatom
 error-payment-method-banner-title-expired-card = Istekla kartica
+error-payment-method-banner-title-invalid-payment-information = Neispravni podaci za plaćanje
+error-payment-method-banner-message-account-issue = Postoji problem s tvojim računom.
 subscription-management-button-manage-payment-method-1 = Upravljaj načinom plaćanja
+manage-payment-methods-heading = Upravljaj načinima plaćanja
 # Page - Not Found
 page-not-found-title = Stranica nije pronađena
 page-not-found-back-button = Idi natrag
+alert-dialog-title = Dijalog upozorenja
 
 ## Navigation breadcrumbs
 
@@ -171,6 +175,14 @@ payments-client-loading-spinner =
     .aria-label = Učitavanje …
     .alt = Učitavanje …
 
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Postavi kao standrdni način plaćanja
+# Save button for saving a new payment method
+payment-method-management-save-method = Spremi način plaćanja
+manage-stripe-payments-title = Upravljaj načinima plaćanja
+
 ## Payment Section
 
 next-new-user-card-title = Upiši podatke tvoje kartice
@@ -214,6 +226,43 @@ next-new-user-subscribe-product-updates-mdnplus = Želim primati novosti i aktua
 next-new-user-subscribe-product-updates-mozilla = Želim primati novosti { -brand-mozilla } proizvoda i aktualiziranja
 next-new-user-subscribe-product-updates-snp = Želim primati novosti { -brand-mozilla } sigurnosti, obavijesti o privatnosti i aktualiziranja
 next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo za stvaranje tvog računa. Nikada ga nećemo prodati trećoj strani.
+
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-heading-cancel-subscription = Otkaži pretplatu
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Zadnji račun • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } porez
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Prikaži račun
+subscription-management-link-view-invoice-aria = Prikaži račun za { $productName }
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
+subscription-content-button-stay-subscribed = Zadrži pretplatu
+    .aria-label = Zadrži pretplatu za { $productName }
+subscription-content-button-cancel-subscription-1 = Otkaži pretplatu
+subscription-content-button-cancel-subscription = Otkaži pretplatu
+    .aria-label = Otkaži pretplatu za { $productName }
+subscription-content-button-cancel = Odustani
+    .aria-label = Otkaži pretplatu za { $productName }
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-success-dialog-action-button-close = Zatvori
+    .aria-label = Zatvori dijalog
+
+##
+
+dialog-close = Zatvori dijalog
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -262,3 +311,18 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (tjedno)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mjesečno)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mjeseci)
 upgrade-purchase-details-new-plan-yearly = { $productName } (godišnje)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+# Checkout processing
+metadata-title-checkout-processing = Obrada | { $productTitle }
+# Checkout error
+metadata-title-checkout-error = Greška | { $productTitle }
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Ova je ponuda istekla.
+stay-subscribed-error-discount-used = Kod za popust je već primijenjen.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Ovaj je popust dostupan samo za trenutačne pretplatnike na { $productTitle }.

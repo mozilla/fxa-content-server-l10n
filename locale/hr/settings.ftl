@@ -91,6 +91,22 @@ datablock-copy =
 datablock-print =
     .message = Ispisano
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] kod kopiran
+        [few] koda kopirana
+       *[other] kodova kopirano
+    }
+datablock-download-success =
+    { $count ->
+        [one] kod preuzet
+        [few] koda preuzeta
+       *[other] kodova preuzeto
+    }
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
