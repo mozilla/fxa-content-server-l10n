@@ -448,3 +448,12 @@ next-coupon-error-generic = კოდის დამუშავებისა
 next-coupon-error-invalid = თქვენ მიერ შეყვანილი კოდი არამართებულია.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = შეყვანილი კოდის გამოყენების რაოდენობა ამოწურულია.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = ეს შეთავაზება ვადაგასულია.
+stay-subscribed-error-discount-used = ფასდაკლების კოდი უკვე ასახულია.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = ფასდაკლება მათთვისაა, ვისაც ამჟამად გამოწერილი აქვს { $productTitle }.
+stay-subscribed-error-still-active = თქვენ მიერ გამოწერილი { $productTitle } ჯერ კიდევ მოქმედია.
+stay-subscribed-error-general = ხარვეზი წარმოიშვა თქვენი გამოწერის გაახლებისას.

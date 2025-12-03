@@ -1047,6 +1047,7 @@ verify-secondary-email-please-enter-code-2 = გთხოვთ, 5 წუთი�
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } წარმატებით დაემატა
+verify-secondary-email-resend-code-button = დასტურის კოდის კვლავ გაგზავნა
 
 ##
 
@@ -1287,6 +1288,9 @@ auth-error-125 = მოთხოვნა უარყოფილია უს�
 auth-error-129-2 = მითითებული ტელეფონის ნომერი უმართებულოა. გთხოვთ გადაამოწმოთ და კვლავ სცადოთ.
 auth-error-138-2 = დაუმოწმებელი სეანსი
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = ეს ელფოსტა სათადარიგოა სხვა ანგარიშისთვის. კვლავ სცადეთ მოგვიანებით ან გამოიყენეთ ელფოსტის სხვა მისამართი.
 auth-error-155 = TOTP-საშვი ვერ მოიძებნა
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = შესვლის სამარქაფო კოდი ვერ მოიძებნა
