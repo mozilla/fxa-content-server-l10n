@@ -98,10 +98,17 @@ subscription-management-card-ending-in = Kartica završava sa { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Isteče { $expirationDate }
 subscription-management-active-subscriptions-heading = Aktivne pretplate
+subscription-management-your-active-subscriptions-aria = Tvoje aktivne pretplate
 subscription-management-button-support = Dobij pomoć
 subscription-management-your-apple-iap-subscriptions-aria = Tvoje { -brand-apple } pretplate unutar aplikacije
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } kupnja unutar aplikacije
+subscription-management-google-in-app-purchase-2 = { -brand-google } kupnja unutar aplikacije
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Isteče { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Upravljaj pretplatom na { $productName }
+subscription-management-button-manage-subscription-1 = Upravljaj pretplatom
+error-payment-method-banner-title-expired-card = Istekla kartica
 subscription-management-button-manage-payment-method-1 = Upravljaj načinom plaćanja
 # Page - Not Found
 page-not-found-title = Stranica nije pronađena
@@ -111,6 +118,8 @@ page-not-found-back-button = Idi natrag
 
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Pretplate
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Vrati se na stranicu { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -172,6 +181,9 @@ next-plan-details-header = Podaci proizvoda
 next-plan-details-list-price = Cjenik
 next-plan-details-tax = Porezi i naknade
 next-plan-details-total-label = Ukupno
+purchase-details-subtotal-label = Međuzbroj
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Ukupno za platiti
 next-plan-details-hide-button = Sakrij podatke
 next-plan-details-show-button = Pokaži podatke
 next-coupon-success = Tvoj plan će se automatski obnoviti prema cjeniku.
@@ -232,6 +244,7 @@ next-privacy = Napomena o privatnosti
 next-terms-download = Uvjeti preuzimanja
 terms-and-privacy-stripe-label = { -brand-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
 terms-and-privacy-stripe-link = { -brand-name-stripe } politika privatnosti
+terms-and-privacy-paypal-label = { -brand-mozilla } koristi { -brand-paypal } za sigurnu obradu plaćanja.
 terms-and-privacy-paypal-link = { -brand-paypal } politika privatnosti
 
 ## Component - UpdatedPurchaseDetails
@@ -239,6 +252,7 @@ terms-and-privacy-paypal-link = { -brand-paypal } politika privatnosti
 upgrade-purchase-details-current-plan-label = Aktualni plan
 upgrade-purchase-details-new-plan-label = Novi plan
 upgrade-purchase-details-promo-code = Kod kupona
+upgrade-purchase-details-tax-label = Porezi i naknade
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

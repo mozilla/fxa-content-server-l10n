@@ -655,7 +655,17 @@ subscriptionUpgrade-content-subscription-next-bill-change = Cijena tvoje pretpla
 subscriptionUpgrade-content-old-price-day = Prethodna cijena je bila { $paymentAmountOld } na dan.
 subscriptionUpgrade-content-old-price-week = Prethodna cijena je bila { $paymentAmountOld } na tjedan.
 subscriptionUpgrade-content-old-price-month = Prethodna cijena je bila { $paymentAmountOld } na mjesec.
+subscriptionUpgrade-content-old-price-halfyear = Prethodna cijena je bila { $paymentAmountOld } na šest mjeseci.
+subscriptionUpgrade-content-old-price-year = Prethodna cijena je bila { $paymentAmountOld } na godinu.
+subscriptionUpgrade-content-old-price-default = Prethodna cijena je bila { $paymentAmountOld } po obračunskom razdoblju.
+subscriptionUpgrade-content-old-price-day-tax = Prethodna cijena je bila { $paymentAmountOld } + porez od { $paymentTaxOld } na dan.
+subscriptionUpgrade-content-old-price-week-tax = Prethodna cijena je bila { $paymentAmountOld } + porez od { $paymentTaxOld } na tjedan.
+subscriptionUpgrade-content-old-price-month-tax = Prethodna cijena je bila { $paymentAmountOld } + porez od { $paymentTaxOld } na mjesec.
+subscriptionUpgrade-content-old-price-halfyear-tax = Prethodna cijena je bila { $paymentAmountOld } + porez od { $paymentTaxOld } na šest mjeseci.
+subscriptionUpgrade-content-old-price-year-tax = Prethodna cijena je bila { $paymentAmountOld } + porez od { $paymentTaxOld } na godinu.
+subscriptionUpgrade-content-old-price-default-tax = Prethodna cijena je bila { $paymentAmountOld } + porez od { $paymentTaxOld } po obračunskom razdoblju.
 subscriptionUpgrade-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
+unblockCode-preview = Ovaj kod isteče za jedan sat
 unblockCode-title = Je li ovo tvoja prijava?
 unblockCode-prompt = Ako da, ovo je potrebni autorizacijski kôd:
 unblockCode-report-plaintext = Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću prijave problema.
@@ -676,6 +686,14 @@ verify-title-3 = Otvori internet s { -brand-mozilla }
 verify-description-2 = Potvrdi svoj račun i izvuci maksimum iz { -brand-mozilla } gdje god se prijaviš počevši s:
 verify-subject = Završi stvaranje računa
 verify-action-2 = Potvrdi račun
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Ovaj kod isteče za { $expirationTime } minutu.
+        [few] Ovaj kod isteče za { $expirationTime } minute.
+       *[other] Ovaj kod isteče za { $expirationTime } minuta.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Jesi li se prijavio/la na { $clientName }?
