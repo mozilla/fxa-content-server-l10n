@@ -186,9 +186,33 @@ payment-plan-charged = Naplaćeno: { $invoiceTotal }, { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Sljedeći račun: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Način plaćanja:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Način plaćanja: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Način plaćanja: { $cardName } kartica završava s { $lastFour }
+payment-provider-card-ending-in-plaintext = Način plaćanja: Kartica završava s { $lastFour }
+payment-provider-card-ending-in = <b>Način plaćanja:</b> Kartica završava s { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Način plaćanja:</b> { $cardName } kartica završava s { $lastFour }
+subscription-charges-invoice-summary = Sažetak računa
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Broj računa:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Broj računa: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Podzbroj: { $invoiceSubtotal }
 
