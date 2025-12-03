@@ -1245,6 +1245,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Autentificare în doi pași dezactivată
 tfa-row-cannot-disable-2 = Autentificarea în doi pași nu a putut fi dezactivată
+tfa-row-verify-session-info = Trebuie să confirmi sesiunea curentă pentru a configura autentificarea în doi pași
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1299,6 +1300,7 @@ auth-error-214 = Numărul de telefon de recuperare există deja
 auth-error-215 = Numărul de telefon de recuperare nu există
 auth-error-216 = Ai atins limita pentru mesaje text
 auth-error-218 = Nu se poate elimina numărul de telefon de recuperare, lipsesc codurile de autentificare de rezervă.
+auth-error-219 = Acest număr de telefon a fost înregistrat cu prea multe conturi. Te rugăm să încerci alt număr.
 auth-error-999 = Eroare neașteptată
 auth-error-1001 = Încercare de autentificare anulată
 auth-error-1002 = Sesiune expirată. Intră în cont pentru a continua.
@@ -1309,6 +1311,7 @@ auth-error-1011 = Este necesară o adresă de e-mail validă
 auth-error-1031 = Trebuie să introduci vârsta ca să îți faci cont
 auth-error-1032 = Trebuie să introduci o vârstă validă ca să îți faci cont
 auth-error-1054 = Cod de autentificare în doi pași nevalid
+auth-error-1056 = Cod de autentificare de rezervă nevalid
 auth-error-1062 = Redirecționare nevalidă
 oauth-error-1000 = Ceva nu a mers. Închide fila și încearcă din nou.
 
@@ -1328,6 +1331,43 @@ connect-another-device-signin-link = Intră în cont
 connect-another-device-still-adding-devices-message = Încă adaugi dispozitive? Autentifică-te în { -brand-firefox } de pe alt dispozitiv pentru a finaliza configurarea
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-signin-another-device-to-complete-message = Autentifică-te în { -brand-firefox } de pe alt dispozitiv pentru a finaliza configurarea
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Vrei să îți salvezi filele, marcajele și parolele pe un alt dispozitiv?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Conectează alt dispozitiv
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Nu acum
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Autentifică-te în { -brand-firefox } pentru Android pentru a finaliza configurarea
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Autentifică-te în { -brand-firefox } pentru iOS pentru a finaliza configurarea
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+cookies-disabled-header = Necesită stocare locală și cookie-uri
+cookies-disabled-enable-prompt-2 = Te rugăm să activezi în browser cookie-urile și stocarea locală pentru a acces la { -product-mozilla-account }. Astfel, va fi activată funcționalitatea de a ține minte contul între sesiuni.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Încearcă din nou
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Află mai multe
+
+## Index / home page
+
+index-header = Introdu adresa ta de e-mail
+index-sync-header = Continuă spre { -product-mozilla-account }
+index-sync-subheader = Sincronizează-ți parolele, filele și marcajele oriunde folosești { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Continuă cu { $serviceName }
+index-subheader-default = Continuă spre setările contului
+index-cta = Fă-ți un cont sau intră în cont
+index-account-info = Un { -product-mozilla-account } îți deblochează și accesul la mai multe produse de la { -brand-mozilla } care îți protejează confidențialitatea.
+index-email-input =
+    .label = Introdu adresa ta de e-mail
+
+## InlineRecoveryKeySetup page component
+
+inline-recovery-key-setup-create-error = Ups! Nu am putut crea cheia de recuperare a contului. Te rugăm să încerci mai târziu.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1338,6 +1378,154 @@ legal-terms-of-service-link = Condiții de utilizare a serviciilor
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
 legal-terms-heading = Condiții de utilizare a serviciilor
+
+## PairAuthComplete page - part of the device pairing flow
+
+pair-auth-complete-see-tabs-button = Vezi file de pe dispozitivele sincronizate
+pair-auth-complete-manage-devices-link = Gestionează dispozitivele
+
+## AuthTotp page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+## Users that have set up two-factor authentication land on this page during device pairing.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Introdu codul de autentificare <span>pentru a continua cu setările contului</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Introdu codul de autentificare <span>pentru a continua cu { $serviceName }</span>
+auth-totp-instruction = Deschide aplicația de autentificare și introdu codul de autentificare furnizat.
+auth-totp-input-label = Introdu codul de 6 cifre
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Confirmă
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Necesită cod de autentificare
+
+## WaitForSupp page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Acum este necesară aprobarea <span>de pe celălalt dispozitiv</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-header = Asociere eșuată
+pair-failure-message = Procesul de configurare a fost întrerupt.
+
+## Pair index page
+
+pair-sync-header = Sincronizează { -brand-firefox } pe telefon sau tabletă
+pair-cad-header = Conectează { -brand-firefox } pe alt dispozitiv
+pair-already-have-firefox-paragraph = Ai deja { -brand-firefox } pe telefon sau tabletă?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sincronizează-ți dispozitivul
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Sau descarcă
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scanează ca să descarci { -brand-firefox } pentru mobil sau trimite-ți un <linkExternal>link de descărcare</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Nu acum
+pair-take-your-data-message = Ia cu tine filele, marcajele și parolele oriunde folosești { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Începe
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Cod QR
+
+## PairSuccess - a view which displays  on successful completion of the device pairing process
+
+pair-success-header-2 = Dispozitiv conectat
+pair-success-message-2 = Asociere reușită.
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Confirmă asocierea <span>pentru { $email }</span>
+pair-supp-allow-confirm-button = Confirmă asocierea
+pair-supp-allow-cancel-link = Anulează
+
+## WaitForAuth page - Part of the devide pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be approved from both devices to succeed
+
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Acum este necesară aprobarea <span>de pe celălalt dispozitiv</span>
+
+## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
+
+pair-unsupported-header = Asociere folosind o aplicație
+pair-unsupported-message = Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație { -brand-firefox }.
+
+## ThirdPartyAuthCallback Page
+## This page is called after a user completes the third party authentication flow from Google or Apple.
+
+third-party-auth-callback-message = Te rugăm să aștepți, ești redirecționat(ă) către aplicația autorizată.
+
+## AccountRecoveryConfirmKey page
+
+account-recovery-confirm-key-heading = Introdu cheia de recuperare a contului
+account-recovery-confirm-key-instruction = Cheia recuperează datele de navigare criptate, cum ar fi parolele și marcajele, de pe serverele { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Introdu cheia de recuperare a contului din 32 de caractere
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Sugestia ta de stocare:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Continuă
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Nu găsești cheia de recuperare a contului?
+
+## CompleteResetPassword component
+## User followed a password reset link and is now prompted to create a new password
+
+complete-reset-pw-header-v2 = Creează o parolă nouă
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Parolă setată
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Ne pare rău, a apărut o problemă la setarea parolei
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Folosește cheia de recuperare a contului
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Parola a fost resetată.
+reset-password-complete-banner-message = Nu uita să generezi o cheie nouă de recuperare a contului din setările { -product-mozilla-account } pentru a preveni viitoare probleme la intrarea în cont.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o masă de e-mail după ce intri în cont.
+
+# ConfirmBackupCodeResetPassword page
+
+
+## Confirm Reset Password With Code
+
+confirm-reset-password-with-code-heading = Verifică-ți e-mailul
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Am trimis un cod de confirmare la adresa <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Introdu în 10 minute codul din 8 cifre
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Continuă
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Retrimite codul
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Folosește alt cont
+
+## PasswordResetConfirmTotp Page
+
+confirm-totp-reset-password-header = Resetează-ți parola
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
