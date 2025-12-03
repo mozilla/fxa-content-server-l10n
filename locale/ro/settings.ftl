@@ -1462,6 +1462,16 @@ pair-wait-for-auth-heading-text = Acum este necesară aprobarea <span>de pe cel�
 pair-unsupported-header = Asociere folosind o aplicație
 pair-unsupported-message = Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație { -brand-firefox }.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading-v2 = Creează o parolă pentru sincronizare
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Îți criptează datele. Trebuie să fie diferită de parola contului { -brand-google } sau { -brand-apple }.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1527,9 +1537,156 @@ confirm-reset-password-otp-different-account-link = Folosește alt cont
 
 confirm-totp-reset-password-header = Resetează-ți parola
 
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
+password-reset-recovery-method-header = Resetează-ți parola
+password-reset-recovery-method-subheader = Alege o metodă de recuperare
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Hai să ne asigurăm că tu folosești metodele de recuperare.
+password-reset-recovery-method-phone = Număr de telefon de recuperare
+password-reset-recovery-method-code = Coduri de autentificare de rezervă
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $count } cod rămas
+        [few] { $count } coduri rămase
+       *[other] { $count } de coduri rămase
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = A apărut o problemă la trimiterea unui cod către numărul tău de telefon de recuperare
+password-reset-recovery-method-send-code-error-description = Te rugăm să încerci din nou mai târziu sau să folosești codurile de autentificare de rezervă.
+
+## ResetPasswordRecoveryPhone page
+
+reset-password-recovery-phone-flow-heading = Resetează-ți parola
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Introdu codul de recuperare
+
+## Signin page
+
+signin-code-expired-error = Codul a expirat. Te rugăm să intri din nou în cont.
+signin-account-locked-banner-heading = Resetează-ți parola
+signin-account-locked-banner-description = Ți-am blocat contul pentru a-l proteja de activități suspecte.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Resetează-ți parola ca să intri în cont
+
+## SigninPushCode page
+## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
+
+signin-push-code-instruction = Te rugăm să verifici celelalte dispozitive și să aprobi această autentificare în cont din browserul { -brand-firefox }.
+signin-push-code-did-not-recieve = Nu ai primit notificarea?
+signin-push-code-send-email-link = Trimite codul pe e-mail
+
+## SigninPushCodeConfirmPage
+
+signin-push-code-confirm-instruction = Confirmă intrarea în cont
+signin-push-code-confirm-description = Am depistat o tentativă de intrare în cont de pe următorul dispozitiv. Dacă ai fost tu, te rugăm să aprobi autentificarea în cont
+signin-push-code-confirm-verifying = Se verifică
+signin-push-code-confirm-login = Confirmă intrarea în cont
+signin-push-code-confirm-wasnt-me = Nu am fost eu. Schimbă parola.
+signin-push-code-confirm-login-approved = Intrarea în cont a fost aprobată. Te rugăm să închizi această fereastră.
+signin-push-code-confirm-link-error = Linkul este corupt. Te rugăm să încerci din nou.
+
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+signin-recovery-method-header = Intră în cont
+signin-recovery-method-subheader = Alege o metodă de recuperare
+signin-recovery-method-details = Hai să ne asigurăm că tu folosești metodele de recuperare.
+signin-recovery-method-phone = Număr de telefon de recuperare
+signin-recovery-method-code-v2 = Coduri de autentificare de rezervă
+
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
+
+signin-recovery-code-heading = Intră în cont
+signin-recovery-code-sub-heading = Introdu codul de autentificare de rezervă
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirmă
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ți-ai blocat accesul la cont?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Necesită cod de autentificare de rezervă
+
+## SigninRecoveryPhone page
+
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = A fost trimis prin SMS un cod de 6 cifre la numărul de telefon care se termină în <span>{ $lastFourPhoneDigits }</span>. Codul expiră după 5 minute. Nu distribui acest cod nimănui.
+signin-recovery-phone-invalid-code-error-description = Codul este nevalid sau expirat.
+signin-recovery-phone-invalid-code-error-link = Folosești în schimb coduri de autentificare de rezervă?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Autentificare cu succes. Este posibil să se aplice limite dacă îți folosești iar numărul de telefon de recuperare.
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Îți mulțumim pentru vigilență
+signin-reported-message = Echipa noastră a fost notificată. Raporturi precum acestea ne ajută să ținem departe intrușii.
+
+## SigninTokenCode page
+## Users see this page during the signin process. In this instance, the confirmation code is
+## a 6-digit code that is sent to the user's email address.
+
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Introdu codul de confirmare<span> pentru contul { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Introdu în 5 minute codul trimis la <email>{ $email }</email>.
+signin-token-code-input-label-v2 = Introdu codul de 6 cifre
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Confirmă
+signin-token-code-code-expired = A expirat codul?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Trimite un cod nou pe e-mail.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Necesită cod de confirmare
+signin-token-code-resend-error = Ceva nu a mers bine. Nu s-a putut trimite un cod nou.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o masă de e-mail după ce intri în cont.
+
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Intră în cont
+signin-totp-code-subheader-v2 = Introdu codul de autentificare în doi pași
+signin-totp-code-instruction-v4 = Verifică-ți <strong>aplicația de autentificare</strong> pentru confirmarea intrării în cont.
+signin-totp-code-input-label-v4 = Introdu codul de 6 cifre
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = De ce ți se cere să te autentifici?
+signin-totp-code-aal-banner-content = Ai configurat autentificarea în doi pași în cont, dar nu te-ai conectat încă cu un cod pe acest dispozitiv.
 signin-totp-code-aal-sign-out = Ieși din cont pe acest dispozitiv
 signin-totp-code-aal-sign-out-error = Ne pare rău, a apărut o problemă la ieșirea din cont
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Confirmă
+signin-totp-code-other-account-link = Folosește un alt cont
+signin-totp-code-recovery-code-link = Ai probleme cu introducerea codului?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Necesită cod de autentificare
+
+## ConfirmSignupCode page
+## Users see this page after they have initiated account sign up,
+
+
+# and a confirmation code has been sent to their email address.
+
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Introdu în 5 minute codul trimis la <email>{ $email }</email>.
+
+## Account Signup page
+## This is the second page of the sign up flow, users have already entered their email
+
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Schimbă e-mailul
