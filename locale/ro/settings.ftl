@@ -1291,6 +1291,9 @@ auth-error-125 = Cererea a fost blocată din motive de securitate
 auth-error-129-2 = Ai introdus un număr de telefon nevalid. Te rugăm să îl verifici și să încerci din nou.
 auth-error-138-2 = Sesiune neconfirmată
 auth-error-139 = Adresa de e-mail secundară trebuie să fie diferită de adresa de e-mail a contului
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Această adresă de e-mail este rezervată de alt cont. Încearcă din nou mai târziu sau folosește altă adresă de e-mail.
 auth-error-155 = Jetonul TOTP nu a fost găsit
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Cod de autentificare de rezervă negăsit
@@ -1371,6 +1374,8 @@ cookies-disabled-learn-more = Află mai multe
 index-header = Introdu adresa ta de e-mail
 index-sync-header = Continuă spre { -product-mozilla-account }
 index-sync-subheader = Sincronizează-ți parolele, filele și marcajele oriunde folosești { -brand-firefox }.
+index-relay-header = Creează o mască de e-mail
+index-relay-subheader = Te rugăm să ne dai adresa de e-mail la care vrei să îți redirecționezi mesajele de la adresa de e-mail mascată.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuă cu { $serviceName }
 index-subheader-default = Continuă spre setările contului
@@ -1378,6 +1383,10 @@ index-cta = Fă-ți un cont sau intră în cont
 index-account-info = Un { -product-mozilla-account } îți deblochează și accesul la mai multe produse de la { -brand-mozilla } care îți protejează confidențialitatea.
 index-email-input =
     .label = Introdu adresa ta de e-mail
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Cont șters cu succes
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Mesajul de confirmare pe e-mail tocmai a fost returnat. Ai scris corect adresa?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1388,18 +1397,77 @@ inline-recovery-key-setup-download-subheader = Descarcă și salveaz-o acum
 inline-recovery-key-setup-download-info = Păstrează această cheie într-un loc pe care să îl ții minte — nu vei putea reveni la această pagină mai târziu.
 inline-recovery-key-setup-hint-header = Recomandare de securitate
 
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = Anulează configurarea
+inline-totp-setup-continue-button = Continuă
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Adaugă un plus de securitate contului prin solicitarea de coduri de autentificare de la una dintre aceste <authenticationAppsLink>aplicații de autentificare</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Activează autentificarea în doi pași <span>pentru a continua cu setările contului</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Activează autentificarea în doi pași <span>pentru a continua cu { $serviceName }</span>
+inline-totp-setup-ready-button = Gata
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Scanează codul de autentificare <span>pentru a continua cu { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Introdu manual codul <span>pentru a continua cu { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Scanează codul de autentificare <span>pentru a continua cu setările contului</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Introdu manual codul <span>pentru a continua cu setările contului</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Tastează această cheie secretă în aplicația de autentificare. <toggleToQRButton>Scanei codul QR în schimb?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Scanează codul QR în aplicația de autentificare și apoi introdu codul de autentificare furnizat. <toggleToManualModeButton>Nu poți scana codul?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Când ai terminat, va începe să genereze coduri de autentificare pe care să le introduci.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Cod de autentificare
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Necesită cod de autentificare
+tfa-qr-code-alt = Folosește codul { $code } și configurează autentificarea în doi pași în aplicațiile acceptate.
+inline-totp-setup-page-title = Autentificare în doi pași
+
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Mențiuni legale
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-terms-of-service-link = Condiții de utilizare a serviciilor
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Notificare privind confidențialitatea
+
+## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
+
+legal-privacy-heading = Notificare privind confidențialitatea
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
 legal-terms-heading = Condiții de utilizare a serviciilor
 
+## AuthAllow page - Part of the device pairing flow
+
+pair-auth-allow-heading-text = Tocmai te-ai autentificat în { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Da, aprobă dispozitivul
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Dacă nu ai fost tu, <link>schimbă-ți parola</link>
+
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Dispozitiv conectat
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Acum te sincronizezi cu: { $deviceFamily } pe { $deviceOS }
+pair-auth-complete-sync-benefits-text = Acum poți accesa filele deschise, parolele și marcajele pe toate dispozitivele tale.
 pair-auth-complete-see-tabs-button = Vezi file de pe dispozitivele sincronizate
 pair-auth-complete-manage-devices-link = Gestionează dispozitivele
 
@@ -1530,7 +1598,7 @@ reset-password-complete-banner-message = Nu uita să generezi o cheie nouă de r
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-complete-reset-password-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o masă de e-mail după ce intri în cont.
+complete-reset-password-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o mască de e-mail după ce intri în cont.
 
 # ConfirmBackupCodeResetPassword page
 
@@ -1555,6 +1623,28 @@ confirm-reset-password-otp-different-account-link = Folosește alt cont
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Resetează-ți parola
+confirm-totp-reset-password-subheader-v2 = Introdu codul de autentificare în doi pași
+confirm-totp-reset-password-instruction-v2 = Verifică-ți <strong>aplicația de autentificare</strong> pentru resetarea parolei.
+confirm-totp-reset-password-trouble-code = Ai probleme cu introducerea codului?
+confirm-totp-reset-password-confirm-button = Confirmă
+confirm-totp-reset-password-input-label-v2 = Introdu codul de 6 cifre
+confirm-totp-reset-password-use-different-account = Folosește alt cont
+
+## ResetPassword start page
+
+password-reset-flow-heading = Resetează-ți parola
+password-reset-body-2 =
+    Te vom întreba câteva chestii pe care numai tu le știi ca să îți menținem contul
+    în siguranță.
+password-reset-email-input =
+    .label = Introdu adresa de e-mail
+password-reset-submit-button-2 = Continuă
+
+## ResetPasswordConfirmed
+
+reset-password-complete-header = Parola a fost resetată
+# $serviceName is a product name such as Monitor, Relay
+reset-password-confirmed-cta = Continuă cu { $serviceName }
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
@@ -1584,6 +1674,32 @@ password-reset-recovery-method-send-code-error-description = Te rugăm să înce
 reset-password-recovery-phone-flow-heading = Resetează-ți parola
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Introdu codul de recuperare
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Ți-ai blocat accesul la cont?
+reset-password-recovery-phone-send-code-error-heading = A apărut o problemă la trimiterea unui cod
+reset-password-recovery-phone-code-verification-error-heading = A apărut o problemă la verificarea codului
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Te rugăm să încerci mai târziu.
+reset-password-recovery-phone-invalid-code-error-description = Codul este nevalid sau expirat.
+reset-password-recovery-phone-invalid-code-error-link = Folosești în schimb coduri de autentificare de rezervă?
+reset-password-with-recovery-key-verified-page-title = Parolă resetată cu succes
+reset-password-complete-new-password-saved = Parolă nouă salvată!
+reset-password-complete-recovery-key-created = Cheia nouă de recuperare a contului a fost creată. Descarc-o și salveaz-o acum.
+reset-password-complete-recovery-key-download-info =
+    Cheia este esențială pentru
+    recuperarea datelor în caz că uiți parola. <b>Descarc-o acum și salveaz-o în siguranță
+    pentru că nu vei mai avea acces mai târziu la această pagină.</b>
+
+## CompleteSignin component
+
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Eroare:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Se validează autentificarea în cont…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Eroare de confirmare
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Link de confirmare expirat
 
 ## Signin page
 
@@ -1627,13 +1743,23 @@ signin-recovery-method-code-v2 = Coduri de autentificare de rezervă
 
 signin-recovery-code-heading = Intră în cont
 signin-recovery-code-sub-heading = Introdu codul de autentificare de rezervă
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Introdu unul dintre codurile de unică folosință pe care le-ai salvat când ai configurat autentificarea în doi pași.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Introdu codul de 10 caractere
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmă
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Folosește numărul de telefon de recuperare
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Ți-ai blocat accesul la cont?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Necesită cod de autentificare de rezervă
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = A apărut o problemă la trimiterea unui cod către numărul tău de telefon de recuperare
 
 ## SigninRecoveryPhone page
 
@@ -1673,7 +1799,7 @@ signin-token-code-resend-error = Ceva nu a mers bine. Nu s-a putut trimite un co
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-token-code-instruction-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o masă de e-mail după ce intri în cont.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o mască de e-mail după ce intri în cont.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1694,6 +1820,20 @@ signin-totp-code-other-account-link = Folosește un alt cont
 signin-totp-code-recovery-code-link = Ai probleme cu introducerea codului?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Necesită cod de autentificare
+
+## Signin Unblock Page
+## Page shown when signin has been blocked by rate limiting (too many requests)
+
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Necesită cod de autorizare
+signin-unblock-code-incorrect-length = Codul de autorizare trebuie să conțină 8 caractere
+signin-unblock-code-incorrect-format-2 = Codul de autorizare poate conține doar litere și/sau cifre
+signin-unblock-resend-code-button = Nu e în căsuța poștală sau în dosarul de spam? Retrimite
+signin-unblock-support-link = De ce s-a întâmplat asta?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o mască de e-mail după ce intri în cont.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
