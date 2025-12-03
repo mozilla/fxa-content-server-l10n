@@ -1266,6 +1266,9 @@ terms-privacy-agreement-default-2 = Prin continuare, ești de acord cu <mozillaA
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = sau
+# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
+# This could also be translated as "Sign in with the following" or "Sign in with the below".
+third-party-auth-options-sign-in-with = Intră în cont cu
 continue-with-google-button = Continuă cu { -brand-google }
 continue-with-apple-button = Continuă cu { -brand-apple }
 
@@ -1308,11 +1311,22 @@ auth-error-1003 = Stocarea locală sau cookie-urile sunt încă dezactivate
 auth-error-1008 = Noua ta parolă trebuie să fie diferită
 auth-error-1010 = Este necesară o parolă validă
 auth-error-1011 = Este necesară o adresă de e-mail validă
+auth-error-1018 = Mesajul de confirmare pe e-mail tocmai a fost returnat. Ai scris corect adresa?
+auth-error-1020 = Ai scris greșit adresa de e-mail? firefox.com nu e un serviciu valid de poștă electronică
 auth-error-1031 = Trebuie să introduci vârsta ca să îți faci cont
 auth-error-1032 = Trebuie să introduci o vârstă validă ca să îți faci cont
 auth-error-1054 = Cod de autentificare în doi pași nevalid
 auth-error-1056 = Cod de autentificare de rezervă nevalid
 auth-error-1062 = Redirecționare nevalidă
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Ai scris greșit adresa de e-mail? { $domain } nu e un serviciu valid de poștă electronică
+auth-error-1066 = Măștile de e-mail nu pot fi folosite la creat conturi.
+auth-error-1067 = Ai scris greșit adresa de e-mail?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Număr care se termină în { $lastFourPhoneNumber }
 oauth-error-1000 = Ceva nu a mers. Închide fila și încearcă din nou.
 
 ## Connect Another Device page
@@ -1368,6 +1382,11 @@ index-email-input =
 ## InlineRecoveryKeySetup page component
 
 inline-recovery-key-setup-create-error = Ups! Nu am putut crea cheia de recuperare a contului. Te rugăm să încerci mai târziu.
+inline-recovery-key-setup-recovery-created = Cheia de recuperare a contului a fost creată
+inline-recovery-key-setup-download-header = Securizează-ți contul
+inline-recovery-key-setup-download-subheader = Descarcă și salveaz-o acum
+inline-recovery-key-setup-download-info = Păstrează această cheie într-un loc pe care să îl ții minte — nu vei putea reveni la această pagină mai târziu.
+inline-recovery-key-setup-hint-header = Recomandare de securitate
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1684,9 +1703,26 @@ signin-totp-code-required-error = Necesită cod de autentificare
 
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction-v2 = Introdu în 5 minute codul trimis la <email>{ $email }</email>.
+confirm-signup-code-sync-button = Începe sincronizarea
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Creează o parolă
+signup-sync-info = Sincronizează-ți parolele, marcajele și multe altele oriunde folosești { -brand-firefox }.
+signup-sync-info-with-payment = Sincronizează-ți parolele, metodele de plată, marcajele și multe altele oriunde folosești { -brand-firefox }.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Schimbă e-mailul
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
+signup-confirmed-sync-header = Sincronizarea este activată
+signup-confirmed-sync-success-banner = { -product-mozilla-account } confirmat
+signup-confirmed-sync-button = Începe să navighezi
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Parolele, metodele de plată, adresele, marcajele, istoricul și multe altele se pot sincroniza oriunde folosești { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Parolele, adresele, marcajele, istoricul și multe altele se pot sincroniza oriunde folosești { -brand-firefox }.
+signup-confirmed-sync-add-device-link = Adaugă alt dispozitiv
+signup-confirmed-sync-manage-sync-button = Gestionează sincronizarea
+signup-confirmed-sync-set-password-success-banner = Parola de sincronizare a fost creată
