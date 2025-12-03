@@ -913,6 +913,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Se sincronizează datele { -brand-firefox }
+delete-account-product-firefox-addons = Suplimente { -brand-firefox }
 delete-account-acknowledge = Te rugăm să iei la cunoștință că prin ștergerea contului:
 delete-account-chk-box-2 =
     .label = Este posibil să pierzi informațiile și funcțiile salvate în cadrul produselor { -brand-mozilla }
@@ -934,16 +935,91 @@ display-name-input =
     .label = Introdu numele afișat
 submit-display-name = Salvează
 cancel-display-name = Anulează
+display-name-update-error-2 = A apărut o problemă la actualizarea numelui tău afișat
+display-name-success-alert-2 = Nume afișat actualizat
+
+## Recent account activity
+## All strings except title indicate an event that occurred from the user's account
+## These are displayed as a list with the date when the event occured
+
+recent-activity-title = Activitate recentă în cont
+recent-activity-account-create-v2 = Cont creat
+recent-activity-account-disable-v2 = Cont dezactivat
+recent-activity-account-enable-v2 = Cont activat
+recent-activity-account-login-v2 = Autentificarea în cont a fost inițiată
+recent-activity-account-reset-v2 = Resetarea parolei a fost inițiată
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Respingerile de e-mail au fost eliminate
+recent-activity-account-login-failure = Încercarea de autentificare în cont a eșuat
+recent-activity-account-two-factor-added = Autentificare în doi pași activată
+recent-activity-account-two-factor-requested = Autentificare în doi pași solicitată
+recent-activity-account-two-factor-failure = Autentificare în doi pași a eșuat
+recent-activity-account-two-factor-success = Autentificare în doi pași reușită
+recent-activity-account-two-factor-removed = Autentificarea în doi pași a fost eliminată
+recent-activity-account-password-reset-requested = Contul a solicitat resetarea parolei
+recent-activity-account-password-reset-success = Parolă cont resetată cu succes
+recent-activity-account-recovery-key-added = Cheie de recuperare a contului activată
+recent-activity-account-recovery-key-verification-failure = Verificarea cheii de recuperare a contului a eșuat
+recent-activity-account-recovery-key-verification-success = Cheie de recuperare a contului verificată cu succes
+recent-activity-account-recovery-key-removed = Cheie de recuperare a contului eliminată
+recent-activity-account-password-added = Parolă nouă adăugată
+recent-activity-account-password-changed = Parolă modificată
+recent-activity-account-secondary-email-added = Adresă de e-mail secundară adăugată
+recent-activity-account-secondary-email-removed = Adresă de e-mail secundară eliminată
+recent-activity-account-emails-swapped = Adresele de e-mail principală și secundară au fost schimbate între ele
+recent-activity-session-destroy = Deconectat(ă) de la sesiune
+recent-activity-account-recovery-phone-send-code = Cod de număr de telefon de recuperare trimis
+recent-activity-account-recovery-phone-setup-complete = Configurare număr de telefon de recuperare finalizată
+recent-activity-account-recovery-phone-signin-complete = Autentificare cu număr de telefon de recuperare finalizată
+recent-activity-account-recovery-phone-signin-failed = Autentificarea nu numărul de telefon de recuperare a eșuat
+recent-activity-account-recovery-phone-removed = Număr de telefon de recuperare eliminat
+recent-activity-account-recovery-codes-replaced = Coduri de recuperare înlocuite
+recent-activity-account-recovery-codes-created = Codurile de recuperare au fost create
+recent-activity-account-recovery-codes-signin-complete = Autentificare cu coduri de recuperare finalizată
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Alte activități din cont
+
+## PageRecoveryKeyCreate
+
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Cheie de recuperare a contului
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Înapoi la setări
+
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+recovery-phone-remove-header = Elimină numărul de telefon de recuperare
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Va elimina <strong>{ $formattedFullPhoneNumber }</strong> ca număr de telefon de recuperare.
+settings-recovery-phone-remove-recommend = Îți recomandăm să păstrezi această metodă pentru că e mai ușoară decât să salvezi coduri de autentificare de rezervă.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Dacă îl ștergi, asigură-te că mai ai codurile de autentificare de rezervă salvate. <linkExternal>Compară metodele de recuperare</linkExternal>
+settings-recovery-phone-remove-button = Elimină numărul de telefon
+settings-recovery-phone-remove-cancel = Anulează
+settings-recovery-phone-remove-success = Număr de telefon de recuperare eliminat
+
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = Adaugă un număr de telefon de recuperare
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Pasul 1 din 2
+add-secondary-email-error-2 = A apărut o problemă la crearea acestui e-mail
 add-secondary-email-page-title =
     .title = E-mail secundar
 add-secondary-email-enter-address =
     .label = Introdu adresa de e-mail
 add-secondary-email-cancel-button = Anulează
 add-secondary-email-save-button = Salvează
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Măștile de e-mail nu pot fi folosite ca adresă de e-mail secundară
 
 ## Verify secondary email page
 
