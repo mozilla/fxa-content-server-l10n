@@ -213,8 +213,21 @@ subscription-charges-invoice-number = <b>Broj računa:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Broj računa: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
+subscription-charges-prorated-price = Proporcionalni udio cijene
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Proporcionalni udio cijene: { $remainingAmountTotal }
+subscription-charges-list-price = Cijena prema cjeniku
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Cijena prema cjeniku: { $offeringPrice }
+subscription-charges-subtotal = <b>Podzbroj</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Podzbroj: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Jednokratni popust
+subscription-charges-one-time-discount-plaintext = Jednokratni popust: { $invoiceDiscountAmount }
 
 ##
 
