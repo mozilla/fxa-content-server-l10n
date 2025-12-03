@@ -452,3 +452,5 @@ stay-subscribed-error-expired = Dette tilbudet er utløpt.
 stay-subscribed-error-discount-used = Rabattkoden er allerede brukt.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Denne rabatten er kun tilgjengelig for nåværende { $productTitle }-abonnenter.
+stay-subscribed-error-still-active = Ditt abonnement på { $productTitle } er fortsatt aktivt.
+stay-subscribed-error-general = Det oppsto et problem med å fornye abonnementet ditt.

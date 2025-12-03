@@ -1043,6 +1043,7 @@ verify-secondary-email-please-enter-code-2 = Skriv inn bekreftelseskoden som ble
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } lagt til
+verify-secondary-email-resend-code-button = Send bekreftelseskoden på nytt
 
 ##
 
