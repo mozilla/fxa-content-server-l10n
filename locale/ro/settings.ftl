@@ -915,6 +915,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Se sincronizează datele { -brand-firefox }
 delete-account-product-firefox-addons = Suplimente { -brand-firefox }
 delete-account-acknowledge = Te rugăm să iei la cunoștință că prin ștergerea contului:
+delete-account-chk-box-1-v4 =
+    .label = Orice abonamente cu plată pe care le ai vor fi anulate
 delete-account-chk-box-2 =
     .label = Este posibil să pierzi informațiile și funcțiile salvate în cadrul produselor { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -977,6 +979,9 @@ recent-activity-account-recovery-phone-removed = Număr de telefon de recuperare
 recent-activity-account-recovery-codes-replaced = Coduri de recuperare înlocuite
 recent-activity-account-recovery-codes-created = Codurile de recuperare au fost create
 recent-activity-account-recovery-codes-signin-complete = Autentificare cu coduri de recuperare finalizată
+recent-activity-password-reset-otp-sent = Codul de confirmare a resetării parolei a fost trimis
+recent-activity-password-reset-otp-verified = Codul de confirmare a resetării parolei a fost verificat
+recent-activity-must-reset-password = Necesită resetarea parolei
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Alte activități din cont
 
@@ -1005,6 +1010,10 @@ settings-recovery-phone-remove-success = Număr de telefon de recuperare elimina
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Adaugă un număr de telefon de recuperare
+page-change-recovery-phone = Schimbă numărul de telefon de recuperare
+page-setup-recovery-phone-back-button-title = Înapoi la setări
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Schimbă numărul de telefon
 
 ## Add secondary email page
 
@@ -1029,11 +1038,29 @@ verify-secondary-email-page-title =
 verify-secondary-email-verification-code-2 =
     .label = Introdu codul de confirmare
 verify-secondary-email-cancel-button = Anulează
+verify-secondary-email-verify-button-2 = Confirmă
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Te rugăm să introduci în 5 minute codul de confirmare trimis la <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } adăugată cu succes
 
 ##
 
 # Link to delete account on main Settings page
 delete-account-link = Șterge contul
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Autentificare reușită. { -product-mozilla-account } și datele vor rămâne active.
+
+## Product promotion
+
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+# Links out to the Monitor site
+product-promo-monitor-cta = Obține o scanare gratuită
 
 ## Profile section
 
@@ -1045,6 +1072,14 @@ profile-display-name =
 profile-primary-email =
     .header = E-mail principal
 
+## Progress bar
+
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Pasul { $currentStep } din { $numberOfSteps }.
+
 ## Security section of Setting
 
 security-heading = Securitate
@@ -1054,6 +1089,53 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Creată în { $date }
+security-not-set = Nu este setat
+security-action-create = Creează
+security-set-password = Setează o parolă pentru sincronizare și folosirea anumitor funcții de securitate ale contului.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Vezi activitatea recentă din cont
+signout-sync-header = Sesiune expirată
+signout-sync-session-expired = Ne pare rău, ceva nu a mers. Te rugăm să ieși din cont, din meniul browserului, și să încerci din nou.
+
+## SubRow component
+
+tfa-row-backup-codes-title = Coduri de autentificare de rezervă
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nu sunt disponibile coduri
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } cod rămas
+        [few] { $numCodesAvailable } coduri rămase
+       *[other] { $numCodesAvailable } de coduri rămase
+    }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Creează coduri noi
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Adaugă
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Este cea mai sigură metodă de recuperare dacă nu îți poți folosi dispozitivul mobil sau aplicația de autentificare.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Număr de telefon de recuperare
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Nu a fost adăugat niciun număr de telefon
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Modifică
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Adaugă
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Elimină
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Elimină numărul de telefon de recuperare
+tfa-row-backup-phone-delete-restriction-v2 = Dacă vrei să elimini numărul de telefon de recuperare, adaugă mai întâi coduri de autentificare de rezervă sau dezactivează autentificarea în doi pași ca să eviți blocarea accesului la cont.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Află despre riscul de schimbare a cartelei SIM
 
 ## Switch component
 
@@ -1061,6 +1143,10 @@ security-password-created-date = Creată în { $date }
 switch-turn-off = Oprește
 # Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
 switch-turn-on = Pornește
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Se trimite…
+switch-is-on = pornit
+switch-is-off = oprit
 
 ## Sub-section row Defaults
 
@@ -1071,12 +1157,22 @@ row-defaults-status = Niciunul
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Cheie de recuperare a contului
+rk-enabled = Activat
 rk-not-set = Nu este setată
 rk-action-create = Creează
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Modifică
 rk-action-remove = Elimină
+rk-key-removed-2 = Cheie de recuperare a contului eliminată
 rk-cannot-remove-key = Cheia de recuperare a contului nu a putut fi eliminată.
 rk-refresh-key-1 = Reîmprospătează cheia de recuperare a contului
 rk-content-explain = Restaurează-ți informațiile când uiți parola.
+rk-cannot-verify-session-4 = Ne pare rău, a apărut o problemă la confirmarea sesiunii
+rk-remove-modal-heading-1 = Elimini cheia de recuperare a contului?
+rk-remove-modal-content-1 =
+    Dacă îți resetezi parola, nu vei mai putea
+    utiliza cheia de recuperare a contului ca să îți accesezi datele. Acțiunea nu este reversibilă.
 
 ## Secondary email sub-section on main Settings page
 
