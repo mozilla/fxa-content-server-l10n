@@ -338,7 +338,7 @@ signin-link-damaged-header = Link de confirmare corupt
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Link corupt
 # The user followed a link received by email, but the link was damaged.
-reset-pwd-link-damaged-message = Linkul pe care ai dat clic avea caractere lipsă și este posibil să fi fost deteriorat de către clientul de e-mail. Copiază adresa cu grijă și încearcă din nou.
+reset-pwd-link-damaged-message = Linkul pe care ai dat clic avea caractere lipsă și este posibil să fi fost corupt de către clientul de e-mail. Copiază adresa cu grijă și încearcă din nou.
 
 ## LinkExpired component
 
@@ -1602,6 +1602,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } va încerca să te tr
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Introdu codul de 10 caractere
+confirm-backup-code-reset-password-confirm-button = Confirmă
+confirm-backup-code-reset-password-subheader = Introdu codul de autentificare de rezervă
+confirm-backup-code-reset-password-instruction = Introdu unul dintre codurile de unică folosință pe care le-ai salvat când ai configurat autentificarea în doi pași.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Ți-ai blocat accesul la cont?
 
 ## Confirm Reset Password With Code
 
@@ -1674,6 +1680,13 @@ password-reset-recovery-method-send-code-error-description = Te rugăm să înce
 reset-password-recovery-phone-flow-heading = Resetează-ți parola
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Introdu codul de recuperare
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = A fost trimis prin SMS un cod de 6 cifre la numărul de telefon care se termină în <span>{ $lastFourPhoneDigits }</span>. Codul expiră după 5 minute. Nu distribui acest cod nimănui.
+reset-password-recovery-phone-input-label = Introdu codul de 6 cifre
+reset-password-recovery-phone-code-submit-button = Confirmă
+reset-password-recovery-phone-resend-code-button = Retrimite codul
+reset-password-recovery-phone-resend-success = Cod trimis
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 reset-password-recovery-phone-locked-out-link = Ți-ai blocat accesul la cont?
 reset-password-recovery-phone-send-code-error-heading = A apărut o problemă la trimiterea unui cod
@@ -1700,18 +1713,55 @@ validating-signin = Se validează autentificarea în cont…
 complete-signin-error-header = Eroare de confirmare
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Link de confirmare expirat
+signin-link-expired-message-2 = Linkul pe care ai dat clic a expirat sau a fost deja utilizat.
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Introdu parola <span> pentru contul { -product-mozilla-account }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Continuă cu { $serviceName }
+signin-subheader-without-logo-default = Continuă spre setările contului
+signin-button = Intră în cont
+signin-header = Intră în cont
+signin-use-a-different-account-link = Folosește alt cont
+signin-forgot-password-link = Ți-ai uitat parola?
+signin-password-button-label = Parolă
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o mască de e-mail după ce intri în cont.
 signin-code-expired-error = Codul a expirat. Te rugăm să intri din nou în cont.
 signin-account-locked-banner-heading = Resetează-ți parola
 signin-account-locked-banner-description = Ți-am blocat contul pentru a-l proteja de activități suspecte.
 # This link points to https://accounts.firefox.com/reset_password
 signin-account-locked-banner-link = Resetează-ți parola ca să intri în cont
 
+## ReportSignin Page
+## When users receive an "Is this you signing in?" email with an unblock code,
+## they can click "report it to us" if they did not attempt to sign in.
+## This will be the page shown to users to block the sign in and report it.
+
+report-signin-link-damaged-body = Linkul pe care ai dat clic avea caractere lipsă și este posibil să fi fost corupt de către clientul de e-mail. Copiază adresa cu grijă și încearcă din nou.
+report-signin-header = Raportezi autentificarea neautorizată?
+report-signin-body = Ai primit un mesaj pe e-mail cu privire la o tentativă de acces la cont. Vrei să raportezi activitatea ca suspicioasă?
+report-signin-submit-button = Raportează activitatea
+report-signin-support-link = De ce s-a întâmplat asta?
+report-signin-error = Ne pare rău, a apărut o problemă la trimiterea raportului.
+signin-bounced-header = Ne pare rău. Ți-am blocat contul.
+# $email (string) - The user's email.
+signin-bounced-message = Mesajul de confirmare trimis pe e-mail la { $email } a fost returnat și ți-am blocat contul pentru a-ți proteja datele { -brand-firefox }.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Dacă este o adresă de e-mail validă, <linkExternal>anunță-ne</linkExternal> și te putem ajuta să-ți deblochezi contul.
+signin-bounced-create-new-account = Nu mai deții adresa de e-mail? Creează un cont nou
+back = Înapoi
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Verifică această autentificare în cont <span>pentru a continua cu setările contului</span>
+signin-push-code-heading-w-custom-service = Verifică această autentificare în cont <span>pentru a continua cu { $serviceName }</span>
 signin-push-code-instruction = Te rugăm să verifici celelalte dispozitive și să aprobi această autentificare în cont din browserul { -brand-firefox }.
 signin-push-code-did-not-recieve = Nu ai primit notificarea?
 signin-push-code-send-email-link = Trimite codul pe e-mail
@@ -1735,6 +1785,9 @@ signin-recovery-method-subheader = Alege o metodă de recuperare
 signin-recovery-method-details = Hai să ne asigurăm că tu folosești metodele de recuperare.
 signin-recovery-method-phone = Număr de telefon de recuperare
 signin-recovery-method-code-v2 = Coduri de autentificare de rezervă
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = A apărut o problemă la trimiterea unui cod către numărul tău de telefon de recuperare
+signin-recovery-method-send-code-error-description = Te rugăm să încerci din nou mai târziu sau să folosești codurile de autentificare de rezervă.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1760,12 +1813,17 @@ signin-recovery-code-required-error = Necesită cod de autentificare de rezervă
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = A apărut o problemă la trimiterea unui cod către numărul tău de telefon de recuperare
+signin-recovery-code-use-phone-failure-description = Te rugăm să încerci mai târziu.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Intră în cont
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Introdu codul de recuperare
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 signin-recovery-phone-instruction-v3 = A fost trimis prin SMS un cod de 6 cifre la numărul de telefon care se termină în <span>{ $lastFourPhoneDigits }</span>. Codul expiră după 5 minute. Nu distribui acest cod nimănui.
+signin-recovery-phone-input-label = Introdu codul de 6 cifre
 signin-recovery-phone-invalid-code-error-description = Codul este nevalid sau expirat.
 signin-recovery-phone-invalid-code-error-link = Folosești în schimb coduri de autentificare de rezervă?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
@@ -1820,10 +1878,19 @@ signin-totp-code-other-account-link = Folosește un alt cont
 signin-totp-code-recovery-code-link = Ai probleme cu introducerea codului?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Necesită cod de autentificare
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o mască de e-mail după ce intri în cont.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Autorizează această autentificare
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Verifică-ți căsuța de e-mail pentru codul de autorizare trimis către { $email }.
+signin-unblock-code-input = Introdu codul de autorizare
+signin-unblock-submit-button = Continuă
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Necesită cod de autorizare
 signin-unblock-code-incorrect-length = Codul de autorizare trebuie să conțină 8 caractere
@@ -1841,6 +1908,12 @@ signin-unblock-desktop-relay = { -brand-firefox } va încerca să te trimită î
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Introdu codul de confirmare
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Introdu codul de confirmare <span>pentru contul { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction-v2 = Introdu în 5 minute codul trimis la <email>{ $email }</email>.
 confirm-signup-code-sync-button = Începe sincronizarea

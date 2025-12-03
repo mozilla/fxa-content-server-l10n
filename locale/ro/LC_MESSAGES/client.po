@@ -934,7 +934,7 @@ msgstr "Link de resetare a parolei corupt"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Linkul pe care ai dat clic avea caractere lipsă și este posibil să fi fost deteriorat de către clientul de e-mail. Copiază adresa cu grijă și încearcă din nou."
+msgstr "Linkul pe care ai dat clic avea caractere lipsă și este posibil să fi fost corupt de către clientul de e-mail. Copiază adresa cu grijă și încearcă din nou."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
