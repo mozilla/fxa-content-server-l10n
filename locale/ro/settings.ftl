@@ -762,6 +762,21 @@ modal-default-confirm-button = Confirmă
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Introdu codul de confirmare
+modal-mfa-protected-subtitle = Ajută-ne să ne asigurăm că tu ești cel/cea care modifici informațiile contului
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Introdu codul trimis la <email>{ $email }</email> în { $expirationTime } minut
+        [few] Introdu codul trimis la <email>{ $email }</email> în { $expirationTime } minute
+       *[other] Introdu codul trimis la <email>{ $email }</email> în { $expirationTime } de minute
+    }
+modal-mfa-protected-input-label = Introdu codul de 6 cifre
+modal-mfa-protected-cancel-button = Anulează
 modal-mfa-protected-confirm-button = Confirmă
 modal-mfa-protected-code-expired = Cod expirat?
 # Link to resend a new code to the user's email.
@@ -863,6 +878,9 @@ pw-change-header =
 pw-8-chars = Cel puțin 8 caractere
 pw-not-email = Nu adresa ta de e-mail
 pw-change-must-match = Noua parolă să se potrivească cu confirmarea
+pw-commonly-used = Nu o parolă utilizată frecvent
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Rămâi în siguranță — nu reutiliza parolele. Vezi mai multe ponturi despre <linkExternal>cum să creezi parole puternice</linkExternal>.
 pw-change-cancel-button = Anulează
 pw-change-save-button = Salvează
 pw-change-forgot-password-link = Ți-ai uitat parola?
@@ -894,6 +912,7 @@ delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Se sincronizează datele { -brand-firefox }
 delete-account-acknowledge = Te rugăm să iei la cunoștință că prin ștergerea contului:
 delete-account-chk-box-2 =
     .label = Este posibil să pierzi informațiile și funcțiile salvate în cadrul produselor { -brand-mozilla }
