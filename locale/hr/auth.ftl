@@ -228,6 +228,27 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Podzbroj: { $invoiceSubtotal
 
 subscription-charges-one-time-discount = Jednokratni popust
 subscription-charges-one-time-discount-plaintext = Jednokratni popust: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] Popust za { $discountDuration } mjesec
+        [few] Popust za { $discountDuration } mjeseca
+       *[other] Popust za { $discountDuration } mjeseci
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+       *[other] Popust za { $discountDuration } mjeseca: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Popust
+subscription-charges-discount-plaintext = Popust: { $invoiceDiscountAmount }
+subscription-charges-taxes = Porezi i naknade
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Porezi i naknade: { $invoiceTaxAmount }
+subscription-charges-total = <b>Ukupno</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Ukupno: { $invoiceTotal }
+subscription-charges-amount-paid = <b>Plaćeni iznos</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Plaćeni iznos: { $invoiceAmountDue }
 
 ##
 
@@ -239,6 +260,11 @@ subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku
 subscriptionSupportContact = Hvala ti pretplati na { $productName }. Ako imaš pitanja o svojoj pretplati ili ako trebaš više informacija o { $productName }, <a data-l10n-name="subscriptionSupportUrl">kontaktiraj nas</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Hvala ti pretplati na { $productName }. Ako imaš pitanja o svojoj pretplati ili ako trebaš više informacija o { $productName }, kontaktiraj nas:
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Upravljaj svojom pretplatom:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontaktiraj podršku</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Kontaktiraj podršku:
 subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Ovdje</a> možeš provjeriti jesu li tvoj način plaćanja i podaci o računu aktualni.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Ovdje možeš provjeriti jesu li tvoj način plaćanja i podaci o računu aktualni:
@@ -248,6 +274,9 @@ subscriptionUpdateBillingTry-plaintext = Tijekom sljedećih nekoliko dana ćemo 
 subscriptionUpdatePayment = Za sprečavanje prekida korištenja usluge <a data-l10n-name="updateBillingUrl">aktualiziraj podatke o plaćanju</a> što je prije:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }„Podrška”</a>.
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške: { $supportUrl }
@@ -276,6 +305,7 @@ location-state-country = { $stateCode }, { $country } (procijenjeno)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (procijenjeno)
+view-invoice-link-action = Prikaži račun
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -428,6 +458,7 @@ postAddRecoveryPhone-how-protect = Kako ovo štiti tvoj račun
 postAddRecoveryPhone-how-protect-plaintext = Kako ovo štiti tvoj račun:
 postAddRecoveryPhone-enabled-device = Aktivirao/la si ga s uređaja:
 postAddRecoveryPhone-action = Upravljaj računom
+postAddTwoStepAuthentication-preview = Tvoj je račun zaštićen
 postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikaciju
 postAddTwoStepAuthentication-action = Upravljaj računom
 postChangeAccountRecovery-subject = Ključ za obnavljanje računa promijenjen
@@ -446,6 +477,9 @@ postChangeRecoveryPhone-preview = Račun je zaštićen dvofaktorskom autentifika
 postChangeRecoveryPhone-title = Promijenio/la si telefonski broj za obnavljanje
 postChangeRecoveryPhone-description = Sada imaš novi telefonski broj za obnavljanje. Tvoj prethodni telefonski broj je izbrisan.
 postChangeRecoveryPhone-requested-device = Zatražio/la si to s uređaja:
+postChangeTwoStepAuthentication-action = Upravljaj računom
+postChangeTwoStepAuthentication-how-protects-link = Kako ovo štiti tvoj račun
+postChangeTwoStepAuthentication-how-protects-plaintext = Kako ovo štiti tvoj račun:
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Kod je korišten s uređaja:
@@ -617,6 +651,10 @@ subscriptionUpgrade-title = Hvala na nadogradnji!
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-subscription-next-bill-change = Cijena tvoje pretplate će se promijeniti u sljedećem računu.
+subscriptionUpgrade-content-old-price-day = Prethodna cijena je bila { $paymentAmountOld } na dan.
+subscriptionUpgrade-content-old-price-week = Prethodna cijena je bila { $paymentAmountOld } na tjedan.
+subscriptionUpgrade-content-old-price-month = Prethodna cijena je bila { $paymentAmountOld } na mjesec.
 subscriptionUpgrade-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
 unblockCode-title = Je li ovo tvoja prijava?
 unblockCode-prompt = Ako da, ovo je potrebni autorizacijski kôd:
