@@ -1836,6 +1836,10 @@ signin-recovery-phone-resend-code-button = Retrimite codul
 signin-recovery-phone-resend-success = Cod trimis
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Ți-ai blocat accesul la cont?
+signin-recovery-phone-send-code-error-heading = A apărut o problemă la trimiterea unui cod
+signin-recovery-phone-code-verification-error-heading = A apărut o problemă la verificarea codului
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Te rugăm să încerci mai târziu.
 signin-recovery-phone-invalid-code-error-description = Codul este nevalid sau expirat.
 signin-recovery-phone-invalid-code-error-link = Folosești în schimb coduri de autentificare de rezervă?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
@@ -1935,11 +1939,19 @@ confirm-signup-code-sync-button = Începe sincronizarea
 confirm-signup-code-code-expired = A expirat codul?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Trimite codul nou prin e-mail.
+confirm-signup-code-success-alert = Cont confirmat cu succes
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Necesită cod de confirmare
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o mască de e-mail după ce intri în cont.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading-v2 = Creează o parolă
+signup-relay-info = Necesită parolă pentru gestionarea în siguranță a adreselor de e-mail mascate și pentru accesarea instrumentelor de securitate { -brand-mozilla }.
 signup-sync-info = Sincronizează-ți parolele, marcajele și multe altele oriunde folosești { -brand-firefox }.
 signup-sync-info-with-payment = Sincronizează-ți parolele, metodele de plată, marcajele și multe altele oriunde folosești { -brand-firefox }.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
