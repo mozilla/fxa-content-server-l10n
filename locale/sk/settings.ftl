@@ -1053,6 +1053,7 @@ verify-secondary-email-please-enter-code-2 = Do 5 minút zadajte potvrdzovací k
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = Adresa { $email } bola úspešne pridaná
+verify-secondary-email-resend-code-button = Znovu odoslať potvrdzovací kód
 
 ##
 

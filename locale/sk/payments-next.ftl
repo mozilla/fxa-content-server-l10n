@@ -445,3 +445,12 @@ next-coupon-error-generic = Pri spracovaní kódu sa vyskytla chyba. Prosím, sk
 next-coupon-error-invalid = Zadaný kód je neplatný.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Zadaný kód dosiahol svoj limit.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Platnosť tejto ponuky vypršala.
+stay-subscribed-error-discount-used = Zľavový kód už bol uplatnený.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Táto zľava je dostupná iba pre súčasných predplatiteľov produktu { $productTitle }.
+stay-subscribed-error-still-active = Vaše predplatné produktu { $productTitle } je stále aktívne.
+stay-subscribed-error-general = Vyskytol sa problém s obnovením vášho predplatného.
