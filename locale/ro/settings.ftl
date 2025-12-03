@@ -1047,6 +1047,7 @@ verify-secondary-email-please-enter-code-2 = Te rugăm să introduci în 5 minut
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } adăugată cu succes
+verify-secondary-email-resend-code-button = Retrimite codul de confirmare
 
 ##
 
@@ -1059,6 +1060,7 @@ inactive-update-status-success-alert = Autentificare reușită. { -product-mozil
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Află unde sunt expuse informațiile tale private și preia controlul
 # Links out to the Monitor site
 product-promo-monitor-cta = Obține o scanare gratuită
 
@@ -1132,6 +1134,8 @@ tfa-row-backup-phone-delete-button = Elimină
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Elimină numărul de telefon de recuperare
 tfa-row-backup-phone-delete-restriction-v2 = Dacă vrei să elimini numărul de telefon de recuperare, adaugă mai întâi coduri de autentificare de rezervă sau dezactivează autentificarea în doi pași ca să eviți blocarea accesului la cont.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Este cea mai simplă metodă de recuperare dacă nu poți folosi aplicația de autentificare.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1172,13 +1176,21 @@ rk-cannot-verify-session-4 = Ne pare rău, a apărut o problemă la confirmarea 
 rk-remove-modal-heading-1 = Elimini cheia de recuperare a contului?
 rk-remove-modal-content-1 =
     Dacă îți resetezi parola, nu vei mai putea
-    utiliza cheia de recuperare a contului ca să îți accesezi datele. Acțiunea nu este reversibilă.
+    utiliza cheia de recuperare a contului ca să îți accesezi datele. Acțiunea este ireversibilă.
+rk-remove-error-2 = Cheia de recuperare a contului nu a putut fi eliminată
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Șterge cheia de recuperare a contului
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = E-mail secundar
     .header = E-mail secundar
 se-cannot-refresh-email = Ne pare rău, a apărut o problemă la reîmprospătarea acestui e-mail.
+se-cannot-resend-code-3 = Ne pare rău, a apărut o problemă la retrimiterea codului de confirmare
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } este acum adresa ta de e-mail primară
 # Button to remove the secondary email
 se-remove-email =
     .title = Elimină adresa de e-mail
@@ -1204,6 +1216,9 @@ tfa-row-cannot-refresh =
     autentificării în doi pași.
 tfa-row-disable-modal-heading = Dezactivezi autentificarea în doi pași?
 tfa-row-disable-modal-confirm = Dezactivează
+tfa-row-disable-modal-explain-1 =
+    Acțiunea este ireversibilă. Mai ai și
+    opțiunea <linkExternal>să înlocuiești codurile de autentificare de rezervă</linkExternal>.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
