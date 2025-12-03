@@ -1785,6 +1785,13 @@ signin-recovery-method-subheader = Alege o metodă de recuperare
 signin-recovery-method-details = Hai să ne asigurăm că tu folosești metodele de recuperare.
 signin-recovery-method-phone = Număr de telefon de recuperare
 signin-recovery-method-code-v2 = Coduri de autentificare de rezervă
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } cod rămas
+        [few] { $numBackupCodes } coduri rămase
+       *[other] { $numBackupCodes } de coduri rămase
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = A apărut o problemă la trimiterea unui cod către numărul tău de telefon de recuperare
 signin-recovery-method-send-code-error-description = Te rugăm să încerci din nou mai târziu sau să folosești codurile de autentificare de rezervă.
@@ -1824,6 +1831,11 @@ signin-recovery-phone-heading = Introdu codul de recuperare
 # $maskedPhoneNumber - The users masked phone number
 signin-recovery-phone-instruction-v3 = A fost trimis prin SMS un cod de 6 cifre la numărul de telefon care se termină în <span>{ $lastFourPhoneDigits }</span>. Codul expiră după 5 minute. Nu distribui acest cod nimănui.
 signin-recovery-phone-input-label = Introdu codul de 6 cifre
+signin-recovery-phone-code-submit-button = Confirmă
+signin-recovery-phone-resend-code-button = Retrimite codul
+signin-recovery-phone-resend-success = Cod trimis
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Ți-ai blocat accesul la cont?
 signin-recovery-phone-invalid-code-error-description = Codul este nevalid sau expirat.
 signin-recovery-phone-invalid-code-error-link = Folosești în schimb coduri de autentificare de rezervă?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
@@ -1916,7 +1928,13 @@ confirm-signup-code-page-title = Introdu codul de confirmare
 confirm-signup-code-heading-2 = Introdu codul de confirmare <span>pentru contul { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction-v2 = Introdu în 5 minute codul trimis la <email>{ $email }</email>.
+confirm-signup-code-input-label = Introdu codul de 6 cifre
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Confirmă
 confirm-signup-code-sync-button = Începe sincronizarea
+confirm-signup-code-code-expired = A expirat codul?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Trimite codul nou prin e-mail.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
