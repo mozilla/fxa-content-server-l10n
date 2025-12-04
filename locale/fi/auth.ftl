@@ -270,6 +270,22 @@ device-all = Selain { $uaBrowser } käyttöjärjestelmällä { $uaOS } { $uaOSVe
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = Selain { $uaBrowser } käyttöjärjestelmällä { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (arvio)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (arvio)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (arvio)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (arvio)
 view-invoice-link-action = Näytä lasku
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -425,6 +441,7 @@ postChangePrimary-action = Hallinnoi tiliä
 postChangeRecoveryPhone-subject = Palauttamisen puhelinnumero päivitetty
 postChangeRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
 postChangeRecoveryPhone-title = Vaihdoit palauttamisen puhelinnumerosi
+postChangeRecoveryPhone-description = Sinulla on nyt uusi palautuspuhelinnumero. Edellinen puhelinnumerosi on poistettu.
 postChangeTwoStepAuthentication-preview = Tilisi on suojattu
 postChangeTwoStepAuthentication-subject = Kaksivaiheinen todennus päivitetty
 postChangeTwoStepAuthentication-title = Kaksivaiheinen todennus on päivitetty
@@ -566,6 +583,7 @@ subscriptionFirstInvoice-content-auto-renew = Tilaus uusiutuu automaattisesti jo
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Maksutapa tuotteelle { $productName } on vanhentunut tai vanhenee pian
+subscriptionPaymentExpired-title-2 = Maksutapasi on vanhentunut tai vanhenemassa
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } -maksu epäonnistui
@@ -609,6 +627,7 @@ subscriptionRenewalReminder-content-closing = Terveisin
 subscriptionRenewalReminder-content-signature = { $productName } -tiimi
 subscriptionReplaced-title = Tilauksesi on päivitetty
 subscriptionReplaced-content-no-action = Sinulta ei vaadita toimenpiteitä.
+subscriptionsPaymentExpired-subject-2 = Tilaustesi maksutapa on vanhentunut tai vanhenee pian
 subscriptionsPaymentExpired-title-2 = Maksutapasi on vanhentunut tai vanhenemassa
 subscriptionsPaymentProviderCancelled-subject = Maksutietojen päivitys vaaditaan { -brand-mozilla }-tilauksiin
 subscriptionsPaymentProviderCancelled-title = Valitettavasti valitsemasi maksutavan kanssa ilmeni ongelmia

@@ -126,6 +126,7 @@ subscription-management-button-manage-subscription-aria = Hallinnoi { $productNa
 subscription-management-button-manage-subscription-1 = Hallinnoi tilausta
 error-payment-method-banner-title-expired-card = Vanhentunut kortti
 error-payment-method-banner-label-update-payment-method = Päivitä maksutapa
+error-payment-method-banner-message-account-issue = Tililläsi on ongelma.
 subscription-management-button-manage-payment-method-1 = Hallinnoi maksutapaa
 manage-payment-methods-heading = Hallinnoi maksutapoja
 paypal-payment-management-page-invalid-header = Virheelliset laskutustiedot
@@ -326,6 +327,7 @@ next-subscription-processing-title = Vahvistetaan tilausta…
 next-subscription-error-title = Virhe tilausta vahvistaessa…
 subscription-title-sub-exists = Olet jo tilannut
 subscription-title-plan-change-heading = Tarkista muutos
+subscription-title-not-supported = Tämä tilaustyypin vaihtaminen ei ole tuettu
 next-sub-guarantee = 30 päivän rahat takaisin -takuu
 
 ## Component - TermsAndPrivacy
@@ -399,3 +401,9 @@ next-coupon-error-generic = Koodia käsiteltäessä tapahtui virhe. Yritä uudel
 next-coupon-error-invalid = Antamasi koodi on virheellinen.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Antamasi koodi on käytetty liian monta kertaa.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Tämä tarjous on päättynyt.
+stay-subscribed-error-discount-used = Alennuskoodi on jo käytetty.
+stay-subscribed-error-general = Tilauksesi uusimisessa oli ongelma.
