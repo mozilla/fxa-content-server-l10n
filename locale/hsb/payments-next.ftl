@@ -325,9 +325,18 @@ next-new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adr
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Chceće { $productName } dale wužiwać?
+stay-subscribed-access-will-continue = Waš přistup k { $productName } dale wobsteji a waš wotličenski cyklus a płaćenje samsne wostawa.
 subscription-content-button-resubscribe = Abonement wobnowić
     .aria-label = { $productName } znowa abonować
 resubscribe-success-dialog-title = Wulki dźak! Sće hotowy za start.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } + dawk { $taxDue } dnja { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } dnja { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice

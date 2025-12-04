@@ -1,3 +1,5 @@
+loyalty-discount-terms-heading = Wuměnjenja a wobgranicowanja
+
 ## Page
 
 checkout-signin-or-create = 1. Pśizjawśo se abo załožćo { -product-mozilla-account }
