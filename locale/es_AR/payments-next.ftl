@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Términos y restricciones
+loyalty-discount-terms-support = Contactar soporte
+loyalty-discount-terms-support-aria = Contactar soporte
+
 ## Page
 
 checkout-signin-or-create = 1. Iniciá sesión o creá una { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Continuar descargando
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Suscripción no encontrada
+not-found-description-subscriptions = No pudimos encontrar tu suscripción. Intente nuevamente o contacte a soporte.
+not-found-button-back-to-subscriptions = Volver a suscripciones
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = No se agregó ningún método de pago
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Lamentamos que te vayas
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Tu suscripción de { $name } ha sido cancelada. Seguirás teniendo acceso a { $name } hasta el { $date }.
 subscription-cancellation-dialog-aside = ¿Tenés preguntas? Visitá <linkExternal>Soporte de { -brand-mozilla }</linkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Cancelar { $productName } suscripción
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = No se podrá usar { $productName } después de { $currentPeriodEnd }, el último día del ciclo de facturación.
 subscription-content-cancel-access-message = Cancelar mi acceso y mi información guardada en { $productName } el { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Cancelar suscripción
+    .aria-label = Cancelá tu suscripción a { $productName }
+cancel-subscription-button-stay-subscribed = Mantener la suscripción
+    .aria-label = Mantener la suscripción a { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Solo usamos tu correo electrónico p
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = ¿Querés seguir usando { $productName }?
+stay-subscribed-access-will-continue = Tu acceso a { $productName } continuará y tu ciclo de facturación y pago seguirán siendo los mismos.
 subscription-content-button-resubscribe = Resuscribirse
     .aria-label = Volver a suscribirse a { $productName }
 resubscribe-success-dialog-title = ¡Gracias! Está todo listo.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = El próximo cargo será de { $nextInvoiceTotal } + { $taxDue } impuestos en { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Tu próximo cargo será de { $nextInvoiceTotal } el { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Cancelar suscripción
 ##
 
 dialog-close = Cerrar el diálogo
+button-back-to-subscriptions = Volver a suscripciones
 subscription-content-cancel-action-error = Ocurrió un error inesperado. Probá de nuevo.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

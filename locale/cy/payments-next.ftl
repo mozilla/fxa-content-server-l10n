@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Telerau a Chyfyngiadau
+loyalty-discount-terms-support = Cysylltu â Chefnogaeth
+loyalty-discount-terms-support-aria = Cysylltu â Chefnogaeth
+
 ## Page
 
 checkout-signin-or-create = 1. Mewngofnodwch neu greu { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Parhau i lwytho i lawr
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Ni chanfuwyd y tanysgrifiad
+not-found-description-subscriptions = Ni allem ddod o hyd i'ch tanysgrifiad. Ceisiwch eto neu cysylltwch â'r tîm cymorth.
+not-found-button-back-to-subscriptions = Yn ôl i danysgrifiadau
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Dim dull talu wedi'i ychwanegu
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Mae'n ddrwg gennym eich gweld yn gadael
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Mae eich tanysgrifiad { $name } wedi'i ddiddymu. Byddwch yn dal i gael mynediad i { $name } tan { $date }.
 subscription-cancellation-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Canslo { $productName } tanysgrifiad
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
 subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Canslo tanysgrifiad
+    .aria-label = Canslo'ch tanysgrifiad i { $productName }
+cancel-subscription-button-stay-subscribed = Arhoswch danysgrifio
+    .aria-label = Dal i danysgrifio i { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Am barhau i ddefnyddio { $productName }?
+stay-subscribed-access-will-continue = Bydd eich mynediad at { $productName } yn parhau, a bydd eich cylch bilio a'ch taliad yn aros yr un peth.
 subscription-content-button-resubscribe = Ail-danysgrifio
     .aria-label = Ail-danysgrifio i { $productName }
 resubscribe-success-dialog-title = Diolch! Rydych chi'n barod nawr.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Eich tâl nesaf fydd { $nextInvoiceTotal } + { $taxDue } treth ar { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Eich tâl nesaf fydd { $nextInvoiceTotal } ar { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
 ##
 
 dialog-close = Cau deialog
+button-back-to-subscriptions = Yn ôl i danysgrifiadau
 subscription-content-cancel-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Podmínky a omezení
+loyalty-discount-terms-support = Kontaktujte podporu
+loyalty-discount-terms-support-aria = Kontaktujte podporu
+
 ## Page
 
 checkout-signin-or-create = 1. Přihlaste se nebo si vytvořte { -product-mozilla-account(capitalization: "lower") }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Pokračovat ke stažení
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Odběr nenalezen
+not-found-description-subscriptions = Vaše předplatné se nepodařilo najít. Zkuste to znovu nebo kontaktujte podporu.
+not-found-button-back-to-subscriptions = Zpět na předplatné
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nebyla přidána žádná platební metoda
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Je nám líto, že odcházíte
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Vaše předplatné { $name } bylo zrušeno. Stále vám zůstane přístup k { $name } do { $date }.
 subscription-cancellation-dialog-aside = Máte otázky? Navštivte <LinkExternal>podporu { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Zrušit předplatné { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, posledním dni vašeho fakturačního období, nebudete moci { $productName } používat.
 subscription-content-cancel-access-message = Zrušit můj přístup a ukládání mých informací v průběhu { $productName } dne { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Zrušit předplatné
+    .aria-label = Zrušení předplatného { $productName }
+cancel-subscription-button-stay-subscribed = Zůstaňte odebíráni
+    .aria-label = Předplaťte si { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme p
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Chcete i nadále používat { $productName }?
+stay-subscribed-access-will-continue = Váš přístup k účtu { $productName } bude pokračovat a váš fakturační cyklus a platby zůstanou beze změny.
 subscription-content-button-resubscribe = Obnovit předplatné
     .aria-label = Obnovit předplatné { $productName }
 resubscribe-success-dialog-title = Děkujeme! Vše máte nastaveno.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Další platba bude { $nextInvoiceTotal } + { $taxDue } daň dne { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Příští platba { $nextInvoiceTotal } vám bude účtována dne { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Zrušit předplatné
 ##
 
 dialog-close = Zavřít dialog
+button-back-to-subscriptions = Zpět na předplatné
 subscription-content-cancel-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

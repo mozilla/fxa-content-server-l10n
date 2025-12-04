@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Pogoji in omejitve
+loyalty-discount-terms-support = Obrnite se na podporo
+loyalty-discount-terms-support-aria = Obrnite se na podporo
+
 ## Page
 
 checkout-signin-or-create = 1. Prijavite se ali ustvarite { -product-mozilla-account(sklon: "tozilnik") }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Nadaljuj prenos
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Naročnine ni mogoče najti
+not-found-description-subscriptions = Vaše naročnine ni bilo mogoče najti. Poskusite znova ali pa se obrnite na podporo.
+not-found-button-back-to-subscriptions = Nazaj na naročnine
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Dodano ni nobeno plačilno sredstvo
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Žal nam je, da nas zapuščate
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Vaša naročnina na { $name } je preklicana. { $name } boste lahko še vedno uporabljali do { $date }.
 subscription-cancellation-dialog-aside = Imate vprašanja? Obiščite <LinkExternal>podporo { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Prekliči naročnino na { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.
 subscription-content-cancel-access-message = Prekliči moj dostop in moje shranjene podatke do { $productName } dne { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Prekliči naročnino
+    .aria-label = Prekličite naročnino na { $productName }
+cancel-subscription-button-stay-subscribed = Ostanite naročeni
+    .aria-label = Ostanite naročeni na { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Želite še naprej uporabljati { $productName }?
+stay-subscribed-access-will-continue = Vaš dostop do { $productName } se bo nadaljeval, obračun in plačilo pa bo ostalo nespremenjeno.
 subscription-content-button-resubscribe = Obnovi naročnino
     .aria-label = Ponovno se naroči na { $productName }
 resubscribe-success-dialog-title = Hvala! Zdaj ste nared.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Naslednja bremenitev bo { $nextInvoiceTotal } + { $taxDue } davek { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Naslednja bremenitev bo { $currentPeriodEnd } { $nextInvoiceTotal }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Prekliči naročnino
 ##
 
 dialog-close = Zapri pogovorno okno
+button-back-to-subscriptions = Nazaj na naročnine
 subscription-content-cancel-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

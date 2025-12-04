@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Villkor och begränsningar
+loyalty-discount-terms-support = Kontakta supporten
+loyalty-discount-terms-support-aria = Kontakta supporten
+
 ## Page
 
 checkout-signin-or-create = 1. Logga in eller skapa ett { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Fortsätt till nedladdning
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Prenumeration hittades inte
+not-found-description-subscriptions = Vi kunde inte hitta din prenumeration. Försök igen eller kontakta supporten.
+not-found-button-back-to-subscriptions = Tillbaka till prenumerationer
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalningsmetod har lagts till
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Vi tycker det är tråkigt att du lämn
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Din prenumeration på { $name } har avbrutits. Du har fortfarande åtkomst till { $name } tills { $date }.
 subscription-cancellation-dialog-aside = Har du frågor? Besök <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Avbryt prenumerationen på { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Du kommer inte längre att kunna använda { $productName } efter { $currentPeriodEnd }, den sista dagen i din faktureringscykel.
 subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade information inom { $productName } den { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Avbryt prenumeration
+    .aria-label = Avbryt din prenumeration på { $productName }
+cancel-subscription-button-stay-subscribed = Fortsätt prenumerera
+    .aria-label = Behåll din prenumeration på { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress f
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vill du fortsätta använda { $productName }?
+stay-subscribed-access-will-continue = Din åtkomst till { $productName } fortsätter och din faktureringsperiod och betalning förblir desamma.
 subscription-content-button-resubscribe = Prenumerera igen
     .aria-label = Prenumerera på { $productName } igen
 resubscribe-success-dialog-title = Tack! Du är klar.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Din nästa debitering är { $nextInvoiceTotal } + { $taxDue } moms för { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Din nästa debitering är { $nextInvoiceTotal } den { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Avbryt prenumeration
 ##
 
 dialog-close = Stäng dialogrutan
+button-back-to-subscriptions = Tillbaka till prenumerationer
 subscription-content-cancel-action-error = Ett oväntat fel uppstod. Försök igen.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

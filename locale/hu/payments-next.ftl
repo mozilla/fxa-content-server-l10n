@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Feltételek és korlátozások
+loyalty-discount-terms-support = Kapcsolatfelvétel az ügyfélszolgálattal
+loyalty-discount-terms-support-aria = Kapcsolatfelvétel az ügyfélszolgálattal
+
 ## Page
 
 checkout-signin-or-create = 1. Jelentkezzen be vagy hozzon létre egy { -product-mozilla-account }ot
@@ -97,6 +101,12 @@ next-payment-confirmation-download-button = Tovább a letöltéshez
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 
+## Not found page
+
+not-found-title-subscriptions = Az előfizetés nem található
+not-found-description-subscriptions = Nem találtuk az előfizetését. Próbálja újra, vagy lépjen kapcsolatba az ügyfélszolgálattal.
+not-found-button-back-to-subscriptions = Vissza az előfizetésekhez
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nincs fizetési mód hozzáadva
@@ -175,12 +185,21 @@ subscription-cancellation-dialog-title = Sajnáljuk, hogy távozik
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Lemondta a(z) { $name }-előfizetését. { $date }-ig továbbra is el fogja érni a(z) { $name } szolgáltatást.
 subscription-cancellation-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = { $productName } előfizetés megszüntetése
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Az utolsó számlázási periódusa után ({ $currentPeriodEnd }) nem fogja tudni használni a(z) { $productName } szolgáltatást,
 subscription-content-cancel-access-message = A(z) { $productName } hozzáférésének lemondása, és az abban mentett adatok törlése ekkor: { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Előfizetés lemondása
+    .aria-label = A(z) { $productName } előfizetésének megszüntetése
+cancel-subscription-button-stay-subscribed = Maradjon előfizetés
+    .aria-label = Előfizetés a(z) { $productName } szolgáltatásra
 
 ## Component - Payment Consent Checkbox
 
@@ -303,9 +322,18 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $productName }?
+stay-subscribed-access-will-continue = A(z) { $productName } hozzáférése folytatódni fog, a számlázási és fizetési ciklusa is változatlan marad.
 subscription-content-button-resubscribe = Újbóli előfizetés
     .aria-label = Újbóli előfizetés erre: { $productName }
 resubscribe-success-dialog-title = Köszönjük! Minden készen áll.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = A következő terhelés { $nextInvoiceTotal } + { $taxDue } adó lesz ekkor: { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = A következő terhelés { $nextInvoiceTotal } lesz, ekkor: { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -336,6 +364,7 @@ subscription-content-button-cancel-subscription = Előfizetés lemondása
 ##
 
 dialog-close = Párbeszédablak bezárása
+button-back-to-subscriptions = Vissza az előfizetésekhez
 subscription-content-cancel-action-error = Váratlan hiba történt. Próbálja meg újra.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

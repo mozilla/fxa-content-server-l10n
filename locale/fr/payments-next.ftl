@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Conditions et restrictions
+loyalty-discount-terms-support = Contacter l’assistance
+loyalty-discount-terms-support-aria = Contacter l’assistance
+
 ## Page
 
 checkout-signin-or-create = 1. Connectez-vous ou créez un { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Continuer vers le téléchargement
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Abonnement introuvable
+not-found-description-subscriptions = Nous n’avons pas pu trouver votre abonnement. Veuillez réessayer ou contacter l’assistance.
+not-found-button-back-to-subscriptions = Retour aux abonnements
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Aucun moyen de paiement ajouté
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = C’est triste de vous voir partir…
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Votre abonnement à { $name } a été résilié. Vous aurez encore accès à { $name } jusqu’au { $date }.
 subscription-cancellation-dialog-aside = Vous avez des questions ? Consultez <LinkExternal>l’assistance de { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Annuler l’abonnement de { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Vous ne pourrez plus utiliser { $productName } après le { $currentPeriodEnd }, le dernier jour de votre cycle de facturation.
 subscription-content-cancel-access-message = Annuler mon accès et mes informations enregistrées dans { $productName } le { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Annuler l’abonnement
+    .aria-label = Annuler votre abonnement à { $productName }
+cancel-subscription-button-stay-subscribed = Conserver l’abonnement
+    .aria-label = Rester abonné à { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Nous utilisons votre adresse e-mail 
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vous voulez continuer à utiliser { $productName } ?
+stay-subscribed-access-will-continue = Votre accès à { $productName } continuera, et votre cycle de facturation et de paiement resteront les mêmes.
 subscription-content-button-resubscribe = Se réabonner
     .aria-label = Se réabonner à { $productName }
 resubscribe-success-dialog-title = Merci ! Tout est prêt.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Votre prochain paiement sera de { $nextInvoiceTotal } + { $taxDue } de taxes sur { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Votre prochain paiement sera de { $nextInvoiceTotal } le { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Annuler l’abonnement
 ##
 
 dialog-close = Fermer la boîte de dialogue
+button-back-to-subscriptions = Retour aux abonnements
 subscription-content-cancel-action-error = Une erreur inattendue s’est produite. Veuillez réessayer.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

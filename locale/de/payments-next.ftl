@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Bedingungen und Einschränkungen
+loyalty-discount-terms-support = Hilfe kontaktieren
+loyalty-discount-terms-support-aria = Hilfe kontaktieren
+
 ## Page
 
 checkout-signin-or-create = 1. Melden Sie sich an oder erstellen Sie ein { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Weiter zum Download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karte endet auf { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Abonnement nicht gefunden
+not-found-description-subscriptions = Wir konnten Ihr Abonnement nicht finden. Bitte versuchen Sie es erneut oder wenden Sie sich an den Support.
+not-found-button-back-to-subscriptions = Zurück zu Abonnements
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Keine Zahlungsmethode hinzugefügt
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Es tut uns leid, dass Sie uns verlassen
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Ihr Abonnement für { $name } wurde gekündigt. Sie haben noch bis { $date } Zugriff auf { $name }.
 subscription-cancellation-dialog-aside = Haben Sie Fragen? Besuchen Sie die <LinkExternal>{ -brand-mozilla }-Hilfe</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = { $productName }-Abonnement kündigen
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Sie können { $productName } nach dem { $currentPeriodEnd }, dem letzten Tag Ihres Abrechnungszeitraums, nicht mehr verwenden.
 subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodEnd } beenden und meine in { $productName } gespeicherten Daten entfernen
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Abonnement kündigen
+    .aria-label = Stornieren Sie Ihren Dauerauftrag für { $productName }
+cancel-subscription-button-stay-subscribed = Dauerauftrag beibehalten
+    .aria-label = weiterhin { $productName } abonnieren
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Möchten Sie weiterhin { $productName } verwenden?
+stay-subscribed-access-will-continue = Ihr Zugriff auf { $productName } bleibt bestehen und Ihr Abrechnungsrhythmus und Ihre Zahlung bleiben gleich.
 subscription-content-button-resubscribe = Dauerauftrag erneuern
     .aria-label = Dauerauftrag für { $productName } erneuern
 resubscribe-success-dialog-title = Vielen Dank! Alles top! Sie sind fertig!
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Ihre nächste Rechnung beträgt { $nextInvoiceTotal } + { $taxDue } Steuern auf { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Ihre nächste Rechnung sind { $nextInvoiceTotal } auf { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Dauerauftrag stornieren
 ##
 
 dialog-close = Dialog schließen
+button-back-to-subscriptions = Zurück zu Abonnements
 subscription-content-cancel-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

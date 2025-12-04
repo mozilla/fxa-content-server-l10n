@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Termini e restrizioni
+loyalty-discount-terms-support = Contatta l’assistenza
+loyalty-discount-terms-support-aria = Contatta l’assistenza
+
 ## Page
 
 checkout-signin-or-create = 1. Accedi o crea un { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Prosegui con il download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta che termina con { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Abbonamento non trovato
+not-found-description-subscriptions = Impossibile trovare l’abbonamento. Riprova o contatta il supporto.
+not-found-button-back-to-subscriptions = Torna alle sottoscrizioni
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nessun metodo di pagamento aggiunto
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Ci dispiace per la tua decisione
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Il tuo abbonamento a { $name } è stato annullato. Potrai comunque accedere a { $name } fino al { $date }.
 subscription-cancellation-dialog-aside = Hai una domanda? Visita il sito per il <LinkExternal>supporto { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Annulla l’abbonamento a { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Non potrai più utilizzare { $productName } dopo { $currentPeriodEnd }, l’ultimo giorno del ciclo di fatturazione.
 subscription-content-cancel-access-message = Disattiva il mio accesso e rimuovi le informazioni salvate in { $productName } prima di { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Annulla abbonamento
+    .aria-label = Annulla l’abbonamento a { $productName }
+cancel-subscription-button-stay-subscribed = Rimani abbonato
+    .aria-label = Rimani abbonato a { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Utilizziamo la tua email solo per cr
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vuoi continuare a utilizzare { $productName }?
+stay-subscribed-access-will-continue = Il tuo accesso a { $productName } continuerà e il ciclo di fatturazione e il pagamento rimarranno invariati.
 subscription-content-button-resubscribe = Abbonati nuovamente
     .aria-label = Abbonati nuovamente a { $productName }
 resubscribe-success-dialog-title = Grazie! Tutto pronto.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } tasse su { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } il { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Cancella abbonamento
 ##
 
 dialog-close = Chiudi finestra di dialogo
+button-back-to-subscriptions = Torna alle sottoscrizioni
 subscription-content-cancel-action-error = Si è verificato un errore imprevisto. Riprova.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
