@@ -327,7 +327,7 @@ subscription-content-button-resubscribe = Obnovit předplatné
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Přístup ke službě { $name } ztratíte <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Chcete i nadále používat { $name }?
+resubscribe-dialog-title = Chcete i nadále používat { $productName }?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.

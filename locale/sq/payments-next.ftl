@@ -328,7 +328,7 @@ subscription-content-button-resubscribe = Ripajtohuni
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Do të humbni mundësinë e përdorimit të { $name } më <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Doni të vazhdoni të përdorni { $name }?
+resubscribe-dialog-title = Doni të vazhdoni të përdorni { $productName }?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
