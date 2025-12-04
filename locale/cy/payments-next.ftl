@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Rheoli Dulliau Talu
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Mynd yn ôl i { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Mae'n ddrwg gennym eich gweld yn gadael
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Mae eich tanysgrifiad { $name } wedi'i ddiddymu. Byddwch yn dal i gael mynediad i { $name } tan { $date }.
+subscription-cancellation-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
+subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Rwy'n awdurdodi { -brand-mozilla } i godi tâl ar fy null talu am y swm sy'n cael ei ddangos, yn unol â <termsOfServiceLink>Thelerau Gwasanaeth</termsOfServiceLink> a'r <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Hoffwn dderbyn newyddion cynny
 next-new-user-subscribe-product-updates-snp = Hoffwn dderbyn newyddion a diweddariadau diogelwch a phreifatrwydd gan { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn defnyddio'ch e-bost. Fyddwn ni byth yn ei werthu i drydydd parti.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Am barhau i ddefnyddio { $productName }?
+subscription-content-button-resubscribe = Ail-danysgrifio
+    .aria-label = Ail-danysgrifio i { $productName }
+resubscribe-success-dialog-title = Diolch! Rydych chi'n barod nawr.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Bydd gostyngiad o { $promotionName } yn cael ei osod
-subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad
-subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
-subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Bil diwethaf • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } treth
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Parhau Wedi Tanysgrifio
     .aria-label = Parhau i danysgrifio i { $productName }
-subscription-content-button-cancel-subscription-1 = Diddymu'r tanysgrifiad
 subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
     .aria-label = Diddymu'ch tanysgrifiad i { $productName }
-subscription-content-button-cancel = Diddymu
-    .aria-label = Diddymu'ch tanysgrifiad i { $productName }
-subscription-content-cancel-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
-subscription-cancellation-dialog-title = Mae'n ddrwg gennym eich gweld yn gadael
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Mae eich tanysgrifiad { $name } wedi'i ddiddymu. Byddwch yn dal i gael mynediad i { $name } tan { $date }.
-subscription-cancellation-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
-subscription-content-button-resubscribe = Ail-danysgrifio
-    .aria-label = Ail-danysgrifio i { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Byddwch yn colli mynediad i { $name } ar <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Am barhau i ddefnyddio { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Bydd eich mynediad at { $name } yn parhau, a bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd { $amount } ar { $endDate }.
-resubscribe-dialog-content-with-tax = Bydd eich mynediad at { $name } yn parhau, a bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd { $amount } + { $tax } treth ar { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Ail-danysgrifio
-    .aria-label = Ail-danysgrifio i { $productName }
-resubscribe-success-dialog-title = Diolch! Rydych chi'n barod nawr.
-resubscribe-success-dialog-action-button-close = Cau
-    .aria-label = Cau deialog
 
 ##
 
 dialog-close = Cau deialog
+subscription-content-cancel-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

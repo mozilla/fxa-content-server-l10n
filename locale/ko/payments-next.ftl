@@ -129,6 +129,20 @@ subscription-management-breadcrumb-subscriptions = 구독
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = { $page }로 가기
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = 가신다니 아쉽습니다.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = { $name } 구독이 취소되었습니다. { $date }까지 { $name }에 계속 접근할 수 있습니다.
+subscription-cancellation-dialog-aside = 질문이 있으신가요? <LinkExternal>{ -brand-mozilla } 지원</LinkExternal> 을 방문하세요.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = 결제 주기의 마지막 날인 { $currentPeriodEnd } 이후에는 더 이상 { $productName }를 사용할 수 없습니다.
+subscription-content-cancel-access-message = { $currentPeriodEnd }에 { $productName } 안의 접근과 저장된 정보를 취소
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = <termsOfServiceLink>이용 약관</termsOfServiceLink> 및 <privacyNoticeLink>개인 정보 보호정책</privacyNoticeLink>에 따라, 구독을 취소하기 전까지 { -brand-mozilla }가 표시된 금액을 내 결제 수단에 청구하도록 허가합니다.
@@ -247,6 +261,13 @@ next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 �
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }로부터 보안과 개인 정보에 대한 소식 및 최신 정보를 받습니다.
 next-new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드는 데만 사용됩니다. 절대 제3자에게 판매하지 않습니다.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = { $name } 사용을 계속 하시겠습니까?
+subscription-content-button-resubscribe = 재구독
+    .aria-label = { $productName } 재구독
+resubscribe-success-dialog-title = 감사합니다! 모두 준비되었습니다.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -256,46 +277,15 @@ next-new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-heading-cancel-subscription = 구독 취소
-subscription-content-no-longer-use-message = 결제 주기의 마지막 날인 { $currentPeriodEnd } 이후에는 더 이상 { $productName }를 사용할 수 없습니다.
-subscription-content-cancel-access-message = { $currentPeriodEnd }에 { $productName } 안의 접근과 저장된 정보를 취소
 subscription-content-button-stay-subscribed = 구독 유지
     .aria-label = { $productName } 구독 유지
 subscription-content-button-cancel-subscription = 구독 취소
     .aria-label = { $productName } 구독 취소
-subscription-content-button-cancel = 취소
-    .aria-label = { $productName } 구독 취소
-subscription-content-cancel-action-error = 알 수 없는 오류가 발생하였습니다. 다시 시도해 주세요.
-subscription-cancellation-dialog-title = 가신다니 아쉽습니다.
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = { $name } 구독이 취소되었습니다. { $date }까지 { $name }에 계속 접근할 수 있습니다.
-subscription-cancellation-dialog-aside = 질문이 있으신가요? <LinkExternal>{ -brand-mozilla } 지원</LinkExternal> 을 방문하세요.
-subscription-content-button-resubscribe = 재구독
-    .aria-label = { $productName } 재구독
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = <strong>{ $date }</strong>에 { $name }에 대한 접근 권한이 없어집니다.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = { $name } 사용을 계속 하시겠습니까?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = { $name }에 대한 접근은 계속되며 결제 주기와 결제는 동일하게 유지됩니다. 다음 청구 금액은 { $endDate }에 { $amount }입니다.
-resubscribe-dialog-content-with-tax = { $name }에 대한 접근은 계속되며 결제 주기와 결제는 동일하게 유지됩니다. 다음 청구 금액은 { $endDate }에 { $amount } + { $tax }의 세금입니다.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = 재구독
-    .aria-label = { $productName } 재구독
-resubscribe-success-dialog-title = 감사합니다! 모두 준비되었습니다.
-resubscribe-success-dialog-action-button-close = 닫기
-    .aria-label = 대화창 닫기
 
 ##
 
 dialog-close = 대화상자 닫기
+subscription-content-cancel-action-error = 알 수 없는 오류가 발생하였습니다. 다시 시도해 주세요.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

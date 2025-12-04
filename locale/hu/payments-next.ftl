@@ -168,6 +168,20 @@ subscription-management-breadcrumb-payment-2 = Fizetési módok kezelése
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Vissza ehhez: { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Sajnáljuk, hogy távozik
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Lemondta a(z) { $name }-előfizetését. { $date }-ig továbbra is el fogja érni a(z) { $name } szolgáltatást.
+subscription-cancellation-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Az utolsó számlázási periódusa után ({ $currentPeriodEnd }) nem fogja tudni használni a(z) { $productName } szolgáltatást,
+subscription-content-cancel-access-message = A(z) { $productName } hozzáférésének lemondása, és az abban mentett adatok törlése ekkor: { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Felhatalmazom a { -brand-mozilla(ending: "accented") }t, hogy terhelje meg a megjelenített összeget az én fizetési módommal az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
@@ -286,6 +300,13 @@ next-new-user-subscribe-product-updates-mozilla = Szeretnék termékhíreket és
 next-new-user-subscribe-product-updates-snp = Szeretnék biztonsági és adatvédelmi híreket kapni a { -brand-mozilla(ending: "accented") }tól
 next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használjuk az e-mail-címét. Sosem adjuk el harmadik félnek.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $productName }?
+subscription-content-button-resubscribe = Újbóli előfizetés
+    .aria-label = Újbóli előfizetés erre: { $productName }
+resubscribe-success-dialog-title = Köszönjük! Minden készen áll.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -296,9 +317,6 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = { $promotionName } kedvezmény lesz alkalmazva
-subscription-content-heading-cancel-subscription = Előfizetés lemondása
-subscription-content-no-longer-use-message = Az utolsó számlázási periódusa után ({ $currentPeriodEnd }) nem fogja tudni használni a(z) { $productName } szolgáltatást,
-subscription-content-cancel-access-message = A(z) { $productName } hozzáférésének lemondása, és az abban mentett adatok törlése ekkor: { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Utolsó számla • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } adó
@@ -312,42 +330,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Előfizetés megtartása
     .aria-label = { $productName } előfizetés megtartása
-subscription-content-button-cancel-subscription-1 = Előfizetés lemondása
 subscription-content-button-cancel-subscription = Előfizetés lemondása
     .aria-label = { $productName } előfizetés megszüntetése
-subscription-content-button-cancel = Mégse
-    .aria-label = { $productName } előfizetés megszüntetése
-subscription-content-cancel-action-error = Váratlan hiba történt. Próbálja meg újra.
-subscription-cancellation-dialog-title = Sajnáljuk, hogy távozik
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Lemondta a(z) { $name }-előfizetését. { $date }-ig továbbra is el fogja érni a(z) { $name } szolgáltatást.
-subscription-cancellation-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
-subscription-content-button-resubscribe = Újbóli előfizetés
-    .aria-label = Újbóli előfizetés erre: { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = El fogja veszíteni a hozzáférését a(z) { $name } termékhez, ekkor: <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési időszaka is változatlan marad. A következő terhelése { $amount } lesz, ekkor: { $endDate }.
-resubscribe-dialog-content-with-tax = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési időszaka is változatlan marad. A következő terhelése { $amount } + { $tax } adó lesz, ekkor: { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Előfizetés újra
-    .aria-label = Előfizetés újra erre: { $productName }
-resubscribe-success-dialog-title = Köszönjük! Minden készen áll.
-resubscribe-success-dialog-action-button-close = Bezárás
-    .aria-label = Párbeszédablak bezárása
 
 ##
 
 dialog-close = Párbeszédablak bezárása
+subscription-content-cancel-action-error = Váratlan hiba történt. Próbálja meg újra.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

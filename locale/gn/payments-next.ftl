@@ -166,6 +166,22 @@ subscription-management-breadcrumb-payment-2 = Eñangareko jehepyme’ẽrãre
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Ejevyjey { $page }-pe
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Ore rombyasy ehohaguére
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Ne ñemboheraguapy { $name } pegua ojejokóma. Eikekuaáta gueteri { $name }-pe { $date } peve.
+subscription-cancellation-dialog-aside = Eporandusépa. Eike <LinkExternal>{ -brand-mozilla } Pytyvõha</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Ndojeporukuaamo’ãi { $productName } pe { $currentPeriodEnd } rire, pe ára paha iñemuhakuatia hag̃ua.
+subscription-content-cancel-access-message =
+    Ehejarei aikeha ha che mba’ekuaarã ñongatupyre
+    { $productName } pegua { $currentPeriodEnd } guive
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Amoneĩ { -brand-mozilla }-pe, tomyanyhẽ ahepyme’ẽhápe he’iháicha <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>Ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
@@ -284,6 +300,13 @@ next-new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha 
 next-new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
 next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = ¿Eiporusépa gueteri { $productName }?
+subscription-content-button-resubscribe = Eñemboheraguapyjey
+    .aria-label = Eñemboheraguapyjey { $productName }-pe
+resubscribe-success-dialog-title = ¡Aguyjevete! Oĩmbaitéma.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,11 +317,6 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Oguejýta { $promotionName } repy
-subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
-subscription-content-no-longer-use-message = Ndojeporukuaamo’ãi { $productName } pe { $currentPeriodEnd } rire, pe ára paha iñemuhakuatia hag̃ua.
-subscription-content-cancel-access-message =
-    Ehejarei aikeha ha che mba’ekuaarã ñongatupyre
-    { $productName } pegua { $currentPeriodEnd } guive
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Kuatiañemure paha • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impuesto
@@ -312,42 +330,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Eime mboheguapýpe
     .aria-label = Eime mboheguapýpe { $productName }
-subscription-content-button-cancel-subscription-1 = Ñemboheraguapy jeheja
 subscription-content-button-cancel-subscription = Ejheja mboheraguapy
     .aria-label = Ejheja mboheraguapy { $productName }
-subscription-content-button-cancel = Heja
-    .aria-label = Eipe’a ñemboheraguapy { $productName } pegua
-subscription-content-cancel-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ãjey ag̃ave.
-subscription-cancellation-dialog-title = Ore rombyasy ehohaguére
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Ne ñemboheraguapy { $name } pegua ojejokóma. Eikekuaáta gueteri { $name }-pe { $date } peve.
-subscription-cancellation-dialog-aside = Eporandusépa. Eike <LinkExternal>{ -brand-mozilla } Pytyvõha</LinkExternal>.
-subscription-content-button-resubscribe = Eñemboheraguapyjey
-    .aria-label = Eñemboheraguapyjey { $productName }-pe
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Ndaikatuma’ãi eike { $name }-pe <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = ¿Eiporusépa gueteri { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = { $name } jeike oku’ejeýta, ha pe ñemuhakuatia rape ha jehepyme’ẽ naiñambuemo’ãi. Pe jehepyme’ẽ oútava { $amount } mba’e { $endDate } og̃uahẽvo.
-resubscribe-dialog-content-with-tax = { $name }-pe jeike oku’ejeýta, ha ñemuhakuatia rape ha jehepyme’ẽ naiñambuemo’ãi. Jehepyme’ẽ oútava { $amount } mba’e + { $tax } impuestoita rehegua { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Eñemboheraguapyjey
-    .aria-label = Eñemboheraguapyjey { $productName }-pe
-resubscribe-success-dialog-title = ¡Aguyjevete! Oĩmbaitéma.
-resubscribe-success-dialog-action-button-close = Mboty
-    .aria-label = Ñomongeta mbotypyre
 
 ##
 
 dialog-close = Emboty ñomongeta
+subscription-content-cancel-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ãjey ag̃ave.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

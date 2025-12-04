@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Správa platebních metod
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Přejít zpět na { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Je nám líto, že odcházíte
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Vaše předplatné { $name } bylo zrušeno. Stále vám zůstane přístup k { $name } do { $date }.
+subscription-cancellation-dialog-aside = Máte otázky? Navštivte <LinkExternal>podporu { -brand-mozilla }</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, posledním dni vašeho fakturačního období, nebudete moci { $productName } používat.
+subscription-content-cancel-access-message = Zrušit můj přístup a ukládání mých informací v průběhu { $productName } dne { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Opravňuji organizaci { -brand-mozilla } účtovat uvedenou částku na vrub mého způsobu platby, a to v souladu s <termsOfServiceLink>podmínkami poskytování služby</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Chci dostávat produktové nov
 next-new-user-subscribe-product-updates-snp = Chci dostávat novinky a aktualizace týkající se zabezpečení a ochrany osobních údajů od { -brand-mozilla(case: "loc") }
 next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme pouze k založení vašeho účtu. Nikdy ne neprodáme žádné třetí straně.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Chcete i nadále používat { $productName }?
+subscription-content-button-resubscribe = Obnovit předplatné
+    .aria-label = Obnovit předplatné { $productName }
+resubscribe-success-dialog-title = Děkujeme! Vše máte nastaveno.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme p
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Bude uplatněna sleva { $promotionName }
-subscription-content-heading-cancel-subscription = Zrušit předplatné
-subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, posledním dni vašeho fakturačního období, nebudete moci { $productName } používat.
-subscription-content-cancel-access-message = Zrušit můj přístup a ukládání mých informací v průběhu { $productName } dne { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Poslední faktura • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } daň
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Zachovat předplatné
     .aria-label = Zachovejte si předplatné produktu { $productName }
-subscription-content-button-cancel-subscription-1 = Zrušit předplatné
 subscription-content-button-cancel-subscription = Zrušit předplatné
     .aria-label = Zrušení předplatného { $productName }
-subscription-content-button-cancel = Zrušit
-    .aria-label = Zrušení předplatného { $productName }
-subscription-content-cancel-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
-subscription-cancellation-dialog-title = Je nám líto, že odcházíte
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Vaše předplatné { $name } bylo zrušeno. Stále vám zůstane přístup k { $name } do { $date }.
-subscription-cancellation-dialog-aside = Máte otázky? Navštivte <LinkExternal>podporu { -brand-mozilla }</LinkExternal>.
-subscription-content-button-resubscribe = Obnovit předplatné
-    .aria-label = Obnovit předplatné { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Přístup ke službě { $name } ztratíte <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Chcete i nadále používat { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Váš přístup k účtu { $name } bude pokračovat a váš fakturační cyklus a platby zůstanou beze změny. Příští platba { $amount } vám bude účtována dne { $endDate }.
-resubscribe-dialog-content-with-tax = Váš přístup k účtu { $name } bude pokračovat a váš fakturační cyklus a platby zůstanou beze změny. Příští platba bude { $amount } + { $tax } daň dne { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Obnovit předplatné
-    .aria-label = Obnovit předplatné { $productName }
-resubscribe-success-dialog-title = Děkujeme! Vše máte nastaveno.
-resubscribe-success-dialog-action-button-close = Zavřít
-    .aria-label = Zavřít dialog
 
 ##
 
 dialog-close = Zavřít dialog
+subscription-content-cancel-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

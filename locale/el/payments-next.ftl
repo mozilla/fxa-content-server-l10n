@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Διαχείριση μεθόδω
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Επιστροφή στη σελίδα «{ $page }»
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Λυπούμαστε που φεύγετε.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Η συνδρομή σας στο { $name } έχει ακυρωθεί. Θα έχετε ακόμα πρόσβαση στο { $name } μέχρι τις { $date }.
+subscription-cancellation-dialog-aside = Έχετε απορίες; Επισκεφθείτε την <LinkExternal>Υποστήριξη { -brand-mozilla }</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.
+subscription-content-cancel-access-message = Ακύρωση της πρόσβασής μου και των αποθηκευμένων πληροφοριών μου εντός του { $productName } στις { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Εξουσιοδοτώ τη { -brand-mozilla } να χρεώνει τη μέθοδο πληρωμής μου με το αναγραφόμενο ποσό, σύμφωνα με τους <termsOfServiceLink>Όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>Σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Επιθυμώ να λαμβά
 next-new-user-subscribe-product-updates-snp = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις ασφαλείας και απορρήτου από τη { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το email σας μόνο για τη δημιουργία του λογαριασμού σας. Δεν θα το πωλήσουμε ποτέ σε τρίτους.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $productName };
+subscription-content-button-resubscribe = Επανανεγγραφή
+    .aria-label = Επανανεγγραφή στο { $productName }
+resubscribe-success-dialog-title = Ευχαριστούμε! Όλα είναι έτοιμα.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Θα εφαρμοστεί έκπτωση { $promotionName }
-subscription-content-heading-cancel-subscription = Ακύρωση συνδρομής
-subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.
-subscription-content-cancel-access-message = Ακύρωση της πρόσβασής μου και των αποθηκευμένων πληροφοριών μου εντός του { $productName } στις { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Τελευταίος λογαριασμός • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } (φόρος)
@@ -310,45 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Διατήρηση συνδρομής
     .aria-label = Παραμείνετε συνδρομητής του { $productName }
-subscription-content-button-cancel-subscription-1 = Ακύρωση συνδρομής
 subscription-content-button-cancel-subscription = Ακύρωση συνδρομής
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
-subscription-content-button-cancel = Ακύρωση
-    .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
-subscription-content-cancel-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
-subscription-cancellation-dialog-title = Λυπούμαστε που φεύγετε.
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Η συνδρομή σας στο { $name } έχει ακυρωθεί. Θα έχετε ακόμα πρόσβαση στο { $name } μέχρι τις { $date }.
-subscription-cancellation-dialog-aside = Έχετε απορίες; Επισκεφθείτε την <LinkExternal>Υποστήριξη { -brand-mozilla }</LinkExternal>.
-subscription-content-button-resubscribe = Επανανεγγραφή
-    .aria-label = Επανανεγγραφή στο { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Θα ολοκληρωθεί η πρόσβαση στο { $name } στις <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $productName };
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content =
-    Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας
-    και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι
-    { $amount } στις { $endDate }.
-resubscribe-dialog-content-with-tax = Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι { $amount } + { $tax } (φόρος) στις { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Επανεγγραφή
-    .aria-label = Επανεγγραφή στο { $productName }
-resubscribe-success-dialog-title = Ευχαριστούμε! Όλα είναι έτοιμα.
-resubscribe-success-dialog-action-button-close = Κλείσιμο
-    .aria-label = Κλείσιμο διαλόγου
 
 ##
 
 dialog-close = Κλείσιμο διαλόγου
+subscription-content-cancel-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

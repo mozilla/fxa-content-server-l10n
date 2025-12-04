@@ -174,17 +174,6 @@ next-new-user-subscribe-product-updates-mdnplus = Ман мехоҳам, ки а
 next-new-user-subscribe-product-updates-mozilla = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи маҳсулот хабарҳо ва навигариҳоро қабул кунам
 next-new-user-subscribe-product-updates-snp = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи амният ва махфият хабарҳо ва навигариҳоро қабул кунам
 
-## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
-## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
-## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-## $promotionName (String) - The name of the promotion.
-## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
-
-subscription-content-heading-cancel-subscription = Бекор кардани обуна
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 

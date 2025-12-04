@@ -162,6 +162,20 @@ subscription-management-breadcrumb-payment-2 = ניהול אמצעי תשלום
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = חזרה ל{ $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = עצוב לנו שבחרת לעזוב
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = המינוי שלך ל־{ $name } בוטל. תהיה לך עדיין גישה ל־{ $name } עד { $date }.
+subscription-cancellation-dialog-aside = יש שאלות? ניתן לבקר ב<LinkExternal>תמיכה של { -brand-mozilla }</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
+subscription-content-cancel-access-message = בטלו את הגישה ואת המידע השמור שלי בתוך { $productName } בתאריך { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = אני מאשר ל־{ -brand-mozilla } לחייב את אמצעי התשלום שלי בסכום המוצג, לפי <termsOfServiceLink>תנאי השימוש</termsOfServiceLink> ו<privacyNoticeLink>הצהרת הפרטיות</privacyNoticeLink>, עד שאבטל את המינוי שלי.
@@ -277,6 +291,13 @@ next-new-user-subscribe-product-updates-mozilla = ברצוני לקבל חדשו
 next-new-user-subscribe-product-updates-snp = ברצוני לקבל חדשות ועדכונים על פרטיות ואבטחה מ־{ -brand-mozilla }
 next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל שלך רק ליצירת החשבון שלך. לעולם לא נמכור אותו לצד שלישי.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = רוצה להמשיך להשתמש ב־{ $name }?
+subscription-content-button-resubscribe = חידוש מינוי
+    .aria-label = חידוש מינוי ל־{ $productName }
+resubscribe-success-dialog-title = תודה! הכול מוכן.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -287,9 +308,6 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = תוחל הנחה של { $promotionName }
-subscription-content-heading-cancel-subscription = ביטול מינוי
-subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
-subscription-content-cancel-access-message = בטלו את הגישה ואת המידע השמור שלי בתוך { $productName } בתאריך { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = החשבונית האחרונה • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + מס בסך { $taxDue }
@@ -303,42 +321,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + מס בסך 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = להישאר רשום כמינוי
     .aria-label = להישאר רשום כמינוי ל־{ $productName }
-subscription-content-button-cancel-subscription-1 = ביטול מינוי
 subscription-content-button-cancel-subscription = לבטל את המינוי
     .aria-label = לבטל את המינוי שלך ל־{ $productName }
-subscription-content-button-cancel = ביטול המינוי
-    .aria-label = ביטול המינוי שלך ל־{ $productName }
-subscription-content-cancel-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
-subscription-cancellation-dialog-title = עצוב לנו שבחרת לעזוב
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = המינוי שלך ל־{ $name } בוטל. תהיה לך עדיין גישה ל־{ $name } עד { $date }.
-subscription-cancellation-dialog-aside = יש שאלות? ניתן לבקר ב<LinkExternal>תמיכה של { -brand-mozilla }</LinkExternal>.
-subscription-content-button-resubscribe = חידוש מינוי
-    .aria-label = חידוש מינוי ל־{ $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = הגישה שלך ל־{ $name } תאבד בתאריך <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = רוצה להמשיך להשתמש ב־{ $name }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = הגישה שלך ל־{ $name } תימשך, ומחזור החיוב והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה { $amount } בתאריך { $endDate }.
-resubscribe-dialog-content-with-tax = הגישה שלך ל־{ $name } תימשך, ומחזור החיוב והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה { $amount } + מס בסך { $tax } בתאריך { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = חידוש מינוי
-    .aria-label = חידוש מינוי ל־{ $productName }
-resubscribe-success-dialog-title = תודה! הכול מוכן.
-resubscribe-success-dialog-action-button-close = סגירה
-    .aria-label = סגירת תיבת דו־שיח
 
 ##
 
 dialog-close = סגירת תיבת דוח־שיח
+subscription-content-cancel-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

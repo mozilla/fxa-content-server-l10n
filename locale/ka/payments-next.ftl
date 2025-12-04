@@ -169,6 +169,20 @@ subscription-management-breadcrumb-payment-2 = გადახდის სა�
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = უკან დაბრუნება – { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = სამწუხაროა, რომ გვტოვებთ.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = თქვენ მიერ გამოწერილი { $name } გაუქმებულია. ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
+subscription-cancellation-dialog-aside = კითხვები გაქვთ? იხილეთ <LinkExternal>{ -brand-mozilla } – მხარდაჭერა</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
+subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = ნებას ვრთავ { -brand-mozilla }-ს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
@@ -287,6 +301,13 @@ next-new-user-subscribe-product-updates-mozilla = მსურს შევი�
 next-new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
 next-new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = გსურთ კვლავ გამოიყენოთ { $productName }?
+subscription-content-button-resubscribe = ხელახლა გამოწერა
+    .aria-label = ახლიდან გამოიწერება { $productName }
+resubscribe-success-dialog-title = გმადლობთ! ყველაფერი მზადაა.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -297,9 +318,6 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = { $promotionName } ფასდაკლება აისახება
-subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
-subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
-subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = ბოლო ანგარიშსწორება • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } გადასახადი
@@ -313,42 +331,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = შეინარჩუნეთ გამოწერა
     .aria-label = შეინარჩუნეთ გამოწერილი { $productName }
-subscription-content-button-cancel-subscription-1 = გამოწერის გაუქმება
 subscription-content-button-cancel-subscription = გააუქმეთ გამოწერა
     .aria-label = გააუქმეთ თქვენ მიერ გამოწერილი { $productName }
-subscription-content-button-cancel = გაუქმება
-    .aria-label = გააუქმეთ გამოწერილი { $productName }
-subscription-content-cancel-action-error = მოულოდნელი შეცდომა წარმოიშვა. გთხოვთ, კვლავ სცადოთ.
-subscription-cancellation-dialog-title = სამწუხაროა, რომ გვტოვებთ.
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = თქვენ მიერ გამოწერილი { $name } გაუქმებულია. ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
-subscription-cancellation-dialog-aside = კითხვები გაქვთ? იხილეთ <LinkExternal>{ -brand-mozilla } – მხარდაჭერა</LinkExternal>.
-subscription-content-button-resubscribe = ხელახლა გამოწერა
-    .aria-label = ახლიდან გამოიწერება { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = თქვენ ვეღარ შეძლებთ გამოიყენოთ { $name } თარიღიდან <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = გსურთ კვლავ გამოიყენოთ { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = კვლავ შეგიძლიათ { $name } გამოიყენოთ, თქვენი საანგარიშო პერიოდი და გადახდები დარჩება იგივე. მომდევნო გადახდისას ჩამოიჭრება { $amount } თარიღზე { $endDate }.
-resubscribe-dialog-content-with-tax = კვლავ შეგიძლიათ გამოიყენოთ { $name }, თქვენი საანგარიშო პერიოდი და გადასახადი დარჩება იგივე. მომდევნო გადახდისას ჩამოიჭრება { $amount } + { $tax } დაბეგვრით თარიღზე { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = კვლავ გამოწერა
-    .aria-label = ახლიდან გამოიწერება { $productName }
-resubscribe-success-dialog-title = გმადლობთ! ყველაფერი მზადაა.
-resubscribe-success-dialog-action-button-close = დახურვა
-    .aria-label = არე დაიხურება
 
 ##
 
 dialog-close = სარკმლის დახურვა
+subscription-content-cancel-action-error = მოულოდნელი შეცდომა წარმოიშვა. გთხოვთ, კვლავ სცადოთ.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

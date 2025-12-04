@@ -124,6 +124,22 @@ subscription-management-breadcrumb-account-home = Strona główna konta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subskrypcje
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Przykro nam, że chcesz się z nami pożegnać
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Subskrypcja { $name } została anulowana. Będziesz mieć dostęp do { $name } do dnia { $date }.
+subscription-cancellation-dialog-aside = Masz pytania? Odwiedź <LinkExternal>pomoc { -brand-mozilla(case: "gen") }</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message =
+    Po { $currentPeriodEnd }, ostatnim dniu okresu rozliczeniowego,
+    nie będzie już można używać { $productName }.
+subscription-content-cancel-access-message = Anuluj mój dostęp i moje zachowane informacje w { $productName } w dniu { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Upoważniam { -brand-mozilla(case: "acc") } do pobierania wymienionej opłaty zgodnie z <termsOfServiceLink>regulaminem usługi</termsOfServiceLink> i <privacyNoticeLink>zasadami ochrony prywatności</privacyNoticeLink> oraz za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
@@ -242,6 +258,10 @@ next-new-user-subscribe-product-updates-mozilla = Chcę otrzymywać aktualności
 next-new-user-subscribe-product-updates-snp = Chcę otrzymywać aktualności i aktualizacje na temat bezpieczeństwa i prywatności od { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wyłącznie do utworzenia konta. Nigdy nie sprzedamy go komuś innemu.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-success-dialog-title = Dzięki! Wszystko gotowe.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -251,32 +271,14 @@ next-new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wył�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-heading-cancel-subscription = Anuluj subskrypcję
-subscription-content-no-longer-use-message =
-    Po { $currentPeriodEnd }, ostatnim dniu okresu rozliczeniowego,
-    nie będzie już można używać { $productName }.
-subscription-content-cancel-access-message = Anuluj mój dostęp i moje zachowane informacje w { $productName } w dniu { $currentPeriodEnd }
 subscription-content-button-stay-subscribed = Nie rezygnuj z subskrypcji
     .aria-label = Nie rezygnuj z subskrypcji { $productName }
 subscription-content-button-cancel-subscription = Anuluj subskrypcję
     .aria-label = Anuluj subskrypcję { $productName }
-subscription-content-button-cancel = Anuluj
-    .aria-label = Anuluj subskrypcję { $productName }
+
+##
+
 subscription-content-cancel-action-error = Wystąpił nieoczekiwany błąd. Spróbuj ponownie.
-subscription-cancellation-dialog-title = Przykro nam, że chcesz się z nami pożegnać
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Subskrypcja { $name } została anulowana. Będziesz mieć dostęp do { $name } do dnia { $date }.
-subscription-cancellation-dialog-aside = Masz pytania? Odwiedź <LinkExternal>pomoc { -brand-mozilla(case: "gen") }</LinkExternal>.
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-success-dialog-title = Dzięki! Wszystko gotowe.
-resubscribe-success-dialog-action-button-close = Zamknij
-    .aria-label = Zamknij okno dialogowe
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Upravljanje plačilnih metod
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Nazaj na { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Žal nam je, da nas zapuščate
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Vaša naročnina na { $name } je preklicana. { $name } boste lahko še vedno uporabljali do { $date }.
+subscription-cancellation-dialog-aside = Imate vprašanja? Obiščite <LinkExternal>podporo { -brand-mozilla }</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.
+subscription-content-cancel-access-message = Prekliči moj dostop in moje shranjene podatke do { $productName } dne { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Dovoljujem, da { -brand-mozilla } v skladu s <termsOfServiceLink>pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>obvestilom o zasebnosti</privacyNoticeLink> bremeni moje plačilno sredstvo za prikazani znesek, dokler ne prekličem naročnine.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Želim prejemati novice in obv
 next-new-user-subscribe-product-updates-snp = Želim prejemati novice in obvestila { -brand-mozilla(sklon: "rodilnik") } o varnosti in zasebnosti
 next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo za ustvarjanje vašega računa. Nikoli ga ne bomo prodali nikomur drugemu.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Želite še naprej uporabljati { $productName }?
+subscription-content-button-resubscribe = Obnovi naročnino
+    .aria-label = Ponovno se naroči na { $productName }
+resubscribe-success-dialog-title = Hvala! Zdaj ste nared.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = uveljavljen bo popust { $promotionName }
-subscription-content-heading-cancel-subscription = Prekliči naročnino
-subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.
-subscription-content-cancel-access-message = Prekliči moj dostop in moje shranjene podatke do { $productName } dne { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Zadnji račun • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } davka
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Ostanite naročnik
     .aria-label = Ostanite naročeni na { $productName }
-subscription-content-button-cancel-subscription-1 = Prekliči naročnino
 subscription-content-button-cancel-subscription = Prekliči naročnino
     .aria-label = Prekličite naročnino na { $productName }
-subscription-content-button-cancel = Prekliči
-    .aria-label = Prekličite naročnino na { $productName }
-subscription-content-cancel-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
-subscription-cancellation-dialog-title = Žal nam je, da nas zapuščate
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Vaša naročnina na { $name } je preklicana. { $name } boste lahko še vedno uporabljali do { $date }.
-subscription-cancellation-dialog-aside = Imate vprašanja? Obiščite <LinkExternal>podporo { -brand-mozilla }</LinkExternal>.
-subscription-content-button-resubscribe = Obnovi naročnino
-    .aria-label = Ponovno se naroči na { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Dne <strong>{ $date }</strong> boste izgubili dostop do { $name }.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Želite še naprej uporabljati { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Še naprej boste imeli dostop do { $name }, obračunsko obdobje in plačilo pa bosta ostali nespremenjeni. Vaša naslednja bremenitev v vrednosti { $amount } bo opravljena dne { $endDate }.
-resubscribe-dialog-content-with-tax = Vaš dostop do { $name } se bo še nadaljeval, obračun in plačilo pa bo ostalo nespremenjeno. Naslednja bremenitev bo { $amount } + { $tax } davek { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Obnovi naročnino
-    .aria-label = Ponovno se naroči na { $productName }
-resubscribe-success-dialog-title = Hvala! Zdaj ste nared.
-resubscribe-success-dialog-action-button-close = Zapri
-    .aria-label = Zapri pogovorno okno
 
 ##
 
 dialog-close = Zapri pogovorno okno
+subscription-content-cancel-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

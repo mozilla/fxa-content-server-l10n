@@ -169,6 +169,20 @@ subscription-management-breadcrumb-payment-2 = Administroni Metoda Pagesash
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Shkoni mbrapsht te { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Na vjen keq t’ju shohim të largoheni
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Pajtimi juaj në { $name } është anuluar. Do të mund të përdorni ende { $name } deri më { $date }.
+subscription-cancellation-dialog-aside = Keni pyetje? Vizitoni <LinkExternal>{ -brand-mozilla } Asistencën</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Pas { $currentPeriodEnd }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $productName }.
+subscription-content-cancel-access-message = Më { $currentPeriodEnd }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $productName }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = E autorizoj { -brand-mozilla } të faturojë metodën time të pagesave me vlerën e treguar, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënim Privatësie</privacyNoticeLink>, deri sa ta anuloj pajtimin tim.
@@ -285,6 +299,13 @@ next-new-user-subscribe-product-updates-mozilla = Do të doja të merrja nga { -
 next-new-user-subscribe-product-updates-snp = Do të doja të merrja nga { -brand-mozilla } lajme mbi sigurinë dhe privatësinë
 next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të krijuar llogarinë tuaj. S’do t’ia shesim kurrë një pale të tretë.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Doni të vazhdoni të përdorni { $productName }?
+subscription-content-button-resubscribe = Ripajtohuni
+    .aria-label = Ripajtohuni te { $productName }
+resubscribe-success-dialog-title = Faleminderit! Gjithçka gati.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -295,9 +316,6 @@ next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm pë
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Do të aplikohet zbritja { $promotionName }
-subscription-content-heading-cancel-subscription = Anulojeni Pajtimin
-subscription-content-no-longer-use-message = Pas { $currentPeriodEnd }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $productName }.
-subscription-content-cancel-access-message = Më { $currentPeriodEnd }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $productName }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Fatura e fundit më • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } taksë
@@ -311,42 +329,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Qëndroni i Pajtuar
     .aria-label = Qëndroni i pajtuar te { $productName }
-subscription-content-button-cancel-subscription-1 = Anulojeni pajtimin
 subscription-content-button-cancel-subscription = Anulojeni Pajtimin
     .aria-label = Anuloni pajtimin tuaj te { $productName }
-subscription-content-button-cancel = Anuloje
-    .aria-label = Anuloni pajtimin tuaj te { $productName }
-subscription-content-cancel-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
-subscription-cancellation-dialog-title = Na vjen keq t’ju shohim të largoheni
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Pajtimi juaj në { $name } është anuluar. Do të mund të përdorni ende { $name } deri më { $date }.
-subscription-cancellation-dialog-aside = Keni pyetje? Vizitoni <LinkExternal>{ -brand-mozilla } Asistencën</LinkExternal>.
-subscription-content-button-resubscribe = Ripajtohuni
-    .aria-label = Ripajtohuni te { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Do të humbni mundësinë e përdorimit të { $name } më <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Doni të vazhdoni të përdorni { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Përdorimi juaj i { $name } do të vazhdojë, dhe cikli juaj i faturimit dhe pagesa do të mbeten të njëjtët. Faturimi juaj pasues do të jetë { $amount } më { $endDate }.
-resubscribe-dialog-content-with-tax = Përdorimi juaj i { $name } do të vazhdojë, dhe cikli juaj i faturimit dhe pagesa do të mbeten të njëjtët. Faturimi juaj pasues do të jetë { $amount } + { $tax } taksë më { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Ripajtohuni
-    .aria-label = Ripajtohuni te { $productName }
-resubscribe-success-dialog-title = Faleminderit! Gjithçka gati.
-resubscribe-success-dialog-action-button-close = Mbylle
-    .aria-label = Mbylleni dialogun
 
 ##
 
 dialog-close = Mbylle dialogun
+subscription-content-cancel-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

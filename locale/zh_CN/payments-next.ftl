@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = 管理付款方式
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = 返回{ $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = 有缘再会
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = 您的 { $name } 订阅已取消。您仍可使用 { $name } 到 { $date }。
+subscription-cancellation-dialog-aside = 遇到问题？请访问 <LinkExternal>{ -brand-mozilla } 技术支持</LinkExternal>。
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。
+subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消我的 { $productName } 使用权，并删除保存的信息
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = 我授权 { -brand-mozilla } 依照<termsOfServiceLink>服务条款</termsOfServiceLink>和<privacyNoticeLink>隐私声明</privacyNoticeLink>，从我的付款方式收取此费用，直到我主动取消订阅为止。
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = 我愿意接收来自 { -brand
 next-new-user-subscribe-product-updates-snp = 我愿意接收来自 { -brand-mozilla } 的安全和隐私新闻及更新
 next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址来创建账户，绝不会将其出售予第三方。
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = 希望继续使用 { $productName }？
+subscription-content-button-resubscribe = 重新订阅
+    .aria-label = 重新订阅 { $productName }
+resubscribe-success-dialog-title = 处理完成，感谢！
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = 将使用 { $promotionName } 折扣
-subscription-content-heading-cancel-subscription = 取消订阅
-subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。
-subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消我的 { $productName } 使用权，并删除保存的信息
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = 上个结算日 • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + 税费 { $taxDue }
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + 税费 { $ta
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = 继续订阅
     .aria-label = 继续订阅 { $productName }
-subscription-content-button-cancel-subscription-1 = 取消订阅
 subscription-content-button-cancel-subscription = 取消订阅
     .aria-label = 取消订阅 { $productName }
-subscription-content-button-cancel = 取消
-    .aria-label = 取消订阅 { $productName }
-subscription-content-cancel-action-error = 发生意外错误，请重试。
-subscription-cancellation-dialog-title = 有缘再会
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = 您的 { $name } 订阅已取消。您仍可使用 { $name } 到 { $date }。
-subscription-cancellation-dialog-aside = 遇到问题？请访问 <LinkExternal>{ -brand-mozilla } 技术支持</LinkExternal>。
-subscription-content-button-resubscribe = 重新订阅
-    .aria-label = 重新订阅 { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = <strong>{ $date }</strong> 后，您将无法继续使用 { $name }。
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = 希望继续使用 { $productName }？
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = 您可继续使用 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate } 收取 { $amount }。
-resubscribe-dialog-content-with-tax = 您可继续使用 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate } 收取 { $amount } + 税款 { $tax }。
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = 重新订阅
-    .aria-label = 重新订阅 { $productName }
-resubscribe-success-dialog-title = 处理完成，感谢！
-resubscribe-success-dialog-action-button-close = 关闭
-    .aria-label = 关闭对话框
 
 ##
 
 dialog-close = 关闭对话框
+subscription-content-cancel-action-error = 发生意外错误，请重试。
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

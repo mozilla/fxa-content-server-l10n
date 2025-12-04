@@ -166,6 +166,22 @@ subscription-management-breadcrumb-payment-2 = Gestionează metodele de plată
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Înapoi la { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Ne pare rău că pleci.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Abonamentul la { $name } a fost anulat. Vei avea în continuare acces la { $name } până la { $date }.
+subscription-cancellation-dialog-aside = Ai întrebări? Intră pe <LinkExternal>{ -brand-mozilla } Asistență</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Nu vei mai putea folosi { $productName } după { $currentPeriodEnd }, ultima zi din ciclul de facturare.
+subscription-content-cancel-access-message =
+    Anulează-mi accesul și informațiile mele salvate în
+    { $productName } la { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } să îmi perceapă, prin metoda mea de plată, suma afișată, conform <termsOfServiceLink>Condițiilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
@@ -284,6 +300,13 @@ next-new-user-subscribe-product-updates-mozilla = Aș dori să primesc noutăți
 next-new-user-subscribe-product-updates-snp = Aș dori să primesc noutăți și actualizări despre securitate și confidențialitate de la { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Îți folosim adresa de e-mail doar pentru crearea contului. Nu o vom vinde niciodată către terți.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Vrei să folosești în continuare { $productName }?
+subscription-content-button-resubscribe = Reabonare
+    .aria-label = Reabonare la { $productName }
+resubscribe-success-dialog-title = Îți mulțumim! Totul este gata.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,11 +317,6 @@ next-new-user-subscribe-product-assurance = Îți folosim adresa de e-mail doar 
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Se va aplica reducerea { $promotionName }
-subscription-content-heading-cancel-subscription = Anulează abonamentul
-subscription-content-no-longer-use-message = Nu vei mai putea folosi { $productName } după { $currentPeriodEnd }, ultima zi din ciclul de facturare.
-subscription-content-cancel-access-message =
-    Anulează-mi accesul și informațiile mele salvate în
-    { $productName } la { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Ultima factură • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } taxe
@@ -312,44 +330,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Păstrează abonamentul
     .aria-label = Păstrează abonamentul la { $productName }
-subscription-content-button-cancel-subscription-1 = Anulează abonamentul
 subscription-content-button-cancel-subscription = Anulează abonamentul
     .aria-label = Anulează abonamentul la { $productName }
-subscription-content-button-cancel = Anulează
-    .aria-label = Anulează abonamentul la { $productName }
-subscription-content-cancel-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
-subscription-cancellation-dialog-title = Ne pare rău că pleci.
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Abonamentul la { $name } a fost anulat. Vei avea în continuare acces la { $name } până la { $date }.
-subscription-cancellation-dialog-aside = Ai întrebări? Intră pe <LinkExternal>{ -brand-mozilla } Asistență</LinkExternal>.
-subscription-content-button-resubscribe = Reabonare
-    .aria-label = Reabonare la { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Vei pierde accesul la { $name } pe data de <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Vrei să folosești în continuare { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content =
-    Vei avea în continuare acces la { $name }, iar ciclul de facturare și plăți va rămâne același. Data viitoare ți se va debita suma de
-    { $amount } la data de { $endDate }.
-resubscribe-dialog-content-with-tax = Vei avea în continuare acces la { $name }, iar ciclul de facturare și plăți va rămâne același. Data viitoare ți se va debita { $amount } + { $tax } taxe la data de { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Reabonare
-    .aria-label = Reabonare la { $productName }
-resubscribe-success-dialog-title = Îți mulțumim! Totul este gata.
-resubscribe-success-dialog-action-button-close = Închide
-    .aria-label = Închide caseta de dialog
 
 ##
 
 dialog-close = Închide caseta de dialog
+subscription-content-cancel-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

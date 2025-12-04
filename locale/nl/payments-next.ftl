@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Betalingsmethoden beheren
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Terug naar { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = We vinden het jammer dat u weggaat
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Uw abonnement op { $name } is opgezegd. U hebt nog tot { $date } toegang tot { $name }.
+subscription-cancellation-dialog-aside = Vragen? Bezoek <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = U kunt { $productName } niet meer gebruiken na { $currentPeriodEnd }, de laatste dag van uw betalingscyclus.
+subscription-content-cancel-access-message = Mijn toegang tot en opgeslagen gegevens in { $productName } op { $currentPeriodEnd } opzeggen
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Ik autoriseer { -brand-mozilla } om mijn betaalmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Ik wil graag productnieuws en 
 next-new-user-subscribe-product-updates-snp = Ik wil graag beveiligings- en privacynieuws en updates van { -brand-mozilla } ontvangen
 next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen om uw account aan te maken. We zullen het nooit aan een derde partij verkopen.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Wilt u { $productName } blijven gebruiken?
+subscription-content-button-resubscribe = Opnieuw abonneren
+    .aria-label = Opnieuw abonneren op { $productName }
+resubscribe-success-dialog-title = Bedankt! U bent helemaal klaar.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen o
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Korting vanwege { $promotionName } wordt toegepast
-subscription-content-heading-cancel-subscription = Abonnement opzeggen
-subscription-content-no-longer-use-message = U kunt { $productName } niet meer gebruiken na { $currentPeriodEnd }, de laatste dag van uw betalingscyclus.
-subscription-content-cancel-access-message = Mijn toegang tot en opgeslagen gegevens in { $productName } op { $currentPeriodEnd } opzeggen
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Laatste factuur • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } btw
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Abonnement behouden
     .aria-label = Abonnement op { $productName } behouden
-subscription-content-button-cancel-subscription-1 = Abonnement opzeggen
 subscription-content-button-cancel-subscription = Abonnement opzeggen
     .aria-label = Abonnement op { $productName } opzeggen
-subscription-content-button-cancel = Opzeggen
-    .aria-label = Uw abonnement op { $productName } opzeggen
-subscription-content-cancel-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
-subscription-cancellation-dialog-title = We vinden het jammer dat u weggaat
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Uw abonnement op { $name } is opgezegd. U hebt nog tot { $date } toegang tot { $name }.
-subscription-cancellation-dialog-aside = Vragen? Bezoek <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
-subscription-content-button-resubscribe = Opnieuw abonneren
-    .aria-label = Opnieuw abonneren op { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = U verliest op <strong>{ $date }</strong> toegang tot { $name }.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Wilt u { $productName } blijven gebruiken?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Uw toegang tot { $name } blijft bestaan, en uw betalingscyclus en betaling blijven hetzelfde. Uw volgende betaling wordt { $amount } op { $endDate }.
-resubscribe-dialog-content-with-tax = Uw toegang tot { $name } blijft bestaan, en uw betalingscyclus en betaling blijven hetzelfde. Uw volgende afschrijving is { $amount } + { $tax } btw op { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Opnieuw abonneren
-    .aria-label = Opnieuw abonneren op { $productName }
-resubscribe-success-dialog-title = Bedankt! U bent helemaal klaar.
-resubscribe-success-dialog-action-button-close = Sluiten
-    .aria-label = Dialoogvenster sluiten
 
 ##
 
 dialog-close = Dialoogvenster sluiten
+subscription-content-cancel-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

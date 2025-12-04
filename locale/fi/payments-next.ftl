@@ -146,6 +146,11 @@ subscription-management-breadcrumb-payment-2 = Hallitse maksutapoja
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Siirry takaisin sivulle { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Jäämme kaipaamaan sinua
+subscription-cancellation-dialog-aside = Onko sinulla kysyttävää? Käy <LinkExternal>{ -brand-mozilla }-tuessa</LinkExternal>.
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Valtuutan { -brand-mozilla }n veloittaa maksutapaani näytetyn summan verran, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
@@ -260,6 +265,13 @@ next-new-user-subscribe-product-updates-mozilla = Haluan saada tuoteuutisia ja p
 next-new-user-subscribe-product-updates-snp = Haluan saada turvallisuus- ja tietosuojauutisia sekä päivityksiä { -brand-mozilla }lta
 next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi vain tilin luomiseen. Emme koskaan myy sitä kolmannelle osapuolelle.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Haluatko jatkaa tuotteen { $productName } käyttämistä?
+subscription-content-button-resubscribe = Tilaa uudelleen
+    .aria-label = Tilaa { $productName } uudelleen
+resubscribe-success-dialog-title = Kiitos! Kaikki on nyt valmiina.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -269,7 +281,6 @@ next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi v
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-heading-cancel-subscription = Peruuta tilaus
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Viimeisin lasku • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } vero
@@ -282,33 +293,12 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Jatka tilausta
     .aria-label = Jatka tuotteen { $productName } tilausta
-subscription-content-button-cancel-subscription-1 = Peru tilaus
 subscription-content-button-cancel-subscription = Peruuta tilaus
     .aria-label = Peruuta tuotteen { $productName } tilaus
-subscription-content-button-cancel = Peruuta
-    .aria-label = Peruuta tuotteen { $productName } tilaus
+
+##
+
 subscription-content-cancel-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
-subscription-cancellation-dialog-title = Jäämme kaipaamaan sinua
-subscription-cancellation-dialog-aside = Onko sinulla kysyttävää? Käy <LinkExternal>{ -brand-mozilla }-tuessa</LinkExternal>.
-subscription-content-button-resubscribe = Tilaa uudelleen
-    .aria-label = Tilaa { $productName } uudelleen
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Käyttöoikeutesi palveluun { $name } päättyy <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Haluatko jatkaa tuotteen { $productName } käyttämistä?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Tilaa uudelleen
-    .aria-label = Tilaa { $productName } uudelleen
-resubscribe-success-dialog-title = Kiitos! Kaikki on nyt valmiina.
-resubscribe-success-dialog-action-button-close = Sulje
-    .aria-label = Sulje ikkuna
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

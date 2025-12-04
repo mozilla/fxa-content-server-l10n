@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Gerir métodos de pagamento
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Voltar para { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Lamentamos vê-lo partir
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = A sua subscrição de { $name } foi cancelada. Ainda terá acesso a { $name } até { $date }.
+subscription-cancellation-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Deixará de poder utilizar { $productName } depois de { $currentPeriodEnd }, o último dia do seu ciclo de faturação.
+subscription-content-cancel-access-message = Cancelar o meu acesso e a minha informação guardada em { $productName } em { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Eu autorizo a { -brand-mozilla } a cobrar o meu método de pagamento pelo valor apresentado, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>Informação de privacidade</privacyNoticeLink>, até eu cancelar a minha subscrição.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Eu gostaria de receber notíci
 next-new-user-subscribe-product-updates-snp = Eu gostaria de receber notícias e atualizações sobre segurança e privacidade da { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Deseja continuar a usar { $productName }?
+subscription-content-button-resubscribe = Resubscrever
+    .aria-label = Resubscrever a { $productName }
+resubscribe-success-dialog-title = Obrigado! Está tudo feito.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail 
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = { $promotionName } de desconto será aplicado
-subscription-content-heading-cancel-subscription = Cancelar subscrição
-subscription-content-no-longer-use-message = Deixará de poder utilizar { $productName } depois de { $currentPeriodEnd }, o último dia do seu ciclo de faturação.
-subscription-content-cancel-access-message = Cancelar o meu acesso e a minha informação guardada em { $productName } em { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Última fatura • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impostos
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Manter a subscrição
     .aria-label = Manter a subscrição em { $productName }
-subscription-content-button-cancel-subscription-1 = Cancelar subscrição
 subscription-content-button-cancel-subscription = Cancelar subscrição
     .aria-label = Cancelar a sua subscrição para { $productName }
-subscription-content-button-cancel = Cancelar
-    .aria-label = Cancelar a sua subscrição para { $productName }
-subscription-content-cancel-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
-subscription-cancellation-dialog-title = Lamentamos vê-lo partir
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = A sua subscrição de { $name } foi cancelada. Ainda terá acesso a { $name } até { $date }.
-subscription-cancellation-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
-subscription-content-button-resubscribe = Resubscrever
-    .aria-label = Resubscrever a { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Você ira perder acesso a { $name } em <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Deseja continuar a usar { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = O seu acesso a { $name } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão. O seu próximo débito será de { $amount } em { $endDate }.
-resubscribe-dialog-content-with-tax = O seu acesso a { $name } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão. O seu próximo débito será de { $amount } + { $tax } impostos em { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Resubscrever
-    .aria-label = Resubscrever a { $productName }
-resubscribe-success-dialog-title = Obrigado! Está tudo feito.
-resubscribe-success-dialog-action-button-close = Fechar
-    .aria-label = Fechar janela
 
 ##
 
 dialog-close = Fechar janela
+subscription-content-cancel-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

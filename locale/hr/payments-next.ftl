@@ -236,7 +236,6 @@ next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo z
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-heading-cancel-subscription = Otkaži pretplatu
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Zadnji račun • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } porez
@@ -246,19 +245,8 @@ subscription-management-link-view-invoice-aria = Prikaži račun za { $productNa
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Zadrži pretplatu
     .aria-label = Zadrži pretplatu za { $productName }
-subscription-content-button-cancel-subscription-1 = Otkaži pretplatu
 subscription-content-button-cancel-subscription = Otkaži pretplatu
     .aria-label = Otkaži pretplatu za { $productName }
-subscription-content-button-cancel = Odustani
-    .aria-label = Otkaži pretplatu za { $productName }
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-success-dialog-action-button-close = Zatvori
-    .aria-label = Zatvori dijalog
 
 ##
 

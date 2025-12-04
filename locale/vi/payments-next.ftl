@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Quản lý phương thức thanh 
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Quay lại { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Chúng tôi rất tiếc khi thấy bạn rời đi
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Gói đăng ký { $name } của bạn đã bị hủy. Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
+subscription-cancellation-dialog-aside = Có câu hỏi? Truy cập <LinkExternal>Hỗ trợ { -brand-mozilla }</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.
+subscription-content-cancel-access-message = Hủy quyền truy cập và thông tin đã lưu của tôi trong { $productName } vào { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Tôi ủy quyền { -brand-mozilla } để tính phí phương thức thanh toán của tôi cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản sử dụng</termsOfServiceLink> và <privacyNoticeLink>thông báo về quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Tôi muốn nhận tin tức s
 next-new-user-subscribe-product-updates-snp = Tôi muốn nhận tin tức và cập nhật về bảo mật và quyền riêng tư từ { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản cho bạn. Chúng tôi sẽ không bao giờ cung cấp nó cho bên thứ ba.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Bạn muốn tiếp tục sử dụng { $productName }?
+subscription-content-button-resubscribe = Đăng ký lại
+    .aria-label = Đăng ký lại { $productName }
+resubscribe-success-dialog-title = Cảm ơn! Bạn đã sẵn sàng.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email 
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Giảm giá { $promotionName } sẽ được áp dụng
-subscription-content-heading-cancel-subscription = Hủy đăng ký
-subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.
-subscription-content-cancel-access-message = Hủy quyền truy cập và thông tin đã lưu của tôi trong { $productName } vào { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Hoá đơn gần đây nhất • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } thuế
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Giữ gói đăng ký
     .aria-label = Giữ gói đăng ký { $productName }
-subscription-content-button-cancel-subscription-1 = Hủy đăng ký
 subscription-content-button-cancel-subscription = Huỷ gói đăng ký
     .aria-label = Huỷ gói đăng ký { $productName } của bạn
-subscription-content-button-cancel = Huỷ gói
-    .aria-label = Huỷ gói đăng ký { $productName } của bạn
-subscription-content-cancel-action-error = Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
-subscription-cancellation-dialog-title = Chúng tôi rất tiếc khi thấy bạn rời đi
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Gói đăng ký { $name } của bạn đã bị hủy. Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
-subscription-cancellation-dialog-aside = Có câu hỏi? Truy cập <LinkExternal>Hỗ trợ { -brand-mozilla }</LinkExternal>.
-subscription-content-button-resubscribe = Đăng ký lại
-    .aria-label = Đăng ký lại { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Bạn sẽ mất quyền truy cập vào { $name } vào <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Bạn muốn tiếp tục sử dụng { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Quyền truy cập của bạn vào { $name } sẽ tiếp tục và chu kỳ thanh toán của bạn sẽ giữ nguyên. Khoản phí tiếp theo của bạn sẽ là { $amount } vào { $endDate }.
-resubscribe-dialog-content-with-tax = Quyền truy cập của bạn vào { $name } sẽ tiếp tục và chu kỳ thanh toán của bạn sẽ giữ nguyên. Khoản phí tiếp theo của bạn sẽ là { $amount } + thuế { $tax } vào { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Đăng ký lại
-    .aria-label = Đăng ký lại { $productName }
-resubscribe-success-dialog-title = Cảm ơn! Bạn đã sẵn sàng.
-resubscribe-success-dialog-action-button-close = Đóng
-    .aria-label = Đóng hộp thoại
 
 ##
 
 dialog-close = Đóng hộp thoại
+subscription-content-cancel-action-error = Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

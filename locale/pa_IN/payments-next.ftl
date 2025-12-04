@@ -91,6 +91,10 @@ page-not-found-back-button = ਪਿੱਛੇ ਜਾਓ
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = { $page } ਉੱਤੇ ਵਾਪਸ ਜਾਓ
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = ਸਾਨੂੰ ਅਫਸੋਸ ਹੈ ਕਿ ਤੁਸੀਂ ਛੱਡ ਰਹੇ ਹੋ
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-checkbox-error = ਅੱਗੇ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਇਹ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
@@ -174,6 +178,12 @@ next-new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } �
 next-new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-assurance = ਅਸੀਂ ਤੁਹਾਡੇ ਈਮੇਲ ਨੂੰ ਸਿਰਫ ਤੁਹਾਡਾ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਹੀ ਵਰਤਦੇ ਹਾਂ। ਅਸੀਂ ਕਦੇ ਵੀ ਇਸ ਨੂੰ ਤੀਜੀ ਧਿਰ ਨੂੰ ਨਹੀਂ ਵੇਚਾਂਗੇ।
 
+## $productName (String) - The name of the subscribed product.
+
+subscription-content-button-resubscribe = ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
+    .aria-label = { $productName } ਲਈ ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
+resubscribe-success-dialog-title = ਧੰਨਵਾਦ! ਤੁਸੀਂ ਸਭ ਕਰ ਲਿਆ ਹੈ।
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -183,28 +193,10 @@ next-new-user-subscribe-product-assurance = ਅਸੀਂ ਤੁਹਾਡੇ ਈ�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-heading-cancel-subscription = ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕਰੋ
 subscription-content-button-stay-subscribed = ਮੈਂਬਰ ਬਣੇ ਰਹੋ
     .aria-label = { $productName } ਲਈ ਮੈਂਬਰ ਬਣੇ ਰਹੋ
 subscription-content-button-cancel-subscription = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
     .aria-label = { $productName } ਲਈ ਆਪਣੀ ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
-subscription-content-button-cancel = ਰੱਦ ਕਰੋ
-    .aria-label = { $productName } ਲਈ ਆਪਣੀ ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
-subscription-cancellation-dialog-title = ਸਾਨੂੰ ਅਫਸੋਸ ਹੈ ਕਿ ਤੁਸੀਂ ਛੱਡ ਰਹੇ ਹੋ
-subscription-content-button-resubscribe = ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
-    .aria-label = { $productName } ਲਈ ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
-    .aria-label = { $productName } ਲਈ ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
-resubscribe-success-dialog-title = ਧੰਨਵਾਦ! ਤੁਸੀਂ ਸਭ ਕਰ ਲਿਆ ਹੈ।
-resubscribe-success-dialog-action-button-close = ਬੰਦ ਕਰੋ
-    .aria-label = ਡਾਈਲਾਗ ਨੂੰ ਬੰਦ ਕਰੋ
 
 ##
 

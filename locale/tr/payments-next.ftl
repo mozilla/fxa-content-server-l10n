@@ -152,6 +152,19 @@ subscription-management-breadcrumb-payment-2 = Ödeme yöntemlerini yönet
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = { $page } sayfasına geri dön
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Gitmenize üzüldük
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = { $name } aboneliğiniz iptal edildi. { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
+subscription-cancellation-dialog-aside = Sorularınız mı var? <LinkExternal>{ -brand-mozilla } Destek</LinkExternal> sitesini ziyaret edin.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Fatura döneminizin son günü olan { $currentPeriodEnd } tarihinden sonra { $productName } ürününü kullanamayacaksınız.
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = { -brand-mozilla }’nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
@@ -263,6 +276,11 @@ next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }’dan ürü
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }’dan güvenlik ve gizlilik ile ilgili haberleri ve duyuruları almak istiyorum
 next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınızı açmak için kullanıyoruz. Asla üçüncü şahıslara satmıyoruz.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = { $name } ürününü kullanmaya devam etmek ister misiniz?
+resubscribe-success-dialog-title = Teşekkürler! Artık hazırsınız.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -272,40 +290,17 @@ next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınız�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-heading-cancel-subscription = Aboneliği iptal et
-subscription-content-no-longer-use-message = Fatura döneminizin son günü olan { $currentPeriodEnd } tarihinden sonra { $productName } ürününü kullanamayacaksınız.
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } vergi
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Faturayı görüntüle
 subscription-management-link-view-invoice-aria = { $productName } faturasını görüntüle
 subscription-content-expires-on-expiry-date = Son geçerlilik tarihi: { $date }
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
-subscription-content-button-cancel-subscription-1 = Aboneliği iptal et
-subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
-subscription-cancellation-dialog-title = Gitmenize üzüldük
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = { $name } aboneliğiniz iptal edildi. { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
-subscription-cancellation-dialog-aside = Sorularınız mı var? <LinkExternal>{ -brand-mozilla } Destek</LinkExternal> sitesini ziyaret edin.
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = { $name } erişiminiz <strong>{ $date }</strong> tarihinde sona erecek.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = { $name } ürününü kullanmaya devam etmek ister misiniz?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = { $name } ürününe erişiminiz devam edecek ve faturalandırma döngünüz ve ödemeniz aynı kalacaktır. Bir sonraki ödemeniz { $endDate } tarihinde { $amount } olacaktır.
-resubscribe-success-dialog-title = Teşekkürler! Artık hazırsınız.
-resubscribe-success-dialog-action-button-close = Kapat
-    .aria-label = Pencereyi kapat
 
 ##
 
 dialog-close = İletişim kutusunu kapat
+subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

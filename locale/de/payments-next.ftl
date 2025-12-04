@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Zahlungsmethoden verwalten
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Zurück zu { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Es tut uns leid, dass Sie uns verlassen
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Ihr Abonnement für { $name } wurde gekündigt. Sie haben noch bis { $date } Zugriff auf { $name }.
+subscription-cancellation-dialog-aside = Haben Sie Fragen? Besuchen Sie die <LinkExternal>{ -brand-mozilla }-Hilfe</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Sie können { $productName } nach dem { $currentPeriodEnd }, dem letzten Tag Ihres Abrechnungszeitraums, nicht mehr verwenden.
+subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodEnd } beenden und meine in { $productName } gespeicherten Daten entfernen
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Ich ermächtige { -brand-mozilla }, meine Zahlungsmethode gemäß den <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink> mit dem angezeigten Betrag zu belasten, bis ich meinen Dauerauftrag kündige.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Ich möchte Neuigkeiten zu Pro
 next-new-user-subscribe-product-updates-snp = Ich möchte Neuigkeiten zu Sicherheit und Datenschutz von { -brand-mozilla } erhalten
 next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nur, um Ihr Konto zu erstellen. Wir verkaufen Sie nie an Dritte.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Möchten Sie weiterhin { $productName } verwenden?
+subscription-content-button-resubscribe = Dauerauftrag erneuern
+    .aria-label = Dauerauftrag für { $productName } erneuern
+resubscribe-success-dialog-title = Vielen Dank! Alles top! Sie sind fertig!
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Rabatt von { $promotionName } wird angewendet
-subscription-content-heading-cancel-subscription = Dauerauftrag stornieren
-subscription-content-no-longer-use-message = Sie können { $productName } nach dem { $currentPeriodEnd }, dem letzten Tag Ihres Abrechnungszeitraums, nicht mehr verwenden.
-subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodEnd } beenden und meine in { $productName } gespeicherten Daten entfernen
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Letzte Rechnung • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } Steuern
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Dauerauftrag beibehalten
     .aria-label = { $productName } weiterhin abonnieren
-subscription-content-button-cancel-subscription-1 = Abonnement kündigen
 subscription-content-button-cancel-subscription = Dauerauftrag stornieren
     .aria-label = Ihren Dauerauftrag für { $productName } stornieren
-subscription-content-button-cancel = Abbrechen
-    .aria-label = Ihren Dauerauftrag für { $productName } stornieren
-subscription-content-cancel-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
-subscription-cancellation-dialog-title = Es tut uns leid, dass Sie uns verlassen
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Ihr Abonnement für { $name } wurde gekündigt. Sie haben noch bis { $date } Zugriff auf { $name }.
-subscription-cancellation-dialog-aside = Haben Sie Fragen? Besuchen Sie die <LinkExternal>{ -brand-mozilla }-Hilfe</LinkExternal>.
-subscription-content-button-resubscribe = Dauerauftrag erneuern
-    .aria-label = Dauerauftrag für { $productName } erneuern
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Sie verlieren am <strong>{ $date }</strong> den Zugriff auf { $name }.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Möchten Sie weiterhin { $productName } verwenden?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Ihr Zugriff auf { $name } bleibt bestehen und Ihr Abrechnungsrhythmus und Ihre Zahlung bleiben gleich. Ihre nächste Rechnung beträgt { $amount } auf { $endDate }.
-resubscribe-dialog-content-with-tax = Ihr Zugriff auf { $name } bleibt bestehen und Ihr Abrechnungsrhythmus und Ihre Zahlung bleiben gleich. Ihre nächste Rechnung beträgt { $amount } + { $tax } Steuern für { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Dauerauftrag erneuern
-    .aria-label = { $productName } erneut abonnieren
-resubscribe-success-dialog-title = Vielen Dank! Alles top! Sie sind fertig!
-resubscribe-success-dialog-action-button-close = Schließen
-    .aria-label = Dialog schließen
 
 ##
 
 dialog-close = Dialog schließen
+subscription-content-cancel-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -169,6 +169,22 @@ subscription-management-breadcrumb-payment-2 = Płaśeńske metody zastojaś
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Slědk k { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Jo nam luto, až wótejźośo
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Waš abonement za { $name } jo se wupowěźeł. Maśo hyšći pśistup k { $name } až do { $date }.
+subscription-cancellation-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message =
+    Pó { $currentPeriodEnd }, slědnem dnju swójogo wótliceńskeje periody,
+    wěcej njamóžośo { $productName } wužywaś.
+subscription-content-cancel-access-message = Wótwónoźćo mój pśistup a móje skłaźone informacije w { $productName } dnja { $currentPeriodEnd }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Awtorizěrujom { -brand-mozilla } pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu wobśěžyś, daniž swój abonement njewupowěźejom.
@@ -287,6 +303,13 @@ next-new-user-subscribe-product-updates-mozilla = Ja by rady dostał produktowe 
 next-new-user-subscribe-product-updates-snp = Ja by rady dostał nowosći wó wěstośe a priwatnosći a aktualizacije wót { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adresu, aby my waše konto załožyli. Tśeśemu póbitowarjeju ju nigda njepśedajomy.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Cośo { $productName } dalej wužywaś?
+subscription-content-button-resubscribe = Abonement wótnowiś
+    .aria-label = { $productName } znowego aboněrowaś
+resubscribe-success-dialog-title = Wjeliki źěk! Sćo gótowy za start.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -297,11 +320,6 @@ next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adres
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Rabat { $promotionName } se nałožyjo
-subscription-content-heading-cancel-subscription = Abonement wupowěźeś
-subscription-content-no-longer-use-message =
-    Pó { $currentPeriodEnd }, slědnem dnju swójogo wótliceńskeje periody,
-    wěcej njamóžośo { $productName } wužywaś.
-subscription-content-cancel-access-message = Wótwónoźćo mój pśistup a móje skłaźone informacije w { $productName } dnja { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Slědna zliceńka • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } danka
@@ -315,42 +333,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Dalej aboněrowaś
     .aria-label = { $productName } dalej aboněrowaś
-subscription-content-button-cancel-subscription-1 = Abonement wupowěźeś
 subscription-content-button-cancel-subscription = Abonement wupowěźeś
     .aria-label = Waš { $productName } dalej aboněrowaś
-subscription-content-button-cancel = Wupowěźeś
-    .aria-label = Waš abonement { $productName } wupowěźiś
-subscription-content-cancel-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
-subscription-cancellation-dialog-title = Jo nam luto, až wótejźośo
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Waš abonement za { $name } jo se wupowěźeł. Maśo hyšći pśistup k { $name } až do { $date }.
-subscription-cancellation-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
-subscription-content-button-resubscribe = Abonement wótnowiś
-    .aria-label = { $productName } znowego aboněrowaś
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Zgubijośo <strong>{ $date }</strong> pśistup k { $name }.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Cośo { $productName } dalej wužywaś?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Waš pśistup k { $name } dalej wobstoj. a waša wótliceńska perioda a wašo płaśenje te samskej wóstanjotej. Wašo pśiduce wótpisanje buźo { $endDate } { $amount }.
-resubscribe-dialog-content-with-tax = Waš pśistup k { $name } dalej wobstoj. a waša wótliceńska perioda a wašo płaśenje te samskej wóstanjotej. Wašo pśiduce wótpisanje buźo { $endDate } { $amount } + { $tax } danka.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Abonement wótnowiś
-    .aria-label = { $productName } znowego aboněrowaś
-resubscribe-success-dialog-title = Wjeliki źěk! Sćo gótowy za start.
-resubscribe-success-dialog-action-button-close = Zacyniś
-    .aria-label = Dialog zacyniś
 
 ##
 
 dialog-close = Dialog zacyniś
+subscription-content-cancel-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

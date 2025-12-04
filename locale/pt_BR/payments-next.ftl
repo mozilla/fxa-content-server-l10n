@@ -92,6 +92,10 @@ page-not-found-back-button = Voltar
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Assinaturas
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Ficamos tristes com sua decisão.
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Autorizo à { -brand-mozilla } cobrar com meu método de pagamento a quantia exibida, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até eu cancelar minha assinatura.
@@ -208,16 +212,14 @@ next-new-user-subscribe-product-assurance = Só usamos seu email para criar sua 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-heading-cancel-subscription = Cancelar assinatura
 subscription-content-button-stay-subscribed = Manter assinatura
     .aria-label = Manter a assinatura do { $productName }
-subscription-content-button-cancel-subscription-1 = Cancelar assinatura
 subscription-content-button-cancel-subscription = Cancelar assinatura
     .aria-label = Cancelar sua assinatura do { $productName }
-subscription-content-button-cancel = Cancelar
-    .aria-label = Cancelar sua assinatura do { $productName }
+
+##
+
 subscription-content-cancel-action-error = Ocorreu um erro inesperado. Tente novamente.
-subscription-cancellation-dialog-title = Ficamos tristes com sua decisão.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
