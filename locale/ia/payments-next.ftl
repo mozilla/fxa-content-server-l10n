@@ -73,7 +73,7 @@ paypal-active-subscription-no-billing-agreement-error = Il pare que il habeva un
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
-next-payment-processing-message = Attende durante que nos elabora tu pagamento…
+next-payment-processing-message = Attende dum nos elabora tu pagamento…
 
 ## Success page - /checkout and /upgrade
 ## Common strings used in multiple checkout pages
@@ -98,6 +98,11 @@ next-payment-confirmation-download-button = Continuar a discargar
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
+
+## Not found page
+
+not-found-title-subscriptions = Abonamento non trovate.
+not-found-button-back-to-subscriptions = Retornar al abonamentos
 
 ## Page - Subscription Management
 
