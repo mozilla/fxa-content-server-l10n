@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Wuměnjenja a wobmjezowanja
+loyalty-discount-terms-support = Pomoc skontaktować
+loyalty-discount-terms-support-aria = Pomoc skontaktować
+
 ## Page
 
 checkout-signin-or-create = 1. Přizjewće so abo załožće { -product-mozilla-account }
@@ -98,6 +102,12 @@ next-payment-confirmation-download-button = Dale k sćehnjenju
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } kónči
 
+## Not found page
+
+not-found-title-subscriptions = Abonement njeje so namakał
+not-found-description-subscriptions = Njemóžachmy waš abonement namakać. Prošu spytajće hišće raz abo skontaktujće pomoc.
+not-found-button-back-to-subscriptions = Wróćo k abonementam
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Žana płaćenska metoda přidata
@@ -176,6 +186,8 @@ subscription-cancellation-dialog-title = Je nam žel, zo woteńdźeće
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Waš abonement za { $name } je so wupowědźił. Maće hišće přistup k { $name } hač do { $date }.
 subscription-cancellation-dialog-aside = Maće prašenja? Wopytajće <LinkExternal>Pomoc { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Abonement { $productName } wupowědźić
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -184,6 +196,13 @@ subscription-content-no-longer-use-message =
     Po { $currentPeriodEnd }, poslednim dnju swojeho wotličenskeje periody,
     hižo njemóžeće { $productName } wužiwać.
 subscription-content-cancel-access-message = Wotstrońće mój přistup  a moje składowane informacije w { $productName } dnja { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Abonement wupowědźić
+    .aria-label = Waš abonement { $productName } wupowědźić
+cancel-subscription-button-stay-subscribed = Dale abonować
+    .aria-label = { $productName } dale abonować
 
 ## Component - Payment Consent Checkbox
 
@@ -339,6 +358,7 @@ subscription-content-button-cancel-subscription = Abonement wupowědźić
 ##
 
 dialog-close = Dialog začinić
+button-back-to-subscriptions = Wróćo k abonementam
 subscription-content-cancel-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
