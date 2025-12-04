@@ -1049,6 +1049,7 @@ verify-secondary-email-please-enter-code-2 = Fier binnen 5 minuten de befêstigi
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } mei sukses tafoege
+verify-secondary-email-resend-code-button = Befêstigingskoade opnij ferstjoere
 
 ##
 
