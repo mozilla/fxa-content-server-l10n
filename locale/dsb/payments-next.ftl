@@ -1,4 +1,6 @@
 loyalty-discount-terms-heading = Wuměnjenja a wobgranicowanja
+loyalty-discount-terms-support = Z pomocu se kontaktěrowaś
+loyalty-discount-terms-support-aria = Z pomocu se kontaktěrowaś
 
 ## Page
 
@@ -100,6 +102,12 @@ next-payment-confirmation-download-button = Dalej k ześěgnjenjeju
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
 
+## Not found page
+
+not-found-title-subscriptions = Abonement njejo se namakał
+not-found-description-subscriptions = Njejsmy mógli waš abonement namakaś. Pšosym wopytajśo hyšći raz abo kontaktěrujśo se z pomocu.
+not-found-button-back-to-subscriptions = Slědk k abonementam
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Žedna płaśeńska metoda pśidana
@@ -178,6 +186,8 @@ subscription-cancellation-dialog-title = Jo nam luto, až wótejźośo
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Waš abonement za { $name } jo se wupowěźeł. Maśo hyšći pśistup k { $name } až do { $date }.
 subscription-cancellation-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Abonement { $productName } wupowěźeś
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -186,6 +196,13 @@ subscription-content-no-longer-use-message =
     Pó { $currentPeriodEnd }, slědnem dnju swójogo wótliceńskeje periody,
     wěcej njamóžośo { $productName } wužywaś.
 subscription-content-cancel-access-message = Wótwónoźćo mój pśistup a móje skłaźone informacije w { $productName } dnja { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Abonement wupowěźeś
+    .aria-label = Waš abonement { $productName } wupowěźeś
+cancel-subscription-button-stay-subscribed = Dalej aboněrowaś
+    .aria-label = { $productName } dalej aboněrowaś
 
 ## Component - Payment Consent Checkbox
 
@@ -308,9 +325,18 @@ next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adres
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Cośo { $productName } dalej wužywaś?
+stay-subscribed-access-will-continue = Waš pśistup k { $productName } dalej wobstoj a waš wótliceński cyklus a płaśenje samske wóstawa.
 subscription-content-button-resubscribe = Abonement wótnowiś
     .aria-label = { $productName } znowego aboněrowaś
 resubscribe-success-dialog-title = Wjeliki źěk! Sćo gótowy za start.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Wašo pśiduce wótpisanje buźo { $nextInvoiceTotal } + dank { $taxDue } dnja { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Wašo pśiduce wótpisanje buźo { $nextInvoiceTotal } dnja { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -341,6 +367,7 @@ subscription-content-button-cancel-subscription = Abonement wupowěźeś
 ##
 
 dialog-close = Dialog zacyniś
+button-back-to-subscriptions = Slědk k abonementam
 subscription-content-cancel-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
