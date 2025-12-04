@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Terminos e restrictiones
+loyalty-discount-terms-support = Contactar assistentia
+loyalty-discount-terms-support-aria = Contactar assistentia
+
 ## Page
 
 checkout-signin-or-create = 1. Acceder o crear un { -product-mozilla-account }
