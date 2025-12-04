@@ -327,7 +327,7 @@ subscription-content-button-resubscribe = Đăng ký lại
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Bạn sẽ mất quyền truy cập vào { $name } vào <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Bạn muốn tiếp tục sử dụng { $name }?
+resubscribe-dialog-title = Bạn muốn tiếp tục sử dụng { $productName }?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.

@@ -327,7 +327,7 @@ subscription-content-button-resubscribe = Dauerauftrag erneuern
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Sie verlieren am <strong>{ $date }</strong> den Zugriff auf { $name }.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Möchten Sie weiterhin { $name } verwenden?
+resubscribe-dialog-title = Möchten Sie weiterhin { $productName } verwenden?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.

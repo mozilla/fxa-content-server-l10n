@@ -281,7 +281,7 @@ subscription-content-button-resubscribe = Torne aboniti
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Tu pierdarâs l’acès a { $name } ai <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Desideristu continuâ a doprâ { $name }?
+resubscribe-dialog-title = Desideristu continuâ a doprâ { $productName }?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.

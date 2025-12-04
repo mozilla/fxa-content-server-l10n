@@ -329,7 +329,7 @@ subscription-content-button-resubscribe = Újbóli előfizetés
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = El fogja veszíteni a hozzáférését a(z) { $name } termékhez, ekkor: <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $name }?
+resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $productName }?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.

@@ -327,7 +327,7 @@ subscription-content-button-resubscribe = Επανανεγγραφή
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Θα ολοκληρωθεί η πρόσβαση στο { $name } στις <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $name };
+resubscribe-dialog-title = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $productName };
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.

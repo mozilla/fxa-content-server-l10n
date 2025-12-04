@@ -311,7 +311,7 @@ subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Stay Subscribed
     .aria-label = Stay subscribed to { $productName }
 subscription-content-button-cancel-subscription-1 = Cancel subscription
-subscription-content-button-cancel-subscription = Cancel Subscription
+subscription-content-button-cancel-subscription = Cancel subscription
     .aria-label = Cancel your subscription to { $productName }
 subscription-content-button-cancel = Cancel
     .aria-label = Cancel your subscription to { $productName }
@@ -327,7 +327,7 @@ subscription-content-button-resubscribe = Resubscribe
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = You will lose access to { $name } on <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Want to keep using { $name }?
+resubscribe-dialog-title = Want to keep using { $productName }?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.

@@ -327,7 +327,7 @@ subscription-content-button-resubscribe = Opnij abonnearje
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Jo ferlieze op <strong>{ $date }</strong> tagong ta { $name }.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Wolle jo { $name } brûke bliuwe?
+resubscribe-dialog-title = Wolle jo { $productName } brûke bliuwe?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
@@ -445,3 +445,12 @@ next-coupon-error-generic = Der is in flater bard by it ferwurkjen fan de koade.
 next-coupon-error-invalid = De ynfierde koade is ûnjildich.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = De ynfierde koade hat syn limyt berikt.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Dizze oanbieding is ferrûn.
+stay-subscribed-error-discount-used = Koartingskoade al tapast.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Dizze koarting is allinnich beskikber foar hjoeddeiske abonnees fan { $productTitle }.
+stay-subscribed-error-still-active = Jo { $productTitle }-abonnemint is noch aktyf.
+stay-subscribed-error-general = Der is in probleem bard by it ferlingjen fan jo abonnemint.

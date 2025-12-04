@@ -330,7 +330,7 @@ subscription-content-button-resubscribe = ხელახლა გამოწ�
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = თქვენ ვეღარ შეძლებთ გამოიყენოთ { $name } თარიღიდან <strong>{ $date }</strong>.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = გსურთ კვლავ გამოიყენოთ { $name }?
+resubscribe-dialog-title = გსურთ კვლავ გამოიყენოთ { $productName }?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.

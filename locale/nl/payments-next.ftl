@@ -327,7 +327,7 @@ subscription-content-button-resubscribe = Opnieuw abonneren
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = U verliest op <strong>{ $date }</strong> toegang tot { $name }.
 # $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Wilt u { $name } blijven gebruiken?
+resubscribe-dialog-title = Wilt u { $productName } blijven gebruiken?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
