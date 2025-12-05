@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = პირობები და შეზღუდვები
+loyalty-discount-terms-support = დაკავშირება მხარდაჭერისთვის
+loyalty-discount-terms-support-aria = დაკავშირება მხარდაჭერისთვის
+
 ## Page
 
 checkout-signin-or-create = 1. შედით ან შექმენით { -product-mozilla-account }
@@ -98,6 +102,12 @@ next-payment-confirmation-download-button = განაგრძეთ ჩა�
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = გამოწერა ვერ მოიძებნა
+not-found-description-subscriptions = ვერ მოიძებნა თქვენი გამოწერა. გთხოვთ, კვლავ სცადოთ ან დაგვიკავშირდეთ მხარდაჭერისთვის.
+not-found-button-back-to-subscriptions = დაბრუნება გამოწერებზე
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = გადახდის საშუალების არაა დამატებული
@@ -176,12 +186,21 @@ subscription-cancellation-dialog-title = სამწუხაროა, რო�
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = თქვენ მიერ გამოწერილი { $name } გაუქმებულია. ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
 subscription-cancellation-dialog-aside = კითხვები გაქვთ? იხილეთ <LinkExternal>{ -brand-mozilla } – მხარდაჭერა</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = გაუქმდეს გამოწერილი { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
 subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = გამოწერის გაუქმება
+    .aria-label = გაუქმდეს თქვენ მიერ გამოწერილი { $productName }
+cancel-subscription-button-stay-subscribed = გამოწერის დატოვება
+    .aria-label = დარჩეს გამოწერილი { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -304,6 +323,7 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = გსურთ კვლავ გამოიყენოთ { $productName }?
+stay-subscribed-access-will-continue = კვლავ შეგეძლებათ გამოიყენოთ { $productName }, თქვენი ანგარიშსწორებისა და გადახდის შუალედები დარჩება უცვლელი.
 subscription-content-button-resubscribe = ხელახლა გამოწერა
     .aria-label = ახლიდან გამოიწერება { $productName }
 resubscribe-success-dialog-title = გმადლობთ! ყველაფერი მზადაა.
