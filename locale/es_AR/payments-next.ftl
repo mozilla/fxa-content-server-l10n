@@ -102,7 +102,7 @@ next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 ## Not found page
 
 not-found-title-subscriptions = Suscripción no encontrada
-not-found-description-subscriptions = No pudimos encontrar tu suscripción. Intente nuevamente o contacte a soporte.
+not-found-description-subscriptions = No pudimos encontrar tu suscripción. Probá de nuevo o contactá a soporte.
 not-found-button-back-to-subscriptions = Volver a suscripciones
 
 ## Page - Subscription Management
@@ -184,7 +184,7 @@ subscription-cancellation-dialog-title = Lamentamos que te vayas
 subscription-cancellation-dialog-msg = Tu suscripción de { $name } ha sido cancelada. Seguirás teniendo acceso a { $name } hasta el { $date }.
 subscription-cancellation-dialog-aside = ¿Tenés preguntas? Visitá <linkExternal>Soporte de { -brand-mozilla }</linkExternal>.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-cancel-subscription-heading = Cancelar { $productName } suscripción
+cancel-subscription-heading = Cancelar suscripción a { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -197,7 +197,7 @@ subscription-content-cancel-access-message = Cancelar mi acceso y mi informació
 cancel-subscription-button-cancel-subscription = Cancelar suscripción
     .aria-label = Cancelá tu suscripción a { $productName }
 cancel-subscription-button-stay-subscribed = Mantener la suscripción
-    .aria-label = Mantener la suscripción a { $productName }
+    .aria-label = Mantené la suscripción a { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -330,7 +330,7 @@ resubscribe-success-dialog-title = ¡Gracias! Está todo listo.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = El próximo cargo será de { $nextInvoiceTotal } + { $taxDue } impuestos en { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = El próximo cargo será de { $nextInvoiceTotal } + { $taxDue } de impuestos el { $currentPeriodEnd }.
 stay-subscribed-next-charge-no-tax = Tu próximo cargo será de { $nextInvoiceTotal } el { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)

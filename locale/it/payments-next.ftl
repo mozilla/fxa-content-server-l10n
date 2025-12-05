@@ -103,7 +103,7 @@ next-payment-confirmation-cc-card-ending-in = Carta che termina con { $last4 }
 
 not-found-title-subscriptions = Abbonamento non trovato
 not-found-description-subscriptions = Impossibile trovare l’abbonamento. Riprova o contatta il supporto.
-not-found-button-back-to-subscriptions = Torna alle sottoscrizioni
+not-found-button-back-to-subscriptions = Torna agli abbonamenti
 
 ## Page - Subscription Management
 
@@ -184,7 +184,7 @@ subscription-cancellation-dialog-title = Ci dispiace per la tua decisione
 subscription-cancellation-dialog-msg = Il tuo abbonamento a { $name } è stato annullato. Potrai comunque accedere a { $name } fino al { $date }.
 subscription-cancellation-dialog-aside = Hai una domanda? Visita il sito per il <LinkExternal>supporto { -brand-mozilla }</LinkExternal>.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-cancel-subscription-heading = Annulla l’abbonamento a { $productName }
+cancel-subscription-heading = Cancella l’abbonamento a { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -194,8 +194,8 @@ subscription-content-cancel-access-message = Disattiva il mio accesso e rimuovi 
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
-cancel-subscription-button-cancel-subscription = Annulla abbonamento
-    .aria-label = Annulla l’abbonamento a { $productName }
+cancel-subscription-button-cancel-subscription = Cancella abbonamento
+    .aria-label = Cancella l’abbonamento a { $productName }
 cancel-subscription-button-stay-subscribed = Rimani abbonato
     .aria-label = Rimani abbonato a { $productName }
 
@@ -320,7 +320,7 @@ next-new-user-subscribe-product-assurance = Utilizziamo la tua email solo per cr
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vuoi continuare a utilizzare { $productName }?
-stay-subscribed-access-will-continue = Il tuo accesso a { $productName } continuerà e il ciclo di fatturazione e il pagamento rimarranno invariati.
+stay-subscribed-access-will-continue = Continuerai ad avere accesso a { $productName } e il ciclo di fatturazione e il pagamento non subiranno cambiamenti.
 subscription-content-button-resubscribe = Abbonati nuovamente
     .aria-label = Abbonati nuovamente a { $productName }
 resubscribe-success-dialog-title = Grazie! Tutto pronto.
@@ -330,7 +330,7 @@ resubscribe-success-dialog-title = Grazie! Tutto pronto.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } tasse su { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } tasse il { $currentPeriodEnd }.
 stay-subscribed-next-charge-no-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } il { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
@@ -362,7 +362,7 @@ subscription-content-button-cancel-subscription = Cancella abbonamento
 ##
 
 dialog-close = Chiudi finestra di dialogo
-button-back-to-subscriptions = Torna alle sottoscrizioni
+button-back-to-subscriptions = Torna agli abbonamenti
 subscription-content-cancel-action-error = Si è verificato un errore imprevisto. Riprova.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
