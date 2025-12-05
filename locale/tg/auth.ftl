@@ -185,9 +185,22 @@ payment-plan-next-invoice = Санади дархости пардохти на�
 
 payment-method-payment-provider-plaintext = Тарзи пардохт: { $paymentProviderName }
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+subscription-charges-invoice-summary = Ҷамъбасти санадҳои дархости пардохт
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Рақами санади дархости пардохт:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Рақами санади дархости пардохт: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Сана:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Сана: { $invoiceDateOnly }
 subscription-charges-list-price = Нархнома
@@ -197,6 +210,7 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Ҷамъи миёна: { $in
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount-plaintext = Тахфифи яккарата: { $invoiceDiscountAmount }
 subscription-charges-discount = Тахфиф
 subscription-charges-discount-plaintext = Тахфиф: { $invoiceDiscountAmount }
 subscription-charges-taxes = Андозҳо ва ҳаққи ҳизматрасонӣ
@@ -236,6 +250,7 @@ location-state-country = { $stateCode }, { $country } (тақрибан)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (тақрибан)
+view-invoice-link-action = Дидани санади дархости пардохт
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
