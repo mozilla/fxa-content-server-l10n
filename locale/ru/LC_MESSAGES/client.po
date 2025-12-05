@@ -202,7 +202,7 @@ msgstr "Не удалось скопировать. Пожалуйста, ско
 
 #: .es5/views/mixins/save-options-mixin.js:69
 msgid "Downloaded"
-msgstr "Загружено"
+msgstr "Скачано"
 
 #: .es5/views/mixins/save-options-mixin.js:80
 msgid "Printed"
@@ -1211,7 +1211,7 @@ msgstr "Храните эти одноразовые коды в безопас�
 
 #: .es5/templates/inline_recovery_setup.mustache:5
 msgid "Download"
-msgstr "Загрузить"
+msgstr "Скачать"
 
 #: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
 msgid "Copy"
@@ -1293,16 +1293,16 @@ msgstr "Используйте синхронизацию по полной."
 #: .es5/templates/marketing_snippet.mustache:2 .es5/templates/marketing_snippet.mustache:3 .es5/templates/marketing_snippet.mustache:11 .es5/templates/marketing_snippet.mustache:15
 #: .es5/templates/marketing_snippet.mustache:19
 msgid "Download Firefox for iOS!"
-msgstr "Загрузите Firefox для iOS!"
+msgstr "Скачайте Firefox для iOS!"
 
 #: .es5/templates/marketing_snippet.mustache:6 .es5/templates/marketing_snippet.mustache:7 .es5/templates/marketing_snippet.mustache:12 .es5/templates/marketing_snippet.mustache:17
 #: .es5/templates/marketing_snippet.mustache:20
 msgid "Download Firefox for Android."
-msgstr "Загрузите Firefox для Android."
+msgstr "Скачайте Firefox для Android."
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr "Загрузите Firefox для мобильных устройств."
+msgstr "Скачайте Firefox для мобильных устройств."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
@@ -1778,7 +1778,7 @@ msgstr "Я сделаю это позже, пришлите мне напоми�
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr "Загрузить Firefox с помощью камеры"
+msgstr "Скачать Firefox с помощью камеры"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
@@ -2007,7 +2007,7 @@ msgstr "Синхронизируйте свою работу в Firefox"
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Download Firefox for mobile"
-msgstr "Загрузите Firefox для мобильных устройств"
+msgstr "Скачайте Firefox для мобильных устройств"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -2031,7 +2031,7 @@ msgstr "У меня не установлен мобильный Firefox"
 
 #: .es5/templates/pair/index.mustache:16
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr "Загрузите Firefox на мобильное устройство, а затем запустите синхронизацию."
+msgstr ""
 
 #: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
 msgid "Not now"

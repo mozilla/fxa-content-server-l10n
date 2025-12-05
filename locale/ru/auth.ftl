@@ -41,7 +41,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронизация устройств">
 body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
 fxa-privacy-url = Политика конфиденциальности { -brand-mozilla }
-moz-accounts-privacy-url-2 = Уведомление о конфиденциальности { -product-mozilla-accounts }
+moz-accounts-privacy-url-2 = Уведомление о конфиденциальности { -product-mozilla-accounts(case: "genitive") }
 moz-accounts-terms-url = Правила использования { -product-mozilla-accounts }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Логотип { -brand-mozilla }">
@@ -85,10 +85,10 @@ account-deletion-info-block-communications-plaintext = Если ваш акка�
 account-deletion-info-block-support-plaintext = Если у вас есть вопросы или нужна помощь, не стесняйтесь обращаться к нашей команде поддержки:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-body-android-badge = <img data-l10n-name="google-play-badge" alt="Загрузить { $productName } на { -google-play }">
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Скачать { $productName } в { -google-play }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Загрузить { $productName } на { -app-store }">
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Скачать { $productName } в { -app-store }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-desktop-device-2 = Установите { $productName } на <a data-l10n-name="anotherDeviceLink">другом компьютере</a>.
@@ -100,19 +100,19 @@ another-device-2 = Установите { $productName } на <a data-l10n-name=
 android-download-plaintext = Получите { $productName } в Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-ios-download-plaintext = Загрузите { $productName } в App Store:
+ios-download-plaintext = Скачайте { $productName } в App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Установите { $productName } на другое устройство:
 automated-email-change-2 = Если вы не производили это действие, немедленно <a data-l10n-name="passwordChangeLink">смените свой пароль</a>.
-automated-email-support = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Поддержку { -brand-mozilla }</a>.
+automated-email-support = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">поддержку { -brand-mozilla }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Если вы не производили это действие, немедленно измените пароль:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Для получения дополнительных сведений посетите страницу поддержки { -brand-mozilla }:
 automated-email-inactive-account = Это письмо создано автоматически. Вы получаете его, потому что у вас есть { -product-mozilla-account } и прошло 2 года с момента вашего последнего входа.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-automated-email-no-action = { automated-email-no-action-plaintext } Для получения дополнительных сведений посетите <a data-l10n-name="supportLink">Страницу поддержки { -brand-mozilla }</a>.
+automated-email-no-action = { automated-email-no-action-plaintext } Для получения дополнительных сведений посетите <a data-l10n-name="supportLink">страницу поддержки { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Это автоматически созданное сообщение. Если вы получили его по ошибке, вам не нужно ничего делать.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Это автоматически созданное сообщение; если вы не совершали такого действия, пожалуйста, смените свой пароль:
@@ -142,7 +142,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Этот запрос 
 automatedEmailRecoveryKey-origin-device-OS-only = Этот запрос поступил от { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Если это были не вы, <a data-l10n-name="revokeAccountRecoveryLink">удалите новый ключ </a> и <a data-l10n-name="passwordChangeLink">смените пароль</a>.
 automatedEmailRecoveryKey-change-pwd-only = Если это были не вы, <a data-l10n-name="passwordChangeLink">смените свой пароль</a>.
-automatedEmailRecoveryKey-more-info = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Поддержку { -brand-mozilla }</a>.
+automatedEmailRecoveryKey-more-info = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">поддержку { -brand-mozilla }</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Этот запрос поступил от:
 # Colon is followed by a URL to the account recovery key section of account settings
@@ -156,7 +156,7 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = и смените сво
 automatedEmailRecoveryKey-more-info-plaintext = Для получения дополнительных сведений посетите страницу поддержки { -brand-mozilla }:
 automated-email-reset =
     Это письмо создано автоматически; если вы не выполняли это действие, то, пожалуйста, <a data-l10n-name="resetLink">сбросьте свой пароль</a>.
-    Для получения дополнительных сведений посетите <a data-l10n-name="supportLink">Страницу поддержки { -brand-mozilla }</a>.
+    Для получения дополнительных сведений посетите <a data-l10n-name="supportLink">страницу поддержки { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Если вы не авторизовали это действие, пожалуйста, немедленно сбросьте свой пароль по ссылке { $resetLink }
@@ -164,7 +164,7 @@ automated-email-reset-plaintext-v2 = Если вы не авторизовали
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
 automated-email-reset-pwd-two-factor =
     Если вы не производили это действие, <a data-l10n-name="resetLink">сбросьте ваш пароль</a> и <a data-l10n-name="twoFactorSettingsLink">сбросьте двухэтапную аутентификацию</a> немедленно.
-    Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Поддержку { -brand-mozilla }</a>.
+    Для получения дополнительной информации посетите <a data-l10n-name="supportLink">поддержку { -brand-mozilla }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Если вы не производили это действие, немедленно сбросьте свой пароль на:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
@@ -294,7 +294,7 @@ subscriptionUpdatePayment = Чтобы избежать прерывания р�
 subscriptionUpdatePayment-plaintext = Чтобы избежать прерывания работы служб, пожалуйста, как можно скорее обновите ваши платёжные сведения:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-3 = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Поддержку { -brand-mozilla }</a>.
+support-message-3 = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">поддержку { -brand-mozilla }</a>.
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Для получения дополнительных сведений посетите страницу поддержки { -brand-mozilla }: { $supportUrl }.
@@ -651,7 +651,7 @@ subscriptionDowngrade-content-switch = Вы успешно перешли с { $
 subscriptionDowngrade-content-charge-info = Начиная со следующего периода оплаты, ваш платёж составит { $paymentAmountNew } в { $productPaymentCycleNew } вместо { $paymentAmountOld } в { $productPaymentCycleOld }. В этот раз вы также получите одноразовый бонус в размере { $paymentProrated } для отражения более низкой стоимости за этот { $productPaymentCycleOld }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-install = Если вам будет необходимо установить новое программное обеспечение для использования { $productName }, вы получите отдельное письмо с инструкциями по загрузке.
+subscriptionDowngrade-content-install = Если вам будет необходимо установить новое программное обеспечение для использования { $productName }, вы получите отдельное письмо с инструкциями по скачиванию.
 subscriptionDowngrade-content-auto-renew = Ваша подписка будет автоматически продлеваться каждый платёжный период, пока вы не решите её отменить.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
