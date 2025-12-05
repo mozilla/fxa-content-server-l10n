@@ -188,6 +188,8 @@ payment-method-payment-provider-plaintext = Тарзи пардохт: { $paymen
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-date = <b>Сана:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Сана: { $invoiceDateOnly }
 subscription-charges-list-price = Нархнома
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ҷамъи миёна: { $invoiceSubtotal }
@@ -205,6 +207,9 @@ subscriptionCharges-content-tax-plaintext = Андозҳо ва ҳаққи ҳи�
 
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Саволҳо дар бораи обунаи худ доред? Дар ин ҷой дастаи дастгирии мо ба шумо кумак мерасонад:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Бо дастаи дастгирии корбарон дар тамос шавед:</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Бо дастаи дастгирии корбарон дар тамос шавед:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-3 = Барои гирифтани маълумоти бештар, лутфан, ба бахши <a data-l10n-name="supportLink"> Дастгирии «{ -brand-mozilla }»</a> ворид шавед.
