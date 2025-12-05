@@ -1,3 +1,6 @@
+loyalty-discount-terms-support = Kontakt support
+loyalty-discount-terms-support-aria = Kontakt support
+
 ## Page
 
 checkout-signin-or-create = 1. Logg inn eller opprett ein { -product-mozilla-account }

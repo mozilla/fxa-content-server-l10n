@@ -47,7 +47,7 @@ google-pay-logo-alt-text = Logo de { -brand-google-pay }
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
-next-payment-error-manage-subscription-button = Gerer mi subscription
+next-payment-error-manage-subscription-button = Gerer mi abonamento
 next-iap-blocked-contact-support = Tu ha un abonamento mobile in-app que conflige con iste producto, contacta le supporto assi que nos pote adjutar te.
 next-payment-error-retry-button = Retentar
 next-basic-error-message = Alco errate eveniva. Reproba plus tarde.
@@ -102,6 +102,7 @@ next-payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
 ## Not found page
 
 not-found-title-subscriptions = Abonamento non trovate.
+not-found-description-subscriptions = Nos non poteva trova tu abonamento. Retenta o contacta assistentia.
 not-found-button-back-to-subscriptions = Retornar al abonamentos
 
 ## Page - Subscription Management
@@ -184,12 +185,21 @@ subscription-cancellation-dialog-msg =
     Tu subscription a { $name } ha essite cancellate.
     Tu habera ancora accesso a { $name } usque { $date }.
 subscription-cancellation-dialog-aside = Ha tu questiones? Visita le <LinkExternal>Supporto de { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Cancellar abonamento a { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Tu non plus potera usar { $productName } post { $currentPeriodEnd }, le ultime die de tu termino de facturation.
 subscription-content-cancel-access-message = Cancellar mi accesso e mi informationes salvate intra { $productName } in { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Cancellar abonamento
+    .aria-label = Cancella tu abonamento a { $productName }
+cancel-subscription-button-stay-subscribed = Restar abonate
+    .aria-label = Resta abonate a { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -312,9 +322,18 @@ next-new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro cr
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vole tu continuar usar { $productName }?
+stay-subscribed-access-will-continue = Tu accesso a { $productName } continuara, e tu termino de facturation e pagamento restara le mesme.
 subscription-content-button-resubscribe = Re-abonar
     .aria-label = Re-abonar a { $productName }
 resubscribe-success-dialog-title = Gratias! Toto preste.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Tu amonta successive sera de { $nextInvoiceTotal } + { $taxDue } taxa sur { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Tu amonta successive sera { $nextInvoiceTotal } sur { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -345,6 +364,7 @@ subscription-content-button-cancel-subscription = Cancellar abonamento
 ##
 
 dialog-close = Clauder fenestra de dialogo
+button-back-to-subscriptions = Retornar al abonamentos
 subscription-content-cancel-action-error = Un error impreviste occurreva, retenta.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
