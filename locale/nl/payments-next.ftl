@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Voorwaarden en beperkingen
+loyalty-discount-terms-support = Contact opnemen
+loyalty-discount-terms-support-aria = Contact opnemen
+
 ## Page
 
 checkout-signin-or-create = 1. Meld u aan of maak een { -product-mozilla-account } aan
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Doorgaan naar download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Abonnement niet gevonden
+not-found-description-subscriptions = We kunnen uw abonnement niet vinden. Probeer het opnieuw of neem contact op.
+not-found-button-back-to-subscriptions = Terug naar abonnementen
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Geen betalingsmethode toegevoegd
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = We vinden het jammer dat u weggaat
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Uw abonnement op { $name } is opgezegd. U hebt nog tot { $date } toegang tot { $name }.
 subscription-cancellation-dialog-aside = Vragen? Bezoek <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Abonnement op { $productName } opzeggen
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = U kunt { $productName } niet meer gebruiken na { $currentPeriodEnd }, de laatste dag van uw betalingscyclus.
 subscription-content-cancel-access-message = Mijn toegang tot en opgeslagen gegevens in { $productName } op { $currentPeriodEnd } opzeggen
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Abonnement opzeggen
+    .aria-label = Uw abonnement op { $productName } opzeggen
+cancel-subscription-button-stay-subscribed = Abonnement behouden
+    .aria-label = Abonnement op { $productName } behouden
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen o
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Wilt u { $productName } blijven gebruiken?
+stay-subscribed-access-will-continue = U behoudt toegang tot { $productName } en uw betalingscyclus en betaling blijven ongewijzigd.
 subscription-content-button-resubscribe = Opnieuw abonneren
     .aria-label = Opnieuw abonneren op { $productName }
 resubscribe-success-dialog-title = Bedankt! U bent helemaal klaar.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Uw volgende afschrijving is { $nextInvoiceTotal } + { $taxDue } btw op { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Uw volgende afschrijving is { $nextInvoiceTotal } op { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Abonnement opzeggen
 ##
 
 dialog-close = Dialoogvenster sluiten
+button-back-to-subscriptions = Terug naar abonnementen
 subscription-content-cancel-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
