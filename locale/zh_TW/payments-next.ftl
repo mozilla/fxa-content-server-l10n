@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = 條款與限制
+loyalty-discount-terms-support = 聯絡支援團隊
+loyalty-discount-terms-support-aria = 聯絡支援團隊
+
 ## Page
 
 checkout-signin-or-create = 1. 登入或註冊 { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = 前往下載
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = 找不到訂閱紀錄
+not-found-description-subscriptions = 找不到您的訂閱紀錄，請再試一次或聯絡支援團隊。
+not-found-button-back-to-subscriptions = 回到訂閱項目
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = 未新增付款方式
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = 很抱歉看到您離開
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = 已取消您對 { $name } 的訂閱，您仍可繼續使用 { $name } 到 { $date } 為止。
 subscription-cancellation-dialog-aside = 有問題嗎？請到 <LinkExternal>{ -brand-mozilla } 技術支援站</LinkExternal>。
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = 取消訂閱 { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = 在帳務週期最後一天（{ $currentPeriodEnd }）之後，將無法繼續使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 之後取消我對 { $productName } 的使用權限與儲存的所有資訊
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = 取消訂閱
+    .aria-label = 取消您的 { $productName } 訂閱
+cancel-subscription-button-stay-subscribed = 保持訂閱
+    .aria-label = 保持訂閱 { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = 我們只會使用您的電子郵件
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = 想要繼續使用 { $productName } 嗎？
+stay-subscribed-access-will-continue = 將繼續保留您的 { $productName } 使用權，帳單週期與付款方式維持不變。
 subscription-content-button-resubscribe = 重新訂閱
     .aria-label = 重新訂閱 { $productName }
 resubscribe-success-dialog-title = 處理完成，感謝您！
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = 下期將於 { $currentPeriodEnd } 收費 { $nextInvoiceTotal } + { $taxDue } 稅。
+stay-subscribed-next-charge-no-tax = 下期將於 { $currentPeriodEnd } 收費 { $nextInvoiceTotal }。
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = 取消訂閱
 ##
 
 dialog-close = 關閉對話框
+button-back-to-subscriptions = 回到訂閱項目
 subscription-content-cancel-action-error = 發生未知錯誤，請再試一次。
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
