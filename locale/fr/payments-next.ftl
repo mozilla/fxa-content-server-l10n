@@ -184,7 +184,7 @@ subscription-cancellation-dialog-title = C’est triste de vous voir partir…
 subscription-cancellation-dialog-msg = Votre abonnement à { $name } a été résilié. Vous aurez encore accès à { $name } jusqu’au { $date }.
 subscription-cancellation-dialog-aside = Vous avez des questions ? Consultez <LinkExternal>l’assistance de { -brand-mozilla }</LinkExternal>.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-cancel-subscription-heading = Annuler l’abonnement de { $productName }
+cancel-subscription-heading = Annuler l’abonnement à { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -197,7 +197,7 @@ subscription-content-cancel-access-message = Annuler mon accès et mes informati
 cancel-subscription-button-cancel-subscription = Annuler l’abonnement
     .aria-label = Annuler votre abonnement à { $productName }
 cancel-subscription-button-stay-subscribed = Conserver l’abonnement
-    .aria-label = Rester abonné à { $productName }
+    .aria-label = Rester abonné·e à { $productName }
 
 ## Component - Payment Consent Checkbox
 
