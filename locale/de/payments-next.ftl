@@ -195,9 +195,9 @@ subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodE
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 cancel-subscription-button-cancel-subscription = Abonnement kündigen
-    .aria-label = Stornieren Sie Ihren Dauerauftrag für { $productName }
-cancel-subscription-button-stay-subscribed = Dauerauftrag beibehalten
-    .aria-label = weiterhin { $productName } abonnieren
+    .aria-label = Stornieren Sie Ihr Abonnement für { $productName }
+cancel-subscription-button-stay-subscribed = Abonnement beibehalten
+    .aria-label = { $productName } weiterhin abonnieren
 
 ## Component - Payment Consent Checkbox
 
@@ -330,8 +330,8 @@ resubscribe-success-dialog-title = Vielen Dank! Alles top! Sie sind fertig!
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = Ihre nächste Rechnung beträgt { $nextInvoiceTotal } + { $taxDue } Steuern auf { $currentPeriodEnd }.
-stay-subscribed-next-charge-no-tax = Ihre nächste Rechnung sind { $nextInvoiceTotal } auf { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = Ihre nächste Rechnung beträgt { $nextInvoiceTotal } + { $taxDue } Steuern zum { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Ihre nächste Rechnung beträgt { $nextInvoiceTotal } zum { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
