@@ -328,6 +328,14 @@ subscription-content-button-resubscribe = ხელახლა გამოწ�
     .aria-label = ახლიდან გამოიწერება { $productName }
 resubscribe-success-dialog-title = გმადლობთ! ყველაფერი მზადაა.
 
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = მომდევნო ჩამოსაჭრელი თანხა იქნება { $nextInvoiceTotal } + { $taxDue } გადასახადი შუალედისთვის { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = მომდევნო ჩამოსაჭრელი თანხა იქნება { $nextInvoiceTotal } შუალედისთვის { $currentPeriodEnd }.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -357,6 +365,7 @@ subscription-content-button-cancel-subscription = გააუქმეთ გ�
 ##
 
 dialog-close = სარკმლის დახურვა
+button-back-to-subscriptions = დაბრუნება გამოწერებზე
 subscription-content-cancel-action-error = მოულოდნელი შეცდომა წარმოიშვა. გთხოვთ, კვლავ სცადოთ.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
