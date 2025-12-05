@@ -100,7 +100,7 @@ payment-confirmation-amount-year =
         [few] { $amount } каждые { $intervalCount } года
        *[many] { $amount } каждые { $intervalCount } лет
     }
-payment-confirmation-download-button = Продолжить загрузку
+payment-confirmation-download-button = Продолжить скачивание
 
 ## Component - PaymentConsentCheckbox
 
@@ -302,7 +302,7 @@ sub-guarantee = 30-дневная гарантия возврата денег
 subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 terms = Условия службы
 privacy = Уведомление о конфиденциальности
-terms-download = Условия загрузки
+terms-download = Условия скачивания
 
 ## App-level string(s) and messages shared by multiple components or routes
 

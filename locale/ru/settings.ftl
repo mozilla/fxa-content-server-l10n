@@ -46,8 +46,8 @@ button-back-title = Назад
 # Button to download the account recovery key as a PDF file and navigate to the next step
 # The next (and final) step is an optional prompt to save a storage hint
 # .title will displayed as a tooltip on the button
-recovery-key-download-button-v3 = Загрузить и продолжить
-    .title = Загрузить и продолжить
+recovery-key-download-button-v3 = Скачать и продолжить
+    .title = Скачать и продолжить
 recovery-key-pdf-heading = Ключ восстановления аккаунта
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
@@ -64,7 +64,7 @@ recovery-key-pdf-storage-ideas-heading = Места для хранения ва
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Узнать больше о ключе восстановления аккаунта
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = К сожалению, при загрузке ключа восстановления аккаунта произошла ошибка.
+recovery-key-pdf-download-error = К сожалению, при скачивании ключа восстановления аккаунта произошла ошибка.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -85,7 +85,7 @@ choose-newsletters-option-reclaim-the-internet =
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
-    .message = Загружены
+    .message = Скачаны
 datablock-copy =
     .message = Скопированы
 datablock-print =
@@ -102,9 +102,9 @@ datablock-copy-success =
     }
 datablock-download-success =
     { $count ->
-        [one] Код загружен
-        [few] Коды загружены
-       *[many] Коды загружены
+        [one] Код скачан
+        [few] Коды скачаны
+       *[many] Коды скачаны
     }
 datablock-print-success =
     { $count ->
@@ -193,8 +193,8 @@ get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Ключ восстановления аккаунта { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Резервные коды аутентификации
 get-data-trio-download-2 =
-    .title = Загрузить
-    .aria-label = Загрузить
+    .title = Скачать
+    .aria-label = Скачать
 get-data-trio-copy-2 =
     .title = Скопировать
     .aria-label = Скопировать
@@ -497,9 +497,9 @@ connect-another-find-fx-mobile-2 = Найдите { -brand-firefox } в { -googl
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image-2 =
-    .alt = Загрузите { -brand-firefox } в { -google-play }
+    .alt = Скачайте { -brand-firefox } в { -google-play }
 connect-another-app-store-image-3 =
-    .alt = Загрузите { -brand-firefox } в { -app-store }
+    .alt = Скачайте { -brand-firefox } в { -app-store }
 
 ## Connected services section
 
@@ -541,7 +541,7 @@ cs-disconnect-sync-opt-not-say = Не хочу говорить
 
 ##
 
-cs-disconnect-advice-confirm = Ок, понятно
+cs-disconnect-advice-confirm = Хорошо, понятно
 cs-disconnect-lost-advice-heading = Утерянное или украденное устройство отсоединено
 cs-disconnect-lost-advice-content-3 = Поскольку ваше устройство было утеряно или украдено, для сохранения вашей информации в безопасности, вам следует сменить пароль своих { -product-mozilla-account } в настройках. Вам также следует изучить информацию производителя своего устройства об удалённом стирании своих данных.
 cs-disconnect-suspicious-advice-heading = Подозрительное устройство отсоединено
@@ -551,9 +551,9 @@ cs-sign-out-button = Выйти
 ## Data collection section
 
 dc-heading = Сбор и использование данных
-dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-moz-accounts = { -product-mozilla-accounts(case: "nominative_uppercase") }
 dc-subheader-ff-browser = Браузер { -brand-firefox }
-dc-subheader-content-2 = Разрешить { -product-mozilla-accounts } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
+dc-subheader-content-2 = Разрешить { -product-mozilla-accounts(case: "dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
 dc-subheader-ff-content = Чтобы просмотреть или обновить технические настройки и данные взаимодействия вашего { -brand-firefox }, откройте настройки { -brand-firefox } и перейдите в раздел «Приватность и Защита».
 dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
 dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts }.
@@ -589,11 +589,11 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Создать новы
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = Создан ключ восстановления аккаунта — загрузите и сохраните его сейчас
+flow-recovery-key-download-heading-v2 = Создан ключ восстановления аккаунта — скачайте и сохраните его сейчас
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Этот ключ позволяет восстановить данные, если вы забудете пароль. Загрузите его сейчас и сохраните в удобном для вас месте — вы не сможете вернуться на эту страницу позже.
+flow-recovery-key-download-info-v2 = Этот ключ позволяет восстановить данные, если вы забудете пароль. Скачайте его сейчас и сохраните в удобном для вас месте — вы не сможете вернуться на эту страницу позже.
 # This link allows user to proceed to the next step without clicking the download button
-flow-recovery-key-download-next-link-v2 = Продолжить без загрузки
+flow-recovery-key-download-next-link-v2 = Продолжить без скачивания
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -739,7 +739,7 @@ header-back-to-top-link =
     .title = Наверх
 header-back-to-settings-link =
     .title = Вернуться к настройкам { -product-mozilla-account }
-header-title-2 = { -product-mozilla-account }
+header-title-2 = { -product-mozilla-account(case: "nominative_uppercase") }
 header-help = Помощь
 
 ## Linked Accounts section
@@ -1392,7 +1392,7 @@ index-email-bounced = Ваше письмо для подтверждения т
 inline-recovery-key-setup-create-error = Ой! Мы не смогли создать ключ восстановления вашего аккаунта. Подождите некоторое время и попробуйте снова.
 inline-recovery-key-setup-recovery-created = Ключ восстановления аккаунта создан
 inline-recovery-key-setup-download-header = Защитите свой аккаунт
-inline-recovery-key-setup-download-subheader = Загрузить и сохранить его сейчас
+inline-recovery-key-setup-download-subheader = Скачать и сохранить его сейчас
 inline-recovery-key-setup-download-info = Храните этот ключ в удобном для вас месте — вы не сможете вернуться на эту страницу позже.
 inline-recovery-key-setup-hint-header = Рекомендация по безопасности
 
@@ -1509,9 +1509,9 @@ pair-already-have-firefox-paragraph = Уже установили { -brand-firef
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Синхронизируйте своё устройство
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
-pair-or-download-subheader = или загрузите
+pair-or-download-subheader = или скачайте
 # Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
-pair-scan-to-download-message = Отсканируйте, чтобы загрузить { -brand-firefox } для мобильных устройств, или отправьте себе <linkExternal>ссылку для загрузки</linkExternal>.
+pair-scan-to-download-message = Отсканируйте, чтобы скачать { -brand-firefox } для мобильных устройств, или отправьте себе <linkExternal>ссылку на скачивание</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Не сейчас
 pair-take-your-data-message = Берите вкладки, закладки и пароли с собой везде, где используете { -brand-firefox }.
@@ -1694,10 +1694,10 @@ reset-password-recovery-phone-invalid-code-error-description = Код невер
 reset-password-recovery-phone-invalid-code-error-link = Использовать резервные коды аутентификации?
 reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
 reset-password-complete-new-password-saved = Новый пароль сохранён!
-reset-password-complete-recovery-key-created = Новый ключ восстановления аккаунта создан. Загрузите и сохраните его сейчас.
+reset-password-complete-recovery-key-created = Новый ключ восстановления аккаунта создан. Скачайте и сохраните его сейчас.
 reset-password-complete-recovery-key-download-info =
     Этот ключ необходим для
-    восстановления данных, если вы забудете свой пароль. <b>Загрузите и храните в безопасности
+    восстановления данных, если вы забудете свой пароль. <b>Скачайте и храните в безопасности
     сейчас, так как вы не сможете получить доступ к этой странице позже.</b>
 
 ## CompleteSignin component

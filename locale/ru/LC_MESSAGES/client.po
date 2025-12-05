@@ -2031,7 +2031,7 @@ msgstr "У меня не установлен мобильный Firefox"
 
 #: .es5/templates/pair/index.mustache:16
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Скачайте Firefox на мобильное устройство, а затем запустите синхронизацию."
 
 #: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
 msgid "Not now"
@@ -2039,7 +2039,7 @@ msgstr "Не сейчас"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr "Чтобы синхронизировать Firefox на вашем телефоне или планшете, вам сначала нужно загрузить мобильный Firefox. Сделайте следующее:"
+msgstr "Чтобы синхронизировать Firefox на вашем телефоне или планшете, вам сначала нужно скачать мобильный Firefox. Сделайте следующее:"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
@@ -2087,7 +2087,7 @@ msgstr "Переключиться на Firefox и открыть эту стр�
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
-msgstr "Загрузить Firefox"
+msgstr "Скачать Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
@@ -2103,7 +2103,7 @@ msgstr "Вы использовали системную камеру? Вы до
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr "Загрузить Firefox сейчас"
+msgstr "Скачать Firefox сейчас"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
