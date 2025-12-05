@@ -330,7 +330,7 @@ resubscribe-success-dialog-title = Tack! Du är klar.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = Din nästa debitering är { $nextInvoiceTotal } + { $taxDue } moms för { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = Din nästa debitering är { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
 stay-subscribed-next-charge-no-tax = Din nästa debitering är { $nextInvoiceTotal } den { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
