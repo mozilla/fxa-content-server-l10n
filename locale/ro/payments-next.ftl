@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Condiții și restricții
+loyalty-discount-terms-support = Contactează serviciul de asistență
+loyalty-discount-terms-support-aria = Contactează serviciul de asistență
+
 ## Page
 
 checkout-signin-or-create = 1. Intră în cont sau creează un { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Continuă cu descărcarea
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Card care se termină cu { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Abonament negăsit
+not-found-description-subscriptions = Nu am putut găsi abonamentul. Te rugăm să încerci din nou sau să contactezi asistența.
+not-found-button-back-to-subscriptions = Înapoi la abonamente
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nicio metodă de plată adăugată
@@ -173,6 +183,8 @@ subscription-cancellation-dialog-title = Ne pare rău că pleci.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Abonamentul la { $name } a fost anulat. Vei avea în continuare acces la { $name } până la { $date }.
 subscription-cancellation-dialog-aside = Ai întrebări? Intră pe <LinkExternal>{ -brand-mozilla } Asistență</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Anulează abonamentul { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -181,6 +193,13 @@ subscription-content-no-longer-use-message = Nu vei mai putea folosi { $productN
 subscription-content-cancel-access-message =
     Anulează-mi accesul și informațiile mele salvate în
     { $productName } la { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Anulează abonamentul
+    .aria-label = Anulează abonamentul la { $productName }
+cancel-subscription-button-stay-subscribed = Păstrează abonamentul
+    .aria-label = Păstrează abonamentul la { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -303,9 +322,18 @@ next-new-user-subscribe-product-assurance = Îți folosim adresa de e-mail doar 
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vrei să folosești în continuare { $productName }?
+stay-subscribed-access-will-continue = Accesul la { $productName } va continua, iar ciclul de facturare și plata vor rămâne aceleași.
 subscription-content-button-resubscribe = Reabonare
     .aria-label = Reabonare la { $productName }
 resubscribe-success-dialog-title = Îți mulțumim! Totul este gata.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Următoarea factură va fi de { $nextInvoiceTotal } + taxe { $taxDue } pe { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Următoarea factură va fi de { $nextInvoiceTotal } pe { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -336,6 +364,7 @@ subscription-content-button-cancel-subscription = Anulează abonamentul
 ##
 
 dialog-close = Închide caseta de dialog
+button-back-to-subscriptions = Înapoi la abonamente
 subscription-content-cancel-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
