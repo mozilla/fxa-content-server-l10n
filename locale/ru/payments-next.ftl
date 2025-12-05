@@ -331,6 +331,7 @@ resubscribe-success-dialog-title = Спасибо! Всё готово.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
 stay-subscribed-next-charge-with-tax = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Ваш следующий платёж составит { $nextInvoiceTotal } { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -361,6 +362,7 @@ subscription-content-button-cancel-subscription = Отменить подпис�
 ##
 
 dialog-close = Закрыть окно
+button-back-to-subscriptions = Вернуться к подпискам
 subscription-content-cancel-action-error = Произошла непредвиденная ошибка. Повторите попытку.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
