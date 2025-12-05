@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Όροι και περιορισμοί
+loyalty-discount-terms-support = Επικοινωνία με την υποστήριξη
+loyalty-discount-terms-support-aria = Επικοινωνία με την υποστήριξη
+
 ## Page
 
 checkout-signin-or-create = 1. Συνδεθείτε ή δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Συνέχεια στη λήψη
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Η συνδρομή δεν βρέθηκε
+not-found-description-subscriptions = Δεν ήταν δυνατή η εύρεση της συνδρομής σας. Δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη.
+not-found-button-back-to-subscriptions = Επιστροφή στις συνδρομές
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Δεν έχει προστεθεί καμία μέθοδος πληρωμής
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Λυπούμαστε που φεύγε�
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Η συνδρομή σας στο { $name } έχει ακυρωθεί. Θα έχετε ακόμα πρόσβαση στο { $name } μέχρι τις { $date }.
 subscription-cancellation-dialog-aside = Έχετε απορίες; Επισκεφθείτε την <LinkExternal>Υποστήριξη { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Ακύρωση συνδρομής στο { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.
 subscription-content-cancel-access-message = Ακύρωση της πρόσβασής μου και των αποθηκευμένων πληροφοριών μου εντός του { $productName } στις { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Ακύρωση συνδρομής
+    .aria-label = Ακύρωση της συνδρομής σας στο { $productName }
+cancel-subscription-button-stay-subscribed = Διατήρηση συνδρομής
+    .aria-label = Διατήρηση συνδρομής στο { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $productName };
+stay-subscribed-access-will-continue = Η πρόσβασή σας στο { $productName } θα συνεχιστεί, ενώ ο κύκλος χρέωσης και οι πληρωμές σας θα παραμείνουν ως έχουν.
 subscription-content-button-resubscribe = Επανανεγγραφή
     .aria-label = Επανανεγγραφή στο { $productName }
 resubscribe-success-dialog-title = Ευχαριστούμε! Όλα είναι έτοιμα.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Η επόμενη χρέωση θα είναι { $nextInvoiceTotal } (+ { $taxDue } φόρος) στις { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Η επόμενη χρέωση θα είναι { $nextInvoiceTotal } στις { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Ακύρωση συνδρομ�
 ##
 
 dialog-close = Κλείσιμο διαλόγου
+button-back-to-subscriptions = Επιστροφή στις συνδρομές
 subscription-content-cancel-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
