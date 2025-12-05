@@ -320,7 +320,7 @@ next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress f
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vill du fortsätta använda { $productName }?
-stay-subscribed-access-will-continue = Din åtkomst till { $productName } fortsätter och din faktureringsperiod och betalning förblir desamma.
+stay-subscribed-access-will-continue = Din åtkomst till { $productName } kommer att fortsätta, och din faktureringscykel och betalning kommer att förbli desamma.
 subscription-content-button-resubscribe = Prenumerera igen
     .aria-label = Prenumerera på { $productName } igen
 resubscribe-success-dialog-title = Tack! Du är klar.
