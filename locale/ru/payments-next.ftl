@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Условия и ограничения
+loyalty-discount-terms-support = Связаться с поддержкой
+loyalty-discount-terms-support-aria = Связаться с поддержкой
+
 ## Page
 
 checkout-signin-or-create = 1. Войдите или создайте { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Продолжить скачива�
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Номер карты заканчивается на { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Подписка не найдена
+not-found-description-subscriptions = Мы не смогли найти вашу подписку. Пожалуйста, попробуйте ещё раз или обратитесь в службу поддержки.
+not-found-button-back-to-subscriptions = Вернуться к подпискам
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Способ оплаты не добавлен
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Нам жаль, что вы уходи
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Ваша подписка на { $name } была отменена. У вас по-прежнему будет доступ к { $name } до { $date }.
 subscription-cancellation-dialog-aside = Есть вопросы? Посетите <LinkExternal>Поддержку { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Отменить подписку на { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Вы не сможете больше использовать { $productName } после { $currentPeriodEnd }, последнего дня вашего платёжного цикла.
 subscription-content-cancel-access-message = Отменить мой доступ и сохранённую информацию в { $productName } { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Отменить подписку
+    .aria-label = Отменить вашу подписку на { $productName }
+cancel-subscription-button-stay-subscribed = Оставить подписку
+    .aria-label = Оставить подписку на { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,17 @@ next-new-user-subscribe-product-assurance = Мы используем вашу �
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Хотите продолжать использовать { $productName }?
+stay-subscribed-access-will-continue = Ваш доступ к { $productName } будет продолжаться, а ваш платёжный цикл и сумма оплаты останутся прежними.
 subscription-content-button-resubscribe = Переоформить подписку
     .aria-label = Переоформить подписку на { $productName }
 resubscribe-success-dialog-title = Спасибо! Всё готово.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
