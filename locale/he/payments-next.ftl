@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = תנאים והגבלות
+loyalty-discount-terms-support = יצירת קשר עם התמיכה
+loyalty-discount-terms-support-aria = יצירת קשר עם התמיכה
+
 ## Page
 
 checkout-signin-or-create = 1. התחברות או יצירת { -product-mozilla-account(case: "a") }
@@ -93,6 +97,12 @@ next-payment-confirmation-download-button = המשך להורדה
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = המינוי לא נמצא
+not-found-description-subscriptions = לא הצלחנו למצוא את המינוי שלך. נא לנסות שוב או ליצור קשר עם התמיכה.
+not-found-button-back-to-subscriptions = חזרה למינויים
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = לא נוספו אמצעי תשלום
@@ -169,12 +179,21 @@ subscription-cancellation-dialog-title = עצוב לנו שבחרת לעזוב
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = המינוי שלך ל־{ $name } בוטל. תהיה לך עדיין גישה ל־{ $name } עד { $date }.
 subscription-cancellation-dialog-aside = יש שאלות? ניתן לבקר ב<LinkExternal>תמיכה של { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = ביטול המינוי ל־{ $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
 subscription-content-cancel-access-message = בטלו את הגישה ואת המידע השמור שלי בתוך { $productName } בתאריך { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = ביטול מינוי
+    .aria-label = ביטול המינוי שלך ל־{ $productName }
+cancel-subscription-button-stay-subscribed = להישאר רשום כמינוי
+    .aria-label = להישאר רשום כמינוי ל־{ $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -294,9 +313,18 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = רוצה להמשיך להשתמש ב־{ $name }?
+stay-subscribed-access-will-continue = הגישה שלך ל־{ $productName } תימשך, ומחזור החיוב והתשלום שלך יישארו זהים.
 subscription-content-button-resubscribe = חידוש מינוי
     .aria-label = חידוש מינוי ל־{ $productName }
 resubscribe-success-dialog-title = תודה! הכול מוכן.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = החיוב הבא שלך יהיה { $nextInvoiceTotal } + מס בסך { $taxDue } בתאריך { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = החיוב הבא שלך יהיה { $nextInvoiceTotal } בתאריך { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -327,6 +355,7 @@ subscription-content-button-cancel-subscription = לבטל את המינוי
 ##
 
 dialog-close = סגירת תיבת דוח־שיח
+button-back-to-subscriptions = חזרה למינויים
 subscription-content-cancel-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
