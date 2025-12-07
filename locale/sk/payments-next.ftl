@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Podmienky a obmedzenia
+loyalty-discount-terms-support = Kontaktovať podporu
+loyalty-discount-terms-support-aria = Kontaktovať podporu
+
 ## Page
 
 checkout-signin-or-create = 1. Prihláste sa alebo si vytvorte { -product-mozilla-account(capitalization: "lower") }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Pokračovať na stiahnutie
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Predplatné sa nenašlo
+not-found-description-subscriptions = Nepodarilo sa nám nájsť vaše predplatné. Skúste to znova alebo kontaktujte podporu.
+not-found-button-back-to-subscriptions = Späť na predplatné
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Žiadny spôsob platby nebol pridaný
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Je nám ľúto, že odchádzate
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Vaše predplatné služby { $name } bolo zrušené. Prístup k službe { $name } vyprší dňa { $date }.
 subscription-cancellation-dialog-aside = Máte otázky? Navštívte stránku Podpory <LinkExternal>{ -brand-mozilla(case: "gen") }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Zrušiť predplatné { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, poslednom dni vášho fakturačného cyklu, už produkt { $productName } nebudete môcť používať.
 subscription-content-cancel-access-message = Zrušiť môj prístup k produktu { $productName } a dáta v ňom uložené ku dňu { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Zrušiť predplatné
+    .aria-label = Zrušiť predplatné produktu { $productName }
+cancel-subscription-button-stay-subscribed = Ponechať predplatné
+    .aria-label = Ponechať predplatné produktu { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Chcete aj naďalej používať { $productName }?
+stay-subscribed-access-will-continue = Váš prístup k produktu { $productName } bude naďalej existovať a váš fakturačný cyklus a platba zostanú rovnaké.
 subscription-content-button-resubscribe = Opätovne predplatiť
     .aria-label = Opätovne predplatiť produkt { $productName }
 resubscribe-success-dialog-title = Ďakujeme. Všetko je nastavené.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Vaša ďalšia platba bude { $nextInvoiceTotal } + { $taxDue } daň dňa { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Vaša ďalšia platba bude { $nextInvoiceTotal } dňa { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Zrušiť predplatné
 ##
 
 dialog-close = Zavrieť dialógové okno
+button-back-to-subscriptions = Späť na predplatné
 subscription-content-cancel-action-error = Vyskytla sa neočakávaná chyba. Skúste to znova.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
