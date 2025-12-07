@@ -1,6 +1,6 @@
 loyalty-discount-terms-heading = Podmínky a omezení
-loyalty-discount-terms-support = Kontaktujte podporu
-loyalty-discount-terms-support-aria = Kontaktujte podporu
+loyalty-discount-terms-support = Kontaktovat podporu
+loyalty-discount-terms-support-aria = Kontaktovat podporu
 
 ## Page
 
@@ -101,7 +101,7 @@ next-payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 
 ## Not found page
 
-not-found-title-subscriptions = Odběr nenalezen
+not-found-title-subscriptions = Předplatné nebylo nalezeno
 not-found-description-subscriptions = Vaše předplatné se nepodařilo najít. Zkuste to znovu nebo kontaktujte podporu.
 not-found-button-back-to-subscriptions = Zpět na předplatné
 
@@ -320,7 +320,7 @@ next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme p
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Chcete i nadále používat { $productName }?
-stay-subscribed-access-will-continue = Váš přístup k účtu { $productName } bude pokračovat a váš fakturační cyklus a platby zůstanou beze změny.
+stay-subscribed-access-will-continue = Váš přístup k produktu { $productName } bude pokračovat a váš fakturační cyklus a platba zůstanou beze změny.
 subscription-content-button-resubscribe = Obnovit předplatné
     .aria-label = Obnovit předplatné { $productName }
 resubscribe-success-dialog-title = Děkujeme! Vše máte nastaveno.
@@ -330,7 +330,7 @@ resubscribe-success-dialog-title = Děkujeme! Vše máte nastaveno.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = Další platba bude { $nextInvoiceTotal } + { $taxDue } daň dne { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = Vaše další platba bude { $nextInvoiceTotal } + { $taxDue } daň dne { $currentPeriodEnd }.
 stay-subscribed-next-charge-no-tax = Příští platba { $nextInvoiceTotal } vám bude účtována dne { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
@@ -466,9 +466,9 @@ next-coupon-error-limit-reached = Limit kódu, který jste zadali, už byl vyče
 
 ## Stay Subscribed Error Messages
 
-stay-subscribed-error-expired = Nabídka vypršela.
+stay-subscribed-error-expired = Platnost této nabídky vypršela.
 stay-subscribed-error-discount-used = Slevový kód byl již uplatněn.
 # $productTitle (String) - The name of the product
-stay-subscribed-error-not-current-subscriber = Tato sleva je dostupná pouze pro stávající předplatitele { $productTitle }.
-stay-subscribed-error-still-active = Vaše předplatné za { $productTitle } je stále aktivní.
+stay-subscribed-error-not-current-subscriber = Tato sleva je dostupná pouze pro stávající předplatitele produktu { $productTitle }.
+stay-subscribed-error-still-active = Vaše předplatné produktu { $productTitle } je stále aktivní.
 stay-subscribed-error-general = Při obnovení vašeho předplatného došlo k chybě.
