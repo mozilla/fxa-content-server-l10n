@@ -198,8 +198,8 @@ subscription-content-cancel-access-message = A(z) { $productName } hozzáférés
 
 cancel-subscription-button-cancel-subscription = Előfizetés lemondása
     .aria-label = A(z) { $productName } előfizetésének megszüntetése
-cancel-subscription-button-stay-subscribed = Maradjon előfizetés
-    .aria-label = Előfizetés a(z) { $productName } szolgáltatásra
+cancel-subscription-button-stay-subscribed = Előfizetés megtartása
+    .aria-label = { $productName } előfizetés megtartása
 
 ## Component - Payment Consent Checkbox
 
@@ -322,7 +322,7 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $productName }?
-stay-subscribed-access-will-continue = A(z) { $productName } hozzáférése folytatódni fog, a számlázási és fizetési ciklusa is változatlan marad.
+stay-subscribed-access-will-continue = A(z) { $productName } hozzáférése megmarad, a számlázási és fizetési ciklusa is változatlan marad.
 subscription-content-button-resubscribe = Újbóli előfizetés
     .aria-label = Újbóli előfizetés erre: { $productName }
 resubscribe-success-dialog-title = Köszönjük! Minden készen áll.
@@ -333,7 +333,7 @@ resubscribe-success-dialog-title = Köszönjük! Minden készen áll.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
 stay-subscribed-next-charge-with-tax = A következő terhelés { $nextInvoiceTotal } + { $taxDue } adó lesz ekkor: { $currentPeriodEnd }.
-stay-subscribed-next-charge-no-tax = A következő terhelés { $nextInvoiceTotal } lesz, ekkor: { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = A következő terhelés { $nextInvoiceTotal } lesz ekkor: { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -469,7 +469,7 @@ next-coupon-error-limit-reached = A megadott kód elérte a korlátját.
 ## Stay Subscribed Error Messages
 
 stay-subscribed-error-expired = Ez az ajánlat lejárt.
-stay-subscribed-error-discount-used = A kedvezménykód már alkalmazva.
+stay-subscribed-error-discount-used = A kedvezménykód már alkalmazva van.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Ez a kedvezmény csak a jelenlegi { $productTitle } előfizetők számára érhető el.
 stay-subscribed-error-still-active = A(z) { $productTitle } előfizetése még aktív.

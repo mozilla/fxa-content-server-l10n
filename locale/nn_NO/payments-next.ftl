@@ -102,6 +102,7 @@ next-payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
 ## Not found page
 
 not-found-title-subscriptions = Fann ikkje abonnementet
+not-found-description-subscriptions = Vi fann ikkje abonnementet ditt. Prøv på nytt eller kontakt brukarstøtte.
 not-found-button-back-to-subscriptions = Tilbake til abonnementa
 
 ## Page - Subscription Management
@@ -182,12 +183,21 @@ subscription-cancellation-dialog-title = Det er trist å sjå at du forlèt oss.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name }-abonnementet ditt er avslutta. Du vil framleis ha tilgang til { $name } fram til den { $date }.
 subscription-cancellation-dialog-aside = Har du spørsmål? Besøk <LinkExternal>{ -brand-mozilla }-brukarstøtte</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Avbryt { $productName }-abonnementet
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Du vil ikkje lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
 subscription-content-cancel-access-message = Avbryt tilgangen min og lagra informasjon i { $productName } den { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Avbryt abonnementet
+    .aria-label = Avbryt abonnentet ditt på { $productName }
+cancel-subscription-button-stay-subscribed = Fortset å abonnere
+    .aria-label = Fortset å abonnere på { $productName }
 
 ## Component - Payment Consent Checkbox
 
