@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Điều khoản và hạn chế
+loyalty-discount-terms-support = Liên hệ hỗ trợ
+loyalty-discount-terms-support-aria = Liên hệ hỗ trợ
+
 ## Page
 
 checkout-signin-or-create = 1. Đăng nhập hoặc tạo một { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Tiếp tục tải xuống
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Không tìm thấy gói đăng ký
+not-found-description-subscriptions = Chúng tôi không tìm thấy gói đăng ký của bạn. Vui lòng thử lại hoặc liên hệ bộ phận hỗ trợ.
+not-found-button-back-to-subscriptions = Quay lại gói đăng ký
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Không có phương thức thanh toán nào được thêm
@@ -173,12 +183,21 @@ subscription-cancellation-dialog-title = Chúng tôi rất tiếc khi thấy b�
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Gói đăng ký { $name } của bạn đã bị hủy. Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
 subscription-cancellation-dialog-aside = Có câu hỏi? Truy cập <LinkExternal>Hỗ trợ { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Huỷ gói đăng ký { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.
 subscription-content-cancel-access-message = Hủy quyền truy cập và thông tin đã lưu của tôi trong { $productName } vào { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Huỷ gói đăng ký
+    .aria-label = Huỷ gói đăng ký { $productName } của bạn
+cancel-subscription-button-stay-subscribed = Tiếp tục duy trì gói đăng ký
+    .aria-label = Tiếp tục duy trì gói đăng ký { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +320,18 @@ next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email 
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Bạn muốn tiếp tục sử dụng { $productName }?
+stay-subscribed-access-will-continue = Quyền truy cập của bạn vào { $productName } sẽ tiếp tục và chu kỳ thanh toán cũng như phương thức thanh toán của bạn sẽ vẫn giữ nguyên.
 subscription-content-button-resubscribe = Đăng ký lại
     .aria-label = Đăng ký lại { $productName }
 resubscribe-success-dialog-title = Cảm ơn! Bạn đã sẵn sàng.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Khoản phí tiếp theo của bạn sẽ là { $nextInvoiceTotal } + { $taxDue } thuế vào { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Khoản phí tiếp theo của bạn sẽ là { $nextInvoiceTotal } vào { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +362,7 @@ subscription-content-button-cancel-subscription = Huỷ gói đăng ký
 ##
 
 dialog-close = Đóng hộp thoại
+button-back-to-subscriptions = Quay lại gói đăng ký
 subscription-content-cancel-action-error = Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
@@ -434,3 +463,12 @@ next-coupon-error-generic = Đã xảy ra lỗi khi xử lý mã. Vui lòng th�
 next-coupon-error-invalid = Mã bạn đã nhập không hợp lệ.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Mã bạn đã nhập đã đạt đến giới hạn.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Ưu đãi này đã hết hạn.
+stay-subscribed-error-discount-used = Mã giảm giá đã được áp dụng.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Giảm giá này chỉ dành cho gói đăng ký { $productTitle } hiện tại.
+stay-subscribed-error-still-active = Gói đăng ký { $productTitle } của bạn vẫn còn hiệu lực.
+stay-subscribed-error-general = Đã xảy ra sự cố khi gia hạn gói đăng ký của bạn.

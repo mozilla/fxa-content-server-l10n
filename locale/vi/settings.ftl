@@ -1025,6 +1025,7 @@ verify-secondary-email-please-enter-code-2 = Vui lòng nhập mã xác minh đã
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = Đã thêm { $email } thành công
+verify-secondary-email-resend-code-button = Gửi lại mã xác nhận
 
 ##
 
