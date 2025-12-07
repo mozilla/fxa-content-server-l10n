@@ -1,3 +1,4 @@
+loyalty-discount-terms-heading = Vilkår og avgrensingar
 loyalty-discount-terms-support = Kontakt support
 loyalty-discount-terms-support-aria = Kontakt support
 
@@ -97,6 +98,11 @@ next-payment-confirmation-download-button = Hald fram til nedlasting
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
+
+## Not found page
+
+not-found-title-subscriptions = Fann ikkje abonnementet
+not-found-button-back-to-subscriptions = Tilbake til abonnementa
 
 ## Page - Subscription Management
 
@@ -337,6 +343,7 @@ subscription-content-button-cancel-subscription = Avbryt abonnementet
 ##
 
 dialog-close = Lat att dialogboks
+button-back-to-subscriptions = Tilbake til abonnementa
 subscription-content-cancel-action-error = Det oppstod ein uventa feil. Prøv på nytt.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
