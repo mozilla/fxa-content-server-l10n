@@ -320,6 +320,7 @@ next-new-user-subscribe-product-assurance = Vi brukar berre e-postadressa di for
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vil du halde fram med å bruke { $productName }?
+stay-subscribed-access-will-continue = Tilgangen din til { $productName } vil halde fram, og faktureringssyklusen og betalinga di vil halde fram med å vere den same.
 subscription-content-button-resubscribe = Abonner ein gong til
     .aria-label = Abonner ein gong til på { $productName }
 resubscribe-success-dialog-title = Takk! Alt er no klart.
