@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Villkor och begränsningar
+loyalty-discount-terms-support = Kontakta supporten
+loyalty-discount-terms-support-aria = Kontakta supporten
+
 ## Page
 
 checkout-signin-or-create = 1. Logga in eller skapa ett { -product-mozilla-account }
@@ -95,6 +99,12 @@ next-payment-confirmation-download-button = Fortsätt till nedladdning
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Prenumeration hittades inte
+not-found-description-subscriptions = Vi kunde inte hitta din prenumeration. Försök igen eller kontakta supporten.
+not-found-button-back-to-subscriptions = Tillbaka till prenumerationer
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalningsmetod har lagts till
@@ -165,6 +175,29 @@ subscription-management-breadcrumb-subscriptions = Prenumerationer
 subscription-management-breadcrumb-payment-2 = Hantera betalningsmetoder
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Gå tillbaka till { $page }
+
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Vi tycker det är tråkigt att du lämnar oss
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Din prenumeration på { $name } har avbrutits. Du har fortfarande åtkomst till { $name } tills { $date }.
+subscription-cancellation-dialog-aside = Har du frågor? Besök <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Avbryt prenumerationen på { $productName }
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Du kommer inte längre att kunna använda { $productName } efter { $currentPeriodEnd }, den sista dagen i din faktureringscykel.
+subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade information inom { $productName } den { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Avbryt prenumeration
+    .aria-label = Avbryt din prenumeration på { $productName }
+cancel-subscription-button-stay-subscribed = Fortsätt prenumerera
+    .aria-label = Behåll din prenumeration på { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -284,6 +317,22 @@ next-new-user-subscribe-product-updates-mozilla = Jag vill få produktnyheter oc
 next-new-user-subscribe-product-updates-snp = Jag vill få nyheter och uppdateringar om säkerhet och sekretess från { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress för att skapa ditt konto. Vi kommer aldrig att sälja den till en tredje part.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Vill du fortsätta använda { $productName }?
+stay-subscribed-access-will-continue = Din åtkomst till { $productName } kommer att fortsätta, och din faktureringscykel och betalning kommer att förbli desamma.
+subscription-content-button-resubscribe = Prenumerera igen
+    .aria-label = Prenumerera på { $productName } igen
+resubscribe-success-dialog-title = Tack! Du är klar.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Din nästa debitering är { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Din nästa debitering är { $nextInvoiceTotal } den { $currentPeriodEnd }.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +343,6 @@ next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress f
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = { $promotionName } rabatt kommer att tillämpas
-subscription-content-heading-cancel-subscription = Avbryt prenumeration
-subscription-content-no-longer-use-message = Du kommer inte längre att kunna använda { $productName } efter { $currentPeriodEnd }, den sista dagen i din faktureringscykel.
-subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade information inom { $productName } den { $currentPeriodEnd }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Senaste räkning • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } moms
@@ -310,42 +356,14 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Fortsätt prenumerera
     .aria-label = Fortsätt prenumerera på { $productName }
-subscription-content-button-cancel-subscription-1 = Avbryt prenumeration
 subscription-content-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt prenumeration på { $productName }
-subscription-content-button-cancel = Avbryt
-    .aria-label = Avbryt din prenumeration på { $productName }
-subscription-content-cancel-action-error = Ett oväntat fel uppstod. Försök igen.
-subscription-cancellation-dialog-title = Vi tycker det är tråkigt att du lämnar oss
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Din prenumeration på { $name } har avbrutits. Du har fortfarande åtkomst till { $name } tills { $date }.
-subscription-cancellation-dialog-aside = Har du frågor? Besök <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
-subscription-content-button-resubscribe = Prenumerera igen
-    .aria-label = Prenumerera på { $productName } igen
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Du förlorar åtkomsten till { $name } den <strong>{ $date }</strong>.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Vill du fortsätta använda { $productName }?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Din åtkomst till { $name } fortsätter, och din faktureringscykel och betalningscykel förblir desamma. Din nästa debitering blir { $amount } den { $endDate }.
-resubscribe-dialog-content-with-tax = Din åtkomst till { $name } fortsätter och din faktureringsperiod och betalning förblir desamma. Din nästa debitering är { $amount } + { $tax } moms för { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Prenumerera igen
-    .aria-label = Prenumerera igen på { $productName }
-resubscribe-success-dialog-title = Tack! Du är klar.
-resubscribe-success-dialog-action-button-close = Stäng
-    .aria-label = Stäng dialogrutan
 
 ##
 
 dialog-close = Stäng dialogrutan
+button-back-to-subscriptions = Tillbaka till prenumerationer
+subscription-content-cancel-action-error = Ett oväntat fel uppstod. Försök igen.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

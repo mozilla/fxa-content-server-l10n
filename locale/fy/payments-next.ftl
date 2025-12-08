@@ -166,6 +166,20 @@ subscription-management-breadcrumb-payment-2 = Betellingsmetoaden beheare
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Tebek nei { $page }
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
+subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
+subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens yn { $productName } op { $currentPeriodEnd } opsizze
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Ik autorisearje { -brand-mozilla } om myn betelmetoade foar it toande bedrach te belêsten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
@@ -284,6 +298,13 @@ next-new-user-subscribe-product-updates-mozilla = Ik wol graach produktnijs en -
 next-new-user-subscribe-product-updates-snp = Ik wol graach befeiligings- en privacynijs en updates fan { -brand-mozilla } ûntfange
 next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich om jo account oan te meitsjen. Wy sille it nea oan in tredde partij ferkeapje.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Wolle jo { $productName } brûke bliuwe?
+subscription-content-button-resubscribe = Opnij abonnearje
+    .aria-label = Opnij abonnearje op { $productName }
+resubscribe-success-dialog-title = Tank! Jo binne hielendal klear.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -294,9 +315,6 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Koarting fanwegen { $promotionName } wurdt tapast
-subscription-content-heading-cancel-subscription = Abonnemint opsizze
-subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
-subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens yn { $productName } op { $currentPeriodEnd } opsizze
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Lêste faktuer • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } btw
@@ -310,42 +328,13 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Abonnemint behâlde
     .aria-label = Abonnemint op { $productName } behâlde
-subscription-content-button-cancel-subscription-1 = Abonnemint opsizze
 subscription-content-button-cancel-subscription = Abonnemint opsizze
     .aria-label = Abonnemint op { $productName } opsizze
-subscription-content-button-cancel = Opsizze
-    .aria-label = Jo abonnemint op { $productName } opsizze
-subscription-content-cancel-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
-subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
-subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
-subscription-content-button-resubscribe = Opnij abonnearje
-    .aria-label = Opnij abonnearje op { $productName }
-# $name (String) - The name of the subscribed product.
-# $date (Date) - Last day of product access
-subscription-content-resubscribe = Jo ferlieze op <strong>{ $date }</strong> tagong ta { $name }.
-# $name (String) - The name of the subscribed product.
-resubscribe-dialog-title = Wolle jo { $productName } brûke bliuwe?
-
-## $name (String) - The name of the subscribed product.
-## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $endDate (Date) - The end date of the subscription period.
-
-resubscribe-dialog-content = Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus en betelling bliuwe itselde. Jo folgjende betelling wurdt { $amount } op { $endDate }.
-resubscribe-dialog-content-with-tax = Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus en betelling bliuwe itselde. Jo folgjende betelling is { $amount } + { $tax } btw op { $endDate }.
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-resubscribe-dialog-action-button-resubscribe = Opnij abonnearje
-    .aria-label = Opnij abonnearje op { $productName }
-resubscribe-success-dialog-title = Tank! Jo binne hielendal klear.
-resubscribe-success-dialog-action-button-close = Slute
-    .aria-label = Dialoochfinster slute
 
 ##
 
 dialog-close = Dialoochfinster slute
+subscription-content-cancel-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
