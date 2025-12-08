@@ -183,6 +183,8 @@ subscription-cancellation-dialog-title = Det er leit at du forsvinner
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name }-abonnementet ditt er avsluttet. Du vil fortsatt ha tilgang til { $name } frem til den { $date }.
 subscription-cancellation-dialog-aside = Har du spørsmål? Besøk <LinkExternal>{ -brand-mozilla }-brukerstøtte</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Avslutt abonnementet på { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
