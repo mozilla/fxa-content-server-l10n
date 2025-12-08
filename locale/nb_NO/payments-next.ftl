@@ -192,6 +192,11 @@ cancel-subscription-heading = Avslutt abonnementet på { $productName }
 subscription-content-no-longer-use-message = Du vil ikke lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
 subscription-content-cancel-access-message = Avbryt tilgangen min og lagret informasjon for { $productName } den { $currentPeriodEnd }
 
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Avslutt abonnement
+    .aria-label = Avslutt abonnementet på { $productName }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Jeg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som vises, i henhold til <termsOfServiceLink>bruksvilkår</termsOfServiceLink> og <privacyNoticeLink>personvernerklæring</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
