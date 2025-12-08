@@ -191,6 +191,8 @@ payment-method-payment-provider-plaintext = Тарзи пардохт: { $paymen
 ##  $cardName (String) - The brand name of the credit card, e.g. American Express
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
+payment-provider-card-name-ending-in-plaintext = Тарзи пардохт: Корти «{ $cardName }», ки рақамаш бо { $lastFour } анҷом меёбад
+payment-provider-card-ending-in-plaintext = Тарзи пардохт: Корте, ки рақамаш бо { $lastFour } анҷом меёбад
 subscription-charges-invoice-summary = Ҷамъбасти санадҳои дархости пардохт
 
 # Variables:
