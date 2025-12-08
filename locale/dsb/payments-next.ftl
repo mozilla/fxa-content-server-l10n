@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = Wuměnjenja a wobgranicowanja
 loyalty-discount-terms-support = Z pomocu se kontaktěrowaś
-loyalty-discount-terms-support-aria = Z pomocu se kontaktěrowaś
 
 ## Page
 

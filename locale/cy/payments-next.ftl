@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = Telerau a Chyfyngiadau
 loyalty-discount-terms-support = Cysylltu â Chefnogaeth
-loyalty-discount-terms-support-aria = Cysylltu â Chefnogaeth
 
 ## Page
 

@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = Condiții și restricții
 loyalty-discount-terms-support = Contactează serviciul de asistență
-loyalty-discount-terms-support-aria = Contactează serviciul de asistență
 
 ## Page
 

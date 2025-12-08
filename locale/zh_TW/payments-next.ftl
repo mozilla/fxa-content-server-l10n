@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = 條款與限制
 loyalty-discount-terms-support = 聯絡支援團隊
-loyalty-discount-terms-support-aria = 聯絡支援團隊
 
 ## Page
 

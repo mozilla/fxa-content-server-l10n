@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = პირობები და შეზღუდვები
 loyalty-discount-terms-support = დაკავშირება მხარდაჭერისთვის
-loyalty-discount-terms-support-aria = დაკავშირება მხარდაჭერისთვის
 
 ## Page
 

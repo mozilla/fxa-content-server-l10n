@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = Bedingungen und Einschränkungen
 loyalty-discount-terms-support = Hilfe kontaktieren
-loyalty-discount-terms-support-aria = Hilfe kontaktieren
 
 ## Page
 

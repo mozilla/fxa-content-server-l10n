@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = Điều khoản và hạn chế
 loyalty-discount-terms-support = Liên hệ hỗ trợ
-loyalty-discount-terms-support-aria = Liên hệ hỗ trợ
 
 ## Page
 

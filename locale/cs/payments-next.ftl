@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = Podmínky a omezení
 loyalty-discount-terms-support = Kontaktovat podporu
-loyalty-discount-terms-support-aria = Kontaktovat podporu
 
 ## Page
 

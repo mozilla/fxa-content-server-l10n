@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = Feltételek és korlátozások
 loyalty-discount-terms-support = Kapcsolatfelvétel az ügyfélszolgálattal
-loyalty-discount-terms-support-aria = Kapcsolatfelvétel az ügyfélszolgálattal
 
 ## Page
 

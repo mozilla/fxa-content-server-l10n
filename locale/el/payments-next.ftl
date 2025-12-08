@@ -1,6 +1,5 @@
 loyalty-discount-terms-heading = Όροι και περιορισμοί
 loyalty-discount-terms-support = Επικοινωνία με την υποστήριξη
-loyalty-discount-terms-support-aria = Επικοινωνία με την υποστήριξη
 
 ## Page
 
