@@ -196,6 +196,8 @@ subscription-content-cancel-access-message = Avbryt tilgangen min og lagret info
 
 cancel-subscription-button-cancel-subscription = Avslutt abonnement
     .aria-label = Avslutt abonnementet på { $productName }
+cancel-subscription-button-stay-subscribed = Fortsett abonnementet
+    .aria-label = Fortsett abonnementet på { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -318,6 +320,7 @@ next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vil du fortsette å bruke { $productName }?
+stay-subscribed-access-will-continue = Tilgangen din til { $productName } fortsetter, og faktureringssyklusen og betalingen din forblir den samme.
 subscription-content-button-resubscribe = Abonner på nytt
     .aria-label = Abonner på nytt på { $productName }
 resubscribe-success-dialog-title = Takk! Alt er nå klart.
