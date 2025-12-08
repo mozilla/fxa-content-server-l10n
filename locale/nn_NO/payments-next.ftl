@@ -194,8 +194,8 @@ subscription-content-cancel-access-message = Avbryt tilgangen min og lagra infor
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
-cancel-subscription-button-cancel-subscription = Avbryt abonnementet
-    .aria-label = Avbryt abonnentet ditt på { $productName }
+cancel-subscription-button-cancel-subscription = Avslutt abonnementet
+    .aria-label = Avslutt abonnentet ditt på { $productName }
 cancel-subscription-button-stay-subscribed = Fortset å abonnere
     .aria-label = Fortset å abonnere på { $productName }
 
