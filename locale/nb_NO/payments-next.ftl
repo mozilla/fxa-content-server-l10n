@@ -325,6 +325,14 @@ subscription-content-button-resubscribe = Abonner på nytt
     .aria-label = Abonner på nytt på { $productName }
 resubscribe-success-dialog-title = Takk! Alt er nå klart.
 
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Den neste belastningen din blir { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Den neste belastningen din blir { $nextInvoiceTotal } den { $currentPeriodEnd }.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -354,6 +362,7 @@ subscription-content-button-cancel-subscription = Avbryt abonnementet
 ##
 
 dialog-close = Lukk dialogvindu
+button-back-to-subscriptions = Tilbake til abonnementer
 subscription-content-cancel-action-error = Det oppstod en uventet feil. Prøv på nytt.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
