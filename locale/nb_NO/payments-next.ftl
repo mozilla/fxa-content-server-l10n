@@ -102,6 +102,8 @@ next-payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
 ## Not found page
 
 not-found-title-subscriptions = Abonnementet ble ikke funnet
+not-found-description-subscriptions = Vi fant ikke abonnementet ditt. Prøv på nytt eller kontakt kundestøtte.
+not-found-button-back-to-subscriptions = Tilbake til abonnementer
 
 ## Page - Subscription Management
 
