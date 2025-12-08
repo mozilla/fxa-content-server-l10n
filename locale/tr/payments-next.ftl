@@ -300,6 +300,7 @@ subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 ##
 
 dialog-close = İletişim kutusunu kapat
+button-back-to-subscriptions = Aboneliklere dön
 subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
@@ -396,3 +397,8 @@ next-coupon-error-generic = Kod işlenirken bir hata oluştu. Lütfen yeniden de
 next-coupon-error-invalid = Girdiğiniz kod geçersiz.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Girdiğiniz kodun kullanım limiti doldu.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Bu teklifin süresi doldu.
+stay-subscribed-error-discount-used = İndirim kodu zaten uygulanmış.
