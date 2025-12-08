@@ -1,3 +1,7 @@
+loyalty-discount-terms-heading = Vilkår og begrensninger
+loyalty-discount-terms-support = Kontakt kundestøtte
+loyalty-discount-terms-support-aria = Kontakt kundestøtte
+
 ## Page
 
 checkout-signin-or-create = 1. Logg inn eller opprett en { -product-mozilla-account }
@@ -94,6 +98,10 @@ next-payment-confirmation-download-button = Fortsett til nedlasting
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
+
+## Not found page
+
+not-found-title-subscriptions = Abonnementet ble ikke funnet
 
 ## Page - Subscription Management
 
