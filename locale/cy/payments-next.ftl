@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = Telerau a Chyfyngiadau
 loyalty-discount-terms-support = Cysylltu â Chefnogaeth
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Cysylltwch â Chefnogaeth ar gyfer { $productName }
+not-found-page-title-terms = Heb ganfod y dudalen
+not-found-page-description-terms = Nid yw'r dudalen rydych chi'n chwilio amdani yn bodoli.
+not-found-page-button-terms-manage-subscriptions = Rheoli tanysgrifiadau
 
 ## Page
 

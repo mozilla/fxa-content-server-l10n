@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = Feltételek és korlátozások
 loyalty-discount-terms-support = Kapcsolatfelvétel az ügyfélszolgálattal
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Lépjen kapcsolatba az ügyfélszolgálattal – { $productName }
+not-found-page-title-terms = Az oldal nem található
+not-found-page-description-terms = A keresett oldal nem létezik.
+not-found-page-button-terms-manage-subscriptions = Feliratkozások kezelése
 
 ## Page
 
