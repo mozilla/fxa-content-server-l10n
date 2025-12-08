@@ -596,7 +596,7 @@ reactivate-confirm-without-payment-method-copy =
     Waš přistup k { $name } dale wobsteji. a waš wotličenska perioda
     a waše płaćenje samsnej wostanjetej. Waše přichodne wotknihowanje
     budźe { $endDate } { $amount }.
-reactivate-confirm-button = Abonoment wobnowić
+reactivate-confirm-button = Abonement wobnowić
 
 ## $date (Date) - Last day of product access
 

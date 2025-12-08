@@ -114,7 +114,7 @@ payment-confirm-checkbox-error = Musyśo to dokóncyś, nježli až móžośo p�
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Hyšći raz wopytaś
-payment-error-manage-subscription-button = Abonoment zastojaś
+payment-error-manage-subscription-button = Abonement zastojaś
 
 ## Component - PaymentErrorView - IAP upgrade errors
 

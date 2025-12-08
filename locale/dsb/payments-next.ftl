@@ -54,7 +54,7 @@ google-pay-logo-alt-text = Logo { -brand-google-pay }
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
-next-payment-error-manage-subscription-button = Abonoment zastojaś
+next-payment-error-manage-subscription-button = Mój abonement zastojaś
 next-iap-blocked-contact-support = Maśo mobilny abonement w nałoženju, kótaryž jo w konflikśe z toś tym produktom – stajśo se pšosym z teamom pomocy do zwiska, aby my mógli wam pomagaś.
 next-payment-error-retry-button = Hyšći raz wopytaś
 next-basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
