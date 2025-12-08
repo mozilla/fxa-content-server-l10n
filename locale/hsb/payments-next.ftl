@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = Wuměnjenja a wobmjezowanja
 loyalty-discount-terms-support = Pomoc skontaktować
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Pomoc za { $productName } skontaktować
+not-found-page-title-terms = Strona njeje so namakała
+not-found-page-description-terms = Strona, kotruž pytaće, njeeksistuje.
+not-found-page-button-terms-manage-subscriptions = Abonementy rjadować
 
 ## Page
 
