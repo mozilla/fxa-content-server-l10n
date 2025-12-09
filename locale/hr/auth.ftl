@@ -260,6 +260,7 @@ subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku
 subscriptionSupportContact = Hvala ti pretplati na { $productName }. Ako imaš pitanja o svojoj pretplati ili ako trebaš više informacija o { $productName }, <a data-l10n-name="subscriptionSupportUrl">kontaktiraj nas</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Hvala ti pretplati na { $productName }. Ako imaš pitanja o svojoj pretplati ili ako trebaš više informacija o { $productName }, kontaktiraj nas:
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Upravljaj svojom pretplatom</a>
 # After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Upravljaj svojom pretplatom:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Kontaktiraj podršku</a>
@@ -408,6 +409,7 @@ passwordChangeRequired-different-password-2 = <b>Važno:</b> Odaberi snažnu loz
 passwordChangeRequired-different-password-plaintext-2 = Važno: Odaberi snažnu lozinku koja se razlikuje od tvoje lozinke u prošlosti.
 passwordChangeRequired-action = Resetiraj lozinku
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+password-forgot-otp-preview = Ovaj kod isteče za 10 minuta
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
 password-forgot-otp-code-2 = Ako si to bio/la ti, ovo je tvoj potvrdni kod za nastavljanje:
@@ -459,8 +461,16 @@ postAddRecoveryPhone-how-protect-plaintext = Kako ovo štiti tvoj račun:
 postAddRecoveryPhone-enabled-device = Aktivirao/la si ga s uređaja:
 postAddRecoveryPhone-action = Upravljaj računom
 postAddTwoStepAuthentication-preview = Tvoj je račun zaštićen
+postAddTwoStepAuthentication-subject-v3 = Dvofaktorska autentifikacija je uključena
 postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikaciju
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Zatražio/la si ovo s uređaja:
 postAddTwoStepAuthentication-action = Upravljaj računom
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Dodao/la si i { $maskedPhoneNumber } kao svoj telefonski broj za obnavljanje.
+postAddTwoStepAuthentication-how-protects-link = Kako ovo štiti tvoj račun
+postAddTwoStepAuthentication-how-protects-plaintext = Kako ovo štiti tvoj račun:
 postChangeAccountRecovery-subject = Ključ za obnavljanje računa promijenjen
 postChangeAccountRecovery-title = Promijenio/la si ključ za obnavljanje računa
 postChangeAccountRecovery-body-part1 = Sada imaš novi ključ za obnavljanje računa. Tvoj prethodni ključ je izbrisan.
@@ -477,6 +487,11 @@ postChangeRecoveryPhone-preview = Račun je zaštićen dvofaktorskom autentifika
 postChangeRecoveryPhone-title = Promijenio/la si telefonski broj za obnavljanje
 postChangeRecoveryPhone-description = Sada imaš novi telefonski broj za obnavljanje. Tvoj prethodni telefonski broj je izbrisan.
 postChangeRecoveryPhone-requested-device = Zatražio/la si to s uređaja:
+postChangeTwoStepAuthentication-preview = Tvoj je račun zaštićen
+postChangeTwoStepAuthentication-subject = Dvofaktorska autentifikacija je aktualizirana
+postChangeTwoStepAuthentication-title = Dvofaktorska autentifikacija je aktualizirana
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Zatražio/la si to s:
 postChangeTwoStepAuthentication-action = Upravljaj računom
 postChangeTwoStepAuthentication-how-protects-link = Kako ovo štiti tvoj račun
 postChangeTwoStepAuthentication-how-protects-plaintext = Kako ovo štiti tvoj račun:
@@ -510,8 +525,10 @@ postRemoveTwoStepAuthentication-from-device = Dektivirao/la si je s:
 postRemoveTwoStepAuthentication-action = Upravljaj računom
 postRemoveTwoStepAuthentication-not-required-2 = Više ne trebaš sigurnosne kodove od tvoje aplikacije za autentifikaciju kada se prijaviš.
 postSigninRecoveryCode-preview = Potvrdi aktivnost računa
+postSigninRecoveryCode-device = Prijavio/la si se s:
 postSigninRecoveryCode-action = Upravljaj računom
 postSigninRecoveryPhone-preview = Potvrdi aktivnost računa
+postSigninRecoveryPhone-device = Prijavio/la si se s:
 postSigninRecoveryPhone-action = Upravljaj računom
 postVerify-sub-title-3 = Drago nam je što te vidimo!
 postVerify-title-2 = Želiš vidjeti istu karticu na dva uređaja?
@@ -527,6 +544,7 @@ recovery-subject = Resetiraj lozinku
 recovery-title-2 = Zaboravio/la si lozinku?
 # Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
+recovery-new-password-button = Stvori novu lozinku klikom na donji gumb. Ova će poveznica isteći za sat vremena.
 recovery-action = Stvori novu lozinku
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -589,6 +607,7 @@ subscriptionFirstInvoice-subject = { $productName } plaćanje potvrđeno
 subscriptionFirstInvoice-title = Hvala ti na pretplati na { $productName }
 subscriptionFirstInvoice-content-processing = Tvoje se plaćanje trenutačno obrađuje i može potrajati do četiri radna dana.
 subscriptionFirstInvoice-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
+subscriptionPaymentExpired-title-2 = Tvoj način plaćanja je istekao ili uskoro isteče
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } plaćanje nije uspjelo
@@ -627,6 +646,8 @@ subscriptionRenewalReminder-content-closing = S poštovanjem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } tim
+subscriptionReplaced-subject = Tvoja je pretplata aktualizirana kao dio tvoje nadogradnje
+subscriptionReplaced-title = Tvoja je pretplata aktualizirana
 subscriptionsPaymentProviderCancelled-title = Žao nam je, imamo problem s tvojim načinom plaćanja
 subscriptionsPaymentProviderCancelled-content-detected = Otkrili smo problem s tvojim načinom plaćanja za sljedeće pretplate.
 # Variables:
@@ -701,6 +722,10 @@ verifyLogin-description-2 = Pomogni nam zaštiti tvoj račun potvrđivanjem da s
 verifyLogin-subject-2 = Potvrdi prijavu
 verifyLogin-action = Potvrdi prijavu
 # Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Koristi { $code } za prijavu
+verifyLoginCode-preview = Ovaj kod isteče za 5 minuta.
+# Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Jesi li se prijavio/la na { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
@@ -713,6 +738,7 @@ verifyPrimary-subject = Potvrdi primarnu e-mail adresu
 verifyPrimary-action-2 = Potvrdi e-mail adresu
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Nakon potvrde, promjene računa poput dodavanja sekundarne e-mail adrese postat će moguće s ovog uređaja.
+verifySecondaryCode-preview = Ovaj kod isteče za 5 minuta.
 verifySecondaryCode-title-2 = Potvrdi sekundarnu e-mail adresu
 verifySecondaryCode-action-2 = Potvrdi e-mail adresu
 # Variables:
@@ -720,6 +746,10 @@ verifySecondaryCode-action-2 = Potvrdi e-mail adresu
 verifySecondaryCode-explainer-2 = Zahtjev za korištenje { $email } kao sekundarne e-mail adrese je podnesen sa sljedećeg { -product-mozilla-account }.
 verifySecondaryCode-prompt-2 = Koristi ovaj potvrdni kod:
 verifySecondaryCode-expiry-notice-2 = Isteče za 5 minuta. Nakon potvrde, ova će adresa početi primati sigurnosne obavijesti i potvrde.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Koristi { $code } za potvrđivanje tvog računa
+verifyShortCode-preview-2 = Ovaj kod isteče za 5 minuta
 verifyShortCode-title-3 = Otvori internet s { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrdi svoj račun i izvuci maksimum iz { -brand-mozilla } gdje god se prijaviš počevši s:

@@ -434,3 +434,7 @@ next-coupon-error-generic = 处理折扣码时出错，请重试。
 next-coupon-error-invalid = 您输入的折扣码无效。
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = 您输入的折扣码已达使用次数上限。
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-general = 您的续订出现问题。
