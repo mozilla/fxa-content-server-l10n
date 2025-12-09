@@ -112,6 +112,9 @@ change-password-plaintext = اگر شما مشکوک هستید که فرد دی
 manage-account = مدیریت حساب‌کاربری
 manage-account-plaintext = { manage-account }:
 payment-details = جزئیات پرداخت:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = شماره فاکتور: { $invoiceNumber }
 
 ##
 
