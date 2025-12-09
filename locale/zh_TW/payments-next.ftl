@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = 條款與限制
 loyalty-discount-terms-support = 聯絡支援團隊
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = 聯絡 { $productName } 的支援團隊
+not-found-page-title-terms = 找不到頁面
+not-found-page-description-terms = 找不到您想開啟的頁面。
+not-found-page-button-terms-manage-subscriptions = 管理訂閱
 
 ## Page
 
