@@ -3,7 +3,7 @@ loyalty-discount-terms-support = Obrnite se na podporo
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 loyalty-discount-terms-contact-support-product-aria = Stopite v stik s podporo za { $productName }
 not-found-page-title-terms = Strani ni mogoče najti
-not-found-page-description-terms = Stran, ki jo iščete, ne obstaja.
+not-found-page-description-terms = Stran, ki ste jo iskali, ne obstaja.
 not-found-page-button-terms-manage-subscriptions = Upravljanje naročnin
 
 ## Page
@@ -200,7 +200,7 @@ subscription-content-cancel-access-message = Prekliči moj dostop in moje shranj
 
 cancel-subscription-button-cancel-subscription = Prekliči naročnino
     .aria-label = Prekličite naročnino na { $productName }
-cancel-subscription-button-stay-subscribed = Ostanite naročeni
+cancel-subscription-button-stay-subscribed = Ohrani naročnino
     .aria-label = Ostanite naročeni na { $productName }
 
 ## Component - Payment Consent Checkbox
