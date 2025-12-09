@@ -4,7 +4,7 @@ loyalty-discount-terms-support = Contatta l’assistenza
 loyalty-discount-terms-contact-support-product-aria = Contatta l’assistenza per { $productName }
 not-found-page-title-terms = Pagina non trovata
 not-found-page-description-terms = La pagina che stai cercando non esiste.
-not-found-page-button-terms-manage-subscriptions = Gestisci le sottoscrizioni
+not-found-page-button-terms-manage-subscriptions = Gestisci gli abbonamenti
 
 ## Page
 
