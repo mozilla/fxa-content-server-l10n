@@ -1028,7 +1028,7 @@ msgstr "Klik på linket, vi har sendt til %(email)s indenfor den næste time for
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr "Indtast bekræftelseskoden <span class=\"card-subheader\" id=\"subheader\"> til din Mozila-konto</span>"
+msgstr "Indtast bekræftelseskoden <span class=\"card-subheader\" id=\"subheader\"> til din Mozilla-konto</span>"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
