@@ -471,5 +471,8 @@ next-coupon-error-limit-reached = 您输入的折扣码已达使用次数上限�
 ## Stay Subscribed Error Messages
 
 stay-subscribed-error-expired = 此优惠已过期。
+stay-subscribed-error-discount-used = 已经使用此折扣码。
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = 此折扣仅面向当前已订阅 { $productTitle } 的用户。
 stay-subscribed-error-still-active = 您的 { $productTitle } 订阅仍在有效期内。
 stay-subscribed-error-general = 您的续订出现问题。
