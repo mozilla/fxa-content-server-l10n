@@ -101,7 +101,7 @@ subscription-management-nav-active-subscriptions = Aktivne pretplate
 subscription-management-payment-details-heading = Podaci o plaćanju
 subscription-management-email-label = E-mail adresa
 subscription-management-credit-balance-label = Stanje kredita
-subscription-management-credit-balance-message = Krediti će se automatski primijenjeti na buduće fakture
+subscription-management-credit-balance-message = Krediti će se automatski primijenjeti na buduće račune
 subscription-management-payment-method-label = Način plaćanja
 subscription-management-button-add-payment-method-aria = Dodaj način plaćanja
 subscription-management-button-add-payment-method = Dodaj
@@ -144,8 +144,17 @@ alert-dialog-title = Dijalog upozorenja
 subscription-management-breadcrumb-account-home = Početna stranica računa
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Pretplate
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Upravljaj načinima plaćanja
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Vrati se na stranicu { $page }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Otkaži pretplatu
+    .aria-label = Otkaži svoju pretplatu na { $productName }
+cancel-subscription-button-stay-subscribed = Ostani pretplaćen/a
+    .aria-label = Ostani pretplaćen/a na { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -252,6 +261,10 @@ next-new-user-subscribe-product-updates-mozilla = Želim primati novosti { -bran
 next-new-user-subscribe-product-updates-snp = Želim primati novosti { -brand-mozilla } sigurnosti, obavijesti o privatnosti i aktualiziranja
 next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo za stvaranje tvog računa. Nikada ga nećemo prodati trećoj strani.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-success-dialog-title = Hvala! Sve je spremno.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -267,6 +280,9 @@ subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } porez
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Prikaži račun
 subscription-management-link-view-invoice-aria = Prikaži račun za { $productName }
+subscription-content-expires-on-expiry-date = Isteče { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Sljedeći račun • { $billedOnDate }
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Zadrži pretplatu
     .aria-label = Zadrži pretplatu za { $productName }
@@ -276,6 +292,7 @@ subscription-content-button-cancel-subscription = Otkaži pretplatu
 ##
 
 dialog-close = Zatvori dijalog
+button-back-to-subscriptions = Natrag na pretplate
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -328,10 +345,23 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (godišnje)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Plaćanje | { $productTitle }
+metadata-description-checkout-start = Upiši svoje informacije za plaćanje za dovršavanje kupovine.
 # Checkout processing
 metadata-title-checkout-processing = Obrada | { $productTitle }
+metadata-description-checkout-processing = Pričekaj da završimo obradu tvoje uplate.
 # Checkout error
 metadata-title-checkout-error = Greška | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = Nadogradi | { $productTitle }
+metadata-description-upgrade-start = Upiši svoje informacije za plaćanje za dovršavanje nadogradnje.
+# Upgrade processing
+metadata-title-upgrade-processing = Obrada | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Greška | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Uspjeh | { $productTitle }
 
 ## Stay Subscribed Error Messages
 

@@ -466,6 +466,7 @@ postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikac
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Zatražio/la si ovo s uređaja:
 postAddTwoStepAuthentication-action = Upravljaj računom
+postAddTwoStepAuthentication-recovery-method-codes = Dodao/la si i rezervne autentifikacijske kodove kao način obnavljanja.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Dodao/la si i { $maskedPhoneNumber } kao svoj telefonski broj za obnavljanje.
@@ -700,6 +701,7 @@ confirm-email-2 = Potvrdi račun
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Potvrdi račun
 verificationReminderSecond-subject-2 = Ne zaboravi potvrditi svoj račun
+verificationReminderSecond-title-3 = Nemoj propustiti uslugu { -brand-mozilla }!
 verificationReminderSecond-description-4 = Prije nekoliko dana si stvorio/la { -product-mozilla-account }, ali ga nikada nisi potvrdio/la. Potvrdi račun u sljedećih 10 dana ili će se račun automatski izbrisati.
 verificationReminderSecond-sub-description-2 = Budi dio naše misije pretvaranja interneta u mjesto koje je otvoreno za sve.
 verificationReminderSecond-action-2 = Potvrdi račun
