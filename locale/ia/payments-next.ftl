@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = Terminos e restrictiones
 loyalty-discount-terms-support = Contactar assistentia
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Contacta assistentia pro { $productName }
+not-found-page-title-terms = Pagina non trovate
+not-found-page-description-terms = Le pagina que tu cerca non existe.
+not-found-page-button-terms-manage-subscriptions = Gerer abonamentos
 
 ## Page
 
