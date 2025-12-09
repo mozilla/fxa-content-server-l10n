@@ -1023,6 +1023,7 @@ verify-secondary-email-please-enter-code-2 = 请在 5 分钟内输入发送到 <
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } 成功添加
+verify-secondary-email-resend-code-button = 重新发送确认码
 
 ##
 
@@ -1251,6 +1252,9 @@ auth-error-125 = 因为安全性因素，已拦截请求
 auth-error-129-2 = 您输入的电话号码无效，请核对并重试。
 auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = 此邮箱已被其他账户占用。请稍后重试，或使用其他邮箱地址。
 auth-error-155 = 找不到 TOTP 令牌
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = 找不到备用验证码

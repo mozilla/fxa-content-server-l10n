@@ -522,7 +522,7 @@ reactivate-confirm-copy = 您可继续使用 { $name }，账单周期与付款�
 # Alternate copy used when a payment method is not available, e.g. for free trials
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $endDate (Date) - Last day of product access
-reactivate-confirm-without-payment-method-copy = 您可继续访问 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate } 收取 { $amount }。
+reactivate-confirm-without-payment-method-copy = 您可继续使用 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate } 收取 { $amount }。
 reactivate-confirm-button = 重新订阅
 
 ## $date (Date) - Last day of product access
