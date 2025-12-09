@@ -1,3 +1,6 @@
+loyalty-discount-terms-heading = Uvjeti i ograničenja
+loyalty-discount-terms-support = Kontaktiraj podršku
+
 ## Page
 
 checkout-signin-or-create = 1. Prijavi se ili stvori { -product-mozilla-account }
@@ -16,6 +19,7 @@ upgrade-page-payment-information = Informacije o plaćanju
 
 ## Authentication Error page
 
+auth-error-page-title = Nismo te mogli prijaviti
 checkout-error-boundary-retry-button = Pokušaj ponovo
 checkout-error-boundary-basic-error-message = Nešto nije u redu. Pokušaj ponovo ili <contactSupportLink>kontaktiraj podršku.</contactSupportLink>
 amex-logo-alt-text = { -brand-amex } logotip
@@ -79,18 +83,29 @@ next-payment-confirmation-download-button = Nastavi s preuzimanjem
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica završava s { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Pretplata nije pronađena
+not-found-description-subscriptions = Nismo uspjeli pronaći tvoju pretplatu. Pokušaj ponovo ili kontaktiraj podršku.
+not-found-button-back-to-subscriptions = Natrag na pretplate
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nije dodan nijedan način plaćanja
 subscription-management-page-banner-warning-link-no-payment-method = Dodaj način plaćanja
 subscription-management-subscriptions-heading = Pretplate
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Skoči na
 subscription-management-nav-payment-details = Podaci o plaćanju
 subscription-management-nav-active-subscriptions = Aktivne pretplate
 subscription-management-payment-details-heading = Podaci o plaćanju
 subscription-management-email-label = E-mail adresa
+subscription-management-credit-balance-label = Stanje kredita
+subscription-management-credit-balance-message = Krediti će se automatski primijenjeti na buduće fakture
 subscription-management-payment-method-label = Način plaćanja
 subscription-management-button-add-payment-method-aria = Dodaj način plaćanja
 subscription-management-button-add-payment-method = Dodaj
+subscription-management-page-warning-message-no-payment-method = Dodaj način plaćanja da izbjegneš prekid pretplate.
 subscription-management-button-manage-payment-method-aria = Upravljaj načinom plaćanja
 subscription-management-button-manage-payment-method = Upravljaj
 # $last4 (String) - Last four numbers of credit card
@@ -98,10 +113,14 @@ subscription-management-card-ending-in = Kartica završava sa { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Isteče { $expirationDate }
 subscription-management-active-subscriptions-heading = Aktivne pretplate
+subscription-management-you-have-no-active-subscriptions = Nemaš aktivnih pretplata
 subscription-management-your-active-subscriptions-aria = Tvoje aktivne pretplate
 subscription-management-button-support = Dobij pomoć
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Zatraži pomoć za { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Tvoje { -brand-apple } pretplate unutar aplikacije
 subscription-management-apple-in-app-purchase-2 = { -brand-apple } kupnja unutar aplikacije
+subscription-management-your-google-iap-subscriptions-aria = Tvoje { -brand-google } pretplate unutar aplikacije
 subscription-management-google-in-app-purchase-2 = { -brand-google } kupnja unutar aplikacije
 # $date (String) - Date of next bill
 subscription-management-iap-sub-expires-on-expiry-date = Isteče { $date }
@@ -113,6 +132,7 @@ error-payment-method-banner-title-invalid-payment-information = Neispravni podac
 error-payment-method-banner-message-account-issue = Postoji problem s tvojim računom.
 subscription-management-button-manage-payment-method-1 = Upravljaj načinom plaćanja
 manage-payment-methods-heading = Upravljaj načinima plaćanja
+paypal-payment-management-page-invalid-header = Nevaljane informacije o plaćanju
 # Page - Not Found
 page-not-found-title = Stranica nije pronađena
 page-not-found-back-button = Idi natrag
@@ -120,6 +140,8 @@ alert-dialog-title = Dijalog upozorenja
 
 ## Navigation breadcrumbs
 
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Početna stranica računa
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Pretplate
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
@@ -167,6 +189,9 @@ payments-header-bento-firefox-mobile = { -brand-firefox } preglednik za mobilne 
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-made-by-mozilla = Stvorila { -brand-mozilla }
+payments-header-avatar =
+    .title = Izbornik za { -product-mozilla-account }
 payments-header-avatar-icon =
     .alt = Slika profila računa
 payments-header-avatar-expanded-signed-in-as = Prijavljen/a kao
