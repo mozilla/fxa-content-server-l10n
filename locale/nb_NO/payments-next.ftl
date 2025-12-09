@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = Vilkår og begrensninger
 loyalty-discount-terms-support = Kontakt kundestøtte
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Kontakt kundestøtte for { $productName }
+not-found-page-title-terms = Fant ikke siden
+not-found-page-description-terms = Siden du leter etter finnes ikke.
+not-found-page-button-terms-manage-subscriptions = Behandle abonnementer
 
 ## Page
 
