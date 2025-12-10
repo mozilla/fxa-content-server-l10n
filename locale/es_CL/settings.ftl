@@ -1043,6 +1043,7 @@ verify-secondary-email-please-enter-code-2 = Por favor, ingresa el código de co
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } añadido exitosamente
+verify-secondary-email-resend-code-button = Reenviar código de confirmación
 
 ##
 
@@ -1283,6 +1284,9 @@ auth-error-125 = La solicitud fue bloqueada por razones de seguridad
 auth-error-129-2 = Ingresaste un número de teléfono no válido. Revísalo y vuelve a intentarlo.
 auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo secundario debe ser diferente al correo de tu cuenta
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Este correo electrónico está reservado por otra cuenta. Vuelve a intentarlo más tarde o usa otra dirección de correo electrónico.
 auth-error-155 = Token TOTP no encontrado
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Código de autenticación de respaldo no encontrado

@@ -106,7 +106,8 @@ next-payment-confirmation-cc-card-ending-in = Tarjeta terminada en { $last4 }
 ## Not found page
 
 not-found-title-subscriptions = Suscripción no encontrada
-not-found-description-subscriptions = No pudimos encontrar tu suscripción. Por favor, vuelve a intentarlo o contacta con el servicio de asistencia.
+not-found-description-subscriptions = No pudimos encontrar tu suscripción. Por favor, vuelve a intentarlo o contacta con el servicio de soporte.
+not-found-button-back-to-subscriptions = Regresar a Suscripciones
 
 ## Page - Subscription Management
 
@@ -186,12 +187,21 @@ subscription-cancellation-dialog-title = Lamentamos ver que te vayas
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Tu suscripción a { $name } ha sido cancelada. Todavía tendrás acceso a { $name } hasta el { $date }.
 subscription-cancellation-dialog-aside = ¿Tienes preguntas? Visita el <LinkExternal>soporte de { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Cancelar la suscripción a { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Ya no podrás usar { $productName } después del { $currentPeriodEnd }, el último día de tu ciclo de facturación.
 subscription-content-cancel-access-message = Cancelar mi acceso y mi información guardada dentro de { $productName } el { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Cancelar suscripción
+    .aria-label = Cancelar suscripción a { $productName }
+cancel-subscription-button-stay-subscribed = Mantener suscripción
+    .aria-label = Mantener suscripción a { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -314,9 +324,18 @@ next-new-user-subscribe-product-assurance = Solo usamos tu correo electrónico p
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = ¿Quieres seguir usando { $productName }?
+stay-subscribed-access-will-continue = Tu acceso a { $productName } continuará y tu ciclo de facturación y pago seguirán siendo los mismos.
 subscription-content-button-resubscribe = Resuscribir
     .aria-label = Resuscribir a { $productName }
 resubscribe-success-dialog-title = ¡Gracias! Está todo listo.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Tu próximo cargo será { $nextInvoiceTotal } + { $taxDue } de impuesto el { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Tu próximo cargo será { $nextInvoiceTotal } el { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -347,6 +366,7 @@ subscription-content-button-cancel-subscription = Cancelar suscripción
 ##
 
 dialog-close = Cerrar cuadro de diálogo
+button-back-to-subscriptions = Regresar a Suscripciones
 subscription-content-cancel-action-error = Se ha producido un error inesperado. Por favor, vuelve a intentarlo.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
@@ -447,3 +467,12 @@ next-coupon-error-generic = Ocurrió un error al procesar el código. Por favor,
 next-coupon-error-invalid = El código que ingresaste es inválido.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = El código que ingresaste ha alcanzado su límite.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Esta oferta ha expirado.
+stay-subscribed-error-discount-used = Código de descuento ya aplicado.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Este descuento solo está disponible para los suscriptores actuales de { $productTitle }.
+stay-subscribed-error-still-active = Tu suscripción a { $productTitle } aún está activa.
+stay-subscribed-error-general = Hubo un problema al renovar tu suscripción.
