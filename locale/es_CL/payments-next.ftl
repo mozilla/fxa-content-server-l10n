@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Términos y restricciones
+loyalty-discount-terms-support = Contactar al soporte
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Contactar con el soporte técnico para { $productName }
+not-found-page-title-terms = Página no encontrada
+not-found-page-description-terms = La página que buscas no existe.
+not-found-page-button-terms-manage-subscriptions = Gestionar suscripciones
+
 ## Page
 
 checkout-signin-or-create = 1. Conéctate o crea una { -product-mozilla-account }
@@ -94,6 +102,11 @@ next-payment-confirmation-download-button = Continuar para descargar
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta terminada en { $last4 }
+
+## Not found page
+
+not-found-title-subscriptions = Suscripción no encontrada
+not-found-description-subscriptions = No pudimos encontrar tu suscripción. Por favor, vuelve a intentarlo o contacta con el servicio de asistencia.
 
 ## Page - Subscription Management
 
