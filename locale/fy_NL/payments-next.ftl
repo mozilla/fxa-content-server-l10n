@@ -329,6 +329,14 @@ subscription-content-button-resubscribe = Opnij abonnearje
     .aria-label = Opnij abonnearje op { $productName }
 resubscribe-success-dialog-title = Tank! Jo binne hielendal klear.
 
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } + { $taxDue } btw op { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } op { $currentPeriodEnd }.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -358,6 +366,7 @@ subscription-content-button-cancel-subscription = Abonnemint opsizze
 ##
 
 dialog-close = Dialoochfinster slute
+button-back-to-subscriptions = Tebek nei abonneminten
 subscription-content-cancel-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
