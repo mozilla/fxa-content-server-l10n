@@ -324,7 +324,7 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Wolle jo { $productName } brûke bliuwe?
-stay-subscribed-access-will-continue = Jo behâlde tagong ta { $productName } en jo betellingssyklus en betelling wizigje net.
+stay-subscribed-access-will-continue = Jo behâlde tagong ta { $productName } en jo betellingssyklus en betelling wiziget net.
 subscription-content-button-resubscribe = Opnij abonnearje
     .aria-label = Opnij abonnearje op { $productName }
 resubscribe-success-dialog-title = Tank! Jo binne hielendal klear.
