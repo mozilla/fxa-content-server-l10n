@@ -107,6 +107,7 @@ next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
 not-found-title-subscriptions = Abonnemint net fûn
 not-found-description-subscriptions = Wy koene jo abonnemint net fine. Probearje it opnij of nim kontakt op.
+not-found-button-back-to-subscriptions = Tebek nei abonneminten
 
 ## Page - Subscription Management
 
@@ -186,12 +187,21 @@ subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
 subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Abonnemint op { $productName } opsizze
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
 subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens yn { $productName } op { $currentPeriodEnd } opsizze
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Abonnemint opsizze
+    .aria-label = Jo abonnemint op { $productName } opsizze
+cancel-subscription-button-stay-subscribed = Abonnemint behâlde
+    .aria-label = Abonnemint op { $productName } behâlde
 
 ## Component - Payment Consent Checkbox
 
@@ -314,6 +324,7 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Wolle jo { $productName } brûke bliuwe?
+stay-subscribed-access-will-continue = Jo behâlde tagong ta { $productName } en jo betellingssyklus en betelling wizigje net.
 subscription-content-button-resubscribe = Opnij abonnearje
     .aria-label = Opnij abonnearje op { $productName }
 resubscribe-success-dialog-title = Tank! Jo binne hielendal klear.
