@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Betingsten en beheiningen
+loyalty-discount-terms-support = Kontakt opnimme
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Kontakt opnimme mei de stipe foar { $productName }
+not-found-page-title-terms = Side net fûn
+not-found-page-description-terms = De troch jo sochte side bestiet net.
+not-found-page-button-terms-manage-subscriptions = Abonneminten beheare
+
 ## Page
 
 checkout-signin-or-create = 1. Meld jo oan of meitsje in { -product-mozilla-account } oan
@@ -94,6 +102,11 @@ next-payment-confirmation-download-button = Trochgean mei download
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
+
+## Not found page
+
+not-found-title-subscriptions = Abonnemint net fûn
+not-found-description-subscriptions = Wy koene jo abonnemint net fine. Probearje it opnij of nim kontakt op.
 
 ## Page - Subscription Management
 
