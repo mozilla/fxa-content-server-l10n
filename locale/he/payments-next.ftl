@@ -1,5 +1,9 @@
 loyalty-discount-terms-heading = תנאים והגבלות
 loyalty-discount-terms-support = יצירת קשר עם התמיכה
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = יצירת קשר עם התמיכה עבור { $productName }
+not-found-page-title-terms = הדף לא נמצא
+not-found-page-description-terms = הדף שחיפשת אינו קיים.
 
 ## Page
 
