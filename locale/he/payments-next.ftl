@@ -4,6 +4,7 @@ loyalty-discount-terms-support = יצירת קשר עם התמיכה
 loyalty-discount-terms-contact-support-product-aria = יצירת קשר עם התמיכה עבור { $productName }
 not-found-page-title-terms = הדף לא נמצא
 not-found-page-description-terms = הדף שחיפשת אינו קיים.
+not-found-page-button-terms-manage-subscriptions = ניהול מינויים
 
 ## Page
 
