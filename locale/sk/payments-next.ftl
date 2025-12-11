@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = Podmienky a obmedzenia
 loyalty-discount-terms-support = Kontaktovať podporu
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Kontaktujte podporu pre { $productName }
+not-found-page-title-terms = Stránka nebola nájdená
+not-found-page-description-terms = Stránka, ktorú hľadáte, neexistuje.
+not-found-page-button-terms-manage-subscriptions = Spravovať predplatné
 
 ## Page
 
