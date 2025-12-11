@@ -105,9 +105,9 @@ next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
 ## Not found page
 
-not-found-title-subscriptions = Ni chanfuwyd y tanysgrifiad
-not-found-description-subscriptions = Ni allem ddod o hyd i'ch tanysgrifiad. Ceisiwch eto neu cysylltwch â'r tîm cymorth.
-not-found-button-back-to-subscriptions = Yn ôl i danysgrifiadau
+not-found-title-subscriptions = Heb ganfod y tanysgrifiad
+not-found-description-subscriptions = Doedd dim modd i ni ddod o hyd i'ch tanysgrifiad. Ceisiwch eto neu cysylltwch â'r tîm cymorth.
+not-found-button-back-to-subscriptions = Nôl i danysgrifiadau
 
 ## Page - Subscription Management
 
@@ -188,7 +188,7 @@ subscription-cancellation-dialog-title = Mae'n ddrwg gennym eich gweld yn gadael
 subscription-cancellation-dialog-msg = Mae eich tanysgrifiad { $name } wedi'i ddiddymu. Byddwch yn dal i gael mynediad i { $name } tan { $date }.
 subscription-cancellation-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-cancel-subscription-heading = Canslo { $productName } tanysgrifiad
+cancel-subscription-heading = Diddymu tanysgrifiadau { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
