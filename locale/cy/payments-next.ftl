@@ -198,10 +198,10 @@ subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
-cancel-subscription-button-cancel-subscription = Canslo tanysgrifiad
-    .aria-label = Canslo'ch tanysgrifiad i { $productName }
-cancel-subscription-button-stay-subscribed = Arhoswch danysgrifio
-    .aria-label = Dal i danysgrifio i { $productName }
+cancel-subscription-button-cancel-subscription = Diddymu tanysgrifiad
+    .aria-label = Diddymu'ch tanysgrifiad { $productName }
+cancel-subscription-button-stay-subscribed = Cadw wedi tanysgrifio
+    .aria-label = Cadw wedi tanysgrifio i { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -324,7 +324,7 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Am barhau i ddefnyddio { $productName }?
-stay-subscribed-access-will-continue = Bydd eich mynediad at { $productName } yn parhau, a bydd eich cylch bilio a'ch taliad yn aros yr un peth.
+stay-subscribed-access-will-continue = Bydd eich mynediad i { $productName } yn parhau, a bydd eich cylch bilio a'ch taliad yn aros yr un peth.
 subscription-content-button-resubscribe = Ail-danysgrifio
     .aria-label = Ail-danysgrifio i { $productName }
 resubscribe-success-dialog-title = Diolch! Rydych chi'n barod nawr.
@@ -334,8 +334,8 @@ resubscribe-success-dialog-title = Diolch! Rydych chi'n barod nawr.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = Eich tâl nesaf fydd { $nextInvoiceTotal } + { $taxDue } treth ar { $currentPeriodEnd }.
-stay-subscribed-next-charge-no-tax = Eich tâl nesaf fydd { $nextInvoiceTotal } ar { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = Eich taliad nesaf fydd { $nextInvoiceTotal } + { $taxDue } treth ar { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Eich taliad nesaf fydd { $nextInvoiceTotal } ar { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -366,7 +366,7 @@ subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
 ##
 
 dialog-close = Cau deialog
-button-back-to-subscriptions = Yn ôl i danysgrifiadau
+button-back-to-subscriptions = Nôl i danysgrifiadau
 subscription-content-cancel-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
@@ -471,8 +471,8 @@ next-coupon-error-limit-reached = Mae'r cod hynny wedi cyrraedd ei derfyn.
 ## Stay Subscribed Error Messages
 
 stay-subscribed-error-expired = Mae'r cynnig hwn wedi dod i ben.
-stay-subscribed-error-discount-used = Cod disgownt eisoes wedi'i gymhwyso.
+stay-subscribed-error-discount-used = Cod gostyngiad eisoes wedi'i osod.
 # $productTitle (String) - The name of the product
-stay-subscribed-error-not-current-subscriber = Mae'r gostyngiad hwn ar gael i'r { $productTitle } tanysgrifwyr presennol yn unig.
+stay-subscribed-error-not-current-subscriber = Mae'r gostyngiad hwn ar gael i danysgrifwyr cyfredol { $productTitle } yn unig.
 stay-subscribed-error-still-active = Mae eich tanysgrifiad { $productTitle } yn dal yn weithredol.
 stay-subscribed-error-general = Bu problem gydag adnewyddu eich tanysgrifiad.
