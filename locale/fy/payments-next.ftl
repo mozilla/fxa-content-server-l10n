@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Betingsten en beheiningen
+loyalty-discount-terms-support = Kontakt opnimme
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Kontakt opnimme mei de stipe foar { $productName }
+not-found-page-title-terms = Side net fûn
+not-found-page-description-terms = De troch jo sochte side bestiet net.
+not-found-page-button-terms-manage-subscriptions = Abonneminten beheare
+
 ## Page
 
 checkout-signin-or-create = 1. Meld jo oan of meitsje in { -product-mozilla-account } oan
@@ -95,6 +103,12 @@ next-payment-confirmation-download-button = Trochgean mei download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Abonnemint net fûn
+not-found-description-subscriptions = Wy koene jo abonnemint net fine. Probearje it opnij of nim kontakt op.
+not-found-button-back-to-subscriptions = Tebek nei abonneminten
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Gjin betellingsmetoade tafoege
@@ -173,12 +187,21 @@ subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
 subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Abonnemint op { $productName } opsizze
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
 subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens yn { $productName } op { $currentPeriodEnd } opsizze
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Abonnemint opsizze
+    .aria-label = Jo abonnemint op { $productName } opsizze
+cancel-subscription-button-stay-subscribed = Abonnemint behâlde
+    .aria-label = Abonnemint op { $productName } behâlde
 
 ## Component - Payment Consent Checkbox
 
@@ -301,9 +324,18 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Wolle jo { $productName } brûke bliuwe?
+stay-subscribed-access-will-continue = Jo behâlde tagong ta { $productName } en jo betellingssyklus en betelling wiziget net.
 subscription-content-button-resubscribe = Opnij abonnearje
     .aria-label = Opnij abonnearje op { $productName }
 resubscribe-success-dialog-title = Tank! Jo binne hielendal klear.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } + { $taxDue } btw op { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } op { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -334,6 +366,7 @@ subscription-content-button-cancel-subscription = Abonnemint opsizze
 ##
 
 dialog-close = Dialoochfinster slute
+button-back-to-subscriptions = Tebek nei abonneminten
 subscription-content-cancel-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
