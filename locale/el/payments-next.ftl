@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = Όροι και περιορισμοί
 loyalty-discount-terms-support = Επικοινωνία με την υποστήριξη
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Επικοινωνία με την υποστήριξη του { $productName }
+not-found-page-title-terms = Η σελίδα δεν βρέθηκε
+not-found-page-description-terms = Η σελίδα που ψάχνετε δεν υπάρχει.
+not-found-page-button-terms-manage-subscriptions = Διαχείριση συνδρομών
 
 ## Page
 
