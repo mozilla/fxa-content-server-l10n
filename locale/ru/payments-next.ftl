@@ -25,7 +25,7 @@ location-banner-currency-change = Смена валюты не поддержи�
 
 ## Page - Upgrade page
 
-upgrade-page-payment-information = Платежная информация
+upgrade-page-payment-information = Платёжная информация
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Ваш план сменится сразу, и у вас сегодня будет списана пропорциональная сумма за оставшуюся часть вашего платёжного цикла. Начиная с { $nextInvoiceDate }, у вас будет сниматься полная сумма.
 
@@ -77,20 +77,20 @@ paypal-active-subscription-no-billing-agreement-error = Похоже, при в�
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
-next-payment-processing-message = Подождите, пока мы обработаем ваш платеж…
+next-payment-processing-message = Подождите, пока мы обработаем ваш платёж…
 
 ## Success page - /checkout and /upgrade
 ## Common strings used in multiple checkout pages
 
 next-payment-confirmation-thanks-heading-account-exists = Спасибо, теперь проверьте свою электронную почту!
 # $email (String) - The user's email.
-payment-confirmation-thanks-subheading-account-exists-2 = Вы получите письмо на адрес { $email } с инструкциями по вашей подписке, а также с платежными реквизитами.
+payment-confirmation-thanks-subheading-account-exists-2 = Вы получите письмо на адрес { $email } с инструкциями по вашей подписке, а также с платёжными реквизитами.
 next-payment-confirmation-order-heading = Информация о заказе
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Счёт № { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
-next-payment-confirmation-details-heading-2 = Платежная информация
+next-payment-confirmation-details-heading-2 = Платёжная информация
 
 ## Success pages (/checkout and /upgrade)
 ## Common strings used in multiple checkout pages
@@ -121,7 +121,7 @@ subscription-management-nav-active-subscriptions = Активные подпис
 subscription-management-payment-details-heading = Детали оплаты
 subscription-management-email-label = Эл. почта
 subscription-management-credit-balance-label = Кредитный баланс
-subscription-management-credit-balance-message = Кредит будет автоматически применен к будущим счетам
+subscription-management-credit-balance-message = Кредит будет автоматически применён к будущим счетам
 subscription-management-payment-method-label = Способ оплаты
 subscription-management-button-add-payment-method-aria = Добавить способ оплаты
 subscription-management-button-add-payment-method = Добавить
@@ -152,7 +152,7 @@ error-payment-method-banner-title-expired-card = Просроченная кар
 error-payment-method-banner-message-add-new-card = Добавьте новую карту или способ оплаты, чтобы не прерывать ваши подписки.
 error-payment-method-banner-label-update-payment-method = Обновить способ оплаты
 error-payment-method-expired-card = Срок действия вашей карты истёк. Пожалуйста, добавьте новую карту или способ оплаты, чтобы избежать прерывания ваших подписок.
-error-payment-method-banner-title-invalid-payment-information = Неверная платежная информация
+error-payment-method-banner-title-invalid-payment-information = Неверная платёжная информация
 error-payment-method-banner-message-account-issue = С вашим аккаунтом возникла проблема.
 subscription-management-button-manage-payment-method-1 = Управление способом оплаты
 subscription-management-error-apple-pay = С вашим аккаунтом { -brand-apple-pay } возникла проблема. Пожалуйста, решите эту проблему, чтобы сохранить ваши активные подписки.
@@ -411,7 +411,7 @@ upgrade-purchase-details-promo-code = Промокод
 upgrade-purchase-details-tax-label = Налоги и сборы
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
 upgrade-purchase-details-credit-to-account = Кредит на аккаунт выдан
-upgrade-purchase-details-credit-will-be-applied = Кредит будет применен к вашему аккаунту и использован для оплаты будущих счетов.
+upgrade-purchase-details-credit-will-be-applied = Кредит будет применён к вашему аккаунту и использован для оплаты будущих счетов.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -427,7 +427,7 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (ежегодно)
 
 # Checkout start
 metadata-title-checkout-start = Оплатить | { $productTitle }
-metadata-description-checkout-start = Введите ваши платежные реквизиты, чтобы завершить покупку.
+metadata-description-checkout-start = Введите ваши платёжные реквизиты, чтобы завершить покупку.
 # Checkout processing
 metadata-title-checkout-processing = Обработка | { $productTitle }
 metadata-description-checkout-processing = Пожалуйста, подождите, пока мы закончим обработку вашего платежа.
@@ -442,7 +442,7 @@ metadata-title-checkout-needs-input = Требуется действие | { $p
 metadata-description-checkout-needs-input = Пожалуйста, выполните требуемые действия для продолжения платежа.
 # Upgrade start
 metadata-title-upgrade-start = Обновить | { $productTitle }
-metadata-description-upgrade-start = Введите ваши платежные реквизиты, чтобы завершить обновление.
+metadata-description-upgrade-start = Введите ваши платёжные реквизиты, чтобы завершить обновление.
 # Upgrade processing
 metadata-title-upgrade-processing = Обработка | { $productTitle }
 metadata-description-upgrade-processing = Пожалуйста, подождите, пока мы закончим обработку вашего платежа.

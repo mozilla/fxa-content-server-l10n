@@ -61,12 +61,12 @@ payment-confirmation-thanks-heading-account-exists = Спасибо, тепер�
 # $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = На адрес { $email } было отправлено письмо с подтверждением и информацией о том, как начать работу с { $product_name }.
 # $email (string) - The user's email.
-payment-confirmation-thanks-subheading-account-exists = Вы получите письмо на адрес { $email } с инструкциями по настройке аккаунта, а также с платежными реквизитами.
+payment-confirmation-thanks-subheading-account-exists = Вы получите письмо на адрес { $email } с инструкциями по настройке аккаунта, а также с платёжными реквизитами.
 payment-confirmation-order-heading = Информация о заказе
 payment-confirmation-invoice-number = Счёт № { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 payment-confirmation-invoice-date = { $invoiceDate }
-payment-confirmation-details-heading-2 = Платежная информация
+payment-confirmation-details-heading-2 = Платёжная информация
 payment-confirmation-amount = { $amount } за { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
@@ -151,7 +151,7 @@ payment-method-first-approve = Сначала вам необходимо под
 
 ## Component - PaymentProcessing
 
-payment-processing-message = Подождите, пока мы обработаем ваш платеж…
+payment-processing-message = Подождите, пока мы обработаем ваш платёж…
 
 ## Component - PaymentProviderDetails
 
@@ -420,14 +420,14 @@ new-user-submit = Подписаться
 
 ## Routes - Product and Subscriptions
 
-sub-update-payment-title = Платежная информация
+sub-update-payment-title = Платёжная информация
 
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Оплатить картой
-product-invoice-preview-error-title = Проблема с загрузкой предварительного просмотра счета
-product-invoice-preview-error-text = Не удалось загрузить предварительный просмотр счета
+product-invoice-preview-error-title = Проблема с загрузкой предварительного просмотра счёта
+product-invoice-preview-error-text = Не удалось загрузить предварительный просмотр счёта
 
 ## Routes - Product - IapRoadblock
 
@@ -539,8 +539,8 @@ pay-update-card-exp = Срок действия истекает { $expirationDa
 sub-route-idx-updating = Обновление платёжной информации…
 sub-route-payment-modal-heading = Неверная платёжная информация
 sub-route-payment-modal-message-2 = Похоже, в вашем аккаунте { -brand-paypal } произошла ошибка. Нам нужно, чтобы вы предприняли необходимые шаги для решения этой проблемы с оплатой.
-sub-route-missing-billing-agreement-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. <div>Управление</div>
-sub-route-funding-source-payment-alert = Некорректная платежная информация; в вашей учётной записи произошла ошибка. Это предупреждение может отображаться в течение некоторого времени после успешного обновления вами своей информации. <div>Управление</div>
+sub-route-missing-billing-agreement-payment-alert = Некорректная платёжная информация; в вашем аккаунте произошла ошибка. <div>Управление</div>
+sub-route-funding-source-payment-alert = Некорректная платёжная информация; в вашем аккаунте произошла ошибка. Это предупреждение может отображаться в течение некоторого времени после успешного обновления вами своей информации. <div>Управление</div>
 
 ## Routes - Subscription - SubscriptionItem
 

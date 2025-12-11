@@ -286,9 +286,9 @@ subscription-support-contact-support-plaintext = Связаться с подд�
 subscriptionUpdateBillingEnsure = Если вы хотите убедиться, что ваш способ оплаты и информация об аккаунте актуальны, вы можете сделать это <a data-l10n-name="updateBillingUrl">здесь</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Если вы хотите убедиться, что ваш способ оплаты и информация об аккаунте актуальны, вы можете сделать это здесь:
-subscriptionUpdateBillingTry = Мы попытаемся произвести ваш платеж снова в течение следующих нескольких дней, но вам может потребоваться помочь нам устранить проблему, <a data-l10n-name="updateBillingUrl">обновив свои платежные сведения</a>.
+subscriptionUpdateBillingTry = Мы попытаемся произвести ваш платёж снова в течение следующих нескольких дней, но вам может потребоваться помочь нам устранить проблему, <a data-l10n-name="updateBillingUrl">обновив свои платёжные сведения</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
-subscriptionUpdateBillingTry-plaintext = Мы попытаемся произвести ваш платёж снова в течение следующих нескольких дней, но вам может потребоваться помочь нам устранить проблему, обновив свои платежные сведения:
+subscriptionUpdateBillingTry-plaintext = Мы попытаемся произвести ваш платёж снова в течение следующих нескольких дней, но вам может потребоваться помочь нам устранить проблему, обновив свои платёжные сведения:
 subscriptionUpdatePayment = Чтобы избежать прерывания работы служб, пожалуйста, как можно скорее <a data-l10n-name="updateBillingUrl">обновите ваши платёжные сведения</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Чтобы избежать прерывания работы служб, пожалуйста, как можно скорее обновите ваши платёжные сведения:
@@ -598,14 +598,14 @@ subscriptionAccountDeletion-title = Жаль, что вы уходите
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled-2 = Вы недавно удалили свой { -product-mozilla-account }. Связи с этим мы отменили вашу подписку на { $productName }. Ваш последний платеж в размере { $invoiceTotal } был оплачен в { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled-2 = Вы недавно удалили свой { -product-mozilla-account }. Связи с этим мы отменили вашу подписку на { $productName }. Ваш последний платёж в размере { $invoiceTotal } был оплачен { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Добро пожаловать в { $productName }: Задайте для себя пароль.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Добро пожаловать в { $productName }
-subscriptionAccountFinishSetup-content-processing = Ваш платеж обрабатывается, что может занять до четырех рабочих дней. Ваша подписка будет автоматически продлеваться каждый расчетный период, если вы не решите её отменить.
+subscriptionAccountFinishSetup-content-processing = Ваш платёж обрабатывается, что может занять до четырёх рабочих дней. Ваша подписка будет автоматически продлеваться каждый расчётный период, если вы не решите её отменить.
 subscriptionAccountFinishSetup-content-create-3 = Далее необходимо создать пароль { -product-mozilla-account } для начала использования новой подписки.
 subscriptionAccountFinishSetup-action-2 = Приступим
 subscriptionAccountReminderFirst-subject = Напоминание: завершите настройку вашего аккаунта
@@ -630,11 +630,11 @@ subscriptionCancellation-title = Жаль, что вы уходите
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
-subscriptionCancellation-content-2 = Мы отменили вашу подписку на { $productName }. Ваш последний платеж в размере { $invoiceTotal } был произведён { $invoiceDateOnly }.
-subscriptionCancellation-outstanding-content-2 = Мы отменили вашу подписку на { $productName }. Ваш последний платеж в размере { $invoiceTotal } будет произведён { $invoiceDateOnly }.
+subscriptionCancellation-content-2 = Мы отменили вашу подписку на { $productName }. Ваш последний платёж в размере { $invoiceTotal } был произведён { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Мы отменили вашу подписку на { $productName }. Ваш последний платёж в размере { $invoiceTotal } будет произведён { $invoiceDateOnly }.
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
-subscriptionCancellation-content-continue = Ваше обслуживание будет продолжаться до конца текущего расчетного периода, то есть { $serviceLastActiveDateOnly }.
+subscriptionCancellation-content-continue = Ваше обслуживание будет продолжаться до конца текущего расчётного периода, то есть { $serviceLastActiveDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Вы перешли на { $productName }
@@ -691,7 +691,7 @@ subscriptionPaymentFailed-content-problem = У нас возникли проб�
 subscriptionPaymentFailed-content-outdated-1 = Возможно, срок действия вашего способа оплаты истёк или ваш текущий способ оплаты больше не работает.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentProviderCancelled-subject = Необходимо обновить платежную информацию для { $productName }
+subscriptionPaymentProviderCancelled-subject = Необходимо обновить платёжную информацию для { $productName }
 subscriptionPaymentProviderCancelled-title = Извините, у нас возникли проблемы с вашим способом оплаты
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -706,7 +706,7 @@ subscriptionReactivation-title = Благодарим вас за повторн
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionReactivation-content = Ваш платёжный цикл и сумма платежа останутся прежними. Ваш следующий платёж будет произведён { $nextInvoiceDateOnly } на сумму { $invoiceTotal }. Ваша подписка будет автоматически продлеваться каждый расчетный период, если вы не отмените её.
+subscriptionReactivation-content = Ваш платёжный цикл и сумма платежа останутся прежними. Ваш следующий платёж будет произведён { $nextInvoiceDateOnly } на сумму { $invoiceTotal }. Ваша подписка будет автоматически продлеваться каждый расчётный период, если вы не отмените её.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Уведомление об автоматическом продлении { $productName }
@@ -728,12 +728,12 @@ subscriptionReplaced-subject = Ваша подписка была обновле
 subscriptionReplaced-title = Ваша подписка обновлена
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Ваша индивидуальная подписка на { $productName } была заменена и теперь включена в ваш новый пакет.
-subscriptionReplaced-content-credit = Вы получите компенсацию за неиспользованное время вашей предыдущей подписки. Эта сумма будет автоматически зачислена на ваш счет для оплаты будущих платежей.
+subscriptionReplaced-content-credit = Вы получите компенсацию за неиспользованное время вашей предыдущей подписки. Эта сумма будет автоматически зачислена на ваш счёт для оплаты будущих платежей.
 subscriptionReplaced-content-no-action = С вашей стороны не требуется никаких действий.
 subscriptionsPaymentExpired-subject-2 = Срок действия способа оплаты ваших подписок истёк или в скором времени истечёт
 subscriptionsPaymentExpired-title-2 = Срок действия вашего способа оплаты истёк или скоро истечёт
 subscriptionsPaymentExpired-content-2 = Срок действия способа оплаты, который вы используете для совершения платежей за следующие подписки, истёк или скоро истечёт.
-subscriptionsPaymentProviderCancelled-subject = Необходимо обновить платежную информацию для подписок { -brand-mozilla }
+subscriptionsPaymentProviderCancelled-subject = Необходимо обновить платёжную информацию для подписок { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Извините, у нас возникли проблемы с вашим способом оплаты
 subscriptionsPaymentProviderCancelled-content-detected = Мы обнаружили проблему с вашим способом оплаты для следующих подписок.
 subscriptionsPaymentProviderCancelled-content-payment-1 = Возможно, срок действия вашего способа оплаты истёк или ваш текущий способ оплаты больше не работает.
