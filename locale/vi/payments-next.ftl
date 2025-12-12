@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = Điều khoản và hạn chế
 loyalty-discount-terms-support = Liên hệ hỗ trợ
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Liên hệ bộ phận hỗ trợ { $productName }
+not-found-page-title-terms = Không tìm thấy trang
+not-found-page-description-terms = Trang bạn đang tìm kiếm không tồn tại.
+not-found-page-button-terms-manage-subscriptions = Quản lí gói đăng ký
 
 ## Page
 
