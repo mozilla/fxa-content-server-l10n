@@ -791,11 +791,11 @@ msgstr "Корбар ворид нашудааст"
 
 #: .es5/lib/oauth-errors.js:179
 msgid "A different user is signed in"
-msgstr ""
+msgstr "Корбари дигар ворид шудааст"
 
 #: .es5/lib/oauth-errors.js:184
 msgid "Unverified user or session"
-msgstr ""
+msgstr "Корбар ё ҷаласаи тасдиқнашуда"
 
 #: .es5/lib/oauth-errors.js:189
 msgid "Invalid id_token_hint"
@@ -843,15 +843,15 @@ msgstr ""
 
 #: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
-msgstr ""
+msgstr "%(city)s, %(country)s (тақрибан)"
 
 #: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
-msgstr ""
+msgstr "%(country)s (тақрибан)"
 
 #: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
-msgstr ""
+msgstr "Нишонии «IP»: %(ip)s"
 
 #: .es5/lib/strings.js:43 .es5/templates/push/confirm_login.mustache:2
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
@@ -863,7 +863,7 @@ msgstr ""
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
-msgstr ""
+msgstr "Хатои 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
@@ -934,7 +934,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
-msgstr ""
+msgstr "Ниҳонвожаи наверо эҷод намоед"
 
 #: .es5/templates/complete_reset_password.mustache:9
 msgid ""
@@ -980,7 +980,7 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Пайванди тасдиқ вайрон шуд"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
@@ -1143,7 +1143,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "Эҷод кардани ниқоби почтаи электронӣ"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
@@ -1151,7 +1151,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Сабти ном кунед ё ворид шавед"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1280,7 +1280,7 @@ msgstr ""
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr ""
+msgstr "Дархости иҷозат"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"
@@ -1426,7 +1426,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
-msgstr ""
+msgstr "Рамзи амниятиро ворид кунед"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
@@ -1438,7 +1438,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"
-msgstr ""
+msgstr "Ба ин воридшавӣ иҷозат диҳед"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
@@ -1446,19 +1446,19 @@ msgstr ""
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"
-msgstr ""
+msgstr "Рамзи санҷиши дастрасиро ворид намоед"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Ниҳонвожаи худро танзим кунед"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
-msgstr ""
+msgstr "Иваз кардани почтаи электронӣ"
 
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
-msgstr ""
+msgstr "Ниҳонвожаро такрор кунед"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
@@ -1887,7 +1887,7 @@ msgstr ""
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "ё"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Google"

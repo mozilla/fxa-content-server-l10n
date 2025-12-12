@@ -65,12 +65,20 @@ next-payment-confirmation-cc-card-ending-in = Корте, ки бо { $last4 } �
 ## Page - Subscription Management
 
 subscription-management-subscriptions-heading = Обунаҳо
+subscription-management-nav-payment-details = Тафсилоти пардохт
+subscription-management-payment-details-heading = Тафсилоти пардохт
+subscription-management-email-label = Почтаи электронӣ
+subscription-management-payment-method-label = Тарзи пардохт
 subscription-management-button-add-payment-method-aria = Илова кардани тарзи пардохт
 subscription-management-button-add-payment-method = Илова кардан
+subscription-management-button-manage-payment-method = Идоракунӣ
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Корте, ки бо { $last4 } анҷом меёбад
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Муҳлаташ дар { $expirationDate } ба анҷом мерасад
+subscription-management-button-support = Гирифтани кумак
+error-payment-method-banner-title-invalid-payment-information = Маълумоти пардохт беэътибор аст
+manage-payment-methods-heading = Идоракунии тарзҳои пардохт
 # Page - Not Found
 page-not-found-title = Саҳифа ёфт нашуд
 page-not-found-back-button = Бозгашт
