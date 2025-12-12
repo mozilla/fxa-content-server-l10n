@@ -1,6 +1,10 @@
 loyalty-discount-terms-heading = Termos e restrições
 loyalty-discount-terms-support = Contactar o apoio
-loyalty-discount-terms-support-aria = Contactar o apoio
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Contactar o apoio para { $productName }
+not-found-page-title-terms = Página não encontrada
+not-found-page-description-terms = A página que está à procura não existe.
+not-found-page-button-terms-manage-subscriptions = Gerir subscrições
 
 ## Page
 
@@ -53,7 +57,7 @@ next-payment-error-retry-button = Tentar novamente
 next-basic-error-message = Algo correu mal. Tente novamente mais tarde.
 checkout-error-contact-support-button = Contactar o apoio
 checkout-error-not-eligible = Não é elegível a subscrever este produto. Por favor, contacte o apoio para que possamos ajudar.
-checkout-error-already-subscribed = Já está subscrito a este produto.
+checkout-error-already-subscribed = Já subscreveu este produto.
 checkout-error-contact-support = Por favor, contacte o apoio para que possamos ajudar.
 cart-error-currency-not-determined = Não conseguimos determinar a moeda para esta compra, por favor tente novamente.
 checkout-processing-general-error = Ocorreu um erro inesperado ao processar o seu pagamento, por favor, tente novamente.
