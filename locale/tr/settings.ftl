@@ -1041,6 +1041,7 @@ verify-secondary-email-please-enter-code-2 = Lütfen <strong>{ $email }</strong>
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } başarıyla eklendi
+verify-secondary-email-resend-code-button = Onay kodunu yeniden gönder
 
 ##
 
