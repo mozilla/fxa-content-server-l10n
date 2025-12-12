@@ -228,6 +228,10 @@ subscription-charges-repeating-discount =
         [one] Тахфифи { $discountDuration }-моҳа
        *[other] Тахфифи { $discountDuration }-моҳа
     }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+       *[other] Тахфифи { $discountDuration }-моҳа: { $invoiceDiscountAmount }
+    }
 subscription-charges-discount = Тахфиф
 subscription-charges-discount-plaintext = Тахфиф: { $invoiceDiscountAmount }
 subscription-charges-taxes = Андозҳо ва ҳаққи ҳизматрасонӣ
@@ -236,6 +240,7 @@ subscriptionCharges-content-tax-plaintext = Андозҳо ва ҳаққи ҳи�
 subscription-charges-total = <b>Ҳамагӣ</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Ҳамагӣ: { $invoiceTotal }
+subscription-charges-credit-applied = Қарзи истифодашуда
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-applied-plaintext = Қарзи истифодашуда: { $creditApplied }
 subscription-charges-amount-paid = <b>Маблағи пардохтшуда</b>
@@ -587,6 +592,10 @@ subscriptionUpgrade-content-old-price-week = Нархи қаблӣ { $paymentAmo
 subscriptionUpgrade-content-old-price-month = Нархи қаблӣ { $paymentAmountOld } дар як моҳ буд.
 subscriptionUpgrade-content-old-price-halfyear = Нархи қаблӣ { $paymentAmountOld } барои шаш моҳ буд.
 subscriptionUpgrade-content-old-price-year = Нархи қаблӣ { $paymentAmountOld } дар як сол буд.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Барои ворид шудан ба низом, аз { $unblockCode } истифода баред
+unblockCode-preview = Муҳлати ин рамз пас аз як соат ба анҷом мерасад
 unblockCode-title = Оё ин шумо ворид мешавед?
 verificationReminderFinal-subject = Ёдоварии ниҳоӣ барои тасдиқ кардани ҳисоби худ
 confirm-account = Тасдиқ кардани ҳисоб
@@ -603,10 +612,24 @@ verify-title-3 = Интернетро боз бо «{ -brand-mozilla }» каш�
 verify-subject = Эҷоди ҳисоби худро ба анҷом расонед
 verify-action-2 = Тасдиқ кардани ҳисоб
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Барои иваз кардани ҳисоби худ аз { $code } истифода баред
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Муҳлати ин рамз пас аз { $expirationTime } дақиқа ба анҷом мерасад.
+       *[other] Муҳлати ин рамз пас аз { $expirationTime } дақиқа ба анҷом мерасад.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Оё ин шумо ба «{ $clientName }» ворид шудед?
 verifyLogin-subject-2 = Тасдиқ кардани воридшавӣ
 verifyLogin-action = Тасдиқ кардани воридшавӣ
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Барои ворид шудан ба низом, аз { $code } истифода баред
+verifyLoginCode-preview = Муҳлати ин рамз пас аз 5 дақиқа ба анҷом мерасад.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Оё ин шумо ба «{ $serviceName }» ворид шудаед?
@@ -616,9 +639,17 @@ verifyPrimary-title-2 = Почтаи электронии асосиро тас�
 verifyPrimary-subject = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-action-2 = Тасдиқ кардани почтаи электронӣ
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Барои тасдиқ кардани почтаи электронии иловагии худ аз { $code } истифода баред
+verifySecondaryCode-preview = Муҳлати ин рамз пас аз 5 дақиқа ба анҷом мерасад.
 verifySecondaryCode-title-2 = Почтаи электронии иловагиро тасдиқ кунед
 verifySecondaryCode-action-2 = Тасдиқ кардани почтаи электронӣ
 verifySecondaryCode-prompt-2 = Аз ин рамзи тасдиқкунанда истифода баред:
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Барои тасдиқ кардани ҳисоби худ аз { $code } истифода баред
+verifyShortCode-preview-2 = Муҳлати ин рамз пас аз 5 дақиқа ба анҷом мерасад
 verifyShortCode-title-3 = Интернетро боз бо «{ -brand-mozilla }» кашф кунед
 verifyShortCode-prompt-3 = Аз ин рамзи тасдиқкунанда истифода баред:
 verifyShortCode-expiry-notice = Муҳлаташ пас аз 5 дақиқа ба анҷом мерасад.

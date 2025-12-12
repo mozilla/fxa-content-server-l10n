@@ -15,7 +15,7 @@ msgstr "Ниҳонвожа аз нав танзим карда шуд"
 
 #: .es5/views/confirm_reset_password.js:185
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Ниҳонвожа бо муваффақият аз нав танзим карда шуд. Барои идомаи кор ворид шавед."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
@@ -57,7 +57,7 @@ msgstr ""
 
 #: .es5/views/ready.js:48 .es5/views/ready.js:53
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Ниҳонвожаи шумо аз нав барқарор карда шуд"
 
 #: .es5/views/ready.js:49 .es5/views/ready.js:54
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -105,7 +105,7 @@ msgstr ""
 
 #: .es5/views/sign_up_password.js:66
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "Ҳисоб дигар вуҷуд надорад. Онро аз нав эҷод мекунед?"
 
 #: .es5/views/support.js:230 .es5/templates/support.mustache:10
 msgid "Other"
@@ -130,11 +130,11 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Ба «%(serviceName)s» идома диҳед"
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
-msgstr ""
+msgstr "Ҳисоби шумо бо сабабҳои амниятӣ қулф карда шудааст"
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
@@ -146,7 +146,7 @@ msgstr "ҳеҷ"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:41
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "Санҷиши охирин: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
@@ -366,7 +366,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:121
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Рақами телефон беэътибор аст"
 
 #: .es5/lib/auth-errors.js:125
 msgid "Cannot send to this country"
@@ -470,7 +470,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Калиди барқарорсозии ҳисоб беэътибор аст"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
@@ -787,7 +787,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:174
 msgid "User is not signed in"
-msgstr ""
+msgstr "Корбар ворид нашудааст"
 
 #: .es5/lib/oauth-errors.js:179
 msgid "A different user is signed in"
