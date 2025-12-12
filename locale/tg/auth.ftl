@@ -163,6 +163,7 @@ automated-email-reset-plaintext-v2 = Агар шумо барои иҷрои и�
 automated-email-reset-pwd-plaintext-v3 = Агар шумо барои иҷро кардани ин амал иҷозат надодед, пас, лутфан, ниҳонвожаи худро ҳоли ҳозир аз нав танзим кунед:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Инчунин, санҷиши ҳаққонияти дуқадамаро аз нав танзим кунед:
+brand-banner-message = Шумо медонед, ки мо номи худро аз «{ -product-firefox-accounts }» ба «{ -product-mozilla-accounts }» иваз кардем? <a data-l10n-name="learnMore">Маълумоти бештар</a>
 cancellationSurvey = Лутфан, ба воситаи гузаронидани ин <a data-l10n-name="cancellationSurveyUrl">саволномаи кутоҳ</a> ба мо барои беҳтар кардани хизматрасониҳои мо кумак расонед.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Лутфан, ба воситаи гузаронидани ин саволномаи кутоҳ ба мо барои беҳтар кардани хизматрасониҳои мо кумак расонед:
@@ -208,26 +209,44 @@ subscription-charges-invoice-number = <b>Рақами санади дархос�
 subscription-charges-invoice-number-plaintext = Рақами санади дархости пардохт: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Сана:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Сана: { $invoiceDateOnly }
+subscription-charges-prorated-price = Нархи мутаносиб
 # $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
 subscription-charges-prorated-price-plaintext = Нархи мутаносиб: { $remainingAmountTotal }
 subscription-charges-list-price = Нархнома
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Нархи рӯйхат: { $offeringPrice }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ҷамъи миёна: { $invoiceSubtotal }
 
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount = Тахфифи якдафъаина
 subscription-charges-one-time-discount-plaintext = Тахфифи яккарата: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] Тахфифи { $discountDuration }-моҳа
+       *[other] Тахфифи { $discountDuration }-моҳа
+    }
 subscription-charges-discount = Тахфиф
 subscription-charges-discount-plaintext = Тахфиф: { $invoiceDiscountAmount }
 subscription-charges-taxes = Андозҳо ва ҳаққи ҳизматрасонӣ
 # $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax-plaintext = Андозҳо ва ҳаққи ҳизматрасонӣ: { $invoiceTaxAmount }
+subscription-charges-total = <b>Ҳамагӣ</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Ҳамагӣ: { $invoiceTotal }
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Қарзи истифодашуда: { $creditApplied }
+subscription-charges-amount-paid = <b>Маблағи пардохтшуда</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Маблағи пардохтшуда: { $invoiceAmountDue }
 
 ##
 
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Саволҳо дар бораи обунаи худ доред? Дар ин ҷой дастаи дастгирии мо ба шумо кумак мерасонад:
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Идоракунии обунаи худ</a>
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Бо дастаи дастгирии корбарон дар тамос шавед:</a>
 # After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Бо дастаи дастгирии корбарон дар тамос шавед:
@@ -246,6 +265,11 @@ device-all = «{ $uaBrowser }» дар «{ $uaOS } { $uaOSVersion }»
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = «{ $uaBrowser }» дар «{ $uaOS }»
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city },  { $stateCode }, { $country } (тақрибан)
 # Variables:
 #  $city (String) - User's city
 #  $country (String) - User's country
@@ -333,6 +357,10 @@ passwordChangeRequired-preview = Ниҳонвожаи худро фавран и
 passwordChangeRequired-title-2 = Барқарор кардани ниҳонвожаи худ
 passwordChangeRequired-action = Барқарор кардани ниҳонвожа
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Барои иваз кардани ниҳонвожаи худ аз { $code } истифода баред
+password-forgot-otp-preview = Муҳлати ин рамз пас аз 10 дақиқа ба анҷом мерасад
 password-forgot-otp-title = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-code-2 = Агар ин шумо будед, он гоҳ ин рамзи тасдиқкунандаи шумо барои идома мебошад:
 password-forgot-otp-expiry-notice = Муҳлати ин рамз пас аз 10 дақиқа ба анҷом мерасад.
@@ -554,6 +582,11 @@ subscriptionUpgrade-upgrade-info-2 = Шумо бо муваффақият ба �
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-old-price-day = Нархи қаблӣ { $paymentAmountOld } дар як рӯз буд.
+subscriptionUpgrade-content-old-price-week = Нархи қаблӣ { $paymentAmountOld } дар як ҳафта буд.
+subscriptionUpgrade-content-old-price-month = Нархи қаблӣ { $paymentAmountOld } дар як моҳ буд.
+subscriptionUpgrade-content-old-price-halfyear = Нархи қаблӣ { $paymentAmountOld } барои шаш моҳ буд.
+subscriptionUpgrade-content-old-price-year = Нархи қаблӣ { $paymentAmountOld } дар як сол буд.
 unblockCode-title = Оё ин шумо ворид мешавед?
 verificationReminderFinal-subject = Ёдоварии ниҳоӣ барои тасдиқ кардани ҳисоби худ
 confirm-account = Тасдиқ кардани ҳисоб
