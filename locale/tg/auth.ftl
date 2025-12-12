@@ -183,6 +183,7 @@ payment-plan-next-invoice = Санади дархости пардохти на�
 
 ## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
 
+payment-method-payment-provider = <b>Тарзи пардохт</b>: { $paymentProviderName }
 payment-method-payment-provider-plaintext = Тарзи пардохт: { $paymentProviderName }
 
 ## This string displays when the type of credit card is known
@@ -193,6 +194,8 @@ payment-method-payment-provider-plaintext = Тарзи пардохт: { $paymen
 
 payment-provider-card-name-ending-in-plaintext = Тарзи пардохт: Корти «{ $cardName }», ки рақамаш бо { $lastFour } анҷом меёбад
 payment-provider-card-ending-in-plaintext = Тарзи пардохт: Корте, ки рақамаш бо { $lastFour } анҷом меёбад
+payment-provider-card-ending-in = <b>Тарзи пардохт</b>: Корте, ки рақамаш бо { $lastFour } анҷом меёбад
+payment-provider-card-ending-in-card-name = <b>Тарзи пардохт</b>: Корти «{ $cardName }», ки рақамаш бо { $lastFour } анҷом меёбад
 subscription-charges-invoice-summary = Ҷамъбасти санадҳои дархости пардохт
 
 # Variables:
@@ -205,6 +208,8 @@ subscription-charges-invoice-number = <b>Рақами санади дархос�
 subscription-charges-invoice-number-plaintext = Рақами санади дархости пардохт: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Сана:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Сана: { $invoiceDateOnly }
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Нархи мутаносиб: { $remainingAmountTotal }
 subscription-charges-list-price = Нархнома
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ҷамъи миёна: { $invoiceSubtotal }
