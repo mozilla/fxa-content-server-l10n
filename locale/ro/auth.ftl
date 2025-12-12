@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Dacă nu tu ai făcut asta, atunci resetează-ți parola imediat pe:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Resetează-ți și autentificarea în doi pași pe:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Dezvoltatorii de suplimente { -brand-firefox } au fost recent vizați de atacuri de tip phishing prin e-mail. Noi îți vom trimite e-mailuri despre contul { -product-mozilla-account } doar de la <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Dezvoltatorii de suplimente { -brand-firefox } au fost recent vizați de atacuri de tip phishing prin e-mail. Noi îți vom trimite e-mailuri despre { -product-mozilla-account } doar de la această adresă de e-mail:
-banner-warning-check = Verifică dacă dispozitivul și locația la care te-ai conectat sunt corecte.
 brand-banner-message = Știai că ne-am schimbat numele din { -product-firefox-accounts } în { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Află mai multe</a>
 cancellationSurvey = Te rugăm să ne ajuți să ne îmbunătățim serviciile participând la acest <a data-l10n-name="cancellationSurveyUrl">scurt sondaj</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

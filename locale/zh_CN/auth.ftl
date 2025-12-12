@@ -165,10 +165,6 @@ automated-email-reset-pwd-two-factor = 如非本人操作，请立即<a data-l10
 automated-email-reset-pwd-plaintext-v3 = 如非本人操作，请立即在此重设密码：
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = 同时在此重设两步验证：
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = 近期有 { -brand-firefox } 附加组件开发者受到钓鱼邮件攻击。请留意，我们只会使用 <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> 邮箱地址向您发送有关 { -product-mozilla-account }的信息。
-banner-warning-message-plaintext = 近期有 { -brand-firefox } 附加组件开发者受到钓鱼邮件攻击。请留意，我们只会使用以下邮箱地址向您发送有关 { -product-mozilla-account }的信息：
-banner-warning-check = 请检查确认登录设备和登录位置无误。
 brand-banner-message = 您知道我们已由 { -product-firefox-accounts }更名为 { -product-mozilla-accounts }吗？<a data-l10n-name="learnMore">详细了解</a>
 cancellationSurvey = 请填写这份<a data-l10n-name="cancellationSurveyUrl">简短问卷</a> ，帮助我们改善服务质量。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

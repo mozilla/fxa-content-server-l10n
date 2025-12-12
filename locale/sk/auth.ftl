@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Ak ste túto akciu nevykonali, ihneď si zmeňte heslo na adrese:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Taktiež obnovte dvojstupňové overenie na adrese:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Vývojári doplnkov pre { -brand-firefox } sa v poslednej dobe stali terčom phishingových e‑mailových útokov. E‑maily týkajúce sa vášho { -product-mozilla-account(case: "gen", capitalization: "lower") } vám budeme posielať iba z adresy <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Vývojári doplnkov pre { -brand-firefox } sa v poslednej dobe stali terčom phishingových e‑mailových útokov. E‑maily týkajúce sa vášho { -product-mozilla-account(case: "gen", capitalization: "lower") } vám budeme posielať iba z tejto adresy:
-banner-warning-check = Skontrolujte, či údaje o zariadení a polohe z vášho prihlásenia sú správne.
 brand-banner-message = Vedeli ste, že sme zmenili názov z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Ďalšie informácie</a>
 cancellationSurvey = Vyplňte, prosím, tento <a data-l10n-name="cancellationSurveyUrl">krátky prieskum</a> a pomôžte nám zlepšiť naše služby.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Si tu non faceva iste action, alora reinitialisa tu contrasigno immediatemente in:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Alsi, reinitialisa tu authentication a duo passos in:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Le disveloppatores de { -brand-firefox } recentemente ha essite mirate per attaccos email fraudulente. Nos solo inviara emails re tu { -product-mozilla-account } ab <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Le disveloppatores de { -brand-firefox } recentemente ha essite mirate per attaccos email fraudulente. Nos solo inviara emails re tu { -product-mozilla-account } ab iste adresse email:
-banner-warning-check = Verifica pro assecurar te que le apparato e le position a que tu accedeva es correcte.
 brand-banner-message = Sape tu que nos cambiava nostre nomine ab { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saper plus</a>
 cancellationSurvey = Per favor adjuta nos a meliorar nostre servicios redigente iste <a data-l10n-name="cancellationSurveyUrl">breve questionario</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

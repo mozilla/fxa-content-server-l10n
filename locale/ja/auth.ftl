@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = この操作に覚えがない場合、すぐにパスワードをリセットしてください:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = 同時に、2 段階認証もリセットしてください:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = 最近、{ -brand-firefox } アドオンの開発者を標的としたフィッシングメール攻撃が発生しています。{ -product-mozilla-account }に関するメールを <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> 以外から送信することはありません。
-banner-warning-message-plaintext = 最近、{ -brand-firefox } アドオンの開発者を標的としたフィッシングメール攻撃が発生しています。次のメールアドレス以外から { -product-mozilla-account }に関するメールを送信することはありません:
-banner-warning-check = ログインした端末と位置情報が正しいことを確認してください。
 brand-banner-message = アカウントの名称が { -product-firefox-accounts } から { -product-mozilla-accounts } に変更されたことをご存知ですか？ <a data-l10n-name="learnMore">詳細</a>
 cancellationSurvey = この <a data-l10n-name="cancellationSurveyUrl">簡単なアンケート</a> に回答して、サービスの改善にご協力ください。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

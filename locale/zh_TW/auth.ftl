@@ -167,10 +167,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = 若您並未進行此操作，請立即至此處重設密碼：
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = 也請到此處重設兩階段驗證設定：
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = 近期 { -brand-firefox } 附加元件開發者成為釣魚郵件攻擊的目標。我們只會透過 <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> 來發送電子郵件，聯絡您有關 { -product-mozilla-account }的相關事務。
-banner-warning-message-plaintext = 近期 { -brand-firefox } 附加元件開發者成為釣魚郵件攻擊的目標。我們只會透過下列電子郵件地址，聯絡您有關 { -product-mozilla-account }的相關事務：
-banner-warning-check = 請確認您的裝置資訊與登入位置是否正確。
 brand-banner-message = 您知道我們將 { -product-firefox-accounts }的名稱更改為 { -product-mozilla-accounts }了嗎？<a data-l10n-name="learnMore">更多資訊</a>
 cancellationSurvey = 請填寫這份<a data-l10n-name="cancellationSurveyUrl">簡短問卷</a>幫助我們改善服務品質。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

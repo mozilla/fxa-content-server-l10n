@@ -167,10 +167,6 @@ automated-email-reset-pwd-two-factor = Če tega niste storili vi, takoj <a data-
 automated-email-reset-pwd-plaintext-v3 = Če tega dejanja niste storili vi, takoj ponastavite geslo:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Ponastavite tudi overitev v dveh korakih:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Razvijalci dodatkov za { -brand-firefox(sklon: "tozilnik") } so bili v zadnjem času tarča e-poštnih napadov z lažnim predstavljanjem. Sporočila o { -product-mozilla-account(sklon: "mestnik") } vam bomo pošiljali samo z naslova <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Razvijalci dodatkov za { -brand-firefox } so bili v zadnjem času tarča e-poštnih napadov z lažnim predstavljanjem. Sporočila o { -product-mozilla-account(sklon: "mestnik") } vam bomo pošiljali samo z naslednjega naslova:
-banner-warning-check = Preverite, ali sta naprava in lokacija, kjer ste se prijavili, pravilni.
 brand-banner-message = Ali ste vedeli, da smo se preimenovali iz { -product-firefox-accounts } v { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Več o tem</a>
 cancellationSurvey = Pomagajte nam izboljšati naše storitve, tako da izpolnite to <a data-l10n-name="cancellationSurveyUrl">kratko anketo</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

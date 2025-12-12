@@ -170,10 +170,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Hvis du ikke utførte dette, kan du tilbakestille passordet ditt med en gang på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Tilbakestill også totrinns-autentisering på:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = { -brand-firefox }-utviklere har nylig blitt utsatt for nettfiskingsangrep (phishing) via e-post. Vi sender bare e-poster om din { -product-mozilla-account } fra <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = { -brand-firefox }-utviklere har nylig blitt utsatt for nettfiskingsangrep (phishing) via e-post. Vi sender bare e-poster om { -product-mozilla-account } fra denne e-postadressen:
-banner-warning-check = Sjekk at enheten og stedet du logget på er riktig.
 brand-banner-message = Visste du at vi endret navnet vårt fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les mer</a>
 cancellationSurvey = Hjelp oss med å forbedre tjenestene våre ved å være med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkelsen</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

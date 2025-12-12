@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Nëse këtë veprim s’e ndërmorët ju, atëherë ricaktoni fjalëkalimin tuaj mu tani, te:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Riujdisni gjithashtu mirëfilltësimin dyhapësh, te:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Zhvillues shtesash { -brand-firefox } tani së fundi kanë qen objekt sulmesh me email-e karremëzimi. Ne do t’ju dërgojmë vetëm rreth { -product-mozilla-account } tuaj që nga <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Zhvillues shtesash { -brand-firefox } tani së fundi kanë qen objekt sulmesh me email-e karremëzimi. Ne do t’ju dërgojmë vetëm rreth { -product-mozilla-account } tuaj që nga kjo adresë email:
-banner-warning-check = Kontrolloni për t’u siguruar se pajisja dhe vendndodhja prej nga bëtë hyrjen janë të sakta.
 brand-banner-message = E dini se ndryshuam emrin tonë nga { -product-firefox-accounts } në { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mësoni më tepër</a>
 cancellationSurvey = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë <a data-l10n-name="cancellationSurveyUrl">pyetësor të shkurtër</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

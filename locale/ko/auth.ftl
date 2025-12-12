@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = 이 행동을 하지 않았다면 즉시 비밀번호를 변경하세요:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = 또한, 2단계 인증 재설정하세요:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = { -brand-firefox } 부가 기능 개발자가 최근 피싱 이메일 공격의 대상이 되었습니다. { -product-mozilla-account }에 대한 이메일은 <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>에서만 전송합니다.
-banner-warning-message-plaintext = { -brand-firefox } 부가 기능 개발자가 최근 피싱 이메일 공격의 대상이 되었습니다. { -product-mozilla-account }에 대한 이메일은 이 이메일 주소에서만 전송합니다.
-banner-warning-check = 로그인한 기기와 위치가 올바른지 확인하세요.
 brand-banner-message = { -product-firefox-accounts } 명칭이 { -product-mozilla-accounts }으로 변경되었다는 사실을 알고 계신가요? <a data-l10n-name="learnMore">자세히 알아보세요</a>
 cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl">설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

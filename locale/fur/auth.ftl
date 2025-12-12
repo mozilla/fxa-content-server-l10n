@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Se no tu âs fat tu cheste operazion, alore ristabilìs la tô password daurman su:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Ristabilìs ancje la autenticazion in doi passaçs su:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Di resint i svilupadôrs di components adizionâi di { -brand-firefox } a son stâts cjapâts di smire di atacs di phishing vie e-mail. Nô o mandìn e-mails nome in merit al to { -product-mozilla-account } di <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = I svilupadôrs di components adizionâi { -brand-firefox } a son stâts cjapâts di smire di atacs di phishing vie e-mail. Ti mandarìn e-mails nome in merit al to { -product-mozilla-account } che a rivin di cheste direzion di pueste eletroniche:
-banner-warning-check = Controle che il dispositîf e che la posizion di dulà che tu sês jentrât a sedin juscj.
 brand-banner-message = Savevistu che o vin cambiât non di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Plui informazions</a>
 cancellationSurvey = Judinus a miorâ i nestris servizis partecipant a chest <a data-l10n-name="cancellationSurveyUrl">curt sondaç</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

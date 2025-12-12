@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = თუ თქვენ არაფერი მოგიმოქმედებიათ, მაშინ გაანულეთ პაროლი დაუყოვნებლივ:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = ამასთანავე, ხელახლა გამართეთ ორბიჯიანი დამოწმება:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = { -brand-firefox }-ის დამატების შემმუშავებლები ბოლო დროს ელფოსტით თაღლითური შეტევების მსხვერპლი გახდნენ. თქვენი { -product-mozilla-account } წერილებს გიგზავნით მხოლოდ ამ მისამართიდან – <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = { -brand-firefox }-ის დამატების შემმუშავებლები ბოლო დროს ელფოსტით თაღლითური შეტევების მსხვერპლი გახდნენ. თქვენი { -product-mozilla-account } წერილებს გიგზავნით მხოლოდ ამ მისამართიდან:
-banner-warning-check = გადაამოწმეთ თქვენი მდებარეობისა და მოწყობილობის სიზუსტე, რომლითაც შესული ხართ ანგარიშზე.
 brand-banner-message = იცოდით, რომ { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts }? <a data-l10n-name="learnMore">ვრცლად</a>
 cancellationSurvey = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს <a data-l10n-name="cancellationSurveyUrl">მცირე კითხვარი</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

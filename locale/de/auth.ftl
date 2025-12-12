@@ -167,10 +167,6 @@ automated-email-reset-pwd-two-factor = Wenn Sie diese Maßnahme nicht ausgelöst
 automated-email-reset-pwd-plaintext-v3 = Wenn Sie diese Maßnahme nicht ausgelöst haben, setzen Sie Ihr Passwort unter folgender Adresse sofort zurück:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Setzen Sie außerdem die Zwei-Schritt-Authentifizierung unter folgender Adresse zurück:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Entwickler von { -brand-firefox } wurden in letzter Zeit Ziel von Phishing-E-Mail-Angriffen. Wir schicken nur E-Mails zu Ihrem { -product-mozilla-account } von <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Entwickler von { -brand-firefox } wurden in letzter Zeit Ziel von Phishing-E-Mail-Angriffen. Wir schicken nur E-Mails zu Ihrem { -product-mozilla-account } von dieser E-Mail-Adresse:
-banner-warning-check = Überprüfen Sie, ob das Gerät und der Standort, mit dem Sie sich angemeldet haben, korrekt sind.
 brand-banner-message = Wussten Sie, dass wir unseren Namen von { -product-firefox-accounts } in { -product-mozilla-accounts } geändert haben? <a data-l10n-name="learnMore">Weitere Informationen</a>
 cancellationSurvey = Bitte helfen Sie uns, unsere Dienste zu verbessern, indem Sie an dieser <a data-l10n-name="cancellationSurveyUrl">kurzen Umfrage</a> teilnehmen.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21

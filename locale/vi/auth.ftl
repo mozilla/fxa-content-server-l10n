@@ -169,10 +169,6 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Nếu bạn không thực hiện hành động này, hãy đặt lại mật khẩu ngay tại:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Ngoài ra, hãy đặt lại xác thực hai bước tại:
-# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Các nhà phát triển tiện ích { -brand-firefox } đã bị nhắm mục tiêu bởi các cuộc tấn công email lừa đảo gần đây. Chúng tôi sẽ chỉ gửi email về { -product-mozilla-account } của bạn từ <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Các nhà phát triển tiện ích { -brand-firefox } đã bị nhắm mục tiêu bởi các cuộc tấn công email lừa đảo gần đây. Chúng tôi sẽ chỉ gửi email về { -product-mozilla-account } của bạn từ địa chỉ email này:
-banner-warning-check = Kiểm tra để đảm bảo thiết bị và vị trí bạn đã đăng nhập là chính xác.
 brand-banner-message = Bạn có biết chúng tôi đã đổi tên từ { -product-firefox-accounts } thành { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Tìm hiểu thêm</a>
 cancellationSurvey = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện <a data-l10n-name="cancellationSurveyUrl">khảo sát ngắn</a> này.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
