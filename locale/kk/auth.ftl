@@ -177,6 +177,18 @@ payment-plan-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Аралық сома: { $invoiceSubtotal }
 
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-discount = Жеңілдік
+subscription-charges-discount-plaintext = Жеңілдік: { $invoiceDiscountAmount }
+subscription-charges-taxes = Салықтар мен алымдар
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Салықтар мен алымдар: { $invoiceTaxAmount }
+subscription-charges-total = <b>Жалпы</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Жалпы: { $invoiceTotal }
+
 ##
 
 subscriptionSupport = Жазылуыңыз туралы сұрақтарыңыз бар ма? Біздің <a data-l10n-name="subscriptionSupportUrl">қолдау тобы</a> сізге көмектесе алады.
