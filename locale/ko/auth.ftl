@@ -188,6 +188,25 @@ payment-plan-charged = 청구됨: { $invoiceDateOnly }에 { $invoiceTotal }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = 다음 청구일자: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>결제 수단:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = 결제 수단: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = 결제 수단: { $lastFour }로 끝나는 { $cardName }
+payment-provider-card-ending-in-plaintext = 결제 수단: 끝자리 { $lastFour } 카드
+payment-provider-card-ending-in = <b>결제 수단:</b> 끝자리 { $lastFour } 카드
+payment-provider-card-ending-in-card-name = <b>결제 수단:</b> { $lastFour }로 끝나는 { $cardName }
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
