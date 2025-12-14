@@ -274,6 +274,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = 코드가 있는 기기 화면
 sync-clouds-image-aria-label =
     .aria-label = 동기화 아이콘이 있는 구름
+confetti-falling-image-aria-label =
+    .aria-label = 움직이며 떨어지는 색종이 조각
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -348,6 +350,8 @@ confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = 언어 선택
+locale-toggle-browser-default = 기본 브라우저
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 잘못된 요청
 
@@ -655,6 +659,7 @@ flow-setup-2fa-backup-code-dl-button-continue = 계속
 ##
 
 flow-setup-2fa-inline-complete-success-banner = 2단계 인증 활성화됨
+flow-setup-2fa-inline-complete-success-banner-description = 연결된 모든 기기를 보호하려면 이 계정을 사용하는 모든 곳에서 로그 아웃 한 다음 새로운 2단계 인증을 사용하여 다시 로그인해야 합니다.
 flow-setup-2fa-inline-complete-backup-code = 백업 인증 코드
 flow-setup-2fa-inline-complete-backup-phone = 복구 전화번호
 # $count (Number) - an integer representing the number of backup
@@ -735,6 +740,24 @@ modal-close-title = 닫기
 modal-cancel-button = 취소
 modal-default-confirm-button = 확인
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = 확인 코드를 입력하세요.
+modal-mfa-protected-subtitle = 계정 정보 변경자가 본인인지 확인할 수 있도록 도와주세요.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction = { $expirationTime }분 이내에 <email>{ $email }</email> 메일로 전송된 코드를 입력하세요.
+modal-mfa-protected-input-label = 6자리 숫자 코드 입력
+modal-mfa-protected-cancel-button = 취소
+modal-mfa-protected-confirm-button = 확인
+modal-mfa-protected-code-expired = 코드가 만료되었나요?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = 이메일로 새 코드를 받으세요.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = 이메일 확인
@@ -756,14 +779,28 @@ nav-data-collection = 데이터 수집 및 사용
 nav-paid-subs = 유료 구독
 nav-email-comm = 이메일 설정 관리
 
+## Page2faChange
+
+page-2fa-change-title = 2단계 인증 변경
+page-2fa-change-success = 2단계 인증 업데이트됨
+page-2fa-change-totpinfo-error = 2단계 인증 앱을 교체하는데 오류가 발생했습니다. 나중에 다시 시도하세요.
+page-2fa-change-qr-instruction = <strong>1단계:</strong> Duo나 Google OTP 같은 인증 앱을 사용하여 이 QR 코드를 스캔하세요. 그러면 새로운 연결이 생성되고 이전 연결은 더 이상 동작하지 않습니다.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = 백업 인증 코드
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = 백업 인증 코드를 교체하는 중에 문제가 발생했습니다.
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = 백업 인증 코드를 생성하는 중에 문제가 발생했습니다.
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = 백업 인증 코드 업데이트됨
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = 백업 인증 코드가 생성됨
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = 기억할 수 있는 곳에 보관하세요. 다음 단계를 완료한 후 이전 코드가 교체됩니다.
 
 ## Page2faSetup
 
