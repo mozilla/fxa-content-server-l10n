@@ -783,6 +783,7 @@ nav-email-comm = 이메일 설정 관리
 
 page-2fa-change-title = 2단계 인증 변경
 page-2fa-change-success = 2단계 인증 업데이트됨
+page-2fa-change-success-additional-message = 연결된 모든 기기를 보호하려면 이 계정을 사용하는 모든 곳에서 로그 아웃 한 다음 새로운 2단계 인증을 사용하여 다시 로그인해야 합니다.
 page-2fa-change-totpinfo-error = 2단계 인증 앱을 교체하는데 오류가 발생했습니다. 나중에 다시 시도하세요.
 page-2fa-change-qr-instruction = <strong>1단계:</strong> Duo나 Google OTP 같은 인증 앱을 사용하여 이 QR 코드를 스캔하세요. 그러면 새로운 연결이 생성되고 이전 연결은 더 이상 동작하지 않습니다.
 
@@ -801,6 +802,11 @@ tfa-create-code-success-alert = 백업 인증 코드가 생성됨
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
 tfa-replace-code-download-description = 기억할 수 있는 곳에 보관하세요. 다음 단계를 완료한 후 이전 코드가 교체됩니다.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = 코드를 입력하여 저장되었는지 확인하세요. 이 단계가 완료되면 이전 백업 인증 코드를 사용할 수 없습니다.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = 잘못된 백업 인증 코드
 
 ## Page2faSetup
 
@@ -809,6 +815,7 @@ page-2fa-setup-totpinfo-error = 2단계 인증을 설정하는 중에 오류가 
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = 코드가 올바르지 않습니다. 다시 시도하세요.
 page-2fa-setup-success = 2단계 인증 활성화됨
+page-2fa-setup-success-additional-message = 연결된 모든 기기를 보호하려면 이 계정을 사용하는 모든 곳에서 로그 아웃 한 다음 2단계 인증을 사용하여 다시 로그인해야 합니다.
 
 ## Avatar change page
 
@@ -884,6 +891,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } 데이터 동기화
 delete-account-product-firefox-addons = { -brand-firefox } 부가 기능
 delete-account-acknowledge = 계정 삭제 전 다음 사항에 유의하세요.
+delete-account-chk-box-1-v4 =
+    .label = 모든 유료 구독이 취소됩니다.
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } 제품에 포함된 저장 정보와 기능을 잃을 수 있습니다.
 delete-account-chk-box-3 =
@@ -1014,6 +1023,7 @@ verify-secondary-email-please-enter-code-2 = <strong>{ $email }</strong>로 발�
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email }이 성공적으로 추가되었습니다.
+verify-secondary-email-resend-code-button = 확인 코드 재전송
 
 ##
 
@@ -1186,6 +1196,7 @@ tfa-row-enabled = 활성화됨
 tfa-row-disabled-status = 사용 안함
 tfa-row-action-add = 추가
 tfa-row-action-disable = 비활성화
+tfa-row-action-change = 변경
 tfa-row-button-refresh =
     .title = 2단계 인증 새로 고침
 tfa-row-cannot-refresh =
@@ -1205,6 +1216,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = 2단계 인증 비활성화됨
 tfa-row-cannot-disable-2 = 2단계 인증을 비활성화할 수 없습니다.
+tfa-row-verify-session-info = 2단계 인증을 설정하기 위해 현재 세션을 확인해야 합니다.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1225,6 +1237,9 @@ terms-privacy-agreement-default-2 = 계속 진행하시면 <mozillaAccountsTos>�
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = 또는
+# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
+# This could also be translated as "Sign in with the following" or "Sign in with the below".
+third-party-auth-options-sign-in-with = 로그인:
 continue-with-google-button = { -brand-google }로 계속하기
 continue-with-apple-button = { -brand-apple }로 계속하기
 
@@ -1247,6 +1262,9 @@ auth-error-125 = 보안상의 이유로 요청이 차단 되었습니다
 auth-error-129-2 = 유효하지 않은 전화번호입니다. 확인 후 다시 시도해 주세요.
 auth-error-138-2 = 확인되지 않은 세션
 auth-error-139 = 보조 이메일은 계정 이메일과 달라야 합니다.
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = 이 이메일은 다른 계정에 예약되어 있습니다. 나중에 다시 시도하거나 다른 이메일 주소를 사용하십시오.
 auth-error-155 = TOTP 토큰 찾을 수 없음
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = 백업 인증 코드를 찾을 수 없습니다
@@ -1383,6 +1401,7 @@ inline-totp-setup-security-code-placeholder = 인증 코드
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = 인증 코드 필요함
 tfa-qr-code-alt = 지원되는 애플리케이션에서 2단계 인증을 설정하려면 { $code } 코드를 사용하세요.
+inline-totp-setup-page-title = 2단계 인증
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1501,6 +1520,16 @@ pair-wait-for-auth-heading-text = 이제 <span>다른 기기</span>에서 승인
 pair-unsupported-header = 앱으로 페어링
 pair-unsupported-message = 기본 카메라를 쓰셨습니까? { -brand-firefox } 앱 안의 카메라로 페어링해야 합니다.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading-v2 = 동기화를 위한 비밀번호 생성
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = 데이터를 암호화합니다. { -brand-google } 또는 { -brand-apple } 계정 비밀번호와 달라야 합니다.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1537,12 +1566,17 @@ complete-reset-pw-recovery-key-link = 계정 복구 키 사용
 # Displayed on the sign in page
 reset-password-complete-banner-heading = 비밀번호가 재설정되었습니다.
 reset-password-complete-banner-message = 향후 로그인 문제가 생기는 것을 방지하기 위해 { -product-mozilla-account } 계정 설정에서 새로운 계정 복구 키를 생성하는 것을 잊지 마세요.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = 사용자가 로그인한 후 { -brand-firefox }가 이메일 마스크를 사용하도록 다시 요청합니다.
 
 # ConfirmBackupCodeResetPassword page
 
 confirm-backup-code-reset-password-input-label = 10자리 코드 입력
 confirm-backup-code-reset-password-confirm-button = 확인
 confirm-backup-code-reset-password-subheader = 백업 인증 코드 입력
+confirm-backup-code-reset-password-instruction = 2단계 인증을 설정할 때 저장한 일회용 코드 중 하나를 입력하세요.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = 접근이 불가능한 상태이신가요?
 
@@ -1597,6 +1631,8 @@ reset-password-confirmed-cta = { $serviceName }로 계속
 
 password-reset-recovery-method-header = 비밀번호 재설정
 password-reset-recovery-method-subheader = 복구 방법 선택
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = 복구 방법을 사용하고 있는 것이 본인인지 확인합시다.
 password-reset-recovery-method-phone = 복구 전화번호
 password-reset-recovery-method-code = 백업 인증 코드
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
@@ -1641,6 +1677,10 @@ signin-header = 로그인
 signin-use-a-different-account-link = 다른 계정 사용
 signin-forgot-password-link = 비밀번호를 잊으셨나요?
 signin-password-button-label = 비밀번호
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = 사용자가 로그인한 후 { -brand-firefox }가 이메일 마스크를 사용하도록 다시 요청합니다.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1686,6 +1726,7 @@ signin-push-code-confirm-link-error = 링크가 손상되었습니다. 다시 �
 
 signin-recovery-method-header = 로그인
 signin-recovery-method-subheader = 복구 방법 선택
+signin-recovery-method-details = 복구 방법을 사용하고 있는 것이 본인인지 확인합시다.
 signin-recovery-method-phone = 복구 전화번호
 signin-recovery-method-code-v2 = 백업 인증 코드
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
@@ -1753,6 +1794,10 @@ signin-token-code-resend-code-link = 이메일로 새 코드를 받으세요.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = 확인 코드 필요
 signin-token-code-resend-error = 문제가 발생했습니다. 새 코드를 보낼 수 없습니다.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = 사용자가 로그인한 후 { -brand-firefox }가 이메일 마스크를 사용하도록 다시 요청합니다.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
