@@ -1,5 +1,10 @@
 loyalty-discount-terms-heading = პირობები და შეზღუდვები
 loyalty-discount-terms-support = დაკავშირება მხარდაჭერისთვის
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = მხარდაჭერის მიღება – { $productName }
+not-found-page-title-terms = გვერდი ვერ მოიძებნა
+not-found-page-description-terms = მოთხოვნილი გვერდი არ არსებობს.
+not-found-page-button-terms-manage-subscriptions = გამოწერების მართვა
 
 ## Page
 
