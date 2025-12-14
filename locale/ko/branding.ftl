@@ -45,13 +45,17 @@
 -product-firefox-relay = Firefox Relay
 -product-firefox-relay-short = Relay
 -brand-apple = Apple
+-brand-apple-pay = Apple Pay
 -brand-google = Google
+-brand-google-pay = Google Pay
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-amex = 아메리칸 익스프레스
 -brand-diners = 다이너스 클럽
 -brand-discover = 디스커버 카드
 -brand-jcb = JCB
+# Link payment processor (by Stripe)
+-brand-link = Link
 -brand-mastercard = 마스터카드
 -brand-unionpay = 은련페이
 -brand-visa = 비자카드

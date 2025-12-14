@@ -145,6 +145,7 @@ form-password-with-inline-criteria-set-password-new-password-label =
     .label = 비밀번호
 form-password-with-inline-criteria-set-password-confirm-password-label =
     .label = 비밀번호 재입력
+form-password-with-inline-criteria-set-password-submit-button = 동기화 시작
 form-password-with-inline-criteria-match-error = 비밀번호가 일치하지 않습니다
 form-password-with-inline-criteria-sr-too-short-message = 비밀번호는 최소 8자 이상입니다.
 form-password-with-inline-criteria-sr-not-email-message = 비밀번호에 이메일 주소가 포함되어서는 안 됩니다.
