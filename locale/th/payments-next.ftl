@@ -85,11 +85,7 @@ next-payment-confirm-checkbox-error = คุณจะต้องทำเคร
 ## Checkout Form
 
 next-new-user-submit = สมัครสมาชิกเลย
-next-payment-validate-name-error = กรุณาใส่ชื่อของคุณ
 next-pay-with-heading-paypal = ชำระเงินด้วย { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = ชื่อตามที่ปรากฏบนบัตรของคุณ
-payment-name-placeholder = ชื่อเต็ม
 
 ## Component - CouponForm
 
@@ -125,10 +121,6 @@ payments-header-avatar-expanded-signed-in-as = ลงชื่อเข้าใ
 payments-client-loading-spinner =
     .aria-label = กำลังโหลด…
     .alt = กำลังโหลด…
-
-## Payment Section
-
-next-new-user-card-title = ใส่ข้อมูลบัตรของคุณ
 
 ## Component - PurchaseDetails
 

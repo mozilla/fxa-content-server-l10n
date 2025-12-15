@@ -211,11 +211,7 @@ next-payment-confirm-checkbox-error = U dient dit te voltooien voordat u verder 
 ## Checkout Form
 
 next-new-user-submit = Nu abonneren
-next-payment-validate-name-error = Voer uw naam in
 next-pay-with-heading-paypal = Betalen met { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Naam zoals deze op uw kaart verschijnt
-payment-name-placeholder = Volledige naam
 
 ## Component - CouponForm
 
@@ -264,10 +260,6 @@ payment-method-management-save-default = Als standaard betalingsmethode instelle
 # Save button for saving a new payment method
 payment-method-management-save-method = Betalingsmethode opslaan
 manage-stripe-payments-title = Betalingsmethoden beheren
-
-## Payment Section
-
-next-new-user-card-title = Voer uw kaartgegevens in
 
 ## Component - PurchaseDetails
 

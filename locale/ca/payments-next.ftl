@@ -17,10 +17,6 @@ next-payment-confirmation-details-heading-2 = Informació de pagament
 
 next-payment-confirmation-download-button = Continua amb la baixada
 
-## Checkout Form
-
-next-payment-validate-name-error = Introduïu el vostre nom
-
 ## Component - PurchaseDetails
 
 next-plan-details-header = Detalls del producte

@@ -159,11 +159,7 @@ next-payment-confirm-checkbox-error = Sinun on suoritettava tämä vaihe, ennen 
 ## Checkout Form
 
 next-new-user-submit = Tilaa nyt
-next-payment-validate-name-error = Kirjoita nimesi
 next-pay-with-heading-paypal = Maksa { -brand-paypal }illa
-# Label for the Full Name input
-payment-name-label = Nimi sellaisena kuin se näkyy kortissasi
-payment-name-placeholder = Koko nimi
 
 ## Component - CouponForm
 
@@ -212,10 +208,6 @@ payment-method-management-save-default = Aseta oletusmaksutavaksi
 # Save button for saving a new payment method
 payment-method-management-save-method = Tallenna maksutapa
 manage-stripe-payments-title = Hallitse maksutapoja
-
-## Payment Section
-
-next-new-user-card-title = Anna korttisi tiedot
 
 ## Component - PurchaseDetails
 

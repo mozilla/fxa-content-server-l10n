@@ -70,11 +70,7 @@ next-payment-confirm-checkbox-error = Ti stos acceptar quai per pudair cuntinuar
 ## Checkout Form
 
 next-new-user-submit = Abunar ussa
-next-payment-validate-name-error = Endatescha per plaschair tes num
 next-pay-with-heading-paypal = Pajar cun { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Tes num, scrit sco sin tia carta
-payment-name-placeholder = Num cumplet
 
 ## Component - CouponForm
 
@@ -115,10 +111,6 @@ payments-header-avatar-expanded-sign-out = Sortir
 payments-client-loading-spinner =
     .aria-label = Chargiar…
     .alt = Chargiar…
-
-## Payment Section
-
-next-new-user-card-title = Endatescha las infurmaziuns da tia carta
 
 ## Component - PurchaseDetails
 

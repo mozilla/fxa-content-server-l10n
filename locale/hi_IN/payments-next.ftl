@@ -17,11 +17,6 @@ next-payment-confirmation-invoice-date = { $invoiceDate }
 
 next-payment-confirmation-download-button = डाउनलोड करने के लिए आगे बढ़ें
 
-## Checkout Form
-
-next-payment-validate-name-error = कृपया अपना नाम दर्ज करें
-payment-name-placeholder = पूरा नाम
-
 ## Component - CouponForm
 
 next-coupon-enter-code =
@@ -34,10 +29,6 @@ next-coupon-promo-code = प्रोमो कोड
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-avatar =
     .title = { -product-mozilla-account } मेन्यू
-
-## Payment Section
-
-next-new-user-card-title = अपने कार्ड की जानकारी दर्ज करें
 
 ## Component - PurchaseDetails
 

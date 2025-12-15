@@ -85,11 +85,7 @@ next-payment-confirm-checkbox-error = Hâ cumplitari stu passaggiu prima di jiri
 ## Checkout Form
 
 next-new-user-submit = Abbònati ora
-next-payment-validate-name-error = Metti u to nomu cumpletu
 next-pay-with-heading-paypal = Paga cu { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = U nomu pi comu affaccia nnâ to carta
-payment-name-placeholder = Nomu cumpletu
 
 ## Component - CouponForm
 
@@ -130,10 +126,6 @@ payments-header-avatar-expanded-sign-out = Nesci
 payments-client-loading-spinner =
     .aria-label = Staju carricannu…
     .alt = Staju carricannu…
-
-## Payment Section
-
-next-new-user-card-title = Metti i nfurmazzioni dâ to carta
 
 ## Component - PurchaseDetails
 

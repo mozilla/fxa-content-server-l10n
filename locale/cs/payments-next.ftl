@@ -211,11 +211,7 @@ next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokonči
 ## Checkout Form
 
 next-new-user-submit = Předplatit
-next-payment-validate-name-error = Zadejte prosím své jméno
 next-pay-with-heading-paypal = Zaplatit přes { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Jméno, jak je uvedeno na vaší kartě
-payment-name-placeholder = Celé jméno
 
 ## Component - CouponForm
 
@@ -264,10 +260,6 @@ payment-method-management-save-default = Nastaveno jako výchozí způsob platby
 # Save button for saving a new payment method
 payment-method-management-save-method = Uložit způsob platby
 manage-stripe-payments-title = Spravovat platební metody
-
-## Payment Section
-
-next-new-user-card-title = Zadejte informace o platební kartě
 
 ## Component - PurchaseDetails
 

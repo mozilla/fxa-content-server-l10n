@@ -211,11 +211,7 @@ next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε
 ## Checkout Form
 
 next-new-user-submit = Εγγραφή τώρα
-next-payment-validate-name-error = Εισαγάγετε το ονοματεπώνυμό σας
 next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Το όνομα όπως εμφανίζεται στην κάρτα σας
-payment-name-placeholder = Ονοματεπώνυμο
 
 ## Component - CouponForm
 
@@ -264,10 +260,6 @@ payment-method-management-save-default = Ορισμός ως προεπιλεγ�
 # Save button for saving a new payment method
 payment-method-management-save-method = Αποθήκευση μεθόδου πληρωμής
 manage-stripe-payments-title = Διαχείριση μεθόδων πληρωμής
-
-## Payment Section
-
-next-new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτας σας
 
 ## Component - PurchaseDetails
 

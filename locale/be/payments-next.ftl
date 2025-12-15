@@ -68,7 +68,6 @@ next-payment-confirm-checkbox-error = Вам трэба завяршыць гэ�
 ## Checkout Form
 
 next-new-user-submit = Падпісацца зараз
-next-payment-validate-name-error = Увядзіце, калі ласка, ваша імя
 
 ## Component - CouponForm
 
@@ -87,10 +86,6 @@ payments-header-bento-close =
     .alt = Закрыць
 payments-header-avatar-expanded-signed-in-as = Увайшоўшы як
 payments-header-avatar-expanded-sign-out = Выйсці
-
-## Payment Section
-
-next-new-user-card-title = Увядзіце даныя вашай карты
 
 ## Component - PurchaseDetails
 

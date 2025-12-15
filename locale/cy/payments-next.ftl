@@ -211,11 +211,7 @@ next-payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymla
 ## Checkout Form
 
 next-new-user-submit = Tanysgrifiwch Nawr
-next-payment-validate-name-error = Rhowch eich enw
 next-pay-with-heading-paypal = Talu gyda { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Enw fel y mae'n ymddangos ar eich cerdyn
-payment-name-placeholder = Enw Llawn
 
 ## Component - CouponForm
 
@@ -264,10 +260,6 @@ payment-method-management-save-default = Gosod fel dull talu rhagosodedig
 # Save button for saving a new payment method
 payment-method-management-save-method = Cadw'r dull talu
 manage-stripe-payments-title = Rheoli'r dulliau talu
-
-## Payment Section
-
-next-new-user-card-title = Rhowch fanylion eich cerdyn
 
 ## Component - PurchaseDetails
 

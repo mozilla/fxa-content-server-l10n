@@ -134,11 +134,7 @@ next-payment-confirm-checkbox-error = Debes completar esto antes de seguir adela
 ## Checkout Form
 
 next-new-user-submit = Suscribirse ahora
-next-payment-validate-name-error = Introduzca su nombre
 next-pay-with-heading-paypal = Pagar con { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Nombre tal como aparece en tu tarjeta
-payment-name-placeholder = Nombre completo
 
 ## Component - CouponForm
 
@@ -183,10 +179,6 @@ payments-client-loading-spinner =
 ## Payment method management page - Stripe
 
 manage-stripe-payments-title = Administrar métodos de pago
-
-## Payment Section
-
-next-new-user-card-title = Escribe la información de tu tarjeta
 
 ## Component - PurchaseDetails
 

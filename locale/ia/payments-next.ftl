@@ -213,11 +213,7 @@ next-payment-confirm-checkbox-error = Il besonia completar isto, ante proceder
 ## Checkout Form
 
 next-new-user-submit = Abona te ora
-next-payment-validate-name-error = Insere tu nomine
 next-pay-with-heading-paypal = Paga con { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Nomine como illo appare sur tu carta
-payment-name-placeholder = Nomine complete
 
 ## Component - CouponForm
 
@@ -266,10 +262,6 @@ payment-method-management-save-default = Predefinir le methodo de pagamento
 # Save button for saving a new payment method
 payment-method-management-save-method = Salvar methodo de pagamento
 manage-stripe-payments-title = Gerer methodos de pagamento
-
-## Payment Section
-
-next-new-user-card-title = Insere informationes de tu carta
 
 ## Component - PurchaseDetails
 

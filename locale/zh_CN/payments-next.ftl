@@ -211,11 +211,7 @@ next-payment-confirm-checkbox-error = 同意此项后才可继续
 ## Checkout Form
 
 next-new-user-submit = 立即订阅
-next-payment-validate-name-error = 请输入您的名字
 next-pay-with-heading-paypal = 通过 { -brand-paypal } 付款
-# Label for the Full Name input
-payment-name-label = 填写卡片上所载的姓名
-payment-name-placeholder = 全名
 
 ## Component - CouponForm
 
@@ -264,10 +260,6 @@ payment-method-management-save-default = 设为默认付款方式
 # Save button for saving a new payment method
 payment-method-management-save-method = 保存付款方式
 manage-stripe-payments-title = 管理付款方式
-
-## Payment Section
-
-next-new-user-card-title = 输入您的卡片信息
 
 ## Component - PurchaseDetails
 

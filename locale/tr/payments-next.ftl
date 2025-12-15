@@ -185,11 +185,7 @@ next-payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerek
 ## Checkout Form
 
 next-new-user-submit = Şimdi abone ol
-next-payment-validate-name-error = Lütfen adınızı girin
 next-pay-with-heading-paypal = { -brand-paypal } ile öde
-# Label for the Full Name input
-payment-name-label = Kartınızda göründüğü şekliyle adınız
-payment-name-placeholder = Ad ve soyadı
 
 ## Component - CouponForm
 
@@ -238,10 +234,6 @@ payment-method-management-save-default = Varsayılan ödeme yöntemi yap
 # Save button for saving a new payment method
 payment-method-management-save-method = Ödeme yöntemini kaydet
 manage-stripe-payments-title = Ödeme yöntemlerini yönet
-
-## Payment Section
-
-next-new-user-card-title = Kart bilgilerinizi girin
 
 ## Component - PurchaseDetails
 

@@ -151,11 +151,7 @@ next-payment-confirm-checkbox-error = 계속 진행하기 전에 이 작업을 �
 ## Checkout Form
 
 next-new-user-submit = 지금 구독하기
-next-payment-validate-name-error = 이름을 입력하세요
 next-pay-with-heading-paypal = { -brand-paypal }로 결제
-# Label for the Full Name input
-payment-name-label = 카드에 표시된 이름을 입력하세요
-payment-name-placeholder = 이름
 
 ## Component - CouponForm
 
@@ -204,10 +200,6 @@ payment-method-management-save-default = 기본 결제 방법으로 설정
 # Save button for saving a new payment method
 payment-method-management-save-method = 결제 방법 저장
 manage-stripe-payments-title = 결제 방법 관리
-
-## Payment Section
-
-next-new-user-card-title = 카드 정보를 입력하세요.
 
 ## Component - PurchaseDetails
 

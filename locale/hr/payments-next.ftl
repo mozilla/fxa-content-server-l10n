@@ -164,11 +164,7 @@ next-payment-confirm-checkbox-error = Ovo moraš dovršiti prije nego što nasta
 ## Checkout Form
 
 next-new-user-submit = Pretplati se sada
-next-payment-validate-name-error = Upiši tvoje ime
 next-pay-with-heading-paypal = Plati s { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Ime kako je navedeno na tvojoj kartici
-payment-name-placeholder = Potpuno ime
 
 ## Component - CouponForm
 
@@ -216,10 +212,6 @@ payment-method-management-save-default = Postavi kao standrdni način plaćanja
 # Save button for saving a new payment method
 payment-method-management-save-method = Spremi način plaćanja
 manage-stripe-payments-title = Upravljaj načinima plaćanja
-
-## Payment Section
-
-next-new-user-card-title = Upiši podatke tvoje kartice
 
 ## Component - PurchaseDetails
 

@@ -216,11 +216,7 @@ next-payment-confirm-checkbox-error = Musyśo to dokóncyś, nježli až móžo�
 ## Checkout Form
 
 next-new-user-submit = Něnto aboněrowaś
-next-payment-validate-name-error = Pšosym zapódajśo swójo mě
 next-pay-with-heading-paypal = Z { -brand-paypal } płaśiś
-# Label for the Full Name input
-payment-name-label = Mě ako se na wašej kórśe zjawijo
-payment-name-placeholder = Dopołne mě
 
 ## Component - CouponForm
 
@@ -269,10 +265,6 @@ payment-method-management-save-default = Ako standardnu płaśeńsku metodu nast
 # Save button for saving a new payment method
 payment-method-management-save-method = Płaśeńsku metodu składowaś
 manage-stripe-payments-title = Płaśeńske metody zastojaś
-
-## Payment Section
-
-next-new-user-card-title = Zapodajśo swóje kórtowe informacije
 
 ## Component - PurchaseDetails
 

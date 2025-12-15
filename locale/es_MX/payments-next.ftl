@@ -47,11 +47,7 @@ next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 ## Checkout Form
 
 next-new-user-submit = Suscribirse ahora
-next-payment-validate-name-error = Por favor, ingresa tu nombre
 next-pay-with-heading-paypal = Pagar con { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Nombre tal como aparece en tu tarjeta
-payment-name-placeholder = Nombre completo
 
 ## Component - CouponForm
 
@@ -69,10 +65,6 @@ next-coupon-submit = Aplicar
 payments-client-loading-spinner =
     .aria-label = Cargando…
     .alt = Cargando…
-
-## Payment Section
-
-next-new-user-card-title = Escribe la información de tu tarjeta
 
 ## Component - PurchaseDetails
 

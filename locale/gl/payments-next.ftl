@@ -15,10 +15,6 @@ next-payment-confirmation-invoice-number = Factura n.° { $invoiceNumber }
 
 next-payment-confirmation-download-button = Continuar á descarga
 
-## Checkout Form
-
-next-payment-validate-name-error = Escriba o seu nome.
-
 ## Component - PurchaseDetails
 
 next-plan-details-header = Detalles do produto

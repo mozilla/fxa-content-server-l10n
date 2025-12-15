@@ -191,11 +191,7 @@ next-payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni
 ## Checkout Form
 
 next-new-user-submit = Pajtohuni Tani
-next-payment-validate-name-error = Ju lutemi, jepni emrin tuaj
 next-pay-with-heading-paypal = Paguani me { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Emër, siç duket te karta juaj
-payment-name-placeholder = Emër i Plotë
 
 ## Component - CouponForm
 
@@ -244,10 +240,6 @@ payment-method-management-save-default = Vëre si metodë parazgjedhje pagesash
 # Save button for saving a new payment method
 payment-method-management-save-method = Ruaje metodën e pagesave
 manage-stripe-payments-title = Administroni metoda pagesash
-
-## Payment Section
-
-next-new-user-card-title = Jepni hollësitë e kartës tuaj
 
 ## Component - PurchaseDetails
 

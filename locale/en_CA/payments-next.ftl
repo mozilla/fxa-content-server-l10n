@@ -211,11 +211,7 @@ next-payment-confirm-checkbox-error = You need to complete this before moving fo
 ## Checkout Form
 
 next-new-user-submit = Subscribe Now
-next-payment-validate-name-error = Please enter your name
 next-pay-with-heading-paypal = Pay with { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Name as it appears on your card
-payment-name-placeholder = Full Name
 
 ## Component - CouponForm
 
@@ -264,10 +260,6 @@ payment-method-management-save-default = Set as default payment method
 # Save button for saving a new payment method
 payment-method-management-save-method = Save payment method
 manage-stripe-payments-title = Manage payment methods
-
-## Payment Section
-
-next-new-user-card-title = Enter your card information
 
 ## Component - PurchaseDetails
 

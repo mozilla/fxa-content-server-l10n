@@ -154,11 +154,7 @@ next-payment-confirm-checkbox-error = Tu scugnis completâ cheste operazion prim
 ## Checkout Form
 
 next-new-user-submit = Aboniti cumò
-next-payment-validate-name-error = Inserìs il to non
 next-pay-with-heading-paypal = Paie cun { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Non come che al ven fûr su la cjarte
-payment-name-placeholder = Non complet
 
 ## Component - CouponForm
 
@@ -207,10 +203,6 @@ payment-method-management-save-default = Met come metodi di paiament predefinît
 # Save button for saving a new payment method
 payment-method-management-save-method = Salve metodi di paiament
 manage-stripe-payments-title = Gjestìs metodis di paiament
-
-## Payment Section
-
-next-new-user-card-title = Inserìs lis informazions relativis ae tô cjarte di credit
 
 ## Component - PurchaseDetails
 

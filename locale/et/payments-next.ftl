@@ -37,7 +37,6 @@ next-payment-confirmation-cc-card-ending-in = Kaart, mis lõpeb numbritega { $la
 ## Checkout Form
 
 next-new-user-submit = Telli kohe
-next-payment-validate-name-error = Palun sisesta oma nimi
 
 ## Component - CouponForm
 
@@ -49,10 +48,6 @@ next-coupon-submit = Rakenda
 # Component - Header
 
 payments-header-avatar-expanded-signed-in-as = Sisse logitud kasutajana
-
-## Payment Section
-
-next-new-user-card-title = Sisesta oma kaardi andmed
 
 ## Component - PurchaseDetails
 

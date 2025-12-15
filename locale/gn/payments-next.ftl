@@ -190,11 +190,7 @@ next-payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 ## Checkout Form
 
 next-new-user-submit = Eñemboheraguapy Ko’ág̃a
-next-payment-validate-name-error = Emoinge nde réra
 next-pay-with-heading-paypal = Ehepyme’ẽ { -brand-paypal } ndive
-# Label for the Full Name input
-payment-name-label = Téra oĩháicha nde kuatia’atãme
-payment-name-placeholder = Téra ha terajuapy
 
 ## Component - CouponForm
 
@@ -243,10 +239,6 @@ payment-method-management-save-default = Emboheko jehepyme’ẽrã ypyguárõ
 # Save button for saving a new payment method
 payment-method-management-save-method = Eñongatu mba’éichapa ehepyme’ẽta
 manage-stripe-payments-title = Eñangareko mba’éichapa ehepyme’ẽta
-
-## Payment Section
-
-next-new-user-card-title = Emoinge marandu kuatia’atã rehegua
 
 ## Component - PurchaseDetails
 

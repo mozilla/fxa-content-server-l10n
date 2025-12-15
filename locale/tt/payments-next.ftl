@@ -39,7 +39,6 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамл
 ## Checkout Form
 
 next-new-user-submit = Хәзер үк язылу
-next-payment-validate-name-error = Зинһар, исемегезне кертегез
 
 ## Component - CouponForm
 
@@ -54,10 +53,6 @@ next-coupon-submit = Куллану
 
 # Component - Header
 
-
-## Payment Section
-
-next-new-user-card-title = Кредит картагызның язуларын кертегез
 
 ## Component - PurchaseDetails
 

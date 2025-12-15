@@ -93,11 +93,7 @@ subscription-management-breadcrumb-subscriptions = Обунаҳо
 ## Checkout Form
 
 next-new-user-submit = Ҳозир обуна шавед
-next-payment-validate-name-error = Лутфан, номи пурраи худро ворид кунед
 next-pay-with-heading-paypal = Бо «{ -brand-paypal }» пардохт кунед
-# Label for the Full Name input
-payment-name-label = Номе, ки дар корти бонкии шумо чоп шудааст
-payment-name-placeholder = Номи пурра
 
 ## Component - CouponForm
 
@@ -143,10 +139,6 @@ payments-client-loading-spinner =
 # Save button for saving a new payment method
 payment-method-management-save-method = Нигоҳ доштани тарзи пардохт
 manage-stripe-payments-title = Идоракунии тарзҳои пардохт
-
-## Payment Section
-
-next-new-user-card-title = Маълумоти корти худро ворид кунед
 
 ## Component - PurchaseDetails
 

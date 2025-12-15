@@ -62,9 +62,7 @@ page-not-found-back-button = Uɣal
 ## Checkout Form
 
 next-new-user-submit = Multeɣ tura
-next-payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
 next-pay-with-heading-paypal = Xelleṣ { -brand-paypal }
-payment-name-placeholder = Isem ummid
 
 ## Component - CouponForm
 
@@ -99,10 +97,6 @@ payments-header-avatar-expanded-sign-out = Ffeɣ
 payments-client-loading-spinner =
     .aria-label = Asali…
     .alt = Asali…
-
-## Payment Section
-
-next-new-user-card-title = Sekcem talɣut-ik·im n yimayl
 
 ## Component - PurchaseDetails
 

@@ -26,11 +26,6 @@ next-payment-confirmation-invoice-date = { $invoiceDate }
 subscription-management-email-label = رایانامه
 subscription-management-button-manage-payment-method = مدیریت
 
-## Checkout Form
-
-next-payment-validate-name-error = لطفاً نام خود را وارد کنید
-payment-name-placeholder = نام کامل
-
 ## Component - CouponForm
 
 next-coupon-remove = برداشتن
@@ -43,10 +38,6 @@ payments-header-bento-close =
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-
-## Payment Section
-
-next-new-user-card-title = اطلاعات کارت خود را وارد کنید
 
 ## Component - PurchaseDetails
 

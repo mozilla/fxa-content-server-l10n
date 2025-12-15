@@ -214,11 +214,7 @@ next-payment-confirm-checkbox-error = უნდა დაასრულოთ, 
 ## Checkout Form
 
 next-new-user-submit = გამოწერა ახლავე
-next-payment-validate-name-error = გთხოვთ მიუთითოთ თქვენი სახელი
 next-pay-with-heading-paypal = გადახდისთვის გამოიყენეთ { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = სახელი ისე, როგორც თქვენს ბარათზეა
-payment-name-placeholder = სრული სახელი
 
 ## Component - CouponForm
 
@@ -267,10 +263,6 @@ payment-method-management-save-default = გადახდის ნაგუ�
 # Save button for saving a new payment method
 payment-method-management-save-method = გადახდის საშუალების დამახსოვრება
 manage-stripe-payments-title = გადახდის საშუალებების მართვა
-
-## Payment Section
-
-next-new-user-card-title = შეიყვანეთ თქვენი ბარათის ინფორმაცია
 
 ## Component - PurchaseDetails
 

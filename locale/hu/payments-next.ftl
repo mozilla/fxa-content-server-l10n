@@ -213,11 +213,7 @@ next-payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 ## Checkout Form
 
 next-new-user-submit = Előfizetés most
-next-payment-validate-name-error = Adja meg a nevét
 next-pay-with-heading-paypal = Fizetés { -brand-paypal }lal
-# Label for the Full Name input
-payment-name-label = A kártyán szereplő név
-payment-name-placeholder = Teljes név
 
 ## Component - CouponForm
 
@@ -266,10 +262,6 @@ payment-method-management-save-default = Beállítás alapértelmezett fizetési
 # Save button for saving a new payment method
 payment-method-management-save-method = Fizetési mód mentése
 manage-stripe-payments-title = Fizetési módok kezelése
-
-## Payment Section
-
-next-new-user-card-title = Adja meg a kártyaadatait
 
 ## Component - PurchaseDetails
 

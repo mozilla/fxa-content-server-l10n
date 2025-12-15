@@ -70,11 +70,7 @@ next-payment-confirm-checkbox-error = 先へ進む前に、こちらに同意し
 ## Checkout Form
 
 next-new-user-submit = サブスクリプションを購入
-next-payment-validate-name-error = お名前を入力してください。
 next-pay-with-heading-paypal = { -brand-paypal } で支払う
-# Label for the Full Name input
-payment-name-label = カードに記載されている名前
-payment-name-placeholder = フルネーム
 
 ## Component - CouponForm
 
@@ -111,10 +107,6 @@ payments-header-avatar-expanded-sign-out = ログアウト
 payments-client-loading-spinner =
     .aria-label = 読み込み中...
     .alt = 読み込み中...
-
-## Payment Section
-
-next-new-user-card-title = カード情報を入力してください
 
 ## Component - PurchaseDetails
 

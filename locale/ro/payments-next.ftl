@@ -213,11 +213,7 @@ next-payment-confirm-checkbox-error = Trebuie să termini aici ca să treci mai 
 ## Checkout Form
 
 next-new-user-submit = Abonează-mă acum
-next-payment-validate-name-error = Te rugăm să îți introduci numele
 next-pay-with-heading-paypal = Plătește cu { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Numele așa cum apare pe card
-payment-name-placeholder = Nume complet
 
 ## Component - CouponForm
 
@@ -266,10 +262,6 @@ payment-method-management-save-default = Setează ca metodă de plată implicit�
 # Save button for saving a new payment method
 payment-method-management-save-method = Salvează metoda de plată
 manage-stripe-payments-title = Gestionează metodele de plată
-
-## Payment Section
-
-next-new-user-card-title = Introdu informațiile cardului
 
 ## Component - PurchaseDetails
 

@@ -102,11 +102,7 @@ next-payment-confirm-checkbox-error = ਅੱਗੇ ਜਾਣ ਤੋਂ ਪਹਿ
 ## Checkout Form
 
 next-new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
-next-payment-validate-name-error = ਆਪਣਾ ਪੂਰਾ ਨਾਂ ਭਰੋ
 next-pay-with-heading-paypal = { -brand-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
-# Label for the Full Name input
-payment-name-label = ਨਾਂ, ਜਿਵੇਂ ਤੁਹਾਡੇ ਕਾਰਡ ਉੱਤੇ ਲਿਖਿਆ ਹੋਵੇ
-payment-name-placeholder = ਪੂਰਾ ਨਾਂ
 
 ## Component - CouponForm
 
@@ -134,10 +130,6 @@ payments-header-bento-close =
 payments-client-loading-spinner =
     .aria-label = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
     .alt = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
-
-## Payment Section
-
-next-new-user-card-title = ਆਪਣੇ ਕਾਰਡ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ
 
 ## Component - PurchaseDetails
 

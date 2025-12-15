@@ -12,10 +12,6 @@ next-basic-error-message = Нещо се обърка. Опитайте отно
 next-payment-confirmation-invoice-number = Фактура № { $invoiceNumber }
 next-payment-confirmation-details-heading-2 = Информация за плащането
 
-## Checkout Form
-
-next-payment-validate-name-error = Въведете вашето име
-
 ## Component - CouponForm
 
 next-coupon-enter-code =

@@ -44,7 +44,6 @@ next-payment-confirm-checkbox-error = Прихватите ово да бист�
 ## Checkout Form
 
 next-new-user-submit = Претплати се
-next-payment-validate-name-error = Унесите ваше име
 
 ## Component - CouponForm
 
@@ -59,10 +58,6 @@ next-coupon-submit = Примени
 
 # Component - Header
 
-
-## Payment Section
-
-next-new-user-card-title = Унесите податке са картице
 
 ## Component - PurchaseDetails
 

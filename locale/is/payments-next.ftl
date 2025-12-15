@@ -84,11 +84,7 @@ next-payment-confirm-checkbox-error = Þú þarft að ljúka þessu áður en þ
 ## Checkout Form
 
 next-new-user-submit = Gerast áskrifandi núna
-next-payment-validate-name-error = Settu inn nafnið þitt
 next-pay-with-heading-paypal = Greiða með { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Nafn eins og það birtist á kortinu þínu
-payment-name-placeholder = Fullt nafn
 
 ## Component - CouponForm
 
@@ -129,10 +125,6 @@ payments-header-avatar-expanded-sign-out = Skrá út
 payments-client-loading-spinner =
     .aria-label = Hleður…
     .alt = Hleður…
-
-## Payment Section
-
-next-new-user-card-title = Settu inn kortaupplýsingarnar þínar
 
 ## Component - PurchaseDetails
 

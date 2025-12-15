@@ -211,11 +211,7 @@ next-payment-confirm-checkbox-error = Bạn cần hoàn thành việc này trư�
 ## Checkout Form
 
 next-new-user-submit = Theo dõi ngay
-next-payment-validate-name-error = Vui lòng nhập tên của bạn
 next-pay-with-heading-paypal = Thanh toán bằng { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Tên giống như trên thẻ của bạn
-payment-name-placeholder = Họ và tên
 
 ## Component - CouponForm
 
@@ -264,10 +260,6 @@ payment-method-management-save-default = Đặt làm phương thức thanh toán
 # Save button for saving a new payment method
 payment-method-management-save-method = Lưu phương thức thanh toán
 manage-stripe-payments-title = Quản lý phương thức thanh toán
-
-## Payment Section
-
-next-new-user-card-title = Nhập thông tin thẻ của bạn
 
 ## Component - PurchaseDetails
 

@@ -40,11 +40,7 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } അക്കങ്ങ�
 ## Checkout Form
 
 next-new-user-submit = വരിക്കാരാവുക
-next-payment-validate-name-error = മുഴുവൻ പേരു് നല്കുക
 next-pay-with-heading-paypal = { -brand-paypal }-ന്റെ കൂടെ പണമടയ്ക്കുക
-# Label for the Full Name input
-payment-name-label = താങ്ങളുടെ ചീട്ടിൽ വരുന്ന പോലെ പേരു് എഴുതുക
-payment-name-placeholder = മഴുവൻ പേരു്
 
 ## Component - CouponForm
 
@@ -58,10 +54,6 @@ next-coupon-submit = പ്രയോഗിക്കുക
 payments-client-loading-spinner =
     .aria-label = ലഭ്യമാക്കുന്നു…
     .alt = ലഭ്യമാക്കുന്നു…
-
-## Payment Section
-
-next-new-user-card-title = ചീട്ടു് വിവരം നല്കുക
 
 ## Component - PurchaseDetails
 

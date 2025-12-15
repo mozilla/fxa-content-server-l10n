@@ -85,11 +85,7 @@ next-payment-confirm-checkbox-error = Hau osatu behar duzu aurrera egin aurretik
 ## Checkout Form
 
 next-new-user-submit = Harpidetu orain
-next-payment-validate-name-error = Idatzi zure izena
 next-pay-with-heading-paypal = Ordaindu { -brand-paypal } erabiliz
-# Label for the Full Name input
-payment-name-label = Izena zure txartelan agertzen den bezala
-payment-name-placeholder = Izen osoa
 
 ## Component - CouponForm
 
@@ -130,10 +126,6 @@ payments-header-avatar-expanded-sign-out = Amaitu saioa
 payments-client-loading-spinner =
     .aria-label = Kargatzen…
     .alt = Kargatzen…
-
-## Payment Section
-
-next-new-user-card-title = Sartu zure txartelaren informazioa
 
 ## Component - PurchaseDetails
 

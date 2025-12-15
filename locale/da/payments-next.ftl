@@ -188,11 +188,7 @@ next-payment-confirm-checkbox-error = Du skal fuldføre dette, før du går vide
 ## Checkout Form
 
 next-new-user-submit = Abonner nu
-next-payment-validate-name-error = Indtast dit navn
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Navn, som det vises på dit kort
-payment-name-placeholder = Fulde navn
 
 ## Component - CouponForm
 
@@ -241,10 +237,6 @@ payment-method-management-save-default = Angiv som standardbetalingsmetode
 # Save button for saving a new payment method
 payment-method-management-save-method = Gem betalingsmetode
 manage-stripe-payments-title = Håndter betalingsmetoder
-
-## Payment Section
-
-next-new-user-card-title = Indtast oplysninger om dit betalingskort
 
 ## Component - PurchaseDetails
 

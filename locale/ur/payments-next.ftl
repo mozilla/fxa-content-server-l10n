@@ -10,10 +10,6 @@ next-basic-error-message = کچھ غلط ہو گیا. براہ مہربانی ک
 
 next-payment-confirmation-download-button = ڈاؤن لوڈ جاری رکھیں
 
-## Checkout Form
-
-next-payment-validate-name-error = براہ مہربانی اپنا نام درج کریں
-
 ## Component - PurchaseDetails
 
 next-plan-details-header = مسنوعہ کی تفصیلات

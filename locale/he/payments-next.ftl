@@ -207,11 +207,7 @@ next-payment-confirm-checkbox-error = עליך להשלים זאת לפני שי
 ## Checkout Form
 
 next-new-user-submit = הרשמה כמינוי כעת
-next-payment-validate-name-error = נא להכניס את השם שלך
 next-pay-with-heading-paypal = תשלום באמצעות { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = השם כפי שהוא מופיע בכרטיס שלך
-payment-name-placeholder = שם מלא
 
 ## Component - CouponForm
 
@@ -260,10 +256,6 @@ payment-method-management-save-default = הגדרה כאמצעי התשלום ב
 # Save button for saving a new payment method
 payment-method-management-save-method = שמירת אמצעי תשלום
 manage-stripe-payments-title = ניהול אמצעי תשלום
-
-## Payment Section
-
-next-new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 
 ## Component - PurchaseDetails
 

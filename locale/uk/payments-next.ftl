@@ -85,11 +85,7 @@ next-payment-confirm-checkbox-error = Необхідно завершити це
 ## Checkout Form
 
 next-new-user-submit = Передплатити
-next-payment-validate-name-error = Будь ласка, введіть своє ім’я
 next-pay-with-heading-paypal = Сплатити через { -brand-paypal }
-# Label for the Full Name input
-payment-name-label = Повне ім'я, зазначене на вашій картці
-payment-name-placeholder = Повне ім'я
 
 ## Component - CouponForm
 
@@ -130,10 +126,6 @@ payments-header-avatar-expanded-sign-out = Вийти
 payments-client-loading-spinner =
     .aria-label = Завантаження…
     .alt = Завантаження…
-
-## Payment Section
-
-next-new-user-card-title = Введіть дані своєї картки
 
 ## Component - PurchaseDetails
 

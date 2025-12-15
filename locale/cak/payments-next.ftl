@@ -32,7 +32,6 @@ next-payment-confirmation-cc-card-ending-in = K'isb'en pa { $last4 } ri tarjeta'
 ## Checkout Form
 
 next-new-user-submit = Tatz'ib'aj ab'i' wakami
-next-payment-validate-name-error = Tatz'ib'aj ab'i'
 
 ## Component - CouponForm
 

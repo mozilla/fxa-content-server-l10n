@@ -110,11 +110,7 @@ next-payment-confirm-checkbox-error = Алға жылжу алдында осы�
 ## Checkout Form
 
 next-new-user-submit = Қазір жазылу
-next-payment-validate-name-error = Атыңызды енгізіңіз
 next-pay-with-heading-paypal = { -brand-paypal } арқылы төлеу
-# Label for the Full Name input
-payment-name-label = Картаңызда көрсетілгендей атыңыз
-payment-name-placeholder = Толық аты
 
 ## Component - CouponForm
 
@@ -161,10 +157,6 @@ payments-client-loading-spinner =
 # Save button for saving a new payment method
 payment-method-management-save-method = Төлем әдісін сақтау
 manage-stripe-payments-title = Төлем әдістерін басқару
-
-## Payment Section
-
-next-new-user-card-title = Карта ақпаратын енгізіңіз
 
 ## Component - PurchaseDetails
 
