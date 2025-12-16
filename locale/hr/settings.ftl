@@ -387,6 +387,7 @@ password-strength-inline-passwords-match = Lozinke se podudaraju
 
 account-recovery-notification-cta = Stvori
 recovery-phone-promo-cta = Dodaj telefonski broj za obnavljanje
+recovery-phone-promo-heading = Dodaj dodatnu zaštitu svom računu pomoću telefona za oporavak
 promo-banner-dismiss-button =
     .aria-label = Ukloni natpis
 
@@ -442,6 +443,8 @@ flow-recovery-key-hint-char-limit-error = Savjet mora sadržati manje od 255 zna
 password-reset-warning-icon = Upozorenje
 password-reset-chevron-expanded = Sklopi upozorenje
 password-reset-chevron-collapsed = Rasklopi upozorenje
+password-reset-data-may-not-be-recovered = Podaci tvog preglednika se možda neće oporaviti
+password-reset-previously-signed-in-device-2 = Imaš neki uređaj na kojem si se prethodno prijavio/la?
 password-reset-warning-have-key = Imaš ključ za obnavljanje računa?
 password-reset-warning-use-key-link = Upotrijebi ga sada za ponovno postavljanje lozinke i zadržavanje podataka
 
@@ -474,6 +477,12 @@ bento-menu-made-by-mozilla = Stvorila { -brand-mozilla }
 
 connect-another-fx-mobile = Nabavi { -brand-firefox } na mobitelu ili tabletu
 connect-another-find-fx-mobile-2 = Pronađi { -brand-firefox } u { -google-play } i { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Preuzmi { -brand-firefox } na { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Preuzmi { -brand-firefox } na { -app-store }
 
 ## Connected services section
 
@@ -483,6 +492,11 @@ cs-cannot-refresh =
     Žao nam je. Došlo je do greške prilikom osvježavanja popisa
     povezanih usluga.
 cs-cannot-disconnect = Klijent nije pronađen; nije moguće prekinuti vezu
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Mozilla accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Odjavljen/a si s usluge { $service }
 cs-refresh-button =
     .title = Osvježi povezane usluge
 # Link text to a support page on missing or duplicate devices
@@ -576,6 +590,47 @@ flow-recovery-key-info-cta-text-v3 = Započni
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Odustani
 
+## FlowSetup2faApp
+
+flow-setup-2fa-qr-heading = Poveži se s aplikacijom za autentifikaciju
+flow-setup-2fa-cant-scan-qr-button = Ne možeš snimiti QR kod?
+flow-setup-2fa-manual-key-heading = Upiši kod ručno
+flow-setup-2fa-scan-qr-instead-button = Umjesto toga snimiti QR kod?
+flow-setup-2fa-button = Nastavi
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+flow-setup-2fa-backup-choice-phone-title = Telefon za oporavak
+flow-setup-2fa-backup-choice-phone-badge = Najjednostavnije
+flow-setup-2fa-backup-choice-code-badge = Najsigurnije
+
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+flow-setup-2fa-backup-code-confirm-code-input = Upiši deseteroznamenkasti kod
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Završi
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-button-continue = Nastavi
+
+##
+
+flow-setup-2fa-inline-complete-success-banner = Dvofaktorska autentifikacija je omogućena
+flow-setup-2fa-inline-complete-backup-code = Autentifikacijski kodovi za sigurnosno kopiranje
+flow-setup-2fa-inline-complete-backup-phone = Telefon za oporavak
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Preostao je { $count } kod
+        [few] Preostala su { $count } koda
+       *[other] Preostalo je { $count } kodova
+    }
+
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-confirm-code-input-label = Upiši šesteroznamenkasti kod
@@ -584,9 +639,13 @@ flow-setup-phone-confirm-code-button = Potvrdi
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Kod je istekao?
 flow-setup-phone-confirm-code-resend-code-button = Ponovo pošalji kod
+flow-setup-phone-confirm-code-resend-code-success = Kod je poslan
+flow-setup-phone-confirm-code-success-message-v2 = Telefonski broj za oporavak je dodan
+flow-change-phone-confirm-code-success-message = Telefonski broj za oporavak je promijenjen
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Potvrdi svoj broj telefona
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Pošalji kod
 
