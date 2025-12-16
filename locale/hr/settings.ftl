@@ -287,6 +287,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobilni uređaj s mogućnostima slanja SMS poruka
 backup-authentication-codes-image-aria-label =
     .aria-label = Ekran uređaja s kodovima
+sync-clouds-image-aria-label =
+    .aria-label = Oblaci s ikonom sinkronizacije
 confetti-falling-image-aria-label =
     .aria-label = Animirani padajući konfeti
 
@@ -360,6 +362,8 @@ confirmation-link-reused-message = Ta poveznica za potvrdu već je korištena i 
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Odaberi jezik
+locale-toggle-browser-default = Zadana postavka preglednika
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Neispravan zahtjev
 
@@ -372,10 +376,12 @@ password-info-balloon-reset-risk-info = Resetiranje znači potencijalno gubljenj
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-short-instruction = Odaberi snažnu lozinku:
 password-strength-inline-min-length = Barem 8 znakova
 password-strength-inline-not-email = Nije tvoja e-mail adresa
 password-strength-inline-not-common = Nije često korištena lozinka
 password-strength-inline-confirmed-must-match = Potvrda odgovara novoj lozinci
+password-strength-inline-passwords-match = Lozinke se podudaraju
 
 ## Notification Promo Banner component
 

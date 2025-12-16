@@ -1,5 +1,8 @@
 loyalty-discount-terms-heading = Uvjeti i ograničenja
 loyalty-discount-terms-support = Kontaktiraj podršku
+not-found-page-title-terms = Stranica nije pronađena
+not-found-page-description-terms = Stranica koju tražiš ne postoji.
+not-found-page-button-terms-manage-subscriptions = Upravljaj pretplatama
 
 ## Page
 
@@ -44,7 +47,11 @@ next-payment-error-retry-button = Pokušaj ponovo
 next-basic-error-message = Nešto nije u redu. Pokušaj kasnije ponovo.
 checkout-error-contact-support-button = Kontaktiraj podršku
 checkout-error-not-eligible = Ne ispunjavaš uvjete za pretplatu na ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
+checkout-error-already-subscribed = Već imaš pretplatu na ovaj proizvod.
 checkout-error-contact-support = Kontaktiraj podršku kako bismo ti pomogli.
+cart-error-currency-not-determined = Nismo uspjeli odrediti valutu za ovu kupnju, pokušaj ponovo.
+checkout-processing-general-error = Dogodila se neočekivana greška tijekom obrade tvoje uplate, pokušaj ponovo.
+cart-total-mismatch-error = Iznos računa se promijenio. Pokušaj ponovo.
 
 ## Error pages - Payment method failure messages
 
@@ -128,6 +135,7 @@ subscription-management-iap-sub-expires-on-expiry-date = Isteče { $date }
 subscription-management-button-manage-subscription-aria = Upravljaj pretplatom na { $productName }
 subscription-management-button-manage-subscription-1 = Upravljaj pretplatom
 error-payment-method-banner-title-expired-card = Istekla kartica
+error-payment-method-banner-label-update-payment-method = Aktualiziraj način plaćanja
 error-payment-method-banner-title-invalid-payment-information = Neispravni podaci za plaćanje
 error-payment-method-banner-message-account-issue = Postoji problem s tvojim računom.
 subscription-management-button-manage-payment-method-1 = Upravljaj načinom plaćanja
@@ -148,6 +156,11 @@ subscription-management-breadcrumb-subscriptions = Pretplate
 subscription-management-breadcrumb-payment-2 = Upravljaj načinima plaćanja
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Vrati se na stranicu { $page }
+
+## CancelSubscription
+
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Otkaži pretplatu na { $productName }
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
@@ -255,6 +268,9 @@ next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo z
 
 ## $productName (String) - The name of the subscribed product.
 
+resubscribe-dialog-title = Želiš nastaviti koristiti { $productName }?
+subscription-content-button-resubscribe = Obnovi pretplatu
+    .aria-label = Obnovi pretplatu na { $productName }
 resubscribe-success-dialog-title = Hvala! Sve je spremno.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
@@ -303,6 +319,7 @@ next-subscription-processing-title = Potvrđivanje pretplate…
 next-subscription-error-title = Pogreška pri potvrđivanju pretplate…
 subscription-title-sub-exists = Već si pretplaćen/a
 subscription-title-plan-change-heading = Pregledaj svoju promjenu
+subscription-title-not-supported = Ova promjena plana pretplate nije podržana
 next-sub-guarantee = 30-dnevno jamstvo povrata novca
 
 ## Component - TermsAndPrivacy
@@ -345,11 +362,15 @@ metadata-title-checkout-processing = Obrada | { $productTitle }
 metadata-description-checkout-processing = Pričekaj da završimo obradu tvoje uplate.
 # Checkout error
 metadata-title-checkout-error = Greška | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = Potrebna je radnja | { $productTitle }
+metadata-description-checkout-needs-input = Završi potrebnu radnju za nastavljanje s plaćanjem.
 # Upgrade start
 metadata-title-upgrade-start = Nadogradi | { $productTitle }
 metadata-description-upgrade-start = Upiši svoje informacije za plaćanje za dovršavanje nadogradnje.
 # Upgrade processing
 metadata-title-upgrade-processing = Obrada | { $productTitle }
+metadata-description-upgrade-processing = Pričekaj da završimo obradu tvoje uplate.
 # Upgrade error
 metadata-title-upgrade-error = Greška | { $productTitle }
 # Upgrade success
