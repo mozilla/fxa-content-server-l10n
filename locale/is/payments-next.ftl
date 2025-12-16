@@ -75,8 +75,11 @@ subscription-management-page-banner-warning-title-no-payment-method = Engin grei
 subscription-management-page-banner-warning-link-no-payment-method = Bæta við greiðslumáta
 subscription-management-payment-method-label = Greiðslumáti
 subscription-management-button-add-payment-method-aria = Bæta við greiðslumáta
+subscription-management-page-warning-message-no-payment-method = Bættu við greiðslumáta til að koma í veg fyrir truflanir á áskriftunum þínum.
 subscription-management-button-manage-payment-method-aria = Sýsla með greiðslumáta
+error-payment-method-banner-message-add-new-card = Bættu við nýju greiðslukorti eða greiðslumáta til að koma í veg fyrir truflanir á áskriftunum þínum.
 error-payment-method-banner-label-update-payment-method = Uppfæra greiðslumáta
+error-payment-method-expired-card = Kortið þitt er útrunnið. Bættu við nýju korti eða greiðslumáta til að koma í veg fyrir truflanir á áskriftunum þínum.
 subscription-management-button-manage-payment-method-1 = Sýsla með greiðslumáta
 manage-payment-methods-heading = Sýsla með greiðslumáta
 # Page - Not Found

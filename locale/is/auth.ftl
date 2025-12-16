@@ -589,6 +589,7 @@ subscriptionPaymentFailed-title = Því miður, við eigum í vandræðum með g
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Við höfum fundið vandamál varðandi síðustu greiðslu þína vegna { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Það kann að vera að greiðslumátinn þinn sé útrunninn eða að fyrirliggjandi greiðslumáti þinn sé úreltur.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Uppfærsla greiðsluupplýsinga er nauðsynleg fyrir { $productName }
@@ -596,6 +597,7 @@ subscriptionPaymentProviderCancelled-title = Því miður, við eigum í vandræ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Við höfum fundið vandamál varðandi greiðslumátann þinn fyrir { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Það kann að vera að greiðslumátinn þinn sé útrunninn eða að fyrirliggjandi greiðslumáti þinn sé úreltur.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Áskrift að { $productName } hefur verið endurvirkjuð
@@ -625,10 +627,13 @@ subscriptionRenewalReminder-content-closing = Með bestu kveðjum,
 subscriptionRenewalReminder-content-signature = { $productName }-teymið
 subscriptionReplaced-title = Áskriftin þín hefur verið uppfærð
 subscriptionReplaced-content-no-action = Þú þarft ekki að gera neitt.
+subscriptionsPaymentExpired-subject-2 = Greiðslumátinn fyrir áskriftirnar þínar er útrunninn eða rennur út bráðlega
 subscriptionsPaymentExpired-title-2 = Greiðslumátinn þinn er útrunninn eða er við það að renna út
+subscriptionsPaymentExpired-content-2 = Greiðslumátinn sem þú notar til að greiða fyrir eftirfarandi áskriftir er útrunninn eða er við það að renna út.
 subscriptionsPaymentProviderCancelled-subject = Uppfærsla greiðsluupplýsinga er nauðsynleg fyrir { -brand-mozilla }-áskriftir
 subscriptionsPaymentProviderCancelled-title = Því miður, við eigum í vandræðum með greiðslumátann þinn
 subscriptionsPaymentProviderCancelled-content-detected = Við höfum fundið vandamál varðandi greiðslumátann þinn fyrir eftirfarandi áskriftir.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Það kann að vera að greiðslumátinn þinn sé útrunninn eða að fyrirliggjandi greiðslumáti þinn sé úreltur.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Greiðsla fyrir { $productName } móttekin
