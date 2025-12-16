@@ -1728,5 +1728,13 @@ confirm-signup-code-desktop-relay = { -brand-firefox } mun reyna að senda þig 
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = Lykilorð er nauðsynlegt til að stýra huldum póstföngum þínum á öruggan hátt og fá aðgang að öryggisverkfærum { -brand-mozilla }.
+signup-sync-info-with-payment = Samstilltu lykilorð, greiðslumáta, bókamerki og fleira, alls staðar þar sem þú notar { -brand-firefox }.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Breyta tölvupóstfangi
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Lykilorð, greiðslumáta, netföng, bókamerki, vafurferilog fleira er hægt að samstilla alls staðar þar sem þú notar { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Lykilorð, netföng, bókamerki, vafurferil og fleira er hægt að samstilla alls staðar þar sem þú notar { -brand-firefox }.

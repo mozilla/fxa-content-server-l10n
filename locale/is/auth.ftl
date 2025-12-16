@@ -625,6 +625,7 @@ subscriptionRenewalReminder-content-closing = Með bestu kveðjum,
 subscriptionRenewalReminder-content-signature = { $productName }-teymið
 subscriptionReplaced-title = Áskriftin þín hefur verið uppfærð
 subscriptionReplaced-content-no-action = Þú þarft ekki að gera neitt.
+subscriptionsPaymentExpired-title-2 = Greiðslumátinn þinn er útrunninn eða er við það að renna út
 subscriptionsPaymentProviderCancelled-subject = Uppfærsla greiðsluupplýsinga er nauðsynleg fyrir { -brand-mozilla }-áskriftir
 subscriptionsPaymentProviderCancelled-title = Því miður, við eigum í vandræðum með greiðslumátann þinn
 subscriptionsPaymentProviderCancelled-content-detected = Við höfum fundið vandamál varðandi greiðslumátann þinn fyrir eftirfarandi áskriftir.

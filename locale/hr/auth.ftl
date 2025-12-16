@@ -105,7 +105,7 @@ ios-download-plaintext = Preuzmi { $productName } na App Storeu:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Instaliraj { $productName } na jedan drugi uređaj:
 automated-email-change-2 = Ako nisi poduzeo/la ovu radnju, odmah <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>.
-automated-email-support = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }„Podrška”</a>.
+automated-email-support = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla } podrške</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Ako nisi poduzeo/la ovu radnju, odmah promijeni lozinku:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
@@ -142,7 +142,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Ovaj je zahtjev došao
 automatedEmailRecoveryKey-origin-device-OS-only = Ovaj je zahtjev došao od { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Ako to nisi bio/la ti, <a data-l10n-name="revokeAccountRecoveryLink">izbriši novi ključ</a> i <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>.
 automatedEmailRecoveryKey-change-pwd-only = Ako to nisi bio/la ti, <a data-l10n-name="passwordChangeLink">promijeni lozinku</a>.
-automatedEmailRecoveryKey-more-info = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }„Podrška”</a>.
+automatedEmailRecoveryKey-more-info = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla } podrške</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Ovaj je zahtjev došao od:
 # Colon is followed by a URL to the account recovery key section of account settings
@@ -154,7 +154,7 @@ automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ako to nisi bio/la 
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = i promijeni lozinku:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške:
-automated-email-reset = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, <a data-l10n-name="resetLink">promijeni lozinku</a>. Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }podrške</a>.
+automated-email-reset = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la ovu radnju, <a data-l10n-name="resetLink">promijeni lozinku</a>. Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla } podrške</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Ako nisi odobrio/la ovu radnju, resetiraj lozinku sada na { $resetLink }
@@ -277,7 +277,7 @@ subscriptionUpdatePayment = Za sprečavanje prekida korištenja usluge <a data-l
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-3 = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }„Podrška”</a>.
+support-message-3 = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla } podrške</a>.
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške: { $supportUrl }

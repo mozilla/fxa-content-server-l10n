@@ -71,10 +71,23 @@ next-payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
 
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = Engin greiðslumáta bætt við
+subscription-management-page-banner-warning-link-no-payment-method = Bæta við greiðslumáta
+subscription-management-payment-method-label = Greiðslumáti
+subscription-management-button-add-payment-method-aria = Bæta við greiðslumáta
+subscription-management-button-manage-payment-method-aria = Sýsla með greiðslumáta
+error-payment-method-banner-label-update-payment-method = Uppfæra greiðslumáta
+subscription-management-button-manage-payment-method-1 = Sýsla með greiðslumáta
+manage-payment-methods-heading = Sýsla með greiðslumáta
 # Page - Not Found
 page-not-found-title = Síða fannst ekki
 page-not-found-description = Síðan sem þú baðst um fannst ekki. Við höfum fengið tilkynningu og munum fara í að lagfæra þá tengla sem eru bilaðir.
 page-not-found-back-button = Til baka
+
+## Navigation breadcrumbs
+
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Sýsla með greiðslumáta
 
 ## Component - Payment Consent Checkbox
 
@@ -125,6 +138,14 @@ payments-header-avatar-expanded-sign-out = Skrá út
 payments-client-loading-spinner =
     .aria-label = Hleður…
     .alt = Hleður…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Setja sem sjálfgefinn greiðslumáta
+# Save button for saving a new payment method
+payment-method-management-save-method = Vista greiðslumáta
+manage-stripe-payments-title = Sýsla með greiðslumáta
 
 ## Component - PurchaseDetails
 
