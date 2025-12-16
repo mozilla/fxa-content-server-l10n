@@ -181,6 +181,25 @@ payment-plan-charged = Innheimt: { $invoiceTotal } þann { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Næsti reikningur: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Greiðslumáti:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Greiðslumáti: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Greiðslumáti: { $cardName } kort sem endar á { $lastFour }
+payment-provider-card-ending-in-plaintext = Greiðslumáti: Kort sem endar á { $lastFour }
+payment-provider-card-ending-in = <b>Greiðslumáti:</b> Kort sem endar á { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Greiðslumáti:</b> { $cardName } kort sem endar á { $lastFour }
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
@@ -556,6 +575,13 @@ subscriptionFirstInvoice-content-processing = Greiðslan þín er í vinnslu og 
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = Þú færð sérstakan tölvupóst um hvernig eigi að byrja að nota { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Greiðslumáti fyrir { $productName } er útrunnið eða rennur út fljótlega
+subscriptionPaymentExpired-title-2 = Greiðslumátinn þinn er útrunninn eða er við það að renna út
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Greiðslumátinn sem þú notar til að greiða fyrir { $productName } er útrunnið eða er við það að renna út.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Greiðsla fyrir { $productName } mistókst

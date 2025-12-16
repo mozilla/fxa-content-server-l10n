@@ -733,7 +733,7 @@ verifyLoginCode-title-2 = Jesi li se prijavio/la na { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Pomogni nam zaštiti tvoj račun odobravanjem prijave na:
 verifyLoginCode-prompt-3 = Ako da, ovdje je tvoj autorizacijski kod:
-verifyLoginCode-expiry-notice = Istječe za 5 minuta.
+verifyLoginCode-expiry-notice = Isteče za 5 minuta.
 verifyPrimary-title-2 = Potvrdi primarnu e-mail adresu
 verifyPrimary-description = Zahtjev za izvršavanje promjene računa upućen je sa sljedećeg uređaja:
 verifyPrimary-subject = Potvrdi primarnu e-mail adresu
