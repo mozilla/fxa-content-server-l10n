@@ -81,6 +81,7 @@ error-payment-method-banner-message-add-new-card = Bættu við nýju greiðsluko
 error-payment-method-banner-label-update-payment-method = Uppfæra greiðslumáta
 error-payment-method-expired-card = Kortið þitt er útrunnið. Bættu við nýju korti eða greiðslumáta til að koma í veg fyrir truflanir á áskriftunum þínum.
 subscription-management-button-manage-payment-method-1 = Sýsla með greiðslumáta
+subscription-management-error-payment-method = Það eru vandræði með greiðslumátann þinn. Leystu þetta vandamál til að viðhalda virkum áskriftum þínum.
 manage-payment-methods-heading = Sýsla með greiðslumáta
 # Page - Not Found
 page-not-found-title = Síða fannst ekki
