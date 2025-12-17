@@ -24,8 +24,8 @@ upgrade-page-acknowledgment = Pe tembiaporape iñambuéta ha ojehepyme’ẽta n
 ## Authentication Error page
 
 auth-error-page-title = Ndaikatúikuri roike
-checkout-error-boundary-retry-button = Eha’ãjey
-checkout-error-boundary-basic-error-message = Oĩ osẽvaíva. Eha’ãjey upéi térã <contactSupportLink>eñe’ẽ pytyvõha renda ndive</contactSupportLink>.
+checkout-error-boundary-retry-button = Eha’ã jey
+checkout-error-boundary-basic-error-message = Oĩ osẽvaíva. Eha’ã jey upéi térã <contactSupportLink>eñe’ẽ pytyvõha renda ndive</contactSupportLink>.
 amex-logo-alt-text = { -brand-amex } ra’ãnga’i
 diners-logo-alt-text = { -brand-diner } ra’ãnga’i
 discover-logo-alt-text = { -brand-discover } ra’ãnga’i
@@ -45,25 +45,25 @@ google-pay-logo-alt-text = { -brand-google-pay } ra’ãnga’i
 
 next-payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 next-iap-blocked-contact-support = Eñemboheraguapy pumbyry rembiporu’ípe ndojokupytýiva ko apopyre ndive. Eñe’ẽ pytyvõha aty ndive roipytyvõkuaa hag̃ua.
-next-payment-error-retry-button = Eha’ãjey
-next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
+next-payment-error-retry-button = Eha’ã jey
+next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ã jey ag̃amieve.
 checkout-error-contact-support-button = Eheka Ñepytyvõha
 checkout-error-not-eligible = Ndaikatúi eñemboheraguapy ko apopyrépe; eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃uáicha.
 checkout-error-already-subscribed = Eñemboheraguapýma ko apopyrépe g̃uarã.
 checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa hag̃ua.
-cart-error-currency-not-determined = Ndoroikuaái mba’e virúpa eguereko ejogua hag̃ua, ikatúpa eha’ãjey ag̃ave.
-checkout-processing-general-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey ag̃amieve.
+cart-error-currency-not-determined = Ndoroikuaái mba’e virúpa eguereko ejogua hag̃ua, ikatúpa eha’ã jey ag̃ave.
+checkout-processing-general-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey ag̃amieve.
 cart-total-mismatch-error = Pe kuatia ñemure ohupytýra iñambue. Eha’ã jey ag̃ave.
 
 ## Error pages - Payment method failure messages
 
-intent-card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuatia’atã ñemurã rehegua ha eha’ãjey uperire.
+intent-card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuatia’atã ñemurã rehegua ha eha’ã jey uperire.
 intent-expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
 intent-payment-error-try-again = Épa. Oiko apañuái ehepyme’ẽnguévo. Eha’ã jey térã eñe’ẽ pya’eterei nde kuatia’atã meẽha ndive.
 intent-payment-error-get-in-touch = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’eterei nde kuatia’atã me’ẽha ndive.
 intent-payment-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperireve.
 intent-payment-error-insufficient-funds = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
-general-paypal-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Ikatúpiko eha’ãjey uperire.
+general-paypal-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Ikatúpiko eha’ã jey uperire.
 paypal-active-subscription-no-billing-agreement-error = Ha’ete ku oĩva apañuái emonguatiávo nde { -brand-paypal } mba’etépe. Ikatúpiko emyandy jey jehepyme’ẽ ijeheguíva ne ñemboheraguapyrã.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
@@ -328,7 +328,7 @@ subscription-content-button-cancel-subscription = Ejheja mboheraguapy
 ##
 
 dialog-close = Emboty ñomongeta
-subscription-content-cancel-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ãjey ag̃ave.
+subscription-content-cancel-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -424,7 +424,7 @@ metadata-description-default = Ndojejuhúi upe kuatiarogue ojehekáva.
 
 next-coupon-error-cannot-redeem = Pe ayvu ehaiva’ekue ndaikatumoiã oñemboaje — ne mba’ete oñemboheraguapýma peteĩva umi ore mba’eporúpe.
 next-coupon-error-expired = Pe ayvu emoingéva ndoikovéima.
-next-coupon-error-generic = Oiko jejavy emomba’apóvo pe ayvu. Eha’ãjey ag̃amieve.
+next-coupon-error-generic = Oiko jejavy emomba’apóvo pe ayvu. Eha’ã jey ag̃amieve.
 next-coupon-error-invalid = Pe ayvu emoingéva ndoikovéima.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Pe ayvu emoingéva og̃uahẽma hu’ãme.

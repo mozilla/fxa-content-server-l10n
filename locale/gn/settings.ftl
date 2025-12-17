@@ -338,7 +338,7 @@ signin-link-damaged-header = Juajuha hechajeyha oñembyai
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Juajuha ndoikóiva
 # The user followed a link received by email, but the link was damaged.
-reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
+reset-pwd-link-damaged-message = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ã jey uperire.
 
 ## LinkExpired component
 
@@ -804,7 +804,7 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 page-2fa-change-title = Emombue ñemboaje mokõi jeku’egua
 page-2fa-change-success = Oñembohekopyahúma ñemboaje mokõi jeku’egua
-page-2fa-change-totpinfo-error = Oiko jejavy emyengoviávo tembiporu’i ñemoneĩha mokõi jeku’egua. Eha’ãjey ag̃ave.
+page-2fa-change-totpinfo-error = Oiko jejavy emyengoviávo tembiporu’i ñemoneĩha mokõi jeku’egua. Eha’ã jey ag̃ave.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -830,9 +830,9 @@ tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã ñongatujeyrã ndoikói
 ## Page2faSetup
 
 page-2fa-setup-title = Ñemoneĩ mokõi jeku’épe
-page-2fa-setup-totpinfo-error = Oiko jejavy embohekokuévo ñemoneĩ mokõi jeku’egua. Eha’ãjey ag̃amieve.
+page-2fa-setup-totpinfo-error = Oiko jejavy embohekokuévo ñemoneĩ mokõi jeku’egua. Eha’ã jey ag̃amieve.
 # code here refers to "backup authentication code"
-page-2fa-setup-incorrect-backup-code-error = Pe ayvu naiporãi. Eha’ãjey ag̃amieve.
+page-2fa-setup-incorrect-backup-code-error = Pe ayvu naiporãi. Eha’ã jey ag̃amieve.
 page-2fa-setup-success = Oñembojurujáma ñemoneĩ mokõi jeku’egua
 page-2fa-setup-success-additional-message = Emo’ãmbaite hag̃ua ne mba’e’okakuéra jeikepyre, embotypaite’arã opaite tenda eiporuhápe ko mba’ete ha upéi eike jey ñemoneĩ mokõi jeku’egua rupive.
 
@@ -1274,13 +1274,13 @@ auth-error-105-2 = Ayvu ñemoneĩrã oiko’ỹva
 auth-error-110 = Token oiko’ỹva
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
-auth-error-114-generic = Eiporuse heta jeýma. Ikatúpiko eha’ãjey ag̃amieve.
+auth-error-114-generic = Eiporuse heta jeýma. Ikatúpiko eha’ã jey ag̃amieve.
 # This string is the amount of time required before a user can attempt another request.
 # Variables:
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
-auth-error-114 = Eiporuse heta jeýma. Eha’ãjey { $retryAfter }-pe.
+auth-error-114 = Eiporuse heta jeýma. Eha’ã jey { $retryAfter }-pe.
 auth-error-125 = Ojejokóma ko mba’ejerure tekorosãrãve
 auth-error-129-2 = Ehaíma peteĩ pumbyry papapy ndovaléiva. Ehechajey ha eha’ã ag̃amie.
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
@@ -1294,7 +1294,7 @@ auth-error-156 = Ndojejuhúi ayvu ñemoneĩrã jeykekoha
 auth-error-159 = Mba’eñemi jeguerujeyrã ndoikóiva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-202 = Tembiapoite ijuruja’ỹva
-auth-error-203 = Apopyvusu ndoikói, eha’ãjey ag̃ave
+auth-error-203 = Apopyvusu ndoikói, eha’ã jey ag̃ave
 auth-error-206 = Neremoheñoikuaái ñe’ẽñemi, pe ñe’ẽñemi ipyendáma
 auth-error-214 = Pe pumbyry papapy guerujeyrã oĩmavoi
 auth-error-215 = Pumbyry papapy guerujeyrã noĩri gueteri
@@ -1324,7 +1324,7 @@ auth-error-1067 = ¿Ñanduti veve ojehaivai?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Papapy opáva { $lastFourPhoneNumber }-pe
-oauth-error-1000 = Oĩ ndoikóiva. Emboty ko tendayke ha eha’ãjey.
+oauth-error-1000 = Oĩ ndoikóiva. Emboty ko tendayke ha eha’ã jey.
 
 ## Connect Another Device page
 
@@ -1359,7 +1359,7 @@ connect-another-device-ios-complete-setup-message = Emoñepyrũ tembiapo { -bran
 cookies-disabled-header = Eikotevẽ ñembyaty pepeguáva ha kookie
 cookies-disabled-enable-prompt-2 = Emyandy umi kookie ha ñembyatyha pypegua ne kundahárape eikekuaa hag̃ua { -product-mozilla-account }-pe. Ejapóramo péicha, hendýta tembiapoite nemomandu’átava ne rembiapo pa’ũme.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
-cookies-disabled-button-try-again = Eha’ãjey
+cookies-disabled-button-try-again = Eha’ã jey
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Kuaave
 
@@ -1685,7 +1685,7 @@ reset-password-recovery-phone-locked-out-link = ¿Rejehejáma okápe?
 reset-password-recovery-phone-send-code-error-heading = Oiko apañuái emondokuévo pe ayvu
 reset-password-recovery-phone-code-verification-error-heading = Oiko peteĩ apañuái ehechajeývo ayvu
 # Follows the error message (e.g, "There was a problem sending a code")
-reset-password-recovery-phone-general-error-description = Eha’ãjey ag̃amieve.
+reset-password-recovery-phone-general-error-description = Eha’ã jey ag̃amieve.
 reset-password-recovery-phone-invalid-code-error-description = Pe ayvu naiporãi térã ndoikovéima.
 reset-password-recovery-phone-invalid-code-error-link = ¿Eiporu ayvu ñemoneĩrã jeykekoha hendaguépe?
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
@@ -1736,7 +1736,7 @@ signin-account-locked-banner-link = Erujey ne ñe’ẽñemi eike hag̃ua
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
-report-signin-link-damaged-body = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire.
+report-signin-link-damaged-body = Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ã jey uperire.
 report-signin-header = ¿Emomarandu jeike ñemoneĩ’ỹva?
 report-signin-body = Og̃uahẽ ndéve ñanduti veve peteĩ jeikese ne mba’etépe rehegua. ¿Emombe’usépa ko tembiapo ivaikuaávaramo?
 report-signin-submit-button = Emomarandu tembiaporã
@@ -1812,7 +1812,7 @@ signin-recovery-code-required-error = Ayvu ñemoneĩrã jeykekoha jerurepyre
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Oiko apañuái emondóvo pe ayvu ne pumbyry jeguerujeyrãme
-signin-recovery-code-use-phone-failure-description = Eha’ãjey ag̃amieve.
+signin-recovery-code-use-phone-failure-description = Eha’ã jey ag̃amieve.
 
 ## SigninRecoveryPhone page
 
@@ -1831,7 +1831,7 @@ signin-recovery-phone-locked-out-link = ¿Nderejáma okápe?
 signin-recovery-phone-send-code-error-heading = Oiko peteĩ apañuái emondóvo pe ayvu
 signin-recovery-phone-code-verification-error-heading = Oiko peteĩ apañuái ehechajeývo ayvu.
 # Follows the error message (e.g, "There was a problem sending a code")
-signin-recovery-phone-general-error-description = Eha’ãjey ag̃amieve.
+signin-recovery-phone-general-error-description = Eha’ã jey ag̃amieve.
 signin-recovery-phone-invalid-code-error-description = Pe ayvu naiporãi térã ndoikovéima
 signin-recovery-phone-invalid-code-error-link = ¿Eiporu ayvu ñemoneĩrã jeykekoha hendaguépe?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.

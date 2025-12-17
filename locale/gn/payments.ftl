@@ -15,7 +15,7 @@ coupon-promo-code-applied = Ayvu ñemoherakuãgua japopyre
 coupon-submit = Jejapopy
 coupon-remove = Mboguete
 coupon-error = Pe ayvu emoĩva ndoikói térã hi’arapaháma.
-coupon-error-generic = Oiko jejavy emomba’apóvo ayvu. Ikatúiko eha’ãjey ag̃ave.
+coupon-error-generic = Oiko jejavy emomba’apóvo ayvu. Ikatúiko eha’ã jey ag̃ave.
 coupon-error-expired = Pe ayvu emoingéva ndoikovéima.
 coupon-error-limit-reached = Pe ayvu emoingéva og̃uahẽma hu’ãme.
 coupon-error-invalid = Pe ayvu emoingéva ndoikovéima.
@@ -105,7 +105,7 @@ payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 ## Component - PaymentErrorView
 
-payment-error-retry-button = Eha’ãjey
+payment-error-retry-button = Eha’ã jey
 payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 
 ## Component - PaymentErrorView - IAP upgrade errors
@@ -347,10 +347,10 @@ plan-price-interval-year =
 
 # App error dialog
 general-error-heading = Tembiporu’i jejavypaite
-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
-payment-error-1 = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’eterei nde kuatia’atã me’ẽha ndive.
+basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ã jey ag̃amieve.
+payment-error-1 = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eha’ã jey térã eñe’ẽ pya’eterei nde kuatia’atã me’ẽha ndive.
 payment-error-2 = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
-payment-error-3b = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey uperire.
+payment-error-3b = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperire.
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
 insufficient-funds-error = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
 withdrawal-count-limit-exceeded-error = Ko ne ñemungue ohasáma pe viru eguerekóvape. Eiporu ambue kuatia’atã.
@@ -358,7 +358,7 @@ charge-exceeds-source-limit = Ko ne ñemungue ohasáma pe viru peteĩ aragua egu
 instant-payouts-unsupported = Nde kuatia’atã viruñongatuha ndahekói jehepyme’ẽrãicha. Eiporu kuatia’atã viruñongatuha térã ñemurãva.
 duplicate-transaction = Épa. Oñemondoramoite peteĩ mba’e ojueheguaitéva. Ehecha ne ñehepyme’ẽ rembiasakue.
 coupon-expired = Pe ayvu jekuaaukarã ndoikovéima.
-card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuatia’atã ñemurã rehegua ha eha’ãjey uperire.
+card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuatia’atã ñemurã rehegua ha eha’ã jey uperire.
 country-currency-mismatch = Pe viru ko ñemboheraguapy pegua ndoikói pe tetã ehepyme’ẽseha peguápe.
 currency-currency-mismatch = Rombyasy. Ndakatúi emoambue virukuéra pa’ũme.
 location-unsupported = Ne rendatee ag̃agua noñemoneĩri he’iháicha ore Remiñemi Porureko.
@@ -368,7 +368,7 @@ iap-already-subscribed = Eñemboheraguapýma { $mobileAppStore } rupive.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Peteĩ apopyvusu ndoikóiva ojavyka { $productName } jehaipy. Mba’éichapa ehepyme’ẽta nahenyhẽiramo gueteri. Eha’ã ag̃ave.
 fxa-post-passwordless-sub-error = Mboheraguapy moneĩmbyre, hákatu kuatiarogue ñemoneĩ nahenyhẽkuaái. Ehecha ne ñanduti veve emboheko hag̃ua ne mba’ete.
-newsletter-signup-error = Nereiméi ñanduti veve apopyre ñembohekopyahúpe g̃uarã. Eha’ãjey ag̃ave ne mba’ete ñembohekópe.
+newsletter-signup-error = Nereiméi ñanduti veve apopyre ñembohekopyahúpe g̃uarã. Eha’ã jey ag̃ave ne mba’ete ñembohekópe.
 product-plan-error =
     .title = Apañuái emyanyhẽvo tembiaporã
 product-profile-error =

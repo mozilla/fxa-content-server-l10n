@@ -290,7 +290,7 @@ msgstr "Pe juajuha eiporavóva ehechajey hag̃ua mba’ete ndoikovéima."
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr "Eiporuse heta jeýma. Eha’ãjey ag̃ave."
+msgstr "Eiporuse heta jeýma. Eha’ã jey ag̃ave."
 
 #: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
@@ -478,7 +478,7 @@ msgstr "Ko mba’ejerure oikotevẽ ñemboaje mokõi jeku’e ijurujáva mba’e
 
 #: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
-msgstr "Ojavy mba’ejerure omoapañuáiva rupi, eha’ãjey ag̃ave."
+msgstr "Ojavy mba’ejerure omoapañuáiva rupi, eha’ã jey ag̃ave."
 
 #: .es5/lib/auth-errors.js:258
 msgid "Unknown customer for subscription."
@@ -502,7 +502,7 @@ msgstr "Ñemboheraguapy ojejokóma"
 
 #: .es5/lib/auth-errors.js:278
 msgid "Update was rejected, please try again"
-msgstr "Oñemboyke ñemboheko, ikatpupa eha’ãjey"
+msgstr "Oñemboyke ñemboheko, ikatpupa eha’ã jey"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
@@ -510,7 +510,7 @@ msgstr "Ayvu ñemoneĩrã ndoikói térã hekoru’ãma"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
-msgstr "Mohendahavusu ojeporu, eha’ãjey upéi"
+msgstr "Mohendahavusu ojeporu, eha’ã jey upéi"
 
 #: .es5/lib/auth-errors.js:290
 msgid "Feature not enabled"
@@ -519,7 +519,7 @@ msgstr "Tembiapoite ijuruja’ỹva"
 #: .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:310 .es5/lib/oauth-errors.js:111 .es5/lib/oauth-errors.js:115 .es5/lib/oauth-errors.js:119
 #: .es5/lib/profile-errors.js:37 .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr "Apopyvusu ndoikói, eha’ãjey upéi"
+msgstr "Apopyvusu ndoikói, eha’ã jey upéi"
 
 #: .es5/lib/auth-errors.js:302
 msgid "This endpoint is no longer supported"
@@ -775,7 +775,7 @@ msgstr "Token oiko’ỹva"
 
 #: .es5/lib/oauth-errors.js:127
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "Oĩ ndoikóiva. Emboty ko tendayke ha eha’ãjey."
+msgstr "Oĩ ndoikóiva. Emboty ko tendayke ha eha’ã jey."
 
 #: .es5/lib/oauth-errors.js:146
 msgid "no message"
@@ -811,7 +811,7 @@ msgstr "Ojavy oikévo mba’e’oka okayguápe"
 
 #: .es5/lib/pairing-channel-client-errors.js:50
 msgid "Connection to remote device closed, please try again"
-msgstr "Mba’e’oka okayguápe jeike oñemboty, eha’ãjey uperire"
+msgstr "Mba’e’oka okayguápe jeike oñemboty, eha’ã jey uperire"
 
 #: .es5/lib/profile-errors.js:25
 msgid "Invalid parameter in request body: %(param)s"
@@ -932,7 +932,7 @@ msgstr "Juajuha eguerujey hag̃ua ñe’ẽñemi oñembyai"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ãjey uperire."
+msgstr "Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ã jey uperire."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1903,7 +1903,7 @@ msgstr "Eiko apañuai’ỹre &mdash; ani eiporujey ñe’ẽñemi. Eporandu ñe
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Ehechápa, oĩ apañuái apopyvusúpe. Romba’apohína romoĩporã hag̃ua ha rombyasy ko oikóvare. Eha’ãjey uperire."
+msgstr "Ehechápa, oĩ apañuái apopyvusúpe. Romba’apohína romoĩporã hag̃ua ha rombyasy ko oikóvare. Eha’ã jey uperire."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"
