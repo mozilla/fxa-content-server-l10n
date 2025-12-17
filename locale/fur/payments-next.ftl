@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Tiermins e limitazions
+loyalty-discount-terms-support = Contate la assistence
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Contante la assistence par { $productName }
+not-found-page-title-terms = Pagjine no cjatade
+not-found-page-description-terms = La pagjine che tu stâs cirint no esist.
+not-found-page-button-terms-manage-subscriptions = Gjestìs i abonaments
+
 ## Page
 
 checkout-signin-or-create = 1. Jentre o cree un { -product-mozilla-account }
@@ -95,9 +103,23 @@ next-payment-confirmation-download-button = Continue par discjariâ
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Abonament no cjatât
+not-found-description-subscriptions = No vin podût cjatâ il to abonament. Torne prove o contate la assistence.
+not-found-button-back-to-subscriptions = Torne ai abonaments
+
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = Nissun metodi di paiament zontât
+subscription-management-page-banner-warning-link-no-payment-method = Zonte un metodi di paiament
 subscription-management-subscriptions-heading = Abonaments
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Va a
+subscription-management-nav-payment-details = Detais di paiament
+subscription-management-nav-active-subscriptions = Abonament atîfs
+subscription-management-payment-details-heading = Detais di paiament
+subscription-management-email-label = E-mail
 subscription-management-button-add-payment-method-aria = Zonte metodi di paiament
 subscription-management-button-add-payment-method = Zonte
 subscription-management-button-manage-payment-method-aria = Gjestìs metodi di paiament
@@ -113,6 +135,7 @@ subscription-management-your-apple-iap-subscriptions-aria = I tiei abonaments te
 subscription-management-your-google-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-google }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gjestìs abonaments par { $productName }
+subscription-management-button-manage-payment-method-1 = Gjestìs metodi di paiament
 paypal-payment-management-page-invalid-header = Informazions di faturazion no validis
 paypal-payment-management-page-invalid-description = Al somee che al sedi un erôr cul to account { -brand-paypal }. Par risolvi chest probleme di paiament, al covente che tu fasedis chescj passaçs.
 # Page - Not Found

@@ -489,6 +489,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Tu âs ancje zontât i codi
 postAddTwoStepAuthentication-recovery-method-phone = Tu âs ancje zontât { $maskedPhoneNumber } tant che telefon pal recupar dal account.
 postAddTwoStepAuthentication-how-protects-link = Cemût che al jude a protezi il to account
 postAddTwoStepAuthentication-how-protects-plaintext = Cemût che al jude a protezi il to account:
+postAddTwoStepAuthentication-device-sign-out-message = Par protezi ducj i tiei dispositîfs conetûts, tu scugnis disconetiti di ducj i dispositîfs là che tu dopris chest account, dopo tornâ a jentrâ doprant la autenticazion in doi passaçs.
 postChangeAccountRecovery-subject = Clâf di recupar dal account cambiade
 postChangeAccountRecovery-title = Tu âs modificât la clâf di recupar dal account
 postChangeAccountRecovery-body-part1 = Cumò tu âs une gnove clâf di recupar dal account. La clâf di prime e je stade eliminade.
@@ -514,6 +515,7 @@ postChangeTwoStepAuthentication-from-device = Tu le âs domandade di:
 postChangeTwoStepAuthentication-action = Gjestìs account
 postChangeTwoStepAuthentication-how-protects-link = Cemût che al jude a protezi il to account
 postChangeTwoStepAuthentication-how-protects-plaintext = Cemût che al jude a protezi il to account:
+postChangeTwoStepAuthentication-device-sign-out-message = Par protezi ducj i tiei dispositîfs conetûts, tu scugnis disconetiti di ducj i dispositîfs là che tu dopris chest account, dopo tornâ a jentrâ doprant la tô gnove autenticazion in doi passaçs.
 postConsumeRecoveryCode-title-3 = Il codiç di autenticazion di backup al è stât doprât par confermâ il ripristinament de password
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
