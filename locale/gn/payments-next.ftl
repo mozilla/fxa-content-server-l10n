@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Ñe’ẽita ha mba’ejoko
+loyalty-discount-terms-support = Eñe’ẽ pytyvõhándi
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Eñe’ẽ pytyvõhándi { $productName }-pe g̃uarã
+not-found-page-title-terms = Kuatiarogue ojejuhu’ỹva
+not-found-page-description-terms = Ko kuatiarogue ehekáva ndaiporivéima.
+not-found-page-button-terms-manage-subscriptions = Mboheraguapy ñangareko
+
 ## Page
 
 checkout-signin-or-create = 1. Eñepyrũ tembiapo térã emoheñói { -product-mozilla-account }
@@ -95,6 +103,11 @@ next-payment-confirmation-download-button = Emboguejy ehóvo
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
+## Not found page
+
+not-found-title-subscriptions = Mboheraguapy ojejuhu’ỹva
+not-found-button-back-to-subscriptions = Ejevy moheraguapyhápe
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ndaipóri mba’éicha ehepyme’ẽta
@@ -173,6 +186,8 @@ subscription-cancellation-dialog-title = Ore rombyasy ehohaguére
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Ne ñemboheraguapy { $name } pegua ojejokóma. Eikekuaáta gueteri { $name }-pe { $date } peve.
 subscription-cancellation-dialog-aside = Eporandusépa. Eike <LinkExternal>{ -brand-mozilla } Pytyvõha</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Eheja mboheraguapy { $productName }-pe
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -181,6 +196,11 @@ subscription-content-no-longer-use-message = Ndojeporukuaamo’ãi { $productNam
 subscription-content-cancel-access-message =
     Ehejarei aikeha ha che mba’ekuaarã ñongatupyre
     { $productName } pegua { $currentPeriodEnd } guive
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Eheja mboheraguapy
+    .aria-label = Eheja ne mboheraguapy { $productName }-pe
 
 ## Component - Payment Consent Checkbox
 
