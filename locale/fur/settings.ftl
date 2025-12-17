@@ -803,6 +803,7 @@ nav-email-comm = Comunicazions vie e-mail
 
 page-2fa-change-title = Cambie la autenticazion in doi passaçs
 page-2fa-change-success = La autenticazion in doi passaçs e je stade inzornade
+page-2fa-change-success-additional-message = Par protezi ducj i tiei dispositîfs conetûts, tu scugnis disconetiti di ducj i tiei dispositîfs là che tu dopris chest account, dopo torne jentre doprant la gnove autenticazion in doi passaçs.
 page-2fa-change-totpinfo-error = Al è vignût fûr un erôr tal sostituî la tô aplicazion di autenticazion in doi passaçs. Torne prove plui indevant.
 page-2fa-change-qr-instruction = <strong>Passaç 1:</strong> scansione chst codiç QR doprant une aplicazion di autenticazion, come Duo o Google Authenticator. Cheste operazion e cree une gnove conession, dutis lis conessions esistentis a smetaran di funzionâ.
 
@@ -834,6 +835,7 @@ page-2fa-setup-totpinfo-error = Al è vignût fûr un erôr tal configurâ la au
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Chel codiç nol è just. Torne prove.
 page-2fa-setup-success = La autenticazion in doi passaçs e je stade ativade
+page-2fa-setup-success-additional-message = Par protezi ducj i tiei dispositîfs conetûts, tu scugnis disconetiti di ducj i dispositîfs là che tu dopris chest account, dopo torne jentre doprant la autenticazion in doi passaçs.
 
 ## Avatar change page
 
@@ -909,6 +911,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizazion dâts in { -brand-firefox }
 delete-account-product-firefox-addons = Components adizionâi in { -brand-firefox }
 delete-account-acknowledge = Eliminant il to account tu ricognossis che:
+delete-account-chk-box-1-v4 =
+    .label = Ducj i abonaments paiâts che tu âs a vignaran anulâts
 delete-account-chk-box-2 =
     .label = Tu podaressis pierdi cualchi dât e funzionalitât che a fasin part dai prodots { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -1039,6 +1043,7 @@ verify-secondary-email-please-enter-code-2 = Inserìs dentri di 5 minûts il cod
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = Direzion { $email } zontade cun sucès
+verify-secondary-email-resend-code-button = Torne mande il codiç di conferme
 
 ##
 
@@ -1281,6 +1286,9 @@ auth-error-125 = La richieste e je stade blocade par motîfs di sigurece
 auth-error-129-2 = Tu âs inserît un numar di telefon che nol è valit. Controlilu e torne prove.
 auth-error-138-2 = Session no confermade
 auth-error-139 = La e-mail secondarie e à di sei diferente di chê principâl dal to account
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Cheste direzion e-mail e je riservade par un altri account. Torne prove plui indevant o dopre une altre direzion e-mail.
 auth-error-155 = Gjeton TOTP no cjatât
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Codiç di autenticazion di backup no cjatât
@@ -1868,6 +1876,11 @@ signin-totp-code-header = Jentre
 signin-totp-code-subheader-v2 = Inserìs il codiç di autenticazion in doi passaçs
 signin-totp-code-instruction-v4 = Controle la <strong>aplicazion di autenticazion</strong> par confermâ l’acès.
 signin-totp-code-input-label-v4 = Inserìs il codiç a 6 cifris
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Parcè ti vegnial domandât di autenticâti?
+signin-totp-code-aal-banner-content = Tu âs configurade la autenticazion in doi passaçs pal to account, ma l’acès cun codiç a chest dispositîf nol è ancjemò mai stât fat.
+signin-totp-code-aal-sign-out = Disconetiti su chest dispositîf
+signin-totp-code-aal-sign-out-error = Nus displâs, al è vignût fûr un probleme tal disconetiti
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferme
 signin-totp-code-other-account-link = Dopre un altri account
