@@ -671,6 +671,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Continue
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Autenticazion in doi passaçs ativade
+flow-setup-2fa-inline-complete-success-banner-description = Par protezi ducj i tiei dispositîfs conetûts, tu scugnis disconetiti di ducj i tiei dispositîfs là che tu dopris chest account, dopo torne jentre doprant la gnove autenticazion in doi passaçs.
 flow-setup-2fa-inline-complete-backup-code = Codiçs di autenticazion di backup
 flow-setup-2fa-inline-complete-backup-phone = Telefon pal recupar dal account
 # $count (Number) - an integer representing the number of backup

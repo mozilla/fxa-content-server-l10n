@@ -316,9 +316,18 @@ next-new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par cre
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Desideristu continuâ a doprâ { $productName }?
+stay-subscribed-access-will-continue = Tu continuarâs a vê acès a { $productName } e il cicli di faturazion e il paiament no varan modifichis.
 subscription-content-button-resubscribe = Torne aboniti
     .aria-label = Torne aboniti a { $productName }
 resubscribe-success-dialog-title = Graciis! Dut pront.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Il prossim adebit al sarà di { $nextInvoiceTotal } + { $taxDue } tassis al/ai { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Il prossim adebit al sarà di { $nextInvoiceTotal } al/ai { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -330,6 +339,17 @@ resubscribe-success-dialog-title = Graciis! Dut pront.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = Al vignarà aplicât un scont di { $promotionName }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Ultime fature • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } tassis
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Visualize fature
+subscription-management-link-view-invoice-aria = Visualize fature par { $productName }
+subscription-content-expires-on-expiry-date = E scjât al/ai { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Prossime fature • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } tassis
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Reste abonât
     .aria-label = Reste abonât a { $productName }
 subscription-content-button-cancel-subscription = Cancele abonament
@@ -338,6 +358,7 @@ subscription-content-button-cancel-subscription = Cancele abonament
 ##
 
 dialog-close = Siere dialic
+button-back-to-subscriptions = Torne ai abonaments
 subscription-content-cancel-action-error = Al è vignût fûr un erôr inspietât. Torne prove.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
@@ -438,3 +459,12 @@ next-coupon-error-generic = Al è capitât un erôr te elaborazion dal codiç. T
 next-coupon-error-invalid = Il codiç inserît nol è valit.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Il codiç inserît al è rivât al so limit.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Cheste ufierte e je scjadude.
+stay-subscribed-error-discount-used = Codiç di scont za aplicât.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Chest scont al è disponibil nome par chei che a son za abonâts a { $productTitle }.
+stay-subscribed-error-still-active = Il to abonament a { $productTitle } al è ancjemò atîf.
+stay-subscribed-error-general = Al è vignût fûr un probleme cu la sprolungje dal abonament.
