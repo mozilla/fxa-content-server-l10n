@@ -157,7 +157,9 @@ error-payment-method-banner-message-account-issue = Al è vignût fûr un proble
 subscription-management-button-manage-payment-method-1 = Gjestìs metodi di paiament
 subscription-management-error-apple-pay = Al è vignût fûr un probleme cul to account { -brand-apple-pay }. Risolf il probleme par mantignî atîfs i abonaments.
 subscription-management-error-google-pay = Al è vignût fûr un probleme cul to account { -brand-google-pay }. Risolf il probleme par mantignî atîfs i abonaments.
+subscription-management-error-link = Al è vignût fûr un probleme cul to account { -brand-link }. Risolf il probleme par mantignî atîfs i abonaments.
 subscription-management-error-paypal-billing-agreement = Al è vignût fûr un probleme cul to account { -brand-paypal }. Risolf il probleme par mantignî atîfs i abonaments.
+subscription-management-error-payment-method = Al è vignût fûr un probleme cul to metodi di paiament. Risolf il probleme par mantignî atîfs i abonaments.
 manage-payment-methods-heading = Gjestìs metodis di paiament
 paypal-payment-management-page-invalid-header = Informazions di faturazion no validis
 paypal-payment-management-page-invalid-description = Al somee che al sedi un erôr cul to account { -brand-paypal }. Par risolvi chest probleme di paiament, al covente che tu fasedis chescj passaçs.
@@ -185,12 +187,21 @@ subscription-cancellation-dialog-title = Nus displâs di vioditi lâ vie
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Il to abonament a { $name } al è stât anulât. Tu podarâs distès acedi a { $name } fin ai { $date }.
 subscription-cancellation-dialog-aside = Âstu domandis? Visite il sît pal <LinkExternal>supuart di { -brand-mozilla }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Cancele l’abonament a { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = No tu rivarâs plui a doprâ { $productName } dopo { $currentPeriodEnd }, l'ultin dì dal cicli di faturazion.
 subscription-content-cancel-access-message = Scancele il gno acès e gjave lis informazions salvadis in { $productName } prime dai { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Cancele abonament
+    .aria-label = Cancele il to abonament a { $productName }
+cancel-subscription-button-stay-subscribed = Reste abonât
+    .aria-label = Reste abonât a { $productName }
 
 ## Component - Payment Consent Checkbox
 
