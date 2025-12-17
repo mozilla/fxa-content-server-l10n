@@ -120,22 +120,45 @@ subscription-management-nav-payment-details = Detais di paiament
 subscription-management-nav-active-subscriptions = Abonament atîfs
 subscription-management-payment-details-heading = Detais di paiament
 subscription-management-email-label = E-mail
+subscription-management-credit-balance-label = Credit residui
+subscription-management-credit-balance-message = Il credit al vignarà aplicât in automatic tes prossimis faturis
+subscription-management-payment-method-label = Metodi di paiament
 subscription-management-button-add-payment-method-aria = Zonte metodi di paiament
 subscription-management-button-add-payment-method = Zonte
+subscription-management-page-warning-message-no-payment-method = Zonte un metodi di paiament par evitâ interuzions al to abonament.
 subscription-management-button-manage-payment-method-aria = Gjestìs metodi di paiament
 subscription-management-button-manage-payment-method = Gjestìs
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = La cjarte e che e finìs cun { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Al scjât al/ai { $expirationDate }
+subscription-management-active-subscriptions-heading = Abonament atîfs
+subscription-management-you-have-no-active-subscriptions = No tu âs abonaments atîfs
+subscription-management-new-subs-will-appear-here = I gnûfs abonaments a vignaran fûr achì.
+subscription-management-your-active-subscriptions-aria = I tiei abonaments atîfs
 subscription-management-button-support = Oten jutori
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Oten jutori par { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Compris te aplicazion { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-google }
+subscription-management-google-in-app-purchase-2 = Compris te aplicazion { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Al scjât al/ai { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gjestìs abonaments par { $productName }
+subscription-management-button-manage-subscription-1 = Gjestìs abonament
+error-payment-method-banner-title-expired-card = Cjarte scjadude
+error-payment-method-banner-message-add-new-card = Zonte une gnove cjarte o un gnûf metodi di paiament par evitâ interuzions ai tiei abonaments.
+error-payment-method-banner-label-update-payment-method = Inzorne metodi di paiament
+error-payment-method-expired-card = La cjarte e je scjadude. Zonte une gnove cjate o un gnûf metodi di paiament par evitâ interuzions ai tiei abonaments.
+error-payment-method-banner-title-invalid-payment-information = Informazions di paiament no validis
+error-payment-method-banner-message-account-issue = Al è vignût fûr un probleme cul to account.
 subscription-management-button-manage-payment-method-1 = Gjestìs metodi di paiament
+subscription-management-error-apple-pay = Al è vignût fûr un probleme cul to account { -brand-apple-pay }. Risolf il probleme par mantignî atîfs i abonaments.
+subscription-management-error-google-pay = Al è vignût fûr un probleme cul to account { -brand-google-pay }. Risolf il probleme par mantignî atîfs i abonaments.
+subscription-management-error-paypal-billing-agreement = Al è vignût fûr un probleme cul to account { -brand-paypal }. Risolf il probleme par mantignî atîfs i abonaments.
+manage-payment-methods-heading = Gjestìs metodis di paiament
 paypal-payment-management-page-invalid-header = Informazions di faturazion no validis
 paypal-payment-management-page-invalid-description = Al somee che al sedi un erôr cul to account { -brand-paypal }. Par risolvi chest probleme di paiament, al covente che tu fasedis chescj passaçs.
 # Page - Not Found
