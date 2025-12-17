@@ -201,6 +201,8 @@ subscription-content-cancel-access-message =
 
 cancel-subscription-button-cancel-subscription = Eheja mboheraguapy
     .aria-label = Eheja ne mboheraguapy { $productName }-pe
+cancel-subscription-button-stay-subscribed = Ani eheja mboheraguapy
+    .aria-label = Eike mboheraguapýpe { $productName } ndive
 
 ## Component - Payment Consent Checkbox
 
@@ -348,6 +350,7 @@ subscription-content-button-cancel-subscription = Ejheja mboheraguapy
 ##
 
 dialog-close = Emboty ñomongeta
+button-back-to-subscriptions = Ejevy moheraguapyhápe
 subscription-content-cancel-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
