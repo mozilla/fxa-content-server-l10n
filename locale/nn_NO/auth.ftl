@@ -46,8 +46,8 @@ moz-accounts-terms-url = Tenestevilkår for { -product-mozilla-accounts(capitali
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Dette er ei automatisk e-postmelding: Dersom du har motteke denne e-posten ved en feil, treng du ikkje å gjera noko.
-subplat-privacy-notice = Personvernmerknad
-subplat-privacy-plaintext = Personvernmerknad:
+subplat-privacy-notice = Personvernfråsegn
+subplat-privacy-plaintext = Personvernfråsegn:
 subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
