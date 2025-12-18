@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Zrušit předplatné
 dialog-close = Zavřít dialog
 button-back-to-subscriptions = Zpět na předplatné
 subscription-content-cancel-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
+paypal-unavailable-error = { -brand-paypal } je momentálně nedostupný. Použijte prosím jinou možnost platby nebo to zkuste znovu.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

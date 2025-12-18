@@ -362,6 +362,7 @@ subscription-content-button-cancel-subscription = Előfizetés lemondása
 dialog-close = Párbeszédablak bezárása
 button-back-to-subscriptions = Vissza az előfizetésekhez
 subscription-content-cancel-action-error = Váratlan hiba történt. Próbálja meg újra.
+paypal-unavailable-error = { -brand-paypal } jelenleg nem érhető el. Válasszon másik fizetési lehetőséget, vagy próbálja újra később.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

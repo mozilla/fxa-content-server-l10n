@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
 dialog-close = Cau deialog
 button-back-to-subscriptions = Nôl i danysgrifiadau
 subscription-content-cancel-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
+paypal-unavailable-error = Nid yw { -brand-paypal } ar gael ar hyn o bryd. Defnyddiwch opsiwn talu arall neu rhowch gynnig arall arni'n nes ymlaen.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
