@@ -365,6 +365,7 @@ subscription-content-button-cancel-subscription = Abonement wupowědźić
 dialog-close = Dialog začinić
 button-back-to-subscriptions = Wróćo k abonementam
 subscription-content-cancel-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
+paypal-unavailable-error = { -brand-paypal } tuchwilu k dispoziciji njeje. Prošu wužiwajće druhu płaćensku móžnosć abo spytajće pozdźišo hišće raz.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
