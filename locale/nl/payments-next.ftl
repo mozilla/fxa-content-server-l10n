@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Abonnement opzeggen
 dialog-close = Dialoogvenster sluiten
 button-back-to-subscriptions = Terug naar abonnementen
 subscription-content-cancel-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
+paypal-unavailable-error = { -brand-paypal } is momenteel niet beschikbaar. Gebruik een andere betalingsoptie of probeer het later opnieuw.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
