@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Huỷ gói đăng ký
 dialog-close = Đóng hộp thoại
 button-back-to-subscriptions = Quay lại gói đăng ký
 subscription-content-cancel-action-error = Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
+paypal-unavailable-error = { -brand-paypal } hiện tại không khả dụng. Vui lòng sử dụng phương thức thanh toán khác hoặc thử lại sau.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
