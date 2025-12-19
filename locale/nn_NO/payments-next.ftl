@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Avbryt abonnementet
 dialog-close = Lat att dialogboks
 button-back-to-subscriptions = Tilbake til abonnementa
 subscription-content-cancel-action-error = Det oppstod ein uventa feil. Prøv på nytt.
+paypal-unavailable-error = { -brand-paypal } er akkurat no utilgjengeleg. Bruk eit anna betalingsalternativ eller prøv på nytt seinare.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
