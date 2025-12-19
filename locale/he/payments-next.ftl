@@ -353,6 +353,7 @@ subscription-content-button-cancel-subscription = לבטל את המינוי
 dialog-close = סגירת תיבת דוח־שיח
 button-back-to-subscriptions = חזרה למינויים
 subscription-content-cancel-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
+paypal-unavailable-error = ‏{ -brand-paypal } אינו זמין כעת. נא להשתמש באפשרות תשלום אחר או לנסות שוב מאוחר יותר.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
