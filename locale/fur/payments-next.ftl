@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Cancele abonament
 dialog-close = Siere dialic
 button-back-to-subscriptions = Torne ai abonaments
 subscription-content-cancel-action-error = Al è vignût fûr un erôr inspietât. Torne prove.
+paypal-unavailable-error = Pal moment { -brand-paypal } nol è disponibil. Dopre une altre opzion di paiament opûr prove plui tart.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

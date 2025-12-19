@@ -362,6 +362,7 @@ subscription-content-button-cancel-subscription = Anulează abonamentul
 dialog-close = Închide caseta de dialog
 button-back-to-subscriptions = Înapoi la abonamente
 subscription-content-cancel-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
+paypal-unavailable-error = { -brand-paypal } nu este disponibil momentan. Te rugăm să folosești altă opțiune de plată sau să încerci din nou mai târziu.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
