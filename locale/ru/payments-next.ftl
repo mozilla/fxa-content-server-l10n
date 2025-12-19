@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Отменить подпис�
 dialog-close = Закрыть окно
 button-back-to-subscriptions = Вернуться к подпискам
 subscription-content-cancel-action-error = Произошла непредвиденная ошибка. Повторите попытку.
+paypal-unavailable-error = { -brand-paypal } в данное время недоступен. Пожалуйста, используйте другой способ оплаты или повторите попытку позже.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
