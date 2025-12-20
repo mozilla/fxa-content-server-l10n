@@ -1,3 +1,5 @@
+loyalty-discount-terms-heading = 이용 약관
+
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account }를 생성하거나 로그인하세요
