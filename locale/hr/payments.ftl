@@ -528,14 +528,14 @@ pay-update-manage-btn = Upravljaj
 
 sub-next-bill = Sljedeće naplaćivanje { $date }
 sub-next-bill-due-date = Sljedeći račun dospijeva { $date }
-sub-expires-on = Isteče { $date }
+sub-expires-on = Ističe { $date }
 
 ## Routes - Subscription - PaymentUpdate
 
 
 # $expirationDate (Date) - The payment card's expiration date.
 
-pay-update-card-exp = Isteče { $expirationDate }
+pay-update-card-exp = Ističe { $expirationDate }
 sub-route-idx-updating = Aktualiziranje podataka naplate …
 sub-route-payment-modal-heading = Nevaljane informacije o plaćanju
 sub-route-payment-modal-message-2 = Čini se da postoji greška s tvojim { -brand-paypal } računom. Moraš poduzeti potrebne korake za rješavanje ovog problema plaćanja.
