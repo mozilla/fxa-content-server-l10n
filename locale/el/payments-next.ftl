@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Ακύρωση συνδρομ�
 dialog-close = Κλείσιμο διαλόγου
 button-back-to-subscriptions = Επιστροφή στις συνδρομές
 subscription-content-cancel-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
+paypal-unavailable-error = Το { -brand-paypal } δεν είναι διαθέσιμο προς το παρόν. Χρησιμοποιήστε κάποια άλλη μέθοδο πληρωμής ή δοκιμάστε ξανά αργότερα.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
