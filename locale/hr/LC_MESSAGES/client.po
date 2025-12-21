@@ -2088,7 +2088,7 @@ msgstr "Upari pomoću aplikacije"
 
 #: .es5/templates/pair/unsupported.mustache:10
 msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Je li koristiš kameru sustava? Upariti moraš iz Firefox aplikacije."
+msgstr "Koristiš li kameru sustava? Upariti moraš iz Firefox aplikacije."
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
