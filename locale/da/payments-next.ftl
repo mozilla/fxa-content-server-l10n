@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Vilkår og begrænsninger
+loyalty-discount-terms-support = Kontakt support
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Kontakt support for { $productName }
+not-found-page-title-terms = Siden blev ikke fundet
+not-found-page-description-terms = Den side, du leder efter, findes ikke.
+not-found-page-button-terms-manage-subscriptions = Håndter abonnementer
+
 ## Page
 
 checkout-signin-or-create = 1. Log ind eller opret en { -product-mozilla-account }
@@ -95,6 +103,12 @@ next-payment-confirmation-download-button = Fortsæt til hentning
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Abonnement ikke fundet
+not-found-description-subscriptions = Vi kunne ikke finde dit abonnement. Prøv igen, eller kontakt support.
+not-found-button-back-to-subscriptions = Tilbage til abonnementer
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmetode tilføjet
@@ -179,6 +193,11 @@ subscription-cancellation-dialog-aside = Har du spørgsmål? Besøg <LinkExterna
 
 subscription-content-no-longer-use-message = Du vil ikke længere kunne bruge { $productName } efter { $currentPeriodEnd }, der er den sidste dag i din faktureringsperiode.
 subscription-content-cancel-access-message = Annuller min adgang og kassér mine informationer gemt i { $productName } den { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-stay-subscribed = Fortsæt abonnement
+    .aria-label = Fortsæt abonnement på { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -293,9 +312,17 @@ next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Vil du fortsætte med at bruge { $productName }?
+stay-subscribed-access-will-continue = Din adgang til { $productName } vil fortsætte, og din faktureringsperiode og betaling vil forblive den samme.
 subscription-content-button-resubscribe = Abonner igen
     .aria-label = Abonner på { $productName } igen
 resubscribe-success-dialog-title = Tak! Du er klar.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-no-tax = Din næste opkrævning er på { $nextInvoiceTotal } den { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -326,7 +353,9 @@ subscription-content-button-cancel-subscription = Annuller abonnement
 ##
 
 dialog-close = Luk dialogboks
+button-back-to-subscriptions = Tilbage til abonnementer
 subscription-content-cancel-action-error = Der opstod en uventet fejl. Prøv igen.
+paypal-unavailable-error = { -brand-paypal } er i øjeblikket ikke tilgængelig. Brug en anden betalingsmulighed eller prøv igen senere.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -426,3 +455,11 @@ next-coupon-error-generic = Der opstod en fejl under behandlingen af koden. Prø
 next-coupon-error-invalid = Den indtastede kode er ugyldig.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Den indtastede kode kan ikke bruges mere.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Dette tilbud er udløbet.
+stay-subscribed-error-discount-used = Rabatkode er allerede anvendt.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Denne rabat er kun tilgængelig for nuværende { $productTitle }-abonnenter.
+stay-subscribed-error-still-active = Dit abonnement på { $productTitle } er stadig aktivt.
