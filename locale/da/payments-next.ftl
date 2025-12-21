@@ -187,6 +187,8 @@ subscription-cancellation-dialog-title = Vi er kede af, at du opsiger dit abonne
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Dit abonnement på { $name } er blevet annulleret. Du har adgang til { $name } frem til { $date }.
 subscription-cancellation-dialog-aside = Har du spørgsmål? Besøg <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Opsig abonnement på { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -196,6 +198,8 @@ subscription-content-cancel-access-message = Annuller min adgang og kassér mine
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
+cancel-subscription-button-cancel-subscription = Opsig abonnement
+    .aria-label = Opsig dit abonnement på { $productName }
 cancel-subscription-button-stay-subscribed = Fortsæt abonnement
     .aria-label = Fortsæt abonnement på { $productName }
 
@@ -322,6 +326,7 @@ resubscribe-success-dialog-title = Tak! Du er klar.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
+stay-subscribed-next-charge-with-tax = Din næste opkrævning er på { $nextInvoiceTotal } + { $taxDue } i afgifter den { $currentPeriodEnd }.
 stay-subscribed-next-charge-no-tax = Din næste opkrævning er på { $nextInvoiceTotal } den { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
@@ -463,3 +468,4 @@ stay-subscribed-error-discount-used = Rabatkode er allerede anvendt.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Denne rabat er kun tilgængelig for nuværende { $productTitle }-abonnenter.
 stay-subscribed-error-still-active = Dit abonnement på { $productTitle } er stadig aktivt.
+stay-subscribed-error-general = Der opstod et problem med at forny dit abonnement.
