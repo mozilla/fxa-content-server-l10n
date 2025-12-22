@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Abonnemint opsizze
 dialog-close = Dialoochfinster slute
 button-back-to-subscriptions = Tebek nei abonneminten
 subscription-content-cancel-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
+paypal-unavailable-error = { -brand-paypal } is op dit stuit net beskikber. Brûk in oare betelmetoade of probearje it letter opnij.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
