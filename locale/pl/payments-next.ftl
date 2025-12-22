@@ -101,12 +101,22 @@ next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 
 
 ## Not found page
 
-not-found-title-subscriptions = Nie odnaleziono subskrypcji.
+not-found-title-subscriptions = Nie odnaleziono subskrypcji
+not-found-description-subscriptions = Nie znaleźliśmy Twojej subskrypcji. Spróbuj ponownie lub skontaktuj się z pomocą techniczną.
+not-found-button-back-to-subscriptions = Wróć do subskrypcji
 
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nie dodano żadnej metody płatności
+subscription-management-page-banner-warning-link-no-payment-method = Dodaj metodę płatności
 subscription-management-subscriptions-heading = Subskrypcje
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Przejdź do
+subscription-management-nav-payment-details = Informacje o płatności
+subscription-management-nav-active-subscriptions = Aktywne subskrypcje
+subscription-management-payment-details-heading = Informacje o płatności
+subscription-management-email-label = E-mail
+subscription-management-credit-balance-label = Saldo kredytowe
 subscription-management-button-add-payment-method-aria = Dodaj metodę płatności
 subscription-management-button-add-payment-method = Dodaj
 subscription-management-button-manage-payment-method-aria = Zarządzaj metodą płatności
@@ -120,7 +130,9 @@ subscription-management-your-apple-iap-subscriptions-aria = Twoje subskrypcje w�
 subscription-management-your-google-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-google }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Zarządzaj subskrypcją { $productName }
+subscription-management-button-manage-subscription-1 = Zarządzaj subskrypcją
 subscription-management-button-manage-payment-method-1 = Zarządzaj metodą płatności
+manage-payment-methods-heading = Zarządzaj metodami płatności
 paypal-payment-management-page-invalid-header = Nieprawidłowe dane płatnicze
 # Page - Not Found
 page-not-found-title = Nie odnaleziono strony
