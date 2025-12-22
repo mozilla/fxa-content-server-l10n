@@ -1,3 +1,7 @@
+not-found-page-title-terms = Nie odnaleziono strony
+not-found-page-description-terms = Strona, której szukasz, nie istnieje.
+not-found-page-button-terms-manage-subscriptions = Zarządzanie subskrypcjami
+
 ## Page
 
 checkout-signin-or-create = 1. Zaloguj się lub utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
@@ -95,8 +99,13 @@ next-payment-confirmation-download-button = Kontynuuj, aby pobrać
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Nie odnaleziono subskrypcji.
+
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = Nie dodano żadnej metody płatności
 subscription-management-subscriptions-heading = Subskrypcje
 subscription-management-button-add-payment-method-aria = Dodaj metodę płatności
 subscription-management-button-add-payment-method = Dodaj
@@ -111,6 +120,7 @@ subscription-management-your-apple-iap-subscriptions-aria = Twoje subskrypcje w�
 subscription-management-your-google-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-google }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Zarządzaj subskrypcją { $productName }
+subscription-management-button-manage-payment-method-1 = Zarządzaj metodą płatności
 paypal-payment-management-page-invalid-header = Nieprawidłowe dane płatnicze
 # Page - Not Found
 page-not-found-title = Nie odnaleziono strony
