@@ -406,3 +406,7 @@ next-coupon-error-limit-reached = Girdiğiniz kodun kullanım limiti doldu.
 
 stay-subscribed-error-expired = Bu teklifin süresi doldu.
 stay-subscribed-error-discount-used = İndirim kodu zaten uygulanmış.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Bu indirim yalnızca mevcut { $productTitle } aboneleri için geçerlidir.
+stay-subscribed-error-still-active = { $productTitle } aboneliğiniz hâlâ etkin.
+stay-subscribed-error-general = Aboneliğiniz yenilenirken bir sorun oluştu.
