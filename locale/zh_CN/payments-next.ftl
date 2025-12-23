@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = 取消订阅
 dialog-close = 关闭对话框
 button-back-to-subscriptions = 返回“订阅”
 subscription-content-cancel-action-error = 发生意外错误，请重试。
+paypal-unavailable-error = { -brand-paypal } 目前不可用。请使用其他付款选项，或稍后再试。
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
