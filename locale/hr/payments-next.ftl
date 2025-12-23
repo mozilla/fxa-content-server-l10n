@@ -118,7 +118,7 @@ subscription-management-button-manage-payment-method = Upravljaj
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kartica završava sa { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
-subscription-management-card-expires-date = Ističe { $expirationDate }
+subscription-management-card-expires-date = Isteče { $expirationDate }
 subscription-management-active-subscriptions-heading = Aktivne pretplate
 subscription-management-you-have-no-active-subscriptions = Nemaš aktivnih pretplata
 subscription-management-your-active-subscriptions-aria = Tvoje aktivne pretplate
@@ -130,7 +130,7 @@ subscription-management-apple-in-app-purchase-2 = { -brand-apple } kupnja unutar
 subscription-management-your-google-iap-subscriptions-aria = Tvoje { -brand-google } pretplate unutar aplikacije
 subscription-management-google-in-app-purchase-2 = { -brand-google } kupnja unutar aplikacije
 # $date (String) - Date of next bill
-subscription-management-iap-sub-expires-on-expiry-date = Ističe { $date }
+subscription-management-iap-sub-expires-on-expiry-date = Isteče { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Upravljaj pretplatom na { $productName }
 subscription-management-button-manage-subscription-1 = Upravljaj pretplatom

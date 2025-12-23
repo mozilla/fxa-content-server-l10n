@@ -528,7 +528,7 @@ pay-update-manage-btn = Upravljaj
 
 sub-next-bill = Sljedeće naplaćivanje { $date }
 sub-next-bill-due-date = Sljedeći račun dospijeva { $date }
-sub-expires-on = Ističe { $date }
+sub-expires-on = Isteče { $date }
 
 ## Routes - Subscription - PaymentUpdate
 

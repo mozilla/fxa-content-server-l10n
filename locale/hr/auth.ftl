@@ -409,11 +409,11 @@ passwordChangeRequired-different-password-2 = <b>Važno:</b> Odaberi snažnu loz
 passwordChangeRequired-different-password-plaintext-2 = Važno: Odaberi snažnu lozinku koja se razlikuje od tvoje lozinke u prošlosti.
 passwordChangeRequired-action = Resetiraj lozinku
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
-password-forgot-otp-preview = Ovaj kod ističe za 10 minuta
+password-forgot-otp-preview = Ovaj kod isteče za 10 minuta
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
 password-forgot-otp-code-2 = Ako si to bio/la ti, ovo je tvoj potvrdni kod za nastavljanje:
-password-forgot-otp-expiry-notice = Ovaj kod ističe za 10 minuta.
+password-forgot-otp-expiry-notice = Ovaj kod isteče za 10 minuta.
 passwordReset-subject-2 = Tvoja je lozinka resetirana
 passwordReset-title-2 = Tvoja je lozinka resetirana
 # This sentence is followed by information about the device and time of the password reset
@@ -608,7 +608,7 @@ subscriptionFirstInvoice-subject = { $productName } plaćanje potvrđeno
 subscriptionFirstInvoice-title = Hvala ti na pretplati na { $productName }
 subscriptionFirstInvoice-content-processing = Tvoje se plaćanje trenutačno obrađuje i može potrajati do četiri radna dana.
 subscriptionFirstInvoice-content-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
-subscriptionPaymentExpired-title-2 = Tvoj način plaćanja je istekao ili uskoro ističe
+subscriptionPaymentExpired-title-2 = Tvoj način plaćanja je istekao ili uskoro isteče
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } plaćanje nije uspjelo
@@ -687,7 +687,7 @@ subscriptionUpgrade-content-old-price-halfyear-tax = Prethodna cijena je bila { 
 subscriptionUpgrade-content-old-price-year-tax = Prethodna cijena je bila { $paymentAmountOld } + porez od { $paymentTaxOld } na godinu.
 subscriptionUpgrade-content-old-price-default-tax = Prethodna cijena je bila { $paymentAmountOld } + porez od { $paymentTaxOld } po obračunskom razdoblju.
 subscriptionUpgrade-auto-renew = Tvoja će se pretplata automatski obnoviti svakog obračunskog razdoblja, ukoliko je ne otkažeš.
-unblockCode-preview = Ovaj kod ističe za jedan sat
+unblockCode-preview = Ovaj kod isteče za jedan sat
 unblockCode-title = Je li ovo tvoja prijava?
 unblockCode-prompt = Ako da, ovo je potrebni autorizacijski kôd:
 unblockCode-report-plaintext = Ako ne, pomozi nam u sprječavanju neovlaštene prijave pomoću prijave problema.
@@ -713,9 +713,9 @@ verify-action-2 = Potvrdi račun
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =
     { $expirationTime ->
-        [one] Ovaj kod ističe za { $expirationTime } minutu.
-        [few] Ovaj kod ističe za { $expirationTime } minute.
-       *[other] Ovaj kod ističe za { $expirationTime } minuta.
+        [one] Ovaj kod isteče za { $expirationTime } minutu.
+        [few] Ovaj kod isteče za { $expirationTime } minute.
+       *[other] Ovaj kod isteče za { $expirationTime } minuta.
     }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -726,34 +726,34 @@ verifyLogin-action = Potvrdi prijavu
 # Variables:
 #  $code (String) - The confirmation code for sign-in
 verifyLoginCode-subject-line-3 = Koristi { $code } za prijavu
-verifyLoginCode-preview = Ovaj kod ističe za 5 minuta.
+verifyLoginCode-preview = Ovaj kod isteče za 5 minuta.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Jesi li se prijavio/la na { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Pomogni nam zaštiti tvoj račun odobravanjem prijave na:
 verifyLoginCode-prompt-3 = Ako da, ovdje je tvoj autorizacijski kod:
-verifyLoginCode-expiry-notice = Ističe za 5 minuta.
+verifyLoginCode-expiry-notice = Isteče za 5 minuta.
 verifyPrimary-title-2 = Potvrdi primarnu e-mail adresu
 verifyPrimary-description = Zahtjev za izvršavanje promjene računa upućen je sa sljedećeg uređaja:
 verifyPrimary-subject = Potvrdi primarnu e-mail adresu
 verifyPrimary-action-2 = Potvrdi e-mail adresu
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Nakon potvrde, promjene računa poput dodavanja sekundarne e-mail adrese postat će moguće s ovog uređaja.
-verifySecondaryCode-preview = Ovaj kod ističe za 5 minuta.
+verifySecondaryCode-preview = Ovaj kod isteče za 5 minuta.
 verifySecondaryCode-title-2 = Potvrdi sekundarnu e-mail adresu
 verifySecondaryCode-action-2 = Potvrdi e-mail adresu
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = Zahtjev za korištenje { $email } kao sekundarne e-mail adrese je podnesen sa sljedećeg { -product-mozilla-account }.
 verifySecondaryCode-prompt-2 = Koristi ovaj potvrdni kod:
-verifySecondaryCode-expiry-notice-2 = Ističe za 5 minuta. Nakon potvrde, ova će adresa početi primati sigurnosne obavijesti i potvrde.
+verifySecondaryCode-expiry-notice-2 = Isteče za 5 minuta. Nakon potvrde, ova će adresa početi primati sigurnosne obavijesti i potvrde.
 # Variables:
 #  $code (String) - comfirmation code for the account
 verifyShortCode-subject-4 = Koristi { $code } za potvrđivanje tvog računa
-verifyShortCode-preview-2 = Ovaj kod ističe za 5 minuta
+verifyShortCode-preview-2 = Ovaj kod isteče za 5 minuta
 verifyShortCode-title-3 = Otvori internet s { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrdi svoj račun i izvuci maksimum iz { -brand-mozilla } gdje god se prijaviš počevši s:
 verifyShortCode-prompt-3 = Koristi ovaj potvrdni kod:
-verifyShortCode-expiry-notice = Ističe za 5 minuta.
+verifyShortCode-expiry-notice = Isteče za 5 minuta.
