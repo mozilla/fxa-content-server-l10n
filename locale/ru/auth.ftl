@@ -1,6 +1,6 @@
 ## Non-email strings
 
-session-verify-send-push-title-2 = Входите в { -product-mozilla-account }?
+session-verify-send-push-title-2 = Входите в { -product-mozilla-account(case: "nominative") }?
 session-verify-send-push-body-2 = Нажмите здесь, чтобы подтвердить, что это вы
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
@@ -42,7 +42,7 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="С
 body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
 fxa-privacy-url = Политика конфиденциальности { -brand-mozilla }
 moz-accounts-privacy-url-2 = Уведомление о конфиденциальности { -product-mozilla-accounts(case: "genitive") }
-moz-accounts-terms-url = Правила использования { -product-mozilla-accounts }
+moz-accounts-terms-url = Правила использования { -product-mozilla-accounts(case: "genitive") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
@@ -52,16 +52,16 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific-2 = Вы получили это письмо, потому что { $email } есть в { -product-mozilla-account } и вы подписались на { $productName }.
+subplat-explainer-specific-2 = Вы получили это письмо, потому что { $email } есть в { -product-mozilla-account(case: "prepositional") } и вы подписались на { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form-2 = Вы получили это письмо, потому что { $email } содержится в { -product-mozilla-account }.
-subplat-explainer-multiple-2 = Вы получили это письмо, потому что { $email } есть в { -product-mozilla-account } и вы подписались на несколько продуктов.
-subplat-explainer-was-deleted-2 = Вы получили это письмо, потому что { $email } зарегистрирован в { -product-mozilla-account }.
-subplat-manage-account-2 = Управлять настройками { -product-mozilla-account } можно на <a data-l10n-name="subplat-account-page">странице аккаунта</a>.
+subplat-explainer-reminder-form-2 = Вы получили это письмо, потому что { $email } есть в { -product-mozilla-account(case: "prepositional") }.
+subplat-explainer-multiple-2 = Вы получили это письмо, потому что { $email } есть в { -product-mozilla-account(case: "prepositional") } и вы подписались на несколько продуктов.
+subplat-explainer-was-deleted-2 = Вы получили это письмо, потому что { $email } зарегистрирован в { -product-mozilla-account(case: "prepositional") }.
+subplat-manage-account-2 = Управлять настройками { -product-mozilla-account(case: "genitive") } можно на <a data-l10n-name="subplat-account-page">странице аккаунта</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext-2 = Управлять настройками { -product-mozilla-account } можно на странице вашего аккаунта: { $accountSettingsUrl }
+subplat-manage-account-plaintext-2 = Управлять настройками { -product-mozilla-account(case: "genitive") } можно на странице вашего аккаунта: { $accountSettingsUrl }
 subplat-terms-policy = Условия и политика отказа от подписки
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Отменить подписку
@@ -70,10 +70,10 @@ subplat-reactivate = Активировать подписку повторно
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Обновить платёжные сведения
 subplat-privacy-policy = Политика конфиденциальности { -brand-mozilla }
-subplat-privacy-policy-2 = Уведомление о конфиденциальности { -product-mozilla-accounts }
+subplat-privacy-policy-2 = Уведомление о конфиденциальности { -product-mozilla-accounts(case: "genitive") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-moz-terms = Правила использования { -product-mozilla-accounts }
+subplat-moz-terms = Правила использования { -product-mozilla-accounts(case: "genitive") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Права
 subplat-legal-plaintext = { subplat-legal }:
@@ -110,7 +110,7 @@ automated-email-support = Для получения дополнительной
 automated-email-change-plaintext-2 = Если вы не производили это действие, немедленно измените пароль:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Для получения дополнительных сведений посетите страницу поддержки { -brand-mozilla }:
-automated-email-inactive-account = Это письмо создано автоматически. Вы получаете его, потому что у вас есть { -product-mozilla-account } и прошло 2 года с момента вашего последнего входа.
+automated-email-inactive-account = Это письмо создано автоматически. Вы получаете его, потому что у вас есть { -product-mozilla-account(case: "nominative") } и прошло 2 года с момента вашего последнего входа.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Для получения дополнительных сведений посетите <a data-l10n-name="supportLink">страницу поддержки { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Это автоматически созданное сообщение. Если вы получили его по ошибке, вам не нужно ничего делать.
@@ -343,18 +343,18 @@ downloadSubscription-subject = Добро пожаловать в { $productName
 downloadSubscription-title = Добро пожаловать в { $productName }
 downloadSubscription-content-2 = Давайте приступим к использованию всех возможностей, включённых в вашу подписку:
 downloadSubscription-link-action-2 = Приступим
-fraudulentAccountDeletion-subject-2 = Ваш { -product-mozilla-account } был удален
+fraudulentAccountDeletion-subject-2 = Ваш { -product-mozilla-account(case: "accusative") } был удален
 fraudulentAccountDeletion-title = Ваш аккаунт был удалён
-fraudulentAccountDeletion-content-part1-v2 = Недавно был создан аккаунт { -product-mozilla-account } и с этого адреса электронной почты была оплачена подписка. Как и в случае со всеми новыми учетными записями, мы просим вас подтвердить учетную запись, изначально подтвердив этот адрес электронной почты.
-fraudulentAccountDeletion-content-part2-v2 = В настоящее время мы видим, что учетная запись не подтверждена. Так как этот шаг не был выполнен, мы не уверены, что это была авторизованная подписка. В результате { -product-mozilla-account }, зарегистрированный на этот адрес электронной почты, был удален, а подписка отменена с возмещением всех расходов.
+fraudulentAccountDeletion-content-part1-v2 = Недавно был создан аккаунт { -product-mozilla-account(case: "nominative") } и с этого адреса электронной почты была оплачена подписка. Как и в случае со всеми новыми аккаунтами, мы просим вас подтвердить аккаунт, изначально подтвердив этот адрес электронной почты.
+fraudulentAccountDeletion-content-part2-v2 = В настоящее время мы видим, что аккаунт не подтверждён. Так как этот шаг не был выполнен, мы не уверены, что это была авторизованная подписка. В результате { -product-mozilla-account(case: "nominative") }, зарегистрированный на этот адрес электронной почты, был удалён, а подписка отменена с возмещением всех расходов.
 fraudulentAccountDeletion-contact = Если у вас есть вопросы, обратитесь к нашей <a data-l10n-name="mozillaSupportUrl">команде поддержки</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Если у вас есть вопросы, обратитесь к нашей команде поддержки: { $mozillaSupportUrl }
-inactiveAccountFinalWarning-subject = Последний шанс сохранить свой { -product-mozilla-account }
+inactiveAccountFinalWarning-subject = Последний шанс сохранить свой { -product-mozilla-account(case: "nominative") }
 inactiveAccountFinalWarning-title = Ваш аккаунт { -brand-mozilla } и данные будут удалены
 inactiveAccountFinalWarning-preview = Войдите, чтобы сохранить свой аккаунт
-inactiveAccountFinalWarning-account-description = Ваш { -product-mozilla-account } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
+inactiveAccountFinalWarning-account-description = Ваш { -product-mozilla-account(case: "nominative") } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong>, ваш аккаунт и ваши личные данные будут навсегда удалены, если вы не войдете в него.
@@ -363,7 +363,7 @@ inactiveAccountFinalWarning-action = Войдите, чтобы сохранит
 inactiveAccountFinalWarning-action-plaintext = Войдите, чтобы сохранить свой аккаунт:
 inactiveAccountFirstWarning-subject = Не потеряйте свой аккаунт
 inactiveAccountFirstWarning-title = Вы хотите сохранить свой аккаунт { -brand-mozilla } и данные?
-inactiveAccountFirstWarning-account-description-v2 = Ваш { -product-mozilla-account } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
+inactiveAccountFirstWarning-account-description-v2 = Ваш { -product-mozilla-account(case: "nominative") } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Мы заметили, что вы не совершали вход в течение 2 лет.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -374,7 +374,7 @@ inactiveAccountFirstWarning-preview = Войдите, чтобы сохрани�
 inactiveAccountFirstWarning-action-plaintext = Войдите, чтобы сохранить свой аккаунт:
 inactiveAccountSecondWarning-subject = Требуется действие: Удаление аккаунта через 7 дней
 inactiveAccountSecondWarning-title = Ваш аккаунт { -brand-mozilla } и данные будут удалены через 7 дней
-inactiveAccountSecondWarning-account-description-v2 = Ваш { -product-mozilla-account } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
+inactiveAccountSecondWarning-account-description-v2 = Ваш { -product-mozilla-account(case: "nominative") } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Ваш аккаунт и ваши личные данные будут навсегда удалены на <strong>{ $deletionDate }</strong>, так как вы не были активны.
 inactiveAccountSecondWarning-action = Войдите, чтобы сохранить свой аккаунт
@@ -401,8 +401,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новый вход в { $clientName }
-newDeviceLogin-subjectForMozillaAccount = Новый вход в ваш { -product-mozilla-account }
-newDeviceLogin-title-3 = Ваш { -product-mozilla-account }  был использован для входа в систему
+newDeviceLogin-subjectForMozillaAccount = Новый вход в ваш { -product-mozilla-account(case: "nominative") }
+newDeviceLogin-title-3 = Ваш { -product-mozilla-account(case: "nominative") }  был использован для входа в систему
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Не вы? <a data-l10n-name="passwordChangeLink">Смените свой пароль</a>.
@@ -412,14 +412,14 @@ newDeviceLogin-change-password-plain = Не вы? Смените свой пар
 newDeviceLogin-action = Управление аккаунтом
 passwordChanged-subject = Пароль изменён
 passwordChanged-title = Пароль успешно изменён
-passwordChanged-description-2 = Ваш пароль для { -product-mozilla-account } был успешно изменен со следующего устройства:
+passwordChanged-description-2 = Ваш пароль для { -product-mozilla-account(case: "nominative") } был успешно изменён со следующего устройства:
 passwordChangeRequired-subject = Обнаружена подозрительная активность
 passwordChangeRequired-preview = Немедленно смените пароль
 passwordChangeRequired-title-2 = Сбросить пароль
 passwordChangeRequired-suspicious-activity-3 = Мы заблокировали ваш аккаунт, чтобы защитить его от подозрительной активности. Вы вышли из всех своих устройств, и в качестве меры предосторожности все синхронизированные данные были удалены.
 passwordChangeRequired-sign-in-3 = Чтобы снова войти в свой аккаунт, всё, что вам нужно сделать, — это сбросить пароль.
-passwordChangeRequired-different-password-2 = <b>Важно:</b> Выберите надежный пароль, отличный от тех, которые вы использовали в прошлом.
-passwordChangeRequired-different-password-plaintext-2 = Важно: Выберите надежный пароль, отличный от паролей, которые вы использовали в прошлом.
+passwordChangeRequired-different-password-2 = <b>Важно:</b> Выберите надёжный пароль, отличный от тех, которые вы использовали в прошлом.
+passwordChangeRequired-different-password-plaintext-2 = Важно: Выберите надёжный пароль, отличный от паролей, которые вы использовали в прошлом.
 passwordChangeRequired-action = Сбросить пароль
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 # Variables:
@@ -427,17 +427,17 @@ passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject-2 = Используйте { $code }, чтобы сменить свой пароль
 password-forgot-otp-preview = Срок действия этого кода истекает через 10 минут
 password-forgot-otp-title = Забыли ваш пароль?
-password-forgot-otp-request = Мы получили запрос на смену пароля для вашего { -product-mozilla-account } от:
+password-forgot-otp-request = Мы получили запрос на смену пароля для вашего { -product-mozilla-account(case: "genitive") } от:
 password-forgot-otp-code-2 = Если это были вы, вот ваш код подтверждения для продолжения:
 password-forgot-otp-expiry-notice = Срок действия этого кода истечёт через 10 минут.
 passwordReset-subject-2 = Ваш пароль был сброшен
 passwordReset-title-2 = Ваш пароль был сброшен
 # This sentence is followed by information about the device and time of the password reset
-passwordReset-description-2 = Вы сбросили свой пароль для { -product-mozilla-account } на:
+passwordReset-description-2 = Вы сбросили свой пароль для { -product-mozilla-account(case: "genitive") } на:
 passwordResetAccountRecovery-subject-2 = Ваш пароль был сброшен
 passwordResetAccountRecovery-title-3 = Ваш пароль был сброшен
 # Followed by details on the device, location, and date/time of the password reset.
-passwordResetAccountRecovery-description-3 = Вы использовали ключ восстановления своего аккаунта для сброса пароля { -product-mozilla-account } на:
+passwordResetAccountRecovery-description-3 = Вы использовали ключ восстановления своего аккаунта для сброса пароля { -product-mozilla-account(case: "genitive") } на:
 passwordResetAccountRecovery-information = Мы отключили вас на всех синхронизируемых устройствах. Мы создали новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали. Вы можете изменить его в настройках своего аккаунта.
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Мы отключили вас на всех синхронизируемых устройствах. Мы создали новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали. Вы можете изменить его в настройках вашего аккаунта:
@@ -450,7 +450,7 @@ passwordResetRecoveryPhone-action = Управление аккаунтом
 passwordResetWithRecoveryKeyPrompt-subject = Ваш пароль был сброшен
 passwordResetWithRecoveryKeyPrompt-title = Ваш пароль был сброшен
 # Details of the device and date/time where the password was reset
-passwordResetWithRecoveryKeyPrompt-description = Вы сбросили свой пароль для { -product-mozilla-account } на:
+passwordResetWithRecoveryKeyPrompt-description = Вы сбросили свой пароль для { -product-mozilla-account(case: "genitive") } на:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Создать ключ восстановления аккаунта
 # colon is followed by a link to create an account recovery key from the account settings page
@@ -459,17 +459,17 @@ passwordResetWithRecoveryKeyPrompt-cta-description = Вам нужно буде�
 postAddAccountRecovery-subject-3 = Новый ключ восстановления аккаунта создан
 postAddAccountRecovery-title2 = Вы создали новый ключ восстановления аккаунта
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part1 = Сохраните этот ключ в надежном месте — он понадобится вам для восстановления зашифрованных данных просмотра, если вы забудете свой пароль.
+postAddAccountRecovery-body-part1 = Сохраните этот ключ в надёжном месте — он понадобится вам для восстановления зашифрованных данных просмотра, если вы забудете свой пароль.
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part2 = Этот ключ можно использовать только один раз. После того, как вы его используете, мы автоматически создадим для вас новый. Или вы можете создать новый в любое время в настройках своего аккаунта.
 postAddAccountRecovery-action = Управление аккаунтом
-postAddLinkedAccount-subject-2 = Новый аккаунт, связанный с вашим { -product-mozilla-account }
+postAddLinkedAccount-subject-2 = Новый аккаунт, связанный с вашим { -product-mozilla-account(case: "instrumental") }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
-postAddLinkedAccount-title-2 = Ваш аккаунт { $providerName } был привязан к { -product-mozilla-account }
+postAddLinkedAccount-title-2 = Ваш аккаунт { $providerName } был привязан к { -product-mozilla-account(case: "dative") }
 postAddLinkedAccount-action = Управлять аккаунтом
 postAddRecoveryPhone-subject = Телефон для восстановления добавлен
-postAddRecoveryPhone-preview = Аккаунт защищен двухэтапной аутентификацией
+postAddRecoveryPhone-preview = Аккаунт защищён двухэтапной аутентификацией
 postAddRecoveryPhone-title-v2 = Вы добавили номер телефона для восстановления
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -479,7 +479,7 @@ postAddRecoveryPhone-how-protect = Как это защищает ваш акк�
 postAddRecoveryPhone-how-protect-plaintext = Как это защищает ваш аккаунт:
 postAddRecoveryPhone-enabled-device = Вы включили его из:
 postAddRecoveryPhone-action = Управление аккаунтом
-postAddTwoStepAuthentication-preview = Ваш аккаунт защищен
+postAddTwoStepAuthentication-preview = Ваш аккаунт защищён
 postAddTwoStepAuthentication-subject-v3 = Двухэтапная аутентификация включена
 postAddTwoStepAuthentication-title-2 = Вы включили двухэтапную аутентификацию
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -496,23 +496,23 @@ postAddTwoStepAuthentication-device-sign-out-message = Чтобы защитит
 postChangeAccountRecovery-subject = Ключ восстановления аккаунта изменён
 postChangeAccountRecovery-title = Вы изменили ключ восстановления своего аккаунта
 postChangeAccountRecovery-body-part1 = Теперь у вас есть новый ключ восстановления аккаунта. Ваш предыдущий ключ был удалён.
-postChangeAccountRecovery-body-part2 = Сохраните этот новый ключ в надежном месте — он понадобится вам для восстановления зашифрованных данных просмотра, если вы забудете свой пароль.
+postChangeAccountRecovery-body-part2 = Сохраните этот новый ключ в надёжном месте — он понадобится вам для восстановления зашифрованных данных просмотра, если вы забудете свой пароль.
 postChangeAccountRecovery-action = Управление аккаунтом
 postChangePrimary-subject = Основная электронная почта изменена
 postChangePrimary-title = Новая основная электронная почта
 # Variables:
 #  $email (String) - A user's email address
-postChangePrimary-description-2 = Вы успешно изменили свой адрес электронной почты на { $email }. Этот адрес является вашим именем пользователя для входа в { -product-mozilla-account }, а также для получения уведомлений безопасности и подтверждений входа.
+postChangePrimary-description-2 = Вы успешно изменили свой адрес электронной почты на { $email }. Этот адрес является вашим именем пользователя для входа в { -product-mozilla-account(case: "nominative") }, а также для получения уведомлений безопасности и подтверждений входа.
 postChangePrimary-action = Управление аккаунтом
 postChangeRecoveryPhone-subject = Телефон для восстановления обновлён
-postChangeRecoveryPhone-preview = Аккаунт защищен двухэтапной аутентификацией
+postChangeRecoveryPhone-preview = Аккаунт защищён двухэтапной аутентификацией
 postChangeRecoveryPhone-title = Вы изменили свой телефон для восстановления
 postChangeRecoveryPhone-description = Теперь у вас есть новый телефон для восстановления. Ваш предыдущий номер телефона был удалён.
 postChangeRecoveryPhone-requested-device = Вы запросили его из:
-postChangeTwoStepAuthentication-preview = Ваш аккаунт защищен
+postChangeTwoStepAuthentication-preview = Ваш аккаунт защищён
 postChangeTwoStepAuthentication-subject = Двухэтапная аутентификация обновлена
 postChangeTwoStepAuthentication-title = Двухэтапная аутентификация была обновлена
-postChangeTwoStepAuthentication-use-new-account = Теперь вам нужно использовать новую запись { -product-mozilla-account } в своём приложении для аутентификации. Предыдущая больше не будет работать и вы можете удалить её.
+postChangeTwoStepAuthentication-use-new-account = Теперь вам нужно использовать новую запись { -product-mozilla-account(case: "genitive") } в своём приложении для аутентификации. Предыдущая больше не будет работать и вы можете удалить её.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Вы запросили это с:
 postChangeTwoStepAuthentication-action = Управление аккаунтом
@@ -537,16 +537,16 @@ postRemoveAccountRecovery-body-part1 = Ключ восстановления в�
 postRemoveAccountRecovery-body-part2 = Если вы ещё этого не сделали, создайте новый ключ восстановления аккаунта в настройках своего аккаунта, чтобы не потерять сохранённые пароли, закладки, историю просмотров и многое другое.
 postRemoveAccountRecovery-action = Управление аккаунтом
 postRemoveRecoveryPhone-subject = Телефон для восстановления удалён
-postRemoveRecoveryPhone-preview = Аккаунт защищен двухэтапной аутентификацией
+postRemoveRecoveryPhone-preview = Аккаунт защищён двухэтапной аутентификацией
 postRemoveRecoveryPhone-title = Телефон для восстановления удалён
 postRemoveRecoveryPhone-description-v2 = Ваш телефон для восстановления был удален из настроек двухэтапной аутентификации.
-postRemoveRecoveryPhone-description-extra = Вы по-прежнему можете использовать свои резервные коды аутентификации для входа, если не можете использовать свое приложение для аутентификации.
+postRemoveRecoveryPhone-description-extra = Вы по-прежнему можете использовать свои резервные коды аутентификации для входа, если не можете использовать своё приложение для аутентификации.
 postRemoveRecoveryPhone-requested-device = Вы запросили его из:
 postRemoveSecondary-subject = Удалена дополнительная электронная почта
 postRemoveSecondary-title = Удалена дополнительная электронная почта
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description-2 = Вы успешно удалили { $secondaryEmail } в качестве дополнительного адреса электронной почты вашего { -product-mozilla-account }. Уведомления безопасности и подтверждения входа в систему больше не будут приходить на этот адрес.
+postRemoveSecondary-description-2 = Вы успешно удалили { $secondaryEmail } в качестве дополнительного адреса электронной почты вашего { -product-mozilla-account(case: "genitive") }. Уведомления безопасности и подтверждения входа в систему больше не будут приходить на этот адрес.
 postRemoveSecondary-action = Управление аккаунтом
 postRemoveTwoStepAuthentication-subject-line-2 = Двухэтапная аутентификация отключена
 postRemoveTwoStepAuthentication-title-2 = Вы отключили двухэтапную аутентификацию
@@ -577,12 +577,12 @@ postVerifySecondary-subject = Добавлена дополнительная э
 postVerifySecondary-title = Добавлена дополнительная электронная почта
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-3 = Вы успешно подтвердили { $secondaryEmail } в качестве дополнительного адреса электронной почты вашего { -product-mozilla-account }. Теперь уведомления безопасности и подтверждения входа в систему будут доставляться на оба адреса электронной почты.
+postVerifySecondary-content-3 = Вы успешно подтвердили { $secondaryEmail } в качестве дополнительного адреса электронной почты вашего { -product-mozilla-account(case: "genitive") }. Теперь уведомления безопасности и подтверждения входа в систему будут доставляться на оба адреса электронной почты.
 postVerifySecondary-action = Управление аккаунтом
 recovery-subject = Восстановить ваш пароль
 recovery-title-2 = Забыли свой пароль?
 # Information on the device, location, and date and time of the request that triggered the email follows.
-recovery-request-origin-2 = Мы получили запрос на смену пароля для вашего { -product-mozilla-account } от:
+recovery-request-origin-2 = Мы получили запрос на смену пароля для вашего { -product-mozilla-account(case: "genitive") } от:
 recovery-new-password-button = Создайте новый пароль, щёлкнув по кнопке ниже. Срок действия этой ссылки истекает в течение следующего часа.
 recovery-copy-paste = Создайте новый пароль, скопировав и вставив приведенный ниже URL-адрес в адресную строку браузера. Срок действия этой ссылки истекает в течение следующего часа.
 recovery-action = Создать новый пароль
@@ -594,7 +594,7 @@ subscriptionAccountDeletion-title = Жаль, что вы уходите
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled-2 = Вы недавно удалили свой { -product-mozilla-account }. Связи с этим мы отменили вашу подписку на { $productName }. Ваш последний платёж в размере { $invoiceTotal } был оплачен { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled-2 = Вы недавно удалили свой { -product-mozilla-account(case: "nominative") }. Связи с этим мы отменили вашу подписку на { $productName }. Ваш последний платёж в размере { $invoiceTotal } был оплачен { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Добро пожаловать в { $productName }: Задайте для себя пароль.
@@ -602,17 +602,17 @@ subscriptionAccountFinishSetup-subject = Добро пожаловать в { $p
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Добро пожаловать в { $productName }
 subscriptionAccountFinishSetup-content-processing = Ваш платёж обрабатывается, что может занять до четырёх рабочих дней. Ваша подписка будет автоматически продлеваться каждый расчётный период, если вы не решите её отменить.
-subscriptionAccountFinishSetup-content-create-3 = Далее необходимо создать пароль { -product-mozilla-account } для начала использования новой подписки.
+subscriptionAccountFinishSetup-content-create-3 = Далее необходимо создать пароль { -product-mozilla-account(case: "dative") } для начала использования новой подписки.
 subscriptionAccountFinishSetup-action-2 = Приступим
 subscriptionAccountReminderFirst-subject = Напоминание: завершите настройку вашего аккаунта
 subscriptionAccountReminderFirst-title = Вы пока не можете получить доступ к своей подписке
-subscriptionAccountReminderFirst-content-info-3 = Несколько дней назад вы создали { -product-mozilla-account } но так и не подтвердили его. Мы надеемся, что вы закончите настройку аккаунта и сможете пользоваться новой подпиской.
+subscriptionAccountReminderFirst-content-info-3 = Несколько дней назад вы создали { -product-mozilla-account(case: "nominative") } но так и не подтвердили его. Мы надеемся, что вы закончите настройку аккаунта и сможете пользоваться новой подпиской.
 subscriptionAccountReminderFirst-content-select-2 = Выберите «Создать пароль», чтобы установить новый пароль и завершить подтверждение аккаунта.
 subscriptionAccountReminderFirst-action = Создать пароль
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Последнее напоминание: Настройте ваш аккаунт
 subscriptionAccountReminderSecond-title-2 = Добро пожаловать в { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-3 = Несколько дней назад вы создали { -product-mozilla-account } но так и не подтвердили его. Мы ожидаем, что вы закончите настройку учетной записи, и сможете пользоваться новой подпиской.
+subscriptionAccountReminderSecond-content-info-3 = Несколько дней назад вы создали { -product-mozilla-account(case: "nominative") } но так и не подтвердили его. Мы надеемся, что вы закончите настройку аккаунта и сможете пользоваться новой подпиской.
 subscriptionAccountReminderSecond-content-select-2 = Выберите «Создать пароль», чтобы установить новый пароль и завершить подтверждение аккаунта.
 subscriptionAccountReminderSecond-action = Создать пароль
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -803,20 +803,20 @@ unblockCode-prompt-plaintext = Если да, вот - код авторизац
 unblockCode-report = Если нет, помогите нам в борьбе со злоумышленниками и <a data-l10n-name="reportSignInLink">сообщите нам об этом</a>.
 unblockCode-report-plaintext = Если нет, помогите нам в борьбе со злоумышленниками и сообщите нам об этом.
 verificationReminderFinal-subject = Последнее напоминание для подтверждения вашего аккаунта
-verificationReminderFinal-description-2 = Пару недель назад вы создали { -product-mozilla-account }, но так и не подтвердили его. В целях вашей безопасности мы удаляем аккаунт, если он не будет подтверждён в течение следующих 24 часов.
+verificationReminderFinal-description-2 = Пару недель назад вы создали { -product-mozilla-account(case: "nominative") }, но так и не подтвердили его. В целях вашей безопасности мы удаляем аккаунт, если он не будет подтверждён в течение следующих 24 часов.
 confirm-account = Подтвердить аккаунт
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Не забудьте подтвердить свой аккаунт
 verificationReminderFirst-title-3 = Добро пожаловать в { -brand-mozilla }!
-verificationReminderFirst-description-3 = Несколько дней назад вы создали { -product-mozilla-account }, но так и не подтвердили его. Пожалуйста, подтвердите свой аккаунт в течение следующих 15 дней, или он будет автоматически удалён.
+verificationReminderFirst-description-3 = Несколько дней назад вы создали { -product-mozilla-account(case: "nominative") }, но так и не подтвердили его. Пожалуйста, подтвердите свой аккаунт в течение следующих 15 дней, или он будет автоматически удалён.
 verificationReminderFirst-sub-description-3 = Не пропустите браузер, который ставит вас и вашу приватность на первое место.
 confirm-email-2 = Подтвердить аккаунт
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Подтвердить аккаунт
 verificationReminderSecond-subject-2 = Не забудьте подтвердить свой аккаунт
 verificationReminderSecond-title-3 = Не упустите в { -brand-mozilla }!
-verificationReminderSecond-description-4 = Несколько дней назад вы создали { -product-mozilla-account }, но так и не подтвердили его. Пожалуйста, подтвердите свой аккаунт в течение следующих 10 дней, или он будет автоматически удалён.
-verificationReminderSecond-second-description-3 = Ваш { -product-mozilla-account } позволяет синхронизировать работу с { -brand-firefox } на разных устройствах и открывает доступ к большему количеству продуктов от { -brand-mozilla }, защищающих конфиденциальность.
+verificationReminderSecond-description-4 = Несколько дней назад вы создали { -product-mozilla-account(case: "nominative") }, но так и не подтвердили его. Пожалуйста, подтвердите свой аккаунт в течение следующих 10 дней, или он будет автоматически удалён.
+verificationReminderSecond-second-description-3 = Ваш { -product-mozilla-account(case: "nominative") } позволяет синхронизировать работу с { -brand-firefox } на разных устройствах и открывает доступ к большему количеству продуктов от { -brand-mozilla }, защищающих конфиденциальность.
 verificationReminderSecond-sub-description-2 = Станьте частью нашей миссии по трансформации Интернета в место, открытое для всех.
 verificationReminderSecond-action-2 = Подтвердить аккаунт
 verify-title-3 = Откройте Интернет с помощью { -brand-mozilla }
