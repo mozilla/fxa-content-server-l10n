@@ -8,7 +8,7 @@ not-found-page-button-terms-manage-subscriptions = Управление подп
 
 ## Page
 
-checkout-signin-or-create = 1. Войдите или создайте { -product-mozilla-account }
+checkout-signin-or-create = 1. Войдите или создайте { -product-mozilla-account(case: "nominative") }
 # This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
 checkout-signin-options-or = или
 continue-signin-with-google-button = Продолжить с { -brand-google }
@@ -244,7 +244,7 @@ payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-made-by-mozilla = Создано { -brand-mozilla }
 payments-header-avatar =
-    .title = Меню { -product-mozilla-account }
+    .title = Меню { -product-mozilla-account(case: "genitive") }
 payments-header-avatar-icon =
     .alt = Фото профиля аккаунта
 payments-header-avatar-expanded-signed-in-as = Вы вошли как
@@ -378,7 +378,7 @@ next-subscription-success-title = Подтверждение подписки
 next-subscription-processing-title = Подтверждение подписки…
 next-subscription-error-title = Ошибка подтверждения подписки…
 subscription-title-sub-exists = Вы уже подписались
-subscription-title-plan-change-heading = Проверьте свое изменение
+subscription-title-plan-change-heading = Проверьте своё изменение
 subscription-title-not-supported = Это изменение плана подписки не поддерживается
 next-sub-guarantee = 30-дневная гарантия возврата денег
 
@@ -386,7 +386,7 @@ next-sub-guarantee = 30-дневная гарантия возврата ден�
 
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
-next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
+next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: "nominative_uppercase") }
 next-terms = Условия службы
 next-privacy = Уведомление о конфиденциальности
 next-terms-download = Условия скачивания

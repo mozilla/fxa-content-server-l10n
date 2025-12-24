@@ -896,7 +896,7 @@ msgstr "Продолжить с %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr "Введите ключ восстановления аккаунта для одноразового использования, который вы хранили в надежном месте, чтобы восстановить доступ к своему аккаунту Mozilla."
+msgstr "Введите ключ восстановления аккаунта для одноразового использования, который вы хранили в надёжном месте, чтобы восстановить доступ к своему аккаунту Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."

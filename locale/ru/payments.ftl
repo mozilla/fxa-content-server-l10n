@@ -6,7 +6,7 @@
 ## Component - AppLayout
 
 settings-home = Главная страница аккаунта
-settings-project-header-title = { -product-mozilla-account }
+settings-project-header-title = { -product-mozilla-account(case: "nominative_uppercase") }
 
 ## Component - CouponForm
 
@@ -34,7 +34,7 @@ brand-name-mozilla-logo = Логотип { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
-new-user-sign-in-link-2 = У вас уже есть { -product-mozilla-account }? <a>Войти</a>
+new-user-sign-in-link-2 = У вас уже есть { -product-mozilla-account(case: "nominative") }? <a>Войти</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -299,7 +299,7 @@ sub-guarantee = 30-дневная гарантия возврата денег
 
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: "nominative_uppercase") }
 terms = Условия службы
 privacy = Уведомление о конфиденциальности
 terms-download = Условия скачивания
@@ -414,7 +414,7 @@ coupon-success-repeating = Ваш тарифный план будет авто�
 
 ## Routes - Checkout - New user
 
-new-user-step-1-2 = 1. Создайте { -product-mozilla-account }
+new-user-step-1-2 = 1. Создайте { -product-mozilla-account(case: "nominative") }
 new-user-card-title = Введите данные вашей карты
 new-user-submit = Подписаться
 
@@ -441,7 +441,7 @@ brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
-product-plan-change-heading = Проверьте свое изменение
+product-plan-change-heading = Проверьте своё изменение
 sub-change-failed = Не удалось изменить план
 sub-update-acknowledgment =
     Ваш план сменится сразу, и с вас будет списана сегодня пропорциональная

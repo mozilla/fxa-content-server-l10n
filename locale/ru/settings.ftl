@@ -379,8 +379,8 @@ password-info-balloon-reset-risk-info = Сброс означает потенц
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
-password-strength-long-instruction = Выберите надежный пароль, который вы не использовали на других сайтах. Убедитесь, что он соответствует требованиям безопасности:
-password-strength-short-instruction = Выберите надежный пароль:
+password-strength-long-instruction = Выберите надёжный пароль, который вы не использовали на других сайтах. Убедитесь, что он соответствует требованиям безопасности:
+password-strength-short-instruction = Выберите надёжный пароль:
 password-strength-inline-min-length = Не менее 8 символов
 password-strength-inline-not-email = Не ваш адрес электронной почты
 password-strength-inline-not-common = Не часто используемый пароль
@@ -423,7 +423,7 @@ primary-email-verified-header = Основная электронная почт
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Места для хранения вашего ключа:
 flow-recovery-key-download-storage-ideas-folder-v2 = Папка на защищённом устройстве
-flow-recovery-key-download-storage-ideas-cloud = Надежное облачное хранилище
+flow-recovery-key-download-storage-ideas-cloud = Надёжное облачное хранилище
 flow-recovery-key-download-storage-ideas-print-v2 = Распечатанная физическая копия
 flow-recovery-key-download-storage-ideas-pwd-manager = Менеджер паролей
 
@@ -543,9 +543,9 @@ cs-disconnect-sync-opt-not-say = Не хочу говорить
 
 cs-disconnect-advice-confirm = Хорошо, понятно
 cs-disconnect-lost-advice-heading = Утерянное или украденное устройство отсоединено
-cs-disconnect-lost-advice-content-3 = Поскольку ваше устройство было утеряно или украдено, для сохранения вашей информации в безопасности, вам следует сменить пароль своих { -product-mozilla-account } в настройках. Вам также следует изучить информацию производителя своего устройства об удалённом стирании своих данных.
+cs-disconnect-lost-advice-content-3 = Поскольку ваше устройство было утеряно или украдено, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-mozilla-account(case: "genitive") } в настройках. Вам также следует изучить информацию производителя своего устройства об удалённом стирании своих данных.
 cs-disconnect-suspicious-advice-heading = Подозрительное устройство отсоединено
-cs-disconnect-suspicious-advice-content-2 = Если отсоединённое устройство действительно подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-mozilla-account } в настройках. Вам также следует сменить любые другие пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
+cs-disconnect-suspicious-advice-content-2 = Если отсоединённое устройство действительно подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-mozilla-account(case: "genitive") } в настройках. Вам также следует сменить любые другие пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
 cs-sign-out-button = Выйти
 
 ## Data collection section
@@ -555,14 +555,14 @@ dc-subheader-moz-accounts = { -product-mozilla-accounts(case: "nominative_upperc
 dc-subheader-ff-browser = Браузер { -brand-firefox }
 dc-subheader-content-2 = Разрешить { -product-mozilla-accounts(case: "dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
 dc-subheader-ff-content = Чтобы просмотреть или обновить технические настройки и данные взаимодействия вашего { -brand-firefox }, откройте настройки { -brand-firefox } и перейдите в раздел «Приватность и Защита».
-dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
-dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts }.
+dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts(case: "nominative_uppercase") } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
+dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts(case: "nominative") }.
 dc-opt-in-out-error-2 = К сожалению, при изменении вашей настройки сбора данных возникла проблема
 dc-learn-more = Подробнее
 
 # DropDownAvatarMenu component
 
-drop-down-menu-title-2 = Меню { -product-mozilla-account }
+drop-down-menu-title-2 = Меню { -product-mozilla-account(case: "genitive") }
 # This is displayed in the Settings menu after user's click on their profile icon.
 # Following this string on a new line will be their display name (user's name or email)
 drop-down-menu-signed-in-as-v2 = Вы вошли как
@@ -738,7 +738,7 @@ header-menu-closed = Меню навигации по сайту
 header-back-to-top-link =
     .title = Наверх
 header-back-to-settings-link =
-    .title = Вернуться к настройкам { -product-mozilla-account }
+    .title = Вернуться к настройкам { -product-mozilla-account(case: "genitive") }
 header-title-2 = { -product-mozilla-account(case: "nominative_uppercase") }
 header-help = Помощь
 
@@ -906,8 +906,8 @@ delete-account-header =
     .title = Удалить аккаунт
 delete-account-step-1-2 = Шаг 1 из 2
 delete-account-step-2-2 = Шаг 2 из 2
-delete-account-confirm-title-4 = Возможно, вы подключили свои { -product-mozilla-account } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
-delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-confirm-title-4 = Возможно, вы подключили свой { -product-mozilla-account(case: "nominative") } к одному или нескольким из следующих продуктов { -brand-mozilla } или служб, которые обеспечивают вашу безопасность и продуктивность в Интернете:
+delete-account-product-mozilla-account = { -product-mozilla-account(case: "nominative_uppercase") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -1055,7 +1055,7 @@ verify-secondary-email-resend-code-button = Отправить код подтв
 # Link to delete account on main Settings page
 delete-account-link = Удалить аккаунт
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
-inactive-update-status-success-alert = Вы успешно вошли. Ваш { -product-mozilla-account } и данные останутся активными.
+inactive-update-status-success-alert = Вы успешно вошли. Ваш { -product-mozilla-account(case: "nominative") } и данные останутся активными.
 
 ## Product promotion
 
@@ -1120,7 +1120,7 @@ tfa-row-backup-codes-get-new-cta-v2 = Создать новые коды
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Добавить
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = Это самый безопасный метод восстановления, если вы не можете использовать свое мобильное устройство или приложение для аутентификации.
+tfa-row-backup-codes-description-2 = Это самый безопасный метод восстановления, если вы не можете использовать своё мобильное устройство или приложение для аутентификации.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Телефон для восстановления
@@ -1230,7 +1230,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     К сожалению, при обновлении двухэтапной
     аутентификации произошла ошибка.
-tfa-row-enabled-description = Ваш аккаунт защищен двухэтапной аутентификацией. Вам нужно будет ввести одноразовый код-пароль из приложения для аутентификации при входе в { -product-mozilla-account }.
+tfa-row-enabled-description = Ваш аккаунт защищён двухэтапной аутентификацией. Вам нужно будет ввести одноразовый код-пароль из приложения для аутентификации при входе в { -product-mozilla-account(case: "nominative") }.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Как это защищает ваш аккаунт
@@ -1254,7 +1254,7 @@ terms-privacy-agreement-intro-2 = Продолжая, вы соглашаете�
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Условия использования</mozSubscriptionTosLink> и <mozSubscriptionPrivacyLink>Уведомление о конфиденциальности</mozSubscriptionPrivacyLink> служб подписки { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Условия обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомление о конфиденциальности</mozillaAccountsPrivacy> { -product-mozilla-accounts }
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Условия обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомление о конфиденциальности</mozillaAccountsPrivacy> { -product-mozilla-accounts(case: "genitive") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Продолжая, вы соглашаетесь с <mozillaAccountsTos>Условиями обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомлением о конфиденциальности</mozillaAccountsPrivacy>.
 
@@ -1362,7 +1362,7 @@ connect-another-device-ios-complete-setup-message = Войдите в { -brand-f
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Требуется локальное хранилище и куки
-cookies-disabled-enable-prompt-2 = Пожалуйста, включите куки и локальное хранилище в вашем браузере для доступа к { -product-mozilla-account }. Если вы включите их, браузер сможет запоминать ваши сессии.
+cookies-disabled-enable-prompt-2 = Пожалуйста, включите куки и локальное хранилище в вашем браузере для доступа к { -product-mozilla-account(case: "dative") }. Если вы включите их, браузер сможет запоминать ваши сессии.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Попробовать снова
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1371,7 +1371,7 @@ cookies-disabled-learn-more = Подробнее
 ## Index / home page
 
 index-header = Введите ваш адрес эл. почты
-index-sync-header = Перейдите в свой { -product-mozilla-account }
+index-sync-header = Перейдите в свой { -product-mozilla-account(case: "nominative") }
 index-sync-subheader = Синхронизируйте свои пароли, вкладки и закладки везде, где используете { -brand-firefox }.
 index-relay-header = Создать псевдоним электронной почты
 index-relay-subheader = Укажите адрес электронной почты, на который вы хотите пересылать письма с вашего замаскированного адреса электронной почты.
@@ -1379,7 +1379,7 @@ index-relay-subheader = Укажите адрес электронной поч�
 index-subheader-with-servicename = Перейти к { $serviceName }
 index-subheader-default = Перейти к настройкам аккаунта
 index-cta = Зарегистрироваться или войти
-index-account-info = { -product-mozilla-account } также открывает доступ к другим продуктам { -brand-mozilla } для защиты приватности.
+index-account-info = { -product-mozilla-account(case: "nominative_uppercase") } также открывает доступ к другим продуктам { -brand-mozilla } для защиты приватности.
 index-email-input =
     .label = Введите ваш адрес эл. почты
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
@@ -1593,7 +1593,7 @@ complete-reset-pw-recovery-key-link = Использовать ключ восс
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ваш пароль был сброшен.
-reset-password-complete-banner-message = Не забудьте сгенерировать новый ключ восстановления аккаунта в настройках { -product-mozilla-account }, чтобы избежать проблем со входом в систему в будущем.
+reset-password-complete-banner-message = Не забудьте сгенерировать новый ключ восстановления аккаунта в настройках { -product-mozilla-account(case: "genitive") }, чтобы избежать проблем со входом в систему в будущем.
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
@@ -1715,7 +1715,7 @@ signin-link-expired-message-2 = Срок действия ссылки, на к�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header-2 = Введите свой пароль <span>для вашего { -product-mozilla-account }</span>
+signin-password-needed-header-2 = Введите свой пароль <span>для вашего { -product-mozilla-account(case: "genitive") }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Перейти к { $serviceName }
@@ -1855,7 +1855,7 @@ signin-reported-message = Наша команда оповещена. Ваши �
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-signin-token-code-heading-2 = Введите код подтверждения<span> для вашего { -product-mozilla-account }</span>
+signin-token-code-heading-2 = Введите код подтверждения<span> для вашего { -product-mozilla-account(case: "genitive") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction-v2 = Введите код, отправленный на <email>{ $email }</email>, в течение 5 минут.
 signin-token-code-input-label-v2 = Введите код из 6 цифр
@@ -1926,7 +1926,7 @@ confirm-signup-code-page-title = Введите код подтверждени�
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-confirm-signup-code-heading-2 = Введите код подтверждения <span>для вашего { -product-mozilla-account }</span>
+confirm-signup-code-heading-2 = Введите код подтверждения <span>для вашего { -product-mozilla-account(case: "genitive") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction-v2 = Введите код, отправленный на <email>{ $email }</email>, в течение 5 минут.
 confirm-signup-code-input-label = Введите код из 6 цифр
@@ -1958,7 +1958,7 @@ signup-change-email-link = Сменить адрес электронной по
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = Синхронизация включена
-signup-confirmed-sync-success-banner = { -product-mozilla-account } подтверждён
+signup-confirmed-sync-success-banner = { -product-mozilla-account(case: "nominative_uppercase") } подтверждён
 signup-confirmed-sync-button = Начать веб-сёрфинг
 # Shown when payment methods are also synced
 signup-confirmed-sync-description-with-payment-v2 = Ваши пароли, способы оплаты, адреса, закладки, история и пр. могут синхронизироваться везде, где вы используете { -brand-firefox }.
