@@ -551,7 +551,7 @@ msgstr "Rad…"
 
 #: .es5/lib/auth-errors.js:334
 msgid "Could not get Privacy Notice"
-msgstr "Neuspjelo dobavljanje napomene o privatnosti"
+msgstr "Neuspjelo dobavljanje napomena o privatnosti"
 
 #: .es5/lib/auth-errors.js:338
 msgid "Could not get Terms of Service"
