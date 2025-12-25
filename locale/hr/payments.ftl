@@ -104,7 +104,7 @@ payment-confirmation-download-button = Nastavi s preuzimanjem
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Ovlašćujem { -brand-mozilla } da tereti moj način plaćanja za prikazani iznos, u skladu s <termsOfServiceLink>uvjetima usluge</termsOfServiceLink> i <privacyNoticeLink>napomeni o privatnosti</privacyNoticeLink>, sve dok ne otkažem pretplatu.
+payment-confirm-with-legal-links-static-3 = Ovlašćujem { -brand-mozilla } da tereti moj način plaćanja za prikazani iznos, u skladu s <termsOfServiceLink>uvjetima usluge</termsOfServiceLink> i <privacyNoticeLink>napomenama o privatnosti</privacyNoticeLink>, sve dok ne otkažem pretplatu.
 payment-confirm-checkbox-error = Ovo moraš dovršiti prije nego što nastaviš
 
 ## Component - PaymentErrorView

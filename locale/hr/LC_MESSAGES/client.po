@@ -555,7 +555,7 @@ msgstr "Neuspjelo dobavljanje napomena o privatnosti"
 
 #: .es5/lib/auth-errors.js:338
 msgid "Could not get Terms of Service"
-msgstr "Neuspjelo dobavljanje uvjeta pružanja usluge"
+msgstr "Neuspjelo dobavljanje uvjeta usluge"
 
 #: .es5/lib/auth-errors.js:342
 msgid "Your new password must be different"
@@ -1569,7 +1569,7 @@ msgstr "Pošalji"
 
 #: .es5/templates/support.mustache:24
 msgid "Terms of Service"
-msgstr "Uvjeti korištenja"
+msgstr "Uvjeti usluge"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
