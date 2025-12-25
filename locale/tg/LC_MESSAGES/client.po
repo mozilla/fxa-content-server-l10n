@@ -354,7 +354,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:91
 msgid "Request body too large"
-msgstr ""
+msgstr "Матни асосии дархост хеле калон аст"
 
 #: .es5/lib/auth-errors.js:109 .es5/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
