@@ -737,6 +737,7 @@ verifyAccountChange-preview =
         [few] Ten kod wygasa za { $expirationTime } minuty.
        *[many] Ten kod wygasa za { $expirationTime } minut.
     }
+verifyAccountChange-prompt = Jeśli tak, oto kod upoważnienia:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =
@@ -747,7 +748,7 @@ verifyAccountChange-expiry-notice =
     }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
-verifyLogin-title-2 = Czy zalogowano do „{ $clientName }”?
+verifyLogin-title-2 = Ktoś zalogował się do „{ $clientName }”. To Ty?
 verifyLogin-description-2 = Pomóż nam zapewnić bezpieczeństwo Twojego konta, potwierdzając logowanie na:
 verifyLogin-subject-2 = Potwierdź logowanie
 verifyLogin-action = Potwierdź logowanie
@@ -757,7 +758,7 @@ verifyLoginCode-subject-line-3 = Użyj kodu { $code }, aby się zalogować
 verifyLoginCode-preview = Ten kod wygaśnie za 5 minut.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-title-2 = Czy zalogowano do „{ $serviceName }”?
+verifyLoginCode-title-2 = Ktoś zalogował się do „{ $serviceName }”. To Ty?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Pomóż nam zapewnić bezpieczeństwo Twojego konta, zatwierdzając logowanie na:
 verifyLoginCode-prompt-3 = Jeśli tak, oto kod upoważnienia:

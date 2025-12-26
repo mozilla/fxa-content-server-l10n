@@ -912,6 +912,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synchronizowanie danych { -brand-firefox(case: "gen") }
 delete-account-product-firefox-addons = Dodatki do { -brand-firefox(case: "gen") }
 delete-account-acknowledge = Proszę potwierdzić, że usuwając konto:
+delete-account-chk-box-1-v4 =
+    .label = Wszystkie płatne subskrypcje zostaną anulowane
 delete-account-chk-box-2 =
     .label = Zachowane informacje i funkcje w produktach { -brand-mozilla(case: "gen") } mogą zostać utracone
 delete-account-chk-box-3 =
@@ -1042,6 +1044,7 @@ verify-secondary-email-please-enter-code-2 = Proszę wpisać kod potwierdzenia w
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = Pomyślnie dodano adres { $email }
+verify-secondary-email-resend-code-button = Wyślij ponownie kod potwierdzenia
 
 ##
 
@@ -1875,6 +1878,7 @@ signin-totp-code-header = Zaloguj się
 signin-totp-code-subheader-v2 = Wpisz kod uwierzytelniania dwuetapowego
 signin-totp-code-instruction-v4 = Sprawdź <strong>aplikację uwierzytelniającą</strong>, aby potwierdzić logowanie.
 signin-totp-code-input-label-v4 = Wpisz sześciocyfrowy kod
+signin-totp-code-aal-banner-content = Skonfigurowałeś uwierzytelnianie dwuetapowe na swoim koncie, ale jeszcze nie zalogowałeś się za pomocą kodu na tym urządzeniu.
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potwierdź
 signin-totp-code-other-account-link = Użyj innego konta
