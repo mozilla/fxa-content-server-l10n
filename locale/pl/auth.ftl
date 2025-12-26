@@ -371,6 +371,9 @@ passwordChangeRequired-different-password-2 = <b>Ważne:</b> wybierz silne hasł
 passwordChangeRequired-different-password-plaintext-2 = Ważne: wybierz silne hasło inne niż używane wcześniej.
 passwordChangeRequired-action = Zmień hasło
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Użyj kodu { $code }, aby zmienić hasło
 password-forgot-otp-preview = Ten kod wygaśnie za 10 minut
 password-forgot-otp-title = Nie pamiętasz hasła?
 password-forgot-otp-request = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z urządzenia:
@@ -691,6 +694,9 @@ subscriptionUpgrade-content-charge-prorated-1 = Została naliczona jednorazowa o
 subscriptionUpgrade-content-charge-credit = Otrzymano środki na koncie w wysokości { $paymentProrated }.
 subscriptionUpgrade-existing = Jeśli któraś z istniejących subskrypcji pokrywa się z tym przełączeniem, zajmiemy się nimi i wyślemy Ci osobną wiadomość e-mail z informacjami. Jeśli nowy plan obejmuje produkty wymagające instalacji, wyślemy Ci osobną wiadomość e-mail z instrukcjami konfiguracji.
 subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Użyj kodu { $unblockCode }, aby się zalogować
 unblockCode-preview = Ten kod wygaśnie za godzinę
 unblockCode-title = Czy to Ty się logujesz?
 unblockCode-prompt = Jeśli tak, to potrzebny jest ten kod upoważnienia:
@@ -721,6 +727,9 @@ verify-description-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozill
 verify-subject = Dokończ tworzenie konta
 verify-action-2 = Potwierdź konto
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Użyj kodu { $code }, aby zmienić swoje konto
+# Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =
     { $expirationTime ->
@@ -742,6 +751,9 @@ verifyLogin-title-2 = Czy zalogowano do „{ $clientName }”?
 verifyLogin-description-2 = Pomóż nam zapewnić bezpieczeństwo Twojego konta, potwierdzając logowanie na:
 verifyLogin-subject-2 = Potwierdź logowanie
 verifyLogin-action = Potwierdź logowanie
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Użyj kodu { $code }, aby się zalogować
 verifyLoginCode-preview = Ten kod wygaśnie za 5 minut.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -756,6 +768,9 @@ verifyPrimary-subject = Potwierdź główny adres e-mail
 verifyPrimary-action-2 = Potwierdź adres e-mail
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Po potwierdzeniu na tym urządzeniu będzie można wykonywać zmiany na koncie, takie jak dodawanie dodatkowego adresu e-mail.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Użyj kodu { $code }, aby potwierdzić swój dodatkowy adres e-mail
 verifySecondaryCode-preview = Ten kod wygaśnie za 5 minut.
 verifySecondaryCode-title-2 = Potwierdź dodatkowy adres e-mail
 verifySecondaryCode-action-2 = Potwierdź adres e-mail
@@ -764,6 +779,9 @@ verifySecondaryCode-action-2 = Potwierdź adres e-mail
 verifySecondaryCode-explainer-2 = Z tego { -product-mozilla-account(case: "gen", capitalization: "lower") } wysłano prośbę o dodanie { $email } jako dodatkowego adresu e-mail:
 verifySecondaryCode-prompt-2 = Użyj tego kodu potwierdzenia:
 verifySecondaryCode-expiry-notice-2 = Wygasa za 5 minut. Po potwierdzeniu ten adres będzie otrzymywał powiadomienia bezpieczeństwa i potwierdzenia.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Użyj kodu { $code }, aby potwierdzić swoje konto
 verifyShortCode-preview-2 = Ten kod wygaśnie za 5 minut
 verifyShortCode-title-3 = Uczyń Internet bardziej otwartym z { -brand-mozilla(case: "ins") }
 # Information on the browser and device triggering this confirmation email follows below this string.
