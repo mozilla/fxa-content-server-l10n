@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Terma dhe kufizime
+loyalty-discount-terms-support = Lidhuni Me Asistencën
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Lidhuni Me Asistencën për { $productName }
+not-found-page-title-terms = S’u gjet faqe
+not-found-page-description-terms = Faqja që po kërkoni, s’ekziston.
+not-found-page-button-terms-manage-subscriptions = Administroni pajtime
+
 ## Page
 
 checkout-signin-or-create = 1. Bëni hyrjen, ose krijoni një { -product-mozilla-account }
@@ -98,6 +106,12 @@ next-payment-confirmation-download-button = Vazhdoni te shkarkimi
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = S’u gjet pajtim
+not-found-description-subscriptions = S’gjetëm dot pajtimin tuaj. Ju lutemi, riprovoni, ose lidhuni me asistencën.
+not-found-button-back-to-subscriptions = Mbrapsht te pajtimet
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = S’u shtua metodë pagesash
@@ -176,12 +190,21 @@ subscription-cancellation-dialog-title = Na vjen keq t’ju shohim të largoheni
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Pajtimi juaj në { $name } është anuluar. Do të mund të përdorni ende { $name } deri më { $date }.
 subscription-cancellation-dialog-aside = Keni pyetje? Vizitoni <LinkExternal>{ -brand-mozilla } Asistencën</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Anuloni pajtim te { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Pas { $currentPeriodEnd }, dita e fundit e ciklit tuaj të faturimit, s’do të jeni në gjendje të përdorni { $productName }.
 subscription-content-cancel-access-message = Më { $currentPeriodEnd }, anuloni hyrjen time dhe të dhëna të miat të ruajtura brenda { $productName }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Anulojeni pajtimin
+    .aria-label = Anulojeni pajtimin tuaj te { $productName }
+cancel-subscription-button-stay-subscribed = Qëndroni i pajtuar
+    .aria-label = Qëndroni i pajtuar te { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -327,6 +350,7 @@ subscription-content-button-cancel-subscription = Anulojeni Pajtimin
 ##
 
 dialog-close = Mbylle dialogun
+button-back-to-subscriptions = Mbrapsht te pajtimet
 subscription-content-cancel-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
@@ -427,3 +451,9 @@ next-coupon-error-generic = Ndodhi një gabim me përpunimin e kodit. Ju lutemi,
 next-coupon-error-invalid = Kodi që dhatë është i pavlefshëm.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Kodi që dhatë ka mbërritur në kufirin e vet.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Kjo ofertë ka skaduar.
+stay-subscribed-error-still-active = Pajtimi juaj te { $productTitle } është ende aktiv.
+stay-subscribed-error-general = Pati një problem me rinovimin e pajtimit tuaj.

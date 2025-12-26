@@ -1043,6 +1043,7 @@ verify-secondary-email-please-enter-code-2 = Ju lutemi, jepni brenda 5 minutash 
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } u shtua me sukses
+verify-secondary-email-resend-code-button = Ridërgoni kod ripohimi
 
 ##
 
@@ -1285,6 +1286,9 @@ auth-error-125 = Kërkesa u bllokua për arsye sigurie
 auth-error-129-2 = Dhatë një numër të pavlefshëm telefoni. Ju lutemi, kontrollojeni dhe riprovoni.
 auth-error-138-2 = Sesion i paripohuar
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Ky email është rezervuar nga një llogari tjetër. Provoni më vonë, ose përdorni një tjetër adresë email.
 auth-error-155 = S’u gjet token TOTP
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = S’u gjet kod mirëfilltësimi kopjeruajtjeje
