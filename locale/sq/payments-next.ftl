@@ -317,6 +317,7 @@ next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm pë
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Doni të vazhdoni të përdorni { $productName }?
+stay-subscribed-access-will-continue = Do të vazhdoni të përdorni { $productName } dhe cikli i faturimeve dhe pagesat për ju do të mbeten po ato.
 subscription-content-button-resubscribe = Ripajtohuni
     .aria-label = Ripajtohuni te { $productName }
 resubscribe-success-dialog-title = Faleminderit! Gjithçka gati.
