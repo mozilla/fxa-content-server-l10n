@@ -322,6 +322,14 @@ subscription-content-button-resubscribe = Ripajtohuni
     .aria-label = Ripajtohuni te { $productName }
 resubscribe-success-dialog-title = Faleminderit! Gjithçka gati.
 
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Faturimi juaj pasues do të jetë { $nextInvoiceTotal } + { $taxDue } taksa, më { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Faturimi juaj pasues do të jetë { $nextInvoiceTotal }, më { $currentPeriodEnd }.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -353,6 +361,7 @@ subscription-content-button-cancel-subscription = Anulojeni Pajtimin
 dialog-close = Mbylle dialogun
 button-back-to-subscriptions = Mbrapsht te pajtimet
 subscription-content-cancel-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
+paypal-unavailable-error = { -brand-paypal } hëpërhë s’mund të përdoret. Ju lutemi, përdorni një tjetër mundësi pagesash, ose riprovoni më vonë.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -456,5 +465,8 @@ next-coupon-error-limit-reached = Kodi që dhatë ka mbërritur në kufirin e ve
 ## Stay Subscribed Error Messages
 
 stay-subscribed-error-expired = Kjo ofertë ka skaduar.
+stay-subscribed-error-discount-used = Kodi për ulje çmimi është aplikuar tashmë.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Kjo ulje në çmim është e vlefshme vetëm për pajtimtarë të tanishëm të { $productTitle }.
 stay-subscribed-error-still-active = Pajtimi juaj te { $productTitle } është ende aktiv.
 stay-subscribed-error-general = Pati një problem me rinovimin e pajtimit tuaj.
