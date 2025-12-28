@@ -89,6 +89,7 @@ subscription-management-card-ending-in = { $last4 } деп аяқталатын 
 subscription-management-card-expires-date = Мерзімі { $expirationDate } күні аяқталады
 subscription-management-button-support = Көмек алу
 subscription-management-your-apple-iap-subscriptions-aria = Сіздің { -brand-apple } қолданбадағы жазылымдарыңыз
+error-payment-method-expired-card = Картаңыздың мерзімі аяқталды. Жазылымдарыңыздың үзілмеуі үшін жаңа карта немесе төлем әдісін қосыңыз.
 paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
 # Page - Not Found
 page-not-found-title = Бет табылмады
@@ -194,6 +195,7 @@ select-tax-location-error-missing-postal-code = Пошта индексіңіз�
 select-tax-location-error-invalid-postal-code = Жарамды пошта индексін енгізіңіз
 select-tax-location-successfully-updated = Орналасқан жеріңіз жаңартылды.
 select-tax-location-error-location-not-updated = Орналасқан жеріңізді жаңарту мүмкін болмады. Қайталап көріңіз.
+select-tax-location-new-tax-rate-info = Орналасқан жеріңізді жаңарту келесі есеп айырысу кезеңінен бастап тіркелгіңіздегі барлық белсенді жазылымдарға жаңа салық мөлшерлемесін қолданады.
 signin-form-continue-button = Жалғастыру
 signin-form-email-input = Эл. поштаны енгізіңіз
 signin-form-email-input-missing = Эл. поштаңызды енгізіңіз

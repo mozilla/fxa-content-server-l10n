@@ -572,6 +572,7 @@ subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } командасы
+subscriptionReplaced-content-credit = Алдыңғы жазылымыңыздан қалған пайдаланылмаған уақыт үшін сізге несие беріледі. Бұл несие тіркелгіңізге автоматты түрде қосылады және алдағы төлемдерге жұмсалады.
 subscriptionReplaced-content-no-action = Сіздің тарапыңыздан ешқандай әрекет қажет емес.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } жазылулары үшін төлем ақпаратын жаңарту қажет
 subscriptionsPaymentProviderCancelled-title = Кешіріңіз, төлем әдісіңізге қатысты мәселе орын алды
