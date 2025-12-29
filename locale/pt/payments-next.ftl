@@ -360,6 +360,7 @@ subscription-content-button-cancel-subscription = Cancelar subscrição
 dialog-close = Fechar janela
 button-back-to-subscriptions = Voltar para subscrições
 subscription-content-cancel-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+paypal-unavailable-error = { -brand-paypal } está atualmente indisponível. Por favor, use outra opção de pagamento ou tente novamente mais tarde.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
