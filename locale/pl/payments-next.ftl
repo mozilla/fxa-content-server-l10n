@@ -125,6 +125,10 @@ subscription-management-button-manage-payment-method = Zarządzaj
 subscription-management-card-ending-in = Karta kończąca się na { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Wygasa { $expirationDate }
+subscription-management-active-subscriptions-heading = Aktywne subskrypcje
+subscription-management-you-have-no-active-subscriptions = Nie masz aktywnych subskrypcji
+subscription-management-new-subs-will-appear-here = Nowe subskrypcje pojawią się tutaj.
+subscription-management-your-active-subscriptions-aria = Twoje aktywne subskrypcje
 subscription-management-button-support = Pomoc
 subscription-management-your-apple-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-google }
@@ -293,6 +297,7 @@ subscription-content-button-cancel-subscription = Anuluj subskrypcję
 ##
 
 subscription-content-cancel-action-error = Wystąpił nieoczekiwany błąd. Spróbuj ponownie.
+paypal-unavailable-error = { -brand-paypal } jest obecnie niedostępny. Użyj innej opcji płatności lub spróbuj ponownie później.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -392,3 +397,7 @@ next-coupon-error-generic = Wystąpił błąd podczas przetwarzania kodu. Prosz�
 next-coupon-error-invalid = Wpisany kod jest nieprawidłowy.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Wpisany kod osiągnął swoje ograniczenie.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Ta oferta wygasła.

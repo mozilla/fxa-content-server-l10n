@@ -692,6 +692,7 @@ subscriptionUpgrade-upgrade-info-2 = Pomyślnie przełączono na { $productName 
 
 subscriptionUpgrade-content-charge-prorated-1 = Została naliczona jednorazowa opłata w wysokości { $invoiceAmountDue }, która odzwierciedla wyższą cenę subskrypcji za pozostałą część tego okresu rozliczeniowego ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Otrzymano środki na koncie w wysokości { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Cena Twojej subskrypcji ulegnie zmianie od następnego rachunku.
 subscriptionUpgrade-existing = Jeśli któraś z istniejących subskrypcji pokrywa się z tym przełączeniem, zajmiemy się nimi i wyślemy Ci osobną wiadomość e-mail z informacjami. Jeśli nowy plan obejmuje produkty wymagające instalacji, wyślemy Ci osobną wiadomość e-mail z instrukcjami konfiguracji.
 subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 # Variables:

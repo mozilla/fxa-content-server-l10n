@@ -1879,6 +1879,7 @@ signin-totp-code-subheader-v2 = Wpisz kod uwierzytelniania dwuetapowego
 signin-totp-code-instruction-v4 = Sprawdź <strong>aplikację uwierzytelniającą</strong>, aby potwierdzić logowanie.
 signin-totp-code-input-label-v4 = Wpisz sześciocyfrowy kod
 signin-totp-code-aal-banner-content = Skonfigurowałeś uwierzytelnianie dwuetapowe na swoim koncie, ale jeszcze nie zalogowałeś się za pomocą kodu na tym urządzeniu.
+signin-totp-code-aal-sign-out-error = Przepraszamy, wystąpił problem z wylogowaniem
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potwierdź
 signin-totp-code-other-account-link = Użyj innego konta
