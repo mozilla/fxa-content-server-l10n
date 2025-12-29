@@ -20,14 +20,14 @@ jobs:
           sudo apt update
           sudo apt install gettext graphicsmagick -y
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 14
       - name: Install global npm packages
         run: |
           npm install -g grunt-cli
       - name: Clone l10n repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Install npm packages
         run: |
           npm install

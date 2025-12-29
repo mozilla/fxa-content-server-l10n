@@ -12,18 +12,18 @@ jobs:
           sudo apt update
           sudo apt install gettext -y
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 18
       - name: Install global npm packages
         run: |
           npm install -g grunt-cli
       - name: Clone l10n repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: "fxa-l10n"
       - name: Clone FxA code repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: "mozilla/fxa"
           fetch-depth: 1
