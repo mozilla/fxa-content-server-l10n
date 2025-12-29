@@ -76,8 +76,15 @@ next-payment-confirmation-download-button = Жүктеп алуды жалғас
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын карта
 
+## Not found page
+
+not-found-title-subscriptions = Жазылым табылмады
+not-found-description-subscriptions = Жазылымыңызды таба алмадық. Қайталап көріңіз немесе қолдау қызметіне хабарласыңыз.
+
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = Төлем әдістері қосылмаған
+subscription-management-page-banner-warning-link-no-payment-method = Төлем әдісін қосу
 subscription-management-subscriptions-heading = Жазылулар
 subscription-management-button-add-payment-method-aria = Төлем әдісін қосу
 subscription-management-button-add-payment-method = Қосу
@@ -90,6 +97,7 @@ subscription-management-card-expires-date = Мерзімі { $expirationDate } �
 subscription-management-button-support = Көмек алу
 subscription-management-your-apple-iap-subscriptions-aria = Сіздің { -brand-apple } қолданбадағы жазылымдарыңыз
 error-payment-method-expired-card = Картаңыздың мерзімі аяқталды. Жазылымдарыңыздың үзілмеуі үшін жаңа карта немесе төлем әдісін қосыңыз.
+subscription-management-button-manage-payment-method-1 = Төлем әдісін басқару
 paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
 # Page - Not Found
 page-not-found-title = Бет табылмады
@@ -208,6 +216,18 @@ next-new-user-subscribe-product-assurance = Біз эл. поштаңызды т
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-success-dialog-title = Рахмет! Барлығы дайын.
+
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } салық
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

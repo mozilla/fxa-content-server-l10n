@@ -136,6 +136,10 @@ automatedEmailRecoveryKey-origin-device-browser-only = Тази заявка и�
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 # - $uaOSVersion - the user agent's operating system version
 automatedEmailRecoveryKey-origin-device-OS-version-only = Тази заявка идва от { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Тази заявка идва от { $uaOS }.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Тази заявка дойде от:
 # Colon is followed by a URL to the account recovery key section of account settings
