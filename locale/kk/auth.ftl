@@ -316,6 +316,10 @@ passwordChangeRequired-preview = Пароліңізді дереу өзгерт�
 passwordChangeRequired-title-2 = Пароліңізді қалпына келтіріңіз
 passwordChangeRequired-action = Парольді тастау
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Пароліңізді өзгерту үшін { $code } пайдаланыңыз
+password-forgot-otp-preview = Бұл кодтың мерзімі 10 минуттан кейін аяқталады
 password-forgot-otp-title = Пароліңізді ұмыттыңыз ба?
 password-forgot-otp-request = Біз сіздің { -product-mozilla-account } тіркелгіңізді паролін өзгерту туралы сұрауды алдық:
 password-forgot-otp-code-2 = Бұл сіз болсаңыз, міне, жалғастыру үшін сіздің растау кодыңыз:
@@ -372,6 +376,8 @@ postAddRecoveryPhone-action = Тіркелгіні басқару
 postAddTwoStepAuthentication-preview = Сіздің тіркелгіңіз қорғалған
 postAddTwoStepAuthentication-subject-v3 = Екі қадамды аутентификация іске қосылған
 postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутентификацияны іске қостыңыз
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Сіз мұны келесі жерден сұрадыңыз:
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
 postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
 postChangeAccountRecovery-title = Сіз тіркелгіңізді қалпына келтіру кілтін өзгерттіңіз
@@ -609,6 +615,7 @@ subscriptionUpgrade-upgrade-info-2 = Сіз { $productName } нұсқасына 
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
+unblockCode-preview = Бұл кодтың мерзімі бір сағатта бітеді
 unblockCode-title = Кірем деген сіз бе?
 unblockCode-prompt = Иә болса, міне, сізге керек авторизация коды:
 # Variables:
@@ -638,6 +645,13 @@ verify-description-2 = Тіркелгіңізді растаңыз және { -b
 verify-subject = Тіркелгіні жасауды аяқтаңыз
 verify-action-2 = Тіркелгіні растау
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Бұл кодтың мерзімі { $expirationTime } минуттан кейін аяқталады.
+       *[other] Бұл кодтың мерзімі { $expirationTime } минуттан кейін аяқталады.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = { $clientName } ішіне кірдіңіз бе?
 verifyLogin-description-2 = Жүйеге кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
@@ -656,6 +670,7 @@ verifyPrimary-subject = Біріншілік эл. поштаңызды раст
 verifyPrimary-action-2 = Эл. поштаны растау
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Расталғаннан кейін, екіншілік эл. поштаны қосу сияқты тіркелгіні өзгерту бұл тіркелгіден қолжетерлік болады.
+verifySecondaryCode-preview = Бұл кодтың мерзімі 5 минуттан кейін аяқталады.
 verifySecondaryCode-title-2 = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-action-2 = Эл. поштаны растау
 # Variables:
