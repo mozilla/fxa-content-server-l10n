@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = 已經套用此折扣碼。
 stay-subscribed-error-not-current-subscriber = 此折扣僅適用於目前的 { $productTitle } 訂閱者。
 stay-subscribed-error-still-active = 您的 { $productTitle } 訂閱仍然有效。
 stay-subscribed-error-general = 續訂時發生問題。
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = 無法處理本交易。請檢查您的信用卡資訊後再試一次。
+manage-payment-method-intent-error-expired-card-error = 您的信用卡已經過期，請改用其他卡片。
+manage-payment-method-intent-error-try-again = 取得款項授權時發生問題，請再試一次或與您的發卡單位聯繫。
+manage-payment-method-intent-error-get-in-touch = 取得款項授權時發生問題，請與您的發卡單位聯繫。
+manage-payment-method-intent-error-insufficient-funds = 您的卡片額度不足，請改用其他卡片。
+manage-payment-method-intent-error-generic = 處理付款時發生未知錯誤，請再試一次。
