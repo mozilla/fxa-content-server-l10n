@@ -116,6 +116,10 @@ payment-details = جزئیات پرداخت:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = شماره فاکتور: { $invoiceNumber }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider-plaintext = روش پرداخت: { $paymentProviderName }
+
 ##
 
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
