@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Koda za popust je že uveljavljena.
 stay-subscribed-error-not-current-subscriber = Ta popust je na voljo samo za trenutne naročnike { $productTitle }.
 stay-subscribed-error-still-active = Vaša naročnina na { $productTitle } je še vedno aktivna.
 stay-subscribed-error-general = Pri podaljšanju naročnine je prišlo do težave.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Vaše transakcije ni bilo mogoče obdelati. Preverite podatke o svoji kreditni kartici in poskusite znova.
+manage-payment-method-intent-error-expired-card-error = Videti je, da se je vaši kreditni kartici iztekla veljavnost. Poskusite z drugo kartico.
+manage-payment-method-intent-error-try-again = Hmm. Pri avtorizaciji vašega plačila je prišlo do težave. Poskusite znova ali se obrnite na izdajatelja kartice.
+manage-payment-method-intent-error-get-in-touch = Hmm. Pri avtorizaciji vašega plačila je prišlo do težave. Obrnite se na izdajatelja kartice.
+manage-payment-method-intent-error-insufficient-funds = Videti je, da na vaši kartici ni dovolj sredstev. Poskusite z drugo kartico.
+manage-payment-method-intent-error-generic = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.

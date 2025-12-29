@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Codice sconto già applicato.
 stay-subscribed-error-not-current-subscriber = Questo sconto è disponibile solo per gli attuali abbonati a { $productTitle }.
 stay-subscribed-error-still-active = Il tuo abbonamento a { $productTitle } è ancora attivo.
 stay-subscribed-error-general = Si è verificato un problema con il rinnovo dell’abbonamento.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = La transazione non può essere elaborata. Verifica i dati della tua carta di credito e riprova.
+manage-payment-method-intent-error-expired-card-error = Questa carta di credito risulta scaduta. Prova con un’altra carta.
+manage-payment-method-intent-error-try-again = Uhm… Si è verificato un problema durante l’autorizzazione del pagamento. Riprova o contatta l’emittente della carta.
+manage-payment-method-intent-error-get-in-touch = Uhm… Si è verificato un problema durante l’autorizzazione del pagamento. Contatta l’emittente della carta.
+manage-payment-method-intent-error-insufficient-funds = Questa carta non dispone di credito sufficiente. Prova con un’altra carta.
+manage-payment-method-intent-error-generic = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.

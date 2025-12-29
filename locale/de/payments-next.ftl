@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Rabattcode wurde bereits eingelöst.
 stay-subscribed-error-not-current-subscriber = Dieser Rabatt ist nur für aktuelle { $productTitle }-Abonnenten verfügbar.
 stay-subscribed-error-still-active = Ihr Abonnement von { $productTitle } ist noch aktiv.
 stay-subscribed-error-general = Bei der Erneuerung Ihres Abonnements ist ein Problem aufgetreten.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Ihre Transaktion konnte nicht verarbeitet werden. Bitte überprüfen Sie Ihre Kreditkarteninformationen und versuchen Sie es erneut.
+manage-payment-method-intent-error-expired-card-error = Es sieht so aus, als sei Ihre Kreditkarte abgelaufen. Versuchen Sie es mit einer anderen Karte.
+manage-payment-method-intent-error-try-again = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
+manage-payment-method-intent-error-get-in-touch = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
+manage-payment-method-intent-error-insufficient-funds = Es sieht so aus, als ob Ihre Karte nicht genügend Guthaben hat. Versuchen Sie es mit einer anderen Karte.
+manage-payment-method-intent-error-generic = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.

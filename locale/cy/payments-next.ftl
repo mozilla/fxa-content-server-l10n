@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Cod gostyngiad eisoes wedi'i osod.
 stay-subscribed-error-not-current-subscriber = Mae'r gostyngiad hwn ar gael i danysgrifwyr cyfredol { $productTitle } yn unig.
 stay-subscribed-error-still-active = Mae eich tanysgrifiad { $productTitle } yn dal yn weithredol.
 stay-subscribed-error-general = Bu problem gydag adnewyddu eich tanysgrifiad.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Nid oedd modd prosesu eich trafodyn. Gwiriwch fanylion eich cerdyn credyd a rhoi cynnig arall arni.
+manage-payment-method-intent-error-expired-card-error = Mae'n edrych fel bod eich cerdyn credyd wedi dod i ben. Rhowch gynnig ar gerdyn arall.
+manage-payment-method-intent-error-try-again = Hmm. Bu anhawster wrth  awdurdodi'ch taliad. Rhowch gynnig arall arni neu cysylltwch â chyhoeddwr eich cerdyn.
+manage-payment-method-intent-error-get-in-touch = Hmm. Bu anhawster wrth  awdurdodi'ch taliad. Cysylltwch â chyhoeddwr eich cerdyn.
+manage-payment-method-intent-error-insufficient-funds = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
+manage-payment-method-intent-error-generic = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.

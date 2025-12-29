@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Rabattkoden har redan använts.
 stay-subscribed-error-not-current-subscriber = Denna rabatt är endast tillgänglig för nuvarande prenumeranter på { $productTitle }.
 stay-subscribed-error-still-active = Din prenumeration på { $productTitle } är fortfarande aktiv.
 stay-subscribed-error-general = Det uppstod ett problem med att förnya din prenumeration.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Din transaktion kunde inte behandlas. Kontrollera din kreditkortsinformation och försök igen.
+manage-payment-method-intent-error-expired-card-error = Det ser ut som att ditt kreditkort har upphört att gälla. Prova ett annat kort.
+manage-payment-method-intent-error-try-again = Hmm. Det gick inte att godkänna din betalning. Försök igen eller kontakta din kortutgivare.
+manage-payment-method-intent-error-get-in-touch = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med din kortutgivare.
+manage-payment-method-intent-error-insufficient-funds = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
+manage-payment-method-intent-error-generic = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.

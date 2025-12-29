@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Slevový kód byl již uplatněn.
 stay-subscribed-error-not-current-subscriber = Tato sleva je dostupná pouze pro stávající předplatitele produktu { $productTitle }.
 stay-subscribed-error-still-active = Vaše předplatné produktu { $productTitle } je stále aktivní.
 stay-subscribed-error-general = Při obnovení vašeho předplatného došlo k chybě.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zadané údaje o své kartě a zkuste to znovu.
+manage-payment-method-intent-error-expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zkuste použít jinou.
+manage-payment-method-intent-error-try-again = Autorizace vaší platby se nezdařila. Zkuste to prosím znovu nebo kontaktujte vydavatele vaší karty.
+manage-payment-method-intent-error-get-in-touch = Autorizace vaší platby se nezdařila. Kontaktujte prosím vydavatele vaší karty.
+manage-payment-method-intent-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste použít jinou.
+manage-payment-method-intent-error-generic = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.

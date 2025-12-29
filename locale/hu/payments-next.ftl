@@ -471,3 +471,12 @@ stay-subscribed-error-discount-used = A kedvezménykód már alkalmazva van.
 stay-subscribed-error-not-current-subscriber = Ez a kedvezmény csak a jelenlegi { $productTitle } előfizetők számára érhető el.
 stay-subscribed-error-still-active = A(z) { $productTitle } előfizetése még aktív.
 stay-subscribed-error-general = Hiba történt az előfizetés megújításakor.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatait, és próbálja újra.
+manage-payment-method-intent-error-expired-card-error = Úgy tűnik, hogy a bankkártya lejárt. Próbálkozzon egy másik kártyával.
+manage-payment-method-intent-error-try-again = Hmm. Hiba történt a fizetés jóváhagyásakor. Próbálkozzon újra, vagy vegye fel a kapcsolatot a kártyakibocsátóval.
+manage-payment-method-intent-error-get-in-touch = Hmm. Hiba történt a fizetés jóváhagyásakor. Vegye fel a kapcsolatot a kártyakibocsátóval.
+manage-payment-method-intent-error-insufficient-funds = Úgy tűnik, hogy a bankkártyán kevés a fedezet. Próbálkozzon egy másik kártyával.
+manage-payment-method-intent-error-generic = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
