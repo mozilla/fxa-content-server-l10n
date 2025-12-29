@@ -434,6 +434,7 @@ sub-update-new-plan-daily = { $productName } (күн сайын)
 sub-update-new-plan-weekly = { $productName } (апта сайын)
 sub-update-new-plan-monthly = { $productName } (ай сайын)
 sub-update-new-plan-yearly = { $productName } (жыл сайын)
+sub-update-prorated-upgrade-credit = Көрсетілген теріс теңгерім сіздің тіркелгіңізге кредит ретінде есептеледі және болашақ шоттарды төлеу үшін пайдаланылады.
 
 ## Routes - Subscriptions - Cancel
 
