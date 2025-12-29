@@ -462,3 +462,12 @@ stay-subscribed-error-discount-used = קוד ההנחה כבר הוחל.
 stay-subscribed-error-not-current-subscriber = הנחה זו זמינה רק למינויים קיימים של { $productTitle }.
 stay-subscribed-error-still-active = המינוי שלך ל־{ $productTitle } עדיין פעיל.
 stay-subscribed-error-general = הייתה בעיה בחידוש המינוי שלך.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = לא ניתן היה לעבד את העסקה שלך. נא לאמת את פרטי כרטיס האשראי שלך ולנסות שוב.
+manage-payment-method-intent-error-expired-card-error = נראה שפג תוקף הכרטיס אשראי שלך. נא לנסות כרטיס אחר.
+manage-payment-method-intent-error-try-again = הממ. הייתה בעיה באישור התשלום שלך. נא לנסות שוב או ליצור קשר עם מנפיק הכרטיס שלך.
+manage-payment-method-intent-error-get-in-touch = הממ. הייתה בעיה באישור התשלום שלך. נא ליצור קשר עם מנפיק הכרטיס שלך.
+manage-payment-method-intent-error-insufficient-funds = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
+manage-payment-method-intent-error-generic = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
