@@ -474,3 +474,12 @@ stay-subscribed-error-discount-used = Rabatowy kod je so hižo nałožił.
 stay-subscribed-error-not-current-subscriber = Tutón rabat je jenož za aktualnych abonentow { $productTitle } k dispoziciji.
 stay-subscribed-error-still-active = Waš abonement { $productTitle } je hišće aktiwny.
 stay-subscribed-error-general = Při wobnowjenju wašeho abonementa je problem nastał.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Waša transakcija njeda so předźěłować. Přepruwujće prošu informacije swojeje kreditneje karty a spytajće hišće raz.
+manage-payment-method-intent-error-expired-card-error = Zda so, kaž by waša kreditna karta spadnyła. Spytajće druhu kartu.
+manage-payment-method-intent-error-try-again = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Spytajće hišće raz abo stajće so z wudawaćelom swojeje karty do zwiska.
+manage-payment-method-intent-error-get-in-touch = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
+manage-payment-method-intent-error-insufficient-funds = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
+manage-payment-method-intent-error-generic = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
