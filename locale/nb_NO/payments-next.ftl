@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Rabattkoden er allerede brukt.
 stay-subscribed-error-not-current-subscriber = Denne rabatten er kun tilgjengelig for nåværende { $productTitle }-abonnenter.
 stay-subscribed-error-still-active = Ditt abonnement på { $productTitle } er fortsatt aktivt.
 stay-subscribed-error-general = Det oppsto et problem med å fornye abonnementet ditt.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Transaksjonen din kunne ikke behandles. Kontroller betalingskortinformasjonen din og prøv igjen.
+manage-payment-method-intent-error-expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv et annet kort.
+manage-payment-method-intent-error-try-again = Hmm. Det oppstod et problem med å godkjenne betalingen din. Prøv igjen eller ta kontakt med kortutstederen din.
+manage-payment-method-intent-error-get-in-touch = Hmm. Det oppstod et problem med å godkjenne betalingen din. Ta kontakt med kortutstederen din.
+manage-payment-method-intent-error-insufficient-funds = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
+manage-payment-method-intent-error-generic = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
