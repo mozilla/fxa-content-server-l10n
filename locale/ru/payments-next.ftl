@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Код на скидку уже приме
 stay-subscribed-error-not-current-subscriber = Эта скидка доступна только для текущих подписчиков на { $productTitle }.
 stay-subscribed-error-still-active = Ваша подписка на { $productTitle } всё ещё активна.
 stay-subscribed-error-general = При продлении вашей подписки возникла проблема.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Ваша транзакция не может быть обработана. Пожалуйста, проверьте данные своей банковской карты и попробуйте ещё раз.
+manage-payment-method-intent-error-expired-card-error = Похоже, срок действия вашей банковской карты истёк. Попробуйте другую карту.
+manage-payment-method-intent-error-try-again = Хм. При авторизации платежа произошла ошибка. Повторите попытку или свяжитесь с издателем карты.
+manage-payment-method-intent-error-get-in-touch = Хм. При авторизации платежа произошла ошибка. Свяжитесь с издателем вашей карты.
+manage-payment-method-intent-error-insufficient-funds = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
+manage-payment-method-intent-error-generic = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
