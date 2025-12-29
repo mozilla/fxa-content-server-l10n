@@ -474,3 +474,12 @@ stay-subscribed-error-discount-used = Rabatowy kod jo se nałožył.
 stay-subscribed-error-not-current-subscriber = Toś ten rabat jo jano za aktualne abonenty{ $productTitle } k dispoziciji.
 stay-subscribed-error-still-active = Waš abonement { $productTitle } jo hyšći aktiwny.
 stay-subscribed-error-general = Pśi wobnowjenju wašogo abonementa jo problem nastał.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Waša transakcija njedajo se pśeźěłowaś. Pśeglědujśo pšosym informacije swójeje kreditoweje kórty a wopytajśo hyšći raz.
+manage-payment-method-intent-error-expired-card-error = Zda se, ako by waša kreditowa kórta spadnuła. Wopytajśo drugu kórtu.
+manage-payment-method-intent-error-try-again = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Wopytajśo hyšći raz abo stajśo se z wudawarjom swójeje kórty do zwiska.
+manage-payment-method-intent-error-get-in-touch = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Stajśo se z wudawarjom swójeje kórty do zwiska.
+manage-payment-method-intent-error-insufficient-funds = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
+manage-payment-method-intent-error-generic = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
