@@ -471,3 +471,12 @@ stay-subscribed-error-discount-used = Codice de disconto jam applicate.
 stay-subscribed-error-not-current-subscriber = Iste disconto es solo disponibile pro abonatos actual de { $productTitle }.
 stay-subscribed-error-still-active = Tu abonamento a { $productTitle } es ancora active.
 stay-subscribed-error-general = Il habeva un problema renovante tu abonamento.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Tu transaction non pote esser processate. Verifica le informationes de tu carta de credito e retenta.
+manage-payment-method-intent-error-expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
+manage-payment-method-intent-error-try-again = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Retenta o contacta tu emissor de carta.
+manage-payment-method-intent-error-get-in-touch = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Contacta tu emissor de carta.
+manage-payment-method-intent-error-insufficient-funds = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
+manage-payment-method-intent-error-generic = Un error impreviste ha occurrite durante le elaboration de tu pagamento, retenta.
