@@ -1046,7 +1046,7 @@ msgstr "Подтвердить"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr "Срок кода истек?"
+msgstr "Срок кода истёк?"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."

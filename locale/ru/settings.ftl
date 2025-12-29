@@ -1094,7 +1094,7 @@ security-password =
 security-password-created-date = Создан { $date }
 security-not-set = Не настроена
 security-action-create = Создать
-security-set-password = Установите пароль для синхронизации и использования определенных функций безопасности учётной записи.
+security-set-password = Установите пароль для синхронизации и использования определённых функций безопасности аккаунта.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Просмотр последних действий в аккаунте
 signout-sync-header = Время сессии истекло
@@ -1151,7 +1151,7 @@ switch-turn-on = Включить
 # Used as "title" attribute when switch has been interacted with and form is submitting
 switch-submitting = Отправка…
 switch-is-on = включено
-switch-is-off = выключено
+switch-is-off = отключено
 
 ## Sub-section row Defaults
 
