@@ -470,3 +470,12 @@ stay-subscribed-error-discount-used = Kodi për ulje çmimi është aplikuar tas
 stay-subscribed-error-not-current-subscriber = Kjo ulje në çmim është e vlefshme vetëm për pajtimtarë të tanishëm të { $productTitle }.
 stay-subscribed-error-still-active = Pajtimi juaj te { $productTitle } është ende aktiv.
 stay-subscribed-error-general = Pati një problem me rinovimin e pajtimit tuaj.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Transaksioni juaj s’u krye dot. Ju lutemi, verifikoni të dhënat e kartës tuaj të kreditit dhe riprovoni.
+manage-payment-method-intent-error-expired-card-error = Duket sikur karta juaj e kreditit të ketë skaduar. Provoni një kartë tjetër.
+manage-payment-method-intent-error-try-again = Hëm. Pati një problem me autorizimin e pagesës tuaj. Riprovoni ose lidhuni me emetuesin e kartës tuaj.
+manage-payment-method-intent-error-get-in-touch = Hëm. Pati një problem me autorizimin e pagesës tuaj. Lidhuni me emetuesin e kartës tuaj.
+manage-payment-method-intent-error-insufficient-funds = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
+manage-payment-method-intent-error-generic = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
