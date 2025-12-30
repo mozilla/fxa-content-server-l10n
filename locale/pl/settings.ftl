@@ -673,6 +673,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Kontynuuj
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Włączono uwierzytelnianie dwuetapowe
+flow-setup-2fa-inline-complete-success-banner-description = Aby chronić wszystkie podłączone urządzenia, należy wylogować się ze wszystkiego, co korzysta z tego konta, a następnie zalogować się ponownie, używając nowego uwierzytelniania dwuetapowego.
 flow-setup-2fa-inline-complete-backup-code = Zapasowe kody uwierzytelniania
 flow-setup-2fa-inline-complete-backup-phone = Telefon odzyskiwania
 # $count (Number) - an integer representing the number of backup
@@ -806,6 +807,7 @@ nav-email-comm = Ustawienia poczty
 
 page-2fa-change-title = Zmień uwierzytelnianie dwuetapowe
 page-2fa-change-success = Uwierzytelnianie dwuetapowe zostało zaktualizowane
+page-2fa-change-success-additional-message = Aby chronić wszystkie podłączone urządzenia, należy wylogować się ze wszystkiego, co korzysta z tego konta, a następnie zalogować się ponownie, używając nowego uwierzytelniania dwuetapowego.
 page-2fa-change-totpinfo-error = Wystąpił błąd podczas zmiany aplikacji do uwierzytelniania dwuetapowego. Spróbuj ponownie później.
 page-2fa-change-qr-instruction = <strong>1. krok:</strong> zeskanuj ten kod QR za pomocą dowolnej aplikacji uwierzytelniającej, takiej jak Duo lub Google Authenticator. Utworzy to nowe połączenie, a wszystkie poprzednie połączenia przestaną działać.
 
@@ -837,6 +839,7 @@ page-2fa-setup-totpinfo-error = Wystąpił błąd podczas konfigurowania uwierzy
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ten kod jest niepoprawny. Spróbuj ponownie.
 page-2fa-setup-success = Uwierzytelnianie dwuetapowe zostało włączone
+page-2fa-setup-success-additional-message = Aby chronić wszystkie podłączone urządzenia, należy wylogować się ze wszystkiego, co korzysta z tego konta, a następnie zalogować się ponownie, używając uwierzytelniania dwuetapowego.
 
 ## Avatar change page
 
@@ -1878,7 +1881,10 @@ signin-totp-code-header = Zaloguj się
 signin-totp-code-subheader-v2 = Wpisz kod uwierzytelniania dwuetapowego
 signin-totp-code-instruction-v4 = Sprawdź <strong>aplikację uwierzytelniającą</strong>, aby potwierdzić logowanie.
 signin-totp-code-input-label-v4 = Wpisz sześciocyfrowy kod
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Dlaczego musisz się uwierzytelnić?
 signin-totp-code-aal-banner-content = Skonfigurowałeś uwierzytelnianie dwuetapowe na swoim koncie, ale jeszcze nie zalogowałeś się za pomocą kodu na tym urządzeniu.
+signin-totp-code-aal-sign-out = Wyloguj się na tym urządzeniu
 signin-totp-code-aal-sign-out-error = Przepraszamy, wystąpił problem z wylogowaniem
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Potwierdź

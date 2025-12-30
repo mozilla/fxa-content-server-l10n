@@ -441,6 +441,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Dodano również zapasowe k
 postAddTwoStepAuthentication-recovery-method-phone = Dodano również { $maskedPhoneNumber } jako numer telefonu odzyskiwania.
 postAddTwoStepAuthentication-how-protects-link = W jaki sposób chroni to Twoje konto
 postAddTwoStepAuthentication-how-protects-plaintext = W jaki sposób chroni to Twoje konto:
+postAddTwoStepAuthentication-device-sign-out-message = Aby chronić wszystkie podłączone urządzenia, należy wylogować się ze wszystkiego, co korzysta z tego konta, a następnie zalogować się ponownie, używając uwierzytelniania dwuetapowego.
 postChangeAccountRecovery-subject = Zmieniono klucz odzyskiwania konta
 postChangeAccountRecovery-title = Zmieniono klucz odzyskiwania konta
 postChangeAccountRecovery-body-part1 = Masz teraz nowy klucz odzyskiwania konta. Twój poprzedni klucz został usunięty.
@@ -466,6 +467,7 @@ postChangeTwoStepAuthentication-from-device = Zażądano z urządzenia:
 postChangeTwoStepAuthentication-action = Zarządzaj kontem
 postChangeTwoStepAuthentication-how-protects-link = W jaki sposób chroni to Twoje konto
 postChangeTwoStepAuthentication-how-protects-plaintext = W jaki sposób chroni to Twoje konto:
+postChangeTwoStepAuthentication-device-sign-out-message = Aby chronić wszystkie podłączone urządzenia, należy wylogować się ze wszystkiego, co korzysta z tego konta, a następnie zalogować się ponownie, używając nowego uwierzytelniania dwuetapowego.
 postConsumeRecoveryCode-title-3 = Zapasowy kod uwierzytelniania został użyty do potwierdzenia zmiany hasła
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -616,11 +618,19 @@ subscriptionFirstInvoice-content-install-2 = Otrzymasz oddzielną wiadomość z�
 subscriptionFirstInvoice-content-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Metoda płatności dla { $productName } wygasła lub wkrótce wygaśnie
+subscriptionPaymentExpired-title-2 = Metoda płatności wygasła lub wkrótce wygaśnie
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Metoda płatności używana do { $productName } wygasła lub niedługo wygaśnie.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Płatność za { $productName } się nie powiodła
 subscriptionPaymentFailed-title = Przepraszamy, mamy problem z obsługą płatności
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Wystąpił problem z obsługą ostatniej płatności za { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Możliwe, że metoda płatności wygasła lub obecna metoda płatności jest nieaktualna.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Wymagana jest aktualizacja informacji o płatności za { $productName }
@@ -628,6 +638,7 @@ subscriptionPaymentProviderCancelled-title = Przepraszamy, mamy problem z wybra
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Wykryliśmy problem z wybraną metodą płatności za { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Możliwe, że metoda płatności wygasła lub obecna metoda płatności jest nieaktualna.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Ponownie aktywowano subskrypcję { $productName }
@@ -738,6 +749,9 @@ verifyAccountChange-preview =
         [few] Ten kod wygasa za { $expirationTime } minuty.
        *[many] Ten kod wygasa za { $expirationTime } minut.
     }
+verifyAccountChange-title = Czy zmieniasz dane swojego konta?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Pomóż nam zapewnić bezpieczeństwo Twojego konta, zatwierdzając tę zmianę na:
 verifyAccountChange-prompt = Jeśli tak, oto kod upoważnienia:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
