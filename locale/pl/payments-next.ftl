@@ -1,3 +1,4 @@
+loyalty-discount-terms-support = Skontaktuj się z pomocą
 not-found-page-title-terms = Nie odnaleziono strony
 not-found-page-description-terms = Strona, której szukasz, nie istnieje.
 not-found-page-button-terms-manage-subscriptions = Zarządzanie subskrypcjami
@@ -117,6 +118,7 @@ subscription-management-nav-active-subscriptions = Aktywne subskrypcje
 subscription-management-payment-details-heading = Informacje o płatności
 subscription-management-email-label = E-mail
 subscription-management-credit-balance-label = Saldo kredytowe
+subscription-management-payment-method-label = Metoda płatności
 subscription-management-button-add-payment-method-aria = Dodaj metodę płatności
 subscription-management-button-add-payment-method = Dodaj
 subscription-management-button-manage-payment-method-aria = Zarządzaj metodą płatności
@@ -132,12 +134,23 @@ subscription-management-your-active-subscriptions-aria = Twoje aktywne subskrypc
 subscription-management-button-support = Pomoc
 subscription-management-your-apple-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Wygasa: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Zarządzaj subskrypcją { $productName }
 subscription-management-button-manage-subscription-1 = Zarządzaj subskrypcją
+error-payment-method-banner-title-expired-card = Wygasła karta
+error-payment-method-banner-message-add-new-card = Dodaj nową kartę lub metodę płatności, aby uniknąć przerw w subskrypcji.
+error-payment-method-banner-label-update-payment-method = Zaktualizuj metodę płatności
+error-payment-method-expired-card = Twoja karta wygasła. Dodaj nową kartę lub metodę płatności, aby uniknąć przerw w subskrypcji.
 subscription-management-button-manage-payment-method-1 = Zarządzaj metodą płatności
+subscription-management-error-apple-pay = Wystąpił problem z Twoim kontem { -brand-apple-pay }. Rozwiąż problem, aby zachować aktywne subskrypcje.
+subscription-management-error-google-pay = Wystąpił problem z Twoim kontem { -brand-google-pay }. Rozwiąż problem, aby zachować aktywne subskrypcje.
+subscription-management-error-link = Wystąpił problem z Twoim kontem { -brand-link }. Rozwiąż problem, aby zachować aktywne subskrypcje.
+subscription-management-error-payment-method = Wystąpił problem z Twoją metodą płatności. Rozwiąż problem, aby zachować aktywne subskrypcje.
 manage-payment-methods-heading = Zarządzaj metodami płatności
 paypal-payment-management-page-invalid-header = Nieprawidłowe dane płatnicze
+paypal-payment-management-page-invalid-description = Wygląda na to, że wystąpił błąd na Twoim koncie { -brand-paypal }. Musisz podjąć niezbędne kroki, aby rozwiązać ten problem z płatnością.
 # Page - Not Found
 page-not-found-title = Nie odnaleziono strony
 page-not-found-description = Nie odnaleziono żądanej strony. Powiadomiono administratora, który naprawi błędne odnośniki.
@@ -149,6 +162,8 @@ page-not-found-back-button = Wróć do poprzedniej strony
 subscription-management-breadcrumb-account-home = Strona główna konta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subskrypcje
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Zarządzaj metodami płatności
 
 ## CancelSubscription
 
@@ -157,6 +172,8 @@ subscription-cancellation-dialog-title = Przykro nam, że chcesz się z nami po
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Subskrypcja { $name } została anulowana. Będziesz mieć dostęp do { $name } do dnia { $date }.
 subscription-cancellation-dialog-aside = Masz pytania? Odwiedź <LinkExternal>pomoc { -brand-mozilla(case: "gen") }</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Anuluj subskrypcję { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -165,6 +182,11 @@ subscription-content-no-longer-use-message =
     Po { $currentPeriodEnd }, ostatnim dniu okresu rozliczeniowego,
     nie będzie już można używać { $productName }.
 subscription-content-cancel-access-message = Anuluj mój dostęp i moje zachowane informacje w { $productName } w dniu { $currentPeriodEnd }
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Anuluj subskrypcję
+    .aria-label = Anuluj subskrypcję { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -401,3 +423,4 @@ next-coupon-error-limit-reached = Wpisany kod osiągnął swoje ograniczenie.
 ## Stay Subscribed Error Messages
 
 stay-subscribed-error-expired = Ta oferta wygasła.
+stay-subscribed-error-still-active = Twoja subskrypcja { $productTitle } jest nadal aktywna.

@@ -229,6 +229,12 @@ subscriptionSupport-plaintext = Masz pytania dotyczące subskrypcji? Nasz zespó
 subscriptionSupportContact = Dziękujemy za subskrypcję { $productName }. Prosimy <a data-l10n-name="subscriptionSupportUrl">skontaktować się z nami</a>, jeśli masz jakieś pytania na temat subskrypcji lub potrzebujesz uzyskać więcej informacji o { $productName }.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Dziękujemy za subskrypcję { $productName }. Prosimy skontaktować się z nami, jeśli masz jakieś pytania na temat subskrypcji lub potrzebujesz uzyskać więcej informacji o { $productName }:
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Zarządzaj subskrypcją</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Zarządzaj subskrypcją:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Skontaktuj się z pomocą</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Skontaktuj się z pomocą:
 subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Tutaj</a> można upewnić się, że metoda płatności i informacje o koncie są aktualne.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Tutaj można upewnić się, że metoda płatności i informacje o koncie są aktualne:
@@ -672,9 +678,13 @@ subscriptionReplaced-title = Subskrypcja została zaktualizowana
 subscriptionReplaced-content-replaced = Indywidualna subskrypcja { $productName } została zastąpiona i jest teraz częścią pakietu.
 subscriptionReplaced-content-credit = Otrzymasz środki za wszelki niewykorzystany czas z poprzedniej subskrypcji. Te środki zostaną automatycznie zastosowane do konta i będą wykorzystywane na rzecz przyszłych opłat.
 subscriptionReplaced-content-no-action = Nic nie musisz robić.
+subscriptionsPaymentExpired-subject-2 = Metoda płatności dla subskrypcji wygasła lub wkrótce wygaśnie
+subscriptionsPaymentExpired-title-2 = Metoda płatności wygasła lub wkrótce wygaśnie
+subscriptionsPaymentExpired-content-2 = Metoda płatności używana do dokonywania płatności za poniższe subskrypcje wygasła lub niedługo wygaśnie.
 subscriptionsPaymentProviderCancelled-subject = Wymagana jest aktualizacja informacji o płatności za subskrypcje { -brand-mozilla(case: "gen") }
 subscriptionsPaymentProviderCancelled-title = Przepraszamy, mamy problem z wybraną metodą płatności
 subscriptionsPaymentProviderCancelled-content-detected = Wykryliśmy problem z wybraną metodą płatności za poniższe subskrypcje.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Możliwe, że metoda płatności wygasła lub obecna metoda płatności jest nieaktualna.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Otrzymano płatność za { $productName }
