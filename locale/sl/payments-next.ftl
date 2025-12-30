@@ -1,7 +1,7 @@
 loyalty-discount-terms-heading = Pogoji in omejitve
 loyalty-discount-terms-support = Obrnite se na podporo
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-loyalty-discount-terms-contact-support-product-aria = Stopite v stik s podporo za { $productName }
+loyalty-discount-terms-contact-support-product-aria = Obrnite se na podporo za { $productName }
 not-found-page-title-terms = Strani ni mogoče najti
 not-found-page-description-terms = Stran, ki ste jo iskali, ne obstaja.
 not-found-page-button-terms-manage-subscriptions = Upravljanje naročnin
@@ -316,7 +316,7 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Želite še naprej uporabljati { $productName }?
-stay-subscribed-access-will-continue = Vaš dostop do { $productName } se bo nadaljeval, obračun in plačilo pa bo ostalo nespremenjeno.
+stay-subscribed-access-will-continue = Ohranili boste dostop do { $productName }, obračun in plačilo pa bosta ostala nespremenjena.
 subscription-content-button-resubscribe = Obnovi naročnino
     .aria-label = Ponovno se naroči na { $productName }
 resubscribe-success-dialog-title = Hvala! Zdaj ste nared.
@@ -360,7 +360,7 @@ subscription-content-button-cancel-subscription = Prekliči naročnino
 dialog-close = Zapri pogovorno okno
 button-back-to-subscriptions = Nazaj na naročnine
 subscription-content-cancel-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
-paypal-unavailable-error = { -brand-paypal } trenutno ni na voljo. Uporabite drugo možnost plačila ali poskusite znova pozneje.
+paypal-unavailable-error = { -brand-paypal } trenutno ni na voljo. Uporabite drugo plačilno sredstvo ali poskusite znova pozneje.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -468,7 +468,7 @@ stay-subscribed-error-discount-used = Koda za popust je že uveljavljena.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Ta popust je na voljo samo za trenutne naročnike { $productTitle }.
 stay-subscribed-error-still-active = Vaša naročnina na { $productTitle } je še vedno aktivna.
-stay-subscribed-error-general = Pri podaljšanju naročnine je prišlo do težave.
+stay-subscribed-error-general = Pri podaljševanju naročnine je prišlo do težave.
 
 ## Manage Payment Method Error Messages
 
