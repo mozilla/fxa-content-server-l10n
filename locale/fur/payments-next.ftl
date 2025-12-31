@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Codiç di scont za aplicât.
 stay-subscribed-error-not-current-subscriber = Chest scont al è disponibil nome par chei che a son za abonâts a { $productTitle }.
 stay-subscribed-error-still-active = Il to abonament a { $productTitle } al è ancjemò atîf.
 stay-subscribed-error-general = Al è vignût fûr un probleme cu la sprolungje dal abonament.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Impussibil elaborâ la transazion. Verifiche i dâts de tô cjarte di credit e torne prove.
+manage-payment-method-intent-error-expired-card-error = Al somee che la tô cjarte di credit e sedi scjadude. Prove cuntune altre cjarte.
+manage-payment-method-intent-error-try-again = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Torne prove o contate l’emitent de cjarte.
+manage-payment-method-intent-error-get-in-touch = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Contate l’emitent de cjarte.
+manage-payment-method-intent-error-insufficient-funds = Al somee che la tô cjarte no vedi credit suficient. Prove cuntune altre cjarte.
+manage-payment-method-intent-error-generic = Al è capitât un erôr inspietât dilunc la elaborazion dal paiament, torne prove.
