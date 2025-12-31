@@ -318,9 +318,18 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = ¿Eiporusépa gueteri { $productName }?
+stay-subscribed-access-will-continue = Nde jeike { $productName } rehegua ohovéta hese ha kuatiañemure ha jehepyme’ẽrã naiñambuemo’ãi.
 subscription-content-button-resubscribe = Eñemboheraguapyjey
     .aria-label = Eñemboheraguapyjey { $productName }-pe
 resubscribe-success-dialog-title = ¡Aguyjevete! Oĩmbaitéma.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Pe jehepyme’ẽrã oútava ha’éta { $nextInvoiceTotal } + { $taxDue } impuesto-ramo { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Pe jehepyme’ẽrã oútava ha’éta { $nextInvoiceTotal } pe { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -353,6 +362,7 @@ subscription-content-button-cancel-subscription = Ejheja mboheraguapy
 dialog-close = Emboty ñomongeta
 button-back-to-subscriptions = Ejevy moheraguapyhápe
 subscription-content-cancel-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
+paypal-unavailable-error = { -brand-paypal } ndoikói ko’ág̃aite. Eiporu ambuechagua jehepyme’ẽrã térã eha’ã jey ag̃amieve.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
