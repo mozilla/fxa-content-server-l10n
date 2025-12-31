@@ -471,3 +471,12 @@ stay-subscribed-error-discount-used = Tepyguejy ayvu oikopyrémava.
 stay-subscribed-error-not-current-subscriber = Ko tepyguejy oiporukuaa oñemboheraguapýva { $productTitle } ndive añoite.
 stay-subscribed-error-still-active = Ne ñemboheraguapy { $productTitle } oiko gueteri.
 stay-subscribed-error-general = Oĩ apañuái onembohekopyahukuévo ne ñemboheraguapy.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Pe jejogua noñemoneĩjepéi. Ehecha jey pe marandu kuatia’atã ñemurã rehegua ha eha’ã jey uperire.
+manage-payment-method-intent-error-expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
+manage-payment-method-intent-error-try-again = Épa. Oiko apañuái ehepyme’ẽnguévo. Eha’ã jey térã eñe’ẽ pya’eterei nde kuatia’atã meẽhare ndive.
+manage-payment-method-intent-error-get-in-touch = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽhare ndive.
+manage-payment-method-intent-error-insufficient-funds = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
+manage-payment-method-intent-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperireve.
