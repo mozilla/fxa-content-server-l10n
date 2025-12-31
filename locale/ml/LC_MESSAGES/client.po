@@ -250,7 +250,7 @@ msgstr "ആഡ്-ഓണുകൾ"
 
 #: .es5/models/sync-engines.js:62
 msgid "Open Tabs"
-msgstr ""
+msgstr "ടാബുകൾ തുറക്കുക"
 
 #: .es5/models/sync-engines.js:66
 msgid "Preferences"
@@ -486,7 +486,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
-msgstr ""
+msgstr "അറിയാത്ത വരിക്കൽ."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
@@ -787,11 +787,11 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:174
 msgid "User is not signed in"
-msgstr ""
+msgstr "ഉപയോക്താവു പ്രവേശിച്ചിട്ടില്ല"
 
 #: .es5/lib/oauth-errors.js:179
 msgid "A different user is signed in"
-msgstr ""
+msgstr "മറ്റൊരു ഉപയോക്താവു പ്രവേശിച്ചിരിക്കുന്നു"
 
 #: .es5/lib/oauth-errors.js:184
 msgid "Unverified user or session"
