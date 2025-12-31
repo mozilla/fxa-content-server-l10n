@@ -106,6 +106,7 @@ next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 ## Not found page
 
 not-found-title-subscriptions = Mboheraguapy ojejuhu’ỹva
+not-found-description-subscriptions = Ndorojuhúi ne ñemboheraguapykue. Eha’ã jey térã eñe’ẽ pytyvõha ndive.
 not-found-button-back-to-subscriptions = Ejevy moheraguapyhápe
 
 ## Page - Subscription Management

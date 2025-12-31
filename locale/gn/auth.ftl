@@ -488,6 +488,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Embojuaju avei ayvukuéra �
 postAddTwoStepAuthentication-recovery-method-phone = Embojuaju avei { $maskedPhoneNumber } ne pumbyry papapy guerujeyrãrõ.
 postAddTwoStepAuthentication-how-protects-link = Mba’éicha omo’ãta ne mba’ete
 postAddTwoStepAuthentication-how-protects-plaintext = Mba’éicha omo’ãta ne mba’ete:
+postAddTwoStepAuthentication-device-sign-out-message = Emo’ãmbaite hag̃ua ne mba’e’okakuéra eikehaguépe, embotypaite’arã opaite tenda eiporuhápe ko mba’ete ha upéi eike jey ñemoneĩ mokõi jeku’egua rupive.
 postChangeAccountRecovery-subject = Mba’eñemi guerujeyrã oñemoambuéma
 postChangeAccountRecovery-title = Emoambue ne mba’ete mba’eñemi guerujeyrã
 postChangeAccountRecovery-body-part1 = Eguerekóma mba’ete mba’eñemi guerujeyrã pyahu. Oguéma pe mba’eñemi tuja.
@@ -513,6 +514,7 @@ postChangeTwoStepAuthentication-from-device = Nde ejerure kóva chupe:
 postChangeTwoStepAuthentication-action = Mba’ete ñangareko
 postChangeTwoStepAuthentication-how-protects-link = Mba’éicha omo’ãta ne mba’ete
 postChangeTwoStepAuthentication-how-protects-plaintext = Mba’éicha omo’ãta ne mba’ete:
+postChangeTwoStepAuthentication-device-sign-out-message = Emo’ãmbaite hag̃ua ne mba’e’okakuéra eikehaguépe, embotypaite’arã opaite tenda eiporuhápe ko mba’ete ha upéi eike jey ñemoneĩ mokõi jeku’egua rupive.
 postConsumeRecoveryCode-title-3 = Nde ayvu ñemoneĩrã jeykekoha ojeporu oñemoneĩ hag̃ua ñe’ẽñemi moĩporãrã
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
