@@ -203,6 +203,7 @@ payment-provider-card-name-ending-in-plaintext = 결제 수단: { $lastFour }로
 payment-provider-card-ending-in-plaintext = 결제 수단: 끝자리 { $lastFour } 카드
 payment-provider-card-ending-in = <b>결제 수단:</b> 끝자리 { $lastFour } 카드
 payment-provider-card-ending-in-card-name = <b>결제 수단:</b> { $lastFour }로 끝나는 { $cardName }
+subscription-charges-invoice-summary = 청구서 요약
 
 # Variables:
 
@@ -210,12 +211,27 @@ payment-provider-card-ending-in-card-name = <b>결제 수단:</b> { $lastFour }�
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>청구서 번호:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = 청구서 번호: { $invoiceNumber }
+subscription-charges-invoice-date = <b>날짜:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = 날짜: { $invoiceDateOnly }
+subscription-charges-prorated-price = 비례 가격
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = 비례 가격: { $remainingAmountTotal }
+subscription-charges-list-price = 정가
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = 정가: { $offeringPrice }
+subscription-charges-credit-from-unused-time = 미 사용 기간 크레딧
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = 미 사용 기간 크레딧: { $unUsedAmountTotal }
+subscription-charges-subtotal = <b>소계</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = 소계: { $invoiceSubtotal }
 
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount = 일회성 할인
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = 총계: { $invoiceTotal }
 
