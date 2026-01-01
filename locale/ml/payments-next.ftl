@@ -84,6 +84,18 @@ signin-form-email-input = താങ്ങളുടെ ഇതപാൽ നല്�
 signin-form-email-input-missing = ദയവായി താങ്ങളുടെ ഇതപാൽ നല്കുക
 signin-form-email-input-invalid = ദയവായിയൊരു സാധുവായ ഇതപാൽ നല്കുക
 
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = അടുത്ത വിലച്ചീടു് • { $billedOnDate }
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
