@@ -1715,7 +1715,7 @@ msgstr "אפשר לקבל ידע חיוני ישירות לתיבת הדוא״ל
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "להירשם אל %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."

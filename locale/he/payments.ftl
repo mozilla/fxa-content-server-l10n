@@ -99,6 +99,7 @@ payment-confirmation-amount-year =
         [two] { $amount } כל שנתיים
        *[other] { $amount } כל { $intervalCount } שנים
     }
+payment-confirmation-download-button = להמשיך להורדה
 
 ## Component - PaymentConsentCheckbox
 
@@ -284,7 +285,9 @@ price-details-tax-year =
 ## Component - SubscriptionTitle
 
 subscription-create-title = הגדרת המינוי שלך
+subscription-success-title = אישור מינוי
 subscription-processing-title = המינוי מועבר לאישור…
+subscription-error-title = שגיאה באישור המינוי…
 subscription-noplanchange-title = שינוי תוכנית המינוי הזה אינו נתמך
 subscription-iapsubscribed-title = כבר רשום כמינוי
 sub-guarantee = החזר כספי מובטח תוך 30 יום
