@@ -232,6 +232,8 @@ subscriptionFirstInvoiceDiscount-content-subtotal = 소계: { $invoiceSubtotal }
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
 subscription-charges-one-time-discount = 일회성 할인
+subscription-charges-one-time-discount-plaintext = 일회성 할인: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount = { $discountDuration }개월 할인
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = 총계: { $invoiceTotal }
 
