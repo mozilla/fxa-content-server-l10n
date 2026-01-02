@@ -1878,6 +1878,15 @@ signin-token-code-confirm-button = Wobkrućić
 signin-token-code-code-expired = Je kod spadnył?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Nowy kod přez e-mejl pósłać.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Nowy kod za { $seconds } sekundu přez e-mejl słać
+        [two] Nowy kod za { $seconds } sekundźe přez e-mejl słać
+        [few] Nowy kod za { $seconds } sekundy přez e-mejl słać
+       *[other] Nowy kod za { $seconds } sekundow přez e-mejl słać
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Wobkrućenski kod trěbny
 signin-token-code-resend-error = Něšto je so nimokuliło. Nowy kod njeda so słać.
@@ -1950,6 +1959,15 @@ confirm-signup-code-sync-button = Synchronizaciju započeć
 confirm-signup-code-code-expired = Je kod spadnył?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nowy kod přez e-mejl pósłać.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Nowy kod za { $seconds } sekundu přez e-mejl słać
+        [two] Nowy kod za { $seconds } sekundźe přez e-mejl słać
+        [few] Nowy kod za { $seconds } sekundy přez e-mejl słać
+       *[other] Nowy kod za { $seconds } sekundow přez e-mejl słać
+    }
 confirm-signup-code-success-alert = Konto je so wuspěšnje wobkrućiło
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Wobkrućenski kod je trěbny
