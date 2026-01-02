@@ -80,6 +80,9 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Жекелік
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Егер тіркелгіңіз өшірілсе, сіз <a data-l10n-name="unsubscribeLink">жазылымнан бас тартқанға</a> дейін Mozilla Corporation және Mozilla Foundation ұйымдарынан электрондық хаттар ала беретін боласыз.
+account-deletion-info-block-support = Егер сізде қандай да бір сұрақтар туындаса немесе көмек қажет болса, біздің <a data-l10n-name="supportLink">қолдау көрсету тобына</a> хабарласудан тартынбаңыз.
+account-deletion-info-block-communications-plaintext = Егер тіркелгіңіз өшірілсе, сіз жазылымнан бас тартқанға дейін Mozilla Corporation және Mozilla Foundation ұйымдарынан электрондық хаттар ала беретін боласыз:
+account-deletion-info-block-support-plaintext = Егер сізде қандай да бір сұрақтар туындаса немесе көмек қажет болса, біздің қолдау көрсету тобына хабарласудан тартынбаңыз:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } өнімін { -google-play } ішінен жүктеп алу">
@@ -107,6 +110,7 @@ automated-email-support = Көбірек ақпарат алу үшін, <a data
 automated-email-change-plaintext-2 = Егер сіз бұл әрекетті жасамасаңыз, пароліңізді дереу өзгертіңіз:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Көбірек ақпарат алу үшін, { -brand-mozilla } қолдау сайтын шолыңыз:
+automated-email-inactive-account = Бұл автоматтандырылған электрондық пошта. Сіз оны { -product-mozilla-account } тіркелгіңіз болғандықтан және соңғы рет кіргеніңізге 2 жыл болғандықтан алып отырсыз.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Көбірек білу үшін, <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау</a> сайтын шолыңыз.
 automated-email-no-action-plaintext = Бұл автоматтандырылған электрондық пошта. Егер сіз оны қателесіп алсаңыз, сізге ештеңе істеудің қажеті жоқ.
