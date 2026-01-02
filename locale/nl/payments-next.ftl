@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Kortingscode al toegepast.
 stay-subscribed-error-not-current-subscriber = Deze korting is alleen beschikbaar voor huidige abonnees van { $productTitle }.
 stay-subscribed-error-still-active = Uw { $productTitle }-abonnement is nog actief.
 stay-subscribed-error-general = Er is een probleem opgetreden bij het verlengen van uw abonnement.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgegevens en probeer het opnieuw.
+manage-payment-method-intent-error-expired-card-error = Het lijkt erop dat uw creditcard is verlopen. Probeer een andere kaart.
+manage-payment-method-intent-error-try-again = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Probeer het opnieuw of neem contact op met uw kaartverstrekker.
+manage-payment-method-intent-error-get-in-touch = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Neem contact op met uw kaartverstrekker.
+manage-payment-method-intent-error-insufficient-funds = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
+manage-payment-method-intent-error-generic = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
