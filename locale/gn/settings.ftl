@@ -673,6 +673,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Ku’ejey
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Ijurujáma mokõi jeku’épe ñemoneĩ
+flow-setup-2fa-inline-complete-success-banner-description = Emo’ãmbaite hag̃ua ne mba’e’okakuéra eikehaguépe, embotypaite’arã opaite tenda eiporuhápe ko mba’ete ha upéi eike jey ñemoneĩ mokõi jeku’egua rupive.
 flow-setup-2fa-inline-complete-backup-code = Ayvu ñemoneĩrã jeykekoha
 flow-setup-2fa-inline-complete-backup-phone = Pumbyry guerujeyrã
 # $count (Number) - an integer representing the number of backup
