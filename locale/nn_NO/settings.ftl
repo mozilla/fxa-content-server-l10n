@@ -1862,6 +1862,13 @@ signin-token-code-confirm-button = Stadfest
 signin-token-code-code-expired = Har koden gått ut?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Send ny kode på e-post.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Send ny kode på e-post om { $seconds } sekund
+       *[other] Send ny kode på e-post om { $seconds } sekund
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Stadfestingskode påkravd
 signin-token-code-resend-error = Noko gjekk gale. Klarte ikkje å sende ein ny kode.
@@ -1934,6 +1941,13 @@ confirm-signup-code-sync-button = Start synkronisering
 confirm-signup-code-code-expired = Har koden gått ut?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Send ny kode på e-post.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Send ny kode på e-post om { $seconds } sekund
+       *[other] Send ny kode på e-post om { $seconds } sekund
+    }
 confirm-signup-code-success-alert = Kontoen er stadfesta
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Stadfestingskode er påkravd
