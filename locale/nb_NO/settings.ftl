@@ -1933,8 +1933,8 @@ confirm-signup-code-resend-code-link = Send ny kode på e-post.
 # { $seconds } represents the number of seconds remaining
 confirm-signup-code-resend-code-countdown =
     { $seconds ->
-        [one] Email new code in { $seconds } second
-       *[other] Email new code in { $seconds } seconds
+        [one] Send ny kode på e-post om { $seconds } sekund
+       *[other] Send ny kode på e-post om { $seconds } sekunder
     }
 confirm-signup-code-success-alert = Konto bekreftet
 # Error displayed in tooltip.
