@@ -458,6 +458,7 @@ sub-item-cancel-confirm = { $period } күні { $name } ішіне кіру р�
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = { $promotion_name } купоны қолданылды: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Бұл жазылымға жасалған төлем сіздің шот балансыңызға кредит ретінде енгізілді: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -494,6 +495,7 @@ pay-update-manage-btn = Басқару
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Келесі төлем { $date } күні
+sub-next-bill-due-date = Келесі төлем мерзімі { $date }
 sub-expires-on = Мерзімі { $date } күні аяқталады
 
 ## Routes - Subscription - PaymentUpdate
