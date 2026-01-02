@@ -1860,6 +1860,13 @@ signin-token-code-confirm-button = Confirmar
 signin-token-code-code-expired = Codice expirate?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Inviar per email nove codice.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Inviar nove codice in { $seconds } secunda
+       *[other] Inviar nove codice in { $seconds } secundas
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Il es necesse codice de confirmation
 signin-token-code-resend-error = Alco errate eveniva. Un nove codice non pote esser inviate.
@@ -1932,6 +1939,13 @@ confirm-signup-code-sync-button = Comencia a synchronisar
 confirm-signup-code-code-expired = Codice expirate?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Inviar nove codice per email.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Inviar nove codice in { $seconds } secunda
+       *[other] Inviar nove codice in { $seconds } secundas
+    }
 confirm-signup-code-success-alert = Conto confirmate con successo
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Codice de confirmation requirite
