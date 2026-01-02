@@ -140,10 +140,18 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Тази заявка 
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Тази заявка идва от { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Ако това не сте били вие, <a data-l10n-name="revokeAccountRecoveryLink">изтрийте новия ключ</a> и <a data-l10n-name="passwordChangeLink">променете паролата си</a>.
+automatedEmailRecoveryKey-change-pwd-only = Ако това не сте били вие, <a data-l10n-name="passwordChangeLink">променете паролата си</a>.
+automatedEmailRecoveryKey-more-info = За повече информация посетете <a data-l10n-name="supportLink">поддръжката на { -brand-mozilla }</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Тази заявка дойде от:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Ако това не сте били вие, изтрийте новия ключ:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ако това не сте били вие, променете паролата си:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = и променете паролата си:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = За повече информация посетете поддръжката на { -brand-mozilla }:
 change-password-plaintext = Ако подозирате, че някой се опитва да получи достъп до вашата сметка, моля, сменете паролата си.
