@@ -423,4 +423,16 @@ next-coupon-error-limit-reached = Wpisany kod osiągnął swoje ograniczenie.
 ## Stay Subscribed Error Messages
 
 stay-subscribed-error-expired = Ta oferta wygasła.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Ta zniżka jest dostępna wyłącznie dla obecnych subskrybentów { $productTitle }.
 stay-subscribed-error-still-active = Twoja subskrypcja { $productTitle } jest nadal aktywna.
+stay-subscribed-error-general = Wystąpił problem z przedłużeniem subskrypcji.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Nie można przetworzyć transakcji. Sprawdź poprawność informacji z karty płatniczej i spróbuj ponownie.
+manage-payment-method-intent-error-expired-card-error = Wygląda na to, że karta płatnicza wygasła. Spróbuj użyć innej karty.
+manage-payment-method-intent-error-try-again = Wystąpił problem z upoważnieniem płatności. Spróbuj ponownie lub skontaktuj się z wystawcą karty.
+manage-payment-method-intent-error-get-in-touch = Wystąpił problem z upoważnieniem płatności. Skontaktuj się z wystawcą karty.
+manage-payment-method-intent-error-insufficient-funds = Wygląda na to, że karta ma niewystarczające środki. Spróbuj użyć innej karty.
+manage-payment-method-intent-error-generic = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.

@@ -805,7 +805,9 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 page-2fa-change-title = Emombue ñemboaje mokõi jeku’egua
 page-2fa-change-success = Oñembohekopyahúma ñemboaje mokõi jeku’egua
+page-2fa-change-success-additional-message = Emo’ãmbaite hag̃ua ne mba’e’okakuéra eikehaguépe, embotypaite’arã opaite tenda eiporuhápe ko mba’ete ha upéi eike jey ñemoneĩ mokõi jeku’egua rupive.
 page-2fa-change-totpinfo-error = Oiko jejavy emyengoviávo tembiporu’i ñemoneĩha mokõi jeku’egua. Eha’ã jey ag̃ave.
+page-2fa-change-qr-instruction = <strong>Jeku’e 1:</strong> Emoha’ãnga QR ayvu oimera’ẽva tembiporu’i ñemoneĩha, ikatúva Duo térã Google Authenticator. Kóva omoheñói juaju pyahu, oimera’ẽva jeike itujavéva ndoikomo’ãvéima.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -1860,6 +1862,13 @@ signin-token-code-confirm-button = Moneĩ
 signin-token-code-code-expired = ¿Ndoikovéima ayvu?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Emondo ayvu pyahu.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Emondo ayvu pyahu ñanduti veve rupi { $seconds } aravo’ivépe
+       *[other] Emondo ayvu pyahu ñanduti veve rupi { $seconds } aravo’ivépe
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 signin-token-code-resend-error = Oiko apañuái. Noñemondokuaái mba’eñemi ipyahúva.
@@ -1932,6 +1941,13 @@ confirm-signup-code-sync-button = Eñepyrũ ñembojuehe
 confirm-signup-code-code-expired = ¿Ayvu oiko’ỹva?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Emondo ayvu pyahu ñanduti veve rupi { $seconds } aravo’ivépe
+       *[other] Emondo ayvu pyahu ñanduti veve rupi { $seconds } aravo’ivépe
+    }
 confirm-signup-code-success-alert = Mba’ete oñemoneĩva apañuai’ỹre
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Ayvu ñemoneĩrã tekotevẽva
