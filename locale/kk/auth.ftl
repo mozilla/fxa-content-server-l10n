@@ -79,6 +79,7 @@ subplat-legal = Құқықтық ақпарат
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Жекелік
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Егер тіркелгіңіз өшірілсе, сіз <a data-l10n-name="unsubscribeLink">жазылымнан бас тартқанға</a> дейін Mozilla Corporation және Mozilla Foundation ұйымдарынан электрондық хаттар ала беретін боласыз.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } өнімін { -google-play } ішінен жүктеп алу">
