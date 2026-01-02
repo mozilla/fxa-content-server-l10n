@@ -172,6 +172,11 @@ payment-plan-charged = Төлем: { $invoiceDateOnly } күні { $invoiceTotal
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Төлем әдісі:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Төлем әдісі: { $paymentProviderName }
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
@@ -273,6 +278,8 @@ inactiveAccountFinalWarning-action = Тіркелгіңізді сақтау ү�
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Тіркелгіңізді сақтау үшін жүйеге кіріңіз:
 inactiveAccountFirstWarning-subject = Тіркелгіңізді жоғалтпаңыз
+inactiveAccountFirstWarning-title = { -brand-mozilla } тіркелгіңіз бен деректеріңізді сақтағыңыз келе ме?
+inactiveAccountFirstWarning-account-description-v2 = Сіздің { -product-mozilla-account } тіркелгіңіз { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } және { -product-mdn } сияқты тегін жекелікке және шолу өнімдеріне қол жеткізу үшін пайдаланылады.
 inactiveAccountFirstWarning-action = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 inactiveAccountFirstWarning-preview = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 # followed by link to sign in
@@ -380,6 +387,8 @@ postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутент
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Сіз мұны келесі жерден сұрадыңыз:
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
+postAddTwoStepAuthentication-how-protects-link = Бұл сіздің тіркелгіңізді қалай қорғайды
+postAddTwoStepAuthentication-how-protects-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
 postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
 postChangeAccountRecovery-title = Сіз тіркелгіңізді қалпына келтіру кілтін өзгерттіңіз
 postChangeAccountRecovery-body-part1 = Енді сізде тіркелгіні қалпына келтірудің жаңа кілті бар. Сіздің алдыңғы кілтіңіз өшірілді.
