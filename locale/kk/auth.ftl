@@ -165,6 +165,10 @@ automated-email-reset-plaintext-v2 = Егер сіз бұл әрекетке р�
 automated-email-reset-pwd-two-factor =
     Егер бұл әрекетті сіз жасамаған болсаңыз, бірден <a data-l10n-name="resetLink">парольді қалпына келтіріңіз</a> және <a data-l10n-name="twoFactorSettingsLink">екі қадамды аутентификацияны қалпына келтіріңіз</a>.
     Қосымша ақпарат алу үшін <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау қызметін</a> шолыңыз.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Егер сіз бұл әрекетті жасамасаңыз, пароліңізді дереу қалпына келтіріңіз:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Сонымен қатар, екі қадамды аутентификацияны мына жерде қалпына келтіріңіз:
 brand-banner-message = { -product-firefox-accounts } деген атымызды { -product-mozilla-accounts } етіп өзгерткенімізді білесіз бе? <a data-l10n-name="learnMore">Көбірек білу</a>
 cancellationSurvey = Осы <a data-l10n-name="cancellationSurveyUrl">қысқа сауалнамаға</a> қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
