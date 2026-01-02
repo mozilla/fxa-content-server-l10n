@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Código de descuento ya aplicado.
 stay-subscribed-error-not-current-subscriber = Este descuento solo está disponible para los suscriptores actuales de { $productTitle }.
 stay-subscribed-error-still-active = Tu suscripción a { $productTitle } aún está activa.
 stay-subscribed-error-general = Hubo un problema al renovar tu suscripción.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Tu transacción no pudo ser procesada. Verifica la información de tu tarjeta de crédito y vuelve a intentarlo.
+manage-payment-method-intent-error-expired-card-error = Parece que tu tarjeta de crédito está vencida. Prueba con otra.
+manage-payment-method-intent-error-try-again = Hmm. Hubo un problema al autorizar tu pago. Vuelve a intentarlo o ponte en contacto con el emisor de tu tarjeta.
+manage-payment-method-intent-error-get-in-touch = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
+manage-payment-method-intent-error-insufficient-funds = Parece que tu tarjeta de crédito no tiene suficientes fondos. Prueba con otra.
+manage-payment-method-intent-error-generic = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
