@@ -1855,6 +1855,13 @@ signin-token-code-confirm-button = Bestätigen
 signin-token-code-code-expired = Code abgelaufen?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Neuen Code per E-Mail senden.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Neuen Code in { $seconds } Sekunde per E-Mail senden
+       *[other] Neuen Code in { $seconds } Sekunden per E-Mail senden
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Bestätigungscode erforderlich
 signin-token-code-resend-error = Etwas ist schief gelaufen. Es konnte kein neuer Code gesendet werden.
@@ -1927,6 +1934,13 @@ confirm-signup-code-sync-button = Mit Synchronisierung beginnen
 confirm-signup-code-code-expired = Code abgelaufen?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Neuen Code per E-Mail senden.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Neuen Code in { $seconds } Sekunde per E-Mail senden
+       *[other] Neuen Code in { $seconds } Sekunden per E-Mail senden
+    }
 confirm-signup-code-success-alert = Konto erfolgreich bestätigt
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Bestätigungscode ist erforderlich

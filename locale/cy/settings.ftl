@@ -1883,6 +1883,17 @@ signin-token-code-confirm-button = Cadarnhau
 signin-token-code-code-expired = Cod wedi dod i ben?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = E-bostiwch cod newydd.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [zero] E-bostiwch cod newydd mewn { $seconds } eiliad
+        [two] E-bostiwch cod newydd mewn { $seconds } eiliad
+        [few] E-bostiwch cod newydd mewn { $seconds } eiliad
+        [many] E-bostiwch cod newydd mewn { $seconds } eiliad
+       *[other] E-bostiwch cod newydd mewn { $seconds } eiliad
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Mae angen codi dilys
 signin-token-code-resend-error = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
@@ -1955,6 +1966,17 @@ confirm-signup-code-sync-button = Cychwyn cydweddu
 confirm-signup-code-code-expired = Cod wedi dod i ben?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = E-bostiwch god newydd.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [zero] E-bostiwch cod newydd mewn { $seconds } eiliad
+        [two] E-bostiwch cod newydd mewn { $seconds } eiliad
+        [few] E-bostiwch cod newydd mewn { $seconds } eiliad
+        [many] E-bostiwch cod newydd mewn { $seconds } eiliad
+       *[other] E-bostiwch cod newydd mewn { $seconds } eiliad
+    }
 confirm-signup-code-success-alert = Cyfrif wedi'i gadarnhau'n llwyddiannus
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Mae angen cod cadarnhad

@@ -1876,6 +1876,15 @@ signin-token-code-confirm-button = Potrdi
 signin-token-code-code-expired = Je koda potekla?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Pošlji novo kodo.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Pošljite novo kodo čez { $seconds } sekunde
+        [two] Pošljite novo kodo čez { $seconds } sekund
+        [few] Pošljite novo kodo čez { $seconds } sekund
+       *[other] Pošljite novo kodo čez { $seconds } sekund
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Zahtevana je potrditvena koda
 signin-token-code-resend-error = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
@@ -1948,6 +1957,15 @@ confirm-signup-code-sync-button = Začni s sinhronizacijo
 confirm-signup-code-code-expired = Je koda potekla?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Pošlji novo kodo.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Pošljite novo kodo čez { $seconds } sekunde
+        [two] Pošljite novo kodo čez { $seconds } sekund
+        [few] Pošljite novo kodo čez { $seconds } sekund
+       *[other] Pošljite novo kodo čez { $seconds } sekund
+    }
 confirm-signup-code-success-alert = Račun uspešno potrjen
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Zahtevana je potrditvena koda

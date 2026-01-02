@@ -1864,6 +1864,13 @@ signin-token-code-confirm-button = Megerősítés
 signin-token-code-code-expired = A kód lejárt?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Új kód elküldése e-mailben.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Új kód elküldése e-mailben { $seconds } másodpercen belül
+       *[other] Új kód elküldése e-mailben { $seconds } másodperc múlva
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Megerősítési kód szükséges
 signin-token-code-resend-error = Hiba történt. Nem sikerült új kódot küldeni.
@@ -1936,6 +1943,13 @@ confirm-signup-code-sync-button = Szinkronizálás indítása
 confirm-signup-code-code-expired = A kód lejárt?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Új kód elküldése e-mailben.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Új kód elküldése e-mailben { $seconds } másodpercen belül
+       *[other] Új kód elküldése e-mailben { $seconds } másodperc múlva
+    }
 confirm-signup-code-success-alert = A fiók sikeresen megerősítve
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Megerősítési kód szükséges

@@ -1861,6 +1861,14 @@ signin-token-code-confirm-button = Potvrdit
 signin-token-code-code-expired = Platnost kódu vypršela?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Zaslat e-mailem nový kód.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Nový kód e-mailem za { $seconds } s
+        [few] Nový kód e-mailem za { $seconds } sekundy
+       *[other] Nový kód e-mailem za { $seconds } sekundy
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Je vyžadován potvrzovací kód
 signin-token-code-resend-error = Něco se pokazilo. Nový kód se nepodařilo odeslat.
@@ -1933,6 +1941,14 @@ confirm-signup-code-sync-button = Spusťte synchronizaci
 confirm-signup-code-code-expired = Platnost kódu vypršela?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Zaslat e-mailem nový kód.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Nový kód e-mailem za { $seconds } s
+        [few] Nový kód e-mailem za { $seconds } sekundy
+       *[other] Nový kód e-mailem za { $seconds } sekundy
+    }
 confirm-signup-code-success-alert = Účet byl úspěšně potvrzen
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Je vyžadován potvrzovací kód
