@@ -160,6 +160,11 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Егер сіз бұл әрекетке рұқсат бермеген болсаңыз, пароліңізді { $resetLink } адресі бойынша қалпына келтіріңіз
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Егер бұл әрекетті сіз жасамаған болсаңыз, бірден <a data-l10n-name="resetLink">парольді қалпына келтіріңіз</a> және <a data-l10n-name="twoFactorSettingsLink">екі қадамды аутентификацияны қалпына келтіріңіз</a>.
+    Қосымша ақпарат алу үшін <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау қызметін</a> шолыңыз.
 brand-banner-message = { -product-firefox-accounts } деген атымызды { -product-mozilla-accounts } етіп өзгерткенімізді білесіз бе? <a data-l10n-name="learnMore">Көбірек білу</a>
 cancellationSurvey = Осы <a data-l10n-name="cancellationSurveyUrl">қысқа сауалнамаға</a> қатысу арқылы қызметтерімізді жақсартуға көмектесіңіз.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
