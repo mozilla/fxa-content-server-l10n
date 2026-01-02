@@ -1849,7 +1849,7 @@ signin-token-code-resend-code-link = Invia email con nuovo codice.
 # { $seconds } represents the number of seconds remaining
 signin-token-code-resend-code-countdown =
     { $seconds ->
-        [one] Invia un nuovo codice via email tra { $seconds } secondi
+        [one] Invia un nuovo codice via email tra { $seconds } secondo
        *[other] Invia un nuovo codice via email tra { $seconds } secondi
     }
 # Error displayed in a tooltip when the form is submitted without a code
@@ -1928,7 +1928,7 @@ confirm-signup-code-resend-code-link = Invia email con nuovo codice.
 # { $seconds } represents the number of seconds remaining
 confirm-signup-code-resend-code-countdown =
     { $seconds ->
-        [one] Invia un nuovo codice via email tra { $seconds } secondi
+        [one] Invia un nuovo codice via email tra { $seconds } secondo
        *[other] Invia un nuovo codice via email tra { $seconds } secondi
     }
 confirm-signup-code-success-alert = L’account è stato confermato correttamente
