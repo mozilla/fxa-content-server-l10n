@@ -234,8 +234,23 @@ subscriptionFirstInvoiceDiscount-content-subtotal = 소계: { $invoiceSubtotal }
 subscription-charges-one-time-discount = 일회성 할인
 subscription-charges-one-time-discount-plaintext = 일회성 할인: { $invoiceDiscountAmount }
 subscription-charges-repeating-discount = { $discountDuration }개월 할인
+subscription-charges-repeating-discount-plaintext = { $discountDuration }개월 할인: { $invoiceDiscountAmount }
+subscription-charges-discount = 할인
+subscription-charges-discount-plaintext = 할인: { $invoiceDiscountAmount }
+subscription-charges-taxes = 세금과 수수료
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = 세금과 수수료: { $invoiceTaxAmount }
+subscription-charges-total = <b>총계</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = 총계: { $invoiceTotal }
+subscription-charges-credit-applied = 크레딧 적용됨
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = 크레딧 적용됨: { $creditApplied }
+subscription-charges-amount-paid = <b>결제 금액</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = 결제 금액: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = { $creditReceived }의 계정 크레딧을 받았습니다. 이는 향후 청구서에 적용됩니다.
 
 ##
 
@@ -247,6 +262,13 @@ subscriptionSupport-plaintext = 구독에 대한 질문이 있으십니까? 지�
 subscriptionSupportContact = { $productName }를 구독해 주셔서 감사합니다. 구독에 대해 문의하거나 { $productName }에 대해 더 알아보려면 <a data-l10n-name="subscriptionSupportUrl">연락</a>을 해주세요.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = { $productName }를 구독해 주셔서 감사합니다. 구독에 대해 문의하거나 { $productName }에 대해 더 알아보려면 다음으로 연락을 해주세요.
+subscription-support-get-help = 구독에 대한 도움 받기
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">구독 관리</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = 구독 관리:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">지원팀에 문의</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = 연락하기:
 subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">여기</a>에서 귀하의 결제 방법과 계정 정보가 최신 상태인지 확인할 수 있습니다.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = 다음에서 결제 방법과 계정 정보가 최신 상태인지 확인할 수 있습니다:
@@ -287,6 +309,7 @@ location-state-country = { $stateCode }, { $country } (추정)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (추정)
+view-invoice-link-action = 청구서 보기
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -387,6 +410,10 @@ passwordChangeRequired-different-password-2 = <b>중요:</b> 이전에 사용했
 passwordChangeRequired-different-password-plaintext-2 = 중요: 이전에 사용했던 것과 다른 강력한 비밀번호를 선택하세요.
 passwordChangeRequired-action = 비밀번호 재설정
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = { $code }를 사용하여 비밀번호 변경
+password-forgot-otp-preview = 이 코드는 10분 후에 만료됩니다.
 password-forgot-otp-title = 비밀번호를 잊으셨나요?
 password-forgot-otp-request = 다음으로부터 { -product-mozilla-account } 비밀번호 변경 요청을 받았습니다:
 password-forgot-otp-code-2 = 본인이 확인했다면 진행을 위한 확인 코드는 다음과 같습니다:
@@ -453,6 +480,7 @@ postAddTwoStepAuthentication-recovery-method-codes = 복구 방법으로 백업 
 postAddTwoStepAuthentication-recovery-method-phone = 복구 전화번호로 { $maskedPhoneNumber }도 추가하였습니다.
 postAddTwoStepAuthentication-how-protects-link = 계정을 보호하는 방법
 postAddTwoStepAuthentication-how-protects-plaintext = 계정을 보호하는 방법:
+postAddTwoStepAuthentication-device-sign-out-message = 연결된 모든 기기를 보호하려면 이 계정을 사용하는 모든 곳에서 로그아웃하고 2단계 인증을 사용하여 다시 로그인하세요.
 postChangeAccountRecovery-subject = 계정 복구 키 변경됨
 postChangeAccountRecovery-title = 계정 복구 키를 변경했습니다.
 postChangeAccountRecovery-body-part1 = 새로운 계정 복구 키가 생성되었습니다. 이전 키는 삭제되었습니다.
@@ -478,6 +506,7 @@ postChangeTwoStepAuthentication-from-device = 다음에서 요청함:
 postChangeTwoStepAuthentication-action = 계정 관리
 postChangeTwoStepAuthentication-how-protects-link = 계정을 보호하는 방법
 postChangeTwoStepAuthentication-how-protects-plaintext = 계정을 보호하는 방법:
+postChangeTwoStepAuthentication-device-sign-out-message = 연결된 모든 기기를 보호하려면 이 계정을 사용하는 모든 곳에서 로그아웃하고 새 2단계 인증을 사용하여 다시 로그인하세요.
 postConsumeRecoveryCode-title-3 = 백업 인증 코드가 비밀번호 재설정 확인에 사용되었습니다.
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
