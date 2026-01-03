@@ -729,6 +729,9 @@ subscriptionSubsequentInvoice-title = 구독해 주셔서 감사합니다!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = { $productName }에 대한 최근 결제가 접수되었습니다.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = 다음 청구서는 { $nextInvoiceDateOnly }에 발급됩니다.
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName }로 업그레이드 완료
 subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
@@ -752,8 +755,34 @@ subscriptionUpgrade-content-charge-credit = { $paymentProrated }의 계정 크�
 subscriptionUpgrade-content-subscription-next-bill-change = 다음 청구서부터 구독 가격이 변경됩니다.
 subscriptionUpgrade-content-old-price-day = 이전 요율은 하루에 { $paymentAmountOld }였습니다.
 subscriptionUpgrade-content-old-price-week = 이전 요율은 주당 { $paymentAmountOld }였습니다.
+subscriptionUpgrade-content-old-price-month = 이전 요율은 월간 { $paymentAmountOld }였습니다.
+subscriptionUpgrade-content-old-price-halfyear = 이전 요율은 월간 { $paymentAmountOld }였습니다.
+subscriptionUpgrade-content-old-price-year = 이전 요율은 연간 { $paymentAmountOld }였습니다.
+subscriptionUpgrade-content-old-price-default = 이전 요율은 결제 간격당 { $paymentAmountOld }였습니다.
+subscriptionUpgrade-content-old-price-day-tax = 이전 요율은 하루에 { $paymentAmountOld } + 세금 { $paymentTaxOld }이었습니다.
+subscriptionUpgrade-content-old-price-week-tax = 이전 요율은 주당 { $paymentAmountOld } + 세금 { $paymentTaxOld }이었습니다.
+subscriptionUpgrade-content-old-price-month-tax = 이전 요율은 월간 { $paymentAmountOld } + 세금 { $paymentTaxOld }이었습니다.
+subscriptionUpgrade-content-old-price-halfyear-tax = 이전 요율은 6개월에 { $paymentAmountOld } + 세금 { $paymentTaxOld }이었습니다.
+subscriptionUpgrade-content-old-price-year-tax = 이전 요율은 연간 { $paymentAmountOld } + 세금 { $paymentTaxOld }이었습니다.
+subscriptionUpgrade-content-old-price-default-tax = 이전 요율은 결제 간격당 { $paymentAmountOld } + 세금 { $paymentTaxOld }이었습니다.
+subscriptionUpgrade-content-new-price-day = 앞으로는 하루에 { $paymentAmountNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-week = 앞으로 주당 { $paymentAmountNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-month = 앞으로 월간 { $paymentAmountNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-halfyear = 앞으로 6개월 단위로 { $paymentAmountNew }가 청구됩니다.
+subscriptionUpgrade-content-new-price-year = 앞으로 연간 { $paymentAmountNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-default = 앞으로 할인을 제외하고 결제 간격당 { $paymentAmountNew }의 요금이 청구됩니다.
+subscriptionUpgrade-content-new-price-day-dtax = 앞으로 하루에 { $paymentAmountNew } + 세금 { $paymentTaxNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-week-tax = 앞으로 주당 { $paymentAmountNew } + 세금 { $paymentTaxNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-month-tax = 앞으로는 매월 { $paymentAmountNew } + 세금 { $paymentTaxNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-halfyear-tax = 앞으로 6개월당 { $paymentAmountNew } + 세금 { $paymentTaxNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-year-tax = 앞으로 연간 { $paymentAmountNew } + 세금 { $paymentTaxNew }의 요금이 할인을 제외하고 청구됩니다.
+subscriptionUpgrade-content-new-price-default-tax = 앞으로 결제 간격당 { $paymentAmountNew } + 세금 { $paymentTaxNew }의 요금이 할인을 제외하고 청구됩니다.
 subscriptionUpgrade-existing = 기존 구독이 이번 업그레이드와 중복되는 경우, 이를 처리하여 세부 사항이 담긴 별도의 이메일을 보내드립니다. 새 요금제에 설치가 필요한 제품이 포함 된 경우 설정 지침이 포함된 별도의 이메일을 보내드립니다.
 subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = { $unblockCode }를 사용하여 로그인
+unblockCode-preview = 이 코드는 한 시간 후에 만료됩니다.
 unblockCode-title = 로그인하신 게 맞나요?
 unblockCode-prompt = 그렇다면 인증 코드를 사용하세요:
 # Variables:
@@ -783,11 +812,28 @@ verify-description-2 = 계정을 확인하고, 모든 곳에서 { -brand-mozilla
 verify-subject = 계정 생성 완료
 verify-action-2 = 계정 확인
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = { $code }를 사용하여 계정 변경
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview = 이 코드는 { $expirationTime }분 후에 만료됩니다.
+verifyAccountChange-title = 계정 정보를 변경하시겠습니까?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = 다음의 변경 사항을 승인하여 계정을 안전하게 보호해주세요:
+verifyAccountChange-prompt = 그렇다면 인증 코드는 다음과 같습니다:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice = { $expirationTime }분 후에 만료됩니다.
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = { $clientName }에 로그인하셨나요?
 verifyLogin-description-2 = 다음 서비스에서 발생한 로그인을 확인하여 계정을 안전하게 보호하세요.
 verifyLogin-subject-2 = 로그인 확인
 verifyLogin-action = 로그인 확인
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = { $code }를 사용하여 로그인
+verifyLoginCode-preview = 이 코드는 5분 후에 만료됩니다.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName }에 로그인하셨나요?
@@ -801,6 +847,10 @@ verifyPrimary-subject = 기본 이메일 확인
 verifyPrimary-action-2 = 이메일 확인
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = 검증이 되면 이 기기에서 보조 이메일 추가와 같은 계정 변경이 가능합니다.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = { $code }를 사용하여 보조 이메일 확인
+verifySecondaryCode-preview = 이 코드는 5분 후에 만료됩니다.
 verifySecondaryCode-title-2 = 보조 이메일 확인
 verifySecondaryCode-action-2 = 이메일 확인
 # Variables:
@@ -808,6 +858,9 @@ verifySecondaryCode-action-2 = 이메일 확인
 verifySecondaryCode-explainer-2 = 다음 { -product-mozilla-account }으로부터 { $email } 이메일을 보조 이메일 주소로 사용하기 위한 요청이 왔습니다:
 verifySecondaryCode-prompt-2 = 인증 코드 사용:
 verifySecondaryCode-expiry-notice-2 = 5분 후에 만료됩니다. 확인되면 이 주소는 보안 알림 및 확인을 받기 시작합니다.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = { $code }를 사용하여 계정 확인
 verifyShortCode-title-3 = { -brand-mozilla }로 인터넷을 여세요.
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 계정을 확인하고, 모든 곳에서 { -brand-mozilla }를 최대한 활용하세요.
