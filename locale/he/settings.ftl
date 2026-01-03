@@ -1772,6 +1772,13 @@ signin-token-code-confirm-button = אישור
 signin-token-code-code-expired = פג תוקף הקוד?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = שליחת קוד חדש בדוא״ל.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] שליחת קוד חדש בדוא״ל תוך שנייה אחת
+       *[other] שליחת קוד חדש בדוא״ל תוך { $seconds } שניות
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = נדרש קוד אימות
 signin-token-code-resend-error = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
@@ -1844,6 +1851,13 @@ confirm-signup-code-sync-button = התחלה בסנכרון
 confirm-signup-code-code-expired = פג תוקף הקוד?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = שליחת קוד חדש בדוא״ל.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] שליחת קוד חדש בדוא״ל תוך שנייה אחת
+       *[other] שליחת קוד חדש בדוא״ל תוך { $seconds } שניות
+    }
 confirm-signup-code-success-alert = החשבון אומת בהצלחה
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = נדרש קוד אימות
