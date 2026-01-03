@@ -1659,6 +1659,8 @@ reset-password-recovery-phone-send-code-error-heading = 코드를 보내는 데 
 reset-password-recovery-phone-code-verification-error-heading = 코드를 확인하는 데 문제가 발생했습니다.
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = 나중에 다시 시도해 주세요.
+reset-password-recovery-phone-invalid-code-error-description = 코드가 유효하지 않거나 만료되었습니다.
+reset-password-recovery-phone-invalid-code-error-link = 대신 백업 인증 코드를 사용하시겠습니까?
 reset-password-with-recovery-key-verified-page-title = 비밀번호 재설정 성공
 reset-password-complete-new-password-saved = 새 비밀번호 저장됨!
 reset-password-complete-recovery-key-created = 새로운 계정 복구 키가 생성되었습니다. 지금 다운로드하고 저장하세요.
@@ -1696,6 +1698,11 @@ signin-password-button-label = 비밀번호
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = 사용자가 로그인한 후 { -brand-firefox }가 이메일 마스크를 사용하도록 다시 요청합니다.
+signin-code-expired-error = 코드가 만료되었습니다. 다시 로그인 해 주세요.
+signin-account-locked-banner-heading = 비밀번호 재설정
+signin-account-locked-banner-description = 의심스러운 활동으로부터 보호하기 위해 계정을 잠궜습니다.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = 로그인을 위해 비밀번호를 재설정하세요.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1770,6 +1777,10 @@ signin-recovery-code-phone-link = 복구 전화번호 사용
 signin-recovery-code-support-link = 접근이 불가능한 상태이신가요?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = 백업 인증 코드 필요
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = 복구 전화로 코드를 보내는 데 문제가 발생했습니다.
 signin-recovery-code-use-phone-failure-description = 다음에 다시 시도해 주세요.
 
 ## SigninRecoveryPhone page
@@ -1777,15 +1788,21 @@ signin-recovery-code-use-phone-failure-description = 다음에 다시 시도해 
 signin-recovery-phone-flow-heading = 로그인
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = 복구 코드 입력
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = 끝자리가 <span>{ $lastFourPhoneDigits }</span>로 끝나는 전화번호로 6자리 코드가 문자로 전송되었습니다. 이 코드는 5분 후에 만료됩니다. 이 코드를 다른사람과 공유하지 마세요.
 signin-recovery-phone-input-label = 6자리 숫자 코드 입력
 signin-recovery-phone-code-submit-button = 확인
 signin-recovery-phone-resend-code-button = 코드 재전송
 signin-recovery-phone-resend-success = 코드 전송됨
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = 접근이 불가능한 상태이신가요?
+signin-recovery-phone-send-code-error-heading = 코드를 보내는 데 문제가 발생했습니다.
+signin-recovery-phone-code-verification-error-heading = 코드를 확인하는 데 문제가 발생했습니다.
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = 다시 시도해 주십시오.
 signin-recovery-phone-invalid-code-error-description = 코드가 유효하지 않거나 만료되었습니다.
+signin-recovery-phone-invalid-code-error-link = 대신 백업 인증 코드를 사용하시겠습니까?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = 성공적으로 로그인되었습니다. 복구 전화번호를 다시 사용하면 제한이 적용될 수 있습니다.
@@ -1811,6 +1828,13 @@ signin-token-code-confirm-button = 확인
 signin-token-code-code-expired = 코드가 만료되었나요?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = 이메일로 새 코드를 받으세요.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] { $seconds }초 후에 이메일로 새 코드를 보내세요.
+       *[other] { $seconds }초 후에 이메일로 새 코드를 보내세요.
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = 확인 코드 필요
 signin-token-code-resend-error = 문제가 발생했습니다. 새 코드를 보낼 수 없습니다.
@@ -1827,6 +1851,11 @@ signin-totp-code-header = 로그인
 signin-totp-code-subheader-v2 = 2단계 인증 코드 입력
 signin-totp-code-instruction-v4 = <strong>인증기 앱</strong>에서 로그인을 확인하세요.
 signin-totp-code-input-label-v4 = 6자리 숫자 코드 입력
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = 왜 인증을 요청 받나요?
+signin-totp-code-aal-banner-content = 계정에 2단계 인증을 설정했지만, 이 기기에서 아직 코드로 로그인하지 않았습니다.
+signin-totp-code-aal-sign-out = 이 기기에서 로그아웃
+signin-totp-code-aal-sign-out-error = 로그아웃 중 문제가 발생했습니다.
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 확인
 signin-totp-code-other-account-link = 다른 계정 사용
@@ -1852,6 +1881,10 @@ signin-unblock-code-incorrect-length = 인증 코드는 8글자여야 합니다.
 signin-unblock-code-incorrect-format-2 = 인증 코드에는 문자 및/또는 숫자만 사용할 수 있습니다.
 signin-unblock-resend-code-button = 받은편지함 또는 스팸함에 없나요? 다시 보내기
 signin-unblock-support-link = 이런 일이 왜 일어나나요?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = 사용자가 로그인한 후 { -brand-firefox }가 이메일 마스크를 사용하도록 다시 요청합니다.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1870,16 +1903,40 @@ confirm-signup-code-instruction-v2 = 5분 이내에 <email>{ $email }</email> �
 confirm-signup-code-input-label = 6자리 숫자 코드 입력
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 확인
+confirm-signup-code-sync-button = 동기화 시작
 confirm-signup-code-code-expired = 코드가 만료되었나요?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 이메일로 새 코드를 받으세요.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown = { $seconds }초 후에 이메일로 새 코드를 보내세요.
 confirm-signup-code-success-alert = 성공적으로 계정이 확인되었습니다.
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = 확인 코드가 필요합니다.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = 사용자가 로그인한 후 { -brand-firefox }가 이메일 마스크를 사용하도록 다시 요청합니다.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = 비밀번호 생성
 signup-relay-info = 안전하게 가려진 이메일을 관리하고 { -brand-mozilla }의 보안 도구에 접근하려면 비밀번호가 필요합니다.
+signup-sync-info = { -brand-firefox }를 사용하는 모든 곳에서 비밀번호, 북마크 등을 동기화하세요.
+signup-sync-info-with-payment = { -brand-firefox }를 사용하는 모든 곳에서 비밀번호, 결제 방법, 북마크 등을 동기화하세요.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 이메일 변경
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
+signup-confirmed-sync-header = 동기화 켜짐
+signup-confirmed-sync-success-banner = { -product-mozilla-account } 확인됨
+signup-confirmed-sync-button = 브라우징 시작
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = 비밀번호, 결제 방법, 주소, 북마크, 기록 등은 { -brand-firefox }를 사용하는 모든 곳에서 동기화될 수 있습니다.
+signup-confirmed-sync-description-v2 = 비밀번호, 주소, 북마크, 기록 등을 { -brand-firefox }를 사용하는 모든 곳에서 동기화 할 수 있습니다.
+signup-confirmed-sync-add-device-link = 다른 기기 추가
+signup-confirmed-sync-manage-sync-button = 동기화 관리
+signup-confirmed-sync-set-password-success-banner = 동기화 비밀번호 생성됨
