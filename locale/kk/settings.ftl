@@ -363,6 +363,7 @@ confirmation-link-reused-message = Бұл растау сілтемесі қол
 ## Locale Toggle Component
 
 locale-toggle-select-label = Тілді таңдау
+locale-toggle-browser-default = Үнсіз келісім бойынша браузер
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Жарамсыз сұраным
 
@@ -376,10 +377,12 @@ password-info-balloon-reset-risk-info = Қалпына келтіру әреке
 ## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-long-instruction = Басқа сайттарда пайдаланбаған күшті парольдң таңдаңыз. Оның қауіпсіздік талаптарына сәйкес келетініне көз жеткізіңіз:
+password-strength-short-instruction = Қатаң парольді таңдаңыз:
 password-strength-inline-min-length = Кемінде 8 таңба
 password-strength-inline-not-email = Сіздің эл. пошта адресіңіз емес
 password-strength-inline-not-common = Жиі қолданылатын пароль емес
 password-strength-inline-confirmed-must-match = Растау жаңа парольге сәйкес келеді
+password-strength-inline-passwords-match = Парольдер өзара сәйкес келеді
 
 ## Notification Promo Banner component
 
@@ -387,6 +390,11 @@ account-recovery-notification-cta = Жасау
 account-recovery-notification-header-value = Пароліңізді ұмытып қалсаңыз, деректеріңізді жоғалтпаңыз
 account-recovery-notification-header-description = Парольді ұмытып қалсаңыз, синхрондалған шолу деректерін қалпына келтіру үшін тіркелгіні қалпына келтіру кілтін жасаңыз.
 recovery-phone-promo-cta = Қалпына келтіру телефонын қосу
+recovery-phone-promo-heading = Қалпына келтіру телефон нөмірімен тіркелгіңізге қосымша қорғаныс қосыңыз
+recovery-phone-promo-description = Енді екі сатылы аутентификация қолданбасын пайдалана алмасаңыз, SMS арқылы бір реттік парольмен кіре аласыз.
+recovery-phone-promo-info-link = Қалпына келтіру және SIM картаны ауыстыру қаупі туралы көбірек біліңіз
+promo-banner-dismiss-button =
+    .aria-label = Баннерді жабу
 
 ## Ready component
 
@@ -483,6 +491,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } жасаған
 
 connect-another-fx-mobile = { -brand-firefox } өнімін телефон немесе планшетіңізге алыңыз
 connect-another-find-fx-mobile-2 = { -brand-firefox } өнімін { -google-play } және { -app-store } ішінен табыңыз.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = { -brand-firefox } қолданбасын { -google-play } ішінен жүктеп алыңыз
+connect-another-app-store-image-3 =
+    .alt = { -brand-firefox } қолданбасын { -app-store } ішінен жүктеп алыңыз
 
 ## Connected services section
 

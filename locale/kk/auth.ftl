@@ -489,6 +489,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Сондай-ақ, қалп
 postAddTwoStepAuthentication-recovery-method-phone = Сіз сондай-ақ қалпына келтіру телефон нөміріңіз ретінде { $maskedPhoneNumber } нөмірін қостыңыз.
 postAddTwoStepAuthentication-how-protects-link = Бұл сіздің тіркелгіңізді қалай қорғайды
 postAddTwoStepAuthentication-how-protects-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
+postAddTwoStepAuthentication-device-sign-out-message = Барлық қосылған құрылғыларыңызды қорғау үшін, осы тіркелгіні пайдаланып жатқан барлық жерде жүйеден шығып, екі сатылы аутентификацияны пайдаланып қайта кіруіңіз керек.
 postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
 postChangeAccountRecovery-title = Сіз тіркелгіңізді қалпына келтіру кілтін өзгерттіңіз
 postChangeAccountRecovery-body-part1 = Енді сізде тіркелгіні қалпына келтірудің жаңа кілті бар. Сіздің алдыңғы кілтіңіз өшірілді.
@@ -508,11 +509,13 @@ postChangeRecoveryPhone-requested-device = Сіз оны келесі жерде
 postChangeTwoStepAuthentication-preview = Сіздің тіркелгіңіз қорғалған
 postChangeTwoStepAuthentication-subject = Екі қадамды аутентификация жаңартылды
 postChangeTwoStepAuthentication-title = Екі қадамды аутентификация жаңартылған
+postChangeTwoStepAuthentication-use-new-account = Енді аутентификатор қолданбаңызда жаңа { -product-mozilla-account } жазбасын пайдалануыңыз керек. Ескісі енді жұмыс істемейді және оны өшіруге болады.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Сіз мұны келесі жерден сұрадыңыз:
 postChangeTwoStepAuthentication-action = Тіркелгіні басқару
 postChangeTwoStepAuthentication-how-protects-link = Бұл сіздің тіркелгіңізді қалай қорғайды
 postChangeTwoStepAuthentication-how-protects-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
+postChangeTwoStepAuthentication-device-sign-out-message = Барлық қосылған құрылғыларыңызды қорғау үшін, осы тіркелгіні пайдаланып жатқан барлық жерде жүйеден шығып, жаңа екі сатылы аутентификацияны пайдаланып қайта кіруіңіз керек.
 postConsumeRecoveryCode-title-3 = Парольді қалпына келтіруді растау үшін сақтық көшірме аутентификация кодыңыз пайдаланылды
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -556,6 +559,8 @@ postSigninRecoveryCode-device = Сіз келесі жерден кірдіңі�
 postSigninRecoveryCode-action = Тіркелгіні басқару
 postSigninRecoveryPhone-subject = Кіру үшін пайдаланылған қалпына келтіру телефоны
 postSigninRecoveryPhone-preview = Тіркелгі белсенділігін растау
+postSigninRecoveryPhone-title = Қалпына келтіру телефон нөміріңіз кіру үшін пайдаланылды
+postSigninRecoveryPhone-description = Егер сіз мұны істемеген болсаңыз, тіркелгіңіздің қауіпсіздігін қамтамасыз ету үшін пароліңізді дереу өзгертуіңіз керек.
 postSigninRecoveryPhone-device = Сіз келесі жерден кірдіңіз:
 postSigninRecoveryPhone-action = Тіркелгіні басқару
 postVerify-sub-title-3 = Біз сізді көруге қуаныштымыз!
@@ -660,9 +665,15 @@ subscriptionFirstInvoice-content-processing = Сіздің төлеміңіз қ
 subscriptionFirstInvoice-content-install-2 = Сіз { $productName } пайдалануды қалай бастау керектігі туралы бөлек электрондық хат аласыз.
 subscriptionFirstInvoice-content-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Келесі шотыңыз { $nextInvoiceDateOnly } күні шығарылады.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = { $productName } үшін төлем әдісінің мерзімі бітті немесе жақында аяқталады
 subscriptionPaymentExpired-title-2 = Сіздің төлем әдісіңіздің мерзімі бітті немесе аяқталуға жақын
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = { $productName } үшін пайдаланып жатқан төлем әдісінің мерзімі біткен немесе мерзімі аяқталуға жақын.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } төлемі сәтсіз аяқталды
@@ -670,6 +681,7 @@ subscriptionPaymentFailed-title = Кешіріңіз, төлеміңізге қ�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = { $productName } үшін соңғы төлеміңізге қатысты мәселе орын алды.
+subscriptionPaymentFailed-content-outdated-1 = Төлем әдісіңіздің мерзімі өтіп кеткен немесе ағымдағы төлем әдісіңіз ескірген болуы мүмкін.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName } үшін төлем ақпаратын жаңарту қажет
@@ -677,6 +689,7 @@ subscriptionPaymentProviderCancelled-title = Кешіріңіз, төлем әд
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = { $productName } үшін төлем әдісіңізге қатысты мәселе анықталды.
+subscriptionPaymentProviderCancelled-content-reason-1 = Төлем әдісіңіздің мерзімі өтіп кеткен немесе ағымдағы төлем әдісіңіз ескірген болуы мүмкін.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } жазылуы қайта белсендірілді
@@ -704,11 +717,19 @@ subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } командасы
+subscriptionReplaced-subject = Жазылымыңыз жаңартудың бөлігі ретінде жаңартылды
+subscriptionReplaced-title = Жазылымыңыз жаңартылды
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Сіздің жеке { $productName } жазылымыңыз ауыстырылды және енді жаңа пакетіңізге қосылды.
 subscriptionReplaced-content-credit = Алдыңғы жазылымыңыздан қалған пайдаланылмаған уақыт үшін сізге несие беріледі. Бұл несие тіркелгіңізге автоматты түрде қосылады және алдағы төлемдерге жұмсалады.
 subscriptionReplaced-content-no-action = Сіздің тарапыңыздан ешқандай әрекет қажет емес.
+subscriptionsPaymentExpired-subject-2 = Жазылымдарыңыздың төлем әдісінің мерзімі біткен немесе жақында аяқталады
+subscriptionsPaymentExpired-title-2 = Сіздің төлем әдісіңіздің мерзімі бітті немесе аяқталуға жақын
+subscriptionsPaymentExpired-content-2 = Келесі жазылымдар үшін төлем жасау үшін пайдаланып жатқан төлем әдісінің мерзімі аяқталған немесе мерзімі аяқталуға жақын.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } жазылулары үшін төлем ақпаратын жаңарту қажет
 subscriptionsPaymentProviderCancelled-title = Кешіріңіз, төлем әдісіңізге қатысты мәселе орын алды
 subscriptionsPaymentProviderCancelled-content-detected = Келесі жазылулар үшін төлем әдісіңізге қатысты мәселелер анықтадық.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Төлем әдісіңіздің мерзімі өтіп кеткен немесе ағымдағы төлем әдісіңіз ескірген болуы мүмкін.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } төлемі алынды
@@ -738,6 +759,25 @@ subscriptionUpgrade-upgrade-info-2 = Сіз { $productName } нұсқасына 
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Осы төлем кезеңінің қалған бөлігінде жазылымыңыздың жоғарылау бағасына жеткізу үшін сізден бір реттік { $invoiceAmountDue } төлем алынды ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Сіз { $paymentProrated } сомасындағы шот несиесін алдыңыз.
+subscriptionUpgrade-content-subscription-next-bill-change = Келесі шотыңыздан бастап жазылымыңыздың бағасы өзгереді.
+subscriptionUpgrade-content-old-price-day = Бұрынғы бағам күн сайын { $paymentAmountOld } болған.
+subscriptionUpgrade-content-old-price-week = Бұрынғы бағам апта сайын { $paymentAmountOld } болған.
+subscriptionUpgrade-content-old-price-month = Бұрынғы бағам ай сайын { $paymentAmountOld } болған.
+subscriptionUpgrade-content-old-price-halfyear = Бұрынғы бағам әр 6 ай сайын { $paymentAmountOld } болған.
+subscriptionUpgrade-content-old-price-year = Бұрынғы бағам жыл сайын { $paymentAmountOld } болған.
+subscriptionUpgrade-content-old-price-default = Бұрынғы бағам әр төлем аралығы сайын { $paymentAmountOld } болған.
+subscriptionUpgrade-content-old-price-day-tax = Бұрынғы бағам әр күн сайын { $paymentAmountOld } + { $paymentTaxOld } салық болған.
+subscriptionUpgrade-content-old-price-week-tax = Бұрынғы бағам әр апта сайын { $paymentAmountOld } + { $paymentTaxOld } салық болған.
+subscriptionUpgrade-content-old-price-month-tax = Бұрынғы бағам әр ай сайын { $paymentAmountOld } + { $paymentTaxOld } салық болған.
+subscriptionUpgrade-content-old-price-halfyear-tax = Бұрынғы бағам әр 6 ай сайын { $paymentAmountOld } + { $paymentTaxOld } салық болған.
+subscriptionUpgrade-content-old-price-year-tax = Бұрынғы бағам әр жыл сайын { $paymentAmountOld } + { $paymentTaxOld } салық болған.
+subscriptionUpgrade-content-old-price-default-tax = Бұрынғы бағам әр төлем аралығы сайын { $paymentAmountOld } + { $paymentTaxOld } салық болған.
+subscriptionUpgrade-content-new-price-day = Әрі қарай сізден, жеңілдіктерді қоспағанда, әр күн сайын { $paymentAmountNew } төлем алынады.
+subscriptionUpgrade-content-new-price-week = Әрі қарай сізден, жеңілдіктерді қоспағанда, әр апта сайын { $paymentAmountNew } төлем алынады.
+subscriptionUpgrade-content-new-price-month = Әрі қарай сізден, жеңілдіктерді қоспағанда, әр ай сайын { $paymentAmountNew } төлем алынады.
+subscriptionUpgrade-content-new-price-halfyear = Әрі қарай сізден, жеңілдіктерді қоспағанда, әр 6 ай сайын { $paymentAmountNew } төлем алынады.
 subscriptionUpgrade-content-new-price-year = Әрі қарай сізден, жеңілдіктерді қоспағанда, жылына { $paymentAmountNew } төлем алынады.
 subscriptionUpgrade-content-new-price-default = Әрі қарай, жеңілдіктерді қоспағанда, әрбір төлем аралығы үшін сізден { $paymentAmountNew } төлем алынады.
 subscriptionUpgrade-content-new-price-day-dtax = Әрі қарай сізден әр күн сайын, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
@@ -746,6 +786,7 @@ subscriptionUpgrade-content-new-price-month-tax = Әрі қарай сізден
 subscriptionUpgrade-content-new-price-halfyear-tax = Әрі қарай сізден әрбір 6 ай сайын, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
 subscriptionUpgrade-content-new-price-year-tax = Әрі қарай сізден жыл сайын, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
 subscriptionUpgrade-content-new-price-default-tax = Әрі қарай сізден әр төлем аралығы үшін, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
+subscriptionUpgrade-existing = Егер сіздің қолданыстағы жазылымдарыңыздың кез келгені осы жаңартумен сәйкес келсе, біз оларды өңдеп, сізге мәліметтері бар бөлек электрондық пошта жібереміз. Егер сіздің жаңа жоспарыңызда орнатуды қажет ететін өнімдер болса, біз сізге орнату нұсқаулары бар бөлек электрондық пошта жібереміз.
 subscriptionUpgrade-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
 # Variables:
 #  $unblockCode (String) - The authorization code for sign-in
