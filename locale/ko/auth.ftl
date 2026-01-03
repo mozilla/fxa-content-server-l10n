@@ -656,8 +656,15 @@ subscriptionFirstInvoice-content-processing = 결제가 진행중이며 최대 4
 subscriptionFirstInvoice-content-install-2 = { $productName }를 사용하기 위한 방법을 별도의 이메일로 받게 됩니다.
 subscriptionFirstInvoice-content-auto-renew = 구독은 구독을 취소하지 않는 한 매 결제 시기마다 자동으로 갱신됩니다.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = 다음 청구서는 { $nextInvoiceDateOnly }에 발급됩니다.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = { $productName }의 결제 수단이 만료되었거나 곧 만료 예정
+subscriptionPaymentExpired-title-2 = 만료되었거나 곧 만료될 결제 수단입니다.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = { $productName }에 사용 중인 결제 방법이 만료되었거나 곧 만료될 예정입니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 결제 실패
@@ -665,6 +672,7 @@ subscriptionPaymentFailed-title = 죄송합니다, 결제에 문제가 있습니
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = { $productName }에 대한 최근 결제에 문제가 있습니다.
+subscriptionPaymentFailed-content-outdated-1 = 결제 방법이 만료되었거나 현재 결제 방법이 오래되었을 수 있습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName }에 대한 결제 정보 업데이트 필요
@@ -672,6 +680,7 @@ subscriptionPaymentProviderCancelled-title = 죄송합니다, 결제 수단에 �
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = { $productName }에 대한 결제 방법에 문제가 있습니다.
+subscriptionPaymentProviderCancelled-content-reason-1 = 결제 방법이 만료되었거나 현재 결제 방법이 오래되었을 수 있습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } 구독 재활성화됨
@@ -705,9 +714,13 @@ subscriptionReplaced-title = 구독 정보가 업데이트 되었습니다.
 subscriptionReplaced-content-replaced = 개별 { $productName } 구독이 대체되었으며 이제 새 번들에 포함되었습니다.
 subscriptionReplaced-content-credit = 이전 구독에서 사용하지 않은 시간에 대한 크레딧을 받게 됩니다. 이 크레딧은 자동으로 계정에 적용되며 향후 청구에 사용됩니다.
 subscriptionReplaced-content-no-action = 별도의 조치가 필요하지 않습니다.
+subscriptionsPaymentExpired-subject-2 = 구독에 대한 결제 방법이 만료되었거나 곧 만료될 예정입니다.
+subscriptionsPaymentExpired-title-2 = 만료되었거나 곧 만료될 결제 수단입니다.
+subscriptionsPaymentExpired-content-2 = 다음 구독에 대한 결제에 사용 중인 결제 방법은 만료되었거나 곧 만료될 예정입니다.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } 구독에 대한 결제 정보 갱신 필요
 subscriptionsPaymentProviderCancelled-title = 죄송합니다. 선택하신 결제 수단에 문제가 있습니다.
 subscriptionsPaymentProviderCancelled-content-detected = 다음 구독에 대한 결제 방법에 문제가 있음을 감지했습니다.
+subscriptionsPaymentProviderCancelled-content-payment-1 = 결제 방법이 만료되었거나 현재 결제 방법이 오래되었을 수 있습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } 결제 수신됨
@@ -736,6 +749,7 @@ subscriptionUpgrade-upgrade-info-2 = { $productName }으로 성공적으로 업�
 
 subscriptionUpgrade-content-charge-prorated-1 = 이 결제 기간의 나머지 기간 동안({ $productPaymentCycleOld }) 더 높은 구독 가격을 반영하기 위해 { $invoiceAmountDue }의 일회성 수수료가 청구되었습니다.
 subscriptionUpgrade-content-charge-credit = { $paymentProrated }의 계정 크레딧을 받았습니다.
+subscriptionUpgrade-content-subscription-next-bill-change = 다음 청구서부터 구독 가격이 변경됩니다.
 subscriptionUpgrade-existing = 기존 구독이 이번 업그레이드와 중복되는 경우, 이를 처리하여 세부 사항이 담긴 별도의 이메일을 보내드립니다. 새 요금제에 설치가 필요한 제품이 포함 된 경우 설정 지침이 포함된 별도의 이메일을 보내드립니다.
 subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
 unblockCode-title = 로그인하신 게 맞나요?
