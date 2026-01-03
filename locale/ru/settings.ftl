@@ -1864,6 +1864,14 @@ signin-token-code-confirm-button = Подтвердить
 signin-token-code-code-expired = Срок действия кода истёк?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Отправить новый код по электронной почте.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Отправить почтой новый код через { $seconds } секунду
+        [few] Отправить почтой новый код через { $seconds } секунды
+       *[many] Отправить почтой новый код через { $seconds } секунд
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Требуется код подтверждения
 signin-token-code-resend-error = Что-то пошло не так. Не удалось отправить новый код.
@@ -1936,6 +1944,14 @@ confirm-signup-code-sync-button = Начать синхронизацию
 confirm-signup-code-code-expired = Срок действия кода истёк?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Отправить новый код по электронной почте.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Отправить почтой новый код через { $seconds } секунду
+        [few] Отправить почтой новый код через { $seconds } секунды
+       *[many] Отправить почтой новый код через { $seconds } секунд
+    }
 confirm-signup-code-success-alert = Аккаунт успешно подтверждён
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Требуется код подтверждения
