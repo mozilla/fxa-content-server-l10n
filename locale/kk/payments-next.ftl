@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Шарттар мен шектеулер
+loyalty-discount-terms-support = Қолдау қызметіне хабарласу
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = { $productName } қолдау қызметіне хабарласу
+not-found-page-title-terms = Бет табылмады
+not-found-page-description-terms = Сіз іздеп отырған бет жоқ.
+not-found-page-button-terms-manage-subscriptions = Жазылымдарды басқару
+
 ## Page
 
 # This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
@@ -80,12 +88,20 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын к
 
 not-found-title-subscriptions = Жазылым табылмады
 not-found-description-subscriptions = Жазылымыңызды таба алмадық. Қайталап көріңіз немесе қолдау қызметіне хабарласыңыз.
+not-found-button-back-to-subscriptions = Жазылымдарға оралу
 
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Төлем әдістері қосылмаған
 subscription-management-page-banner-warning-link-no-payment-method = Төлем әдісін қосу
 subscription-management-subscriptions-heading = Жазылулар
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Қайда өту
+subscription-management-nav-payment-details = Төлем мәліметтері
+subscription-management-nav-active-subscriptions = Белсенді жазылымдар
+subscription-management-payment-details-heading = Төлем мәліметтері
+subscription-management-email-label = Эл. пошта
+subscription-management-credit-balance-label = Несиелік баланс
 subscription-management-button-add-payment-method-aria = Төлем әдісін қосу
 subscription-management-button-add-payment-method = Қосу
 subscription-management-button-manage-payment-method-aria = Төлем әдісін басқару
@@ -228,6 +244,10 @@ resubscribe-success-dialog-title = Рахмет! Барлығы дайын.
 
 subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } салық
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
+
+##
+
+button-back-to-subscriptions = Жазылымдарға оралу
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

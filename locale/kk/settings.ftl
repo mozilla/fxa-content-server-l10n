@@ -1644,6 +1644,8 @@ signin-totp-code-header = Кіру
 signin-totp-code-subheader-v2 = Екі қадамды аутентификация кодын енгізіңіз
 signin-totp-code-instruction-v4 = Жүйеге кіруді растау үшін <strong>аутентификация қолданбасын</strong> тексеріңіз.
 signin-totp-code-input-label-v4 = 6 цифрлы кодты енгізіңіз
+signin-totp-code-aal-sign-out = Осы құрылғыда жүйеден шығу
+signin-totp-code-aal-sign-out-error = Кешіріңіз, жүйеден шығу кезінде мәселе туындады
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Растау
 signin-totp-code-other-account-link = Басқа тіркелгіні қолдану

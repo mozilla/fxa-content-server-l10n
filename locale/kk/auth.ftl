@@ -711,6 +711,9 @@ subscriptionSubsequentInvoice-title = Жазылушы болғаныңыз үш
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = { $productName }үшін соңғы төлеміңізді алдық.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Келесі шотыңыз { $nextInvoiceDateOnly } күні шығарылады.
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Сіз { $productName } нұсқасына жаңартылдыңыз
 subscriptionUpgrade-title = Жаңартылғаныңыз үшін рахмет!
@@ -729,10 +732,18 @@ subscriptionUpgrade-upgrade-info-2 = Сіз { $productName } нұсқасына 
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-new-price-year = Әрі қарай сізден, жеңілдіктерді қоспағанда, жылына { $paymentAmountNew } ақы алынады.
-subscriptionUpgrade-content-new-price-default = Әрі қарай, жеңілдіктерді қоспағанда, әрбір төлем аралығы үшін сізден { $paymentAmountNew } ақы алынады.
-subscriptionUpgrade-content-new-price-day-dtax = Әрі қарай сізден күніне, жеңілдіктерді қоспағанда, { $paymentAmountNew } + { $paymentTaxNew } салық алынады.
+subscriptionUpgrade-content-new-price-year = Әрі қарай сізден, жеңілдіктерді қоспағанда, жылына { $paymentAmountNew } төлем алынады.
+subscriptionUpgrade-content-new-price-default = Әрі қарай, жеңілдіктерді қоспағанда, әрбір төлем аралығы үшін сізден { $paymentAmountNew } төлем алынады.
+subscriptionUpgrade-content-new-price-day-dtax = Әрі қарай сізден әр күн сайын, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
+subscriptionUpgrade-content-new-price-week-tax = Әрі қарай сізден әр апта сайын, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
+subscriptionUpgrade-content-new-price-month-tax = Әрі қарай сізден әр ай сайын, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
+subscriptionUpgrade-content-new-price-halfyear-tax = Әрі қарай сізден әрбір 6 ай сайын, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
+subscriptionUpgrade-content-new-price-year-tax = Әрі қарай сізден жыл сайын, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
+subscriptionUpgrade-content-new-price-default-tax = Әрі қарай сізден әр төлем аралығы үшін, жеңілдіктерді қоспағанда, { $paymentAmountNew } төлем + { $paymentTaxNew } салық алынады.
 subscriptionUpgrade-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Кіру үшін { $unblockCode } пайдаланыңыз
 unblockCode-preview = Бұл кодтың мерзімі бір сағатта бітеді
 unblockCode-title = Кірем деген сіз бе?
 unblockCode-prompt = Иә болса, міне, сізге керек авторизация коды:
@@ -763,11 +774,25 @@ verify-description-2 = Тіркелгіңізді растаңыз және { -b
 verify-subject = Тіркелгіні жасауды аяқтаңыз
 verify-action-2 = Тіркелгіні растау
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Тіркелгіңізді өзгерту үшін { $code } пайдаланыңыз
+# Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =
     { $expirationTime ->
         [one] Бұл кодтың мерзімі { $expirationTime } минуттан кейін аяқталады.
        *[other] Бұл кодтың мерзімі { $expirationTime } минуттан кейін аяқталады.
+    }
+verifyAccountChange-title = Тіркелгі деректеріңізді өзгертіп жатырсыз ба?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Бұл өзгерісті растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
+verifyAccountChange-prompt = Иә болса, міне, сіздің авторизация кодыңыз:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Оның мерзімі { $expirationTime } минуттан кейін аяқталады.
+       *[other] Оның мерзімі { $expirationTime } минуттан кейін аяқталады.
     }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -775,6 +800,10 @@ verifyLogin-title-2 = { $clientName } ішіне кірдіңіз бе?
 verifyLogin-description-2 = Жүйеге кіргеніңізді растау арқылы тіркелгіңізді қорғауға көмектесіңіз:
 verifyLogin-subject-2 = Кіруді растау
 verifyLogin-action = Кіруді растау
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Кіру үшін { $code } пайдаланыңыз
+verifyLoginCode-preview = Бұл кодтың мерзімі 5 минуттан кейін аяқталады.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } ішіне кірдіңіз бе?
@@ -788,6 +817,9 @@ verifyPrimary-subject = Біріншілік эл. поштаңызды раст
 verifyPrimary-action-2 = Эл. поштаны растау
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Расталғаннан кейін, екіншілік эл. поштаны қосу сияқты тіркелгіні өзгерту бұл тіркелгіден қолжетерлік болады.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Қосымша электрондық поштаңызды растау үшін { $code } пайдаланыңыз
 verifySecondaryCode-preview = Бұл кодтың мерзімі 5 минуттан кейін аяқталады.
 verifySecondaryCode-title-2 = Екіншілік эл. поштаңызды растау
 verifySecondaryCode-action-2 = Эл. поштаны растау
@@ -796,6 +828,10 @@ verifySecondaryCode-action-2 = Эл. поштаны растау
 verifySecondaryCode-explainer-2 = { $email } адресін екіншілік эл. пошта адресі ретінде қолдану сұранымы келесі { -product-mozilla-account } тіркелгісінен жасалған:
 verifySecondaryCode-prompt-2 = Бұл растау кодын пайдалану:
 verifySecondaryCode-expiry-notice-2 = Оның мерзімі 5 минутта бітеді. Расталғаннан кейін бұл адрес қауіпсіздік хабарландырулары мен растауларын ала бастайды.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Тіркелгіңізді растау үшін { $code } пайдаланыңыз
+verifyShortCode-preview-2 = Бұл кодтың мерзімі 5 минуттан кейін аяқталады.
 verifyShortCode-title-3 = { -brand-mozilla } көмегімен Интернетті ашыңыз
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Тіркелгіңізді растаңыз және { -brand-mozilla } мүмкіндігін барлық жүйеге кірген жерлерде пайдаланыңыз, келесіден бастап:
