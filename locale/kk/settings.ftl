@@ -620,9 +620,12 @@ flow-recovery-key-info-cancel-link = Бас тарту
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Аутентификатор қолданбаңызға қосылу
 flow-setup-2fa-cant-scan-qr-button = QR кодын сканерлеу мүмкін емес пе?
 flow-setup-2fa-manual-key-heading = Кодты қолмен енгізу
 flow-setup-2fa-scan-qr-instead-button = Оның орнына QR кодын сканерлеу керек пе?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Аутентификатор қолданбалары туралы көбірек білу
 flow-setup-2fa-button = Жалғастыру
 
 ## The step to choose the two step authentication method in the two step
@@ -663,6 +666,9 @@ flow-setup-2fa-prompt-continue-button = Жалғастыру
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Растау кодын енгізіңіз
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = <span>{ $phoneNumber }</span> нөміріне 6-таңбалы код SMS арқылы жіберілді. Бұл кодтың жарамдылық мерзімі 5 минуттан кейін аяқталады.
 flow-setup-phone-confirm-code-input-label = 6-цифрлық кодты енгізіңіз
 flow-setup-phone-confirm-code-button = Растау
 # button to resend a code by text message to the user's phone
@@ -676,6 +682,9 @@ flow-change-phone-confirm-code-success-message = Қалпына келтіру �
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Телефон нөміріңізді растаңыз
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Нөміріңізді растау үшін керек кодты { -brand-mozilla } нөмірінен жіберілген SMS хабарламамен аласыз. Бұл кодты ешкіммен бөліспеңіз.
+flow-setup-phone-submit-number-legal = Нөміріңізді беру арқылы сіз оны тек тіркелгіңізді растау үшін SMS арқылы жібере алуымыз үшін сақтауға келісесіз. Хабарлама және деректер тарифтері қолданылуы мүмкін.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Код жіберу
 
