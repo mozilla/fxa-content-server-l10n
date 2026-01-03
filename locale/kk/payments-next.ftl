@@ -316,9 +316,18 @@ next-new-user-subscribe-product-assurance = Біз эл. поштаңызды т
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = { $productName } пайдалануды жалғастырғыңыз келе ме?
+stay-subscribed-access-will-continue = Сіздің { $productName } өніміне қол жеткізу мүмкіндігіңіз жалғасады және төлем циклі мен төлем бұрынғыдай болады.
 subscription-content-button-resubscribe = Қайта жазылу
     .aria-label = { $productName } өніміне қайта жазылу
 resubscribe-success-dialog-title = Рахмет! Барлығы дайын.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Келесі төлеміңіз { $currentPeriodEnd } кезінде { $nextInvoiceTotal } + { $taxDue } салық болады.
+stay-subscribed-next-charge-no-tax = Келесі төлеміңіз { $currentPeriodEnd } кезінде { $nextInvoiceTotal } болады.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -330,6 +339,15 @@ resubscribe-success-dialog-title = Рахмет! Барлығы дайын.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-coupon-will-be-applied = { $promotionName } жеңілдігі қолданылады
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Соңғы есепшот • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } салық
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Шотты қарау
+subscription-management-link-view-invoice-aria = { $productName } үшін шотты қарау
+subscription-content-expires-on-expiry-date = Мерзімі { $date } күні аяқталады
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Келесі есепшот • { $billedOnDate }
 subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } салық
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Жазылымда қала беру
@@ -342,6 +360,7 @@ subscription-content-button-cancel-subscription = Жазылымнан бас т
 dialog-close = Сұхбатты жабу
 button-back-to-subscriptions = Жазылымдарға оралу
 subscription-content-cancel-action-error = Күтпеген қате орын алды. Қайталап көріңіз.
+paypal-unavailable-error = { -brand-paypal } қазіргі уақытта қолжетімді емес. Басқа төлем опциясын пайдаланыңыз немесе кейінірек қайталап көріңіз.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -441,3 +460,21 @@ next-coupon-error-generic = Кодты өңдеу кезінде қате оры
 next-coupon-error-invalid = Сіз енгізген код жарамсыз.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Сіз енгізген код қолдану шегіне жетті.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Бұл ұсыныстың мерзімі аяқталды.
+stay-subscribed-error-discount-used = Жеңілдік коды бұрыннан қолданылған.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Бұл жеңілдік тек ағымдағы { $productTitle } жазылушыларына ғана қолжетімді.
+stay-subscribed-error-still-active = Сіздің { $productTitle } жазылымыңыз әлі де белсенді.
+stay-subscribed-error-general = Жазылымыңызды жаңарту кезінде мәселе туындады.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Транзакцияны өңдеу мүмкін болмады. Несие карта ақпаратын тексеріп, әрекетті қайталаңыз.
+manage-payment-method-intent-error-expired-card-error = Несие картаңыздың мерзімі өтіп кеткен сияқты. Басқа картаны қолданып көріңіз.
+manage-payment-method-intent-error-try-again = Төлеміңізді авторизациялау кезінде мәселе орын алды. Қайталап көріңіз немесе карта шығарушысымен байланысыңыз.
+manage-payment-method-intent-error-get-in-touch = Төлеміңізді авторизациялау кезінде мәселе орын алды. Карта шығарушысымен байланысыңыз.
+manage-payment-method-intent-error-insufficient-funds = Сіздің картаңызда қаражат жеткіліксіз сияқты. Басқа картаны қолданып көріңіз.
+manage-payment-method-intent-error-generic = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.

@@ -627,6 +627,7 @@ flow-setup-2fa-scan-qr-instead-button = Оның орнына QR кодын ск
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Аутентификатор қолданбалары туралы көбірек білу
 flow-setup-2fa-button = Жалғастыру
+flow-setup-2fa-input-label = 6-цифрлық кодты енгізіңіз
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -698,6 +699,11 @@ flow-change-phone-confirm-code-success-message = Қалпына келтіру �
 flow-setup-phone-submit-number-heading = Телефон нөміріңізді растаңыз
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Нөміріңізді растау үшін керек кодты { -brand-mozilla } нөмірінен жіберілген SMS хабарламамен аласыз. Бұл кодты ешкіммен бөліспеңіз.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Қалпына келтіру телефоны тек АҚШ пен Канадада қолжетімді. VoIP нөмірлері мен телефон маскаларын пайдалану ұсынылмайды.
 flow-setup-phone-submit-number-legal = Нөміріңізді беру арқылы сіз оны тек тіркелгіңізді растау үшін SMS арқылы жібере алуымыз үшін сақтауға келісесіз. Хабарлама және деректер тарифтері қолданылуы мүмкін.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Код жіберу
@@ -865,6 +871,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } деректерін синхрондау
 delete-account-product-firefox-addons = { -brand-firefox } қосымшалары
 delete-account-acknowledge = Тіркелгіңізді өшіру кезінде мынаны растаңыз:
+delete-account-chk-box-1-v4 =
+    .label = Сіздегі барлық ақылы жазылымдар тоқтатылады
 delete-account-chk-box-2 =
     .label = { -brand-mozilla }өнімдерінде сақталған ақпаратты және мүмкіндіктерді жоғалтуыңыз мүмкін
 delete-account-chk-box-3 =
@@ -918,9 +926,17 @@ recent-activity-account-password-changed = Пароль өзгертілді
 recent-activity-account-secondary-email-added = Екіншілік эл. пошта адресі қосылды
 recent-activity-account-secondary-email-removed = Екіншілік эл. пошта адресі өшірілді
 recent-activity-account-emails-swapped = Негізгі және екіншілік эл. пошталар өзара ауыстырылды
+recent-activity-session-destroy = Сессиядан шықтыңыз
+recent-activity-account-recovery-phone-send-code = Қалпына келтіру телефон коды жіберілді
+recent-activity-account-recovery-phone-signin-complete = Қалпына келтіру телефон нөмірімен кіру аяқталды
+recent-activity-account-recovery-phone-signin-failed = Қалпына келтіру телефон нөмірімен кіру сәтсіз аяқталды
 recent-activity-account-recovery-phone-removed = Қалпына келтіру телефоны өшірілді
 recent-activity-account-recovery-codes-replaced = Қалпына келтіру кодтары алмастырылды
 recent-activity-account-recovery-codes-created = Қалпына келтіру кодтары жасалды
+recent-activity-account-recovery-codes-signin-complete = Қалпына келтіру кодтарымен кіру аяқталды
+recent-activity-password-reset-otp-sent = Парольді қалпына келтіруді растау коды жіберілді
+recent-activity-password-reset-otp-verified = Парольді қалпына келтіруді растау коды расталды
+recent-activity-must-reset-password = Парольді қалпына келтіру қажет
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Тіркелгінің басқа белсенділігі
 
@@ -935,8 +951,10 @@ recovery-key-create-back-button-title = Баптауларға оралу
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Қалпына келтіру телефон нөмірін өшіру
 settings-recovery-phone-remove-button = Телефон нөмірін өшіру
 settings-recovery-phone-remove-cancel = Бас тарту
+settings-recovery-phone-remove-success = Қалпына келтіру телефоны өшірілді
 
 ## PageSetupRecoveryPhone
 
@@ -1574,6 +1592,10 @@ signin-header = Кіру
 signin-use-a-different-account-link = Басқа тіркелгіні қолдану
 signin-forgot-password-link = Пароліңізді ұмыттыңыз ба?
 signin-password-button-label = Пароль
+signin-account-locked-banner-heading = Парольді тастау
+signin-account-locked-banner-description = Күдікті әрекеттерден қорғау үшін тіркелгіңізді құлыптадық.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Кіру үшін пароліңізді қалпына келтіріңіз
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1725,6 +1747,8 @@ confirm-signup-code-page-title = Растау кодын енгізіңіз
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Өзіңіздің <span>{ -product-mozilla-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = <email>{ $email }</email> адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
 confirm-signup-code-input-label = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Растау
