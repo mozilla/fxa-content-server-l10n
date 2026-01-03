@@ -214,6 +214,16 @@ subscription-charges-invoice-summary = Шот қорытындысы
 subscription-charges-invoice-number = <b>Шот нөмірі:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Шот нөмірі: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Күні:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Күні: { $invoiceDateOnly }
+subscription-charges-prorated-price = Пропорционалды баға
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Пропорционалды баға: { $remainingAmountTotal }
+subscription-charges-list-price = Прейскурант бойынша бағасы
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Прейскурант бойынша бағасы: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Пайдаланылмаған уақыттан алынған несие
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Пайдаланылмаған уақыттан алынған несие: { $unusedAmountTotal }
 subscription-charges-subtotal = <b>Аралық сома</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Аралық сома: { $invoiceSubtotal }
@@ -223,6 +233,16 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Аралық сома: { $in
 
 subscription-charges-one-time-discount = Бір реттік жеңілдік
 subscription-charges-one-time-discount-plaintext = Бір реттік жеңілдік: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-айлық жеңілдік
+       *[other] { $discountDuration }-айлық жеңілдік
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-айлық жеңілдік: -{ $invoiceDiscountAmount }
+       *[other] { $discountDuration }-айлық жеңілдік: -{ $invoiceDiscountAmount }
+    }
 subscription-charges-discount = Жеңілдік
 subscription-charges-discount-plaintext = Жеңілдік: { $invoiceDiscountAmount }
 subscription-charges-taxes = Салықтар мен алымдар
@@ -231,6 +251,14 @@ subscriptionCharges-content-tax-plaintext = Салықтар мен алымда
 subscription-charges-total = <b>Жалпы</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Жалпы: { $invoiceTotal }
+subscription-charges-credit-applied = Несие қолданылды
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Несие қолданылды: { $creditApplied }
+subscription-charges-amount-paid = <b>Төленген сома</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Төленген сома: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Сіз болашақ шоттарыңызға қолданылатын { $creditReceived } шот несиесін алдыңыз.
 
 ##
 
@@ -242,6 +270,13 @@ subscriptionSupport-plaintext = Жазылуыңыз туралы сұрақта
 subscriptionSupportContact = { $productName } қызметіне жазылғаныңыз үшін рақмет. Жазылуыңыз туралы сұрақтарыңыз болса немесе { $productName } туралы қосымша ақпарат қажет болса, <a data-l10n-name="subscriptionSupportUrl">бізге хабарласыңыз</a>
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = { $productName } қызметіне жазылғаныңыз үшін рақмет. Жазылуыңыз туралы сұрақтарыңыз болса немесе { $productName } туралы қосымша ақпарат қажет болса, бізге хабарласыңыз
+subscription-support-get-help = Жазылымыңыз бойынша көмек алу
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Жазылымыңызды басқарыңыз</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Жазылымыңызды басқарыңыз:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Қолдау қызметіне хабарласу</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = Қолдау қызметіне хабарласу
 subscriptionUpdateBillingEnsure = Төлем әдісіңіз бен шот ақпаратыңыздың ескірмегеніне <a data-l10n-name="updateBillingUrl">осы жерде</a> көз жеткізе аласыз.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Төлем әдісіңіз бен шот ақпаратыңыздың ескірмегеніне осы жерде көз жеткізе аласыз:
@@ -251,6 +286,12 @@ subscriptionUpdateBillingTry-plaintext = Төлеміңізді келесі б�
 subscriptionUpdatePayment = Қызметіңіздің үзілуіне жол бермеу үшін, мүмкіндігінше тезірек <a data-l10n-name="updateBillingUrl">төлем ақпаратыңызды жаңартыңыз</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Қызметіңіздің үзілуіне жол бермеу үшін, мүмкіндігінше тезірек төлем ақпаратыңызды жаңартыңыз:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Көбірек ақпарат алу үшін, <a data-l10n-name="supportLink">{ -brand-mozilla } қолдау сайтын</a> шолыңыз.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Қосымша ақпарат алу үшін { -brand-mozilla } қолдау бөлімін шолыңыз: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -276,6 +317,7 @@ location-state-country = { $stateCode }, { $country } (шамамен)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (шамамен)
+view-invoice-link-action = Шотты қарау
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -307,17 +349,32 @@ fraudulentAccountDeletion-contact = Сұрақтарыңыз болса, біз�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Сұрақтарыңыз болса, біздің қолдау көрсету тобымызға хабарласыңыз: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = { -product-mozilla-account } тіркелгіңізді сақтап қалудың соңғы мүмкіндігі
+inactiveAccountFinalWarning-title = Сіздің { -brand-mozilla } тіркелгіңіз бен деректеріңіз өшірілетін болады
 inactiveAccountFinalWarning-preview = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
+inactiveAccountFinalWarning-account-description = Сіздің { -product-mozilla-account } тіркелгіңіз { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } және { -product-mdn } сияқты тегін жекелікке және шолу өнімдеріне қол жеткізу үшін пайдаланылады.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> күні, егер сіз жүйеге кірмесеңіз, тіркелгіңіз бен жеке деректеріңіз біржола өшіріледі.
 inactiveAccountFinalWarning-action = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Тіркелгіңізді сақтау үшін жүйеге кіріңіз:
 inactiveAccountFirstWarning-subject = Тіркелгіңізді жоғалтпаңыз
 inactiveAccountFirstWarning-title = { -brand-mozilla } тіркелгіңіз бен деректеріңізді сақтағыңыз келе ме?
 inactiveAccountFirstWarning-account-description-v2 = Сіздің { -product-mozilla-account } тіркелгіңіз { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } және { -product-mdn } сияқты тегін жекелікке және шолу өнімдеріне қол жеткізу үшін пайдаланылады.
+inactiveAccountFirstWarning-inactive-status = Сіздің екі жыл бойы жүйеге кірмегеніңізді байқадық.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Сіз белсенді болмағандықтан, тіркелгіңіз бен жеке деректеріңіз <strong>{ $deletionDate }</strong> күні біржола өшіріледі.
 inactiveAccountFirstWarning-action = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 inactiveAccountFirstWarning-preview = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Тіркелгіңізді сақтау үшін жүйеге кіріңіз:
+inactiveAccountSecondWarning-subject = Әрекет қажет: Тіркелгі 7 күннен кейін өшіріледі
+inactiveAccountSecondWarning-title = Сіздің { -brand-mozilla } тіркелгіңіз бен деректеріңіз 7 күннен кейін өшірілетін болады
+inactiveAccountSecondWarning-account-description-v2 = Сіздің { -product-mozilla-account } тіркелгіңіз { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } және { -product-mdn } сияқты тегін жекелікке және шолу өнімдеріне қол жеткізу үшін пайдаланылады.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Сіз белсенді болмағандықтан, тіркелгіңіз бен жеке деректеріңіз <strong>{ $deletionDate }</strong> күні біржола өшіріледі.
 inactiveAccountSecondWarning-action = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 inactiveAccountSecondWarning-preview = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 # followed by link to sign in
@@ -356,6 +413,10 @@ passwordChanged-description-2 = Сіздің { -product-mozilla-account } тір
 passwordChangeRequired-subject = Күдікті әрекет анықталды
 passwordChangeRequired-preview = Пароліңізді дереу өзгертіңіз
 passwordChangeRequired-title-2 = Пароліңізді қалпына келтіріңіз
+passwordChangeRequired-suspicious-activity-3 = Күдікті әрекеттен қорғау үшін тіркелгіңізді құлыптадық. Сіз барлық құрылғыларыңыздан шығарылдыңыз және кез келген синхрондалған деректер сақтық шарасы ретінде өшірілді.
+passwordChangeRequired-sign-in-3 = Тіркелгіңізге қайта кіру үшін сізге тек пароліңізді қалпына келтіру керек.
+passwordChangeRequired-different-password-2 = <b>Маңызды:</b> Бұрын қолданған пароліңізден өзгеше күшті парольді таңдаңыз.
+passwordChangeRequired-different-password-plaintext-2 = Маңызды: Бұрын қолданған пароліңізден өзгеше күшті парольді таңдаңыз.
 passwordChangeRequired-action = Парольді тастау
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 # Variables:
@@ -421,6 +482,11 @@ postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутент
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Сіз мұны келесі жерден сұрадыңыз:
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
+postAddTwoStepAuthentication-code-required-v4 = Аутентификация қолданбасының қауіпсіздік кодтары енді жүйеге әр рет кірген сайын керек болады.
+postAddTwoStepAuthentication-recovery-method-codes = Сондай-ақ, қалпына келтіру әдісі ретінде сақтық көшірме аутентификация кодтарын қостыңыз.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Сіз сондай-ақ қалпына келтіру телефон нөміріңіз ретінде { $maskedPhoneNumber } нөмірін қостыңыз.
 postAddTwoStepAuthentication-how-protects-link = Бұл сіздің тіркелгіңізді қалай қорғайды
 postAddTwoStepAuthentication-how-protects-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
 postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
@@ -437,6 +503,7 @@ postChangePrimary-action = Тіркелгіні басқару
 postChangeRecoveryPhone-subject = Қалпына келтіру телефоны жаңартылды
 postChangeRecoveryPhone-preview = Тіркелгі екі факторлы аутентификациямен қорғалған
 postChangeRecoveryPhone-title = Сіз қалпына келтіру телефон нөмірін өзгерттіңіз
+postChangeRecoveryPhone-description = Енді сізде жаңа қалпына келтіру телефоны бар. Алдыңғы телефон нөміріңіз өшірілді.
 postChangeRecoveryPhone-requested-device = Сіз оны келесі жерден сұрадыңыз:
 postChangeTwoStepAuthentication-preview = Сіздің тіркелгіңіз қорғалған
 postChangeTwoStepAuthentication-subject = Екі қадамды аутентификация жаңартылды
@@ -446,6 +513,10 @@ postChangeTwoStepAuthentication-from-device = Сіз мұны келесі же�
 postChangeTwoStepAuthentication-action = Тіркелгіні басқару
 postChangeTwoStepAuthentication-how-protects-link = Бұл сіздің тіркелгіңізді қалай қорғайды
 postChangeTwoStepAuthentication-how-protects-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
+postConsumeRecoveryCode-title-3 = Парольді қалпына келтіруді растау үшін сақтық көшірме аутентификация кодыңыз пайдаланылды
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Қолданылған код:
 postConsumeRecoveryCode-action = Тіркелгіні басқару
 postNewRecoveryCodes-subject-2 = Жаңа сақтық көшірме аутентификация кодтары жасалды
 postNewRecoveryCodes-title-2 = Сіз жаңа сақтық көшірме аутентификация кодтарын жасадыңыз
@@ -658,6 +729,9 @@ subscriptionUpgrade-upgrade-info-2 = Сіз { $productName } нұсқасына 
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-new-price-year = Әрі қарай сізден, жеңілдіктерді қоспағанда, жылына { $paymentAmountNew } ақы алынады.
+subscriptionUpgrade-content-new-price-default = Әрі қарай, жеңілдіктерді қоспағанда, әрбір төлем аралығы үшін сізден { $paymentAmountNew } ақы алынады.
+subscriptionUpgrade-content-new-price-day-dtax = Әрі қарай сізден күніне, жеңілдіктерді қоспағанда, { $paymentAmountNew } + { $paymentTaxNew } салық алынады.
 subscriptionUpgrade-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
 unblockCode-preview = Бұл кодтың мерзімі бір сағатта бітеді
 unblockCode-title = Кірем деген сіз бе?
