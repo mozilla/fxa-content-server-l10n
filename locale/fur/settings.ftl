@@ -1860,6 +1860,13 @@ signin-token-code-confirm-button = Conferme
 signin-token-code-code-expired = Codiç scjadût?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Mande e-mail cul gnûf codiç.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Spedìs un gnûf codiç vie e-mail ca di { $seconds } secont
+       *[other] Spedìs un gnûf codiç vie e-mail ca di { $seconds } seconts
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Codiç di conferme necessari
 signin-token-code-resend-error = Alc al è lât strucj. Impussibil inviâ un gnûf codiç.
@@ -1932,6 +1939,13 @@ confirm-signup-code-sync-button = Scomence la sincronizazion
 confirm-signup-code-code-expired = Codiç scjadût?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Mande e-mail cul gnûf codiç.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Spedìs un gnûf codiç vie e-mail ca di { $seconds } secont
+       *[other] Spedìs un gnûf codiç vie e-mail ca di { $seconds } seconts
+    }
 confirm-signup-code-success-alert = Account confermât cun sucès
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Al è necessari il codiç di conferme
