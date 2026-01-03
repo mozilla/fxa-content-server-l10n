@@ -1888,11 +1888,11 @@ signin-token-code-resend-code-link = E-bostiwch cod newydd.
 signin-token-code-resend-code-countdown =
     { $seconds ->
         [one] E-bostiwch cod newydd ymhen { $seconds } eiliad
-        [zero] E-bostiwch cod newydd mewn { $seconds } eiliad
-        [two] E-bostiwch cod newydd mewn { $seconds } eiliad
-        [few] E-bostiwch cod newydd mewn { $seconds } eiliad
-        [many] E-bostiwch cod newydd mewn { $seconds } eiliad
-       *[other] E-bostiwch cod newydd mewn { $seconds } eiliad
+        [zero] E-bostiwch cod newydd ymhen { $seconds } eiliadau
+        [two] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [few] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [many] E-bostiwch cod newydd ymhen { $seconds } eiliad
+       *[other] E-bostiwch cod newydd ymhen { $seconds } eiliad
     }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Mae angen codi dilys
@@ -1971,11 +1971,11 @@ confirm-signup-code-resend-code-link = E-bostiwch god newydd.
 confirm-signup-code-resend-code-countdown =
     { $seconds ->
         [one] E-bostiwch cod newydd ymhen { $seconds } eiliad
-        [zero] E-bostiwch cod newydd mewn { $seconds } eiliad
-        [two] E-bostiwch cod newydd mewn { $seconds } eiliad
-        [few] E-bostiwch cod newydd mewn { $seconds } eiliad
-        [many] E-bostiwch cod newydd mewn { $seconds } eiliad
-       *[other] E-bostiwch cod newydd mewn { $seconds } eiliad
+        [zero] E-bostiwch cod newydd ymhen { $seconds } eiliadau
+        [two] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [few] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [many] E-bostiwch cod newydd ymhen { $seconds } eiliad
+       *[other] E-bostiwch cod newydd ymhen { $seconds } eiliad
     }
 confirm-signup-code-success-alert = Cyfrif wedi'i gadarnhau'n llwyddiannus
 # Error displayed in tooltip.
