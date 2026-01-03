@@ -637,11 +637,15 @@ flow-setup-2fa-backup-choice-phone-title = Қалпына келтіру тел�
 flow-setup-2fa-backup-choice-phone-badge = Ең оңай
 flow-setup-2fa-backup-choice-code-title = Сақтық аутентификация кодтары
 flow-setup-2fa-backup-choice-code-badge = Ең қауіпсіз
+flow-setup-2fa-backup-choice-code-info = Бір рет қолданылатын аутентификация кодтарын жасауз және сақтау.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Қалпына келтіру және SIM картаны ауыстыру қаупі туралы біліңіз
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Сақтық көшірме аутентификация кодын енгізіңіз
 flow-setup-2fa-backup-code-confirm-code-input = 10-таңбалы кодты енгізіңіз
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Дайын
@@ -772,6 +776,7 @@ nav-email-comm = Эл. пошта хабарландырулары
 
 page-2fa-change-title = Екі қадамды аутентификацияны өзгерту
 page-2fa-change-success = Екі қадамды аутентификация жаңартылды
+page-2fa-change-success-additional-message = Барлық қосылған құрылғыларыңызды қорғау үшін, осы тіркелгіні пайдаланып жатқан барлық жерде жүйеден шығып, жаңа екі сатылы аутентификацияны пайдаланып қайта кіруіңіз керек.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -788,6 +793,8 @@ tfa-create-code-success-alert = Сақтық көшірме аутентифик
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
 tfa-replace-code-download-description = Оларды есте сақтайтын жерде сақтаңыз. Келесі қадамды аяқтағаннан кейін ескі кодтарыңыз алмастырылады.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Жарамсыз сақтық көшірме аутентификация коды
 
 ## Page2faSetup
 
@@ -796,6 +803,7 @@ page-2fa-setup-totpinfo-error = Екі сатылы аутентификация
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Бұл код дұрыс емес. Қайталап көріңіз.
 page-2fa-setup-success = Екі қадамды аутентификация іске қосылды
+page-2fa-setup-success-additional-message = Барлық қосылған құрылғыларыңызды қорғау үшін, осы тіркелгіні пайдаланып жатқан барлық жерде жүйеден шығып, екі сатылы аутентификацияны пайдаланып қайта кіруіңіз керек.
 
 ## Avatar change page
 
@@ -928,6 +936,7 @@ recent-activity-account-secondary-email-removed = Екіншілік эл. по�
 recent-activity-account-emails-swapped = Негізгі және екіншілік эл. пошталар өзара ауыстырылды
 recent-activity-session-destroy = Сессиядан шықтыңыз
 recent-activity-account-recovery-phone-send-code = Қалпына келтіру телефон коды жіберілді
+recent-activity-account-recovery-phone-setup-complete = Қалпына келтіру телефонын орнату аяқталды
 recent-activity-account-recovery-phone-signin-complete = Қалпына келтіру телефон нөмірімен кіру аяқталды
 recent-activity-account-recovery-phone-signin-failed = Қалпына келтіру телефон нөмірімен кіру сәтсіз аяқталды
 recent-activity-account-recovery-phone-removed = Қалпына келтіру телефоны өшірілді
@@ -952,6 +961,12 @@ recovery-key-create-back-button-title = Баптауларға оралу
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Қалпына келтіру телефон нөмірін өшіру
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Бұл <strong>{ $formattedFullPhoneNumber }</strong> нөмірін қалпына келтіру телефон нөміріңіз ретінде алып тастайды.
+settings-recovery-phone-remove-recommend = Бұл әдісті сақтауды ұсынамыз, себебі бұл сақтық көшірме аутентификация кодтарын сақтаудан оңайырақ.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Оны өшірсеңіз, сақталған сақтық көшірме аутентификация кодтарыңыздың әлі де бар екеніне көз жеткізіңіз. <linkExternal>Қалпына келтіру әдістерін салыстыру</linkExternal>
 settings-recovery-phone-remove-button = Телефон нөмірін өшіру
 settings-recovery-phone-remove-cancel = Бас тарту
 settings-recovery-phone-remove-success = Қалпына келтіру телефоны өшірілді
@@ -1001,11 +1016,14 @@ verify-secondary-email-success-alert-2 = { $email } сәтті қосылды
 
 # Link to delete account on main Settings page
 delete-account-link = Тіркелгіні өшіру
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Сәтті кірдіңіз. Сіздің { -product-mozilla-account } және деректеріңіз белсенді болып қалады.
 
 ## Product promotion
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Жеке ақпаратыңыздың қай жерде жарияланатынын анықтаңыз және бақылауды қолға алыңыз
 # Links out to the Monitor site
 product-promo-monitor-cta = Тегін сканерлеуді алу
 
@@ -1169,6 +1187,11 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Кешіріңіз, екі қадамды аутентификацияны жаңарту кезінде
     мәселе орын алды.
+tfa-row-enabled-description = Сіздің тіркелгіңіз екі сатылы аутентификациямен қорғалған. { -product-mozilla-account } тіркелгіңізге кірген кезде аутентификация қолданбасынан бір реттік парольді енгізу қажет болады.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+tfa-row-enabled-info-link = Бұл сіздің тіркелгіңізді қалай қорғайды
+tfa-row-disabled-description-v2 = Кірудің екінші қадамы ретінде үшінші тарап аутентификация қолданбасын пайдалану арқылы тіркелгіңізді қорғауға көмектесіңіз.
 tfa-row-cannot-verify-session-4 = Кешіріңіз, сеансыңызды растау кезінде мәселе туындады
 tfa-row-disable-modal-heading = Екі қадамды аутентификацияны сөндіру керек пе?
 tfa-row-disable-modal-confirm = Сөндіру
@@ -1178,6 +1201,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Екі қадамды аутентификация сөндірілді
 tfa-row-cannot-disable-2 = Екі қадамды аутентификацияны сөндіру мүмкін емес
+tfa-row-verify-session-info = Екі сатылы аутентификацияны орнату үшін ағымдағы сеансты растауыңыз қажет
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1198,6 +1222,9 @@ terms-privacy-agreement-default-2 = Жалғастыру арқылы сіз <mo
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = Немесе
+# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
+# This could also be translated as "Sign in with the following" or "Sign in with the below".
+third-party-auth-options-sign-in-with = Арқылы кіру
 continue-with-google-button = { -brand-google } арқылы жалғастыру
 continue-with-apple-button = { -brand-apple } арқылы жалғастыру
 
@@ -1217,9 +1244,15 @@ auth-error-114-generic = Тым көп талаптар санын жасады�
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Тым көп талаптар санын жасадыңыз. { $retryAfter } кейін қайталап көріңіз.
 auth-error-125 = Сұраным қауіпсіздік салдарынан блокталды
+auth-error-129-2 = Жарамсыз телефон нөмірін енгіздіңіз. Тексеріп, қайталап көріңіз.
 auth-error-138-2 = Расталмаған сессия
 auth-error-139 = Екіншілік эл. пошта адресі негізгі адрестен басқа болуы тиіс
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Бұл электрондық пошта адресі басқа тіркелгіде сақталған. Кейінірек қайталап көріңіз немесе басқа электрондық пошта адресін пайдаланыңыз.
 auth-error-155 = TOTP токені табылмады
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Сақтық көшірме аутентификация коды табылмады
 auth-error-159 = Тіркелгіні қалпына келтіру кілті жарамсыз
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
 auth-error-202 = Мүмкіндік іске қосылмаған
@@ -1227,6 +1260,9 @@ auth-error-203 = Жүйе бос емес, біраздан кейін қайт�
 auth-error-206 = Парольді жасау мүмкін емес, пароль орнатылған болып тұр
 auth-error-214 = Қалпына келтіру телефон нөмірі бұрыннан бар
 auth-error-215 = Қалпына келтіру телефон нөмірі жоқ
+auth-error-216 = Мәтіндік хабарламалар саны шегіне жетті
+auth-error-218 = Қалпына келтіру телефон нөмірін өшіру мүмкін емес, сақтық көшірме аутентификация кодтары жоқ.
+auth-error-219 = Бұл телефон нөмірі тым көп тіркелгіде тіркелген. Басқа нөмірді қолданып көріңіз.
 auth-error-999 = Күтпеген қате
 auth-error-1001 = Кіру талабынан бас тартылды
 auth-error-1002 = Сессия мерзімі бітті. Жалғастыру үшін кіріңіз.
@@ -1234,10 +1270,22 @@ auth-error-1003 = Жергілікті қойма немесе cookie файлд
 auth-error-1008 = Жаңа пароль ескі парольден өзгеше болуы тиіс
 auth-error-1010 = Жарамды пароль керек
 auth-error-1011 = Жарамды эл. пошта адресі керек
+auth-error-1018 = Сіздің растау хатыңыз қайтарылды. Эл. пошта адресін қате тердіңіз бе?
+auth-error-1020 = Электрондық пошта қате терілді ме? firefox.com жарамды электрондық пошта қызметі емес
 auth-error-1031 = Тіркелу үшін өз жасыңызды көрсетуіңіз керек
 auth-error-1032 = Тіркелу үшін жарамды жасты енгізуіңіз керек
 auth-error-1054 = Екі қадамды аутентификация коды жарамсыз
+auth-error-1056 = Сақтық көшірме аутентификация коды жарамсыз
 auth-error-1062 = Жарамсыз қайта бағдарлау
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Электрондық пошта қате терілді ме? { $domain } жарамды электрондық пошта қызметі емес
+auth-error-1066 = Электрондық пошта маскаларын тіркелгіні жасау үшін пайдалану мүмкін емес.
+auth-error-1067 = Эл. поштаны қате тердіңіз бе?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = { $lastFourPhoneNumber } нөмірімен аяқталатын сан
 oauth-error-1000 = Бірнәрсе қате кетті. Бұл бетті жауып, қайталап көріңіз.
 
 ## Connect Another Device page
@@ -1282,6 +1330,8 @@ cookies-disabled-learn-more = Көбірек білу
 index-header = Эл. пошта адресіңізді енгізіңіз
 index-sync-header = { -product-mozilla-account } тіркелгіңізге жалғастыру
 index-sync-subheader = { -brand-firefox } қолданатын әр жерде парольдер, беттер, және бетбелгілерді синхрондаңыз.
+index-relay-header = Эл. пошта маскасын жасау
+index-relay-subheader = Маскамен жасырылған эл. поштаңыздан электрондық хаттарды бағдарлау үшін эл. пошта адресін көрсетіңіз.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } ішіне жалғастыру
 index-subheader-default = Тіркелгі баптауларына жалғастыру
@@ -1289,6 +1339,10 @@ index-cta = Тіркелгіні жасау немесе кіру
 index-account-info = { -product-mozilla-account } { -brand-mozilla }-дан жекелігіңізді қорғайтын көбірек өнімдерге кіруге мүмкіндік береді.
 index-email-input =
     .label = Эл. поштаны енгізіңіз
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Тіркелгі сәтті өшірілді
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Сіздің растау хатыңыз қайтарылды. Эл. пошта адресін қате тердіңіз бе?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1332,6 +1386,7 @@ inline-totp-setup-security-code-placeholder = Аутентификация ко�
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Аутентификация коды керек
 tfa-qr-code-alt = Қолдауы бар қолданбаларда екі қадамды аутентификацияны орнату үшін { $code } кодын пайдаланыңыз.
+inline-totp-setup-page-title = Екі сатылы аутентификация
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1450,6 +1505,16 @@ pair-wait-for-auth-heading-text = Енді сіздің <span>басқа құр�
 pair-unsupported-header = Қолданба арқылы жұптастыру
 pair-unsupported-message = Жүйелік камераны пайдаландыңыз ба? { -brand-firefox } қолданбасынан жұптастыру керек.
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading-v2 = Синхрондау үшін пароль жасаңыз
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Бұл сіздің деректеріңізді шифрлейді. Ол сіздің { -brand-google } немесе { -brand-apple } тіркелгі пароліңізден өзгеше болуы керек.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1486,12 +1551,17 @@ complete-reset-pw-recovery-key-link = Тіркелгіні қалпына кел
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Парль тасталды
 reset-password-complete-banner-message = Жүйеге кірудің болашақ мәселелерін болдырмау үшін { -product-mozilla-account } баптауларынан тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } сіз кіргеннен кейін электрондық пошта маскасын пайдалануға қайта жіберуге тырысады.
 
 # ConfirmBackupCodeResetPassword page
 
 confirm-backup-code-reset-password-input-label = 10 таңбалы кодты енгізіңіз
 confirm-backup-code-reset-password-confirm-button = Растау
 confirm-backup-code-reset-password-subheader = Сақтық аутентификация кодын енгізіңіз
+confirm-backup-code-reset-password-instruction = Екі сатылы аутентификацияны орнатқан кезде сақтаған бір реттік кодтардың бірін енгізіңіз.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = Тіркелгі бұғатталған ба?
 
@@ -1543,22 +1613,41 @@ reset-password-confirmed-cta = { $serviceName } қызметіне жалғас�
 # password, and they previously had set up an account recovery method.
 
 password-reset-recovery-method-header = Парольді тастау
+password-reset-recovery-method-subheader = Қалпына келтіру әдісін таңдаңыз
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Қалпына келтіру әдістеріңізді қолданып жатқан адам өзіңіз екеніңізге көз жеткізейік.
 password-reset-recovery-method-phone = Қалпына келтіру телефоны
 password-reset-recovery-method-code = Сақтық аутентификация кодтары
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } код қалды
+       *[other] { $numBackupCodes } код қалды
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Қалпына келтіру телефон нөміріңізге код жіберу кезінде мәселе туындады
+password-reset-recovery-method-send-code-error-description = Кейінірек қайталап көріңіз немесе сақтық көшірме аутентификация кодтарын пайдаланыңыз.
 
 ## ResetPasswordRecoveryPhone page
 
 reset-password-recovery-phone-flow-heading = Пароліңізді қалпына келтіру
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Қалпына келтіру кодын енгізіңіз
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = <span>{ $lastFourPhoneDigits }</span> нөмірімен аяқталатын телефон нөміріне 6-цифрлық код SMS арқылы жіберілді. Бұл кодтың жарамдылық мерзімі 5 минуттан кейін аяқталады. Бұл кодты ешкіммен бөліспеңіз.
 reset-password-recovery-phone-input-label = 6-цифрлық кодты енгізіңіз
 reset-password-recovery-phone-code-submit-button = Растау
 reset-password-recovery-phone-resend-code-button = Кодты қайта жіберу
 reset-password-recovery-phone-resend-success = Код жіберілді
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 reset-password-recovery-phone-locked-out-link = Тіркелгіңіз бұғатталған ба?
+reset-password-recovery-phone-send-code-error-heading = Кодты жіберу кезінде мәселе туындады
 reset-password-recovery-phone-code-verification-error-heading = Кодыңызды растау кезінде мәселе туындады
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = Кейінірек қайталап көріңіз.
 reset-password-recovery-phone-invalid-code-error-description = Код жарамсыз немесе мерзімі өтіп кеткен.
+reset-password-recovery-phone-invalid-code-error-link = Оның орнына сақтық көшірме аутентификация кодтарын пайдалану керек пе?
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-complete-new-password-saved = Жаңа пароль сақталды!
 reset-password-complete-recovery-key-created = Тіркелгіні қалпына келтірудің жаңа кілті жасалды. Оны қазір жүктеп алыңыз және сақтаңыз.
@@ -1592,6 +1681,11 @@ signin-header = Кіру
 signin-use-a-different-account-link = Басқа тіркелгіні қолдану
 signin-forgot-password-link = Пароліңізді ұмыттыңыз ба?
 signin-password-button-label = Пароль
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } сіз кіргеннен кейін электрондық пошта маскасын пайдалануға қайта жіберуге тырысады.
+signin-code-expired-error = Кодтың мерзімі аяқталды. Қайта кіріңіз.
 signin-account-locked-banner-heading = Парольді тастау
 signin-account-locked-banner-description = Күдікті әрекеттерден қорғау үшін тіркелгіңізді құлыптадық.
 # This link points to https://accounts.firefox.com/reset_password
@@ -1641,7 +1735,18 @@ signin-push-code-confirm-link-error = Сілтеме зақымдалған. Қ�
 
 signin-recovery-method-header = Кіру
 signin-recovery-method-subheader = Қалпына келтіру тәсілін таңдаңыз
+signin-recovery-method-details = Қалпына келтіру әдістеріңізді қолданып жатқан адам өзіңіз екеніңізге көз жеткізейік.
 signin-recovery-method-phone = Қалпына келтіру телефоны
+signin-recovery-method-code-v2 = Сақтық көшірме аутентификация кодтары
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } код қалды
+       *[other] { $numBackupCodes } код қалды
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Қалпына келтіру телефон нөміріңізге код жіберу кезінде мәселе туындады
+signin-recovery-method-send-code-error-description = Кейінірек қайталап көріңіз немесе сақтық көшірме аутентификация кодтарын пайдаланыңыз.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1650,6 +1755,8 @@ signin-recovery-method-phone = Қалпына келтіру телефоны
 
 signin-recovery-code-heading = Кіру
 signin-recovery-code-sub-heading = Сақтық аутентификация кодын енгізіңіз
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Екі сатылы аутентификацияны орнатқан кезде сақтаған бір реттік кодтардың бірін енгізіңіз.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = 10-таңбалы кодты енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1661,6 +1768,10 @@ signin-recovery-code-phone-link = Қалпына келтіру телефоны
 signin-recovery-code-support-link = Тіркелгі бұғатталған ба?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Сақтық аутентификация коды қажет
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Қалпына келтіру телефон нөміріңізге код жіберу кезінде мәселе туындады
 signin-recovery-code-use-phone-failure-description = Кейінірек қайталап көріңіз.
 
 ## SigninRecoveryPhone page
@@ -1668,6 +1779,9 @@ signin-recovery-code-use-phone-failure-description = Кейінірек қайт
 signin-recovery-phone-flow-heading = Кіру
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Қалпына келтіру кодын енгізіңіз
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = <span>{ $lastFourPhoneDigits }</span> нөмірімен аяқталатын телефон нөміріне 6-цифрлық код SMS арқылы жіберілді. Бұл кодтың жарамдылық мерзімі 5 минуттан кейін аяқталады. Бұл кодты ешкіммен бөліспеңіз.
 signin-recovery-phone-input-label = 6-цифрлық кодты енгізіңіз
 signin-recovery-phone-code-submit-button = Растау
 signin-recovery-phone-resend-code-button = Кодты қайта жіберу
@@ -1679,6 +1793,10 @@ signin-recovery-phone-code-verification-error-heading = Кодыңызды ра�
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Кейінірек қайталап көріңіз.
 signin-recovery-phone-invalid-code-error-description = Код жарамсыз немесе мерзімі өтіп кеткен.
+signin-recovery-phone-invalid-code-error-link = Оның орнына сақтық көшірме аутентификация кодтарын пайдалану керек пе?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Жүйеге сәтті кірдіңіз. Қалпына келтіру телефон нөмірін қайта пайдалансаңыз, шектеулер қолданылуы мүмкін.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1693,15 +1811,28 @@ signin-reported-message = Біздің топ хабарды алды. Шағы�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Өзіңіздің <span>{ -product-mozilla-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = <email>{ $email }</email> адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
 signin-token-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Растау
 signin-token-code-code-expired = Кодтың мерзімі бітті ме?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Жаңа кодты { $seconds } секундтан кейін электрондық пошта арқылы жіберу
+       *[other] Жаңа кодты { $seconds } секундтан кейін электрондық пошта арқылы жіберу
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Растау коды қажет
 signin-token-code-resend-error = Бірнәрсе қате кетті. Жаңа кодты жіберу мүмкін емес.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } сіз кіргеннен кейін электрондық пошта маскасын пайдалануға қайта жіберуге тырысады.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1711,6 +1842,9 @@ signin-totp-code-header = Кіру
 signin-totp-code-subheader-v2 = Екі қадамды аутентификация кодын енгізіңіз
 signin-totp-code-instruction-v4 = Жүйеге кіруді растау үшін <strong>аутентификация қолданбасын</strong> тексеріңіз.
 signin-totp-code-input-label-v4 = 6 цифрлы кодты енгізіңіз
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Неліктен сізден аутентификация сұралуда?
+signin-totp-code-aal-banner-content = Сіз тіркелгіңізде екі сатылы аутентификацияны орнаттыңыз, бірақ бұл құрылғыда әлі кодпен кірген жоқсыз.
 signin-totp-code-aal-sign-out = Осы құрылғыда жүйеден шығу
 signin-totp-code-aal-sign-out-error = Кешіріңіз, жүйеден шығу кезінде мәселе туындады
 # Form button to confirm if the authentication code entered by the user is valid
@@ -1719,6 +1853,10 @@ signin-totp-code-other-account-link = Басқа тіркелгіні қолда
 signin-totp-code-recovery-code-link = Кодты енгізуде мәселе бар ма?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Аутентификация коды керек
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } сіз кіргеннен кейін электрондық пошта маскасын пайдалануға қайта жіберуге тырысады.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1734,6 +1872,10 @@ signin-unblock-code-incorrect-length = Авторизация коды 8 таң�
 signin-unblock-code-incorrect-format-2 = Авторизация кодында тек әріптер және/немесе сандар болуы мүмкін
 signin-unblock-resend-code-button = Кіріс немесе спам бумасында жоқ па? Қайта жіберу
 signin-unblock-support-link = Бұл неліктен орын алады?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } сіз кіргеннен кейін электрондық пошта маскасын пайдалануға қайта жіберуге тырысады.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1756,9 +1898,20 @@ confirm-signup-code-sync-button = Синхрондауды бастау
 confirm-signup-code-code-expired = Кодтың мерзімі бітті ме?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Жаңа кодты { $seconds } секундтан кейін электрондық пошта арқылы жіберу
+       *[other] Жаңа кодты { $seconds } секундтан кейін электрондық пошта арқылы жіберу
+    }
 confirm-signup-code-success-alert = Тіркелгі сәтті расталды
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Растау коды қажет
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } сіз кіргеннен кейін электрондық пошта маскасын пайдалануға қайта жіберуге тырысады.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
