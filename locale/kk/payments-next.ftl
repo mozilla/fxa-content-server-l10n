@@ -8,6 +8,7 @@ not-found-page-button-terms-manage-subscriptions = Жазылымдарды ба
 
 ## Page
 
+checkout-signin-or-create = 1. Жүйеге кіріңіз немесе { -product-mozilla-account } жасаңыз
 # This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
 checkout-signin-options-or = немесе
 continue-signin-with-google-button = { -brand-google } арқылы жалғастыру
@@ -43,6 +44,7 @@ next-payment-error-manage-subscription-button = Менің жазылуымды 
 next-payment-error-retry-button = Қайтадан көру
 next-basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
 checkout-error-contact-support-button = Қолдау қызметіне хабарласу
+checkout-error-not-eligible = Сіз бұл өнімге жазылуға құқылы емессіз - көмек алу үшін қолдау қызметіне хабарласыңыз.
 checkout-error-already-subscribed = Сіз бұл өнімге жазылып қойғансыз.
 checkout-processing-general-error = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
 cart-total-mismatch-error = Шот сомасы өзгерді. Қайталап көріңіз.
@@ -102,23 +104,40 @@ subscription-management-nav-active-subscriptions = Белсенді жазылы
 subscription-management-payment-details-heading = Төлем мәліметтері
 subscription-management-email-label = Эл. пошта
 subscription-management-credit-balance-label = Несиелік баланс
+subscription-management-payment-method-label = Төлем әдісі
 subscription-management-button-add-payment-method-aria = Төлем әдісін қосу
 subscription-management-button-add-payment-method = Қосу
+subscription-management-page-warning-message-no-payment-method = Жазылымдарыңыздың үзілуін болдырмау үшін төлем әдісін қосыңыз.
 subscription-management-button-manage-payment-method-aria = Төлем әдісін басқару
 subscription-management-button-manage-payment-method = Басқару
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = { $last4 } деп аяқталатын карта
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Мерзімі { $expirationDate } күні аяқталады
+subscription-management-active-subscriptions-heading = Белсенді жазылымдар
+subscription-management-you-have-no-active-subscriptions = Сізде белсенді жазылымдар жоқ
+subscription-management-new-subs-will-appear-here = Жаңа жазылымдар осында көрсетілетін болады.
+subscription-management-your-active-subscriptions-aria = Белсенді жазылымдарыңыз
 subscription-management-button-support = Көмек алу
 subscription-management-your-apple-iap-subscriptions-aria = Сіздің { -brand-apple } қолданбадағы жазылымдарыңыз
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } қолданбада сатып алу
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = { $productName } жазылымын басқару
+subscription-management-button-manage-subscription-1 = Жазылымды басқару
+error-payment-method-banner-title-expired-card = Мерзімі өткен карта
+error-payment-method-banner-label-update-payment-method = Төлем әдісін жаңарту
 error-payment-method-expired-card = Картаңыздың мерзімі аяқталды. Жазылымдарыңыздың үзілмеуі үшін жаңа карта немесе төлем әдісін қосыңыз.
+error-payment-method-banner-title-invalid-payment-information = Төлем туралы ақпарат жарамсыз
+error-payment-method-banner-message-account-issue = Тіркелгіңізбен мәселе бар.
 subscription-management-button-manage-payment-method-1 = Төлем әдісін басқару
+subscription-management-error-payment-method = Төлем әдісіңізбен мәселе туындады. Белсенді жазылымдарыңызды сақтау үшін мәселені шешіңіз.
+manage-payment-methods-heading = Төлем әдістерін басқару
 paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
 # Page - Not Found
 page-not-found-title = Бет табылмады
 page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.
 page-not-found-back-button = Артқа
+alert-dialog-title = Ескерту сұхбаты
 
 ## Navigation breadcrumbs
 
@@ -126,6 +145,16 @@ page-not-found-back-button = Артқа
 subscription-management-breadcrumb-account-home = Тіркелгінің басты беті
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Жазылулар
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Төлем әдістерін басқару
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = { $page } бетіне оралу
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Төлем циклінің соңғы күнінен, яғни { $currentPeriodEnd } кейін, { $productName } бұдан былай пайдалана алмайсыз.
+subscription-content-cancel-access-message = { $currentPeriodEnd } күні { $productName } ішіне кіру рұқсатымды және сақталған ақпаратымды тоқтатыңыз
 
 ## Component - Payment Consent Checkbox
 
@@ -191,6 +220,8 @@ next-plan-details-list-price = Прейскурант
 plan-details-product-prorated-price = { $productName } үшін пропорционалды баға
 next-plan-details-tax = Салықтар мен алымдар
 next-plan-details-total-label = Барлығы
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Пайдаланылмаған уақыттан алынған несие
 purchase-details-subtotal-label = Аралық сома
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = Несие қолданылды
@@ -247,6 +278,7 @@ subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 
 ##
 
+dialog-close = Сұхбатты жабу
 button-back-to-subscriptions = Жазылымдарға оралу
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
@@ -308,6 +340,9 @@ metadata-title-checkout-error = Қате | { $productTitle }
 metadata-description-checkout-error = Жазылымыңызды өңдеу кезінде қате орын алды. Бұл мәселе шешілмесе, қолдау қызметіне хабарласыңыз.
 # Checkout success
 metadata-title-checkout-success = Сәтті | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Өңделуде | { $productTitle }
+metadata-description-upgrade-processing = Төлеміңізді өңдеуді аяқтағанша күте тұрыңыз.
 # Upgrade error
 metadata-title-upgrade-error = Қате | { $productTitle }
 metadata-description-upgrade-error = Жаңартуды өңдеу кезінде қате орын алды. Бұл мәселе шешілмесе, қолдау қызметіне хабарласыңыз.
@@ -316,10 +351,16 @@ metadata-title-upgrade-success = Сәтті | { $productTitle }
 metadata-description-upgrade-success = Құттықтаймыз! Сіз жаңартуды сәтті аяқтадыңыз.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Әрекет қажет | { $productTitle }
+metadata-description-upgrade-needs-input = Төлемді жалғастыру үшін қажетті әрекетті орындаңыз.
 # Default
 metadata-title-default = Бет табылмады | { $productTitle }
 metadata-description-default = Сіз сұраған бет табылмады.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Сіз енгізген кодты пайдалану мүмкін емес — сіздің тіркелгіңіз біздің қызметтеріміздің біріне бұрын жазылған.
 next-coupon-error-expired = Сіз енгізген кодтың мерзімі аяқталды.
+next-coupon-error-generic = Кодты өңдеу кезінде қате орын алды. Қайталап көріңіз.
+next-coupon-error-invalid = Сіз енгізген код жарамсыз.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Сіз енгізген код қолдану шегіне жетті.
