@@ -14,15 +14,26 @@ checkout-signin-options-or = немесе
 continue-signin-with-google-button = { -brand-google } арқылы жалғастыру
 continue-signin-with-apple-button = { -brand-apple } арқылы жалғастыру
 next-payment-method-header = Төлем әдісін таңдаңыз
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Алдымен жазылуыңызды растауыңыз керек
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = <p>{ $productName } сатып алуды жалғастыру үшін</p> еліңізді таңдап, пошта индексін көрсетіңіз.
+location-banner-info = Біз сіздің орналасқан жеріңізді автоматты түрде анықтай алмадық
+location-required-disclaimer = Біз бұл ақпаратты тек салықтар мен валютаны есептеу үшін пайдаланамыз.
+location-banner-currency-change = Валютаны ауыстыруға қолдау көрсетілмейді. Жалғастыру үшін ағымдағы төлем валютаңызға сәйкес келетін елді таңдаңыз.
 
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Төлем ақпараты
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Сіздің жоспарыңыз бірден өзгереді және сізден төлем циклінің қалған бөлігі үшін пропорционалды сома бүгін алынады. { $nextInvoiceDate } күнінен бастап сізден толық сома алынады.
 
 ## Authentication Error page
 
+auth-error-page-title = Сізді жүйеге кіргізе алмадық
 checkout-error-boundary-retry-button = Қайтадан көру
+checkout-error-boundary-basic-error-message = Бірдеңе дұрыс болмады. Қайталап көріңіз немесе <contactSupportLink>қолдау қызметіне хабарласыңыз.</contactSupportLink>
 amex-logo-alt-text = { -brand-amex } логотипі
 diners-logo-alt-text = { -brand-diner } логотипі
 discover-logo-alt-text = { -brand-discover } логотипі
@@ -41,12 +52,14 @@ google-pay-logo-alt-text = { -brand-google-pay } логотипі
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Менің жазылуымды басқару
+next-iap-blocked-contact-support = Сізде осы өніммен ерегісетін мобильді, қолданба ішіндегі жазылымыңыз бар — көмек алу үшін қолдау қызметіне хабарласыңыз.
 next-payment-error-retry-button = Қайтадан көру
 next-basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
 checkout-error-contact-support-button = Қолдау қызметіне хабарласу
 checkout-error-not-eligible = Сіз бұл өнімге жазылуға құқылы емессіз - көмек алу үшін қолдау қызметіне хабарласыңыз.
 checkout-error-already-subscribed = Сіз бұл өнімге жазылып қойғансыз.
 checkout-error-contact-support = Көмек алу үшін қолдау қызметіне хабарласыңыз.
+cart-error-currency-not-determined = Бұл сатып алу үшін валютаны анықтай алмадық, қайталап көріңіз.
 checkout-processing-general-error = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
 cart-total-mismatch-error = Шот сомасы өзгерді. Қайталап көріңіз.
 
@@ -59,6 +72,7 @@ intent-payment-error-get-in-touch = Төлеміңізді авторизаци�
 intent-payment-error-generic = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
 intent-payment-error-insufficient-funds = Сіздің картаңызда қаражат жеткіліксіз сияқты. Басқа картаны қолданып көріңіз.
 general-paypal-error = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
+paypal-active-subscription-no-billing-agreement-error = { -brand-paypal } тіркелгіңізге төлем жасауда мәселе туындаған сияқты. Жазылымыңыз үшін автоматты төлемдерді қайта іске қосыңыз.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -69,6 +83,8 @@ next-payment-processing-message = Төлеміңізді өңделгенше к
 ## Common strings used in multiple checkout pages
 
 next-payment-confirmation-thanks-heading-account-exists = Рахмет, енді эл. поштаңызды тексеріңіз!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Сіз { $email } адресіне жазылымыңыз туралы ақпаратпен, сондай-ақ төлем мәліметтері көрсетілген электрондық хат аласыз.
 next-payment-confirmation-order-heading = Тапсырыс мәліметтері
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = №{ $invoiceNumber } шот-фактура
@@ -105,6 +121,7 @@ subscription-management-nav-active-subscriptions = Белсенді жазылы
 subscription-management-payment-details-heading = Төлем мәліметтері
 subscription-management-email-label = Эл. пошта
 subscription-management-credit-balance-label = Несиелік баланс
+subscription-management-credit-balance-message = Несие болашақ шоттарға автоматты түрде қолданылады
 subscription-management-payment-method-label = Төлем әдісі
 subscription-management-button-add-payment-method-aria = Төлем әдісін қосу
 subscription-management-button-add-payment-method = Қосу
@@ -120,20 +137,29 @@ subscription-management-you-have-no-active-subscriptions = Сізде белсе
 subscription-management-new-subs-will-appear-here = Жаңа жазылымдар осында көрсетілетін болады.
 subscription-management-your-active-subscriptions-aria = Белсенді жазылымдарыңыз
 subscription-management-button-support = Көмек алу
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = { $productName } бойынша көмек алу
 subscription-management-your-apple-iap-subscriptions-aria = Сіздің { -brand-apple } қолданбадағы жазылымдарыңыз
 subscription-management-apple-in-app-purchase-2 = { -brand-apple } қолданбада сатып алу
+subscription-management-your-google-iap-subscriptions-aria = Сіздің { -brand-google } қолданбадағы жазылымдарыңыз
+subscription-management-google-in-app-purchase-2 = { -brand-google } қолданбада сатып алу
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Мерзімі { $date } күні аяқталады
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } жазылымын басқару
 subscription-management-button-manage-subscription-1 = Жазылымды басқару
 error-payment-method-banner-title-expired-card = Мерзімі өткен карта
+error-payment-method-banner-message-add-new-card = Жазылымдарыңыздың үзілуін болдырмау үшін жаңа карта немесе төлем әдісін қосыңыз.
 error-payment-method-banner-label-update-payment-method = Төлем әдісін жаңарту
 error-payment-method-expired-card = Картаңыздың мерзімі аяқталды. Жазылымдарыңыздың үзілмеуі үшін жаңа карта немесе төлем әдісін қосыңыз.
 error-payment-method-banner-title-invalid-payment-information = Төлем туралы ақпарат жарамсыз
 error-payment-method-banner-message-account-issue = Тіркелгіңізбен мәселе бар.
 subscription-management-button-manage-payment-method-1 = Төлем әдісін басқару
+subscription-management-error-paypal-billing-agreement = { -brand-paypal } тіркегіңізбен мәселе туындады. Белсенді жазылымдарыңызды сақтау үшін мәселені шешіңіз.
 subscription-management-error-payment-method = Төлем әдісіңізбен мәселе туындады. Белсенді жазылымдарыңызды сақтау үшін мәселені шешіңіз.
 manage-payment-methods-heading = Төлем әдістерін басқару
 paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
+paypal-payment-management-page-invalid-description = { -brand-paypal } тіркелгіңізде қате бар сияқты. Бұл төлем мәселесін шешу үшін сізге қажетті қадамдарды орындау қажет.
 # Page - Not Found
 page-not-found-title = Бет табылмады
 page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.
@@ -239,6 +265,7 @@ next-coupon-success-repeating = Жоспарыңыз тізім бағасы б�
 select-tax-location-title = Орналасу
 select-tax-location-edit-button = Түзету
 select-tax-location-save-button = Сақтау
+select-tax-location-continue-to-checkout-button = Тапсырысты рәсімдеуге өту
 select-tax-location-country-code-label = Ел
 select-tax-location-country-code-placeholder = Еліңізді таңдаңыз
 select-tax-location-error-missing-country-code = Еліңізді таңдаңыз
@@ -251,6 +278,9 @@ select-tax-location-error-missing-postal-code = Пошта индексіңіз�
 select-tax-location-error-invalid-postal-code = Жарамды пошта индексін енгізіңіз
 select-tax-location-successfully-updated = Орналасқан жеріңіз жаңартылды.
 select-tax-location-error-location-not-updated = Орналасқан жеріңізді жаңарту мүмкін болмады. Қайталап көріңіз.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Сіздің шотыңыз { $currencyDisplayName } арқылы есептеледі. { $currencyDisplayName } пайдаланатын елді таңдаңыз.
+select-tax-location-invalid-currency-change-default = Белсенді жазылымдарыңыздың валютасына сәйкес келетін елді таңдаңыз.
 select-tax-location-new-tax-rate-info = Орналасқан жеріңізді жаңарту келесі есеп айырысу кезеңінен бастап тіркелгіңіздегі барлық белсенді жазылымдарға жаңа салық мөлшерлемесін қолданады.
 signin-form-continue-button = Жалғастыру
 signin-form-email-input = Эл. поштаны енгізіңіз
