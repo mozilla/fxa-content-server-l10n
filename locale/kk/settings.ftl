@@ -641,16 +641,20 @@ flow-setup-2fa-backup-choice-code-badge = Ең қауіпсіз
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-code-input = 10-таңбалы кодты енгізіңіз
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Дайын
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Сақтық аутентификация кодтарын сақтау
+flow-setup-2fa-backup-code-dl-save-these-codes = Оларды есте сақтайтын жерде сақтаңыз. Егер сізде аутентификация қолданбасына кіру мүмкіндігі болмаса, кіру үшін біреуін енгізу қажет болады.
 flow-setup-2fa-backup-code-dl-button-continue = Жалғастыру
 
 ##
 
+flow-setup-2fa-inline-complete-success-banner = Екі қадамды аутентификация іске қосылды
+flow-setup-2fa-inline-complete-backup-code = Сақтық көшірме аутентификация кодтары
 flow-setup-2fa-inline-complete-backup-phone = Қалпына келтіру телефоны
 # $count (Number) - an integer representing the number of backup
 # authentication codes remaining
@@ -659,6 +663,16 @@ flow-setup-2fa-inline-complete-backup-code-info =
         [one] { $count } код қалды
        *[other] { $count } код қалды
     }
+flow-setup-2fa-inline-complete-backup-code-description = Мобильді құрылғыны немесе аутентификация қолданбасымен кіре алмасаңыз, бұл - қалпына келтірудің ең қауіпсіз әдісі.
+flow-setup-2fa-inline-complete-backup-phone-description = Аутентификация қолданбасымен кіре алмасаңыз, бұл - қалпына келтірудің ең қауіпсіз әдісі.
+flow-setup-2fa-inline-complete-learn-more-link = Бұл сіздің тіркелгіңізді қалай қорғайды
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = { $serviceName } қызметіне жалғастыру
+flow-setup-2fa-prompt-heading = Екі қадамды аутентификацияны орнату
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } тіркелгіңіздің қауіпсіздігін қамтамасыз ету үшін екі сатылы аутентификацияны орнатуды талап етеді.
 flow-setup-2fa-prompt-continue-button = Жалғастыру
 
 ## FlowSetupPhoneConfirmCode
@@ -755,16 +769,24 @@ page-2fa-change-success = Екі қадамды аутентификация ж�
 
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Сақтық көшірме аутентификация кодтары
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Сақтық көшірме аутентификация кодтарын ауыстыру кезінде мәселе орын алды
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Сақтық көшірме аутентификация кодтарын жасау кезінде мәселе орын алды
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Сақтық аутентификация кодтары жаңартылды
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Сақтық көшірме аутентификация кодтары жасалды
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Оларды есте сақтайтын жерде сақтаңыз. Келесі қадамды аяқтағаннан кейін ескі кодтарыңыз алмастырылады.
 
 ## Page2faSetup
 
 page-2fa-setup-title = Екі қадамды аутентификация
+page-2fa-setup-totpinfo-error = Екі сатылы аутентификацияны орнату кезінде қате пайда болды. Кейінірек қайталап көріңіз.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Бұл код дұрыс емес. Қайталап көріңіз.
 page-2fa-setup-success = Екі қадамды аутентификация іске қосылды

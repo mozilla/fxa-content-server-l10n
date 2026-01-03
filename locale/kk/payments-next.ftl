@@ -155,6 +155,9 @@ error-payment-method-expired-card = Картаңыздың мерзімі аяқ
 error-payment-method-banner-title-invalid-payment-information = Төлем туралы ақпарат жарамсыз
 error-payment-method-banner-message-account-issue = Тіркелгіңізбен мәселе бар.
 subscription-management-button-manage-payment-method-1 = Төлем әдісін басқару
+subscription-management-error-apple-pay = { -brand-apple-pay } тіркегіңізбен мәселе туындады. Белсенді жазылымдарыңызды сақтау үшін мәселені шешіңіз.
+subscription-management-error-google-pay = { -brand-google-pay } тіркегіңізбен мәселе туындады. Белсенді жазылымдарыңызды сақтау үшін мәселені шешіңіз.
+subscription-management-error-link = { -brand-link } тіркегіңізбен мәселе туындады. Белсенді жазылымдарыңызды сақтау үшін мәселені шешіңіз.
 subscription-management-error-paypal-billing-agreement = { -brand-paypal } тіркегіңізбен мәселе туындады. Белсенді жазылымдарыңызды сақтау үшін мәселені шешіңіз.
 subscription-management-error-payment-method = Төлем әдісіңізбен мәселе туындады. Белсенді жазылымдарыңызды сақтау үшін мәселені шешіңіз.
 manage-payment-methods-heading = Төлем әдістерін басқару
@@ -177,11 +180,28 @@ subscription-management-breadcrumb-payment-2 = Төлем әдістерін б�
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = { $page } бетіне оралу
 
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Кеткеніңізге өкінеміз
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Сіздің { $name } жазылымыңыздан бас тартылды. Сізде { $name } жазылымына { $date } дейін қол жеткізу мүмкіндігі болады.
+subscription-cancellation-dialog-aside = Сұрақтарыңыз бар ма? <LinkExternal>{ -brand-mozilla } Қолдау</LinkExternal> бөлімін шолыңыз.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = { $productName } жазылымынан бас тарту
+
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Төлем циклінің соңғы күнінен, яғни { $currentPeriodEnd } кейін, { $productName } бұдан былай пайдалана алмайсыз.
 subscription-content-cancel-access-message = { $currentPeriodEnd } күні { $productName } ішіне кіру рұқсатымды және сақталған ақпаратымды тоқтатыңыз
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Жазылымнан бас тарту
+    .aria-label = { $productName } өніміне жазылымынан бас тарту
+cancel-subscription-button-stay-subscribed = Жазылымда қала беру
+    .aria-label = { $productName } өніміне жазылымында қала беру
 
 ## Component - Payment Consent Checkbox
 
@@ -235,6 +255,8 @@ payments-client-loading-spinner =
 
 ## Payment method management page - Stripe
 
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Негізгі төлем әдісі ретінде орнату
 # Save button for saving a new payment method
 payment-method-management-save-method = Төлем әдісін сақтау
 manage-stripe-payments-title = Төлем әдістерін басқару
@@ -293,6 +315,9 @@ next-new-user-subscribe-product-assurance = Біз эл. поштаңызды т
 
 ## $productName (String) - The name of the subscribed product.
 
+resubscribe-dialog-title = { $productName } пайдалануды жалғастырғыңыз келе ме?
+subscription-content-button-resubscribe = Қайта жазылу
+    .aria-label = { $productName } өніміне қайта жазылу
 resubscribe-success-dialog-title = Рахмет! Барлығы дайын.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
@@ -304,13 +329,19 @@ resubscribe-success-dialog-title = Рахмет! Барлығы дайын.
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-will-be-applied = { $promotionName } жеңілдігі қолданылады
 subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } салық
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
+subscription-content-button-stay-subscribed = Жазылымда қала беру
+    .aria-label = { $productName } өніміне жазылымында қала беру
+subscription-content-button-cancel-subscription = Жазылымнан бас тарту
+    .aria-label = { $productName } өніміне жазылымынан бас тарту
 
 ##
 
 dialog-close = Сұхбатты жабу
 button-back-to-subscriptions = Жазылымдарға оралу
+subscription-content-cancel-action-error = Күтпеген қате орын алды. Қайталап көріңіз.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -327,6 +358,7 @@ next-subscription-create-title = Жазылуыңызды реттеу
 next-subscription-success-title = Жазылуды растау
 next-subscription-processing-title = Жазылуды растау…
 next-subscription-error-title = Жазылуды растау қатесі…
+subscription-title-sub-exists = Сіз бұрыннан жазылып қойғансыз
 subscription-title-plan-change-heading = Өзгерісіңізді қарап шығыңыз
 subscription-title-not-supported = Бұл жазылу жоспарын өзгертуге қолдау көрсетілмейді
 next-sub-guarantee = Ақшаны қайтарудың 30-күндік кепілдігі
@@ -351,6 +383,9 @@ upgrade-purchase-details-current-plan-label = Ағымдағы жоспар
 upgrade-purchase-details-new-plan-label = Жаңа жоспар
 upgrade-purchase-details-promo-code = Промокод
 upgrade-purchase-details-tax-label = Салықтар мен алымдар
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Тіркелгіге берілген несие
+upgrade-purchase-details-credit-will-be-applied = Несие сіздің тіркелгіңізге есептеледі және болашақ шоттарға жұмсалады.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -366,11 +401,22 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (жыл сайын)
 
 # Checkout start
 metadata-title-checkout-start = Төлеу | { $productTitle }
+metadata-description-checkout-start = Сатып алуды аяқтау үшін төлем ақпаратын енгізіңіз.
+# Checkout processing
+metadata-title-checkout-processing = Өңделуде | { $productTitle }
+metadata-description-checkout-processing = Төлеміңізді өңдеуді аяқтағанша күте тұрыңыз.
 # Checkout error
 metadata-title-checkout-error = Қате | { $productTitle }
 metadata-description-checkout-error = Жазылымыңызды өңдеу кезінде қате орын алды. Бұл мәселе шешілмесе, қолдау қызметіне хабарласыңыз.
 # Checkout success
 metadata-title-checkout-success = Сәтті | { $productTitle }
+metadata-description-checkout-success = Құттықтаймыз! Сіз сатып алуды сәтті аяқтадыңыз.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Әрекет қажет | { $productTitle }
+metadata-description-checkout-needs-input = Төлемді жалғастыру үшін қажетті әрекетті орындаңыз.
+# Upgrade start
+metadata-title-upgrade-start = Жаңарту | { $productTitle }
+metadata-description-upgrade-start = Жаңартуды аяқтау үшін төлем ақпаратын енгізіңіз.
 # Upgrade processing
 metadata-title-upgrade-processing = Өңделуде | { $productTitle }
 metadata-description-upgrade-processing = Төлеміңізді өңдеуді аяқтағанша күте тұрыңыз.
