@@ -1637,13 +1637,28 @@ password-reset-recovery-method-phone = 복구 전화번호
 password-reset-recovery-method-code = 백업 인증 코드
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 password-reset-recovery-method-code-info = 남은 코드 { $numBackupCodes }개
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = 복구 전화로 코드를 보내는 데 문제가 발생했습니다.
 password-reset-recovery-method-send-code-error-description = 나중에 다시 시도하시거나 백업 인증 코드를 사용해 주세요.
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = 비밀번호 재설정
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = 복구 코드 입력
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = 끝자리가 <span>{ $lastFourPhoneDigits }</span>로 끝나는 전화번호로 6자리 코드가 문자로 전송되었습니다. 이 코드는 5분 후에 만료됩니다. 이 코드를 다른사람과 공유하지 마세요.
+reset-password-recovery-phone-input-label = 6자리 숫자 코드 입력
 reset-password-recovery-phone-code-submit-button = 확인
 reset-password-recovery-phone-resend-code-button = 코드 재전송
 reset-password-recovery-phone-resend-success = 코드 전송됨
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = 접근이 불가능한 상태인가요?
+reset-password-recovery-phone-send-code-error-heading = 코드를 보내는 데 문제가 발생했습니다.
+reset-password-recovery-phone-code-verification-error-heading = 코드를 확인하는 데 문제가 발생했습니다.
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = 나중에 다시 시도해 주세요.
 reset-password-with-recovery-key-verified-page-title = 비밀번호 재설정 성공
 reset-password-complete-new-password-saved = 새 비밀번호 저장됨!
 reset-password-complete-recovery-key-created = 새로운 계정 복구 키가 생성되었습니다. 지금 다운로드하고 저장하세요.
@@ -1731,6 +1746,9 @@ signin-recovery-method-phone = 복구 전화번호
 signin-recovery-method-code-v2 = 백업 인증 코드
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 = 남은 코드 { $numBackupCodes }개
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = 복구 전화로 코드를 보내는 데 문제가 발생했습니다.
+signin-recovery-method-send-code-error-description = 나중에 다시 시도하시거나 백업 인증 코드를 사용해 주세요.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1739,6 +1757,8 @@ signin-recovery-method-code-info-v2 = 남은 코드 { $numBackupCodes }개
 
 signin-recovery-code-heading = 로그인
 signin-recovery-code-sub-heading = 백업 인증 코드 입력
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = 2단계 인증을 설정할 때 저장한 일회용 코드 중 하나를 입력하세요.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = 10자리 코드 입력
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1813,6 +1833,10 @@ signin-totp-code-other-account-link = 다른 계정 사용
 signin-totp-code-recovery-code-link = 코드 입력에 문제가 있으신가요?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = 인증 코드 필요함
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = 사용자가 로그인한 후 { -brand-firefox }가 이메일 마스크를 사용하도록 다시 요청합니다.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
