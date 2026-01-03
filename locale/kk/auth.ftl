@@ -193,9 +193,27 @@ payment-plan-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
 payment-method-payment-provider = <b>Төлем әдісі:</b> { $paymentProviderName }
 payment-method-payment-provider-plaintext = Төлем әдісі: { $paymentProviderName }
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Төлем әдісі: { $lastFour } сандармен аяқталатын { $cardName } картасы
+payment-provider-card-ending-in-plaintext = Төлем әдісі: { $lastFour } сандармен аяқталатын карта
+payment-provider-card-ending-in = <b>Төлем әдісі:</b> { $lastFour } сандармен аяқталатын карта
+payment-provider-card-ending-in-card-name = <b>Төлем әдісі:</b> { $lastFour } сандармен аяқталатын { $cardName }
+subscription-charges-invoice-summary = Шот қорытындысы
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Шот нөмірі:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Шот нөмірі: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Күні:</b> { $invoiceDateOnly }
 subscription-charges-subtotal = <b>Аралық сома</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Аралық сома: { $invoiceSubtotal }
