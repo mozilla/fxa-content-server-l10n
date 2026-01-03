@@ -861,6 +861,7 @@ verifySecondaryCode-expiry-notice-2 = 5분 후에 만료됩니다. 확인되면 
 # Variables:
 #  $code (String) - comfirmation code for the account
 verifyShortCode-subject-4 = { $code }를 사용하여 계정 확인
+verifyShortCode-preview-2 = 이 코드는 5분 후에 만료됩니다.
 verifyShortCode-title-3 = { -brand-mozilla }로 인터넷을 여세요.
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 계정을 확인하고, 모든 곳에서 { -brand-mozilla }를 최대한 활용하세요.
