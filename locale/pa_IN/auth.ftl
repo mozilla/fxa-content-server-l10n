@@ -186,8 +186,11 @@ payment-method-payment-provider-plaintext = ਭੁਗਤਾਨ ਦਾ ਢੰਗ:
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>ਇਨਵਾਇਸ ਨੰਬਰ:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = ਇਨਵਾਇਸ ਨੰਬਰ: { $invoiceNumber }
 subscription-charges-invoice-date = <b>ਤਾਰੀਖ:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = ਤਾਰੀਖ: { $invoiceDateOnly }
+subscription-charges-credit-from-unused-time = ਅਣਵਰਤੇ ਸਮੇਂ ਲਈ ਕਰੈਡਿਟ
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = ਅਧੀਨ ਜੋੜ: { $invoiceSubtotal }
 
@@ -195,6 +198,15 @@ subscriptionFirstInvoiceDiscount-content-subtotal = ਅਧੀਨ ਜੋੜ: { $i
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
 subscription-charges-one-time-discount = ਇੱਕ ਵਾਰ ਦੀ ਰਿਆਇਤ
+subscription-charges-one-time-discount-plaintext = ਇੱਕ ਵਾਰ ਲਈ ਛੋਟ: -{ $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+       *[other] { $discountDuration }-ਮਹੀਨੇਵਾਰ ਛੋਟ
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+       *[other] { $discountDuration }-ਮਹੀਨੇਵਾਰ ਛੋਟ: { $invoiceDiscountAmount }
+    }
 subscription-charges-discount = ਰਿਆਇਤ
 subscription-charges-discount-plaintext = ਰਿਆਇਤ: { $invoiceDiscountAmount }
 subscription-charges-taxes = ਟੈਕਸ ਅਤੇ ਫੀਸਾਂ
@@ -206,6 +218,9 @@ subscription-charges-total-plaintext = ਕੁੱਲ ਜੋੜ: { $invoiceTotal }
 subscription-charges-credit-applied = ਕਰੈਡਿਟ ਲਾਗੂ ਕੀਤਾ
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-applied-plaintext = ਕਰੈਡਿਟ ਲਾਗੂ ਕੀਤਾ: { $creditApplied }
+subscription-charges-amount-paid = <b>ਭੁਗਤਾਨ ਕੀਤੀ ਰਕਮ</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = ਭੁਗਤਾਨ ਕੀਤੀ ਰਕਮ: { $invoiceAmountDue }
 
 ##
 
@@ -217,6 +232,13 @@ subscriptionSupport-plaintext = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਲਈ ਸ
 subscriptionSupportContact = { $productName } ਦੇ ਮੈਂਬਰ ਬਣਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ। ਜੇ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਲਈ ਕੋਈ ਸਵਾਲ ਹੋਣ ਜਾਂ { $productName } ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ ਤਾਂ <a data-l10n-name="subscriptionSupportUrl">ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ</a>।
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = { $productName } ਦੇ ਮੈਂਬਰ ਬਣਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ। ਜੇ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਲਈ ਕੋਈ ਸਵਾਲ ਹੋਣ ਜਾਂ { $productName } ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਚਾਹੀਦੀ ਹੈ ਤਾਂ ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।
+subscription-support-get-help = ਆਪਣੀ ਮੈਂਬਰੀ ਲਈ ਮਦਦ ਲਵੋ
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ</a>
+# After the colon, there's a link to https://support.mozilla.com/products
+subscription-support-contact-support-plaintext = ਸਹਿਯੋਗ ਲਈ ਸੰਪਰਕ ਕਰੋ:
 subscriptionUpdateBillingEnsure = ਤੁਸੀਂ <a data-l10n-name="updateBillingUrl">ਇੱਥੇ</a> ਯਕੀਨੀ ਬਣਾ ਸਕਦੇ ਹੋ ਕਿ ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਅਤੇ ਖਾਤਾ ਜਾਣਕਾਰੀ ਦਰੁਸਤ ਹੈ:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = ਤੁਸੀਂ ਇੱਥੇ ਯਕੀਨੀ ਬਣਾ ਸਕਦੇ ਹੋ ਕਿ ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਅਤੇ ਖਾਤਾ ਜਾਣਕਾਰੀ ਦਰੁਸਤ ਹੈ:
