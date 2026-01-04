@@ -402,6 +402,9 @@ passwordChangeRequired-different-password-2 = <b>Önemli:</b> Geçmişte kulland
 passwordChangeRequired-different-password-plaintext-2 = Önemli: Geçmişte kullandığınızdan farklı ve güçlü bir parola seçin.
 passwordChangeRequired-action = Parolayı sıfırla
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Parolanızı değiştirmek için doğrulama kodunuz: { $code }
 password-forgot-otp-preview = Kodun geçerlilik süresi 10 dakikadır
 password-forgot-otp-title = Parolanızı unuttunuz mu?
 password-forgot-otp-request = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:

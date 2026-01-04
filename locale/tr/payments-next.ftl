@@ -110,6 +110,8 @@ not-found-button-back-to-subscriptions = Aboneliklere dön
 subscription-management-page-banner-warning-title-no-payment-method = Ödeme yöntemi eklenmedi
 subscription-management-page-banner-warning-link-no-payment-method = Ödeme yöntemi ekle
 subscription-management-subscriptions-heading = Abonelikler
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Atla
 subscription-management-nav-payment-details = Ödeme ayrıntıları
 subscription-management-nav-active-subscriptions = Aktif abonelikler
 subscription-management-payment-details-heading = Ödeme ayrıntıları
