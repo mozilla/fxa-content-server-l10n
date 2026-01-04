@@ -215,6 +215,9 @@ subscription-charges-invoice-number = <b>Fatura numarası:</b> { $invoiceNumber 
 subscription-charges-invoice-number-plaintext = Fatura numarası: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Tarih:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Tarih: { $invoiceDateOnly }
+subscription-charges-list-price = Liste fiyatı
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Liste fiyatı: { $offeringPrice }
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ara toplam: { $invoiceSubtotal }
 
@@ -231,6 +234,14 @@ subscriptionCharges-content-tax-plaintext = Vergiler ve ücretler: { $invoiceTax
 subscription-charges-total = <b>Toplam</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Toplam: { $invoiceTotal }
+subscription-charges-credit-applied = Uygulanan kredi
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Uygulanan kredi: { $creditApplied }
+subscription-charges-amount-paid = <b>Ödenen tutar</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Ödenen tutar: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Hesabınıza { $creditReceived } tutarında kredi geldi. Bu tutar gelecekteki faturalarınızdan düşülecektir.
 
 ##
 
@@ -630,6 +641,10 @@ subscriptionFirstInvoice-content-processing = Ödemeniz işleme alındı. Tamaml
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = { $productName } ürününü kullanmaya nasıl başlayacağınız konusunda ayrı bir e-posta alacaksınız.
 subscriptionFirstInvoice-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = { $productName } için ödeme yönteminizin süresi doldu veya yakında dolacak
+subscriptionPaymentExpired-title-2 = Ödeme yönteminizin kullanım süresi dolmuş veya dolmak üzere
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ödemesi başarısız oldu

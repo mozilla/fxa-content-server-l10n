@@ -410,3 +410,12 @@ stay-subscribed-error-discount-used = İndirim kodu zaten uygulanmış.
 stay-subscribed-error-not-current-subscriber = Bu indirim yalnızca mevcut { $productTitle } aboneleri için geçerlidir.
 stay-subscribed-error-still-active = { $productTitle } aboneliğiniz hâlâ etkin.
 stay-subscribed-error-general = Aboneliğiniz yenilenirken bir sorun oluştu.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.
+manage-payment-method-intent-error-expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
+manage-payment-method-intent-error-try-again = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
+manage-payment-method-intent-error-get-in-touch = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
+manage-payment-method-intent-error-insufficient-funds = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
+manage-payment-method-intent-error-generic = Ödemeniz işlenirken beklenmedik bir hata oluştu. Lütfen yeniden deneyin.
