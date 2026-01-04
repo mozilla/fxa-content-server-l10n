@@ -1811,6 +1811,9 @@ signin-token-code-confirm-button = 確認
 signin-token-code-code-expired = 驗證碼失效？
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = 重寄新驗證碼。
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown = { $seconds } 秒後可寄送新驗證碼郵件
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = 請輸入確認碼
 signin-token-code-resend-error = 有些東西怪怪的，無法寄出新的確認碼。
@@ -1883,6 +1886,9 @@ confirm-signup-code-sync-button = 開始同步
 confirm-signup-code-code-expired = 驗證碼失效？
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 重寄新驗證碼。
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown = { $seconds } 秒後可寄送新驗證碼郵件
 confirm-signup-code-success-alert = 成功確認帳號
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = 需要輸入確認碼
