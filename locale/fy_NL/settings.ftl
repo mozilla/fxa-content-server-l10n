@@ -1863,6 +1863,13 @@ signin-token-code-confirm-button = Befêstigje
 signin-token-code-code-expired = Koade ferrûn?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Nije koade ferstjoere.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Nije koade oer { $seconds } sekonde ferstjoere
+       *[other] Nije koade oer { $seconds } sekonden ferstjoere
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Befêstigingskoade nedich
 signin-token-code-resend-error = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
@@ -1935,6 +1942,13 @@ confirm-signup-code-sync-button = Begjin mei syngronisearjen
 confirm-signup-code-code-expired = Koade ferrûn?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nije koade ferstjoere pr e-mail.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Nije koade oer { $seconds } sekonde ferstjoere
+       *[other] Nije koade oer { $seconds } sekonden ferstjoere
+    }
 confirm-signup-code-success-alert = Account mei sukses befêstige
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Befêstigingskoade is fereaske
