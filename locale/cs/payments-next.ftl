@@ -200,8 +200,8 @@ subscription-content-cancel-access-message = Zrušit můj přístup a ukládán�
 
 cancel-subscription-button-cancel-subscription = Zrušit předplatné
     .aria-label = Zrušení předplatného { $productName }
-cancel-subscription-button-stay-subscribed = Zůstaňte odebíráni
-    .aria-label = Předplaťte si { $productName }
+cancel-subscription-button-stay-subscribed = Ponechat předplatné
+    .aria-label = Ponechat předplatné produktu { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -360,7 +360,7 @@ subscription-content-button-cancel-subscription = Zrušit předplatné
 dialog-close = Zavřít dialog
 button-back-to-subscriptions = Zpět na předplatné
 subscription-content-cancel-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
-paypal-unavailable-error = { -brand-paypal } je momentálně nedostupný. Použijte prosím jinou možnost platby nebo to zkuste znovu.
+paypal-unavailable-error = { -brand-paypal } není v současné době k dispozici. Použijte prosím jinou možnost platby nebo to zkuste později.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -472,9 +472,9 @@ stay-subscribed-error-general = Při obnovení vašeho předplatného došlo k c
 
 ## Manage Payment Method Error Messages
 
-manage-payment-method-intent-error-card-declined = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zadané údaje o své kartě a zkuste to znovu.
-manage-payment-method-intent-error-expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zkuste použít jinou.
-manage-payment-method-intent-error-try-again = Autorizace vaší platby se nezdařila. Zkuste to prosím znovu nebo kontaktujte vydavatele vaší karty.
-manage-payment-method-intent-error-get-in-touch = Autorizace vaší platby se nezdařila. Kontaktujte prosím vydavatele vaší karty.
-manage-payment-method-intent-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste použít jinou.
-manage-payment-method-intent-error-generic = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
+manage-payment-method-intent-error-card-declined = Vaši transakci se nepodařilo zpracovat. Ověřte prosím údaje o své platební kartě a zkuste to znovu.
+manage-payment-method-intent-error-expired-card-error = Vypadá to, že platnost vaší platební karty vypršela. Zkuste použít jinou.
+manage-payment-method-intent-error-try-again = Hmm. Došlo k problému s autorizací vaší platby. Zkuste to znovu nebo se obraťte na vydavatele karty.
+manage-payment-method-intent-error-get-in-touch = Hmm. Došlo k problému s autorizací vaší platby. Obraťte se na svého vydavatele karty.
+manage-payment-method-intent-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste jinou kartu.
+manage-payment-method-intent-error-generic = Při zpracování vaší platby došlo k neočekávané chybě, zkuste to prosím znovu.

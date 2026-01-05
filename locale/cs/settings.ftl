@@ -1865,9 +1865,10 @@ signin-token-code-resend-code-link = Zaslat e-mailem nový kód.
 # { $seconds } represents the number of seconds remaining
 signin-token-code-resend-code-countdown =
     { $seconds ->
-        [one] Nový kód e-mailem za { $seconds } s
-        [few] Nový kód e-mailem za { $seconds } sekundy
-       *[other] Nový kód e-mailem za { $seconds } sekundy
+        [one] Odeslat nový kód e-mailem za { $seconds } sekundu
+        [few] Odeslat nový kód e-mailem za { $seconds } sekundy
+        [many] Odeslat nový kód e-mailem za { $seconds } sekund
+       *[other] Odeslat nový kód e-mailem za { $seconds } sekund
     }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Je vyžadován potvrzovací kód
