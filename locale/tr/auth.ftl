@@ -218,6 +218,7 @@ subscription-charges-invoice-date-plaintext = Tarih: { $invoiceDateOnly }
 subscription-charges-list-price = Liste fiyatı
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Liste fiyatı: { $offeringPrice }
+subscription-charges-subtotal = <b>Ara toplam</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ara toplam: { $invoiceSubtotal }
 
@@ -226,6 +227,16 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Ara toplam: { $invoiceSubtot
 
 subscription-charges-one-time-discount = Tek seferlik indirim
 subscription-charges-one-time-discount-plaintext = Tek seferlik indirim: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration } aylık indirim
+       *[other] { $discountDuration } aylık indirim
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration } aylık indirim: { $invoiceDiscountAmount }
+       *[other] { $discountDuration } aylık indirim: { $invoiceDiscountAmount }
+    }
 subscription-charges-discount = İndirim
 subscription-charges-discount-plaintext = İndirim: { $invoiceDiscountAmount }
 subscription-charges-taxes = Vergiler ve ücretler
@@ -764,6 +775,9 @@ verifyAccountChange-preview =
         [one] Bu kodun kullanım süresi { $expirationTime } dakika sonra dolacak.
        *[other] Bu kodun kullanım süresi { $expirationTime } dakika sonra dolacak.
     }
+verifyAccountChange-title = Hesap bilgilerinizi mi değiştiriyorsunuz?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Bu değişikliği onaylayarak hesabınızı güvende tutmamıza yardımcı olun:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =

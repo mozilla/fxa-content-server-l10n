@@ -1858,6 +1858,7 @@ signin-totp-code-header = Giriş yap
 signin-totp-code-subheader-v2 = İki aşamalı kimlik doğrulama kodunuzu yazın
 signin-totp-code-instruction-v4 = Giriş işleminizi onaylamak için <strong>kimlik doğrulama uygulamanızı</strong> kontrol edin.
 signin-totp-code-input-label-v4 = 6 basamaklı kodu yazın
+signin-totp-code-aal-sign-out = Bu cihazdaki oturumu kapat
 signin-totp-code-aal-sign-out-error = Üzgünüz, çıkış yapılırken bir sorun oluştu
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Onayla

@@ -116,6 +116,7 @@ subscription-management-nav-payment-details = Ödeme ayrıntıları
 subscription-management-nav-active-subscriptions = Aktif abonelikler
 subscription-management-payment-details-heading = Ödeme ayrıntıları
 subscription-management-email-label = E-posta
+subscription-management-credit-balance-label = Kredi bakiyesi
 subscription-management-payment-method-label = Ödeme yöntemi
 subscription-management-button-add-payment-method-aria = Ödeme yöntemi ekle
 subscription-management-button-add-payment-method = Ekle
@@ -173,6 +174,8 @@ subscription-cancellation-dialog-title = Gitmenize üzüldük
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name } aboneliğiniz iptal edildi. { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
 subscription-cancellation-dialog-aside = Sorularınız mı var? <LinkExternal>{ -brand-mozilla } Destek</LinkExternal> sitesini ziyaret edin.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = { $productName } aboneliğini iptal et
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
