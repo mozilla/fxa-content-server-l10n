@@ -1946,9 +1946,10 @@ confirm-signup-code-resend-code-link = Zaslat e-mailem nový kód.
 # { $seconds } represents the number of seconds remaining
 confirm-signup-code-resend-code-countdown =
     { $seconds ->
-        [one] Nový kód e-mailem za { $seconds } s
-        [few] Nový kód e-mailem za { $seconds } sekundy
-       *[other] Nový kód e-mailem za { $seconds } sekundy
+        [one] Odeslat nový kód e-mailem za { $seconds } sekund
+        [few] Odeslat nový kód e-mailem za { $seconds } sekundy
+        [many] Odeslat nový kód e-mailem za { $seconds } sekund
+       *[other] Odeslat nový kód e-mailem za { $seconds } sekund
     }
 confirm-signup-code-success-alert = Účet byl úspěšně potvrzen
 # Error displayed in tooltip.
