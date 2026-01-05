@@ -1859,6 +1859,13 @@ signin-token-code-confirm-button = Bevestigen
 signin-token-code-code-expired = Code verlopen?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Nieuwe code versturen per e-mail.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Nieuwe code over { $seconds } seconde verzenden
+       *[other] Nieuwe code over { $seconds } seconden verzenden
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Bevestigingscode vereist
 signin-token-code-resend-error = Er is iets misgegaan. Er kon geen nieuwe code worden verzonden.
@@ -1931,6 +1938,13 @@ confirm-signup-code-sync-button = Begin met synchroniseren
 confirm-signup-code-code-expired = Code verlopen?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nieuwe code versturen per e-mail.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Nieuwe code over { $seconds } seconde verzenden
+       *[other] Nieuwe code over { $seconds } seconden verzenden
+    }
 confirm-signup-code-success-alert = Account met succes bevestigd
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Bevestigingscode is vereist
