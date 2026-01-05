@@ -1867,6 +1867,14 @@ signin-token-code-confirm-button = Confirmă
 signin-token-code-code-expired = A expirat codul?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Trimite un cod nou pe e-mail.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Trimite codul nou prin e-mail în { $seconds } secundă
+        [few] Trimite codul nou prin e-mail în { $seconds } secunde
+       *[other] Trimite codul nou prin e-mail în { $seconds } de secunde
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Necesită cod de confirmare
 signin-token-code-resend-error = Ceva nu a mers bine. Nu s-a putut trimite un cod nou.
@@ -1939,6 +1947,14 @@ confirm-signup-code-sync-button = Începe sincronizarea
 confirm-signup-code-code-expired = A expirat codul?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Trimite codul nou prin e-mail.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Trimite codul nou prin e-mail în { $seconds } secundă
+        [few] Trimite codul nou prin e-mail în { $seconds } secunde
+       *[other] Trimite codul nou prin e-mail în { $seconds } de secunde
+    }
 confirm-signup-code-success-alert = Cont confirmat cu succes
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Necesită cod de confirmare
