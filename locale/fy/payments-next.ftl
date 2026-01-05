@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Koartingskoade al tapast.
 stay-subscribed-error-not-current-subscriber = Dizze koarting is allinnich beskikber foar hjoeddeiske abonnees fan { $productTitle }.
 stay-subscribed-error-still-active = Jo { $productTitle }-abonnemint is noch aktyf.
 stay-subscribed-error-general = Der is in probleem bard by it ferlingjen fan jo abonnemint.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Jo transaksje koe net ferwurke wurde. Kontrolearje jo creditkaartgegevens en probearje it opnij.
+manage-payment-method-intent-error-expired-card-error = It liket derop dat jo creditkaart ferrûn is. Probearje in oare kaart.
+manage-payment-method-intent-error-try-again = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Probearje it opnij of nim kontakt mei jo kaartferstrekker.
+manage-payment-method-intent-error-get-in-touch = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Nim kontakt mei jo kaartferstrekker.
+manage-payment-method-intent-error-insufficient-funds = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
+manage-payment-method-intent-error-generic = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
