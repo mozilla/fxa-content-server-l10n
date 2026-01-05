@@ -1828,6 +1828,9 @@ signin-token-code-confirm-button = Xác nhận
 signin-token-code-code-expired = Mã đã hết hạn?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Gửi mã mới qua email.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown = Gửi mã mới qua email sau { $seconds } giây
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Yêu cầu mã xác nhận
 signin-token-code-resend-error = Đã xảy ra sự cố. Không thể gửi mã mới.
@@ -1900,6 +1903,9 @@ confirm-signup-code-sync-button = Bắt đầu đồng bộ hóa
 confirm-signup-code-code-expired = Mã đã hết hạn?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Gửi mã mới qua email.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown = Gửi mã mới qua email sau { $seconds } giây
 confirm-signup-code-success-alert = Đã xác minh tài khoản thành công
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Yêu cầu mã xác nhận

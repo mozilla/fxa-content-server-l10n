@@ -469,3 +469,12 @@ stay-subscribed-error-discount-used = Mã giảm giá đã được áp dụng.
 stay-subscribed-error-not-current-subscriber = Giảm giá này chỉ dành cho gói đăng ký { $productTitle } hiện tại.
 stay-subscribed-error-still-active = Gói đăng ký { $productTitle } của bạn vẫn còn hiệu lực.
 stay-subscribed-error-general = Đã xảy ra sự cố khi gia hạn gói đăng ký của bạn.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Không thể xử lý giao dịch của bạn. Vui lòng xác minh thông tin thẻ tín dụng của bạn và thử lại.
+manage-payment-method-intent-error-expired-card-error = Có vẻ như thẻ tín dụng của bạn đã hết hạn. Hãy thử một thẻ khác.
+manage-payment-method-intent-error-try-again = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy thử lại hoặc liên lạc với công ty phát hành thẻ của bạn.
+manage-payment-method-intent-error-get-in-touch = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
+manage-payment-method-intent-error-insufficient-funds = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
+manage-payment-method-intent-error-generic = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
