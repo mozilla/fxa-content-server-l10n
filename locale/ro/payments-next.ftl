@@ -471,3 +471,12 @@ stay-subscribed-error-discount-used = Codul de reducere a fost deja aplicat.
 stay-subscribed-error-not-current-subscriber = Reducerea este disponibilă doar abonaților { $productTitle } actuali.
 stay-subscribed-error-still-active = Abonamentul tău la { $productTitle } este încă activ.
 stay-subscribed-error-general = A apărut o problemă la reînnoirea abonamentului.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Tranzacția nu a putut fi procesată. Te rugăm să verifici informațiile cardului de credit și încearcă din nou.
+manage-payment-method-intent-error-expired-card-error = Se pare că ți-a expirat cardul de credit. Încearcă cu alt card.
+manage-payment-method-intent-error-try-again = Hmm. A apărut o problemă la autorizarea plății tale. Încearcă din nou sau contactează emitentul cardului.
+manage-payment-method-intent-error-get-in-touch = Hmm. A apărut o problemă la autorizarea plății tale. Contactează emitentul cardului.
+manage-payment-method-intent-error-insufficient-funds = Se pare că nu ai fonduri suficiente pe card. Încearcă alt card.
+manage-payment-method-intent-error-generic = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
