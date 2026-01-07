@@ -1868,7 +1868,7 @@ signin-token-code-resend-code-link = Új kód elküldése e-mailben.
 # { $seconds } represents the number of seconds remaining
 signin-token-code-resend-code-countdown =
     { $seconds ->
-        [one] Új kód elküldése e-mailben { $seconds } másodpercen belül
+        [one] Új kód elküldése e-mailben { $seconds } másodperc múlva
        *[other] Új kód elküldése e-mailben { $seconds } másodperc múlva
     }
 # Error displayed in a tooltip when the form is submitted without a code
@@ -1947,7 +1947,7 @@ confirm-signup-code-resend-code-link = Új kód elküldése e-mailben.
 # { $seconds } represents the number of seconds remaining
 confirm-signup-code-resend-code-countdown =
     { $seconds ->
-        [one] Új kód elküldése e-mailben { $seconds } másodpercen belül
+        [one] Új kód elküldése e-mailben { $seconds } másodperc múlva
        *[other] Új kód elküldése e-mailben { $seconds } másodperc múlva
     }
 confirm-signup-code-success-alert = A fiók sikeresen megerősítve

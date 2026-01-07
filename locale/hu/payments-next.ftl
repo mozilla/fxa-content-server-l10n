@@ -4,7 +4,7 @@ loyalty-discount-terms-support = Kapcsolatfelvétel az ügyfélszolgálattal
 loyalty-discount-terms-contact-support-product-aria = Lépjen kapcsolatba az ügyfélszolgálattal – { $productName }
 not-found-page-title-terms = Az oldal nem található
 not-found-page-description-terms = A keresett oldal nem létezik.
-not-found-page-button-terms-manage-subscriptions = Feliratkozások kezelése
+not-found-page-button-terms-manage-subscriptions = Előfizetések kezelése
 
 ## Page
 
@@ -362,7 +362,7 @@ subscription-content-button-cancel-subscription = Előfizetés lemondása
 dialog-close = Párbeszédablak bezárása
 button-back-to-subscriptions = Vissza az előfizetésekhez
 subscription-content-cancel-action-error = Váratlan hiba történt. Próbálja meg újra.
-paypal-unavailable-error = { -brand-paypal } jelenleg nem érhető el. Válasszon másik fizetési lehetőséget, vagy próbálja újra később.
+paypal-unavailable-error = A { -brand-paypal } jelenleg nem érhető el. Válasszon másik fizetési lehetőséget, vagy próbálja újra később.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
