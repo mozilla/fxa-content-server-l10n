@@ -1860,6 +1860,13 @@ signin-token-code-confirm-button = Bekræft
 signin-token-code-code-expired = Er koden udløbet?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Send en ny kode.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Sender ny kode via mail om { $seconds } sekund
+       *[other] Sender ny kode via mail om { $seconds } sekunder
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Bekræftelseskode påkrævet
 signin-token-code-resend-error = Noget gik galt. En ny kode kunne ikke sendes.
@@ -1932,6 +1939,13 @@ confirm-signup-code-sync-button = Start synkronisering
 confirm-signup-code-code-expired = Er koden udløbet?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Send en ny kode.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Sender ny kode via mail om { $seconds } sekund
+       *[other] Sender ny kode via mail om { $seconds } sekunder
+    }
 confirm-signup-code-success-alert = Konto bekræftet
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Bekræftelseskode er påkrævet
