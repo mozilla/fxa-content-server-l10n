@@ -1819,6 +1819,9 @@ signin-token-code-confirm-button = 确认
 signin-token-code-code-expired = 验证码已过期？
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = 重新发送验证码。
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown = { $seconds } 秒后可重新发送
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = 请输入确认码
 signin-token-code-resend-error = 出了点问题，无法发送新验证码。
@@ -1891,6 +1894,9 @@ confirm-signup-code-sync-button = 开始同步
 confirm-signup-code-code-expired = 验证码已过期？
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 重新发送验证码。
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown = { $seconds } 秒后可重新发送
 confirm-signup-code-success-alert = 账户已成功确认
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = 请输入确认码
