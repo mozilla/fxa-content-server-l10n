@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Abonnement behouden
     .aria-label = Abonnement op { $productName } behouden
 subscription-content-button-cancel-subscription = Abonnement opzeggen
     .aria-label = Abonnement op { $productName } opzeggen
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Voorwaarden zijn van toepassing
+subscription-content-link-churn-intervention-terms-aria = Voorwaarden en beperkingen van coupon bekijken
 
 ##
 
