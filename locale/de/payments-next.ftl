@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Dauerauftrag beibehalten
     .aria-label = { $productName } weiterhin abonnieren
 subscription-content-button-cancel-subscription = Dauerauftrag stornieren
     .aria-label = Ihren Dauerauftrag für { $productName } stornieren
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Es gelten die Bedingungen
+subscription-content-link-churn-intervention-terms-aria = Gutscheinbedingungen und Einschränkungen ansehen
 
 ##
 
