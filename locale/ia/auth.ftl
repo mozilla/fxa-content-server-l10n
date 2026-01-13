@@ -656,6 +656,11 @@ subscriptionEndingReminder-title = Tu abonamento a { $productName } expirara tos
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Tu accesso a { $productName } finira le <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Si te placerea continuar usar { $productName }, tu poterea reactivar tu abonamento in <a data-l10n-name="subscriptionEndingReminder-account-settings">parametros del conto</a> ante le <strong>{ $serviceLastActiveDateOnly }</strong>. Si tu besonia assistantia, <a data-l10n-name="subscriptionEndingReminder-contact-support">contacta nostre equipa de supporto</a>.
+subscriptionEndingReminder-content-line1-plaintext = Tu accesso a { $productName } finira le { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Si te placerea continuar usar { $productName }, tu potera reactivar tu abonamento in parametros de conto ante { $serviceLastActiveDateOnly }. Si tu besonia assistentia, contacta tu equipa de supporto.
+subscriptionEndingReminder-content-closing = Gratias pro esser un abonato! valorose!
+subscriptionEndingReminder-churn-title = Vole tu mantener le accesso?
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Tu abonamento a { $productName } ha essite cancellate
