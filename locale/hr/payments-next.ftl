@@ -159,8 +159,14 @@ subscription-management-breadcrumb-back-aria = Vrati se na stranicu { $page }
 
 ## CancelSubscription
 
+subscription-cancellation-dialog-title = Žao nam je što nas napuštaš
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 cancel-subscription-heading = Otkaži pretplatu na { $productName }
+
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Više nećeš moći koristiti { $productName } nakon { $currentPeriodEnd }, zadnjeg dana tvog ciklusa naplate.
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
@@ -301,6 +307,7 @@ subscription-content-button-cancel-subscription = Otkaži pretplatu
 
 dialog-close = Zatvori dijalog
 button-back-to-subscriptions = Natrag na pretplate
+subscription-content-cancel-action-error = Dogodila se neočekivana greška. Pokušaj ponovo.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -375,6 +382,13 @@ metadata-description-upgrade-processing = Pričekaj da završimo obradu tvoje up
 metadata-title-upgrade-error = Greška | { $productTitle }
 # Upgrade success
 metadata-title-upgrade-success = Uspjeh | { $productTitle }
+
+## Coupon Error Messages
+
+next-coupon-error-generic = Dogodila se greška prilikom obrade koda. Pokušaj ponovo.
+next-coupon-error-invalid = Upisani kod je neispravan.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Upisani kod je dosegao ograničenje.
 
 ## Stay Subscribed Error Messages
 
