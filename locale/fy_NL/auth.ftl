@@ -646,6 +646,16 @@ subscriptionDowngrade-content-charge-info = Fan jo folgjende faktuer ôf wizigje
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = As jo nije software ynstallearje moatte om { $productName } brûke te kinnen, dan ûntfange jo in ôfsûnderlik e-mailbericht mei downloadynstruksjes.
 subscriptionDowngrade-content-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Jo abonnemint op { $productName } ferrint ynkoarten
+subscriptionEndingReminder-title = Jo abonnemint op { $productName } ferrint ynkoarten
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Jo tagong ta { $productName } sil einigje op <strong>{ $serviceLastActiveDateOnly } </strong>.
+subscriptionEndingReminder-content-line2 = As jo { $productName } brûke bliuwe wolle, kinne jo foar <strong>{ $serviceLastActiveDateOnly }</strong> jo abonnemint opnij aktivearje yn <a data-l10n-name="subscriptionEndingReminder-account-settings">Accountynstellingen</a>. As jo help nedich hawwe, <a data-l10n-name="subscriptionEndingReminder-contact-support">nim dan kontakt op mei ús stipeteam</a>.
+subscriptionEndingReminder-content-line1-plaintext = Jo tagong ta { $productName } sil einigje op { $serviceLastActiveDateOnly }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Jo abonnemint op { $productName } is opsein
