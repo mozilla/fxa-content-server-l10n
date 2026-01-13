@@ -644,6 +644,10 @@ subscriptionDowngrade-content-charge-info = A következő számlától fogva a l
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Ha új szoftver telepítése szükséges a { $productName } használatához, akkor külön e-mailt fog kapni a letöltési utasításokkal.
 subscriptionDowngrade-content-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = A { $productName }-előfizetése hamarosan lejár
+subscriptionEndingReminder-title = A { $productName }-előfizetése hamarosan lejár
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Lemondta a(z) { $productName } előfizetését
