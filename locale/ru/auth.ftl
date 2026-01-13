@@ -663,6 +663,12 @@ subscriptionEndingReminder-content-line2-plaintext = Если вы хотите 
 subscriptionEndingReminder-content-closing = Спасибо за то, что являетесь ценным подписчиком!
 subscriptionEndingReminder-churn-title = Хотите сохранить доступ?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Принимаются ограниченные условия и ограничения</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Действуют ограниченные условия и ограничения: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Свяжитесь с нашей службой поддержки: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Ваша подписка на { $productName } была отменена

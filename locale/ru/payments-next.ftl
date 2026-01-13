@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Оставить подписку
     .aria-label = Оставить подписку на { $productName }
 subscription-content-button-cancel-subscription = Отменить подписку
     .aria-label = Отменить вашу подписку на { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Применяются условия
+subscription-content-link-churn-intervention-terms-aria = Посмотреть условия и ограничения купона
 
 ##
 
