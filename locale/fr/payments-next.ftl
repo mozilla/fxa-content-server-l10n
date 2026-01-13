@@ -354,6 +354,7 @@ subscription-content-button-stay-subscribed = Conserver l’abonnement
     .aria-label = Conserver l’abonnement à { $productName }
 subscription-content-button-cancel-subscription = Annuler l’abonnement
     .aria-label = Annuler votre abonnement à { $productName }
+subscription-content-link-churn-intervention-terms-aria = Voir les conditions et restrictions des coupons
 
 ##
 
