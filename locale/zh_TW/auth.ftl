@@ -643,8 +643,18 @@ subscriptionEndingReminder-title = 您的 { $productName } 訂閱即將到期
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = 您對 { $productName } 的使用權限將於 <strong>{ $serviceLastActiveDateOnly }</strong> 結束。
-subscriptionEndingReminder-content-line2 = 若您想繼續使用 { $productName }，可以在 <strong>{ $serviceLastActiveDateOnly }< /strong> 之前到<a data-l10n-name="subscriptionEndingReminder-account-settings">帳號設定</a>重新訂閱。若需要協助，請<a data-l10n-name="subscriptionEndingReminder-contact-support">聯絡我們的技術支援團隊</a>。
+subscriptionEndingReminder-content-line2 = 若您想繼續使用 { $productName }，可以在 <strong>{ $serviceLastActiveDateOnly }</strong> 之前到<a data-l10n-name="subscriptionEndingReminder-account-settings">帳號設定</a>重新訂閱。若需要協助，請<a data-l10n-name="subscriptionEndingReminder-contact-support">聯絡我們的技術支援團隊</a>。
 subscriptionEndingReminder-content-line1-plaintext = 您對 { $productName } 的使用權限將於 { $serviceLastActiveDateOnly } 結束。
+subscriptionEndingReminder-content-line2-plaintext = 若您想繼續使用 { $productName }，可以在 { $serviceLastActiveDateOnly } 之前到帳號設定重新訂閱。若需要協助，請聯絡我們的技術支援團隊。
+subscriptionEndingReminder-content-closing = 感謝您成為訂閱者！
+subscriptionEndingReminder-churn-title = 想要保留使用權嗎？
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">有相關條款與限制</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = 有相關條款與限制：{ $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = 聯絡我們的技術支援團隊：{ $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = 已取消您的 { $productName } 產品訂閱

@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = 保持訂閱
     .aria-label = 保持訂閱 { $productName }
 subscription-content-button-cancel-subscription = 取消訂閱
     .aria-label = 取消訂閱 { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = 有相關條款
+subscription-content-link-churn-intervention-terms-aria = 檢視折價券條款與限制
 
 ##
 
