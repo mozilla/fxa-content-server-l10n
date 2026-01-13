@@ -648,6 +648,14 @@ subscriptionDowngrade-content-charge-info = A comenciar con tu proxime factura, 
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Si il habera nove software pro te a installar pro usar { $productName }, tu recipera un email separate con instructiones pro discargamentos.
 subscriptionDowngrade-content-auto-renew = Tu subscription sera renovate automaticamente cata termino de facturation usque tu non seligera de cancellar lo.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Tu abonamento a { $productName } expirara tosto
+subscriptionEndingReminder-title = Tu abonamento a { $productName } expirara tosto
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Tu accesso a { $productName } finira le <strong>{ $serviceLastActiveDateOnly }</strong>.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Tu abonamento a { $productName } ha essite cancellate
