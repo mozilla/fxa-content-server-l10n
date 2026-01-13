@@ -650,6 +650,22 @@ subscriptionDowngrade-content-auto-renew = Бас тартуды таңдама�
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionEndingReminder-subject = Сіздің { $productName } жазылымыңыздың мерзімі жуырда аяқталады
 subscriptionEndingReminder-title = Сіздің { $productName } жазылымыңыздың мерзімі жуырда аяқталады
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Сіздің { $productName } қызметіне қол жеткізу мүмкіндігіңіз { $serviceLastActiveDateOnly } күні аяқталады.
+subscriptionEndingReminder-content-line2 = Егер { $productName } өнімін пайдалануды жалғастырғыңыз келсе, { $serviceLastActiveDateOnly } күніне дейін <a data-l10n-name="subscriptionEndingReminder-account-settings">Тіркелгі баптауларында</a> жазылымды қайта белсендіре аласыз. Егер көмек қажет болса, <a data-l10n-name="subscriptionEndingReminder-contact-support">қолдау көрсету тобына хабарласыңыз</a>.
+subscriptionEndingReminder-content-line1-plaintext = Сіздің { $productName } қызметіне қол жеткізу мүмкіндігіңіз { $serviceLastActiveDateOnly } күні аяқталады.
+subscriptionEndingReminder-content-line2-plaintext = Егер { $productName } өнімін пайдалануды жалғастырғыңыз келсе, { $serviceLastActiveDateOnly } күніне дейін Тіркелгі баптауларында жазылымды қайта белсендіре аласыз. Егер көмек қажет болса, Қолдау көрсету тобына хабарласыңыз.
+subscriptionEndingReminder-content-closing = Құрметті жазылушы болғаныңыз үшін рақмет!
+subscriptionEndingReminder-churn-title = Кіру мүмкіндігін сақтап қалғыңыз келе ме?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Шектеулі шарттар мен ережелер іске асады</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Шектеулі шарттар мен ережелер іске асады: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Қолдау көрсету тобына хабарласыңыз: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Сіздің { $productName } жазылуыңыз тоқтатылды
