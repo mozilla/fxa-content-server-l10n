@@ -612,6 +612,17 @@ subscriptionDowngrade-content-charge-info = החל מהחשבונית הבאה �
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = אם ישנה תוכנה חדשה שעליך להתקין כדי להשתמש ב־{ $productName }, תתקבל הודעת דוא״ל נפרדת עם הוראות להורדה.
 subscriptionDowngrade-content-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = המינוי שלך ל־{ $productName } יפוג בקרוב
+subscriptionEndingReminder-title = המינוי שלך ל־{ $productName } יפוג בקרוב
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = הגישה שלך ל־{ $productName } תסתיים בתאריך <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = אם ברצונך להמשיך להשתמש ב־{ $productName }, ניתן להפעיל מחדש את המינוי שלך ב<a data-l10n-name="subscriptionEndingReminder-account-settings">הגדרות החשבון</a> לפני <strong>{ $serviceLastActiveDateOnly }</strong>. אם יש לך צורך בעזרה, ניתן <a data-l10n-name="subscriptionEndingReminder-contact-support">ליצור קשר עם צוות התמיכה שלנו</a>.
+subscriptionEndingReminder-content-line1-plaintext = הגישה שלך ל־{ $productName } תסתיים בתאריך { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = אם ברצונך להמשיך להשתמש ב־{ $productName }, ניתן להפעיל מחדש את המינוי שלך בהגדרות החשבון לפני { $serviceLastActiveDateOnly }. אם יש לך צורך בעזרה, ניתן ליצור קשר עם צוות התמיכה שלנו.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = המינוי שלך ל־{ $productName } בוטל
