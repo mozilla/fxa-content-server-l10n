@@ -623,6 +623,15 @@ subscriptionEndingReminder-content-line1 = הגישה שלך ל־{ $productName 
 subscriptionEndingReminder-content-line2 = אם ברצונך להמשיך להשתמש ב־{ $productName }, ניתן להפעיל מחדש את המינוי שלך ב<a data-l10n-name="subscriptionEndingReminder-account-settings">הגדרות החשבון</a> לפני <strong>{ $serviceLastActiveDateOnly }</strong>. אם יש לך צורך בעזרה, ניתן <a data-l10n-name="subscriptionEndingReminder-contact-support">ליצור קשר עם צוות התמיכה שלנו</a>.
 subscriptionEndingReminder-content-line1-plaintext = הגישה שלך ל־{ $productName } תסתיים בתאריך { $serviceLastActiveDateOnly }.
 subscriptionEndingReminder-content-line2-plaintext = אם ברצונך להמשיך להשתמש ב־{ $productName }, ניתן להפעיל מחדש את המינוי שלך בהגדרות החשבון לפני { $serviceLastActiveDateOnly }. אם יש לך צורך בעזרה, ניתן ליצור קשר עם צוות התמיכה שלנו.
+subscriptionEndingReminder-content-closing = תודה לך על היותך מנוי מוערך!
+subscriptionEndingReminder-churn-title = רוצה לשמור על הגישה?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">כפוף לתנאים ולהגבלות</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = כפוף לתנאים ולהגבלות: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = יצירת קשר עם צוות התמיכה שלנו: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = המינוי שלך ל־{ $productName } בוטל

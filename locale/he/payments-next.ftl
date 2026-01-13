@@ -347,6 +347,7 @@ subscription-content-button-stay-subscribed = להישאר רשום כמינוי
     .aria-label = להישאר רשום כמינוי ל־{ $productName }
 subscription-content-button-cancel-subscription = לבטל את המינוי
     .aria-label = לבטל את המינוי שלך ל־{ $productName }
+subscription-content-link-churn-intervention-terms-aria = הצגת תנאים והגבלות של הקופונים
 
 ##
 
