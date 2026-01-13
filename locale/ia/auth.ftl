@@ -661,6 +661,13 @@ subscriptionEndingReminder-content-line1-plaintext = Tu accesso a { $productName
 subscriptionEndingReminder-content-line2-plaintext = Si te placerea continuar usar { $productName }, tu potera reactivar tu abonamento in parametros de conto ante { $serviceLastActiveDateOnly }. Si tu besonia assistentia, contacta tu equipa de supporto.
 subscriptionEndingReminder-content-closing = Gratias pro esser un abonato! valorose!
 subscriptionEndingReminder-churn-title = Vole tu mantener le accesso?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Conditiones e restrictiones limitate applicate</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Conditiones e restrictiones limitate applicate: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Contacta nostre equipa de supporto: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Tu abonamento a { $productName } ha essite cancellate
