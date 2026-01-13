@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Жазылымда қала бер
     .aria-label = { $productName } өніміне жазылымында қала беру
 subscription-content-button-cancel-subscription = Жазылымнан бас тарту
     .aria-label = { $productName } өніміне жазылымынан бас тарту
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Шарттар іске асады
+subscription-content-link-churn-intervention-terms-aria = Купон шарттары мен шектеулерін қарау
 
 ##
 
