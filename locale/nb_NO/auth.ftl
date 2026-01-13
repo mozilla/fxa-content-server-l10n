@@ -645,6 +645,8 @@ subscriptionDowngrade-content-charge-info = Fra og med din neste regning, vil ko
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Om det finnes ny programvare for deg å installere for å bruke { $productName }, vil du motta en egen e-postmelding med nedlastingsinstruksjoner.
 subscriptionDowngrade-content-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
+subscriptionEndingReminder-content-line2 = Hvis du ønsker å fortsette å bruke { $productName }, kan du reaktivere abonnementet ditt i <a data-l10n-name="subscriptionEndingReminder-account-settings">kontoinnstillingene</a> før <strong>{ $serviceLastActiveDateOnly }</strong>. Hvis du trenger hjelp, kan du <a data-l10n-name="subscriptionEndingReminder-contact-support">kontakte kundestøtteteamet vårt</a>.
+subscriptionEndingReminder-content-line1-plaintext = Tilgangen din til { $productName } avsluttes { $serviceLastActiveDateOnly }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Ditt abonnement på { $productName } har blit avsluttet
