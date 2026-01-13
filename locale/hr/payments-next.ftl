@@ -160,6 +160,10 @@ subscription-management-breadcrumb-back-aria = Vrati se na stranicu { $page }
 ## CancelSubscription
 
 subscription-cancellation-dialog-title = Žao nam je što nas napuštaš
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Tvoja pretplata na { $name } je otkazana. I dalje ćeš imati pristup usluzi { $name } do { $date }.
+subscription-cancellation-dialog-aside = Imaš pitanja? Posjeti <LinkExternal> { -brand-mozilla } podršku</LinkExternal>.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 cancel-subscription-heading = Otkaži pretplatu na { $productName }
 
@@ -167,6 +171,9 @@ cancel-subscription-heading = Otkaži pretplatu na { $productName }
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Više nećeš moći koristiti { $productName } nakon { $currentPeriodEnd }, zadnjeg dana tvog ciklusa naplate.
+subscription-content-cancel-access-message =
+    Otkaži moj pristup i moje spremljene podatke pri
+    { $productName } { $currentPeriodEnd }
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
@@ -275,9 +282,18 @@ next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo z
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Želiš nastaviti koristiti { $productName }?
+stay-subscribed-access-will-continue = Tvoj pristup proizvodu { $productName } će se nastaviti, a tvoj ciklus naplate i plaćanja se neće promijenitii.
 subscription-content-button-resubscribe = Obnovi pretplatu
     .aria-label = Obnovi pretplatu na { $productName }
 resubscribe-success-dialog-title = Hvala! Sve je spremno.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Tvoj sljedeći trošak bit će { $nextInvoiceTotal } + { $taxDue } porez { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Tvoj sljedeći trošak bit će { $nextInvoiceTotal } { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -288,6 +304,7 @@ resubscribe-success-dialog-title = Hvala! Sve je spremno.
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-will-be-applied = Primijenit će se popust na { $promotionName }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Zadnji račun • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } porez
@@ -297,17 +314,22 @@ subscription-management-link-view-invoice-aria = Prikaži račun za { $productNa
 subscription-content-expires-on-expiry-date = Ističe { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Sljedeći račun • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } porez
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Zadrži pretplatu
     .aria-label = Zadrži pretplatu za { $productName }
 subscription-content-button-cancel-subscription = Otkaži pretplatu
     .aria-label = Otkaži pretplatu za { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Primjenjuju se uvjeti
+subscription-content-link-churn-intervention-terms-aria = Pogledaj uvjete i ograničenja kupona
 
 ##
 
 dialog-close = Zatvori dijalog
 button-back-to-subscriptions = Natrag na pretplate
 subscription-content-cancel-action-error = Dogodila se neočekivana greška. Pokušaj ponovo.
+paypal-unavailable-error = { -brand-paypal } trenutačno nije dostupan. Koristi jednu drugu opciju plaćanja ili pokušaj kasnije ponovo.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -396,3 +418,5 @@ stay-subscribed-error-expired = Ova je ponuda istekla.
 stay-subscribed-error-discount-used = Kod za popust je već primijenjen.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Ovaj je popust dostupan samo za trenutačne pretplatnike na { $productTitle }.
+stay-subscribed-error-still-active = Tvoja pretplata na { $productTitle } je još uvijek aktivna.
+stay-subscribed-error-general = Postoji problem s obnovom tvoje pretplate.

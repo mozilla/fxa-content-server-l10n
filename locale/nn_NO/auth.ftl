@@ -651,6 +651,7 @@ subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk for
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionEndingReminder-subject = Abonnementet ditt på { $productName } går snart ut
 subscriptionEndingReminder-title = Abonnementet ditt på { $productName } går snart ut
+subscriptionEndingReminder-churn-title = Vil du behalde tilgangen?
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = { $productName }-abonnentet ditt er annulert

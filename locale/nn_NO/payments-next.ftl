@@ -354,6 +354,8 @@ subscription-content-button-stay-subscribed = Fortset abonnementet
     .aria-label = Fortset abonnementet { $productName }
 subscription-content-button-cancel-subscription = Avbryt abonnementet
     .aria-label = Avbryt abonnementet på { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Vilkår gjeld
 
 ##
 
