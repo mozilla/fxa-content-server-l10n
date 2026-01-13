@@ -646,6 +646,10 @@ subscriptionDowngrade-content-charge-info = Келесі шотыңыздан б
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = { $productName } пайдалану үшін жаңа бағдарламалық қамтаманы орнату керек болса, жүктеп алу нұсқаулары бар бөлек электрондық хат аласыз.
 subscriptionDowngrade-content-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Сіздің { $productName } жазылымыңыздың мерзімі жуырда аяқталады
+subscriptionEndingReminder-title = Сіздің { $productName } жазылымыңыздың мерзімі жуырда аяқталады
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Сіздің { $productName } жазылуыңыз тоқтатылды
