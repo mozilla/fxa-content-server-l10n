@@ -648,6 +648,11 @@ subscriptionDowngrade-content-auto-renew = Előfizetése számlázási időszako
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionEndingReminder-subject = A { $productName }-előfizetése hamarosan lejár
 subscriptionEndingReminder-title = A { $productName }-előfizetése hamarosan lejár
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = A(z) { $productName } szolgáltatáshoz való hozzáférése ekkor jár le: <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Ha továbbra is szeretné használni a { $productName } szolgáltatást, akkor a <a data-l10n-name="subscriptionEndingReminder-account-settings">Fiókbeállítások</a> részben <strong>{ $serviceLastActiveDateOnly }</strong> előtt aktiválhatja az előfizetését. Ha segítségre van szüksége, <a data-l10n-name="subscriptionEndingReminder-contact-support">lépjen kapcsolatba az ügyfélszolgálati csapatunkkal</a>.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Lemondta a(z) { $productName } előfizetését
