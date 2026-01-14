@@ -655,6 +655,8 @@ subscriptionEndingReminder-title = Din prenumeration på { $productName } upphö
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Din åtkomst till { $productName } upphör den <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line2 = Om du vill fortsätta använda { $productName } kan du återaktivera din prenumeration i <a data-l10n-name="subscriptionEndingReminder-account-settings">kontoinställningar</a> före <strong>{ $serviceLastActiveDateOnly }</strong>. Om du behöver hjälp, <a data-l10n-name="subscriptionEndingReminder-contact-support">kontakta vårt supportteam</a>.
+subscriptionEndingReminder-content-line1-plaintext = Din åtkomst till { $productName } upphör { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Om du vill fortsätta använda { $productName } kan du återaktivera din prenumeration i kontoinställningar före { $serviceLastActiveDateOnly }. Om du behöver hjälp, kontakta vårt supportteam.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Din prenumeration på { $productName } har avslutats

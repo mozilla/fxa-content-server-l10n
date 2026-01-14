@@ -651,7 +651,14 @@ subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk for
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionEndingReminder-subject = Abonnementet ditt på { $productName } går snart ut
 subscriptionEndingReminder-title = Abonnementet ditt på { $productName } går snart ut
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Tilgangen din til { $productName } vert avslutta <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line1-plaintext = Tilgangen din til { $productName } vert avslutta { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-closing = Takk for at du er ein verdsett abonnent!
 subscriptionEndingReminder-churn-title = Vil du behalde tilgangen?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Avgrensa vilkår og restriksjonar gjeld</a>
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = { $productName }-abonnentet ditt er annulert
