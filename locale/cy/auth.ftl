@@ -656,6 +656,26 @@ subscriptionDowngrade-content-charge-info = O'ch bil nesaf ymlaen, bydd eich tal
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productName }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
 subscriptionDowngrade-content-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Bydd eich tanysgrifiad o { $productName } yn dod i ben cyn bo hir
+subscriptionEndingReminder-title = Bydd eich tanysgrifiad o { $productName } yn dod i ben cyn bo hir
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Bydd eich mynediad i { $productName } yn gorffen ar <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Os hoffech chi barhau i ddefnyddio { $productName } , gallwch ail-greu eich tanysgrifiad yn eich <a data-l10n-name="subscriptionEndingReminder-account-settings">Gosodiadau Cyfrif</a> cyn <strong>{ $serviceLastActiveDateOnly }< /cryf>. Os oes angen cymorth arnoch, <a data-l10n-name="subscriptionEndingReminder-contact-support">cysylltwch â'n Tîm Cymorth</a>.
+subscriptionEndingReminder-content-line1-plaintext = Bydd eich mynediad i { $productName } yn gorffen ar { $serviceLastActiveDateOnly } .
+subscriptionEndingReminder-content-line2-plaintext = Os hoffech barhau i ddefnyddio { $productName }, gallwch ail-greu eich tanysgrifiad yng Ngosodiadau eich Cyfrif cyn { $serviceLastActiveDateOnly }. Os oes angen cymorth arnoch, cysylltwch â'n Tîm Cymorth.
+subscriptionEndingReminder-content-closing = Diolch am fod yn danysgrifiwr gwerthfawr!
+subscriptionEndingReminder-churn-title = Eisiau cadw mynediad?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Mae telerau a chyfyngiadau cyfyngedig yn berthnasol</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Mae telerau a chyfyngiadau cyfyngedig yn berthnasol: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Cysylltwch â'n Tîm Cymorth: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Mae eich tanysgrifiad i { $productName } wedi'i ddiddymu

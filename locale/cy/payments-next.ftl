@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Parhau Wedi Tanysgrifio
     .aria-label = Parhau i danysgrifio i { $productName }
 subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
     .aria-label = Diddymu'ch tanysgrifiad i { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Telerau yn berthnasol
+subscription-content-link-churn-intervention-terms-aria = Gweld telerau a chyfyngiadau'r cwpon
 
 ##
 
