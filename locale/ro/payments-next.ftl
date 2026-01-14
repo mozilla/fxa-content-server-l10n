@@ -356,6 +356,9 @@ subscription-content-button-stay-subscribed = Păstrează abonamentul
     .aria-label = Păstrează abonamentul la { $productName }
 subscription-content-button-cancel-subscription = Anulează abonamentul
     .aria-label = Anulează abonamentul la { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Se aplică condiții
+subscription-content-link-churn-intervention-terms-aria = Vezi condițiile și restricțiile pentru cupoane
 
 ##
 
