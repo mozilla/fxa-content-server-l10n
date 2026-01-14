@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Mantener suscripción
     .aria-label = Mantener suscripción a { $productName }
 subscription-content-button-cancel-subscription = Cancelar suscripción
     .aria-label = Cancelar suscripción a { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Se aplican términos
+subscription-content-link-churn-intervention-terms-aria = Ver los términos y restricciones del cupón
 
 ##
 
