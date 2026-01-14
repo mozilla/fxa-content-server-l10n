@@ -652,6 +652,17 @@ subscriptionDowngrade-content-charge-info = Zachopinajucy z wašeju pśiduceju z
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Jolic musyśo nowu softwaru instalěrowaś, aby { $productName } wužywał, dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami.
 subscriptionDowngrade-content-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Waš abonement { $productName } skóro spadnjo
+subscriptionEndingReminder-title = Waš abonement { $productName } skóro spadnjo
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Waš pśistup k { $productName } se dnja <strong>{ $serviceLastActiveDateOnly }</strong> skóńcyjo.
+subscriptionEndingReminder-content-line2 = Jolic rad cośo { $productName } dalej wužywaś, móžośo swój abonement w <a data-l10n-name="subscriptionEndingReminder-account-settings">kontowych nastajenjach</a> pśed <strong>{ $serviceLastActiveDateOnly }</strong> reaktiwěrowaś. Jolic pomoc trjebaśo, <a data-l10n-name="subscriptionEndingReminder-contact-support">stajśo se z našym teamom pomocy do zwiska</a>.
+subscriptionEndingReminder-content-line1-plaintext = Waš pśistup k { $productName } se dnja { $serviceLastActiveDateOnly } skóńcyjo.
+subscriptionEndingReminder-content-line2-plaintext = Jolic rad cośo { $productName } dalej wužywaś, móžośo swój abonement w kontowych nastajenjach pśed { $serviceLastActiveDateOnly } reaktiwěrowaś. Jolic pomoc trjebaśo, stajśo se z našym teamom pomocy do zwiska.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Waš abonement { $productName } jo se wótskazał

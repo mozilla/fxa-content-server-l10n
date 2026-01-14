@@ -359,6 +359,9 @@ subscription-content-button-stay-subscribed = Dale abonować
     .aria-label = { $productName } dale abonować
 subscription-content-button-cancel-subscription = Abonement wupowědźić
     .aria-label = Waš abonement { $productName } wupowědźić
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Płaća wuměnjenja
+subscription-content-link-churn-intervention-terms-aria = Kuponowe wuměnjenja a wobmjezowanja sej wobhladać
 
 ##
 
