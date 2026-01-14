@@ -356,6 +356,7 @@ subscription-content-button-cancel-subscription = Avbryt abonnementet
     .aria-label = Avbryt abonnementet på { $productName }
 # Link to the terms and restrictions for a coupon offer.
 subscription-content-link-churn-intervention-terms-apply = Vilkår gjeld
+subscription-content-link-churn-intervention-terms-aria = Sjå kupongvilkår og restriksjonar
 
 ##
 

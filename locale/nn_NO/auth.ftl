@@ -655,10 +655,18 @@ subscriptionEndingReminder-title = Abonnementet ditt på { $productName } går s
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Tilgangen din til { $productName } vert avslutta <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Om du ønskjer å halde fram med å bruke { $productName }, kan du reaktivere abonnementet ditt i <a data-l10n-name="subscriptionEndingReminder-account-settings">kontoinnstillingane</a> før <strong>{ $serviceLastActiveDateOnly }</strong>. Om du treng hjelp, kan du <a data-l10n-name="subscriptionEndingReminder-contact-support">kontakte kundestøtteteamet vårt</a>.
 subscriptionEndingReminder-content-line1-plaintext = Tilgangen din til { $productName } vert avslutta { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Om du ønskjer å halde fram med å bruke { $productName }, kan du reaktivere abonnementet ditt i <a data-l10n-name="subscriptionEndingReminder-account-settings">kontoinnstillingane</a> før <strong>{ $serviceLastActiveDateOnly }</strong>. Om du treng hjelp, kan du <a data-l10n-name="subscriptionEndingReminder-contact-support">kontakte kundestøtteteamet vårt</a>.
 subscriptionEndingReminder-content-closing = Takk for at du er ein verdsett abonnent!
 subscriptionEndingReminder-churn-title = Vil du behalde tilgangen?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Avgrensa vilkår og restriksjonar gjeld</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Avgrensa vilkår og restriksjonar gjeld: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Kontakt kundestøtteteamet vårt: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = { $productName }-abonnentet ditt er annulert

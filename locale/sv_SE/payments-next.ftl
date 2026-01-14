@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Fortsätt prenumerera
     .aria-label = Fortsätt prenumerera på { $productName }
 subscription-content-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt prenumeration på { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Villkor gäller
+subscription-content-link-churn-intervention-terms-aria = Visa kupongvillkor och restriktioner
 
 ##
 
