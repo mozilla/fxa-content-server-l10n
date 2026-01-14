@@ -650,6 +650,11 @@ subscriptionDowngrade-content-auto-renew = Din prenumeration förnyas automatisk
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionEndingReminder-subject = Din prenumeration på { $productName } upphör snart
 subscriptionEndingReminder-title = Din prenumeration på { $productName } upphör snart
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Din åtkomst till { $productName } upphör den <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Om du vill fortsätta använda { $productName } kan du återaktivera din prenumeration i <a data-l10n-name="subscriptionEndingReminder-account-settings">kontoinställningar</a> före <strong>{ $serviceLastActiveDateOnly }</strong>. Om du behöver hjälp, <a data-l10n-name="subscriptionEndingReminder-contact-support">kontakta vårt supportteam</a>.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Din prenumeration på { $productName } har avslutats
