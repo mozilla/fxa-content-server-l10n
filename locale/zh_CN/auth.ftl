@@ -633,6 +633,12 @@ subscriptionDowngrade-content-charge-info = 从下一期账单开始，我们就
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = 若需要安装新软件才能使用 { $productName }，我们会将下载方式用另一封电子邮件发送予您。
 subscriptionDowngrade-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = 您的 { $productName } 订阅即将到期
+subscriptionEndingReminder-title = 您的 { $productName } 订阅即将到期
+subscriptionEndingReminder-content-line2 = 若要继续使用 { $productName }，请在 <strong>{ $serviceLastActiveDateOnly }</strong>前，到<a data-l10n-name="subscriptionEndingReminder-account-settings">账户设置</a>中续期订阅。如需协助，请<a data-l10n-name="subscriptionEndingReminder-contact-support">联系支持团队</a>。
+subscriptionEndingReminder-content-line2-plaintext = 若要继续使用 { $productName }，请在 { $serviceLastActiveDateOnly } 前，到“账户设置”中续期订阅。如需协助，请联系支持团队。
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = 您的 { $productName } 订阅已取消
