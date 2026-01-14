@@ -663,6 +663,15 @@ subscriptionEndingReminder-content-line1 = Waš pśistup k { $productName } se d
 subscriptionEndingReminder-content-line2 = Jolic rad cośo { $productName } dalej wužywaś, móžośo swój abonement w <a data-l10n-name="subscriptionEndingReminder-account-settings">kontowych nastajenjach</a> pśed <strong>{ $serviceLastActiveDateOnly }</strong> reaktiwěrowaś. Jolic pomoc trjebaśo, <a data-l10n-name="subscriptionEndingReminder-contact-support">stajśo se z našym teamom pomocy do zwiska</a>.
 subscriptionEndingReminder-content-line1-plaintext = Waš pśistup k { $productName } se dnja { $serviceLastActiveDateOnly } skóńcyjo.
 subscriptionEndingReminder-content-line2-plaintext = Jolic rad cośo { $productName } dalej wužywaś, móžośo swój abonement w kontowych nastajenjach pśed { $serviceLastActiveDateOnly } reaktiwěrowaś. Jolic pomoc trjebaśo, stajśo se z našym teamom pomocy do zwiska.
+subscriptionEndingReminder-content-closing = Źěkujomy se, až sćo wažony abonent!
+subscriptionEndingReminder-churn-title = Cośo pśistup wobchowaś?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Płaśe wobgranicowane wuměnjenja a wobgranicowanja</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Płaśe wobgranicowane wuměnjenja a wobgranicowanja: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Stajśo se z našym teamom pomocy do zwiska: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Waš abonement { $productName } jo se wótskazał
