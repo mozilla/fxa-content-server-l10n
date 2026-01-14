@@ -651,6 +651,26 @@ subscriptionDowngrade-content-charge-info = Počnúc ďalšou faktúrou sa váš
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Ak je k dispozícii nový softvér potrebný na to, aby ste mohli používať { $productName }, dostanete samostatný e‑mail s pokynmi na stiahnutie.
 subscriptionDowngrade-content-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Vaše predplatné produktu { $productName } čoskoro vyprší
+subscriptionEndingReminder-title = Vaše predplatné produktu { $productName } čoskoro vyprší
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Váš prístup k produktu { $productName } sa skončí dňa <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Ak chcete naďalej používať { $productName }, môžete si predplatné znova aktivovať v <a data-l10n-name="subscriptionEndingReminder-account-settings">Nastaveniach účtu</a> pred dátumom <strong>{ $serviceLastActiveDateOnly }</strong>. Ak potrebujete pomoc, <a data-l10n-name="subscriptionEndingReminder-contact-support">kontaktujte náš tím podpory</a>.
+subscriptionEndingReminder-content-line1-plaintext = Váš prístup k produktu { $productName } sa skončí dňa { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Ak chcete naďalej používať { $productName }, môžete si predplatné znova aktivovať v Nastaveniach účtu pred dátumu { $serviceLastActiveDateOnly }. Ak potrebujete pomoc, kontaktujte náš tím podpory.
+subscriptionEndingReminder-content-closing = Ďakujeme, že ste naším cenným odberateľom!
+subscriptionEndingReminder-churn-title = Chcete si zachovať prístup?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Platia podmienky a obmedzenia</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Platia podmienky a obmedzenia: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Kontaktujte náš tím podpory: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Vaše predplatné produktu { $productName } bolo zrušené

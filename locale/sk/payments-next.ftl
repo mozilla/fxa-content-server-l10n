@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Ponechať predplatné
     .aria-label = Ponechať predplatné produktu { $productName }
 subscription-content-button-cancel-subscription = Zrušiť predplatné
     .aria-label = Zrušiť predplatné produktu { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Platia podmienky
+subscription-content-link-churn-intervention-terms-aria = Zobraziť podmienky a obmedzenia kupónu
 
 ##
 
