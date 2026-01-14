@@ -354,6 +354,7 @@ subscription-content-button-stay-subscribed = 继续订阅
     .aria-label = 继续订阅 { $productName }
 subscription-content-button-cancel-subscription = 取消订阅
     .aria-label = 取消订阅 { $productName }
+subscription-content-link-churn-intervention-terms-aria = 查看折扣码条款与限制
 
 ##
 

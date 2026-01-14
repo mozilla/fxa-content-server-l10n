@@ -639,6 +639,10 @@ subscriptionEndingReminder-subject = 您的 { $productName } 订阅即将到期
 subscriptionEndingReminder-title = 您的 { $productName } 订阅即将到期
 subscriptionEndingReminder-content-line2 = 若要继续使用 { $productName }，请在 <strong>{ $serviceLastActiveDateOnly }</strong>前，到<a data-l10n-name="subscriptionEndingReminder-account-settings">账户设置</a>中续期订阅。如需协助，请<a data-l10n-name="subscriptionEndingReminder-contact-support">联系支持团队</a>。
 subscriptionEndingReminder-content-line2-plaintext = 若要继续使用 { $productName }，请在 { $serviceLastActiveDateOnly } 前，到“账户设置”中续期订阅。如需协助，请联系支持团队。
+subscriptionEndingReminder-churn-title = 希望继续使用？
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = 联系支持团队：{ $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = 您的 { $productName } 订阅已取消
