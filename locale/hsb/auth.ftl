@@ -652,6 +652,17 @@ subscriptionDowngrade-content-charge-info = Započinajo z wašej přichodnej zli
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Jeli dyrbiće nowu softwaru instalować, zo byšće { $productName }s wužiwał, dóstanjeće separatnu mejlku ze sćehnjenskimi instrukcijemi.
 subscriptionDowngrade-content-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Waš abonement { $productName } bórze spadnje
+subscriptionEndingReminder-title = Waš abonement { $productName } bórze spadnje
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Waš přistup k { $productName } so dnja <strong>{ $serviceLastActiveDateOnly }</strong> skónči.
+subscriptionEndingReminder-content-line2 = Jeli rady chceće { $productName } dale wužiwać, móžeće swój abonement w <a data-l10n-name="subscriptionEndingReminder-account-settings">kontowych nastajenjach</a> před <strong>{ $serviceLastActiveDateOnly }</strong> reaktiwizować. Jeli pomoc trjebaće, <a data-l10n-name="subscriptionEndingReminder-contact-support">stajće so z našim teamom pomocy do zwiska</a>.
+subscriptionEndingReminder-content-line1-plaintext = Waš přistup k { $productName } so dnja { $serviceLastActiveDateOnly } skónči.
+subscriptionEndingReminder-content-line2-plaintext = Jeli rady chceće { $productName } dale wužiwać, móžeće swój abonement w kontowych nastajenjach před { $serviceLastActiveDateOnly } reaktiwizować. Jeli pomoc trjebaće, stajće so z našim teamom pomocy do zwiska.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Waš abonement { $productName } je so wotskazał
