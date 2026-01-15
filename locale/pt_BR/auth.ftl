@@ -231,7 +231,19 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal
 subscription-charges-one-time-discount = Desconto único
 subscription-charges-one-time-discount-plaintext = Desconto único: { $invoiceDiscountAmount }
 subscription-charges-discount = Desconto
+subscription-charges-discount-plaintext = Desconto: { $invoiceDiscountAmount }
+subscription-charges-taxes = Impostos e taxas
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Impostos e taxas: { $invoiceTaxAmount }
 subscription-charges-total = <b>Total</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Total: { $invoiceTotal }
+subscription-charges-credit-applied = Crédito aplicado
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Crédito aplicado: { $creditApplied }
+subscription-charges-amount-paid = <b>Valor pago</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Valor pago: { $invoiceAmountDue }
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscription-charges-credit-received = Você recebeu um crédito em conta de { $creditReceived }, que será aplicado em suas futuras faturas.
 
@@ -265,6 +277,9 @@ subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no serv
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-3 = Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Para mais informações, visite o Suporte { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -273,6 +288,22 @@ device-all = { $uaBrowser } em { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } em { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (estimado)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (estimado)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (estimado)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (estimado)
 view-invoice-link-action = Ver fatura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice

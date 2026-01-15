@@ -1,3 +1,9 @@
+loyalty-discount-terms-heading = Termos e restrições
+loyalty-discount-terms-support = Entrar em contato com o suporte
+not-found-page-title-terms = Página não encontrada
+not-found-page-description-terms = A página que você está procurando não existe.
+not-found-page-button-terms-manage-subscriptions = Gerenciar assinaturas
+
 ## Page
 
 checkout-signin-or-create = 1. Entre na sua conta ou crie uma { -product-mozilla-account }
