@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Abonnemint behâlde
     .aria-label = Abonnemint op { $productName } behâlde
 subscription-content-button-cancel-subscription = Abonnemint opsizze
     .aria-label = Abonnemint op { $productName } opsizze
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Betingsten binne fan tapassing
+subscription-content-link-churn-intervention-terms-aria = Betingsten en beheiningen fan kûpon besjen
 
 ##
 
