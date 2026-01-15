@@ -29,13 +29,26 @@ upgrade-page-acknowledgment = Seu plano mudará imediatamente. Será cobrado hoj
 
 ## Authentication Error page
 
+auth-error-page-title = Não foi possível entrar na conta
 checkout-error-boundary-retry-button = Tentar novamente
 checkout-error-boundary-basic-error-message = Algo deu errado. Tente novamente ou <contactSupportLink>entre em contato com o suporte</contactSupportLink>.
+amex-logo-alt-text = Logotipo do { -brand-amex }
+diners-logo-alt-text = Logotipo do { -brand-diner }
+discover-logo-alt-text = Logotipo do { -brand-discover }
+jcb-logo-alt-text = Logotipo do { -brand-jcb }
+mastercard-logo-alt-text = Logotipo do { -brand-mastercard }
+paypal-logo-alt-text = Logotipo do { -brand-paypal }
+unionpay-logo-alt-text = Logotipo do { -brand-unionpay }
+visa-logo-alt-text = Logotipo do { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logotipo sem marca
+link-logo-alt-text = Logotipo do { -brand-link }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gerenciar minha assinatura
+next-iap-blocked-contact-support = Você tem uma assinatura em aplicativo de dispositivos móveis que está em conflito com este produto. Entre em contato com o suporte para que possamos ajudar.
 next-payment-error-retry-button = Tentar novamente
 next-basic-error-message = Algo deu errado. Tente novamente mais tarde.
 checkout-error-contact-support-button = Entre em contato com o suporte
@@ -44,6 +57,7 @@ checkout-error-already-subscribed = Você já tem assinatura deste produto.
 checkout-error-contact-support = Entre em contato com o suporte para receber ajuda.
 cart-error-currency-not-determined = Não foi possível determinar a moeda para esta compra, tente novamente.
 checkout-processing-general-error = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
+cart-total-mismatch-error = O valor da fatura mudou. Tente novamente.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -85,9 +99,20 @@ subscription-management-button-add-payment-method = Adicionar
 subscription-management-button-manage-payment-method-aria = Gerenciar método de pagamento
 subscription-management-button-manage-payment-method = Gerenciar
 subscription-management-active-subscriptions-heading = Assinaturas ativas
+subscription-management-new-subs-will-appear-here = Novas assinaturas aparecem aqui.
+subscription-management-your-active-subscriptions-aria = Suas assinaturas ativas
 subscription-management-button-support = Obter ajuda
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Expira em { $date }
 subscription-management-button-manage-subscription-1 = Gerenciar assinatura
+error-payment-method-banner-title-expired-card = Cartão expirado
+error-payment-method-banner-message-add-new-card = Adicione outro cartão ou método de pagamento para evitar interrupção em suas assinaturas.
+error-payment-method-banner-label-update-payment-method = Atualizar método de pagamento
+error-payment-method-expired-card = Seu cartão expirou. Adicione outro cartão ou método de pagamento para evitar interrupção em suas assinaturas.
+error-payment-method-banner-title-invalid-payment-information = Informações de pagamento inválidas
+error-payment-method-banner-message-account-issue = Há um problema com sua conta.
 manage-payment-methods-heading = Gerenciar métodos de pagamento
+paypal-payment-management-page-invalid-header = Informações de cobrança inválidas
 # Page - Not Found
 page-not-found-title = Página não encontrada
 page-not-found-description = A página solicitada não foi encontrada. Fomos notificados e corrigiremos os links que podem estar quebrados.
@@ -97,6 +122,10 @@ page-not-found-back-button = Voltar
 
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Assinaturas
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Gerenciar métodos de pagamento
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Voltar para { $page }
 
 ## CancelSubscription
 
@@ -154,6 +183,8 @@ payments-client-loading-spinner =
 
 ## Payment method management page - Stripe
 
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Definir como método de pagamento padrão
 # Save button for saving a new payment method
 payment-method-management-save-method = Salvar método de pagamento
 manage-stripe-payments-title = Gerenciar métodos de pagamento
@@ -164,6 +195,10 @@ next-plan-details-header = Detalhes do produto
 next-plan-details-list-price = Preço de tabela
 next-plan-details-tax = Impostos e taxas
 next-plan-details-total-label = Total
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Crédito aplicado
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Total devido
 next-plan-details-hide-button = Ocultar detalhes
 next-plan-details-show-button = Mostra detalhes
 next-coupon-success = Seu plano será renovado automaticamente pelo preço de tabela.
