@@ -306,6 +306,9 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (anualmente)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Concluir compra | { $productTitle }
+metadata-description-checkout-start = Insira os dados de pagamento para concluir a compra.
 # Checkout processing
 metadata-title-checkout-processing = Processando | { $productTitle }
 metadata-description-checkout-processing = Aguarde enquanto terminamos de processar seu pagamento.
@@ -316,9 +319,23 @@ metadata-title-checkout-success = Sucesso | { $productTitle }
 metadata-description-checkout-success = Parabéns! Você concluiu sua compra com sucesso.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Ação necessária | { $productTitle }
+metadata-description-checkout-needs-input = Complete a ação necessária para prosseguir com o pagamento.
+metadata-description-upgrade-start = Insira os detalhes de pagamento para concluir a mudança.
+# Upgrade processing
+metadata-title-upgrade-processing = Processando | { $productTitle }
+metadata-description-upgrade-processing = Aguarde enquanto terminamos de processar seu pagamento.
 # Upgrade error
 metadata-title-upgrade-error = Erro | { $productTitle }
 # Upgrade success
 metadata-title-upgrade-success = Sucesso | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Ação necessária | { $productTitle }
+metadata-description-upgrade-needs-input = Complete a ação necessária para prosseguir com o pagamento.
 # Default
 metadata-title-default = Página não encontrada | { $productTitle }
+metadata-description-default = A página que você solicitou não foi encontrada.
+
+## Coupon Error Messages
+
+next-coupon-error-cannot-redeem = O código que você inseriu não pode ser usado, sua conta já tem uma assinatura anterior de um de nossos serviços.
+next-coupon-error-expired = O código inserido expirou.
