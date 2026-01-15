@@ -640,6 +640,26 @@ subscriptionDowngrade-content-charge-info = Bắt đầu với hóa đơn tiếp
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Nếu có phần mềm mới để bạn cài đặt để sử dụng { $productName }, bạn sẽ nhận được một email riêng với hướng dẫn tải xuống.
 subscriptionDowngrade-content-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Gói đăng ký { $productName } của bạn sắp hết hạn
+subscriptionEndingReminder-title = Gói đăng ký { $productName } của bạn sắp hết hạn
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Quyền truy cập của bạn vào { $productName } sẽ kết thúc vào <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Nếu bạn muốn tiếp tục sử dụng { $productName }, bạn có thể kích hoạt lại gói đăng ký của mình tại <a data-l10n-name="subscriptionEndingReminder-account-settings">cài đặt tài khoản</a> trước <strong>{ $serviceLastActiveDateOnly }</strong>. Nếu bạn cần hỗ trợ, <a data-l10n-name="subscriptionEndingReminder-contact-support">hãy liên hệ với nhóm hỗ trợ của chúng tôi</a>.
+subscriptionEndingReminder-content-line1-plaintext = Quyền truy cập của bạn vào { $productName } sẽ kết thúc vào { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Nếu bạn muốn tiếp tục sử dụng { $productName }, bạn có thể kích hoạt lại gói đăng ký của mình trong Cài đặt tài khoản trước { $serviceLastActiveDateOnly }. Nếu cần hỗ trợ, vui lòng liên hệ với Nhóm hỗ trợ của chúng tôi.
+subscriptionEndingReminder-content-closing = Cảm ơn bạn đã là một người đăng ký quý giá!
+subscriptionEndingReminder-churn-title = Bạn muốn tiếp tục truy cập chứ?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Áp dụng các điều khoản và hạn chế nhất định</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Áp dụng các điều khoản và hạn chế nhất định: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Liên hệ với nhóm hỗ trợ của chúng tôi: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Thuê bao { $productName } của bạn đã bị hủy

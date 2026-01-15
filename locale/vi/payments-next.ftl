@@ -354,6 +354,9 @@ subscription-content-button-stay-subscribed = Giữ gói đăng ký
     .aria-label = Giữ gói đăng ký { $productName }
 subscription-content-button-cancel-subscription = Huỷ gói đăng ký
     .aria-label = Huỷ gói đăng ký { $productName } của bạn
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Điều khoản được áp dụng
+subscription-content-link-churn-intervention-terms-aria = Xem điều khoản và hạn chế của phiếu giảm giá
 
 ##
 
