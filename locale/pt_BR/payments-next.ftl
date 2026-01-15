@@ -236,6 +236,20 @@ next-new-user-subscribe-product-updates-mozilla = Quero receber notícias e novi
 next-new-user-subscribe-product-updates-snp = Quero de receber notícias e novidades da { -brand-mozilla } sobre segurança e privacidade
 next-new-user-subscribe-product-assurance = Só usamos seu email para criar sua conta. Nunca iremos vender a terceiros.
 
+## $productName (String) - The name of the subscribed product.
+
+resubscribe-dialog-title = Quer continuar usando o { $productName }?
+stay-subscribed-access-will-continue = Você continua tendo acesso ao { $productName } e seu ciclo de cobrança e pagamento permanece o mesmo.
+resubscribe-success-dialog-title = Obrigado! Está tudo pronto.
+
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Sua próxima cobrança será de { $nextInvoiceTotal } + { $taxDue } de imposto em { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Sua próxima cobrança será de { $nextInvoiceTotal } em { $currentPeriodEnd }.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -245,6 +259,18 @@ next-new-user-subscribe-product-assurance = Só usamos seu email para criar sua 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-will-be-applied = Será aplicado um desconto de { $promotionName }
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Última fatura • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } de imposto
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Ver fatura
+subscription-management-link-view-invoice-aria = Ver fatura do { $productName }
+subscription-content-expires-on-expiry-date = Expira em { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Próxima cobrança • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } de imposto
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Manter assinatura
     .aria-label = Manter a assinatura do { $productName }
 subscription-content-button-cancel-subscription = Cancelar assinatura
@@ -252,7 +278,9 @@ subscription-content-button-cancel-subscription = Cancelar assinatura
 
 ##
 
+button-back-to-subscriptions = Voltar para assinaturas
 subscription-content-cancel-action-error = Ocorreu um erro inesperado. Tente novamente.
+paypal-unavailable-error = { -brand-paypal } não está disponível no momento. Use outra opção de pagamento ou tente novamente mais tarde.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -339,3 +367,14 @@ metadata-description-default = A página que você solicitou não foi encontrada
 
 next-coupon-error-cannot-redeem = O código que você inseriu não pode ser usado, sua conta já tem uma assinatura anterior de um de nossos serviços.
 next-coupon-error-expired = O código inserido expirou.
+next-coupon-error-generic = Houve um erro ao processar o código. Tente novamente.
+next-coupon-error-invalid = O código inserido é inválido.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = O código inserido atingiu o limite.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Esta oferta expirou.
+stay-subscribed-error-discount-used = Código de desconto já aplicado.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Este desconto só está disponível para quem já tem assinatura do { $productTitle }.
