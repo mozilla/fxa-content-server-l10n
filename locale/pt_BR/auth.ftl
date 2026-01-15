@@ -188,15 +188,48 @@ payment-plan-charged = Cobrado: { $invoiceTotal } em { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Método de pagamento:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Método de pagamento: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Método de pagamento: { $cardName } com final { $lastFour }
+payment-provider-card-ending-in-plaintext = Método de pagamento: Cartão com final { $lastFour }
+payment-provider-card-ending-in = <b>Método de pagamento:</b> Cartão com final { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Método de pagamento:</b> { $cardName } com final { $lastFour }
+subscription-charges-invoice-summary = Resumo da fatura
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Número da fatura:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Data:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Data: { $invoiceDateOnly }
+subscription-charges-prorated-price = Preço proporcional
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Preço proporcional: { $remainingAmountTotal }
+subscription-charges-list-price = Preço de tabela
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Preço de tabela: { $offeringPrice }
+subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
 
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount = Desconto único
+subscription-charges-one-time-discount-plaintext = Desconto único: { $invoiceDiscountAmount }
 subscription-charges-discount = Desconto
 subscription-charges-total = <b>Total</b>
 # $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
@@ -228,6 +261,9 @@ subscriptionUpdateBillingTry-plaintext = Tentaremos efetuar seu pagamento novame
 subscriptionUpdatePayment = Para evitar qualquer interrupção em seu serviço, <a data-l10n-name="updateBillingUrl">atualize suas informações de pagamento</a> assim que possível.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no serviço, atualize suas informações de pagamento assim que possível:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
