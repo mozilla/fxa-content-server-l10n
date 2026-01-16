@@ -233,12 +233,12 @@ churn-stay-subscribed-title-offer-expired = Erbjudandet har upphört att gälla
 ## $productName (String) - The name of the product associated with the subscription.
 
 churn-stay-subscribed-subtitle-offer-expired = Vill du fortsätta använda { $productName }?
-churn-stay-subscribed-message-access-will-continue = Din åtkomst till { $productName } kommer att fortsätta, och din faktureringscykel och betalning kommer att förbli desamma.
+churn-stay-subscribed-message-access-will-continue = Din åtkomst till { $productName } kommer att fortsätta och din faktureringscykel och betalning kommer att förbli desamma.
 churn-stay-subscribed-title-subscription-renewed = Prenumeration förnyad
 churn-stay-subscribed-title-subscription-active = Din prenumeration på { $productName } är aktiv
 churn-stay-subscribed-thanks-valued-subscriber = Tack för att du är en värdefull prenumerant!
 churn-stay-subscribed-button-go-to-product-page = Gå till { $productName }
-churn-stay-subscribed-button-go-to-subscriptions = Gå till Prenumerationer
+churn-stay-subscribed-button-go-to-subscriptions = Gå till prenumerationer
 churn-stay-subscribed-button-stay-subscribed = Fortsätt prenumerera
 
 ## Component - CouponForm
@@ -534,15 +534,15 @@ manage-payment-method-intent-error-generic = Ett oväntat fel har uppstått vid 
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
-next-charge-with-discount-and-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt till kortet som slutar på { $last4 } den { $currentPeriodEnd }.
-next-charge-with-discount-and-tax-payment-method = Du sparar { $discountPercent }% på din nästa debitering på { $nextInvoiceTotal } + { $taxDue } skatt med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
 next-charge-next-charge-with-discount-and-tax = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } till kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-payment-method = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
-next-charge-with-discount-no-tax = Du sparar { $discountPercent }% på din nästa laddning på { $nextInvoiceTotal } på { $currentPeriodEnd }.
-next-charge-with-tax-card = Din nästa betalning är { $nextInvoiceTotal } + { $taxDue } moms till kortet som slutar på { $last4 } den { $currentPeriodEnd }.
-next-charge-with-tax-payment-method = Din nästa debitering är { $nextInvoiceTotal } + { $taxDue } moms med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
-next-charge-with-tax = Din nästa debitering är { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
-next-charge-no-tax-card = Din nästa betalning är { $nextInvoiceTotal } för kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } den { $currentPeriodEnd }.
+next-charge-with-tax-card = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-with-tax = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
+next-charge-no-tax-card = Din nästa betalning på { $nextInvoiceTotal } på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
 next-charge-no-tax-payment-method = Din nästa betalning är { $nextInvoiceTotal } med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
 next-charge-no-tax = Din nästa debitering är { $nextInvoiceTotal } den { $currentPeriodEnd }.
