@@ -112,6 +112,12 @@ not-found-title-subscriptions = Abonement njeje so namakał
 not-found-description-subscriptions = Njemóžachmy waš abonement namakać. Prošu spytajće hišće raz abo skontaktujće pomoc.
 not-found-button-back-to-subscriptions = Wróćo k abonementam
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Strona njeje so namakała
+not-found-loyalty-discount-description = Strona, kotruž pytaće, njeeksistuje.
+not-found-loyalty-discount-button-back-to-subscriptions = Wróćo k abonementam
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Žana płaćenska metoda přidata
@@ -217,6 +223,23 @@ next-payment-confirm-checkbox-error = Dyrbiće to dokónčić, prjedy hač móž
 
 next-new-user-submit = Nětko abonować
 next-pay-with-heading-paypal = Z { -brand-paypal } płaćić
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Podlěšće swój abonement a zalutujće { $discountPercent } %
+churn-stay-subscribed-button-stay-subscribed-and-save = Abonement podlěšić a zalutować
+churn-stay-subscribed-button-no-thanks = Ně, dźakuju so
+    .aria-label = Wróćo k stronje abonementow
+churn-stay-subscribed-link-terms-and-restrictions = Płaća wobmjezowane wuměnjenja a wobmjezowanja
+churn-stay-subscribed-title-offer-expired = Tutón poskitk je spadnjeny
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Chceće { $productName } dale wužiwać?
+churn-stay-subscribed-message-access-will-continue = Waš přistup k { $productName } dale wobsteji a waš wotličenski cyklus a płaćenje samsne wostawa.
+churn-stay-subscribed-title-subscription-renewed = Abonement je so wobnowił
 
 ## Component - CouponForm
 
