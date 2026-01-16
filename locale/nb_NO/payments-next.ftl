@@ -236,6 +236,7 @@ churn-stay-subscribed-subtitle-offer-expired = Vil du fortsette å bruke { $prod
 churn-stay-subscribed-message-access-will-continue = Tilgangen din til { $productName } fortsetter, og faktureringssyklusen og betalingen din forblir den samme.
 churn-stay-subscribed-title-subscription-renewed = Abonnementet er fornyet
 churn-stay-subscribed-title-subscription-active = Ditt abonnement på { $productName } er aktivt.
+churn-stay-subscribed-thanks-valued-subscriber = Takk for at du er en verdsatt abonnent!
 churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnementer
 churn-stay-subscribed-button-stay-subscribed = Fortsett abonnementet
