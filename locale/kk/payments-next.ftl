@@ -229,6 +229,12 @@ churn-stay-subscribed-button-no-thanks = Жоқ, рахмет
     .aria-label = Жазылымдар бетіне оралу
 churn-stay-subscribed-title-offer-expired = Бұл ұсыныстың мерзімі аяқталды
 
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-title-subscription-renewed = Жазылым жаңартылды
+churn-stay-subscribed-button-go-to-subscriptions = Жазылымдарға өту
+churn-stay-subscribed-button-stay-subscribed = Жазылымда қала беру
+
 ## Component - CouponForm
 
 next-coupon-enter-code =
@@ -380,6 +386,15 @@ dialog-close = Сұхбатты жабу
 button-back-to-subscriptions = Жазылымдарға оралу
 subscription-content-cancel-action-error = Күтпеген қате орын алды. Қайталап көріңіз.
 paypal-unavailable-error = { -brand-paypal } қазіргі уақытта қолжетімді емес. Басқа төлем опциясын пайдаланыңыз немесе кейінірек қайталап көріңіз.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Жеңілдік коды бұрыннан қолданылған
+churn-error-page-button-manage-subscriptions = Жазылымдарды басқару
+churn-error-page-button-contact-support = Қолдау қызметіне хабарласу
+churn-error-page-button-try-again = Қайтадан көру
+churn-error-page-title-general-error = Жазылымыңызды жаңарту кезінде мәселе орын алды
+churn-error-page-message-general-error = Қолдау қызметіне хабарласыңыз немесе қайталап көріңіз.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
