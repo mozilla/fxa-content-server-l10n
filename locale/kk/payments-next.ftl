@@ -227,11 +227,17 @@ churn-stay-subscribed-button-stay-subscribed-and-save-discount = Жазылым�
 churn-stay-subscribed-button-stay-subscribed-and-save = Жазылымды жалғастырыңыз үнемдеңіз
 churn-stay-subscribed-button-no-thanks = Жоқ, рахмет
     .aria-label = Жазылымдар бетіне оралу
+churn-stay-subscribed-link-terms-and-restrictions = Шектеулі шарттар мен шектеулер қолданылады
 churn-stay-subscribed-title-offer-expired = Бұл ұсыныстың мерзімі аяқталды
 
 ## $productName (String) - The name of the product associated with the subscription.
 
+churn-stay-subscribed-subtitle-offer-expired = { $productName } пайдалануды жалғастырғыңыз келе ме?
+churn-stay-subscribed-message-access-will-continue = Сіздің { $productName } өніміне қол жеткізу мүмкіндігіңіз жалғасады және төлем циклі мен төлем бұрынғыдай болады.
 churn-stay-subscribed-title-subscription-renewed = Жазылым жаңартылды
+churn-stay-subscribed-title-subscription-active = Сіздің { $productName } жазылымыңыз белсенді
+churn-stay-subscribed-thanks-valued-subscriber = Құрметті жазылушы болғаныңыз үшін рақмет!
+churn-stay-subscribed-button-go-to-product-page = { $productName } өніміне өту
 churn-stay-subscribed-button-go-to-subscriptions = Жазылымдарға өту
 churn-stay-subscribed-button-stay-subscribed = Жазылымда қала беру
 
@@ -390,11 +396,19 @@ paypal-unavailable-error = { -brand-paypal } қазіргі уақытта қо�
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = Жеңілдік коды бұрыннан қолданылған
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Бұл жеңілдік тіркегіңіздегі { $productName } жазылымына қолданылды. Егер сізге әлі де көмек қажет болса, қолдау көрсету қызметіне хабарласыңыз.
 churn-error-page-button-manage-subscriptions = Жазылымдарды басқару
 churn-error-page-button-contact-support = Қолдау қызметіне хабарласу
 churn-error-page-button-try-again = Қайтадан көру
 churn-error-page-title-general-error = Жазылымыңызды жаңарту кезінде мәселе орын алды
 churn-error-page-message-general-error = Қолдау қызметіне хабарласыңыз немесе қайталап көріңіз.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = { $productName } өніміне өту
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Бұл жеңілдік тек ағымдағы { $productName } жазылушыларына ғана қолжетімді
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Сіздің { $productName } жазылымыңыз әлі де белсенді
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -512,3 +526,18 @@ manage-payment-method-intent-error-try-again = Төлеміңізді автор
 manage-payment-method-intent-error-get-in-touch = Төлеміңізді авторизациялау кезінде мәселе орын алды. Карта шығарушысымен байланысыңыз.
 manage-payment-method-intent-error-insufficient-funds = Сіздің картаңызда қаражат жеткіліксіз сияқты. Басқа картаны қолданып көріңіз.
 manage-payment-method-intent-error-generic = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Сіздің { $last4 } нөмірімен аяқталатын картаңыздан келесі жолы { $currentPeriodEnd } күні төлем алынғанда, { $discountPercent }% үнемдейсіз. Төлем сомасы: { $nextInvoiceTotal } + { $taxDue } салық.
+next-charge-with-discount-and-tax-payment-method = Сіздің { $paymentMethod } төлем әдісіңізден келесі жолы { $currentPeriodEnd } күні төлем алынғанда, { $discountPercent }% үнемдейсіз. Төлем сомасы: { $nextInvoiceTotal } + { $taxDue } салық.
+next-charge-next-charge-with-discount-and-tax = Сіздің келесі жолғы { $currentPeriodEnd } күні алынатын төлеміңізден { $discountPercent }% жеңілдік жасалады. Төлем сомасы: { $nextInvoiceTotal } + { $taxDue } салық.
+next-charge-with-discount-no-tax-card = Сіздің { $last4 } нөмірімен аяқталатын картаңыздан келесі жолы { $currentPeriodEnd } күні төлем алынғанда, { $discountPercent }% үнемдейсіз. Төлем сомасы: { $nextInvoiceTotal }.
+next-charge-with-discount-no-tax-payment-method = Сіздің { $paymentMethod } төлем әдісіңізден келесі жолы { $currentPeriodEnd } күні төлем алынғанда, { $discountPercent }% үнемдейсіз. Төлем сомасы: { $nextInvoiceTotal }.
+next-charge-with-discount-no-tax = Сіздің келесі жолғы { $currentPeriodEnd } күні алынатын төлеміңізден { $discountPercent }% жеңілдік жасалады. Төлем сомасы: { $nextInvoiceTotal }.
+next-charge-with-tax-card = Келесі төлеміңіз { $currentPeriodEnd } күні { $last4 } нөмірімен аяқталатын картаңыздан алынады. Төлем сомасы: { $nextInvoiceTotal } + { $taxDue } салық.
