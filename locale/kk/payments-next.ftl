@@ -109,6 +109,12 @@ not-found-title-subscriptions = Жазылым табылмады
 not-found-description-subscriptions = Жазылымыңызды таба алмадық. Қайталап көріңіз немесе қолдау қызметіне хабарласыңыз.
 not-found-button-back-to-subscriptions = Жазылымдарға оралу
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Бет табылмады
+not-found-loyalty-discount-description = Сіз іздеген бет жоқ.
+not-found-loyalty-discount-button-back-to-subscriptions = Жазылымдарға оралу
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Төлем әдістері қосылмаған
@@ -212,6 +218,16 @@ next-payment-confirm-checkbox-error = Алға жылжу алдында осы�
 
 next-new-user-submit = Қазір жазылу
 next-pay-with-heading-paypal = { -brand-paypal } арқылы төлеу
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Күтпеген қате орын алды. Қайталап көріңіз.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Жазылымды жалғастырыңыз және { $discountPercent }% үнемдеңіз
+churn-stay-subscribed-button-stay-subscribed-and-save = Жазылымды жалғастырыңыз үнемдеңіз
+churn-stay-subscribed-button-no-thanks = Жоқ, рахмет
+    .aria-label = Жазылымдар бетіне оралу
+churn-stay-subscribed-title-offer-expired = Бұл ұсыныстың мерзімі аяқталды
 
 ## Component - CouponForm
 
