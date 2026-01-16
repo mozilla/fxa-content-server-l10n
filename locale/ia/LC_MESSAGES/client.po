@@ -2,17 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-23 17:08+0000\n"
-"Last-Translator: Melo46 <melo@carmu.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pontoon\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -560,7 +555,7 @@ msgstr "Il non esseva possibile trovar le aviso de confidentialitate"
 
 #: .es5/lib/auth-errors.js:338
 msgid "Could not get Terms of Service"
-msgstr "Il non esseva possibile trovar le terminos del servicio"
+msgstr "Il non esseva possibile trovar le conditiones de uso del servicio"
 
 #: .es5/lib/auth-errors.js:342
 msgid "Your new password must be different"
@@ -837,8 +832,8 @@ msgstr "Token non valide"
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Per continuar, tu accepta <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de servicio</a> e le <a id=\"service-pp\" href=\"%(privacyUri)s\">aviso de confidentialitate</a> de %(serviceName)s "
-"(%(serviceUri)s)."
+"Per continuar, tu accepta <a id=\"service-tos\" href=\"%(termsUri)s\">conditiones de uso del servicio</a> e le <a id=\"service-pp\" href=\"%(privacyUri)s\">aviso de confidentialitate</a> de "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"

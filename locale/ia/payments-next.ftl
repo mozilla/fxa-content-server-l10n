@@ -215,6 +215,11 @@ next-payment-confirm-checkbox-error = Il besonia completar isto, ante proceder
 next-new-user-submit = Abona te ora
 next-pay-with-heading-paypal = Paga con { -brand-paypal }
 
+## Churn flow - stay subscribed
+
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Resta abonate e sparnia { $discountPercent }%
+
 ## Component - CouponForm
 
 next-coupon-enter-code =

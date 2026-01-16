@@ -42,7 +42,7 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sy
 body-devices-image = <img data-l10n-name="devices-image" alt="Apparatos">
 fxa-privacy-url = Politica de confidentialitate de { -brand-mozilla }
 moz-accounts-privacy-url-2 = Aviso re le confidentialitate de { -product-mozilla-accounts(capitalization: "uppercase") }
-moz-accounts-terms-url = Terminos del servicio del { -product-mozilla-accounts(capitalization: "lowercase") }
+moz-accounts-terms-url = Conditiones de uso del servicio de { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
 subplat-automated-email = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
@@ -73,7 +73,7 @@ subplat-privacy-policy = Politica de confidentialitate de { -brand-mozilla }
 subplat-privacy-policy-2 = Aviso re le confidentialitate de { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-moz-terms = Terminos del servicio de { -product-mozilla-accounts(capitalization: "lowercase") }
+subplat-moz-terms = Conditiones de uso del servicio de { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
