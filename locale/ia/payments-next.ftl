@@ -109,6 +109,12 @@ not-found-title-subscriptions = Abonamento non trovate.
 not-found-description-subscriptions = Nos non poteva trova tu abonamento. Retenta o contacta assistentia.
 not-found-button-back-to-subscriptions = Retornar al abonamentos
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Pagina non trovate
+not-found-loyalty-discount-description = Le pagina que tu recerca non existe.
+not-found-loyalty-discount-button-back-to-subscriptions = Retornar al abonamentos
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Necun methodo de pagamento addite
@@ -217,8 +223,25 @@ next-pay-with-heading-paypal = Paga con { -brand-paypal }
 
 ## Churn flow - stay subscribed
 
+churn-stay-subscribed-action-error = Un error impreviste occurreva, retenta.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-stay-subscribed-button-stay-subscribed-and-save-discount = Resta abonate e sparnia { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Resta abonate e sparnia
+churn-stay-subscribed-button-no-thanks = No gratias
+    .aria-label = Retornar al pagina del abonamentos
+churn-stay-subscribed-link-terms-and-restrictions = Conditiones e restrictiones limitate es applicate
+churn-stay-subscribed-title-offer-expired = Iste offerta ha expirate
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Vole tu continuar a usar { $productName }?
+churn-stay-subscribed-message-access-will-continue = Tu accesso a { $productName } continuara, e tu cyclo de facturation e pagamento restara le mesme.
+churn-stay-subscribed-title-subscription-renewed = Abonamento renovate
+churn-stay-subscribed-title-subscription-active = Tu abonamento a { $productName } es active
+churn-stay-subscribed-thanks-valued-subscriber = Gratias pro esser un abonato valorose!
+churn-stay-subscribed-button-go-to-product-page = Va a { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Va a abonamentos
+churn-stay-subscribed-button-stay-subscribed = Restar abonate
 
 ## Component - CouponForm
 
@@ -372,6 +395,20 @@ button-back-to-subscriptions = Retornar al abonamentos
 subscription-content-cancel-action-error = Un error impreviste occurreva, retenta.
 paypal-unavailable-error = { -brand-paypal } es actualmente indisponibile. Usa un altere option de pagamento o retenta plus tarde.
 
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Codice de disconto jam applicate
+churn-error-page-button-manage-subscriptions = Gerer abonamentos
+churn-error-page-button-contact-support = Contactar assistentia
+churn-error-page-button-try-again = Retentar
+churn-error-page-title-general-error = Il habeva un problema renovante tu abonamento
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Ir a { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Iste disconto es solo disponibile pro abonatos actual de { $productName }.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Tu abonamento a { $productName } es ancora active.
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -488,3 +525,15 @@ manage-payment-method-intent-error-try-again = Hmm. Il habeva un problema durant
 manage-payment-method-intent-error-get-in-touch = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Contacta tu emissor de carta.
 manage-payment-method-intent-error-insufficient-funds = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 manage-payment-method-intent-error-generic = Un error impreviste ha occurrite durante le elaboration de tu pagamento, retenta.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue } sur le carta finiente in { $last4 }.
+next-charge-with-discount-and-tax-payment-method =
+    You will save { $discountPercent }% on your next charge of { $nextInvoiceTotal } + { $taxDue } tax to your { $paymentMethod } payment method on { $currentPeriodEnd }.
+    Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue } a tu methodo de pagamento { $paymentMethod }.
