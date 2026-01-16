@@ -595,15 +595,6 @@ subscriptionAccountDeletion-title = Жаль, что вы уходите
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Вы недавно удалили свой { -product-mozilla-account(case: "nominative") }. Связи с этим мы отменили вашу подписку на { $productName }. Ваш последний платёж в размере { $invoiceTotal } был оплачен { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Добро пожаловать в { $productName }: Задайте для себя пароль.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Добро пожаловать в { $productName }
-subscriptionAccountFinishSetup-content-processing = Ваш платёж обрабатывается, что может занять до четырёх рабочих дней. Ваша подписка будет автоматически продлеваться каждый расчётный период, если вы не решите её отменить.
-subscriptionAccountFinishSetup-content-create-3 = Далее необходимо создать пароль { -product-mozilla-account(case: "dative") } для начала использования новой подписки.
-subscriptionAccountFinishSetup-action-2 = Приступим
 subscriptionAccountReminderFirst-subject = Напоминание: завершите настройку вашего аккаунта
 subscriptionAccountReminderFirst-title = Вы пока не можете получить доступ к своей подписке
 subscriptionAccountReminderFirst-content-info-3 = Несколько дней назад вы создали { -product-mozilla-account(case: "nominative") } но так и не подтвердили его. Мы надеемся, что вы закончите настройку аккаунта и сможете пользоваться новой подпиской.

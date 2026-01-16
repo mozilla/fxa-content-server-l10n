@@ -1100,12 +1100,6 @@ tfa-row-cannot-disable-2 = 2 段階認証を無効化できませんでした
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = 続けることにより、次のことに同意したものとみなされます:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } サブスクリプションサービスの <mozSubscriptionTosLink>利用規約</mozSubscriptionTosLink> および <mozSubscriptionPrivacyLink>プライバシー通知</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts } <mozillaAccountsTos>サービス利用規約</mozillaAccountsTos> と <mozillaAccountsPrivacy>プライバシー通知</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = 続けることにより、<mozillaAccountsTos>サービス利用規約</mozillaAccountsTos> および <mozillaAccountsPrivacy>プライバシー通知</mozillaAccountsPrivacy> に同意したものとみなされます。
 

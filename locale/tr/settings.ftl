@@ -1235,12 +1235,6 @@ tfa-row-verify-session-info = İki aşamalı doğrulamayı ayarlamak için mevcu
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Devam ettiğinizde şunları kabul etmiş olursunuz:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } Abonelik Hizmetleri <mozSubscriptionTosLink>Hizmet Koşulları</mozSubscriptionTosLink> ve <mozSubscriptionPrivacyLink>Gizlilik Bildirimi</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos> ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Devam ederek <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos>’nı ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>’ni kabul etmiş olursunuz.
 

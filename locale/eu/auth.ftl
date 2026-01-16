@@ -431,15 +431,6 @@ subscriptionAccountDeletion-title = Sentitzen dugu zu joatea
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Duela gutxi ezabatu duzu zure { -product-mozilla-account }. Ondorioz, { $productName } harpidetza bertan behera utzi dugu. { $invoiceTotal }ren azken ordainketa { $invoiceDateOnly } egunean ordaindu zen.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Ongi etorri { $productName }-ra: ezarri zure pasahitza.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Ongi etorri { $productName }(e)ra
-subscriptionAccountFinishSetup-content-processing = Ordainketa prozesatzen ari da eta lau lanegun behar izan ditzake osatzeko. Zure harpidetza automatikoki berrituko da fakturazio-aldi bakoitzean bertan behera uztea erabakitzen ez baduzu.
-subscriptionAccountFinishSetup-content-create-3 = Ondoren, { -product-mozilla-account } pasahitz bat sortu beharko duzu harpidetza berria erabiltzen hasteko.
-subscriptionAccountFinishSetup-action-2 = Hasi erabiltzen
 subscriptionAccountReminderFirst-subject = Oroigarria: amaitu zure kontuaren ezarpenak
 subscriptionAccountReminderFirst-title = Oraindik ezin duzu zure harpidetza sartu
 subscriptionAccountReminderFirst-content-info-3 = Duela egun batzuk { -product-mozilla-account } bat sortu zenuen baina ez zenuen inoiz baieztatu. Zure kontua konfiguratzen amaitzea espero dugu, harpidetza berria erabil dezazun.

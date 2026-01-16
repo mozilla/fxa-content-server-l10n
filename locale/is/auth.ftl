@@ -503,15 +503,6 @@ subscriptionAccountDeletion-title = Okkur þykir miður að þú sért á förum
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Þú eyddir { -product-mozilla-account }-reikningnum þínum nýlega. Fyrir vikið höfum við sagt upp { $productName } áskriftinni þinni. Lokagreiðsla þín upp á { $invoiceTotal } var greidd þann { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Velkomin í { $productName }: Stilltu lykilorðið þitt.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Velkomin í { $productName }
-subscriptionAccountFinishSetup-content-processing = Greiðslan þín er í vinnslu og getur tekið allt að fjóra virka daga að ganga frá henni. Áskriftin þín mun endurnýjast sjálfkrafa fyrir hvert greiðslutímabil nema þú ákveðir að hætta áskriftinni.
-subscriptionAccountFinishSetup-content-create-3 = Næst muntu búa til { -product-mozilla-account }-lykilorð til að geta byrjað að nota nýju áskriftina þína.
-subscriptionAccountFinishSetup-action-2 = Komast í gang
 subscriptionAccountReminderFirst-subject = Áminning: Ljúktu við að setja upp reikninginn þinn
 subscriptionAccountReminderFirst-title = Þú hefur ekki ennþá aðgang að áskriftinni þinni
 subscriptionAccountReminderFirst-content-info-3 = Fyrir nokkrum dögum síðan bjóstu til { -product-mozilla-account } en staðfestir hann aldrei. Við vonum að þú ljúkir við að setja upp reikninginn þinn svo þú getir notað nýju áskriftina þína.

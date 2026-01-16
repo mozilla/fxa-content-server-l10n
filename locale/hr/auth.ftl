@@ -551,13 +551,6 @@ recovery-action = Stvori novu lozinku
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Tvoja pretplata na { $productName } je otkazana
 subscriptionAccountDeletion-title = Žao nam je što odlaziš
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Dobro došao, dobro došla u { $productName }: Postavi svoju lozinku.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Dobro došao, dobro došla u { $productName }
-subscriptionAccountFinishSetup-action-2 = Započni
 subscriptionAccountReminderFirst-subject = Podsjetnik: dovrši postavljanje računa
 subscriptionAccountReminderFirst-title = Još ne možeš pristupiti svojoj pretplati
 subscriptionAccountReminderFirst-action = Stvori lozinku

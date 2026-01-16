@@ -1249,12 +1249,6 @@ tfa-row-verify-session-info = Вам необходимо подтвердить
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Продолжая, вы соглашаетесь с:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Условия использования</mozSubscriptionTosLink> и <mozSubscriptionPrivacyLink>Уведомление о конфиденциальности</mozSubscriptionPrivacyLink> служб подписки { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Условия обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомление о конфиденциальности</mozillaAccountsPrivacy> { -product-mozilla-accounts(case: "genitive") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Продолжая, вы соглашаетесь с <mozillaAccountsTos>Условиями обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомлением о конфиденциальности</mozillaAccountsPrivacy>.
 

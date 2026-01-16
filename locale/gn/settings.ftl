@@ -1247,12 +1247,6 @@ tfa-row-verify-session-info = Tekotevẽ emoneĩ ne rembiapo ag̃agua emboheko h
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Eku’ejeývo, emoneĩ:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Mba’epytyvõrã ñemboguata</mozSubscriptionTosLink> ha <mozSubscriptionPrivacyLink>Marandu’i ñemigua</mozSubscriptionPrivacyLink> { -brand-mozilla } mba’eporurã mboheraguapyrã
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu’i ñemigua</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Eku’ejeývo, emoneĩ umi <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu ñemigua</mozillaAccountsPrivacy>.
 

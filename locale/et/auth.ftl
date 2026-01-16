@@ -179,14 +179,6 @@ recovery-action = Uue parooli loomine
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Teenuse { $productName } tellimus on tühistatud
 subscriptionAccountDeletion-title = Kahju, et lahkud
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Tere tulemast teenusesse { $productName }: palun määra omale parool.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Tere tulemast kasutama teenust { $productName }
-subscriptionAccountFinishSetup-content-processing = Sinu makset töödeldakse ja see võib võtta kuni neli tööpäeva. Sinu teenuse tellimus uueneb automaatselt igal arveldusperioodil, kui sa ei otsusta seda tühistada.
-subscriptionAccountFinishSetup-action-2 = Tee algust
 subscriptionAccountReminderFirst-subject = Meeldetuletus: vii oma konto seadistamine lõpule
 subscriptionAccountReminderFirst-title = Sa ei saa veel oma teenust kasutada
 subscriptionAccountReminderFirst-action = Määra parool

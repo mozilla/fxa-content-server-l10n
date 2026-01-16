@@ -1249,12 +1249,6 @@ tfa-row-verify-session-info = Θα χρειαστεί να επιβεβαιώσ�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Συνεχίζοντας, συμφωνείτε με:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Όροι υπηρεσίας</mozSubscriptionTosLink> και <mozSubscriptionPrivacyLink>Σημείωση απορρήτου</mozSubscriptionPrivacyLink> των συνδρομητικών υπηρεσιών της { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Όροι υπηρεσίας</mozillaAccountsTos> και <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy> των { -product-mozilla-accounts(case: "gen", capitalization: "lower") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Συνεχίζοντας, αποδέχεστε τους <mozillaAccountsTos>Όρους υπηρεσίας</mozillaAccountsTos> και τη <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy>.
 

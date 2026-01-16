@@ -594,15 +594,6 @@ subscriptionAccountDeletion-title = Λυπούμαστε που φεύγετε
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Διαγράψατε πρόσφατα τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Συνεπώς, έχουμε ακυρώσει τη συνδρομή σας στο { $productName }. Η τελευταία πληρωμή των { $invoiceTotal } έγινε στις { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Καλώς ορίσατε στο { $productName }: Ορίστε τον κωδικό πρόσβασής σας.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Καλώς ορίσατε στο { $productName }
-subscriptionAccountFinishSetup-content-processing = Η πληρωμή σας βρίσκεται υπό επεξεργασία και ενδέχεται να χρειαστούν έως και τέσσερις εργάσιμες ημέρες για να ολοκληρωθεί. Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός εάν επιλέξετε να την ακυρώσετε.
-subscriptionAccountFinishSetup-content-create-3 = Έπειτα, θα δημιουργήσετε έναν κωδικό πρόσβασης για τον { -product-mozilla-account(case: "acc", capitalization: "lower") }, ώστε να ξεκινήσετε τη χρήση της νέας σας συνδρομής.
-subscriptionAccountFinishSetup-action-2 = Έναρξη
 subscriptionAccountReminderFirst-subject = Υπενθύμιση: Ολοκληρώστε τη ρύθμιση του λογαριασμού σας
 subscriptionAccountReminderFirst-title = Δεν έχετε ακόμα πρόσβαση στη συνδρομή σας
 subscriptionAccountReminderFirst-content-info-3 = Πριν από λίγες ημέρες, δημιουργήσατε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") } αλλά δεν τον επιβεβαιώσατε. Ελπίζουμε να ολοκληρώσετε τη ρύθμιση του λογαριασμού σας, ώστε να μπορέσετε να χρησιμοποιήσετε τη νέα σας συνδρομή.

@@ -304,13 +304,6 @@ recovery-action = Яңа парол булдыру
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Сезнең { $productName } хезмәтенә язылуыгыз бетерелде
 subscriptionAccountDeletion-title = Китүегез безгә кызганыч
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = { $productName } программасына рәхим итегез: Зинһар, яңа бер серсүз уйлап табыгыз.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = { $productName } хезмәтенә рәхим итегез
-subscriptionAccountFinishSetup-action-2 = Башлап җибәрү
 subscriptionAccountReminderFirst-subject = Бер искәртү: Хисабыгызны көйләүне тәмамлагыз
 subscriptionAccountReminderFirst-title = Сез әле абунәгезгә керә алмыйсыз
 subscriptionAccountReminderFirst-action = Серсүз булдыру

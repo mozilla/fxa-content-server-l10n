@@ -427,15 +427,6 @@ subscriptionAccountDeletion-subject = Langganan { $productName } Anda telah diba
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Anda baru saja menghapus { -product-mozilla-account } Anda. Akibatnya, kami telah membatalkan langganan { $productName } Anda. Pembayaran terakhir Anda sebesar { $invoiceTotal } telah dibayarkan pada { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Selamat datang di { $productName }: Silakan atur sandi Anda.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Selamat datang di { $productName }
-subscriptionAccountFinishSetup-content-processing = Pembayaran Anda sedang diproses dan mungkin membutuhkan waktu hingga empat hari kerja untuk diselesaikan. Langganan Anda akan diperpanjang secara otomatis setiap periode penagihan kecuali Anda memilih untuk membatalkan.
-subscriptionAccountFinishSetup-content-create-3 = Selanjutnya, Anda akan membuat sandi { -product-mozilla-account } untuk mulai menggunakan langganan baru Anda.
-subscriptionAccountFinishSetup-action-2 = Mulai
 subscriptionAccountReminderFirst-subject = Pengingat: Selesaikan penyiapan akun Anda
 subscriptionAccountReminderFirst-title = Anda belum dapat mengakses langganan Anda
 subscriptionAccountReminderFirst-content-info-3 = Beberapa hari yang lalu, Anda membuat { -product-mozilla-account }, tetapi belum mengonfirmasinya. Kami harap Anda dapat menyelesaikan penyiapan akun agar dapat menggunakan langganan baru Anda.

@@ -581,15 +581,6 @@ subscriptionAccountDeletion-title = 很遺憾看見您離開
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = 您最近刪除了 { -product-mozilla-account }，因此我們也同步取消了您的 { $productName } 訂閱。最後一次付款發生於 { $invoiceDateOnly }，金額為 { $invoiceTotal }。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = 歡迎使用 { $productName }：請設定密碼。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = 歡迎使用 { $productName }
-subscriptionAccountFinishSetup-content-processing = 正在處理您的付款，可能最多需要 4 個工作天才可完成。除非您主動取消，將在每個帳務週期結束後自動續訂。
-subscriptionAccountFinishSetup-content-create-3 = 接下來，請為 { -product-mozilla-account } 設定密碼，即可開始使用您新訂閱的項目。
-subscriptionAccountFinishSetup-action-2 = 開始使用
 subscriptionAccountReminderFirst-subject = 提醒：請完成帳號註冊
 subscriptionAccountReminderFirst-title = 您暫時還不能使用您的訂閱項目
 subscriptionAccountReminderFirst-content-info-3 = 幾天前，您註冊了 { -product-mozilla-account }但還沒有驗證該帳號。希望您能盡快驗證該帳號，才能使用剛訂閱的項目。

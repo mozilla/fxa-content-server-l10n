@@ -1245,12 +1245,6 @@ tfa-row-verify-session-info = Tu scugnis confermâ la session corinte par config
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Se tu continuis tu acetis:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Cundizions di utilizazion dal servizi</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Informative su la riservatece</mozSubscriptionPrivacyLink> dai servizis in abonament { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Tiermins dal servizi</mozillaAccountsTos> e <mozillaAccountsPrivacy>informative su la riservatece</mozillaAccountsPrivacy> dai { -product-mozilla-accounts }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Se tu continuis tu acetis lis <mozillaAccountsTos>cundizions di utilizazion dal servizi</mozillaAccountsTos> e la <mozillaAccountsPrivacy>informative su la riservatece</mozillaAccountsPrivacy>.
 

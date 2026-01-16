@@ -1251,12 +1251,6 @@ tfa-row-verify-session-info = A kétlépcsős hitelesítés beállításához me
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = A folytatással elfogadja a következőket:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = A { -brand-mozilla } előfizetéses szolgáltatásainak <mozSubscriptionTosLink>Szolgáltatási feltételei</mozSubscriptionTosLink> és <mozSubscriptionPrivacyLink>Adatvédelmi nyilatkozata</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Szolgáltatási feltételek</mozillaAccountsTos> és az <mozillaAccountsPrivacy>Adatvédelmi nyilatkozat</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = A folytatással elfogadja a <mozillaAccountsTos>Szolgáltatási feltételeket</mozillaAccountsTos> és az <mozillaAccountsPrivacy>Adatvédelmi nyilatkozatot</mozillaAccountsPrivacy>.
 

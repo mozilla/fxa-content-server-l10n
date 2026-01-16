@@ -560,13 +560,6 @@ subscriptionAccountDeletion-title = עצוב לנו שבחרת לעזוב
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = לאחרונה מחקת את { -product-mozilla-account(case: "the") } שלך. כתוצאה מכך, ביטלנו את מינוי ה־{ $productName } שלך. התשלום הסופי שלך בסך { $invoiceTotal } שולם בתאריך { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = ברוכים הבאים אל { $productName }: נא להגדיר את הססמה שלך.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = ברוכים הבאים אל { $productName }
-subscriptionAccountFinishSetup-action-2 = תחילת עבודה
 subscriptionAccountReminderFirst-subject = תזכורת: סיום הגדרת החשבון שלך
 subscriptionAccountReminderFirst-title = אין לך עדיין אפשרות לגשת למינוי שלך
 subscriptionAccountReminderFirst-content-info-3 = לפני מספר ימים יצרת { -product-mozilla-account(case: "a") } אך מעולם לא אימתת אותו. אנו מקווים שתסיים להגדיר את החשבון שלך, כדי שתהיה לך אפשרות להשתמש במינוי החדש שלך.

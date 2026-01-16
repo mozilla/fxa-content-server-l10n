@@ -1250,12 +1250,6 @@ tfa-row-verify-session-info = Tu debera confirmar tu actual session pro implemen
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Si tu procede, tu concorda con:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } Servicios de Abonamento<mozSubscriptionTosLink>Terminos de servicio</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Aviso de confidentialitate</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Terminos de servicio</mozillaAccountsTos>e <mozillaAccountsPrivacy>Aviso de confidentialitate</mozillaAccountsPrivacy> de { -product-mozilla-accounts(capitalization: "uppercase") }.
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Si tu procede, tu accepta le <mozillaAccountsTos>Terminos de servicio</mozillaAccountsTos>e le <mozillaAccountsPrivacy>Aviso de confidentialitate</mozillaAccountsPrivacy>.
 

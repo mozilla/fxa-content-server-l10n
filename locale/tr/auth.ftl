@@ -583,15 +583,6 @@ subscriptionAccountDeletion-title = Ayrılmanıza üzüldük
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Yakın zamanda { -product-mozilla-account }nızı sildiniz. Bu nedenle { $productName } aboneliğinizi iptal ettik. { $invoiceTotal } tutarındaki son ödemeniz { $invoiceDateOnly } tarihinde ödendi.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = { $productName } hizmetine hoş geldiniz: Lütfen parolanızı belirleyin.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = { $productName } hizmetine hoş geldiniz
-subscriptionAccountFinishSetup-content-processing = Ödemeniz işleme alındı. Tamamlanması 4 iş günü sürebilir. İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenecektir.
-subscriptionAccountFinishSetup-content-create-3 = Ardından, yeni aboneliğinizi kullanmaya başlamak için { -product-mozilla-account } parolanızı oluşturacaksınız.
-subscriptionAccountFinishSetup-action-2 = Başlayın
 subscriptionAccountReminderFirst-subject = Hatırlatma: Hesabınızın kurulumunu tamamlayın
 subscriptionAccountReminderFirst-title = Henüz aboneliğinize erişemezsiniz
 subscriptionAccountReminderFirst-content-info-3 = Birkaç gün önce { -product-mozilla-account } açtınız ama hesabınızı henüz onaylamadınız. Yeni aboneliğinizi kullanabilmek için hesabınızın kurulumunu tamamlamanız gerekiyor.

@@ -178,10 +178,6 @@ postVerifySecondary-subject = ദ്വിതീയ ഇമെയിൽ ചേർ
 postVerifySecondary-title = ദ്വിതീയ ഇമെയിൽ ചേർത്തു
 postVerifySecondary-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 recovery-action = പുതിയ ഒളിവാക്ക് ശ്രഷ്ടിക്കുക
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = { $productName }-ലേക്കു് സ്വാഗതം
-subscriptionAccountFinishSetup-action-2 = തുടങ്ങാം
 subscriptionAccountReminderFirst-action = ഒളിവാക്കു് ഉണ്ടാക്കുക
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } ലേക്ക് സ്വാഗതം

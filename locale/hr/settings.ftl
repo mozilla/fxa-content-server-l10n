@@ -1024,12 +1024,6 @@ tfa-row-cannot-disable-2 = Nije bilo moguće deaktivirati autentifikaciju u dva 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Ako nastaviš, prihvaćaš:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } usluge pretplate <mozSubscriptionTosLink>uvjeti usluge</mozSubscriptionTosLink> i <mozSubscriptionPrivacyLink>napomene o privatnosti</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } – <mozillaAccountsTos>uvjeti usluge</mozillaAccountsTos> i <mozillaAccountsPrivacy>napomene o privatnosti</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Ako nastaviš, prihvaćaš <mozillaAccountsTos>uvjete usluge</mozillaAccountsTos> i <mozillaAccountsPrivacy>napomene o privatnosti</mozillaAccountsPrivacy>.
 

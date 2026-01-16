@@ -1122,12 +1122,6 @@ tfa-row-cannot-disable-2 = Неможливо вимкнути двоетапн�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Продовжуючи, ви погоджуєтеся з:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Умови надання послуг</mozSubscriptionTosLink> і <mozSubscriptionPrivacyLink>Положення про приватність</mozSubscriptionPrivacyLink> Послуг передплати { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "upper") } – <mozillaAccountsTos>Умови надання послуг</mozillaAccountsTos> і <mozillaAccountsPrivacy>Положення про приватність</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Продовжуючи, ви погоджуєтеся з <mozillaAccountsTos>Умовами надання послуг</mozillaAccountsTos> і <mozillaAccountsPrivacy>Положенням про приватність</mozillaAccountsPrivacy>.
 

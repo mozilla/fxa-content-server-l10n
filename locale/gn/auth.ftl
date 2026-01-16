@@ -591,15 +591,6 @@ subscriptionAccountDeletion-title = Ambyasy eho haguére
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Embogueramoite nde { -product-mozilla-account }. Péva rupi, romboykéma ne ñemoheraguapy { $productName }. Ñe ñehepyme’ẽ ipaháva { $invoiceTotal } pegua oñehepyme’ẽvo { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Eg̃uahẽporã { $productName }-pe: Emboheko ne ñe’ẽñemi.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = ¡Eg̃uahẽporã { $productName }-pe!
-subscriptionAccountFinishSetup-content-processing = Pe jehepyme’ẽ oñemboajehína ha ohupytykuaa irundy ára oĩmba hag̃ua. Pe ñemboheraguapy hekopyahúta ijehegui ohasávo pe kuatiañemurã arapa’ũ ndete mba’e nderejokóiramo.
-subscriptionAccountFinishSetup-content-create-3 = Eñepyrũjeývo emoheñói ñe’ẽñemi { -product-mozilla-account } eiporukuaa hag̃ua ne memboheraguapy.
-subscriptionAccountFinishSetup-action-2 = Ñañepyrũ
 subscriptionAccountReminderFirst-subject = Mandu’arã: Embohekopyahupa ne mba’ete
 subscriptionAccountReminderFirst-title = Ndereikekuaái gueteri ne ñemboheraguapýpe
 subscriptionAccountReminderFirst-content-info-3 = Nda’areiete emoheñoihague { -product-mozilla-account } hákatu araka’eve neremoneĩri. Roha’ãrõ embohekóvo ne mba’ete, péichamante eiporukuaa ne ñemboheraguapy pyahúpe.

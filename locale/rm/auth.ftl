@@ -429,15 +429,6 @@ subscriptionAccountDeletion-title = Donn che ti vas
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Ti has dacurt stizzà tes { -product-mozilla-account }. En consequenza avain nus annullà tes abunament da { $productName }. Tes ultim pajament da { $invoiceTotal } è vegnì pajà ils { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Bainvegni tar { $productName }: Definescha per plaschair tes pled-clav.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Bainvegni tar { $productName }
-subscriptionAccountFinishSetup-content-processing = Tes pajament vegn elavurà. Quai po cuzzar enfin quatter dis da lavur. Tes abunament vegn renovà automaticamain suenter mintga perioda da facturaziun sche ti n'al annulleschas betg.
-subscriptionAccountFinishSetup-content-create-3 = Sco proxim stos ti crear in pled-clav per il { -product-mozilla-account } per pudair cumenzar ad utilisar tes nov abunament.
-subscriptionAccountFinishSetup-action-2 = Cumenzar
 subscriptionAccountReminderFirst-subject = Promemoria: Terminescha la configuraziun da tes conto
 subscriptionAccountReminderFirst-title = Ti na pos anc betg acceder a tes abunament
 subscriptionAccountReminderFirst-content-info-3 = Avant in pèr dis has ti creà in { -product-mozilla-account } ma n'al has mai confermà. Nus sperain che ti termineschias la configuraziun per che ti possias utilisar tes nov abunament.

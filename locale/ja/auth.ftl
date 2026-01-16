@@ -514,15 +514,6 @@ subscriptionAccountDeletion-title = ご利用ありがとうございました
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = 最近、{ -product-mozilla-account }が削除されたことにより、{ $productName } のサブスクリプションがキャンセルされました。最後の { $invoiceTotal } の請求は { $invoiceDateOnly } に支払われました。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = { $productName } へようこそ: パスワードを設定してください。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = { $productName } へようこそ
-subscriptionAccountFinishSetup-content-processing = お支払いは処理中です。完了するまで最大 4 営業日かかる場合があります。キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
-subscriptionAccountFinishSetup-content-create-3 = 次に、{ -product-mozilla-account }のパスワードを作成して新しいサブスクリプションの使用を開始します。
-subscriptionAccountFinishSetup-action-2 = はじめましょう
 subscriptionAccountReminderFirst-subject = 通知: アカウントのセットアップを完了してください
 subscriptionAccountReminderFirst-title = サブスクリプションにはまだアクセスできません
 subscriptionAccountReminderFirst-content-info-3 = 数日前に { -product-mozilla-account }を作成されましたが、まだ確認されていません。確認してアカウントのセットアップを完了していただければ、新しいサブスクリプションが使用できるようになります。

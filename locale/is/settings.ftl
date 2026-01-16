@@ -1094,12 +1094,6 @@ tfa-row-cannot-disable-2 = Ekki var hægt að gera tveggja-þrepa auðkenningu �
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Með því að halda áfram, samþykkir þú:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Þjónustuskilmálar</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>meðferð persónuupplýsinga</mozSubscriptionPrivacyLink> { -brand-mozilla } áskriftarþjónustunnar
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Þjónustuskilmálar</mozillaAccountsTos> og <mozillaAccountsPrivacy>persónuverndarstefna</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Með því að halda áfram samþykkir þú <mozillaAccountsTos>þjónustuskilmála</mozillaAccountsTos> og <mozillaAccountsPrivacy>persónuverndarstefnuna</mozillaAccountsPrivacy>.
 

@@ -1265,12 +1265,6 @@ tfa-row-verify-session-info = Mae angen i chi gadarnhau eich sesiwn gyfredol i o
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Drwy barhau, rydych yn cytuno i:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } Gwasanaethau Tanysgrifio <mozSubscriptionTosLink>Telerau Gwasanaeth</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Hysbysiad Preifatrwydd</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(cyfalafu: "mawr") } <mozillaAccountsTos>Amodau Gwasanaeth</mozillaAccountsTos> a <mozillaAccountsPrivacy>Hysbysiad Preifatrwydd</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Drwy barhau, rydych yn cytuno i <mozillaAccountsTos>Amodau Gwasanaeth</mozillaAccountsTos> a <mozillaAccountsPrivacy>Hysbysiad Preifatrwydd</mozillaAccountsPrivacy>.
 

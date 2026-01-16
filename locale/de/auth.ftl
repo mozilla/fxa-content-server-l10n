@@ -590,15 +590,6 @@ subscriptionAccountDeletion-title = Schade, dass Sie gehen
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Sie haben kürzlich Ihr { -product-mozilla-account } gelöscht. Aus diesem Grund haben wir Ihr Abonnement für { $productName } gekündigt. Ihre letzte Zahlung von { $invoiceTotal } wurde am { $invoiceDateOnly } bezahlt.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Willkommen bei { $productName }: Bitte legen Sie Ihr Passwort fest.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Willkommen bei { $productName }.
-subscriptionAccountFinishSetup-content-processing = Ihre Zahlung wird verarbeitet und kann bis zu vier Werktage dauern. Ihr Abonnement verlängert sich automatisch in jedem Abrechnungszeitraum, es sei denn, Sie kündigen.
-subscriptionAccountFinishSetup-content-create-3 = Als Nächstes erstellen Sie ein { -product-mozilla-account }-Passwort, um mit der Verwendung Ihres neuen Abonnements zu beginnen.
-subscriptionAccountFinishSetup-action-2 = Einführung
 subscriptionAccountReminderFirst-subject = Erinnerung: Erstellung Ihres Kontos abschließen
 subscriptionAccountReminderFirst-title = Sie können noch nicht auf Ihr Abonnement zugreifen
 subscriptionAccountReminderFirst-content-info-3 = Vor ein paar Tagen haben Sie ein { -product-mozilla-account } erstellt, es aber nie bestätigt. Wir hoffen, dass Sie die Einrichtung Ihres Kontos abgeschlossen haben, damit Sie Ihr neues Abonnement verwenden können.

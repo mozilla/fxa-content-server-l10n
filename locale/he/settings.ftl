@@ -1181,12 +1181,6 @@ tfa-row-verify-session-info = עליך לאמת את ההפעלה הנוכחית
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = המשך התהליך מהווה הסכמה ל:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>תנאי השירות</mozSubscriptionTosLink> ו<mozSubscriptionPrivacyLink>הצהרת הפרטיות</mozSubscriptionPrivacyLink> של שירותי המינויים של { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>תנאי השירות</mozillaAccountsTos> ו<mozillaAccountsPrivacy>הצהרת הפרטיות</mozillaAccountsPrivacy> של { -product-mozilla-accounts }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = המשך התהליך מהווה הסכמה ל<mozillaAccountsTos>תנאי השירות</mozillaAccountsTos> ו<mozillaAccountsPrivacy>הצהרת הפרטיות</mozillaAccountsPrivacy>.
 

@@ -506,14 +506,6 @@ subscriptionAccountDeletion-title = ਤੁਹਾਡੇ ਛੱਡਣ ਲਈ ਅ�
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = ਤੁਸੀਂ ਆਪਣੇ { -product-mozilla-account } ਨੂੰ ਹੁਣੇ ਹਟਾਇਆ ਹੈ। ਨਤੀਜੇ ਵਜੋਂ ਅਸੀਂ ਤੁਹਾਡੀ { $productName } ਮੈਂਬਰੀ ਰੱਦ ਕਰ ਦਿੱਤੀ ਹੈ। { $invoiceTotal } ਦਾ ਤੁਹਾਡਾ ਆਖਰੀ ਭੁਗਤਾਨ { $invoiceDateOnly } ਨੂੰ ਕੀਤਾ ਗਿਆ ਸੀ।
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = { $productName } ਲਈ ਜੀ ਆਇਆਂ ਨੂੰ: ਆਪਣਾ ਪਾਸਵਰਡ ਸੈੱਟ ਅੱਪ ਕਰੋ।
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = { $productName } ਵਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ
-subscriptionAccountFinishSetup-content-create-3 = ਅੱਗੇ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰੀ ਵਰਤਣ ਲਈ { -product-mozilla-account } ਪਾਸਵਰਡ ਬਣਾਉਂਗੇ।
-subscriptionAccountFinishSetup-action-2 = ਸ਼ੁਰੂ ਕਰੀਏ
 subscriptionAccountReminderFirst-subject = ਸੂਚਨਾ: ਆਪਣਾ ਖਾਤੇ ਦੇ ਸੈਟਅੱਪ ਨੂੰ ਪੂਰਾ ਕਰੋ
 subscriptionAccountReminderFirst-title = ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਹਾਲੇ ਵਰਤ ਨਹੀਂ ਸਕਦੇ ਹੋ
 subscriptionAccountReminderFirst-content-info-3 = ਕੁਝ ਦਿਨ ਪਹਿਲਾਂ ਤੁਸੀਂ { -product-mozilla-account } ਬਣਾਇਆ ਸੀ, ਪਰ ਹਾਲੇ ਤੱਕ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਹੈ। ਸਾਨੂੰ ਆਸ ਹੈ ਕਿ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨਾ ਪੂਰਾ ਕਰੋਗੇ ਤਾਂ ਕਿ ਤੁਸੀਂ ਆਪਣੀ ਨਵੀਂ ਮੈਂਬਰ ਵਰਤ ਸਕੋ।

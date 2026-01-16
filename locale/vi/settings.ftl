@@ -1221,12 +1221,6 @@ tfa-row-verify-session-info = Bạn cần xác nhận phiên hiện tại của 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Bằng cách tiếp tục, bạn đồng ý với:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Điều khoản dịch vụ</mozSubscriptionTosLink> và <mozSubscriptionPrivacyLink>thông báo về quyền riêng tư</mozSubscriptionPrivacyLink> của Dịch vụ thuê bao { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Điều khoản dịch vụ</mozillaAccountsTos> và <mozillaAccountsPrivacy>thông báo về quyền riêng tư</mozillaAccountsPrivacy> của { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Bằng cách tiếp tục, bạn đồng ý với <mozillaAccountsTos>điều khoản dịch vụ</mozillaAccountsTos> và <mozillaAccountsPrivacy>thông báo về quyền riêng tư</mozillaAccountsPrivacy>.
 

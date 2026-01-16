@@ -602,15 +602,6 @@ subscriptionAccountDeletion-title = Mae’n ddrwg gennym eich gweld chi‘n gada
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Rydych wedi dileu eich cyfrif { -product-mozilla-account } yn ddiweddar. O ganlyniad, rydym wedi diddymu eich tanysgrifiad { $productName }. Talwyd eich taliad olaf o { $invoiceTotal } ar { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Croeso i { $productName }: Cyflwynwch eich cyfrinair.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Croeso i { $productName }.
-subscriptionAccountFinishSetup-content-processing = Mae'ch taliad yn cael ei brosesu a gall gymryd hyd at bedwar diwrnod gwaith i'w gwblhau. Bydd eich tanysgrifiad yn adnewyddu'n awtomatig bob cyfnod bilio oni bai eich bod yn dewis ei orffen.
-subscriptionAccountFinishSetup-content-create-3 = Nesaf, byddwch yn creu cyfrinair cyfrif { -product-mozilla-account } i ddechrau defnyddio'ch tanysgrifiad newydd.
-subscriptionAccountFinishSetup-action-2 = Cychwyn arni
 subscriptionAccountReminderFirst-subject = Nodyn atgoffa: Gorffennwch greu eich cyfrif
 subscriptionAccountReminderFirst-title = Nid oes modd i chi gael mynediad i'ch tanysgrifiad eto
 subscriptionAccountReminderFirst-content-info-3 = Ychydig ddyddiau yn ôl fe wnaethoch chi greu { -product-mozilla-account } ond heb ei gadarnhau. Rydym yn gobeithio y byddwch yn gorffen cwblhau'ch cyfrif, fel y gallwch ddefnyddio'ch tanysgrifiad newydd.

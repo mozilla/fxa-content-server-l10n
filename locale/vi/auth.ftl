@@ -586,15 +586,6 @@ subscriptionAccountDeletion-title = Rất tiếc vì bạn chuẩn bị ra đi
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Gần đây bạn đã xóa { -product-mozilla-account } của mình. Do đó, chúng tôi đã hủy đăng ký { $productName } của bạn. Khoản thanh toán cuối cùng của bạn là { $invoiceTotal } đã được thanh toán vào { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Chào mừng bạn đến với { $productName }: Vui lòng đặt mật khẩu của bạn.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Chào mừng đến với { $productName }
-subscriptionAccountFinishSetup-content-processing = Thanh toán của bạn đang được xử lý và có thể mất đến bốn ngày làm việc để hoàn tất. Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
-subscriptionAccountFinishSetup-content-create-3 = Tiếp theo, bạn sẽ tạo mật khẩu { -product-mozilla-account } để bắt đầu sử dụng thuê bao mới của mình.
-subscriptionAccountFinishSetup-action-2 = Bắt đầu
 subscriptionAccountReminderFirst-subject = Nhắc nhở: Hoàn tất thiết lập tài khoản của bạn
 subscriptionAccountReminderFirst-title = Bạn chưa thể truy cập thuê bao của mình
 subscriptionAccountReminderFirst-content-info-3 = Vài ngày trước bạn đã tạo { -product-mozilla-account } nhưng chưa bao giờ xác nhận nó. Chúng tôi hy vọng bạn sẽ hoàn tất việc thiết lập tài khoản của mình để có thể sử dụng thuê bao mới.

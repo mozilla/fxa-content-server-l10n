@@ -550,15 +550,6 @@ subscriptionAccountDeletion-title = Przykro nam, że chcesz się z nami pożegn
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Niedawno usunięto { -product-mozilla-account(case: "acc", capitalization: "lower") }. Z tego powodu anulowaliśmy subskrypcję { $productName }. Ostatnia płatność w wysokości { $invoiceTotal } została opłacona w dniu { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Witamy w { $productName }: prosimy ustawić swoje hasło.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Witamy w { $productName }
-subscriptionAccountFinishSetup-content-processing = Płatność jest przetwarzana, co może zająć do czterech dni roboczych. Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
-subscriptionAccountFinishSetup-content-create-3 = Następnie utworzysz hasło { -product-mozilla-account(case: "gen", capitalization: "lower") }, aby zacząć korzystać z nowej subskrypcji.
-subscriptionAccountFinishSetup-action-2 = Zacznij teraz
 subscriptionAccountReminderFirst-subject = Przypomnienie: dokończ konfigurację konta
 subscriptionAccountReminderFirst-title = Nie masz jeszcze dostępu do swojej subskrypcji
 subscriptionAccountReminderFirst-content-info-3 = Kilka dni temu utworzono { -product-mozilla-account(case: "acc", capitalization: "lower") }, ale nigdy go nie potwierdzono. Mamy nadzieję, że dokończysz konfigurowanie konta, aby móc korzystać ze swojej nowej subskrypcji.

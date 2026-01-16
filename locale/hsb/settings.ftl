@@ -1259,12 +1259,6 @@ tfa-row-verify-session-info = Dyrbiće swoje aktualne posedźenje wobkrućić, z
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Hdyž pokročujeće, zwoliće do:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Wužiwanske wuměnenja</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Zdźělenka priwatnosće</mozSubscriptionPrivacyLink> abonementowych słužbow { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Wužiwanske wuměnjenja</mozillaAccountsTos> a <mozillaAccountsPrivacy>zdźělenki priwatnosće</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Hdyž pokročujeće, zwoliće do <mozillaAccountsTos>wužiwanskich wuměnjenjow</mozillaAccountsTos> a <mozillaAccountsPrivacy>zdźělenki priwatnosće</mozillaAccountsPrivacy>
 

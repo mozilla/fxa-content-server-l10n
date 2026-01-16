@@ -590,15 +590,6 @@ subscriptionAccountDeletion-title = Sajnáljuk, hogy távozik
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Nemrég törölte a { -product-mozilla-account }ját. Ezért megszakítottuk a(z) { $productName } előfizetését. Az utolsó { $invoiceTotal } $ értékű befizetése ekkor történt: { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Üdvözli a { $productName }: Állítsa be a jelszavát.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Üdvözli a { $productName }
-subscriptionAccountFinishSetup-content-processing = Fizetése feldolgozás alatt áll, és a befejezése akár négy munkanapot is igénybe vehet. Az előfizetés automatikusan megújul minden számlázási időszakban, hacsak nem dönt úgy, hogy lemondja.
-subscriptionAccountFinishSetup-content-create-3 = Ezután létre kell hoznia egy jelszót a { -product-mozilla-account }jához, hogy megkezdje az új előfizetés használatát.
-subscriptionAccountFinishSetup-action-2 = Kezdő lépések
 subscriptionAccountReminderFirst-subject = Emlékeztető: Fejezze be a fiókja beállítását
 subscriptionAccountReminderFirst-title = Még nem férhet hozzá az előfizetéséhez
 subscriptionAccountReminderFirst-content-info-3 = Néhány nappal ezelőtt létrehozott egy { -product-mozilla-account }ot, de nem erősítette meg. Reméljük, hogy befejezi fiókja beállítását, hogy használhassa az új előfizetését.

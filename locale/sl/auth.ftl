@@ -596,15 +596,6 @@ subscriptionAccountDeletion-title = Žal nam je, ker odhajate
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Pred kratkim ste izbrisali svoj { -product-mozilla-account }. Zaradi tega smo preklicali vašo naročnino na { $productName }. Vaše zadnje plačilo { $invoiceTotal } je bilo nakazano { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Dobrodošli v { $productName }: Nastavite si geslo.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Dobrodošli v { $productName }
-subscriptionAccountFinishSetup-content-processing = Vaše plačilo je v obdelavi, ki lahko traja do štiri delovne dni. Vaša naročnina se bo samodejno obnovila vsako obračunsko obdobje, razen če se odločite za preklic.
-subscriptionAccountFinishSetup-content-create-3 = Nato ustvarite geslo za { -product-mozilla-account(sklon: "tozilnik") }, da začnete uporabljati novo naročnino.
-subscriptionAccountFinishSetup-action-2 = Začnite
 subscriptionAccountReminderFirst-subject = Opomnik: Dokončajte nastavljanje računa
 subscriptionAccountReminderFirst-title = Dostop do vaše naročnine še ni možen
 subscriptionAccountReminderFirst-content-info-3 = Pred nekaj dnevi ste ustvarili { -product-mozilla-account }, vendar ga niste potrdili. Upamo, da boste dokončali nastavitev računa in si omogočili uporabo naročnine.

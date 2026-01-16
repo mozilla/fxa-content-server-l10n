@@ -1247,14 +1247,6 @@ tfa-row-verify-session-info = Du måste bekräfta din nuvarande session för att
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Genom att fortsätta godkänner du:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 =
-    { -brand-mozilla } prenumerationstjänsters <mozSubscriptionTosLink>användarvillkor</mozSubscriptionTosLink> 
-    och <mozSubscriptionPrivacyLink>sekretessmeddelande</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Användarvillkor</mozillaAccountsTos> och <mozillaAccountsPrivacy>sekretessmeddelande</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Genom att fortsätta godkänner du <mozillaAccountsTos>användarvillkoren</mozillaAccountsTos> och <mozillaAccountsPrivacy>sekretessmeddelande</mozillaAccountsPrivacy>.
 

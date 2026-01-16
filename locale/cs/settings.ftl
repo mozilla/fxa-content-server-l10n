@@ -1249,12 +1249,6 @@ tfa-row-verify-session-info = Pro nastavení dvoufázového ověřování je pot
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Pokračováním souhlasíte s:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Podmínky poskytování služby</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Oznámení o ochraně osobních údajů</mozSubscriptionPrivacyLink> pro služby předplatného { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Podmínky poskytování služby</mozillaAccountsTos>a <mozillaAccountsPrivacy>Oznámení o ochraně osobních údajů</mozillaAccountsPrivacy> { -product-mozilla-accounts(case: "gen") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Pokračováním vyjadřujete souhlas s <mozillaAccountsTos>Podmínkami poskytování služby</mozillaAccountsTos> a <mozillaAccountsPrivacy>Oznámením o ochraně osobních údajů</mozillaAccountsPrivacy>.
 

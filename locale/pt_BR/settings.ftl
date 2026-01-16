@@ -1088,12 +1088,6 @@ tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação em duas
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Ao prosseguir, você declara que concorda com os:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = Serviços de assinatura <mozSubscriptionTosLink>Termos do serviço</mozSubscriptionTosLink> e <mozSubscriptionPrivacyLink>Aviso de privacidade</mozSubscriptionPrivacyLink> da { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Termos do serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Aviso de privacidade</mozillaAccountsPrivacy> das { -product-mozilla-accounts }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Ao prosseguir, você declara que concorda com os <mozillaAccountsTos>Termos do serviço</mozillaAccountsTos> e <mozillaAccountsPrivacy>Aviso de privacidade</mozillaAccountsPrivacy>.
 

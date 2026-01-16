@@ -592,15 +592,6 @@ subscriptionAccountDeletion-title = Кеткеніңізге өкінеміз
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Сіз жақында { -product-mozilla-account } тіркелгіңізді өшірдіңіз. Нәтижесінде { $productName } жазылуыңызды тоқтаттық. Соңғы { $invoiceTotal } төлеміңіз { $invoiceDateOnly } күні төленді.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = { $productName } ішіне қош келдіңіз: пароліңізді орнатыңыз.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = { $productName } ішіне қош келдіңіз
-subscriptionAccountFinishSetup-content-processing = Төлеміңіз өңделуде және оның аяқталуына төрт жұмыс күні кетуі мүмкін. Бас тартуды таңдамасаңыз, жазылуыңыз әр есеп айырысу кезеңінде автоматты түрде жаңартылады.
-subscriptionAccountFinishSetup-content-create-3 = Содан кейін жаңа жазылуды пайдалануды бастау үшін { -product-mozilla-account } паролін жасайсыз.
-subscriptionAccountFinishSetup-action-2 = Бастау
 subscriptionAccountReminderFirst-subject = Еске салғыш: тіркелгіңізді баптауды аяқтаңыз
 subscriptionAccountReminderFirst-title = Жазылуыңызға әлі қол жеткізе алмайсыз
 subscriptionAccountReminderFirst-content-info-3 = Бірнеше күн бұрын сіз { -product-mozilla-account } тіркелгісін жасадыңыз, бірақ оны ешқашан растамадыңыз. Жаңа жазылуды пайдалана алуыңыз үшін тіркелгіңізді баптауды аяқтайсыз деп үміттенеміз.

@@ -21,6 +21,5 @@ manage-account-plaintext = { manage-account }:
 postAddTwoStepAuthentication-action = Уреди ја сметката
 postChangePrimary-action = Уреди ја сметката
 postRemoveSecondary-action = Уреди ја сметката
-subscriptionAccountFinishSetup-action-2 = Вовед
 subscriptionAccountReminderFirst-action = Создади лозинка
 subscriptionAccountReminderSecond-action = Создади лозинка

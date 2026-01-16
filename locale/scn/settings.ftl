@@ -1108,12 +1108,6 @@ tfa-row-disable-modal-explain-1 = Nun po’ sfari st’azzioni. Ài macari a pus
 tfa-row-disabled-2 = Sdisabbilitasti l’autinticazzioni a du’ fattura
 tfa-row-cannot-disable-2 = Nun potti sdisabbilitari l’autinticazzioni a du’ fattura
 
-## TermsPrivacyAgreement
-## These terms are used in signin and signup for Firefox account
-
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Cuntinuannu, accetti i:
-
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 

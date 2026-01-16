@@ -1221,12 +1221,6 @@ tfa-row-verify-session-info = 2단계 인증을 설정하기 위해 현재 세�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = 계속 진행하면 다음 사항에 동의하게 됩니다:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } 구독 서비스 <mozSubscriptionTosLink>이용 약관</mozSubscriptionTosLink> 및 <mozSubscriptionPrivacyLink>개인정보 보호정책</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>이용 약관</mozillaAccountsTos> 및 <mozillaAccountsPrivacy>개인정보 보호정책</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = 계속 진행하시면 <mozillaAccountsTos>이용 약관</mozillaAccountsTos>과 <mozillaAccountsPrivacy>개인정보 보호정책</mozillaAccountsPrivacy>에 동의하는 것으로 간주됩니다.
 

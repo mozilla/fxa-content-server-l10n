@@ -1245,12 +1245,6 @@ tfa-row-verify-session-info = Që të ujdiset mirëfilltësim dyhapësh, duhet t
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Duke vazhduar, pajtoheni me:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Kushte Shërbimi</mozSubscriptionTosLink> dhe <mozSubscriptionPrivacyLink>Shënim Privatësie</mozSubscriptionPrivacyLink> Shërbimesh Pajtimesh { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Kushte Shërbimi</mozillaAccountsTos> dhe <mozillaAccountsPrivacy>Shënim Privatësie</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Duke vazhduar, pajtoheni me <mozillaAccountsTos>Kushte Shërbimi</mozillaAccountsTos> dhe <mozillaAccountsPrivacy>Shënim Privatësie</mozillaAccountsPrivacy>.
 

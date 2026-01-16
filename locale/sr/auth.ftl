@@ -214,14 +214,6 @@ recovery-action = Направи нову лозинку
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Ваша { $productName } претплата је отказана
 subscriptionAccountDeletion-title = Тужни смо што одлазите
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Добродошли у { $productName }: Поставите вашу лозинку.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Добродошли у { $productName }
-subscriptionAccountFinishSetup-content-processing = Ваша уплата се обрађује и може потрајати до 4 радна дана да се заврши. Претплата ће се аутоматски обновити на крају сваког обрачунског циклуса осим ако је ви не откажете.
-subscriptionAccountFinishSetup-action-2 = Започните
 subscriptionAccountReminderFirst-subject = Подсећамо: довршите постављање вашег налога
 subscriptionAccountReminderFirst-title = Још не можете да приступите вашим претплатама
 subscriptionAccountReminderFirst-content-select-2 = Изаберите „Направи лозинку“ да поставите нову лозинку и завршите потврђивање налога.

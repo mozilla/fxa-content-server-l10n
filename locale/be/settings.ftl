@@ -824,8 +824,6 @@ tfa-row-cannot-disable-2 = Немагчыма адключыць двухэта�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Працягваючы, вы згаджаецеся з:
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Працягваючы, вы згаджаецеся з <mozillaAccountsTos>умовамі абслугоўвання</mozillaAccountsTos> і <mozillaAccountsPrivacy>паведамленнем аб прыватнасці</mozillaAccountsPrivacy>.
 

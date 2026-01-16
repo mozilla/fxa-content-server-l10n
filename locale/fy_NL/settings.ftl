@@ -1251,12 +1251,6 @@ tfa-row-verify-session-info = Jo moatte jo aktuele sesje befêstigje om autentik
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Troch troch te gean geane jo akkoard mei de:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla }-abonnemintstsjinsten, <mozSubscriptionTosLink>Tsjinstbetingsten</mozSubscriptionTosLink> en <mozSubscriptionPrivacyLink>Privacyferklearring</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Tsjinstbetingsten</mozillaAccountsTos> en <mozillaAccountsPrivacy>Privacyferklearring</mozillaAccountsPrivacy> fan { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Troch fierder te gean, geane jo akkoard mei de <mozillaAccountsTos>Tsjinbetingsten</mozillaAccountsTos> en de <mozillaAccountsPrivacy>Privacyferklearring</mozillaAccountsPrivacy>.
 

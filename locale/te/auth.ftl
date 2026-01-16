@@ -43,7 +43,6 @@ postVerifySecondary-subject = రెండవ ఈమెయిలు చేర్
 postVerifySecondary-title = రెండవ ఈమెయిలు చేర్చబడింది
 postVerifySecondary-action = ఖాతా నిర్వహణ
 recovery-action = కొత్త సంకేతపదం సృష్టించు
-subscriptionAccountFinishSetup-action-2 = మొదలుపెట్టండి
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = మీ { $productName } చందా రద్దు చేయబడింది

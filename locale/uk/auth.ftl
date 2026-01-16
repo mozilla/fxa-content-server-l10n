@@ -463,15 +463,6 @@ subscriptionAccountDeletion-title = Шкода, що ви йдете
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Ви нещодавно видалили свій { -product-mozilla-account }, тому ми скасували вашу передплату { $productName }. Ваш останній рахунок на суму { $invoiceTotal } був сплачений { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Вітаємо в { $productName }: Будь ласка, встановіть пароль.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Вітаємо в { $productName }
-subscriptionAccountFinishSetup-content-processing = Ваш платіж обробляється. Це може тривати до чотирьох робочих днів. Ваша передплата автоматично поновлюватиметься після завершення розрахункового періоду, доки ви її не скасуєте.
-subscriptionAccountFinishSetup-content-create-3 = Далі вам необхідно створити пароль { -product-mozilla-account(case: "gen") }, щоб почати використовувати нову передплату.
-subscriptionAccountFinishSetup-action-2 = Розпочати
 subscriptionAccountReminderFirst-subject = Нагадування: Завершіть налаштування свого облікового запису
 subscriptionAccountReminderFirst-title = Ви поки що не можете отримати доступ до своєї передплати
 subscriptionAccountReminderFirst-content-info-3 = Кілька днів тому ви створили { -product-mozilla-account }, але не підтвердили його. Ми сподіваємося, що ви завершите налаштування, щоб мати змогу користуватися своєю передплатою.

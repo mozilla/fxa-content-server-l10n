@@ -595,15 +595,6 @@ subscriptionAccountDeletion-title = Ne pare rău că pleci
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Ți-ai șters recent { -product-mozilla-account }. Prin urmare, ți-am anulat abonamentul { $productName }. Factura finală { $invoiceTotal } a fost achitată la data de { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Bine ai venit la { $productName }: Setează-ți parola.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Bine ai venit la { $productName }
-subscriptionAccountFinishSetup-content-processing = Plata este în curs de procesare și finalizarea poate dura până la patru zile lucrătoare. Abonamentul se va reînnoi automat în fiecare perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
-subscriptionAccountFinishSetup-content-create-3 = Apoi, vei crea o parolă { -product-mozilla-account } ca să începi să îți folosești abonamentul.
-subscriptionAccountFinishSetup-action-2 = Începe
 subscriptionAccountReminderFirst-subject = Memento: Finalizează configurarea contului
 subscriptionAccountReminderFirst-title = Încă nu poți accesa abonamentul
 subscriptionAccountReminderFirst-content-info-3 = Acum câteva zile ai creat un cont { -product-mozilla-account }, dar nu l-ai confirmat niciodată. Sperăm că vei termina configurarea contului, astfel încât să poți utiliza noul abonament.

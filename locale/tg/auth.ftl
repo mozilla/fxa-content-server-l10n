@@ -490,13 +490,6 @@ recovery-action = Ниҳонвожаи наверо эҷод намоед
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Обунаи шумо ба «{ $productName }» бекор карда шуд
 subscriptionAccountDeletion-title = Афсӯс, ки шумо меравед
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Хуш омадед ба «{ $productName }»! Лутфан, ниҳонвожаи худро танзим намоед.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Хуш омадед ба «{ $productName }»
-subscriptionAccountFinishSetup-action-2 = Оғози кор
 subscriptionAccountReminderFirst-subject = Ёдоварӣ: Танзими ҳисоби худро ба анҷом расонед
 subscriptionAccountReminderFirst-title = Шумо ҳоло наметавонед, ки ба обунаи худ дастрасӣ пайдо намоед
 subscriptionAccountReminderFirst-action = Эҷод кардани ниҳонвожа

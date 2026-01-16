@@ -236,13 +236,6 @@ recovery-action = Нова парола
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Абонамент за { $productName } е спрян
 subscriptionAccountDeletion-title = Съжаляваме, че си тръгвате
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Добре дошли при { $productName }: Изберете парола
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Добре дошли при { $productName }
-subscriptionAccountFinishSetup-action-2 = Въведение
 subscriptionAccountReminderFirst-subject = Напомняне: Завършете създаването на профила си
 subscriptionAccountReminderFirst-title = Все още нямате достъп до абонамента
 subscriptionAccountReminderFirst-action = Създаване на парола

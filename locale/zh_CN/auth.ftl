@@ -579,15 +579,6 @@ subscriptionAccountDeletion-title = 不敢说后会有期，但愿有缘再见
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = 您最近删除了 { -product-mozilla-account }，因此我们也同步取消了您的 { $productName } 订阅。最后一笔款项金额为 { $invoiceTotal }，已于 { $invoiceDateOnly } 支付。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = 欢迎使用 { $productName }：请设置密码。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = 欢迎使用 { $productName }
-subscriptionAccountFinishSetup-content-processing = 正在处理您的付款，最多可能需要 4 个工作日才可完成。除非您主动取消订阅，否则将在每个账单周期结束后自动续订。
-subscriptionAccountFinishSetup-content-create-3 = 接下来请设置 { -product-mozilla-account }密码，完成后即可开始使用您新订阅的项目。
-subscriptionAccountFinishSetup-action-2 = 开始使用
 subscriptionAccountReminderFirst-subject = 提醒：请完成账户设置
 subscriptionAccountReminderFirst-title = 您暂时还不能访问订阅的项目
 subscriptionAccountReminderFirst-content-info-3 = 您几天前创建的 { -product-mozilla-account }还未完成确认。请尽快完成账户设置，以便使用新订阅的内容。

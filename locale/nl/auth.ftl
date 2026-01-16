@@ -592,15 +592,6 @@ subscriptionAccountDeletion-title = Jammer dat u vertrekt
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = U heeft onlangs uw { -product-mozilla-account } verwijderd. Als gevolg hiervan hebben we uw { $productName }-abonnement opgezegd. Uw laatste betaling van { $invoiceTotal } is betaald op { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Welkom bij { $productName }: stel uw wachtwoord in.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Welkom bij { $productName }
-subscriptionAccountFinishSetup-content-processing = Uw betaling wordt verwerkt en wordt binnen vier werkdagen voltooid. Uw abonnement wordt elke factureringsperiode automatisch verlengd, tenzij u opzegt.
-subscriptionAccountFinishSetup-content-create-3 = Hierna maakt u een { -product-mozilla-account }-wachtwoord aan om uw nieuwe abonnement te gaan gebruiken.
-subscriptionAccountFinishSetup-action-2 = Beginnen
 subscriptionAccountReminderFirst-subject = Herinnering: voltooi het instellen van uw account
 subscriptionAccountReminderFirst-title = U hebt nog geen toegang tot uw abonnement
 subscriptionAccountReminderFirst-content-info-3 = Een paar dagen geleden hebt u een { -product-mozilla-account } aangemaakt, maar deze nog niet bevestigd. We hopen dat u het instellen van uw account voltooit, zodat u uw nieuwe abonnement kunt gebruiken.

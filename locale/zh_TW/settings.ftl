@@ -1209,12 +1209,6 @@ tfa-row-verify-session-info = 必須先驗證您目前的使用階段，才能�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = 使用本服務，代表您同意：
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } 訂閱服務的<mozSubscriptionTosLink>服務條款</mozSubscriptionTosLink>與<mozSubscriptionPrivacyLink>隱私權公告</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } 的<mozillaAccountsTos>服務條款</mozillaAccountsTos>與<mozillaAccountsPrivacy>隱私權公告</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = 使用本服務，代表您同意<mozillaAccountsTos>服務條款</mozillaAccountsTos>與<mozillaAccountsPrivacy>隱私權公告</mozillaAccountsPrivacy>。
 

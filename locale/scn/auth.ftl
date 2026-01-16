@@ -494,15 +494,6 @@ subscriptionAccountDeletion-title = Ni dispiaci chi ti nni vai
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Àvi picca chi scancillasti u to { -product-mozilla-account }. Pi sta scaciuni, scancillammu u to abbunamentu a { $productName }. U pagamentu finali di { $invoiceTotal } fu fattu jornu { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Bummegna nne { $productName }: pi favuri mposta a to chiavi.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Bummegna nne { $productName }
-subscriptionAccountFinishSetup-content-processing = Stamu prucissannu u to pagamentu e ponnu sèrbiri nzinu a quattru jorna di travagghiu pi cumplitallu. U to abbunamentu si rinova di manera autumàtica p’ogni ciclu di fatturazzioni, sparti si nun scarti di scancillàrilu.
-subscriptionAccountFinishSetup-content-create-3 = Doppu, hâ criari na chiavi pû { -product-mozilla-account } pi principiari a usari u to abbunamentu novu.
-subscriptionAccountFinishSetup-action-2 = Accumincia
 subscriptionAccountReminderFirst-subject = Ricòrdati: cumpleta a cunfijurazzioni dû to cuntu
 subscriptionAccountReminderFirst-title = Ancora nun po’ tràsiri ô to abbunamentu
 subscriptionAccountReminderFirst-content-info-3 = Quarchi jornu nn’arrè criasti un { -product-mozilla-account } ma nun u cunfirmasti mai. Spiramu chi cumpleti a cunfijurazzioni, accussì po’ usari u to abbunamentu novu.

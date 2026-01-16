@@ -1055,12 +1055,6 @@ tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Aurrera eginez gero, hauek onartzen dituzu:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } Harpidetza zerbitzuak <mozSubscriptionTosLink>Zerbitzu-baldintzak</mozSubscriptionTosLink> eta <mozSubscriptionPrivacyLink>Pribatutasun-oharra</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Zerbitzu-baldintzak</mozillaAccountsTos> eta <mozillaAccountsPrivacy>Pribatutasun-oharra</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Aurrera eginez gero, <mozillaAccountsTos>Zerbitzu-baldintzak</mozillaAccountsTos> eta <mozillaAccountsPrivacy>Pribatutasun-oharra</mozillaAccountsPrivacy> onartzen dituzu.
 

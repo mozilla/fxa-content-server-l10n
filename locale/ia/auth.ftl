@@ -594,15 +594,6 @@ subscriptionAccountDeletion-title = Nos displace que tu vade
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Tu ha delite recentemente tu conto { -product-mozilla-account }. In consequentia, nos ha cancellate tu subscription a { $productName }. Tu pagamento final de { $invoiceTotal } ha essite pagate le { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Benvenite in { $productName }: configura tu contrasigno.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Benvenite a { $productName }.
-subscriptionAccountFinishSetup-content-processing = Tu pagamento es in execution e pote prender usque quatro dies laborative pro completar se. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de lo cancellar.
-subscriptionAccountFinishSetup-content-create-3 = Postea, tu creara un contrasigno de { -product-mozilla-account } pro initiar usar tu nove abonamento.
-subscriptionAccountFinishSetup-action-2 = Comenciar
 subscriptionAccountReminderFirst-subject = Memento: fini le preparation de tu conto
 subscriptionAccountReminderFirst-title = Tu non pote ancora acceder a tu subscription
 subscriptionAccountReminderFirst-content-info-3 = Alcun dies retro tu ha create un { -product-mozilla-account }, ma tu non lo ha ancora confirmate. Nos spera que tu finira le configuration de tu conto, assi que tu pote usar tu nove abonamento.

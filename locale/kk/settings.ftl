@@ -1249,12 +1249,6 @@ tfa-row-verify-session-info = Екі сатылы аутентификациян
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Жалғастыру арқылы сіз келесімен келісесіз:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } жазылымы қызметтерінің <mozSubscriptionTosLink>Қызмет көрсету шарттары</mozSubscriptionTosLink> және <mozSubscriptionPrivacyLink>Жекелік ескертуі</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Қолдану шарттары</mozillaAccountsTos> және <mozillaAccountsPrivacy>Қауіпсіздік ескертуі</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Жалғастыру арқылы сіз <mozillaAccountsTos>Қолдану шарттары</mozillaAccountsTos> және <mozillaAccountsPrivacy>Қауіпсіздік ескертуі</mozillaAccountsPrivacy> шарттарымен келісесіз.
 

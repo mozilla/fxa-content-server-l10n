@@ -1055,12 +1055,6 @@ tfa-row-cannot-disable-2 = Impussibel da deactivar l'autentificaziun en dus pass
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Cun cuntinuar acceptas ti:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = Las <mozSubscriptionTosLink>cundiziuns d’utilisaziun</mozSubscriptionTosLink> e las <mozSubscriptionPrivacyLink>infurmaziuns davart la protecziun da datas</mozSubscriptionPrivacyLink> dals servetschs d’abunament { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = Las  <mozillaAccountsTos>cundiziuns d'utilisaziun</mozillaAccountsTos> e las <mozillaAccountsPrivacy>infurmaziuns davart la protecziun da datas</mozillaAccountsPrivacy> da { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Cun cuntinuar acceptas ti las <mozillaAccountsTos>cundiziuns d'utilisaziun</mozillaAccountsTos> e las <mozillaAccountsPrivacy>infurmaziuns davart la protecziun da datas</mozillaAccountsPrivacy>.
 

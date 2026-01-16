@@ -508,15 +508,6 @@ subscriptionAccountDeletion-title = Ikävä nähdä sinun lähtevän
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Poistit äskettäin { -product-mozilla-account }si. Sen seurauksena olemme peruneet { $productName } -tilauksen. Viimeisin maksu, jonka summa on { $invoiceTotal }, veloitettiin { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Tervetuloa, tämä on { $productName }: Aseta salasanasi.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Tervetuloa, käytössäsi on { $productName }
-subscriptionAccountFinishSetup-content-processing = Maksuasi käsitellään, ja sen suorittaminen voi kestää neljä arkipäivää. Tilauksesi uusiutuu automaattisesti joka laskutusjakso, ellet peru sitä.
-subscriptionAccountFinishSetup-content-create-3 = Luo seuraavaksi { -product-mozilla-account }n salasana aloittaaksesi uuden tilauksesi käytön.
-subscriptionAccountFinishSetup-action-2 = Aloitetaan
 subscriptionAccountReminderFirst-subject = Muistutus: viimeistele tilisi määrittäminen
 subscriptionAccountReminderFirst-title = Et voi käyttää tilaustasi vielä
 subscriptionAccountReminderFirst-content-info-3 = Muutama päivä sitten loit { -product-mozilla-account }n, mutta et vahvistanut sitä. Toivomme, että saat tilisi määrityksen valmiiksi, jotta voit käyttää uutta tilaustasi.

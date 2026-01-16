@@ -1247,12 +1247,6 @@ tfa-row-verify-session-info = ორბიჯიანი შესვლის 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = თუ განაგრძობთ, ამით თანახმა ხართ მიიღოთ:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla }-ს გამოწერილი მომსახურებების <mozSubscriptionTosLink> პირობები</mozSubscriptionTosLink> და <mozSubscriptionPrivacyLink>პირადულობის განაცხადი</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts } <mozillaAccountsTos>მომსახურების პირობები</mozillaAccountsTos> და <mozillaAccountsPrivacy>პირადულობის განაცხადი</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = თუ განაგრძობთ, ამით ეთანხმებით <mozillaAccountsTos>მომსახურების პირობებსა</mozillaAccountsTos> და <mozillaAccountsPrivacy>პირადულობის განაცხადს</mozillaAccountsPrivacy>.
 

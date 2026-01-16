@@ -592,15 +592,6 @@ subscriptionAccountDeletion-title = Tu nus mancjarâs
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Di resint tu âs eliminât il to { -product-mozilla-account }. Alore o ven anulât il to abonament a { $productName }. Il paiament finâl di { $invoiceTotal } al è stât paiât ai { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Benvignûts in { $productName }: configure la tô password.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Benvignûts in { $productName }
-subscriptionAccountFinishSetup-content-processing = Il paiament al è in fase di elaborazion, la operazion e podarès domandâ fin a cuatri dîs lavoratîfs. Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
-subscriptionAccountFinishSetup-content-create-3 = Dopo, tu varâs di creâ une password par { -product-mozilla-account } cussì di scomençâ a doprâ il to gnûf abonament.
-subscriptionAccountFinishSetup-action-2 = Scomence
 subscriptionAccountReminderFirst-subject = Pro memoria: complete la configurazion dal to account
 subscriptionAccountReminderFirst-title = No tu puedis ancjemò jentrâ tal to abonament
 subscriptionAccountReminderFirst-content-info-3 = Cualchi dì indaûr tu âs creât un { -product-mozilla-account } ma no tu lu âs confermât. O sperìn che tu finissis di configurâ il to account, cussì che tu podedis doprâ il to gnûf abonament.

@@ -1259,12 +1259,6 @@ tfa-row-verify-session-info = Za nastavitev overjanja v dveh korakih morate potr
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Z nadaljevanjem se strinjate z:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>pogoji uporabe</mozSubscriptionTosLink> in <mozSubscriptionPrivacyLink>obvestilom o zasebnosti</mozSubscriptionPrivacyLink> naročniških storitev { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Pogoji storitve</mozillaAccountsTos> in <mozillaAccountsPrivacy>obvestilo o zasebnosti</mozillaAccountsPrivacy> { -product-mozilla-accounts(zacetnica: "velika", sklon: "rodilnik") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Z nadaljevanjem se strinjate s <mozillaAccountsTos>pogoji storitve</mozillaAccountsTos> in <mozillaAccountsPrivacy>obvestilom o zasebnosti</mozillaAccountsPrivacy>.
 

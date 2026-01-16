@@ -598,15 +598,6 @@ subscriptionAccountDeletion-title = Škoda, zo woteńdźeće
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Sće njedawno swoje { -product-mozilla-account(case: "acc", capitalization: "lower") } zhašał. Tohodla smy waš abonement { $productName } wotskazali. Waše kónčne płaćenje { $invoiceTotal } je so dnja { $invoiceDateOnly } zapłaćiło.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Witajće k { $productName }: Nastajće prošu swoje hesło.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Witajće k { $productName }
-subscriptionAccountFinishSetup-content-processing = Waše płaćenje so předźěłuje a móže hač do štyri wšědnych dnjow trać. Waš abonement so w kóždym wotličenskim času awtomatisce podlěša, chibazo wupowědźeće.
-subscriptionAccountFinishSetup-content-create-3 = Jako dalše hesło { -product-mozilla-account(case: "gen", capitalization: "lower") } wutworiće, zo byšće započał swój nowy abonement wužiwać.
-subscriptionAccountFinishSetup-action-2 = Prěnje kroki
 subscriptionAccountReminderFirst-subject = Dopomnjeće: Dokónčće konfigurowanje swojeho konta
 subscriptionAccountReminderFirst-title = Hisće nimaće přistup k swojemu abonementej
 subscriptionAccountReminderFirst-content-info-3 = Před někotrymi dnjemi sće { -product-mozilla-account(case: "acc", capitalization: "lower") } załožił, ale njejsće jo ženje wobkrućił. Nadźijamy so, zo konfigurowanje swojeho konta dokónčiće, zo byšće swój nowy abonement wužiwać móhł.

@@ -968,12 +968,6 @@ tfa-row-cannot-disable-2 = ไม่สามารถปิดใช้งา�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = เมื่อดำเนินการต่อ จะถือว่าคุณยอมรับ:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>เงื่อนไขการให้บริการ</mozSubscriptionTosLink>และ<mozSubscriptionPrivacyLink>ประกาศความเป็นส่วนตัว</mozSubscriptionPrivacyLink>สำหรับบริการแบบสมัครสมาชิกของ { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>เงื่อนไขการให้บริการ</mozillaAccountsTos>และ<mozillaAccountsPrivacy>ประกาศความเป็นส่วนตัว</mozillaAccountsPrivacy>สำหรับ{ -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = เมื่อดำเนินการต่อ จะถือว่าคุณยอมรับ<mozillaAccountsTos>เงื่อนไขการให้บริการ</mozillaAccountsTos>และ<mozillaAccountsPrivacy>ประกาศความเป็นส่วนตัว</mozillaAccountsPrivacy>
 

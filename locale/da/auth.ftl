@@ -592,15 +592,6 @@ subscriptionAccountDeletion-title = Vi er kede af, at du opsiger dit abonnement
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Du har for nylig slettet din { -product-mozilla-account }. Vi har derfor annulleret dit abonnement på { $productName }. Din sidste betaling på { $invoiceTotal } blev betalt den { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Velkommen til { $productName }: Angiv din adgangskode.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Velkommen til { $productName }
-subscriptionAccountFinishSetup-content-processing = Din betaling behandles og kan tage op til fire arbejdsdage at gennemføre. Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
-subscriptionAccountFinishSetup-content-create-3 = Opret herefter en adgangskode til { -product-mozilla-account } for at begynde at bruge dit nye abonnement.
-subscriptionAccountFinishSetup-action-2 = Kom i gang
 subscriptionAccountReminderFirst-subject = Påmindelse: Færdiggør opsætningen af din konto
 subscriptionAccountReminderFirst-title = Du kan ikke få adgang til dit abonnement endnu
 subscriptionAccountReminderFirst-content-info-3 = For et par dage siden oprettede du en { -product-mozilla-account }, men bekræftede den aldrig. Vi håber, at du vil færdiggøre opsætningen af din konto, så du kan bruge dit nye abonnement.

@@ -953,12 +953,6 @@ tfa-row-disable-modal-explain-1 =
 tfa-row-disabled-2 = Autenticación en dos pasos deshabilitada
 tfa-row-cannot-disable-2 = La atención en dos pasos no pudo ser deshabilitada
 
-## TermsPrivacyAgreement
-## These terms are used in signin and signup for Firefox account
-
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Al continuar, aceptas lo siguiente:
-
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 

@@ -1239,12 +1239,6 @@ tfa-row-verify-session-info = Vous devez confirmer votre session en cours pour c
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = En poursuivant, vous acceptez :
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = Les <mozSubscriptionTosLink>conditions d’utilisation</mozSubscriptionTosLink> et la <mozSubscriptionPrivacyLink>politique de confidentialité</mozSubscriptionPrivacyLink> des services d’abonnement de { -brand-mozilla }
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = Les <mozillaAccountsTos>conditions d’utilisation</mozillaAccountsTos> et la <mozillaAccountsPrivacy>politique de confidentialité</mozillaAccountsPrivacy> des { -product-mozilla-accounts }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = En continuant, vous acceptez les <mozillaAccountsTos>Conditions d’utilisation</mozillaAccountsTos> et la <mozillaAccountsPrivacy>Politique de confidentialité</mozillaAccountsPrivacy>.
 

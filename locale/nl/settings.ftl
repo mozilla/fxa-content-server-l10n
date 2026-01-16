@@ -1247,12 +1247,6 @@ tfa-row-verify-session-info = U moet uw huidige sessie bevestigen om authenticat
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
-# This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Door verder te gaan, gaat u akkoord met de:
-# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla }-abonnementsservices, <mozSubscriptionTosLink>Servicevoorwaarden</mozSubscriptionTosLink> en <mozSubscriptionPrivacyLink>Privacyverklaring</mozSubscriptionPrivacyLink>
-# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Servicevoorwaarden</mozillaAccountsTos> en <mozillaAccountsPrivacy>Privacyverklaring</mozillaAccountsPrivacy> van { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Door door te gaan stemt u in met de <mozillaAccountsTos>Servicevoorwaarden</mozillaAccountsTos> en <mozillaAccountsPrivacy>Privacyverklaring</mozillaAccountsPrivacy>.
 

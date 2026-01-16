@@ -594,15 +594,6 @@ subscriptionAccountDeletion-title = Je nám líto, že odcházíte
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Nedávno jste smazali svůj { -product-mozilla-account(case: "acc") }. Proto jsme zrušili vaše předplatné produktu { $productName }. Vaše poslední platba ve výši{ $invoiceTotal } byla uhrazena dne { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Vítá vás { $productName }: Nastavte si prosím heslo.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Vítá vás { $productName }
-subscriptionAccountFinishSetup-content-processing = Vaše platba se zpracovává a její dokončení může trvat až čtyři pracovní dny. Vaše předplatné se bude automaticky obnovovat každé fakturační období, dokud ho nezrušíte.
-subscriptionAccountFinishSetup-content-create-3 = Dále si vytvoříte heslo pro { -product-mozilla-account(case: "acc") }, abyste mohli začít používat své nové předplatné.
-subscriptionAccountFinishSetup-action-2 = Začít
 subscriptionAccountReminderFirst-subject = Připomínka: dokončete nastavení vašeho účtu
 subscriptionAccountReminderFirst-title = Zatím nemáte přístup ke svému předplatnému
 subscriptionAccountReminderFirst-content-info-3 = Před několika dny jste vytvořili { -product-mozilla-account(case: "acc") }, ale nikdy jste jej nepotvrdili. Doufáme, že dokončíte nastavení svého účtu, abyste mohli používat své nové předplatné.

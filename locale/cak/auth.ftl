@@ -141,10 +141,6 @@ recovery-action = Titz’uk‘ k'ak'a' ewan tzij
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Xqa't ri { $productName } rutz'ib'axik ab'i'
 subscriptionAccountDeletion-title = Yojb’ison ruma yab‘e
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Ütz apetik pa { $productName }
-subscriptionAccountFinishSetup-action-2 = Titikirisäx
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-action = Titz'uk ewan tzij
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:

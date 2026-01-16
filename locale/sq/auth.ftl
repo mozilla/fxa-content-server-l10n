@@ -588,15 +588,6 @@ subscriptionAccountDeletion-title = Ju shohim me keqardhje teksa ikni
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Tani afër fshitë { -product-mozilla-account } tuajën. Si pasojë, anuluam pajtimin tuaj për { $productName }. Pagesa juaj përfundimtare prej { $invoiceTotal } qe bërë më { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Mirë se vini në{ $productName }: Ju lutemi, caktoni fjalëkalimin tuaj.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Mirë se vini te { $productName }.
-subscriptionAccountFinishSetup-content-processing = Pagesa juaj po përpunohet dhe mund të duhen deri në katër ditë pune që të plotësohet. Pajtimi juaj do të rinovohet automatikisht për çdo periudhë faturimi, veç në zgjedhshi ta anuloni.
-subscriptionAccountFinishSetup-content-create-3 = Më pas do të krijoni një fjalëkalim { -product-mozilla-account }, që të nisni të përdorni pajtimin tuaj.
-subscriptionAccountFinishSetup-action-2 = Fillojani
 subscriptionAccountReminderFirst-subject = Kujtues: Përfundoni ujdisjen e llogarisë tuaj
 subscriptionAccountReminderFirst-title = S’mund të përdorni ende pajtimin tuaj
 subscriptionAccountReminderFirst-content-info-3 = Ca ditë më parë krijuat një { -product-mozilla-account }, por s’bëtë ripohimin për këtë. Shpresojmë se do të përfundoni ujdisjen e llogarisë tuaj, që të mund të përdorni pajtimin tuaj të ri.

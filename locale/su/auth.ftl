@@ -228,10 +228,6 @@ postVerifySecondary-action = Kokolakeun akun
 recovery-subject = Setél ulang kecap sandi anjeun
 recovery-action = Jieun sandi anyar
 subscriptionAccountDeletion-title = Pileuleuyan
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Wilujeng sumping di { $productName }
-subscriptionAccountFinishSetup-action-2 = Mitembeyan
 subscriptionAccountReminderSecond-action = Jieun Kecap Sandi
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
