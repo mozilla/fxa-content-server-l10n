@@ -109,6 +109,12 @@ not-found-title-subscriptions = Abonnemint net fûn
 not-found-description-subscriptions = Wy koene jo abonnemint net fine. Probearje it opnij of nim kontakt op.
 not-found-button-back-to-subscriptions = Tebek nei abonneminten
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Side net fûn
+not-found-loyalty-discount-description = De troch jo opsochte side bestiet net.
+not-found-loyalty-discount-button-back-to-subscriptions = Tebek nei abonneminten
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Gjin betellingsmetoade tafoege
@@ -212,6 +218,28 @@ next-payment-confirm-checkbox-error = Jo moatte dit foltôgje eardat jo fierder 
 
 next-new-user-submit = No abonnearje
 next-pay-with-heading-paypal = Betelje mei { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Bliuw abonnearre en besparje { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Bliuw abonnearre en besparje
+churn-stay-subscribed-button-no-thanks = Nee, tankewol
+    .aria-label = Werom nei Abonneminteside
+churn-stay-subscribed-link-terms-and-restrictions = Der binne beheinde betingsten en beheiningen fan tapassing
+churn-stay-subscribed-title-offer-expired = Dizze oanbieding is ferrûn
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Wolle jo { $productName } brûke bliuwe?
+churn-stay-subscribed-message-access-will-continue = Jo behâlde tagong ta { $productName } en jo betellingssyklus en betelling wiziget net.
+churn-stay-subscribed-title-subscription-renewed = Abonnemint ferlinge
+churn-stay-subscribed-title-subscription-active = Jo { $productName }-abonnemint is aktyf
+churn-stay-subscribed-thanks-valued-subscriber = Tank dat jo in wurdearre abonnee binne!
+churn-stay-subscribed-button-go-to-product-page = Nei { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Nei Abonneminten
+churn-stay-subscribed-button-stay-subscribed = Abonnemint behâlde
 
 ## Component - CouponForm
 
@@ -365,6 +393,23 @@ button-back-to-subscriptions = Tebek nei abonneminten
 subscription-content-cancel-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
 paypal-unavailable-error = { -brand-paypal } is op dit stuit net beskikber. Brûk in oare betelmetoade of probearje it letter opnij.
 
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Koartingskoade al tapast
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Dizze koarting is tapast op in abonnemint fan { $productName } foar jo account. As jo noch help nedich binne, nim dan kontakt op mei ús Stipeteam.
+churn-error-page-button-manage-subscriptions = Abonneminten beheare
+churn-error-page-button-contact-support = Kontakt opnimme
+churn-error-page-button-try-again = Opnij probearje
+churn-error-page-title-general-error = Der is in probleem bard by it ferlingjen fan jo abonnemint
+churn-error-page-message-general-error = Nim kontakt op mei stipe of probearje it opnij.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Nei { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Dizze koarting is allinnich beskikber foar hjoeddeiske abonnees fan { $productName }.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Jo { $productName }-abonnemint is noch aktyf
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -481,3 +526,12 @@ manage-payment-method-intent-error-try-again = Hmm. Der wie in probleem by it au
 manage-payment-method-intent-error-get-in-touch = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Nim kontakt mei jo kaartferstrekker.
 manage-payment-method-intent-error-insufficient-funds = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
 manage-payment-method-intent-error-generic = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Jo besparje { $discountPercent }% op jo folgjende betelling op { $currentPeriodEnd } fan { $nextInvoiceTotal } + { $taxDue } btw fan de kaart dy’t einiget op { $last4 }.
