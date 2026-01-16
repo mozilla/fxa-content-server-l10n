@@ -526,3 +526,23 @@ manage-payment-method-intent-error-try-again = Hmm. Det oppstod et problem med �
 manage-payment-method-intent-error-get-in-touch = Hmm. Det oppstod et problem med å godkjenne betalingen din. Ta kontakt med kortutstederen din.
 manage-payment-method-intent-error-insufficient-funds = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
 manage-payment-method-intent-error-generic = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } + { $taxDue } i moms til kortet som slutter på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } + { $taxDue } i moms til betalingsmåten { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } + { $taxDue } i moms den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } til kortet som slutter på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } til betalingsmåten { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } den { $currentPeriodEnd }.
+next-charge-with-tax-card = Neste belastning blir { $nextInvoiceTotal } + { $taxDue } i moms til kortet som slutter på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Neste belastning blir { $nextInvoiceTotal } + { $taxDue } i moms til betalingsmåten { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-with-tax = Den neste belastningen din blir { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
+next-charge-no-tax-card = Neste belastning blir { $nextInvoiceTotal } til kortet som slutter på { $last4 } den { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Neste belastning blir { $nextInvoiceTotal } til betalingsmåten { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-no-tax = Neste belastning blir { $nextInvoiceTotal } den { $currentPeriodEnd }.
