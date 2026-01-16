@@ -222,14 +222,23 @@ next-pay-with-heading-paypal = Betalen met { -brand-paypal }
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Blijf geabonneerd en bespaar { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Blijf geabonneerd en bespaar
+churn-stay-subscribed-button-no-thanks = Nee, bedankt
+    .aria-label = Terug naar Abonnementenpagina
+churn-stay-subscribed-link-terms-and-restrictions = Er zijn beperkte voorwaarden en beperkingen van toepassing
 churn-stay-subscribed-title-offer-expired = Deze aanbieding is verlopen
 
 ## $productName (String) - The name of the product associated with the subscription.
 
 churn-stay-subscribed-subtitle-offer-expired = Wilt u { $productName } blijven gebruiken?
 churn-stay-subscribed-message-access-will-continue = U behoudt toegang tot { $productName } en uw betalingscyclus en betaling blijven ongewijzigd.
+churn-stay-subscribed-title-subscription-renewed = Abonnement verlengd
+churn-stay-subscribed-title-subscription-active = Uw { $productName }-abonnement is actief
 churn-stay-subscribed-thanks-valued-subscriber = Bedankt dat u een gewaardeerde abonnee bent!
 churn-stay-subscribed-button-go-to-product-page = Naar { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Naar Abonnementen
 churn-stay-subscribed-button-stay-subscribed = Abonnement behouden
 
 ## Component - CouponForm
@@ -387,10 +396,13 @@ paypal-unavailable-error = { -brand-paypal } is momenteel niet beschikbaar. Gebr
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = Kortingscode al toegepast
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Deze korting is toegepast op een abonnement op { $productName } voor uw account. Als u nog steeds hulp nodig hebt, neem dan contact op met ons Ondersteuningsteam.
 churn-error-page-button-manage-subscriptions = Abonnementen beheren
 churn-error-page-button-contact-support = Contact opnemen
 churn-error-page-button-try-again = Opnieuw proberen
 churn-error-page-title-general-error = Er is een probleem opgetreden bij het verlengen van uw abonnement
+churn-error-page-message-general-error = Neem contact op met ondersteuning of probeer het opnieuw.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Naar { $productName }
 # $productName (String) - The name of the product associated with the subscription.
@@ -522,5 +534,15 @@ manage-payment-method-intent-error-generic = Er is een onverwachte fout opgetred
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-discount-and-tax-card = U bespaart { $discountPercent }% op uw volgende afschrijving op { $currentPeriodEnd } van { $nextInvoiceTotal } + { $taxDue } btw van de kaart die eindigt op { $last4 }.
+next-charge-with-discount-and-tax-payment-method = U bespaart { $discountPercent }% op uw volgende afschrijving op { $currentPeriodEnd } van { $nextInvoiceTotal } + { $taxDue } btw van uw { $paymentMethod }-betaalmethode.
+next-charge-next-charge-with-discount-and-tax = U bespaart { $discountPercent }% op uw volgende afschrijving van { $nextInvoiceTotal } + { $taxDue } btw op { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = U bespaart { $discountPercent }% op uw volgende afschrijving van { $nextInvoiceTotal } op de kaart eindigend met { $last4 } op { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = U bespaart { $discountPercent }% op uw volgende afschrijving van { $nextInvoiceTotal } van uw { $paymentMethod }-betaalmethode op { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = U bespaart { $discountPercent }% op uw volgende afschrijving van { $nextInvoiceTotal } op { $currentPeriodEnd }.
+next-charge-with-tax-card = Uw volgende afschrijving is { $nextInvoiceTotal } + { $taxDue } btw van de kaart eindigend op { $last4 } op { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Uw volgende afschrijving is { $nextInvoiceTotal } + { $taxDue } btw van uw { $paymentMethod }-betaalmethode op { $currentPeriodEnd }.
 next-charge-with-tax = Uw volgende afschrijving is { $nextInvoiceTotal } + { $taxDue } btw op { $currentPeriodEnd }.
+next-charge-no-tax-card = Uw volgende afschrijving is { $nextInvoiceTotal } van de kaart eindigend op { $last4 } op { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Uw volgende afschrijving is { $nextInvoiceTotal } van uw { $paymentMethod }-betaalmethode op { $currentPeriodEnd }.
 next-charge-no-tax = Uw volgende afschrijving is { $nextInvoiceTotal } op { $currentPeriodEnd }.

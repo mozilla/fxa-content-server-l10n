@@ -235,6 +235,7 @@ churn-stay-subscribed-title-offer-expired = Dette tilbudet er utløpt
 churn-stay-subscribed-subtitle-offer-expired = Vil du fortsette å bruke { $productName }?
 churn-stay-subscribed-message-access-will-continue = Tilgangen din til { $productName } fortsetter, og faktureringssyklusen og betalingen din forblir den samme.
 churn-stay-subscribed-title-subscription-renewed = Abonnementet er fornyet
+churn-stay-subscribed-title-subscription-active = Ditt abonnement på { $productName } er aktivt.
 churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnementer
 churn-stay-subscribed-button-stay-subscribed = Fortsett abonnementet
@@ -394,6 +395,9 @@ paypal-unavailable-error = { -brand-paypal } er for øyeblikket utilgjengelig. B
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = Rabattkoden er allerede brukt
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Denne rabatten ble brukt på et abonnement på { $productName } for kontoen din. Hvis du fortsatt trenger hjelp, kan du kontakte kundestøtteteamet vårt.
+churn-error-page-button-manage-subscriptions = Behandle abonnementer
 churn-error-page-button-contact-support = Kontakt brukerstøtte
 churn-error-page-button-try-again = Prøv igjen
 churn-error-page-title-general-error = Det oppsto et problem med å fornye abonnementet ditt

@@ -1249,6 +1249,10 @@ tfa-row-verify-session-info = U moet uw huidige sessie bevestigen om authenticat
 
 # This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
 terms-privacy-agreement-intro-3 = Door verder te gaan, gaat u akkoord met het volgende:
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Servicevoorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla-2 = <mozillaAccountsTos>Servicevoorwaarden</mozillaAccountsTos> en <mozillaAccountsPrivacy>Privacyverklaring</mozillaAccountsPrivacy> van { -product-mozilla-accounts(capitalization: "uppercase") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
