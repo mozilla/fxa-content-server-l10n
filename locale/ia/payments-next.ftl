@@ -351,6 +351,14 @@ subscription-content-button-resubscribe = Re-abonar
     .aria-label = Re-abonar a { $productName }
 resubscribe-success-dialog-title = Gratias! Toto preste.
 
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } + taxa de { $taxDue } al carta finiente in { $last4 }.
+stay-subscribed-next-charge-no-tax = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal }.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -390,6 +398,8 @@ paypal-unavailable-error = { -brand-paypal } es actualmente indisponibile. Usa u
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = Codice de disconto jam applicate
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Iste disconto era applicate a un abonamento a { $productName } pro tu conto.
 churn-error-page-button-manage-subscriptions = Gerer abonamentos
 churn-error-page-button-contact-support = Contactar assistentia
 churn-error-page-button-try-again = Retentar
@@ -530,4 +540,11 @@ next-charge-with-discount-and-tax-card = Le { $currentPeriodEnd } tu sparniara l
 next-charge-with-discount-and-tax-payment-method = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue } a tu methodo de pagamento { $paymentMethod }.
 next-charge-next-charge-with-discount-and-tax = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue }.
 next-charge-with-discount-no-tax-card = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } sur le carta finiente in { $last4 }.
+next-charge-with-discount-no-tax-payment-method = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu carga successive de { $nextInvoiceTotal } a tu methodo de pagamento { $paymentMethod }.
 next-charge-with-discount-no-tax = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal }.
+next-charge-with-tax-card = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } al carta finiente in { $last4 }.
+next-charge-with-tax-payment-method = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } a tu methodo de pagamento { $paymentMethod }.
+next-charge-with-tax = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } + taxa de { $taxDue }.
+next-charge-no-tax-card = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } al carta finiente in { $last4 }.
+next-charge-no-tax-payment-method = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal } a tu methodo de pagamento { $paymentMethod }.
+next-charge-no-tax = Le { $currentPeriodEnd } tu carga successive sera de { $nextInvoiceTotal }.
