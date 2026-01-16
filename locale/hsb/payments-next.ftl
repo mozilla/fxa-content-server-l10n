@@ -240,6 +240,11 @@ churn-stay-subscribed-title-offer-expired = Tutón poskitk je spadnjeny
 churn-stay-subscribed-subtitle-offer-expired = Chceće { $productName } dale wužiwać?
 churn-stay-subscribed-message-access-will-continue = Waš přistup k { $productName } dale wobsteji a waš wotličenski cyklus a płaćenje samsne wostawa.
 churn-stay-subscribed-title-subscription-renewed = Abonement je so wobnowił
+churn-stay-subscribed-title-subscription-active = Waš abonement { $productName } je aktiwny
+churn-stay-subscribed-thanks-valued-subscriber = Dźakujemy so, zo sće waženy abonent!
+churn-stay-subscribed-button-go-to-product-page = K { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = K abonementam
+churn-stay-subscribed-button-stay-subscribed = Abonement podlěšić
 
 ## Component - CouponForm
 
@@ -393,6 +398,23 @@ button-back-to-subscriptions = Wróćo k abonementam
 subscription-content-cancel-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
 paypal-unavailable-error = { -brand-paypal } tuchwilu k dispoziciji njeje. Prošu wužiwajće druhu płaćensku móžnosć abo spytajće pozdźišo hišće raz.
 
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Rabatowy kod je so hižo nałožił
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Tutón rabat je so na abonement{ $productName } za waše konto nałožił. Jeli hišće pomoc trjebaće, stajće so z našim teamom pomocy do zwiska.
+churn-error-page-button-manage-subscriptions = Abonementy rjadować
+churn-error-page-button-contact-support = Pomoc skontaktować
+churn-error-page-button-try-again = Hišće raz spytać
+churn-error-page-title-general-error = Při wobnowjenju wašeho abonementa je problem nastał
+churn-error-page-message-general-error = Skontaktujće pomoc abo spytajće hišće raz.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = K { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Tutón rabat je jenož za aktualnych abonentow { $productName } k dispoziciji
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Waš abonement { $productName } je hišće aktiwny
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -509,3 +531,13 @@ manage-payment-method-intent-error-try-again = Hmm. Při awtorizowanju wašeho p
 manage-payment-method-intent-error-get-in-touch = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
 manage-payment-method-intent-error-insufficient-funds = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 manage-payment-method-intent-error-generic = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-tax = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } + dawk { $taxDue } dnja { $currentPeriodEnd }.
+next-charge-no-tax = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } dnja { $currentPeriodEnd }.
