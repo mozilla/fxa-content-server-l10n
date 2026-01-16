@@ -791,6 +791,10 @@ subscriptionUpgrade-content-new-price-year = In futuro ti verranno addebitati { 
 subscriptionUpgrade-content-new-price-default = In futuro ti verranno addebitati { $paymentAmountNew } per intervallo di fatturazione, sconti esclusi.
 subscriptionUpgrade-content-new-price-day-dtax = In futuro ti verranno addebitati { $paymentAmountNew } + { $paymentTaxNew } (tasse) al giorno, sconti esclusi.
 subscriptionUpgrade-content-new-price-week-tax = In futuro ti verranno addebitati { $paymentAmountNew } + { $paymentTaxNew } (tasse) a settimana, sconti esclusi.
+subscriptionUpgrade-content-new-price-month-tax = In futuro ti verranno addebitati { $paymentAmountNew } + { $paymentTaxNew } (tasse) al mese, sconti esclusi.
+subscriptionUpgrade-content-new-price-halfyear-tax = In futuro ti verranno addebitati { $paymentAmountNew } + { $paymentTaxNew } (tasse) per sei mesi, sconti esclusi.
+subscriptionUpgrade-content-new-price-year-tax = In futuro ti verranno addebitati { $paymentAmountNew } + { $paymentTaxNew } (tasse) all’anno, sconti esclusi.
+subscriptionUpgrade-content-new-price-default-tax = In futuro ti verranno addebitati { $paymentAmountNew } + { $paymentTaxNew } (tasse) per intervallo di fatturazione, sconti esclusi.
 subscriptionUpgrade-existing = Se uno dei tuoi abbonamenti esistenti si sovrappone a questo aggiornamento, lo gestiremo e ti invieremo un’email separata con i dettagli. Se il tuo nuovo piano include prodotti che richiedono l’installazione, ti invieremo un’altra email con le istruzioni per l’installazione.
 subscriptionUpgrade-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
 # Variables:
