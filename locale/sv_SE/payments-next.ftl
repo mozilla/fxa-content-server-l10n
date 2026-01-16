@@ -544,5 +544,5 @@ next-charge-with-tax-card = Din nästa betalning på { $nextInvoiceTotal } + { $
 next-charge-with-tax-payment-method = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
 next-charge-with-tax = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
 next-charge-no-tax-card = Din nästa betalning på { $nextInvoiceTotal } på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
-next-charge-no-tax-payment-method = Din nästa betalning är { $nextInvoiceTotal } med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
-next-charge-no-tax = Din nästa debitering är { $nextInvoiceTotal } den { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Din nästa betalning på { $nextInvoiceTotal } med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-no-tax = Din nästa betalning på { $nextInvoiceTotal } den { $currentPeriodEnd }.
