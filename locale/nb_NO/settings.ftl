@@ -1241,6 +1241,8 @@ terms-privacy-agreement-intro-3 = Ved å fortsette godtar du følgende:
 # $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
 # $serviceName is customizable via Strapi and will be localized separately
 terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Bruksvilkår</termsLink> og <privacyLink>personvernerklæring</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>bruksvilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæring</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Ved å fortsette godtar du <mozillaAccountsTos>bruksvilkårene</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæringen</mozillaAccountsPrivacy>.
 

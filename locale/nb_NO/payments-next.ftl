@@ -235,6 +235,9 @@ churn-stay-subscribed-title-offer-expired = Dette tilbudet er utløpt
 churn-stay-subscribed-subtitle-offer-expired = Vil du fortsette å bruke { $productName }?
 churn-stay-subscribed-message-access-will-continue = Tilgangen din til { $productName } fortsetter, og faktureringssyklusen og betalingen din forblir den samme.
 churn-stay-subscribed-title-subscription-renewed = Abonnementet er fornyet
+churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnementer
+churn-stay-subscribed-button-stay-subscribed = Fortsett abonnementet
 
 ## Component - CouponForm
 
@@ -390,6 +393,8 @@ paypal-unavailable-error = { -brand-paypal } er for øyeblikket utilgjengelig. B
 
 ## Churn flow - Error page
 
+churn-error-page-title-discount-already-applied = Rabattkoden er allerede brukt
+churn-error-page-button-contact-support = Kontakt brukerstøtte
 churn-error-page-button-try-again = Prøv igjen
 churn-error-page-title-general-error = Det oppsto et problem med å fornye abonnementet ditt
 churn-error-page-message-general-error = Kontakt brukerstøtte eller prøv på nytt.
