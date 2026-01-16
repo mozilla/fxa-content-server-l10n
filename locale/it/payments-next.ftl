@@ -226,14 +226,14 @@ churn-stay-subscribed-action-error = Si è verificato un errore imprevisto. Ripr
 churn-stay-subscribed-button-stay-subscribed-and-save-discount = Rimani abbonato e risparmia il { $discountPercent }%
 churn-stay-subscribed-button-stay-subscribed-and-save = Rimani abbonato e risparmia
 churn-stay-subscribed-button-no-thanks = No grazie
-    .aria-label = Torna alla pagina Abbonamenti
+    .aria-label = Torna alla pagina degli abbonamenti
 churn-stay-subscribed-link-terms-and-restrictions = Si applicano termini e restrizioni limitati
 churn-stay-subscribed-title-offer-expired = Questa offerta è scaduta
 
 ## $productName (String) - The name of the product associated with the subscription.
 
 churn-stay-subscribed-subtitle-offer-expired = Vuoi continuare a utilizzare { $productName }?
-churn-stay-subscribed-message-access-will-continue = Continuerai ad avere accesso a { $productName } e il ciclo di fatturazione e il pagamento non subiranno cambiamenti.
+churn-stay-subscribed-message-access-will-continue = Continuerai ad avere accesso a { $productName }. Il ciclo di fatturazione e il pagamento non verranno modificati.
 churn-stay-subscribed-title-subscription-renewed = Abbonamento rinnovato
 churn-stay-subscribed-title-subscription-active = Il tuo abbonamento a { $productName } è attivo
 churn-stay-subscribed-thanks-valued-subscriber = Grazie per essere un prezioso abbonato.

@@ -109,6 +109,12 @@ not-found-title-subscriptions = Abonnementet ble ikke funnet
 not-found-description-subscriptions = Vi fant ikke abonnementet ditt. Prøv på nytt eller kontakt kundestøtte.
 not-found-button-back-to-subscriptions = Tilbake til abonnementer
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Fant ikke siden
+not-found-loyalty-discount-description = Siden du leter etter finnes ikke.
+not-found-loyalty-discount-button-back-to-subscriptions = Tilbake til abonnementer
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmåte lagt til
@@ -212,6 +218,23 @@ next-payment-confirm-checkbox-error = Du må fullføre dette før du går videre
 
 next-new-user-submit = Abonner nå
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Det oppstod en uventet feil. Prøv på nytt.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Fortsett å abonnere og spar { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Fortsett å abonnere og spar
+churn-stay-subscribed-button-no-thanks = Nei takk
+    .aria-label = Tilbake til abonnementer-siden
+churn-stay-subscribed-link-terms-and-restrictions = Begrensede vilkår og restriksjoner gjelder
+churn-stay-subscribed-title-offer-expired = Dette tilbudet er utløpt
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Vil du fortsette å bruke { $productName }?
+churn-stay-subscribed-message-access-will-continue = Tilgangen din til { $productName } fortsetter, og faktureringssyklusen og betalingen din forblir den samme.
+churn-stay-subscribed-title-subscription-renewed = Abonnementet er fornyet
 
 ## Component - CouponForm
 
