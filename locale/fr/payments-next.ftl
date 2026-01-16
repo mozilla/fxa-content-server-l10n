@@ -112,7 +112,7 @@ not-found-button-back-to-subscriptions = Retour aux abonnements
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Page introuvable
-not-found-loyalty-discount-description = La page que vous recherchez n'existe pas.
+not-found-loyalty-discount-description = La page que vous recherchez n’existe pas.
 not-found-loyalty-discount-button-back-to-subscriptions = Retour aux abonnements
 
 ## Page - Subscription Management
@@ -235,7 +235,7 @@ churn-stay-subscribed-title-offer-expired = Cette offre a expiré
 churn-stay-subscribed-subtitle-offer-expired = Vous voulez continuer à utiliser { $productName } ?
 churn-stay-subscribed-message-access-will-continue = Vous conserverez l’accès à { $productName }, et votre cycle de facturation et moyen de paiement resteront les mêmes.
 churn-stay-subscribed-title-subscription-renewed = Abonnement renouvelé
-churn-stay-subscribed-title-subscription-active = Votre abonnement de { $productName } est actif
+churn-stay-subscribed-title-subscription-active = Votre abonnement à { $productName } est actif
 churn-stay-subscribed-thanks-valued-subscriber = Merci pour votre abonnement !
 churn-stay-subscribed-button-go-to-product-page = Ouvrir { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Ouvrir les abonnements
@@ -397,7 +397,7 @@ paypal-unavailable-error = { -brand-paypal } est actuellement indisponible. Veui
 
 churn-error-page-title-discount-already-applied = Code de réduction déjà appliqué
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-message-discount-already-applied = Cette remise a été appliquée à un abonnement de { $productName } à votre compte. Si vous avez encore besoin d’aide, contactez notre équipe d’assistance.
+churn-error-page-message-discount-already-applied = Cette remise a été appliquée à un abonnement à { $productName } sur votre compte. Si vous avez encore besoin d’aide, contactez notre équipe d’assistance.
 churn-error-page-button-manage-subscriptions = Gérer les abonnements
 churn-error-page-button-contact-support = Contacter l’assistance
 churn-error-page-button-try-again = Réessayer
