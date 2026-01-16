@@ -479,3 +479,12 @@ manage-payment-method-intent-error-try-again = 呃，您的付款授权有问题
 manage-payment-method-intent-error-get-in-touch = 呃，您的付款授权有问题。请与您的发卡机构联系。
 manage-payment-method-intent-error-insufficient-funds = 您的卡余额不足，请改用其他卡。
 manage-payment-method-intent-error-generic = 处理付款时发生意外错误，请重试。
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-next-charge-with-discount-and-tax = 您在 { $currentPeriodEnd } 的下次扣款中可节省 { $discountPercent }%，应付金额为 { $nextInvoiceTotal } + { $taxDue } 税款。

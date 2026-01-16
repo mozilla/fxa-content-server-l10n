@@ -109,6 +109,12 @@ not-found-title-subscriptions = 找不到訂閱紀錄
 not-found-description-subscriptions = 找不到您的訂閱紀錄，請再試一次或聯絡支援團隊。
 not-found-button-back-to-subscriptions = 回到訂閱項目
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = 找不到頁面
+not-found-loyalty-discount-description = 找不到您想開啟的頁面。
+not-found-loyalty-discount-button-back-to-subscriptions = 回到訂閱項目
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = 未新增付款方式
@@ -212,6 +218,28 @@ next-payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下
 
 next-new-user-submit = 立刻訂閱
 next-pay-with-heading-paypal = 使用 { -brand-paypal } 付款
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = 發生未知錯誤，請再試一次。
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = 保持訂閱即可節省 { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = 保持訂閱即可節省
+churn-stay-subscribed-button-no-thanks = 不用了，謝謝
+    .aria-label = 回到訂閱項目頁面
+churn-stay-subscribed-link-terms-and-restrictions = 適用條款與限制
+churn-stay-subscribed-title-offer-expired = 此活動已經結束。
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = 想要繼續使用 { $productName } 嗎？
+churn-stay-subscribed-message-access-will-continue = 將繼續保留您的 { $productName } 使用權，帳單週期與付款方式維持不變。
+churn-stay-subscribed-title-subscription-renewed = 已完成續訂
+churn-stay-subscribed-title-subscription-active = 您的 { $productName } 訂閱已生效。
+churn-stay-subscribed-thanks-valued-subscriber = 感謝您成為訂閱者！
+churn-stay-subscribed-button-go-to-product-page = 前往 { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = 前往訂閱項目
+churn-stay-subscribed-button-stay-subscribed = 保持訂閱
 
 ## Component - CouponForm
 
@@ -364,6 +392,21 @@ dialog-close = 關閉對話框
 button-back-to-subscriptions = 回到訂閱項目
 subscription-content-cancel-action-error = 發生未知錯誤，請再試一次。
 paypal-unavailable-error = { -brand-paypal } 目前無法使用，請改用其他付款方式或稍後再試。
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = 已經套用此折扣碼
+churn-error-page-button-manage-subscriptions = 管理訂閱項目
+churn-error-page-button-contact-support = 聯絡支援團隊
+churn-error-page-button-try-again = 重試
+churn-error-page-title-general-error = 續訂時發生問題
+churn-error-page-message-general-error = 請聯絡支援團隊或再試一次。
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = 前往 { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = 此折扣僅適用於目前的 { $productName } 訂閱者。
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = 您的 { $productName } 訂閱仍然有效。
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
