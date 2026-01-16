@@ -223,8 +223,8 @@ next-pay-with-heading-paypal = Mit { -brand-paypal } bezahlen
 
 churn-stay-subscribed-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
-churn-stay-subscribed-button-stay-subscribed-and-save-discount = Bleiben Sie abonniert und sparen Sie { $discountPercent } %
-churn-stay-subscribed-button-stay-subscribed-and-save = Abonnieren und sparen
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Verlängern Sie Ihr Abonnement und sparen Sie { $discountPercent } %
+churn-stay-subscribed-button-stay-subscribed-and-save = Abo verlängern und Sparen
 churn-stay-subscribed-button-no-thanks = Nein, danke
     .aria-label = Zurück zur Seite mit den Abonnements
 churn-stay-subscribed-link-terms-and-restrictions = Es gelten begrenzte Bedingungen und Einschränkungen
@@ -232,13 +232,13 @@ churn-stay-subscribed-title-offer-expired = Dieses Angebot ist abgelaufen
 
 ## $productName (String) - The name of the product associated with the subscription.
 
-churn-stay-subscribed-subtitle-offer-expired = Möchten Sie weiterhin { $productName } verwenden?
+churn-stay-subscribed-subtitle-offer-expired = Möchten Sie { $productName } weiterhin verwenden?
 churn-stay-subscribed-message-access-will-continue = Ihr Zugriff auf { $productName } bleibt bestehen und Ihr Abrechnungsrhythmus und Ihre Zahlung bleiben gleich.
 churn-stay-subscribed-title-subscription-renewed = Abonnement verlängert
 churn-stay-subscribed-title-subscription-active = Ihr Abonnement von { $productName } ist aktiv
 churn-stay-subscribed-thanks-valued-subscriber = Danke, dass Sie ein geschätzter Abonnent sind!
 churn-stay-subscribed-button-go-to-product-page = { $productName } aufrufen
-churn-stay-subscribed-button-go-to-subscriptions = Zu Abonnements
+churn-stay-subscribed-button-go-to-subscriptions = Zu den Abonnements
 churn-stay-subscribed-button-stay-subscribed = Abonnement beibehalten
 
 ## Component - CouponForm
@@ -402,7 +402,7 @@ churn-error-page-button-manage-subscriptions = Abonnements verwalten
 churn-error-page-button-contact-support = Hilfe kontaktieren
 churn-error-page-button-try-again = Erneut versuchen
 churn-error-page-title-general-error = Bei der Erneuerung Ihres Abonnements ist ein Problem aufgetreten
-churn-error-page-message-general-error = Wenden Sie sich an den Support oder versuchen Sie es erneut.
+churn-error-page-message-general-error = Wenden Sie sich an die Hilfe oder versuchen Sie es erneut.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = { $productName } aufrufen
 # $productName (String) - The name of the product associated with the subscription.
@@ -537,12 +537,12 @@ manage-payment-method-intent-error-generic = Beim Verarbeiten Ihrer Zahlung ist 
 next-charge-with-discount-and-tax-card = Sie sparen { $discountPercent }% bei Ihrer nächsten Abbuchung von { $nextInvoiceTotal } + { $taxDue } Steuern auf die Karte, die auf { $last4 } auf { $currentPeriodEnd } endet.
 next-charge-with-discount-and-tax-payment-method = Sie sparen { $discountPercent }% bei Ihrer nächsten Abbuchung von { $nextInvoiceTotal } + { $taxDue } Steuern auf Ihre Zahlungsmethode { $paymentMethod } mit { $currentPeriodEnd }.
 next-charge-next-charge-with-discount-and-tax = Sie sparen { $discountPercent }% bei Ihrer nächsten Abbuchung von { $nextInvoiceTotal } + { $taxDue } Steuern von { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-card = Sie sparen { $discountPercent }% bei Ihrer nächsten Abbuchung von { $nextInvoiceTotal } für die Karte, die auf { $last4 } endet, auf { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-payment-method = Sie sparen { $discountPercent }% bei Ihrer nächsten Abbuchung von { $nextInvoiceTotal } für Ihre Zahlungsmethode { $paymentMethod } für { $currentPeriodEnd }.
-next-charge-with-discount-no-tax = Sie sparen { $discountPercent }% bei Ihrer nächsten Entnahme von { $nextInvoiceTotal } vom { $currentPeriodEnd }.
-next-charge-with-tax-card = Ihre nächste Abbuchung ist { $nextInvoiceTotal } + { $taxDue } Steuern für die Karte, die auf { $last4 } endet auf { $currentPeriodEnd }.
-next-charge-with-tax-payment-method = Die nächste Abbuchung beträgt { $nextInvoiceTotal } + { $taxDue } Steuern mit Ihrer { $paymentMethod } Zahlungsmethode für { $currentPeriodEnd }.
-next-charge-with-tax = Ihre nächste Rechnung beträgt { $nextInvoiceTotal } + { $taxDue } Steuern zum { $currentPeriodEnd }.
-next-charge-no-tax-card = Ihre nächste Abbuchung beträgt { $nextInvoiceTotal } für die Karte, die auf { $last4 } auf { $currentPeriodEnd } endet.
+next-charge-with-discount-no-tax-card = Sie sparen { $discountPercent }% bei Ihrer nächsten Abbuchung von { $nextInvoiceTotal } für die Karte, die auf { $last4 } endet, am { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Sie sparen { $discountPercent }% bei Ihrer nächsten Abbuchung von { $nextInvoiceTotal } für Ihre Zahlungsmethode { $paymentMethod } am { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Sie sparen { $discountPercent }% bei Ihrer nächsten Entnahme von { $nextInvoiceTotal } am { $currentPeriodEnd }.
+next-charge-with-tax-card = Ihre nächste Abbuchung ist { $nextInvoiceTotal } + { $taxDue } Steuern für die Karte, die auf { $last4 } endet, am { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Die nächste Abbuchung beträgt { $nextInvoiceTotal } + { $taxDue } Steuern mit Ihrer { $paymentMethod } Zahlungsmethode am { $currentPeriodEnd }.
+next-charge-with-tax = Ihre nächste Rechnung beträgt { $nextInvoiceTotal } + { $taxDue } Steuern am { $currentPeriodEnd }.
+next-charge-no-tax-card = Ihre nächste Abbuchung beträgt { $nextInvoiceTotal } für die Karte, die auf { $last4 } endet, am { $currentPeriodEnd } .
 next-charge-no-tax-payment-method = Ihre nächste Abbuchung beträgt { $nextInvoiceTotal } von Ihrer Zahlungsmethode { $paymentMethod } am { $currentPeriodEnd }.
 next-charge-no-tax = Ihre nächste Rechnung beträgt { $nextInvoiceTotal } zum { $currentPeriodEnd }.
