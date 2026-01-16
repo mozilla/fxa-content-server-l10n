@@ -635,6 +635,26 @@ subscriptionDowngrade-content-charge-info = A partir de tu próxima factura, tu 
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Si hay que instalar un programa nuevo  para utilizar { $productName }, vas a recibir un correo electrónico por separado con instrucciones para la descarga.
 subscriptionDowngrade-content-auto-renew = Tu suscripción se renovará automáticamente cada período de facturación a menos que elijas cancelar.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Tu suscripción de { $productName } expirará pronto
+subscriptionEndingReminder-title = Tu suscripción de { $productName } expirará pronto
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Tu acceso a { $productName } terminará el <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Si querés continuar usando { $productName }, podés reactivar tu suscripción en <a data-l10n-name="subscriptionEndingReminder-account-settings">Configuración de cuenta</a> antes de <strong>{ $serviceLastActiveDateOnly }</strong >. Si necesitás ayuda, <a data-l10n-name="subscriptionEndingReminder-contact-support">contactate con nuestro equipo de soporte</a>.
+subscriptionEndingReminder-content-line1-plaintext = Tu acceso a { $productName } terminará el { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Si querés continuar usando { $productName }, podés reactivar tu suscripción en Configuración de la cuenta antes de { $serviceLastActiveDateOnly }. Si necesitás ayuda, contactá a nuestro equipo de soporte.
+subscriptionEndingReminder-content-closing = ¡Gracias por ser un valioso suscriptor!
+subscriptionEndingReminder-churn-title = ¿Querés mantener el acceso?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Aplican términos y restricciones limitados</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Aplican términos y restricciones limitados: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Contactá a nuestro equipo de soporte: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Se canceló tu suscripción de { $productName }

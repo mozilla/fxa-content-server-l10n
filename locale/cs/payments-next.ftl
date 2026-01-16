@@ -109,6 +109,12 @@ not-found-title-subscriptions = Předplatné nebylo nalezeno
 not-found-description-subscriptions = Vaše předplatné se nepodařilo najít. Zkuste to znovu nebo kontaktujte podporu.
 not-found-button-back-to-subscriptions = Zpět na předplatné
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Stránka nenalezena
+not-found-loyalty-discount-description = Stránka, kterou hledáte, neexistuje.
+not-found-loyalty-discount-button-back-to-subscriptions = Zpět na předplatné
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nebyla přidána žádná platební metoda
@@ -212,6 +218,28 @@ next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokonči
 
 next-new-user-submit = Předplatit
 next-pay-with-heading-paypal = Zaplatit přes { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Zůstaňte předplatiteli a ušetřete { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Zůstaňte předplatiteli a ušetřete
+churn-stay-subscribed-button-no-thanks = Ne, děkuji
+    .aria-label = Zpět na stránku s předplatnými
+churn-stay-subscribed-link-terms-and-restrictions = Na nabídku se vztahují omezené podmínky
+churn-stay-subscribed-title-offer-expired = Nabídka vypršela
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Chcete i nadále používat { $productName }?
+churn-stay-subscribed-message-access-will-continue = Váš přístup k produktu { $productName } bude pokračovat a váš fakturační cyklus a platba zůstanou beze změny.
+churn-stay-subscribed-title-subscription-renewed = Předplatné obnoveno
+churn-stay-subscribed-title-subscription-active = Vaše předplatné za { $productName } je aktivní
+churn-stay-subscribed-thanks-valued-subscriber = Děkujeme, že jste našimi odběrateli!
+churn-stay-subscribed-button-go-to-product-page = Přejít na { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Přejít na Předplatné
+churn-stay-subscribed-button-stay-subscribed = Ponechat předplatné
 
 ## Component - CouponForm
 
@@ -354,6 +382,9 @@ subscription-content-button-stay-subscribed = Zachovat předplatné
     .aria-label = Zachovejte si předplatné produktu { $productName }
 subscription-content-button-cancel-subscription = Zrušit předplatné
     .aria-label = Zrušení předplatného { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Na nabídku se vztahují obchodní podmínky
+subscription-content-link-churn-intervention-terms-aria = Zobrazit podmínky a omezení pro kupóny
 
 ##
 
@@ -361,6 +392,23 @@ dialog-close = Zavřít dialog
 button-back-to-subscriptions = Zpět na předplatné
 subscription-content-cancel-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
 paypal-unavailable-error = { -brand-paypal } není v současné době k dispozici. Použijte prosím jinou možnost platby nebo to zkuste později.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Slevový kód byl již uplatněn
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Tato sleva byla uplatněna na předplatné za { $productName } pro váš účet. Pokud stále potřebujete pomoci, kontaktujte náš tým podpory.
+churn-error-page-button-manage-subscriptions = Spravovat odebírání
+churn-error-page-button-contact-support = Kontaktovat podporu
+churn-error-page-button-try-again = Zkusit znovu
+churn-error-page-title-general-error = Při obnovení vašeho předplatného došlo k chybě
+churn-error-page-message-general-error = Kontaktujte podporu nebo to zkuste znovu.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Přejít na { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Tato sleva je dostupná pouze pro stávající předplatitele { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Vaše předplatné za { $productName } je stále aktivní
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -478,3 +526,23 @@ manage-payment-method-intent-error-try-again = Hmm. Došlo k problému s autoriz
 manage-payment-method-intent-error-get-in-touch = Hmm. Došlo k problému s autorizací vaší platby. Obraťte se na svého vydavatele karty.
 manage-payment-method-intent-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste jinou kartu.
 manage-payment-method-intent-error-generic = Při zpracování vaší platby došlo k neočekávané chybě, zkuste to prosím znovu.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Dne { $currentPeriodEnd } ušetříte { $discountPercent } % při příští platbě { $nextInvoiceTotal } + { $taxDue } daň z vaší karty končící na { $last4 }.
+next-charge-with-discount-and-tax-payment-method = Dne { $currentPeriodEnd } ušetříte { $discountPercent } % na vaší příští platbě ve výši { $nextInvoiceTotal } + { $taxDue } daň vaší metodou { $paymentMethod }.
+next-charge-next-charge-with-discount-and-tax = Dne { $currentPeriodEnd } ušetříte { $discountPercent }% na příští platbě { $nextInvoiceTotal } + { $taxDue } daň.
+next-charge-with-discount-no-tax-card = Při příští platbě { $nextInvoiceTotal } z vaší karty končící na { $last4 } ušetříte { $discountPercent } % dne { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Na vaší příští platbě ve výši { $nextInvoiceTotal } vaší platební metodou { $paymentMethod } ušetříte { $discountPercent } % dne { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Při příští platbě { $nextInvoiceTotal } dne { $currentPeriodEnd } ušetříte { $discountPercent }%.
+next-charge-with-tax-card = Příští platba bude { $nextInvoiceTotal } + { $taxDue } daň z vaší karty končící na { $last4 } dne { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Další platba bude { $nextInvoiceTotal } + { $taxDue } daň vaší platební metodou { $paymentMethod } dne { $currentPeriodEnd }.
+next-charge-with-tax = Vaše další platba bude { $nextInvoiceTotal } + { $taxDue } daň dne { $currentPeriodEnd }.
+next-charge-no-tax-card = Příští platba bude { $nextInvoiceTotal } z vaší karty končící na { $last4 } dne { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Příští platba bude { $nextInvoiceTotal } vaší platební metodou { $paymentMethod } dne { $currentPeriodEnd }.
+next-charge-no-tax = Příští platba { $nextInvoiceTotal } vám bude účtována dne { $currentPeriodEnd }.

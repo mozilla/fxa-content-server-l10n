@@ -109,6 +109,12 @@ not-found-title-subscriptions = Naročnine ni mogoče najti
 not-found-description-subscriptions = Vaše naročnine ni bilo mogoče najti. Poskusite znova ali pa se obrnite na podporo.
 not-found-button-back-to-subscriptions = Nazaj na naročnine
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Strani ni mogoče najti
+not-found-loyalty-discount-description = Stran, ki jo iščete, ne obstaja.
+not-found-loyalty-discount-button-back-to-subscriptions = Nazaj na naročnine
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Dodano ni nobeno plačilno sredstvo
@@ -212,6 +218,28 @@ next-payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 next-new-user-submit = Naroči se zdaj
 next-pay-with-heading-paypal = Plačaj s { -brand-paypal }om
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Ostanite naročeni in prihranite { $discountPercent } %
+churn-stay-subscribed-button-stay-subscribed-and-save = Ostanite naročeni in prihranite
+churn-stay-subscribed-button-no-thanks = Ne, hvala
+    .aria-label = Nazaj na stran z naročninami
+churn-stay-subscribed-link-terms-and-restrictions = Veljajo omejeni pogoji in omejitve
+churn-stay-subscribed-title-offer-expired = Ta ponudba je potekla
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Želite še naprej uporabljati { $productName }?
+churn-stay-subscribed-message-access-will-continue = Ohranili boste dostop do { $productName }, obračun in plačilo pa bosta ostala nespremenjena.
+churn-stay-subscribed-title-subscription-renewed = Naročnina obnovljena
+churn-stay-subscribed-title-subscription-active = Vaša naročnina na { $productName } je aktivna
+churn-stay-subscribed-thanks-valued-subscriber = Hvala, ker ste cenjen naročnik!
+churn-stay-subscribed-button-go-to-product-page = Pojdi na { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Pojdite na Naročnine
+churn-stay-subscribed-button-stay-subscribed = Ohrani naročnino
 
 ## Component - CouponForm
 
@@ -354,6 +382,9 @@ subscription-content-button-stay-subscribed = Ostanite naročnik
     .aria-label = Ostanite naročeni na { $productName }
 subscription-content-button-cancel-subscription = Prekliči naročnino
     .aria-label = Prekličite naročnino na { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Veljajo pogoji
+subscription-content-link-churn-intervention-terms-aria = Oglejte si pogoje in omejitve kuponov
 
 ##
 
@@ -361,6 +392,23 @@ dialog-close = Zapri pogovorno okno
 button-back-to-subscriptions = Nazaj na naročnine
 subscription-content-cancel-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
 paypal-unavailable-error = { -brand-paypal } trenutno ni na voljo. Uporabite drugo plačilno sredstvo ali poskusite znova pozneje.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Koda za popust je že uveljavljena
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Ta popust je bil uveljavljen za naročnino { $productName } za vaš račun. Če še vedno potrebujete pomoč, se obrnite na našo skupino za podporo.
+churn-error-page-button-manage-subscriptions = Upravljanje naročnin
+churn-error-page-button-contact-support = Obrnite se na podporo
+churn-error-page-button-try-again = Poskusi znova
+churn-error-page-title-general-error = Pri podaljšanju naročnine je prišlo do težave
+churn-error-page-message-general-error = Obrnite se na podporo ali poskusite znova.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Pojdi na { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Ta popust je na voljo samo za trenutne naročnike { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Vaša naročnina na { $productName } je še vedno aktivna
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -478,3 +526,23 @@ manage-payment-method-intent-error-try-again = Hmm. Pri avtorizaciji vašega pla
 manage-payment-method-intent-error-get-in-touch = Hmm. Pri avtorizaciji vašega plačila je prišlo do težave. Obrnite se na izdajatelja kartice.
 manage-payment-method-intent-error-insufficient-funds = Videti je, da na vaši kartici ni dovolj sredstev. Poskusite z drugo kartico.
 manage-payment-method-intent-error-generic = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Ob naslednji bremenitvi { $nextInvoiceTotal } + { $taxDue } davek na kartico, ki se konča s { $last4 }, boste dne { $currentPeriodEnd } prihranili { $discountPercent }%.
+next-charge-with-discount-and-tax-payment-method = Ob naslednji bremenitvi { $nextInvoiceTotal } + { $taxDue } davek na plačilno sredstvo { $paymentMethod } dan { $currentPeriodEnd } boste prihranili { $discountPercent } %.
+next-charge-next-charge-with-discount-and-tax = Prihranili boste { $discountPercent } % ob naslednji bremenitvi { $nextInvoiceTotal } + { $taxDue } davek { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Ob naslednji bremenitvi { $currentPeriodEnd } kartice, ki se konča s { $last4 }, boste prihranili { $discountPercent } %.
+next-charge-with-discount-no-tax-payment-method = Ob naslednji bremenitvi { $paymentMethod } plačilnega sredstva { $currentPeriodEnd } boste prihranili { $discountPercent } %.
+next-charge-with-discount-no-tax = Ob naslednji bremenitvi { $currentPeriodEnd } v višini { $nextInvoiceTotal } boste prihranili { $discountPercent }%.
+next-charge-with-tax-card = Naslednja bremenitev kartice, ki se konča s { $last4 }, bo { $currentPeriodEnd } { $nextInvoiceTotal } + { $taxDue } davek.
+next-charge-with-tax-payment-method = Naslednja bremenitev bo { $nextInvoiceTotal } + { $taxDue } davek na vaše plačilno sredstvo { $paymentMethod } dne { $currentPeriodEnd }.
+next-charge-with-tax = Naslednja bremenitev bo { $nextInvoiceTotal } + { $taxDue } davek { $currentPeriodEnd }.
+next-charge-no-tax-card = Vaša naslednja bremenitev kartice, ki se konča s { $last4 }, bo { $currentPeriodEnd } { $nextInvoiceTotal }.
+next-charge-no-tax-payment-method = Naslednja bremenitev vašega plačilnega sredstva { $paymentMethod } bo { $currentPeriodEnd } { $nextInvoiceTotal }.
+next-charge-no-tax = Naslednja bremenitev bo { $currentPeriodEnd } { $nextInvoiceTotal }.

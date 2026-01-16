@@ -111,6 +111,12 @@ not-found-title-subscriptions = Az előfizetés nem található
 not-found-description-subscriptions = Nem találtuk az előfizetését. Próbálja újra, vagy lépjen kapcsolatba az ügyfélszolgálattal.
 not-found-button-back-to-subscriptions = Vissza az előfizetésekhez
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Az oldal nem található
+not-found-loyalty-discount-description = A keresett oldal nem létezik.
+not-found-loyalty-discount-button-back-to-subscriptions = Vissza az előfizetésekhez
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nincs fizetési mód hozzáadva
@@ -214,6 +220,28 @@ next-payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 next-new-user-submit = Előfizetés most
 next-pay-with-heading-paypal = Fizetés { -brand-paypal }lal
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Váratlan hiba történt. Próbálja meg újra.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Előfizetés marad, és takarítson meg { $discountPercent }%-ot
+churn-stay-subscribed-button-stay-subscribed-and-save = Maradjon előfizetés, és takarítson meg
+churn-stay-subscribed-button-no-thanks = Köszönöm, nem
+    .aria-label = Vissza az Előfizetések oldalra
+churn-stay-subscribed-link-terms-and-restrictions = Korlátozott feltételek és korlátozások vonatkoznak rá
+churn-stay-subscribed-title-offer-expired = Ez az ajánlat lejárt
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Továbbra is szeretné ezt használni: { $productName }?
+churn-stay-subscribed-message-access-will-continue = A(z) { $productName } hozzáférése megmarad, a számlázási és fizetési ciklusa is változatlan marad.
+churn-stay-subscribed-title-subscription-renewed = Előfizetés megújítva
+churn-stay-subscribed-title-subscription-active = { $productName } előfizetése aktív
+churn-stay-subscribed-thanks-valued-subscriber = Köszönjük, hogy értékes előfizető lett!
+churn-stay-subscribed-button-go-to-product-page = Ugrás ide: { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Ugrás az Előfizetésekhez
+churn-stay-subscribed-button-stay-subscribed = Előfizetés megtartása
 
 ## Component - CouponForm
 
@@ -356,6 +384,9 @@ subscription-content-button-stay-subscribed = Előfizetés megtartása
     .aria-label = { $productName } előfizetés megtartása
 subscription-content-button-cancel-subscription = Előfizetés lemondása
     .aria-label = { $productName } előfizetés megszüntetése
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Feltételek érvényesek
+subscription-content-link-churn-intervention-terms-aria = Tekintse meg a kuponok feltételeit és korlátozásait
 
 ##
 
@@ -363,6 +394,23 @@ dialog-close = Párbeszédablak bezárása
 button-back-to-subscriptions = Vissza az előfizetésekhez
 subscription-content-cancel-action-error = Váratlan hiba történt. Próbálja meg újra.
 paypal-unavailable-error = A { -brand-paypal } jelenleg nem érhető el. Válasszon másik fizetési lehetőséget, vagy próbálja újra később.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = A kedvezménykód már alkalmazva
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Ez a kedvezmény a fiókja { $productName } előfizetésére lett használva. Ha továbbra is segítségre van szüksége, forduljon támogatási csapatunkhoz.
+churn-error-page-button-manage-subscriptions = Feliratkozások kezelése
+churn-error-page-button-contact-support = Kapcsolatfelvétel az ügyfélszolgálattal
+churn-error-page-button-try-again = Próbálja újra
+churn-error-page-title-general-error = Hiba történt az előfizetés megújításakor
+churn-error-page-message-general-error = Lépjen kapcsolatba az ügyfélszolgálattal, vagy próbálja újra.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Ugrás ide: { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Ez a kedvezmény csak a jelenlegi { $productName } előfizetők számára érhető el
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = A(z) { $productName } előfizetése még aktív
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -480,3 +528,23 @@ manage-payment-method-intent-error-try-again = Hmm. Hiba történt a fizetés j�
 manage-payment-method-intent-error-get-in-touch = Hmm. Hiba történt a fizetés jóváhagyásakor. Vegye fel a kapcsolatot a kártyakibocsátóval.
 manage-payment-method-intent-error-insufficient-funds = Úgy tűnik, hogy a bankkártyán kevés a fedezet. Próbálkozzon egy másik kártyával.
 manage-payment-method-intent-error-generic = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = { $discountPercent }%-ot takarít meg a(z) { $last4 } végű kártya { $currentPeriodEnd } napján, { $nextInvoiceTotal } + { $taxDue } adóval.
+next-charge-with-discount-and-tax-payment-method = { $discountPercent }%-ot takarít meg a következő { $nextInvoiceTotal } + { $taxDue } adó terheléskor, amelynek segítségével a(z) { $paymentMethod } fizetési módot terheli a rendszer, ekkor: { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = { $discountPercent }%-ot takarít meg a következő { $nextInvoiceTotal } terhelésen + { $taxDue } adó ekkor: { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = { $discountPercent }%-ot takarít meg a(z) { $last4 } végű kártya { $nextInvoiceTotal } összegű következő terhelésén, ekkor: { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = { $discountPercent }%-ot takarít meg a következő { $nextInvoiceTotal } terhelésnél, amelynek segítségével a(z) { $paymentMethod } fizetési módot választja ekkor: { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = { $discountPercent }%-ot takarít meg a következő { $nextInvoiceTotal } terheléskor, ekkor: { $currentPeriodEnd }.
+next-charge-with-tax-card = A(z) { $last4 } végű kártya következő terhelése { $nextInvoiceTotal } + { $taxDue } adó lesz ekkor: { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = A következő terhelés { $nextInvoiceTotal } + { $taxDue } adó lesz a(z) { $paymentMethod } fizetési módjára ekkor: { $currentPeriodEnd }.
+next-charge-with-tax = A következő terhelés { $nextInvoiceTotal } + { $taxDue } adó lesz ekkor: { $currentPeriodEnd }.
+next-charge-no-tax-card = A { $last4 } végű kártya következő terhelése { $nextInvoiceTotal } lesz, ekkor: { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = A következő terhelés { $nextInvoiceTotal } lesz a(z) { $paymentMethod } fizetési módodra, ekkor: { $currentPeriodEnd }.
+next-charge-no-tax = A következő terhelés { $nextInvoiceTotal } lesz ekkor: { $currentPeriodEnd }.

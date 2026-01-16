@@ -644,6 +644,17 @@ subscriptionEndingReminder-title = A { $productName }-előfizetése hamarosan le
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = A(z) { $productName } szolgáltatáshoz való hozzáférése ekkor jár le: <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line2 = Ha továbbra is szeretné használni a { $productName } szolgáltatást, akkor a <a data-l10n-name="subscriptionEndingReminder-account-settings">Fiókbeállítások</a> részben <strong>{ $serviceLastActiveDateOnly }</strong> előtt aktiválhatja az előfizetését. Ha segítségre van szüksége, <a data-l10n-name="subscriptionEndingReminder-contact-support">lépjen kapcsolatba az ügyfélszolgálati csapatunkkal</a>.
+subscriptionEndingReminder-content-line1-plaintext = A(z) { $productName } hozzáférése ekkor ér véget: { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Ha továbbra is szeretné használni a(z) { $productName } kiegészítőt, akkor még { $serviceLastActiveDateOnly } előtt újraaktiválhatja az előfizetését a Fiókbeállításokban. Ha segítségre van szüksége, forduljon támogatási csapatunkhoz.
+subscriptionEndingReminder-content-closing = Köszönjük, hogy értékes előfizető lett!
+subscriptionEndingReminder-churn-title = Meg szeretné tartani a hozzáférést?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Korlátozott feltételek és korlátozások vonatkoznak erre</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Korlátozott feltételek és korlátozások vonatkoznak: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Lépjen kapcsolatba támogatási csapatunkkal: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Lemondta a(z) { $productName } előfizetését

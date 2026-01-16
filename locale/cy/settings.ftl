@@ -1265,6 +1265,14 @@ tfa-row-verify-session-info = Mae angen i chi gadarnhau eich sesiwn gyfredol i o
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = Drwy symud ymlaen, rydych yn cytuno i’r canlynol:
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Telerau Gwasanaeth</termsLink> a <privacyLink>Hysbysiad Preifatrwydd</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>Telerau Gwasanaeth</mozillaAccountsTos> a <mozillaAccountsPrivacy>Hysbysiad Preifatrwydd</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Drwy barhau, rydych yn cytuno i <mozillaAccountsTos>Amodau Gwasanaeth</mozillaAccountsTos> a <mozillaAccountsPrivacy>Hysbysiad Preifatrwydd</mozillaAccountsPrivacy>.
 

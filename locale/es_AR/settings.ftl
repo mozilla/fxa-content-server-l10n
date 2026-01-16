@@ -1245,6 +1245,14 @@ tfa-row-verify-session-info = Necesitás confirmar tu sesión actual para config
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = Al continuar, aceptás lo siguiente:
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Términos del servicio</termsLink> y <privacyLink>nota de privacidad</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: Términos de servicio <mozillaAccountsTos></mozillaAccountsTos> y nota de privacidad <mozillaAccountsPrivacy></mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Al continuar, aceptás los <mozillaAccountsTos>Términos de servicio</mozillaAccountsTos> y la <mozillaAccountsPrivacy>Nota de privacidad</mozillaAccountsPrivacy>.
 
