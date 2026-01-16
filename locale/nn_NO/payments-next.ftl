@@ -109,6 +109,12 @@ not-found-title-subscriptions = Fann ikkje abonnementet
 not-found-description-subscriptions = Vi fann ikkje abonnementet ditt. Prøv på nytt eller kontakt brukarstøtte.
 not-found-button-back-to-subscriptions = Tilbake til abonnementa
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Fann ikkje sida
+not-found-loyalty-discount-description = Sida du leitar etter finst ikkje.
+not-found-loyalty-discount-button-back-to-subscriptions = Tilbake til abonnementa
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmåte lagt til
@@ -212,6 +218,26 @@ next-payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 next-new-user-submit = Abonner no
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Det oppstod ein uventa feil. Prøv på nytt.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Fortset å abonnere og spar { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Fortset å abonnere og spar
+churn-stay-subscribed-button-no-thanks = Nei takk
+    .aria-label = Tilbake til abonnentsida
+churn-stay-subscribed-link-terms-and-restrictions = Avgrensa vilkår og restriksjonar gjeld
+churn-stay-subscribed-title-offer-expired = Dette tilbodet gjeld ikkje lenger
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Vil du halde fram med å bruke { $productName }?
+churn-stay-subscribed-message-access-will-continue = Tilgangen din til { $productName } vil halde fram, og faktureringssyklusen og betalinga di vil halde fram med å vere den same.
+churn-stay-subscribed-title-subscription-renewed = Abonnementet er fornya
+churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnement
+churn-stay-subscribed-button-stay-subscribed = Fortset å abonnere
 
 ## Component - CouponForm
 
@@ -365,6 +391,14 @@ button-back-to-subscriptions = Tilbake til abonnementa
 subscription-content-cancel-action-error = Det oppstod ein uventa feil. Prøv på nytt.
 paypal-unavailable-error = { -brand-paypal } er akkurat no utilgjengeleg. Bruk eit anna betalingsalternativ eller prøv på nytt seinare.
 
+## Churn flow - Error page
+
+churn-error-page-button-manage-subscriptions = Handsam abonnement
+churn-error-page-button-contact-support = Kontakt support
+churn-error-page-button-try-again = Prøv igjen
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Gå til { $productName }
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -481,3 +515,12 @@ manage-payment-method-intent-error-try-again = Hmm. Det oppstod eit problem med 
 manage-payment-method-intent-error-get-in-touch = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta kontakt med kortutskrivaren din.
 manage-payment-method-intent-error-insufficient-funds = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
 manage-payment-method-intent-error-generic = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-no-tax = Den neste belastninga di blir { $nextInvoiceTotal } den { $currentPeriodEnd }.

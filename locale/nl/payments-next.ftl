@@ -109,6 +109,12 @@ not-found-title-subscriptions = Abonnement niet gevonden
 not-found-description-subscriptions = We kunnen uw abonnement niet vinden. Probeer het opnieuw of neem contact op.
 not-found-button-back-to-subscriptions = Terug naar abonnementen
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Pagina niet gevonden
+not-found-loyalty-discount-description = De door u gezochte pagina bestaat niet.
+not-found-loyalty-discount-button-back-to-subscriptions = Terug naar abonnementen
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Geen betalingsmethode toegevoegd
@@ -212,6 +218,19 @@ next-payment-confirm-checkbox-error = U dient dit te voltooien voordat u verder 
 
 next-new-user-submit = Nu abonneren
 next-pay-with-heading-paypal = Betalen met { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
+churn-stay-subscribed-title-offer-expired = Deze aanbieding is verlopen
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Wilt u { $productName } blijven gebruiken?
+churn-stay-subscribed-message-access-will-continue = U behoudt toegang tot { $productName } en uw betalingscyclus en betaling blijven ongewijzigd.
+churn-stay-subscribed-thanks-valued-subscriber = Bedankt dat u een gewaardeerde abonnee bent!
+churn-stay-subscribed-button-go-to-product-page = Naar { $productName }
+churn-stay-subscribed-button-stay-subscribed = Abonnement behouden
 
 ## Component - CouponForm
 
@@ -364,6 +383,18 @@ dialog-close = Dialoogvenster sluiten
 button-back-to-subscriptions = Terug naar abonnementen
 subscription-content-cancel-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
 paypal-unavailable-error = { -brand-paypal } is momenteel niet beschikbaar. Gebruik een andere betalingsoptie of probeer het later opnieuw.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Kortingscode al toegepast
+churn-error-page-button-manage-subscriptions = Abonnementen beheren
+churn-error-page-button-contact-support = Contact opnemen
+churn-error-page-button-try-again = Opnieuw proberen
+churn-error-page-title-general-error = Er is een probleem opgetreden bij het verlengen van uw abonnement
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Naar { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Deze korting is alleen beschikbaar voor huidige abonnees van { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
