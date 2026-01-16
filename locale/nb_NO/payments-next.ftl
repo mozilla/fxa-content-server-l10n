@@ -388,6 +388,18 @@ button-back-to-subscriptions = Tilbake til abonnementer
 subscription-content-cancel-action-error = Det oppstod en uventet feil. Prøv på nytt.
 paypal-unavailable-error = { -brand-paypal } er for øyeblikket utilgjengelig. Bruk et annet betalingsalternativ eller prøv på nytt senere.
 
+## Churn flow - Error page
+
+churn-error-page-button-try-again = Prøv igjen
+churn-error-page-title-general-error = Det oppsto et problem med å fornye abonnementet ditt
+churn-error-page-message-general-error = Kontakt brukerstøtte eller prøv på nytt.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Gå til { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Denne rabatten er kun tilgjengelig for nåværende { $productName }-abonnenter
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Ditt abonnement på { $productName } er fortsatt aktivt.
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
