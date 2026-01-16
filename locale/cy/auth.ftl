@@ -664,7 +664,7 @@ subscriptionEndingReminder-title = Bydd eich tanysgrifiad o { $productName } yn 
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Bydd eich mynediad i { $productName } yn gorffen ar <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2 = Os hoffech chi barhau i ddefnyddio { $productName } , gallwch ail-greu eich tanysgrifiad yn eich <a data-l10n-name="subscriptionEndingReminder-account-settings">Gosodiadau Cyfrif</a> cyn <strong>{ $serviceLastActiveDateOnly }< /cryf>. Os oes angen cymorth arnoch, <a data-l10n-name="subscriptionEndingReminder-contact-support">cysylltwch â'n Tîm Cymorth</a>.
+subscriptionEndingReminder-content-line2 = Os hoffech chi barhau i ddefnyddio { $productName } , gallwch ail-greu eich tanysgrifiad yn eich <a data-l10n-name="subscriptionEndingReminder-account-settings">Gosodiadau Cyfrif</a> cyn <strong>{ $serviceLastActiveDateOnly }</strong>. Os oes angen cymorth arnoch, <a data-l10n-name="subscriptionEndingReminder-contact-support">cysylltwch â'n Tîm Cymorth</a>.
 subscriptionEndingReminder-content-line1-plaintext = Bydd eich mynediad i { $productName } yn gorffen ar { $serviceLastActiveDateOnly } .
 subscriptionEndingReminder-content-line2-plaintext = Os hoffech barhau i ddefnyddio { $productName }, gallwch ail-greu eich tanysgrifiad yng Ngosodiadau eich Cyfrif cyn { $serviceLastActiveDateOnly }. Os oes angen cymorth arnoch, cysylltwch â'n Tîm Cymorth.
 subscriptionEndingReminder-content-closing = Diolch am fod yn danysgrifiwr gwerthfawr!

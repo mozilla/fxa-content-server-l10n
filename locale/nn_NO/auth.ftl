@@ -657,7 +657,7 @@ subscriptionEndingReminder-title = Abonnementet ditt på { $productName } går s
 subscriptionEndingReminder-content-line1 = Tilgangen din til { $productName } vert avslutta <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line2 = Om du ønskjer å halde fram med å bruke { $productName }, kan du reaktivere abonnementet ditt i <a data-l10n-name="subscriptionEndingReminder-account-settings">kontoinnstillingane</a> før <strong>{ $serviceLastActiveDateOnly }</strong>. Om du treng hjelp, kan du <a data-l10n-name="subscriptionEndingReminder-contact-support">kontakte kundestøtteteamet vårt</a>.
 subscriptionEndingReminder-content-line1-plaintext = Tilgangen din til { $productName } vert avslutta { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Om du ønskjer å halde fram med å bruke { $productName }, kan du reaktivere abonnementet ditt i <a data-l10n-name="subscriptionEndingReminder-account-settings">kontoinnstillingane</a> før <strong>{ $serviceLastActiveDateOnly }</strong>. Om du treng hjelp, kan du <a data-l10n-name="subscriptionEndingReminder-contact-support">kontakte kundestøtteteamet vårt</a>.
+subscriptionEndingReminder-content-line2-plaintext = Om du ønskjer å halde fram med å bruke { $productName }, kan du reaktivere abonnementet ditt i kontoinnstillingane før { $serviceLastActiveDateOnly }. Om du treng hjelp, kan du kontakte kundestøtteteamet vårt.
 subscriptionEndingReminder-content-closing = Takk for at du er ein verdsett abonnent!
 subscriptionEndingReminder-churn-title = Vil du behalde tilgangen?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Avgrensa vilkår og restriksjonar gjeld</a>
