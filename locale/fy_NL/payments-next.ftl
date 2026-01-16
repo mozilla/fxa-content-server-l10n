@@ -535,3 +535,14 @@ manage-payment-method-intent-error-generic = Der is in ûnferwachte flater bard 
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
 next-charge-with-discount-and-tax-card = Jo besparje { $discountPercent }% op jo folgjende betelling op { $currentPeriodEnd } fan { $nextInvoiceTotal } + { $taxDue } btw fan de kaart dy’t einiget op { $last4 }.
+next-charge-with-discount-and-tax-payment-method = Jo besparje { $discountPercent }% op jo folgjende betelling op { $currentPeriodEnd } fan { $nextInvoiceTotal } + { $taxDue } btw fan jo { $paymentMethod }-betelmetoade.
+next-charge-next-charge-with-discount-and-tax = Jo besparje { $discountPercent }% op jo folgjende betelling fan { $nextInvoiceTotal } + { $taxDue } btw op { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Jo besparje { $discountPercent }% op jo folgjende betelling fan { $nextInvoiceTotal } fan de kaart dy’t einiget op { $last4 } op { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Jo besparje { $discountPercent }% op jo folgjende betelling op { $currentPeriodEnd } fan { $nextInvoiceTotal } fan jo { $paymentMethod }-betelmetoade.
+next-charge-with-discount-no-tax = Jo besparje { $discountPercent }% op jo folgjende betelling fan { $nextInvoiceTotal } op { $currentPeriodEnd }.
+next-charge-with-tax-card = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } + { $taxDue } btw fan de kaart dy’t einiget op { $last4 } op { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } + { $taxDue } btw fan jo { $paymentMethod }-betelmetoade op { $currentPeriodEnd }.
+next-charge-with-tax = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } + { $taxDue } btw op { $currentPeriodEnd }.
+next-charge-no-tax-card = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } fan de kaart dy’t einiget op { $last4 } op { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } fan jo { $paymentMethod }-betelmetoade op { $currentPeriodEnd }.
+next-charge-no-tax = Jo folgjende ôfskriuwing is { $nextInvoiceTotal } op { $currentPeriodEnd }.
