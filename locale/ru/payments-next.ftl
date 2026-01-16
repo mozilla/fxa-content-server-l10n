@@ -109,6 +109,12 @@ not-found-title-subscriptions = Подписка не найдена
 not-found-description-subscriptions = Мы не смогли найти вашу подписку. Пожалуйста, попробуйте ещё раз или обратитесь в службу поддержки.
 not-found-button-back-to-subscriptions = Вернуться к подпискам
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Страница не найдена
+not-found-loyalty-discount-description = Страницы, которую вы ищете, не существует.
+not-found-loyalty-discount-button-back-to-subscriptions = Вернуться к подпискам
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Способ оплаты не добавлен
@@ -212,6 +218,28 @@ next-payment-confirm-checkbox-error = Вы должны принять это, �
 
 next-new-user-submit = Подписаться
 next-pay-with-heading-paypal = Оплатить через { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Произошла непредвиденная ошибка. Повторите попытку.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Сохраняйте подписку и сэкономьте { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Оставить подписку и сэкономить
+churn-stay-subscribed-button-no-thanks = Нет, спасибо
+    .aria-label = Вернуться на страницу подписок
+churn-stay-subscribed-link-terms-and-restrictions = Действуют ограниченные условия и ограничения
+churn-stay-subscribed-title-offer-expired = Срок этого предложения истёк
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Хотите продолжать использовать { $productName }?
+churn-stay-subscribed-message-access-will-continue = Ваш доступ к { $productName } будет продолжаться, а ваш платёжный цикл и сумма оплаты останутся прежними.
+churn-stay-subscribed-title-subscription-renewed = Подписка обновлена
+churn-stay-subscribed-title-subscription-active = Ваша подписка на { $productName } активна
+churn-stay-subscribed-thanks-valued-subscriber = Спасибо за то, что являетесь ценным подписчиком!
+churn-stay-subscribed-button-go-to-product-page = Перейти к { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Перейти в подписки
+churn-stay-subscribed-button-stay-subscribed = Оставить подписку
 
 ## Component - CouponForm
 
@@ -365,6 +393,23 @@ button-back-to-subscriptions = Вернуться к подпискам
 subscription-content-cancel-action-error = Произошла непредвиденная ошибка. Повторите попытку.
 paypal-unavailable-error = { -brand-paypal } в данное время недоступен. Пожалуйста, используйте другой способ оплаты или повторите попытку позже.
 
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Код на скидку уже применён
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Эта скидка была применёна к подписке на { $productName } для вашего аккаунта. Если вам по-прежнему нужна помощь, свяжитесь с нашей службой поддержки.
+churn-error-page-button-manage-subscriptions = Управление подписками
+churn-error-page-button-contact-support = Связаться с поддержкой
+churn-error-page-button-try-again = Попробовать снова
+churn-error-page-title-general-error = При продлении вашей подписки возникла проблема
+churn-error-page-message-general-error = Обратитесь в поддержку или попробуйте снова.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Перейти к { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Эта скидка доступна только для текущих подписчиков { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Ваша подписка на { $productName } всё ещё активна
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -481,3 +526,23 @@ manage-payment-method-intent-error-try-again = Хм. При авторизаци
 manage-payment-method-intent-error-get-in-touch = Хм. При авторизации платежа произошла ошибка. Свяжитесь с издателем вашей карты.
 manage-payment-method-intent-error-insufficient-funds = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
 manage-payment-method-intent-error-generic = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Вы сэкономите { $discountPercent }% при следующем пожертвовании { $nextInvoiceTotal } + { $taxDue } с карты, заканчивающейся на { $last4 }. { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Вы сэкономите { $discountPercent }% на следующем списании { $nextInvoiceTotal } + { $taxDue } на вашем способе оплаты { $paymentMethod } { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Вы сэкономите { $discountPercent }% при следующем списании средств в { $nextInvoiceTotal } + { $taxDue } налог { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Вы сэкономите { $discountPercent }% при следующем платеже в размере { $nextInvoiceTotal } с карты, заканчивающейся на { $last4 }, { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Вы сэкономите { $discountPercent }% при следующем списании { $nextInvoiceTotal } на способе оплаты { $paymentMethod } { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Вы сэкономите { $discountPercent }% при следующем списании средств { $nextInvoiceTotal } { $currentPeriodEnd }.
+next-charge-with-tax-card = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог для карты, заканчивающейся на { $last4 }, { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог для вашего способа оплаты { $paymentMethod } { $currentPeriodEnd }.
+next-charge-with-tax = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог { $currentPeriodEnd }.
+next-charge-no-tax-card = Ваш следующий платёж состоится { $currentPeriodEnd } и составит { $nextInvoiceTotal } с карты, заканчивающейся на { $last4 }.
+next-charge-no-tax-payment-method = Ваш следующий платёж будет произведён { $nextInvoiceTotal } для вашего способа оплаты { $paymentMethod }.
+next-charge-no-tax = Ваш следующий платёж составит { $nextInvoiceTotal } { $currentPeriodEnd }.

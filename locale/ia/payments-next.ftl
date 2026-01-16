@@ -402,6 +402,7 @@ churn-error-page-button-manage-subscriptions = Gerer abonamentos
 churn-error-page-button-contact-support = Contactar assistentia
 churn-error-page-button-try-again = Retentar
 churn-error-page-title-general-error = Il habeva un problema renovante tu abonamento
+churn-error-page-message-general-error = Contacta le supporto o retenta.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Ir a { $productName }
 # $productName (String) - The name of the product associated with the subscription.
@@ -534,9 +535,7 @@ manage-payment-method-intent-error-generic = Un error impreviste ha occurrite du
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
 next-charge-with-discount-and-tax-card = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue } sur le carta finiente in { $last4 }.
-next-charge-with-discount-and-tax-payment-method =
-    You will save { $discountPercent }% on your next charge of { $nextInvoiceTotal } + { $taxDue } tax to your { $paymentMethod } payment method on { $currentPeriodEnd }.
-    Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue } a tu methodo de pagamento { $paymentMethod }.
+next-charge-with-discount-and-tax-payment-method = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue } a tu methodo de pagamento { $paymentMethod }.
 next-charge-next-charge-with-discount-and-tax = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue }.
 next-charge-with-discount-no-tax-card = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } sur le carta finiente in { $last4 }.
 next-charge-with-discount-no-tax = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal }.

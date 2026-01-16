@@ -519,17 +519,6 @@ sub-invoice-preview-error-text = Vista previe de factura non trovate pro iste ab
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vole tu continuar usar { $name }?
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $last (String) - The last 4 digits of the card that will be charged
-# $endDate (Date) - Last day of product access
-reactivate-confirm-copy = Tu accesso a { $name } continuara e tu termino de facturation e pagamento remanera identic. Tu amonta successive sera { $amount } al carta finiente in { $last } le { $endDate }.
-# Alternate copy used when a payment method is not available, e.g. for free trials
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $endDate (Date) - Last day of product access
-reactivate-confirm-without-payment-method-copy =
-    Tu accesso a { $name } continuara e tu termino de facturation
-     e pagamento remanera identic. Tu amonta successive sera 
-    { $amount } le { $endDate }.
 reactivate-confirm-button = Renovar le subscription
 
 ## $date (Date) - Last day of product access

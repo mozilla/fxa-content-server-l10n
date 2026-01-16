@@ -709,10 +709,6 @@ subscriptionReactivation-subject = Subscription a { $productName } reactivate
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Gratias pro le reactivation de tu subscription a { $productName }!
-# Variables:
-#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionReactivation-content = Tu amonta successive sera { $invoiceTotal } le { $nextInvoiceDateOnly }. Tu amonta successive sera { $invoiceTotal } le { $nextInvoiceDateOnly }. Tu abonamento sera renovate automaticamente cata termino de facturation usque tu non seligera de cancellar lo.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Aviso de renovation automatic de { $productName }
