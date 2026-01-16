@@ -523,4 +523,5 @@ manage-payment-method-intent-error-generic = Det oppstod ein uventa feil under b
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-tax = Den neste belastninga di blir { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
 next-charge-no-tax = Den neste belastninga di blir { $nextInvoiceTotal } den { $currentPeriodEnd }.

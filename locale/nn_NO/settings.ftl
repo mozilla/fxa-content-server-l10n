@@ -1247,6 +1247,8 @@ tfa-row-verify-session-info = Du må stadfeste den noverande økta di for å kon
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>tenestevilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernfråsegn</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Ved å halde fram, godtek du <mozillaAccountsTos>tenestevilkåra</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernfråsegna</mozillaAccountsPrivacy>.
 

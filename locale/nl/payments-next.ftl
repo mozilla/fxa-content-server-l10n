@@ -395,6 +395,8 @@ churn-error-page-title-general-error = Er is een probleem opgetreden bij het ver
 churn-error-page-button-go-to-product-page = Naar { $productName }
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-not-active = Deze korting is alleen beschikbaar voor huidige abonnees van { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Uw { $productName }-abonnement is nog actief
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -512,3 +514,13 @@ manage-payment-method-intent-error-try-again = Hmm. Er is een probleem opgetrede
 manage-payment-method-intent-error-get-in-touch = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Neem contact op met uw kaartverstrekker.
 manage-payment-method-intent-error-insufficient-funds = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
 manage-payment-method-intent-error-generic = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-tax = Uw volgende afschrijving is { $nextInvoiceTotal } + { $taxDue } btw op { $currentPeriodEnd }.
+next-charge-no-tax = Uw volgende afschrijving is { $nextInvoiceTotal } op { $currentPeriodEnd }.
