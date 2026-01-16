@@ -238,7 +238,7 @@ churn-stay-subscribed-title-subscription-renewed = Abbonamento rinnovato
 churn-stay-subscribed-title-subscription-active = Il tuo abbonamento a { $productName } è attivo
 churn-stay-subscribed-thanks-valued-subscriber = Grazie per essere un prezioso abbonato.
 churn-stay-subscribed-button-go-to-product-page = Vai a { $productName }
-churn-stay-subscribed-button-go-to-subscriptions = Vai a Abbonamenti
+churn-stay-subscribed-button-go-to-subscriptions = Vai agli abbonamenti
 churn-stay-subscribed-button-stay-subscribed = Rimani abbonato
 
 ## Component - CouponForm
@@ -354,7 +354,7 @@ resubscribe-success-dialog-title = Grazie! Tutto pronto.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } tasse il { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } di tasse il { $currentPeriodEnd }.
 stay-subscribed-next-charge-no-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } il { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
@@ -369,14 +369,14 @@ stay-subscribed-next-charge-no-tax = Il prossimo addebito sarà di { $nextInvoic
 subscription-content-coupon-will-be-applied = Verrà applicato uno sconto di { $promotionName }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Ultima fattura • { $billedOnDate }
-subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } tasse
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } di tasse
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Visualizza fattura
 subscription-management-link-view-invoice-aria = Visualizza fattura per { $productName }
 subscription-content-expires-on-expiry-date = Scade il { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Prossima fattura • { $billedOnDate }
-subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } tasse
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } di tasse
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Rimani abbonato
     .aria-label = Rimani abbonato a { $productName }
@@ -397,8 +397,8 @@ paypal-unavailable-error = { -brand-paypal } non è attualmente disponibile. Uti
 
 churn-error-page-title-discount-already-applied = Codice sconto già applicato
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-message-discount-already-applied = Questo sconto è stato applicato a un abbonamento di { $productName } per il tuo account. Se hai ancora bisogno di aiuto, contatta il nostro team di supporto.
-churn-error-page-button-manage-subscriptions = Gestisci le sottoscrizioni
+churn-error-page-message-discount-already-applied = Questo sconto è stato applicato all’abbonamento a { $productName } per il tuo account. Se hai ancora bisogno di aiuto, contatta il nostro team di supporto.
+churn-error-page-button-manage-subscriptions = Gestisci gli abbonamenti
 churn-error-page-button-contact-support = Contatta l’assistenza
 churn-error-page-button-try-again = Riprova
 churn-error-page-title-general-error = Si è verificato un problema con il rinnovo dell’abbonamento
@@ -406,7 +406,7 @@ churn-error-page-message-general-error = Contatta il supporto o riprova.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Vai a { $productName }
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-title-subscription-not-active = Questo sconto è disponibile solo per gli attuali abbonati { $productName }
+churn-error-page-title-subscription-not-active = Questo sconto è disponibile solo per gli attuali abbonati a { $productName }
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-still-active = Il tuo abbonamento a { $productName } è ancora attivo
 
@@ -534,15 +534,15 @@ manage-payment-method-intent-error-generic = Si è verificato un errore imprevis
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
-next-charge-with-discount-and-tax-card = Risparmierai il { $discountPercent }% sul prossimo addebito di { $nextInvoiceTotal } + { $taxDue } tasse sulla carta che termina con { $last4 } il { $currentPeriodEnd }.
-next-charge-with-discount-and-tax-payment-method = Risparmierai il { $discountPercent }% sul tuo prossimo addebito di { $nextInvoiceTotal } + { $taxDue } tasse sul tuo metodo di pagamento { $paymentMethod } a partire da { $currentPeriodEnd }.
-next-charge-next-charge-with-discount-and-tax = Risparmierai il { $discountPercent }% sul prossimo addebito di { $nextInvoiceTotal } + { $taxDue } tasse per { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-card = Risparmierai il { $discountPercent }% sul prossimo addebito di { $nextInvoiceTotal } + { $taxDue } di tasse, effettuato il { $currentPeriodEnd } sulla carta che termina con { $last4 }.
+next-charge-with-discount-and-tax-payment-method = Risparmierai il { $discountPercent }% sul tuo prossimo addebito di { $nextInvoiceTotal } + { $taxDue } di tasse sul tuo metodo di pagamento { $paymentMethod } a partire da { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Risparmierai il { $discountPercent }% sul prossimo addebito di { $nextInvoiceTotal } + { $taxDue } di tasse per { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-card = Risparmierai il { $discountPercent }% sul prossimo addebito di { $nextInvoiceTotal } sulla carta che termina con { $last4 } il { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-payment-method = Risparmierai il { $discountPercent }% sul prossimo addebito di { $nextInvoiceTotal } sul tuo metodo di pagamento { $paymentMethod } a partire da { $currentPeriodEnd }.
 next-charge-with-discount-no-tax = Risparmierai il { $discountPercent }% sul prossimo addebito di { $nextInvoiceTotal } su { $currentPeriodEnd }.
-next-charge-with-tax-card = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } tasse sulla carta che termina con { $last4 } il { $currentPeriodEnd }.
-next-charge-with-tax-payment-method = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } tasse sul tuo metodo di pagamento { $paymentMethod } a partire da { $currentPeriodEnd }.
-next-charge-with-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } tasse il { $currentPeriodEnd }.
+next-charge-with-tax-card = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } di tasse sulla carta che termina con { $last4 } il { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } di tasse sul tuo metodo di pagamento { $paymentMethod } a partire da { $currentPeriodEnd }.
+next-charge-with-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } + { $taxDue } di tasse il { $currentPeriodEnd }.
 next-charge-no-tax-card = Il prossimo addebito sarà di { $nextInvoiceTotal } sulla carta che termina con { $last4 } il { $currentPeriodEnd }.
 next-charge-no-tax-payment-method = Il prossimo addebito sarà di { $nextInvoiceTotal } sul tuo metodo di pagamento { $paymentMethod } il { $currentPeriodEnd }.
 next-charge-no-tax = Il prossimo addebito sarà di { $nextInvoiceTotal } il { $currentPeriodEnd }.
