@@ -109,6 +109,12 @@ not-found-title-subscriptions = Subscription not found
 not-found-description-subscriptions = We couldn’t find your subscription. Please try again or contact support.
 not-found-button-back-to-subscriptions = Back to subscriptions
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Page not found
+not-found-loyalty-discount-description = The page you are looking for does not exist.
+not-found-loyalty-discount-button-back-to-subscriptions = Back to subscriptions
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = No payment method added
@@ -212,6 +218,21 @@ next-payment-confirm-checkbox-error = You need to complete this before moving fo
 
 next-new-user-submit = Subscribe Now
 next-pay-with-heading-paypal = Pay with { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = An unexpected error occurred. Please try again.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Stay subscribed and save { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Stay subscribed and save
+churn-stay-subscribed-button-no-thanks = No thanks
+    .aria-label = Back to Subscriptions page
+churn-stay-subscribed-link-terms-and-restrictions = Limited terms and restrictions apply
+churn-stay-subscribed-title-offer-expired = This offer has expired
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Want to keep using { $productName }?
 
 ## Component - CouponForm
 
