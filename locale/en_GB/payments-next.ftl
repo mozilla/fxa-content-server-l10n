@@ -233,6 +233,13 @@ churn-stay-subscribed-title-offer-expired = This offer has expired
 ## $productName (String) - The name of the product associated with the subscription.
 
 churn-stay-subscribed-subtitle-offer-expired = Want to keep using { $productName }?
+churn-stay-subscribed-message-access-will-continue = Your access to { $productName } will continue, and your billing cycle and payment will stay the same.
+churn-stay-subscribed-title-subscription-renewed = Subscription renewed
+churn-stay-subscribed-title-subscription-active = Your { $productName } subscription is active
+churn-stay-subscribed-thanks-valued-subscriber = Thanks for being a valued subscriber!
+churn-stay-subscribed-button-go-to-product-page = Go to { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Go to Subscriptions
+churn-stay-subscribed-button-stay-subscribed = Stay subscribed
 
 ## Component - CouponForm
 
@@ -385,6 +392,23 @@ dialog-close = Close dialogue
 button-back-to-subscriptions = Back to subscriptions
 subscription-content-cancel-action-error = An unexpected error occurred. Please try again.
 paypal-unavailable-error = { -brand-paypal } is currently unavailable. Please use another payment option or try again later.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Discount code already applied
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = This discount was applied to a { $productName } subscription for your account. If you still need help, contact our Support team.
+churn-error-page-button-manage-subscriptions = Manage subscriptions
+churn-error-page-button-contact-support = Contact Support
+churn-error-page-button-try-again = Try again
+churn-error-page-title-general-error = There was an issue with renewing your subscription
+churn-error-page-message-general-error = Contact support or try again.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Go to { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = This discount is only available to current { $productName } subscribers
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Your { $productName } subscription is still active
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
