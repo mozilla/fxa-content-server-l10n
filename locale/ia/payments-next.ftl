@@ -537,3 +537,4 @@ next-charge-with-discount-and-tax-card = Le { $currentPeriodEnd } tu sparniara l
 next-charge-with-discount-and-tax-payment-method =
     You will save { $discountPercent }% on your next charge of { $nextInvoiceTotal } + { $taxDue } tax to your { $paymentMethod } payment method on { $currentPeriodEnd }.
     Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue } a tu methodo de pagamento { $paymentMethod }.
+next-charge-next-charge-with-discount-and-tax = Le { $currentPeriodEnd } tu sparniara le { $discountPercent }% sur tu proxime carga de { $nextInvoiceTotal } + taxa de { $taxDue }.
