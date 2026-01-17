@@ -107,6 +107,12 @@ not-found-title-subscriptions = המינוי לא נמצא
 not-found-description-subscriptions = לא הצלחנו למצוא את המינוי שלך. נא לנסות שוב או ליצור קשר עם התמיכה.
 not-found-button-back-to-subscriptions = חזרה למינויים
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = הדף לא נמצא
+not-found-loyalty-discount-description = הדף שחיפשת אינו קיים.
+not-found-loyalty-discount-button-back-to-subscriptions = חזרה למינויים
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = לא נוספו אמצעי תשלום
@@ -208,6 +214,27 @@ next-payment-confirm-checkbox-error = עליך להשלים זאת לפני שי
 
 next-new-user-submit = הרשמה כמינוי כעת
 next-pay-with-heading-paypal = תשלום באמצעות { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = כדאי להישאר רשום כמינוי ולחסוך { $discountPercent }%
+churn-stay-subscribed-button-no-thanks = לא תודה
+    .aria-label = חזרה לדף המינויים
+churn-stay-subscribed-link-terms-and-restrictions = כפוף לתנאים ולהגבלות
+churn-stay-subscribed-title-offer-expired = פג תוקפה של הצעה זו
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = רוצה להמשיך להשתמש ב־{ $productName }?
+churn-stay-subscribed-message-access-will-continue = הגישה שלך ל־{ $productName } תימשך, ומחזור החיוב והתשלום שלך יישארו זהים.
+churn-stay-subscribed-title-subscription-renewed = המינוי חודש
+churn-stay-subscribed-title-subscription-active = המינוי שלך עבור { $productName } פעיל
+churn-stay-subscribed-thanks-valued-subscriber = תודה לך על היותך מנוי מוערך!
+churn-stay-subscribed-button-go-to-product-page = מעבר ל־{ $productName }
+churn-stay-subscribed-button-go-to-subscriptions = מעבר למינויים
+churn-stay-subscribed-button-stay-subscribed = להישאר רשום כמינוי
 
 ## Component - CouponForm
 
@@ -347,6 +374,8 @@ subscription-content-button-stay-subscribed = להישאר רשום כמינוי
     .aria-label = להישאר רשום כמינוי ל־{ $productName }
 subscription-content-button-cancel-subscription = לבטל את המינוי
     .aria-label = לבטל את המינוי שלך ל־{ $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = כפוף לתנאים
 subscription-content-link-churn-intervention-terms-aria = הצגת תנאים והגבלות של הקופונים
 
 ##
@@ -355,6 +384,23 @@ dialog-close = סגירת תיבת דוח־שיח
 button-back-to-subscriptions = חזרה למינויים
 subscription-content-cancel-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
 paypal-unavailable-error = ‏{ -brand-paypal } אינו זמין כעת. נא להשתמש באפשרות תשלום אחר או לנסות שוב מאוחר יותר.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = קוד ההנחה כבר הוחל
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = הנחה זו הוחלה על מינוי { $productName } עבור החשבון שלך. אם עדיין יש לך צורך בעזרה, נא ליצור קשר עם צוות התמיכה שלנו.
+churn-error-page-button-manage-subscriptions = ניהול מינויים
+churn-error-page-button-contact-support = יצירת קשר עם התמיכה
+churn-error-page-button-try-again = ניסיון חוזר
+churn-error-page-title-general-error = הייתה בעיה בחידוש המינוי שלך
+churn-error-page-message-general-error = נא ליצור קשר עם התמיכה או לנסות שוב.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = מעבר ל־{ $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = הנחה זו זמינה רק למינויים קיימים של { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = המינוי שלך עבור { $productName } עדיין פעיל
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
