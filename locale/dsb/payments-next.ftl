@@ -239,6 +239,12 @@ churn-stay-subscribed-title-offer-expired = Toś to póbitowanje jo spadnjone
 
 churn-stay-subscribed-subtitle-offer-expired = Cośo { $productName } dalej wužywaś?
 churn-stay-subscribed-message-access-will-continue = Waš pśistup k { $productName } dalej wobstoj a waš wótliceński cyklus a płaśenje samske wóstawa.
+churn-stay-subscribed-title-subscription-renewed = Abonement jo se wótnowił
+churn-stay-subscribed-title-subscription-active = Waš abonement { $productName } jo aktiwny
+churn-stay-subscribed-thanks-valued-subscriber = Źěkujomy se, až sćo wažony abonent!
+churn-stay-subscribed-button-go-to-product-page = K { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = K abonementam
+churn-stay-subscribed-button-stay-subscribed = Dalej aboněrowaś
 
 ## Component - CouponForm
 
@@ -392,6 +398,23 @@ button-back-to-subscriptions = Slědk k abonementam
 subscription-content-cancel-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
 paypal-unavailable-error = { -brand-paypal } njejo tuchylu k dispoziciji. Pšosym wužywajśo drugu płaśeńsku móžnosć abo wopytajśo pózdźej hyšći raz.
 
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Rabatowy kod jo se južo nałožył
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Toś ten rabat jo se nałožył na abonement{ $productName } za wašo konto. Jolic hyšći pomoc trjebaśo, stajśo se z našym teamom pomocy do zwiska.
+churn-error-page-button-manage-subscriptions = Abonementy zastojaś
+churn-error-page-button-contact-support = Pomoc kontaktěrowaś
+churn-error-page-button-try-again = Hyšći raz wopytaś
+churn-error-page-title-general-error = Pśi wobnowjenju wašogo abonementa jo problem nastał
+churn-error-page-message-general-error = Skontaktěrujśo pomoc abo wopytajśo hyšći raz.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = K { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Toś ten rabat jo jano za aktualne abonenty { $productName } k dispoziciji.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Waš abonement { $productName } jo hyšći aktiwny
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -508,3 +531,14 @@ manage-payment-method-intent-error-try-again = Hmm. Pśi awtorizěrowanju wašog
 manage-payment-method-intent-error-get-in-touch = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Stajśo se z wudawarjom swójeje kórty do zwiska.
 manage-payment-method-intent-error-insufficient-funds = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 manage-payment-method-intent-error-generic = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Zažarijośo { $discountPercent } % pśi swójom pśiducem wótpisanju { $nextInvoiceTotal } + { $taxDue } dankow za kórtu, kótaraž se dnja { $currentPeriodEnd } na { $last4 } kóńcy.
+next-charge-with-discount-and-tax-payment-method = Zažarijośo { $discountPercent } % pśi swójom pśiducem wótpisanju { $nextInvoiceTotal } + { $taxDue } dankow za swóju płaśeńsku metodu { $paymentMethod } dnja { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Zažarijośo { $discountPercent } % pśi swójom pśiducem wótpisanju { $nextInvoiceTotal } + { $taxDue } dankow dnja { $currentPeriodEnd }.

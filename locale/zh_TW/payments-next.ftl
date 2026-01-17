@@ -396,6 +396,8 @@ paypal-unavailable-error = { -brand-paypal } 目前無法使用，請改用其�
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = 已經套用此折扣碼
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = 此折扣已套用至您帳號的 { $productName } 訂閱。若您還需要任何協助，請聯絡我們的技術支援團隊。
 churn-error-page-button-manage-subscriptions = 管理訂閱項目
 churn-error-page-button-contact-support = 聯絡支援團隊
 churn-error-page-button-try-again = 重試
@@ -524,3 +526,18 @@ manage-payment-method-intent-error-try-again = 取得款項授權時發生問題
 manage-payment-method-intent-error-get-in-touch = 取得款項授權時發生問題，請與您的發卡單位聯繫。
 manage-payment-method-intent-error-insufficient-funds = 您的卡片額度不足，請改用其他卡片。
 manage-payment-method-intent-error-generic = 處理付款時發生未知錯誤，請再試一次。
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = 您下次於 { $currentPeriodEnd } 使用卡號末四碼為 { $last4 } 的卡片支付 { $nextInvoiceTotal } + { $taxDue } 稅時可享 { $discountPercent } 折扣。
+next-charge-with-discount-and-tax-payment-method = 您下次於 { $currentPeriodEnd } 使用 { $paymentMethod } 支付 { $nextInvoiceTotal } + { $taxDue } 稅時可享 { $discountPercent } 折扣。
+next-charge-next-charge-with-discount-and-tax = 您下次於 { $currentPeriodEnd } 支付 { $nextInvoiceTotal } + { $taxDue } 稅時可享 { $discountPercent } 折扣。
+next-charge-with-discount-no-tax-card = 您下次於 { $currentPeriodEnd } 使用卡號末四碼為 { $last4 } 的卡片支付 { $nextInvoiceTotal } 時可享 { $discountPercent } 折扣。
+next-charge-with-discount-no-tax-payment-method = 您下次於 { $currentPeriodEnd } 使用 { $paymentMethod } 支付 { $nextInvoiceTotal } 時可享 { $discountPercent } 折扣。
+next-charge-with-discount-no-tax = 您下次於 { $currentPeriodEnd } 支付 { $nextInvoiceTotal } 時可享 { $discountPercent } 折扣。
+next-charge-with-tax-card = 下期將於 { $currentPeriodEnd } 透過卡號末四碼為 { $last4 } 的卡片收費 { $nextInvoiceTotal } + { $taxDue } 稅。
