@@ -539,5 +539,11 @@ manage-payment-method-intent-error-generic = Při předźěłowanju wašeho pła
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-discount-and-tax-card = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } + { $taxDue } dawkow za kartu, kotraž so dnja { $currentPeriodEnd } na { $last4 } kónči.
+next-charge-with-discount-and-tax-payment-method = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } + { $taxDue } dawkow za swoju płaćensku metodu { $paymentMethod } dnja { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } + { $taxDue } dawkow dnja { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } za kartu, kotraž so dnja { $currentPeriodEnd } na { $last4 } kónči.
+next-charge-with-discount-no-tax-payment-method = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } za swoju płaćensku metodu { $paymentMethod } dnja { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } dnja { $currentPeriodEnd }.
 next-charge-with-tax = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } + dawk { $taxDue } dnja { $currentPeriodEnd }.
 next-charge-no-tax = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } dnja { $currentPeriodEnd }.
