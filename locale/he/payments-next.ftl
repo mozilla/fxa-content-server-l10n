@@ -518,3 +518,14 @@ manage-payment-method-intent-error-try-again = הממ. הייתה בעיה בא�
 manage-payment-method-intent-error-get-in-touch = הממ. הייתה בעיה באישור התשלום שלך. נא ליצור קשר עם מנפיק הכרטיס שלך.
 manage-payment-method-intent-error-insufficient-funds = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
 manage-payment-method-intent-error-generic = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = יהיה חיסכון של { $discountPercent }% בחיוב הבא שלך בסך { $nextInvoiceTotal } + מס בסך { $taxDue } לכרטיס שמסתיים ב־{ $last4 } בתאריך { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = יהיה חיסכון של { $discountPercent }% בחיוב הבא שלך בסך { $nextInvoiceTotal } + מס בסך { $taxDue } לאמצעי התשלום שלך ב־{ $paymentMethod } בתאריך { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = יהיה חיסכון של { $discountPercent }% בחיוב הבא שלך בסך { $nextInvoiceTotal } + מס בסך { $taxDue } בתאריך { $currentPeriodEnd }.
