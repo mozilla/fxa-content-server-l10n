@@ -112,6 +112,12 @@ not-found-title-subscriptions = Abonement njejo se namakał
 not-found-description-subscriptions = Njejsmy mógli waš abonement namakaś. Pšosym wopytajśo hyšći raz abo kontaktěrujśo se z pomocu.
 not-found-button-back-to-subscriptions = Slědk k abonementam
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Bok njejo se namakał
+not-found-loyalty-discount-description = Bok, kótaryž pytaśo, njeeksistěrujo.
+not-found-loyalty-discount-button-back-to-subscriptions = Slědk k abonementam
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Žedna płaśeńska metoda pśidana
@@ -217,6 +223,22 @@ next-payment-confirm-checkbox-error = Musyśo to dokóncyś, nježli až móžo�
 
 next-new-user-submit = Něnto aboněrowaś
 next-pay-with-heading-paypal = Z { -brand-paypal } płaśiś
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Pódlejšćo swój abonement a zažaŕśo { $discountPercent } %
+churn-stay-subscribed-button-stay-subscribed-and-save = Abonement pódlejšyś a zažariś
+churn-stay-subscribed-button-no-thanks = Ně, źěkujom se
+    .aria-label = Slědk k bokoju abonementow
+churn-stay-subscribed-link-terms-and-restrictions = Płaśe wobgranicowane wuměnjenja a wobgranicowanja
+churn-stay-subscribed-title-offer-expired = Toś to póbitowanje jo spadnjone
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Cośo { $productName } dalej wužywaś?
+churn-stay-subscribed-message-access-will-continue = Waš pśistup k { $productName } dalej wobstoj a waš wótliceński cyklus a płaśenje samske wóstawa.
 
 ## Component - CouponForm
 
