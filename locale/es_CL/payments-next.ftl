@@ -534,9 +534,12 @@ manage-payment-method-intent-error-generic = Ha ocurrido un error inesperado mie
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-discount-and-tax-card = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } + { $taxDue } de impuesto a la tarjeta terminada en { $last4 } el { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } + { $taxDue } de impuesto en tu método de pago { $paymentMethod } el { $currentPeriodEnd }.
 next-charge-next-charge-with-discount-and-tax = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } + { $taxDue } de impuesto el { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-card = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } a la tarjeta terminada en { $last4 } el { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-payment-method = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } + { $taxDue } de impuesto en tu método de pago { $paymentMethod } el { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } en tu método de pago { $paymentMethod } el { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } el { $currentPeriodEnd }.
 next-charge-with-tax-card = Tu próximo cargo será { $nextInvoiceTotal } + { $taxDue } de impuesto en la tarjeta terminada en { $last4 } el { $currentPeriodEnd }.
 next-charge-with-tax-payment-method = Tu próximo cargo será { $nextInvoiceTotal } + { $taxDue } de impuesto en tu método de pago { $paymentMethod } el { $currentPeriodEnd }.
 next-charge-with-tax = Tu próximo cargo será { $nextInvoiceTotal } + { $taxDue } de impuesto el { $currentPeriodEnd }.
