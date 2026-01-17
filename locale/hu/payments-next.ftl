@@ -225,8 +225,8 @@ next-pay-with-heading-paypal = Fizetés { -brand-paypal }lal
 
 churn-stay-subscribed-action-error = Váratlan hiba történt. Próbálja meg újra.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
-churn-stay-subscribed-button-stay-subscribed-and-save-discount = Előfizetés marad, és takarítson meg { $discountPercent }%-ot
-churn-stay-subscribed-button-stay-subscribed-and-save = Maradjon előfizetés, és takarítson meg
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Maradjon továbbra is előfizető, és takarítson meg { $discountPercent }%-ot
+churn-stay-subscribed-button-stay-subscribed-and-save = Maradjon előfizető, és takarítson meg
 churn-stay-subscribed-button-no-thanks = Köszönöm, nem
     .aria-label = Vissza az Előfizetések oldalra
 churn-stay-subscribed-link-terms-and-restrictions = Korlátozott feltételek és korlátozások vonatkoznak rá
@@ -385,7 +385,7 @@ subscription-content-button-stay-subscribed = Előfizetés megtartása
 subscription-content-button-cancel-subscription = Előfizetés lemondása
     .aria-label = { $productName } előfizetés megszüntetése
 # Link to the terms and restrictions for a coupon offer.
-subscription-content-link-churn-intervention-terms-apply = Feltételek érvényesek
+subscription-content-link-churn-intervention-terms-apply = Feltételek vonatkoznak rá
 subscription-content-link-churn-intervention-terms-aria = Tekintse meg a kuponok feltételeit és korlátozásait
 
 ##
@@ -397,10 +397,10 @@ paypal-unavailable-error = A { -brand-paypal } jelenleg nem érhető el. Válass
 
 ## Churn flow - Error page
 
-churn-error-page-title-discount-already-applied = A kedvezménykód már alkalmazva
+churn-error-page-title-discount-already-applied = A kedvezménykód már alkalmazva van
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-message-discount-already-applied = Ez a kedvezmény a fiókja { $productName } előfizetésére lett használva. Ha továbbra is segítségre van szüksége, forduljon támogatási csapatunkhoz.
-churn-error-page-button-manage-subscriptions = Feliratkozások kezelése
+churn-error-page-message-discount-already-applied = Ez a kedvezmény a fiókjához tartozó { $productName }-előfizetésre lett használva. Ha továbbra is segítségre van szüksége, forduljon támogatási csapatunkhoz.
+churn-error-page-button-manage-subscriptions = Előfizetések kezelése
 churn-error-page-button-contact-support = Kapcsolatfelvétel az ügyfélszolgálattal
 churn-error-page-button-try-again = Próbálja újra
 churn-error-page-title-general-error = Hiba történt az előfizetés megújításakor
