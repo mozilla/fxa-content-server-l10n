@@ -545,5 +545,6 @@ next-charge-next-charge-with-discount-and-tax = Zalutujeće { $discountPercent }
 next-charge-with-discount-no-tax-card = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } za kartu, kotraž so dnja { $currentPeriodEnd } na { $last4 } kónči.
 next-charge-with-discount-no-tax-payment-method = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } za swoju płaćensku metodu { $paymentMethod } dnja { $currentPeriodEnd }.
 next-charge-with-discount-no-tax = Zalutujeće { $discountPercent } % při swojim přichodnym wotknihowanju { $nextInvoiceTotal } dnja { $currentPeriodEnd }.
+next-charge-with-tax-card = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } + { $taxDue } dawkow za kortu, kotraž so dnja { $currentPeriodEnd } na { $last4 } kónči.
 next-charge-with-tax = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } + dawk { $taxDue } dnja { $currentPeriodEnd }.
 next-charge-no-tax = Waše přichodne wotknihowanje budźe { $nextInvoiceTotal } dnja { $currentPeriodEnd }.
