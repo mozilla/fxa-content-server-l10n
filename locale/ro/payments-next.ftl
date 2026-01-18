@@ -356,8 +356,8 @@ resubscribe-success-dialog-title = Îți mulțumim! Totul este gata.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = Următoarea factură va fi de { $nextInvoiceTotal } + taxe { $taxDue } pe { $currentPeriodEnd }.
-stay-subscribed-next-charge-no-tax = Următoarea factură va fi de { $nextInvoiceTotal } pe { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = Următoarea debitare va fi de { $nextInvoiceTotal } + taxe { $taxDue } pe { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = Următoarea debitare va fi de { $nextInvoiceTotal } pe { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -537,3 +537,14 @@ manage-payment-method-intent-error-generic = A apărut o eroare neașteptată la
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
 next-charge-with-discount-and-tax-card = Vei economisi { $discountPercent }% la următoarea plată de { $nextInvoiceTotal } + taxe { $taxDue } de pe cardul care se termină în { $last4 } pe { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Vei economisi { $discountPercent }% la următoarea plată de { $nextInvoiceTotal } + taxe { $taxDue } prin metoda ta de plată { $paymentMethod } pe { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Vei economisi { $discountPercent }% la următoarea plată de { $nextInvoiceTotal } + taxe { $taxDue } pe { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Vei economisi { $discountPercent }% la următoarea plată de { $nextInvoiceTotal } de pe cardul care se termină în { $last4 } pe { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Vei economisi { $discountPercent }% la următoarea plată de { $nextInvoiceTotal } prin metoda ta de plată { $paymentMethod } pe { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Vei economisi { $discountPercent }% la următoarea plată de { $nextInvoiceTotal } pe { $currentPeriodEnd }.
+next-charge-with-tax-card = Următoarea debitare va fi de { $nextInvoiceTotal } + taxe { $taxDue } de pe cardul care se termină în { $last4 } pe { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Următoarea debitare va fi de { $nextInvoiceTotal } + taxe { $taxDue } prin metoda ta de plată { $paymentMethod } pe { $currentPeriodEnd }.
+next-charge-with-tax = Următoarea debitare va fi de { $nextInvoiceTotal } + taxe { $taxDue } pe { $currentPeriodEnd }.
+next-charge-no-tax-card = Următoarea debitare va fi de { $nextInvoiceTotal } de pe cardul care se termină în { $last4 } pe { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Următoarea debitare va fi de { $nextInvoiceTotal } prin metoda ta de plată { $paymentMethod } pe { $currentPeriodEnd }.
+next-charge-no-tax = Următoarea debitare va fi de { $nextInvoiceTotal } pe { $currentPeriodEnd }.
