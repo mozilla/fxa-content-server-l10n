@@ -109,6 +109,12 @@ not-found-title-subscriptions = Abonament negăsit
 not-found-description-subscriptions = Nu am putut găsi abonamentul. Te rugăm să încerci din nou sau să contactezi asistența.
 not-found-button-back-to-subscriptions = Înapoi la abonamente
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Pagina nu a fost găsită
+not-found-loyalty-discount-description = Pagina pe care o cauți nu există.
+not-found-loyalty-discount-button-back-to-subscriptions = Înapoi la abonamente
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nicio metodă de plată adăugată
@@ -214,6 +220,28 @@ next-payment-confirm-checkbox-error = Trebuie să termini aici ca să treci mai 
 
 next-new-user-submit = Abonează-mă acum
 next-pay-with-heading-paypal = Plătește cu { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Rămâi abonat(ă) și economisește { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Rămâi abonat(ă) și economisește
+churn-stay-subscribed-button-no-thanks = Nu, mulțumesc
+    .aria-label = Înapoi la pagina de abonamente
+churn-stay-subscribed-link-terms-and-restrictions = Se aplică condiții și restricții limitate
+churn-stay-subscribed-title-offer-expired = Oferta a expirat
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Vrei să folosești în continuare { $productName }?
+churn-stay-subscribed-message-access-will-continue = Accesul la { $productName } va continua, iar ciclul de facturare și plata vor rămâne aceleași.
+churn-stay-subscribed-title-subscription-renewed = Abonament reînnoit
+churn-stay-subscribed-title-subscription-active = Abonamentul tău { $productName } este activ
+churn-stay-subscribed-thanks-valued-subscriber = Îți mulțumim că ești un abonat valoros!
+churn-stay-subscribed-button-go-to-product-page = Mergi la { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Mergi la abonamente
+churn-stay-subscribed-button-stay-subscribed = Păstrează abonamentul
 
 ## Component - CouponForm
 
@@ -367,6 +395,23 @@ button-back-to-subscriptions = Înapoi la abonamente
 subscription-content-cancel-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
 paypal-unavailable-error = { -brand-paypal } nu este disponibil momentan. Te rugăm să folosești altă opțiune de plată sau să încerci din nou mai târziu.
 
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Codul de reducere a fost deja aplicat
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Această reducere a fost aplicată unui abonament { $productName } pentru contul tău. Dacă ai în continuare nevoie de ajutor, contactează echipa noastră de asistență.
+churn-error-page-button-manage-subscriptions = Gestionează abonamentele
+churn-error-page-button-contact-support = Contactează serviciul de asistență
+churn-error-page-button-try-again = Încearcă din nou
+churn-error-page-title-general-error = A apărut o problemă la reînnoirea abonamentului
+churn-error-page-message-general-error = Contactează asistența sau încearcă din nou.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Mergi la { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Reducerea este disponibilă doar abonaților { $productName } actuali
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Abonamentul tău { $productName } încă este activ
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -483,3 +528,12 @@ manage-payment-method-intent-error-try-again = Hmm. A apărut o problemă la aut
 manage-payment-method-intent-error-get-in-touch = Hmm. A apărut o problemă la autorizarea plății tale. Contactează emitentul cardului.
 manage-payment-method-intent-error-insufficient-funds = Se pare că nu ai fonduri suficiente pe card. Încearcă alt card.
 manage-payment-method-intent-error-generic = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Vei economisi { $discountPercent }% la următoarea plată de { $nextInvoiceTotal } + taxe { $taxDue } de pe cardul care se termină în { $last4 } pe { $currentPeriodEnd }.
