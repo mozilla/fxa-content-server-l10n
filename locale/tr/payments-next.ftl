@@ -105,6 +105,12 @@ not-found-title-subscriptions = Abonelik bulunamadı
 not-found-description-subscriptions = Aboneliğinizi bulamadık. Lütfen yeniden deneyin veya destek ekibiyle iletişime geçin.
 not-found-button-back-to-subscriptions = Aboneliklere dön
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Sayfa bulunamadı
+not-found-loyalty-discount-description = Aradığınız sayfa mevcut değil.
+not-found-loyalty-discount-button-back-to-subscriptions = Aboneliklere dön
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ödeme yöntemi eklenmedi
@@ -191,6 +197,16 @@ next-payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerek
 
 next-new-user-submit = Şimdi abone ol
 next-pay-with-heading-paypal = { -brand-paypal } ile öde
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-title-offer-expired = Bu teklifin süresi doldu
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = { $productName } ürününü kullanmaya devam etmek ister misiniz?
+churn-stay-subscribed-title-subscription-renewed = Abonelik yenilendi
+churn-stay-subscribed-thanks-valued-subscriber = Abone olduğunuz için teşekkürler!
 
 ## Component - CouponForm
 
@@ -311,6 +327,17 @@ subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 dialog-close = İletişim kutusunu kapat
 button-back-to-subscriptions = Aboneliklere dön
 subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = İndirim kodu zaten uygulanmış
+churn-error-page-button-manage-subscriptions = Abonelikleri yönet
+churn-error-page-button-contact-support = Destek birimiyle iletişime geç
+churn-error-page-button-try-again = Yeniden dene
+churn-error-page-title-general-error = Aboneliğiniz yenilenirken bir sorun oluştu
+churn-error-page-message-general-error = Destek ekibiyle iletişime geçin veya yeniden deneyin.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Bu indirim yalnızca mevcut { $productName } aboneleri için geçerlidir
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
