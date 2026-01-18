@@ -1858,6 +1858,13 @@ signin-token-code-confirm-button = Επιβεβαίωση
 signin-token-code-code-expired = Έληξε ο κωδικός;
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Αποστολή νέου κωδικού.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Αποστολή νέου κωδικού μέσω email σε { $seconds } δευτερόλεπτο
+       *[other] Αποστολή νέου κωδικού μέσω email σε { $seconds } δευτερόλεπτα
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Απαιτείται κωδικός επιβεβαίωσης
 signin-token-code-resend-error = Κάτι πήγε στραβά. Δεν ήταν δυνατή η αποστολή νέου κωδικού.
@@ -1930,6 +1937,13 @@ confirm-signup-code-sync-button = Έναρξη συγχρονισμού
 confirm-signup-code-code-expired = Έληξε ο κωδικός;
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Αποστολή νέου κωδικού.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Αποστολή νέου κωδικού μέσω email σε { $seconds } δευτερόλεπτο
+       *[other] Αποστολή νέου κωδικού μέσω email σε { $seconds } δευτερόλεπτα
+    }
 confirm-signup-code-success-alert = Επιτυχής επιβεβαίωση λογαριασμού
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Απαιτείται κωδικός επιβεβαίωσης

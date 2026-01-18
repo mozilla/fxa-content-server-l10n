@@ -111,6 +111,8 @@ not-found-button-back-to-subscriptions = Επιστροφή στις συνδρ�
 
 ## Loyalty discount - Not found page
 
+not-found-loyalty-discount-title = Η σελίδα δεν βρέθηκε
+not-found-loyalty-discount-description = Η σελίδα που ψάχνετε δεν υπάρχει.
 not-found-loyalty-discount-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 
 ## Page - Subscription Management
@@ -226,6 +228,7 @@ churn-stay-subscribed-title-offer-expired = Αυτή η προσφορά έχε�
 
 churn-stay-subscribed-subtitle-offer-expired = Θέλετε να συνεχίσετε να χρησιμοποιείτε το { $productName };
 churn-stay-subscribed-message-access-will-continue = Η πρόσβασή σας στο { $productName } θα συνεχιστεί, ενώ ο κύκλος χρέωσης και οι πληρωμές σας θα παραμείνουν ως έχουν.
+churn-stay-subscribed-button-stay-subscribed = Διατήρηση συνδρομής
 
 ## Component - CouponForm
 
@@ -489,3 +492,12 @@ stay-subscribed-error-discount-used = Ο εκπτωτικός κωδικός έ�
 stay-subscribed-error-not-current-subscriber = Αυτή η έκπτωση διατίθεται μόνο για τρέχοντες συνδρομητές του { $productTitle }.
 stay-subscribed-error-still-active = Η συνδρομή σας στο { $productTitle } είναι ακόμα ενεργή.
 stay-subscribed-error-general = Προέκυψε πρόβλημα με την ανανέωση της συνδρομής σας.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-no-tax = Η επόμενη χρέωση θα είναι { $nextInvoiceTotal } στις { $currentPeriodEnd }.
