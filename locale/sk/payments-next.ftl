@@ -109,6 +109,12 @@ not-found-title-subscriptions = Predplatné sa nenašlo
 not-found-description-subscriptions = Nepodarilo sa nám nájsť vaše predplatné. Skúste to znova alebo kontaktujte podporu.
 not-found-button-back-to-subscriptions = Späť na predplatné
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Stránka nebola nájdená
+not-found-loyalty-discount-description = Stránka, ktorú hľadáte, neexistuje.
+not-found-loyalty-discount-button-back-to-subscriptions = Späť na predplatné
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Žiadny spôsob platby nebol pridaný
@@ -212,6 +218,15 @@ next-payment-confirm-checkbox-error = Pred pokračovaním musíte dokončiť tot
 
 next-new-user-submit = Predplatiť
 next-pay-with-heading-paypal = Zaplatiť cez { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Vyskytla sa neočakávaná chyba. Skúste to znova.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Zostaňte odberateľom a ušetrite { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Zostaňte odberateľmi a ušetrite
+churn-stay-subscribed-button-no-thanks = Nie, ďakujem
+    .aria-label = Späť na stránku Predplatné
 
 ## Component - CouponForm
 
