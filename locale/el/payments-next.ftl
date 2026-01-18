@@ -109,6 +109,10 @@ not-found-title-subscriptions = Η συνδρομή δεν βρέθηκε
 not-found-description-subscriptions = Δεν ήταν δυνατή η εύρεση της συνδρομής σας. Δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη.
 not-found-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-button-back-to-subscriptions = Επιστροφή στις συνδρομές
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Δεν έχει προστεθεί καμία μέθοδος πληρωμής
@@ -213,6 +217,16 @@ next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε
 next-new-user-submit = Εγγραφή τώρα
 next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
 
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
+churn-stay-subscribed-title-offer-expired = Αυτή η προσφορά έχει λήξει
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Θέλετε να συνεχίσετε να χρησιμοποιείτε το { $productName };
+churn-stay-subscribed-message-access-will-continue = Η πρόσβασή σας στο { $productName } θα συνεχιστεί, ενώ ο κύκλος χρέωσης και οι πληρωμές σας θα παραμείνουν ως έχουν.
+
 ## Component - CouponForm
 
 next-coupon-enter-code =
@@ -315,7 +329,7 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 
 ## $productName (String) - The name of the subscribed product.
 
-resubscribe-dialog-title = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $productName };
+resubscribe-dialog-title = Θέλετε να συνεχίσετε να χρησιμοποιείτε το { $productName };
 stay-subscribed-access-will-continue = Η πρόσβασή σας στο { $productName } θα συνεχιστεί, ενώ ο κύκλος χρέωσης και οι πληρωμές σας θα παραμείνουν ως έχουν.
 subscription-content-button-resubscribe = Επανανεγγραφή
     .aria-label = Επανανεγγραφή στο { $productName }
@@ -354,6 +368,8 @@ subscription-content-button-stay-subscribed = Διατήρηση συνδρομ�
     .aria-label = Παραμείνετε συνδρομητής του { $productName }
 subscription-content-button-cancel-subscription = Ακύρωση συνδρομής
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Ισχύουν όροι
 
 ##
 
@@ -361,6 +377,10 @@ dialog-close = Κλείσιμο διαλόγου
 button-back-to-subscriptions = Επιστροφή στις συνδρομές
 subscription-content-cancel-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 paypal-unavailable-error = Το { -brand-paypal } δεν είναι διαθέσιμο προς το παρόν. Χρησιμοποιήστε κάποια άλλη μέθοδο πληρωμής ή δοκιμάστε ξανά αργότερα.
+
+## Churn flow - Error page
+
+churn-error-page-button-try-again = Δοκιμή ξανά
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

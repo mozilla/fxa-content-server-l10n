@@ -525,7 +525,7 @@ sub-invoice-preview-error-text = Δεν βρέθηκε προεπισκόπησ�
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
-reactivate-confirm-dialog-header = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $name };
+reactivate-confirm-dialog-header = Θέλετε να συνεχίσετε να χρησιμοποιείτε το { $name };
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
