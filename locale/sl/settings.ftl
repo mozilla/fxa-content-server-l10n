@@ -1264,9 +1264,9 @@ terms-privacy-agreement-intro-3 = Z nadaljevanjem se strinjate z naslednjim:
 # This item is part of a bulleted list and follows terms-privacy-agreement-intro
 # $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
 # $serviceName is customizable via Strapi and will be localized separately
-terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Pogoji uporabe</termsLink> in <privacyLink>Obvestilo o zasebnosti</privacyLink>
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>pogoji uporabe</termsLink> in <privacyLink>obvestilo o zasebnosti</privacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>Pogoji uporabe</mozillaAccountsTos> in <mozillaAccountsPrivacy>Obvestilo o zasebnosti</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>pogoji uporabe</mozillaAccountsTos> in <mozillaAccountsPrivacy>obvestilo o zasebnosti</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Z nadaljevanjem se strinjate s <mozillaAccountsTos>pogoji storitve</mozillaAccountsTos> in <mozillaAccountsPrivacy>obvestilom o zasebnosti</mozillaAccountsPrivacy>.
 
@@ -1882,10 +1882,10 @@ signin-token-code-resend-code-link = Pošlji novo kodo.
 # { $seconds } represents the number of seconds remaining
 signin-token-code-resend-code-countdown =
     { $seconds ->
-        [one] Pošljite novo kodo čez { $seconds } sekunde
-        [two] Pošljite novo kodo čez { $seconds } sekund
-        [few] Pošljite novo kodo čez { $seconds } sekund
-       *[other] Pošljite novo kodo čez { $seconds } sekund
+        [one] Pošlji novo kodo čez { $seconds } sekundo
+        [two] Pošlji novo kodo čez { $seconds } sekundi
+        [few] Pošlji novo kodo čez { $seconds } sekunde
+       *[other] Pošlji novo kodo čez { $seconds } sekund
     }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Zahtevana je potrditvena koda
