@@ -109,6 +109,12 @@ not-found-title-subscriptions = Prenumeration hittades inte
 not-found-description-subscriptions = Vi kunde inte hitta din prenumeration. Försök igen eller kontakta supporten.
 not-found-button-back-to-subscriptions = Tillbaka till prenumerationer
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Sidan hittades inte
+not-found-loyalty-discount-description = Sidan du söker finns inte.
+not-found-loyalty-discount-button-back-to-subscriptions = Tillbaka till prenumerationer
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalningsmetod har lagts till
@@ -212,6 +218,28 @@ next-payment-confirm-checkbox-error = Du måste slutföra detta innan du går vi
 
 next-new-user-submit = Prenumerera nu
 next-pay-with-heading-paypal = Betala med { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Ett oväntat fel uppstod. Försök igen.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Behåll din prenumeration och spara { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Behåll din prenumeration och spara
+churn-stay-subscribed-button-no-thanks = Nej tack
+    .aria-label = Tillbaka till prenumerationssidan
+churn-stay-subscribed-link-terms-and-restrictions = Begränsade villkor och begränsningar gäller
+churn-stay-subscribed-title-offer-expired = Erbjudandet har upphört att gälla
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Vill du fortsätta använda { $productName }?
+churn-stay-subscribed-message-access-will-continue = Din åtkomst till { $productName } kommer att fortsätta och din faktureringscykel och betalning kommer att förbli desamma.
+churn-stay-subscribed-title-subscription-renewed = Prenumeration förnyad
+churn-stay-subscribed-title-subscription-active = Din prenumeration på { $productName } är aktiv
+churn-stay-subscribed-thanks-valued-subscriber = Tack för att du är en värdefull prenumerant!
+churn-stay-subscribed-button-go-to-product-page = Gå till { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Gå till prenumerationer
+churn-stay-subscribed-button-stay-subscribed = Fortsätt prenumerera
 
 ## Component - CouponForm
 
@@ -365,6 +393,23 @@ button-back-to-subscriptions = Tillbaka till prenumerationer
 subscription-content-cancel-action-error = Ett oväntat fel uppstod. Försök igen.
 paypal-unavailable-error = { -brand-paypal } är för närvarande inte tillgänglig. Använd ett annat betalningssätt eller försök igen senare.
 
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Rabattkod tillämpas redan
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Denna rabatt tillämpades på en prenumeration på { $productName } för ditt konto. Om du fortfarande behöver hjälp, kontakta vårt supportteam.
+churn-error-page-button-manage-subscriptions = Hantera prenumerationer
+churn-error-page-button-contact-support = Kontakta supporten
+churn-error-page-button-try-again = Försök igen
+churn-error-page-title-general-error = Det uppstod ett problem med att förnya din prenumeration
+churn-error-page-message-general-error = Kontakta support eller försök igen.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Gå till { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Denna rabatt är endast tillgänglig för nuvarande { $productName }-prenumeranter
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Din prenumeration på { $productName } är fortfarande aktiv
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -481,3 +526,23 @@ manage-payment-method-intent-error-try-again = Hmm. Det gick inte att godkänna 
 manage-payment-method-intent-error-get-in-touch = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med din kortutgivare.
 manage-payment-method-intent-error-insufficient-funds = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
 manage-payment-method-intent-error-generic = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } den { $currentPeriodEnd }.
+next-charge-with-tax-card = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-with-tax = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
+next-charge-no-tax-card = Din nästa betalning på { $nextInvoiceTotal } på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Din nästa betalning på { $nextInvoiceTotal } med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-no-tax = Din nästa betalning på { $nextInvoiceTotal } den { $currentPeriodEnd }.

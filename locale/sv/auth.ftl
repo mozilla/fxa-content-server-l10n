@@ -592,15 +592,6 @@ subscriptionAccountDeletion-title = Ledsen att se dig sluta
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Du raderade nyligen ditt { -product-mozilla-account }. Som ett resultat av detta har vi avslutat din prenumeration på { $productName }. Din sista betalning på { $invoiceTotal } betalades den { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Välkommen till { $productName }: Ange ditt lösenord.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Välkommen till { $productName }
-subscriptionAccountFinishSetup-content-processing = Din betalning behandlas och kan ta upp till fyra arbetsdagar att slutföra. Ditt abonnemang förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
-subscriptionAccountFinishSetup-content-create-3 = Därefter skapar du ett { -product-mozilla-account } lösenord för att börja använda din nya prenumeration.
-subscriptionAccountFinishSetup-action-2 = Kom igång
 subscriptionAccountReminderFirst-subject = Påminnelse: Slutför konfigureringen av ditt konto
 subscriptionAccountReminderFirst-title = Du kan inte komma åt din prenumeration ännu
 subscriptionAccountReminderFirst-content-info-3 = För några dagar sedan skapade du ett { -product-mozilla-account } men bekräftade det aldrig. Vi hoppas att du slutför konfigureringen av ditt konto så att du kan använda din nya prenumeration.
