@@ -168,7 +168,7 @@ subscription-management-error-paypal-billing-agreement = Prišlo je do težave z
 subscription-management-error-payment-method = Prišlo je do težave z vašim plačilnim sredstvom. Odpravite težavo, da ohranite svoje dejavne naročnine.
 manage-payment-methods-heading = Upravljanje plačilnih sredstev
 paypal-payment-management-page-invalid-header = Neveljavni podatki za obračun
-paypal-payment-management-page-invalid-description = Videti je, da je prišlo do napake z vašim računom { -brand-paypal }. Uresničite vse potrebne ukrepe za razrešitev težave s plačilom.
+paypal-payment-management-page-invalid-description = Videti je, da je prišlo do napake v vašem računu { -brand-paypal }. Za razrešitev težave s plačilom po potrebi ukrepajte.
 # Page - Not Found
 page-not-found-title = Strani ni mogoče najti
 page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.
@@ -182,7 +182,7 @@ subscription-management-breadcrumb-account-home = Domača stran računa
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Naročnine
 # Link title - Payment method management
-subscription-management-breadcrumb-payment-2 = Upravljanje plačilnih metod
+subscription-management-breadcrumb-payment-2 = Upravljanje plačilnih sredstev
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Nazaj na { $page }
 
@@ -238,7 +238,7 @@ churn-stay-subscribed-title-subscription-renewed = Naročnina obnovljena
 churn-stay-subscribed-title-subscription-active = Vaša naročnina na { $productName } je aktivna
 churn-stay-subscribed-thanks-valued-subscriber = Hvala, ker ste cenjen naročnik!
 churn-stay-subscribed-button-go-to-product-page = Pojdi na { $productName }
-churn-stay-subscribed-button-go-to-subscriptions = Pojdite na Naročnine
+churn-stay-subscribed-button-go-to-subscriptions = Pojdi na naročnine
 churn-stay-subscribed-button-stay-subscribed = Ohrani naročnino
 
 ## Component - CouponForm
@@ -284,9 +284,9 @@ payments-client-loading-spinner =
 ## Payment method management page - Stripe
 
 # Save button for changing which payment method will be used
-payment-method-management-save-default = Nastavi kot privzeto plačilo
+payment-method-management-save-default = Nastavi kot privzeto plačilno sredstvo
 # Save button for saving a new payment method
-payment-method-management-save-method = Shrani način plačila
+payment-method-management-save-method = Shrani plačilno sredstvo
 manage-stripe-payments-title = Upravljanje plačilnih sredstev
 
 ## Component - PurchaseDetails
@@ -483,7 +483,7 @@ metadata-title-checkout-needs-input = Zahtevano dejanje | { $productTitle }
 metadata-description-checkout-needs-input = Izvedite zahtevano dejanje za nadaljevanje plačila.
 # Upgrade start
 metadata-title-upgrade-start = Nadgradnja | { $productTitle }
-metadata-description-upgrade-start = Za dokončanje nadgradnje vnesite podatke o plačilu.
+metadata-description-upgrade-start = Za dokončanje nadgradnje vnesite podatke za plačilo.
 # Upgrade processing
 metadata-title-upgrade-processing = Obdelovanje | { $productTitle }
 metadata-description-upgrade-processing = Počakajte, da končamo z obdelavo plačila.
