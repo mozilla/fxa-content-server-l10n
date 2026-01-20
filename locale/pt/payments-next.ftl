@@ -109,6 +109,12 @@ not-found-title-subscriptions = Subscrição não encontrada
 not-found-description-subscriptions = Não conseguimos encontrar a sua subscrição. Por favor, tente novamente ou contacte o suporte.
 not-found-button-back-to-subscriptions = Voltar para subscrições
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Página não encontrada
+not-found-loyalty-discount-description = A página que está à procura não existe.
+not-found-loyalty-discount-button-back-to-subscriptions = Voltar para subscrições
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nenhum método de pagamento adicionado
@@ -212,6 +218,28 @@ next-payment-confirm-checkbox-error = Precisa de concluir isto antes de continua
 
 next-new-user-submit = Subscrever agora
 next-pay-with-heading-paypal = Pagar com o { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Mantenha-se subscrito e poupe { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Manter a subscrição e guardar
+churn-stay-subscribed-button-no-thanks = Não, obrigado
+    .aria-label = Voltar à página de Subscrições
+churn-stay-subscribed-link-terms-and-restrictions = Aplicam-se termos limitados e restrições
+churn-stay-subscribed-title-offer-expired = Esta oferta expirou
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Deseja continuar a usar { $productName }?
+churn-stay-subscribed-message-access-will-continue = O seu acesso a { $productName } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão.
+churn-stay-subscribed-title-subscription-renewed = Subscrição renovada
+churn-stay-subscribed-title-subscription-active = A sua subscrição { $productName } está ativa
+churn-stay-subscribed-thanks-valued-subscriber = Obrigado por ser um subscritor valorizado!
+churn-stay-subscribed-button-go-to-product-page = Ir para { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Ir para Subscrições
+churn-stay-subscribed-button-stay-subscribed = Manter a subscrição
 
 ## Component - CouponForm
 
@@ -354,6 +382,9 @@ subscription-content-button-stay-subscribed = Manter a subscrição
     .aria-label = Manter a subscrição em { $productName }
 subscription-content-button-cancel-subscription = Cancelar subscrição
     .aria-label = Cancelar a sua subscrição para { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Aplicam-se termos
+subscription-content-link-churn-intervention-terms-aria = Ver termos e restrições dos cupões
 
 ##
 
@@ -361,6 +392,23 @@ dialog-close = Fechar janela
 button-back-to-subscriptions = Voltar para subscrições
 subscription-content-cancel-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
 paypal-unavailable-error = { -brand-paypal } está atualmente indisponível. Por favor, use outra opção de pagamento ou tente novamente mais tarde.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Código de desconto já aplicado
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Este desconto foi aplicado a uma subscrição de { $productName } da sua conta. Se ainda precisar de ajuda, entre em contacto com a nossa equipa de apoio.
+churn-error-page-button-manage-subscriptions = Gerir subscrições
+churn-error-page-button-contact-support = Contactar o apoio
+churn-error-page-button-try-again = Tentar novamente
+churn-error-page-title-general-error = Ocorreu um problema com a renovação da sua subscrição
+churn-error-page-message-general-error = Entre em contacto com o suporte ou tente novamente.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Ir para { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Este desconto apenas está disponível para { $productName } subscritores atuais
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = A sua subscrição { $productName } ainda está ativa
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -478,3 +526,23 @@ manage-payment-method-intent-error-try-again = Hmm. Ocorreu um problema ao autor
 manage-payment-method-intent-error-get-in-touch = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Entre em contacto com o emissor do seu cartão.
 manage-payment-method-intent-error-insufficient-funds = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
 manage-payment-method-intent-error-generic = Ocorreu um erro inesperado ao processar o seu pagamento, por favor, tente novamente.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Irá poupar { $discountPercent }% no seu próximo débito de { $nextInvoiceTotal } + { $taxDue } de impostos para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de impostos no seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Irá guardar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de impostos em { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Irá poupar { $discountPercent }% no seu próximo débito de { $nextInvoiceTotal } no cartão que termina em { $last4 } em { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Irá poupar { $discountPercent }% no seu próximo débito de { $nextInvoiceTotal } para o seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Irá poupar { $discountPercent }% no seu próximo débito de { $nextInvoiceTotal } em { $currentPeriodEnd }.
+next-charge-with-tax-card = O seu próximo débito será de { $nextInvoiceTotal } + { $taxDue } impostos para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = O seu próximo débito será de { $nextInvoiceTotal } + { $taxDue } impostos para o seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
+next-charge-with-tax = O seu próximo débito será de { $nextInvoiceTotal } + { $taxDue } impostos em { $currentPeriodEnd }.
+next-charge-no-tax-card = O seu próximo débito será de { $nextInvoiceTotal } para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = O seu próximo débito será de { $nextInvoiceTotal } para o seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
+next-charge-no-tax = O seu próximo débito será de { $nextInvoiceTotal } em { $currentPeriodEnd }.

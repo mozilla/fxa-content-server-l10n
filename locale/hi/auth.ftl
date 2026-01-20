@@ -79,9 +79,6 @@ postVerifySecondary-action = खाता प्रबंधित करें
 recovery-subject = अपना कूटशब्द बदली करें
 recovery-title-2 = क्या आप अपना पासवर्ड भूल गए?
 recovery-action = नया कूटशब्द बनाएँ
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = { $productName } में आपका स्वागत है
 subscriptionAccountReminderFirst-action = पासवर्ड बनाएं
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } में आपका स्वागत है!

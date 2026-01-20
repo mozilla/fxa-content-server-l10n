@@ -592,15 +592,6 @@ subscriptionAccountDeletion-title = Spitich dat jo ôfsette
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionAccountDeletion-content-cancelled-2 = Jo hawwe jo { -product-mozilla-account } koartlyn fuortsmiten. As gefolch hjirfan hawwe wy jo abonnemint foar { $productName } opsein. Jo lêste betelling fan { $invoiceTotal } is betelle op { $invoiceDateOnly }.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Wolkom by { $productName }: stel jo wachtwurd yn.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-title = Wolkom by { $productName }.
-subscriptionAccountFinishSetup-content-processing = Jo betelling wurdt ferwurke en wurdt binnen fjouwer wurkdagen foltôge. Jo abonnemint wurdt elke fakturearingsperioade automatysk ferlinge, útsein jo opsizze.
-subscriptionAccountFinishSetup-content-create-3 = Hjirnei meitsje jo in { -product-mozilla-account }-wachtwurd oan om jo nije abonnemint brûken te gean.
-subscriptionAccountFinishSetup-action-2 = Begjinne
 subscriptionAccountReminderFirst-subject = Oantinken: foltôgje it ynstellen fan jo account
 subscriptionAccountReminderFirst-title = Jo hawwe noch gjin tagong ta jo abonnemint
 subscriptionAccountReminderFirst-content-info-3 = In pear dagen lyn hawwe jo in { -product-mozilla-account } oanmakke, mar dizze nea befêstige. Wy hoopje dat jo it ynstellen fan jo account foltôgje, sadat jo jo nije abonnemint brûke kinne.
