@@ -112,7 +112,7 @@ not-found-button-back-to-subscriptions = Nôl i danysgrifiadau
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Heb ganfod y dudalen
-not-found-loyalty-discount-description = Nid yw'r dudalen yr ydych yn chwilio amdani yn bodoli.
+not-found-loyalty-discount-description = Dyw'r dudalen rydych yn chwilio amdani ddim yn bodoli.
 not-found-loyalty-discount-button-back-to-subscriptions = Nôl i danysgrifiadau
 
 ## Page - Subscription Management
@@ -223,10 +223,10 @@ next-pay-with-heading-paypal = Talu gyda { -brand-paypal }
 
 churn-stay-subscribed-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
-churn-stay-subscribed-button-stay-subscribed-and-save-discount = Dal i danysgrifio a chadw { $discountPercent }%
-churn-stay-subscribed-button-stay-subscribed-and-save = Arhoswch danysgrifio a chadwch
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Parhau i danysgrifio a arbed { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Parhau i danysgrifio ac arbed
 churn-stay-subscribed-button-no-thanks = Dim diolch
-    .aria-label = Yn ôl i'r dudalen Tanysgrifiadau
+    .aria-label = Nôl i'r dudalen Tanysgrifiadau
 churn-stay-subscribed-link-terms-and-restrictions = Mae telerau a chyfyngiadau cyfyngedig yn berthnasol
 churn-stay-subscribed-title-offer-expired = Mae'r cynnig hwn wedi dod i ben
 
@@ -239,7 +239,7 @@ churn-stay-subscribed-title-subscription-active = Mae eich tanysgrifiad { $produ
 churn-stay-subscribed-thanks-valued-subscriber = Diolch am fod yn danysgrifiwr gwerthfawr!
 churn-stay-subscribed-button-go-to-product-page = Mynd i { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Ewch i Tanysgrifiadau
-churn-stay-subscribed-button-stay-subscribed = Cadw wedi tanysgrifio
+churn-stay-subscribed-button-stay-subscribed = Parhau wedi tanysgrifio
 
 ## Component - CouponForm
 
@@ -395,9 +395,9 @@ paypal-unavailable-error = Nid yw { -brand-paypal } ar gael ar hyn o bryd. Defny
 
 ## Churn flow - Error page
 
-churn-error-page-title-discount-already-applied = Cod disgownt eisoes wedi'i gymhwyso
+churn-error-page-title-discount-already-applied = Cod disgownt eisoes wedi'i osod
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-message-discount-already-applied = Cafodd y gostyngiad hwn ei gymhwyso i danysgrifiad o { $productName } ar gyfer eich cyfrif. Os oes angen cymorth arnoch o hyd, cysylltwch â'n tîm Cymorth.
+churn-error-page-message-discount-already-applied = Cafodd y gostyngiad hwn ei osod i danysgrifiad o { $productName } ar gyfer eich cyfrif. Os oes angen cymorth arnoch o hyd, cysylltwch â'n tîm Cymorth.
 churn-error-page-button-manage-subscriptions = Rheoli tanysgrifiadau
 churn-error-page-button-contact-support = Cysylltu â Chefnogaeth
 churn-error-page-button-try-again = Ceisiwch eto
@@ -534,15 +534,15 @@ manage-payment-method-intent-error-generic = Mae gwall annisgwyl wedi digwydd wr
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
-next-charge-with-discount-and-tax-card = Byddwch yn arbed { $discountPercent }% ar eich tâl nesaf o { $nextInvoiceTotal } + { $taxDue } treth i'r cerdyn sy'n gorffen gyda { $last4 } ar { $currentPeriodEnd }.
-next-charge-with-discount-and-tax-payment-method = Byddwch yn arbed { $discountPercent }% ar eich tâl nesaf o { $nextInvoiceTotal } + { $taxDue } treth i'ch { $paymentMethod } dull talu ar { $currentPeriodEnd }.
-next-charge-next-charge-with-discount-and-tax = Byddwch yn arbed { $discountPercent }% ar eich tâl nesaf o { $nextInvoiceTotal } + { $taxDue } treth ar { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-card = Byddwch yn arbed { $discountPercent }% ar eich tâl nesaf o { $nextInvoiceTotal } i'r cerdyn sy'n gorffen â { $last4 } ar { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-payment-method = Byddwch yn arbed { $discountPercent }% ar eich tâl nesaf o { $nextInvoiceTotal } i'ch dull talu { $paymentMethod } ar { $currentPeriodEnd }.
-next-charge-with-discount-no-tax = Byddwch yn arbed { $discountPercent }% ar eich tâl nesaf o { $nextInvoiceTotal } ar { $currentPeriodEnd }.
-next-charge-with-tax-card = Eich tâl nesaf fydd { $nextInvoiceTotal } + { $taxDue } treth i'r cerdyn sy'n gorffen â { $last4 } ar { $currentPeriodEnd }.
-next-charge-with-tax-payment-method = Eich tâl nesaf fydd { $nextInvoiceTotal } + { $taxDue } treth i'ch dull talu { $paymentMethod } ar { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-card = Byddwch yn arbed { $discountPercent }% ar eich taliad nesaf o { $nextInvoiceTotal } + { $taxDue } treth i'r cerdyn sy'n gorffen gyda { $last4 } ar { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Byddwch yn arbed { $discountPercent }% ar eich taliad nesaf o { $nextInvoiceTotal } + { $taxDue } treth i'ch { $paymentMethod } dull talu ar { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Byddwch yn arbed { $discountPercent }% ar eich taliad nesaf o { $nextInvoiceTotal } + { $taxDue } treth ar { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Byddwch yn arbed { $discountPercent }% ar eich taliad nesaf o { $nextInvoiceTotal } i'r cerdyn sy'n gorffen â { $last4 } ar { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Byddwch yn arbed { $discountPercent }% ar eich taliad nesaf o { $nextInvoiceTotal } i'ch dull talu { $paymentMethod } ar { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Byddwch yn arbed { $discountPercent }% ar eich taliad nesaf o { $nextInvoiceTotal } ar { $currentPeriodEnd }.
+next-charge-with-tax-card = Eich taliad nesaf fydd { $nextInvoiceTotal } + { $taxDue } treth i'r cerdyn sy'n gorffen â { $last4 } ar { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Eich taliad nesaf fydd { $nextInvoiceTotal } + { $taxDue } treth i'ch dull talu { $paymentMethod } ar { $currentPeriodEnd }.
 next-charge-with-tax = Eich taliad nesaf fydd { $nextInvoiceTotal } + { $taxDue } treth ar { $currentPeriodEnd }.
-next-charge-no-tax-card = Eich tâl nesaf fydd { $nextInvoiceTotal } i'r cerdyn sy'n gorffen â { $last4 } ar { $currentPeriodEnd }.
-next-charge-no-tax-payment-method = Eich tâl nesaf fydd { $nextInvoiceTotal } i'ch dull talu { $paymentMethod } ar { $currentPeriodEnd }.
+next-charge-no-tax-card = Eich taliad nesaf fydd { $nextInvoiceTotal } i'r cerdyn sy'n gorffen â { $last4 } ar { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Eich taliad nesaf fydd { $nextInvoiceTotal } i'ch dull talu { $paymentMethod } ar { $currentPeriodEnd }.
 next-charge-no-tax = Eich taliad nesaf fydd { $nextInvoiceTotal } ar { $currentPeriodEnd }.
