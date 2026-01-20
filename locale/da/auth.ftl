@@ -646,6 +646,11 @@ subscriptionEndingReminder-title = Dit abonnement på { $productName } udløber 
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Din adgang til { $productName } ophører den <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line1-plaintext = Din adgang til { $productName } ophører den { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-closing = Tak fordi du er abonnent!
+subscriptionEndingReminder-churn-title = Vil du beholde adgangen?
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Kontakt vores supportteam: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Dit abonnement på { $productName } er blevet annulleret

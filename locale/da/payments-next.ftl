@@ -109,6 +109,12 @@ not-found-title-subscriptions = Abonnement ikke fundet
 not-found-description-subscriptions = Vi kunne ikke finde dit abonnement. Prøv igen, eller kontakt support.
 not-found-button-back-to-subscriptions = Tilbage til abonnementer
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Siden blev ikke fundet
+not-found-loyalty-discount-description = Den side, du leder efter, findes ikke.
+not-found-loyalty-discount-button-back-to-subscriptions = Tilbage til abonnementer
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmetode tilføjet
@@ -212,6 +218,27 @@ next-payment-confirm-checkbox-error = Du skal fuldføre dette, før du går vide
 
 next-new-user-submit = Abonner nu
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Der opstod en uventet fejl. Prøv igen.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Fortsæt abonnement og spar { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Fortsæt abonnement og spar
+churn-stay-subscribed-button-no-thanks = Nej tak
+    .aria-label = Tilbage til abonnementssiden
+churn-stay-subscribed-title-offer-expired = Dette tilbud er udløbet
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Vil du fortsætte med at bruge { $productName }?
+churn-stay-subscribed-message-access-will-continue = Din adgang til { $productName } vil fortsætte, og din faktureringsperiode og betaling vil forblive den samme.
+churn-stay-subscribed-title-subscription-renewed = Abonnementet er fornyet
+churn-stay-subscribed-title-subscription-active = Dit abonnement på { $productName } er aktivt
+churn-stay-subscribed-thanks-valued-subscriber = Tak fordi du er abonnent!
+churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnementer
+churn-stay-subscribed-button-stay-subscribed = Fortsæt abonnement
 
 ## Component - CouponForm
 
@@ -354,6 +381,8 @@ subscription-content-button-stay-subscribed = Behold abonnement
     .aria-label = Behold  abonnement på { $productName }
 subscription-content-button-cancel-subscription = Annuller abonnement
     .aria-label = Annuller abonnement på { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Betingelser gælder
 
 ##
 
@@ -361,6 +390,23 @@ dialog-close = Luk dialogboks
 button-back-to-subscriptions = Tilbage til abonnementer
 subscription-content-cancel-action-error = Der opstod en uventet fejl. Prøv igen.
 paypal-unavailable-error = { -brand-paypal } er i øjeblikket ikke tilgængelig. Brug en anden betalingsmulighed eller prøv igen senere.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Rabatkode er allerede anvendt
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Denne rabat blev anvendt på et { $productName }-abonnement på din konto. Hvis du stadig har brug for hjælp, så kontakt vores supportteam.
+churn-error-page-button-manage-subscriptions = Håndter abonnementer
+churn-error-page-button-contact-support = Kontakt support
+churn-error-page-button-try-again = Prøv igen
+churn-error-page-title-general-error = Der opstod et problem med at forny dit abonnement
+churn-error-page-message-general-error = Kontakt support eller prøv igen.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Gå til { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Denne rabat er kun tilgængelig for nuværende { $productName }-abonnenter
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Dit abonnement på { $productName } er stadig aktivt
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -478,3 +524,15 @@ manage-payment-method-intent-error-try-again = Hmm. Der opstod et problem med at
 manage-payment-method-intent-error-get-in-touch = Hmm. Der opstod et problem med at godkende din betaling. Kontakt din kortudsteder.
 manage-payment-method-intent-error-insufficient-funds = Det ser ud til, at der ikke er penge nok på dit kort. Prøv et andet kort.
 manage-payment-method-intent-error-generic = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-no-tax-card = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } på dit kort, der ender på { $last4 }.
+next-charge-with-discount-no-tax-payment-method = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
+next-charge-with-discount-no-tax = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Din næste opkrævning er på { $nextInvoiceTotal } + { $taxDue } i afgift, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
