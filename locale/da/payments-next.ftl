@@ -536,3 +536,5 @@ next-charge-with-discount-no-tax-card = Du vil spare { $discountPercent }% på d
 next-charge-with-discount-no-tax-payment-method = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
 next-charge-with-discount-no-tax = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd }.
 next-charge-with-tax-payment-method = Din næste opkrævning er på { $nextInvoiceTotal } + { $taxDue } i afgift, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
+next-charge-no-tax-card = Din næste opkrævning er på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } på dit kort, der ender på { $last4 }.
+next-charge-no-tax-payment-method = Din næste opkrævning er på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
