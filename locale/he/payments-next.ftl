@@ -220,6 +220,7 @@ next-pay-with-heading-paypal = תשלום באמצעות { -brand-paypal }
 churn-stay-subscribed-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-stay-subscribed-button-stay-subscribed-and-save-discount = כדאי להישאר רשום כמינוי ולחסוך { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = כדאי להישאר רשום כמינוי ולחסוך
 churn-stay-subscribed-button-no-thanks = לא תודה
     .aria-label = חזרה לדף המינויים
 churn-stay-subscribed-link-terms-and-restrictions = כפוף לתנאים ולהגבלות
