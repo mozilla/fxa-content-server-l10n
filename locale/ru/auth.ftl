@@ -653,7 +653,7 @@ subscriptionEndingReminder-content-line1-plaintext = Ваш доступ к { $p
 subscriptionEndingReminder-content-line2-plaintext = Если вы хотите продолжить использовать { $productName }, вы можете повторно активировать свою подписку в настройках учётной записи до { $serviceLastActiveDateOnly }. Если вам нужна помощь, свяжитесь с нашей службой поддержки.
 subscriptionEndingReminder-content-closing = Спасибо за то, что являетесь ценным подписчиком!
 subscriptionEndingReminder-churn-title = Хотите сохранить доступ?
-subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Принимаются ограниченные условия и ограничения</a>
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Применяются ограниченные условия и ограничения</a>
 # Variables:
 #  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
 subscriptionEndingReminder-churn-terms-plaintext = Действуют ограниченные условия и ограничения: { $churnTermsUrlWithUtm }
