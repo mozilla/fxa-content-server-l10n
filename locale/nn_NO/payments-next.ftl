@@ -236,6 +236,7 @@ churn-stay-subscribed-subtitle-offer-expired = Vil du halde fram med å bruke { 
 churn-stay-subscribed-message-access-will-continue = Tilgangen din til { $productName } vil halde fram, og faktureringssyklusen og betalinga di vil halde fram med å vere den same.
 churn-stay-subscribed-title-subscription-renewed = Abonnementet er fornya
 churn-stay-subscribed-title-subscription-active = Abonnementet ditt på { $productName } er aktivt.
+churn-stay-subscribed-thanks-valued-subscriber = Takk for at du er ein verdsett abonnent!
 churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnement
 churn-stay-subscribed-button-stay-subscribed = Fortset å abonnere
@@ -395,12 +396,19 @@ paypal-unavailable-error = { -brand-paypal } er akkurat no utilgjengeleg. Bruk e
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = Rabattkoden er allereie brukt
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Denne rabatten vart brukt på eit abonnement på { $productName } for kontoen din. Om du framleis treng hjelp, kan du kontakte kundestøtteteamet vårt.
 churn-error-page-button-manage-subscriptions = Handsam abonnement
 churn-error-page-button-contact-support = Kontakt support
 churn-error-page-button-try-again = Prøv igjen
+churn-error-page-title-general-error = Det oppstod eit problem med å fornye abonnementet ditt
 churn-error-page-message-general-error = Kontakt brukarstøtte eller prøv på nytt.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Gå til { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Denne rabatten er berre tilgjengeleg for noverande { $productName }-abonnentar
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Abonnementet ditt på { $productName } er framleis aktivt.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -526,5 +534,15 @@ manage-payment-method-intent-error-generic = Det oppstod ein uventa feil under b
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-discount-and-tax-card = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } + { $taxDue } i moms til kortet som sluttar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } + { $taxDue } i moms til betalingsmåten { $paymentMethod } han { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } + { $taxDue } i moms den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } til kortet som sluttar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } til betalingsmåten { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Du sparer { $discountPercent } % på neste belastning på { $nextInvoiceTotal } den { $currentPeriodEnd }.
+next-charge-with-tax-card = Neste belastning blir { $nextInvoiceTotal } + { $taxDue } i moms til kortet som sluttar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Neste belastning blir { $nextInvoiceTotal } + { $taxDue } i moms til betalingsmåten { $paymentMethod } den { $currentPeriodEnd }.
 next-charge-with-tax = Den neste belastninga di blir { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
+next-charge-no-tax-card = Neste belastning blir { $nextInvoiceTotal } til kortet som sluttar på { $last4 } den { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Neste belastning blir { $nextInvoiceTotal } til betalingsmåten { $paymentMethod } den { $currentPeriodEnd }.
 next-charge-no-tax = Den neste belastninga di blir { $nextInvoiceTotal } den { $currentPeriodEnd }.
