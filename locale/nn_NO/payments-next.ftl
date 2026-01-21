@@ -235,6 +235,7 @@ churn-stay-subscribed-title-offer-expired = Dette tilbodet gjeld ikkje lenger
 churn-stay-subscribed-subtitle-offer-expired = Vil du halde fram med å bruke { $productName }?
 churn-stay-subscribed-message-access-will-continue = Tilgangen din til { $productName } vil halde fram, og faktureringssyklusen og betalinga di vil halde fram med å vere den same.
 churn-stay-subscribed-title-subscription-renewed = Abonnementet er fornya
+churn-stay-subscribed-title-subscription-active = Abonnementet ditt på { $productName } er aktivt.
 churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnement
 churn-stay-subscribed-button-stay-subscribed = Fortset å abonnere
@@ -393,9 +394,11 @@ paypal-unavailable-error = { -brand-paypal } er akkurat no utilgjengeleg. Bruk e
 
 ## Churn flow - Error page
 
+churn-error-page-title-discount-already-applied = Rabattkoden er allereie brukt
 churn-error-page-button-manage-subscriptions = Handsam abonnement
 churn-error-page-button-contact-support = Kontakt support
 churn-error-page-button-try-again = Prøv igjen
+churn-error-page-message-general-error = Kontakt brukarstøtte eller prøv på nytt.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Gå til { $productName }
 
