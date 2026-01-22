@@ -112,7 +112,7 @@ not-found-button-back-to-subscriptions = Volver a suscripciones
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Página no encontrada
-not-found-loyalty-discount-description = La página que está buscando no existe.
+not-found-loyalty-discount-description = La página que estás buscando no existe.
 not-found-loyalty-discount-button-back-to-subscriptions = Volver a suscripciones
 
 ## Page - Subscription Management
@@ -223,19 +223,19 @@ next-pay-with-heading-paypal = Pagar con { -brand-paypal }
 
 churn-stay-subscribed-action-error = Ocurrió un error inesperado. Probá de nuevo.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
-churn-stay-subscribed-button-stay-subscribed-and-save-discount = Mantenete suscrito y ahorrá { $discountPercent }%
-churn-stay-subscribed-button-stay-subscribed-and-save = Mantenete suscrito y ahorrá
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Mantenete suscripto y ahorrá { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Mantenete suscripto y ahorrá
 churn-stay-subscribed-button-no-thanks = No, gracias
     .aria-label = Volver a la página de suscripciones
 churn-stay-subscribed-link-terms-and-restrictions = Se aplican términos y restricciones limitados
-churn-stay-subscribed-title-offer-expired = Esta oferta ya caducó
+churn-stay-subscribed-title-offer-expired = Esta oferta ya expiró
 
 ## $productName (String) - The name of the product associated with the subscription.
 
 churn-stay-subscribed-subtitle-offer-expired = ¿Querés seguir usando { $productName }?
 churn-stay-subscribed-message-access-will-continue = Tu acceso a { $productName } continuará y tu ciclo de facturación y pago seguirán siendo los mismos.
 churn-stay-subscribed-title-subscription-renewed = Suscripción renovada
-churn-stay-subscribed-title-subscription-active = Tu suscripción de { $productName } está activa
+churn-stay-subscribed-title-subscription-active = Tu suscripción a { $productName } está activa
 churn-stay-subscribed-thanks-valued-subscriber = ¡Gracias por ser un valioso suscriptor!
 churn-stay-subscribed-button-go-to-product-page = Ir a { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Ir a suscripciones

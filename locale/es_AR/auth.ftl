@@ -637,8 +637,8 @@ subscriptionDowngrade-content-install = Si hay que instalar un programa nuevo  p
 subscriptionDowngrade-content-auto-renew = Tu suscripción se renovará automáticamente cada período de facturación a menos que elijas cancelar.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionEndingReminder-subject = Tu suscripción de { $productName } expirará pronto
-subscriptionEndingReminder-title = Tu suscripción de { $productName } expirará pronto
+subscriptionEndingReminder-subject = Tu suscripción a { $productName } expirará pronto
+subscriptionEndingReminder-title = Tu suscripción a { $productName } expirará pronto
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
