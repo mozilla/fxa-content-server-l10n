@@ -406,9 +406,9 @@ churn-error-page-message-general-error = Contactez l’assistance ou réessayez.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Ouvrir { $productName }
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-title-subscription-not-active = Cette réduction est uniquement disponible pour les abonnés actuels de { $productName }
+churn-error-page-title-subscription-not-active = Cette réduction est uniquement disponible pour les abonnés actuels à { $productName }
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-title-subscription-still-active = Votre abonnement de { $productName } est toujours actif
+churn-error-page-title-subscription-still-active = Votre abonnement à { $productName } est toujours actif
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -534,9 +534,9 @@ manage-payment-method-intent-error-generic = Une erreur inattendue s’est produ
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
-next-charge-with-discount-and-tax-card = Vous économiserez { $discountPercent } % sur votre prochain paiement de { $nextInvoiceTotal } + { $taxDue } de taxes sur la carte se terminant par { $last4 } la carte { $currentPeriodEnd }.
-next-charge-with-discount-and-tax-payment-method = Vous économiserez { $discountPercent } % sur votre prochain paiement de { $nextInvoiceTotal } + { $taxDue } de taxes sur votre mode de paiement { $paymentMethod } sur { $currentPeriodEnd }.
-next-charge-next-charge-with-discount-and-tax = Vous économiserez { $discountPercent } % sur votre prochaine facture de { $nextInvoiceTotal } + { $taxDue } de taxes sur { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-card = Vous économiserez { $discountPercent } % sur votre prochain paiement de { $nextInvoiceTotal } + { $taxDue } de taxes sur la carte se terminant par { $last4 } le { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Vous économiserez { $discountPercent } % sur votre prochain paiement de { $nextInvoiceTotal } + { $taxDue } de taxes sur votre moyen de paiement { $paymentMethod } le { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Vous économiserez { $discountPercent } % sur votre prochain paiement de { $nextInvoiceTotal } + { $taxDue } de taxes le { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-card = Vous économiserez { $discountPercent } % sur votre prochain paiement de { $nextInvoiceTotal } sur la carte se terminant par { $last4 } le { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-payment-method = Vous économiserez { $discountPercent } % sur vos prochaines paiements de { $nextInvoiceTotal } sur { $currentPeriodEnd } votre mode de paiement.
 next-charge-with-discount-no-tax = Vous économiserez { $discountPercent } % sur votre prochaine facture de { $nextInvoiceTotal } dans { $currentPeriodEnd }.
