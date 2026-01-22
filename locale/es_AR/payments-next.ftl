@@ -397,7 +397,7 @@ paypal-unavailable-error = { -brand-paypal } no está disponible actualmente. Us
 
 churn-error-page-title-discount-already-applied = Código de descuento ya aplicado
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-message-discount-already-applied = Este descuento fue aplicado a una suscripción de { $productName } para tu cuenta. Si aún necesitás ayuda, contactá a nuestro equipo de Soporte.
+churn-error-page-message-discount-already-applied = Este descuento fue aplicado a una suscripción a { $productName } para tu cuenta. Si todavía necesitás ayuda, contactá a nuestro equipo de Soporte.
 churn-error-page-button-manage-subscriptions = Administrar suscripciones
 churn-error-page-button-contact-support = Contactar soporte
 churn-error-page-button-try-again = Intentar nuevamente
@@ -406,9 +406,9 @@ churn-error-page-message-general-error = Contactá a soporte o intentá de nuevo
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Ir a { $productName }
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-title-subscription-not-active = Este descuento solo está disponible para { $productName } suscriptores actuales
+churn-error-page-title-subscription-not-active = Este descuento solo está disponible para suscriptores actuales de { $productName }
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-title-subscription-still-active = Tu suscripción de { $productName } sigue activa
+churn-error-page-title-subscription-still-active = Tu suscripción a { $productName } sigue activa
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -539,7 +539,7 @@ next-charge-with-discount-and-tax-payment-method = Ahorrarás { $discountPercent
 next-charge-next-charge-with-discount-and-tax = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } + { $taxDue } de impuestos el { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-card = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } a la tarjeta que termina en { $last4 } el { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-payment-method = Ahorrarás { $discountPercent }% en tu próximo cargo de { $nextInvoiceTotal } a tu método de pago { $paymentMethod } el { $currentPeriodEnd }.
-next-charge-with-discount-no-tax = Ahorrarás { $discountPercent }% en tu próxima carga de { $nextInvoiceTotal } el { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Ahorrarás { $discountPercent }% en tu próxima cargo de { $nextInvoiceTotal } el { $currentPeriodEnd }.
 next-charge-with-tax-card = Tu próximo cargo será de { $nextInvoiceTotal } + { $taxDue } de impuestos a la tarjeta que termina en { $last4 } el { $currentPeriodEnd }.
 next-charge-with-tax-payment-method = Tu próximo cargo será de { $nextInvoiceTotal } + { $taxDue } impuestos a tu método de pago { $paymentMethod } el { $currentPeriodEnd }.
 next-charge-with-tax = El próximo cargo será de { $nextInvoiceTotal } + { $taxDue } de impuestos el { $currentPeriodEnd }.
