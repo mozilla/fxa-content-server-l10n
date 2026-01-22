@@ -227,7 +227,7 @@ churn-stay-subscribed-button-stay-subscribed-and-save-discount = Restez abonné�
 churn-stay-subscribed-button-stay-subscribed-and-save = Restez abonné·e et économisez
 churn-stay-subscribed-button-no-thanks = Non merci
     .aria-label = Retour à la page des abonnements
-churn-stay-subscribed-link-terms-and-restrictions = Certaines conditions et restrictions s’appliquent
+churn-stay-subscribed-link-terms-and-restrictions = Des conditions particulières et des restrictions s’appliquent
 churn-stay-subscribed-title-offer-expired = Cette offre a expiré
 
 ## $productName (String) - The name of the product associated with the subscription.
@@ -383,7 +383,7 @@ subscription-content-button-stay-subscribed = Conserver l’abonnement
 subscription-content-button-cancel-subscription = Annuler l’abonnement
     .aria-label = Annuler votre abonnement à { $productName }
 # Link to the terms and restrictions for a coupon offer.
-subscription-content-link-churn-intervention-terms-apply = Conditions applicables
+subscription-content-link-churn-intervention-terms-apply = Des conditions s’appliquent
 subscription-content-link-churn-intervention-terms-aria = Voir les conditions et restrictions des coupons
 
 ##

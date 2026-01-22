@@ -642,10 +642,10 @@ subscriptionEndingReminder-content-line1-plaintext = Votre accès à { $productN
 subscriptionEndingReminder-content-line2-plaintext = Si vous souhaitez continuer à utiliser { $productName }, vous pouvez réactiver votre abonnement dans les paramètres du compte avant le { $serviceLastActiveDateOnly }. Si vous avez besoin d’aide, contactez notre équipe d’assistance.
 subscriptionEndingReminder-content-closing = Merci pour votre abonnement !
 subscriptionEndingReminder-churn-title = Voulez-vous conserver votre accès ?
-subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Des conditions limitées s’appliquent</a>
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Des restrictions et conditions particulières s’appliquent</a>
 # Variables:
 #  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
-subscriptionEndingReminder-churn-terms-plaintext = Des conditions limitées et des restrictions s’appliquent : { $churnTermsUrlWithUtm }
+subscriptionEndingReminder-churn-terms-plaintext = Des conditions particulières et des restrictions s’appliquent : { $churnTermsUrlWithUtm }
 # Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
 subscriptionEndingReminder-content-support-plaintext = Contactez notre équipe d’assistance : { $subscriptionSupportUrlWithUtm }
