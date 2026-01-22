@@ -383,6 +383,8 @@ paypal-unavailable-error = Το { -brand-paypal } δεν είναι διαθέσ
 
 ## Churn flow - Error page
 
+churn-error-page-button-manage-subscriptions = Διαχείριση συνδρομών
+churn-error-page-button-contact-support = Επικοινωνία με την υποστήριξη
 churn-error-page-button-try-again = Δοκιμή ξανά
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
