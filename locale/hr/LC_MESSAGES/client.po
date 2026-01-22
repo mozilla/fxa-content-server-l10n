@@ -1233,11 +1233,11 @@ msgstr "Potvrdi rezervni kod za autentifikaciju"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Da bismo osigurali da možeš vratiti pristup svom računu u slučaju izgubljenog uređaja, unesi jedan od spremljenih rezervnih kodova za autentifikaciju."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Rezervni kod za autentifikaciju"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
