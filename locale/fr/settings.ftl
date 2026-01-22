@@ -1240,7 +1240,7 @@ tfa-row-verify-session-info = Vous devez confirmer votre session en cours pour c
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
-terms-privacy-agreement-intro-3 = En poursuivant, vous acceptez ce qui suit :
+terms-privacy-agreement-intro-3 = En poursuivant, vous acceptez :
 # This item is part of a bulleted list and follows terms-privacy-agreement-intro
 # $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
 # $serviceName is customizable via Strapi and will be localized separately
