@@ -1,3 +1,8 @@
+loyalty-discount-terms-support = Ota yhteys tukeen
+not-found-page-title-terms = Sivua ei löytynyt
+not-found-page-description-terms = Etsimääsi sivua ei ole olemassa.
+not-found-page-button-terms-manage-subscriptions = Hallinnoi tilauksia
+
 ## Page
 
 checkout-signin-or-create = 1. Kirjaudu sisään tai luo { -product-mozilla-account }
@@ -91,6 +96,17 @@ next-payment-confirmation-download-button = Jatka lataamiseen
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Tilausta ei löytynyt
+not-found-button-back-to-subscriptions = Takaisin tilauksiin
+
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Sivua ei löytynyt
+not-found-loyalty-discount-description = Etsimääsi sivua ei ole olemassa.
+not-found-loyalty-discount-button-back-to-subscriptions = Takaisin tilauksiin
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Maksutapaa ei lisätty
@@ -125,7 +141,9 @@ subscription-management-iap-sub-expires-on-expiry-date = Vanhenee { $date }
 subscription-management-button-manage-subscription-aria = Hallinnoi { $productName } -tilausta
 subscription-management-button-manage-subscription-1 = Hallinnoi tilausta
 error-payment-method-banner-title-expired-card = Vanhentunut kortti
+error-payment-method-banner-message-add-new-card = Lisää uusi kortti tai maksutapa välttääksesi tilaustesi keskeytykset.
 error-payment-method-banner-label-update-payment-method = Päivitä maksutapa
+error-payment-method-banner-title-invalid-payment-information = Virheelliset maksutiedot
 error-payment-method-banner-message-account-issue = Tililläsi on ongelma.
 subscription-management-button-manage-payment-method-1 = Hallinnoi maksutapaa
 manage-payment-methods-heading = Hallinnoi maksutapoja
@@ -160,6 +178,18 @@ next-payment-confirm-checkbox-error = Sinun on suoritettava tämä vaihe, ennen 
 
 next-new-user-submit = Tilaa nyt
 next-pay-with-heading-paypal = Maksa { -brand-paypal }illa
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
+churn-stay-subscribed-button-stay-subscribed-and-save = Pysy tilaajana ja säästä
+churn-stay-subscribed-title-offer-expired = Tämä tarjous on päättynyt
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Haluatko jatkaa tuotteen { $productName } käyttämistä?
+churn-stay-subscribed-title-subscription-renewed = Tilaus uusittu
+churn-stay-subscribed-title-subscription-active = { $productName }-tilauksesi on aktiivinen
 
 ## Component - CouponForm
 
@@ -287,10 +317,23 @@ subscription-content-button-stay-subscribed = Jatka tilausta
     .aria-label = Jatka tuotteen { $productName } tilausta
 subscription-content-button-cancel-subscription = Peruuta tilaus
     .aria-label = Peruuta tuotteen { $productName } tilaus
+subscription-content-link-churn-intervention-terms-aria = Katso kupongin ehdot ja rajoitukset
 
 ##
 
+button-back-to-subscriptions = Takaisin tilauksiin
 subscription-content-cancel-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Alennuskoodi on jo käytetty
+churn-error-page-button-manage-subscriptions = Hallinnoi tilauksia
+churn-error-page-button-contact-support = Ota yhteys tukeen
+churn-error-page-button-try-again = Yritä uudelleen
+churn-error-page-title-general-error = Tilauksesi uusimisessa oli ongelma
+churn-error-page-message-general-error = Ota yhteys tukeen tai yritä uudelleen.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = { $productName }-tilauksesi on edelleen aktiivinen
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -362,6 +405,7 @@ metadata-title-checkout-success = Onnistui | { $productTitle }
 metadata-description-checkout-success = Onnittelut! Olet suorittanut ostoksen onnistuneesti.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Toimenpiteitä vaaditaan | { $productTitle }
+metadata-description-upgrade-start = Kirjoita maksutietosi päivityksen suorittamiseksi loppuun.
 # Upgrade processing
 metadata-title-upgrade-processing = Käsitellään | { $productTitle }
 metadata-description-upgrade-processing = Odota, kun käsittelemme maksuasi.
@@ -388,4 +432,15 @@ next-coupon-error-limit-reached = Antamasi koodi on käytetty liian monta kertaa
 
 stay-subscribed-error-expired = Tämä tarjous on päättynyt.
 stay-subscribed-error-discount-used = Alennuskoodi on jo käytetty.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Tämä alennus on saatavilla vain nykyisille { $productTitle }-tilaajille.
 stay-subscribed-error-general = Tilauksesi uusimisessa oli ongelma.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Tapahtuman käsittely epäonnistui. Tarkista kortin tiedot ja yritä uudestaan.
+manage-payment-method-intent-error-expired-card-error = Luottokorttisi vaikuttaa vanhentuneen. Kokeile toista korttia.
+manage-payment-method-intent-error-try-again = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Yritä uudestaan tai ole yhteydessä kortin myöntäjään.
+manage-payment-method-intent-error-get-in-touch = Hmm. Maksun valtuuttamisessa ilmeni ongelma. Ole yhteydessä kortin myöntäjään.
+manage-payment-method-intent-error-insufficient-funds = Vaikuttaa siltä, että kortilla ei ole riittävästi varoja. Kokeile toista korttia.
+manage-payment-method-intent-error-generic = Maksua käsitellessä tapahtui odottamaton virhe. Yritä uudestaan.
