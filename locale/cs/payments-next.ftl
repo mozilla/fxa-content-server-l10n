@@ -128,7 +128,7 @@ subscription-management-payment-details-heading = Detaily platby
 subscription-management-email-label = E-mail
 subscription-management-credit-balance-label = Zůstatek kreditu
 subscription-management-credit-balance-message = Kredit bude automaticky použit na budoucí faktury
-subscription-management-payment-method-label = Způsob platby
+subscription-management-payment-method-label = Platební metoda
 subscription-management-button-add-payment-method-aria = Přidat platební metodu
 subscription-management-button-add-payment-method = Přidat
 subscription-management-page-warning-message-no-payment-method = Přidejte prosím platební metodu, aby nedošlo k přerušení vašich předplatných.
@@ -284,9 +284,9 @@ payments-client-loading-spinner =
 ## Payment method management page - Stripe
 
 # Save button for changing which payment method will be used
-payment-method-management-save-default = Nastaveno jako výchozí způsob platby
+payment-method-management-save-default = Nastaveno jako výchozí platební metoda
 # Save button for saving a new payment method
-payment-method-management-save-method = Uložit způsob platby
+payment-method-management-save-method = Uložit platební metodu
 manage-stripe-payments-title = Spravovat platební metody
 
 ## Component - PurchaseDetails

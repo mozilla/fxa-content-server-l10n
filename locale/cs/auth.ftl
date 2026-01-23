@@ -694,7 +694,7 @@ subscriptionPaymentFailed-title = Omlouváme se, máme potíže s vaší platbou
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Vyskytl se problém s vaší poslední platbou za { $productName }.
-subscriptionPaymentFailed-content-outdated-1 = Možná, že platnost vašeho způsobu platby už vypršela, nebo je váš současný způsob platby zastaralý.
+subscriptionPaymentFailed-content-outdated-1 = Je možné, že vypršela platnost vaší platební metody, nebo jsou vaše platební údaje zastaralé.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Je vyžadována aktualizace platebních údajů pro produkt { $productName }
@@ -702,7 +702,7 @@ subscriptionPaymentProviderCancelled-title = Je nám to líto, ale s vaší plat
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Zjistili jsme problém s vaší platební metodou za { $productName }.
-subscriptionPaymentProviderCancelled-content-reason-1 = Možná, že platnost vašeho způsobu platby už vypršela, nebo je váš současný způsob platby zastaralý.
+subscriptionPaymentProviderCancelled-content-reason-1 = Je možné, že vypršela platnost vaší platební metody, nebo jsou vaše platební údaje zastaralé.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Předplatné produktu { $productName } bylo znovu aktivované
@@ -742,7 +742,7 @@ subscriptionsPaymentExpired-content-2 = Platnost platební metody, kterou použ�
 subscriptionsPaymentProviderCancelled-subject = Pro předplatná { -brand-mozilla } je vyžadována aktualizace platebních údajů
 subscriptionsPaymentProviderCancelled-title = Je nám to líto, ale s vaší platební metodou se vyskytly problémy
 subscriptionsPaymentProviderCancelled-content-detected = S vaší platební metodou platbou pro úhradu následujících předplatných se vyskytly problémy.
-subscriptionsPaymentProviderCancelled-content-payment-1 = Možná, že platnost vašeho způsobu platby už vypršela, nebo je váš současný způsob platby zastaralý.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Je možné, že vypršela platnost vaší platební metody, nebo jsou vaše platební údaje zastaralé.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Platba za produkt { $productName } byla přijata
