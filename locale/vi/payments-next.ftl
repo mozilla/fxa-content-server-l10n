@@ -109,6 +109,12 @@ not-found-title-subscriptions = Không tìm thấy gói đăng ký
 not-found-description-subscriptions = Chúng tôi không tìm thấy gói đăng ký của bạn. Vui lòng thử lại hoặc liên hệ bộ phận hỗ trợ.
 not-found-button-back-to-subscriptions = Quay lại gói đăng ký
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Không tìm thấy trang
+not-found-loyalty-discount-description = Trang bạn đang tìm kiếm không tồn tại.
+not-found-loyalty-discount-button-back-to-subscriptions = Quay lại gói đăng ký
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Không có phương thức thanh toán nào được thêm
@@ -212,6 +218,28 @@ next-payment-confirm-checkbox-error = Bạn cần hoàn thành việc này trư�
 
 next-new-user-submit = Theo dõi ngay
 next-pay-with-heading-paypal = Thanh toán bằng { -brand-paypal }
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Duy trì gói đăng ký và tiết kiệm { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Tiếp tục duy trì và tiết kiệm
+churn-stay-subscribed-button-no-thanks = Không, cảm ơn
+    .aria-label = Quay lại gói đăng ký
+churn-stay-subscribed-link-terms-and-restrictions = Áp dụng các điều khoản và hạn chế giới hạn.
+churn-stay-subscribed-title-offer-expired = Ưu đãi này đã hết hạn
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Bạn muốn tiếp tục sử dụng { $productName }?
+churn-stay-subscribed-message-access-will-continue = Quyền truy cập của bạn vào { $productName } sẽ tiếp tục và chu kỳ thanh toán cũng như phương thức thanh toán của bạn sẽ vẫn giữ nguyên.
+churn-stay-subscribed-title-subscription-renewed = Đã gia hạn gói đăng ký
+churn-stay-subscribed-title-subscription-active = Gói đăng ký { $productName } của bạn đang hoạt động
+churn-stay-subscribed-thanks-valued-subscriber = Cảm ơn bạn đã là một người đăng ký quý giá!
+churn-stay-subscribed-button-go-to-product-page = Đi đến { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Đi đến gói đăng ký
+churn-stay-subscribed-button-stay-subscribed = Tiếp tục duy trì gói đăng ký
 
 ## Component - CouponForm
 
@@ -365,6 +393,23 @@ button-back-to-subscriptions = Quay lại gói đăng ký
 subscription-content-cancel-action-error = Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
 paypal-unavailable-error = { -brand-paypal } hiện tại không khả dụng. Vui lòng sử dụng phương thức thanh toán khác hoặc thử lại sau.
 
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = Mã giảm giá đã được áp dụng
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Mức giảm giá này đã được áp dụng cho gói đăng ký { $productName } trong tài khoản của bạn. Nếu bạn vẫn cần trợ giúp, vui lòng liên hệ với nhóm Hhỗ trợ của chúng tôi.
+churn-error-page-button-manage-subscriptions = Quản lý gói đăng ký
+churn-error-page-button-contact-support = Liên hệ hỗ trợ
+churn-error-page-button-try-again = Thử lại
+churn-error-page-title-general-error = Đã xảy ra sự cố khi gia hạn gói đăng ký của bạn
+churn-error-page-message-general-error = Vui lòng liên hệ bộ phận hỗ trợ hoặc thử lại.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Đi đến { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Giảm giá này chỉ dành cho gói đăng ký { $productName } hiện tại
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Gói đăng ký { $productName } của bạn vẫn còn hiệu lực
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -481,3 +526,12 @@ manage-payment-method-intent-error-try-again = Hmm. Đã xảy ra sự cố khi 
 manage-payment-method-intent-error-get-in-touch = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
 manage-payment-method-intent-error-insufficient-funds = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
 manage-payment-method-intent-error-generic = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-no-tax = Khoản phí tiếp theo của bạn sẽ là { $nextInvoiceTotal } vào { $currentPeriodEnd }.
