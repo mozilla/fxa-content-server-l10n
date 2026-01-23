@@ -188,8 +188,8 @@ payment-plan-next-invoice = Další platba: { $nextInvoiceDateOnly }
 
 ## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
 
-payment-method-payment-provider = <b>Způsob platby:</b> { $paymentProviderName }
-payment-method-payment-provider-plaintext = Způsob platby: { $paymentProviderName }
+payment-method-payment-provider = <b>Platební metoda:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Platební metoda: { $paymentProviderName }
 
 ## This string displays when the type of credit card is known
 ## https://stripe.com/docs/payments/cards/supported-card-brands
@@ -198,9 +198,9 @@ payment-method-payment-provider-plaintext = Způsob platby: { $paymentProviderNa
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
 payment-provider-card-name-ending-in-plaintext = Platební metoda: { $cardName } končící na { $lastFour }
-payment-provider-card-ending-in-plaintext = Způsob platby: Karta končící na { $lastFour }
-payment-provider-card-ending-in = <b>Způsob platby:</b> Karta končící na { $lastFour }
-payment-provider-card-ending-in-card-name = <b>Způsob platby:</b> { $cardName } končící na { $lastFour }
+payment-provider-card-ending-in-plaintext = Platební metoda: Karta končící na { $lastFour }
+payment-provider-card-ending-in = <b>Platební metoda:</b> Karta končící na { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Platební metoda:</b> { $cardName } končící na { $lastFour }
 subscription-charges-invoice-summary = Přehled faktur
 
 # Variables:
@@ -686,7 +686,7 @@ subscriptionPaymentExpired-subject-2 = Platnost platební metody { $productName 
 subscriptionPaymentExpired-title-2 = Platnost vaší platební metody vypršela nebo brzy vyprší
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-2 = Platnost metody, kterou používáte pro { $productName }, vypršela nebo brzy vyprší.
+subscriptionPaymentExpired-content-2 = Platnost platební metody, kterou používáte pro { $productName }, vypršela nebo brzy vyprší.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Platba za produkt { $productName } se nezdařila
