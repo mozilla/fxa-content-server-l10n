@@ -148,6 +148,7 @@ error-payment-method-expired-card = Seu cartão expirou. Adicione outro cartão 
 error-payment-method-banner-title-invalid-payment-information = Informações de pagamento inválidas
 error-payment-method-banner-message-account-issue = Há um problema com sua conta.
 subscription-management-button-manage-payment-method-1 = Gerenciar método de pagamento
+subscription-management-error-apple-pay = Há um problema em sua conta do { -brand-apple-pay }. Resolva o problema para manter suas assinaturas ativas.
 manage-payment-methods-heading = Gerenciar métodos de pagamento
 paypal-payment-management-page-invalid-header = Informações de cobrança inválidas
 # Page - Not Found
@@ -421,3 +422,9 @@ stay-subscribed-error-expired = Esta oferta expirou.
 stay-subscribed-error-discount-used = Código de desconto já aplicado.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Este desconto só está disponível para quem já tem assinatura do { $productTitle }.
+stay-subscribed-error-still-active = Sua assinatura do { $productTitle } ainda está ativa.
+stay-subscribed-error-general = Houve um problema ao renovar sua assinatura.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Não foi possível processar sua transação. Verifique as informações do seu cartão de crédito e tente novamente.
