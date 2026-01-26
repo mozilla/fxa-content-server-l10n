@@ -1,5 +1,7 @@
 loyalty-discount-terms-heading = Termos e restrições
 loyalty-discount-terms-support = Entrar em contato com o suporte
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Entrar em contato com o suporte do { $productName }
 not-found-page-title-terms = Página não encontrada
 not-found-page-description-terms = A página que você está procurando não existe.
 not-found-page-button-terms-manage-subscriptions = Gerenciar assinaturas
@@ -43,6 +45,8 @@ visa-logo-alt-text = Logotipo do { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logotipo sem marca
 link-logo-alt-text = Logotipo do { -brand-link }
+apple-pay-logo-alt-text = Logotipo do { -brand-apple-pay }
+google-pay-logo-alt-text = Logotipo do { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -58,6 +62,16 @@ checkout-error-contact-support = Entre em contato com o suporte para receber aju
 cart-error-currency-not-determined = Não foi possível determinar a moeda para esta compra, tente novamente.
 checkout-processing-general-error = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
 cart-total-mismatch-error = O valor da fatura mudou. Tente novamente.
+
+## Error pages - Payment method failure messages
+
+intent-card-error = Sua transação não pôde ser processada. Verifique as informações do seu cartão de crédito e tente novamente.
+intent-expired-card-error = Parece que seu cartão de crédito expirou. Tente outro cartão.
+intent-payment-error-try-again = Hmm. Houve um problema ao autorizar seu pagamento. Tente novamente ou entre em contato com o emissor do seu cartão.
+intent-payment-error-get-in-touch = Hmm. Houve um problema ao autorizar o pagamento. Entre em contato com o emissor do seu cartão.
+intent-payment-error-generic = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
+intent-payment-error-insufficient-funds = Parece que seu cartão não tem saldo suficiente. Tente outro cartão.
+paypal-active-subscription-no-billing-agreement-error = Parece que houve um problema ao cobrar sua conta do { -brand-paypal }. Reative o pagamento automático da sua assinatura.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -88,16 +102,34 @@ next-payment-confirmation-download-button = Continuar para baixar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Assinatura não encontrada
+not-found-description-subscriptions = Não foi possível encontrar sua assinatura. Tente novamente ou entre em contato com o suporte.
+not-found-button-back-to-subscriptions = Voltar para assinaturas
+
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = Nenhum método de pagamento adicionado
+subscription-management-page-banner-warning-link-no-payment-method = Adicionar um método de pagamento
 subscription-management-subscriptions-heading = Assinaturas
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Ir para
+subscription-management-nav-payment-details = Detalhes do pagamento
+subscription-management-nav-active-subscriptions = Assinaturas ativas
 subscription-management-payment-details-heading = Detalhes do pagamento
 subscription-management-email-label = Email
+subscription-management-credit-balance-label = Saldo de crédito
+subscription-management-credit-balance-message = O crédito será automaticamente aplicado a faturas futuras
 subscription-management-payment-method-label = Método de pagamento
 subscription-management-button-add-payment-method-aria = Adicionar método de pagamento
 subscription-management-button-add-payment-method = Adicionar
 subscription-management-button-manage-payment-method-aria = Gerenciar método de pagamento
 subscription-management-button-manage-payment-method = Gerenciar
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Cartão com final { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Expira em { $expirationDate }
 subscription-management-active-subscriptions-heading = Assinaturas ativas
 subscription-management-new-subs-will-appear-here = Novas assinaturas aparecem aqui.
 subscription-management-your-active-subscriptions-aria = Suas assinaturas ativas
@@ -111,6 +143,7 @@ error-payment-method-banner-label-update-payment-method = Atualizar método de p
 error-payment-method-expired-card = Seu cartão expirou. Adicione outro cartão ou método de pagamento para evitar interrupção em suas assinaturas.
 error-payment-method-banner-title-invalid-payment-information = Informações de pagamento inválidas
 error-payment-method-banner-message-account-issue = Há um problema com sua conta.
+subscription-management-button-manage-payment-method-1 = Gerenciar método de pagamento
 manage-payment-methods-heading = Gerenciar métodos de pagamento
 paypal-payment-management-page-invalid-header = Informações de cobrança inválidas
 # Page - Not Found
@@ -120,6 +153,8 @@ page-not-found-back-button = Voltar
 
 ## Navigation breadcrumbs
 
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Página inicial da conta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Assinaturas
 # Link title - Payment method management

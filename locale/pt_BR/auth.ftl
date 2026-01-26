@@ -221,7 +221,9 @@ subscription-charges-prorated-price-plaintext = Preço proporcional: { $remainin
 subscription-charges-list-price = Preço de tabela
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Preço de tabela: { $offeringPrice }
-subscription-charges-credit-from-unused-time = Crédito do tempo não usado
+subscription-charges-credit-from-unused-time = Crédito de tempo não usado
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Crédito de tempo não usado: { $unusedAmountTotal }
 subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
@@ -623,6 +625,9 @@ subscriptionDowngrade-content-charge-info = A partir da próxima fatura, sua cob
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Se for necessário instalar outro software para usar o { $productName }, você receberá um email separado com instruções de como baixar.
 subscriptionDowngrade-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Sua assinatura do { $productName } expirará em breve
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Sua assinatura do { $productName } foi cancelada
@@ -643,11 +648,15 @@ subscriptionFirstInvoice-content-install-2 = Você receberá um email separado c
 subscriptionFirstInvoice-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = O método de pagamento que você está usando para { $productName } expirou ou está prestes a expirar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Falha no pagamento do { $productName }
 subscriptionPaymentFailed-title = Desculpe, estamos com problemas com seu pagamento
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Ocorreu um problema com seu pagamento mais recente pelo { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = É possível que seu método de pagamento tenha expirado ou que o método de pagamento atual esteja desatualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Necessário atualizar informações de pagamento do { $productName }
@@ -718,8 +727,14 @@ subscriptionUpgrade-upgrade-info-2 = Sua mudança do { $productName } foi conclu
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-credit = Você recebeu um crédito na conta no valor de { $paymentProrated }.
+subscriptionUpgrade-content-new-price-halfyear-tax = De agora em diante, será cobrado { $paymentAmountNew } + { $paymentTaxNew } de imposto por seis meses, excluindo descontos.
+subscriptionUpgrade-content-new-price-year-tax = De agora em diante, será cobrado { $paymentAmountNew } + { $paymentTaxNew } de imposto por ano, excluindo descontos.
+subscriptionUpgrade-content-new-price-default-tax = De agora em diante, será cobrado { $paymentAmountNew } + { $paymentTaxNew } de imposto por intervalo de faturamento, excluindo descontos.
 subscriptionUpgrade-existing = Se alguma de suas assinaturas existentes interferir com esta mudança, cuidaremos disso e enviaremos um email separado com os detalhes. Caso seu novo plano inclua produtos que necessitem de instalação, enviaremos um email separado com instruções de configuração.
 subscriptionUpgrade-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Use { $unblockCode } para entrar
 unblockCode-title = Foi você que tentou entrar na sua conta?
 unblockCode-prompt = Se foi você, use este código de verificação:
 # Variables:
@@ -748,12 +763,14 @@ verify-title-3 = Abra a internet com a { -brand-mozilla }
 verify-description-2 = Confirme sua conta e aproveite ao máximo a { -brand-mozilla } onde quer que acesse, começando com:
 verify-subject = Concluir a criação da sua conta
 verify-action-2 = Confirmar conta
+verifyAccountChange-title = Você está alterando as informações da sua conta?
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Você se conectou no { $clientName }?
 verifyLogin-description-2 = Ajude-nos a manter sua conta segura confirmando que você se conectou no:
 verifyLogin-subject-2 = Confirmar acesso
 verifyLogin-action = Confirmar acesso
+verifyLoginCode-preview = Este código expira em 5 minutos.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Você se conectou no { $serviceName }?
@@ -767,6 +784,9 @@ verifyPrimary-subject = Confirmar email principal
 verifyPrimary-action-2 = Confirmar email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Uma vez confirmado, será possível fazer alterações na conta neste dispositivo, como adicionar um email secundário.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Use { $code } para confirmar seu email secundário
 verifySecondaryCode-title-2 = Confirmar email secundário
 verifySecondaryCode-action-2 = Confirmar email
 # Variables:
