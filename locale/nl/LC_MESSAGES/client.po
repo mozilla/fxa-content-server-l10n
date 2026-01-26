@@ -2,18 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-06 06:32+0000\n"
-"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pontoon\n"
-"X-POOTLE-MTIME: 1447423715.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1130,7 +1124,7 @@ msgid ""
 msgstr ""
 "\n"
 "              Door verder te gaan, gaat u akkoord met de<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacyverklaring</a> van Mozilla Subscription Services<br />\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacyverklaring</a> van Mozilla-abonnementservices<br />\n"
 "              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Servicevoorwaarden</a> en <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacyverklaring</a> van Mozilla Accounts\n"
 "            "
 
@@ -1310,7 +1304,6 @@ msgstr "Download Firefox voor Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Download Firefox voor mobiele apparaten."
 
-# Werkwoord of zelfstandig naamwoord?
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
 msgstr "Aanvraag voor toestemming"
