@@ -1,4 +1,3 @@
-loyalty-discount-terms-heading = Vilkår og begrænsninger
 loyalty-discount-terms-support = Kontakt support
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 loyalty-discount-terms-contact-support-product-aria = Kontakt support for { $productName }
