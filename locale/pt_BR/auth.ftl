@@ -221,6 +221,7 @@ subscription-charges-prorated-price-plaintext = Preço proporcional: { $remainin
 subscription-charges-list-price = Preço de tabela
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Preço de tabela: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Crédito do tempo não usado
 subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
