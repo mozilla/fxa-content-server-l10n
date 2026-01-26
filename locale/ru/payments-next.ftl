@@ -56,7 +56,7 @@ next-iap-blocked-contact-support = У вас есть мобильная под�
 next-payment-error-retry-button = Попробовать снова
 next-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
 checkout-error-contact-support-button = Связаться с поддержкой
-checkout-error-not-eligible = Вы не имеете права подписаться на этот продукт - обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
+checkout-error-not-eligible = Вы не имеете права подписаться на этот продукт — обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
 checkout-error-already-subscribed = Вы уже подписаны на этот продукт.
 checkout-error-contact-support = Пожалуйста, обратитесь в службу поддержки, чтобы мы могли вам помочь.
 cart-error-currency-not-determined = Нам не удалось определить валюту этой покупки, пожалуйста, попробуйте ещё раз.
@@ -534,15 +534,15 @@ manage-payment-method-intent-error-generic = При обработке плат�
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
-next-charge-with-discount-and-tax-card = Вы сэкономите { $discountPercent }% при следующем пожертвовании { $nextInvoiceTotal } + { $taxDue } с карты, заканчивающейся на { $last4 }. { $currentPeriodEnd }.
-next-charge-with-discount-and-tax-payment-method = Вы сэкономите { $discountPercent }% на следующем списании { $nextInvoiceTotal } + { $taxDue } на вашем способе оплаты { $paymentMethod } { $currentPeriodEnd }.
-next-charge-next-charge-with-discount-and-tax = Вы сэкономите { $discountPercent }% при следующем списании средств в { $nextInvoiceTotal } + { $taxDue } налог { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-card = Вы сэкономите { $discountPercent }% при следующем платеже в размере { $nextInvoiceTotal } с карты, заканчивающейся на { $last4 }, { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-payment-method = Вы сэкономите { $discountPercent }% при следующем списании { $nextInvoiceTotal } на способе оплаты { $paymentMethod } { $currentPeriodEnd }.
-next-charge-with-discount-no-tax = Вы сэкономите { $discountPercent }% при следующем списании средств { $nextInvoiceTotal } { $currentPeriodEnd }.
-next-charge-with-tax-card = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог для карты, заканчивающейся на { $last4 }, { $currentPeriodEnd }.
-next-charge-with-tax-payment-method = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог для вашего способа оплаты { $paymentMethod } { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-card = Вы сэкономите { $discountPercent }% при следующем платеже в размере { $nextInvoiceTotal } + { $taxDue } с карты, оканчивающейся на { $last4 }. { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Вы сэкономите { $discountPercent }% при следующем платеже в размере { $nextInvoiceTotal } + { $taxDue } на способе оплаты [{ $paymentMethod }] { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Вы сэкономите { $discountPercent }% при следующем платеже в размере { $nextInvoiceTotal } + { $taxDue } налог { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Вы сэкономите { $discountPercent }% при следующем платеже в размере { $nextInvoiceTotal } с карты, оканчивающейся на { $last4 }, { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Вы сэкономите { $discountPercent }% при следующем платеже в размере { $nextInvoiceTotal } на способе оплаты [{ $paymentMethod }] { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Вы сэкономите { $discountPercent }% при следующем платеже в размере { $nextInvoiceTotal } { $currentPeriodEnd }.
+next-charge-with-tax-card = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог для карты, оканчивающейся на { $last4 }, { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог для вашего способа оплаты [{ $paymentMethod }] { $currentPeriodEnd }.
 next-charge-with-tax = Ваш следующий платёж составит { $nextInvoiceTotal } + { $taxDue } налог { $currentPeriodEnd }.
-next-charge-no-tax-card = Ваш следующий платёж состоится { $currentPeriodEnd } и составит { $nextInvoiceTotal } с карты, заканчивающейся на { $last4 }.
-next-charge-no-tax-payment-method = Ваш следующий платёж будет произведён { $nextInvoiceTotal } для вашего способа оплаты { $paymentMethod }.
+next-charge-no-tax-card = Ваш следующий платёж состоится { $currentPeriodEnd } и составит { $nextInvoiceTotal } с карты, оканчивающейся на { $last4 }.
+next-charge-no-tax-payment-method = Ваш следующий платёж составит { $nextInvoiceTotal } для вашего способа оплаты [{ $paymentMethod }] { $currentPeriodEnd }.
 next-charge-no-tax = Ваш следующий платёж составит { $nextInvoiceTotal } { $currentPeriodEnd }.

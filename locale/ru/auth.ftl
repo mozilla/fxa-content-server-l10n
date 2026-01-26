@@ -6,7 +6,7 @@ session-verify-send-push-body-2 = Нажмите здесь, чтобы подт
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
-recovery-phone-setup-sms-body = { $code } - ваш код подтверждения { -brand-mozilla }. Срок действия кода составляет 5 минут.
+recovery-phone-setup-sms-body = { $code } — ваш код подтверждения { -brand-mozilla }. Срок действия кода составляет 5 минут.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -16,7 +16,7 @@ recovery-phone-setup-sms-short-body = Код подтверждения { -brand
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
-recovery-phone-signin-sms-body = { $code } - ваш код подтверждения { -brand-mozilla }. Срок действия кода составляет 5 минут.
+recovery-phone-signin-sms-body = { $code } — ваш код восстановления { -brand-mozilla }. Срок действия кода составляет 5 минут.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -26,7 +26,7 @@ recovery-phone-signin-sms-short-body = Код { -brand-mozilla }: { $code }
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
-recovery-phone-reset-password-sms-body = { $code } - ваш код подтверждения { -brand-mozilla }. Срок действия кода составляет 5 минут.
+recovery-phone-reset-password-sms-body = { $code } — ваш код восстановления { -brand-mozilla }. Срок действия кода составляет 5 минут.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -201,8 +201,8 @@ payment-method-payment-provider-plaintext = Способ оплаты: { $paymen
 
 payment-provider-card-name-ending-in-plaintext = Способ оплаты: { $cardName }, оканчивающаяся на { $lastFour }
 payment-provider-card-ending-in-plaintext = Способ оплаты: Карта, оканчивающаяся на { $lastFour }
-payment-provider-card-ending-in = <b>Способ оплаты:</b> Карта, заканчивающаяся на { $lastFour }
-payment-provider-card-ending-in-card-name = <b>Способ оплаты:</b> { $cardName }, заканчивающаяся на { $lastFour }
+payment-provider-card-ending-in = <b>Способ оплаты:</b> Карта, оканчивающаяся на { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Способ оплаты:</b> { $cardName }, оканчивающаяся на { $lastFour }
 subscription-charges-invoice-summary = Сводка по счёту
 
 # Variables:
@@ -357,7 +357,7 @@ inactiveAccountFinalWarning-preview = Войдите, чтобы сохрани�
 inactiveAccountFinalWarning-account-description = Ваш { -product-mozilla-account(case: "nominative") } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong>, ваш аккаунт и ваши личные данные будут навсегда удалены, если вы не войдете в него.
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong>, ваш аккаунт и ваши личные данные будут навсегда удалены, если вы не войдёте в него.
 inactiveAccountFinalWarning-action = Войдите, чтобы сохранить свой аккаунт
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Войдите, чтобы сохранить свой аккаунт:
@@ -376,7 +376,7 @@ inactiveAccountSecondWarning-subject = Требуется действие: Уд
 inactiveAccountSecondWarning-title = Ваш аккаунт { -brand-mozilla } и данные будут удалены через 7 дней
 inactiveAccountSecondWarning-account-description-v2 = Ваш { -product-mozilla-account(case: "nominative") } используется для доступа к бесплатным продуктам для обеспечения приватности и просмотра, таким как синхронизация { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } и { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Ваш аккаунт и ваши личные данные будут навсегда удалены на <strong>{ $deletionDate }</strong>, так как вы не были активны.
+inactiveAccountSecondWarning-impact = Ваш аккаунт и ваши личные данные будут навсегда удалены <strong>{ $deletionDate }</strong>, так как вы не были активны.
 inactiveAccountSecondWarning-action = Войдите, чтобы сохранить свой аккаунт
 inactiveAccountSecondWarning-preview = Войдите, чтобы сохранить свой аккаунт
 # followed by link to sign in
@@ -650,7 +650,7 @@ subscriptionEndingReminder-title = Срок действия вашей подп
 subscriptionEndingReminder-content-line1 = Ваш доступ к { $productName } закончится <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line2 = Если вы хотите продолжить использовать { $productName }, вы можете повторно активировать свою подписку в <a data-l10n-name="subscriptionEndingReminder-account-settings">параметрах аккаунта</a> до <strong>{ $serviceLastActiveDateOnly }</strong>. Если вам нужна помощь, <a data-l10n-name="subscriptionEndingReminder-contact-support">свяжитесь с нашей службой поддержки</a>.
 subscriptionEndingReminder-content-line1-plaintext = Ваш доступ к { $productName } закончится { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Если вы хотите продолжить использовать { $productName }, вы можете повторно активировать свою подписку в настройках учётной записи до { $serviceLastActiveDateOnly }. Если вам нужна помощь, свяжитесь с нашей службой поддержки.
+subscriptionEndingReminder-content-line2-plaintext = Если вы хотите продолжить использовать { $productName }, вы можете повторно активировать свою подписку в настройках аккаунта до { $serviceLastActiveDateOnly }. Если вам нужна помощь, свяжитесь с нашей службой поддержки.
 subscriptionEndingReminder-content-closing = Спасибо за то, что являетесь ценным подписчиком!
 subscriptionEndingReminder-churn-title = Хотите сохранить доступ?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Применяются ограниченные условия и ограничения</a>
@@ -800,7 +800,7 @@ subscriptionUpgrade-content-new-price-month-tax = В будущем, с вас �
 subscriptionUpgrade-content-new-price-halfyear-tax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог каждые шесть месяцев, не включая скидки.
 subscriptionUpgrade-content-new-price-year-tax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог в день, не включая скидки.
 subscriptionUpgrade-content-new-price-default-tax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог за каждый платёжный интервал, не включая скидки.
-subscriptionUpgrade-existing = Если какая-либо из ваших существующих подписок не будет подпадать под действие этого обновления, мы разберемся с этим и отправим вам отдельное электронное письмо с подробной информацией. Если в ваш новый тарифный план включены продукты, требующие установки, мы отправим вам отдельное электронное письмо с инструкциями по настройке.
+subscriptionUpgrade-existing = Если какая-либо из ваших существующих подписок не будет подпадать под действие этого обновления, мы разберёмся с этим и отправим вам отдельное электронное письмо с подробной информацией. Если в ваш новый тарифный план включены продукты, требующие установки, мы отправим вам отдельное электронное письмо с инструкциями по настройке.
 subscriptionUpgrade-auto-renew = Ваша подписка будет автоматически продлеваться каждый платёжный период, пока вы не решите её отменить.
 # Variables:
 #  $unblockCode (String) - The authorization code for sign-in
