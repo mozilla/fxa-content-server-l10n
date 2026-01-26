@@ -124,6 +124,7 @@ subscription-management-credit-balance-message = O crédito será automaticament
 subscription-management-payment-method-label = Método de pagamento
 subscription-management-button-add-payment-method-aria = Adicionar método de pagamento
 subscription-management-button-add-payment-method = Adicionar
+subscription-management-page-warning-message-no-payment-method = Adicione um método de pagamento para evitar interrupção em suas assinaturas.
 subscription-management-button-manage-payment-method-aria = Gerenciar método de pagamento
 subscription-management-button-manage-payment-method = Gerenciar
 # $last4 (String) - Last four numbers of credit card
@@ -131,9 +132,12 @@ subscription-management-card-ending-in = Cartão com final { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expira em { $expirationDate }
 subscription-management-active-subscriptions-heading = Assinaturas ativas
+subscription-management-you-have-no-active-subscriptions = Você não tem assinaturas ativas
 subscription-management-new-subs-will-appear-here = Novas assinaturas aparecem aqui.
 subscription-management-your-active-subscriptions-aria = Suas assinaturas ativas
 subscription-management-button-support = Obter ajuda
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Obtenha ajuda para o { $productName }
 # $date (String) - Date of next bill
 subscription-management-iap-sub-expires-on-expiry-date = Expira em { $date }
 subscription-management-button-manage-subscription-1 = Gerenciar assinatura
@@ -150,6 +154,7 @@ paypal-payment-management-page-invalid-header = Informações de cobrança invá
 page-not-found-title = Página não encontrada
 page-not-found-description = A página solicitada não foi encontrada. Fomos notificados e corrigiremos os links que podem estar quebrados.
 page-not-found-back-button = Voltar
+alert-dialog-title = Diálogo de alerta
 
 ## Navigation breadcrumbs
 
@@ -230,6 +235,9 @@ next-plan-details-header = Detalhes do produto
 next-plan-details-list-price = Preço de tabela
 next-plan-details-tax = Impostos e taxas
 next-plan-details-total-label = Total
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Crédito de tempo não usado
+purchase-details-subtotal-label = Subtotal
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = Crédito aplicado
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
