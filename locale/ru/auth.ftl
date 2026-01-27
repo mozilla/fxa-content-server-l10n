@@ -721,6 +721,10 @@ subscriptionRenewalReminder-title = Ваша подписка скоро буд�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Уважаемый покупатель { $productName },
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Ваша текущая подписка настроена на автоматическое продление через { $reminderLength } дней.
+subscriptionRenewalReminder-content-discount-ending = Так как предыдущая скидка закончилась, ваша подписка будет продлена по стандартной цене.
 subscriptionRenewalReminder-content-closing = С уважением,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
