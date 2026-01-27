@@ -720,6 +720,16 @@ subscriptionRenewalReminder-title = Vaše předplatné bude brzy obnoveno
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Vážený zákazníku produktu { $productName },
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Vaše aktuální předplatné je nastaveno tak, aby se za { $reminderLength } dní automaticky obnovilo.
+subscriptionRenewalReminder-content-discount-ending = Protože skončila předchozí sleva, bude vaše předplatné obnoveno za standardní cenu.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = V tu chvíli { -brand-mozilla } obnoví vaše předplatné za { $planIntervalCount } { $planInterval } a skrze platební metodu nastavenou u vašeho účtu bude stržena platba ve výši { $invoiceTotal }.
 subscriptionRenewalReminder-content-closing = S pozdravem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

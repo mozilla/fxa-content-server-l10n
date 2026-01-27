@@ -716,6 +716,16 @@ subscriptionRenewalReminder-title = Il tuo abbonamento verrà rinnovato a breve
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Gentile cliente di { $productName },
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Il tuo abbonamento attuale è impostato per il rinnovo automatico tra { $reminderLength } giorni.
+subscriptionRenewalReminder-content-discount-ending = Poiché uno sconto precedente è terminato, il tuo abbonamento verrà rinnovato al prezzo standard.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento { $planIntervalCount } { $planInterval } e verrà applicato un addebito di { $invoiceTotal } al metodo di pagamento sul tuo account.
 subscriptionRenewalReminder-content-closing = Cordiali saluti,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

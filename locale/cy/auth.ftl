@@ -728,6 +728,16 @@ subscriptionRenewalReminder-title = Bydd eich tanysgrifiad yn cael ei adnewyddu'
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Annwyl gwsmer { $productName },
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Bydd eich tanysgrifiad presennol yn cael ei adnewyddu'n awtomatig ymhen { $reminderLength } diwrnod.
+subscriptionRenewalReminder-content-discount-ending = Oherwydd bod gostyngiad blaenorol wedi dod i ben, bydd eich tanysgrifiad yn adnewyddu am y pris safonol.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad { $planIntervalCount } { $planInterval } a bydd tâl o { $invoiceTotal } yn cael ei godi ar y dull talu ar eich cyfrif.
 subscriptionRenewalReminder-content-closing = Yn gywir,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
