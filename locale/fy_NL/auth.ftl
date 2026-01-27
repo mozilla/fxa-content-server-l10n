@@ -718,6 +718,10 @@ subscriptionRenewalReminder-title = Jo abonnemint wurdt ynkoarten ferlinge
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Beste klant fan { $productName },
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Jo aktuele abonnemint wurdt oer { $reminderLength } dagen automatysk ferlinge.
+subscriptionRenewalReminder-content-discount-ending = Omdat in eardere koarting foarby is komme te ferfallen, wurdt jo abonnemint ferlinge tsjin de standertpriis.
 subscriptionRenewalReminder-content-closing = Mei heechachting,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
