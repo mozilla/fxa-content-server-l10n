@@ -643,9 +643,9 @@ subscriptionEndingReminder-title = Tu suscripción a { $productName } expirará 
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Tu acceso a { $productName } terminará el <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2 = Si querés continuar usando { $productName }, podés reactivar tu suscripción en <a data-l10n-name="subscriptionEndingReminder-account-settings">Configuración de cuenta</a> antes de <strong>{ $serviceLastActiveDateOnly }</strong >. Si necesitás ayuda, <a data-l10n-name="subscriptionEndingReminder-contact-support">contactate con nuestro equipo de soporte</a>.
+subscriptionEndingReminder-content-line2 = Si querés continuar usando { $productName }, podés reactivar tu suscripción en <a data-l10n-name="subscriptionEndingReminder-account-settings">Configuración de cuenta</a> antes del <strong>{ $serviceLastActiveDateOnly }</strong >. Si necesitás ayuda, <a data-l10n-name="subscriptionEndingReminder-contact-support">contactate con nuestro equipo de soporte</a>.
 subscriptionEndingReminder-content-line1-plaintext = Tu acceso a { $productName } terminará el { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Si querés continuar usando { $productName }, podés reactivar tu suscripción en Configuración de la cuenta antes de { $serviceLastActiveDateOnly }. Si necesitás ayuda, contactá a nuestro equipo de soporte.
+subscriptionEndingReminder-content-line2-plaintext = Si querés continuar usando { $productName }, podés reactivar tu suscripción en Configuración de la cuenta antes del { $serviceLastActiveDateOnly }. Si necesitás ayuda, contactá a nuestro equipo de soporte.
 subscriptionEndingReminder-content-closing = ¡Gracias por ser un valioso suscriptor!
 subscriptionEndingReminder-churn-title = ¿Querés mantener el acceso?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Aplican términos y restricciones limitados</a>
