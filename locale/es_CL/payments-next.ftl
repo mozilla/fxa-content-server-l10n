@@ -212,7 +212,7 @@ cancel-subscription-button-stay-subscribed = Mantener suscripción
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Autorizo a { -brand-mozilla } para que cargue a mi método de pago por el monto mostrado, de acuerdo con los <termsOfServiceLink >Términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
-next-payment-confirm-checkbox-error = Debe completar esto antes de seguir adelante
+next-payment-confirm-checkbox-error = Debes completar esto antes de seguir adelante
 
 ## Checkout Form
 
