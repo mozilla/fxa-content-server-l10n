@@ -104,6 +104,11 @@ datablock-download-success =
         [one] Código descargado
        *[other] Códigos descargados
     }
+datablock-print-success =
+    { $count ->
+        [one] Código impreso
+       *[other] Códigos impresos
+    }
 
 ##
 
@@ -279,6 +284,10 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Dispositivo móvil con capacidad para enviar mensajes de texto SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = Pantalla de dispositivo con códigos
+sync-clouds-image-aria-label =
+    .aria-label = Nubes con un icono de sincronización
+confetti-falling-image-aria-label =
+    .aria-label = Animación de confeti cayendo
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -354,6 +363,7 @@ confirmation-link-reused-message = Ese enlace de confirmación ya ha sido usado 
 ## Locale Toggle Component
 
 locale-toggle-select-label = Selecciona un idioma
+locale-toggle-browser-default = Predeterminado del navegador
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud incorrecta
 
@@ -372,6 +382,7 @@ password-strength-inline-min-length = Al menos 8 caracteres
 password-strength-inline-not-email = Diferente a tu dirección de correo electrónico
 password-strength-inline-not-common = Que no sea una contraseña de uso común
 password-strength-inline-confirmed-must-match = La confirmación coincide con la nueva contraseña
+password-strength-inline-passwords-match = Coincidencia de contraseñas
 
 ## Notification Promo Banner component
 
@@ -628,6 +639,7 @@ flow-setup-2fa-more-info-link = Saber más sobre las aplicaciones de autenticaci
 flow-setup-2fa-button = Continuar
 flow-setup-2fa-step-2-instruction = <strong>Paso 2:</strong> Introduce el código de tu aplicación de autenticación.
 flow-setup-2fa-input-label = Introduce el código de 6 dígitos
+flow-setup-2fa-code-error = Código inválido o caducado. Revisa tu aplicación de autenticación y vuelve a intentarlo.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -685,6 +697,7 @@ flow-setup-2fa-prompt-heading = Configurar la autenticación en dos pasos
 flow-setup-2fa-prompt-description = { $serviceName } requiere que configures la autenticación en dos pasos para mantener tu cuenta segura.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Puedes usar cualquiera de estas <authenticationAppsLink>aplicaciones de autenticación</authenticationAppsLink> para continuar.
+flow-setup-2fa-prompt-continue-button = Continuar
 
 ## FlowSetupPhoneConfirmCode
 
@@ -724,6 +737,8 @@ header-menu-open = Cerrar menú
 header-menu-closed = Menú de navegación del sitio
 header-back-to-top-link =
     .title = Volver arriba
+header-back-to-settings-link =
+    .title = Volver a los ajustes de { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Ayuda
 
@@ -745,6 +760,28 @@ modal-close-title = Cerrar
 modal-cancel-button = Cancelar
 modal-default-confirm-button = Confirmar
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Introduce el código de confirmación
+modal-mfa-protected-subtitle = Ayúdanos a asegurarnos de que seas tú quien cambia la información de tu cuenta.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Introduce el código que fue enviado a <email>{ $email }</email> dentro del próximo { $expirationTime } minuto.
+       *[other] Introduce el código que fue enviado a <email>{ $email }</email> dentro de los próximos { $expirationTime } minutos.
+    }
+modal-mfa-protected-input-label = Introduce el código de 6 dígitos
+modal-mfa-protected-cancel-button = Cancelar
+modal-mfa-protected-confirm-button = Confirmar
+modal-mfa-protected-code-expired = ¿Código caducado?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Enviar código nuevo por correo electrónico.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Confirma tu correo electrónico
@@ -765,6 +802,11 @@ nav-connected-services = Servicios conectados
 nav-data-collection = Recopilación y uso de datos
 nav-paid-subs = Suscripciones de pago
 nav-email-comm = Comunicaciones por correo electrónico
+
+## Page2faChange
+
+page-2fa-change-title = Cambiar autenticación en dos pasos
+page-2fa-change-success = Se ha actualizado la autenticación en dos pasos
 
 ## Two Step Authentication - replace backup authentication code
 
