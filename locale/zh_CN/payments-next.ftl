@@ -109,6 +109,12 @@ not-found-title-subscriptions = 未找到订阅
 not-found-description-subscriptions = 未找到您的订阅，请重试或联系技术支持。
 not-found-button-back-to-subscriptions = 返回“订阅”
 
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = 找不到页面
+not-found-loyalty-discount-description = 您要找的页面不存在。
+not-found-loyalty-discount-button-back-to-subscriptions = 返回“订阅”
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = 未添加付款方式
@@ -212,6 +218,10 @@ next-payment-confirm-checkbox-error = 同意此项后才可继续
 
 next-new-user-submit = 立即订阅
 next-pay-with-heading-paypal = 通过 { -brand-paypal } 付款
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = 发生意外错误，请重试。
 
 ## Component - CouponForm
 
