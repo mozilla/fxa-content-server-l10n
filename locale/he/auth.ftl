@@ -683,6 +683,15 @@ subscriptionRenewalReminder-title = המינוי שלך יחודש בקרוב
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = לקוח { $productName } יקר,
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro =
+    { $reminderLength ->
+        [one] המינוי הנוכחי שלך יתחדש באופן אוטומטי מחר.
+        [two] המינוי הנוכחי שלך יתחדש באופן אוטומטי בעוד יומיים.
+       *[other] המינוי הנוכחי שלך יתחדש באופן אוטומטי בעוד { $reminderLength } ימים.
+    }
+subscriptionRenewalReminder-content-discount-ending = מכיוון שהנחה קודמת הסתיימה, המינוי שלך יתחדש בתעריף הרגיל.
 subscriptionRenewalReminder-content-closing = בברכה,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
