@@ -198,6 +198,14 @@ next-payment-confirm-checkbox-error = Należy to wypełnić, aby móc przejść 
 next-new-user-submit = Subskrybuj
 next-pay-with-heading-paypal = Zapłać za pomocą serwisu { -brand-paypal }
 
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-title-offer-expired = Ta oferta wygasła
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Czy chcesz nadal używać { $productName }?
+
 ## Component - CouponForm
 
 next-coupon-enter-code =
@@ -300,6 +308,7 @@ next-new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wył�
 
 ## $productName (String) - The name of the subscribed product.
 
+stay-subscribed-access-will-continue = Twój dostęp do { $productName } będzie przedłużony, a cykl rozliczeniowy i płatności pozostaną takie same.
 resubscribe-success-dialog-title = Dzięki! Wszystko gotowe.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
@@ -320,6 +329,14 @@ subscription-content-button-cancel-subscription = Anuluj subskrypcję
 
 subscription-content-cancel-action-error = Wystąpił nieoczekiwany błąd. Spróbuj ponownie.
 paypal-unavailable-error = { -brand-paypal } jest obecnie niedostępny. Użyj innej opcji płatności lub spróbuj ponownie później.
+
+## Churn flow - Error page
+
+churn-error-page-button-try-again = Spróbuj ponownie
+churn-error-page-title-general-error = Wystąpił problem z przedłużeniem subskrypcji.
+churn-error-page-message-general-error = Skontaktuj się z pomocą techniczną lub spróbuj ponownie.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Przejdź do { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
