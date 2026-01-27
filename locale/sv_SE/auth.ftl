@@ -720,14 +720,14 @@ subscriptionRenewalReminder-title = Din prenumeration förnyas snart
 subscriptionRenewalReminder-content-greeting = Bästa { $productName }-kund,
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-intro = Ditt nuvarande abonnemang är inställd på att förnyas automatiskt om { $reminderLength } dagar.
-subscriptionRenewalReminder-content-discount-ending = Eftersom en tidigare rabatt har upphört, förnyas ditt abonnemang till standardpris.
+subscriptionRenewalReminder-content-intro = Din nuvarande prenumeration är inställd på att förnyas automatiskt om { $reminderLength } dagar.
+subscriptionRenewalReminder-content-discount-ending = Eftersom en tidigare rabatt har upphört förnyas din prenumeration till ordinarie pris.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
 #   $planInterval (String) - The interval of time of the subscription plan, e.g. week
 # Tells the customer that their subscription price will change at the end of the current billing cycle
-subscriptionRenewalReminder-content-charge = Vid den tidpunkten kommer { -brand-mozilla } att förnya din prenumeration på { $planIntervalCount } { $planInterval } och en debitering på { $invoiceTotal } kommer att tillämpas på betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge = Vid den tidpunkten kommer { -brand-mozilla } att förnya din { $planIntervalCount } { $planInterval } prenumeration och en avgift på { $invoiceTotal } kommer att tillämpas på betalningsmetoden på ditt konto.
 subscriptionRenewalReminder-content-closing = Vänliga hälsningar,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
