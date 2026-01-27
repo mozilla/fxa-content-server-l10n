@@ -428,3 +428,8 @@ stay-subscribed-error-general = Houve um problema ao renovar sua assinatura.
 ## Manage Payment Method Error Messages
 
 manage-payment-method-intent-error-card-declined = Não foi possível processar sua transação. Verifique as informações do seu cartão de crédito e tente novamente.
+manage-payment-method-intent-error-expired-card-error = Parece que seu cartão de crédito expirou. Tente outro cartão.
+manage-payment-method-intent-error-try-again = Hmm. Houve um problema ao autorizar seu pagamento. Tente novamente ou entre em contato com o emissor do seu cartão.
+manage-payment-method-intent-error-get-in-touch = Hmm. Houve um problema ao autorizar o pagamento. Entre em contato com o emissor do seu cartão.
+manage-payment-method-intent-error-insufficient-funds = Parece que seu cartão não tem saldo suficiente. Tente outro cartão.
+manage-payment-method-intent-error-generic = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
