@@ -608,12 +608,6 @@ subscriptionRenewalReminder-title = サブスクリプションはまもなく�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = 平素より { $productName } をご利用いただき、誠にありがとうございます。
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = 現在のサブスクリプションはあと { $reminderLength } 日で自動的に更新されるよう設定されています。更新日に { -brand-mozilla } が { $planIntervalCount } { $planInterval } のサブスクリプションを更新し、{ $invoiceTotal } の料金があなたのアカウントの支払い方法に適用されます。
 subscriptionRenewalReminder-content-closing = 今後とも宜しくお願い致します。
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

@@ -721,12 +721,6 @@ subscriptionRenewalReminder-title = Abonamentul va fi reînnoit în curând
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Dragă client { $productName },
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Abonamentul tău actual este setat să se reînnoiască automat în { $reminderLength } zile. Atunci, { -brand-mozilla } îți va reînnoi abonamentul { $planIntervalCount } { $planInterval } și o taxă de { $invoiceTotal } va fi aplicată metodei de plată din contul tău.
 subscriptionRenewalReminder-content-closing = Salutări,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

@@ -716,12 +716,6 @@ subscriptionRenewalReminder-title = Az előfizetése hamarosan meg lesz újítva
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Tisztelt { $productName } vásárló!
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = A jelenlegi előfizetése { $reminderLength } nap múlva automatikusan megújul. Ekkor a { -brand-mozilla } megújítja a(z) { $planIntervalCount } { $planInterval } időszakú előfizetését, és { $invoiceTotal } összegű díjat számol fel a fiókjában szereplő fizetési módra.
 subscriptionRenewalReminder-content-closing = Üdvözlettel,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

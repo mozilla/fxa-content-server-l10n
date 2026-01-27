@@ -712,12 +712,6 @@ subscriptionRenewalReminder-title = Thuê bao của bạn sẽ sớm được gi
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Kính gửi khách hàng { $productName },
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Thuê bao hiện tại của bạn được đặt thành tự động gia hạn sau { $reminderLength } ngày. Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn thuê bao { $planIntervalCount } { $planInterval } của bạn và khoản phí { $invoiceTotal } sẽ được áp dụng cho phương thức thanh toán trên tài khoản của bạn.
 subscriptionRenewalReminder-content-closing = Trân trọng,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

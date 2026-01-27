@@ -519,12 +519,6 @@ subscriptionRenewalReminder-title = Langganan Anda akan segera diperbarui
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Pelanggan { $productName } yang terhormat,
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Langganan Anda saat ini diatur untuk diperpanjang otomatis dalam { $reminderLength } hari. Pada saat itu, { -brand-mozilla } akan memperbarui langganan { $planIntervalCount } { $planInterval } Anda dan biaya sebesar { $invoiceTotal } akan diterapkan ke metode pembayaran di akun Anda.
 subscriptionRenewalReminder-content-closing = Hormat kami,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

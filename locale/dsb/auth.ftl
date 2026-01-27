@@ -724,12 +724,6 @@ subscriptionRenewalReminder-title = Waš abonement se skóro pśedlejšyjo
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Luby kupc { $productName },
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Waš aktualny abonement se za { $reminderLength } dnjow awtomatiski pśedlejšyjo. Pótom { -brand-mozilla } waš abonement { $planIntervalCount } { $planInterval } pśedlejšy a wót wašogo konta buźo se wužywajucy płaśeńsku metodu suma { $invoiceTotal } wótpisowaś.
 subscriptionRenewalReminder-content-closing = Z pśijaśelnym póstrowom
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

@@ -689,12 +689,6 @@ subscriptionRenewalReminder-title = 구독이 곧 갱신됩니다
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = { $productName } 고객님께,
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = 현재 구독은 { $reminderLength }일 후 자동 갱신됩니다. { -brand-mozilla }가 { $planIntervalCount } { $planInterval } 구독을 갱신하고 계정에 등록된 결제 수단에 { $invoiceTotal } 상당을 청구할 예정입니다.
 subscriptionRenewalReminder-content-closing = 진심으로,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

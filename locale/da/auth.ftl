@@ -714,12 +714,6 @@ subscriptionRenewalReminder-title = Dit abonnement vil snart blive fornyet
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Kære { $productName }-kunde
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Dit nuværende abonnement fornys automatisk om { $reminderLength } dage. På det tidspunkt vil { -brand-mozilla } forny dit { $planIntervalCount }-{ $planInterval }s abonnement og der vil blive trukket { $invoiceTotal } med den angivne betalingsmetode fra din konto.
 subscriptionRenewalReminder-content-closing = Med venlig hilsen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

@@ -698,12 +698,6 @@ subscriptionRenewalReminder-title = Il to abonament al vignarà rinovât chi di 
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Zentîl client di { $productName },
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Il to abonament atuâl al è configurât pal rinovament automatic chi di { $reminderLength } dîs. In chê volte, { -brand-mozilla } al rinovarà il to abonament par { $planIntervalCount }{ $planInterval } e al vignarà aplicât un adebit di { $invoiceTotal } sul metodi di paiament inserît sul to account.
 subscriptionRenewalReminder-content-closing = Cun rispiet,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

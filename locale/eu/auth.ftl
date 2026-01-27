@@ -525,12 +525,6 @@ subscriptionRenewalReminder-title = Zure harpidetza laster berrituko da
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = { $productName } bezero agurgarria:
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Uneko harpidetza { $reminderLength } egun barru automatikoki berritzeko ezarrita dago. Une horretan, { -brand-mozilla }-k zure { $planIntervalCount } { $planInterval } harpidetza berrituko du eta { $invoiceTotal } kobratuko da zure kontuko ordainketa-metodoari.
 subscriptionRenewalReminder-content-closing = Adeitasunez
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

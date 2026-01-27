@@ -557,12 +557,6 @@ subscriptionRenewalReminder-title = Ваша передплата невдовз
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Шановний передплатнику { $productName },
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Ваша чинна передплата налаштована на автоматичне поновлення через { $reminderLength } днів. У вказаний час { -brand-mozilla } поновить вашу передплату { $planIntervalCount } { $planInterval } і з вашого облікового запису буде списано { $invoiceTotal } за визначеним способом оплати.
 subscriptionRenewalReminder-content-closing = З повагою,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

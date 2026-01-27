@@ -630,12 +630,6 @@ subscriptionRenewalReminder-title = Tvoja će se pretplata uskoro obnoviti
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Poštovani { $productName } kupac,
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Tvoja aktualna pretplata postavljena je na automatsko obnavljanje za { $reminderLength } dana. U to će vrijeme { -brand-mozilla } obnoviti tvoju { $planIntervalCount } { $planInterval } pretplatu i naplata od { $invoiceTotal } će se primijeniti na način plaćanja na tvom računu.
 subscriptionRenewalReminder-content-closing = S poštovanjem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

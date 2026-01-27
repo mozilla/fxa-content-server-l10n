@@ -718,12 +718,6 @@ subscriptionRenewalReminder-title = Сіздің жазылуыңыз жақын
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Құрметті { $productName } пайдаланушысы,
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Ағымдағы жазылу { $reminderLength } күннен кейін автоматты түрде ұзартылатын етіп орнатылған. Сол кезде { -brand-mozilla } { $planIntervalCount } { $planInterval } жазылуын жаңартады және тіркелгіңіздегі төлем әдісімен { $invoiceTotal } ақы алынады.
 subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
