@@ -222,6 +222,17 @@ next-pay-with-heading-paypal = 通过 { -brand-paypal } 付款
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = 发生意外错误，请重试。
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = 继续订阅可享 { $discountPercent }% 折扣
+churn-stay-subscribed-button-no-thanks = 不了，谢谢
+    .aria-label = 返回订阅页面
+churn-stay-subscribed-title-offer-expired = 此优惠已过期
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-title-subscription-renewed = 已续订
+churn-stay-subscribed-button-go-to-subscriptions = 前往“订阅”
+churn-stay-subscribed-button-stay-subscribed = 继续订阅
 
 ## Component - CouponForm
 
@@ -364,6 +375,8 @@ subscription-content-button-stay-subscribed = 继续订阅
     .aria-label = 继续订阅 { $productName }
 subscription-content-button-cancel-subscription = 取消订阅
     .aria-label = 取消订阅 { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = 适用条款
 subscription-content-link-churn-intervention-terms-aria = 查看折扣码条款与限制
 
 ##
@@ -372,6 +385,19 @@ dialog-close = 关闭对话框
 button-back-to-subscriptions = 返回“订阅”
 subscription-content-cancel-action-error = 发生意外错误，请重试。
 paypal-unavailable-error = { -brand-paypal } 目前不可用。请使用其他付款选项，或稍后再试。
+
+## Churn flow - Error page
+
+churn-error-page-title-discount-already-applied = 此折扣码已使用
+churn-error-page-button-manage-subscriptions = 管理订阅
+churn-error-page-button-try-again = 重试
+churn-error-page-title-general-error = 续订时出现问题
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = 前往 { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = 此折扣仅面向当前已订阅 { $productName } 的用户
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = 您的 { $productName } 订阅仍在有效期内
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
