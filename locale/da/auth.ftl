@@ -650,6 +650,10 @@ subscriptionEndingReminder-content-line1-plaintext = Din adgang til { $productNa
 subscriptionEndingReminder-content-line2-plaintext = Hvis du vil fortsætte med at bruge { $productName }, kan du genaktivere dit abonnement under Kontoindstillinger, inden den { $serviceLastActiveDateOnly }. Hvis du har brug for hjælp, så kontakt vores supportteam.
 subscriptionEndingReminder-content-closing = Tak fordi du er abonnent!
 subscriptionEndingReminder-churn-title = Vil du beholde adgangen?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Begrænsede vilkår og restriktioner gælder</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Begrænsede vilkår og restriktioner gælder: { $churnTermsUrlWithUtm }
 # Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
 subscriptionEndingReminder-content-support-plaintext = Kontakt vores supportteam: { $subscriptionSupportUrlWithUtm }
@@ -714,6 +718,16 @@ subscriptionRenewalReminder-title = Dit abonnement vil snart blive fornyet
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Kære { $productName }-kunde
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Dit nuværende abonnement er indstillet til automatisk fornyelse om { $reminderLength } dage.
+subscriptionRenewalReminder-content-discount-ending = Da en tidligere rabat er udløbet, fornyes dit abonnement til standardprisen.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = På det tidspunkt vil { -brand-mozilla } forny dit { $planIntervalCount } { $planInterval } abonnement, og du vil blive opkrævet { $invoiceTotal } via den betalingsmetode, der er tilknyttet din konto.
 subscriptionRenewalReminder-content-closing = Med venlig hilsen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

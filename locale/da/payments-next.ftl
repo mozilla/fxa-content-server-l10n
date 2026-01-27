@@ -1,3 +1,4 @@
+loyalty-discount-terms-heading = Vilkår og restriktioner
 loyalty-discount-terms-support = Kontakt support
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 loyalty-discount-terms-contact-support-product-aria = Kontakt support for { $productName }
@@ -226,6 +227,7 @@ churn-stay-subscribed-button-stay-subscribed-and-save-discount = Fortsæt abonne
 churn-stay-subscribed-button-stay-subscribed-and-save = Fortsæt abonnement og spar
 churn-stay-subscribed-button-no-thanks = Nej tak
     .aria-label = Tilbage til abonnementssiden
+churn-stay-subscribed-link-terms-and-restrictions = Begrænsede vilkår og restriktioner gælder
 churn-stay-subscribed-title-offer-expired = Dette tilbud er udløbet
 
 ## $productName (String) - The name of the product associated with the subscription.
@@ -382,6 +384,7 @@ subscription-content-button-cancel-subscription = Annuller abonnement
     .aria-label = Annuller abonnement på { $productName }
 # Link to the terms and restrictions for a coupon offer.
 subscription-content-link-churn-intervention-terms-apply = Betingelser gælder
+subscription-content-link-churn-intervention-terms-aria = Vilkår og restriktioner for rabatkoder
 
 ##
 
@@ -531,9 +534,15 @@ manage-payment-method-intent-error-generic = Der opstod en uventet fejl under be
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-discount-and-tax-card = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal } + { $taxDue } afgift, der vil blive trukket den { $currentPeriodEnd } på dit kort, der ender på { $last4 }.
+next-charge-with-discount-and-tax-payment-method = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal } + { $taxDue } afgift, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
+next-charge-next-charge-with-discount-and-tax = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal } + { $taxDue } afgift, der vil blive trukket den { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-card = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } på dit kort, der ender på { $last4 }.
 next-charge-with-discount-no-tax-payment-method = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
 next-charge-with-discount-no-tax = Du vil spare { $discountPercent }% på din næste opkrævning på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd }.
+next-charge-with-tax-card = Din næste opkrævning er på { $nextInvoiceTotal } + { $taxDue } i afgift, der vil blive trukket den { $currentPeriodEnd } på dit kort, der ender på { $last4 }.
 next-charge-with-tax-payment-method = Din næste opkrævning er på { $nextInvoiceTotal } + { $taxDue } i afgift, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
+next-charge-with-tax = Din næste opkrævning er på { $nextInvoiceTotal } + { $taxDue } i afgift, der vi blive trukket den { $currentPeriodEnd }.
 next-charge-no-tax-card = Din næste opkrævning er på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } på dit kort, der ender på { $last4 }.
 next-charge-no-tax-payment-method = Din næste opkrævning er på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd } via betalingsmetoden { $paymentMethod }.
+next-charge-no-tax = Din næste opkrævning er på { $nextInvoiceTotal }, der vil blive trukket den { $currentPeriodEnd }.
