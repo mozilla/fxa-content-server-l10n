@@ -216,6 +216,8 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Suma częściowa: { $invoice
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount = Jednorazowa zniżka
+subscription-charges-one-time-discount-plaintext = Jednorazowa zniżka: { $invoiceDiscountAmount }
 subscription-charges-discount = Zniżka
 subscription-charges-discount-plaintext = Zniżka: { $invoiceDiscountAmount }
 
