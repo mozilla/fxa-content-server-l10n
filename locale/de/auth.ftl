@@ -725,7 +725,7 @@ subscriptionRenewalReminder-content-discount-ending = Da ein vorheriger Rabatt a
 #   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
 #   $planInterval (String) - The interval of time of the subscription plan, e.g. week
 # Tells the customer that their subscription price will change at the end of the current billing cycle
-subscriptionRenewalReminder-content-charge = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr Abonnement für { $planIntervalCount } { $planInterval } und die Zahlungsmethode wird von Ihrem Konto mit einer Gebühr in Höhe von { $invoiceTotal } belastet.
+subscriptionRenewalReminder-content-charge = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr Abonnement für { $planIntervalCount } { $planInterval } und die Zahlungsmethode Ihres Kontos wird mit einer Gebühr in Höhe von { $invoiceTotal } belastet.
 subscriptionRenewalReminder-content-closing = Mit freundlichen Grüßen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
