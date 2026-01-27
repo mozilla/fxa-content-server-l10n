@@ -337,6 +337,8 @@ churn-error-page-title-general-error = Wystąpił problem z przedłużeniem sub
 churn-error-page-message-general-error = Skontaktuj się z pomocą techniczną lub spróbuj ponownie.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Przejdź do { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Ta zniżka jest dostępna wyłącznie dla obecnych subskrybentów { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
