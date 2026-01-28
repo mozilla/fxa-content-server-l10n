@@ -680,10 +680,10 @@ subscriptionFirstInvoice-content-your-next-invoice = Din neste faktura utstedes 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Betalingsmåten for { $productName } har utløpt eller utløper snart
-subscriptionPaymentExpired-title-2 = Betalingsmetoden din har utløpt eller i ferd med å utløpe
+subscriptionPaymentExpired-title-2 = Betalingsmåten din har utløpt eller i ferd med å utløpe
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-2 = Betalingsmetoden du bruker for { $productName }, har utløpt eller er i ferd med å utløpe.
+subscriptionPaymentExpired-content-2 = Betalingsmåten du bruker for { $productName }, har utløpt eller er i ferd med å utløpe.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betaling for { $productName } mislyktes
@@ -738,7 +738,7 @@ subscriptionReplaced-content-replaced = Ditt individuelle { $productName }-abonn
 subscriptionReplaced-content-credit = Du vil motta en kreditt for ubrukt tid fra ditt forrige abonnement. Denne kreditten vil automatisk bli lagt til kontoen din og brukes til fremtidige belastninger.
 subscriptionReplaced-content-no-action = Du trenger ikke å gjøre noe.
 subscriptionsPaymentExpired-subject-2 = Betalingsmåten for abonnementene dine er utløpt eller utløper snart
-subscriptionsPaymentExpired-title-2 = Betalingsmetoden din har utløpt eller i ferd med å utløpe
+subscriptionsPaymentExpired-title-2 = Betalingsmåten din har utløpt eller i ferd med å utløpe
 subscriptionsPaymentExpired-content-2 = Betalingsmåten du bruker for å utføre betalinger for følgende abonnementer, er utløpt eller utløper snart.
 subscriptionsPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon kreves for { -brand-mozilla }-abonnementer
 subscriptionsPaymentProviderCancelled-title = Beklager, vi har problemer med betalingsmåten din
