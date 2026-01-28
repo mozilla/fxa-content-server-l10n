@@ -1258,7 +1258,7 @@ terms-privacy-agreement-intro-3 = A továbblépéssel elfogadja a következőket
 # $serviceName is customizable via Strapi and will be localized separately
 terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Szolgáltatási feltételek</termsLink> és <privacyLink>Adatvédelmi nyilatkozat</privacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>Általános Szolgáltatási feltételek</mozillaAccountsTos> és az <mozillaAccountsPrivacy>Adatvédelmi nyilatkozat</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts }: <mozillaAccountsTos>Szolgáltatási feltételek</mozillaAccountsTos> és<mozillaAccountsPrivacy>Adatvédelmi nyilatkozat</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = A folytatással elfogadja a <mozillaAccountsTos>Szolgáltatási feltételeket</mozillaAccountsTos> és az <mozillaAccountsPrivacy>Adatvédelmi nyilatkozatot</mozillaAccountsPrivacy>.
 
