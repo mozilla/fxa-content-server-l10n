@@ -537,8 +537,8 @@ manage-payment-method-intent-error-generic = Váratlan hiba történt a fizetés
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
 next-charge-with-discount-and-tax-card = { $discountPercent }%-ot fog megtakarítani, amikor { $nextInvoiceTotal } + { $taxDue } adó összeget fizet a(z) { $last4 } végű kártyájával ekkor: { $currentPeriodEnd }.
-next-charge-with-discount-and-tax-payment-method = { $discountPercent }%-ot takarít meg a következő { $nextInvoiceTotal } + { $taxDue } adó terheléskor, amelynek segítségével a(z) { $paymentMethod } fizetési módot terheli a rendszer, ekkor: { $currentPeriodEnd }.
-next-charge-next-charge-with-discount-and-tax = { $discountPercent }%-ot takarít meg a következő { $nextInvoiceTotal } terhelésen + { $taxDue } adó ekkor: { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = { $discountPercent }%-ot fog megtakarítani, amikor { $nextInvoiceTotal } + { $taxDue } adó összeget fizet a(z) { $paymentMethod } segítségével ekkor: { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = { $discountPercent }%-ot fog megtakarítani, amikor { $nextInvoiceTotal } + { $taxDue } adó összeget fizet ekkor: { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-card = { $discountPercent }%-ot takarít meg a(z) { $last4 } végű kártya { $nextInvoiceTotal } összegű következő terhelésén, ekkor: { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-payment-method = { $discountPercent }%-ot takarít meg a következő { $nextInvoiceTotal } terhelésnél, amelynek segítségével a(z) { $paymentMethod } fizetési módot választja ekkor: { $currentPeriodEnd }.
 next-charge-with-discount-no-tax = { $discountPercent }%-ot takarít meg a következő { $nextInvoiceTotal } terheléskor, ekkor: { $currentPeriodEnd }.
