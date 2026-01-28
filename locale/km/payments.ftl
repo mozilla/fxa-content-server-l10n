@@ -15,3 +15,5 @@ withdrawal-count-limit-exceeded-error = វាហាក់ដូចជាប្�
 charge-exceeds-source-limit = ប្រតិបត្តិការនេះអាចនឹងលើសដែនកំណត់ឥណទានប្រចាំថ្ងៃរបស់អ្នក។ សូមសាកល្បងប្រើកាតផ្សេង ឬព្យាយាមក្រោយ 24 ម៉ោងទៀត។
 currency-currency-mismatch = សូមអភ័យទោស។ អ្នកមិនអាចផ្លាស់ប្តូររូបិយប័ណ្ណបានទេ។
 no-subscription-change = សូមអភ័យទោស។ អ្នកមិនអាចប្តូរគម្រោងការជាវរបស់អ្នកបានទេ។
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = អ្នកបានជាវតាមរយៈ { $mobileAppStore } រួចហើយ
