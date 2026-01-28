@@ -224,6 +224,7 @@ next-pay-with-heading-paypal = 通过 { -brand-paypal } 付款
 churn-stay-subscribed-action-error = 发生意外错误，请重试。
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-stay-subscribed-button-stay-subscribed-and-save-discount = 继续订阅可享 { $discountPercent }% 折扣
+churn-stay-subscribed-button-stay-subscribed-and-save = 继续订阅，立享折扣
 churn-stay-subscribed-button-no-thanks = 不了，谢谢
     .aria-label = 返回订阅页面
 churn-stay-subscribed-title-offer-expired = 此优惠已过期
