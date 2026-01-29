@@ -109,11 +109,43 @@ not-found-title-subscriptions = Subscrição não encontrada
 not-found-description-subscriptions = Não conseguimos encontrar a sua subscrição. Por favor, tente novamente ou contacte o suporte.
 not-found-button-back-to-subscriptions = Voltar para subscrições
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Esta oferta expirou
+churn-cancel-flow-error-offer-expired-message = Atualmente não existem ofertas disponíveis para esta subscrição. Pode continuar com o cancelamento se quiser.
+churn-cancel-flow-error-button-continue-to-cancel = Continuar a cancelar
+churn-cancel-flow-error-page-button-back-to-subscriptions = Voltar para subscrições
+churn-cancel-flow-error-already-canceling-title = A sua subscrição está marcada para terminar
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Irá continuar a ter acesso a { $productName } até { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Manter subscrição
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Página não encontrada
 not-found-loyalty-discount-description = A página que está à procura não existe.
 not-found-loyalty-discount-button-back-to-subscriptions = Voltar para subscrições
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Continuar a cancelar
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Manter subscrição diária
+interstitial-offer-button-keep-current-interval-weekly = Manter subscrição semanal
+interstitial-offer-button-keep-current-interval-monthly = Manter subscrição mensal
+interstitial-offer-button-keep-current-interval-halfyearly = Manter subscrição de seis meses
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Não conseguimos encontrar uma subscrição ativa
+interstitial-offer-error-subscription-not-found-message = Parece que esta subscrição pode já não estar ativa.
+interstitial-offer-error-general-heading = A oferta não está disponível
+interstitial-offer-error-general-message = Parece que esta oferta não está disponível neste momento.
+interstitial-offer-error-button-back-to-subscriptions = Voltar para subscrições
+interstitial-offer-error-button-cancel-subscription = Continuar a cancelar
 
 ## Page - Subscription Management
 
@@ -218,6 +250,31 @@ next-payment-confirm-checkbox-error = Precisa de concluir isto antes de continua
 
 next-new-user-submit = Subscrever agora
 next-pay-with-heading-paypal = Pagar com o { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Ainda está subscrito
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = A sua subscrição irá continuar e irá poupar { $discountPercent }% na sua próxima fatura.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Obrigado por utilizar { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Voltar para subscrições
+churn-cancel-flow-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Mantenha-se subscrito e poupe { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Manter a subscrição e guardar
+churn-cancel-flow-button-continue-to-cancel = Continuar a cancelar
+churn-cancel-flow-link-terms-and-restrictions = Aplicam-se termos limitados e restrições
+churn-cancel-flow-discount-already-applied-title = Código de desconto já aplicado
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Este desconto foi aplicado a uma subscrição de { $productName } da sua conta. Se ainda precisar de ajuda, entre em contacto com a nossa equipa de apoio.
+churn-cancel-flow-button-manage-subscriptions = Gerir subscrições
+churn-cancel-flow-button-contact-support = Contactar o apoio
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = A sua subscrição { $productName } está ativa
+churn-cancel-flow-button-go-to-product-page = Ir para { $productName }
 
 ## Churn flow - stay subscribed
 

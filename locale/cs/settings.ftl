@@ -1729,6 +1729,8 @@ signin-password-button-label = Heslo
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } se vás pokusí po přihlášení přesměrovat na e-mailovou masku.
 signin-code-expired-error = Platnost kódu vypršela. Přihlaste se prosím znovu.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Něco se pokazilo. Přihlaste se prosím znovu.
 signin-account-locked-banner-heading = Obnovit heslo
 signin-account-locked-banner-description = Váš účet jsme uzamkli, abychom ho ochránili před podezřelou aktivitou.
 # This link points to https://accounts.firefox.com/reset_password

@@ -1714,6 +1714,8 @@ signin-password-button-label = Password
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Dopo aver effettuato l’accesso, { -brand-firefox } tenterà di rimandarti alla pagina per utilizzare l’alias di posta elettronica.
 signin-code-expired-error = Codice scaduto. Effettua nuovamente l’accesso.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Si è verificato un errore. Effettua nuovamente l’accesso.
 signin-account-locked-banner-heading = Reimpostazione della password
 signin-account-locked-banner-description = Abbiamo bloccato il tuo account per proteggerlo da attività sospette.
 # This link points to https://accounts.firefox.com/reset_password

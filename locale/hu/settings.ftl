@@ -1733,6 +1733,8 @@ signin-password-button-label = Jelszó
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Bejelentkezés után a { -brand-firefox } megpróbálja visszaküldeni Önt az e-mail-maszk használatához.
 signin-code-expired-error = A kód lejárt. Jelentkezzen be újra.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Hiba történt. Jelentkezzen be újra.
 signin-account-locked-banner-heading = Jelszó visszaállítása
 signin-account-locked-banner-description = Fiókját zároltuk, hogy biztonságban legyen a gyanús tevékenységektől.
 # This link points to https://accounts.firefox.com/reset_password

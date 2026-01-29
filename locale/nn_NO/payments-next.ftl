@@ -109,11 +109,20 @@ not-found-title-subscriptions = Fann ikkje abonnementet
 not-found-description-subscriptions = Vi fann ikkje abonnementet ditt. Prøv på nytt eller kontakt brukarstøtte.
 not-found-button-back-to-subscriptions = Tilbake til abonnementa
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Dette tilbodet gjeld ikkje lenger
+churn-cancel-flow-error-page-button-back-to-subscriptions = Tilbake til abonnementa
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Fann ikkje sida
 not-found-loyalty-discount-description = Sida du leitar etter finst ikkje.
 not-found-loyalty-discount-button-back-to-subscriptions = Tilbake til abonnementa
+
+## Error page
+
+interstitial-offer-error-button-back-to-subscriptions = Tilbake til abonnementa
 
 ## Page - Subscription Management
 
@@ -218,6 +227,25 @@ next-payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 next-new-user-submit = Abonner no
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-button-back-to-subscriptions = Tilbake til abonnementa
+churn-cancel-flow-action-error = Det oppstod ein uventa feil. Prøv på nytt.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortset å abonnere og spar { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Fortset å abonnere og spar
+churn-cancel-flow-link-terms-and-restrictions = Avgrensa vilkår og restriksjonar gjeld
+churn-cancel-flow-discount-already-applied-title = Rabattkoden er allereie brukt
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Denne rabatten vart brukt på eit abonnement på { $productName } for kontoen din. Om du framleis treng hjelp, kan du kontakte kundestøtteteamet vårt.
+churn-cancel-flow-button-manage-subscriptions = Handter abonnement
+churn-cancel-flow-button-contact-support = Kontakt support
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Abonnementet ditt på { $productName } er aktivt.
+churn-cancel-flow-button-go-to-product-page = Gå til { $productName }
 
 ## Churn flow - stay subscribed
 

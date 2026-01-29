@@ -109,11 +109,43 @@ not-found-title-subscriptions = Naročnine ni mogoče najti
 not-found-description-subscriptions = Vaše naročnine ni bilo mogoče najti. Poskusite znova ali pa se obrnite na podporo.
 not-found-button-back-to-subscriptions = Nazaj na naročnine
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Ta ponudba je potekla
+churn-cancel-flow-error-offer-expired-message = Za to naročnino trenutno ni na voljo nobenih popustov. Če želite, lahko nadaljujete s preklicem.
+churn-cancel-flow-error-button-continue-to-cancel = Nadaljuj do preklica
+churn-cancel-flow-error-page-button-back-to-subscriptions = Nazaj na naročnine
+churn-cancel-flow-error-already-canceling-title = Vaša naročnina se je končala
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Dostop do { $productName } boste imeli do { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Obdrži naročnino
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Strani ni mogoče najti
 not-found-loyalty-discount-description = Stran, ki jo iščete, ne obstaja.
 not-found-loyalty-discount-button-back-to-subscriptions = Nazaj na naročnine
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Nadaljuj do preklica
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Obdrži dnevno naročnino
+interstitial-offer-button-keep-current-interval-weekly = Obdržite tedensko naročnino
+interstitial-offer-button-keep-current-interval-monthly = Obdržite mesečno naročnino
+interstitial-offer-button-keep-current-interval-halfyearly = Obdržite šestmesečno naročnino
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Ni bilo mogoče najti aktivne naročnine
+interstitial-offer-error-subscription-not-found-message = Videti je, da ta naročnina morda ni več aktivna.
+interstitial-offer-error-general-heading = Ponudba ni na voljo
+interstitial-offer-error-general-message = Videti je, da ta ponudba trenutno ni na voljo.
+interstitial-offer-error-button-back-to-subscriptions = Nazaj na naročnine
+interstitial-offer-error-button-cancel-subscription = Nadaljuj do preklica
 
 ## Page - Subscription Management
 
@@ -218,6 +250,31 @@ next-payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 next-new-user-submit = Naroči se zdaj
 next-pay-with-heading-paypal = Plačaj s { -brand-paypal }om
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Še vedno ste naročeni
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Naročnina se bo nadaljevala in prihranili boste { $discountPercent } % pri naslednjem računu.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Hvala, ker uporabljate { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Nazaj na naročnine
+churn-cancel-flow-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Ostanite naročeni in prihranite { $discountPercent } %
+churn-cancel-flow-button-stay-subscribed-and-save = Ostanite naročeni in prihranite
+churn-cancel-flow-button-continue-to-cancel = Nadaljuj do preklica
+churn-cancel-flow-link-terms-and-restrictions = Veljajo omejeni pogoji in omejitve
+churn-cancel-flow-discount-already-applied-title = Koda za popust je že uveljavljena
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Ta popust je bil uveljavljen za naročnino { $productName } za vaš račun. Če še vedno potrebujete pomoč, se obrnite na našo skupino za podporo.
+churn-cancel-flow-button-manage-subscriptions = Upravljanje naročnin
+churn-cancel-flow-button-contact-support = Obrnite se na podporo
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Vaša naročnina na { $productName } je aktivna
+churn-cancel-flow-button-go-to-product-page = Pojdi na { $productName }
 
 ## Churn flow - stay subscribed
 

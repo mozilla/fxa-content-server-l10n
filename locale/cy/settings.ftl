@@ -1748,6 +1748,8 @@ signin-password-button-label = Cyfrinair
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio e-bost arallenw ar ôl i chi fewngofnodi.
 signin-code-expired-error = Cod wedi dod i ben. Mewngofnodwch eto.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Aeth rhywbeth o'i le. Mewngofnodwch eto.
 signin-account-locked-banner-heading = Ailosodwch eich cyfrinair
 signin-account-locked-banner-description = Rydym wedi cloi eich cyfrif i'w gadw'n ddiogel rhag gweithgarwch amheus.
 # This link points to https://accounts.firefox.com/reset_password

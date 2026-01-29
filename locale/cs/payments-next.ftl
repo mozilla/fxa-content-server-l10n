@@ -109,11 +109,43 @@ not-found-title-subscriptions = Předplatné nebylo nalezeno
 not-found-description-subscriptions = Vaše předplatné se nepodařilo najít. Zkuste to znovu nebo kontaktujte podporu.
 not-found-button-back-to-subscriptions = Zpět na předplatné
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Nabídka vypršela
+churn-cancel-flow-error-offer-expired-message = Aktuálně nejsou pro toto předplatné dostupné žádné slevy. Pokud chcete, můžete se zrušením pokračovat.
+churn-cancel-flow-error-button-continue-to-cancel = Pokračovat do zrušení
+churn-cancel-flow-error-page-button-back-to-subscriptions = Zpět na předplatné
+churn-cancel-flow-error-already-canceling-title = Vaše předplatné je nastaveno na konec
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = K aplikaci { $productName } budete mít přístup do { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Ponechat předplatné
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Stránka nenalezena
 not-found-loyalty-discount-description = Stránka, kterou hledáte, neexistuje.
 not-found-loyalty-discount-button-back-to-subscriptions = Zpět na předplatné
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Pokračovat do zrušení
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Ponechte denní předplatné
+interstitial-offer-button-keep-current-interval-weekly = Zachovat týdenní předplatné
+interstitial-offer-button-keep-current-interval-monthly = Měsíční předplatné zachovat
+interstitial-offer-button-keep-current-interval-halfyearly = Ponechte si předplatné na šest měsíců
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Nepodařilo se najít aktivní předplatné
+interstitial-offer-error-subscription-not-found-message = Zdá se, že toto předplatné již není aktivní.
+interstitial-offer-error-general-heading = Nabídka není dostupná
+interstitial-offer-error-general-message = Vypadá to, že tato nabídka není v tuto chvíli dostupná.
+interstitial-offer-error-button-back-to-subscriptions = Zpět na předplatné
+interstitial-offer-error-button-cancel-subscription = Pokračovat do zrušení
 
 ## Page - Subscription Management
 
@@ -218,6 +250,31 @@ next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokonči
 
 next-new-user-submit = Předplatit
 next-pay-with-heading-paypal = Zaplatit přes { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Stále máte předplatné
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Vaše předplatné bude pokračovat a vy ušetříte { $discountPercent }% na vaší příští platbě.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Děkujeme, že používáte { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Zpět na předplatné
+churn-cancel-flow-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Zůstaňte předplatiteli a ušetřete { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Zůstaňte předplatiteli a ušetřete
+churn-cancel-flow-button-continue-to-cancel = Pokračovat do zrušení
+churn-cancel-flow-link-terms-and-restrictions = Na nabídku se vztahují omezené podmínky
+churn-cancel-flow-discount-already-applied-title = Slevový kód byl již uplatněn
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Tato sleva byla uplatněna na předplatné za { $productName } pro váš účet. Pokud stále potřebujete pomoci, kontaktujte náš tým podpory.
+churn-cancel-flow-button-manage-subscriptions = Spravovat odebírání
+churn-cancel-flow-button-contact-support = Kontaktovat podporu
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Vaše předplatné za { $productName } je aktivní
+churn-cancel-flow-button-go-to-product-page = Přejít na { $productName }
 
 ## Churn flow - stay subscribed
 

@@ -109,11 +109,43 @@ not-found-title-subscriptions = Heb ganfod y tanysgrifiad
 not-found-description-subscriptions = Doedd dim modd i ni ddod o hyd i'ch tanysgrifiad. Ceisiwch eto neu cysylltwch â'r tîm cymorth.
 not-found-button-back-to-subscriptions = Nôl i danysgrifiadau
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Mae'r cynnig hwn wedi dod i ben
+churn-cancel-flow-error-offer-expired-message = Nid oes unrhyw ostyngiadau ar gael ar gyfer y tanysgrifiad hwn ar hyn o bryd. Gallwch barhau i ganslo os dymunwch.
+churn-cancel-flow-error-button-continue-to-cancel = Parhau i ganslo
+churn-cancel-flow-error-page-button-back-to-subscriptions = Nôl i danysgrifiadau
+churn-cancel-flow-error-already-canceling-title = Mae eich tanysgrifiad wedi'i osod i ddod i ben
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Byddwch yn parhau i gael mynediad at { $productName } tan { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Cadw tanysgrifiad
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Heb ganfod y dudalen
 not-found-loyalty-discount-description = Dyw'r dudalen rydych yn chwilio amdani ddim yn bodoli.
 not-found-loyalty-discount-button-back-to-subscriptions = Nôl i danysgrifiadau
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Parhau i ganslo
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Cadw tanysgrifiad dyddiol
+interstitial-offer-button-keep-current-interval-weekly = Cadw tanysgrifiad wythnosol
+interstitial-offer-button-keep-current-interval-monthly = Cadw tanysgrifiad misol
+interstitial-offer-button-keep-current-interval-halfyearly = Cadw tanysgrifiad chwe mis
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Ni allem ddod o hyd i danysgrifiad gweithredol
+interstitial-offer-error-subscription-not-found-message = Mae'n edrych yn debyg na fydd y tanysgrifiad hwn yn weithredol mwyach.
+interstitial-offer-error-general-heading = Nid yw'r cynnig ar gael
+interstitial-offer-error-general-message = Mae'n edrych yn debyg nad yw'r cynnig hwn ar gael ar hyn o bryd.
+interstitial-offer-error-button-back-to-subscriptions = Nôl i danysgrifiadau
+interstitial-offer-error-button-cancel-subscription = Parhau i ganslo
 
 ## Page - Subscription Management
 
@@ -218,6 +250,31 @@ next-payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymla
 
 next-new-user-submit = Tanysgrifiwch Nawr
 next-pay-with-heading-paypal = Talu gyda { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Rydych chi'n dal i danysgrifio
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Bydd eich tanysgrifiad yn parhau, a byddwch yn arbed { $discountPercent }% ar eich bil nesaf.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Diolch am ddefnyddio { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Nôl i danysgrifiadau
+churn-cancel-flow-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Parhau i danysgrifio a arbed { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Parhau i danysgrifio ac arbed
+churn-cancel-flow-button-continue-to-cancel = Parhau i ganslo
+churn-cancel-flow-link-terms-and-restrictions = Mae telerau a chyfyngiadau cyfyngedig yn berthnasol
+churn-cancel-flow-discount-already-applied-title = Cod disgownt eisoes wedi'i osod
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Cafodd y gostyngiad hwn ei osod i danysgrifiad o { $productName } ar gyfer eich cyfrif. Os oes angen cymorth arnoch o hyd, cysylltwch â'n tîm Cymorth.
+churn-cancel-flow-button-manage-subscriptions = Rheoli tanysgrifiadau
+churn-cancel-flow-button-contact-support = Cysylltu â Chefnogaeth
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Mae eich tanysgrifiad { $productName } yn weithredol
+churn-cancel-flow-button-go-to-product-page = Mynd i { $productName }
 
 ## Churn flow - stay subscribed
 

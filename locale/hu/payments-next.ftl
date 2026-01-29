@@ -111,11 +111,43 @@ not-found-title-subscriptions = Az előfizetés nem található
 not-found-description-subscriptions = Nem találtuk az előfizetését. Próbálja újra, vagy lépjen kapcsolatba az ügyfélszolgálattal.
 not-found-button-back-to-subscriptions = Vissza az előfizetésekhez
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Ez az ajánlat lejárt
+churn-cancel-flow-error-offer-expired-message = Jelenleg nincs kedvezmény ehhez az előfizetéshez. Ha szeretné, folytathatja a törléssel.
+churn-cancel-flow-error-button-continue-to-cancel = Folytatás a megszakításhoz
+churn-cancel-flow-error-page-button-back-to-subscriptions = Vissza az előfizetésekhez
+churn-cancel-flow-error-already-canceling-title = Az előfizetése véget ért
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Továbbra is hozzáfér a következőhöz: { $productName }, eddig: { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Előfizetés megtartása
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Az oldal nem található
 not-found-loyalty-discount-description = A keresett oldal nem létezik.
 not-found-loyalty-discount-button-back-to-subscriptions = Vissza az előfizetésekhez
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Folytatás a megszakításhoz
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Napi előfizetés megtartása
+interstitial-offer-button-keep-current-interval-weekly = Heti előfizetés megtartása
+interstitial-offer-button-keep-current-interval-monthly = Havi előfizetés megtartása
+interstitial-offer-button-keep-current-interval-halfyearly = Hat hónapos előfizetés megtartása
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Nem találtunk aktív előfizetést
+interstitial-offer-error-subscription-not-found-message = Úgy tűnik, ez az előfizetés már nem aktív.
+interstitial-offer-error-general-heading = Az ajánlat nem érhető el
+interstitial-offer-error-general-message = Úgy tűnik, hogy ez az ajánlat jelenleg nem érhető el.
+interstitial-offer-error-button-back-to-subscriptions = Vissza az előfizetésekhez
+interstitial-offer-error-button-cancel-subscription = Folytatás a megszakításhoz
 
 ## Page - Subscription Management
 
@@ -220,6 +252,31 @@ next-payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 next-new-user-submit = Előfizetés most
 next-pay-with-heading-paypal = Fizetés { -brand-paypal }lal
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Még mindig fel van iratkozva
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Az előfizetése folytatódni fog, és { $discountPercent }%-ot takarít meg a következő számláján.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Köszönjük, hogy a(z) { $productName } kiegészítőt használja.
+churn-cancel-flow-button-back-to-subscriptions = Vissza az előfizetésekhez
+churn-cancel-flow-action-error = Váratlan hiba történt. Próbálja meg újra.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Maradjon továbbra is előfizető, és takarítson meg { $discountPercent }%-ot
+churn-cancel-flow-button-stay-subscribed-and-save = Maradjon előfizető, és takarítson meg
+churn-cancel-flow-button-continue-to-cancel = Folytatás a megszakításhoz
+churn-cancel-flow-link-terms-and-restrictions = Korlátozott feltételek és korlátozások vonatkoznak rá
+churn-cancel-flow-discount-already-applied-title = A kedvezménykód már alkalmazva van
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Ez a kedvezmény a fiókjához tartozó { $productName }-előfizetésre lett használva. Ha továbbra is segítségre van szüksége, forduljon támogatási csapatunkhoz.
+churn-cancel-flow-button-manage-subscriptions = Feliratkozások kezelése
+churn-cancel-flow-button-contact-support = Kapcsolatfelvétel az ügyfélszolgálattal
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = { $productName } előfizetése aktív
+churn-cancel-flow-button-go-to-product-page = Ugrás ide: { $productName }
 
 ## Churn flow - stay subscribed
 
