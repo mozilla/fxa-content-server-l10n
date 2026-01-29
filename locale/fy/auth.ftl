@@ -719,11 +719,15 @@ subscriptionRenewalReminder-title = Jo abonnemint wurdt ynkoarten ferlinge
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Beste klant fan { $productName },
 # Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Jo aktuele abonnemint wurdt oer { $reminderLength } dagen automatysk ferlinge.
+subscriptionRenewalReminder-content-discount-ending = Omdat in eardere koarting foarby is komme te ferfallen, wurdt jo abonnemint ferlinge tsjin de standertpriis.
+# Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
 #   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
-subscriptionRenewalReminder-content-current = Jo hjoeddeistige abonnemint wurdt oer { $reminderLength } dagen automatysk ferlinge. Op dat momint ferlinget { -brand-mozilla } jo { $planIntervalCount } { $planInterval }-abonnemint en wurdt { $invoiceTotal } yn rekkening brocht op de betelmetoade op jo account.
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = Op dat stuit ferlingt { -brand-mozilla } jo abonnemint foar { $planIntervalCount } { $planInterval }  en wurdt { $invoiceTotal } yn rekkening brocht op de betellingsmetoade fan jo account.
 subscriptionRenewalReminder-content-closing = Mei heechachting,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
