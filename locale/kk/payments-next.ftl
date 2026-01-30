@@ -109,11 +109,20 @@ not-found-title-subscriptions = Жазылым табылмады
 not-found-description-subscriptions = Жазылымыңызды таба алмадық. Қайталап көріңіз немесе қолдау қызметіне хабарласыңыз.
 not-found-button-back-to-subscriptions = Жазылымдарға оралу
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Бұл ұсыныстың мерзімі аяқталды
+churn-cancel-flow-error-page-button-keep-subscription = Жазылымды сақтау
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Бет табылмады
 not-found-loyalty-discount-description = Сіз іздеген бет жоқ.
 not-found-loyalty-discount-button-back-to-subscriptions = Жазылымдарға оралу
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Күнделікті жазылымды сақтау
 
 ## Page - Subscription Management
 
