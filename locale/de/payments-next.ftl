@@ -113,7 +113,7 @@ not-found-button-back-to-subscriptions = Zurück zu Abonnements
 
 churn-cancel-flow-error-offer-expired-title = Dieses Angebot ist abgelaufen
 churn-cancel-flow-error-offer-expired-message = Derzeit sind keine Rabatte auf dieses Abonnement verfügbar. Sie können mit der Kündigung fortfahren, wenn Sie möchten.
-churn-cancel-flow-error-button-continue-to-cancel = Weiter zum Abbrechen
+churn-cancel-flow-error-button-continue-to-cancel = Weiter zur Kündigung
 churn-cancel-flow-error-page-button-back-to-subscriptions = Zurück zu Abonnements
 churn-cancel-flow-error-already-canceling-title = Ihr Abonnement endet damit
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -129,14 +129,14 @@ not-found-loyalty-discount-button-back-to-subscriptions = Zurück zu Abonnements
 
 ## InterstitialOffer
 
-interstitial-offer-button-cancel-subscription = Weiter zum Abbrechen
+interstitial-offer-button-cancel-subscription = Weiter zur Kündigung
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
-interstitial-offer-button-keep-current-interval-daily = Das tägliche Abonnement behalten
-interstitial-offer-button-keep-current-interval-weekly = Wöchentliches Abonnement behalten
-interstitial-offer-button-keep-current-interval-monthly = Monatlichen Dauerauftrag behalten
-interstitial-offer-button-keep-current-interval-halfyearly = Das Abonnement für sechs Monate behalten
+interstitial-offer-button-keep-current-interval-daily = Tägliches Abonnement behalten
+interstitial-offer-button-keep-current-interval-weekly = Monatliches Abonnement behalten
+interstitial-offer-button-keep-current-interval-monthly = Monatliches Abonnement behalten
+interstitial-offer-button-keep-current-interval-halfyearly = Sechsmonatiges Abonnement behalten
 
 ## Error page
 
@@ -145,7 +145,7 @@ interstitial-offer-error-subscription-not-found-message = Es sieht so aus, als o
 interstitial-offer-error-general-heading = Angebot nicht verfügbar
 interstitial-offer-error-general-message = Anscheinend ist dieses Angebot derzeit nicht verfügbar.
 interstitial-offer-error-button-back-to-subscriptions = Zurück zu Abonnements
-interstitial-offer-error-button-cancel-subscription = Weiter zum Abbrechen
+interstitial-offer-error-button-cancel-subscription = Weiter zur Kündigung
 
 ## Page - Subscription Management
 
@@ -253,7 +253,7 @@ next-pay-with-heading-paypal = Mit { -brand-paypal } bezahlen
 
 ## Churn flow - cancel
 
-churn-cancel-flow-success-title = Sie haben noch kein Abonnement
+churn-cancel-flow-success-title = Ihr Abonnement besteht noch
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
 churn-cancel-flow-success-message = Ihr Abonnement läuft weiter und Sie sparen { $discountPercent }% bei Ihrer nächsten Rechnung.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -263,7 +263,7 @@ churn-cancel-flow-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte 
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Verlängern Sie Ihr Abonnement und sparen Sie { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Abonnement verlängern und sparen
-churn-cancel-flow-button-continue-to-cancel = Weiter zum Abbrechen
+churn-cancel-flow-button-continue-to-cancel = Weiter zur Kündigung
 churn-cancel-flow-link-terms-and-restrictions = Es gelten begrenzte Bedingungen und Einschränkungen
 churn-cancel-flow-discount-already-applied-title = Rabattcode bereits angewendet
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
