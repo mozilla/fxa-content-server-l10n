@@ -24,3 +24,55 @@ bento-menu-made-by-mozilla = ផលិតដោយ { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = ទាញយក { -brand-firefox } នៅលើទូរសព្ទ ឬថេប្លេត
+
+## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
+
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = បោះបង់
+
+## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
+
+modal-cancel-button = បោះបង់
+
+## ModalMfaProtected
+
+modal-mfa-protected-cancel-button = បោះបង់
+
+## Modal Verify Session
+
+msv-cancel-button = បោះបង់
+
+## Avatar change page
+
+avatar-page-cancel-button = បោះបង់
+
+## Password change page
+
+pw-change-cancel-button = បោះបង់
+
+## Delete account page
+
+delete-account-cancel-button = បោះបង់
+
+## Display name page
+
+cancel-display-name = បោះបង់
+
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+settings-recovery-phone-remove-cancel = បោះបង់
+
+## Add secondary email page
+
+add-secondary-email-cancel-button = បោះបង់
+
+## Verify secondary email page
+
+verify-secondary-email-cancel-button = បោះបង់
+
+## SuppAllow page - Part of the device pairing flow
+## Users see this page when they have started to pair a second (or more) device to their account
+## The pairing must be confirmed from both devices to succeed
+
+pair-supp-allow-cancel-link = បោះបង់
