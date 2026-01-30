@@ -112,6 +112,7 @@ not-found-button-back-to-subscriptions = 回到訂閱項目
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = 此活動已經結束。
+churn-cancel-flow-error-offer-expired-message = 此訂閱目前沒有可用的折扣。若您想要取消的話可以繼續。
 churn-cancel-flow-error-button-continue-to-cancel = 繼續取消
 churn-cancel-flow-error-page-button-back-to-subscriptions = 回到訂閱項目頁面
 churn-cancel-flow-error-already-canceling-title = 您的訂閱即將結束
@@ -140,6 +141,11 @@ interstitial-offer-button-keep-current-interval-halfyearly = 保持半年訂閱
 ## Error page
 
 interstitial-offer-error-subscription-not-found-heading = 找不到有效的訂閱紀錄
+interstitial-offer-error-subscription-not-found-message = 看來此訂閱可能已失效。
+interstitial-offer-error-general-heading = 無法使用優惠
+interstitial-offer-error-general-message = 看來目前無法使用此優惠活動。
+interstitial-offer-error-button-back-to-subscriptions = 回到訂閱項目頁面
+interstitial-offer-error-button-cancel-subscription = 繼續取消
 
 ## Page - Subscription Management
 
@@ -244,6 +250,31 @@ next-payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下
 
 next-new-user-submit = 立刻訂閱
 next-pay-with-heading-paypal = 使用 { -brand-paypal } 付款
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = 您已保持訂閱
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = 將繼續訂閱，並在下次出帳時獲得 { $discountPercent }% 折扣。
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = 感謝使用 { $productName }！
+churn-cancel-flow-button-back-to-subscriptions = 回到訂閱項目頁面
+churn-cancel-flow-action-error = 發生未知錯誤，請再試一次。
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = 保持訂閱即可節省 { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = 保持訂閱即可節省
+churn-cancel-flow-button-continue-to-cancel = 繼續取消
+churn-cancel-flow-link-terms-and-restrictions = 適用條款與限制
+churn-cancel-flow-discount-already-applied-title = 已經套用此折扣碼
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = 此折扣已套用至您帳號的 { $productName } 訂閱。若您還需要任何協助，請聯絡我們的技術支援團隊。
+churn-cancel-flow-button-manage-subscriptions = 管理訂閱項目
+churn-cancel-flow-button-contact-support = 聯絡支援團隊
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = 您的 { $productName } 訂閱已生效。
+churn-cancel-flow-button-go-to-product-page = 前往 { $productName }
 
 ## Churn flow - stay subscribed
 
