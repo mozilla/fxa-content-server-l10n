@@ -266,6 +266,15 @@ churn-cancel-flow-button-stay-subscribed-and-save = Mantén tu suscripción y ah
 churn-cancel-flow-button-continue-to-cancel = Continuar para cancelar
 churn-cancel-flow-link-terms-and-restrictions = Se aplican términos y restricciones limitados.
 churn-cancel-flow-discount-already-applied-title = Código de descuento ya aplicado
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Este descuento se aplicó a una suscripción de { $productName } en tu cuenta. Si aún necesitas ayuda, contacta con nuestro equipo de soporte.
+churn-cancel-flow-button-manage-subscriptions = Gestionar suscripciones
+churn-cancel-flow-button-contact-support = Contactar al soporte
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Tu suscripción a { $productName } está activa
+churn-cancel-flow-button-go-to-product-page = Ir a { $productName }
 
 ## Churn flow - stay subscribed
 
