@@ -109,6 +109,10 @@ not-found-title-subscriptions = Abonamento non trovate.
 not-found-description-subscriptions = Nos non poteva trova tu abonamento. Retenta o contacta assistentia.
 not-found-button-back-to-subscriptions = Retornar al abonamentos
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-button-continue-to-cancel = Continuar a cancellar
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Pagina non trovate
