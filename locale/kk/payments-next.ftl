@@ -112,6 +112,7 @@ not-found-button-back-to-subscriptions = Жазылымдарға оралу
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Бұл ұсыныстың мерзімі аяқталды
+churn-cancel-flow-error-button-continue-to-cancel = Бас тартуға жалғастыру
 churn-cancel-flow-error-page-button-keep-subscription = Жазылымды сақтау
 
 ## Loyalty discount - Not found page
