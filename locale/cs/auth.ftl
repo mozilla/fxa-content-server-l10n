@@ -401,7 +401,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nové přihlášení skrze { $clientName }
 newDeviceLogin-subjectForMozillaAccount = Nové přihlášení k vašemu { -product-mozilla-account(case: "dat", capitalization: "lower") }
-newDeviceLogin-title-3 = Pro přihlášení byl použitý váš { -product-mozilla-account(capitalization: "lower") }
+newDeviceLogin-title-3 = K přihlášení byl použit váš { -product-mozilla-account(capitalization: "lower") }
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Nebyli jste to vy? <a data-l10n-name="passwordChangeLink">Zmeňte si heslo</a>.
@@ -561,7 +561,7 @@ postSigninRecoveryCode-device = Přihlásili jste se z:
 postSigninRecoveryCode-action = Správa účtu
 postSigninRecoveryPhone-subject = Pro přihlášení byl použit telefon určený pro obnovení účtu
 postSigninRecoveryPhone-preview = Potvrďte aktivitu účtu
-postSigninRecoveryPhone-title = K přihlášení bylo použito telefonní číslo pro obnovení
+postSigninRecoveryPhone-title = K přihlášení bylo použito vaše telefonní číslo pro obnovení
 postSigninRecoveryPhone-description = Pokud jste tak neudělali, měli byste si okamžitě změnit heslo, aby byl váš účet v bezpečí.
 postSigninRecoveryPhone-device = Přihlásili jste se z:
 postSigninRecoveryPhone-action = Správa účtu
