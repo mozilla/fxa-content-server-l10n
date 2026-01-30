@@ -112,6 +112,11 @@ not-found-title-subscriptions = Abonement njeje so namakał
 not-found-description-subscriptions = Njemóžachmy waš abonement namakać. Prošu spytajće hišće raz abo skontaktujće pomoc.
 not-found-button-back-to-subscriptions = Wróćo k abonementam
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Tutón poskitk je spadnjeny
+churn-cancel-flow-error-button-continue-to-cancel = Dale k přetorhnjenju
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Strona njeje so namakała
