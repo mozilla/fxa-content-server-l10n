@@ -1728,6 +1728,8 @@ signin-password-button-label = Wachtwoord
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } probeert u terug te sturen om een e-mailmasker te gebruiken nadat u zich hebt aangemeld.
 signin-code-expired-error = Code verlopen. Meld u opnieuw aan.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Er is iets misgegaan. Meld u opnieuw aan.
 signin-account-locked-banner-heading = Herinitialiseer uw wachtwoord
 signin-account-locked-banner-description = We hebben uw account vergrendeld om deze te beschermen tegen verdachte activiteit.
 # This link points to https://accounts.firefox.com/reset_password

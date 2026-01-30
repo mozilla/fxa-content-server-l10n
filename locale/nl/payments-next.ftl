@@ -269,6 +269,12 @@ churn-cancel-flow-discount-already-applied-title = Kortingscode al toegepast
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-discount-already-applied-message = Deze korting is toegepast op een abonnement op { $productName } voor uw account. Als u nog steeds hulp nodig hebt, neem dan contact op met ons Ondersteuningsteam.
 churn-cancel-flow-button-manage-subscriptions = Abonnementen beheren
+churn-cancel-flow-button-contact-support = Contact opnemen
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Uw { $productName }-abonnement is actief
+churn-cancel-flow-button-go-to-product-page = Naar { $productName }
 
 ## Churn flow - stay subscribed
 
