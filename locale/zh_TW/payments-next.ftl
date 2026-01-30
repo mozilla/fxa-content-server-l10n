@@ -109,11 +109,37 @@ not-found-title-subscriptions = 找不到訂閱紀錄
 not-found-description-subscriptions = 找不到您的訂閱紀錄，請再試一次或聯絡支援團隊。
 not-found-button-back-to-subscriptions = 回到訂閱項目
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = 此活動已經結束。
+churn-cancel-flow-error-button-continue-to-cancel = 繼續取消
+churn-cancel-flow-error-page-button-back-to-subscriptions = 回到訂閱項目頁面
+churn-cancel-flow-error-already-canceling-title = 您的訂閱即將結束
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = 您可繼續使用 { $productName } 直到 { $currentPeriodEnd }。
+churn-cancel-flow-error-page-button-keep-subscription = 保持訂閱
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = 找不到頁面
 not-found-loyalty-discount-description = 找不到您想開啟的頁面。
 not-found-loyalty-discount-button-back-to-subscriptions = 回到訂閱項目
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = 繼續取消
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = 保持每日訂閱
+interstitial-offer-button-keep-current-interval-weekly = 保持每週訂閱
+interstitial-offer-button-keep-current-interval-monthly = 保持每月訂閱
+interstitial-offer-button-keep-current-interval-halfyearly = 保持半年訂閱
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = 找不到有效的訂閱紀錄
 
 ## Page - Subscription Management
 
