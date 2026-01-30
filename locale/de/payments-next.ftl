@@ -118,7 +118,7 @@ churn-cancel-flow-error-page-button-back-to-subscriptions = Zurück zu Abonnemen
 churn-cancel-flow-error-already-canceling-title = Ihr Abonnement endet damit
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Sie haben weiterhin bis { $currentPeriodEnd } Zugriff auf { $productName }.
+churn-cancel-flow-error-already-canceling-message = Sie haben bis { $currentPeriodEnd } weiterhin Zugriff auf { $productName }.
 churn-cancel-flow-error-page-button-keep-subscription = Abonnement behalten
 
 ## Loyalty discount - Not found page
@@ -141,7 +141,7 @@ interstitial-offer-button-keep-current-interval-halfyearly = Das Abonnement für
 ## Error page
 
 interstitial-offer-error-subscription-not-found-heading = Wir konnten kein aktives Abonnement finden
-interstitial-offer-error-subscription-not-found-message = Es sieht so aus, als ob dieses Abonnement möglicherweise nicht mehr aktiv ist.
+interstitial-offer-error-subscription-not-found-message = Es sieht so aus, als ob dieses Abonnement nicht mehr aktiv ist.
 interstitial-offer-error-general-heading = Angebot nicht verfügbar
 interstitial-offer-error-general-message = Anscheinend ist dieses Angebot derzeit nicht verfügbar.
 interstitial-offer-error-button-back-to-subscriptions = Zurück zu Abonnements
@@ -262,7 +262,7 @@ churn-cancel-flow-button-back-to-subscriptions = Zurück zu Abonnements
 churn-cancel-flow-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Verlängern Sie Ihr Abonnement und sparen Sie { $discountPercent } %
-churn-cancel-flow-button-stay-subscribed-and-save = Abo verlängern und Sparen
+churn-cancel-flow-button-stay-subscribed-and-save = Abonnement verlängern und sparen
 churn-cancel-flow-button-continue-to-cancel = Weiter zum Abbrechen
 churn-cancel-flow-link-terms-and-restrictions = Es gelten begrenzte Bedingungen und Einschränkungen
 churn-cancel-flow-discount-already-applied-title = Rabattcode bereits angewendet
