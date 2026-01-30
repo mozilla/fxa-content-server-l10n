@@ -115,13 +115,39 @@ not-found-button-back-to-subscriptions = Wróćo k abonementam
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Tutón poskitk je spadnjeny
-churn-cancel-flow-error-button-continue-to-cancel = Dale k přetorhnjenju
+churn-cancel-flow-error-button-continue-to-cancel = Dale k anulaciji
+churn-cancel-flow-error-page-button-back-to-subscriptions = Wróćo k abonementam
+churn-cancel-flow-error-already-canceling-title = Waš abonement so skónči
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Maće dale přistup k { $productName } hač do { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Abonement wobchować
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Strona njeje so namakała
 not-found-loyalty-discount-description = Strona, kotruž pytaće, njeeksistuje.
 not-found-loyalty-discount-button-back-to-subscriptions = Wróćo k abonementam
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Dale k anulaciji
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Wšědny abonement wobchować
+interstitial-offer-button-keep-current-interval-weekly = Tydźenski abonement wobchować
+interstitial-offer-button-keep-current-interval-monthly = Měsačny abonement wobchować
+interstitial-offer-button-keep-current-interval-halfyearly = Šěsćměsačny abonement wobchować
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Njemóžachmy aktiwny abonement namakać
+interstitial-offer-error-subscription-not-found-message = Zda so, zo tutón abonement hižo aktiwny njeje.
+interstitial-offer-error-general-heading = Poskitk k dispoziciji njeje
+interstitial-offer-error-general-message = Zda so, zo tutón poskitk tuchwilu k dispoziciji njeje.
+interstitial-offer-error-button-back-to-subscriptions = Wróćo k abonementam
+interstitial-offer-error-button-cancel-subscription = Dale k anulaciji
 
 ## Page - Subscription Management
 
@@ -228,6 +254,29 @@ next-payment-confirm-checkbox-error = Dyrbiće to dokónčić, prjedy hač móž
 
 next-new-user-submit = Nětko abonować
 next-pay-with-heading-paypal = Z { -brand-paypal } płaćić
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Sće hišće abonował
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Wulki dźak, zo { $productName } wužiwaće!
+churn-cancel-flow-button-back-to-subscriptions = Wróćo k abonementam
+churn-cancel-flow-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Podlěšće swój abonement a zalutujće { $discountPercent } %
+churn-cancel-flow-button-stay-subscribed-and-save = Abonement podlěšić a zalutować
+churn-cancel-flow-button-continue-to-cancel = Dale k anulaciji
+churn-cancel-flow-link-terms-and-restrictions = Płaća wobmjezowane wuměnjenja a wobmjezowanja
+churn-cancel-flow-discount-already-applied-title = Rabatowy kod je so hižo nałožił
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Tutón rabat je so na abonement{ $productName } za waše konto nałožił. Jeli hišće pomoc trjebaće, stajće so z našim teamom pomocy do zwiska.
+churn-cancel-flow-button-manage-subscriptions = Abonementy rjadować
+churn-cancel-flow-button-contact-support = Pomoc skontaktować
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Waš abonement { $productName } je aktiwny
+churn-cancel-flow-button-go-to-product-page = K { $productName }
 
 ## Churn flow - stay subscribed
 
