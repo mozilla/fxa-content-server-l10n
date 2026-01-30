@@ -116,6 +116,9 @@ churn-cancel-flow-error-offer-expired-message = Қазіргі уақытта б
 churn-cancel-flow-error-button-continue-to-cancel = Бас тартуға жалғастыру
 churn-cancel-flow-error-page-button-back-to-subscriptions = Жазылымдарға оралу
 churn-cancel-flow-error-already-canceling-title = Сіздің жазылымыңыздың аяқталу уақыты таяп қалды
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Сіздің { $productName } қызметіне қол жеткізу мүмкіндігіңіз { $currentPeriodEnd } мерзіміне дейін сақталады.
 churn-cancel-flow-error-page-button-keep-subscription = Жазылымды сақтау
 
 ## Loyalty discount - Not found page
@@ -131,6 +134,13 @@ interstitial-offer-button-cancel-subscription = Бас тартуға жалға
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Күнделікті жазылымды сақтау
+interstitial-offer-button-keep-current-interval-weekly = Апта сайынғы жазылымды сақтау
+interstitial-offer-button-keep-current-interval-monthly = Ай сайынғы жазылымды сақтау
+interstitial-offer-button-keep-current-interval-halfyearly = Алты ай сайынғы жазылымды сақтау
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Белсенді жазылымды таба алмадық
 
 ## Page - Subscription Management
 
