@@ -112,8 +112,8 @@ not-found-button-back-to-subscriptions = Nôl i danysgrifiadau
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Mae'r cynnig hwn wedi dod i ben
-churn-cancel-flow-error-offer-expired-message = Nid oes unrhyw ostyngiadau ar gael ar gyfer y tanysgrifiad hwn ar hyn o bryd. Gallwch barhau i ganslo os dymunwch.
-churn-cancel-flow-error-button-continue-to-cancel = Parhau i ganslo
+churn-cancel-flow-error-offer-expired-message = Nid oes unrhyw ostyngiadau ar gael ar gyfer y tanysgrifiad hwn ar hyn o bryd. Gallwch barhau i ddiddymu os dymunwch.
+churn-cancel-flow-error-button-continue-to-cancel = Parhau i ddiddymu
 churn-cancel-flow-error-page-button-back-to-subscriptions = Nôl i danysgrifiadau
 churn-cancel-flow-error-already-canceling-title = Mae eich tanysgrifiad wedi'i osod i ddod i ben
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -129,7 +129,7 @@ not-found-loyalty-discount-button-back-to-subscriptions = Nôl i danysgrifiadau
 
 ## InterstitialOffer
 
-interstitial-offer-button-cancel-subscription = Parhau i ganslo
+interstitial-offer-button-cancel-subscription = Parhau i ddiddymu
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
