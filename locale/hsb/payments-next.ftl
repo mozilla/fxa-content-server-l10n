@@ -115,6 +115,7 @@ not-found-button-back-to-subscriptions = Wróćo k abonementam
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Tutón poskitk je spadnjeny
+churn-cancel-flow-error-offer-expired-message = Tuchwilu žane rabaty za tutón abonement k dispoziciji njejsu. Móžeće z anulaciju pokročować, jeli chceće.
 churn-cancel-flow-error-button-continue-to-cancel = Dale k anulaciji
 churn-cancel-flow-error-page-button-back-to-subscriptions = Wróćo k abonementam
 churn-cancel-flow-error-already-canceling-title = Waš abonement so skónči
@@ -258,6 +259,8 @@ next-pay-with-heading-paypal = Z { -brand-paypal } płaćić
 ## Churn flow - cancel
 
 churn-cancel-flow-success-title = Sće hišće abonował
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Waš abonement dale traje a zalutujeće { $discountPercent } % na swoju přichodnu zličbowanku.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-thanks-valued-subscriber = Wulki dźak, zo { $productName } wužiwaće!
 churn-cancel-flow-button-back-to-subscriptions = Wróćo k abonementam

@@ -112,11 +112,39 @@ not-found-title-subscriptions = Abonement njejo se namakał
 not-found-description-subscriptions = Njejsmy mógli waš abonement namakaś. Pšosym wopytajśo hyšći raz abo kontaktěrujśo se z pomocu.
 not-found-button-back-to-subscriptions = Slědk k abonementam
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Toś to póbitowanje jo spadnjone
+churn-cancel-flow-error-offer-expired-message = Tuchylu žedne rabaty za toś ten abonement k dispoziciji njejsu. Móžośo z anulaciju pókšacowaś, jolic cośo.
+churn-cancel-flow-error-button-continue-to-cancel = Dalej k anulaciji
+churn-cancel-flow-error-page-button-back-to-subscriptions = Slědk k abonementam
+churn-cancel-flow-error-already-canceling-title = Waš abonement se skóńcyjo
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Maśo dalej pśistup k { $productName } až do { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Abonement wobchowaś
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Bok njejo se namakał
 not-found-loyalty-discount-description = Bok, kótaryž pytaśo, njeeksistěrujo.
 not-found-loyalty-discount-button-back-to-subscriptions = Slědk k abonementam
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Dalej k anulaciji
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Wšedny abonement wobchowaś
+interstitial-offer-button-keep-current-interval-weekly = Tyźeński abonement wobchowaś
+interstitial-offer-button-keep-current-interval-monthly = Mjasecny abonement wobchowaś
+interstitial-offer-button-keep-current-interval-halfyearly = Šesćmjasecny abonement wobchowaś
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Njejsmy mógli aktiwny abonement namakaś
+interstitial-offer-error-subscription-not-found-message = Zda se, až toś ten abonement wěcej njejo aktiwny.
 
 ## Page - Subscription Management
 
