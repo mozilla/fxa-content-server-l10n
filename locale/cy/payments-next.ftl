@@ -112,7 +112,7 @@ not-found-button-back-to-subscriptions = Nôl i danysgrifiadau
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Mae'r cynnig hwn wedi dod i ben
-churn-cancel-flow-error-offer-expired-message = Nid oes unrhyw ostyngiadau ar gael ar gyfer y tanysgrifiad hwn ar hyn o bryd. Gallwch barhau i ddiddymu os dymunwch.
+churn-cancel-flow-error-offer-expired-message = Does dim gostyngiadau ar gael ar gyfer y tanysgrifiad hwn ar hyn o bryd. Gallwch barhau i ddiddymu os dymunwch.
 churn-cancel-flow-error-button-continue-to-cancel = Parhau i ddiddymu
 churn-cancel-flow-error-page-button-back-to-subscriptions = Nôl i danysgrifiadau
 churn-cancel-flow-error-already-canceling-title = Mae eich tanysgrifiad wedi'i osod i ddod i ben
@@ -140,12 +140,12 @@ interstitial-offer-button-keep-current-interval-halfyearly = Cadw tanysgrifiad c
 
 ## Error page
 
-interstitial-offer-error-subscription-not-found-heading = Ni allem ddod o hyd i danysgrifiad gweithredol
+interstitial-offer-error-subscription-not-found-heading = Doedd dim modd i ni ddod o hyd i danysgrifiad gweithredol
 interstitial-offer-error-subscription-not-found-message = Mae'n edrych yn debyg na fydd y tanysgrifiad hwn yn weithredol mwyach.
-interstitial-offer-error-general-heading = Nid yw'r cynnig ar gael
+interstitial-offer-error-general-heading = Dyw'r cynnig ar ddim gael
 interstitial-offer-error-general-message = Mae'n edrych yn debyg nad yw'r cynnig hwn ar gael ar hyn o bryd.
 interstitial-offer-error-button-back-to-subscriptions = Nôl i danysgrifiadau
-interstitial-offer-error-button-cancel-subscription = Parhau i ganslo
+interstitial-offer-error-button-cancel-subscription = Parhau i ddiddymu
 
 ## Page - Subscription Management
 
@@ -263,7 +263,7 @@ churn-cancel-flow-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Parhau i danysgrifio a arbed { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Parhau i danysgrifio ac arbed
-churn-cancel-flow-button-continue-to-cancel = Parhau i ganslo
+churn-cancel-flow-button-continue-to-cancel = Parhau i ddiddymu
 churn-cancel-flow-link-terms-and-restrictions = Mae telerau a chyfyngiadau cyfyngedig yn berthnasol
 churn-cancel-flow-discount-already-applied-title = Cod disgownt eisoes wedi'i osod
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
