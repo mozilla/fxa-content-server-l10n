@@ -228,6 +228,16 @@ next-payment-confirm-checkbox-error = Алға жылжу алдында осы�
 next-new-user-submit = Қазір жазылу
 next-pay-with-heading-paypal = { -brand-paypal } арқылы төлеу
 
+## Churn flow - cancel
+
+churn-cancel-flow-button-manage-subscriptions = Жазылымдарды басқару
+churn-cancel-flow-button-contact-support = Қолдау қызметіне хабарласу
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Сіздің { $productName } жазылымыңыз белсенді
+churn-cancel-flow-button-go-to-product-page = { $productName } өніміне өту
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Күтпеген қате орын алды. Қайталап көріңіз.
