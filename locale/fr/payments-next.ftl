@@ -118,7 +118,7 @@ churn-cancel-flow-error-page-button-back-to-subscriptions = Retour aux abonnemen
 churn-cancel-flow-error-already-canceling-title = Votre abonnement se termine
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Vous continuerez à avoir accès à { $productName } jusqu’au { $currentPeriodEnd }.
+churn-cancel-flow-error-already-canceling-message = Votre accès à { $productName } restera disponible jusqu’au { $currentPeriodEnd }.
 churn-cancel-flow-error-page-button-keep-subscription = Conserver l’abonnement
 
 ## Loyalty discount - Not found page
@@ -136,7 +136,7 @@ interstitial-offer-button-cancel-subscription = Continuer pour annuler
 interstitial-offer-button-keep-current-interval-daily = Conserver l’abonnement quotidien
 interstitial-offer-button-keep-current-interval-weekly = Conserver l’abonnement hebdomadaire
 interstitial-offer-button-keep-current-interval-monthly = Conserver l’abonnement mensuel
-interstitial-offer-button-keep-current-interval-halfyearly = Conserver six mois d’abonnement
+interstitial-offer-button-keep-current-interval-halfyearly = Conserver l’abonnement de six mois
 
 ## Error page
 
@@ -253,7 +253,7 @@ next-pay-with-heading-paypal = Payer avec { -brand-paypal }
 
 ## Churn flow - cancel
 
-churn-cancel-flow-success-title = Vous êtes toujours abonnée
+churn-cancel-flow-success-title = Vous êtes toujours abonné·e
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
 churn-cancel-flow-success-message = Votre abonnement se poursuivra et vous économiserez { $discountPercent } % sur votre prochaine facture.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
