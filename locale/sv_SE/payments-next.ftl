@@ -112,7 +112,7 @@ not-found-button-back-to-subscriptions = Tillbaka till prenumerationer
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Erbjudandet har upphört
-churn-cancel-flow-error-offer-expired-message = Det finns för närvarande inga rabatter tillgängliga för denna prenumeration. Du kan fortsätta med uppsägning om du vill.
+churn-cancel-flow-error-offer-expired-message = Det finns för närvarande inga rabatter tillgängliga för den här prenumerationen. Du kan fortsätta med uppsägningen om du vill.
 churn-cancel-flow-error-button-continue-to-cancel = Fortsätt för att avbryta
 churn-cancel-flow-error-page-button-back-to-subscriptions = Tillbaka till prenumerationer
 churn-cancel-flow-error-already-canceling-title = Din prenumeration är inställd på att upphöra
@@ -134,7 +134,7 @@ interstitial-offer-button-cancel-subscription = Fortsätt för att avbryta
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Behåll daglig prenumeration
-interstitial-offer-button-keep-current-interval-weekly = Behåll veckoabonnemang
+interstitial-offer-button-keep-current-interval-weekly = Behåll veckovis prenumeration
 interstitial-offer-button-keep-current-interval-monthly = Behåll månatligt abonnemang
 interstitial-offer-button-keep-current-interval-halfyearly = Keep ett sex månaders abonnemang
 
@@ -269,7 +269,7 @@ churn-cancel-flow-discount-already-applied-title = Rabattkod tillämpas redan
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-discount-already-applied-message = Denna rabatt tillämpades på en prenumeration på { $productName } för ditt konto. Om du fortfarande behöver hjälp, kontakta vårt supportteam.
 churn-cancel-flow-button-manage-subscriptions = Hantera prenumerationer
-churn-cancel-flow-button-contact-support = Kontakta supporten
+churn-cancel-flow-button-contact-support = Kontakta support
 
 ## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
