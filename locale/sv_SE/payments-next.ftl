@@ -111,7 +111,7 @@ not-found-button-back-to-subscriptions = Tillbaka till prenumerationer
 
 ## Error page - churn cancel flow
 
-churn-cancel-flow-error-offer-expired-title = Erbjudandet har upphört att gälla
+churn-cancel-flow-error-offer-expired-title = Erbjudandet har upphört
 churn-cancel-flow-error-offer-expired-message = Det finns för närvarande inga rabatter tillgängliga för denna prenumeration. Du kan fortsätta med uppsägning om du vill.
 churn-cancel-flow-error-button-continue-to-cancel = Fortsätt för att avbryta
 churn-cancel-flow-error-page-button-back-to-subscriptions = Tillbaka till prenumerationer
