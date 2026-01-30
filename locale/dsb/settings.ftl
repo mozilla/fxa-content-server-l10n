@@ -1745,6 +1745,8 @@ signin-password-button-label = Gronidło
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 signin-code-expired-error = Kod jo spadnjony. Pšosym pśizjawśo se znowego.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Něco njejo se raźiło. Pšosym pśizjawśo se hyšći raz.
 signin-account-locked-banner-heading = Stajśo swójo gronidło slědk
 signin-account-locked-banner-description = Smy zastajali wašo konto, aby was pśed suspektneju aktiwitu šćitali.
 # This link points to https://accounts.firefox.com/reset_password

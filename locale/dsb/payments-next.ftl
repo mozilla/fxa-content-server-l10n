@@ -145,6 +145,10 @@ interstitial-offer-button-keep-current-interval-halfyearly = Šesćmjasecny abon
 
 interstitial-offer-error-subscription-not-found-heading = Njejsmy mógli aktiwny abonement namakaś
 interstitial-offer-error-subscription-not-found-message = Zda se, až toś ten abonement wěcej njejo aktiwny.
+interstitial-offer-error-general-heading = Póbitowanje njejo k dispoziciji
+interstitial-offer-error-general-message = Zda se, až toś to póbitowanje tuchylu njejo k dispoziciji.
+interstitial-offer-error-button-back-to-subscriptions = Slědk k abonementam
+interstitial-offer-error-button-cancel-subscription = Dalej k anulaciji
 
 ## Page - Subscription Management
 
@@ -251,6 +255,31 @@ next-payment-confirm-checkbox-error = Musyśo to dokóncyś, nježli až móžo�
 
 next-new-user-submit = Něnto aboněrowaś
 next-pay-with-heading-paypal = Z { -brand-paypal } płaśiś
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Sćo hyšći aboněrował
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Waš abonement dalej trajo a žariśo { $discountPercent } % na swóju pśiducu zliceńku.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Wjeliki źěk, až { $productName } wužywaśo!
+churn-cancel-flow-button-back-to-subscriptions = Slědk k abonementam
+churn-cancel-flow-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Pódlejšćo swój abonement a zažaŕśo { $discountPercent } %
+churn-cancel-flow-button-stay-subscribed-and-save = Abonement pódlejšyś a zažariś
+churn-cancel-flow-button-continue-to-cancel = Dalej k anulaciji
+churn-cancel-flow-link-terms-and-restrictions = Płaśe wobgranicowane wuměnjenja a wobgranicowanja
+churn-cancel-flow-discount-already-applied-title = Rabatowy kod jo se južo nałožył
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Toś ten rabat jo se nałožył na abonement{ $productName } za wašo konto. Jolic hyšći pomoc trjebaśo, stajśo se z našym teamom pomocy do zwiska.
+churn-cancel-flow-button-manage-subscriptions = Abonementy zastojaś
+churn-cancel-flow-button-contact-support = Pomoc kontaktěrowaś
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Waš abonement { $productName } jo aktiwny
+churn-cancel-flow-button-go-to-product-page = K { $productName }
 
 ## Churn flow - stay subscribed
 
