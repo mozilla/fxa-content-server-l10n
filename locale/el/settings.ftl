@@ -1725,6 +1725,8 @@ signin-password-button-label = Κωδικός πρόσβασης
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 signin-code-expired-error = Ο κωδικός έληξε. Κάντε ξανά σύνδεση.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Κάτι πήγε στραβά. Πραγματοποιήστε ξανά σύνδεση.
 signin-account-locked-banner-heading = Επαναφορά κωδικού πρόσβασης
 signin-account-locked-banner-description = Κλειδώσαμε τον λογαριασμό σας για να τον προφυλάξουμε από ύποπτη δραστηριότητα.
 # This link points to https://accounts.firefox.com/reset_password

@@ -109,11 +109,41 @@ not-found-title-subscriptions = Η συνδρομή δεν βρέθηκε
 not-found-description-subscriptions = Δεν ήταν δυνατή η εύρεση της συνδρομής σας. Δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη.
 not-found-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-button-continue-to-cancel = Συνέχεια για ακύρωση
+churn-cancel-flow-error-page-button-back-to-subscriptions = Επιστροφή στις συνδρομές
+churn-cancel-flow-error-already-canceling-title = Η συνδρομή σας πρόκειται να λήξει
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Θα εξακολουθείτε να έχετε πρόσβαση στο { $productName } έως τις { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Διατήρηση συνδρομής
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Η σελίδα δεν βρέθηκε
 not-found-loyalty-discount-description = Η σελίδα που ψάχνετε δεν υπάρχει.
 not-found-loyalty-discount-button-back-to-subscriptions = Επιστροφή στις συνδρομές
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Συνέχεια για ακύρωση
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Διατήρηση ημερήσιας συνδρομής
+interstitial-offer-button-keep-current-interval-weekly = Διατήρηση εβδομαδιαίας συνδρομής
+interstitial-offer-button-keep-current-interval-monthly = Διατήρηση μηνιαίας συνδρομής
+interstitial-offer-button-keep-current-interval-halfyearly = Διατήρηση εξαμηνιαίας συνδρομής
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Δεν ήταν δυνατή η εύρεση ενεργής συνδρομής
+interstitial-offer-error-subscription-not-found-message = Φαίνεται πως αυτή η συνδρομή ενδέχεται να μην είναι ενεργή.
+interstitial-offer-error-general-heading = Η προσφορά δεν είναι διαθέσιμη
+interstitial-offer-error-general-message = Φαίνεται πως αυτή η προσφορά δεν είναι διαθέσιμη αυτήν τη στιγμή.
+interstitial-offer-error-button-back-to-subscriptions = Επιστροφή στις συνδρομές
+interstitial-offer-error-button-cancel-subscription = Συνέχεια για ακύρωση
 
 ## Page - Subscription Management
 
@@ -219,15 +249,24 @@ next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε
 next-new-user-submit = Εγγραφή τώρα
 next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
 
+## Churn flow - cancel
+
+churn-cancel-flow-button-back-to-subscriptions = Επιστροφή στις συνδρομές
+churn-cancel-flow-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
+churn-cancel-flow-button-continue-to-cancel = Συνέχεια για ακύρωση
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
+churn-stay-subscribed-button-no-thanks = Όχι, ευχαριστώ
+    .aria-label = Επιστροφή στη σελίδα «Συνδρομές»
 churn-stay-subscribed-title-offer-expired = Αυτή η προσφορά έχει λήξει
 
 ## $productName (String) - The name of the product associated with the subscription.
 
 churn-stay-subscribed-subtitle-offer-expired = Θέλετε να συνεχίσετε να χρησιμοποιείτε το { $productName };
 churn-stay-subscribed-message-access-will-continue = Η πρόσβασή σας στο { $productName } θα συνεχιστεί, ενώ ο κύκλος χρέωσης και οι πληρωμές σας θα παραμείνουν ως έχουν.
+churn-stay-subscribed-title-subscription-renewed = Η συνδρομή ανανεώθηκε
 churn-stay-subscribed-button-stay-subscribed = Διατήρηση συνδρομής
 
 ## Component - CouponForm
