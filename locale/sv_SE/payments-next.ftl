@@ -135,8 +135,8 @@ interstitial-offer-button-cancel-subscription = Fortsätt för att avbryta
 
 interstitial-offer-button-keep-current-interval-daily = Behåll daglig prenumeration
 interstitial-offer-button-keep-current-interval-weekly = Behåll veckovis prenumeration
-interstitial-offer-button-keep-current-interval-monthly = Behåll månatligt abonnemang
-interstitial-offer-button-keep-current-interval-halfyearly = Keep ett sex månaders abonnemang
+interstitial-offer-button-keep-current-interval-monthly = Behåll månadsprenumerationen
+interstitial-offer-button-keep-current-interval-halfyearly = Behåll sexmånadersprenumerationen
 
 ## Error page
 
@@ -267,7 +267,7 @@ churn-cancel-flow-button-continue-to-cancel = Fortsätt för att avbryta
 churn-cancel-flow-link-terms-and-restrictions = Begränsade villkor och begränsningar gäller
 churn-cancel-flow-discount-already-applied-title = Rabattkod tillämpas redan
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-churn-cancel-flow-discount-already-applied-message = Denna rabatt tillämpades på en prenumeration på { $productName } för ditt konto. Om du fortfarande behöver hjälp, kontakta vårt supportteam.
+churn-cancel-flow-discount-already-applied-message = Denna rabatt tillämpades på en prenumeration på { $productName } för ditt konto. Om du fortfarande behöver hjälp kan du kontakta vårt supportteam.
 churn-cancel-flow-button-manage-subscriptions = Hantera prenumerationer
 churn-cancel-flow-button-contact-support = Kontakta support
 
