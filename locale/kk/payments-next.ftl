@@ -112,7 +112,10 @@ not-found-button-back-to-subscriptions = Жазылымдарға оралу
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Бұл ұсыныстың мерзімі аяқталды
+churn-cancel-flow-error-offer-expired-message = Қазіргі уақытта бұл жазылым үшін қолжетімді жеңілдіктер жоқ. Қаласаңыз, жазылымнан бас тарту процесін жалғастыра аласыз.
 churn-cancel-flow-error-button-continue-to-cancel = Бас тартуға жалғастыру
+churn-cancel-flow-error-page-button-back-to-subscriptions = Жазылымдарға оралу
+churn-cancel-flow-error-already-canceling-title = Сіздің жазылымыңыздың аяқталу уақыты таяп қалды
 churn-cancel-flow-error-page-button-keep-subscription = Жазылымды сақтау
 
 ## Loyalty discount - Not found page
@@ -120,6 +123,10 @@ churn-cancel-flow-error-page-button-keep-subscription = Жазылымды са�
 not-found-loyalty-discount-title = Бет табылмады
 not-found-loyalty-discount-description = Сіз іздеген бет жоқ.
 not-found-loyalty-discount-button-back-to-subscriptions = Жазылымдарға оралу
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Бас тартуға жалғастыру
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
