@@ -109,11 +109,43 @@ not-found-title-subscriptions = Abonnemint net fûn
 not-found-description-subscriptions = Wy koene jo abonnemint net fine. Probearje it opnij of nim kontakt op.
 not-found-button-back-to-subscriptions = Tebek nei abonneminten
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Dizze oanbieding is ferrûn
+churn-cancel-flow-error-offer-expired-message = Der binne op dit stuit gjin koartingen beskikber foar dit abonnemint. Jo kinne trochgean mei annulearjen as jo wolle.
+churn-cancel-flow-error-button-continue-to-cancel = Trochgean mei opsizzen
+churn-cancel-flow-error-page-button-back-to-subscriptions = Tebek nei abonneminten
+churn-cancel-flow-error-already-canceling-title = Jo abonnemint wurdt beëinige
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Jo behâlde oant { $currentPeriodEnd } tagong ta { $productName }.
+churn-cancel-flow-error-page-button-keep-subscription = Abonnemint behâlde
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Side net fûn
 not-found-loyalty-discount-description = De troch jo opsochte side bestiet net.
 not-found-loyalty-discount-button-back-to-subscriptions = Tebek nei abonneminten
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Trochgean mei opsizzen
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Dei-abonnemint behâlde
+interstitial-offer-button-keep-current-interval-weekly = Wike-abonnemint behâlde
+interstitial-offer-button-keep-current-interval-monthly = Moanne-abonnemint behâlde
+interstitial-offer-button-keep-current-interval-halfyearly = Healjierabonnemint behâlde
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Wy kinne gjin aktyf abonnemint fine
+interstitial-offer-error-subscription-not-found-message = It liket derop dat dit abonnemint net mear aktyf is.
+interstitial-offer-error-general-heading = Oanbieding is net beskikber
+interstitial-offer-error-general-message = It liket derop dat dizze oanbieding op dit stuit net beskikber is.
+interstitial-offer-error-button-back-to-subscriptions = Tebek nei abonneminten
+interstitial-offer-error-button-cancel-subscription = Trochgean mei opsizzen
 
 ## Page - Subscription Management
 
@@ -218,6 +250,31 @@ next-payment-confirm-checkbox-error = Jo moatte dit foltôgje eardat jo fierder 
 
 next-new-user-submit = No abonnearje
 next-pay-with-heading-paypal = Betelje mei { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Jo binne noch hieltyd abonnearre
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Jo abonnemint rint troch en jo besparje { $discountPercent }% op jo folgjende faktuer.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Tank foar it brûken fan { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Tebek nei abonneminten.
+churn-cancel-flow-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Bliuw abonnearre en besparje { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Bliuw abonnearre en besparje
+churn-cancel-flow-button-continue-to-cancel = Trochgean mei opsizzen
+churn-cancel-flow-link-terms-and-restrictions = Der binne beheinde betingsten en beheiningen fan tapassing
+churn-cancel-flow-discount-already-applied-title = Koartingskoade al tapast
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Dizze koarting is tapast op in abonnemint fan { $productName } foar jo account. As jo noch help nedich binne, nim dan kontakt op mei ús Stipeteam.
+churn-cancel-flow-button-manage-subscriptions = Abonneminten beheare
+churn-cancel-flow-button-contact-support = Kontakt opnimme
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Jo { $productName }-abonnemint is aktyf
+churn-cancel-flow-button-go-to-product-page = Nei { $productName }
 
 ## Churn flow - stay subscribed
 
