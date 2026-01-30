@@ -112,7 +112,7 @@ not-found-button-back-to-subscriptions = Torna agli abbonamenti
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Questa offerta è scaduta
-churn-cancel-flow-error-offer-expired-message = Al momento non sono disponibili sconti per questo abbonamento. Se lo desideri, puoi continuare con l’annullamento.
+churn-cancel-flow-error-offer-expired-message = Al momento non sono disponibili sconti per questo abbonamento. Se lo desideri, puoi procedere con l’annullamento.
 churn-cancel-flow-error-button-continue-to-cancel = Continua per annullare
 churn-cancel-flow-error-page-button-back-to-subscriptions = Torna agli abbonamenti
 churn-cancel-flow-error-already-canceling-title = L’abbonamento sta per scadere
@@ -253,9 +253,9 @@ next-pay-with-heading-paypal = Paga con { -brand-paypal }
 
 ## Churn flow - cancel
 
-churn-cancel-flow-success-title = Sei ancora iscritto
+churn-cancel-flow-success-title = Sei ancora abbonato
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
-churn-cancel-flow-success-message = Il tuo abbonamento continuerà e risparmierai il { $discountPercent }% sulla prossima bolletta.
+churn-cancel-flow-success-message = Il tuo abbonamento continuerà e risparmierai il { $discountPercent }% sulla prossima fattura.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-thanks-valued-subscriber = Grazie per aver utilizzato { $productName }.
 churn-cancel-flow-button-back-to-subscriptions = Torna agli abbonamenti
