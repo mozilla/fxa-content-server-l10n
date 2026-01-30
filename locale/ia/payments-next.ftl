@@ -111,13 +111,32 @@ not-found-button-back-to-subscriptions = Retornar al abonamentos
 
 ## Error page - churn cancel flow
 
+churn-cancel-flow-error-offer-expired-title = Iste offerta ha expirate
 churn-cancel-flow-error-button-continue-to-cancel = Continuar a cancellar
+churn-cancel-flow-error-page-button-back-to-subscriptions = Retornar al abonamentos
+churn-cancel-flow-error-page-button-keep-subscription = Mantener abonamento
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Pagina non trovate
 not-found-loyalty-discount-description = Le pagina que tu recerca non existe.
 not-found-loyalty-discount-button-back-to-subscriptions = Retornar al abonamentos
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Continuar a cancellar
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Mantener abonamento quotidian
+interstitial-offer-button-keep-current-interval-weekly = Mantener abonamento septimanal
+interstitial-offer-button-keep-current-interval-monthly = Mantener abonamento mensual
+interstitial-offer-button-keep-current-interval-halfyearly = Obtener abonamento sex-mensual
+
+## Error page
+
+interstitial-offer-error-button-back-to-subscriptions = Retornar al abonamentos
+interstitial-offer-error-button-cancel-subscription = Continuar a cancellar
 
 ## Page - Subscription Management
 
@@ -224,6 +243,26 @@ next-payment-confirm-checkbox-error = Il besonia completar isto, ante proceder
 
 next-new-user-submit = Abona te ora
 next-pay-with-heading-paypal = Paga con { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-button-back-to-subscriptions = Retornar al abonamentos
+churn-cancel-flow-action-error = Un error impreviste occurreva, retenta.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Resta abonate e sparnia { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Resta abonate e sparnia
+churn-cancel-flow-button-continue-to-cancel = Continuar a cancellar
+churn-cancel-flow-link-terms-and-restrictions = Conditiones e restrictiones limitate es applicate
+churn-cancel-flow-discount-already-applied-title = Codice de disconto jam applicate
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Iste disconto era applicate a un abonamento a { $productName } pro tu conto.
+churn-cancel-flow-button-manage-subscriptions = Gerer abonamentos
+churn-cancel-flow-button-contact-support = Contactar assistentia
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Tu abonamento a { $productName } es active
+churn-cancel-flow-button-go-to-product-page = Va a { $productName }
 
 ## Churn flow - stay subscribed
 
