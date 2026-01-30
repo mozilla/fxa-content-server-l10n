@@ -1729,6 +1729,8 @@ signin-password-button-label = Contrasigno
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 signin-code-expired-error = Codice expirate. Reconnecte te.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Alco errate eveniva. Per favor accede de novo.
 signin-account-locked-banner-heading = Reinitialisa tu contrasigno
 signin-account-locked-banner-description = Nos blocava tu conto pro tener lo secur ab activitate suspecte..
 # This link points to https://accounts.firefox.com/reset_password

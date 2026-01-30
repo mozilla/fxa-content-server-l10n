@@ -112,8 +112,13 @@ not-found-button-back-to-subscriptions = Retornar al abonamentos
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Iste offerta ha expirate
+churn-cancel-flow-error-offer-expired-message = Il non ha actualmente discontos disponibile pro iste abonamento. Tu pote continuar con le cancellation si tu vole.
 churn-cancel-flow-error-button-continue-to-cancel = Continuar a cancellar
 churn-cancel-flow-error-page-button-back-to-subscriptions = Retornar al abonamentos
+churn-cancel-flow-error-already-canceling-title = Tu abonamento es preste a finir
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Tu continuara a haber accesso a { $productName } usque { $currentPeriodEnd }.
 churn-cancel-flow-error-page-button-keep-subscription = Mantener abonamento
 
 ## Loyalty discount - Not found page
@@ -135,6 +140,10 @@ interstitial-offer-button-keep-current-interval-halfyearly = Obtener abonamento 
 
 ## Error page
 
+interstitial-offer-error-subscription-not-found-heading = Nos non poteva trovar un abonamento active
+interstitial-offer-error-subscription-not-found-message = Il pare que iste abonamento non plus es active.
+interstitial-offer-error-general-heading = Le offerta non es disponibile
+interstitial-offer-error-general-message = Il pare que iste offerer non es disponibile al momento.
 interstitial-offer-error-button-back-to-subscriptions = Retornar al abonamentos
 interstitial-offer-error-button-cancel-subscription = Continuar a cancellar
 
@@ -246,6 +255,11 @@ next-pay-with-heading-paypal = Paga con { -brand-paypal }
 
 ## Churn flow - cancel
 
+churn-cancel-flow-success-title = Tu es ancora abonate
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Tu abonamento continuara, e tu sparniara le { $discountPercent }% sur tu factura successive.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Gratias pro usar { $productName }!
 churn-cancel-flow-button-back-to-subscriptions = Retornar al abonamentos
 churn-cancel-flow-action-error = Un error impreviste occurreva, retenta.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
