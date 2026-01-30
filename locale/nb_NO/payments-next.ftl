@@ -109,6 +109,10 @@ not-found-title-subscriptions = Abonnementet ble ikke funnet
 not-found-description-subscriptions = Vi fant ikke abonnementet ditt. Prøv på nytt eller kontakt kundestøtte.
 not-found-button-back-to-subscriptions = Tilbake til abonnementer
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Dette tilbudet er utløpt
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Fant ikke siden
