@@ -141,6 +141,11 @@ interstitial-offer-button-keep-current-interval-halfyearly = Алты ай са�
 ## Error page
 
 interstitial-offer-error-subscription-not-found-heading = Белсенді жазылымды таба алмадық
+interstitial-offer-error-subscription-not-found-message = Бұл жазылым енді белсенді емес сияқты.
+interstitial-offer-error-general-heading = Ұсыныс қолжетімді емес
+interstitial-offer-error-general-message = Бұл ұсыныс қазіргі уақытта қолжетімді емес сияқты.
+interstitial-offer-error-button-back-to-subscriptions = Жазылымдарға оралу
+interstitial-offer-error-button-cancel-subscription = Бас тартуға жалғастыру
 
 ## Page - Subscription Management
 
@@ -248,6 +253,21 @@ next-pay-with-heading-paypal = { -brand-paypal } арқылы төлеу
 
 ## Churn flow - cancel
 
+churn-cancel-flow-success-title = Сіздің жазылымыңыз әлі де белсенді.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Жазылымыңыз жалғасады және келесі шотыңызда { $discountPercent }% үнемдейсіз.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = { $productName } пайдаланғаныңыз үшін рахмет!
+churn-cancel-flow-button-back-to-subscriptions = Жазылымдарға оралу
+churn-cancel-flow-action-error = Күтпеген қате орын алды. Қайталап көріңіз.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Жазылымды жалғастырыңыз және { $discountPercent }% үнемдеңіз
+churn-cancel-flow-button-stay-subscribed-and-save = Жазылымды жалғастырып, үнемдеңіз
+churn-cancel-flow-button-continue-to-cancel = Бас тартуға жалғастыру
+churn-cancel-flow-link-terms-and-restrictions = Шектеулі шарттар мен шектеулер қолданылады
+churn-cancel-flow-discount-already-applied-title = Жеңілдік коды қолданылып тұр
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Бұл жеңілдік тіркегіңіздегі { $productName } жазылымына қолданылды. Егер сізге әлі де көмек қажет болса, қолдау көрсету қызметіне хабарласыңыз.
 churn-cancel-flow-button-manage-subscriptions = Жазылымдарды басқару
 churn-cancel-flow-button-contact-support = Қолдау қызметіне хабарласу
 
@@ -261,7 +281,7 @@ churn-cancel-flow-button-go-to-product-page = { $productName } өніміне ө
 churn-stay-subscribed-action-error = Күтпеген қате орын алды. Қайталап көріңіз.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-stay-subscribed-button-stay-subscribed-and-save-discount = Жазылымды жалғастырыңыз және { $discountPercent }% үнемдеңіз
-churn-stay-subscribed-button-stay-subscribed-and-save = Жазылымды жалғастырыңыз үнемдеңіз
+churn-stay-subscribed-button-stay-subscribed-and-save = Жазылымды жалғастырып, үнемдеңіз
 churn-stay-subscribed-button-no-thanks = Жоқ, рахмет
     .aria-label = Жазылымдар бетіне оралу
 churn-stay-subscribed-link-terms-and-restrictions = Шектеулі шарттар мен шектеулер қолданылады
