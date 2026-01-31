@@ -133,6 +133,17 @@ interstitial-offer-button-cancel-subscription = המשך לביטול
 
 interstitial-offer-button-keep-current-interval-daily = להשאיר את המינוי היומי
 interstitial-offer-button-keep-current-interval-weekly = להשאיר את המינוי השבועי
+interstitial-offer-button-keep-current-interval-monthly = להשאיר את המינוי החודשי
+interstitial-offer-button-keep-current-interval-halfyearly = להשאיר את המינוי החצי שנתי
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = לא הצלחנו למצוא מינוי פעיל
+interstitial-offer-error-subscription-not-found-message = נראה שמינוי זה אינו פעיל עוד.
+interstitial-offer-error-general-heading = ההצעה אינה זמינה
+interstitial-offer-error-general-message = נראה שהצעה זו אינה זמינה כרגע.
+interstitial-offer-error-button-back-to-subscriptions = חזרה למינויים
+interstitial-offer-error-button-cancel-subscription = המשך לביטול
 
 ## Page - Subscription Management
 
@@ -235,6 +246,31 @@ next-payment-confirm-checkbox-error = עליך להשלים זאת לפני שי
 
 next-new-user-submit = הרשמה כמינוי כעת
 next-pay-with-heading-paypal = תשלום באמצעות { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = המינוי שלך עדיין פעיל
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = המינוי שלך יימשך, ויהיה לך חיסכון של { $discountPercent }% בחשבונית הבאה שלך.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = תודה על השימוש ב־{ $productName }!
+churn-cancel-flow-button-back-to-subscriptions = חזרה למינויים
+churn-cancel-flow-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = כדאי להישאר רשום כמינוי ולחסוך { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = כדאי להישאר רשום כמינוי ולחסוך
+churn-cancel-flow-button-continue-to-cancel = המשך לביטול
+churn-cancel-flow-link-terms-and-restrictions = כפוף לתנאים ולהגבלות
+churn-cancel-flow-discount-already-applied-title = קוד ההנחה כבר הוחל
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = הנחה זו הוחלה על מינוי { $productName } עבור החשבון שלך. אם עדיין יש לך צורך בעזרה, נא ליצור קשר עם צוות התמיכה שלנו.
+churn-cancel-flow-button-manage-subscriptions = ניהול מינויים
+churn-cancel-flow-button-contact-support = יצירת קשר עם התמיכה
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = המינוי שלך עבור { $productName } פעיל
+churn-cancel-flow-button-go-to-product-page = מעבר ל־{ $productName }
 
 ## Churn flow - stay subscribed
 

@@ -1181,6 +1181,10 @@ tfa-row-verify-session-info = עליך לאמת את ההפעלה הנוכחית
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = ‏{ $serviceName }: <termsLink>תנאי השירות</termsLink> ו<privacyLink>הצהרת הפרטיות</privacyLink>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = המשך התהליך מהווה הסכמה ל<mozillaAccountsTos>תנאי השירות</mozillaAccountsTos> ו<mozillaAccountsPrivacy>הצהרת הפרטיות</mozillaAccountsPrivacy>.
 
