@@ -127,9 +127,14 @@ not-found-loyalty-discount-title = Fann ikkje sida
 not-found-loyalty-discount-description = Sida du leitar etter finst ikkje.
 not-found-loyalty-discount-button-back-to-subscriptions = Tilbake til abonnementa
 
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Hald fram med oppseiinga
+
 ## Error page
 
 interstitial-offer-error-button-back-to-subscriptions = Tilbake til abonnementa
+interstitial-offer-error-button-cancel-subscription = Hald fram med oppseiinga
 
 ## Page - Subscription Management
 
@@ -242,6 +247,7 @@ churn-cancel-flow-action-error = Det oppstod ein uventa feil. Prøv på nytt.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortset å abonnere og spar { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Fortset å abonnere og spar
+churn-cancel-flow-button-continue-to-cancel = Hald fram med oppseiinga
 churn-cancel-flow-link-terms-and-restrictions = Avgrensa vilkår og restriksjonar gjeld
 churn-cancel-flow-discount-already-applied-title = Rabattkoden er allereie brukt
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
