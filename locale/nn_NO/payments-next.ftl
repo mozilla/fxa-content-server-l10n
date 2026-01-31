@@ -112,7 +112,10 @@ not-found-button-back-to-subscriptions = Tilbake til abonnementa
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Dette tilbodet gjeld ikkje lenger
+churn-cancel-flow-error-offer-expired-message = Det er akkurat no ingen rabattar tilgjengeleg for dette abonnementet. Du kan halde fram med oppseiinga om du ønskjer det.
+churn-cancel-flow-error-button-continue-to-cancel = Hald fram med oppseiinga
 churn-cancel-flow-error-page-button-back-to-subscriptions = Tilbake til abonnementa
+churn-cancel-flow-error-already-canceling-title = Abonnementet ditt er sett til å bli avslutta
 
 ## Loyalty discount - Not found page
 
