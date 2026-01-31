@@ -1181,10 +1181,14 @@ tfa-row-verify-session-info = עליך לאמת את ההפעלה הנוכחית
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = המשך התהליך מהווה הסכמה ל:
 # This item is part of a bulleted list and follows terms-privacy-agreement-intro
 # $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
 # $serviceName is customizable via Strapi and will be localized separately
 terms-privacy-agreement-customized-terms = ‏{ $serviceName }: <termsLink>תנאי השירות</termsLink> ו<privacyLink>הצהרת הפרטיות</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = ‏{ -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>תנאי השירות</mozillaAccountsTos> ו<mozillaAccountsPrivacy>הצהרת הפרטיות</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = המשך התהליך מהווה הסכמה ל<mozillaAccountsTos>תנאי השירות</mozillaAccountsTos> ו<mozillaAccountsPrivacy>הצהרת הפרטיות</mozillaAccountsPrivacy>.
 
@@ -1643,6 +1647,8 @@ signin-password-button-label = ססמה
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
 signin-code-expired-error = פג תוקף הקוד. נא להתחבר שוב.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = משהו השתבש. נא להתחבר שוב.
 signin-account-locked-banner-heading = איפוס הססמה שלך
 signin-account-locked-banner-description = נעלנו את החשבון שלך כדי להגן עליו מפני פעילות חשודה.
 # This link points to https://accounts.firefox.com/reset_password
