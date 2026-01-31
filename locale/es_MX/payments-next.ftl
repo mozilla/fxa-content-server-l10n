@@ -1,5 +1,7 @@
 ## Page
 
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = o
 continue-signin-with-google-button = Continuar con { -brand-google }
 continue-signin-with-apple-button = Continuar con { -brand-apple }
 next-payment-method-header = Elige tu método de pago
@@ -44,6 +46,12 @@ next-payment-confirmation-download-button = Continuar para descargar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
+## Page - Subscription Management
+
+subscription-management-page-banner-warning-title-no-payment-method = No se ha agregado ningún método de pago
+subscription-management-button-add-payment-method = Agregar
+subscription-management-button-manage-payment-method-1 = Administrar método de pago
+
 ## Checkout Form
 
 next-new-user-submit = Suscribirse ahora
@@ -62,6 +70,15 @@ next-coupon-submit = Aplicar
 
 # Component - Header
 
+payments-header-help =
+    .title = Ayuda
+    .aria-label = Ayuda
+    .alt = Ayuda
+payments-header-bento =
+    .title = Productos de { -brand-mozilla }
+    .aria-label = Productos de { -brand-mozilla }
+    .alt = Logo de { -brand-mozilla }
+payments-header-bento-tagline = Más productos de { -brand-mozilla } que protegen tu privacidad
 payments-client-loading-spinner =
     .aria-label = Cargando…
     .alt = Cargando…

@@ -360,6 +360,8 @@ postAddTwoStepAuthentication-recovery-method-codes = También agregaste códigos
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = También agregaste { $maskedPhoneNumber } como tu número de teléfono de recuperación.
+postAddTwoStepAuthentication-how-protects-link = Cómo esto protege tu cuenta
+postAddTwoStepAuthentication-how-protects-plaintext = Cómo protege esto tu cuenta:
 postChangeAccountRecovery-subject = Se modificó la clave de recuperación de cuenta
 postChangeAccountRecovery-title = Has cambiado tu clave de recuperación de cuenta
 postChangeAccountRecovery-body-part1 = Ahora tienes una nueva clave de recuperación de cuenta. La clave anterior se eliminó.
@@ -376,7 +378,13 @@ postChangeRecoveryPhone-preview = Cuenta protegida mediante autenticación de do
 postChangeRecoveryPhone-title = Cambiaste tu teléfono de recuperación
 postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se eliminó tu número de teléfono anterior.
 postChangeRecoveryPhone-requested-device = Lo solicitaste a:
+postConsumeRecoveryCode-title-3 = Tu código de autenticación de respaldo se utilizó para confirmar un restablecimiento de contraseña
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Código utilizado de:
 postConsumeRecoveryCode-action = Administrar cuenta
+postConsumeRecoveryCode-subject-v3 = Código de autenticación de respaldo utilizado
+postConsumeRecoveryCode-preview = Comprueba que eras tú
 postNewRecoveryCodes-subject-2 = Nuevos códigos de autenticación de respaldo creados
 postNewRecoveryCodes-title-2 = Has creado nuevos códigos de autenticación de respaldo
 # After the colon, there is information about the device that the authentication codes were created on

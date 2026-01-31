@@ -2,17 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-02-08 04:19+0000\n"
-"Last-Translator: Bund10z <abu.avila@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pontoon\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -901,7 +896,7 @@ msgstr "Continuar a %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Por favor, ingresa la clave de recuperación de cuenta de un solo uso que almacenaste en un lugar seguro para recuperar el acceso a tu cuenta de Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
