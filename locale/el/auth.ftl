@@ -639,6 +639,15 @@ subscriptionDowngrade-content-charge-info = Ξεκινώντας με τον ε�
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Αν υπάρχει νέο λογισμικό που θα πρέπει να εγκαταστήσετε για να χρησιμοποιήσετε το { $productName }, θα λάβετε ξεχωριστό email με οδηγίες λήψης.
 subscriptionDowngrade-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Η συνδρομή σας στο { $productName } θα λήξει σύντομα
+subscriptionEndingReminder-title = Η συνδρομή σας στο { $productName } θα λήξει σύντομα
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Η πρόσβασή σας στο { $productName } θα λήξει στις <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line1-plaintext = Η πρόσβασή σας στο { $productName } θα λήξει στις { $serviceLastActiveDateOnly }.
 subscriptionEndingReminder-churn-title = Θέλετε να διατηρήσετε την πρόσβαση;
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

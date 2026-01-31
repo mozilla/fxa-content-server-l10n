@@ -70,7 +70,7 @@ intent-expired-card-error = Φαίνεται πως η πιστωτική σας
 intent-payment-error-try-again = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Δοκιμάστε ξανά ή επικοινωνήστε με τον εκδότη της κάρτας σας.
 intent-payment-error-get-in-touch = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
 intent-payment-error-generic = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
-intent-payment-error-insufficient-funds = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
+intent-payment-error-insufficient-funds = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκές υπόλοιπο. Δοκιμάστε μια άλλη κάρτα.
 general-paypal-error = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 paypal-active-subscription-no-billing-agreement-error = Φαίνεται ότι προέκυψε πρόβλημα με τη χρέωση του λογαριασμού { -brand-paypal } σας. Ενεργοποιήστε ξανά τις αυτόματες πληρωμές για τη συνδρομή σας.
 
@@ -111,6 +111,7 @@ not-found-button-back-to-subscriptions = Επιστροφή στις συνδρ�
 
 ## Error page - churn cancel flow
 
+churn-cancel-flow-error-offer-expired-title = Αυτή η προσφορά έχει λήξει
 churn-cancel-flow-error-button-continue-to-cancel = Συνέχεια για ακύρωση
 churn-cancel-flow-error-page-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 churn-cancel-flow-error-already-canceling-title = Η συνδρομή σας πρόκειται να λήξει
@@ -254,6 +255,8 @@ next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
 churn-cancel-flow-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 churn-cancel-flow-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 churn-cancel-flow-button-continue-to-cancel = Συνέχεια για ακύρωση
+churn-cancel-flow-button-manage-subscriptions = Διαχείριση συνδρομών
+churn-cancel-flow-button-contact-support = Επικοινωνία με την υποστήριξη
 
 ## Churn flow - stay subscribed
 
@@ -425,6 +428,12 @@ paypal-unavailable-error = Το { -brand-paypal } δεν είναι διαθέσ
 churn-error-page-button-manage-subscriptions = Διαχείριση συνδρομών
 churn-error-page-button-contact-support = Επικοινωνία με την υποστήριξη
 churn-error-page-button-try-again = Δοκιμή ξανά
+churn-error-page-title-general-error = Προέκυψε πρόβλημα με την ανανέωση της συνδρομής σας
+churn-error-page-message-general-error = Επικοινωνήστε με την υποστήριξη ή δοκιμάστε ξανά.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Αυτή η έκπτωση διατίθεται μόνο για τρέχοντες συνδρομητές του { $productName }.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Η συνδρομή σας στο { $productName } είναι ακόμα ενεργή
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -533,6 +542,15 @@ stay-subscribed-error-discount-used = Ο εκπτωτικός κωδικός έ�
 stay-subscribed-error-not-current-subscriber = Αυτή η έκπτωση διατίθεται μόνο για τρέχοντες συνδρομητές του { $productTitle }.
 stay-subscribed-error-still-active = Η συνδρομή σας στο { $productTitle } είναι ακόμα ενεργή.
 stay-subscribed-error-general = Προέκυψε πρόβλημα με την ανανέωση της συνδρομής σας.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Δεν ήταν δυνατή η επεξεργασία της συναλλαγής σας. Επαληθεύστε τα στοιχεία της πιστωτικής σας κάρτας και δοκιμάστε ξανά.
+manage-payment-method-intent-error-expired-card-error = Φαίνεται πως η πιστωτική σας κάρτα έχει λήξει. Δοκιμάστε μια άλλη κάρτα.
+manage-payment-method-intent-error-try-again = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Δοκιμάστε ξανά ή επικοινωνήστε με τον εκδότη της κάρτας σας.
+manage-payment-method-intent-error-get-in-touch = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
+manage-payment-method-intent-error-insufficient-funds = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκές υπόλοιπο. Δοκιμάστε μια άλλη κάρτα.
+manage-payment-method-intent-error-generic = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
