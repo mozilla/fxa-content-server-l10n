@@ -10,6 +10,11 @@ subplat-privacy-notice = កំណត់ហេតុ​​ឯកជនភាព
 subplat-privacy-plaintext = កំណត់ហេតុឯកជនភាព:
 subplat-update-billing-plaintext = { subplat-update-billing }៖
 
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-repeating-discount = បញ្ចុះតម្លៃ { $discountDuration } ខែ
+
 ##
 
 passwordChanged-title = បាន​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​ដោយ​ជោគជ័យ
