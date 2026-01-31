@@ -116,6 +116,10 @@ churn-cancel-flow-error-offer-expired-message = Det er akkurat no ingen rabattar
 churn-cancel-flow-error-button-continue-to-cancel = Hald fram med oppseiinga
 churn-cancel-flow-error-page-button-back-to-subscriptions = Tilbake til abonnementa
 churn-cancel-flow-error-already-canceling-title = Abonnementet ditt er sett til å bli avslutta
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Du vil framleis ha tilgang til { $productName } fram til { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Behald abonnementet
 
 ## Loyalty discount - Not found page
 

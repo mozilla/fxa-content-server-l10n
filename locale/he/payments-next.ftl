@@ -107,6 +107,14 @@ not-found-title-subscriptions = המינוי לא נמצא
 not-found-description-subscriptions = לא הצלחנו למצוא את המינוי שלך. נא לנסות שוב או ליצור קשר עם התמיכה.
 not-found-button-back-to-subscriptions = חזרה למינויים
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = פג תוקפה של הצעה זו
+churn-cancel-flow-error-offer-expired-message = כרגע אין הנחות זמינות עבור מינוי זה. ניתן להמשיך בביטול אם תרצו.
+churn-cancel-flow-error-button-continue-to-cancel = המשך לביטול
+churn-cancel-flow-error-page-button-back-to-subscriptions = חזרה למינויים
+churn-cancel-flow-error-already-canceling-title = המינוי שלך מוגדר להסתיים
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = הדף לא נמצא
