@@ -297,6 +297,10 @@ passwordChanged-title = Contraseña cambiada exitosamente
 passwordChanged-description-2 = La contraseña de tu { -product-mozilla-account } fue cambiada correctamente desde el siguiente dispositivo:
 passwordChangeRequired-subject = Actividad sospechosa detectada
 passwordChangeRequired-title-2 = Restablecer tu contraseña
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Utiliza { $code } para cambiar tu contraseña
+password-forgot-otp-preview = Este código expira en 10 minutos
 password-forgot-otp-title = ¿Olvidaste tu contraseña?
 password-forgot-otp-request = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } desde:
 password-forgot-otp-code-2 = Si fuiste tu, aquí está tu código de confirmación para continuar:
@@ -336,6 +340,10 @@ postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } fue vinculada con 
 postAddLinkedAccount-action = Administrar cuenta
 postAddRecoveryPhone-subject = Teléfono de recuperación agregado
 postAddRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
+postAddRecoveryPhone-title-v2 = Agregaste un número de teléfono de recuperación
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Agregaste { $maskedLastFourPhoneNumber } como tu número de teléfono de recuperación
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = ¿Cómo esto protege tu cuenta?
 postAddRecoveryPhone-how-protect-plaintext = Cómo protege esto tu cuenta:
