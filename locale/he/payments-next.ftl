@@ -114,12 +114,25 @@ churn-cancel-flow-error-offer-expired-message = כרגע אין הנחות זמ�
 churn-cancel-flow-error-button-continue-to-cancel = המשך לביטול
 churn-cancel-flow-error-page-button-back-to-subscriptions = חזרה למינויים
 churn-cancel-flow-error-already-canceling-title = המינוי שלך מוגדר להסתיים
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = תמשיך להיות לך גישה ל־{ $productName } עד לתאריך { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = להשאיר את המינוי
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = הדף לא נמצא
 not-found-loyalty-discount-description = הדף שחיפשת אינו קיים.
 not-found-loyalty-discount-button-back-to-subscriptions = חזרה למינויים
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = המשך לביטול
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = להשאיר את המינוי היומי
+interstitial-offer-button-keep-current-interval-weekly = להשאיר את המינוי השבועי
 
 ## Page - Subscription Management
 
