@@ -4,7 +4,7 @@ loyalty-discount-terms-support = Kontaktovat podporu
 loyalty-discount-terms-contact-support-product-aria = Kontaktování podpory produktu { $productName }
 not-found-page-title-terms = Stránka nenalezena
 not-found-page-description-terms = Stránka, kterou hledáte, neexistuje.
-not-found-page-button-terms-manage-subscriptions = Spravovat odebírání
+not-found-page-button-terms-manage-subscriptions = Správa předplatného
 
 ## Page
 
