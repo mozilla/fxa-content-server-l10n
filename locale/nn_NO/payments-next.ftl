@@ -131,8 +131,16 @@ not-found-loyalty-discount-button-back-to-subscriptions = Tilbake til abonnement
 
 interstitial-offer-button-cancel-subscription = Hald fram med oppseiinga
 
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Behald dagabonnement
+interstitial-offer-button-keep-current-interval-weekly = Behald vekeabonnementet
+interstitial-offer-button-keep-current-interval-monthly = Behald månadsabonnementet
+interstitial-offer-button-keep-current-interval-halfyearly = Behald seksmånadars abonnementet.
+
 ## Error page
 
+interstitial-offer-error-subscription-not-found-heading = Vi fann ikkje eit aktivt abonnement
 interstitial-offer-error-button-back-to-subscriptions = Tilbake til abonnementa
 interstitial-offer-error-button-cancel-subscription = Hald fram med oppseiinga
 
