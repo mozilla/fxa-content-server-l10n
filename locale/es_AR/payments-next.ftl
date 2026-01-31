@@ -118,7 +118,7 @@ churn-cancel-flow-error-page-button-back-to-subscriptions = Volver a suscripcion
 churn-cancel-flow-error-already-canceling-title = Tu suscripción está programada para finalizar
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Continuarás teniendo acceso a { $productName } hasta { $currentPeriodEnd }.
+churn-cancel-flow-error-already-canceling-message = Continuarás teniendo acceso a { $productName } hasta el { $currentPeriodEnd }.
 churn-cancel-flow-error-page-button-keep-subscription = Mantener la suscripción
 
 ## Loyalty discount - Not found page
@@ -134,9 +134,9 @@ interstitial-offer-button-cancel-subscription = Continuar para cancelar
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Mantener suscripción diaria
-interstitial-offer-button-keep-current-interval-weekly = Mantener la suscripción semanal
-interstitial-offer-button-keep-current-interval-monthly = Mantener la suscripción mensual
-interstitial-offer-button-keep-current-interval-halfyearly = Mantener la suscripción de seis meses
+interstitial-offer-button-keep-current-interval-weekly = Mantener suscripción semanal
+interstitial-offer-button-keep-current-interval-monthly = Mantener suscripción mensual
+interstitial-offer-button-keep-current-interval-halfyearly = Mantener suscripción semestral
 
 ## Error page
 
@@ -253,7 +253,7 @@ next-pay-with-heading-paypal = Pagar con { -brand-paypal }
 
 ## Churn flow - cancel
 
-churn-cancel-flow-success-title = Todavía estás suscrito
+churn-cancel-flow-success-title = Todavía estás suscripto
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
 churn-cancel-flow-success-message = Tu suscripción continuará y ahorrarás { $discountPercent }% en tu próxima factura.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
