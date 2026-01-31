@@ -105,11 +105,32 @@ not-found-title-subscriptions = Abonelik bulunamadı
 not-found-description-subscriptions = Aboneliğinizi bulamadık. Lütfen yeniden deneyin veya destek ekibiyle iletişime geçin.
 not-found-button-back-to-subscriptions = Aboneliklere dön
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Bu teklifin süresi doldu
+churn-cancel-flow-error-page-button-back-to-subscriptions = Aboneliklere dön
+churn-cancel-flow-error-page-button-keep-subscription = Aboneliği sürdür
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Sayfa bulunamadı
 not-found-loyalty-discount-description = Aradığınız sayfa mevcut değil.
 not-found-loyalty-discount-button-back-to-subscriptions = Aboneliklere dön
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Günlük aboneliği sürdür
+interstitial-offer-button-keep-current-interval-weekly = Haftalık aboneliği sürdür
+interstitial-offer-button-keep-current-interval-monthly = Aylık aboneliği sürdür
+interstitial-offer-button-keep-current-interval-halfyearly = Altı aylık aboneliği sürdür
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Etkin bir abonelik bulamadık
+interstitial-offer-error-subscription-not-found-message = Bu abonelik artık etkin olmayabilir.
+interstitial-offer-error-general-heading = Teklif mevcut değil
+interstitial-offer-error-general-message = Bu teklif şu anda mevcut değil.
+interstitial-offer-error-button-back-to-subscriptions = Aboneliklere dön
 
 ## Page - Subscription Management
 
@@ -198,6 +219,10 @@ next-payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerek
 next-new-user-submit = Şimdi abone ol
 next-pay-with-heading-paypal = { -brand-paypal } ile öde
 
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Hâlâ abonesiniz
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-title-offer-expired = Bu teklifin süresi doldu
@@ -207,6 +232,7 @@ churn-stay-subscribed-title-offer-expired = Bu teklifin süresi doldu
 churn-stay-subscribed-subtitle-offer-expired = { $productName } ürününü kullanmaya devam etmek ister misiniz?
 churn-stay-subscribed-title-subscription-renewed = Abonelik yenilendi
 churn-stay-subscribed-thanks-valued-subscriber = Abone olduğunuz için teşekkürler!
+churn-stay-subscribed-button-go-to-subscriptions = Aboneliklere git
 
 ## Component - CouponForm
 
