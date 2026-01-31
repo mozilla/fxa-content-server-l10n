@@ -251,6 +251,31 @@ next-payment-confirm-checkbox-error = Du må fullføre dette før du går videre
 next-new-user-submit = Abonner nå
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
 
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Du er fortsatt abonnent
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Abonnementet ditt fortsetter, og du sparer { $discountPercent } % på neste regning.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Takk for at du bruker { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Tilbake til abonnementer
+churn-cancel-flow-action-error = Det oppstod en uventet feil. Prøv på nytt.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortsett å abonnere og spar { $discountPercent } %
+churn-cancel-flow-button-stay-subscribed-and-save = Fortsett å abonnere og spar
+churn-cancel-flow-button-continue-to-cancel = Fortsett med oppsigelsen
+churn-cancel-flow-link-terms-and-restrictions = Begrensede vilkår og restriksjoner gjelder
+churn-cancel-flow-discount-already-applied-title = Rabattkoden er allerede brukt
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Denne rabatten ble brukt på et abonnement på { $productName } for kontoen din. Hvis du fortsatt trenger hjelp, kan du kontakte kundestøtteteamet vårt.
+churn-cancel-flow-button-manage-subscriptions = Behandle abonnementer
+churn-cancel-flow-button-contact-support = Kontakt brukerstøtte
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Ditt abonnement på { $productName } er aktivt.
+churn-cancel-flow-button-go-to-product-page = Gå til { $productName }
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Det oppstod en uventet feil. Prøv på nytt.
