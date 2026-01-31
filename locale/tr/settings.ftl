@@ -1235,6 +1235,8 @@ tfa-row-verify-session-info = İki aşamalı doğrulamayı ayarlamak için mevcu
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = Devam ettiğinizde aşağıdakileri kabul etmiş olursunuz:
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Devam ederek <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos>’nı ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>’ni kabul etmiş olursunuz.
 
@@ -1703,6 +1705,8 @@ signin-password-button-label = Parola
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 signin-code-expired-error = Kodun süresi doldu. Lütfen yeniden giriş yapın.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Bir şeyler yanlış gitti. Lütfen yeniden giriş yapın.
 signin-account-locked-banner-heading = Parolanızı sıfırlayın
 signin-account-locked-banner-description = Şüpheli etkinliklerden korumak için hesabınızı kilitledik.
 # This link points to https://accounts.firefox.com/reset_password

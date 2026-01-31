@@ -222,6 +222,17 @@ next-pay-with-heading-paypal = { -brand-paypal } ile öde
 ## Churn flow - cancel
 
 churn-cancel-flow-success-title = Hâlâ abonesiniz
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = { $productName } kullandığınız için teşekkürler!
+churn-cancel-flow-button-back-to-subscriptions = Aboneliklere dön
+churn-cancel-flow-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
+churn-cancel-flow-discount-already-applied-title = İndirim kodu zaten uygulanmış
+churn-cancel-flow-button-manage-subscriptions = Abonelikleri yönet
+churn-cancel-flow-button-contact-support = Destek birimiyle iletişime geç
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = { $productName } aboneliğiniz etkin
 
 ## Churn flow - stay subscribed
 
