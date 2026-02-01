@@ -221,6 +221,9 @@ subscription-charges-prorated-price-plaintext = Precio prorrateado: { $remaining
 subscription-charges-list-price = Precio de lista
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Precio de lista: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Crédito por tiempo no utilizado
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Crédito por tiempo no utilizado: { $unusedAmountTotal }
 subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
@@ -228,6 +231,18 @@ subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount = Descuento de un solo uso
+subscription-charges-one-time-discount-plaintext = Descuento de un solo uso: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration } mes de descuento
+       *[other] { $discountDuration } meses de descuento
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Descuento de { $discountDuration } mes: { $invoiceDiscountAmount }
+       *[other] Descuento de { $discountDuration } meses: { $invoiceDiscountAmount }
+    }
 subscription-charges-discount = Descuento
 subscription-charges-discount-plaintext = Descuento: { $invoiceDiscountAmount }
 subscription-charges-taxes = Impuestos y cargos
@@ -236,6 +251,9 @@ subscriptionCharges-content-tax-plaintext = Impuestos y cargos: { $invoiceTaxAmo
 subscription-charges-total = <b>Total</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Total: { $invoiceTotal }
+subscription-charges-credit-applied = Crédito aplicado
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Crédito aplicado: { $creditApplied }
 subscription-charges-amount-paid = <b>Importe pagado</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Importe pagado: { $invoiceAmountDue }
@@ -252,6 +270,11 @@ subscriptionSupport-plaintext = ¿Preguntas sobre tu suscripción? Nuestro equip
 subscriptionSupportContact = Gracias por suscribirte a { $productName }. Si tienes alguna pregunta sobre tu suscripción o necesitas más información sobre { $productName }, por favor <a data-l10n-name="subscriptionSupportUrl">ponte en contacto con nosotros</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Gracias por suscribirte a { $productName }. Si tienes alguna pregunta sobre tu suscripción o necesitas más información sobre { $productName }, por favor ponte en contacto con nosotros:
+subscription-support-get-help = Obtén ayuda con tu suscripción
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Administra tu suscripción</a>
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Administra tu suscripción:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contacta con el soporte técnico</a>
 # After the colon, there's a link to https://support.mozilla.com/products
 subscription-support-contact-support-plaintext = Contactar con la asistencia:
 subscriptionUpdateBillingEnsure = Puedes asegurarte de que tu método de pago y la información de tu cuenta están actualizados <a data-l10n-name="updateBillingUrl">aquí</a>.
@@ -456,7 +479,16 @@ postAddRecoveryPhone-action = Administrar cuenta
 postAddTwoStepAuthentication-preview = Tu cuenta está protegida
 postAddTwoStepAuthentication-subject-v3 = La autenticación en dos pasos está activada
 postAddTwoStepAuthentication-title-2 = Has activado la autenticación en dos pasos
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Has solicitado este formulario:
 postAddTwoStepAuthentication-action = Administrar cuenta
+postAddTwoStepAuthentication-code-required-v4 = Ahora se requieren los códigos de seguridad de tu aplicación de autenticación cada vez que inicias sesión.
+postAddTwoStepAuthentication-recovery-method-codes = También añadiste códigos de autenticación de respaldo como método de recuperación.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = También añadiste { $maskedPhoneNumber } como tu número de teléfono de recuperación.
+postAddTwoStepAuthentication-how-protects-link = Cómo esto protege tu cuenta
+postAddTwoStepAuthentication-how-protects-plaintext = Cómo esto protege tu cuenta:
 postChangeAccountRecovery-subject = Clave de recuperación de cuenta cambiada
 postChangeAccountRecovery-title = Has cambiado tu clave de recuperación de cuenta
 postChangeAccountRecovery-body-part1 = Ahora tienes una nueva clave de recuperación de cuenta. Tu clave anterior fue eliminada.
@@ -473,6 +505,7 @@ postChangeRecoveryPhone-preview = Cuenta protegida mediante autenticación en do
 postChangeRecoveryPhone-title = Has cambiado tu teléfono de recuperación
 postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se ha eliminado tu número de teléfono anterior.
 postChangeRecoveryPhone-requested-device = Lo has pedido desde:
+postChangeTwoStepAuthentication-preview = Tu cuenta está protegida
 postConsumeRecoveryCode-title-3 = Tu código de autenticación de respaldo fue utilizado para confirmar un restablecimiento de contraseña
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
