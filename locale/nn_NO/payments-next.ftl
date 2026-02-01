@@ -141,6 +141,9 @@ interstitial-offer-button-keep-current-interval-halfyearly = Behald seksmånadar
 ## Error page
 
 interstitial-offer-error-subscription-not-found-heading = Vi fann ikkje eit aktivt abonnement
+interstitial-offer-error-subscription-not-found-message = Det ser ut til at dette abonnementet ikkje lenger er aktivt.
+interstitial-offer-error-general-heading = Tilbodet er ikke tilgjengelig
+interstitial-offer-error-general-message = Det ser ut til at dette tilbodet ikkje er tilgjengeleg akkurat no.
 interstitial-offer-error-button-back-to-subscriptions = Tilbake til abonnementa
 interstitial-offer-error-button-cancel-subscription = Hald fram med oppseiinga
 
@@ -250,6 +253,11 @@ next-pay-with-heading-paypal = Betal med { -brand-paypal }
 
 ## Churn flow - cancel
 
+churn-cancel-flow-success-title = Du er framleis abonnent
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Abonnementet ditt held fram, og du sparer { $discountPercent } % på neste rekning.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Takk for at du brukar { $productName }!
 churn-cancel-flow-button-back-to-subscriptions = Tilbake til abonnementa
 churn-cancel-flow-action-error = Det oppstod ein uventa feil. Prøv på nytt.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
