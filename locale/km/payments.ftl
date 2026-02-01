@@ -17,3 +17,10 @@ currency-currency-mismatch = សូមអភ័យទោស។ អ្នកម�
 no-subscription-change = សូមអភ័យទោស។ អ្នកមិនអាចប្តូរគម្រោងការជាវរបស់អ្នកបានទេ។
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = អ្នកបានជាវតាមរយៈ { $mobileAppStore } រួចហើយ
+
+## Checkout line item for subscription plan change listing the product name and frequency of payment
+## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
+## Variables:
+##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+
+sub-update-new-plan-monthly = { $productName } (ប្រចាំខែ)

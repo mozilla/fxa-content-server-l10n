@@ -71,6 +71,12 @@ add-secondary-email-cancel-button = បោះបង់
 
 verify-secondary-email-cancel-button = បោះបង់
 
+## AuthAllow page - Part of the device pairing flow
+
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = បាទ/ចាស៎ យល់ព្រមលើឧបករណ៍
+
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
