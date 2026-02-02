@@ -109,11 +109,31 @@ not-found-title-subscriptions = Abonament negăsit
 not-found-description-subscriptions = Nu am putut găsi abonamentul. Te rugăm să încerci din nou sau să contactezi asistența.
 not-found-button-back-to-subscriptions = Înapoi la abonamente
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Oferta a expirat
+churn-cancel-flow-error-offer-expired-message = Nu există reduceri disponibile pentru acest abonament. Poți continua cu anularea lui, dacă vrei.
+churn-cancel-flow-error-button-continue-to-cancel = Continuă cu anularea
+churn-cancel-flow-error-page-button-back-to-subscriptions = Înapoi la abonamente
+churn-cancel-flow-error-already-canceling-title = Abonamentul este programat să înceteze
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Vei avea în continuare acces la { $productName } până pe { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Păstrează abonamentul
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Pagina nu a fost găsită
 not-found-loyalty-discount-description = Pagina pe care o cauți nu există.
 not-found-loyalty-discount-button-back-to-subscriptions = Înapoi la abonamente
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Continuă cu anularea
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Păstrează abonamentul zilnic
 
 ## Page - Subscription Management
 
