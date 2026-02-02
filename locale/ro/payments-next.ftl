@@ -134,6 +134,18 @@ interstitial-offer-button-cancel-subscription = Continuă cu anularea
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Păstrează abonamentul zilnic
+interstitial-offer-button-keep-current-interval-weekly = Păstrează abonamentul săptămânal
+interstitial-offer-button-keep-current-interval-monthly = Păstrează abonamentul lunar
+interstitial-offer-button-keep-current-interval-halfyearly = Păstrează abonamentul la șase luni
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Nu am găsit un abonament activ
+interstitial-offer-error-subscription-not-found-message = Pare că abonamentul nu ar mai fi activ.
+interstitial-offer-error-general-heading = Oferta nu este disponibilă
+interstitial-offer-error-general-message = Pare că oferta nu este disponibilă acum.
+interstitial-offer-error-button-back-to-subscriptions = Înapoi la abonamente
+interstitial-offer-error-button-cancel-subscription = Continuă cu anularea
 
 ## Page - Subscription Management
 
@@ -240,6 +252,31 @@ next-payment-confirm-checkbox-error = Trebuie să termini aici ca să treci mai 
 
 next-new-user-submit = Abonează-mă acum
 next-pay-with-heading-paypal = Plătește cu { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Ești încă abonat(ă)
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Abonamentul se va derula în continuare și vei economisi { $discountPercent }% la următoarea factură.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Îți mulțumim că folosești { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Înapoi la abonamente
+churn-cancel-flow-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Rămâi abonat(ă) și economisește { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Rămâi abonat(ă) și economisește
+churn-cancel-flow-button-continue-to-cancel = Continuă cu anularea
+churn-cancel-flow-link-terms-and-restrictions = Se aplică condiții și restricții limitate
+churn-cancel-flow-discount-already-applied-title = Codul de reducere a fost deja aplicat
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Această reducere a fost aplicată la un abonament { $productName } pentru contul tău. Dacă tot mai ai nevoie de ajutor, contactează echipa noastră de asistență.
+churn-cancel-flow-button-manage-subscriptions = Gestionează abonamentele
+churn-cancel-flow-button-contact-support = Contactează serviciul de asistență
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Abonamentul tău { $productName } este activ
+churn-cancel-flow-button-go-to-product-page = Mergi la { $productName }
 
 ## Churn flow - stay subscribed
 

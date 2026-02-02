@@ -1735,6 +1735,8 @@ signin-password-button-label = Parolă
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } va încerca să te trimită înapoi ca să folosești o mască de e-mail după ce intri în cont.
 signin-code-expired-error = Codul a expirat. Te rugăm să intri din nou în cont.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Ceva nu a funcționat. Te rugăm să te autentifici din nou în cont.
 signin-account-locked-banner-heading = Resetează-ți parola
 signin-account-locked-banner-description = Ți-am blocat contul pentru a-l proteja de activități suspecte.
 # This link points to https://accounts.firefox.com/reset_password
