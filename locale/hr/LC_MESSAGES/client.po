@@ -510,7 +510,7 @@ msgstr "Neispravan ili istekao potvrdni kod"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
-msgstr "Poslužitelj je zauzet, pokušaj ponovo malo kasnije"
+msgstr "Server je zauzet, pokušaj ponovo malo kasnije"
 
 #: .es5/lib/auth-errors.js:290
 msgid "Feature not enabled"
@@ -899,8 +899,8 @@ msgstr "Za ponovni pristup tvom Mozila računu upiši spremljeni jednokratni klj
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">NAPOMENA:</span> Ukoliko resetirate vašu lozinku, a nemate ključ za oporavak računa spremljen, dio vaših podataka će biti obrisan (uključujući sinkronizirane podatke sa "
-"poslužitelja kao povijest i zabilješke)."
+"<span class=\"note\">NAPOMENA:</span> Ukoliko resetirate vašu lozinku, a nemate ključ za oporavak računa spremljen, dio vaših podataka će biti obrisan (uključujući sinkronizirane podatke sa servera "
+"kao povijest i zabilješke)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
