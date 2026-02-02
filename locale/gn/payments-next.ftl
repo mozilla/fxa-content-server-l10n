@@ -113,10 +113,22 @@ not-found-button-back-to-subscriptions = Ejevy moheraguapyhápe
 
 churn-cancel-flow-error-offer-expired-title = Ko tepyguejy ndoikovéima
 churn-cancel-flow-error-button-continue-to-cancel = Eku’e jey eheja hag̃ua
+churn-cancel-flow-error-page-button-back-to-subscriptions = Ejevy moheraguapyhápe
+churn-cancel-flow-error-already-canceling-title = Ne ñemboheraguapy oĩma opa hag̃uáicha
+churn-cancel-flow-error-page-button-keep-subscription = Erekomeme ñemboheraguapy
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Kuatiarogue ojejuhu’ỹva
+not-found-loyalty-discount-button-back-to-subscriptions = Ejevy moheraguapyhápe
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Eku’e jey eheja hag̃ua
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Erekomeme ñemboheraguapy aragua
 
 ## Page - Subscription Management
 
