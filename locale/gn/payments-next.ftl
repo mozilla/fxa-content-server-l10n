@@ -109,6 +109,15 @@ not-found-title-subscriptions = Mboheraguapy ojejuhu’ỹva
 not-found-description-subscriptions = Ndorojuhúi ne ñemboheraguapykue. Eha’ã jey térã eñe’ẽ pytyvõha ndive.
 not-found-button-back-to-subscriptions = Ejevy moheraguapyhápe
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Ko tepyguejy ndoikovéima
+churn-cancel-flow-error-button-continue-to-cancel = Eku’e jey eheja hag̃ua
+
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Kuatiarogue ojejuhu’ỹva
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ndaipóri mba’éicha ehepyme’ẽta
