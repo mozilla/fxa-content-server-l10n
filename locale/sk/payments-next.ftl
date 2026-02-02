@@ -109,11 +109,27 @@ not-found-title-subscriptions = Predplatné sa nenašlo
 not-found-description-subscriptions = Nepodarilo sa nám nájsť vaše predplatné. Skúste to znova alebo kontaktujte podporu.
 not-found-button-back-to-subscriptions = Späť na predplatné
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Platnosť tejto ponuky vypršala
+churn-cancel-flow-error-offer-expired-message = Na toto predplatné momentálne nie sú k dispozícii žiadne zľavy. Ak chcete, môžete pokračovať v zrušení.
+churn-cancel-flow-error-button-continue-to-cancel = Pokračovať v zrušení
+churn-cancel-flow-error-page-button-back-to-subscriptions = Späť na predplatné
+churn-cancel-flow-error-already-canceling-title = Vaše predplatné sa blíži ku koncu
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Prístup k produktu { $productName } budete mať naďalej do { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Ponechať si predplatné
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Stránka nebola nájdená
 not-found-loyalty-discount-description = Stránka, ktorú hľadáte, neexistuje.
 not-found-loyalty-discount-button-back-to-subscriptions = Späť na predplatné
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Pokračovať v zrušení
 
 ## Page - Subscription Management
 
