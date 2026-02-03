@@ -9,6 +9,7 @@ subplat-automated-email = នេះ​គឺ​ជា​អ៊ីម៉ែល​
 subplat-privacy-notice = កំណត់ហេតុ​​ឯកជនភាព
 subplat-privacy-plaintext = កំណត់ហេតុឯកជនភាព:
 subplat-update-billing-plaintext = { subplat-update-billing }៖
+manage-account = គ្រប់គ្រង​គណនី
 
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
@@ -17,4 +18,23 @@ subscription-charges-repeating-discount = បញ្ចុះតម្លៃ { $d
 
 ##
 
+fraudulentAccountDeletion-title = គណនីរបស់អ្នកត្រូវបានលុបចេញ
+newDeviceLogin-action = គ្រប់គ្រង​គណនី
 passwordChanged-title = បាន​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​ដោយ​ជោគជ័យ
+passwordResetAccountRecovery-action-4 = គ្រប់គ្រង​គណនី
+passwordResetRecoveryPhone-action = គ្រប់គ្រង​គណនី
+postAddAccountRecovery-action = គ្រប់គ្រង​គណនី
+postAddLinkedAccount-action = គ្រប់គ្រង​គណនី
+postAddRecoveryPhone-action = គ្រប់គ្រង​គណនី
+postAddTwoStepAuthentication-action = គ្រប់គ្រង​គណនី
+postChangeAccountRecovery-action = គ្រប់គ្រង​គណនី
+postChangePrimary-action = គ្រប់គ្រង​គណនី
+postChangeTwoStepAuthentication-action = គ្រប់គ្រង​គណនី
+postConsumeRecoveryCode-action = គ្រប់គ្រង​គណនី
+postNewRecoveryCodes-action = គ្រប់គ្រង​គណនី
+postRemoveAccountRecovery-action = គ្រប់គ្រង​គណនី
+postRemoveSecondary-action = គ្រប់គ្រង​គណនី
+postRemoveTwoStepAuthentication-action = គ្រប់គ្រង​គណនី
+postSigninRecoveryCode-action = គ្រប់គ្រង​គណនី
+postSigninRecoveryPhone-action = គ្រប់គ្រង​គណនី
+postVerifySecondary-action = គ្រប់គ្រង​គណនី
