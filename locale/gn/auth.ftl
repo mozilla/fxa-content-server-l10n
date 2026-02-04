@@ -644,7 +644,16 @@ subscriptionEndingReminder-title = Ne ñemboheraguapy { $productName } opapotait
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Nde jeike { $productName }-pe opáta <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line1-plaintext = Nde jeike { $productName }-pe opáta <strong>{ $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-closing = ¡Aguyje mboheraguapy guerohorypýre!
 subscriptionEndingReminder-churn-title = ¿Erekomemesépa jeikeha?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Oguerojera aporã ha jejokopy heta’ỹva</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = { $churnTermsUrlWithUtm } - Aporã ha jejokopy heta’ỹva: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Eñe’ẽ ore aty pytyvõha ndive: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Ojejokóma ne ñemboheraguapy { $productName } pegua
