@@ -636,6 +636,14 @@ subscriptionDowngrade-content-charge-info = Ne ñehepyme’ẽrã ipyahúvape, i
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Emohendátarõ peteĩ tembiaporape ipyahúva eiporu hag̃ua { $productName }, og̃uahẽ ndéve ñanduti veve ha’eño’eño mba’eichaitépa emboguejýta.
 subscriptionDowngrade-content-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Ne ñemboheraguapy { $productName } opapotaitéma
+subscriptionEndingReminder-title = Ne ñemboheraguapy { $productName } opapotaitéma
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Nde jeike { $productName }-pe opáta <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-churn-title = ¿Erekomemesépa jeikeha?
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
