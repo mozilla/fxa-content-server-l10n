@@ -140,6 +140,11 @@ interstitial-offer-button-keep-current-interval-halfyearly = Erekomeme ñemboher
 ## Error page
 
 interstitial-offer-error-subscription-not-found-heading = Ndaikatúi rojuhu ñemboheraguapy oikóva
+interstitial-offer-error-subscription-not-found-message = Amalisia ko ñemboheraguapy ndoikovéima.
+interstitial-offer-error-general-heading = Ñevenderã ndaiporivéima
+interstitial-offer-error-general-message = Ha’ete ko ñevenderã ndaiporivéima ko’ag̃aite.
+interstitial-offer-error-button-back-to-subscriptions = Ejevy moheraguapyhápe
+interstitial-offer-error-button-cancel-subscription = Eku’e jey eheja hag̃ua
 
 ## Page - Subscription Management
 
@@ -246,6 +251,15 @@ next-payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 next-new-user-submit = Eñemboheraguapy Ko’ág̃a
 next-pay-with-heading-paypal = Ehepyme’ẽ { -brand-paypal } ndive
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Eime ñemoheraguapýpe ha erekovéta { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Eime ñemoheraguapýpe ha erekovéta
+churn-stay-subscribed-button-no-thanks = Nahániri, aguyje
+    .aria-label = Ejevy Moheraguapyha kuatiaroguépe
 
 ## Component - CouponForm
 
