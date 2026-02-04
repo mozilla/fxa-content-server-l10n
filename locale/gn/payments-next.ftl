@@ -115,11 +115,15 @@ churn-cancel-flow-error-offer-expired-title = Ko tepyguejy ndoikovéima
 churn-cancel-flow-error-button-continue-to-cancel = Eku’e jey eheja hag̃ua
 churn-cancel-flow-error-page-button-back-to-subscriptions = Ejevy moheraguapyhápe
 churn-cancel-flow-error-already-canceling-title = Ne ñemboheraguapy oĩma opa hag̃uáicha
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Eikekuaáta gueteri { $productName }-pe { $currentPeriodEnd } peve.
 churn-cancel-flow-error-page-button-keep-subscription = Erekomeme ñemboheraguapy
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Kuatiarogue ojejuhu’ỹva
+not-found-loyalty-discount-description = Pe kuatiarogue ehekáva ndaiporivéima.
 not-found-loyalty-discount-button-back-to-subscriptions = Ejevy moheraguapyhápe
 
 ## InterstitialOffer
@@ -129,6 +133,13 @@ interstitial-offer-button-cancel-subscription = Eku’e jey eheja hag̃ua
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Erekomeme ñemboheraguapy aragua
+interstitial-offer-button-keep-current-interval-weekly = Erekomeme ñemboheraguapy arapokõindygua
+interstitial-offer-button-keep-current-interval-monthly = Erekomeme ñemboheraguapy jasygua
+interstitial-offer-button-keep-current-interval-halfyearly = Erekomeme ñemboheraguapy arapokõindygua
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Ndaikatúi rojuhu ñemboheraguapy oikóva
 
 ## Page - Subscription Management
 
