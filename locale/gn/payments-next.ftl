@@ -260,6 +260,15 @@ churn-stay-subscribed-button-stay-subscribed-and-save-discount = Eime ñemoherag
 churn-stay-subscribed-button-stay-subscribed-and-save = Eime ñemoheraguapýpe ha erekovéta
 churn-stay-subscribed-button-no-thanks = Nahániri, aguyje
     .aria-label = Ejevy Moheraguapyha kuatiaroguépe
+churn-stay-subscribed-link-terms-and-restrictions = Oguerojera aporã ha jejokopy heta’ỹva
+churn-stay-subscribed-title-offer-expired = Ko tepyguejy opáma
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = ¿Eiporusépa gueteri { $productName }?
+churn-stay-subscribed-message-access-will-continue = Nde jeike { $productName } rehegua ohovéta hese ha kuatiañemure ha jehepyme’ẽrã naiñambuemo’ãi.
+churn-stay-subscribed-title-subscription-renewed = Ñemboheraguay pyahu
+churn-stay-subscribed-button-go-to-product-page = Eho { $productName }-pe
 
 ## Component - CouponForm
 

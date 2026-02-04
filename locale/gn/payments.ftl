@@ -112,7 +112,7 @@ payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 
 # $productName (String) - The name of the subscribed product.
 iap-upgrade-already-subscribed-2 = Eñemboheraguapýma { $productName } tembiporu’i ñemuha rupive { -brand-google } térã { -brand-apple }.
-iap-upgrade-no-bundle-support = Noromoneĩri ñembohekopyahu ko’ã ñemoheraguapýpe, hákatu vokóinte rojapóta.
+iap-upgrade-no-bundle-support = Noromoneĩri ñembohekopyahu ko’ã ñemboheraguapýpe, hákatu vokóinte rojapóta.
 iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃ua.
 iap-upgrade-get-help-button = Eipota pytyvõ
 

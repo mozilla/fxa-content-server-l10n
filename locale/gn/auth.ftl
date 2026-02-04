@@ -590,7 +590,7 @@ subscriptionAccountDeletion-title = Ambyasy eho haguére
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled-2 = Embogueramoite nde { -product-mozilla-account }. Péva rupi, romboykéma ne ñemoheraguapy { $productName }. Ñe ñehepyme’ẽ ipaháva { $invoiceTotal } pegua oñehepyme’ẽvo { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled-2 = Embogueramoite nde { -product-mozilla-account }. Péva rupi, romboykéma ne ñemboheraguapy { $productName }. Ñe ñehepyme’ẽ ipaháva { $invoiceTotal } pegua oñehepyme’ẽvo { $invoiceDateOnly }.
 subscriptionAccountReminderFirst-subject = Mandu’arã: Embohekopyahupa ne mba’ete
 subscriptionAccountReminderFirst-title = Ndereikekuaái gueteri ne ñemboheraguapýpe
 subscriptionAccountReminderFirst-content-info-3 = Nda’areiete emoheñoihague { -product-mozilla-account } hákatu araka’eve neremoneĩri. Roha’ãrõ embohekóvo ne mba’ete, péichamante eiporukuaa ne ñemboheraguapy pyahúpe.
