@@ -252,12 +252,25 @@ next-payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 next-new-user-submit = Eñemboheraguapy Ko’ág̃a
 next-pay-with-heading-paypal = Ehepyme’ẽ { -brand-paypal } ndive
 
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Eñemboheraguapy gueteri
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = ¡Aguyje eiporúre { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Ejevy moheraguapyhápe
+churn-cancel-flow-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Eime ñemboheraguapýpe ha erekovéta { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Eime ñemboheraguapýpe ha erekovéta
+churn-cancel-flow-button-continue-to-cancel = Eku’e jey eheja hag̃ua
+churn-cancel-flow-link-terms-and-restrictions = Oguerojera aporã ha jejokopy heta’ỹva
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
-churn-stay-subscribed-button-stay-subscribed-and-save-discount = Eime ñemoheraguapýpe ha erekovéta { $discountPercent }%
-churn-stay-subscribed-button-stay-subscribed-and-save = Eime ñemoheraguapýpe ha erekovéta
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Eime ñemboheraguapýpe ha erekovéta { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Eime ñemboheraguapýpe ha erekovéta
 churn-stay-subscribed-button-no-thanks = Nahániri, aguyje
     .aria-label = Ejevy Moheraguapyha kuatiaroguépe
 churn-stay-subscribed-link-terms-and-restrictions = Oguerojera aporã ha jejokopy heta’ỹva
@@ -268,7 +281,11 @@ churn-stay-subscribed-title-offer-expired = Ko tepyguejy opáma
 churn-stay-subscribed-subtitle-offer-expired = ¿Eiporusépa gueteri { $productName }?
 churn-stay-subscribed-message-access-will-continue = Nde jeike { $productName } rehegua ohovéta hese ha kuatiañemure ha jehepyme’ẽrã naiñambuemo’ãi.
 churn-stay-subscribed-title-subscription-renewed = Ñemboheraguay pyahu
+churn-stay-subscribed-title-subscription-active = Mboheraguapy { $productName } hendyjeýma
+churn-stay-subscribed-thanks-valued-subscriber = ¡Aguyje mboheraguapy guerohorypýre!
 churn-stay-subscribed-button-go-to-product-page = Eho { $productName }-pe
+churn-stay-subscribed-button-go-to-subscriptions = Eho moheraguapyhápe
+churn-stay-subscribed-button-stay-subscribed = Ani eheja mboheraguapy
 
 ## Component - CouponForm
 
