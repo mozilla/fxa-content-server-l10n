@@ -264,6 +264,14 @@ churn-cancel-flow-button-stay-subscribed-and-save-discount = Eime ñemboheraguap
 churn-cancel-flow-button-stay-subscribed-and-save = Eime ñemboheraguapýpe ha erekovéta
 churn-cancel-flow-button-continue-to-cancel = Eku’e jey eheja hag̃ua
 churn-cancel-flow-link-terms-and-restrictions = Oguerojera aporã ha jejokopy heta’ỹva
+churn-cancel-flow-discount-already-applied-title = Tepyguejy ayvu oikopyrémava
+churn-cancel-flow-button-manage-subscriptions = Mboheraguapy ñangareko
+churn-cancel-flow-button-contact-support = Eñe’ẽ pytyvõhándi
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Mboheraguapy { $productName } hendyjeýma
+churn-cancel-flow-button-go-to-product-page = Eho { $productName }-pe
 
 ## Churn flow - stay subscribed
 
@@ -428,6 +436,8 @@ subscription-content-button-stay-subscribed = Eime mboheguapýpe
     .aria-label = Eime mboheguapýpe { $productName }
 subscription-content-button-cancel-subscription = Ejheja mboheraguapy
     .aria-label = Ejheja mboheraguapy { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Eguerojera aporã
 
 ##
 
@@ -435,6 +445,12 @@ dialog-close = Emboty ñomongeta
 button-back-to-subscriptions = Ejevy moheraguapyhápe
 subscription-content-cancel-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
 paypal-unavailable-error = { -brand-paypal } ndoikói ko’ág̃aite. Eiporu ambuechagua jehepyme’ẽrã térã eha’ã jey ag̃amieve.
+
+## Churn flow - Error page
+
+churn-error-page-button-manage-subscriptions = Mboheraguapy ñangareko
+churn-error-page-button-contact-support = Eñe’ẽ pytyvõhándi
+churn-error-page-button-try-again = Eha’ã jey
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
