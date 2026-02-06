@@ -710,6 +710,7 @@ subscriptionRenewalReminder-content-greeting = 親愛的 { $productName } 客戶
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = 您目前的訂閱將在 { $reminderLength } 天後自動續訂。
+subscriptionRenewalReminder-content-discount-change = 由於先前的折扣活動已結束，且套用了新的折扣，您的下一期帳單將有價格變動。
 subscriptionRenewalReminder-content-discount-ending = 由於先前的折扣活動已結束，新訂閱將以標準價格續約。
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
