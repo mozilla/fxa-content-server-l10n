@@ -731,7 +731,7 @@ subscriptionRenewalReminder-content-greeting = Annwyl gwsmer { $productName },
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Bydd eich tanysgrifiad presennol yn cael ei adnewyddu'n awtomatig ymhen { $reminderLength } diwrnod.
-subscriptionRenewalReminder-content-discount-change = Mae eich anfoneb nesaf yn adlewyrchu newid mewn prisiau, gan fod gostyngiad blaenorol wedi dod i ben a gostyngiad newydd wedi'i gymhwyso.
+subscriptionRenewalReminder-content-discount-change = Mae eich anfoneb nesaf yn adlewyrchu newid mewn prisiau, gan fod gostyngiad blaenorol wedi dod i ben a gostyngiad newydd wedi'i osod.
 subscriptionRenewalReminder-content-discount-ending = Oherwydd bod gostyngiad blaenorol wedi dod i ben, bydd eich tanysgrifiad yn adnewyddu am y pris safonol.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
