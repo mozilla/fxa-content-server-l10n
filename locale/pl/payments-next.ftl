@@ -106,6 +106,17 @@ not-found-title-subscriptions = Nie odnaleziono subskrypcji
 not-found-description-subscriptions = Nie znaleźliśmy Twojej subskrypcji. Spróbuj ponownie lub skontaktuj się z pomocą techniczną.
 not-found-button-back-to-subscriptions = Wróć do subskrypcji
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Ta oferta wygasła
+churn-cancel-flow-error-page-button-back-to-subscriptions = Wróć do subskrypcji
+
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Nie odnaleziono strony
+not-found-loyalty-discount-description = Strona, której szukasz, nie istnieje.
+not-found-loyalty-discount-button-back-to-subscriptions = Wróć do subskrypcji
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nie dodano żadnej metody płatności
