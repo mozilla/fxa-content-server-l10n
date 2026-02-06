@@ -727,6 +727,7 @@ subscriptionRenewalReminder-content-greeting = Luby kupc { $productName },
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Waš aktualny abonement so awtomatisce na wobnowjenje za někotre dny staja: { $reminderLength }.
+subscriptionRenewalReminder-content-discount-change = Waša přichodna zličbowanka změnu při tworjenju płaćiznow wotbłyšćuje, dokelž předchadny rabat hižo njepłaći a nowy rabat je so hižo nałožił.
 subscriptionRenewalReminder-content-discount-ending = Dokelž prjedawši rabat je skónčeny, so waš abonement na standardnu płaćiznu wróći staji.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
