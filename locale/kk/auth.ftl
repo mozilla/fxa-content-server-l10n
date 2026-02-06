@@ -721,6 +721,7 @@ subscriptionRenewalReminder-content-greeting = Құрметті { $productName }
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Ағымдағы жазылымыңыз { $reminderLength } күннен кейін автоматты түрде жаңартылады.
+subscriptionRenewalReminder-content-discount-change = Келесі төлем шотыңызда бағаның өзгергенін көресіз: ескі жеңілдік тоқтатылып, оның орнына жаңа жеңілдік қосылды.
 subscriptionRenewalReminder-content-discount-ending = Алдыңғы жеңілдік мерзімі аяқталғандықтан, жазылымыңыз стандартты бағамен жаңартылады.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
