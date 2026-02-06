@@ -132,6 +132,7 @@ subscription-management-credit-balance-label = Saldo kredytowe
 subscription-management-payment-method-label = Metoda płatności
 subscription-management-button-add-payment-method-aria = Dodaj metodę płatności
 subscription-management-button-add-payment-method = Dodaj
+subscription-management-page-warning-message-no-payment-method = Dodaj metodę płatności, aby uniknąć przerw w subskrypcji.
 subscription-management-button-manage-payment-method-aria = Zarządzaj metodą płatności
 subscription-management-button-manage-payment-method = Zarządzaj
 # $last4 (String) - Last four numbers of credit card
@@ -158,6 +159,7 @@ subscription-management-button-manage-payment-method-1 = Zarządzaj metodą pła
 subscription-management-error-apple-pay = Wystąpił problem z Twoim kontem { -brand-apple-pay }. Rozwiąż problem, aby zachować aktywne subskrypcje.
 subscription-management-error-google-pay = Wystąpił problem z Twoim kontem { -brand-google-pay }. Rozwiąż problem, aby zachować aktywne subskrypcje.
 subscription-management-error-link = Wystąpił problem z Twoim kontem { -brand-link }. Rozwiąż problem, aby zachować aktywne subskrypcje.
+subscription-management-error-paypal-billing-agreement = Wystąpił problem z Twoim kontem { -brand-paypal }. Rozwiąż problem, aby zachować aktywne subskrypcje.
 subscription-management-error-payment-method = Wystąpił problem z Twoją metodą płatności. Rozwiąż problem, aby zachować aktywne subskrypcje.
 manage-payment-methods-heading = Zarządzaj metodami płatności
 paypal-payment-management-page-invalid-header = Nieprawidłowe dane płatnicze
@@ -208,6 +210,11 @@ next-payment-confirm-checkbox-error = Należy to wypełnić, aby móc przejść 
 
 next-new-user-submit = Subskrybuj
 next-pay-with-heading-paypal = Zapłać za pomocą serwisu { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-button-manage-subscriptions = Zarządzanie subskrypcjami
+churn-cancel-flow-button-contact-support = Skontaktuj się z pomocą
 
 ## Churn flow - stay subscribed
 
@@ -343,6 +350,8 @@ paypal-unavailable-error = { -brand-paypal } jest obecnie niedostępny. Użyj in
 
 ## Churn flow - Error page
 
+churn-error-page-button-manage-subscriptions = Zarządzanie subskrypcjami
+churn-error-page-button-contact-support = Skontaktuj się z pomocą
 churn-error-page-button-try-again = Spróbuj ponownie
 churn-error-page-title-general-error = Wystąpił problem z przedłużeniem subskrypcji.
 churn-error-page-message-general-error = Skontaktuj się z pomocą techniczną lub spróbuj ponownie.
