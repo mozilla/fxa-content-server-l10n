@@ -719,6 +719,7 @@ subscriptionRenewalReminder-content-greeting = Tisztelt { $productName } vásár
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = A jelenlegi előfizetése { $reminderLength } nap múlva automatikusan megújul.
+subscriptionRenewalReminder-content-discount-change = A következő számla az árazás változását tükrözi, mivel egy korábbi kedvezmény lejárt, és egy új kedvezmény került alkalmazásra.
 subscriptionRenewalReminder-content-discount-ending = Mivel egy korábbi kedvezmény lejárt, az előfizetése a szokásos áron újul meg.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
