@@ -691,6 +691,7 @@ subscriptionRenewalReminder-content-intro =
         [two] המינוי הנוכחי שלך יתחדש באופן אוטומטי בעוד יומיים.
        *[other] המינוי הנוכחי שלך יתחדש באופן אוטומטי בעוד { $reminderLength } ימים.
     }
+subscriptionRenewalReminder-content-discount-change = החשבונית הבאה שלך משקפת שינוי במחיר, מכיוון שהנחה קודמת הסתיימה והנחה חדשה הוחלה.
 subscriptionRenewalReminder-content-discount-ending = מכיוון שהנחה קודמת הסתיימה, המינוי שלך יתחדש בתעריף הרגיל.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
