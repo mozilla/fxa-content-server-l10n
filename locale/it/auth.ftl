@@ -719,7 +719,7 @@ subscriptionRenewalReminder-content-greeting = Gentile cliente di { $productName
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Il tuo abbonamento attuale è impostato per il rinnovo automatico tra { $reminderLength } giorni.
-subscriptionRenewalReminder-content-discount-change = La fattura successiva riflette una modifica del prezzo, in quanto uno sconto precedente è terminato ed è stato applicato un nuovo sconto.
+subscriptionRenewalReminder-content-discount-change = La fattura successiva rifletterà una modifica del prezzo, in quanto uno sconto esistente è terminato ed è stato applicato un nuovo sconto.
 subscriptionRenewalReminder-content-discount-ending = Poiché lo sconto esistente è terminato, il tuo abbonamento verrà rinnovato al prezzo standard.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
