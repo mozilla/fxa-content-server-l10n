@@ -115,7 +115,7 @@ churn-cancel-flow-error-offer-expired-title = Nabídka vypršela
 churn-cancel-flow-error-offer-expired-message = Aktuálně nejsou pro toto předplatné dostupné žádné slevy. Pokud chcete, můžete se zrušením pokračovat.
 churn-cancel-flow-error-button-continue-to-cancel = Pro zrušení pokračovat
 churn-cancel-flow-error-page-button-back-to-subscriptions = Zpět na předplatné
-churn-cancel-flow-error-already-canceling-title = Vaše předplatné je nastaveno na konec
+churn-cancel-flow-error-already-canceling-title = Vaše předplatné se blíží ke konci
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 churn-cancel-flow-error-already-canceling-message = K aplikaci { $productName } budete mít přístup do { $currentPeriodEnd }.
@@ -129,14 +129,14 @@ not-found-loyalty-discount-button-back-to-subscriptions = Zpět na předplatné
 
 ## InterstitialOffer
 
-interstitial-offer-button-cancel-subscription = Pokračovat do zrušení
+interstitial-offer-button-cancel-subscription = Pro zrušení pokračovat
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Ponechte denní předplatné
 interstitial-offer-button-keep-current-interval-weekly = Zachovat týdenní předplatné
-interstitial-offer-button-keep-current-interval-monthly = Měsíční předplatné zachovat
-interstitial-offer-button-keep-current-interval-halfyearly = Ponechte si předplatné na šest měsíců
+interstitial-offer-button-keep-current-interval-monthly = Ponechat měsíční předplatné
+interstitial-offer-button-keep-current-interval-halfyearly = Ponechte předplatné na šest měsíců
 
 ## Error page
 

@@ -658,7 +658,7 @@ subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingRe
 subscriptionEndingReminder-churn-terms-plaintext = Na nabídku se vztahují podmínky a omezení: { $churnTermsUrlWithUtm }
 # Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
-subscriptionEndingReminder-content-support-plaintext = Kontaktujte náš tým: { $subscriptionSupportUrlWithUtm }
+subscriptionEndingReminder-content-support-plaintext = Kontaktujte náš tým podpory: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Vaše předplatné produktu { $productName } bylo zrušeno
