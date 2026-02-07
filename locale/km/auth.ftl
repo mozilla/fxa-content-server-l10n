@@ -50,6 +50,18 @@ subplat-privacy-plaintext = កំណត់ហេតុឯកជនភាព:
 subplat-update-billing-plaintext = { subplat-update-billing }៖
 subplat-privacy-policy-plaintext = { subplat-privacy-policy } ៖
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 } ៖
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } លក្ខខណ្ឌនៃសេវាកម្ម
+subplat-moz-terms-plaintext = { subplat-moz-terms } ៖
+subplat-legal = ស្របច្បាប់
+subplat-legal-plaintext = { subplat-legal } ៖
+subplat-privacy = ឯកជនភាព
+subplat-privacy-website-plaintext = { subplat-privacy } ៖
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = ទាញយក { $productName } នៅលើ App Store៖
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = ដំឡើង { $productName } នៅលើឧបករណ៍ផ្សេងទៀត៖
 manage-account = គ្រប់គ្រង​គណនី
 
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
