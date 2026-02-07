@@ -726,6 +726,7 @@ subscriptionRenewalReminder-content-greeting = Vážený zákazník produktu { $
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Vaše aktuálne predplatné sa automaticky obnoví o { $reminderLength } dní.
+subscriptionRenewalReminder-content-discount-change = Vaša ďalšia faktúra odráža zmenu ceny, pretože predchádzajúca zľava sa skončila a bola uplatnená nová zľava.
 subscriptionRenewalReminder-content-discount-ending = Keďže predchádzajúca zľava sa skončila, vaše predplatné sa obnoví za štandardnú cenu.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
