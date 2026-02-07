@@ -255,20 +255,20 @@ next-pay-with-heading-paypal = Zaplatit přes { -brand-paypal }
 
 churn-cancel-flow-success-title = Stále máte předplatné
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
-churn-cancel-flow-success-message = Vaše předplatné bude pokračovat a vy ušetříte { $discountPercent }% na vaší příští platbě.
+churn-cancel-flow-success-message = Vaše předplatné bude pokračovat a vy ušetříte { $discountPercent } % na vaší příští platbě.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-thanks-valued-subscriber = Děkujeme, že používáte { $productName }!
 churn-cancel-flow-button-back-to-subscriptions = Zpět na předplatné
 churn-cancel-flow-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
-churn-cancel-flow-button-stay-subscribed-and-save-discount = Zůstaňte předplatiteli a ušetřete { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Zůstaňte předplatiteli a ušetřete { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Zůstaňte předplatiteli a ušetřete
-churn-cancel-flow-button-continue-to-cancel = Pokračovat do zrušení
+churn-cancel-flow-button-continue-to-cancel = Pokračovat ke zrušení
 churn-cancel-flow-link-terms-and-restrictions = Na nabídku se vztahují omezené podmínky
 churn-cancel-flow-discount-already-applied-title = Slevový kód byl již uplatněn
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-discount-already-applied-message = Tato sleva byla uplatněna na předplatné za { $productName } pro váš účet. Pokud stále potřebujete pomoci, kontaktujte náš tým podpory.
-churn-cancel-flow-button-manage-subscriptions = Spravovat odebírání
+churn-cancel-flow-button-manage-subscriptions = Spravovat předplatné
 churn-cancel-flow-button-contact-support = Kontaktovat podporu
 
 ## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -293,7 +293,7 @@ churn-stay-subscribed-subtitle-offer-expired = Chcete i nadále používat { $pr
 churn-stay-subscribed-message-access-will-continue = Váš přístup k produktu { $productName } bude pokračovat a váš fakturační cyklus a platba zůstanou beze změny.
 churn-stay-subscribed-title-subscription-renewed = Předplatné obnoveno
 churn-stay-subscribed-title-subscription-active = Vaše předplatné za { $productName } je aktivní
-churn-stay-subscribed-thanks-valued-subscriber = Děkujeme, že jste našimi odběrateli!
+churn-stay-subscribed-thanks-valued-subscriber = Děkujeme, že jste našim předplatitelem!
 churn-stay-subscribed-button-go-to-product-page = Přejít na { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Přejít na Předplatné
 churn-stay-subscribed-button-stay-subscribed = Ponechat předplatné
@@ -440,8 +440,8 @@ subscription-content-button-stay-subscribed = Zachovat předplatné
 subscription-content-button-cancel-subscription = Zrušit předplatné
     .aria-label = Zrušení předplatného { $productName }
 # Link to the terms and restrictions for a coupon offer.
-subscription-content-link-churn-intervention-terms-apply = Na nabídku se vztahují obchodní podmínky
-subscription-content-link-churn-intervention-terms-aria = Zobrazit podmínky a omezení pro kupóny
+subscription-content-link-churn-intervention-terms-apply = Platí podmínky
+subscription-content-link-churn-intervention-terms-aria = Zobrazit podmínky a omezení pro kupón
 
 ##
 
@@ -455,7 +455,7 @@ paypal-unavailable-error = { -brand-paypal } není v současné době k dispozic
 churn-error-page-title-discount-already-applied = Slevový kód byl již uplatněn
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-message-discount-already-applied = Tato sleva byla uplatněna na předplatné za { $productName } pro váš účet. Pokud stále potřebujete pomoci, kontaktujte náš tým podpory.
-churn-error-page-button-manage-subscriptions = Spravovat odebírání
+churn-error-page-button-manage-subscriptions = Spravovat předplatné
 churn-error-page-button-contact-support = Kontaktovat podporu
 churn-error-page-button-try-again = Zkusit znovu
 churn-error-page-title-general-error = Při obnovení vašeho předplatného došlo k chybě
@@ -465,7 +465,7 @@ churn-error-page-button-go-to-product-page = Přejít na { $productName }
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-not-active = Tato sleva je dostupná pouze pro stávající předplatitele { $productName }
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-title-subscription-still-active = Vaše předplatné za { $productName } je stále aktivní
+churn-error-page-title-subscription-still-active = Vaše předplatné produktu { $productName } je stále aktivní
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
