@@ -113,7 +113,7 @@ not-found-button-back-to-subscriptions = Zpět na předplatné
 
 churn-cancel-flow-error-offer-expired-title = Nabídka vypršela
 churn-cancel-flow-error-offer-expired-message = Aktuálně nejsou pro toto předplatné dostupné žádné slevy. Pokud chcete, můžete se zrušením pokračovat.
-churn-cancel-flow-error-button-continue-to-cancel = Pokračovat do zrušení
+churn-cancel-flow-error-button-continue-to-cancel = Pro zrušení pokračovat
 churn-cancel-flow-error-page-button-back-to-subscriptions = Zpět na předplatné
 churn-cancel-flow-error-already-canceling-title = Vaše předplatné je nastaveno na konec
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -123,7 +123,7 @@ churn-cancel-flow-error-page-button-keep-subscription = Ponechat předplatné
 
 ## Loyalty discount - Not found page
 
-not-found-loyalty-discount-title = Stránka nenalezena
+not-found-loyalty-discount-title = Stránka nebyla nalezena
 not-found-loyalty-discount-description = Stránka, kterou hledáte, neexistuje.
 not-found-loyalty-discount-button-back-to-subscriptions = Zpět na předplatné
 
@@ -145,7 +145,7 @@ interstitial-offer-error-subscription-not-found-message = Zdá se, že toto pře
 interstitial-offer-error-general-heading = Nabídka není dostupná
 interstitial-offer-error-general-message = Vypadá to, že tato nabídka není v tuto chvíli dostupná.
 interstitial-offer-error-button-back-to-subscriptions = Zpět na předplatné
-interstitial-offer-error-button-cancel-subscription = Pokračovat do zrušení
+interstitial-offer-error-button-cancel-subscription = Pro zrušení pokračovat
 
 ## Page - Subscription Management
 
@@ -280,7 +280,7 @@ churn-cancel-flow-button-go-to-product-page = Přejít na { $productName }
 
 churn-stay-subscribed-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
-churn-stay-subscribed-button-stay-subscribed-and-save-discount = Zůstaňte předplatiteli a ušetřete { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Zůstaňte předplatiteli a ušetřete { $discountPercent } %
 churn-stay-subscribed-button-stay-subscribed-and-save = Zůstaňte předplatiteli a ušetřete
 churn-stay-subscribed-button-no-thanks = Ne, děkuji
     .aria-label = Zpět na stránku s předplatnými
