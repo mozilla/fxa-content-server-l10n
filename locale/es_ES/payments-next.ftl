@@ -151,9 +151,16 @@ subscription-management-button-support-aria = Obtener ayuda para { $productName 
 subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-apple }
 subscription-management-apple-in-app-purchase-2 = Compras desde la app en { -brand-apple }
 subscription-management-your-google-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-google }
+subscription-management-google-in-app-purchase-2 = Compras desde la app en { -brand-google }
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Caduca el { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrar suscripción para { $productName }
+error-payment-method-banner-title-expired-card = Tarjeta caducada
+error-payment-method-banner-message-add-new-card = Añade una nueva tarjeta o método de pago para evitar interrupciones en tus suscripciones.
+error-payment-method-banner-label-update-payment-method = Actualizar método de pago
 subscription-management-error-paypal-billing-agreement = Hay un problema con tu cuenta de { -brand-paypal }. Por favor, soluciona el problema para mantener tus suscripciones activas.
+paypal-payment-management-page-invalid-header = Información de facturación no válida
 # Page - Not Found
 page-not-found-title = Página no encontrada
 page-not-found-description = No se ha encontrado la página solicitada. Hemos sido notificados y arreglaremos cualquier enlace que pueda estar roto.
