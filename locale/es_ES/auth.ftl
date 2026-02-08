@@ -718,6 +718,17 @@ subscriptionRenewalReminder-title = Tu suscripción se renovará pronto
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Estimado cliente de { $productName },
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Tu suscripción actual está configurada para renovarse automáticamente en { $reminderLength } días.
+subscriptionRenewalReminder-content-discount-change = Tu próxima factura refleja un cambio en el precio, ya que ha finalizado un descuento anterior y se ha aplicado un nuevo descuento.
+subscriptionRenewalReminder-content-discount-ending = Debido a que ha finalizado un descuento anterior, tu suscripción se renovará al precio estándar.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = En ese momento, { -brand-mozilla } renovará tu suscripción de { $planIntervalCount } { $planInterval } y se aplicará un cargo de { $invoiceTotal } al método de pago de tu cuenta.
 subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -770,6 +781,14 @@ subscriptionUpgrade-content-old-price-month = La tarifa anterior era de { $payme
 subscriptionUpgrade-content-old-price-halfyear = La tarifa anterior era de { $paymentAmountOld } por semestre.
 subscriptionUpgrade-content-old-price-year = La tarifa anterior era de { $paymentAmountOld } por año.
 subscriptionUpgrade-content-old-price-default = La tarifa anterior era de { $paymentAmountOld } por intervalo de pago.
+subscriptionUpgrade-content-old-price-day-tax = La tarifa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por día.
+subscriptionUpgrade-content-old-price-week-tax = La tarifa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por semana.
+subscriptionUpgrade-content-old-price-month-tax = La tarifa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por mes.
+subscriptionUpgrade-content-old-price-halfyear-tax = La tarifa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por semestre.
+subscriptionUpgrade-content-old-price-year-tax = La tarifa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por año.
+subscriptionUpgrade-content-old-price-default-tax = La tarifa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por intervalo de facturación.
+subscriptionUpgrade-content-new-price-day = De ahora en adelante, se cobrarán { $paymentAmountNew } por día, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-week = De ahora en adelante, se cobrarán { $paymentAmountNew } por semana, sin incluir descuentos.
 subscriptionUpgrade-existing = Si alguna de tus suscripciones actuales se solapa con esta actualización, nos encargaremos de ello y te enviaremos un correo electrónico separado con los detalles. Si tu nuevo plan incluye productos que requieren instalación, te enviaremos un correo electrónico separado con las instrucciones de configuración.
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo.
 # Variables:

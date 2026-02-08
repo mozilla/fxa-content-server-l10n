@@ -92,19 +92,68 @@ next-payment-confirmation-download-button = Continuar para descargar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-button-continue-to-cancel = Continuar para cancelar
+churn-cancel-flow-error-page-button-back-to-subscriptions = Volver a suscripciones
+churn-cancel-flow-error-already-canceling-title = Tu suscripción está a punto de finalizar
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Continuarás teniendo acceso a { $productName } hasta { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Mantener la suscripción
+
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-button-back-to-subscriptions = Volver a suscripciones
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Continuar para cancelar
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Mantener la suscripción diaria
+interstitial-offer-button-keep-current-interval-weekly = Mantener la suscripción semanal
+interstitial-offer-button-keep-current-interval-monthly = Mantener la suscripción mensual
+interstitial-offer-button-keep-current-interval-halfyearly = Mantener la suscripción semestral
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = No pudimos encontrar una suscripción activa
+interstitial-offer-error-subscription-not-found-message = Parece que esta suscripción ya no está activa.
+interstitial-offer-error-general-heading = La oferta no está disponible
+interstitial-offer-error-general-message = Parece que esta oferta no está disponible en este momento.
+interstitial-offer-error-button-back-to-subscriptions = Volver a suscripciones
+interstitial-offer-error-button-cancel-subscription = Continuar para cancelar
+
 ## Page - Subscription Management
 
 subscription-management-subscriptions-heading = Suscripciones
+subscription-management-credit-balance-label = Balance de crédito
+subscription-management-credit-balance-message = El crédito se aplicará automáticamente a futuras facturas
+subscription-management-payment-method-label = Método de pago
 subscription-management-button-add-payment-method-aria = Añadir un método de pago
 subscription-management-button-add-payment-method = Añadir
+subscription-management-page-warning-message-no-payment-method = Añade un método de pago para evitar la interrupción de tus suscripciones.
 subscription-management-button-manage-payment-method-aria = Administrar métodos de pago
 subscription-management-button-manage-payment-method = Administrar
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Tarjeta que termina en { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Caduca { $expirationDate }
+subscription-management-active-subscriptions-heading = Suscripciones activas
+subscription-management-you-have-no-active-subscriptions = No tienes suscripciones activas.
+subscription-management-new-subs-will-appear-here = Las nuevas suscripciones aparecerán aquí.
+subscription-management-your-active-subscriptions-aria = Tus suscripciones activas
 subscription-management-button-support = Obtener ayuda
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Obtener ayuda para { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Compras desde la app en { -brand-apple }
+subscription-management-your-google-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-google }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Administrar suscripción para { $productName }
+subscription-management-error-paypal-billing-agreement = Hay un problema con tu cuenta de { -brand-paypal }. Por favor, soluciona el problema para mantener tus suscripciones activas.
 # Page - Not Found
 page-not-found-title = Página no encontrada
 page-not-found-description = No se ha encontrado la página solicitada. Hemos sido notificados y arreglaremos cualquier enlace que pueda estar roto.
@@ -117,6 +166,8 @@ alert-dialog-title = Diálogo de alerta
 subscription-management-breadcrumb-account-home = Página principal de la cuenta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Suscripciones
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Volver a { $page }
 
 ## CancelSubscription
 
@@ -186,6 +237,13 @@ next-plan-details-header = Detalles del producto
 next-plan-details-list-price = Lista de precios
 next-plan-details-tax = Impuestos y tasas
 next-plan-details-total-label = Total
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Crédito por tiempo no utilizado
+purchase-details-subtotal-label = Subtotal
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Crédito aplicado
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Total adeudado
 next-plan-details-hide-button = Ocultar detalles
 next-plan-details-show-button = Mostrar detalles
 next-coupon-success = Tu plan se renovará automáticamente al precio de la lista.
