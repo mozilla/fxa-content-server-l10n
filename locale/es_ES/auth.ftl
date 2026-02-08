@@ -637,6 +637,26 @@ subscriptionDowngrade-content-charge-info = A partir de tu próxima factura, tu 
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Si hay que instalar un programa nuevo para utilizar { $productName }, recibirás un correo electrónico por separado con instrucciones para la descarga.
 subscriptionDowngrade-content-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Tu suscripción a { $productName } expirará pronto
+subscriptionEndingReminder-title = Tu suscripción a { $productName } expirará pronto
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Tu acceso a { $productName } finalizará el <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Si quieres seguir usando { $productName }, puedes reactivar tu suscripción en <a data-l10n-name="subscriptionEndingReminder-account-settings">Ajustes de la cuenta</a> antes del <strong>{ $serviceLastActiveDateOnly }</strong>. Si necesitas ayuda, <a data-l10n-name="subscriptionEndingReminder-contact-support">contacta con nuestro equipo de asistencia</a>.
+subscriptionEndingReminder-content-line1-plaintext = Tu acceso a { $productName } finalizará el { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Si quieres seguir usando { $productName }, puedes reactivar tu suscripción en la configuración de la cuenta antes del { $serviceLastActiveDateOnly }. Si necesitas ayuda, contacta con nuestro equipo de asistencia.
+subscriptionEndingReminder-content-closing = ¡Gracias por ser un valioso suscriptor!
+subscriptionEndingReminder-churn-title = ¿Quieres mantener el acceso?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Se aplican términos y restricciones limitados</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Se aplican términos y restricciones limitados: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Contacta a nuestro equipo de asistencia: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Tu suscripción a { $productName } ha sido cancelada
@@ -656,12 +676,23 @@ subscriptionFirstInvoice-content-processing = Tu pago está siendo procesado y p
 subscriptionFirstInvoice-content-install-2 = Recibirás un correo electrónico por separado sobre cómo comenzar a usar { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Tu suscripción se renovará automáticamente cada periodo de facturación salvo que elijas cancelarla.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Tu próxima factura se emitirá el { $nextInvoiceDateOnly }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = El método de pago para { $productName } ha caducado o caducará pronto
+subscriptionPaymentExpired-title-2 = Tu método de pago ha caducado o está a punto de caducar
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = El método de pago que estás usando para { $productName } ha caducado o está a punto de caducar.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Ha fallado el pago de { $productName }
 subscriptionPaymentFailed-title = Lo sentimos, estamos teniendo problemas con tu pago
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Hemos tenido un problema con tu último pago de { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Es posible que tu método de pago haya caducado o que tu método de pago actual no esté actualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Se requiere actualizar la información de pago para { $productName }
@@ -669,6 +700,7 @@ subscriptionPaymentProviderCancelled-title = Lo sentimos, estamos teniendo probl
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Hemos tenido un problema con tu método de pago para { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Es posible que tu método de pago haya caducado o que tu método de pago actual no esté actualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Suscripción a { $productName } reactivada
@@ -696,9 +728,13 @@ subscriptionReplaced-title = Tu suscripción ha sido actualizada
 subscriptionReplaced-content-replaced = Tu suscripción individual de { $productName } fue reemplazada y ahora está incluida en tu nuevo paquete.
 subscriptionReplaced-content-credit = Recibirás un crédito por el tiempo no utilizado de tu suscripción anterior. Este crédito se aplicará automáticamente a tu cuenta y se usará para cargos futuros.
 subscriptionReplaced-content-no-action = No se requiere ninguna acción de tu parte.
+subscriptionsPaymentExpired-subject-2 = El método de pago para tus suscripciones está caducado o próximo a caducar
+subscriptionsPaymentExpired-title-2 = Tu método de pago ha caducado o está a punto de caducar
+subscriptionsPaymentExpired-content-2 = El método de pago que estás utilizando para realizar pagos para la siguiente suscripción ha caducado o está a punto de caducar.
 subscriptionsPaymentProviderCancelled-subject = Se requiere actualizar la información de pago para las suscripciones de { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Lo sentimos, estamos teniendo problemas con tu método de pago
 subscriptionsPaymentProviderCancelled-content-detected = Hemos detectado un problema con tu método de pago para las siguientes suscripciones.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Es posible que tu método de pago haya caducado o que tu método de pago actual no esté actualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Pago recibido para { $productName }
@@ -725,7 +761,15 @@ subscriptionUpgrade-upgrade-info-2 = La actualización a { $productName } se ha 
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Se te ha cobrado una tarifa única de { $invoiceAmountDue } para reflejar el precio más alto de tu suscripción por el resto de este período de facturación ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Recibiste un crédito en la cuenta por la cantidad de { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = A partir de tu próxima factura, el precio de tu suscripción cambiará.
+subscriptionUpgrade-content-old-price-day = La tarifa anterior era de { $paymentAmountOld } por día.
+subscriptionUpgrade-content-old-price-week = La tarifa anterior era de { $paymentAmountOld } por semana.
+subscriptionUpgrade-content-old-price-month = La tarifa anterior era de { $paymentAmountOld } por mes.
+subscriptionUpgrade-content-old-price-halfyear = La tarifa anterior era de { $paymentAmountOld } por semestre.
+subscriptionUpgrade-content-old-price-year = La tarifa anterior era de { $paymentAmountOld } por año.
+subscriptionUpgrade-content-old-price-default = La tarifa anterior era de { $paymentAmountOld } por intervalo de pago.
 subscriptionUpgrade-existing = Si alguna de tus suscripciones actuales se solapa con esta actualización, nos encargaremos de ello y te enviaremos un correo electrónico separado con los detalles. Si tu nuevo plan incluye productos que requieren instalación, te enviaremos un correo electrónico separado con las instrucciones de configuración.
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo.
 # Variables:
