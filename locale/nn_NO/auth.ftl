@@ -722,7 +722,7 @@ subscriptionRenewalReminder-content-greeting = KJære { $productName }-kunde,
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Det noverande abonnementet ditt er sett til å bli fornya automatisk om { $reminderLength } dagar.
-subscriptionRenewalReminder-content-discount-change = Denn neste fakturaen din viser ei prisendring, ettersom ein tidlegare rabatt er gått ut og ein ny rabatt er brukt.
+subscriptionRenewalReminder-content-discount-change = Den neste fakturaen din viser ei prisendring, ettersom ein tidlegare rabatt er gått ut og ein ny rabatt er brukt.
 subscriptionRenewalReminder-content-discount-ending = Fordi ein tidlegare rabatt er utgått, vil abonnementet ditt fornyast til standardprisen.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
