@@ -489,6 +489,7 @@ postAddTwoStepAuthentication-recovery-method-codes = También añadiste códigos
 postAddTwoStepAuthentication-recovery-method-phone = También añadiste { $maskedPhoneNumber } como tu número de teléfono de recuperación.
 postAddTwoStepAuthentication-how-protects-link = Cómo esto protege tu cuenta
 postAddTwoStepAuthentication-how-protects-plaintext = Cómo esto protege tu cuenta:
+postAddTwoStepAuthentication-device-sign-out-message = Para proteger todos tus dispositivos conectados, debes cerrar la sesión en todos los lugares donde utilices esta cuenta y luego volver a conectarte mediante la autenticación de dos pasos.
 postChangeAccountRecovery-subject = Clave de recuperación de cuenta cambiada
 postChangeAccountRecovery-title = Has cambiado tu clave de recuperación de cuenta
 postChangeAccountRecovery-body-part1 = Ahora tienes una nueva clave de recuperación de cuenta. Tu clave anterior fue eliminada.
@@ -506,6 +507,15 @@ postChangeRecoveryPhone-title = Has cambiado tu teléfono de recuperación
 postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se ha eliminado tu número de teléfono anterior.
 postChangeRecoveryPhone-requested-device = Lo has pedido desde:
 postChangeTwoStepAuthentication-preview = Tu cuenta está protegida
+postChangeTwoStepAuthentication-subject = Autenticación en dos pasos actualizada
+postChangeTwoStepAuthentication-title = Se ha actualizado la autenticación en dos pasos
+postChangeTwoStepAuthentication-use-new-account = Ahora debes usar la nueva entrada de { -product-mozilla-account } en tu aplicación de autenticación. La anterior ya no funcionará y puedes eliminarla.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Has solicitado este formulario:
+postChangeTwoStepAuthentication-action = Administrar cuenta
+postChangeTwoStepAuthentication-how-protects-link = Cómo protege tu cuenta
+postChangeTwoStepAuthentication-how-protects-plaintext = Cómo protege tu cuenta:
+postChangeTwoStepAuthentication-device-sign-out-message = Para proteger todos tus dispositivos conectados, debes cerrar sesión en todos los lugares donde uses esta cuenta y luego volver a iniciar sesión usando la nueva autenticación en dos pasos.
 postConsumeRecoveryCode-title-3 = Tu código de autenticación de respaldo fue utilizado para confirmar un restablecimiento de contraseña
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
