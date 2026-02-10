@@ -1898,13 +1898,13 @@ signin-totp-code-desktop-relay = { -brand-firefox } vil prøve å sende deg tilb
 
 signin-unblock-header = Godkjenn denne innloggingen
 # Where $email is the email address entered for the sign-in attempt
-signin-unblock-body = Sjekk e-posten din for å se om du har fått autorisasjonskoden sendt til { $email }.
+signin-unblock-body = Sjekk e-posten din for godkjenningskoden som ble sendt til { $email }.
 signin-unblock-code-input = Skriv inn godkjenningskode
 signin-unblock-submit-button = Fortsett
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Godkjenningskode kreves
-signin-unblock-code-incorrect-length = Autorisasjonskoden må inneholde 8 tegn
-signin-unblock-code-incorrect-format-2 = Autorisasjonskoden kan bare inneholde bokstaver og/eller tall
+signin-unblock-code-incorrect-length = Godkjenningskoden må inneholde 8 tegn
+signin-unblock-code-incorrect-format-2 = Godkjenningskoden kan bare inneholde bokstaver og/eller tall
 signin-unblock-resend-code-button = Ikke i innboks eller mappen for uønsket e-post (spam)? Send på nytt
 signin-unblock-support-link = Hvorfor skjer dette?
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser

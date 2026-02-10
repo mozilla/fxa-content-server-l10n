@@ -1468,7 +1468,7 @@ msgstr "Godkjenn denne innloggingen"
 
 #: .es5/templates/sign_in_unblock.mustache:3
 msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Sjekk din e-post for autorisasjonskoden som er sendt til %(email)s."
+msgstr "Sjekk e-posten din for godkjenningskoden som ble sendt til %(email)s."
 
 #: .es5/templates/sign_in_unblock.mustache:4
 msgid "Enter authorization code"

@@ -1,8 +1,5 @@
-## Email content
-## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
-## version. The strings are usually identical but sometimes they differ slightly.
+## Non-email strings
 
-fxa-privacy-url = { -brand-mozilla } maxfiylik siyosati
 subplat-automated-email = Bu avtomatik xat. Adashib borgan boʻlsa, sizdan hech qanday harakat talab qilinmaydi.
 subplat-privacy-plaintext = Maxfiylik eslatmalari:
 subplat-update-billing-plaintext = { subplat-update-billing }:
