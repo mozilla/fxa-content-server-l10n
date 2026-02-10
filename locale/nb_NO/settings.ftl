@@ -69,6 +69,11 @@ recovery-key-pdf-download-error = Beklager, det oppstod et problem da kontogjeno
 ## ButtonPasskeySignin
 
 button-passkey-signin = Logg inn med passnøkkel
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Logger inn sikkert …
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
