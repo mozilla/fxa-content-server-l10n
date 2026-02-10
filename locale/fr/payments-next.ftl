@@ -112,7 +112,7 @@ not-found-button-back-to-subscriptions = Retour aux abonnements
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Cette offre a expiré
-churn-cancel-flow-error-offer-expired-message = Aucune remise n’est actuellement disponible pour cet abonnement. Vous pouvez continuer avec l’annulation si vous le souhaitez.
+churn-cancel-flow-error-offer-expired-message = Aucune remise n’est actuellement disponible pour cet abonnement. Vous pouvez l’annuler si vous le souhaitez.
 churn-cancel-flow-error-button-continue-to-cancel = Continuer pour annuler
 churn-cancel-flow-error-page-button-back-to-subscriptions = Retour aux abonnements
 churn-cancel-flow-error-already-canceling-title = Votre abonnement se termine
