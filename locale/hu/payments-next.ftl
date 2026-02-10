@@ -117,10 +117,10 @@ churn-cancel-flow-error-offer-expired-title = Ez az ajánlat lejárt
 churn-cancel-flow-error-offer-expired-message = Jelenleg nincs kedvezmény ehhez az előfizetéshez. Ha szeretné, folytathatja a törléssel.
 churn-cancel-flow-error-button-continue-to-cancel = Folytatás a megszakításhoz
 churn-cancel-flow-error-page-button-back-to-subscriptions = Vissza az előfizetésekhez
-churn-cancel-flow-error-already-canceling-title = Az előfizetése véget ért
+churn-cancel-flow-error-already-canceling-title = Az előfizetése véget fog érni
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Továbbra is hozzáfér a következőhöz: { $productName }, eddig: { $currentPeriodEnd }.
+churn-cancel-flow-error-already-canceling-message = Eddig továbbra is hozzáfér a { $productName } termékhez: { $currentPeriodEnd }.
 churn-cancel-flow-error-page-button-keep-subscription = Előfizetés megtartása
 
 ## Loyalty discount - Not found page
@@ -131,7 +131,7 @@ not-found-loyalty-discount-button-back-to-subscriptions = Vissza az előfizetés
 
 ## InterstitialOffer
 
-interstitial-offer-button-cancel-subscription = Folytatás a megszakításhoz
+interstitial-offer-button-cancel-subscription = Tovább a lemondáshoz
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
@@ -145,7 +145,6 @@ interstitial-offer-button-keep-current-interval-halfyearly = Hat hónapos előfi
 interstitial-offer-error-subscription-not-found-heading = Nem találtunk aktív előfizetést
 interstitial-offer-error-subscription-not-found-message = Úgy tűnik, ez az előfizetés már nem aktív.
 interstitial-offer-error-general-heading = Az ajánlat nem érhető el
-interstitial-offer-error-general-message = Úgy tűnik, hogy ez az ajánlat jelenleg nem érhető el.
 interstitial-offer-error-button-back-to-subscriptions = Vissza az előfizetésekhez
 interstitial-offer-error-button-cancel-subscription = Folytatás a megszakításhoz
 
