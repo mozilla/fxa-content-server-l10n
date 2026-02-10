@@ -479,6 +479,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Você também adicionou có
 postAddTwoStepAuthentication-recovery-method-phone = Você também adicionou { $maskedPhoneNumber } como número de celular de recuperação.
 postAddTwoStepAuthentication-how-protects-link = Como isso protege sua conta
 postAddTwoStepAuthentication-how-protects-plaintext = Como isso protege sua conta:
+postAddTwoStepAuthentication-device-sign-out-message = Para proteger todos os seus dispositivos conectados, você deve sair da conta em todos os dispositivos conectados a esta conta, depois entrar novamente usando a autenticação em duas etapas.
 postChangeAccountRecovery-subject = Alterada a chave de recuperação de conta
 postChangeAccountRecovery-title = Você alterou a chave de recuperação da sua conta
 postChangeAccountRecovery-body-part1 = Agora você tem uma nova chave de recuperação de conta. Sua chave anterior foi excluída.
@@ -504,6 +505,7 @@ postChangeTwoStepAuthentication-from-device = Você solicitou isso de:
 postChangeTwoStepAuthentication-action = Gerenciar conta
 postChangeTwoStepAuthentication-how-protects-link = Como isso protege sua conta
 postChangeTwoStepAuthentication-how-protects-plaintext = Como isso protege sua conta:
+postChangeTwoStepAuthentication-device-sign-out-message = Para proteger todos os seus dispositivos conectados, você deve sair da conta em todos os dispositivos conectados a esta conta, depois entrar novamente usando sua nova autenticação em duas etapas.
 postConsumeRecoveryCode-title-3 = Seu código de autenticação de backup foi usado para confirmar uma redefinição de senha
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -646,6 +648,9 @@ subscriptionFirstInvoice-content-processing = Seu pagamento está em processamen
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = Você receberá um email separado com instruções de como começar a usar o { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = O método de pagamento do { $productName } venceu ou está prestes a vencer
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-content-2 = O método de pagamento que você está usando para { $productName } expirou ou está prestes a expirar.
