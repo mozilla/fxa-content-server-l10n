@@ -66,6 +66,10 @@ recovery-key-pdf-support = Les mer om kontogjenopprettingsnøkkel
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Beklager, det oppstod et problem da kontogjenopprettingsnøkkelen skulle lastes ned.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Logg inn med passnøkkel
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -249,6 +253,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Amerikansk flagg
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Laster
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Passnøkkel
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
