@@ -73,7 +73,7 @@ button-passkey-signin = Accedi con passkey
 # interact with their authenticator to approve the sign-in. They should see a
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
-button-passkey-signin-loading = Accesso sicuro…
+button-passkey-signin-loading = Accesso sicuro in corso…
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -260,10 +260,10 @@ usa-flag-icon-aria-label =
     .aria-label = Bandiera degli Stati Uniti
 # Used for loading arrow icon
 icon-loading-arrow-aria-label =
-    .aria-label = Caricamento…
+    .aria-label = Caricamento in corso…
 # Used for passkey icon
 icon-passkey-aria-label =
-    .aria-label = Chiave di accesso
+    .aria-label = Passkey
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.

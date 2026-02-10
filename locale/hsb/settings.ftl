@@ -66,6 +66,15 @@ recovery-key-pdf-support = Zhońće wjace wo swojim kontowym wobnowjenskim kluč
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Bohužel je při sćahowanju  kontoweho wobnowjenskeho kluča problem nastał.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Z hesłowym klučom přizjewić
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Přizjewja so wěsće…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -255,6 +264,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Chorhojčka Zjednoćenych statow
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Začituje so
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Hesłowy kluč
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
