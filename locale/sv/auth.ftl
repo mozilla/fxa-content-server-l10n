@@ -721,6 +721,7 @@ subscriptionRenewalReminder-content-greeting = Bästa { $productName }-kund,
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Din nuvarande prenumeration är inställd på att förnyas automatiskt om { $reminderLength } dagar.
+subscriptionRenewalReminder-content-discount-change = Din nästa faktura återspeglar en ändrad prissättning, eftersom en tidigare rabatt har upphört och en ny rabatt har tillämpats.
 subscriptionRenewalReminder-content-discount-ending = Eftersom en tidigare rabatt har upphört förnyas din prenumeration till ordinarie pris.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
