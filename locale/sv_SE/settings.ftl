@@ -263,7 +263,7 @@ icon-loading-arrow-aria-label =
     .aria-label = Laddar
 # Used for passkey icon
 icon-passkey-aria-label =
-    .aria-label = Lösenordsnyckel
+    .aria-label = Lösenord
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
