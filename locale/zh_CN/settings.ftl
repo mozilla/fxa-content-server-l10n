@@ -1226,6 +1226,14 @@ tfa-row-verify-session-info = 在设置两步验证前，需要先确认当前�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = 继续即表示您同意以下条款和条件：
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }：<termsLink>服务条款</termsLink>和<privacyLink>隐私声明</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }：<mozillaAccountsTos>服务条款</mozillaAccountsTos>和<mozillaAccountsPrivacy>隐私声明</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = 继续操作即表示您同意<mozillaAccountsTos>服务条款</mozillaAccountsTos>和<mozillaAccountsPrivacy>隐私声明</mozillaAccountsPrivacy>。
 
@@ -1699,6 +1707,8 @@ signin-password-button-label = 密码
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 signin-code-expired-error = 验证码已过期，请重新登录。
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = 出了点问题，请重新登录。
 signin-account-locked-banner-heading = 重设密码
 signin-account-locked-banner-description = 我们已锁定您的账户，以防范可疑活动带来的威胁
 # This link points to https://accounts.firefox.com/reset_password

@@ -256,6 +256,9 @@ subscriptionEndingReminder-content-line2 = 若要继续使用 { $productName }�
 subscriptionEndingReminder-content-line2-plaintext = 若要继续使用 { $productName }，请在 { $serviceLastActiveDateOnly } 前，到“账户设置”中续期订阅。如需协助，请联系支持团队。
 subscriptionEndingReminder-churn-title = 希望继续使用？
 # Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = 下列限制条款和限制条件适用：{ $churnTermsUrlWithUtm }
+# Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
 subscriptionEndingReminder-content-support-plaintext = 联系支持团队：{ $subscriptionSupportUrlWithUtm }
 #  Variables:
@@ -319,6 +322,9 @@ subscriptionRenewalReminder-title = 您的订阅即将续订
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = 尊敬的 { $productName } 用户，
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = 您当前的订阅将在 { $reminderLength } 天后自动续订。
 subscriptionRenewalReminder-content-closing = 此致，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
