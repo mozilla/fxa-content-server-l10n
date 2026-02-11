@@ -38,6 +38,8 @@ subplat-automated-email = នេះ​គឺ​ជា​អ៊ីម៉ែល​
 subplat-privacy-notice = កំណត់ហេតុ​​ឯកជនភាព
 subplat-privacy-plaintext = កំណត់ហេតុឯកជនភាព:
 subplat-update-billing-plaintext = { subplat-update-billing }៖
+subplat-cancel = បោះបង់ការជាវ
+subplat-cancel-plaintext = { subplat-cancel } ៖
 subplat-privacy-policy-plaintext = { subplat-privacy-policy } ៖
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 } ៖
 subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } លក្ខខណ្ឌនៃសេវាកម្ម
@@ -46,6 +48,7 @@ subplat-legal = ស្របច្បាប់
 subplat-legal-plaintext = { subplat-legal } ៖
 subplat-privacy = ឯកជនភាព
 subplat-privacy-website-plaintext = { subplat-privacy } ៖
+cancellationSurvey = សូមជួយយើងកែលម្អសេវាកម្មរបស់យើងដោយធ្វើ<a data-l10n-name="cancellationSurveyUrl">ការស្ទង់មតិខ្លី</a>នេះ។
 
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months

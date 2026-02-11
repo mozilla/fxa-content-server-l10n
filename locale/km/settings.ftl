@@ -82,7 +82,10 @@ pw-create-success-alert-2 = កំណត់ពាក្យសម្ងាត់
 
 ## Delete account page
 
+delete-account-chk-box-4 =
+    .label = ផ្នែកបន្ថែម និងរចនាប័ទ្មណាមួយដែលអ្នកបានបោះពុម្ពផ្សាយទៅ addons.mozilla.org នឹងត្រូវបានលុប
 delete-account-cancel-button = បោះបង់
+delete-account-delete-button-2 = លុប
 
 ## Display name page
 
@@ -98,6 +101,8 @@ recent-activity-must-reset-password = តម្រូវ​ឱ្យ​កំណ
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = ប្រសិនបើអ្នកលុបវាចោល ត្រូវប្រាកដថាអ្នកនៅតែមានលេខកូដផ្ទៀងផ្ទាត់បម្រុងទុក ដែលអ្នកបានរក្សាទុក។ <linkExternal>ប្រៀបធៀបវិធីសាស្ត្រសង្គ្រោះ</linkExternal>
 settings-recovery-phone-remove-cancel = បោះបង់
 
 ## Add secondary email page
@@ -108,10 +113,37 @@ add-secondary-email-cancel-button = បោះបង់
 
 verify-secondary-email-cancel-button = បោះបង់
 
+##
+
+# Link to delete account on main Settings page
+delete-account-link = លុបគណនី
+
 ## Security section of Setting
 
 security-password =
     .header = ពាក្យ​សម្ងាត់
+
+## Account recovery key sub-section on main Settings page
+
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = លុបសោសង្គ្រោះគណនី
+
+## Secondary email sub-section on main Settings page
+
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = បានលុប { $email } ដោយជោគជ័យ
+
+## Index / home page
+
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = បាន​លុប​គណនី​ដោយ​ជោគជ័យ
+
+## InlineTotpSetup page
+## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
+
+inline-totp-setup-cancel-setup-button = បោះបង់ការដំឡើង
 
 ## AuthAllow page - Part of the device pairing flow
 
