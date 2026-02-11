@@ -68,7 +68,7 @@ recovery-key-pdf-download-error = Un problème est survenu lors du téléchargem
 
 ## ButtonPasskeySignin
 
-button-passkey-signin = Se connecter avec la clé d’accès
+button-passkey-signin = Se connecter avec une clé d’accès
 # This is a loading state indicating that we are waiting for the user to
 # interact with their authenticator to approve the sign-in. They should see a
 # device prompt/pop-up with authentication options (or message indicating that
@@ -260,7 +260,7 @@ usa-flag-icon-aria-label =
     .aria-label = Drapeau des États-Unis
 # Used for loading arrow icon
 icon-loading-arrow-aria-label =
-    .aria-label = Chargement…
+    .aria-label = Chargement en cours
 # Used for passkey icon
 icon-passkey-aria-label =
     .aria-label = Clé d’accès
