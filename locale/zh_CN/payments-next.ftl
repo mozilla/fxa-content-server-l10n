@@ -134,6 +134,15 @@ interstitial-offer-button-keep-current-interval-weekly = 继续按周订阅
 interstitial-offer-button-keep-current-interval-monthly = 继续按月订阅
 interstitial-offer-button-keep-current-interval-halfyearly = 继续按半年订阅
 
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = 未找到生效中的订阅
+interstitial-offer-error-subscription-not-found-message = 此订阅似乎已失效。
+interstitial-offer-error-general-heading = 优惠不可用
+interstitial-offer-error-general-message = 此优惠目前似乎不可用。
+interstitial-offer-error-button-back-to-subscriptions = 返回“订阅”
+interstitial-offer-error-button-cancel-subscription = 继续取消
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = 未添加付款方式
@@ -238,6 +247,20 @@ next-payment-confirm-checkbox-error = 同意此项后才可继续
 next-new-user-submit = 立即订阅
 next-pay-with-heading-paypal = 通过 { -brand-paypal } 付款
 
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = 您已保持订阅
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = 您的订阅将继续，且下次收费时可节省 { $discountPercent }%。
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = 感谢您使用 { $productName }！
+churn-cancel-flow-button-back-to-subscriptions = 返回“订阅”
+churn-cancel-flow-action-error = 发生意外错误，请重试。
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = 继续订阅可享 { $discountPercent }% 折扣
+churn-cancel-flow-button-stay-subscribed-and-save = 继续订阅，立享折扣
+churn-cancel-flow-button-continue-to-cancel = 继续取消
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = 发生意外错误，请重试。
@@ -250,7 +273,11 @@ churn-stay-subscribed-title-offer-expired = 此优惠已过期
 
 ## $productName (String) - The name of the product associated with the subscription.
 
+churn-stay-subscribed-subtitle-offer-expired = 希望继续使用 { $productName }？
+churn-stay-subscribed-message-access-will-continue = 您可继续使用 { $productName }，账单周期与付款信息将保持不变。
 churn-stay-subscribed-title-subscription-renewed = 已续订
+churn-stay-subscribed-title-subscription-active = 您的 { $productName } 订阅已生效
+churn-stay-subscribed-button-go-to-product-page = 前往 { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = 前往“订阅”
 churn-stay-subscribed-button-stay-subscribed = 继续订阅
 
