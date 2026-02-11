@@ -571,3 +571,8 @@ manage-payment-method-intent-error-generic = 处理付款时发生意外错误�
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
 next-charge-next-charge-with-discount-and-tax = 您在 { $currentPeriodEnd } 的下次扣款中可节省 { $discountPercent }%，应付金额为 { $nextInvoiceTotal } + { $taxDue } 税款。
+next-charge-with-tax-payment-method = 下次将于 { $currentPeriodEnd } 通过 { $paymentMethod } 付款方式收取 { $nextInvoiceTotal } + 税费 { $taxDue }。
+next-charge-with-tax = 下次将于 { $currentPeriodEnd } 收取 { $nextInvoiceTotal } + 税费 { $taxDue }。
+next-charge-no-tax-card = 下次将于 { $currentPeriodEnd } 向尾号为 { $last4 } 的卡收取 { $nextInvoiceTotal }。
+next-charge-no-tax-payment-method = 下次将于 { $currentPeriodEnd } 通过 { $paymentMethod } 付款方式收取 { $nextInvoiceTotal }。
+next-charge-no-tax = 下次将于 { $currentPeriodEnd } 收取 { $nextInvoiceTotal }。
