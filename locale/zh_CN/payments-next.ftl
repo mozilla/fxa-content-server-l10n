@@ -109,11 +109,30 @@ not-found-title-subscriptions = 未找到订阅
 not-found-description-subscriptions = 未找到您的订阅，请重试或联系技术支持。
 not-found-button-back-to-subscriptions = 返回“订阅”
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = 此优惠已过期
+churn-cancel-flow-error-button-continue-to-cancel = 继续取消
+churn-cancel-flow-error-page-button-back-to-subscriptions = 返回“订阅”
+churn-cancel-flow-error-already-canceling-title = 您的订阅即将结束
+churn-cancel-flow-error-page-button-keep-subscription = 继续订阅
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = 找不到页面
 not-found-loyalty-discount-description = 您要找的页面不存在。
 not-found-loyalty-discount-button-back-to-subscriptions = 返回“订阅”
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = 继续取消
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = 继续按日订阅
+interstitial-offer-button-keep-current-interval-weekly = 继续按周订阅
+interstitial-offer-button-keep-current-interval-monthly = 继续按月订阅
+interstitial-offer-button-keep-current-interval-halfyearly = 继续按半年订阅
 
 ## Page - Subscription Management
 
