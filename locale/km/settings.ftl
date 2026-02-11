@@ -134,3 +134,11 @@ complete-reset-password-success-alert = កំណត់ពាក្យសម្�
 
 # ConfirmBackupCodeResetPassword page
 
+
+## ResetPasswordRecoveryPhone page
+
+reset-password-with-recovery-key-verified-page-title = កំណត់ពាក្យសម្ងាត់ឡើងវិញដោយជោគជ័យ
+
+## Signin page
+
+signin-password-button-label = ពាក្យ​សម្ងាត់
