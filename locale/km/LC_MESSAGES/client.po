@@ -242,7 +242,7 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:54
 msgid "Passwords"
-msgstr ""
+msgstr "ពាក្យ​សម្ងាត់"
 
 #: .es5/models/sync-engines.js:58
 msgid "Add-ons"
@@ -278,7 +278,7 @@ msgstr ""
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
-msgstr ""
+msgstr "កំណត់ពាក្យសម្ងាត់ឡើងវិញដោយជោគជ័យ"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
@@ -1566,7 +1566,7 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "បញ្ចូលពាក្យសម្ងាត់"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
@@ -1855,7 +1855,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "តម្រូវការមានពាក្យសម្ងាត់"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"

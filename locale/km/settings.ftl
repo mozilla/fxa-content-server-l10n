@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## FormPasswordInlineCriteria
+
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = ពាក្យ​សម្ងាត់
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = ពាក្យ​សម្ងាត់
+
 ## Alert Bar
 
 alert-bar-close-message = បិទសារ

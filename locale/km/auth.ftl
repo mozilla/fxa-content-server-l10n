@@ -55,3 +55,7 @@ subscription-charges-repeating-discount = បញ្ចុះតម្លៃ { $d
 ##
 
 fraudulentAccountDeletion-title = គណនីរបស់អ្នកត្រូវបានលុបចេញ
+subscriptionAccountReminderFirst-content-select-2 = ជ្រើសរើស “បង្កើតពាក្យសម្ងាត់” ដើម្បីកំណត់ពាក្យសម្ងាត់ថ្មី និងបញ្ចប់ការបញ្ជាក់គណនីរបស់អ្នក។
+subscriptionAccountReminderFirst-action = បង្កើតពាក្យសម្ងាត់
+subscriptionAccountReminderSecond-content-select-2 = ជ្រើសរើស “បង្កើតពាក្យសម្ងាត់” ដើម្បីកំណត់ពាក្យសម្ងាត់ថ្មី និងបញ្ចប់ការបញ្ជាក់គណនីរបស់អ្នក។
+subscriptionAccountReminderSecond-action = បង្កើតពាក្យសម្ងាត់
