@@ -66,6 +66,15 @@ recovery-key-pdf-support = Узнать больше о ключе восста�
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = К сожалению, при скачивании ключа восстановления аккаунта произошла ошибка.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Войти с ключом доступа
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Защищённый вход…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -252,6 +261,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Флаг США
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Загрузка
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Ключ доступа
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.

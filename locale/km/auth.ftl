@@ -6,7 +6,7 @@ session-verify-send-push-body-2 = ចុចទីនេះដើម្បីប�
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
-recovery-phone-setup-sms-body = { $code } គឺជាលេខកូដផ្ទៀងផ្ទាត់ { -brand-mozilla } របស់អ្នក។ ផុតកំណត់ក្នុងរយៈពេល 5 នាទី។
+recovery-phone-setup-sms-body = { $code } គឺជាលេខកូដផ្ទៀងផ្ទាត់ { -brand-mozilla } របស់អ្នក។ វាផុតកំណត់ក្នុងរយៈពេល 5 នាទីទៀត។
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -50,6 +50,18 @@ subplat-privacy = ឯកជនភាព
 subplat-privacy-website-plaintext = { subplat-privacy } ៖
 cancellationSurvey = សូមជួយយើងកែលម្អសេវាកម្មរបស់យើងដោយធ្វើ<a data-l10n-name="cancellationSurveyUrl">ការស្ទង់មតិខ្លី</a>នេះ។
 
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = វិធីនៃការទូទាត់: { $cardName } បញ្ចប់ក្នុងថ្ងៃ { $lastFour }
+payment-provider-card-ending-in-plaintext = វិធីនៃការទូទាត់: កាតដែលបញ្ចប់នៅថ្ងៃ { $lastFour }
+
+# Variables:
+
+
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
@@ -57,6 +69,8 @@ subscription-charges-repeating-discount = បញ្ចុះតម្លៃ { $d
 
 ##
 
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = យើងនឹងសាកល្បងការទូទាត់របស់អ្នកម្តងទៀតក្នុងរយៈពេលពីរបីថ្ងៃខាងមុខ ប៉ុន្តែអ្នកប្រហែលជាត្រូវជួយយើងជួសជុលវាដោយធ្វើបច្ចុប្បន្នភាពព័ត៌មានទូទាត់របស់អ្នក៖
 fraudulentAccountDeletion-title = គណនីរបស់អ្នកត្រូវបានលុបចេញ
 subscriptionAccountReminderFirst-content-select-2 = ជ្រើសរើស “បង្កើតពាក្យសម្ងាត់” ដើម្បីកំណត់ពាក្យសម្ងាត់ថ្មី និងបញ្ចប់ការបញ្ជាក់គណនីរបស់អ្នក។
 subscriptionAccountReminderFirst-action = បង្កើតពាក្យសម្ងាត់
