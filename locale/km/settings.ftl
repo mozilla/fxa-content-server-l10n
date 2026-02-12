@@ -71,8 +71,14 @@ modal-mfa-protected-cancel-button = បោះបង់
 
 msv-cancel-button = បោះបង់
 
+## Settings Nav
+
+nav-profile = ប្រវត្តិរូប
+
 ## Avatar change page
 
+avatar-page-title =
+    .title = រូបភាពប្រវត្តិរូប
 avatar-page-cancel-button = បោះបង់
 
 ## Password change page
