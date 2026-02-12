@@ -66,6 +66,15 @@ recovery-key-pdf-support = Saber mais sobre a sua chave de recuperação da cont
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Pedimos desculpa, mas ocorreu um problema ao transferir a sua chave de recuperação da conta.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Iniciar sessão com chave de acesso
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = A iniciar sessão com segurança…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -249,6 +258,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Bandeira dos Estados Unidos
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = A carregar
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Chave de acesso
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
