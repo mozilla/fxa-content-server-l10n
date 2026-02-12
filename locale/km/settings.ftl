@@ -92,6 +92,8 @@ pw-create-success-alert-2 = កំណត់ពាក្យសម្ងាត់
 
 ## Delete account page
 
+delete-account-header =
+    .title = លុបគណនី
 delete-account-chk-box-4 =
     .label = ផ្នែកបន្ថែម និងរចនាប័ទ្មណាមួយដែលអ្នកបានបោះពុម្ពផ្សាយទៅ addons.mozilla.org នឹងត្រូវបានលុប
 delete-account-cancel-button = បោះបង់
@@ -127,6 +129,10 @@ verify-secondary-email-cancel-button = បោះបង់
 
 # Link to delete account on main Settings page
 delete-account-link = លុបគណនី
+
+## Profile section
+
+profile-heading = ប្រវត្តិរូប
 
 ## Security section of Setting
 
