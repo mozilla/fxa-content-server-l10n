@@ -184,6 +184,7 @@ complete-reset-password-success-alert = កំណត់ពាក្យសម្�
 ## ResetPasswordRecoveryPhone page
 
 reset-password-with-recovery-key-verified-page-title = កំណត់ពាក្យសម្ងាត់ឡើងវិញដោយជោគជ័យ
+reset-password-complete-new-password-saved = ពាក្យសម្ងាត់ថ្មីត្រូវបានរក្សាទុក!
 
 ## Signin page
 
