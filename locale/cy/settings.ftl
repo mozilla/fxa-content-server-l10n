@@ -68,7 +68,7 @@ recovery-key-pdf-download-error = Mae'n ddrwg gennym, roedd problem wrth lwytho 
 
 ## ButtonPasskeySignin
 
-button-passkey-signin = Mewngofnodwch gyda'r cyfrinallwedd
+button-passkey-signin = Mewngofnodwch gyda chyfrinallwedd
 # This is a loading state indicating that we are waiting for the user to
 # interact with their authenticator to approve the sign-in. They should see a
 # device prompt/pop-up with authentication options (or message indicating that
