@@ -68,7 +68,7 @@ recovery-key-pdf-download-error = Mae'n ddrwg gennym, roedd problem wrth lwytho 
 
 ## ButtonPasskeySignin
 
-button-passkey-signin = Mewngofnodwch gyda'r allwedd
+button-passkey-signin = Mewngofnodwch gyda'r cyfrinallwedd
 # This is a loading state indicating that we are waiting for the user to
 # interact with their authenticator to approve the sign-in. They should see a
 # device prompt/pop-up with authentication options (or message indicating that
@@ -272,10 +272,10 @@ usa-flag-icon-aria-label =
     .aria-label = Baner yr Unol Daleithiau
 # Used for loading arrow icon
 icon-loading-arrow-aria-label =
-    .aria-label = Llwytho
+    .aria-label = Yn llwytho
 # Used for passkey icon
 icon-passkey-aria-label =
-    .aria-label = Passkey
+    .aria-label = Cyfrinallwedd
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
