@@ -238,7 +238,7 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:50
 msgid "History"
-msgstr ""
+msgstr "ប្រវត្តិ"
 
 #: .es5/models/sync-engines.js:54
 msgid "Passwords"
