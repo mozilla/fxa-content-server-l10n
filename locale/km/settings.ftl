@@ -46,6 +46,10 @@ bento-menu-made-by-mozilla = ផលិតដោយ { -brand-mozilla }
 
 connect-another-fx-mobile = ទាញយក { -brand-firefox } នៅលើទូរសព្ទ ឬថេប្លេត
 
+##
+
+cs-disconnect-advice-confirm = យល់​ហើយ ទទួលបាន
+
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # Link to cancel account recovery key change and return to settings
@@ -135,6 +139,11 @@ unit-row-recovery-key-delete-icon-button-title = លុបសោសង្គ្�
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = បានលុប { $email } ដោយជោគជ័យ
 
+## Connect Another Device page
+
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = មិន​មែន​ឥឡូវ
+
 ## Index / home page
 
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
@@ -150,6 +159,11 @@ inline-totp-setup-cancel-setup-button = បោះបង់ការដំឡើ�
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = បាទ/ចាស៎ យល់ព្រមលើឧបករណ៍
+
+## Pair index page
+
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = មិន​មែន​ឥឡូវ
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account

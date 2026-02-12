@@ -1998,7 +1998,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
 msgid "Not now"
-msgstr ""
+msgstr "មិន​មែន​ឥឡូវ"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
