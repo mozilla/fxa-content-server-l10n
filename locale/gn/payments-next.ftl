@@ -457,6 +457,8 @@ churn-error-page-title-general-error = Oĩ apañuái onembohekopyahukuévo ne ñ
 churn-error-page-message-general-error = Eñe’ẽ pytyvõha ndive ha eha’ã jey ag̃ave.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Eho { $productName }-pe
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Ko tepyguejy oiporukuaa oñemboheraguapýva { $productTitle } ndive añoite.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
