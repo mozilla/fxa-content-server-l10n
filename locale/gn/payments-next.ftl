@@ -438,6 +438,7 @@ subscription-content-button-cancel-subscription = Ejheja mboheraguapy
     .aria-label = Ejheja mboheraguapy { $productName }
 # Link to the terms and restrictions for a coupon offer.
 subscription-content-link-churn-intervention-terms-apply = Eguerojera aporã
+subscription-content-link-churn-intervention-terms-aria = Ehecha tapereko ha pe kupõ rekochi’ĩ
 
 ##
 
@@ -448,9 +449,14 @@ paypal-unavailable-error = { -brand-paypal } ndoikói ko’ág̃aite. Eiporu amb
 
 ## Churn flow - Error page
 
+churn-error-page-title-discount-already-applied = Tepyguejy ayvu oikopyrémava
 churn-error-page-button-manage-subscriptions = Mboheraguapy ñangareko
 churn-error-page-button-contact-support = Eñe’ẽ pytyvõhándi
 churn-error-page-button-try-again = Eha’ã jey
+churn-error-page-title-general-error = Oĩ apañuái onembohekopyahukuévo ne ñemboheraguapy.
+churn-error-page-message-general-error = Eñe’ẽ pytyvõha ndive ha eha’ã jey ag̃ave.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Eho { $productName }-pe
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
