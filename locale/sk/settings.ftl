@@ -66,6 +66,15 @@ recovery-key-pdf-support = Ďalšie informácie o kľúči na obnovenie účtu
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Ľutujeme, pri sťahovaní kľúča na obnovenie účtu sa vyskytol problém.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Prihlásiť sa pomocou prístupového kľúča
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Bezpečné prihlásenie…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -255,6 +264,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Vlajka Spojených štátov amerických
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Načítava sa
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Prístupový kľúč
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
