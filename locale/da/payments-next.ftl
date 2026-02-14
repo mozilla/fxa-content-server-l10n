@@ -112,6 +112,8 @@ not-found-button-back-to-subscriptions = Tilbage til abonnementer
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Dette tilbud er udløbet
+churn-cancel-flow-error-offer-expired-message = Der er i øjeblikket ingen rabatter tilgængelige for dette abonnement. Du kan fortsætte med opsigelsen, hvis du ønsker det.
+churn-cancel-flow-error-button-continue-to-cancel = Fortsæt for at opsige
 churn-cancel-flow-error-page-button-back-to-subscriptions = Tilbage til abonnementer
 churn-cancel-flow-error-already-canceling-title = Dit abonnement er sat til at udløbe
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -124,6 +126,10 @@ churn-cancel-flow-error-page-button-keep-subscription = Behold abonnement
 not-found-loyalty-discount-title = Siden blev ikke fundet
 not-found-loyalty-discount-description = Den side, du leder efter, findes ikke.
 not-found-loyalty-discount-button-back-to-subscriptions = Tilbage til abonnementer
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Fortsæt for at opsige
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
@@ -139,6 +145,7 @@ interstitial-offer-error-subscription-not-found-message = Det ser ud til, at det
 interstitial-offer-error-general-heading = Tilbuddet er ikke tilgængeligt
 interstitial-offer-error-general-message = Det ser ud til, at dette tilbud ikke er tilgængeligt lige nu.
 interstitial-offer-error-button-back-to-subscriptions = Tilbage til abonnementer
+interstitial-offer-error-button-cancel-subscription = Fortsæt for at opsige
 
 ## Page - Subscription Management
 
@@ -256,8 +263,11 @@ churn-cancel-flow-action-error = Der opstod en uventet fejl. Prøv igen.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortsæt abonnement og spar { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Fortsæt abonnement og spar
+churn-cancel-flow-button-continue-to-cancel = Fortsæt for at opsige
 churn-cancel-flow-link-terms-and-restrictions = Begrænsede vilkår og restriktioner gælder
 churn-cancel-flow-discount-already-applied-title = Rabatkode er allerede anvendt
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Denne rabat er blevet anvendt på et { $productName }-abonnement på din konto. Hvis du stadig har brug for hjælp, så kontakt vores supportteam.
 churn-cancel-flow-button-manage-subscriptions = Håndter abonnementer
 churn-cancel-flow-button-contact-support = Kontakt Support
 
