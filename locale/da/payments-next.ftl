@@ -109,11 +109,34 @@ not-found-title-subscriptions = Abonnement ikke fundet
 not-found-description-subscriptions = Vi kunne ikke finde dit abonnement. Prøv igen, eller kontakt support.
 not-found-button-back-to-subscriptions = Tilbage til abonnementer
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Dette tilbud er udløbet
+churn-cancel-flow-error-page-button-back-to-subscriptions = Tilbage til abonnementer
+churn-cancel-flow-error-already-canceling-title = Dit abonnement er sat til at udløbe
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Du vil fortsat have adgang til { $productName } indtil den { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Behold abonnement
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Siden blev ikke fundet
 not-found-loyalty-discount-description = Den side, du leder efter, findes ikke.
 not-found-loyalty-discount-button-back-to-subscriptions = Tilbage til abonnementer
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Behold dagligt abonnement
+interstitial-offer-button-keep-current-interval-weekly = Behold ugentligt abonnement
+interstitial-offer-button-keep-current-interval-monthly = Behold månedligt abonnement
+interstitial-offer-button-keep-current-interval-halfyearly = Behold halvårligt abonnement
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Vi kunne ikke finde et aktivt abonnement
+interstitial-offer-error-subscription-not-found-message = Det ser ud til, at dette abonnement muligvis ikke længere er aktivt.
+interstitial-offer-error-general-heading = Tilbuddet er ikke tilgængeligt
 
 ## Page - Subscription Management
 
