@@ -137,6 +137,8 @@ interstitial-offer-button-keep-current-interval-halfyearly = Behold halvårligt 
 interstitial-offer-error-subscription-not-found-heading = Vi kunne ikke finde et aktivt abonnement
 interstitial-offer-error-subscription-not-found-message = Det ser ud til, at dette abonnement muligvis ikke længere er aktivt.
 interstitial-offer-error-general-heading = Tilbuddet er ikke tilgængeligt
+interstitial-offer-error-general-message = Det ser ud til, at dette tilbud ikke er tilgængeligt lige nu.
+interstitial-offer-error-button-back-to-subscriptions = Tilbage til abonnementer
 
 ## Page - Subscription Management
 
@@ -241,6 +243,28 @@ next-payment-confirm-checkbox-error = Du skal fuldføre dette, før du går vide
 
 next-new-user-submit = Abonner nu
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Du abonnerer stadig
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Dit abonnement fortsætter, og du sparer { $discountPercent }% på din næste regning.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Tak fordi du bruger { $productName }!
+churn-cancel-flow-button-back-to-subscriptions = Tilbage til abonnementer
+churn-cancel-flow-action-error = Der opstod en uventet fejl. Prøv igen.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortsæt abonnement og spar { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Fortsæt abonnement og spar
+churn-cancel-flow-link-terms-and-restrictions = Begrænsede vilkår og restriktioner gælder
+churn-cancel-flow-discount-already-applied-title = Rabatkode er allerede anvendt
+churn-cancel-flow-button-manage-subscriptions = Håndter abonnementer
+churn-cancel-flow-button-contact-support = Kontakt Support
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Dit abonnement på { $productName } er aktivt
+churn-cancel-flow-button-go-to-product-page = Gå til { $productName }
 
 ## Churn flow - stay subscribed
 

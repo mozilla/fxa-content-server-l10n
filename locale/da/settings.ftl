@@ -66,6 +66,15 @@ recovery-key-pdf-support = Læs mere om din genoprettelsesnøgle til kontoen
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Der opstod desværre et problem med at hente din genoprettelsesnøgle til kontoen.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Log ind med adgangsnøgle
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Logger sikkert ind…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -249,6 +258,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = USA's flag
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Indlæser
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Adgangsnøgle
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1729,6 +1744,8 @@ signin-password-button-label = Adgangskode
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } vil forsøge at sende dig tilbage, så du kan bruge en mail-maske, når du har logget ind.
 signin-code-expired-error = Koden er udløbet. Log ind igen.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Noget gik galt. Log ind igen.
 signin-account-locked-banner-heading = Nulstil din adgangskode
 signin-account-locked-banner-description = Vi har låst din konto for at beskytte den mod mistænkelig aktivitet.
 # This link points to https://accounts.firefox.com/reset_password
