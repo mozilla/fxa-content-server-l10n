@@ -68,7 +68,7 @@ recovery-key-pdf-download-error = Je nám líto, ale při stahování klíče pr
 
 ## ButtonPasskeySignin
 
-button-passkey-signin = Přihlaste se pomocí bezpečnostního klíče
+button-passkey-signin = Přihlaste se pomocí přístupového klíče
 # This is a loading state indicating that we are waiting for the user to
 # interact with their authenticator to approve the sign-in. They should see a
 # device prompt/pop-up with authentication options (or message indicating that
