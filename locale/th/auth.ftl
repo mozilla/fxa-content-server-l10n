@@ -83,11 +83,61 @@ payment-plan-charged = วันที่เรียกเก็บเงิน
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = ใบแจ้งหนี้ถัดไป: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>วิธีการชำระเงิน:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = วิธีการชำระเงิน: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = วิธีการชำระเงิน: { $cardName } ลงท้ายด้วย { $lastFour }
+payment-provider-card-ending-in-plaintext = วิธีการชำระเงิน: บัตรที่ลงท้ายด้วย { $lastFour }
+payment-provider-card-ending-in = <b>วิธีการชำระเงิน:</b> บัตรที่ลงท้ายด้วย { $lastFour }
+payment-provider-card-ending-in-card-name = <b>วิธีการชำระเงิน:</b> { $cardName } ลงท้ายด้วย { $lastFour }
+subscription-charges-invoice-summary = สรุปใบแจ้งหนี้
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>หมายเลขใบแจ้งหนี้:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = หมายเลขใบแจ้งหนี้: { $invoiceNumber }
+subscription-charges-invoice-date = <b>วันที่:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = วันที่: { $invoiceDateOnly }
+subscription-charges-prorated-price = ราคาตามสัดส่วน
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = ราคาตามสัดส่วน: { $remainingAmountTotal }
+subscription-charges-list-price = ราคาขาย
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = ราคาขาย: { $offeringPrice }
+subscription-charges-credit-from-unused-time = เครดิตจากเวลาที่ไม่ได้ใช้
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = เครดิตจากเวลาที่ไม่ได้ใช้: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>ยอดรวมย่อย</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = รวมเงิน: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = ส่วนลดครั้งเดียว
+subscription-charges-one-time-discount-plaintext = ส่วนลดครั้งเดียว: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount = ส่วนลด { $discountDuration } เดือน
+subscription-charges-repeating-discount-plaintext = ส่วนลด { $discountDuration } เดือน: { $invoiceDiscountAmount }
+subscription-charges-discount = ส่วนลด
+subscription-charges-discount-plaintext = ส่วนลด: { $invoiceDiscountAmount }
+subscription-charges-taxes = ภาษีและค่าธรรมเนียม
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = ภาษีและค่าธรรมเนียม: { $invoiceTaxAmount }
+subscription-charges-total = <b>ยอดรวม</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = ยอดรวม: { $invoiceTotal }
 
 ##
 
