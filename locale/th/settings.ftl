@@ -848,6 +848,15 @@ recovery-key-create-page-title = คีย์กู้คืนบัญชี
 # and back to account settings
 recovery-key-create-back-button-title = กลับไปยังการตั้งค่า
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+settings-recovery-phone-remove-cancel = ยกเลิก
+
+## PageSetupRecoveryPhone
+
+page-setup-recovery-phone-heading = เพิ่มเบอร์โทรศัพท์สำหรับกู้คืน
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = ขั้นตอนที่ 1 จาก 2
