@@ -263,7 +263,7 @@ icon-loading-arrow-aria-label =
     .aria-label = Betöltés
 # Used for passkey icon
 icon-passkey-aria-label =
-    .aria-label = Jelszó
+    .aria-label = Jelkulcs
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
