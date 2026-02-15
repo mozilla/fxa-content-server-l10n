@@ -287,12 +287,23 @@ subscriptionFirstInvoice-content-processing = การชำระเงิน�
 subscriptionFirstInvoice-content-install-2 = คุณจะได้รับอีเมลแยกต่างหากเกี่ยวกับการเริ่มใช้งาน { $productName }
 subscriptionFirstInvoice-content-auto-renew = การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = ใบแจ้งหนี้ถัดไปของคุณจะออกในวันที่ { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = วิธีการชำระเงินสำหรับ { $productName } หมดอายุแล้วหรือกำลังจะหมดอายุ
+subscriptionPaymentExpired-title-2 = วิธีการชำระเงินของคุณหมดอายุแล้วหรือกำลังจะหมดอายุ
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = วิธีการชำระเงินที่คุณใช้สำหรับ { $productName } หมดอายุแล้วหรือกำลังจะหมดอายุ
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = การชำระเงิน { $productName } ล้มเหลว
 subscriptionPaymentFailed-title = ขออภัย เราประสบปัญหากับการชำระเงินของคุณ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = เราประสบปัญหากับการชำระเงินสำหรับ { $productName } ล่าสุดของคุณ
+subscriptionPaymentFailed-content-outdated-1 = อาจเป็นไปได้ว่าวิธีการชำระเงินของคุณหมดอายุแล้ว หรือวิธีการชำระเงินปัจจุบันของคุณล้าสมัย
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = จำเป็นต้องปรับปรุงข้อมูลการชำระเงินสำหรับ { $productName }
@@ -300,6 +311,7 @@ subscriptionPaymentProviderCancelled-title = ขออภัย เราปร�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = เราพบปัญหากับวิธีการชำระเงินสำหรับ { $productName } ของคุณ
+subscriptionPaymentProviderCancelled-content-reason-1 = อาจเป็นไปได้ว่าวิธีการชำระเงินของคุณหมดอายุแล้ว หรือวิธีการชำระเงินปัจจุบันของคุณล้าสมัย
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = ต่ออายุการสมัครสมาชิก { $productName } ใหม่แล้ว
@@ -317,10 +329,27 @@ subscriptionRenewalReminder-title = การสมัครสมาชิก�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = เรียน ลูกค้า { $productName }
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = การสมัครสมาชิกปัจจุบันของคุณจะต่ออายุโดยอัตโนมัติในอีก { $reminderLength } วัน
+subscriptionRenewalReminder-content-discount-change = ใบแจ้งหนี้ถัดไปของคุณจะมีการเปลี่ยนแปลงราคา เนื่องจากส่วนลดเดิมสิ้นสุดแล้ว และมีการนำส่วนลดใหม่มาใช้แทน
+subscriptionRenewalReminder-content-discount-ending = เนื่องจากส่วนลดก่อนหน้านี้ได้สิ้นสุดแล้ว การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติในราคามาตรฐาน
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = ในเวลานั้น { -brand-mozilla } จะต่ออายุการสมัครสมาชิกของคุณเป็นเวลา { $planIntervalCount } { $planInterval } และจะมีการเรียกเก็บเงินจำนวน { $invoiceTotal } จากวิธีการชำระเงินในบัญชีของคุณ
 subscriptionRenewalReminder-content-closing = ขอแสดงความนับถือ
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = ทีมงาน { $productName }
+subscriptionReplaced-subject = การสมัครสมาชิกของคุณได้รับการอัปเดตแล้ว ซึ่งเป็นส่วนหนึ่งของการอัปเกรดของคุณ
+subscriptionReplaced-title = การสมัครสมาชิกของคุณได้รับการอัปเดตแล้ว
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = การสมัครสมาชิก { $productName } ส่วนตัวของคุณได้ถูกแทนที่แล้ว และรวมอยู่ในแพ็กเกจใหม่ของคุณแล้ว
+subscriptionReplaced-content-credit = คุณจะได้รับเครดิตสำหรับเวลาที่ไม่ได้ใช้จากการสมัครสมาชิกครั้งก่อน เครดิตนี้จะถูกเพิ่มเข้าบัญชีของคุณโดยอัตโนมัติและนำไปใช้ชำระค่าบริการในอนาคต
+subscriptionReplaced-content-no-action = คุณไม่จำเป็นต้องดำเนินการใดๆ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = ได้รับการชำระเงิน { $productName } แล้ว
@@ -329,9 +358,16 @@ subscriptionSubsequentInvoice-title = ขอบคุณที่สมัคร
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = เราได้รับการชำระเงินสำหรับ { $productName } ครั้งล่าสุดของคุณแล้ว
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = ใบแจ้งหนี้ถัดไปของคุณจะออกในวันที่ { $nextInvoiceDateOnly }
+# Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = คุณได้อัปเกรดเป็น { $productName }
 subscriptionUpgrade-title = ขอบคุณสำหรับการอัปเกรด!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = คุณได้อัปเกรดเป็น { $productName } เรียบร้อยแล้ว
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -343,8 +379,39 @@ subscriptionUpgrade-title = ขอบคุณสำหรับการอั�
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = คุณถูกเรียกเก็บค่าธรรมเนียมครั้งเดียวจำนวน { $invoiceAmountDue } เพื่อสะท้อนถึงราคาที่สูงขึ้นของการสมัครสมาชิกของคุณสำหรับช่วงเวลาที่เหลือของรอบการเรียกเก็บเงินนี้ ({ $productPaymentCycleOld })
+subscriptionUpgrade-content-charge-credit = คุณได้รับเครดิตในบัญชีเป็นจำนวนเงิน { $paymentProrated }
+subscriptionUpgrade-content-subscription-next-bill-change = ราคาค่าสมัครสมาชิกของคุณจะมีการเปลี่ยนแปลงตั้งแต่ใบแจ้งหนี้ถัดไป
+subscriptionUpgrade-content-old-price-day = อัตราเดิมคือ { $paymentAmountOld } ต่อวัน
+subscriptionUpgrade-content-old-price-week = อัตราเดิมคือ { $paymentAmountOld } ต่อสัปดาห์
+subscriptionUpgrade-content-old-price-month = อัตราเดิมคือ { $paymentAmountOld } ต่อเดือน
+subscriptionUpgrade-content-old-price-halfyear = อัตราเดิมคือ { $paymentAmountOld } ต่อหกเดือน
+subscriptionUpgrade-content-old-price-year = อัตราเดิมคือ { $paymentAmountOld } ต่อปี
+subscriptionUpgrade-content-old-price-default = อัตราเดิมคือ { $paymentAmountOld } ต่อรอบการเรียกเก็บเงิน
+subscriptionUpgrade-content-old-price-day-tax = อัตราภาษีเดิมคือ { $paymentAmountOld } + { $paymentTaxOld } ต่อวัน
+subscriptionUpgrade-content-old-price-week-tax = อัตราภาษีเดิมคือ { $paymentAmountOld } + { $paymentTaxOld } ต่อสัปดาห์
+subscriptionUpgrade-content-old-price-month-tax = อัตราเดิมคือ { $paymentAmountOld } + ภาษี { $paymentTaxOld } ต่อเดือน
+subscriptionUpgrade-content-old-price-halfyear-tax = อัตราเดิมคือ { $paymentAmountOld } + ภาษี { $paymentTaxOld } ต่อหกเดือน
+subscriptionUpgrade-content-old-price-year-tax = อัตราเดิมคือ { $paymentAmountOld } + ภาษี { $paymentTaxOld } ต่อปี
+subscriptionUpgrade-content-old-price-default-tax = อัตราเดิมคือ { $paymentAmountOld } + ภาษี { $paymentTaxOld } ต่อรอบการเรียกเก็บเงิน
+subscriptionUpgrade-content-new-price-day = ต่อจากนี้ไป คุณจะถูกเรียกเก็บเงินจำนวน { $paymentAmountNew } ต่อวัน โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-week = ต่อจากนี้ไป คุณจะถูกเรียกเก็บเงินจำนวน { $paymentAmountNew } ต่อสัปดาห์ โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-month = ต่อจากนี้ไป คุณจะถูกเรียกเก็บเงินจำนวน { $paymentAmountNew } ต่อเดือน โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-halfyear = ต่อจากนี้ไป คุณจะถูกเรียกเก็บเงินจำนวน { $paymentAmountNew } ต่อหกเดือน โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-year = ต่อจากนี้ไป คุณจะถูกเรียกเก็บเงินจำนวน { $paymentAmountNew } ต่อปี โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-default = ต่อจากนี้ไป คุณจะถูกเรียกเก็บเงินจำนวน { $paymentAmountNew } ต่อรอบการเรียกเก็บเงิน โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-day-dtax = ต่อจากนี้ไป คุณจะถูกเรียกเก็บภาษีจำนวน { $paymentAmountNew } + { $paymentTaxNew } ต่อวัน โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-week-tax = ต่อจากนี้ไป คุณจะถูกเรียกเก็บภาษีจำนวน { $paymentAmountNew } + { $paymentTaxNew } ต่อสัปดาห์ โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-month-tax = ต่อจากนี้ไป คุณจะถูกเรียกเก็บภาษีจำนวน { $paymentAmountNew } + { $paymentTaxNew } ต่อเดือน โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-halfyear-tax = ต่อจากนี้ไป คุณจะถูกเรียกเก็บภาษีจำนวน { $paymentAmountNew } + { $paymentTaxNew } ต่อหกเดือน โดยไม่รวมส่วนลด
+subscriptionUpgrade-content-new-price-year-tax = ต่อจากนี้ไป คุณจะถูกเรียกเก็บภาษีจำนวน { $paymentAmountNew } + { $paymentTaxNew } ต่อปี โดยไม่รวมส่วนลด
 subscriptionUpgrade-content-new-price-default-tax = ต่อจากนี้ไป คุณจะถูกเรียกเก็บภาษีจำนวน { $paymentAmountNew } + { $paymentTaxNew } ต่อรอบการเรียกเก็บเงิน โดยไม่รวมส่วนลด
+subscriptionUpgrade-existing = หากการสมัครสมาชิกที่มีอยู่ของคุณบางส่วนซ้ำซ้อนกับการอัปเกรดนี้ เราจะจัดการให้และส่งอีเมลแยกต่างหากพร้อมรายละเอียดให้คุณ หากแผนใหม่ของคุณมีผลิตภัณฑ์ที่ต้องติดตั้ง เราจะส่งอีเมลแยกต่างหากพร้อมคำแนะนำในการติดตั้งให้คุณ
 subscriptionUpgrade-auto-renew = การสมัครของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
+subscriptionsPaymentExpired-subject-2 = วิธีการชำระเงินสำหรับการสมัครสมาชิกของคุณหมดอายุแล้วหรือกำลังจะหมดอายุ
+subscriptionsPaymentExpired-title-2 = วิธีการชำระเงินของคุณหมดอายุแล้วหรือกำลังจะหมดอายุ
+subscriptionsPaymentExpired-content-2 = วิธีการชำระเงินที่คุณใช้ชำระเงินสำหรับการสมัครสมาชิกต่อไปนี้หมดอายุแล้วหรือกำลังจะหมดอายุ
 subscriptionsPaymentProviderCancelled-subject = จำเป็นต้องปรับปรุงข้อมูลการชำระเงินสำหรับการสมัครสมาชิก { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = ขออภัย เราประสบปัญหากับวิธีการชำระเงินของคุณ
 subscriptionsPaymentProviderCancelled-content-detected = เราพบปัญหากับวิธีการชำระเงินของคุณสำหรับการสมัครสมาชิกต่อไปนี้
+subscriptionsPaymentProviderCancelled-content-payment-1 = อาจเป็นไปได้ว่าวิธีการชำระเงินของคุณหมดอายุแล้ว หรือวิธีการชำระเงินปัจจุบันของคุณล้าสมัย
