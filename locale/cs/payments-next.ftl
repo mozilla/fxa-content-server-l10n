@@ -264,7 +264,7 @@ churn-cancel-flow-action-error = Došlo k neočekávané chybě. Zkuste to pros�
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Zůstaňte předplatiteli a ušetřete { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Zůstaňte předplatiteli a ušetřete
 churn-cancel-flow-button-continue-to-cancel = Pokračovat ke zrušení
-churn-cancel-flow-link-terms-and-restrictions = Na nabídku se vztahují omezené podmínky
+churn-cancel-flow-link-terms-and-restrictions = Platí podmínky a omezení
 churn-cancel-flow-discount-already-applied-title = Slevový kód byl již uplatněn
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-discount-already-applied-message = Tato sleva byla uplatněna na předplatné za { $productName } pro váš účet. Pokud stále potřebujete pomoci, kontaktujte náš tým podpory.
@@ -284,7 +284,7 @@ churn-stay-subscribed-button-stay-subscribed-and-save-discount = Zůstaňte pře
 churn-stay-subscribed-button-stay-subscribed-and-save = Zůstaňte předplatiteli a ušetřete
 churn-stay-subscribed-button-no-thanks = Ne, děkuji
     .aria-label = Zpět na stránku s předplatnými
-churn-stay-subscribed-link-terms-and-restrictions = Na nabídku se vztahují omezené podmínky
+churn-stay-subscribed-link-terms-and-restrictions = Platí podmínky a omezení
 churn-stay-subscribed-title-offer-expired = Nabídka vypršela
 
 ## $productName (String) - The name of the product associated with the subscription.
