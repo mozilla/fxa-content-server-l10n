@@ -91,6 +91,19 @@ datablock-copy =
 datablock-print =
     .message = พิมพ์แล้ว
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success = คัดลอกรหัสแล้ว
+datablock-download-success = ดาวน์โหลดรหัสแล้ว
+datablock-print-success = พิมพ์รหัสแล้ว
+
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = คัดลอกแล้ว
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -128,6 +141,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = ยืนยันรหัสผ่าน
 form-password-with-inline-criteria-reset-submit-button = สร้างรหัสผ่านใหม่
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = รหัสผ่าน
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = ทวนรหัสผ่าน
+form-password-with-inline-criteria-set-password-submit-button = เริ่มซิงค์
 form-password-with-inline-criteria-match-error = รหัสผ่านไม่ตรงกัน
 form-password-with-inline-criteria-sr-too-short-message = รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร
 form-password-with-inline-criteria-sr-not-email-message = รหัสผ่านต้องไม่มีที่อยู่อีเมลของคุณ
@@ -219,6 +237,9 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = ธงชาติสหรัฐอเมริกา
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = กำลังโหลด
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -324,6 +345,8 @@ confirmation-link-reused-message = ลิงก์ยืนยันนั้น
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = เลือกภาษา
+locale-toggle-browser-default = ค่าเริ่มต้นของเบราว์เซอร์
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = คำขอไม่ถูกต้อง
 
@@ -336,16 +359,24 @@ password-info-balloon-reset-risk-info = การตั้งรหัสผ่�
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = เลือกใช้รหัสผ่านที่ปลอดภัยและไม่เคยใช้ในไซต์อื่นมาก่อน ตรวจสอบให้แน่ใจว่าตรงตามข้อกำหนดด้านความปลอดภัย:
+password-strength-short-instruction = เลือกใช้รหัสผ่านที่ปลอดภัย:
 password-strength-inline-min-length = อย่างน้อย 8 ตัวอักษร
 password-strength-inline-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
 password-strength-inline-not-common = ไม่ใช่รหัสผ่านที่พบบ่อย
 password-strength-inline-confirmed-must-match = รหัสยืนยันตรงกับรหัสผ่านใหม่
+password-strength-inline-passwords-match = รหัสผ่านตรงกัน
 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = สร้าง
 account-recovery-notification-header-value = ไม่ต้องสูญเสียข้อมูลของคุณถ้าลืมรหัสผ่าน
 account-recovery-notification-header-description = สร้างคีย์กู้คืนบัญชีเพื่อเรียกคืนข้อมูลการเรียกดูที่ซิงค์ไว้ของคุณกลับมาในกรณีที่คุณเกิดลืมรหัสผ่าน
+recovery-phone-promo-cta = เพิ่มเบอร์โทรศัพท์สำหรับกู้คืน
+recovery-phone-promo-heading = เพิ่มการป้องกันพิเศษให้กับบัญชีของคุณด้วยเบอร์โทรศัพท์สำหรับกู้คืน
+recovery-phone-promo-description = ตอนนี้คุณสามารถเข้าสู่ระบบด้วยรหัสผ่านแบบใช้ครั้งเดียวผ่าน SMS ได้แล้ว หากคุณไม่สามารถใช้แอปยืนยันตัวตนสองขั้นได้
+promo-banner-dismiss-button =
+    .aria-label = ปิดแบนเนอร์
 
 ## Ready component
 
@@ -442,6 +473,12 @@ bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
 
 connect-another-fx-mobile = รับ { -brand-firefox } บนมือถือหรือแท็บเล็ต
 connect-another-find-fx-mobile-2 = หาคำว่า { -brand-firefox } ใน { -google-play } และ { -app-store }
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = ดาวน์โหลด { -brand-firefox } บน { -google-play }
+connect-another-app-store-image-3 =
+    .alt = ดาวน์โหลด { -brand-firefox } บน { -app-store }
 
 ## Connected services section
 
@@ -559,6 +596,14 @@ flow-recovery-key-info-cta-text-v3 = เริ่ม
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ยกเลิก
 
+## FlowSetup2faApp
+
+flow-setup-2fa-qr-heading = เชื่อมต่อกับแอปยืนยันตัวตนของคุณ
+# DEV NOTE: "2a" in the id should be "2fa". This typo is kept intentionally to
+# avoid losing existing translations; fix it when creating a new version of
+# this string.
+flow-setup-2a-qr-instruction = <strong>ขั้นตอนที่ 1:</strong> สแกนคิวอาร์โค้ดนี้โดยใช้แอปยืนยันตัวตนใดก็ได้ เช่น Duo หรือ Google Authenticator
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -574,10 +619,14 @@ flow-setup-phone-confirm-code-button = ยืนยัน
 flow-setup-phone-confirm-code-expired = รหัสหมดอายุใช่หรือไม่?
 flow-setup-phone-confirm-code-resend-code-button = ส่งรหัสอีกครั้ง
 flow-setup-phone-confirm-code-resend-code-success = ส่งรหัสแล้ว
+flow-setup-phone-confirm-code-success-message-v2 = เพิ่มเบอร์โทรศัพท์สำหรับกู้คืนแล้ว
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = ยืนยันหมายเลขโทรศัพท์ของคุณ
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = คุณจะได้รับข้อความจาก { -brand-mozilla } พร้อมรหัสเพื่อยืนยันหมายเลขของคุณ อย่าเปิดเผยรหัสนี้ให้ใครทราบ
+flow-setup-phone-submit-number-legal = เมื่อคุณระบุหมายเลขโทรศัพท์ของคุณ คุณยินยอมให้เราจัดเก็บหมายเลขดังกล่าวเพื่อใช้ในการส่งข้อความสำหรับยืนยันบัญชีของคุณเท่านั้น อาจมีค่าบริการข้อความและข้อมูลเพิ่มเติม
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = ส่งรหัส
 
