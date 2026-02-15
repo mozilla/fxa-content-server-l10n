@@ -329,6 +329,9 @@ subscriptionRenewalReminder-title = การสมัครสมาชิก�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = เรียน ลูกค้า { $productName }
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = การสมัครสมาชิกปัจจุบันของคุณจะต่ออายุโดยอัตโนมัติในอีก { $reminderLength } วัน
 subscriptionRenewalReminder-content-closing = ขอแสดงความนับถือ
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -369,6 +372,8 @@ subscriptionUpgrade-upgrade-info-2 = คุณได้อัปเกรดเ�
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-prorated-1 = คุณถูกเรียกเก็บค่าธรรมเนียมครั้งเดียวจำนวน { $invoiceAmountDue } เพื่อสะท้อนถึงราคาที่สูงขึ้นของการสมัครสมาชิกของคุณสำหรับช่วงเวลาที่เหลือของรอบการเรียกเก็บเงินนี้ ({ $productPaymentCycleOld })
+subscriptionUpgrade-content-old-price-day-tax = อัตราภาษีเดิมคือ { $paymentAmountOld } + { $paymentTaxOld } ต่อวัน
+subscriptionUpgrade-content-old-price-week-tax = อัตราภาษีเดิมคือ { $paymentAmountOld } + { $paymentTaxOld } ต่อสัปดาห์
 subscriptionUpgrade-content-new-price-default = ต่อจากนี้ไป คุณจะถูกเรียกเก็บเงินจำนวน { $paymentAmountNew } ต่อรอบการเรียกเก็บเงิน โดยไม่รวมส่วนลด
 subscriptionUpgrade-content-new-price-day-dtax = ต่อจากนี้ไป คุณจะถูกเรียกเก็บภาษีจำนวน { $paymentAmountNew } + { $paymentTaxNew } ต่อวัน โดยไม่รวมส่วนลด
 subscriptionUpgrade-content-new-price-week-tax = ต่อจากนี้ไป คุณจะถูกเรียกเก็บภาษีจำนวน { $paymentAmountNew } + { $paymentTaxNew } ต่อสัปดาห์ โดยไม่รวมส่วนลด
