@@ -92,6 +92,10 @@ next-payment-confirmation-download-button = Continuar para descargar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
+## Not found page
+
+not-found-button-back-to-subscriptions = Volver a suscripciones
+
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-button-continue-to-cancel = Continuar para cancelar
@@ -104,6 +108,8 @@ churn-cancel-flow-error-page-button-keep-subscription = Mantener la suscripción
 
 ## Loyalty discount - Not found page
 
+not-found-loyalty-discount-title = Página no encontrada
+not-found-loyalty-discount-description = La página que estás buscando no existe.
 not-found-loyalty-discount-button-back-to-subscriptions = Volver a suscripciones
 
 ## InterstitialOffer
@@ -129,6 +135,12 @@ interstitial-offer-error-button-cancel-subscription = Continuar para cancelar
 ## Page - Subscription Management
 
 subscription-management-subscriptions-heading = Suscripciones
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Saltar a
+subscription-management-nav-payment-details = Detalles del pago
+subscription-management-nav-active-subscriptions = Suscripciones activas
+subscription-management-payment-details-heading = Detalles del pago
+subscription-management-email-label = Correo electrónico
 subscription-management-credit-balance-label = Balance de crédito
 subscription-management-credit-balance-message = El crédito se aplicará automáticamente a futuras facturas
 subscription-management-payment-method-label = Método de pago
