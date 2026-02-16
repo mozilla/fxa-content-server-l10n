@@ -340,6 +340,7 @@ subscriptionRenewalReminder-content-greeting = Beste klant van { $productName },
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Uw huidige abonnement wordt over { $reminderLength } dagen automatisch verlengd.
+subscriptionRenewalReminder-content-discount-change = Uw volgende factuur geeft een prijswijziging weer, aangezien een eerdere korting is komen te vervallen en een nieuwe korting is toegepast.
 subscriptionRenewalReminder-content-discount-ending = Omdat een eerdere korting is komen te vervallen, wordt uw abonnement verlengd tegen de standaardprijs.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
