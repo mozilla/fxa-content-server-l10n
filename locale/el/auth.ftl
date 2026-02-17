@@ -266,6 +266,9 @@ subscriptionEndingReminder-title = Η συνδρομή σας στο { $productN
 subscriptionEndingReminder-content-line1 = Η πρόσβασή σας στο { $productName } θα λήξει στις <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line1-plaintext = Η πρόσβασή σας στο { $productName } θα λήξει στις { $serviceLastActiveDateOnly }.
 subscriptionEndingReminder-churn-title = Θέλετε να διατηρήσετε την πρόσβαση;
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Επικοινωνήστε με την ομάδα υποστήριξης: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Η συνδρομή σας στο { $productName } έχει ακυρωθεί
