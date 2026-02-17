@@ -446,7 +446,6 @@ verifyLoginCode-title-2 = Hai effettuato tu l’accesso a { $serviceName }?
 verifyLoginCode-safe = Aiutaci a mantenere il tuo account al sicuro approvando il tuo accesso su:
 verifyLoginCode-prompt-3 = In caso affermativo, questo è il tuo codice di autorizzazione:
 verifyLoginCode-expiry-notice = Il codice scadrà entro 5 minuti.
-verifyPrimary-title-2 = Conferma l’indirizzo email primario
 verifyPrimary-description = Una richiesta di autorizzazione a modificare l’account è stata inviata dal seguente dispositivo:
 verifyPrimary-subject = Conferma l’indirizzo email primario
 verifyPrimary-action-2 = Verifica indirizzo email
