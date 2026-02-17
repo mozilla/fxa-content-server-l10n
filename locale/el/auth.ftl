@@ -266,6 +266,10 @@ subscriptionEndingReminder-title = Η συνδρομή σας στο { $productN
 subscriptionEndingReminder-content-line1 = Η πρόσβασή σας στο { $productName } θα λήξει στις <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line1-plaintext = Η πρόσβασή σας στο { $productName } θα λήξει στις { $serviceLastActiveDateOnly }.
 subscriptionEndingReminder-churn-title = Θέλετε να διατηρήσετε την πρόσβαση;
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Ισχύουν ειδικοί όροι και περιορισμοί</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Ισχύουν ειδικοί όροι και περιορισμοί: { $churnTermsUrlWithUtm }
 # Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
 subscriptionEndingReminder-content-support-plaintext = Επικοινωνήστε με την ομάδα υποστήριξης: { $subscriptionSupportUrlWithUtm }

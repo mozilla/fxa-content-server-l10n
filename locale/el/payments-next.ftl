@@ -254,15 +254,29 @@ next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
 
 churn-cancel-flow-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 churn-cancel-flow-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Διατηρήστε τη συνδρομή σας και εξοικονομήστε { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Διατηρήστε τη συνδρομή σας και εξοικονομήστε χρήματα
 churn-cancel-flow-button-continue-to-cancel = Συνέχεια για ακύρωση
+churn-cancel-flow-link-terms-and-restrictions = Ισχύουν ειδικοί όροι και περιορισμοί
+churn-cancel-flow-discount-already-applied-title = Ο εκπτωτικός κωδικός έχει ήδη εφαρμοστεί
 churn-cancel-flow-button-manage-subscriptions = Διαχείριση συνδρομών
 churn-cancel-flow-button-contact-support = Επικοινωνία με την υποστήριξη
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Η συνδρομή σας στο { $productName } είναι ενεργή
+churn-cancel-flow-button-go-to-product-page = Μετάβαση στο { $productName }
 
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Διατηρήστε τη συνδρομή σας και εξοικονομήστε { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Διατηρήστε τη συνδρομή σας και εξοικονομήστε χρήματα
 churn-stay-subscribed-button-no-thanks = Όχι, ευχαριστώ
     .aria-label = Επιστροφή στη σελίδα «Συνδρομές»
+churn-stay-subscribed-link-terms-and-restrictions = Ισχύουν ειδικοί όροι και περιορισμοί
 churn-stay-subscribed-title-offer-expired = Αυτή η προσφορά έχει λήξει
 
 ## $productName (String) - The name of the product associated with the subscription.
@@ -270,6 +284,10 @@ churn-stay-subscribed-title-offer-expired = Αυτή η προσφορά έχε�
 churn-stay-subscribed-subtitle-offer-expired = Θέλετε να συνεχίσετε να χρησιμοποιείτε το { $productName };
 churn-stay-subscribed-message-access-will-continue = Η πρόσβασή σας στο { $productName } θα συνεχιστεί, ενώ ο κύκλος χρέωσης και οι πληρωμές σας θα παραμείνουν ως έχουν.
 churn-stay-subscribed-title-subscription-renewed = Η συνδρομή ανανεώθηκε
+churn-stay-subscribed-title-subscription-active = Η συνδρομή σας στο { $productName } είναι ενεργή
+churn-stay-subscribed-thanks-valued-subscriber = Ευχαριστούμε για την πολύτιμη συνδρομή σας!
+churn-stay-subscribed-button-go-to-product-page = Μετάβαση στο { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Μετάβαση στις συνδρομές
 churn-stay-subscribed-button-stay-subscribed = Διατήρηση συνδρομής
 
 ## Component - CouponForm
@@ -425,11 +443,14 @@ paypal-unavailable-error = Το { -brand-paypal } δεν είναι διαθέσ
 
 ## Churn flow - Error page
 
+churn-error-page-title-discount-already-applied = Ο εκπτωτικός κωδικός έχει ήδη εφαρμοστεί
 churn-error-page-button-manage-subscriptions = Διαχείριση συνδρομών
 churn-error-page-button-contact-support = Επικοινωνία με την υποστήριξη
 churn-error-page-button-try-again = Δοκιμή ξανά
 churn-error-page-title-general-error = Προέκυψε πρόβλημα με την ανανέωση της συνδρομής σας
 churn-error-page-message-general-error = Επικοινωνήστε με την υποστήριξη ή δοκιμάστε ξανά.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Μετάβαση στο { $productName }
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-not-active = Αυτή η έκπτωση διατίθεται μόνο για τρέχοντες συνδρομητές του { $productName }.
 # $productName (String) - The name of the product associated with the subscription.
