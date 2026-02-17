@@ -109,6 +109,11 @@ not-found-title-subscriptions = Không tìm thấy gói đăng ký
 not-found-description-subscriptions = Chúng tôi không tìm thấy gói đăng ký của bạn. Vui lòng thử lại hoặc liên hệ bộ phận hỗ trợ.
 not-found-button-back-to-subscriptions = Quay lại gói đăng ký
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Ưu đãi này đã hết hạn
+churn-cancel-flow-error-page-button-back-to-subscriptions = Quay lại gói đăng ký
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Không tìm thấy trang
