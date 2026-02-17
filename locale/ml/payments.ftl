@@ -37,12 +37,6 @@ payment-confirmation-thanks-heading = നന്ദി
 payment-confirmation-order-heading = ഓർഡർ വിശദാംശങ്ങൾ
 payment-confirmation-download-button = ഇറക്കിവയ്ക്കുന്നതിനു് തുടരുക
 
-## Component - PaymentConsentCheckbox
-
-
-## Component - PaymentErrorView
-
-
 ## Component - PaymentErrorView - IAP upgrade errors
 
 iap-upgrade-get-help-button = പിന്തുണ നേടുക
@@ -59,21 +53,6 @@ payment-update-btn = പുതുക്കുക
 payment-pay-btn = ഇപ്പോഴു് പണമടയ്ക്കുക
 payment-pay-with-paypal-btn-2 = { -brand-paypal }-ന്റെ കൂടെ പണമടയ്ക്കുക
 payment-validate-name-error = ദയവായി താങ്ങളുടെ പേരു് നല്കുക
-
-## Component - PaymentLegalBlurb
-
-
-## Component - PaymentMethodHeader
-
-
-## Component - PaymentProcessing
-
-
-## Component - PaymentProviderDetails
-
-
-## Component - PayPalButton
-
 
 ## Component - PlanDetails
 
@@ -112,10 +91,6 @@ close-aria =
     .aria-label = പടകൊടി അടയ്ക്കുക
 settings-subscriptions-title = സബ്‌സ്ക്രിപ്ഷനുകൾ
 
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Error messages
 
 # App error dialog
@@ -139,26 +114,9 @@ product-customer-error =
     .title = ഉപയോക്താവുവിശദാംശങ്ങൾ ലഭ്യമാക്കുന്നതിലൊരു കുഴപ്പമുണ്ടായി
 product-plan-not-found = പ്ലാൻ കണ്ടെത്തിയില്ല.
 
-## Hooks - coupons
-
-
 ## Routes - Checkout - New user
 
 new-user-submit = വരിക്കാരാവുക
-
-## Routes - Product and Subscriptions
-
-
-## Routes - Product/AcceptedCards
-## Used in both Routes - Checkout and Product/SubscriptionCreate
-
-
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
 
 ## Routes - Product - Subscription upgrade
 
@@ -166,20 +124,10 @@ sub-update-current-plan-label = നിലവിലെ പ്ലാൻ
 sub-update-new-plan-label = പുതിയ പ്ലാൻ
 sub-update-total-label = പുതിയ ആകെത്തുക
 
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = സബ്സ്ക്രിപ്ഷൻ റദ്ദാക്കുക
 sub-item-stay-sub = വരിക്കാരനായിയിരിക്കുക
-
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
 
 ## Routes - Subscription
 
@@ -197,12 +145,6 @@ sub-billing-update-success = നിങ്ങളുടെ ബില്ലിം�
 ## Routes - Subscription - ActionButton
 
 pay-update-change-btn = മാറ്റങ്ങള്‍
-
-## Routes - Subscriptions - Cancel and IapItem
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $date (Date) - The date for the next time a charge will occur.
-
 
 ## Routes - Subscription - PaymentUpdate
 

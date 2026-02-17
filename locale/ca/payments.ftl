@@ -7,16 +7,10 @@
 
 settings-home = Pàgina principal del compte
 
-## Component - CouponForm
-
-
 ## Component - Fields
 
 default-input-error = Camp obligatori
 input-error-is-required = «{ $label }» és obligatori
-
-## Component - Header
-
 
 ## Component - NewUserEmailForm
 
@@ -32,16 +26,10 @@ payment-confirmation-invoice-number = Factura núm. { $invoiceNumber }
 payment-confirmation-details-heading-2 = Informació de pagament
 payment-confirmation-download-button = Continua amb la baixada
 
-## Component - PaymentConsentCheckbox
-
-
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Torna-ho a provar
 payment-error-manage-subscription-button = Gestiona la meva subscripció
-
-## Component - PaymentErrorView - IAP upgrade errors
-
 
 ## Component - PaymentForm
 
@@ -55,35 +43,12 @@ payment-update-btn = Actualitza
 payment-pay-btn = Paga ara
 payment-validate-name-error = Introduïu el vostre nom
 
-## Component - PaymentLegalBlurb
-
-
-## Component - PaymentMethodHeader
-
-
-## Component - PaymentProcessing
-
-
-## Component - PaymentProviderDetails
-
-
-## Component - PayPalButton
-
-
 ## Component - PlanDetails
 
 plan-details-header = Detalls del producte
 plan-details-show-button = Mostra els detalls
 plan-details-hide-button = Amaga els detalls
 plan-details-total-label = Total
-
-## Component - PlanErrorDialog
-
-
-## Price details including tax
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-
 
 ## Component - SubscriptionTitle
 
@@ -104,10 +69,6 @@ close-aria =
     .aria-label = Tanca la finestra modal
 settings-subscriptions-title = Subscripcions
 
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Error messages
 
 # App error dialog
@@ -122,77 +83,19 @@ duplicate-transaction = Mmm. Sembla que s'acaba d'enviar una transacció idènti
 coupon-expired = Sembla que el codi de promoció ha caducat.
 card-error = La vostra transacció no s'ha pogut processar. Verifiqueu la informació de la targeta de crèdit i torneu-ho a provar.
 
-## Hooks - coupons
-
-
-## Routes - Checkout - New user
-
-
 ## Routes - Product and Subscriptions
 
 sub-update-payment-title = Informació de pagament
-
-## Routes - Product/AcceptedCards
-## Used in both Routes - Checkout and Product/SubscriptionCreate
-
-
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
 
 ## Routes - Product - Subscription upgrade
 
 sub-update-current-plan-label = Pla actual
 sub-update-new-plan-label = Pla nou
 
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Cancel·la la subscripció
 
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-
-## Routes - Subscription
-
-
-## Routes - Subscriptions - Errors
-
-
-## Routes - Subscription - ActionButton
-
-
-## Routes - Subscriptions - Cancel and IapItem
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $date (Date) - The date for the next time a charge will occur.
-
-
-## Routes - Subscription - PaymentUpdate
-
-
-# $expirationDate (Date) - The payment card's expiration date.
-
-
-## Routes - Subscription - SubscriptionItem
-
-
-## Routes - Subscriptions - Reactivate
-## $name (String) - The name of the subscribed product.
-
-
 ## $date (Date) - Last day of product access
 
 reactivate-success-button = Tanca
-
-## Routes - Subscriptions - Subscription iap item
-

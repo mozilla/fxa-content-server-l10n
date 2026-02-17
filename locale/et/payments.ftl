@@ -25,9 +25,6 @@ coupon-enter-code =
 default-input-error = Selle välja täitmine on kohustuslik
 input-error-is-required = Väli { $label } on nõutud
 
-## Component - Header
-
-
 ## Component - NewUserEmailForm
 
 new-user-confirm-email =
@@ -82,16 +79,10 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Jätka allalaadimisega
 
-## Component - PaymentConsentCheckbox
-
-
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Proovi uuesti
 payment-error-manage-subscription-button = Halda tellimust
-
-## Component - PaymentErrorView - IAP upgrade errors
-
 
 ## Component - PaymentForm
 
@@ -123,9 +114,6 @@ payment-processing-message = Palun oota, kuni töötleme sinu makset…
 
 payment-confirmation-cc-card-ending-in = Kaart, mis lõpeb numbritega { $last4 }
 
-## Component - PayPalButton
-
-
 ## Component - PlanDetails
 
 plan-details-header = Toote üksikasjad
@@ -137,11 +125,6 @@ plan-details-total-label = Kokku
 ## Component - PlanErrorDialog
 
 product-no-such-plan = Selle toote puhul sellist plaani pole.
-
-## Price details including tax
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-
 
 ## Component - SubscriptionTitle
 
@@ -167,10 +150,6 @@ document =
 close-aria =
     .aria-label = Sulge
 settings-subscriptions-title = Tellimused
-
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ## Error messages
 
@@ -225,13 +204,6 @@ sub-update-payment-title = Makseinfo
 
 pay-with-heading-card-only = Maksa kaardiga
 
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
-
 ## Routes - Product - Subscription upgrade
 
 product-plan-change-heading = Vaata oma muudatus üle
@@ -240,12 +212,6 @@ sub-change-submit = Kinnita muudatus
 sub-update-current-plan-label = Praegune plaan
 sub-update-new-plan-label = Uus plaan
 sub-update-total-label = Uus summa
-
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
 
 ## Routes - Subscriptions - Cancel
 

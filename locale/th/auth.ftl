@@ -334,12 +334,6 @@ subscriptionRenewalReminder-content-greeting = เรียน ลูกค้�
 subscriptionRenewalReminder-content-intro = การสมัครสมาชิกปัจจุบันของคุณจะต่ออายุโดยอัตโนมัติในอีก { $reminderLength } วัน
 subscriptionRenewalReminder-content-discount-change = ใบแจ้งหนี้ถัดไปของคุณจะมีการเปลี่ยนแปลงราคา เนื่องจากส่วนลดเดิมสิ้นสุดแล้ว และมีการนำส่วนลดใหม่มาใช้แทน
 subscriptionRenewalReminder-content-discount-ending = เนื่องจากส่วนลดก่อนหน้านี้ได้สิ้นสุดแล้ว การสมัครสมาชิกของคุณจะต่ออายุโดยอัตโนมัติในราคามาตรฐาน
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-# Tells the customer that their subscription price will change at the end of the current billing cycle
-subscriptionRenewalReminder-content-charge = ในเวลานั้น { -brand-mozilla } จะต่ออายุการสมัครสมาชิกของคุณเป็นเวลา { $planIntervalCount } { $planInterval } และจะมีการเรียกเก็บเงินจำนวน { $invoiceTotal } จากวิธีการชำระเงินในบัญชีของคุณ
 subscriptionRenewalReminder-content-closing = ขอแสดงความนับถือ
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

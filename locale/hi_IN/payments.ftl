@@ -7,12 +7,6 @@
 
 settings-project-header-title = { -product-mozilla-account }
 
-## Component - CouponForm
-
-
-## Component - Fields
-
-
 ## Component - Header
 
 brand-name-mozilla-logo = { -brand-mozilla } लोगो
@@ -65,15 +59,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = डाउनलोड करने के लिए आगे बढ़ें
 
-## Component - PaymentConsentCheckbox
-
-
-## Component - PaymentErrorView
-
-
-## Component - PaymentErrorView - IAP upgrade errors
-
-
 ## Component - PaymentForm
 
 payment-name =
@@ -86,22 +71,10 @@ payment-update-btn = अपडेट करें
 payment-pay-btn = अभी भुगतान करें
 payment-validate-name-error = कृपया अपना नाम दर्ज करें
 
-## Component - PaymentLegalBlurb
-
-
 ## Component - PaymentMethodHeader
 
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
-
-## Component - PaymentProcessing
-
-
-## Component - PaymentProviderDetails
-
-
-## Component - PayPalButton
-
 
 ## Component - PlanDetails
 
@@ -110,17 +83,11 @@ plan-details-show-button = विवरण दिखाएं
 plan-details-hide-button = विवरण छिपाएं
 plan-details-total-label = कुल
 
-## Component - PlanErrorDialog
-
-
 ## Price details including tax
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 price-details-no-tax = { $priceAmount }
-
-## Component - SubscriptionTitle
-
 
 ## Component - TermsAndPrivacy
 
@@ -135,24 +102,14 @@ privacy = गोपनीयता सूचना
 document =
     .title = Firefox Accounts
 
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Error messages
 
 expired-card-error = लगता है आपके कार्ड की अवधि समाप्त हो गई है। दूसरा कार्ड आज़मा कर देखें।
 insufficient-funds-error = लगता है आपके कार्ड में अपर्याप्त राशि है। दूसरा कार्ड आज़मा कर देखें।
 
-## Hooks - coupons
-
-
 ## Routes - Checkout - New user
 
 new-user-card-title = अपने कार्ड की जानकारी दर्ज करें
-
-## Routes - Product and Subscriptions
-
 
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
@@ -167,44 +124,13 @@ pay-with-heading-card-only = कार्ड से भुगतान करे
 
 brand-name-apple-app-store-2 = { -app-store }
 
-## Routes - Product - Subscription upgrade
-
-
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = सदस्यता रद्द करें
 
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-
-## Routes - Subscription
-
-
-## Routes - Subscriptions - Errors
-
-
 ## Routes - Subscription - ActionButton
 
 pay-update-change-btn = बदलें
-
-## Routes - Subscriptions - Cancel and IapItem
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $date (Date) - The date for the next time a charge will occur.
-
-
-## Routes - Subscription - PaymentUpdate
-
-
-# $expirationDate (Date) - The payment card's expiration date.
-
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -218,6 +144,3 @@ reactivate-confirm-dialog-header = { $name } का उपयोग करना
 ## $date (Date) - Last day of product access
 
 reactivate-success-button = बंद करें
-
-## Routes - Subscriptions - Subscription iap item
-

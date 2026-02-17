@@ -20,9 +20,6 @@ coupon-enter-code =
 default-input-error = K'atzinel re k'ojlib'äl re'.
 input-error-is-required = Najowäx { $label }
 
-## Component - Header
-
-
 ## Component - NewUserEmailForm
 
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -75,9 +72,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = K'a tiqasäx
 
-## Component - PaymentConsentCheckbox
-
-
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Titojtob'ëx chik
@@ -99,9 +93,6 @@ payment-update-btn = Tik'ex
 payment-pay-btn = Titzij wakami
 payment-validate-name-error = Tatz'ib'aj ab'i'
 
-## Component - PaymentLegalBlurb
-
-
 ## Component - PaymentMethodHeader
 
 # This message is used to indicate the second step in a multi step process.
@@ -114,9 +105,6 @@ payment-processing-message = Tawoyob'ej richin niqasamajij ri atojik…
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = K'isb'en pa { $last4 } ri tarjeta'
-
-## Component - PayPalButton
-
 
 ## Component - PlanDetails
 
@@ -157,10 +145,6 @@ close-aria =
     .aria-label = Titz'apïx modal
 settings-subscriptions-title = Kitz'ib'axik b'i'aj
 
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Error messages
 
 # App error dialog
@@ -187,9 +171,6 @@ product-customer-error =
     .title = K'o k'ayewal toq nisamajïx ri okisanel
 product-plan-not-found = Man xilitäj ta ajil
 
-## Hooks - coupons
-
-
 ## Routes - Checkout - New user
 
 new-user-submit = Tatz'ib'aj ab'i' wakami
@@ -203,24 +184,11 @@ sub-update-payment-title = Retamab'al tojïk
 
 pay-with-heading-card-only = Titoj rik'in tarjeta'
 
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
-
 ## Routes - Product - Subscription upgrade
 
 sub-update-current-plan-label = Ajil wakami
 sub-update-new-plan-label = K'ak'a' ajil
 sub-update-total-label = Ronojel k'ak'a'
-
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
 
 ## Routes - Subscriptions - Cancel
 

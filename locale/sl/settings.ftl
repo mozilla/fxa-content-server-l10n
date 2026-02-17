@@ -1164,6 +1164,23 @@ tfa-row-backup-phone-description-v2 = To je najpreprostejša metoda obnovitve, �
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Spoznajte tveganje zamenjave SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Ustvarjeno: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Nazadnje uporabljeno: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Samo prijava. Ni mogoče uporabiti za sinhronizacijo.
+passkey-sub-row-delete-title = Izbriši geslo
+passkey-delete-modal-heading = Izbrišem ključ?
+passkey-delete-modal-content = To geslo bo odstranjeno iz vašega računa. Prijaviti se boste morali na drug način.
+passkey-delete-modal-cancel-button = Prekliči
+passkey-delete-modal-confirm-button = Izbriši geslo
+passkey-delete-success = Geslo je izbrisano
+passkey-delete-error = Pri brisanju gesla je prišlo do težave. Poskusite znova čez nekaj minut.
 
 ## Switch component
 
@@ -1182,6 +1199,16 @@ row-defaults-action-add = Dodaj
 row-defaults-action-change = Spremeni
 row-defaults-action-disable = Onemogoči
 row-defaults-status = Brez
+
+## UnitRowPasskey
+
+passkey-row-header = Gesla
+passkey-row-enabled = Omogočeno
+passkey-row-not-set = Ni nastavljeno
+passkey-row-action-create = Ustvari
+passkey-row-description = Naredite prijavo preprostejšo in varnejšo z dostopom do računa s telefonom ali drugo podprto napravo.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Kako to ščiti vaš račun
 
 ## Account recovery key sub-section on main Settings page
 

@@ -7,19 +7,10 @@
 
 settings-home = Inicio da conta
 
-## Component - CouponForm
-
-
 ## Component - Fields
 
 default-input-error = Este campo é obrigatorio
 input-error-is-required = { $label } é obrigatorio
-
-## Component - Header
-
-
-## Component - NewUserEmailForm
-
 
 ## Component - PaymentConfirmation
 
@@ -56,15 +47,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Continuar á descarga
 
-## Component - PaymentConsentCheckbox
-
-
-## Component - PaymentErrorView
-
-
-## Component - PaymentErrorView - IAP upgrade errors
-
-
 ## Component - PaymentForm
 
 payment-name =
@@ -77,21 +59,6 @@ payment-update-btn = Actualizar
 payment-pay-btn = Pagar agora
 payment-validate-name-error = Escriba o seu nome.
 
-## Component - PaymentLegalBlurb
-
-
-## Component - PaymentMethodHeader
-
-
-## Component - PaymentProcessing
-
-
-## Component - PaymentProviderDetails
-
-
-## Component - PayPalButton
-
-
 ## Component - PlanDetails
 
 plan-details-header = Detalles do produto
@@ -102,11 +69,6 @@ plan-details-total-label = Total
 ## Component - PlanErrorDialog
 
 product-no-such-plan = Ese plan non existe para este produto.
-
-## Price details including tax
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-
 
 ## Component - SubscriptionTitle
 
@@ -124,10 +86,6 @@ document =
 # General aria-label for closing modals
 close-aria =
     .aria-label = Pechar
-
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ## Error messages
 
@@ -152,37 +110,11 @@ product-customer-error =
     .title = Produciuse un problema ao cargar o cliente
 product-plan-not-found = Non se atopou o plan
 
-## Hooks - coupons
-
-
-## Routes - Checkout - New user
-
-
-## Routes - Product and Subscriptions
-
-
-## Routes - Product/AcceptedCards
-## Used in both Routes - Checkout and Product/SubscriptionCreate
-
-
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
-
 ## Routes - Product - Subscription upgrade
 
 sub-update-current-plan-label = Plan actual
 sub-update-new-plan-label = Novo plan
 sub-update-total-label = Novo total
-
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
 
 ## Routes - Subscriptions - Cancel
 
@@ -222,12 +154,6 @@ sub-billing-update-success = Actualizouse a súa información de facturación
 
 pay-update-change-btn = Cambiar
 
-## Routes - Subscriptions - Cancel and IapItem
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-## $date (Date) - The date for the next time a charge will occur.
-
-
 ## Routes - Subscription - PaymentUpdate
 
 
@@ -258,6 +184,3 @@ reactivate-confirm-button = Subscribirse de novo
 reactivate-panel-copy = Perderá acceso a { $name } o <strong>{ $date }</strong>.
 reactivate-success-copy = Grazas! Está todo listo.
 reactivate-success-button = Pechar
-
-## Routes - Subscriptions - Subscription iap item
-

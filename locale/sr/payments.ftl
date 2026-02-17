@@ -27,9 +27,6 @@ coupon-enter-code =
 default-input-error = Ово поље је обавезно
 input-error-is-required = { $label } је обавезно
 
-## Component - Header
-
-
 ## Component - NewUserEmailForm
 
 # "Required" to indicate that the user must use the checkbox below this text to
@@ -140,9 +137,6 @@ payment-processing-message = Сачекајте док обрадимо вашу
 ## Component - PaymentProviderDetails
 
 payment-confirmation-cc-card-ending-in = Картица завршава са { $last4 }
-
-## Component - PayPalButton
-
 
 ## Component - PlanDetails
 
@@ -422,12 +416,6 @@ sub-change-submit = Потврди промене
 sub-update-current-plan-label = Тренутни план
 sub-update-new-plan-label = Нови план
 sub-update-total-label = Нови укупни износ
-
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
 
 ## Routes - Subscriptions - Cancel
 

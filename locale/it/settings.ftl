@@ -1148,6 +1148,23 @@ tfa-row-backup-phone-description-v2 = Questo è il metodo di recupero più sempl
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Ulteriori informazioni sul rischio legato allo scambio di SIM (SIM swap)
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Creata: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Ultimo utilizzo: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Solo accesso. Non può essere utilizzata per la sincronizzazione.
+passkey-sub-row-delete-title = Elimina passkey
+passkey-delete-modal-heading = Eliminare la passkey?
+passkey-delete-modal-content = Questa passkey verrà rimossa dal tuo account. Dovrai accedere in un altro modo.
+passkey-delete-modal-cancel-button = Annulla
+passkey-delete-modal-confirm-button = Elimina passkey
+passkey-delete-success = Passkey eliminata
+passkey-delete-error = Si è verificato un problema durante l’eliminazione della passkey. Riprova tra qualche minuto.
 
 ## Switch component
 
@@ -1166,6 +1183,16 @@ row-defaults-action-add = Aggiungi
 row-defaults-action-change = Modifica
 row-defaults-action-disable = Disattiva
 row-defaults-status = Nessuno
+
+## UnitRowPasskey
+
+passkey-row-header = Passkey
+passkey-row-enabled = Attiva
+passkey-row-not-set = Non impostata
+passkey-row-action-create = Crea
+passkey-row-description = Rendi l’accesso più facile e sicuro utilizzando il tuo telefono o un altro dispositivo supportato per accedere al tuo account.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Come aiuta a proteggere il tuo account
 
 ## Account recovery key sub-section on main Settings page
 

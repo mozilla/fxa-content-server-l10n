@@ -1174,6 +1174,23 @@ tfa-row-backup-phone-description-v2 = Dyma'r dull adfer hawsaf os na allwch ddef
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Gwybodaeth am risg cyfnewid SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Wedi'i greu: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Defnyddiwyd ddiwethaf: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Mewngofnodi yn unig. Nid oes modd ei ddefnyddio i gysoni.
+passkey-sub-row-delete-title = Dileu allweddi
+passkey-delete-modal-heading = Dileu eich cyfrinair?
+passkey-delete-modal-content = Bydd y cyfrinair hwn yn cael ei dynnu o'ch cyfrif. Bydd angen i chi fewngofnodi gan ddefnyddio ffordd wahanol.
+passkey-delete-modal-cancel-button = Diddymu
+passkey-delete-modal-confirm-button = Dileu allweddi
+passkey-delete-success = paskey wedi'i ddileu
+passkey-delete-error = Bu problem wrth ddileu'ch allwedd. Ceisiwch eto mewn ychydig funudau.
 
 ## Switch component
 
@@ -1192,6 +1209,16 @@ row-defaults-action-add = Ychwanegu
 row-defaults-action-change = Newid
 row-defaults-action-disable = Analluogi
 row-defaults-status = Dim
+
+## UnitRowPasskey
+
+passkey-row-header = Passkeys
+passkey-row-enabled = Galluogwyd
+passkey-row-not-set = Heb ei Osod
+passkey-row-action-create = Creu
+passkey-row-description = Gwnewch fewngofnodi yn haws ac yn fwy diogel trwy ddefnyddio'ch ffôn neu ddyfais arall a gefnogir i fynd i mewn i'ch cyfrif.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Sut mae hyn yn diogelu eich cyfrif
 
 ## Account recovery key sub-section on main Settings page
 

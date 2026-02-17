@@ -1150,6 +1150,23 @@ tfa-row-backup-phone-description-v2 = Este es el método de recuperación más f
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Más información sobre el riesgo de intercambio de SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Creado: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Último uso: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Solo inicio de sesión. No se puede usar para sincronizar.
+passkey-sub-row-delete-title = Borrar clave de acceso
+passkey-delete-modal-heading = ¿Borrar la clave de acceso?
+passkey-delete-modal-content = Esta clave de acceso será eliminada de tu cuenta. Tendrás que iniciar sesión de una forma diferente.
+passkey-delete-modal-cancel-button = Cancelar
+passkey-delete-modal-confirm-button = Borrar clave de acceso
+passkey-delete-success = Clave de acceso eliminada
+passkey-delete-error = Hubo un problema borrando tu clave de acceso. Probá de nuevo en unos minutos.
 
 ## Switch component
 
@@ -1168,6 +1185,16 @@ row-defaults-action-add = Agregar
 row-defaults-action-change = Cambiar
 row-defaults-action-disable = Deshabilitar
 row-defaults-status = Ninguno
+
+## UnitRowPasskey
+
+passkey-row-header = Claves de acceso
+passkey-row-enabled = Habilitado
+passkey-row-not-set = No establecida
+passkey-row-action-create = Crear
+passkey-row-description = Hacé que el inicio de sesión sea más fácil y seguro usando tu teléfono u otro dispositivo compatible para ingresar a tu cuenta.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Cómo esto protege tu cuenta
 
 ## Account recovery key sub-section on main Settings page
 

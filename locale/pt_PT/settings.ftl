@@ -1150,6 +1150,23 @@ tfa-row-backup-phone-description-v2 = Este é o método de recuperação mais f�
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Saber mais sobre o risco de troca de SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Criado: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Última utilização: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Iniciar sessão apenas. Não pode ser utilizado para sincronizar.
+passkey-sub-row-delete-title = Eliminar chave de acesso
+passkey-delete-modal-heading = Apagar a sua chave?
+passkey-delete-modal-content = Esta chave será removida da sua conta. Terá de iniciar a sessão de uma forma diferente.
+passkey-delete-modal-cancel-button = Cancelar
+passkey-delete-modal-confirm-button = Eliminar chave de acesso
+passkey-delete-success = Chave eliminada
+passkey-delete-error = Ocorreu um problema ao eliminar a sua chave. Tente novamente dentro de alguns minutos.
 
 ## Switch component
 
@@ -1168,6 +1185,16 @@ row-defaults-action-add = Adicionar
 row-defaults-action-change = Alterar
 row-defaults-action-disable = Desativar
 row-defaults-status = Nenhum
+
+## UnitRowPasskey
+
+passkey-row-header = Chaves
+passkey-row-enabled = Ativado
+passkey-row-not-set = Não definida
+passkey-row-action-create = Criar
+passkey-row-description = Torne o início de sessão mais fácil e mais seguro ao utilizar o seu telefone ou outro dispositivo suportado para aceder à sua conta.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Como isto protege a sua conta
 
 ## Account recovery key sub-section on main Settings page
 

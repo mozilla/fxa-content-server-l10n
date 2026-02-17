@@ -88,9 +88,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Йөкләүне дәвам итү
 
-## Component - PaymentConsentCheckbox
-
-
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Янәдән тырышып карау
@@ -182,10 +179,6 @@ settings-subscriptions-title = Язылулар
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Промо-код
 
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Error messages
 
 # App error dialog
@@ -208,9 +201,6 @@ product-profile-error =
 product-customer-error =
     .title = Кулланучыны йөкләгәндә хата китте
 product-plan-not-found = План табылмады
-
-## Hooks - coupons
-
 
 ## Routes - Checkout - New user
 

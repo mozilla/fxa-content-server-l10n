@@ -347,11 +347,22 @@ subscriptionRenewalReminder-content-intro = Vaša trenutna naročnina je nastavl
 subscriptionRenewalReminder-content-discount-change = Vaš naslednji račun odraža spremembo cene, saj je prejšnji popust potekel in je uveljavljen nov.
 subscriptionRenewalReminder-content-discount-ending = Ker je prejšnji popust potekel, se bo naročnina podaljšala po standardni ceni.
 # Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Takrat bo { -brand-mozilla } obnovil vašo dnevno naročnino in način plačila v višini { $invoiceTotalExcludingTax } + { $invoiceTax } davek bo pripisal plačilu v vašem računu.
+subscriptionRenewalReminder-content-charge-with-tax-week = Takrat bo { -brand-mozilla } obnovil vašo tedensko naročnino in plačilo { $invoiceTotalExcludingTax } + { $invoiceTax } davek bo pripisalo plačilnemu sredstvu v vašem računu.
+subscriptionRenewalReminder-content-charge-with-tax-month = Takrat bo { -brand-mozilla } obnovil vašo mesečno naročnino in plačilo { $invoiceTotalExcludingTax } + { $invoiceTax } davek bo nastalo za plačilno sredstvo v vašem računu.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Takrat bo { -brand-mozilla } obnovil vašo šestmesečno naročnino in plačilo { $invoiceTotalExcludingTax } + { $invoiceTax } davek bo nastalo za plačilno sredstvo v vašem računu.
+subscriptionRenewalReminder-content-charge-with-tax-year = Takrat vam { -brand-mozilla } obnovi letno naročnino in plačilo { $invoiceTotalExcludingTax } + { $invoiceTax } davek bo nastalo za plačilno sredstvo v vašem računu.
+subscriptionRenewalReminder-content-charge-with-tax-default = Takrat vam bo { -brand-mozilla } obnovil naročnino in način plačila v višini { $invoiceTotalExcludingTax } + { $invoiceTax } davek bo priveden na vaš račun.
+# Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-# Tells the customer that their subscription price will change at the end of the current billing cycle
-subscriptionRenewalReminder-content-charge = Takrat vam bo { -brand-mozilla } obnovil naročnino na { $planIntervalCount } { $planInterval } in plačilno sredstvo v vašem računu bo nabralo { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-day = Takrat bo { -brand-mozilla } obnovil vašo dnevno naročnino in plačilno sredstvo v vašem računu bo nabralo { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Takrat vam bo { -brand-mozilla } obnovil tedensko naročnino in plačilno sredstvo v vašem računu bo nabralo { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Takrat bo { -brand-mozilla } obnovil vašo mesečno naročnino in plačilno sredstvo v vašem računu bo nabralo { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Takrat vam bo { -brand-mozilla } obnovil šestmesečno naročnino in plačilno sredstvo v vašem računu bo nabralo { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Takrat vam bo { -brand-mozilla } obnovil letno naročnino in plačilno sredstvo v vašem računu bo nabralo { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Takrat vam bo { -brand-mozilla } obnovil naročnino in plačilno sredstvo v vašem računu bo nabralo { $invoiceTotal }.
 subscriptionRenewalReminder-content-closing = Lep pozdrav,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

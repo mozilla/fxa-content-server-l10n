@@ -1152,6 +1152,23 @@ tfa-row-backup-phone-description-v2 = Detta är den enklaste återställningsmet
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Lär dig mer om SIM-bytesattack
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Skapad: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Senast använd: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Endast inloggning. Kan inte användas för att synkronisera.
+passkey-sub-row-delete-title = Ta bort lösenord
+passkey-delete-modal-heading = Ta bort din lösenordsnyckel?
+passkey-delete-modal-content = Denna lösenordsnyckel tas bort från ditt konto. Du måste logga in på ett annat sätt.
+passkey-delete-modal-cancel-button = Avbryt
+passkey-delete-modal-confirm-button = Ta bort lösenord
+passkey-delete-success = Lösenordsnyckel borttagen
+passkey-delete-error = Det gick inte att ta bort din lösenordsnyckel. Försök igen om några minuter.
 
 ## Switch component
 
@@ -1170,6 +1187,16 @@ row-defaults-action-add = Lägg till
 row-defaults-action-change = Ändra
 row-defaults-action-disable = Inaktivera
 row-defaults-status = Ingen
+
+## UnitRowPasskey
+
+passkey-row-header = Lösenordsnycklar
+passkey-row-enabled = Aktiverad
+passkey-row-not-set = Inte inställd
+passkey-row-action-create = Skapa
+passkey-row-description = Gör inloggning enklare och säkrare genom att komma in på ditt konto med din telefon eller annan enhet som stöds.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Hur detta skyddar ditt konto
 
 ## Account recovery key sub-section on main Settings page
 

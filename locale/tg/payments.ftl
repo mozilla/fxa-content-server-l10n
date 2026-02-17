@@ -90,9 +90,6 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Идома додани боргирӣ
 
-## Component - PaymentConsentCheckbox
-
-
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Аз нав кӯшиш кардан
@@ -126,9 +123,6 @@ payment-method-header = Тарзи пардохти худро интихоб к
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
 payment-method-first-approve = Аввал шумо бояд обунаи худро тасдиқ кунед
-
-## Component - PaymentProcessing
-
 
 ## Component - PaymentProviderDetails
 
@@ -341,9 +335,6 @@ product-customer-error =
 product-plan-not-found = Нақша ёфт нашуд
 product-location-unsupported-error = Ҷойгиршавӣ дастгирӣ намешавад
 
-## Hooks - coupons
-
-
 ## Routes - Checkout - New user
 
 new-user-step-1-2 = 1. «{ -product-mozilla-account }»-ро эҷод кунед
@@ -392,10 +383,6 @@ sub-update-new-plan-yearly = { $productName } (Барои ҳар сол)
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Бекор кардани обуна
-
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
 
 ## Routes - Subscription
 

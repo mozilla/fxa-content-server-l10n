@@ -343,11 +343,22 @@ subscriptionRenewalReminder-content-intro = A jelenlegi előfizetése { $reminde
 subscriptionRenewalReminder-content-discount-change = A következő számla az árazás változását tükrözi, mivel egy korábbi kedvezmény lejárt, és egy új kedvezmény került alkalmazásra.
 subscriptionRenewalReminder-content-discount-ending = Mivel egy korábbi kedvezmény lejárt, az előfizetése a szokásos áron újul meg.
 # Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Ekkor { -brand-mozilla } megújítja a napi előfizetését, és { $invoiceTotalExcludingTax } + { $invoiceTax } adó lesz érvényben a fizetési módra a fiókjában.
+subscriptionRenewalReminder-content-charge-with-tax-week = Ekkor { -brand-mozilla } megújítja a heti előfizetését, és { $invoiceTotalExcludingTax } + { $invoiceTax } adó lesz érvényben a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-with-tax-month = Ekkor { -brand-mozilla } megújítja a havi előfizetését, és { $invoiceTotalExcludingTax } + { $invoiceTax } adó lesz érvényben a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Ekkor { -brand-mozilla } megújítja a hathónapos előfizetését, és { $invoiceTotalExcludingTax } + { $invoiceTax } adó kerül felszámolásra a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-with-tax-year = Ekkor { -brand-mozilla } megújítja az éves előfizetését, és { $invoiceTotalExcludingTax } + { $invoiceTax } adó lesz terhelve a fizetési módja a fiókjában.
+subscriptionRenewalReminder-content-charge-with-tax-default = Ekkor { -brand-mozilla } megújítja az előfizetését, és { $invoiceTotalExcludingTax } + { $invoiceTax } adó lesz terhelve a fiókjában szereplő fizetési módra.
+# Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-# Tells the customer that their subscription price will change at the end of the current billing cycle
-subscriptionRenewalReminder-content-charge = Ekkor a { -brand-mozilla } megújítja a(z) { $planIntervalCount } { $planInterval } előfizetését, és { $invoiceTotal } összegű díjat számol fel a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-invoice-total-day = Ekkor { -brand-mozilla } megújítja a napi előfizetését, és { $invoiceTotal } összegű díjat számolunk fel a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Ekkor { -brand-mozilla } megújítja a heti előfizetését, és { $invoiceTotal } összegű díjat számolunk fel a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Ekkor { -brand-mozilla } megújítja a havi előfizetését, és { $invoiceTotal } összegű díjat számolunk fel a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Ekkor { -brand-mozilla } megújítja a hathónapos előfizetését, és { $invoiceTotal } összegű díjat számolunk fel a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Ekkor { -brand-mozilla } megújítja az éves előfizetését, és { $invoiceTotal } összegű díjat számolunk fel a fiókjában szereplő fizetési módra.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Ekkor { -brand-mozilla } megújítja az előfizetését, és { $invoiceTotal } összegű díjat számolunk fel a fiókjában szereplő fizetési módra.
 subscriptionRenewalReminder-content-closing = Üdvözlettel,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

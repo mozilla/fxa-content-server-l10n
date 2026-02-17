@@ -78,16 +78,10 @@ payment-confirmation-amount-month = { $amount } setiap { $intervalCount } bulan
 payment-confirmation-amount-year = { $amount } setiap { $intervalCount } tahun
 payment-confirmation-download-button = Lanjutkan mengunduh
 
-## Component - PaymentConsentCheckbox
-
-
 ## Component - PaymentErrorView
 
 payment-error-retry-button = Coba lagi
 payment-error-manage-subscription-button = Kelola langganan saya
-
-## Component - PaymentErrorView - IAP upgrade errors
-
 
 ## Component - PaymentForm
 
@@ -116,9 +110,6 @@ payment-method-header-second-step = 2. { payment-method-header }
 ## Component - PaymentProcessing
 
 payment-processing-message = Mohon tunggu sementara kami memproses pembayaran Anda…
-
-## Component - PaymentProviderDetails
-
 
 ## Component - PayPalButton
 
@@ -162,10 +153,6 @@ settings-subscriptions-title = Langganan
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Kode Promo
 
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Error messages
 
 # App error dialog
@@ -193,9 +180,6 @@ product-customer-error =
     .title = Bermasalah saat memuat pelanggan
 product-plan-not-found = Paket tidak ditemukan
 
-## Hooks - coupons
-
-
 ## Routes - Checkout - New user
 
 new-user-card-title = Masukkan informasi kartu Anda
@@ -203,17 +187,6 @@ new-user-card-title = Masukkan informasi kartu Anda
 ## Routes - Product and Subscriptions
 
 sub-update-payment-title = Informasi pembayaran
-
-## Routes - Product/AcceptedCards
-## Used in both Routes - Checkout and Product/SubscriptionCreate
-
-
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
 
 ## Routes - Product - Subscription upgrade
 

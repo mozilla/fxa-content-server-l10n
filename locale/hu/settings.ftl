@@ -1156,6 +1156,23 @@ tfa-row-backup-phone-description-v2 = Ez a legkönnyebb helyreállítási módsz
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Tudjon meg többet a SIM-csere kockázatáról
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Létrehozva: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Utoljára használt: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Csak bejelentkezés. Nem használható szinkronizáláshoz.
+passkey-sub-row-delete-title = Jelkulcs törlése
+passkey-delete-modal-heading = Törli a jelkulcsot?
+passkey-delete-modal-content = Ez a jelkulcs eltávolításra kerül a fiókjából. Másik módszerrel kell bejelentkeznie.
+passkey-delete-modal-cancel-button = Mégse
+passkey-delete-modal-confirm-button = Jelkulcs törlése
+passkey-delete-success = A jelkulcs törölve
+passkey-delete-error = Hiba történt a jelkulcs törlésekor. Próbálja újra néhány perc múlva.
 
 ## Switch component
 
@@ -1174,6 +1191,16 @@ row-defaults-action-add = Hozzáadás
 row-defaults-action-change = Módosítás
 row-defaults-action-disable = Letiltás
 row-defaults-status = Nincs
+
+## UnitRowPasskey
+
+passkey-row-header = Jelkódok
+passkey-row-enabled = Engedélyezve
+passkey-row-not-set = Nincs beállítva
+passkey-row-action-create = Létrehozás
+passkey-row-description = Tegye könnyebbé és biztonságosabbá a bejelentkezést a telefonjával vagy más támogatott eszközével, hogy belépjen a fiókjába.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Hogyan védi ez a fiókját
 
 ## Account recovery key sub-section on main Settings page
 
