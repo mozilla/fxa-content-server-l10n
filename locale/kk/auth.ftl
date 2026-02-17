@@ -342,6 +342,12 @@ subscriptionRenewalReminder-content-greeting = Құрметті { $productName }
 subscriptionRenewalReminder-content-intro = Ағымдағы жазылымыңыз { $reminderLength } күннен кейін автоматты түрде жаңартылады.
 subscriptionRenewalReminder-content-discount-change = Келесі төлем шотыңызда бағаның өзгергенін көресіз: ескі жеңілдік тоқтатылып, оның орнына жаңа жеңілдік қосылды.
 subscriptionRenewalReminder-content-discount-ending = Алдыңғы жеңілдік мерзімі аяқталғандықтан, жазылымыңыз стандартты бағамен жаңартылады.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = Сол кезде, { -brand-mozilla } сіздің { $planIntervalCount } { $planInterval } жазылымыңызды жаңартады және сіздің тіркелгіңіздегі төлем әдісінен { $invoiceTotal } ақы алынады.
 subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

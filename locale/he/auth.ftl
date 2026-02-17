@@ -341,6 +341,12 @@ subscriptionRenewalReminder-content-intro =
     }
 subscriptionRenewalReminder-content-discount-change = החשבונית הבאה שלך משקפת שינוי במחיר, מכיוון שהנחה קודמת הסתיימה והנחה חדשה הוחלה.
 subscriptionRenewalReminder-content-discount-ending = מכיוון שהנחה קודמת הסתיימה, המינוי שלך יתחדש בתעריף הרגיל.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = באותו המועד, { -brand-mozilla } יחדש את המינוי שלך ל־{ $planIntervalCount } { $planInterval }, וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
 subscriptionRenewalReminder-content-closing = בברכה,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

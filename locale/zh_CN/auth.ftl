@@ -327,6 +327,12 @@ subscriptionRenewalReminder-content-greeting = 尊敬的 { $productName } 用户
 subscriptionRenewalReminder-content-intro = 您当前的订阅将在 { $reminderLength } 天后自动续订。
 subscriptionRenewalReminder-content-discount-change = 您的下一期账单将体现因原折扣结束、新折扣生效引起的价格调整。
 subscriptionRenewalReminder-content-discount-ending = 由于原有折扣已结束，您的订阅将以标准价格续订。
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = 届时，{ -brand-mozilla } 将续订您的 { $planIntervalCount }{ $planInterval } 订阅，并向您账户所设置的付款方式收取 { $invoiceTotal }。
 subscriptionRenewalReminder-content-closing = 此致，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
