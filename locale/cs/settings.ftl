@@ -1160,6 +1160,23 @@ tfa-row-backup-phone-description-v2 = Jedná se o nejjednodušší způsob obnov
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Další informace o riziku při výměně karty SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Vytvořeno: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Naposledy použito: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Pouze se přihlásit. Nelze použít pro synchronizaci.
+passkey-sub-row-delete-title = Smazat přístupový kód
+passkey-delete-modal-heading = Smazat svůj přístupový klíč?
+passkey-delete-modal-content = Tento přístupový kód bude odebrán z vašeho účtu. Je potřeba se přihlásit jiným způsobem.
+passkey-delete-modal-cancel-button = Zrušit
+passkey-delete-modal-confirm-button = Smazat přístupový kód
+passkey-delete-success = Přístupový klíč byl smazán
+passkey-delete-error = Váš přístupový kód se nepodařilo smazat. Zkuste to znovu za několik minut.
 
 ## Switch component
 
@@ -1178,6 +1195,16 @@ row-defaults-action-add = Přidat
 row-defaults-action-change = Změnit
 row-defaults-action-disable = Zakázat
 row-defaults-status = Žádné
+
+## UnitRowPasskey
+
+passkey-row-header = Přístupové klíče
+passkey-row-enabled = Povoleno
+passkey-row-not-set = Nenastaveno
+passkey-row-action-create = Vytvořit
+passkey-row-description = Usnadněte si přihlašování a přihlašte se ke svému účtu pomocí svého telefonu nebo jiného podporovaného zařízení.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Jak tato funkce chrání váš účet
 
 ## Account recovery key sub-section on main Settings page
 
