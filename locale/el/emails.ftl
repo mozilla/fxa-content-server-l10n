@@ -337,7 +337,17 @@ subscriptionRenewalReminder-title = Η συνδρομή σας θα ανανεω
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Αγαπητέ πελάτη του { $productName },
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Η τρέχουσα συνδρομή σας έχει ρυθμιστεί ώστε να ανανεωθεί αυτόματα σε { $reminderLength } ημέρες.
+subscriptionRenewalReminder-content-discount-change = Το επόμενο παραστατικό σας αντικατοπτρίζει μια αλλαγή στην τιμολόγηση, καθώς μια προηγούμενη έκπτωση έληξε και εφαρμόστηκε μια νέα.
 subscriptionRenewalReminder-content-discount-ending = Επειδή μια προηγούμενη έκπτωση έχει λήξει, η συνδρομή σας θα ανανεωθεί στην κανονική τιμή.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+# Tells the customer that their subscription price will change at the end of the current billing cycle
+subscriptionRenewalReminder-content-charge = Τότε, η { -brand-mozilla } θα ανανεώσει τη συνδρομή σας ({ $planIntervalCount } { $planInterval }) και η μέθοδος πληρωμής του λογαριασμού σας θα χρεωθεί { $invoiceTotal }.
 subscriptionRenewalReminder-content-closing = Με εκτίμηση,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

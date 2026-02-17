@@ -112,6 +112,7 @@ not-found-button-back-to-subscriptions = Επιστροφή στις συνδρ�
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Αυτή η προσφορά έχει λήξει
+churn-cancel-flow-error-offer-expired-message = Δεν υπάρχουν προς το παρόν διαθέσιμες εκπτώσεις για αυτήν τη συνδρομή. Μπορείτε να προχωρήσετε σε ακύρωση αν το επιθυμείτε.
 churn-cancel-flow-error-button-continue-to-cancel = Συνέχεια για ακύρωση
 churn-cancel-flow-error-page-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 churn-cancel-flow-error-already-canceling-title = Η συνδρομή σας πρόκειται να λήξει
@@ -252,6 +253,9 @@ next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
 
 ## Churn flow - cancel
 
+churn-cancel-flow-success-title = Διαθέτετε ακόμα συνδρομή
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Η συνδρομή σας θα συνεχιστεί και θα εξοικονομήσετε { $discountPercent }% στον επόμενο λογαριασμό σας.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-thanks-valued-subscriber = Σας ευχαριστούμε που χρησιμοποιήσατε το { $productName }!
 churn-cancel-flow-button-back-to-subscriptions = Επιστροφή στις συνδρομές
