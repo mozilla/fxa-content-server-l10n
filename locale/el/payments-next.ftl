@@ -433,6 +433,7 @@ subscription-content-button-cancel-subscription = Ακύρωση συνδρομ�
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
 # Link to the terms and restrictions for a coupon offer.
 subscription-content-link-churn-intervention-terms-apply = Ισχύουν όροι
+subscription-content-link-churn-intervention-terms-aria = Δείτε τους όρους και τους περιορισμούς του κουπονιού
 
 ##
 
@@ -444,6 +445,8 @@ paypal-unavailable-error = Το { -brand-paypal } δεν είναι διαθέσ
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = Ο εκπτωτικός κωδικός έχει ήδη εφαρμοστεί
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Αυτή η έκπτωση εφαρμόστηκε σε μια συνδρομή { $productName } για τον λογαριασμό σας. Εάν χρειάζεστε ακόμα βοήθεια, επικοινωνήστε με την ομάδα υποστήριξης.
 churn-error-page-button-manage-subscriptions = Διαχείριση συνδρομών
 churn-error-page-button-contact-support = Επικοινωνία με την υποστήριξη
 churn-error-page-button-try-again = Δοκιμή ξανά
