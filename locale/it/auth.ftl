@@ -345,20 +345,20 @@ subscriptionRenewalReminder-content-discount-ending = Poiché lo sconto esistent
 # Variables
 #   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
 #   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
-subscriptionRenewalReminder-content-charge-with-tax-day = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento giornaliero e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } tasse al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-with-tax-week = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento settimanale e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } tasse al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-with-tax-month = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento mensile e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } tasse al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-with-tax-halfyear = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento semestrale e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } tasse al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-with-tax-year = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento annuale e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } tasse al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-with-tax-default = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } tasse al metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-with-tax-day = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento giornaliero e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } (tasse) tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-with-tax-week = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento settimanale e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } (tasse) tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-with-tax-month = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento mensile e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } (tasse) tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento semestrale e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } (tasse) tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-with-tax-year = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento annuale e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } (tasse) tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-with-tax-default = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento e verrà applicato un addebito di { $invoiceTotalExcludingTax } + { $invoiceTax } (tasse) tramite il metodo di pagamento sul tuo account.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionRenewalReminder-content-charge-invoice-total-day = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento giornaliero e verrà applicato un addebito di { $invoiceTotal } al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-invoice-total-week = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento settimanale e verrà applicato un addebito di { $invoiceTotal } al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-invoice-total-month = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento mensile e verrà applicato un addebito di { $invoiceTotal } al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-invoice-total-halfyear = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento semestrale e verrà applicato un addebito di { $invoiceTotal } al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-invoice-total-year = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento annuale e verrà applicato un addebito di { $invoiceTotal } al metodo di pagamento sul tuo account.
-subscriptionRenewalReminder-content-charge-invoice-total-default = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento e verrà applicato un addebito di { $invoiceTotal } al metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-invoice-total-day = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento giornaliero e verrà applicato un addebito di { $invoiceTotal } tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-invoice-total-week = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento settimanale e verrà applicato un addebito di { $invoiceTotal } tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-invoice-total-month = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento mensile e verrà applicato un addebito di { $invoiceTotal } tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento semestrale e verrà applicato un addebito di { $invoiceTotal } tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-invoice-total-year = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento annuale e verrà applicato un addebito di { $invoiceTotal } tramite il metodo di pagamento sul tuo account.
+subscriptionRenewalReminder-content-charge-invoice-total-default = A quel punto, { -brand-mozilla } rinnoverà il tuo abbonamento e verrà applicato un addebito di { $invoiceTotal } tramite il metodo di pagamento sul tuo account.
 subscriptionRenewalReminder-content-closing = Cordiali saluti,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
