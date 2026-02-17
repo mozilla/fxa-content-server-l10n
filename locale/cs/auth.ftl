@@ -344,23 +344,6 @@ subscriptionRenewalReminder-content-greeting = Vážený zákazníku produktu { 
 subscriptionRenewalReminder-content-intro = Vaše aktuální předplatné je nastaveno tak, aby se za { $reminderLength } dní automaticky obnovilo.
 subscriptionRenewalReminder-content-discount-change = Vaše příští faktura odráží změny v cenách, protože skončila předchozí sleva a byla uplatněna nová.
 subscriptionRenewalReminder-content-discount-ending = Protože skončila předchozí sleva, bude vaše předplatné obnoveno za standardní cenu.
-# Variables
-#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
-#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
-subscriptionRenewalReminder-content-charge-with-tax-day = V tu chvíli vám bude { -brand-mozilla } obnoveno denní předplatné a skrze platební metodu uvedenou u vašeho účtu bude stržena částka { $invoiceTotalExcludingTax } + { $invoiceTax } daň.
-subscriptionRenewalReminder-content-charge-with-tax-week = V tu chvíli vám bude obnoveno týdenní předplatné za { -brand-mozilla } a skrze platební metodu uvedenou u vašeho účtu bude stržena částka { $invoiceTotalExcludingTax } + { $invoiceTax } daň.
-subscriptionRenewalReminder-content-charge-with-tax-month = V tento okamžik vám bude { -brand-mozilla } obnoveno měsíční předplatné a skrze platební metodu nastavenou u vašeho účtu bude stržena částka { $invoiceTotalExcludingTax } + { $invoiceTax } daň.
-subscriptionRenewalReminder-content-charge-with-tax-halfyear = V tuto chvíli vám bude { -brand-mozilla } obnoveno na půl roku a skrze platební metodu uvedenou u vašeho účtu bude stržena částka { $invoiceTotalExcludingTax } + { $invoiceTax } daň.
-subscriptionRenewalReminder-content-charge-with-tax-year = V tuto chvíli vám roční předplatné obnoví za { -brand-mozilla } a skrze způsob platby u vašeho účtu bude stržený poplatek { $invoiceTotalExcludingTax } + { $invoiceTax } daň.
-subscriptionRenewalReminder-content-charge-with-tax-default = V tu chvíli vám { -brand-mozilla } předplatné obnoví a skrze způsob platby u vašeho účtu bude stržený poplatek { $invoiceTotalExcludingTax } + { $invoiceTax } daň.
-# Variables
-#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionRenewalReminder-content-charge-invoice-total-day = V tuto chvíli vám { -brand-mozilla } obnoví denní předplatné a skrze platební metodu nastavenou u vašeho účtu bude stržena platba ve výši { $invoiceTotal }.
-subscriptionRenewalReminder-content-charge-invoice-total-week = V tento okamžik vám obnoví týdenní předplatné za { -brand-mozilla } a skrze platební metodu nastavenou u vašeho účtu bude stržena částka { $invoiceTotal }.
-subscriptionRenewalReminder-content-charge-invoice-total-month = V tento okamžik vám bude { -brand-mozilla } obnoveno měsíční předplatné a skrze platební metodu nastavenou u vašeho účtu bude stržena platba ve výši { $invoiceTotal }.
-subscriptionRenewalReminder-content-charge-invoice-total-halfyear = V tento okamžik vám bude { -brand-mozilla } obnoveno na 6 měsíců a bude vám strčena platba ve výši { $invoiceTotal }.
-subscriptionRenewalReminder-content-charge-invoice-total-year = V tuto chvíli vám roční předplatné obnoví za { -brand-mozilla } a skrze platební metodu nastavenou u vašeho účtu vám bude stržena platba ve výši { $invoiceTotal }.
-subscriptionRenewalReminder-content-charge-invoice-total-default = V tu chvíli vám bude { -brand-mozilla } předplatné obnoveno a skrze platební metodu nastavenou u vašeho účtu bude stržena platba ve výši { $invoiceTotal }.
 subscriptionRenewalReminder-content-closing = S pozdravem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
