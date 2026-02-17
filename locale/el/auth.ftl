@@ -340,6 +340,7 @@ subscriptionRenewalReminder-content-greeting = Αγαπητέ πελάτη το�
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Η τρέχουσα συνδρομή σας έχει ρυθμιστεί ώστε να ανανεωθεί αυτόματα σε { $reminderLength } ημέρες.
+subscriptionRenewalReminder-content-discount-change = Το επόμενο παραστατικό σας αντικατοπτρίζει μια αλλαγή στην τιμολόγηση, καθώς μια προηγούμενη έκπτωση έληξε και εφαρμόστηκε μια νέα.
 subscriptionRenewalReminder-content-discount-ending = Επειδή μια προηγούμενη έκπτωση έχει λήξει, η συνδρομή σας θα ανανεωθεί στην κανονική τιμή.
 subscriptionRenewalReminder-content-closing = Με εκτίμηση,
 # Variables

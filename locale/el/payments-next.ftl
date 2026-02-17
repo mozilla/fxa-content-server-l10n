@@ -252,6 +252,8 @@ next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
 
 ## Churn flow - cancel
 
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Σας ευχαριστούμε που χρησιμοποιήσατε το { $productName }!
 churn-cancel-flow-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 churn-cancel-flow-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
@@ -585,4 +587,5 @@ manage-payment-method-intent-error-generic = Προέκυψε μη αναμεν�
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-tax = Η επόμενη χρέωση θα είναι { $nextInvoiceTotal } (+ { $taxDue } φόρος) στις { $currentPeriodEnd }.
 next-charge-no-tax = Η επόμενη χρέωση θα είναι { $nextInvoiceTotal } στις { $currentPeriodEnd }.
