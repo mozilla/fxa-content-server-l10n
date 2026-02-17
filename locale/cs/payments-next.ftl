@@ -118,7 +118,7 @@ churn-cancel-flow-error-page-button-back-to-subscriptions = Zpět na předplatn�
 churn-cancel-flow-error-already-canceling-title = Vaše předplatné se blíží ke konci
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = K aplikaci { $productName } budete mít přístup do { $currentPeriodEnd }.
+churn-cancel-flow-error-already-canceling-message = K produktu { $productName } budete mít přístup až do { $currentPeriodEnd }.
 churn-cancel-flow-error-page-button-keep-subscription = Ponechat předplatné
 
 ## Loyalty discount - Not found page
@@ -267,7 +267,7 @@ churn-cancel-flow-button-continue-to-cancel = Pokračovat ke zrušení
 churn-cancel-flow-link-terms-and-restrictions = Platí podmínky a omezení
 churn-cancel-flow-discount-already-applied-title = Slevový kód byl již uplatněn
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-churn-cancel-flow-discount-already-applied-message = Tato sleva byla uplatněna na předplatné za { $productName } pro váš účet. Pokud stále potřebujete pomoci, kontaktujte náš tým podpory.
+churn-cancel-flow-discount-already-applied-message = Tato sleva byla uplatněna na předplatné produktu { $productName } pro váš účet. Pokud stále potřebujete pomoci, kontaktujte náš tým podpory.
 churn-cancel-flow-button-manage-subscriptions = Spravovat předplatné
 churn-cancel-flow-button-contact-support = Kontaktovat podporu
 
