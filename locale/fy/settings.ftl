@@ -66,6 +66,15 @@ recovery-key-pdf-support = Mear ynfo oer jo accountwerstelkaai
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Sorry, der is in probleem bard by it downloaden fan de accountwerstelkaai.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Oanmelde mei passkey
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Feilich oanmelde…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -249,6 +258,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Amerikaanske flagge
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Lade
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Passkey
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
