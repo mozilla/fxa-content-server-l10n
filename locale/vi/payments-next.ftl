@@ -113,12 +113,31 @@ not-found-button-back-to-subscriptions = Quay lại gói đăng ký
 
 churn-cancel-flow-error-offer-expired-title = Ưu đãi này đã hết hạn
 churn-cancel-flow-error-page-button-back-to-subscriptions = Quay lại gói đăng ký
+churn-cancel-flow-error-already-canceling-title = Gói đăng ký của bạn sắp hết hạn
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Bạn sẽ tiếp tục có quyền truy cập vào { $productName } cho đến { $currentPeriodEnd }.
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Không tìm thấy trang
 not-found-loyalty-discount-description = Trang bạn đang tìm kiếm không tồn tại.
 not-found-loyalty-discount-button-back-to-subscriptions = Quay lại gói đăng ký
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Giữ gói đăng ký ngày
+interstitial-offer-button-keep-current-interval-weekly = Giữ gói đăng ký tuần
+interstitial-offer-button-keep-current-interval-monthly = Giữ gói đăng ký tháng
+interstitial-offer-button-keep-current-interval-halfyearly = Giữ gói đăng ký sáu tháng
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Chúng tôi không tìm thấy gói đăng ký nào đang hoạt động.
+interstitial-offer-error-subscription-not-found-message = Có vẻ như gói đăng ký này không còn hiệu lực nữa.
+interstitial-offer-error-general-heading = Ưu đãi không khả dụng
+interstitial-offer-error-general-message = Có vẻ như ưu đãi này hiện không khả dụng.
+interstitial-offer-error-button-back-to-subscriptions = Quay lại gói đăng ký
 
 ## Page - Subscription Management
 
