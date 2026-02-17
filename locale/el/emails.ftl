@@ -264,7 +264,9 @@ subscriptionEndingReminder-title = Η συνδρομή σας στο { $productN
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Η πρόσβασή σας στο { $productName } θα λήξει στις <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Εάν επιθυμείτε να συνεχίσετε να χρησιμοποιείτε το { $productName }, μπορείτε να ενεργοποιήσετε εκ νέου τη συνδρομή σας στις <a data-l10n-name="subscriptionEndingReminder-account-settings">Ρυθμίσεις λογαριασμού</a> πριν από τις <strong>{ $serviceLastActiveDateOnly }</strong>. Εάν χρειάζεστε βοήθεια, <a data-l10n-name="subscriptionEndingReminder-contact-support">επικοινωνήστε με την ομάδα υποστήριξης</a>.
 subscriptionEndingReminder-content-line1-plaintext = Η πρόσβασή σας στο { $productName } θα λήξει στις { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Εάν επιθυμείτε να συνεχίσετε να χρησιμοποιείτε το { $productName }, μπορείτε να ενεργοποιήσετε εκ νέου τη συνδρομή σας στις Ρυθμίσεις λογαριασμού πριν από τις { $serviceLastActiveDateOnly }. Εάν χρειάζεστε βοήθεια, επικοινωνήστε με την ομάδα υποστήριξης.
 subscriptionEndingReminder-content-closing = Ευχαριστούμε για την πολύτιμη συνδρομή σας!
 subscriptionEndingReminder-churn-title = Θέλετε να διατηρήσετε την πρόσβαση;
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Ισχύουν ειδικοί όροι και περιορισμοί</a>
@@ -335,6 +337,7 @@ subscriptionRenewalReminder-title = Η συνδρομή σας θα ανανεω
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Αγαπητέ πελάτη του { $productName },
+subscriptionRenewalReminder-content-discount-ending = Επειδή μια προηγούμενη έκπτωση έχει λήξει, η συνδρομή σας θα ανανεωθεί στην κανονική τιμή.
 subscriptionRenewalReminder-content-closing = Με εκτίμηση,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

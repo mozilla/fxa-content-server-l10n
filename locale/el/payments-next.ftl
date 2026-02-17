@@ -260,6 +260,8 @@ churn-cancel-flow-button-stay-subscribed-and-save = Διατηρήστε τη σ
 churn-cancel-flow-button-continue-to-cancel = Συνέχεια για ακύρωση
 churn-cancel-flow-link-terms-and-restrictions = Ισχύουν ειδικοί όροι και περιορισμοί
 churn-cancel-flow-discount-already-applied-title = Ο εκπτωτικός κωδικός έχει ήδη εφαρμοστεί
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Αυτή η έκπτωση εφαρμόστηκε σε μια συνδρομή { $productName } για τον λογαριασμό σας. Εάν χρειάζεστε ακόμα βοήθεια, επικοινωνήστε με την ομάδα υποστήριξης.
 churn-cancel-flow-button-manage-subscriptions = Διαχείριση συνδρομών
 churn-cancel-flow-button-contact-support = Επικοινωνία με την υποστήριξη
 
