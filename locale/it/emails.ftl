@@ -5,7 +5,7 @@
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronizza dispositivi">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositivi">
-fxa-privacy-url = Informativa sulla privacy { -brand-mozilla }
+fxa-privacy-url = Informativa sulla privacy  di { -brand-mozilla }
 moz-accounts-privacy-url-2 = Informativa sulla privacy degli { -product-mozilla-accounts }
 moz-accounts-terms-url = Condizioni di utilizzo del servizio degli { -product-mozilla-accounts }
 account-deletion-info-block-communications = Se il tuo account viene eliminato, continuerai a ricevere email da Mozilla Corporation e Mozilla Foundation, a meno che tu non <a data-l10n-name="unsubscribeLink">chieda di annullare l’iscrizione</a>.
