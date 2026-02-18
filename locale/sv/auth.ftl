@@ -343,11 +343,22 @@ subscriptionRenewalReminder-content-intro = Din nuvarande prenumeration är inst
 subscriptionRenewalReminder-content-discount-change = Din nästa faktura återspeglar en ändrad prissättning, eftersom en tidigare rabatt har upphört och en ny rabatt har tillämpats.
 subscriptionRenewalReminder-content-discount-ending = Eftersom en tidigare rabatt har upphört förnyas din prenumeration till ordinarie pris.
 # Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Vid den tidpunkten förnyar { -brand-mozilla } din dagliga prenumeration och en debitering på { $invoiceTotalExcludingTax } + { $invoiceTax } skatt debiteras betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-with-tax-week = Vid den tidpunkten kommer { -brand-mozilla } att förnya ditt veckoabonnemang och en debitering på { $invoiceTotalExcludingTax } + { $invoiceTax } skatt debiteras betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-with-tax-month = Vid den tidpunkten kommer { -brand-mozilla } att förnya ditt månadsabonnemang och en debitering på { $invoiceTotalExcludingTax } + { $invoiceTax } skatt debiteras betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Vid den tidpunkten förnyar { -brand-mozilla } ditt sexmånadersprenumeration och en debitering på { $invoiceTotalExcludingTax } + { $invoiceTax } skatt debiteras betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-with-tax-year = Vid den tidpunkten kommer { -brand-mozilla } att förnya din årsprenumeration och en debitering på { $invoiceTotalExcludingTax } + { $invoiceTax } skatt kommer att tillämpas på betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-with-tax-default = Vid den tidpunkten förnyar { -brand-mozilla } din prenumeration och en debitering på { $invoiceTotalExcludingTax } + { $invoiceTax } skatt debiteras betalningsmetoden på ditt konto.
+# Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
-#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
-# Tells the customer that their subscription price will change at the end of the current billing cycle
-subscriptionRenewalReminder-content-charge = Vid den tidpunkten kommer { -brand-mozilla } att förnya din { $planIntervalCount } { $planInterval } prenumeration och en avgift på { $invoiceTotal } kommer att tillämpas på betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-invoice-total-day = Vid den tidpunkten kommer { -brand-mozilla } att förnya din dagliga prenumeration och en debitering på { $invoiceTotal } kommer att tillämpas på betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Vid den tidpunkten kommer { -brand-mozilla } att förnya ditt veckoabonnemang och en debitering på { $invoiceTotal } kommer att tillämpas på betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Vid den tidpunkten kommer { -brand-mozilla } att förnya ditt månadsabonnemang och en debitering på { $invoiceTotal } kommer att debiteras på betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Vid den tidpunkten förnyar { -brand-mozilla } ditt sexmånadersprenumeration och en debitering på { $invoiceTotal } kommer att debiteras på betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Vid den tidpunkten kommer { -brand-mozilla } att förnya din årsprenumeration och en debitering på { $invoiceTotal } kommer att tillämpas på betalningsmetoden på ditt konto.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Vid den tidpunkten kommer { -brand-mozilla } att förnya din prenumeration och en debitering på { $invoiceTotal } kommer att tillämpas på betalningsmetoden på ditt konto.
 subscriptionRenewalReminder-content-closing = Vänliga hälsningar,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
