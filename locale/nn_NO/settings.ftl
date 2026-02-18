@@ -223,12 +223,12 @@ icon-warning-aria-label =
 authenticator-app-aria-label =
     .aria-label = Autentiserings-app
 backup-codes-icon-aria-label-v2 =
-    .aria-label = Reserve-autentiseringskodar slått på
+    .aria-label = Reserve-autentiseringskodar aktiverte
 backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Reserve-autentiseringskodar slått av
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
-    .aria-label = Gjennopprettings-SMS slått på
+    .aria-label = Gjennopprettings-SMS aktivert
 # Disabled version of backup-recovery-sms-icon-aria-label
 backup-recovery-sms-disabled-icon-aria-label =
     .aria-label = Gjennopprettings-SMS slått av
@@ -243,7 +243,7 @@ checkmark-success-icon-aria-label =
     .aria-label = Vellykka
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
-    .aria-label = Slått på
+    .aria-label = Aktivert
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Lat att melding
@@ -1152,6 +1152,19 @@ tfa-row-backup-phone-description-v2 = Dette er den enklaste gjenopprettingsmetod
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Finn ut meir om SIM-byterisiko
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Oppretta: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Sist brukt: { $lastUsedDate }
+passkey-sub-row-delete-title = Slett passnøkkel
+passkey-delete-modal-heading = Slette passnøkkelen?
+passkey-delete-modal-cancel-button = Avbryt
+passkey-delete-modal-confirm-button = Slett passnøkkel
+passkey-delete-success = Passnøkkel sletta
 
 ## Switch component
 
@@ -1170,6 +1183,15 @@ row-defaults-action-add = Legg til
 row-defaults-action-change = Endre
 row-defaults-action-disable = Slå av
 row-defaults-status = Ingen
+
+## UnitRowPasskey
+
+passkey-row-header = Passnøklar
+passkey-row-enabled = Aktivert
+passkey-row-not-set = Ikkje innstilt
+passkey-row-action-create = Opprett
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Korleis dette vernar kontoen din
 
 ## Account recovery key sub-section on main Settings page
 

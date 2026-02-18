@@ -346,6 +346,7 @@ subscriptionRenewalReminder-content-greeting = Luby kupc { $productName },
 subscriptionRenewalReminder-content-intro = Waš aktualny abonement so awtomatisce na wobnowjenje za někotre dny staja: { $reminderLength }.
 subscriptionRenewalReminder-content-discount-change = Waša přichodna zličbowanka změnu při tworjenju płaćiznow wotbłyšćuje, dokelž předchadny rabat hižo njepłaći a nowy rabat je so hižo nałožił.
 subscriptionRenewalReminder-content-discount-ending = Dokelž prjedawši rabat je skónčeny, so waš abonement na standardnu płaćiznu wróći staji.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Potom { -brand-mozilla } waš abonement podlěši a suma { $invoiceTotal } so na płaćensku metodu we wašim konće nałoži.
 subscriptionRenewalReminder-content-closing = Z přećelnym postrowom
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

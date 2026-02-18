@@ -1164,6 +1164,21 @@ tfa-row-backup-phone-description-v2 = To je najlóša wobnowjenska metoda, jeli 
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Informacije wo riziku padustwa SIM (SIM swap)
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Wutworjeny: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Posledni raz wužity: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Jenož přizjewjenje. Njeda so za synchronizaciju wužiwać.
+passkey-sub-row-delete-title = Hesłowy kluč zhašeć
+passkey-delete-modal-heading = Waš hesłowy kluč zhašeć?
+passkey-delete-modal-cancel-button = Přetorhnyć
+passkey-delete-modal-confirm-button = Hesłowy kluč zhašeć
+passkey-delete-success = Hesłowy kluč je so zhašał
 
 ## Switch component
 
@@ -1182,6 +1197,15 @@ row-defaults-action-add = Přidać
 row-defaults-action-change = Změnić
 row-defaults-action-disable = Znjemóžnić
 row-defaults-status = Žadyn
+
+## UnitRowPasskey
+
+passkey-row-header = Hesłowe kluče
+passkey-row-enabled = Zmóžnjeny
+passkey-row-not-set = Njenastajeny
+passkey-row-action-create = Wutworić
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Kak to waše konto škita
 
 ## Account recovery key sub-section on main Settings page
 
