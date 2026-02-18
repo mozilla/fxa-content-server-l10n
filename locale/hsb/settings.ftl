@@ -1176,9 +1176,11 @@ passkey-sub-row-last-used-date = Posledni raz wužity: { $lastUsedDate }
 passkey-sub-row-sign-in-only = Jenož přizjewjenje. Njeda so za synchronizaciju wužiwać.
 passkey-sub-row-delete-title = Hesłowy kluč zhašeć
 passkey-delete-modal-heading = Waš hesłowy kluč zhašeć?
+passkey-delete-modal-content = Tutón hesłowy kluč je so z wašeho konta wotstronił. Dyrbiće so na druhe wašnje přizjewić.
 passkey-delete-modal-cancel-button = Přetorhnyć
 passkey-delete-modal-confirm-button = Hesłowy kluč zhašeć
 passkey-delete-success = Hesłowy kluč je so zhašał
+passkey-delete-error = Při zhašenju wašeho hesłoweho kluča je problem nastał. Spytajće za mało mjeńšin hišće raz.
 
 ## Switch component
 
