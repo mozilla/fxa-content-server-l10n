@@ -5,7 +5,7 @@
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Logo { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sincronizza dispositivi">
 body-devices-image = <img data-l10n-name="devices-image" alt="Dispositivi">
-fxa-privacy-url = Informativa sulla privacy  di { -brand-mozilla }
+fxa-privacy-url = Informativa sulla privacy di { -brand-mozilla }
 moz-accounts-privacy-url-2 = Informativa sulla privacy degli { -product-mozilla-accounts }
 moz-accounts-terms-url = Condizioni di utilizzo del servizio degli { -product-mozilla-accounts }
 account-deletion-info-block-communications = Se il tuo account viene eliminato, continuerai a ricevere email da Mozilla Corporation e Mozilla Foundation, a meno che tu non <a data-l10n-name="unsubscribeLink">chieda di annullare l’iscrizione</a>.
@@ -446,6 +446,7 @@ verifyLoginCode-title-2 = Hai effettuato tu l’accesso a { $serviceName }?
 verifyLoginCode-safe = Aiutaci a mantenere il tuo account al sicuro approvando il tuo accesso su:
 verifyLoginCode-prompt-3 = In caso affermativo, questo è il tuo codice di autorizzazione:
 verifyLoginCode-expiry-notice = Il codice scadrà entro 5 minuti.
+verifyPrimary-title-2 = Conferma l’indirizzo email primario
 verifyPrimary-description = Una richiesta di autorizzazione a modificare l’account è stata inviata dal seguente dispositivo:
 verifyPrimary-subject = Conferma l’indirizzo email primario
 verifyPrimary-action-2 = Verifica indirizzo email
