@@ -1148,6 +1148,23 @@ tfa-row-backup-phone-description-v2 = C’est la méthode de récupération la p
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = En savoir plus sur le risque lié à l’échange de SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Créée le : { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Dernière utilisation : { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Connexion uniquement. Ne peut pas être utilisée pour synchroniser.
+passkey-sub-row-delete-title = Supprimer la clé d’accès
+passkey-delete-modal-heading = Supprimer votre clé d’accès ?
+passkey-delete-modal-content = Cette clé d’accès sera supprimée de votre compte. Vous devrez utiliser une méthode différente pour vous connecter.
+passkey-delete-modal-cancel-button = Annuler
+passkey-delete-modal-confirm-button = Supprimer la clé d’accès
+passkey-delete-success = Clé d’accès supprimée
+passkey-delete-error = Un problème est survenu lors de la suppression de votre clé d’accès. Réessayez dans quelques minutes.
 
 ## Switch component
 
@@ -1166,6 +1183,16 @@ row-defaults-action-add = Ajouter
 row-defaults-action-change = Modifier
 row-defaults-action-disable = Désactiver
 row-defaults-status = Aucun
+
+## UnitRowPasskey
+
+passkey-row-header = Clés d’accès
+passkey-row-enabled = Activée
+passkey-row-not-set = Non définie
+passkey-row-action-create = Créer
+passkey-row-description = Simplifiez et sécurisez la connexion en utilisant votre téléphone ou un autre appareil pris en charge pour accéder à votre compte.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = En quoi cela protège votre compte
 
 ## Account recovery key sub-section on main Settings page
 

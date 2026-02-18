@@ -334,6 +334,23 @@ subscriptionRenewalReminder-content-greeting = Chers utilisateurs et utilisatric
 subscriptionRenewalReminder-content-intro = Votre abonnement actuel est configuré pour se renouveler automatiquement dans { $reminderLength } jours.
 subscriptionRenewalReminder-content-discount-change = Votre prochaine facture reflète un changement de prix, car une remise précédente a pris fin et une nouvelle remise a été appliquée.
 subscriptionRenewalReminder-content-discount-ending = Une réduction précédente ayant pris fin, votre abonnement sera renouvelé au prix standard.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement quotidien et un montant de { $invoiceTotalExcludingTax } + { $invoiceTax } de taxes sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-with-tax-week = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement hebdomadaire et un montant de { $invoiceTotalExcludingTax } + { $invoiceTax } de taxes sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-with-tax-month = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement mensuel et un montant de { $invoiceTotalExcludingTax } + { $invoiceTax } de taxes sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement de six mois et un montant de { $invoiceTotalExcludingTax } + { $invoiceTax } de taxes sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-with-tax-year = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement annuel et un montant de { $invoiceTotalExcludingTax } + { $invoiceTax } de taxes sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-with-tax-default = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement et un montant de { $invoiceTotalExcludingTax } + { $invoiceTax } de taxes sera prélevé au moyen de paiement de votre compte.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement quotidien et un montant de { $invoiceTotal } sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-invoice-total-week = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement hebdomadaire et un montant de { $invoiceTotal } sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-invoice-total-month = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement mensuel et un montant de { $invoiceTotal } sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement de six mois et un montant de { $invoiceTotal } sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-invoice-total-year = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement annuel et un montant de { $invoiceTotal } sera prélevé au moyen de paiement de votre compte.
+subscriptionRenewalReminder-content-charge-invoice-total-default = À ce moment-là, { -brand-mozilla } renouvellera votre abonnement et un montant de { $invoiceTotal } sera prélevé au moyen de paiement de votre compte.
 subscriptionRenewalReminder-content-closing = Cordialement,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
