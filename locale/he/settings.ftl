@@ -1097,6 +1097,21 @@ tfa-row-backup-phone-description-v2 = זוהי שיטת השחזור הקלה ב
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = מידע נוסף על סיכון בהחלפת סים
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = תאריך יצירה:
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = בשימוש אחרון: { $lastUsedDate }
+passkey-sub-row-delete-title = מחיקת מפתח גישה
+passkey-delete-modal-heading = למחוק את מפתח הגישה שלך?
+passkey-delete-modal-content = מפתח גישה זה יוסר מהחשבון שלך. יהיה עליך להתחבר בדרך אחרת.
+passkey-delete-modal-cancel-button = ביטול
+passkey-delete-modal-confirm-button = מחיקת מפתח גישה
+passkey-delete-success = מפתח הגישה נמחק
+passkey-delete-error = הייתה בעיה במחיקת מפתח הגישה שלך. נא לנסות שוב בעוד מספר דקות.
 
 ## Switch component
 
@@ -1115,6 +1130,16 @@ row-defaults-action-add = הוספה
 row-defaults-action-change = שינוי
 row-defaults-action-disable = השבתה
 row-defaults-status = ללא
+
+## UnitRowPasskey
+
+passkey-row-header = מפתחות גישה
+passkey-row-enabled = מופעל
+passkey-row-not-set = לא מוגדר
+passkey-row-action-create = יצירה
+passkey-row-description = ניתן להפוך את ההתחברות לקלה ובטוחה יותר על־ידי שימוש בטלפון שלך או במכשיר נתמך אחר כדי להיכנס לחשבון שלך.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = כיצד זה מגן על החשבון שלך
 
 ## Account recovery key sub-section on main Settings page
 

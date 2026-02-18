@@ -357,6 +357,7 @@ subscriptionRenewalReminder-content-charge-invoice-total-week = באותו המ�
 subscriptionRenewalReminder-content-charge-invoice-total-month = באותו המועד, { -brand-mozilla } יחדש את המינוי החודשי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
 subscriptionRenewalReminder-content-charge-invoice-total-halfyear = באותו המועד, { -brand-mozilla } יחדש את המינוי החצי שנתי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
 subscriptionRenewalReminder-content-charge-invoice-total-year = באותו המועד, { -brand-mozilla } יחדש את המינוי השנתי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-invoice-total-default = באותו המועד, { -brand-mozilla } יחדש את המינוי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
 subscriptionRenewalReminder-content-closing = בברכה,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
