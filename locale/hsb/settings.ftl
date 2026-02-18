@@ -1206,6 +1206,7 @@ passkey-row-header = Hesłowe kluče
 passkey-row-enabled = Zmóžnjeny
 passkey-row-not-set = Njenastajeny
 passkey-row-action-create = Wutworić
+passkey-row-description = Wosnadńće přizjewjenje a wěsćiše wužiwajo waš telefon abo druhi podpěrany grat, zo byšće so do swojeho konta dóstał.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Kak to waše konto škita
 
