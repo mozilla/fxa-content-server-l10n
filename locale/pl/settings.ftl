@@ -249,6 +249,9 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Flaga USA
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Wczytywanie
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1140,6 +1143,7 @@ tfa-row-backup-phone-description-v2 = To najłatwiejsza metoda odzyskiwania, je�
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Więcej informacji o ryzyku zamiany karty SIM
+passkey-delete-modal-cancel-button = Anuluj
 
 ## Switch component
 

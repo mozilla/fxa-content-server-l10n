@@ -117,6 +117,10 @@ not-found-loyalty-discount-title = Nie odnaleziono strony
 not-found-loyalty-discount-description = Strona, której szukasz, nie istnieje.
 not-found-loyalty-discount-button-back-to-subscriptions = Wróć do subskrypcji
 
+## Error page
+
+interstitial-offer-error-button-back-to-subscriptions = Wróć do subskrypcji
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nie dodano żadnej metody płatności
