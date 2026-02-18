@@ -1163,12 +1163,12 @@ passkey-sub-row-created-date = Létrehozva: { $createdDate }
 # This is a string that shows when the user's passkey was last used.
 # Variables:
 #   $lastUsedDate (String) - a localized date string
-passkey-sub-row-last-used-date = Utoljára használt: { $lastUsedDate }
+passkey-sub-row-last-used-date = Utoljára használva: { $lastUsedDate }
 # These two sentences are referring to the passkey
 passkey-sub-row-sign-in-only = Csak bejelentkezés. Nem használható szinkronizáláshoz.
 passkey-sub-row-delete-title = Jelkulcs törlése
 passkey-delete-modal-heading = Törli a jelkulcsot?
-passkey-delete-modal-content = Ez a jelkulcs eltávolításra kerül a fiókjából. Másik módszerrel kell bejelentkeznie.
+passkey-delete-modal-content = Ez a jelkulcs el lesz távolítva a fiókjából. Másik módszerrel kell bejelentkeznie.
 passkey-delete-modal-cancel-button = Mégse
 passkey-delete-modal-confirm-button = Jelkulcs törlése
 passkey-delete-success = A jelkulcs törölve
