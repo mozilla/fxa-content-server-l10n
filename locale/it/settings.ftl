@@ -1157,7 +1157,7 @@ passkey-sub-row-created-date = Creata: { $createdDate }
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Ultimo utilizzo: { $lastUsedDate }
 # These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Solo accesso. Non può essere utilizzata per la sincronizzazione.
+passkey-sub-row-sign-in-only = Solo per accesso. Non può essere utilizzata per la sincronizzazione.
 passkey-sub-row-delete-title = Elimina passkey
 passkey-delete-modal-heading = Eliminare la passkey?
 passkey-delete-modal-content = Questa passkey verrà rimossa dal tuo account. Dovrai accedere in un altro modo.
