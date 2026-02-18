@@ -341,6 +341,22 @@ subscriptionRenewalReminder-content-intro =
     }
 subscriptionRenewalReminder-content-discount-change = החשבונית הבאה שלך משקפת שינוי במחיר, מכיוון שהנחה קודמת הסתיימה והנחה חדשה הוחלה.
 subscriptionRenewalReminder-content-discount-ending = מכיוון שהנחה קודמת הסתיימה, המינוי שלך יתחדש בתעריף הרגיל.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = באותו המועד, { -brand-mozilla } יחדש את המינוי היומי שלך וחיוב של { $invoiceTotalExcludingTax } + מס בסך { $invoiceTax } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-with-tax-week = באותו המועד, { -brand-mozilla } יחדש את המינוי השבועי שלך וחיוב של { $invoiceTotalExcludingTax } + מס בסך { $invoiceTax } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-with-tax-month = באותו המועד, { -brand-mozilla } יחדש את המינוי החודשי שלך וחיוב של { $invoiceTotalExcludingTax } + מס בסך { $invoiceTax } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = באותו המועד, { -brand-mozilla } יחדש את המינוי החצי שנתי שלך וחיוב של { $invoiceTotalExcludingTax } + מס בסך { $invoiceTax } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-with-tax-year = באותו המועד, { -brand-mozilla } יחדש את המינוי השנתי שלך וחיוב של { $invoiceTotalExcludingTax } + מס בסך { $invoiceTax } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-with-tax-default = באותו המועד, { -brand-mozilla } יחדש את המינוי שלך וחיוב של { $invoiceTotalExcludingTax } + מס בסך { $invoiceTax } יחול על אמצעי התשלום בחשבון שלך.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = באותו המועד, { -brand-mozilla } יחדש את המינוי היומי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-invoice-total-week = באותו המועד, { -brand-mozilla } יחדש את המינוי השבועי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-invoice-total-month = באותו המועד, { -brand-mozilla } יחדש את המינוי החודשי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = באותו המועד, { -brand-mozilla } יחדש את המינוי החצי שנתי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
+subscriptionRenewalReminder-content-charge-invoice-total-year = באותו המועד, { -brand-mozilla } יחדש את המינוי השנתי שלך וחיוב של { $invoiceTotal } יחול על אמצעי התשלום בחשבון שלך.
 subscriptionRenewalReminder-content-closing = בברכה,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
