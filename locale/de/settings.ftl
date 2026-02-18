@@ -1150,7 +1150,23 @@ tfa-row-backup-phone-description-v2 = Dies ist die einfachste Wiederherstellungs
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Weitere Informationen über die Risiken von SIM-Swap
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Erstellt: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Zuletzt verwendet: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Nur Anmeldung möglich. Kann nicht zur Synchronisierung verwendet werden.
+passkey-sub-row-delete-title = Zugangsschlüssel löschen
+passkey-delete-modal-heading = Ihren Zugangsschlüssel löschen?
+passkey-delete-modal-content = Dieser Zugangsschlüssel wird von Ihrem Konto entfernt. Sie müssen sich auf andere Weise anmelden.
 passkey-delete-modal-cancel-button = Abbrechen
+passkey-delete-modal-confirm-button = Zugangsschlüssel löschen
+passkey-delete-success = Zugangsschlüssel gelöscht
+passkey-delete-error = Beim Löschen Ihres Zugangsschlüssels ist ein Problem aufgetreten. Versuchen Sie es in ein paar Minuten erneut.
 
 ## Switch component
 
@@ -1169,6 +1185,16 @@ row-defaults-action-add = Hinzufügen
 row-defaults-action-change = Ändern
 row-defaults-action-disable = Deaktivieren
 row-defaults-status = Keine
+
+## UnitRowPasskey
+
+passkey-row-header = Zugangsschlüssel
+passkey-row-enabled = Aktiviert
+passkey-row-not-set = Nicht festgelegt
+passkey-row-action-create = Erstellen
+passkey-row-description = Machen Sie die Anmeldung einfacher und sicherer, indem Sie Ihr Mobiltelefon oder ein anderes unterstütztes Gerät zur Anmeldung bei Ihrem Konto verwenden.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Wie dies Ihr Konto schützt
 
 ## Account recovery key sub-section on main Settings page
 

@@ -1166,7 +1166,7 @@ passkey-sub-row-delete-title = Ta bort lösenordsnyckel
 passkey-delete-modal-heading = Ta bort din lösenordsnyckel?
 passkey-delete-modal-content = Denna lösenordsnyckel tas bort från ditt konto. Du måste logga in på ett annat sätt.
 passkey-delete-modal-cancel-button = Avbryt
-passkey-delete-modal-confirm-button = Ta bort lösenord
+passkey-delete-modal-confirm-button = Ta bort lösenordsnyckel
 passkey-delete-success = Lösenordsnyckel borttagen
 passkey-delete-error = Det gick inte att ta bort din lösenordsnyckel. Försök igen om några minuter.
 

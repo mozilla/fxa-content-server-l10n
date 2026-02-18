@@ -342,6 +342,23 @@ subscriptionRenewalReminder-content-greeting = Lieber { $productName }-Kunde,
 subscriptionRenewalReminder-content-intro = Ihr aktuelles Abonnement verlängert sich automatisch in { $reminderLength } Tagen.
 subscriptionRenewalReminder-content-discount-change = Ihre nächste Rechnung zeigt eine Preisänderung an, da ein vorheriger Rabatt abgelaufen ist und ein neuer Rabatt angewendet wurde.
 subscriptionRenewalReminder-content-discount-ending = Da ein vorheriger Rabatt abgelaufen ist, wird Ihr Abonnement zum Standardpreis erneuert.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr tägliches Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotalExcludingTax } + { $invoiceTax } Steuern belastet.
+subscriptionRenewalReminder-content-charge-with-tax-week = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr wöchentliches Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotalExcludingTax } + { $invoiceTax } Steuern belastet.
+subscriptionRenewalReminder-content-charge-with-tax-month = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr monatliches Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotalExcludingTax } + { $invoiceTax } Steuern belastet.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr sechsmonatiges Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotalExcludingTax } + { $invoiceTax } Steuern belastet.
+subscriptionRenewalReminder-content-charge-with-tax-year = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr jährliches Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotalExcludingTax } + { $invoiceTax } Steuern belastet.
+subscriptionRenewalReminder-content-charge-with-tax-default = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotalExcludingTax } + { $invoiceTax } Steuern belastet.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr tägliches Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotal } belastet.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr wöchentliches Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotal } belastet.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr monatliches Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotal } belastet.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr sechsmonatiges Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotal } belastet.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr jährliches Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotal } belastet.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Zu diesem Zeitpunkt erneuert { -brand-mozilla } Ihr Abonnement und Ihr Konto wird über diese Zahlungsmethode mit einer Gebühr in Höhe von { $invoiceTotal } belastet.
 subscriptionRenewalReminder-content-closing = Mit freundlichen Grüßen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
