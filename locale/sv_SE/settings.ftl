@@ -1162,7 +1162,7 @@ passkey-sub-row-created-date = Skapad: { $createdDate }
 passkey-sub-row-last-used-date = Senast använd: { $lastUsedDate }
 # These two sentences are referring to the passkey
 passkey-sub-row-sign-in-only = Endast inloggning. Kan inte användas för att synkronisera.
-passkey-sub-row-delete-title = Ta bort lösenord
+passkey-sub-row-delete-title = Ta bort lösenordsnyckel
 passkey-delete-modal-heading = Ta bort din lösenordsnyckel?
 passkey-delete-modal-content = Denna lösenordsnyckel tas bort från ditt konto. Du måste logga in på ett annat sätt.
 passkey-delete-modal-cancel-button = Avbryt

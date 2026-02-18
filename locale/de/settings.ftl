@@ -1150,6 +1150,7 @@ tfa-row-backup-phone-description-v2 = Dies ist die einfachste Wiederherstellungs
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Weitere Informationen über die Risiken von SIM-Swap
+passkey-delete-modal-cancel-button = Abbrechen
 
 ## Switch component
 
