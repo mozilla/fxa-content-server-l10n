@@ -353,6 +353,15 @@ subscriptionRenewalReminder-content-charge-with-tax-day = Potom { -brand-mozilla
 subscriptionRenewalReminder-content-charge-with-tax-week = Potom { -brand-mozilla } waš tydźenski abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.
 subscriptionRenewalReminder-content-charge-with-tax-month = Potom { -brand-mozilla } waš měsačny abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.
 subscriptionRenewalReminder-content-charge-with-tax-halfyear = Potom { -brand-mozilla } waš šěsćměsačny abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.
+subscriptionRenewalReminder-content-charge-with-tax-year = Potom { -brand-mozilla } waš lětny abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.
+subscriptionRenewalReminder-content-charge-with-tax-default = Potom { -brand-mozilla } waš abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Potom { -brand-mozilla } waš wšědny abonement podlěši a suma { $invoiceTotal } so na płaćensku metodu we wašim konće nałoži.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Potom { -brand-mozilla } waš tydźenski abonement podlěši a suma { $invoiceTotal } so na płaćensku metodu we wašim konće nałoži.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Potom { -brand-mozilla } waš měsačny abonement podlěši a suma { $invoiceTotal } so na płaćensku metodu we wašim konće nałoži.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Potom { -brand-mozilla } waš šěsćměsačny abonement podlěši a suma { $invoiceTotal } so na płaćensku metodu we wašim konće nałoži.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Potom { -brand-mozilla } waš lětny abonement podlěši a suma { $invoiceTotal } so na płaćensku metodu we wašim konće nałoži.
 subscriptionRenewalReminder-content-charge-invoice-total-default = Potom { -brand-mozilla } waš abonement podlěši a suma { $invoiceTotal } so na płaćensku metodu we wašim konće nałoži.
 subscriptionRenewalReminder-content-closing = Z přećelnym postrowom
 # Variables
