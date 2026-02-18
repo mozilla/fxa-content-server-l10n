@@ -1171,7 +1171,7 @@ passkey-delete-modal-heading = Törli a jelkulcsot?
 passkey-delete-modal-content = Ez a jelkulcs el lesz távolítva a fiókjából. Másik módszerrel kell bejelentkeznie.
 passkey-delete-modal-cancel-button = Mégse
 passkey-delete-modal-confirm-button = Jelkulcs törlése
-passkey-delete-success = A jelkulcs törölve
+passkey-delete-success = Jelkulcs törölve
 passkey-delete-error = Hiba történt a jelkulcs törlésekor. Próbálja újra néhány perc múlva.
 
 ## Switch component
@@ -1194,7 +1194,7 @@ row-defaults-status = Nincs
 
 ## UnitRowPasskey
 
-passkey-row-header = Jelkódok
+passkey-row-header = Jelkulcsok
 passkey-row-enabled = Engedélyezve
 passkey-row-not-set = Nincs beállítva
 passkey-row-action-create = Létrehozás
