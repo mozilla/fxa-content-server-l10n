@@ -66,6 +66,15 @@ recovery-key-pdf-support = Tìm hiểu thêm về khóa khôi phục tài khoả
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Rất tiếc, đã xảy ra sự cố khi tải xuống khóa khôi phục tài khoản của bạn.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Đăng nhập bằng passkey
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Đang đăng nhập an toàn…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -237,6 +246,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Cờ Hoa Kỳ
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Đang tải
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Passkey
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1113,6 +1128,14 @@ tfa-row-backup-phone-description-v2 = Đây là phương pháp khôi phục dễ
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Tìm hiểu về rủi ro hoán đổi SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Đã tạo: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Sử dụng lần cuối: { $lastUsedDate }
 
 ## Switch component
 
@@ -1131,6 +1154,13 @@ row-defaults-action-add = Thêm
 row-defaults-action-change = Thay đổi
 row-defaults-action-disable = Vô hiệu hóa
 row-defaults-status = Không có
+
+## UnitRowPasskey
+
+passkey-row-action-create = Tạo
+passkey-row-description = Đăng nhập dễ dàng và an toàn hơn bằng cách sử dụng điện thoại hoặc thiết bị được hỗ trợ khác để truy cập vào tài khoản của bạn.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1701,6 +1731,8 @@ signin-password-button-label = Mật khẩu
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 signin-code-expired-error = Mã đã hết hạn. Vui lòng đăng nhập lại.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Đã xảy ra lỗi. Vui lòng đăng nhập lại.
 signin-account-locked-banner-heading = Đặt lại mật khẩu của bạn
 signin-account-locked-banner-description = Chúng tôi đã khóa tài khoản của bạn để bảo vệ tài khoản khỏi hoạt động đáng ngờ.
 # This link points to https://accounts.firefox.com/reset_password

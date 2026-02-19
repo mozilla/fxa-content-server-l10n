@@ -335,7 +335,25 @@ subscriptionRenewalReminder-content-greeting = Kính gửi khách hàng { $produ
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Gói đăng ký hiện tại của bạn sẽ tự động gia hạn sau { $reminderLength } ngày.
+subscriptionRenewalReminder-content-discount-change = Hóa đơn tiếp theo của bạn sẽ phản ánh sự thay đổi về giá, vì chương trình giảm giá trước đó đã kết thúc và chương trình giảm giá mới đã được áp dụng.
 subscriptionRenewalReminder-content-discount-ending = Do chương trình giảm giá trước đó đã kết thúc, gói đăng ký của bạn sẽ được gia hạn với giá tiêu chuẩn.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký hàng ngày của bạn và khoản phí { $invoiceTotalExcludingTax } + { $invoiceTax } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-with-tax-week = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký hàng tuần của bạn và khoản phí { $invoiceTotalExcludingTax } + { $invoiceTax } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-with-tax-month = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký hàng tháng của bạn và khoản phí { $invoiceTotalExcludingTax } + { $invoiceTax } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký mỗi sáu tháng của bạn và khoản phí { $invoiceTotalExcludingTax } + { $invoiceTax } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-with-tax-year = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký hàng năm của bạn và khoản phí { $invoiceTotalExcludingTax } + { $invoiceTax } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-with-tax-default = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký của bạn và khoản phí { $invoiceTotalExcludingTax } + { $invoiceTax } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký hàng ngày của bạn và khoản phí { $invoiceTotal } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký hàng tuần của bạn và khoản phí { $invoiceTotal } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký hàng tháng của bạn và khoản phí { $invoiceTotal } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký mỗi sáu tháng của bạn và khoản phí { $invoiceTotal } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký hàng năm của bạn và khoản phí { $invoiceTotal } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Vào thời điểm đó, { -brand-mozilla } sẽ gia hạn gói đăng ký của bạn và khoản phí { $invoiceTotal } sẽ được áp dụng vào phương thức thanh toán trong tài khoản của bạn.
 subscriptionRenewalReminder-content-closing = Trân trọng,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
