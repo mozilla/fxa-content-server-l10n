@@ -1162,8 +1162,11 @@ passkey-sub-row-created-date = Δημιουργία: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Τελευταία χρήση: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Μόνο για σύνδεση. Δεν μπορεί να χρησιμοποιηθεί για συγχρονισμό.
 passkey-sub-row-delete-title = Διαγραφή κλειδιού πρόσβασης
 passkey-delete-modal-heading = Διαγραφή κλειδιού πρόσβασης;
+passkey-delete-modal-content = Αυτό το κλειδί πρόσβασης θα αφαιρεθεί από τον λογαριασμό σας. Θα πρέπει να συνδεθείτε με διαφορετικό τρόπο.
 passkey-delete-modal-cancel-button = Ακύρωση
 passkey-delete-modal-confirm-button = Διαγραφή κλειδιού πρόσβασης
 passkey-delete-success = Το κλειδί πρόσβασης διαγράφηκε
@@ -1190,6 +1193,8 @@ row-defaults-status = Κανένα
 ## UnitRowPasskey
 
 passkey-row-header = Κλειδιά πρόσβασης
+passkey-row-enabled = Ενεργό
+passkey-row-not-set = Δεν έχει ρυθμιστεί
 passkey-row-action-create = Δημιουργία
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Πώς προστατεύεται ο λογαριασμός σας
