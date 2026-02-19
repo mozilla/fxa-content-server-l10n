@@ -1160,6 +1160,13 @@ passkey-sub-row-created-date = Heñói: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Jeporu ramovéva: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Jeike añoite. Ndereiporukuaái embojuehe hag̃ua.
+passkey-sub-row-delete-title = Emboguete ñe’ẽñemi
+passkey-delete-modal-heading = ¿Emboguete pe ñe’ẽñemi?
+passkey-delete-modal-cancel-button = Eheja
+passkey-delete-modal-confirm-button = Emboguete ñe’ẽñemi
+passkey-delete-success = Ñe’ẽñemi mboguetepyre
 
 ## Switch component
 
@@ -1178,6 +1185,13 @@ row-defaults-action-add = Mbojuaju
 row-defaults-action-change = Moambue
 row-defaults-action-disable = Pe’a
 row-defaults-status = Avave
+
+## UnitRowPasskey
+
+passkey-row-header = Ñe’ẽñemi
+passkey-row-enabled = Myandypyre
+passkey-row-not-set = Heko’ỹva
+passkey-row-action-create = Moheñói
 
 ## Account recovery key sub-section on main Settings page
 
