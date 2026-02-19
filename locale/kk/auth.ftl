@@ -342,6 +342,23 @@ subscriptionRenewalReminder-content-greeting = Құрметті { $productName }
 subscriptionRenewalReminder-content-intro = Ағымдағы жазылымыңыз { $reminderLength } күннен кейін автоматты түрде жаңартылады.
 subscriptionRenewalReminder-content-discount-change = Келесі төлем шотыңызда бағаның өзгергенін көресіз: ескі жеңілдік тоқтатылып, оның орнына жаңа жеңілдік қосылды.
 subscriptionRenewalReminder-content-discount-ending = Алдыңғы жеңілдік мерзімі аяқталғандықтан, жазылымыңыз стандартты бағамен жаңартылады.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Сол уақытта { -brand-mozilla } сіздің күнделікті жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotalExcludingTax } + { $invoiceTax } салық мөлшерінде төлем алынады.
+subscriptionRenewalReminder-content-charge-with-tax-week = Сол уақытта { -brand-mozilla } сіздің апта сайынғы жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotalExcludingTax } + { $invoiceTax } салық мөлшерінде төлем алынады.
+subscriptionRenewalReminder-content-charge-with-tax-month = Сол уақытта { -brand-mozilla } сіздің ай сайынғы жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotalExcludingTax } + { $invoiceTax } салық мөлшерінде төлем алынады.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Сол уақытта { -brand-mozilla } сіздің алты ай сайынғы жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotalExcludingTax } + { $invoiceTax } салық мөлшерінде төлем алынады.
+subscriptionRenewalReminder-content-charge-with-tax-year = Сол уақытта { -brand-mozilla } сіздің жыл сайынғы жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotalExcludingTax } + { $invoiceTax } салық мөлшерінде төлем алынады.
+subscriptionRenewalReminder-content-charge-with-tax-default = Сол уақытта { -brand-mozilla } сіздің жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotalExcludingTax } + { $invoiceTax } салық мөлшерінде төлем алынады.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Сол уақытта { -brand-mozilla } сіздің күнделікті жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotal } төлем алынады.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Сол уақытта { -brand-mozilla } сіздің апта сайынғы жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotal } төлем алынады.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Сол уақытта { -brand-mozilla } сіздің ай сайынғы жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotal } төлем алынады.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Сол уақытта { -brand-mozilla } сіздің алты ай сайынғы жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotal } төлем алынады.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Сол уақытта { -brand-mozilla } сіздің жыл сайынғы жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotal } төлем алынады.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Сол уақытта { -brand-mozilla } сіздің жазылымыңызды жаңартады және шотыңыздағы төлем әдісінен { $invoiceTotal } төлем алынады.
 subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
