@@ -576,3 +576,12 @@ manage-payment-method-intent-error-try-again = Épa. Oiko apañuái ehepyme’�
 manage-payment-method-intent-error-get-in-touch = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽhare ndive.
 manage-payment-method-intent-error-insufficient-funds = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
 manage-payment-method-intent-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperireve.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-next-charge-with-discount-and-tax = Hembyvéta { $discountPercent } jehepyme’ẽrã oútavape { $nextInvoiceTotal } + { $taxDue } impuesto-ramo { $currentPeriodEnd }.
