@@ -1154,6 +1154,15 @@ tfa-row-backup-phone-description-v2 = Isto es le methodo de recuperation plus fa
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Saper plus re risco de excambio de SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Create le: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Usate le ultime vice le: { $lastUsedDate }
+passkey-delete-modal-cancel-button = Cancellar
 
 ## Switch component
 
@@ -1172,6 +1181,14 @@ row-defaults-action-add = Adder
 row-defaults-action-change = Cambiar
 row-defaults-action-disable = Disactivar
 row-defaults-status = Nulle
+
+## UnitRowPasskey
+
+passkey-row-enabled = Activate
+passkey-row-not-set = Non definite
+passkey-row-action-create = Crear
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Como isto protege tu conto
 
 ## Account recovery key sub-section on main Settings page
 
