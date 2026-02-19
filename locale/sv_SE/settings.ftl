@@ -1194,7 +1194,7 @@ passkey-row-header = Lösenordsnycklar
 passkey-row-enabled = Aktiverad
 passkey-row-not-set = Inte inställd
 passkey-row-action-create = Skapa
-passkey-row-description = Gör inloggning enklare och säkrare genom att komma in på ditt konto med din telefon eller annan enhet som stöds.
+passkey-row-description = Gör inloggningen enklare och säkrare genom att använda din telefon eller annan enhet som stöds för att komma in på ditt konto.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Hur detta skyddar ditt konto
 

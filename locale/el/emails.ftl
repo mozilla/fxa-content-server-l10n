@@ -192,6 +192,13 @@ passwordChanged-description-2 = Ο κωδικός πρόσβασης του { -p
 password-forgot-otp-subject-2 = Χρησιμοποιήστε το { $code } για να αλλάξετε τον κωδικό πρόσβασής σας
 password-forgot-otp-preview = Αυτός ο κωδικός λήγει σε 10 λεπτά
 password-forgot-otp-title = Ξεχάσατε τον κωδικό πρόσβασής σας;
+password-forgot-otp-expiry-notice = Αυτός ο κωδικός λήγει σε 10 λεπτά.
+passwordReset-subject-2 = Έγινε επαναφορά του κωδικού πρόσβασής σας
+passwordReset-title-2 = Έγινε επαναφορά του κωδικού πρόσβασής σας
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Επαναφέρατε τον κωδικό πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας στις:
+passwordResetAccountRecovery-subject-2 = Έγινε επαναφορά του κωδικού πρόσβασής σας
+passwordResetAccountRecovery-title-3 = Έγινε επαναφορά του κωδικού πρόσβασής σας
 passwordResetAccountRecovery-action-4 = Διαχείριση λογαριασμού
 passwordResetRecoveryPhone-subject = Χρησιμοποιήθηκε τηλέφωνο ανάκτησης
 passwordResetRecoveryPhone-action = Διαχείριση λογαριασμού
@@ -201,7 +208,13 @@ passwordResetWithRecoveryKeyPrompt-title = Έγινε επαναφορά του 
 passwordResetWithRecoveryKeyPrompt-action = Δημιουργία κλειδιού ανάκτησης λογαριασμού
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Δημιουργία κλειδιού ανάκτησης λογαριασμού:
+postAddAccountRecovery-subject-3 = Δημιουργήθηκε νέο κλειδί ανάκτησης λογαριασμού
+postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
+postAddLinkedAccount-subject-2 = Συνδέθηκε νέος λογαριασμός με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Ο λογαριασμός { $providerName } σας έχει συνδεθεί με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 postAddLinkedAccount-action = Διαχείριση λογαριασμού
 postAddRecoveryPhone-subject = Προστέθηκε τηλέφωνο ανάκτησης
 postAddRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
@@ -235,7 +248,16 @@ postChangeTwoStepAuthentication-title = Η ταυτοποίηση δύο παρ�
 postChangeTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postChangeTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
 postChangeTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Χρησιμοποιήθηκε κωδικός από το:
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
+postConsumeRecoveryCode-subject-v3 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
+postConsumeRecoveryCode-preview = Βεβαιωθείτε ότι ήσασταν εσείς
+postNewRecoveryCodes-subject-2 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
+postNewRecoveryCodes-title-2 = Δημιουργήσατε νέους εφεδρικούς κωδικούς ταυτοποίησης
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Δημιουργήθηκαν στο:
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
 postRemoveAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού διαγράφηκε
 postRemoveAccountRecovery-title-3 = Διαγράψατε το κλειδί ανάκτησης του λογαριασμού σας
@@ -250,9 +272,17 @@ postRemoveSecondary-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-subject-line-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 postRemoveTwoStepAuthentication-title-2 = Απενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
+postRemoveTwoStepAuthentication-not-required-2 = Δεν χρειάζεστε πλέον κωδικούς ασφαλείας από την εφαρμογή ταυτοποίησής σας κατά τη σύνδεση.
+postSigninRecoveryCode-subject = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης για σύνδεση
 postSigninRecoveryCode-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
+postSigninRecoveryCode-description = Εάν δεν το κάνατε εσείς αυτό, θα πρέπει να αλλάξετε άμεσα τον κωδικό πρόσβασής σας για να παραμείνει ασφαλής ο λογαριασμός σας.
+postSigninRecoveryCode-device = Πραγματοποιήσατε σύνδεση από το:
 postSigninRecoveryCode-action = Διαχείριση λογαριασμού
+postSigninRecoveryPhone-subject = Χρησιμοποιήθηκε τηλέφωνο ανάκτησης για σύνδεση
 postSigninRecoveryPhone-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
+postSigninRecoveryPhone-title = Το τηλέφωνο ανάκτησής σας χρησιμοποιήθηκε για σύνδεση
+postSigninRecoveryPhone-description = Εάν δεν το κάνατε εσείς αυτό, θα πρέπει να αλλάξετε άμεσα τον κωδικό πρόσβασής σας για να παραμείνει ασφαλής ο λογαριασμός σας.
+postSigninRecoveryPhone-device = Πραγματοποιήσατε σύνδεση από το:
 postSigninRecoveryPhone-action = Διαχείριση λογαριασμού
 postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!
 postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
@@ -263,6 +293,9 @@ postVerify-setup-2 = Σύνδεση άλλης συσκευής:
 postVerify-action-2 = Σύνδεση άλλης συσκευής
 postVerifySecondary-subject = Προστέθηκε δευτερεύον email
 postVerifySecondary-title = Προστέθηκε δευτερεύον email
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Έχετε επιβεβαιώσει επιτυχώς το { $secondaryEmail } ως δευτερεύον email για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης θα αποστέλλονται πλέον και στις δύο διευθύνσεις email.
 postVerifySecondary-action = Διαχείριση λογαριασμού
 recovery-subject = Επαναφέρετε τον κωδικό πρόσβασής σας
 recovery-title-2 = Ξεχάσατε τον κωδικό πρόσβασής σας;
@@ -276,6 +309,12 @@ recovery-action = Δημιουργία νέου κωδικού πρόσβαση�
 unblockCode-subject-2 = Χρησιμοποιήστε το { $unblockCode } για να συνδεθείτε
 unblockCode-preview = Αυτός ο κωδικός λήγει σε μία ώρα
 unblockCode-title = Εσείς κάνετε σύνδεση;
+unblockCode-prompt = Εάν ναι, ορίστε ο κωδικός έγκρισης που χρειάζεστε:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Εάν ναι, ορίστε ο κωδικός έγκρισης που χρειάζεστε: { $unblockCode }
+unblockCode-report = Εάν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και <a data-l10n-name="reportSignInLink">αναφέρετε το συμβάν σε εμάς</a>.
+unblockCode-report-plaintext = Εάν όχι, βοηθήστε μας να εμποδίσουμε τους εισβολείς και αναφέρετε το συμβάν σε εμάς.
 verificationReminderFinal-subject = Τελική υπενθύμιση για επιβεβαίωση του λογαριασμού σας
 confirm-account = Επιβεβαίωση λογαριασμού
 confirm-account-plaintext = { confirm-account }:
@@ -301,6 +340,9 @@ verifyAccountChange-preview =
        *[other] Αυτός ο κωδικός λήγει σε { $expirationTime } λεπτά.
     }
 verifyAccountChange-title = Αλλάζετε τις πληροφορίες του λογαριασμού σας;
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Βοηθήστε μας να προστατέψουμε τον λογαριασμό σας εγκρίνοντας αυτήν την αλλαγή στο:
+verifyAccountChange-prompt = Εάν ναι, ορίστε ο κωδικός έγκρισής σας:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =
@@ -311,6 +353,7 @@ verifyAccountChange-expiry-notice =
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Συνδεθήκατε στο { $clientName };
+verifyLogin-description-2 = Βοηθήστε μας να προστατέψουμε τον λογαριασμό σας επιβεβαιώνοντας τη σύνδεσή σας στο:
 verifyLogin-subject-2 = Επιβεβαίωση σύνδεσης
 verifyLogin-action = Επιβεβαίωση σύνδεσης
 # Variables:
@@ -320,6 +363,9 @@ verifyLoginCode-preview = Αυτός ο κωδικός λήγει σε 5 λεπ�
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Συνδεθήκατε στο { $serviceName };
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Βοηθήστε μας να προστατέψουμε τον λογαριασμό σας εγκρίνοντας τη σύνδεσή σας στο:
+verifyLoginCode-prompt-3 = Εάν ναι, ορίστε ο κωδικός έγκρισής σας:
 verifyLoginCode-expiry-notice = Λήγει σε 5 λεπτά.
 verifyPrimary-title-2 = Επιβεβαίωση κύριου email
 verifyPrimary-subject = Επιβεβαίωση κύριου email
