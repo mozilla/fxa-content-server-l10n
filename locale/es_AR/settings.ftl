@@ -1153,7 +1153,7 @@ tfa-row-backup-phone-sim-swap-risk-link = Más información sobre el riesgo de i
 # This is a string that shows when the user's passkey was created.
 # Variables:
 #   $createdDate (String) - a localized date string
-passkey-sub-row-created-date = Creado: { $createdDate }
+passkey-sub-row-created-date = Creada: { $createdDate }
 # This is a string that shows when the user's passkey was last used.
 # Variables:
 #   $lastUsedDate (String) - a localized date string
@@ -1189,7 +1189,7 @@ row-defaults-status = Ninguno
 ## UnitRowPasskey
 
 passkey-row-header = Claves de acceso
-passkey-row-enabled = Habilitado
+passkey-row-enabled = Habilitada
 passkey-row-not-set = No establecida
 passkey-row-action-create = Crear
 passkey-row-description = Hacé que el inicio de sesión sea más fácil y seguro usando tu teléfono u otro dispositivo compatible para ingresar a tu cuenta.
