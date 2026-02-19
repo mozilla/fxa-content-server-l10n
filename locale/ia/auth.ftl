@@ -205,7 +205,7 @@ fraudulentAccountDeletion-contact-plaintext = Si tu ha questiones, contacta nost
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Tu abonamento a { $productName } ha essite cancellate
-subscriptionAccountDeletion-title = Nos displace que tu vade
+subscriptionAccountDeletion-title = Nos regretta vider que tu vade
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

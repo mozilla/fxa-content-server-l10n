@@ -220,7 +220,7 @@ subscription-management-breadcrumb-back-aria = Ir retro a { $page }
 
 ## CancelSubscription
 
-subscription-cancellation-dialog-title = Nos regretta de vider te ir
+subscription-cancellation-dialog-title = Nos regretta vider que tu vade
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg =

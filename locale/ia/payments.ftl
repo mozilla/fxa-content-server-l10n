@@ -462,7 +462,7 @@ subscription-management-account-credit-balance = Le pagamento de iste abonamento
 sub-route-idx-reactivating = Reactivation del subscription fallite
 sub-route-idx-cancel-failed = Cancellation del subscription fallite
 sub-route-idx-contact = Contactar assistentia
-sub-route-idx-cancel-msg-title = Nos regretta de vider te ir
+sub-route-idx-cancel-msg-title = Nos regretta vider que tu vade
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
