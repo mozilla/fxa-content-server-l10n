@@ -89,6 +89,11 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Εάν δεν εγκρίνατε εσείς αυτήν την ενέργεια, επαναφέρετε τώρα τον κωδικό πρόσβασής σας στο { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Εάν δεν εκτελέσατε εσείς αυτήν την ενέργεια, τότε <a data-l10n-name="resetLink">επαναφέρετε τον κωδικό πρόσβασης</a> και την <a data-l10n-name="twoFactorSettingsLink">ταυτοποίηση δύο παραγόντων</a> αμέσως.
+    Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Εάν δεν εκτελέσατε εσείς αυτήν την ενέργεια, επαναφέρετε τον κωδικό πρόσβασής σας αμέσως στο:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
@@ -142,6 +147,7 @@ cadReminderSecond-description-plus = Επιπλέον, τα δεδομένα σ�
 inactiveAccountFinalWarning-subject = Τελευταία ευκαιρία να διατηρήσετε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 inactiveAccountFinalWarning-title = Ο λογαριασμός { -brand-mozilla } και τα δεδομένα σας θα διαγραφούν
 inactiveAccountFinalWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
+inactiveAccountFinalWarning-account-description = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας χρησιμοποιείται για την πρόσβαση σε δωρεάν προϊόντα απορρήτου και περιήγησης, όπως το { -brand-firefox } Sync, το { -product-mozilla-monitor }, το { -product-firefox-relay } και το { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = Στις <strong>{ $deletionDate }</strong>, ο λογαριασμός και τα προσωπικά σας δεδομένα θα διαγραφούν οριστικά εκτός αν πραγματοποιήσετε σύνδεση.
@@ -152,6 +158,9 @@ inactiveAccountFirstWarning-subject = Μην χάσετε τον λογαρια�
 inactiveAccountFirstWarning-title = Θέλετε να διατηρήσετε τον λογαριασμό { -brand-mozilla } και τα δεδομένα σας;
 inactiveAccountFirstWarning-account-description-v2 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας χρησιμοποιείται για την πρόσβαση σε δωρεάν προϊόντα απορρήτου και περιήγησης, όπως το { -brand-firefox } Sync, το { -product-mozilla-monitor }, το { -product-firefox-relay } και το { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Παρατηρήσαμε ότι δεν έχετε συνδεθεί για 2 έτη.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Ο λογαριασμός και τα προσωπικά σας δεδομένα θα διαγραφούν οριστικά στις <strong>{ $deletionDate }</strong> επειδή δεν ήσασταν ενεργός χρήστης.
 inactiveAccountFirstWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 inactiveAccountFirstWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
@@ -159,6 +168,8 @@ inactiveAccountFirstWarning-action-plaintext = Συνδεθείτε για να 
 inactiveAccountSecondWarning-subject = Απαιτείται ενέργεια: Διαγραφή λογαριασμού σε 7 ημέρες
 inactiveAccountSecondWarning-title = Ο λογαριασμός { -brand-mozilla } και τα δεδομένα σας θα διαγραφούν σε 7 ημέρες
 inactiveAccountSecondWarning-account-description-v2 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας χρησιμοποιείται για την πρόσβαση σε δωρεάν προϊόντα απορρήτου και περιήγησης, όπως το { -brand-firefox } Sync, το { -product-mozilla-monitor }, το { -product-firefox-relay } και το { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Ο λογαριασμός και τα προσωπικά σας δεδομένα θα διαγραφούν οριστικά στις <strong>{ $deletionDate }</strong> επειδή δεν ήσασταν ενεργός χρήστης.
 inactiveAccountSecondWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 inactiveAccountSecondWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
@@ -173,6 +184,12 @@ codes-reminder-description-two-left = Σας απομένουν μόνο δύο 
 codes-reminder-description-create-codes = Δημιουργήστε νέους εφεδρικούς κωδικούς ταυτοποίησης για να ανακτήσετε την πρόσβαση στον λογαριασμό σας σε περίπτωση που κλειδωθεί.
 lowRecoveryCodes-action-2 = Δημιουργία κωδικών
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Δεν απομένει κανένας εφεδρικός κωδικός ταυτοποίησης
+        [one] Απομένει μόνο 1 εφεδρικός κωδικός ταυτοποίησης
+       *[other] Απομένουν μόνο { $numberRemaining } εφεδρικοί κωδικοί ταυτοποίησης!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
@@ -220,15 +237,23 @@ passwordResetAccountRecovery-action-4 = Διαχείριση λογαριασμ�
 passwordResetRecoveryPhone-subject = Χρησιμοποιήθηκε τηλέφωνο ανάκτησης
 passwordResetRecoveryPhone-preview = Βεβαιωθείτε ότι ήσασταν εσείς
 passwordResetRecoveryPhone-title = Το τηλέφωνο ανάκτησής σας χρησιμοποιήθηκε για την επιβεβαίωση μιας επαναφοράς κωδικού πρόσβασης
+passwordResetRecoveryPhone-device = Χρησιμοποιήθηκε τηλέφωνο ανάκτησης από το:
 passwordResetRecoveryPhone-action = Διαχείριση λογαριασμού
 passwordResetWithRecoveryKeyPrompt-subject = Έγινε επαναφορά του κωδικού πρόσβασής σας
 passwordResetWithRecoveryKeyPrompt-title = Έγινε επαναφορά του κωδικού πρόσβασής σας
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Επαναφέρατε τον κωδικό πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας στις:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Δημιουργία κλειδιού ανάκτησης λογαριασμού
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Δημιουργία κλειδιού ανάκτησης λογαριασμού:
+passwordResetWithRecoveryKeyPrompt-cta-description = Θα πρέπει να συνδεθείτε ξανά σε όλες τις συγχρονισμένες συσκευές σας. Προστατέψτε τα δεδομένα σας την επόμενη φορά με ένα κλειδί ανάκτησης λογαριασμού. Αυτό σας επιτρέπει να ανακτήσετε τα δεδομένα σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
 postAddAccountRecovery-subject-3 = Δημιουργήθηκε νέο κλειδί ανάκτησης λογαριασμού
 postAddAccountRecovery-title2 = Δημιουργήσατε ένα νέο κλειδί ανάκτησης λογαριασμού
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Αποθηκεύστε αυτό το κλειδί σε ασφαλές μέρος· θα το χρειαστείτε για να ανακτήσετε τα κρυπτογραφημένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Αυτό το κλειδί μπορεί να χρησιμοποιηθεί μόνο μία φορά. Αφού το χρησιμοποιήσετε, θα δημιουργήσουμε αυτόματα ένα νέο για εσάς. Μπορείτε επίσης να δημιουργήσετε ένα νέο κλειδί ανά πάσα στιγμή από τις ρυθμίσεις του λογαριασμού σας.
 postAddAccountRecovery-action = Διαχείριση λογαριασμού
 postAddLinkedAccount-subject-2 = Συνδέθηκε νέος λογαριασμός με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 #  Variables:
@@ -249,8 +274,14 @@ postAddTwoStepAuthentication-preview = Ο λογαριασμός σας προσ
 postAddTwoStepAuthentication-subject-v3 = Η ταυτοποίηση δύο παραγόντων είναι ενεργή
 postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
+postAddTwoStepAuthentication-code-required-v4 = Θα απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ελέγχου ταυτότητάς σας σε κάθε σύνδεση.
+postAddTwoStepAuthentication-recovery-method-codes = Προσθέσατε επίσης τους εφεδρικούς κωδικούς ταυτοποίησης ως μέθοδο ανάκτησης.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Προσθέσατε επίσης το { $maskedPhoneNumber } ως αριθμό τηλεφώνου ανάκτησης.
 postAddTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
 postAddTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
+postAddTwoStepAuthentication-device-sign-out-message = Για την προστασία όλων των συνδεδεμένων συσκευών σας, θα πρέπει να αποσυνδεθείτε από οπουδήποτε χρησιμοποιείτε αυτόν τον λογαριασμό και έπειτα, να συνδεθείτε ξανά με χρήση της ταυτοποίησης δύο παραγόντων.
 postChangeAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού άλλαξε
 postChangeAccountRecovery-title = Αλλάξατε το κλειδί ανάκτησης του λογαριασμού σας
 postChangeAccountRecovery-body-part1 = Διαθέτετε πλέον ένα νέο κλειδί ανάκτησης λογαριασμού. Το προηγούμενο κλειδί σας έχει διαγραφεί.
@@ -273,6 +304,8 @@ postChangeTwoStepAuthentication-use-new-account = Από εδώ και στο ε
 postChangeTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postChangeTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
 postChangeTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
+postChangeTwoStepAuthentication-device-sign-out-message = Για την προστασία όλων των συνδεδεμένων συσκευών σας, θα πρέπει να αποσυνδεθείτε από οπουδήποτε χρησιμοποιείτε αυτόν τον λογαριασμό και έπειτα, να συνδεθείτε ξανά με χρήση της νέας σας ταυτοποίησης δύο παραγόντων.
+postConsumeRecoveryCode-title-3 = Ο εφεδρικός κωδικός ταυτοποίησής σας χρησιμοποιήθηκε για την επιβεβαίωση μιας επαναφοράς κωδικού πρόσβασης
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Χρησιμοποιήθηκε κωδικός από το:
@@ -293,8 +326,12 @@ postRemoveRecoveryPhone-subject = Το τηλέφωνο ανάκτησης αφ�
 postRemoveRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
 postRemoveRecoveryPhone-title = Το τηλέφωνο ανάκτησης αφαιρέθηκε
 postRemoveRecoveryPhone-description-v2 = Το τηλέφωνο ανάκτησής σας έχει αφαιρεθεί από τις ρυθμίσεις ταυτοποίησης δύο παραγόντων.
+postRemoveRecoveryPhone-description-extra = Μπορείτε ακόμα να χρησιμοποιήσετε τους εφεδρικούς σας κωδικούς ταυτοποίησης για σύνδεση σε περίπτωση που δεν μπορέσετε να χρησιμοποιήσετε την εφαρμογή ελέγχου ταυτότητας.
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Έχετε καταργήσει επιτυχώς το { $secondaryEmail } από δευτερεύον email για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Οι ειδοποιήσεις ασφαλείας και οι επιβεβαιώσεις σύνδεσης δεν θα αποστέλλονται πλέον σε αυτήν τη διεύθυνση.
 postRemoveSecondary-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-subject-line-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 postRemoveTwoStepAuthentication-title-2 = Απενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
@@ -357,9 +394,11 @@ verificationReminderFirst-action-2 = Επιβεβαίωση λογαριασμο
 verificationReminderSecond-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderSecond-title-3 = Μην χάσετε τα νέα της { -brand-mozilla }!
 verificationReminderSecond-description-4 = Πριν από μερικές ημέρες, δημιουργήσατε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }, αλλά δεν τον επιβεβαιώσατε ποτέ. Επιβεβαιώστε τον λογαριασμό σας μέσα στις επόμενες 10 ημέρες, διαφορετικά θα διαγραφεί αυτόματα.
+verificationReminderSecond-second-description-3 = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } σας, σάς επιτρέπει να συγχρονίζετε την εμπειρία σας με το { -brand-firefox } μεταξύ των συσκευών σας και ξεκλειδώνει την πρόσβαση σε περισσότερα προϊόντα, που προστατεύουν το απόρρητό σας, από τη { -brand-mozilla }.
 verificationReminderSecond-sub-description-2 = Λάβετε μέρος στην αποστολή μας να μετατρέψουμε το διαδίκτυο σε ένα μέρος ανοικτό για όλους.
 verificationReminderSecond-action-2 = Επιβεβαίωση λογαριασμού
 verify-title-3 = «Ανοίξτε» το διαδίκτυο με τη { -brand-mozilla }
+verify-description-2 = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο τις υπηρεσίες της { -brand-mozilla }, οπουδήποτε κι αν συνδεθείτε, ξεκινώντας με:
 verify-subject = Ολοκληρώστε τη δημιουργία του λογαριασμού σας
 verify-action-2 = Επιβεβαίωση λογαριασμού
 # Variables:
@@ -417,5 +456,7 @@ verifySecondaryCode-expiry-notice-2 = Λήγει σε 5 λεπτά. Μόλις �
 verifyShortCode-subject-4 = Χρησιμοποιήστε το { $code } για να επιβεβαιώσετε τον λογαριασμό σας
 verifyShortCode-preview-2 = Αυτός ο κωδικός λήγει σε 5 λεπτά
 verifyShortCode-title-3 = «Ανοίξτε» το διαδίκτυο με τη { -brand-mozilla }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο τις υπηρεσίες της { -brand-mozilla }, οπουδήποτε κι αν συνδεθείτε, ξεκινώντας με:
 verifyShortCode-prompt-3 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.

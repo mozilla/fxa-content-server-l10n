@@ -353,20 +353,20 @@ subscriptionRenewalReminder-content-discount-ending = Oherwydd bod gostyngiad bl
 # Variables
 #   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
 #   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
-subscriptionRenewalReminder-content-charge-with-tax-day = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad dyddiol a chodi tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth ar y dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-with-tax-week = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad wythnosol a bydd tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth yn cael ei osod i'r dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-with-tax-month = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad misol a bydd tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth yn cael ei osod i'r dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-with-tax-halfyear = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad chwe mis a chodi tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth ar y dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-with-tax-year = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad blynyddol a chodi tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth ar y dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-with-tax-default = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad a chodi tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth ar y dull talu ar eich cyfrif.
+subscriptionRenewalReminder-content-charge-with-tax-day = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad dyddiol a chodi tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth ar ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-with-tax-week = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad wythnosol a bydd tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth yn cael ei osod i ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-with-tax-month = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad misol a bydd tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth yn cael ei osod i ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad chwe mis a chodi tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth ar ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-with-tax-year = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad blynyddol a chodi tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth ar ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-with-tax-default = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad a chodi tâl o { $invoiceTotalExcludingTax } + { $invoiceTax } o dreth ar ddull talu eich cyfrif.
 # Variables
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-subscriptionRenewalReminder-content-charge-invoice-total-day = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad dyddiol a bydd tâl o { $invoiceTotal } yn cael ei godi ar y dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-invoice-total-week = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad wythnosol a bydd tâl o { $invoiceTotal } yn cael ei godi ar y dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-invoice-total-month = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad misol a bydd tâl o { $invoiceTotal } yn cael ei godi ar y dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad chwe mis a bydd tâl o { $invoiceTotal } yn cael ei godi ar y dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-invoice-total-year = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad blynyddol a bydd tâl o { $invoiceTotal } yn cael ei godi ar y dull talu ar eich cyfrif.
-subscriptionRenewalReminder-content-charge-invoice-total-default = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad a bydd tâl o { $invoiceTotal } yn cael ei godi ar y dull talu ar eich cyfrif.
+subscriptionRenewalReminder-content-charge-invoice-total-day = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad dyddiol a bydd tâl o { $invoiceTotal } yn cael ei godi ar ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad wythnosol a bydd tâl o { $invoiceTotal } yn cael ei godi ar ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad misol a bydd tâl o { $invoiceTotal } yn cael ei godi ar ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad chwe mis a bydd tâl o { $invoiceTotal } yn cael ei godi ar ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad blynyddol a bydd tâl o { $invoiceTotal } yn cael ei godi ar ddull talu eich cyfrif.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Bryd hynny, bydd { -brand-mozilla } yn adnewyddu eich tanysgrifiad a bydd tâl o { $invoiceTotal } yn cael ei godi ar ddull talu eich cyfrif.
 subscriptionRenewalReminder-content-closing = Yn gywir,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

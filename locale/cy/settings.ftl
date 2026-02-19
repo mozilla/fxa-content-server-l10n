@@ -1216,7 +1216,7 @@ passkey-row-header = Cyfrinallweddi
 passkey-row-enabled = Galluogwyd
 passkey-row-not-set = Heb ei Osod
 passkey-row-action-create = Creu
-passkey-row-description = Gwnewch fewngofnodi yn haws ac yn fwy diogel trwy ddefnyddio'ch ffôn neu ddyfais arall a gefnogir i fynd i mewn i'ch cyfrif.
+passkey-row-description = Gwnewch fewngofnodi'n haws ac yn fwy diogel trwy ddefnyddio'ch ffôn neu ddyfais arall sy'n cael ei gefnogi i fynd i'ch cyfrif.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Sut mae hyn yn diogelu eich cyfrif
 
