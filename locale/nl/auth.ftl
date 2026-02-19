@@ -342,6 +342,23 @@ subscriptionRenewalReminder-content-greeting = Beste klant van { $productName },
 subscriptionRenewalReminder-content-intro = Uw huidige abonnement wordt over { $reminderLength } dagen automatisch verlengd.
 subscriptionRenewalReminder-content-discount-change = Uw volgende factuur geeft een prijswijziging weer, aangezien een eerdere korting is komen te vervallen en een nieuwe korting is toegepast.
 subscriptionRenewalReminder-content-discount-ending = Omdat een eerdere korting is komen te vervallen, wordt uw abonnement verlengd tegen de standaardprijs.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Op dat moment verlengt { -brand-mozilla } uw dagelijkse abonnement en wordt { $invoiceTotalExcludingTax } + { $invoiceTax } btw in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-with-tax-week = Op dat moment verlengt { -brand-mozilla } uw weekabonnement en wordt { $invoiceTotalExcludeTax } + { $invoiceTax } btw in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-with-tax-month = Op dat moment verlengt { -brand-mozilla } uw maandabonnement en wordt { $invoiceTotalExcludingTax } + { $invoiceTax } btw in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Op dat moment verlengt { -brand-mozilla } uw halfjaarabonnement en wordt { $invoiceTotalExcludingTax } + { $invoiceTax } btw  in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-with-tax-year = Op dat moment verlengt { -brand-mozilla } uw jaarabonnement en wordt { $invoiceTotalExcludingTax } + { $invoiceTax } btw in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-with-tax-default = Op dat moment verlengt { -brand-mozilla } uw abonnement en wordt { $invoiceTotalExcludeTax } + { $invoiceTax } btw in rekening gebracht op de betalingsmethode van uw account.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Op dat moment verlengt { -brand-mozilla } uw dagabonnement en wordt { $invoiceTotal } in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Op dat moment verlengt { -brand-mozilla } uw weekabonnement en wordt { $invoiceTotal } in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Op dat moment verlengt { -brand-mozilla } uw maandabonnement en wordt { $invoiceTotal } in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Op dat moment verlengt { -brand-mozilla } uw halfjaarabonnement en wordt { $invoiceTotal } in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Op dat moment verlengt { -brand-mozilla } uw jaarabonnement en wordt { $invoiceTotal } in rekening gebracht op de betalingsmethode van uw account.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Op dat moment verlengt { -brand-mozilla } uw abonnement en wordt { $invoiceTotal } in rekening gebracht op de betalingsmethode van uw account.
 subscriptionRenewalReminder-content-closing = Hoogachtend,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
