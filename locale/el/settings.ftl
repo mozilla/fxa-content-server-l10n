@@ -1167,6 +1167,7 @@ passkey-delete-modal-heading = Διαγραφή κλειδιού πρόσβασ�
 passkey-delete-modal-cancel-button = Ακύρωση
 passkey-delete-modal-confirm-button = Διαγραφή κλειδιού πρόσβασης
 passkey-delete-success = Το κλειδί πρόσβασης διαγράφηκε
+passkey-delete-error = Προέκυψε πρόβλημα κατά τη διαγραφή του κλειδιού πρόσβασής σας. Δοκιμάστε ξανά σε λίγα λεπτά.
 
 ## Switch component
 
@@ -1190,6 +1191,8 @@ row-defaults-status = Κανένα
 
 passkey-row-header = Κλειδιά πρόσβασης
 passkey-row-action-create = Δημιουργία
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Πώς προστατεύεται ο λογαριασμός σας
 
 ## Account recovery key sub-section on main Settings page
 
