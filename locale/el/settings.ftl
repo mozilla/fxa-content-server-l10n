@@ -1154,6 +1154,19 @@ tfa-row-backup-phone-description-v2 = Αυτή είναι η πιο εύκολη
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Μάθετε σχετικά με τον κίνδυνο εναλλαγής SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Δημιουργία: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Τελευταία χρήση: { $lastUsedDate }
+passkey-sub-row-delete-title = Διαγραφή κλειδιού πρόσβασης
+passkey-delete-modal-heading = Διαγραφή κλειδιού πρόσβασης;
+passkey-delete-modal-cancel-button = Ακύρωση
+passkey-delete-modal-confirm-button = Διαγραφή κλειδιού πρόσβασης
+passkey-delete-success = Το κλειδί πρόσβασης διαγράφηκε
 
 ## Switch component
 
@@ -1172,6 +1185,11 @@ row-defaults-action-add = Προσθήκη
 row-defaults-action-change = Αλλαγή
 row-defaults-action-disable = Απενεργοποίηση
 row-defaults-status = Κανένα
+
+## UnitRowPasskey
+
+passkey-row-header = Κλειδιά πρόσβασης
+passkey-row-action-create = Δημιουργία
 
 ## Account recovery key sub-section on main Settings page
 
