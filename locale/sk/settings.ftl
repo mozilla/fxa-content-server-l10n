@@ -1162,6 +1162,23 @@ tfa-row-backup-phone-description-v2 = Toto je najjednoduchší spôsob obnovenia
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Prečítajte si o riziku pri výmene SIM karty
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Vytvorený: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Naposledy použitý: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Iba prihlásenie. Nedá sa použiť na synchronizáciu.
+passkey-sub-row-delete-title = Odstrániť prístupový kľúč
+passkey-delete-modal-heading = Odstrániť prístupový kľúč?
+passkey-delete-modal-content = Tento prístupový kľúč bude z vášho účtu odstránený. Budete sa musieť prihlásiť iným spôsobom.
+passkey-delete-modal-cancel-button = Zrušiť
+passkey-delete-modal-confirm-button = Odstrániť prístupový kľúč
+passkey-delete-success = Prístupový kľúč bol odstránený
+passkey-delete-error = Pri odstraňovaní vášho prístupového kľúča sa vyskytol problém. Skúste to znova o niekoľko minút.
 
 ## Switch component
 
@@ -1180,6 +1197,16 @@ row-defaults-action-add = Pridať
 row-defaults-action-change = Zmeniť
 row-defaults-action-disable = Vypnúť
 row-defaults-status = Žiadne
+
+## UnitRowPasskey
+
+passkey-row-header = Prístupové kľúče
+passkey-row-enabled = Povolený
+passkey-row-not-set = Nenastavený
+passkey-row-action-create = Vytvoriť
+passkey-row-description = Zjednodušte si prihlasovanie a zabezpečte ho pomocou telefónu alebo iného podporovaného zariadenia na prístup do svojho účtu.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Ako to chráni váš účet
 
 ## Account recovery key sub-section on main Settings page
 
