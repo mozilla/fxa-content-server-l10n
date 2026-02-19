@@ -342,6 +342,20 @@ subscriptionRenewalReminder-content-greeting = Car cliente de { $productName },
 subscriptionRenewalReminder-content-intro = Tu abonamento currente es configurate pro automaticamente renovar se in { $reminderLength } dies.
 subscriptionRenewalReminder-content-discount-change = Tu factura successive reflectera un modification del precio, pois que un disconto existente ha finite e un nove disconto ha essite applicate.
 subscriptionRenewalReminder-content-discount-ending = Pois que un previe disconto ha finite, tu abonamento se renovara al precio standard.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = In ille tempore, { -brand-mozilla } renovara tu abonamento quotidian e un carga de { $invoiceTotalExcludingTax } + taxa de { $invoiceTax } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-with-tax-week = In ille tempore, { -brand-mozilla } renovara tu abonamento septimanal e un carga de { $invoiceTotalExcludingTax } + taxa de { $invoiceTax } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-with-tax-month = In ille tempore, { -brand-mozilla } renovara tu abonamento mensual e un carga de { $invoiceTotalExcludingTax } + taxa de { $invoiceTax } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = In ille tempore, { -brand-mozilla } renovara tu abonamento semestral e un carga de { $invoiceTotalExcludingTax } + taxa de { $invoiceTax } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-with-tax-year = In ille tempore, { -brand-mozilla } renovara tu abonamento annual e un carga de { $invoiceTotalExcludingTax } + taxa de { $invoiceTax } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-with-tax-default = In ille tempore, { -brand-mozilla } renovara tu abonamento e un carga de { $invoiceTotalExcludingTax } + taxa de { $invoiceTax } sera applicate al methodo de pagamento sur tu conto.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = In ille tempore, { -brand-mozilla } renovara tu abonamento quotidian e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-invoice-total-week = In ille tempore, { -brand-mozilla } renovara tu abonamento septimanal e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-invoice-total-month = In ille tempore, { -brand-mozilla } renovara tu abonamento mensual e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
 subscriptionRenewalReminder-content-charge-invoice-total-halfyear = In ille tempore, { -brand-mozilla } renovara tu abonamento semestral e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
 subscriptionRenewalReminder-content-charge-invoice-total-year = In ille tempore, { -brand-mozilla } renovara tu abonamento annual e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
 subscriptionRenewalReminder-content-charge-invoice-total-default = In ille tempore, { -brand-mozilla } renovara tu abonamento e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
