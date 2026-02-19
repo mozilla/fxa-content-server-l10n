@@ -591,4 +591,15 @@ manage-payment-method-intent-error-generic = Đã xảy ra lỗi không mong mu�
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-discount-and-tax-card = Bạn sẽ được giảm { $discountPercent }% cho lần thanh toán tiếp theo với tổng số tiền { $nextInvoiceTotal } + thuế { $taxDue } vào thẻ có số cuối là { $last4 } vào { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Bạn sẽ được giảm { $discountPercent }% cho khoản phí tiếp theo là { $nextInvoiceTotal } + thuế { $taxDue } vào phương thức thanh toán { $paymentMethod } của bạn vào ngày { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Bạn sẽ được giảm { $discountPercent }% cho khoản phí tiếp theo là { $nextInvoiceTotal } + thuế { $taxDue } vào ngày { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Bạn sẽ được giảm { $discountPercent }% cho lần thanh toán tiếp theo là { $nextInvoiceTotal } vào thẻ có số cuối là { $last4 } vào { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Bạn sẽ được giảm { $discountPercent }% cho lần thanh toán tiếp theo là { $nextInvoiceTotal } bằng phương thức thanh toán { $paymentMethod } vào { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Bạn sẽ được giảm { $discountPercent }% cho lần thanh toán tiếp theo là { $nextInvoiceTotal } vào { $currentPeriodEnd }.
+next-charge-with-tax-card = Khoản phí tiếp theo của bạn là { $nextInvoiceTotal } + thuế { $taxDue }, sẽ thanh toán với thẻ có số cuối là { $last4 } vào { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Khoản phí tiếp theo của bạn là { $nextInvoiceTotal } + thuế { $taxDue }, sẽ thanh toán với phương thức thanh toán { $paymentMethod } của bạn vào { $currentPeriodEnd }.
+next-charge-with-tax = Khoản phí tiếp theo của bạn sẽ là { $nextInvoiceTotal } + thuế { $taxDue } vào { $currentPeriodEnd }.
+next-charge-no-tax-card = Khoản phí tiếp theo của bạn là { $nextInvoiceTotal }, sẽ thanh toán vào thẻ có số cuối là { $last4 } vào { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Khoản phí tiếp theo của bạn là { $nextInvoiceTotal }, sẽ thanh toán với phương thức thanh toán { $paymentMethod } của bạn vào { $currentPeriodEnd }.
 next-charge-no-tax = Khoản phí tiếp theo của bạn sẽ là { $nextInvoiceTotal } vào { $currentPeriodEnd }.
