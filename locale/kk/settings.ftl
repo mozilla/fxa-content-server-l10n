@@ -1154,6 +1154,10 @@ tfa-row-backup-phone-description-v2 = Егер сіз аутентификаци
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = SIM картасын ауыстыру қаупі туралы біліңіз
+passkey-sub-row-delete-title = Қол жеткізу кілтін өшіру
+passkey-delete-modal-heading = Қол жеткізу кілтіңізді өшіру керек пе?
+passkey-delete-modal-confirm-button = Қол жеткізу кілтін өшіру
+passkey-delete-success = Қол жеткізу кілті өшірілді
 
 ## Switch component
 
@@ -1172,6 +1176,10 @@ row-defaults-action-add = Қосу
 row-defaults-action-change = Өзгерту
 row-defaults-action-disable = Сөндіру
 row-defaults-status = Ешнәрсе
+
+## UnitRowPasskey
+
+passkey-row-header = Қол жеткізу кілттері
 
 ## Account recovery key sub-section on main Settings page
 
