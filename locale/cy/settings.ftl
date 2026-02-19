@@ -1183,14 +1183,14 @@ passkey-sub-row-created-date = Wedi'i greu: { $createdDate }
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Defnyddiwyd ddiwethaf: { $lastUsedDate }
 # These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Mewngofnodi yn unig. Nid oes modd ei ddefnyddio i gysoni.
-passkey-sub-row-delete-title = Dileu allweddi
-passkey-delete-modal-heading = Dileu eich cyfrinair?
-passkey-delete-modal-content = Bydd y cyfrinair hwn yn cael ei dynnu o'ch cyfrif. Bydd angen i chi fewngofnodi gan ddefnyddio ffordd wahanol.
+passkey-sub-row-sign-in-only = Mewngofnodi yn unig. Does dim modd ei ddefnyddio i gyweddu.
+passkey-sub-row-delete-title = Dileu cyfrinallwedd
+passkey-delete-modal-heading = Dileu eich cyfrinallwedd?
+passkey-delete-modal-content = Bydd y cyfrinallwedd hwn yn cael ei dynnu o'ch cyfrif. Bydd angen i chi fewngofnodi gan ddefnyddio ffordd wahanol.
 passkey-delete-modal-cancel-button = Diddymu
-passkey-delete-modal-confirm-button = Dileu allweddi
-passkey-delete-success = paskey wedi'i ddileu
-passkey-delete-error = Bu problem wrth ddileu'ch allwedd. Ceisiwch eto mewn ychydig funudau.
+passkey-delete-modal-confirm-button = Dileu cyfrinallwedd
+passkey-delete-success = Cyfrinallwedd wedi'i ddileu
+passkey-delete-error = Bu problem wrth ddileu'ch cyfrinallwedd. Ceisiwch eto mewn ychydig funudau.
 
 ## Switch component
 
@@ -1212,7 +1212,7 @@ row-defaults-status = Dim
 
 ## UnitRowPasskey
 
-passkey-row-header = Passkeys
+passkey-row-header = Cyfrinallweddi
 passkey-row-enabled = Galluogwyd
 passkey-row-not-set = Heb ei Osod
 passkey-row-action-create = Creu
