@@ -346,6 +346,23 @@ subscriptionRenewalReminder-content-greeting = Luby kupc { $productName },
 subscriptionRenewalReminder-content-intro = Waš aktualny abonement se awtomatiski na wótnowjenje za někotare dny staja: { $reminderLength }.
 subscriptionRenewalReminder-content-discount-change = Waša pśiduca zliceńka změnu pśi twórjenju płaśiznow wótbłyšćujo, dokulaž pjerwjejšny rabat wěcej njepłaśi a nowy rabat jo se južo nałožył.
 subscriptionRenewalReminder-content-discount-ending = Dokulaž pjerwjejšny rabat jo skóńcony, se waš abonement na standardnu płaśiznu slědk stajijo.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Pón { -brand-mozilla } waš wšedny abonement pódlejšujo a suma { $invoiceTotalExcludingTax } + { $invoiceTax } danka se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-with-tax-week = Pón { -brand-mozilla } waš tyźeński abonement pódlejšujo a suma { $invoiceTotalExcludingTax } + { $invoiceTax } danka se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-with-tax-month = Pón { -brand-mozilla } waš mjasecny abonement pódlejšujo a suma { $invoiceTotalExcludingTax } + { $invoiceTax } danka se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Pón { -brand-mozilla } waš šesćmjasecny abonement pódlejšujo a suma { $invoiceTotalExcludingTax } + { $invoiceTax } danka se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-with-tax-year = Pón { -brand-mozilla } waš lětny abonement pódlejšujo a suma { $invoiceTotalExcludingTax } + { $invoiceTax } danka se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-with-tax-default = Pón { -brand-mozilla } waš abonement pódlejšujo a suma { $invoiceTotalExcludingTax } + { $invoiceTax } danka se na płaśeńsku metodu we wašom konśe nałožyjo.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Pón { -brand-mozilla } waš wšedny abonement pódlejšujo a suma { $invoiceTotal } se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Pón { -brand-mozilla } waš tyźeński abonement pódlejšujo a suma { $invoiceTotal } se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Pón { -brand-mozilla } waš mjasecny abonement pódlejšujo a suma { $invoiceTotal } se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Pón { -brand-mozilla } waš šesćmjasecny abonement pódlejšujo a suma { $invoiceTotal } se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Pón { -brand-mozilla } waš lětny abonement pódlejšujo a suma { $invoiceTotal } se na płaśeńsku metodu we wašom konśe nałožyjo.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Pón { -brand-mozilla } waš abonement pódlejšujo a suma { $invoiceTotal } se na płaśeńsku metodu we wašom konśe nałožyjo.
 subscriptionRenewalReminder-content-closing = Z pśijaśelnym póstrowom
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

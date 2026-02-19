@@ -349,7 +349,7 @@ subscriptionRenewalReminder-content-discount-ending = Dokelž prjedawši rabat j
 # Variables
 #   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
 #   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
-subscriptionRenewalReminder-content-charge-with-tax-day = Potom { -brand-mozilla } waš wšědny abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.
+subscriptionRenewalReminder-content-charge-with-tax-day = Potom { -brand-mozilla } waš wšědny abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } dawka so na płaćensku metodu we wašim konće nałoži.
 subscriptionRenewalReminder-content-charge-with-tax-week = Potom { -brand-mozilla } waš tydźenski abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.
 subscriptionRenewalReminder-content-charge-with-tax-month = Potom { -brand-mozilla } waš měsačny abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.
 subscriptionRenewalReminder-content-charge-with-tax-halfyear = Potom { -brand-mozilla } waš šěsćměsačny abonement podlěši a suma { $invoiceTotalExcludingTax } + { $invoiceTax } so na płaćensku metodu we wašim konće nałoži.

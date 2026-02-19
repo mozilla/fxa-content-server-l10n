@@ -1206,6 +1206,7 @@ passkey-row-header = Gronidłowe kluce
 passkey-row-enabled = Zmóžnjony
 passkey-row-not-set = Njenastajony
 passkey-row-action-create = Napóraś
+passkey-row-description = Wólažcćo pśizjawjenje a wěsćejše z pomocu swójogo telefona abo drugego pódprětego rěd, aby se do swójogo konta dostał.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Kak to wašo konto šćita
 
