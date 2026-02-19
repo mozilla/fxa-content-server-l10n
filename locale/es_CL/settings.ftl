@@ -249,6 +249,9 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Bandera de Estados Unidos
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Cargando
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
