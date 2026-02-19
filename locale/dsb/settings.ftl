@@ -1176,6 +1176,11 @@ passkey-sub-row-last-used-date = Slědny raz wužyty: { $lastUsedDate }
 passkey-sub-row-sign-in-only = Jano pśizjawjenje. Njedajo se za synchronizaciju wužywaś.
 passkey-sub-row-delete-title = Gronidłowy kluc lašowaś
 passkey-delete-modal-heading = Gronidłowy kluc lašowaś?
+passkey-delete-modal-content = Toś ten gronidłowy kluc jo se wótwónoźeł z wašogo konta. Musyśo se na drugi nałog pśizjawiś.
+passkey-delete-modal-cancel-button = Pśetergnuś
+passkey-delete-modal-confirm-button = Gronidłowy kluc lašowaś
+passkey-delete-success = Gronidłowy kluc jo se wulašował
+passkey-delete-error = Pśi lašowanju wašogo gronidłowego kluca jo problem nastał. Wopytajśo za mało minutow hyšći raz.
 
 ## Switch component
 
@@ -1194,6 +1199,15 @@ row-defaults-action-add = Pśidaś
 row-defaults-action-change = Změniś
 row-defaults-action-disable = Znjemóžniś
 row-defaults-status = Žeden
+
+## UnitRowPasskey
+
+passkey-row-header = Gronidłowe kluce
+passkey-row-enabled = Zmóžnjony
+passkey-row-not-set = Njenastajony
+passkey-row-action-create = Napóraś
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Kak to wašo konto šćita
 
 ## Account recovery key sub-section on main Settings page
 
