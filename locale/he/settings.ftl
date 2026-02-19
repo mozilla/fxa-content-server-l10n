@@ -1105,6 +1105,8 @@ passkey-sub-row-created-date = תאריך יצירה:
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = בשימוש אחרון: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = מיועד להתחברות בלבד. לא ניתן להשתמש בו לסנכרון.
 passkey-sub-row-delete-title = מחיקת מפתח גישה
 passkey-delete-modal-heading = למחוק את מפתח הגישה שלך?
 passkey-delete-modal-content = מפתח גישה זה יוסר מהחשבון שלך. יהיה עליך להתחבר בדרך אחרת.
