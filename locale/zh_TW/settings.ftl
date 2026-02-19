@@ -1124,6 +1124,23 @@ tfa-row-backup-phone-description-v2 = 當您無法再使用驗證程式時，這
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = 了解 SIM 卡替換攻擊的風險
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = 建立於：{ $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = 最後使用於：{ $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = 只能登入，無法用於同步。
+passkey-sub-row-delete-title = 刪除 passkey
+passkey-delete-modal-heading = 要刪除您的 passkey 嗎？
+passkey-delete-modal-content = 將從您的帳號移除這把 passkey。您將需要改用其他方式登入。
+passkey-delete-modal-cancel-button = 取消
+passkey-delete-modal-confirm-button = 刪除 passkey
+passkey-delete-success = 已刪除 passkey
+passkey-delete-error = 刪除您的 passkey 時遇到問題，請稍候幾分鐘再試一次。
 
 ## Switch component
 
@@ -1142,6 +1159,16 @@ row-defaults-action-add = 新增
 row-defaults-action-change = 變更
 row-defaults-action-disable = 停用
 row-defaults-status = 無
+
+## UnitRowPasskey
+
+passkey-row-header = Passkey
+passkey-row-enabled = 已啟用
+passkey-row-not-set = 未設定
+passkey-row-action-create = 建立
+passkey-row-description = 使用您的手機或其他支援的裝置來登入帳號，讓登入過程更簡單、更安全。
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = 此功能如何保護您的帳號
 
 ## Account recovery key sub-section on main Settings page
 

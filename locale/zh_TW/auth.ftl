@@ -334,6 +334,23 @@ subscriptionRenewalReminder-content-greeting = 親愛的 { $productName } 客戶
 subscriptionRenewalReminder-content-intro = 您目前的訂閱將在 { $reminderLength } 天後自動續訂。
 subscriptionRenewalReminder-content-discount-change = 由於先前的折扣活動已結束，且套用了新的折扣，您的下一期帳單將有價格變動。
 subscriptionRenewalReminder-content-discount-ending = 由於先前的折扣活動已結束，新訂閱將以標準價格續約。
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = 屆時，{ -brand-mozilla } 將續訂您的每日訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotalExcludingTax } + { $invoiceTax } 稅。
+subscriptionRenewalReminder-content-charge-with-tax-week = 屆時，{ -brand-mozilla } 將續訂您的每週訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotalExcludingTax } + { $invoiceTax } 稅。
+subscriptionRenewalReminder-content-charge-with-tax-month = 屆時，{ -brand-mozilla } 將續訂您的每月訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotalExcludingTax } + { $invoiceTax } 稅。
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = 屆時，{ -brand-mozilla } 將續訂您的每半年訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotalExcludingTax } + { $invoiceTax } 稅。
+subscriptionRenewalReminder-content-charge-with-tax-year = 屆時，{ -brand-mozilla } 將續訂您的每年訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotalExcludingTax } + { $invoiceTax } 稅。
+subscriptionRenewalReminder-content-charge-with-tax-default = 屆時，{ -brand-mozilla } 將續訂您的訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotalExcludingTax } + { $invoiceTax } 稅。
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = 屆時，{ -brand-mozilla } 將續訂您的每日訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotal }。
+subscriptionRenewalReminder-content-charge-invoice-total-week = 屆時，{ -brand-mozilla } 將續訂您的每週訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotal }。
+subscriptionRenewalReminder-content-charge-invoice-total-month = 屆時，{ -brand-mozilla } 將續訂您的每月訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotal }。
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = 屆時，{ -brand-mozilla } 將續訂您的每半年訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotal }。
+subscriptionRenewalReminder-content-charge-invoice-total-year = 屆時，{ -brand-mozilla } 將續訂您的每年訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotal }。
+subscriptionRenewalReminder-content-charge-invoice-total-default = 屆時，{ -brand-mozilla } 將續訂您的訂閱方案，並對您帳號設定的付款方式收取 { $invoiceTotal }。
 subscriptionRenewalReminder-content-closing = 感謝您，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
