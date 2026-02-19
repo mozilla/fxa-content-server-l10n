@@ -217,11 +217,13 @@ next-pay-with-heading-paypal = Zapłać za pomocą serwisu { -brand-paypal }
 
 ## Churn flow - cancel
 
+churn-cancel-flow-action-error = Wystąpił nieoczekiwany błąd. Spróbuj ponownie.
 churn-cancel-flow-button-manage-subscriptions = Zarządzanie subskrypcjami
 churn-cancel-flow-button-contact-support = Skontaktuj się z pomocą
 
 ## Churn flow - stay subscribed
 
+churn-stay-subscribed-action-error = Wystąpił nieoczekiwany błąd. Spróbuj ponownie.
 churn-stay-subscribed-title-offer-expired = Ta oferta wygasła
 
 ## $productName (String) - The name of the product associated with the subscription.
