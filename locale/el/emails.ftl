@@ -269,10 +269,13 @@ postAddRecoveryPhone-description-v2 = Προσθέσατε το { $maskedLastFou
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Πώς προστατεύεται ο λογαριασμός σας
 postAddRecoveryPhone-how-protect-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
+postAddRecoveryPhone-enabled-device = Το ενεργοποιήσατε από το:
 postAddRecoveryPhone-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-preview = Ο λογαριασμός σας προστατεύεται
 postAddTwoStepAuthentication-subject-v3 = Η ταυτοποίηση δύο παραγόντων είναι ενεργή
 postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Το ζητήσατε από το:
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-code-required-v4 = Θα απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ελέγχου ταυτότητάς σας σε κάθε σύνδεση.
 postAddTwoStepAuthentication-recovery-method-codes = Προσθέσατε επίσης τους εφεδρικούς κωδικούς ταυτοποίησης ως μέθοδο ανάκτησης.
@@ -297,10 +300,13 @@ postChangeRecoveryPhone-subject = Το τηλέφωνο ανάκτησης εν�
 postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
 postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
 postChangeRecoveryPhone-description = Έχετε πλέον ένα νέο τηλέφωνο ανάκτησης. Ο προηγούμενος αριθμός τηλεφώνου σας διαγράφηκε.
+postChangeRecoveryPhone-requested-device = Το ζητήσατε από το:
 postChangeTwoStepAuthentication-preview = Ο λογαριασμός σας προστατεύεται
 postChangeTwoStepAuthentication-subject = Η ταυτοποίηση δύο παραγόντων ενημερώθηκε
 postChangeTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων ενημερώθηκε
 postChangeTwoStepAuthentication-use-new-account = Από εδώ και στο εξής, θα πρέπει να χρησιμοποιείτε τη νέα καταχώρηση του { -product-mozilla-account(case: "gen", capitalization: "lower") } στην εφαρμογή ελέγχου ταυτότητας. Η παλαιότερη καταχώρηση δεν θα λειτουργεί πλέον και μπορείτε να την αφαιρέσετε.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Το ζητήσατε από το:
 postChangeTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postChangeTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
 postChangeTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
@@ -327,6 +333,7 @@ postRemoveRecoveryPhone-preview = Ο λογαριασμός προστατεύε
 postRemoveRecoveryPhone-title = Το τηλέφωνο ανάκτησης αφαιρέθηκε
 postRemoveRecoveryPhone-description-v2 = Το τηλέφωνο ανάκτησής σας έχει αφαιρεθεί από τις ρυθμίσεις ταυτοποίησης δύο παραγόντων.
 postRemoveRecoveryPhone-description-extra = Μπορείτε ακόμα να χρησιμοποιήσετε τους εφεδρικούς σας κωδικούς ταυτοποίησης για σύνδεση σε περίπτωση που δεν μπορέσετε να χρησιμοποιήσετε την εφαρμογή ελέγχου ταυτότητας.
+postRemoveRecoveryPhone-requested-device = Το ζητήσατε από το:
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 # Variables:
@@ -335,6 +342,8 @@ postRemoveSecondary-description-2 = Έχετε καταργήσει επιτυχ
 postRemoveSecondary-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-subject-line-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 postRemoveTwoStepAuthentication-title-2 = Απενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Το απενεργοποιήσατε από το:
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postRemoveTwoStepAuthentication-not-required-2 = Δεν χρειάζεστε πλέον κωδικούς ασφαλείας από την εφαρμογή ταυτοποίησής σας κατά τη σύνδεση.
 postSigninRecoveryCode-subject = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης για σύνδεση
@@ -440,15 +449,20 @@ verifyLoginCode-safe = Βοηθήστε μας να προστατέψουμε �
 verifyLoginCode-prompt-3 = Εάν ναι, ορίστε ο κωδικός έγκρισής σας:
 verifyLoginCode-expiry-notice = Λήγει σε 5 λεπτά.
 verifyPrimary-title-2 = Επιβεβαίωση κύριου email
+verifyPrimary-description = Έχει υποβληθεί ένα αίτημα για μια αλλαγή στον λογαριασμό από την ακόλουθη συσκευή:
 verifyPrimary-subject = Επιβεβαίωση κύριου email
 verifyPrimary-action-2 = Επιβεβαίωση email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Μόλις γίνει επιβεβαίωση, θα καταστούν δυνατές οι αλλαγές στον λογαριασμό, όπως η προσθήκη δευτερεύοντος email, από αυτήν τη συσκευή.
 # Variables:
 #  $code (String) - The confirmation code for secondary email
 verifySecondaryCode-subject-2 = Χρησιμοποιήστε το { $code } για να επιβεβαιώσετε το δευτερεύον email σας
 verifySecondaryCode-preview = Αυτός ο κωδικός λήγει σε 5 λεπτά.
 verifySecondaryCode-title-2 = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-action-2 = Επιβεβαίωση email
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Έχει υποβληθεί ένα αίτημα για χρήση του { $email } ως δευτερεύουσας διεύθυνσης email από τον ακόλουθο { -product-mozilla-account(case: "acc", capitalization: "lower") }:
 verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
 verifySecondaryCode-expiry-notice-2 = Λήγει σε 5 λεπτά. Μόλις γίνει επιβεβαίωση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
 # Variables:
