@@ -34,7 +34,7 @@ recovery-phone-reset-password-sms-body = { $code } es tu codice de recuperation 
 recovery-phone-reset-password-short-body = { -brand-mozilla } codice: { $code }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logo { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logo { -brand-mozilla }">
-subplat-automated-email = Iste message ha essite inviate automaticamente. Si tu lo ha recipite in error, nulle action es necessari.
+subplat-automated-email = Iste message ha essite inviate automaticamente. Si tu lo ha recipite per error, nulle action es necesse.
 subplat-privacy-notice = Aviso de confidentialitate
 subplat-privacy-plaintext = Aviso de confidentialitate:
 subplat-update-billing-plaintext = { subplat-update-billing }:
@@ -159,7 +159,7 @@ subscription-charges-credit-received = Tu ha recipite un accreditation de conto 
 
 subscriptionSupport = Questiones re tu subscription? Nostre <a data-l10n-name="subscriptionSupportUrl">equipa de assistentia</a> es hic pro adjutar te.
 # After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupport-plaintext = Questiones re tu subscription? Nostre equipa de supporto es ci pro te adjutar:
+subscriptionSupport-plaintext = Questiones re tu subscription? Nostre equipa de supporto es ci pro adjutar te:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSupportContact = Gratias pro tu abonamento a { $productName }. Si tu ha questiones sur tu abonamento o tu require altere informationes sur { $productName }, <a data-l10n-name="subscriptionSupportUrl">contacta nos</a>.
@@ -180,7 +180,7 @@ subscriptionUpdateBillingTry = Nos tentara tu pagamento de novo le proxime poc d
 subscriptionUpdateBillingTry-plaintext = Nos provara tu pagamento de novo in le proxime poc dies, ma tu pote deber adjutar nos a corriger lo actualisante tu informationes de pagamento:
 subscriptionUpdatePayment = Pro impedir ulle interruption a tu servicio, per favor <a data-l10n-name="updateBillingUrl">actualisa tu informationes de pagamento</a> al plus tosto possibile.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
-subscriptionUpdatePayment-plaintext = Pro impedir ulle interruption a tu servicio, actualisa tu informationes de pagamento le plus tosto possibile:
+subscriptionUpdatePayment-plaintext = Pro impedir qualcunque interruption a tu servicio, actualisa tu informationes de pagamento le plus tosto possibile:
 view-invoice-link-action = Vider le factura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -226,7 +226,7 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-subject = Tu abonamento a { $productName } ha essite cancellate
-subscriptionCancellation-title = Nos displace que tu vade
+subscriptionCancellation-title = Nos regretta vider que tu vade
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
