@@ -1162,11 +1162,11 @@ passkey-sub-row-created-date = Skapad: { $createdDate }
 passkey-sub-row-last-used-date = Senast använd: { $lastUsedDate }
 # These two sentences are referring to the passkey
 passkey-sub-row-sign-in-only = Endast inloggning. Kan inte användas för att synkronisera.
-passkey-sub-row-delete-title = Ta bort lösenord
+passkey-sub-row-delete-title = Ta bort lösenordsnyckel
 passkey-delete-modal-heading = Ta bort din lösenordsnyckel?
 passkey-delete-modal-content = Denna lösenordsnyckel tas bort från ditt konto. Du måste logga in på ett annat sätt.
 passkey-delete-modal-cancel-button = Avbryt
-passkey-delete-modal-confirm-button = Ta bort lösenord
+passkey-delete-modal-confirm-button = Ta bort lösenordsnyckel
 passkey-delete-success = Lösenordsnyckel borttagen
 passkey-delete-error = Det gick inte att ta bort din lösenordsnyckel. Försök igen om några minuter.
 
@@ -1194,7 +1194,7 @@ passkey-row-header = Lösenordsnycklar
 passkey-row-enabled = Aktiverad
 passkey-row-not-set = Inte inställd
 passkey-row-action-create = Skapa
-passkey-row-description = Gör inloggning enklare och säkrare genom att komma in på ditt konto med din telefon eller annan enhet som stöds.
+passkey-row-description = Gör inloggningen enklare och säkrare genom att använda din telefon eller annan enhet som stöds för att komma in på ditt konto.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Hur detta skyddar ditt konto
 
