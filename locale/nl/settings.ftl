@@ -68,7 +68,7 @@ recovery-key-pdf-download-error = Sorry, er is een probleem opgetreden bij het d
 
 ## ButtonPasskeySignin
 
-button-passkey-signin = Aanmelden met passkey
+button-passkey-signin = Aanmelden met wachtwoordsleutel
 # This is a loading state indicating that we are waiting for the user to
 # interact with their authenticator to approve the sign-in. They should see a
 # device prompt/pop-up with authentication options (or message indicating that
@@ -263,7 +263,7 @@ icon-loading-arrow-aria-label =
     .aria-label = Laden
 # Used for passkey icon
 icon-passkey-aria-label =
-    .aria-label = Passkey
+    .aria-label = Wachtwoordsleutel
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
