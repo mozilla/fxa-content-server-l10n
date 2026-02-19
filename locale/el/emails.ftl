@@ -8,6 +8,8 @@ body-devices-image = <img data-l10n-name="devices-image" alt="Συσκευές">
 fxa-privacy-url = Πολιτική απορρήτου { -brand-mozilla }
 moz-accounts-privacy-url-2 = Σημείωση απορρήτου { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 moz-accounts-terms-url = Όροι υπηρεσίας { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
+account-deletion-info-block-communications = Εάν διαγραφεί ο λογαριασμός σας, θα εξακολουθείτε να λαμβάνετε email από τη Mozilla Corporation και το Mozilla Foundation, εκτός αν <a data-l10n-name="unsubscribeLink">καταργήσετε την εγγραφή σας</a>.
+account-deletion-info-block-support = Εάν έχετε απορίες ή χρειάζεστε βοήθεια, μην διστάσετε να επικοινωνήσετε με την <a data-l10n-name="supportLink">ομάδα υποστήριξης</a>.
 account-deletion-info-block-communications-plaintext = Εάν διαγραφεί ο λογαριασμός σας, θα εξακολουθείτε να λαμβάνετε email από τη Mozilla Corporation και το Mozilla Foundation, εκτός αν καταργήσετε την εγγραφή σας:
 account-deletion-info-block-support-plaintext = Εάν έχετε απορίες ή χρειάζεστε βοήθεια, μην διστάσετε να επικοινωνήσετε με την ομάδα υποστήριξης:
 # Variables:
@@ -39,6 +41,35 @@ automated-email-change-plaintext-2 = Εάν δεν εκτελέσατε εσεί
 automated-email-support-plaintext = Για περισσότερες πληροφορίες, επισκεφθείτε την Υποστήριξη { -brand-mozilla }:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Αυτό το αίτημα προήλθε από το { $uaBrowser } σε σύστημα { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Αυτό το αίτημα προήλθε από το { $uaBrowser } σε σύστημα { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Αυτό το αίτημα προήλθε από το { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Αυτό το αίτημα προήλθε από σύστημα { $uaOS }{ $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Αυτό το αίτημα προήλθε από σύστημα { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Εάν δεν το κάνατε εσείς, <a data-l10n-name="revokeAccountRecoveryLink">διαγράψτε το νέο κλειδί</a> και <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a>.
+automatedEmailRecoveryKey-change-pwd-only = Εάν δεν το κάνατε εσείς, <a data-l10n-name="passwordChangeLink">αλλάξτε τον κωδικό πρόσβασής σας</a>.
+automatedEmailRecoveryKey-more-info = Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Αυτό το αίτημα προήλθε από:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Εάν δεν το κάνατε εσείς, διαγράψτε το νέο κλειδί:
 # Colon is followed by a URL to the change password section of account settings
@@ -50,6 +81,17 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = και αλλάξτε τ
 automatedEmailRecoveryKey-more-info-plaintext = Για περισσότερες πληροφορίες, επισκεφθείτε την Υποστήριξη { -brand-mozilla }:
 manage-account = Διαχείριση λογαριασμού
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Για περισσότερες πληροφορίες, επισκεφθείτε την Υποστήριξη { -brand-mozilla }: { $supportUrl }.
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } σε σύστημα { $uaOS } { $uaOSVersion }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -75,6 +117,10 @@ cadReminderFirst-action = Συγχρονισμός άλλης συσκευής
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Χρειάζονται δύο συσκευές για συγχρονισμό
+cadReminderSecond-subject-2 = Μην το χάσετε! Ολοκληρώστε τη ρύθμιση του συγχρονισμού
+cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
+cadReminderSecond-title-2 = Μην ξεχάσετε να κάνετε συγχρονισμό!
+inactiveAccountFinalWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 inactiveAccountFinalWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας:
@@ -103,14 +149,28 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 newDeviceLogin-subject = Νέα σύνδεση στο { $clientName }
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
+newDeviceLogin-change-password = Δεν το κάνατε εσείς; <a data-l10n-name="passwordChangeLink">Αλλάξτε τον κωδικό πρόσβασής σας</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = Δεν είστε εσείς; Αλλάξτε τον κωδικό πρόσβασής σας:
 newDeviceLogin-action = Διαχείριση λογαριασμού
 passwordChangeRequired-subject = Εντοπίστηκε ύποπτη δραστηριότητα
 passwordChangeRequired-preview = Αλλάξτε άμεσα τον κωδικό πρόσβασής σας
+passwordChangeRequired-title-2 = Επαναφέρετε τον κωδικό πρόσβασής σας
+passwordChangeRequired-suspicious-activity-3 = Κλειδώσαμε τον λογαριασμό σας για να τον προφυλάξουμε από ύποπτη δραστηριότητα. Έχετε αποσυνδεθεί από όλες τις συσκευές σας και όλα τα συγχρονισμένα δεδομένα έχουν διαγραφεί για προληπτικούς λόγους.
+passwordChangeRequired-sign-in-3 = Για να συνδεθείτε ξανά στον λογαριασμό σας, το μόνο που χρειάζεται να κάνετε είναι να επαναφέρετε τον κωδικό πρόσβασής σας.
+passwordChangeRequired-different-password-2 = <b>Σημαντικό:</b> Επιλέξτε έναν ισχυρό κωδικό πρόσβασης που διαφέρει από αυτόν που χρησιμοποιούσατε στο παρελθόν.
+passwordChangeRequired-different-password-plaintext-2 = Σημαντικό: Επιλέξτε έναν ισχυρό κωδικό πρόσβασης που διαφέρει από αυτόν που χρησιμοποιούσατε στο παρελθόν.
 passwordChangeRequired-action = Επαναφορά κωδικού πρόσβασης
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθηκε
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
+passwordChanged-description-2 = Ο κωδικός πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας άλλαξε επιτυχώς από την ακόλουθη συσκευή:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Χρησιμοποιήστε το { $code } για να αλλάξετε τον κωδικό πρόσβασής σας
+password-forgot-otp-preview = Αυτός ο κωδικός λήγει σε 10 λεπτά
+password-forgot-otp-title = Ξεχάσατε τον κωδικό πρόσβασής σας;
 passwordResetAccountRecovery-action-4 = Διαχείριση λογαριασμού
 passwordResetRecoveryPhone-subject = Χρησιμοποιήθηκε τηλέφωνο ανάκτησης
 passwordResetRecoveryPhone-action = Διαχείριση λογαριασμού
@@ -177,7 +237,12 @@ postVerify-action-2 = Σύνδεση άλλης συσκευής
 postVerifySecondary-subject = Προστέθηκε δευτερεύον email
 postVerifySecondary-title = Προστέθηκε δευτερεύον email
 postVerifySecondary-action = Διαχείριση λογαριασμού
+recovery-subject = Επαναφέρετε τον κωδικό πρόσβασής σας
 recovery-title-2 = Ξεχάσατε τον κωδικό πρόσβασής σας;
+# Information on the device, location, and date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Λάβαμε ένα αίτημα αλλαγής κωδικού πρόσβασης για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας από:
+recovery-new-password-button = Δημιουργήστε έναν νέο κωδικό πρόσβασης κάνοντας κλικ στο παρακάτω κουμπί. Αυτός ο σύνδεσμος θα λήξει εντός της επόμενης ώρας.
+recovery-copy-paste = Δημιουργήστε έναν νέο κωδικό πρόσβασης αντιγράφοντας και επικολλώντας το παρακάτω URL στο πρόγραμμα περιήγησής σας. Αυτός ο σύνδεσμος θα λήξει εντός της επόμενης ώρας.
 recovery-action = Δημιουργία νέου κωδικού πρόσβασης
 # Variables:
 #  $unblockCode (String) - The authorization code for sign-in
@@ -194,6 +259,7 @@ verificationReminderFirst-action-2 = Επιβεβαίωση λογαριασμο
 verificationReminderSecond-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderSecond-title-3 = Μην χάσετε τα νέα της { -brand-mozilla }!
 verificationReminderSecond-action-2 = Επιβεβαίωση λογαριασμού
+verify-title-3 = «Ανοίξτε» το διαδίκτυο με τη { -brand-mozilla }
 verify-subject = Ολοκληρώστε τη δημιουργία του λογαριασμού σας
 verify-action-2 = Επιβεβαίωση λογαριασμού
 # Variables:
@@ -242,4 +308,5 @@ verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κ
 #  $code (String) - comfirmation code for the account
 verifyShortCode-subject-4 = Χρησιμοποιήστε το { $code } για να επιβεβαιώσετε τον λογαριασμό σας
 verifyShortCode-preview-2 = Αυτός ο κωδικός λήγει σε 5 λεπτά
+verifyShortCode-prompt-3 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.
