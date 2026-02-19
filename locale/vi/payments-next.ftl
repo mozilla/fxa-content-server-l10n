@@ -113,17 +113,23 @@ not-found-button-back-to-subscriptions = Quay lại gói đăng ký
 
 churn-cancel-flow-error-offer-expired-title = Ưu đãi này đã hết hạn
 churn-cancel-flow-error-offer-expired-message = Hiện tại không có chương trình giảm giá nào cho gói đăng ký này. Bạn có thể tiếp tục hủy gói nếu muốn.
+churn-cancel-flow-error-button-continue-to-cancel = Tiếp tục huỷ gói
 churn-cancel-flow-error-page-button-back-to-subscriptions = Quay lại gói đăng ký
 churn-cancel-flow-error-already-canceling-title = Gói đăng ký của bạn sắp hết hạn
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 churn-cancel-flow-error-already-canceling-message = Bạn sẽ tiếp tục có quyền truy cập vào { $productName } cho đến { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Giữ gói đăng ký
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Không tìm thấy trang
 not-found-loyalty-discount-description = Trang bạn đang tìm kiếm không tồn tại.
 not-found-loyalty-discount-button-back-to-subscriptions = Quay lại gói đăng ký
+
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Tiếp tục huỷ gói
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
@@ -139,6 +145,7 @@ interstitial-offer-error-subscription-not-found-message = Có vẻ như gói đ�
 interstitial-offer-error-general-heading = Ưu đãi không khả dụng
 interstitial-offer-error-general-message = Có vẻ như ưu đãi này hiện không khả dụng.
 interstitial-offer-error-button-back-to-subscriptions = Quay lại gói đăng ký
+interstitial-offer-error-button-cancel-subscription = Tiếp tục huỷ gói
 
 ## Page - Subscription Management
 
@@ -256,6 +263,7 @@ churn-cancel-flow-action-error = Đã xảy ra lỗi không mong muốn. Vui lò
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Duy trì gói đăng ký và tiết kiệm { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Tiếp tục duy trì và tiết kiệm
+churn-cancel-flow-button-continue-to-cancel = Tiếp tục huỷ gói
 churn-cancel-flow-link-terms-and-restrictions = Áp dụng các điều khoản và hạn chế giới hạn.
 churn-cancel-flow-discount-already-applied-title = Mã giảm giá đã được áp dụng
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
