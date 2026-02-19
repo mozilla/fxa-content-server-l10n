@@ -342,6 +342,9 @@ subscriptionRenewalReminder-content-greeting = Car cliente de { $productName },
 subscriptionRenewalReminder-content-intro = Tu abonamento currente es configurate pro automaticamente renovar se in { $reminderLength } dies.
 subscriptionRenewalReminder-content-discount-change = Tu factura successive reflectera un modification del precio, pois que un disconto existente ha finite e un nove disconto ha essite applicate.
 subscriptionRenewalReminder-content-discount-ending = Pois que un previe disconto ha finite, tu abonamento se renovara al precio standard.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = In ille tempore, { -brand-mozilla } renovara tu abonamento semestral e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-invoice-total-year = In ille tempore, { -brand-mozilla } renovara tu abonamento annual e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
+subscriptionRenewalReminder-content-charge-invoice-total-default = In ille tempore, { -brand-mozilla } renovara tu abonamento e un carga de { $invoiceTotal } sera applicate al methodo de pagamento sur tu conto.
 subscriptionRenewalReminder-content-closing = Sincermente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

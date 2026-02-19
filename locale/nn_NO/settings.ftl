@@ -1160,6 +1160,8 @@ passkey-sub-row-created-date = Oppretta: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Sist brukt: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Berre innlogging. Kan ikkje brukast til å synkronisere.
 passkey-sub-row-delete-title = Slett passnøkkel
 passkey-delete-modal-heading = Slette passnøkkelen?
 passkey-delete-modal-cancel-button = Avbryt
