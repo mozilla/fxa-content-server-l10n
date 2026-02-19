@@ -80,6 +80,7 @@ inactiveAccountFinalWarning-action = Συνδεθείτε για να διατη
 inactiveAccountFinalWarning-action-plaintext = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας:
 inactiveAccountFirstWarning-subject = Μην χάσετε τον λογαριασμό σας
 inactiveAccountFirstWarning-title = Θέλετε να διατηρήσετε τον λογαριασμό { -brand-mozilla } και τα δεδομένα σας;
+inactiveAccountFirstWarning-inactive-status = Παρατηρήσαμε ότι δεν έχετε συνδεθεί για 2 έτη.
 inactiveAccountFirstWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 inactiveAccountFirstWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
@@ -119,6 +120,14 @@ passwordResetWithRecoveryKeyPrompt-title = Έγινε επαναφορά του 
 passwordResetWithRecoveryKeyPrompt-action = Δημιουργία κλειδιού ανάκτησης λογαριασμού
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Δημιουργία κλειδιού ανάκτησης λογαριασμού:
+postAddAccountRecovery-action = Διαχείριση λογαριασμού
+postAddLinkedAccount-action = Διαχείριση λογαριασμού
+postAddRecoveryPhone-subject = Προστέθηκε τηλέφωνο ανάκτησης
+postAddRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
+postAddRecoveryPhone-title-v2 = Προσθέσατε έναν αριθμό τηλεφώνου ανάκτησης
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Προσθέσατε το { $maskedLastFourPhoneNumber } ως αριθμό τηλεφώνου ανάκτησης
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Πώς προστατεύεται ο λογαριασμός σας
 postAddRecoveryPhone-how-protect-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
@@ -129,10 +138,16 @@ postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την τα�
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postAddTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
 postAddTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
+postChangeAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού άλλαξε
+postChangeAccountRecovery-title = Αλλάξατε το κλειδί ανάκτησης του λογαριασμού σας
 postChangeAccountRecovery-action = Διαχείριση λογαριασμού
 postChangePrimary-subject = Το κύριο email ενημερώθηκε
 postChangePrimary-title = Νέο κύριο email
 postChangePrimary-action = Διαχείριση λογαριασμού
+postChangeRecoveryPhone-subject = Το τηλέφωνο ανάκτησης ενημερώθηκε
+postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
+postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
+postChangeRecoveryPhone-description = Έχετε πλέον ένα νέο τηλέφωνο ανάκτησης. Ο προηγούμενος αριθμός τηλεφώνου σας διαγράφηκε.
 postChangeTwoStepAuthentication-preview = Ο λογαριασμός σας προστατεύεται
 postChangeTwoStepAuthentication-subject = Η ταυτοποίηση δύο παραγόντων ενημερώθηκε
 postChangeTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων ενημερώθηκε
@@ -142,28 +157,71 @@ postChangeTwoStepAuthentication-how-protects-plaintext = Πώς προστατε
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
+postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
+postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-action = Διαχείριση λογαριασμού
+postRemoveTwoStepAuthentication-subject-line-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
+postRemoveTwoStepAuthentication-title-2 = Απενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
 postRemoveTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postSigninRecoveryCode-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
 postSigninRecoveryCode-action = Διαχείριση λογαριασμού
 postSigninRecoveryPhone-preview = Επιβεβαίωση δραστηριότητας λογαριασμού
 postSigninRecoveryPhone-action = Διαχείριση λογαριασμού
+postVerify-sub-title-3 = Χαιρόμαστε που σας βλέπουμε!
+postVerify-title-2 = Θέλετε να δείτε την ίδια καρτέλα σε δύο συσκευές;
+postVerify-description-2 = Είναι απλό! Εγκαταστήστε απλώς το { -brand-firefox } σε μια άλλη συσκευή και συνδεθείτε για συγχρονισμό. Είναι σχεδόν μαγικό!
+postVerify-sub-description = (Ψιτ… Αυτό σημαίνει ότι μπορείτε να λάβετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα σας από το { -brand-firefox }, οπουδήποτε έχετε κάνει σύνδεση.)
 postVerify-subject-4 = Καλώς ορίσατε στη { -brand-mozilla }!
 postVerify-setup-2 = Σύνδεση άλλης συσκευής:
 postVerify-action-2 = Σύνδεση άλλης συσκευής
+postVerifySecondary-subject = Προστέθηκε δευτερεύον email
+postVerifySecondary-title = Προστέθηκε δευτερεύον email
 postVerifySecondary-action = Διαχείριση λογαριασμού
+recovery-title-2 = Ξεχάσατε τον κωδικό πρόσβασής σας;
 recovery-action = Δημιουργία νέου κωδικού πρόσβασης
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Χρησιμοποιήστε το { $unblockCode } για να συνδεθείτε
+unblockCode-preview = Αυτός ο κωδικός λήγει σε μία ώρα
+unblockCode-title = Εσείς κάνετε σύνδεση;
+verificationReminderFinal-subject = Τελική υπενθύμιση για επιβεβαίωση του λογαριασμού σας
 confirm-account = Επιβεβαίωση λογαριασμού
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-title-3 = Καλώς ορίσατε στη { -brand-mozilla }!
 confirm-email-2 = Επιβεβαίωση λογαριασμού
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Επιβεβαίωση λογαριασμού
 verificationReminderSecond-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderSecond-title-3 = Μην χάσετε τα νέα της { -brand-mozilla }!
 verificationReminderSecond-action-2 = Επιβεβαίωση λογαριασμού
+verify-subject = Ολοκληρώστε τη δημιουργία του λογαριασμού σας
 verify-action-2 = Επιβεβαίωση λογαριασμού
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Χρησιμοποιήστε το { $code } για να αλλάξετε τον λογαριασμό σας
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Αυτός ο κωδικός λήγει σε { $expirationTime } λεπτό.
+       *[other] Αυτός ο κωδικός λήγει σε { $expirationTime } λεπτά.
+    }
+verifyAccountChange-title = Αλλάζετε τις πληροφορίες του λογαριασμού σας;
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Λήγει σε { $expirationTime } λεπτό.
+       *[other] Λήγει σε { $expirationTime } λεπτά.
+    }
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Συνδεθήκατε στο { $clientName };
 verifyLogin-subject-2 = Επιβεβαίωση σύνδεσης
 verifyLogin-action = Επιβεβαίωση σύνδεσης
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Χρησιμοποιήστε το { $code } για να συνδεθείτε
 verifyLoginCode-preview = Αυτός ο κωδικός λήγει σε 5 λεπτά.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -173,5 +231,15 @@ verifyPrimary-title-2 = Επιβεβαίωση κύριου email
 verifyPrimary-subject = Επιβεβαίωση κύριου email
 verifyPrimary-action-2 = Επιβεβαίωση email
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Χρησιμοποιήστε το { $code } για να επιβεβαιώσετε το δευτερεύον email σας
+verifySecondaryCode-preview = Αυτός ο κωδικός λήγει σε 5 λεπτά.
+verifySecondaryCode-title-2 = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-action-2 = Επιβεβαίωση email
+verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Χρησιμοποιήστε το { $code } για να επιβεβαιώσετε τον λογαριασμό σας
+verifyShortCode-preview-2 = Αυτός ο κωδικός λήγει σε 5 λεπτά
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.
