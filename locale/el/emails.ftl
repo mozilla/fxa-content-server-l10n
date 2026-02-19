@@ -39,8 +39,12 @@ automated-email-support = Για περισσότερες πληροφορίες
 automated-email-change-plaintext-2 = Εάν δεν εκτελέσατε εσείς αυτήν την ενέργεια, αλλάξτε τον κωδικό πρόσβασής σας αμέσως:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Για περισσότερες πληροφορίες, επισκεφθείτε την Υποστήριξη { -brand-mozilla }:
+automated-email-inactive-account = Αυτό είναι ένα αυτοματοποιημένο email. Το λαμβάνετε επειδή διαθέτετε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") } και έχουν περάσει 2 έτη από την τελευταία σύνδεσή σας.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Αυτό είναι ένα αυτοματοποιημένο email. Εάν το λάβατε κατά λάθος, δεν χρειάζεται να κάνετε τίποτα.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Αυτό είναι ένα αυτοματοποιημένο email. Εάν δεν εγκρίνατε εσείς αυτήν την ενέργεια, τότε αλλάξτε τον κωδικό πρόσβασής σας.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
@@ -79,6 +83,18 @@ automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Εάν δεν το 
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = και αλλάξτε τον κωδικό πρόσβασής σας:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = Για περισσότερες πληροφορίες, επισκεφθείτε την Υποστήριξη { -brand-mozilla }:
+automated-email-reset =
+    Αυτό είναι ένα αυτοματοποιημένο email. Εάν δεν εγκρίνατε εσείς αυτήν την ενέργεια, τότε <a data-l10n-name="resetLink">επαναφέρετε τον κωδικό πρόσβασής σας</a>.
+    Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Εάν δεν εγκρίνατε εσείς αυτήν την ενέργεια, επαναφέρετε τώρα τον κωδικό πρόσβασής σας στο { $resetLink }
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Εάν δεν εκτελέσατε εσείς αυτήν την ενέργεια, επαναφέρετε τον κωδικό πρόσβασής σας αμέσως στο:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Επίσης, επαναφέρετε την ταυτοποίηση δύο παραγόντων στο:
+brand-banner-message = Γνωρίζατε ότι αλλάξαμε το όνομά μας από «{ -product-firefox-accounts }» σε «{ -product-mozilla-accounts }»; <a data-l10n-name="learnMore">Μάθετε περισσότερα</a>
+change-password-plaintext = Εάν υποπτεύεστε ότι κάποιος προσπαθεί να αποκτήσει πρόσβαση στον λογαριασμό σας, αλλάξτε τον κωδικό πρόσβασής σας.
 manage-account = Διαχείριση λογαριασμού
 manage-account-plaintext = { manage-account }:
 # Variables:
@@ -117,9 +133,14 @@ cadReminderFirst-action = Συγχρονισμός άλλης συσκευής
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Χρειάζονται δύο συσκευές για συγχρονισμό
+cadReminderFirst-description-v2 = Μεταφέρετε τις καρτέλες σας σε όλες τις συσκευές σας. Λάβετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης και άλλα δεδομένα όπου κι αν χρησιμοποιείτε το { -brand-firefox }.
 cadReminderSecond-subject-2 = Μην το χάσετε! Ολοκληρώστε τη ρύθμιση του συγχρονισμού
 cadReminderSecond-action = Συγχρονισμός άλλης συσκευής
 cadReminderSecond-title-2 = Μην ξεχάσετε να κάνετε συγχρονισμό!
+cadReminderSecond-description-sync = Συγχρονίστε τους σελιδοδείκτες, τους κωδικούς πρόσβασης, τις ανοικτές καρτέλες και πολλά άλλα, όπου κι αν χρησιμοποιείτε το { -brand-firefox }.
+cadReminderSecond-description-plus = Επιπλέον, τα δεδομένα σας είναι πάντα κρυπτογραφημένα. Μόνο εσείς έχετε πρόσβαση, από τις εγκεκριμένες σας συσκευές.
+inactiveAccountFinalWarning-subject = Τελευταία ευκαιρία να διατηρήσετε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
+inactiveAccountFinalWarning-title = Ο λογαριασμός { -brand-mozilla } και τα δεδομένα σας θα διαγραφούν
 inactiveAccountFinalWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 inactiveAccountFinalWarning-action = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
 # followed by link to sign in
@@ -216,7 +237,13 @@ postChangeTwoStepAuthentication-how-protects-link = Πώς προστατεύε�
 postChangeTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
 postNewRecoveryCodes-action = Διαχείριση λογαριασμού
+postRemoveAccountRecovery-subject-2 = Το κλειδί ανάκτησης λογαριασμού διαγράφηκε
+postRemoveAccountRecovery-title-3 = Διαγράψατε το κλειδί ανάκτησης του λογαριασμού σας
 postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
+postRemoveRecoveryPhone-subject = Το τηλέφωνο ανάκτησης αφαιρέθηκε
+postRemoveRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
+postRemoveRecoveryPhone-title = Το τηλέφωνο ανάκτησης αφαιρέθηκε
+postRemoveRecoveryPhone-description-v2 = Το τηλέφωνο ανάκτησής σας έχει αφαιρεθεί από τις ρυθμίσεις ταυτοποίησης δύο παραγόντων.
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-action = Διαχείριση λογαριασμού
@@ -252,6 +279,7 @@ unblockCode-title = Εσείς κάνετε σύνδεση;
 verificationReminderFinal-subject = Τελική υπενθύμιση για επιβεβαίωση του λογαριασμού σας
 confirm-account = Επιβεβαίωση λογαριασμού
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Θυμηθείτε να επιβεβαιώσετε τον λογαριασμό σας
 verificationReminderFirst-title-3 = Καλώς ορίσατε στη { -brand-mozilla }!
 confirm-email-2 = Επιβεβαίωση λογαριασμού
 confirm-email-plaintext-2 = { confirm-email-2 }:
@@ -304,9 +332,11 @@ verifySecondaryCode-preview = Αυτός ο κωδικός λήγει σε 5 λ�
 verifySecondaryCode-title-2 = Επιβεβαίωση δευτερεύοντος email
 verifySecondaryCode-action-2 = Επιβεβαίωση email
 verifySecondaryCode-prompt-2 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
+verifySecondaryCode-expiry-notice-2 = Λήγει σε 5 λεπτά. Μόλις γίνει επιβεβαίωση, αυτή η διεύθυνση θα αρχίσει να λαμβάνει ειδοποιήσεις και επιβεβαιώσεις ασφαλείας.
 # Variables:
 #  $code (String) - comfirmation code for the account
 verifyShortCode-subject-4 = Χρησιμοποιήστε το { $code } για να επιβεβαιώσετε τον λογαριασμό σας
 verifyShortCode-preview-2 = Αυτός ο κωδικός λήγει σε 5 λεπτά
+verifyShortCode-title-3 = «Ανοίξτε» το διαδίκτυο με τη { -brand-mozilla }
 verifyShortCode-prompt-3 = Χρησιμοποιήστε αυτόν τον κωδικό επιβεβαίωσης:
 verifyShortCode-expiry-notice = Λήγει σε 5 λεπτά.
