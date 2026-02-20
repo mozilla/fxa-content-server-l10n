@@ -344,6 +344,12 @@ subscriptionRenewalReminder-content-greeting = Уважаемый покупат
 subscriptionRenewalReminder-content-intro = Ваша текущая подписка настроена на автоматическое продление через { $reminderLength } дней.
 subscriptionRenewalReminder-content-discount-change = Ваш следующий счёт отражает изменение цены, так как предыдущая скидка закончилась и была применена новая.
 subscriptionRenewalReminder-content-discount-ending = Так как предыдущая скидка закончилась, ваша подписка будет продлена по стандартной цене.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = В это время { -brand-mozilla } продлит вашу ежедневную подписку и со способа оплаты на вашем аккаунте будет списана оплата в размере { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
+subscriptionRenewalReminder-content-charge-with-tax-week = В это время { -brand-mozilla } продлит вашу еженедельную подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
+subscriptionRenewalReminder-content-charge-with-tax-month = В это время { -brand-mozilla } продлит вашу ежемесячную подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
 subscriptionRenewalReminder-content-closing = С уважением,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
