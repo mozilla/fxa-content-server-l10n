@@ -350,6 +350,17 @@ subscriptionRenewalReminder-content-discount-ending = Так как предыд
 subscriptionRenewalReminder-content-charge-with-tax-day = В это время { -brand-mozilla } продлит вашу ежедневную подписку и со способа оплаты на вашем аккаунте будет списана оплата в размере { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
 subscriptionRenewalReminder-content-charge-with-tax-week = В это время { -brand-mozilla } продлит вашу еженедельную подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
 subscriptionRenewalReminder-content-charge-with-tax-month = В это время { -brand-mozilla } продлит вашу ежемесячную подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = В это время { -brand-mozilla } продлит вашу полугодовую подписку и со способа оплаты на вашем аккаунте будет списана оплата в размере { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
+subscriptionRenewalReminder-content-charge-with-tax-year = В это время { -brand-mozilla } продлит вашу годовую подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
+subscriptionRenewalReminder-content-charge-with-tax-default = В это время { -brand-mozilla } продлит вашу подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotalExcludingTax } + { $invoiceTax } налог.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = В это время { -brand-mozilla } продлит вашу ежедневную подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-week = В это время { -brand-mozilla } продлит вашу еженедельную подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-month = В это время { -brand-mozilla } продлит вашу ежемесячную подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = В это время { -brand-mozilla } продлит вашу полугодовую подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-year = В это время { -brand-mozilla } продлит вашу годовую подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-default = В это время { -brand-mozilla } продлит вашу подписку и со способа оплаты на вашем аккаунте будет списана оплата { $invoiceTotal }.
 subscriptionRenewalReminder-content-closing = С уважением,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

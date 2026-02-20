@@ -1156,6 +1156,18 @@ tfa-row-backup-phone-description-v2 = Это более простой спос�
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Узнайте о риске подмены SIM-карт
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Создан: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Последнее использование: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Только вход. Не может быть использован для синхронизации.
+passkey-sub-row-delete-title = Удалить ключ доступа
+passkey-delete-modal-heading = Удалить ваш ключ доступа?
 
 ## Switch component
 
