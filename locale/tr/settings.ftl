@@ -1152,6 +1152,11 @@ row-defaults-action-change = Değiştir
 row-defaults-action-disable = Devre dışı bırak
 row-defaults-status = Yok
 
+## UnitRowPasskey
+
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
+
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Hesap kurtarma anahtarı

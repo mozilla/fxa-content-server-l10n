@@ -250,6 +250,10 @@ subscriptionDowngrade-content-charge-info = Bir sonraki faturanızdan itibaren {
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = { $productName } ürününü kullanmak için kurmanız gereken yeni bir yazılım varsa indirme talimatlarını içeren ayrı bir e-posta alacaksınız.
 subscriptionDowngrade-content-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = { $productName } aboneliğiniz yakında bitecek
+subscriptionEndingReminder-title = { $productName } aboneliğiniz yakında bitecek
 subscriptionEndingReminder-content-closing = Abone olduğunuz için teşekkürler!
 # Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
