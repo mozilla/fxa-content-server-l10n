@@ -37,6 +37,10 @@ payment-confirmation-thanks-heading = നന്ദി
 payment-confirmation-order-heading = ഓർഡർ വിശദാംശങ്ങൾ
 payment-confirmation-download-button = ഇറക്കിവയ്ക്കുന്നതിനു് തുടരുക
 
+## Component - PaymentErrorView
+
+payment-error-retry-button = വീണ്ടും ശ്രമിക്കുക
+
 ## Component - PaymentErrorView - IAP upgrade errors
 
 iap-upgrade-get-help-button = പിന്തുണ നേടുക
