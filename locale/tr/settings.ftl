@@ -1133,6 +1133,16 @@ tfa-row-backup-phone-description-v2 = Kimlik doğrulama uygulamanızı kullanam�
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = SIM swap saldırısı bilgi alın
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Oluşturma: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Son kullanım: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Sadece giriş içindir. Eşitleme yapmak için kullanılamaz.
 
 ## Switch component
 
