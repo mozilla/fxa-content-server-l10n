@@ -342,6 +342,12 @@ subscriptionRenewalReminder-content-greeting = Estimado cliente de { $productNam
 subscriptionRenewalReminder-content-intro = Tu suscripción actual está configurada para renovarse automáticamente en { $reminderLength } días.
 subscriptionRenewalReminder-content-discount-change = Tu próxima factura refleja un cambio en el precio, ya que ha finalizado un descuento anterior y se ha aplicado un nuevo descuento.
 subscriptionRenewalReminder-content-discount-ending = Debido a que ha finalizado un descuento anterior, tu suscripción se renovará al precio estándar.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = En ese momento, { -brand-mozilla } renovará tu suscripción diaria y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-with-tax-week = En ese momento, { -brand-mozilla } renovará tu suscripción semanal y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-with-tax-month = En ese momento, { -brand-mozilla } renovará tu suscripción mensual y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
 subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
