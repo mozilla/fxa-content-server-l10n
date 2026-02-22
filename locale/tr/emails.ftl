@@ -375,6 +375,9 @@ recovery-request-origin-2 = { -product-mozilla-account }nız için bu cihazdan b
 recovery-new-password-button = Aşağıdaki düğmeye tıklayarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
 recovery-copy-paste = Aşağıdaki adresi kopyalayıp tarayıcınıza yapıştırarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
 recovery-action = Yeni parola oluştur
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Giriş yapmak için bu kodu kullanabilirsiniz: { $unblockCode }
 unblockCode-preview = Kodun geçerlilik süresi 1 saattir
 unblockCode-title = Giriş yapan siz misiniz?
 unblockCode-prompt = Sizseniz bu yetkilendirme kodunu kullanabilirsiniz:
@@ -405,6 +408,9 @@ verify-description-2 = Hesabınızı doğrulayın, giriş yaptığınız her yer
 verify-subject = Hesabınızı oluşturmayı tamamlayın
 verify-action-2 = Hesabı onaylayın
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Hesabınızı değiştirmek için bu kodu kullanabilirsiniz: { $code }
+# Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =
     { $expirationTime ->
@@ -427,6 +433,9 @@ verifyLogin-title-2 = { $clientName } uygulamasına giriş yaptınız mı?
 verifyLogin-description-2 = Hesabınızı güvende tutabilmemiz için giriş yaptığınızı onaylayın:
 verifyLogin-subject-2 = Girişi onayla
 verifyLogin-action = Girişi onayla
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Giriş yapmak için bu kodu kullanabilirsiniz: { $code }
 verifyLoginCode-preview = Kodun geçerlilik süresi 5 dakikadır.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)

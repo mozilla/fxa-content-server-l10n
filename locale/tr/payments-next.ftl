@@ -1,4 +1,7 @@
+loyalty-discount-terms-heading = Koşullar ve kısıtlamalar
 loyalty-discount-terms-support = Destek birimiyle iletişime geçin
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = { $productName } destek ekibiyle iletişime geçin
 not-found-page-title-terms = Sayfa bulunamadı
 not-found-page-description-terms = Aradığınız sayfa mevcut değil.
 not-found-page-button-terms-manage-subscriptions = Abonelikleri yönet
