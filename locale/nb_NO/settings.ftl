@@ -1150,6 +1150,13 @@ tfa-row-backup-phone-description-v2 = Dette er den enkleste gjenopprettingsmetod
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Les mer om SIM-swapping-risiko
+passkey-sub-row-delete-title = Slett passnøkkel
+passkey-delete-modal-heading = Slette passnøkkelen din?
+passkey-delete-modal-content = Denne passnøkkelen vil bli fjernet fra kontoen din. Du må logge inn på en annen måte.
+passkey-delete-modal-cancel-button = Avbryt
+passkey-delete-modal-confirm-button = Slett passnøkkel
+passkey-delete-success = Passnøkkel slettet
+passkey-delete-error = Det oppsto et problem med å slette passnøkkelen din. Prøv igjen om noen minutter.
 
 ## Switch component
 
@@ -1168,6 +1175,16 @@ row-defaults-action-add = Legg til
 row-defaults-action-change = Endre
 row-defaults-action-disable = Slå av
 row-defaults-status = Ingen
+
+## UnitRowPasskey
+
+passkey-row-header = Passnøkkler
+passkey-row-enabled = Påslått
+passkey-row-not-set = Ikke angitt
+passkey-row-action-create = Opprett
+passkey-row-description = Gjør innlogging enklere og sikrere ved å bruke telefonen din eller en annen støttet enhet for å få tilgang til kontoen din.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Slik beskytter dette kontoen din
 
 ## Account recovery key sub-section on main Settings page
 
