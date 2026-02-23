@@ -349,6 +349,7 @@ subscriptionRenewalReminder-content-charge-with-tax-day = På dette tidspunktet 
 subscriptionRenewalReminder-content-charge-with-tax-week = På dette tidspunktet vil { -brand-mozilla } fornye vekeabonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belasta betalingsmåten på kontoen din.
 subscriptionRenewalReminder-content-charge-with-tax-month = På dette tidspunktet vil { -brand-mozilla } fornye månadsabonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belasta betalingsmåten på kontoen din.
 subscriptionRenewalReminder-content-charge-with-tax-halfyear = På dette tidspunktet vil { -brand-mozilla } fornye halvårsabonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belasta betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-with-tax-year = På dette tidspunktet vil { -brand-mozilla } fornye årsabonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belasta betalingsmåten på kontoen din.
 subscriptionRenewalReminder-content-closing = Vennleg helsing,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
