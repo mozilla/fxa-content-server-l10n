@@ -340,6 +340,23 @@ subscriptionRenewalReminder-content-greeting = KJære { $productName }-kunde,
 subscriptionRenewalReminder-content-intro = Ditt nåværende abonnement er satt til å fornyes automatisk om { $reminderLength } dager.
 subscriptionRenewalReminder-content-discount-change = Din neste faktura gjenspeiler en prisendring, ettersom en tidligere rabatt er utløpt og en ny rabatt er brukt.
 subscriptionRenewalReminder-content-discount-ending = Fordi en tidligere rabatt er utløpt, vil abonnementet ditt fornyes til standardprisen.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = På dette tidspunktet vil { -brand-mozilla } fornye det daglige abonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-with-tax-week = På dette tidspunktet vil { -brand-mozilla } fornye det ukentlige abonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-with-tax-month = På dette tidspunktet vil { -brand-mozilla } fornye det månedlige abonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = På dette tidspunktet vil { -brand-mozilla } fornye halvårsabonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-with-tax-year = På dette tidspunktet vil { -brand-mozilla } fornye årsabonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-with-tax-default = På dette tidspunktet vil { -brand-mozilla } fornye abonnementet ditt, og beløpet { $invoiceTotalExcludingTax } + { $invoiceTax } moms vil bli belastet betalingsmåten på kontoen din.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = På dette tidspunktet vil { -brand-mozilla } fornye det daglige abonnementet ditt, og beløpet { $invoiceTotal } vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-invoice-total-week = På dette tidspunktet vil { -brand-mozilla } fornye det ukentlige abonnementet ditt, og beløpet { $invoiceTotal } vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-invoice-total-month = På dette tidspunktet vil { -brand-mozilla } fornye det månedlige abonnementet ditt, og beløpet { $invoiceTotal } vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = På dette tidspunktet vil { -brand-mozilla } fornye halvårsabonnementet ditt, og beløpet { $invoiceTotal } vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-invoice-total-year = På dette tidspunktet vil { -brand-mozilla } fornye årsabonnementet ditt, og beløpet { $invoiceTotal } vil bli belastet betalingsmåten på kontoen din.
+subscriptionRenewalReminder-content-charge-invoice-total-default = På dette tidspunktet vil { -brand-mozilla } fornye abonnementet ditt, og beløpet { $invoiceTotal } vil bli belastet betalingsmåten på kontoen din.
 subscriptionRenewalReminder-content-closing = Vennlig hilsen,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
