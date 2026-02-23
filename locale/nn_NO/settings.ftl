@@ -1164,9 +1164,11 @@ passkey-sub-row-last-used-date = Sist brukt: { $lastUsedDate }
 passkey-sub-row-sign-in-only = Berre innlogging. Kan ikkje brukast til å synkronisere.
 passkey-sub-row-delete-title = Slett passnøkkel
 passkey-delete-modal-heading = Slette passnøkkelen?
+passkey-delete-modal-content = Denne passnøkkelen vil bli fjerna frå kontoen din. Du må logge inn på ein annan måte.
 passkey-delete-modal-cancel-button = Avbryt
 passkey-delete-modal-confirm-button = Slett passnøkkel
 passkey-delete-success = Passnøkkel sletta
+passkey-delete-error = Det oppstod eit problem med å slette passnøkkelen din. Prøv igjen om nokre minutt.
 
 ## Switch component
 
@@ -1192,6 +1194,7 @@ passkey-row-header = Passnøklar
 passkey-row-enabled = Aktivert
 passkey-row-not-set = Ikkje innstilt
 passkey-row-action-create = Opprett
+passkey-row-description = Gjer innlogging enklare og sikrare ved å bruke telefonen din eller ei anna støtta eining for å få tilgang til kontoen din.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Korleis dette vernar kontoen din
 
