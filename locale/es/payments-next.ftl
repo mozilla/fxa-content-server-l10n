@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = Términos y restricciones
+loyalty-discount-terms-support = Contactar con la asistencia
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Contactar con la asistencia para { $productName }
+not-found-page-title-terms = Página no encontrada
+not-found-page-description-terms = La página que estás buscando no existe.
+not-found-page-button-terms-manage-subscriptions = Administrar suscripciones
+
 ## Page
 
 checkout-signin-or-create = 1. Inicia sesión o crea una { -product-mozilla-account }
@@ -34,6 +42,8 @@ mastercard-logo-alt-text = Logo de { -brand-mastercard }
 paypal-logo-alt-text = Logo de { -brand-paypal }
 unionpay-logo-alt-text = Logo de { -brand-unionpay }
 visa-logo-alt-text = Logo de { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo sin marca
 link-logo-alt-text = Logo de { -brand-link }
 apple-pay-logo-alt-text = Logo de { -brand-apple-pay }
 google-pay-logo-alt-text = Logo de { -brand-google-pay }
@@ -51,6 +61,7 @@ checkout-error-already-subscribed = Ya estás suscrito a este producto.
 checkout-error-contact-support = Por favor contacta con el servicio de asistencia para que podamos ayudarte.
 cart-error-currency-not-determined = No hemos podido determinar la moneda para esta compra, por favor vuelve a intentarlo.
 checkout-processing-general-error = Ha ocurrido un error inesperado al procesar el pago, por favor prueba de nuevo.
+cart-total-mismatch-error = El importe de la factura ha cambiado. Por favor, vuelve a intentarlo.
 
 ## Error pages - Payment method failure messages
 
@@ -171,6 +182,7 @@ subscription-management-button-manage-subscription-aria = Administrar suscripci�
 error-payment-method-banner-title-expired-card = Tarjeta caducada
 error-payment-method-banner-message-add-new-card = Añade una nueva tarjeta o método de pago para evitar interrupciones en tus suscripciones.
 error-payment-method-banner-label-update-payment-method = Actualizar método de pago
+subscription-management-button-manage-payment-method-1 = Administrar métodos de pago
 subscription-management-error-paypal-billing-agreement = Hay un problema con tu cuenta de { -brand-paypal }. Por favor, soluciona el problema para mantener tus suscripciones activas.
 paypal-payment-management-page-invalid-header = Información de facturación no válida
 # Page - Not Found
