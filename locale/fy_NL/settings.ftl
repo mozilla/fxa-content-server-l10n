@@ -1156,6 +1156,15 @@ tfa-row-backup-phone-description-v2 = Dit is de ienfâldichste werstelmetoade as
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Mear ynfo oer it risiko fan simkaartwikseling
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Oanmakke: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Lêst brûkt: { $lastUsedDate }
+passkey-delete-modal-cancel-button = Annulearje
 
 ## Switch component
 

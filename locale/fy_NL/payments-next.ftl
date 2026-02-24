@@ -146,6 +146,8 @@ interstitial-offer-error-general-heading = Oanbieding is net beskikber
 interstitial-offer-error-general-message = It liket derop dat dizze oanbieding op dit stuit net beskikber is.
 interstitial-offer-error-button-back-to-subscriptions = Tebek nei abonneminten
 interstitial-offer-error-button-cancel-subscription = Trochgean mei opsizzen
+interstitial-offer-error-button-sign-in = Oanmelde
+interstitial-offer-error-button-contact-support = Kontakt opnimme
 
 ## Page - Subscription Management
 
@@ -458,6 +460,7 @@ churn-error-page-message-discount-already-applied = Dizze koarting is tapast op 
 churn-error-page-button-manage-subscriptions = Abonneminten beheare
 churn-error-page-button-contact-support = Kontakt opnimme
 churn-error-page-button-try-again = Opnij probearje
+churn-error-page-button-sign-in = Oanmelde
 churn-error-page-title-general-error = Der is in probleem bard by it ferlingjen fan jo abonnemint
 churn-error-page-message-general-error = Nim kontakt op mei stipe of probearje it opnij.
 # $productName (String) - The name of the product associated with the subscription.
