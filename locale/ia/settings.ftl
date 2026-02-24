@@ -1800,6 +1800,9 @@ back = Retro
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
+signin-passkey-fallback-header = Completar accesso
+signin-passkey-fallback-heading = Insere tu contrasigno pro synchronisar
+signin-passkey-fallback-body = Pro mantener tu datos secur, tu debe inserer tu contrasigno quando tu usa iste clave-contrasigno.
 signin-passkey-fallback-password-label = Contrasigno
 signin-passkey-fallback-go-to-settings = Ir a parametros
 signin-passkey-fallback-continue = Continuar
