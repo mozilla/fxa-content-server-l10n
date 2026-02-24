@@ -146,6 +146,8 @@ interstitial-offer-error-general-heading = Tilbodet er ikke tilgjengelig
 interstitial-offer-error-general-message = Det ser ut til at dette tilbodet ikkje er tilgjengeleg akkurat no.
 interstitial-offer-error-button-back-to-subscriptions = Tilbake til abonnementa
 interstitial-offer-error-button-cancel-subscription = Hald fram med oppseiinga
+interstitial-offer-error-button-sign-in = Logg inn
+interstitial-offer-error-button-contact-support = Kontakt kundestøtte
 
 ## Page - Subscription Management
 
