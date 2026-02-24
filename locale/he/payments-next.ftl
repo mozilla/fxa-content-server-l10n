@@ -140,10 +140,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = להשאיר את �
 
 interstitial-offer-error-subscription-not-found-heading = לא הצלחנו למצוא מינוי פעיל
 interstitial-offer-error-subscription-not-found-message = נראה שמינוי זה אינו פעיל עוד.
+interstitial-offer-error-customer-mismatch-heading = מינוי זה אינו משוייך לחשבון שלך
+interstitial-offer-error-customer-mismatch-message = נא לוודא שהתחברת עם החשבון הנכון, או ליצור קשר עם התמיכה אם יש לך צורך בעזרה.
 interstitial-offer-error-general-heading = ההצעה אינה זמינה
 interstitial-offer-error-general-message = נראה שהצעה זו אינה זמינה כרגע.
 interstitial-offer-error-button-back-to-subscriptions = חזרה למינויים
 interstitial-offer-error-button-cancel-subscription = המשך לביטול
+interstitial-offer-error-button-sign-in = כניסה
+interstitial-offer-error-button-contact-support = יצירת קשר עם התמיכה
 
 ## Page - Subscription Management
 
@@ -451,6 +455,9 @@ churn-error-page-message-discount-already-applied = הנחה זו הוחלה ע�
 churn-error-page-button-manage-subscriptions = ניהול מינויים
 churn-error-page-button-contact-support = יצירת קשר עם התמיכה
 churn-error-page-button-try-again = ניסיון חוזר
+churn-error-page-title-customer-mismatch = לא ניתן לממש את הקופון
+churn-error-page-message-customer-mismatch = קופון זה הונפק עבור מינוי אחר וניתן למימוש רק על־ידי הנמען המקורי.
+churn-error-page-button-sign-in = כניסה
 churn-error-page-title-general-error = הייתה בעיה בחידוש המינוי שלך
 churn-error-page-message-general-error = נא ליצור קשר עם התמיכה או לנסות שוב.
 # $productName (String) - The name of the product associated with the subscription.
