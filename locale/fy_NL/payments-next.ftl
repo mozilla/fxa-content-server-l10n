@@ -142,6 +142,8 @@ interstitial-offer-button-keep-current-interval-halfyearly = Healjierabonnemint 
 
 interstitial-offer-error-subscription-not-found-heading = Wy kinne gjin aktyf abonnemint fine
 interstitial-offer-error-subscription-not-found-message = It liket derop dat dit abonnemint net mear aktyf is.
+interstitial-offer-error-customer-mismatch-heading = Dit abonnemint is net oan jo account keppele
+interstitial-offer-error-customer-mismatch-message = Soargje derfoar dat jo mei it krekte account oanmeld binne, of nim kontakt op mei Stipe as jo help nedich binne.
 interstitial-offer-error-general-heading = Oanbieding is net beskikber
 interstitial-offer-error-general-message = It liket derop dat dizze oanbieding op dit stuit net beskikber is.
 interstitial-offer-error-button-back-to-subscriptions = Tebek nei abonneminten
@@ -460,6 +462,8 @@ churn-error-page-message-discount-already-applied = Dizze koarting is tapast op 
 churn-error-page-button-manage-subscriptions = Abonneminten beheare
 churn-error-page-button-contact-support = Kontakt opnimme
 churn-error-page-button-try-again = Opnij probearje
+churn-error-page-title-customer-mismatch = Weardebon kin net ynwiksele wurde
+churn-error-page-message-customer-mismatch = Dizze weardebon is útjûn foar in oar abonnemint en kin allinnich troch de orizjinele ûntfanger ynwiksele wurde.
 churn-error-page-button-sign-in = Oanmelde
 churn-error-page-title-general-error = Der is in probleem bard by it ferlingjen fan jo abonnemint
 churn-error-page-message-general-error = Nim kontakt op mei stipe of probearje it opnij.
