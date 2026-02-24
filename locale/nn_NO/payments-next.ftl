@@ -142,6 +142,8 @@ interstitial-offer-button-keep-current-interval-halfyearly = Behald seksmånadar
 
 interstitial-offer-error-subscription-not-found-heading = Vi fann ikkje eit aktivt abonnement
 interstitial-offer-error-subscription-not-found-message = Det ser ut til at dette abonnementet ikkje lenger er aktivt.
+interstitial-offer-error-customer-mismatch-heading = Dette abonnementet er ikkje knytt til kontoen din
+interstitial-offer-error-customer-mismatch-message = Sørg for at du er logga inn med rett konto, eller kontakt kundestøtte om du treng hjelp.
 interstitial-offer-error-general-heading = Tilbodet er ikke tilgjengelig
 interstitial-offer-error-general-message = Det ser ut til at dette tilbodet ikkje er tilgjengeleg akkurat no.
 interstitial-offer-error-button-back-to-subscriptions = Tilbake til abonnementa
@@ -460,6 +462,8 @@ churn-error-page-message-discount-already-applied = Denne rabatten vart brukt p�
 churn-error-page-button-manage-subscriptions = Handsam abonnement
 churn-error-page-button-contact-support = Kontakt support
 churn-error-page-button-try-again = Prøv igjen
+churn-error-page-title-customer-mismatch = Kupongen kan ikkje løysast inn
+churn-error-page-button-sign-in = Logg inn
 churn-error-page-title-general-error = Det oppstod eit problem med å fornye abonnementet ditt
 churn-error-page-message-general-error = Kontakt brukarstøtte eller prøv på nytt.
 # $productName (String) - The name of the product associated with the subscription.

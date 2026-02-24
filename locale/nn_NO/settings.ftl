@@ -1799,6 +1799,15 @@ signin-bounced-help = Dersom dette er en gyldig e-postadresse, <linkExternal>gi 
 signin-bounced-create-new-account = Har du ikkje lenger denne e-postadressa? Lag ein ny konto
 back = Tilbake
 
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Fullfør innlogginga
+signin-passkey-fallback-heading = Skriv inn passordet ditt for å synkronisere
+signin-passkey-fallback-password-label = Passord
+signin-passkey-fallback-go-to-settings = Gå til Innstillingar
+signin-passkey-fallback-continue = Hald fram
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
