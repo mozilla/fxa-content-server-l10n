@@ -1804,6 +1804,7 @@ back = Tilbake
 
 signin-passkey-fallback-header = Fullfør innlogginga
 signin-passkey-fallback-heading = Skriv inn passordet ditt for å synkronisere
+signin-passkey-fallback-body = For å halde dataa dine trygge, må du oppgi passordet ditt når du brukar denne passnøkkelen.
 signin-passkey-fallback-password-label = Passord
 signin-passkey-fallback-go-to-settings = Gå til Innstillingar
 signin-passkey-fallback-continue = Hald fram

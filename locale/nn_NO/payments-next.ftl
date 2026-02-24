@@ -463,6 +463,7 @@ churn-error-page-button-manage-subscriptions = Handsam abonnement
 churn-error-page-button-contact-support = Kontakt support
 churn-error-page-button-try-again = Prøv igjen
 churn-error-page-title-customer-mismatch = Kupongen kan ikkje løysast inn
+churn-error-page-message-customer-mismatch = Denne kupongen vart ferda ut for eit anna abonnement og kan berre innløysast av den opphavlege mottakaren.
 churn-error-page-button-sign-in = Logg inn
 churn-error-page-title-general-error = Det oppstod eit problem med å fornye abonnementet ditt
 churn-error-page-message-general-error = Kontakt brukarstøtte eller prøv på nytt.
