@@ -145,10 +145,13 @@ interstitial-offer-button-keep-current-interval-halfyearly = Šěsćměsačny ab
 
 interstitial-offer-error-subscription-not-found-heading = Njemóžachmy aktiwny abonement namakać
 interstitial-offer-error-subscription-not-found-message = Zda so, zo tutón abonement hižo aktiwny njeje.
+interstitial-offer-error-customer-mismatch-heading = Tutón abonement z wašim kontom zwjazany njeje
 interstitial-offer-error-general-heading = Poskitk k dispoziciji njeje
 interstitial-offer-error-general-message = Zda so, zo tutón poskitk tuchwilu k dispoziciji njeje.
 interstitial-offer-error-button-back-to-subscriptions = Wróćo k abonementam
 interstitial-offer-error-button-cancel-subscription = Dale k anulaciji
+interstitial-offer-error-button-sign-in = Přizjewić
+interstitial-offer-error-button-contact-support = Pomoc skontaktować
 
 ## Page - Subscription Management
 
@@ -463,6 +466,7 @@ churn-error-page-message-discount-already-applied = Tutón rabat je so na abonem
 churn-error-page-button-manage-subscriptions = Abonementy rjadować
 churn-error-page-button-contact-support = Pomoc skontaktować
 churn-error-page-button-try-again = Hišće raz spytać
+churn-error-page-button-sign-in = Přizjewić
 churn-error-page-title-general-error = Při wobnowjenju wašeho abonementa je problem nastał
 churn-error-page-message-general-error = Skontaktujće pomoc abo spytajće hišće raz.
 # $productName (String) - The name of the product associated with the subscription.
