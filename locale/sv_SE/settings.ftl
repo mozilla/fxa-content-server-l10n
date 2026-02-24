@@ -1806,7 +1806,7 @@ signin-passkey-fallback-header = Slutför inloggningen
 signin-passkey-fallback-heading = Ange ditt lösenord för att synkronisera
 signin-passkey-fallback-body = För att skydda din data måste du ange ditt lösenord när du använder denna lösenordsnyckel.
 signin-passkey-fallback-password-label = Lösenord
-signin-passkey-fallback-go-to-settings = Gå till Inställningar
+signin-passkey-fallback-go-to-settings = Gå till inställningar
 signin-passkey-fallback-continue = Fortsätt
 
 ## SigninPushCode page
