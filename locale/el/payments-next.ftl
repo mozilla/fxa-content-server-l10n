@@ -142,6 +142,8 @@ interstitial-offer-button-keep-current-interval-halfyearly = Διατήρηση 
 
 interstitial-offer-error-subscription-not-found-heading = Δεν ήταν δυνατή η εύρεση ενεργής συνδρομής
 interstitial-offer-error-subscription-not-found-message = Φαίνεται πως αυτή η συνδρομή ενδέχεται να μην είναι ενεργή.
+interstitial-offer-error-customer-mismatch-heading = Αυτή η συνδρομή δεν έχει συσχετιστεί με τον λογαριασμό σας
+interstitial-offer-error-customer-mismatch-message = Βεβαιωθείτε ότι έχετε συνδεθεί με τον σωστό λογαριασμό ή επικοινωνήστε με την Υποστήριξη αν χρειάζεστε βοήθεια.
 interstitial-offer-error-general-heading = Η προσφορά δεν είναι διαθέσιμη
 interstitial-offer-error-general-message = Φαίνεται πως αυτή η προσφορά δεν είναι διαθέσιμη αυτήν τη στιγμή.
 interstitial-offer-error-button-back-to-subscriptions = Επιστροφή στις συνδρομές
