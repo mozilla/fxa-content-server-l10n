@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Behold halvårlig a
 
 interstitial-offer-error-subscription-not-found-heading = Vi fant ikke et aktivt abonnement
 interstitial-offer-error-subscription-not-found-message = Det ser ut til at dette abonnementet ikke lenger er aktivt.
+interstitial-offer-error-customer-mismatch-heading = Dette abonnementet er ikke knyttet til kontoen din
+interstitial-offer-error-customer-mismatch-message = Sørg for at du er logget inn med riktig konto, eller kontakt kundestøtte hvis du trenger hjelp.
 interstitial-offer-error-general-heading = Tilbudet er ikke tilgjengelig
 interstitial-offer-error-general-message = Det ser ut til at dette tilbudet ikke er tilgjengelig for øyeblikket.
 interstitial-offer-error-button-back-to-subscriptions = Tilbake til abonnementer
 interstitial-offer-error-button-cancel-subscription = Fortsett med oppsigelsen
+interstitial-offer-error-button-sign-in = Logg inn
+interstitial-offer-error-button-contact-support = Kontakt kundestøtte
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Denne rabatten ble brukt på
 churn-error-page-button-manage-subscriptions = Behandle abonnementer
 churn-error-page-button-contact-support = Kontakt brukerstøtte
 churn-error-page-button-try-again = Prøv igjen
+churn-error-page-title-customer-mismatch = Kupongen kan ikke innløses
+churn-error-page-message-customer-mismatch = Denne kupongen ble utstedt for et annet abonnement og kan kun innløses av den opprinnelige mottakeren.
+churn-error-page-button-sign-in = Logg inn
 churn-error-page-title-general-error = Det oppsto et problem med å fornye abonnementet ditt
 churn-error-page-message-general-error = Kontakt brukerstøtte eller prøv på nytt.
 # $productName (String) - The name of the product associated with the subscription.
