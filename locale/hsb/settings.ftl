@@ -1818,6 +1818,7 @@ back = Wróćo
 
 signin-passkey-fallback-header = Přizjewjenje dokónčić
 signin-passkey-fallback-heading = Zapodajće swoje hesło, zo byšće synchronizował
+signin-passkey-fallback-body = Zo byšće swoje daty wěste wobchował, dyrbiće swoje hesło zapodać, hdyž tutón hesłowy kluč wužiwaće.
 signin-passkey-fallback-password-label = Hesło
 signin-passkey-fallback-go-to-settings = K nastajenjam
 signin-passkey-fallback-continue = Dale
