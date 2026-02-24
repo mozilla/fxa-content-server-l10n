@@ -342,6 +342,23 @@ subscriptionRenewalReminder-content-greeting = Estimado cliente de { $productNam
 subscriptionRenewalReminder-content-intro = Tu suscripción actual está configurada para renovarse automáticamente en { $reminderLength } días.
 subscriptionRenewalReminder-content-discount-change = Tu próxima factura refleja un cambio en el precio, ya que ha finalizado un descuento anterior y se ha aplicado un nuevo descuento.
 subscriptionRenewalReminder-content-discount-ending = Debido a que ha finalizado un descuento anterior, tu suscripción se renovará al precio estándar.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = En ese momento, { -brand-mozilla } renovará tu suscripción diaria y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-with-tax-week = En ese momento, { -brand-mozilla } renovará tu suscripción semanal y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-with-tax-month = En ese momento, { -brand-mozilla } renovará tu suscripción mensual y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = En ese momento, { -brand-mozilla } renovará tu suscripción semestral y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-with-tax-year = En ese momento, { -brand-mozilla } renovará tu suscripción anual y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-with-tax-default = En ese momento, { -brand-mozilla } renovará tu suscripción y se aplicará un cargo de { $invoiceTotalExcludingTax } + { $invoiceTax } de impuestos al método de pago de tu cuenta.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = En ese momento, { -brand-mozilla } renovará tu suscripción diaria y se aplicará un cargo de { $invoiceTotal } al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-invoice-total-week = En ese momento, { -brand-mozilla } renovará tu suscripción semanal y se aplicará un cargo de { $invoiceTotal } al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-invoice-total-month = En ese momento, { -brand-mozilla } renovará tu suscripción mensual y se aplicará un cargo de { $invoiceTotal } al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = En ese momento, { -brand-mozilla } renovará tu suscripción semestral y se aplicará un cargo de { $invoiceTotal } al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-invoice-total-year = En ese momento, { -brand-mozilla } renovará tu suscripción anual y se aplicará un cargo de { $invoiceTotal } al método de pago de tu cuenta.
+subscriptionRenewalReminder-content-charge-invoice-total-default = En ese momento, { -brand-mozilla } renovará tu suscripción y se aplicará un cargo de { $invoiceTotal } al método de pago de tu cuenta.
 subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -359,6 +376,9 @@ subscriptionSubsequentInvoice-title = ¡Gracias por suscribirte!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Hemos recibido tu último pago por { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Tu próxima factura se emitirá el { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Te has actualizado a { $productName }
@@ -395,6 +415,16 @@ subscriptionUpgrade-content-old-price-year-tax = La tarifa anterior era de { $pa
 subscriptionUpgrade-content-old-price-default-tax = La tarifa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por intervalo de facturación.
 subscriptionUpgrade-content-new-price-day = De ahora en adelante, se cobrarán { $paymentAmountNew } por día, sin incluir descuentos.
 subscriptionUpgrade-content-new-price-week = De ahora en adelante, se cobrarán { $paymentAmountNew } por semana, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-month = De ahora en adelante, se cobrarán { $paymentAmountNew } por mes, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-halfyear = De ahora en adelante, se cobrarán { $paymentAmountNew } cada seis meses, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-year = De ahora en adelante, se cobrarán { $paymentAmountNew } por año, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-default = De ahora en adelante, se cobrarán { $paymentAmountNew } por intervalo de facturación, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-day-dtax = De ahora en adelante, se cobrarán { $paymentAmountNew } + { $paymentTaxNew } de impuestos por día, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-week-tax = De ahora en adelante, se cobrarán { $paymentAmountNew } + { $paymentTaxNew } de impuestos por semana, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-month-tax = De ahora en adelante, se cobrarán { $paymentAmountNew } + { $paymentTaxNew } de impuestos por mes, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-halfyear-tax = De ahora en adelante, se cobrarán { $paymentAmountNew } + { $paymentTaxNew } de impuestos cada 6 mesas, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-year-tax = De ahora en adelante, se cobrarán { $paymentAmountNew } + { $paymentTaxNew } de impuestos por año, sin incluir descuentos.
+subscriptionUpgrade-content-new-price-default-tax = De ahora en adelante, se cobrarán { $paymentAmountNew } + { $paymentTaxNew } de impuestos por intervalo de facturación, sin incluir descuentos.
 subscriptionUpgrade-existing = Si alguna de tus suscripciones actuales se solapa con esta actualización, nos encargaremos de ello y te enviaremos un correo electrónico separado con los detalles. Si tu nuevo plan incluye productos que requieren instalación, te enviaremos un correo electrónico separado con las instrucciones de configuración.
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo.
 subscriptionsPaymentExpired-subject-2 = El método de pago para tus suscripciones está caducado o próximo a caducar

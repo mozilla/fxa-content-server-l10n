@@ -143,11 +143,16 @@ interstitial-offer-button-keep-current-interval-halfyearly = Keep six-month subs
 interstitial-offer-error-subscription-not-found-heading = We couldn’t find an active subscription
 interstitial-offer-error-subscription-not-found-message = It looks like this subscription may no longer be active.
 
+interstitial-offer-error-customer-mismatch-heading = This subscription is not associated with your account
+interstitial-offer-error-customer-mismatch-message = Make sure you are signed in with the correct account, or contact Support if you need help.
+
 interstitial-offer-error-general-heading = Offer isn’t available
 interstitial-offer-error-general-message = It looks like this offer is not available at this time.
 
 interstitial-offer-error-button-back-to-subscriptions = Back to subscriptions
 interstitial-offer-error-button-cancel-subscription = Continue to cancel
+interstitial-offer-error-button-sign-in = Sign in
+interstitial-offer-error-button-contact-support = Contact Support
 
 ## Page - Subscription Management
 
@@ -492,6 +497,9 @@ churn-error-page-message-discount-already-applied = This discount was applied to
 churn-error-page-button-manage-subscriptions = Manage subscriptions
 churn-error-page-button-contact-support = Contact Support
 churn-error-page-button-try-again = Try again
+churn-error-page-title-customer-mismatch = Coupon can’t be redeemed
+churn-error-page-message-customer-mismatch = This coupon was issued for a different subscription and can only be redeemed by the original recipient.
+churn-error-page-button-sign-in = Sign in
 churn-error-page-title-general-error = There was an issue with renewing your subscription
 churn-error-page-message-general-error = Contact support or try again.
 # $productName (String) - The name of the product associated with the subscription.
