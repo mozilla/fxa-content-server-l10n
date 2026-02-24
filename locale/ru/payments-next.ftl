@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Сохранить 
 
 interstitial-offer-error-subscription-not-found-heading = Мы не смогли найти активную подписку
 interstitial-offer-error-subscription-not-found-message = Похоже, эта подписка более не активна.
+interstitial-offer-error-customer-mismatch-heading = Эта подписка не связана с вашим аккаунтом
+interstitial-offer-error-customer-mismatch-message = Убедитесь, что вы вошли в правильный аккаунт, или обратитесь в службу поддержки, если вам нужна помощь.
 interstitial-offer-error-general-heading = Предложение недоступно
 interstitial-offer-error-general-message = Похоже, что в данное время это предложение недоступно.
 interstitial-offer-error-button-back-to-subscriptions = Вернуться к подпискам
 interstitial-offer-error-button-cancel-subscription = Продолжить для отмены
+interstitial-offer-error-button-sign-in = Войти
+interstitial-offer-error-button-contact-support = Связаться с поддержкой
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Эта скидка была
 churn-error-page-button-manage-subscriptions = Управление подписками
 churn-error-page-button-contact-support = Связаться с поддержкой
 churn-error-page-button-try-again = Попробовать снова
+churn-error-page-title-customer-mismatch = Куон не может быть использован
+churn-error-page-message-customer-mismatch = Этот купон был выдан для другой подписки и может быть использован только первоначальным получателем.
+churn-error-page-button-sign-in = Войти
 churn-error-page-title-general-error = При продлении вашей подписки возникла проблема
 churn-error-page-message-general-error = Обратитесь в поддержку или попробуйте снова.
 # $productName (String) - The name of the product associated with the subscription.
