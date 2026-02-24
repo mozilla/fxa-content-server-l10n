@@ -1806,6 +1806,7 @@ back = Πίσω
 
 signin-passkey-fallback-header = Ολοκλήρωση σύνδεσης
 signin-passkey-fallback-heading = Εισαγάγετε τον κωδικό πρόσβασής σας για συγχρονισμό
+signin-passkey-fallback-body = Για την προστασία των δεδομένων σας, θα πρέπει να εισάγετε τον κωδικό πρόσβασής σας όταν χρησιμοποιείτε αυτό το κλειδί πρόσβασης.
 signin-passkey-fallback-password-label = Κωδικός πρόσβασης
 signin-passkey-fallback-go-to-settings = Μετάβαση στις ρυθμίσεις
 signin-passkey-fallback-continue = Συνέχεια
