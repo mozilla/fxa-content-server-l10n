@@ -1791,7 +1791,7 @@ back = Retour
 
 signin-passkey-fallback-header = Terminer la connexion
 signin-passkey-fallback-heading = Saisissez votre mot de passe pour synchroniser
-signin-passkey-fallback-body = Pour protéger vos données, vous devez saisir votre mot de passe lorsque vous utilisez cette clé.
+signin-passkey-fallback-body = Pour protéger vos données, vous devez saisir votre mot de passe lorsque vous utilisez cette clé d’accès.
 signin-passkey-fallback-password-label = Mot de passe
 signin-passkey-fallback-go-to-settings = Ouvrir les paramètres
 signin-passkey-fallback-continue = Continuer
