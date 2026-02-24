@@ -149,7 +149,7 @@ interstitial-offer-error-general-message = Anscheinend ist dieses Angebot derzei
 interstitial-offer-error-button-back-to-subscriptions = Zurück zu Abonnements
 interstitial-offer-error-button-cancel-subscription = Weiter zur Kündigung
 interstitial-offer-error-button-sign-in = Anmelden
-interstitial-offer-error-button-contact-support = Hilfe kontaktieren
+interstitial-offer-error-button-contact-support = Support kontaktieren
 
 ## Page - Subscription Management
 
