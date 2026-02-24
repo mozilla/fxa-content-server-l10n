@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Obdržite šestmese
 
 interstitial-offer-error-subscription-not-found-heading = Ni bilo mogoče najti aktivne naročnine
 interstitial-offer-error-subscription-not-found-message = Videti je, da ta naročnina morda ni več aktivna.
+interstitial-offer-error-customer-mismatch-heading = Ta naročnina ni povezana z vašim računom
+interstitial-offer-error-customer-mismatch-message = Prepričajte se, da ste prijavljeni s pravim računom ali pa se obrnite na podporo, če potrebujete pomoč.
 interstitial-offer-error-general-heading = Ponudba ni na voljo
 interstitial-offer-error-general-message = Videti je, da ta ponudba trenutno ni na voljo.
 interstitial-offer-error-button-back-to-subscriptions = Nazaj na naročnine
 interstitial-offer-error-button-cancel-subscription = Nadaljuj do preklica
+interstitial-offer-error-button-sign-in = Prijava
+interstitial-offer-error-button-contact-support = Obrnite se na podporo
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Ta popust je bil uveljavljen
 churn-error-page-button-manage-subscriptions = Upravljanje naročnin
 churn-error-page-button-contact-support = Obrnite se na podporo
 churn-error-page-button-try-again = Poskusi znova
+churn-error-page-title-customer-mismatch = Kupona ni mogoče unovčiti
+churn-error-page-message-customer-mismatch = Ta kupon je bil izdan za drugo naročnino in ga lahko uveljavi samo izvirni prejemnik.
+churn-error-page-button-sign-in = Prijava
 churn-error-page-title-general-error = Pri podaljšanju naročnine je prišlo do težave
 churn-error-page-message-general-error = Obrnite se na podporo ali poskusite znova.
 # $productName (String) - The name of the product associated with the subscription.

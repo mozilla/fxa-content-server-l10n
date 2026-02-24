@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Cadw tanysgrifiad c
 
 interstitial-offer-error-subscription-not-found-heading = Doedd dim modd i ni ddod o hyd i danysgrifiad gweithredol
 interstitial-offer-error-subscription-not-found-message = Mae'n edrych yn debyg na fydd y tanysgrifiad hwn yn weithredol mwyach.
+interstitial-offer-error-customer-mismatch-heading = Nid yw'r tanysgrifiad hwn yn gysylltiedig â'ch cyfrif
+interstitial-offer-error-customer-mismatch-message = Gwnewch yn siŵr eich bod wedi mewngofnodi gyda'r cyfrif cywir, neu cysylltwch â Chymorth os oes angen cymorth arnoch.
 interstitial-offer-error-general-heading = Dyw'r cynnig ar ddim gael
 interstitial-offer-error-general-message = Mae'n edrych yn debyg nad yw'r cynnig hwn ar gael ar hyn o bryd.
 interstitial-offer-error-button-back-to-subscriptions = Nôl i danysgrifiadau
 interstitial-offer-error-button-cancel-subscription = Parhau i ddiddymu
+interstitial-offer-error-button-sign-in = Mewngofnodi
+interstitial-offer-error-button-contact-support = Cysylltu â Chefnogaeth
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Cafodd y gostyngiad hwn ei o
 churn-error-page-button-manage-subscriptions = Rheoli tanysgrifiadau
 churn-error-page-button-contact-support = Cysylltu â Chefnogaeth
 churn-error-page-button-try-again = Ceisiwch eto
+churn-error-page-title-customer-mismatch = Ni ellir adbrynu cwpon
+churn-error-page-message-customer-mismatch = Cyhoeddwyd y cwpon hwn ar gyfer tanysgrifiad gwahanol a dim ond y derbynnydd gwreiddiol all ei ddefnyddio.
+churn-error-page-button-sign-in = Mewngofnodi
 churn-error-page-title-general-error = Bu problem gydag adnewyddu eich tanysgrifiad
 churn-error-page-message-general-error = Cysylltwch â'r tîm cymorth neu rhowch gynnig arall arni.
 # $productName (String) - The name of the product associated with the subscription.

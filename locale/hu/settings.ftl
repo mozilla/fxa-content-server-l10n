@@ -1801,6 +1801,16 @@ signin-bounced-help = Ha ez egy érvényes e-mail-cím, <linkExternal>tudassa ve
 signin-bounced-create-new-account = Már nem az Öné az e-mail-cím? Hozzon létre új fiókot
 back = Vissza
 
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Bejelentkezés befejezése
+signin-passkey-fallback-heading = Adja meg a jelszavát a szinkronizáláshoz
+signin-passkey-fallback-body = Hogy adatait biztonságban tartsa, meg kell adnia a jelszavát, amikor ezt a jelkulcsot használja.
+signin-passkey-fallback-password-label = Jelszó
+signin-passkey-fallback-go-to-settings = Ugrás a beállításokhoz
+signin-passkey-fallback-continue = Folytatás
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 

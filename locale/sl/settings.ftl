@@ -1811,6 +1811,16 @@ signin-bounced-help = Če je to veljaven e-poštni naslov, <linkExternal>nam to 
 signin-bounced-create-new-account = Ne uporabljate več tega naslova? Ustvarite nov račun
 back = Nazaj
 
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Dokončaj prijavo
+signin-passkey-fallback-heading = Vnesite geslo za sinhronizacijo
+signin-passkey-fallback-body = Da ohranite svoje podatke varne, morate pri uporabi tega gesla vnesti svoje geslo.
+signin-passkey-fallback-password-label = Geslo
+signin-passkey-fallback-go-to-settings = Pojdi v nastavitve
+signin-passkey-fallback-continue = Nadaljuj
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 

@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Ponechte předplatn
 
 interstitial-offer-error-subscription-not-found-heading = Nepodařilo se najít aktivní předplatné
 interstitial-offer-error-subscription-not-found-message = Zdá se, že toto předplatné již není aktivní.
+interstitial-offer-error-customer-mismatch-heading = Toto předplatné není spojeno s vaším účtem
+interstitial-offer-error-customer-mismatch-message = Ujistěte se, že jste přihlášeni pomocí správného účtu, nebo kontaktujte podporu, pokud potřebujete pomoci.
 interstitial-offer-error-general-heading = Nabídka není dostupná
 interstitial-offer-error-general-message = Vypadá to, že tato nabídka není v tuto chvíli dostupná.
 interstitial-offer-error-button-back-to-subscriptions = Zpět na předplatné
 interstitial-offer-error-button-cancel-subscription = Pro zrušení pokračovat
+interstitial-offer-error-button-sign-in = Přihlásit se
+interstitial-offer-error-button-contact-support = Kontaktovat podporu
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Tato sleva byla uplatněna n
 churn-error-page-button-manage-subscriptions = Spravovat předplatné
 churn-error-page-button-contact-support = Kontaktovat podporu
 churn-error-page-button-try-again = Zkusit znovu
+churn-error-page-title-customer-mismatch = Kupon nelze uplatnit
+churn-error-page-message-customer-mismatch = Tento kupón byl vystaven pro jiné předplatné a může být uplatněn pouze původním příjemcem.
+churn-error-page-button-sign-in = Přihlásit se
 churn-error-page-title-general-error = Při obnovení vašeho předplatného došlo k chybě
 churn-error-page-message-general-error = Kontaktujte podporu nebo to zkuste znovu.
 # $productName (String) - The name of the product associated with the subscription.

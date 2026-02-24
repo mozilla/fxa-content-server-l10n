@@ -1792,6 +1792,16 @@ signin-bounced-help = Wenn dies eine gültige E-Mail-Adresse ist, <linkExternal>
 signin-bounced-create-new-account = Ist das nicht mehr Ihre E-Mail-Adresse? Erstellen Sie ein neues Konto
 back = Zurück
 
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Anmeldung abschließen
+signin-passkey-fallback-heading = Geben Sie zum Synchronisieren Ihr Passwort ein
+signin-passkey-fallback-body = Um Ihre Daten zu schützen, müssen Sie Ihr Passwort eingeben, wenn Sie diesen Zugangsschlüssel verwenden.
+signin-passkey-fallback-password-label = Passwort
+signin-passkey-fallback-go-to-settings = Einstellungen öffnen
+signin-passkey-fallback-continue = Weiter
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 

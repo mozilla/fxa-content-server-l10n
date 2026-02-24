@@ -144,10 +144,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Hat hónapos előfi
 
 interstitial-offer-error-subscription-not-found-heading = Nem találtunk aktív előfizetést
 interstitial-offer-error-subscription-not-found-message = Úgy tűnik, ez az előfizetés már nem aktív.
+interstitial-offer-error-customer-mismatch-heading = Ez az előfizetés nincs a fiókjához hozzárendelve
+interstitial-offer-error-customer-mismatch-message = Győződjön meg arról, hogy a megfelelő fiókkal van-e bejelentkezve, vagy forduljon az ügyfélszolgálathoz, ha segítségre van szüksége.
 interstitial-offer-error-general-heading = Az ajánlat nem érhető el
 interstitial-offer-error-general-message = Úgy tűnik, hogy ez az ajánlat jelenleg nem érhető el.
 interstitial-offer-error-button-back-to-subscriptions = Vissza az előfizetésekhez
 interstitial-offer-error-button-cancel-subscription = Folytatás a megszakításhoz
+interstitial-offer-error-button-sign-in = Bejelentkezés
+interstitial-offer-error-button-contact-support = Kapcsolatfelvétel az ügyfélszolgálattal
 
 ## Page - Subscription Management
 
@@ -460,6 +464,9 @@ churn-error-page-message-discount-already-applied = Ez a kedvezmény a fiókjáh
 churn-error-page-button-manage-subscriptions = Előfizetések kezelése
 churn-error-page-button-contact-support = Kapcsolatfelvétel az ügyfélszolgálattal
 churn-error-page-button-try-again = Próbálja újra
+churn-error-page-title-customer-mismatch = A kupon nem váltható be
+churn-error-page-message-customer-mismatch = Ez a kupont egy másik előfizetéshez lett kiadva, és csak az eredeti címzett válthatja be.
+churn-error-page-button-sign-in = Bejelentkezés
 churn-error-page-title-general-error = Hiba történt az előfizetés megújításakor
 churn-error-page-message-general-error = Lépjen kapcsolatba az ügyfélszolgálattal, vagy próbálja újra.
 # $productName (String) - The name of the product associated with the subscription.
