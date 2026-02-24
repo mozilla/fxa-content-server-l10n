@@ -1757,6 +1757,7 @@ back = 返回
 
 signin-passkey-fallback-header = 完成登入
 signin-passkey-fallback-heading = 請輸入您的密碼以進行同步
+signin-passkey-fallback-body = 為了確保您的資料安全，使用這把 Passkey 時需要輸入您的密碼。
 signin-passkey-fallback-password-label = 密碼
 signin-passkey-fallback-go-to-settings = 開啟設定
 signin-passkey-fallback-continue = 繼續

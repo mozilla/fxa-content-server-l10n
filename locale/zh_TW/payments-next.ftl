@@ -463,6 +463,7 @@ churn-error-page-button-manage-subscriptions = 管理訂閱項目
 churn-error-page-button-contact-support = 聯絡支援團隊
 churn-error-page-button-try-again = 重試
 churn-error-page-title-customer-mismatch = 無法兌換折扣碼
+churn-error-page-message-customer-mismatch = 這組折扣碼是針對其他訂閱項目簽發的，只有原始收件者可以使用。
 churn-error-page-button-sign-in = 登入
 churn-error-page-title-general-error = 續訂時發生問題
 churn-error-page-message-general-error = 請聯絡支援團隊或再試一次。
