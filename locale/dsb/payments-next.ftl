@@ -145,10 +145,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Šesćmjasecny abon
 
 interstitial-offer-error-subscription-not-found-heading = Njejsmy mógli aktiwny abonement namakaś
 interstitial-offer-error-subscription-not-found-message = Zda se, až toś ten abonement wěcej njejo aktiwny.
+interstitial-offer-error-customer-mismatch-heading = Toś ten abonement njejo z wašym kontom zwězany
+interstitial-offer-error-customer-mismatch-message = Zawěsććo, až sćo z korektnym kontom pśizjawjony abo stajśo se z teamom pomocy do zwiska, jolic pomoc trjebaśo.
 interstitial-offer-error-general-heading = Póbitowanje njejo k dispoziciji
 interstitial-offer-error-general-message = Zda se, až toś to póbitowanje tuchylu njejo k dispoziciji.
 interstitial-offer-error-button-back-to-subscriptions = Slědk k abonementam
 interstitial-offer-error-button-cancel-subscription = Dalej k anulaciji
+interstitial-offer-error-button-sign-in = Pśizjawiś
+interstitial-offer-error-button-contact-support = Pomoc kontaktěrowaś
 
 ## Page - Subscription Management
 
@@ -463,6 +467,9 @@ churn-error-page-message-discount-already-applied = Toś ten rabat jo se nałož
 churn-error-page-button-manage-subscriptions = Abonementy zastojaś
 churn-error-page-button-contact-support = Pomoc kontaktěrowaś
 churn-error-page-button-try-again = Hyšći raz wopytaś
+churn-error-page-title-customer-mismatch = Kupon njeda se wupłaśiś
+churn-error-page-message-customer-mismatch = Toś ten kupon jo se za drugi abonement wudał a dajo se jano wót originalnego dostawarja wupłaśiś.
+churn-error-page-button-sign-in = Pśizjawiś
 churn-error-page-title-general-error = Pśi wobnowjenju wašogo abonementa jo problem nastał
 churn-error-page-message-general-error = Skontaktěrujśo pomoc abo wopytajśo hyšći raz.
 # $productName (String) - The name of the product associated with the subscription.
