@@ -1805,6 +1805,16 @@ signin-bounced-help = Ak ide o platnú e‑mailovú adresu, <linkExternal>dajte 
 signin-bounced-create-new-account = Už tento účet nevlastníte? Vytvorte si nový účet
 back = Naspäť
 
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Dokončiť prihlásenie
+signin-passkey-fallback-heading = Zadajte heslo pre synchronizáciu
+signin-passkey-fallback-body = Pre zachovanie bezpečnosti vašich údajov je potrebné pri použití tohto prístupového kľúča zadať heslo.
+signin-passkey-fallback-password-label = Heslo
+signin-passkey-fallback-go-to-settings = Prejsť do nastavení
+signin-passkey-fallback-continue = Pokračovať
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
