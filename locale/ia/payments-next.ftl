@@ -142,10 +142,13 @@ interstitial-offer-button-keep-current-interval-halfyearly = Obtener abonamento 
 
 interstitial-offer-error-subscription-not-found-heading = Nos non poteva trovar un abonamento active
 interstitial-offer-error-subscription-not-found-message = Il pare que iste abonamento non plus es active.
+interstitial-offer-error-customer-mismatch-heading = Iste abonamento non es associate a tu conto
 interstitial-offer-error-general-heading = Le offerta non es disponibile
 interstitial-offer-error-general-message = Il pare que iste offerer non es disponibile al momento.
 interstitial-offer-error-button-back-to-subscriptions = Retornar al abonamentos
 interstitial-offer-error-button-cancel-subscription = Continuar a cancellar
+interstitial-offer-error-button-sign-in = Aperir session
+interstitial-offer-error-button-contact-support = Contactar assistentia
 
 ## Page - Subscription Management
 
@@ -460,6 +463,7 @@ churn-error-page-message-discount-already-applied = Iste disconto era applicate 
 churn-error-page-button-manage-subscriptions = Gerer abonamentos
 churn-error-page-button-contact-support = Contactar assistentia
 churn-error-page-button-try-again = Retentar
+churn-error-page-button-sign-in = Aperir session
 churn-error-page-title-general-error = Il habeva un problema renovante tu abonamento
 churn-error-page-message-general-error = Contacta le supporto o retenta.
 # $productName (String) - The name of the product associated with the subscription.

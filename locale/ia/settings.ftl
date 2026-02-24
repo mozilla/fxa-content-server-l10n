@@ -1797,6 +1797,13 @@ signin-bounced-help = Si isto es un adresse email valide, <linkExternal>face lo 
 signin-bounced-create-new-account = Non possede tu plus iste adresse de e-mail? Crea un nove conto
 back = Retro
 
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-password-label = Contrasigno
+signin-passkey-fallback-go-to-settings = Ir a parametros
+signin-passkey-fallback-continue = Continuar
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
