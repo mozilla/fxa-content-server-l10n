@@ -146,6 +146,7 @@ interstitial-offer-button-keep-current-interval-halfyearly = Šěsćměsačny ab
 interstitial-offer-error-subscription-not-found-heading = Njemóžachmy aktiwny abonement namakać
 interstitial-offer-error-subscription-not-found-message = Zda so, zo tutón abonement hižo aktiwny njeje.
 interstitial-offer-error-customer-mismatch-heading = Tutón abonement z wašim kontom zwjazany njeje
+interstitial-offer-error-customer-mismatch-message = Zawěsćće, zo sće z korektnym kontom přizjewjeny abo stajće so z teamom pomocy do zwiska, jeli pomoc trjebaće.
 interstitial-offer-error-general-heading = Poskitk k dispoziciji njeje
 interstitial-offer-error-general-message = Zda so, zo tutón poskitk tuchwilu k dispoziciji njeje.
 interstitial-offer-error-button-back-to-subscriptions = Wróćo k abonementam
