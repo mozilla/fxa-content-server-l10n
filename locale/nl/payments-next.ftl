@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Halfjaarabonnement 
 
 interstitial-offer-error-subscription-not-found-heading = We kunnen geen actief abonnement vinden
 interstitial-offer-error-subscription-not-found-message = Het lijkt erop dat dit abonnement niet meer actief is.
+interstitial-offer-error-customer-mismatch-heading = Dit abonnement is niet aan uw account gekoppeld
+interstitial-offer-error-customer-mismatch-message = Zorg ervoor dat u met de juiste account bent aangemeld, of neem contact op met Ondersteuning als u hulp nodig hebt.
 interstitial-offer-error-general-heading = Aanbieding is niet beschikbaar
 interstitial-offer-error-general-message = Het lijkt erop dat deze aanbieding op dit moment niet beschikbaar is.
 interstitial-offer-error-button-back-to-subscriptions = Terug naar abonnementen
 interstitial-offer-error-button-cancel-subscription = Doorgaan met opzeggen
+interstitial-offer-error-button-sign-in = Aanmelden
+interstitial-offer-error-button-contact-support = Contact opnemen
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Deze korting is toegepast op
 churn-error-page-button-manage-subscriptions = Abonnementen beheren
 churn-error-page-button-contact-support = Contact opnemen
 churn-error-page-button-try-again = Opnieuw proberen
+churn-error-page-title-customer-mismatch = Waardebon kan niet worden ingewisseld
+churn-error-page-message-customer-mismatch = Deze waardebon is uitgegeven voor een ander abonnement en kan alleen door de oorspronkelijke ontvanger worden ingewisseld.
+churn-error-page-button-sign-in = Aanmelden
 churn-error-page-title-general-error = Er is een probleem opgetreden bij het verlengen van uw abonnement
 churn-error-page-message-general-error = Neem contact op met ondersteuning of probeer het opnieuw.
 # $productName (String) - The name of the product associated with the subscription.
