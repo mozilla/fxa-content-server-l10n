@@ -351,6 +351,7 @@ subscription-content-button-cancel-subscription = Anuluj subskrypcję
 
 ##
 
+button-back-to-subscriptions = Wróć do subskrypcji
 subscription-content-cancel-action-error = Wystąpił nieoczekiwany błąd. Spróbuj ponownie.
 paypal-unavailable-error = { -brand-paypal } jest obecnie niedostępny. Użyj innej opcji płatności lub spróbuj ponownie później.
 

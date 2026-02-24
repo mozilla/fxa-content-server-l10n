@@ -1171,6 +1171,11 @@ row-defaults-action-change = Zmień
 row-defaults-action-disable = Wyłącz
 row-defaults-status = Brak
 
+## UnitRowPasskey
+
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = W jaki sposób chroni to Twoje konto
+
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Klucz odzyskiwania konta
@@ -1262,6 +1267,14 @@ tfa-row-verify-session-info = Musisz potwierdzić obecną sesję, aby skonfiguro
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = Kontynuując, wyrażasz zgodę na:
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>regulamin usługi</mozillaAccountsTos> i <mozillaAccountsPrivacy>zasady ochrony prywatności</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Kontynuując, wyrażasz zgodę na <mozillaAccountsTos>regulamin usługi</mozillaAccountsTos> i <mozillaAccountsPrivacy>zasady ochrony prywatności</mozillaAccountsPrivacy>.
 
@@ -1762,6 +1775,13 @@ signin-bounced-message = Wiadomość z potwierdzeniem wysłana na adres { $emai
 signin-bounced-help = Jeśli to prawidłowy adres e-mail, to <linkExternal>daj nam znać</linkExternal>, a pomożemy w odblokowaniu konta.
 signin-bounced-create-new-account = Ten adres e-mail zmienił właściciela? Utwórz nowe konto
 back = Wstecz
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-password-label = Hasło
+signin-passkey-fallback-go-to-settings = Przejdź do ustawień
+signin-passkey-fallback-continue = Kontynuuj
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
