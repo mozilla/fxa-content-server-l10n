@@ -225,6 +225,12 @@ subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = El equipo de { $productName }
+subscriptionReplaced-subject = Tu suscripción se ha actualizado como parte de tu actualización
+subscriptionReplaced-title = Tu suscripción ha sido actualizada
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Tu suscripción individual { $productName } ha sido reemplazada y ahora está incluida en tu nuevo paquete.
+subscriptionReplaced-content-credit = Recibirás un crédito por el tiempo no utilizado de tu suscripción anterior. Este crédito se aplicará automáticamente a tu cuenta y se utilizará para futuros cargos.
+subscriptionReplaced-content-no-action = No se requiere ninguna acción por tu parte.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Se recibió el pago de { $productName }

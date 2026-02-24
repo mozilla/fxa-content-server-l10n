@@ -46,6 +46,10 @@ next-payment-confirmation-download-button = Continuar para descargar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
+## Not found page
+
+not-found-title-subscriptions = Suscripción no encontrada
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = No se ha agregado ningún método de pago
