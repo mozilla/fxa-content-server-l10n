@@ -20,21 +20,23 @@ msgstr "និមិត្តសញ្ញា Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
-msgstr ""
+msgstr "រក​មិន​ឃើញ​ទំព័រ"
 
 #: server/templates/pages/src/404.html:4
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"ទំព័រដែលលោកអ្នកបានស្នើសុំរកមិនឃើញនោះទេ។ យើងទទួលបានដំណឹងនេះហើយ\n"
+"          នឹងជួសជុលរាល់បញ្ជាប់ណាដែលខូច។"
 
 #: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
-msgstr ""
+msgstr "ទំព័រដើម"
 
 #: server/templates/pages/src/500.html:3
 msgid "500 Error"
-msgstr ""
+msgstr "កំហុស 500"
 
 #: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
@@ -44,7 +46,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:3
 msgid "502 Error"
-msgstr ""
+msgstr "កំហុស 502"
 
 #: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
@@ -58,7 +60,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "កំពុង​ផ្ទុក"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
@@ -66,7 +68,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "គណនី Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
