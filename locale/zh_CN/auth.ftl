@@ -254,7 +254,9 @@ subscriptionEndingReminder-subject = 您的 { $productName } 订阅即将到期
 subscriptionEndingReminder-title = 您的 { $productName } 订阅即将到期
 subscriptionEndingReminder-content-line2 = 若要继续使用 { $productName }，请在 <strong>{ $serviceLastActiveDateOnly }</strong>前，到<a data-l10n-name="subscriptionEndingReminder-account-settings">账户设置</a>中续期订阅。如需协助，请<a data-l10n-name="subscriptionEndingReminder-contact-support">联系支持团队</a>。
 subscriptionEndingReminder-content-line2-plaintext = 若要继续使用 { $productName }，请在 { $serviceLastActiveDateOnly } 前，到“账户设置”中续期订阅。如需协助，请联系支持团队。
+subscriptionEndingReminder-content-closing = 感谢您成为尊贵的订阅用户！
 subscriptionEndingReminder-churn-title = 希望继续使用？
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">限制条款和限制条件适用</a>
 # Variables:
 #  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
 subscriptionEndingReminder-churn-terms-plaintext = 下列限制条款和限制条件适用：{ $churnTermsUrlWithUtm }
