@@ -455,12 +455,15 @@ churn-error-page-title-discount-already-applied = Tepyguejy ayvu oikopyrémava
 churn-error-page-button-manage-subscriptions = Mboheraguapy ñangareko
 churn-error-page-button-contact-support = Eñe’ẽ pytyvõhándi
 churn-error-page-button-try-again = Eha’ã jey
+churn-error-page-button-sign-in = Mboheraguapy
 churn-error-page-title-general-error = Oĩ apañuái onembohekopyahukuévo ne ñemboheraguapy.
 churn-error-page-message-general-error = Eñe’ẽ pytyvõha ndive ha eha’ã jey ag̃ave.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Eho { $productName }-pe
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-not-active = Ko tepyguejy oiporukuaa oñemboheraguapýva { $productTitle } ndive añoite.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Ne ñemboheraguapy { $productName }-pegua oikóiti
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

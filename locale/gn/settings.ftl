@@ -1784,6 +1784,13 @@ signin-bounced-help = Kóva ha’erõ ñanduti veve oikóva, <linkExternal>emomb
 signin-bounced-create-new-account = ¿Ndereguerkovéima ñanduti veve? Emoheñói ipyahúva
 back = Tapykue
 
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-password-label = Ñe’ẽñemi
+signin-passkey-fallback-go-to-settings = Eho ñembohekópe
+signin-passkey-fallback-continue = Ku’ejey
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
