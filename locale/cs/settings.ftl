@@ -1793,7 +1793,7 @@ back = Zpět
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
-signin-passkey-fallback-header = Dokončete přihlašování
+signin-passkey-fallback-header = Dokončit přihlášení
 signin-passkey-fallback-heading = Pro synchronizaci zadejte své heslo
 signin-passkey-fallback-body = Pro zabezpečení vašich dat je potřeba při použití tohoto přístupového hesla zadat heslo.
 signin-passkey-fallback-password-label = Heslo
