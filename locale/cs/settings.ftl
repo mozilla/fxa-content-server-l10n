@@ -1160,6 +1160,15 @@ tfa-row-backup-phone-description-v2 = Jedná se o nejjednodušší způsob obnov
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Další informace o riziku při výměně karty SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Vytvořeno: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Naposledy použito: { $lastUsedDate }
+passkey-sub-row-delete-title = Smazat přístupový kód
 
 ## Switch component
 
