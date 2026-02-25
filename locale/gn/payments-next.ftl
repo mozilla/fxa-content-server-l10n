@@ -145,6 +145,8 @@ interstitial-offer-error-general-heading = Ñevenderã ndaiporivéima
 interstitial-offer-error-general-message = Ha’ete ko ñevenderã ndaiporivéima ko’ag̃aite.
 interstitial-offer-error-button-back-to-subscriptions = Ejevy moheraguapyhápe
 interstitial-offer-error-button-cancel-subscription = Eku’e jey eheja hag̃ua
+interstitial-offer-error-button-sign-in = Mboheraguapy
+interstitial-offer-error-button-contact-support = Eñe’ẽ Pytyvõhándi
 
 ## Page - Subscription Management
 
