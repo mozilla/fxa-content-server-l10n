@@ -1168,7 +1168,11 @@ passkey-sub-row-created-date = Vytvořeno: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Naposledy použito: { $lastUsedDate }
-passkey-sub-row-delete-title = Smazat přístupový kód
+passkey-sub-row-delete-title = Smazat přístupový klíč
+passkey-delete-modal-heading = Smazat přístupový klíč?
+passkey-delete-modal-cancel-button = Zrušit
+passkey-delete-modal-confirm-button = Smazat přístupový klíč
+passkey-delete-success = Přístupový klíč byl smazán
 
 ## Switch component
 
@@ -1187,6 +1191,13 @@ row-defaults-action-add = Přidat
 row-defaults-action-change = Změnit
 row-defaults-action-disable = Zakázat
 row-defaults-status = Žádné
+
+## UnitRowPasskey
+
+passkey-row-header = Přístupové klíče
+passkey-row-enabled = Povolený
+passkey-row-not-set = Nenastavený
+passkey-row-action-create = Vytvořit
 
 ## Account recovery key sub-section on main Settings page
 
