@@ -275,6 +275,11 @@ churn-cancel-flow-discount-already-applied-message = 此折扣已应用于您账
 churn-cancel-flow-button-manage-subscriptions = 管理订阅
 churn-cancel-flow-button-contact-support = 联系支持
 
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = 您的 { $productName } 订阅已生效
+churn-cancel-flow-button-go-to-product-page = 前往 { $productName }
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = 发生意外错误，请重试。
