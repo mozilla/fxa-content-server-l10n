@@ -149,7 +149,7 @@ interstitial-offer-error-general-message = Mae'n edrych yn debyg nad yw'r cynnig
 interstitial-offer-error-button-back-to-subscriptions = Nôl i danysgrifiadau
 interstitial-offer-error-button-cancel-subscription = Parhau i ddiddymu
 interstitial-offer-error-button-sign-in = Mewngofnodi
-interstitial-offer-error-button-contact-support = Cysylltu â Chefnogaeth
+interstitial-offer-error-button-contact-support = Cysylltu â'n Cefnogaeth
 
 ## Page - Subscription Management
 
@@ -462,7 +462,7 @@ churn-error-page-message-discount-already-applied = Cafodd y gostyngiad hwn ei o
 churn-error-page-button-manage-subscriptions = Rheoli tanysgrifiadau
 churn-error-page-button-contact-support = Cysylltu â Chefnogaeth
 churn-error-page-button-try-again = Ceisiwch eto
-churn-error-page-title-customer-mismatch = Ni ellir adbrynu cwpon
+churn-error-page-title-customer-mismatch = Does dim modd adbrynu cwpon
 churn-error-page-message-customer-mismatch = Cyhoeddwyd y cwpon hwn ar gyfer tanysgrifiad gwahanol a dim ond y derbynnydd gwreiddiol all ei ddefnyddio.
 churn-error-page-button-sign-in = Mewngofnodi
 churn-error-page-title-general-error = Bu problem gydag adnewyddu eich tanysgrifiad

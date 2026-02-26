@@ -1820,9 +1820,9 @@ back = Nôl
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
 signin-passkey-fallback-header = Gorffen mewngofnodi
-signin-passkey-fallback-heading = Rhowch eich cyfrinair i gysoni
-signin-passkey-fallback-body = Er mwyn cadw'ch data'n ddiogel, mae angen i chi nodi'ch cyfrinair pan fyddwch chi'n defnyddio'r allwedd hon.
-signin-passkey-fallback-password-label = Cyfrinair
+signin-passkey-fallback-heading = Rhowch eich cyfrinair i gydweddu
+signin-passkey-fallback-body = Er mwyn cadw'ch data'n ddiogel, mae angen i chi roi'ch cyfrinair pan fyddwch chi'n defnyddio'r cyfrinallwedd hon.
+signin-passkey-fallback-password-label = Cyfrinallwedd
 signin-passkey-fallback-go-to-settings = Mynd i’r gosodiadau
 signin-passkey-fallback-continue = Parhau
 
