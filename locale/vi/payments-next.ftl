@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Giữ gói đăng k
 
 interstitial-offer-error-subscription-not-found-heading = Chúng tôi không tìm thấy gói đăng ký nào đang hoạt động.
 interstitial-offer-error-subscription-not-found-message = Có vẻ như gói đăng ký này không còn hiệu lực nữa.
+interstitial-offer-error-customer-mismatch-heading = Gói đăng ký này không liên kết với tài khoản của bạn
+interstitial-offer-error-customer-mismatch-message = Hãy đảm bảo bạn đã đăng nhập bằng đúng tài khoản hoặc liên hệ với bộ phận hỗ trợ nếu cần trợ giúp.
 interstitial-offer-error-general-heading = Ưu đãi không khả dụng
 interstitial-offer-error-general-message = Có vẻ như ưu đãi này hiện không khả dụng.
 interstitial-offer-error-button-back-to-subscriptions = Quay lại gói đăng ký
 interstitial-offer-error-button-cancel-subscription = Tiếp tục huỷ gói
+interstitial-offer-error-button-sign-in = Đăng nhập
+interstitial-offer-error-button-contact-support = Liên hệ hỗ trợ
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Mức giảm giá này đã 
 churn-error-page-button-manage-subscriptions = Quản lý gói đăng ký
 churn-error-page-button-contact-support = Liên hệ hỗ trợ
 churn-error-page-button-try-again = Thử lại
+churn-error-page-title-customer-mismatch = Mã giảm giá không thể sử dụng
+churn-error-page-message-customer-mismatch = Mã giảm giá này được phát hành cho một gói đăng ký khác và chỉ có thể được sử dụng bởi người nhận ban đầu.
+churn-error-page-button-sign-in = Đăng nhập
 churn-error-page-title-general-error = Đã xảy ra sự cố khi gia hạn gói đăng ký của bạn
 churn-error-page-message-general-error = Vui lòng liên hệ bộ phận hỗ trợ hoặc thử lại.
 # $productName (String) - The name of the product associated with the subscription.
