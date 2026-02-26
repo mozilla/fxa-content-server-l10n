@@ -142,8 +142,8 @@ interstitial-offer-button-keep-current-interval-halfyearly = Cadw tanysgrifiad c
 
 interstitial-offer-error-subscription-not-found-heading = Doedd dim modd i ni ddod o hyd i danysgrifiad gweithredol
 interstitial-offer-error-subscription-not-found-message = Mae'n edrych yn debyg na fydd y tanysgrifiad hwn yn weithredol mwyach.
-interstitial-offer-error-customer-mismatch-heading = Nid yw'r tanysgrifiad hwn yn gysylltiedig â'ch cyfrif
-interstitial-offer-error-customer-mismatch-message = Gwnewch yn siŵr eich bod wedi mewngofnodi gyda'r cyfrif cywir, neu cysylltwch â Chymorth os oes angen cymorth arnoch.
+interstitial-offer-error-customer-mismatch-heading = Dyw'r tanysgrifiad hwn ddim yn gysylltiedig â'ch cyfrif
+interstitial-offer-error-customer-mismatch-message = Gwnewch yn siŵr eich bod wedi mewngofnodi gyda'r cyfrif cywir, neu cysylltwch â'n Cymorth os oes angen cymorth arnoch.
 interstitial-offer-error-general-heading = Dyw'r cynnig ar ddim gael
 interstitial-offer-error-general-message = Mae'n edrych yn debyg nad yw'r cynnig hwn ar gael ar hyn o bryd.
 interstitial-offer-error-button-back-to-subscriptions = Nôl i danysgrifiadau
