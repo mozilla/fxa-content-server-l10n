@@ -1802,7 +1802,7 @@ back = Atrás
 
 signin-passkey-fallback-header = Finalizar inicio de sesión
 signin-passkey-fallback-heading = Ingresá tu contraseña para sincronizar
-signin-passkey-fallback-body = Para mantener sus datos seguros, necesita ingresar su contraseña cuando use esta clave de acceso.
+signin-passkey-fallback-body = Para mantener tus datos seguros, necesitás ingresar tu contraseña cuando usés esta clave de acceso.
 signin-passkey-fallback-password-label = Contraseña
 signin-passkey-fallback-go-to-settings = Ir a Ajustes
 signin-passkey-fallback-continue = Continuar
