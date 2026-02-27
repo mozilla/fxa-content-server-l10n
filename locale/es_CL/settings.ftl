@@ -1138,6 +1138,9 @@ tfa-row-backup-phone-description-v2 = Este es el método de recuperación más f
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Aprender acerca del riesgo de SIM swap
+passkey-delete-modal-confirm-button = Eliminar clave de acceso
+passkey-delete-success = Clave de acceso eliminada
+passkey-delete-error = Hubo un problema al eliminar tu clave de acceso. Vuelve a intentarlo en unos minutos.
 
 ## Switch component
 
@@ -1156,6 +1159,13 @@ row-defaults-action-add = Añadir
 row-defaults-action-change = Cambiar
 row-defaults-action-disable = Desactivar
 row-defaults-status = Ninguno
+
+## UnitRowPasskey
+
+passkey-row-header = Claves de acceso
+passkey-row-enabled = Activada
+passkey-row-not-set = No establecida
+passkey-row-action-create = Crear
 
 ## Account recovery key sub-section on main Settings page
 
