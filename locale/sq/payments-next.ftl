@@ -112,6 +112,16 @@ not-found-title-subscriptions = S’u gjet pajtim
 not-found-description-subscriptions = S’gjetëm dot pajtimin tuaj. Ju lutemi, riprovoni, ose lidhuni me asistencën.
 not-found-button-back-to-subscriptions = Mbrapsht te pajtimet
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Kjo ofertë ka skaduar
+churn-cancel-flow-error-page-button-back-to-subscriptions = Mbrapsht te pajtimet
+
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = S’u gjet faqe
+not-found-loyalty-discount-button-back-to-subscriptions = Mbrapsht te pajtimet
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = S’u shtua metodë pagesash
