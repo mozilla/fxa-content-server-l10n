@@ -1135,6 +1135,7 @@ tfa-row-backup-phone-description-v2 = Kjo është metoda më e kollajtë për ri
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Mësoni rreth rrezikut të ndërrimit të SIM-eve
+passkey-delete-modal-cancel-button = Anuloje
 
 ## Switch component
 
@@ -1153,6 +1154,15 @@ row-defaults-action-add = Shtoje
 row-defaults-action-change = Ndryshoje
 row-defaults-action-disable = Çaktivizoje
 row-defaults-status = Asnjë
+
+## UnitRowPasskey
+
+passkey-row-header = Kyçkalime
+passkey-row-enabled = E aktivizuar
+passkey-row-not-set = S’është caktuar
+passkey-row-action-create = Krijoje
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Si e mbron kjo llogarinë tuaj
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1245,6 +1255,14 @@ tfa-row-verify-session-info = Që të ujdiset mirëfilltësim dyhapësh, duhet t
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = Duke vazhduar, pajtoheni me sa vijon:
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Kushte Shërbimi</termsLink> dhe <privacyLink>Shënim Mbi Privatësinë</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>Kushte Shërbimi</mozillaAccountsTos> dhe <mozillaAccountsPrivacy>Shënim mbi Privatësinë</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Duke vazhduar, pajtoheni me <mozillaAccountsTos>Kushte Shërbimi</mozillaAccountsTos> dhe <mozillaAccountsPrivacy>Shënim Privatësie</mozillaAccountsPrivacy>.
 
@@ -1721,6 +1739,8 @@ signin-password-button-label = Fjalëkalim
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
 signin-code-expired-error = Kodi ka skaduar. Ju lutemi, ribëni hyrjen.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Diç shkoi ters. Ju lutemi, ribëni hyrjen.
 signin-account-locked-banner-heading = Ricaktoni fjalëkalimin tuaj
 signin-account-locked-banner-description = E kyçëm llogarinë tuaj për ta mbajtur të parrezik nga veprimtari e dyshimtë.
 # This link points to https://accounts.firefox.com/reset_password
@@ -1744,6 +1764,14 @@ signin-bounced-message = Email-i i ripohimit që dërguam te { $email } u kthye 
 signin-bounced-help = Nëse kjo është një adresë email e vlefshme, <linkExternal>na e bëni të ditur</linkExternal> dhe do t’ju ndihmojmë ta zhbllokoni llogarinë tuaj.
 signin-bounced-create-new-account = S’e keni më në zotërim atë email? Krijoni një llogari të re
 back = Mbrapsht
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Përfundoni hyrjen
+signin-passkey-fallback-password-label = Fjalëkalim
+signin-passkey-fallback-go-to-settings = Kalo te rregullimet
+signin-passkey-fallback-continue = Vazhdo
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

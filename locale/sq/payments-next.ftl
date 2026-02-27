@@ -122,6 +122,12 @@ churn-cancel-flow-error-page-button-back-to-subscriptions = Mbrapsht te pajtimet
 not-found-loyalty-discount-title = S’u gjet faqe
 not-found-loyalty-discount-button-back-to-subscriptions = Mbrapsht te pajtimet
 
+## Error page
+
+interstitial-offer-error-button-back-to-subscriptions = Mbrapsht te pajtimet
+interstitial-offer-error-button-sign-in = Hyni
+interstitial-offer-error-button-contact-support = Lidhuni Me Asistencën
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = S’u shtua metodë pagesash
@@ -225,6 +231,28 @@ next-payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni
 
 next-new-user-submit = Pajtohuni Tani
 next-pay-with-heading-paypal = Paguani me { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-button-back-to-subscriptions = Mbrapsht te pajtimet
+churn-cancel-flow-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
+churn-cancel-flow-discount-already-applied-title = Kodi për ulje çmimi është aplikuar tashmë
+churn-cancel-flow-button-manage-subscriptions = Administroni pajtime
+churn-cancel-flow-button-contact-support = Lidhuni Me Asistencën
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
+churn-stay-subscribed-button-no-thanks = Jo, faleminderit
+    .aria-label = Mbrapsht te faqja e Pajtimeve
+churn-stay-subscribed-title-offer-expired = Kjo ofertë ka skaduar
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Doni të vazhdoni të përdorni { $productName }?
+churn-stay-subscribed-message-access-will-continue = Do të vazhdoni të përdorni { $productName } dhe cikli i faturimeve dhe pagesat për ju do të mbeten po ato.
+churn-stay-subscribed-button-go-to-subscriptions = Kalo te Pajtimet
+churn-stay-subscribed-button-stay-subscribed = Qëndroni i pajtuar
 
 ## Component - CouponForm
 
@@ -372,6 +400,15 @@ dialog-close = Mbylle dialogun
 button-back-to-subscriptions = Mbrapsht te pajtimet
 subscription-content-cancel-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
 paypal-unavailable-error = { -brand-paypal } hëpërhë s’mund të përdoret. Ju lutemi, përdorni një tjetër mundësi pagesash, ose riprovoni më vonë.
+
+## Churn flow - Error page
+
+churn-error-page-button-manage-subscriptions = Administroni pajtime
+churn-error-page-button-contact-support = Lidhuni Me Asistencën
+churn-error-page-button-try-again = Riprovoni
+churn-error-page-button-sign-in = Hyni
+churn-error-page-title-general-error = Pati një problem me rinovimin e pajtimit tuaj
+churn-error-page-message-general-error = Lidhuni me asistencën, ose riprovoni.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
