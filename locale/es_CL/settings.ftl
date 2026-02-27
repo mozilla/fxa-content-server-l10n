@@ -66,6 +66,15 @@ recovery-key-pdf-support = Aprender más acerca de tu clave de recuperación de 
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Lo sentimos, hubo un problema al descargar tu clave de recuperación de cuenta.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Conectarse con clave de acceso
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Conectándose de forma segura…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -252,6 +261,9 @@ usa-flag-icon-aria-label =
 # Used for loading arrow icon
 icon-loading-arrow-aria-label =
     .aria-label = Cargando
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Clave de acceso
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1138,6 +1150,20 @@ tfa-row-backup-phone-description-v2 = Este es el método de recuperación más f
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Aprender acerca del riesgo de SIM swap
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Creada: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Último uso: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Solo para conectarse. No se puede usar para sincronizar.
+passkey-sub-row-delete-title = Eliminar clave de acceso
+passkey-delete-modal-heading = ¿Eliminar tu clave de acceso?
+passkey-delete-modal-content = Esta clave de acceso se eliminará de tu cuenta. Deberás conectarte de otra manera.
+passkey-delete-modal-cancel-button = Cancelar
 passkey-delete-modal-confirm-button = Eliminar clave de acceso
 passkey-delete-success = Clave de acceso eliminada
 passkey-delete-error = Hubo un problema al eliminar tu clave de acceso. Vuelve a intentarlo en unos minutos.
@@ -1166,6 +1192,9 @@ passkey-row-header = Claves de acceso
 passkey-row-enabled = Activada
 passkey-row-not-set = No establecida
 passkey-row-action-create = Crear
+passkey-row-description = Haga que conectarte sea más fácil y seguro usando tu teléfono u otro dispositivo compatible para ingresar a tu cuenta.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Cómo esto protege tu cuenta
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1765,6 +1794,16 @@ signin-bounced-message = El correo de confirmación que enviamos a { $email } fu
 signin-bounced-help = Si esta es una dirección de correo válida, <linkExternal>háznoslo saber</linkExternal> y podremos ayudarte a desbloquear tu cuenta.
 signin-bounced-create-new-account = ¿Ya no es eres dueño de ese correo? Crea una nueva cuenta
 back = Atrás
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Terminar de conectarse
+signin-passkey-fallback-heading = Ingresa tu contraseña para sincronizar
+signin-passkey-fallback-body = Para mantener tus datos seguros, deberás ingresar tu contraseña cuando utilices esta clave de acceso.
+signin-passkey-fallback-password-label = Contraseña
+signin-passkey-fallback-go-to-settings = Ir a ajustes
+signin-passkey-fallback-continue = Continuar
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

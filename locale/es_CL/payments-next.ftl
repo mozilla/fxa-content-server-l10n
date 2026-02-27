@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Mantener la suscrip
 
 interstitial-offer-error-subscription-not-found-heading = No pudimos encontrar una suscripción activa
 interstitial-offer-error-subscription-not-found-message = Parece que esta suscripción puede que ya no esté activa.
+interstitial-offer-error-customer-mismatch-heading = Esta suscripción no está asociada a tu cuenta
+interstitial-offer-error-customer-mismatch-message = Asegúrate de haberte conectado con la cuenta correcta o comunícate con el Soporte si necesitas ayuda.
 interstitial-offer-error-general-heading = La oferta no está disponible
 interstitial-offer-error-general-message = Parece que esta oferta no está disponible en este momento.
 interstitial-offer-error-button-back-to-subscriptions = Regresar a Suscripciones
 interstitial-offer-error-button-cancel-subscription = Continuar para cancelar
+interstitial-offer-error-button-sign-in = Conectarse
+interstitial-offer-error-button-contact-support = Contactar al soporte
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Este descuento se aplicó a 
 churn-error-page-button-manage-subscriptions = Gestionar suscripciones
 churn-error-page-button-contact-support = Contactar al soporte
 churn-error-page-button-try-again = Volver a intentarlo
+churn-error-page-title-customer-mismatch = El cupón no se puede canjear
+churn-error-page-message-customer-mismatch = Este cupón se emitió para una suscripción diferente y solo puede ser canjeado por el destinatario original.
+churn-error-page-button-sign-in = Conectarse
 churn-error-page-title-general-error = Hubo un problema al renovar tu suscripción
 churn-error-page-message-general-error = Contacta con el soporte técnico o vuelve a intentarlo.
 # $productName (String) - The name of the product associated with the subscription.
