@@ -305,7 +305,7 @@ confetti-falling-image-aria-label =
     .aria-label = Animazione con coriandoli che cadono
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
-    .aria-label = { -brand-firefox } finestra con un badge circolare che mostra un segno di spunta verde e “VPN”, che indica che la VPN è attiva.
+    .aria-label = Finestra di { -brand-firefox } con un badge circolare che mostra un segno di spunta verde e la scritta “VPN”, per indicare che la VPN è attiva.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1339,8 +1339,8 @@ auth-error-215 = Il telefono per il recupero dell’account non esiste
 auth-error-216 = È stato raggiunto il limite di messaggi di testo
 auth-error-218 = Impossibile rimuovere il telefono per il recupero dell’account, codici di autenticazione di backup non presenti.
 auth-error-219 = Questo numero di telefono è stato registrato con troppi account. Prova con un numero diverso.
-auth-error-224 = Chiave di accesso non trovata
-auth-error-225 = Chiave di accesso già registrata
+auth-error-224 = Passkey non trovata
+auth-error-225 = Passkey già registrata
 auth-error-226 = Raggiunto il limite di passkey
 auth-error-227 = Autenticazione con passkey non riuscita
 auth-error-228 = Registrazione passkey non riuscita
@@ -1381,13 +1381,13 @@ passkey-registration-error-not-allowed = La configurazione della passkey non è 
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = La configurazione della passkey è stata annullata. Riprova.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Le passkey non sono supportate qui. Prova con un altro metodo o dispositivo.
+passkey-registration-error-not-supported = Le passkey non sono supportate per questa funzione. Prova con un altro metodo o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Non è possibile impostare passkey in questa pagina. Utilizza il sito sicuro e riprova.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Questa passkey è già registrata. Utilizzalo per accedere o aggiungi un’altra passkey.
+passkey-registration-error-invalid-state = Questa passkey è già registrata. Utilizzala per accedere o aggiungi un’altra passkey.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-registration-error-not-readable = Impossibile accedere all’autenticatore. Riprova o scegli un altro metodo.
+passkey-registration-error-not-readable = Impossibile accedere alla funzione di autenticazione. Riprova o scegli un altro metodo.
 # Attestation constraints or device-specific restrictions can't be met
 passkey-registration-error-constraint = La configurazione della passkey non è disponibile con questo dispositivo. Prova con un altro metodo o dispositivo.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
@@ -1402,11 +1402,11 @@ passkey-authentication-error-timeout = Richiesta passkey scaduta. Riprova.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = Le passkey non sono supportate. Prova con un altro metodo o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
-passkey-authentication-error-security = Non è possibile utilizzare passkey in questa pagina. Verificare di essere sul sito sicuro corretto e riprovare.
+passkey-authentication-error-security = Non è possibile utilizzare passkey in questa pagina. Verifica di essere sul sito sicuro corretto e riprova.
 # Unexpected credential state during authentication
-passkey-authentication-error-invalid-state = Si è verificato un errore con la chiave di accesso. Riprovare o utilizzare un altro metodo di accesso.
+passkey-authentication-error-invalid-state = Si è verificato un errore con la passkey. Riprova o utilizza un altro metodo di accesso.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-authentication-error-not-readable = Impossibile accedere all’autenticatore. Riprovare o utilizzare un altro metodo di accesso.
+passkey-authentication-error-not-readable = Impossibile accedere alla funzione di autenticazione. Riprova o utilizza un altro metodo di accesso.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Si è verificato un errore. Riprova o scegli un altro metodo di accesso.
 
@@ -1633,8 +1633,8 @@ pair-unsupported-message = Hai utilizzato la fotocamera di sistema? Bisogna effe
 service-welcome-signup-success-banner = { -product-mozilla-account } confermato
 service-welcome-signin-success-banner = Accesso effettuato correttamente.
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
-service-welcome-vpn-heading = Successiva: attiva la VPN
-service-welcome-vpn-description = Un altro passo per aumentare la privacy del tuo browser. Vai al pannello aperto e attivalo.
+service-welcome-vpn-heading = Prossimo passo: attiva la VPN
+service-welcome-vpn-description = Un altro passo per aumentare la privacy del tuo browser. Vai al pannello aperto e attivala.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
