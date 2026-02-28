@@ -291,6 +291,9 @@ sync-clouds-image-aria-label =
     .aria-label = 雲端同步圖示
 confetti-falling-image-aria-label =
     .aria-label = 射出紙花的動畫
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = 包含圓形徽章，顯示綠色勾勾與「VPN」文字的 { -brand-firefox } 視窗，表示已開啟 VPN。
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1310,6 +1313,12 @@ auth-error-215 = 救援電話號碼不存在
 auth-error-216 = 已達簡訊傳送限制
 auth-error-218 = 未建立備用驗證碼，無法移除救援電話驗證號碼。
 auth-error-219 = 此電話號碼已用於註冊太多帳號，請改用其他號碼。
+auth-error-224 = 找不到 Passkey
+auth-error-225 = Passkey 已經註冊
+auth-error-226 = 已達 Passkey 限制
+auth-error-227 = Passkey 驗證失敗
+auth-error-228 = Passkey 註冊失敗
+auth-error-238 = Passkey 挑戰失敗
 auth-error-999 = 未預期的錯誤
 auth-error-1001 = 已取消登入請求
 auth-error-1002 = 登入階段已失效，請登入以繼續。
@@ -1334,6 +1343,46 @@ auth-error-1067 = 打錯信箱地址？
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = 號碼尾碼為 { $lastFourPhoneNumber }
 oauth-error-1000 = 有些東西不對勁，請關閉此分頁再試一次。
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Passkey 設定失敗或無法使用，請再試一次或改用其他方式。
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Passkey 設定已取消，請再試一次。
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = 這裡不支援 Passkey，請改用其他方式或裝置。
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = 無法於此頁面設定 Passkey，請改用安全網站後再試一次。
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = 此 Passkey 已經註冊，請使用它登入，或新增另一組 Passkey。
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = 無法存取驗證器，請再試一次或改用其他方式。
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = 無法於此裝置設定 Passkey，請改用其他方式或另一台裝置。
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Passkey 設定失敗，請再試一次或改用其他方式。
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Passkey 登入失敗或無法使用，請再試一次或改用其他方式。
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Passkey 請求逾時，請再試一次。
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = 不支援 Passkey，請改用其他方式或裝置。
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = 無法於此頁面使用 Passkey，請確認目前是否位於正確的安全網站後再試一次。
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = 您的 Passkey 怪怪的，請再試一次或改用其他方式登入。
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = 無法存取驗證器，請再試一次或改用其他方式登入。
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = 有些東西怪怪的，請再試一次或改用其他方式登入。
 
 ## Connect Another Device page
 
@@ -1551,6 +1600,15 @@ pair-wait-for-auth-heading-text = 請到另一台裝置進行確認
 
 pair-unsupported-header = 使用應用程式配對
 pair-unsupported-message = 您用的是系統相機嗎？必須透過 { -brand-firefox } 程式中的相機配對。
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } 已確認
+service-welcome-signin-success-banner = 登入成功！
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = 下一步：開啟 VPN
+service-welcome-vpn-description = 讓您瀏覽器的隱私保護再進一步。請到開啟的面板中打開此功能。
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
