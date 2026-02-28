@@ -287,6 +287,9 @@ sync-clouds-image-aria-label =
     .aria-label = עננים עם סמל של סנכרון
 confetti-falling-image-aria-label =
     .aria-label = קונפטי נופל מונפש
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = חלון של { -brand-firefox } עם תג עגול המציג סימן וי ירוק ו־״VPN״, המציין שה־VPN פעיל.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1279,6 +1282,12 @@ auth-error-214 = מספר טלפון לשחזור כבר קיים
 auth-error-215 = מספר טלפון לשחזור לא קיים
 auth-error-216 = הושגה מכסת הודעות הטקסט
 auth-error-219 = מספר טלפון זה נרשם עם יותר מדי חשבונות. נא לנסות מספר אחר.
+auth-error-224 = מפתח הגישה לא נמצא
+auth-error-225 = מפתח הגישה כבר רשום
+auth-error-226 = הגבלת למגבלת מפתח הגישה
+auth-error-227 = אימות מפתח הגישה נכשל
+auth-error-228 = רישום מפתח הגישה נכשל
+auth-error-238 = אתגר מפתח הגישה נכשל
 auth-error-999 = שגיאה בלתי צפויה
 auth-error-1001 = ניסיון ההתחברות בוטל
 auth-error-1002 = פג תוקף ההפעלה. יש להתחבר כדי להמשיך.
@@ -1302,6 +1311,22 @@ auth-error-1067 = טעות בהקלדת כתובת הדוא״ל?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = מספר המסתיים ב־{ $lastFourPhoneNumber }
 oauth-error-1000 = משהו השתבש. נא לסגור לשונית זו ולנסות שוב.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = הגדרת מפתח הגישה נכשלה או שאינה זמינה. נא לנסות שוב או לבחור בשיטה אחרת.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = הגדרת מפתח הגישה בוטלה. נא לנסות שוב.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = מפתחות גישה אינן נתמכות כאן. נא לנסות שיטה או מכשיר אחרים.
+
+# Authentication errors
+
 
 ## Connect Another Device page
 
