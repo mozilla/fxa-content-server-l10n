@@ -1568,6 +1568,12 @@ pair-wait-for-auth-heading-text = Teraz wymagane jest zatwierdzenie <span>z inn
 pair-unsupported-header = Powiąż za pomocą aplikacji
 pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji { -brand-firefox }.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = Potwierdzono { -product-mozilla-account(case: "acc", capitalization: "lower") }
+service-welcome-signin-success-banner = Pomyślnie zalogowano
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
