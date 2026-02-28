@@ -1204,6 +1204,11 @@ pair-wait-for-auth-heading-text = Ahora se requiere aprobación <span>desde tu o
 pair-unsupported-header = Conectar usando una app
 pair-unsupported-message = ¿Usaste la cámara del sistema? Debe emparejar desde dentro de una aplicación { -brand-firefox }.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } confirmado
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
