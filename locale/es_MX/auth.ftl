@@ -7,6 +7,31 @@ session-verify-send-push-body-2 = Haz clic aquí para confirmar que eres tú
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-body = { $code } es tu código de verificación de { -brand-mozilla }. Caduca en 5 minutos.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Código de verificación de { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } es tu código de recuperación { -brand-mozilla }. Caduca en 5 minutos.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla } código: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } es tu código de recuperación { -brand-mozilla }. Caduca en 5 minutos.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } código: { $code }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Este es un correo electrónico automático; si lo recibiste por error, no tienes que hacer nada.
@@ -62,6 +87,17 @@ payment-plan-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
 
 payment-method-payment-provider = <b>Método de pago:</b> { $paymentProviderName }
 payment-method-payment-provider-plaintext = Método de pago: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Método de pago: { $cardName } termina en { $lastFour }
+
+# Variables:
+
 
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
