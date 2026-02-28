@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Felhők egy szinkronizálási ikonnal
 confetti-falling-image-aria-label =
     .aria-label = Animált hulló konfetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } összegű ablak, kör alakú kitűzőn, zöld pipával és „VPN”-nel, jelezve, hogy a VPN aktív.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1352,6 +1355,12 @@ auth-error-215 = A helyreállítási telefonszám nem létezik
 auth-error-216 = Az SMS-ek korlátja elérve
 auth-error-218 = Nem távolítható el a helyreállítási telefonszám, hiányoznak a tartalék hitelesítési kódok.
 auth-error-219 = Ez a telefonszám túl sok fiókkal lett regisztrálva. Próbálkozzon egy másik számmal.
+auth-error-224 = A jelkulcs nem található
+auth-error-225 = A jelszó már regisztrálva
+auth-error-226 = A jelkulcsok korlátja elérve
+auth-error-227 = A jelszóhitelesítés sikertelen
+auth-error-228 = A jelszó regisztrációja sikertelen
+auth-error-238 = A jelszófelhívás sikertelen
 auth-error-999 = Nem várt hiba
 auth-error-1001 = Bejelentkezési kísérlet megszakítva
 auth-error-1002 = A munkamenet lejárt. Jelentkezzen be a folytatáshoz.
@@ -1376,6 +1385,46 @@ auth-error-1067 = Elírta az e-mail-címet?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = { $lastFourPhoneNumber } végű szám
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = A jelszó beállítása sikertelen vagy nem érhető el. Próbálja meg újra, vagy válasszon másik módszert.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = A jelszóbeállítás megszakításra került. Próbálja újra.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = A jelkulcsok itt nem támogatottak. Próbálkozzon másik módszerrel vagy eszközzel.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Ezen az oldalon nem állíthatók be jelkulcsok. Használja a biztonságos oldalt, és próbálja újra.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Ez a jelkulcs már regisztrálva van. Használja a bejelentkezéshez, vagy adjon hozzá másik jelkulcsot.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Nem tudtuk elérni a hitelesítőt. Próbálja meg újra, vagy válasszon másik módszert.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = A jelszóbeállítás nem érhető el ennél az eszköznél. Próbálkozzon másik módszerrel vagy eszközzel.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = A jelszó beállítása sikertelen. Próbálja meg újra, vagy válasszon másik módszert.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = A jelkulcsos bejelentkezés sikertelen vagy nem érhető el. Próbálja meg újra, vagy válasszon másik módszert.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = A jelszókérés túllépte az időkorlátot. Próbálja meg újra.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = A jelkulcsok nem támogatottak. Próbálkozzon másik módszerrel vagy eszközzel.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = A jelkulcsok nem használhatók ezen az oldalon. Ellenőrizze, hogy a megfelelő biztonságos oldalon jár-e, és próbálja újra.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Hiba történt a jelkulcsával. Próbálja újra, vagy használjon másik bejelentkezési módot.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Nem tudtuk elérni a hitelesítőt. Próbálja újra, vagy használjon másik bejelentkezési módot.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Hiba történt. Próbálja újra, vagy válasszon másik bejelentkezési módot.
 
 ## Connect Another Device page
 
@@ -1593,6 +1642,15 @@ pair-wait-for-auth-heading-text = Most jóváhagyás szükséges <span>a másik 
 
 pair-unsupported-header = Párosítás egy alkalmazás segítségével
 pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy { -brand-firefox } alkalmazásból.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = A { -product-mozilla-account } megerősítve
+service-welcome-signin-success-banner = Sikeresen bejelentkezett!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Következő: A VPN bekapcsolása
+service-welcome-vpn-description = Még egy lépés a böngészője adatvédelmének megerősítéséhez. Ugorjon a nyitott panelre és kapcsolja be.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a

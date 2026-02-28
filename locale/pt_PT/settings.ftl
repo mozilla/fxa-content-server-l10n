@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Nuvens com um ícone de sincronização
 confetti-falling-image-aria-label =
     .aria-label = Animação da descarga de uma rede
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } janela com uma medalha circular a mostrar uma marca de verificação verde e “VPN”, a mostrar que a VPN está ativa.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1344,6 +1347,12 @@ auth-error-215 = O número de telefone de recuperação não existe
 auth-error-216 = Limite de mensagens de texto atingido
 auth-error-218 = Não foi possível remover o telefone de recuperação. Códigos de autenticação de recuperação em falta.
 auth-error-219 = Este número de telefone foi registado com demasiadas contas. Por favor, tente um número diferente.
+auth-error-224 = Chave não encontrada
+auth-error-225 = Palavra-passe já registada
+auth-error-226 = Limite de palavras-passe atingido
+auth-error-227 = Falha na autenticação da palavra-passe
+auth-error-228 = O registo da chave falhou
+auth-error-238 = O desafio da chave de acesso falhou
 auth-error-999 = Erro inesperado
 auth-error-1001 = Tentativa de início de sessão cancelada
 auth-error-1002 = A sessão expirou. Inicie sessão para continuar.
@@ -1368,6 +1377,46 @@ auth-error-1067 = E-mail mal digitado?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Número que termina em { $lastFourPhoneNumber }
 oauth-error-1000 = Ocorreu um erro. Feche este separador e tente novamente.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = A configuração da palavra-passe falhou ou está indisponível. Tente novamente ou escolha outro método.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = A configuração da chave de acesso foi cancelada. Tente novamente.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Chaves de acesso não são suportadas aqui. Tente outro método ou dispositivo.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Não podem ser configuradas chaves de acesso nesta página. Utilize o site seguro e tente novamente.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Esta chave já está registada. Utilize-o para iniciar sessão ou adicionar uma chave diferente.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Não conseguimos aceder ao autenticador. Tente novamente ou escolha outro método.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = A configuração por palavra-passe não está disponível para este dispositivo. Tente outro método ou dispositivo.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = A configuração da chave de acesso falhou. Tente novamente ou escolha outro método.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = A autenticação com a chave de acesso falhou ou está indisponível. Tente novamente ou escolha outro método.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = O pedido de chave expirou. Por favor, tente novamente.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Não são suportadas chaves de acesso. Tente outro método ou dispositivo.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Não podem ser utilizadas chaves de acesso nesta página. Verifique se está no site seguro correto e tente novamente.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Algo não correu bem com a sua chave. Tente novamente ou utilize outro método de início de sessão.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Não conseguimos aceder ao autenticador. Tente novamente ou utilize outro método de início de sessão.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Algo correu mal. Tente novamente ou escolha outro método de início de sessão.
 
 ## Connect Another Device page
 
@@ -1587,6 +1636,15 @@ pair-wait-for-auth-heading-text = A aprovação agora é necessária <span>do se
 
 pair-unsupported-header = Emparelhar usando uma aplicação
 pair-unsupported-message = Utilizou a câmara do sistema? Deve emparelhar a partir de uma aplicação { -brand-firefox }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } confirmados
+service-welcome-signin-success-banner = Sessão iniciada com sucesso!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Seguinte: Ligar a VPN
+service-welcome-vpn-description = Mais um passo para melhorar a privacidade do seu navegador. Aceda ao painel aberto e ative-a.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a

@@ -306,6 +306,9 @@ sync-clouds-image-aria-label =
     .aria-label = Mraky s ikonou synchronizace
 confetti-falling-image-aria-label =
     .aria-label = Animované padající konfety
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } okno se kulatým odznakem zobrazujícím zelené zaškrtnutí a „VPN“, které ukazuje, že VPN je aktivní.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1343,6 +1346,12 @@ auth-error-215 = Telefonní číslo pro obnovení neexistuje
 auth-error-216 = Dosažen limit textových zpráv
 auth-error-218 = Telefon pro obnovení nelze odebrat. Chybí záložní ověřovací kódy.
 auth-error-219 = K tomuto telefonnímu číslu je již zaregistrováno příliš mnoho účtů. Zkuste prosím jiné číslo.
+auth-error-224 = Přístupový klíč nebyl nalezen
+auth-error-225 = Přístupový klíč je již zaregistrován
+auth-error-226 = Dosažen limit přístupových klíčů
+auth-error-227 = Ověření přístupovým klíčem selhalo
+auth-error-228 = Registrace klíče selhala
+auth-error-238 = Heslo se nezdařilo
 auth-error-999 = Neočekávaná chyba
 auth-error-1001 = Pokus o přihlášení zrušen
 auth-error-1002 = Relace vypršela. Pro pokračování se přihlaste.
@@ -1367,6 +1376,46 @@ auth-error-1067 = Chybně zadaný e-mail?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Číslo končící na { $lastFourPhoneNumber }
 oauth-error-1000 = Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Nastavení klíče selhalo nebo je nedostupné. Zkuste to znovu nebo zvolte jiný způsob.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Přístupové klíče zde nejsou podporovány. Zkuste jinou metodu nebo zařízení.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Přístupové klíče na této stránce nelze nastavit. Použijte zabezpečený server a zkuste to znovu.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Tento přístupový klíč je již zaregistrován. Použijte ho pro přihlášení nebo přidání jiného přístupového klíče.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Nepodařilo se nám přistoupit k ověřovacímu modulu. Zkuste to znovu nebo zvolte jiný způsob.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Nastavení přístupového klíče není na tomto zařízení dostupné. Zkuste jinou metodu nebo zařízení.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Nastavení klíče selhalo. Zkuste to znovu nebo zvolte jiný způsob.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Přihlášení pomocí klíče selhalo nebo je nedostupné. Zkuste to znovu nebo zvolte jiný způsob.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Vypršel časový limit požadavku na přístupový klíč. Zkuste to prosím znovu.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Přístupové klíče nejsou podporovány. Zkuste jinou metodu nebo zařízení.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Na této stránce nelze použít přístupové klíče. Zkontrolujte, zda jste na správné zabezpečené stránce, a zkuste to znovu.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = S vaším přístupovým heslem se něco pokazilo. Zkuste to znovu nebo použijte jinou metodu přihlášení.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Nepodařilo se nám přistoupit k ověřovacímu modulu. Zkuste to znovu nebo použijte jinou metodu přihlášení.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Něco se pokazilo. Zkuste to znovu nebo zvolte jiný způsob přihlášení.
 
 ## Connect Another Device page
 
@@ -1584,6 +1633,15 @@ pair-wait-for-auth-heading-text = Je požadováno schválení <span>z vašeho da
 
 pair-unsupported-header = Spárovat pomocí aplikace
 pair-unsupported-message = Použili jste systémový fotoaparát? Párování je potřeba zahájit z { -brand-firefox(case: "gen") }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } potvrzen
+service-welcome-signin-success-banner = Přihlášení bylo úspěšné!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Další: Zapněte VPN
+service-welcome-vpn-description = Další krok ke zvýšení soukromí vašeho prohlížeče. Přejděte do otevřeného panelu a zapněte jej.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a

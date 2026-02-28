@@ -309,6 +309,9 @@ sync-clouds-image-aria-label =
     .aria-label = Oblaki z ikono za sinhronizacijo
 confetti-falling-image-aria-label =
     .aria-label = Animirani padajoči konfeti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Okno { -brand-firefox } z krožno značko, ki prikazuje zeleno kljukico, in “VPN”, ki kaže, da je VPN aktiven.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1360,6 +1363,12 @@ auth-error-215 = Telefonska številka za obnovitev ne obstaja
 auth-error-216 = Dosežena omejitev števila besedilnih sporočil
 auth-error-218 = Telefonske številke za obnovitev ni mogoče odstraniti, ker manjkajo rezervne overitvene kode.
 auth-error-219 = To telefonsko številko je registriralo preveč računov. Poskusite z drugo številko.
+auth-error-224 = Geslo ni najdeno
+auth-error-225 = Geslo je že registrirano
+auth-error-226 = Dosežena omejitev gesel
+auth-error-227 = Overjanje gesla ni uspelo
+auth-error-228 = Registracija gesla ni uspela
+auth-error-238 = Izziv gesla je spodletel
 auth-error-999 = Nepričakovana napaka
 auth-error-1001 = Poskus prijave preklican
 auth-error-1002 = Seja je potekla. Za nadaljevanje se prijavite.
@@ -1384,6 +1393,46 @@ auth-error-1067 = Napačen e-poštni naslov?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Številka, ki se končuje na { $lastFourPhoneNumber }
 oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Nastavitev gesla ni uspela ali pa geslo ni na voljo. Poskusite znova ali izberite drugo metodo.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Nastavitev gesla je bila preklicana. Poskusite znova.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Gesla tukaj niso podprta. Poskusite z drugo metodo ali napravo.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Na tej strani ni mogoče nastaviti gesel. Uporabite varno spletno mesto in poskusite znova.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = To geslo je že registrirano. Uporabite ga za prijavo ali dodajanje drugega gesla.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Nismo mogli dostopati do overitelja. Poskusite znova ali izberite drugo metodo.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Nastavitev gesla ni na voljo za to napravo. Poskusite z drugo metodo ali napravo.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Nastavitev gesla ni uspela. Poskusite znova ali izberite drugo metodo.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Prijava z geslom je spodletela ali pa je nedosegljiva. Poskusite znova ali izberite drugo metodo.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Časovna omejitev za zahtevanje gesla je potekla. Prosimo, poskusite znova.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Gesla niso podprta. Poskusite z drugo metodo ali napravo.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Gesli na tej strani ni mogoče uporabiti. Preverite, ali ste na pravem varnem spletnem mestu, in poskusite znova.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Prišlo je do napake z vašim geslom. Poskusite znova ali uporabite drug način prijave.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Nismo mogli dostopati do overitelja. Poskusite znova ali uporabite drug način prijave.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Nekaj je šlo narobe. Poskusite znova ali izberite drug način prijave.
 
 ## Connect Another Device page
 
@@ -1601,6 +1650,15 @@ pair-wait-for-auth-heading-text = Zdaj je zahtevana odobritev <span>z vaše drug
 
 pair-unsupported-header = Seznani s pomočjo aplikacije
 pair-unsupported-message = Ste uporabili sistemsko kamero? Seznanitev morate opraviti v aplikaciji { -brand-firefox }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } potrjen
+service-welcome-signin-success-banner = Prijava uspešna!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Naslednje: Vklopite VPN
+service-welcome-vpn-description = Še koraki več za večjo zasebnost brskalnika. Pojdite na odprto ploščo in jo omogočite.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a

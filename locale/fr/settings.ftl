@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Nuages avec une icône de synchronisation
 confetti-falling-image-aria-label =
     .aria-label = Animation de confettis qui tombent
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } avec un badge circulaire comportant une coche verte et « VPN » indiquant que le VPN est actif.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1340,6 +1343,12 @@ auth-error-215 = Le numéro de téléphone de secours n’existe pas
 auth-error-216 = Nombre maximum d’envois de SMS atteint
 auth-error-218 = Impossible de supprimer le numéro de téléphone de secours, car les codes d’authentification de secours n’ont pas été créés.
 auth-error-219 = Ce numéro de téléphone a été enregistré avec trop de comptes. Veuillez essayer avec un autre numéro.
+auth-error-224 = Clé d’accès introuvable
+auth-error-225 = La clé d’accès est déjà enregistrée
+auth-error-226 = Limite de clés d’accès atteinte
+auth-error-227 = Échec de l’authentification par clé
+auth-error-228 = Échec de l’enregistrement de la clé d’accès
+auth-error-238 = La vérification de la clé a échoué
 auth-error-999 = Erreur inattendue
 auth-error-1001 = Tentative de connexion annulée
 auth-error-1002 = Votre session a expiré. Connectez-vous pour continuer.
@@ -1364,6 +1373,46 @@ auth-error-1067 = Y a-t-il une faute de frappe dans l’adresse e-mail ?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numéro se terminant par { $lastFourPhoneNumber }
 oauth-error-1000 = Une erreur s’est produite. Veuillez fermer cet onglet et réessayer.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = La configuration de la clé a échoué ou n’est pas disponible. Réessayez ou choisissez une autre méthode.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = La configuration par clé d’accès a été annulée. Veuillez réessayer.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Les clés d’accès ne sont pas prises en charge ici. Essayez une autre méthode ou un autre appareil.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Les clés d’accès ne peuvent pas être configurées sur cette page. Utilisez le site sécurisé puis réessayez.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Cette clé d’accès est déjà enregistrée. Utilisez-la pour vous connecter ou ajouter une autre clé d’accès.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Nous n’avons pas pu accéder à l’authentificateur. Réessayez ou choisissez une autre méthode.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = La configuration par clé d’accès n’est pas disponible avec cet appareil. Essayez une autre méthode ou un autre appareil.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = La configuration de la clé a échoué. Réessayez ou choisissez une autre méthode.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = La connexion avec la clé d’accès a échoué ou n’est pas disponible. Réessayez ou choisissez une autre méthode.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Délai de requête de clé dépassé. Veuillez réessayer.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Les clés d’accès ne sont pas prises en charge. Essayez une autre méthode ou un autre appareil.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Les clés d’accès ne peuvent pas être utilisées sur cette page. Vérifiez que vous vous trouvez sur le bon site sécurisé et réessayez.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Une erreur s’est produite avec votre clé d’accès. Réessayez ou utilisez une autre méthode de connexion.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Nous n’avons pas pu accéder à l’authentificateur. Réessayez ou utilisez une autre méthode de connexion.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Quelque chose s'est mal passé. Réessayez ou choisissez une autre méthode de connexion.
 
 ## Connect Another Device page
 
@@ -1581,6 +1630,15 @@ pair-wait-for-auth-heading-text = L’approbation est maintenant nécessaire <sp
 
 pair-unsupported-header = Associer en utilisant une application
 pair-unsupported-message = Avez-vous utilisé la caméra du système ? L’association doit être effectuée depuis une application { -brand-firefox }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account(capitalization: "uppercase") } confirmé
+service-welcome-signin-success-banner = Connexion réussie !
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Suivant : activer le VPN
+service-welcome-vpn-description = Une étape de plus pour renforcer la vie privée de votre navigateur. Ouvrez un panneau et activez-le.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a

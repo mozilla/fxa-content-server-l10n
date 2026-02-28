@@ -315,6 +315,9 @@ sync-clouds-image-aria-label =
     .aria-label = Cymylau gydag eicon cydweddu
 confetti-falling-image-aria-label =
     .aria-label = Animeiddiad conffeti'n disgyn
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } ffenestr gyda bathodyn crwn yn dangos marc gwirio gwyrdd a “VPN,” yn dangos bod y VPN yn weithredol.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1366,6 +1369,12 @@ auth-error-215 = Nid yw'r rhif ffôn adfer yn bodoli
 auth-error-216 = Wedi cyrraedd terfyn neges destun
 auth-error-218 = Methu tynnu ffôn adfer, codau dilysu wrth gefn ar goll.
 auth-error-219 = Mae'r rhif ffôn hwn wedi'i gofrestru gyda gormod o gyfrifon. Rhowch gynnig ar rif gwahanol.
+auth-error-224 = Heb ddod o hyd i'r tocyn
+auth-error-225 = Paskey eisoes wedi'i gofrestru
+auth-error-226 = Cyrhaeddwyd terfyn y tocyn
+auth-error-227 = Methodd dilysu'r tocyn
+auth-error-228 = Methodd cofrestriad y tocyn
+auth-error-238 = Methodd her passkey
 auth-error-999 = Gwall anhysbys
 auth-error-1001 = Diddymwyd yr ymgais i fewngofnodi
 auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodwch i barhau.
@@ -1390,6 +1399,46 @@ auth-error-1067 = Camdeipio'r e-bost?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Rhif sy'n gorffen gyda { $lastFourPhoneNumber }
 oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Methodd gosod y cyfrinair neu nid yw ar gael. Ceisiwch eto neu dewiswch ddull arall.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Canslwyd gosodiad paskey. Ceisiwch eto.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Nid yw pasbys yn cael eu cefnogi yma. Rhowch gynnig ar ddull neu ddyfais arall.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Nid oes modd gosod pasbys ar y dudalen hon. Defnyddiwch y wefan ddiogel a cheisiwch eto.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Mae'r cyfrinair hwn eisoes wedi'i gofrestru. Defnyddiwch ef i fewngofnodi neu ychwanegu cyfrinair gwahanol.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Ni allem gael mynediad i'r dilysydd. Ceisiwch eto neu dewiswch ddull arall.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Nid yw gosodiad paskey ar gael gyda'r ddyfais hon. Rhowch gynnig ar ddull neu ddyfais arall.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Methodd gosod y tocyn. Ceisiwch eto neu dewiswch ddull arall.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Methodd mewngofnodi gyda'r allwedd neu nid yw ar gael. Ceisiwch eto neu dewiswch ddull arall.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Daeth y terfyn amser ar y cais am baskey. Ceisiwch eto.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Nid yw pasbys yn cael eu cefnogi. Rhowch gynnig ar ddull neu ddyfais arall.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Ni ellir defnyddio pasbys ar y dudalen hon. Gwiriwch eich bod ar y safle diogel cywir a rhowch gynnig arall arni.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Aeth rhywbeth o'i le gyda'ch cyfrinair. Ceisiwch eto neu defnyddiwch ddull mewngofnodi arall.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Ni allem gael mynediad i'r dilysydd. Ceisiwch eto neu defnyddiwch ddull mewngofnodi arall.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Aeth rhywbeth o'i le. Ceisiwch eto neu dewiswch ddull mewngofnodi arall.
 
 ## Connect Another Device page
 
@@ -1607,6 +1656,15 @@ pair-wait-for-auth-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais
 
 pair-unsupported-header = Paru gan ddefnyddio ap
 pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap { -brand-firefox }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = Cyfrif { -product-mozilla-account } wedi'i gadarnhau
+service-welcome-signin-success-banner = Wedi mewngofnodi'n llwyddiannus!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Nesaf: Trowch VPN ymlaen
+service-welcome-vpn-description = Un cam arall i hybu preifatrwydd eich porwr. Ewch i'r panel agored a'i droi ymlaen.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
