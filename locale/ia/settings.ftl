@@ -1353,6 +1353,8 @@ auth-error-218 = Impossibile remover telephono de recuperation, codices de authe
 auth-error-219 = Iste numero de telephono ha essite registrate con troppe contos. Tenta un numero differente.
 auth-error-224 = Clave-contrasigno non trovate
 auth-error-225 = Clave-contrasigno jam registrate
+auth-error-227 = Authentication de clave-contrasigno fallite
+auth-error-228 = Registration de clave-contrasigno fallite
 auth-error-999 = Error inexpectate
 auth-error-1001 = Tentativa de apertura de session cancellate
 auth-error-1002 = Session expirate. Reaperi session pro continuar.
@@ -1594,6 +1596,12 @@ pair-wait-for-auth-heading-text = Approbation necessari ora <span>ab tu altere a
 
 pair-unsupported-header = Accopulamento per un application
 pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular ab intra un application de { -brand-firefox }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } confirmate
+service-welcome-signin-success-banner = Authenticate con successo!
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
