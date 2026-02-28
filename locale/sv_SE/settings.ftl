@@ -1353,8 +1353,10 @@ auth-error-218 = Det går inte att ta bort återställningstelefon, saknar reser
 auth-error-219 = Det här telefonnumret har registrerats på för många konton. Försök med ett annat nummer.
 auth-error-224 = Lösenordsnyckel hittades inte
 auth-error-225 = Lösenordet har redan registrerats
+auth-error-226 = Gränsvärdet för lösenordsnycklar har nåtts
 auth-error-227 = Autentisering av lösenordsnyckel misslyckades
 auth-error-228 = Registrering av lösenordsnyckel misslyckades
+auth-error-238 = Utmaning för lösenordsnyckel misslyckades
 auth-error-999 = Oväntat fel
 auth-error-1001 = Inloggningsförsök avbröts
 auth-error-1002 = Sessionen upphörde. Logga in för att fortsätta.
@@ -1393,9 +1395,9 @@ passkey-registration-error-timeout = Installationen av lösenordsnyckel avbröts
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
 passkey-registration-error-not-supported = Lösenordsnycklar stöds inte här. Prova en annan metod eller enhet.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
-passkey-registration-error-security = Lösenord kan inte konfigureras på den här sidan. Använd den säkra webbplatsen och försök igen.
+passkey-registration-error-security = Lösenordsnyckel kan inte konfigureras på den här sidan. Använd den säkra webbplatsen och försök igen.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Detta lösenord är redan registrerat. Använd den för att logga in eller lägg till en annan lösenordsnyckel.
+passkey-registration-error-invalid-state = Denna lösenordsnyckel är redan registrerad. Använd den för att logga in eller lägg till en annan lösenordsnyckel.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-registration-error-not-readable = Vi kunde inte komma åt autentiseringen. Försök igen eller välj en annan metod.
 # Attestation constraints or device-specific restrictions can't be met
@@ -1406,15 +1408,15 @@ passkey-registration-error-unexpected = Inställning av lösenordsnyckel misslyc
 # Authentication errors
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
-passkey-authentication-error-not-allowed = Inloggning med lösenord misslyckades eller är otillgänglig. Försök igen eller välj en annan metod.
+passkey-authentication-error-not-allowed = Inloggning med lösenordsnyckel misslyckades eller är otillgänglig. Försök igen eller välj en annan metod.
 # The ceremony timed out before the user responded
-passkey-authentication-error-timeout = Begäran om lösenord gjorde timeout. Försök igen.
+passkey-authentication-error-timeout = Begäran om lösenordsnyckel har gått ut. Försök igen.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = Lösenordsnycklar stöds inte. Prova en annan metod eller enhet.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
-passkey-authentication-error-security = Lösenordsnycklar kan inte användas på den här sidan. Kontrollera att du är på rätt säkra webbplats och försök igen.
+passkey-authentication-error-security = Lösenordsnycklar kan inte användas på den här sidan. Kontrollera att du är på rätt säker webbplats och försök igen.
 # Unexpected credential state during authentication
-passkey-authentication-error-invalid-state = Något gick fel med lösenordet. Försök igen eller använd en annan inloggningsmetod.
+passkey-authentication-error-invalid-state = Något gick fel med lösenordsnyckeln. Försök igen eller använd en annan inloggningsmetod.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-authentication-error-not-readable = Vi kunde inte komma åt autentiseringen. Försök igen eller använd en annan inloggningsmetod.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
