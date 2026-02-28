@@ -1602,6 +1602,14 @@ pair-wait-for-auth-heading-text = Schwalenje je nětko <span>wot wašeho druheho
 pair-unsupported-header = Z nałoženjom koplować
 pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju { -brand-firefox } koplować.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } wobkrućene
+service-welcome-signin-success-banner = Wuspěšnje přizjewjeny!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Přichodny krok: VPN zmóžnić
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
