@@ -142,10 +142,14 @@ interstitial-offer-button-keep-current-interval-halfyearly = Behåll sexmånader
 
 interstitial-offer-error-subscription-not-found-heading = Vi kunde inte hitta en aktiv prenumeration
 interstitial-offer-error-subscription-not-found-message = Det ser ut som att den här prenumerationen inte längre är aktiv.
+interstitial-offer-error-customer-mismatch-heading = Denna prenumeration är inte kopplad till ditt konto
+interstitial-offer-error-customer-mismatch-message = Se till att du är inloggad med rätt konto eller kontakta supporten om du behöver hjälp.
 interstitial-offer-error-general-heading = Erbjudandet är inte tillgängligt
 interstitial-offer-error-general-message = Det verkar som att erbjudandet inte är tillgängligt vid denna tidpunkt.
 interstitial-offer-error-button-back-to-subscriptions = Tillbaka till prenumerationer
 interstitial-offer-error-button-cancel-subscription = Fortsätt för att avbryta
+interstitial-offer-error-button-sign-in = Logga in
+interstitial-offer-error-button-contact-support = Kontakta supporten
 
 ## Page - Subscription Management
 
@@ -458,6 +462,9 @@ churn-error-page-message-discount-already-applied = Denna rabatt tillämpades p�
 churn-error-page-button-manage-subscriptions = Hantera prenumerationer
 churn-error-page-button-contact-support = Kontakta supporten
 churn-error-page-button-try-again = Försök igen
+churn-error-page-title-customer-mismatch = Kupongen kan inte lösas in
+churn-error-page-message-customer-mismatch = Denna kupong utfärdades för en annan prenumeration och kan endast lösas in av den ursprungliga mottagaren.
+churn-error-page-button-sign-in = Logga in
 churn-error-page-title-general-error = Det uppstod ett problem med att förnya din prenumeration
 churn-error-page-message-general-error = Kontakta support eller försök igen.
 # $productName (String) - The name of the product associated with the subscription.

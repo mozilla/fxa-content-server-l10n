@@ -342,6 +342,23 @@ subscriptionRenewalReminder-content-greeting = Beste klant fan { $productName },
 subscriptionRenewalReminder-content-intro = Jo aktuele abonnemint wurdt oer { $reminderLength } dagen automatysk ferlinge.
 subscriptionRenewalReminder-content-discount-change = Jo folgjende faktuer jout in priiswiziging wer, omdat in eardere koarting is komme te ferfallen en in nije koarting tapast is.
 subscriptionRenewalReminder-content-discount-ending = Omdat in eardere koarting foarby is komme te ferfallen, wurdt jo abonnemint ferlinge tsjin de standertpriis.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Op dat stuit ferlinget { -brand-mozilla } jo deistige abonnemint en wurdt { $invoiceTotalExcludingTax } + { $invoiceTax } btw yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-with-tax-week = Op dat stuit ferlinget { -brand-mozilla } jo wyklikse abonnemint en wurdt { $invoiceTotalExcludingTax } + { $invoiceTax } btw yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-with-tax-month = Op dat stuit ferlinget { -brand-mozilla } jo moanlikse abonnemint en wurdt { $invoiceTotalExcludingTax } + { $invoiceTax } btw yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Op dat stuit ferlinget { -brand-mozilla } jo healjierlikse abonnemint en wurdt { $invoiceTotalExcludingTax } + { $invoiceTax } btw yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-with-tax-year = Op dat stuit ferlinget { -brand-mozilla } jo jierlikse abonnemint en wurdt { $invoiceTotalExcludingTax } + { $invoiceTax } btw yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-with-tax-default = Op dat stuit ferlinget { -brand-mozilla } jo abonnemint en wurdt { $invoiceTotalExcludingTax } + { $invoiceTax } btw yn rekkening brocht op de betellingsmetoade fan jo account.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Op dat stuit ferlinget { -brand-mozilla } jo deistige abonnemint en wurdt { $invoiceTotal } yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Op dat stuit ferlinget { -brand-mozilla } jo wyklikse abonnemint en wurdt { $invoiceTotal } yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Op dat stuit ferlinget { -brand-mozilla } jo moanlikse abonnemint en wurdt { $invoiceTotal } yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Op dat stuit ferlinget { -brand-mozilla } jo healjierlikse abonnemint en wurdt { $invoiceTotal } yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Op dat stuit ferlinget { -brand-mozilla } jo jierlikse abonnemint en wurdt { $invoiceTotal } yn rekkening brocht op de betellingsmetoade fan jo account.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Op dat stuit ferlinget { -brand-mozilla } jo abonnemint en wurdt { $invoiceTotal } yn rekkening brocht op de betellingsmetoade fan jo account.
 subscriptionRenewalReminder-content-closing = Mei heechachting,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

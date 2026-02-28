@@ -1156,6 +1156,23 @@ tfa-row-backup-phone-description-v2 = Dit is de ienfâldichste werstelmetoade as
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Mear ynfo oer it risiko fan simkaartwikseling
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Oanmakke: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Lêst brûkt: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Allinnich oanmelde. Kin net brûkt wurde om te syngronisearjen.
+passkey-sub-row-delete-title = Wachtwurdkaai fuortsmite
+passkey-delete-modal-heading = Jo wachtwurdkaai fuortsmite?
+passkey-delete-modal-content = Dizze wachtwurdkaai wurdt fan jo account fuortsmiten. Jo moatte jo op in oare manier oanmelde.
+passkey-delete-modal-cancel-button = Annulearje
+passkey-delete-modal-confirm-button = Wachtwurdkaai fuortsmite
+passkey-delete-success = Wachtwurdkaai fuortsmiten
+passkey-delete-error = Der is in probleem bard by it fuortsmiten fan jo wachtwurdkaai. Probearje it oer in pear minuten opnij.
 
 ## Switch component
 
@@ -1174,6 +1191,16 @@ row-defaults-action-add = Tafoegje
 row-defaults-action-change = Wizigje
 row-defaults-action-disable = Utskeakelje
 row-defaults-status = Gjin
+
+## UnitRowPasskey
+
+passkey-row-header = Wachtwurdkaaien
+passkey-row-enabled = Ynskeakele
+passkey-row-not-set = Net ynsteld
+passkey-row-action-create = Oanmeitsje
+passkey-row-description = Meitsje oanmelden makliker en feiliger troch jo telefoan of oar stipe apparaat te brûken om tagong te krijen ta jo account.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Hoe’t dit jo account beskermet
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1772,6 +1799,16 @@ signin-bounced-message = De befêstigingsmail dy’t wy nei { $email } ferstjoer
 signin-bounced-help = As dit in jildich e-mailadres is, <linkExternal>lit dit dan witte</linkExternal> en wy helpe jo account te ûntskoatteljen.
 signin-bounced-create-new-account = Hawwe jo dat e-mailadres net mear? Meitsje in nije account
 back = Tebek
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Oanmelding foltôgje
+signin-passkey-fallback-heading = Fier jo wachtwurd yn om te syngronisearjen
+signin-passkey-fallback-body = Om jo gegevens feilich te hâlden, moatte jo jo wachtwurd ynfiere as jo dizze wachtwurdkaai brûke.
+signin-passkey-fallback-password-label = Wachtwurd
+signin-passkey-fallback-go-to-settings = Nei Ynstellingen
+signin-passkey-fallback-continue = Trochgean
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
