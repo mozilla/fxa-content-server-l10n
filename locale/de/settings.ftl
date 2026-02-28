@@ -1351,10 +1351,10 @@ auth-error-218 = Die Telefonnummer für die Wiederherstellung konnte nicht entfe
 auth-error-219 = Diese Telefonnummer wurde mit zu vielen Konten registriert. Bitte versuchen Sie es mit einer anderen Nummer.
 auth-error-224 = Zugangsschlüssel nicht gefunden
 auth-error-225 = Zugangsschlüssel bereits registriert
-auth-error-226 = Obergrenze für Zugriffsschlüssel erreicht
-auth-error-227 = Passkey-Authentifizierung fehlgeschlagen
+auth-error-226 = Obergrenze für Zugangsschlüssel erreicht
+auth-error-227 = Authentifizierung mit Zugangsschlüssel fehlgeschlagen
 auth-error-228 = Registrierung des Zugangsschlüssels fehlgeschlagen
-auth-error-238 = Zugangsdaten-Anfrage fehlgeschlagen
+auth-error-238 = Verifizierung des Zugangsschlüssels fehlgeschlagen
 auth-error-999 = Unerwarteter Fehler
 auth-error-1001 = Anmeldeversuch abgebrochen
 auth-error-1002 = Sitzung abgelaufen. Melden Sie sich an, um fortzufahren.
@@ -1387,36 +1387,36 @@ oauth-error-1000 = Etwas ist schiefgegangen. Bitte schließen Sie diesen Tab und
 # Registration errors
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
-passkey-registration-error-not-allowed = Einrichtung des Zugangsschlüssels fehlgeschlagen oder ist nicht verfügbar. Versuchen Sie es erneut oder wählen Sie eine andere Methode.
+passkey-registration-error-not-allowed = Einrichtung des Zugangsschlüssels fehlgeschlagen oder nicht verfügbar. Versuchen Sie es erneut oder wählen Sie eine andere Methode.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Einrichtung des Zugangsschlüssels wurde abgebrochen. Erneut versuchen
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Hauptschlüssel werden hier nicht unterstützt. Versuchen Sie es mit einer anderen Methode oder einem Gerät.
+passkey-registration-error-not-supported = Zugangsschlüssel werden hier nicht unterstützt. Versuchen Sie es mit einer anderen Methode oder einem anderen Gerät.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Auf dieser Seite können keine Zugangsschlüssel eingerichtet werden. Verwenden Sie die sichere Website und versuchen Sie es erneut.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Dieser Zugangsschlüssel ist bereits registriert. Verwenden Sie ihn, um sich anzumelden oder einen anderen Zugangsschlüssel hinzuzufügen.
+passkey-registration-error-invalid-state = Dieser Zugangsschlüssel ist bereits registriert. Verwenden Sie ihn, um sich anzumelden oder fügen Sie einen anderen Zugangsschlüssel hinzu.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-registration-error-not-readable = Wir konnten nicht auf den Authenticator zugreifen. Versuchen Sie es erneut oder wählen Sie eine andere Methode.
+passkey-registration-error-not-readable = Wir konnten nicht auf die Authentifizierungsmethode zugreifen. Versuchen Sie es erneut oder wählen Sie eine andere Methode.
 # Attestation constraints or device-specific restrictions can't be met
-passkey-registration-error-constraint = Das Einrichten von Zugangsdaten ist für dieses Gerät nicht verfügbar. Versuchen Sie es mit einer anderen Methode oder einem Gerät.
+passkey-registration-error-constraint = Das Einrichten von Zugangsschlüsseln ist für dieses Gerät nicht verfügbar. Versuchen Sie es mit einer anderen Methode oder einem anderen Gerät.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
 passkey-registration-error-unexpected = Einrichtung des Zugangsschlüssels fehlgeschlagen. Versuchen Sie es erneut oder wählen Sie eine andere Methode.
 
 # Authentication errors
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
-passkey-authentication-error-not-allowed = Anmeldung mit Zugangsschlüssel fehlgeschlagen oder ist nicht verfügbar. Versuchen Sie es erneut oder wählen Sie eine andere Methode.
+passkey-authentication-error-not-allowed = Anmeldung mit Zugangsschlüssel fehlgeschlagen oder nicht verfügbar. Versuchen Sie es erneut oder wählen Sie eine andere Methode.
 # The ceremony timed out before the user responded
-passkey-authentication-error-timeout = Zeitüberschreitung bei Passkey-Anfrage. Bitte versuchen Sie es erneut.
+passkey-authentication-error-timeout = Zeitüberschreitung bei Zugangsschlüssel-Anfrage. Bitte versuchen Sie es erneut.
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Hauptschlüssel werden nicht unterstützt. Versuchen Sie es mit einer anderen Methode oder einem Gerät.
+passkey-authentication-error-not-supported = Zugangsschlüssel werden nicht unterstützt. Versuchen Sie es mit einer anderen Methode oder einem anderen Gerät.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Zugangsschlüssel können auf dieser Seite nicht verwendet werden. Überprüfen Sie, ob Sie sich auf der korrekten sicheren Website befinden und versuchen Sie es erneut.
 # Unexpected credential state during authentication
 passkey-authentication-error-invalid-state = Mit Ihrem Zugangsschlüssel ist etwas schiefgegangen. Versuchen Sie es erneut oder verwenden Sie eine andere Anmeldemethode.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-authentication-error-not-readable = Wir konnten nicht auf den Authenticator zugreifen. Versuchen Sie es erneut oder verwenden Sie eine andere Anmeldemethode.
+passkey-authentication-error-not-readable = Wir konnten nicht auf die Authentifizierungsmethode zugreifen. Versuchen Sie es erneut oder wählen Sie eine andere Anmeldemethode.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Es trat ein Problem auf. Versuchen Sie es erneut oder wählen Sie eine andere Anmeldemethode.
 
@@ -1643,8 +1643,8 @@ pair-unsupported-message = Haben Sie die Systemkamera verwendet? Dann müssen Si
 service-welcome-signup-success-banner = { -product-mozilla-account } bestätigt
 service-welcome-signin-success-banner = Erfolgreich angemeldet!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
-service-welcome-vpn-heading = Nächstes: VPN aktivieren
-service-welcome-vpn-description = Ein Schritt mehr, um die Privatsphäre Ihres Browsers zu schützen. Öffnen Sie das offene Panel und schalten Sie es ein.
+service-welcome-vpn-heading = Nächster Schritt: VPN aktivieren
+service-welcome-vpn-description = Noch ein Schritt, um die Privatsphäre Ihres Browsers zu schützen. Verwenden Sie das offene Panel und schalten Sie das VPN ein.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
