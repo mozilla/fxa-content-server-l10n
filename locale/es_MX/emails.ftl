@@ -133,6 +133,7 @@ inactiveAccountFinalWarning-action = Inicia sesión para mantener tu cuenta
 inactiveAccountFinalWarning-action-plaintext = Inicie sesión para mantener su cuenta:
 inactiveAccountFirstWarning-subject = No pierdas tu cuenta
 inactiveAccountFirstWarning-title = ¿Quieres conservar tu cuenta y tus datos de { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = Tu { -product-mozilla-account } se utiliza para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Notamos que no has iniciado sesión durante 2 años.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -179,7 +180,14 @@ newDeviceLogin-change-password = ¿No eres tú? <a data-l10n-name="passwordChang
 newDeviceLogin-change-password-plain = ¿No eres tú? Cambia tu contraseña:
 newDeviceLogin-action = Administrar cuenta
 passwordChangeRequired-subject = Actividad sospechosa detectada
+passwordChangeRequired-preview = Cambia tu contraseña inmediatamente
 passwordChangeRequired-title-2 = Restablecer tu contraseña
+passwordChangeRequired-suspicious-activity-3 = Bloqueamos tu cuenta para protegerla de actividades sospechosas. Se ha cerrado la sesión de todos tus dispositivos y se han eliminado todos los datos sincronizados como medida de precaución.
+passwordChangeRequired-sign-in-3 = Para volver a iniciar sesión en tu cuenta, todo lo que necesita hacer es restablecer tu contraseña.
+passwordChangeRequired-different-password-2 = <b>Importante:</b> Elige una contraseña segura que sea diferente a las que hayas usado en el pasado.
+passwordChangeRequired-different-password-plaintext-2 = Importante: elige una contraseña segura que sea diferente a las que hayas usado en el pasado.
+passwordChangeRequired-action = Restablecer contraseña
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
 passwordChanged-description-2 = La contraseña de tu { -product-mozilla-account } fue cambiada correctamente desde el siguiente dispositivo:
@@ -203,6 +211,10 @@ passwordResetAccountRecovery-information = Hemos cerrado tu sesión en todos tus
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Hemos cerrado tu sesión en todos tus dispositivos sincronizados. Hemos creado una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarla en los ajustes de tu cuenta:
 passwordResetAccountRecovery-action-4 = Administrar cuenta
+passwordResetRecoveryPhone-subject = Teléfono de recuperación usado
+passwordResetRecoveryPhone-preview = Comprueba que eras tú
+passwordResetRecoveryPhone-title = Tu teléfono de recuperación se utilizó para confirmar un restablecimiento de contraseña
+passwordResetRecoveryPhone-device = Teléfono de recuperación utilizado desde:
 passwordResetRecoveryPhone-action = Administrar cuenta
 passwordResetWithRecoveryKeyPrompt-subject = Tu contraseña ha sido restablecida
 passwordResetWithRecoveryKeyPrompt-title = Tu contraseña ha sido restablecida
