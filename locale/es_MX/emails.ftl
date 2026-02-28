@@ -224,6 +224,7 @@ passwordResetWithRecoveryKeyPrompt-description = Restableciste tu contraseña de
 passwordResetWithRecoveryKeyPrompt-action = Crear clave de recuperación de cuenta
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Crear clave de recuperación de cuenta
+passwordResetWithRecoveryKeyPrompt-cta-description = Tendrás que volver a iniciar sesión en todos tus dispositivos sincronizados. Protege tus datos la próxima vez con una clave de recuperación de cuenta. Esto te permite recuperar tus datos si olvidas tu contraseña.
 postAddAccountRecovery-subject-3 = Nueva clave de recuperación de cuenta creada
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de la cuenta
 # Key here refers to account recovery key
@@ -260,6 +261,7 @@ postAddTwoStepAuthentication-recovery-method-codes = También agregaste códigos
 postAddTwoStepAuthentication-recovery-method-phone = También agregaste { $maskedPhoneNumber } como tu número de teléfono de recuperación.
 postAddTwoStepAuthentication-how-protects-link = Cómo esto protege tu cuenta
 postAddTwoStepAuthentication-how-protects-plaintext = Cómo protege esto tu cuenta:
+postAddTwoStepAuthentication-device-sign-out-message = Para proteger todos tus dispositivos conectados, debes cerrar la sesión en todos los lugares donde utilizas esta cuenta y luego volver a iniciarla mediante la autenticación de dos pasos.
 postChangeAccountRecovery-subject = Se modificó la clave de recuperación de cuenta
 postChangeAccountRecovery-title = Has cambiado tu clave de recuperación de cuenta
 postChangeAccountRecovery-body-part1 = Ahora tienes una nueva clave de recuperación de cuenta. La clave anterior se eliminó.
@@ -276,6 +278,9 @@ postChangeRecoveryPhone-preview = Cuenta protegida mediante autenticación de do
 postChangeRecoveryPhone-title = Cambiaste tu teléfono de recuperación
 postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se eliminó tu número de teléfono anterior.
 postChangeRecoveryPhone-requested-device = Lo solicitaste a:
+postChangeTwoStepAuthentication-preview = Tu cuenta está protegida
+postChangeTwoStepAuthentication-subject = Autenticación de dos pasos actualizada
+postChangeTwoStepAuthentication-title = Se ha actualizado la autenticación de dos pasos
 postConsumeRecoveryCode-title-3 = Tu código de autenticación de respaldo se utilizó para confirmar un restablecimiento de contraseña
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
