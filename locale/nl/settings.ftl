@@ -1590,6 +1590,12 @@ pair-wait-for-auth-heading-text = Goedkeuring <span>vanaf uw andere apparaat</sp
 pair-unsupported-header = Koppelen via een app
 pair-unsupported-message = Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een { -brand-firefox }-app.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } bevestigd
+service-welcome-signin-success-banner = Met succes aangemeld!
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
