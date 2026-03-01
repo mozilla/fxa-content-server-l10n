@@ -329,6 +329,10 @@ subscriptionRenewalReminder-content-greeting = 尊敬的 { $productName } 用户
 subscriptionRenewalReminder-content-intro = 您当前的订阅将在 { $reminderLength } 天后自动续订。
 subscriptionRenewalReminder-content-discount-change = 您的下一期账单将体现因原折扣结束、新折扣生效引起的价格调整。
 subscriptionRenewalReminder-content-discount-ending = 由于原有折扣已结束，您的订阅将以标准价格续订。
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = 届时，{ -brand-mozilla } 将续订您的日付订阅，并向您账户所设置的付款方式收取 { $invoiceTotalExcludingTax } + 税费 { $invoiceTax }。
 subscriptionRenewalReminder-content-closing = 此致，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
