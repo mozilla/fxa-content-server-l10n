@@ -1590,6 +1590,14 @@ pair-wait-for-auth-heading-text = Godkjenning er no påkravd <span>frå den andr
 pair-unsupported-header = Paring via ein app
 pair-unsupported-message = Brukte du systemkameraet? Du må pare med ein { -brand-firefox }-app.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } stadfesta
+service-welcome-signin-success-banner = Innlogga!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Neste: Slå på VPN
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
