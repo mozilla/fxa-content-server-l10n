@@ -306,6 +306,9 @@ sync-clouds-image-aria-label =
     .aria-label = Облака со значком синхронизации
 confetti-falling-image-aria-label =
     .aria-label = Анимированное падающее конфетти
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Окно { -brand-firefox } с круговым значком с зелёным флажком и «VPN», указывающим, что VPN активен.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1350,6 +1353,12 @@ auth-error-215 = Номер телефона для восстановления
 auth-error-216 = Достигнут лимит текстовых сообщений
 auth-error-218 = Не удалось удалить телефон для восстановления, отсутствуют резервные коды аутентификации.
 auth-error-219 = Этот телефонный номер был зарегистрирован в слишком большом количестве аккаунтов. Пожалуйста, попробуйте другой номер.
+auth-error-224 = Ключ доступа не найден
+auth-error-225 = Ключ доступа уже зарегистрирован
+auth-error-226 = Достигнут предел ключей доступа
+auth-error-227 = Аутентификация по ключу доступа не удалась
+auth-error-228 = Регистрация ключа доступа не удалась
+auth-error-238 = Проверка ключа доступа не удалась
 auth-error-999 = Непредвиденная ошибка
 auth-error-1001 = Попытка входа отменена
 auth-error-1002 = Время сессии истекло. Войдите, чтобы продолжить.
