@@ -1384,6 +1384,30 @@ auth-error-1067 = Опечатка в электронной почте?
 recovery-phone-number-ending-digits = Номер, заканчивающийся на { $lastFourPhoneNumber }
 oauth-error-1000 = Что-то пошло не так. Пожалуйста, закройте эту вкладку и попробуйте ещё раз.
 
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Ошибка установки ключа доступа или он недоступен. Попробуйте еще раз или выберите другой метод.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Установка ключа доступа была отменена. Попробуйте снова.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Ключи доступа здесь не поддерживаются. Попробуйте другой метод или устройство.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = На этой странице нельзя устанавливать ключи доступа. Используйте безопасный сайт и попробуйте снова.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Этот ключ доступа уже зарегистрирован. Используйте его, чтобы войти или добавить другой ключ доступа.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Мы не смогли получить доступ к аутентификатору. Попробуйте еще раз или выберите другой метод.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Установка ключа доступа недоступна с этим устройством. Попробуйте другой метод или устройство.
+
+# Authentication errors
+
+
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
