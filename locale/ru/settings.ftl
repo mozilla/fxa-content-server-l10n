@@ -1404,9 +1404,25 @@ passkey-registration-error-invalid-state = Этот ключ доступа уж
 passkey-registration-error-not-readable = Мы не смогли получить доступ к аутентификатору. Попробуйте еще раз или выберите другой метод.
 # Attestation constraints or device-specific restrictions can't be met
 passkey-registration-error-constraint = Установка ключа доступа недоступна с этим устройством. Попробуйте другой метод или устройство.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Не удалось установить ключ доступа. Попробуйте ещё раз или выберите другой метод.
 
 # Authentication errors
 
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Вход с ключом доступа не удался или недоступен. Попробуйте еще раз или выберите другой метод.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Время ожидания запроса ключа истекло. Повторите попытку.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Ключи доступа не поддерживаются. Попробуйте другой метод или устройство.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = На этой странице нельзя использовать ключи доступа. Убедитесь, что вы находитесь на правильном защищённом сайте, и попробуйте снова.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Что-то пошло не так с вашим ключом доступа. Попробуйте ещё раз или используйте другой способ входа.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Мы не смогли получить доступ к аутентификатору. Попробуйте ещё раз или используйте другой способ входа.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Что-то пошло не так. Попробуйте ещё раз или выберите другой способ входа.
 
 ## Connect Another Device page
 
@@ -1624,6 +1640,15 @@ pair-wait-for-auth-heading-text = Теперь требуется подтвер
 
 pair-unsupported-header = Сопряжение с помощью приложения
 pair-unsupported-message = Вы использовали системную камеру? Вы должны выполнить сопряжение в приложении { -brand-firefox }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account(case: "nominative_uppercase") } подтверждён
+service-welcome-signin-success-banner = Вы успешно вошли!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Далее: Включить VPN
+service-welcome-vpn-description = Ещё один шаг к повышению приватности вашего браузера. Перейдите на открытую панель и включите его.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
