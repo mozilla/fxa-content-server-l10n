@@ -1355,6 +1355,7 @@ auth-error-224 = Clave-contrasigno non trovate
 auth-error-225 = Clave-contrasigno jam registrate
 auth-error-227 = Authentication de clave-contrasigno fallite
 auth-error-228 = Registration de clave-contrasigno fallite
+auth-error-238 = Verification de clave-contrasigno fallite
 auth-error-999 = Error inexpectate
 auth-error-1001 = Tentativa de apertura de session cancellate
 auth-error-1002 = Session expirate. Reaperi session pro continuar.
