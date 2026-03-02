@@ -309,6 +309,9 @@ sync-clouds-image-aria-label =
     .aria-label = Mróčele ze synchronizaciskim symbolom
 confetti-falling-image-aria-label =
     .aria-label = Animěrowany padacy konfetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Wokno { -brand-firefox } z kulojtym znamješkom ze zelenej hóčku a „VPN“, kotrež  pokazuje, zo VPN je aktiwny.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
