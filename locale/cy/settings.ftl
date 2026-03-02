@@ -317,7 +317,7 @@ confetti-falling-image-aria-label =
     .aria-label = Animeiddiad conffeti'n disgyn
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
-    .aria-label = { -brand-firefox } ffenestr gyda bathodyn crwn yn dangos marc gwirio gwyrdd a “VPN,” yn dangos bod y VPN yn weithredol.
+    .aria-label = Ffenestr { -brand-firefox } gyda bathodyn crwn yn dangos marc gwirio gwyrdd a “VPN,” yn dangos bod y VPN yn weithredol.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1370,11 +1370,11 @@ auth-error-216 = Wedi cyrraedd terfyn neges destun
 auth-error-218 = Methu tynnu ffôn adfer, codau dilysu wrth gefn ar goll.
 auth-error-219 = Mae'r rhif ffôn hwn wedi'i gofrestru gyda gormod o gyfrifon. Rhowch gynnig ar rif gwahanol.
 auth-error-224 = Heb ddod o hyd i'r tocyn
-auth-error-225 = Paskey eisoes wedi'i gofrestru
-auth-error-226 = Cyrhaeddwyd terfyn y tocyn
-auth-error-227 = Methodd dilysu'r tocyn
-auth-error-228 = Methodd cofrestriad y tocyn
-auth-error-238 = Methodd her passkey
+auth-error-225 = Cyfrinallwedd eisoes wedi'i gofrestru
+auth-error-226 = Wedi cyrraedd terfyn y cyfrinallwedd
+auth-error-227 = Wedi methu dilysu'r cyfrinallwedd
+auth-error-228 = Wedi methu cofrestri'r cyfrinallwedd
+auth-error-238 = Methodd her y cyfrinallwedd
 auth-error-999 = Gwall anhysbys
 auth-error-1001 = Diddymwyd yr ymgais i fewngofnodi
 auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodwch i barhau.
@@ -1407,19 +1407,19 @@ oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 # Registration errors
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
-passkey-registration-error-not-allowed = Methodd gosod y cyfrinair neu nid yw ar gael. Ceisiwch eto neu dewiswch ddull arall.
+passkey-registration-error-not-allowed = Methodd gosod y cyfrinallwedd neu nid yw ar gael. Ceisiwch eto neu dewiswch ddull arall.
 # The ceremony timed out before the user responded
-passkey-registration-error-timeout = Canslwyd gosodiad paskey. Ceisiwch eto.
+passkey-registration-error-timeout = Wedi diddymu gosod y cyfrinallwedd. Ceisiwch eto.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Nid yw pasbys yn cael eu cefnogi yma. Rhowch gynnig ar ddull neu ddyfais arall.
+passkey-registration-error-not-supported = Dyw cyfrinallweddi ddim yn cael eu cefnogi yma. Rhowch gynnig ar ddull neu ddyfais arall.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
-passkey-registration-error-security = Nid oes modd gosod pasbys ar y dudalen hon. Defnyddiwch y wefan ddiogel a cheisiwch eto.
+passkey-registration-error-security = Does dim modd gosod cyfrinallweddi  ar y dudalen hon. Defnyddiwch y wefan ddiogel a cheisiwch eto.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Mae'r cyfrinair hwn eisoes wedi'i gofrestru. Defnyddiwch ef i fewngofnodi neu ychwanegu cyfrinair gwahanol.
+passkey-registration-error-invalid-state = Mae'r cyfrinaallwedd hwn eisoes wedi'i gofrestru. Defnyddiwch ef i fewngofnodi neu ychwanegu cyfrinallwedd gwahanol.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-registration-error-not-readable = Ni allem gael mynediad i'r dilysydd. Ceisiwch eto neu dewiswch ddull arall.
+passkey-registration-error-not-readable = Doedd dm modd cael mynediad i'r dilysydd. Ceisiwch eto neu dewiswch ddull arall.
 # Attestation constraints or device-specific restrictions can't be met
-passkey-registration-error-constraint = Nid yw gosodiad paskey ar gael gyda'r ddyfais hon. Rhowch gynnig ar ddull neu ddyfais arall.
+passkey-registration-error-constraint = Dyw gosod cyfrinallweddi ddim ar gael gyda'r ddyfais hon. Rhowch gynnig ar ddull neu ddyfais arall.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
 passkey-registration-error-unexpected = Methodd gosod y tocyn. Ceisiwch eto neu dewiswch ddull arall.
 
