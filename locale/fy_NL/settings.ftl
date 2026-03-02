@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Wolken mei in syngronisaasjepiktogram
 confetti-falling-image-aria-label =
     .aria-label = Animearre fallende konfetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox }-finster mei in rûne badge mei in grien finkje en ‘VPN’, wat oanjout dat de VPN aktyf is.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1352,6 +1355,12 @@ auth-error-215 = Wersteltelefoannûmer bestiet net
 auth-error-216 = SMS-limyt berikt
 auth-error-218 = Kin wersteltelefoannûmer net fuortsmite, reservekopy-autentikaasjekoaden ûntbrekke.
 auth-error-219 = Dit telefoannûmer is by tefolle accounts registrearre. Probearje in oar nûmer.
+auth-error-224 = Wachtwurdkaai net fûn
+auth-error-225 = Wachtwurdkaai al registrearre
+auth-error-226 = Wachtwurdkaailimyt berikt
+auth-error-227 = Wachtwurdkaaiautentikaasje mislearre
+auth-error-228 = Registraasje wachtwurdkaai mislearre
+auth-error-238 = Wachtwurdkaai-útdaging mislearre
 auth-error-999 = Unferwachte flater
 auth-error-1001 = Oanmeldbesykjen annulearre
 auth-error-1002 = Sesje ferrûn. Meld jo oan om troch te gean.
@@ -1376,6 +1385,20 @@ auth-error-1067 = Hawwe jo it e-mailadres ferkeard ynfierd?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nûmer dat einiget op { $lastFourPhoneNumber }
 oauth-error-1000 = Der is wat misgien. Slút dit ljepblêd en probearje it opnij.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Ynstellen fan wachtwurd mislearre of is net beskikber. Probearje it opnij of kies in oare metoade.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Ynstellen fan wachtwurdkaai is annulearre. Probearje it opnij.
+
+# Authentication errors
+
 
 ## Connect Another Device page
 
