@@ -1360,6 +1360,12 @@ auth-error-215 = Čisło wobnowjenskeho telefona njeeksistuje
 auth-error-216 = Limit tekstoweje powěsće docpěty
 auth-error-218 = Njeje móžno wobnowjenski telefon wotstronić, awtentifikaciske kody za zawěsćenje faluja.
 auth-error-219 = Tute telefonowe čisło je so z přewjele kontami zregistrowało. Prošu spytajće druhe čisło.
+auth-error-224 = Hesłowy kluč njeje so namakał
+auth-error-225 = Hesłowy kluč je hižo zregistrowany
+auth-error-226 = Limit za hesłowy kluč docpěty
+auth-error-227 = Awtentifikacija hesłoweho kluča njeje so poradźiła
+auth-error-228 = Registracija hesłoweho kluča njeje so poradźiła
+auth-error-238 = Přepruwowanje hesłoweho kluča njeje so poradźiło
 auth-error-999 = Njewočakowany zmylk
 auth-error-1001 = Přizjewjenski pospyt přetorhnjeny
 auth-error-1002 = Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował.
@@ -1384,6 +1390,18 @@ auth-error-1067 = Sće e-mejlowu adresu wopak napisał?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Čisło, kotrež so na { $lastFourPhoneNumber } kónči.
 oauth-error-1000 = Něšto je so nimokuliło. Prošu začińće tutón rajtark a spytajće hišće raz.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Konfiguracija hesłoweho kluča njeje so poradźiła abo njeje k dispoziciji. Spytajće hišće raz abo wubjerće druhu metodu.
+
+# Authentication errors
+
 
 ## Connect Another Device page
 
