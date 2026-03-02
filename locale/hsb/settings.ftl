@@ -1422,6 +1422,14 @@ passkey-authentication-error-not-allowed = Přizjewjenje z hesłowym klučom nje
 passkey-authentication-error-timeout = Překročenje časa při naprašowanju hesłoweho kluča. Spytajće prošu hišće raz.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = Hesłowe kluče so njepodpěruja. Spytajće druhu metodu abo grat.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Hesłowe kluče njedadźa so na tutej stronje wužiwać. Přepruwujće, hač sće na korektnym wěstym sydle a spytajće hišće raz.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Něšto je so z wašim hesłowym klučom nimokuliło. Spytajće hišće raz abo wužiwajće druhu přizjewjensku metodu.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Njemóžachmy přistup k awtentifikatorej dóstać. Spytajće hišće raz abo wubjerće druhu přizjewjensku metodu.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Něšto je so nimokuliło. Spytajće hišće raz abo wubjerće druhu přizjewjensku metodu.
 
 ## Connect Another Device page
 
@@ -1647,6 +1655,7 @@ service-welcome-signup-success-banner = { -product-mozilla-account } wobkrućene
 service-welcome-signin-success-banner = Wuspěšnje přizjewjeny!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Přichodny krok: VPN zmóžnić
+service-welcome-vpn-description = Dalši krok, zo by so priwatnosć wašeho wobhladowaka skrućiła. Přeńdźće k wočinjenemu woknu a zmóžńće jón.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
