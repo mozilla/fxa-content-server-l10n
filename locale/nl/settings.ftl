@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Wolken met een synchronisatiepictogram
 confetti-falling-image-aria-label =
     .aria-label = Geanimeerde vallende confetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox }-venster met een ronde badge met een groen vinkje en ‘VPN’, wat aangeeft dat de VPN actief is.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1348,6 +1351,12 @@ auth-error-215 = Hersteltelefoonnummer bestaat niet
 auth-error-216 = Sms-limiet bereikt
 auth-error-218 = Kan hersteltelefoonnummer niet verwijderen; reserve-authenticatiecodes ontbreken.
 auth-error-219 = Dit telefoonnummer is bij te veel accounts geregistreerd. Probeer een ander nummer.
+auth-error-224 = Wachtwoordsleutel niet gevonden
+auth-error-225 = Wachtwoordsleutel al geregistreerd
+auth-error-226 = Wachtwoordsleutellimiet bereikt
+auth-error-227 = Wachtwoordsleutelauthenticatie mislukt
+auth-error-228 = Registratie wachtwoordsleutel mislukt
+auth-error-238 = Wachtwoordsleutel-uitdaging mislukt
 auth-error-999 = Onverwachte fout
 auth-error-1001 = Aanmeldingspoging geannuleerd
 auth-error-1002 = Sessie verlopen. Meld u aan om door te gaan.
@@ -1372,6 +1381,34 @@ auth-error-1067 = Hebt u het e-mailadres verkeerd getypt?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer eindigend op { $lastFourPhoneNumber }
 oauth-error-1000 = Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Instellen van wachtwoordsleutel mislukt of niet beschikbaar. Probeer het opnieuw of kies een andere methode.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Instellen van wachtwoordsleutel is geannuleerd. Probeer het opnieuw.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Wachtwoordsleutels worden hier niet ondersteund. Probeer een andere methode of een ander apparaat.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Wachtwoordsleutels kunnen niet op deze pagina worden ingesteld. Gebruik de beveiligde website en probeer het opnieuw.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Deze wachtwoordsleutel is al geregistreerd. Gebruik deze om u aan te melden of voeg een andere wachtwoordsleutel toe.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = We krijgen geen toegang tot de authenticator. Probeer het opnieuw of kies een andere methode.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Instellen van wachtwoordsleutel is niet beschikbaar met dit apparaat. Probeer een andere methode of een ander apparaat.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Instellen wachtwoordsleutel mislukt. Probeer het opnieuw of kies een andere methode.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Aanmelding met wachtwoordsleutel is mislukt of niet beschikbaar. Probeer het opnieuw of kies een andere methode.
 
 ## Connect Another Device page
 
