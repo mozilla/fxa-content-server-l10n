@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Moln med en synkroniseringsikon
 confetti-falling-image-aria-label =
     .aria-label = Animerad fallande konfetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } fönster med ett cirkulärt emblem som visar en grön bock och "VPN", som visar att VPN är aktivt.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1348,6 +1351,12 @@ auth-error-215 = Telefonnumret för återställning finns inte
 auth-error-216 = Gränsen för textmeddelanden har nåtts
 auth-error-218 = Det går inte att ta bort återställningstelefon, saknar reservautentiseringskoder.
 auth-error-219 = Det här telefonnumret har registrerats på för många konton. Försök med ett annat nummer.
+auth-error-224 = Lösenordsnyckel hittades inte
+auth-error-225 = Lösenordet har redan registrerats
+auth-error-226 = Gränsvärdet för lösenordsnycklar har nåtts
+auth-error-227 = Autentisering av lösenordsnyckel misslyckades
+auth-error-228 = Registrering av lösenordsnyckel misslyckades
+auth-error-238 = Utmaning för lösenordsnyckel misslyckades
 auth-error-999 = Oväntat fel
 auth-error-1001 = Inloggningsförsök avbröts
 auth-error-1002 = Sessionen upphörde. Logga in för att fortsätta.
@@ -1372,6 +1381,46 @@ auth-error-1067 = Skrev du fel e-postadress?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer som slutar på { $lastFourPhoneNumber }
 oauth-error-1000 = Något gick fel. Stäng den här fliken och försök igen.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Inställning av lösenordsnyckel misslyckades eller är otillgänglig. Försök igen eller välj en annan metod.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Installationen av lösenordsnyckel avbröts. Försök igen.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Lösenordsnycklar stöds inte här. Prova en annan metod eller enhet.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Lösenordsnyckel kan inte konfigureras på den här sidan. Använd den säkra webbplatsen och försök igen.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Denna lösenordsnyckel är redan registrerad. Använd den för att logga in eller lägg till en annan lösenordsnyckel.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Vi kunde inte komma åt autentiseringen. Försök igen eller välj en annan metod.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Installation av lösenordsnyckel är inte tillgänglig med den här enheten. Prova en annan metod eller enhet.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Inställning av lösenordsnyckel misslyckades. Försök igen eller välj en annan metod.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Inloggning med lösenordsnyckel misslyckades eller är otillgänglig. Försök igen eller välj en annan metod.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Begäran om lösenordsnyckel har gått ut. Försök igen.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Lösenordsnycklar stöds inte. Prova en annan metod eller enhet.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Lösenordsnycklar kan inte användas på den här sidan. Kontrollera att du är på rätt säker webbplats och försök igen.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Något gick fel med lösenordsnyckeln. Försök igen eller använd en annan inloggningsmetod.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Vi kunde inte komma åt autentiseringen. Försök igen eller använd en annan inloggningsmetod.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Något gick fel. Försök igen eller välj en annan inloggningsmetod.
 
 ## Connect Another Device page
 
@@ -1589,6 +1638,15 @@ pair-wait-for-auth-heading-text = Godkännande krävs nu <span>från din andra e
 
 pair-unsupported-header = Parkoppling via en app
 pair-unsupported-message = Använde du systemkameran? Du måste parkoppla från en { -brand-firefox }-app.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } har bekräftats
+service-welcome-signin-success-banner = Inloggad!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Nästa: Slå på VPN
+service-welcome-vpn-description = Ytterligare ett steg för att stärka din webbläsares integritet. Gå till den öppna panelen och slå på den.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
