@@ -1399,9 +1399,29 @@ oauth-error-1000 = Něšto je so nimokuliło. Prošu začińće tutón rajtark a
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Konfiguracija hesłoweho kluča njeje so poradźiła abo njeje k dispoziciji. Spytajće hišće raz abo wubjerće druhu metodu.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Konfiguracija hesłoweho kluča je so přetorhnyła. Spytajće hišće raz.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Hesłowe kluče so tu njepodpěruja. Spytajće druhu metodu abo grat.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Hesłowe kluče njedadźa so na tutej stronje konfigurować. Wužiwajće wěste sydło a spytajće hišće raz.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Tutón hesłowy kluč je hižo zregistrowany. Wužiwajće jón, zo byšće so přizjewił abo přidajće druhi hesłowy kluč.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Njemóžachmy přistup k awtentifikatorej dóstać. Spytajće hišće raz abo wubjerće druhu metodu.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Spytajće druhu metodu abo druhi grat.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Konfiguracija hesłoweho kluča njeje so poradźiła. Spytajće hišće raz abo wubjerće druhu metodu.
 
 # Authentication errors
 
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Přizjewjenje z hesłowym klučom njeje so poradźiło abo njeje k dispoziciji. Spytajće hišće raz abo wubjerće druhu metodu.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Překročenje časa při naprašowanju hesłoweho kluča. Spytajće prošu hišće raz.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Hesłowe kluče so njepodpěruja. Spytajće druhu metodu abo grat.
 
 ## Connect Another Device page
 
