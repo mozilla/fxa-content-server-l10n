@@ -1410,7 +1410,7 @@ passkey-registration-error-unexpected = Instellen wachtwoordsleutel mislukt. Pro
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Aanmelding met wachtwoordsleutel is mislukt of niet beschikbaar. Probeer het opnieuw of kies een andere methode.
 # The ceremony timed out before the user responded
-passkey-authentication-error-timeout = Wachtsleutelverzoek verlopen. Probeer het opnieuw.
+passkey-authentication-error-timeout = Wachtwoordsleutelverzoek verlopen. Probeer het opnieuw.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = Wachtwoordsleutels worden niet ondersteund. Probeer een andere methode of een ander apparaat.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)

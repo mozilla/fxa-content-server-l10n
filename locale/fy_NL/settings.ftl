@@ -1396,9 +1396,35 @@ oauth-error-1000 = Der is wat misgien. Slút dit ljepblêd en probearje it opnij
 passkey-registration-error-not-allowed = Ynstellen fan wachtwurd mislearre of is net beskikber. Probearje it opnij of kies in oare metoade.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Ynstellen fan wachtwurdkaai is annulearre. Probearje it opnij.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Wachtwurdkaaien wurde hjir net stipe. Probearje in oare metoade of apparaat.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Wachtwurdkaaien kinne net op dizze side ynsteld wurde. Brûk de befeilige website en probearje it opnij.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Dizze wachtwurdkaai is al registrearre. Brûk it om jo oan te melden of foegje in oare wachtwurdkaai ta.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Wy krije gjin tagong krije ta de authenticator. Probearje it opnij of kies in oare metoade.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = It ynstellen fan in wachtwurdkaai is net beskikber mei dit apparaat. Probearje in oare metoade of apparaat.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Ynstellen fan wachtwurdkaai mislearre. Probearje it opnij of kies in oare metoade.
 
 # Authentication errors
 
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Oanmelding mei wachtwurdkaai mislearre of is net beskikber. Probearje it opnij of kies in oare metoade.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Wachtwurdkaaifersyk ferrûn. Probearje it opnij.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Wachtwurdkaaien wurde net stipe. Probearje in oare metoade of apparaat.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Wachtwurdkaaien kinne net op dizze side brûkt wurde. Kontrolearje oft jo op de krekte befeilige website binne en probearje it opnij.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Der is wat misgien mei jo wachtwurdkaai. Probearje it opnij of brûk in oare oanmeldingsmetoade.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Wy krije gjin tagong krije ta de authenticator. Probearje it opnij of brûk in oare oanmeldingsmetoade.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Der is wat misgien. Probearje it opnij of brûk in oare oanmeldingsmetoade.
 
 ## Connect Another Device page
 
@@ -1622,6 +1648,9 @@ pair-unsupported-message = Hawwe jo de systeemkamera brûkt? Jo moatte fan in { 
 
 service-welcome-signup-success-banner = { -product-mozilla-account } befêstige
 service-welcome-signin-success-banner = Mei sukses oanmeld!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Folgjende: VPN ynskeakelje
+service-welcome-vpn-description = Noch ien stap om de privacy fan jo browser te ferbetterjen. Gean nei it iepen paniel en skeakelje VPN yn.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
