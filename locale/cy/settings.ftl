@@ -1369,7 +1369,7 @@ auth-error-215 = Nid yw'r rhif ffôn adfer yn bodoli
 auth-error-216 = Wedi cyrraedd terfyn neges destun
 auth-error-218 = Methu tynnu ffôn adfer, codau dilysu wrth gefn ar goll.
 auth-error-219 = Mae'r rhif ffôn hwn wedi'i gofrestru gyda gormod o gyfrifon. Rhowch gynnig ar rif gwahanol.
-auth-error-224 = Heb ddod o hyd i'r tocyn
+auth-error-224 = Heb ddod o hyd i'r cyfrinallwedd
 auth-error-225 = Cyfrinallwedd eisoes wedi'i gofrestru
 auth-error-226 = Wedi cyrraedd terfyn y cyfrinallwedd
 auth-error-227 = Wedi methu dilysu'r cyfrinallwedd
@@ -1415,28 +1415,28 @@ passkey-registration-error-not-supported = Dyw cyfrinallweddi ddim yn cael eu ce
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Does dim modd gosod cyfrinallweddi  ar y dudalen hon. Defnyddiwch y wefan ddiogel a cheisiwch eto.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Mae'r cyfrinaallwedd hwn eisoes wedi'i gofrestru. Defnyddiwch ef i fewngofnodi neu ychwanegu cyfrinallwedd gwahanol.
+passkey-registration-error-invalid-state = Mae'r cyfrinallwedd hwn eisoes wedi'i gofrestru. Defnyddiwch ef i fewngofnodi neu ychwanegu cyfrinallwedd gwahanol.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-registration-error-not-readable = Doedd dm modd cael mynediad i'r dilysydd. Ceisiwch eto neu dewiswch ddull arall.
+passkey-registration-error-not-readable = Doedd dim modd cael mynediad i'r dilysydd. Ceisiwch eto neu dewiswch ddull arall.
 # Attestation constraints or device-specific restrictions can't be met
 passkey-registration-error-constraint = Dyw gosod cyfrinallweddi ddim ar gael gyda'r ddyfais hon. Rhowch gynnig ar ddull neu ddyfais arall.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
-passkey-registration-error-unexpected = Methodd gosod y tocyn. Ceisiwch eto neu dewiswch ddull arall.
+passkey-registration-error-unexpected = Wedi methu gosod y cyfrinallwedd. Ceisiwch eto neu dewiswch ddull arall.
 
 # Authentication errors
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
-passkey-authentication-error-not-allowed = Methodd mewngofnodi gyda'r allwedd neu nid yw ar gael. Ceisiwch eto neu dewiswch ddull arall.
+passkey-authentication-error-not-allowed = Wedi methu mewngofnodi gyda'r cyfrinallwedd neu nid yw ar gael. Ceisiwch eto neu dewiswch ddull arall.
 # The ceremony timed out before the user responded
-passkey-authentication-error-timeout = Daeth y terfyn amser ar y cais am baskey. Ceisiwch eto.
+passkey-authentication-error-timeout = Daeth y terfyn amser ar y cais am gyfrinallwedd. Ceisiwch eto.
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Nid yw pasbys yn cael eu cefnogi. Rhowch gynnig ar ddull neu ddyfais arall.
+passkey-authentication-error-not-supported = Dyw cyfrinallweddi ddim yn cael eu cefnogi. Rhowch gynnig ar ddull neu ddyfais arall.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
-passkey-authentication-error-security = Ni ellir defnyddio pasbys ar y dudalen hon. Gwiriwch eich bod ar y safle diogel cywir a rhowch gynnig arall arni.
+passkey-authentication-error-security = Does dim modd defnyddio cyfrinallweddi ar y dudalen hon. Gwiriwch eich bod ar y wefan ddiogel gywir a rhowch gynnig arall arni. diogel cywir a rhowch gynnig arall arni.
 # Unexpected credential state during authentication
-passkey-authentication-error-invalid-state = Aeth rhywbeth o'i le gyda'ch cyfrinair. Ceisiwch eto neu defnyddiwch ddull mewngofnodi arall.
+passkey-authentication-error-invalid-state = Aeth rhywbeth o'i le gyda'ch cyfrinallwedd. Ceisiwch eto neu defnyddiwch ddull mewngofnodi arall.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-authentication-error-not-readable = Ni allem gael mynediad i'r dilysydd. Ceisiwch eto neu defnyddiwch ddull mewngofnodi arall.
+passkey-authentication-error-not-readable = Doedd dim modd cael mynediad i'r dilysydd. Ceisiwch eto neu defnyddiwch ddull mewngofnodi arall.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Aeth rhywbeth o'i le. Ceisiwch eto neu dewiswch ddull mewngofnodi arall.
 
@@ -1663,8 +1663,8 @@ pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi 
 service-welcome-signup-success-banner = Cyfrif { -product-mozilla-account } wedi'i gadarnhau
 service-welcome-signin-success-banner = Wedi mewngofnodi'n llwyddiannus!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
-service-welcome-vpn-heading = Nesaf: Trowch VPN ymlaen
-service-welcome-vpn-description = Un cam arall i hybu preifatrwydd eich porwr. Ewch i'r panel agored a'i droi ymlaen.
+service-welcome-vpn-heading = Nesaf: Troi VPN ymlaen
+service-welcome-vpn-description = Un cam arall i hybu preifatrwydd eich porwr. Ewch i'r panel sydd ar agor a'i droi ymlaen.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
