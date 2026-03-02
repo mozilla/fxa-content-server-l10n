@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Nubes con un icone de synchronisation
 confetti-falling-image-aria-label =
     .aria-label = Confectos cadente animate
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Le fenestra de { -brand-firefox } con un insignia circular monstra un quadrato de controlo verde e “VPN,” monstrante que le VPN es active.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1353,6 +1356,7 @@ auth-error-218 = Impossibile remover telephono de recuperation, codices de authe
 auth-error-219 = Iste numero de telephono ha essite registrate con troppe contos. Tenta un numero differente.
 auth-error-224 = Clave-contrasigno non trovate
 auth-error-225 = Clave-contrasigno jam registrate
+auth-error-226 = Limite de claves-contrasigno attingite
 auth-error-227 = Authentication de clave-contrasigno fallite
 auth-error-228 = Registration de clave-contrasigno fallite
 auth-error-238 = Verification de clave-contrasigno fallite
@@ -1380,6 +1384,46 @@ auth-error-1067 = Email incorrecte?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numero finiente in { $lastFourPhoneNumber }
 oauth-error-1000 = Un error ha occurrite. Per favor claude iste scheda e retenta.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Installation de clave-contrasigno fallite o il es indisponibile. Retenta o elige un altere methodo.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Le installation de clave-contrasigno era cancellate. Retenta.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Le claves-contrasigno non es supportate ci. Tenta un altere methodo o apparato.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Le claves-contrasigno non pote esser configurate sur iste pagina. Usa le sito secur e retenta.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Iste clave-contrasigno es jam registrate. Usa lo pro acceder o adde un clave-contrasigno differente.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Nos non poteva acceder al authenticator. Retenta o elige un altere methodo.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Le configuration del claves-contrasigno non es disponibile con iste apparato. Tenta un altere methodo o apparato.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Le configuration del clave-contrasigno falleva. Retenta o elige un altere methodo.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Le authentication con clave-contrasigno falleva o es indisponibile. Retenta o elige un altere methodo.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Le petition de clave-contrasigno exiva del tempore limite. Retenta.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Le claves-contrasigno non es supportate. Tenta un altere methodo o apparato.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Le claves-contrasigno non pote esser usate sur iste pagina. Verifica que tu es sur le sito secur correcte e retenta.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Alco errate eveniva con tu clave-contrasigno. Retenta o usa un altere methodo de authentication.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Nos non poteva acceder al authenticator. Retenta o usa un altere methodo de authentication.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Alco errate eveniva. Retenta o elige un altere methodo de authentication.
 
 ## Connect Another Device page
 
@@ -1603,6 +1647,9 @@ pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular 
 
 service-welcome-signup-success-banner = { -product-mozilla-account } confirmate
 service-welcome-signin-success-banner = Authenticate con successo!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Successivemente: activa le VPN
+service-welcome-vpn-description = Un altere passo pro augmentar le confidentialitate de tu navigator. Va al pannello aperte e activa lo.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
