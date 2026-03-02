@@ -1592,6 +1592,11 @@ pair-wait-for-auth-heading-text = Απαιτείται έγκριση <span>απ
 pair-unsupported-header = Σύζευξη με εφαρμογή
 pair-unsupported-message = Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή { -brand-firefox }.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signin-success-banner = Επιτυχής σύνδεση!
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
