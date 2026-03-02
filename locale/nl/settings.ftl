@@ -1409,6 +1409,18 @@ passkey-registration-error-unexpected = Instellen wachtwoordsleutel mislukt. Pro
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Aanmelding met wachtwoordsleutel is mislukt of niet beschikbaar. Probeer het opnieuw of kies een andere methode.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Wachtsleutelverzoek verlopen. Probeer het opnieuw.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Wachtwoordsleutels worden niet ondersteund. Probeer een andere methode of een ander apparaat.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Wachtwoordsleutels kunnen niet op deze pagina worden gebruikt. Controleer of u de juiste beveiligde website gebruikt en probeer het opnieuw.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Er is iets misgegaan met uw wachtwoordsleutel. Probeer het opnieuw of gebruik een andere aanmeldingsmethode.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = We krijgen geen toegang tot de authenticator. Probeer het opnieuw of gebruik een andere aanmeldingsmethode.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Er is iets misgegaan. Probeer het opnieuw of kies een andere aanmeldingsmethode.
 
 ## Connect Another Device page
 
@@ -1632,6 +1644,9 @@ pair-unsupported-message = Hebt u de systeemcamera gebruikt? U moet koppelen van
 
 service-welcome-signup-success-banner = { -product-mozilla-account } bevestigd
 service-welcome-signin-success-banner = Met succes aangemeld!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Volgende: VPN inschakelen
+service-welcome-vpn-description = Nog één stap om de privacy van uw browser te verbeteren. Ga naar het open paneel en schakel VPN in.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
