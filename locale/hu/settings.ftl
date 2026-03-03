@@ -305,7 +305,7 @@ confetti-falling-image-aria-label =
     .aria-label = Animált hulló konfetti
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
-    .aria-label = { -brand-firefox } összegű ablak, kör alakú kitűzőn, zöld pipával és „VPN”-nel, jelezve, hogy a VPN aktív.
+    .aria-label = { -brand-firefox } ablak egy kör alakú kitűzővel, zöld pipával és „VPN” felirattal, jelezve, hogy a VPN aktív.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1356,11 +1356,11 @@ auth-error-216 = Az SMS-ek korlátja elérve
 auth-error-218 = Nem távolítható el a helyreállítási telefonszám, hiányoznak a tartalék hitelesítési kódok.
 auth-error-219 = Ez a telefonszám túl sok fiókkal lett regisztrálva. Próbálkozzon egy másik számmal.
 auth-error-224 = A jelkulcs nem található
-auth-error-225 = A jelszó már regisztrálva
+auth-error-225 = A jelkulcs már regisztrálva van
 auth-error-226 = A jelkulcsok korlátja elérve
-auth-error-227 = A jelszóhitelesítés sikertelen
-auth-error-228 = A jelszó regisztrációja sikertelen
-auth-error-238 = A jelszófelhívás sikertelen
+auth-error-227 = A jelkulcsos hitelesítés sikertelen
+auth-error-228 = A jelkulcs regisztrációja sikertelen
+auth-error-238 = A jelkulcs kihívása sikertelen
 auth-error-999 = Nem várt hiba
 auth-error-1001 = Bejelentkezési kísérlet megszakítva
 auth-error-1002 = A munkamenet lejárt. Jelentkezzen be a folytatáshoz.
