@@ -96,6 +96,10 @@ not-found-title-subscriptions = Pretplata nije pronađena
 not-found-description-subscriptions = Nismo uspjeli pronaći tvoju pretplatu. Pokušaj ponovo ili kontaktiraj podršku.
 not-found-button-back-to-subscriptions = Natrag na pretplate
 
+## Error page
+
+interstitial-offer-error-button-sign-in = Prijavi se
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nije dodan nijedan način plaćanja
@@ -191,6 +195,26 @@ next-payment-confirm-checkbox-error = Ovo moraš dovršiti prije nego što nasta
 
 next-new-user-submit = Pretplati se sada
 next-pay-with-heading-paypal = Plati s { -brand-paypal }
+
+## Churn flow - cancel
+
+churn-cancel-flow-button-back-to-subscriptions = Natrag na pretplate
+churn-cancel-flow-action-error = Dogodila se neočekivana greška. Pokušaj ponovo.
+churn-cancel-flow-button-manage-subscriptions = Upravljaj pretplatama
+churn-cancel-flow-button-contact-support = Kontaktiraj podršku
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Tvoja pretplata na { $productName } je aktivna
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = Želiš nastaviti koristiti { $productName }?
+churn-stay-subscribed-message-access-will-continue = Tvoj pristup proizvodu { $productName } će se nastaviti, a tvoj ciklus naplate i plaćanja se neće promijenitii.
+churn-stay-subscribed-title-subscription-renewed = Pretplata je obnovljena
+churn-stay-subscribed-title-subscription-active = Tvoja pretplata na { $productName } je aktivna
+churn-stay-subscribed-button-go-to-product-page = Idi na { $productName }
+churn-stay-subscribed-button-go-to-subscriptions = Idi na „Pretplate”
 
 ## Component - CouponForm
 
@@ -331,6 +355,12 @@ button-back-to-subscriptions = Natrag na pretplate
 subscription-content-cancel-action-error = Dogodila se neočekivana greška. Pokušaj ponovo.
 paypal-unavailable-error = { -brand-paypal } trenutačno nije dostupan. Koristi jednu drugu opciju plaćanja ili pokušaj kasnije ponovo.
 
+## Churn flow - Error page
+
+churn-error-page-button-sign-in = Prijavi se
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Tvoja pretplata na { $productName } je još uvijek aktivna
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -391,6 +421,8 @@ metadata-title-checkout-processing = Obrada | { $productTitle }
 metadata-description-checkout-processing = Pričekaj da završimo obradu tvoje uplate.
 # Checkout error
 metadata-title-checkout-error = Greška | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Uspjeh | { $productTitle }
 # Checkout needs_input
 metadata-title-checkout-needs-input = Potrebna je radnja | { $productTitle }
 metadata-description-checkout-needs-input = Završi potrebnu radnju za nastavljanje s plaćanjem.
@@ -404,6 +436,8 @@ metadata-description-upgrade-processing = Pričekaj da završimo obradu tvoje up
 metadata-title-upgrade-error = Greška | { $productTitle }
 # Upgrade success
 metadata-title-upgrade-success = Uspjeh | { $productTitle }
+# Default
+metadata-title-default = Stranica nije pronađena | { $productTitle }
 
 ## Coupon Error Messages
 
@@ -420,3 +454,10 @@ stay-subscribed-error-discount-used = Kod za popust je već primijenjen.
 stay-subscribed-error-not-current-subscriber = Ovaj je popust dostupan samo za trenutačne pretplatnike na { $productTitle }.
 stay-subscribed-error-still-active = Tvoja pretplata na { $productTitle } je još uvijek aktivna.
 stay-subscribed-error-general = Postoji problem s obnovom tvoje pretplate.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-card-declined = Neuspjela obrada tvoje transakcije. Provjeri podatke kreditne kartice i pokušaj ponovo.
+manage-payment-method-intent-error-expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s jednom drugom karticom.
+manage-payment-method-intent-error-try-again = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Pokušaj ponovo ili kontaktiraj izdavatelja kartice.
+manage-payment-method-intent-error-get-in-touch = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
