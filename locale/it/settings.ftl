@@ -1381,7 +1381,7 @@ passkey-registration-error-not-allowed = La configurazione della passkey non è 
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = La configurazione della passkey è stata annullata. Riprova.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Le passkey non sono supportate per questa funzione. Prova con un altro metodo o dispositivo.
+passkey-registration-error-not-supported = Le passkey non sono supportate. Prova con un altro metodo o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Non è possibile impostare passkey in questa pagina. Utilizza il sito sicuro e riprova.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
