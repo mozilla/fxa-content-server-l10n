@@ -458,6 +458,7 @@ churn-error-page-title-discount-already-applied = Tepyguejy ayvu oikopyrémava
 churn-error-page-button-manage-subscriptions = Mboheraguapy ñangareko
 churn-error-page-button-contact-support = Eñe’ẽ pytyvõhándi
 churn-error-page-button-try-again = Eha’ã jey
+churn-error-page-title-customer-mismatch = Pe kupõ ndaikatúi ekambiávo
 churn-error-page-button-sign-in = Mboheraguapy
 churn-error-page-title-general-error = Oĩ apañuái onembohekopyahukuévo ne ñemboheraguapy.
 churn-error-page-message-general-error = Eñe’ẽ pytyvõha ndive ha eha’ã jey ag̃ave.

@@ -1192,6 +1192,8 @@ passkey-row-header = Ñe’ẽñemi
 passkey-row-enabled = Myandypyre
 passkey-row-not-set = Heko’ỹva
 passkey-row-action-create = Moheñói
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Mba’éicha kóva omo’ãta ne mba’ete
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1284,6 +1286,8 @@ tfa-row-verify-session-info = Tekotevẽ emoneĩ ne rembiapo ag̃agua emboheko h
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = Eku’ejeývo, emoneĩ ko mba’e:
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Eku’ejeývo, emoneĩ umi <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu ñemigua</mozillaAccountsPrivacy>.
 
@@ -1365,6 +1369,22 @@ auth-error-1067 = ¿Ñanduti veve ojehaivai?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Papapy opáva { $lastFourPhoneNumber }-pe
 oauth-error-1000 = Oĩ ndoikóiva. Emboty ko tendayke ha eha’ã jey.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Pe ñe’ẽ ñemi ñemboheko ndoikói térã ndojeporukuaái. Eha’ãjey ag̃ave térã eiporavo ambue.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Ojehejarei ñe’ẽ ñemi ñemboheko. Eha’ãjey ag̃ave.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Ápe noñemoneĩri ñe’ẽ ñemi. Ejapo ambue mba’e térã mba’e’okápe.
+
+# Authentication errors
+
 
 ## Connect Another Device page
 
