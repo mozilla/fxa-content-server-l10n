@@ -141,6 +141,7 @@ interstitial-offer-button-keep-current-interval-halfyearly = Erekomeme ñemboher
 
 interstitial-offer-error-subscription-not-found-heading = Ndaikatúi rojuhu ñemboheraguapy oikóva
 interstitial-offer-error-subscription-not-found-message = Amalisia ko ñemboheraguapy ndoikovéima.
+interstitial-offer-error-customer-mismatch-heading = Ko ñemboheraguapy ndojuajúi ne mba’ete rehe
 interstitial-offer-error-general-heading = Ñevenderã ndaiporivéima
 interstitial-offer-error-general-message = Ha’ete ko ñevenderã ndaiporivéima ko’ag̃aite.
 interstitial-offer-error-button-back-to-subscriptions = Ejevy moheraguapyhápe
@@ -257,6 +258,8 @@ next-pay-with-heading-paypal = Ehepyme’ẽ { -brand-paypal } ndive
 ## Churn flow - cancel
 
 churn-cancel-flow-success-title = Eñemboheraguapy gueteri
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Ne ñemboheraguapy nahu’ãmo’ãi ha emohembýta { $discountPercent }% kuatiañemure oútavape.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-thanks-valued-subscriber = ¡Aguyje eiporúre { $productName }!
 churn-cancel-flow-button-back-to-subscriptions = Ejevy moheraguapyhápe
