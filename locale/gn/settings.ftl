@@ -1393,6 +1393,8 @@ passkey-registration-error-invalid-state = Ko ñemigua oñemboheraguapýma. Eipo
 passkey-authentication-error-timeout = Opáma ejerure hag̃ua ñemigua. Eha’ãjey ag̃ave.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = Ko’ã ñemigua jeikerã ndojokupytýi. Ejapo ambue mba’e térã mba’e’okápe.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Ndaikatúi eiporu ñe’ẽ ñemieta ko kuatiaroguepegua. Ehecha eĩha tenda hekorosãvape ha eha’ãjey.
 
 ## Connect Another Device page
 
@@ -1615,6 +1617,9 @@ pair-unsupported-message = ¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã 
 ## Shown to users after signup/signin for services like VPN
 
 service-welcome-signup-success-banner = { -product-mozilla-account } moneĩmbyre
+service-welcome-signin-success-banner = ¡Emoñepyrũ porã tembiapo!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Upéi: Emyandy VPN
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -1799,6 +1804,8 @@ signin-password-button-label = Ñe’ẽñemi
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 signin-code-expired-error = Ayvu hu’ãmava. Emoñepyrũjey tembiapo.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Oĩvaicha osẽvaíva. Eha’ã jey ag̃amieve.
 signin-account-locked-banner-heading = Eguerujey ne ñe’ẽñemi
 signin-account-locked-banner-description = Rojoko ne mba’ete ani hag̃ua oiko hese mba’e ivaíva.
 # This link points to https://accounts.firefox.com/reset_password
@@ -1826,6 +1833,8 @@ back = Tapykue
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
+signin-passkey-fallback-header = Emohu’ã jeike pyahu
+signin-passkey-fallback-heading = Ehai ñe’ẽñemi embojuehe hag̃ua
 signin-passkey-fallback-password-label = Ñe’ẽñemi
 signin-passkey-fallback-go-to-settings = Eho ñembohekópe
 signin-passkey-fallback-continue = Ku’ejey
