@@ -1335,6 +1335,7 @@ auth-error-215 = Pumbyry papapy guerujeyrã noĩri gueteri
 auth-error-216 = Ehupytýma hu’ã ñe’ẽmondorã
 auth-error-218 = Ndaikatúi embogue pumbyry guerujeyha, ndorekói ayvukuéra ñemoneĩha.
 auth-error-219 = Ko pumbyry papapy ojeporu hetaiterei mba’etépe. Eha’ã ambue papapýpe.
+auth-error-224 = Ñe’ẽ ñemi ojejuhu’ỹva
 auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1001 = Ojejokóma tembiapo ñepyrũ
 auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
