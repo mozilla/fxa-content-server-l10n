@@ -461,3 +461,5 @@ manage-payment-method-intent-error-card-declined = Neuspjela obrada tvoje transa
 manage-payment-method-intent-error-expired-card-error = Čini se da je tvoja kreditna kartica istekla. Pokušaj s jednom drugom karticom.
 manage-payment-method-intent-error-try-again = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Pokušaj ponovo ili kontaktiraj izdavatelja kartice.
 manage-payment-method-intent-error-get-in-touch = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
+manage-payment-method-intent-error-insufficient-funds = Čini se da tvoja kartica nije dovoljno pokrivena. Pokušaj s jednom drugom karticom.
+manage-payment-method-intent-error-generic = Dogodila se neočekivana greška tijekom obrade tvoje uplate, pokušaj ponovo.
