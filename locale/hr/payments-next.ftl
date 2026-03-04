@@ -463,3 +463,17 @@ manage-payment-method-intent-error-try-again = Hmm. Došlo je do problema s auto
 manage-payment-method-intent-error-get-in-touch = Hmm. Došlo je do problema s autorizacijom tvoje uplate. Kontaktiraj svog izdavatelja kartice.
 manage-payment-method-intent-error-insufficient-funds = Čini se da tvoja kartica nije dovoljno pokrivena. Pokušaj s jednom drugom karticom.
 manage-payment-method-intent-error-generic = Dogodila se neočekivana greška tijekom obrade tvoje uplate, pokušaj ponovo.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Uštedjet ćeš { $discountPercent } % pri sljedećoj naplati od { $nextInvoiceTotal } + { $taxDue } porez na karticu koja završava na { $last4 }, { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Uštedjet ćeš { $discountPercent } % pri sljedećoj naplati od { $nextInvoiceTotal } + { $taxDue } porez na tvoj način plaćanja putem usluge { $paymentMethod }, { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Uštedjet ćeš { $discountPercent } % pri sljedećoj naplati od { $nextInvoiceTotal } + { $taxDue } porez { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Uštedjet ćeš { $discountPercent } % pri sljedećoj naplati od { $nextInvoiceTotal } na karticu koja završava na { $last4 }, { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Uštedjet ćeš { $discountPercent } % pri sljedećoj naplati od { $nextInvoiceTotal } na tvoj način plaćanja putem usluge { $paymentMethod }, { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Uštedjet ćeš { $discountPercent } % pri sljedećoj naplati od { $nextInvoiceTotal }, { $currentPeriodEnd }.
