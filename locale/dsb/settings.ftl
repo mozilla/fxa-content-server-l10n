@@ -309,6 +309,9 @@ sync-clouds-image-aria-label =
     .aria-label = Mroki ze symbolom synchronizacije
 confetti-falling-image-aria-label =
     .aria-label = Animěrowany padajucy konfeti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Wokno { -brand-firefox } z kulowatym znamuškom ze zeleneju kokulku a „VPN“, kótarež  pokazujo, až VPN jo aktiwny.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1360,6 +1363,9 @@ auth-error-215 = Numer wótnowjeńskego telefona njeeksistěrujo
 auth-error-216 = Limit tekstoweje powěsći dostany
 auth-error-218 = Njejo móžno wótnowjeński telefon wótwónoźeś, awtentifikaciske kody za zawěsćenje feluju.
 auth-error-219 = Toś ten telefonowy numer jo se zregistrěrował z pśewjele kontami. Pšosym wopytajśo drugi numer.
+auth-error-224 = Gronidłowy kluc njejo se namakał
+auth-error-225 = Gronidłowy kluc jo južo zregistrěrowany
+auth-error-226 = Limit za gronidłowy kluc dojśpity
 auth-error-999 = Njewótcakowana zmólka
 auth-error-1001 = Pśizjawjeński wopyt pśetergnjony
 auth-error-1002 = Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował.
