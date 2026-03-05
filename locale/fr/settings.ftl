@@ -1412,7 +1412,7 @@ passkey-authentication-error-invalid-state = Une erreur s’est produite avec vo
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-authentication-error-not-readable = Nous n’avons pas pu accéder à l’authentificateur. Réessayez ou utilisez une autre méthode de connexion.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
-passkey-authentication-error-unexpected = Quelque chose s'est mal passé. Réessayez ou choisissez une autre méthode de connexion.
+passkey-authentication-error-unexpected = Une erreur s’est produite. Réessayez ou choisissez une autre méthode de connexion.
 
 ## Connect Another Device page
 
@@ -1637,8 +1637,8 @@ pair-unsupported-message = Avez-vous utilisé la caméra du système ? L’asso
 service-welcome-signup-success-banner = { -product-mozilla-account(capitalization: "uppercase") } confirmé
 service-welcome-signin-success-banner = Connexion réussie !
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
-service-welcome-vpn-heading = Suivant : activer le VPN
-service-welcome-vpn-description = Une étape de plus pour renforcer la vie privée de votre navigateur. Ouvrez un panneau et activez-le.
+service-welcome-vpn-heading = Étape suivante : activer le VPN
+service-welcome-vpn-description = Plus qu’une étape pour renforcer la confidentialité de votre navigateur. Accédez au panneau ouvert et activez-le.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
