@@ -120,10 +120,12 @@ churn-cancel-flow-error-page-button-back-to-subscriptions = Mbrapsht te pajtimet
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = S’u gjet faqe
+not-found-loyalty-discount-description = Faqja që po kërkoni, s’ekziston.
 not-found-loyalty-discount-button-back-to-subscriptions = Mbrapsht te pajtimet
 
 ## Error page
 
+interstitial-offer-error-customer-mismatch-heading = Ky pajtim s’është i përshoqëruar me llogarinë tuaj
 interstitial-offer-error-button-back-to-subscriptions = Mbrapsht te pajtimet
 interstitial-offer-error-button-sign-in = Hyni
 interstitial-offer-error-button-contact-support = Lidhuni Me Asistencën
@@ -251,6 +253,7 @@ churn-stay-subscribed-title-offer-expired = Kjo ofertë ka skaduar
 
 churn-stay-subscribed-subtitle-offer-expired = Doni të vazhdoni të përdorni { $productName }?
 churn-stay-subscribed-message-access-will-continue = Do të vazhdoni të përdorni { $productName } dhe cikli i faturimeve dhe pagesat për ju do të mbeten po ato.
+churn-stay-subscribed-button-go-to-product-page = Kalo te { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Kalo te Pajtimet
 churn-stay-subscribed-button-stay-subscribed = Qëndroni i pajtuar
 
