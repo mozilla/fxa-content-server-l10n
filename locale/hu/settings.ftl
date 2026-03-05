@@ -1392,37 +1392,39 @@ oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 # Registration errors
 
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = A jelkulcs beállítása sikertelen vagy nem érhető el. Próbálja újra, vagy válasszon másik módszert.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A jelkulcsbeállítás meg lett szakítva. Próbálja újra.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
 passkey-registration-error-not-supported = A jelkulcsok itt nem támogatottak. Próbálkozzon másik módszerrel vagy eszközzel.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
-passkey-registration-error-security = Ezen az oldalon nem állíthatók be jelkulcsok. Használja a biztonságos oldalt, és próbálja újra.
+passkey-registration-error-security = Ezen az oldalon nem állíthatók be jelkulcsok. Használja a biztonságos webhelyet, és próbálja újra.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
 passkey-registration-error-invalid-state = Ez a jelkulcs már regisztrálva van. Használja a bejelentkezéshez, vagy adjon hozzá másik jelkulcsot.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-registration-error-not-readable = Nem tudtuk elérni a hitelesítőt. Próbálja meg újra, vagy válasszon másik módszert.
+passkey-registration-error-not-readable = Nem tudtuk elérni a hitelesítőt. Próbálja újra, vagy válasszon másik módszert.
 # Attestation constraints or device-specific restrictions can't be met
-passkey-registration-error-constraint = A jelszóbeállítás nem érhető el ennél az eszköznél. Próbálkozzon másik módszerrel vagy eszközzel.
+passkey-registration-error-constraint = A jelkulcsbeállítás nem érhető el ennél az eszköznél. Próbálkozzon másik módszerrel vagy eszközzel.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
-passkey-registration-error-unexpected = A jelszó beállítása sikertelen. Próbálja meg újra, vagy válasszon másik módszert.
+passkey-registration-error-unexpected = A jelkulcs beállítása sikertelen. Próbálja újra, vagy válasszon másik módszert.
 
 # Authentication errors
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
-passkey-authentication-error-not-allowed = A jelkulcsos bejelentkezés sikertelen vagy nem érhető el. Próbálja meg újra, vagy válasszon másik módszert.
+passkey-authentication-error-not-allowed = A jelkulccsal történő bejelentkezés sikertelen vagy nem érhető el. Próbálja újra, vagy válasszon másik módszert.
 # The ceremony timed out before the user responded
-passkey-authentication-error-timeout = A jelszókérés túllépte az időkorlátot. Próbálja meg újra.
+passkey-authentication-error-timeout = A jelkulcskérés túllépte az időkorlátot. Próbálja újra.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = A jelkulcsok nem támogatottak. Próbálkozzon másik módszerrel vagy eszközzel.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
-passkey-authentication-error-security = A jelkulcsok nem használhatók ezen az oldalon. Ellenőrizze, hogy a megfelelő biztonságos oldalon jár-e, és próbálja újra.
+passkey-authentication-error-security = Ezen az oldalon nem használhatók jelkulcsok. Ellenőrizze, hogy a megfelelő biztonságos webhelyen jár-e, és próbálja újra.
 # Unexpected credential state during authentication
-passkey-authentication-error-invalid-state = Hiba történt a jelkulcsával. Próbálja újra, vagy használjon másik bejelentkezési módot.
+passkey-authentication-error-invalid-state = Hiba történt a jelkulcsával. Próbálja újra, vagy használjon másik bejelentkezési módszert.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
-passkey-authentication-error-not-readable = Nem tudtuk elérni a hitelesítőt. Próbálja újra, vagy használjon másik bejelentkezési módot.
+passkey-authentication-error-not-readable = Nem tudtuk elérni a hitelesítőt. Próbálja újra, vagy használjon másik bejelentkezési módszert.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
-passkey-authentication-error-unexpected = Hiba történt. Próbálja újra, vagy válasszon másik bejelentkezési módot.
+passkey-authentication-error-unexpected = Hiba történt. Próbálja újra, vagy válasszon másik bejelentkezési módszert.
 
 ## Connect Another Device page
 
@@ -1648,7 +1650,7 @@ service-welcome-signup-success-banner = A { -product-mozilla-account } megerős�
 service-welcome-signin-success-banner = Sikeresen bejelentkezett!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Következő: A VPN bekapcsolása
-service-welcome-vpn-description = Még egy lépés a böngészője adatvédelmének megerősítéséhez. Ugorjon a nyitott panelre és kapcsolja be.
+service-welcome-vpn-description = Még egy lépés a böngészője adatvédelmének megerősítéséhez. Ugorjon a nyitott panelre, és kapcsolja be.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
