@@ -1421,6 +1421,18 @@ passkey-registration-error-unexpected = Konfiguracija gronidłowego kluca njejo 
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Pśizjawjenje z gronidłowym klucom njejo se raźiło abo njejo k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Pśekšocenje casa pśi napšašowanju gronidłowego kluca. Wopytajśo pšosym hyšći raz.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Gronidłowe kluce se njepódpěraju. Wopytajśo drugu metodu abo rěd.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Gronidłowe kluce njedaju se na toś tom boku wužywaś. Pśeglědajśo, lěc sćo na korektnem wěstem sedle a wopytajśo hyšći raz.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Něco njejo se raźiło z wašym gronidłowym klucom. Wopytajśo hyšći raz abo wužywajśo drugu pśizjawjeńsku metodu.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Njejsmy mógli pśistup k awtentifikatoroju dostaś. Wopytajśo hyšći raz abo wubjeŕśo drugu pśizjawjeńsku metodu.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Něco njejo se raźiło. Wopytajśo hyšći raz abo wubjeŕśo drugu pśizjawjeńsku metodu.
 
 ## Connect Another Device page
 
@@ -1638,6 +1650,15 @@ pair-wait-for-auth-heading-text = Pśizwólenje jo něnto <span>wót wašogo dru
 
 pair-unsupported-header = Z nałoženim koplowaś
 pair-unsupported-message = Sćo wužył systemowu kameru? Musyśo w nałoženju { -brand-firefox } koplowaś.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } wobkšuśone
+service-welcome-signin-success-banner = Wuspěšnje pśizjawjony!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Pśiducy kšac: VPN zmóžniś
+service-welcome-vpn-description = Dalšny kšac, aby se priwatnosć wašogo wobglědowaka skšuśiła. Pśejźćo k wócynjonemu woknu a zmóžniśo jen.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
