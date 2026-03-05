@@ -1366,6 +1366,9 @@ auth-error-219 = Toś ten telefonowy numer jo se zregistrěrował z pśewjele ko
 auth-error-224 = Gronidłowy kluc njejo se namakał
 auth-error-225 = Gronidłowy kluc jo južo zregistrěrowany
 auth-error-226 = Limit za gronidłowy kluc dojśpity
+auth-error-227 = Awtentifikacija gronidłowego kluca njejo se raźiła
+auth-error-228 = Registracija gronidłowego kluca njejo se raźiła
+auth-error-238 = Pśeglědanje gronidłowego kluca njejo se raźiło
 auth-error-999 = Njewótcakowana zmólka
 auth-error-1001 = Pśizjawjeński wopyt pśetergnjony
 auth-error-1002 = Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował.
@@ -1390,6 +1393,34 @@ auth-error-1067 = Sćo e-mailowu adresu wopak napisał?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numer, kótaryž se na { $lastFourPhoneNumber } kóńcy.
 oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Konfiguracija gronidłowego kluca njejo se raźiła abo njejo k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Konfiguracija gronidłowego kluca jo se pśetergnuła. Wopytajśo hyšći raz.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Gronidłowe kluce se how njepódpěraju. Wopytajśo drugu metodu abo rěd.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Gronidłowe kluce njedaju se na toś tom boku konfigurěrowaś. Wužywajśo wěste sedło a wopytajśo hyšći raz.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Toś ten gronidłowy kluc jo južo zregistrěrowany. Wužywajśo jen, aby se pśizjawił abo pśidajśo drugi gronidłowy kluc.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Njejsmy mógli pśistup k awtentifikatoroju dostaś. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Wopytajśo drugu metodu abo drugi rěd.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Konfiguracija gronidłowego kluca njejo se raźiła. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Pśizjawjenje z gronidłowym klucom njejo se raźiło abo njejo k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
 
 ## Connect Another Device page
 
