@@ -1392,10 +1392,8 @@ oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 # Registration errors
 
-# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
-passkey-registration-error-not-allowed = A jelszó beállítása sikertelen vagy nem érhető el. Próbálja meg újra, vagy válasszon másik módszert.
 # The ceremony timed out before the user responded
-passkey-registration-error-timeout = A jelszóbeállítás megszakításra került. Próbálja újra.
+passkey-registration-error-timeout = A jelkulcsbeállítás meg lett szakítva. Próbálja újra.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
 passkey-registration-error-not-supported = A jelkulcsok itt nem támogatottak. Próbálkozzon másik módszerrel vagy eszközzel.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
