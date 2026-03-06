@@ -1391,11 +1391,11 @@ passkey-registration-error-not-allowed = La configuración de la clave de acceso
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Se canceló la configuración de la clave de acceso. Probá de nuevo.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Aquí no se soportan claves de acceso. Probá otro método o dispositivo.
+passkey-registration-error-not-supported = Las claves de acceso no están soportadas acá. Probá otro método o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
-passkey-registration-error-security = No se pueden configurar claves de acceso en esta página. Use el sitio seguro e intente nuevamente.
+passkey-registration-error-security = No se pueden configurar claves de acceso en esta página. Usá el sitio seguro y probá de nuevo.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Esta clave de acceso ya está registrada. Se usa para iniciar sesión o agregar una clave de acceso diferente.
+passkey-registration-error-invalid-state = Esta clave de acceso ya está registrada. Usala para iniciar sesión o agregar una clave de acceso diferente.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-registration-error-not-readable = No pudimos acceder al autenticador. Probá de nuevo o elegí otro método.
 # Attestation constraints or device-specific restrictions can't be met
@@ -1410,9 +1410,9 @@ passkey-authentication-error-not-allowed = Falló el inicio de sesión con clave
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Se agotó el tiempo de espera para el pedido de clave de acceso. Probá de nuevo.
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Las claves de acceso no son compatibles. Probá otro método o dispositivo.
+passkey-authentication-error-not-supported = Las claves de acceso no están soportadas. Probá otro método o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
-passkey-authentication-error-security = No se pueden usar claves de acceso en esta página. Verifique que está en el sitio seguro correcto e intente nuevamente.
+passkey-authentication-error-security = No se pueden usar claves de acceso en esta página. Fíjate si estás en el sitio seguro correcto y probá de nuevo.
 # Unexpected credential state during authentication
 passkey-authentication-error-invalid-state = Algo salió mal con tu clave de acceso. Probá de nuevo o usá otro método de inicio de sesión.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
