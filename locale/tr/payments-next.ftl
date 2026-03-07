@@ -241,6 +241,7 @@ churn-cancel-flow-subscription-active-title = { $productName } aboneliğiniz etk
 
 ## Churn flow - stay subscribed
 
+churn-stay-subscribed-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
 churn-stay-subscribed-title-offer-expired = Bu teklifin süresi doldu
 
 ## $productName (String) - The name of the product associated with the subscription.
@@ -376,6 +377,7 @@ churn-error-page-title-discount-already-applied = İndirim kodu zaten uygulanmı
 churn-error-page-button-manage-subscriptions = Abonelikleri yönet
 churn-error-page-button-contact-support = Destek birimiyle iletişime geç
 churn-error-page-button-try-again = Yeniden dene
+churn-error-page-button-sign-in = Giriş yap
 churn-error-page-title-general-error = Aboneliğiniz yenilenirken bir sorun oluştu
 churn-error-page-message-general-error = Destek ekibiyle iletişime geçin veya yeniden deneyin.
 # $productName (String) - The name of the product associated with the subscription.

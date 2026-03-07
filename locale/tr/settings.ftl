@@ -249,6 +249,9 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Amerika Birleşik Devletleri bayrağı
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Yükleniyor
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1553,6 +1556,12 @@ pair-wait-for-auth-heading-text = Şimdi <span>diğer cihazınızdan</span> onay
 pair-unsupported-header = Uygulama kullanarak eşleştir
 pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-firefox } uygulaması içinden eşleştirme yapmalısınız.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } onaylandı
+service-welcome-signin-success-banner = Başarıyla giriş yapıldı!
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
@@ -1756,6 +1765,13 @@ signin-bounced-message = { $email } adresine gönderdiğimiz onay e-postası ger
 signin-bounced-help = Bu e-posta adresi geçerliyse <linkExternal>bize haber verirseniz</linkExternal> hesabınızı açmanıza yardımcı olabiliriz.
 signin-bounced-create-new-account = Bu e-posta adresine artık ulaşamıyor musunuz? Yeni bir hesap açın
 back = Geri dön
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-password-label = Parola
+signin-passkey-fallback-go-to-settings = Ayarlara git
+signin-passkey-fallback-continue = Devam et
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
