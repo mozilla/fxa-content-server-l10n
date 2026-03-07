@@ -134,6 +134,8 @@ interstitial-offer-error-subscription-not-found-message = Bu abonelik artık etk
 interstitial-offer-error-general-heading = Teklif mevcut değil
 interstitial-offer-error-general-message = Bu teklif şu anda mevcut değil.
 interstitial-offer-error-button-back-to-subscriptions = Aboneliklere dön
+interstitial-offer-error-button-sign-in = Giriş yap
+interstitial-offer-error-button-contact-support = Destek birimiyle iletişime geç
 
 ## Page - Subscription Management
 
