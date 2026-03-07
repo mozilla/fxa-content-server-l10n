@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Nubes con un ícono de sincronización
 confetti-falling-image-aria-label =
     .aria-label = Animación de confeti cayendo
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Ventana de { -brand-firefox } con una insignia circular que muestra una marca de verificación verde y “VPN”, lo que indica que la VPN está activa.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1344,6 +1347,12 @@ auth-error-215 = El número de teléfono de recuperación no existe
 auth-error-216 = Se alcanzó el límite de mensajes de texto
 auth-error-218 = No se puede eliminar el teléfono de recuperación, faltan los códigos de autenticación de respaldo.
 auth-error-219 = Este número de teléfono se ha registrado en demasiadas cuentas. Por favor, intenta con otro número.
+auth-error-224 = Clave de acceso no encontrada
+auth-error-225 = Clave de acceso ya registrada
+auth-error-226 = Se alcanzó el límite de claves de acceso
+auth-error-227 = Falló la autenticación de clave de acceso
+auth-error-228 = Falló el registro de la clave de acceso
+auth-error-238 = Falló el desafío de clave de acceso
 auth-error-999 = Error inesperado
 auth-error-1001 = Intento de conexión cancelado
 auth-error-1002 = Sesión expirada. Conéctate para continuar.
@@ -1368,6 +1377,46 @@ auth-error-1067 = ¿Correo mal escrito?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Número que termina en { $lastFourPhoneNumber }
 oauth-error-1000 = Algo se fue a las pailas. Por favor, cierra esta pestaña y vuelve a intentarlo.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = La configuración de la clave de acceso falló o no está disponible. Vuelve a intentarlo o elige otro método.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Se canceló la configuración de la clave de acceso. Vuelve a intentarlo.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Aquí no hay soporte de claves de acceso. Prueba con otro método o dispositivo.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = No se pueden configurar claves de acceso en esta página. Usa el sitio seguro y vuelve a intentarlo.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Esta clave de acceso ya está registrada. Úsala para conectarte o añade una clave diferente.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = No pudimos acceder al autenticador. Vuelve a intentarlo o elige otro método.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = La configuración de la clave de acceso no está disponible en este dispositivo. Prueba con otro método o dispositivo.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = La configuración de la clave de acceso falló. Vuelve a intentarlo o elige otro método.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = La conexión mediante clave de acceso falló o no está disponible. Vuelve a intentarlo o elige otro método.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Se agotó el tiempo de espera para la solicitud de clave de acceso. Por favor, vuelve a intentarlo.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = No hay soporte de claves de acceso. Prueba con otro método o dispositivo.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = No se pueden usar claves de acceso en esta página. Comprueba que estás en el sitio seguro correcto y vuelve a intentarlo.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Algo falló con tu clave de acceso. Vuelve a intentarlo o usa otro método de conexión.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = No pudimos acceder al autenticador. Vuelve a intentarlo o usa otro método de conexión.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Algo falló. Vuelve a intentarlo o elige otro método de conexión.
 
 ## Connect Another Device page
 
@@ -1585,6 +1634,15 @@ pair-wait-for-auth-heading-text = Ahora se requiere aprobación <span>desde tu o
 
 pair-unsupported-header = Emparejar usando una app
 pair-unsupported-message = ¿Usaste la cámara del sistema? Debes emparejar desde una app de { -brand-firefox }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } confirmada
+service-welcome-signin-success-banner = ¡Conectado exitosamente!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Siguiente: Activar VPN
+service-welcome-vpn-description = Un paso más para mejorar la privacidad de tu navegador. Ve al panel abierto y actívalo.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
