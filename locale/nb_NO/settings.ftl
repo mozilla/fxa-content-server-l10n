@@ -1343,6 +1343,8 @@ auth-error-224 = Fant ikke passnøkkel
 auth-error-225 = Passnøkkelen er allerede registrert
 auth-error-226 = Passnøkkelgrensen er nådd
 auth-error-227 = Passnøkkelautentisering mislyktes
+auth-error-228 = Registrering av passnøkkel mislyktes
+auth-error-238 = Passnøkkelutfordring mislyktes
 auth-error-999 = Uventet feil
 auth-error-1001 = Innloggingsforsøk avbrutt
 auth-error-1002 = Økt utløpt. Logg inn for å fortsette.
@@ -1367,6 +1369,46 @@ auth-error-1067 = Feilskreven e-postadresse?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer som slutter på { $lastFourPhoneNumber }
 oauth-error-1000 = Noe gikk galt. Lukk denne fanen og prøv på nytt.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Oppsett av passnøkkel mislyktes eller er ikke tilgjengelig. Prøv igjen eller velg en annen metode.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Oppsett av passnøkkel ble avbrutt. Prøv igjen.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Passnøkler støttes ikke her. Prøv en annen metode eller enhet.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Passnøkler kan ikke settes opp på denne siden. Bruk det sikre nettstedet og prøv igjen.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Denne passnøkkelen er allerede registrert. Bruk den til å logge inn eller legg til en annen passnøkkel.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Vi fikk ikke tilgang til autentiseringsenheten. Prøv igjen eller velg en annen metode.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Oppsett av passnøkkel er ikke tilgjengelig på denne enheten. Prøv en annen metode eller enhet.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Oppsett av passnøkkel mislyktes. Prøv igjen eller velg en annen metode.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Innlogging med passnøkkel mislyktes eller er ikke tilgjengelig. Prøv igjen eller velg en annen metode.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Forespørselen om passnøkkel ble tidsavbrutt. Prøv igjen.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Passnøkler støttes ikke. Prøv en annen metode eller enhet.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Passnøkler kan ikke brukes på denne siden. Kontroller at du er på riktig sikkert nettsted og prøv igjen.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Noe gikk galt med passnøkkelen din. Prøv igjen eller bruk en annen innloggingsmetode.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Vi fikk ikke tilgang til autentiseringsenheten. Prøv igjen eller bruk en annen innloggingsmetode.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Noe gikk galt. Prøv igjen eller velg en annen innloggingsmetode.
 
 ## Connect Another Device page
 
@@ -1588,8 +1630,11 @@ pair-unsupported-message = Brukte du systemkameraet? Du må koble til fra en { -
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
+service-welcome-signup-success-banner = { -product-mozilla-account } bekreftet
+service-welcome-signin-success-banner = Du er logget inn!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Neste: Slå på VPN
+service-welcome-vpn-description = Ett steg til for å forbedre nettleserens personvern. Gå til det åpne panelet og slå det på.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
