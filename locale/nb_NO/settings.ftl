@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Skyer med et synkroniseringsikon
 confetti-falling-image-aria-label =
     .aria-label = Animert fallende konfetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox }-vindu med et rundt merke som viser et grønt hakemerke og «VPN», som viser at VPN-et er aktivt.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1336,6 +1339,9 @@ auth-error-215 = Telefonnummeret for gjenoppretting finnes ikke
 auth-error-216 = Grensen for tekstmeldinger er nådd
 auth-error-218 = Kan ikke fjerne gjenopprettingstelefonen, mangler reserve-autentiseringskoder.
 auth-error-219 = Dette telefonnummeret er registrert med for mange kontoer. Prøv et annet nummer.
+auth-error-224 = Fant ikke passnøkkel
+auth-error-225 = Passnøkkelen er allerede registrert
+auth-error-226 = Passnøkkelgrensen er nådd
 auth-error-999 = Uventet feil
 auth-error-1001 = Innloggingsforsøk avbrutt
 auth-error-1002 = Økt utløpt. Logg inn for å fortsette.
@@ -1577,6 +1583,12 @@ pair-wait-for-auth-heading-text = Godkjenning kreves nå <span>fra den andre enh
 
 pair-unsupported-header = Paring via en app
 pair-unsupported-message = Brukte du systemkameraet? Du må koble til fra en { -brand-firefox }-app.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Neste: Slå på VPN
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
