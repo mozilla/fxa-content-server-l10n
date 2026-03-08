@@ -1342,6 +1342,7 @@ auth-error-219 = Dette telefonnummeret er registrert med for mange kontoer. Prø
 auth-error-224 = Fant ikke passnøkkel
 auth-error-225 = Passnøkkelen er allerede registrert
 auth-error-226 = Passnøkkelgrensen er nådd
+auth-error-227 = Passnøkkelautentisering mislyktes
 auth-error-999 = Uventet feil
 auth-error-1001 = Innloggingsforsøk avbrutt
 auth-error-1002 = Økt utløpt. Logg inn for å fortsette.
