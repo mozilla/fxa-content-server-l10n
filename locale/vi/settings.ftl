@@ -291,6 +291,9 @@ sync-clouds-image-aria-label =
     .aria-label = Đám mây có biểu tượng đồng bộ
 confetti-falling-image-aria-label =
     .aria-label = Hoạt ảnh những mảnh giấy rơi
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Cửa sổ { -brand-firefox } với huy hiệu hình tròn hiển thị dấu tích màu xanh lá cây và chữ “VPN”, cho thấy VPN đang hoạt động.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1322,6 +1325,12 @@ auth-error-215 = Số điện thoại khôi phục không tồn tại
 auth-error-216 = Đã đạt giới hạn gửi tin nhắn văn bản
 auth-error-218 = Không thể xóa số điện thoại khôi phục, chưa có mã xác thực dự phòng.
 auth-error-219 = Số điện thoại này đã được đăng ký cho quá nhiều tài khoản. Vui lòng thử số khác.
+auth-error-224 = Không tìm thấy passkey
+auth-error-225 = Passkey đã được đăng ký trước đó
+auth-error-226 = Đã đạt giới hạn passkey
+auth-error-227 = Xác thực bằng passkey không thành công
+auth-error-228 = Đăng ký passkey không thành công
+auth-error-238 = Xác thực passkey thất bại
 auth-error-999 = Lỗi không xác định
 auth-error-1001 = Đã hủy đăng nhập
 auth-error-1002 = Phiên đã hết hạn. Đăng nhập để tiếp tục.
@@ -1346,6 +1355,46 @@ auth-error-1067 = Nhập sai email?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Số kết thúc bằng { $lastFourPhoneNumber }
 oauth-error-1000 = Đã xảy ra lỗi. Vui lòng đóng thẻ này và thử lại.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Thiết lập mật khẩu không thành công hoặc không khả dụng. Hãy thử lại hoặc chọn phương pháp khác.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Đã huỷ quá trình thiết lập passkey. Thử lại.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Passkey không được hỗ trợ ở đây. Hãy thử phương pháp hoặc thiết bị khác.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Không thể thiết lập passkey trên trang này. Vui lòng sử dụng trang web an toàn và thử lại.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Passkey này đã được đăng ký trước đó. Hãy sử dụng mã này để đăng nhập hoặc thêm passkey khác.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Chúng tôi không thể truy cập vào hệ thống xác thực. Vui lòng thử lại hoặc chọn phương thức khác.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Thiết lập passkey không khả dụng với thiết bị này. Hãy thử phương pháp hoặc thiết bị khác.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Thiết lập passkey không thành công. Vui lòng thử lại hoặc chọn phương pháp khác.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Đăng nhập bằng passkey không thành công hoặc không khả dụng. Vui lòng thử lại hoặc chọn phương thức khác.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Yêu cầu passkey đã hết hạn. Vui lòng thử lại.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Passkey không được hỗ trợ. Hãy thử phương pháp hoặc thiết bị khác.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Không thể sử dụng passkey trên trang này. Hãy kiểm tra xem bạn đã truy cập đúng trang web an toàn chưa và thử lại.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Đã xảy ra lỗi với passkey của bạn. Vui lòng thử lại hoặc sử dụng phương thức đăng nhập khác.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Chúng tôi không thể truy cập vào hệ thống xác thực. Vui lòng thử lại hoặc sử dụng phương thức đăng nhập khác.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Đã xảy ra lỗi. Vui lòng thử lại hoặc chọn phương thức đăng nhập khác.
 
 ## Connect Another Device page
 
@@ -1563,6 +1612,15 @@ pair-wait-for-auth-heading-text = Hiện tại cần chấp nhận <span>từ th
 
 pair-unsupported-header = Ghép nối bằng ứng dụng
 pair-unsupported-message = Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ bên trong ứng dụng { -brand-firefox }.
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = Đã xác nhận { -product-mozilla-account }
+service-welcome-signin-success-banner = Đã đăng nhập thành công!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Tiếp theo: Bật VPN
+service-welcome-vpn-description = Thêm một bước nữa để tăng cường quyền riêng tư cho trình duyệt của bạn. Hãy vào bảng điều khiển và bật nó lên.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
