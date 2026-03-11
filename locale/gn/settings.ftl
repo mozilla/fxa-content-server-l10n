@@ -1393,12 +1393,18 @@ passkey-registration-error-unexpected = Ñe’ẽ ñemi jeikeha ñemboheko ndoik
 
 # Authentication errors
 
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Pe ñe’ẽ ñemi jeikeha ñemboheko ndoikói. Eha’ãjey ag̃ave térã eiporavo ambue mba’e.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Opáma ejerure hag̃ua ñemigua. Eha’ãjey ag̃ave.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = Ko’ã ñemigua jeikerã ndojokupytýi. Ejapo ambue mba’e térã mba’e’okápe.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Ndaikatúi eiporu ñe’ẽ ñemieta ko kuatiaroguepegua. Ehecha eĩha tenda hekorosãvape ha eha’ãjey.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Oĩ osẽvaíva ne ñe’ẽ ñemi jeikehápe. Eha’ãjey térã eiporavo ambuéva eike hag̃ua.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Oĩ osẽvaíva. Eha’ãjey térã eiporavo ambue mba’e eikekuaa hag̃ua.
 
 ## Connect Another Device page
 
@@ -1624,6 +1630,7 @@ service-welcome-signup-success-banner = { -product-mozilla-account } moneĩmbyre
 service-welcome-signin-success-banner = ¡Emoñepyrũ porã tembiapo!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Upéi: Emyandy VPN
+service-welcome-vpn-description = Eku’e oikoporã hag̃ua ne kundahára rekoñemi. Eho ta’ãngarupa ijurujávape ha emyandy.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
