@@ -1175,9 +1175,11 @@ passkey-sub-row-last-used-date = Naposledy použito: { $lastUsedDate }
 passkey-sub-row-sign-in-only = Pouze se přihlásit. Nelze použít pro synchronizaci.
 passkey-sub-row-delete-title = Smazat přístupový klíč
 passkey-delete-modal-heading = Smazat přístupový klíč?
+passkey-delete-modal-content = Tento přístupový kód bude odebrán z vašeho účtu. Budete se muset přihlásit jiným způsobem.
 passkey-delete-modal-cancel-button = Zrušit
 passkey-delete-modal-confirm-button = Smazat přístupový klíč
 passkey-delete-success = Přístupový klíč byl smazán
+passkey-delete-error = Váš přístupový kód se nepodařilo smazat. Zkuste to znovu za několik minut.
 
 ## Switch component
 
@@ -1203,6 +1205,7 @@ passkey-row-header = Přístupové klíče
 passkey-row-enabled = Povolený
 passkey-row-not-set = Nenastavený
 passkey-row-action-create = Vytvořit
+passkey-row-description = Usnadněte si přihlašování a přihlašte se ke svému účtu pomocí svého telefonu nebo jiného podporovaného zařízení.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Jak tato funkce chrání váš účet
 

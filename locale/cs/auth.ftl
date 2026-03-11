@@ -358,6 +358,9 @@ subscriptionRenewalReminder-content-charge-with-tax-default = V tu chvíli vám 
 subscriptionRenewalReminder-content-charge-invoice-total-day = V tu chvíli vám { -brand-mozilla } obnoví denní předplatné a skrze platební metodu nastavenou u vašeho účtu strhne částku { $invoiceTotal }.
 subscriptionRenewalReminder-content-charge-invoice-total-week = V tu chvíli { -brand-mozilla } obnoví vaše týdenní předplatné a skrze platební metodu nastavenou u vašeho účtu strhne částku { $invoiceTotal }.
 subscriptionRenewalReminder-content-charge-invoice-total-month = V tu chvíli { -brand-mozilla } obnoví vaše měsíční předplatné a skrze platební metodu nastavenou u vašeho účtu strhne částku { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = V tu chvíli vám { -brand-mozilla } obnoví šestiměsíční předplatné a skrze platební metodu nastavenou u vašeho účtu vám bude účtována platba ve výši { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-year = V tu chvíli vám { -brand-mozilla } obnoví roční předplatné a skrze platební metodu nastavenou u vašeho účtu vám bude účtována platba ve výši { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-default = V tu chvíli vám { -brand-mozilla } předplatné obnoví a skrze platební metodu uvedenou ve vašem účtu bude stržena částka { $invoiceTotal }.
 subscriptionRenewalReminder-content-closing = S pozdravem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
