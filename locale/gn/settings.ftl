@@ -1386,6 +1386,10 @@ passkey-registration-error-not-supported = Ápe noñemoneĩri ñe’ẽ ñemi. E
 passkey-registration-error-security = Ndaikatúi emboheko ñe’ẽ ñemi ko kuatiaroguepegua. Eiporu tenda hekorosãva ha eha’ãjey.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
 passkey-registration-error-invalid-state = Ko ñemigua oñemboheraguapýma. Eiporu eike hag̃ua térã embojuaju ñemigua ambuéva.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Ñe’ẽ ñemi jeikeha ñemboheko noĩri ko mba’e’okápe. Eiporu ambue mba’e térã mba’e’oka.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Ñe’ẽ ñemi jeikeha ñemboheko ndoikói. Eha’ãjey térã eiporavo ambue.
 
 # Authentication errors
 
