@@ -114,11 +114,6 @@ churn-cancel-flow-error-offer-expired-title = This offer has expired
 churn-cancel-flow-error-offer-expired-message = There are currently no discounts available for this subscription. You can continue with cancellation if you’d like.
 churn-cancel-flow-error-button-continue-to-cancel = Continue to cancel
 churn-cancel-flow-error-page-button-back-to-subscriptions = Back to subscriptions
-churn-cancel-flow-error-already-canceling-title = Your subscription is set to end
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = You’ll continue to have access to { $productName } until { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Keep subscription
 
 ##
 
@@ -129,15 +124,6 @@ not-found-loyalty-discount-description = The page you are looking for does not e
 not-found-loyalty-discount-button-back-to-subscriptions = Back to subscriptions
 
 ##
-
-## InterstitialOffer
-interstitial-offer-button-cancel-subscription = Continue to cancel
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-interstitial-offer-button-keep-current-interval-daily = Keep daily subscription
-interstitial-offer-button-keep-current-interval-weekly = Keep weekly subscription
-interstitial-offer-button-keep-current-interval-monthly = Keep monthly subscription
-interstitial-offer-button-keep-current-interval-halfyearly = Keep six-month subscription
 
 ## Error page
 interstitial-offer-error-subscription-not-found-heading = We couldn’t find an active subscription
@@ -217,6 +203,17 @@ page-not-found-back-button = Go Back
 
 alert-dialog-title = Alert dialog
 
+## Already Canceling
+
+already-canceling-title = Your subscription is set to end
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = You’ll continue to have access to { $productName } until { $date }.
+already-canceling-turn-back-on = You can turn your subscription back on anytime before it ends.
+already-canceling-button-back-to-subscriptions = Back to subscriptions
+
+##
+
 ## Navigation breadcrumbs
 # Link title - Account settings
 subscription-management-breadcrumb-account-home = Account Home
@@ -244,8 +241,7 @@ subscription-content-cancel-access-message = Cancel my access and my saved infor
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 cancel-subscription-button-cancel-subscription = Cancel subscription
   .aria-label = Cancel your subscription to { $productName }
-cancel-subscription-button-stay-subscribed = Stay subscribed
-  .aria-label = Stay subscribed to { $productName }
+cancel-subscription-button-keep-subscription = Keep subscription
 
 ##
 
@@ -273,7 +269,7 @@ churn-cancel-flow-action-error = An unexpected error occurred. Please try again.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Stay subscribed and save { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Stay subscribed and save
-churn-cancel-flow-button-continue-to-cancel = Continue to cancel
+churn-cancel-flow-button-cancel-subscription = Cancel subscription
 churn-cancel-flow-link-terms-and-restrictions = Limited terms and restrictions apply
 churn-cancel-flow-discount-already-applied-title = Discount code already applied
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -283,6 +279,14 @@ churn-cancel-flow-button-contact-support = Contact Support
 ## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-subscription-active-title = Your { $productName } subscription is active
 churn-cancel-flow-button-go-to-product-page = Go to { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = After that, your subscription will automatically renew at the standard fee, unless you cancel.
+churn-cancel-flow-cancel-success-title =  We’re sorry to see you go
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Your { $productName } subscription has been cancelled. You will still have access to { $productName } until { $date }.
+churn-cancel-flow-cancel-turn-back-on = You can turn your subscription back on anytime before it ends.
+churn-cancel-flow-cancel-success-dialog-aside = Have questions? Visit <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 
 ##
 
@@ -305,6 +309,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Thanks for being a valued subsc
 churn-stay-subscribed-button-go-to-product-page = Go to { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Go to Subscriptions
 churn-stay-subscribed-button-stay-subscribed = Stay subscribed
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = After that, your subscription will automatically renew at the standard fee, unless you cancel.
 
 ##
 
@@ -354,6 +360,28 @@ payments-header-avatar-icon =
 
 payments-header-avatar-expanded-signed-in-as = Signed in as
 payments-header-avatar-expanded-sign-out = Sign out
+
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = We’re sorry to see you go
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Your { $productName } subscription has been cancelled. You will still have access to { $productName } until { $date }.
+interstitial-offer-turn-back-on = You can turn your subscription back on anytime before it ends.
+interstitial-offer-cancel-success-dialog-aside = Have questions? Visit <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Back to subscriptions
+interstitial-offer-action-error = An unexpected error occurred. Please try again.
+interstitial-offer-cancel-subscription-button = Cancel subscription
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Keep daily subscription
+interstitial-offer-button-keep-current-interval-weekly = Keep weekly subscription
+interstitial-offer-button-keep-current-interval-halfyearly = Keep six-month subscription
+interstitial-offer-button-keep-current-interval-monthly = Keep monthly subscription
+interstitial-offer-button-keep-subscription = Keep subscription
+
+##
 
 payments-client-loading-spinner =
     .aria-label = Loading…
