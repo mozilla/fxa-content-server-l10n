@@ -236,11 +236,28 @@ next-pay-with-heading-paypal = Paguani me { -brand-paypal }
 
 ## Churn flow - cancel
 
+churn-cancel-flow-success-title = Jeni ende i pajtuar
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Pajtimi juaj do të vazhdojë dhe do të kurseni { $discountPercent }% në faturën tuaj pasuese.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Faleminderit që përdorni { $productName }!
 churn-cancel-flow-button-back-to-subscriptions = Mbrapsht te pajtimet
 churn-cancel-flow-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Qëndroni të pajtuar dhe kurseni { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Qëndroni të pajtuar dhe kurseni
+churn-cancel-flow-button-continue-to-cancel = Vazhdoni që të anulohet
+churn-cancel-flow-link-terms-and-restrictions = Kanë vend kushte të kufizuara dhe kufizime
 churn-cancel-flow-discount-already-applied-title = Kodi për ulje çmimi është aplikuar tashmë
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Kjo zbritje u aplikua mbi një pajtim  { $productName } për llogarinë tuaj. Nëse ju duhet ende ndihmë, lidhuni me ekipin tonë të Asistencës.
 churn-cancel-flow-button-manage-subscriptions = Administroni pajtime
 churn-cancel-flow-button-contact-support = Lidhuni Me Asistencën
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Pajtimi juaj në { $productName } është aktiv
+churn-cancel-flow-button-go-to-product-page = Kalo te { $productName }
 
 ## Churn flow - stay subscribed
 
@@ -253,6 +270,9 @@ churn-stay-subscribed-title-offer-expired = Kjo ofertë ka skaduar
 
 churn-stay-subscribed-subtitle-offer-expired = Doni të vazhdoni të përdorni { $productName }?
 churn-stay-subscribed-message-access-will-continue = Do të vazhdoni të përdorni { $productName } dhe cikli i faturimeve dhe pagesat për ju do të mbeten po ato.
+churn-stay-subscribed-title-subscription-renewed = Pajtimi u rinovua
+churn-stay-subscribed-title-subscription-active = Pajtimi juaj në { $productName } është aktiv
+churn-stay-subscribed-thanks-valued-subscriber = Falemiderit që jeni një pajtimtar i çmuar!
 churn-stay-subscribed-button-go-to-product-page = Kalo te { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Kalo te Pajtimet
 churn-stay-subscribed-button-stay-subscribed = Qëndroni i pajtuar
@@ -396,6 +416,9 @@ subscription-content-button-stay-subscribed = Qëndroni i Pajtuar
     .aria-label = Qëndroni i pajtuar te { $productName }
 subscription-content-button-cancel-subscription = Anulojeni Pajtimin
     .aria-label = Anuloni pajtimin tuaj te { $productName }
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Kanë vend kushte
+subscription-content-link-churn-intervention-terms-aria = Shihni kushte dhe kufizime kuponi
 
 ##
 
@@ -406,12 +429,23 @@ paypal-unavailable-error = { -brand-paypal } hëpërhë s’mund të përdoret. 
 
 ## Churn flow - Error page
 
+churn-error-page-title-discount-already-applied = Kodi për ulje çmimi është aplikuar tashmë
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Kjo zbritje u aplikua mbi një pajtim  { $productName } për llogarinë tuaj. Nëse ju duhet ende ndihmë, lidhuni me ekipin tonë të Asistencës.
 churn-error-page-button-manage-subscriptions = Administroni pajtime
 churn-error-page-button-contact-support = Lidhuni Me Asistencën
 churn-error-page-button-try-again = Riprovoni
+churn-error-page-title-customer-mismatch = Kuponi s’mund të përdoret
+churn-error-page-message-customer-mismatch = Ky kupon qe dhënë për një pajtim tjetër dhe mund të përdoret vetëm nga marrësi origjinal.
 churn-error-page-button-sign-in = Hyni
 churn-error-page-title-general-error = Pati një problem me rinovimin e pajtimit tuaj
 churn-error-page-message-general-error = Lidhuni me asistencën, ose riprovoni.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Kalo te { $productName }
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Kjo ulje në çmim është e vlefshme vetëm për pajtimtarë të tanishëm të { $productName }.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Pajtimi juaj në { $productName } është ende aktiv
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
