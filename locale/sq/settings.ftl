@@ -1195,6 +1195,7 @@ passkey-row-header = Kyçkalime
 passkey-row-enabled = E aktivizuar
 passkey-row-not-set = S’është caktuar
 passkey-row-action-create = Krijoje
+passkey-row-description = Bëjeni më të lehtë hyrjen dhe më të siguruar, duke përdorur telefonin tuaj, ose tjetër pajisje të mbuluar, për të hyrë në llogarinë tuaj.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Si e mbron kjo llogarinë tuaj
 
