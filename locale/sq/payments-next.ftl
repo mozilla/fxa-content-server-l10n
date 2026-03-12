@@ -115,7 +115,14 @@ not-found-button-back-to-subscriptions = Mbrapsht te pajtimet
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Kjo ofertë ka skaduar
+churn-cancel-flow-error-offer-expired-message = Aktualisht s’ka zbritje të aplikueshme për këtë pajtim. Mund të vazhdoni me anulim, nëse dëshironi.
+churn-cancel-flow-error-button-continue-to-cancel = Vazhdoni që të anulohet
 churn-cancel-flow-error-page-button-back-to-subscriptions = Mbrapsht te pajtimet
+churn-cancel-flow-error-already-canceling-title = Pajtimi juaj është vënë të përfundojë
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+churn-cancel-flow-error-already-canceling-message = Do të vazhdoni të keni mundësi ta përdorni { $productName } deri më { $currentPeriodEnd }.
+churn-cancel-flow-error-page-button-keep-subscription = Mbajeni pajtimin
 
 ## Loyalty discount - Not found page
 
@@ -123,10 +130,25 @@ not-found-loyalty-discount-title = S’u gjet faqe
 not-found-loyalty-discount-description = Faqja që po kërkoni, s’ekziston.
 not-found-loyalty-discount-button-back-to-subscriptions = Mbrapsht te pajtimet
 
+## InterstitialOffer
+
+interstitial-offer-button-cancel-subscription = Vazhdoni që të anulohet
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Mbajeni pajtimin ditor
+interstitial-offer-button-keep-current-interval-weekly = Mbajeni pajtimin javor
+interstitial-offer-button-keep-current-interval-monthly = Merrni pajtim mujor
+interstitial-offer-button-keep-current-interval-halfyearly = Merrni pajtim gjashtëmujor
+
 ## Error page
 
+interstitial-offer-error-subscription-not-found-heading = S’gjetëm dot ndonjë pajtim aktiv
+interstitial-offer-error-subscription-not-found-message = Duket sikur ky pajtim s’është më aktiv.
 interstitial-offer-error-customer-mismatch-heading = Ky pajtim s’është i përshoqëruar me llogarinë tuaj
 interstitial-offer-error-customer-mismatch-message = Sigurohuni se keni bërë hyrjen me llogarinë e saktë, ose lidhuni me Asistencën, nëse ju duhet ndihmë.
+interstitial-offer-error-general-heading = Oferta s’është e përdorshme
+interstitial-offer-error-general-message = Duket sikur kjo ofertë s’është e përdorshme këtë kohë.
 interstitial-offer-error-button-back-to-subscriptions = Mbrapsht te pajtimet
 interstitial-offer-error-button-cancel-subscription = Vazhdoni që të anulohet
 interstitial-offer-error-button-sign-in = Hyni

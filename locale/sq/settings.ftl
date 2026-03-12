@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Re me një ikonë njëkohësimi
 confetti-falling-image-aria-label =
     .aria-label = Karamele që bien nga qielli
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Dritare { -brand-firefox }-i me një stemë rrethore e cila shfaq një shenjë dhe të gjelbër dhe “VPN,” për të treguar që VPN-ja është aktive.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1345,6 +1348,10 @@ auth-error-215 = Numri i telefonit për rikthim s’ekziston
 auth-error-216 = U mbërrit në kufi mesazhi tekst
 auth-error-218 = S’arrihet të hiqet telefon rikthimi, mungojnë kode kopjeruajtje mirëfilltësimi
 auth-error-219 = Ky numër telefoni është regjistruar me shumë llogari. Ju lutemi, provoni një numër tjetër.
+auth-error-224 = S’u gjet kyçkalim
+auth-error-225 = Kyçkalim tashmë i regjistruar
+auth-error-226 = U mbërrit në kufij kyçkalimi
+auth-error-227 = Mirëfilltësimi me kyçkalim dështoi
 auth-error-999 = Gabim i papritur
 auth-error-1001 = Përpjekja për hyrje u anulua
 auth-error-1002 = Sesioni skadoi. Që të vazhdohet, bëni hyrjen.

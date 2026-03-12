@@ -260,7 +260,9 @@ subscriptionEndingReminder-title = Pajtimi juaj { $productName } do të skadojë
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Hyrja juaj në { $productName } do të përfundojë më <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2 = Nëse do të donit të vazhdoni të përdorni { $productName }, mund të riaktivizoni pajtimin tuaj që nga <a data-l10n-name="subscriptionEndingReminder-account-settings">Rregullime Llogarie</a> para <strong>{ $serviceLastActiveDateOnly }</strong>. Nëse ju duhet asistencë, <a data-l10n-name="subscriptionEndingReminder-contact-support">lidhuni me Ekipin tonë të Asistencës</a>.
 subscriptionEndingReminder-content-line1-plaintext = Hyrja juaj në { $productName } do të përfundojë më { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext = Nëse do të donit të vazhdoni të përdorni { $productName }, mund të riaktivizoni pajtimin tuaj që nga Rregullime Llogarie, para { $serviceLastActiveDateOnly }. Nëse ju duhet asistencë, lidhuni me Ekipin tonë të Asistencës.
 subscriptionEndingReminder-content-closing = Falemiderit që jeni një pajtimtar i çmuar!
 subscriptionEndingReminder-churn-title = Dëshironi të ruani hyrje?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Kanë vend kushte të kufizuara dhe kufizime</a>
@@ -334,6 +336,8 @@ subscriptionRenewalReminder-content-greeting = I dashur klient i { $productName 
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Pajtimi juaj i tanishëm është ujdisur të rinovohet automatikisht pas { $reminderLength } ditësh.
+subscriptionRenewalReminder-content-discount-change = Fatura juaj pasuese pasqyron një ndryshim në çmim, ngaqë ka përfunduar një zbritje e mëparshme dhe është aplikuar një zbritje e re.
+subscriptionRenewalReminder-content-discount-ending = Ngaqë ka përfunduar një zbritje e mëparshme, pajtimi juaj do të rinovohet sipas çmimit standard.
 # Variables
 #   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
 #   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
