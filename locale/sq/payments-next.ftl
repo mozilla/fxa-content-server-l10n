@@ -118,28 +118,12 @@ churn-cancel-flow-error-offer-expired-title = Kjo ofertë ka skaduar
 churn-cancel-flow-error-offer-expired-message = Aktualisht s’ka zbritje të aplikueshme për këtë pajtim. Mund të vazhdoni me anulim, nëse dëshironi.
 churn-cancel-flow-error-button-continue-to-cancel = Vazhdoni që të anulohet
 churn-cancel-flow-error-page-button-back-to-subscriptions = Mbrapsht te pajtimet
-churn-cancel-flow-error-already-canceling-title = Pajtimi juaj është vënë të përfundojë
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Do të vazhdoni të keni mundësi ta përdorni { $productName } deri më { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Mbajeni pajtimin
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = S’u gjet faqe
 not-found-loyalty-discount-description = Faqja që po kërkoni, s’ekziston.
 not-found-loyalty-discount-button-back-to-subscriptions = Mbrapsht te pajtimet
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Vazhdoni që të anulohet
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Mbajeni pajtimin ditor
-interstitial-offer-button-keep-current-interval-weekly = Mbajeni pajtimin javor
-interstitial-offer-button-keep-current-interval-monthly = Merrni pajtim mujor
-interstitial-offer-button-keep-current-interval-halfyearly = Merrni pajtim gjashtëmujor
 
 ## Error page
 
@@ -245,8 +229,6 @@ subscription-content-cancel-access-message = Më { $currentPeriodEnd }, anuloni 
 
 cancel-subscription-button-cancel-subscription = Anulojeni pajtimin
     .aria-label = Anulojeni pajtimin tuaj te { $productName }
-cancel-subscription-button-stay-subscribed = Qëndroni i pajtuar
-    .aria-label = Qëndroni i pajtuar te { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -270,7 +252,6 @@ churn-cancel-flow-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprov
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Qëndroni të pajtuar dhe kurseni { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Qëndroni të pajtuar dhe kurseni
-churn-cancel-flow-button-continue-to-cancel = Vazhdoni që të anulohet
 churn-cancel-flow-link-terms-and-restrictions = Kanë vend kushte të kufizuara dhe kufizime
 churn-cancel-flow-discount-already-applied-title = Kodi për ulje çmimi është aplikuar tashmë
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -341,6 +322,16 @@ payments-header-avatar-icon =
     .alt = Foto profili llogarie
 payments-header-avatar-expanded-signed-in-as = Futur si
 payments-header-avatar-expanded-sign-out = Dilni
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Mbajeni pajtimin ditor
+interstitial-offer-button-keep-current-interval-weekly = Mbajeni pajtimin javor
+interstitial-offer-button-keep-current-interval-halfyearly = Merrni pajtim gjashtëmujor
+interstitial-offer-button-keep-current-interval-monthly = Merrni pajtim mujor
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Po ngarkohet…
     .alt = Po ngarkohet…

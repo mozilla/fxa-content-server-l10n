@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Platnosť tejto ponuky vypršala
 churn-cancel-flow-error-offer-expired-message = Na toto predplatné momentálne nie sú k dispozícii žiadne zľavy. Ak chcete, môžete pokračovať v zrušení.
 churn-cancel-flow-error-button-continue-to-cancel = Pokračovať v zrušení
 churn-cancel-flow-error-page-button-back-to-subscriptions = Späť na predplatné
-churn-cancel-flow-error-already-canceling-title = Vaše predplatné sa blíži ku koncu
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Prístup k produktu { $productName } budete mať naďalej do { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Ponechať si predplatné
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Stránka nebola nájdená
 not-found-loyalty-discount-description = Stránka, ktorú hľadáte, neexistuje.
 not-found-loyalty-discount-button-back-to-subscriptions = Späť na predplatné
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Pokračovať v zrušení
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Ponechať denné predplatné
-interstitial-offer-button-keep-current-interval-weekly = Ponechať týždenné predplatné
-interstitial-offer-button-keep-current-interval-monthly = Ponechať mesačné predplatné
-interstitial-offer-button-keep-current-interval-halfyearly = Ponechať 6‑mesačné predplatné
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = Zrušiť môj prístup k produktu {
 
 cancel-subscription-button-cancel-subscription = Zrušiť predplatné
     .aria-label = Zrušiť predplatné produktu { $productName }
-cancel-subscription-button-stay-subscribed = Ponechať predplatné
-    .aria-label = Ponechať predplatné produktu { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Vyskytla sa neočakávaná chyba. Skúste to zn
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Zostaňte odberateľom a ušetrite { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Zostaňte odberateľmi a ušetrite
-churn-cancel-flow-button-continue-to-cancel = Pokračovať v zrušení
 churn-cancel-flow-link-terms-and-restrictions = Platia podmienky a obmedzenia
 churn-cancel-flow-discount-already-applied-title = Zľavový kód už bol uplatnený
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = Profilová fotka účtu
 payments-header-avatar-expanded-signed-in-as = Prihlásený ako
 payments-header-avatar-expanded-sign-out = Odhlásiť sa
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Ponechať denné predplatné
+interstitial-offer-button-keep-current-interval-weekly = Ponechať týždenné predplatné
+interstitial-offer-button-keep-current-interval-halfyearly = Ponechať 6‑mesačné predplatné
+interstitial-offer-button-keep-current-interval-monthly = Ponechať mesačné predplatné
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Načítava sa…
     .alt = Načítava sa…

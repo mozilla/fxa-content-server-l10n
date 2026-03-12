@@ -139,6 +139,9 @@ payments-header-avatar-icon =
     .alt = Auðkennismynd reiknings
 payments-header-avatar-expanded-signed-in-as = Skráð/ur inn sem
 payments-header-avatar-expanded-sign-out = Skrá út
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Hleður…
     .alt = Hleður…

@@ -256,9 +256,7 @@ subscriptionEndingReminder-title = การสมัครสมาชิก { 
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = สิทธิ์การเข้าถึง { $productName } ของคุณจะสิ้นสุดในวันที่ <strong>{ $serviceLastActiveDateOnly }</strong>
-subscriptionEndingReminder-content-line2 = หากคุณต้องการใช้งาน { $productName } ต่อไป คุณสามารถเปิดใช้งานการสมัครใช้งานของคุณอีกครั้งได้ใน<a data-l10n-name="subscriptionEndingReminder-account-settings">การตั้งค่าบัญชี</a>ก่อนวันที่ <strong>{ $serviceLastActiveDateOnly }</strong> หากคุณต้องการความช่วยเหลือ ให้<a data-l10n-name="subscriptionEndingReminder-contact-support">ติดต่อทีมสนับสนุนของเรา</a>
 subscriptionEndingReminder-content-line1-plaintext = สิทธิ์การเข้าถึง { $productName } ของคุณจะสิ้นสุดในวันที่ { $serviceLastActiveDateOnly }
-subscriptionEndingReminder-content-line2-plaintext = หากคุณต้องการใช้งาน { $productName } ต่อไป คุณสามารถเปิดใช้งานการสมัครสมาชิกของคุณอีกครั้งได้ในการตั้งค่าบัญชี ก่อนวันที่ { $serviceLastActiveDateOnly } หากต้องการความช่วยเหลือ โปรดติดต่อทีมสนับสนุนของเรา
 subscriptionEndingReminder-content-closing = ขอบคุณที่เป็นสมาชิกที่ทรงคุณค่าของเรา!
 subscriptionEndingReminder-churn-title = ต้องการเข้าถึงต่อไปหรือไม่?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">มีข้อกำหนดและเงื่อนไขบางอย่าง</a>

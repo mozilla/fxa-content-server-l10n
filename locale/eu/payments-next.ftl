@@ -123,6 +123,9 @@ payments-header-avatar-icon =
     .alt = Kontuaren profileko irudia
 payments-header-avatar-expanded-signed-in-as = Saioa hasita:
 payments-header-avatar-expanded-sign-out = Amaitu saioa
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Kargatzen…
     .alt = Kargatzen…

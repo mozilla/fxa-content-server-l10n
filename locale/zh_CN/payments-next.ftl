@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = 此优惠已过期
 churn-cancel-flow-error-offer-expired-message = 该订阅目前暂无可用折扣。如果您希望取消，可以继续操作。
 churn-cancel-flow-error-button-continue-to-cancel = 继续取消
 churn-cancel-flow-error-page-button-back-to-subscriptions = 返回“订阅”
-churn-cancel-flow-error-already-canceling-title = 您的订阅即将结束
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = 您可以在 { $currentPeriodEnd } 前继续使用 { $productName }。
-churn-cancel-flow-error-page-button-keep-subscription = 继续订阅
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = 找不到页面
 not-found-loyalty-discount-description = 您要找的页面不存在。
 not-found-loyalty-discount-button-back-to-subscriptions = 返回“订阅”
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = 继续取消
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = 继续按日订阅
-interstitial-offer-button-keep-current-interval-weekly = 继续按周订阅
-interstitial-offer-button-keep-current-interval-monthly = 继续按月订阅
-interstitial-offer-button-keep-current-interval-halfyearly = 继续按半年订阅
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消
 
 cancel-subscription-button-cancel-subscription = 取消订阅
     .aria-label = 取消订阅 { $productName }
-cancel-subscription-button-stay-subscribed = 继续订阅
-    .aria-label = 继续订阅 { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = 发生意外错误，请重试。
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = 继续订阅可享 { $discountPercent }% 折扣
 churn-cancel-flow-button-stay-subscribed-and-save = 继续订阅，立享折扣
-churn-cancel-flow-button-continue-to-cancel = 继续取消
 churn-cancel-flow-link-terms-and-restrictions = 限制条款和限制条件适用
 churn-cancel-flow-discount-already-applied-title = 已经使用此折扣码
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = 账户头像
 payments-header-avatar-expanded-signed-in-as = 已登录
 payments-header-avatar-expanded-sign-out = 退出
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = 继续按日订阅
+interstitial-offer-button-keep-current-interval-weekly = 继续按周订阅
+interstitial-offer-button-keep-current-interval-halfyearly = 继续按半年订阅
+interstitial-offer-button-keep-current-interval-monthly = 继续按月订阅
+
+##
+
 payments-client-loading-spinner =
     .aria-label = 正在加载…
     .alt = 正在加载…

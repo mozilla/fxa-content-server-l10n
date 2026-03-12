@@ -117,28 +117,12 @@ churn-cancel-flow-error-offer-expired-title = Ez az ajánlat lejárt
 churn-cancel-flow-error-offer-expired-message = Jelenleg nincs kedvezmény ehhez az előfizetéshez. Ha szeretné, folytathatja a törléssel.
 churn-cancel-flow-error-button-continue-to-cancel = Folytatás a megszakításhoz
 churn-cancel-flow-error-page-button-back-to-subscriptions = Vissza az előfizetésekhez
-churn-cancel-flow-error-already-canceling-title = Az előfizetése véget fog érni
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Eddig továbbra is hozzáfér a { $productName } termékhez: { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Előfizetés megtartása
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Az oldal nem található
 not-found-loyalty-discount-description = A keresett oldal nem létezik.
 not-found-loyalty-discount-button-back-to-subscriptions = Vissza az előfizetésekhez
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Tovább a lemondáshoz
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Napi előfizetés megtartása
-interstitial-offer-button-keep-current-interval-weekly = Heti előfizetés megtartása
-interstitial-offer-button-keep-current-interval-monthly = Havi előfizetés megtartása
-interstitial-offer-button-keep-current-interval-halfyearly = Hat hónapos előfizetés megtartása
 
 ## Error page
 
@@ -244,8 +228,6 @@ subscription-content-cancel-access-message = A(z) { $productName } hozzáférés
 
 cancel-subscription-button-cancel-subscription = Előfizetés lemondása
     .aria-label = A(z) { $productName } előfizetésének megszüntetése
-cancel-subscription-button-stay-subscribed = Előfizetés megtartása
-    .aria-label = { $productName } előfizetés megtartása
 
 ## Component - Payment Consent Checkbox
 
@@ -269,7 +251,6 @@ churn-cancel-flow-action-error = Váratlan hiba történt. Próbálja meg újra.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Maradjon továbbra is előfizető, és takarítson meg { $discountPercent }%-ot
 churn-cancel-flow-button-stay-subscribed-and-save = Maradjon előfizető, és takarítson meg
-churn-cancel-flow-button-continue-to-cancel = Tovább a lemondáshoz
 churn-cancel-flow-link-terms-and-restrictions = Korlátozott feltételek és korlátozások vonatkoznak rá
 churn-cancel-flow-discount-already-applied-title = A kedvezménykód már alkalmazva van
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -340,6 +321,16 @@ payments-header-avatar-icon =
     .alt = Fiók profilképe
 payments-header-avatar-expanded-signed-in-as = Bejelentkezve mint
 payments-header-avatar-expanded-sign-out = Kijelentkezés
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Napi előfizetés megtartása
+interstitial-offer-button-keep-current-interval-weekly = Heti előfizetés megtartása
+interstitial-offer-button-keep-current-interval-halfyearly = Hat hónapos előfizetés megtartása
+interstitial-offer-button-keep-current-interval-monthly = Havi előfizetés megtartása
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Betöltés…
     .alt = Betöltés…

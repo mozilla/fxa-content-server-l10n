@@ -218,6 +218,9 @@ payments-header-avatar-icon =
     .alt = Imagem do perfil da conta
 payments-header-avatar-expanded-signed-in-as = Conectado como
 payments-header-avatar-expanded-sign-out = Desconectar
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Carregando…
     .alt = Carregando…

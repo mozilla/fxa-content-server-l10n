@@ -113,28 +113,12 @@ churn-cancel-flow-error-offer-expired-title = פג תוקפה של הצעה זו
 churn-cancel-flow-error-offer-expired-message = כרגע אין הנחות זמינות עבור מינוי זה. ניתן להמשיך בביטול אם תרצו.
 churn-cancel-flow-error-button-continue-to-cancel = המשך לביטול
 churn-cancel-flow-error-page-button-back-to-subscriptions = חזרה למינויים
-churn-cancel-flow-error-already-canceling-title = המינוי שלך מוגדר להסתיים
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = תמשיך להיות לך גישה ל־{ $productName } עד לתאריך { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = להשאיר את המינוי
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = הדף לא נמצא
 not-found-loyalty-discount-description = הדף שחיפשת אינו קיים.
 not-found-loyalty-discount-button-back-to-subscriptions = חזרה למינויים
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = המשך לביטול
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = להשאיר את המינוי היומי
-interstitial-offer-button-keep-current-interval-weekly = להשאיר את המינוי השבועי
-interstitial-offer-button-keep-current-interval-monthly = להשאיר את המינוי החודשי
-interstitial-offer-button-keep-current-interval-halfyearly = להשאיר את המינוי החצי שנתי
 
 ## Error page
 
@@ -238,8 +222,6 @@ subscription-content-cancel-access-message = בטלו את הגישה ואת ה�
 
 cancel-subscription-button-cancel-subscription = ביטול מינוי
     .aria-label = ביטול המינוי שלך ל־{ $productName }
-cancel-subscription-button-stay-subscribed = להישאר רשום כמינוי
-    .aria-label = להישאר רשום כמינוי ל־{ $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -263,7 +245,6 @@ churn-cancel-flow-action-error = אירעה שגיאה בלתי צפויה. נא
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = כדאי להישאר רשום כמינוי ולחסוך { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = כדאי להישאר רשום כמינוי ולחסוך
-churn-cancel-flow-button-continue-to-cancel = המשך לביטול
 churn-cancel-flow-link-terms-and-restrictions = כפוף לתנאים ולהגבלות
 churn-cancel-flow-discount-already-applied-title = קוד ההנחה כבר הוחל
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -334,6 +315,16 @@ payments-header-avatar-icon =
     .alt = תמונת פרופיל חשבון
 payments-header-avatar-expanded-signed-in-as = מחובר בתור
 payments-header-avatar-expanded-sign-out = התנתקות
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = להשאיר את המינוי היומי
+interstitial-offer-button-keep-current-interval-weekly = להשאיר את המינוי השבועי
+interstitial-offer-button-keep-current-interval-halfyearly = להשאיר את המינוי החצי שנתי
+interstitial-offer-button-keep-current-interval-monthly = להשאיר את המינוי החודשי
+
+##
+
 payments-client-loading-spinner =
     .aria-label = בטעינה…
     .alt = בטעינה…

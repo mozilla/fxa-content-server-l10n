@@ -268,9 +268,7 @@ subscriptionEndingReminder-title = Vaša naročnina za { $productName } bo kmalu
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Vaš dostop do { $productName } bo ukinjen <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2 = Če želite še naprej uporabljati { $productName }, lahko ponovno aktivirate svojo naročnino v <a data-l10n-name="subscriptionEndingReminder-account-settings">nastavitvah računa</a> pred <strong>{ $serviceLastActiveDateOnly }</strong> >. Če potrebujete pomoč, <a data-l10n-name="subscriptionEndingReminder-contact-support">se obrnite na našo skupino za podporo</a>.
 subscriptionEndingReminder-content-line1-plaintext = Vaš dostop do { $productName } se bo končal { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Če želite še naprej uporabljati { $productName }, lahko v nastavitvah računa ponovno aktivirate svojo naročnino pred { $serviceLastActiveDateOnly }. Če potrebujete pomoč, se obrnite na našo skupino za podporo.
 subscriptionEndingReminder-content-closing = Hvala, ker ste cenjen naročnik!
 subscriptionEndingReminder-churn-title = Želite obdržati dostop?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Veljajo omejena določila</a>

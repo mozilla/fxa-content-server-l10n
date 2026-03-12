@@ -112,20 +112,12 @@ not-found-button-back-to-subscriptions = Aboneliklere dön
 
 churn-cancel-flow-error-offer-expired-title = Bu teklifin süresi doldu
 churn-cancel-flow-error-page-button-back-to-subscriptions = Aboneliklere dön
-churn-cancel-flow-error-page-button-keep-subscription = Aboneliği sürdür
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Sayfa bulunamadı
 not-found-loyalty-discount-description = Aradığınız sayfa mevcut değil.
 not-found-loyalty-discount-button-back-to-subscriptions = Aboneliklere dön
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Günlük aboneliği sürdür
-interstitial-offer-button-keep-current-interval-weekly = Haftalık aboneliği sürdür
-interstitial-offer-button-keep-current-interval-monthly = Aylık aboneliği sürdür
-interstitial-offer-button-keep-current-interval-halfyearly = Altı aylık aboneliği sürdür
 
 ## Error page
 
@@ -287,6 +279,16 @@ payments-header-avatar-icon =
     .alt = Hesap profil resmi
 payments-header-avatar-expanded-signed-in-as = Giriş yapan kullanıcı
 payments-header-avatar-expanded-sign-out = Çıkış yap
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Günlük aboneliği sürdür
+interstitial-offer-button-keep-current-interval-weekly = Haftalık aboneliği sürdür
+interstitial-offer-button-keep-current-interval-halfyearly = Altı aylık aboneliği sürdür
+interstitial-offer-button-keep-current-interval-monthly = Aylık aboneliği sürdür
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Yükleniyor…
     .alt = Yükleniyor…

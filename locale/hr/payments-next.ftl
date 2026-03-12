@@ -183,8 +183,6 @@ subscription-content-cancel-access-message =
 
 cancel-subscription-button-cancel-subscription = Otkaži pretplatu
     .aria-label = Otkaži svoju pretplatu na { $productName }
-cancel-subscription-button-stay-subscribed = Ostani pretplaćen/a
-    .aria-label = Ostani pretplaćen/a na { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -251,6 +249,9 @@ payments-header-avatar-icon =
     .alt = Slika profila računa
 payments-header-avatar-expanded-signed-in-as = Prijavljen/a kao
 payments-header-avatar-expanded-sign-out = Odjavi se
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Učitavanje …
     .alt = Učitavanje …

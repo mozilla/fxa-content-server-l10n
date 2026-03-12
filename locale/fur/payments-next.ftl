@@ -200,8 +200,6 @@ subscription-content-cancel-access-message = Scancele il gno acès e gjave lis i
 
 cancel-subscription-button-cancel-subscription = Cancele abonament
     .aria-label = Cancele il to abonament a { $productName }
-cancel-subscription-button-stay-subscribed = Reste abonât
-    .aria-label = Reste abonât a { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +247,9 @@ payments-header-avatar-icon =
     .alt = Imagjin dal profîl pal account
 payments-header-avatar-expanded-signed-in-as = Acès fat come
 payments-header-avatar-expanded-sign-out = Disconet
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Daûr a cjariâ…
     .alt = Cjariament in cors…

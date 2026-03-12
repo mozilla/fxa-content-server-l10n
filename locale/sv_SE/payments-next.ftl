@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Erbjudandet har upphört
 churn-cancel-flow-error-offer-expired-message = Det finns för närvarande inga rabatter tillgängliga för den här prenumerationen. Du kan fortsätta med uppsägningen om du vill.
 churn-cancel-flow-error-button-continue-to-cancel = Fortsätt för att avbryta
 churn-cancel-flow-error-page-button-back-to-subscriptions = Tillbaka till prenumerationer
-churn-cancel-flow-error-already-canceling-title = Din prenumeration är inställd på att upphöra
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Du fortsätter att ha tillgång till { $productName } tills { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Fortsätt prenumeration
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Sidan hittades inte
 not-found-loyalty-discount-description = Sidan du söker finns inte.
 not-found-loyalty-discount-button-back-to-subscriptions = Tillbaka till prenumerationer
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Fortsätt för att avbryta
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Behåll daglig prenumeration
-interstitial-offer-button-keep-current-interval-weekly = Behåll veckovis prenumeration
-interstitial-offer-button-keep-current-interval-monthly = Behåll månadsprenumerationen
-interstitial-offer-button-keep-current-interval-halfyearly = Behåll sexmånadersprenumerationen
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade
 
 cancel-subscription-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt din prenumeration på { $productName }
-cancel-subscription-button-stay-subscribed = Fortsätt prenumerera
-    .aria-label = Behåll din prenumeration på { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Ett oväntat fel uppstod. Försök igen.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Behåll din prenumeration och spara { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Behåll din prenumeration och spara
-churn-cancel-flow-button-continue-to-cancel = Fortsätt för att avbryta
 churn-cancel-flow-link-terms-and-restrictions = Begränsade villkor och begränsningar gäller
 churn-cancel-flow-discount-already-applied-title = Rabattkod tillämpas redan
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = Kontots profilbild
 payments-header-avatar-expanded-signed-in-as = Inloggad som
 payments-header-avatar-expanded-sign-out = Logga ut
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Behåll daglig prenumeration
+interstitial-offer-button-keep-current-interval-weekly = Behåll veckovis prenumeration
+interstitial-offer-button-keep-current-interval-halfyearly = Behåll sexmånadersprenumerationen
+interstitial-offer-button-keep-current-interval-monthly = Behåll månadsprenumerationen
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Laddar…
     .alt = Laddar…

@@ -266,9 +266,7 @@ subscriptionEndingReminder-title = Abonamentul la { $productName } va expira în
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Accesul la { $productName } se va încheia pe data de <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2 = Dacă vrei să folosești în continuare { $productName }, îți poți reactiva abonamentul în<a data-l10n-name="subscriptionEndingReminder-account-settings">Setările contului</a> până pe<strong>{ $serviceLastActiveDateOnly }</strong>. Dacă ai nevoie de asistență, <a data-l10n-name="subscriptionEndingReminder-contact-support">contactează Echipa noastră de asistență</a>.
 subscriptionEndingReminder-content-line1-plaintext = Accesul la { $productName } se va încheia pe data de { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Dacă vrei să folosești în continuare { $productName }, îți poți reactiva abonamentul în Setările contului până pe { $serviceLastActiveDateOnly }. Dacă ai nevoie de asistență, contactează Echipa noastră de asistență.
 subscriptionEndingReminder-content-closing = Îți mulțumim că ești un abonat valoros!
 subscriptionEndingReminder-churn-title = Vrei să păstrezi accesul?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Se aplică condiții de limitare și restricții</a>

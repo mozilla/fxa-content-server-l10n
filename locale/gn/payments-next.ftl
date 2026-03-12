@@ -114,28 +114,12 @@ not-found-button-back-to-subscriptions = Ejevy moheraguapyhápe
 churn-cancel-flow-error-offer-expired-title = Ko tepyguejy ndoikovéima
 churn-cancel-flow-error-button-continue-to-cancel = Eku’e jey eheja hag̃ua
 churn-cancel-flow-error-page-button-back-to-subscriptions = Ejevy moheraguapyhápe
-churn-cancel-flow-error-already-canceling-title = Ne ñemboheraguapy oĩma opa hag̃uáicha
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Eikekuaáta gueteri { $productName }-pe { $currentPeriodEnd } peve.
-churn-cancel-flow-error-page-button-keep-subscription = Erekomeme ñemboheraguapy
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Kuatiarogue ojejuhu’ỹva
 not-found-loyalty-discount-description = Pe kuatiarogue ehekáva ndaiporivéima.
 not-found-loyalty-discount-button-back-to-subscriptions = Ejevy moheraguapyhápe
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Eku’e jey eheja hag̃ua
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Erekomeme ñemboheraguapy aragua
-interstitial-offer-button-keep-current-interval-weekly = Erekomeme ñemboheraguapy arapokõindygua
-interstitial-offer-button-keep-current-interval-monthly = Erekomeme ñemboheraguapy jasygua
-interstitial-offer-button-keep-current-interval-halfyearly = Erekomeme ñemboheraguapy arapokõindygua
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message =
 
 cancel-subscription-button-cancel-subscription = Eheja mboheraguapy
     .aria-label = Eheja ne mboheraguapy { $productName }-pe
-cancel-subscription-button-stay-subscribed = Ani eheja mboheraguapy
-    .aria-label = Eike mboheraguapýpe { $productName } ndive
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Eime ñemboheraguapýpe ha erekovéta { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Eime ñemboheraguapýpe ha erekovéta
-churn-cancel-flow-button-continue-to-cancel = Eku’e jey eheja hag̃ua
 churn-cancel-flow-link-terms-and-restrictions = Oguerojera aporã ha jejokopy heta’ỹva
 churn-cancel-flow-discount-already-applied-title = Tepyguejy ayvu oikopyrémava
 churn-cancel-flow-button-manage-subscriptions = Mboheraguapy ñangareko
@@ -336,6 +317,16 @@ payments-header-avatar-icon =
     .alt = Ta’ãnga mba’etepegua
 payments-header-avatar-expanded-signed-in-as = Eike peteĩvaramo
 payments-header-avatar-expanded-sign-out = Emboty tembiapo
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Erekomeme ñemboheraguapy aragua
+interstitial-offer-button-keep-current-interval-weekly = Erekomeme ñemboheraguapy arapokõindygua
+interstitial-offer-button-keep-current-interval-halfyearly = Erekomeme ñemboheraguapy arapokõindygua
+interstitial-offer-button-keep-current-interval-monthly = Erekomeme ñemboheraguapy jasygua
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Henyhẽhína…
     .alt = Henyhẽhína…

@@ -264,9 +264,7 @@ subscriptionEndingReminder-title = Jo abonnemint op { $productName } ferrint ynk
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Jo tagong ta { $productName } sil einigje op <strong>{ $serviceLastActiveDateOnly } </strong>.
-subscriptionEndingReminder-content-line2 = As jo { $productName } brûke bliuwe wolle, kinne jo foar <strong>{ $serviceLastActiveDateOnly }</strong> jo abonnemint opnij aktivearje yn <a data-l10n-name="subscriptionEndingReminder-account-settings">Accountynstellingen</a>. As jo help nedich hawwe, <a data-l10n-name="subscriptionEndingReminder-contact-support">nim dan kontakt op mei ús stipeteam</a>.
 subscriptionEndingReminder-content-line1-plaintext = Jo tagong ta { $productName } sil einigje op { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = As jo { $productName } brûke bliuwe wolle, kinne jo jo abonnemint foar { $serviceLastActiveDateOnly } opnij aktivearje yn Accountynstellingen. Nim kontakt op mei ús stipeteam ss jo help nedich hawwe.
 subscriptionEndingReminder-content-closing = Tank dat jo in wurdearre abonnee binne!
 subscriptionEndingReminder-churn-title = Wolle jo tagong behâlde?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Beheinde betingsten en beheiningen binne fan tapassing</a>

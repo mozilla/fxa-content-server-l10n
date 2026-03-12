@@ -259,9 +259,7 @@ subscriptionEndingReminder-title = Gói đăng ký { $productName } của bạn 
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Quyền truy cập của bạn vào { $productName } sẽ kết thúc vào <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2 = Nếu bạn muốn tiếp tục sử dụng { $productName }, bạn có thể kích hoạt lại gói đăng ký của mình tại <a data-l10n-name="subscriptionEndingReminder-account-settings">cài đặt tài khoản</a> trước <strong>{ $serviceLastActiveDateOnly }</strong>. Nếu bạn cần hỗ trợ, <a data-l10n-name="subscriptionEndingReminder-contact-support">hãy liên hệ với nhóm hỗ trợ của chúng tôi</a>.
 subscriptionEndingReminder-content-line1-plaintext = Quyền truy cập của bạn vào { $productName } sẽ kết thúc vào { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Nếu bạn muốn tiếp tục sử dụng { $productName }, bạn có thể kích hoạt lại gói đăng ký của mình trong Cài đặt tài khoản trước { $serviceLastActiveDateOnly }. Nếu cần hỗ trợ, vui lòng liên hệ với Nhóm hỗ trợ của chúng tôi.
 subscriptionEndingReminder-content-closing = Cảm ơn bạn đã là một người đăng ký quý giá!
 subscriptionEndingReminder-churn-title = Bạn muốn tiếp tục truy cập chứ?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Áp dụng các điều khoản và hạn chế nhất định</a>

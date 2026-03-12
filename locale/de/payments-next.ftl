@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Dieses Angebot ist abgelaufen
 churn-cancel-flow-error-offer-expired-message = Derzeit sind keine Rabatte auf dieses Abonnement verfügbar. Sie können mit der Kündigung fortfahren, wenn Sie möchten.
 churn-cancel-flow-error-button-continue-to-cancel = Weiter zur Kündigung
 churn-cancel-flow-error-page-button-back-to-subscriptions = Zurück zu Abonnements
-churn-cancel-flow-error-already-canceling-title = Ihr Abonnement endet damit
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Sie haben bis { $currentPeriodEnd } weiterhin Zugriff auf { $productName }.
-churn-cancel-flow-error-page-button-keep-subscription = Abonnement behalten
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Seite nicht gefunden
 not-found-loyalty-discount-description = Die gesuchte Seite existiert nicht.
 not-found-loyalty-discount-button-back-to-subscriptions = Zurück zu Abonnements
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Weiter zur Kündigung
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Tägliches Abonnement behalten
-interstitial-offer-button-keep-current-interval-weekly = Monatliches Abonnement behalten
-interstitial-offer-button-keep-current-interval-monthly = Monatliches Abonnement behalten
-interstitial-offer-button-keep-current-interval-halfyearly = Sechsmonatiges Abonnement behalten
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodE
 
 cancel-subscription-button-cancel-subscription = Abonnement kündigen
     .aria-label = Stornieren Sie Ihr Abonnement für { $productName }
-cancel-subscription-button-stay-subscribed = Abonnement beibehalten
-    .aria-label = { $productName } weiterhin abonnieren
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte 
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Verlängern Sie Ihr Abonnement und sparen Sie { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Abonnement verlängern und sparen
-churn-cancel-flow-button-continue-to-cancel = Weiter zur Kündigung
 churn-cancel-flow-link-terms-and-restrictions = Es gelten begrenzte Bedingungen und Einschränkungen
 churn-cancel-flow-discount-already-applied-title = Rabattcode bereits angewendet
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = Profilbild des Kontos
 payments-header-avatar-expanded-signed-in-as = Angemeldet als
 payments-header-avatar-expanded-sign-out = Abmelden
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Tägliches Abonnement behalten
+interstitial-offer-button-keep-current-interval-weekly = Monatliches Abonnement behalten
+interstitial-offer-button-keep-current-interval-halfyearly = Sechsmonatiges Abonnement behalten
+interstitial-offer-button-keep-current-interval-monthly = Monatliches Abonnement behalten
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Wird geladen…
     .alt = Wird geladen…

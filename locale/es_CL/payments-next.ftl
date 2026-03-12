@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Esta oferta ha expirado
 churn-cancel-flow-error-offer-expired-message = Actualmente no hay descuentos disponibles para esta suscripción. Puedes cancelarla si lo deseas.
 churn-cancel-flow-error-button-continue-to-cancel = Continuar para cancelar
 churn-cancel-flow-error-page-button-back-to-subscriptions = Regresar a Suscripciones
-churn-cancel-flow-error-already-canceling-title = Tu suscripción está a punto de finalizar
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Continuará teniendo acceso a { $productName } hasta { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Mantener suscripción
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Página no encontrada
 not-found-loyalty-discount-description = La página que buscas no existe.
 not-found-loyalty-discount-button-back-to-subscriptions = Regresar a Suscripciones
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Continuar para cancelar
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Mantener la suscripción diaria
-interstitial-offer-button-keep-current-interval-weekly = Mantener la suscripción semanal
-interstitial-offer-button-keep-current-interval-monthly = Mantener la suscripción mensual
-interstitial-offer-button-keep-current-interval-halfyearly = Mantener la suscripción semestral
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = Cancelar mi acceso y mi informació
 
 cancel-subscription-button-cancel-subscription = Cancelar suscripción
     .aria-label = Cancelar suscripción a { $productName }
-cancel-subscription-button-stay-subscribed = Mantener suscripción
-    .aria-label = Mantener suscripción a { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Se ha producido un error inesperado. Por favor,
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Mantén tu suscripción y ahorra { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Mantén tu suscripción y ahorra
-churn-cancel-flow-button-continue-to-cancel = Continuar para cancelar
 churn-cancel-flow-link-terms-and-restrictions = Se aplican términos y restricciones limitados.
 churn-cancel-flow-discount-already-applied-title = Código de descuento ya aplicado
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = Imagen de perfil de la cuenta
 payments-header-avatar-expanded-signed-in-as = Conectado como
 payments-header-avatar-expanded-sign-out = Salir
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Mantener la suscripción diaria
+interstitial-offer-button-keep-current-interval-weekly = Mantener la suscripción semanal
+interstitial-offer-button-keep-current-interval-halfyearly = Mantener la suscripción semestral
+interstitial-offer-button-keep-current-interval-monthly = Mantener la suscripción mensual
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Cargando…
     .alt = Cargando…

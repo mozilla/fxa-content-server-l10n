@@ -104,6 +104,9 @@ payments-header-avatar-icon =
     .alt = アカウントのプロファイル写真
 payments-header-avatar-expanded-signed-in-as = ログイン中のアカウント
 payments-header-avatar-expanded-sign-out = ログアウト
+
+##
+
 payments-client-loading-spinner =
     .aria-label = 読み込み中...
     .alt = 読み込み中...

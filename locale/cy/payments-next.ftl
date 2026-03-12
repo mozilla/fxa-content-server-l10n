@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Mae'r cynnig hwn wedi dod i ben
 churn-cancel-flow-error-offer-expired-message = Does dim gostyngiadau ar gael ar gyfer y tanysgrifiad hwn ar hyn o bryd. Gallwch barhau i ddiddymu os dymunwch.
 churn-cancel-flow-error-button-continue-to-cancel = Parhau i ddiddymu
 churn-cancel-flow-error-page-button-back-to-subscriptions = Nôl i danysgrifiadau
-churn-cancel-flow-error-already-canceling-title = Mae eich tanysgrifiad wedi'i osod i ddod i ben
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Byddwch yn parhau i gael mynediad at { $productName } tan { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Cadw tanysgrifiad
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Heb ganfod y dudalen
 not-found-loyalty-discount-description = Dyw'r dudalen rydych yn chwilio amdani ddim yn bodoli.
 not-found-loyalty-discount-button-back-to-subscriptions = Nôl i danysgrifiadau
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Parhau i ddiddymu
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Cadw tanysgrifiad dyddiol
-interstitial-offer-button-keep-current-interval-weekly = Cadw tanysgrifiad wythnosol
-interstitial-offer-button-keep-current-interval-monthly = Cadw tanysgrifiad misol
-interstitial-offer-button-keep-current-interval-halfyearly = Cadw tanysgrifiad chwe mis
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion
 
 cancel-subscription-button-cancel-subscription = Diddymu tanysgrifiad
     .aria-label = Diddymu'ch tanysgrifiad { $productName }
-cancel-subscription-button-stay-subscribed = Cadw wedi tanysgrifio
-    .aria-label = Cadw wedi tanysgrifio i { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Parhau i danysgrifio a arbed { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Parhau i danysgrifio ac arbed
-churn-cancel-flow-button-continue-to-cancel = Parhau i ddiddymu
 churn-cancel-flow-link-terms-and-restrictions = Mae telerau a chyfyngiadau cyfyngedig yn berthnasol
 churn-cancel-flow-discount-already-applied-title = Cod disgownt eisoes wedi'i osod
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = Llun proffil cyfrif
 payments-header-avatar-expanded-signed-in-as = Mewngofnodwyd fel
 payments-header-avatar-expanded-sign-out = Allgofnodi
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Cadw tanysgrifiad dyddiol
+interstitial-offer-button-keep-current-interval-weekly = Cadw tanysgrifiad wythnosol
+interstitial-offer-button-keep-current-interval-halfyearly = Cadw tanysgrifiad chwe mis
+interstitial-offer-button-keep-current-interval-monthly = Cadw tanysgrifiad misol
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Yn Llwytho…
     .alt = Yn Llwytho…

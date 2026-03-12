@@ -2,15 +2,6 @@
 
 churn-cancel-flow-error-button-continue-to-cancel = បន្តលុបចោល
 
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = បន្តលុបចោល
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-monthly = រក្សាការជាវប្រចាំខែ
-interstitial-offer-button-keep-current-interval-halfyearly = រក្សាការជាវរយៈពេលប្រាំមួយខែ
-
 ## Error page
 
 interstitial-offer-error-button-cancel-subscription = បន្តលុបចោល
@@ -29,9 +20,10 @@ cancel-subscription-heading = បោះបង់ការជាវ { $productNam
 cancel-subscription-button-cancel-subscription = បោះបង់ការជាវ
     .aria-label = បោះបង់ការជាវ { $productName }
 
-## Churn flow - cancel
+## Daily/Weekly/Monthly refers to the user's current subscription interval
 
-churn-cancel-flow-button-continue-to-cancel = បន្តលុបចោល
+interstitial-offer-button-keep-current-interval-halfyearly = រក្សាការជាវរយៈពេលប្រាំមួយខែ
+interstitial-offer-button-keep-current-interval-monthly = រក្សាការជាវប្រចាំខែ
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice

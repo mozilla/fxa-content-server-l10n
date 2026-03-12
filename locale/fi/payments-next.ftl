@@ -227,6 +227,9 @@ payments-header-avatar-icon =
     .alt = Tilin profiilikuva
 payments-header-avatar-expanded-signed-in-as = Kirjautuneena tilillä
 payments-header-avatar-expanded-sign-out = Kirjaudu ulos
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Ladataan…
     .alt = Ladataan…

@@ -266,6 +266,9 @@ payments-header-avatar-icon =
     .alt = Zdjęcie profilowe konta
 payments-header-avatar-expanded-signed-in-as = Zalogowano jako
 payments-header-avatar-expanded-sign-out = Wyloguj się
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Wczytywanie…
     .alt = Wczytywanie…

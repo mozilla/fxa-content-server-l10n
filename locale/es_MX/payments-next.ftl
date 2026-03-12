@@ -83,6 +83,9 @@ payments-header-bento =
     .aria-label = Productos de { -brand-mozilla }
     .alt = Logo de { -brand-mozilla }
 payments-header-bento-tagline = Más productos de { -brand-mozilla } que protegen tu privacidad
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Cargando…
     .alt = Cargando…

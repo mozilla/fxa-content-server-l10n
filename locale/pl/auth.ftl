@@ -223,9 +223,7 @@ subscriptionEndingReminder-title = Subskrypcja { $productName } wkrótce wygaśn
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Twój dostęp do { $productName } zakończy się <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2 = Jeśli chcesz nadal korzystać z { $productName }, możesz ponownie aktywować subskrypcję w <a data-l10n-name="subscriptionEndingReminder-account-settings">Ustawieniach konta</a> przed <strong>{ $serviceLastActiveDateOnly }</strong>. Jeśli potrzebujesz pomocy, <a data-l10n-name="subscriptionEndingReminder-contact-support">skontaktuj się z naszym Zespołem Wsparcia</a>.
 subscriptionEndingReminder-content-line1-plaintext = Twój dostęp do { $productName } zakończy się { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Jeśli chcesz nadal korzystać z { $productName }, możesz ponownie aktywować subskrypcję w Ustawieniach konta przed { $serviceLastActiveDateOnly }. Jeśli potrzebujesz pomocy, skontaktuj się z naszym Zespołem Wsparcia.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Subskrypcja { $productName } została anulowana

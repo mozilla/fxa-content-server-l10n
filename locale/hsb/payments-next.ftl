@@ -118,28 +118,12 @@ churn-cancel-flow-error-offer-expired-title = Tutón poskitk je spadnjeny
 churn-cancel-flow-error-offer-expired-message = Tuchwilu žane rabaty za tutón abonement k dispoziciji njejsu. Móžeće z anulaciju pokročować, jeli chceće.
 churn-cancel-flow-error-button-continue-to-cancel = Dale k anulaciji
 churn-cancel-flow-error-page-button-back-to-subscriptions = Wróćo k abonementam
-churn-cancel-flow-error-already-canceling-title = Waš abonement so skónči
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Maće dale přistup k { $productName } hač do { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Abonement wobchować
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Strona njeje so namakała
 not-found-loyalty-discount-description = Strona, kotruž pytaće, njeeksistuje.
 not-found-loyalty-discount-button-back-to-subscriptions = Wróćo k abonementam
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Dale k anulaciji
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Wšědny abonement wobchować
-interstitial-offer-button-keep-current-interval-weekly = Tydźenski abonement wobchować
-interstitial-offer-button-keep-current-interval-monthly = Měsačny abonement wobchować
-interstitial-offer-button-keep-current-interval-halfyearly = Šěsćměsačny abonement wobchować
 
 ## Error page
 
@@ -247,8 +231,6 @@ subscription-content-cancel-access-message = Wotstrońće mój přistup  a moje 
 
 cancel-subscription-button-cancel-subscription = Abonement wupowědźić
     .aria-label = Waš abonement { $productName } wupowědźić
-cancel-subscription-button-stay-subscribed = Dale abonować
-    .aria-label = { $productName } dale abonować
 
 ## Component - Payment Consent Checkbox
 
@@ -272,7 +254,6 @@ churn-cancel-flow-action-error = Njewočakowany zmylk je nastał. Prošu spytaj�
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Podlěšće swój abonement a zalutujće { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Abonement podlěšić a zalutować
-churn-cancel-flow-button-continue-to-cancel = Dale k anulaciji
 churn-cancel-flow-link-terms-and-restrictions = Płaća wobmjezowane wuměnjenja a wobmjezowanja
 churn-cancel-flow-discount-already-applied-title = Rabatowy kod je so hižo nałožił
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -343,6 +324,16 @@ payments-header-avatar-icon =
     .alt = Kontowy profilowy wobraz
 payments-header-avatar-expanded-signed-in-as = Přizjewjeny jako
 payments-header-avatar-expanded-sign-out = Wotzjewić
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Wšědny abonement wobchować
+interstitial-offer-button-keep-current-interval-weekly = Tydźenski abonement wobchować
+interstitial-offer-button-keep-current-interval-halfyearly = Šěsćměsačny abonement wobchować
+interstitial-offer-button-keep-current-interval-monthly = Měsačny abonement wobchować
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Začituje so…
     .alt = Začituje so…

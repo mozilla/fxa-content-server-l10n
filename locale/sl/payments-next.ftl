@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Ta ponudba je potekla
 churn-cancel-flow-error-offer-expired-message = Za to naročnino trenutno ni na voljo nobenih popustov. Če želite, lahko nadaljujete s preklicem.
 churn-cancel-flow-error-button-continue-to-cancel = Nadaljuj do preklica
 churn-cancel-flow-error-page-button-back-to-subscriptions = Nazaj na naročnine
-churn-cancel-flow-error-already-canceling-title = Vaša naročnina se je končala
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Dostop do { $productName } boste imeli do { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Obdrži naročnino
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Strani ni mogoče najti
 not-found-loyalty-discount-description = Stran, ki jo iščete, ne obstaja.
 not-found-loyalty-discount-button-back-to-subscriptions = Nazaj na naročnine
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Nadaljuj do preklica
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Obdrži dnevno naročnino
-interstitial-offer-button-keep-current-interval-weekly = Obdržite tedensko naročnino
-interstitial-offer-button-keep-current-interval-monthly = Obdržite mesečno naročnino
-interstitial-offer-button-keep-current-interval-halfyearly = Obdržite šestmesečno naročnino
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = Prekliči moj dostop in moje shranj
 
 cancel-subscription-button-cancel-subscription = Prekliči naročnino
     .aria-label = Prekličite naročnino na { $productName }
-cancel-subscription-button-stay-subscribed = Ohrani naročnino
-    .aria-label = Ostanite naročeni na { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Prišlo je do nepričakovane napake. Poskusite 
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Ostanite naročeni in prihranite { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Ostanite naročeni in prihranite
-churn-cancel-flow-button-continue-to-cancel = Nadaljuj do preklica
 churn-cancel-flow-link-terms-and-restrictions = Veljajo omejeni pogoji in omejitve
 churn-cancel-flow-discount-already-applied-title = Koda za popust je že uveljavljena
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = Profilna slika računa
 payments-header-avatar-expanded-signed-in-as = Prijavljeni kot
 payments-header-avatar-expanded-sign-out = Odjava
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Obdrži dnevno naročnino
+interstitial-offer-button-keep-current-interval-weekly = Obdržite tedensko naročnino
+interstitial-offer-button-keep-current-interval-halfyearly = Obdržite šestmesečno naročnino
+interstitial-offer-button-keep-current-interval-monthly = Obdržite mesečno naročnino
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Nalaganje …
     .alt = Nalaganje …

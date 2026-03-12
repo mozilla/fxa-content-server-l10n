@@ -123,6 +123,9 @@ payments-header-avatar-icon =
     .alt = Зображення профілю облікового запису
 payments-header-avatar-expanded-signed-in-as = Вхід виконано
 payments-header-avatar-expanded-sign-out = Вийти
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Завантаження…
     .alt = Завантаження…

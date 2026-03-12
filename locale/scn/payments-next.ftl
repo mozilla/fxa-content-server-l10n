@@ -123,6 +123,9 @@ payments-header-avatar-icon =
     .alt = Mmàggini di prufilu pû cuntu
 payments-header-avatar-expanded-signed-in-as = Trasisti comu
 payments-header-avatar-expanded-sign-out = Nesci
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Staju carricannu…
     .alt = Staju carricannu…

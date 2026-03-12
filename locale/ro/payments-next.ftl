@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Oferta a expirat
 churn-cancel-flow-error-offer-expired-message = Nu există reduceri disponibile pentru acest abonament. Poți continua cu anularea lui, dacă vrei.
 churn-cancel-flow-error-button-continue-to-cancel = Continuă cu anularea
 churn-cancel-flow-error-page-button-back-to-subscriptions = Înapoi la abonamente
-churn-cancel-flow-error-already-canceling-title = Abonamentul este programat să înceteze
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Vei avea în continuare acces la { $productName } până pe { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Păstrează abonamentul
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Pagina nu a fost găsită
 not-found-loyalty-discount-description = Pagina pe care o cauți nu există.
 not-found-loyalty-discount-button-back-to-subscriptions = Înapoi la abonamente
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Continuă cu anularea
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Păstrează abonamentul zilnic
-interstitial-offer-button-keep-current-interval-weekly = Păstrează abonamentul săptămânal
-interstitial-offer-button-keep-current-interval-monthly = Păstrează abonamentul lunar
-interstitial-offer-button-keep-current-interval-halfyearly = Păstrează abonamentul la șase luni
 
 ## Error page
 
@@ -240,8 +224,6 @@ subscription-content-cancel-access-message =
 
 cancel-subscription-button-cancel-subscription = Anulează abonamentul
     .aria-label = Anulează abonamentul la { $productName }
-cancel-subscription-button-stay-subscribed = Păstrează abonamentul
-    .aria-label = Păstrează abonamentul la { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -265,7 +247,6 @@ churn-cancel-flow-action-error = A apărut o eroare neașteptată. Te rugăm să
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Rămâi abonat(ă) și economisește { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Rămâi abonat(ă) și economisește
-churn-cancel-flow-button-continue-to-cancel = Continuă cu anularea
 churn-cancel-flow-link-terms-and-restrictions = Se aplică condiții și restricții limitate
 churn-cancel-flow-discount-already-applied-title = Codul de reducere a fost deja aplicat
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -336,6 +317,16 @@ payments-header-avatar-icon =
     .alt = Fotografie de profil a contului
 payments-header-avatar-expanded-signed-in-as = Autentificat(ă) ca
 payments-header-avatar-expanded-sign-out = Ieși din cont
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Păstrează abonamentul zilnic
+interstitial-offer-button-keep-current-interval-weekly = Păstrează abonamentul săptămânal
+interstitial-offer-button-keep-current-interval-halfyearly = Păstrează abonamentul la șase luni
+interstitial-offer-button-keep-current-interval-monthly = Păstrează abonamentul lunar
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Se încarcă…
     .alt = Se încarcă…

@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Бұл ұсыныстың мерз
 churn-cancel-flow-error-offer-expired-message = Қазіргі уақытта бұл жазылым үшін қолжетімді жеңілдіктер жоқ. Қаласаңыз, жазылымнан бас тарту процесін жалғастыра аласыз.
 churn-cancel-flow-error-button-continue-to-cancel = Бас тартуға жалғастыру
 churn-cancel-flow-error-page-button-back-to-subscriptions = Жазылымдарға оралу
-churn-cancel-flow-error-already-canceling-title = Сіздің жазылымыңыздың аяқталу уақыты таяп қалды
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Сіздің { $productName } қызметіне қол жеткізу мүмкіндігіңіз { $currentPeriodEnd } мерзіміне дейін сақталады.
-churn-cancel-flow-error-page-button-keep-subscription = Жазылымды сақтау
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Бет табылмады
 not-found-loyalty-discount-description = Сіз іздеген бет жоқ.
 not-found-loyalty-discount-button-back-to-subscriptions = Жазылымдарға оралу
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Бас тартуға жалғастыру
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Күнделікті жазылымды сақтау
-interstitial-offer-button-keep-current-interval-weekly = Апта сайынғы жазылымды сақтау
-interstitial-offer-button-keep-current-interval-monthly = Ай сайынғы жазылымды сақтау
-interstitial-offer-button-keep-current-interval-halfyearly = Алты ай сайынғы жазылымды сақтау
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = { $currentPeriodEnd } күні { $p
 
 cancel-subscription-button-cancel-subscription = Жазылымнан бас тарту
     .aria-label = { $productName } өніміне жазылымынан бас тарту
-cancel-subscription-button-stay-subscribed = Жазылымда қала беру
-    .aria-label = { $productName } өніміне жазылымында қала беру
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Күтпеген қате орын алды. Қ
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Жазылымды жалғастырыңыз және { $discountPercent }% үнемдеңіз
 churn-cancel-flow-button-stay-subscribed-and-save = Жазылымды жалғастырып, үнемдеңіз
-churn-cancel-flow-button-continue-to-cancel = Бас тартуға жалғастыру
 churn-cancel-flow-link-terms-and-restrictions = Шектеулі шарттар мен шектеулер қолданылады
 churn-cancel-flow-discount-already-applied-title = Жеңілдік коды қолданылып тұр
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = Тіркелгі профилінің суреті
 payments-header-avatar-expanded-signed-in-as = Кім ретінде кірген
 payments-header-avatar-expanded-sign-out = Шығу
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Күнделікті жазылымды сақтау
+interstitial-offer-button-keep-current-interval-weekly = Апта сайынғы жазылымды сақтау
+interstitial-offer-button-keep-current-interval-halfyearly = Алты ай сайынғы жазылымды сақтау
+interstitial-offer-button-keep-current-interval-monthly = Ай сайынғы жазылымды сақтау
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Жүктелуде…
     .alt = Жүктелуде…

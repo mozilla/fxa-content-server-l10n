@@ -130,6 +130,9 @@ payments-header-avatar =
 payments-header-avatar-icon =
     .alt = Расми профили ҳисоб
 payments-header-avatar-expanded-sign-out = Баромад
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Бор шуда истодааст…
     .alt = Бор шуда истодааст…

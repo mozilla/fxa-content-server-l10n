@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Dette tilbudet er utløpt
 churn-cancel-flow-error-offer-expired-message = Det er for øyeblikket ingen rabatter tilgjengelig for dette abonnementet. Du kan fortsette med oppsigelsen hvis du ønsker det.
 churn-cancel-flow-error-button-continue-to-cancel = Fortsett med oppsigelsen
 churn-cancel-flow-error-page-button-back-to-subscriptions = Tilbake til abonnementer
-churn-cancel-flow-error-already-canceling-title = Abonnementet ditt er satt til å avsluttes
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Du vil fortsatt ha tilgang til { $productName } frem til { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Behold abonnementet
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Fant ikke siden
 not-found-loyalty-discount-description = Siden du leter etter finnes ikke.
 not-found-loyalty-discount-button-back-to-subscriptions = Tilbake til abonnementer
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Fortsett med oppsigelsen
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Behold daglig abonnement
-interstitial-offer-button-keep-current-interval-weekly = Behold ukentlig abonnement
-interstitial-offer-button-keep-current-interval-monthly = Behold månedlig abonnement
-interstitial-offer-button-keep-current-interval-halfyearly = Behold halvårlig abonnement
 
 ## Error page
 
@@ -242,8 +226,6 @@ subscription-content-cancel-access-message = Avbryt tilgangen min og lagret info
 
 cancel-subscription-button-cancel-subscription = Avslutt abonnement
     .aria-label = Avslutt abonnementet på { $productName }
-cancel-subscription-button-stay-subscribed = Fortsett abonnementet
-    .aria-label = Fortsett abonnementet på { $productName }
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +249,6 @@ churn-cancel-flow-action-error = Det oppstod en uventet feil. Prøv på nytt.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortsett å abonnere og spar { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Fortsett å abonnere og spar
-churn-cancel-flow-button-continue-to-cancel = Fortsett med oppsigelsen
 churn-cancel-flow-link-terms-and-restrictions = Begrensede vilkår og restriksjoner gjelder
 churn-cancel-flow-discount-already-applied-title = Rabattkoden er allerede brukt
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -338,6 +319,16 @@ payments-header-avatar-icon =
     .alt = Kontoprofilbilde
 payments-header-avatar-expanded-signed-in-as = Logget inn som
 payments-header-avatar-expanded-sign-out = Logg ut
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Behold daglig abonnement
+interstitial-offer-button-keep-current-interval-weekly = Behold ukentlig abonnement
+interstitial-offer-button-keep-current-interval-halfyearly = Behold halvårlig abonnement
+interstitial-offer-button-keep-current-interval-monthly = Behold månedlig abonnement
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Laster …
     .alt = Laster …

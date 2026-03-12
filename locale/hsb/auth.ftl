@@ -268,9 +268,7 @@ subscriptionEndingReminder-title = Waš abonement { $productName } bórze spadnj
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Waš přistup k { $productName } so dnja <strong>{ $serviceLastActiveDateOnly }</strong> skónči.
-subscriptionEndingReminder-content-line2 = Jeli rady chceće { $productName } dale wužiwać, móžeće swój abonement w <a data-l10n-name="subscriptionEndingReminder-account-settings">kontowych nastajenjach</a> před <strong>{ $serviceLastActiveDateOnly }</strong> reaktiwizować. Jeli pomoc trjebaće, <a data-l10n-name="subscriptionEndingReminder-contact-support">stajće so z našim teamom pomocy do zwiska</a>.
 subscriptionEndingReminder-content-line1-plaintext = Waš přistup k { $productName } so dnja { $serviceLastActiveDateOnly } skónči.
-subscriptionEndingReminder-content-line2-plaintext = Jeli rady chceće { $productName } dale wužiwać, móžeće swój abonement w kontowych nastajenjach před { $serviceLastActiveDateOnly } reaktiwizować. Jeli pomoc trjebaće, stajće so z našim teamom pomocy do zwiska.
 subscriptionEndingReminder-content-closing = Dźakujemy so, zo sće waženy abonent!
 subscriptionEndingReminder-churn-title = Chceće přistup wobchować?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Płaća wobmjezowane wuměnjenja a wobmjezowanja</a>

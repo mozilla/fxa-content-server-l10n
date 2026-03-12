@@ -191,6 +191,9 @@ payments-header-avatar-icon =
     .alt = 계정 프로필 사진
 payments-header-avatar-expanded-signed-in-as = 로그인 됨
 payments-header-avatar-expanded-sign-out = 로그아웃
+
+##
+
 payments-client-loading-spinner =
     .aria-label = 읽는 중…
     .alt = 읽는 중…

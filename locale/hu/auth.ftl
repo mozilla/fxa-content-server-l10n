@@ -264,9 +264,7 @@ subscriptionEndingReminder-title = A { $productName }-előfizetése hamarosan le
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = A(z) { $productName } szolgáltatáshoz való hozzáférése ekkor jár le: <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2 = Ha továbbra is szeretné használni a { $productName } szolgáltatást, akkor a <a data-l10n-name="subscriptionEndingReminder-account-settings">Fiókbeállítások</a> részben <strong>{ $serviceLastActiveDateOnly }</strong> előtt aktiválhatja az előfizetését. Ha segítségre van szüksége, <a data-l10n-name="subscriptionEndingReminder-contact-support">lépjen kapcsolatba az ügyfélszolgálati csapatunkkal</a>.
 subscriptionEndingReminder-content-line1-plaintext = A(z) { $productName } szolgáltatáshoz való hozzáférése ekkor jár le: { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Ha továbbra is szeretné használni a(z) { $productName } szolgáltatást, akkor { $serviceLastActiveDateOnly } előtt újraaktiválhatja az előfizetését a Fiókbeállításokban. Ha segítségre van szüksége, forduljon támogatási csapatunkhoz.
 subscriptionEndingReminder-content-closing = Köszönjük, hogy értékes előfizető lett!
 subscriptionEndingReminder-churn-title = Meg szeretné tartani a hozzáférését?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Korlátozott feltételek és korlátozások vonatkoznak erre</a>

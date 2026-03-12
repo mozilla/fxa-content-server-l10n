@@ -127,6 +127,9 @@ payments-header-bento =
     .alt = { -brand-mozilla } ਲੋਗੋ
 payments-header-bento-close =
     .alt = ਬੰਦ ਕਰੋ
+
+##
+
 payments-client-loading-spinner =
     .aria-label = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
     .alt = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ

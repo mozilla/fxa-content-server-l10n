@@ -118,6 +118,9 @@ payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-made-by-mozilla = สร้างโดย { -brand-mozilla }
 payments-header-avatar-expanded-signed-in-as = ลงชื่อเข้าใช้เป็น
+
+##
+
 payments-client-loading-spinner =
     .aria-label = กำลังโหลด…
     .alt = กำลังโหลด…

@@ -260,9 +260,7 @@ subscriptionEndingReminder-title = Pajtimi juaj { $productName } do të skadojë
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Hyrja juaj në { $productName } do të përfundojë më <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2 = Nëse do të donit të vazhdoni të përdorni { $productName }, mund të riaktivizoni pajtimin tuaj që nga <a data-l10n-name="subscriptionEndingReminder-account-settings">Rregullime Llogarie</a> para <strong>{ $serviceLastActiveDateOnly }</strong>. Nëse ju duhet asistencë, <a data-l10n-name="subscriptionEndingReminder-contact-support">lidhuni me Ekipin tonë të Asistencës</a>.
 subscriptionEndingReminder-content-line1-plaintext = Hyrja juaj në { $productName } do të përfundojë më { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext = Nëse do të donit të vazhdoni të përdorni { $productName }, mund të riaktivizoni pajtimin tuaj që nga Rregullime Llogarie, para { $serviceLastActiveDateOnly }. Nëse ju duhet asistencë, lidhuni me Ekipin tonë të Asistencës.
 subscriptionEndingReminder-content-closing = Falemiderit që jeni një pajtimtar i çmuar!
 subscriptionEndingReminder-churn-title = Dëshironi të ruani hyrje?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Kanë vend kushte të kufizuara dhe kufizime</a>

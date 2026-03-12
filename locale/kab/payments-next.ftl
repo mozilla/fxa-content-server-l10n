@@ -94,6 +94,9 @@ payments-header-avatar-icon =
     .alt = Tugna n umaɣnu n umiḍan
 payments-header-avatar-expanded-signed-in-as = Tkecmeḍ s yisem
 payments-header-avatar-expanded-sign-out = Ffeɣ
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Asali…
     .alt = Asali…

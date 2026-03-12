@@ -108,6 +108,9 @@ payments-header-avatar-icon =
     .alt = Maletg da profil dal conto
 payments-header-avatar-expanded-signed-in-as = Annunzià sco
 payments-header-avatar-expanded-sign-out = Sortir
+
+##
+
 payments-client-loading-spinner =
     .aria-label = Chargiar…
     .alt = Chargiar…
