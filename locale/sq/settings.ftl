@@ -66,6 +66,15 @@ recovery-key-pdf-support = Mësoni më tepër mbi kyçin tuaj të rimarrjes së 
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Na ndjeni, pati një problem me shkarkimin e kyçit tuaj të rimarrjes së llogarisë.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Hyni me kyçkalim
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Po hyhet në mënyrë të siguruar…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -249,6 +258,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Flamuri i Shteteve të Bashkuara
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Po ngarkohet
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Kyçkalim
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1135,7 +1150,23 @@ tfa-row-backup-phone-description-v2 = Kjo është metoda më e kollajtë për ri
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Mësoni rreth rrezikut të ndërrimit të SIM-eve
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Krijuar më: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Përdorur së fundi më: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Vetëm për hyrje. S’mund të përdoret për njëkohësim.
+passkey-sub-row-delete-title = Fshije kyçkalimin
+passkey-delete-modal-heading = Të fshihet kyçkalimi juaj?
+passkey-delete-modal-content = Ky kyçkalim do të hiqet nga llogaria juaj. Do t’ju duhet të bëni hyrjen duke përdorur tjetër mënyrë.
 passkey-delete-modal-cancel-button = Anuloje
+passkey-delete-modal-confirm-button = Fshije kyçkalimin
+passkey-delete-success = Kyçkalimi u fshi
+passkey-delete-error = Pati një problem gjatë fshirjes së kyçkalimit tuaj. Riprovoni pas pak minutash.
 
 ## Switch component
 

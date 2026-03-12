@@ -252,6 +252,24 @@ subscriptionDowngrade-content-charge-info = Duke filluar me faturën tuaj të ar
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Në pastë <em>software</em> të ri që ta instaloni, për të mundur të përdorni { $productName }, do të merrni një email veçmas me udhëzime shkarkimi.
 subscriptionDowngrade-content-auto-renew = Pajtimi juaj do të rinovohet automatikisht çdo periudhë faturimi, deri sa të zgjidhni anulimin.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Pajtimi juaj { $productName } do të skadojë së shpejti
+subscriptionEndingReminder-title = Pajtimi juaj { $productName } do të skadojë së shpejti
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = Hyrja juaj në { $productName } do të përfundojë më <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line1-plaintext = Hyrja juaj në { $productName } do të përfundojë më { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-closing = Falemiderit që jeni një pajtimtar i çmuar!
+subscriptionEndingReminder-churn-title = Dëshironi të ruani hyrje?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Kanë vend kushte të kufizuara dhe kufizime</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Kanë vend kushte të kufizuara dhe kufizime: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Lidhuni me Ekipin tonë të Asistencës: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Pajtimi juaj për { $productName } është anuluar
@@ -313,6 +331,26 @@ subscriptionRenewalReminder-title = Pajtimi juaj do të rinovohet së shpejti
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = I dashur klient i { $productName },
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Pajtimi juaj i tanishëm është ujdisur të rinovohet automatikisht pas { $reminderLength } ditësh.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj ditor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotalExcludingTax } + { $invoiceTax } taksa.
+subscriptionRenewalReminder-content-charge-with-tax-week = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj javor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotalExcludingTax } + { $invoiceTax } taksa.
+subscriptionRenewalReminder-content-charge-with-tax-month = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj mujor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotalExcludingTax } + { $invoiceTax } taksa.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj gjashtëmujor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotalExcludingTax } + { $invoiceTax } taksa.
+subscriptionRenewalReminder-content-charge-with-tax-year = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj vjetor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotalExcludingTax } + { $invoiceTax } taksa.
+subscriptionRenewalReminder-content-charge-with-tax-default = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotalExcludingTax } + { $invoiceTax } taksa.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj ditor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj javor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj mujor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj gjashtëmujor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj vjetor dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotal }.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Në atë kohë, { -brand-mozilla } do ta rinovojë pajtimin tuaj dhe te metoda e pagesës te llogaria juaj do të aplikohet një faturim prej { $invoiceTotal }.
 subscriptionRenewalReminder-content-closing = Sinqerisht,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

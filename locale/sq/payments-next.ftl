@@ -126,7 +126,9 @@ not-found-loyalty-discount-button-back-to-subscriptions = Mbrapsht te pajtimet
 ## Error page
 
 interstitial-offer-error-customer-mismatch-heading = Ky pajtim s’është i përshoqëruar me llogarinë tuaj
+interstitial-offer-error-customer-mismatch-message = Sigurohuni se keni bërë hyrjen me llogarinë e saktë, ose lidhuni me Asistencën, nëse ju duhet ndihmë.
 interstitial-offer-error-button-back-to-subscriptions = Mbrapsht te pajtimet
+interstitial-offer-error-button-cancel-subscription = Vazhdoni që të anulohet
 interstitial-offer-error-button-sign-in = Hyni
 interstitial-offer-error-button-contact-support = Lidhuni Me Asistencën
 
@@ -262,8 +264,12 @@ churn-cancel-flow-button-go-to-product-page = Kalo te { $productName }
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Qëndroni të pajtuar dhe kurseni { $discountPercent }%
+churn-stay-subscribed-button-stay-subscribed-and-save = Qëndroni të pajtuar dhe kurseni
 churn-stay-subscribed-button-no-thanks = Jo, faleminderit
     .aria-label = Mbrapsht te faqja e Pajtimeve
+churn-stay-subscribed-link-terms-and-restrictions = Kanë vend kushte të kufizuara dhe kufizime
 churn-stay-subscribed-title-offer-expired = Kjo ofertë ka skaduar
 
 ## $productName (String) - The name of the product associated with the subscription.
@@ -563,3 +569,23 @@ manage-payment-method-intent-error-try-again = Hëm. Pati një problem me autori
 manage-payment-method-intent-error-get-in-touch = Hëm. Pati një problem me autorizimin e pagesës tuaj. Lidhuni me emetuesin e kartës tuaj.
 manage-payment-method-intent-error-insufficient-funds = Duket sikur karta juaj e kreditit ka kredit të pamjaftueshëm. Provoni një kartë tjetër.
 manage-payment-method-intent-error-generic = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = Do të kurseni { $discountPercent }% në faturimin pasues për ju prej { $nextInvoiceTotal } + { $taxDue } taksa, në kartën e kreditit që përfundon me { $last4 }, më { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Do të kurseni { $discountPercent }% në faturimin pasues për ju prej { $nextInvoiceTotal } + { $taxDue } taksë, në metodën tuaj të pagesës { $paymentMethod }, më { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Do të kurseni { $discountPercent }% në faturimin pasues për ju prej { $nextInvoiceTotal } + { $taxDue } taksa, më { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Do të kurseni { $discountPercent }% në faturimin pasues për ju prej { $nextInvoiceTotal }, në kartën e kreditit që përfundon me { $last4 }, më { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Do të kurseni { $discountPercent }% në faturimin pasues për ju prej { $nextInvoiceTotal }, në metodën tuaj të pagesës { $paymentMethod }, më { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Do të kurseni { $discountPercent }% në faturimin pasues për ju prej { $nextInvoiceTotal }, më { $currentPeriodEnd }.
+next-charge-with-tax-card = Faturimi juaj pasues do të jetë { $nextInvoiceTotal } + { $taxDue } taksa, në kartën që përfundon me { $last4 }, më { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Faturimi juaj pasues do të jetë { $nextInvoiceTotal } + { $taxDue } taksa, në metodën tuaj të pagesës { $paymentMethod }, më { $currentPeriodEnd }.
+next-charge-with-tax = Faturimi juaj pasues do të jetë { $nextInvoiceTotal } + { $taxDue } taksa, më { $currentPeriodEnd }.
+next-charge-no-tax-card = Faturimi juaj pasues do të jetë { $nextInvoiceTotal }, në kartën që përfundon me { $last4 }, më { $currentPeriodEnd }.
+next-charge-no-tax-payment-method = Faturimi juaj pasues do të jetë { $nextInvoiceTotal }, në metodën tuaj të pagesës { $paymentMethod }, më { $currentPeriodEnd }.
+next-charge-no-tax = Faturimi juaj pasues do të jetë { $nextInvoiceTotal }, më { $currentPeriodEnd }.
