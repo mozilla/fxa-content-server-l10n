@@ -1352,6 +1352,7 @@ auth-error-224 = S’u gjet kyçkalim
 auth-error-225 = Kyçkalim tashmë i regjistruar
 auth-error-226 = U mbërrit në kufij kyçkalimi
 auth-error-227 = Mirëfilltësimi me kyçkalim dështoi
+auth-error-228 = Regjistrimi i kyçkalimit dështoi
 auth-error-999 = Gabim i papritur
 auth-error-1001 = Përpjekja për hyrje u anulua
 auth-error-1002 = Sesioni skadoi. Që të vazhdohet, bëni hyrjen.
@@ -1376,6 +1377,46 @@ auth-error-1067 = Email i shkruar gabim?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numër që përfundon me { $lastFourPhoneNumber }
 oauth-error-1000 = Diç shkoi ters. Ju lutemi, mbylleni këtë skedë dhe riprovoni.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Ujdisja e kyçkalimit dështoi, ose s’është e mundshme. Riprovoni, ose zgjidhni tjetër metodë.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Ujdisja e kyçkalimit qe anuluar. Riprovoni.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Këtu s’mbulohen kyçkalime. Provoni metodë ose pajisje tjetër.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Në këtë faqe s’mund të ujdisen kyçkalime. Përdorni sajtin e siguruar dhe riprovoni.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Ky kyçkalim është i regjistruar tashmë. Përdoreni që të bëni hyrjen, ose shtoni një kyçkalim tjetër.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = S’hymë dot te aplikacioni mirëfilltësues. Riprovoni, ose zgjidhni metodë tjetër
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Ujdisja e kyçkalimit s’është e përdorshme me këtë pajisje. Provoni metodë ose pajisje tjetër.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Ujdisja e kyçkalimit dështoi. Riprovoni, ose zgjidhni tjetër metodë.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Hyrja me kyçkalim dështoi, ose s’është e përdorshme. Riprovoni, ose zgjidhni tjetër metodë.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Kërkesës për kyçkalim i mbaroi koha. Ju lutemi, riprovoni.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Nuk mbulohen kyçkalime. Provoni metodë ose pajisje tjetër.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Në këtë faqe s’mund të përdoren kyçkalime. Kontrolloni nëse jeni në sajtin e saktë të siguruar dhe riprovoni.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Diç shkoi ters me kyçkalimin tuaj. Riprovoni, ose përdorni tjetër metodë hyrjesh.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = S’hymë dot te aplikacioni mirëfilltësues. Riprovoni, ose përdorni tjetër metodë hyrjesh.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Diç shkoi ters. Riprovoni, ose përdorni tjetër metodë hyrjesh.
 
 ## Connect Another Device page
 
@@ -1594,6 +1635,15 @@ pair-wait-for-auth-heading-text = Miratim i domosdoshëm tani <span>që nga paji
 pair-unsupported-header = Çiftoji duke përdorur një aplikacion
 pair-unsupported-message = Përdorët kamerën e sistemit? Duhet të bëni çiftim që nga brenda aplikacionit { -brand-firefox }.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } u ripohua
+service-welcome-signin-success-banner = U hy me sukses!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Më pas: Hapni VPN-në
+service-welcome-vpn-description = Edhe një hap për të përforcuar privatësinë e shfletuesit tuaj. Kaloni te paneli i hapur dhe aktivizojeni.
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
@@ -1807,6 +1857,8 @@ back = Mbrapsht
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
 signin-passkey-fallback-header = Përfundoni hyrjen
+signin-passkey-fallback-heading = Që të bëhet njëkohësimi, jepni fjalëkalimin tuaj
+signin-passkey-fallback-body = Që të ruhen të parrezik të dhënat tuaja, ju duhet të jepni fjalëkalimin tuaj, kur përdorni këtë kyçkalim.
 signin-passkey-fallback-password-label = Fjalëkalim
 signin-passkey-fallback-go-to-settings = Kalo te rregullimet
 signin-passkey-fallback-continue = Vazhdo
@@ -1920,6 +1972,13 @@ signin-token-code-confirm-button = Ripohojeni
 signin-token-code-code-expired = Skadoi kodi?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Dërgo me email kod të ri.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Dërgo kod të ri me email pas { $seconds } sekonde
+       *[other] Dërgo kod të ri me email pas { $seconds } sekondash
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Lypset kod ripohimi
 signin-token-code-resend-error = Diç shkoi ters. S’u dërgua dot një kod i ri.
@@ -1992,6 +2051,13 @@ confirm-signup-code-sync-button = Fillo njëkohësim
 confirm-signup-code-code-expired = Skadoi kodi?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Dërgo me email kod të ri.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Dërgo kod të ri me email pas { $seconds } sekonde
+       *[other] Dërgo kod të ri me email pas { $seconds } sekondash
+    }
 confirm-signup-code-success-alert = Llogaria u ripohua me sukses
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Kodi i ripohimit është i domosdoshëm
