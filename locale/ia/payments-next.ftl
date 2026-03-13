@@ -276,6 +276,11 @@ churn-cancel-flow-button-go-to-product-page = Va a { $productName }
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
 churn-cancel-flow-after = Postea, tu abonamento sera renovate automaticamente al tarifa standard, si tu non lo cancella.
 churn-cancel-flow-cancel-success-title = Nos regretta vider que tu va
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Tu ancora habera accesso a { $productName } usque le { $date }.
+churn-cancel-flow-cancel-turn-back-on = Tu pote reactivar tu abonamento quandocunque, ante que illo fini.
+churn-cancel-flow-cancel-success-dialog-aside = Ha tu questiones? Visita le <LinkExternal>Supporto de { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -298,6 +303,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Gratias pro esser un abonato va
 churn-stay-subscribed-button-go-to-product-page = Va a { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Va a abonamentos
 churn-stay-subscribed-button-stay-subscribed = Restar abonate
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Postea, tu abonamento sera renovate automaticamente al tarifa standard, si tu non lo cancella.
 
 ## Component - CouponForm
 
@@ -336,12 +343,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = In session como
 payments-header-avatar-expanded-sign-out = Clauder session
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Nos regretta vider que tu va
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Tu abonamento a { $productName } ha essite cancellate. Tu ancora habera accesso a { $productName } usque le { $date }.
+interstitial-offer-turn-back-on = Tu pote reactivar tu abonamento quandocunque, ante que illo fini.
+interstitial-offer-cancel-success-dialog-aside = Ha tu questiones? Visita le <LinkExternal>Supporto de { -brand-mozilla }</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Retornar a abonamentos
+interstitial-offer-action-error = Un error impreviste occurreva, retenta.
+interstitial-offer-cancel-subscription-button = Cancellar abonamento
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Mantener abonamento quotidian
 interstitial-offer-button-keep-current-interval-weekly = Mantener abonamento septimanal
 interstitial-offer-button-keep-current-interval-halfyearly = Obtener abonamento sex-mensual
 interstitial-offer-button-keep-current-interval-monthly = Mantener abonamento mensual
+interstitial-offer-button-keep-subscription = Mantener abonamento
 
 ##
 

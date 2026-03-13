@@ -1661,6 +1661,11 @@ set-password-heading-v2 = Crear password pro synchronisar
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Isto crypta tu datos. Illo debe esser differente contrasigno de conto { -brand-google } o { -brand-apple }.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Iste contrasigno crypta tu datos synchronisate e los mantene secur.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1869,6 +1874,25 @@ signin-passkey-fallback-continue = Continuar
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Insere le codice de confirmation
+signin-passwordless-code-subheading = Le authentication emplea solo un sol passo quando tu usa iste codice.
+signin-passwordless-code-input-label = Insere le codice de 8 digitos
+signin-passwordless-code-confirm-button = Confirmar
+signin-passwordless-code-required-error = Codice de confirmation necessari
+signin-passwordless-code-expired = Codice expirate?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Inviar nove codice in { $seconds } secunda
+       *[other] Inviar nove codice in { $seconds } secundas
+    }
+signin-passwordless-code-resend-link = Inviar per email nove codice.
+signin-passwordless-code-resend-error = Alco errate eveniva. Un nove codice non pote esser inviate.
+signin-passwordless-code-other-account-link = Usa un conto differente
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
