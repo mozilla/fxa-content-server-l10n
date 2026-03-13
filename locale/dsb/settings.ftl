@@ -1890,13 +1890,40 @@ signin-passkey-fallback-continue = Dalej
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Wobkšuśeński kod zapódaś
+signin-passwordless-code-subheading = Pśizjawjenje jano jaden kšac trajo, gaž toś ten kod wužywaśo.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Zapódajśo kod, kótaryž jo se pósłał za { $expirationMinutes } minutu na <email>{ $email }</email>.
+        [two] Zapódajśo kod, kótaryž jo se pósłał za { $expirationMinutes } minuśe na <email>{ $email }</email>.
+        [few] Zapódajśo kod, kótaryž jo se pósłał za { $expirationMinutes } minuty na <email>{ $email }</email>.
+       *[other] Zapódajśo kod, kótaryž jo se pósłał za { $expirationMinutes } minutow na <email>{ $email }</email>.
+    }
 signin-passwordless-code-input-label = 8-městnowy kod zapódaś
 signin-passwordless-code-confirm-button = Wobkšuśiś
 signin-passwordless-code-required-error = Wobkšuśeński kod trjebny
 signin-passwordless-code-expired = Kod jo spadnuł?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Nowy kod za { $seconds } sekundu pśez e-mail słaś
+        [two] Nowy kod za { $seconds } sekunźe pśez e-mail słaś
+        [few] Nowy kod za { $seconds } sekundy pśez e-mail słaś
+       *[other] Nowy kod za { $seconds } sekundow pśez e-mail słaś
+    }
 signin-passwordless-code-resend-link = Nowy kod pśez e-mail pósłaś.
 signin-passwordless-code-resend-error = Něco njejo se raźiło. Nowy code njedajo se słaś.
 signin-passwordless-code-other-account-link = Wužywajśo druge konto
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Registrěrowanje jano jaden kšac trajo, gaž toś ten kod wužywaśo.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
