@@ -198,6 +198,11 @@ alert-dialog-title = Fenestra de dialogo de alerta
 ## Already Canceling
 
 already-canceling-title = Tu abonamento es preste a finir
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Tu continuara a haber accesso a { $productName } usque le { $date }.
+already-canceling-turn-back-on = Tu pote reactivar tu abonamento quandocunque, ante que illo fini.
+already-canceling-button-back-to-subscriptions = Retornar a abonamentos
 
 ## Navigation breadcrumbs
 
@@ -232,6 +237,7 @@ subscription-content-cancel-access-message = Cancellar mi accesso e mi informati
 
 cancel-subscription-button-cancel-subscription = Cancellar abonamento
     .aria-label = Cancella tu abonamento a { $productName }
+cancel-subscription-button-keep-subscription = Mantener abonamento
 
 ## Component - Payment Consent Checkbox
 
@@ -255,6 +261,7 @@ churn-cancel-flow-action-error = Un error impreviste occurreva, retenta.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Resta abonate e sparnia { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Resta abonate e sparnia
+churn-cancel-flow-button-cancel-subscription = Cancellar abonamento
 churn-cancel-flow-link-terms-and-restrictions = Conditiones e restrictiones limitate es applicate
 churn-cancel-flow-discount-already-applied-title = Codice de disconto jam applicate
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -266,6 +273,8 @@ churn-cancel-flow-button-contact-support = Contactar assistentia
 
 churn-cancel-flow-subscription-active-title = Tu abonamento a { $productName } es active
 churn-cancel-flow-button-go-to-product-page = Va a { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Postea, tu abonamento sera renovate automaticamente al tarifa standard, si tu non lo cancella.
 churn-cancel-flow-cancel-success-title = Nos regretta vider que tu va
 
 ## Churn flow - stay subscribed
