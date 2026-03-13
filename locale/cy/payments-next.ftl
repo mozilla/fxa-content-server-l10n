@@ -197,7 +197,7 @@ alert-dialog-title = Deialog rhybuddio
 
 ## Already Canceling
 
-already-canceling-title = Mae eich tanysgrifiad wedi'i osod i ddod i ben
+already-canceling-title = Mae eich tanysgrifiad yn dod i ben
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 already-canceling-message = Byddwch yn parhau i gael mynediad at { $productName } tan { $date }.
