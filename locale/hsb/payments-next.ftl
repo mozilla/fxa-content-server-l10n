@@ -279,6 +279,7 @@ churn-cancel-flow-cancel-success-title = Je nam žel, zo woteńdźeće
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 churn-cancel-flow-cancel-success-dialog-msg = Waš abonement za { $productName } je so wupowědźił. Maće hišće přistup k { $productName } hač do { $date }.
+churn-cancel-flow-cancel-success-dialog-aside = Maće prašenja? Wopytajće <LinkExternal>Pomoc { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -339,12 +340,24 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Přizjewjeny jako
 payments-header-avatar-expanded-sign-out = Wotzjewić
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Je nam žel, zo woteńdźeće
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Waš abonement za { $productName } je so wupowědźił. Maće hišće přistup k { $productName } hač do { $date }.
+interstitial-offer-cancel-success-dialog-aside = Maće prašenja? Wopytajće <LinkExternal>Pomoc { -brand-mozilla }</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Wróćo k abonementam
+interstitial-offer-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
+interstitial-offer-cancel-subscription-button = Abonement wupowědźić
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Wšědny abonement wobchować
 interstitial-offer-button-keep-current-interval-weekly = Tydźenski abonement wobchować
 interstitial-offer-button-keep-current-interval-halfyearly = Šěsćměsačny abonement wobchować
 interstitial-offer-button-keep-current-interval-monthly = Měsačny abonement wobchować
+interstitial-offer-button-keep-subscription = Abonement wobchować
 
 ##
 
