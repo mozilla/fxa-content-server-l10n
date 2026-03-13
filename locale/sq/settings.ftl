@@ -1655,6 +1655,11 @@ set-password-heading-v2 = Që të bëhet njëkohësim, krijoni fjalëkalim
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Kjo fshehtëzon të dhënat tuaja. Lypset të jetë i ndryshëm nga fjalëkalimi juaj për llogarinë në { -brand-google }, ose { -brand-apple }.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Ky fjalëkalim fshehtëzon të dhënat tuaja të njëkohësuara dhe i mban të siguruara.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1868,6 +1873,47 @@ signin-passkey-fallback-continue = Vazhdo
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Jepni kodin e ripohimit
+signin-passwordless-code-subheading = Hyrja zë vetëm një hap, kur përdorni këtë kod.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Jepni brenda { $expirationMinutes } minute kodin që u dërgua te <email>{ $email }</email>
+       *[other] Jepni brenda { $expirationMinutes } minutash kodin që u dërgua te <email>{ $email }</email>
+    }
+signin-passwordless-code-input-label = Jepni kodin 8-shifror
+signin-passwordless-code-confirm-button = Ripohojeni
+signin-passwordless-code-required-error = Lypset kod ripohimi
+signin-passwordless-code-expired = Skadoi kodi?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Dërgo kod të ri me email pas { $seconds } sekonde
+       *[other] Dërgo kod të ri me email pas { $seconds } sekondash
+    }
+signin-passwordless-code-resend-link = Dërgo me email kod të ri.
+signin-passwordless-code-resend-error = Diç shkoi ters. S’u dërgua dot një kod i ri.
+signin-passwordless-code-other-account-link = Përdorni një llogari tjetër
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Regjistrimi zë vetëm një hap, kur përdorni këtë kod.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Mirëfilltësimi dyhapësh është i aktivizuar në llogarinë tuaj. Ju lutemi, bëni hyrjen me fjalëkalimin tuaj.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
