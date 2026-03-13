@@ -1658,6 +1658,11 @@ set-password-heading-v2 = Create password to synchronise
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = This encrypts your data. It needs to be different from your { -brand-google } or { -brand-apple } account password.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = This password encrypts your synchronised data and keeps it secure.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1871,6 +1876,27 @@ signin-passkey-fallback-continue = Continue
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Enter confirmation code
+signin-passwordless-code-subheading = Sign-in only takes a single step when you use this code.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Enter the code that was sent to <email>{ $email }</email> within { $expirationMinutes } minute.
+       *[other] Enter the code that was sent to <email>{ $email }</email> within { $expirationMinutes } minutes.
+    }
+signin-passwordless-code-input-label = Enter 8-digit code
+signin-passwordless-code-confirm-button = Confirm
+signin-passwordless-code-required-error = Confirmation code required
+signin-passwordless-code-expired = Code expired?
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
