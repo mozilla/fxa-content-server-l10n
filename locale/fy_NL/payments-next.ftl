@@ -195,6 +195,15 @@ page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte 
 page-not-found-back-button = Tebek
 alert-dialog-title = Warskôgingsdialoochfinster
 
+## Already Canceling
+
+already-canceling-title = Jo abonnemint wurdt beëinige
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Jo behâlde oant { $date } tagong ta { $productName }.
+already-canceling-turn-back-on = Jo kinne jo abonnemint op elk momint eardat it einiget wer ynskeakelje.
+already-canceling-button-back-to-subscriptions = Tebek nei abonneminten
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +235,7 @@ subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens y
 
 cancel-subscription-button-cancel-subscription = Abonnemint opsizze
     .aria-label = Jo abonnemint op { $productName } opsizze
+cancel-subscription-button-keep-subscription = Abonnemint behâlde
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +259,7 @@ churn-cancel-flow-action-error = Der is in ûnferwachte flater bard, probearje i
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Bliuw abonnearre en besparje { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Bliuw abonnearre en besparje
+churn-cancel-flow-button-cancel-subscription = Abonnemint opsizze
 churn-cancel-flow-link-terms-and-restrictions = Der binne beheinde betingsten en beheiningen fan tapassing
 churn-cancel-flow-discount-already-applied-title = Koartingskoade al tapast
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -260,6 +271,14 @@ churn-cancel-flow-button-contact-support = Kontakt opnimme
 
 churn-cancel-flow-subscription-active-title = Jo { $productName }-abonnemint is aktyf
 churn-cancel-flow-button-go-to-product-page = Nei { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Dêrnei wurdt jo abonnemint automatysk fernijd tsjin de standertpriis, útsein as jo it opsizze.
+churn-cancel-flow-cancel-success-title = Wy fine it spitich dat jo ús ferlitte
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Jo abonnemint op { $productName } is opsein. Jo hawwe noch oant { $date } tagong ta { $productName }.
+churn-cancel-flow-cancel-turn-back-on = Jo kinne jo abonnemint op elk momint eardat it einiget wer ynskeakelje.
+churn-cancel-flow-cancel-success-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -282,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Tank dat jo in wurdearre abonne
 churn-stay-subscribed-button-go-to-product-page = Nei { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Nei Abonneminten
 churn-stay-subscribed-button-stay-subscribed = Abonnemint behâlde
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Dêrnei wurdt jo abonnemint automatysk fernijd tsjin de standertpriis, útsein as jo it opsizze.
 
 ## Component - CouponForm
 
@@ -320,12 +341,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Oanmeld as
 payments-header-avatar-expanded-sign-out = Ofmelde
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Wy fine it spitich dat jo ús ferlitte
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Jo abonnemint op { $productName } is opsein. Jo hawwe noch oant { $date } tagong ta { $productName }.
+interstitial-offer-turn-back-on = Jo kinne jo abonnemint op elk momint eardat it einiget wer ynskeakelje.
+interstitial-offer-cancel-success-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Tebek nei abonneminten
+interstitial-offer-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
+interstitial-offer-cancel-subscription-button = Abonnemint opsizze
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Dei-abonnemint behâlde
 interstitial-offer-button-keep-current-interval-weekly = Wike-abonnemint behâlde
 interstitial-offer-button-keep-current-interval-halfyearly = Healjierabonnemint behâlde
 interstitial-offer-button-keep-current-interval-monthly = Moanne-abonnemint behâlde
+interstitial-offer-button-keep-subscription = Abonnemint behâlde
 
 ##
 

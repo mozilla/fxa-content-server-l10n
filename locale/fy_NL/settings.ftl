@@ -1662,6 +1662,11 @@ set-password-heading-v2 = Meitsje in wachtwurd oan om te syngronisearjen
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Hjirtroch wurde jo gegevens fersifere. It moat wat oars wêze as jo { -brand-google }- of { -brand-apple }-accountwachtwurd.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Dit wachtwurd fersiferet jo syngronisearre gegevens en hâldt se feilich.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1872,6 +1877,36 @@ signin-passkey-fallback-continue = Trochgean
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Fier befêstigingskoade yn
+signin-passwordless-code-subheading = Oanmelden duorret mar ien stap as jo dizze koade brûke.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Fier binnen { $expirationTime } minút de koade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
+       *[other] Fier binnen { $expirationTime } minuten de koade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
+    }
+signin-passwordless-code-input-label = Fier 8-siferige koade yn
+signin-passwordless-code-confirm-button = Befêstigje
+signin-passwordless-code-required-error = Befêstigingskoade nedich
+signin-passwordless-code-expired = Koade ferrûn?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Nije koade oer { $seconds } sekonde ferstjoere
+       *[other] Nije koade oer { $seconds } sekonden ferstjoere
+    }
+signin-passwordless-code-resend-link = Nije koade per e-mail ferstjoere.
+signin-passwordless-code-resend-error = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
+signin-passwordless-code-other-account-link = In oar account brûke
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

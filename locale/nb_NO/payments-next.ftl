@@ -338,6 +338,11 @@ interstitial-offer-success-cancel-title = Det er leit at du forsvinner
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 interstitial-offer-cancel-success-dialog-msg = { $productName }-abonnementet ditt er avsluttet. Du vil fortsatt ha tilgang til { $productName } frem til { $date }.
+interstitial-offer-turn-back-on = Du kan slå abonnementet ditt på igjen når som helst før det utløper.
+interstitial-offer-cancel-success-dialog-aside = Har du spørsmål? Besøk <LinkExternal>{ -brand-mozilla }-brukerstøtte</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Tilbake til abonnementer
+interstitial-offer-action-error = Det oppstod en uventet feil. Prøv på nytt.
+interstitial-offer-cancel-subscription-button = Avslutt abonnement
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
@@ -345,6 +350,7 @@ interstitial-offer-button-keep-current-interval-daily = Behold daglig abonnement
 interstitial-offer-button-keep-current-interval-weekly = Behold ukentlig abonnement
 interstitial-offer-button-keep-current-interval-halfyearly = Behold halvårlig abonnement
 interstitial-offer-button-keep-current-interval-monthly = Behold månedlig abonnement
+interstitial-offer-button-keep-subscription = Behold abonnementet
 
 ##
 

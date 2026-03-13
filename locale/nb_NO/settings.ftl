@@ -1646,6 +1646,11 @@ set-password-heading-v2 = Opprett passord for å synkronisere
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Dette krypterer dataene dine. Det må være forskjellig fra passordet til { -brand-google }- eller { -brand-apple }-kontoen din.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Dette passordet krypterer de synkroniserte dataene dine og holder dem sikre.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1863,6 +1868,19 @@ signin-passkey-fallback-continue = Fortsett
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
+signin-passwordless-code-heading = Skriv inn bekreftelseskode
+signin-passwordless-code-subheading = Innlogging tar bare ett enkelt trinn når du bruker denne koden.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Skriv inn koden som ble sendt til <email>{ $email }</email> innen { $expirationMinutes } minutt.
+       *[other] Skriv inn koden som ble sendt til <email>{ $email }</email> innen { $expirationMinutes } minutter.
+    }
 signin-passwordless-code-input-label = Skriv inn 8-sifret kode
 signin-passwordless-code-confirm-button = Bekreft
 signin-passwordless-code-required-error = Bekreftelseskode kreves
