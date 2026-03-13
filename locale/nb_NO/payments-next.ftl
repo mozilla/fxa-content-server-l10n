@@ -260,6 +260,10 @@ churn-cancel-flow-button-contact-support = Kontakt brukerstøtte
 
 churn-cancel-flow-subscription-active-title = Ditt abonnement på { $productName } er aktivt.
 churn-cancel-flow-button-go-to-product-page = Gå til { $productName }
+churn-cancel-flow-cancel-success-title = Det er leit at du forsvinner
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = { $productName }-abonnementet ditt er avsluttet. Du vil fortsatt ha tilgang til { $productName } frem til { $date }.
 
 ## Churn flow - stay subscribed
 
@@ -319,6 +323,13 @@ payments-header-avatar-icon =
     .alt = Kontoprofilbilde
 payments-header-avatar-expanded-signed-in-as = Logget inn som
 payments-header-avatar-expanded-sign-out = Logg ut
+
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Det er leit at du forsvinner
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = { $productName }-abonnementet ditt er avsluttet. Du vil fortsatt ha tilgang til { $productName } frem til { $date }.
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 

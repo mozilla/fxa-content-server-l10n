@@ -1860,6 +1860,28 @@ signin-passkey-fallback-continue = Fortsett
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-input-label = Skriv inn 8-sifret kode
+signin-passwordless-code-confirm-button = Bekreft
+signin-passwordless-code-required-error = Bekreftelseskode kreves
+signin-passwordless-code-expired = Har koden utløpt?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Send ny kode på e-post om { $seconds } sekund
+       *[other] Send ny kode på e-post om { $seconds } sekunder
+    }
+signin-passwordless-code-resend-link = Send ny kode på e-post.
+signin-passwordless-code-resend-error = Noe gikk galt. En ny kode kunne ikke sendes.
+signin-passwordless-code-other-account-link = Bruk en annen konto
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Registrering tar bare ett trinn når du bruker denne koden.
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
