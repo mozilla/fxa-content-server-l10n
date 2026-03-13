@@ -1886,6 +1886,18 @@ signin-passkey-fallback-continue = Dalej
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Wobkšuśeński kod zapódaś
+signin-passwordless-code-input-label = 8-městnowy kod zapódaś
+signin-passwordless-code-confirm-button = Wobkšuśiś
+signin-passwordless-code-required-error = Wobkšuśeński kod trjebny
+signin-passwordless-code-expired = Kod jo spadnuł?
+signin-passwordless-code-resend-link = Nowy kod pśez e-mail pósłaś.
+signin-passwordless-code-resend-error = Něco njejo se raźiło. Nowy code njedajo se słaś.
+signin-passwordless-code-other-account-link = Wužywajśo druge konto
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 

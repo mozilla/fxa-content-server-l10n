@@ -198,6 +198,14 @@ page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Sm
 page-not-found-back-button = Slědk
 alert-dialog-title = Warnowański dialog
 
+## Already Canceling
+
+already-canceling-title = Waš abonement se skóńcyjo
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Maśo dalej pśistup k { $productName } až do { $date }.
+already-canceling-button-back-to-subscriptions = Slědk k abonementam
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -231,6 +239,7 @@ subscription-content-cancel-access-message = Wótwónoźćo mój pśistup a mój
 
 cancel-subscription-button-cancel-subscription = Abonement wupowěźeś
     .aria-label = Waš abonement { $productName } wupowěźeś
+cancel-subscription-button-keep-subscription = Abonement wobchowaś
 
 ## Component - Payment Consent Checkbox
 
@@ -254,6 +263,7 @@ churn-cancel-flow-action-error = Njewótcakana zmólka jo nastała. Pšosym wopy
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Pódlejšćo swój abonement a zažaŕśo { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Abonement pódlejšyś a zažariś
+churn-cancel-flow-button-cancel-subscription = Abonement wupowěźeś
 churn-cancel-flow-link-terms-and-restrictions = Płaśe wobgranicowane wuměnjenja a wobgranicowanja
 churn-cancel-flow-discount-already-applied-title = Rabatowy kod jo se južo nałožył
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -265,6 +275,11 @@ churn-cancel-flow-button-contact-support = Pomoc kontaktěrowaś
 
 churn-cancel-flow-subscription-active-title = Waš abonement { $productName } jo aktiwny
 churn-cancel-flow-button-go-to-product-page = K { $productName }
+churn-cancel-flow-cancel-success-title = Jo nam luto, až wótejźośo
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Waš abonement za { $productName } jo se wupowěźeł. Maśo hyšći pśistup k { $productName } až do { $date }.
+churn-cancel-flow-cancel-success-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -325,12 +340,24 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Pśizjawjony ako
 payments-header-avatar-expanded-sign-out = Wótzjawiś
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Jo nam luto, až wótejźośo
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Waš abonement za { $productName } jo se wupowěźeł. Maśo hyšći pśistup k { $productName } až do { $date }.
+interstitial-offer-cancel-success-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Slědk k abonementam
+interstitial-offer-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
+interstitial-offer-cancel-subscription-button = Abonement wupowěźeś
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Wšedny abonement wobchowaś
 interstitial-offer-button-keep-current-interval-weekly = Tyźeński abonement wobchowaś
 interstitial-offer-button-keep-current-interval-halfyearly = Šesćmjasecny abonement wobchowaś
 interstitial-offer-button-keep-current-interval-monthly = Mjasecny abonement wobchowaś
+interstitial-offer-button-keep-subscription = Abonement wobchowaś
 
 ##
 
