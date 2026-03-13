@@ -498,7 +498,7 @@ msgstr "Token di pagamento non valido per l’abbonamento."
 
 #: .es5/lib/auth-errors.js:274
 msgid "Subscription has already been cancelled"
-msgstr "L’abbonamento è già stato cancellato"
+msgstr "L’abbonamento è già stato annullato"
 
 #: .es5/lib/auth-errors.js:278
 msgid "Update was rejected, please try again"

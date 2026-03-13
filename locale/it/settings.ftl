@@ -1883,7 +1883,7 @@ signin-passwordless-code-expired = Codice scaduto?
 # { $seconds } - countdown timer showing seconds until user can request a new code
 signin-passwordless-code-resend-countdown =
     { $seconds ->
-        [one] Invia un nuovo codice via email tra { $seconds } secondi
+        [one] Invia un nuovo codice via email tra { $seconds } secondo
        *[other] Invia un nuovo codice via email tra { $seconds } secondi
     }
 signin-passwordless-code-resend-link = Invia email con nuovo codice.

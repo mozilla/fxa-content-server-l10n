@@ -53,7 +53,7 @@ subplat-manage-account-2 = Gestisci le impostazioni del tuo { -product-mozilla-a
 subplat-manage-account-plaintext-2 = Gestisci le impostazioni del tuo { -product-mozilla-account } visitando questa pagina: { $accountSettingsUrl }
 subplat-terms-policy = Termini e condizioni di annullamento
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
-subplat-cancel = Cancella abbonamento
+subplat-cancel = Annulla abbonamento
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Rinnova l’abbonamento
 subplat-reactivate-plaintext = { subplat-reactivate }:
@@ -264,9 +264,9 @@ subscriptionEndingReminder-title = Il tuo abbonamento a { $productName } scadrà
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Il tuo accesso a { $productName } terminerà il <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2-v2 = Se desideri continuare a utilizzare { $productName }, puoi rimanere abbonato in <a data-l10n-name="subscriptionEndingReminder-subscription-management">Gestione sottoscrizioni</a> prima di <strong>{ $serviceLastActiveDateOnly }</strong> . Se hai bisogno di assistenza, <a data-l10n-name="subscriptionEndingReminder-contact-support">contatta il nostro team di supporto</a>.
+subscriptionEndingReminder-content-line2-v2 = Se desideri continuare a utilizzare { $productName }, puoi rimanere abbonato tramite <a data-l10n-name="subscriptionEndingReminder-subscription-management">Gestione sottoscrizioni</a> prima del <strong>{ $serviceLastActiveDateOnly }</strong> . Se hai bisogno di assistenza, <a data-l10n-name="subscriptionEndingReminder-contact-support">contatta il nostro team di supporto</a>.
 subscriptionEndingReminder-content-line1-plaintext = Il tuo accesso a { $productName } terminerà il { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext-v2 = Se desideri continuare a utilizzare { $productName }, puoi rimanere abbonato in Gestione abbonamenti prima del { $serviceLastActiveDateOnly }. Se hai bisogno di assistenza, contatta il nostro team di supporto.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Se desideri continuare a utilizzare { $productName }, puoi rimanere abbonato tramite Gestione abbonamenti prima del { $serviceLastActiveDateOnly }. Se hai bisogno di assistenza, contatta il nostro team di supporto.
 subscriptionEndingReminder-content-closing = Grazie per essere un prezioso abbonato.
 subscriptionEndingReminder-churn-title = Vuoi mantenere l’accesso?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Si applicano termini e restrizioni limitati</a>

@@ -223,7 +223,7 @@ subscription-cancellation-dialog-title = Ci dispiace per la tua decisione
 subscription-cancellation-dialog-msg = Il tuo abbonamento a { $name } è stato annullato. Potrai comunque accedere a { $name } fino al { $date }.
 subscription-cancellation-dialog-aside = Hai una domanda? Visita il sito per il <LinkExternal>supporto { -brand-mozilla }</LinkExternal>.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-cancel-subscription-heading = Cancella l’abbonamento a { $productName }
+cancel-subscription-heading = Annulla l’abbonamento a { $productName }
 
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -233,8 +233,8 @@ subscription-content-cancel-access-message = Disattiva il mio accesso e rimuovi 
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
-cancel-subscription-button-cancel-subscription = Cancella abbonamento
-    .aria-label = Cancella l’abbonamento a { $productName }
+cancel-subscription-button-cancel-subscription = Annulla abbonamento
+    .aria-label = Annulla l’abbonamento a { $productName }
 cancel-subscription-button-keep-subscription = Mantieni l’abbonamento
 
 ## Component - Payment Consent Checkbox
@@ -259,7 +259,7 @@ churn-cancel-flow-action-error = Si è verificato un errore imprevisto. Riprova.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Rimani abbonato e risparmia il { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Rimani abbonato e risparmia
-churn-cancel-flow-button-cancel-subscription = Cancella abbonamento
+churn-cancel-flow-button-cancel-subscription = Annulla abbonamento
 churn-cancel-flow-link-terms-and-restrictions = Si applicano termini e restrizioni limitati
 churn-cancel-flow-discount-already-applied-title = Codice sconto già applicato
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -277,7 +277,7 @@ churn-cancel-flow-cancel-success-title = Ci dispiace per la tua decisione
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 churn-cancel-flow-cancel-success-dialog-msg = Il tuo abbonamento a { $productName } è stato annullato. Potrai comunque accedere a { $productName } fino al { $date }.
-churn-cancel-flow-cancel-turn-back-on = Puoi riattivare il tuo abbonamento in qualsiasi momento prima che scada.
+churn-cancel-flow-cancel-turn-back-on = Puoi riattivare il tuo abbonamento in qualsiasi momento prima della scadenza.
 churn-cancel-flow-cancel-success-dialog-aside = Hai una domanda? Visita il sito per il <LinkExternal>supporto { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
@@ -347,11 +347,11 @@ interstitial-offer-success-cancel-title = Ci dispiace per la tua decisione
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 interstitial-offer-cancel-success-dialog-msg = Il tuo abbonamento a { $productName } è stato annullato. Potrai comunque accedere a { $productName } fino al { $date }.
-interstitial-offer-turn-back-on = Puoi riattivare il tuo abbonamento in qualsiasi momento prima che scada.
+interstitial-offer-turn-back-on = Puoi riattivare il tuo abbonamento in qualsiasi momento prima della scadenza.
 interstitial-offer-cancel-success-dialog-aside = Hai una domanda? Visita il sito per il <LinkExternal>supporto { -brand-mozilla }</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Torna agli abbonamenti
 interstitial-offer-action-error = Si è verificato un errore imprevisto. Riprova.
-interstitial-offer-cancel-subscription-button = Cancella abbonamento
+interstitial-offer-cancel-subscription-button = Annulla abbonamento
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
@@ -466,8 +466,8 @@ subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } 
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Rimani abbonato
     .aria-label = Rimani abbonato a { $productName }
-subscription-content-button-cancel-subscription = Cancella abbonamento
-    .aria-label = Cancella l’abbonamento a { $productName }
+subscription-content-button-cancel-subscription = Annulla abbonamento
+    .aria-label = Annulla l’abbonamento a { $productName }
 # Link to the terms and restrictions for a coupon offer.
 subscription-content-link-churn-intervention-terms-apply = Termini applicabili
 subscription-content-link-churn-intervention-terms-aria = Visualizza i termini e le restrizioni dei coupon
