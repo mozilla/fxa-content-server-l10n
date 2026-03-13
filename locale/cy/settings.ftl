@@ -1679,7 +1679,7 @@ set-password-info-v2 = Mae hyn yn amgryptio eich data. Mae angen iddo fod yn wah
 ## SetPassword page for passwordless flow
 ## Users who signed in via passwordless OTP and need to create a password for Sync
 
-set-password-passwordless-info = Mae'r cyfrinair hwn yn amgryptio'ch data wedi'i gysoni ac yn ei gadw'n ddiogel.
+set-password-passwordless-info = Mae'r cyfrinair hwn yn amgryptio'ch data wedi'i gydweddu ac yn ei gadw'n ddiogel.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1907,8 +1907,8 @@ signin-passwordless-code-subheading = Dim ond un cam y mae mewngofnodi yn ei gym
 #   expirationMinutes (Number) - the expiration time in minutes
 signin-passwordless-code-instruction =
     { $expirationMinutes ->
-        [one] Rhowch y cod anfonwyd i <email>{ $email }</email> o fewn { $expirationMinutes } munud.
-        [zero] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
+        [one] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
+        [zero] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munudau.
         [two] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
         [few] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
         [many] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
@@ -1921,16 +1921,16 @@ signin-passwordless-code-expired = Cod wedi dod i ben?
 # { $seconds } - countdown timer showing seconds until user can request a new code
 signin-passwordless-code-resend-countdown =
     { $seconds ->
-        [one] E-bostiwch cod newydd ymhen { $seconds } eiliad
-        [zero] E-bostiwch cod newydd ymhen { $seconds } eiliad
-        [two] E-bostiwch cod newydd ymhen { $seconds } eiliad
-        [few] E-bostiwch cod newydd ymhen { $seconds } eiliad
-        [many] E-bostiwch cod newydd ymhen { $seconds } eiliad
-       *[other] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [one] E-bostio cod newydd ymhen { $seconds } eiliad
+        [zero] E-bostio cod newydd ymhen { $seconds } eiliadau
+        [two] E-bostio cod newydd ymhen { $seconds } eiliad
+        [few] E-bostio cod newydd ymhen { $seconds } eiliad
+        [many] E-bostio cod newydd ymhen { $seconds } eiliad
+       *[other] E-bostio cod newydd ymhen { $seconds } eiliad
     }
-signin-passwordless-code-resend-link = E-bostiwch cod newydd.
-signin-passwordless-code-resend-error = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
-signin-passwordless-code-other-account-link = Defnyddiwch gyfrif gwahanol
+signin-passwordless-code-resend-link = E-bostio cod newydd.
+signin-passwordless-code-resend-error = Aeth rhywbeth o'i le. Doedd dim modd anfon cod newydd.
+signin-passwordless-code-other-account-link = Defnyddio cyfrif gwahanol
 
 ## SignupPasswordlessCode page
 ## Users are prompted to enter a code sent to their email to create a new account without a password.

@@ -200,7 +200,7 @@ alert-dialog-title = Deialog rhybuddio
 already-canceling-title = Mae eich tanysgrifiad yn dod i ben
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-already-canceling-message = Byddwch yn parhau i gael mynediad at { $productName } tan { $date }.
+already-canceling-message = Byddwch chi'n dal i gael mynediad at { $productName } tan { $date }.
 already-canceling-turn-back-on = Gallwch droi eich tanysgrifiad yn ôl ymlaen unrhyw bryd cyn iddo ddod i ben.
 already-canceling-button-back-to-subscriptions = Nôl i danysgrifiadau
 
@@ -235,7 +235,7 @@ subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion
 
 cancel-subscription-button-cancel-subscription = Diddymu tanysgrifiad
     .aria-label = Diddymu'ch tanysgrifiad { $productName }
-cancel-subscription-button-keep-subscription = Cadw tanysgrifiad
+cancel-subscription-button-keep-subscription = Cadw'r tanysgrifiad
 
 ## Component - Payment Consent Checkbox
 
@@ -259,7 +259,7 @@ churn-cancel-flow-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Parhau i danysgrifio a arbed { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Parhau i danysgrifio ac arbed
-churn-cancel-flow-button-cancel-subscription = Canslo tanysgrifiad
+churn-cancel-flow-button-cancel-subscription = Diddymu'r tanysgrifiad
 churn-cancel-flow-link-terms-and-restrictions = Mae telerau a chyfyngiadau cyfyngedig yn berthnasol
 churn-cancel-flow-discount-already-applied-title = Cod disgownt eisoes wedi'i osod
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -272,12 +272,12 @@ churn-cancel-flow-button-contact-support = Cysylltu â Chefnogaeth
 churn-cancel-flow-subscription-active-title = Mae eich tanysgrifiad { $productName } yn weithredol
 churn-cancel-flow-button-go-to-product-page = Mynd i { $productName }
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
-churn-cancel-flow-after = Ar ôl hynny, bydd eich tanysgrifiad yn adnewyddu'n awtomatig am y ffi safonol, oni bai eich bod yn canslo.
+churn-cancel-flow-after = Ar ôl hynny, bydd eich tanysgrifiad yn adnewyddu'n awtomatig am y ffi safonol, oni bai eich bod yn ei ddiddymu.
 churn-cancel-flow-cancel-success-title = Mae'n ddrwg gennym eich gweld yn gadael
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-churn-cancel-flow-cancel-success-dialog-msg = Mae eich tanysgrifiad { $productName } wedi'i ganslo. Byddwch yn dal i gael mynediad i { $productName } tan { $date }.
-churn-cancel-flow-cancel-turn-back-on = Gallwch droi eich tanysgrifiad yn ôl ymlaen unrhyw bryd cyn iddo ddod i ben.
+churn-cancel-flow-cancel-success-dialog-msg = Mae eich tanysgrifiad { $productName } wedi'i ddiddymu. Byddwch yn dal i gael mynediad i { $productName } tan { $date }.
+churn-cancel-flow-cancel-turn-back-on = Gallwch droi eich tanysgrifiad nôl ymlaen unrhyw bryd cyn iddo ddod i ben.
 churn-cancel-flow-cancel-success-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
 
 ## Churn flow - stay subscribed
@@ -302,7 +302,7 @@ churn-stay-subscribed-button-go-to-product-page = Mynd i { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Ewch i Tanysgrifiadau
 churn-stay-subscribed-button-stay-subscribed = Parhau wedi tanysgrifio
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
-churn-stay-subscribed-after = Ar ôl hynny, bydd eich tanysgrifiad yn adnewyddu'n awtomatig am y ffi safonol, oni bai eich bod yn canslo.
+churn-stay-subscribed-after = Ar ôl hynny, bydd eich tanysgrifiad yn adnewyddu'n awtomatig am y ffi safonol, oni bai eich bod yn ei ddiddymu.
 
 ## Component - CouponForm
 
@@ -346,12 +346,12 @@ payments-header-avatar-expanded-sign-out = Allgofnodi
 interstitial-offer-success-cancel-title = Mae'n ddrwg gennym eich gweld yn gadael
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-interstitial-offer-cancel-success-dialog-msg = Mae eich tanysgrifiad { $productName } wedi'i ganslo. Byddwch yn dal i gael mynediad i { $productName } tan { $date }.
-interstitial-offer-turn-back-on = Gallwch droi eich tanysgrifiad yn ôl ymlaen unrhyw bryd cyn iddo ddod i ben.
+interstitial-offer-cancel-success-dialog-msg = Mae eich tanysgrifiad { $productName } wedi'i ddiddymu. Byddwch yn dal i gael mynediad i { $productName } tan { $date }.
+interstitial-offer-turn-back-on = Gallwch droi eich tanysgrifiad nôl ymlaen unrhyw bryd cyn iddo ddod i ben.
 interstitial-offer-cancel-success-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Nôl i danysgrifiadau
 interstitial-offer-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
-interstitial-offer-cancel-subscription-button = Canslo tanysgrifiad
+interstitial-offer-cancel-subscription-button = Diddymu'r tanysgrifiad
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
@@ -359,7 +359,7 @@ interstitial-offer-button-keep-current-interval-daily = Cadw tanysgrifiad dyddio
 interstitial-offer-button-keep-current-interval-weekly = Cadw tanysgrifiad wythnosol
 interstitial-offer-button-keep-current-interval-halfyearly = Cadw tanysgrifiad chwe mis
 interstitial-offer-button-keep-current-interval-monthly = Cadw tanysgrifiad misol
-interstitial-offer-button-keep-subscription = Cadw tanysgrifiad
+interstitial-offer-button-keep-subscription = Cadw'r tanysgrifiad
 
 ##
 
