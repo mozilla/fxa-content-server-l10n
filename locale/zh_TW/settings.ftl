@@ -1620,6 +1620,11 @@ set-password-heading-v2 = 設定同步密碼
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = 將會加密您的資料，必須與您的 { -brand-google } 或 { -brand-apple } 帳號密碼不同。
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = 此密碼用於加密同步資料，確保資料安全。
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1829,12 +1834,34 @@ signin-passkey-fallback-continue = 繼續
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = 請輸入確認碼
+signin-passwordless-code-subheading = 使用這組代碼，只需要簡單一步即可完成登入。
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction = 請在 { $expirationMinutes } 分鐘內輸入寄送到 <email>{ $email }</email> 的代碼。
+signin-passwordless-code-input-label = 請輸入 8 位數的確認碼
 signin-passwordless-code-confirm-button = 確認
 signin-passwordless-code-required-error = 請輸入確認碼
 signin-passwordless-code-expired = 驗證碼失效？
 # { $seconds } - countdown timer showing seconds until user can request a new code
 signin-passwordless-code-resend-countdown = { $seconds } 秒後可寄送新驗證碼郵件
+signin-passwordless-code-resend-link = 重寄新驗證碼。
+signin-passwordless-code-resend-error = 有些東西怪怪的，無法寄出新的確認碼。
 signin-passwordless-code-other-account-link = 使用另一個帳號
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = 使用這組代碼，只需要簡單一步即可完成註冊。
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = 您的帳號已開啟兩階段驗證，請使用密碼登入。
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
