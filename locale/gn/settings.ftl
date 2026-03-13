@@ -1289,6 +1289,12 @@ tfa-row-verify-session-info = Tekotevẽ emoneĩ ne rembiapo ag̃agua emboheko h
 
 # This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
 terms-privacy-agreement-intro-3 = Eku’ejeývo, emoneĩ ko mba’e:
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Mba’epytyvõrã ñemboguata</termsLink> ha <privacyLink>ñemigua jehaipy</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") }: <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu’i ñemigua</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Eku’ejeývo, emoneĩ umi <mozillaAccountsTos>Mba’eporurã Ñemboguata</mozillaAccountsTos> ha <mozillaAccountsPrivacy>Marandu ñemigua</mozillaAccountsPrivacy>.
 
@@ -1387,6 +1393,8 @@ passkey-registration-error-not-supported = Ápe noñemoneĩri ñe’ẽ ñemi. E
 passkey-registration-error-security = Ndaikatúi emboheko ñe’ẽ ñemi ko kuatiaroguepegua. Eiporu tenda hekorosãva ha eha’ãjey.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
 passkey-registration-error-invalid-state = Ko ñemigua oñemboheraguapýma. Eiporu eike hag̃ua térã embojuaju ñemigua ambuéva.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Ndoroikekuaái moañetehápe. Eha’ã pyahu jey térã eiporavo ambueháicha.
 # Attestation constraints or device-specific restrictions can't be met
 passkey-registration-error-constraint = Ñe’ẽ ñemi jeikeha ñemboheko noĩri ko mba’e’okápe. Eiporu ambue mba’e térã mba’e’oka.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
@@ -1404,6 +1412,8 @@ passkey-authentication-error-not-supported = Ko’ã ñemigua jeikerã ndojokupy
 passkey-authentication-error-security = Ndaikatúi eiporu ñe’ẽ ñemieta ko kuatiaroguepegua. Ehecha eĩha tenda hekorosãvape ha eha’ãjey.
 # Unexpected credential state during authentication
 passkey-authentication-error-invalid-state = Oĩ osẽvaíva ne ñe’ẽ ñemi jeikehápe. Eha’ãjey térã eiporavo ambuéva eike hag̃ua.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Ndoroikekuaái moañetehápe. Eha’ã pyahu jey térã eiporavo ambueháicha eike hag̃ua.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Oĩ osẽvaíva. Eha’ãjey térã eiporavo ambue mba’e eikekuaa hag̃ua.
 

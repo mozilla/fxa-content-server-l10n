@@ -1881,7 +1881,7 @@ signin-passkey-fallback-continue = Fortsätt
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Ange bekräftelsekod
-signin-passwordless-code-subheading = Inloggning tar bara ett enda steg när du använder den här koden.
+signin-passwordless-code-subheading = Inloggning går snabbt när du använder den här koden.
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -1910,7 +1910,7 @@ signin-passwordless-code-other-account-link = Använd ett annat konto
 ## SignupPasswordlessCode page
 ## Users are prompted to enter a code sent to their email to create a new account without a password.
 
-signup-passwordless-code-subheading = Registrering tar bara ett enda steg när du använder den här koden.
+signup-passwordless-code-subheading = Registrering går snabbt när du använder den här koden.
 
 ## Error messages
 
