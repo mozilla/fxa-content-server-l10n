@@ -1855,6 +1855,23 @@ signin-passkey-fallback-continue = Ku’ejey
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-input-label = Emoinge ayvu 8 taíva
+signin-passwordless-code-confirm-button = Ñemoneĩ
+signin-passwordless-code-required-error = Ayvu ñemoneĩrã tekotevẽva
+signin-passwordless-code-expired = ¿Ndoikovéima ayvu?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Emondo ayvu pyahu ñanduti veve rupi { $seconds } aravo’ivépe
+       *[other] Emondo ayvu pyahu ñanduti veve rupi { $seconds } aravo’ivépe
+    }
+signin-passwordless-code-resend-link = Emondo ayvu pyahu ñanduti veve rupive.
+signin-passwordless-code-resend-error = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
+signin-passwordless-code-other-account-link = Eiporu ambuéva mba’ete
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
