@@ -456,7 +456,7 @@ churn-error-page-button-try-again = Prøv igjen
 churn-error-page-title-customer-mismatch = Kupongen kan ikke innløses
 churn-error-page-message-customer-mismatch = Denne kupongen ble utstedt for et annet abonnement og kan kun innløses av den opprinnelige mottakeren.
 churn-error-page-button-sign-in = Logg inn
-churn-error-page-title-general-error = Det oppsto et problem med å fornye abonnementet ditt
+churn-error-page-title-general-error = Det oppstod et problem med å fornye abonnementet ditt
 churn-error-page-message-general-error = Kontakt brukerstøtte eller prøv på nytt.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Gå til { $productName }
@@ -571,7 +571,7 @@ stay-subscribed-error-discount-used = Rabattkoden er allerede brukt.
 # $productTitle (String) - The name of the product
 stay-subscribed-error-not-current-subscriber = Denne rabatten er kun tilgjengelig for nåværende { $productTitle }-abonnenter.
 stay-subscribed-error-still-active = Ditt abonnement på { $productTitle } er fortsatt aktivt.
-stay-subscribed-error-general = Det oppsto et problem med å fornye abonnementet ditt.
+stay-subscribed-error-general = Det oppstod et problem med å fornye abonnementet ditt.
 
 ## Manage Payment Method Error Messages
 

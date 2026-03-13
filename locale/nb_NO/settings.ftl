@@ -1169,7 +1169,7 @@ passkey-delete-modal-content = Denne passnøkkelen vil bli fjernet fra kontoen d
 passkey-delete-modal-cancel-button = Avbryt
 passkey-delete-modal-confirm-button = Slett passnøkkel
 passkey-delete-success = Passnøkkel slettet
-passkey-delete-error = Det oppsto et problem med å slette passnøkkelen din. Prøv igjen om noen minutter.
+passkey-delete-error = Det oppstod et problem med å slette passnøkkelen din. Prøv igjen om noen minutter.
 
 ## Switch component
 
