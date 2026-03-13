@@ -193,6 +193,10 @@ page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne m
 page-not-found-back-button = Guevijey
 alert-dialog-title = Ñomongeta kyhyjerãva
 
+## Already Canceling
+
+already-canceling-button-back-to-subscriptions = Ejevy moheraguapyhápe
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +230,7 @@ subscription-content-cancel-access-message =
 
 cancel-subscription-button-cancel-subscription = Eheja mboheraguapy
     .aria-label = Eheja ne mboheraguapy { $productName }-pe
+cancel-subscription-button-keep-subscription = Erekomeme ñemboheraguapy
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +254,7 @@ churn-cancel-flow-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Eime ñemboheraguapýpe ha erekovéta { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Eime ñemboheraguapýpe ha erekovéta
+churn-cancel-flow-button-cancel-subscription = Eheja ñemboheraguapy
 churn-cancel-flow-link-terms-and-restrictions = Oguerojera aporã ha jejokopy heta’ỹva
 churn-cancel-flow-discount-already-applied-title = Tepyguejy ayvu oikopyrémava
 churn-cancel-flow-button-manage-subscriptions = Mboheraguapy ñangareko

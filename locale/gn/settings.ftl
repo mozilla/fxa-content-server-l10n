@@ -1872,6 +1872,17 @@ signin-passwordless-code-resend-link = Emondo ayvu pyahu ñanduti veve rupive.
 signin-passwordless-code-resend-error = Oĩ nosẽporãiva. Noñemondokuaái ayvu ipyahúva.
 signin-passwordless-code-other-account-link = Eiporu ambuéva mba’ete
 
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Eñemboheraguapy hag̃ua eikotevẽ jeku’e’i eiporúvo ko ayvu.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Mokõi ñemoneĩ rehegua oñembojurujáma ne mba’etépe. Eike ne ñe’ẽñemi rupive.
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
