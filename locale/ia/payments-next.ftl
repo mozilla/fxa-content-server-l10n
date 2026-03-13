@@ -262,6 +262,7 @@ churn-cancel-flow-button-contact-support = Contactar assistentia
 
 churn-cancel-flow-subscription-active-title = Tu abonamento a { $productName } es active
 churn-cancel-flow-button-go-to-product-page = Va a { $productName }
+churn-cancel-flow-cancel-success-title = Nos regretta vider que tu va
 
 ## Churn flow - stay subscribed
 
