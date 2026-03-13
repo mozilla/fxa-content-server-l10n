@@ -1670,6 +1670,11 @@ set-password-heading-v2 = Napórajśo gronidło za synchronizaciju
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = To waše daty koděrujo. Musy se wót kontowego gronidła { -brand-google } abo { -brand-apple } rozeznaś.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Toś to gronidło waše synchronizěrowane daty koděrujo a wobchowajo je wěsće.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1924,6 +1929,12 @@ signin-passwordless-code-other-account-link = Wužywajśo druge konto
 ## Users are prompted to enter a code sent to their email to create a new account without a password.
 
 signup-passwordless-code-subheading = Registrěrowanje jano jaden kšac trajo, gaž toś ten kod wužywaśo.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Dwójokšacowa awtentifikacija jo za wašo konto zmóžnjona. Pšosym pśizjawśo se ze swójim gronidłom.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

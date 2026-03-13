@@ -204,6 +204,7 @@ already-canceling-title = Waš abonement se skóńcyjo
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 already-canceling-message = Maśo dalej pśistup k { $productName } až do { $date }.
+already-canceling-turn-back-on = Móžośo swój abonement kuždy cas zasej aktiwěrowaś, nježli až se kóńcy.
 already-canceling-button-back-to-subscriptions = Slědk k abonementam
 
 ## Navigation breadcrumbs
@@ -275,10 +276,13 @@ churn-cancel-flow-button-contact-support = Pomoc kontaktěrowaś
 
 churn-cancel-flow-subscription-active-title = Waš abonement { $productName } jo aktiwny
 churn-cancel-flow-button-go-to-product-page = K { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Pótom se waš abonement awtomatiski za standardny płaśonk wótnowijo, snaźkuli wupowěźejośo.
 churn-cancel-flow-cancel-success-title = Jo nam luto, až wótejźośo
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 churn-cancel-flow-cancel-success-dialog-msg = Waš abonement za { $productName } jo se wupowěźeł. Maśo hyšći pśistup k { $productName } až do { $date }.
+churn-cancel-flow-cancel-turn-back-on = Móžośo swój abonement kuždy cas zasej aktiwěrowaś, nježli až se kóńcy.
 churn-cancel-flow-cancel-success-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
@@ -302,6 +306,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Źěkujomy se, až sćo wažony
 churn-stay-subscribed-button-go-to-product-page = K { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = K abonementam
 churn-stay-subscribed-button-stay-subscribed = Dalej aboněrowaś
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Pótom se waš abonement awtomatiski za standardny płaśonk wótnowijo, snaźkuli wupowěźejośo.
 
 ## Component - CouponForm
 
@@ -346,6 +352,7 @@ interstitial-offer-success-cancel-title = Jo nam luto, až wótejźośo
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 interstitial-offer-cancel-success-dialog-msg = Waš abonement za { $productName } jo se wupowěźeł. Maśo hyšći pśistup k { $productName } až do { $date }.
+interstitial-offer-turn-back-on = Móžośo swój abonement kuždy cas zasej aktiwěrowaś, nježli až se kóńcy.
 interstitial-offer-cancel-success-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Slědk k abonementam
 interstitial-offer-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
