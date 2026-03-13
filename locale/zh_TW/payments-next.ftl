@@ -195,6 +195,15 @@ page-not-found-description = 找不到您想開啟的頁面。我們已經通知
 page-not-found-back-button = 回上一頁
 alert-dialog-title = 警告對話框
 
+## Already Canceling
+
+already-canceling-title = 您的訂閱即將結束
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = 您可繼續使用 { $productName } 直到 { $date }。
+already-canceling-turn-back-on = 您可以在訂閱結束前隨時繼續訂閱。
+already-canceling-button-back-to-subscriptions = 回到訂閱項目
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +235,7 @@ subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 之後取
 
 cancel-subscription-button-cancel-subscription = 取消訂閱
     .aria-label = 取消您的 { $productName } 訂閱
+cancel-subscription-button-keep-subscription = 保持訂閱
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +259,7 @@ churn-cancel-flow-action-error = 發生未知錯誤，請再試一次。
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = 保持訂閱即可節省 { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = 保持訂閱即可節省
+churn-cancel-flow-button-cancel-subscription = 取消訂閱
 churn-cancel-flow-link-terms-and-restrictions = 適用條款與限制
 churn-cancel-flow-discount-already-applied-title = 已經套用此折扣碼
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -260,6 +271,14 @@ churn-cancel-flow-button-contact-support = 聯絡支援團隊
 
 churn-cancel-flow-subscription-active-title = 您的 { $productName } 訂閱已生效。
 churn-cancel-flow-button-go-to-product-page = 前往 { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = 在那之後，除非您主動取消，否則您的訂閱項目會依照標準價格自動續訂。
+churn-cancel-flow-cancel-success-title = 很抱歉看到您離開
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = 已取消您對 { $productName } 的訂閱，您仍可繼續使用 { $productName } 到 { $date } 為止。
+churn-cancel-flow-cancel-turn-back-on = 您可以在訂閱結束前隨時繼續訂閱。
+churn-cancel-flow-cancel-success-dialog-aside = 有問題嗎？請到 <LinkExternal>{ -brand-mozilla } 技術支援站</LinkExternal>。
 
 ## Churn flow - stay subscribed
 
@@ -282,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = 感謝您成為訂閱者！
 churn-stay-subscribed-button-go-to-product-page = 前往 { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = 前往訂閱項目
 churn-stay-subscribed-button-stay-subscribed = 保持訂閱
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = 在那之後，除非您主動取消，否則您的訂閱項目會依照標準價格自動續訂。
 
 ## Component - CouponForm
 
@@ -320,12 +341,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = 已登入為
 payments-header-avatar-expanded-sign-out = 登出
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = 很抱歉看到您離開
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = 已取消您對 { $productName } 的訂閱，您仍可繼續使用 { $productName } 到 { $date } 為止。
+interstitial-offer-turn-back-on = 您可以在訂閱結束前隨時繼續訂閱。
+interstitial-offer-cancel-success-dialog-aside = 有問題嗎？請到 <LinkExternal>{ -brand-mozilla } 技術支援站</LinkExternal>。
+interstitial-offer-button-back-to-subscriptions = 回到訂閱項目
+interstitial-offer-action-error = 發生未知錯誤，請再試一次。
+interstitial-offer-cancel-subscription-button = 取消訂閱
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = 保持每日訂閱
 interstitial-offer-button-keep-current-interval-weekly = 保持每週訂閱
 interstitial-offer-button-keep-current-interval-halfyearly = 保持半年訂閱
 interstitial-offer-button-keep-current-interval-monthly = 保持每月訂閱
+interstitial-offer-button-keep-subscription = 保持訂閱
 
 ##
 

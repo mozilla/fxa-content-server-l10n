@@ -1825,6 +1825,17 @@ signin-passkey-fallback-continue = 繼續
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = 請輸入確認碼
+signin-passwordless-code-confirm-button = 確認
+signin-passwordless-code-required-error = 請輸入確認碼
+signin-passwordless-code-expired = 驗證碼失效？
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown = { $seconds } 秒後可寄送新驗證碼郵件
+signin-passwordless-code-other-account-link = 使用另一個帳號
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
