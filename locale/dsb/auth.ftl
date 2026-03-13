@@ -268,6 +268,7 @@ subscriptionEndingReminder-title = Waš abonement { $productName } skóro spadnj
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Waš pśistup k { $productName } se dnja <strong>{ $serviceLastActiveDateOnly }</strong> skóńcyjo.
+subscriptionEndingReminder-content-line2-v2 = Jolic rad cośo { $productName } dalej wužywaś, móžośo swój abonement w <a data-l10n-name="subscriptionEndingReminder-subscription-management">zastojanju abonementow</a> do <strong>{ $serviceLastActiveDateOnly }</strong> pódlejšyś. Jolic pomoc trjebaśo, <a data-l10n-name="subscriptionEndingReminder-contact-support">stajśo se z našym teamom pomocy do zwiska</a>.
 subscriptionEndingReminder-content-line1-plaintext = Waš pśistup k { $productName } se dnja { $serviceLastActiveDateOnly } skóńcyjo.
 subscriptionEndingReminder-content-closing = Źěkujomy se, až sćo wažony abonent!
 subscriptionEndingReminder-churn-title = Cośo pśistup wobchowaś?

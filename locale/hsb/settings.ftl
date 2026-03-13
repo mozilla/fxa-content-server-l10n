@@ -1670,6 +1670,11 @@ set-password-heading-v2 = Wutworće hesło za synchronizaciju
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = To waše daty zaklučuje. Dyrbi so wot kontoweho hesła { -brand-google } abo { -brand-apple } rozeznać.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Tute hesło waše synchronizowane daty zaklučuje a wobchowuje je wěsće.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1924,6 +1929,12 @@ signin-passwordless-code-other-account-link = Wužiwajće druhe konto
 ## Users are prompted to enter a code sent to their email to create a new account without a password.
 
 signup-passwordless-code-subheading = Registrowanje jenož jedyn krok traje, hdyž tutón kod wužiwaće.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Dwukročelowa awtentifikacija je za waše konto zmóžnjena. Prošu přizjewće so ze swojim hesłom.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

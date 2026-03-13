@@ -276,10 +276,13 @@ churn-cancel-flow-button-contact-support = Pomoc skontaktować
 
 churn-cancel-flow-subscription-active-title = Waš abonement { $productName } je aktiwny
 churn-cancel-flow-button-go-to-product-page = K { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Potom so waš abonement awtomatisce za standardny popłatk wobnowi, chibazo wupowědźeće.
 churn-cancel-flow-cancel-success-title = Je nam žel, zo woteńdźeće
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 churn-cancel-flow-cancel-success-dialog-msg = Waš abonement za { $productName } je so wupowědźił. Maće hišće přistup k { $productName } hač do { $date }.
+churn-cancel-flow-cancel-turn-back-on = Móžeće swój abonement kóždy čas zaso aktiwizować, prjedy hač so kónči.
 churn-cancel-flow-cancel-success-dialog-aside = Maće prašenja? Wopytajće <LinkExternal>Pomoc { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
@@ -303,6 +306,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Dźakujemy so, zo sće waženy 
 churn-stay-subscribed-button-go-to-product-page = K { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = K abonementam
 churn-stay-subscribed-button-stay-subscribed = Abonement podlěšić
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Potom so waš abonement awtomatisce za standardny popłatk wobnowi, chibazo wupowědźeće.
 
 ## Component - CouponForm
 
@@ -347,6 +352,7 @@ interstitial-offer-success-cancel-title = Je nam žel, zo woteńdźeće
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 interstitial-offer-cancel-success-dialog-msg = Waš abonement za { $productName } je so wupowědźił. Maće hišće přistup k { $productName } hač do { $date }.
+interstitial-offer-turn-back-on = Móžeće swój abonement kóždy čas zaso aktiwizować, prjedy hač so kónči.
 interstitial-offer-cancel-success-dialog-aside = Maće prašenja? Wopytajće <LinkExternal>Pomoc { -brand-mozilla }</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Wróćo k abonementam
 interstitial-offer-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
