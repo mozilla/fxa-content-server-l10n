@@ -198,6 +198,14 @@ page-not-found-description = Strona, kotruž sće požadał, njeje so namakała.
 page-not-found-back-button = Wróćo
 alert-dialog-title = Warnowanski dialog
 
+## Already Canceling
+
+already-canceling-title = Waš abonement so skónči
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Maće dale přistup k { $productName } hač do { $date }.
+already-canceling-button-back-to-subscriptions = Wróćo k abonementam
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -231,6 +239,7 @@ subscription-content-cancel-access-message = Wotstrońće mój přistup  a moje 
 
 cancel-subscription-button-cancel-subscription = Abonement wupowědźić
     .aria-label = Waš abonement { $productName } wupowědźić
+cancel-subscription-button-keep-subscription = Abonement wobchować
 
 ## Component - Payment Consent Checkbox
 
@@ -254,6 +263,7 @@ churn-cancel-flow-action-error = Njewočakowany zmylk je nastał. Prošu spytaj�
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Podlěšće swój abonement a zalutujće { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Abonement podlěšić a zalutować
+churn-cancel-flow-button-cancel-subscription = Abonement wupowědźić
 churn-cancel-flow-link-terms-and-restrictions = Płaća wobmjezowane wuměnjenja a wobmjezowanja
 churn-cancel-flow-discount-already-applied-title = Rabatowy kod je so hižo nałožił
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -265,6 +275,10 @@ churn-cancel-flow-button-contact-support = Pomoc skontaktować
 
 churn-cancel-flow-subscription-active-title = Waš abonement { $productName } je aktiwny
 churn-cancel-flow-button-go-to-product-page = K { $productName }
+churn-cancel-flow-cancel-success-title = Je nam žel, zo woteńdźeće
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Waš abonement za { $productName } je so wupowědźił. Maće hišće přistup k { $productName } hač do { $date }.
 
 ## Churn flow - stay subscribed
 
