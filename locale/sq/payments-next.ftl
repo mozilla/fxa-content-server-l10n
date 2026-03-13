@@ -198,6 +198,15 @@ page-not-found-description = Faqja që kërkuat nuk u gjet. E kemi mbajtur shën
 page-not-found-back-button = Kthehu Mbrapsht
 alert-dialog-title = Dialog sinjalizimi
 
+## Already Canceling
+
+already-canceling-title = Pajtimi juaj është vënë të përfundojë
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Do të vazhdoni të keni mundësi ta përdorni { $productName } deri më { $date }.
+already-canceling-turn-back-on = Mund ta riktheni kurdo pajtimin tuaj, para se të përfundojë.
+already-canceling-button-back-to-subscriptions = Mbrapsht te pajtimet
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -229,6 +238,7 @@ subscription-content-cancel-access-message = Më { $currentPeriodEnd }, anuloni 
 
 cancel-subscription-button-cancel-subscription = Anulojeni pajtimin
     .aria-label = Anulojeni pajtimin tuaj te { $productName }
+cancel-subscription-button-keep-subscription = Mbajeni pajtimin
 
 ## Component - Payment Consent Checkbox
 
@@ -252,6 +262,7 @@ churn-cancel-flow-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprov
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Qëndroni të pajtuar dhe kurseni { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Qëndroni të pajtuar dhe kurseni
+churn-cancel-flow-button-cancel-subscription = Anulojeni pajtimin
 churn-cancel-flow-link-terms-and-restrictions = Kanë vend kushte të kufizuara dhe kufizime
 churn-cancel-flow-discount-already-applied-title = Kodi për ulje çmimi është aplikuar tashmë
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -263,6 +274,14 @@ churn-cancel-flow-button-contact-support = Lidhuni Me Asistencën
 
 churn-cancel-flow-subscription-active-title = Pajtimi juaj në { $productName } është aktiv
 churn-cancel-flow-button-go-to-product-page = Kalo te { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Pas kësaj, pajtimi  juaj do të rinovohet automatikisht sipas çmimit standard, hiq rastin kur e anuloni.
+churn-cancel-flow-cancel-success-title = Na vjen keq t’ju shohim të largoheni
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Pajtimi juaj në { $productName } është anuluar. Do të mund të përdorni ende { $productName } deri më { $date }.
+churn-cancel-flow-cancel-turn-back-on = Mund ta riktheni kurdo pajtimin tuaj, para se të përfundojë.
+churn-cancel-flow-cancel-success-dialog-aside = Keni pyetje? Vizitoni <LinkExternal>{ -brand-mozilla } Asistencën</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -285,6 +304,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Falemiderit që jeni një pajti
 churn-stay-subscribed-button-go-to-product-page = Kalo te { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Kalo te Pajtimet
 churn-stay-subscribed-button-stay-subscribed = Qëndroni i pajtuar
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Pas kësaj, pajtimi  juaj do të rinovohet automatikisht sipas çmimit standard, hiq rastin kur e anuloni.
 
 ## Component - CouponForm
 
@@ -323,12 +344,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Futur si
 payments-header-avatar-expanded-sign-out = Dilni
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Na vjen keq t’ju shohim të largoheni
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Pajtimi juaj në { $productName } është anuluar. Do të mund të përdorni ende { $productName } deri më { $date }.
+interstitial-offer-turn-back-on = Mund ta riktheni kurdo pajtimin tuaj, para se të përfundojë.
+interstitial-offer-cancel-success-dialog-aside = Keni pyetje? Vizitoni <LinkExternal>{ -brand-mozilla } Asistencën</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Mbrapsht te pajtimet
+interstitial-offer-action-error = Ndodhi një gabim i papritur. Ju lutemi, riprovoni.
+interstitial-offer-cancel-subscription-button = Anulojeni pajtimin
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Mbajeni pajtimin ditor
 interstitial-offer-button-keep-current-interval-weekly = Mbajeni pajtimin javor
 interstitial-offer-button-keep-current-interval-halfyearly = Merrni pajtim gjashtëmujor
 interstitial-offer-button-keep-current-interval-monthly = Merrni pajtim mujor
+interstitial-offer-button-keep-subscription = Mbajeni pajtimin
 
 ##
 
