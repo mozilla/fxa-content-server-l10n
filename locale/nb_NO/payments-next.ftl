@@ -197,6 +197,11 @@ alert-dialog-title = Varslingsdialogboks
 
 ## Already Canceling
 
+already-canceling-title = Abonnementet ditt er satt til å avsluttes
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Du vil fortsatt ha tilgang til { $productName } frem til { $date }.
+already-canceling-turn-back-on = Du kan slå abonnementet ditt på igjen når som helst før det utløper.
 already-canceling-button-back-to-subscriptions = Tilbake til abonnementer
 
 ## Navigation breadcrumbs
@@ -272,6 +277,8 @@ churn-cancel-flow-cancel-success-title = Det er leit at du forsvinner
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 churn-cancel-flow-cancel-success-dialog-msg = { $productName }-abonnementet ditt er avsluttet. Du vil fortsatt ha tilgang til { $productName } frem til { $date }.
+churn-cancel-flow-cancel-turn-back-on = Du kan slå abonnementet ditt på igjen når som helst før det utløper.
+churn-cancel-flow-cancel-success-dialog-aside = Har du spørsmål? Besøk <LinkExternal>{ -brand-mozilla }-brukerstøtte</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -294,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Takk for at du er en verdsatt a
 churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnementer
 churn-stay-subscribed-button-stay-subscribed = Fortsett abonnementet
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Etter det vil abonnementet ditt automatisk fornyes til standardprisen, med mindre du sier opp.
 
 ## Component - CouponForm
 
