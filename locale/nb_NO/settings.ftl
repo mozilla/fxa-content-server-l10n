@@ -1900,6 +1900,12 @@ signin-passwordless-code-other-account-link = Bruk en annen konto
 
 signup-passwordless-code-subheading = Registrering tar bare ett trinn når du bruker denne koden.
 
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Totrinns-autentisering er aktivert på kontoen din. Logg inn med passordet ditt.
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
