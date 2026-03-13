@@ -1887,8 +1887,8 @@ signin-passwordless-code-expired = Code expiré ?
 # { $seconds } - countdown timer showing seconds until user can request a new code
 signin-passwordless-code-resend-countdown =
     { $seconds ->
-        [one] Envoyer un nouveau code dans { $seconds } seconde
-       *[other] Envoyer un nouveau code dans { $seconds } secondes
+        [one] Envoyez un nouveau code dans { $seconds } seconde
+       *[other] Envoyez un nouveau code dans { $seconds } secondes
     }
 signin-passwordless-code-resend-link = Envoyer un nouveau code.
 signin-passwordless-code-resend-error = Une erreur s’est produite. Impossible d’envoyer un nouveau code.
@@ -1897,7 +1897,7 @@ signin-passwordless-code-other-account-link = Utiliser un autre compte
 ## SignupPasswordlessCode page
 ## Users are prompted to enter a code sent to their email to create a new account without a password.
 
-signup-passwordless-code-subheading = L’inscription ne se fait qu’une seule fois avec ce code.
+signup-passwordless-code-subheading = L’inscription ne se fait qu’en une seule étape lorsque vous utilisez ce code.
 
 ## Error messages
 
