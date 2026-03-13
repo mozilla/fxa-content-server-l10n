@@ -195,6 +195,15 @@ page-not-found-description = De opgevraagde pagina is niet gevonden. We zijn op 
 page-not-found-back-button = Terug
 alert-dialog-title = Waarschuwingsdialoogvenster
 
+## Already Canceling
+
+already-canceling-title = Uw abonnement wordt beëindigd
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = U behoudt tot { $date } toegang tot { $productName }.
+already-canceling-turn-back-on = U kunt uw abonnement op elk gewenst moment voordat het eindigt weer inschakelen.
+already-canceling-button-back-to-subscriptions = Terug naar abonnementen
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +235,7 @@ subscription-content-cancel-access-message = Mijn toegang tot en opgeslagen gege
 
 cancel-subscription-button-cancel-subscription = Abonnement opzeggen
     .aria-label = Uw abonnement op { $productName } opzeggen
+cancel-subscription-button-keep-subscription = Abonnement behouden
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +259,7 @@ churn-cancel-flow-action-error = Er is een onverwachte fout opgetreden. Probeer 
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Blijf geabonneerd en bespaar { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Blijf geabonneerd en bespaar
+churn-cancel-flow-button-cancel-subscription = Abonnement opzeggen
 churn-cancel-flow-link-terms-and-restrictions = Er zijn beperkte voorwaarden en beperkingen van toepassing
 churn-cancel-flow-discount-already-applied-title = Kortingscode al toegepast
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -260,6 +271,14 @@ churn-cancel-flow-button-contact-support = Contact opnemen
 
 churn-cancel-flow-subscription-active-title = Uw { $productName }-abonnement is actief
 churn-cancel-flow-button-go-to-product-page = Naar { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Daarna wordt uw abonnement automatisch verlengd tegen het standaardtarief, tenzij u opzegt.
+churn-cancel-flow-cancel-success-title = We vinden het jammer dat u weggaat
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Uw abonnement op { $productName } is opgezegd. U hebt nog tot { $date } toegang tot { $productName }.
+churn-cancel-flow-cancel-turn-back-on = U kunt uw abonnement op elk gewenst moment voordat het eindigt weer inschakelen.
+churn-cancel-flow-cancel-success-dialog-aside = Vragen? Bezoek <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -282,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Bedankt dat u een gewaardeerde 
 churn-stay-subscribed-button-go-to-product-page = Naar { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Naar Abonnementen
 churn-stay-subscribed-button-stay-subscribed = Abonnement behouden
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Daarna wordt uw abonnement automatisch verlengd tegen het standaardtarief, tenzij u opzegt.
 
 ## Component - CouponForm
 
@@ -320,12 +341,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Aangemeld als
 payments-header-avatar-expanded-sign-out = Afmelden
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = We vinden het jammer dat u weggaat
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Uw abonnement op { $productName } is opgezegd. U hebt nog tot { $date } toegang tot { $productName }.
+interstitial-offer-turn-back-on = U kunt uw abonnement op elk gewenst moment voordat het eindigt weer inschakelen.
+interstitial-offer-cancel-success-dialog-aside = Vragen? Bezoek <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Terug naar abonnementen
+interstitial-offer-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
+interstitial-offer-cancel-subscription-button = Abonnement opzeggen
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Dagabonnement behouden
 interstitial-offer-button-keep-current-interval-weekly = Weekabonnement behouden
 interstitial-offer-button-keep-current-interval-halfyearly = Halfjaarabonnement behouden
 interstitial-offer-button-keep-current-interval-monthly = Maandabonnement behouden
+interstitial-offer-button-keep-subscription = Abonnement behouden
 
 ##
 
