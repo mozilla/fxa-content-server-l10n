@@ -1908,6 +1908,17 @@ signin-passwordless-code-resend-link = Nije koade per e-mail ferstjoere.
 signin-passwordless-code-resend-error = Der is wat misgien. Der koe gjin nije koade ferstjoerd wurde.
 signin-passwordless-code-other-account-link = In oar account brûke
 
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Registraasje duorret mar ien stap as jo dizze koade brûke.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Twa-stapsautentikaasje is ynskeakele op jo account. Meld jo oan mei jo wachtwurd.
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
