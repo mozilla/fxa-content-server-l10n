@@ -272,11 +272,11 @@ churn-cancel-flow-button-contact-support = Contactar soporte
 churn-cancel-flow-subscription-active-title = Tu suscripción a { $productName } está activa
 churn-cancel-flow-button-go-to-product-page = Ir a { $productName }
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
-churn-cancel-flow-after = Después de eso, tu suscripción se renovará automáticamente a la tarifa estándar, a menos que la canceles.
+churn-cancel-flow-after = Después de eso, tu suscripción se renovará automáticamente a la tarifa estándar, a menos que la cancelés.
 churn-cancel-flow-cancel-success-title = Lamentamos que te vayas
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-churn-cancel-flow-cancel-success-dialog-msg = Tu suscripción de { $productName } ha sido cancelada. Seguirás teniendo acceso a { $productName } hasta las { $date }.
+churn-cancel-flow-cancel-success-dialog-msg = Tu suscripción de { $productName } ha sido cancelada. Seguirás teniendo acceso a { $productName } hasta el { $date }.
 churn-cancel-flow-cancel-turn-back-on = Podés volver a activar tu suscripción en cualquier momento antes de que finalice.
 churn-cancel-flow-cancel-success-dialog-aside = ¿Tenés preguntas? Visitá <linkExternal>Soporte de { -brand-mozilla }</linkExternal>.
 
@@ -302,7 +302,7 @@ churn-stay-subscribed-button-go-to-product-page = Ir a { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Ir a suscripciones
 churn-stay-subscribed-button-stay-subscribed = Mantener la suscripción
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
-churn-stay-subscribed-after = Después de eso, tu suscripción se renovará automáticamente a la tarifa estándar, a menos que la canceles.
+churn-stay-subscribed-after = Después de eso, tu suscripción se renovará automáticamente a la tarifa estándar, a menos que la cancelés.
 
 ## Component - CouponForm
 
@@ -346,7 +346,7 @@ payments-header-avatar-expanded-sign-out = Cerrar sesión
 interstitial-offer-success-cancel-title = Lamentamos que te vayas
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-interstitial-offer-cancel-success-dialog-msg = Tu suscripción de { $productName } ha sido cancelada. Seguirás teniendo acceso a { $productName } hasta las { $date }.
+interstitial-offer-cancel-success-dialog-msg = Tu suscripción de { $productName } ha sido cancelada. Seguirás teniendo acceso a { $productName } hasta el { $date }.
 interstitial-offer-turn-back-on = Podés volver a activar tu suscripción en cualquier momento antes de que finalice.
 interstitial-offer-cancel-success-dialog-aside = ¿Tenés preguntas? Visitá <linkExternal>Soporte de { -brand-mozilla }</linkExternal>.
 interstitial-offer-button-back-to-subscriptions = Volver a suscripciones
