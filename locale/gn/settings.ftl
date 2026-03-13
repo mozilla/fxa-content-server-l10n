@@ -1862,6 +1862,7 @@ back = Tapykue
 
 signin-passkey-fallback-header = Emohu’ã jeike pyahu
 signin-passkey-fallback-heading = Ehai ñe’ẽñemi embojuehe hag̃ua
+signin-passkey-fallback-body = Ereko hag̃ua mba’ekuaarã tekosãme, eikotevẽ ehai ñe’ẽñemi eiporu vove ko ñe’ẽ ñemi.
 signin-passkey-fallback-password-label = Ñe’ẽñemi
 signin-passkey-fallback-go-to-settings = Eho ñembohekópe
 signin-passkey-fallback-continue = Ku’ejey
