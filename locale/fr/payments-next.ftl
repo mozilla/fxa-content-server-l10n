@@ -273,10 +273,10 @@ churn-cancel-flow-subscription-active-title = Votre abonnement à { $productName
 churn-cancel-flow-button-go-to-product-page = Ouvrir { $productName }
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
 churn-cancel-flow-after = Passé ce délai, votre abonnement sera automatiquement renouvelé au tarif standard, sauf si vous l’annulez.
-churn-cancel-flow-cancel-success-title = C’est triste de vous voir partir…
+churn-cancel-flow-cancel-success-title = C’est triste de vous voir partir
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-churn-cancel-flow-cancel-success-dialog-msg = Votre abonnement de { $productName } a été annulé. Vous aurez encore accès à { $productName } jusqu’à { $date }.
+churn-cancel-flow-cancel-success-dialog-msg = Votre abonnement à { $productName } a été annulé. Vous aurez encore accès à { $productName } jusqu’au { $date }.
 churn-cancel-flow-cancel-turn-back-on = Vous pouvez réactiver votre abonnement à tout moment avant qu’il ne se termine.
 churn-cancel-flow-cancel-success-dialog-aside = Vous avez des questions ? Consultez <LinkExternal>l’assistance de { -brand-mozilla }</LinkExternal>.
 
@@ -343,10 +343,10 @@ payments-header-avatar-expanded-sign-out = Déconnexion
 
 ## Interstitial Offer
 
-interstitial-offer-success-cancel-title = C’est triste de vous voir partir…
+interstitial-offer-success-cancel-title = C’est triste de vous voir partir
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-interstitial-offer-cancel-success-dialog-msg = Votre abonnement de { $productName } a été annulé. Vous aurez encore accès à { $productName } jusqu’à { $date }.
+interstitial-offer-cancel-success-dialog-msg = Votre abonnement à { $productName } a été annulé. Vous aurez encore accès à { $productName } jusqu’au { $date }.
 interstitial-offer-turn-back-on = Vous pouvez réactiver votre abonnement à tout moment avant qu’il ne se termine.
 interstitial-offer-cancel-success-dialog-aside = Vous avez des questions ? Consultez <LinkExternal>l’assistance de { -brand-mozilla }</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Retour aux abonnements
