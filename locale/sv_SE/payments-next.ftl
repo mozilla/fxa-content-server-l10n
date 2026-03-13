@@ -235,7 +235,7 @@ subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade
 
 cancel-subscription-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt din prenumeration på { $productName }
-cancel-subscription-button-keep-subscription = Fortsätt prenumeration
+cancel-subscription-button-keep-subscription = Behåll prenumeration
 
 ## Component - Payment Consent Checkbox
 
@@ -359,7 +359,7 @@ interstitial-offer-button-keep-current-interval-daily = Behåll daglig prenumera
 interstitial-offer-button-keep-current-interval-weekly = Behåll veckovis prenumeration
 interstitial-offer-button-keep-current-interval-halfyearly = Behåll sexmånadersprenumerationen
 interstitial-offer-button-keep-current-interval-monthly = Behåll månadsprenumerationen
-interstitial-offer-button-keep-subscription = Fortsätt prenumeration
+interstitial-offer-button-keep-subscription = Behåll prenumeration
 
 ##
 
