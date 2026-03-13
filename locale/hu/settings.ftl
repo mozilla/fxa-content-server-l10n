@@ -1662,6 +1662,11 @@ set-password-heading-v2 = Jelszó létrehozása a szinkronizáláshoz
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Ez titkosítja az adatait. Különböznie kell a { -brand-google } vagy { -brand-apple }-fiókjához tartozó jelszavától.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Ez a jelszó titkosítja és biztonságban tartja a szinkronizált adatait.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1873,6 +1878,47 @@ signin-passkey-fallback-continue = Folytatás
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Adja meg a megerősítő kódot
+signin-passwordless-code-subheading = A bejelentkezés csak egy lépésből áll, ha ezt a kódot használja.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Adja meg { $expirationMinutes } percen belül a(z) <email>{ $email }</email> címre küldött kódot.
+       *[other] Adja meg { $expirationMinutes } percen belül a(z) <email>{ $email }</email> címre küldött kódot.
+    }
+signin-passwordless-code-input-label = Adja meg a 8 számjegyű kódot
+signin-passwordless-code-confirm-button = Megerősítés
+signin-passwordless-code-required-error = Megerősítési kód szükséges
+signin-passwordless-code-expired = A kód lejárt?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Új kód elküldése e-mailben { $seconds } másodpercen belül
+       *[other] Új kód elküldése e-mailben { $seconds } másodperc múlva
+    }
+signin-passwordless-code-resend-link = Új kód elküldése e-mailben.
+signin-passwordless-code-resend-error = Valami elromlott. Nem sikerült új kódot küldeni.
+signin-passwordless-code-other-account-link = Másik fiók használata
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = A regisztráció csak egy lépésből áll, ha ezt a kódot használja.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = A kétlépcsős hitelesítés engedélyezve van a fiókjában. Jelentkezzen be a jelszavával.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

@@ -195,6 +195,15 @@ page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo o
 page-not-found-back-button = Nazaj
 alert-dialog-title = Pogovorno okno z opozorilom
 
+## Already Canceling
+
+already-canceling-title = Vaša naročnina se je končala
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Dostop do { $productName } boste imeli do { $date }.
+already-canceling-turn-back-on = Naročnino lahko kadarkoli vklopite, še preden se konča.
+already-canceling-button-back-to-subscriptions = Nazaj na naročnine
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +235,7 @@ subscription-content-cancel-access-message = Prekliči moj dostop in moje shranj
 
 cancel-subscription-button-cancel-subscription = Prekliči naročnino
     .aria-label = Prekličite naročnino na { $productName }
+cancel-subscription-button-keep-subscription = Obdrži naročnino
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +259,7 @@ churn-cancel-flow-action-error = Prišlo je do nepričakovane napake. Poskusite 
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Ostanite naročeni in prihranite { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Ostanite naročeni in prihranite
+churn-cancel-flow-button-cancel-subscription = Prekliči naročnino
 churn-cancel-flow-link-terms-and-restrictions = Veljajo omejeni pogoji in omejitve
 churn-cancel-flow-discount-already-applied-title = Koda za popust je že uveljavljena
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -260,6 +271,14 @@ churn-cancel-flow-button-contact-support = Obrnite se na podporo
 
 churn-cancel-flow-subscription-active-title = Vaša naročnina na { $productName } je aktivna
 churn-cancel-flow-button-go-to-product-page = Pojdi na { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Po tem se bo vaša naročnina samodejno podaljšala po običajni ceni, razen če je ne prekličete.
+churn-cancel-flow-cancel-success-title = Žal nam je, da nas zapuščate
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Vaša naročnina za { $productName } je preklicana. Dostop do { $productName } boste še vedno imeli do { $date }.
+churn-cancel-flow-cancel-turn-back-on = Naročnino lahko kadarkoli vklopite, še preden se konča.
+churn-cancel-flow-cancel-success-dialog-aside = Imate vprašanja? Obiščite <LinkExternal>podporo { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -282,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Hvala, ker ste cenjen naročnik
 churn-stay-subscribed-button-go-to-product-page = Pojdi na { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Pojdi na naročnine
 churn-stay-subscribed-button-stay-subscribed = Ohrani naročnino
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Po tem se bo vaša naročnina samodejno podaljšala po običajni ceni, razen če je ne prekličete.
 
 ## Component - CouponForm
 
@@ -320,12 +341,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Prijavljeni kot
 payments-header-avatar-expanded-sign-out = Odjava
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Žal nam je, da nas zapuščate
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Vaša naročnina za { $productName } je preklicana. Dostop do { $productName } boste še vedno imeli do { $date }.
+interstitial-offer-turn-back-on = Naročnino lahko kadarkoli vklopite, še preden se konča.
+interstitial-offer-cancel-success-dialog-aside = Imate vprašanja? Obiščite <LinkExternal>podporo { -brand-mozilla }</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Nazaj na naročnine
+interstitial-offer-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
+interstitial-offer-cancel-subscription-button = Prekliči naročnino
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Obdrži dnevno naročnino
 interstitial-offer-button-keep-current-interval-weekly = Obdržite tedensko naročnino
 interstitial-offer-button-keep-current-interval-halfyearly = Obdržite šestmesečno naročnino
 interstitial-offer-button-keep-current-interval-monthly = Obdržite mesečno naročnino
+interstitial-offer-button-keep-subscription = Obdrži naročnino
 
 ##
 

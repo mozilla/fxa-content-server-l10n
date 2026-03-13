@@ -1676,6 +1676,11 @@ set-password-heading-v2 = Creu cyfrinair i gydweddu
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Mae hyn yn amgryptio eich data. Mae angen iddo fod yn wahanol i gyfrinair eich cyfrif { -brand-google } neu { -brand-apple }.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Mae'r cyfrinair hwn yn amgryptio'ch data wedi'i gysoni ac yn ei gadw'n ddiogel.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1888,6 +1893,55 @@ signin-passkey-fallback-continue = Parhau
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Rhowch y cod dilysu
+signin-passwordless-code-subheading = Dim ond un cam y mae mewngofnodi yn ei gymryd pan fyddwch yn defnyddio'r cod hwn.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Rhowch y cod anfonwyd i <email>{ $email }</email> o fewn { $expirationMinutes } munud.
+        [zero] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
+        [two] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
+        [few] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
+        [many] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
+       *[other] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
+    }
+signin-passwordless-code-input-label = Rhowch y cod 8 digid
+signin-passwordless-code-confirm-button = Cadarnhau
+signin-passwordless-code-required-error = Mae angen codi dilys
+signin-passwordless-code-expired = Cod wedi dod i ben?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [zero] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [two] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [few] E-bostiwch cod newydd ymhen { $seconds } eiliad
+        [many] E-bostiwch cod newydd ymhen { $seconds } eiliad
+       *[other] E-bostiwch cod newydd ymhen { $seconds } eiliad
+    }
+signin-passwordless-code-resend-link = E-bostiwch cod newydd.
+signin-passwordless-code-resend-error = Aeth rhywbeth o'i le. Nid oedd modd anfon cod newydd.
+signin-passwordless-code-other-account-link = Defnyddiwch gyfrif gwahanol
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Dim ond un cam y mae cofrestru'n ei gymryd pan fyddwch chi'n defnyddio'r cod hwn.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Mae dilysu dau gam wedi'i alluogi ar eich cyfrif. Mewngofnodwch gyda'ch cyfrinair.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

@@ -1670,6 +1670,11 @@ set-password-heading-v2 = Ustvarite geslo za sinhronizacijo
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = S tem se vaši podatki šifrirajo. Geslo mora biti drugačno od gesla vašega računa { -brand-google } ali { -brand-apple }.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = To geslo šifrira vaše sinhronizirane podatke in jih zagotavlja varno.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1883,6 +1888,51 @@ signin-passkey-fallback-continue = Nadaljuj
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Vnesite potrditveno kodo
+signin-passwordless-code-subheading = Če uporabljate to kodo, boste opravili samo en korak.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationMinutes } minuti.
+        [two] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationMinutes } minutah.
+        [few] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationMinutes } minutah.
+       *[other] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationMinutes } minutah.
+    }
+signin-passwordless-code-input-label = Vnesite 8-mestno kodo
+signin-passwordless-code-confirm-button = Potrdi
+signin-passwordless-code-required-error = Zahtevana je potrditvena koda
+signin-passwordless-code-expired = Je koda potekla?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Pošljite novo kodo čez { $seconds } sekunde
+        [two] Pošlji novo kodo čez { $seconds } sekund
+        [few] Pošlji novo kodo čez { $seconds } sekund
+       *[other] Pošlji novo kodo čez { $seconds } sekund
+    }
+signin-passwordless-code-resend-link = Pošlji novo kodo.
+signin-passwordless-code-resend-error = Prišlo je do napake. Nove kode ni bilo mogoče poslati.
+signin-passwordless-code-other-account-link = Uporabi drug račun
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Če uporabite to kodo, boste opravili samo en korak.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Overitev v dveh korakih je v vašem računu omogočena. Prijavite se s svojim geslom.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

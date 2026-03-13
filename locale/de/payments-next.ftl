@@ -195,6 +195,15 @@ page-not-found-description = Die angeforderte Seite wurde nicht gefunden. Wir wu
 page-not-found-back-button = Zurück
 alert-dialog-title = Warnhinweis
 
+## Already Canceling
+
+already-canceling-title = Ihr Abonnement endet damit
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Sie haben weiterhin bis { $date } Zugriff auf { $productName }.
+already-canceling-turn-back-on = Sie können Ihr Abonnement jederzeit wieder aktivieren, bevor es endet.
+already-canceling-button-back-to-subscriptions = Zurück zu Abonnements
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +235,7 @@ subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodE
 
 cancel-subscription-button-cancel-subscription = Abonnement kündigen
     .aria-label = Stornieren Sie Ihr Abonnement für { $productName }
+cancel-subscription-button-keep-subscription = Abonnement behalten
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +259,7 @@ churn-cancel-flow-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte 
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Verlängern Sie Ihr Abonnement und sparen Sie { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Abonnement verlängern und sparen
+churn-cancel-flow-button-cancel-subscription = Abonnement kündigen
 churn-cancel-flow-link-terms-and-restrictions = Es gelten begrenzte Bedingungen und Einschränkungen
 churn-cancel-flow-discount-already-applied-title = Rabattcode bereits angewendet
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -260,6 +271,14 @@ churn-cancel-flow-button-contact-support = Hilfe kontaktieren
 
 churn-cancel-flow-subscription-active-title = Ihr Abonnement von { $productName } ist aktiv
 churn-cancel-flow-button-go-to-product-page = { $productName } aufrufen
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Danach wird Ihr Abonnement automatisch zur Standardgebühr erneuert, es sei denn, Sie kündigen.
+churn-cancel-flow-cancel-success-title = Es tut uns leid, dass Sie uns verlassen
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Ihr Abonnement für { $productName } wurde gekündigt. Sie haben noch bis { $date } Zugriff auf { $productName }.
+churn-cancel-flow-cancel-turn-back-on = Sie können Ihr Abonnement jederzeit wieder aktivieren, bevor es endet.
+churn-cancel-flow-cancel-success-dialog-aside = Haben Sie Fragen? Besuchen Sie die <LinkExternal>{ -brand-mozilla }-Hilfe</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -282,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Danke, dass Sie ein geschätzte
 churn-stay-subscribed-button-go-to-product-page = { $productName } aufrufen
 churn-stay-subscribed-button-go-to-subscriptions = Zu den Abonnements
 churn-stay-subscribed-button-stay-subscribed = Abonnement beibehalten
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Danach wird Ihr Abonnement automatisch zur Standardgebühr erneuert, es sei denn, Sie kündigen.
 
 ## Component - CouponForm
 
@@ -320,12 +341,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Angemeldet als
 payments-header-avatar-expanded-sign-out = Abmelden
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Es tut uns leid, dass Sie uns verlassen
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Ihr Abonnement für { $productName } wurde gekündigt. Sie haben noch bis { $date } Zugriff auf { $productName }.
+interstitial-offer-turn-back-on = Sie können Ihr Abonnement jederzeit wieder aktivieren, bevor es endet.
+interstitial-offer-cancel-success-dialog-aside = Haben Sie Fragen? Besuchen Sie die <LinkExternal>{ -brand-mozilla }-Hilfe</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Zurück zu Abonnements
+interstitial-offer-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
+interstitial-offer-cancel-subscription-button = Abonnement kündigen
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Tägliches Abonnement behalten
 interstitial-offer-button-keep-current-interval-weekly = Monatliches Abonnement behalten
 interstitial-offer-button-keep-current-interval-halfyearly = Sechsmonatiges Abonnement behalten
 interstitial-offer-button-keep-current-interval-monthly = Monatliches Abonnement behalten
+interstitial-offer-button-keep-subscription = Abonnement behalten
 
 ##
 

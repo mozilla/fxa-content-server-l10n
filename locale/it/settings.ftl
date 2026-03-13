@@ -1646,6 +1646,11 @@ set-password-heading-v2 = Crea una password per sincronizzare
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Questa operazione critta i tuoi dati. Deve essere diversa dalla password del tuo account { -brand-google } o { -brand-apple }.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Questa password critta i dati sincronizzati e li mantiene al sicuro.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1854,6 +1859,47 @@ signin-passkey-fallback-continue = Continua
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Inserisci il codice di conferma
+signin-passwordless-code-subheading = L’accesso richiede un solo passaggio quando utilizzi questo codice.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Inserisci il codice che è stato inviato a <email>{ $email }</email> entro { $expirationMinutes } minuto.
+       *[other] Inserisci il codice che è stato inviato a <email>{ $email }</email> entro { $expirationMinutes } minuti.
+    }
+signin-passwordless-code-input-label = Inserisci il codice a 8 cifre
+signin-passwordless-code-confirm-button = Conferma
+signin-passwordless-code-required-error = Codice di conferma obbligatorio
+signin-passwordless-code-expired = Codice scaduto?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Invia un nuovo codice via email tra { $seconds } secondi
+       *[other] Invia un nuovo codice via email tra { $seconds } secondi
+    }
+signin-passwordless-code-resend-link = Invia email con nuovo codice.
+signin-passwordless-code-resend-error = Si è verificato un problema. Impossibile inviare un nuovo codice.
+signin-passwordless-code-other-account-link = Utilizza un altro account
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = La registrazione richiede un solo passaggio quando utilizzi questo codice.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = L’autenticazione in due passaggi è attiva sul tuo account. Accedi con la tua password.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

@@ -1660,6 +1660,11 @@ set-password-heading-v2 = Pro potřeby synchronizace si vytvořte heslo
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Tím se vaše data zašifrují. Musí se lišit od hesla k účtu { -brand-google } nebo { -brand-apple }.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Toto heslo slouží k zašifrování vašich synchronizovaných dat a jejich bezpečí.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1869,6 +1874,49 @@ signin-passkey-fallback-continue = Pokračovat
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Zadejte potvrzovací kód
+signin-passwordless-code-subheading = S použitím tohoto kódu probíhá přihlášení pouze jeden krok.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Vložte kód, který vám byl během { $expirationMinutes } minuty zaslán na adresu <email>{ $email }</email>.
+        [few] Vložte kód, který vám byl během { $expirationMinutes } minut zaslán na adresu <email>{ $email }</email>.
+       *[other] Vložte kód, který vám byl během { $expirationMinutes } minut zaslán na adresu <email>{ $email }</email>.
+    }
+signin-passwordless-code-input-label = Zadejte osmimístný kód
+signin-passwordless-code-confirm-button = Potvrdit
+signin-passwordless-code-required-error = Je vyžadován potvrzovací kód
+signin-passwordless-code-expired = Platnost kódu vypršela?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Nový kód e-mailem za { $seconds } s
+        [few] Odeslat nový kód e-mailem za { $seconds } sekund
+       *[other] Odeslat nový kód e-mailem za { $seconds } sekund
+    }
+signin-passwordless-code-resend-link = Zaslat e-mailem nový kód.
+signin-passwordless-code-resend-error = Nový kód se nepodařilo odeslat.
+signin-passwordless-code-other-account-link = Použít jiný účet
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Při použití tohoto kódu probíhá registrace pouze v jednom kroku.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = U vašeho účtu je zapnuto dvoufázové ověřování. Přihlaste se prosím pomocí svého hesla.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

@@ -195,6 +195,15 @@ page-not-found-description = Sidan du begärde hittades inte. Vi har underrätta
 page-not-found-back-button = Gå tillbaka
 alert-dialog-title = Varningsruta
 
+## Already Canceling
+
+already-canceling-title = Din prenumeration är inställd på att upphöra
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Du fortsätter att ha tillgång till { $productName } tills { $date }.
+already-canceling-turn-back-on = Du kan aktivera din prenumeration igen när som helst innan den upphör.
+already-canceling-button-back-to-subscriptions = Tillbaka till prenumerationer
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +235,7 @@ subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade
 
 cancel-subscription-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt din prenumeration på { $productName }
+cancel-subscription-button-keep-subscription = Fortsätt prenumeration
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +259,7 @@ churn-cancel-flow-action-error = Ett oväntat fel uppstod. Försök igen.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Behåll din prenumeration och spara { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Behåll din prenumeration och spara
+churn-cancel-flow-button-cancel-subscription = Avbryt prenumeration
 churn-cancel-flow-link-terms-and-restrictions = Begränsade villkor och begränsningar gäller
 churn-cancel-flow-discount-already-applied-title = Rabattkod tillämpas redan
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -260,6 +271,14 @@ churn-cancel-flow-button-contact-support = Kontakta support
 
 churn-cancel-flow-subscription-active-title = Din prenumeration på { $productName } är aktiv
 churn-cancel-flow-button-go-to-product-page = Gå till { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Efter det förnyas ditt abonnemang automatiskt till standardavgift, om du inte säger upp dig.
+churn-cancel-flow-cancel-success-title = Vi tycker det är tråkigt att du lämnar oss
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Din prenumeration på { $productName } har avbrutits. Du har fortfarande tillgång till { $productName } tills { $date }.
+churn-cancel-flow-cancel-turn-back-on = Du kan aktivera din prenumeration igen när som helst innan den upphör.
+churn-cancel-flow-cancel-success-dialog-aside = Har du frågor? Besök <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -282,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Tack för att du är en värdef
 churn-stay-subscribed-button-go-to-product-page = Gå till { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Gå till prenumerationer
 churn-stay-subscribed-button-stay-subscribed = Fortsätt prenumerera
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Efter det förnyas ditt abonnemang automatiskt till standardavgift, om du inte säger upp dig.
 
 ## Component - CouponForm
 
@@ -320,12 +341,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Inloggad som
 payments-header-avatar-expanded-sign-out = Logga ut
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Vi tycker det är tråkigt att du lämnar oss
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Din prenumeration på { $productName } har avbrutits. Du har fortfarande tillgång till { $productName } tills { $date }.
+interstitial-offer-turn-back-on = Du kan aktivera din prenumeration igen när som helst innan den upphör.
+interstitial-offer-cancel-success-dialog-aside = Har du frågor? Besök <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Tillbaka till prenumerationer
+interstitial-offer-action-error = Ett oväntat fel uppstod. Försök igen.
+interstitial-offer-cancel-subscription-button = Avbryt prenumeration
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Behåll daglig prenumeration
 interstitial-offer-button-keep-current-interval-weekly = Behåll veckovis prenumeration
 interstitial-offer-button-keep-current-interval-halfyearly = Behåll sexmånadersprenumerationen
 interstitial-offer-button-keep-current-interval-monthly = Behåll månadsprenumerationen
+interstitial-offer-button-keep-subscription = Fortsätt prenumeration
 
 ##
 

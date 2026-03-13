@@ -197,6 +197,15 @@ page-not-found-description = A kért oldal nem található. Értesítést kaptun
 page-not-found-back-button = Ugrás vissza
 alert-dialog-title = Figyelmeztető párbeszédablak
 
+## Already Canceling
+
+already-canceling-title = Az előfizetése véget fog érni
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Továbbra is hozzáfér a következőhöz: { $productName }, eddig: { $date }.
+already-canceling-turn-back-on = Az előfizetését bármikor visszakapcsolhatja, mielőtt az lejár.
+already-canceling-button-back-to-subscriptions = Vissza az előfizetésekhez
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -228,6 +237,7 @@ subscription-content-cancel-access-message = A(z) { $productName } hozzáférés
 
 cancel-subscription-button-cancel-subscription = Előfizetés lemondása
     .aria-label = A(z) { $productName } előfizetésének megszüntetése
+cancel-subscription-button-keep-subscription = Előfizetés megtartása
 
 ## Component - Payment Consent Checkbox
 
@@ -251,6 +261,7 @@ churn-cancel-flow-action-error = Váratlan hiba történt. Próbálja meg újra.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Maradjon továbbra is előfizető, és takarítson meg { $discountPercent }%-ot
 churn-cancel-flow-button-stay-subscribed-and-save = Maradjon előfizető, és takarítson meg
+churn-cancel-flow-button-cancel-subscription = Előfizetés lemondása
 churn-cancel-flow-link-terms-and-restrictions = Korlátozott feltételek és korlátozások vonatkoznak rá
 churn-cancel-flow-discount-already-applied-title = A kedvezménykód már alkalmazva van
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -262,6 +273,14 @@ churn-cancel-flow-button-contact-support = Kapcsolatfelvétel az ügyfélszolgá
 
 churn-cancel-flow-subscription-active-title = { $productName } előfizetése aktív
 churn-cancel-flow-button-go-to-product-page = Ugrás ide: { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Ezután az előfizetése automatikusan megújul a szokásos díjjal, hacsak nem mondja le.
+churn-cancel-flow-cancel-success-title = Sajnáljuk, hogy távozik
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Lemondta a(z) { $productName } előfizetését. Még mindig hozzá fog férni a(z) { $productName } kiegészítőhöz, eddig: { $date }.
+churn-cancel-flow-cancel-turn-back-on = Az előfizetését bármikor visszakapcsolhatja, mielőtt az lejár.
+churn-cancel-flow-cancel-success-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -284,6 +303,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Köszönjük, hogy értékes el
 churn-stay-subscribed-button-go-to-product-page = Ugrás ide: { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Ugrás az Előfizetésekhez
 churn-stay-subscribed-button-stay-subscribed = Előfizetés megtartása
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Ezután az előfizetése automatikusan megújul a szokásos díjjal, hacsak nem mondja le.
 
 ## Component - CouponForm
 
@@ -322,12 +343,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Bejelentkezve mint
 payments-header-avatar-expanded-sign-out = Kijelentkezés
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Sajnáljuk, hogy távozik
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Lemondta a(z) { $productName } előfizetését. Még mindig hozzá fog férni a(z) { $productName } kiegészítőhöz, eddig: { $date }.
+interstitial-offer-turn-back-on = Az előfizetését bármikor visszakapcsolhatja, mielőtt az lejár.
+interstitial-offer-cancel-success-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Vissza az előfizetésekhez
+interstitial-offer-action-error = Váratlan hiba történt. Próbálja meg újra.
+interstitial-offer-cancel-subscription-button = Előfizetés lemondása
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Napi előfizetés megtartása
 interstitial-offer-button-keep-current-interval-weekly = Heti előfizetés megtartása
 interstitial-offer-button-keep-current-interval-halfyearly = Hat hónapos előfizetés megtartása
 interstitial-offer-button-keep-current-interval-monthly = Havi előfizetés megtartása
+interstitial-offer-button-keep-subscription = Előfizetés megtartása
 
 ##
 
