@@ -1642,6 +1642,11 @@ set-password-heading-v2 = Emoheñói ñe’ẽñemi embojuehe hag̃ua
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Kóva ombopapapy ne mba’ekuaarã. Iñambueva’erã ne ñe’ẽñemi { -brand-google } térã { -brand-apple } mba’etepeguágui.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Ko ñe’ẽñemi ombopapapy ne mba’ekuaarã ojuehepyréva ha omohekorosã.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1858,6 +1863,8 @@ signin-passkey-fallback-continue = Ku’ejey
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
+signin-passwordless-code-heading = Emoinge ayvu ñemoneĩrã
+signin-passwordless-code-subheading = Eike hag̃ua eikotevẽ jeku’e’i eiporúvo ko ayvu.
 signin-passwordless-code-input-label = Emoinge ayvu 8 taíva
 signin-passwordless-code-confirm-button = Ñemoneĩ
 signin-passwordless-code-required-error = Ayvu ñemoneĩrã tekotevẽva

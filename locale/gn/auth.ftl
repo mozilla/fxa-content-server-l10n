@@ -337,6 +337,9 @@ subscriptionRenewalReminder-content-greeting = Ñemuhára { $productName } pegua
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = Ne ñemboheraguapy ag̃agua oñemboheko hekopyahu hag̃ua ijehegui { $reminderLength } árape.
+subscriptionRenewalReminder-content-discount-change = Ehepyme’ẽtahína hekoambuéva hepykue, opáma rupi hepyguejyva’ekue ymave ha ko’ág̃a oĩ jeýma peteĩ tepyguejy ipyahúva.
+subscriptionRenewalReminder-content-discount-ending = Opáma rupi hepyguejyva’ekue ymave, ne ñemboheraguapýre ehepyme’ẽta opavave ojapoháicha.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Upéramo, { -brand-mozilla } ombopyahúta ne ñemboheraguapy ehepyme’ẽta { $invoiceTotal } rehegua ehepyme’ẽmemeháicha tapiaite nde eiporúva.
 subscriptionRenewalReminder-content-closing = Ma’ẽag̃uíme,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

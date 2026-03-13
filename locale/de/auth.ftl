@@ -264,9 +264,9 @@ subscriptionEndingReminder-title = Ihr Abonnement für { $productName } läuft b
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Ihr Zugriff auf { $productName } endet am <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2-v2 = Wenn Sie { $productName } weiter verwenden möchten, können Sie das Abonnement bis <strong>{ $serviceLastActiveDateOnly }</strong> in der <a data-l10n-name="subscriptionEndingReminder-subscription-management">Abonnementverwaltung</a> behalten . Wenn Sie Hilfe benötigen, <a data-l10n-name="subscriptionEndingReminder-contact-support">kontaktieren Sie unser Hilfe-Team</a>.
+subscriptionEndingReminder-content-line2-v2 = Wenn Sie { $productName } weiter verwenden möchten, können Sie das Abonnement bis <strong>{ $serviceLastActiveDateOnly }</strong> in der <a data-l10n-name="subscriptionEndingReminder-subscription-management">Abonnementverwaltung</a> verlängern . Wenn Sie Hilfe benötigen, <a data-l10n-name="subscriptionEndingReminder-contact-support">kontaktieren Sie unser Hilfe-Team</a>.
 subscriptionEndingReminder-content-line1-plaintext = Ihr Zugriff auf { $productName } endet am { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext-v2 = Wenn Sie weiterhin { $productName } verwenden möchten, können Sie bis zu { $serviceLastActiveDateOnly } in der Abonnementverwaltung bleiben. Wenn Sie Hilfe benötigen, kontaktieren Sie unser Hilfe-Team.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Wenn Sie { $productName } weiterhin verwenden möchten, können Sie Ihr Abonnenent bis zum { $serviceLastActiveDateOnly } in der Abonnementverwaltung verlängern. Wenn Sie Hilfe benötigen, kontaktieren Sie unser Hilfe-Team.
 subscriptionEndingReminder-content-closing = Danke, dass Sie ein geschätzter Abonnent sind!
 subscriptionEndingReminder-churn-title = Möchten Sie den Zugriff behalten?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Es gelten begrenzte Bedingungen und Einschränkungen</a>

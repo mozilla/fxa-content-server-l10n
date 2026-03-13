@@ -195,6 +195,11 @@ alert-dialog-title = Ñomongeta kyhyjerãva
 
 ## Already Canceling
 
+already-canceling-title = Ne ñemboheraguapy oĩma opa hag̃uáicha
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Eikekuaáta gueteri { $productName }-pe { $date } peve.
+already-canceling-turn-back-on = Emyandy jeykuaa ne ñemboheraguapy ejapose vove opa mboyve.
 already-canceling-button-back-to-subscriptions = Ejevy moheraguapyhápe
 
 ## Navigation breadcrumbs
@@ -264,6 +269,9 @@ churn-cancel-flow-button-contact-support = Eñe’ẽ pytyvõhándi
 
 churn-cancel-flow-subscription-active-title = Mboheraguapy { $productName } hendyjeýma
 churn-cancel-flow-button-go-to-product-page = Eho { $productName }-pe
+churn-cancel-flow-cancel-success-title = Ore rombyasy ehohaguére
+churn-cancel-flow-cancel-turn-back-on = Emyandy jeykuaa ne ñemboheraguapy ejapose vove opa mboyve.
+churn-cancel-flow-cancel-success-dialog-aside = Eporandusépa. Eike <LinkExternal>{ -brand-mozilla } Pytyvõha</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -324,12 +332,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Eike peteĩvaramo
 payments-header-avatar-expanded-sign-out = Emboty tembiapo
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Ore rombyasy ehohaguére
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Ne ñemboheraguapy { $productName } reheguáva ojejokóma. Eikekuaáta gueteri { $productName }-pe { $date } peve.
+interstitial-offer-turn-back-on = Emyandy jeykuaa ne ñemboheraguapy ejapose vove opa mboyve.
+interstitial-offer-cancel-success-dialog-aside = Eporandusépa. Eike <LinkExternal>{ -brand-mozilla } Pytyvõha</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Ejevy moheraguapyhápe
+interstitial-offer-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
+interstitial-offer-cancel-subscription-button = Eheja ñemboheraguapy
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Erekomeme ñemboheraguapy aragua
 interstitial-offer-button-keep-current-interval-weekly = Erekomeme ñemboheraguapy arapokõindygua
 interstitial-offer-button-keep-current-interval-halfyearly = Erekomeme ñemboheraguapy arapokõindygua
 interstitial-offer-button-keep-current-interval-monthly = Erekomeme ñemboheraguapy jasygua
+interstitial-offer-button-keep-subscription = Erekomeme ñemboheraguapy
 
 ##
 
