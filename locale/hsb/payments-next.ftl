@@ -204,6 +204,7 @@ already-canceling-title = Waš abonement so skónči
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 already-canceling-message = Maće dale přistup k { $productName } hač do { $date }.
+already-canceling-turn-back-on = Móžeće swój abonement kóždy čas zaso aktiwizować, prjedy hač so kónči.
 already-canceling-button-back-to-subscriptions = Wróćo k abonementam
 
 ## Navigation breadcrumbs
