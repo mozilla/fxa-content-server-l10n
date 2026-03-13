@@ -195,6 +195,10 @@ page-not-found-description = Le pagina que tu ha requestate non ha essite trovat
 page-not-found-back-button = Retornar
 alert-dialog-title = Fenestra de dialogo de alerta
 
+## Already Canceling
+
+already-canceling-title = Tu abonamento es preste a finir
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings

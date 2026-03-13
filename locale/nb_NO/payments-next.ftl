@@ -195,6 +195,10 @@ page-not-found-description = Siden du ba om ble ikke funnet. Vi har blitt varsle
 page-not-found-back-button = Gå tilbake
 alert-dialog-title = Varslingsdialogboks
 
+## Already Canceling
+
+already-canceling-button-back-to-subscriptions = Tilbake til abonnementer
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +230,7 @@ subscription-content-cancel-access-message = Avbryt tilgangen min og lagret info
 
 cancel-subscription-button-cancel-subscription = Avslutt abonnement
     .aria-label = Avslutt abonnementet på { $productName }
+cancel-subscription-button-keep-subscription = Behold abonnementet
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +254,7 @@ churn-cancel-flow-action-error = Det oppstod en uventet feil. Prøv på nytt.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortsett å abonnere og spar { $discountPercent } %
 churn-cancel-flow-button-stay-subscribed-and-save = Fortsett å abonnere og spar
+churn-cancel-flow-button-cancel-subscription = Avbryt abonnement
 churn-cancel-flow-link-terms-and-restrictions = Begrensede vilkår og restriksjoner gjelder
 churn-cancel-flow-discount-already-applied-title = Rabattkoden er allerede brukt
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -260,6 +266,8 @@ churn-cancel-flow-button-contact-support = Kontakt brukerstøtte
 
 churn-cancel-flow-subscription-active-title = Ditt abonnement på { $productName } er aktivt.
 churn-cancel-flow-button-go-to-product-page = Gå til { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Etter det vil abonnementet ditt automatisk fornyes til standardprisen, med mindre du sier opp.
 churn-cancel-flow-cancel-success-title = Det er leit at du forsvinner
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
