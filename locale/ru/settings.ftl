@@ -1899,6 +1899,27 @@ signin-passwordless-code-input-label = Введите код из 8 цифр
 signin-passwordless-code-confirm-button = Подтвердить
 signin-passwordless-code-required-error = Требуется код подтверждения
 signin-passwordless-code-expired = Срок действия кода истёк?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Отправить почтой новый код через { $seconds } секунду
+        [few] Отправить почтой новый код через { $seconds } секунды
+       *[many] Отправить почтой новый код через { $seconds } секунд
+    }
+signin-passwordless-code-resend-link = Отправить новый код по электронной почте.
+signin-passwordless-code-resend-error = Что-то пошло не так. Не удалось отправить новый код.
+signin-passwordless-code-other-account-link = Использовать другой аккаунт
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = При использовании этого кода регистрация занимает всего один шаг.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = В вашем аккаунте включена двухэтапная аутентификация. Пожалуйста, войдите, используя ваш пароль.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
