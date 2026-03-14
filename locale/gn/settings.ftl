@@ -1877,6 +1877,17 @@ signin-passkey-fallback-continue = Ku’ejey
 
 signin-passwordless-code-heading = Emoinge ayvu ñemoneĩrã
 signin-passwordless-code-subheading = Eike hag̃ua eikotevẽ jeku’e’i eiporúvo ko ayvu.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Ehai ayvu ohóva <email>{ $email }</email>-pe { $expirationTime } aravo’ieta pa’ũme.
+       *[other] Ehai ayvu ohóva <email>{ $email }</email>-pe { $expirationTime } aravo’ietaite pa’ũme.
+    }
 signin-passwordless-code-input-label = Emoinge ayvu 8 taíva
 signin-passwordless-code-confirm-button = Ñemoneĩ
 signin-passwordless-code-required-error = Ayvu ñemoneĩrã tekotevẽva
