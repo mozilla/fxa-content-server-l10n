@@ -1802,6 +1802,9 @@ signin-passwordless-code-input-label = Wprowadź 8-cyfrowy kod
 signin-passwordless-code-confirm-button = Potwierdź
 signin-passwordless-code-required-error = Wymagany jest kod potwierdzenia
 signin-passwordless-code-expired = Kod wygasł?
+signin-passwordless-code-resend-link = Wyślij nowy.
+signin-passwordless-code-resend-error = Coś się nie powiodło. Nie można wysłać nowego kodu.
+signin-passwordless-code-other-account-link = Użyj innego konta
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
