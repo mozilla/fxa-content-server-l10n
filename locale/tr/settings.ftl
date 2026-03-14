@@ -1561,6 +1561,8 @@ pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-f
 
 service-welcome-signup-success-banner = { -product-mozilla-account } onaylandı
 service-welcome-signin-success-banner = Başarıyla giriş yapıldı!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Sonraki: VPN’i açın
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -1777,6 +1779,17 @@ signin-passkey-fallback-continue = Devam et
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-input-label = 8 basamaklı kodu yazın
+signin-passwordless-code-confirm-button = Onayla
+signin-passwordless-code-required-error = Onay kodu gerekli
+signin-passwordless-code-expired = Kodun süresi mi doldu?
+signin-passwordless-code-resend-link = E-posta ile yeni kod gönder.
+signin-passwordless-code-resend-error = Bir sorun oluştu. Yeni kod gönderilemedi.
+signin-passwordless-code-other-account-link = Farklı bir hesap kullan
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

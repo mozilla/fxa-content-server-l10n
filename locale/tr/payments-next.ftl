@@ -180,6 +180,10 @@ page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek b
 page-not-found-back-button = Geri dön
 alert-dialog-title = Uyarı penceresi
 
+## Already Canceling
+
+already-canceling-button-back-to-subscriptions = Aboneliklere dön
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -206,6 +210,10 @@ cancel-subscription-heading = { $productName } aboneliğini iptal et
 
 subscription-content-no-longer-use-message = Fatura döneminizin son günü olan { $currentPeriodEnd } tarihinden sonra { $productName } ürününü kullanamayacaksınız.
 
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-keep-subscription = Aboneliği sürdür
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = { -brand-mozilla }’nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
@@ -223,6 +231,7 @@ churn-cancel-flow-success-title = Hâlâ abonesiniz
 churn-cancel-flow-thanks-valued-subscriber = { $productName } kullandığınız için teşekkürler!
 churn-cancel-flow-button-back-to-subscriptions = Aboneliklere dön
 churn-cancel-flow-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
+churn-cancel-flow-button-cancel-subscription = Aboneliği iptal et
 churn-cancel-flow-discount-already-applied-title = İndirim kodu zaten uygulanmış
 churn-cancel-flow-button-manage-subscriptions = Abonelikleri yönet
 churn-cancel-flow-button-contact-support = Destek birimiyle iletişime geç
@@ -230,6 +239,7 @@ churn-cancel-flow-button-contact-support = Destek birimiyle iletişime geç
 ## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
 churn-cancel-flow-subscription-active-title = { $productName } aboneliğiniz etkin
+churn-cancel-flow-cancel-success-title = Ayrılmanıza üzüldük
 
 ## Churn flow - stay subscribed
 
@@ -240,6 +250,7 @@ churn-stay-subscribed-title-offer-expired = Bu teklifin süresi doldu
 
 churn-stay-subscribed-subtitle-offer-expired = { $productName } ürününü kullanmaya devam etmek ister misiniz?
 churn-stay-subscribed-title-subscription-renewed = Abonelik yenilendi
+churn-stay-subscribed-title-subscription-active = { $productName } aboneliğiniz etkin
 churn-stay-subscribed-thanks-valued-subscriber = Abone olduğunuz için teşekkürler!
 churn-stay-subscribed-button-go-to-subscriptions = Aboneliklere git
 
@@ -280,12 +291,19 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Giriş yapan kullanıcı
 payments-header-avatar-expanded-sign-out = Çıkış yap
 
+## Interstitial Offer
+
+interstitial-offer-button-back-to-subscriptions = Aboneliklere dön
+interstitial-offer-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
+interstitial-offer-cancel-subscription-button = Aboneliği iptal et
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Günlük aboneliği sürdür
 interstitial-offer-button-keep-current-interval-weekly = Haftalık aboneliği sürdür
 interstitial-offer-button-keep-current-interval-halfyearly = Altı aylık aboneliği sürdür
 interstitial-offer-button-keep-current-interval-monthly = Aylık aboneliği sürdür
+interstitial-offer-button-keep-subscription = Aboneliği sürdür
 
 ##
 
