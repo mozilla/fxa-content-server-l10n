@@ -1880,6 +1880,17 @@ signin-passkey-fallback-continue = Continuar
 
 signin-passwordless-code-heading = Insere le codice de confirmation
 signin-passwordless-code-subheading = Le authentication emplea solo un sol passo quando tu usa iste codice.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Insere le codice inviate a <email>{ $email }</email> in { $expirationMinutes } minuta.
+       *[other] Insere le codice inviate a <email>{ $email }</email> in { $expirationMinutes } minutas.
+    }
 signin-passwordless-code-input-label = Insere le codice de 8 digitos
 signin-passwordless-code-confirm-button = Confirmar
 signin-passwordless-code-required-error = Codice de confirmation necessari
@@ -1893,6 +1904,17 @@ signin-passwordless-code-resend-countdown =
 signin-passwordless-code-resend-link = Inviar per email nove codice.
 signin-passwordless-code-resend-error = Alco errate eveniva. Un nove codice non pote esser inviate.
 signin-passwordless-code-other-account-link = Usa un conto differente
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Le inscription emplea un sol passo quando tu usa iste codice.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Le authentication a duo passos es activate sur tu conto. Accede con tu contrasigno.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
