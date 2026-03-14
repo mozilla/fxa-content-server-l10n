@@ -1888,7 +1888,7 @@ signin-passwordless-code-subheading = El inicio de sesión solo necesita un paso
 #   expirationMinutes (Number) - the expiration time in minutes
 signin-passwordless-code-instruction =
     { $expirationMinutes ->
-        [one] Ingrese el código que se envió a <email>{ $email }</email> dentro de { $expirationMinutes } minuto.
+        [one] Ingresá el código que se envió a <email>{ $email }</email> en un plazo de { $expirationMinutes } minuto.
        *[other] Ingresá el código que se envió a <email>{ $email }</email> en un plazo de { $expirationMinutes } minutos.
     }
 signin-passwordless-code-input-label = Ingresá el código de 8 dígitos
@@ -1898,7 +1898,7 @@ signin-passwordless-code-expired = ¿Código expirado?
 # { $seconds } - countdown timer showing seconds until user can request a new code
 signin-passwordless-code-resend-countdown =
     { $seconds ->
-        [one] Código nuevo por correo electrónico en { $seconds } segundos
+        [one] Enviar correo electrónico con código nuevo en { $seconds } segundo
        *[other] Enviar correo electrónico con código nuevo en { $seconds } segundos
     }
 signin-passwordless-code-resend-link = Enviar código nuevo.
@@ -1914,7 +1914,7 @@ signup-passwordless-code-subheading = Registrarse solo toma un paso cuando usás
 
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
-signin-passwordless-totp-required = La autenticación de dos pasos está habilitada en su cuenta. Ingresá con tu contraseña.
+signin-passwordless-totp-required = La autenticación de dos pasos está habilitada en tu cuenta. Ingresá con tu contraseña.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
