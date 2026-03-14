@@ -1193,6 +1193,7 @@ passkey-row-header = Ñe’ẽñemi
 passkey-row-enabled = Myandypyre
 passkey-row-not-set = Heko’ỹva
 passkey-row-action-create = Moheñói
+passkey-row-description = Ejapo nde jeike ndahasýi ha tahekorosã eiporúvo pumbyry térã ambue mba’e’oka ojokupytýva eike hag̃ua ne mba’etépe.
 # External link to a support article. "This" refers to passkeys.
 passkey-row-info-link = Mba’éicha kóva omo’ãta ne mba’ete
 
