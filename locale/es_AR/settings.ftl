@@ -1879,7 +1879,7 @@ signin-passkey-fallback-continue = Continuar
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Ingresá el código de confirmación
-signin-passwordless-code-subheading = El inicio de sesión solo requiere un paso cuando usás este código.
+signin-passwordless-code-subheading = El inicio de sesión solo necesita un paso cuando usás este código.
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
