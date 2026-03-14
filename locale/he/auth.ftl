@@ -261,7 +261,9 @@ subscriptionEndingReminder-title = המינוי שלך ל־{ $productName } יפ
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = הגישה שלך ל־{ $productName } תסתיים בתאריך <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2-v2 = אם ברצונך להמשיך להשתמש ב־{ $productName }, ניתן להישאר רשום כמינוי ב<a data-l10n-name="subscriptionEndingReminder-subscription-management">ניהול מינוי</a> לפני <strong>{ $serviceLastActiveDateOnly }</strong>. אם יש לך צורך בעזרה, ניתן <a data-l10n-name="subscriptionEndingReminder-contact-support">ליצור קשר עם צוות התמיכה שלנו</a>.
 subscriptionEndingReminder-content-line1-plaintext = הגישה שלך ל־{ $productName } תסתיים בתאריך { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext-v2 = אם ברצונך להמשיך להשתמש ב־{ $productName }, ניתן להישאר רשום כמינוי בניהול מינוי בהגדרות החשבון לפני { $serviceLastActiveDateOnly }. אם יש לך צורך בעזרה, ניתן ליצור קשר עם צוות התמיכה שלנו.
 subscriptionEndingReminder-content-closing = תודה לך על היותך מנוי מוערך!
 subscriptionEndingReminder-churn-title = רוצה לשמור על הגישה?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">כפוף לתנאים ולהגבלות</a>
