@@ -200,6 +200,7 @@ already-canceling-title = המינוי שלך מוגדר להסתיים
 # $date (Date) - Last day of product access
 already-canceling-message = תמשיך להיות לך גישה ל־{ $productName } עד לתאריך { $date }.
 already-canceling-turn-back-on = ניתן להפעיל מחדש את המינוי בכל עת לפני סיומו.
+already-canceling-button-back-to-subscriptions = חזרה למינויים
 
 ## Navigation breadcrumbs
 
@@ -230,6 +231,7 @@ subscription-content-cancel-access-message = בטלו את הגישה ואת ה�
 
 cancel-subscription-button-cancel-subscription = ביטול מינוי
     .aria-label = ביטול המינוי שלך ל־{ $productName }
+cancel-subscription-button-keep-subscription = להשאיר את המינוי
 
 ## Component - Payment Consent Checkbox
 

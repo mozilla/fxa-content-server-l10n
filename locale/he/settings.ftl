@@ -1588,6 +1588,11 @@ set-password-heading-v2 = יצירת ססמה לסנכרון
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = ססמה זו מצפינה את הנתונים שלך. היא צריכה להיות שונה מססמת החשבון שלך ב־{ -brand-google } או ב־{ -brand-apple }.
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = ססמה זו מצפינה את הנתונים המסונכרנים שלך ומאבטחת אותם.
+
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = נא להכניס את המפתח לשחזור החשבון שלך
@@ -1788,6 +1793,47 @@ signin-passkey-fallback-continue = המשך
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = נא להכניס את קוד האימות
+signin-passwordless-code-subheading = בעת שימוש בקוד הזה, תהליך ההתחברות מתבצע בצעד אחד בלבד.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] נא להכניס את הקוד שנשלח אל <email>{ $email }</email> תוך דקה אחת.
+       *[other] נא להכניס את הקוד שנשלח אל <email>{ $email }</email> תוך { $expirationMinutes } דקות.
+    }
+signin-passwordless-code-input-label = נא להכניס קוד בן 6 ספרות
+signin-passwordless-code-confirm-button = אישור
+signin-passwordless-code-required-error = נדרש קוד אימות
+signin-passwordless-code-expired = פג תוקף הקוד?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] שליחת קוד חדש בדוא״ל בעוד שנייה אחת
+       *[other] שליחת קוד חדש בדוא״ל בעוד { $seconds } שניות
+    }
+signin-passwordless-code-resend-link = שליחת קוד חדש בדוא״ל.
+signin-passwordless-code-resend-error = משהו השתבש. לא ניתן היה לשלוח קוד חדש.
+signin-passwordless-code-other-account-link = שימוש בחשבון אחר
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = בעת שימוש בקוד הזה, תהליך ההרשמה מתבצע בצעד אחד בלבד.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = אימות דו־שלבי מופעל בחשבון שלך. נא להתחבר באמצעות הססמה שלך.
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
@@ -1895,8 +1941,8 @@ signin-token-code-resend-code-link = שליחת קוד חדש בדוא״ל.
 # { $seconds } represents the number of seconds remaining
 signin-token-code-resend-code-countdown =
     { $seconds ->
-        [one] שליחת קוד חדש בדוא״ל תוך שנייה אחת
-       *[other] שליחת קוד חדש בדוא״ל תוך { $seconds } שניות
+        [one] שליחת קוד חדש בדוא״ל בעוד שנייה אחת
+       *[other] שליחת קוד חדש בדוא״ל בעוד { $seconds } שניות
     }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = נדרש קוד אימות
@@ -1974,8 +2020,8 @@ confirm-signup-code-resend-code-link = שליחת קוד חדש בדוא״ל.
 # { $seconds } represents the number of seconds remaining
 confirm-signup-code-resend-code-countdown =
     { $seconds ->
-        [one] שליחת קוד חדש בדוא״ל תוך שנייה אחת
-       *[other] שליחת קוד חדש בדוא״ל תוך { $seconds } שניות
+        [one] שליחת קוד חדש בדוא״ל בעוד שנייה אחת
+       *[other] שליחת קוד חדש בדוא״ל בעוד { $seconds } שניות
     }
 confirm-signup-code-success-alert = החשבון אומת בהצלחה
 # Error displayed in tooltip.
