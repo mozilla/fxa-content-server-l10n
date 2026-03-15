@@ -200,8 +200,7 @@ alert-dialog-title = Dialog upozornění
 already-canceling-title = Vaše předplatné se blíží ke konci
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-already-canceling-message = K aplikaci { $productName } budete mít přístup do { $date }.
-already-canceling-turn-back-on = Předplatné můžete kdykoliv před jejím ukončením znovu zapnout.
+already-canceling-message = K produktu { $productName } budete mít přístup až do { $date }.
 already-canceling-button-back-to-subscriptions = Zpět na předplatné
 
 ## Navigation breadcrumbs
