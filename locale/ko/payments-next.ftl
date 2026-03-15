@@ -135,6 +135,7 @@ subscription-management-payment-details-heading = 지불 상세 사항
 subscription-management-email-label = 이메일
 subscription-management-credit-balance-label = 잔액
 subscription-management-credit-balance-message = 크레딧은 향후 청구에 자동으로 적용됩니다.
+subscription-management-payment-method-label = 지불수단
 subscription-management-button-add-payment-method-aria = 결제 수단 추가
 subscription-management-button-add-payment-method = 추가
 subscription-management-button-manage-payment-method-aria = 결제 방법 관리
