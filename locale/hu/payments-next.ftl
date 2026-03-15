@@ -202,7 +202,7 @@ alert-dialog-title = Figyelmeztető párbeszédablak
 already-canceling-title = Az előfizetése véget fog érni
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-already-canceling-message = Továbbra is hozzáfér a következőhöz: { $productName }, eddig: { $date }.
+already-canceling-message = Eddig továbbra is hozzáfér a { $productName } termékhez: { $date }.
 already-canceling-turn-back-on = Az előfizetését bármikor visszakapcsolhatja, mielőtt az lejár.
 already-canceling-button-back-to-subscriptions = Vissza az előfizetésekhez
 
