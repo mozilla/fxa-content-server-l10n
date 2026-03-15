@@ -1350,6 +1350,11 @@ auth-error-215 = Ο αριθμός τηλεφώνου ανάκτησης δεν 
 auth-error-216 = Έχετε φτάσει το όριο των μηνυμάτων κειμένου
 auth-error-218 = Δεν είναι δυνατή η αφαίρεση του τηλεφώνου ανάκτησης, δεν υπάρχουν εφεδρικοί κωδικοί ταυτοποίησης.
 auth-error-219 = Αυτός ο αριθμός τηλεφώνου έχει καταχωρηθεί σε πάρα πολλούς λογαριασμούς. Δοκιμάστε έναν άλλο αριθμό.
+auth-error-224 = Δεν βρέθηκε το κλειδί πρόσβασης
+auth-error-225 = Το κλειδί πρόσβασης έχει ήδη καταχωρηθεί
+auth-error-226 = Έχετε φτάσει το όριο κλειδιών πρόσβασης
+auth-error-227 = Αποτυχία ταυτοποίησης με κλειδί πρόσβασης
+auth-error-228 = Αποτυχία καταχώρησης κλειδιού πρόσβασης
 auth-error-999 = Απροσδόκητο σφάλμα
 auth-error-1001 = Η προσπάθεια σύνδεσης ακυρώθηκε
 auth-error-1002 = Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε.
@@ -1374,6 +1379,22 @@ auth-error-1067 = Εσφαλμένο email;
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Αριθμός που λήγει σε { $lastFourPhoneNumber }
 oauth-error-1000 = Κάτι πήγε στραβά. Κλείστε αυτήν την καρτέλα και δοκιμάστε ξανά.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Η ρύθμιση του κλειδιού πρόσβασης ακυρώθηκε. Δοκιμάστε ξανά.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Δεν είναι δυνατή η ρύθμιση κλειδιών πρόσβασης σε αυτήν τη σελίδα. Χρησιμοποιήστε τον ασφαλή ιστότοπο και δοκιμάστε ξανά.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Αυτό το κλειδί πρόσβασης έχει ήδη καταχωρηθεί. Χρησιμοποιήστε το για σύνδεση ή προσθέστε ένα άλλο κλειδί πρόσβασης.
+
+# Authentication errors
+
 
 ## Connect Another Device page
 
@@ -1595,7 +1616,10 @@ pair-unsupported-message = Χρησιμοποιήσατε την κάμερα σ
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
+service-welcome-signup-success-banner = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } επιβεβαιώθηκε
 service-welcome-signin-success-banner = Επιτυχής σύνδεση!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Επόμενο: Ενεργοποιήστε το VPN
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -1820,6 +1844,15 @@ signin-passkey-fallback-continue = Συνέχεια
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-input-label = Εισαγάγετε τον οκταψήφιο κωδικό
+signin-passwordless-code-confirm-button = Επιβεβαίωση
+signin-passwordless-code-required-error = Απαιτείται κωδικός επιβεβαίωσης
+signin-passwordless-code-expired = Έληξε ο κωδικός;
+signin-passwordless-code-other-account-link = Χρήση διαφορετικού λογαριασμού
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
