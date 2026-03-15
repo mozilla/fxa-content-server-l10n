@@ -1405,12 +1405,12 @@ passkey-registration-error-not-readable = Nepodařilo se nám přistoupit k ově
 # Attestation constraints or device-specific restrictions can't be met
 passkey-registration-error-constraint = Nastavení přístupového klíče není na tomto zařízení dostupné. Zkuste jinou metodu nebo zařízení.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
-passkey-registration-error-unexpected = Nastavení klíče selhalo. Zkuste to znovu nebo zvolte jiný způsob.
+passkey-registration-error-unexpected = Nastavení přístupového klíče selhalo. Zkuste to znovu nebo zvolte jiný způsob.
 
 # Authentication errors
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
-passkey-authentication-error-not-allowed = Přihlášení pomocí klíče selhalo nebo je nedostupné. Zkuste to znovu nebo zvolte jiný způsob.
+passkey-authentication-error-not-allowed = Přihlášení pomocí přístupového klíče selhalo nebo je nedostupné. Zkuste to znovu nebo zvolte jiný způsob.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Vypršel časový limit požadavku na přístupový klíč. Zkuste to prosím znovu.
 # Browser or platform does not support passkeys

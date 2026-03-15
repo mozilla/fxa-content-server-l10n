@@ -278,7 +278,7 @@ churn-cancel-flow-cancel-success-title = Je nám líto, že odcházíte
 # $date (Date) - Last day of product access
 churn-cancel-flow-cancel-success-dialog-msg = Vaše předplatné { $productName } bylo zrušeno. Stále vám zůstane přístup k { $productName } do { $date }.
 churn-cancel-flow-cancel-turn-back-on = Předplatné můžete kdykoliv před jejím ukončením znovu zapnout.
-churn-cancel-flow-cancel-success-dialog-aside = Máte otázky? Navštivte <LinkExternal>podporu { -brand-mozilla }</LinkExternal>.
+churn-cancel-flow-cancel-success-dialog-aside = Máte otázky? Navštivte <LinkExternal>Podporu { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -348,7 +348,7 @@ interstitial-offer-success-cancel-title = Je nám líto, že odcházíte
 # $date (Date) - Last day of product access
 interstitial-offer-cancel-success-dialog-msg = Vaše předplatné { $productName } bylo zrušeno. Stále vám zůstane přístup k { $productName } do { $date }.
 interstitial-offer-turn-back-on = Předplatné můžete kdykoliv před jejím ukončením znovu zapnout.
-interstitial-offer-cancel-success-dialog-aside = Máte otázky? Navštivte <LinkExternal>podporu { -brand-mozilla }</LinkExternal>.
+interstitial-offer-cancel-success-dialog-aside = Máte otázky? Navštivte <LinkExternal>Podporu { -brand-mozilla }</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Zpět na předplatné
 interstitial-offer-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
 interstitial-offer-cancel-subscription-button = Zrušit předplatné

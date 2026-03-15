@@ -271,7 +271,7 @@ subscriptionEndingReminder-content-line1-plaintext = Váš přístup k produktu 
 subscriptionEndingReminder-content-line2-plaintext-v2 = Pokud chcete nadále používat { $productName }, můžete zůstat předplatné ve Správě předplatného do { $serviceLastActiveDateOnly }. Pokud potřebujete pomoci, kontaktujte náš tým podpory.
 subscriptionEndingReminder-content-closing = Děkujeme, že jste naším cenným odběratelem!
 subscriptionEndingReminder-churn-title = Chcete si zachovat přístup?
-subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Na nabídku se vztahují pouze podmínky</a>
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Platí podmínky a omezení</a>
 # Variables:
 #  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
 subscriptionEndingReminder-churn-terms-plaintext = Na nabídku se vztahují podmínky a omezení: { $churnTermsUrlWithUtm }
