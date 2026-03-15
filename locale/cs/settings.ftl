@@ -1418,7 +1418,7 @@ passkey-authentication-error-not-supported = Přístupové klíče nejsou podpor
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Na této stránce nelze použít přístupové klíče. Zkontrolujte, zda jste na správné zabezpečené stránce, a zkuste to znovu.
 # Unexpected credential state during authentication
-passkey-authentication-error-invalid-state = S vaším přístupovým heslem se něco pokazilo. Zkuste to znovu nebo použijte jinou metodu přihlášení.
+passkey-authentication-error-invalid-state = S vaším přístupovým klíčem se něco pokazilo. Zkuste to znovu nebo použijte jinou metodu přihlášení.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-authentication-error-not-readable = Nepodařilo se nám přistoupit k ověřovacímu modulu. Zkuste to znovu nebo použijte jinou metodu přihlášení.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
@@ -1879,7 +1879,7 @@ signin-passkey-fallback-continue = Pokračovat
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Zadejte potvrzovací kód
-signin-passwordless-code-subheading = S použitím tohoto kódu probíhá přihlášení pouze jeden krok.
+signin-passwordless-code-subheading = S použitím tohoto kódu probíhá přihlášení pouze jedním krokem.
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -1904,7 +1904,7 @@ signin-passwordless-code-resend-countdown =
        *[other] Odeslat nový kód e-mailem za { $seconds } sekund
     }
 signin-passwordless-code-resend-link = Zaslat e-mailem nový kód.
-signin-passwordless-code-resend-error = Nový kód se nepodařilo odeslat.
+signin-passwordless-code-resend-error = Něco se pokazilo. Nový kód se nepodařilo odeslat.
 signin-passwordless-code-other-account-link = Použít jiný účet
 
 ## SignupPasswordlessCode page
@@ -1916,7 +1916,7 @@ signup-passwordless-code-subheading = Při použití tohoto kódu probíhá regi
 
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
-signin-passwordless-totp-required = U vašeho účtu je zapnuto dvoufázové ověřování. Přihlaste se prosím pomocí svého hesla.
+signin-passwordless-totp-required = U vašeho účtu je zapnuto dvoufázové ověřování. Přihlaste se, prosím, pomocí svého hesla.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
