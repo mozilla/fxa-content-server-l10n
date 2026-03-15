@@ -1,4 +1,10 @@
 loyalty-discount-terms-heading = 이용 약관
+loyalty-discount-terms-support = 연락하기
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = { $productName } 지원팀에 문의
+not-found-page-title-terms = 페이지를 찾을 수 없음
+not-found-page-description-terms = 찾는 페이지가 존재하지 않습니다.
+not-found-page-button-terms-manage-subscriptions = 구독 관리
 
 ## Page
 
@@ -97,9 +103,38 @@ next-payment-confirmation-download-button = 다운로드 계속 하기
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
 
+## Not found page
+
+not-found-title-subscriptions = 구독 정보를 찾을 수 없음
+not-found-description-subscriptions = 구독 정보를 찾을 수 없습니다. 다시 시도하거나 지원팀에 문의하세요.
+not-found-button-back-to-subscriptions = 구독으로 돌아가기
+
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = 이 제안은 만료되었습니다.
+churn-cancel-flow-error-offer-expired-message = 현재 이 구독에 대한 할인은 없습니다. 원하는 경우 취소할 수 있습니다.
+churn-cancel-flow-error-button-continue-to-cancel = 취소 계속
+churn-cancel-flow-error-page-button-back-to-subscriptions = 구독으로 돌아가기
+
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = 페이지를 찾을 수 없음
+not-found-loyalty-discount-description = 찾는 페이지가 존재하지 않습니다.
+not-found-loyalty-discount-button-back-to-subscriptions = 구독으로 돌아가기
+
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = 추가된 결제 수단 없음
+subscription-management-page-banner-warning-link-no-payment-method = 결제 수단 추가
 subscription-management-subscriptions-heading = 구독
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = 이동
+subscription-management-nav-payment-details = 지불 상세 사항
+subscription-management-nav-active-subscriptions = 활성화된 구독
+subscription-management-payment-details-heading = 지불 상세 사항
+subscription-management-email-label = 이메일
+subscription-management-credit-balance-label = 잔액
+subscription-management-credit-balance-message = 크레딧은 향후 청구에 자동으로 적용됩니다.
 subscription-management-button-add-payment-method-aria = 결제 수단 추가
 subscription-management-button-add-payment-method = 추가
 subscription-management-button-manage-payment-method-aria = 결제 방법 관리
@@ -115,6 +150,7 @@ subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } 앱
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } 앱 내부 구독
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } 구독 관리
+subscription-management-button-manage-payment-method-1 = 결제 방법 관리
 paypal-payment-management-page-invalid-header = 유효하지 않은 결제 정보
 paypal-payment-management-page-invalid-description = { -brand-paypal } 계정에 오류가 있는 것 같습니다. 이 결제 문제를 해결하기 위해 필요한 조치를 취해 주시기 바랍니다.
 # Page - Not Found
