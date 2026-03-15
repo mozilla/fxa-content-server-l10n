@@ -1395,6 +1395,8 @@ passkey-registration-error-invalid-state = Αυτό το κλειδί πρόσβ
 
 # Authentication errors
 
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Δεν είναι δυνατή η χρήση κλειδιών πρόσβασης σε αυτήν τη σελίδα. Βεβαιωθείτε ότι βρίσκεστε στον σωστό ασφαλή ιστότοπο και δοκιμάστε ξανά.
 
 ## Connect Another Device page
 

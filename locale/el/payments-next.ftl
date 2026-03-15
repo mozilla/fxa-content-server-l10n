@@ -198,6 +198,10 @@ alert-dialog-title = Παράθυρο ειδοποίησης
 ## Already Canceling
 
 already-canceling-title = Η συνδρομή σας πρόκειται να λήξει
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Θα εξακολουθείτε να έχετε πρόσβαση στο { $productName } έως τις { $date }.
+already-canceling-turn-back-on = Μπορείτε να ενεργοποιήσετε ξανά τη συνδρομή σας ανά πάσα στιγμή πριν από τη λήξη της.
 already-canceling-button-back-to-subscriptions = Επιστροφή στις συνδρομές
 
 ## Navigation breadcrumbs
@@ -268,6 +272,11 @@ churn-cancel-flow-button-contact-support = Επικοινωνία με την υ
 churn-cancel-flow-subscription-active-title = Η συνδρομή σας στο { $productName } είναι ενεργή
 churn-cancel-flow-button-go-to-product-page = Μετάβαση στο { $productName }
 churn-cancel-flow-cancel-success-title = Λυπούμαστε που φεύγετε
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Η συνδρομή σας στο { $productName } έχει ακυρωθεί. Θα εξακολουθείτε να έχετε πρόσβαση στο { $productName } έως τις { $date }.
+churn-cancel-flow-cancel-turn-back-on = Μπορείτε να ενεργοποιήσετε ξανά τη συνδρομή σας ανά πάσα στιγμή πριν από τη λήξη της.
+churn-cancel-flow-cancel-success-dialog-aside = Έχετε απορίες; Επισκεφθείτε την <LinkExternal>Υποστήριξη { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -331,7 +340,13 @@ payments-header-avatar-expanded-sign-out = Αποσύνδεση
 ## Interstitial Offer
 
 interstitial-offer-success-cancel-title = Λυπούμαστε που φεύγετε
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Η συνδρομή σας στο { $productName } έχει ακυρωθεί. Θα εξακολουθείτε να έχετε πρόσβαση στο { $productName } έως τις { $date }.
+interstitial-offer-turn-back-on = Μπορείτε να ενεργοποιήσετε ξανά τη συνδρομή σας ανά πάσα στιγμή πριν από τη λήξη της.
+interstitial-offer-cancel-success-dialog-aside = Έχετε απορίες; Επισκεφθείτε την <LinkExternal>Υποστήριξη { -brand-mozilla }</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Επιστροφή στις συνδρομές
+interstitial-offer-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 interstitial-offer-cancel-subscription-button = Ακύρωση συνδρομής
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
