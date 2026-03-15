@@ -278,9 +278,9 @@ churn-cancel-flow-after = Ezután az előfizetése automatikusan megújul a szok
 churn-cancel-flow-cancel-success-title = Sajnáljuk, hogy távozik
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-churn-cancel-flow-cancel-success-dialog-msg = Lemondta a(z) { $productName } előfizetését. Még mindig hozzá fog férni a(z) { $productName } kiegészítőhöz, eddig: { $date }.
+churn-cancel-flow-cancel-success-dialog-msg = Lemondta a(z) { $productName } előfizetését. { $date }-ig továbbra is hozzáfér a(z) { $productName } termékhez.
 churn-cancel-flow-cancel-turn-back-on = Az előfizetését bármikor visszakapcsolhatja, mielőtt az lejár.
-churn-cancel-flow-cancel-success-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
+churn-cancel-flow-cancel-success-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } Támogatást</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -348,9 +348,9 @@ payments-header-avatar-expanded-sign-out = Kijelentkezés
 interstitial-offer-success-cancel-title = Sajnáljuk, hogy távozik
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
-interstitial-offer-cancel-success-dialog-msg = Lemondta a(z) { $productName } előfizetését. Még mindig hozzá fog férni a(z) { $productName } kiegészítőhöz, eddig: { $date }.
+interstitial-offer-cancel-success-dialog-msg = Lemondta a(z) { $productName } előfizetését. { $date }-ig továbbra is hozzáfér a(z) { $productName } termékhez.
 interstitial-offer-turn-back-on = Az előfizetését bármikor visszakapcsolhatja, mielőtt az lejár.
-interstitial-offer-cancel-success-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
+interstitial-offer-cancel-success-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } Támogatást</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Vissza az előfizetésekhez
 interstitial-offer-action-error = Váratlan hiba történt. Próbálja meg újra.
 interstitial-offer-cancel-subscription-button = Előfizetés lemondása

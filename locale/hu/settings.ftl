@@ -1902,11 +1902,11 @@ signin-passwordless-code-expired = A kód lejárt?
 # { $seconds } - countdown timer showing seconds until user can request a new code
 signin-passwordless-code-resend-countdown =
     { $seconds ->
-        [one] Új kód elküldése e-mailben { $seconds } másodpercen belül
+        [one] Új kód elküldése e-mailben { $seconds } másodperc múlva
        *[other] Új kód elküldése e-mailben { $seconds } másodperc múlva
     }
 signin-passwordless-code-resend-link = Új kód elküldése e-mailben.
-signin-passwordless-code-resend-error = Valami elromlott. Nem sikerült új kódot küldeni.
+signin-passwordless-code-resend-error = Hiba történt. Nem sikerült új kódot küldeni.
 signin-passwordless-code-other-account-link = Másik fiók használata
 
 ## SignupPasswordlessCode page
