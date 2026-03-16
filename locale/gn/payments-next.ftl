@@ -269,7 +269,12 @@ churn-cancel-flow-button-contact-support = Eñe’ẽ pytyvõhándi
 
 churn-cancel-flow-subscription-active-title = Mboheraguapy { $productName } hendyjeýma
 churn-cancel-flow-button-go-to-product-page = Eho { $productName }-pe
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Upe rire, ne ñemboheraguapy ipyahúta ijeheguiete oñehepyme’ẽva rehe, ndete nerembokéiramo.
 churn-cancel-flow-cancel-success-title = Ore rombyasy ehohaguére
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Ne ñemboheraguapy { $productName } reheguáva ojejokóma. Eikekuaáta gueteri { $productName }-pe { $date } peve.
 churn-cancel-flow-cancel-turn-back-on = Emyandy jeykuaa ne ñemboheraguapy ejapose vove opa mboyve.
 churn-cancel-flow-cancel-success-dialog-aside = Eporandusépa. Eike <LinkExternal>{ -brand-mozilla } Pytyvõha</LinkExternal>.
 
@@ -294,6 +299,8 @@ churn-stay-subscribed-thanks-valued-subscriber = ¡Aguyje mboheraguapy guerohory
 churn-stay-subscribed-button-go-to-product-page = Eho { $productName }-pe
 churn-stay-subscribed-button-go-to-subscriptions = Eho moheraguapyhápe
 churn-stay-subscribed-button-stay-subscribed = Ani eheja mboheraguapy
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Upe rire, ne ñemboheraguapy ipyahúta ijeheguiete oñehepyme’ẽva rehe, ndete nerembokéiramo.
 
 ## Component - CouponForm
 
@@ -473,10 +480,13 @@ paypal-unavailable-error = { -brand-paypal } ndoikói ko’ág̃aite. Eiporu amb
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = Tepyguejy ayvu oikopyrémava
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Ko tepyguejy oiko { $productName } ñemboheraguapy ne mba’etépe g̃uarã rupi. Eikotevẽramo gueteri, eñe’ẽ ore aty pytyvõha ndive.
 churn-error-page-button-manage-subscriptions = Mboheraguapy ñangareko
 churn-error-page-button-contact-support = Eñe’ẽ pytyvõhándi
 churn-error-page-button-try-again = Eha’ã jey
 churn-error-page-title-customer-mismatch = Pe kupõ ndaikatúi ekambiávo
+churn-error-page-message-customer-mismatch = Ko kupõ oñeguenohẽ ñemboheraguapy iñambuévape g̃uarã ha oiporukuaáta pe og̃uahẽtaha ypýva añoite.
 churn-error-page-button-sign-in = Mboheraguapy
 churn-error-page-title-general-error = Oĩ apañuái onembohekopyahukuévo ne ñemboheraguapy.
 churn-error-page-message-general-error = Eñe’ẽ pytyvõha ndive ha eha’ã jey ag̃ave.
