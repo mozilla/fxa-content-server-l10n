@@ -68,6 +68,10 @@ recovery-key-pdf-support = ვრცლად ანგარიშის აღ
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = სამწუხაროდ, ხარვეზი წარმოიშვა ანგარიშის აღდგენის გასაღების ჩამოტვირთვისას.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = შესვლა საშვით
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -254,6 +258,9 @@ usa-flag-icon-aria-label =
 # Used for loading arrow icon
 icon-loading-arrow-aria-label =
     .aria-label = იტვირთება
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = საშვი
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1152,6 +1159,8 @@ passkey-sub-row-created-date = შექმნილი: { $createdDate }
 passkey-sub-row-last-used-date = ბოლო გამოყენება: { $lastUsedDate }
 # These two sentences are referring to the passkey
 passkey-sub-row-sign-in-only = მხოლოდ შესვლისთვის. ვერ იქნება გამოყენებული დასინქრონებისთვის.
+passkey-sub-row-delete-title = საშვის წაშლა
+passkey-delete-modal-heading = წაიშალოს საშვი?
 passkey-delete-modal-cancel-button = გაუქმება
 
 ## Switch component
