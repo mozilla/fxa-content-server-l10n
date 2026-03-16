@@ -1357,7 +1357,7 @@ auth-error-224 = Přístupový klíč nebyl nalezen
 auth-error-225 = Přístupový klíč je již zaregistrován
 auth-error-226 = Dosažen limit přístupových klíčů
 auth-error-227 = Ověření přístupovým klíčem selhalo
-auth-error-228 = Registrace klíče selhala
+auth-error-228 = Registrace přístupového klíče selhala
 auth-error-238 = Heslo se nezdařilo
 auth-error-999 = Neočekávaná chyba
 auth-error-1001 = Pokus o přihlášení zrušen
@@ -1391,7 +1391,7 @@ oauth-error-1000 = Nastala nespecifikovaná chyba. Zavřete prosím tento panel 
 # Registration errors
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
-passkey-registration-error-not-allowed = Nastavení klíče selhalo nebo je nedostupné. Zkuste to znovu nebo zvolte jiný způsob.
+passkey-registration-error-not-allowed = Nastavení přístupového klíče selhalo nebo je nedostupné. Zkuste to znovu nebo zvolte jiný způsob.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
