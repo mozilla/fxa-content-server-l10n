@@ -1879,6 +1879,41 @@ signin-passkey-fallback-continue = განაგრძეთ
 
 signin-passwordless-code-heading = შეიყვანეთ დადასტურების კოდი
 signin-passwordless-code-subheading = ანგარიშზე შესვლას მხოლოდ ერთი ნაბიჯი სჭირდება ამ კოდით სარგებლობისას.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე <email>{ $email }</email> { $expirationMinutes } წუთის განმავლობაში.
+       *[other] შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე <email>{ $email }</email> { $expirationMinutes } წუთის განმავლობაში.
+    }
+signin-passwordless-code-input-label = შეიყვანეთ 8-ციფრიანი კოდი
+signin-passwordless-code-confirm-button = თანხმობა
+signin-passwordless-code-required-error = საჭიროა დასტურის კოდი
+signin-passwordless-code-expired = კოდი ვადაგასულია?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] ახალი კოდი ელფოსტაზე მოვა { $seconds } წამში
+       *[other] ახალი კოდი ელფოსტაზე მოვა { $seconds } წამში
+    }
+signin-passwordless-code-resend-link = ახალი კოდის გაგზავნა.
+signin-passwordless-code-resend-error = Რაღაც ხარვეზი წარმოიშვა. ახალი კოდის გაგზავნა ვერ მოხერხდა.
+signin-passwordless-code-other-account-link = სხვა ანგარიშის გამოყენება
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = ანგარიშის შექმნას მხოლოდ ერთი ნაბიჯი სჭირდება ამ კოდით სარგებლობისას.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = ორბიჯიანი დამოწმება ჩართულია თქვენს ანგარიშზე. გთხოვთ, შეხვიდეთ ანგარიშზე თქვენი პაროლით.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
