@@ -305,6 +305,9 @@ sync-clouds-image-aria-label =
     .aria-label = ღრუბლები სინქრონიზაციის ხატულით
 confetti-falling-image-aria-label =
     .aria-label = მოძრავი ტკბილეულობის ცვენა
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } ფანჯარა წრიული სამკერდით, რომელზეც ჩანს მწვანე მონიშვნა და „VPN“, მიუთითებს, რომ VPN მოქმედია.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
