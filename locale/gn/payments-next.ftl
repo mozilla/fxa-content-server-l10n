@@ -621,6 +621,7 @@ manage-payment-method-intent-error-generic = Oiko peteĩ jejavy eha’ãrõ’�
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
+next-charge-with-discount-and-tax-card = Hembyvéta { $discountPercent }% jehepyme’ẽrã oútavape { $nextInvoiceTotal } + { $taxDue } impuesto kuatia’atãpe hu’ãtava { $last4 }-pe { $currentPeriodEnd }.
 next-charge-next-charge-with-discount-and-tax = Hembyvéta { $discountPercent } jehepyme’ẽrã oútavape { $nextInvoiceTotal } + { $taxDue } impuesto-ramo { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-card = Hembyvéta { $discountPercent } jehepyme’ẽrã oútavape { $nextInvoiceTotal } kuatia’atãpe hu’ãtava { $last4 } pe { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-payment-method = Hembyvéta { $discountPercent } jehepyme’ẽrã oútavape { $nextInvoiceTotal } mba’éichapa ehepyme’ẽta { $paymentMethod } og̃uahẽvo { $currentPeriodEnd }.
