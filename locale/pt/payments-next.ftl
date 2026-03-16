@@ -115,28 +115,12 @@ churn-cancel-flow-error-offer-expired-title = Esta oferta expirou
 churn-cancel-flow-error-offer-expired-message = Atualmente não existem ofertas disponíveis para esta subscrição. Pode continuar com o cancelamento se quiser.
 churn-cancel-flow-error-button-continue-to-cancel = Continuar a cancelar
 churn-cancel-flow-error-page-button-back-to-subscriptions = Voltar para subscrições
-churn-cancel-flow-error-already-canceling-title = A sua subscrição está marcada para terminar
-# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-# $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
-churn-cancel-flow-error-already-canceling-message = Irá continuar a ter acesso a { $productName } até { $currentPeriodEnd }.
-churn-cancel-flow-error-page-button-keep-subscription = Manter subscrição
 
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Página não encontrada
 not-found-loyalty-discount-description = A página que está à procura não existe.
 not-found-loyalty-discount-button-back-to-subscriptions = Voltar para subscrições
-
-## InterstitialOffer
-
-interstitial-offer-button-cancel-subscription = Continuar a cancelar
-
-## Daily/Weekly/Monthly refers to the user's current subscription interval
-
-interstitial-offer-button-keep-current-interval-daily = Manter subscrição diária
-interstitial-offer-button-keep-current-interval-weekly = Manter subscrição semanal
-interstitial-offer-button-keep-current-interval-monthly = Manter subscrição mensal
-interstitial-offer-button-keep-current-interval-halfyearly = Manter subscrição de seis meses
 
 ## Error page
 
@@ -211,6 +195,15 @@ page-not-found-description = A página que solicitou não foi encontrada. Fomos 
 page-not-found-back-button = Voltar
 alert-dialog-title = Diálogo de alerta
 
+## Already Canceling
+
+already-canceling-title = A sua subscrição está marcada para terminar
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Irá continuar a ter acesso a { $productName } até { $date }.
+already-canceling-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento, antes desta terminar.
+already-canceling-button-back-to-subscriptions = Voltar para subscrições
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -242,8 +235,7 @@ subscription-content-cancel-access-message = Cancelar o meu acesso e a minha inf
 
 cancel-subscription-button-cancel-subscription = Cancelar subscrição
     .aria-label = Cancelar a sua subscrição para { $productName }
-cancel-subscription-button-stay-subscribed = Manter a subscrição
-    .aria-label = Manter a subscrição em { $productName }
+cancel-subscription-button-keep-subscription = Manter subscrição
 
 ## Component - Payment Consent Checkbox
 
@@ -267,7 +259,7 @@ churn-cancel-flow-action-error = Ocorreu um erro inesperado. Por favor, tente no
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Mantenha-se subscrito e poupe { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Manter a subscrição e guardar
-churn-cancel-flow-button-continue-to-cancel = Continuar a cancelar
+churn-cancel-flow-button-cancel-subscription = Cancelar subscrição
 churn-cancel-flow-link-terms-and-restrictions = Aplicam-se termos limitados e restrições
 churn-cancel-flow-discount-already-applied-title = Código de desconto já aplicado
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -279,6 +271,14 @@ churn-cancel-flow-button-contact-support = Contactar o apoio
 
 churn-cancel-flow-subscription-active-title = A sua subscrição { $productName } está ativa
 churn-cancel-flow-button-go-to-product-page = Ir para { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Depois disto, a sua subscrição será renovada automaticamente pela taxa padrão, a menos que você cancele.
+churn-cancel-flow-cancel-success-title = Lamentamos vê-lo partir
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = A sua subscrição de { $productName } foi cancelada. Ainda terá acesso a { $productName } até { $date }.
+churn-cancel-flow-cancel-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento, antes desta terminar.
+churn-cancel-flow-cancel-success-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -301,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Obrigado por ser um subscritor 
 churn-stay-subscribed-button-go-to-product-page = Ir para { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Ir para Subscrições
 churn-stay-subscribed-button-stay-subscribed = Manter a subscrição
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Depois disto, a sua subscrição será renovada automaticamente pela taxa padrão, a menos que você cancele.
 
 ## Component - CouponForm
 
@@ -338,6 +340,29 @@ payments-header-avatar-icon =
     .alt = Imagem de perfil da conta
 payments-header-avatar-expanded-signed-in-as = Sessão iniciada como
 payments-header-avatar-expanded-sign-out = Terminar sessão
+
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Lamentamos vê-lo partir
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = A sua subscrição de { $productName } foi cancelada. Ainda terá acesso a { $productName } até { $date }.
+interstitial-offer-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento, antes desta terminar.
+interstitial-offer-cancel-success-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Voltar para subscrições
+interstitial-offer-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+interstitial-offer-cancel-subscription-button = Cancelar subscrição
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Manter subscrição diária
+interstitial-offer-button-keep-current-interval-weekly = Manter subscrição semanal
+interstitial-offer-button-keep-current-interval-halfyearly = Manter subscrição de seis meses
+interstitial-offer-button-keep-current-interval-monthly = Manter subscrição mensal
+interstitial-offer-button-keep-subscription = Manter subscrição
+
+##
+
 payments-client-loading-spinner =
     .aria-label = A carregar…
     .alt = A carregar…
