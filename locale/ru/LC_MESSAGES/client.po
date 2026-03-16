@@ -97,7 +97,7 @@ msgstr "Подключено"
 
 #: .es5/views/ready.js:177
 msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Сейчас вы можете сделать изменения в своём Аккаунте Firefox."
+msgstr "Сейчас вы можете сделать изменения в своём аккаунте Firefox."
 
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
@@ -186,7 +186,7 @@ msgstr "Двухэтапная аутентификация включена"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
-msgstr "Ключ восстановления Аккаунта Firefox"
+msgstr "Ключ восстановления аккаунта Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -1624,7 +1624,7 @@ msgstr "Отправить push-уведомление о входе"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr "Проверьте свои подключенные устройства Firefox на наличие отправленной нами вкладки подтверждения входа."
+msgstr "Проверьте свои подключённые устройства Firefox на наличие отправленной нами вкладки подтверждения входа."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1706,7 +1706,7 @@ msgstr "Сменить пароль"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
 msgid "This Firefox is connected"
-msgstr "Этот Firefox подключен"
+msgstr "Этот Firefox подключён"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
