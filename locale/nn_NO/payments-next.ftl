@@ -195,6 +195,10 @@ page-not-found-description = Fann ikkje sida du spurde etter. Vi er varsla og vi
 page-not-found-back-button = Gå tilbake
 alert-dialog-title = Varslingsdialogboks
 
+## Already Canceling
+
+already-canceling-button-back-to-subscriptions = Tilbake til abonnementa
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -262,6 +266,7 @@ churn-cancel-flow-button-contact-support = Kontakt support
 
 churn-cancel-flow-subscription-active-title = Abonnementet ditt på { $productName } er aktivt.
 churn-cancel-flow-button-go-to-product-page = Gå til { $productName }
+churn-cancel-flow-cancel-success-title = Det er trist å sjå at du forlèt oss.
 
 ## Churn flow - stay subscribed
 
@@ -322,12 +327,21 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Logga inn som
 payments-header-avatar-expanded-sign-out = Logg ut
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Det er trist å sjå at du forlèt oss.
+interstitial-offer-cancel-success-dialog-aside = Har du spørsmål? Besøk <LinkExternal>{ -brand-mozilla }-brukarstøtte</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Tilbake til abonnementa
+interstitial-offer-action-error = Det oppstod ein uventa feil. Prøv på nytt.
+interstitial-offer-cancel-subscription-button = Avslutt abonnementet
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Behald dagabonnement
 interstitial-offer-button-keep-current-interval-weekly = Behald vekeabonnementet
 interstitial-offer-button-keep-current-interval-halfyearly = Behald seksmånadars abonnementet.
 interstitial-offer-button-keep-current-interval-monthly = Behald månadsabonnementet
+interstitial-offer-button-keep-subscription = Behald abonnementet
 
 ##
 

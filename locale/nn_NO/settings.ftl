@@ -1824,6 +1824,14 @@ signin-passkey-fallback-continue = Hald fram
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-input-label = Skriv inn 8-sifra kode
+signin-passwordless-code-confirm-button = Stadfest
+signin-passwordless-code-required-error = Stadfestingskode påkravd
+signin-passwordless-code-expired = Har koden gått ut?
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
