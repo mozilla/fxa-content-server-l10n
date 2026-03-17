@@ -1087,7 +1087,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Created { $date }
-security-not-set = Not Set
+security-not-set = Not set
 security-action-create = Create
 security-set-password = Set a password to sync and use certain account security features.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
@@ -1153,6 +1153,10 @@ row-defaults-action-add = Add
 row-defaults-action-change = Change
 row-defaults-action-disable = Disable
 row-defaults-status = None
+
+## UnitRowPasskey
+
+passkey-row-not-set = Not set
 
 ## Account recovery key sub-section on main Settings page
 
