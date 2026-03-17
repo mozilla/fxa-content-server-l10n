@@ -265,6 +265,7 @@ subscriptionEndingReminder-title = Tu suscripción a { $productName } expirará 
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Tu acceso a { $productName } finalizará el <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line1-plaintext = Tu acceso a { $productName } finalizará el { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Si deseas seguir usando { $productName }, puedes mantener  tu suscripción en la gestión de la suscripción de la cuenta antes del { $serviceLastActiveDateOnly }. Si necesitas ayuda, contacta con nuestro equipo de soporte.
 subscriptionEndingReminder-content-closing = ¡Gracias por ser un suscriptor valioso!
 subscriptionEndingReminder-churn-title = ¿Quieres mantener el acceso?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Se aplican términos y restricciones limitados</a>
