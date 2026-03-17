@@ -226,6 +226,7 @@ subscription-content-cancel-access-message = Avbryt tilgangen min og lagra infor
 
 cancel-subscription-button-cancel-subscription = Avslutt abonnementet
     .aria-label = Avslutt abonnentet ditt på { $productName }
+cancel-subscription-button-keep-subscription = Behald abonnementet
 
 ## Component - Payment Consent Checkbox
 
@@ -249,6 +250,7 @@ churn-cancel-flow-action-error = Det oppstod ein uventa feil. Prøv på nytt.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortset å abonnere og spar { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Fortset å abonnere og spar
+churn-cancel-flow-button-cancel-subscription = Avbryt abonnement
 churn-cancel-flow-link-terms-and-restrictions = Avgrensa vilkår og restriksjonar gjeld
 churn-cancel-flow-discount-already-applied-title = Rabattkoden er allereie brukt
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
