@@ -197,6 +197,7 @@ alert-dialog-title = Varslingsdialogboks
 
 ## Already Canceling
 
+already-canceling-title = Abonnementet ditt er i ferd med å avsluttast
 already-canceling-button-back-to-subscriptions = Tilbake til abonnementa
 
 ## Navigation breadcrumbs
