@@ -1881,10 +1881,42 @@ signin-passkey-fallback-continue = Hald fram
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Skriv inn stadfestingskode
+signin-passwordless-code-subheading = Innlogginga går raskt om du brukar denne koden.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Skriv inn koden som vart sendt til <email>{ $email }</email> innan { $expirationMinutes } minutt.
+       *[other] Skriv inn koden som vart sendt til <email>{ $email }</email> innan { $expirationMinutes } minutt.
+    }
 signin-passwordless-code-input-label = Skriv inn 8-sifra kode
 signin-passwordless-code-confirm-button = Stadfest
 signin-passwordless-code-required-error = Stadfestingskode påkravd
 signin-passwordless-code-expired = Har koden gått ut?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Send ny kode på e-post om { $seconds } sekund
+       *[other] Send ny kode på e-post om { $seconds } sekund
+    }
+signin-passwordless-code-resend-link = Send ny kode på e-post.
+signin-passwordless-code-resend-error = Noko gjekk gale. Klarte ikkje å sende ein ny kode.
+signin-passwordless-code-other-account-link = Bruk ein annan konto
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Registreringa går raskt om du brukar denne koden.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Tostegs-autentisering er aktivert på kontoen din. Logg inn med passordet ditt.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

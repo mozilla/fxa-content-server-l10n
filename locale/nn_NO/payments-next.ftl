@@ -198,6 +198,9 @@ alert-dialog-title = Varslingsdialogboks
 ## Already Canceling
 
 already-canceling-title = Abonnementet ditt er i ferd med å avsluttast
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Du vil framleis ha tilgang til { $productName } fram til { $date }.
 already-canceling-turn-back-on = Du kan slå abonnementet ditt på igjen når som helst før det går ut.
 already-canceling-button-back-to-subscriptions = Tilbake til abonnementa
 
