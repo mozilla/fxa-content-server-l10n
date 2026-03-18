@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Σύννεφα με εικονίδιο συγχρονισμού
 confetti-falling-image-aria-label =
     .aria-label = Κινούμενη πτώση κομφετί
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Ένα παράθυρο του { -brand-firefox } με ένα κυκλικό σήμα που δείχνει την πράσινη επιλογή «VPN», που υποδεικνύει ότι το VPN είναι ενεργό.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key

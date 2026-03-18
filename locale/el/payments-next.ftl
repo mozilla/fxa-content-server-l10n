@@ -271,6 +271,8 @@ churn-cancel-flow-button-contact-support = Επικοινωνία με την υ
 
 churn-cancel-flow-subscription-active-title = Η συνδρομή σας στο { $productName } είναι ενεργή
 churn-cancel-flow-button-go-to-product-page = Μετάβαση στο { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Στη συνέχεια, η συνδρομή σας θα ανανεωθεί αυτόματα με τη βασική χρέωση, εκτός και αν την ακυρώσετε.
 churn-cancel-flow-cancel-success-title = Λυπούμαστε που φεύγετε
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
@@ -299,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Ευχαριστούμε για
 churn-stay-subscribed-button-go-to-product-page = Μετάβαση στο { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Μετάβαση στις συνδρομές
 churn-stay-subscribed-button-stay-subscribed = Διατήρηση συνδρομής
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Στη συνέχεια, η συνδρομή σας θα ανανεωθεί αυτόματα με τη βασική χρέωση, εκτός και αν την ακυρώσετε.
 
 ## Component - CouponForm
 
