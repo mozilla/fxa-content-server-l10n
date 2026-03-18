@@ -1398,9 +1398,29 @@ passkey-registration-error-not-supported = Passnøklar er ikkje støtta her. Pr�
 passkey-registration-error-security = Passnøklar kan ikkje setjast opp på denne sida. Bruk den sikre nettstaden og prøv igjen.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
 passkey-registration-error-invalid-state = Denne passnøkkelen er allereie registrert. Bruk han til å logge inn eller legg til ein annan passnøkkel.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Vi klarte ikkje å få tilgang til autentiseringseininga. Prøv igjen eller vel ein annan metode.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Oppsett av passnøkkel er ikkje tilgjengeleg på denne eininga. Prøv ein annan metode eller eining.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Mislykka oppsett av passnøkkel. Prøv igjen eller vel ein annan metode.
 
 # Authentication errors
 
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Innlogging med passnøkkel mislykkast eller er ikkje tilgjengeleg. Prøv igjen eller vel ein annan metode.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Førespurnaden om passnøkkel vart tidsavbroten. Prøv igjen.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Passnøklar blir ikkje støtta. Prøv ein annan metode eller eining.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Passnøklar kan ikkje brukast på denne sida. Kontroller at du er på rett, sikker nettstad, og prøv igjen.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Noko gjekk gale med passnøkkelen din. Prøv igjen eller bruk ein annan innloggingsmetode.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Vi klarte ikkje å få tilgang til autentiseringseininga. Prøv igjen eller bruk ein annan innloggingsmetode.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Noko gjekk gale. Prøv igjen eller vel ein annan innloggingsmetode.
 
 ## Connect Another Device page
 
@@ -1626,6 +1646,7 @@ service-welcome-signup-success-banner = { -product-mozilla-account } stadfesta
 service-welcome-signin-success-banner = Innlogga!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Neste: Slå på VPN
+service-welcome-vpn-description = Eitt steg til for å forbetre personvernet til nettlesaren. Gå til det opne panelet og slå det på.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -1636,6 +1657,11 @@ service-welcome-vpn-heading = Neste: Slå på VPN
 set-password-heading-v2 = Opprett passord for å synkronisere
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Dette krypterer dataa dine. Det kan ikkje vere det same som passordet på { -brand-google }- eller { -brand-apple }-kontoen din.
+
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Dette passordet krypterer dei synkroniserte dataa dine og held dei sikre.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1854,6 +1880,7 @@ signin-passkey-fallback-continue = Hald fram
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
+signin-passwordless-code-heading = Skriv inn stadfestingskode
 signin-passwordless-code-input-label = Skriv inn 8-sifra kode
 signin-passwordless-code-confirm-button = Stadfest
 signin-passwordless-code-required-error = Stadfestingskode påkravd
