@@ -303,6 +303,9 @@ sync-clouds-image-aria-label =
     .aria-label = Skyer med eit synkroniseringsikon
 confetti-falling-image-aria-label =
     .aria-label = Animert fallande konfetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox }-vindauge med eit rundt merke som viser eit grønt hakemerke og «VPN», som viser at VPN-et er aktivt.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1350,6 +1353,10 @@ auth-error-218 = Klarte ikkje å fjerne gjenopprettingstelefonen, manglar reserv
 auth-error-219 = Dette telefonnummeret er registrert med for mange kontoar. Prøv eit anna nummer.
 auth-error-224 = Fann ikkje passnøkkel
 auth-error-225 = Passnøkkelen er allereie registrert
+auth-error-226 = Passnøkkelgrensa er nådd
+auth-error-227 = Mislykka passnøkkelautentisering
+auth-error-228 = Mislykka registrering av passnøkkel
+auth-error-238 = Mislykka passnøkkelutfordring
 auth-error-999 = Uventa feil
 auth-error-1001 = Innloggingsforsøket avbrote
 auth-error-1002 = Økta er slutt. Logg inn for å halde fram.
@@ -1374,6 +1381,26 @@ auth-error-1067 = Feilksriven e-postadresse?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer som sluttar på { $lastFourPhoneNumber }
 oauth-error-1000 = Noko gjekk gale. Lat att fana og prøv på nytt.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Oppsett av passnøkkel mislykkast eller er ikkje tilgjengeleg. Prøv igjen eller vel ein annan metode.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Oppsett av passnøkkel vart avbrote. Prøv igjen.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Passnøklar er ikkje støtta her. Prøv ein annan metode eller eining.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Passnøklar kan ikkje setjast opp på denne sida. Bruk den sikre nettstaden og prøv igjen.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Denne passnøkkelen er allereie registrert. Bruk han til å logge inn eller legg til ein annan passnøkkel.
+
+# Authentication errors
+
 
 ## Connect Another Device page
 
