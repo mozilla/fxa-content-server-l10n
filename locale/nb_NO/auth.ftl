@@ -236,6 +236,13 @@ subscriptionCancellation-outstanding-content-2 = Vi har avsluttet { $productName
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Tjenesten din vil fortsette til slutten av gjeldende faktureringsperiode, som er { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Prøveperioden for { $productName } er avsluttet
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Prøveperioden din for { $productName } er avsluttet. Tilgangen din avsluttes { $trialEndDateOnly }. Du vil ikke bli belastet.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Du har byttet til { $productName }
