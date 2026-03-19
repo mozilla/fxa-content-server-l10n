@@ -242,6 +242,13 @@ subscriptionCancellation-outstanding-content-2 = Preklicali smo vašo naročnino
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Vaša storitev bo na voljo do konca trenutnega obračunskega obdobja, ki je { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Vaš brezplačen preskus { $productName } je preklican
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Vaš brezplačen preskus v višini { $productName } je preklican. Vaš dostop se bo končal { $trialEndDateOnly }. Vas ne bomo zaračunali.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Preklopili ste na { $productName }

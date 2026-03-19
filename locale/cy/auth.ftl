@@ -246,6 +246,13 @@ subscriptionCancellation-outstanding-content-2 = Rydym wedi diddymu eich tanysgr
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Bydd eich gwasanaeth yn parhau tan ddiwedd eich cyfnod bilio cyfredol, sef { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Mae eich treial am ddim { $productName } wedi'i ganslo
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Mae eich treial am ddim o { $productName } wedi'i ganslo. Bydd eich mynediad yn dod i ben ar { $trialEndDateOnly }. Ni chodir tâl arnoch.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Rydych wedi newid i { $productName }

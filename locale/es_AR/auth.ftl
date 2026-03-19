@@ -238,6 +238,13 @@ subscriptionCancellation-outstanding-content-2 = Cancelamos tu suscripción a { 
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = El servicio continuará hasta el fin del periodo actual facturación, que es { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Se canceló tu prueba gratuita de { $productName }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Se canceló tu prueba gratuita de { $productName }. El acceso terminará el { $trialEndDateOnly }. No se te cobrará.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Cambiaste a { $productName }
