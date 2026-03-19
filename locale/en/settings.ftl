@@ -1244,7 +1244,7 @@ security-password =
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Created { $date }
-security-not-set = Not Set
+security-not-set = Not set
 security-action-create = Create
 security-set-password = Set a password to sync and use certain account security features.
 
@@ -1340,7 +1340,7 @@ row-defaults-status = None
 
 passkey-row-header = Passkeys
 passkey-row-enabled = Enabled
-passkey-row-not-set = Not Set
+passkey-row-not-set = Not set
 passkey-row-action-create = Create
 passkey-row-description = Make sign in easier and more secure by using your phone or other supported device to get into your account.
 # External link to a support article. "This" refers to passkeys.
@@ -1352,7 +1352,7 @@ passkey-row-info-link = How this protects your account
 
 rk-header-1 = Account recovery key
 rk-enabled = Enabled
-rk-not-set = Not Set
+rk-not-set = Not set
 rk-action-create = Create
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Change
