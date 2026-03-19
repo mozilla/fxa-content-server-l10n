@@ -266,7 +266,7 @@ subscriptionEndingReminder-title = Tu abonamento a { $productName } expirara tos
 subscriptionEndingReminder-content-line1 = Tu accesso a { $productName } finira le <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line2-v2 = Si tu desidera continuar a usar { $productName }, tu pote restar abonate per le <a data-l10n-name="subscriptionEndingReminder-subscription-management">Gestion de abonamento</a> ante le <strong>{ $serviceLastActiveDateOnly }</strong>. Si te besonia assistentia, <a data-l10n-name="subscriptionEndingReminder-contact-support">contacta nostre equipa de assistentia</a>.
 subscriptionEndingReminder-content-line1-plaintext = Tu accesso a { $productName } finira le { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext-v2 = Si tu desidera continuar a usar { $productName }, tu pote confirmar tu abonamento in <a data-l10n-name="subscriptionEndingReminder-subscription-management">Gestion de abonamento</a> ante le <strong>{ $serviceLastActiveDateOnly }</strong>. Si te besonia assistentia, <a data-l10n-name="subscriptionEndingReminder-contact-support">contacta nostre equipa de assistentia</a>.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Si tu desidera continuar a usar { $productName }, tu pote confirmar tu abonamento in Gestion de abonamento ante le { $serviceLastActiveDateOnly }. Si te besonia assistentia, contacta nostre equipa de assistentia.
 subscriptionEndingReminder-content-closing = Gratias pro esser un abonato! valorose!
 subscriptionEndingReminder-churn-title = Vole tu mantener le accesso?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Conditiones e restrictiones limitate applicate</a>
