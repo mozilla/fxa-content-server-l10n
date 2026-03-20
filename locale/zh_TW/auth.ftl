@@ -230,6 +230,13 @@ subscriptionCancellation-outstanding-content-2 = 我們已取消您的 { $produc
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = 您可持續使用訂閱的服務至帳單週期結束（{ $serviceLastActiveDateOnly }）為止。
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = 已取消您的 { $productName } 免費試用
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = 已取消您的 { $productName } 免費試用。您的使用權將於 { $trialEndDateOnly } 結束，不會向您收費。
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = 您已切換到 { $productName }
