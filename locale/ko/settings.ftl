@@ -66,6 +66,15 @@ recovery-key-pdf-support = 계정 복구 키에 대해 더 알아보기
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = 죄송합니다. 계정 복구 키를 다운로드하는 중 문제가 발생했습니다.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = 패스키로 로그인
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = 안전하게 로그인하는 중…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -237,6 +246,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = 미국 국기
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = 읽는 중
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = 패스키
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -276,6 +291,9 @@ sync-clouds-image-aria-label =
     .aria-label = 동기화 아이콘이 있는 구름
 confetti-falling-image-aria-label =
     .aria-label = 움직이며 떨어지는 색종이 조각
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } 창에는 녹색 확인 표시를 나타내는 원형 배지와 VPN이 활성화되었음을 나타내는 "VPN"이 표시됩니다.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1111,6 +1129,23 @@ tfa-row-backup-phone-description-v2 = 인증 앱을 사용할 수 없을 때 가
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = SIM 교체 위험에 대해 알아보기
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = 생성: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = 마지막 사용: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = 로그인만 가능. 동기화에 사용할 수 없습니다.
+passkey-sub-row-delete-title = 패스키 삭제
+passkey-delete-modal-heading = 패스키를 삭제 하시겠습니까?
+passkey-delete-modal-content = 이 패스키는 계정에서 삭제됩니다. 다른 방법으로 로그인해야 합니다.
+passkey-delete-modal-cancel-button = 취소
+passkey-delete-modal-confirm-button = 패스키 삭제
+passkey-delete-success = 패스키 삭제됨
+passkey-delete-error = 패스키를 삭제하는 데 문제가 발생했습니다. 몇 분 후 다시 시도하세요.
 
 ## Switch component
 
