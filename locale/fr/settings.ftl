@@ -1402,7 +1402,7 @@ passkey-registration-error-unexpected = La configuration de la clé d’accès a
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = La connexion par clé d’accès a échoué ou n’est pas disponible. Réessayez ou choisissez une autre méthode.
 # The ceremony timed out before the user responded
-passkey-authentication-error-timeout = Délai de requête de clé dépassé. Veuillez réessayer.
+passkey-authentication-error-timeout = Délai de requête de la clé d’accès dépassé. Veuillez réessayer.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = Les clés d’accès ne sont pas prises en charge. Essayez une autre méthode ou un autre appareil.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
