@@ -1653,7 +1653,7 @@ set-password-info-v2 = Cela permet de chiffrer vos données. Il doit être diff�
 ## SetPassword page for passwordless flow
 ## Users who signed in via passwordless OTP and need to create a password for Sync
 
-set-password-passwordless-info = Ce mot de passe chiffre vos données synchronisées et les maintient en sécurité.
+set-password-passwordless-info = Ce mot de passe chiffre vos données synchronisées et assure leur sécurité.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1877,7 +1877,7 @@ signin-passwordless-code-subheading = La connexion ne se fait qu’en une seule 
 #   expirationMinutes (Number) - the expiration time in minutes
 signin-passwordless-code-instruction =
     { $expirationMinutes ->
-        [one] Saisissez le code envoyé à <email>{ $email }</email> en moins de { $expirationMinutes } minute.
+        [one] Saisissez le code envoyé à <email>{ $email }</email> d’ici { $expirationMinutes } minute.
        *[other] Saisissez le code envoyé à <email>{ $email }</email> dans les { $expirationMinutes } minutes.
     }
 signin-passwordless-code-input-label = Saisissez le code à 8 chiffres

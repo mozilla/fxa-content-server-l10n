@@ -236,7 +236,7 @@ subscriptionCancellation-freeTrial-subject = Votre essai gratuit de { $productNa
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
-subscriptionCancellation-freeTrial-content = Votre essai gratuit de { $productName } a été annulé. Votre accès prendra fin le { $trialEndDateOnly }. Vous ne serez pas facturé.
+subscriptionCancellation-freeTrial-content = Votre essai gratuit de { $productName } a été annulé. Votre accès prendra fin le { $trialEndDateOnly }. Aucun montant ne vous sera prélevé.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Vous utilisez maintenant { $productName }
@@ -263,9 +263,9 @@ subscriptionEndingReminder-title = Votre abonnement à { $productName } va bient
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Votre accès à { $productName } prendra fin le <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2-v2 = Si vous souhaitez continuer à utiliser { $productName }, vous pouvez rester dans la <a data-l10n-name="subscriptionEndingReminder-subscription-management">gestion des abonnements</a> avant <strong>{ $serviceLastActiveDateOnly }</strong> . Si vous avez besoin d’aide, <a data-l10n-name="subscriptionEndingReminder-contact-support">contactez notre équipe d’assistance</a>.
+subscriptionEndingReminder-content-line2-v2 = Si vous souhaitez continuer à utiliser { $productName }, vous pouvez conserver votre abonnement depuis la page de <a data-l10n-name="subscriptionEndingReminder-subscription-management">gestion des abonnements</a> avant le <strong>{ $serviceLastActiveDateOnly }</strong>. Si vous avez besoin d’aide, <a data-l10n-name="subscriptionEndingReminder-contact-support">contactez notre équipe d’assistance</a>.
 subscriptionEndingReminder-content-line1-plaintext = Votre accès à { $productName } prendra fin le { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext-v2 = Si vous souhaitez continuer à utiliser { $productName }, vous pouvez rester abonné·e dans la gestion des abonnements avant { $serviceLastActiveDateOnly }. Si vous avez besoin d’aide, contactez notre équipe d’assistance.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Si vous souhaitez continuer à utiliser { $productName }, vous pouvez conserver votre abonnement depuis la page de gestion des abonnements avant le { $serviceLastActiveDateOnly }. Si vous avez besoin d’aide, contactez notre équipe d’assistance.
 subscriptionEndingReminder-content-closing = Merci pour votre abonnement !
 subscriptionEndingReminder-churn-title = Voulez-vous conserver votre accès ?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Des restrictions et conditions particulières s’appliquent</a>
