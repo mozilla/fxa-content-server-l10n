@@ -237,6 +237,13 @@ subscriptionCancellation-outstanding-content-2 = Roipe’a ndereraguapy { $produ
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Ne mba’eporu ohóta opa peve kuatiañemure ko’ag̃aguáva, oikótava { $serviceLastActiveDateOnly } peve.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Ojejokóma ne ñeha’ã reigua { $productName } rehegua
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Ojejokóma ne ñeha’ã reigua { $productName } rehegua. Pe jeike ijaravopáta ág̃a { $trialEndDateOnly }. Nderehepyme’ẽmo’ãi.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Eñemoambuéma { $productName }-pe
