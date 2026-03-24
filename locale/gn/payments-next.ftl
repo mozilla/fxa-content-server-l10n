@@ -262,6 +262,8 @@ churn-cancel-flow-button-stay-subscribed-and-save = Eime ñemboheraguapýpe ha e
 churn-cancel-flow-button-cancel-subscription = Eheja ñemboheraguapy
 churn-cancel-flow-link-terms-and-restrictions = Oguerojera aporã ha jejokopy heta’ỹva
 churn-cancel-flow-discount-already-applied-title = Tepyguejy ayvu oikopyrémava
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Ko tepyguejy oiko { $productName } ñemboheraguapy ne mba’etépe g̃uarãme. Eikotevẽvéramo ñepytyvõ, eñe’ẽ ore aty pytyvõha ndive.
 churn-cancel-flow-button-manage-subscriptions = Mboheraguapy ñangareko
 churn-cancel-flow-button-contact-support = Eñe’ẽ pytyvõhándi
 

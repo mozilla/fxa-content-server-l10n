@@ -359,6 +359,9 @@ subscriptionRenewalReminder-content-charge-with-tax-default = Upéramo, { -brand
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionRenewalReminder-content-charge-invoice-total-day = Upéramo, { -brand-mozilla } ombopyahúta ne ñemboheraguapy aragua ehepyme’ẽta { $invoiceTotal } rehegua ehepyme’ẽmemeháicha tapiaite nde eiporúva.
 subscriptionRenewalReminder-content-charge-invoice-total-week = Upéramo, { -brand-mozilla } ombopyahúta ne ñemboheraguapy arapokõindygua ha ehepyme’ẽta { $invoiceTotal } rehegua ehepyme’ẽháicha tapiaite nde eiporúva.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Upéramo, { -brand-mozilla } ombopyahúta ne ñemboheraguapy jasygua ehepyme’ẽta { $invoiceTotal } rehegua ehepyme’ẽmemeháicha tapiaite nde eiporúva.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Upéramo, { -brand-mozilla } ombopyahúta ne ñemboheraguapy poteĩ jasygua ehepyme’ẽta { $invoiceTotal } rehegua ehepyme’ẽmemeháicha tapiaite nde eiporúva.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Upéramo, { -brand-mozilla } ombopyahúta ne ñemboheraguapy arygua ehepyme’ẽta { $invoiceTotal } rehegua ehepyme’ẽmemeháicha tapiaite nde eiporúva.
 subscriptionRenewalReminder-content-charge-invoice-total-default = Upéramo, { -brand-mozilla } ombopyahúta ne ñemboheraguapy ehepyme’ẽta { $invoiceTotal } rehegua ehepyme’ẽmemeháicha tapiaite nde eiporúva.
 subscriptionRenewalReminder-content-closing = Ma’ẽag̃uíme,
 # Variables
