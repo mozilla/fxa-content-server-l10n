@@ -1910,7 +1910,7 @@ signin-passwordless-code-other-account-link = Použít jiný účet
 ## SignupPasswordlessCode page
 ## Users are prompted to enter a code sent to their email to create a new account without a password.
 
-signup-passwordless-code-subheading = Při použití tohoto kódu probíhá registrace pouze v jednom kroku.
+signup-passwordless-code-subheading = Při použití tohoto kódu stačí k registraci jediný krok.
 
 ## Error messages
 
