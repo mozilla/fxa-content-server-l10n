@@ -308,7 +308,7 @@ confetti-falling-image-aria-label =
     .aria-label = Animované padající konfety
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
-    .aria-label = { -brand-firefox } okno se kulatým odznakem zobrazujícím zelené zaškrtnutí a „VPN“, které ukazuje, že VPN je aktivní.
+    .aria-label = Okno { -brand-firefox(case: "gen") } s kruhovým odznakem, na kterém je zelená zaškrtávací značka a nápis „VPN“, což signalizuje, že je VPN aktivní.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1358,7 +1358,7 @@ auth-error-225 = Přístupový klíč je již zaregistrován
 auth-error-226 = Dosažen limit přístupových klíčů
 auth-error-227 = Ověření přístupovým klíčem selhalo
 auth-error-228 = Registrace přístupového klíče selhala
-auth-error-238 = Heslo se nezdařilo
+auth-error-238 = Ověření pomocí přístupového klíče se nezdařilo
 auth-error-999 = Neočekávaná chyba
 auth-error-1001 = Pokus o přihlášení zrušen
 auth-error-1002 = Relace vypršela. Pro pokračování se přihlaste.
@@ -1399,7 +1399,7 @@ passkey-registration-error-not-supported = Přístupové klíče zde nejsou podp
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Přístupové klíče na této stránce nelze nastavit. Použijte zabezpečený server a zkuste to znovu.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Tento přístupový klíč je již zaregistrován. Použijte ho pro přihlášení nebo přidání jiného přístupového klíče.
+passkey-registration-error-invalid-state = Tento přístupový klíč je již zaregistrován. Použijte jej k přihlášení nebo přidejte jiný přístupový klíč.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-registration-error-not-readable = Nepodařilo se nám přistoupit k ověřovacímu modulu. Zkuste to znovu nebo zvolte jiný způsob.
 # Attestation constraints or device-specific restrictions can't be met
@@ -1865,7 +1865,7 @@ back = Zpět
 
 signin-passkey-fallback-header = Dokončit přihlášení
 signin-passkey-fallback-heading = Pro synchronizaci zadejte své heslo
-signin-passkey-fallback-body = Pro zabezpečení vašich dat je potřeba při použití tohoto přístupového hesla zadat heslo.
+signin-passkey-fallback-body = Aby byla vaše data v bezpečí, musíte při použití tohoto přístupového klíče zadat své heslo.
 signin-passkey-fallback-password-label = Heslo
 signin-passkey-fallback-go-to-settings = Přejít do nastavení
 signin-passkey-fallback-continue = Pokračovat
