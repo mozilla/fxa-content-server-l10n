@@ -483,12 +483,12 @@ paypal-unavailable-error = { -brand-paypal } není v současné době k dispozic
 
 churn-error-page-title-discount-already-applied = Slevový kód byl již uplatněn
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-message-discount-already-applied = Tato sleva byla uplatněna na předplatné za { $productName } pro váš účet. Pokud stále potřebujete pomoci, kontaktujte náš tým podpory.
+churn-error-page-message-discount-already-applied = Tato sleva byla uplatněna na předplatné služby { $productName } ve vašem účtu. Pokud potřebujete další pomoc, obraťte se na náš tým podpory.
 churn-error-page-button-manage-subscriptions = Spravovat předplatné
 churn-error-page-button-contact-support = Kontaktovat podporu
 churn-error-page-button-try-again = Zkusit znovu
 churn-error-page-title-customer-mismatch = Kupón nelze uplatnit
-churn-error-page-message-customer-mismatch = Tento kupón byl vystaven pro jiné předplatné a může být uplatněn pouze původním příjemcem.
+churn-error-page-message-customer-mismatch = Tento kupón byl vystaven pro jiné předplatné a může jej uplatnit pouze původní příjemce.
 churn-error-page-button-sign-in = Přihlásit se
 churn-error-page-title-general-error = Při obnovení vašeho předplatného došlo k chybě
 churn-error-page-message-general-error = Kontaktujte podporu nebo to zkuste znovu.
