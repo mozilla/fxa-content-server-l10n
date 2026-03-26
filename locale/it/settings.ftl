@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Inviti all’azione per riprendere il controllo di Internet
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Chiaro
+dark-mode-toggle-dark = Scuro
+dark-mode-toggle-system = Sistema
+dark-mode-toggle-label = Attiva/disattiva tema
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
