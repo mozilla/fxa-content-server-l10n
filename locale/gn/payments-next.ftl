@@ -112,6 +112,7 @@ not-found-button-back-to-subscriptions = Ejevy moheraguapyhápe
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Ko tepyguejy ndoikovéima
+churn-cancel-flow-error-offer-expired-message = Ko’ag̃aitéramo ndaipóri tepyguejy ko ñemboheraguapýpe g̃uarã. Iku’ejeykuaa ehejarei hag̃ua péicha eipotáramo.
 churn-cancel-flow-error-button-continue-to-cancel = Eku’e jey eheja hag̃ua
 churn-cancel-flow-error-page-button-back-to-subscriptions = Ejevy moheraguapyhápe
 
@@ -126,6 +127,7 @@ not-found-loyalty-discount-button-back-to-subscriptions = Ejevy moheraguapyhápe
 interstitial-offer-error-subscription-not-found-heading = Ndaikatúi rojuhu ñemboheraguapy oikóva
 interstitial-offer-error-subscription-not-found-message = Amalisia ko ñemboheraguapy ndoikovéima.
 interstitial-offer-error-customer-mismatch-heading = Ko ñemboheraguapy ndojuajúi ne mba’ete rehe
+interstitial-offer-error-customer-mismatch-message = Eñeha’ã añetehápe eike peteĩ mba’ete oikóvape térã eñe’ẽ Pytyvõha ndive péicha eikotevẽrõ.
 interstitial-offer-error-general-heading = Ñevenderã ndaiporivéima
 interstitial-offer-error-general-message = Ha’ete ko ñevenderã ndaiporivéima ko’ag̃aite.
 interstitial-offer-error-button-back-to-subscriptions = Ejevy moheraguapyhápe
