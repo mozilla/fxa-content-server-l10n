@@ -126,10 +126,14 @@ not-found-loyalty-discount-button-back-to-subscriptions = Back to subscriptions
 
 interstitial-offer-error-subscription-not-found-heading = We couldn’t find an active subscription
 interstitial-offer-error-subscription-not-found-message = It looks like this subscription may no longer be active.
+interstitial-offer-error-customer-mismatch-heading = This subscription is not associated with your account
+interstitial-offer-error-customer-mismatch-message = Make sure you are signed in with the correct account, or contact Support if you need help.
 interstitial-offer-error-general-heading = Offer isn’t available
 interstitial-offer-error-general-message = It looks like this offer is not available at this time.
 interstitial-offer-error-button-back-to-subscriptions = Back to subscriptions
 interstitial-offer-error-button-cancel-subscription = Continue to cancel
+interstitial-offer-error-button-sign-in = Sign in
+interstitial-offer-error-button-contact-support = Contact Support
 
 ## Page - Subscription Management
 
@@ -191,6 +195,15 @@ page-not-found-description = The page you requested was not found. We’ve been 
 page-not-found-back-button = Go Back
 alert-dialog-title = Alert dialog
 
+## Already Canceling
+
+already-canceling-title = Your subscription is set to end
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = You’ll continue to have access to { $productName } until { $date }.
+already-canceling-turn-back-on = You can turn your subscription back on anytime before it ends.
+already-canceling-button-back-to-subscriptions = Back to subscriptions
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -222,6 +235,7 @@ subscription-content-cancel-access-message = Cancel my access and my saved infor
 
 cancel-subscription-button-cancel-subscription = Cancel subscription
     .aria-label = Cancel your subscription to { $productName }
+cancel-subscription-button-keep-subscription = Keep subscription
 
 ## Component - Payment Consent Checkbox
 
@@ -245,6 +259,7 @@ churn-cancel-flow-action-error = An unexpected error occurred. Please try again.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Stay subscribed and save { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Stay subscribed and save
+churn-cancel-flow-button-cancel-subscription = Cancel subscription
 churn-cancel-flow-link-terms-and-restrictions = Limited terms and restrictions apply
 churn-cancel-flow-discount-already-applied-title = Discount code already applied
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -256,6 +271,14 @@ churn-cancel-flow-button-contact-support = Contact Support
 
 churn-cancel-flow-subscription-active-title = Your { $productName } subscription is active
 churn-cancel-flow-button-go-to-product-page = Go to { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = After that, your subscription will automatically renew at the standard fee, unless you cancel.
+churn-cancel-flow-cancel-success-title = We’re sorry to see you go
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Your { $productName } subscription has been cancelled. You will still have access to { $productName } until { $date }.
+churn-cancel-flow-cancel-turn-back-on = You can turn your subscription back on anytime before it ends.
+churn-cancel-flow-cancel-success-dialog-aside = Have questions? Visit <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -278,6 +301,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Thanks for being a valued subsc
 churn-stay-subscribed-button-go-to-product-page = Go to { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Go to Subscriptions
 churn-stay-subscribed-button-stay-subscribed = Stay subscribed
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = After that, your subscription will automatically renew at the standard fee, unless you cancel.
 
 ## Component - CouponForm
 
@@ -318,6 +343,7 @@ payments-header-avatar-expanded-sign-out = Sign out
 
 ## Interstitial Offer
 
+interstitial-offer-success-cancel-title = We’re sorry to see you go
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 interstitial-offer-cancel-success-dialog-msg = Your { $productName } subscription has been cancelled. You will still have access to { $productName } until { $date }.

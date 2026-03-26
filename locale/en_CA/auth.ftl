@@ -236,6 +236,13 @@ subscriptionCancellation-outstanding-content-2 = We’ve cancelled your { $produ
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Your service will continue until the end of your current billing period, which is { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Your { $productName } free trial has been cancelled
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Your free trial of { $productName } has been cancelled. Your access will end on { $trialEndDateOnly }. You will not be charged.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = You have switched to { $productName }
@@ -262,7 +269,9 @@ subscriptionEndingReminder-title = Your { $productName } subscription will expir
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Your access to { $productName } will end on <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2-v2 = If you’d like to continue using { $productName }, you can stay subscribed in <a data-l10n-name="subscriptionEndingReminder-subscription-management">Subscription Management</a> before <strong>{ $serviceLastActiveDateOnly }</strong>. If you need assistance, <a data-l10n-name="subscriptionEndingReminder-contact-support">contact our Support Team</a>.
 subscriptionEndingReminder-content-line1-plaintext = Your access to { $productName } will end on { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext-v2 = If you’d like to continue using { $productName }, you can stay subscribed in Subscription Management before { $serviceLastActiveDateOnly }. If you need assistance, contact our Support Team.
 subscriptionEndingReminder-content-closing = Thanks for being a valued subscriber!
 subscriptionEndingReminder-churn-title = Want to keep access?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Limited terms and restrictions apply</a>
@@ -338,6 +347,23 @@ subscriptionRenewalReminder-content-greeting = Dear { $productName } customer,
 subscriptionRenewalReminder-content-intro = Your current subscription is set to automatically renew in { $reminderLength } days.
 subscriptionRenewalReminder-content-discount-change = Your next invoice reflects a change in pricing, as a previous discount has ended and a new discount has been applied.
 subscriptionRenewalReminder-content-discount-ending = Because a previous discount has ended, your subscription will renew at the standard price.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = At that time, { -brand-mozilla } will renew your daily subscription and a charge of { $invoiceTotalExcludingTax } + { $invoiceTax } tax will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-with-tax-week = At that time, { -brand-mozilla } will renew your weekly subscription and a charge of { $invoiceTotalExcludingTax } + { $invoiceTax } tax will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-with-tax-month = At that time, { -brand-mozilla } will renew your monthly subscription and a charge of { $invoiceTotalExcludingTax } + { $invoiceTax } tax will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = At that time, { -brand-mozilla } will renew your six-month subscription and a charge of { $invoiceTotalExcludingTax } + { $invoiceTax } tax will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-with-tax-year = At that time, { -brand-mozilla } will renew your yearly subscription and a charge of { $invoiceTotalExcludingTax } + { $invoiceTax } tax will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-with-tax-default = At that time, { -brand-mozilla } will renew your subscription and a charge of { $invoiceTotalExcludingTax } + { $invoiceTax } tax will be applied to the payment method on your account.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = At that time, { -brand-mozilla } will renew your daily subscription and a charge of { $invoiceTotal } will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-invoice-total-week = At that time, { -brand-mozilla } will renew your weekly subscription and a charge of { $invoiceTotal } will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-invoice-total-month = At that time, { -brand-mozilla } will renew your monthly subscription and a charge of { $invoiceTotal } will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = At that time, { -brand-mozilla } will renew your six-month subscription and a charge of { $invoiceTotal } will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-invoice-total-year = At that time, { -brand-mozilla } will renew your yearly subscription and a charge of { $invoiceTotal } will be applied to the payment method on your account.
+subscriptionRenewalReminder-content-charge-invoice-total-default = At that time, { -brand-mozilla } will renew your subscription and a charge of { $invoiceTotal } will be applied to the payment method on your account.
 subscriptionRenewalReminder-content-closing = Sincerely,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

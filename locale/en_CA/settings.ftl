@@ -1414,6 +1414,16 @@ passkey-registration-error-unexpected = Passkey setup failed. Try again or choos
 passkey-authentication-error-not-allowed = Sign-in with passkey failed or is unavailable. Try again or choose another method.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Passkey request timed out. Please try again.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Passkeys aren’t supported. Try another method or device.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Passkeys can’t be used on this page. Check you’re on the correct secure site and try again.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Something went wrong with your passkey. Try again or use another sign-in method.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = We couldn’t access the authenticator. Try again or use another sign-in method.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Something went wrong. Try again or choose another sign-in method.
 
 ## Connect Another Device page
 
@@ -1632,6 +1642,15 @@ pair-wait-for-auth-heading-text = Approval now required <span>from your other de
 pair-unsupported-header = Pair using an app
 pair-unsupported-message = Did you use the system camera? You must pair from within a { -brand-firefox } app.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } confirmed
+service-welcome-signin-success-banner = Signed in successfully!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Next: Turn on VPN
+service-welcome-vpn-description = One more step to boost your browser’s privacy. Go to the open panel and turn it on.
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
@@ -1641,6 +1660,11 @@ pair-unsupported-message = Did you use the system camera? You must pair from wit
 set-password-heading-v2 = Create password to sync
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = This encrypts your data. It needs to be different from your { -brand-google } or { -brand-apple } account password.
+
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = This password encrypts your synced data and keeps it secure.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1840,6 +1864,62 @@ signin-bounced-message = The confirmation email we sent to { $email } was return
 signin-bounced-help = If this is a valid email address, <linkExternal>let us know</linkExternal> and we can help unlock your account.
 signin-bounced-create-new-account = No longer own that email? Create a new account
 back = Back
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Finish sign-in
+signin-passkey-fallback-heading = Enter your password to sync
+signin-passkey-fallback-body = To keep your data safe, you need to enter your password when you use this passkey.
+signin-passkey-fallback-password-label = Password
+signin-passkey-fallback-go-to-settings = Go to settings
+signin-passkey-fallback-continue = Continue
+
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Enter confirmation code
+signin-passwordless-code-subheading = Sign-in only takes a single step when you use this code.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Enter the code that was sent to <email>{ $email }</email> within { $expirationMinutes } minute.
+       *[other] Enter the code that was sent to <email>{ $email }</email> within { $expirationMinutes } minutes.
+    }
+signin-passwordless-code-input-label = Enter 8-digit code
+signin-passwordless-code-confirm-button = Confirm
+signin-passwordless-code-required-error = Confirmation code required
+signin-passwordless-code-expired = Code expired?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Email new code in { $seconds } second
+       *[other] Email new code in { $seconds } seconds
+    }
+signin-passwordless-code-resend-link = Email new code.
+signin-passwordless-code-resend-error = Something went wrong. A new code could not be sent.
+signin-passwordless-code-other-account-link = Use a different account
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Sign-up only takes a single step when you use this code.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Two-step authentication is enabled on your account. Please sign in with your password.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
