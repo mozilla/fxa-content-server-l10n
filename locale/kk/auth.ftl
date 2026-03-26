@@ -238,6 +238,13 @@ subscriptionCancellation-outstanding-content-2 = Біз сіздің { $productN
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Сіздің қызмет көрсету ағымдағы төлем кезеңіңіздің соңына дейін жалғасады, яғни { $serviceLastActiveDateOnly } дейін.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = { $productName } тегін сынақ мерзімінен бас тартылды
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = { $productName } қызметінің тегін сынақ мерзімінен бас тартылды. Оған қолжетімділігіңіз { $trialEndDateOnly } күні аяқталады. Сізден ешқандай ақы алынбайды.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Сіз { $productName } өніміне ауыстыңыз

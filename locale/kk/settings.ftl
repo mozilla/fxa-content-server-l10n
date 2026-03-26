@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Интернетті қалпына келтіруге арналған әрекет ескертулері
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Ашық түсті
+dark-mode-toggle-dark = Күңгірт
+dark-mode-toggle-system = Жүйелік
+dark-mode-toggle-label = Теманы ауыстыру
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
