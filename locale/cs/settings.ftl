@@ -1648,7 +1648,6 @@ service-welcome-signup-success-banner = { -product-mozilla-account } potvrzen
 service-welcome-signin-success-banner = Přihlášení bylo úspěšné!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Další: Zapněte VPN
-service-welcome-vpn-description = Další krok ke zvýšení soukromí vašeho prohlížeče. Přejděte do otevřeného panelu a zapněte jej.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -1896,13 +1895,6 @@ signin-passwordless-code-input-label = Zadejte osmimístný kód
 signin-passwordless-code-confirm-button = Potvrdit
 signin-passwordless-code-required-error = Je vyžadován potvrzovací kód
 signin-passwordless-code-expired = Platnost kódu vypršela?
-# { $seconds } - countdown timer showing seconds until user can request a new code
-signin-passwordless-code-resend-countdown =
-    { $seconds ->
-        [one] Nový kód e-mailem za { $seconds } s
-        [few] Odeslat nový kód e-mailem za { $seconds } sekund
-       *[other] Odeslat nový kód e-mailem za { $seconds } sekund
-    }
 signin-passwordless-code-resend-link = Zaslat e-mailem nový kód.
 signin-passwordless-code-resend-error = Něco se pokazilo. Nový kód se nepodařilo odeslat.
 signin-passwordless-code-other-account-link = Použít jiný účet

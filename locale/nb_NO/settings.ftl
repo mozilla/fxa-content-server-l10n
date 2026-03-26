@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Handlingsvarsler for å vinne tilbake internett
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Lyst
+dark-mode-toggle-dark = Mørkt
+dark-mode-toggle-system = System
+dark-mode-toggle-label = Veksle tema
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =

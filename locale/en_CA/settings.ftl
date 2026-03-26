@@ -66,6 +66,15 @@ recovery-key-pdf-support = Learn more about your account recovery key
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Sorry, there was a problem downloading your account recovery key.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Sign in with passkey
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Securely signing in…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -81,6 +90,13 @@ choose-newsletters-option-test-pilot =
 # "Action alerts" can be interpreted as "Calls to action"
 choose-newsletters-option-reclaim-the-internet =
     .label = Action alerts to reclaim the internet
+
+## Dark mode toggle
+
+dark-mode-toggle-light = Light
+dark-mode-toggle-dark = Dark
+dark-mode-toggle-system = System
+dark-mode-toggle-label = Toggle theme
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -249,6 +265,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = United States Flag
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Loading
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Passkey
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -288,6 +310,9 @@ sync-clouds-image-aria-label =
     .aria-label = Clouds with a sync icon
 confetti-falling-image-aria-label =
     .aria-label = Animated falling confetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } window with a circular badge showing a green checkmark and “VPN,” showing the VPN is active.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1135,6 +1160,23 @@ tfa-row-backup-phone-description-v2 = This is the easiest recovery method if you
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Learn about SIM swap risk
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Created: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Last used: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Sign in only. Can’t be used to sync.
+passkey-sub-row-delete-title = Delete passkey
+passkey-delete-modal-heading = Delete your passkey?
+passkey-delete-modal-content = This passkey will be removed from your account. You’ll need to sign in using a different way.
+passkey-delete-modal-cancel-button = Cancel
+passkey-delete-modal-confirm-button = Delete passkey
+passkey-delete-success = Passkey deleted
+passkey-delete-error = There was a problem deleting your passkey. Try again in a few minutes.
 
 ## Switch component
 
@@ -1156,7 +1198,13 @@ row-defaults-status = None
 
 ## UnitRowPasskey
 
+passkey-row-header = Passkeys
+passkey-row-enabled = Enabled
 passkey-row-not-set = Not set
+passkey-row-action-create = Create
+passkey-row-description = Make sign in easier and more secure by using your phone or other supported device to get into your account.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = How this protects your account
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1306,6 +1354,12 @@ auth-error-215 = Recovery phone number does not exist
 auth-error-216 = Text message limit reached
 auth-error-218 = Unable to remove recovery phone, missing backup authentication codes.
 auth-error-219 = This phone number has been registered with too many accounts. Please try a different number.
+auth-error-224 = Passkey not found
+auth-error-225 = Passkey already registered
+auth-error-226 = Passkey limit reached
+auth-error-227 = Passkey authentication failed
+auth-error-228 = Passkey registration failed
+auth-error-238 = Passkey challenge failed
 auth-error-999 = Unexpected error
 auth-error-1001 = Login attempt cancelled
 auth-error-1002 = Session expired. Sign in to continue.
@@ -1330,6 +1384,36 @@ auth-error-1067 = Mistyped email?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Number ending in { $lastFourPhoneNumber }
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Passkey setup failed or is unavailable. Try again or choose another method.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Passkey setup was cancelled. Try again.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Passkeys aren’t supported here. Try another method or device.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Passkeys can’t be set up on this page. Use the secure site and try again.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = This passkey is already registered. Use it to sign in or add a different passkey.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = We couldn’t access the authenticator. Try again or choose another method.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Passkey setup isn’t available with this device. Try another method or device.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Passkey setup failed. Try again or choose another method.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Sign-in with passkey failed or is unavailable. Try again or choose another method.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Passkey request timed out. Please try again.
 
 ## Connect Another Device page
 

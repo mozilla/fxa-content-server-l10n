@@ -316,12 +316,24 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Signed in as
 payments-header-avatar-expanded-sign-out = Sign out
 
+## Interstitial Offer
+
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Your { $productName } subscription has been cancelled. You will still have access to { $productName } until { $date }.
+interstitial-offer-turn-back-on = You can turn your subscription back on anytime before it ends.
+interstitial-offer-cancel-success-dialog-aside = Have questions? Visit <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Back to subscriptions
+interstitial-offer-action-error = An unexpected error occurred. Please try again.
+interstitial-offer-cancel-subscription-button = Cancel subscription
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Keep daily subscription
 interstitial-offer-button-keep-current-interval-weekly = Keep weekly subscription
 interstitial-offer-button-keep-current-interval-halfyearly = Keep six-month subscription
 interstitial-offer-button-keep-current-interval-monthly = Keep monthly subscription
+interstitial-offer-button-keep-subscription = Keep subscription
 
 ##
 
@@ -449,6 +461,9 @@ churn-error-page-message-discount-already-applied = This discount was applied to
 churn-error-page-button-manage-subscriptions = Manage subscriptions
 churn-error-page-button-contact-support = Contact Support
 churn-error-page-button-try-again = Try again
+churn-error-page-title-customer-mismatch = Coupon can’t be redeemed
+churn-error-page-message-customer-mismatch = This coupon was issued for a different subscription and can only be redeemed by the original recipient.
+churn-error-page-button-sign-in = Sign in
 churn-error-page-title-general-error = There was an issue with renewing your subscription
 churn-error-page-message-general-error = Contact support or try again.
 # $productName (String) - The name of the product associated with the subscription.
