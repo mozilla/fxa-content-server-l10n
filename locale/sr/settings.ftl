@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Обавештења о акцијама за повратак интернета
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Светла
+dark-mode-toggle-dark = Тамна
+dark-mode-toggle-system = Системска
+dark-mode-toggle-label = Окини тему
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
