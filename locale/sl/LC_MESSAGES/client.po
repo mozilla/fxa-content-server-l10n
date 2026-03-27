@@ -1270,7 +1270,7 @@ msgstr "Ko bo končano, bo začelo ustvarjati varnostne kode, ki jih lahko vnese
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr "Vnesite ta tajni ključ v svojo aplikacijo za overitev."
+msgstr "Vnesite ta tajni ključ v svojo aplikacijo za overjanje."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
