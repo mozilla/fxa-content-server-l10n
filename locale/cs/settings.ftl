@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Výzvy na opětovné získání internetu
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Světlý
+dark-mode-toggle-dark = Tmavý
+dark-mode-toggle-system = Systém
+dark-mode-toggle-label = Přepnout motiv vzhledu
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =

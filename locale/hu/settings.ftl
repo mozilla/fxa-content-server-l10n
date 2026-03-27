@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Felhívások az internet visszaszerzésére
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Világos
+dark-mode-toggle-dark = Sötét
+dark-mode-toggle-system = Rendszer
+dark-mode-toggle-label = Téma átváltása
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =

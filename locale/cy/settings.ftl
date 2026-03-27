@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Rhybuddion gweithredu i adennill y rhyngrwyd
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Golau
+dark-mode-toggle-dark = Tywyll
+dark-mode-toggle-system = System
+dark-mode-toggle-label = Toglo thema
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
