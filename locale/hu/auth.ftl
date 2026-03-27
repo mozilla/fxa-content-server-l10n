@@ -240,11 +240,11 @@ subscriptionCancellation-outstanding-content-2 = Lemondtuk a { $productName } el
 subscriptionCancellation-content-continue = Szolgáltatása a jelenlegi számlázási időszak végéig, azaz { $serviceLastActiveDateOnly } végéig folytatódik.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionCancellation-freeTrial-subject = A(z) { $productName } ingyenes próbaidőszak lemondásra került
+subscriptionCancellation-freeTrial-subject = Lemondta a(z) { $productName } ingyenes próbaverzióját
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
-subscriptionCancellation-freeTrial-content = Az ingyenes { $productName } próbaidőszak lemondásra került. Hozzáférésének vége: { $trialEndDateOnly }. Ez nem lesz kiszámlázva.
+subscriptionCancellation-freeTrial-content = Lemondta a(z) { $productName } ingyenes próbaverzióját. Hozzáférésének vége: { $trialEndDateOnly }. Ez nem lesz kiszámlázva.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Váltott erre: { $productName }
