@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = 採取行動奪回網路環境
 
+## Dark mode toggle
+
+dark-mode-toggle-light = 亮色
+dark-mode-toggle-dark = 暗色
+dark-mode-toggle-system = 系統
+dark-mode-toggle-label = 切換佈景主題
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
