@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Actiewaarschuwingen om het internet terug te eisen
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Licht
+dark-mode-toggle-dark = Donker
+dark-mode-toggle-system = Systeem
+dark-mode-toggle-label = Thema wisselen
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
