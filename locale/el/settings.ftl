@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Ειδοποιήσεις για δράσεις που αφορούν την ανάκτηση του ελέγχου του διαδικτύου
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Ανοιχτόχρωμο
+dark-mode-toggle-dark = Σκουρόχρωμο
+dark-mode-toggle-system = Σύστημα
+dark-mode-toggle-label = Αλλαγή θέματος
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
