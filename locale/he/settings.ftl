@@ -83,6 +83,11 @@ choose-newsletters-option-latest-news =
 choose-newsletters-option-test-pilot =
     .label = גישה מוקדמת לבדיקת מוצרים חדשים
 
+## Dark mode toggle
+
+dark-mode-toggle-light = בהיר
+dark-mode-toggle-dark = כהה
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =

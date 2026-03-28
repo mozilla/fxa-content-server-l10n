@@ -235,6 +235,13 @@ subscriptionCancellation-outstanding-content-2 = ביטלנו את המינוי 
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = השירות שלך ימשיך עד תום תקופת החיוב הנוכחית שלך, שהיא בתאריך { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = תקופת הניסיון החינמית שלך עבור { $productName } בוטלה
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = תקופת הניסיון החינמית שלך עבור { $productName } בוטלה. הגישה שלך תסתיים בתאריך { $trialEndDateOnly }. לא יבוצע חיוב.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = עברת אל { $productName }
