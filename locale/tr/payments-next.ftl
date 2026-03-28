@@ -253,6 +253,7 @@ churn-stay-subscribed-title-subscription-renewed = Abonelik yenilendi
 churn-stay-subscribed-title-subscription-active = { $productName } aboneliğiniz etkin
 churn-stay-subscribed-thanks-valued-subscriber = Abone olduğunuz için teşekkürler!
 churn-stay-subscribed-button-go-to-subscriptions = Aboneliklere git
+churn-stay-subscribed-button-stay-subscribed = Aboneliğimi sürdür
 
 ## Component - CouponForm
 
@@ -293,6 +294,7 @@ payments-header-avatar-expanded-sign-out = Çıkış yap
 
 ## Interstitial Offer
 
+interstitial-offer-success-cancel-title = Ayrılmanıza üzüldük
 interstitial-offer-button-back-to-subscriptions = Aboneliklere dön
 interstitial-offer-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
 interstitial-offer-cancel-subscription-button = Aboneliği iptal et
@@ -402,6 +404,8 @@ churn-error-page-title-general-error = Aboneliğiniz yenilenirken bir sorun olu�
 churn-error-page-message-general-error = Destek ekibiyle iletişime geçin veya yeniden deneyin.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-not-active = Bu indirim yalnızca mevcut { $productName } aboneleri için geçerlidir
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = { $productName } aboneliğiniz hâlâ etkin
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

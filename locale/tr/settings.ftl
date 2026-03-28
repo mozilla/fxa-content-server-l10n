@@ -82,6 +82,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = İnternete sahip çıkmak için harekete geçme çağrıları
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Açık
+dark-mode-toggle-dark = Koyu
+dark-mode-toggle-system = Sistem
+dark-mode-toggle-label = Temayı değiştir
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1783,6 +1790,7 @@ signin-passkey-fallback-continue = Devam et
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
+signin-passwordless-code-heading = Onay kodunu girin
 signin-passwordless-code-input-label = 8 basamaklı kodu yazın
 signin-passwordless-code-confirm-button = Onayla
 signin-passwordless-code-required-error = Onay kodu gerekli
