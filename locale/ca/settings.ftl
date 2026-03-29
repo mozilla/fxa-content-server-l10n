@@ -270,6 +270,10 @@ security-password-created-date = Data de creació: { $date }
 security-not-set = No s'ha definit
 security-action-create = Crea
 
+## SubRow component
+
+passkey-delete-error = S'ha produït un problema en suprimir la clau d'accés. Torneu-ho a provar d'aquí a uns minuts.
+
 ## Switch component
 
 # Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
