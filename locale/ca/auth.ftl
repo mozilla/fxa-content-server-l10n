@@ -1,10 +1,25 @@
 ## Non-email strings
 
 session-verify-send-push-body-2 = Feu clic aquí per confirmar la vostra identitat
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Logotip de { -brand-mozilla }">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Logotip de { -brand-mozilla }">
 subplat-automated-email = Aquest és un missatge automàtic; si l’heu rebut per error, no cal que feu res.
 subplat-privacy-notice = Avís de privadesa
 subplat-privacy-plaintext = Avís de privadesa:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-mozilla-account } i us heu inscrit al { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Heu rebut aquest correu perquè l'adreça { $email } té un { -product-mozilla-account } i us heu subscrit a diversos productes.
+subplat-explainer-was-deleted-2 = Heu rebut aquest correu perquè s’ha utilitzat l’adreça { $email } per a registrar un { -product-mozilla-account }.
+subplat-manage-account-2 = Gestioneu els paràmetres del { -product-mozilla-account } visitant la <a data-l10n-name="subplat-account-page">pàgina del compte</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Gestioneu la configuració del vostre { -product-mozilla-account } visitant aquesta pàgina: { $accountSettingsUrl }
 subplat-terms-policy = Condicions d'ús i política de cancel·lació
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancel·la la subscripció
@@ -13,7 +28,10 @@ subplat-reactivate = Reactiva la subscripció
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Actualitza la informació de facturació
 subplat-privacy-policy = Política de privadesa de { -brand-mozilla }
+subplat-privacy-policy-2 = Avís de privadesa dels { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = Condicions del servei dels { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-legal = Avisos legals
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privadesa
