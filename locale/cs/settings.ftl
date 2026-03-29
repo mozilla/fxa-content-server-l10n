@@ -95,7 +95,7 @@ choose-newsletters-option-reclaim-the-internet =
 
 dark-mode-toggle-light = Světlý
 dark-mode-toggle-dark = Tmavý
-dark-mode-toggle-system = Systém
+dark-mode-toggle-system = Systémový
 dark-mode-toggle-label = Přepnout motiv vzhledu
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
