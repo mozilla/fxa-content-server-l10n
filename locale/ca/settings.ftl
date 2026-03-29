@@ -79,6 +79,8 @@ cs-sign-out-button = Tanca la sessió
 
 ## Data collection section
 
+dc-heading = Ús i recollida de dades
+dc-learn-more = Més informació
 
 # DropDownAvatarMenu component
 
@@ -98,7 +100,13 @@ header-help = Ajuda
 
 ## Linked Accounts section
 
+la-heading = Comptes enllaçats
+la-description = Heu autoritzat l'accés als comptes següents.
+la-unlink-button = Desenllaça
+la-unlink-account-button = Desenllaça
+la-unlink-heading = Desenllaça d'un compte de tercers
 la-unlink-content-3 = Esteu segur que voleu desenllaçar el compte? Si el desenllaceu, no se us tancaran les sessions dels serveis actualment connectats. Per fer-ho, caldrà que tanqueu la sessió manualment en la secció de Serveis connectats.
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
@@ -122,6 +130,7 @@ nav-settings = Paràmetres
 nav-profile = Perfil
 nav-security = Seguretat
 nav-connected-services = Serveis connectats
+nav-data-collection = Ús i recollida de dades
 nav-paid-subs = Subscripcions de pagament
 nav-email-comm = Comunicacions per correu electrònic
 
@@ -215,6 +224,7 @@ display-name-success-alert-2 = S'ha actualitzat el nom a mostrar
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Pas 1 de 2
 add-secondary-email-error-2 = S'ha produït un problema en crear aquesta adreça electrònica
 add-secondary-email-page-title =
     .title = Adreça electrònica secundària
@@ -225,6 +235,7 @@ add-secondary-email-save-button = Desa
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Pas 2 de 2
 verify-secondary-email-page-title =
     .title = Adreça electrònica secundària
 verify-secondary-email-verification-code-2 =
@@ -250,8 +261,25 @@ profile-primary-email =
 ## Security section of Setting
 
 security-heading = Seguretat
+security-password =
+    .header = Contrasenya
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Data de creació: { $date }
 security-not-set = No s'ha definit
 security-action-create = Crea
+
+## Switch component
+
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Desactiva
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Activa
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = S'està enviant…
+switch-is-on = activat
+switch-is-off = desactivat
 
 ## Sub-section row Defaults
 
@@ -283,6 +311,8 @@ se-refresh-email =
 # Button to make secondary email the primary
 se-make-primary = Converteix en principal
 se-default-content = Accediu al compte si no podeu iniciar la sessió amb l'adreça electrònica principal.
+# Default value for the secondary email
+se-secondary-email-none = Cap
 
 ## Two Step Auth sub-section on Settings main page
 
@@ -301,6 +331,18 @@ tfa-row-disable-modal-confirm = Desactiva
 auth-error-102 = El compte és desconegut
 auth-error-103 = Contrasenya incorrecta
 auth-error-110 = El testimoni no és vàlid
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Heu fet massa intents. Torneu-ho a provar més tard.
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
+auth-error-114 = Heu fet massa intents. Torneu-ho a provar { $retryAfter }.
+auth-error-125 = La sol·licitud s'ha blocat per raons de seguretat
+auth-error-138-2 = Sessió no confirmada
+auth-error-139 = L'adreça electrònica secundària ha de ser diferent de l'adreça electrònica del compte
 auth-error-155 = No s'ha trobat el testimoni TOTP
 auth-error-1008 = La contrasenya nova ha de ser diferent
 

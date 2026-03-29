@@ -96,6 +96,20 @@ sub-update-new-plan-label = Pla nou
 
 sub-item-cancel-sub = Cancel·la la subscripció
 
+## Routes - Subscriptions - Cancel and IapItem
+## $priceAmount (Number) - The amount billed. It will be formatted as currency.
+## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $date (Date) - The date for the next time a charge will occur.
+
+sub-expires-on = Caduca el { $date }
+
+## Routes - Subscription - PaymentUpdate
+
+
+# $expirationDate (Date) - The payment card's expiration date.
+
+pay-update-card-exp = Caduca { $expirationDate }
+
 ## $date (Date) - Last day of product access
 
 reactivate-success-button = Tanca

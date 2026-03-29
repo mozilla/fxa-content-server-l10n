@@ -28,10 +28,11 @@ subplat-reactivate = Reactiva la subscripció
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Actualitza la informació de facturació
 subplat-privacy-policy = Política de privadesa de { -brand-mozilla }
-subplat-privacy-policy-2 = Avís de privadesa dels { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-privacy-policy-2 = Avís de privadesa dels { -product-mozilla-accounts(capitalization: "lowercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-moz-terms = Condicions del servei dels { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms = Condicions del servei dels { -product-mozilla-accounts(capitalization: "lowercase") }
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Avisos legals
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privadesa
@@ -51,12 +52,20 @@ payment-plan-charged = Cobrat: { $invoiceTotal } el { $invoiceDateOnly }
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Propera factura: { $nextInvoiceDateOnly }
 
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+# $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+
 ##
 
-subscriptionSupport = Teniu dutes sobre la subscripció? L’<a data-l10n-name="subscriptionSupportUrl">equip d’assistència</a> és aquí per a ajudar-vos.
+subscriptionSupport = Teniu dubtes sobre la subscripció? L’<a data-l10n-name="subscriptionSupportUrl">equip d’assistència</a> és aquí per a ajudar-vos.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Teniu dubtes sobre la vostra subscripció? El nostre equip de suport és aquí per ajudar-vos:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSupportContact = Gràcies per subscriure-us al { $productName }. Si teniu qualsevol dubte o us cal més informació sobre el { $productName }, <a data-l10n-name="subscriptionSupportUrl">contacteu amb nosaltres</a>.
 downloadSubscription-link-action-2 = Primers passos
+fraudulentAccountDeletion-subject-2 = S'ha suprimit el vostre { -product-mozilla-account }
+fraudulentAccountDeletion-title = S'ha suprimit el vostre compte
