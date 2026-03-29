@@ -195,6 +195,10 @@ page-not-found-description = 找不到您要打开的页面。我们已获悉此
 page-not-found-back-button = 返回
 alert-dialog-title = 提示对话框
 
+## Already Canceling
+
+already-canceling-button-back-to-subscriptions = 返回“订阅”
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -249,6 +253,7 @@ churn-cancel-flow-action-error = 发生意外错误，请重试。
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = 继续订阅可享 { $discountPercent }% 折扣
 churn-cancel-flow-button-stay-subscribed-and-save = 继续订阅，立享折扣
+churn-cancel-flow-button-cancel-subscription = 取消订阅
 churn-cancel-flow-link-terms-and-restrictions = 限制条款和限制条件适用
 churn-cancel-flow-discount-already-applied-title = 已经使用此折扣码
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -319,6 +324,11 @@ payments-header-avatar-icon =
     .alt = 账户头像
 payments-header-avatar-expanded-signed-in-as = 已登录
 payments-header-avatar-expanded-sign-out = 退出
+
+## Interstitial Offer
+
+interstitial-offer-button-back-to-subscriptions = 返回“订阅”
+interstitial-offer-cancel-subscription-button = 取消订阅
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 

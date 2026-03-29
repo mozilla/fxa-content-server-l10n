@@ -1126,6 +1126,7 @@ tfa-row-backup-phone-description-v2 = 在无法使用身份验证应用时，这
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = 了解 SIM 卡交换攻击的风险
+passkey-delete-modal-cancel-button = 取消
 
 ## Switch component
 
@@ -1144,6 +1145,10 @@ row-defaults-action-add = 添加
 row-defaults-action-change = 更改
 row-defaults-action-disable = 禁用
 row-defaults-status = 无
+
+## UnitRowPasskey
+
+passkey-row-action-create = 创建
 
 ## Account recovery key sub-section on main Settings page
 
