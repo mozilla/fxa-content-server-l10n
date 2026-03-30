@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Nehenói tembiaporã Ñanduti mopu’ãjeyrã
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Tesakã
+dark-mode-toggle-dark = Ypytũ
+dark-mode-toggle-system = Apopyvusu
+dark-mode-toggle-label = Emoambue téma
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
