@@ -96,6 +96,7 @@ choose-newsletters-option-reclaim-the-internet =
 dark-mode-toggle-light = Golau
 dark-mode-toggle-dark = Tywyll
 dark-mode-toggle-system = System
+dark-mode-toggle-label = Toglo thema
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
