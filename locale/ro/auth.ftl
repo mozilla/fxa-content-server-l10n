@@ -240,6 +240,13 @@ subscriptionCancellation-outstanding-content-2 = Ți-am anulat abonamentul la { 
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Serviciul va continua până la sfârșitul perioadei de facturare curente, care este { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Perioada de probă gratuită { $productName } a fost anulată
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Proba gratuită { $productName } a fost anulată. Accesul tău va înceta pe { $trialEndDateOnly }. Nu vei fi taxat(ă).
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Ai trecut la { $productName }
@@ -266,7 +273,9 @@ subscriptionEndingReminder-title = Abonamentul la { $productName } va expira în
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Accesul la { $productName } se va încheia pe data de <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2-v2 = Dacă vrei să folosești în continuare { $productName }, îți poți prelungi abonamentul în <a data-l10n-name="subscriptionEndingReminder-subscription-management">Gestionare abonamente</a> înainte de <strong>{ $serviceLastActiveDateOnly }</strong>. Dacă ai nevoie de ajutor, <a data-l10n-name="subscriptionEndingReminder-contact-support">ia legătura cu Echipa noastră de Asistență</a>.
 subscriptionEndingReminder-content-line1-plaintext = Accesul la { $productName } se va încheia pe data de { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Dacă vrei să folosești în continuare { $productName }, îți poți prelungi abonamentul în Gestionare abonamente înainte de { $serviceLastActiveDateOnly }. Dacă ai nevoie de ajutor, ia legătura cu Echipa noastră de Asistență.
 subscriptionEndingReminder-content-closing = Îți mulțumim că ești un abonat valoros!
 subscriptionEndingReminder-churn-title = Vrei să păstrezi accesul?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Se aplică condiții de limitare și restricții</a>
@@ -342,6 +351,23 @@ subscriptionRenewalReminder-content-greeting = Dragă client { $productName },
 subscriptionRenewalReminder-content-intro = Abonamentul actual este setat cu reînnoire automată la { $reminderLength } (de) zile.
 subscriptionRenewalReminder-content-discount-change = Următoarea factură reflectă o modificare a prețului, deoarece s-a încheiat o reducere anterioară și a fost aplicată o reducere nouă.
 subscriptionRenewalReminder-content-discount-ending = Pentru că a expirat o reducere anterioară, abonamentul se va reînnoi la prețul standard.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Atunci, { -brand-mozilla } îți va reînnoi abonamentul zilnic și îți va percepe { $invoiceTotalExcludingTax } + { $invoiceTax } taxe, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-with-tax-week = Atunci, { -brand-mozilla } îți va reînnoi abonamentul săptămânal și îți va percepe { $invoiceTotalExcludingTax } + { $invoiceTax } taxe, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-with-tax-month = Atunci, { -brand-mozilla } îți va reînnoi abonamentul lunar și îți va percepe { $invoiceTotalExcludingTax } + { $invoiceTax } taxe, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Atunci, { -brand-mozilla } îți va reînnoi abonamentul bianual și îți va percepe { $invoiceTotalExcludingTax } + { $invoiceTax } taxe, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-with-tax-year = Atunci, { -brand-mozilla } îți va reînnoi abonamentul anual și îți va percepe { $invoiceTotalExcludingTax } + { $invoiceTax } taxe, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-with-tax-default = Atunci, { -brand-mozilla } îți va reînnoi abonamentul și îți va percepe { $invoiceTotalExcludingTax } + { $invoiceTax } taxe, care se va aplica în metoda de plată din contul tău.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Atunci, { -brand-mozilla } îți va reînnoi abonamentul zilnic și îți va percepe { $invoiceTotal }, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Atunci, { -brand-mozilla } îți va reînnoi abonamentul săptămânal și îți va percepe { $invoiceTotal }, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Atunci, { -brand-mozilla } îți va reînnoi abonamentul lunar și îți va percepe { $invoiceTotal }, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Atunci, { -brand-mozilla } îți va reînnoi abonamentul bianual și îți va percepe { $invoiceTotal }, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Atunci, { -brand-mozilla } îți va reînnoi abonamentul anual și îți va percepe { $invoiceTotal }, care se va aplica în metoda de plată din contul tău.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Atunci, { -brand-mozilla } îți va reînnoi abonamentul și îți va percepe { $invoiceTotal }, care se va aplica în metoda de plată din contul tău.
 subscriptionRenewalReminder-content-closing = Salutări,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

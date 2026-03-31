@@ -126,10 +126,14 @@ not-found-loyalty-discount-button-back-to-subscriptions = Înapoi la abonamente
 
 interstitial-offer-error-subscription-not-found-heading = Nu am găsit un abonament activ
 interstitial-offer-error-subscription-not-found-message = Pare că abonamentul nu ar mai fi activ.
+interstitial-offer-error-customer-mismatch-heading = Abonamentul nu este asociat cu contul tău
+interstitial-offer-error-customer-mismatch-message = Asigură-te că ai intrat în contul corect sau ia legătura cu Serviciul de asistență dacă ai nevoie de ajutor.
 interstitial-offer-error-general-heading = Oferta nu este disponibilă
 interstitial-offer-error-general-message = Pare că oferta nu este disponibilă acum.
 interstitial-offer-error-button-back-to-subscriptions = Înapoi la abonamente
 interstitial-offer-error-button-cancel-subscription = Continuă cu anularea
+interstitial-offer-error-button-sign-in = Intră în cont
+interstitial-offer-error-button-contact-support = Contactează serviciul de asistență
 
 ## Page - Subscription Management
 
@@ -191,6 +195,15 @@ page-not-found-description = Pagina pe care ai solicitat-o nu a fost găsită. A
 page-not-found-back-button = Înapoi
 alert-dialog-title = Casetă de dialog de alertă
 
+## Already Canceling
+
+already-canceling-title = Abonamentul este programat să înceteze
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Vei avea în continuare acces la { $productName } până pe { $date }.
+already-canceling-turn-back-on = Îți poți reactiva abonamentul în orice moment înainte să înceteze.
+already-canceling-button-back-to-subscriptions = Înapoi la abonamente
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -224,6 +237,7 @@ subscription-content-cancel-access-message =
 
 cancel-subscription-button-cancel-subscription = Anulează abonamentul
     .aria-label = Anulează abonamentul la { $productName }
+cancel-subscription-button-keep-subscription = Păstrează abonamentul
 
 ## Component - Payment Consent Checkbox
 
@@ -247,6 +261,7 @@ churn-cancel-flow-action-error = A apărut o eroare neașteptată. Te rugăm să
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Rămâi abonat(ă) și economisește { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Rămâi abonat(ă) și economisește
+churn-cancel-flow-button-cancel-subscription = Anulează abonamentul
 churn-cancel-flow-link-terms-and-restrictions = Se aplică condiții și restricții limitate
 churn-cancel-flow-discount-already-applied-title = Codul de reducere a fost deja aplicat
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -258,6 +273,13 @@ churn-cancel-flow-button-contact-support = Contactează serviciul de asistență
 
 churn-cancel-flow-subscription-active-title = Abonamentul tău { $productName } este activ
 churn-cancel-flow-button-go-to-product-page = Mergi la { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = După aceea, abonamentul va fi reînnoit automat la tariful standard; asta în caz că nu îl anulezi.
+churn-cancel-flow-cancel-success-title = Ne pare rău că pleci.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Abonamentul tău la { $productName } a fost anulat. Mai ai acces la { $productName } până pe { $date }.
+churn-cancel-flow-cancel-turn-back-on = Îți poți reactiva abonamentul în orice moment înainte să înceteze.
 
 ## Churn flow - stay subscribed
 
