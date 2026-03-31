@@ -421,6 +421,17 @@ password-strength-inline-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n gy
 password-strength-inline-confirmed-must-match = Cadarnhad ei fod yn cydweddu â'r cyfrinair newydd
 password-strength-inline-passwords-match = Mae'r cyfrineiriau'n cyfateb
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Eich ffôn. Eich rheolau.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Sganiwch i gael yr app
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = Cod QR i lawrlwytho'r ap symudol { -brand-firefox }. Gosodwch gamera eich ffôn ar gornel dde isaf eich sgrin i'w sganio.
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Crëwch

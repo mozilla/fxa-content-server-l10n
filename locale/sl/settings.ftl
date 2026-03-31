@@ -415,6 +415,17 @@ password-strength-inline-not-common = ni eno od pogostih gesel
 password-strength-inline-confirmed-must-match = Potrditev se ujema z novim geslom
 password-strength-inline-passwords-match = Gesli se ujemata
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Vaš telefon. Vaša pravila.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Skenirajte za prenos aplikacije
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = Koda QR za prenos mobilne aplikacije { -brand-firefox }. Nastavite kamero telefona v spodnji desni kot zaslona, da jo preberete.
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Ustvari
