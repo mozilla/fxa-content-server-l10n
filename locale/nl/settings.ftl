@@ -409,6 +409,17 @@ password-strength-inline-not-common = Geen veelgebruikt wachtwoord
 password-strength-inline-confirmed-must-match = Bevestiging komt overeen met het nieuwe wachtwoord
 password-strength-inline-passwords-match = Wachtwoorden komen overeen
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Uw telefoon. Uw regels.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Scan om de app te downloaden
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = QR-code om de mobiele { -brand-firefox }-app te downloaden. Richt de camera van uw telefoon op de rechterbenedenhoek van uw scherm om de code te scannen.
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Aanmaken
