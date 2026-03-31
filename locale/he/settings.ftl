@@ -87,6 +87,8 @@ choose-newsletters-option-test-pilot =
 
 dark-mode-toggle-light = בהיר
 dark-mode-toggle-dark = כהה
+dark-mode-toggle-system = מערכת
+dark-mode-toggle-label = הפעלה/כיבוי של ערכת נושא
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -390,6 +392,14 @@ password-strength-inline-not-email = לא כתובת הדוא״ל שלך
 password-strength-inline-not-common = לא ססמה נפוצה
 password-strength-inline-confirmed-must-match = האימות מתאים לססמה החדשה
 password-strength-inline-passwords-match = הססמאות תואמות
+
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = הטלפון שלך. החוקים שלך.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = יש לסרוק כדי לקבל את היישומון
 
 ## Notification Promo Banner component
 
