@@ -415,6 +415,14 @@ password-strength-inline-not-common = Nic cesto wužywane gronidło
 password-strength-inline-confirmed-must-match = Wobkšuśenje nowemu gronidłoju wótpowědujo
 password-strength-inline-passwords-match = Gronidle stej jadnakej
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Waš telefon. Waše pšawidła.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Scannujśo, aby nałoženje dostał
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Napóraś
