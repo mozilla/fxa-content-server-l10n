@@ -1415,9 +1415,33 @@ passkey-registration-error-not-allowed = Setarea cheii de acces a eșuat sau nu 
 passkey-registration-error-timeout = Setarea cheii de acces a fost anulată. Încearcă din nou.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
 passkey-registration-error-not-supported = Cheile de acces nu sunt acceptate aici. Încearcă altă metodă sau alt dispozitiv.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Nu poți seta chei de acces pe această pagină. Folosește site-ul securizat și încearcă din nou.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Cheia de acces este deja înregistrată. Folosește-o ca să intri în cont sau adaugă altă cheie de acces.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Nu am putut accesa aplicația de autentificare. Încearcă din nou sau alege altă metodă.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Nu poți seta chei de acces cu acest dispozitiv. Încearcă altă metodă sau alt dispozitiv.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Setarea cheii de acces a eșuat. Încearcă din nou sau alege altă metodă.
 
 # Authentication errors
 
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Autentificarea cu cheie de acces a eșuat sau nu este disponibilă. Încearcă din nou sau alege altă metodă.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Timpul de așteptare pentru cheia de acces a expirat. Te rugăm să încerci din nou.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Nu sunt acceptate chei de acces. Încearcă altă metodă sau alt dispozitiv.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Nu poți folosi chei de acces pe această pagină. Verifică dacă ești pe site-ul securizat corect și încearcă din nou.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Ceva nu a mers cu cheia ta de acces. Încearcă din nou sau folosește altă metodă de autentificare.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Nu am putut accesa aplicația de autentificare. Încearcă din nou sau folosește altă metodă de autentificare.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Ceva nu a mers. Încearcă din nou sau folosește altă metodă de autentificare.
 
 ## Connect Another Device page
 
@@ -1639,6 +1663,10 @@ pair-unsupported-message = Ai folosit camera sistemului? Trebuie să efectuezi o
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
+service-welcome-signup-success-banner = { -product-mozilla-account } confirmat
+service-welcome-signin-success-banner = Autentificare reușită!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Apoi: Activează VPN-ul
 service-welcome-vpn-description = Încă un pas pentru a îmbunătăți confidențialitatea browserului tău. Accesează panoul deschis și activează-l.
 
 ## SetPassword page
