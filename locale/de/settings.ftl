@@ -413,9 +413,9 @@ password-strength-inline-passwords-match = Passwörter stimmen überein
 ## Promotional aside encouraging users to download the Firefox mobile app via QR code.
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
-promo-qr-mobile-heading = Dein Handy. Ihre Regeln.
+promo-qr-mobile-heading = Ihr Smartphone. Ihre Regeln.
 # Appears next to a QR code that a user can scan to download the Firefox mobile app
-promo-qr-mobile-description = Scannen Sie, um die App zu erhalten
+promo-qr-mobile-description = Scannen, um die App zu erhalten
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = QR-Code zum Herunterladen der mobilen { -brand-firefox }-App. Positionieren Sie die Kamera Ihres Telefons in der unteren rechten Ecke des Bildschirms, um ihn zu scannen.
