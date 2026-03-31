@@ -413,12 +413,12 @@ password-strength-inline-passwords-match = A jelszavak egyeznek
 ## Promotional aside encouraging users to download the Firefox mobile app via QR code.
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
-promo-qr-mobile-heading = A telefonja. A szabályai.
+promo-qr-mobile-heading = Az Ön telefonja. Az Ön szabályai.
 # Appears next to a QR code that a user can scan to download the Firefox mobile app
-promo-qr-mobile-description = Olvassa be az alkalmazás beszerzéséhez
+promo-qr-mobile-description = Olvassa le az alkalmazás beszerzéséhez
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
-    .alt = QR-kód a(z) { -brand-firefox } mobilalkalmazás letöltéséhez. A beolvasásához helyezze a telefonja kameráját a képernyő jobb alsó sarkába.
+    .alt = QR-kód a { -brand-firefox } mobilalkalmazás letöltéséhez. A beolvasásához irányítsa a telefonja kameráját a képernyő jobb alsó sarkára.
 
 ## Notification Promo Banner component
 
