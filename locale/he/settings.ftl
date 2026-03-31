@@ -400,6 +400,9 @@ password-strength-inline-passwords-match = הססמאות תואמות
 promo-qr-mobile-heading = הטלפון שלך. החוקים שלך.
 # Appears next to a QR code that a user can scan to download the Firefox mobile app
 promo-qr-mobile-description = יש לסרוק כדי לקבל את היישומון
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = קוד QR להורדת היישומון { -brand-firefox } לנייד. יש למקם את מצלמת הטלפון שלך בפינה הימנית התחתונה של המסך כדי לסרוק אותו.
 
 ## Notification Promo Banner component
 
