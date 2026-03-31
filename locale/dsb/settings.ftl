@@ -422,6 +422,9 @@ password-strength-inline-passwords-match = Gronidle stej jadnakej
 promo-qr-mobile-heading = Waš telefon. Waše pšawidła.
 # Appears next to a QR code that a user can scan to download the Firefox mobile app
 promo-qr-mobile-description = Scannujśo, aby nałoženje dostał
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = QR-kod za ześěgowanje mobilnego nałoženja { -brand-firefox }. Pozicioněrujśo kameru swójogo telefona w rožku dołojce napšawo swójeje wobrazowki, aby jen scannował.
 
 ## Notification Promo Banner component
 
