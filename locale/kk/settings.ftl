@@ -409,6 +409,17 @@ password-strength-inline-not-common = Жиі қолданылатын парол
 password-strength-inline-confirmed-must-match = Растау жаңа парольге сәйкес келеді
 password-strength-inline-passwords-match = Парольдер өзара сәйкес келеді
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Сіздің телефоныңыз. Сіздің ережелеріңіз.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Қолданбаны алу үшін сканерлеңіз
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = { -brand-firefox } мобильді қолданбасын жүктеу үшін QR коды. Телефоныңыздың камерасын сканерлеу үшін экранның төменгі оң жақ бұрышына бағыттаңыз.
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Жасау
