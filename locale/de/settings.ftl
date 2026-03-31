@@ -418,7 +418,7 @@ promo-qr-mobile-heading = Dein Handy. Ihre Regeln.
 promo-qr-mobile-description = Scannen Sie, um die App zu erhalten
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
-    .alt = QR-Code zum Herunterladen der mobilen App { -brand-firefox }. Positionieren Sie die Kamera Ihres Telefons in der unteren rechten Ecke des Bildschirms, um sie zu scannen.
+    .alt = QR-Code zum Herunterladen der mobilen { -brand-firefox }-App. Positionieren Sie die Kamera Ihres Telefons in der unteren rechten Ecke des Bildschirms, um ihn zu scannen.
 
 ## Notification Promo Banner component
 
