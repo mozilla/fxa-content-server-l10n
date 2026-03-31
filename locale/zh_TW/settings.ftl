@@ -397,6 +397,17 @@ password-strength-inline-not-common = 不可以是常見的密碼
 password-strength-inline-confirmed-must-match = 再次輸入的密碼與新密碼相符
 password-strength-inline-passwords-match = 密碼符合
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = 您的手機，由您掌控。
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = 掃描即可下載程式
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = 用來下載 { -brand-firefox } 行動應用程式的 QR Code。請開啟您手機的攝影鏡頭，並對準螢幕右下角即可掃描。
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = 建立
