@@ -280,6 +280,7 @@ churn-cancel-flow-cancel-success-title = Ne pare rău că pleci.
 # $date (Date) - Last day of product access
 churn-cancel-flow-cancel-success-dialog-msg = Abonamentul tău la { $productName } a fost anulat. Mai ai acces la { $productName } până pe { $date }.
 churn-cancel-flow-cancel-turn-back-on = Îți poți reactiva abonamentul în orice moment înainte să înceteze.
+churn-cancel-flow-cancel-success-dialog-aside = Ai întrebări? Intră pe <LinkExternal>{ -brand-mozilla } Asistență</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -302,6 +303,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Îți mulțumim că ești un ab
 churn-stay-subscribed-button-go-to-product-page = Mergi la { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Mergi la abonamente
 churn-stay-subscribed-button-stay-subscribed = Păstrează abonamentul
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = După aceea, abonamentul va fi reînnoit automat la tariful standard; asta în caz că nu îl anulezi.
 
 ## Component - CouponForm
 
@@ -340,12 +343,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Autentificat(ă) ca
 payments-header-avatar-expanded-sign-out = Ieși din cont
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Ne pare rău că pleci
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Abonamentul tău la { $productName } a fost anulat. Mai ai acces la { $productName } până pe { $date }.
+interstitial-offer-turn-back-on = Îți poți reactiva abonamentul în orice moment înainte să înceteze.
+interstitial-offer-cancel-success-dialog-aside = Ai întrebări? Intră pe <LinkExternal>{ -brand-mozilla } Asistență</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Înapoi la abonamente
+interstitial-offer-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
+interstitial-offer-cancel-subscription-button = Anulează abonamentul
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Păstrează abonamentul zilnic
 interstitial-offer-button-keep-current-interval-weekly = Păstrează abonamentul săptămânal
 interstitial-offer-button-keep-current-interval-halfyearly = Păstrează abonamentul la șase luni
 interstitial-offer-button-keep-current-interval-monthly = Păstrează abonamentul lunar
+interstitial-offer-button-keep-subscription = Păstrează abonamentul
 
 ##
 
@@ -473,6 +489,9 @@ churn-error-page-message-discount-already-applied = Această reducere a fost apl
 churn-error-page-button-manage-subscriptions = Gestionează abonamentele
 churn-error-page-button-contact-support = Contactează serviciul de asistență
 churn-error-page-button-try-again = Încearcă din nou
+churn-error-page-title-customer-mismatch = Cuponul nu poate fi valorificat
+churn-error-page-message-customer-mismatch = Cuponul a fost emis pentru un abonament diferit și poate fi valorificat numai de către destinatarul inițial.
+churn-error-page-button-sign-in = Intră în cont
 churn-error-page-title-general-error = A apărut o problemă la reînnoirea abonamentului
 churn-error-page-message-general-error = Contactează asistența sau încearcă din nou.
 # $productName (String) - The name of the product associated with the subscription.

@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Alerte de acțiune pentru revendicarea internetului
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Luminos
+dark-mode-toggle-dark = Întunecat
+dark-mode-toggle-system = Sistem
+dark-mode-toggle-label = Schimbă tema
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -303,6 +310,9 @@ sync-clouds-image-aria-label =
     .aria-label = Nori cu o pictogramă de sincronizare
 confetti-falling-image-aria-label =
     .aria-label = Confeti animate care cad
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Fereastră { -brand-firefox } cu o insignă circulară care prezintă o bifă verde și „VPN”, indicând că VPN-ul este activ.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -398,6 +408,17 @@ password-strength-inline-not-email = Nu adresa ta de e-mail
 password-strength-inline-not-common = Nu o parolă utilizată frecvent
 password-strength-inline-confirmed-must-match = Confirmarea corespunde cu noua parolă
 password-strength-inline-passwords-match = Parolele se potrivesc
+
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Telefonul tău. Regulile tale.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Scanează pentru a obține aplicația
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = Cod QR pentru descărcarea aplicației mobile { -brand-firefox }. Poziționează camera telefonului în colțul din dreapta jos al ecranului pentru a-l scana.
 
 ## Notification Promo Banner component
 
@@ -1155,6 +1176,23 @@ tfa-row-backup-phone-description-v2 = Este cea mai simplă metodă de recuperare
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Află despre riscul de schimbare a cartelei SIM
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Creat la: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Ultima utilizare: { $lastUsedDate }
+# These two sentences are referring to the passkey
+passkey-sub-row-sign-in-only = Doar pentru autentificare. Nu poate fi folosit pentru sincronizare.
+passkey-sub-row-delete-title = Șterge cheia de acces
+passkey-delete-modal-heading = Ștergi cheia de acces?
+passkey-delete-modal-content = Cheia de acces va fi eliminată din cont. Va trebui să te autentifici altfel.
+passkey-delete-modal-cancel-button = Anulează
+passkey-delete-modal-confirm-button = Șterge cheia de acces
+passkey-delete-success = Cheia de acces a fost ștearsă
+passkey-delete-error = A apărut o problemă la ștergerea cheii. Încearcă din nou peste câteva minute.
 
 ## Switch component
 
@@ -1173,6 +1211,16 @@ row-defaults-action-add = Adaugă
 row-defaults-action-change = Modifică
 row-defaults-action-disable = Dezactivează
 row-defaults-status = Niciunul
+
+## UnitRowPasskey
+
+passkey-row-header = Chei de acces
+passkey-row-enabled = Activată
+passkey-row-not-set = Nu este setată
+passkey-row-action-create = Creează
+passkey-row-description = Simplifică intrarea în cont și securizeaz-o folosindu-ți telefonul sau alt dispozitiv acceptat ca să intri în cont.
+# External link to a support article. "This" refers to passkeys.
+passkey-row-info-link = Cum îți protejează contul
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1324,6 +1372,12 @@ auth-error-215 = Numărul de telefon de recuperare nu există
 auth-error-216 = Ai atins limita pentru mesaje text
 auth-error-218 = Nu se poate elimina numărul de telefon de recuperare, lipsesc codurile de autentificare de rezervă.
 auth-error-219 = Acest număr de telefon a fost înregistrat cu prea multe conturi. Te rugăm să încerci alt număr.
+auth-error-224 = Nu s-a găsit cheia de acces
+auth-error-225 = Cheia de acces este deja înregistrată
+auth-error-226 = S-a atins limita de chei de acces
+auth-error-227 = Autentificarea cu cheie de acces a eșuat
+auth-error-228 = Înregistrarea cheii de acces a eșuat
+auth-error-238 = Verificarea cheii de acces a eșuat
 auth-error-999 = Eroare neașteptată
 auth-error-1001 = Încercare de autentificare anulată
 auth-error-1002 = Sesiune expirată. Intră în cont pentru a continua.
@@ -1348,6 +1402,22 @@ auth-error-1067 = Ai scris greșit adresa de e-mail?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Număr care se termină în { $lastFourPhoneNumber }
 oauth-error-1000 = Ceva nu a mers. Închide fila și încearcă din nou.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Setarea cheii de acces a eșuat sau nu este disponibilă. Încearcă iar sau alege altă metodă.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Setarea cheii de acces a fost anulată. Încearcă din nou.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Cheile de acces nu sunt acceptate aici. Încearcă altă metodă sau alt dispozitiv.
+
+# Authentication errors
+
 
 ## Connect Another Device page
 
@@ -1566,6 +1636,11 @@ pair-wait-for-auth-heading-text = Acum este necesară aprobarea <span>de pe cel�
 pair-unsupported-header = Asociere folosind o aplicație
 pair-unsupported-message = Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație { -brand-firefox }.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-vpn-description = Încă un pas pentru a îmbunătăți confidențialitatea browserului tău. Accesează panoul deschis și activează-l.
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
@@ -1575,6 +1650,11 @@ pair-unsupported-message = Ai folosit camera sistemului? Trebuie să efectuezi o
 set-password-heading-v2 = Creează o parolă pentru sincronizare
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Îți criptează datele. Trebuie să fie diferită de parola contului { -brand-google } sau { -brand-apple }.
+
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Această parolă îți criptează datele sincronizate și le păstrează în siguranță.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1775,6 +1855,64 @@ signin-bounced-message = Mesajul de confirmare trimis pe e-mail la { $email } a 
 signin-bounced-help = Dacă este o adresă de e-mail validă, <linkExternal>anunță-ne</linkExternal> și te putem ajuta să-ți deblochezi contul.
 signin-bounced-create-new-account = Nu mai deții adresa de e-mail? Creează un cont nou
 back = Înapoi
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Finalizează autentificarea
+signin-passkey-fallback-heading = Introdu parola pentru sincronizare
+signin-passkey-fallback-body = Pentru a-ți păstra datele în siguranță, trebuie să introduci parola când folosești această cheie de acces.
+signin-passkey-fallback-password-label = Parolă
+signin-passkey-fallback-go-to-settings = Mergi la setări
+signin-passkey-fallback-continue = Continuă
+
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Introdu codul de confirmare
+signin-passwordless-code-subheading = Intri în cont dintr-un singur pas când folosești acest cod.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Introdu codul care a fost trimis la <email>{ $email }</email> în termen de { $expirationMinutes } minut.
+        [few] Introdu codul care a fost trimis la <email>{ $email }</email> în termen de { $expirationMinutes } minute.
+       *[other] Introdu codul care a fost trimis la <email>{ $email }</email> în termen de { $expirationMinutes } de minute.
+    }
+signin-passwordless-code-input-label = Introdu codul de 8 cifre
+signin-passwordless-code-confirm-button = Confirmă
+signin-passwordless-code-required-error = Necesită cod de confirmare
+signin-passwordless-code-expired = A expirat codul?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Trimite codul nou prin e-mail în { $seconds } secundă
+        [few] Trimite codul nou prin e-mail în { $seconds } secunde
+       *[other] Trimite codul nou prin e-mail în { $seconds } de secunde
+    }
+signin-passwordless-code-resend-link = Trimite codul nou prin e-mail.
+signin-passwordless-code-resend-error = Ceva nu a mers bine. Nu s-a putut trimite un cod nou.
+signin-passwordless-code-other-account-link = Folosește alt cont
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Îți faci cont dintr-un singur pas când folosești acest cod.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Ai activată autentificarea în doi pași în cont. Te rugăm să te conectezi cu parola.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
