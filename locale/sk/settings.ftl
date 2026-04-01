@@ -316,6 +316,9 @@ sync-clouds-image-aria-label =
     .aria-label = Oblaky s ikonou synchronizácie
 confetti-falling-image-aria-label =
     .aria-label = Animované padajúce konfety
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = Okno { -brand-firefox(case: "gen") } s kruhovým odznakom so zelenou fajkou a textom „VPN“, čo znamená, že VPN je aktívna.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1431,10 +1434,16 @@ passkey-registration-error-unexpected = Nastavenie prístupového kľúča zlyha
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Prihlásenie pomocou prístupového kľúča zlyhalo alebo nie je k dispozícii. Skúste to znova alebo vyberte inú metódu.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Časový limit žiadosti o prístupový kľúč vypršal. Skúste to znova.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported = Prístupové kľúče nie sú podporované. Skúste iný spôsob alebo zariadenie.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Na tejto stránke nie je možné použiť prístupové kľúče. Skontrolujte, či ste na správnej zabezpečenej stránke a skúste to znova.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Vyskytol sa problém s vaším prístupovým kľúčom. Skúste to znova alebo použite iný spôsob prihlásenia.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Nepodarilo sa nám získať prístup k overovaču. Skúste to znova alebo použite iný spôsob prihlásenia.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Vyskytla sa chyba. Skúste to znova alebo vyberte iný spôsob prihlásenia.
 
@@ -1897,6 +1906,19 @@ signin-passkey-fallback-continue = Pokračovať
 
 signin-passwordless-code-heading = Zadajte potvrdzovací kód
 signin-passwordless-code-subheading = Prihlásenie s týmto kódom má iba jeden krok.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] V priebehu { $expirationMinutes } minúty zadajte kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
+        [few] V priebehu { $expirationMinutes } minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
+        [many] V priebehu { $expirationMinutes } minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
+       *[other] V priebehu { $expirationMinutes } minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
+    }
 signin-passwordless-code-input-label = Zadajte 8-miestny kód
 signin-passwordless-code-confirm-button = Potvrdiť
 signin-passwordless-code-required-error = Vyžaduje sa potvrdzovací kód
