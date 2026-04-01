@@ -406,6 +406,14 @@ password-strength-inline-not-common = Ndaha’éi ne ñe’ẽñemi eiporumemév
 password-strength-inline-confirmed-must-match = Pe ñemoneĩ ojokupyty ñe’ẽñemi pyahúre
 password-strength-inline-passwords-match = Ñe’ẽñemi ojueheguáva
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Ne pumbyry. Nde rekoguata.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Emoha’ãnga ereko hag̃ua tembiporu’i
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Moheñói
