@@ -96,7 +96,7 @@ choose-newsletters-option-reclaim-the-internet =
 dark-mode-toggle-light = Claro
 dark-mode-toggle-dark = Oscuro
 dark-mode-toggle-system = Sistema
-dark-mode-toggle-label = Alternar tema
+dark-mode-toggle-label = Cambiar tema
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
