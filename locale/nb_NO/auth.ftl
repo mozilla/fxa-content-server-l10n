@@ -200,6 +200,28 @@ fraudulentAccountDeletion-contact = Hvis du har spørsmål, så kontakt <a data-
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Hvis du har spørsmål, så kontakt support-teamet vårt: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Prøveperioden for { $productName } avsluttes snart
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = KJære { $productName }-kunde,
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Prøveperioden din er planlagt avsluttet <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Prøveperioden din er planlagt avsluttet { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Hvis du ikke avslutter før dette, vil abonnementet ditt starte automatisk, og vi vil belaste <strong>{ $invoiceTotal }</strong> på betalingsmåten på kontoen din den <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-thanks-plaintext = Takk for at du prøver { $productName }. Hvis du har spørsmål om prøveperioden eller abonnementet ditt, kan du kontakte oss.
+freeTrialEndingReminder-content-closing = Vennlig hilsen,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = { $productName }-teamet
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Kontakt oss: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Ditt abonnement på { $productName } har blit avsluttet
