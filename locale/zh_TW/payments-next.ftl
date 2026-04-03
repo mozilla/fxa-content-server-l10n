@@ -240,6 +240,9 @@ cancel-subscription-button-keep-subscription = 保持訂閱
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = 我授權 { -brand-mozilla } 根據<termsOfServiceLink>服務條款</termsOfServiceLink>與<privacyNoticeLink>隱私權公告</privacyNoticeLink>的內容，對我的付款方式收取此費用，直到我主動取消訂閱為止。
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下一步
 
 ## Checkout Form

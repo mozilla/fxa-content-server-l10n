@@ -80,6 +80,9 @@ page-not-found-back-button = Vai nn’arrè
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Auturizzu { -brand-mozilla } a pigghiàrisi u mportu mustratu dû me mètudu di pagamentu, sicunnu i <termsOfServiceLink>tèrmini di sirbizzu</termsOfServiceLink> e l’<privacyNoticeLink>abbisu di privatizza</privacyNoticeLink>, nzinu a quannu nun mi disiscrivu.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Hâ cumplitari stu passaggiu prima di jiri innanzi
 
 ## Checkout Form

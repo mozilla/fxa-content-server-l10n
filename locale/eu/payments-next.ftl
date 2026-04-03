@@ -80,6 +80,9 @@ page-not-found-back-button = Joan atzera
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Baimena ematen diot { -brand-mozilla }-ri nire ordainketa-metodoari kobratzeko erakutsitako zenbatekoa, <termsOfServiceLink>Zerbitzu-baldintzen arabera</termsOfServiceLink> eta <privacyNoticeLink>Pribatutasun-oharra</privacyNoticeLink>, nire harpidetza bertan behera utzi arte.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Hau osatu behar duzu aurrera egin aurretik
 
 ## Checkout Form

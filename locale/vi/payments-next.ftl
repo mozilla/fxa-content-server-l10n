@@ -230,6 +230,9 @@ cancel-subscription-button-cancel-subscription = Huỷ gói đăng ký
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Tôi ủy quyền { -brand-mozilla } để tính phí phương thức thanh toán của tôi cho số tiền được hiển thị, theo <termsOfServiceLink>điều khoản sử dụng</termsOfServiceLink> và <privacyNoticeLink>thông báo về quyền riêng tư</privacyNoticeLink>, cho đến khi tôi hủy thuê bao.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Bạn cần hoàn thành việc này trước khi tiếp tục
 
 ## Checkout Form

@@ -242,6 +242,9 @@ cancel-subscription-button-keep-subscription = Păstrează abonamentul
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } să îmi perceapă, prin metoda mea de plată, suma afișată, conform <termsOfServiceLink>Condițiilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Trebuie să termini aici ca să treci mai departe
 
 ## Checkout Form

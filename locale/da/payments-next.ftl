@@ -226,6 +226,9 @@ cancel-subscription-button-cancel-subscription = Opsig abonnement
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Jeg giver hermed tilladelse til, at { -brand-mozilla } kan trække det viste beløb med min angivne betalingsmetode i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivserklæringen</privacyNoticeLink>, indtil jeg annullerer mit abonnement.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Du skal fuldføre dette, før du går videre
 
 ## Checkout Form

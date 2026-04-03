@@ -242,6 +242,9 @@ cancel-subscription-button-keep-subscription = Erekomeme ñemboheraguapy
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Amoneĩ { -brand-mozilla }-pe, tomyanyhẽ ahepyme’ẽhápe he’iháicha <termsOfServiceLink>mba’epytyvõrã ñemboguata</termsOfServiceLink> ha <privacyNoticeLink>Ñemigua marandu’i</privacyNoticeLink>, aheja peve che ñemboheraguapy.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 ## Checkout Form

@@ -204,6 +204,9 @@ cancel-subscription-button-cancel-subscription = Cancele abonament
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = O autorizi { -brand-mozilla } a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae<privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintant che no anularai il gno abonament.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Tu scugnis completâ cheste operazion prime di procedi
 
 ## Checkout Form

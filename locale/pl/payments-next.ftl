@@ -208,6 +208,9 @@ cancel-subscription-button-cancel-subscription = Anuluj subskrypcję
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Upoważniam { -brand-mozilla(case: "acc") } do pobierania wymienionej opłaty zgodnie z <termsOfServiceLink>regulaminem usługi</termsOfServiceLink> i <privacyNoticeLink>zasadami ochrony prywatności</privacyNoticeLink> oraz za pomocą wybranej przeze mnie metody płatności, dopóki nie anuluję swojej subskrypcji.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Należy to wypełnić, aby móc przejść dalej
 
 ## Checkout Form

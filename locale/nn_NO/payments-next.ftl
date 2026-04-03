@@ -240,6 +240,9 @@ cancel-subscription-button-keep-subscription = Behald abonnementet
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Eg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som visest, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernfråsegna</privacyNoticeLink>, inntil eg seier opp abonnementet mitt.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 ## Checkout Form

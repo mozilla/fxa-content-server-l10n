@@ -242,6 +242,9 @@ cancel-subscription-button-keep-subscription = Előfizetés megtartása
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Felhatalmazom a { -brand-mozilla(ending: "accented") }t, hogy terhelje meg a megjelenített összeget az én fizetési módommal az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 ## Checkout Form

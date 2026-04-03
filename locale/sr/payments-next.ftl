@@ -240,6 +240,9 @@ cancel-subscription-button-keep-subscription = Задржи претплату
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Овлашћујем { -brand-mozilla } да наплати приказани износ са мог начина плаћања, у складу са <termsOfServiceLink>Условима коришћења</termsOfServiceLink> и <privacyNoticeLink>Обавештењем о приватности</privacyNoticeLink>, све док не откажем претплату.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Прихватите ово да бисте наставили
 
 ## Checkout Form

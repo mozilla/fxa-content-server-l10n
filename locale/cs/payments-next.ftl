@@ -240,6 +240,9 @@ cancel-subscription-button-keep-subscription = Ponechat předplatné
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Opravňuji organizaci { -brand-mozilla } účtovat uvedenou částku na vrub mého způsobu platby, a to v souladu s <termsOfServiceLink>podmínkami poskytování služby</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink>, dokud nezruším své předplatné.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokončit
 
 ## Checkout Form

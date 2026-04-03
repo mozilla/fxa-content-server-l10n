@@ -243,6 +243,9 @@ cancel-subscription-button-keep-subscription = Mbajeni pajtimin
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = E autorizoj { -brand-mozilla } të faturojë metodën time të pagesave me vlerën e treguar, sipas <termsOfServiceLink>Kushteve të Shërbimit</termsOfServiceLink> dhe <privacyNoticeLink>Shënim Privatësie</privacyNoticeLink>, deri sa ta anuloj pajtimin tim.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Lypset të plotësoni këtë, para se ecni më tej
 
 ## Checkout Form

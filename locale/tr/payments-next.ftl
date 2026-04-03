@@ -217,6 +217,9 @@ cancel-subscription-button-keep-subscription = Aboneliği sürdür
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = { -brand-mozilla }’nın <termsOfServiceLink>Hizmet Koşulları</termsOfServiceLink> ve <privacyNoticeLink>Gizlilik Bildirimi</privacyNoticeLink> kapsamında, ben aboneliğimi iptal edene dek, belirlediğim ödeme yöntemiyle aşağıda belirtilen tutarda ödeme almasını onaylıyorum.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Devam etmek için bunu kabul etmeniz gerekiyor
 
 ## Checkout Form

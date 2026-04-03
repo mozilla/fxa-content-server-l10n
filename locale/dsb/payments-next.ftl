@@ -245,6 +245,9 @@ cancel-subscription-button-keep-subscription = Abonement wobchowaś
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Awtorizěrujom { -brand-mozilla } pó <termsOfServiceLink>płaśeńskich wuměnjenjach</termsOfServiceLink> a <privacyNoticeLink>wuzjawjenju wó šćiśe datow</privacyNoticeLink> swóju płaśeńsku metodu wobśěžyś, daniž swój abonement njewupowěźejom.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Musyśo to dokóncyś, nježli až móžośo pókšacowaś
 
 ## Checkout Form

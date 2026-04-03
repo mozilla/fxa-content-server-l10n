@@ -80,6 +80,9 @@ page-not-found-back-button = Повернутися назад
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Я дозволяю { -brand-mozilla } стягувати зазначену суму з використанням мого способу оплати, відповідно до <termsOfServiceLink>Умов надання послуг</termsOfServiceLink> і <privacyNoticeLink>Положення про приватність</privacyNoticeLink>, доки я не скасую передплату.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Необхідно завершити це, перш ніж переходити далі
 
 ## Checkout Form

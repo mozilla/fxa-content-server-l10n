@@ -185,6 +185,9 @@ subscription-content-cancel-access-message = { $currentPeriodEnd }에 { $product
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = <termsOfServiceLink>이용 약관</termsOfServiceLink> 및 <privacyNoticeLink>개인 정보 보호정책</privacyNoticeLink>에 따라, 구독을 취소하기 전까지 { -brand-mozilla }가 표시된 금액을 내 결제 수단에 청구하도록 허가합니다.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = 계속 진행하기 전에 이 작업을 완료해야 합니다.
 
 ## Checkout Form

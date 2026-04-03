@@ -232,6 +232,9 @@ cancel-subscription-button-cancel-subscription = გამოწერის გ
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = ნებას ვრთავ { -brand-mozilla }-ს, შეცვალოს ჩემი გადახდის საშუალება მითითებული ოდენობისთვის <termsOfServiceLink>გამოყენების პირობებისა</termsOfServiceLink> და <privacyNoticeLink>პირადულობის განაცხადის</privacyNoticeLink> შესაბამისად, სანამ არ გავაუქმებ გამოწერას.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = უნდა დაასრულოთ, სანამ განაგრძობთ
 
 ## Checkout Form

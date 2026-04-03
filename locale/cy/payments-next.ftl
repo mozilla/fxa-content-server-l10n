@@ -240,6 +240,9 @@ cancel-subscription-button-keep-subscription = Cadw'r tanysgrifiad
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Rwy'n awdurdodi { -brand-mozilla } i godi tâl ar fy null talu am y swm sy'n cael ei ddangos, yn unol â <termsOfServiceLink>Thelerau Gwasanaeth</termsOfServiceLink> a'r <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, nes i mi ddiddymu fy nhanysgrifiad.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymlaen
 
 ## Checkout Form

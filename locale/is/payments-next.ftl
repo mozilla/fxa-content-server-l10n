@@ -96,6 +96,9 @@ subscription-management-breadcrumb-payment-2 = Sýsla með greiðslumáta
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Ég heimila hér með { -brand-mozilla } að millifæra tilgreinda upphæð af greiðslumátanum mínum, samkvæmt <termsOfServiceLink >þjónustuskilmálum</termsOfServiceLink> og <privacyNoticeLink>stefnu um meðferð persónuupplýsinga</privacyNoticeLink>, þar til ég segi upp áskriftinni.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Þú þarft að ljúka þessu áður en þú heldur áfram
 
 ## Checkout Form

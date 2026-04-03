@@ -172,6 +172,9 @@ subscription-cancellation-dialog-aside = Onko sinulla kysyttävää? Käy <LinkE
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Valtuutan { -brand-mozilla }n veloittaa maksutapaani näytetyn summan verran, <termsOfServiceLink>käyttöehtojen</termsOfServiceLink> ja <privacyNoticeLink>tietosuojakäytännön</privacyNoticeLink> mukaisesti, kunnes peruutan tilaukseni.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Sinun on suoritettava tämä vaihe, ennen kuin jatkat eteenpäin
 
 ## Checkout Form

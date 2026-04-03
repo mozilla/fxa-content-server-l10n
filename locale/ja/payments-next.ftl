@@ -65,6 +65,9 @@ subscription-management-breadcrumb-account-home = アカウントホーム
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = 私がサブスクリプションをキャンセルするまでの間、{ -brand-mozilla } が <termsOfServiceLink>サービス利用規約</termsOfServiceLink> と <privacyNoticeLink>プライバシーポリシー</privacyNoticeLink> に基づき、表示されている金額を指定の支払い方法で請求することを承認します。
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = 先へ進む前に、こちらに同意していただく必要があります。
 
 ## Checkout Form

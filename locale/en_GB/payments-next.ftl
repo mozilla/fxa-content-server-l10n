@@ -240,6 +240,9 @@ cancel-subscription-button-keep-subscription = Keep subscription
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = I authorise { -brand-mozilla } to charge my payment method for the amount shown, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = You need to complete this before moving forward
 
 ## Checkout Form

@@ -175,6 +175,9 @@ subscription-cancellation-dialog-title = Ficamos tristes com sua decisão.
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Autorizo à { -brand-mozilla } cobrar com meu método de pagamento a quantia exibida, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e o <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até eu cancelar minha assinatura.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Você precisa concluir isto antes de prosseguir
 
 ## Checkout Form

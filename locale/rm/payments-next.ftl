@@ -65,6 +65,9 @@ next-payment-confirmation-cc-card-ending-in = Carta che chala cun { $last4 }
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Jau permet a { -brand-mozilla } da debitar cun mia metoda da pajament l'import mussà, confurm a las <termsOfServiceLink>cundiziuns d'utilisaziun</termsOfServiceLink> e las <privacyNoticeLink>directivas per la protecziun da datas</privacyNoticeLink>, enfin che jau annullesch mes abunament.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = Ti stos acceptar quai per pudair cuntinuar
 
 ## Checkout Form

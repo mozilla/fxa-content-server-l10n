@@ -236,6 +236,9 @@ cancel-subscription-button-keep-subscription = להשאיר את המינוי
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = אני מאשר ל־{ -brand-mozilla } לחייב את אמצעי התשלום שלי בסכום המוצג, לפי <termsOfServiceLink>תנאי השימוש</termsOfServiceLink> ו<privacyNoticeLink>הצהרת הפרטיות</privacyNoticeLink>, עד שאבטל את המינוי שלי.
+
+## $endDate (Date) - The end date of the free trial
+
 next-payment-confirm-checkbox-error = עליך להשלים זאת לפני שיהיה באפשרותך להתקדם
 
 ## Checkout Form

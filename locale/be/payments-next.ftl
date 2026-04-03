@@ -61,7 +61,7 @@ page-not-found-back-button = Вярнуцца
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Падпіскі
 
-## Component - Payment Consent Checkbox
+## $endDate (Date) - The end date of the free trial
 
 next-payment-confirm-checkbox-error = Вам трэба завяршыць гэта, перш чым рухацца далей
 
