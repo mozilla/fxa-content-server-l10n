@@ -243,6 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = Rwy'n awdurdodi { -brand-mozill
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Mae angen dull talu i gychwyn eich treial am ddim. Ni chodir tâl arnoch tan { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Rwy'n awdurdodi { -brand-mozilla } i godi tâl ar fy null talu am y swm a ddangosir ar ôl i'r treial am ddim ddod i ben ar { $endDate }, yn unol â'r <termsOfServiceLink>Telerau Gwasanaeth</termsOfServiceLink> a <privacyNoticeLink>Hysbysiad Preifatrwydd</privacyNoticeLink>, hyd nes y byddaf canslo fy tanysgrifiad.
 next-payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymlaen
 
 ## Checkout Form

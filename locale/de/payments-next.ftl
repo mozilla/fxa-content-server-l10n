@@ -243,6 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = Ich ermächtige { -brand-mozill
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Um Ihre kostenlose Testversion zu starten, ist eine Zahlungsmethode erforderlich. Ihr Konto wird erst mit { $endDate } belastet.
+checkbox-confirm-free-trial-with-legal-links = Ich ermächtige { -brand-mozilla }, meine Zahlungsmethode mit dem angezeigten Betrag zu belasten, der nach dem Ende der kostenlosen Testversion mit { $endDate } verbunden ist, gemäß den <termsOfServiceLink>Nutzungsbedingungen</termsOfServiceLink> und dem <privacyNoticeLink>Datenschutzhinweis</privacyNoticeLink>, bis ich meinen Dauerauftrag kündigen.
 next-payment-confirm-checkbox-error = Sie müssen dieses Kästchen aktivieren, bevor Sie fortfahren
 
 ## Checkout Form

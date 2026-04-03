@@ -243,6 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = Dovoljujem, da { -brand-mozilla
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Za začetek brezplačnega preskusa je potrebno navesti način plačila. Zaračunali vam bomo šele { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Pooblaščam, da { -brand-mozilla } bremeni moje način plačila v znesku, prikazanem po izteku brezplačnega preskusa dne { $endDate }, v skladu s <termsOfServiceLink>Pogoji uporabe</termsOfServiceLink> in <privacyNoticeLink>Obvestilom o zasebnosti</privacyNoticeLink>, do Prekliči naročnino.
 next-payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 ## Checkout Form

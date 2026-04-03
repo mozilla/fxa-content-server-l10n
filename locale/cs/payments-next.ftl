@@ -243,6 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = Opravňuji organizaci { -brand-
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = K zahájení bezplatného zkušebního období je vyžadována platební metoda. Platba vám bude stržena až { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Souhlasím s tím, aby společnost { -brand-mozilla } strhávala z mé platební metody uvedenou částku v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink> po skončení zkušebního období, dokud zrušit mé předplatné.
 next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokončit
 
 ## Checkout Form

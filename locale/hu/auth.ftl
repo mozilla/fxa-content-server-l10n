@@ -202,6 +202,53 @@ fraudulentAccountDeletion-contact = Ha kérdése van, forduljon <a data-l10n-nam
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ha bármilyen kérdése van, forduljon támogatási csapatunkhoz: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Az ingyenes { $productName } próbaidőszak hamarosan lejár
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Tisztelt { $productName } vásárló!
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Az ingyenes próbaidőszak a tervek szerint ekkor ér véget: <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Az ingyenes próbaidőszak a tervek szerint ekkor ér véget: { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Ha nem mondja le addig, akkor az előfizetése automatikusan elindul, és <strong>{ $invoiceTotal }</strong> összeggel terheljük meg a fiókjában szereplő fizetési módot a következő dátummal: <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Hacsak addig nem mondja le, az előfizetése automatikusan elindul, és { $invoiceTotal } összeget levonunk a fiókjában szereplő fizetési módról ekkor: { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = Díj részletei
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = { $productName }-előfizetés: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Kedvezmény: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Adó: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Teljes esedékesség ekkor: { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = <a data-l10n-name="freeTrialEndingReminder-update-billing">itt</a> megtekintheti vagy frissítheti a fizetési módjait és fiókinformációit.
+freeTrialEndingReminder-content-account-link-plaintext = Itt áttekintheti vagy frissítheti a fizetési módját és fiókinformációit:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Hogy elkerülje a terhelést, mondja le <strong>{ $serviceLastActiveDateOnly }</strong> előtt: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">előfizetés megszüntetése</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Hogy elkerülje a terhelést, mondja le { $serviceLastActiveDateOnly } előtt:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Köszönjük, hogy kipróbálta a(z) { $productName } kiegészítőt. Ha kérdése van a próbaverzióval vagy az előfizetéssel kapcsolatban, akkor <a data-l10n-name="freeTrialEndingReminder-contact-support">lépjen velünk kapcsolatba</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Köszönjük, hogy kipróbálta a(z) { $productName } kiegészítőt. Ha kérdése van a próbával vagy az előfizetéssel kapcsolatban, lépjen velünk kapcsolatba.
+freeTrialEndingReminder-content-closing = Tisztelettel,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = A { $productName } csapat
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Kapcsolatfelvétel: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Lemondta a(z) { $productName } előfizetését
