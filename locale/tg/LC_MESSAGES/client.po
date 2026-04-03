@@ -514,7 +514,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:290
 msgid "Feature not enabled"
-msgstr ""
+msgstr "Хусусият фаъол нест"
 
 #: .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:310 .es5/lib/oauth-errors.js:111 .es5/lib/oauth-errors.js:115 .es5/lib/oauth-errors.js:119
 #: .es5/lib/profile-errors.js:37 .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:61
@@ -859,7 +859,7 @@ msgstr ""
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Дархости нодуруст"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
