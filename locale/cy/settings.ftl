@@ -427,10 +427,10 @@ password-strength-inline-passwords-match = Mae'r cyfrineiriau'n cyfateb
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Eich ffôn. Eich rheolau.
 # Appears next to a QR code that a user can scan to download the Firefox mobile app
-promo-qr-mobile-description = Sganiwch i gael yr app
+promo-qr-mobile-description = Sganio i gael yr ap
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
-    .alt = Cod QR i lawrlwytho'r ap symudol { -brand-firefox }. Gosodwch gamera eich ffôn ar gornel dde isaf eich sgrin i'w sganio.
+    .alt = Cod QR i llwytho ap symudol { -brand-firefox } i lawr. Gosodwch gamera eich ffôn ar gornel dde isaf eich sgrin i'w sganio.
 
 ## Notification Promo Banner component
 
