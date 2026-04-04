@@ -218,6 +218,30 @@ freeTrialEndingReminder-content-trial-ending-plaintext = Сіздің тегін
 freeTrialEndingReminder-content-auto-charge = Егер оған дейін бас тартпасаңыз, жазылымыңыз автоматты түрде басталады және біз <strong>{ $serviceLastActiveDateOnly }</strong> күні тіркелгіңіздегі төлем әдісінен <strong>{ $invoiceTotal }</strong> сомасын ұстап қаламыз.
 freeTrialEndingReminder-content-auto-charge-plaintext = Егер оған дейін бас тартпасаңыз, жазылымыңыз автоматты түрде басталады және біз { $serviceLastActiveDateOnly } күні тіркелгіңіздегі төлем әдісінен { $invoiceTotal } сомасын ұстап қаламыз.
 freeTrialEndingReminder-content-charge-heading = Төлем мәліметтері
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = { $productName } жазылымы: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Жеңілдік: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Салық: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = { $serviceLastActiveDateOnly } күні төленуі тиіс жалпы сома: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Төлем әдісі мен тіркелгі ақпаратын <a data-l10n-name="freeTrialEndingReminder-update-billing">осы жерден</a> қарап шығуға немесе жаңартуға болады.
+freeTrialEndingReminder-content-account-link-plaintext = Төлем әдісі мен тіркелгі ақпаратын мына жерден қарап шығуға немесе жаңартуға болады:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Төлем алынбауы үшін, <strong>{ $serviceLastActiveDateOnly }</strong> мерзіміне дейін бас тартыңыз: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Жазылымды болдырмау</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Төлем алынбауы үшін, { $serviceLastActiveDateOnly } мерзіміне дейін бас тартыңыз:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = { $productName } қолданып көргеніңіз үшін рақмет. Сынақ нұсқасы немесе жазылым туралы сұрақтарыңыз болса, <a data-l10n-name="freeTrialEndingReminder-contact-support">бізге хабарласыңыз</a>.
+freeTrialEndingReminder-content-thanks-plaintext = { $productName } қолданып көргеніңіз үшін рақмет. Сынақ нұсқасы немесе жазылым туралы сұрақтарыңыз болса, бізге хабарласыңыз.
 freeTrialEndingReminder-content-closing = Құрметпен,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
