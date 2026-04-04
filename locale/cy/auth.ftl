@@ -240,12 +240,12 @@ freeTrialEndingReminder-content-charge-tax = Treth: { $invoiceTaxAmount }
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Cyfanswm sy'n ddyledus ar { $serviceLastActiveDateOnly }: { $invoiceTotal }
-freeTrialEndingReminder-content-account-link = Gallwch adolygu neu ddiweddaru eich dull talu a gwybodaeth cyfrif <a data-l10n-name="freeTrialEndingReminder-update-billing">yma</a>.
-freeTrialEndingReminder-content-account-link-plaintext = Gallwch adolygu neu ddiweddaru eich dull talu a gwybodaeth cyfrif yma:
+freeTrialEndingReminder-content-account-link = Gallwch adolygu neu ddiweddaru eich dull talu a manylion eich cyfrif <a data-l10n-name="freeTrialEndingReminder-update-billing">yma</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Gallwch adolygu neu ddiweddaru eich dull talu a manylion eich cyfrif yma:
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-cancel-link = Er mwyn osgoi codi tâl arnoch, canslwch cyn <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Canslo tanysgrifiad</a>
-freeTrialEndingReminder-content-cancel-link-plaintext = Er mwyn osgoi codi tâl, canslwch cyn { $serviceLastActiveDateOnly }:
+freeTrialEndingReminder-content-cancel-link = Er mwyn osgoi codi tâl arnoch, diddymwch y tanysgrifiad cyn <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Diddymu'r  tanysgrifiad</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Er mwyn osgoi codi tâl, diddymwch cyn { $serviceLastActiveDateOnly }:
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-thanks = Diolch am drio { $productName }. Os oes gennych unrhyw gwestiynau am eich treial neu danysgrifiad, <a data-l10n-name="freeTrialEndingReminder-contact-support">cysylltwch â ni</a>.
