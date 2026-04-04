@@ -213,6 +213,12 @@ freeTrialEndingReminder-content-greeting = Car cliente de { $productName },
 freeTrialEndingReminder-content-trial-ending = Tu prova gratuite es programmate pro finir le <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = Tu prova gratuite es programmate pro finir le { $serviceLastActiveDateOnly }.
 # Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Si tu non lo cancella ante alora, tu abonamento automaticamente comenciara e nos cargara <strong>{ $invoiceTotal }</strong> al methodo de pagamento sur tu conto le <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Si tu non lo cancella ante alora, tu abonamento automaticamente comenciara e nos cargara { $invoiceTotal } al methodo de pagamento sur tu conto le { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = Cargar detalios
+# Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Abonamento a { $productName }: { $invoiceSubtotal }
@@ -226,6 +232,16 @@ freeTrialEndingReminder-content-charge-tax = Taxa: { $invoiceTaxAmount }
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Total debite le { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Tu pote revider o actualisar tu methodo de pagamento e le informationes de tu conto <a data-l10n-name="freeTrialEndingReminder-update-billing">ci</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Tu pote revider o actualisar tu methodo de pagamento e le informationes de tu conto ci:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Pro evitar de esser cargate, cancella ante <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Cancellar abonamento</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Pro evitar de esser cargate, cancella ante { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Gratias pro essayar { $productName }. Si tu ha qualcunque question re tu prova o abonamento, per favor <a data-l10n-name="freeTrialEndingReminder-contact-support">contacta nos</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Gratias pro essayar { $productName }. Si tu ha qualcunque question re tu essayo o abonamento, per favor <a data-l10n-name="freeTrialEndingReminder-contact-support">contacta nos</a>.
 freeTrialEndingReminder-content-closing = Sincermente,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
