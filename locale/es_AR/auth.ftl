@@ -215,8 +215,8 @@ freeTrialEndingReminder-content-trial-ending-plaintext = La prueba gratuita est�
 # Variables:
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
-freeTrialEndingReminder-content-auto-charge = A menos que canceles antes de esa fecha, tu suscripción comenzará automáticamente y te cobraremos <strong>{ $invoiceTotal }</strong> en el método de pago de tu cuenta el <strong>{ $serviceLastActiveDateOnly }</strong>.
-freeTrialEndingReminder-content-auto-charge-plaintext = A menos que canceles antes de esa fecha, tu suscripción comenzará automáticamente y cargaremos { $invoiceTotal } en el método de pago de tu cuenta el { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-auto-charge = A menos que cancelés antes de esa fecha, tu suscripción comenzará automáticamente y te cobraremos <strong>{ $invoiceTotal }</strong> en el método de pago de tu cuenta el <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = A menos que cancelés antes de esa fecha, tu suscripción comenzará automáticamente y te cobraremos { $invoiceTotal } en el método de pago de tu cuenta el { $serviceLastActiveDateOnly }.
 freeTrialEndingReminder-content-charge-heading = Detalles del cargo
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

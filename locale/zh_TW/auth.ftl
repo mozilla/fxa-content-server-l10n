@@ -219,6 +219,9 @@ freeTrialEndingReminder-content-charge-tax = 稅金：{ $invoiceTaxAmount }
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = 於 { $serviceLastActiveDateOnly } 到期的總金額：{ $invoiceTotal }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = 聯絡我們：{ $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = 已取消您的 { $productName } 產品訂閱
