@@ -231,6 +231,21 @@ freeTrialEndingReminder-content-charge-tax = מיסים: { $invoiceTaxAmount }
 freeTrialEndingReminder-content-charge-total = סכום לתשלום בתאריך { $serviceLastActiveDateOnly }: ‏{ $invoiceTotal }
 freeTrialEndingReminder-content-account-link = באפשרותך לסקור או לעדכן את אמצעי התשלום ופרטי החשבון שלך <a data-l10n-name="freeTrialEndingReminder-update-billing">כאן</a>.
 freeTrialEndingReminder-content-account-link-plaintext = באפשרותך לסקור או לעדכן את אמצעי התשלום ופרטי החשבון שלך כאן:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = כדי להימנע מחיוב, יש לבטל לפני <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">ביטול מינוי</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = כדי להימנע מחיוב, יש לבטל לפני { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = תודה שניסית את { $productName }. אם יש לך שאלות לגבי תקופת הניסיון או המינוי שלך, נא <a data-l10n-name="freeTrialEndingReminder-contact-support">ליצור איתנו קשר</a>.
+freeTrialEndingReminder-content-thanks-plaintext = תודה שניסית את { $productName }. אם יש לך שאלות לגבי תקופת הניסיון או המינוי שלך, נא ליצור איתנו קשר.
+freeTrialEndingReminder-content-closing = בברכה,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = צוות { $productName }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = יצירת קשר איתנו: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = המינוי שלך ל־{ $productName } בוטל
