@@ -212,19 +212,19 @@ fraudulentAccountDeletion-contact = Os oes gennych unrhyw gwestiynau, cysylltwch
 fraudulentAccountDeletion-contact-plaintext = Os oes gennych unrhyw gwestiynau, cysylltwch â'n tîm cymorth: { $mozillaSupportUrl }
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-freeTrialEndingReminder-subject = Daw eich treial am ddim { $productName } i ben yn fuan
+freeTrialEndingReminder-subject = Daw eich profi { $productName } am ddim i ben cyn bo hir
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-greeting = Annwyl gwsmer { $productName },
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-trial-ending = Mae eich treial am ddim wedi'i amserlennu i ddod i ben ar <strong>{ $serviceLastActiveDateOnly }</strong>.
-freeTrialEndingReminder-content-trial-ending-plaintext = Mae eich treial am ddim wedi'i amserlennu i ddod i ben ar { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-trial-ending = Mae eich profi am ddim wedi'i amserlennu i ddod i ben ar <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Mae eich profi am ddim wedi'i amserlennu i ddod i ben ar { $serviceLastActiveDateOnly }.
 # Variables:
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
-freeTrialEndingReminder-content-auto-charge = Oni bai eich bod yn canslo cyn hynny, bydd eich tanysgrifiad yn cychwyn yn awtomatig a byddwn yn codi tâl ar <strong>{ $invoiceTotal }</strong> i'r dull talu ar eich cyfrif ar <strong>{ $serviceLastActiveDateOnly }</strong>.
-freeTrialEndingReminder-content-auto-charge-plaintext = Oni bai eich bod yn canslo cyn hynny, bydd eich tanysgrifiad yn cychwyn yn awtomatig a byddwn yn codi { $invoiceTotal } ar y dull talu ar eich cyfrif ar { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-auto-charge = Oni bai eich bod yn ei ddiddymu cyn hynny, bydd eich tanysgrifiad yn cychwyn yn awtomatig a byddwn yn codi tâl ar <strong>{ $invoiceTotal }</strong> i'r dull talu ar eich cyfrif ar <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Oni bai eich bod yn ei ddiddymu cyn hynny, bydd eich tanysgrifiad yn cychwyn yn awtomatig a byddwn yn codi { $invoiceTotal } ar y dull talu ar eich cyfrif ar { $serviceLastActiveDateOnly }.
 freeTrialEndingReminder-content-charge-heading = Manylion tâl
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
