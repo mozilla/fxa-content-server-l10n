@@ -216,6 +216,9 @@ freeTrialEndingReminder-content-charge-subscription = Abonamento a { $productNam
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Disconto: { $invoiceDiscountAmount }
 # Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Taxa: { $invoiceTaxAmount }
+# Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Total debite le { $serviceLastActiveDateOnly }: { $invoiceTotal }
