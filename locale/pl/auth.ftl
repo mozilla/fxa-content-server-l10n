@@ -161,6 +161,9 @@ fraudulentAccountDeletion-contact = W razie pytań prosimy o kontakt z naszym
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = W razie pytań prosimy o kontakt z naszym zespołem wsparcia: { $mozillaSupportUrl }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Skontaktuj się z nami: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Subskrypcja { $productName } została anulowana
