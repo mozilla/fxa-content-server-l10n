@@ -218,14 +218,14 @@ freeTrialEndingReminder-subject = Daw eich profi { $productName } am ddim i ben 
 freeTrialEndingReminder-content-greeting = Annwyl gwsmer { $productName },
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-trial-ending = Mae eich profi am ddim wedi'i amserlennu i ddod i ben ar <strong>{ $serviceLastActiveDateOnly }</strong>.
-freeTrialEndingReminder-content-trial-ending-plaintext = Mae eich profi am ddim wedi'i amserlennu i ddod i ben ar { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-trial-ending = Daw eich profi am ddim i ben ar <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Daw eich profi am ddim i ben ar ar { $serviceLastActiveDateOnly }.
 # Variables:
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
-freeTrialEndingReminder-content-auto-charge = Oni bai eich bod yn ei ddiddymu cyn hynny, bydd eich tanysgrifiad yn cychwyn yn awtomatig a byddwn yn codi tâl ar <strong>{ $invoiceTotal }</strong> i'r dull talu ar eich cyfrif ar <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge = Oni bai eich bod yn ei ddiddymu cyn hynny, bydd eich tanysgrifiad yn cychwyn yn awtomatig a byddwn yn codi tâl ar <strong>{ $invoiceTotal }</strong> y dull talu ar eich cyfrif ar <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-auto-charge-plaintext = Oni bai eich bod yn ei ddiddymu cyn hynny, bydd eich tanysgrifiad yn cychwyn yn awtomatig a byddwn yn codi { $invoiceTotal } ar y dull talu ar eich cyfrif ar { $serviceLastActiveDateOnly }.
-freeTrialEndingReminder-content-charge-heading = Manylion tâl
+freeTrialEndingReminder-content-charge-heading = Manylion talu
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
@@ -239,7 +239,7 @@ freeTrialEndingReminder-content-charge-tax = Treth: { $invoiceTaxAmount }
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
-freeTrialEndingReminder-content-charge-total = Cyfanswm sy'n ddyledus ar { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total = Y cyfanswm sy'n ddyledus ar { $serviceLastActiveDateOnly }: { $invoiceTotal }
 freeTrialEndingReminder-content-account-link = Gallwch adolygu neu ddiweddaru eich dull talu a manylion eich cyfrif <a data-l10n-name="freeTrialEndingReminder-update-billing">yma</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Gallwch adolygu neu ddiweddaru eich dull talu a manylion eich cyfrif yma:
 # Variables:
@@ -248,8 +248,8 @@ freeTrialEndingReminder-content-cancel-link = Er mwyn osgoi codi tâl arnoch, di
 freeTrialEndingReminder-content-cancel-link-plaintext = Er mwyn osgoi codi tâl, diddymwch cyn { $serviceLastActiveDateOnly }:
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-freeTrialEndingReminder-content-thanks = Diolch am drio { $productName }. Os oes gennych unrhyw gwestiynau am eich treial neu danysgrifiad, <a data-l10n-name="freeTrialEndingReminder-contact-support">cysylltwch â ni</a>.
-freeTrialEndingReminder-content-thanks-plaintext = Diolch am drio { $productName }. Os oes gennych unrhyw gwestiynau am eich treial neu danysgrifiad, cysylltwch â ni.
+freeTrialEndingReminder-content-thanks = Diolch am brofi { $productName }. Os oes gennych unrhyw gwestiynau am eich prawf neu danysgrifiad, <a data-l10n-name="freeTrialEndingReminder-contact-support">cysylltwch â ni</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Diolch am brofi { $productName }. Os oes gennych unrhyw gwestiynau am eich prawf neu danysgrifiad, cysylltwch â ni.
 freeTrialEndingReminder-content-closing = Yn gywir,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
