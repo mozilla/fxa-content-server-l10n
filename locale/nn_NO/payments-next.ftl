@@ -243,6 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = Eg autoriserer { -brand-mozilla
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Ein betalingsmåte trengst for å starte prøveperioden. Du vil ikkje bli belasta før { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Eg gir { -brand-mozilla } løyve til å belaste betalingsmåten min med beløpet som blir vist etter at prøveperioden blir avslutta { $endDate }, i samsvar med <termsOfServiceLink>bruksvilkår</termsOfServiceLink> og <privacyNoticeLink>personvernfråsegn</privacyNoticeLink>, fram til eg avsluttar abonnementet.
 next-payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 ## Checkout Form
