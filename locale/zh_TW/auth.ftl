@@ -204,6 +204,11 @@ freeTrialEndingReminder-content-greeting = 親愛的 { $productName } 客戶：
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = 您的免費試用將於 <strong>{ $serviceLastActiveDateOnly }</strong> 結束。
 freeTrialEndingReminder-content-trial-ending-plaintext = 您的免費試用將於 { $serviceLastActiveDateOnly } 結束。
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = 若您沒有提前主動取消，訂閱就會自動開始。我們將於 <strong>{ $serviceLastActiveDateOnly }</strong> 透過您在帳號設定的付款方式收取 <strong>{ $invoiceTotal }</strong>。
+freeTrialEndingReminder-content-auto-charge-plaintext = 若您沒有提前主動取消，訂閱就會自動開始。我們將於 { $serviceLastActiveDateOnly } 透過您在帳號設定的付款方式收取 { $invoiceTotal }。
 freeTrialEndingReminder-content-charge-heading = 收費詳細資訊
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
