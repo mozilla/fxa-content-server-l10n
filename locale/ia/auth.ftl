@@ -209,6 +209,10 @@ freeTrialEndingReminder-subject = Tu { $productName } essayo gratuite tosto fini
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-greeting = Car cliente de { $productName },
 # Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Tu prova gratuite es programmate pro finir le <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Tu prova gratuite es programmate pro finir le { $serviceLastActiveDateOnly }.
+# Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Abonamento a { $productName }: { $invoiceSubtotal }
