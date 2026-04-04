@@ -221,13 +221,13 @@ freeTrialEndingReminder-content-charge-heading = Detalles del cargo
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
-freeTrialEndingReminder-content-charge-subscription = { $productName } suscripción: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription = Suscripción a { $productName }: { $invoiceSubtotal }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Descuento: { $invoiceDiscountAmount }
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
-freeTrialEndingReminder-content-charge-tax = Impuesto: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax = Impuestos: { $invoiceTaxAmount }
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
@@ -236,19 +236,19 @@ freeTrialEndingReminder-content-account-link = Podés revisar o actualizar tu m�
 freeTrialEndingReminder-content-account-link-plaintext = Podés revisar o actualizar tu método de pago e información de la cuenta aquí:
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-cancel-link = Para evitar el cobro, cancele antes del <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Cancelar suscripción</a>
-freeTrialEndingReminder-content-cancel-link-plaintext = Para evitar cargos, cancele antes de las { $serviceLastActiveDateOnly }:
+freeTrialEndingReminder-content-cancel-link = Para evitar el cobro, cancelá antes del <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Cancelar suscripción</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Para evitar el cobro, cancelá antes del { $serviceLastActiveDateOnly }:
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-freeTrialEndingReminder-content-thanks = Gracias por probar { $productName }. Si tenés alguna pregunta sobre tu versión de prueba o suscripción, <a data-l10n-name="freeTrialEndingReminder-contact-support">contáctanos</a>.
-freeTrialEndingReminder-content-thanks-plaintext = Gracias por probar { $productName }. Si tenés alguna pregunta sobre tu versión de prueba o suscripción, contáctanos.
+freeTrialEndingReminder-content-thanks = Gracias por probar { $productName }. Si tenés alguna pregunta sobre tu versión de prueba o suscripción, <a data-l10n-name="freeTrialEndingReminder-contact-support">contactanos</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Gracias por probar { $productName }. Si tenés alguna pregunta sobre tu versión de prueba o suscripción, contactanos.
 freeTrialEndingReminder-content-closing = Atentamente,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-signature = El equipo de { $productName }
 # Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
-freeTrialEndingReminder-content-support-plaintext = Contáctenos: { $subscriptionSupportUrlWithUtm }
+freeTrialEndingReminder-content-support-plaintext = Contactanos: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Se canceló tu suscripción de { $productName }
