@@ -216,8 +216,8 @@ freeTrialEndingReminder-content-trial-ending-plaintext = Ihre kostenlose Testver
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 freeTrialEndingReminder-content-auto-charge = Wenn Sie nicht vorher stornieren, beginnt Ihr Abonnement automatisch und wir belasten die Zahlungsmethode Ihres Kontos auf <strong>{ $serviceLastActiveDateOnly }</strong> mit <strong>{ $invoiceTotal }</strong>.
-freeTrialEndingReminder-content-auto-charge-plaintext = Wenn Sie nicht vorher stornieren, beginnt Ihr Abonnement automatisch und wir belasten die Zahlungsmethode Ihres Kontos in { $serviceLastActiveDateOnly } mit { $invoiceTotal }.
-freeTrialEndingReminder-content-charge-heading = Ladedetails
+freeTrialEndingReminder-content-auto-charge-plaintext = Wenn Sie nicht vorher stornieren, beginnt Ihr Abonnement automatisch und wir belasten die Zahlungsmethode Ihres Kontos am { $serviceLastActiveDateOnly } mit { $invoiceTotal }.
+freeTrialEndingReminder-content-charge-heading = Zahlungsdetails
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
@@ -236,8 +236,8 @@ freeTrialEndingReminder-content-account-link = Sie können Ihre Zahlungsmethode 
 freeTrialEndingReminder-content-account-link-plaintext = Sie können Ihre Zahlungsmethode und Kontoinformationen hier überprüfen oder aktualisieren:
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-cancel-link = Um keine Gebühren zu belasten, kündigen Sie es vor <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Abonnement kündigen</a>
-freeTrialEndingReminder-content-cancel-link-plaintext = Um eine Belastung zu vermeiden, stornieren Sie vor { $serviceLastActiveDateOnly }:
+freeTrialEndingReminder-content-cancel-link = Um die Belastung zu vermeiden, kündigen Sie Ihr Abonnement vor dem <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Abonnement kündigen</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Um die Belastung zu vermeiden, kündigen Sie Ihr Abonnement Sie vor dem { $serviceLastActiveDateOnly }:
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-thanks = Danke, dass Sie { $productName } ausprobieren. Wenn Sie Fragen zu Ihrer Testversion oder Ihrem Abonnement haben, <a data-l10n-name="freeTrialEndingReminder-contact-support">kontaktieren Sie uns bitte</a>.
