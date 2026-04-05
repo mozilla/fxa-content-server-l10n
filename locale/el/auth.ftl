@@ -202,6 +202,24 @@ fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, επι
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
+freeTrialEndingReminder-content-charge-heading = Λεπτομέρειες χρέωσης
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Συνδρομή { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Έκπτωση: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Φόρος: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-closing = Με εκτίμηση,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = Η ομάδα του { $productName }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Επικοινωνία: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Η συνδρομή σας στο { $productName } έχει ακυρωθεί
