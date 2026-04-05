@@ -204,6 +204,53 @@ fraudulentAccountDeletion-contact = Если у вас есть вопросы, 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Если у вас есть вопросы, обратитесь к нашей команде поддержки: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Ваш бесплатный период { $productName } скоро закончится
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Уважаемый покупатель { $productName },
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Ваш бесплатный период заканчивается <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Ваш бесплатный период заканчивается { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Если вы не отмените её до этого, ваша подписка начнётся автоматически, и мы спишем <strong>{ $invoiceTotal }</strong> со способа оплаты в вашем аккаунте <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Если вы не отмените её до этого, ваша подписка начнется автоматически, и { $serviceLastActiveDateOnly } мы спишем { $invoiceTotal } со способа оплаты в вашем аккаунте.
+freeTrialEndingReminder-content-charge-heading = Подробности по оплате
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Подписка на { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Скидка: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Налог: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Всего на { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Вы можете просмотреть или обновить свой способ оплаты и информацию об аккаунте <a data-l10n-name="freeTrialEndingReminder-update-billing">здесь</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Вы можете просмотреть или обновить ваш способ оплаты и информацию об аккаунте здесь:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Чтобы избежать оплаты, отмените до <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Отменить подписку</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Чтобы избежать оплаты, отмените до { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Спасибо, что пробуете { $productName }. Если у вас есть какие-либо вопросы о вашем пробном периоде или подписке, пожалуйста, <a data-l10n-name="freeTrialEndingReminder-contact-support">свяжитесь с нами</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Спасибо, что попробуете { $productName }. Если у вас есть какие-либо вопросы о вашем пробном периоде или подписке, пожалуйста, свяжитесь с нами.
+freeTrialEndingReminder-content-closing = С уважением,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = Команда { $productName }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Свяжитесь с нами: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Ваша подписка на { $productName } была отменена
