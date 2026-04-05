@@ -216,6 +216,11 @@ freeTrialEndingReminder-content-greeting = Luby kupc { $productName },
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = Waš darmotny testowy čas so <strong>{ $serviceLastActiveDateOnly }</strong> skónči.
 freeTrialEndingReminder-content-trial-ending-plaintext = Waš darmotny testowy čas so { $serviceLastActiveDateOnly } skónči.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Jeli do toho njewupowědźeće, so waš abonement awtomatisce započnje a wobćežamy <strong>{ $serviceLastActiveDateOnly }</strong> płaćensku metodu na wašim konće z <strong>{ $invoiceTotal }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Jeli do toho njewupowědźeće, so waš abonement awtomatisce započnje a wobćežamy { $serviceLastActiveDateOnly } płaćensku metodu na wašim konće z { $invoiceTotal }.
 freeTrialEndingReminder-content-charge-heading = Płaćenske podrobnosće
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -233,6 +238,9 @@ freeTrialEndingReminder-content-charge-tax = Dawk: { $invoiceTaxAmount }
 freeTrialEndingReminder-content-charge-total = Płaćomny dohromady { $serviceLastActiveDateOnly }: { $invoiceTotal }
 freeTrialEndingReminder-content-account-link = Móžeće swoju płaćensku metodu a kontowe informacije <a data-l10n-name="freeTrialEndingReminder-update-billing">how</a> přepruwować abo aktualizować.
 freeTrialEndingReminder-content-account-link-plaintext = Móžeće swoju płaćensku metodu a kontowe informacije how přepruwować abo aktualizować:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Zo byšće wobćeženje wobešoł, wupowědźće do <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Abonement wupowědźić</a>
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-thanks = Dźakujemy so, zo sće wopytał { $productName } wupruwował. Jeli maće prašenja wo wašej testowej wersiji abo abonemenće, <a data-l10n-name="freeTrialEndingReminder-contact-support">stajće so z nami prošu do zwiska</a>.
