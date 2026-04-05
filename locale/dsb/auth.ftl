@@ -213,6 +213,11 @@ freeTrialEndingReminder-subject = Waš dermotny testowy cas se skóro skóńcyjo
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-greeting = Luby kupc { $productName },
 # Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Waš dermotny testowy cas se <strong>{ $serviceLastActiveDateOnly }</strong> skóńcyjo.
+freeTrialEndingReminder-content-trial-ending-plaintext = Waš dermotny testowy cas se { $serviceLastActiveDateOnly } skóńcyjo.
+freeTrialEndingReminder-content-charge-heading = Płaśeńske drobnostki
+# Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Abonement { $productName }: { $invoiceSubtotal }
