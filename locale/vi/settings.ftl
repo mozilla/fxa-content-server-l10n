@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Cảnh báo hành động để lấy lại môi trường trực tuyến
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Sáng
+dark-mode-toggle-dark = Tối
+dark-mode-toggle-system = Hệ thống
+dark-mode-toggle-label = Chuyển đổi chủ đề
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1841,6 +1848,17 @@ signin-passkey-fallback-continue = Tiếp tục
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Việc đăng ký chỉ mất một bước duy nhất khi bạn sử dụng mã này.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Xác thực hai bước đã được bật trên tài khoản của bạn. Vui lòng đăng nhập bằng mật khẩu của bạn.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).

@@ -195,6 +195,15 @@ page-not-found-description = Không tìm thấy trang bạn yêu cầu. Chúng t
 page-not-found-back-button = Quay lại
 alert-dialog-title = Hộp thoại cảnh báo
 
+## Already Canceling
+
+already-canceling-title = Gói đăng ký của bạn sắp hết hạn
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Bạn sẽ tiếp tục có quyền truy cập vào { $productName } đến { $date }.
+already-canceling-turn-back-on = Bạn có thể kích hoạt lại gói đăng ký của mình bất cứ lúc nào trước khi hết hạn.
+already-canceling-button-back-to-subscriptions = Quay lại gói đăng ký
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -226,6 +235,7 @@ subscription-content-cancel-access-message = Hủy quyền truy cập và thông
 
 cancel-subscription-button-cancel-subscription = Huỷ gói đăng ký
     .aria-label = Huỷ gói đăng ký { $productName } của bạn
+cancel-subscription-button-keep-subscription = Giữ đăng ký
 
 ## Component - Payment Consent Checkbox
 
@@ -233,6 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = Tôi ủy quyền { -brand-mozi
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Bạn cần cung cấp phương thức thanh toán để bắt đầu dùng thử miễn phí. Bạn sẽ không bị tính phí cho đến { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Tôi uỷ quyền { -brand-mozilla } để tính phí phương thức thanh toán của tôi cho số tiền được hiển thị sau khi thời gian dùng thử miễn phí kết thúc vào { $endDate }, theo <termsOfServiceLink>điều khoản sử dụng</termsOfServiceLink> và <privacyNoticeLink>thông báo về quyền riêng tư</privacyNoticeLink>, cho đến khi tôi huỷ gói đăng ký.
 next-payment-confirm-checkbox-error = Bạn cần hoàn thành việc này trước khi tiếp tục
 
 ## Checkout Form
@@ -252,6 +264,7 @@ churn-cancel-flow-action-error = Đã xảy ra lỗi không mong muốn. Vui lò
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Duy trì gói đăng ký và tiết kiệm { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Tiếp tục duy trì và tiết kiệm
+churn-cancel-flow-button-cancel-subscription = Huỷ đăng ký
 churn-cancel-flow-link-terms-and-restrictions = Áp dụng các điều khoản và hạn chế giới hạn.
 churn-cancel-flow-discount-already-applied-title = Mã giảm giá đã được áp dụng
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -263,6 +276,14 @@ churn-cancel-flow-button-contact-support = Liên hệ hỗ trợ
 
 churn-cancel-flow-subscription-active-title = Gói đăng ký { $productName } của bạn đang hoạt động
 churn-cancel-flow-button-go-to-product-page = Đi đến { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Sau đó, gói đăng ký của bạn sẽ tự động gia hạn với mức phí tiêu chuẩn, trừ khi bạn huỷ chúng.
+churn-cancel-flow-cancel-success-title = Chúng tôi rất tiếc khi thấy bạn rời đi
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Gói đăng ký { $productName } của bạn đã bị huỷ. Bạn vẫn sẽ có quyền truy cập vào { $productName } cho đến { $date }.
+churn-cancel-flow-cancel-turn-back-on = Bạn có thể kích hoạt lại gói đăng ký của mình bất cứ lúc nào trước khi hết hạn.
+churn-cancel-flow-cancel-success-dialog-aside = Có câu hỏi? Truy cập <LinkExternal>Hỗ trợ { -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -285,6 +306,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Cảm ơn bạn đã là một 
 churn-stay-subscribed-button-go-to-product-page = Đi đến { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Đi đến gói đăng ký
 churn-stay-subscribed-button-stay-subscribed = Tiếp tục duy trì gói đăng ký
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Sau đó, gói đăng ký của bạn sẽ tự động gia hạn với mức phí tiêu chuẩn, trừ khi bạn huỷ chúng.
 
 ## Component - CouponForm
 
@@ -323,12 +346,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Đã đăng nhập với tài khoản
 payments-header-avatar-expanded-sign-out = Đăng xuất
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Chúng tôi rất tiếc khi thấy bạn rời đi
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Gói đăng ký { $productName } của bạn đã bị huỷ. Bạn vẫn sẽ có quyền truy cập vào { $productName } cho đến { $date }.
+interstitial-offer-turn-back-on = Bạn có thể kích hoạt lại gói đăng ký của mình bất cứ lúc nào trước khi hết hạn.
+interstitial-offer-cancel-success-dialog-aside = Có câu hỏi? Truy cập <LinkExternal>Hỗ trợ { -brand-mozilla }</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Quay lại gói đăng ký
+interstitial-offer-action-error = Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
+interstitial-offer-cancel-subscription-button = Huỷ đăng ký
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Giữ gói đăng ký ngày
 interstitial-offer-button-keep-current-interval-weekly = Giữ gói đăng ký tuần
 interstitial-offer-button-keep-current-interval-halfyearly = Giữ gói đăng ký sáu tháng
 interstitial-offer-button-keep-current-interval-monthly = Giữ gói đăng ký tháng
+interstitial-offer-button-keep-subscription = Giữ đăng ký
 
 ##
 

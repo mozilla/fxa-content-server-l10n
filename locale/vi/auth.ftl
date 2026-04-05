@@ -197,6 +197,53 @@ fraudulentAccountDeletion-contact = Nếu bạn có bất kỳ câu hỏi nào, 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Bản dùng thử miễn phí { $productName } của bạn sắp kết thúc
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Kính gửi khách hàng { $productName },
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Thời gian dùng thử miễn phí của bạn dự kiến ​​sẽ kết thúc vào <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Thời gian dùng thử miễn phí của bạn dự kiến ​​sẽ kết thúc vào { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Trừ khi bạn huỷ trước thời điểm đó, gói đăng ký của bạn sẽ tự động bắt đầu và chúng tôi sẽ tính phí <strong>{ $invoiceTotal }</strong> vào phương thức thanh toán trên tài khoản của bạn vào <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Trừ khi bạn huỷ trước thời điểm đó, gói đăng ký của bạn sẽ tự động bắt đầu và chúng tôi sẽ tính phí { $invoiceTotal } vào phương thức thanh toán trên tài khoản của bạn vào { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = Chi tiết tính phí
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Gói đăng ký { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Giảm giá: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Thuế: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Tổng số tiền phải trả vào { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Bạn có thể xem lại hoặc cập nhật phương thức thanh toán và thông tin tài khoản của mình <a data-l10n-name="freeTrialEndingReminder-update-billing">tại đây</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Bạn có thể xem lại hoặc cập nhật phương thức thanh toán và thông tin tài khoản của mình tại đây:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Để tránh bị tính phí, hãy huỷ trước <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Huỷ gói đăng ký</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Để tránh bị tính phí, hãy huỷ trước { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Cảm ơn bạn đã dùng thử { $productName }. Nếu bạn có bất kỳ câu hỏi nào về thời gian dùng thử hoặc gói đăng ký, vui lòng <a data-l10n-name="freeTrialEndingReminder-contact-support">liên hệ với chúng tôi</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Cảm ơn bạn đã dùng thử { $productName }. Nếu bạn có bất kỳ câu hỏi nào về thời gian dùng thử hoặc gói đăng ký, vui lòng liên hệ với chúng tôi.
+freeTrialEndingReminder-content-closing = Trân trọng,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = Nhóm { $productName }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Liên hệ với chúng tôi: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Thuê bao { $productName } của bạn đã bị hủy
@@ -233,6 +280,13 @@ subscriptionCancellation-outstanding-content-2 = Chúng tôi đã hủy đăng k
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Dịch vụ của bạn sẽ tiếp tục cho đến khi kết thúc thời hạn thanh toán hiện tại, tức là { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Gói dùng thử miễn phí { $productName } của bạn đã bị huỷ
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Gói dùng thử miễn phí { $productName } của bạn đã bị huỷ. Bạn vẫn có quyền truy cập đến { $trialEndDateOnly }. Bạn sẽ không bị tính phí.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Bạn đã được chuyển sang { $productName }
@@ -259,7 +313,9 @@ subscriptionEndingReminder-title = Gói đăng ký { $productName } của bạn 
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Quyền truy cập của bạn vào { $productName } sẽ kết thúc vào <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2-v2 = Nếu bạn muốn tiếp tục sử dụng { $productName }, bạn có thể giữ nguyên gói đăng ký trong <a data-l10n-name="subscriptionEndingReminder-subscription-management">Quản lý gói đăng ký</a> trước <strong>{ $serviceLastActiveDateOnly }</strong>. Nếu bạn cần hỗ trợ, <a data-l10n-name="subscriptionEndingReminder-contact-support">hãy liên hệ với nhóm hỗ trợ của chúng tôi</a>.
 subscriptionEndingReminder-content-line1-plaintext = Quyền truy cập của bạn vào { $productName } sẽ kết thúc vào { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Nếu bạn muốn tiếp tục sử dụng { $productName }, bạn có thể giữ nguyên gói đăng ký trong Quản lý gói đăng ký trước { $serviceLastActiveDateOnly }. Nếu bạn cần hỗ trợ, hãy liên hệ với nhóm hỗ trợ của chúng tôi.
 subscriptionEndingReminder-content-closing = Cảm ơn bạn đã là một người đăng ký quý giá!
 subscriptionEndingReminder-churn-title = Bạn muốn tiếp tục truy cập chứ?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Áp dụng các điều khoản và hạn chế nhất định</a>
