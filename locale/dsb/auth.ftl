@@ -206,6 +206,29 @@ fraudulentAccountDeletion-contact = Jolic pšašanja maśo, stajśo se z našym 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jolic pšašanja maśo, stajśo se pšosym z našym teamom pomocy do zwiska: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Waš dermotny testowy cas se skóro skóńcyjo
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Luby kupc { $productName },
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Abonement { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Rabat: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Dank: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-closing = Z pśijaśelnym póstrowom
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = Team { $productName }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Stajśo se z nami do zwiska: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Waš abonement { $productName } jo se wótskazał
