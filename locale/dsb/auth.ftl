@@ -216,6 +216,11 @@ freeTrialEndingReminder-content-greeting = Luby kupc { $productName },
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = Waš dermotny testowy cas se <strong>{ $serviceLastActiveDateOnly }</strong> skóńcyjo.
 freeTrialEndingReminder-content-trial-ending-plaintext = Waš dermotny testowy cas se { $serviceLastActiveDateOnly } skóńcyjo.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Jolic do togo njewupowěźejośo, se waš abonement awtomatiski zachopijo a wobśěžyjomy <strong>{ $serviceLastActiveDateOnly }</strong> płaśeńsku metodu na wašom konśe z <strong>{ $invoiceTotal }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Jolic do togo njewupowěźejośo, se waš abonement awtomatiski zachopijo a wobśěžyjomy { $serviceLastActiveDateOnly } płaśeńsku metodu na wašom konśe z { $invoiceTotal }.
 freeTrialEndingReminder-content-charge-heading = Płaśeńske drobnostki
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -227,6 +232,12 @@ freeTrialEndingReminder-content-charge-discount = Rabat: { $invoiceDiscountAmoun
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Dank: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Musy se dogromady { $serviceLastActiveDateOnly } płaśiś: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Móžośo swóju płaśeńsku metodu a kontowe informacije <a data-l10n-name="freeTrialEndingReminder-update-billing">how</a> pśeglědowaś abo aktualizěrowaś.
+freeTrialEndingReminder-content-account-link-plaintext = Móžośo swóju płaśeńsku metodu a kontowe informacije how pśeglědowaś abo aktualizěrowaś:
 freeTrialEndingReminder-content-closing = Z pśijaśelnym póstrowom
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
