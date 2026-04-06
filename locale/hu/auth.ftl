@@ -237,10 +237,11 @@ freeTrialEndingReminder-content-account-link-plaintext = Itt nézheti át vagy f
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-cancel-link = Hogy elkerülje a terhelést, mondja le <strong>{ $serviceLastActiveDateOnly }</strong> előtt: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">előfizetés megszüntetése</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Hogy elkerülje a terhelést, mondja le { $serviceLastActiveDateOnly } előtt:
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-freeTrialEndingReminder-content-thanks = Köszönjük, hogy kipróbálta a(z) { $productName } kiegészítőt. Ha kérdése van a próbaverzióval vagy az előfizetéssel kapcsolatban, akkor <a data-l10n-name="freeTrialEndingReminder-contact-support">lépjen velünk kapcsolatba</a>.
-freeTrialEndingReminder-content-thanks-plaintext = Köszönjük, hogy kipróbálta a(z) { $productName } kiegészítőt. Ha kérdése van a próbával vagy az előfizetéssel kapcsolatban, lépjen velünk kapcsolatba.
+freeTrialEndingReminder-content-thanks = Köszönjük, hogy kipróbálta a { $productName } szolgáltatást. Ha kérdése van a próbaverzióval vagy az előfizetéssel kapcsolatban, akkor <a data-l10n-name="freeTrialEndingReminder-contact-support">lépjen velünk kapcsolatba</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Köszönjük, hogy kipróbálta a { $productName } szolgáltatást. Ha kérdése van a próbaverzióval vagy az előfizetéssel kapcsolatban, lépjen velünk kapcsolatba.
 freeTrialEndingReminder-content-closing = Tisztelettel,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

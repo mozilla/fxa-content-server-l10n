@@ -2089,7 +2089,7 @@ signin-totp-code-desktop-relay = Bejelentkezés után a { -brand-firefox } megpr
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
-signin-unblock-header = Engedélyezze ezt a bejelentkezést
+signin-unblock-header = Bejelentkezés engedélyezése
 # Where $email is the email address entered for the sign-in attempt
 signin-unblock-body = Ellenőrizze a leveleit, hogy megérkezett-e az ide küldött engedélyezési kód: { $email }.
 signin-unblock-code-input = Adja meg az engedélyezési kódot

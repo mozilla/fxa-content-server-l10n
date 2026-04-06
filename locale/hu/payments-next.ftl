@@ -241,12 +241,12 @@ cancel-subscription-button-keep-subscription = Előfizetés megtartása
 
 ## Component - Payment Consent Checkbox
 
-next-payment-confirm-with-legal-links-static-3 = Felhatalmazom a { -brand-mozilla(ending: "accented") }t, hogy terhelje meg a megjelenített összeget az én fizetési módommal az <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
+next-payment-confirm-with-legal-links-static-3 = Felhatalmazom a { -brand-mozilla(ending: "accented") }t, hogy terhelje meg a megjelenített összeggel a fizetési módomat a <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
 
 ## $endDate (Date) - The end date of the free trial
 
-checkbox-payment-required-no-charge = Az ingyenes próbaidőszak megkezdéséhez fizetési mód szükséges. Legfeljebb { $endDate } lesz kiszámlázva.
-checkbox-confirm-free-trial-with-legal-links = Felhatalmazom a(z) { -brand-mozilla } felhasználót, hogy megterhelje a jelzett összeggel a fizetési módomat a <termsOfServiceLink>Szolgáltatási feltételeknek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozatnak</privacyNoticeLink> megfelelően, { $endDate } dátummal. törölni az előfizetést.
+checkbox-payment-required-no-charge = Az ingyenes próbaidőszak megkezdéséhez fizetési mód szükséges. Eddig nem lesz megterhelve: { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Felhatalmazom a { -brand-mozilla(ending: "accented") }t, hogy a próbaidőszak vége ({ $endDate }) után terhelje meg a megjelenített összeggel a fizetési módomat a <termsOfServiceLink>Szolgáltatási feltételek</termsOfServiceLink> és az <privacyNoticeLink>Adatvédelmi nyilatkozat</privacyNoticeLink> szerint, amíg le nem mondom az előfizetést.
 next-payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 ## Checkout Form
