@@ -226,6 +226,8 @@ freeTrialEndingReminder-content-charge-tax = Impuésto: { $invoiceTaxAmount }
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Ehepyme’ẽtava { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link-plaintext = Ehechajey térã embohekopyahu mba’éicha ehepyme’ẽta ha marandu mba’ete rehegua ápe:
+freeTrialEndingReminder-content-cancel-link-plaintext = Emboyke hag̃ua jehepyme’ẽ, ejoko { $serviceLastActiveDateOnly } mboyve:
 freeTrialEndingReminder-content-closing = Ma’ẽag̃uíme,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
