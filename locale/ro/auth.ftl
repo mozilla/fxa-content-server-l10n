@@ -236,6 +236,21 @@ freeTrialEndingReminder-content-charge-tax = Taxe: { $invoiceTaxAmount }
 freeTrialEndingReminder-content-charge-total = Total de plată la data de { $serviceLastActiveDateOnly }: { $invoiceTotal }
 freeTrialEndingReminder-content-account-link = Poți revedea sau îți poți actualiza metoda de plată și informațiile din cont <a data-l10n-name="freeTrialEndingReminder-update-billing">aici</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Poți revedea sau îți poți actualiza metoda de plată și informațiile din cont aici:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Pentru a evita debitarea, anulează până la data de <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Anulează abonamentul</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Pentru a evita debitarea, anulează până la data de { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Îți mulțumim că ai încercat { $productName }. Pentru orice întrebări despre perioada de probă sau abonament, te rugăm <a data-l10n-name="freeTrialEndingReminder-contact-support">contactează-ne</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Îți mulțumim că ai încercat { $productName }. Pentru orice întrebări despre perioada de probă sau abonament, te rugăm contactează-ne.
+freeTrialEndingReminder-content-closing = Salutări,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = Echipa { $productName }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Contactează-ne: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Abonamentul { $productName } a fost anulat

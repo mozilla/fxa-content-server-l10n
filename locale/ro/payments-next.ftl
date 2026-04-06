@@ -245,6 +245,8 @@ next-payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } s�
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Pentru începerea perioadei de probă gratuite, este necesară o metodă de plată. Nu vei fi taxat(ă) până la data de { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Autorizez { -brand-mozilla } să îmi debiteze metoda de plată pentru suma afișată după sfârșitul perioadei de probă gratuite de la data de { $endDate }, conform <termsOfServiceLink>Condițiilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificării privind confidențialitatea</privacyNoticeLink> până ce îmi anulez abonamentul.
 next-payment-confirm-checkbox-error = Trebuie să termini aici ca să treci mai departe
 
 ## Checkout Form
