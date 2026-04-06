@@ -204,6 +204,16 @@ fraudulentAccountDeletion-contact = Pentru orice întrebări, contactează <a da
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Pentru orice întrebări, contactează echipa de asistență: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Perioada de probă gratuită pentru { $productName } se termină în curând
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Dragă client { $productName },
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Perioada de probă gratuită este programată să înceteze pe <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Perioada de probă gratuită este programată să înceteze pe { $serviceLastActiveDateOnly }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Abonamentul { $productName } a fost anulat
