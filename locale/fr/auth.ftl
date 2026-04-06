@@ -202,8 +202,8 @@ freeTrialEndingReminder-subject = Votre essai gratuit de { $productName } se ter
 freeTrialEndingReminder-content-greeting = Chers utilisateurs et utilisatrices de { $productName },
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-trial-ending = La fin de votre essai gratuit est prévue pour le <strong>{ $serviceLastActiveDateOnly }</strong>.
-freeTrialEndingReminder-content-trial-ending-plaintext = La fin de votre essai gratuit est prévue le { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-trial-ending = Votre essai gratuit prendra fin le <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Votre essai gratuit prendra fin le { $serviceLastActiveDateOnly }.
 # Variables:
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
@@ -213,7 +213,7 @@ freeTrialEndingReminder-content-charge-heading = Détails des frais
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
-freeTrialEndingReminder-content-charge-subscription = { $productName } abonnement : { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription = Abonnement à { $productName } : { $invoiceSubtotal }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Remise : { $invoiceDiscountAmount }
