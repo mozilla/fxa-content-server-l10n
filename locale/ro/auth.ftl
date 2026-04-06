@@ -214,6 +214,28 @@ freeTrialEndingReminder-content-greeting = Dragă client { $productName },
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = Perioada de probă gratuită este programată să înceteze pe <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = Perioada de probă gratuită este programată să înceteze pe { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Dacă nu anulezi abonamentul înainte de această dată, va începe automat și te vom taxa cu <strong>{ $invoiceTotal }</strong> prin metoda de plată din cont, la data de <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Dacă nu anulezi abonamentul înainte de această dată, va începe automat și te vom taxa cu { $invoiceTotal } prin metoda de plată din cont, la data de { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = Detalii tarif
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Abonament { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Reducere: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Taxe: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Total de plată la data de { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Poți revedea sau îți poți actualiza metoda de plată și informațiile din cont <a data-l10n-name="freeTrialEndingReminder-update-billing">aici</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Poți revedea sau îți poți actualiza metoda de plată și informațiile din cont aici:
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Abonamentul { $productName } a fost anulat
