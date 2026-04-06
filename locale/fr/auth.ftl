@@ -202,7 +202,7 @@ freeTrialEndingReminder-subject = Votre essai gratuit de { $productName } se ter
 freeTrialEndingReminder-content-greeting = Chers utilisateurs et utilisatrices de { $productName },
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-trial-ending = La fin de votre essai gratuit est prévue pour <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending = La fin de votre essai gratuit est prévue pour le <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = La fin de votre essai gratuit est prévue le { $serviceLastActiveDateOnly }.
 # Variables:
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
