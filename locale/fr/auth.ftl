@@ -228,8 +228,8 @@ freeTrialEndingReminder-content-account-link = Vous pouvez consulter ou mettre �
 freeTrialEndingReminder-content-account-link-plaintext = Vous pouvez consulter ou mettre à jour votre mode de paiement et les informations de votre compte ici :
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-cancel-link = Pour éviter d’être facturé, annulez avant <strong>{ $serviceLastActiveDateOnly }</strong> : <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Annulez l’abonnement</a>
-freeTrialEndingReminder-content-cancel-link-plaintext = Pour éviter d’être facturé, annulez avant le { $serviceLastActiveDateOnly } :
+freeTrialEndingReminder-content-cancel-link = Pour éviter d’être débité·e, annulez l’abonnement avant le <strong>{ $serviceLastActiveDateOnly }</strong> : <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Annuler l’abonnement</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Pour éviter d’être débité·e, annulez l’abonnement avant le { $serviceLastActiveDateOnly } :
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-thanks = Merci d’avoir essayé { $productName }. Si vous avez des questions concernant votre essai ou votre abonnement, veuillez <a data-l10n-name="freeTrialEndingReminder-contact-support">nous contacter</a>.

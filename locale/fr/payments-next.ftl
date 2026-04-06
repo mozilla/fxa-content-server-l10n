@@ -243,8 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = J’autorise { -brand-mozilla }
 
 ## $endDate (Date) - The end date of the free trial
 
-checkbox-payment-required-no-charge = Un mode de paiement est nécessaire pour démarrer votre essai gratuit. Vous ne serez pas débité(e) jusqu’à { $endDate }.
-checkbox-confirm-free-trial-with-legal-links = J’autorise { -brand-mozilla } à prélever sur mon mode de paiement le montant affiché après la fin de l’essai gratuit le { $endDate }, conformément aux <termsOfServiceLink>Conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je annuler mon abonnement.
+checkbox-payment-required-no-charge = Un mode de paiement est nécessaire pour démarrer votre essai gratuit. Vous ne serez pas débité·e avant le { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = J’autorise { -brand-mozilla } à prélever via mon moyen de paiement le montant affiché à la fin de l’essai gratuit le { $endDate }, conformément aux <termsOfServiceLink>conditions d’utilisation</termsOfServiceLink> et à la <privacyNoticeLink>politique de confidentialité</privacyNoticeLink>, jusqu’à ce que je mette fin à mon abonnement.
 next-payment-confirm-checkbox-error = Vous devez terminer cette étape avant de continuer
 
 ## Checkout Form
