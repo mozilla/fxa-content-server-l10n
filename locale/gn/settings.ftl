@@ -310,6 +310,9 @@ sync-clouds-image-aria-label =
     .aria-label = Arai ñembojuehe ra’ãnga’i ndive
 confetti-falling-image-aria-label =
     .aria-label = Kuatia vore’i ho’áva vevépe
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } rovetã ta’ãngai apu’a reheve ohechaukáva jehechajeykue hovyũva ha "VPN", ohechaukáva VPN hendyha.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -413,6 +416,9 @@ password-strength-inline-passwords-match = Ñe’ẽñemi ojueheguáva
 promo-qr-mobile-heading = Ne pumbyry. Nde rekoguata.
 # Appears next to a QR code that a user can scan to download the Firefox mobile app
 promo-qr-mobile-description = Emoha’ãnga ereko hag̃ua tembiporu’i
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = QR ayvu emboguejy hag̃ua pumbyry rembiporu’i { -brand-firefox }. Emoĩ ne pumbyry ra’ãnganohẽha iguy akatúa gotyo emoha’ãngakuaa hag̃ua.
 
 ## Notification Promo Banner component
 

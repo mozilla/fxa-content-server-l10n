@@ -238,6 +238,17 @@ freeTrialEndingReminder-content-account-link-plaintext = Jo kinne hjir jo betell
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-cancel-link = Sis om kosten foar te kommen foar <strong>{ $serviceLastActiveDateOnly }</strong> op: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Abonnemint opsizze</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Sis om kosten foar te kommen foar { $serviceLastActiveDateOnly } op:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Tank foar it probearjen fan { $productName }. As jo fragen hawwe oer jo proefperioade of abonnemint, <a data-l10n-name="freeTrialEndingReminder-contact-support">nim dan kontakt op</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Tank foar it probearjen fan { $productName }. As jo fragen hawwe oer jo proefperioade of abonnemint, nim dan kontakt op.
+freeTrialEndingReminder-content-closing = Mei freonlike groet,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = It { $productName }-team
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Kontakt opnimme: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Jo abonnemint op { $productName } is opsein
