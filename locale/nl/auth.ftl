@@ -202,6 +202,26 @@ fraudulentAccountDeletion-contact = Neem bij vragen contact op met ons <a data-l
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Neem bij vragen contact op met ons ondersteuningsteam: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Uw gratis proefperiode van { $productName } eindigt binnenkort
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Beste klant van { $productName },
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Uw gratis proefperiode eindigt op <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Uw gratis proefperiode eindigt op { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Tenzij u voor die tijd opzegt, gaat uw abonnement automatisch in en wordt <strong>{ $invoiceTotal }</strong> in rekening gebracht via de betalingsmethode van uw account op <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Tenzij u voor die tijd opzegt, gaat uw abonnement automatisch in en wordt { $invoiceTotal } in rekening gebracht via de betalingsmethode in uw account op { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = Betalingsdetails
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Abonnement op { $productName }: { $invoiceSubtotal }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Uw abonnement op { $productName } is opgezegd

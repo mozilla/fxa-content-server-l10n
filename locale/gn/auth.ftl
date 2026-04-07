@@ -226,7 +226,11 @@ freeTrialEndingReminder-content-charge-tax = Impuésto: { $invoiceTaxAmount }
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Ehepyme’ẽtava { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Ehechajeykuaa térã embopyahu ne jehepyme’ẽrã ha marandu ne mba’etegua <a data-l10n-name="freeTrialEndingReminder-update-billing">ko’ápe</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Ehechajey térã embohekopyahu mba’éicha ehepyme’ẽta ha marandu mba’ete rehegua ápe:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Ani hag̃ua ehepyme’ẽ, emboyke <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Emboyke ñembokuatia</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Emboyke hag̃ua jehepyme’ẽ, ejoko { $serviceLastActiveDateOnly } mboyve:
 freeTrialEndingReminder-content-closing = Ma’ẽag̃uíme,
 # Variables:
