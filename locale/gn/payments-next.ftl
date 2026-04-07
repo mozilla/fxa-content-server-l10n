@@ -245,6 +245,7 @@ next-payment-confirm-with-legal-links-static-3 = Amoneĩ { -brand-mozilla }-pe, 
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Oñeikotevẽ peteĩ jehepyme’ẽrã eñepyrũ hag̃ua eiporu reigua. Nderehepyme’ẽmo’ãi { $endDate } peve.
 next-payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 ## Checkout Form

@@ -243,6 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = Ik autoriseer { -brand-mozilla 
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Om uw gratis proefperiode te starten, is een betalingsmethode vereist. Er is voor { $endDate } niets verschuldigd.
+checkbox-confirm-free-trial-with-legal-links = Ik autoriseer { -brand-mozilla } om, nadat de gratis proefperiode eindigt op { $endDate }, mijn betalingsmethode voor het getoonde bedrag te belasten, in overeenstemming met de <termsOfServiceLink>Servicevoorwaarden</termsOfServiceLink> en de <privacyNoticeLink>Privacyverklaring</privacyNoticeLink>, totdat ik mijn abonnement beëindig.
 next-payment-confirm-checkbox-error = U dient dit te voltooien voordat u verder gaat
 
 ## Checkout Form

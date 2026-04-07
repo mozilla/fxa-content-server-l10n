@@ -222,6 +222,33 @@ freeTrialEndingReminder-content-charge-heading = Betalingsdetails
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Abonnement op { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Korting: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Btw: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Totaal verschuldigd op { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = U kunt <a data-l10n-name="freeTrialEndingReminder-update-billing">hier</a> uw betalingsmethode en accountgegevens bekijken of bijwerken.
+freeTrialEndingReminder-content-account-link-plaintext = U kunt hier uw betalingsmethode en accountgegevens bekijken of bijwerken:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Zeg om kosten te voorkomen vóór <strong>{ $serviceLastActiveDateOnly }</strong> op: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Abonnement opzeggen</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Zeg om kosten te voorkomen vóór { $serviceLastActiveDateOnly } op:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Bedankt voor het proberen van { $productName }. Als u vragen hebt over uw proefperiode of abonnement, <a data-l10n-name="freeTrialEndingReminder-contact-support">neem dan contact op</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Bedankt voor het proberen van { $productName }. Als u vragen hebt over uw proefperiode of abonnement, neem dan contact op.
+freeTrialEndingReminder-content-closing = Vriendelijke groet,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = Het { $productName }-team
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Contact opnemen: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Uw abonnement op { $productName } is opgezegd
