@@ -61,6 +61,11 @@ page-not-found-back-button = Вярнуцца
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Падпіскі
 
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Скасаваць падпіску
+    .aria-label = Скасаваць падпіску на { $productName }
+
 ## $endDate (Date) - The end date of the free trial
 
 next-payment-confirm-checkbox-error = Вам трэба завяршыць гэта, перш чым рухацца далей
@@ -68,6 +73,10 @@ next-payment-confirm-checkbox-error = Вам трэба завяршыць гэ�
 ## Checkout Form
 
 next-new-user-submit = Падпісацца зараз
+
+## Churn flow - cancel
+
+churn-cancel-flow-button-cancel-subscription = Скасаваць падпіску
 
 ## Component - CouponForm
 
@@ -86,6 +95,10 @@ payments-header-bento-close =
     .alt = Закрыць
 payments-header-avatar-expanded-signed-in-as = Увайшоўшы як
 payments-header-avatar-expanded-sign-out = Выйсці
+
+## Interstitial Offer
+
+interstitial-offer-cancel-subscription-button = Скасаваць падпіску
 
 ## Component - PurchaseDetails
 
