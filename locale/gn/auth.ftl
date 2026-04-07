@@ -232,6 +232,9 @@ freeTrialEndingReminder-content-account-link-plaintext = Ehechajey térã embohe
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-cancel-link = Ani hag̃ua ehepyme’ẽ, emboyke <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Emboyke ñembokuatia</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Emboyke hag̃ua jehepyme’ẽ, ejoko { $serviceLastActiveDateOnly } mboyve:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Aguyje eiporúre { $productName }. Oimérõ ereko ñeporandu eiporu ñepyrũvare térã mboheraguapy rehegua, <a data-l10n-name="freeTrialEndingReminder-contact-support">eñe’ẽ orendive</a>.
 freeTrialEndingReminder-content-thanks-plaintext = Aguyje eiporúre { $productName }. Oimérõ ereko ñeporandu nde jeporu ñepyrũ térã mboheraguapy rehegua, eñe’ẽ orendive.
 freeTrialEndingReminder-content-closing = Ma’ẽag̃uíme,
 # Variables:
