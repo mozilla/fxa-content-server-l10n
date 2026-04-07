@@ -202,6 +202,42 @@ fraudulentAccountDeletion-contact = As jo fragen hawwe, nim dan kontakt op mei Ã
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = As jo fragen hawwe, nim dan kontakt op mei Ãºs stipeteam: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Jo fergeze proefperioade fan { $productName } einiget ynkoarten
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Beste klant fan { $productName },
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Jo fergeze proefperioade einiget op <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Jo fergeze proefperioade einiget op { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Utsein jo foar dy tiid opsizze, giet jo abonnemint automatysk yn en wurdt <strong>{ $invoiceTotal }</strong> yn rekkening brocht fia de betellingsmetoade fan jo account op <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Utsein jo foar dy tiid opsizze, giet jo abonnemint automatysk yn en wurdt { $invoiceTotal } yn rekkening brocht fia de betellingsmetoade fan jo account op { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = Betellingsdetails
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Abonnemint op { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Koarting: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Btw: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Totaal ferskuldige op { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Jo kinne <a data-l10n-name="freeTrialEndingReminder-update-billing">hjir</a> jo betellingsmetoade en accountgegevens besjen of bywurkje.
+freeTrialEndingReminder-content-account-link-plaintext = Jo kinne hjir jo betellingsmetoade en accountgegevens besjen of bywurkje:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Sis om kosten foar te kommen foar <strong>{ $serviceLastActiveDateOnly }</strong> op: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Abonnemint opsizze</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Sis om kosten foar te kommen foar { $serviceLastActiveDateOnly } op:
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Jo abonnemint op { $productName } is opsein
