@@ -241,7 +241,7 @@ freeTrialEndingReminder-content-cancel-link-plaintext = Pro evitar de esser carg
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-thanks = Gratias pro essayar { $productName }. Si tu ha qualcunque question re tu prova o abonamento, per favor <a data-l10n-name="freeTrialEndingReminder-contact-support">contacta nos</a>.
-freeTrialEndingReminder-content-thanks-plaintext = Gratias pro essayar { $productName }. Si tu ha qualcunque question re tu essayo o abonamento, per favor <a data-l10n-name="freeTrialEndingReminder-contact-support">contacta nos</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Gratias pro essayar { $productName }. Si tu ha qualcunque question re tu essayo o abonamento, per favor contacta nos.
 freeTrialEndingReminder-content-closing = Sincermente,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
