@@ -216,11 +216,6 @@ freeTrialEndingReminder-content-greeting = Spoštovani uporabnik { $productName 
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = Brezplačni preskus se bo iztekel <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = Brezplačni preskus se bo iztekel načrtovano za { $serviceLastActiveDateOnly }.
-# Variables:
-#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
-#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
-freeTrialEndingReminder-content-auto-charge = Če naročnine ne prekličete pred tem, se bo vaša naročnina začela samodejno teči in <strong>{ $invoiceTotal }</strong> bomo bremenili vaše plačilno sredstvo v vašem računu.
-freeTrialEndingReminder-content-auto-charge-plaintext = Če naročnine ne prekličete pred tem, se bo vaša naročnina začela samodejno teči in { $serviceLastActiveDateOnly } bomo bremenili vaše plačilno sredstvo v vašem računu.
 freeTrialEndingReminder-content-charge-heading = Podrobnosti bremenitve
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
