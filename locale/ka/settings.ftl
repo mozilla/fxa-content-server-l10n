@@ -93,6 +93,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = სამოქმედო ცნობები ინტერნეტის დასაბრუნებლად
 
+## Dark mode toggle
+
+dark-mode-toggle-light = ნათელი
+dark-mode-toggle-dark = მუქი
+dark-mode-toggle-system = სისტემის
+dark-mode-toggle-label = იერსახის გადართვა
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -403,6 +410,17 @@ password-strength-inline-not-email = თქვენი ელფოსტის
 password-strength-inline-not-common = ხშირად გამოყენებული პაროლის გარდა
 password-strength-inline-confirmed-must-match = დამადასტურებელი ემთხვევა ახალ პაროლს
 password-strength-inline-passwords-match = პაროლები ემთხვევა
+
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = თქვენი ტელეფონი. თქვენი წესები.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = წააკითხით გადმოსაწერად
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = QR-კოდი, რომლითაც ჩამოიტვირთება მობილური { -brand-firefox }. მიუშვირეთ ტელეფონის კამერა ეკრანის ქვემოთა მარჯვენა მხარეს.
 
 ## Notification Promo Banner component
 
