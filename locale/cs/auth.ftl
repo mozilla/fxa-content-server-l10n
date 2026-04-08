@@ -206,7 +206,7 @@ fraudulentAccountDeletion-contact = Pokud máte nějaké dotazy, kontaktujte pro
 fraudulentAccountDeletion-contact-plaintext = Pokud máte nějaké dotazy, kontaktujte náš tým podpory: { $mozillaSupportUrl }
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-freeTrialEndingReminder-subject = Vaše bezplatná zkušební verze za { $productName } brzy skončí
+freeTrialEndingReminder-subject = Vaše bezplatná zkušební verze produktu { $productName } brzy skončí
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-greeting = Vážený zákazníku produktu { $productName },
