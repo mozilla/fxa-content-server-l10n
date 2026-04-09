@@ -317,7 +317,9 @@ subscriptionEndingReminder-title = Ne ñemboheraguapy { $productName } opapotait
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Nde jeike { $productName }-pe opáta <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2-v2 = Eipurusevéramo { $productName }, ikatu repyta ñemboheraguapýpe <a data-l10n-name="subscriptionEndingReminder-subscription-management">Ñemboheraguapy ñangarekorã</a>-pe <strong>{ $serviceLastActiveDateOnly }</strong> mboyve. Reikotevẽramo ñepytyvõ, <a data-l10n-name="subscriptionEndingReminder-contact-support">eñomongeta ore pytyvõhára ndive</a>.
 subscriptionEndingReminder-content-line1-plaintext = Nde jeike { $productName }-pe opáta { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Eipurusevéramo rehóvo { $productName }, ikatu repyta mboheraguapýpe Ñemboheraguapy ñangarekohápe { $serviceLastActiveDateOnly } mboyve. Reikotevẽramo ñepytyvõ, eñe’ẽ ore pytyvõhára ndive.
 subscriptionEndingReminder-content-closing = ¡Aguyje mboheraguapy guerohorypýre!
 subscriptionEndingReminder-churn-title = ¿Erekomemesépa jeikeha?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Oguerojera aporã ha jejokopy heta’ỹva</a>
