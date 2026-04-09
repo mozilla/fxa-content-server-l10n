@@ -92,6 +92,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = אם לא ביצעת פעולה זו, יש לאפס את הססמה שלך באופן מיידי בכתובת:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = בנוסף, יש לאפס את האימות הדו־שלבי בכתובת:
+automated-email-sign-in =
+    זוהי הודעת דוא״ל אוטומטית; אם לא אישרת או יזמת פעולה זו, יש <a data-l10n-name="securitySettingsLink">לסקור את הגדרות האבטחה של החשבון שלך</a>.
+    למידע נוסף, ניתן לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
+automated-email-sign-in-plaintext = אם לא אישרת פעולה זו, נא לסקור את הגדרות האבטחה של החשבון שלך בכתובת:
 brand-banner-message = האם ידעת ששינינו את השם שלנו מ־{ -product-firefox-accounts } ל{ -product-mozilla-accounts }? <a data-l10n-name="learnMore">מידע נוסף</a>
 change-password-plaintext = אם קיים חשש  שמישהו מנסה להשיג גישה לחשבונך, עליך לאפס את הססמה שלך.
 manage-account = ניהול חשבון
@@ -241,6 +245,9 @@ postAddLinkedAccount-subject-2 = חשבון חדש מקושר ל{ -product-mozil
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = חשבון ה־{ $providerName } קושר אל { -product-mozilla-account(case: "the") } שלך
 postAddLinkedAccount-action = ניהול חשבון
+postAddPasskey-subject = מפתח הגישה נוצר
+postAddPasskey-preview = כעת באפשרותך להשתמש במכשיר שלך כדי להתחבר
+postAddPasskey-title = יצרת מפתח גישה
 postAddRecoveryPhone-subject = נוסף טלפון לשחזור
 postAddRecoveryPhone-preview = החשבון מוגן באמצעות אימות דו־שלבי
 postAddRecoveryPhone-title-v2 = הוספת מספר טלפון לשחזור
