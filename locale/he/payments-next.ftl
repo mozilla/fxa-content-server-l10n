@@ -140,6 +140,7 @@ subscription-management-page-banner-warning-link-no-payment-method = הוספת 
 subscription-management-subscriptions-heading = מינויים
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = מעבר אל
+subscription-management-nav-free-trials = תקופות ניסיון חינמיות
 subscription-management-nav-payment-details = פרטי תשלום
 subscription-management-nav-active-subscriptions = מינויים פעילים
 subscription-management-payment-details-heading = פרטי תשלום
@@ -239,6 +240,8 @@ next-payment-confirm-with-legal-links-static-3 = אני מאשר ל־{ -brand-mo
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = נדרש אמצעי תשלום כדי להתחיל את תקופת הניסיון החינמית שלך. לא יבוצע חיוב עד לתאריך { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = אני מאשר ל־{ -brand-mozilla } לחייב את אמצעי התשלום שלי בסכום המוצג אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $endDate }, לפי <termsOfServiceLink>תנאי השימוש</termsOfServiceLink> ו<privacyNoticeLink>הצהרת הפרטיות</privacyNoticeLink>, עד שאבטל את המינוי שלי.
 next-payment-confirm-checkbox-error = עליך להשלים זאת לפני שיהיה באפשרותך להתקדם
 
 ## Checkout Form
@@ -314,8 +317,52 @@ next-coupon-promo-code-applied = קוד הקופון הוחל
 next-coupon-remove = הסרה
 next-coupon-submit = החלה
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = תקופת הניסיון החינמית שלך תפוג בתאריך { $date }.
+free-trial-content-trial-cancelled = תקופת הניסיון החינמית שלך בוטלה.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = יבוצע חיוב של { $amount } + מס בסך { $tax } ליום אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-with-tax-week = יבוצע חיוב של { $amount } + מס בסך { $tax } לשבוע אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-with-tax-month = יבוצע חיוב של { $amount } + מס בסך { $tax } לחודש אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-with-tax-halfyear = יבוצע חיוב של { $amount } + מס בסך { $tax } ל־6 חודשים אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-with-tax-year = יבוצע חיוב של { $amount } + מס בסך { $tax } שנה אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-with-tax-default = יבוצע חיוב של { $amount } + מס בסך { $tax } אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = יבוצע חיוב של { $amount } ליום אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-no-tax-week = יבוצע חיוב של { $amount } לשבוע אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-no-tax-month = יבוצע חיוב של { $amount } לחודש אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-no-tax-halfyear = יבוצע חיוב של { $amount } כל 6 חודשים אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-no-tax-year = יבוצע חיוב של { $amount } לשנה אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-charge-info-no-tax-default = יבוצע חיוב של { $amount } אחרי שתקופת הניסיון החינמית תסתיים בתאריך { $date }.
+free-trial-content-trial-ends = תקופת הניסיון החינמית שלך תסתיים בתאריך { $date }. יש לעדכן את אמצעי התשלום שלך כדי לשמור על גישה לאחר מכן.
+free-trial-content-trial-active = תקופת הניסיון החינמית שלך פעילה.
+free-trial-content-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
+free-trial-content-button-resume-trial = המשך תקופת הניסיון
+free-trial-content-button-resume-trial-aria = המשך תקופת הניסיון עבור { $productName }
+free-trial-content-button-cancel-trial = ביטול תקופת הניסיון
+free-trial-content-button-cancel-trial-aria = ביטול תקופת הניסיון עבור { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = החשבונית האחרונה • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + מס בסך { $taxDue }
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = הצגת חשבונית
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = הצגת חשבונית עבור { $productName }
 
 # Component - Header
 

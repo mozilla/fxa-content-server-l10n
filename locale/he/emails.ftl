@@ -248,6 +248,12 @@ postAddLinkedAccount-action = ניהול חשבון
 postAddPasskey-subject = מפתח הגישה נוצר
 postAddPasskey-preview = כעת באפשרותך להשתמש במכשיר שלך כדי להתחבר
 postAddPasskey-title = יצרת מפתח גישה
+postAddPasskey-description = כעת באפשרותך להשתמש בו כדי להתחבר לכל שירותי ה־{ -product-mozilla-account } שלך.
+postAddPasskey-sync-note = לתשומת לבך, הססמה שלך תמשיך להיות נדרשת על מנת לגשת לנתוני הסנכרון שלך ב־{ -brand-firefox }.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = מידע נוסף
+postAddPasskey-requested-from = ביקשת את זה מ:
+postAddPasskey-action = ניהול חשבון
 postAddRecoveryPhone-subject = נוסף טלפון לשחזור
 postAddRecoveryPhone-preview = החשבון מוגן באמצעות אימות דו־שלבי
 postAddRecoveryPhone-title-v2 = הוספת מספר טלפון לשחזור
