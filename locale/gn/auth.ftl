@@ -211,6 +211,11 @@ freeTrialEndingReminder-content-greeting = Ñemuhára { $productName } pegua,
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = Nde jeporu reigua ojekuaáma opaitetaha <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = Nde jeporu reigua ojekuaáma opaitetaha { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Nderembogue’ỹiramo upe ára ohupyty mboyve, ne ñemboheraguapy oñepyrũta ijehegui ha rehepyme’ẽtama <strong>{ $invoiceTotal }</strong> oĩmaháicha ne jehepyme’ẽrãme <strong>{ $serviceLastActiveDateOnly }</strong>-pe.
+freeTrialEndingReminder-content-auto-charge-plaintext = Nderembogue’ỹiramo upe ára ohupyty mboyve, ne ñemboheraguapy oñepyrũta ijehegui ha rehepyme’ẽtama { $invoiceTotal } oĩmaháicha ne jehepyme’ẽrãme { $serviceLastActiveDateOnly }-pe.
 freeTrialEndingReminder-content-charge-heading = Mba’emimi jehepyme’ẽrã
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
