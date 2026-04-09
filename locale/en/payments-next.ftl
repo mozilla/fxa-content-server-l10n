@@ -31,6 +31,8 @@ upgrade-page-payment-information = Payment Information
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment =  Your plan will change immediately, and you’ll be charged a prorated amount today for the rest of this billing cycle. Starting { $nextInvoiceDate } you’ll be charged the full amount.
 
+upgrade-page-acknowledgment-from-trial = By upgrading, your active free trial will end immediately and you will be charged for your new plan today.
+
 ## Authentication Error page
 
 auth-error-page-title = We Couldn’t Sign You In
@@ -145,8 +147,12 @@ interstitial-offer-error-button-contact-support = Contact Support
 subscription-management-page-banner-warning-title-no-payment-method = No payment method added
 subscription-management-page-banner-warning-link-no-payment-method = Add a payment method
 subscription-management-subscriptions-heading = Subscriptions
+subscription-management-free-trial-heading = Free trials
+subscription-management-your-free-trials-aria = Your free trials
+
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Jump to
+subscription-management-nav-free-trials = Free trials
 subscription-management-nav-payment-details = Payment details
 subscription-management-nav-active-subscriptions = Active subscriptions
 subscription-management-payment-details-heading = Payment details
@@ -330,6 +336,61 @@ next-coupon-promo-code-applied = Promo Code Applied
 next-coupon-remove = Remove
 next-coupon-submit = Apply
 
+## FreeTrialContent
+
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Your free trial expires on { $date }.
+free-trial-content-trial-cancelled = Your free trial has been cancelled.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = You will be charged { $amount } + { $tax } tax per day after the free trial ends on { $date }.
+free-trial-content-charge-info-with-tax-week = You will be charged { $amount } + { $tax } tax per week after the free trial ends on { $date }.
+free-trial-content-charge-info-with-tax-month = You will be charged { $amount } + { $tax } tax per month after the free trial ends on { $date }.
+free-trial-content-charge-info-with-tax-halfyear = You will be charged { $amount } + { $tax } tax every six months after the free trial ends on { $date }.
+free-trial-content-charge-info-with-tax-year = You will be charged { $amount } + { $tax } tax per year after the free trial ends on { $date }.
+free-trial-content-charge-info-with-tax-default = You will be charged { $amount } + { $tax } tax after the free trial ends on { $date }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = You will be charged { $amount } per day after the free trial ends on { $date }.
+free-trial-content-charge-info-no-tax-week = You will be charged { $amount } per week after the free trial ends on { $date }.
+free-trial-content-charge-info-no-tax-month = You will be charged { $amount } per month after the free trial ends on { $date }.
+free-trial-content-charge-info-no-tax-halfyear = You will be charged { $amount } every six months after the free trial ends on { $date }.
+free-trial-content-charge-info-no-tax-year = You will be charged { $amount } per year after the free trial ends on { $date }.
+free-trial-content-charge-info-no-tax-default = You will be charged { $amount } after the free trial ends on { $date }.
+
+free-trial-content-trial-ends = Your free trial ends on { $date }. Update your payment method to keep access after your free trial.
+free-trial-content-trial-active = Your free trial is active.
+free-trial-content-action-error = An unexpected error occurred. Please try again.
+
+free-trial-content-button-resume-trial = Resume trial
+free-trial-content-button-resume-trial-aria = Resume trial for { $productName }
+free-trial-content-button-cancel-trial = Cancel trial
+free-trial-content-button-cancel-trial-aria = Cancel trial for { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Last bill • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } tax
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
+##
+
+free-trial-content-link-view-invoice = View invoice
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = View invoice for { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Your free trial ended on <bold>{ $date }</bold>. We were unable to process your payment to start your subscription. Please update your payment method to activate your subscription and restore access to your services.
+free-trial-content-payment-failed-no-date = We were unable to process your payment to start your subscription. Please update your payment method to activate your subscription and restore access to your services.
+free-trial-content-button-update-payment = Update payment method
+
 # Component - Header
 
 payments-header-help =
@@ -417,6 +478,41 @@ purchase-details-credit-applied-label = Credit applied
 purchase-details-total-due-label = Total due
 next-plan-details-hide-button = Hide details
 next-plan-details-show-button = Show details
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =  { $trialDayLength ->
+  *[other] Start your { $trialDayLength }-day free trial
+}
+free-trial-success-title = { $trialDayLength ->
+  *[other] Your { $trialDayLength }-day free trial has started
+}
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = No payment required today. You will be charged { $firstPrice }/day after the free trial ends on { $endDate }.
+free-trial-start-message-weekly = No payment required today. You will be charged { $firstPrice }/week after the free trial ends on { $endDate }.
+free-trial-start-message-monthly = No payment required today. You will be charged { $firstPrice }/month after the free trial ends on { $endDate }.
+free-trial-start-message-halfyearly = No payment required today. You will be charged { $firstPrice }/6 months after the free trial ends on { $endDate }.
+free-trial-start-message-yearly = No payment required today. You will be charged { $firstPrice }/year after the free trial ends on { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = First charge: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = You will be billed { $firstPrice } on { $endDate }, then daily thereafter until you cancel.
+free-trial-first-charge-message-weekly = You will be billed { $firstPrice } on { $endDate }, then weekly thereafter until you cancel.
+free-trial-first-charge-message-monthly = You will be billed { $firstPrice } on { $endDate }, then monthly thereafter until you cancel.
+free-trial-first-charge-message-halfyearly = You will be billed { $firstPrice } on { $endDate }, then every 6 months thereafter until you cancel.
+free-trial-first-charge-message-yearly = You will be billed { $firstPrice } on { $endDate }, then yearly thereafter until you cancel.
+
+##
+
 next-coupon-success = Your plan will automatically renew at the list price.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Your plan will automatically renew after { $couponDurationDate } at the list price.
