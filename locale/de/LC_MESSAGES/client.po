@@ -2003,11 +2003,11 @@ msgstr "Die Einrichtung konnte nicht abgeschlossen werden. Bitte melden Sie sich
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Passwort erstellt. Sie synchronisieren jetzt."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Konto erstellt Sie synchronisieren jetzt."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

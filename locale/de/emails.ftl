@@ -96,6 +96,8 @@ automated-email-reset-pwd-two-factor = Wenn Sie diese Maßnahme nicht ausgelöst
 automated-email-reset-pwd-plaintext-v3 = Wenn Sie diese Maßnahme nicht ausgelöst haben, setzen Sie Ihr Passwort unter folgender Adresse sofort zurück:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Setzen Sie außerdem die Zwei-Schritt-Authentifizierung unter folgender Adresse zurück:
+automated-email-sign-in = Diese E-Mail wurde automatisch verschickt; wenn Sie diese Aktion nicht autorisiert haben, <a data-l10n-name="securitySettingsLink">überprüfen Sie bitte die Sicherheitseinstellungen Ihres Kontos</a>. Weitere Informationen erhalten Sie bei der <a data-l10n-name="supportLink">{ -brand-mozilla }-Hilfe</a>.
+automated-email-sign-in-plaintext = Wenn Sie diese Aktion nicht autorisiert haben, überprüfen Sie bitte die Sicherheitseinstellungen Ihres Kontos auf:
 brand-banner-message = Wussten Sie, dass wir unseren Namen von { -product-firefox-accounts } in { -product-mozilla-accounts } geändert haben? <a data-l10n-name="learnMore">Weitere Informationen</a>
 change-password-plaintext = Wenn Sie den Verdacht haben, dass jemand auf Ihr Konto zugreifen möchte, ändern Sie bitte Ihr Passwort.
 manage-account = Benutzerkonto verwalten
@@ -258,6 +260,15 @@ postAddLinkedAccount-subject-2 = Neues Konto mit Ihrem { -product-mozilla-accoun
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ihr { $providerName }-Konto wurde mit Ihrem { -product-mozilla-account } verknüpft
 postAddLinkedAccount-action = Benutzerkonto verwalten
+postAddPasskey-subject = Zugangsschlüssel erstellt
+postAddPasskey-preview = Sie können sich jetzt mit Ihrem Gerät anmelden
+postAddPasskey-title = Sie haben einen Zugangsschlüssel erstellt
+postAddPasskey-description = Sie können sich jetzt bei allen Ihren { -product-mozilla-account }-Diensten anmelden.
+postAddPasskey-sync-note = Bitte beachten Sie, dass Ihr Passwort weiterhin für den Zugriff auf Ihre Sync-Daten { -brand-firefox } benötigt wird.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Weitere Informationen
+postAddPasskey-requested-from = Sie haben dies angefordert von:
+postAddPasskey-action = Benutzerkonto verwalten
 postAddRecoveryPhone-subject = Telefonnummer zur Kontowiederherstellung hinzugefügt
 postAddRecoveryPhone-preview = Konto durch Zwei-Schritt-Authentifizierung geschützt
 postAddRecoveryPhone-title-v2 = Sie haben eine Telefonnummer zur Kontowiederherstellung hinzugefügt

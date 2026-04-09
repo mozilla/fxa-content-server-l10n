@@ -1994,11 +1994,11 @@ msgstr "Nastavení se nepodařilo dokončit. Přihlaste se prosím pomocí svéh
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Heslo vytvořeno. Nyní probíhá synchronizace."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Účet byl vytvořen. Nyní probíhá synchronizace."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

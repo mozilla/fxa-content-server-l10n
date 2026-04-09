@@ -96,6 +96,8 @@ automated-email-reset-pwd-two-factor = Pokud jste tuto akci neprovedli, ihned <a
 automated-email-reset-pwd-plaintext-v3 = Pokud jste tuto akci neprovedli, okamžitě obnovte své heslo na:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Obnovit dvoufázové ověřování v:
+automated-email-sign-in = Toto je automatický e-mail; pokud jste tuto akci neprovedli, pak prosím <a data-l10n-name="securitySettingsLink">zkontrolujte bezpečnostní nastavení svého účtu</a>. Pro více informací prosím navštivte <a data-l10n-name="supportLink">Podporu na { -brand-mozilla }</a>.
+automated-email-sign-in-plaintext = Pokud jste tuto akci neschválili, zkontrolujte prosím bezpečnostní nastavení vašeho účtu na:
 brand-banner-message = Víte, že jsme změnili název z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Zjistit více</a>
 change-password-plaintext = Pokud máte podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, změňte si prosím své heslo.
 manage-account = Správa účtu
@@ -260,6 +262,15 @@ postAddLinkedAccount-subject-2 = Nový účet propojený s vaším { -product-mo
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Váš účet { $providerName } byl propojen s vaším účtem { -product-mozilla-account(case: "ins") }
 postAddLinkedAccount-action = Správa účtu
+postAddPasskey-subject = Přístupový klíč byl vytvořen
+postAddPasskey-preview = Nyní se můžete přihlašovat pomocí svého zařízení
+postAddPasskey-title = Vytvořili jste přístupový kód
+postAddPasskey-description = Nyní se můžete přihlašovat do všech služeb v aplikaci { -product-mozilla-account }.
+postAddPasskey-sync-note = Mějte prosím na paměti, že pro přístup k vašim synchronizovaným datům { -brand-firefox } bude i nadále vyžadováno vaše heslo.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Zjistit více
+postAddPasskey-requested-from = Vyžádali jste o to z:
+postAddPasskey-action = Správa účtu
 postAddRecoveryPhone-subject = Telefon pro obnovení byl přidán
 postAddRecoveryPhone-preview = Účet chráněn pomocí dvoufázového ověřování
 postAddRecoveryPhone-title-v2 = Přidali jste telefonní číslo pro obnovení

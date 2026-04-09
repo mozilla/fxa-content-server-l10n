@@ -28,6 +28,7 @@ location-banner-currency-change = Změna měny není podporována. Pro pokračov
 upgrade-page-payment-information = Informace o platbě
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Váš tarif se okamžitě změní a po zbytek tohoto zúčtovacího období vám bude účtována poměrná částka. Od { $nextInvoiceDate } vám bude účtována plná částka.
+upgrade-page-acknowledgment-from-trial = Po upgradu vaše aktivní bezplatná zkušební verze okamžitě skončí a nový plán vám bude ještě dnes účtován.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Kontaktovat podporu
 subscription-management-page-banner-warning-title-no-payment-method = Nebyla přidána žádná platební metoda
 subscription-management-page-banner-warning-link-no-payment-method = Přidat platební metodu
 subscription-management-subscriptions-heading = Předplatné
+subscription-management-free-trial-heading = Zkušební verze zdarma
+subscription-management-your-free-trials-aria = Vaše bezplatné zkušební verze
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Přejít na
+subscription-management-nav-free-trials = Zkušební verze zdarma
 subscription-management-nav-payment-details = Detaily platby
 subscription-management-nav-active-subscriptions = Aktivní předplatná
 subscription-management-payment-details-heading = Detaily platby
@@ -320,8 +324,56 @@ next-coupon-promo-code-applied = Promo kód byl použit
 next-coupon-remove = Odebrat
 next-coupon-submit = Použít
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Vaše bezplatná zkušební verze vyprší { $date }.
+free-trial-content-trial-cancelled = Vaše bezplatná zkušební verze byla zrušena.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } + daň { $tax } denně.
+free-trial-content-charge-info-with-tax-week = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } + daň { $tax } týdně.
+free-trial-content-charge-info-with-tax-month = Po skončení zkušebního období, dne { $date }, vám bude účtováno { $amount } + daň { $tax } měsíčně.
+free-trial-content-charge-info-with-tax-halfyear = Po skončení zkušebního období, dne { $date } vám bude každých šest měsíců účtováno { $amount } + { $tax } daň.
+free-trial-content-charge-info-with-tax-year = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } + daň { $tax } ročně.
+free-trial-content-charge-info-with-tax-default = Po skončení zkušebního období, dne { $date } vám bude účtováno { $amount } + daň { $tax }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } denně.
+free-trial-content-charge-info-no-tax-week = Po skončení bezplatného zkušebního období, dne { $date } vám bude týdně účtováno { $amount }.
+free-trial-content-charge-info-no-tax-month = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } měsíčně.
+free-trial-content-charge-info-no-tax-halfyear = Po skončení zkušebního období, dne { $date }, vám bude každých šest měsíců účtováno { $amount }.
+free-trial-content-charge-info-no-tax-year = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } ročně.
+free-trial-content-charge-info-no-tax-default = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount }.
+free-trial-content-trial-ends = Vaše bezplatná zkušební verze končí { $date }. Aktualizujte svou platební metodu a zachovejte si ji i po skončení bezplatného zkušebního období.
+free-trial-content-trial-active = Vaše bezplatná zkušební verze je aktivní.
+free-trial-content-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
+free-trial-content-button-resume-trial = Pokračovat ve zkušební verzi
+free-trial-content-button-resume-trial-aria = Pokračovat ve zkušební verzi za { $productName }
+free-trial-content-button-cancel-trial = Zrušit zkušební verzi
+free-trial-content-button-cancel-trial-aria = Zrušit zkušební verzi za { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Poslední faktura • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } daň
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Zobrazit fakturu
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Zobrazit fakturu za { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Vaše bezplatná zkušební verze skončila <bold>{ $date }</bold>. Nemohli jsme zpracovat vaši platbu a zahájit vaše předplatné. Pro aktivaci předplatného a obnovení přístupu k vašim službám prosím aktualizujte způsob platby.
+free-trial-content-payment-failed-no-date = Nemohli jsme zpracovat vaši platbu a zahájit vaše předplatné. Pro aktivaci předplatného a obnovení přístupu k vašim službám prosím aktualizujte způsob platby.
+free-trial-content-button-update-payment = Aktualizovat platební metodu
 
 # Component - Header
 
@@ -400,6 +452,44 @@ purchase-details-credit-applied-label = Použitý kredit
 purchase-details-total-due-label = Celková splatná částka
 next-plan-details-hide-button = Skrýt podrobnosti
 next-plan-details-show-button = Zobrazit podrobnosti
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Vyzkoušejte svou { $trialDayLength }denní bezplatnou zkušební verzi
+        [few] Vyzkoušejte svou { $trialDayLength }denní bezplatnou zkušební verzi
+       *[other] Vyzkoušejte svou { $trialDayLength }denní bezplatnou zkušební verzi
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Vaše { $trialDayLength }denní bezplatná zkušební verze začala
+        [few] Vaše { $trialDayLength }denní bezplatná zkušební verze začala
+       *[other] Vaše { $trialDayLength }denní bezplatná zkušební verze začala
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Dnes není vyžadována žádná platba. Po skončení bezplatného zkušebního období, dne { $endDate } vám bude účtováno { $firstPrice }/den.
+free-trial-start-message-weekly = Dnes není vyžadována žádná platba. Po skončení bezplatného zkušebního období, dne { $endDate } vám bude účtováno { $firstPrice }/týden.
+free-trial-start-message-monthly = Dnes není vyžadována žádná platba. Po skončení zkušebního období, dne { $endDate } vám bude účtováno { $firstPrice } měsíčně.
+free-trial-start-message-halfyearly = Dnes není vyžadována žádná platba. Bude vám účtováno { $firstPrice }/6 měsíců po skončení bezplatného zkušebního období, dne { $endDate }.
+free-trial-start-message-yearly = Dnes není vyžadována žádná platba. Po skončení bezplatného zkušebního období, dne { $endDate } vám bude účtováno { $firstPrice }/rok.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = První platba: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Dne { $endDate } vám bude účtováno { $firstPrice }, následně denně, dokud předplatné nezrušíte.
+free-trial-first-charge-message-weekly = Dne { $endDate } vám bude účtováno { $firstPrice }, poté každý týden, dokud předplatné nezrušíte.
+free-trial-first-charge-message-monthly = Dne { $endDate } vám bude účtováno { $firstPrice }, následně měsíčně, dokud předplatné nezrušíte.
+free-trial-first-charge-message-halfyearly = Dne { $endDate } vám bude účtováno { $firstPrice } a poté každých 6 měsíců, dokud předplatné nezrušíte.
+free-trial-first-charge-message-yearly = Dne { $endDate } vám bude účtováno { $firstPrice }, následně ročně, dokud předplatné nezrušíte.
 
 ##
 
