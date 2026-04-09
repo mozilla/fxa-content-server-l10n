@@ -16,9 +16,6 @@ next-payment-confirmation-details-heading-2 = చెల్లింపు సమ
 next-coupon-remove = తీసివేయి
 next-coupon-submit = వర్తింపజేయి
 
-# Component - Header
-
-
 ## Component - PurchaseDetails
 
 next-plan-details-total-label = మొత్తం

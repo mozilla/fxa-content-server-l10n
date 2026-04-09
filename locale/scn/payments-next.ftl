@@ -101,6 +101,9 @@ next-coupon-promo-code-applied = Còdici prumuzziunali usatu
 next-coupon-remove = Leva
 next-coupon-submit = Riggistra
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -141,6 +144,9 @@ next-plan-details-tax = Tassi e cummissioni
 next-plan-details-total-label = Tutali
 next-plan-details-hide-button = Ammuccia i minutagghi
 next-plan-details-show-button = Mustra i minutagghi
+
+##
+
 next-coupon-success = U to chianu veni rinnuvatu di manera autumàtica ô prezzu currenti.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = U to chianu veni rinnuvatu di manera autumàtica doppu { $couponDurationDate } ô prezzu currenti.

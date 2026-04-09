@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = 已套用折扣碼
 next-coupon-remove = 移除
 next-coupon-submit = 套用
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = 已套用儲值餘額
 purchase-details-total-due-label = 應收總額
 next-plan-details-hide-button = 隱藏詳細資訊
 next-plan-details-show-button = 顯示詳細資訊
+
+##
+
 next-coupon-success = 您的訂閱方案將以牌告原價自動續約。
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = 您的方案將在 { $couponDurationDate } 之後依牌告原價自動續訂。

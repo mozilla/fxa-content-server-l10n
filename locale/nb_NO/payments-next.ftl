@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Kampanjekode brukt
 next-coupon-remove = Fjern
 next-coupon-submit = Bruk
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Kreditt brukt
 purchase-details-total-due-label = Totalt utestående
 next-plan-details-hide-button = Skjul detaljer
 next-plan-details-show-button = Vis detaljer
+
+##
+
 next-coupon-success = Planen din fornyes automatisk til listeprisen.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Planen din fornyes automatisk etter { $couponDurationDate } til listeprisen.

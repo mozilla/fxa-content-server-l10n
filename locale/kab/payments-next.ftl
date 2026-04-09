@@ -73,6 +73,9 @@ next-coupon-promo-code = Tangalt promo
 next-coupon-remove = Kkes
 next-coupon-submit = Snes
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -110,6 +113,9 @@ next-plan-details-total-label = Asemday
 purchase-details-credit-applied-label = Yettwasnas usmad
 next-plan-details-hide-button = Ffer talqayt
 next-plan-details-show-button = Sken talqayt
+
+##
+
 next-coupon-success = Aɣawas-ik·im ad ttuεawed s wudem awurman ɣer ssuma yellan tura.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Aɣawas-ik·im ad yettuεawed s wudem awuran seld { $couponDurationDate } ɣer ssuma tamirant.

@@ -31,6 +31,9 @@ subscription-management-button-manage-payment-method = مدیریت
 next-coupon-remove = برداشتن
 next-coupon-submit = اعمال
 
+##
+
+
 # Component - Header
 
 payments-header-bento-close =
@@ -46,6 +49,9 @@ next-plan-details-list-price = فهرست قیمت
 next-plan-details-total-label = مجموع
 next-plan-details-hide-button = نهفتن جزئیات
 next-plan-details-show-button = نمایش جزئیات
+
+##
+
 next-coupon-success = طرح شما به طور خودکار با فهرست قیمت تمدید می‌شود.
 
 ## Select Tax Location

@@ -318,6 +318,9 @@ next-coupon-promo-code-applied = Промотивни код је примење
 next-coupon-remove = Уклони
 next-coupon-submit = Примени
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -395,6 +398,9 @@ purchase-details-credit-applied-label = Заслуга је примењена
 purchase-details-total-due-label = Укупно за плаћање
 next-plan-details-hide-button = Сакриј детаље
 next-plan-details-show-button = Прикажи детаље
+
+##
+
 next-coupon-success = Ваш план ће се аутоматски обновити по основној цени.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Ваш план ће се аутоматски обновити после { $couponDurationDate } по основној цени.

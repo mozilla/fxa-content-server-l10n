@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Codice promozionale applicato
 next-coupon-remove = Rimuovi
 next-coupon-submit = Applica
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Credito applicato
 purchase-details-total-due-label = Totale dovuto
 next-plan-details-hide-button = Nascondi dettagli
 next-plan-details-show-button = Mostra dettagli
+
+##
+
 next-coupon-success = Il tuo piano si rinnoverà automaticamente al prezzo di listino.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Il tuo piano si rinnoverà automaticamente dopo { $couponDurationDate } al prezzo di listino.

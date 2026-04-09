@@ -45,6 +45,9 @@ next-coupon-enter-code =
 next-coupon-remove = Eemalda
 next-coupon-submit = Rakenda
 
+##
+
+
 # Component - Header
 
 payments-header-avatar-expanded-signed-in-as = Sisse logitud kasutajana
@@ -56,6 +59,9 @@ next-plan-details-list-price = Hinnakirja hind
 next-plan-details-total-label = Kokku
 next-plan-details-hide-button = Peida üksikasjad
 next-plan-details-show-button = Kuva üksikasju
+
+##
+
 next-coupon-success = Sinu plaani uuendatakse automaatselt hinnakirja hinnaga.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Sinu plaani uuendatakse automaatselt pärast { $couponDurationDate } hinnakirja hinnaga.

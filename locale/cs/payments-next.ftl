@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Promo kód byl použit
 next-coupon-remove = Odebrat
 next-coupon-submit = Použít
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Použitý kredit
 purchase-details-total-due-label = Celková splatná částka
 next-plan-details-hide-button = Skrýt podrobnosti
 next-plan-details-show-button = Zobrazit podrobnosti
+
+##
+
 next-coupon-success = Váš plán se automaticky obnoví za běžnou cenu podle ceníku.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Vaše předplatné se po { $couponDurationDate } automaticky obnoví za běžnou cenu dle ceníku.

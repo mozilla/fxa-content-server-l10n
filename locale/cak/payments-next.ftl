@@ -40,9 +40,6 @@ next-coupon-enter-code =
 next-coupon-remove = Tiyuj
 next-coupon-submit = Tisamajïx
 
-# Component - Header
-
-
 ## Component - PurchaseDetails
 
 next-plan-details-header = Rub'anikil tikojil

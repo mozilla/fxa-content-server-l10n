@@ -101,6 +101,9 @@ next-coupon-promo-code-applied = Promozio kodea aplikatuta
 next-coupon-remove = Kendu
 next-coupon-submit = Aplikatu
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -141,6 +144,9 @@ next-plan-details-tax = Zergak eta Tasak
 next-plan-details-total-label = Guztira
 next-plan-details-hide-button = Ezkutatu xehetasunak
 next-plan-details-show-button = Erakutsi xehetasunak
+
+##
+
 next-coupon-success = Zure plana automatikoki berrituko da zerrendako prezioan.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Zure plana automatikoki berrituko da { $couponDurationDate } ondoren zerrendako prezioan.

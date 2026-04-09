@@ -106,6 +106,9 @@ next-coupon-promo-code-applied = Рамзи таблиғотӣ татбиқ ка
 next-coupon-remove = Тоза кардан
 next-coupon-submit = Татбиқ кардан
 
+##
+
+
 # Component - Header
 
 payments-header-help =

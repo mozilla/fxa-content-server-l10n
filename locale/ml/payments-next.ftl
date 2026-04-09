@@ -49,9 +49,6 @@ next-coupon-enter-code =
 next-coupon-remove = മാറ്റുക
 next-coupon-submit = പ്രയോഗിക്കുക
 
-# Component - Header
-
-
 ##
 
 payments-client-loading-spinner =

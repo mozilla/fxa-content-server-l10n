@@ -314,6 +314,9 @@ next-coupon-promo-code-applied = קוד הקופון הוחל
 next-coupon-remove = הסרה
 next-coupon-submit = החלה
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -390,6 +393,9 @@ purchase-details-credit-applied-label = זיכוי שהוחל
 purchase-details-total-due-label = סכום לתשלום
 next-plan-details-hide-button = הסתרת פרטים
 next-plan-details-show-button = הצגת פרטים
+
+##
+
 next-coupon-success = התוכנית שלך תתחדש אוטומטית עם המחיר המוצע.
 
 ## Select Tax Location

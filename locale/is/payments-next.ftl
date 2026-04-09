@@ -117,6 +117,9 @@ next-coupon-promo-code-applied = Kynningarkóði notaður
 next-coupon-remove = Fjarlægja
 next-coupon-submit = Virkja
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -165,6 +168,9 @@ next-plan-details-tax = Skattar og gjöld
 next-plan-details-total-label = Samtals
 next-plan-details-hide-button = Fela ítarupplýsingar
 next-plan-details-show-button = Sjá nánari upplýsingar
+
+##
+
 next-coupon-success = Áskriftarleiðin þín mun sjálfkrafa endurnýjast á listaverði.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Áskriftin þín endurnýjast sjálfkrafa eftir { $couponDurationDate } á listaverði.

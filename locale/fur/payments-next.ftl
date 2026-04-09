@@ -225,6 +225,9 @@ next-coupon-promo-code-applied = Codiç promozionâl aplicât
 next-coupon-remove = Gjave
 next-coupon-submit = Apliche
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -282,6 +285,9 @@ purchase-details-credit-applied-label = Credit aplicât
 purchase-details-total-due-label = Totâl dovût
 next-plan-details-hide-button = Plate detais
 next-plan-details-show-button = Mostre detais
+
+##
+
 next-coupon-success = Il to plan si rinovarà in automatic al presit di catalic.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Il to plan si rinovarà in automatic dopo { $couponDurationDate } al presit di catalic.

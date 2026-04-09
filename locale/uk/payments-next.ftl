@@ -101,6 +101,9 @@ next-coupon-promo-code-applied = Промокод застосовано
 next-coupon-remove = Вилучити
 next-coupon-submit = Застосувати
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -141,6 +144,9 @@ next-plan-details-tax = Податки та збори
 next-plan-details-total-label = Всього
 next-plan-details-hide-button = Сховати подробиці
 next-plan-details-show-button = Докладніше
+
+##
+
 next-coupon-success = Вашу передплату буде автоматично поновлено за базовою ціною.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Ваш тарифний план буде автоматично поновлено після { $couponDurationDate } за роздрібною ціною.

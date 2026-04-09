@@ -6,6 +6,3 @@ next-new-user-submit = Претплати се сега
 
 next-coupon-remove = Отстрани
 next-coupon-submit = Примени
-
-# Component - Header
-

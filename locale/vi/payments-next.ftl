@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Đã áp dụng mã khuyến mãi
 next-coupon-remove = Xóa
 next-coupon-submit = Áp dụng
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Tín dụng được áp dụng
 purchase-details-total-due-label = Tổng số tiền phải trả
 next-plan-details-hide-button = Ẩn chi tiết
 next-plan-details-show-button = Hiện chi tiết
+
+##
+
 next-coupon-success = Gói của bạn sẽ tự động gia hạn theo giá niêm yết.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau { $couponDurationDate } theo giá niêm yết.

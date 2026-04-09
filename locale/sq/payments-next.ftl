@@ -321,6 +321,9 @@ next-coupon-promo-code-applied = U aplikua Kod Promocional
 next-coupon-remove = Hiqe
 next-coupon-submit = Zbatoje
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -396,6 +399,9 @@ purchase-details-credit-applied-label = Krediti u aplikua
 purchase-details-total-due-label = Detyrim gjithsej
 next-plan-details-hide-button = Fshihi hollësitë
 next-plan-details-show-button = Shfaq hollësi
+
+##
+
 next-coupon-success = Plani juaj do të rinovohet vetvetiu me çmimin e treguar te lista.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Plani juaj do të rinovohet vetvetiu pas { $couponDurationDate } sipas çmimit të rregullt.

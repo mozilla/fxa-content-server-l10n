@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Cod Hyrwyddo wedi'i Osod
 next-coupon-remove = Tynnu
 next-coupon-submit = Gosod
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Credyd wedi'i osod
 purchase-details-total-due-label = Y cyfanswm sy'n ddyledus
 next-plan-details-hide-button = Cuddio manylion
 next-plan-details-show-button = Dangos manylion
+
+##
+
 next-coupon-success = Bydd eich cynllun yn adnewyddu'n awtomatig am y pris ar y rhestr.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Bydd eich cynllun yn adnewyddu'n awtomatig ar ôl { $couponDurationDate } am y pris ar y rhestr.

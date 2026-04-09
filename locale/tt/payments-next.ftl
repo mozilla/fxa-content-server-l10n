@@ -51,9 +51,6 @@ next-coupon-promo-code-applied = Промо-код кулланылды
 next-coupon-remove = Бетерү
 next-coupon-submit = Куллану
 
-# Component - Header
-
-
 ## Component - PurchaseDetails
 
 next-plan-details-header = Продукт нечкәлекләре

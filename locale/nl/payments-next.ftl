@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Promotiecode toegepast
 next-coupon-remove = Verwijderen
 next-coupon-submit = Toepassen
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Tegoed toegepast
 purchase-details-total-due-label = Totaal verschuldigd
 next-plan-details-hide-button = Details verbergen
 next-plan-details-show-button = Details tonen
+
+##
+
 next-coupon-success = Uw abonnement wordt automatisch verlengd tegen de normale prijs.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Uw abonnement wordt na { $couponDurationDate } automatisch verlengd tegen de standaardprijs.

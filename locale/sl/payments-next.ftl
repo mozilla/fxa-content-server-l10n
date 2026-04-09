@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Promocijska koda uveljavljena
 next-coupon-remove = Odstrani
 next-coupon-submit = Uveljavi
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Dobropis uveljavljen
 purchase-details-total-due-label = Skupaj zapadli
 next-plan-details-hide-button = Skrij podrobnosti
 next-plan-details-show-button = Pokaži podrobnosti
+
+##
+
 next-coupon-success = Vaš paket se bo samodejno podaljšal po maloprodajni ceni.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Vaš paket se bo po { $couponDurationDate } samodejno obnovil po maloprodajni ceni.

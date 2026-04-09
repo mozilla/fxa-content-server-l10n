@@ -206,6 +206,9 @@ next-coupon-promo-code-applied = 프로모션 코드 적용됨
 next-coupon-remove = 삭제
 next-coupon-submit = 적용
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -263,6 +266,9 @@ purchase-details-credit-applied-label = 크레딧 적용됨
 purchase-details-total-due-label = 총 결제 기한
 next-plan-details-hide-button = 상세 내용 숨기기
 next-plan-details-show-button = 상세 정보 보기
+
+##
+
 next-coupon-success = 요금제는 정가로 자동 갱신됩니다.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = 요금제는 { $couponDurationDate } 이후 정가로 자동 갱신됩니다.

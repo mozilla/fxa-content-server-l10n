@@ -86,6 +86,9 @@ next-coupon-promo-code-applied = Applitgà il code da promoziun
 next-coupon-remove = Allontanar
 next-coupon-submit = Applitgar
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -126,6 +129,9 @@ next-plan-details-tax = Taglias e taxas
 next-plan-details-total-label = Total
 next-plan-details-hide-button = Zuppentar ils detagls
 next-plan-details-show-button = Mussar ils detagls
+
+##
+
 next-coupon-success = Tes plan vegn renovà automaticamain cun il pretsch da catalog.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $couponDurationDate } tenor il pretsch da catalog.

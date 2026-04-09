@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Промокод применён
 next-coupon-remove = Удалить
 next-coupon-submit = Применить
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Кредит применён
 purchase-details-total-due-label = Общая сумма
 next-plan-details-hide-button = Скрыть подробности
 next-plan-details-show-button = Показать подробности
+
+##
+
 next-coupon-success = Ваш план будет автоматически продлен по прейскуранту.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Ваш тарифный план будет автоматически продлён после { $couponDurationDate } по розничной цене.

@@ -322,6 +322,9 @@ next-coupon-promo-code-applied = Promóciós kód alkalmazva
 next-coupon-remove = Eltávolítás
 next-coupon-submit = Alkalmaz
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -399,6 +402,9 @@ purchase-details-credit-applied-label = Jóváírás alkalmazva
 purchase-details-total-due-label = Teljes esedékesség
 next-plan-details-hide-button = Részletek elrejtése
 next-plan-details-show-button = Részletek megjelenítése
+
+##
+
 next-coupon-success = A csomag automatikusan megújul a listaáron.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = A csomag { $couponDurationDate } után automatikusan megújul listaáron.

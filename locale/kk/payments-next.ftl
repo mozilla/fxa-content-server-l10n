@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Промокоды іске асырылды
 next-coupon-remove = Өшіру
 next-coupon-submit = Іске асыру
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Несие қолданылды
 purchase-details-total-due-label = Жалпы сома
 next-plan-details-hide-button = Мәліметтерді жасыру
 next-plan-details-show-button = Мәліметтерді көрсету
+
+##
+
 next-coupon-success = Сіздің жоспарыңыз тізімдік баға бойынша автоматты түрде жаңартылады.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Жоспарыңыз тізім бағасы бойынша { $couponDurationDate } кейін автоматты түрде жаңартылады.

@@ -322,6 +322,9 @@ next-coupon-promo-code-applied = Ayvu ñemoherakuãgua japopyre
 next-coupon-remove = Mboguete
 next-coupon-submit = Jejapopy
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -399,6 +402,9 @@ purchase-details-credit-applied-label = Virume’ẽmbyre
 purchase-details-total-due-label = Mboýpa edeve
 next-plan-details-hide-button = Mba’emimi mokañy
 next-plan-details-show-button = Mba’emimi jehechauka
+
+##
+
 next-coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurationDate } rire tepy tysyiguávape.

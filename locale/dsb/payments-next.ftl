@@ -325,6 +325,9 @@ next-coupon-promo-code-applied = Akciski kod nałoženy
 next-coupon-remove = Wótwónoźeś
 next-coupon-submit = Nałožyś
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -402,6 +405,9 @@ purchase-details-credit-applied-label = Pśipisanje na konto jo nałožone
 purchase-details-total-due-label = Dogromady musy se płaśiś
 next-plan-details-hide-button = Drobnostki schowaś
 next-plan-details-show-button = Drobnostki pokazaś
+
+##
+
 next-coupon-success = Waš plan se awtomatiski za lisćinowu płaśiznu wótnowja.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Waš plan se pó { $couponDurationDate } za lisćinowu płaśiznu awtomatiski pódlejšyjo.

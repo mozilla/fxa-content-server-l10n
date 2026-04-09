@@ -322,6 +322,9 @@ next-coupon-promo-code-applied = Cod promoțional aplicat
 next-coupon-remove = Elimină
 next-coupon-submit = Aplică
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -399,6 +402,9 @@ purchase-details-credit-applied-label = Credit aplicat
 purchase-details-total-due-label = Total de plată
 next-plan-details-hide-button = Ascunde detaliile
 next-plan-details-show-button = Afișează detaliile
+
+##
+
 next-coupon-success = Planul se va reînnoi automat cu prețul de listă.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Planul se va reînnoi automat după { $couponDurationDate } cu prețul de listă.

@@ -89,6 +89,9 @@ next-coupon-promo-code-applied = Прамакод ужыты
 next-coupon-remove = Выдаліць
 next-coupon-submit = Прымяніць
 
+##
+
+
 # Component - Header
 
 payments-header-bento-close =
@@ -108,6 +111,9 @@ next-plan-details-tax = Падаткі і зборы
 next-plan-details-total-label = Усяго
 next-plan-details-hide-button = Схаваць падрабязнасці
 next-plan-details-show-button = Паказаць падрабязнасці
+
+##
+
 next-coupon-success = Ваш тарыфны план будзе аўтаматычна падоўжаны па базавай цане.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Ваш план будзе аўтаматычна падоўжаны пасля { $couponDurationDate } па базавай цане.

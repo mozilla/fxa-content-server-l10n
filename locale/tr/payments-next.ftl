@@ -269,6 +269,9 @@ next-coupon-promo-code-applied = Promosyon kodu uygulandı
 next-coupon-remove = Kaldır
 next-coupon-submit = Uygula
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -337,6 +340,9 @@ purchase-details-credit-applied-label = Uygulanan kredi
 purchase-details-total-due-label = Toplam tutar
 next-plan-details-hide-button = Ayrıntıları gizle
 next-plan-details-show-button = Ayrıntıları göster
+
+##
+
 next-coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecektir.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Planınız { $couponDurationDate } tarihinden sonra liste fiyatı üzerinden otomatik olarak yenilenecek.

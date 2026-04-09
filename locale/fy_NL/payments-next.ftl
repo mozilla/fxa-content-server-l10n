@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Promoasjekoade tapast
 next-coupon-remove = Fuortsmite
 next-coupon-submit = Tapasse
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Tegoed tapast
 purchase-details-total-due-label = Totaal te beteljen
 next-plan-details-hide-button = Details ferstopje
 next-plan-details-show-button = Details toane
+
+##
+
 next-coupon-success = Jo abonnemint wurdt automatysk ferlinge tsjin de normale priis.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Jo abonnemint wurdt nei { $couponDurationDate } automatysk ferlinge tsjin de standertpriis.

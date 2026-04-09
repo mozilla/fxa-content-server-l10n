@@ -320,6 +320,9 @@ next-coupon-promo-code-applied = Kampanjkod tillämpas
 next-coupon-remove = Ta bort
 next-coupon-submit = Tillämpa
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +400,9 @@ purchase-details-credit-applied-label = Kredit tillämpas
 purchase-details-total-due-label = Totalt att betala
 next-plan-details-hide-button = Dölj detaljer
 next-plan-details-show-button = Visa detaljer
+
+##
+
 next-coupon-success = Din plan förnyas automatiskt till listpriset.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Din plan förnyas automatiskt efter { $couponDurationDate } till listpriset.

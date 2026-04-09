@@ -205,6 +205,9 @@ next-coupon-promo-code-applied = Tarjouskoodi sovellettu
 next-coupon-remove = Poista
 next-coupon-submit = Käytä
 
+##
+
+
 # Component - Header
 
 payments-header-help =
@@ -260,6 +263,9 @@ purchase-details-credit-applied-label = Hyvitys käytetty
 purchase-details-total-due-label = Maksettavaa
 next-plan-details-hide-button = Piilota tiedot
 next-plan-details-show-button = Näytä tiedot
+
+##
+
 next-coupon-success = Tilauksesi uusitaan automaattisesti listahintaan.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDurationDate } listahinnan mukaisesti.
