@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-09 20:23+0000\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Pontoon\n"
@@ -23,11 +25,11 @@ msgstr "পাসওয়ার্ড সফলভাবে রিসেট হ
 msgid "Sign in"
 msgstr "সাইন ইন"
 
-#: .es5/views/index.js:154
+#: .es5/views/index.js:156
 msgid "Account deleted successfully"
 msgstr "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে"
 
-#: .es5/views/inline_totp_setup.js:128
+#: .es5/views/inline_totp_setup.js:127
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "সমর্থিত অ্যাপ্লিকেশনে টু-স্টেপ অথেনটিকেশন সেট আপ করতে %(code)s কোড ব্যবহার করুন।"
 
@@ -107,15 +109,15 @@ msgstr "অচেনা অ্যাকাউন্ট। <a href=\"/signup\">�
 msgid "Account no longer exists. Recreate it?"
 msgstr "অ্যাকাউন্টটি আর নেই। আবার খুলবেন?"
 
-#: .es5/views/support.js:230 .es5/templates/support.mustache:10
+#: .es5/views/support.js:237 .es5/templates/support.mustache:10
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: .es5/views/support.js:231
+#: .es5/views/support.js:238
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
-#: .es5/views/support.js:233
+#: .es5/views/support.js:240
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 
@@ -168,11 +170,11 @@ msgstr "Outlook খুলুন"
 msgid "Open Restmail"
 msgstr "Restmail খুলুন"
 
-#: .es5/views/mixins/password-mixin.js:135 .es5/views/mixins/password-mixin.js:136
+#: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
 msgstr ""
 
-#: .es5/views/mixins/password-mixin.js:155 .es5/views/mixins/password-mixin.js:156 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "পাসওয়ার্ড প্রদর্শন"
 
@@ -673,39 +675,39 @@ msgstr ""
 msgid "Invalid backup authentication code"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:578
+#: .es5/lib/auth-errors.js:576
 msgid "Account recovery key required"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:582
+#: .es5/lib/auth-errors.js:580
 msgid "Please enter verification code"
 msgstr "দয়া করে যাচাই কোড লিখুন"
 
-#: .es5/lib/auth-errors.js:593
+#: .es5/lib/auth-errors.js:591
 msgid "Invalid redirect"
 msgstr ""
 
-#: .es5/lib/auth-errors.js:604
+#: .es5/lib/auth-errors.js:602
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:608
+#: .es5/lib/auth-errors.js:606
 msgid "The image file size is too large to be uploaded."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:612
+#: .es5/lib/auth-errors.js:610
 msgid "Email masks can’t be used to create an account."
 msgstr ""
 
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:682
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox Accounts শুধুমাত্র একটি অনুমোদিত সাইটে IFRAME রাখতে পারে"
 
-#: .es5/lib/config-loader.js:101
+#: .es5/lib/config-loader.js:100
 msgid "Missing configuration"
 msgstr "কনফিগারেশন পাওয়া যায়নি"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "অকার্যকর কনফিগারেশন"
 
@@ -830,8 +832,11 @@ msgid "Invalid Token"
 msgstr "অবৈধ টোকেন"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "এটা দ্বারা, আপনি %(serviceName)s (%(serviceUri)s) এর <a id=\"service-tos\" href=\"%(termsUri)s\">সেবার শর্তাবলী</a> এবং<a id=\"service-pp\" href=\"%(privacyUri)s\">গোপনীয়তা নোটিশ</a> এ সম্মত হবেন।"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"এটা দ্বারা, আপনি %(serviceName)s (%(serviceUri)s) এর <a id=\"service-tos\" href=\"%(termsUri)s\">সেবার শর্তাবলী</a> এবং<a id=\"service-pp\" href=\"%(privacyUri)s\">গোপনীয়তা নোটিশ</a> এ সম্মত হবেন।"
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -897,7 +902,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">নোটঃ</span> যদি আপনি আপনার পাসওয়ার্ড পরিবর্তন করেন এবং কোন পুনরুদ্ধার কী সংরক্ষণ না করেন, আপনার কিছু ডাটা মুছে যাবে (সার্ভারে সিঙ্ক করা ডাটাসহ যেমন ইতিহাস ও বুকমার্ক)।"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1008,7 +1014,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "স্প্যাম ফোল্ডার বা ইনবক্সে নেই? আবার পাঠান"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr "পেছনে"
 
@@ -1046,7 +1052,8 @@ msgstr ""
 msgid "Email new code."
 msgstr ""
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:7 .es5/templates/pair/unsupported.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "অন্য ডিভাইসে সংযোগ করুন"
 
@@ -1098,7 +1105,8 @@ msgstr "পাসওয়ার্ড"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1107,14 +1115,16 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
@@ -1161,7 +1171,8 @@ msgstr ""
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
@@ -1170,7 +1181,8 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1196,7 +1208,7 @@ msgid "Print"
 msgstr "মুদ্রণ"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:17
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:21
 msgid "Continue"
 msgstr "চালিয়ে যান"
 
@@ -1961,62 +1973,70 @@ msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr ""
 
 #: .es5/templates/pair/index.mustache:1
+msgid "Password created. You’re now syncing."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Account created. You’re now syncing."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:8
+#: .es5/templates/pair/index.mustache:12
 msgid "Sync your Firefox experience"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:9
+#: .es5/templates/pair/index.mustache:13
 msgid "Download Firefox for mobile"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:15
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:12
+#: .es5/templates/pair/index.mustache:16
 msgid "Select an option to continue:"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:13
+#: .es5/templates/pair/index.mustache:17
 msgid "I already have Firefox for mobile"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:14
+#: .es5/templates/pair/index.mustache:18
 msgid "Start your sync now if you already have Firefox on your mobile device."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:15
+#: .es5/templates/pair/index.mustache:19
 msgid "I don’t have Firefox for mobile"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:16
+#: .es5/templates/pair/index.mustache:20
 msgid "Download Firefox on your mobile device, then start your sync."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
+#: .es5/templates/pair/index.mustache:22 .es5/templates/pair/index.mustache:28
 msgid "Not now"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:19
+#: .es5/templates/pair/index.mustache:23
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:20
+#: .es5/templates/pair/index.mustache:24
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:21
+#: .es5/templates/pair/index.mustache:25
 msgid "QR code (located in the middle of the screen)"
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:22
+#: .es5/templates/pair/index.mustache:26
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
 msgstr ""
 
-#: .es5/templates/pair/index.mustache:23
+#: .es5/templates/pair/index.mustache:27
 msgid "Continue to sync"
 msgstr ""
 

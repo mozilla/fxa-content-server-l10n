@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-09 20:23+0000\n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
@@ -23,11 +25,11 @@ msgstr "Парольді тастау сәтті аяқталды. Жалғас�
 msgid "Sign in"
 msgstr "Кіру"
 
-#: .es5/views/index.js:154
+#: .es5/views/index.js:156
 msgid "Account deleted successfully"
 msgstr "Тіркелгі сәтті өшірілді"
 
-#: .es5/views/inline_totp_setup.js:128
+#: .es5/views/inline_totp_setup.js:127
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Қолдауы бар қолданбаларда екі қадамды аутентификацияны орнату үшін %(code)s кодын пайдаланыңыз."
 
@@ -107,15 +109,15 @@ msgstr "Белгісіз тіркелгі. <a href=\"/signup\">Тіркелгі�
 msgid "Account no longer exists. Recreate it?"
 msgstr "Тіркелгі енді жоқ болып тұр. Оны қайта жасау керек пе?"
 
-#: .es5/views/support.js:230 .es5/templates/support.mustache:10
+#: .es5/views/support.js:237 .es5/templates/support.mustache:10
 msgid "Other"
 msgstr "Басқа"
 
-#: .es5/views/support.js:231
+#: .es5/views/support.js:238
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Mozilla қолдау қызметіне <b>%(escapedLowercaseTopic)s</b> туралы хабарлағаныңыз үшін рахмет. Біз сізге мүмкіндігінше тезірек эл. пошта арқылы хабарласамыз."
 
-#: .es5/views/support.js:233
+#: .es5/views/support.js:240
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr ""
 "Mozilla қолдау қызметіне <b>%(escapedSelectedProduct)s</b> үшін <b>%(escapedLowercaseTopic)s</b> туралы хабарлағаныңыз үшін рахмет. Біз сізге мүмкіндігінше тезірек эл. пошта арқылы хабарласамыз."
@@ -169,11 +171,11 @@ msgstr "Outlook ашу"
 msgid "Open Restmail"
 msgstr "Restmail ашу"
 
-#: .es5/views/mixins/password-mixin.js:135 .es5/views/mixins/password-mixin.js:136
+#: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
 msgstr "Парольді жасыру"
 
-#: .es5/views/mixins/password-mixin.js:155 .es5/views/mixins/password-mixin.js:156 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Парольді көрсету"
 
@@ -674,39 +676,39 @@ msgstr "Сақтық аутентификация коды қажет"
 msgid "Invalid backup authentication code"
 msgstr "Сақтық аутентификация коды жарамсыз"
 
-#: .es5/lib/auth-errors.js:578
+#: .es5/lib/auth-errors.js:576
 msgid "Account recovery key required"
 msgstr "Тіркелгіні қалпына келтіру кілті керек"
 
-#: .es5/lib/auth-errors.js:582
+#: .es5/lib/auth-errors.js:580
 msgid "Please enter verification code"
 msgstr "Растау кодын енгізіңіз"
 
-#: .es5/lib/auth-errors.js:593
+#: .es5/lib/auth-errors.js:591
 msgid "Invalid redirect"
 msgstr "Жарамсыз қайта бағдарлау"
 
-#: .es5/lib/auth-errors.js:604
+#: .es5/lib/auth-errors.js:602
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Қате тердіңіз бе? %(domain)s эл. поштаны ұсынбайды."
 
-#: .es5/lib/auth-errors.js:608
+#: .es5/lib/auth-errors.js:606
 msgid "The image file size is too large to be uploaded."
 msgstr "Сурет файлының өлшемі жүктеп жіберу үшін тым үлкен."
 
-#: .es5/lib/auth-errors.js:612
+#: .es5/lib/auth-errors.js:610
 msgid "Email masks can’t be used to create an account."
 msgstr "Электрондық пошта маскаларын тіркелгіні жасау үшін пайдалану мүмкін емес."
 
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:682
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Firefox тіркелгілерін тек расталған сайттарда IFRAME-ге орналастыруға болады."
 
-#: .es5/lib/config-loader.js:101
+#: .es5/lib/config-loader.js:100
 msgid "Missing configuration"
 msgstr "Баптауы жоқ болып тұр"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "Баптауы жарамсыз"
 
@@ -831,7 +833,9 @@ msgid "Invalid Token"
 msgstr "Қате токен"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Жалғастыру нәтижесінде, сіз %(serviceName)s (%(serviceUri)s) қызметінің <a id=\"service-tos\" href=\"%(termsUri)s\">Қолдану шарттары</a> және <a id=\"service-pp\" href=\"%(privacyUri)s\">Жекелік "
 "ескертуімен</a> келісесіз."
@@ -900,7 +904,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Mozilla тіркелгіңізге қайта кіру үшін қауіпсіз жерде сақталған тіркелгіні қалпына келтіру бір реттік кілтін енгізіңіз."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">ЕСКЕРТУ:</span> Парольді қалпына келтірсеңіз және тіркелгіні қалпына келтіру кілті сақталмаса, кейбір деректеріңіз (соның ішінде тарих және бетбелгілер сияқты синхрондалған "
 "сервер деректері) өшіріледі."
@@ -1015,7 +1020,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Кіріс немесе спам бумасында жоқ па? Қайта жіберу"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr "Артқа"
 
@@ -1053,7 +1058,8 @@ msgstr "Кодтың мерзімі бітті ме?"
 msgid "Email new code."
 msgstr "Жаңа кодты эл. поштамен жіберу."
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:7 .es5/templates/pair/unsupported.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "Басқа құрылғыны байланыстыру"
 
@@ -1105,34 +1111,43 @@ msgstr "Пароль"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
-"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
+"            Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
+"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік "
+"ескертуі</a>\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"              Mozilla жазылымы қызметтерінің <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Жекелік ескертуі</a><br />\n"
-"              Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
+"              Mozilla жазылымы қызметтерінің <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Қызмет көрсету шарттары</a> "
+"және <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Жекелік ескертуі</a><br />\n"
+"              Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Жекелік ескертуі</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Жалғастыру нәтижесінде, сіз <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</a> келісесіз."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Жалғастыру нәтижесінде, сіз <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қолдану шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуімен</"
+"a> келісесіз."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1178,28 +1193,34 @@ msgstr "Mozilla тіркелгісі Mozilla-дан жекелігіңізді �
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"          Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
-"          Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
+"          Pocket өнімінің <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Қызмет көрсету шарттары</a> және <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Жекелік ескертуі</a><br />\n"
+"          Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік "
+"ескертуі</a>\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Жалғастыру арқылы сіз келесіге келісесіз:<br />\n"
-"            Mozilla жазылымы қызметтерінің <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Жекелік ескертуі</a><br />\n"
-"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік ескертуі</a>\n"
+"            Mozilla жазылымы қызметтерінің <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Қызмет көрсету шарттары</a> "
+"және <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Жекелік ескертуі</a><br />\n"
+"            Mozilla тіркелгілерінің <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Қызмет көрсету шарттары</a> және <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Жекелік "
+"ескертуі</a>\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1223,7 +1244,7 @@ msgid "Print"
 msgstr "Баспаға шығару"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:17
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:21
 msgid "Continue"
 msgstr "Жалғастыру"
 
@@ -1491,7 +1512,8 @@ msgstr "Парольді қайталау"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "Бұл пароль бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін қажет.<br class=\"mb-3\">Қалпына келтіру парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді."
+msgstr ""
+"Бұл пароль бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін қажет.<br class=\"mb-3\">Қалпына келтіру парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
@@ -1993,62 +2015,70 @@ msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr "Орнатуды аяқтау мүмкін емес. Эл. поштаңызбен жүйеге кіріңіз."
 
 #: .es5/templates/pair/index.mustache:1
+msgid "Password created. You’re now syncing."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Account created. You’re now syncing."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
 msgstr "Жүйеге сәтті кірдіңіз!"
 
-#: .es5/templates/pair/index.mustache:8
+#: .es5/templates/pair/index.mustache:12
 msgid "Sync your Firefox experience"
 msgstr "Өзіңіздің Firefox тәжірибесін синхрондаңыз"
 
-#: .es5/templates/pair/index.mustache:9
+#: .es5/templates/pair/index.mustache:13
 msgid "Download Firefox for mobile"
 msgstr "Мобильді құрылғылар үшін Firefox-ты жүктеп алыңыз"
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:15
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
 msgstr "Барлық құрылғыларда сақталған парольдер, беттер, шолу тарихын және т.б. қараңыз."
 
-#: .es5/templates/pair/index.mustache:12
+#: .es5/templates/pair/index.mustache:16
 msgid "Select an option to continue:"
 msgstr "Жалғастыру үшін опцияны таңдаңыз:"
 
-#: .es5/templates/pair/index.mustache:13
+#: .es5/templates/pair/index.mustache:17
 msgid "I already have Firefox for mobile"
 msgstr "Менде мобильді Firefox бар"
 
-#: .es5/templates/pair/index.mustache:14
+#: .es5/templates/pair/index.mustache:18
 msgid "Start your sync now if you already have Firefox on your mobile device."
 msgstr "Мобильді құрылғыңызда Firefox бар болса, синхрондауды қазір бастаңыз."
 
-#: .es5/templates/pair/index.mustache:15
+#: .es5/templates/pair/index.mustache:19
 msgid "I don’t have Firefox for mobile"
 msgstr "Менде мобильді Firefox жоқ"
 
-#: .es5/templates/pair/index.mustache:16
+#: .es5/templates/pair/index.mustache:20
 msgid "Download Firefox on your mobile device, then start your sync."
 msgstr "Мобильді құрылғыңызға Firefox жүктеп алыңыз, содан кейін синхрондауды бастаңыз."
 
-#: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
+#: .es5/templates/pair/index.mustache:22 .es5/templates/pair/index.mustache:28
 msgid "Not now"
 msgstr "Қазір емес"
 
-#: .es5/templates/pair/index.mustache:19
+#: .es5/templates/pair/index.mustache:23
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
 msgstr "Телефонда немесе планшетте Firefox-ты синхрондау үшін алдымен мобильді телефонға Firefox-ты жүктеп алу керек. Оны келесідей жасауға болады:"
 
-#: .es5/templates/pair/index.mustache:20
+#: .es5/templates/pair/index.mustache:24
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
 msgstr "<b>1-қадам</b>: Мобильді құрылғыңыздағы камерамен осы QR кодын сканерлеу арқылы Firefox қолданбасын жүктеп алыңыз:"
 
-#: .es5/templates/pair/index.mustache:21
+#: .es5/templates/pair/index.mustache:25
 msgid "QR code (located in the middle of the screen)"
 msgstr "QR коды (экранның ортасында орналасқан)"
 
-#: .es5/templates/pair/index.mustache:22
+#: .es5/templates/pair/index.mustache:26
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
 msgstr "<b>2-қадам</b>: Мобильді құрылғыда Firefox тәжірибесін синхрондау үшін \"Синхрондауға жалғастыру\" опциясын таңдаңыз."
 
-#: .es5/templates/pair/index.mustache:23
+#: .es5/templates/pair/index.mustache:27
 msgid "Continue to sync"
 msgstr "Синхрондауға жалғастыру"
 

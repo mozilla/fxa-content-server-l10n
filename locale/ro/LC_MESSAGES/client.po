@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-09 20:23+0000\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "Generated-By: Pontoon\n"
@@ -23,11 +25,11 @@ msgstr "Parolă resetată cu succes. Intră în cont pentru a continua."
 msgid "Sign in"
 msgstr "Autentificare"
 
-#: .es5/views/index.js:154
+#: .es5/views/index.js:156
 msgid "Account deleted successfully"
 msgstr "Cont șters cu succes"
 
-#: .es5/views/inline_totp_setup.js:128
+#: .es5/views/inline_totp_setup.js:127
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
 msgstr "Folosește codul %(code)s și configurează autentificarea în doi pași în aplicațiile acceptate."
 
@@ -107,15 +109,15 @@ msgstr "Cont necunoscut. <a href=\"/signup\">Înscrie-te</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Contul nu mai există. Îl recreezi?"
 
-#: .es5/views/support.js:230 .es5/templates/support.mustache:10
+#: .es5/views/support.js:237 .es5/templates/support.mustache:10
 msgid "Other"
 msgstr "Altele"
 
-#: .es5/views/support.js:231
+#: .es5/views/support.js:238
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
 msgstr "Îți mulțumim că ai apelat la Mozilla Support pentru <b>%(escapedLowercaseTopic)s</b>. Te vom contacta prin e-mail cât mai curând posibil."
 
-#: .es5/views/support.js:233
+#: .es5/views/support.js:240
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
 msgstr "Îți mulțumim că ai apelat la Mozilla Support legat de <b>%(escapedLowercaseTopic)s</b> pentru <b>%(escapedSelectedProduct)s</b>. Te vom contacta prin e-mail cât mai curând posibil."
 
@@ -168,11 +170,11 @@ msgstr "Deschide Outlook"
 msgid "Open Restmail"
 msgstr "Deschide Restmail"
 
-#: .es5/views/mixins/password-mixin.js:135 .es5/views/mixins/password-mixin.js:136
+#: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
 msgstr "Ascunde parola"
 
-#: .es5/views/mixins/password-mixin.js:155 .es5/views/mixins/password-mixin.js:156 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
+#: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Afișează parola"
 
@@ -673,39 +675,39 @@ msgstr "Necesită cod de autentificare de rezervă"
 msgid "Invalid backup authentication code"
 msgstr "Cod de autentificare de rezervă nevalid"
 
-#: .es5/lib/auth-errors.js:578
+#: .es5/lib/auth-errors.js:576
 msgid "Account recovery key required"
 msgstr "Necesită cheie de recuperare a contului"
 
-#: .es5/lib/auth-errors.js:582
+#: .es5/lib/auth-errors.js:580
 msgid "Please enter verification code"
 msgstr "Te rugăm să introduci codul de verificare"
 
-#: .es5/lib/auth-errors.js:593
+#: .es5/lib/auth-errors.js:591
 msgid "Invalid redirect"
 msgstr "Redirecționare nevalidă"
 
-#: .es5/lib/auth-errors.js:604
+#: .es5/lib/auth-errors.js:602
 msgid "Mistyped email? %(domain)s does not offer email."
 msgstr "Ai scris greșit adresa de e-mail? %(domain)s nu oferă poștă electronică."
 
-#: .es5/lib/auth-errors.js:608
+#: .es5/lib/auth-errors.js:606
 msgid "The image file size is too large to be uploaded."
 msgstr "Mărimea fișierului de imagine este prea mare și nu poate fi încărcat."
 
-#: .es5/lib/auth-errors.js:612
+#: .es5/lib/auth-errors.js:610
 msgid "Email masks can’t be used to create an account."
 msgstr "Măștile de e-mail nu pot fi folosite la creat conturi."
 
-#: .es5/lib/auth-errors.js:685
+#: .es5/lib/auth-errors.js:682
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
 msgstr "Conturile Firefox pot fi plasate numai într-un IFRAME pe site-urile aprobate"
 
-#: .es5/lib/config-loader.js:101
+#: .es5/lib/config-loader.js:100
 msgid "Missing configuration"
 msgstr "Configurație lipsă"
 
-#: .es5/lib/config-loader.js:105
+#: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "Configurație nevalidă"
 
@@ -830,7 +832,9 @@ msgid "Invalid Token"
 msgstr "Jeton nevalid"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Prin continuare, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Condițiile de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Notificarea privind "
 "confidenţialitatea</a> %(serviceName)s (%(serviceUri)s)."
@@ -899,7 +903,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Te rugăm să introduci cheia de recuperare a contului de unică folosință pe care ai păstrat-o într-un loc sigur ca să recuperezi accesul la contul tău Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">OBS:</span> Dacă resetezi parola și ai cheia de recuperare a contului salvată, unele date vor fi șterse (inclusiv datele sincronizate de pe server, precum istoricul și "
 "marcajele)."
@@ -1014,7 +1019,7 @@ msgid "Not in inbox or spam folder? Resend"
 msgstr "Nu e în căsuța poștală sau în dosarul de spam? Retrimite"
 
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
+#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr "Înapoi"
 
@@ -1052,7 +1057,8 @@ msgstr "Codul a expirat?"
 msgid "Email new code."
 msgstr "Trimite codul nou prin e-mail."
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:7 .es5/templates/pair/unsupported.mustache:1
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "Conectează alt dispozitiv"
 
@@ -1104,36 +1110,43 @@ msgstr "Parolă"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Prin continuare, ești de acord cu:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Prin continuare, ești de acord cu:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente "
+"abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Prin continuare, ești de acord cu <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> și <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>."
+"Prin continuare, ești de acord cu <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1179,28 +1192,34 @@ msgstr "Un cont Mozilla deblochează și accesul la mai multe produse de la Mozi
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Prin continuare, ești de acord cu:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "               Prin continuare, ești de acord cu:<br />\n"
-"               <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"               <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente "
+"abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>\n"
 "            "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1224,7 +1243,7 @@ msgid "Print"
 msgstr "Printează"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:17
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:21
 msgid "Continue"
 msgstr "Continuă"
 
@@ -1367,8 +1386,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>NOTĂ:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (inclusiv istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru "
-"a-ți proteja confidențialitatea. Vei avea în continuare orice abonamente existente, iar datele din Pocket nu vor fi afectate."
+"<span>NOTĂ:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (inclusiv istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru a-"
+"ți proteja confidențialitatea. Vei avea în continuare orice abonamente existente, iar datele din Pocket nu vor fi afectate."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1844,8 +1863,8 @@ msgstr "Află mai multe"
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr ""
-"Am redenumit conturile Firefox cu conturi Mozilla. Te vei autentifica în continuare în cont cu același nume de utilizator și aceeași adresă și nu mai sunt alte modificări aduse produselor pe care le"
-" utilizezi."
+"Am redenumit conturile Firefox cu conturi Mozilla. Te vei autentifica în continuare în cont cu același nume de utilizator și aceeași adresă și nu mai sunt alte modificări aduse produselor pe care "
+"le utilizezi."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
@@ -1998,62 +2017,70 @@ msgid "The setup couldn’t be completed. Please sign in with your email."
 msgstr "Configurarea nu a putut fi finalizată. Te rugăm să te autentifici cu adresa de e-mail."
 
 #: .es5/templates/pair/index.mustache:1
+msgid "Password created. You’re now syncing."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:3
+msgid "Account created. You’re now syncing."
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
 msgstr "Autentificare reușită!"
 
-#: .es5/templates/pair/index.mustache:8
+#: .es5/templates/pair/index.mustache:12
 msgid "Sync your Firefox experience"
 msgstr "Sincronizează-ți experiența cu Firefox"
 
-#: .es5/templates/pair/index.mustache:9
+#: .es5/templates/pair/index.mustache:13
 msgid "Download Firefox for mobile"
 msgstr "Descarcă Firefox pentru mobil"
 
-#: .es5/templates/pair/index.mustache:11
+#: .es5/templates/pair/index.mustache:15
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
 msgstr "Vezi parolele salvate, filele, istoricul de navigare și multe altele — pe toate dispozitivele."
 
-#: .es5/templates/pair/index.mustache:12
+#: .es5/templates/pair/index.mustache:16
 msgid "Select an option to continue:"
 msgstr "Selectează o opțiune pentru a continua:"
 
-#: .es5/templates/pair/index.mustache:13
+#: .es5/templates/pair/index.mustache:17
 msgid "I already have Firefox for mobile"
 msgstr "Am deja Firefox pentru mobil"
 
-#: .es5/templates/pair/index.mustache:14
+#: .es5/templates/pair/index.mustache:18
 msgid "Start your sync now if you already have Firefox on your mobile device."
 msgstr "Începe sincronizarea acum dacă ai deja Firefox pe dispozitivul mobil."
 
-#: .es5/templates/pair/index.mustache:15
+#: .es5/templates/pair/index.mustache:19
 msgid "I don’t have Firefox for mobile"
 msgstr "Nu am Firefox pentru mobil"
 
-#: .es5/templates/pair/index.mustache:16
+#: .es5/templates/pair/index.mustache:20
 msgid "Download Firefox on your mobile device, then start your sync."
 msgstr "Descarcă Firefox pe dispozitivul mobil, apoi începe sincronizarea."
 
-#: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
+#: .es5/templates/pair/index.mustache:22 .es5/templates/pair/index.mustache:28
 msgid "Not now"
 msgstr "Nu acum"
 
-#: .es5/templates/pair/index.mustache:19
+#: .es5/templates/pair/index.mustache:23
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
 msgstr "Pentru a sincroniza Firefox pe telefon sau tabletă, trebuie mai întâi să descarci Firefox pentru mobil. Iată cum:"
 
-#: .es5/templates/pair/index.mustache:20
+#: .es5/templates/pair/index.mustache:24
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
 msgstr "<b>Pasul 1</b>: Descarcă Firefox scanând acest cod QR cu camera dispozitivului mobil:"
 
-#: .es5/templates/pair/index.mustache:21
+#: .es5/templates/pair/index.mustache:25
 msgid "QR code (located in the middle of the screen)"
 msgstr "Cod QR (situat în mijlocul ecranului)"
 
-#: .es5/templates/pair/index.mustache:22
+#: .es5/templates/pair/index.mustache:26
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
 msgstr "<b>Pasul 2</b>: Selectează „Continuă cu sincronizarea” pentru sincronizarea experienței tale Firefox pe dispozitivul mobil."
 
-#: .es5/templates/pair/index.mustache:23
+#: .es5/templates/pair/index.mustache:27
 msgid "Continue to sync"
 msgstr "Continuă cu sincronizarea"
 

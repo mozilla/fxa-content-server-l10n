@@ -243,6 +243,8 @@ next-payment-confirm-with-legal-links-static-3 = Ik autorisearje { -brand-mozill
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Om jo fergeze proefperioade te starten, is in betellingsmetoade fereaske. Der is foar { $endDate } neat ferskuldige.
+checkbox-confirm-free-trial-with-legal-links = Ik autorisearje { -brand-mozilla } om, neidat de fergeze proefperioade einiget op { $endDate }, myn betellingsmetoade foar it toande bedrach te belêsten, yn oerienstimming mei de <termsOfServiceLink>Tsjinstbetingsten</termsOfServiceLink> en de <privacyNoticeLink>Privacyferklearring</privacyNoticeLink>, oant ik myn abonnemint beëinigje.
 next-payment-confirm-checkbox-error = Jo moatte dit foltôgje eardat jo fierder gean
 
 ## Checkout Form
