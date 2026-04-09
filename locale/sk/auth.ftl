@@ -206,6 +206,15 @@ fraudulentAccountDeletion-contact = Ak máte nejaké otázky, kontaktujte náš 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ak máte nejaké otázky, kontaktujte náš tím podpory: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Vaša bezplatná skúšobná verzia produktu { $productName } sa čoskoro skončí
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Vážený zákazník produktu { $productName },
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Vaša bezplatná skúšobná verzia sa má skončiť dňa <strong>{ $serviceLastActiveDateOnly }</strong>.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Vaše predplatné produktu { $productName } bolo zrušené

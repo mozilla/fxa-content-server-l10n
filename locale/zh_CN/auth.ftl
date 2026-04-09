@@ -225,6 +225,12 @@ freeTrialEndingReminder-content-cancel-link-plaintext = 为避免收费，请于
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-thanks = 感谢您使用 { $productName }。如果您对试用或订阅有任何疑问，请<a data-l10n-name="freeTrialEndingReminder-contact-support">联系我们</a>。
 freeTrialEndingReminder-content-thanks-plaintext = 感谢您使用 { $productName }。如果您对试用或订阅有任何疑问，请联系我们。
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = { $productName } 团队
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = 联系我们：{ $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = 您的 { $productName } 订阅已取消
@@ -261,6 +267,9 @@ subscriptionCancellation-outstanding-content-2 = 我们已取消您的 { $produc
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = 您可持续使用订阅的服务至账单周期结束（{ $serviceLastActiveDateOnly }）为止。
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = 您的 { $productName } 免费试用已取消
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
