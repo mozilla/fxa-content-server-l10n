@@ -363,9 +363,17 @@ free-trial-content-button-cancel-trial-aria = Cancel trial for { $productName }
 
 free-trial-content-last-bill = Last bill • { $billedOnDate }
 free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } tax
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
 
+free-trial-content-link-view-invoice = View invoice
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = View invoice for { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Your free trial ended on <bold>{ $date }</bold>. We were unable to process your payment to start your subscription. Please update your payment method to activate your subscription and restore access to your services.
+free-trial-content-payment-failed-no-date = We were unable to process your payment to start your subscription. Please update your payment method to activate your subscription and restore access to your services.
+free-trial-content-button-update-payment = Update payment method
 
 # Component - Header
 
@@ -444,6 +452,40 @@ purchase-details-credit-applied-label = Credit applied
 purchase-details-total-due-label = Total due
 next-plan-details-hide-button = Hide details
 next-plan-details-show-button = Show details
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+       *[other] Start your { $trialDayLength }-day free trial
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+       *[other] Your { $trialDayLength }-day free trial has started
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = No payment required today. You will be charged { $firstPrice }/day after the free trial ends on { $endDate }.
+free-trial-start-message-weekly = No payment required today. You will be charged { $firstPrice }/week after the free trial ends on { $endDate }.
+free-trial-start-message-monthly = No payment required today. You will be charged { $firstPrice }/month after the free trial ends on { $endDate }.
+free-trial-start-message-halfyearly = No payment required today. You will be charged { $firstPrice }/6 months after the free trial ends on { $endDate }.
+free-trial-start-message-yearly = No payment required today. You will be charged { $firstPrice }/year after the free trial ends on { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = First charge: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = You will be billed { $firstPrice } on { $endDate }, then daily thereafter until you cancel.
+free-trial-first-charge-message-weekly = You will be billed { $firstPrice } on { $endDate }, then weekly thereafter until you cancel.
+free-trial-first-charge-message-monthly = You will be billed { $firstPrice } on { $endDate }, then monthly thereafter until you cancel.
+free-trial-first-charge-message-halfyearly = You will be billed { $firstPrice } on { $endDate }, then every 6 months thereafter until you cancel.
+free-trial-first-charge-message-yearly = You will be billed { $firstPrice } on { $endDate }, then yearly thereafter until you cancel.
 
 ##
 
