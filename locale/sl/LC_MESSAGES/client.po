@@ -1992,11 +1992,11 @@ msgstr "Namestitve ni bilo mogoče dokončati. Prijavite se s svojim e-poštnim 
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Geslo ustvarjeno. Zdaj se sinhronizira."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Račun ustvarjen. Zdaj se sinhronizira."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

@@ -96,6 +96,8 @@ automated-email-reset-pwd-two-factor = Če tega niste storili vi, takoj <a data-
 automated-email-reset-pwd-plaintext-v3 = Če tega dejanja niste storili vi, takoj ponastavite geslo:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Ponastavite tudi overitev v dveh korakih:
+automated-email-sign-in = To je samodejno sporočilo; če niste sprožili tega dejanja, <a data-l10n-name="securitySettingsLink">preglejte varnostne nastavitve računa</a>. Za več informacij obiščite <a data-l10n-name="supportLink">podporo za { -brand-mozilla }</a>.
+automated-email-sign-in-plaintext = Če niste vi sprožili tega dejanja, si oglejte varnostne nastavitve računa na:
 brand-banner-message = Ali ste vedeli, da smo se preimenovali iz { -product-firefox-accounts } v { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Več o tem</a>
 change-password-plaintext = Če slutite, da nekdo poskuša pridobiti dostop do vašega računa, spremenite geslo.
 manage-account = Upravljanje računa
@@ -260,6 +262,15 @@ postAddLinkedAccount-subject-2 = Nov račun povezan z vašim { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Vaš račun { $providerName } se je povezal z vašim { -product-mozilla-account(sklon: "orodnik") }
 postAddLinkedAccount-action = Upravljanje računa
+postAddPasskey-subject = Geslo ustvarjeno
+postAddPasskey-preview = Zdaj lahko za prijavo uporabljate svojo napravo
+postAddPasskey-title = Ustvarili ste geslo
+postAddPasskey-description = Zdaj ga lahko uporabljate za prijavo v vse svoje storitve { -product-mozilla-account }.
+postAddPasskey-sync-note = Upoštevajte, da bo geslo še naprej zahtevano za dostop do podatkov za sinhronizacijo { -brand-firefox }.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Več o tem
+postAddPasskey-requested-from = To ste zahtevali z naslednje naprave:
+postAddPasskey-action = Upravljanje računa
 postAddRecoveryPhone-subject = Telefonska številka za obnovitev je dodana
 postAddRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korakih
 postAddRecoveryPhone-title-v2 = Dodali ste telefonsko številko za obnovitev

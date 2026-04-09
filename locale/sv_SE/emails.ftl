@@ -98,6 +98,8 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Om du inte vidtog den här åtgärden, återställ ditt lösenord direkt på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Återställ också tvåstegsautentisering på:
+automated-email-sign-in = Detta är ett automatiskt e-postmeddelande. om du inte godkände den här åtgärden, vänligen <a data-l10n-name="securitySettingsLink">granska dina kontosäkerhetsinställningar</a>. För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-sign-in-plaintext = Om du inte godkände den här åtgärden, granska dina kontosäkerhetsinställningar på:
 brand-banner-message = Visste du att vi ändrade vårt namn från { -product-firefox-accounts } till { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Läs mer</a>
 change-password-plaintext = Om du misstänker att någon försöker få åtkomst till ditt konto, ändra ditt lösenord.
 manage-account = Hantera konto
@@ -260,6 +262,15 @@ postAddLinkedAccount-subject-2 = Nytt konto länkat till ditt { -product-mozilla
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ditt { $providerName }-konto har länkats till ditt { -product-mozilla-account }
 postAddLinkedAccount-action = Hantera konto
+postAddPasskey-subject = Lösenordsnyckel skapad
+postAddPasskey-preview = Du kan nu använda din enhet för att logga in
+postAddPasskey-title = Du skapade en lösenordsnyckel
+postAddPasskey-description = Du kan nu använda den för att logga in på alla dina { -product-mozilla-account }-tjänster.
+postAddPasskey-sync-note = Observera att ditt lösenord fortsätter att krävas för att komma åt dina synkroniseringsdata för { -brand-firefox }.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Läs mer
+postAddPasskey-requested-from = Du begärde detta från:
+postAddPasskey-action = Hantera konto
 postAddRecoveryPhone-subject = Återställningstelefon tillagd
 postAddRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postAddRecoveryPhone-title-v2 = Du har lagt till ett återställningstelefonnummer

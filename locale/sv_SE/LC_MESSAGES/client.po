@@ -1994,11 +1994,11 @@ msgstr "Installationen kunde inte slutföras. Vänligen logga in med din e-posta
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Lösenord skapat. Du synkroniserar nu."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Konto skapat. Du synkroniserar nu."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

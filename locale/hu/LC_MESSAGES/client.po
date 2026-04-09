@@ -1997,11 +1997,11 @@ msgstr "A telepítés nem fejezhető be. Jelentkezzen be az e-mail-címével."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Jelszó létrehozva. Most szinkronizál."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Fiók létrehozva. Most szinkronizál."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

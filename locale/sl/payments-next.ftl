@@ -28,6 +28,7 @@ location-banner-currency-change = Spreminjanje valute ni podprto. Za nadaljevanj
 upgrade-page-payment-information = Podatki o plačilu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Vaš načrt se bo takoj spremenil in danes vam bomo zaračunali sorazmeren znesek do preostanka obračunskega cikla. Od { $nextInvoiceDate } vam bomo zaračunali celoten znesek.
+upgrade-page-acknowledgment-from-trial = Z nadgradnjo se bo vaš aktivni brezplačni preskus takoj potekel in nov načrt vam bo zaračunan danes.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Obrnite se na podporo
 subscription-management-page-banner-warning-title-no-payment-method = Dodano ni nobeno plačilno sredstvo
 subscription-management-page-banner-warning-link-no-payment-method = Dodaj plačilno sredstvo
 subscription-management-subscriptions-heading = Naročnine
+subscription-management-free-trial-heading = Brezplačni preskusi
+subscription-management-your-free-trials-aria = Vaše brezplačne preskuse
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Skoči na
+subscription-management-nav-free-trials = Brezplačni preskusi
 subscription-management-nav-payment-details = Podatki o plačilu
 subscription-management-nav-active-subscriptions = Aktivne naročnine
 subscription-management-payment-details-heading = Podatki o plačilu
@@ -320,8 +324,56 @@ next-coupon-promo-code-applied = Promocijska koda uveljavljena
 next-coupon-remove = Odstrani
 next-coupon-submit = Uveljavi
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Vaš brezplačen preskus poteče { $date }.
+free-trial-content-trial-cancelled = Vaš brezplačen preskus je bil preklican.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Po izteku brezplačnega preskusa ob { $date } vam bomo zaračunali { $amount } + { $tax } davek na dan.
+free-trial-content-charge-info-with-tax-week = Po izteku brezplačnega preskusa ob { $date } vam bomo zaračunali { $amount } + { $tax } davek na teden.
+free-trial-content-charge-info-with-tax-month = Po izteku brezplačnega preskusa na dan { $date } vam bomo zaračunali { $amount } + { $tax } davek na mesec.
+free-trial-content-charge-info-with-tax-halfyear = Po izteku brezplačnega preskusa ob { $date } vam bomo vsakih šest mesecev zaračunali { $amount } + { $tax } davek.
+free-trial-content-charge-info-with-tax-year = Po izteku brezplačnega preskusa ob { $date } vam bomo zaračunali { $amount } + { $tax } davek letno.
+free-trial-content-charge-info-with-tax-default = Po izteku brezplačnega preskusa ob { $date } vam bomo zaračunali { $amount } + davek { $tax }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Po izteku brezplačnega preskusa ob { $date } vam bomo zaračunali { $amount } na dan.
+free-trial-content-charge-info-no-tax-week = Po izteku brezplačnega preskusa na dan { $date } vam bomo zaračunali { $amount } na teden.
+free-trial-content-charge-info-no-tax-month = Po izteku brezplačnega preskusa na dan { $date } vam bomo zaračunali { $amount } na mesec.
+free-trial-content-charge-info-no-tax-halfyear = Po izteku brezplačnega preskusa na dan { $date } vam bomo zaračunali { $amount } vsakih šest mesecev.
+free-trial-content-charge-info-no-tax-year = Po izteku brezplačnega preskusa dne { $date } vam bomo zaračunali { $amount } letno.
+free-trial-content-charge-info-no-tax-default = Po izteku brezplačnega preskusa dne { $date } vam bomo zaračunali { $amount }.
+free-trial-content-trial-ends = Vaš brezplačen preskus se poteče { $date }. Posodobite način plačila, da obdržite dostop po poteku brezplačnega preskusnega obdobja.
+free-trial-content-trial-active = Vaš brezplačni preskus je aktiven.
+free-trial-content-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
+free-trial-content-button-resume-trial = Nadaljuj preskušanje
+free-trial-content-button-resume-trial-aria = Nadaljuj preskus za { $productName }
+free-trial-content-button-cancel-trial = Prekliči preskus
+free-trial-content-button-cancel-trial-aria = Prekliči preskus za { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Zadnji račun • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } davka
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Ogled računa
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Prikaži račun za { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Vaše brezplačno preskusno obdobje se je izteklo <bold>{ $date }</bold>. Vašega plačila za začetek naročnine nismo mogli obdelati. Posodobite svoje plačilno sredstvo, da aktivirate naročnino in obnovite dostop do svojih storitev.
+free-trial-content-payment-failed-no-date = Vašega plačila za začetek naročnine nismo mogli obdelati. Posodobite svoje plačilno sredstvo, da aktivirate naročnino in obnovite dostop do svojih storitev.
+free-trial-content-button-update-payment = Posodobite način plačila
 
 # Component - Header
 
@@ -400,6 +452,46 @@ purchase-details-credit-applied-label = Dobropis uveljavljen
 purchase-details-total-due-label = Skupaj zapadli
 next-plan-details-hide-button = Skrij podrobnosti
 next-plan-details-show-button = Pokaži podrobnosti
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Začnite { $trialDayLength }-dnevni brezplačen preskus
+        [two] Začnite { $trialDayLength }-dnevni brezplačen preskus
+        [few] Začnite { $trialDayLength }-dnevni brezplačen preskus
+       *[other] Začnite { $trialDayLength }-dnevni brezplačen preskus
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Vaš { $trialDayLength }-dnevni brezplačen preskus se je začel
+        [two] Vaš { $trialDayLength }-dnevni brezplačen preskus se je začel
+        [few] Vaš { $trialDayLength }-dnevni brezplačen preskus se je začel
+       *[other] Vaš { $trialDayLength }-dnevni brezplačen preskus se je začel
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Danes plačilo ni potrebno. Po izteku brezplačnega preskusa na dan { $endDate } vam bomo zaračunali { $firstPrice }/dan.
+free-trial-start-message-weekly = Danes plačilo ni potrebno. Po izteku brezplačnega preskusa na dan { $endDate } vam bomo zaračunali { $firstPrice } na teden.
+free-trial-start-message-monthly = Danes plačilo ni potrebno. Po izteku brezplačnega preskusa na dan { $endDate } vam bomo zaračunali { $firstPrice }/mesec.
+free-trial-start-message-halfyearly = Danes plačilo ni potrebno. Zaračunali vam bomo { $firstPrice }/6 mesecev po izteku brezplačnega preskusa na dan { $endDate }.
+free-trial-start-message-yearly = Danes plačilo ni potrebno. Po izteku brezplačnega preskusa dne { $endDate } vam bomo zaračunali { $firstPrice }/leto.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Prva bremenitev: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = { $endDate } vam bomo zaračunali { $firstPrice }, nato vsak dan, dokler ne prekličete.
+free-trial-first-charge-message-weekly = { $endDate } vam bomo zaračunali { $firstPrice }, nato enkrat tedensko, dokler ne prekličete.
+free-trial-first-charge-message-monthly = { $endDate } vam bomo zaračunali { $firstPrice }, nato enkrat mesečno, dokler ne prekličete.
+free-trial-first-charge-message-halfyearly = { $endDate } vam bomo zaračunali { $firstPrice }, nato vsakih 6 mesecev, dokler ne prekličete.
+free-trial-first-charge-message-yearly = Zaračunali vam bomo { $firstPrice } dne { $endDate }, nato vsako leto, dokler ne prekličete.
 
 ##
 

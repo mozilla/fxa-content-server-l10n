@@ -1999,11 +1999,11 @@ msgstr "Impossibile completare la configurazione. Accedi con il tuo indirizzo em
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Password creata. Sincronizzazione in corso."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Account creato. Sincronizzazione in corso."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

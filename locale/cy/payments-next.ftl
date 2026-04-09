@@ -28,6 +28,7 @@ location-banner-currency-change = Dyw newid arian cyfred ddim yn cael ei gefnogi
 upgrade-page-payment-information = Manylion Talu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a byddwn yn codi swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau ar { $nextInvoiceDate } byddwn yn codi'r swm llawn arnoch.
+upgrade-page-acknowledgment-from-trial = Trwy uwchraddio, bydd eich treial am ddim gweithredol yn dod i ben ar unwaith a chodir tâl arnoch am eich cynllun newydd heddiw.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Cysylltu â'n Cefnogaeth
 subscription-management-page-banner-warning-title-no-payment-method = Dim dull talu wedi'i ychwanegu
 subscription-management-page-banner-warning-link-no-payment-method = Ychwanegu dull talu
 subscription-management-subscriptions-heading = Tanysgrifiadau
+subscription-management-free-trial-heading = Treialon am ddim
+subscription-management-your-free-trials-aria = Eich treialon rhad ac am ddim
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Symud i
+subscription-management-nav-free-trials = Treialon am ddim
 subscription-management-nav-payment-details = Manylion talu
 subscription-management-nav-active-subscriptions = Tanysgrifiadau gweithredol
 subscription-management-payment-details-heading = Manylion talu
@@ -320,8 +324,56 @@ next-coupon-promo-code-applied = Cod Hyrwyddo wedi'i Osod
 next-coupon-remove = Tynnu
 next-coupon-submit = Gosod
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Daw eich treial am ddim i ben ar { $date }.
+free-trial-content-trial-cancelled = Mae eich treial am ddim wedi'i ganslo.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Codir { $amount } + { $tax } treth arnoch y diwrnod ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-week = Codir { $amount } + { $tax } treth arnoch yr wythnos ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-month = Codir { $amount } + { $tax } treth arnoch y mis ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Codir { $amount } + { $tax } treth arnoch bob chwe mis ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-year = Codir { $amount } + { $tax } treth y flwyddyn arnoch ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-default = Codir { $amount } + { $tax } treth arnoch ar ôl i'r treial am ddim ddod i ben ar { $date }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Codir { $amount } arnoch y diwrnod ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-no-tax-week = Codir { $amount } arnoch yr wythnos ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-no-tax-month = Codir { $amount } arnoch y mis ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Codir { $amount } arnoch bob chwe mis ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-no-tax-year = Codir { $amount } arnoch y flwyddyn ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-no-tax-default = Codir { $amount } arnoch ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-trial-ends = Daw eich treial am ddim i ben ar { $date }. Diweddarwch eich dull talu i gadw mynediad ar ôl eich treial am ddim.
+free-trial-content-trial-active = Mae eich treial am ddim yn weithredol.
+free-trial-content-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
+free-trial-content-button-resume-trial = Ailddechrau treial
+free-trial-content-button-resume-trial-aria = Ailddechrau treial am { $productName }
+free-trial-content-button-cancel-trial = Canslo treial
+free-trial-content-button-cancel-trial-aria = Canslo treial am { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Bil diwethaf • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } treth
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Gweld anfoneb
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Gweld anfoneb am { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Daeth eich treial am ddim i ben ar <bold>{ $date }</bold>. Nid oeddem yn gallu prosesu eich taliad i gychwyn eich tanysgrifiad. Diweddarwch eich dull talu i actifadu eich tanysgrifiad ac adfer mynediad i'ch gwasanaethau.
+free-trial-content-payment-failed-no-date = Nid oeddem yn gallu prosesu eich taliad i gychwyn eich tanysgrifiad. Diweddarwch eich dull talu i actifadu eich tanysgrifiad ac adfer mynediad i'ch gwasanaethau.
+free-trial-content-button-update-payment = Diweddaru'r dull talu
 
 # Component - Header
 
@@ -400,6 +452,50 @@ purchase-details-credit-applied-label = Credyd wedi'i osod
 purchase-details-total-due-label = Y cyfanswm sy'n ddyledus
 next-plan-details-hide-button = Cuddio manylion
 next-plan-details-show-button = Dangos manylion
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [zero] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
+        [one] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
+        [two] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
+        [few] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
+        [many] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
+       *[other] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [zero] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
+        [one] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
+        [two] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
+        [few] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
+        [many] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
+       *[other] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Dim angen taliad heddiw. Codir { $firstPrice }/diwrnod arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-weekly = Dim angen taliad heddiw. Codir { $firstPrice }/wythnos arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-monthly = Dim angen taliad heddiw. Codir { $firstPrice }/mis arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-halfyearly = Dim angen taliad heddiw. Codir { $firstPrice }/6 mis arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-yearly = Dim angen taliad heddiw. Codir { $firstPrice }/flwyddyn arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Tâl cyntaf: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna bob dydd wedi hynny nes i chi ganslo.
+free-trial-first-charge-message-weekly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna'n wythnosol wedi hynny nes i chi ganslo.
+free-trial-first-charge-message-monthly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna'n fisol wedi hynny nes i chi ganslo.
+free-trial-first-charge-message-halfyearly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna bob 6 mis wedi hynny nes i chi ganslo.
+free-trial-first-charge-message-yearly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna bob blwyddyn wedi hynny nes i chi ganslo.
 
 ##
 

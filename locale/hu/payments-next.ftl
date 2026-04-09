@@ -30,6 +30,7 @@ upgrade-page-payment-information = Fizetési információk
 upgrade-page-acknowledgment =
     A csomagja azonnal megváltozik, és a mai napon arányos összeget fog fizetni a számlázási időszak hátralévő részéből. A következő dátumtól
     kezdve a teljes összeg levonásra kerül: { $nextInvoiceDate }.
+upgrade-page-acknowledgment-from-trial = Frissítéssel az aktív ingyenes próbaidőszak azonnal lejár, és ma kiszámlázzuk az új előfizetését.
 
 ## Authentication Error page
 
@@ -142,8 +143,11 @@ interstitial-offer-error-button-contact-support = Kapcsolatfelvétel az ügyfél
 subscription-management-page-banner-warning-title-no-payment-method = Nincs fizetési mód hozzáadva
 subscription-management-page-banner-warning-link-no-payment-method = Fizetési mód hozzáadása
 subscription-management-subscriptions-heading = Előfizetések
+subscription-management-free-trial-heading = Ingyenes próbaverziók
+subscription-management-your-free-trials-aria = Az ingyenes próbaverziók
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Ugrás ide:
+subscription-management-nav-free-trials = Ingyenes próbaverziók
 subscription-management-nav-payment-details = Fizetési részletek
 subscription-management-nav-active-subscriptions = Aktív előfizetések
 subscription-management-payment-details-heading = Fizetési részletek
@@ -322,8 +326,56 @@ next-coupon-promo-code-applied = Promóciós kód alkalmazva
 next-coupon-remove = Eltávolítás
 next-coupon-submit = Alkalmaz
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Az ingyenes próbaidőszak lejár: { $date }.
+free-trial-content-trial-cancelled = Az ingyenes próbaidőszak lemondásra került.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Számláját levonjuk { $amount } + { $tax } adóval naponta az ingyenes próba { $date } vége után.
+free-trial-content-charge-info-with-tax-week = Heti { $amount } + { $tax } adót levonunk az ingyenes próba { $date } vége után.
+free-trial-content-charge-info-with-tax-month = Havi { $amount } + { $tax } adót fog fizetni az ingyenes próba { $date } vége után.
+free-trial-content-charge-info-with-tax-halfyear = Hat havonta { $amount } + { $tax } adót levonunk az ingyenes próba { $date } vége után.
+free-trial-content-charge-info-with-tax-year = évi { $amount } + { $tax } adót fog fizetni az ingyenes próba { $date } után.
+free-trial-content-charge-info-with-tax-default = { $amount } + { $tax } adót levonunk az ingyenes próba { $date } vége után.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Napi { $amount } { $amount } összeget fog fizetni az ingyenes próba { $date } után.
+free-trial-content-charge-info-no-tax-week = Heti { $amount } { $amount } összeget fog fizetni az ingyenes próbaidőszak lejárta ({ $date }) után.
+free-trial-content-charge-info-no-tax-month = Havi { $amount } { $amount } összeget fog fizetni az ingyenes próba { $date } lejárta után.
+free-trial-content-charge-info-no-tax-halfyear = Félévente { $amount } összeget levonunk az ingyenes próbaidőszak lejárta ({ $date }) után.
+free-trial-content-charge-info-no-tax-year = Évente { $amount } { $amount } összeget fog fizetni az ingyenes próba { $date } dátuma után.
+free-trial-content-charge-info-no-tax-default = { $amount } összeget levonunk az ingyenes próbaverzió vége után ({ $date }).
+free-trial-content-trial-ends = Az ingyenes próbaidőszak vége: { $date }. Frissítse a fizetési módot, hogy az ingyenes próbaidőszak után is elérje a hozzáférést.
+free-trial-content-trial-active = Az ingyenes próbaidőszak aktív.
+free-trial-content-action-error = Váratlan hiba történt. Próbálja meg újra.
+free-trial-content-button-resume-trial = Próbaidőszak folytatása
+free-trial-content-button-resume-trial-aria = Próbaidőszak folytatása { $productName } áron
+free-trial-content-button-cancel-trial = Próbaidőszak megszakítása
+free-trial-content-button-cancel-trial-aria = Próbaidőszak lemondása: { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Utolsó számla • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } adó
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Számla megtekintése
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = { $productName } számla megtekintése
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Az ingyenes próbaidőszak ekkor ért véget: <bold>{ $date }</bold>. Nem tudtuk feldolgozni az előfizetésének elindításához szükséges befizetését. Kérjük, frissítse a fizetési módot az előfizetés aktiválásához és a szolgáltatásokhoz való hozzáférés helyreállításához.
+free-trial-content-payment-failed-no-date = Nem tudtuk feldolgozni az előfizetésének elindításához szükséges befizetését. Kérjük, frissítse a fizetési módot az előfizetés aktiválásához és a szolgáltatásokhoz való hozzáférés helyreállításához.
+free-trial-content-button-update-payment = Fizetési mód frissítése
 
 # Component - Header
 
@@ -402,6 +454,42 @@ purchase-details-credit-applied-label = Jóváírás alkalmazva
 purchase-details-total-due-label = Teljes esedékesség
 next-plan-details-hide-button = Részletek elrejtése
 next-plan-details-show-button = Részletek megjelenítése
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Kezdje el a { $trialDayLength } napos ingyenes próbaverziót
+       *[other] Kezdje el a { $trialDayLength } napos ingyenes próbaverziót
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] A { $trialDayLength } napos ingyenes próba elkezdődött
+       *[other] A { $trialDayLength } napos ingyenes próba elkezdődött
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Ma nem kell fizetni. Napi { $firstPrice } összeget levonunk az ingyenes próbaidőszak lejárta ({ $endDate }) után.
+free-trial-start-message-weekly = Ma nem kell fizetni. Heti { $firstPrice } összeget levonunk az ingyenes próbaidőszak lejárta ({ $endDate }) után.
+free-trial-start-message-monthly = Ma nem kell fizetni. { $firstPrice }/hónap összeget fog fizetni az ingyenes próba { $endDate } vége után.
+free-trial-start-message-halfyearly = Ma nem kell fizetni. { $firstPrice }/6 hónap után levonásra kerül az ingyenes próba { $endDate } után.
+free-trial-start-message-yearly = Ma nem kell fizetni. Az ingyenes próbaidőszak { $endDate } dátuma után { $firstPrice }/év összeget fog fizetni.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Első terhelés: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően naponta, amíg le nem mondja az előfizetést.
+free-trial-first-charge-message-weekly = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően hetente, amíg le nem mondja.
+free-trial-first-charge-message-monthly = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően havonta, amíg le nem mondja az előfizetést.
+free-trial-first-charge-message-halfyearly = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően 6 havonta, amíg le nem mondja az előfizetést.
+free-trial-first-charge-message-yearly = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően évente, amíg le nem mondja az előfizetést.
 
 ##
 

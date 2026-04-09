@@ -473,7 +473,7 @@ churn-error-page-title-subscription-still-active = Dit abonnement på { $product
 plan-price-interval-daily = { $amount } dagligt
 plan-price-interval-weekly = { $amount } ugentligt
 plan-price-interval-monthly = { $amount } månedligt
-plan-price-interval-halfyearly = { $amount } hver 6 måned
+plan-price-interval-halfyearly = { $amount } hver 6. måned
 plan-price-interval-yearly = { $amount } årligt
 
 ## Component - SubscriptionTitle
