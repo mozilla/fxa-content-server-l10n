@@ -260,6 +260,8 @@ postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-accou
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tu conto { $providerName } ha essite ligate a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Gerer le conto
+postAddPasskey-subject = Clave-contrasigno create
+postAddPasskey-title = Tu creava un clave-contrasigno
 postAddRecoveryPhone-subject = Telephono de recuperation addite
 postAddRecoveryPhone-preview = Conto protegite per authentication a duo passos
 postAddRecoveryPhone-title-v2 = Tu addeva un numero de telephono de recuperation
