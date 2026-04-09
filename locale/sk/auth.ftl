@@ -215,6 +215,44 @@ freeTrialEndingReminder-content-greeting = Vážený zákazník produktu { $prod
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = Vaša bezplatná skúšobná verzia sa má skončiť dňa <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Vaša bezplatná skúšobná verzia sa má skončiť dňa { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Ak predplatné nezrušíte skôr, začne sa automaticky a dňa <strong>{ $serviceLastActiveDateOnly }</strong> vám naúčtujeme sumu <strong>{ $invoiceTotal }</strong> na spôsob platby uvedený vo vašom účte.
+freeTrialEndingReminder-content-auto-charge-plaintext = Ak predplatné nezrušíte skôr, začne sa automaticky a dňa { $serviceLastActiveDateOnly } vám naúčtujeme sumu { $invoiceTotal } na spôsob platby uvedený vo vašom účte.
+freeTrialEndingReminder-content-charge-heading = Podrobnosti o poplatku
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Predplatné pre { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Zľava: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Daň: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Celková suma k úhrade dňa { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Spôsob platby a informácie o účte si môžete skontrolovať alebo aktualizovať <a data-l10n-name="freeTrialEndingReminder-update-billing">tu</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Svoj spôsob platby a informácie o účte si môžete skontrolovať alebo aktualizovať tu:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Ak sa chcete vyhnúť poplatkom, zrušte predplatné pred dňom <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Zrušiť predplatné</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Ak sa chcete vyhnúť poplatku, zrušte predplatné pred dňom { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Ďakujeme, že ste vyskúšali { $productName }. Ak máte akékoľvek otázky týkajúce sa vašej skúšobnej verzie alebo predplatného, prosím, <a data-l10n-name="freeTrialEndingReminder-contact-support">kontaktujte nás</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Ďakujeme, že ste vyskúšali { $productName }. Ak máte akékoľvek otázky týkajúce sa skúšobnej verzie alebo predplatného, kontaktujte nás.
+freeTrialEndingReminder-content-closing = S pozdravom,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = Tím { $productName }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Kontaktujte nás: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Vaše predplatné produktu { $productName } bolo zrušené
