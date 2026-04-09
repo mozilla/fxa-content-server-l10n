@@ -1996,11 +1996,11 @@ msgstr "Instalaciski proces njeda so dokónčić. Prošu přizjewće so ze swoje
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Hesło je so wutworiło. Synchronizujeće nětko."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Konto je so wutworiło. Synchronizujeće nětko."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

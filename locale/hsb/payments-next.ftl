@@ -325,8 +325,33 @@ next-coupon-promo-code-applied = Akciski kod nałoženy
 next-coupon-remove = Wotstronić
 next-coupon-submit = Nałožić
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Poslednja zličbowanka • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } dawka
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Zličbowanku wobhladać
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Zličbowanku za { $productName } wobhladać
+free-trial-content-button-update-payment = Płaćensku metodu aktualizować
 
 # Component - Header
 

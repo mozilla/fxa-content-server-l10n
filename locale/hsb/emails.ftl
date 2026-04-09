@@ -262,6 +262,13 @@ postAddLinkedAccount-subject-2 = Nowe konto je so z wašim { -product-mozilla-ac
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Waše konto { $providerName } je so z wašim { -product-mozilla-account(case: "instr", capitalization: "lower") } zwjazało.
 postAddLinkedAccount-action = Konto rjadować
+postAddPasskey-subject = Hesłowy kluč je so wutworił
+postAddPasskey-preview = Móžeće nětko swój grat wužiwać, zo byšće so přizjewił
+postAddPasskey-title = Sće hesłowy kluč wutworił
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Dalše informacije
+postAddPasskey-requested-from = Sće to požadał wot:
+postAddPasskey-action = Konto rjadować
 postAddRecoveryPhone-subject = Wobnowjenski telefon přidaty
 postAddRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju škita
 postAddRecoveryPhone-title-v2 = Sće čisło wobnowjenskeho telefona přidał
