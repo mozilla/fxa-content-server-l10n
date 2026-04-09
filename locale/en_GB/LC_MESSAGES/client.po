@@ -1993,11 +1993,11 @@ msgstr "The setup couldn’t be completed. Please sign in with your email."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Password created. You’re now synchronising."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Account created. You’re now synchronising."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

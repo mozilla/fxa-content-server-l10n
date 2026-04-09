@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = If you didnʼt take this action, then reset your password right away at:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Also, reset two-step authentication at:
+automated-email-sign-in =
+    This is an automated email; if you did not authorise this action, then please <a data-l10n-name="securitySettingsLink">review your account security settings</a>.
+    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-sign-in-plaintext = If you did not authorise this action, please review your account security settings at:
 brand-banner-message = Did you know we changed our name from { -product-firefox-accounts } to { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Learn more</a>
 change-password-plaintext = If you suspect that someone is trying to gain access to your account, please change your password.
 manage-account = Manage account
@@ -260,6 +264,15 @@ postAddLinkedAccount-subject-2 = New account linked to your { -product-mozilla-a
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Your { $providerName } account has been linked to your { -product-mozilla-account }
 postAddLinkedAccount-action = Manage account
+postAddPasskey-subject = Passkey created
+postAddPasskey-preview = You can now use your device to sign in
+postAddPasskey-title = You created a passkey
+postAddPasskey-description = You can now use it to sign in to all your { -product-mozilla-account } services.
+postAddPasskey-sync-note = Please note, your password will continue to be required to access your { -brand-firefox } synchronised data.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Learn more
+postAddPasskey-requested-from = You requested this from:
+postAddPasskey-action = Manage account
 postAddRecoveryPhone-subject = Recovery phone added
 postAddRecoveryPhone-preview = Account protected by two-step authentication
 postAddRecoveryPhone-title-v2 = You added a recovery phone number
