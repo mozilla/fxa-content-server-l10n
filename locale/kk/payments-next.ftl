@@ -322,6 +322,7 @@ next-coupon-submit = Іске асыру
 
 ##
 
+free-trial-content-link-view-invoice = Шотты қарау
 
 # Component - Header
 
