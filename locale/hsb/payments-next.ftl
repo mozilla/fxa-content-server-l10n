@@ -145,7 +145,7 @@ subscription-management-page-banner-warning-title-no-payment-method = Žana pła
 subscription-management-page-banner-warning-link-no-payment-method = Płaćensku metodu přidać
 subscription-management-subscriptions-heading = Abonementy
 subscription-management-free-trial-heading = Darmotne testowe časy
-subscription-management-your-free-trials-aria = Waše testowe časy
+subscription-management-your-free-trials-aria = Waše darmotne testowe časy
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Skočić k
 subscription-management-nav-free-trials = Darmotne testowe časy

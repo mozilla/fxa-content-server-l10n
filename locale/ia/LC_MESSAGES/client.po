@@ -2005,7 +2005,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Conto create. Ora tu sta a synchronisar."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

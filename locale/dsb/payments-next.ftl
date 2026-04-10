@@ -144,8 +144,11 @@ interstitial-offer-error-button-contact-support = Pomoc kontaktěrowaś
 subscription-management-page-banner-warning-title-no-payment-method = Žedna płaśeńska metoda pśidana
 subscription-management-page-banner-warning-link-no-payment-method = Płaśeńsku metodu pśidaś
 subscription-management-subscriptions-heading = Abonementy
+subscription-management-free-trial-heading = Dermotne testowe case
+subscription-management-your-free-trials-aria = Waše dermotne testowe case
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Skócyś k
+subscription-management-nav-free-trials = Dermotne testowe case
 subscription-management-nav-payment-details = Płaśeńske drobnostki
 subscription-management-nav-active-subscriptions = Aktiwne abonementy
 subscription-management-payment-details-heading = Płaśeńske drobnostki
@@ -331,13 +334,20 @@ next-coupon-submit = Nałožyś
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-trial-expires = Waš dermotny testowy cas { $date } spadnjo.
+free-trial-content-trial-cancelled = Waš dermotny testowy cas jo se wupowěźeł.
 
 # Charge info strings - with tax, per interval
 
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-trial-active = Waš dermotny testowy cas jo aktiwny.
 free-trial-content-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
+free-trial-content-button-resume-trial = Z testowym casom pókšacowaś
+free-trial-content-button-resume-trial-aria = Z testowym casom za { $productName } pókšacowaś
+free-trial-content-button-cancel-trial = Testowy cas wupowěźiś
+free-trial-content-button-cancel-trial-aria = Testowy cas za { $productName } wupowěźiś
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -431,6 +441,11 @@ purchase-details-credit-applied-label = Pśipisanje na konto jo nałožone
 purchase-details-total-due-label = Dogromady musy se płaśiś
 next-plan-details-hide-button = Drobnostki schowaś
 next-plan-details-show-button = Drobnostki pokazaś
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Prědne wobśěženje: { $endDate }
 
 ##
 
