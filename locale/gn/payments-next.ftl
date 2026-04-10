@@ -338,6 +338,11 @@ free-trial-content-trial-cancelled = Ne jeporu reiguáva ojejokóma.
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-trial-active = Ne jeporu reiguáva hendy.
+free-trial-content-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
+free-trial-content-button-resume-trial = Mbykymi juicio rehegua
+free-trial-content-button-resume-trial-aria = Eiporu jey { $productName }-pe g̃uarã
+free-trial-content-button-cancel-trial = Ejoko pe jeporu
 
 ##
 
