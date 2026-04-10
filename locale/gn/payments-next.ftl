@@ -340,12 +340,25 @@ free-trial-content-trial-cancelled = Ne jeporu reiguáva ojejokóma.
 
 free-trial-content-trial-active = Ne jeporu reiguáva hendy.
 free-trial-content-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
-free-trial-content-button-resume-trial = Mbykymi juicio rehegua
+free-trial-content-button-resume-trial = Eiporukuaa jey
 free-trial-content-button-resume-trial-aria = Eiporu jey { $productName }-pe g̃uarã
 free-trial-content-button-cancel-trial = Ejoko pe jeporu
+free-trial-content-button-cancel-trial-aria = Ani eiporu { $productName } rehegua
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Kuatiañemure paha • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impuesto
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
 
+free-trial-content-link-view-invoice = Ehecha kuatiañemure
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Ehecha kuatiañemure { $productName }
+free-trial-content-button-update-payment = Embohekopyahu nde jehepyme’ẽrã
 
 # Component - Header
 
@@ -424,6 +437,19 @@ purchase-details-credit-applied-label = Virume’ẽmbyre
 purchase-details-total-due-label = Mboýpa edeve
 next-plan-details-hide-button = Mba’emimi mokañy
 next-plan-details-show-button = Mba’emimi jehechauka
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Eiporukuaáma reiete { $trialDayLength } ára
+       *[other] Eiporukuaáma reiete { $trialDayLength } ára
+    }
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Peteĩha rehegua: { $endDate }
 
 ##
 
