@@ -222,7 +222,7 @@ msgstr "масъалаҳои ҳисоб"
 
 #: .es5/models/support-form.js:23
 msgid "technical issues"
-msgstr "масъалахои техникй"
+msgstr "масъалаҳои техникӣ"
 
 #: .es5/models/support-form.js:23
 msgid "provide feedback / request features"
@@ -1519,7 +1519,7 @@ msgstr "Масъалаҳои ҳисоб"
 
 #: .es5/templates/support.mustache:15
 msgid "Technical issues"
-msgstr "Масъалахои техникй"
+msgstr "Масъалаҳои техникӣ"
 
 #: .es5/templates/support.mustache:16
 msgid "Provide feedback / request features"

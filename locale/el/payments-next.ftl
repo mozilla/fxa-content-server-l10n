@@ -326,14 +326,33 @@ next-coupon-submit = Εφαρμογή
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-trial-expires = Η δωρεάν δοκιμή σας λήγει στις { $date }.
+free-trial-content-trial-cancelled = Η δωρεάν δοκιμή σας ακυρώθηκε.
 
 # Charge info strings - with tax, per interval
 
+free-trial-content-charge-info-with-tax-day = Θα χρεωθείτε { $amount } + { $tax } φόρος ανά ημέρα μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-with-tax-week = Θα χρεώνεστε { $amount } + { $tax } φόρος ανά εβδομάδα μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-with-tax-month = Θα χρεώνεστε { $amount } + { $tax } φόρος ανά μήνα μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Θα χρεώνεστε { $amount } + { $tax } φόρους κάθε έξι μήνες μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-with-tax-year = Θα χρεώνεστε { $amount } + { $tax } φόρος ανά έτος μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-with-tax-default = Θα χρεωθείτε { $amount } + { $tax } φόρος μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-charge-info-no-tax-day = Θα χρεώνεστε { $amount } ανά ημέρα μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-no-tax-week = Θα χρεώνεστε { $amount } την εβδομάδα μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-no-tax-month = Θα χρεώνεστε { $amount } ανά μήνα μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Θα χρεώνεστε { $amount } κάθε έξι μήνες μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-no-tax-year = Θα χρεώνεστε { $amount } ανά έτος μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-charge-info-no-tax-default = Θα χρεωθείτε { $amount } μετά τη λήξη της δωρεάν δοκιμής στις { $date }.
+free-trial-content-trial-ends = Η δωρεάν δοκιμή σας λήγει στις { $date }. Ενημερώστε τη μέθοδο πληρωμής σας για να διατηρήσετε την πρόσβαση μετά τη λήξη της δωρεάν δοκιμή σας.
+free-trial-content-trial-active = Η δωρεάν δοκιμή σας είναι ενεργή.
+free-trial-content-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 free-trial-content-button-resume-trial = Συνέχιση δοκιμής
+free-trial-content-button-resume-trial-aria = Συνέχιση δωρεάν δοκιμής για το { $productName }
 free-trial-content-button-cancel-trial = Ακύρωση δοκιμής
+free-trial-content-button-cancel-trial-aria = Ακύρωση δωρεάν δοκιμής για το { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -427,6 +446,42 @@ purchase-details-credit-applied-label = Εφαρμοσμένη πίστωση
 purchase-details-total-due-label = Συνολική χρέωση
 next-plan-details-hide-button = Απόκρυψη λεπτομερειών
 next-plan-details-show-button = Εμφάνιση λεπτομερειών
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Ξεκινήστε τη δωρεάν δοκιμή της { $trialDayLength } ημέρας
+       *[other] Ξεκινήστε τη δωρεάν δοκιμή των { $trialDayLength } ημερών
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Η δωρεάν δοκιμή της { $trialDayLength } ημέρας ξεκίνησε
+       *[other] Η δωρεάν δοκιμή των { $trialDayLength } ημερών ξεκίνησε
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice } κάθε ημέρα μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
+free-trial-start-message-weekly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice } κάθε εβδομάδα μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
+free-trial-start-message-monthly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice } κάθε μήνα μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
+free-trial-start-message-halfyearly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεωθείτε { $firstPrice } κάθε 6 μήνες μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
+free-trial-start-message-yearly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice } κάθε έτος μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Πρώτη χρέωση: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Θα χρεώνεστε { $firstPrice } στις { $endDate } και θα χρεώνεστε καθημερινά μέχρι να ακυρώσετε.
+free-trial-first-charge-message-weekly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και θα χρεωθείτε σε εβδομαδιαία βάση μέχρι να ακυρώσετε.
+free-trial-first-charge-message-monthly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και θα χρεωθείτε σε μηνιαία βάση μέχρι να ακυρώσετε.
+free-trial-first-charge-message-halfyearly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και στη συνέχεια κάθε 6 μήνες μέχρι να ακυρώσετε.
+free-trial-first-charge-message-yearly = Θα χρεώνεστε { $firstPrice } στις { $endDate } και στο εξής ανά έτος, μέχρι να κάνετε ακύρωση.
 
 ##
 
