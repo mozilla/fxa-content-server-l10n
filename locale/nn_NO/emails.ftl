@@ -261,6 +261,10 @@ postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Les meir
+postAddPasskey-requested-from = Du ba om dette frå:
+postAddPasskey-action = Handsam kontoen
 postAddRecoveryPhone-subject = Gjenopprettingstelefon lagt til
 postAddRecoveryPhone-preview = Kontoen er verna av tostegs-autentisering
 postAddRecoveryPhone-title-v2 = Du la til eit gjenoprettingstelefonnummer
