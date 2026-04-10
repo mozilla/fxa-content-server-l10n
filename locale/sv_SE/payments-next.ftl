@@ -472,7 +472,7 @@ free-trial-success-title =
 free-trial-start-message-daily = Ingen betalning krävs idag. Du debiteras { $firstPrice }/dag efter att den kostnadsfria provperioden upphör den { $endDate }.
 free-trial-start-message-weekly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/vecka efter att den kostnadsfria provperioden upphör den { $endDate }.
 free-trial-start-message-monthly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/månad efter att den kostnadsfria provperioden upphör den { $endDate }.
-free-trial-start-message-halfyearly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/6 månader efter att den kostnadsfria provperioden upphör den { $endDate }.
+free-trial-start-message-halfyearly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/var sjätte månad efter att den kostnadsfria provperioden upphör den { $endDate }.
 free-trial-start-message-yearly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/år efter att den kostnadsfria provperioden upphör den { $endDate }.
 
 ##

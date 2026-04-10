@@ -349,10 +349,28 @@ free-trial-content-charge-info-no-tax-month = Тегін сынақ мерзім
 free-trial-content-charge-info-no-tax-halfyear = Тегін сынақ мерзімі { $date } күні аяқталғаннан кейін сізден әр 6 ай сайын { $amount } төлем алынады.
 free-trial-content-charge-info-no-tax-year = Тегін сынақ мерзімі { $date } күні аяқталғаннан кейін сізден ай сайын { $amount } төлем алынады.
 free-trial-content-charge-info-no-tax-default = Тегін сынақ мерзімі { $date } күні аяқталғаннан кейін сізден { $amount } төлем алынады.
+free-trial-content-trial-ends = Тегін сынақ мерзімі { $date } күні аяқталады. Тегін сынақ мерзімінен кейін кіру мүмкіндігін сақтау үшін төлем әдісіңізді жаңартыңыз.
+free-trial-content-trial-active = Сіздің тегін сынақ нұсқаңыз белсенді.
+free-trial-content-action-error = Күтпеген қате орын алды. Қайталап көріңіз.
+free-trial-content-button-resume-trial = Сынақ мерзімін жалғастыру
+free-trial-content-button-resume-trial-aria = { $productName } үшін сынақ нұсқасын жалғастыру
+free-trial-content-button-cancel-trial = Сынақ нұсқасын болдырмау
+free-trial-content-button-cancel-trial-aria = { $productName } үшін сынақ нұсқасын болдырмау
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Соңғы есепшот • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } салық
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
 
 free-trial-content-link-view-invoice = Шотты қарау
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = { $productName } үшін шотты қарау
+free-trial-content-button-update-payment = Төлем әдісін жаңарту
 
 # Component - Header
 
@@ -431,6 +449,11 @@ purchase-details-credit-applied-label = Несие қолданылды
 purchase-details-total-due-label = Жалпы сома
 next-plan-details-hide-button = Мәліметтерді жасыру
 next-plan-details-show-button = Мәліметтерді көрсету
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Бірінші төлем: { $endDate }
 
 ##
 
