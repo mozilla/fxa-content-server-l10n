@@ -270,6 +270,7 @@ postAddPasskey-subject = Hesłowy kluč je so wutworił
 postAddPasskey-preview = Móžeće nětko swój grat wužiwać, zo byšće so přizjewił
 postAddPasskey-title = Sće hesłowy kluč wutworił
 postAddPasskey-description = Móžeće jo nětko wužiwać, zo byšće so pola wšěch wašich słužbow { -product-mozilla-account } přizjewił.
+postAddPasskey-sync-note = Prošu dźiwajće na to, zo waše hesło je dale trěbne za přistup k wašim datam synchronizacije { -brand-firefox }.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Dalše informacije
 postAddPasskey-requested-from = Sće to požadał wot:

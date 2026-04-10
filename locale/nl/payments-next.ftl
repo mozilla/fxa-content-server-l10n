@@ -334,12 +334,46 @@ free-trial-content-trial-cancelled = Uw gratis proefperiode is opgezegd.
 
 # Charge info strings - with tax, per interval
 
+free-trial-content-charge-info-with-tax-day = Na het einde van de gratis proefperiode op { $date } wordt per dag { $amount } + { $tax } btw in rekening gebracht.
+free-trial-content-charge-info-with-tax-week = Na het einde van de gratis proefperiode op { $date } wordt per week { $amount } + { $tax } btw in rekening gebracht.
+free-trial-content-charge-info-with-tax-month = Na het einde van de gratis proefperiode op { $date } wordt per maand { $amount } + { $tax } btw in rekening gebracht.
+free-trial-content-charge-info-with-tax-halfyear = Na het einde van de gratis proefperiode op { $date } wordt elke zes maanden { $amount } + { $tax } btw in rekening gebracht.
+free-trial-content-charge-info-with-tax-year = Na het einde van de gratis proefperiode op { $date } wordt per jaar { $amount } + { $tax } btw in rekening gebracht.
+free-trial-content-charge-info-with-tax-default = Na het einde van de gratis proefperiode op { $date } wordt { $amount } + { $tax } btw in rekening gebracht.
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-charge-info-no-tax-day = Na het einde van de gratis proefperiode op { $date } wordt per dag { $amount } in rekening gebracht.
+free-trial-content-charge-info-no-tax-week = Na het einde van de gratis proefperiode op { $date } wordt per week { $amount } in rekening gebracht.
+free-trial-content-charge-info-no-tax-month = Na het einde van de gratis proefperiode op { $date } wordt per maand { $amount } in rekening gebracht.
+free-trial-content-charge-info-no-tax-halfyear = Na het einde van de gratis proefperiode op { $date } wordt elke zes maanden { $amount } in rekening gebracht.
+free-trial-content-charge-info-no-tax-year = Na het einde van de gratis proefperiode op { $date } wordt per jaar { $amount } in rekening gebracht.
+free-trial-content-charge-info-no-tax-default = Na het einde van de gratis proefperiode op { $date } wordt { $amount } in rekening gebracht.
+free-trial-content-trial-ends = Uw gratis proefperiode eindigt op { $date }. Werk uw betalingsmethode bij om ook na uw gratis proefperiode toegang te behouden.
+free-trial-content-trial-active = Uw gratis proefperiode is actief.
+free-trial-content-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
+free-trial-content-button-resume-trial = Proefperiode hervatten
+free-trial-content-button-resume-trial-aria = Proefperiode voor { $productName } hervatten
+free-trial-content-button-cancel-trial = Proefperiode opzeggen
+free-trial-content-button-cancel-trial-aria = Proefperiode voor { $productName } opzeggen
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Laatste factuur • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } btw
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
 
+free-trial-content-link-view-invoice = Factuur bekijken
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Factuur voor { $productName } bekijken
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Uw gratis proefperiode is geëindigd op <bold>{ $date }</bold>. We konden uw betaling niet verwerken om uw abonnement te starten. Werk uw betalingsmethode bij om uw abonnement te activeren en de toegang tot uw services te herstellen.
+free-trial-content-payment-failed-no-date = We konden uw betaling niet verwerken om uw abonnement te starten. Werk uw betalingsmethode bij om uw abonnement te activeren en de toegang tot uw services te herstellen.
+free-trial-content-button-update-payment = Betalingsmethode bijwerken
 
 # Component - Header
 
@@ -419,9 +453,23 @@ purchase-details-total-due-label = Totaal verschuldigd
 next-plan-details-hide-button = Details verbergen
 next-plan-details-show-button = Details tonen
 
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Uw gratis proefperiode van { $trialDayLength } dag starten
+       *[other] Uw gratis proefperiode van { $trialDayLength } dagen starten
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Uw gratis proefperiode van { $trialDayLength } dag is gestart
+       *[other] Uw gratis proefperiode van { $trialDayLength } dagen is gestart
+    }
+
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
+free-trial-start-message-daily = U hoeft vandaag niets te betalen. Nadat de gratis proefperiode op { $endDate } eindigt, wordt { $firstPrice }/dag bij u in rekening gebracht.
 free-trial-start-message-weekly = U hoeft vandaag niets te betalen. Nadat de gratis proefperiode op { $endDate } eindigt, wordt { $firstPrice }/week bij u in rekening gebracht.
 free-trial-start-message-monthly = U hoeft vandaag niets te betalen. Nadat de gratis proefperiode op { $endDate } eindigt, wordt { $firstPrice }/maand bij u in rekening gebracht.
 free-trial-start-message-halfyearly = U hoeft vandaag niets te betalen. Nadat de gratis proefperiode op { $endDate } eindigt, wordt { $firstPrice }/6 maanden bij u in rekening gebracht.
