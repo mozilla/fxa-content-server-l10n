@@ -141,11 +141,11 @@ interstitial-offer-error-button-contact-support = Kontakta supporten
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalningsmetod har lagts till
 subscription-management-page-banner-warning-link-no-payment-method = Lägg till en betalningsmetod
 subscription-management-subscriptions-heading = Prenumerationer
-subscription-management-free-trial-heading = Gratis provperioder
+subscription-management-free-trial-heading = Kostnadsfria provperioder
 subscription-management-your-free-trials-aria = Dina kostnadsfria provperioder
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Hoppa till
-subscription-management-nav-free-trials = Gratis provperioder
+subscription-management-nav-free-trials = Kostnadsfria provperioder
 subscription-management-nav-payment-details = Betalningsinformation
 subscription-management-nav-active-subscriptions = Aktiva prenumerationer
 subscription-management-payment-details-heading = Betalningsinformation
@@ -371,8 +371,8 @@ free-trial-content-link-view-invoice = Visa faktura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Visa faktura för { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Din kostnadsfria provperiod upphörde den <bold>{ $date }</bold>. Vi kunde inte behandla din betalning för att starta din prenumeration. Vänligen uppdatera din betalningsmetod för att aktivera ditt abonnemang och återställa åtkomsten till dina tjänster.
-free-trial-content-payment-failed-no-date = Vi kunde inte behandla din betalning för att starta din prenumeration. Vänligen uppdatera din betalningsmetod för att aktivera ditt abonnemang och återställa åtkomsten till dina tjänster.
+free-trial-content-payment-failed = Din kostnadsfria provperiod upphörde den <bold>{ $date }</bold>. Vi kunde inte behandla din betalning för att starta din prenumeration. Vänligen uppdatera din betalningsmetod för att aktivera din prenumeration och återställa åtkomsten till dina tjänster.
+free-trial-content-payment-failed-no-date = Vi kunde inte behandla din betalning för att starta din prenumeration. Vänligen uppdatera din betalningsmetod för att aktivera din prenumeration och återställa åtkomsten till dina tjänster.
 free-trial-content-button-update-payment = Uppdatera betalningsmetod
 
 # Component - Header

@@ -361,6 +361,7 @@ free-trial-content-button-cancel-trial-aria = 取消試用 { $productName }
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
 ## $taxDue (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-last-bill = 上一期帳單 • { $billedOnDate }
 free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } 稅
 free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
