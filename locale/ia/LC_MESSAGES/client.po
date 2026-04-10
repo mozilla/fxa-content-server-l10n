@@ -2001,7 +2001,7 @@ msgstr "Le configuration non pote esser completate. Per favor, accede per tu ema
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Contrasigno create. Ora tu sta a synchronisar."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."

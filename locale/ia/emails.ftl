@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Si tu non faceva iste action, alora reinitialisa tu contrasigno immediatemente in:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Alsi, reinitialisa tu authentication a duo passos in:
+automated-email-sign-in =
+    Isto es un e-mail automatisate; si tu non autorisa iste action, alora per favor <a data-l10n-name="securitySettingsLink">revide le parametros de securitate de tu conto</a>.
+    Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-sign-in-plaintext = Si tu non autorisa iste action, controla le parametros de securitate de tu conto a:
 brand-banner-message = Sape tu que nos cambiava nostre nomine ab { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saper plus</a>
 change-password-plaintext = Si tu suspecta que alcuno tenta ganiar accesso a tu conto, cambia tu contrasigno.
 manage-account = Gerer le conto
@@ -261,7 +265,10 @@ postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-accou
 postAddLinkedAccount-title-2 = Tu conto { $providerName } ha essite ligate a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Gerer le conto
 postAddPasskey-subject = Clave-contrasigno create
+postAddPasskey-preview = Ora tu pote usar tu apparato pro acceder
 postAddPasskey-title = Tu creava un clave-contrasigno
+postAddPasskey-description = Ora tu pote usar lo pro acceder a tote tu servicios de { -product-mozilla-account }.
+postAddPasskey-sync-note = Nota, tu contrasigno continuara a esser requirite pro acceder a tu datos de synchronisation de { -brand-firefox }.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Pro saper plus
 postAddPasskey-requested-from = Tu lo ha requirite ab:

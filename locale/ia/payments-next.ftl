@@ -28,6 +28,7 @@ location-banner-currency-change = Cambio de valuta non supportate. Pro continuar
 upgrade-page-payment-information = Informationes de pagamento
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Tu plano cambiara immediatemente, e hodie te sera cargate un amonta proportional al resto de iste cyclo de facturation. Desde le { $nextInvoiceDate } te sera cargate le amonta complete.
+upgrade-page-acknowledgment-from-trial = Promovente, tu prova gratuite active finira immediatemente e tu sera cargate pro tu nove plano hodie.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Contactar assistentia
 subscription-management-page-banner-warning-title-no-payment-method = Necun methodo de pagamento addite
 subscription-management-page-banner-warning-link-no-payment-method = Adder un methodo de pagamento
 subscription-management-subscriptions-heading = Subscriptiones
+subscription-management-free-trial-heading = Provas gratuite
+subscription-management-your-free-trials-aria = Tu provas gratuite
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Saltar a
+subscription-management-nav-free-trials = Provas gratuite
 subscription-management-nav-payment-details = Detalios de pagamento
 subscription-management-nav-active-subscriptions = Abonamentos active
 subscription-management-payment-details-heading = Detalios de pagamento
@@ -327,13 +331,33 @@ next-coupon-submit = Applicar
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-trial-expires = Tu prova gratuite expira le { $date }.
+free-trial-content-trial-cancelled = Tu prova gratuite ha essite cancellate.
 
 # Charge info strings - with tax, per interval
 
+free-trial-content-charge-info-with-tax-day = Te sera cargate { $amount } + taxa de { $tax } per die post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-with-tax-week = Te sera cargate { $amount } + taxa de { $tax } per septimana post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-with-tax-month = Te sera cargate { $amount } + taxa de { $tax } cata mense post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Te sera cargate { $amount } + taxa de { $tax } cata sex menses post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-with-tax-year = Te sera cargate { $amount } + taxa de { $tax } per anno post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-with-tax-default = Te sera cargate { $amount } + taxa de { $tax } post que le prova gratuite fini le { $date }.
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-charge-info-no-tax-day = Te sera cargate { $amount } per die post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-no-tax-week = Te sera cargate { $amount } per septimana post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-no-tax-month = Te sera cargate { $amount } cata mense post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Te sera cargate { $amount } cata sex menses post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-no-tax-year = Te sera cargate { $amount } per anno post que le prova gratuite fini le { $date }.
+free-trial-content-charge-info-no-tax-default = Te sera cargate { $amount } post que le prova gratuite fini le { $date }.
+free-trial-content-trial-ends = Tu prova gratuite fini le { $date }. Actualisa tu methodo de pagamento pro mantener le accesso post tu prova gratuite.
+free-trial-content-trial-active = Tu prova gratuite es active.
 free-trial-content-action-error = Un error impreviste occurreva, retenta.
+free-trial-content-button-resume-trial = Recomenciar prova
+free-trial-content-button-resume-trial-aria = Recomenciar prova pro { $productName }
+free-trial-content-button-cancel-trial = Cancellar prova
+free-trial-content-button-cancel-trial-aria = Cancellar prova pro { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -348,6 +372,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Vider le factura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Vider le factura pro { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Tu prova gratuite finiva le <bold>{ $date }</bold>. Impossibile elaborar tu pagamento pro initiar tu abonamento. Actualisa tu methodo de pagamento pro activar tu abonamento e restaurar accesso a tu servicios.
+free-trial-content-payment-failed-no-date = Impossibile elaborar tu pagamento pro initiar tu abonamento. Actualisa tu methodo de pagamento pro activar tu abonamento e restaurar accesso a tu servicios.
 free-trial-content-button-update-payment = Actualisar methodo de pagamento
 
 # Component - Header
@@ -427,6 +454,42 @@ purchase-details-credit-applied-label = Credito applicate
 purchase-details-total-due-label = Total debite
 next-plan-details-hide-button = Celar le detalios
 next-plan-details-show-button = Monstrar le detalios
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Initia tu prova gratuite de { $trialDayLength } die
+       *[other] Initia tu prova gratuite de { $trialDayLength } dies
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Tu prova gratuite de { $trialDayLength } die ha initiate
+       *[other] Tu prova gratuite de { $trialDayLength } dies ha initiate
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Necun pagamento requirite hodie. Te sera cargate { $firstPrice }/die post que le prova gratuite fini le { $endDate }.
+free-trial-start-message-weekly = Necun pagamento requirite hodie. Te sera cargate { $firstPrice }/septimana post que le prova gratuite fini le { $endDate }.
+free-trial-start-message-monthly = Necun pagamento requirite hodie. Te sera cargate { $firstPrice }/mense post que le prova gratuite fini le { $endDate }.
+free-trial-start-message-halfyearly = Necun pagamento requirite hodie. Te sera cargate { $firstPrice }/6 menses post que le prova gratuite fini le { $endDate }.
+free-trial-start-message-yearly = Necun pagamento requirite hodie. Te sera cargate { $firstPrice }/anno post que le prova gratuite fini le { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Prime amonta: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Te sera facturate { $firstPrice } le { $endDate }, pois cata die postea usque tu lo cancella.
+free-trial-first-charge-message-weekly = Te sera facturate { $firstPrice } le { $endDate }, pois septimanalmente postea usque tu lo cancella.
+free-trial-first-charge-message-monthly = Te sera facturate { $firstPrice } le { $endDate }, pois mensualmente postea usque tu lo cancella.
+free-trial-first-charge-message-halfyearly = Te sera facturate { $firstPrice } le { $endDate }, pois cata 6 menses postea usque tu lo cancella.
+free-trial-first-charge-message-yearly = Te sera facturate { $firstPrice } le { $endDate }, pois annualmente postea usque tu lo cancella.
 
 ##
 
