@@ -322,8 +322,17 @@ next-coupon-promo-code-applied = Codice promo applicate
 next-coupon-remove = Remover
 next-coupon-submit = Applicar
 
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Vider le factura
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Vider le factura pro { $productName }
 
 # Component - Header
 

@@ -262,6 +262,10 @@ postAddLinkedAccount-title-2 = Tu conto { $providerName } ha essite ligate a tu 
 postAddLinkedAccount-action = Gerer le conto
 postAddPasskey-subject = Clave-contrasigno create
 postAddPasskey-title = Tu creava un clave-contrasigno
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Pro saper plus
+postAddPasskey-requested-from = Tu lo ha requirite ab:
+postAddPasskey-action = Gerer le conto
 postAddRecoveryPhone-subject = Telephono de recuperation addite
 postAddRecoveryPhone-preview = Conto protegite per authentication a duo passos
 postAddRecoveryPhone-title-v2 = Tu addeva un numero de telephono de recuperation
