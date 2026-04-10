@@ -260,6 +260,13 @@ postAddLinkedAccount-subject-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ne mba’ete { $providerName } pegua ojuajúma nde { -product-mozilla-account } rehe
 postAddLinkedAccount-action = Eñangareko mba’etére
+postAddPasskey-subject = Ñe’ẽ ñemi mboheñoipyre
+postAddPasskey-preview = Eiporukuaáma ne mba’e’oka eike hag̃ua
+postAddPasskey-title = Emoheñóima ñe’ẽ ñemi
+postAddPasskey-description = Eiporukuaáma eikekuaa hag̃ua opaite ne { -product-mozilla-account } mba’eporúpe.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Eikuaave
+postAddPasskey-requested-from = Nde ejerure kóva guive:
 postAddRecoveryPhone-subject = Pumbyry guerujeyrã mbojuajupyre
 postAddRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku’egua rupive
 postAddRecoveryPhone-title-v2 = Embojuaju pumbyry papapy guerujeyrã
