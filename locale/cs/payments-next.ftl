@@ -28,7 +28,7 @@ location-banner-currency-change = Změna měny není podporována. Pro pokračov
 upgrade-page-payment-information = Informace o platbě
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Váš tarif se okamžitě změní a po zbytek tohoto zúčtovacího období vám bude účtována poměrná částka. Od { $nextInvoiceDate } vám bude účtována plná částka.
-upgrade-page-acknowledgment-from-trial = Po upgradu vaše aktivní bezplatná zkušební verze okamžitě skončí a nový plán vám bude ještě dnes účtován.
+upgrade-page-acknowledgment-from-trial = Po provedení aktualizace bude vaše aktuální bezplatná zkušební verze okamžitě ukončena a poplatek za nový tarif vám bude účtován ještě dnes.
 
 ## Authentication Error page
 
@@ -247,7 +247,7 @@ next-payment-confirm-with-legal-links-static-3 = Opravňuji organizaci { -brand-
 
 ## $endDate (Date) - The end date of the free trial
 
-checkbox-payment-required-no-charge = K zahájení bezplatného zkušebního období je vyžadována platební metoda. Platba vám bude stržena až { $endDate }.
+checkbox-payment-required-no-charge = K zahájení bezplatné zkušební verze je nutné zadat způsob platby. Žádné poplatky vám nebudou účtovány až do { $endDate }.
 checkbox-confirm-free-trial-with-legal-links = Souhlasím s tím, aby společnost { -brand-mozilla } strhávala z mé platební metody uvedenou částku v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink> po skončení zkušebního období, dokud zrušit mé předplatné.
 next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokončit
 
@@ -329,13 +329,13 @@ next-coupon-submit = Použít
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
-free-trial-content-trial-expires = Vaše bezplatná zkušební verze vyprší { $date }.
+free-trial-content-trial-expires = Vaše bezplatná zkušební verze vyprší dne { $date }.
 free-trial-content-trial-cancelled = Vaše bezplatná zkušební verze byla zrušena.
 
 # Charge info strings - with tax, per interval
 
-free-trial-content-charge-info-with-tax-day = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } + daň { $tax } denně.
-free-trial-content-charge-info-with-tax-week = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } + daň { $tax } týdně.
+free-trial-content-charge-info-with-tax-day = Po skončení bezplatné zkušební doby dne { $date } vám bude účtována částka { $amount } + { $tax } za den.
+free-trial-content-charge-info-with-tax-week = Po skončení bezplatné zkušební doby dne { $date } vám bude účtována částka { $amount } + { $tax } za týden.
 free-trial-content-charge-info-with-tax-month = Po skončení zkušebního období, dne { $date }, vám bude účtováno { $amount } + daň { $tax } měsíčně.
 free-trial-content-charge-info-with-tax-halfyear = Po skončení zkušebního období, dne { $date } vám bude každých šest měsíců účtováno { $amount } + { $tax } daň.
 free-trial-content-charge-info-with-tax-year = Po skončení bezplatného zkušebního období, dne { $date } vám bude účtováno { $amount } + daň { $tax } ročně.
