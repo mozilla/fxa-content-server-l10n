@@ -2012,11 +2012,11 @@ msgstr "Δεν ήταν δυνατή η ολοκλήρωση της ρύθμισ
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Ο κωδικός πρόσβασης δημιουργήθηκε. Πραγματοποιείται τώρα συγχρονισμός."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Ο λογαριασμός δημιουργήθηκε. Πραγματοποιείται τώρα συγχρονισμός."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

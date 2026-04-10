@@ -1413,6 +1413,10 @@ passkey-registration-error-invalid-state = Αυτό το κλειδί πρόσβ
 
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Δεν είναι δυνατή η χρήση κλειδιών πρόσβασης σε αυτήν τη σελίδα. Βεβαιωθείτε ότι βρίσκεστε στον σωστό ασφαλή ιστότοπο και δοκιμάστε ξανά.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Κάτι πήγε στραβά με το κλειδί πρόσβασής σας. Δοκιμάστε ξανά ή χρησιμοποιήστε άλλη μέθοδο σύνδεσης.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Δεν ήταν δυνατή η πρόσβαση στην εφαρμογή ελέγχου ταυτότητάς σας. Δοκιμάστε ξανά ή χρησιμοποιήστε άλλη μέθοδο σύνδεσης.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή επιλέξτε άλλη μέθοδο σύνδεσης.
 
