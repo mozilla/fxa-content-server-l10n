@@ -31,6 +31,7 @@ upgrade-page-acknowledgment =
     Waš plan se ned změnijo, a za zbytk toś teje wótliceńskeje periody se wam źinsa
     późělna suma woblicujo. Zachopinajucy z { $nextInvoiceDate }
     se połna suma woblicujo.
+upgrade-page-acknowledgment-from-trial = Pśi aktualizěrowanju se aktiwny testowy cas ned skóńcyjo a wobśěžuju was źinsa za nowy plan.
 
 ## Authentication Error page
 
