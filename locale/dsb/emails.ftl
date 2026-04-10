@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Jolic njejsćo wuwjadł toś tu akciju, stajśo ned swójo gronidło slědk:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Stajśo teke dwójokšacowu awtentifikaciju slědk:
+automated-email-sign-in =
+    To jo awtomatizěrowana mejlka; jolic njejsćo awtorizěrował toś tu akciju, <a data-l10n-name="securitySettingsLink">pśeglědujśo pšosym swóje kontowe wěstotne nastajenja.</a>.
+    Za dalšne informacije woglědajśo se pšosym k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>.
+automated-email-sign-in-plaintext = Jolic njejsćo awtorizěrował toś tu akciju, pśeglědujśo pšosym swóje kontowe wěstotne nastajenja na:
 brand-banner-message = Sćo wěźeł, až smy  změnili našo mě wót { -product-firefox-accounts } do { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Dalšne informacije</a>
 change-password-plaintext = Jolic měniśo, až něchten wopytujo, pśistup k wašomu kontoju dostaś, změńśo pšosym swójo gronidło.
 manage-account = Konto zastojaś
@@ -264,6 +268,11 @@ postAddLinkedAccount-title-2 = Wašo konto { $providerName } jo se zwězało z w
 postAddLinkedAccount-action = Konto zastojaś
 postAddPasskey-subject = Gronidłowy kluc jo se napórał
 postAddPasskey-preview = Móžośo něnto swój rěd wužywaś, aby se pśizjawił
+postAddPasskey-title = Sćo napórał gronidłowy kluc
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Dalšne informacije
+postAddPasskey-requested-from = Sćo póžedał to wót:
+postAddPasskey-action = Konto zastojaś
 postAddRecoveryPhone-subject = Wótnowjeński telefon pśidany
 postAddRecoveryPhone-preview = Konto se pśez dwójokšacowu awtentifikaciju šćita
 postAddRecoveryPhone-title-v2 = Sćo pśidał numer wótnowjeńskego telefona

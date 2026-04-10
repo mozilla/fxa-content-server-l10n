@@ -325,8 +325,33 @@ next-coupon-promo-code-applied = Akciski kod nałoženy
 next-coupon-remove = Wótwónoźeś
 next-coupon-submit = Nałožyś
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Slědna zliceńka • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } danka
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Zliceńku se woglědaś
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Zliceńku za { $productName } se woglědaś
+free-trial-content-button-update-payment = Płaśeńsku metodu aktualizěrowaś
 
 # Component - Header
 

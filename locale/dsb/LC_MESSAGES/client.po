@@ -1996,11 +1996,11 @@ msgstr "Instalaciski proces njedajo se dokóńcyś. Pšosym pśizjawśo se ze sw
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Gronidło jo se napórało. Synchronizěrujośo něnto."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Konto jo se napórało. Synchronizěrujośo něnto."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
