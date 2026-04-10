@@ -140,8 +140,11 @@ interstitial-offer-error-button-contact-support = 聯絡支援團隊
 subscription-management-page-banner-warning-title-no-payment-method = 未新增付款方式
 subscription-management-page-banner-warning-link-no-payment-method = 新增付款方式
 subscription-management-subscriptions-heading = 訂閱項目
+subscription-management-free-trial-heading = 免費試用
+subscription-management-your-free-trials-aria = 您的免費試用詳情
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = 跳到
+subscription-management-nav-free-trials = 免費試用
 subscription-management-nav-payment-details = 付款詳細資訊
 subscription-management-nav-active-subscriptions = 有效訂閱
 subscription-management-payment-details-heading = 付款詳細資訊
@@ -320,8 +323,38 @@ next-coupon-promo-code-applied = 已套用折扣碼
 next-coupon-remove = 移除
 next-coupon-submit = 套用
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = 您的免費試用將於 { $date } 結束。
+free-trial-content-trial-cancelled = 已取消您的免費試用。
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-trial-active = 您的免費試用生效中。
+free-trial-content-action-error = 發生未知錯誤，請再試一次。
+free-trial-content-button-resume-trial = 恢復試用
+free-trial-content-button-resume-trial-aria = 恢復試用 { $productName }
+free-trial-content-button-cancel-trial = 取消試用
+free-trial-content-button-cancel-trial-aria = 取消試用 { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } 稅
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = 檢視請款單
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = 檢視 { $productName } 的請款單
 
 # Component - Header
 

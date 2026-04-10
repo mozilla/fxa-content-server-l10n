@@ -1975,11 +1975,11 @@ msgstr "無法完成設定，請使用您的信箱登入。"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "已建立密碼，開始同步。"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "已建立帳號，開始同步。"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

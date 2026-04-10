@@ -257,6 +257,10 @@ postAddLinkedAccount-subject-2 = 有新的帳號連結至您的 { -product-mozil
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 帳號已連結到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理帳號
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = 更多資訊
+postAddPasskey-requested-from = 您從下列位置要求：
+postAddPasskey-action = 管理帳號
 postAddRecoveryPhone-subject = 已新增救援電話號碼
 postAddRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳號
 postAddRecoveryPhone-title-v2 = 您已新增救援電話號碼
