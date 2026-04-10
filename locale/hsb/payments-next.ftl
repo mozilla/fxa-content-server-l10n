@@ -346,6 +346,8 @@ free-trial-content-trial-active = Waš darmotny testowy čas je aktiwny.
 free-trial-content-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
 free-trial-content-button-resume-trial = Z testowym časom pokročować
 free-trial-content-button-resume-trial-aria = Z testowym časom za { $productName } pokročować
+free-trial-content-button-cancel-trial = Testowy čas wupowědźić
+free-trial-content-button-cancel-trial-aria = Testowy čas za { $productName } wupowědźić
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -439,6 +441,11 @@ purchase-details-credit-applied-label = Dobropis je nałoženy
 purchase-details-total-due-label = Dohromady płaćomny
 next-plan-details-hide-button = Podrobnosće schować
 next-plan-details-show-button = Podrobnosće pokazać
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Prěnje wobćeženje: { $endDate }
 
 ##
 
