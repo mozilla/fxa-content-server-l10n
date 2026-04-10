@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Ако нисте ви покренули ову радњу, одмах ресетујте своју лозинку на:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Такође, ресетујте потврду идентитета у два корака на:
+automated-email-sign-in =
+    Ово је аутоматизована е-пошта, ако нисте овластили ову радњу, <a data-l10n-name="securitySettingsLink">прегледајте безбедносна подешавања свог налога</a>.
+    За више информација, посетите <a data-l10n-name="supportLink">{ -brand-mozilla } подршку</a>.
+automated-email-sign-in-plaintext = Ако нисте овластили ову радњу, прегледајте безбедносна подешавања свог налога на:
 brand-banner-message = Да ли сте знали да смо променили име из { -product-firefox-accounts } у { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Сазнајте више</a>
 change-password-plaintext = Ако сумњате да неко покушава да приступи вашем налогу, промените лозинку.
 manage-account = Управљајте налогом
@@ -261,6 +265,15 @@ postAddLinkedAccount-subject-2 = Нови налог је повезан са в
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ваш { $providerName } налог је повезан са вашим { -product-mozilla-account }
 postAddLinkedAccount-action = Управљај налогом
+postAddPasskey-subject = Приступни кључ је направљен
+postAddPasskey-preview = Сада можете да користите свој уређај за пријаву
+postAddPasskey-title = Направили сте приступни кључ
+postAddPasskey-description = Сада га можете користити за пријаву на све своје { -product-mozilla-account } услуге.
+postAddPasskey-sync-note = Имајте на уму да ће ваша лозинка и даље бити потребна за приступ вашим { -brand-firefox } подацима за синхронизацију.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Сазнајте више
+postAddPasskey-requested-from = Ово сте затражили са:
+postAddPasskey-action = Управљајте налогом
 postAddRecoveryPhone-subject = Додат је телефон за опоравак
 postAddRecoveryPhone-preview = Налог је заштићен потврдом идентитета у два корака
 postAddRecoveryPhone-title-v2 = Додали сте број телефона за опоравак
