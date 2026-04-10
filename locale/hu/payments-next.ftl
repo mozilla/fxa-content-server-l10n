@@ -355,7 +355,7 @@ free-trial-content-trial-ends = Az ingyenes próbaidőszak véget ér: { $date }
 free-trial-content-trial-active = Az ingyenes próbaidőszaka aktív.
 free-trial-content-action-error = Váratlan hiba történt. Próbálja meg újra.
 free-trial-content-button-resume-trial = Próbaidőszak folytatása
-free-trial-content-button-resume-trial-aria = Próbaidőszak folytatása { $productName } áron
+free-trial-content-button-resume-trial-aria = Próbaidőszak folytatása: { $productName }
 free-trial-content-button-cancel-trial = Próbaidőszak lemondása
 free-trial-content-button-cancel-trial-aria = Próbaidőszak lemondása: { $productName }
 
@@ -464,18 +464,18 @@ free-trial-start-title =
     }
 free-trial-success-title =
     { $trialDayLength ->
-        [one] A { $trialDayLength } napos ingyenes próba elkezdődött
-       *[other] A { $trialDayLength } napos ingyenes próba elkezdődött
+        [one] A { $trialDayLength } napos ingyenes próbaidőszak elkezdődött
+       *[other] A { $trialDayLength } napos ingyenes próbaidőszak elkezdődött
     }
 
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
-free-trial-start-message-daily = Ma nem kell fizetni. Napi { $firstPrice } összeget levonunk az ingyenes próbaidőszak lejárta ({ $endDate }) után.
-free-trial-start-message-weekly = Ma nem kell fizetni. Heti { $firstPrice } összeget levonunk az ingyenes próbaidőszak lejárta ({ $endDate }) után.
-free-trial-start-message-monthly = Ma nem kell fizetni. { $firstPrice }/hónap összeget fog fizetni az ingyenes próba { $endDate } vége után.
-free-trial-start-message-halfyearly = Ma nem kell fizetni. { $firstPrice }/6 hónap után levonásra kerül az ingyenes próba { $endDate } után.
-free-trial-start-message-yearly = Ma nem kell fizetni. Az ingyenes próbaidőszak { $endDate } dátuma után { $firstPrice }/év összeget fog fizetni.
+free-trial-start-message-daily = Ma nem kell fizetnie. Napi { $firstPrice } lesz kiszámlázva az ingyenes próbaidőszak vége után: { $endDate }.
+free-trial-start-message-weekly = Ma nem kell fizetnie. Heti { $firstPrice } lesz kiszámlázva az ingyenes próbaidőszak vége után: { $endDate }.
+free-trial-start-message-monthly = Ma nem kell fizetnie. Havi { $firstPrice } lesz kiszámlázva az ingyenes próbaidőszak vége után: { $endDate }.
+free-trial-start-message-halfyearly = Ma nem kell fizetnie. Hat havonta { $firstPrice } lesz kiszámlázva az ingyenes próbaidőszak vége után: { $endDate }.
+free-trial-start-message-yearly = Ma nem kell fizetnie. Évi { $firstPrice } lesz kiszámlázva az ingyenes próbaidőszak vége után: { $endDate }.
 
 ##
 
@@ -485,11 +485,11 @@ free-trial-first-charge-title = Első terhelés: { $endDate }
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date of the first charge after the free trial ends
 
-free-trial-first-charge-message-daily = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően naponta, amíg le nem mondja az előfizetést.
-free-trial-first-charge-message-weekly = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően hetente, amíg le nem mondja.
-free-trial-first-charge-message-monthly = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően havonta, amíg le nem mondja az előfizetést.
-free-trial-first-charge-message-halfyearly = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően 6 havonta, amíg le nem mondja az előfizetést.
-free-trial-first-charge-message-yearly = { $firstPrice } összeget számlázunk ekkor: { $endDate }, majd azt követően évente, amíg le nem mondja az előfizetést.
+free-trial-first-charge-message-daily = { $firstPrice } összeg lesz kiszámlázva ekkor: { $endDate }, majd azt követően naponta, amíg le nem mondja az előfizetést.
+free-trial-first-charge-message-weekly = { $firstPrice } összeg lesz kiszámlázva ekkor: { $endDate }, majd azt követően hetente, amíg le nem mondja az előfizetést.
+free-trial-first-charge-message-monthly = { $firstPrice } összeg lesz kiszámlázva ekkor: { $endDate }, majd azt követően havonta, amíg le nem mondja az előfizetést.
+free-trial-first-charge-message-halfyearly = { $firstPrice } összeg lesz kiszámlázva ekkor: { $endDate }, majd azt követően 6 havonta, amíg le nem mondja az előfizetést.
+free-trial-first-charge-message-yearly = { $firstPrice } összeg lesz kiszámlázva ekkor: { $endDate }, majd azt követően évente, amíg le nem mondja az előfizetést.
 
 ##
 
