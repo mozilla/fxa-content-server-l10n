@@ -96,8 +96,10 @@ automated-email-reset-pwd-two-factor = Ha nem Ön végezte ezt a műveletet, akk
 automated-email-reset-pwd-plaintext-v3 = Ha nem Ön végezte ezt a műveletet, akkor azonnal állítsa vissza a jelszavát itt:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Állítsa vissza a kétlépcsős hitelesítést is itt:
-automated-email-sign-in = Ez egy automatikus e-mail; ha nem Ön adott engedélyt erre a műveletre, akkor <a data-l10n-name="securitySettingsLink">nézze át a fiókja biztonsági beállításait</a>. További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
-automated-email-sign-in-plaintext = Ha nem Ön adott engedélyt erre a műveletre, akkor ellenőrizze a fiókja biztonsági beállításait itt:
+automated-email-sign-in =
+    Ez egy automatikus üzenet; ha nem engedélyezte ezt a műveletet, akkor <a data-l10n-name="securitySettingsLink">tekintse át a fiókja biztonsági beállításait</a>.
+    További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } támogatást</a>.
+automated-email-sign-in-plaintext = Ha nem engedélyezte ezt a műveletet, akkor nézze át a fiókja biztonsági beállításait itt:
 brand-banner-message = Tudta, hogy megváltoztattuk a nevünket { -product-firefox-accounts }ról { -product-mozilla-accounts }ra? <a data-l10n-name="learnMore">További tudnivalók</a>
 change-password-plaintext = Ha azt gyanítja, hogy valaki más próbál hozzáférni fiókjához, kérjük változtassa meg jelszavát.
 manage-account = Fiók kezelése
@@ -260,11 +262,11 @@ postAddLinkedAccount-subject-2 = Új fiók kapcsolva a { -product-mozilla-accoun
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-fiókja össze lett kapcsolva a { -product-mozilla-account }jával
 postAddLinkedAccount-action = Fiók kezelése
-postAddPasskey-subject = A jelszó létrehozva
+postAddPasskey-subject = Jelkulcs létrehozva
 postAddPasskey-preview = Most már használhatja eszközét a bejelentkezéshez
 postAddPasskey-title = Létrehozott egy jelkulcsot
 postAddPasskey-description = Most már bejelentkezhet vele az összes { -product-mozilla-account } szolgáltatásába.
-postAddPasskey-sync-note = Felhívjuk figyelmét, hogy a jelszava továbbra is szükséges lesz a(z) { -brand-firefox } szinkronizálási adatainak eléréséhez.
+postAddPasskey-sync-note = Felhívjuk figyelmét, hogy a jelszava továbbra is szükséges lesz a { -brand-firefox } szinkronizálási adatainak eléréséhez.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = További tudnivalók
 postAddPasskey-requested-from = Ezt kérte a következőtől:
