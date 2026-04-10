@@ -31,6 +31,7 @@ upgrade-page-acknowledgment =
     Waš plan so hnydom změni, a za zbytk tuteje wotličenskeje periody so wam dźensa
     podźělna suma wobličuje. Započinajo z { $nextInvoiceDate }
     so połna suma wobličuje.
+upgrade-page-acknowledgment-from-trial = Při aktualizowanju so aktiwny testowy čas hnydom skónči a wobćežuja was dźensa za nowy plan.
 
 ## Authentication Error page
 
@@ -143,8 +144,11 @@ interstitial-offer-error-button-contact-support = Pomoc skontaktować
 subscription-management-page-banner-warning-title-no-payment-method = Žana płaćenska metoda přidata
 subscription-management-page-banner-warning-link-no-payment-method = Płaćensku metodu přidać
 subscription-management-subscriptions-heading = Abonementy
+subscription-management-free-trial-heading = Darmotne testowe časy
+subscription-management-your-free-trials-aria = Waše testowe časy
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Skočić k
+subscription-management-nav-free-trials = Darmotne testowe časy
 subscription-management-nav-payment-details = Płaćenske podrobnosće
 subscription-management-nav-active-subscriptions = Aktiwne abonementy
 subscription-management-payment-details-heading = Płaćenske podrobnosće
@@ -330,13 +334,18 @@ next-coupon-submit = Nałožić
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-trial-expires = Waš darmotny testowy čas { $date } spadnje.
+free-trial-content-trial-cancelled = Waš darmotny testowy čas je so wupowědźił.
 
 # Charge info strings - with tax, per interval
 
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-trial-active = Waš darmotny testowy čas je aktiwny.
 free-trial-content-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
+free-trial-content-button-resume-trial = Z testowym časom pokročować
+free-trial-content-button-resume-trial-aria = Z testowym časom za { $productName } pokročować
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.

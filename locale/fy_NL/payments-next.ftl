@@ -180,7 +180,7 @@ subscription-management-button-manage-subscription-aria = Abonnemint foar { $pro
 subscription-management-button-manage-subscription-1 = Abonnemint beheare
 error-payment-method-banner-title-expired-card = Ferrûne kaart
 error-payment-method-banner-message-add-new-card = Foegje in nije kaart of betellingsmetoade ta om ûnderbrekking fan jo abonneminten foar te kommen.
-error-payment-method-banner-label-update-payment-method = Betellingsmetoade bywukje
+error-payment-method-banner-label-update-payment-method = Betellingsmetoade bywurkje
 error-payment-method-expired-card = Jo kaart is ferrûn. Foegje in nije kaart of betellingsmetoade ta om ûnderbrekking fan jo abonneminten foar te kommen.
 error-payment-method-banner-title-invalid-payment-information = Unjildige betellingsgegevens
 error-payment-method-banner-message-account-issue = Der is in probleem mei jo account.
@@ -343,12 +343,37 @@ free-trial-content-charge-info-with-tax-default = Oan it ein fan de fergeze proe
 
 # Charge info strings - no tax, per interval
 
-free-trial-content-charge-info-no-tax-day = Oan it ein fan de fergeze proefperioade op { $date } wurdt  yn ’e dei { $amount } yn rekkening brocht.
-free-trial-content-charge-info-no-tax-week = Oan it ein fan de fergeze proefperioade op { $date } wurdt  yn ’e wike { $amount } yn rekkening brocht.
-free-trial-content-charge-info-no-tax-month = Oan it ein fan de fergeze proefperioade op { $date } wurdt  yn ’e moanne { $amount } yn rekkening brocht.
+free-trial-content-charge-info-no-tax-day = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn ’e dei { $amount } yn rekkening brocht.
+free-trial-content-charge-info-no-tax-week = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn ’e wike { $amount } yn rekkening brocht.
+free-trial-content-charge-info-no-tax-month = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn ’e moanne { $amount } yn rekkening brocht.
+free-trial-content-charge-info-no-tax-halfyear = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn ’e 6 moannen { $amount } yn rekkening brocht.
+free-trial-content-charge-info-no-tax-year = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn it jier { $amount } yn rekkening brocht.
+free-trial-content-charge-info-no-tax-default = Oan it ein fan de fergeze proefperioade op { $date } wurdt { $amount } yn rekkening brocht.
+free-trial-content-trial-ends = Jo fergeze proefperioade einiget op { $date }. Wurkje jo betellingsmetoade by om nei jo fergeze proefperioade tagong te hâlden.
+free-trial-content-trial-active = Jo fergeze proefperioade is aktyf.
+free-trial-content-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
+free-trial-content-button-resume-trial = Proefperioade trochsette
+free-trial-content-button-resume-trial-aria = Proefperioade foar { $productName } trochsette
+free-trial-content-button-cancel-trial = Proefperioade opsizze
+free-trial-content-button-cancel-trial-aria = Proefperioade foar { $productName } opsizze
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Lêste faktuer • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } btw
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
 
+free-trial-content-link-view-invoice = Faktuer besjen
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Faktuer foar { $productName } besjen
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Jo fergeze proefperioade is einige op <bold>{ $date }</bold>. Wy koene jo betelling net ferwurkje om jo abonnemint te starten. Wurkje jo betellingsmetoade by om jo abonnemint te aktivearjen en de tagong ta jo tsjinsten te werstellen.
+free-trial-content-payment-failed-no-date = Wy koene jo betelling net ferwurkje om jo abonnemint te starten. Wurkje jo betellingsmetoade by om jo abonnemint te aktivearjen en de tagong ta jo tsjinsten te werstellen.
+free-trial-content-button-update-payment = Betellingsmetoade bywurkje
 
 # Component - Header
 
@@ -428,9 +453,23 @@ purchase-details-total-due-label = Totaal te beteljen
 next-plan-details-hide-button = Details ferstopje
 next-plan-details-show-button = Details toane
 
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Jo fergeze proefperioade fan { $trialDayLength } dei starte
+       *[other] Jo fergeze proefperioade fan { $trialDayLength } dagen starte
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Jo fergeze proefperioade fan { $trialDayLength } dei is start
+       *[other] Jo fergeze proefperioade fan { $trialDayLength } dagen is start
+    }
+
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
+free-trial-start-message-daily = Jo hoege hjoed neat te beteljen. Neidat de fergeze proefperioade op { $endDate } einiget, wurdt { $firstPrice }/dei by jo yn rekkening brocht.
 free-trial-start-message-weekly = Jo hoege hjoed neat te beteljen. Neidat de fergeze proefperioade op { $endDate } einiget, wurdt { $firstPrice }/wike by jo yn rekkening brocht.
 free-trial-start-message-monthly = Jo hoege hjoed neat te beteljen. Neidat de fergeze proefperioade op { $endDate } einiget, wurdt { $firstPrice }/moanne by jo yn rekkening brocht.
 free-trial-start-message-halfyearly = Jo hoege hjoed neat te beteljen. Neidat de fergeze proefperioade op { $endDate } einiget, wurdt { $firstPrice }/6 moannen by jo yn rekkening brocht.
