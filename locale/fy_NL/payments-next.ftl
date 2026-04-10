@@ -28,6 +28,7 @@ location-banner-currency-change = Falutawiziging wurdt net stipe. Selektearje in
 upgrade-page-payment-information = Betellingsgegevens
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Jo abonnemint wiziget daliks, en der wurdt in grut bedrach yn rekkening brocht foar it restant fan jo fakturaasjeperioade. Fan { $nextInvoiceDate } ôf wurdt jo it folsleine bedrach yn rekkening brocht.
+upgrade-page-acknowledgment-from-trial = Troch te fernijen einiget jo aktive fergeze proefperioade daliks en wurdt jo nije abonnemint hjoed yn rekkening brocht.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Kontakt opnimme
 subscription-management-page-banner-warning-title-no-payment-method = Gjin betellingsmetoade tafoege
 subscription-management-page-banner-warning-link-no-payment-method = In betellingsmetoade tafoegje
 subscription-management-subscriptions-heading = Abonneminten
+subscription-management-free-trial-heading = Fergeze proefferzjes
+subscription-management-your-free-trials-aria = Jo fergeze proefferzjes
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Fluch nei
+subscription-management-nav-free-trials = Fergeze proefferzjes
 subscription-management-nav-payment-details = Betellingsgegevens
 subscription-management-nav-active-subscriptions = Aktive abonneminten
 subscription-management-payment-details-heading = Betellingsgegevens
@@ -319,6 +323,29 @@ next-coupon-promo-code = Promoasjekoade
 next-coupon-promo-code-applied = Promoasjekoade tapast
 next-coupon-remove = Fuortsmite
 next-coupon-submit = Tapasse
+
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Dyn fergeze proefperioade ferrint op { $date }.
+free-trial-content-trial-cancelled = Jo fergeze proefperioade is opsein.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn ’e dei { $amount } + { $tax } btw yn rekkening brocht.
+free-trial-content-charge-info-with-tax-week = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn ’e wike { $amount } + { $tax } btw yn rekkening brocht.
+free-trial-content-charge-info-with-tax-month = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn ’e moanne { $amount } + { $tax } btw yn rekkening brocht.
+free-trial-content-charge-info-with-tax-halfyear = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn ’e 6 moannen { $amount } + { $tax } btw yn rekkening brocht.
+free-trial-content-charge-info-with-tax-year = Oan it ein fan de fergeze proefperioade op { $date } wurdt yn it jier { $amount } + { $tax } btw yn rekkening brocht.
+free-trial-content-charge-info-with-tax-default = Oan it ein fan de fergeze proefperioade op { $date } wurdt { $amount } + { $tax } btw yn rekkening brocht.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Oan it ein fan de fergeze proefperioade op { $date } wurdt  yn ’e dei { $amount } yn rekkening brocht.
+free-trial-content-charge-info-no-tax-week = Oan it ein fan de fergeze proefperioade op { $date } wurdt  yn ’e wike { $amount } yn rekkening brocht.
+free-trial-content-charge-info-no-tax-month = Oan it ein fan de fergeze proefperioade op { $date } wurdt  yn ’e moanne { $amount } yn rekkening brocht.
 
 ##
 

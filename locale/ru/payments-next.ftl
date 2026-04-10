@@ -335,9 +335,23 @@ free-trial-content-trial-cancelled = Ваш бесплатный период б
 # Charge info strings - with tax, per interval
 
 free-trial-content-charge-info-with-tax-day = С вас будет списываться { $amount } + { $tax } налог в день после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-with-tax-week = С вас будет сниматься { $amount } + { $tax } налог в неделю после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-with-tax-month = С вас будет сниматься { $amount } + { $tax } налог в месяц после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-with-tax-halfyear = С вас будет сниматься { $amount } + { $tax } налог каждые шесть месяцев после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-with-tax-year = С вас будет сниматься { $amount } + { $tax } налог в год после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-with-tax-default = С вас будет списано { $amount } + { $tax } налог после окончания бесплатной пробной подписки { $date }.
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-charge-info-no-tax-day = С вас будет сниматься { $amount } в день после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-no-tax-week = С вас будет сниматься { $amount } в неделю после того, как закончится бесплатная пробная подписка { $date }.
+free-trial-content-charge-info-no-tax-month = С вас будет сниматься { $amount } в месяц после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-no-tax-halfyear = С вас будет сниматься { $amount } каждые шесть месяцев после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-no-tax-year = С вас будет сниматься { $amount } в год после окончания бесплатной пробной подписки { $date }.
+free-trial-content-charge-info-no-tax-default = С вас будет списано { $amount } после окончания бесплатного пробного периода { $date }.
+free-trial-content-trial-ends = Ваш бесплатный период заканчивается { $date }. Обновите способ оплаты, чтобы сохранить доступ после окончания бесплатной пробной подписки.
+free-trial-content-trial-active = Ваш бесплатный период активен.
+free-trial-content-action-error = Произошла непредвиденная ошибка. Повторите попытку.
 
 ##
 

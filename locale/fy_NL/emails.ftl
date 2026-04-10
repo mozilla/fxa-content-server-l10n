@@ -267,6 +267,12 @@ postAddLinkedAccount-action = Account beheare
 postAddPasskey-subject = Wachtwurdkaai oanmakke
 postAddPasskey-preview = Jo kinne jo apparaat no brûke om oan te melden
 postAddPasskey-title = Jo hawwe in wachtwurdkaai oanmakke
+postAddPasskey-description = Jo kinne dizze no brûke om jo oan te melden by al jo { -product-mozilla-account }-tsjinsten.
+postAddPasskey-sync-note = Tink derom dat jo wachtwurd noch hieltyd fereaske is om tagong te krijen ta jo { -brand-firefox }-syngronisaasjegegevens.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Mear ynfo
+postAddPasskey-requested-from = Jo hawwe dit opfrege fan:
+postAddPasskey-action = Account beheare
 postAddRecoveryPhone-subject = Wersteltelefoannûmer tafoege
 postAddRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
 postAddRecoveryPhone-title-v2 = Jo hawwe in wersteltelefoannûmer tafoege

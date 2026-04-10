@@ -2003,11 +2003,11 @@ msgstr "De ynstallaasje koe net foltôge wurde. Meld jo oan mei jo e-mailadres."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Wachtwurd oanmakke. Jo syngronisearje no."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Account oanmakke. Jo syngronisearje no."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
