@@ -97,7 +97,7 @@ automated-email-reset-pwd-plaintext-v3 = Wenn Sie diese Maßnahme nicht ausgelö
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Setzen Sie außerdem die Zwei-Schritt-Authentifizierung unter folgender Adresse zurück:
 automated-email-sign-in = Diese E-Mail wurde automatisch verschickt; wenn Sie diese Aktion nicht autorisiert haben, <a data-l10n-name="securitySettingsLink">überprüfen Sie bitte die Sicherheitseinstellungen Ihres Kontos</a>. Weitere Informationen erhalten Sie bei der <a data-l10n-name="supportLink">{ -brand-mozilla }-Hilfe</a>.
-automated-email-sign-in-plaintext = Wenn Sie diese Aktion nicht autorisiert haben, überprüfen Sie bitte die Sicherheitseinstellungen Ihres Kontos auf:
+automated-email-sign-in-plaintext = Wenn Sie diese Aktion nicht autorisiert haben, überprüfen Sie bitte die Sicherheitseinstellungen Ihres Kontos unter:
 brand-banner-message = Wussten Sie, dass wir unseren Namen von { -product-firefox-accounts } in { -product-mozilla-accounts } geändert haben? <a data-l10n-name="learnMore">Weitere Informationen</a>
 change-password-plaintext = Wenn Sie den Verdacht haben, dass jemand auf Ihr Konto zugreifen möchte, ändern Sie bitte Ihr Passwort.
 manage-account = Benutzerkonto verwalten

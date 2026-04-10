@@ -2007,7 +2007,7 @@ msgstr "Passwort erstellt. Sie synchronisieren jetzt."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr "Konto erstellt Sie synchronisieren jetzt."
+msgstr "Konto erstellt. Sie synchronisieren jetzt."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

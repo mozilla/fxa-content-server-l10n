@@ -354,7 +354,7 @@ free-trial-content-trial-active = Ihre kostenlose Testversion ist aktiv.
 free-trial-content-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
 free-trial-content-button-resume-trial = Testversion fortsetzen
 free-trial-content-button-resume-trial-aria = Testversion für { $productName } fortsetzen
-free-trial-content-button-cancel-trial = Testversion abbrechen
+free-trial-content-button-cancel-trial = Testversion kündigen
 free-trial-content-button-cancel-trial-aria = Testversion für { $productName } kündigen
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
