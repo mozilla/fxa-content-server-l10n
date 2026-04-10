@@ -202,6 +202,9 @@ fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, επι
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Η δωρεάν δοκιμή σας για το { $productName } λήγει σύντομα
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-greeting = Αγαπητέ πελάτη του { $productName },

@@ -332,6 +332,7 @@ next-coupon-submit = Εφαρμογή
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-button-resume-trial = Συνέχιση δοκιμής
 free-trial-content-button-cancel-trial = Ακύρωση δοκιμής
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
