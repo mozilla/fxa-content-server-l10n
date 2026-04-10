@@ -28,6 +28,7 @@ location-banner-currency-change = Valutawijziging wordt niet ondersteund. Select
 upgrade-page-payment-information = Betalingsgegevens
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Uw abonnement wijzigt direct, en er wordt een proportioneel bedrag in rekening gebracht voor het restant van deze facturatieperiode. Vanaf { $nextInvoiceDate } wordt u het volledige bedrag in rekening gebracht.
+upgrade-page-acknowledgment-from-trial = Door te upgraden eindigt uw actieve gratis proefperiode onmiddellijk en wordt uw nieuwe abonnement vandaag in rekening gebracht.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Contact opnemen
 subscription-management-page-banner-warning-title-no-payment-method = Geen betalingsmethode toegevoegd
 subscription-management-page-banner-warning-link-no-payment-method = Een betalingsmethode toevoegen
 subscription-management-subscriptions-heading = Abonnementen
+subscription-management-free-trial-heading = Gratis proefversies
+subscription-management-your-free-trials-aria = Uw gratis proefversies
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Snel naar
+subscription-management-nav-free-trials = Gratis proefversies
 subscription-management-nav-payment-details = Betalingsgegevens
 subscription-management-nav-active-subscriptions = Actieve abonnementen
 subscription-management-payment-details-heading = Betalingsgegevens
@@ -320,6 +324,20 @@ next-coupon-promo-code-applied = Promotiecode toegepast
 next-coupon-remove = Verwijderen
 next-coupon-submit = Toepassen
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Uw gratis proefperiode verloopt op { $date }.
+free-trial-content-trial-cancelled = Uw gratis proefperiode is opgezegd.
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+
 ##
 
 
@@ -400,6 +418,28 @@ purchase-details-credit-applied-label = Tegoed toegepast
 purchase-details-total-due-label = Totaal verschuldigd
 next-plan-details-hide-button = Details verbergen
 next-plan-details-show-button = Details tonen
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-weekly = U hoeft vandaag niets te betalen. Nadat de gratis proefperiode op { $endDate } eindigt, wordt { $firstPrice }/week bij u in rekening gebracht.
+free-trial-start-message-monthly = U hoeft vandaag niets te betalen. Nadat de gratis proefperiode op { $endDate } eindigt, wordt { $firstPrice }/maand bij u in rekening gebracht.
+free-trial-start-message-halfyearly = U hoeft vandaag niets te betalen. Nadat de gratis proefperiode op { $endDate } eindigt, wordt { $firstPrice }/6 maanden bij u in rekening gebracht.
+free-trial-start-message-yearly = U hoeft vandaag niets te betalen. Nadat de gratis proefperiode op { $endDate } eindigt, wordt { $firstPrice }/jaar bij u in rekening gebracht.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Eerste betaling: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Er wordt { $firstPrice } in rekening gebracht op { $endDate }, en daarna dagelijks, totdat u opzegt.
+free-trial-first-charge-message-weekly = Er wordt { $firstPrice } in rekening gebracht op { $endDate }, en daarna wekelijks, totdat u opzegt.
+free-trial-first-charge-message-monthly = Er wordt { $firstPrice } in rekening gebracht op { $endDate }, en daarna maandelijks totdat u opzegt.
+free-trial-first-charge-message-halfyearly = Er wordt { $firstPrice } in rekening gebracht op { $endDate }, en daarna elke 6 maanden, totdat u opzegt.
+free-trial-first-charge-message-yearly = Er wordt { $firstPrice } in rekening gebracht op { $endDate }, en daarna jaarlijks, totdat u opzegt.
 
 ##
 

@@ -269,6 +269,8 @@ postAddLinkedAccount-action = Konto zastojaś
 postAddPasskey-subject = Gronidłowy kluc jo se napórał
 postAddPasskey-preview = Móžośo něnto swój rěd wužywaś, aby se pśizjawił
 postAddPasskey-title = Sćo napórał gronidłowy kluc
+postAddPasskey-description = Móžośo jo něnto wužywaś, aby se pla wšych wašych słužbow { -product-mozilla-account } pśizjawił.
+postAddPasskey-sync-note = Pšosym źiwajśo na to, až wašo gronidło jo dalej trjebne za pśistup k wašym datam synchronizacije { -brand-firefox }.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Dalšne informacije
 postAddPasskey-requested-from = Sćo póžedał to wót:

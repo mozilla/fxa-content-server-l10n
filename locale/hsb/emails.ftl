@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Jeli njejsće tutu akciju wuwjedł, stajće swoje hesło hnydom wróćo:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Stajće tež dwukročelowu awtentifikaciju wróćo:
+automated-email-sign-in =
+    To je awtomatizowana mejlka; jeli njejsće tutu akciju awtorizował, <a data-l10n-name="securitySettingsLink">přepruwujće prošu swoje kontowe wěstotne nastajenja.</a>.
+    Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>.
+automated-email-sign-in-plaintext = Jeli njejsće tutu akciju awtorizował, přepruwujće prošu swoje kontowe wěstotne nastajenja na:
 brand-banner-message = Sće wědźał, zo smy naše mjeno wot { -product-firefox-accounts } do { -product-mozilla-accounts } změnili? <a data-l10n-name="learnMore">Dalše informacije</a>
 change-password-plaintext = Jeli měniće, zo něchtó pospytuje, přistup k wašemu kontu dóstać, prošu změńće swoje hesło.
 manage-account = Konto rjadować
@@ -265,6 +269,7 @@ postAddLinkedAccount-action = Konto rjadować
 postAddPasskey-subject = Hesłowy kluč je so wutworił
 postAddPasskey-preview = Móžeće nětko swój grat wužiwać, zo byšće so přizjewił
 postAddPasskey-title = Sće hesłowy kluč wutworił
+postAddPasskey-description = Móžeće jo nětko wužiwać, zo byšće so pola wšěch wašich słužbow { -product-mozilla-account } přizjewił.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Dalše informacije
 postAddPasskey-requested-from = Sće to požadał wot:

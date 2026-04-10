@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Als u deze actie niet hebt uitgevoerd, stel dan direct uw wachtwoord opnieuw in op:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Stel ook authenticatie in twee stappen opnieuw in op:
+automated-email-sign-in =
+    Dit is een geautomatiseerd e-mailbericht; als u deze actie niet hebt geautoriseerd, <a data-l10n-name="securitySettingsLink">controleer dan uw accountbeveiligingsinstellingen</a>.
+    Ga voor meer informatie naar <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-sign-in-plaintext = Als u deze actie niet hebt geautoriseerd, controleer dan uw accountbeveiligingsinstellingen op:
 brand-banner-message = Wist u dat we onze naam hebben gewijzigd van { -product-firefox-accounts } naar { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Meer info</a>
 change-password-plaintext = Als u vermoedt dat iemand toegang tot uw account probeert te verkrijgen, wijzig dan uw wachtwoord.
 manage-account = Account beheren
@@ -260,6 +264,15 @@ postAddLinkedAccount-subject-2 = Nieuwe account gekoppeld aan uw { -product-mozi
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Uw { $providerName }-account is gekoppeld aan uw { -product-mozilla-account }
 postAddLinkedAccount-action = Account beheren
+postAddPasskey-subject = Wachtwoordsleutel aangemaakt
+postAddPasskey-preview = U kunt uw apparaat nu gebruiken om aan te melden
+postAddPasskey-title = U hebt een wachtwoordsleutel aangemaakt
+postAddPasskey-description = U kunt deze nu gebruiken om u aan te melden bij al uw { -product-mozilla-account }-services.
+postAddPasskey-sync-note = Merk op dat uw wachtwoord nog steeds vereist is om toegang te krijgen tot uw { -brand-firefox }-synchronisatiegegevens.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Meer info
+postAddPasskey-requested-from = U hebt dit opgevraagd van:
+postAddPasskey-action = Account beheren
 postAddRecoveryPhone-subject = Hersteltelefoonnummer toegevoegd
 postAddRecoveryPhone-preview = Account beschermd door authenticatie in twee stappen
 postAddRecoveryPhone-title-v2 = U hebt een hersteltelefoonnummer toegevoegd
