@@ -265,7 +265,7 @@ postAddLinkedAccount-action = Gérer le compte
 postAddPasskey-subject = Clé d’accès créée
 postAddPasskey-preview = Vous pouvez maintenant utiliser votre appareil pour vous connecter
 postAddPasskey-title = Vous avez créé une clé d’accès
-postAddPasskey-description = Vous pouvez maintenant l’utiliser pour vous connecter à tous vos services { -product-mozilla-account }.
+postAddPasskey-description = Vous pouvez maintenant l’utiliser pour vous connecter à tous les services de votre { -product-mozilla-account }.
 postAddPasskey-sync-note = Veuillez noter que votre mot de passe continuera d’être nécessaire pour accéder à vos { -brand-firefox } données de synchronisation.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = En savoir plus
