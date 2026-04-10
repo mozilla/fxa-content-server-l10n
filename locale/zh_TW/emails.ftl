@@ -96,6 +96,8 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = 若您並未進行此操作，請立即至此處重設密碼：
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = 也請到此處重設兩階段驗證設定：
+automated-email-sign-in = 這是由系統自動發出的郵件，若您並未授權進行此動作，<a data-l10n-name="securitySettingsLink">請立即檢查帳號安全性設定</a>。若需更多資訊，請到 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+automated-email-sign-in-plaintext = 若您並未授權進行此動作，請立即到下列網址檢查帳號安全性設定：
 brand-banner-message = 您知道我們將 { -product-firefox-accounts }的名稱更改為 { -product-mozilla-accounts }了嗎？<a data-l10n-name="learnMore">更多資訊</a>
 change-password-plaintext = 若您覺得有人在嘗試盜用您的帳號，請修改密碼。
 manage-account = 管理帳號
@@ -257,6 +259,11 @@ postAddLinkedAccount-subject-2 = 有新的帳號連結至您的 { -product-mozil
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 帳號已連結到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理帳號
+postAddPasskey-subject = 已建立 passkey
+postAddPasskey-preview = 您可以使用自己的裝置登入了
+postAddPasskey-title = 您已建立一把 passkey
+postAddPasskey-description = 現在起，您可以使用它來登入所有 { -product-mozilla-account } 服務。
+postAddPasskey-sync-note = 請注意：若要存取您的 { -brand-firefox } 同步資料，仍需輸入密碼。
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = 更多資訊
 postAddPasskey-requested-from = 您從下列位置要求：
