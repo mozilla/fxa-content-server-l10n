@@ -1993,11 +1993,11 @@ msgstr "Подешавање није могло бити довршено. Пр
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Лозинка је направљена. Сада се усклађујете."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Налог је направљен. Сада се усклађујете."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
