@@ -260,7 +260,7 @@ postAddLinkedAccount-subject-2 = Nuovo account collegato al tuo { -product-mozil
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Il tuo account { $providerName } è stato collegato al tuo { -product-mozilla-account }
 postAddLinkedAccount-action = Gestisci account
-postAddPasskey-subject = Chiave di accesso creata
+postAddPasskey-subject = Passkey creata
 postAddPasskey-preview = Ora puoi utilizzare il tuo dispositivo per accedere
 postAddPasskey-title = Hai creato una passkey
 postAddPasskey-description = Ora puoi usarlo per accedere a tutti i tuoi servizi { -product-mozilla-account }.
