@@ -369,6 +369,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = 檢視請款單
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = 檢視 { $productName } 的請款單
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = 您的免費試用期間已於 <bold>{ $date }</bold> 結束。我們無法處理您的付款方式以為您啟動訂閱。請更新付款方式以啟動訂閱，並恢復服務的使用權。
+free-trial-content-payment-failed-no-date = 我們無法處理您的付款方式以為您啟動訂閱。請更新付款方式以啟動訂閱，並恢復服務的使用權。
 free-trial-content-button-update-payment = 更新付款方式
 
 # Component - Header
@@ -460,6 +463,22 @@ free-trial-success-title = 已開始您的 { $trialDayLength } 天免費試用
 free-trial-start-message-daily = 目前無需付款，將會在免費試用期於 { $endDate } 結束後，向您收取每日 { $firstPrice }。
 free-trial-start-message-weekly = 目前無需付款，將會在免費試用期於 { $endDate } 結束後，向您收取每週 { $firstPrice }。
 free-trial-start-message-monthly = 目前無需付款，將會在免費試用期於 { $endDate } 結束後，向您收取每月 { $firstPrice }。
+free-trial-start-message-halfyearly = 目前無需付款，將會在免費試用期於 { $endDate } 結束後，向您收取每半年 { $firstPrice }。
+free-trial-start-message-yearly = 目前無需付款，將會在免費試用期於 { $endDate } 結束後，向您收取每年 { $firstPrice }。
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = 首次收費：{ $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = 將在 { $endDate } 向您收費 { $firstPrice }，然後每天持續收費直到您主動取消。
+free-trial-first-charge-message-weekly = 將在 { $endDate } 向您收費 { $firstPrice }，然後每週持續收費直到您主動取消。
+free-trial-first-charge-message-monthly = 將在 { $endDate } 向您收費 { $firstPrice }，然後每月持續收費直到您主動取消。
+free-trial-first-charge-message-halfyearly = 將在 { $endDate } 向您收費 { $firstPrice }，然後每半年持續收費直到您主動取消。
+free-trial-first-charge-message-yearly = 將在 { $endDate } 向您收費 { $firstPrice }，然後每年持續收費直到您主動取消。
 
 ##
 
