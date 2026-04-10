@@ -260,6 +260,7 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }nıza yeni bir hesa
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } hesabınız { -product-mozilla-account }na bağlandı
 postAddLinkedAccount-action = Hesabı yönet
+postAddPasskey-action = Hesabı yönet
 postAddRecoveryPhone-subject = Kurtarma telefonu eklendi
 postAddRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
 postAddRecoveryPhone-title-v2 = Kurtarma telefon numarası eklediniz
@@ -420,6 +421,7 @@ verifyAccountChange-preview =
 verifyAccountChange-title = Hesap bilgilerinizi mi değiştiriyorsunuz?
 # After the colon is a description of the device used to sign in to the service
 verifyAccountChange-safe = Bu değişikliği onaylayarak hesabınızı güvende tutmamıza yardımcı olun:
+verifyAccountChange-prompt = Yetkilendirme kodunuz:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =
@@ -458,6 +460,9 @@ verifySecondaryCode-action-2 = E-postanızı doğrulayın
 verifySecondaryCode-explainer-2 = { $email } adresini ikinci e-posta adresi olarak kullanmak için aşağıdaki { -product-mozilla-account }ndan bir istek yapıldı:
 verifySecondaryCode-prompt-2 = Bu doğrulama kodunu kullanın:
 verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Adres doğrulandıktan sonra güvenlik bildirimleri ve onaylar bu adrese de gönderilecektir.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Hesabınızı onaylamak için bu kodu kullanabilirsiniz: { $code }
 verifyShortCode-preview-2 = Kodun geçerlilik süresi 5 dakikadır
 verifyShortCode-title-3 = İnternete { -brand-mozilla } ile açılın
 # Information on the browser and device triggering this confirmation email follows below this string.

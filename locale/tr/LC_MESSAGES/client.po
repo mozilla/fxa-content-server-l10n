@@ -1995,11 +1995,11 @@ msgstr "Kurulum tamamlanamadı. Lütfen e-postanızla giriş yapın."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Parola oluşturuldu. Artık eşitleme yapıyorsunuz."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Hesap oluşturuldu. Artık eşitleme yapıyorsunuz."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

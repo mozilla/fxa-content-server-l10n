@@ -196,6 +196,30 @@ fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Sorularınız varsa lütfen destek ekibimizle iletişime geçin: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Ücretsiz { $productName } denemeniz yakında sona eriyor
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Değerli { $productName } müşterisi,
+freeTrialEndingReminder-content-trial-ending-plaintext = Ücretsiz denemeniz { $serviceLastActiveDateOnly } tarihinde bitecek.
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = { $productName } aboneliği: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = İndirim: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Vergi: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-closing = Saygılarımızla,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = { $productName } Ekibi
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Bize ulaşın: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = { $productName } aboneliğiniz iptal edildi
@@ -232,6 +256,13 @@ subscriptionCancellation-outstanding-content-2 = { $productName } aboneliğinizi
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Hizmetiniz, mevcut fatura döneminizin sonuna kadar ({ $serviceLastActiveDateOnly }) devam edecektir.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = { $productName } ücretsiz denemeniz iptal edildi
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Ücretsiz { $productName } denemeniz iptal edildi. Erişiminiz { $trialEndDateOnly } tarihinde sona erecek. Herhangi bir ödeme alınmayacaktır.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = { $productName } aboneliğine geçtiniz

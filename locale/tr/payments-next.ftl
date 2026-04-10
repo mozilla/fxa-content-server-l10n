@@ -111,6 +111,7 @@ not-found-button-back-to-subscriptions = Aboneliklere dön
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Bu teklifin süresi doldu
+churn-cancel-flow-error-button-continue-to-cancel = İptal etmeye devam et
 churn-cancel-flow-error-page-button-back-to-subscriptions = Aboneliklere dön
 
 ## Loyalty discount - Not found page
@@ -126,6 +127,7 @@ interstitial-offer-error-subscription-not-found-message = Bu abonelik artık etk
 interstitial-offer-error-general-heading = Teklif mevcut değil
 interstitial-offer-error-general-message = Bu teklif şu anda mevcut değil.
 interstitial-offer-error-button-back-to-subscriptions = Aboneliklere dön
+interstitial-offer-error-button-cancel-subscription = İptal etmeye devam et
 interstitial-offer-error-button-sign-in = Giriş yap
 interstitial-offer-error-button-contact-support = Destek birimiyle iletişime geç
 
@@ -134,8 +136,10 @@ interstitial-offer-error-button-contact-support = Destek birimiyle iletişime ge
 subscription-management-page-banner-warning-title-no-payment-method = Ödeme yöntemi eklenmedi
 subscription-management-page-banner-warning-link-no-payment-method = Ödeme yöntemi ekle
 subscription-management-subscriptions-heading = Abonelikler
+subscription-management-free-trial-heading = Ücretsiz denemeler
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Atla
+subscription-management-nav-free-trials = Ücretsiz denemeler
 subscription-management-nav-payment-details = Ödeme ayrıntıları
 subscription-management-nav-active-subscriptions = Aktif abonelikler
 subscription-management-payment-details-heading = Ödeme ayrıntıları
@@ -167,7 +171,9 @@ subscription-management-iap-sub-expires-on-expiry-date = Son geçerlilik tarihi:
 subscription-management-button-manage-subscription-aria = { $productName } aboneliğini yönet
 subscription-management-button-manage-subscription-1 = Abonelikleri yönet
 error-payment-method-banner-title-expired-card = Kartın süresi dolmuş
+error-payment-method-banner-message-add-new-card = Aboneliklerinizde kesinti olmaması için yeni bir kart veya ödeme yöntemi ekleyin.
 error-payment-method-banner-label-update-payment-method = Ödeme yöntemini güncelle
+error-payment-method-expired-card = Kartınızın süresi doldu. Aboneliklerinizde kesinti olmaması için lütfen yeni bir kart veya ödeme yöntemi ekleyin.
 error-payment-method-banner-title-invalid-payment-information = Geçersiz ödeme bilgileri
 error-payment-method-banner-message-account-issue = Hesabınızla ilgili bir sorun var.
 subscription-management-button-manage-payment-method-1 = Ödeme yöntemini yönet
