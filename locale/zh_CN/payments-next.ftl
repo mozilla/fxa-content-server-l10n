@@ -198,6 +198,9 @@ alert-dialog-title = 提示对话框
 ## Already Canceling
 
 already-canceling-title = 您的订阅即将结束
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = 您可以在 { $date } 前继续使用 { $productName }。
 already-canceling-button-back-to-subscriptions = 返回“订阅”
 
 ## Navigation breadcrumbs
@@ -231,6 +234,7 @@ subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消
 
 cancel-subscription-button-cancel-subscription = 取消订阅
     .aria-label = 取消订阅 { $productName }
+cancel-subscription-button-keep-subscription = 保持订阅
 
 ## Component - Payment Consent Checkbox
 
