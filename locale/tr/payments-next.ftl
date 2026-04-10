@@ -261,6 +261,7 @@ churn-stay-subscribed-subtitle-offer-expired = { $productName } ürününü kull
 churn-stay-subscribed-title-subscription-renewed = Abonelik yenilendi
 churn-stay-subscribed-title-subscription-active = { $productName } aboneliğiniz etkin
 churn-stay-subscribed-thanks-valued-subscriber = Abone olduğunuz için teşekkürler!
+churn-stay-subscribed-button-go-to-product-page = { $productName } sitesine git
 churn-stay-subscribed-button-go-to-subscriptions = Aboneliklere git
 churn-stay-subscribed-button-stay-subscribed = Aboneliğimi sürdür
 
@@ -275,8 +276,40 @@ next-coupon-promo-code-applied = Promosyon kodu uygulandı
 next-coupon-remove = Kaldır
 next-coupon-submit = Uygula
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Ücretsiz denemeniz { $date } tarihinde sona eriyor.
+free-trial-content-trial-cancelled = Ücretsiz denemeniz iptal edildi.
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-trial-active = Ücretsiz denemeniz etkin.
+free-trial-content-action-error = Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.
+free-trial-content-button-resume-trial = Denemeyi sürdür
+free-trial-content-button-resume-trial-aria = { $productName } denemesini sürdür
+free-trial-content-button-cancel-trial = Denemeyi iptal et
+free-trial-content-button-cancel-trial-aria = { $productName } denemesini iptal et
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Son fatura • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } vergi
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Faturayı görüntüle
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = { $productName } faturasını görüntüle
+free-trial-content-button-update-payment = Ödeme yöntemini güncelle
 
 # Component - Header
 
@@ -395,11 +428,17 @@ resubscribe-success-dialog-title = Teşekkürler! Artık hazırsınız.
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-will-be-applied = { $promotionName } indirimi uygulanacak
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Son fatura • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } vergi
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Faturayı görüntüle
 subscription-management-link-view-invoice-aria = { $productName } faturasını görüntüle
 subscription-content-expires-on-expiry-date = Son geçerlilik tarihi: { $date }
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Sonraki fatura • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } vergi
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 
 ##
@@ -417,6 +456,8 @@ churn-error-page-button-try-again = Yeniden dene
 churn-error-page-button-sign-in = Giriş yap
 churn-error-page-title-general-error = Aboneliğiniz yenilenirken bir sorun oluştu
 churn-error-page-message-general-error = Destek ekibiyle iletişime geçin veya yeniden deneyin.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = { $productName } sitesine git
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-not-active = Bu indirim yalnızca mevcut { $productName } aboneleri için geçerlidir
 # $productName (String) - The name of the product associated with the subscription.

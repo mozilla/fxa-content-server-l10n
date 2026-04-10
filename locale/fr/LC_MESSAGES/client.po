@@ -2000,11 +2000,11 @@ msgstr "La configuration n’a pas pu être terminée. Veuillez vous connecter a
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr "Mot de passe créé. La synchronisation est désormais effective."
+msgstr "Mot de passe créé. La synchronisation est désormais activée."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr "Compte créé. La synchronisation est désormais effective."
+msgstr "Compte créé. La synchronisation est désormais activée."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
