@@ -262,6 +262,8 @@ postAddLinkedAccount-subject-2 = Nowe konto jo se zwězało z wašym { -product-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Wašo konto { $providerName } jo se zwězało z wašym { -product-mozilla-account(case: "instr", capitalization: "lower") }
 postAddLinkedAccount-action = Konto zastojaś
+postAddPasskey-subject = Gronidłowy kluc jo se napórał
+postAddPasskey-preview = Móžośo něnto swój rěd wužywaś, aby se pśizjawił
 postAddRecoveryPhone-subject = Wótnowjeński telefon pśidany
 postAddRecoveryPhone-preview = Konto se pśez dwójokšacowu awtentifikaciju šćita
 postAddRecoveryPhone-title-v2 = Sćo pśidał numer wótnowjeńskego telefona
