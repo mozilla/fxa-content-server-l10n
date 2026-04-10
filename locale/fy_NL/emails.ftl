@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = As jo dizze aksje net útfierd hawwe, stel dan daliks jo wachtwurd opnij yn op:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Stel ek autentikaasje yn twa stappen opnij yn op:
+automated-email-sign-in =
+    Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a data-l10n-name="securitySettingsLink">kontrolearje dan jo accountbefeiligingsynstellingen</a>.
+    Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-sign-in-plaintext = As jo dizze aksje net autorisearre hawwe, kontrolearje dan jo accountbefeiligingsynstellingen op:
 brand-banner-message = Wisten jo dat wy ús namme wizige hawwe fan { -product-firefox-accounts } nei { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mear ynfo</a>
 change-password-plaintext = As jo tinke dat ien tagong ta jo account probearret te krijen, wizigje dan jo wachtwurd.
 manage-account = Account beheare
@@ -260,6 +264,9 @@ postAddLinkedAccount-subject-2 = Nije account keppele oan jo { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Jo { $providerName }-account is keppele oan jo { -product-mozilla-account }
 postAddLinkedAccount-action = Account beheare
+postAddPasskey-subject = Wachtwurdkaai oanmakke
+postAddPasskey-preview = Jo kinne jo apparaat no brûke om oan te melden
+postAddPasskey-title = Jo hawwe in wachtwurdkaai oanmakke
 postAddRecoveryPhone-subject = Wersteltelefoannûmer tafoege
 postAddRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
 postAddRecoveryPhone-title-v2 = Jo hawwe in wersteltelefoannûmer tafoege

@@ -2000,11 +2000,11 @@ msgstr "Установка не может быть завершена. Пожа
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Пароль создан. Сейчас вы синхронизируетесь."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Аккаунт создан. Сейчас вы синхронизируетесь."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

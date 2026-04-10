@@ -401,6 +401,28 @@ purchase-details-total-due-label = Totaal te beteljen
 next-plan-details-hide-button = Details ferstopje
 next-plan-details-show-button = Details toane
 
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-weekly = Jo hoege hjoed neat te beteljen. Neidat de fergeze proefperioade op { $endDate } einiget, wurdt { $firstPrice }/wike by jo yn rekkening brocht.
+free-trial-start-message-monthly = Jo hoege hjoed neat te beteljen. Neidat de fergeze proefperioade op { $endDate } einiget, wurdt { $firstPrice }/moanne by jo yn rekkening brocht.
+free-trial-start-message-halfyearly = Jo hoege hjoed neat te beteljen. Neidat de fergeze proefperioade op { $endDate } einiget, wurdt { $firstPrice }/6 moannen by jo yn rekkening brocht.
+free-trial-start-message-yearly = Jo hoege hjoed neat te beteljen. Neidat de fergeze proefperioade op { $endDate } einiget, wurdt { $firstPrice }/jier by jo yn rekkening brocht.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Earste betelling: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Der wurdt { $firstPrice } yn rekkening brocht op { $endDate }, en dêrnei deistich, oant jo opsizze.
+free-trial-first-charge-message-weekly = Der wurdt { $firstPrice } yn rekkening brocht op { $endDate }, en dêrnei wykliks, oant jo opsizze.
+free-trial-first-charge-message-monthly = Der wurdt { $firstPrice } yn rekkening brocht op { $endDate }, en dêrnei moanliks, oant jo opsizze.
+free-trial-first-charge-message-halfyearly = Der wurdt { $firstPrice } yn rekkening brocht op { $endDate }, en dêrnei elke 6 moannen, oant jo opsizze.
+free-trial-first-charge-message-yearly = Der wurdt { $firstPrice } yn rekkening brocht op { $endDate }, en dêrnei jierliks, oant jo opsizze.
+
 ##
 
 next-coupon-success = Jo abonnemint wurdt automatysk ferlinge tsjin de normale priis.
