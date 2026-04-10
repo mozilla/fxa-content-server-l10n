@@ -197,6 +197,7 @@ alert-dialog-title = 提示对话框
 
 ## Already Canceling
 
+already-canceling-title = 您的订阅即将结束
 already-canceling-button-back-to-subscriptions = 返回“订阅”
 
 ## Navigation breadcrumbs
