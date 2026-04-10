@@ -1993,11 +1993,11 @@ msgstr "Noñembohekopái. Emoñepyrũ tembiapo ne ñanduti veve rupive."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Emoheñóima ñe’ẽñemi. Emoñondivehína."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Emoheñóima mba’ete. Emoñondivehína."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

@@ -140,8 +140,11 @@ interstitial-offer-error-button-contact-support = Eñe’ẽ Pytyvõhándi
 subscription-management-page-banner-warning-title-no-payment-method = Ndaipóri mba’éicha ehepyme’ẽta
 subscription-management-page-banner-warning-link-no-payment-method = Embojuaju mba’éicha ehepyme’ẽta
 subscription-management-subscriptions-heading = Ñemboheraguapy
+subscription-management-free-trial-heading = Jeporu rei
+subscription-management-your-free-trials-aria = Nde jeporu reigua
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Epo amo
+subscription-management-nav-free-trials = Jeporu rei
 subscription-management-nav-payment-details = Mba’éicha ehepyme’ẽta
 subscription-management-nav-active-subscriptions = Hendýva ñemboheraguapy
 subscription-management-payment-details-heading = Jehepyme’ẽ rehegua
@@ -321,6 +324,20 @@ next-coupon-promo-code = Ayvu ñemoherakuãgua
 next-coupon-promo-code-applied = Ayvu ñemoherakuãgua japopyre
 next-coupon-remove = Mboguete
 next-coupon-submit = Jejapopy
+
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Nde jeporu rei opáta ohupytývo { $date }.
+free-trial-content-trial-cancelled = Ne jeporu reiguáva ojejokóma.
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
 
 ##
 

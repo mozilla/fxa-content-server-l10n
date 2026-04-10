@@ -267,6 +267,7 @@ postAddPasskey-description = Eiporukuaáma eikekuaa hag̃ua opaite ne { -product
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Eikuaave
 postAddPasskey-requested-from = Nde ejerure kóva guive:
+postAddPasskey-action = Eñangareko mba’etére
 postAddRecoveryPhone-subject = Pumbyry guerujeyrã mbojuajupyre
 postAddRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku’egua rupive
 postAddRecoveryPhone-title-v2 = Embojuaju pumbyry papapy guerujeyrã
