@@ -322,10 +322,25 @@ next-coupon-promo-code-applied = Codice promo applicate
 next-coupon-remove = Remover
 next-coupon-submit = Applicar
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-action-error = Un error impreviste occurreva, retenta.
+
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
 ## $taxDue (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-last-bill = Ultime factura • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + taxa de { $taxDue }
 free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
@@ -333,6 +348,7 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Vider le factura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Vider le factura pro { $productName }
+free-trial-content-button-update-payment = Actualisar methodo de pagamento
 
 # Component - Header
 
