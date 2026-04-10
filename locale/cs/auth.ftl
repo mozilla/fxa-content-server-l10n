@@ -218,7 +218,7 @@ freeTrialEndingReminder-content-trial-ending-plaintext = Vaše bezplatná zkuše
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 freeTrialEndingReminder-content-auto-charge = Pokud ho do té doby nezrušíte, začne vaše předplatné automaticky a budeme vám na vrub <strong>{ $invoiceTotal }</strong> platit dne <strong>{ $serviceLastActiveDateOnly }</strong>.
-freeTrialEndingReminder-content-auto-charge-plaintext = Pokud ho do té doby nezrušíte, bude vám automaticky účtováno předplatné { $invoiceTotal } vaším způsobem platby, který je nastaven dne { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-auto-charge-plaintext = Pokud do té doby předplatné nezrušíte, začne automaticky platit a dne { $serviceLastActiveDateOnly } vám z platební metody uvedené ve vašem účtu strhneme částku { $invoiceTotal }.
 freeTrialEndingReminder-content-charge-heading = Podrobnosti o poplatcích
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
