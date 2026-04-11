@@ -370,6 +370,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Шотты қарау
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = { $productName } үшін шотты қарау
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Тегін сынақ мерзіміңіз <bold>{ $date }</bold> күні аяқталды. Жазылымыңызды бастау үшін төлеміңізді өңдей алмадық. Жазылымыңызды белсендіру және қызметтерге қолжетімділікті қалпына келтіру үшін төлем әдісіңізді жаңартыңыз.
+free-trial-content-payment-failed-no-date = Жазылымыңызды бастау үшін төлеміңізді өңдей алмадық. Жазылымыңызды белсендіру және қызметтерге қолжетімділікті қалпына келтіру үшін төлем әдісіңізді жаңартыңыз.
 free-trial-content-button-update-payment = Төлем әдісін жаңарту
 
 # Component - Header
@@ -449,6 +452,26 @@ purchase-details-credit-applied-label = Несие қолданылды
 purchase-details-total-due-label = Жалпы сома
 next-plan-details-hide-button = Мәліметтерді жасыру
 next-plan-details-show-button = Мәліметтерді көрсету
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+       *[other] { $trialDayLength } күндік тегін сынақ мерзімін бастаңыз
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+       *[other] Сіздің { $trialDayLength } күндік тегін сынақ мерзіміңіз басталды
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Бүгін төлем талап етілмейді. Тегін сынақ мерзімі { $endDate } күні аяқталғаннан кейін сізден күніне { $firstPrice } ұсталады.
+free-trial-start-message-weekly = Бүгін төлем талап етілмейді. Тегін сынақ мерзімі { $endDate } күні аяқталғаннан кейін сізден апта сайын { $firstPrice } ұсталады.
+free-trial-start-message-monthly = Бүгін төлем талап етілмейді. Тегін сынақ мерзімі { $endDate } күні аяқталғаннан кейін сізден ай сайын { $firstPrice } ұсталады.
+free-trial-start-message-halfyearly = Бүгін төлем талап етілмейді. Тегін сынақ мерзімі { $endDate } күні аяқталғаннан кейін сізден 6 ай сайын { $firstPrice } ұсталады.
+free-trial-start-message-yearly = Бүгін төлем талап етілмейді. Тегін сынақ мерзімі { $endDate } күні аяқталғаннан кейін сізден жыл сайын { $firstPrice } ұсталады.
 
 ##
 
