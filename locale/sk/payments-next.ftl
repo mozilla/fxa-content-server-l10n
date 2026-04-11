@@ -488,6 +488,10 @@ free-trial-first-charge-title = Prvý poplatok: { $endDate }
 ## $endDate (String) - The date of the first charge after the free trial ends
 
 free-trial-first-charge-message-daily = Bude vám účtovaná suma { $firstPrice } dňa { $endDate } a potom denne, kým nezrušíte predplatné.
+free-trial-first-charge-message-weekly = Bude vám účtovaná suma { $firstPrice } dňa { $endDate } a potom každý týždeň, kým nezrušíte predplatné.
+free-trial-first-charge-message-monthly = Bude vám účtovaná suma { $firstPrice } dňa { $endDate } a potom každý mesiac, kým nezrušíte predplatné.
+free-trial-first-charge-message-halfyearly = Bude vám účtovaná suma { $firstPrice } dňa { $endDate } a potom každých 6 mesiacov, kým nezrušíte predplatné.
+free-trial-first-charge-message-yearly = Bude vám účtovaná suma { $firstPrice } dňa { $endDate } a potom každoročne, kým nezrušíte predplatné.
 
 ##
 
