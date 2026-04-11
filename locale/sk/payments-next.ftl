@@ -28,6 +28,7 @@ location-banner-currency-change = Zmena meny nie je podporovaná. Ak chcete pokr
 upgrade-page-payment-information = Informácie o platbe
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Váš plán sa okamžite zmení a dnes vám bude účtovaná pomerná suma za zvyšok tohto fakturačného cyklu. Od { $nextInvoiceDate } vám bude účtovaná celá suma.
+upgrade-page-acknowledgment-from-trial = Po aktualizácii sa vaša aktívna bezplatná skúšobná doba okamžite skončí a dnes vám bude účtovaný poplatok za váš nový program.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Kontaktovať podporu
 subscription-management-page-banner-warning-title-no-payment-method = Žiadny spôsob platby nebol pridaný
 subscription-management-page-banner-warning-link-no-payment-method = Pridať spôsob platby
 subscription-management-subscriptions-heading = Predplatné
+subscription-management-free-trial-heading = Bezplatné skúšobné verzie
+subscription-management-your-free-trials-aria = Vaše bezplatné skúšobné verzie
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Prejsť na
+subscription-management-nav-free-trials = Bezplatné skúšobné verzie
 subscription-management-nav-payment-details = Podrobnosti o platbe
 subscription-management-nav-active-subscriptions = Aktívne predplatné
 subscription-management-payment-details-heading = Podrobnosti o platbe
@@ -243,6 +247,8 @@ next-payment-confirm-with-legal-links-static-3 = Oprávňujem spoločnosť { -br
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Na začatie bezplatnej skúšobnej verzie je potrebný spôsob platby. Platba vám bude účtovaná až do dňa { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Poverujem { -brand-mozilla(case: "acc") }, aby mi po skončení bezplatnej skúšobnej doby dňa { $endDate } strhla zobrazenú sumu prostredníctvom môjho spôsobu platby v súlade so <termsOfServiceLink>Zmluvnými podmienkami</termsOfServiceLink> a <privacyNoticeLink>Vyhlásením o ochrane osobných údajov</privacyNoticeLink>, až kým nezruším svoje predplatné.
 next-payment-confirm-checkbox-error = Pred pokračovaním musíte dokončiť toto.
 
 ## Checkout Form
@@ -317,6 +323,23 @@ next-coupon-promo-code = Promo kód
 next-coupon-promo-code-applied = Promo kód bol použitý
 next-coupon-remove = Odstrániť
 next-coupon-submit = Použiť
+
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Vaša bezplatná skúšobná doba vyprší dňa { $date }.
+free-trial-content-trial-cancelled = Vaša bezplatná skúšobná verzia bola zrušená.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Po skončení bezplatnej skúšobnej doby dňa { $date } vám bude účtovaná suma vo výške { $amount } + { $tax } daň za každý deň.
+free-trial-content-charge-info-with-tax-week = Po skončení bezplatnej skúšobnej doby dňa { $date } vám bude účtovaná suma vo výške { $amount } + { $tax } daň za každý týždeň.
+free-trial-content-charge-info-with-tax-month = Po skončení bezplatnej skúšobnej doby dňa { $date } vám bude účtovaná suma vo výške { $amount } + { $tax } daň za každý mesiac.
+
+# Charge info strings - no tax, per interval
+
 
 ##
 

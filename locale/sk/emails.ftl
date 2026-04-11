@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Ak ste túto akciu nevykonali, ihneď si zmeňte heslo na adrese:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Taktiež obnovte dvojstupňové overenie na adrese:
+automated-email-sign-in =
+    Toto je automatický e‑mail; ak ste túto akciu neautorizovali, <a data-l10n-name="securitySettingsLink">skontrolujte nastavenia zabezpečenia svojho účtu</a>.
+    Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla }</a>.
+automated-email-sign-in-plaintext = Ak ste túto akciu neautorizovali, skontrolujte nastavenia zabezpečenia svojho účtu na adrese:
 brand-banner-message = Vedeli ste, že sme zmenili názov z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Ďalšie informácie</a>
 change-password-plaintext = Ak máte podozrenie, že sa niekto pokúša neoprávnene získať prístup k vášmu účtu, zmeňte si svoje heslo.
 manage-account = Spravovať účet
@@ -261,6 +265,15 @@ postAddLinkedAccount-subject-2 = Nový účet prepojený s vaším { -product-mo
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Váš účet { $providerName } bol prepojený s vaším { -product-mozilla-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Spravovať účet
+postAddPasskey-subject = Prístupový kľúč vytvorený
+postAddPasskey-preview = Teraz sa môžete prihlásiť pomocou svojho zariadenia
+postAddPasskey-title = Vytvorili ste prístupový kľúč
+postAddPasskey-description = Teraz ho môžete použiť na prihlásenie do všetkých služieb vášho { -product-mozilla-account(case: "gen", capitalization: "lower") }.
+postAddPasskey-sync-note = Upozorňujeme, že na prístup k synchronizačným údajom { -brand-firefox(case: "gen") } bude naďalej potrebné vaše heslo.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Ďalšie informácie
+postAddPasskey-requested-from = Požiadali ste o to z:
+postAddPasskey-action = Spravovať účet
 postAddRecoveryPhone-subject = Obnovenie pomocou telefónu bolo pridané
 postAddRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
 postAddRecoveryPhone-title-v2 = Pridali ste telefónne číslo na obnovenie účtu
