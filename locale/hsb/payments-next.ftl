@@ -348,6 +348,12 @@ free-trial-content-charge-info-with-tax-default = Po kóncu darmotneho testoweho
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-charge-info-no-tax-day = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } na dźeń wobličuje.
+free-trial-content-charge-info-no-tax-week = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } na tydźeń wobličuje.
+free-trial-content-charge-info-no-tax-month = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } na měsac wobličuje.
+free-trial-content-charge-info-no-tax-halfyear = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } kóžde šěsć měsacow wobličuje.
+free-trial-content-charge-info-no-tax-year = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } na lěto wobličuje.
+free-trial-content-charge-info-no-tax-default = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } wobličuje.
 free-trial-content-trial-active = Waš darmotny testowy čas je aktiwny.
 free-trial-content-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
 free-trial-content-button-resume-trial = Z testowym časom pokročować
