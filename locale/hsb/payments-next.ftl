@@ -489,6 +489,15 @@ free-trial-start-message-yearly = Dźensa žane płaćenje trěbne. Po kóncu da
 # $endDate (String) - The date of the first charge after the free trial ends
 free-trial-first-charge-title = Prěnje wobćeženje: { $endDate }
 
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Wobličuje so wam dnja { $endDate } { $firstPrice }, potom kóždy dźeń, doniž njewupowědźeće.
+free-trial-first-charge-message-weekly = Wobličuje so wam dnja { $endDate } { $firstPrice }, potom kóždy tydźeń, doniž njewupowědźeće.
+free-trial-first-charge-message-monthly = Wobličuje so wam dnja { $endDate } { $firstPrice }, potom kóždy měsac, doniž njewupowědźeće.
+free-trial-first-charge-message-halfyearly = Wobličuje so wam dnja { $endDate } { $firstPrice }, potom kóžde 6 měsacow, doniž njewupowědźeće.
+free-trial-first-charge-message-yearly = Wobličuje so wam dnja { $endDate } { $firstPrice }, potom kóžde lěto, doniž njewupowědźeće.
+
 ##
 
 next-coupon-success = Waš plan so awtomatisce za lisćinowu płaćiznu wobnowja.
