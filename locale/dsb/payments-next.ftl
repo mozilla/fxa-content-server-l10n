@@ -339,6 +339,12 @@ free-trial-content-trial-cancelled = Waš dermotny testowy cas jo se wupowěźe�
 
 # Charge info strings - with tax, per interval
 
+free-trial-content-charge-info-with-tax-day = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } + { $tax } danka na źeń woblicujo.
+free-trial-content-charge-info-with-tax-week = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } + { $tax } danka na tyźeń woblicujo.
+free-trial-content-charge-info-with-tax-month = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } + { $tax } danka na mjasec woblicujo.
+free-trial-content-charge-info-with-tax-halfyear = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } + { $tax } danka na kužde šesć mjasecow woblicujo.
+free-trial-content-charge-info-with-tax-year = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } + { $tax } danka na lěto woblicujo.
+free-trial-content-charge-info-with-tax-default = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } + { $tax } danka woblicujo.
 
 # Charge info strings - no tax, per interval
 
