@@ -418,7 +418,7 @@ password-strength-inline-passwords-match = Hesla se shodují
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Váš telefon. Vaše pravidla.
 # Appears next to a QR code that a user can scan to download the Firefox mobile app
-promo-qr-mobile-description = Naskenujte aplikaci
+promo-qr-mobile-description = Naskenujte a stáhněte si aplikaci
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = QR kód pro stažení mobilní aplikace za { -brand-firefox }. Pro skenování umístěte fotoaparát svého telefonu do pravého dolního rohu obrazovky.
