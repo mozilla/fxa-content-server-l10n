@@ -481,11 +481,22 @@ free-trial-success-title =
 free-trial-start-message-daily = Źinsa žedno płaśenje trjebne. Po kóńcu dermotnego testowego casa  { $endDate } se wam { $firstPrice }/źeń woblicujo.
 free-trial-start-message-weekly = Źinsa žedno płaśenje trjebne. Po kóńcu dermotnego testowego casa  { $endDate } se wam { $firstPrice }/tyźeń woblicujo.
 free-trial-start-message-monthly = Źinsa žedno płaśenje trjebne. Po kóńcu dermotnego testowego casa  { $endDate } se wam { $firstPrice }/mjasec woblicujo.
+free-trial-start-message-halfyearly = Źinsa žedno płaśenje trjebne. Po kóńcu dermotnego testowego casa  { $endDate } se wam { $firstPrice }/6 mjasecow woblicujo.
+free-trial-start-message-yearly = Źinsa žedno płaśenje trjebne. Po kóńcu dermotnego testowego casa  { $endDate } se wam { $firstPrice }/lěto woblicujo.
 
 ##
 
 # $endDate (String) - The date of the first charge after the free trial ends
 free-trial-first-charge-title = Prědne wobśěženje: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Woblicujo se wam dnja { $endDate } { $firstPrice }, pótom kuždy źeń, daniž njewupowěźejośo.
+free-trial-first-charge-message-weekly = Woblicujo se wam dnja { $endDate } { $firstPrice }, pótom kuždy tyźeń, daniž njewupowěźejośo.
+free-trial-first-charge-message-monthly = Woblicujo se wam dnja { $endDate } { $firstPrice }, pótom kuždy mjasec, daniž njewupowěźejośo.
+free-trial-first-charge-message-halfyearly = Woblicujo se wam dnja { $endDate } { $firstPrice }, pótom kužde 6 mjasecow, daniž njewupowěźejośo.
+free-trial-first-charge-message-yearly = Woblicujo se wam dnja { $endDate } { $firstPrice }, pótom kužde lěto, daniž njewupowěźejośo.
 
 ##
 
