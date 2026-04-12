@@ -245,6 +245,9 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Yhdysvaltain lippu
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Ladataan
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -377,6 +380,12 @@ password-strength-inline-not-email = Ei sinun sähköpostiosoite
 password-strength-inline-not-common = Ei yleisesti käytetty salasana
 password-strength-inline-confirmed-must-match = Vahvistus vastaa uutta salasanaa
 password-strength-inline-passwords-match = Salasanat täsmäävät
+
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Sinun puhelin. Sinun säännöt.
 
 ## Notification Promo Banner component
 
@@ -735,6 +744,10 @@ nav-data-collection = Tietojen keruu ja käyttö
 nav-paid-subs = Maksetut tilaukset
 nav-email-comm = Sähköpostiviestintä
 
+## Page2faChange
+
+page-2fa-change-success = Kaksivaiheinen todennus on päivitetty
+
 ## Two Step Authentication - replace backup authentication code
 
 # Error shown when API call fails while replacing existing backup codes
@@ -1013,6 +1026,14 @@ tfa-row-backup-phone-add-cta = Lisää
 tfa-row-backup-phone-delete-button = Poista
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Poista palauttamisen puhelinnumero
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Luotu: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Viimeksi käytetty: { $lastUsedDate }
 passkey-delete-modal-cancel-button = Peruuta
 
 ## Switch component
@@ -1165,6 +1186,7 @@ auth-error-203 = Järjestelmä ei ole käytettävissä, yritä pian uudelleen
 auth-error-206 = Salasanaa ei voi luoda, salasana on jo asetettu
 auth-error-214 = Palauttamisen puhelinnumero on jo olemassa
 auth-error-215 = Palauttamisen puhelinnumeroa ei ole olemassa
+auth-error-216 = Tekstiviestien raja saavutettu
 auth-error-999 = Odottamaton virhe
 auth-error-1001 = Kirjautumisyritys peruttu
 auth-error-1002 = Istunto vanhentui. Kirjaudu sisään uudelleen.
@@ -1405,6 +1427,7 @@ pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostamine
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
+service-welcome-signup-success-banner = { -product-mozilla-account } vahvistettu
 service-welcome-signin-success-banner = Kirjautuminen onnistui!
 
 ## SetPassword page
@@ -1603,7 +1626,15 @@ signin-passwordless-code-input-label = Kirjoita 8-numeroinen koodi
 signin-passwordless-code-confirm-button = Vahvista
 signin-passwordless-code-required-error = Vahvistuskoodi vaaditaan
 signin-passwordless-code-expired = Vanheniko koodi?
+signin-passwordless-code-resend-link = Lähetä uusi koodi sähköpostiin.
+signin-passwordless-code-resend-error = Jokin meni pieleen. Uutta koodia ei voitu lähettää.
 signin-passwordless-code-other-account-link = Käytä toista tiliä
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Kaksivaiheinen todennus on käytössä tililläsi. Kirjaudu sisään salasanallasi.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
@@ -1747,6 +1778,8 @@ confirm-signup-code-page-title = Kirjoita vahvistuskoodi
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Anna vahvistuskoodi<span> { -product-mozilla-account }llesi</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Syötä osoitteeseen <email>{ $email }</email> lähetetty koodi viiden minuutin kuluessa.
 confirm-signup-code-input-label = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Vahvista
