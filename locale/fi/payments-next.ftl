@@ -100,6 +100,7 @@ next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 ## Not found page
 
 not-found-title-subscriptions = Tilausta ei löytynyt
+not-found-description-subscriptions = Emme löytäneet tilaustasi. Yritä uudelleen tai ota yhteyttä tukeen.
 not-found-button-back-to-subscriptions = Takaisin tilauksiin
 
 ## Error page - churn cancel flow
@@ -116,6 +117,10 @@ not-found-loyalty-discount-button-back-to-subscriptions = Takaisin tilauksiin
 ## Error page
 
 interstitial-offer-error-general-heading = Tarjous ei ole saatavilla
+interstitial-offer-error-general-message = Vaikuttaa siltä, että tämä tarjous ei ole saatavilla tällä hetkellä.
+interstitial-offer-error-button-back-to-subscriptions = Takaisin tilauksiin
+interstitial-offer-error-button-sign-in = Kirjaudu sisään
+interstitial-offer-error-button-contact-support = Ota yhteys tukeen
 
 ## Page - Subscription Management
 
@@ -165,6 +170,11 @@ page-not-found-title = Sivua ei löydy
 page-not-found-description = Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme korjaamaan rikkinäiset linkit.
 page-not-found-back-button = Palaa takaisin
 
+## Already Canceling
+
+already-canceling-title = Tilauksesi on asetettu päättymään
+already-canceling-button-back-to-subscriptions = Takaisin tilauksiin
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -197,12 +207,27 @@ next-pay-with-heading-paypal = Maksa { -brand-paypal }illa
 ## Churn flow - cancel
 
 churn-cancel-flow-button-back-to-subscriptions = Takaisin tilauksiin
+churn-cancel-flow-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Pysy tilaajana ja säästä { $discountPercent } %
+churn-cancel-flow-button-stay-subscribed-and-save = Pysy tilaajana ja säästä
+churn-cancel-flow-discount-already-applied-title = Alennuskoodi on jo käytetty
 churn-cancel-flow-button-manage-subscriptions = Hallitse tilauksia
+churn-cancel-flow-button-contact-support = Ota yhteys tukeen
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = { $productName }-tilauksesi on aktiivinen
+churn-cancel-flow-cancel-success-title = Jäämme kaipaamaan sinua
 
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Pysy tilaajana ja säästä { $discountPercent } %
 churn-stay-subscribed-button-stay-subscribed-and-save = Pysy tilaajana ja säästä
+churn-stay-subscribed-button-no-thanks = Ei kiitos
+    .aria-label = Takaisin Tilaukset-sivulle
 churn-stay-subscribed-title-offer-expired = Tämä tarjous on päättynyt
 
 ## $productName (String) - The name of the product associated with the subscription.
@@ -227,6 +252,7 @@ next-coupon-submit = Käytä
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-trial-expires = Ilmainen kokeilujaksosi päättyy { $date }.
 
 # Charge info strings - with tax, per interval
 
@@ -246,6 +272,7 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 ##
 
 free-trial-content-link-view-invoice = Näytä lasku
+free-trial-content-button-update-payment = Päivitä maksutapa
 
 # Component - Header
 
@@ -275,6 +302,7 @@ payments-header-avatar-expanded-sign-out = Kirjaudu ulos
 
 ## Interstitial Offer
 
+interstitial-offer-success-cancel-title = Jäämme kaipaamaan sinua
 interstitial-offer-button-back-to-subscriptions = Takaisin tilauksiin
 interstitial-offer-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
 interstitial-offer-cancel-subscription-button = Peru tilaus
@@ -308,6 +336,11 @@ purchase-details-credit-applied-label = Hyvitys käytetty
 purchase-details-total-due-label = Maksettavaa
 next-plan-details-hide-button = Piilota tiedot
 next-plan-details-show-button = Näytä tiedot
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Ensimmäinen veloitus: { $endDate }
 
 ##
 
@@ -387,6 +420,8 @@ churn-error-page-title-discount-already-applied = Alennuskoodi on jo käytetty
 churn-error-page-button-manage-subscriptions = Hallinnoi tilauksia
 churn-error-page-button-contact-support = Ota yhteys tukeen
 churn-error-page-button-try-again = Yritä uudelleen
+churn-error-page-title-customer-mismatch = Kuponkia ei voi lunastaa
+churn-error-page-button-sign-in = Kirjaudu sisään
 churn-error-page-title-general-error = Tilauksesi uusimisessa oli ongelma
 churn-error-page-message-general-error = Ota yhteys tukeen tai yritä uudelleen.
 # $productName (String) - The name of the product associated with the subscription.
