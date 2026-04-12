@@ -217,7 +217,7 @@ freeTrialEndingReminder-content-trial-ending-plaintext = Vaše bezplatná zkuše
 # Variables:
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
-freeTrialEndingReminder-content-auto-charge = Pokud ho do té doby nezrušíte, začne vaše předplatné automaticky a budeme vám na vrub <strong>{ $invoiceTotal }</strong> platit dne <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge = Pokud před tímto datem předplatné nezrušíte, bude automaticky zahájeno a dne <strong>{ $serviceLastActiveDateOnly }</strong> vám z platební metody uvedené ve vašem účtu strhneme částku <strong>{ $invoiceTotal }</strong>.
 freeTrialEndingReminder-content-auto-charge-plaintext = Pokud do té doby předplatné nezrušíte, začne automaticky platit a dne { $serviceLastActiveDateOnly } vám z platební metody uvedené ve vašem účtu strhneme částku { $invoiceTotal }.
 freeTrialEndingReminder-content-charge-heading = Podrobnosti o poplatcích
 # Variables:
@@ -234,15 +234,15 @@ freeTrialEndingReminder-content-charge-tax = Daň: { $invoiceTaxAmount }
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Celková částka splatná k { $serviceLastActiveDateOnly }: { $invoiceTotal }
-freeTrialEndingReminder-content-account-link = Informace o způsobu platby a účtu můžete zkontrolovat nebo aktualizovat <a data-l10n-name="freeTrialEndingReminder-update-billing">zde</a>.
+freeTrialEndingReminder-content-account-link = <a data-l10n-name="freeTrialEndingReminder-update-billing">Zde</a> si můžete zkontrolovat nebo aktualizovat způsob platby a údaje o účtu.
 freeTrialEndingReminder-content-account-link-plaintext = Zde můžete zkontrolovat nebo aktualizovat svůj způsob platby a údaje o účtu:
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
-freeTrialEndingReminder-content-cancel-link = Pokud chcete neplatit, zrušte předplatné do <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Zrušit předplatné</a>
+freeTrialEndingReminder-content-cancel-link = Chcete-li se vyhnout účtování poplatku, zrušte předplatné před <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Zrušit předplatné</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Chcete-li se vyhnout účtování poplatku, zrušte předplatné před datem { $serviceLastActiveDateOnly }:
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-freeTrialEndingReminder-content-thanks = Děkujeme, že jste vyzkoušeli { $productName }. Pokud máte nějaké dotazy ohledně vašeho zkušebního období nebo předplatného, <a data-l10n-name="freeTrialEndingReminder-contact-support">kontaktujte nás</a>.
+freeTrialEndingReminder-content-thanks = Děkujeme, že jste vyzkoušeli { $productName }. Máte-li jakékoli dotazy ohledně zkušební verze nebo předplatného, <a data-l10n-name="freeTrialEndingReminder-contact-support">kontaktujte nás</a>.
 freeTrialEndingReminder-content-thanks-plaintext = Děkujeme, že jste vyzkoušeli { $productName }. Máte-li jakékoli dotazy ohledně zkušební verze nebo předplatného, kontaktujte nás.
 freeTrialEndingReminder-content-closing = S pozdravem,
 # Variables:
@@ -320,7 +320,7 @@ subscriptionEndingReminder-title = Vaše předplatné produktu { $productName } 
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Váš přístup ke službě { $productName } skončí dne <strong>{ $serviceLastActiveDateOnly }</strong>.
-subscriptionEndingReminder-content-line2-v2 = Pokud chcete nadále používat { $productName }, můžete zůstat předplatné v <a data-l10n-name="subscriptionEndingReminder-subscription-management">Správa předplatného</a> do <strong>{ $serviceLastActiveDateOnly }</strong> . Pokud potřebujete pomoci, <a data-l10n-name="subscriptionEndingReminder-contact-support">kontaktujte náš tým podpory</a>.
+subscriptionEndingReminder-content-line2-v2 = Pokud chcete pokračovat v používání produktu { $productName }, můžete si předplatné prodloužit v sekci <a data-l10n-name="subscriptionEndingReminder-subscription-management">Správa předplatného</a> ještě před datem <strong>{ $serviceLastActiveDateOnly }</strong>. Pokud potřebujete pomoc, <a data-l10n-name="subscriptionEndingReminder-contact-support">kontaktujte náš tým podpory</a>.
 subscriptionEndingReminder-content-line1-plaintext = Váš přístup k produktu { $productName } skončí dne { $serviceLastActiveDateOnly }.
 subscriptionEndingReminder-content-line2-plaintext-v2 = Pokud chcete službu { $productName } nadále využívat, můžete si před datem { $serviceLastActiveDateOnly } prodloužit předplatné v sekci Správa předplatného. V případě potřeby se obraťte na náš tým podpory.
 subscriptionEndingReminder-content-closing = Děkujeme, že jste naším cenným odběratelem!

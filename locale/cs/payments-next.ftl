@@ -248,7 +248,7 @@ next-payment-confirm-with-legal-links-static-3 = Opravňuji organizaci { -brand-
 ## $endDate (Date) - The end date of the free trial
 
 checkbox-payment-required-no-charge = K zahájení bezplatné zkušební verze je nutné zadat způsob platby. Žádné poplatky vám nebudou účtovány až do { $endDate }.
-checkbox-confirm-free-trial-with-legal-links = Souhlasím s tím, aby společnost { -brand-mozilla } strhávala z mé platební metody uvedenou částku v souladu s <termsOfServiceLink>podmínkami poskytování služeb</termsOfServiceLink> a <privacyNoticeLink>zásadami ochrany osobních údajů</privacyNoticeLink> po skončení zkušebního období, dokud zrušit mé předplatné.
+checkbox-confirm-free-trial-with-legal-links = Souhlasím s tím, aby společnost { -brand-mozilla } po skončení bezplatné zkušební doby dne { $endDate } naúčtovala částku uvedenou níže na můj platební prostředek v souladu s <termsOfServiceLink>Podmínkami služby</termsOfServiceLink> a <privacyNoticeLink>Zásadami ochrany osobních údajů</privacyNoticeLink>, a to až do zrušení mého předplatného.
 next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokončit
 
 ## Checkout Form
@@ -353,7 +353,7 @@ free-trial-content-trial-ends = Vaše bezplatná zkušební verze končí dne { 
 free-trial-content-trial-active = Vaše bezplatná zkušební verze je aktivní.
 free-trial-content-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
 free-trial-content-button-resume-trial = Pokračovat ve zkušební verzi
-free-trial-content-button-resume-trial-aria = Pokračovat ve zkušební verzi za { $productName }
+free-trial-content-button-resume-trial-aria = Pokračovat ve zkušební verzi produktu { $productName }
 free-trial-content-button-cancel-trial = Zrušit zkušební verzi
 free-trial-content-button-cancel-trial-aria = Zrušit zkušební verzi za { $productName }
 
