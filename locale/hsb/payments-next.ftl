@@ -339,6 +339,12 @@ free-trial-content-trial-cancelled = Waš darmotny testowy čas je so wupowědź
 
 # Charge info strings - with tax, per interval
 
+free-trial-content-charge-info-with-tax-day = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } + { $tax } dawka na dźeń wobličuje.
+free-trial-content-charge-info-with-tax-week = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } + { $tax } dawka na tydźeń wobličuje.
+free-trial-content-charge-info-with-tax-month = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } + { $tax } dawka na měsac wobličuje.
+free-trial-content-charge-info-with-tax-halfyear = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } + { $tax } dawka kóžde šěsć měsacow wobličuje.
+free-trial-content-charge-info-with-tax-year = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } + { $tax } dawka na lěto wobličuje.
+free-trial-content-charge-info-with-tax-default = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } + { $tax } dawka wobličuje.
 
 # Charge info strings - no tax, per interval
 
