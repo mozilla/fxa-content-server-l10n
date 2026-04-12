@@ -354,6 +354,7 @@ free-trial-content-charge-info-no-tax-month = Po kóncu darmotneho testoweho ča
 free-trial-content-charge-info-no-tax-halfyear = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } kóžde šěsć měsacow wobličuje.
 free-trial-content-charge-info-no-tax-year = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } na lěto wobličuje.
 free-trial-content-charge-info-no-tax-default = Po kóncu darmotneho testoweho časa  { $date } so wam suma { $amount } wobličuje.
+free-trial-content-trial-ends = Waš darmotny testowy čas so { $date } skónči. Aktualizujće swoju płaćensku metodu, zo byšće po swojim darmotnym testowym času dale přistup měł.
 free-trial-content-trial-active = Waš darmotny testowy čas je aktiwny.
 free-trial-content-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
 free-trial-content-button-resume-trial = Z testowym časom pokročować
@@ -374,6 +375,8 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Zličbowanku wobhladać
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Zličbowanku za { $productName } wobhladać
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Waš darmotny testo-wy čas je so <bold>{ $date }</bold> skónčił. Njemóžachmy waše płaćenje předźěłać, zo bychmy waš abonement započeli. Prošu aktualizujće swoju płaćensku metodu, zo byšće swój abonement aktiwizował a přistup k swojim słužbam wobnowił.
 free-trial-content-button-update-payment = Płaćensku metodu aktualizować
 
 # Component - Header
