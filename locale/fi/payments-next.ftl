@@ -1,3 +1,4 @@
+loyalty-discount-terms-heading = Ehdot ja rajoitukset
 loyalty-discount-terms-support = Ota yhteys tukeen
 not-found-page-title-terms = Sivua ei löytynyt
 not-found-page-description-terms = Etsimääsi sivua ei ole olemassa.
@@ -101,17 +102,27 @@ next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 not-found-title-subscriptions = Tilausta ei löytynyt
 not-found-button-back-to-subscriptions = Takaisin tilauksiin
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Tämä tarjous on päättynyt
+churn-cancel-flow-error-page-button-back-to-subscriptions = Takaisin tilauksiin
+
 ## Loyalty discount - Not found page
 
 not-found-loyalty-discount-title = Sivua ei löytynyt
 not-found-loyalty-discount-description = Etsimääsi sivua ei ole olemassa.
 not-found-loyalty-discount-button-back-to-subscriptions = Takaisin tilauksiin
 
+## Error page
+
+interstitial-offer-error-general-heading = Tarjous ei ole saatavilla
+
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Maksutapaa ei lisätty
 subscription-management-page-banner-warning-link-no-payment-method = Lisää maksutapa
 subscription-management-subscriptions-heading = Tilaukset
+subscription-management-free-trial-heading = Ilmaiset kokeilujaksot
 subscription-management-nav-payment-details = Maksun tiedot
 subscription-management-nav-active-subscriptions = Aktiiviset tilaukset
 subscription-management-payment-details-heading = Maksun tiedot

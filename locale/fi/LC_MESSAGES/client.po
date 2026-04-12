@@ -1992,11 +1992,11 @@ msgstr "Määritystä ei voitu suorittaa loppuun. Kirjaudu sisään sähköposti
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Salasana luotu. Synkronoit nyt."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Tili luotu. Synkronoit nyt."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

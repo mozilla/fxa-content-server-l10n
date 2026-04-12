@@ -82,6 +82,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Kutsut Internetin kunnostamiseksi
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Vaalea
+dark-mode-toggle-dark = Tumma
+dark-mode-toggle-system = Järjestelmä
+dark-mode-toggle-label = Vaihda teemaa
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1006,6 +1013,7 @@ tfa-row-backup-phone-add-cta = Lisää
 tfa-row-backup-phone-delete-button = Poista
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Poista palauttamisen puhelinnumero
+passkey-delete-modal-cancel-button = Peruuta
 
 ## Switch component
 
@@ -1024,6 +1032,10 @@ row-defaults-action-add = Lisää
 row-defaults-action-change = Muuta
 row-defaults-action-disable = Poista käytöstä
 row-defaults-status = Ei mitään
+
+## UnitRowPasskey
+
+passkey-row-action-create = Luo
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1390,6 +1402,11 @@ pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <span>joltain muult
 pair-unsupported-header = Muodosta pari sovelluksella
 pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostaminen tulee tehdä { -brand-firefox }-sovelluksesta.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signin-success-banner = Kirjautuminen onnistui!
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
@@ -1561,6 +1578,29 @@ signin-bounced-message = Osoitteeseen { $email } lähetetty vahvistusviesti pala
 signin-bounced-help = Jos tämä on käytössä oleva sähköpostiosoite, <linkExternal>ilmoita siitä meille</linkExternal> niin autamme tilin lukituksen poistossa.
 signin-bounced-create-new-account = Eikö sinulla ole enää pääsyä kyseiseen sähköpostiosoitteeseen? Luo uusi tili
 back = Edellinen
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-heading = Kirjoita salasanasi synkronoidaksesi
+signin-passkey-fallback-password-label = Salasana
+signin-passkey-fallback-go-to-settings = Siirry asetuksiin
+signin-passkey-fallback-continue = Jatka
+
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Kirjoita vahvistuskoodi
+signin-passwordless-code-input-label = Kirjoita 8-numeroinen koodi
+signin-passwordless-code-confirm-button = Vahvista
+signin-passwordless-code-required-error = Vahvistuskoodi vaaditaan
+signin-passwordless-code-expired = Vanheniko koodi?
+signin-passwordless-code-other-account-link = Käytä toista tiliä
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
