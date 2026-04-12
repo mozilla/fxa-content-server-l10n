@@ -226,6 +226,9 @@ subscriptionCancellation-content-2 = Prekinuli smo tvoju pretplatu na { $product
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Tvoja će usluga biti dostupna do kraja tekućeg obračunskog razdoblja, a to je { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Tvoje besplatno probno razdoblje za { $productName } je otkazano
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Prebacio/la si se na { $productName }
