@@ -193,6 +193,12 @@ fraudulentAccountDeletion-contact = Ako imaš pitanja, kontaktiraj naš <a data-
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ako imaš pitanja kontaktiraj naš tim za podršku: { $mozillaSupportUrl }
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = { $productName } tim
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Kontaktiraj nas: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Tvoja pretplata na { $productName } je otkazana
