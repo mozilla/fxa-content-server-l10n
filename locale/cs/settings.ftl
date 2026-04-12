@@ -421,7 +421,7 @@ promo-qr-mobile-heading = Váš telefon. Vaše pravidla.
 promo-qr-mobile-description = Naskenujte a stáhněte si aplikaci
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
-    .alt = QR kód pro stažení mobilní aplikace za { -brand-firefox }. Pro skenování umístěte fotoaparát svého telefonu do pravého dolního rohu obrazovky.
+    .alt = QR kód ke stažení mobilní aplikace { -brand-firefox }. Nasměrujte fotoaparát telefonu do pravého dolního rohu obrazovky a naskenujte jej.
 
 ## Notification Promo Banner component
 
