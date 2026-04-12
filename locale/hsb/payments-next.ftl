@@ -377,6 +377,7 @@ free-trial-content-link-view-invoice = Zličbowanku wobhladać
 free-trial-content-link-view-invoice-aria = Zličbowanku za { $productName } wobhladać
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-payment-failed = Waš darmotny testo-wy čas je so <bold>{ $date }</bold> skónčił. Njemóžachmy waše płaćenje předźěłać, zo bychmy waš abonement započeli. Prošu aktualizujće swoju płaćensku metodu, zo byšće swój abonement aktiwizował a přistup k swojim słužbam wobnowił.
+free-trial-content-payment-failed-no-date = Njemóžachmy waše płaćenje předźěłać, zo bychmy waš abonement započeli. Prošu aktualizujće swoju płaćensku metodu, zo byšće swój abonement aktiwizował a přistup k swojim słužbam wobnowił.
 free-trial-content-button-update-payment = Płaćensku metodu aktualizować
 
 # Component - Header
@@ -456,6 +457,32 @@ purchase-details-credit-applied-label = Dobropis je nałoženy
 purchase-details-total-due-label = Dohromady płaćomny
 next-plan-details-hide-button = Podrobnosće schować
 next-plan-details-show-button = Podrobnosće pokazać
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Započńće swój { $trialDayLength }-dnjowski darmotny testowy čas
+        [two] Započńće swój { $trialDayLength }-dnjowski darmotny testowy čas
+        [few] Započńće swój { $trialDayLength }-dnjowski darmotny testowy čas
+       *[other] Započńće swój { $trialDayLength }-dnjowski darmotny testowy čas
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Waš { $trialDayLength }-dnjowski darmotny testowy čas je so skónčił
+        [two] Waš { $trialDayLength }-dnjowski darmotny testowy čas je so skónčił
+        [few] Waš { $trialDayLength }-dnjowski darmotny testowy čas je so skónčił
+       *[other] Waš { $trialDayLength }-dnjowski darmotny testowy čas je so skónčił
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/dźeń wobličuje.
+free-trial-start-message-weekly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/tydźeń wobličuje.
+free-trial-start-message-monthly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/na měsac wobličuje.
+free-trial-start-message-halfyearly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/kóžde 6 měsacow wobličuje.
+free-trial-start-message-yearly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/lěto wobličuje.
 
 ##
 
