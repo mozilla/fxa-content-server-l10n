@@ -1556,6 +1556,8 @@ signin-use-a-different-account-link = Käytä toista tiliä
 signin-forgot-password-link = Unohditko salasanan?
 signin-password-button-label = Salasana
 signin-code-expired-error = Koodi vanhentunut. Kirjaudu sisään uudelleen.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Jokin meni pieleen. Kirjaudu sisään uudelleen.
 signin-account-locked-banner-heading = Nollaa salasanasi
 signin-account-locked-banner-description = Lukitsimme tilisi suojataksemme sitä epäilyttävältä toiminnalta.
 # This link points to https://accounts.firefox.com/reset_password
@@ -1582,6 +1584,7 @@ back = Edellinen
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
+signin-passkey-fallback-header = Viimeistele kirjautuminen
 signin-passkey-fallback-heading = Kirjoita salasanasi synkronoidaksesi
 signin-passkey-fallback-password-label = Salasana
 signin-passkey-fallback-go-to-settings = Siirry asetuksiin
@@ -1689,6 +1692,8 @@ signin-reported-message = Tiimillemme on ilmoitettu. Tällaiset ilmoitukset autt
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Anna vahvistuskoodi<span> { -product-mozilla-account }llesi</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Syötä osoitteeseen <email>{ $email }</email> lähetetty koodi viiden minuutin kuluessa.
 signin-token-code-input-label-v2 = Kirjoita 6-numeroinen koodi
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Vahvista

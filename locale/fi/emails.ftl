@@ -89,10 +89,21 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Jos et valtuuttanut tätä toimintoa, vaihda salasanasi nyt osoitteessa { $resetLink }
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Jos et tehnyt tätä toimenpidettä, nollaa salasanasi heti:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Nollaa myös kaksivaiheinen todennus:
+automated-email-sign-in-plaintext = Jos et valtuuttanut tätä toimintoa, tarkista tilisi suojausasetukset:
 brand-banner-message = Tiesitkö, että { -product-firefox-accounts } nimettiin uudelleen, ja uusi nimi on { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Lisätietoja</a>
 change-password-plaintext = Jos epäilet, että joku yrittää murtautua tilillesi, vaihda salasanasi.
 manage-account = Hallinnoi tiliä
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }-tuesta</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Lisätietoja saat { -brand-mozilla }-tuesta: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -186,11 +197,19 @@ newDeviceLogin-change-password-plain = Etkö se ollut sinä? Vaihda salasanasi:
 newDeviceLogin-action = Hallinnoi tiliä
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
 passwordChangeRequired-preview = Vaihda salasanasi välittömästi
+passwordChangeRequired-title-2 = Nollaa salasanasi
+passwordChangeRequired-suspicious-activity-3 = Lukitsimme tilisi suojataksemme sitä epäilyttävältä toiminnalta. Sinut on kirjattu ulos kaikista laitteistasi ja kaikki synkronoidut tiedot on poistettu varotoimenpiteenä.
+passwordChangeRequired-sign-in-3 = Sinun tulee vaihtaa salasanasi kirjautuaksesi takaisin tilillesi.
+passwordChangeRequired-different-password-2 = <b>Tärkeää:</b> Valitse vahva salasana, joka on erilainen kuin aiemmin käyttämäsi salasanat.
+passwordChangeRequired-different-password-plaintext-2 = Tärkeää: Valitse vahva salasana, joka on erilainen kuin aiemmin käyttämäsi salasanat.
 passwordChangeRequired-action = Nollaa salasana
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
 passwordChanged-description-2 = { -product-mozilla-account }si salasanasi vaihdettiin onnistuneesti seuraavalta laitteelta:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Vaihda salasanasi koodilla { $code }
 password-forgot-otp-preview = Tämä koodi vanhenee 10 minuutissa
 password-forgot-otp-title = Unohditko salasanasi?
 password-forgot-otp-request = Saimme { -product-mozilla-account }n salasanan vaihtopyynnön lähteestä:
@@ -230,6 +249,9 @@ postAddLinkedAccount-subject-2 = Uusi tili yhdistetty { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-tilisi on linkitetty { -product-mozilla-account }in
 postAddLinkedAccount-action = Hallinnoi tiliä
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Lue lisää
+postAddPasskey-action = Hallinnoi tiliä
 postAddRecoveryPhone-subject = Palauttamisen puhelinnumero lisätty
 postAddRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
 postAddRecoveryPhone-title-v2 = Lisäsit palauttamisen puhelinnumeron
@@ -271,6 +293,7 @@ postRemoveAccountRecovery-action = Hallinnoi tiliä
 postRemoveRecoveryPhone-subject = Palauttamisen puhelinnumero poistettu
 postRemoveRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
 postRemoveRecoveryPhone-title = Palauttamisen puhelinnumero poistettu
+postRemoveRecoveryPhone-description-v2 = Palautuspuhelinnumerosi on poistettu kaksivaiheisen todennuksen asetuksista.
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 # Variables:
@@ -310,6 +333,9 @@ recovery-request-origin-2 = Saimme { -product-mozilla-account }n salasanan vaiht
 recovery-new-password-button = Luo uusi salasana napsauttamalla alla olevaa painiketta. Tämä linkki vanhenee seuraavan tunnin sisällä.
 recovery-copy-paste = Luo uusi salasana kopioimalla ja liittämällä alla oleva URL-osoite selaimeesi. Tämä linkki vanhenee seuraavan tunnin sisällä.
 recovery-action = Luo uusi salasana
+# Variables:
+#  $unblockCode (String) - The authorization code for sign-in
+unblockCode-subject-2 = Kirjaudu sisään koodilla { $unblockCode }
 unblockCode-preview = Tämä koodi vanhenee tunnin kuluttua
 unblockCode-title = Kirjaudutko sinä sisään?
 unblockCode-prompt = Jos kirjaudut, tässä on tarvitsemasi valtuuskoodi:
@@ -340,6 +366,9 @@ verify-description-2 = Vahvista tilisi ja ota kaikki hyöty irti { -brand-mozill
 verify-subject = Viimeistele tilisi luominen
 verify-action-2 = Vahvista tili
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Muuta tiliäsi koodilla { $code }
+# Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =
     { $expirationTime ->
@@ -363,6 +392,9 @@ verifyLogin-title-2 = Kirjauduitko { $clientName }iin?
 verifyLogin-description-2 = Auta meitä pitämään tilisi turvassa vahvistamalla, että kirjauduit sisään:
 verifyLogin-subject-2 = Vahvista sisäänkirjautuminen
 verifyLogin-action = Vahvista kirjautuminen
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Kirjaudu sisään koodilla { $code }
 verifyLoginCode-preview = Tämä koodi vanhenee viidessä minuutissa.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
@@ -377,6 +409,9 @@ verifyPrimary-subject = Vahvista ensisijainen sähköpostiosoite
 verifyPrimary-action-2 = Vahvista sähköposti
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Vahvistuksen jälkeen tilimuutokset, kuten toissijaisen sähköpostiosoitteen lisääminen, ovat mahdollisia tällä laitteella.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Vahvista toissijainen sähköpostiosoitteesi koodilla { $code }
 verifySecondaryCode-preview = Tämä koodi vanhenee viidessä minuutissa.
 verifySecondaryCode-title-2 = Vahvista toissijainen sähköpostiosoite
 verifySecondaryCode-action-2 = Vahvista sähköposti
@@ -385,6 +420,9 @@ verifySecondaryCode-action-2 = Vahvista sähköposti
 verifySecondaryCode-explainer-2 = Pyyntö käyttää osoitetta { $email } toissijaisena sähköpostina on tehty seuraavalta { -product-mozilla-account }ltä:
 verifySecondaryCode-prompt-2 = Käytä tätä vahvistuskoodia:
 verifySecondaryCode-expiry-notice-2 = Se vanhenee 5 minuutissa. Vahvistamisen jälkeen tämä osoite alkaa vastaanottamaan turvallisuusilmoituksia ja -vahvistuksia.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Vahvista tilisi koodilla { $code }
 verifyShortCode-preview-2 = Tämä koodi vanhenee viidessä minuutissa
 verifyShortCode-title-3 = Avaa Internet { -brand-mozilla }lla
 # Information on the browser and device triggering this confirmation email follows below this string.
