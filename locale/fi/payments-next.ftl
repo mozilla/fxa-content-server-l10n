@@ -122,7 +122,8 @@ interstitial-offer-error-general-heading = Tarjous ei ole saatavilla
 subscription-management-page-banner-warning-title-no-payment-method = Maksutapaa ei lisätty
 subscription-management-page-banner-warning-link-no-payment-method = Lisää maksutapa
 subscription-management-subscriptions-heading = Tilaukset
-subscription-management-free-trial-heading = Ilmaiset kokeilujaksot
+subscription-management-free-trial-heading = Ilmaiset kokeilut
+subscription-management-nav-free-trials = Ilmaiset kokeilut
 subscription-management-nav-payment-details = Maksun tiedot
 subscription-management-nav-active-subscriptions = Aktiiviset tilaukset
 subscription-management-payment-details-heading = Maksun tiedot
@@ -193,6 +194,11 @@ next-payment-confirm-checkbox-error = Sinun on suoritettava tämä vaihe, ennen 
 next-new-user-submit = Tilaa nyt
 next-pay-with-heading-paypal = Maksa { -brand-paypal }illa
 
+## Churn flow - cancel
+
+churn-cancel-flow-button-back-to-subscriptions = Takaisin tilauksiin
+churn-cancel-flow-button-manage-subscriptions = Hallitse tilauksia
+
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
@@ -216,8 +222,30 @@ next-coupon-promo-code-applied = Tarjouskoodi sovellettu
 next-coupon-remove = Poista
 next-coupon-submit = Käytä
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Viimeisin lasku • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } vero
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Näytä lasku
 
 # Component - Header
 
@@ -244,6 +272,12 @@ payments-header-avatar-icon =
     .alt = Tilin profiilikuva
 payments-header-avatar-expanded-signed-in-as = Kirjautuneena tilillä
 payments-header-avatar-expanded-sign-out = Kirjaudu ulos
+
+## Interstitial Offer
+
+interstitial-offer-button-back-to-subscriptions = Takaisin tilauksiin
+interstitial-offer-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
+interstitial-offer-cancel-subscription-button = Peru tilaus
 
 ##
 
