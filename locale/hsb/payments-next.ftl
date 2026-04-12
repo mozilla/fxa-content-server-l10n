@@ -481,7 +481,7 @@ free-trial-success-title =
 free-trial-start-message-daily = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/dźeń wobličuje.
 free-trial-start-message-weekly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/tydźeń wobličuje.
 free-trial-start-message-monthly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/na měsac wobličuje.
-free-trial-start-message-halfyearly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/kóžde 6 měsacow wobličuje.
+free-trial-start-message-halfyearly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/6 měsacow wobličuje.
 free-trial-start-message-yearly = Dźensa žane płaćenje trěbne. Po kóncu darmotneho testoweho časa  { $endDate } so wam { $firstPrice }/lěto wobličuje.
 
 ##

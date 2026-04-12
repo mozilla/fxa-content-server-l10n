@@ -348,6 +348,13 @@ free-trial-content-charge-info-with-tax-default = Po kóńcu dermotnego testoweg
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-charge-info-no-tax-day = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } na źeń woblicujo.
+free-trial-content-charge-info-no-tax-week = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } na tyźeń woblicujo.
+free-trial-content-charge-info-no-tax-month = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } na mjasec woblicujo.
+free-trial-content-charge-info-no-tax-halfyear = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } kužde šesć mjasecow woblicujo.
+free-trial-content-charge-info-no-tax-year = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } na lěto woblicujo.
+free-trial-content-charge-info-no-tax-default = Po kóńcu dermotnego testowego casa  { $date } se wam suma { $amount } woblicujo.
+free-trial-content-trial-ends = Waš dermotny testowy cas se { $date } skóńcyjo. Aktualizěrujśo swóju płaśeńsku metodu, aby pó swójom dermotnym testowym casu dalej pśistup měł.
 free-trial-content-trial-active = Waš dermotny testowy cas jo aktiwny.
 free-trial-content-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
 free-trial-content-button-resume-trial = Z testowym casom pókšacowaś
@@ -368,6 +375,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Zliceńku se woglědaś
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Zliceńku za { $productName } se woglědaś
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Waš dermotny testowy cas jo se skóńcył <bold>{ $date }</bold>. Njejsmy mógli wašo płaśenje pśeźěłaś, aby my waš abonement zachopili. Pšosym aktualizěrujśo swóju płaśeńsku metodu, aby swój abonement aktiwěrował a pśistup k swójim słužbam wótnowił.
+free-trial-content-payment-failed-no-date = Njejsmy mógli wašo płaśenje pśeźěłaś, aby my waš abonement zachopili. Pšosym aktualizěrujśo swóju płaśeńsku metodu, aby swój abonement aktiwěrował a pśistup k swójim słužbam wótnowił.
 free-trial-content-button-update-payment = Płaśeńsku metodu aktualizěrowaś
 
 # Component - Header
@@ -447,6 +457,30 @@ purchase-details-credit-applied-label = Pśipisanje na konto jo nałožone
 purchase-details-total-due-label = Dogromady musy se płaśiś
 next-plan-details-hide-button = Drobnostki schowaś
 next-plan-details-show-button = Drobnostki pokazaś
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Zachopśo swój { $trialDayLength }-dnjowny dermotny testowy cas
+        [two] Zachopśo swój { $trialDayLength }-dnjowny dermotny testowy cas
+        [few] Zachopśo swój { $trialDayLength }-dnjowny dermotny testowy cas
+       *[other] Zachopśo swój { $trialDayLength }-dnjowny dermotny testowy cas
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Waš { $trialDayLength }-dnjowny dermotny testowy cas jo se skóńcył
+        [two] Waš { $trialDayLength }-dnjowny dermotny testowy cas jo se skóńcył
+        [few] Waš { $trialDayLength }-dnjowny dermotny testowy cas jo se skóńcył
+       *[other] Waš { $trialDayLength }-dnjowny dermotny testowy cas jo se skóńcył
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Źinsa žedno płaśenje trjebne. Po kóńcu dermotnego testowego casa  { $endDate } se wam { $firstPrice }/źeń woblicujo.
+free-trial-start-message-weekly = Źinsa žedno płaśenje trjebne. Po kóńcu dermotnego testowego casa  { $endDate } se wam { $firstPrice }/tyźeń woblicujo.
+free-trial-start-message-monthly = Źinsa žedno płaśenje trjebne. Po kóńcu dermotnego testowego casa  { $endDate } se wam { $firstPrice }/mjasec woblicujo.
 
 ##
 
