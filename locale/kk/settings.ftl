@@ -1183,8 +1183,6 @@ passkey-sub-row-created-date = Жасалған: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Соңғы рет қолданылған: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Тек кіру үшін. Синхрондау үшін пайдалану мүмкін емес.
 passkey-sub-row-delete-title = Рұқсат кілтін өшіру
 passkey-delete-modal-heading = Рұқсат кілтіңізді өшіру керек пе?
 passkey-delete-modal-content = Бұл рұқсат кілті сіздің тіркелгіңізден өшіріледі. Басқа әдіспен кіруіңіз керек болады.
@@ -1218,8 +1216,6 @@ passkey-row-enabled = Іске қосылған
 passkey-row-not-set = Орнатылмаған
 passkey-row-action-create = Жасау
 passkey-row-description = Тіркелгіңізге кіру үшін телефоныңызды немесе басқа қолдау көрсетілетін құрылғыны пайдаланыңыз. Бұл жүйеге кіру процесін әрі жеңілірек, әрі қауіпсізірек етеді.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Бұл сіздің тіркелгіңізді қалай қорғайды
 
 ## Account recovery key sub-section on main Settings page
 

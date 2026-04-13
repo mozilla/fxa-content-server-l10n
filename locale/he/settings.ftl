@@ -1126,8 +1126,6 @@ passkey-sub-row-created-date = תאריך יצירה:
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = בשימוש אחרון: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = מיועד להתחברות בלבד. לא ניתן להשתמש בו לסנכרון.
 passkey-sub-row-delete-title = מחיקת מפתח גישה
 passkey-delete-modal-heading = למחוק את מפתח הגישה שלך?
 passkey-delete-modal-content = מפתח גישה זה יוסר מהחשבון שלך. יהיה עליך להתחבר בדרך אחרת.
@@ -1161,8 +1159,6 @@ passkey-row-enabled = מופעל
 passkey-row-not-set = לא מוגדר
 passkey-row-action-create = יצירה
 passkey-row-description = ניתן להפוך את ההתחברות לקלה ובטוחה יותר על־ידי שימוש בטלפון שלך או במכשיר נתמך אחר כדי להיכנס לחשבון שלך.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = כיצד זה מגן על החשבון שלך
 
 ## Account recovery key sub-section on main Settings page
 

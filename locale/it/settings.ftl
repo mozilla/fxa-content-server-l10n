@@ -1177,8 +1177,6 @@ passkey-sub-row-created-date = Creata: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Ultimo utilizzo: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Solo per accesso. Non può essere utilizzata per la sincronizzazione.
 passkey-sub-row-delete-title = Elimina passkey
 passkey-delete-modal-heading = Eliminare la passkey?
 passkey-delete-modal-content = Questa passkey verrà rimossa dal tuo account. Dovrai accedere in un altro modo.
@@ -1212,8 +1210,6 @@ passkey-row-enabled = Attiva
 passkey-row-not-set = Non impostata
 passkey-row-action-create = Crea
 passkey-row-description = Rendi l’accesso più facile e sicuro utilizzando il tuo telefono o un altro dispositivo supportato per accedere al tuo account.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Come aiuta a proteggere il tuo account
 
 ## Account recovery key sub-section on main Settings page
 

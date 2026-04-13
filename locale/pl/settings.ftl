@@ -1171,11 +1171,6 @@ row-defaults-action-change = Zmień
 row-defaults-action-disable = Wyłącz
 row-defaults-status = Brak
 
-## UnitRowPasskey
-
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = W jaki sposób chroni to Twoje konto
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Klucz odzyskiwania konta

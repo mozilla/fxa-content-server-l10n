@@ -1193,8 +1193,6 @@ passkey-sub-row-created-date = Wutworjeny: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Posledni raz wužity: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Jenož přizjewjenje. Njeda so za synchronizaciju wužiwać.
 passkey-sub-row-delete-title = Hesłowy kluč zhašeć
 passkey-delete-modal-heading = Waš hesłowy kluč zhašeć?
 passkey-delete-modal-content = Tutón hesłowy kluč je so z wašeho konta wotstronił. Dyrbiće so na druhe wašnje přizjewić.
@@ -1228,8 +1226,6 @@ passkey-row-enabled = Zmóžnjeny
 passkey-row-not-set = Njenastajeny
 passkey-row-action-create = Wutworić
 passkey-row-description = Wosnadńće přizjewjenje a wěsćiše wužiwajo waš telefon abo druhi podpěrany grat, zo byšće so do swojeho konta dóstał.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Kak to waše konto škita
 
 ## Account recovery key sub-section on main Settings page
 

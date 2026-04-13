@@ -1181,8 +1181,6 @@ passkey-sub-row-created-date = Gemaakt: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Laatst gebruikt: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Alleen aanmelden. Kan niet worden gebruikt om te synchroniseren.
 passkey-sub-row-delete-title = Wachtwoordsleutel verwijderen
 passkey-delete-modal-heading = Uw wachtwoordsleutel verwijderen?
 passkey-delete-modal-content = Deze wachtwoordsleutel zal van uw account worden verwijderd. U dient zich op een andere manier aan te melden.
@@ -1216,8 +1214,6 @@ passkey-row-enabled = Ingeschakeld
 passkey-row-not-set = Niet ingesteld
 passkey-row-action-create = Aanmaken
 passkey-row-description = Maak aanmelden eenvoudiger en veiliger door uw telefoon of een ander ondersteund apparaat voor toegang tot uw account te gebruiken.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Hoe dit uw account beschermt
 
 ## Account recovery key sub-section on main Settings page
 

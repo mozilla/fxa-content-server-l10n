@@ -1151,8 +1151,6 @@ passkey-sub-row-created-date = Oluşturma: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Son kullanım: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Sadece giriş içindir. Eşitleme yapmak için kullanılamaz.
 passkey-sub-row-delete-title = Geçiş anahtarını sil
 passkey-delete-modal-heading = Geçiş anahtarınız silinsin mi?
 passkey-delete-modal-content = Bu geçiş anahtarı hesabınızdan silinecektir. Bundan sonra farklı bir yolla giriş yapmanız gerekecektir.
@@ -1185,8 +1183,6 @@ passkey-row-header = Geçiş anahtarları
 passkey-row-enabled = Etkin
 passkey-row-not-set = Ayarlanmamış
 passkey-row-action-create = Oluştur
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
 
 ## Account recovery key sub-section on main Settings page
 

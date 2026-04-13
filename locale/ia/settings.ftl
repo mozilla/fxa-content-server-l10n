@@ -1183,8 +1183,6 @@ passkey-sub-row-created-date = Create le: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Usate le ultime vice le: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Accede solo. Non pote esser usate pro synchronisar.
 passkey-sub-row-delete-title = Deler clave-contrasigno
 passkey-delete-modal-heading = Deler tu clave-contrasigno?
 passkey-delete-modal-content = Iste clave-contrasigno sera removite de tu conto. Tu debera accede usante un maniera differente.
@@ -1218,8 +1216,6 @@ passkey-row-enabled = Activate
 passkey-row-not-set = Non definite
 passkey-row-action-create = Crear
 passkey-row-description = Rende tu accesso plus facile e plus secur usante tu telephono o altere apparato supportate pro acceder in tu conto.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Como isto protege tu conto
 
 ## Account recovery key sub-section on main Settings page
 

@@ -1181,8 +1181,6 @@ passkey-sub-row-created-date = Oppretta: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Sist brukt: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Berre innlogging. Kan ikkje brukast til å synkronisere.
 passkey-sub-row-delete-title = Slett passnøkkel
 passkey-delete-modal-heading = Slette passnøkkelen?
 passkey-delete-modal-content = Denne passnøkkelen vil bli fjerna frå kontoen din. Du må logge inn på ein annan måte.
@@ -1216,8 +1214,6 @@ passkey-row-enabled = Aktivert
 passkey-row-not-set = Ikkje innstilt
 passkey-row-action-create = Opprett
 passkey-row-description = Gjer innlogging enklare og sikrare ved å bruke telefonen din eller ei anna støtta eining for å få tilgang til kontoen din.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Korleis dette vernar kontoen din
 
 ## Account recovery key sub-section on main Settings page
 

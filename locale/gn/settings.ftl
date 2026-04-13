@@ -1181,8 +1181,6 @@ passkey-sub-row-created-date = Heñói: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Jeporu ramovéva: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Jeike añoite. Ndereiporukuaái embojuehe hag̃ua.
 passkey-sub-row-delete-title = Emboguete ñe’ẽñemi
 passkey-delete-modal-heading = ¿Emboguete pe ñe’ẽñemi?
 passkey-delete-modal-content = Ko mba’e ñemi oñemboguéta ne mba’etégui. Eikejeyva’erã ñanduti rendápe ambueháicha.
@@ -1216,8 +1214,6 @@ passkey-row-enabled = Myandypyre
 passkey-row-not-set = Heko’ỹva
 passkey-row-action-create = Moheñói
 passkey-row-description = Ejapo nde jeike ndahasýi ha tahekorosã eiporúvo pumbyry térã ambue mba’e’oka ojokupytýva eike hag̃ua ne mba’etépe.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Mba’éicha kóva omo’ãta ne mba’ete
 
 ## Account recovery key sub-section on main Settings page
 

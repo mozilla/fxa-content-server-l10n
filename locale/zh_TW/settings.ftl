@@ -1153,8 +1153,6 @@ passkey-sub-row-created-date = 建立於：{ $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = 最後使用於：{ $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = 只能登入，無法用於同步。
 passkey-sub-row-delete-title = 刪除 passkey
 passkey-delete-modal-heading = 要刪除您的 passkey 嗎？
 passkey-delete-modal-content = 將從您的帳號移除這把 passkey。您將需要改用其他方式登入。
@@ -1188,8 +1186,6 @@ passkey-row-enabled = 已啟用
 passkey-row-not-set = 未設定
 passkey-row-action-create = 建立
 passkey-row-description = 使用您的手機或其他支援的裝置來登入帳號，讓登入過程更簡單、更安全。
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = 此功能如何保護您的帳號
 
 ## Account recovery key sub-section on main Settings page
 

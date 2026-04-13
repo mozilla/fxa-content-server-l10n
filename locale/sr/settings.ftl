@@ -1187,8 +1187,6 @@ passkey-sub-row-created-date = Направљено: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Последњи пут коришћено: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Само за пријаву. Не може се користити за усклађивање.
 passkey-sub-row-delete-title = Обриши приступни кључ
 passkey-delete-modal-heading = Желите ли да обришете приступни кључ?
 passkey-delete-modal-content = Овај приступни кључ ће бити уклоњен са вашег налога. Мораћете да се пријавите на други начин.
@@ -1222,8 +1220,6 @@ passkey-row-enabled = Омогућено
 passkey-row-not-set = Није постављено
 passkey-row-action-create = Направи
 passkey-row-description = Олакшајте пријаву и учините је безбеднијом коришћењем телефона или другог подржаног уређаја за приступ вашем налогу.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Како ово штити ваш налог
 
 ## Account recovery key sub-section on main Settings page
 

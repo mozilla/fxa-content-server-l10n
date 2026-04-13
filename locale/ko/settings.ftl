@@ -1137,8 +1137,6 @@ passkey-sub-row-created-date = 생성: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = 마지막 사용: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = 로그인만 가능. 동기화에 사용할 수 없습니다.
 passkey-sub-row-delete-title = 패스키 삭제
 passkey-delete-modal-heading = 패스키를 삭제 하시겠습니까?
 passkey-delete-modal-content = 이 패스키는 계정에서 삭제됩니다. 다른 방법으로 로그인해야 합니다.
@@ -1172,8 +1170,6 @@ passkey-row-enabled = 사용함
 passkey-row-not-set = 설정되지 않음
 passkey-row-action-create = 생성
 passkey-row-description = 휴대전화나 기타 지원되는 장치를 사용하여 계정에 로그인하여 더 쉽고 안전하게 로그인하세요.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = 계정을 보호하는 방법
 
 ## Account recovery key sub-section on main Settings page
 

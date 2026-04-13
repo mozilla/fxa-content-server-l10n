@@ -1191,8 +1191,6 @@ passkey-sub-row-created-date = Vytvorený: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Naposledy použitý: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Iba prihlásenie. Nedá sa použiť na synchronizáciu.
 passkey-sub-row-delete-title = Odstrániť prístupový kľúč
 passkey-delete-modal-heading = Odstrániť prístupový kľúč?
 passkey-delete-modal-content = Tento prístupový kľúč bude z vášho účtu odstránený. Budete sa musieť prihlásiť iným spôsobom.
@@ -1226,8 +1224,6 @@ passkey-row-enabled = Povolený
 passkey-row-not-set = Nenastavený
 passkey-row-action-create = Vytvoriť
 passkey-row-description = Zjednodušte si prihlasovanie a zabezpečte ho pomocou telefónu alebo iného podporovaného zariadenia na prístup do svojho účtu.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Ako to chráni váš účet
 
 ## Account recovery key sub-section on main Settings page
 

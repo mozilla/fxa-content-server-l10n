@@ -1184,8 +1184,6 @@ passkey-sub-row-created-date = Creat la: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Ultima utilizare: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Doar pentru autentificare. Nu poate fi folosit pentru sincronizare.
 passkey-sub-row-delete-title = Șterge cheia de acces
 passkey-delete-modal-heading = Ștergi cheia de acces?
 passkey-delete-modal-content = Cheia de acces va fi eliminată din cont. Va trebui să te autentifici altfel.
@@ -1219,8 +1217,6 @@ passkey-row-enabled = Activată
 passkey-row-not-set = Nu este setată
 passkey-row-action-create = Creează
 passkey-row-description = Simplifică intrarea în cont și securizeaz-o folosindu-ți telefonul sau alt dispozitiv acceptat ca să intri în cont.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Cum îți protejează contul
 
 ## Account recovery key sub-section on main Settings page
 

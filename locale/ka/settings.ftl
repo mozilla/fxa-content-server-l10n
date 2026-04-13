@@ -1183,8 +1183,6 @@ passkey-sub-row-created-date = შექმნილი: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = ბოლო გამოყენება: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = მხოლოდ შესვლისთვის. ვერ იქნება გამოყენებული დასინქრონებისთვის.
 passkey-sub-row-delete-title = საშვის წაშლა
 passkey-delete-modal-heading = წაიშალოს საშვი?
 passkey-delete-modal-content = ეს საშვი მოცილდება თქვენი ანგარიშიდან. მოგიწევთ სხვა გზით შესვლა.
@@ -1218,8 +1216,6 @@ passkey-row-enabled = ჩართულია
 passkey-row-not-set = არაა დაყენებული
 passkey-row-action-create = შექმნა
 passkey-row-description = შედით მეტად იოლად და დაცულად თქვენი ტელეფონით ან სხვა მხარდაჭერილი მოწყობილობით ანგარიშზე.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = როგორ იცავს ეს თქვენს ანგარიშს
 
 ## Account recovery key sub-section on main Settings page
 

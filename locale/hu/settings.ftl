@@ -1185,8 +1185,6 @@ passkey-sub-row-created-date = Létrehozva: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Utoljára használva: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Csak bejelentkezés. Nem használható szinkronizáláshoz.
 passkey-sub-row-delete-title = Jelkulcs törlése
 passkey-delete-modal-heading = Törli a jelkulcsot?
 passkey-delete-modal-content = Ez a jelkulcs el lesz távolítva a fiókjából. Másik módszerrel kell bejelentkeznie.
@@ -1220,8 +1218,6 @@ passkey-row-enabled = Engedélyezve
 passkey-row-not-set = Nincs beállítva
 passkey-row-action-create = Létrehozás
 passkey-row-description = Tegye könnyebbé és biztonságosabbá a bejelentkezést a telefonjával vagy más támogatott eszközével, hogy belépjen a fiókjába.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Hogyan védi ez a fiókját
 
 ## Account recovery key sub-section on main Settings page
 

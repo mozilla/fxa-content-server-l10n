@@ -1203,8 +1203,6 @@ passkey-sub-row-created-date = Wedi'i greu: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Defnyddiwyd ddiwethaf: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Mewngofnodi yn unig. Does dim modd ei ddefnyddio i gyweddu.
 passkey-sub-row-delete-title = Dileu cyfrinallwedd
 passkey-delete-modal-heading = Dileu eich cyfrinallwedd?
 passkey-delete-modal-content = Bydd y cyfrinallwedd hwn yn cael ei dynnu o'ch cyfrif. Bydd angen i chi fewngofnodi gan ddefnyddio ffordd wahanol.
@@ -1238,8 +1236,6 @@ passkey-row-enabled = Galluogwyd
 passkey-row-not-set = Heb ei Osod
 passkey-row-action-create = Creu
 passkey-row-description = Gwnewch fewngofnodi'n haws ac yn fwy diogel trwy ddefnyddio'ch ffôn neu ddyfais arall sy'n cael ei gefnogi i fynd i'ch cyfrif.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Sut mae hyn yn diogelu eich cyfrif
 
 ## Account recovery key sub-section on main Settings page
 

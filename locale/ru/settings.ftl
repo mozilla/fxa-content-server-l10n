@@ -1185,8 +1185,6 @@ passkey-sub-row-created-date = Создан: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Последнее использование: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Только вход. Не может быть использован для синхронизации.
 passkey-sub-row-delete-title = Удалить ключ доступа
 passkey-delete-modal-heading = Удалить ваш ключ доступа?
 passkey-delete-modal-content = Этот ключ доступа будет удалён из вашего аккаунта. Вам нужно войти, используя другой способ.
@@ -1220,8 +1218,6 @@ passkey-row-enabled = Включён
 passkey-row-not-set = Не настроен
 passkey-row-action-create = Создать
 passkey-row-description = Сделайте вход проще и безопаснее, используя телефон или другое поддерживаемое устройство для входа в свой аккаунт.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Как это защищает ваш аккаунт
 
 ## Account recovery key sub-section on main Settings page
 

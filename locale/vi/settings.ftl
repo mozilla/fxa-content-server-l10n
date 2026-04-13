@@ -1157,8 +1157,6 @@ passkey-sub-row-created-date = Đã tạo: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Sử dụng lần cuối: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Chỉ dùng để đăng nhập. Không thể dùng để đồng bộ hóa.
 passkey-sub-row-delete-title = Xoá passkey
 passkey-delete-modal-heading = Xoá passkey của bạn?
 passkey-delete-modal-content = Passkey này sẽ bị xóa khỏi tài khoản của bạn. Bạn cần đăng nhập bằng phương thức khác.
@@ -1192,8 +1190,6 @@ passkey-row-enabled = Đã bật
 passkey-row-not-set = Chưa đặt
 passkey-row-action-create = Tạo
 passkey-row-description = Đăng nhập dễ dàng và an toàn hơn bằng cách sử dụng điện thoại hoặc thiết bị được hỗ trợ khác để truy cập vào tài khoản của bạn.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
 
 ## Account recovery key sub-section on main Settings page
 

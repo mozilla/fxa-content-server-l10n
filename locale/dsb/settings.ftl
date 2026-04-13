@@ -1193,8 +1193,6 @@ passkey-sub-row-created-date = Napórany: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Slědny raz wužyty: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Jano pśizjawjenje. Njedajo se za synchronizaciju wužywaś.
 passkey-sub-row-delete-title = Gronidłowy kluc lašowaś
 passkey-delete-modal-heading = Gronidłowy kluc lašowaś?
 passkey-delete-modal-content = Toś ten gronidłowy kluc jo se wótwónoźeł z wašogo konta. Musyśo se na drugi nałog pśizjawiś.
@@ -1228,8 +1226,6 @@ passkey-row-enabled = Zmóžnjony
 passkey-row-not-set = Njenastajony
 passkey-row-action-create = Napóraś
 passkey-row-description = Wólažcćo pśizjawjenje a wěsćejše z pomocu swójogo telefona abo drugego pódprětego rěd, aby se do swójogo konta dostał.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Kak to wašo konto šćita
 
 ## Account recovery key sub-section on main Settings page
 
