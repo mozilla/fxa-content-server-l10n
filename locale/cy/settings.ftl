@@ -1236,6 +1236,22 @@ passkey-row-enabled = Galluogwyd
 passkey-row-not-set = Heb ei Osod
 passkey-row-action-create = Creu
 passkey-row-description = Gwnewch fewngofnodi'n haws ac yn fwy diogel trwy ddefnyddio'ch ffôn neu ddyfais arall sy'n cael ei gefnogi i fynd i'ch cyfrif.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Dysgu rhagor
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [zero] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
+        [one] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
+        [two] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
+        [few] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
+        [many] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
+       *[other] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Rydych chi wedi cyrraedd y nifer uchaf o allweddi.
 
 ## Account recovery key sub-section on main Settings page
 

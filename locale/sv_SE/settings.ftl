@@ -1214,6 +1214,18 @@ passkey-row-enabled = Aktiverad
 passkey-row-not-set = Inte inställd
 passkey-row-action-create = Skapa
 passkey-row-description = Gör inloggningen enklare och säkrare genom att använda din telefon eller annan enhet som stöds för att komma in på ditt konto.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Läs mer
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Du har använt alla { $count } lösenordsnycklar. Ta bort en lösenordsnyckel för att skapa en ny.
+       *[other] Du har använt alla { $count } lösenordsnycklar. Ta bort en lösenordsnyckel för att skapa en ny.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Du har nått det maximala antalet lösenord.
 
 ## Account recovery key sub-section on main Settings page
 

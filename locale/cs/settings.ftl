@@ -1222,6 +1222,19 @@ passkey-row-enabled = Povolený
 passkey-row-not-set = Nenastavený
 passkey-row-action-create = Vytvořit
 passkey-row-description = Usnadněte si přihlašování a přihlašte se ke svému účtu pomocí svého telefonu nebo jiného podporovaného zařízení.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Zjistit více
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Už jste použili všech { $count } přístupových klíčů. Smažte přístupový kód, pokud chcete vytvořit nový.
+        [few] Už jste použili všech { $count } přístupových klíčů. Smažte přístupový kód, pokud chcete vytvořit nový.
+       *[other] Už jste použili všech { $count } přístupových klíčů. Smažte přístupový kód, pokud chcete vytvořit nový.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Dosáhli jste maximálního počtu přístupových klíčů.
 
 ## Account recovery key sub-section on main Settings page
 

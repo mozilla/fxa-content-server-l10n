@@ -1218,6 +1218,18 @@ passkey-row-enabled = Engedélyezve
 passkey-row-not-set = Nincs beállítva
 passkey-row-action-create = Létrehozás
 passkey-row-description = Tegye könnyebbé és biztonságosabbá a bejelentkezést a telefonjával vagy más támogatott eszközével, hogy belépjen a fiókjába.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = További tudnivalók
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Használta mind a(z) { $count } jelkulcsot. Töröljön egy jelkulcsot, hogy újat hozhasson létre.
+       *[other] Használta mind a(z) { $count } jelkulcsot. Töröljön egy jelkulcsot, hogy újat hozhasson létre.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Elérte a jelkulcsok maximális számát.
 
 ## Account recovery key sub-section on main Settings page
 

@@ -1214,6 +1214,8 @@ passkey-row-enabled = Aktivert
 passkey-row-not-set = Ikkje innstilt
 passkey-row-action-create = Opprett
 passkey-row-description = Gjer innlogging enklare og sikrare ved å bruke telefonen din eller ei anna støtta eining for å få tilgang til kontoen din.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Les meir
 
 ## Account recovery key sub-section on main Settings page
 

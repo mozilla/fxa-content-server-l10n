@@ -1226,6 +1226,20 @@ passkey-row-enabled = Omogočeno
 passkey-row-not-set = Ni nastavljeno
 passkey-row-action-create = Ustvari
 passkey-row-description = Naredite prijavo preprostejšo in varnejšo z dostopom do računa s telefonom ali drugo podprto napravo.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Več o tem
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Uporabili ste vsa { $count } ključa. Izbrišite geslo, da ustvarite novo.
+        [two] Uporabili ste vsa { $count } ključa. Izbrišite geslo, da ustvarite novo.
+        [few] Uporabili ste vsa { $count } ključa. Izbrišite geslo, da ustvarite novo.
+       *[other] Uporabili ste vsa { $count } ključa. Izbrišite geslo, da ustvarite novo.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Dosegli ste največje dovoljeno število ključev.
 
 ## Account recovery key sub-section on main Settings page
 

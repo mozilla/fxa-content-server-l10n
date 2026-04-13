@@ -1210,6 +1210,18 @@ passkey-row-enabled = Attiva
 passkey-row-not-set = Non impostata
 passkey-row-action-create = Crea
 passkey-row-description = Rendi l’accesso più facile e sicuro utilizzando il tuo telefono o un altro dispositivo supportato per accedere al tuo account.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Ulteriori informazioni
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Hai utilizzato tutte le { $count } passkey. Elimina una passkey per crearne una nuova.
+       *[other] Hai utilizzato tutte le { $count } passkey. Elimina una passkey per crearne una nuova.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Hai raggiunto il numero massimo di chiavi di accesso.
 
 ## Account recovery key sub-section on main Settings page
 
