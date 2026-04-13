@@ -1221,11 +1221,10 @@ passkey-row-info-link-2 = Läs mer
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner =
     { $count ->
-        [one] Du har använt alla { $count } lösenordsnycklar. Ta bort en lösenordsnyckel för att skapa en ny.
        *[other] Du har använt alla { $count } lösenordsnycklar. Ta bort en lösenordsnyckel för att skapa en ny.
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
-passkey-row-max-limit-disabled-reason = Du har nått det maximala antalet lösenord.
+passkey-row-max-limit-disabled-reason = Du har nått det maximala antalet lösenordsnycklar.
 
 ## Account recovery key sub-section on main Settings page
 

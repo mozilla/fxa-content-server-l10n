@@ -387,6 +387,14 @@ password-strength-inline-not-common = Nie może być często używanym hasłem
 password-strength-inline-confirmed-must-match = Potwierdzenie zgadza się z nowym hasłem
 password-strength-inline-passwords-match = Hasła są zgodne
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Twój telefon. Twoje zasady.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Zeskanuj, aby pobrać aplikację
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Utwórz
