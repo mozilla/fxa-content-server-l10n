@@ -28,6 +28,7 @@ location-banner-currency-change = Actualmente no se admite el cambio de moneda. 
 upgrade-page-payment-information = Información de pago
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Tu plan cambiará de inmediato y se te cobrará hoy una tarifa prorrateada para el resto de este ciclo de facturación. A partir del { $nextInvoiceDate } se te cobrará el importe total.
+upgrade-page-acknowledgment-from-trial = Al actualizar tu plan, tu período de prueba gratuito finalizará de inmediato y se te cobrará el nuevo plan hoy mismo.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Contactar al soporte
 subscription-management-page-banner-warning-title-no-payment-method = No se ha añadido ningún método de pago
 subscription-management-page-banner-warning-link-no-payment-method = Añadir un método de pago
 subscription-management-subscriptions-heading = Suscripciones
+subscription-management-free-trial-heading = Pruebas gratuitas
+subscription-management-your-free-trials-aria = Tus pruebas gratuitas
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Saltar a
+subscription-management-nav-free-trials = Pruebas gratuitas
 subscription-management-nav-payment-details = Detalles del pago
 subscription-management-nav-active-subscriptions = Suscripciones activas
 subscription-management-payment-details-heading = Detalles del pago
@@ -318,6 +322,38 @@ next-coupon-promo-code = Código promocional
 next-coupon-promo-code-applied = Código promocional aplicado
 next-coupon-remove = Eliminar
 next-coupon-submit = Aplicar
+
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Se te cobrarán { $amount } + { $tax } de impuestos por día después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-week = Se te cobrarán { $amount } + { $tax } de impuestos por semana después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-month = Se te cobrarán { $amount } + { $tax } de impuestos por mes después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Se te cobrarán { $amount } + { $tax } de impuestos por semestre después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-year = Se te cobrarán { $amount } + { $tax } de impuestos por año después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-default = Se te cobrarán { $amount } + { $tax } de impuestos después de que finalice la prueba gratuita el { $date }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Se te cobrarán { $amount } por día después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-week = Se te cobrarán { $amount } por semana después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-month = Se te cobrarán { $amount } por mes después de que finalice la prueba gratuita el { $date }.
+free-trial-content-button-resume-trial = Reanudar prueba
+free-trial-content-button-resume-trial-aria = Reanudar prueba para { $productName }
+free-trial-content-button-cancel-trial = Cancelar prueba
+free-trial-content-button-cancel-trial-aria = Cancelar prueba para { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Última factura • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } de impuesto
 
 ##
 

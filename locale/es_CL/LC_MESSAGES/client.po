@@ -1993,11 +1993,11 @@ msgstr "El proceso de configuración no pudo ser completado. Por favor, conécta
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Contraseña creada. Ahora estás sincronizando."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Cuenta creada. Ahora estás sincronizando."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
