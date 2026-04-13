@@ -2000,11 +2000,11 @@ msgstr "Nid oedd modd cwblhau'r gosodiad. Mewngofnodwch gyda'ch e-bost."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr "Cyfrinair wedi'i greu. Rydych chi nawr yn cysoni."
+msgstr "Cyfrinair wedi'i greu. Rydych chi nawr yn cydweddu."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr "Cyfrif wedi'i greu. Rydych chi nawr yn cysoni."
+msgstr "Cyfrif wedi'i greu. Rydych chi nawr yn cydweddu."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

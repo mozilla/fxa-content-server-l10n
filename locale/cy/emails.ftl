@@ -96,7 +96,7 @@ automated-email-reset-pwd-two-factor = Os na chi wnaeth hyn, yna <a data-l10n-na
 automated-email-reset-pwd-plaintext-v3 = Os nad chi wnaeth hyn, yna ailosodwch eich cyfrinair ar unwaith yn:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Hefyd, ailosodwch ddilysiad dau gam yn:
-automated-email-sign-in = E-bost awtomataidd yw hwn; os na wnaethoch awdurdodi'r weithred hon, yna <a data-l10n-name="securitySettingsLink">adolygwch osodiadau diogelwch eich cyfrif</a>. Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
+automated-email-sign-in = E-bost awtomatig yw hwn; os na wnaethoch awdurdodi'r weithred hon, yna <a data-l10n-name="securitySettingsLink">adolygwch osodiadau diogelwch eich cyfrif</a>. Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
 automated-email-sign-in-plaintext = Os na wnaethoch awdurdodi'r weithred hon, adolygwch eich gosodiadau diogelwch cyfrif yn:
 brand-banner-message = Oeddech chi'n gwybod ein bod ni wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Darllen rhagor</a>
 change-password-plaintext = Os ydych yn amau bod rhywun yn ceisio cael mynediad at eich cyfrif, newidiwch eich cyfrinair.
@@ -264,11 +264,11 @@ postAddLinkedAccount-subject-2 = Cyfrif newydd yn gysylltiedig â'ch cyfrif { -p
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Mae eich cyfrif { $providerName } wedi'i gysylltu â'ch cyfrif { -product-mozilla-account }
 postAddLinkedAccount-action = Rheoli cyfrif
-postAddPasskey-subject = Paskey wedi'i greu
+postAddPasskey-subject = Cyfrinallwedd wedi'i greu
 postAddPasskey-preview = Gallwch nawr ddefnyddio'ch dyfais i fewngofnodi
-postAddPasskey-title = Rydych chi wedi creu cyfrinair
+postAddPasskey-title = Rydych chi wedi creu cyfrinallwedd
 postAddPasskey-description = Gallwch nawr ei ddefnyddio i fewngofnodi i'ch holl wasanaethau { -product-mozilla-account }.
-postAddPasskey-sync-note = Sylwch, bydd angen eich cyfrinair o hyd i gael mynediad at eich data cysoni { -brand-firefox }.
+postAddPasskey-sync-note = Sylwch, bydd angen eich cyfrinair o hyd i gael mynediad at eich data cydweddu { -brand-firefox }.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Dysgu rhagor
 postAddPasskey-requested-from = Rydych wedi gofyn am hyn oddi wrth:

@@ -28,7 +28,7 @@ location-banner-currency-change = Dyw newid arian cyfred ddim yn cael ei gefnogi
 upgrade-page-payment-information = Manylion Talu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a byddwn yn codi swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau ar { $nextInvoiceDate } byddwn yn codi'r swm llawn arnoch.
-upgrade-page-acknowledgment-from-trial = Trwy uwchraddio, bydd eich treial am ddim gweithredol yn dod i ben ar unwaith a chodir tâl arnoch am eich cynllun newydd heddiw.
+upgrade-page-acknowledgment-from-trial = Trwy uwchraddio, bydd eich prawf am ddim gweithredol yn dod i ben ar unwaith a byddwn yn codi tâl arnoch heddiw am eich cynllun newydd.
 
 ## Authentication Error page
 
@@ -141,11 +141,11 @@ interstitial-offer-error-button-contact-support = Cysylltu â'n Cefnogaeth
 subscription-management-page-banner-warning-title-no-payment-method = Dim dull talu wedi'i ychwanegu
 subscription-management-page-banner-warning-link-no-payment-method = Ychwanegu dull talu
 subscription-management-subscriptions-heading = Tanysgrifiadau
-subscription-management-free-trial-heading = Treialon am ddim
-subscription-management-your-free-trials-aria = Eich treialon rhad ac am ddim
+subscription-management-free-trial-heading = Prawf am ddim
+subscription-management-your-free-trials-aria = Eich profion rhad ac am ddim
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Symud i
-subscription-management-nav-free-trials = Treialon am ddim
+subscription-management-nav-free-trials = Profi am ddim
 subscription-management-nav-payment-details = Manylion talu
 subscription-management-nav-active-subscriptions = Tanysgrifiadau gweithredol
 subscription-management-payment-details-heading = Manylion talu
@@ -329,15 +329,15 @@ next-coupon-submit = Gosod
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
-free-trial-content-trial-expires = Daw eich treial am ddim i ben ar { $date }.
-free-trial-content-trial-cancelled = Mae eich treial am ddim wedi'i ganslo.
+free-trial-content-trial-expires = Daw eich prawf am ddim i ben ar { $date }.
+free-trial-content-trial-cancelled = Mae eich prawf am ddim wedi'i ddiddymu.
 
 # Charge info strings - with tax, per interval
 
-free-trial-content-charge-info-with-tax-day = Codir { $amount } + { $tax } treth arnoch y diwrnod ar ôl i'r treial am ddim ddod i ben ar { $date }.
-free-trial-content-charge-info-with-tax-week = Codir { $amount } + { $tax } treth arnoch yr wythnos ar ôl i'r treial am ddim ddod i ben ar { $date }.
-free-trial-content-charge-info-with-tax-month = Codir { $amount } + { $tax } treth arnoch y mis ar ôl i'r treial am ddim ddod i ben ar { $date }.
-free-trial-content-charge-info-with-tax-halfyear = Codir { $amount } + { $tax } treth arnoch bob chwe mis ar ôl i'r treial am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-day = Bydd { $amount } + { $tax } o dreth yn cael ei godi arnoch y diwrnod ar ôl i'r prawf am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-week = Bydd { $amount } + { $tax } o dreth yn cael ei godi arnoch yr wythnos ar ôl i'r prawf am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-month = Bydd { $amount } + { $tax } o dreth yn cael ei godi arnoch y mis ar ôl i'r profi am ddim ddod i ben ar { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Bydd { $amount } + { $tax } o dreth yn cael ei godi arnoch bob chwe mis ar ôl i'r profi am ddim ddod i ben ar { $date }.
 free-trial-content-charge-info-with-tax-year = Codir { $amount } + { $tax } treth y flwyddyn arnoch ar ôl i'r treial am ddim ddod i ben ar { $date }.
 free-trial-content-charge-info-with-tax-default = Codir { $amount } + { $tax } treth arnoch ar ôl i'r treial am ddim ddod i ben ar { $date }.
 
