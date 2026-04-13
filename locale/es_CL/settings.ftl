@@ -68,7 +68,7 @@ recovery-key-pdf-download-error = Lo sentimos, hubo un problema al descargar tu 
 
 ## ButtonPasskeySignin
 
-button-passkey-signin = Conectarse con clave de acceso
+button-passkey-signin = Conectarse con llave de acceso
 # This is a loading state indicating that we are waiting for the user to
 # interact with their authenticator to approve the sign-in. They should see a
 # device prompt/pop-up with authentication options (or message indicating that
@@ -270,7 +270,7 @@ icon-loading-arrow-aria-label =
     .aria-label = Cargando
 # Used for passkey icon
 icon-passkey-aria-label =
-    .aria-label = Clave de acceso
+    .aria-label = Llave de acceso
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1181,13 +1181,13 @@ passkey-sub-row-created-date = Creada: { $createdDate }
 passkey-sub-row-last-used-date = Último uso: { $lastUsedDate }
 # These two sentences are referring to the passkey
 passkey-sub-row-sign-in-only = Solo para conectarse. No se puede usar para sincronizar.
-passkey-sub-row-delete-title = Eliminar clave de acceso
-passkey-delete-modal-heading = ¿Eliminar tu clave de acceso?
-passkey-delete-modal-content = Esta clave de acceso se eliminará de tu cuenta. Deberás conectarte de otra manera.
+passkey-sub-row-delete-title = Eliminar llave de acceso
+passkey-delete-modal-heading = ¿Eliminar tu llave de acceso?
+passkey-delete-modal-content = Esta llave de acceso se eliminará de tu cuenta. Deberás conectarte de otra manera.
 passkey-delete-modal-cancel-button = Cancelar
-passkey-delete-modal-confirm-button = Eliminar clave de acceso
-passkey-delete-success = Clave de acceso eliminada
-passkey-delete-error = Hubo un problema al eliminar tu clave de acceso. Vuelve a intentarlo en unos minutos.
+passkey-delete-modal-confirm-button = Eliminar llave de acceso
+passkey-delete-success = Llave de acceso eliminada
+passkey-delete-error = Hubo un problema al eliminar tu llave de acceso. Vuelve a intentarlo en unos minutos.
 
 ## Switch component
 
@@ -1209,7 +1209,7 @@ row-defaults-status = Ninguno
 
 ## UnitRowPasskey
 
-passkey-row-header = Claves de acceso
+passkey-row-header = Llaves de acceso
 passkey-row-enabled = Activada
 passkey-row-not-set = No establecida
 passkey-row-action-create = Crear
@@ -1365,12 +1365,12 @@ auth-error-215 = El número de teléfono de recuperación no existe
 auth-error-216 = Se alcanzó el límite de mensajes de texto
 auth-error-218 = No se puede eliminar el teléfono de recuperación, faltan los códigos de autenticación de respaldo.
 auth-error-219 = Este número de teléfono se ha registrado en demasiadas cuentas. Por favor, intenta con otro número.
-auth-error-224 = Clave de acceso no encontrada
-auth-error-225 = Clave de acceso ya registrada
-auth-error-226 = Se alcanzó el límite de claves de acceso
-auth-error-227 = Falló la autenticación de clave de acceso
-auth-error-228 = Falló el registro de la clave de acceso
-auth-error-238 = Falló el desafío de clave de acceso
+auth-error-224 = Llave de acceso no encontrada
+auth-error-225 = Llave de acceso ya registrada
+auth-error-226 = Se alcanzó el límite de llaves de acceso
+auth-error-227 = Falló la autenticación de la llave de acceso
+auth-error-228 = Falló el registro de la llave de acceso
+auth-error-238 = Falló el desafío de la llave de acceso
 auth-error-999 = Error inesperado
 auth-error-1001 = Intento de conexión cancelado
 auth-error-1002 = Sesión expirada. Conéctate para continuar.
@@ -1403,34 +1403,34 @@ oauth-error-1000 = Algo se fue a las pailas. Por favor, cierra esta pestaña y v
 # Registration errors
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
-passkey-registration-error-not-allowed = La configuración de la clave de acceso falló o no está disponible. Vuelve a intentarlo o elige otro método.
+passkey-registration-error-not-allowed = La configuración de la llave de acceso falló o no está disponible. Vuelve a intentarlo o elige otro método.
 # The ceremony timed out before the user responded
-passkey-registration-error-timeout = Se canceló la configuración de la clave de acceso. Vuelve a intentarlo.
+passkey-registration-error-timeout = Se canceló la configuración de la llave de acceso. Vuelve a intentarlo.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Aquí no hay soporte de claves de acceso. Prueba con otro método o dispositivo.
+passkey-registration-error-not-supported = Aquí no hay soporte de llaves de acceso. Prueba con otro método o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
-passkey-registration-error-security = No se pueden configurar claves de acceso en esta página. Usa el sitio seguro y vuelve a intentarlo.
+passkey-registration-error-security = No se pueden configurar llaves de acceso en esta página. Usa el sitio seguro y vuelve a intentarlo.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Esta clave de acceso ya está registrada. Úsala para conectarte o añade una clave diferente.
+passkey-registration-error-invalid-state = Esta llave de acceso ya está registrada. Úsala para conectarte o añade una clave diferente.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-registration-error-not-readable = No pudimos acceder al autenticador. Vuelve a intentarlo o elige otro método.
 # Attestation constraints or device-specific restrictions can't be met
-passkey-registration-error-constraint = La configuración de la clave de acceso no está disponible en este dispositivo. Prueba con otro método o dispositivo.
+passkey-registration-error-constraint = La configuración de la llave de acceso no está disponible en este dispositivo. Prueba con otro método o dispositivo.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
-passkey-registration-error-unexpected = La configuración de la clave de acceso falló. Vuelve a intentarlo o elige otro método.
+passkey-registration-error-unexpected = La configuración de la llave de acceso falló. Vuelve a intentarlo o elige otro método.
 
 # Authentication errors
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
-passkey-authentication-error-not-allowed = La conexión mediante clave de acceso falló o no está disponible. Vuelve a intentarlo o elige otro método.
+passkey-authentication-error-not-allowed = La conexión mediante llave de acceso falló o no está disponible. Vuelve a intentarlo o elige otro método.
 # The ceremony timed out before the user responded
-passkey-authentication-error-timeout = Se agotó el tiempo de espera para la solicitud de clave de acceso. Por favor, vuelve a intentarlo.
+passkey-authentication-error-timeout = Se agotó el tiempo de espera para la solicitud de la llave de acceso. Por favor, vuelve a intentarlo.
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = No hay soporte de claves de acceso. Prueba con otro método o dispositivo.
+passkey-authentication-error-not-supported = No hay soporte de llaves de acceso. Prueba con otro método o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
-passkey-authentication-error-security = No se pueden usar claves de acceso en esta página. Comprueba que estás en el sitio seguro correcto y vuelve a intentarlo.
+passkey-authentication-error-security = No se pueden usar llaves de acceso en esta página. Comprueba que estás en el sitio seguro correcto y vuelve a intentarlo.
 # Unexpected credential state during authentication
-passkey-authentication-error-invalid-state = Algo falló con tu clave de acceso. Vuelve a intentarlo o usa otro método de conexión.
+passkey-authentication-error-invalid-state = Algo falló con tu llave de acceso. Vuelve a intentarlo o usa otro método de conexión.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-authentication-error-not-readable = No pudimos acceder al autenticador. Vuelve a intentarlo o usa otro método de conexión.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
@@ -1881,7 +1881,7 @@ back = Atrás
 
 signin-passkey-fallback-header = Terminar de conectarse
 signin-passkey-fallback-heading = Ingresa tu contraseña para sincronizar
-signin-passkey-fallback-body = Para mantener tus datos seguros, deberás ingresar tu contraseña cuando utilices esta clave de acceso.
+signin-passkey-fallback-body = Para mantener tus datos seguros, deberás ingresar tu contraseña cuando utilices esta llave de acceso.
 signin-passkey-fallback-password-label = Contraseña
 signin-passkey-fallback-go-to-settings = Ir a ajustes
 signin-passkey-fallback-continue = Continuar

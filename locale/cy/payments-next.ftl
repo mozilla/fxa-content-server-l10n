@@ -457,31 +457,31 @@ next-plan-details-show-button = Dangos manylion
 
 free-trial-start-title =
     { $trialDayLength ->
-        [zero] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
-        [one] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
-        [two] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
-        [few] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
-        [many] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
-       *[other] Dechreuwch eich treial am ddim o { $trialDayLength } diwrnod
+        [zero] Dechreuwch eich profi am ddim am { $trialDayLength } diwrnodau
+        [one] Dechreuwch eich profi am ddim am { $trialDayLength } diwrnod
+        [two] Dechreuwch eich profi am ddim am { $trialDayLength } ddiwrnod
+        [few] Dechreuwch eich profi am ddim am { $trialDayLength } diwrnod
+        [many] Dechreuwch eich profi am ddim am { $trialDayLength } diwrnod
+       *[other] Dechreuwch eich profi am ddim am { $trialDayLength } diwrnod
     }
 free-trial-success-title =
     { $trialDayLength ->
-        [zero] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
-        [one] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
-        [two] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
-        [few] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
-        [many] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
-       *[other] Mae eich treial am ddim o { $trialDayLength } diwrnod wedi dechrau
+        [zero] Mae eich profi am ddim am { $trialDayLength } diwrnodau wedi dechrau
+        [one] Mae eich profi am ddim am { $trialDayLength } diwrnod wedi dechrau
+        [two] Mae eich profi am ddim am { $trialDayLength } ddiwrnod wedi dechrau
+        [few] Mae eich profi am ddim am { $trialDayLength } diwrnod wedi dechrau
+        [many] Mae eich profi am ddim am { $trialDayLength } diwrnod wedi dechrau
+       *[other] Mae eich profi am ddim am { $trialDayLength } diwrnod wedi dechrau
     }
 
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
-free-trial-start-message-daily = Dim angen taliad heddiw. Codir { $firstPrice }/diwrnod arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
-free-trial-start-message-weekly = Dim angen taliad heddiw. Codir { $firstPrice }/wythnos arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
-free-trial-start-message-monthly = Dim angen taliad heddiw. Codir { $firstPrice }/mis arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
-free-trial-start-message-halfyearly = Dim angen taliad heddiw. Codir { $firstPrice }/6 mis arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
-free-trial-start-message-yearly = Dim angen taliad heddiw. Codir { $firstPrice }/flwyddyn arnoch ar ôl i'r treial am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-daily = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/diwrnod arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-weekly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/wythnos arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-monthly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/mis arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-halfyearly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/6 mis arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-yearly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/blwyddyn arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
 
 ##
 
@@ -491,7 +491,7 @@ free-trial-first-charge-title = Tâl cyntaf: { $endDate }
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date of the first charge after the free trial ends
 
-free-trial-first-charge-message-daily = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna bob dydd wedi hynny nes i chi ganslo.
+free-trial-first-charge-message-daily = Byddwch yn cael eich bilio o { $firstPrice } ar { $endDate }, yna bob dydd wedi hynny nes i chi ei gau.
 free-trial-first-charge-message-weekly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna'n wythnosol wedi hynny nes i chi ganslo.
 free-trial-first-charge-message-monthly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna'n fisol wedi hynny nes i chi ganslo.
 free-trial-first-charge-message-halfyearly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna bob 6 mis wedi hynny nes i chi ganslo.
