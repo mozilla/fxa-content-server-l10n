@@ -28,6 +28,7 @@ location-banner-currency-change = Alteração da moeda não suportada. Para cont
 upgrade-page-payment-information = Informação de pagamento
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = O seu plano será alterado imediatamente e ser-lhe-á debitado hoje um valor proporcional para o resto deste ciclo de faturação. A partir de { $nextInvoiceDate } ser-lhe-á cobrado o valor total.
+upgrade-page-acknowledgment-from-trial = Ao atualizar, o seu teste gratuito ativo irá terminar imediatamente e você será cobrado pelo seu novo plano hoje.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Contactar o apoio
 subscription-management-page-banner-warning-title-no-payment-method = Nenhum método de pagamento adicionado
 subscription-management-page-banner-warning-link-no-payment-method = Adicionar um método de pagamento
 subscription-management-subscriptions-heading = Subscrições
+subscription-management-free-trial-heading = Testes gratuitos
+subscription-management-your-free-trials-aria = Os seus testes gratuitos
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Ir para
+subscription-management-nav-free-trials = Testes gratuitos
 subscription-management-nav-payment-details = Detalhes de pagamento
 subscription-management-nav-active-subscriptions = Subscrições ativas
 subscription-management-payment-details-heading = Detalhes de pagamento
@@ -320,6 +324,57 @@ next-coupon-promo-code-applied = Código promocional aplicado
 next-coupon-remove = Remover
 next-coupon-submit = Aplicar
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = O seu teste gratuito expira em { $date }.
+free-trial-content-trial-cancelled = O seu teste gratuito foi cancelado.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Irá ser cobrado um valor de { $amount } + { $tax } de impostos por dia após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-week = Irá ser cobrado { $amount } + { $tax } de impostos por semana após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-month = Irá ser cobrado { $amount } + { $tax } de impostos por mês após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Irá ser cobrado { $amount } + { $tax } de impostos todos os semestres após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-year = Irá ser cobrado { $amount } + { $tax } de impostos por ano após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-default = Irá ser cobrado { $amount } + { $tax } de impostos depois do teste gratuito terminar em { $date }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Irá ser cobrado { $amount } por dia após o teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-week = Irá ser cobrado { $amount } por semana após o teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-month = Irá ser cobrado { $amount } por mês após o teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Irá ser cobrado { $amount } todos os semestres depois do teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-year = Irá ser cobrado { $amount } por ano após o teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-default = Irá ser cobrado { $amount } depois do teste gratuito terminar em { $date }.
+free-trial-content-trial-ends = O seu teste gratuito termina em { $date }. Atualize o seu método de pagamento para manter o acesso após o seu teste gratuito.
+free-trial-content-trial-active = O seu teste gratuito está ativo.
+free-trial-content-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+free-trial-content-button-resume-trial = Retomar teste
+free-trial-content-button-resume-trial-aria = Retomar teste para { $productName }
+free-trial-content-button-cancel-trial = Cancelar teste
+free-trial-content-button-cancel-trial-aria = Cancelar teste para { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Última fatura • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impostos
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
+##
+
+free-trial-content-link-view-invoice = Ver fatura
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Ver fatura para { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = O seu teste gratuito terminou em <bold>{ $date }</bold>. Não conseguimos processar o seu pagamento para iniciar a sua subscrição. Por favor, atualize o seu método de pagamento para ativar a sua subscrição e restaurar o acesso aos seus serviços.
+free-trial-content-payment-failed-no-date = Não conseguimos processar o seu pagamento para iniciar a sua subscrição. Por favor, atualize o seu método de pagamento para ativar a sua subscrição e restaurar o acesso aos seus serviços.
+free-trial-content-button-update-payment = Atualizar método de pagamento
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +452,45 @@ purchase-details-credit-applied-label = Crédito aplicado
 purchase-details-total-due-label = Total devido
 next-plan-details-hide-button = Ocultar detalhes
 next-plan-details-show-button = Mostrar detalhes
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Comece os seus { $trialDayLength } dias de teste gratuito
+       *[other] Comece os seus { $trialDayLength } dias de teste gratuito
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] O seu teste gratuito de { $trialDayLength } dias começou
+       *[other] O seu teste gratuito de { $trialDayLength } dias começou
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/dia após o teste gratuito terminar em { $endDate }.
+free-trial-start-message-weekly = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/semana depois do teste gratuito terminar em { $endDate }.
+free-trial-start-message-monthly = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/mês após o fim do teste gratuito em { $endDate }.
+free-trial-start-message-halfyearly = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/6 meses após o teste gratuito terminar em { $endDate }.
+free-trial-start-message-yearly = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/ano após o teste gratuito terminar em { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Primeira cobrança: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Será debitado { $firstPrice } a { $endDate } e depois diariamente até cancelar.
+free-trial-first-charge-message-weekly = Irá ser debitado { $firstPrice } a { $endDate } e, depois, semanalmente, até cancelar.
+free-trial-first-charge-message-monthly = Irá ser debitado { $firstPrice } a { $endDate } e depois mensalmente a partir de então até cancelar.
+free-trial-first-charge-message-halfyearly = Irá ser debitado { $firstPrice } em { $endDate } e depois a cada 6 meses até cancelar.
+free-trial-first-charge-message-yearly = Irá ser debitado { $firstPrice } a { $endDate } e depois anualmente até cancelar.
+
+##
+
 next-coupon-success = O seu plano será renovado automaticamente pelo preço de tabela.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = O seu plano será renovado automaticamente depois de { $couponDurationDate } pelo preço de tabela.

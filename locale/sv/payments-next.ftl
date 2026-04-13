@@ -28,6 +28,7 @@ location-banner-currency-change = Valutaändring stöds inte. För att fortsätt
 upgrade-page-payment-information = Betalningsinformation
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Din plan kommer att ändras omedelbart och du debiteras ett proportionellt belopp idag för resten av denna faktureringscykel. Från och med { $nextInvoiceDate } debiteras du för hela beloppet.
+upgrade-page-acknowledgment-from-trial = Genom att uppgradera kommer din aktiva kostnadsfria provperiod att upphöra omedelbart och du kommer att debiteras för din nya plan idag.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Kontakta supporten
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalningsmetod har lagts till
 subscription-management-page-banner-warning-link-no-payment-method = Lägg till en betalningsmetod
 subscription-management-subscriptions-heading = Prenumerationer
+subscription-management-free-trial-heading = Kostnadsfria provperioder
+subscription-management-your-free-trials-aria = Dina kostnadsfria provperioder
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Hoppa till
+subscription-management-nav-free-trials = Kostnadsfria provperioder
 subscription-management-nav-payment-details = Betalningsinformation
 subscription-management-nav-active-subscriptions = Aktiva prenumerationer
 subscription-management-payment-details-heading = Betalningsinformation
@@ -320,6 +324,57 @@ next-coupon-promo-code-applied = Kampanjkod tillämpas
 next-coupon-remove = Ta bort
 next-coupon-submit = Tillämpa
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Din kostnadsfria provperiod upphör { $date }.
+free-trial-content-trial-cancelled = Din kostnadsfria provperiod har avbrutits.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Du kommer att debiteras { $amount } + { $tax } skatt per dag efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-with-tax-week = Du kommer att debiteras { $amount } + { $tax } skatt per vecka efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-with-tax-month = Du kommer att debiteras { $amount } + { $tax } skatt per månad efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Du kommer att debiteras { $amount } + { $tax } skatt var sjätte månad efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-with-tax-year = Du kommer att debiteras { $amount } + { $tax } skatt per år efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-with-tax-default = Du kommer att debiteras { $amount } + { $tax } skatt efter att den kostnadsfria provperioden upphör den { $date }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Du debiteras { $amount } per dag efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-no-tax-week = Du debiteras { $amount } per vecka efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-no-tax-month = Du debiteras { $amount } per månad efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Du debiteras { $amount } var sjätte månad efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-no-tax-year = Du debiteras { $amount } per år efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-charge-info-no-tax-default = Du debiteras { $amount } efter att den kostnadsfria provperioden upphör den { $date }.
+free-trial-content-trial-ends = Din kostnadsfria provperiod slutar den { $date }. Uppdatera din betalningsmetod för att behålla åtkomst efter din kostnadsfria provperiod.
+free-trial-content-trial-active = Din kostnadsfria provperiod är aktiv.
+free-trial-content-action-error = Ett oväntat fel uppstod. Försök igen.
+free-trial-content-button-resume-trial = Återuppta provperioden
+free-trial-content-button-resume-trial-aria = Återuppta provperioden för { $productName }
+free-trial-content-button-cancel-trial = Avbryt provperioden
+free-trial-content-button-cancel-trial-aria = Avbryt provperioden för { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Senaste räkning • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } skatt
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
+##
+
+free-trial-content-link-view-invoice = Visa faktura
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Visa faktura för { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Din kostnadsfria provperiod upphörde den <bold>{ $date }</bold>. Vi kunde inte behandla din betalning för att starta din prenumeration. Vänligen uppdatera din betalningsmetod för att aktivera din prenumeration och återställa åtkomsten till dina tjänster.
+free-trial-content-payment-failed-no-date = Vi kunde inte behandla din betalning för att starta din prenumeration. Vänligen uppdatera din betalningsmetod för att aktivera din prenumeration och återställa åtkomsten till dina tjänster.
+free-trial-content-button-update-payment = Uppdatera betalningsmetod
+
 # Component - Header
 
 payments-header-help =
@@ -397,6 +452,45 @@ purchase-details-credit-applied-label = Kredit tillämpas
 purchase-details-total-due-label = Totalt att betala
 next-plan-details-hide-button = Dölj detaljer
 next-plan-details-show-button = Visa detaljer
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Starta din { $trialDayLength }-dagars kostnadsfria provperiod
+       *[other] Starta din { $trialDayLength }-dagars kostnadsfria provperiod
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Din { $trialDayLength }-dagars kostnadsfria provperiod har startat
+       *[other] Din { $trialDayLength }-dagars kostnadsfria provperiod har startat
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Ingen betalning krävs idag. Du debiteras { $firstPrice }/dag efter att den kostnadsfria provperioden upphör den { $endDate }.
+free-trial-start-message-weekly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/vecka efter att den kostnadsfria provperioden upphör den { $endDate }.
+free-trial-start-message-monthly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/månad efter att den kostnadsfria provperioden upphör den { $endDate }.
+free-trial-start-message-halfyearly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/var sjätte månad efter att den kostnadsfria provperioden upphör den { $endDate }.
+free-trial-start-message-yearly = Ingen betalning krävs idag. Du debiteras { $firstPrice }/år efter att den kostnadsfria provperioden upphör den { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Första debiteringen: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Du faktureras { $firstPrice } den { $endDate } och därefter dagligen tills du avbryter.
+free-trial-first-charge-message-weekly = Du faktureras { $firstPrice } den { $endDate } och därefter varje vecka tills du avbryter.
+free-trial-first-charge-message-monthly = Du faktureras { $firstPrice } den { $endDate } och därefter månadsvis tills du avbryter.
+free-trial-first-charge-message-halfyearly = Du faktureras { $firstPrice } den { $endDate }, och därefter var sjätte månad tills du säger upp dig.
+free-trial-first-charge-message-yearly = Du faktureras { $firstPrice } den { $endDate } och därefter årligen tills du avbryter.
+
+##
+
 next-coupon-success = Din plan förnyas automatiskt till listpriset.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Din plan förnyas automatiskt efter { $couponDurationDate } till listpriset.

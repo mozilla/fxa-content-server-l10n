@@ -394,6 +394,13 @@ postRemoveAccountRecovery-body-part1 = Your account recovery key is required to 
 postRemoveAccountRecovery-body-part2 = If you haven’t already, create a new account recovery key in your account settings to prevent losing your saved passwords, bookmarks, browsing history, and more.
 postRemoveAccountRecovery-action = Manage account
 
+postRemovePasskey-subject = Passkey deleted
+postRemovePasskey-preview = A passkey was removed from your account
+postRemovePasskey-title = You deleted your passkey
+postRemovePasskey-description = You’ll need to use another method to sign in.
+postRemovePasskey-requested-from = You requested this from:
+postRemovePasskey-action = Manage account
+
 postRemoveRecoveryPhone-subject = Recovery phone removed
 postRemoveRecoveryPhone-preview = Account protected by two-step authentication
 postRemoveRecoveryPhone-title = Recovery phone removed
