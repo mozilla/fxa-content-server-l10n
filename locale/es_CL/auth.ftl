@@ -212,6 +212,11 @@ freeTrialEndingReminder-content-greeting = Estimado cliente de { $productName },
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = Tu prueba gratuita está programada para finalizar el <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = Tu prueba gratuita está programada para finalizar el { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = A menos que canceles antes, tu suscripción comenzará automáticamente y te cobraremos <strong>{ $invoiceTotal }</strong> al método de pago de tu cuenta el <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = A menos que canceles antes, tu suscripción comenzará automáticamente y te cobraremos { $invoiceTotal } al método de pago de tu cuenta el { $serviceLastActiveDateOnly }.
 freeTrialEndingReminder-content-charge-heading = Detalles de cobro
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -233,6 +238,10 @@ freeTrialEndingReminder-content-account-link-plaintext = Puedes revisar o actual
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-cancel-link = Para evitar cargos, cancela antes del <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Cancelar suscripción</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Para evitar cargos, cancela antes del { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Gracias por probar { $productName }. Si tienes alguna pregunta sobre tu prueba o suscripción, por favor <a data-l10n-name="freeTrialEndingReminder-contact-support">contáctanos</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Gracias por probar { $productName }. Si tienes alguna pregunta sobre tu prueba o suscripción, ponte en contacto con nosotros.
 freeTrialEndingReminder-content-closing = Atentamente,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

@@ -260,6 +260,10 @@ postAddLinkedAccount-subject-2 = Nueva cuenta vinculada a tu { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } ha sido vinculada a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar cuenta
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Más información
+postAddPasskey-requested-from = Solicitaste este formulario:
+postAddPasskey-action = Administrar cuenta
 postAddRecoveryPhone-subject = Teléfono de recuperación añadido
 postAddRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
 postAddRecoveryPhone-title-v2 = Añadiste un número de teléfono de recuperación
@@ -328,6 +332,12 @@ postRemoveAccountRecovery-title-3 = Has eliminado tu clave de recuperación de c
 postRemoveAccountRecovery-body-part1 = Se requiere la clave de recuperación de tu cuenta para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
 postRemoveAccountRecovery-body-part2 = Si aún no lo has hecho, crea una nueva clave de recuperación de cuenta en los ajustes de tu cuenta para evitar perder tus contraseñas guardadas, marcadores, historial de navegación y más.
 postRemoveAccountRecovery-action = Administrar cuenta
+postRemovePasskey-subject = Llave de acceso eliminada
+postRemovePasskey-preview = Una llave de acceso fue eliminada de tu cuenta.
+postRemovePasskey-title = Eliminaste tu llave de acceso
+postRemovePasskey-description = Deberás usar otro método para conectarte.
+postRemovePasskey-requested-from = Solicitaste este formulario:
+postRemovePasskey-action = Administrar cuenta
 postRemoveRecoveryPhone-subject = Teléfono de recuperación eliminado
 postRemoveRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
 postRemoveRecoveryPhone-title = Teléfono de recuperación eliminado
