@@ -457,7 +457,7 @@ next-plan-details-show-button = Dangos manylion
 
 free-trial-start-title =
     { $trialDayLength ->
-        [zero] Dechreuwch eich profi am ddim am { $trialDayLength } diwrnodau
+        [zero] Dechreuwch eich profi am ddim am { $trialDayLength } o ddiwrnodau
         [one] Dechreuwch eich profi am ddim am { $trialDayLength } diwrnod
         [two] Dechreuwch eich profi am ddim am { $trialDayLength } ddiwrnod
         [few] Dechreuwch eich profi am ddim am { $trialDayLength } diwrnod
@@ -466,7 +466,7 @@ free-trial-start-title =
     }
 free-trial-success-title =
     { $trialDayLength ->
-        [zero] Mae eich profi am ddim am { $trialDayLength } diwrnodau wedi dechrau
+        [zero] Mae eich profi am ddim am { $trialDayLength } o ddiwrnodau wedi dechrau
         [one] Mae eich profi am ddim am { $trialDayLength } diwrnod wedi dechrau
         [two] Mae eich profi am ddim am { $trialDayLength } ddiwrnod wedi dechrau
         [few] Mae eich profi am ddim am { $trialDayLength } diwrnod wedi dechrau
@@ -477,11 +477,11 @@ free-trial-success-title =
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
-free-trial-start-message-daily = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/diwrnod arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
-free-trial-start-message-weekly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/wythnos arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
-free-trial-start-message-monthly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/mis arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
-free-trial-start-message-halfyearly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/6 mis arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
-free-trial-start-message-yearly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice }/blwyddyn arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-daily = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice } y diwrnod arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-weekly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice } yr wythnos arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-monthly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice } y mis arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-halfyearly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice } am 6 mis arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
+free-trial-start-message-yearly = Does dim angen taliad heddiw. Byddwn yn codi { $firstPrice } y flwyddyn arnoch ar ôl i'r profi am ddim ddod i ben ar { $endDate }.
 
 ##
 
