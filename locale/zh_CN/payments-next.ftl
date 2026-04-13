@@ -319,8 +319,41 @@ next-coupon-promo-code-applied = 已应用折扣码
 next-coupon-remove = 移除
 next-coupon-submit = 应用
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-default = { $date } 免费使用期结束后，将向您收费 { $amount }。
+free-trial-content-trial-ends = 您的免费试用将于 { $date } 结束。若希望在免费使用结束后继续使用，请更新您的付款方式。
+free-trial-content-trial-active = 您的免费试用已生效。
+free-trial-content-action-error = 发生意外错误，请重试。
+free-trial-content-button-resume-trial = 恢复试用
+free-trial-content-button-resume-trial-aria = 恢复试用 { $productName }
+free-trial-content-button-cancel-trial = 取消试用
+free-trial-content-button-cancel-trial-aria = 取消试用 { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = 上个结算日 • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + 税款 { $taxDue }
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = 查看发票
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = 查看 { $productName } 的发票
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = 您的免费试用已于 <bold>{ $date }</bold> 结束。我们无法处理您的付款并开始订阅，请更新您的付款方式以激活订阅并恢复使用服务。
 
 # Component - Header
 
