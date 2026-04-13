@@ -492,10 +492,10 @@ free-trial-first-charge-title = Tâl cyntaf: { $endDate }
 ## $endDate (String) - The date of the first charge after the free trial ends
 
 free-trial-first-charge-message-daily = Byddwch yn cael eich bilio o { $firstPrice } ar { $endDate }, yna bob dydd wedi hynny nes i chi ei gau.
-free-trial-first-charge-message-weekly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna'n wythnosol wedi hynny nes i chi ganslo.
-free-trial-first-charge-message-monthly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna'n fisol wedi hynny nes i chi ganslo.
-free-trial-first-charge-message-halfyearly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna bob 6 mis wedi hynny nes i chi ganslo.
-free-trial-first-charge-message-yearly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna bob blwyddyn wedi hynny nes i chi ganslo.
+free-trial-first-charge-message-weekly = Byddwch yn cael eich bilio o { $firstPrice } ar { $endDate }, yna'n wythnosol nes i chi ei gau.
+free-trial-first-charge-message-monthly = Byddwch yn cael eich bilio o { $firstPrice } ar { $endDate }, yna'n fisol wedi hynny nes i chi ei gau.
+free-trial-first-charge-message-halfyearly = Byddwch yn cael eich bilio o { $firstPrice } ar { $endDate }, yna bob 6 mis wedi hynny nes i chi ei gau.
+free-trial-first-charge-message-yearly = Byddwch yn cael bilio { $firstPrice } ar { $endDate }, yna bob blwyddyn wedi hynny nes i chi ei gau.
 
 ##
 
