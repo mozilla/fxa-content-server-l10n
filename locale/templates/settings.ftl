@@ -1325,9 +1325,6 @@ passkey-sub-row-created-date = Created: { $createdDate }
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Last used: { $lastUsedDate }
 
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Sign in only. Can’t be used to sync.
-
 passkey-sub-row-delete-title = Delete passkey
 passkey-delete-modal-heading = Delete your passkey?
 passkey-delete-modal-content = This passkey will be removed from your account. You’ll need to sign in using a different way.
@@ -1363,8 +1360,17 @@ passkey-row-enabled = Enabled
 passkey-row-not-set = Not set
 passkey-row-action-create = Create
 passkey-row-description = Make sign in easier and more secure by using your phone or other supported device to get into your account.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = How this protects your account
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Learn more
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+       *[other] You’ve used all { $count } passkeys. Delete a passkey to create a new one.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = You’ve reached the maximum number of passkeys.
 
 ##
 

@@ -24,6 +24,9 @@ next-coupon-enter-code =
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 next-coupon-promo-code = प्रोमो कोड
 
+##
+
+
 # Component - Header
 
 payments-header-bento-monitor = { -product-mozilla-monitor }
