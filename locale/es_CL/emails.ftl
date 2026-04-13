@@ -98,6 +98,7 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Si no realizaste esta acción, restablece tu contraseña de inmediato en:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Además, restablece la autenticación en dos pasos en:
+automated-email-sign-in-plaintext = Si no autorizaste esta acción, por favor revisa tus ajustes de seguridad de la cuenta en:
 brand-banner-message = ¿Sabías que cambiamos nuestro nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Aprender más</a>
 change-password-plaintext = Si sospechas que alguien está intentando ganar acceso a tu cuenta, por favor cambia tu contraseña.
 manage-account = Administrar cuenta
@@ -260,6 +261,11 @@ postAddLinkedAccount-subject-2 = Nueva cuenta vinculada a tu { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } ha sido vinculada a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar cuenta
+postAddPasskey-subject = Llave de acceso creada
+postAddPasskey-preview = Ahora puedes usar tu dispositivo para conectarte.
+postAddPasskey-title = Has creado una llave de acceso
+postAddPasskey-description = Ahora puedes usarla para conectarte en todos tus servicios { -product-mozilla-account }.
+postAddPasskey-sync-note = Ten en cuenta que tu contraseña seguirá siendo necesaria para acceder a tus datos de sincronización de { -brand-firefox }.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Más información
 postAddPasskey-requested-from = Solicitaste este formulario:
