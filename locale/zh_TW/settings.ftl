@@ -1186,6 +1186,14 @@ passkey-row-enabled = 已啟用
 passkey-row-not-set = 未設定
 passkey-row-action-create = 建立
 passkey-row-description = 使用您的手機或其他支援的裝置來登入帳號，讓登入過程更簡單、更安全。
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = 更多資訊
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner = 您已建立全部 { $count } 把 Passkey，刪除後即可建立新的 Passkey。
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = 您已達到最大 Passkey 數量。
 
 ## Account recovery key sub-section on main Settings page
 
