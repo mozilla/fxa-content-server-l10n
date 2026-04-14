@@ -1217,7 +1217,7 @@ passkey-row-info-link-2 = Ulteriori informazioni
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner = Hai utilizzato tutte le { $count } passkey. Elimina una passkey per crearne una nuova.
 # Tooltip shown on the disabled Create button when the passkey limit is reached
-passkey-row-max-limit-disabled-reason = Hai raggiunto il numero massimo di chiavi di accesso.
+passkey-row-max-limit-disabled-reason = Hai raggiunto il numero massimo di passkey.
 
 ## Account recovery key sub-section on main Settings page
 
