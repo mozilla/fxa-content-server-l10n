@@ -28,7 +28,7 @@ location-banner-currency-change = Changement de devise non pris en charge. Pour 
 upgrade-page-payment-information = Informations de paiement
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Votre forfait changera immédiatement et un montant calculé au prorata vous sera facturé aujourd’hui pour le reste du cycle de facturation. À partir du { $nextInvoiceDate }, le montant total vous sera facturé.
-upgrade-page-acknowledgment-from-trial = En mettant à niveau, votre essai gratuit actuel prendra fin immédiatement et votre nouveau forfait vous sera facturé aujourd’hui.
+upgrade-page-acknowledgment-from-trial = En mettant à niveau, votre essai gratuit actuel prendra fin immédiatement et votre nouvel abonnement vous sera facturé aujourd’hui.
 
 ## Authentication Error page
 
@@ -339,17 +339,17 @@ free-trial-content-charge-info-with-tax-week = Vous serez facturé·e { $amount 
 free-trial-content-charge-info-with-tax-month = Vous serez facturé·e { $amount } + { $tax } de taxes par mois après la fin de l’essai gratuit, le { $date }.
 free-trial-content-charge-info-with-tax-halfyear = Vous serez facturé·e { $amount } + { $tax } de taxes tous les six mois après la fin de l’essai gratuit, le { $date }.
 free-trial-content-charge-info-with-tax-year = Vous serez facturé·e { $amount } + { $tax } de taxes par an après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-with-tax-default = Nous vous facturerons { $amount } + { $tax } de taxes une fois l’essai gratuit terminé, le { $date }.
+free-trial-content-charge-info-with-tax-default = Vous serez facturé·e { $amount } + { $tax } de taxes après la fin de l’essai gratuit, le { $date }.
 
 # Charge info strings - no tax, per interval
 
-free-trial-content-charge-info-no-tax-day = Vous serez facturé { $amount } par jour après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-no-tax-week = Vous serez facturé { $amount } par semaine après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-no-tax-month = Vous serez facturé { $amount } par mois après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-no-tax-halfyear = Nous vous facturerons { $amount } tous les six mois après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-no-tax-year = Vous serez facturé { $amount } par an après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-no-tax-default = Vous serez facturé { $amount } après la fin de l’essai gratuit, le { $date }.
-free-trial-content-trial-ends = Votre essai gratuit se termine le { $date }. Mettez à jour votre mode de paiement pour conserver l’accès après votre essai gratuit.
+free-trial-content-charge-info-no-tax-day = Vous serez facturé·e { $amount } par jour après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-no-tax-week = Vous serez facturé·e { $amount } par semaine après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-no-tax-month = Vous serez facturé·e { $amount } par mois après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Vous serez facturé·e { $amount } tous les 6 mois après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-no-tax-year = Vous serez facturé·e { $amount } par an après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-no-tax-default = Vous serez facturé·e { $amount } après la fin de l’essai gratuit, le { $date }.
+free-trial-content-trial-ends = Votre essai gratuit se termine le { $date }. Mettez à jour votre moyen de paiement pour conserver l’accès après votre essai gratuit.
 free-trial-content-trial-active = Votre essai gratuit est actif.
 free-trial-content-action-error = Une erreur inattendue s’est produite. Veuillez réessayer.
 free-trial-content-button-resume-trial = Poursuivre l’essai

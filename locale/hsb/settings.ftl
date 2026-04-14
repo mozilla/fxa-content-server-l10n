@@ -1226,6 +1226,8 @@ passkey-row-enabled = Zmóžnjeny
 passkey-row-not-set = Njenastajeny
 passkey-row-action-create = Wutworić
 passkey-row-description = Wosnadńće přizjewjenje a wěsćiše wužiwajo waš telefon abo druhi podpěrany grat, zo byšće so do swojeho konta dóstał.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Dalše informacije
 
 ## Account recovery key sub-section on main Settings page
 

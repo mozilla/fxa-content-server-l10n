@@ -98,8 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Si vous n’êtes pas à l’origine de cette action, réinitialisez immédiatement votre mot de passe sur :
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Réinitialisez également l’authentification en deux étapes sur :
-automated-email-sign-in = Ceci est un message automatique. si vous n’avez pas autorisé cette action, veuillez <a data-l10n-name="securitySettingsLink">passer en revue les paramètres de sécurité de votre compte</a>. Pour davantage d’informations, veuillez consulter <a data-l10n-name="supportLink">le site d’assistance de { -brand-mozilla }</a>.
-automated-email-sign-in-plaintext = Si vous n’avez pas autorisé cette action, veuillez vérifier les paramètres de sécurité de votre compte à l’adresse :
+automated-email-sign-in =
+    Il s’agit d’un e-mail automatisé ; si vous n’avez pas autorisé cette action, veuillez <a data-l10n-name="securitySettingsLink">passer en revue les paramètres de sécurité de votre compte</a>.
+    Pour plus d’informations, veuillez consulter <a data-l10n-name="supportLink">l’assistance de { -brand-mozilla }</a>.
+automated-email-sign-in-plaintext = Si vous n’avez pas autorisé cette action, veuillez passer en revue les paramètres de sécurité de votre compte à l’adresse suivante :
 brand-banner-message = Saviez-vous que nous avons renommé les { -product-firefox-accounts } en { -product-mozilla-accounts } ? <a data-l10n-name="learnMore">En savoir plus</a>
 change-password-plaintext = Si vous avez des raisons de penser que quelqu’un essaie d’accéder à votre compte, veuillez changer votre mot de passe.
 manage-account = Gérer le compte
@@ -266,7 +268,7 @@ postAddPasskey-subject = Clé d’accès créée
 postAddPasskey-preview = Vous pouvez maintenant utiliser votre appareil pour vous connecter
 postAddPasskey-title = Vous avez créé une clé d’accès
 postAddPasskey-description = Vous pouvez maintenant l’utiliser pour vous connecter à tous les services de votre { -product-mozilla-account }.
-postAddPasskey-sync-note = Veuillez noter que votre mot de passe continuera d’être nécessaire pour accéder à vos { -brand-firefox } données de synchronisation.
+postAddPasskey-sync-note = Veuillez noter que votre mot de passe continuera d’être nécessaire pour accéder aux données synchronisées de { -brand-firefox }.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = En savoir plus
 postAddPasskey-requested-from = La demande a été effectuée depuis :
