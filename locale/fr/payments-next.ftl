@@ -334,11 +334,11 @@ free-trial-content-trial-cancelled = Votre essai gratuit a été annulé.
 
 # Charge info strings - with tax, per interval
 
-free-trial-content-charge-info-with-tax-day = Vous serez facturé { $amount } + { $tax } de taxes par jour à la fin de l’essai gratuit, { $date }.
-free-trial-content-charge-info-with-tax-week = Vous serez facturé { $amount } + { $tax } de taxes par semaine après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-with-tax-month = Vous serez facturé { $amount } + { $tax } de taxes par mois après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-with-tax-halfyear = Vous serez facturé { $amount } + { $tax } de taxes tous les six mois après la fin de l’essai gratuit, le { $date }.
-free-trial-content-charge-info-with-tax-year = Vous serez facturé { $amount } + { $tax } de taxes par an après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-with-tax-day = Vous serez facturé·e { $amount } + { $tax } de taxes par jour après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-with-tax-week = Vous serez facturé·e { $amount } + { $tax } de taxes par semaine après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-with-tax-month = Vous serez facturé·e { $amount } + { $tax } de taxes par mois après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Vous serez facturé·e { $amount } + { $tax } de taxes tous les six mois après la fin de l’essai gratuit, le { $date }.
+free-trial-content-charge-info-with-tax-year = Vous serez facturé·e { $amount } + { $tax } de taxes par an après la fin de l’essai gratuit, le { $date }.
 free-trial-content-charge-info-with-tax-default = Nous vous facturerons { $amount } + { $tax } de taxes une fois l’essai gratuit terminé, le { $date }.
 
 # Charge info strings - no tax, per interval
@@ -352,10 +352,10 @@ free-trial-content-charge-info-no-tax-default = Vous serez facturé { $amount } 
 free-trial-content-trial-ends = Votre essai gratuit se termine le { $date }. Mettez à jour votre mode de paiement pour conserver l’accès après votre essai gratuit.
 free-trial-content-trial-active = Votre essai gratuit est actif.
 free-trial-content-action-error = Une erreur inattendue s’est produite. Veuillez réessayer.
-free-trial-content-button-resume-trial = Reprendre la période d'essai
-free-trial-content-button-resume-trial-aria = Reprendre l’essai pour { $productName }
+free-trial-content-button-resume-trial = Poursuivre l’essai
+free-trial-content-button-resume-trial-aria = Poursuivre l’essai de { $productName }
 free-trial-content-button-cancel-trial = Annuler l’essai
-free-trial-content-button-cancel-trial-aria = Annuler l’essai pour { $productName }
+free-trial-content-button-cancel-trial-aria = Annuler l’essai de { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -371,8 +371,8 @@ free-trial-content-link-view-invoice = Voir la facture
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Voir la facture pour { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Votre essai gratuit a pris fin le <bold>{ $date }</bold>. Nous n’avons pas pu traiter votre paiement pour démarrer votre abonnement. Veuillez mettre à jour votre mode de paiement pour activer votre abonnement et rétablir l’accès à vos services.
-free-trial-content-payment-failed-no-date = Nous n’avons pas pu traiter votre paiement pour démarrer votre abonnement. Veuillez mettre à jour votre mode de paiement pour activer votre abonnement et rétablir l’accès à vos services.
+free-trial-content-payment-failed = Votre essai gratuit a pris fin le <bold>{ $date }</bold>. Nous n’avons pas pu traiter votre paiement pour démarrer votre abonnement. Veuillez mettre à jour votre moyen de paiement pour activer votre abonnement et rétablir l’accès à vos services.
+free-trial-content-payment-failed-no-date = Nous n’avons pas pu traiter votre paiement pour démarrer votre abonnement. Veuillez mettre à jour votre moyen de paiement pour activer votre abonnement et rétablir l’accès à vos services.
 free-trial-content-button-update-payment = Mettre à jour le moyen de paiement
 
 # Component - Header
@@ -457,37 +457,37 @@ next-plan-details-show-button = Afficher les détails
 
 free-trial-start-title =
     { $trialDayLength ->
-        [one] Démarrez votre essai gratuit de { $trialDayLength } jours
+        [one] Démarrez votre essai gratuit de { $trialDayLength } jour
        *[other] Démarrez votre essai gratuit de { $trialDayLength } jours
     }
 free-trial-success-title =
     { $trialDayLength ->
-        [one] Votre essai gratuit de { $trialDayLength } jours a commencé
+        [one] Votre essai gratuit de { $trialDayLength } jour a commencé
        *[other] Votre essai gratuit de { $trialDayLength } jours a commencé
     }
 
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
-free-trial-start-message-daily = Aucun paiement requis aujourd’hui. Vous serez facturé { $firstPrice }/jour après la fin de l’essai gratuit, le { $endDate }.
-free-trial-start-message-weekly = Aucun paiement requis aujourd’hui. Vous serez facturé { $firstPrice }/semaine après la fin de l’essai gratuit, le { $endDate }.
-free-trial-start-message-monthly = Aucun paiement requis aujourd’hui. Vous serez facturé { $firstPrice }/mois après la fin de l’essai gratuit, le { $endDate }.
-free-trial-start-message-halfyearly = Aucun paiement requis aujourd’hui. Vous serez facturé { $firstPrice } / 6 mois après la fin de l’essai gratuit le { $endDate }.
-free-trial-start-message-yearly = Aucun paiement requis aujourd’hui. Vous serez facturé { $firstPrice }/an après la fin de l’essai gratuit, le { $endDate }.
+free-trial-start-message-daily = Aucun paiement requis aujourd’hui. Vous serez facturé·e { $firstPrice }/jour après la fin de l’essai gratuit, le { $endDate }.
+free-trial-start-message-weekly = Aucun paiement requis aujourd’hui. Vous serez facturé·e { $firstPrice }/semaine après la fin de l’essai gratuit, le { $endDate }.
+free-trial-start-message-monthly = Aucun paiement requis aujourd’hui. Vous serez facturé·e { $firstPrice }/mois après la fin de l’essai gratuit, le { $endDate }.
+free-trial-start-message-halfyearly = Aucun paiement requis aujourd’hui. Vous serez facturé·e { $firstPrice } pour 6 mois après la fin de l’essai gratuit le { $endDate }.
+free-trial-start-message-yearly = Aucun paiement requis aujourd’hui. Vous serez facturé·e { $firstPrice }/an après la fin de l’essai gratuit, le { $endDate }.
 
 ##
 
 # $endDate (String) - The date of the first charge after the free trial ends
-free-trial-first-charge-title = Première charge : { $endDate }
+free-trial-first-charge-title = Première facturation : { $endDate }
 
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date of the first charge after the free trial ends
 
 free-trial-first-charge-message-daily = Vous serez facturé·e { $firstPrice } le { $endDate }, puis quotidiennement par la suite jusqu’à ce que vous annuliez.
-free-trial-first-charge-message-weekly = Vous serez facturé { $firstPrice } le { $endDate }, puis hebdomadairement jusqu’à ce que vous annuliez.
+free-trial-first-charge-message-weekly = Vous serez facturé·e { $firstPrice } le { $endDate }, puis hebdomadairement jusqu’à ce que vous annuliez.
 free-trial-first-charge-message-monthly = Vous serez facturé·e { $firstPrice } le { $endDate }, puis mensuellement jusqu’à ce que vous annuliez.
-free-trial-first-charge-message-halfyearly = Vous serez facturé { $firstPrice } le { $endDate }, puis tous les 6 mois jusqu’à ce que vous annuliez.
-free-trial-first-charge-message-yearly = Vous serez facturé { $firstPrice } le { $endDate }, puis annuellement jusqu’à ce que vous annuliez.
+free-trial-first-charge-message-halfyearly = Vous serez facturé·e { $firstPrice } le { $endDate }, puis tous les 6 mois jusqu’à ce que vous annuliez.
+free-trial-first-charge-message-yearly = Vous serez facturé·e { $firstPrice } le { $endDate }, puis annuellement jusqu’à ce que vous annuliez.
 
 ##
 

@@ -1217,8 +1217,8 @@ passkey-row-info-link-2 = En savoir plus
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner =
     { $count ->
-        [one] Vous avez utilisé les clés d’accès de { $count } toutes. Supprimez une clé d’accès pour en créer une nouvelle.
-       *[other] Vous avez utilisé les clés d’accès de { $count } toutes. Supprimez une clé d’accès pour en créer une nouvelle.
+        [1] Vous avez utilisé votre clé d’accès. Supprimez-la pour en créer une nouvelle.
+       *[other] Vous avez utilisé vos { $count } clés d’accès. Supprimez une clé d’accès pour en créer une nouvelle.
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Vous avez atteint le nombre maximal de clés d’accès.
