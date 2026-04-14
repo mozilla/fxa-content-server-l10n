@@ -1226,6 +1226,20 @@ passkey-row-enabled = Zmóžnjony
 passkey-row-not-set = Njenastajony
 passkey-row-action-create = Napóraś
 passkey-row-description = Wólažcćo pśizjawjenje a wěsćejše z pomocu swójogo telefona abo drugego pódprětego rěd, aby se do swójogo konta dostał.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Dalšne informacije
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Sćo wšykne { $count } gronidłowy kluc wužył. Lašujśo gronidłowy kluc, aby nowy napórał.
+        [two] Sćo wšykne { $count } gronidłowej kluca wužył. Lašujśo gronidłowy kluc, aby nowy napórał.
+        [few] Sćo wšykne { $count } gronidłowe kluce wužył. Lašujśo gronidłowy kluc, aby nowy napórał.
+       *[other] Sćo wšykne { $count } gronidłowych klucow wužył. Lašujśo gronidłowy kluc, aby nowy napórał.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Sćo dojśpił maksimalnu licbu gronidłowych klucow.
 
 ## Account recovery key sub-section on main Settings page
 
