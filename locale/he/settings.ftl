@@ -1159,6 +1159,10 @@ passkey-row-enabled = מופעל
 passkey-row-not-set = לא מוגדר
 passkey-row-action-create = יצירה
 passkey-row-description = ניתן להפוך את ההתחברות לקלה ובטוחה יותר על־ידי שימוש בטלפון שלך או במכשיר נתמך אחר כדי להיכנס לחשבון שלך.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = מידע נוסף
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = הגעת למספר המירבי של מפתחות הגישה.
 
 ## Account recovery key sub-section on main Settings page
 
