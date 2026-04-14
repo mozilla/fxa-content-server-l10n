@@ -1228,6 +1228,18 @@ passkey-row-action-create = Wutworić
 passkey-row-description = Wosnadńće přizjewjenje a wěsćiše wužiwajo waš telefon abo druhi podpěrany grat, zo byšće so do swojeho konta dóstał.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Dalše informacije
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Sće wšě { $count } hesłowy kluč wužił. Zhašejće hesłowy kluč, zo byšće nowy wutworił.
+        [two] Sće wšě { $count } hesłowej klučej wužił. Zhašejće hesłowy kluč, zo byšće nowy wutworił.
+        [few] Sće wšě { $count } hesłowe kluče wužił. Zhašejće hesłowy kluč, zo byšće nowy wutworił.
+       *[other] Sće wšě { $count } hesłowych klučow wužił. Zhašejće hesłowy kluč, zo byšće nowy wutworił.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Sće maksimalnu ličbu hesłowych klučow docpěł.
 
 ## Account recovery key sub-section on main Settings page
 
