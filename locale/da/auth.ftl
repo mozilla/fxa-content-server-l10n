@@ -202,6 +202,53 @@ fraudulentAccountDeletion-contact = Hvis du har spørgsmål, så kontakt vores <
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Hvis du har spørgsmål, så kontakt vores support-team: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Din gratis prøveperiode på { $productName } slutter snart
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Kære { $productName }-kunde
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Din gratis prøveperiode slutter efter planen den <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Din gratis prøveperiode slutter efter planen den { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Medmindre du opsiger inden da, starter dit abonnement automatisk, og vi opkræver <strong>{ $invoiceTotal }</strong>  via den betalingsmetode, der er tilknyttet din konto den <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Medmindre du opsiger inden da, starter dit abonnement automatisk, og vi opkræver { $invoiceTotal }  via den betalingsmetode, der er tilknyttet din konto den { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = Opkrævningsdetaljer
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Abonnement på { $productName }: { $invoiceSubtotal }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Rabat: { $invoiceDiscountAmount }
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Afgift: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Samlet udestående den { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Du kan gennemgå eller opdatere din betalingsmetode og dine kontooplysninger <a data-l10n-name="freeTrialEndingReminder-update-billing">her</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Du kan gennemgå eller opdatere din betalingsmetode og dine kontooplysninger her:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = For at undgå at blive opkrævet betaling, skal du opsige inden <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Opsig abonnement</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = For at undgå at blive opkrævet betaling, skal du opsige inden { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Tak, fordi du prøver { $productName }. Hvis du har spørgsmål om din prøveperiode eller dit abonnement, bedes du <a data-l10n-name="freeTrialEndingReminder-contact-support">kontakte os</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Tak, fordi du prøver { $productName }. Hvis du har spørgsmål om din prøveperiode eller dit abonnement, bedes du kontakte os.
+freeTrialEndingReminder-content-closing = Med venlig hilsen
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = Holdet bag { $productName }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Kontakt os: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Dit abonnement på { $productName } er blevet annulleret
@@ -238,6 +285,13 @@ subscriptionCancellation-outstanding-content-2 = Vi har annulleret dit abonnemen
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Din tjeneste fortsætter indtil udgangen af din nuværende faktureringsperiode, som er { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Din gratis prøveperiode på { $productName } er blevet annulleret
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Din gratis prøveperiode på { $productName } er blevet annulleret. Din adgang ophøret den { $trialEndDateOnly }. Du vil ikke blive opkrævet noget.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Du har skiftet til { $productName }
@@ -264,7 +318,9 @@ subscriptionEndingReminder-title = Dit abonnement på { $productName } udløber 
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionEndingReminder-content-line1 = Din adgang til { $productName } ophører den <strong>{ $serviceLastActiveDateOnly }</strong>.
+subscriptionEndingReminder-content-line2-v2 = Hvis du vil fortsætte med at bruge { $productName }, kan du fortsætte dit abonnement under <a data-l10n-name="subscriptionEndingReminder-subscription-management">Håndtering af abonnement</a>, inden den <strong>{ $serviceLastActiveDateOnly }</strong>. Hvis du har brug for hjælp, så <a data-l10n-name="subscriptionEndingReminder-contact-support">kontakt vores supportteam</a>.
 subscriptionEndingReminder-content-line1-plaintext = Din adgang til { $productName } ophører den { $serviceLastActiveDateOnly }.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Hvis du vil fortsætte med at bruge { $productName }, kan du fortsætte dit abonnement under Håndtering af abonnement, inden den { $serviceLastActiveDateOnly }. Hvis du har brug for hjælp, så kontakt vores supportteam.
 subscriptionEndingReminder-content-closing = Tak fordi du er abonnent!
 subscriptionEndingReminder-churn-title = Vil du beholde adgangen?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Begrænsede vilkår og restriktioner gælder</a>
@@ -340,6 +396,23 @@ subscriptionRenewalReminder-content-greeting = Kære { $productName }-kunde
 subscriptionRenewalReminder-content-intro = Dit nuværende abonnement er indstillet til automatisk fornyelse om { $reminderLength } dage.
 subscriptionRenewalReminder-content-discount-change = Din næste faktura afspejler en prisændring, da en tidligere rabat er udløbet, og en ny rabat er blevet anvendt.
 subscriptionRenewalReminder-content-discount-ending = Da en tidligere rabat er udløbet, fornyes dit abonnement til standardprisen.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = På det tidspunkt vil { -brand-mozilla } forny dit daglige abonnement, og du vil blive opkrævet { $invoiceTotalExcludingTax } + { $invoiceTax } afgift via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-with-tax-week = På det tidspunkt vil { -brand-mozilla } forny dit ugentlige abonnement, og du vil blive opkrævet { $invoiceTotalExcludingTax } + { $invoiceTax } afgift via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-with-tax-month = På det tidspunkt vil { -brand-mozilla } forny dit månedlige abonnement, og du vil blive opkrævet { $invoiceTotalExcludingTax } + { $invoiceTax } afgift via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = På det tidspunkt vil { -brand-mozilla } forny dit halvårlige abonnement, og du vil blive opkrævet { $invoiceTotalExcludingTax } + { $invoiceTax } afgift via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-with-tax-year = På det tidspunkt vil { -brand-mozilla } forny dit årlige abonnement, og du vil blive opkrævet { $invoiceTotalExcludingTax } + { $invoiceTax } afgift via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-with-tax-default = På det tidspunkt vil { -brand-mozilla } forny dit abonnement, og du vil blive opkrævet { $invoiceTotalExcludingTax } + { $invoiceTax } afgift via den betalingsmetode, der er tilknyttet din konto.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = På det tidspunkt vil { -brand-mozilla } forny dit daglige abonnement, og du vil blive opkrævet { $invoiceTotal } via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-invoice-total-week = På det tidspunkt vil { -brand-mozilla } forny dit ugentlige abonnement, og du vil blive opkrævet { $invoiceTotal } via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-invoice-total-month = På det tidspunkt vil { -brand-mozilla } forny dit månedlige abonnement, og du vil blive opkrævet { $invoiceTotal } via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = På det tidspunkt vil { -brand-mozilla } forny dit halvårlige abonnement, og du vil blive opkrævet { $invoiceTotal } via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-invoice-total-year = På det tidspunkt vil { -brand-mozilla } forny dit årlige abonnement, og du vil blive opkrævet { $invoiceTotal } via den betalingsmetode, der er tilknyttet din konto.
+subscriptionRenewalReminder-content-charge-invoice-total-default = På det tidspunkt vil { -brand-mozilla } forny dit abonnement, og du vil blive opkrævet { $invoiceTotal } via den betalingsmetode, der er tilknyttet din konto.
 subscriptionRenewalReminder-content-closing = Med venlig hilsen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

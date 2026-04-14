@@ -28,6 +28,7 @@ location-banner-currency-change = Ændring af valuta understøttes ikke. Vælg e
 upgrade-page-payment-information = Betalingsinformation
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Din plan bliver ændret med det samme, og du vil blive opkrævet et forholdsmæssigt beløb i dag for resten af denne faktureringsperiode. Fra og med { $nextInvoiceDate } vil du blive opkrævet det fulde beløb.
+upgrade-page-acknowledgment-from-trial = Ved opgradering slutter din aktive gratis prøveperiode med det samme, og du vil blive opkrævet for din nye plan i dag.
 
 ## Authentication Error page
 
@@ -126,18 +127,25 @@ not-found-loyalty-discount-button-back-to-subscriptions = Tilbage til abonnement
 
 interstitial-offer-error-subscription-not-found-heading = Vi kunne ikke finde et aktivt abonnement
 interstitial-offer-error-subscription-not-found-message = Det ser ud til, at dette abonnement muligvis ikke længere er aktivt.
+interstitial-offer-error-customer-mismatch-heading = Dette abonnement er ikke knyttet til din konto
+interstitial-offer-error-customer-mismatch-message = Sørg for, at du er logget ind med den korrekte konto, eller kontakt Support, hvis du har brug for hjælp.
 interstitial-offer-error-general-heading = Tilbuddet er ikke tilgængeligt
 interstitial-offer-error-general-message = Det ser ud til, at dette tilbud ikke er tilgængeligt lige nu.
 interstitial-offer-error-button-back-to-subscriptions = Tilbage til abonnementer
 interstitial-offer-error-button-cancel-subscription = Fortsæt for at opsige
+interstitial-offer-error-button-sign-in = Log ind
+interstitial-offer-error-button-contact-support = Kontakt Support
 
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmetode tilføjet
 subscription-management-page-banner-warning-link-no-payment-method = Tilføj en betalingsmetode
 subscription-management-subscriptions-heading = Abonnementer
+subscription-management-free-trial-heading = Gratis prøveperioder
+subscription-management-your-free-trials-aria = Dine gratis prøveperioder
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Hop til
+subscription-management-nav-free-trials = Gratis prøveperioder
 subscription-management-nav-payment-details = Betalingsdetaljer
 subscription-management-nav-active-subscriptions = Aktive abonnementer
 subscription-management-payment-details-heading = Betalingsdetaljer
@@ -191,6 +199,15 @@ page-not-found-description = Den ønskede side blev ikke fundet. Vi har fået be
 page-not-found-back-button = Gå tilbage
 alert-dialog-title = Advarselsdialogboks
 
+## Already Canceling
+
+already-canceling-title = Dit abonnement er sat til at udløbe
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = Du vil fortsat have adgang til { $productName } indtil den { $date }.
+already-canceling-turn-back-on = Du kan til enhver tid aktivere dit abonnement igen, inden det udløber.
+already-canceling-button-back-to-subscriptions = Tilbage til abonnementer
+
 ## Navigation breadcrumbs
 
 # Link title - Account settings
@@ -222,6 +239,7 @@ subscription-content-cancel-access-message = Annuller min adgang og kassér mine
 
 cancel-subscription-button-cancel-subscription = Opsig abonnement
     .aria-label = Opsig dit abonnement på { $productName }
+cancel-subscription-button-keep-subscription = Behold abonnement
 
 ## Component - Payment Consent Checkbox
 
@@ -229,6 +247,8 @@ next-payment-confirm-with-legal-links-static-3 = Jeg giver hermed tilladelse til
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = En betalingsmetode er påkrævet for at starte din gratis prøveperiode. Du vil ikke blive opkrævet før { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Jeg giver hermed tilladelse til, at { -brand-mozilla } kan trække det viste beløb med min angivne betalingsmetode, efter den gratis prøveperiode slutter, i overensstemmelse med <termsOfServiceLink>tjenestevilkårene</termsOfServiceLink> og <privacyNoticeLink>privatlivserklæringen</privacyNoticeLink>, indtil jeg opsiger mit abonnement.
 next-payment-confirm-checkbox-error = Du skal fuldføre dette, før du går videre
 
 ## Checkout Form
@@ -248,6 +268,7 @@ churn-cancel-flow-action-error = Der opstod en uventet fejl. Prøv igen.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-cancel-flow-button-stay-subscribed-and-save-discount = Fortsæt abonnement og spar { $discountPercent }%
 churn-cancel-flow-button-stay-subscribed-and-save = Fortsæt abonnement og spar
+churn-cancel-flow-button-cancel-subscription = Opsig abonnement
 churn-cancel-flow-link-terms-and-restrictions = Begrænsede vilkår og restriktioner gælder
 churn-cancel-flow-discount-already-applied-title = Rabatkode er allerede anvendt
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -259,6 +280,14 @@ churn-cancel-flow-button-contact-support = Kontakt Support
 
 churn-cancel-flow-subscription-active-title = Dit abonnement på { $productName } er aktivt
 churn-cancel-flow-button-go-to-product-page = Gå til { $productName }
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Derefter fornyes dit abonnement automatisk til standardprisen, medmindre du opsiger det.
+churn-cancel-flow-cancel-success-title = Vi er kede af, at du opsiger dit abonnement
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Dit abonnement på { $productName } er blevet annulleret. Du har adgang til { $productName } frem til { $date }.
+churn-cancel-flow-cancel-turn-back-on = Du kan til enhver tid aktivere dit abonnement igen, inden det udløber.
+churn-cancel-flow-cancel-success-dialog-aside = Har du spørgsmål? Besøg <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
@@ -281,6 +310,8 @@ churn-stay-subscribed-thanks-valued-subscriber = Tak fordi du er abonnent!
 churn-stay-subscribed-button-go-to-product-page = Gå til { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Gå til abonnementer
 churn-stay-subscribed-button-stay-subscribed = Fortsæt abonnement
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Derefter fornyes dit abonnement automatisk til standardprisen, medmindre du opsiger det.
 
 ## Component - CouponForm
 
@@ -293,8 +324,56 @@ next-coupon-promo-code-applied = Rabatkode anvendt
 next-coupon-remove = Fjern
 next-coupon-submit = Anvend
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Din gratis prøveperiode udløber den { $date }.
+free-trial-content-trial-cancelled = Din gratis prøveperiode er blevet annulleret.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Du vil blive opkrævet { $amount } + { $tax } afgift per dag, når den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-with-tax-week = Du vil blive opkrævet { $amount } + { $tax } afgift per uge, når den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-with-tax-month = Du vil blive opkrævet { $amount } + { $tax } afgift per måned, når den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Du vil blive opkrævet { $amount } + { $tax } afgift hver sjette måned, når den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-with-tax-year = Du vil blive opkrævet { $amount } + { $tax } afgift per år, når den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-with-tax-default = Du vil blive opkrævet { $amount } + { $tax } afgift, når den gratis prøveperiode slutter den { $date }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Du vil blive opkrævet { $amount } per dag efter den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-no-tax-week = Du vil blive opkrævet { $amount } per uge efter den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-no-tax-month = Du vil blive opkrævet { $amount } per måned efter den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Du vil blive opkrævet { $amount } hver sjette måned efter den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-no-tax-year = Du vil blive opkrævet { $amount } om året efter den gratis prøveperiode slutter den { $date }.
+free-trial-content-charge-info-no-tax-default = Du vil blive opkrævet { $amount } efter den gratis prøveperiode slutter den { $date }.
+free-trial-content-trial-ends = Din gratis prøveperiode slutter den { $date }. Opdater din betalingsmetode for at beholde adgangen efter din gratis prøveperiode.
+free-trial-content-trial-active = Din gratis prøveperiode er aktiv.
+free-trial-content-action-error = Der opstod en uventet fejl. Prøv igen.
+free-trial-content-button-resume-trial = Genoptag prøveperioden
+free-trial-content-button-resume-trial-aria = Genoptag prøveperioden på { $productName }
+free-trial-content-button-cancel-trial = Opsig prøveperiode
+free-trial-content-button-cancel-trial-aria = Opsig prøveperioden på { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Seneste regning • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } afgift
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Se faktura
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Se faktura for { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Din gratis prøveperiode sluttede den <bold>{ $date }</bold>. Vi kunne ikke behandle din betaling for at starte dit abonnement. Opdater venligst din betalingsmetode for at aktivere dit abonnement og gendanne adgangen til dine tjenester.
+free-trial-content-payment-failed-no-date = Vi kunne ikke behandle din betaling for at starte dit abonnement. Opdater venligst din betalingsmetode for at aktivere dit abonnement og gendanne adgangen til dine tjenester.
+free-trial-content-button-update-payment = Opdater betalingsmetode
 
 # Component - Header
 
@@ -322,12 +401,25 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Logget ind som
 payments-header-avatar-expanded-sign-out = Log ud
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Vi er kede af, at du opsiger dit abonnement
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Dit abonnement på { $productName } er blevet annulleret. Du har adgang til { $productName } frem til { $date }.
+interstitial-offer-turn-back-on = Du kan til enhver tid aktivere dit abonnement igen, inden det udløber.
+interstitial-offer-cancel-success-dialog-aside = Har du spørgsmål? Besøg <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+interstitial-offer-button-back-to-subscriptions = Tilbage til abonnementer
+interstitial-offer-action-error = Der opstod en uventet fejl. Prøv igen.
+interstitial-offer-cancel-subscription-button = Opsig abonnement
+
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
 
 interstitial-offer-button-keep-current-interval-daily = Behold dagligt abonnement
 interstitial-offer-button-keep-current-interval-weekly = Behold ugentligt abonnement
 interstitial-offer-button-keep-current-interval-halfyearly = Behold halvårligt abonnement
 interstitial-offer-button-keep-current-interval-monthly = Behold månedligt abonnement
+interstitial-offer-button-keep-subscription = Behold abonnement
 
 ##
 
@@ -360,6 +452,42 @@ purchase-details-credit-applied-label = Tilgodehavende anvendt
 purchase-details-total-due-label = Samlet udestående
 next-plan-details-hide-button = Skjul detaljer
 next-plan-details-show-button = Vis detaljer
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Start din { $trialDayLength }-dags gratis prøveperiode
+       *[other] Start din { $trialDayLength }-dags gratis prøveperiode
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Din { $trialDayLength }-dags gratis prøveperiode er startet
+       *[other] Din { $trialDayLength }-dags gratis prøveperiode er startet
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Ingen betaling kræves i dag. Du vil blive opkrævet { $firstPrice } per dag efter den gratis prøveperiode slutter den { $endDate }.
+free-trial-start-message-weekly = Ingen betaling kræves i dag. Du vil blive opkrævet { $firstPrice } per uge efter den gratis prøveperiode slutter den { $endDate }.
+free-trial-start-message-monthly = Ingen betaling kræves i dag. Du vil blive opkrævet { $firstPrice } per måned efter den gratis prøveperiode slutter den { $endDate }.
+free-trial-start-message-halfyearly = Ingen betaling kræves i dag. Du vil blive opkrævet { $firstPrice } hver 6. måneder efter den gratis prøveperiode slutter den { $endDate }.
+free-trial-start-message-yearly = Ingen betaling kræves i dag. Du vil blive opkrævet { $firstPrice } per år efter den gratis prøveperiode slutter den { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Første opkrævning: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Du vil blive faktureret { $firstPrice } den { $endDate }, og derefter dagligt, indtil du opsiger abonnementet.
+free-trial-first-charge-message-weekly = Du vil blive faktureret { $firstPrice } den { $endDate }, og derefter ugentligt, indtil du opsiger abonnementet.
+free-trial-first-charge-message-monthly = Du vil blive faktureret { $firstPrice } den { $endDate }, og derefter månedligt, indtil du opsiger abonnementet.
+free-trial-first-charge-message-halfyearly = Du vil blive faktureret { $firstPrice } den { $endDate }, og derefter hver 6. måned, indtil du opsiger abonnementet.
+free-trial-first-charge-message-yearly = Du vil blive faktureret { $firstPrice } den { $endDate }, og derefter årligt, indtil du opsiger abonnementet.
 
 ##
 
@@ -458,6 +586,9 @@ churn-error-page-message-discount-already-applied = Denne rabat blev anvendt på
 churn-error-page-button-manage-subscriptions = Håndter abonnementer
 churn-error-page-button-contact-support = Kontakt support
 churn-error-page-button-try-again = Prøv igen
+churn-error-page-title-customer-mismatch = Rabatkoden kan ikke indløses
+churn-error-page-message-customer-mismatch = Denne rabatkode blev udstedt til et andet abonnement og kan kun indløses af den oprindelige modtager.
+churn-error-page-button-sign-in = Log ind
 churn-error-page-title-general-error = Der opstod et problem med at forny dit abonnement
 churn-error-page-message-general-error = Kontakt support eller prøv igen.
 # $productName (String) - The name of the product associated with the subscription.

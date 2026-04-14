@@ -1994,11 +1994,11 @@ msgstr "Opsætningen kunne ikke fuldføres. Log ind med din mailadresse."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Adgangskode oprettet. Du synkroniserer nu."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Konto oprettet. Du synkroniserer nu."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

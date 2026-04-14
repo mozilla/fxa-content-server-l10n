@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Hvis du ikke foretog denne handling, så nulstil din adgangskode med det samme på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Nulstil også totrinsgodkendelse på:
+automated-email-sign-in =
+    Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, så <a data-l10n-name="securitySettingsLink">gennemgå dine indstillinger for kontosikkerhed</a>.
+    For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-sign-in-plaintext = Hvis du ikke har godkendt denne handling, så gennemgå dine indstillinger for kontosikkerhed på:
 brand-banner-message = Vidste du, at vi har ændret vores navn fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Læs mere</a>
 change-password-plaintext = Hvis du har mistanke om, at nogen forsøger at få adgang til din konto, så skift din adgangskode.
 manage-account = Håndter konto
@@ -260,6 +264,15 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til din { -product-mozilla-acc
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Din { $providerName }-konto er blevet knyttet til din { -product-mozilla-account }
 postAddLinkedAccount-action = Håndter konto
+postAddPasskey-subject = Adgangsnøgle oprettet
+postAddPasskey-preview = Du kan nu bruge din enhed til at logge ind
+postAddPasskey-title = Du har oprettet en adgangsnøgle
+postAddPasskey-description = Du kan nu bruge den til at logge ind på alle dine { -product-mozilla-account }-tjenester.
+postAddPasskey-sync-note = Bemærk, at din adgangskode fortsat vil være påkrævet for at få adgang til dine synkroniserede data i { -brand-firefox }.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Læs mere
+postAddPasskey-requested-from = Du har bedt om dette fra:
+postAddPasskey-action = Håndter konto
 postAddRecoveryPhone-subject = Telefonnummer til genoprettelse tilføjet
 postAddRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postAddRecoveryPhone-title-v2 = Du tilføjede et telefonnummer til genoprettelse
@@ -328,6 +341,12 @@ postRemoveAccountRecovery-title-3 = Du slettede din genoprettelsesnøgle til kon
 postRemoveAccountRecovery-body-part1 = Din genoprettelsesnøgle til kontoen er påkrævet for at gendanne dine krypterede browserdata, hvis du glemmer din adgangskode.
 postRemoveAccountRecovery-body-part2 = Hvis du ikke allerede har gjort det, så opret en ny genoprettelsesnøgle til kontoen i dine kontoindstillinger for at forhindre, at du mister dine gemte adgangskoder, bogmærker, browserhistorik med mere.
 postRemoveAccountRecovery-action = Håndter konto
+postRemovePasskey-subject = Adgangsnøgle slettet
+postRemovePasskey-preview = En adgangsnøgle blev fjernet fra din konto
+postRemovePasskey-title = Du slettede din adgangsnøgle
+postRemovePasskey-description = Du skal bruge en anden metode til at logge ind.
+postRemovePasskey-requested-from = Du har bedt om dette fra:
+postRemovePasskey-action = Håndter konto
 postRemoveRecoveryPhone-subject = Telefonnummer til genoprettelse fjernet
 postRemoveRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postRemoveRecoveryPhone-title = Telefonnummer til genoprettelse fjernet

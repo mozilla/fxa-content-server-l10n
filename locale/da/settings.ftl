@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Opfordringer til handling for at tage kontrollen over internettet tilbage
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Lyst
+dark-mode-toggle-dark = Mørkt
+dark-mode-toggle-system = System
+dark-mode-toggle-label = Slå tema til/fra
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -303,6 +310,9 @@ sync-clouds-image-aria-label =
     .aria-label = Skyer med et synkroniseringsikon
 confetti-falling-image-aria-label =
     .aria-label = Animeret faldende konfetti
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox }-vindue med et rundt mærke, der viser et grønt flueben og "VPN", hvilket viser, at VPN'en er aktiv.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -398,6 +408,17 @@ password-strength-inline-not-email = Ikke din mailadresse
 password-strength-inline-not-common = Ikke en almindeligt brugt adgangskode
 password-strength-inline-confirmed-must-match = Bekræftelsen matcher den nye adgangskode
 password-strength-inline-passwords-match = Adgangskoderne er ens
+
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Din telefon. Dine regler.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Skan for at hente appen
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = QR-kode til at hente mobilappen { -brand-firefox }. Placer din telefons kamera i nederste højre hjørne af skærmen for at skanne den.
 
 ## Notification Promo Banner component
 
@@ -1152,6 +1173,21 @@ tfa-row-backup-phone-description-v2 = Dette er den nemmeste genoprettelsesmetode
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Læs mere om SIM-swapping-risiko
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Oprettet: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Senest anvendt: { $lastUsedDate }
+passkey-sub-row-delete-title = Slet adgangsnøgle
+passkey-delete-modal-heading = Slet din adgangsnøgle?
+passkey-delete-modal-content = Denne adgangsnøgle vil blive fjernet fra din konto. Du skal logge ind på en anden måde.
+passkey-delete-modal-cancel-button = Annuller
+passkey-delete-modal-confirm-button = Slet adgangsnøgle
+passkey-delete-success = Adgangsnøgle slettet
+passkey-delete-error = Der opstod et problem med at slette din adgangsnøgle. Prøv igen om et par minutter.
 
 ## Switch component
 
@@ -1170,6 +1206,25 @@ row-defaults-action-add = Tilføj
 row-defaults-action-change = Skift
 row-defaults-action-disable = Deaktiver
 row-defaults-status = Ingen
+
+## UnitRowPasskey
+
+passkey-row-header = Adgangsnøgler
+passkey-row-enabled = Aktiveret
+passkey-row-not-set = Ikke oprettet
+passkey-row-action-create = Opret
+passkey-row-description = Gør login nemmere og mere sikker ved at bruge din telefon eller en anden understøttet enhed til at logge ind på din konto.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Lær mere
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+       *[other] Du har brugt alle { $count } adgangsnøgler. Slet en adgangsnøgle for at oprette en ny.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Du har nået det maksimale antal adgangs adgangsnøgler.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1321,6 +1376,12 @@ auth-error-215 = Telefonnummer til genoprettelse findes ikke
 auth-error-216 = Grænsen for SMS-beskeder er nået
 auth-error-218 = Kunne ikke fjerne telefonnummer til genoprettelse, mangler reserve-godkendelseskoder.
 auth-error-219 = Dette telefonnummer er blevet registreret med for mange konti. Prøv et andet nummer.
+auth-error-224 = Adgangsnøgle ikke fundet
+auth-error-225 = Adgangsnøglen er allerede registreret
+auth-error-226 = Grænsen for adgangsnøgle nået
+auth-error-227 = Godkendelse med adgangsnøgle mislykkedes
+auth-error-228 = Registrering af adgangsnøgle mislykkedes
+auth-error-238 = Adgangsnøgleudfordring mislykkedes
 auth-error-999 = Uventet fejl
 auth-error-1001 = Login-forsøg annulleret
 auth-error-1002 = Sessionen udløb. Log ind for at fortsætte.
@@ -1345,6 +1406,46 @@ auth-error-1067 = Forkert indtastet mailadresse?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer, der ender på { $lastFourPhoneNumber }
 oauth-error-1000 = Noget gik galt. Luk dette faneblad og prøv igen.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Opsætning af adgangsnøgle mislykkedes eller er ikke tilgængelig. Prøv igen, eller vælg en anden metode.
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Opsætning af adgangsnøgle blev annulleret. Prøv igen.
+# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
+passkey-registration-error-not-supported = Adgangsnøgler understøttes ikke her. Prøv en anden metode eller enhed.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Adgangsnøgler kan ikke opsættes på denne side. Brug det sikre websted, og prøv igen.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Denne adgangsnøgle er allerede registreret. Brug den til at logge ind eller tilføj en anden adgangsnøgle.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Vi kunne ikke få adgang til godkendelsesfunktionen. Prøv igen, eller vælg en anden metode.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Opsætning af adgangsnøgle er ikke tilgængelig med denne enhed. Prøv en anden metode eller enhed.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Opsætning af adgangsnøgle mislykkedes. Prøv igen, eller vælg en anden metode.
+
+# Authentication errors
+
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Log ind med adgangsnøgle mislykkedes eller er ikke tilgængelig. Prøv igen, eller vælg en anden metode.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Tidsfristen for adgangsnøgleforespørgslen udløb. Prøv igen.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported = Adgangsnøgler understøttes ikke. Prøv en anden metode eller enhed.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Adgangsnøgler kan ikke bruges på denne side. Kontroller, at du er på det korrekte sikre websted, og prøv igen.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Noget gik galt med din adgangsnøgle. Prøv igen, eller brug en anden loginmetode.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Vi kunne ikke få adgang til godkendelsesfunktionen. Prøv igen, eller vælg en anden loginmetode.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Noget gik galt. Prøv igen, eller vælg en anden loginmetode.
 
 ## Connect Another Device page
 
@@ -1563,6 +1664,15 @@ pair-wait-for-auth-heading-text = Godkendelse er nu påkrævet <span>fra din and
 pair-unsupported-header = Parring ved hjælp af en app
 pair-unsupported-message = Brugte du systemets kamera? Du skal parre ved hjælp af en { -brand-firefox }-app.
 
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signup-success-banner = { -product-mozilla-account } bekræftet
+service-welcome-signin-success-banner = Du er logget ind!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Næste: Slå VPN til
+service-welcome-vpn-description = Endnu et skridt til at beskytte dit privatliv. Gå til det åbne panel, og slå den til.
+
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
@@ -1572,6 +1682,11 @@ pair-unsupported-message = Brugte du systemets kamera? Du skal parre ved hjælp 
 set-password-heading-v2 = Opret adgangskode for at synkronisere
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Dette krypterer dine data. Den skal være forskellig fra adgangskoden til din { -brand-google }- eller { -brand-apple }-konto.
+
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Denne adgangskode krypterer dine synkroniserede data og holder dem sikre.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1769,6 +1884,62 @@ signin-bounced-message = Bekræftelsesmailen, vi sendte til{ $email }, kom retur
 signin-bounced-help = Hvis det er en gyldig mailadresse, <linkExternal>så fortæl os det</linkExternal>. Så kan vi hjælpe med at låse din konto op.
 signin-bounced-create-new-account = Er du ikke længere ejer af mailadressen? Opret en ny konto
 back = Tilbage
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-header = Færdiggør login
+signin-passkey-fallback-heading = Indtast din adgangskode for at synkronisere
+signin-passkey-fallback-body = For at beskytte dine data skal du indtaste din adgangskode, når du bruger denne adgangsnøgle.
+signin-passkey-fallback-password-label = Adgangskode
+signin-passkey-fallback-go-to-settings = Gå til indstillinger
+signin-passkey-fallback-continue = Fortsæt
+
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-heading = Indtast bekræftelseskode
+signin-passwordless-code-subheading = Du kan logge ind i et enkelt trin, når du bruger denne kode.
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor{ $expirationMinutes } minut.
+       *[other] Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor { $expirationMinutes } minutter.
+    }
+signin-passwordless-code-input-label = Indtast ottecifret kode
+signin-passwordless-code-confirm-button = Bekræft
+signin-passwordless-code-required-error = Bekræftelseskode påkrævet
+signin-passwordless-code-expired = Er koden udløbet?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Sender ny kode via mail om { $seconds } sekund
+       *[other] Sender ny kode via mail om { $seconds } sekunder
+    }
+signin-passwordless-code-resend-link = Send en ny kode.
+signin-passwordless-code-resend-error = Noget gik galt. En ny kode kunne ikke sendes.
+signin-passwordless-code-other-account-link = Brug en anden konto
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Du kan tilmelde dig i et enkelt trin, når du bruger denne kode.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Totrinsgodkendelse er aktiveret på din konto. Log ind med din adgangskode.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
