@@ -261,6 +261,8 @@ postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
+postAddPasskey-subject = Passnøkkel oppretta
+postAddPasskey-title = Du oppretta ein passnøkkel
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Les meir
 postAddPasskey-requested-from = Du ba om dette frå:
@@ -333,6 +335,9 @@ postRemoveAccountRecovery-title-3 = Du sletta kontogjenopprettingsnøkkelen din
 postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din er påkravd for å gjenopprette dei krypterte nettlesardataa dine viss du gløymer passordet ditt.
 postRemoveAccountRecovery-body-part2 = Viss du ikkje allereie har gjort det, kan du opprette ein ny kontogjenopprettingsnøkkel i kontoinnstillingane dine for å hindre at du mistar lagra passord, bokmerke, nettlesarhistorikk, og meir.
 postRemoveAccountRecovery-action = Handsam kontoen
+postRemovePasskey-subject = Passnøkkel sletta
+postRemovePasskey-requested-from = Du ba om dette frå:
+postRemovePasskey-action = Handsam kontoen
 postRemoveRecoveryPhone-subject = Gjenopprettingstelefon fjerna
 postRemoveRecoveryPhone-preview = Kontoen er verna av tostegs-autentisering
 postRemoveRecoveryPhone-title = Gjenopprettingstelefon fjerna
