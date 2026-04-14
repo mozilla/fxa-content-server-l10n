@@ -1214,6 +1214,18 @@ passkey-row-enabled = Ingeschakeld
 passkey-row-not-set = Niet ingesteld
 passkey-row-action-create = Aanmaken
 passkey-row-description = Maak aanmelden eenvoudiger en veiliger door uw telefoon of een ander ondersteund apparaat voor toegang tot uw account te gebruiken.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Meer info
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] U hebt alle { $count } wachtwoordsleutels gebruikt. Verwijder een wachtwoordsleutel om een nieuwe aan te maken.
+       *[other] U hebt alle { $count } wachtwoordsleutels gebruikt. Verwijder een wachtwoordsleutel om een nieuwe aan te maken.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = U hebt het maximale aantal wachtwoordsleutels bereikt.
 
 ## Account recovery key sub-section on main Settings page
 
