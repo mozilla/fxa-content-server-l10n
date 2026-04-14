@@ -1218,6 +1218,19 @@ passkey-row-enabled = Включён
 passkey-row-not-set = Не настроен
 passkey-row-action-create = Создать
 passkey-row-description = Сделайте вход проще и безопаснее, используя телефон или другое поддерживаемое устройство для входа в свой аккаунт.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Подробнее
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Вы использовали все { $count } ключ доступа. Удалите ключ доступа, чтобы создать новый.
+        [few] Вы использовали все { $count } ключа доступа. Удалите ключ доступа, чтобы создать новый.
+       *[many] Вы использовали все { $count } ключей доступа. Удалите ключ доступа, чтобы создать новый.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Вы достигли максимально допустимого числа ключей доступа.
 
 ## Account recovery key sub-section on main Settings page
 
