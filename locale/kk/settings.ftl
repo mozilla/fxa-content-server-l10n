@@ -1218,6 +1218,15 @@ passkey-row-action-create = Жасау
 passkey-row-description = Тіркелгіңізге кіру үшін телефоныңызды немесе басқа қолдау көрсетілетін құрылғыны пайдаланыңыз. Бұл жүйеге кіру процесін әрі жеңілірек, әрі қауіпсізірек етеді.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Көбірек білу
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+       *[other] Сіз барлық { $count } рұқсат кілтін пайдаландыңыз. Жаңасын жасау үшін біреуін өшіріңіз.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Сіз рұқсат кілттердің максималды санына жеттіңіз.
 
 ## Account recovery key sub-section on main Settings page
 

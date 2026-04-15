@@ -1216,6 +1216,8 @@ passkey-row-action-create = Moheñói
 passkey-row-description = Ejapo nde jeike ndahasýi ha tahekorosã eiporúvo pumbyry térã ambue mba’e’oka ojokupytýva eike hag̃ua ne mba’etépe.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Eikuaave
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Ehupytýma ñe’ẽ ñemigua papapy ru’ã rehegua.
 
 ## Account recovery key sub-section on main Settings page
 

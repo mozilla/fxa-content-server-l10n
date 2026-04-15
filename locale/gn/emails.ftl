@@ -98,6 +98,7 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Nandéiramo ejapo ko jeku’e, emoambue ne ñe’ẽñemi ko’ag̃aite amo guive:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Avei, erujey ñemoneĩha mokõi jeku’egua amo guive:
+automated-email-sign-in-plaintext = Neremoneĩriramo ko jeku’e, ehecha jey ne rekorosãrã ñemoĩporã mba’ete rehegua amo:
 brand-banner-message = ¿Eikuaa romoambueha ore réra { -product-firefox-accounts } ko’ág̃a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Eikuaave</a>
 change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi.
 manage-account = Mba’ete ñangareko
@@ -264,6 +265,7 @@ postAddPasskey-subject = Ñe’ẽ ñemi mboheñoipyre
 postAddPasskey-preview = Eiporukuaáma ne mba’e’oka eike hag̃ua
 postAddPasskey-title = Emoheñóima ñe’ẽ ñemi
 postAddPasskey-description = Eiporukuaáma eikekuaa hag̃ua opaite ne { -product-mozilla-account } mba’eporúpe.
+postAddPasskey-sync-note = Eikuaáke upe ne ñe’ẽñemi tekotevẽtaha eike hag̃ua ne mba’ekuaarã { -brand-firefox } ñembohekópe.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Eikuaave
 postAddPasskey-requested-from = Nde ejerure kóva guive:
