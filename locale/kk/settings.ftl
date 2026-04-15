@@ -1216,6 +1216,8 @@ passkey-row-enabled = Іске қосылған
 passkey-row-not-set = Орнатылмаған
 passkey-row-action-create = Жасау
 passkey-row-description = Тіркелгіңізге кіру үшін телефоныңызды немесе басқа қолдау көрсетілетін құрылғыны пайдаланыңыз. Бұл жүйеге кіру процесін әрі жеңілірек, әрі қауіпсізірек етеді.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Көбірек білу
 
 ## Account recovery key sub-section on main Settings page
 
