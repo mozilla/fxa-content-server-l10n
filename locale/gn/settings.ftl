@@ -1214,6 +1214,8 @@ passkey-row-enabled = Myandypyre
 passkey-row-not-set = Heko’ỹva
 passkey-row-action-create = Moheñói
 passkey-row-description = Ejapo nde jeike ndahasýi ha tahekorosã eiporúvo pumbyry térã ambue mba’e’oka ojokupytýva eike hag̃ua ne mba’etépe.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Eikuaave
 
 ## Account recovery key sub-section on main Settings page
 
