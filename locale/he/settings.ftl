@@ -1161,6 +1161,13 @@ passkey-row-action-create = יצירה
 passkey-row-description = ניתן להפוך את ההתחברות לקלה ובטוחה יותר על־ידי שימוש בטלפון שלך או במכשיר נתמך אחר כדי להיכנס לחשבון שלך.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = מידע נוסף
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+       *[other] השתמשת בכל { $count } מפתחות הגישה. יש למחוק מפתח גישה כדי ליצור אחד חדש.
+    }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = הגעת למספר המירבי של מפתחות הגישה.
 
