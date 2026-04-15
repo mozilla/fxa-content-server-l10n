@@ -1218,6 +1218,16 @@ passkey-row-action-create = Crear
 passkey-row-description = Rende tu accesso plus facile e plus secur usante tu telephono o altere apparato supportate pro acceder in tu conto.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Pro saper plus
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Tu ha usate tote le { $count } clave-contrasigno. Dele un clave-contrasigno pro crear un nove
+       *[other] Tu ha usate tote le { $count } claves-contrasigno. Dele un clave-contrasigno pro crear un nove
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Tu ha attingite le numero maxime de claves-contrasigno.
 
 ## Account recovery key sub-section on main Settings page
 
