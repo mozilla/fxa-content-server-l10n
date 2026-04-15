@@ -1998,11 +1998,11 @@ msgstr "Konfigurasjonen kunne ikkje fullførast. Logg på med e-posten din."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Passord oppretta. Du synkroniserer no."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Konto opretta. Du synkroniserer no."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"

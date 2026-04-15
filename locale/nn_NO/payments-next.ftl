@@ -140,8 +140,11 @@ interstitial-offer-error-button-contact-support = Kontakt kundestøtte
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmåte lagt til
 subscription-management-page-banner-warning-link-no-payment-method = Legg til en betalingsmåte
 subscription-management-subscriptions-heading = Abonnement
+subscription-management-free-trial-heading = Gratis prøveperiodar
+subscription-management-your-free-trials-aria = Dine gratis prøveperiodar
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Hopp til
+subscription-management-nav-free-trials = Gratis prøveperiodar
 subscription-management-nav-payment-details = Betalningsinformasjon
 subscription-management-nav-active-subscriptions = Aktive abonnement
 subscription-management-payment-details-heading = Betalningsinformasjon
@@ -320,10 +323,27 @@ next-coupon-promo-code-applied = Kampanjekode brukt
 next-coupon-remove = Fjern
 next-coupon-submit = Bruk
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Gratis prøveperiode går ut { $date }.
+
+# Charge info strings - with tax, per interval
+
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-trial-active = Gratis prøveperiode er aktiv.
+free-trial-content-action-error = Det oppstod ein uventa feil. Prøv på nytt.
+
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
 ## $taxDue (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-last-bill = Siste faktura • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } moms
 free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
