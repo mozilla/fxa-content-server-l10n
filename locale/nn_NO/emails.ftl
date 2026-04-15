@@ -336,6 +336,7 @@ postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din er påk
 postRemoveAccountRecovery-body-part2 = Viss du ikkje allereie har gjort det, kan du opprette ein ny kontogjenopprettingsnøkkel i kontoinnstillingane dine for å hindre at du mistar lagra passord, bokmerke, nettlesarhistorikk, og meir.
 postRemoveAccountRecovery-action = Handsam kontoen
 postRemovePasskey-subject = Passnøkkel sletta
+postRemovePasskey-title = Du sletta passnøkkelen din
 postRemovePasskey-requested-from = Du ba om dette frå:
 postRemovePasskey-action = Handsam kontoen
 postRemoveRecoveryPhone-subject = Gjenopprettingstelefon fjerna
