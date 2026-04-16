@@ -1190,6 +1190,17 @@ passkey-row-enabled = Đã bật
 passkey-row-not-set = Chưa đặt
 passkey-row-action-create = Tạo
 passkey-row-description = Đăng nhập dễ dàng và an toàn hơn bằng cách sử dụng điện thoại hoặc thiết bị được hỗ trợ khác để truy cập vào tài khoản của bạn.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Tìm hiểu thêm
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+       *[other] Bạn đã sử dụng hết { $count } passkey. Xoá một passkey không còn sử dụng nữa để tạo passkey mới.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Bạn đã đạt đến số lượng passkey tối đa.
 
 ## Account recovery key sub-section on main Settings page
 

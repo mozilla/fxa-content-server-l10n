@@ -370,6 +370,10 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Xem hoá đơn
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Xem hoá đơn cho { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Dùng thử miễn phí của bạn sẽ kết thúc vào <bold>{ $date }</bold>. Chúng tôi không thể xử lý thanh toán để bắt đầu gói đăng ký của bạn. Vui lòng cập nhật phương thức thanh toán để kích hoạt gói đăng ký và khôi phục quyền truy cập vào dịch vụ.
+free-trial-content-payment-failed-no-date = Chúng tôi không thể xử lý thanh toán để bắt đầu gói đăng ký của bạn. Vui lòng cập nhật phương thức thanh toán để kích hoạt gói đăng ký và khôi phục quyền truy cập vào dịch vụ.
+free-trial-content-button-update-payment = Cập nhật phương thức thanh toán
 
 # Component - Header
 
@@ -448,6 +452,34 @@ purchase-details-credit-applied-label = Tín dụng được áp dụng
 purchase-details-total-due-label = Tổng số tiền phải trả
 next-plan-details-hide-button = Ẩn chi tiết
 next-plan-details-show-button = Hiện chi tiết
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title = Bắt đầu { $trialDayLength } ngày dùng thử miễn phí cho bạn
+free-trial-success-title = Dùng thử miễn phí { $trialDayLength } ngày của bạn đã bắt đầu
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Không cần thanh toán hôm nay. Bạn sẽ bị tính phí { $firstPrice }/ngày sau khi thời gian dùng thử miễn phí kết thúc vào { $endDate }.
+free-trial-start-message-weekly = Không cần thanh toán hôm nay. Bạn sẽ bị tính phí { $firstPrice }/tuần sau khi thời gian dùng thử miễn phí kết thúc vào { $endDate }.
+free-trial-start-message-monthly = Không cần thanh toán hôm nay. Bạn sẽ bị tính phí { $firstPrice }/tháng sau khi thời gian dùng thử miễn phí kết thúc vào { $endDate }.
+free-trial-start-message-halfyearly = Không cần thanh toán hôm nay. Bạn sẽ bị tính phí { $firstPrice }/6 tháng sau khi thời gian dùng thử miễn phí kết thúc vào { $endDate }.
+free-trial-start-message-yearly = Không cần thanh toán hôm nay. Bạn sẽ bị tính phí { $firstPrice }/năm sau khi thời gian dùng thử miễn phí kết thúc vào { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Khoản phí đầu tiên: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Bạn sẽ bị tính phí { $firstPrice } vào { $endDate }, sau đó mỗi ngày một lần cho đến khi bạn huỷ.
+free-trial-first-charge-message-weekly = Bạn sẽ bị tính phí { $firstPrice } vào { $endDate }, sau đó mỗi tuần một lần cho đến khi bạn huỷ.
+free-trial-first-charge-message-monthly = Bạn sẽ bị tính phí { $firstPrice } vào { $endDate }, sau đó mỗi tháng một lần cho đến khi bạn huỷ.
+free-trial-first-charge-message-halfyearly = Bạn sẽ bị tính phí { $firstPrice } vào { $endDate }, sau đó mỗi 6 tháng một lần cho đến khi bạn huỷ.
+free-trial-first-charge-message-yearly = Bạn sẽ bị tính phí { $firstPrice } vào { $endDate }, sau đó mỗi năm một lần cho đến khi bạn huỷ.
 
 ##
 

@@ -98,6 +98,9 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Nếu bạn không thực hiện hành động này, hãy đặt lại mật khẩu ngay tại:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Ngoài ra, hãy đặt lại xác thực hai bước tại:
+automated-email-sign-in =
+    Đây là email tự động; nếu bạn không nhận ra hành động này, vui lòng <a data-l10n-name="securitySettingsLink">xem lại cài đặt bảo mật của bạn</a>.
+    Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-sign-in-plaintext = Nếu bạn không nhận ra hành động này, vui lòng xem lại cài đặt bảo mật tài khoản của bạn tại:
 brand-banner-message = Bạn có biết chúng tôi đã đổi tên từ { -product-firefox-accounts } thành { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Tìm hiểu thêm</a>
 change-password-plaintext = Nếu bạn nghi ngờ rằng ai đó đang cố truy cập vào tài khoản của bạn, vui lòng thay đổi mật khẩu của bạn.
