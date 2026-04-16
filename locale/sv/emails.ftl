@@ -339,6 +339,12 @@ postRemoveAccountRecovery-title-3 = Du raderade din kontoåterställningsnyckel
 postRemoveAccountRecovery-body-part1 = Din kontoåterställningsnyckel krävs för att återställa dina krypterade webbläsardata om du glömmer ditt lösenord.
 postRemoveAccountRecovery-body-part2 = Om du inte redan har gjort det, skapa en ny kontoåterställningsnyckel i dina kontoinställningar för att förhindra att du förlorar dina sparade lösenord, bokmärken, webbhistorik och mer.
 postRemoveAccountRecovery-action = Hantera konto
+postRemovePasskey-subject = Lösenordsnyckel borttagen
+postRemovePasskey-preview = En lösenordsnyckel togs bort från ditt konto
+postRemovePasskey-title = Du tog bort din lösenordsnyckel
+postRemovePasskey-description = Du måste använda en annan metod för att logga in.
+postRemovePasskey-requested-from = Du begärde detta från:
+postRemovePasskey-action = Hantera konto
 postRemoveRecoveryPhone-subject = Återställningstelefon borttagen
 postRemoveRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postRemoveRecoveryPhone-title = Återställningstelefon borttagen
