@@ -98,6 +98,9 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Nandéiramo ejapo ko jeku’e, emoambue ne ñe’ẽñemi ko’ag̃aite amo guive:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Avei, erujey ñemoneĩha mokõi jeku’egua amo guive:
+automated-email-sign-in =
+    Kóva ha’e ñandutiveve ijeheguíva; neremomeĩriramo, upéicharamo <a data-l10n-name="resetLink">emoambue ne ñe’ẽñemi</a>.
+    Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
 automated-email-sign-in-plaintext = Neremoneĩriramo ko jeku’e, ehecha jey ne rekorosãrã ñemoĩporã mba’ete rehegua amo:
 brand-banner-message = ¿Eikuaa romoambueha ore réra { -product-firefox-accounts } ko’ág̃a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Eikuaave</a>
 change-password-plaintext = Eimo’ãramo oĩ oikeséva ne mba’etépe, emoambueva’erã ne ñe’ẽñemi.

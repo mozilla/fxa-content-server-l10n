@@ -28,6 +28,7 @@ location-banner-currency-change = Viru moambue noñemoneĩri. Eku’ejey hag̃ua
 upgrade-page-payment-information = Jehepyme’ẽrã marandu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái ojokupytýva umi jehepyme’ẽ oútava rehe. { $nextInvoiceDate } guive ojehepyme’ẽmbaitéta hepytaháicha tenondeve gotyo.
+upgrade-page-acknowledgment-from-trial = Embohekopyahúvo ne plan jehepyme’ẽrã, eiporu reiha opátama pya’e ha ehepyme’ẽtama plan pyahu ko ára guive.
 
 ## Authentication Error page
 
@@ -335,6 +336,9 @@ free-trial-content-trial-cancelled = Ne jeporu reiguáva ojejokóma.
 
 # Charge info strings - with tax, per interval
 
+free-trial-content-charge-info-with-tax-day = Ehepyme’ẽta { $amount } + { $tax } impuesto peteĩ ára rehegua opávo pe jeporu reiha { $date }.
+free-trial-content-charge-info-with-tax-week = Ehepyme’ẽta { $amount } + { $tax } impuesto arapokõindy rehegua opávo pe jeporu reiha { $date }.
+free-trial-content-charge-info-with-tax-month = Ehepyme’ẽta { $amount } + { $tax } impuesto pe jasy rehegua opávo pe jeporu reiha { $date }.
 
 # Charge info strings - no tax, per interval
 
