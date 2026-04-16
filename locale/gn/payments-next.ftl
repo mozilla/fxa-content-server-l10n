@@ -350,6 +350,7 @@ free-trial-content-charge-info-no-tax-week = Ehepyme’ẽta { $amount } arapok�
 free-trial-content-charge-info-no-tax-month = Ehepyme’ẽta { $amount } jasy rehegua opávo pe jeporu reiha og̃uahẽvo { $date }.
 free-trial-content-charge-info-no-tax-halfyear = Ehepyme’ẽta { $amount } poteĩ jasy rehegua opávo pe jeporu reiha og̃uahẽvo { $date }.
 free-trial-content-charge-info-no-tax-year = Ehepyme’ẽta { $amount } ary rehegua opávo pe jeporu reiha og̃uahẽvo { $date }.
+free-trial-content-charge-info-no-tax-default = Ehepyme’ẽta { $amount } opa rire pe jeporu reiha og̃uahẽvo { $date }.
 free-trial-content-trial-active = Ne jeporu reiguáva hendy.
 free-trial-content-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ã jey ag̃ave.
 free-trial-content-button-resume-trial = Eiporukuaa jey
