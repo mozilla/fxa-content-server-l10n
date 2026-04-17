@@ -1243,15 +1243,15 @@ passkey-row-info-link-2 = Dysgu rhagor
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner =
     { $count ->
-        [zero] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
-        [one] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
-        [two] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
-        [few] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
-        [many] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
-       *[other] Rydych chi wedi defnyddio pob un o'r { $count } cyfrineiriau. Dileu allweddell i greu un newydd.
+        [zero] Rydych chi wedi defnyddio pob un o'r { $count } cyfrinallweddi. Crëwch un newydd.
+        [one] Rydych chi wedi defnyddio pob un o'r { $count } cyfrinallwedd. Dilëwch gyfrinallwedd i greu un newydd.
+        [two] Rydych chi wedi defnyddio pob un o'r { $count } gyfrinallwedd. Dilëwch gyfrinallwedd i greu un newydd.
+        [few] Rydych chi wedi defnyddio pob un o'r { $count } cyfrinallwedd. Dilëwch gyfrinallwedd i greu un newydd.
+        [many] Rydych chi wedi defnyddio pob un o'r { $count } cyfrinallwedd. Dilëwch gyfrinallwedd i greu un newydd.
+       *[other] Rydych chi wedi defnyddio pob un o'r { $count } cyfrinallwedd. Dilëwch gyfrinallwedd i greu un newydd.
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
-passkey-row-max-limit-disabled-reason = Rydych chi wedi cyrraedd y nifer uchaf o allweddi.
+passkey-row-max-limit-disabled-reason = Rydych chi wedi cyrraedd y nifer uchaf o gyfrinallweddi
 
 ## Account recovery key sub-section on main Settings page
 
