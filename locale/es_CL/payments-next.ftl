@@ -328,6 +328,8 @@ next-coupon-submit = Aplicar
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-trial-expires = Tu prueba gratuita vence el { $date }.
+free-trial-content-trial-cancelled = Tu prueba gratuita ha sido cancelada.
 
 # Charge info strings - with tax, per interval
 
@@ -343,6 +345,7 @@ free-trial-content-charge-info-with-tax-default = Se te cobrarán { $amount } + 
 free-trial-content-charge-info-no-tax-day = Se te cobrarán { $amount } por día después de que finalice la prueba gratuita el { $date }.
 free-trial-content-charge-info-no-tax-week = Se te cobrarán { $amount } por semana después de que finalice la prueba gratuita el { $date }.
 free-trial-content-charge-info-no-tax-month = Se te cobrarán { $amount } por mes después de que finalice la prueba gratuita el { $date }.
+free-trial-content-trial-active = Tu prueba gratuita está activa.
 free-trial-content-button-resume-trial = Reanudar prueba
 free-trial-content-button-resume-trial-aria = Reanudar prueba para { $productName }
 free-trial-content-button-cancel-trial = Cancelar prueba
@@ -354,9 +357,13 @@ free-trial-content-button-cancel-trial-aria = Cancelar prueba para { $productNam
 
 free-trial-content-last-bill = Última factura • { $billedOnDate }
 free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } de impuesto
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
 
+free-trial-content-link-view-invoice = Ver factura
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Ver factura de { $productName }
 
 # Component - Header
 
@@ -435,6 +442,20 @@ purchase-details-credit-applied-label = Crédito aplicado
 purchase-details-total-due-label = Total adeudado
 next-plan-details-hide-button = Ocultar detalles
 next-plan-details-show-button = Mostrar detalles
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Primer cobro: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Se te facturarán { $firstPrice } el { $endDate }, y luego diariamente a partir de entonces hasta que canceles.
+free-trial-first-charge-message-weekly = Se te facturarán { $firstPrice } el { $endDate }, y luego semanalmente a partir de entonces hasta que canceles.
+free-trial-first-charge-message-monthly = Se te facturarán { $firstPrice } el { $endDate }, y luego mensualmente a partir de entonces hasta que canceles.
+free-trial-first-charge-message-halfyearly = Se te facturarán { $firstPrice } el { $endDate }, y luego semestralmente a partir de entonces hasta que canceles.
+free-trial-first-charge-message-yearly = Se te facturarán { $firstPrice } el { $endDate }, y luego anualmente a partir de entonces hasta que canceles.
 
 ##
 
