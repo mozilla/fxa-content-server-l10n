@@ -1216,6 +1216,8 @@ passkey-row-enabled = Ενεργό
 passkey-row-not-set = Δεν έχει ρυθμιστεί
 passkey-row-action-create = Δημιουργία
 passkey-row-description = Κάντε τη σύνδεση ευκολότερη και ασφαλέστερη χρησιμοποιώντας το τηλέφωνό σας ή κάποια άλλη υποστηριζόμενη συσκευή για είσοδο στον λογαριασμό σας.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Μάθετε περισσότερα
 
 ## Account recovery key sub-section on main Settings page
 
