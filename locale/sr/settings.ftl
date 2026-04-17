@@ -1220,6 +1220,8 @@ passkey-row-enabled = Омогућено
 passkey-row-not-set = Није постављено
 passkey-row-action-create = Направи
 passkey-row-description = Олакшајте пријаву и учините је безбеднијом коришћењем телефона или другог подржаног уређаја за приступ вашем налогу.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Сазнајте више
 
 ## Account recovery key sub-section on main Settings page
 
