@@ -346,6 +346,7 @@ free-trial-content-charge-info-no-tax-day = Se te cobrarán { $amount } por día
 free-trial-content-charge-info-no-tax-week = Se te cobrarán { $amount } por semana después de que finalice la prueba gratuita el { $date }.
 free-trial-content-charge-info-no-tax-month = Se te cobrarán { $amount } por mes después de que finalice la prueba gratuita el { $date }.
 free-trial-content-trial-active = Tu prueba gratuita está activa.
+free-trial-content-action-error = Se ha producido un error inesperado. Por favor, vuelve a intentarlo.
 free-trial-content-button-resume-trial = Reanudar prueba
 free-trial-content-button-resume-trial-aria = Reanudar prueba para { $productName }
 free-trial-content-button-cancel-trial = Cancelar prueba
