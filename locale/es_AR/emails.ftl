@@ -261,9 +261,9 @@ postAddLinkedAccount-subject-2 = Nueva cuenta vinculada a tu { -product-mozilla-
 postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } se ha vinculado a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar cuenta
 postAddPasskey-subject = Clave de acceso creada
-postAddPasskey-preview = Ahora puede usar su dispositivo para iniciar sesión
+postAddPasskey-preview = Ahora podés usar tu dispositivo para iniciar sesión
 postAddPasskey-title = Creó una clave de acceso
-postAddPasskey-description = Ahora puede usarlo para iniciar sesión en todos sus servicios de { -product-mozilla-account }.
+postAddPasskey-description = Ahora podés usarlo para iniciar sesión en todos tus servicios de { -product-mozilla-account }.
 postAddPasskey-sync-note = Tené en cuenta que tu contraseña seguirá siendo necesaria para acceder a tus datos sincronizados de { -brand-firefox }.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Conocer más

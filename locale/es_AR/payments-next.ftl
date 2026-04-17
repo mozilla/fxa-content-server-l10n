@@ -334,42 +334,40 @@ free-trial-content-trial-cancelled = Se canceló tu prueba gratuita.
 
 # Charge info strings - with tax, per interval
 
-free-trial-content-charge-info-with-tax-day = Se te cobrarán { $amount } + { $tax } impuestos por día después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-with-tax-week = Se te cobrarán { $amount } + { $tax } impuestos por semana después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-with-tax-month = Se te cobrará { $amount } + { $tax } impuestos por mes después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-day = Se te cobrarán { $amount } + { $tax } de impuestos por día después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-week = Se te cobrarán { $amount } + { $tax } de impuestos por semana después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-month = Se te cobrarán { $amount } + { $tax } de impuestos por mes después de que finalice la prueba gratuita el { $date }.
 free-trial-content-charge-info-with-tax-halfyear = Se te cobrarán { $amount } + { $tax } de impuestos cada seis meses después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-with-tax-year = Se te cobrará { $amount } + { $tax } impuestos por año después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-with-tax-default = Se te cobrará { $amount } + { $tax } impuestos después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-year = Se te cobrarán { $amount } + { $tax } de impuestos por año después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-with-tax-default = Se te cobrarán { $amount } + { $tax } de impuestos después de que finalice la prueba gratuita el { $date }.
 
 # Charge info strings - no tax, per interval
 
-free-trial-content-charge-info-no-tax-day = Se te cobrará { $amount } por día después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-no-tax-week = Se te cobrará { $amount } por semana después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-no-tax-month = Se te cobrará { $amount } por mes después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-no-tax-halfyear = Se te cobrará { $amount } cada seis meses después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-no-tax-year = Se te cobrará { $amount } por año después de que finalice la prueba gratuita el { $date }.
-free-trial-content-charge-info-no-tax-default = Se te cobrará { $amount } después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-day = Se te cobrarán { $amount } por día después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-week = Se te cobrarán { $amount } por semana después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-month = Se te cobrarán { $amount } por mes después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Se te cobrarán { $amount } cada seis meses después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-year = Se te cobrarán { $amount } por año después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-default = Se te cobrarán { $amount } después de que finalice la prueba gratuita el { $date }.
 free-trial-content-trial-ends = La prueba gratuita finaliza el { $date }. Actualizá tu método de pago para mantener el acceso después de la prueba gratuita.
 free-trial-content-trial-active = Tu prueba gratuita está activa.
 free-trial-content-action-error = Ocurrió un error inesperado. Probá de nuevo.
-free-trial-content-button-resume-trial = Continuar prueba
+free-trial-content-button-resume-trial = Reanudar prueba
 free-trial-content-button-resume-trial-aria = Reanudar prueba de { $productName }
 free-trial-content-button-cancel-trial = Cancelar prueba
-free-trial-content-button-cancel-trial-aria = Cancelar prueba por { $productName }
+free-trial-content-button-cancel-trial-aria = Cancelar prueba de { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
 ## $taxDue (Number) - The tax amount. It will be formatted as currency.
 
 free-trial-content-last-bill = Última factura • { $billedOnDate }
-free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impuestos
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } de impuestos
 free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
 
 free-trial-content-link-view-invoice = Ver factura
-# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-free-trial-content-link-view-invoice-aria = Ver factura de { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-payment-failed = Tu prueba gratuita terminó el <bold>{ $date }</bold>. No pudimos procesar tu pago para iniciar tu suscripción. Actualiza tu método de pago para activar tu suscripción y restaurar el acceso a tus servicios.
 free-trial-content-payment-failed-no-date = No pudimos procesar tu pago para iniciar tu suscripción. Actualiza tu método de pago para activar tu suscripción y restaurar el acceso a tus servicios.
