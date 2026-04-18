@@ -457,13 +457,13 @@ next-plan-details-show-button = Mostrar detalles
 
 free-trial-start-title =
     { $trialDayLength ->
-        [one] Empezá tu prueba gratuita de { $trialDayLength } días
+        [one] Empezá tu prueba gratuita de { $trialDayLength } día
        *[other] Empezá tu prueba gratuita de { $trialDayLength } días
     }
 free-trial-success-title =
     { $trialDayLength ->
-        [one] Comenzó su prueba gratuita de { $trialDayLength } días
-       *[other] Comenzó su prueba gratuita de { $trialDayLength } días
+        [one] Empezó tu prueba gratuita de { $trialDayLength } día
+       *[other] Empezó tu prueba gratuita de { $trialDayLength } días
     }
 
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
@@ -483,11 +483,11 @@ free-trial-first-charge-title = Primer cargo: { $endDate }
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date of the first charge after the free trial ends
 
-free-trial-first-charge-message-daily = Se le facturará { $firstPrice } el { $endDate }, y luego diariamente hasta que cancele.
-free-trial-first-charge-message-weekly = Se le facturará { $firstPrice } el { $endDate } y, a partir de entonces, semanalmente hasta que cancele.
-free-trial-first-charge-message-monthly = Se le facturará { $firstPrice } el { $endDate } y luego mensualmente hasta que cancele.
-free-trial-first-charge-message-halfyearly = Se te facturará { $firstPrice } el { $endDate } y, a partir de entonces, cada 6 meses hasta que canceles.
-free-trial-first-charge-message-yearly = Se te facturará { $firstPrice } el { $endDate }, y luego anualmente hasta que canceles.
+free-trial-first-charge-message-daily = Se te facturará { $firstPrice } el { $endDate } y luego diariamente hasta que se cancele.
+free-trial-first-charge-message-weekly = Se te facturará { $firstPrice } el { $endDate } y luego semanalmente hasta que se cancele.
+free-trial-first-charge-message-monthly = Se te facturará { $firstPrice } el { $endDate } y luego mensualmente hasta que se cancele.
+free-trial-first-charge-message-halfyearly = Se te facturará { $firstPrice } el { $endDate } y luego cada 6 meses hasta que se cancele.
+free-trial-first-charge-message-yearly = Se te facturará { $firstPrice } el { $endDate } y luego anualmente hasta que se cancele.
 
 ##
 
