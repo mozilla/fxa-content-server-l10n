@@ -248,6 +248,7 @@ next-payment-confirm-with-legal-links-static-3 = Autorizo a { -brand-mozilla } p
 ## $endDate (Date) - The end date of the free trial
 
 checkbox-payment-required-no-charge = Se requiere un método de pago para comenzar tu prueba gratuita. No se te cobrará nada hasta el { $endDate }.
+checkbox-confirm-free-trial-with-legal-links = Autorizo a { -brand-mozilla } para que cargue a mi método de pago el monto mostrado después de la finalización del periodo de prueba el{ $endDate }, de acuerdo con los <termsOfServiceLink >Términos del servicio</termsOfServiceLink> y  el <privacyNoticeLink>aviso de privacidad</privacyNoticeLink>, hasta que cancele mi suscripción.
 next-payment-confirm-checkbox-error = Debes completar esto antes de seguir adelante
 
 ## Checkout Form
@@ -345,6 +346,10 @@ free-trial-content-charge-info-with-tax-default = Se te cobrarán { $amount } + 
 free-trial-content-charge-info-no-tax-day = Se te cobrarán { $amount } por día después de que finalice la prueba gratuita el { $date }.
 free-trial-content-charge-info-no-tax-week = Se te cobrarán { $amount } por semana después de que finalice la prueba gratuita el { $date }.
 free-trial-content-charge-info-no-tax-month = Se te cobrarán { $amount } por mes después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Se te cobrarán { $amount } por semestre después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-year = Se te cobrarán { $amount } por año después de que finalice la prueba gratuita el { $date }.
+free-trial-content-charge-info-no-tax-default = Se te cobrarán { $amount } después de que finalice la prueba gratuita el { $date }.
+free-trial-content-trial-ends = Tu prueba gratuita finaliza el { $date }. Actualiza tu método de pago para mantener el acceso después de que finalice tu prueba gratuita.
 free-trial-content-trial-active = Tu prueba gratuita está activa.
 free-trial-content-action-error = Se ha producido un error inesperado. Por favor, vuelve a intentarlo.
 free-trial-content-button-resume-trial = Reanudar prueba
@@ -365,6 +370,10 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Ver factura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Ver factura de { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Tu prueba gratuita finalizó el <bold>{ $date }</bold>. No pudimos procesar tu pago para iniciar tu suscripción. Actualiza tu método de pago para activar tu suscripción y recuperar el acceso a tus servicios.
+free-trial-content-payment-failed-no-date = No pudimos procesar tu pago para iniciar tu suscripción. Actualiza tu método de pago para activar tu suscripción y recuperar el acceso a tus servicios.
+free-trial-content-button-update-payment = Actualizar método de pago
 
 # Component - Header
 
@@ -443,6 +452,28 @@ purchase-details-credit-applied-label = Crédito aplicado
 purchase-details-total-due-label = Total adeudado
 next-plan-details-hide-button = Ocultar detalles
 next-plan-details-show-button = Mostrar detalles
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Comienza tu prueba gratuita de { $trialDayLength } día
+       *[other] Comienza tu prueba gratuita de { $trialDayLength } días
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Tu prueba gratuita de { $trialDayLength } día ha comenzado
+       *[other] Tu prueba gratuita de { $trialDayLength } días ha comenzado
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = No se requiere ningún pago hoy. Se te cobrará { $firstPrice }/día después de que finalice la prueba gratuita el { $endDate }.
+free-trial-start-message-weekly = No se requiere ningún pago hoy. Se te cobrará { $firstPrice }/semana después de que finalice la prueba gratuita el { $endDate }.
+free-trial-start-message-monthly = No se requiere ningún pago hoy. Se te cobrará { $firstPrice }/mes después de que finalice la prueba gratuita el { $endDate }.
+free-trial-start-message-halfyearly = No se requiere ningún pago hoy. Se te cobrará { $firstPrice }/semestre después de que finalice la prueba gratuita el { $endDate }.
+free-trial-start-message-yearly = No se requiere ningún pago hoy. Se te cobrará { $firstPrice }/año después de que finalice la prueba gratuita el { $endDate }.
 
 ##
 
