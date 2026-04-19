@@ -260,6 +260,13 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }nıza yeni bir hesa
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } hesabınız { -product-mozilla-account }na bağlandı
 postAddLinkedAccount-action = Hesabı yönet
+postAddPasskey-subject = Geçiş anahtarı oluşturuldu
+postAddPasskey-preview = Artık giriş yapmak için cihazınızı kullanabilirsiniz
+postAddPasskey-title = Bir geçiş anahtarı oluşturdunuz
+postAddPasskey-description = Artık tüm { -product-mozilla-account } hizmetlerinize bu geçiş anahtarıyla giriş yapabilirsiniz.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Daha fazla bilgi alın
+postAddPasskey-requested-from = İşlemi yapan cihaz:
 postAddPasskey-action = Hesabı yönet
 postAddRecoveryPhone-subject = Kurtarma telefonu eklendi
 postAddRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
@@ -326,6 +333,12 @@ postRemoveAccountRecovery-title-3 = Hesap kurtarma anahtarınızı sildiniz
 postRemoveAccountRecovery-body-part1 = Parolanızı unutursanız şifrelenmiş gezinti verilerinizi kurtarmak için hesap kurtarma anahtarınız gerekir.
 postRemoveAccountRecovery-body-part2 = Henüz oluşturmadıysanız hesap ayarlarınızdan yeni bir hesap kurtarma anahtarı oluşturun. Kayıtlı parolalarınızı, yer imlerinizi, gezinti geçmişinizi ve diğer verilerinizi kaybetmeyin.
 postRemoveAccountRecovery-action = Hesabı yönet
+postRemovePasskey-subject = Geçiş anahtarı silindi
+postRemovePasskey-preview = Hesabınızdan bir geçiş anahtarı silindi
+postRemovePasskey-title = Geçiş anahtarınızı sildiniz
+postRemovePasskey-description = Giriş yapmak için başka bir yöntem kullanmanız gerekecek.
+postRemovePasskey-requested-from = İşlemi yapan cihaz:
+postRemovePasskey-action = Hesabı yönet
 postRemoveRecoveryPhone-subject = Kurtarma telefonu kaldırıldı
 postRemoveRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
 postRemoveRecoveryPhone-title = Kurtarma telefonu kaldırıldı

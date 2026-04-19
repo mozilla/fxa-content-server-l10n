@@ -66,6 +66,10 @@ recovery-key-pdf-support = Hesap kurtarma anahtarınız hakkında daha fazla bil
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Hesap kurtarma anahtarınız indirilirken bir sorun oluştu.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Geçiş anahtarıyla giriş yap
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -259,6 +263,9 @@ usa-flag-icon-aria-label =
 # Used for loading arrow icon
 icon-loading-arrow-aria-label =
     .aria-label = Yükleniyor
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Geçiş anahtarı
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1183,6 +1190,8 @@ passkey-row-header = Geçiş anahtarları
 passkey-row-enabled = Etkin
 passkey-row-not-set = Ayarlanmamış
 passkey-row-action-create = Oluştur
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Maksimum geçiş anahtarı sayısına ulaştınız.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1317,6 +1326,11 @@ auth-error-215 = Kurtarma telefon numarası mevcut değil
 auth-error-216 = SMS sınırına ulaşıldı
 auth-error-218 = Yedek kimlik doğrulama kodları eksik olduğu için kurtarma telefonu kaldırılamadı.
 auth-error-219 = Bu telefon numarası çok fazla hesaba kayıtlı. Lütfen farklı bir numara deneyin.
+auth-error-224 = Geçiş anahtarı bulunamadı
+auth-error-225 = Geçiş anahtarı zaten kayıtlı
+auth-error-226 = Geçiş anahtarı sınırına ulaşıldı
+auth-error-227 = Geçiş anahtarı doğrulaması başarısız oldu
+auth-error-228 = Geçiş anahtarı kaydı başarısız
 auth-error-999 = Beklenmeyen hata
 auth-error-1001 = Giriş denemesi iptal edildi
 auth-error-1002 = Oturum zaman aşımına uğradı. Devam etmek için giriş yapın.
@@ -1341,6 +1355,20 @@ auth-error-1067 = Adresinizi yanlış mı yazdınız?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = { $lastFourPhoneNumber } ile biten numara
 oauth-error-1000 = Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp yeniden deneyin.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Geçiş anahtarı kurulumu iptal edildi. Yeniden deneyin.
+
+# Authentication errors
+
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Geçiş anahtarı isteği zaman aşımına uğradı. Lütfen yeniden deneyin.
 
 ## Connect Another Device page
 
