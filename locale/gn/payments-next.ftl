@@ -458,6 +458,11 @@ free-trial-start-title =
         [one] Eiporukuaáma reiete { $trialDayLength } ára
        *[other] Eiporukuaáma reiete { $trialDayLength } ára
     }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Eiporukuaáma reiete { $trialDayLength } ára
+       *[other] Eiporukuaáma reiete { $trialDayLength } ára
+    }
 
 ##
 
