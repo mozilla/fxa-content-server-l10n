@@ -2,6 +2,19 @@
 
 next-payment-method-header = Түләү ысулын сайлагыз
 
+## Authentication Error page
+
+diners-logo-alt-text = { -brand-diner } логотибы
+discover-logo-alt-text = { -brand-discover } логотибы
+jcb-logo-alt-text = { -brand-jcb } логотибы
+mastercard-logo-alt-text = { -brand-mastercard } логотибы
+paypal-logo-alt-text = { -brand-paypal } логотибы
+unionpay-logo-alt-text = { -brand-unionpay } логотибы
+visa-logo-alt-text = { -brand-visa } логотибы
+link-logo-alt-text = { -brand-link } логотибы
+apple-pay-logo-alt-text = { -brand-apple-pay } логотибы
+google-pay-logo-alt-text = { -brand-google-pay } логотибы
+
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -51,6 +64,14 @@ next-coupon-promo-code-applied = Промо-код кулланылды
 next-coupon-remove = Бетерү
 next-coupon-submit = Куллану
 
+##
+
+
+# Component - Header
+
+payments-header-bento-close =
+    .alt = Ябу
+
 ## Component - PurchaseDetails
 
 next-plan-details-header = Продукт нечкәлекләре
@@ -62,6 +83,8 @@ next-plan-details-show-button = Нечкәлекләрен күрсәтү
 
 ## Select Tax Location
 
+select-tax-location-edit-button = Үзгәртү
+select-tax-location-save-button = Саклау
 next-new-user-subscribe-product-updates-mozilla = Мин { -brand-mozilla } җибәргән яңалыклардан хәбәрдар булырга телим
 next-new-user-subscribe-product-updates-snp = Мин { -brand-mozilla } җибәргән куркынычсызлык һәм хосусыйлык яңалыкларыннан һәм яңартулардан хәбәрдар булырга телим
 
