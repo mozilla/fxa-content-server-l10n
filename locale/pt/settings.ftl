@@ -1179,8 +1179,6 @@ passkey-sub-row-created-date = Criado: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Última utilização: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Iniciar sessão apenas. Não pode ser utilizado para sincronizar.
 passkey-sub-row-delete-title = Eliminar chave de acesso
 passkey-delete-modal-heading = Apagar a sua chave?
 passkey-delete-modal-content = Esta chave será removida da sua conta. Terá de iniciar a sessão de uma forma diferente.
@@ -1214,8 +1212,18 @@ passkey-row-enabled = Ativado
 passkey-row-not-set = Não definida
 passkey-row-action-create = Criar
 passkey-row-description = Torne o início de sessão mais fácil e mais seguro ao utilizar o seu telefone ou outro dispositivo suportado para aceder à sua conta.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Como isto protege a sua conta
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Saber mais
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Utilizou todas as { $count } palavras-passe. Elimine uma chave de acesso para criar uma nova.
+       *[other] Utilizou todas as { $count } palavras-passe. Elimine uma chave de acesso para criar uma nova.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Atingiu o número máximo de palavras-passe.
 
 ## Account recovery key sub-section on main Settings page
 
