@@ -381,6 +381,18 @@ flow-recovery-key-info-cta-text-v3 = Башлап җибәрү
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Баш тарту
 
+## FlowSetup2faApp
+
+flow-setup-2fa-button = Дәвам итү
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-button-continue = Дәвам итү
+
+##
+
+flow-setup-2fa-prompt-continue-button = Дәвам итү
+
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = Менюны ябу

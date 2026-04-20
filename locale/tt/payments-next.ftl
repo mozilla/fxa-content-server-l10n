@@ -94,6 +94,7 @@ next-plan-details-show-button = Нечкәлекләрен күрсәтү
 
 select-tax-location-edit-button = Үзгәртү
 select-tax-location-save-button = Саклау
+signin-form-continue-button = Дәвам итү
 next-new-user-subscribe-product-updates-mozilla = Мин { -brand-mozilla } җибәргән яңалыклардан хәбәрдар булырга телим
 next-new-user-subscribe-product-updates-snp = Мин { -brand-mozilla } җибәргән куркынычсызлык һәм хосусыйлык яңалыкларыннан һәм яңартулардан хәбәрдар булырга телим
 
