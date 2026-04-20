@@ -28,6 +28,7 @@ location-banner-currency-change = Valutaendring støttes ikke. For å fortsette,
 upgrade-page-payment-information = Betalingsinformasjon
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Abonnementet ditt endres umiddelbart, og du blir belastet et justert beløp i dag for resten av denne faktureringsperioden. Fra og med { $nextInvoiceDate } blir du belastet hele beløpet.
+upgrade-page-acknowledgment-from-trial = Ved oppgradering avsluttes den aktive prøveperioden umiddelbart, og du vil bli belastet for det nye abonnementet ditt i dag.
 
 ## Authentication Error page
 
@@ -140,8 +141,11 @@ interstitial-offer-error-button-contact-support = Kontakt kundestøtte
 subscription-management-page-banner-warning-title-no-payment-method = Ingen betalingsmåte lagt til
 subscription-management-page-banner-warning-link-no-payment-method = Legg til en betalingsmåte
 subscription-management-subscriptions-heading = Abonnementer
+subscription-management-free-trial-heading = Gratis prøveperioder
+subscription-management-your-free-trials-aria = Dine gratis prøveperioder
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Hopp til
+subscription-management-nav-free-trials = Gratis prøveperioder
 subscription-management-nav-payment-details = Betalingsinformasjon
 subscription-management-nav-active-subscriptions = Aktive abonnementer
 subscription-management-payment-details-heading = Betalingsinformasjon
@@ -325,18 +329,40 @@ next-coupon-submit = Bruk
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-trial-expires = Prøveperioden din utløper { $date }.
+free-trial-content-trial-cancelled = Prøveperioden din er avsluttet.
 
 # Charge info strings - with tax, per interval
 
 free-trial-content-charge-info-with-tax-day = Du vil bli belastet { $amount } + { $tax } moms per dag etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-with-tax-week = Du vil bli belastet { $amount } + { $tax } moms per uke etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-with-tax-month = Du vil bli belastet { $amount } + { $tax } moms per måned etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Du vil bli belastet { $amount } + { $tax } moms hver sjette måned etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-with-tax-year = Du vil bli belastet { $amount } + { $tax } moms per år etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-with-tax-default = Du vil bli belastet { $amount } + { $tax } moms etter at prøveperioden avsluttes { $date }.
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-charge-info-no-tax-day = Du vil bli belastet { $amount } per dag etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-no-tax-week = Du vil bli belastet { $amount } per uke etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-no-tax-month = Du vil bli belastet { $amount } per måned etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Du vil bli belastet { $amount } hver sjette måned etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-no-tax-year = Du vil bli belastet { $amount } per år etter at prøveperioden avsluttes { $date }.
+free-trial-content-charge-info-no-tax-default = Du vil bli belastet { $amount } etter at prøveperioden avsluttes { $date }.
+free-trial-content-trial-ends = Prøveperioden din avsluttes { $date }. Oppdater betalingsmåten din for å beholde tilgang etter at prøveperioden er over.
+free-trial-content-trial-active = Prøveperioden din er aktiv.
+free-trial-content-action-error = Det oppstod en uventet feil. Prøv på nytt.
+free-trial-content-button-resume-trial = Gjenoppta prøveperiode
+free-trial-content-button-resume-trial-aria = Gjenoppta prøveperiode for { $productName }
+free-trial-content-button-cancel-trial = Avslutt prøveperiode
+free-trial-content-button-cancel-trial-aria = Avslutt prøveperiode for { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
 ## $taxDue (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-last-bill = Siste faktura • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } moms
 free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
@@ -422,6 +448,29 @@ purchase-details-credit-applied-label = Kreditt brukt
 purchase-details-total-due-label = Totalt utestående
 next-plan-details-hide-button = Skjul detaljer
 next-plan-details-show-button = Vis detaljer
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Ingen betaling kreves i dag. Du vil bli belastet { $firstPrice } per dag etter at prøveperioden avsluttes { $endDate }.
+free-trial-start-message-weekly = Ingen betaling kreves i dag. Du vil bli belastet { $firstPrice } per uke etter at prøveperioden avsluttes { $endDate }.
+free-trial-start-message-monthly = Ingen betaling kreves i dag. Du vil bli belastet { $firstPrice } per måned etter at prøveperioden avsluttes { $endDate }.
+free-trial-start-message-halfyearly = Ingen betaling kreves i dag. Du vil bli belastet { $firstPrice } hver sjette måned etter at prøveperioden avsluttes { $endDate }.
+free-trial-start-message-yearly = Ingen betaling kreves i dag. Du vil bli belastet { $firstPrice } per år etter at prøveperioden avsluttes { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Første betaling: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Du vil bli belastet { $firstPrice } { $endDate }, og deretter daglig frem til du avslutter.
+free-trial-first-charge-message-weekly = Du vil bli belastet { $firstPrice } { $endDate }, og deretter ukentlig frem til du avslutter.
+free-trial-first-charge-message-monthly = Du vil bli belastet { $firstPrice } { $endDate }, og deretter månedlig frem til du avslutter.
+free-trial-first-charge-message-halfyearly = Du vil bli belastet { $firstPrice } { $endDate }, og deretter hver 6. måned frem til du avslutter.
+free-trial-first-charge-message-yearly = Du vil bli belastet { $firstPrice } { $endDate }, og deretter årlig frem til du avslutter.
 
 ##
 
