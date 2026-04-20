@@ -99,6 +99,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Hvis du ikke utførte dette, kan du tilbakestille passordet ditt med en gang på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Tilbakestill også totrinns-autentisering på:
+automated-email-sign-in =
+    Dette er en automatisk e-post; hvis du ikke godkjente denne handlingen, ber vi deg <a data-l10n-name="securitySettingsLink">gå gjennom kontosikkerhetsinnstillingene dine</a>.
+    For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla }-støtte</a>.
+automated-email-sign-in-plaintext = Hvis du ikke godkjente denne handlingen, ber vi deg gå gjennom kontosikkerhetsinnstillingene dine på:
 brand-banner-message = Visste du at vi endret navnet vårt fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les mer</a>
 change-password-plaintext = Hvis du mistenker at noen prøver å få tilgang til kontoen din, må du endre passordet ditt.
 manage-account = Behandle konto
@@ -261,6 +265,11 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen er koblet til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Behandle konto
+postAddPasskey-subject = Passnøkkel opprettet
+postAddPasskey-preview = Du kan nå bruke enheten din til å logge på
+postAddPasskey-title = Du opprettet en passnøkkel
+postAddPasskey-description = Du kan nå bruke den til å logge på alle { -product-mozilla-account }-tjenestene dine.
+postAddPasskey-sync-note = Merk at passordet ditt fortsatt vil være nødvendig for å få tilgang til synkroniseringsdataene dine i { -brand-firefox }.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Les mer
 postAddPasskey-requested-from = Du ba om dette fra:
@@ -336,6 +345,9 @@ postRemoveAccountRecovery-action = Behandle konto
 postRemovePasskey-subject = Passnøkkel slettet
 postRemovePasskey-preview = En passnøkkel ble fjernet fra kontoen din
 postRemovePasskey-title = Du har slettet passnøkkelen din
+postRemovePasskey-description = Du må bruke en annen metode for å logge inn.
+postRemovePasskey-requested-from = Du ba om dette fra:
+postRemovePasskey-action = Behandle konto
 postRemoveRecoveryPhone-subject = Gjenopprettingstelefonen er fjernet
 postRemoveRecoveryPhone-preview = Konto beskyttet av totrinns-autentisering
 postRemoveRecoveryPhone-title = Gjenopprettingstelefonen er fjernet

@@ -320,6 +320,19 @@ next-coupon-promo-code-applied = Kampanjekode brukt
 next-coupon-remove = Fjern
 next-coupon-submit = Bruk
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Du vil bli belastet { $amount } + { $tax } moms per dag etter at prøveperioden avsluttes { $date }.
+
+# Charge info strings - no tax, per interval
+
+
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
 ## $taxDue (Number) - The tax amount. It will be formatted as currency.
