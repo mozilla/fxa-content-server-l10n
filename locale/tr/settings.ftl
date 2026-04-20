@@ -401,6 +401,12 @@ password-strength-inline-not-common = Yaygın olarak kullanılan bir parola olma
 password-strength-inline-confirmed-must-match = Onay yeni parola ile eşleşiyor
 password-strength-inline-passwords-match = Parolalar eşleşiyor
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Sizin telefonunuz, sizin kurallarınız.
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Oluştur
@@ -1190,6 +1196,8 @@ passkey-row-header = Geçiş anahtarları
 passkey-row-enabled = Etkin
 passkey-row-not-set = Ayarlanmamış
 passkey-row-action-create = Oluştur
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Daha fazla bilgi alın
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Maksimum geçiş anahtarı sayısına ulaştınız.
 
