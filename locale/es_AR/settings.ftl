@@ -1223,7 +1223,7 @@ passkey-row-max-limit-banner =
        *[other] Usaste todas las { $count } claves de acceso. Eliminá una clave de acceso para crear una nueva.
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
-passkey-row-max-limit-disabled-reason = Alcanzó el número máximo de claves de acceso.
+passkey-row-max-limit-disabled-reason = Alcanzaste el número máximo de claves de acceso.
 
 ## Account recovery key sub-section on main Settings page
 
