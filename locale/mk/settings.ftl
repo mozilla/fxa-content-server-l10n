@@ -111,13 +111,59 @@ nav-email-comm = Комуникации по е-пошта
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Профилна слика
+avatar-page-add-photo = Додај фотографија
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Фотографирајте
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Отстрани фотографија
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Фотографирајте повторно
 avatar-page-cancel-button = Откажи
 avatar-page-save-button = Зачувај
+avatar-page-saving-button = Се зачувува…
+avatar-page-zoom-out-button =
+    .title = Намали
+avatar-page-zoom-in-button =
+    .title = Зголеми
+avatar-page-rotate-button =
+    .title = Ротирај
+avatar-page-camera-error = Не може да се иницијализира камерата
+avatar-page-new-avatar =
+    .alt = нова профилна слика
 
 ## Password change page
 
+pw-change-header =
+    .title = Промени лозинка
+pw-change-must-match = Новата лозинка се совпаѓа со потврдата
 pw-change-cancel-button = Откажи
 pw-change-save-button = Зачувај
+pw-change-forgot-password-link = Ја заборави лозинката?
+pw-change-current-password =
+    .label = Внесете ја тековната лозинка
+pw-change-new-password =
+    .label = Внесете нова лозинка
+pw-change-confirm-password =
+    .label = Потврдете ја новата лозинка
+
+## Delete account page
+
+delete-account-header =
+    .title = Избриши сметка
+delete-account-step-1-2 = Чекор 1 од 2
+delete-account-step-2-2 = Чекор 2 од 2
+delete-account-acknowledge = Ве молиме потврдете дека со бришењето на вашата сметка:
+delete-account-chk-box-2 =
+    .label = Може да ги изгубите зачуваните информации и одлики во рамките на производите на { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Повторното активирање со оваа е-пошта може да не ги врати вашите зачувани информации
+delete-account-chk-box-4 =
+    .label = Сите проширувања и теми што ги објавивте на addons.mozilla.org ќе бидат избришани
 
 ## Add secondary email page
 
