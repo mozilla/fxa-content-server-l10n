@@ -112,6 +112,7 @@ payment-validate-name-error = Зинһар, исемегезне кертеге�
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } хосусыйлык сәясәте</paypalPrivacyLink>.
 payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } хосусыйлык сәясәте</stripePrivacyLink>.
 
 ## Component - PaymentMethodHeader
@@ -164,6 +165,9 @@ sub-guarantee = 30 көн эчендә акчаны кире кайтару га
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Куллану Шартлары
 privacy = Хосусыйлык сәясәте
 terms-download = Куллану шартларын йөкләп алу

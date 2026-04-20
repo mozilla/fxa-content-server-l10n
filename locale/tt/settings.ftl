@@ -281,6 +281,7 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = { -brand-mozilla } продуктлары
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
@@ -403,6 +404,10 @@ nav-linked-accounts = { la-heading }
 modal-close-title = Ябу
 modal-cancel-button = Баш тарту
 modal-default-confirm-button = Раслау
+
+## ModalMfaProtected
+
+modal-mfa-protected-cancel-button = Баш тарту
 
 ## Modal Verify Session
 
@@ -542,6 +547,11 @@ recovery-key-create-page-title = Хисапны коткару ачкычы
 # and back to account settings
 recovery-key-create-back-button-title = Көйләүләргә кире кайту
 
+## PageRecoveryPhoneRemove
+## Users reach this page from account settings when they want to remove a backup phone number.
+
+settings-recovery-phone-remove-cancel = Баш тарту
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Адым 1/2
@@ -622,6 +632,7 @@ tfa-row-backup-phone-change-cta = Үзгәртү
 tfa-row-backup-phone-add-cta = Өстәү
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Бетерү
+passkey-delete-modal-cancel-button = Баш тарту
 
 ## Switch component
 
@@ -987,6 +998,17 @@ signin-push-code-confirm-verifying = Тикшерү
 signin-push-code-confirm-login = Керүне раслау
 signin-push-code-confirm-wasnt-me = Бу мин түгел, серсүзне үзгәртү.
 signin-push-code-confirm-link-error = Сылтамага зыян килгән. Зинһар янәдән тырышып карагыз.
+
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } код калды
+       *[other] { $numBackupCodes } код калды
+    }
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
