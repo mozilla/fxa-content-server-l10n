@@ -329,6 +329,8 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 ##
 
 free-trial-content-link-view-invoice = Vis faktura
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Vis faktura for { $productName }
 
 # Component - Header
 
