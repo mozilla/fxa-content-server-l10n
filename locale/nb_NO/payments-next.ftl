@@ -320,8 +320,15 @@ next-coupon-promo-code-applied = Kampanjekode brukt
 next-coupon-remove = Fjern
 next-coupon-submit = Bruk
 
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Vis faktura
 
 # Component - Header
 

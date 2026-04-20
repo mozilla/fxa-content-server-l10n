@@ -261,6 +261,10 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen er koblet til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Behandle konto
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Les mer
+postAddPasskey-requested-from = Du ba om dette fra:
+postAddPasskey-action = Behandle konto
 postAddRecoveryPhone-subject = Gjenopprettingstelefon lagt til
 postAddRecoveryPhone-preview = Konto beskyttet av totrinns-autentisering
 postAddRecoveryPhone-title-v2 = Du la til et telefonnummer for gjenoppretting
@@ -329,6 +333,9 @@ postRemoveAccountRecovery-title-3 = Du slettet din kontogjenopprettingsnøkkel
 postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din kreves for å gjenopprette de krypterte nettleserdataene dine hvis du glemmer passordet ditt.
 postRemoveAccountRecovery-body-part2 = Hvis du ikke allerede har gjort det, kan du opprette en ny kontogjenopprettingsnøkkel i kontoinnstillingene dine for å forhindre at du mister lagrede passord, bokmerker, nettleserhistorikk og mer.
 postRemoveAccountRecovery-action = Behandle konto
+postRemovePasskey-subject = Passnøkkel slettet
+postRemovePasskey-preview = En passnøkkel ble fjernet fra kontoen din
+postRemovePasskey-title = Du har slettet passnøkkelen din
 postRemoveRecoveryPhone-subject = Gjenopprettingstelefonen er fjernet
 postRemoveRecoveryPhone-preview = Konto beskyttet av totrinns-autentisering
 postRemoveRecoveryPhone-title = Gjenopprettingstelefonen er fjernet
