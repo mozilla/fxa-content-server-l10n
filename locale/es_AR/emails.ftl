@@ -96,7 +96,9 @@ automated-email-reset-pwd-two-factor = Si no hiciste esta acción, entonces <a d
 automated-email-reset-pwd-plaintext-v3 = Si no hiciste esta acción, restablecé tu contraseña ahora mismo en:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Además, restablecé la autenticación de dos pasos en:
-automated-email-sign-in = Este es un correo electrónico automático; si no autorizaste esta acción, <a data-l10n-name="securitySettingsLink">revisá la configuración de seguridad de tu cuenta</a>. Para obtener más información, visite <a data-l10n-name="supportLink">Soporte de { -brand-mozilla } </a>.
+automated-email-sign-in =
+    Este es un correo electrónico automático; si no autorizaste esta acción, entonces <a data-l10n-name="securitySettingsLink">revisá la configuración de seguridad de tu cuenta</a>.
+    Para más información, visitá <a data-l10n-name="supportLink">soporte de { -brand-mozilla }</a>.
 automated-email-sign-in-plaintext = Si no autorizaste esta acción, revisá la configuración de seguridad de tu cuenta en:
 brand-banner-message = ¿Sabías que cambiamos nuestro nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Conocer más</a>
 change-password-plaintext = Si creés que alguien está intentando acceder a tu cuenta, por favor cambiá la contraseña.
