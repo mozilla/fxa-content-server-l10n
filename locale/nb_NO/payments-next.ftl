@@ -370,6 +370,10 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Vis faktura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Vis faktura for { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Prøveperioden din ble avsluttet <bold>{ $date }</bold>. Vi kunne ikke behandle betalingen din for å starte abonnementet. Oppdater betalingsmåten din for å aktivere abonnementet og gjenopprette tilgangen til tjenestene dine.
+free-trial-content-payment-failed-no-date = Vi kunne ikke behandle betalingen din for å starte abonnementet. Oppdater betalingsmåten din for å aktivere abonnementet og gjenopprette tilgangen til tjenestene dine.
+free-trial-content-button-update-payment = Oppdater betalingsmåte
 
 # Component - Header
 
@@ -448,6 +452,17 @@ purchase-details-credit-applied-label = Kreditt brukt
 purchase-details-total-due-label = Totalt utestående
 next-plan-details-hide-button = Skjul detaljer
 next-plan-details-show-button = Vis detaljer
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+       *[other] Start din { $trialDayLength }-dagers gratis prøveperiode
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+       *[other] Din { $trialDayLength }-dagers gratis prøveperiode har startet
+    }
 
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
