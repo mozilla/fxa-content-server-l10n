@@ -1082,6 +1082,7 @@ delete-account-chk-box-4 =
 
 
 delete-account-continue-button = Continue
+delete-account-delete-button-passwordless = Delete account
 
 delete-account-password-input =
  .label = Enter password
@@ -1742,13 +1743,13 @@ legal-terms-heading = Terms of Service
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Did you just sign in to { -product-firefox }?
+pair-auth-allow-heading-text = Did you just sign in to { -brand-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Yes, approve device
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = If this wasn’t you, <link>change your password</link>
+pair-auth-allow-refuse-device-link = If this wasn’t you, <a>change your password</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1761,6 +1762,15 @@ pair-auth-complete-now-syncing-device-text = You are now syncing with: { $device
 pair-auth-complete-sync-benefits-text = Now you can access your open tabs, passwords, and bookmarks on all your devices.
 pair-auth-complete-see-tabs-button = See tabs from synced devices
 pair-auth-complete-manage-devices-link = Manage devices
+
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = You’re ready to send some tabs
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } for { $deviceOS } is connected.
+pair-auth-complete-send-tab-benefits = You’re free to instantly send open tabs, passwords, and bookmarks between devices.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1790,13 +1800,15 @@ pair-wait-for-supp-heading-text = Approval now required <span>from your other de
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
-pair-failure-header = Pairing not successful
-pair-failure-message = The setup process was terminated.
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Device pairing failed
+pair-failure-message-v2 = The setup couldn’t be completed. Please sign in with your email.
+pair-failure-try-again-link = Try again
 
 ## Pair index page
 
 pair-sync-header = Sync { -brand-firefox } on your phone or tablet
-pair-cad-header = Connect { -brand-firefox } on another device
+pair-cad-header-v2 = Connect another device
 pair-already-have-firefox-paragraph = Already have { -brand-firefox } on a phone or tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sync your device
@@ -1812,10 +1824,51 @@ pair-get-started-button = Get started
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR code
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Sync your { -brand-firefox } experience
+# Description shown on the choice screen
+pair-choice-description = View your saved passwords, tabs, browsing history and more — across all your devices.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Download or open { -brand-firefox } on the device where you want to send tabs
+# Legend for the radio button fieldset
+pair-choice-legend = Select an option to continue:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = I already have { -brand-firefox } for mobile
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Start your sync now if you already have { -brand-firefox } on your mobile device.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = I don’t have { -brand-firefox } for mobile
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Download { -brand-firefox } on your mobile device, then start your sync.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Continue
+# Success banner shown after signing in
+pair-signed-in-successfully = Signed in successfully!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Account created. You’re now syncing.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Password created. You’re now syncing.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Download { -brand-firefox } for mobile
+# Description for the download screen
+pair-download-description = To sync { -brand-firefox } on your phone or tablet, you first need to download { -brand-firefox } for mobile. Here’s how:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Step { $stepNumber }</b>: Download { -brand-firefox } by scanning this QR code with the camera on your mobile device:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Step { $stepNumber }</b>: Select “Continue to sync” to sync your { -brand-firefox } experience on your mobile device.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Continue to sync
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Device connected
 pair-success-message-2 = Pairing was successful.
+pair-success-tab-close-message = This tab will be closed automatically by { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1839,6 +1892,32 @@ pair-wait-for-auth-heading-text = Approval now required <span>from your other de
 
 pair-unsupported-header = Pair using an app
 pair-unsupported-message = Did you use the system camera? You must pair from within a { -brand-firefox } app.
+
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Oops! It looks like you’re not using { -brand-firefox }.
+
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Switch to { -brand-firefox } and open this page to connect another device.
+
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Oops! It looks like you’re not using { -brand-firefox }.
+
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Connecting your mobile device with your { -product-mozilla-account }
+
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Open { -brand-firefox } on your computer, visit <b>firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device.
+
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Learn more
+
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Oops! Something went wrong.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Please close this tab and try again.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2118,7 +2197,7 @@ signin-passwordless-code-instruction = { $expirationMinutes ->
     *[other] Enter the code that was sent to <email>{ $email }</email> within { $expirationMinutes } minutes.
   }
 
-signin-passwordless-code-input-label = Enter 8-digit code
+signin-passwordless-code-input-label-v2 = Enter 6-digit code
 
 signin-passwordless-code-confirm-button = Confirm
 
