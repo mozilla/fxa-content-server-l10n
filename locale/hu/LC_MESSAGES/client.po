@@ -1959,18 +1959,18 @@ msgstr "Ha nem Ön volt az, <a id=\"change-password\" class=\"link-blue\">válto
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "Készen áll néhány lap küldésére"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
 "\n"
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
-msgstr ""
+msgstr "           <span>%(deviceFamily)s for %(deviceOS)s</span> csatlakozik.         "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr ""
+msgstr "A megnyitott lapokat, jelszavakat és könyvjelzőket azonnal átküldheti az eszközök között."
 
 #: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1981,7 +1981,7 @@ msgid ""
 "\n"
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
-msgstr ""
+msgstr "           Most már szinkronizál a következővel: <span>%(deviceFamily)s ezen: %(deviceOS)s</span>         "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -2021,7 +2021,7 @@ msgstr "Sikeresen bejelentkezett!"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "Töltse le vagy nyissa meg a Firefoxot azon az eszközön, amelyre lapokat szeretne küldeni"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"

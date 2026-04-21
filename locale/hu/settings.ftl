@@ -962,6 +962,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Az addons.mozilla.org-on közzétett kiegészítők és témák törölve lesznek
 delete-account-continue-button = Folytatás
+delete-account-delete-button-passwordless = Fiók törlése
 delete-account-password-input =
     .label = Adja meg a jelszót
 delete-account-cancel-button = Mégse
@@ -1591,6 +1592,15 @@ pair-auth-complete-sync-benefits-text = Mostantól az összes eszközén elérhe
 pair-auth-complete-see-tabs-button = Lapok megtekintése más szinkronizált eszközökről
 pair-auth-complete-manage-devices-link = Eszközök kezelése
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Készen áll néhány lap küldésére
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } for { $deviceOS } csatlakoztatva van.
+pair-auth-complete-send-tab-benefits = A megnyitott lapokat, jelszavakat és könyvjelzőket azonnal átküldheti az eszközök között.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1617,9 +1627,17 @@ auth-totp-code-required-error = Hitelesítési kód szükséges
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Most jóváhagyás szükséges <span>a másik eszközéről</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Az eszközpárosítás sikertelen
+pair-failure-message-v2 = A telepítés nem fejezhető be. Jelentkezzen be az e-mail-címével.
+pair-failure-try-again-link = Próbálja újra
+
 ## Pair index page
 
 pair-sync-header = Szinkronizálja a { -brand-firefox(case: "accusative") } a telefonján vagy táblagépén
+pair-cad-header-v2 = Másik eszköz csatlakoztatása
 pair-already-have-firefox-paragraph = Már van { -brand-firefox } a telefonján vagy a táblagépén?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Szinkronizálja az eszközét
@@ -1635,10 +1653,51 @@ pair-get-started-button = Kezdő lépések
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-kód
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Szinkronizálja a(z) { -brand-firefox } élményét
+# Description shown on the choice screen
+pair-choice-description = Tekintse meg a mentett jelszavait, lapjait, böngészési előzményeit és egyebeket – az összes eszközén.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Töltse le vagy nyissa meg a(z) { -brand-firefox } programot, ahová a lapokat szeretné küldeni
+# Legend for the radio button fieldset
+pair-choice-legend = Válasszon egy lehetőséget a folytatáshoz:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Már van { -brand-firefox } mobilom
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Indítsa el a szinkronizálást most, ha már van { -brand-firefox } a mobileszközén.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Nincs { -brand-firefox } mobilom
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Töltse le a(z) { -brand-firefox } alkalmazást a mobileszközére, majd indítsa el a szinkronizálást.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Folytatás
+# Success banner shown after signing in
+pair-signed-in-successfully = Sikeresen bejelentkezett!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Fiók létrehozva. Most már szinkronizál.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Jelszó létrehozva. Most már szinkronizál.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = { -brand-firefox } letöltése mobilra
+# Description for the download screen
+pair-download-description = Hogy szinkronizálja a(z) { -brand-firefox } telefonját vagy táblagépét, először le kell töltenie a következőt: { -brand-firefox } mobilra. Így teheti:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>{ $stepNumber }</b> lépés: Töltse le a(z) { -brand-firefox } alkalmazást ezen QR kód beolvasásával a mobileszköz kamerájával:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>{ $stepNumber } lépés</b>: Válassza a „Tovább a szinkronizáláshoz” lehetőséget, hogy szinkronizálja a mobileszközén tapasztalt { -brand-firefox } élményét.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Tovább a szinkronizáláshoz
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Eszköz csatlakoztatva
 pair-success-message-2 = A párosítás sikeres volt.
+pair-success-tab-close-message = Ez a lap automatikusan bezáródik { -brand-firefox }-ig.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1662,6 +1721,25 @@ pair-wait-for-auth-heading-text = Most jóváhagyás szükséges <span>a másik 
 
 pair-unsupported-header = Párosítás egy alkalmazás segítségével
 pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy { -brand-firefox } alkalmazásból.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Hoppá! Úgy tűnik, hogy nem ezt használja: { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Váltson erre: { -brand-firefox }, és nyissa meg ezt az oldalt egy másik eszköz csatlakoztatásához.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Hoppá! Úgy tűnik, hogy nem ezt használja: { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = A mobileszköz összekapcsolása a(z) { -product-mozilla-account } eszközével
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Nyissa meg a(z) { -brand-firefox } programot a számítógépén, keresse fel a <b>firefox.com/pair</b> oldalt, és kövesse a képernyőn megjelenő utasításokat a mobileszköz csatlakoztatásához.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = További tudnivalók
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Hoppá, hiba történt.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Zárja be ezt a lapot, és próbálja újra.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1915,6 +1993,7 @@ signin-passwordless-code-instruction =
         [one] Adja meg { $expirationMinutes } percen belül a(z) <email>{ $email }</email> címre küldött kódot.
        *[other] Adja meg { $expirationMinutes } percen belül a(z) <email>{ $email }</email> címre küldött kódot.
     }
+signin-passwordless-code-input-label-v2 = Adja meg a 6 számjegyű kódot
 signin-passwordless-code-confirm-button = Megerősítés
 signin-passwordless-code-required-error = Megerősítési kód szükséges
 signin-passwordless-code-expired = A kód lejárt?

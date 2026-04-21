@@ -965,6 +965,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Všechna rozšíření a vzhledy vámi zveřejněná na serveru addons.mozilla.org budou smazána
 delete-account-continue-button = Pokračovat
+delete-account-delete-button-passwordless = Smazat účet
 delete-account-password-input =
     .label = Zadejte heslo
 delete-account-cancel-button = Zrušit
@@ -1590,6 +1591,15 @@ pair-auth-complete-sync-benefits-text = Nyní máte přístup k otevřeným pane
 pair-auth-complete-see-tabs-button = Zobrazit panely ze synchronizovaných zařízení
 pair-auth-complete-manage-devices-link = Správa zařízení
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Jste připraveni odeslat několik panelů
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } za { $deviceOS } je připojen.
+pair-auth-complete-send-tab-benefits = Otevřené panely, hesla a záložky si můžete mezi zařízeními okamžitě posílat.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1616,9 +1626,17 @@ auth-totp-code-required-error = Je vyžadován ověřovací kód
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Je požadováno schválení <span>z vašeho dalšího zařízení</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Párování se zařízením selhalo
+pair-failure-message-v2 = Nastavení se nepodařilo dokončit. Přihlaste se prosím pomocí svého e-mailu.
+pair-failure-try-again-link = Zkusit znovu
+
 ## Pair index page
 
 pair-sync-header = Synchronizujte { -brand-firefox(case: "acc") }  se svým telefonem či tabletem
+pair-cad-header-v2 = Připojit další zařízení
 pair-already-have-firefox-paragraph = Už máte { -brand-firefox } na telefonu nebo tabletu?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizovat zařízení
@@ -1634,10 +1652,51 @@ pair-get-started-button = Začít
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR kód
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Synchronizujte své { -brand-firefox } prostředí
+# Description shown on the choice screen
+pair-choice-description = Zobrazte si svá uložená hesla, panely, historii prohlížení a další — na všech svých zařízeních.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Stáhněte nebo otevřete { -brand-firefox } na zařízení, kam chcete posílat panely
+# Legend for the radio button fieldset
+pair-choice-legend = Pro pokračování zvolte:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Už mám { -brand-firefox } pro mobil
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Pokud už máte aplikaci { -brand-firefox } na svém mobilním zařízení, spusťte synchronizaci.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Nemám { -brand-firefox } pro mobil
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Stáhněte si aplikaci { -brand-firefox } do svého mobilního zařízení a poté spusťte synchronizaci.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Pokračovat
+# Success banner shown after signing in
+pair-signed-in-successfully = Přihlášení bylo úspěšné!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Účet byl vytvořen. Nyní probíhá synchronizace.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Heslo vytvořeno. Nyní probíhá synchronizace.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Stáhnout { -brand-firefox } pro mobil
+# Description for the download screen
+pair-download-description = Pro synchronizaci aplikace { -brand-firefox } do svého telefonu nebo tabletu si nejdříve stáhněte aplikaci { -brand-firefox } pro mobil. Jak na to:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Krok { $stepNumber }</b>: Stáhněte si aplikaci { -brand-firefox } naskenováním tohoto QR kódu pomocí fotoaparátu svého mobilního zařízení:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Krok { $stepNumber }</b>: Zvolte „Pokračovat“ pro synchronizaci { -brand-firefox } s vaším mobilním zařízením.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Pokračovat k synchronizaci
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Zařízení připojeno
 pair-success-message-2 = Párování dokončeno.
+pair-success-tab-close-message = Tento panel bude automaticky zavřen do { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1661,6 +1720,25 @@ pair-wait-for-auth-heading-text = Je požadováno schválení <span>z vašeho da
 
 pair-unsupported-header = Spárovat pomocí aplikace
 pair-unsupported-message = Použili jste systémový fotoaparát? Párování je potřeba zahájit z { -brand-firefox(case: "gen") }.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Jejda! Zdá se, že { -brand-firefox } nepoužíváte.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Přejděte na { -brand-firefox }, otevřete tuto stránku pro připojení dalšího zařízení.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Jejda! Zdá se, že { -brand-firefox } nepoužíváte.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Propojování vašeho mobilního zařízení s vaším { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Otevřete { -brand-firefox } na svém počítači, navštivte <b>firefox.com/pair</b> a postupujte podle pokynů na obrazovce pro připojení svého mobilního zařízení.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Zjistit více
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Jejda. Něco je špatně.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Zavřete prosím tento panel a zkuste to znovu.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1913,6 +1991,7 @@ signin-passwordless-code-instruction =
         [few] Vložte kód, který vám byl během { $expirationMinutes } minut zaslán na adresu <email>{ $email }</email>.
        *[other] Vložte kód, který vám byl během { $expirationMinutes } minut zaslán na adresu <email>{ $email }</email>.
     }
+signin-passwordless-code-input-label-v2 = Zadejte šestimístný kód
 signin-passwordless-code-confirm-button = Potvrdit
 signin-passwordless-code-required-error = Je vyžadován potvrzovací kód
 signin-passwordless-code-expired = Platnost kódu vypršela?

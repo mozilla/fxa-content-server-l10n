@@ -976,6 +976,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Bydd unrhyw estyniadau a themâu rydych wedi'u cyhoeddi yn addons.mozilla.org yn cael eu dileu
 delete-account-continue-button = Parhau
+delete-account-delete-button-passwordless = Dileu'r cyfrif
 delete-account-password-input =
     .label = Rhowch gyfrinair
 delete-account-cancel-button = Diddymu
@@ -1609,6 +1610,15 @@ pair-auth-complete-sync-benefits-text = Nawr gallwch chi gael mynediad i'ch tabi
 pair-auth-complete-see-tabs-button = Gweld tabiau o ddyfeisiau wedi'u cydweddu
 pair-auth-complete-manage-devices-link = Rheoli dyfeisiau
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Rydych chi'n barod i anfon rhai tabiau
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = Mae { $deviceFamily } am { $deviceOS } wedi'i gysylltu.
+pair-auth-complete-send-tab-benefits = Mae croeso i chi anfon tabiau agored, cyfrineiriau a nodau tudalen rhwng dyfeisiau ar unwaith.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1635,9 +1645,17 @@ auth-totp-code-required-error = Mae angen cod dilysu
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais arall</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Methodd paru dyfais
+pair-failure-message-v2 = Nid oedd modd cwblhau'r gosodiad. Mewngofnodwch gyda'ch e-bost.
+pair-failure-try-again-link = Ceisiwch eto
+
 ## Pair index page
 
 pair-sync-header = Cydweddwch { -brand-firefox } ar eich ffôn neu dabled
+pair-cad-header-v2 = Cysylltu dyfais arall
 pair-already-have-firefox-paragraph = Oes gennych chi { -brand-firefox } ar ffôn neu dabled yn barod?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Cydweddwch eich dyfais
@@ -1653,10 +1671,51 @@ pair-get-started-button = Cychwyn arni
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Cod QR
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Cysoni eich { -brand-firefox } profiad
+# Description shown on the choice screen
+pair-choice-description = Gweld eich cyfrineiriau wedi'u cadw, tabiau, hanes pori a mwy - ar draws eich holl ddyfeisiau.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Lawrlwythwch neu agorwch { -brand-firefox } ar y ddyfais lle rydych chi am anfon tabiau
+# Legend for the radio button fieldset
+pair-choice-legend = Dewiswch ddewis i barhau:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Mae gen i { -brand-firefox } ar gyfer ffôn symudol yn barod
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Dechreuwch eich cysoni nawr os oes gennych chi eisoes { -brand-firefox } ar eich dyfais symudol.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Nid oes gennyf { -brand-firefox } ar gyfer ffôn symudol
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Lawrlwythwch { -brand-firefox } ar eich dyfais symudol, yna dechreuwch eich cysoni.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Parhau
+# Success banner shown after signing in
+pair-signed-in-successfully = Wedi mewngofnodi'n llwyddiannus!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Cyfrif wedi'i greu. Rydych chi nawr yn cydweddu.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Cyfrinair wedi'i greu. Rydych chi nawr yn cydweddu.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Lawrlwythwch { -brand-firefox } ar gyfer ffôn symudol
+# Description for the download screen
+pair-download-description = I gysoni { -brand-firefox } ar eich ffôn neu dabled, yn gyntaf mae angen i chi lawrlwytho { -brand-firefox } ar gyfer ffôn symudol. Dyma sut:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Cam { $stepNumber }</b>: Lawrlwythwch { -brand-firefox } drwy sganio'r cod QR hwn gyda'r camera ar eich dyfais symudol:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Cam { $stepNumber }</b>: Dewiswch "Parhau i gysoni" i gysoni eich profiad { -brand-firefox } ar eich dyfais symudol.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Parhau i gydweddu
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Dyfais wedi'i gysylltu
 pair-success-message-2 = Roedd y paru'n llwyddiant.
+pair-success-tab-close-message = Bydd y tab hwn yn cael ei gau'n awtomatig gan { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1680,6 +1739,25 @@ pair-wait-for-auth-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais
 
 pair-unsupported-header = Paru gan ddefnyddio ap
 pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap { -brand-firefox }.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Wps! Mae'n edrych yn debyg nad ydych chi'n defnyddio { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Newidiwch i { -brand-firefox } ac agorwch y dudalen hon i gysylltu dyfais arall.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Wps! Mae'n edrych yn debyg nad ydych chi'n defnyddio { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Yn cysylltu eich dyfais symudol â'ch { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Agorwch { -brand-firefox } ar eich cyfrifiadur, ewch i <b>firefox.com/pair</b>, a dilynwch y cyfarwyddiadau ar y sgrin i gysylltu eich dyfais symudol.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Dysgu rhagor
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Wps! Aeth rhywbeth o'i le.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Caewch y tab hwn a cheisiwch eto.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1938,6 +2016,7 @@ signin-passwordless-code-instruction =
         [many] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
        *[other] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
     }
+signin-passwordless-code-input-label-v2 = Rhowch y cod 6 digid
 signin-passwordless-code-confirm-button = Cadarnhau
 signin-passwordless-code-required-error = Mae angen codi dilys
 signin-passwordless-code-expired = Cod wedi dod i ben?
