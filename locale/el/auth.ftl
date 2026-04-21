@@ -198,10 +198,10 @@ fraudulentAccountDeletion-subject-2 = Ο { -product-mozilla-account(case: "nom",
 fraudulentAccountDeletion-title = Ο λογαριασμός σας διαγράφηκε
 fraudulentAccountDeletion-content-part1-v2 = Πρόσφατα, δημιουργήθηκε ένας { -product-mozilla-account(case: "nom", capitalization: "lower") } και χρεωθήκατε για μια συνδρομή με αυτήν τη διεύθυνση email. Όπως κάνουμε με όλους τους νέους λογαριασμούς, ζητήσαμε να επιβεβαιώσετε τον λογαριασμό σας επικυρώνοντας πρώτα αυτήν τη διεύθυνση email.
 fraudulentAccountDeletion-content-part2-v2 = Προς το παρόν, βλέπουμε ότι ο λογαριασμός δεν επιβεβαιώθηκε ποτέ. Δεδομένου ότι αυτό το βήμα δεν ολοκληρώθηκε, δεν είμαστε σίγουροι εάν πρόκειται για εξουσιοδοτημένη συνδρομή. Συνεπώς, ο { -product-mozilla-account(case: "nom", capitalization: "lower") } που δημιουργήθηκε με αυτήν τη διεύθυνση email διαγράφηκε και η συνδρομή σας ακυρώθηκε με επιστροφή όλου του ποσού.
-fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, επικοινωνήστε με την <a data-l10n-name="mozillaSupportUrl">ομάδα υποστήριξής</a> μας.
+fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, επικοινωνήστε με την <a data-l10n-name="mozillaSupportUrl">ομάδα υποστήριξης</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
+fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, επικοινωνήστε με την ομάδα υποστήριξης: { $mozillaSupportUrl }
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-subject = Η δωρεάν δοκιμαστική περίοδος για το { $productName } λήγει σύντομα
@@ -284,7 +284,7 @@ subscriptionCancellation-content-2 = Ακυρώσαμε τη συνδρομή σ
 subscriptionCancellation-outstanding-content-2 = Ακυρώσαμε τη συνδρομή σας στο { $productName }. Η τελευταία σας πληρωμή των { $invoiceTotal } θα γίνει στις { $invoiceDateOnly }.
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
-subscriptionCancellation-content-continue = Η υπηρεσία σας θα συνεχιστεί μέχρι το τέλος της τρέχουσας περιόδου χρέωσής σας, που είναι στις { $serviceLastActiveDateOnly }.
+subscriptionCancellation-content-continue = Η υπηρεσία σας θα συνεχιστεί μέχρι το τέλος της τρέχουσας περιόδου χρέωσης, που είναι στις { $serviceLastActiveDateOnly }.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-freeTrial-subject = Η δωρεάν δοκιμαστική περίοδος για το { $productName } έχει ακυρωθεί
@@ -460,25 +460,25 @@ subscriptionUpgrade-content-old-price-week = Η προηγούμενη τιμή 
 subscriptionUpgrade-content-old-price-month = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά μήνα.
 subscriptionUpgrade-content-old-price-halfyear = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά εξάμηνο.
 subscriptionUpgrade-content-old-price-year = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά έτος.
-subscriptionUpgrade-content-old-price-default = Η προηγούμενη χρέωση ήταν { $paymentAmountOld } ανά διάστημα χρέωσης.
-subscriptionUpgrade-content-old-price-day-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά ημέρα.
-subscriptionUpgrade-content-old-price-week-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά εβδομάδα.
-subscriptionUpgrade-content-old-price-month-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά μήνα.
-subscriptionUpgrade-content-old-price-halfyear-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά εξάμηνο.
-subscriptionUpgrade-content-old-price-year-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά έτος.
-subscriptionUpgrade-content-old-price-default-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά διάστημα χρέωσης.
+subscriptionUpgrade-content-old-price-default = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά διάστημα χρέωσης.
+subscriptionUpgrade-content-old-price-day-tax = Η προηγούμενη τιμή ήταν { $paymentAmountOld } + { $paymentTaxOld } (φόρος) ανά ημέρα.
+subscriptionUpgrade-content-old-price-week-tax = Η προηγούμενη τιμή ήταν { $paymentAmountOld } + { $paymentTaxOld } (φόρος) ανά εβδομάδα.
+subscriptionUpgrade-content-old-price-month-tax = Η προηγούμενη τιμή ήταν { $paymentAmountOld } + { $paymentTaxOld } (φόρος) ανά μήνα.
+subscriptionUpgrade-content-old-price-halfyear-tax = Η προηγούμενη τιμή ήταν { $paymentAmountOld } + { $paymentTaxOld } (φόρος) ανά εξάμηνο.
+subscriptionUpgrade-content-old-price-year-tax = Η προηγούμενη τιμή ήταν { $paymentAmountOld } + { $paymentTaxOld } (φόρος) ανά έτος.
+subscriptionUpgrade-content-old-price-default-tax = Η προηγούμενη τιμή ήταν { $paymentAmountOld } + { $paymentTaxOld } (φόρος) ανά διάστημα χρέωσης.
 subscriptionUpgrade-content-new-price-day = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά ημέρα, εξαιρουμένων των εκπτώσεων.
-subscriptionUpgrade-content-new-price-week = Στο εξής, θα χρεώνεστε { $paymentAmountNew } την εβδομάδα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-week = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά εβδομάδα, εξαιρουμένων των εκπτώσεων.
 subscriptionUpgrade-content-new-price-month = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά μήνα, εξαιρουμένων των εκπτώσεων.
 subscriptionUpgrade-content-new-price-halfyear = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά εξάμηνο, εξαιρουμένων των εκπτώσεων.
 subscriptionUpgrade-content-new-price-year = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά έτος, εξαιρουμένων των εκπτώσεων.
 subscriptionUpgrade-content-new-price-default = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά διάστημα χρέωσης, εξαιρουμένων των εκπτώσεων.
-subscriptionUpgrade-content-new-price-day-dtax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά ημέρα, εξαιρουμένων των εκπτώσεων.
-subscriptionUpgrade-content-new-price-week-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά εβδομάδα, εξαιρουμένων των εκπτώσεων.
-subscriptionUpgrade-content-new-price-month-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά μήνα, εξαιρουμένων των εκπτώσεων.
-subscriptionUpgrade-content-new-price-halfyear-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά έξι μήνες, εξαιρουμένων των εκπτώσεων.
-subscriptionUpgrade-content-new-price-year-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά έτος, εξαιρουμένων των εκπτώσεων.
-subscriptionUpgrade-content-new-price-default-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά διάστημα χρέωσης, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-day-dtax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } (φόρος) ανά ημέρα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-week-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } (φόρος) ανά εβδομάδα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-month-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } (φόρος) ανά μήνα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-halfyear-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } (φόρος) ανά εξάμηνο, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-year-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } (φόρος) ανά έτος, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-default-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } (φόρος) ανά διάστημα χρέωσης, εξαιρουμένων των εκπτώσεων.
 subscriptionUpgrade-existing = Αν κάποια από τις υπάρχουσες συνδρομές σας συμπίπτει με αυτήν την αναβάθμιση, θα τη διαχειριστούμε και θα σας στείλουμε ξεχωριστό email με τις λεπτομέρειες. Αν το νέο σας πακέτο περιλαμβάνει προϊόντα που απαιτούν εγκατάσταση, θα σας στείλουμε ξεχωριστό email με τις οδηγίες.
 subscriptionUpgrade-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 subscriptionsPaymentExpired-subject-2 = Η μέθοδος πληρωμής της συνδρομής σας έχει ή πρόκειται να λήξει σύντομα

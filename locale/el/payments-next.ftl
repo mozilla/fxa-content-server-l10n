@@ -348,6 +348,9 @@ free-trial-content-charge-info-no-tax-week = Θα χρεώνεστε { $amount }
 free-trial-content-charge-info-no-tax-month = Θα χρεώνεστε { $amount } ανά μήνα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-no-tax-halfyear = Θα χρεώνεστε { $amount } ανά εξάμηνο μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-no-tax-year = Θα χρεώνεστε { $amount } ανά έτος μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
+free-trial-content-charge-info-no-tax-default = Θα χρεωθείτε { $amount } μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
+free-trial-content-trial-ends = Η δωρεάν δοκιμαστική περίοδος λήγει στις { $date }. Ενημερώστε τη μέθοδο πληρωμής σας για να διατηρήσετε την πρόσβαση μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου σας.
+free-trial-content-trial-active = Η δωρεάν δοκιμαστική περίοδος είναι ενεργή.
 free-trial-content-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 free-trial-content-button-resume-trial = Συνέχιση δοκιμής
 free-trial-content-button-resume-trial-aria = Συνέχιση δωρεάν δοκιμής για το { $productName }
@@ -466,11 +469,11 @@ free-trial-success-title =
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
-free-trial-start-message-daily = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice } κάθε ημέρα μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
-free-trial-start-message-weekly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice } κάθε εβδομάδα μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
-free-trial-start-message-monthly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice } κάθε μήνα μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
-free-trial-start-message-halfyearly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεωθείτε { $firstPrice } κάθε 6 μήνες μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
-free-trial-start-message-yearly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice } κάθε έτος μετά τη λήξη της δωρεάν δοκιμής στις { $endDate }.
+free-trial-start-message-daily = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice }/ημέρα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $endDate }.
+free-trial-start-message-weekly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice }/εβδομάδα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $endDate }.
+free-trial-start-message-monthly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice }/μήνα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $endDate }.
+free-trial-start-message-halfyearly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice }/εξάμηνο μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $endDate }.
+free-trial-start-message-yearly = Δεν απαιτείται πληρωμή σήμερα. Θα χρεώνεστε { $firstPrice }/έτος μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $endDate }.
 
 ##
 
