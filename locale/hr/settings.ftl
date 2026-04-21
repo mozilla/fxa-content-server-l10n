@@ -1169,7 +1169,7 @@ legal-terms-heading = Uvjeti usluge
 pair-auth-allow-confirm-button = Da, odobri uređaj
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Ako to nisi bio/la ti, <link>promijeni lozinku</link>
+pair-auth-allow-refuse-device-link = Ako to nisi bio/la ti, <a>promijeni lozinku</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 

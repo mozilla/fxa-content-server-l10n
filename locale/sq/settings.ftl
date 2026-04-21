@@ -1534,13 +1534,13 @@ legal-terms-heading = Kushte Shërbimi
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Mos sapo hytë në { -product-firefox }?
+pair-auth-allow-heading-text = Mos sapo hytë në { -brand-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Po, miratoje pajisjen
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Nëse s’qetë ju, <link>ndryshoni fjalëkalimin tuaj</link>
+pair-auth-allow-refuse-device-link = Nëse s’qetë ju, <a>ndryshoni fjalëkalimin tuaj</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 

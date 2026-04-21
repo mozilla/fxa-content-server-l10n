@@ -1551,13 +1551,13 @@ legal-terms-heading = Condizioni di utilizzo del servizio
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Hai appena effettuato l’accesso a { -product-firefox }?
+pair-auth-allow-heading-text = Hai appena effettuato l’accesso a { -brand-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Sì, approva il dispositivo
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Se questa operazione non è stata eseguita da te, <link>cambia la password</link>
+pair-auth-allow-refuse-device-link = Se questa operazione non è stata eseguita da te, <a>cambia la password</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 

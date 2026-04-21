@@ -1576,7 +1576,7 @@ pair-auth-allow-heading-text = Přihlásili jste se právě do { -product-firefo
 pair-auth-allow-confirm-button = Ano, schválit zařízení
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Pokud jste to nebyli vy, <link>změňte si heslo</link>
+pair-auth-allow-refuse-device-link = Pokud jste to nebyli vy, <a>změňte si heslo</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 

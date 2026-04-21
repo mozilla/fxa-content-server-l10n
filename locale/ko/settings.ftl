@@ -1511,13 +1511,13 @@ legal-terms-heading = 이용 약관
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = 방금 { -product-firefox }에 로그인하셨나요?
+pair-auth-allow-heading-text = 방금 { -brand-firefox }에 로그인하셨나요?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = 네, 기기를 승인합니다.
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = 본인이 아니라면, <link>비밀번호를 변경하세요</link>.
+pair-auth-allow-refuse-device-link = 본인이 아니라면, <a>비밀번호를 변경하세요</a>.
 
 ## PairAuthComplete page - part of the device pairing flow
 

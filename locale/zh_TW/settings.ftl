@@ -1525,13 +1525,13 @@ legal-terms-heading = 服務條款
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = 您剛登入 { -product-firefox } 嗎？
+pair-auth-allow-heading-text = 您剛登入 { -brand-firefox } 嗎？
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = 是我，確認此裝置
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = 如果您沒有登入，<link>請立即更改密碼</link>
+pair-auth-allow-refuse-device-link = 如果您沒有登入，<a>請立即更改密碼</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 

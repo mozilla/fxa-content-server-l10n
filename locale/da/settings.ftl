@@ -1566,13 +1566,13 @@ legal-terms-heading = Tjenestevilkår
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Har du lige logget ind på { -product-firefox }?
+pair-auth-allow-heading-text = Har du lige logget ind på { -brand-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Ja, godkend enhed
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Hvis det ikke var dig, så <link>skift din adgangskode</link>
+pair-auth-allow-refuse-device-link = Hvis det ikke var dig, så <a>skift din adgangskode</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 

@@ -1269,13 +1269,13 @@ legal-terms-heading = Tèrmini di sirbizzu
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Trasisti ora nne { -product-firefox }?
+pair-auth-allow-heading-text = Trasisti ora nne { -brand-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Se, appruva u dispusitivu
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Si nun fusti tu, <link>cancia a to chiavi</link>
+pair-auth-allow-refuse-device-link = Si nun fusti tu, <a>cancia a to chiavi</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 
