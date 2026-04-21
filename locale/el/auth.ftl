@@ -228,12 +228,20 @@ freeTrialEndingReminder-content-charge-discount = Έκπτωση: { $invoiceDisc
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Φόρος: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Συνολική χρέωση στις { $serviceLastActiveDateOnly }: { $invoiceTotal }
 freeTrialEndingReminder-content-account-link = Μπορείτε να ελέγξετε ή να ενημερώσετε τη μέθοδο πληρωμής και τα στοιχεία του λογαριασμού σας <a data-l10n-name="freeTrialEndingReminder-update-billing">εδώ</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Μπορείτε να ελέγξετε ή να ενημερώσετε τη μέθοδο πληρωμής και τα στοιχεία του λογαριασμού σας εδώ:
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-cancel-link = Για να αποφύγετε τη χρέωση, κάντε ακύρωση πριν από τις <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Ακύρωση συνδρομής</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Για να αποφύγετε τη χρέωση, κάντε ακύρωση πριν από τις { $serviceLastActiveDateOnly }:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Ευχαριστούμε που δοκιμάσατε το { $productName }. Εάν έχετε απορίες σχετικά με τη δοκιμαστική περίοδο ή τη συνδρομή, <a data-l10n-name="freeTrialEndingReminder-contact-support">επικοινωνήστε μαζί μας</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Ευχαριστούμε που δοκιμάσατε το { $productName }. Εάν έχετε απορίες σχετικά με τη δοκιμαστική περίοδο ή τη συνδρομή, επικοινωνήστε μαζί μας.
 freeTrialEndingReminder-content-closing = Με εκτίμηση,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
