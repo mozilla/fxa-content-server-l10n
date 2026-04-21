@@ -71,6 +71,10 @@ next-coupon-submit = Куллану
 
 # Component - Header
 
+payments-header-help =
+    .title = Ярдәм
+    .aria-label = Ярдәм
+    .alt = Ярдәм
 payments-header-bento-close =
     .alt = Ябу
 payments-header-bento-firefox-desktop = Компьютерлар өчен { -brand-firefox } браузеры
@@ -94,6 +98,9 @@ next-plan-details-show-button = Нечкәлекләрен күрсәтү
 
 select-tax-location-edit-button = Үзгәртү
 select-tax-location-save-button = Саклау
+select-tax-location-country-code-label = Ил
+select-tax-location-country-code-placeholder = Илегезне сайлагыз
+select-tax-location-postal-code-label = Почта индексы
 signin-form-continue-button = Дәвам итү
 next-new-user-subscribe-product-updates-mozilla = Мин { -brand-mozilla } җибәргән яңалыклардан хәбәрдар булырга телим
 next-new-user-subscribe-product-updates-snp = Мин { -brand-mozilla } җибәргән куркынычсызлык һәм хосусыйлык яңалыкларыннан һәм яңартулардан хәбәрдар булырга телим
