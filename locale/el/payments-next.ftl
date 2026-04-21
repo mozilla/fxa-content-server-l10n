@@ -246,6 +246,7 @@ next-payment-confirm-with-legal-links-static-3 = Εξουσιοδοτώ τη { -
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Απαιτείται μια μέθοδος πληρωμής για την έναρξη της δωρεάν δοκιμής σας. Δεν θα χρεωθείτε μέχρι τις { $endDate }.
 next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε αυτήν τη διαδικασία πριν προχωρήσετε
 
 ## Checkout Form
