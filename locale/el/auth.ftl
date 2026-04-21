@@ -212,6 +212,11 @@ freeTrialEndingReminder-content-greeting = Αγαπητέ πελάτη του { 
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = Η δωρεάν δοκιμή σας έχει προγραμματιστεί να λήξει στις <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = Η δωρεάν δοκιμή σας έχει προγραμματιστεί να λήξει στις { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Αν δεν κάνετε ακύρωση πριν από αυτήν την ημερομηνία, η συνδρομή σας θα ξεκινήσει αυτόματα και θα χρεώσουμε <strong>{ $invoiceTotal }</strong> στη μέθοδο πληρωμής του λογαριασμού σας στις <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = Αν δεν κάνετε ακύρωση πριν από αυτήν την ημερομηνία, η συνδρομή σας θα ξεκινήσει αυτόματα και θα χρεώσουμε { $invoiceTotal } στη μέθοδο πληρωμής του λογαριασμού σας στις { $serviceLastActiveDateOnly }.
 freeTrialEndingReminder-content-charge-heading = Λεπτομέρειες χρέωσης
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
