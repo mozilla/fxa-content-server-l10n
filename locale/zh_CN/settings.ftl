@@ -1482,15 +1482,9 @@ pair-wait-for-supp-heading-text =
     <span>在您的另一台设备上</span>
     批准登录
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = 配对不成功
-pair-failure-message = 设置过程已终止。
-
 ## Pair index page
 
 pair-sync-header = 与手机或平板电脑上的 { -brand-firefox } 同步
-pair-cad-header = 连接其他设备上的 { -brand-firefox }
 pair-already-have-firefox-paragraph = 手机或平板电脑上已安装 { -brand-firefox }？
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = 同步您的设备

@@ -1605,15 +1605,9 @@ auth-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’oka guive</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Ñemoñondive oiko’ỹva
-pair-failure-message = Opáma pe ñemboheko rape.
-
 ## Pair index page
 
 pair-sync-header = Embojuehe { -brand-firefox } pumbyry térã tablétape
-pair-cad-header = Eiporu { -brand-firefox } ambue mba’e’okápe
 pair-already-have-firefox-paragraph = Erekóma { -brand-firefox } ne pumbyry térã tablétape
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Embojuehe ne mba’e’oka
@@ -1911,7 +1905,6 @@ signin-passwordless-code-instruction =
         [one] Ehai ayvu ohóva <email>{ $email }</email>-pe { $expirationTime } aravo’ieta pa’ũme.
        *[other] Ehai ayvu ohóva <email>{ $email }</email>-pe { $expirationTime } aravo’ietaite pa’ũme.
     }
-signin-passwordless-code-input-label = Emoinge ayvu 8 taíva
 signin-passwordless-code-confirm-button = Ñemoneĩ
 signin-passwordless-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 signin-passwordless-code-expired = ¿Ndoikovéima ayvu?

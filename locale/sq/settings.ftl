@@ -1580,15 +1580,9 @@ auth-totp-code-required-error = Lypset kod mirëfilltësimi
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Miratim i domosdoshëm tani <span>që nga pajisja juaj tjetër</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Çiftim i pasuksesshëm
-pair-failure-message = Procesi i rregullimit u përfundua.
-
 ## Pair index page
 
 pair-sync-header = Njëkohësoni { -brand-firefox }-in te telefoni ose tableti juaj
-pair-cad-header = Lidheni { -brand-firefox }-in në një tjetër pajisje
 pair-already-have-firefox-paragraph = Keni tashmë { -brand-firefox } te telefoni ose tableti juaj?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Njëkohësoni pajisjen tuaj
@@ -1886,7 +1880,6 @@ signin-passwordless-code-instruction =
         [one] Jepni brenda { $expirationMinutes } minute kodin që u dërgua te <email>{ $email }</email>
        *[other] Jepni brenda { $expirationMinutes } minutash kodin që u dërgua te <email>{ $email }</email>
     }
-signin-passwordless-code-input-label = Jepni kodin 8-shifror
 signin-passwordless-code-confirm-button = Ripohojeni
 signin-passwordless-code-required-error = Lypset kod ripohimi
 signin-passwordless-code-expired = Skadoi kodi?

@@ -1627,15 +1627,9 @@ auth-totp-code-required-error = Awtentifikaciski kod trjebny
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Pśizwólenje jo něnto <span>wót wašogo drugego rěda</span> trjebne
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Koplowanje njejo se raźiło
-pair-failure-message = Instalěrowański proces jo se skóńcył.
-
 ## Pair index page
 
 pair-sync-header = Synchronizěrujśo { -brand-firefox } na swójom telefonje abo tableśe
-pair-cad-header = { -brand-firefox } na drugem rěźe zwězaś
 pair-already-have-firefox-paragraph = Maśo južo { -brand-firefox } na telefonje abo tableśe?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizěrujśo swój rěd
@@ -1937,7 +1931,6 @@ signin-passwordless-code-instruction =
         [few] Zapódajśo kod, kótaryž jo se pósłał za { $expirationMinutes } minuty na <email>{ $email }</email>.
        *[other] Zapódajśo kod, kótaryž jo se pósłał za { $expirationMinutes } minutow na <email>{ $email }</email>.
     }
-signin-passwordless-code-input-label = 8-městnowy kod zapódaś
 signin-passwordless-code-confirm-button = Wobkšuśiś
 signin-passwordless-code-required-error = Wobkšuśeński kod trjebny
 signin-passwordless-code-expired = Kod jo spadnuł?

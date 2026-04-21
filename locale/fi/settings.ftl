@@ -1372,15 +1372,9 @@ auth-totp-code-required-error = Todennuskoodi vaaditaan
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Hyväksyntä vaaditaan nyt <span>joltakin muulta laitteeltasi</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Parin muodostaminen epäonnistui.
-pair-failure-message = Määritysprosessi keskeytettiin.
-
 ## Pair index page
 
 pair-sync-header = Synkronoi { -brand-firefox } puhelimella tai tabletilla
-pair-cad-header = Yhdistä { -brand-firefox } toisella laitteella
 pair-already-have-firefox-paragraph = Löytyykö { -brand-firefox } jo puhelimestasi tai tabletistasi?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkronoi laitteesi
@@ -1622,7 +1616,6 @@ signin-passkey-fallback-continue = Jatka
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Kirjoita vahvistuskoodi
-signin-passwordless-code-input-label = Kirjoita 8-numeroinen koodi
 signin-passwordless-code-confirm-button = Vahvista
 signin-passwordless-code-required-error = Vahvistuskoodi vaaditaan
 signin-passwordless-code-expired = Vanheniko koodi?

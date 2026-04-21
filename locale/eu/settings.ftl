@@ -1288,15 +1288,9 @@ auth-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Onarpena behar da <span>beste gailutik</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Parekatzeak kale egin du
-pair-failure-message = Ezarpen prozedura amaitu da.
-
 ## Pair index page
 
 pair-sync-header = Sinkronizatu { -brand-firefox } zure telefonoan edo tabletan
-pair-cad-header = Konektatu { -brand-firefox } beste gailu batean
 pair-already-have-firefox-paragraph = Dagoeneko { -brand-firefox } duzu telefono edo tablet batean?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sinkronizatu zure gailua

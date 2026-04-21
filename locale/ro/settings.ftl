@@ -1604,15 +1604,9 @@ auth-totp-code-required-error = Necesită cod de autentificare
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Acum este necesară aprobarea <span>de pe celălalt dispozitiv</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Asociere eșuată
-pair-failure-message = Procesul de configurare a fost întrerupt.
-
 ## Pair index page
 
 pair-sync-header = Sincronizează { -brand-firefox } pe telefon sau tabletă
-pair-cad-header = Conectează { -brand-firefox } pe alt dispozitiv
 pair-already-have-firefox-paragraph = Ai deja { -brand-firefox } pe telefon sau tabletă?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincronizează-ți dispozitivul
@@ -1912,7 +1906,6 @@ signin-passwordless-code-instruction =
         [few] Introdu codul care a fost trimis la <email>{ $email }</email> în termen de { $expirationMinutes } minute.
        *[other] Introdu codul care a fost trimis la <email>{ $email }</email> în termen de { $expirationMinutes } de minute.
     }
-signin-passwordless-code-input-label = Introdu codul de 8 cifre
 signin-passwordless-code-confirm-button = Confirmă
 signin-passwordless-code-required-error = Necesită cod de confirmare
 signin-passwordless-code-expired = A expirat codul?

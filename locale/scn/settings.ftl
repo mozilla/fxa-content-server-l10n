@@ -1315,15 +1315,9 @@ auth-totp-code-required-error = È nicissariu un còdici d’autinticazzioni
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = È nicissariu chi approvi <span>di l’autru dispusitivu</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = L’accucchiamentu nun arriniscìu
-pair-failure-message = U prucessu di cunfijurazzioni sfallìu.
-
 ## Pair index page
 
 pair-sync-header = Sincrunizza { -brand-firefox } nnô to tilèfunu o a to tavuliḍḍa
-pair-cad-header = Culleja { -brand-firefox } nta n’autru dispusitivu
 pair-already-have-firefox-paragraph = Ài già { -brand-firefox } nnô tilèfunu o nnâ tavuliḍḍa?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincrunizza u to dispusitivu

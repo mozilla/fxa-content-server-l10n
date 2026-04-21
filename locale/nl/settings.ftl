@@ -1613,15 +1613,9 @@ auth-totp-code-required-error = Authenticatiecode vereist
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Goedkeuring <span>vanaf uw andere apparaat</span> nu vereist
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Koppelen mislukt
-pair-failure-message = Het installatieproces is beëindigd.
-
 ## Pair index page
 
 pair-sync-header = { -brand-firefox } synchroniseren op uw telefoon of tablet
-pair-cad-header = { -brand-firefox } verbinden op een ander apparaat
 pair-already-have-firefox-paragraph = Hebt u al { -brand-firefox } op een telefoon of tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Uw apparaat synchroniseren
@@ -1916,7 +1910,6 @@ signin-passwordless-code-instruction =
         [one] Voer binnen { $expirationMinutes } minuut de code in die naar <email>{ $email }</email> is verzonden.
        *[other] Voer binnen { $expirationMinutes } minuten de code in die naar <email>{ $email }</email> is verzonden.
     }
-signin-passwordless-code-input-label = Voer 8-cijferige code in
 signin-passwordless-code-confirm-button = Bevestigen
 signin-passwordless-code-required-error = Bevestigingscode vereist
 signin-passwordless-code-expired = Code verlopen?

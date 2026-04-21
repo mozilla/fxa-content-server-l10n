@@ -1617,15 +1617,9 @@ auth-totp-code-required-error = Autentikaasjekoade fereaske
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Goedkarring <span>fan jo oare apparaat ôf</span> no fereaske
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Keppeling mislearre
-pair-failure-message = It ynstallaasjeproses is beëinige.
-
 ## Pair index page
 
 pair-sync-header = { -brand-firefox } syngronisearje op jo telefoan of tablet
-pair-cad-header = { -brand-firefox } ferbine op in oar apparaat
 pair-already-have-firefox-paragraph = Hawwe jo al { -brand-firefox } op in telefoan of tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Jo apparaat syngronisearje
@@ -1920,7 +1914,6 @@ signin-passwordless-code-instruction =
         [one] Fier binnen { $expirationTime } minút de koade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
        *[other] Fier binnen { $expirationTime } minuten de koade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
     }
-signin-passwordless-code-input-label = Fier 8-siferige koade yn
 signin-passwordless-code-confirm-button = Befêstigje
 signin-passwordless-code-required-error = Befêstigingskoade nedich
 signin-passwordless-code-expired = Koade ferrûn?

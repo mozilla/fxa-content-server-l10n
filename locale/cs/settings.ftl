@@ -1616,15 +1616,9 @@ auth-totp-code-required-error = Je vyžadován ověřovací kód
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Je požadováno schválení <span>z vašeho dalšího zařízení</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Párování se nezdařilo
-pair-failure-message = Nastavování bylo ukončeno.
-
 ## Pair index page
 
 pair-sync-header = Synchronizujte { -brand-firefox(case: "acc") }  se svým telefonem či tabletem
-pair-cad-header = Připojit { -brand-firefox } na jiném zařízení
 pair-already-have-firefox-paragraph = Už máte { -brand-firefox } na telefonu nebo tabletu?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizovat zařízení
@@ -1919,7 +1913,6 @@ signin-passwordless-code-instruction =
         [few] Vložte kód, který vám byl během { $expirationMinutes } minut zaslán na adresu <email>{ $email }</email>.
        *[other] Vložte kód, který vám byl během { $expirationMinutes } minut zaslán na adresu <email>{ $email }</email>.
     }
-signin-passwordless-code-input-label = Zadejte osmimístný kód
 signin-passwordless-code-confirm-button = Potvrdit
 signin-passwordless-code-required-error = Je vyžadován potvrzovací kód
 signin-passwordless-code-expired = Platnost kódu vypršela?

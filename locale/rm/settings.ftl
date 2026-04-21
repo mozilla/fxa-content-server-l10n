@@ -1288,15 +1288,9 @@ auth-totp-code-required-error = Code d'autentificaziun obligatoric
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = I dovra ussa ina approvaziun <span>sin tes auter apparat</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Associaziun betg reussida
-pair-failure-message = Il process d'installaziun è interrut.
-
 ## Pair index page
 
 pair-sync-header = Sincronisescha { -brand-firefox } sin tes telefon u tablet
-pair-cad-header = Connectescha { -brand-firefox } sin in auter apparat
 pair-already-have-firefox-paragraph = Has ti gia { -brand-firefox } sin in telefon u tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincronisescha tes apparat

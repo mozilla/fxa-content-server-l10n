@@ -1617,15 +1617,9 @@ auth-totp-code-required-error = Hitelesítési kód szükséges
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Most jóváhagyás szükséges <span>a másik eszközéről</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = A párosítás sikertelen
-pair-failure-message = A beállítási folyamat megszakításra került.
-
 ## Pair index page
 
 pair-sync-header = Szinkronizálja a { -brand-firefox(case: "accusative") } a telefonján vagy táblagépén
-pair-cad-header = Csatlakoztassa a { -brand-firefox(case: "accusative") } egy másik eszközön
 pair-already-have-firefox-paragraph = Már van { -brand-firefox } a telefonján vagy a táblagépén?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Szinkronizálja az eszközét
@@ -1921,7 +1915,6 @@ signin-passwordless-code-instruction =
         [one] Adja meg { $expirationMinutes } percen belül a(z) <email>{ $email }</email> címre küldött kódot.
        *[other] Adja meg { $expirationMinutes } percen belül a(z) <email>{ $email }</email> címre küldött kódot.
     }
-signin-passwordless-code-input-label = Adja meg a 8 számjegyű kódot
 signin-passwordless-code-confirm-button = Megerősítés
 signin-passwordless-code-required-error = Megerősítési kód szükséges
 signin-passwordless-code-expired = A kód lejárt?

@@ -1603,15 +1603,9 @@ auth-totp-code-required-error = Autentiseringskode påkravd
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Godkjenning er no påkravd <span>frå den andre eininga di</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Paring ikkje vellykka
-pair-failure-message = Installasjonsprosessen vart avslutta.
-
 ## Pair index page
 
 pair-sync-header = Synkroniser { -brand-firefox } på telefonen eller nettbrettet ditt
-pair-cad-header = Kople { -brand-firefox } til ei anna eining
 pair-already-have-firefox-paragraph = Har du allereie { -brand-firefox } på ein telefon eller eit nettbrett?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkroniser eininga di
@@ -1909,7 +1903,6 @@ signin-passwordless-code-instruction =
         [one] Skriv inn koden som vart sendt til <email>{ $email }</email> innan { $expirationMinutes } minutt.
        *[other] Skriv inn koden som vart sendt til <email>{ $email }</email> innan { $expirationMinutes } minutt.
     }
-signin-passwordless-code-input-label = Skriv inn 8-sifra kode
 signin-passwordless-code-confirm-button = Stadfest
 signin-passwordless-code-required-error = Stadfestingskode påkravd
 signin-passwordless-code-expired = Har koden gått ut?

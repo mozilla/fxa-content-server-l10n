@@ -870,14 +870,8 @@ auth-totp-input-label = Sekcem tangalt s 6-izwilen
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Sentem
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Acuddu ur yeddi ara akken iwata
-pair-failure-message = Akala n usbeddi yeḥbes.
-
 ## Pair index page
 
-pair-cad-header = Qqen { -brand-firefox } ɣef yibenk-nniḍen
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Mtawi abenkan-inek
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox

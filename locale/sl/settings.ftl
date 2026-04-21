@@ -1627,15 +1627,9 @@ auth-totp-code-required-error = Zahtevana je overitvena koda
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Zdaj je zahtevana odobritev <span>z vaše druge naprave</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Seznanjanje ni uspelo
-pair-failure-message = Postopek nastavitve je bil prekinjen.
-
 ## Pair index page
 
 pair-sync-header = Sinhronizirajte { -brand-firefox } na telefonu ali tablici
-pair-cad-header = Povežite { -brand-firefox } na drugi napravi
 pair-already-have-firefox-paragraph = Že imate { -brand-firefox } na telefonu ali tablici?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sinhronizirajte svojo napravo
@@ -1935,7 +1929,6 @@ signin-passwordless-code-instruction =
         [few] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationMinutes } minutah.
        *[other] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationMinutes } minutah.
     }
-signin-passwordless-code-input-label = Vnesite 8-mestno kodo
 signin-passwordless-code-confirm-button = Potrdi
 signin-passwordless-code-required-error = Zahtevana je potrditvena koda
 signin-passwordless-code-expired = Je koda potekla?

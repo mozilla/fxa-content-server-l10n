@@ -1612,15 +1612,9 @@ auth-totp-code-required-error = Godkendelseskode påkrævet
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Godkendelse er nu påkrævet <span>fra din anden enhed</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Parring mislykkedes
-pair-failure-message = Opsætningen blev afbrudt.
-
 ## Pair index page
 
 pair-sync-header = Synkroniser { -brand-firefox } på din telefon eller tablet
-pair-cad-header = Forbind { -brand-firefox } på en anden enhed
 pair-already-have-firefox-paragraph = Har du allerede { -brand-firefox } på en telefon eller tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkroniser din enhed
@@ -1916,7 +1910,6 @@ signin-passwordless-code-instruction =
         [one] Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor{ $expirationMinutes } minut.
        *[other] Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor { $expirationMinutes } minutter.
     }
-signin-passwordless-code-input-label = Indtast ottecifret kode
 signin-passwordless-code-confirm-button = Bekræft
 signin-passwordless-code-required-error = Bekræftelseskode påkrævet
 signin-passwordless-code-expired = Er koden udløbet?

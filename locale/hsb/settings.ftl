@@ -1627,15 +1627,9 @@ auth-totp-code-required-error = Awtentifikaciski kod trěbny
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Schwalenje je nětko <span>wot wašeho druheho grata</span> trěbne
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Koplowanje je so nimokuliło
-pair-failure-message = Instalowanski proces je so skónčił.
-
 ## Pair index page
 
 pair-sync-header = { -brand-firefox } na swójim šmóratce abo tableće synchronizować
-pair-cad-header = { -brand-firefox } na druhim graće zwjazać
 pair-already-have-firefox-paragraph = Maće hižo { -brand-firefox } na šmóratce abo tableće?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizujće swój grat
@@ -1937,7 +1931,6 @@ signin-passwordless-code-instruction =
         [few] Zapodajće kod, kotryž je so za { $expirationMinutes } mjeńšiny na <email>{ $email }</email> pósłał.
        *[other] Zapodajće kod, kotryž je so za { $expirationMinutes } mjeńšin na <email>{ $email }</email> pósłał.
     }
-signin-passwordless-code-input-label = 8-městnowy kod zapodać
 signin-passwordless-code-confirm-button = Wobkrućić
 signin-passwordless-code-required-error = Wobkrućenski kod trěbny
 signin-passwordless-code-expired = Je kod spadnył?

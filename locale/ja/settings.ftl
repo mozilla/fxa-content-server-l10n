@@ -1307,15 +1307,9 @@ auth-totp-code-required-error = 認証コードが必要です
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = <span>他の端末から</span> の承認が必要です
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = ペアリングに失敗しました
-pair-failure-message = セットアップ処理が中断されました。
-
 ## Pair index page
 
 pair-sync-header = スマートフォンやタブレットで { -brand-firefox } を同期する
-pair-cad-header = 別の端末の { -brand-firefox } を接続する
 pair-already-have-firefox-paragraph = スマートフォンやタブレットでお使いの { -brand-firefox } がありますか？
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = 端末を同期する

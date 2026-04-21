@@ -1614,15 +1614,9 @@ auth-totp-code-required-error = Απαιτείται κωδικός ταυτοπ
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Απαιτείται τώρα έγκριση <span>από την άλλη συσκευή σας</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Ανεπιτυχής σύζευξη
-pair-failure-message = Η διαδικασία ρύθμισης τερματίστηκε.
-
 ## Pair index page
 
 pair-sync-header = Συγχρονίστε το { -brand-firefox } στο τηλέφωνο ή το tablet σας
-pair-cad-header = Συνδέστε το { -brand-firefox } σε άλλη συσκευή
 pair-already-have-firefox-paragraph = Έχετε ήδη το { -brand-firefox } στο κινητό ή το tablet σας;
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Συγχρονισμός συσκευής
@@ -1920,7 +1914,6 @@ signin-passwordless-code-instruction =
         [one] Εισαγάγετε τον κωδικό που απεστάλη στο <email>{ $email }</email> εντός { $expirationMinutes } λεπτού.
        *[other] Εισαγάγετε τον κωδικό που απεστάλη στο <email>{ $email }</email> εντός { $expirationMinutes } λεπτών.
     }
-signin-passwordless-code-input-label = Εισαγάγετε τον οκταψήφιο κωδικό
 signin-passwordless-code-confirm-button = Επιβεβαίωση
 signin-passwordless-code-required-error = Απαιτείται κωδικός επιβεβαίωσης
 signin-passwordless-code-expired = Έληξε ο κωδικός;

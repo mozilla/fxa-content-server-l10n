@@ -1256,15 +1256,9 @@ auth-totp-code-required-error = ต้องใส่รหัสยืนยั
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = ตอนนี้ต้องรอการอนุมัติ<span>จากอุปกรณ์อื่นของคุณ</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = การจับคู่ไม่สำเร็จ
-pair-failure-message = กระบวนการตั้งค่าถูกยกเลิก
-
 ## Pair index page
 
 pair-sync-header = ซิงค์ { -brand-firefox } บนโทรศัพท์หรือแท็บเล็ตของคุณ
-pair-cad-header = เชื่อมต่อ { -brand-firefox } บนอุปกรณ์อื่น
 pair-already-have-firefox-paragraph = มี { -brand-firefox } อยู่แล้วบนโทรศัพท์หรือแท็บเล็ตใช่หรือไม่?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = ซิงค์อุปกรณ์ของคุณ

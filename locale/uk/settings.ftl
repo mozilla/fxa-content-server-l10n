@@ -1356,15 +1356,9 @@ auth-totp-code-required-error = Потрібно ввести код автен�
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Відтепер підтвердження з <span>вашого іншого пристрою</span> обов'язкове
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Не вдалося створити пару
-pair-failure-message = Процес налаштування було перервано.
-
 ## Pair index page
 
 pair-sync-header = Синхронізуйте { -brand-firefox } на телефоні чи планшеті
-pair-cad-header = Під'єднати { -brand-firefox } на іншому пристрої
 pair-already-have-firefox-paragraph = Уже маєте { -brand-firefox } на телефоні чи планшеті?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Синхронізуйте свій пристрій

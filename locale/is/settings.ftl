@@ -1327,15 +1327,9 @@ auth-totp-code-required-error = Auðkenningarkóða krafist
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Núna er krafist er samþykktar <span>frá hinu tækinu þínu</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Pörun tókst ekki
-pair-failure-message = Uppsetningarferlinu var hætt.
-
 ## Pair index page
 
 pair-sync-header = Samstilltu { -brand-firefox } við símann eða spjaldtölvuna
-pair-cad-header = Tengdu { -brand-firefox } á öðru tæki
 pair-already-have-firefox-paragraph = Ertu nú þegar með { -brand-firefox } á síma eða spjaldtölvu?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Samstilltu tækið þitt

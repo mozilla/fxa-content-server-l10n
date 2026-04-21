@@ -1152,15 +1152,9 @@ auth-totp-code-required-error = Se requiere un código de autenticación
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Ahora se requiere la aprobación <span>desde tu otro dispositivo</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Error al conectarse
-pair-failure-message = El proceso de configuración ha terminado.
-
 ## Pair index page
 
 pair-sync-header = Sincroniza { -brand-firefox } en tu teléfono o tablet
-pair-cad-header = Conecta { -brand-firefox } en otro dispositivo
 pair-already-have-firefox-paragraph = ¿Ya tienes { -brand-firefox } en tu teléfono o tableta?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincroniza tu dispositivo

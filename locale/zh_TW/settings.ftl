@@ -1571,15 +1571,9 @@ auth-totp-code-required-error = 需要輸入驗證碼
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = 請到另一台裝置進行確認
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = 配對失敗
-pair-failure-message = 已中斷設定。
-
 ## Pair index page
 
 pair-sync-header = 與手機或平板電腦上的 { -brand-firefox } 同步
-pair-cad-header = 連結另一台裝置上的 { -brand-firefox }
 pair-already-have-firefox-paragraph = 手機或平板電腦上也有 { -brand-firefox } 嗎？
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = 同步您的裝置
@@ -1864,7 +1858,6 @@ signin-passwordless-code-subheading = 使用這組代碼，只需要簡單一步
 #   email (String) - the user's email
 #   expirationMinutes (Number) - the expiration time in minutes
 signin-passwordless-code-instruction = 請在 { $expirationMinutes } 分鐘內輸入寄送到 <email>{ $email }</email> 的代碼。
-signin-passwordless-code-input-label = 請輸入 8 位數的確認碼
 signin-passwordless-code-confirm-button = 確認
 signin-passwordless-code-required-error = 請輸入確認碼
 signin-passwordless-code-expired = 驗證碼失效？

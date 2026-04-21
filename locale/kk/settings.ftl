@@ -1614,15 +1614,9 @@ auth-totp-code-required-error = Аутентификация коды керек
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Енді сіздің <span>басқа құрылғыңыздан</span> растау керек болып тұр
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Жұптау сәтсіз аяқталды
-pair-failure-message = Баптау әрекеті үзілген.
-
 ## Pair index page
 
 pair-sync-header = Телефонда немесе планшетте { -brand-firefox } синхрондаңыз
-pair-cad-header = Басқа құрылғыдағы { -brand-firefox } байланыстыру
 pair-already-have-firefox-paragraph = Телефонда немесе планшетте { -brand-firefox } бар ма?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Құрылғыңызды синхрондаңыз
@@ -1918,7 +1912,6 @@ signin-passwordless-code-instruction =
         [one] <email>{ $email }</email> адресіне жіберілген кодты { $expirationMinutes } минут ішінде енгізіңіз.
        *[other] <email>{ $email }</email> адресіне жіберілген кодты { $expirationMinutes } минут ішінде енгізіңіз.
     }
-signin-passwordless-code-input-label = 8-цифрлық кодты енгізіңіз
 signin-passwordless-code-confirm-button = Растау
 signin-passwordless-code-required-error = Растау коды қажет
 signin-passwordless-code-expired = Кодтың мерзімі бітті ме?

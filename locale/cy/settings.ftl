@@ -1635,15 +1635,9 @@ auth-totp-code-required-error = Mae angen cod dilysu
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais arall</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Paru'n aflwyddiannus
-pair-failure-message = Cafodd y broses osod ei derfynu.
-
 ## Pair index page
 
 pair-sync-header = Cydweddwch { -brand-firefox } ar eich ffôn neu dabled
-pair-cad-header = Cysylltwch { -brand-firefox } ar ddyfais arall
 pair-already-have-firefox-paragraph = Oes gennych chi { -brand-firefox } ar ffôn neu dabled yn barod?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Cydweddwch eich dyfais
@@ -1944,7 +1938,6 @@ signin-passwordless-code-instruction =
         [many] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
        *[other] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationMinutes } munud.
     }
-signin-passwordless-code-input-label = Rhowch y cod 8 digid
 signin-passwordless-code-confirm-button = Cadarnhau
 signin-passwordless-code-required-error = Mae angen codi dilys
 signin-passwordless-code-expired = Cod wedi dod i ben?

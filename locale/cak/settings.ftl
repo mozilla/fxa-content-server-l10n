@@ -484,10 +484,6 @@ legal-terms-heading = Taq Rojqanem Samaj
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Okisan okisaxel
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-message = Xk'is ri runuk'ulem.
-
 ## Pair index page
 
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox

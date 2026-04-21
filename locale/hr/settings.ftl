@@ -1191,7 +1191,6 @@ auth-totp-confirm-button = Potvrdi
 ## Pair index page
 
 pair-sync-header = Sinkroniziraj { -brand-firefox } na svom telefonu ili tabletu
-pair-cad-header = Poveži { -brand-firefox } na jednom drugom uređaju
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sinkroniziraj svoj uređaj
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox

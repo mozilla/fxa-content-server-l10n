@@ -1543,15 +1543,9 @@ auth-totp-code-required-error = Kimlik doğrulama kodu gerekli
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Şimdi <span>diğer cihazınızdan</span> onay vermeniz gerekiyor
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Eşleştirme başarısız oldu
-pair-failure-message = Kurulum işlemi sonlandırıldı.
-
 ## Pair index page
 
 pair-sync-header = { -brand-firefox }’u telefonunuz veya tabletinizle eşitleyin
-pair-cad-header = Başka bir cihazdaki { -brand-firefox }’u bağlayın
 pair-already-have-firefox-paragraph = Telefonunuzda veya tabletinizde zaten { -brand-firefox } var mı?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Cihazınızı eşitleyin
@@ -1823,7 +1817,6 @@ signin-passkey-fallback-continue = Devam et
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Onay kodunu girin
-signin-passwordless-code-input-label = 8 basamaklı kodu yazın
 signin-passwordless-code-confirm-button = Onayla
 signin-passwordless-code-required-error = Onay kodu gerekli
 signin-passwordless-code-expired = Kodun süresi mi doldu?

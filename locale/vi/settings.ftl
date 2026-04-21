@@ -1586,15 +1586,9 @@ auth-totp-code-required-error = Yêu cầu mã xác thực
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Hiện yêu cầu phê duyệt <span>từ thiết bị khác của bạn</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Ghép nối không thành công
-pair-failure-message = Quá trình thiết lập đã hủy bỏ.
-
 ## Pair index page
 
 pair-sync-header = Đồng bộ hóa { -brand-firefox } trên điện thoại hoặc máy tính bảng của bạn
-pair-cad-header = Kết nối { -brand-firefox } trên thiết bị khác
 pair-already-have-firefox-paragraph = Đã có { -brand-firefox } trên điện thoại hoặc máy tính bảng?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Đồng bộ hóa thiết bị của bạn
@@ -1884,7 +1878,6 @@ signin-passwordless-code-subheading = Việc đăng nhập chỉ mất một bư
 #   email (String) - the user's email
 #   expirationMinutes (Number) - the expiration time in minutes
 signin-passwordless-code-instruction = Nhập mã đã được gửi tới <email>{ $email }</email> trong vòng { $expirationMinutes } phút.
-signin-passwordless-code-input-label = Nhập mã gồm 8 chữ số
 signin-passwordless-code-confirm-button = Xác nhận
 signin-passwordless-code-required-error = Yêu cầu mã xác minh
 signin-passwordless-code-expired = Mã đã hết hạn?

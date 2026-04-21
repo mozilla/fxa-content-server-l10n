@@ -1542,15 +1542,9 @@ auth-totp-code-required-error = נדרש קוד אימות
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = נדרש אישור <span>מהמכשיר האחר שלך</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = הצימוד לא בוצע בהצלחה
-pair-failure-message = תהליך ההגדרה הופסק.
-
 ## Pair index page
 
 pair-sync-header = סנכרון { -brand-firefox } עם הטלפון או מחשב הלוח שלך
-pair-cad-header = חיבור { -brand-firefox } במכשיר נוסף
 pair-already-have-firefox-paragraph = ‏{ -brand-firefox } כבר מותקן בטלפון או במחשב הלוח שלך?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = סנכרון המכשיר שלך
@@ -1834,7 +1828,6 @@ signin-passwordless-code-instruction =
         [one] נא להכניס את הקוד שנשלח אל <email>{ $email }</email> תוך דקה אחת.
        *[other] נא להכניס את הקוד שנשלח אל <email>{ $email }</email> תוך { $expirationMinutes } דקות.
     }
-signin-passwordless-code-input-label = נא להכניס קוד בן 6 ספרות
 signin-passwordless-code-confirm-button = אישור
 signin-passwordless-code-required-error = נדרש קוד אימות
 signin-passwordless-code-expired = פג תוקף הקוד?

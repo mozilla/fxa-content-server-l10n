@@ -1605,15 +1605,9 @@ auth-totp-code-required-error = Code d’authentification requis
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = L’approbation est maintenant nécessaire <span>sur votre autre appareil</span>
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Échec de l’association
-pair-failure-message = Processus d’installation interrompu.
-
 ## Pair index page
 
 pair-sync-header = Synchroniser { -brand-firefox } sur votre téléphone ou votre tablette
-pair-cad-header = Connecter { -brand-firefox } sur un autre appareil
 pair-already-have-firefox-paragraph = Vous avez déjà { -brand-firefox } installé sur un téléphone ou une tablette ?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronisez vos appareils
@@ -1906,7 +1900,6 @@ signin-passwordless-code-instruction =
         [one] Saisissez le code envoyé à <email>{ $email }</email> d’ici { $expirationMinutes } minute.
        *[other] Saisissez le code envoyé à <email>{ $email }</email> dans les { $expirationMinutes } minutes.
     }
-signin-passwordless-code-input-label = Saisissez le code à 8 chiffres
 signin-passwordless-code-confirm-button = Confirmer
 signin-passwordless-code-required-error = Code de confirmation requis
 signin-passwordless-code-expired = Code expiré ?

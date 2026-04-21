@@ -1557,15 +1557,9 @@ auth-totp-code-required-error = 인증 코드 필요함
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = 이제 <span>다른 기기</span>에서 승인이 필요합니다.
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = 페어링에 실패함
-pair-failure-message = 설정 과정이 종료되었습니다.
-
 ## Pair index page
 
 pair-sync-header = 스마트폰이나 태블릿에서 { -brand-firefox }를 동기화하세요.
-pair-cad-header = 다른 기기에 { -brand-firefox } 연결
 pair-already-have-firefox-paragraph = 이미 스마트폰이나 태블릿에 { -brand-firefox }가 설치되어 있나요?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = 기기 동기화

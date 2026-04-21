@@ -855,15 +855,9 @@ auth-totp-code-required-error = Аутентификация коды кирәк
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Хәзер <span>бүтән җиһазыгыздан</span> рөхсәт кирәк
 
-## PairFailure - a view which displays on failure of the device pairing process
-
-pair-failure-header = Ялгау килеп чыкмады
-pair-failure-message = Урнаштыру процессы өзелде.
-
 ## Pair index page
 
 pair-sync-header = { -brand-firefox }-ны телефоныгызда яки планшетыгызда синхронлагыз
-pair-cad-header = { -brand-firefox }-ны башка җиһазда тоташтырыгыз
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Җиһазыгызны синхронлагыз
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
