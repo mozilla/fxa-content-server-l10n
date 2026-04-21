@@ -1276,13 +1276,13 @@ legal-terms-heading = Termos do serviço
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Você acabou de entrar na sua conta no { -product-firefox }?
+pair-auth-allow-heading-text = Você acabou de entrar na sua conta no { -brand-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Sim, aprovar dispositivo
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = Se não foi você, <link>mude sua senha</link>
+pair-auth-allow-refuse-device-link = Se não foi você, <a>mude sua senha</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 

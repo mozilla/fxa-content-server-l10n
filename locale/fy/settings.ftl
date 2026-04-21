@@ -1185,8 +1185,6 @@ passkey-sub-row-created-date = Oanmakke: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Lêst brûkt: { $lastUsedDate }
-# These two sentences are referring to the passkey
-passkey-sub-row-sign-in-only = Allinnich oanmelde. Kin net brûkt wurde om te syngronisearjen.
 passkey-sub-row-delete-title = Wachtwurdkaai fuortsmite
 passkey-delete-modal-heading = Jo wachtwurdkaai fuortsmite?
 passkey-delete-modal-content = Dizze wachtwurdkaai wurdt fan jo account fuortsmiten. Jo moatte jo op in oare manier oanmelde.
@@ -1220,8 +1218,18 @@ passkey-row-enabled = Ynskeakele
 passkey-row-not-set = Net ynsteld
 passkey-row-action-create = Oanmeitsje
 passkey-row-description = Meitsje oanmelden makliker en feiliger troch jo telefoan of oar stipe apparaat te brûken om tagong te krijen ta jo account.
-# External link to a support article. "This" refers to passkeys.
-passkey-row-info-link = Hoe’t dit jo account beskermet
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Mear ynfo
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Jo hawwe alle { $count } wachtwurdkaaien brûkt. Smyt in wachtwurdkaai fuort om in nije oan te meitsjen.
+       *[other] Jo hawwe alle { $count } wachtwurdkaaien brûkt. Smyt in wachtwurdkaai fuort om in nije oan te meitsjen.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Jo hawwe it maksimale oantal wachtwurdkaaien berikt.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1563,13 +1571,13 @@ legal-terms-heading = Tsjinstbetingsten
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Hawwe jo jo krekt oanmeld by { -product-firefox }?
+pair-auth-allow-heading-text = Hawwe jo jo krekt oanmeld by { -brand-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Ja, apparaat goedkarre
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
-pair-auth-allow-refuse-device-link = As dit jo net wiene, <link>wizigje dan jo wachtwurd</link>
+pair-auth-allow-refuse-device-link = As dit jo net wiene, <a>wizigje dan jo wachtwurd</a>
 
 ## PairAuthComplete page - part of the device pairing flow
 

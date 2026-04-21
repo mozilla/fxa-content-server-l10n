@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-21 22:36+0000\n"
 "Language: nn_NO\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
@@ -830,8 +832,11 @@ msgid "Invalid Token"
 msgstr "Ugyldig token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Ved å halde fram godtek du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernfråsegna</a> for %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Ved å halde fram godtek du <a id=\"service-tos\" href=\"%(termsUri)s\">tenestevilkåra</a> og<a id=\"service-pp\" href=\"%(privacyUri)s\">personvernfråsegna</a> for %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -897,7 +902,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Skriv inn eingongsnøkkelen for kontogjenopprettinga du lagra på ein trygg stad for å få tilbake tilgang til Mozilla-kontoen din."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">MERK:</span> Dersom du tilbakestiller passordet ditt og ikkje har nøkkel for kontogjenoppretting, blir nokre av dataa dine sletta (inkludert synkroniserte serverdata som "
 "historikk og bokmerke)."
@@ -943,8 +949,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>HUGS:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noko av den personlege informasjonen din (inkludert historikk, bokmerke og passord). Det er fordi"
-" vi krypterer dataa dine med passordet ditt for å ta vare på personvernet ditt. Du vil framleis behalde eventuelle abonnement du måtte ha, og Pocket-data vil ikkje bli påverka."
+"<span>HUGS:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noko av den personlege informasjonen din (inkludert historikk, bokmerke og passord). Det er "
+"fordi vi krypterer dataa dine med passordet ditt for å ta vare på personvernet ditt. Du vil framleis behalde eventuelle abonnement du måtte ha, og Pocket-data vil ikkje bli påverka."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1052,7 +1058,7 @@ msgstr "Har koden gått ut?"
 msgid "Email new code."
 msgstr "Send ny kode på e-post."
 
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:11
+#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
 #: .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
 msgstr "Kople til ei anna eining"
@@ -1105,34 +1111,42 @@ msgstr "Passord"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Ved å halde fram godtek du::<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tenestevilkåra</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">personvernfråsegna</a> for Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a> for Mozilla-kontoar\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tenestevilkåra</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">personvernfråsegna</a> for Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a> for Mozilla-"
+"kontoar\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Ved å halde fram godtek du:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">personvernfråsegna</a> for Mozillas abonnementstenester<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a> for Mozilla-kontoar\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">personvernfråsegna</a> for Mozillas abonnementstenester<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a> for Mozilla-"
+"kontoar\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Ved å halde fram godtek du <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Ved å halde fram godtek du <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1178,13 +1192,15 @@ msgstr "Ein Mozilla-konto låser også opp tilgang til fleire personvernbeskytta
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Ved å halde fram godtek du:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tenestevilkåra</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">personvernfråsegna</a> for Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tenestevilkåra</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">personvernfråsegna</a> for Pocket<br />\n"
 "          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a> for Mozilla-kontoar\n"
 "        "
 
@@ -1192,14 +1208,17 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Ved å halde fram godtek du:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">personvernfråsegna</a> for Mozillas abonnementstenester<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a> for Mozilla-kontoar\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">personvernfråsegna</a> for Mozillas abonnementstenester<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tenestevilkåra</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernfråsegna</a> for Mozilla-"
+"kontoar\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1223,7 +1242,7 @@ msgid "Print"
 msgstr "Skriv ut"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:21
+#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
 msgid "Continue"
 msgstr "Hald fram"
 
@@ -1366,8 +1385,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>MERK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noko av den personlege informasjonen din (inkludert historikk, bokmerke og passord). Det er fordi"
-" vi krypterer dataa dine med passordet ditt for å ta vare på personvernet ditt. Du vil framleis behalde eventuelle abonnement du måtte ha, og Pocket-data vil ikkje bli påverka."
+"<span>MERK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noko av den personlege informasjonen din (inkludert historikk, bokmerke og passord). Det er "
+"fordi vi krypterer dataa dine med passordet ditt for å ta vare på personvernet ditt. Du vil framleis behalde eventuelle abonnement du måtte ha, og Pocket-data vil ikkje bli påverka."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1599,7 +1618,7 @@ msgstr "Skriv inn passordet ditt for å sjå kontogjenopprettingsnøkkelen din."
 msgid "Enter Password"
 msgstr "Skriv inn passord"
 
-#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
+#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
 msgid "Successfully connected"
 msgstr "Tilkopla"
 
@@ -1958,29 +1977,41 @@ msgstr "Ja, godkjenn eininga"
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
 msgstr "Om dette ikkje var du, <a id=\"change-password\" class=\"link-blue\">endre passordet ditt</a>"
 
-#: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
-msgid "Device connected"
-msgstr "Eining tilkopla"
+#: .es5/templates/pair/auth_complete.mustache:1
+msgid "You’re ready to send some tabs"
+msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
 "\n"
-"        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
-"      "
+"          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
+"        "
 msgstr ""
-"\n"
-"        Du synkroniserer no med: <span>%(deviceFamily)s på %(deviceOS)s</span>\n"
-"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
+msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
+msgid "Device connected"
+msgstr "Eining tilkopla"
+
+#: .es5/templates/pair/auth_complete.mustache:8
+msgid ""
+"\n"
+"          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"        "
+msgstr ""
+
+#: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
 msgstr "No får du tilgang til opne faner, passord og bokmerke på alle einingane dine."
 
-#: .es5/templates/pair/auth_complete.mustache:5
+#: .es5/templates/pair/auth_complete.mustache:10
 msgid "See tabs from synced devices"
 msgstr "Vis faner frå andre einingar"
 
-#: .es5/templates/pair/auth_complete.mustache:7
+#: .es5/templates/pair/auth_complete.mustache:12
 msgid "Manage devices"
 msgstr "Handsam einingar"
 
@@ -2008,59 +2039,63 @@ msgstr "Konto opretta. Du synkroniserer no."
 msgid "Signed in successfully!"
 msgstr "Innlogga!"
 
-#: .es5/templates/pair/index.mustache:12
+#: .es5/templates/pair/index.mustache:11
+msgid "Download or open Firefox on the device where you want to send tabs"
+msgstr ""
+
+#: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
 msgstr "Synkroniser Firefox-opplevinga di"
 
-#: .es5/templates/pair/index.mustache:13
+#: .es5/templates/pair/index.mustache:15
 msgid "Download Firefox for mobile"
 msgstr "Last ned Firefox for mobil"
 
-#: .es5/templates/pair/index.mustache:15
+#: .es5/templates/pair/index.mustache:17
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
 msgstr "Sjå lagra passord, faner, nettlesarlogg og meir – på alle einingane dine."
 
-#: .es5/templates/pair/index.mustache:16
+#: .es5/templates/pair/index.mustache:18
 msgid "Select an option to continue:"
 msgstr "Vel eit alternativ for å halde fram:"
 
-#: .es5/templates/pair/index.mustache:17
+#: .es5/templates/pair/index.mustache:19
 msgid "I already have Firefox for mobile"
 msgstr "Eg har allereie Firefox for mobil"
 
-#: .es5/templates/pair/index.mustache:18
+#: .es5/templates/pair/index.mustache:20
 msgid "Start your sync now if you already have Firefox on your mobile device."
 msgstr "Start synkroniseringa no om du allereie har Firefox på den mobile eininga di."
 
-#: .es5/templates/pair/index.mustache:19
+#: .es5/templates/pair/index.mustache:21
 msgid "I don’t have Firefox for mobile"
 msgstr "Eg har ikkje Firefox for mobil"
 
-#: .es5/templates/pair/index.mustache:20
+#: .es5/templates/pair/index.mustache:22
 msgid "Download Firefox on your mobile device, then start your sync."
 msgstr "Last ned Firefox på mobileininga di, og start deretter synkroniseringa."
 
-#: .es5/templates/pair/index.mustache:22 .es5/templates/pair/index.mustache:28
+#: .es5/templates/pair/index.mustache:24 .es5/templates/pair/index.mustache:30
 msgid "Not now"
 msgstr "Ikkje no"
 
-#: .es5/templates/pair/index.mustache:23
+#: .es5/templates/pair/index.mustache:25
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
 msgstr "For å synkronisere Firefox på telefonen eller nettbrettet, må du først laste ned Firefox for mobil. Slik gjer du det:"
 
-#: .es5/templates/pair/index.mustache:24
+#: .es5/templates/pair/index.mustache:26
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
 msgstr "<b>Steg 1</b>: Last ned Firefox ved å skanne denne QR-koden, med kameraet ditt, på mobileininga di:"
 
-#: .es5/templates/pair/index.mustache:25
+#: .es5/templates/pair/index.mustache:27
 msgid "QR code (located in the middle of the screen)"
 msgstr "QR-kode (midt på skjermen)"
 
-#: .es5/templates/pair/index.mustache:26
+#: .es5/templates/pair/index.mustache:28
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
 msgstr "<b>Steg 2</b>: Vel «Hald fram til synkronisering» for å synkronisere Firefox-opplevinga di på den mobile eininga di."
 
-#: .es5/templates/pair/index.mustache:27
+#: .es5/templates/pair/index.mustache:29
 msgid "Continue to sync"
 msgstr "Hald fram til synkronisering"
 
