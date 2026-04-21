@@ -483,11 +483,11 @@ free-trial-first-charge-title = Πρώτη χρέωση: { $endDate }
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date of the first charge after the free trial ends
 
-free-trial-first-charge-message-daily = Θα χρεώνεστε { $firstPrice } στις { $endDate } και θα χρεώνεστε καθημερινά μέχρι να ακυρώσετε.
-free-trial-first-charge-message-weekly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και θα χρεωθείτε σε εβδομαδιαία βάση μέχρι να ακυρώσετε.
-free-trial-first-charge-message-monthly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και θα χρεωθείτε σε μηνιαία βάση μέχρι να ακυρώσετε.
-free-trial-first-charge-message-halfyearly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και στη συνέχεια κάθε 6 μήνες μέχρι να ακυρώσετε.
-free-trial-first-charge-message-yearly = Θα χρεώνεστε { $firstPrice } στις { $endDate } και στο εξής ανά έτος, μέχρι να κάνετε ακύρωση.
+free-trial-first-charge-message-daily = Θα χρεωθείτε { $firstPrice } στις { $endDate } και έκτοτε, ανά ημέρα, μέχρι να κάνετε ακύρωση.
+free-trial-first-charge-message-weekly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και έκτοτε, ανά εβδομάδα, μέχρι να κάνετε ακύρωση.
+free-trial-first-charge-message-monthly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και έκτοτε, ανά μήνα, μέχρι να κάνετε ακύρωση.
+free-trial-first-charge-message-halfyearly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και έκτοτε, ανά εξάμηνο, μέχρι να κάνετε ακύρωση.
+free-trial-first-charge-message-yearly = Θα χρεωθείτε { $firstPrice } στις { $endDate } και έκτοτε, ανά έτος, μέχρι να κάνετε ακύρωση.
 
 ##
 

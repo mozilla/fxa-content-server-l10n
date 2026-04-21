@@ -235,10 +235,10 @@ backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Οι εφεδρικοί κωδικοί ταυτοποίησης απενεργοποιήθηκαν
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
-    .aria-label = Η ανάκτησης μέσω SMS ενεργοποιήθηκε
+    .aria-label = Η ανάκτηση μέσω SMS ενεργοποιήθηκε
 # Disabled version of backup-recovery-sms-icon-aria-label
 backup-recovery-sms-disabled-icon-aria-label =
-    .aria-label = Η ανάκτησης μέσω SMS απενεργοποιήθηκε
+    .aria-label = Η ανάκτηση μέσω SMS απενεργοποιήθηκε
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Καναδική σημαία
@@ -250,13 +250,13 @@ checkmark-success-icon-aria-label =
     .aria-label = Επιτυχία
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
-    .aria-label = Ενεργοποίηση
+    .aria-label = Ενεργό
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Κλείσιμο μηνύματος
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
-    .aria-label = Κώδικας
+    .aria-label = Κωδικός
 error-icon-aria-label =
     .aria-label = Σφάλμα
 # Used as information icon for informative messaging
@@ -293,7 +293,7 @@ security-shield-aria-label =
 recovery-key-image-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά ένα κλειδί ανάκτησης λογαριασμού.
 password-image-aria-label =
-    .aria-label = Μια απεικόνιση που αναπαριστά πληκτρολόγηση ενός κωδικού πρόσβασης.
+    .aria-label = Απεικόνιση που αναπαριστά την πληκτρολόγηση ενός κωδικού πρόσβασης.
 lightbulb-aria-label =
     .aria-label = Απεικόνιση που αναπαριστά μια υπόδειξη για δημιουργία χώρου.
 email-code-image-aria-label =
@@ -312,7 +312,7 @@ confetti-falling-image-aria-label =
     .aria-label = Κινούμενη πτώση κομφετί
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
-    .aria-label = Ένα παράθυρο του { -brand-firefox } με ένα κυκλικό σήμα που δείχνει την πράσινη επιλογή «VPN», που υποδεικνύει ότι το VPN είναι ενεργό.
+    .aria-label = Ένα παράθυρο του { -brand-firefox } με κυκλικό σήμα που δείχνει ένα πράσινο σημάδι ελέγχου και το «VPN», που υποδεικνύει ότι το VPN είναι ενεργό.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -321,10 +321,10 @@ vpn-welcome-image-aria-label =
 inline-recovery-key-setup-signed-in-firefox-2 = Συνδεθήκατε στο { -brand-firefox }.
 inline-recovery-key-setup-create-header = Ασφαλίστε τον λογαριασμό σας
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
-inline-recovery-key-setup-create-subheader = Έχετε χρόνο για να προστατέψετε τα δεδομένα σας;
-inline-recovery-key-setup-info = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, ώστε να μπορείτε να επαναφέρετε τα συγχρονισμένα δεδομένα περιήγησής σας εάν ξεχάσετε τον κωδικό πρόσβασής σας.
+inline-recovery-key-setup-create-subheader = Έχετε λίγο χρόνο για να προστατέψετε τα δεδομένα σας;
+inline-recovery-key-setup-info = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, ώστε να μπορέσετε να ανακτήσετε τα συγχρονισμένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
 inline-recovery-key-setup-start-button = Δημιουργία κλειδιού ανάκτησης λογαριασμού
-inline-recovery-key-setup-later-button = Κάντε το αργότερα
+inline-recovery-key-setup-later-button = Αργότερα
 
 ## Input Password
 
@@ -380,7 +380,7 @@ remember-password-signin-link = Σύνδεση
 ## LinkUsed component
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Το κύριο email έχει ήδη επαληθευτεί
+primary-email-confirmation-link-reused = Το κύριο email έχει ήδη επιβεβαιωθεί
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
 confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβαίωσης έχει ήδη χρησιμοποιηθεί και μπορεί να χρησιμοποιηθεί μόνο μία φορά.
@@ -424,7 +424,7 @@ promo-qr-mobile-qr-alt =
 
 account-recovery-notification-cta = Δημιουργία
 account-recovery-notification-header-value = Μην χάσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας
-account-recovery-notification-header-description = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, για να επαναφέρετε τα συγχρονισμένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
+account-recovery-notification-header-description = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού για να ανακτήσετε τα συγχρονισμένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
 recovery-phone-promo-cta = Προσθήκη τηλεφώνου ανάκτησης
 recovery-phone-promo-heading = Προσθέστε επιπλέον προστασία στον λογαριασμό σας με ένα τηλέφωνο ανάκτησης
 recovery-phone-promo-description = Μπορείτε πλέον να συνδεθείτε με έναν κωδικό πρόσβασης μίας χρήσης μέσω SMS εάν δεν μπορείτε να χρησιμοποιήσετε την εφαρμογή ελέγχου ταυτότητας δύο παραγόντων.
@@ -434,7 +434,7 @@ promo-banner-dismiss-button =
 
 ## Ready component
 
-ready-complete-set-up-instruction = Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασής σας στις άλλες σας συσκευές με { -brand-firefox }.
+ready-complete-set-up-instruction = Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασής σας στις άλλες σας συσκευές με το { -brand-firefox }.
 manage-your-account-button = Διαχείριση του λογαριασμού σας
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -454,7 +454,7 @@ primary-email-verified-header = Το κύριο email επιβεβαιώθηκε
 
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
-flow-recovery-key-download-storage-ideas-heading-v2 = Τοποθεσίες αποθήκευσης του κλειδιού σας:
+flow-recovery-key-download-storage-ideas-heading-v2 = Τοποθεσίες για αποθήκευση του κλειδιού σας:
 flow-recovery-key-download-storage-ideas-folder-v2 = Φάκελος σε ασφαλή συσκευή
 flow-recovery-key-download-storage-ideas-cloud = Αξιόπιστος χώρος αποθήκευσης σε cloud
 flow-recovery-key-download-storage-ideas-print-v2 = Εκτυπωμένο φυσικό αντίγραφο
@@ -482,7 +482,7 @@ flow-recovery-key-hint-cta-text = Τέλος
 flow-recovery-key-hint-char-limit-error = Η υπόδειξη πρέπει να περιέχει λιγότερους από 255 χαρακτήρες.
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορεί να περιέχει μη ασφαλείς χαρακτήρες unicode. Επιτρέπονται μόνο γράμματα, αριθμοί, σημεία στίξης και σύμβολα.
+flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορεί να περιέχει μη ασφαλείς χαρακτήρες Unicode. Επιτρέπονται μόνο γράμματα, αριθμοί, σημεία στίξης και σύμβολα.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -890,7 +890,7 @@ avatar-page-take-photo-button =
 avatar-page-remove-photo = Αφαίρεση φωτογραφίας
 avatar-page-remove-photo-button =
     .title = { avatar-page-remove-photo }
-avatar-page-retake-photo = Νέα λήψη φωτογραφίας
+avatar-page-retake-photo = Λήψη νέας φωτογραφίας
 avatar-page-cancel-button = Ακύρωση
 avatar-page-save-button = Αποθήκευση
 avatar-page-saving-button = Αποθήκευση…
