@@ -1594,7 +1594,7 @@ pair-auth-complete-send-tab-heading = Du är redo att skicka några flikar
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } för { $deviceOS } är ansluten.
-pair-auth-complete-send-tab-benefits = Du är fri att omedelbart skicka öppna flikar, lösenord och bokmärken mellan enheter.
+pair-auth-complete-send-tab-benefits = Du kan direkt skicka öppna flikar, lösenord och bokmärken mellan enheter.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1651,7 +1651,7 @@ pair-qr-code-aria-label = QR-kod
 ## Choice screen — "Do you have Firefox for mobile?"
 
 # Subheader shown on the choice screen
-pair-choice-subheader = Synkronisera din upplevelse av { -brand-firefox }
+pair-choice-subheader = Synkronisera din { -brand-firefox }-upplevelse
 # Description shown on the choice screen
 pair-choice-description = Visa dina sparade lösenord, flikar, webbhistorik och mer — på alla dina enheter.
 # Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
@@ -1725,7 +1725,7 @@ pair-unsupported-oops-mobile = Hoppsan! Det ser ut som att du inte använder { -
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
-pair-unsupported-connecting-mobile-header-v2 = Ansluta din mobila enhet till din { -product-mozilla-account }
+pair-unsupported-connecting-mobile-header-v2 = Ansluta din mobila enhet till ditt { -product-mozilla-account }
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
 pair-unsupported-connecting-mobile-instructions-v2 = Öppna { -brand-firefox } på din dator, besök <b>firefox.com/pair</b> och följ instruktionerna på skärmen för att ansluta din mobila enhet.
