@@ -26,6 +26,7 @@ location-banner-currency-change = שינוי מטבע אינו נתמך. כדי 
 upgrade-page-payment-information = פרטי תשלום
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = התוכנית שלך תשתנה מיד, ויבוצע חיוב על סכום יחסי עבור שאר תקופת מחזור החיוב הנוכחי. החל מ־{ $nextInvoiceDate } יבוצע חיוב על הסכום המלא.
+upgrade-page-acknowledgment-from-trial = עם ביצוע השדרוג, תקופת הניסיון החינמית הפעילה שלך תסתיים באופן מיידי, ויבוצע חיוב עבור התוכנית החדשה שלך היום.
 
 ## Authentication Error page
 
