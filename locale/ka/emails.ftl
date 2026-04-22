@@ -98,6 +98,7 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = თუ თქვენ არაფერი მოგიმოქმედებიათ, მაშინ გაანულეთ პაროლი დაუყოვნებლივ:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = ამასთანავე, ხელახლა გამართეთ ორბიჯიანი დამოწმება:
+automated-email-sign-in-plaintext = თუ ეს მოქმედება თქვენს უნებართვოდ შესრულდა, გთხოვთ გადახედოთ თქვენი ანგარიშის უსაფრთხოების პარამეტრებს:
 brand-banner-message = იცოდით, რომ { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts }? <a data-l10n-name="learnMore">ვრცლად</a>
 change-password-plaintext = თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშთან წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი.
 manage-account = ანგარიშის მართვა
@@ -260,6 +261,15 @@ postAddLinkedAccount-subject-2 = ახალი ანგარიში და
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = თქვენი { $providerName } ანგარიში დაუკავშირდა თქვენს { -product-mozilla-account(case: "dat") }
 postAddLinkedAccount-action = ანგარიშის მართვა
+postAddPasskey-subject = საშვი შექმნილია
+postAddPasskey-preview = ახლა უკვე შეგიძლიათ თქვენი მოწყობილობით ანგარიშზე შესვლა
+postAddPasskey-title = თქვენ შექმენით საშვი
+postAddPasskey-description = ახლა უკვე შეგიძლიათ მისი გამოყენებით შეხვიდეთ ყველა { -product-mozilla-account }-მომსახურებაზე.
+postAddPasskey-sync-note = გთხოვთ გაითვალისწინოთ, რომ პაროლი კვლავ მოგეთხოვებათ თქვენს { -brand-firefox }-სინქრონიზაციის მონაცემებთან წვდომისას.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = ვრცლად
+postAddPasskey-requested-from = თქვენი მოთხოვნის წყარო იყო:
+postAddPasskey-action = ანგარიშის მართვა
 postAddRecoveryPhone-subject = აღდგენის ტელეფონი დამატებულია
 postAddRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
 postAddRecoveryPhone-title-v2 = დამატებულია აღდგენის ნომერი
@@ -328,6 +338,12 @@ postRemoveAccountRecovery-title-3 = თქვენ წაშალეთ ან
 postRemoveAccountRecovery-body-part1 = თქვენი ანგარიშის აღდგენის გასაღები საჭიროა ბრაუზერის დაშიფრული მონაცემების აღსადგენად, თუ დაგავიწყდებათ პაროლი.
 postRemoveAccountRecovery-body-part2 = თუ ჯერ არ გაქვთ, შექმენით ანგარიშის აღდგენის ახალი გასაღები თქვენი ანგარიშის პარამეტრებიდან, რომ აირიდოთ შენახული პაროლების, სანიშნების, ისტორიისა და სხვა მონაცემების დაკარგვა.
 postRemoveAccountRecovery-action = ანგარიშის მართვა
+postRemovePasskey-subject = საშვი წაიშალა
+postRemovePasskey-preview = საშვი მოცილებულია თქვენი ანგარიშიდან
+postRemovePasskey-title = თქვენ წაშალეთ საშვი
+postRemovePasskey-description = შესასვლელად სხვა საშუალების გამოყენება დაგჭირდებათ.
+postRemovePasskey-requested-from = თქვენი მოთხოვნის წყარო იყო:
+postRemovePasskey-action = ანგარიშის მართვა
 postRemoveRecoveryPhone-subject = აღდგენის ტელეფონი მოცილებულია
 postRemoveRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
 postRemoveRecoveryPhone-title = აღდგენის ტელეფონი მოცილებულია

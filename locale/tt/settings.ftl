@@ -98,6 +98,8 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Серсүзне раслау
 form-password-with-inline-criteria-reset-submit-button = Яңа серсүз булдыру
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Серсүз
 form-password-with-inline-criteria-match-error = Серсүзләр туры килми
 form-password-with-inline-criteria-sr-too-short-message = Серсүз кимендә 8 билге булырга тиеш.
 form-password-with-inline-criteria-sr-requirements-met = Кертелгән серсүз барлык серсүз таләпләренә дә туры килә
@@ -990,6 +992,11 @@ signin-password-button-label = Серсүз
 ## This will be the page shown to users to block the sign in and report it.
 
 back = Кире
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-input-label-v2 = 6-цифрлы кодны кертегез
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
