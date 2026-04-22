@@ -968,6 +968,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Rozšyrjenja, kótarež sćo wózjawił na addons.mozilla.org, se wulašuju.
 delete-account-continue-button = Dalej
+delete-account-delete-button-passwordless = Konto wulašowaś
 delete-account-password-input =
     .label = Gronidło zapódaś
 delete-account-cancel-button = Pśetergnuś
@@ -1601,6 +1602,15 @@ pair-auth-complete-sync-benefits-text = Něnto maśo pśistup k swójim wócynjo
 pair-auth-complete-see-tabs-button = Rejtariki ze synchronizěrowanych rědow pokazaś
 pair-auth-complete-manage-devices-link = Rědy zastojaś
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Sćo gótowy, aby někotare rejtariki pósłał
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } za { $deviceOS } jo zwězany.
+pair-auth-complete-send-tab-benefits = Móžośo ned wócynjone rejtariki, gronidła a cytańske znamjenja mjazy rědami pósłaś.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1627,9 +1637,17 @@ auth-totp-code-required-error = Awtentifikaciski kod trjebny
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Pśizwólenje jo něnto <span>wót wašogo drugego rěda</span> trjebne
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Koplowanje rědow njejo se raźiło
+pair-failure-message-v2 = Instalaciski proces njedajo se dokóńcyś. Pšosym pśizjawśo se ze swójeju e-mailoweju adresu.
+pair-failure-try-again-link = Hyšći raz wopytaś
+
 ## Pair index page
 
 pair-sync-header = Synchronizěrujśo { -brand-firefox } na swójom telefonje abo tableśe
+pair-cad-header-v2 = Z drugim rědom zwězaś
 pair-already-have-firefox-paragraph = Maśo južo { -brand-firefox } na telefonje abo tableśe?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizěrujśo swój rěd
@@ -1645,10 +1663,51 @@ pair-get-started-button = Prědne kšace
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-kod
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Synchronizěrujśo swójo dožywjenje { -brand-firefox }
+# Description shown on the choice screen
+pair-choice-description = Woglědajśo se swóje skłaźone gronidła, rejtariki, pśeglědowańsku historiju a wěcej – na wšych swójich rědach.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Ześěgniśo abo wócyńśo { -brand-firefox } na rěźe, na kótaremž cośo rejtariki pósłaś
+# Legend for the radio button fieldset
+pair-choice-legend = Wubjeŕśo nastajenje, aby pókšacował:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Mam južo { -brand-firefox } za mobilne rědy
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Startujśo swóju synchronizaciju, jolic južo { -brand-firefox } na swójom mobilnem rěźe maśo.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Njamam { -brand-firefox } za mobilne rědy
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Ześěgniśo { -brand-firefox } do swójogo mobilnego rěda a startujśo pón swóju synchronizaciju.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Dalej
+# Success banner shown after signing in
+pair-signed-in-successfully = Wuspěšnje pśizjawjony!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Konto jo se napórało. Synchronizěrujośo něnto.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Gronidło jo se napórało. Synchronizěrujośo něnto.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = { -brand-firefox } za mobilne rědy ześěgnuś
+# Description for the download screen
+pair-download-description = Aby { -brand-firefox } na swójom telefonje abo tableśe synchronizěrował, musyśo nejpjerwjej { -brand-firefox } za mobilne rědy ześěgnuś. Tak to źo:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Kšac { $stepNumber }</b>: Scannujśo toś ten QR-kod z kameru na swójom mobilnem rěźe, aby { -brand-firefox } ześěgnuł:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Kšac { $stepNumber }</b>: Wubjeŕśo „Dalej k synchronizaciji“, aby swóje dožywjenje { -brand-firefox } na swójom mobilnem rěźe synchronizěrował.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Dalej k synchronizaciji
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Rěd jo zwězany
 pair-success-message-2 = Koplowanje jo se raźiło.
+pair-success-tab-close-message = Toś ten rejtarik se awtomatiski pśez { -brand-firefox } zacynijo.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1672,6 +1731,24 @@ pair-wait-for-auth-heading-text = Pśizwólenje jo něnto <span>wót wašogo dru
 
 pair-unsupported-header = Z nałoženim koplowaś
 pair-unsupported-message = Sćo wužył systemowu kameru? Musyśo w nałoženju { -brand-firefox } koplowaś.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Hopla! Zazdaśim { -brand-firefox } njewužywaśo.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Wužywajśo { -brand-firefox } a wócyńśo toś ten bok, aby z drugim rědom zwězał.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Hopla! Zazdaśim { -brand-firefox } njewužywaśo.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Waš mobilny rěd z wašym kontom { -product-mozilla-account } zwězaś
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Wócyńśo { -brand-firefox } na swójom licadle, woglědajśo se k <b>firefox.com/pair</b> a slědujśo instrukcijam na wobrazowce, aby swój mobilny rěd zwězał.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Dalšne informacije
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Hopla! Něco njejo se raźiło.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
