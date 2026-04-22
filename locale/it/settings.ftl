@@ -1575,11 +1575,11 @@ pair-auth-complete-manage-devices-link = Gestisci dispositivi
 ## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
 
 # Heading
-pair-auth-complete-send-tab-heading = Sei pronto per inviare alcune schede
+pair-auth-complete-send-tab-heading = Sei pronto per inviare le tue schede
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } per { $deviceOS } è connesso.
-pair-auth-complete-send-tab-benefits = Sei libero di inviare istantaneamente schede aperte, password e segnalibri tra dispositivi.
+pair-auth-complete-send-tab-benefits = Puoi inviare immediatamente schede aperte, password e segnalibri da un dispositivo all'altro.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1636,11 +1636,11 @@ pair-qr-code-aria-label = Codice QR
 ## Choice screen — "Do you have Firefox for mobile?"
 
 # Subheader shown on the choice screen
-pair-choice-subheader = Sincronizza la tua esperienza { -brand-firefox }
+pair-choice-subheader = Sincronizza la tua esperienza con { -brand-firefox }
 # Description shown on the choice screen
 pair-choice-description = Visualizza le password salvate, le schede, la cronologia di navigazione e altro ancora su tutti i tuoi dispositivi.
 # Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
-pair-choice-header-send-tab = Scarica o apri { -brand-firefox } sul dispositivo a cui desideri inviare le schede
+pair-choice-header-send-tab = Scarica o avvia { -brand-firefox } sul dispositivo su cui vuoi inviare le schede
 # Legend for the radio button fieldset
 pair-choice-legend = Seleziona un’opzione per continuare:
 # Radio option: user already has Firefox for mobile — title
@@ -1650,7 +1650,7 @@ pair-choice-has-mobile-description = Avvia subito la sincronizzazione se hai gi�
 # Radio option: user does not have Firefox for mobile — title
 pair-choice-needs-mobile-title = Non ho { -brand-firefox } per dispositivi mobili
 # Radio option: user does not have Firefox for mobile — description
-pair-choice-needs-mobile-description = Scarica { -brand-firefox } sul tuo dispositivo mobile e avvia la sincronizzazione.
+pair-choice-needs-mobile-description = Scarica { -brand-firefox } sul tuo dispositivo mobile, quindi avvia la sincronizzazione.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Continua
 # Success banner shown after signing in
@@ -1667,9 +1667,9 @@ pair-download-subheader = Scarica { -brand-firefox } per dispositivi mobili
 # Description for the download screen
 pair-download-description = Per sincronizzare { -brand-firefox } sul tuo telefono o tablet, devi prima scaricare { -brand-firefox } per dispositivi mobili. Ecco come:
 # Step 1: scan QR code. $stepNumber is the step number (1)
-pair-download-step-scan-qr = <b>Passaggio { $stepNumber }</b>: scarica { -brand-firefox } scansionando questo codice QR con la fotocamera del tuo dispositivo mobile:
+pair-download-step-scan-qr = <b>Passaggio { $stepNumber }</b>: scarica { -brand-firefox } scansionando il codice QR con la fotocamera del tuo dispositivo:
 # Step 2: continue to sync. $stepNumber is the step number (2)
-pair-download-step-continue-sync = <b>Passaggio { $stepNumber }</b>: seleziona “Continua con la sincronizzazione” per sincronizzare la tua esperienza { -brand-firefox } sul tuo dispositivo mobile.
+pair-download-step-continue-sync = <b>Passaggio { $stepNumber }</b>: seleziona “Continua con la sincronizzazione” per sincronizzare la tua esperienza in { -brand-firefox } sul tuo dispositivo mobile.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Continua la sincronizzazione
 
@@ -1677,7 +1677,7 @@ pair-continue-to-sync-button = Continua la sincronizzazione
 
 pair-success-header-2 = Dispositivo connesso
 pair-success-message-2 = Associazione completata.
-pair-success-tab-close-message = Questa scheda verrà chiusa automaticamente entro { -brand-firefox }.
+pair-success-tab-close-message = Questa scheda verrà chiusa automaticamente da { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1710,7 +1710,7 @@ pair-unsupported-oops-mobile = Oops! Sembra che tu non stia utilizzando { -brand
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
-pair-unsupported-connecting-mobile-header-v2 = Connessione del dispositivo mobile con { -product-mozilla-account }
+pair-unsupported-connecting-mobile-header-v2 = Connessione del dispositivo mobile con l’{ -product-mozilla-account }
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
 pair-unsupported-connecting-mobile-instructions-v2 = Apri { -brand-firefox } sul tuo computer, visita <b>firefox.com/pair</b> e segui le istruzioni visualizzate per connettere il tuo dispositivo mobile.
