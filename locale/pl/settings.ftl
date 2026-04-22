@@ -1807,6 +1807,7 @@ signin-passkey-fallback-continue = Kontynuuj
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Wpisz kod potwierdzenia
+signin-passwordless-code-input-label-v2 = Wpisz sześciocyfrowy kod
 signin-passwordless-code-confirm-button = Potwierdź
 signin-passwordless-code-required-error = Wymagany jest kod potwierdzenia
 signin-passwordless-code-expired = Kod wygasł?

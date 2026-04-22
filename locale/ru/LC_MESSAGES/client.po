@@ -1962,7 +1962,7 @@ msgstr "Если это были не вы, <a id=\"change-password\" class=\"li
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "Вы готовы отправить несколько вкладок"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
@@ -1970,10 +1970,13 @@ msgid ""
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
 msgstr ""
+"\n"
+"          <span>%(deviceFamily)s для %(deviceOS)s</span> подключено.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr ""
+msgstr "Вы можете мгновенно обмениваться открытыми вкладками, паролями и закладками между устройствами."
 
 #: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1985,6 +1988,9 @@ msgid ""
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Теперь вы синхронизируетесь с: <span>%(deviceFamily)s на %(deviceOS)s</span>\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -2024,7 +2030,7 @@ msgstr "Вы успешно вошли!"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "Скачайте или откройте Firefox на устройстве, на которое вы хотите отправлять вкладки"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
