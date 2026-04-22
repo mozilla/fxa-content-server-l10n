@@ -1961,7 +1961,7 @@ msgstr "Si no fuiste vos, <a id=\"change-password\" class=\"link-blue\">cambiá 
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr "Está listo para enviar algunas pestañas"
+msgstr "Estás listo para enviar algunas pestañas"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
@@ -1983,7 +1983,10 @@ msgid ""
 "\n"
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
-msgstr "           Ahora estás sincronizando con: <span>%(deviceFamily)s en %(deviceOS)s</span>         "
+msgstr ""
+"\n"
+"        Ahora estás sincronizando con: <span>%(deviceFamily)s en %(deviceOS)s</span>\n"
+"     "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."

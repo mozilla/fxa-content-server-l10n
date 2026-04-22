@@ -956,7 +956,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Cualquier extensión y tema que hayas publicado en addons.mozilla.org será borrado
 delete-account-continue-button = Continuar
-delete-account-delete-button-passwordless = Eliminar la cuenta
+delete-account-delete-button-passwordless = Borrar la cuenta
 delete-account-password-input =
     .label = Ingresar contraseña
 delete-account-cancel-button = Cancelar
@@ -1589,7 +1589,7 @@ pair-auth-complete-manage-devices-link = Administrar dispositivos
 ## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
 
 # Heading
-pair-auth-complete-send-tab-heading = Está listo para enviar algunas pestañas
+pair-auth-complete-send-tab-heading = Estás listo para enviar algunas pestañas
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } para { $deviceOS } está conectado.
@@ -1626,7 +1626,7 @@ pair-wait-for-supp-heading-text = Se requiere aprobación <span>desde el otro di
 # v2: Updated wording to align with the legacy Backbone pair/failure copy.
 pair-failure-header-v2 = Falló el emparejamiento del dispositivo
 pair-failure-message-v2 = No se pudo completar la configuración. Iniciá sesión con tu correo electrónico.
-pair-failure-try-again-link = Intentar nuevamente
+pair-failure-try-again-link = Probá de nuevo
 
 ## Pair index page
 
