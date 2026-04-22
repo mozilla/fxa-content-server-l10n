@@ -1660,11 +1660,11 @@ pair-choice-legend = Seleccioná una opción para continuar:
 # Radio option: user already has Firefox for mobile — title
 pair-choice-has-mobile-title = Ya tengo { -brand-firefox } para móviles
 # Radio option: user already has Firefox for mobile — description
-pair-choice-has-mobile-description = Comience la sincronización ahora si ya tiene { -brand-firefox } en su dispositivo móvil.
+pair-choice-has-mobile-description = Empezá la sincronización ahora si ya tenés { -brand-firefox } en tu dispositivo móvil.
 # Radio option: user does not have Firefox for mobile — title
 pair-choice-needs-mobile-title = No tengo { -brand-firefox } para móviles
 # Radio option: user does not have Firefox for mobile — description
-pair-choice-needs-mobile-description = Descargá { -brand-firefox } en tu dispositivo móvil y comenzá la sincronización.
+pair-choice-needs-mobile-description = Descargá { -brand-firefox } en tu dispositivo móvil y empezá la sincronización.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Continuar
 # Success banner shown after signing in
@@ -1681,7 +1681,7 @@ pair-download-subheader = Descargar { -brand-firefox } para dispositivos móvile
 # Description for the download screen
 pair-download-description = Para sincronizar { -brand-firefox } en tu teléfono o tablet, primero tenés que descargar { -brand-firefox } para dispositivos móviles. Así es como:
 # Step 1: scan QR code. $stepNumber is the step number (1)
-pair-download-step-scan-qr = <b>Paso { $stepNumber }</b>: Descargue { -brand-firefox } escaneando este código QR con la cámara de su dispositivo móvil:
+pair-download-step-scan-qr = <b>Paso { $stepNumber }</b>: Descargá { -brand-firefox } escaneando este código QR con la cámara de tu dispositivo móvil:
 # Step 2: continue to sync. $stepNumber is the step number (2)
 pair-download-step-continue-sync = <b>Paso { $stepNumber }</b>: Seleccioná "Continuar para sincronizar" para sincronizar tu experiencia de { -brand-firefox } en tu dispositivo móvil.
 # Button on the download screen that opens about:preferences for pairing
@@ -1718,7 +1718,7 @@ pair-unsupported-message = ¿Usaste la cámara del sistema? Tenés que emparejar
 # Shown as heading when a desktop user visits from a non-Firefox browser
 pair-unsupported-oops-header = ¡Ups! Parece que no está usando { -brand-firefox }.
 # Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
-pair-unsupported-switch-to-firefox = Cambiar a { -brand-firefox } y abrir esta página para conectar otro dispositivo.
+pair-unsupported-switch-to-firefox = Cambiá a { -brand-firefox } y abrí esta página para conectar otro dispositivo.
 # Shown inline on mobile non-Firefox browsers before the download link
 pair-unsupported-oops-mobile = ¡Ups! Parece que no está usando { -brand-firefox }.
 # v2: Heading for the mobile instructional message, shown on all mobile devices

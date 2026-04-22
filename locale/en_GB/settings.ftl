@@ -958,6 +958,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Any extensions and themes that you published to addons.mozilla.org will be deleted
 delete-account-continue-button = Continue
+delete-account-delete-button-passwordless = Delete account
 delete-account-password-input =
     .label = Enter password
 delete-account-cancel-button = Cancel
@@ -1586,6 +1587,15 @@ pair-auth-complete-sync-benefits-text = Now you can access your open tabs, passw
 pair-auth-complete-see-tabs-button = See tabs from synchronised devices
 pair-auth-complete-manage-devices-link = Manage devices
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = You’re ready to send some tabs
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } for { $deviceOS } is connected.
+pair-auth-complete-send-tab-benefits = You’re free to instantly send open tabs, passwords and bookmarks between devices.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1612,9 +1622,17 @@ auth-totp-code-required-error = Authentication code required
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Approval now required <span>from your other device</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Device pairing failed
+pair-failure-message-v2 = The setup couldn’t be completed. Please sign in with your email.
+pair-failure-try-again-link = Try again
+
 ## Pair index page
 
 pair-sync-header = Synchronise { -brand-firefox } on your phone or tablet
+pair-cad-header-v2 = Connect another device
 pair-already-have-firefox-paragraph = Already have { -brand-firefox } on a phone or tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronise your device
@@ -1629,6 +1647,40 @@ pair-take-your-data-message = Take your tabs, bookmarks, and passwords anywhere 
 pair-get-started-button = Get started
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR code
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Synchronise your { -brand-firefox } experience
+# Description shown on the choice screen
+pair-choice-description = View your saved passwords, tabs, browsing history and more — across all your devices.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Download or open { -brand-firefox } on the device where you want to send tabs
+# Legend for the radio button fieldset
+pair-choice-legend = Select an option to continue:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = I already have { -brand-firefox } for mobile
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Start your synchronisation now if you already have { -brand-firefox } on your mobile device.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = I don’t have { -brand-firefox } for mobile
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Download { -brand-firefox } on your mobile device, then start your synchronisation.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Continue
+# Success banner shown after signing in
+pair-signed-in-successfully = Signed in successfully!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Account created. You’re now synchronising.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Password created. You’re now synchronising.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Download { -brand-firefox } for mobile
+# Description for the download screen
+pair-download-description = To synchronise { -brand-firefox } on your phone or tablet, you first need to download { -brand-firefox } for mobile. Here’s how:
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
