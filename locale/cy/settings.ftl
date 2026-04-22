@@ -1590,7 +1590,7 @@ legal-terms-heading = Amodau Gwasanaeth
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = A ydych chi newydd fewngofnodi i { -brand-firefox }?
+pair-auth-allow-heading-text = Ydych chi newydd fewngofnodi i { -brand-firefox }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Iawn, yn cymeradwyo'r ddyfais
@@ -1616,7 +1616,7 @@ pair-auth-complete-manage-devices-link = Rheoli dyfeisiau
 pair-auth-complete-send-tab-heading = Rydych chi'n barod i anfon rhai tabiau
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
-pair-auth-complete-send-tab-device-connected = Mae { $deviceFamily } am { $deviceOS } wedi'i gysylltu.
+pair-auth-complete-send-tab-device-connected = Mae { $deviceFamily } at gyfer { $deviceOS } wedi'i gysylltu.
 pair-auth-complete-send-tab-benefits = Mae croeso i chi anfon tabiau agored, cyfrineiriau a nodau tudalen rhwng dyfeisiau ar unwaith.
 
 ## AuthTotp page
@@ -1648,14 +1648,14 @@ pair-wait-for-supp-heading-text = Mae angen cymeradwyaeth nawr <span>o'ch dyfais
 ## PairFailure - a view which displays on failure of the device pairing process
 
 # v2: Updated wording to align with the legacy Backbone pair/failure copy.
-pair-failure-header-v2 = Methodd paru dyfais
-pair-failure-message-v2 = Nid oedd modd cwblhau'r gosodiad. Mewngofnodwch gyda'ch e-bost.
+pair-failure-header-v2 = Methodd paru dyfeisiau
+pair-failure-message-v2 = Doedd dim modd cwblhau'r gosod. Mewngofnodwch gyda'ch e-bost.
 pair-failure-try-again-link = Ceisiwch eto
 
 ## Pair index page
 
 pair-sync-header = Cydweddwch { -brand-firefox } ar eich ffôn neu dabled
-pair-cad-header-v2 = Cysylltu dyfais arall
+pair-cad-header-v2 = Cysylltwch ddyfais arall
 pair-already-have-firefox-paragraph = Oes gennych chi { -brand-firefox } ar ffôn neu dabled yn barod?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Cydweddwch eich dyfais
@@ -1674,11 +1674,11 @@ pair-qr-code-aria-label = Cod QR
 ## Choice screen — "Do you have Firefox for mobile?"
 
 # Subheader shown on the choice screen
-pair-choice-subheader = Cysoni eich { -brand-firefox } profiad
+pair-choice-subheader = Cydweddu eich profiad gyda { -brand-firefox }
 # Description shown on the choice screen
 pair-choice-description = Gweld eich cyfrineiriau wedi'u cadw, tabiau, hanes pori a mwy - ar draws eich holl ddyfeisiau.
 # Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
-pair-choice-header-send-tab = Lawrlwythwch neu agorwch { -brand-firefox } ar y ddyfais lle rydych chi am anfon tabiau
+pair-choice-header-send-tab = Llwythwch i lawr neu agor { -brand-firefox } ar y ddyfais lle rydych chi am anfon tabiau
 # Legend for the radio button fieldset
 pair-choice-legend = Dewiswch ddewis i barhau:
 # Radio option: user already has Firefox for mobile — title

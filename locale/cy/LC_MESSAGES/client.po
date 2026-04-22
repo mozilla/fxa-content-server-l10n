@@ -1969,7 +1969,9 @@ msgid ""
 "\n"
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
-msgstr "           Mae <span>%(deviceFamily)s ar gyfer %(deviceOS)s</span> wedi ei gysylltu.         "
+msgstr ""
+"           Mae <span>%(deviceFamily)s ar gyfer %(deviceOS)s</span> wedi ei gysylltu.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
@@ -1984,7 +1986,9 @@ msgid ""
 "\n"
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
-msgstr "           Rydych nawr yn cysoni gyda: <span>%(deviceFamily)s ar %(deviceOS)s</span>         "
+msgstr ""
+"           Rydych nawr yn cydweddu â: <span>%(deviceFamily)s ar %(deviceOS)s</span>\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -2024,7 +2028,7 @@ msgstr "Wedi mewngofnodi'n llwyddiannus!"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr "Dadlwythwch neu agorwch Firefox ar y ddyfais lle rydych chi am anfon tabiau"
+msgstr "Llwythwch i lawr neu agor Firefox ar y ddyfais lle rydych chi am anfon tabiau"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
