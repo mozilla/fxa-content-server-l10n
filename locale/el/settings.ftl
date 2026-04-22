@@ -1615,9 +1615,17 @@ auth-totp-code-required-error = Απαιτείται κωδικός ταυτοπ
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Απαιτείται τώρα έγκριση <span>από την άλλη συσκευή σας</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Η σύζευξη συσκευής απέτυχε
+pair-failure-message-v2 = Δεν ήταν δυνατή η ολοκλήρωση της ρύθμισης. Συνδεθείτε με το email σας.
+pair-failure-try-again-link = Δοκιμή ξανά
+
 ## Pair index page
 
 pair-sync-header = Συγχρονίστε το { -brand-firefox } στο τηλέφωνο ή το tablet σας
+pair-cad-header-v2 = Σύνδεση άλλης συσκευής
 pair-already-have-firefox-paragraph = Έχετε ήδη το { -brand-firefox } στο κινητό ή το tablet σας;
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Συγχρονισμός συσκευής
@@ -1633,10 +1641,49 @@ pair-get-started-button = Έναρξη
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Κωδικός QR
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Συγχρονίστε την εμπειρία σας με το { -brand-firefox }
+# Description shown on the choice screen
+pair-choice-description = Δείτε τους αποθηκευμένους κωδικούς πρόσβασης, τις καρτέλες, το ιστορικό περιήγησης και πολλά άλλα, σε όλες τις συσκευές σας.
+# Legend for the radio button fieldset
+pair-choice-legend = Ορίστε μια επιλογή για να συνεχίσετε:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Έχω ήδη το { -brand-firefox } για κινητές συσκευές
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Ξεκινήστε τώρα τον συγχρονισμό αν έχετε ήδη το { -brand-firefox } στην κινητή σας συσκευή.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Δεν έχω το { -brand-firefox } για κινητές συσκευές
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Κάντε λήψη του { -brand-firefox } στην κινητή σας συσκευή και ξεκινήστε τον συγχρονισμό.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Συνέχεια
+# Success banner shown after signing in
+pair-signed-in-successfully = Επιτυχής σύνδεση!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Ο λογαριασμός δημιουργήθηκε. Πραγματοποιείται τώρα συγχρονισμός.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Ο κωδικός πρόσβασης δημιουργήθηκε. Πραγματοποιείται τώρα συγχρονισμός.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Λήψη { -brand-firefox } για κινητές συσκευές
+# Description for the download screen
+pair-download-description = Για να συγχρονίσετε το { -brand-firefox } στο τηλέφωνο ή το tablet σας, θα πρέπει πρώτα να κάνετε λήψη του { -brand-firefox } για κινητές συσκευές. Δείτε πώς:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Βήμα { $stepNumber }:</b> Κάντε λήψη του { -brand-firefox } σαρώνοντας αυτόν τον κωδικό QR με την κάμερα της κινητής σας συσκευής:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Βήμα { $stepNumber }:</b> Επιλέξτε «Συνέχεια για συγχρονισμό» για να συγχρονίσετε την εμπειρία σας με το { -brand-firefox } στην κινητή σας συσκευή.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Συνέχεια για συγχρονισμό
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Η συσκευή συνδέθηκε
 pair-success-message-2 = Επιτυχής σύζευξη.
+pair-success-tab-close-message = Αυτή η καρτέλα θα κλείσει αυτόματα από το { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1660,6 +1707,25 @@ pair-wait-for-auth-heading-text = Απαιτείται έγκριση <span>απ
 
 pair-unsupported-header = Σύζευξη με εφαρμογή
 pair-unsupported-message = Χρησιμοποιήσατε την κάμερα συστήματος; Πρέπει να κάνετε σύζευξη μέσα από την εφαρμογή { -brand-firefox }.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Ωχ! Φαίνεται ότι δεν χρησιμοποιείτε το { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Κάντε εναλλαγή στο { -brand-firefox } και ανοίξτε αυτήν τη σελίδα για να συνδέσετε μια άλλη συσκευή.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Ωχ! Φαίνεται ότι δεν χρησιμοποιείτε το { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Σύνδεση της κινητής συσκευής σας, με τον λογαριασμό { -product-mozilla-account } σας.
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Ανοίξτε το { -brand-firefox } στον υπολογιστή σας, επισκεφτείτε το <b>firefox.com/pair</b> και ακολουθήστε τις οδηγίες που εμφανίζονται στην οθόνη, προκειμένου να συνδέσετε την κινητή σας συσκευή.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Μάθετε περισσότερα
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Ωχ! Κάτι πήγε στραβά.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Κλείστε αυτήν την καρτέλα και δοκιμάστε ξανά.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1915,6 +1981,7 @@ signin-passwordless-code-instruction =
         [one] Εισαγάγετε τον κωδικό που απεστάλη στο <email>{ $email }</email> εντός { $expirationMinutes } λεπτού.
        *[other] Εισαγάγετε τον κωδικό που απεστάλη στο <email>{ $email }</email> εντός { $expirationMinutes } λεπτών.
     }
+signin-passwordless-code-input-label-v2 = Εισαγάγετε τον εξαψήφιο κωδικό
 signin-passwordless-code-confirm-button = Επιβεβαίωση
 signin-passwordless-code-required-error = Απαιτείται κωδικός επιβεβαίωσης
 signin-passwordless-code-expired = Έληξε ο κωδικός;
