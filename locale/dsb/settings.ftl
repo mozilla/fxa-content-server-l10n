@@ -1749,6 +1749,7 @@ pair-unsupported-learn-more-link-v2 = Dalšne informacije
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Hopla! Něco njejo se raźiło.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2008,6 +2009,7 @@ signin-passwordless-code-instruction =
         [few] Zapódajśo kod, kótaryž jo se pósłał za { $expirationMinutes } minuty na <email>{ $email }</email>.
        *[other] Zapódajśo kod, kótaryž jo se pósłał za { $expirationMinutes } minutow na <email>{ $email }</email>.
     }
+signin-passwordless-code-input-label-v2 = 6-městnowy kod zapódaś
 signin-passwordless-code-confirm-button = Wobkšuśiś
 signin-passwordless-code-required-error = Wobkšuśeński kod trjebny
 signin-passwordless-code-expired = Kod jo spadnuł?
