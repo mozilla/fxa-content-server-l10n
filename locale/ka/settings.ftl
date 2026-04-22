@@ -1219,6 +1219,16 @@ passkey-row-action-create = შექმნა
 passkey-row-description = შედით მეტად იოლად და დაცულად თქვენი ტელეფონით ან სხვა მხარდაჭერილი მოწყობილობით ანგარიშზე.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = ვრცლად
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] უკვე გამოყენებული გაქვთ ყველა, სულ { $count } საშვი. წაშალეთ რომელიმე ახლის შესაქმნელად.
+       *[other] უკვე გამოყენებული გაქვთ ყველა, სულ { $count } საშვი. წაშალეთ რომელიმე ახლის შესაქმნელად.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = მიღწეულია საშვების ნებადართული რაოდენობა.
 
 ## Account recovery key sub-section on main Settings page
 
