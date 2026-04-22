@@ -98,7 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = თუ თქვენ არაფერი მოგიმოქმედებიათ, მაშინ გაანულეთ პაროლი დაუყოვნებლივ:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = ამასთანავე, ხელახლა გამართეთ ორბიჯიანი დამოწმება:
-automated-email-sign-in-plaintext = თუ ეს მოქმედება თქვენს უნებართვოდ შესრულდა, გთხოვთ გადახედოთ თქვენი ანგარიშის უსაფრთხოების პარამეტრებს:
+automated-email-sign-in =
+    ეს წერილი თავისით იგზავნება; თუ მოცემული მოქმედება თქვენ უნებართვოდ შესრულდა, მაშინ გთხოვთ <a data-l10n-name="securitySettingsLink">გადაამოწმოთ თქვენი ანგარიშის უსაფრთხოების პარამეტრები.</a>.
+    დაწვრილებით იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla } – მხარდაჭერის გვერდი</a>.
+automated-email-sign-in-plaintext = თუ მოცემული მოქმედება თქვენ უნებართვოდ შესრულდა, გთხოვთ გადახედოთ თქვენი ანგარიშის უსაფრთხოების პარამეტრებს:
 brand-banner-message = იცოდით, რომ { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts }? <a data-l10n-name="learnMore">ვრცლად</a>
 change-password-plaintext = თუ ეჭვობთ, რომ ვინმე თქვენს ანგარიშთან წვდომის მოპოვებას ცდილობს, გთხოვთ, შეცვალეთ თქვენი პაროლი.
 manage-account = ანგარიშის მართვა
