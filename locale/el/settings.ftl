@@ -960,6 +960,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Όλες οι επεκτάσεις και τα θέματα που έχετε δημοσιεύει στο addons.mozilla.org θα διαγραφούν
 delete-account-continue-button = Συνέχεια
+delete-account-delete-button-passwordless = Διαγραφή λογαριασμού
 delete-account-password-input =
     .label = Εισαγωγή κωδικού πρόσβασης
 delete-account-cancel-button = Ακύρωση
