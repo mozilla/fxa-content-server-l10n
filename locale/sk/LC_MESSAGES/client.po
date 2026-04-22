@@ -1956,7 +1956,7 @@ msgstr "Ak ste to neboli vy, <a id=\"change-password\" class=\"link-blue\">zmeň
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "Ste pripravení odoslať niekoľko kariet"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
