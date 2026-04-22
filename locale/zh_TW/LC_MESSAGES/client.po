@@ -2002,7 +2002,7 @@ msgstr "登入成功！"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "在您想要傳送分頁的裝置上下載或開啟 Firefox"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"

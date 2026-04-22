@@ -1611,6 +1611,20 @@ pair-qr-code-aria-label = QR code
 
 # Subheader shown on the choice screen
 pair-choice-subheader = 同步您的 { -brand-firefox } 使用體驗
+# Description shown on the choice screen
+pair-choice-description = 在您的所有裝置都能檢視儲存的密碼、分頁、瀏覽紀錄等資訊。
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = 在您想要傳送分頁的裝置上下載或開啟 { -brand-firefox }
+# Legend for the radio button fieldset
+pair-choice-legend = 請選擇一個選項繼續：
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = 我已經安裝 { -brand-firefox } 行動版
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = 如果您已經在行動裝置上安裝 { -brand-firefox }，就可以立即進行同步。
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = 我還沒安裝 { -brand-firefox } 行動版
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = 在您的行動裝置下載 { -brand-firefox }，然後進行同步。
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = 繼續
 # Success banner shown after signing in

@@ -1684,11 +1684,11 @@ pair-choice-legend = Dewiswch ddewis i barhau:
 # Radio option: user already has Firefox for mobile — title
 pair-choice-has-mobile-title = Mae gen i { -brand-firefox } ar gyfer ffôn symudol yn barod
 # Radio option: user already has Firefox for mobile — description
-pair-choice-has-mobile-description = Dechreuwch eich cysoni nawr os oes gennych chi eisoes { -brand-firefox } ar eich dyfais symudol.
+pair-choice-has-mobile-description = Dechreuwch eich cydweddu nawr os oes gennych chi eisoes { -brand-firefox } ar eich dyfais symudol.
 # Radio option: user does not have Firefox for mobile — title
-pair-choice-needs-mobile-title = Nid oes gennyf { -brand-firefox } ar gyfer ffôn symudol
+pair-choice-needs-mobile-title = Does gen i ddim { -brand-firefox } ar gyfer ffôn symudol
 # Radio option: user does not have Firefox for mobile — description
-pair-choice-needs-mobile-description = Lawrlwythwch { -brand-firefox } ar eich dyfais symudol, yna dechreuwch eich cysoni.
+pair-choice-needs-mobile-description = Llwythwch { -brand-firefox } i lawr ar eich dyfais symudol, yna dechrau eich cydweddu.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Parhau
 # Success banner shown after signing in
@@ -1701,13 +1701,13 @@ pair-password-created-now-syncing = Cyfrinair wedi'i greu. Rydych chi nawr yn cy
 ## Download screen — shown after selecting "I don’t have Firefox for mobile"
 
 # Subheader for the download screen
-pair-download-subheader = Lawrlwythwch { -brand-firefox } ar gyfer ffôn symudol
+pair-download-subheader = Llwythwch { -brand-firefox } i lawr ar gyfer ffôn symudol
 # Description for the download screen
-pair-download-description = I gysoni { -brand-firefox } ar eich ffôn neu dabled, yn gyntaf mae angen i chi lawrlwytho { -brand-firefox } ar gyfer ffôn symudol. Dyma sut:
+pair-download-description = I gydweddu { -brand-firefox } ar eich ffôn neu dabled, yn gyntaf mae angen i chi lwytho { -brand-firefox } i lawr ar gyfer dyfeisiau symudol. Dyma sut:
 # Step 1: scan QR code. $stepNumber is the step number (1)
-pair-download-step-scan-qr = <b>Cam { $stepNumber }</b>: Lawrlwythwch { -brand-firefox } drwy sganio'r cod QR hwn gyda'r camera ar eich dyfais symudol:
+pair-download-step-scan-qr = <b>Cam { $stepNumber }</b>: Llwythwch { -brand-firefox } i lawr drwy sganio'r cod QR hwn gyda'r camera ar eich dyfais symudol:
 # Step 2: continue to sync. $stepNumber is the step number (2)
-pair-download-step-continue-sync = <b>Cam { $stepNumber }</b>: Dewiswch "Parhau i gysoni" i gysoni eich profiad { -brand-firefox } ar eich dyfais symudol.
+pair-download-step-continue-sync = <b>Cam { $stepNumber }</b>: Dewiswch "Parhau i gydweddu" i gydweddu eich profiad o { -brand-firefox } ar eich dyfais symudol.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Parhau i gydweddu
 
