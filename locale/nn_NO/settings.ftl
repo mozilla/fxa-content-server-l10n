@@ -958,6 +958,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Eventuelle utvidingar og tema som du har publisert på addons.mozilla.org vert sletta
 delete-account-continue-button = Hald fram
+delete-account-delete-button-passwordless = Slett kontoen
 delete-account-password-input =
     .label = Skriv inn passord
 delete-account-cancel-button = Avbryt
@@ -1621,6 +1622,11 @@ pair-get-started-button = Kom i gang
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-kode
 
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Hald fram til synkronisering
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Eining tilkopla
@@ -1648,6 +1654,12 @@ pair-wait-for-auth-heading-text = Godkjenning er no påkravd <span>frå den andr
 
 pair-unsupported-header = Paring via ein app
 pair-unsupported-message = Brukte du systemkameraet? Du må pare med ein { -brand-firefox }-app.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Les meir
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Ops! Noko gjekk gale.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Lat att denne fana og prøv på nytt.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1903,6 +1915,7 @@ signin-passwordless-code-instruction =
         [one] Skriv inn koden som vart sendt til <email>{ $email }</email> innan { $expirationMinutes } minutt.
        *[other] Skriv inn koden som vart sendt til <email>{ $email }</email> innan { $expirationMinutes } minutt.
     }
+signin-passwordless-code-input-label-v2 = Skriv inn 6-sifra kode
 signin-passwordless-code-confirm-button = Stadfest
 signin-passwordless-code-required-error = Stadfestingskode påkravd
 signin-passwordless-code-expired = Har koden gått ut?

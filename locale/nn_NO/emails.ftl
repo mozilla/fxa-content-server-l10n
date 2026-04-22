@@ -262,6 +262,7 @@ postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
 postAddPasskey-subject = Passnøkkel oppretta
+postAddPasskey-preview = Du kan no bruke eininga di til å logge på
 postAddPasskey-title = Du oppretta ein passnøkkel
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Les meir
