@@ -1604,9 +1604,12 @@ pair-auth-complete-manage-devices-link = Graty rjadować
 
 ## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
 
+# Heading
+pair-auth-complete-send-tab-heading = Sće hotowy, zo byšće někotre rajtarki pósłał
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } za { $deviceOS } je zwjazany.
+pair-auth-complete-send-tab-benefits = Móžeće hnydom wočinjene rajtarki, hesła zapołožki mjez gratami pósłać.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1666,6 +1669,8 @@ pair-qr-code-aria-label = QR-kod
 pair-choice-subheader = Synchronizujće swoje dožiwjenje { -brand-firefox }
 # Description shown on the choice screen
 pair-choice-description = Wobhladajće sej swoje składowane hesła, rajtarki, přehladowansku historiju a wjace – na wšěch swojich gratach.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Sćehńće abo wočińće { -brand-firefox } na graće, na kotrymž chceće rajtarki pósłać
 # Legend for the radio button fieldset
 pair-choice-legend = Wubjerće nastajenje, zo byšće pokročował:
 # Radio option: user already has Firefox for mobile — title
@@ -1702,6 +1707,7 @@ pair-continue-to-sync-button = Dale k synchronizaciji
 
 pair-success-header-2 = Grat je zwjazany
 pair-success-message-2 = Koplowanje je so poradźiło.
+pair-success-tab-close-message = Tutón rajtark so awtomatisce přez { -brand-firefox } začini.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
