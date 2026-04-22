@@ -1519,9 +1519,17 @@ auth-totp-code-required-error = Wymagany jest kod uwierzytelniania
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Teraz wymagane jest zatwierdzenie <span>z innego używanego urządzenia</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Powiązanie urządzenia się nie powiodło
+pair-failure-message-v2 = Nie udało się dokończyć konfiguracji. Proszę zalogować się za pomocą adresu e-mail.
+pair-failure-try-again-link = Spróbuj ponownie
+
 ## Pair index page
 
 pair-sync-header = Synchronizuj { -brand-firefox(case: "acc") } na telefonie lub tablecie
+pair-cad-header-v2 = Połącz inne urządzenie
 pair-already-have-firefox-paragraph = Masz już { -brand-firefox(case: "acc") } na telefonie lub tablecie?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizuj swoje urządzenie
@@ -1564,6 +1572,10 @@ pair-wait-for-auth-heading-text = Teraz wymagane jest zatwierdzenie <span>z inn
 
 pair-unsupported-header = Powiąż za pomocą aplikacji
 pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji { -brand-firefox }.
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Ups! Coś poszło nie tak.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Proszę zamknąć tę kartę i spróbować ponownie.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
