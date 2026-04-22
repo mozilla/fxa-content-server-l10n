@@ -968,6 +968,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Rozšěrjenja, kotrež sće na addons.mozilla.org wozjewił, so zhašeja.
 delete-account-continue-button = Dale
+delete-account-delete-button-passwordless = Konto zhašeć
 delete-account-password-input =
     .label = Hesło zapodać
 delete-account-cancel-button = Přetorhnyć
@@ -1601,6 +1602,12 @@ pair-auth-complete-sync-benefits-text = Nětko maće přistup k swojim wočinjen
 pair-auth-complete-see-tabs-button = Rajtarki ze synchronizowanych gratow pokazać
 pair-auth-complete-manage-devices-link = Graty rjadować
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } za { $deviceOS } je zwjazany.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1627,9 +1634,17 @@ auth-totp-code-required-error = Awtentifikaciski kod trěbny
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Schwalenje je nětko <span>wot wašeho druheho grata</span> trěbne
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Koplowanje gratow njeje so poradźiło
+pair-failure-message-v2 = Instalaciski proces njeda so dokónčić. Prošu přizjewće so ze swojej e-mejlowej adresu.
+pair-failure-try-again-link = Hišće raz spytać
+
 ## Pair index page
 
 pair-sync-header = { -brand-firefox } na swójim šmóratce abo tableće synchronizować
+pair-cad-header-v2 = Z druhim gratom zwjazać
 pair-already-have-firefox-paragraph = Maće hižo { -brand-firefox } na šmóratce abo tableće?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronizujće swój grat
@@ -1644,6 +1659,44 @@ pair-take-your-data-message = Wzmiće swoje rajtarki, zapołožki a hesła wšud
 pair-get-started-button = Prěnje kroki
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-kod
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Synchronizujće swoje dožiwjenje { -brand-firefox }
+# Description shown on the choice screen
+pair-choice-description = Wobhladajće sej swoje składowane hesła, rajtarki, přehladowansku historiju a wjace – na wšěch swojich gratach.
+# Legend for the radio button fieldset
+pair-choice-legend = Wubjerće nastajenje, zo byšće pokročował:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Mam hižo { -brand-firefox } za mobilne graty
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Startujće swoju synchronizaciju, jeli hižo { -brand-firefox } na swojim mobilnym graće maće.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Nimam { -brand-firefox } za mobilne graty
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Sćehńće { -brand-firefox } do swojeho mobilneho grata a startujće potom swoju synchronizaciju.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Dale
+# Success banner shown after signing in
+pair-signed-in-successfully = Wuspěšnje přizjewjeny!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Konto je so wutworiło. Synchronizujeće nětko.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Hesło je so wutworiło. Synchronizujeće nětko.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = { -brand-firefox } za mobilne graty sćahnyć
+# Description for the download screen
+pair-download-description = Zo byšće { -brand-firefox } na swojim telefonje abo tableće synchronizował, dyrbiće najprjedy { -brand-firefox } za mobilne graty sćahnyć. Tak to dźe:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Krok { $stepNumber }</b>: Skenujće tutón QR-kod z kameru na swojim mobilnym graće, zo byšće { -brand-firefox } sćahnył:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Krok { $stepNumber }</b>: Wubjerće „Dale k synchronizaciji“, zo byšće swoje dožiwjenje { -brand-firefox } na swojim mobilnym graće synchronizował.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Dale k synchronizaciji
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1672,6 +1725,25 @@ pair-wait-for-auth-heading-text = Schwalenje je nětko <span>wot wašeho druheho
 
 pair-unsupported-header = Z nałoženjom koplować
 pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju { -brand-firefox } koplować.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Hopla! Po wšěm zdaću { -brand-firefox } njewužiwaće.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Wužiwajće { -brand-firefox } a wočińće tutu stronu, zo byšće z druhim gratom zwjazał.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Hopla! Po wšěm zdaću { -brand-firefox } njewužiwaće.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Waš mobilny grat z wašim kontom { -product-mozilla-account } zwjazać
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Wočińće { -brand-firefox } na swojim ličaku, wopytajće <b>firefox.com/pair</b> a slědujće instrukcijam na wobrazowce, zo byšće swój mobilny grat zwjazał.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Dalše informacije
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Hopla! Něšto je so nimokuliło.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Prošu začińće tutón rajtark a spytajće hišće raz.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1931,6 +2003,7 @@ signin-passwordless-code-instruction =
         [few] Zapodajće kod, kotryž je so za { $expirationMinutes } mjeńšiny na <email>{ $email }</email> pósłał.
        *[other] Zapodajće kod, kotryž je so za { $expirationMinutes } mjeńšin na <email>{ $email }</email> pósłał.
     }
+signin-passwordless-code-input-label-v2 = 6-městnowy kod zapodać
 signin-passwordless-code-confirm-button = Wobkrućić
 signin-passwordless-code-required-error = Wobkrućenski kod trěbny
 signin-passwordless-code-expired = Je kod spadnył?
