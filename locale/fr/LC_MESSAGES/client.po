@@ -1969,7 +1969,7 @@ msgid ""
 "\n"
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
-msgstr "           <span>%(deviceFamily)s pour %(deviceOS)s</span> est connecté.         "
+msgstr "<span>%(deviceFamily)s pour %(deviceOS)s</span> est connecté."
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
