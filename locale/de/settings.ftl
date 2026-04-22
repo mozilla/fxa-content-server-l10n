@@ -1658,11 +1658,11 @@ pair-choice-header-send-tab = Laden Sie { -brand-firefox } herunter oder öffnen
 # Legend for the radio button fieldset
 pair-choice-legend = Wählen Sie eine Option, um fortzufahren:
 # Radio option: user already has Firefox for mobile — title
-pair-choice-has-mobile-title = Ich habe bereits { -brand-firefox } für Mobilgeräte
+pair-choice-has-mobile-title = Ich habe { -brand-firefox } für Mobilgeräte bereits
 # Radio option: user already has Firefox for mobile — description
 pair-choice-has-mobile-description = Starten Sie die Synchronisation jetzt, wenn Sie bereits { -brand-firefox } auf Ihrem Mobilgerät haben.
 # Radio option: user does not have Firefox for mobile — title
-pair-choice-needs-mobile-title = Ich habe keine { -brand-firefox } für Mobilgeräte
+pair-choice-needs-mobile-title = Ich habe keinen { -brand-firefox } für Mobilgeräte
 # Radio option: user does not have Firefox for mobile — description
 pair-choice-needs-mobile-description = Laden Sie { -brand-firefox } auf Ihr Mobilgerät herunter und starten Sie die Synchronisierung.
 # Continue button on choice screen (disabled until a radio option is selected)
@@ -1679,7 +1679,7 @@ pair-password-created-now-syncing = Passwort erstellt. Sie synchronisieren jetzt
 # Subheader for the download screen
 pair-download-subheader = { -brand-firefox } für Mobilgeräte herunterladen
 # Description for the download screen
-pair-download-description = Um { -brand-firefox } auf Ihrem Telefon oder Tablet zu synchronisieren, müssen Sie zuerst { -brand-firefox } für Mobilgeräte herunterladen. So geht's:
+pair-download-description = Um { -brand-firefox } auf Ihrem Mobiltelefon oder Tablet zu synchronisieren, müssen Sie zuerst { -brand-firefox } für Mobilgeräte herunterladen. So geht's:
 # Step 1: scan QR code. $stepNumber is the step number (1)
 pair-download-step-scan-qr = <b>Schritt { $stepNumber }</b>: Laden Sie { -brand-firefox } herunter, indem Sie diesen QR-Code mit der Kamera Ihres Mobilgeräts scannen:
 # Step 2: continue to sync. $stepNumber is the step number (2)
@@ -1691,7 +1691,7 @@ pair-continue-to-sync-button = Weiter zur Synchronisierung
 
 pair-success-header-2 = Gerät verbunden
 pair-success-message-2 = Kopplung erfolgreich.
-pair-success-tab-close-message = Dieser Tab wird automatisch um { -brand-firefox } geschlossen.
+pair-success-tab-close-message = Dieser Tab wird von { -brand-firefox } automatisch geschlossen.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
