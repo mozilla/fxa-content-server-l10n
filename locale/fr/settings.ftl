@@ -1652,9 +1652,9 @@ pair-choice-header-send-tab = Téléchargez ou ouvrez { -brand-firefox } sur l�
 # Legend for the radio button fieldset
 pair-choice-legend = Sélectionnez une option pour continuer :
 # Radio option: user already has Firefox for mobile — title
-pair-choice-has-mobile-title = J'ai déjà { -brand-firefox } pour mobile
+pair-choice-has-mobile-title = J’ai déjà { -brand-firefox } pour mobile
 # Radio option: user already has Firefox for mobile — description
-pair-choice-has-mobile-description = Commencez votre synchronisation maintenant si vous avez déjà { -brand-firefox } sur votre appareil mobile.
+pair-choice-has-mobile-description = Lancez la synchronisation maintenant si vous avez déjà { -brand-firefox } sur votre appareil mobile.
 # Radio option: user does not have Firefox for mobile — title
 pair-choice-needs-mobile-title = Je n’ai pas { -brand-firefox } pour mobile
 # Radio option: user does not have Firefox for mobile — description
@@ -1677,7 +1677,7 @@ pair-download-description = Pour synchroniser { -brand-firefox } sur votre tél�
 # Step 1: scan QR code. $stepNumber is the step number (1)
 pair-download-step-scan-qr = <b>Étape { $stepNumber }</b> : téléchargez { -brand-firefox } en scannant ce code QR avec l’appareil photo de votre appareil mobile :
 # Step 2: continue to sync. $stepNumber is the step number (2)
-pair-download-step-continue-sync = <b>Étape { $stepNumber }</b> : sélectionnez « Continuer la synchronisation » pour synchroniser vos { -brand-firefox } sur votre appareil mobile.
+pair-download-step-continue-sync = <b>Étape { $stepNumber }</b> : sélectionnez « Continuer la synchronisation » pour synchroniser { -brand-firefox } sur votre appareil mobile.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Continuer la synchronisation
 
