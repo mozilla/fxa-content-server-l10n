@@ -958,6 +958,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Alle extensies en thema’s die u op addons.mozilla.org hebt gepubliceerd zullen worden verwijderd
 delete-account-continue-button = Doorgaan
+delete-account-delete-button-passwordless = Account verwijderen
 delete-account-password-input =
     .label = Voer wachtwoord in
 delete-account-cancel-button = Annuleren
@@ -1587,6 +1588,15 @@ pair-auth-complete-sync-benefits-text = U hebt nu op al uw apparaten toegang tot
 pair-auth-complete-see-tabs-button = Tabbladen van gesynchroniseerde apparaten bekijken
 pair-auth-complete-manage-devices-link = Apparaten beheren
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = U bent klaar om enkele tabbladen te verzenden
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } voor { $deviceOS } is verbonden.
+pair-auth-complete-send-tab-benefits = U bent vrij om direct open tabbladen, wachtwoorden en bladwijzers tussen apparaten te verzenden.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1612,6 +1622,12 @@ auth-totp-code-required-error = Authenticatiecode vereist
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Goedkeuring <span>vanaf uw andere apparaat</span> nu vereist
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Apparaatkoppeling mislukt
+pair-failure-message-v2 = De installatie kon niet worden voltooid. Meld u aan met uw e-mailadres.
 
 ## Pair index page
 
