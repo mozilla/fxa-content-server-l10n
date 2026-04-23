@@ -1598,7 +1598,7 @@ pair-auth-complete-manage-devices-link = Eszközök kezelése
 pair-auth-complete-send-tab-heading = Készen áll néhány lap küldésére
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
-pair-auth-complete-send-tab-device-connected = { $deviceFamily } for { $deviceOS } csatlakoztatva van.
+pair-auth-complete-send-tab-device-connected = A { $deviceFamily } for { $deviceOS } kapcsolódik.
 pair-auth-complete-send-tab-benefits = A megnyitott lapokat, jelszavakat és könyvjelzőket azonnal átküldheti az eszközök között.
 
 ## AuthTotp page
@@ -1630,7 +1630,7 @@ pair-wait-for-supp-heading-text = Most jóváhagyás szükséges <span>a másik 
 ## PairFailure - a view which displays on failure of the device pairing process
 
 # v2: Updated wording to align with the legacy Backbone pair/failure copy.
-pair-failure-header-v2 = Az eszközpárosítás sikertelen
+pair-failure-header-v2 = Nem sikerült az eszközpárosítás
 pair-failure-message-v2 = A telepítés nem fejezhető be. Jelentkezzen be az e-mail-címével.
 pair-failure-try-again-link = Próbálja újra
 
@@ -1656,21 +1656,21 @@ pair-qr-code-aria-label = QR-kód
 ## Choice screen — "Do you have Firefox for mobile?"
 
 # Subheader shown on the choice screen
-pair-choice-subheader = Szinkronizálja a(z) { -brand-firefox } élményét
+pair-choice-subheader = Szinkronizálja a { -brand-firefox }-élményét
 # Description shown on the choice screen
-pair-choice-description = Tekintse meg a mentett jelszavait, lapjait, böngészési előzményeit és egyebeket – az összes eszközén.
+pair-choice-description = Tekintse meg a mentett jelszavait, lapjait, böngészési előzményeit és egyebeit – az összes eszközén.
 # Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
-pair-choice-header-send-tab = Töltse le vagy nyissa meg a(z) { -brand-firefox } programot, ahová a lapokat szeretné küldeni
+pair-choice-header-send-tab = Töltse le vagy nyissa meg a { -brand-firefox }ot azon az eszközön, ahová a lapokat szeretné küldeni
 # Legend for the radio button fieldset
 pair-choice-legend = Válasszon egy lehetőséget a folytatáshoz:
 # Radio option: user already has Firefox for mobile — title
-pair-choice-has-mobile-title = Már van { -brand-firefox } mobilom
+pair-choice-has-mobile-title = Már van mobilos { -brand-firefox }om
 # Radio option: user already has Firefox for mobile — description
-pair-choice-has-mobile-description = Indítsa el a szinkronizálást most, ha már van { -brand-firefox } a mobileszközén.
+pair-choice-has-mobile-description = Indítsa el a szinkronizálást most, ha már rendelkezik { -brand-firefox }szal a mobileszközén.
 # Radio option: user does not have Firefox for mobile — title
-pair-choice-needs-mobile-title = Nincs { -brand-firefox } mobilom
+pair-choice-needs-mobile-title = Nincs mobilos { -brand-firefox }om
 # Radio option: user does not have Firefox for mobile — description
-pair-choice-needs-mobile-description = Töltse le a(z) { -brand-firefox } alkalmazást a mobileszközére, majd indítsa el a szinkronizálást.
+pair-choice-needs-mobile-description = Töltse le a { -brand-firefox }ot a mobileszközére, majd indítsa el a szinkronizálást.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Folytatás
 # Success banner shown after signing in
@@ -1685,11 +1685,11 @@ pair-password-created-now-syncing = Jelszó létrehozva. Most már szinkronizál
 # Subheader for the download screen
 pair-download-subheader = { -brand-firefox } letöltése mobilra
 # Description for the download screen
-pair-download-description = Hogy szinkronizálja a(z) { -brand-firefox } telefonját vagy táblagépét, először le kell töltenie a következőt: { -brand-firefox } mobilra. Így teheti:
+pair-download-description = A { -brand-firefox } telefonján vagy táblagépén történő szinkronizálásához először le kell töltenie a mobilos { -brand-firefox }ot. Így teheti:
 # Step 1: scan QR code. $stepNumber is the step number (1)
-pair-download-step-scan-qr = <b>{ $stepNumber }</b> lépés: Töltse le a(z) { -brand-firefox } alkalmazást ezen QR kód beolvasásával a mobileszköz kamerájával:
+pair-download-step-scan-qr = <b>{ $stepNumber }. lépés</b>: Töltse le a { -brand-firefox }ot úgy, hogy leolvassa ezt a QR-kódot a mobileszköze kamerájával:
 # Step 2: continue to sync. $stepNumber is the step number (2)
-pair-download-step-continue-sync = <b>{ $stepNumber } lépés</b>: Válassza a „Tovább a szinkronizáláshoz” lehetőséget, hogy szinkronizálja a mobileszközén tapasztalt { -brand-firefox } élményét.
+pair-download-step-continue-sync = <b>{ $stepNumber }. lépés</b>: Válassza a „Tovább a szinkronizáláshoz” lehetőséget, hogy szinkronizálja a { -brand-firefox }-élményét a mobileszközén.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Tovább a szinkronizáláshoz
 
@@ -1697,7 +1697,7 @@ pair-continue-to-sync-button = Tovább a szinkronizáláshoz
 
 pair-success-header-2 = Eszköz csatlakoztatva
 pair-success-message-2 = A párosítás sikeres volt.
-pair-success-tab-close-message = Ez a lap automatikusan bezáródik { -brand-firefox }-ig.
+pair-success-tab-close-message = A { -brand-firefox } automatikusan bezárja ezt a lapot.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1722,18 +1722,18 @@ pair-wait-for-auth-heading-text = Most jóváhagyás szükséges <span>a másik 
 pair-unsupported-header = Párosítás egy alkalmazás segítségével
 pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy { -brand-firefox } alkalmazásból.
 # Shown as heading when a desktop user visits from a non-Firefox browser
-pair-unsupported-oops-header = Hoppá! Úgy tűnik, hogy nem ezt használja: { -brand-firefox }.
+pair-unsupported-oops-header = Hoppá! Úgy tűnik, hogy nem { -brand-firefox }ot használ.
 # Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
-pair-unsupported-switch-to-firefox = Váltson erre: { -brand-firefox }, és nyissa meg ezt az oldalt egy másik eszköz csatlakoztatásához.
+pair-unsupported-switch-to-firefox = Váltson a { -brand-firefox }ra, és nyissa meg ezt az oldalt egy másik eszköz csatlakoztatásához.
 # Shown inline on mobile non-Firefox browsers before the download link
-pair-unsupported-oops-mobile = Hoppá! Úgy tűnik, hogy nem ezt használja: { -brand-firefox }.
+pair-unsupported-oops-mobile = Hoppá! Úgy tűnik, hogy nem a { -brand-firefox }ot használja.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
-pair-unsupported-connecting-mobile-header-v2 = A mobileszköz összekapcsolása a(z) { -product-mozilla-account } eszközével
+pair-unsupported-connecting-mobile-header-v2 = A mobileszköze összekapcsolása a { -product-mozilla-account }jával
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
-pair-unsupported-connecting-mobile-instructions-v2 = Nyissa meg a(z) { -brand-firefox } programot a számítógépén, keresse fel a <b>firefox.com/pair</b> oldalt, és kövesse a képernyőn megjelenő utasításokat a mobileszköz csatlakoztatásához.
+pair-unsupported-connecting-mobile-instructions-v2 = Nyissa meg a { -brand-firefox }ot a számítógépén, keresse fel a <b>firefox.com/pair</b> oldalt, és kövesse a képernyőn megjelenő utasításokat a mobileszköz csatlakoztatásához.
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = További tudnivalók
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
