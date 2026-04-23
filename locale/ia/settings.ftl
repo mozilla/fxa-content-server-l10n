@@ -1732,7 +1732,7 @@ pair-unsupported-oops-mobile = Oops! Il pare que tu non usa { -brand-firefox }.
 pair-unsupported-connecting-mobile-header-v2 = Connectente tu apparato mobile con tu { -product-mozilla-account }
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
-pair-unsupported-connecting-mobile-instructions-v2 = Aperi { -brand-firefox } sur tu computator, visita <b class="whitespace-nowrap">firefox.com/pair</b>, e seque le instructiones sur-le-schermo pro connecter tu apparato mobile.
+pair-unsupported-connecting-mobile-instructions-v2 = Aperi { -brand-firefox } sur tu computator, visita <b>firefox.com/pair</b>, e seque le instructiones sur-le-schermo pro connecter tu apparato mobile.
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = Pro saper plus
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
