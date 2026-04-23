@@ -1628,10 +1628,12 @@ pair-wait-for-supp-heading-text = Goedkeuring <span>vanaf uw andere apparaat</sp
 # v2: Updated wording to align with the legacy Backbone pair/failure copy.
 pair-failure-header-v2 = Apparaatkoppeling mislukt
 pair-failure-message-v2 = De installatie kon niet worden voltooid. Meld u aan met uw e-mailadres.
+pair-failure-try-again-link = Opnieuw proberen
 
 ## Pair index page
 
 pair-sync-header = { -brand-firefox } synchroniseren op uw telefoon of tablet
+pair-cad-header-v2 = Een ander apparaat verbinden
 pair-already-have-firefox-paragraph = Hebt u al { -brand-firefox } op een telefoon of tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Uw apparaat synchroniseren
@@ -1647,10 +1649,51 @@ pair-get-started-button = Beginnen
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-code
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Synchroniseer uw { -brand-firefox }-ervaring
+# Description shown on the choice screen
+pair-choice-description = Bekijk uw opgeslagen wachtwoorden, tabbladen, navigatiegeschiedenis en meer – op al uw apparaten.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Download of open { -brand-firefox } op het apparaat waarnaar u tabbladen wilt verzenden
+# Legend for the radio button fieldset
+pair-choice-legend = Selecteer een optie om door te gaan:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Ik heb { -brand-firefox } voor mobiel al
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Begin nu met synchroniseren als u { -brand-firefox } al op uw mobiele apparaat hebt staan.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Ik heb { -brand-firefox } voor mobiel nog niet
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Download { -brand-firefox } op uw mobiele apparaat en start daarna met synchroniseren.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Doorgaan
+# Success banner shown after signing in
+pair-signed-in-successfully = Met succes aangemeld!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Account aangemaakt. U synchroniseert nu.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Wachtwoord aangemaakt. U synchroniseert nu.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = { -brand-firefox } voor mobiel downloaden
+# Description for the download screen
+pair-download-description = Om { -brand-firefox } op uw telefoon of tablet te synchroniseren, dient u eerst { -brand-firefox } voor mobiel te downloaden. U doet dit als volgt:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Stap { $stepNumber }</b>: download { -brand-firefox } door deze QR-code te scannen met de camera op uw mobiele apparaat:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Stap { $stepNumber }</b>: selecteer ‘Doorgaan om te synchroniseren’ om uw { -brand-firefox }-ervaring op uw mobiele apparaat te synchroniseren.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Doorgaan om te synchroniseren
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Apparaat verbonden
 pair-success-message-2 = Koppelen gelukt.
+pair-success-tab-close-message = Dit tabblad wordt automatisch gesloten door { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1674,6 +1717,25 @@ pair-wait-for-auth-heading-text = Goedkeuring <span>vanaf uw andere apparaat</sp
 
 pair-unsupported-header = Koppelen via een app
 pair-unsupported-message = Hebt u de systeemcamera gebruikt? U moet koppelen vanuit een { -brand-firefox }-app.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Oeps! Het lijkt erop dat u geen { -brand-firefox } gebruikt.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Schakel over naar { -brand-firefox } en open deze pagina om een ander apparaat te verbinden.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Oeps! Het lijkt erop dat u geen { -brand-firefox } gebruikt.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Uw mobiele apparaat verbinden met uw { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Open { -brand-firefox } op uw computer, bezoek <b>firefox.com/pair</b> en volg de instructies op het scherm om uw mobiele apparaat te verbinden.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Meer info
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Oeps, er is iets misgegaan.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Sluit dit tabblad en probeer het opnieuw.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1926,6 +1988,7 @@ signin-passwordless-code-instruction =
         [one] Voer binnen { $expirationMinutes } minuut de code in die naar <email>{ $email }</email> is verzonden.
        *[other] Voer binnen { $expirationMinutes } minuten de code in die naar <email>{ $email }</email> is verzonden.
     }
+signin-passwordless-code-input-label-v2 = Voer 6-cijferige code in
 signin-passwordless-code-confirm-button = Bevestigen
 signin-passwordless-code-required-error = Bevestigingscode vereist
 signin-passwordless-code-expired = Code verlopen?
