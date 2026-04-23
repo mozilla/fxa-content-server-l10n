@@ -1617,9 +1617,17 @@ auth-totp-code-required-error = Codice de authentication requirite
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Approbation necessari ora <span>ab tu altere apparato</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Accopulamento de apparato fallite
+pair-failure-message-v2 = Le configuration non pote esser completate. Per favor, accede per tu email.
+pair-failure-try-again-link = Retentar
+
 ## Pair index page
 
 pair-sync-header = Synchronisa { -brand-firefox } sur tu telephono o tabletta
+pair-cad-header-v2 = Connecter un altere apparato
 pair-already-have-firefox-paragraph = Ha tu jam { -brand-firefox } sur un telephono o tabletta?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synchronisa tu apparato
@@ -1634,6 +1642,32 @@ pair-take-your-data-message = Porta tu schedas, marcapaginas e contrasignos ubiq
 pair-get-started-button = Comenciar
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Codice QR
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Description shown on the choice screen
+pair-choice-description = Vide tu contrasignos, schedas, chronologia de navigation salvate e altero, inter tote tu apparatos.
+# Legend for the radio button fieldset
+pair-choice-legend = Selige un option pro continuar:
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Discarga { -brand-firefox } sur tu apparato mobile, pois initia tu synchronisation.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Continuar
+# Success banner shown after signing in
+pair-signed-in-successfully = Authenticate con successo!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Conto create. Ora tu sta a synchronisar.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Contrasigno create. Ora tu sta a synchronisar.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Discargar { -brand-firefox } pro mobile
+# Description for the download screen
+pair-download-description = Pro synchronisar { -brand-firefox } sur tu telephono o tabletta, tu primo debe discargar { -brand-firefox } pro apparato mobile. Ecce como:
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Continuar a synchronisar
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1662,6 +1696,22 @@ pair-wait-for-auth-heading-text = Approbation necessari ora <span>ab tu altere a
 
 pair-unsupported-header = Accopulamento per un application
 pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular ab intra un application de { -brand-firefox }.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Oops! Il pare que tu non usa { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Passa a { -brand-firefox } e aperi iste pagina pro connecter un altere apparato.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Oops! Il pare que tu non usa { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Connectente tu apparato mobile con tu { -product-mozilla-account }
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Pro saper plus
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Oppla! Alco errate eveniva.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Claude iste scheda e reproba.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1912,6 +1962,7 @@ signin-passwordless-code-instruction =
         [one] Insere le codice inviate a <email>{ $email }</email> in { $expirationMinutes } minuta.
        *[other] Insere le codice inviate a <email>{ $email }</email> in { $expirationMinutes } minutas.
     }
+signin-passwordless-code-input-label-v2 = Insere le codice de 6 digitos
 signin-passwordless-code-confirm-button = Confirmar
 signin-passwordless-code-required-error = Codice de confirmation necessari
 signin-passwordless-code-expired = Codice expirate?
