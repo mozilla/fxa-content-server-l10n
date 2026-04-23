@@ -977,6 +977,15 @@ cancel-display-name = Ακύρωση
 display-name-update-error-2 = Προέκυψε πρόβλημα κατά την ενημέρωση του εμφανιζόμενου ονόματός σας
 display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημερώθηκε
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Δημιουργία κλειδιού πρόσβασης…
+page-passkey-add-cancel = Ακύρωση
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Δημιουργήθηκε κλειδί πρόσβασης
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured

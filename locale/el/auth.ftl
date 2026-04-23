@@ -222,12 +222,15 @@ freeTrialEndingReminder-content-charge-heading = Λεπτομέρειες χρέ
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Συνδρομή { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Συνδρομή { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Έκπτωση: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Έκπτωση
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Φόρος: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Φόρος
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99

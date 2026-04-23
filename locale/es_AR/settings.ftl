@@ -973,6 +973,17 @@ cancel-display-name = Cancelar
 display-name-update-error-2 = Hubo un problema al actualizar tu nombre para mostrar
 display-name-success-alert-2 = Nombre actualizado
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Creando clave de acceso…
+page-passkey-add-follow-prompts = Seguí las indicaciones en tu dispositivo.
+page-passkey-add-cancel = Cancelar
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Clave de acceso creada
+page-passkey-add-error-system = Sistema no disponible. Probá de nuevo más tarde.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1096,6 +1107,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Encontrá dónde está expuesta tu información privada y tomá el control
 # Links out to the Monitor site
 product-promo-monitor-cta = Hacé un escaneo gratuito
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Descubrí una capa adicional de navegación y protección anónimas.
+# Links out to the VPN site
+product-promo-vpn-cta = Conseguí { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1225,6 +1241,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Alcanzaste el número máximo de claves de acceso.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Su navegador o dispositivo no soporta claves de acceso.
 
 ## Account recovery key sub-section on main Settings page
 

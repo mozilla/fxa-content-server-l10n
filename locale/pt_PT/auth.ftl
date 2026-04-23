@@ -222,16 +222,20 @@ freeTrialEndingReminder-content-charge-heading = Detalhes de cobrança
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = { $productName } subscrição: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = { $productName } subscrição
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Desconto: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Desconto
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Imposto: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Imposto
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Total para { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Total devido em { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Pode rever ou atualizar o seu método de pagamento e as informações da conta <a data-l10n-name="freeTrialEndingReminder-update-billing">aqui</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Pode rever ou atualizar o seu método de pagamento e as informações da conta aqui:
 # Variables:

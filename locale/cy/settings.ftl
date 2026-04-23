@@ -993,6 +993,17 @@ cancel-display-name = Diddymu
 display-name-update-error-2 = Bu anhawster wrth ddiweddaru eich enw dangos
 display-name-success-alert-2 = Diweddarwyd yr enw dangos
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Wrthi'n creu cyfrinair…
+page-passkey-add-follow-prompts = Dilynwch yr awgrymiadau ar eich dyfais.
+page-passkey-add-cancel = Diddymu
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Cyfrinallwedd wedi'i greu
+page-passkey-add-error-system = System ddim ar gael. Ceisiwch eto yn nes ymlaen.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1116,6 +1127,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Dewch o hyd i ble mae'ch manylion preifat wedi'i ddatgelu a chymryd rheolaeth o'r sefyllfa
 # Links out to the Monitor site
 product-promo-monitor-cta = Cael sgan am ddim
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Darganfyddwch haen ychwanegol o bori ac diogelwch dienw.
+# Links out to the VPN site
+product-promo-vpn-cta = Cael { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1253,6 +1269,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Rydych chi wedi cyrraedd y nifer uchaf o gyfrinallweddi
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Nid yw eich porwr neu ddyfais yn cefnogi cyfrineiriau.
 
 ## Account recovery key sub-section on main Settings page
 

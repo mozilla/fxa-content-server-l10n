@@ -63,6 +63,7 @@ checkout-error-contact-support = Veuillez contacter l’assistance afin que nous
 cart-error-currency-not-determined = Nous n’avons pas pu déterminer la devise pour cet achat, veuillez réessayer.
 checkout-processing-general-error = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
 cart-total-mismatch-error = Le montant de la facture a changé. Veuillez réessayer.
+cart-free-trial-mismatch-error = Votre éligibilité à l’essai gratuit a changé. Veuillez réessayer.
 
 ## Error pages - Payment method failure messages
 
@@ -74,6 +75,7 @@ intent-payment-error-generic = Une erreur inattendue s’est produite lors du tr
 intent-payment-error-insufficient-funds = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
 general-paypal-error = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
 paypal-active-subscription-no-billing-agreement-error = Il semble qu’il y ait eu un problème lors de la facturation de votre compte { -brand-paypal }. Veuillez réactiver les paiements automatiques pour votre abonnement.
+new-account-prepaid-card-free-trial-not-allowed = Les cartes prépayées ne peuvent pas être utilisées pour commencer un essai gratuit sur les nouveaux comptes. Veuillez essayer un autre mode de paiement.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

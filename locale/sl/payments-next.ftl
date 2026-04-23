@@ -63,6 +63,7 @@ checkout-error-contact-support = Obrnite se na podporo, da vam lahko pomagamo.
 cart-error-currency-not-determined = Valute za ta nakup ni bilo mogoče določiti, poskusite znova.
 checkout-processing-general-error = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 cart-total-mismatch-error = Znesek na računu se je spremenil. Prosimo, poskusite znova.
+cart-free-trial-mismatch-error = Izpolnjevanje pogojev za preskus se je spremenilo. Prosimo, poskusite znova.
 
 ## Error pages - Payment method failure messages
 
@@ -74,6 +75,7 @@ intent-payment-error-generic = Med obdelavo vašega plačila je prišlo do nepri
 intent-payment-error-insufficient-funds = Videti je, da na vaši kartici ni dovolj sredstev. Poskusite z drugo kartico.
 general-paypal-error = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 paypal-active-subscription-no-billing-agreement-error = Videti je, da je prišlo do težave pri bremenitvi vašega računa { -brand-paypal }. Ponovno omogočite samodejna plačila za svojo naročnino.
+new-account-prepaid-card-free-trial-not-allowed = Predplačniških kartic ni mogoče uporabiti za začetek brezplačnega preskusa na novih računih. Poskusite z drugim načinom plačila.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

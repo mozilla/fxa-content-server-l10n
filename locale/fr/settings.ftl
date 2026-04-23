@@ -971,6 +971,17 @@ cancel-display-name = Annuler
 display-name-update-error-2 = Un problème est survenu lors de la mise à jour de votre nom d’affichage.
 display-name-success-alert-2 = Nom d’affichage mis à jour
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Création de la clé…
+page-passkey-add-follow-prompts = Suivez les instructions sur votre appareil.
+page-passkey-add-cancel = Annuler
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Clé d’accès créée
+page-passkey-add-error-system = Système non disponible. Réessayer plus tard.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1094,6 +1105,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Découvrez où vos informations personnelles ont fuité et reprenez le contrôle
 # Links out to the Monitor site
 product-promo-monitor-cta = Effectuer un scan gratuit
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Découvrez un niveau supplémentaire de navigation anonyme et de protection.
+# Links out to the VPN site
+product-promo-vpn-cta = Obtenir { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1223,6 +1239,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Vous avez atteint le nombre maximal de clés d’accès.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Votre navigateur ou votre appareil ne prend pas en charge les clés d’accès.
 
 ## Account recovery key sub-section on main Settings page
 

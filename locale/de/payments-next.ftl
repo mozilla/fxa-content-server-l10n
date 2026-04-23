@@ -63,6 +63,7 @@ checkout-error-contact-support = Bitte wenden Sie sich an den Support, damit wir
 cart-error-currency-not-determined = Wir konnten die Währung für diesen Kauf nicht feststellen, bitte versuchen Sie es erneut.
 checkout-processing-general-error = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
 cart-total-mismatch-error = Der Rechnungsbetrag hat sich geändert. Bitte versuchen Sie es erneut.
+cart-free-trial-mismatch-error = Die Berechtigung für das kostenlose Testprogramm hat sich geändert. Bitte versuchen Sie es erneut.
 
 ## Error pages - Payment method failure messages
 
@@ -74,6 +75,7 @@ intent-payment-error-generic = Beim Verarbeiten Ihrer Zahlung ist ein unerwartet
 intent-payment-error-insufficient-funds = Es sieht so aus, als ob Ihre Karte nicht genügend Guthaben hat. Versuchen Sie es mit einer anderen Karte.
 general-paypal-error = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
 paypal-active-subscription-no-billing-agreement-error = Bei der Abrechnung über Ihr Konto von { -brand-paypal } ist ein Fehler aufgetreten. Bitte aktivieren Sie wieder automatische Zahlungen für Ihr Abonnement.
+new-account-prepaid-card-free-trial-not-allowed = Prepaid-Karten können nicht zum Starten einer kostenlosen Testversion mit neuen Konten verwendet werden. Bitte versuchen Sie es mit einer anderen Zahlungsmethode.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

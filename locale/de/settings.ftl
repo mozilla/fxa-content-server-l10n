@@ -973,6 +973,17 @@ cancel-display-name = Abbrechen
 display-name-update-error-2 = Beim Aktualisieren Ihres Anzeigennamens ist ein Fehler aufgetreten.
 display-name-success-alert-2 = Anzeigename aktualisiert
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Zugangsschlüssel wird erstellt…
+page-passkey-add-follow-prompts = Befolgen Sie die Aufforderungen auf Ihrem Gerät.
+page-passkey-add-cancel = Abbrechen
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Zugangsschlüssel erstellt
+page-passkey-add-error-system = System nicht verfügbar. Versuchen Sie es später erneut.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1096,6 +1107,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Finden Sie heraus, wo Ihre persönlichen Daten offengelegt wurden und übernehmen Sie die Kontrolle
 # Links out to the Monitor site
 product-promo-monitor-cta = Kostenloser Scan
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Entdecken Sie eine zusätzliche Ebene des anonymen Surfens und Schutzes.
+# Links out to the VPN site
+product-promo-vpn-cta = { -product-mozilla-vpn-short } holen
 
 ## Profile section
 
@@ -1225,6 +1241,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Sie haben die maximale Anzahl an Zugangsschlüsseln erreicht.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Ihr Browser oder Gerät unterstützt keine Zugangsschlüssel.
 
 ## Account recovery key sub-section on main Settings page
 

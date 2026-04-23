@@ -222,16 +222,20 @@ freeTrialEndingReminder-content-charge-heading = Díj részletei
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = { $productName }-előfizetés: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = { $productName } előfizetés
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Kedvezmény: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Kedvezmény
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Adó: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Adó
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Összesen esedékes ekkor: { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Teljes esedékesség: { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Fizetési módjait és fiókinformációit <a data-l10n-name="freeTrialEndingReminder-update-billing">itt</a> nézheti át vagy frissítheti.
 freeTrialEndingReminder-content-account-link-plaintext = Itt nézheti át vagy frissítheti a fizetési módját és fiókinformációit:
 # Variables:

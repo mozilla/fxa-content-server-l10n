@@ -230,16 +230,20 @@ freeTrialEndingReminder-content-charge-heading = Manylion talu
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Tanysgrifiad { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Tanysgrifiad { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Gostyngiad: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Gostyngiad
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Treth: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Treth
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Y cyfanswm sy'n ddyledus ar { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Cyfanswm yn ddyledus ar { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Gallwch adolygu neu ddiweddaru eich dull talu a manylion eich cyfrif <a data-l10n-name="freeTrialEndingReminder-update-billing">yma</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Gallwch adolygu neu ddiweddaru eich dull talu a manylion eich cyfrif yma:
 # Variables:
