@@ -1665,11 +1665,39 @@ pair-choice-header-send-tab = Download of iepenje { -brand-firefox } op it appar
 pair-choice-legend = Selektearje in opsje om troch te gean:
 # Radio option: user already has Firefox for mobile — title
 pair-choice-has-mobile-title = Ik haw { -brand-firefox } foar mobyl al
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Begjin no mei syngronisearjen as jo { -brand-firefox } al op jo mobile apparaat stean hawwe.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Ik haw { -brand-firefox } foar mobyl noch net
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Download { -brand-firefox } op jo mobile apparaat en start dêrnei mei syngronisearjen.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Trochgean
+# Success banner shown after signing in
+pair-signed-in-successfully = Mei sukses oanmeld!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Account oanmakke. Jo syngronisearje no.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Wachtwurd oanmakke. Jo syngronisearje no.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = { -brand-firefox } foar mobyl downloade
+# Description for the download screen
+pair-download-description = Om { -brand-firefox } op jo telefoan of tablet te syngronisearjen, moatte jo earst { -brand-firefox } foar mobyl downloade. Jo dogge dit sa:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Stap { $stepNumber }</b>: Download { -brand-firefox } troch dizze QR-koade te scannen mei de kamera op jo mobile apparaat:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Stap { $stepNumber }</b>: Selektearje ‘Trochgean om te syngronisearjen’ om jo { -brand-firefox }-ûnderfining op jo mobile apparaat te syngronisearjen.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Trochgean om te syngronisearjen
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Apparaat ferbûn
 pair-success-message-2 = Keppeling slagge.
+pair-success-tab-close-message = Dit ljepblêd wurdt automatysk sluten troch { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1693,6 +1721,25 @@ pair-wait-for-auth-heading-text = Goedkarring <span>fan jo oare apparaat ôf</sp
 
 pair-unsupported-header = Keppelje mei in app
 pair-unsupported-message = Hawwe jo de systeemkamera brûkt? Jo moatte fan in { -brand-firefox }-app út keppelje.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Oepsie! It liket derop dat jo gjin { -brand-firefox } brûke.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Skeakelje oer nei { -brand-firefox } en iepenje dizze side om in oar apparaat te ferbinen.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Oepsie! It liket derop dat jo gjin { -brand-firefox } brûke.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Jo mobile apparaat ferbine mei jo { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Iepenje { -brand-firefox } op jo kompjûter, besykje <b>firefox.com/pair</b>, en folgje de ynstruksjes op it skerm om jo mobile apparaat te ferbinen.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Mear ynfo
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Oepsie, der is wat misgien.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Slút dit ljepblêd en probearje it nochris.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1945,6 +1992,7 @@ signin-passwordless-code-instruction =
         [one] Fier binnen { $expirationTime } minút de koade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
        *[other] Fier binnen { $expirationTime } minuten de koade yn dy’t nei <email>{ $email }</email> ferstjoerd is.
     }
+signin-passwordless-code-input-label-v2 = Fier 6-siferige koade yn
 signin-passwordless-code-confirm-button = Befêstigje
 signin-passwordless-code-required-error = Befêstigingskoade nedich
 signin-passwordless-code-expired = Koade ferrûn?
