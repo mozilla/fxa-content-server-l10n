@@ -1712,7 +1712,7 @@ pair-unsupported-message = Avez-vous utilisé la caméra du système ? L’asso
 # Shown as heading when a desktop user visits from a non-Firefox browser
 pair-unsupported-oops-header = Oups ! Il semble que vous n’utilisez pas { -brand-firefox }.
 # Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
-pair-unsupported-switch-to-firefox = Utilisez { -brand-firefox } et ouvrez cette page pour connecter un autre appareil.
+pair-unsupported-switch-to-firefox = Passez à { -brand-firefox } et ouvrez cette page pour connecter un autre appareil.
 # Shown inline on mobile non-Firefox browsers before the download link
 pair-unsupported-oops-mobile = Oups ! Il semble que vous n’utilisez pas { -brand-firefox }.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
