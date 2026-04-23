@@ -1591,6 +1591,14 @@ pair-auth-complete-sync-benefits-text = Ora tu pote acceder a tu schedas aperte,
 pair-auth-complete-see-tabs-button = Vider schedas del apparatos synchronisate
 pair-auth-complete-manage-devices-link = Gerer apparatos
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Tu es preste a inviar alcun schedas
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } pro { $deviceOS } es connexe.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
