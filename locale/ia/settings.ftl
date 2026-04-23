@@ -1598,6 +1598,7 @@ pair-auth-complete-send-tab-heading = Tu es preste a inviar alcun schedas
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } pro { $deviceOS } es connexe.
+pair-auth-complete-send-tab-benefits = Tu es libere de instantaneemente inviar schedas aperte, contrasignos, marcapaginas inter apparatos.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1653,10 +1654,20 @@ pair-qr-code-aria-label = Codice QR
 
 ## Choice screen — "Do you have Firefox for mobile?"
 
+# Subheader shown on the choice screen
+pair-choice-subheader = Synchronisa tu experientia de { -brand-firefox }
 # Description shown on the choice screen
 pair-choice-description = Vide tu contrasignos, schedas, chronologia de navigation salvate e altero, inter tote tu apparatos.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Discarga o aperi { -brand-firefox } sur le apparato the ubi tu vole inviar schedas
 # Legend for the radio button fieldset
 pair-choice-legend = Selige un option pro continuar:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Io jam ha { -brand-firefox } pro mobile
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Initia tu synchronisation ora si tu jam ha { -brand-firefox } sur tu apparato mobile.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Io non ha { -brand-firefox } pro apparato mobile
 # Radio option: user does not have Firefox for mobile — description
 pair-choice-needs-mobile-description = Discarga { -brand-firefox } sur tu apparato mobile, pois initia tu synchronisation.
 # Continue button on choice screen (disabled until a radio option is selected)
@@ -1674,6 +1685,10 @@ pair-password-created-now-syncing = Contrasigno create. Ora tu sta a synchronisa
 pair-download-subheader = Discargar { -brand-firefox } pro mobile
 # Description for the download screen
 pair-download-description = Pro synchronisar { -brand-firefox } sur tu telephono o tabletta, tu primo debe discargar { -brand-firefox } pro apparato mobile. Ecce como:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Passo { $stepNumber } </b>: discarga { -brand-firefox } scandente iste codice QR con le camera de tu apparato mobile:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Passo { $stepNumber } </b>: selige "Continuar a synchronisar" pro synchronisar tu experientia con { -brand-firefox } sur tu apparato mobile.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Continuar a synchronisar
 
@@ -1681,6 +1696,7 @@ pair-continue-to-sync-button = Continuar a synchronisar
 
 pair-success-header-2 = Apparato connexe
 pair-success-message-2 = Accopulamento con successo.
+pair-success-tab-close-message = Iste scheda sera claudite automaticamente per { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1714,6 +1730,9 @@ pair-unsupported-oops-mobile = Oops! Il pare que tu non usa { -brand-firefox }.
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
 pair-unsupported-connecting-mobile-header-v2 = Connectente tu apparato mobile con tu { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Aperi { -brand-firefox } sur tu computator, visita <b class="whitespace-nowrap">firefox.com/pair</b>, e seque le instructiones sur-le-schermo pro connecter tu apparato mobile.
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = Pro saper plus
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
