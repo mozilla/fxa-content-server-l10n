@@ -960,6 +960,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Tote le extensiones e themas que tu ha publicate in addons.mozilla.org essera delite
 delete-account-continue-button = Continuar
+delete-account-delete-button-passwordless = Deler le conto
 delete-account-password-input =
     .label = Insere le contrasigno
 delete-account-cancel-button = Cancellar
