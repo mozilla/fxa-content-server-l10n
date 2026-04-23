@@ -1683,7 +1683,7 @@ pair-download-description = Para sincronizar { -brand-firefox } en tu teléfono 
 # Step 1: scan QR code. $stepNumber is the step number (1)
 pair-download-step-scan-qr = <b>Paso { $stepNumber }</b>: Descargá { -brand-firefox } escaneando este código QR con la cámara de tu dispositivo móvil:
 # Step 2: continue to sync. $stepNumber is the step number (2)
-pair-download-step-continue-sync = <b>Paso { $stepNumber }</b>: Seleccioná "Continuar para sincronizar" para sincronizar tu experiencia de { -brand-firefox } en tu dispositivo móvil.
+pair-download-step-continue-sync = <b>Paso { $stepNumber }</b>: Seleccioná “Continuar para sincronizar” para sincronizar tu experiencia de { -brand-firefox } en tu dispositivo móvil.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Continuar para sincronizar
 
