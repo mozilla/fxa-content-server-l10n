@@ -1965,7 +1965,7 @@ msgstr "As jo dit net jo wiene, <a id=\"change-password\" class=\"link-blue\">wi
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "Jo binne klear om inkelde ljepblêden te ferstjoeren"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
@@ -1973,10 +1973,13 @@ msgid ""
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
 msgstr ""
+"\n"
+"          <span>%(deviceFamily)s foar %(deviceOS)s</span> is ferbûn.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr ""
+msgstr "Jo binne frij om iepen ljepblêden, wachtwurden en blêdwizers direkt tusken apparaten te ferstjoeren."
 
 #: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1988,6 +1991,9 @@ msgid ""
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Jo syngronisearje no mei: <span>%(deviceFamily)s op %(deviceOS)s</span>\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -2027,7 +2033,7 @@ msgstr "Mei sukses oanmeld!"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "Download of iepenje Firefox op it apparaat wêr't jo ljepblêden nei tastjoere wolle"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"

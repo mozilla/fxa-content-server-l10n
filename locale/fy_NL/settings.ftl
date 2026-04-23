@@ -962,6 +962,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Alle útwreidingen en tema’s dy’t jo op addons.mozilla.org publisearre hawwe sille fuortsmiten wurde
 delete-account-continue-button = Trochgean
+delete-account-delete-button-passwordless = Account fuortsmite
 delete-account-password-input =
     .label = Fier wachtwurd yn
 delete-account-cancel-button = Annulearje
@@ -1591,6 +1592,15 @@ pair-auth-complete-sync-benefits-text = Jo kinne no op al jo apparaten tagong kr
 pair-auth-complete-see-tabs-button = Besjoch ljepblêden fan syngronisearre apparaten
 pair-auth-complete-manage-devices-link = Apparaten beheare
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Jo binne klear om inkelde ljepblêden te ferstjoeren
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } foar { $deviceOS } is ferbûn.
+pair-auth-complete-send-tab-benefits = Jo binne frij om iepen ljepblêden, wachtwurden en blêdwizers direkt tusken apparaten te ferstjoeren.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1617,9 +1627,17 @@ auth-totp-code-required-error = Autentikaasjekoade fereaske
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Goedkarring <span>fan jo oare apparaat ôf</span> no fereaske
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Apparaatkeppeling mislearre
+pair-failure-message-v2 = De ynstallaasje koe net foltôge wurde. Meld jo oan mei jo e-mailadres.
+pair-failure-try-again-link = Opnij probearje
+
 ## Pair index page
 
 pair-sync-header = { -brand-firefox } syngronisearje op jo telefoan of tablet
+pair-cad-header-v2 = Noch in apparaat keppelje
 pair-already-have-firefox-paragraph = Hawwe jo al { -brand-firefox } op in telefoan of tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Jo apparaat syngronisearje
@@ -1634,6 +1652,19 @@ pair-take-your-data-message = Nim jo ljepblêden, blêdwizers en wachtwurden oer
 pair-get-started-button = Begjinne
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-koade
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Syngronisearje jo { -brand-firefox }-ûnderfining
+# Description shown on the choice screen
+pair-choice-description = Besjoch jo bewarre wachtwurden, ljepblêden, navigaasjeskiednis en mear – op al jo apparaten.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Download of iepenje { -brand-firefox } op it apparaat wêr't jo ljepblêden nei tastjoere wolle
+# Legend for the radio button fieldset
+pair-choice-legend = Selektearje in opsje om troch te gean:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Ik haw { -brand-firefox } foar mobyl al
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
