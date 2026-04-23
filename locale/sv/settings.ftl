@@ -958,6 +958,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Alla tillägg och teman som du publicerade på addons.mozilla.org raderas
 delete-account-continue-button = Fortsätt
+delete-account-delete-button-passwordless = Ta bort konto
 delete-account-password-input =
     .label = Ange lösenord
 delete-account-cancel-button = Avbryt
@@ -1586,6 +1587,15 @@ pair-auth-complete-sync-benefits-text = Nu kan du komma åt dina öppna flikar, 
 pair-auth-complete-see-tabs-button = Se flikar från synkroniserade enheter
 pair-auth-complete-manage-devices-link = Hantera enheter
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Du är redo att skicka några flikar
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } för { $deviceOS } är ansluten.
+pair-auth-complete-send-tab-benefits = Du kan direkt skicka öppna flikar, lösenord och bokmärken mellan enheter.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1614,13 +1624,15 @@ pair-wait-for-supp-heading-text = Godkännande krävs nu <span>från din andra e
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
-pair-failure-header = Parkoppling misslyckades
-pair-failure-message = Installationsprocessen avslutades.
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Parkoppling misslyckades
+pair-failure-message-v2 = Installationen kunde inte slutföras. Vänligen logga in med din e-postadress.
+pair-failure-try-again-link = Försök igen
 
 ## Pair index page
 
 pair-sync-header = Synkronisera { -brand-firefox } på din telefon eller surfplatta
-pair-cad-header = Anslut { -brand-firefox } till en annan enhet
+pair-cad-header-v2 = Anslut en annan enhet
 pair-already-have-firefox-paragraph = Har du redan { -brand-firefox } på en telefon eller surfplatta?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkronisera din enhet
@@ -1636,10 +1648,51 @@ pair-get-started-button = Kom igång
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-kod
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Synkronisera din { -brand-firefox }-upplevelse
+# Description shown on the choice screen
+pair-choice-description = Visa dina sparade lösenord, flikar, webbhistorik och mer — på alla dina enheter.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Ladda ner eller öppna { -brand-firefox } på enheten dit du vill skicka flikar
+# Legend for the radio button fieldset
+pair-choice-legend = Välj ett alternativ för att fortsätta:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Jag har redan { -brand-firefox } för mobil
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Starta synkronisering nu om du redan har { -brand-firefox } på din mobila enhet.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Jag har inte { -brand-firefox } för mobil
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Hämta { -brand-firefox } på din mobila enhet och starta sedan din synkronisering.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Fortsätt
+# Success banner shown after signing in
+pair-signed-in-successfully = Inloggad!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Konto skapat. Du synkroniserar nu.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Lösenord skapat. Du synkroniserar nu.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Hämta { -brand-firefox } för mobil
+# Description for the download screen
+pair-download-description = För att synka { -brand-firefox } på din telefon eller surfplatta måste du först ladda ner { -brand-firefox } för mobil. Så här gör du:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Steg { $stepNumber }</b>: Ladda ner { -brand-firefox } genom att skanna den här QR-koden med kameran på din mobila enhet:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Steg { $stepNumber }</b>: Välj “Fortsätt till synkronisering” för att synkronisera din { -brand-firefox }-upplevelse på din mobila enhet.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Fortsätt till synkronisering
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Enhet ansluten
 pair-success-message-2 = Parkoppling lyckades.
+pair-success-tab-close-message = Den här fliken stängs automatiskt av { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1663,6 +1716,25 @@ pair-wait-for-auth-heading-text = Godkännande krävs nu <span>från din andra e
 
 pair-unsupported-header = Parkoppling via en app
 pair-unsupported-message = Använde du systemkameran? Du måste parkoppla från en { -brand-firefox }-app.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Hoppsan! Det ser ut som att du inte använder { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Byt till { -brand-firefox } och öppna den här sidan för att ansluta en annan enhet.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Hoppsan! Det ser ut som att du inte använder { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Ansluta din mobila enhet till ditt { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Öppna { -brand-firefox } på din dator, besök <b>firefox.com/pair</b> och följ instruktionerna på skärmen för att ansluta din mobila enhet.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Läs mer
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Hoppsan! Något gick fel.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Stäng den här fliken och försök igen.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1918,7 +1990,7 @@ signin-passwordless-code-instruction =
         [one] Ange koden som skickades till <email>{ $email }</email> inom { $expirationMinutes } minut.
        *[other] Ange koden som skickades till <email>{ $email }</email> inom { $expirationMinutes } minuter.
     }
-signin-passwordless-code-input-label = Ange 8-siffrig kod
+signin-passwordless-code-input-label-v2 = Ange 6-siffrig kod
 signin-passwordless-code-confirm-button = Bekräfta
 signin-passwordless-code-required-error = Bekräftelsekod krävs
 signin-passwordless-code-expired = Har koden upphört?
