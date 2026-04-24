@@ -977,6 +977,16 @@ cancel-display-name = Cancellar
 display-name-update-error-2 = Problema durante le actualisation de tu nomine a monstrar
 display-name-success-alert-2 = Nomine a monstrar actualisate
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Creante clave-contrasigno…
+page-passkey-add-cancel = Cancellar
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Clave-contrasigno create
+page-passkey-add-error-system = Systema indisponibile, retenta plus tarde
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1100,6 +1110,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Discoperi ubi tu info private es exponite, e recupera controlo
 # Links out to the Monitor site
 product-promo-monitor-cta = Obtene un scansion gratuite
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Discoperi un nivello ulterior de navigation anonyme e protection.
+# Links out to the VPN site
+product-promo-vpn-cta = Obtene { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1229,6 +1244,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Tu ha attingite le numero maxime de claves-contrasigno.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Tu navigator o apparato non supporta clave-contrasigno
 
 ## Account recovery key sub-section on main Settings page
 
