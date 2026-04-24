@@ -225,6 +225,7 @@ freeTrialEndingReminder-content-charge-subscription = { $productName }-abonnemen
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Rabatt: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Rabatt
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Moms: { $invoiceTaxAmount }

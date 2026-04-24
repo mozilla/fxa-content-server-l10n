@@ -975,6 +975,15 @@ cancel-display-name = Avbryt
 display-name-update-error-2 = Det oppstod eit problem med å oppdatere visingsnamnet ditt
 display-name-success-alert-2 = Visingsnamn oppdatert
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Opprettar passnøkkel…
+page-passkey-add-cancel = Avbryt
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Passnøkkel oppretta
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1098,6 +1107,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Finn ut kvar den private informasjonen din er eksponert og ta kontroll
 # Links out to the Monitor site
 product-promo-monitor-cta = Få ei gratis skanning
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Oppdag eit nytt lag med anonym surfing og vern.
+# Links out to the VPN site
+product-promo-vpn-cta = Få { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1604,9 +1618,14 @@ auth-totp-code-required-error = Autentiseringskode påkravd
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Godkjenning er no påkravd <span>frå den andre eininga di</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-try-again-link = Prøv igjen
+
 ## Pair index page
 
 pair-sync-header = Synkroniser { -brand-firefox } på telefonen eller nettbrettet ditt
+pair-cad-header-v2 = Kople til ei anna eining
 pair-already-have-firefox-paragraph = Har du allereie { -brand-firefox } på ein telefon eller eit nettbrett?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkroniser eininga di
@@ -1622,8 +1641,31 @@ pair-get-started-button = Kom i gang
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-kode
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Synkroniser { -brand-firefox } eopplevinga di
+# Description shown on the choice screen
+pair-choice-description = Sjå lagra passord, faner, nettlesarlogg og meir – på alle einingane dine.
+# Legend for the radio button fieldset
+pair-choice-legend = Vel eit alternativ for å halde fram:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Eg har allereie { -brand-firefox } for mobil
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Eg har ikkje { -brand-firefox } for mobil
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Hald fram
+# Success banner shown after signing in
+pair-signed-in-successfully = Innlogga!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Konto opretta. Du synkroniserer no.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Passord oppretta. Du synkroniserer no.
+
 ## Download screen — shown after selecting "I don’t have Firefox for mobile"
 
+# Subheader for the download screen
+pair-download-subheader = Last ned { -brand-firefox } for mobil
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Hald fram til synkronisering
 

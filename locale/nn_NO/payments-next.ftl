@@ -337,6 +337,8 @@ free-trial-content-trial-expires = Gratis prøveperiode går ut { $date }.
 
 free-trial-content-trial-active = Gratis prøveperiode er aktiv.
 free-trial-content-action-error = Det oppstod ein uventa feil. Prøv på nytt.
+free-trial-content-button-resume-trial = Ta opp att prøveperiode
+free-trial-content-button-resume-trial-aria = Ta opp att prøveperiode for { $productName }
 free-trial-content-button-cancel-trial = Avslutt prøveperiode
 free-trial-content-button-cancel-trial-aria = Avslutt prøveperiode for { $productName }
 
