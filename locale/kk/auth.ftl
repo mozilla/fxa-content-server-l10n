@@ -222,12 +222,15 @@ freeTrialEndingReminder-content-charge-heading = Төлем мәліметтер
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = { $productName } жазылымы: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = { $productName } жазылымы
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Жеңілдік: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Жеңілдік
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Салық: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Салық
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
