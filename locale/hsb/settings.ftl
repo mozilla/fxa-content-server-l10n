@@ -985,6 +985,17 @@ cancel-display-name = Přetorhnyć
 display-name-update-error-2 = Při aktualizowanju wašeho zwobraznjenskeho mjena je problem nastał
 display-name-success-alert-2 = Zwobraznjenske mjeno zaktualizowane
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Hesłowy kluč so wutworja…
+page-passkey-add-follow-prompts = Slědujće namołwam na swojim graće.
+page-passkey-add-cancel = Přetorhnyć
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Hesłowy kluč je so wutworił
+page-passkey-add-error-system = system k dispoziciji njeje. Spytajće pozdźišo hišće raz.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1108,6 +1119,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Wuslědźće, hdźež so waše informacije wotkrywaja a přewozmiće kontrolu
 # Links out to the Monitor site
 product-promo-monitor-cta = Dóstańće darmotny sken
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Wotkryjće přidatu runinu anonymneho přehladowanja a škita.
+# Links out to the VPN site
+product-promo-vpn-cta = { -product-mozilla-vpn-short } wobstarać
 
 ## Profile section
 
@@ -1241,6 +1257,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Sće maksimalnu ličbu hesłowych klučow docpěł.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Waš wobhladowak abo grat hesłowe kluče njepodpěruje.
 
 ## Account recovery key sub-section on main Settings page
 
