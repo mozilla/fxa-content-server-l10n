@@ -222,14 +222,14 @@ freeTrialEndingReminder-content-charge-heading = Debiteringsdetaljer
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Prenumeration { $productName }: { $invoiceSubtotal }
-freeTrialEndingReminder-content-charge-subscription-2 = { $productName }-prenumeration
+freeTrialEndingReminder-content-charge-subscription-2 = Prenumeration på { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Rabatt: { $invoiceDiscountAmount }
 freeTrialEndingReminder-content-charge-discount-2 = Rabatt
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
-freeTrialEndingReminder-content-charge-tax = Moms: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax = Skatt: { $invoiceTaxAmount }
 freeTrialEndingReminder-content-charge-tax-2 = Skatt
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
@@ -465,24 +465,24 @@ subscriptionUpgrade-content-old-price-month = Den tidigare avgiften var { $payme
 subscriptionUpgrade-content-old-price-halfyear = Den tidigare avgiften var { $paymentAmountOld } per halvår.
 subscriptionUpgrade-content-old-price-year = Den tidigare avgiften var { $paymentAmountOld } per år.
 subscriptionUpgrade-content-old-price-default = Den tidigare avgiften var { $paymentAmountOld } per faktureringsintervall.
-subscriptionUpgrade-content-old-price-day-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } moms per dag.
-subscriptionUpgrade-content-old-price-week-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } moms per vecka.
-subscriptionUpgrade-content-old-price-month-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } moms per månad.
-subscriptionUpgrade-content-old-price-halfyear-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } moms per halvår.
-subscriptionUpgrade-content-old-price-year-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } moms per år.
-subscriptionUpgrade-content-old-price-default-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } moms per faktureringsintervall.
+subscriptionUpgrade-content-old-price-day-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } skatt per dag.
+subscriptionUpgrade-content-old-price-week-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } skatt per vecka.
+subscriptionUpgrade-content-old-price-month-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } skatt per månad.
+subscriptionUpgrade-content-old-price-halfyear-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } skatt per halvår.
+subscriptionUpgrade-content-old-price-year-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } skatt per år.
+subscriptionUpgrade-content-old-price-default-tax = Den tidigare avgiften var { $paymentAmountOld } + { $paymentTaxOld } skatt per faktureringsintervall.
 subscriptionUpgrade-content-new-price-day = Från och med nu kommer du att debiteras { $paymentAmountNew } per dag, exklusive rabatter.
 subscriptionUpgrade-content-new-price-week = Från och med nu kommer du att debiteras { $paymentAmountNew } per vecka, exklusive rabatter.
 subscriptionUpgrade-content-new-price-month = Från och med nu kommer du att debiteras { $paymentAmountNew } per månad, exklusive rabatter.
 subscriptionUpgrade-content-new-price-halfyear = Från och med nu kommer du att debiteras { $paymentAmountNew } per halvår, exklusive rabatter.
 subscriptionUpgrade-content-new-price-year = Från och med nu kommer du att debiteras { $paymentAmountNew } per år, exklusive rabatter.
 subscriptionUpgrade-content-new-price-default = Från och med nu kommer du att debiteras { $paymentAmountNew } per faktureringsintervall, exklusive rabatter.
-subscriptionUpgrade-content-new-price-day-dtax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per dag, exklusive rabatter.
-subscriptionUpgrade-content-new-price-week-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per vecka, exklusive rabatter.
-subscriptionUpgrade-content-new-price-month-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per månad, exklusive rabatter.
-subscriptionUpgrade-content-new-price-halfyear-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per halvår, exklusive rabatter.
-subscriptionUpgrade-content-new-price-year-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per år, exklusive rabatter.
-subscriptionUpgrade-content-new-price-default-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per faktureringsintervall, exklusive rabatter.
+subscriptionUpgrade-content-new-price-day-dtax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } skatt per dag, exklusive rabatter.
+subscriptionUpgrade-content-new-price-week-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } skatt per vecka, exklusive rabatter.
+subscriptionUpgrade-content-new-price-month-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } skatt per månad, exklusive rabatter.
+subscriptionUpgrade-content-new-price-halfyear-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } skatt per halvår, exklusive rabatter.
+subscriptionUpgrade-content-new-price-year-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } skatt per år, exklusive rabatter.
+subscriptionUpgrade-content-new-price-default-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } skatt per faktureringsintervall, exklusive rabatter.
 subscriptionUpgrade-existing = Om några av dina befintliga prenumerationer överlappar denna uppgradering, hanterar vi dem och skickar ett separat mejl med detaljerna. Om din nya plan innehåller produkter som kräver installation, skickar vi ett separat e-postmeddelande med installationsinstruktioner.
 subscriptionUpgrade-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 subscriptionsPaymentExpired-subject-2 = Betalningsmetoden för dina prenumerationer har upphört eller upphör att gälla snart

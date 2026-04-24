@@ -75,7 +75,7 @@ intent-payment-error-generic = Ett oväntat fel har uppstått vid bearbetningen 
 intent-payment-error-insufficient-funds = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova med ett annat kort.
 general-paypal-error = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 paypal-active-subscription-no-billing-agreement-error = Det ser ut som att det uppstod ett problem med faktureringen av ditt { -brand-paypal }-konto. Återaktivera automatiska betalningar för din prenumeration.
-new-account-prepaid-card-free-trial-not-allowed = Kontantkort kan inte användas för att starta en gratis provperiod på nya konton. Prova en annan betalningsmetod.
+new-account-prepaid-card-free-trial-not-allowed = Förbetalda kort kan inte användas för att starta en gratis provperiod på nya konton. Vänligen prova en annan betalningsmetod.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -541,7 +541,7 @@ resubscribe-success-dialog-title = Tack! Du är klar.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = Din nästa debitering är { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = Din nästa debitering är { $nextInvoiceTotal } + { $taxDue } skatt den { $currentPeriodEnd }.
 stay-subscribed-next-charge-no-tax = Din nästa debitering är { $nextInvoiceTotal } den { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
@@ -556,14 +556,14 @@ stay-subscribed-next-charge-no-tax = Din nästa debitering är { $nextInvoiceTot
 subscription-content-coupon-will-be-applied = { $promotionName } rabatt kommer att tillämpas
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Senaste räkning • { $billedOnDate }
-subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } moms
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } skatt
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Visa faktura
 subscription-management-link-view-invoice-aria = Visa faktura för { $productName }
 subscription-content-expires-on-expiry-date = Upphör { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Nästa räkning • { $billedOnDate }
-subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } moms
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } skatt
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = Fortsätt prenumerera
     .aria-label = Fortsätt prenumerera på { $productName }
@@ -724,15 +724,15 @@ manage-payment-method-intent-error-generic = Ett oväntat fel har uppstått vid 
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
-next-charge-with-discount-and-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
 next-charge-with-discount-and-tax-payment-method = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
-next-charge-next-charge-with-discount-and-tax = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt på { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-card = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-payment-method = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
 next-charge-with-discount-no-tax = Du sparar { $discountPercent }% på din nästa betalning på { $nextInvoiceTotal } den { $currentPeriodEnd }.
-next-charge-with-tax-card = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
-next-charge-with-tax-payment-method = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
-next-charge-with-tax = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } moms den { $currentPeriodEnd }.
+next-charge-with-tax-card = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
+next-charge-with-tax-payment-method = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
+next-charge-with-tax = Din nästa betalning på { $nextInvoiceTotal } + { $taxDue } skatt den { $currentPeriodEnd }.
 next-charge-no-tax-card = Din nästa betalning på { $nextInvoiceTotal } på kortet som slutar på { $last4 } den { $currentPeriodEnd }.
 next-charge-no-tax-payment-method = Din nästa betalning på { $nextInvoiceTotal } med din betalningsmetod { $paymentMethod } den { $currentPeriodEnd }.
 next-charge-no-tax = Din nästa betalning på { $nextInvoiceTotal } den { $currentPeriodEnd }.

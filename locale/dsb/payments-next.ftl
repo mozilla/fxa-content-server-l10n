@@ -66,6 +66,7 @@ checkout-error-contact-support = Stajśo se pšosym z teamom pomocy do zwiska, a
 cart-error-currency-not-determined = Njejsmy mógli pjenjeze za toś tu kup póstajiś, wopytajśo pšosym hyšći raz.
 checkout-processing-general-error = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 cart-total-mismatch-error = Suma zliceńki jo se změniła. Pšosym wopytajśo hyšći raz.
+cart-free-trial-mismatch-error = Wašo wopšawnjenje za dermotny testowy cas jo se změniło. Wopytajśo pšosym hyšći raz.
 
 ## Error pages - Payment method failure messages
 

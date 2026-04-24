@@ -226,16 +226,20 @@ freeTrialEndingReminder-content-charge-heading = Płaśeńske drobnostki
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Abonement { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Abonement { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Rabat: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Rabat
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Dank: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Dank
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Musy se dogromady { $serviceLastActiveDateOnly } płaśiś: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Dogromady płaśobny dnja { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Móžośo swóju płaśeńsku metodu a kontowe informacije <a data-l10n-name="freeTrialEndingReminder-update-billing">how</a> pśeglědowaś abo aktualizěrowaś.
 freeTrialEndingReminder-content-account-link-plaintext = Móžośo swóju płaśeńsku metodu a kontowe informacije how pśeglědowaś abo aktualizěrowaś:
 # Variables:

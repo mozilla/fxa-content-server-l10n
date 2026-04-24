@@ -977,7 +977,7 @@ display-name-success-alert-2 = Visningsnamn uppdaterat
 
 ## PagePasskeyAdd - Loading page shown during passkey creation
 
-page-passkey-add-creating-heading = Skapar lösenord…
+page-passkey-add-creating-heading = Skapar lösenordsnyckel…
 page-passkey-add-follow-prompts = Följ instruktionerna på din enhet.
 page-passkey-add-cancel = Avbryt
 
