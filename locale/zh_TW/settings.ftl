@@ -951,6 +951,14 @@ cancel-display-name = 取消
 display-name-update-error-2 = 更新您的顯示名稱時發生錯誤
 display-name-success-alert-2 = 已更新顯示名稱
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-cancel = 取消
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = 已建立 Passkey
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured

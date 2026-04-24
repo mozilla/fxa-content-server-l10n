@@ -214,16 +214,20 @@ freeTrialEndingReminder-content-charge-heading = 收費詳細資訊
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = { $productName } 訂閱：{ $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = { $productName } 訂閱
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = 折扣：{ $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = 折扣
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = 稅金：{ $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = 稅金
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = 於 { $serviceLastActiveDateOnly } 到期的總金額：{ $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = { $serviceLastActiveDateOnly } 的應付總金額
 freeTrialEndingReminder-content-account-link = 您可以在<a data-l10n-name="freeTrialEndingReminder-update-billing">此處</a>確認或更新付款方式及帳號資訊。
 freeTrialEndingReminder-content-account-link-plaintext = 您可以在此處確認或更新付款方式及帳號資訊：
 # Variables:

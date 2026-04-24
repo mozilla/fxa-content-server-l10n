@@ -259,9 +259,9 @@ postAddLinkedAccount-subject-2 = 有新的帳號連結至您的 { -product-mozil
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 帳號已連結到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理帳號
-postAddPasskey-subject = 已建立 passkey
+postAddPasskey-subject = 已建立 Passkey
 postAddPasskey-preview = 您可以使用自己的裝置登入了
-postAddPasskey-title = 您已建立一把 passkey
+postAddPasskey-title = 您已建立一把 Passkey
 postAddPasskey-description = 現在起，您可以使用它來登入所有 { -product-mozilla-account } 服務。
 postAddPasskey-sync-note = 請注意：若要存取您的 { -brand-firefox } 同步資料，仍需輸入密碼。
 # Links out to a support article about passkeys and { -brand-firefox } sync
