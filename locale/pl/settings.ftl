@@ -951,6 +951,10 @@ cancel-display-name = Anuluj
 display-name-update-error-2 = Wystąpił problem podczas aktualizacji wyświetlanej nazwy
 display-name-success-alert-2 = Zaktualizowano wyświetlaną nazwę
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-cancel = Anuluj
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1074,6 +1078,7 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Dowiedz się, gdzie wyciekły Twoje dane osobowe i je odzyskaj
 # Links out to the Monitor site
 product-promo-monitor-cta = Przeszukaj bezpłatnie
+product-promo-vpn-description = Odkryj dodatkową warstwę ochrony i anonimowego przeglądania.
 
 ## Profile section
 
