@@ -75,7 +75,7 @@ intent-payment-error-generic = Si è verificato un errore imprevisto durante l�
 intent-payment-error-insufficient-funds = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
 general-paypal-error = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
 paypal-active-subscription-no-billing-agreement-error = Sembra che si sia verificato un problema di fatturazione con il tuo account { -brand-paypal }. Riattiva i pagamenti automatici per il tuo abbonamento.
-new-account-prepaid-card-free-trial-not-allowed = Le carte prepagate non possono essere utilizzate per iniziare una prova gratuita su nuovi account. Prova con un altro metodo di pagamento.
+new-account-prepaid-card-free-trial-not-allowed = Non è possibile utilizzare carte prepagate per avviare una prova gratuita su un nuovo account. Scegli un altro metodo di pagamento.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
