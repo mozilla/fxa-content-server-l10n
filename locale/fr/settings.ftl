@@ -1109,7 +1109,7 @@ product-promo-vpn =
     .alt = { -product-mozilla-vpn }
 product-promo-vpn-description = Découvrez un niveau supplémentaire de navigation anonyme et de protection.
 # Links out to the VPN site
-product-promo-vpn-cta = Obtenir { -product-mozilla-vpn-short }
+product-promo-vpn-cta = Obtenir le { -product-mozilla-vpn-short }
 
 ## Profile section
 
