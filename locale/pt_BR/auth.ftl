@@ -257,6 +257,10 @@ subscriptionEndingReminder-content-line1 = Seu acesso ao { $productName } termin
 subscriptionEndingReminder-content-line1-plaintext = Seu acesso ao { $productName } terminará em { $serviceLastActiveDateOnly }.
 subscriptionEndingReminder-content-closing = Obrigado por ser assinante!
 subscriptionEndingReminder-churn-title = Quer manter o acesso?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Aplicam-se termos e restrições limitados</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Aplicam-se termos e restrições limitados: { $churnTermsUrlWithUtm }
 # Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
 subscriptionEndingReminder-content-support-plaintext = Entre em contato com nossa equipe de suporte: { $subscriptionSupportUrlWithUtm }
@@ -376,6 +380,8 @@ subscriptionUpgrade-existing = Se alguma de suas assinaturas existentes interfer
 subscriptionUpgrade-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 subscriptionsPaymentExpired-subject-2 = O método de pagamento de suas assinaturas expirou ou expira em breve
 subscriptionsPaymentExpired-title-2 = Seu método de pagamento venceu ou está prestes a vencer
+subscriptionsPaymentExpired-content-2 = Seu método de pagamento para as seguintes assinaturas venceu ou está prestes a vencer.
 subscriptionsPaymentProviderCancelled-subject = Necessário atualizar informações de pagamento de assinaturas da { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Desculpe, estamos com problemas com seu método de pagamento
 subscriptionsPaymentProviderCancelled-content-detected = Detectamos um problema com seu método de pagamento das seguintes assinaturas.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Seu método de pagamento atual pode estar vencido ou desatualizado.
