@@ -1236,6 +1236,11 @@ passkey-row-info-link-2 = Eikuaave
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Ehupytýma ñe’ẽ ñemigua papapy ru’ã rehegua.
 
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Ne kundahára térã mba’e’oka ndaipu’akái ñe’ẽ ñemíme.
+
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Mba’ete jeguerujey
