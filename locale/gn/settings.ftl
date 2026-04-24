@@ -1649,6 +1649,11 @@ pair-get-started-button = Eñepyrũ
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR ayvu
 
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Eku’ejey embojuehe hag̃ua
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Mba’e’oka oikepyréva

@@ -63,6 +63,7 @@ checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa ha
 cart-error-currency-not-determined = Ndoroikuaái mba’e virúpa eguereko ejogua hag̃ua, ikatúpa eha’ã jey ag̃ave.
 checkout-processing-general-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey ag̃amieve.
 cart-total-mismatch-error = Pe kuatia ñemure ohupytýra iñambue. Eha’ã jey ag̃ave.
+cart-free-trial-mismatch-error = Tekotevẽva ehupyty hag̃ua jeikerei iñambue. Eha’ã jey upéi.
 
 ## Error pages - Payment method failure messages
 
