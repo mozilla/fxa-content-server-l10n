@@ -78,6 +78,7 @@ intent-payment-error-generic = Pśi pśeźěłowanju wašogo płaśenja jo njew�
 intent-payment-error-insufficient-funds = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 general-paypal-error = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 paypal-active-subscription-no-billing-agreement-error = Zda se, ako by problem z wótlicowanim wašogo konta { -brand-paypal } był. Pšosym zmóžniśo zasej awtomatiske płaśenja za swój abonement.
+new-account-prepaid-card-free-trial-not-allowed = Kórty Prepaid njedaju se wužywaś, aby dermotny testowy cas zachopili. Pšosym wopytajśo drugu płaśeńsku metodu.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

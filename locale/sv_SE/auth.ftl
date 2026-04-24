@@ -235,7 +235,7 @@ freeTrialEndingReminder-content-charge-tax-2 = Skatt
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Totalt att betala den { $serviceLastActiveDateOnly }: { $invoiceTotal }
-freeTrialEndingReminder-content-charge-total-2 = Totalt förfaller { $serviceLastActiveDateOnly }
+freeTrialEndingReminder-content-charge-total-2 = Totalt att betala den { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Du kan granska eller uppdatera din betalningsmetod och kontoinformation <a data-l10n-name="freeTrialEndingReminder-update-billing">här</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Du kan granska eller uppdatera din betalningsmetod och kontoinformation här:
 # Variables:

@@ -985,6 +985,17 @@ cancel-display-name = Pśetergnuś
 display-name-update-error-2 = Pśi aktualizěrowanju wašogo zwobraznjeńskego mjenja jo problem nastał
 display-name-success-alert-2 = Zwobraznjeńske mě zaktualizěrowane
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Gronidłowy kluc se napórajo…
+page-passkey-add-follow-prompts = Slědujśo naspominanjam na swójom rěźe.
+page-passkey-add-cancel = Pśetergnuś
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Gronidłowy kluc jo se napórał
+page-passkey-add-error-system = System njejo k dispoziciji. Wopytajśo pózdźej hyšći raz.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1108,6 +1119,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Wuslěźćo, źož se waše priwatne informacije wótekšywaju a pśewzejśo kontrolu
 # Links out to the Monitor site
 product-promo-monitor-cta = Dostańśo dermotny scan
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Namakajśo pśidanu rowninu anonymnego pśeglědowanja a šćita.
+# Links out to the VPN site
+product-promo-vpn-cta = { -product-mozilla-vpn-short } wobstaraś
 
 ## Profile section
 
@@ -1241,6 +1257,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Sćo dojśpił maksimalnu licbu gronidłowych klucow.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Waš wobglědowak abo rěd gronidłowy kluce njepódpěra.
 
 ## Account recovery key sub-section on main Settings page
 
