@@ -1671,6 +1671,12 @@ pair-wait-for-auth-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’o
 
 pair-unsupported-header = Eike eiporúvo tembiporu’i
 pair-unsupported-message = ¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembiporu’i rupive.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Eikuaave
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = ¡Oops! Oĩ mba’e asẽvaíva.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Emboty ko tendayke ha eha’ã jey.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1926,6 +1932,7 @@ signin-passwordless-code-instruction =
         [one] Ehai ayvu ohóva <email>{ $email }</email>-pe { $expirationTime } aravo’ieta pa’ũme.
        *[other] Ehai ayvu ohóva <email>{ $email }</email>-pe { $expirationTime } aravo’ietaite pa’ũme.
     }
+signin-passwordless-code-input-label-v2 = Emoinge ayvu 6 taíva
 signin-passwordless-code-confirm-button = Ñemoneĩ
 signin-passwordless-code-required-error = Ayvu ñemoneĩrã tekotevẽva
 signin-passwordless-code-expired = ¿Ndoikovéima ayvu?
