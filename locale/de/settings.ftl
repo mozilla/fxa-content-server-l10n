@@ -1111,7 +1111,7 @@ product-promo-vpn =
     .alt = { -product-mozilla-vpn }
 product-promo-vpn-description = Entdecken Sie eine zusätzliche Ebene des anonymen Surfens und Schutzes.
 # Links out to the VPN site
-product-promo-vpn-cta = { -product-mozilla-vpn-short } holen
+product-promo-vpn-cta = Holen Sie sich { -product-mozilla-vpn-short }
 
 ## Profile section
 

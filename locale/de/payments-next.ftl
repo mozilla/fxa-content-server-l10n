@@ -63,7 +63,7 @@ checkout-error-contact-support = Bitte wenden Sie sich an den Support, damit wir
 cart-error-currency-not-determined = Wir konnten die Währung für diesen Kauf nicht feststellen, bitte versuchen Sie es erneut.
 checkout-processing-general-error = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
 cart-total-mismatch-error = Der Rechnungsbetrag hat sich geändert. Bitte versuchen Sie es erneut.
-cart-free-trial-mismatch-error = Die Berechtigung für das kostenlose Testprogramm hat sich geändert. Bitte versuchen Sie es erneut.
+cart-free-trial-mismatch-error = Ihre Berechtigung für das kostenlose Testprogramm hat sich geändert. Bitte versuchen Sie es erneut.
 
 ## Error pages - Payment method failure messages
 
