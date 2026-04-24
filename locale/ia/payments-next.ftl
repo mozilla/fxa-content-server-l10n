@@ -63,6 +63,7 @@ checkout-error-contact-support = Contacta le assistentia proque nos pote adjutar
 cart-error-currency-not-determined = Impossibile definir le moneta pro iste compra, retenta.
 checkout-processing-general-error = Impossibile definir le moneta pro iste compra, retenta.
 cart-total-mismatch-error = Le amontar de factura ha cambiate. Retenta.
+cart-free-trial-mismatch-error = Tu requisitos del prova gratuite ha cambiate. Retenta.
 
 ## Error pages - Payment method failure messages
 
