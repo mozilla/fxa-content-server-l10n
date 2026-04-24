@@ -227,6 +227,7 @@ freeTrialEndingReminder-content-charge-subscription = Подписка на { $p
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Скидка: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Скидка
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Налог: { $invoiceTaxAmount }
