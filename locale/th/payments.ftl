@@ -430,6 +430,7 @@ sub-update-new-plan-daily = { $productName } (รายวัน)
 sub-update-new-plan-weekly = { $productName } (รายสัปดาห์)
 sub-update-new-plan-monthly = { $productName } (รายเดือน)
 sub-update-new-plan-yearly = { $productName } (รายปี)
+sub-update-prorated-upgrade-credit = ยอดคงเหลือติดลบที่แสดงจะถูกนำไปเป็นยอดเครดิตในบัญชีของคุณและใช้กับใบแจ้งหนี้ในอนาคต
 
 ## Routes - Subscriptions - Cancel
 
@@ -457,6 +458,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = นำคูปอง { $promotion_name } ไปใช้แล้ว: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = การชำระเงินค่าสมาชิกครั้งนี้ส่งผลให้เกิดยอดเครดิตในยอดคงเหลือในบัญชีของคุณ: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -493,6 +495,7 @@ pay-update-manage-btn = จัดการ
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = จะเรียกเก็บเงินครั้งถัดไปในวันที่ { $date }
+sub-next-bill-due-date = เรียกเก็บเงินครั้งถัดไปในวันที่ { $date }
 sub-expires-on = จะหมดอายุใน { $date }
 
 ## Routes - Subscription - PaymentUpdate
