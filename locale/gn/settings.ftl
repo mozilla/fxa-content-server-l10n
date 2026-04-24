@@ -1639,11 +1639,13 @@ pair-wait-for-supp-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’o
 
 # v2: Updated wording to align with the legacy Backbone pair/failure copy.
 pair-failure-header-v2 = Ojavy mba’e’oka ñembojuehe
+pair-failure-message-v2 = Noñembohekopái. Emoñepyrũ tembiapo ne ñanduti veve rupive.
 pair-failure-try-again-link = Eha’ã jey
 
 ## Pair index page
 
 pair-sync-header = Embojuehe { -brand-firefox } pumbyry térã tablétape
+pair-cad-header-v2 = Embojuaju ambue mba’e’oka
 pair-already-have-firefox-paragraph = Erekóma { -brand-firefox } ne pumbyry térã tablétape
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Embojuehe ne mba’e’oka
@@ -1658,6 +1660,15 @@ pair-take-your-data-message = Egueraha ne rendayke, techaukaha ha ñe’ẽñemi
 pair-get-started-button = Eñepyrũ
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR ayvu
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Embojuehe ne rembiasa { -brand-firefox } pegua
+# Description shown on the choice screen
+pair-choice-description = Ehecha ñe’ẽñemi ñongatupyre, tendayke, kundahára rembiasakue ha hetave, opaite mba’e’okápe.
+# Legend for the radio button fieldset
+pair-choice-legend = Eiporavo ambuéva eku’e jey hag̃ua:
 
 ## Download screen — shown after selecting "I don’t have Firefox for mobile"
 
