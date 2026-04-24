@@ -75,6 +75,7 @@ intent-payment-error-generic = Un error impreviste ha occurrite durante le elabo
 intent-payment-error-insufficient-funds = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 general-paypal-error = Un error impreviste occurreva elaborante tu pagamento, retenta.
 paypal-active-subscription-no-billing-agreement-error = Il pare que il habeva un problema facturante tu conto { -brand-paypal }. Re-activa le pagamentos automatic pro tu abonamento.
+new-account-prepaid-card-free-trial-not-allowed = Le cartas prepagate non pote esser usate pro initiar un prova gratuite sur nove contos. Tenta un differente methodo de pagamento.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
