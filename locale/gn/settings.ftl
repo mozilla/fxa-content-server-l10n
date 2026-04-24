@@ -958,6 +958,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Oimeraẽva jepysokue ha téma emoherakuãva’ekue addons.mozilla.org-pe oñemboguepáta
 delete-account-continue-button = Ku’ejey
+delete-account-delete-button-passwordless = Emboguete mba’ete
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
 delete-account-cancel-button = Heja
@@ -973,6 +974,17 @@ submit-display-name = Ñongatu
 cancel-display-name = Heja
 display-name-update-error-2 = Oĩ apañuái embohekopyahúvo nde réra ehechauka hag̃ua
 display-name-success-alert-2 = Téra ojehecháva hekopyahúma
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Emoheñói ñe’ẽ ñimi…
+page-passkey-add-follow-prompts = Ejapo pe he’iháicha ne mba’e’okápe.
+page-passkey-add-cancel = Eheja
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Ñe’ẽ ñemi mboheñoipyre
+page-passkey-add-error-system = Apopyvusu ndoikói, eha’ã jey ag̃amieve.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1097,6 +1109,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Eikuaa moõpa ivaikuaa ne marandu ñemiguáva ha ehechameme
 # Links out to the Monitor site
 product-promo-monitor-cta = Emoha’ãnga reiete
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Ejuhu peteĩ ñepytyvõrã kundaharagua ha ñemo’ã ojekuaa’ỹvagui.
+# Links out to the VPN site
+product-promo-vpn-cta = Erekóke { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1604,6 +1621,10 @@ auth-totp-code-required-error = Ayvu ñemoneĩgua jerurepyre
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Oñemoneĩva’erã <span>pe ambue mba’e’oka guive</span>
+
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-try-again-link = Eha’ã jey
 
 ## Pair index page
 
