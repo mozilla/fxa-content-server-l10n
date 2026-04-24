@@ -66,6 +66,7 @@ checkout-error-contact-support = Stajće so prošu z teamom pomocy do zwiska, zo
 cart-error-currency-not-determined = Njemóžachmy měnu za tutu kup postajić, spytajće prošu hišće raz.
 checkout-processing-general-error = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
 cart-total-mismatch-error = Suma zličbowanki je so změniła. Prošu spytajće hišće raz.
+cart-free-trial-mismatch-error = Waše woprawnjenje za darmotny testowy čas je so změniło. Spytajće prošu hišće raz.
 
 ## Error pages - Payment method failure messages
 
@@ -77,6 +78,7 @@ intent-payment-error-generic = Při předźěłowanju wašeho płaćenja je njew
 intent-payment-error-insufficient-funds = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 general-paypal-error = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
 paypal-active-subscription-no-billing-agreement-error = Zda so, kaž by problem z wotličowanjom wašeho konta { -brand-paypal } był. Prošu zmóžńće zaso awtomatiske płaćenja za swój abonement.
+new-account-prepaid-card-free-trial-not-allowed = Karty Prepaid njedadźa so wužiwać, zo bychu darmotny testowy čas započeli. Prošu spytajće druhu płaćensku metodu.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
