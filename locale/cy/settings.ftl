@@ -1129,7 +1129,7 @@ product-promo-monitor-description-v2 = Dewch o hyd i ble mae'ch manylion preifat
 product-promo-monitor-cta = Cael sgan am ddim
 product-promo-vpn =
     .alt = { -product-mozilla-vpn }
-product-promo-vpn-description = Darganfyddwch haen ychwanegol o bori ac diogelwch dienw.
+product-promo-vpn-description = Darganfod haen ychwanegol o bori ac diogelwch dienw.
 # Links out to the VPN site
 product-promo-vpn-cta = Cael { -product-mozilla-vpn-short }
 
