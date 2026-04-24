@@ -409,6 +409,17 @@ password-strength-inline-not-common = Not a commonly used password
 password-strength-inline-confirmed-must-match = Confirmation matches the new password
 password-strength-inline-passwords-match = Passwords match
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Your phone. Your rules.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Scan to get the app
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = QR code to download the { -brand-firefox } mobile app. Position your phone’s camera on the lower-right corner of your screen to scan it.
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Create
@@ -945,6 +956,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Any extensions and themes that you published to addons.mozilla.org will be deleted
 delete-account-continue-button = Continue
+delete-account-delete-button-passwordless = Delete account
 delete-account-password-input =
     .label = Enter password
 delete-account-cancel-button = Cancel
@@ -960,6 +972,17 @@ submit-display-name = Save
 cancel-display-name = Cancel
 display-name-update-error-2 = There was a problem updating your display name
 display-name-success-alert-2 = Display name updated
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Creating passkey…
+page-passkey-add-follow-prompts = Follow the prompts on your device.
+page-passkey-add-cancel = Cancel
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Passkey created
+page-passkey-add-error-system = System not available. Try again later.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1084,6 +1107,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Find where your private info is exposed and take control
 # Links out to the Monitor site
 product-promo-monitor-cta = Get free scan
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Discover an added layer of anonymous browsing and protection.
+# Links out to the VPN site
+product-promo-vpn-cta = Get { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1201,6 +1229,22 @@ passkey-row-enabled = Enabled
 passkey-row-not-set = Not set
 passkey-row-action-create = Create
 passkey-row-description = Make sign in easier and more secure by using your phone or other supported device to get into your account.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Learn more
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+       *[other] You’ve used all { $count } passkeys. Delete a passkey to create a new one.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = You’ve reached the maximum number of passkeys.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Your browser or device doesn’t support passkeys.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1560,6 +1604,15 @@ pair-auth-complete-sync-benefits-text = Now you can access your open tabs, passw
 pair-auth-complete-see-tabs-button = See tabs from synced devices
 pair-auth-complete-manage-devices-link = Manage devices
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = You’re ready to send some tabs
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } for { $deviceOS } is connected.
+pair-auth-complete-send-tab-benefits = You’re free to instantly send open tabs, passwords, and bookmarks between devices.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1586,9 +1639,17 @@ auth-totp-code-required-error = Authentication code required
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Approval now required <span>from your other device</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Device pairing failed
+pair-failure-message-v2 = The setup couldn’t be completed. Please sign in with your email.
+pair-failure-try-again-link = Try again
+
 ## Pair index page
 
 pair-sync-header = Sync { -brand-firefox } on your phone or tablet
+pair-cad-header-v2 = Connect another device
 pair-already-have-firefox-paragraph = Already have { -brand-firefox } on a phone or tablet?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sync your device
@@ -1604,10 +1665,51 @@ pair-get-started-button = Get started
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR code
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Sync your { -brand-firefox } experience
+# Description shown on the choice screen
+pair-choice-description = View your saved passwords, tabs, browsing history and more — across all your devices.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Download or open { -brand-firefox } on the device where you want to send tabs
+# Legend for the radio button fieldset
+pair-choice-legend = Select an option to continue:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = I already have { -brand-firefox } for mobile
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Start your sync now if you already have { -brand-firefox } on your mobile device.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = I don’t have { -brand-firefox } for mobile
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Download { -brand-firefox } on your mobile device, then start your sync.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Continue
+# Success banner shown after signing in
+pair-signed-in-successfully = Signed in successfully!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Account created. You’re now syncing.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Password created. You’re now syncing.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Download { -brand-firefox } for mobile
+# Description for the download screen
+pair-download-description = To sync { -brand-firefox } on your phone or tablet, you first need to download { -brand-firefox } for mobile. Here’s how:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Step { $stepNumber }</b>: Download { -brand-firefox } by scanning this QR code with the camera on your mobile device:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Step { $stepNumber }</b>: Select “Continue to sync” to sync your { -brand-firefox } experience on your mobile device.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Continue to sync
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Device connected
 pair-success-message-2 = Pairing was successful.
+pair-success-tab-close-message = This tab will be closed automatically by { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1631,6 +1733,25 @@ pair-wait-for-auth-heading-text = Approval now required <span>from your other de
 
 pair-unsupported-header = Pair using an app
 pair-unsupported-message = Did you use the system camera? You must pair from within a { -brand-firefox } app.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Oops! It looks like you’re not using { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Switch to { -brand-firefox } and open this page to connect another device.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Oops! It looks like you’re not using { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Connecting your mobile device with your { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Open { -brand-firefox } on your computer, visit <b>firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Learn more
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Oops! Something went wrong.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Please close this tab and try again.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1886,6 +2007,7 @@ signin-passwordless-code-instruction =
         [one] Enter the code that was sent to <email>{ $email }</email> within { $expirationMinutes } minute.
        *[other] Enter the code that was sent to <email>{ $email }</email> within { $expirationMinutes } minutes.
     }
+signin-passwordless-code-input-label-v2 = Enter 6-digit code
 signin-passwordless-code-confirm-button = Confirm
 signin-passwordless-code-required-error = Confirmation code required
 signin-passwordless-code-expired = Code expired?

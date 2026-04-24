@@ -1953,7 +1953,7 @@ msgstr "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">chan
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "You’re ready to send some tabs"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
@@ -1961,10 +1961,13 @@ msgid ""
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
 msgstr ""
+"\n"
+"          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr ""
+msgstr "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
 
 #: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1976,6 +1979,9 @@ msgid ""
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
 msgstr ""
+"\n"
+"          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -2003,11 +2009,11 @@ msgstr "The setup couldn’t be completed. Please sign in with your email."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Password created. You’re now syncing."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Account created. You’re now syncing."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
@@ -2015,7 +2021,7 @@ msgstr "Signed in successfully!"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "Download or open Firefox on the device where you want to send tabs"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
