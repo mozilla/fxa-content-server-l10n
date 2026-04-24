@@ -1669,9 +1669,25 @@ pair-choice-subheader = Embojuehe ne rembiasa { -brand-firefox } pegua
 pair-choice-description = Ehecha ñe’ẽñemi ñongatupyre, tendayke, kundahára rembiasakue ha hetave, opaite mba’e’okápe.
 # Legend for the radio button fieldset
 pair-choice-legend = Eiporavo ambuéva eku’e jey hag̃ua:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Arekóma { -brand-firefox } pumbyrýpe g̃uarã
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Ndarekói { -brand-firefox } pumbyrýpe g̃uarã
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Emboguejy { -brand-firefox } ne pumbyrýpe ha emoñepyrũ iñembojuehe.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Eku’ejey
+# Success banner shown after signing in
+pair-signed-in-successfully = ¡Emoñepyrũ porã tembiapo!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Emoheñóima mba’ete. Emoñondivehína.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Emoheñóima ñe’ẽñemi. Emoñondivehína.
 
 ## Download screen — shown after selecting "I don’t have Firefox for mobile"
 
+# Subheader for the download screen
+pair-download-subheader = Emboguejy { -brand-firefox } pumbyrýpe g̃uarã
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Eku’ejey embojuehe hag̃ua
 
@@ -1705,6 +1721,8 @@ pair-unsupported-header = Eike eiporúvo tembiporu’i
 pair-unsupported-message = ¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã { -brand-firefox } rembiporu’i rupive.
 # Shown as heading when a desktop user visits from a non-Firefox browser
 pair-unsupported-oops-header = ¡Cháke! Hi’ã chéve ndereiporuihína { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Eva { -brand-firefox } ndive ha embojuruja ko kuatiarogue eike hag̃ua ambue mba’e’okápe.
 # Shown inline on mobile non-Firefox browsers before the download link
 pair-unsupported-oops-mobile = ¡Cháke! Hi’ã chéve ndereiporuihína { -brand-firefox }.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
