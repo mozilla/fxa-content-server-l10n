@@ -2002,11 +2002,11 @@ msgstr "ไม่สามารถดำเนินการตั้งค่
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "รหัสผ่านถูกสร้างแล้ว ขณะนี้กำลังซิงค์ข้อมูล"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "บัญชีถูกสร้างแล้ว ขณะนี้กำลังซิงค์ข้อมูล"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
