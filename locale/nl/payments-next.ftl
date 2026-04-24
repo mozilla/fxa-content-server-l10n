@@ -63,6 +63,7 @@ checkout-error-contact-support = Neem contact op met de ondersteuningsafdeling z
 cart-error-currency-not-determined = We kunnen de valuta voor deze aankoop niet bepalen, probeer het opnieuw.
 checkout-processing-general-error = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
 cart-total-mismatch-error = Het factuurbedrag is gewijzigd. Probeer het opnieuw.
+cart-free-trial-mismatch-error = De beschikbaarheid van een gratis proefperiode is voor u gewijzigd. Probeer het opnieuw.
 
 ## Error pages - Payment method failure messages
 
@@ -74,6 +75,7 @@ intent-payment-error-generic = Er is een onverwachte fout opgetreden tijdens het
 intent-payment-error-insufficient-funds = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
 general-paypal-error = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
 paypal-active-subscription-no-billing-agreement-error = Het lijkt erop dat er een probleem is opgetreden bij de facturering van uw { -brand-paypal }-account. Schakel automatische betalingen voor uw abonnement opnieuw in.
+new-account-prepaid-card-free-trial-not-allowed = Prepaidkaarten kunnen niet worden gebruikt om een gratis proefperiode op nieuwe accounts te starten. Probeer een andere betalingsmethode.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

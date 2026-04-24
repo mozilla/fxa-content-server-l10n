@@ -979,6 +979,17 @@ cancel-display-name = Annulearje
 display-name-update-error-2 = Der is in probleem bard by it bywurkjen fan jo skermnamme
 display-name-success-alert-2 = Skermnamme bywurke
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Wachtwurdkaai meitsje…
+page-passkey-add-follow-prompts = Folgje de oanwizingen op jo apparaat.
+page-passkey-add-cancel = Annulearje
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Wachtwurdkaai oanmakke
+page-passkey-add-error-system = Systeem net beskikber. Probearje it letter nochris.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1102,6 +1113,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Untdek wêr’t jo priveegegevens lekt binne en nim de kontrôle
 # Links out to the Monitor site
 product-promo-monitor-cta = Untfang in fergeze scan
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Untdek in ekstra laach fan anonym navigearjen en beskerming.
+# Links out to the VPN site
+product-promo-vpn-cta = { -product-mozilla-vpn-short } downloade
 
 ## Profile section
 
@@ -1231,6 +1247,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Jo hawwe it maksimale oantal wachtwurdkaaien berikt.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Jo browser of apparaat stipet gjin wachtwurdkaaien.
 
 ## Account recovery key sub-section on main Settings page
 

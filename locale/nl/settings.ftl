@@ -975,6 +975,17 @@ cancel-display-name = Annuleren
 display-name-update-error-2 = Er is een probleem opgetreden bij het bijwerken van uw schermnaam
 display-name-success-alert-2 = Schermnaam bijgewerkt
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Wachtwoordsleutel maken…
+page-passkey-add-follow-prompts = Volg de aanwijzingen op uw apparaat.
+page-passkey-add-cancel = Annuleren
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Wachtwoordsleutel aangemaakt
+page-passkey-add-error-system = Systeem niet beschikbaar. Probeer het later nog eens.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1098,6 +1109,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Ontdek waar uw privégegevens zijn gelekt en neem de controle
 # Links out to the Monitor site
 product-promo-monitor-cta = Ontvang een gratis scan
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Ontdek een extra laag van anoniem navigeren en bescherming.
+# Links out to the VPN site
+product-promo-vpn-cta = { -product-mozilla-vpn-short } downloaden
 
 ## Profile section
 
@@ -1227,6 +1243,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = U hebt het maximale aantal wachtwoordsleutels bereikt.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Uw browser of apparaat ondersteunt geen wachtwoordsleutels.
 
 ## Account recovery key sub-section on main Settings page
 
