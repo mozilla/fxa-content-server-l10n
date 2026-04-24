@@ -63,7 +63,7 @@ checkout-error-contact-support = Cysylltwch â'r tîm cymorth fel y gallwn eich 
 cart-error-currency-not-determined = Doeddem ni ddim yn gallu pennu'r arian cyfred ar gyfer y pryniant hwn, ceisiwch eto.
 checkout-processing-general-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 cart-total-mismatch-error = Mae swm yr anfoneb wedi newid. Ceisiwch eto.
-cart-free-trial-mismatch-error = Mae eich cymhwyster treial am ddim wedi newid. Ceisiwch eto.
+cart-free-trial-mismatch-error = Mae eich cymhwyster profi am ddim wedi newid. Ceisiwch eto.
 
 ## Error pages - Payment method failure messages
 
@@ -75,7 +75,7 @@ intent-payment-error-generic = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch 
 intent-payment-error-insufficient-funds = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
 general-paypal-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 paypal-active-subscription-no-billing-agreement-error = Mae'n debyg bod problem wrth bilio'ch cyfrif { -brand-paypal }. Ail-alluogwch daliadau awtomatig ar gyfer eich tanysgrifiad.
-new-account-prepaid-card-free-trial-not-allowed = Ni ellir defnyddio cardiau rhagdaledig i gychwyn treial am ddim ar gyfrifon newydd. Rhowch gynnig ar ddull talu gwahanol.
+new-account-prepaid-card-free-trial-not-allowed = Does dim modd defnyddio cardiau rhagdaledig i gychwyn profi am ddim ar gyfrifon newydd. Rhowch gynnig ar ddull talu gwahanol.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

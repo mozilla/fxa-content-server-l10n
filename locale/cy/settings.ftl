@@ -995,7 +995,7 @@ display-name-success-alert-2 = Diweddarwyd yr enw dangos
 
 ## PagePasskeyAdd - Loading page shown during passkey creation
 
-page-passkey-add-creating-heading = Wrthi'n creu cyfrinair…
+page-passkey-add-creating-heading = Wrthi'n creu cyfrinallwedd…
 page-passkey-add-follow-prompts = Dilynwch yr awgrymiadau ar eich dyfais.
 page-passkey-add-cancel = Diddymu
 
@@ -1273,7 +1273,7 @@ passkey-row-max-limit-disabled-reason = Rydych chi wedi cyrraedd y nifer uchaf o
 ## Error / limit messages
 
 # Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Nid yw eich porwr neu ddyfais yn cefnogi cyfrineiriau.
+passkey-row-webauthn-not-supported = Dyw eich porwr neu ddyfais ddim yn cefnogi cyfrineiriau.
 
 ## Account recovery key sub-section on main Settings page
 
