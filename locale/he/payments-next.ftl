@@ -73,6 +73,7 @@ intent-payment-error-generic = אירעה שגיאה לא צפויה בעת עי
 intent-payment-error-insufficient-funds = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
 general-paypal-error = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 paypal-active-subscription-no-billing-agreement-error = נראה שהייתה בעיה בחיוב חשבון ה־{ -brand-paypal } שלך. נא להפעיל מחדש תשלומים אוטומטיים עבור המינוי שלך.
+new-account-prepaid-card-free-trial-not-allowed = לא ניתן להשתמש בכרטיסים נטענים כדי להתחיל תקופת ניסיון חינמית בחשבונות חדשים. נא לנסות אמצעי תשלום אחר.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

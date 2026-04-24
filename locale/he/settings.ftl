@@ -933,6 +933,17 @@ cancel-display-name = ביטול
 display-name-update-error-2 = הייתה בעיה בעדכון שם התצוגה שלך
 display-name-success-alert-2 = שם התצוגה עודכן
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = בתהליך יצירת מפתח גישה…
+page-passkey-add-follow-prompts = יש לפעול לפי ההנחיות במכשיר שלך.
+page-passkey-add-cancel = ביטול
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = מפתח הגישה נוצר
+page-passkey-add-error-system = המערכת אינה זמינה. נא לנסות שוב מאוחר יותר.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1046,6 +1057,11 @@ product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 # Links out to the Monitor site
 product-promo-monitor-cta = קבלת סריקה בחינם
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = לגלות שכבה נוספת של גלישה אנונימית והגנה.
+# Links out to the VPN site
+product-promo-vpn-cta = קבלת { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1171,6 +1187,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = הגעת למספר המירבי של מפתחות הגישה.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = הדפדפן או המכשיר שלך אינם תומכים במפתחות גישה (passkeys).
 
 ## Account recovery key sub-section on main Settings page
 
