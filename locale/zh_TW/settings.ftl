@@ -953,6 +953,7 @@ display-name-success-alert-2 = 已更新顯示名稱
 
 ## PagePasskeyAdd - Loading page shown during passkey creation
 
+page-passkey-add-creating-heading = 正在建立 Passkey…
 page-passkey-add-cancel = 取消
 
 ## Success / Error messages (shown in alert bar after returning to settings)
@@ -1082,6 +1083,10 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = 看看您的隱私資訊在哪裡外洩，並且進行管控
 # Links out to the Monitor site
 product-promo-monitor-cta = 免費掃描
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+# Links out to the VPN site
+product-promo-vpn-cta = 獲得 { -product-mozilla-vpn-short }
 
 ## Profile section
 
