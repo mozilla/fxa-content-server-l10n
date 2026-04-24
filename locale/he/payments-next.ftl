@@ -61,6 +61,7 @@ checkout-error-contact-support = נא ליצור קשר עם התמיכה כדי
 cart-error-currency-not-determined = לא הצלחנו לקבוע את המטבע עבור רכישה זו, נא לנסות שוב.
 checkout-processing-general-error = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 cart-total-mismatch-error = סכום החשבונית השתנה. נא לנסות שוב.
+cart-free-trial-mismatch-error = הזכאות שלך לתקופת ניסיון החינמית השתנתה. נא לנסות שוב.
 
 ## Error pages - Payment method failure messages
 

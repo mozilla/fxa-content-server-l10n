@@ -219,16 +219,20 @@ freeTrialEndingReminder-content-charge-heading = פרטי חיוב
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = מינוי עבור { $productName }: ‏{ $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = מינוי עבור { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = הנחה: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = הנחה
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = מיסים: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = מיסים
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = סכום לתשלום בתאריך { $serviceLastActiveDateOnly }: ‏{ $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = סכום לתשלום בתאריך { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = באפשרותך לסקור או לעדכן את אמצעי התשלום ופרטי החשבון שלך <a data-l10n-name="freeTrialEndingReminder-update-billing">כאן</a>.
 freeTrialEndingReminder-content-account-link-plaintext = באפשרותך לסקור או לעדכן את אמצעי התשלום ופרטי החשבון שלך כאן:
 # Variables:
