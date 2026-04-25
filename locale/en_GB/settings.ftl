@@ -977,6 +977,7 @@ display-name-success-alert-2 = Display name updated
 
 ## PagePasskeyAdd - Loading page shown during passkey creation
 
+page-passkey-add-creating-heading = Creating passkey…
 page-passkey-add-follow-prompts = Follow the prompts on your device.
 page-passkey-add-cancel = Cancel
 
