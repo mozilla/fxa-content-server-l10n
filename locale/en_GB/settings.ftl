@@ -975,6 +975,16 @@ cancel-display-name = Cancel
 display-name-update-error-2 = There was a problem updating your display name
 display-name-success-alert-2 = Display name updated
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-follow-prompts = Follow the prompts on your device.
+page-passkey-add-cancel = Cancel
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Passkey created
+page-passkey-add-error-system = System not available. Try again later.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1098,6 +1108,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Find where your private info is exposed and take control
 # Links out to the Monitor site
 product-promo-monitor-cta = Get free scan
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Discover an added layer of anonymous browsing and protection.
+# Links out to the VPN site
+product-promo-vpn-cta = Get { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1226,6 +1241,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = You’ve reached the maximum number of passkeys.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Your browser or device doesn’t support passkeys.
 
 ## Account recovery key sub-section on main Settings page
 
