@@ -465,10 +465,24 @@ free-trial-success-title =
        *[other] Eiporukuaáma reiete { $trialDayLength } ára
     }
 
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-yearly = Noikotevẽi jehepyme’ẽ ko árape. Ehepyme’ẽta { $firstPrice }/arygua opávo pe jeporu reiha og̃uahẽvo { $endDate }.
+
 ##
 
 # $endDate (String) - The date of the first charge after the free trial ends
 free-trial-first-charge-title = Peteĩha rehegua: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Ehepyme’ẽta { $firstPrice } og̃uahẽvo { $endDate } ha upéi ára rehegua hu’ã ohupyty peve.
+free-trial-first-charge-message-weekly = Ehepyme’ẽta { $firstPrice } og̃uahẽvo { $endDate } ha upéi arapokõindygua hu’ã ohupyty peve.
+free-trial-first-charge-message-monthly = Ehepyme’ẽta { $firstPrice } og̃uahẽvo { $endDate } ha upéi jasy rehegua hu’ã ohupyty peve.
+free-trial-first-charge-message-halfyearly = Ehepyme’ẽta { $firstPrice } og̃uahẽvo { $endDate } ha upéi poteĩ jasy rehegua hu’ãite ohupyty peve.
+free-trial-first-charge-message-yearly = Ehepyme’ẽta { $firstPrice } og̃uahẽvo { $endDate } ha upéi ary rehegua hu’ãite ohupyty peve.
 
 ##
 
