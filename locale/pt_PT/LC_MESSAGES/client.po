@@ -246,7 +246,7 @@ msgstr "Palavras-passe"
 
 #: .es5/models/sync-engines.js:58
 msgid "Add-ons"
-msgstr "Extras"
+msgstr "Complementos"
 
 #: .es5/models/sync-engines.js:62
 msgid "Open Tabs"
