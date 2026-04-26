@@ -980,11 +980,13 @@ display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημ
 ## PagePasskeyAdd - Loading page shown during passkey creation
 
 page-passkey-add-creating-heading = Δημιουργία κλειδιού πρόσβασης…
+page-passkey-add-follow-prompts = Ακολουθήστε τις οδηγίες στη συσκευή σας.
 page-passkey-add-cancel = Ακύρωση
 
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Δημιουργήθηκε κλειδί πρόσβασης
+page-passkey-add-error-system = Το σύστημα δεν είναι διαθέσιμο. Δοκιμάστε ξανά αργότερα.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1109,6 +1111,9 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τον έλεγχό τους
 # Links out to the Monitor site
 product-promo-monitor-cta = Δωρεάν σάρωση
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Ανακαλύψτε ένα επιπλέον επίπεδο ανώνυμης περιήγησης και προστασίας.
 
 ## Profile section
 
