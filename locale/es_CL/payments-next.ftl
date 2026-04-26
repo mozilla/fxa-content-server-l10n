@@ -63,6 +63,7 @@ checkout-error-contact-support = Por favor contacta con el soporte para que poda
 cart-error-currency-not-determined = No pudimos determinar la moneda para esta compra, por favor vuelve a intentarlo.
 checkout-processing-general-error = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
 cart-total-mismatch-error = El importe de la factura ha cambiado. Por favor, vuelve a intentarlo.
+cart-free-trial-mismatch-error = Los requisitos para acceder a la prueba gratuita han cambiado. Por favor, vuelve a intentarlo.
 
 ## Error pages - Payment method failure messages
 
