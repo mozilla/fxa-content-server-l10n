@@ -1673,6 +1673,8 @@ pair-password-created-now-syncing = Пароль жасалды. Қазір си
 
 # Subheader for the download screen
 pair-download-subheader = Мобильді құрылғылар үшін { -brand-firefox } жүктеп алыңыз
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Синхрондауға жалғастыру
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
