@@ -235,7 +235,7 @@ freeTrialEndingReminder-content-charge-tax-2 = Adó
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Összesen esedékes ekkor: { $serviceLastActiveDateOnly }: { $invoiceTotal }
-freeTrialEndingReminder-content-charge-total-2 = Teljes esedékesség: { $serviceLastActiveDateOnly }
+freeTrialEndingReminder-content-charge-total-2 = Összeg esedékessége: { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Fizetési módjait és fiókinformációit <a data-l10n-name="freeTrialEndingReminder-update-billing">itt</a> nézheti át vagy frissítheti.
 freeTrialEndingReminder-content-account-link-plaintext = Itt nézheti át vagy frissítheti a fizetési módját és fiókinformációit:
 # Variables:

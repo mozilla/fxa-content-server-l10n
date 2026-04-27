@@ -77,7 +77,7 @@ intent-payment-error-generic = Váratlan hiba történt a fizetése feldolgozás
 intent-payment-error-insufficient-funds = Úgy tűnik, hogy a bankkártyán kevés a fedezet. Próbálkozzon egy másik kártyával.
 general-paypal-error = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
 paypal-active-subscription-no-billing-agreement-error = Úgy tűnik, probléma merült fel a { -brand-paypal } fiókja számlázásakor. Engedélyezze újra az automatikus fizetést az előfizetésénél.
-new-account-prepaid-card-free-trial-not-allowed = A prepaid kártyákkal nem lehet ingyenes próbaidőszakot kezdeni új fiókoknál. Próbáljon meg egy másik fizetési módot.
+new-account-prepaid-card-free-trial-not-allowed = Előre feltöltött kártyákkal nem lehet ingyenes próbaidőszakot kezdeni új fiók estén. Próbáljon meg egy másik fizetési módot.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
