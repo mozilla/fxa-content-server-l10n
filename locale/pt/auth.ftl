@@ -222,16 +222,20 @@ freeTrialEndingReminder-content-charge-heading = Detalhes de cobrança
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = { $productName } subscrição: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = { $productName } subscrição
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Desconto: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Desconto
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Imposto: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Imposto
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Total para { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Total devido em { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Pode rever ou atualizar o seu método de pagamento e as informações da conta <a data-l10n-name="freeTrialEndingReminder-update-billing">aqui</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Pode rever ou atualizar o seu método de pagamento e as informações da conta aqui:
 # Variables:
@@ -472,13 +476,13 @@ subscriptionUpgrade-content-new-price-week = A partir de agora, irá ser cobrado
 subscriptionUpgrade-content-new-price-month = A partir de agora, irá ser cobrado { $paymentAmountNew } por mês, excluindo cupões.
 subscriptionUpgrade-content-new-price-halfyear = A partir de agora, será cobrado { $paymentAmountNew } a cada seis meses, excluindo cupões.
 subscriptionUpgrade-content-new-price-year = A partir de agora, será cobrado { $paymentAmountNew } por ano, excluindo cupões.
-subscriptionUpgrade-content-new-price-default = A partir de agora, serão cobrados { $paymentAmountNew } por intervalo de faturação, excluindo extras.
+subscriptionUpgrade-content-new-price-default = De agora em diante, será cobrado { $paymentAmountNew } por cada período de faturação, excluindo descontos.
 subscriptionUpgrade-content-new-price-day-dtax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } de impostos por dia, excluindo cupões.
-subscriptionUpgrade-content-new-price-week-tax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } de impostos por semana, excluindo extras.
+subscriptionUpgrade-content-new-price-week-tax = De agora em diante, será cobrado { $paymentAmountNew } mais { $paymentTaxNew } de imposto por semana, excluindo descontos.
 subscriptionUpgrade-content-new-price-month-tax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } impostos por mês, excluindo cupões.
-subscriptionUpgrade-content-new-price-halfyear-tax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } de impostos por seis meses, excluindo extras.
-subscriptionUpgrade-content-new-price-year-tax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } de impostos por ano, excluindo extras.
-subscriptionUpgrade-content-new-price-default-tax = A partir de agora, serão cobrados { $paymentAmountNew } + { $paymentTaxNew } de impostos por intervalo de faturação, excluindo extras.
+subscriptionUpgrade-content-new-price-halfyear-tax = De agora em diante, será cobrado { $paymentAmountNew } mais { $paymentTaxNew } de imposto a cada seis meses, excluindo descontos.
+subscriptionUpgrade-content-new-price-year-tax = De agora em diante, será cobrado { $paymentAmountNew } mais { $paymentTaxNew } de imposto por ano, excluindo descontos.
+subscriptionUpgrade-content-new-price-default-tax = De agora em diante, será cobrado { $paymentAmountNew } mais { $paymentTaxNew } de imposto por cada período de faturação, excluindo descontos.
 subscriptionUpgrade-existing = Se alguma das suas subscrições existentes se sobrepor a esta atualização, iremos gerir a mesma e enviar-lhe um e-mail separado com os detalhes. Se o seu novo plano incluir produtos que requeiram instalação, iremos enviar-lhe um e-mail separado com as instruções de configuração.
 subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 subscriptionsPaymentExpired-subject-2 = O método de pagamento para as suas subscrições expirou ou expira em breve
