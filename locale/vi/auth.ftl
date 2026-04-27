@@ -217,16 +217,20 @@ freeTrialEndingReminder-content-charge-heading = Chi tiết tính phí
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Gói đăng ký { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Gói đăng ký { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Giảm giá: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Giảm giá
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Thuế: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Thuế
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Tổng số tiền phải trả vào { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Tổng số tiền phải trả vào { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Bạn có thể xem lại hoặc cập nhật phương thức thanh toán và thông tin tài khoản của mình <a data-l10n-name="freeTrialEndingReminder-update-billing">tại đây</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Bạn có thể xem lại hoặc cập nhật phương thức thanh toán và thông tin tài khoản của mình tại đây:
 # Variables:

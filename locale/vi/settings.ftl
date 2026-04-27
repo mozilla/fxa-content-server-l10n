@@ -938,6 +938,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Mọi tiện ích mở rộng và chủ đề mà bạn đã xuất bản lên addons.mozilla.org sẽ bị xóa
 delete-account-continue-button = Tiếp tục
+delete-account-delete-button-passwordless = Xoá tài khoản
 delete-account-password-input =
     .label = Nhập mật khẩu
 delete-account-cancel-button = Hủy bỏ
@@ -953,6 +954,17 @@ submit-display-name = Lưu
 cancel-display-name = Huỷ bỏ
 display-name-update-error-2 = Đã xảy ra sự cố trong khi cập nhật tên hiển thị của bạn
 display-name-success-alert-2 = Đã cập nhật tên hiển thị
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Đang tạo passkey…
+page-passkey-add-follow-prompts = Hãy làm theo hướng dẫn trên thiết bị của bạn.
+page-passkey-add-cancel = Huỷ bỏ
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Đã tạo passkey
+page-passkey-add-error-system = Hệ thống không khả dụng. Hãy thử lại sau.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1077,6 +1089,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Tìm nơi thông tin cá nhân của bạn bị lộ và kiểm soát chúng
 # Links out to the Monitor site
 product-promo-monitor-cta = Quét miễn phí
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Khám phá web với một lớp bảo vệ được bổ sung và duyệt web ẩn danh.
+# Links out to the VPN site
+product-promo-vpn-cta = Nhận { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1201,6 +1218,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Bạn đã đạt đến số lượng passkey tối đa.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Trình duyệt hoặc thiết bị của bạn không hỗ trợ passkey.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1560,6 +1582,15 @@ pair-auth-complete-sync-benefits-text = Giờ đây, bạn có thể truy cập 
 pair-auth-complete-see-tabs-button = Xem các thẻ từ các thiết bị được đồng bộ hóa
 pair-auth-complete-manage-devices-link = Quản lý thiết bị
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Bạn đã sẵn sàng để gửi một số thẻ rồi
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } cho { $deviceOS } đã được kết nối.
+pair-auth-complete-send-tab-benefits = Bạn có thể dễ dàng gửi ngay lập tức các thẻ đang mở, mật khẩu và dấu trang giữa các thiết bị.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1586,9 +1617,17 @@ auth-totp-code-required-error = Yêu cầu mã xác thực
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Hiện yêu cầu phê duyệt <span>từ thiết bị khác của bạn</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Không thể ghép nối thiết bị
+pair-failure-message-v2 = Không thể hoàn tất quá trình thiết lập. Vui lòng đăng nhập bằng email của bạn.
+pair-failure-try-again-link = Thử lại
+
 ## Pair index page
 
 pair-sync-header = Đồng bộ hóa { -brand-firefox } trên điện thoại hoặc máy tính bảng của bạn
+pair-cad-header-v2 = Kết nối thiết bị khác
 pair-already-have-firefox-paragraph = Đã có { -brand-firefox } trên điện thoại hoặc máy tính bảng?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Đồng bộ hóa thiết bị của bạn
@@ -1604,10 +1643,51 @@ pair-get-started-button = Bắt đầu
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Mã QR
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Đồng bộ hoá trải nghiệm { -brand-firefox } của bạn
+# Description shown on the choice screen
+pair-choice-description = Xem mật khẩu, thẻ, lịch sử duyệt web đã lưu của bạn và hơn thế nữa — trên mọi thiết bị của bạn.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Tải xuống hoặc mở { -brand-firefox } trên thiết bị mà bạn muốn gửi thẻ đến.
+# Legend for the radio button fieldset
+pair-choice-legend = Chọn một tuỳ chọn để tiếp tục:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Tôi đã có { -brand-firefox } trên di động
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Bắt đầu đồng bộ hoá ngay bây giờ nếu bạn đã có { -brand-firefox } trên thiết bị di động của mình.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Tôi chưa có { -brand-firefox } trên di động
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Tải xuống { -brand-firefox } trên thiết bị di động của bạn, sau đó bắt đầu đồng bộ hoá.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Tiếp tục
+# Success banner shown after signing in
+pair-signed-in-successfully = Đã đăng nhập thành công!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Đã tạo tài khoản. Bây giờ bạn có thể đồng bộ hoá dữ liệu.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Mật khẩu đã được tạo. Bây giờ bạn có thể đồng bộ hoá dữ liệu.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Tải xuống { -brand-firefox } dành cho di động
+# Description for the download screen
+pair-download-description = Để đồng bộ hoá { -brand-firefox } trên điện thoại hoặc máy tính bảng, trước tiên bạn cần tải xuống { -brand-firefox } dành cho di động. Đây là cách thực hiện:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Bước { $stepNumber }</b>: Tải xuống { -brand-firefox } bằng cách quét mã QR này bằng máy ảnh trên thiết bị di động của bạn:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Bước { $stepNumber }</b>: Chọn "Tiếp tục đồng bộ hoá" để đồng bộ hoá trải nghiệm { -brand-firefox } trên thiết bị di động của bạn.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Tiếp tục đồng bộ hoá
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Đã kết nối thiết bị
 pair-success-message-2 = Ghép nối thành công.
+pair-success-tab-close-message = Thẻ này sẽ tự động đóng bởi { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1631,6 +1711,25 @@ pair-wait-for-auth-heading-text = Hiện tại cần chấp nhận <span>từ th
 
 pair-unsupported-header = Ghép nối bằng ứng dụng
 pair-unsupported-message = Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ bên trong ứng dụng { -brand-firefox }.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Oops! Có vẻ như bạn không sử dụng { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Chuyển sang { -brand-firefox } và mở trang này để kết nối thiết bị khác.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Oops! Có vẻ như bạn không sử dụng { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Kết nối thiết bị di động của bạn với { -product-mozilla-account } của bạn
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Mở { -brand-firefox } trên máy tính, truy cập <b>firefox.com/pair</b>, và làm theo hướng dẫn trên màn hình để kết nối đến thiết bị di động của bạn.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Tìm hiểu thêm
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Oops! Có gì đó không ổn.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Vui lòng đóng thẻ này và thử lại.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1878,6 +1977,7 @@ signin-passwordless-code-subheading = Việc đăng nhập chỉ mất một bư
 #   email (String) - the user's email
 #   expirationMinutes (Number) - the expiration time in minutes
 signin-passwordless-code-instruction = Nhập mã đã được gửi tới <email>{ $email }</email> trong vòng { $expirationMinutes } phút.
+signin-passwordless-code-input-label-v2 = Nhập mã gồm 6 chữ số
 signin-passwordless-code-confirm-button = Xác nhận
 signin-passwordless-code-required-error = Yêu cầu mã xác minh
 signin-passwordless-code-expired = Mã đã hết hạn?
