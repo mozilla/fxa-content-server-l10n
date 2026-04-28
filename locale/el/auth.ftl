@@ -235,6 +235,7 @@ freeTrialEndingReminder-content-charge-tax-2 = Φόρος
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Συνολική χρέωση στις { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Συνολική χρέωση στις { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Μπορείτε να ελέγξετε ή να ενημερώσετε τη μέθοδο πληρωμής και τα στοιχεία του λογαριασμού σας <a data-l10n-name="freeTrialEndingReminder-update-billing">εδώ</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Μπορείτε να ελέγξετε ή να ενημερώσετε τη μέθοδο πληρωμής και τα στοιχεία του λογαριασμού σας εδώ:
 # Variables:

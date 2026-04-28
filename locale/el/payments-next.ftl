@@ -63,6 +63,7 @@ checkout-error-contact-support = Επικοινωνήστε με την υποσ
 cart-error-currency-not-determined = Δεν μπορέσαμε να προσδιορίσουμε το νόμισμα για αυτήν την αγορά, δοκιμάστε ξανά.
 checkout-processing-general-error = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 cart-total-mismatch-error = Το ποσό του παραστατικού έχει αλλάξει. Δοκιμάστε ξανά.
+cart-free-trial-mismatch-error = Η καταλληλότητά σας για τη δωρεάν δοκιμή έχει αλλάξει. Δοκιμάστε ξανά.
 
 ## Error pages - Payment method failure messages
 
