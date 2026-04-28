@@ -975,6 +975,17 @@ cancel-display-name = Avbryt
 display-name-update-error-2 = Det gick inte att uppdatera ditt visningsnamn
 display-name-success-alert-2 = Visningsnamn uppdaterat
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Skapar lösenordsnyckel…
+page-passkey-add-follow-prompts = Följ instruktionerna på din enhet.
+page-passkey-add-cancel = Avbryt
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Lösenordsnyckel skapad
+page-passkey-add-error-system = Systemet är inte tillgängligt. Försök igen senare.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1098,6 +1109,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Hitta var din privata information exponeras och ta kontrollen
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Upptäck ett extra lager av anonym surfning och skydd.
+# Links out to the VPN site
+product-promo-vpn-cta = Hämta { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1226,6 +1242,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Du har nått det maximala antalet lösenordsnycklar.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Din webbläsare eller enhet stöder inte lösenordsnycklar.
 
 ## Account recovery key sub-section on main Settings page
 
