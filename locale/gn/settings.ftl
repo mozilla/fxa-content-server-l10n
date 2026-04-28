@@ -1608,6 +1608,7 @@ pair-auth-complete-send-tab-heading = Emondokuaáma ndahetái tendayke
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } { $deviceOS }-pe g̃uarã hendyhína.
+pair-auth-complete-send-tab-benefits = Emondokuaa pya’e tendayke ijurujáva, ñe’ẽñemi ha techaukaha mba’e’oka pa’ũme.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1667,6 +1668,8 @@ pair-qr-code-aria-label = QR ayvu
 pair-choice-subheader = Embojuehe ne rembiasa { -brand-firefox } pegua
 # Description shown on the choice screen
 pair-choice-description = Ehecha ñe’ẽñemi ñongatupyre, tendayke, kundahára rembiasakue ha hetave, opaite mba’e’okápe.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Emboguejy térã embojuruja { -brand-firefox } mba’e’oka emondosehápe tendaykeita
 # Legend for the radio button fieldset
 pair-choice-legend = Eiporavo ambuéva eku’e jey hag̃ua:
 # Radio option: user already has Firefox for mobile — title
