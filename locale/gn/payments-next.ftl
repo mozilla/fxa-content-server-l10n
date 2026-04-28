@@ -75,6 +75,7 @@ intent-payment-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’
 intent-payment-error-insufficient-funds = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
 general-paypal-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Ikatúpiko eha’ã jey uperire.
 paypal-active-subscription-no-billing-agreement-error = Ha’ete ku oĩva apañuái emonguatiávo nde { -brand-paypal } mba’etépe. Ikatúpiko emyandy jey jehepyme’ẽ ijeheguíva ne ñemboheraguapyrã.
+new-account-prepaid-card-free-trial-not-allowed = Kuatia’atã ojehepyme’ẽmava ndojeporukuaái eñepyrũ hag̃ua eiporurei mba’ete pyahúpe. Eiporu jehepyme’ẽrã ambuéva.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -469,6 +470,10 @@ free-trial-success-title =
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
+free-trial-start-message-daily = Noikotevẽi jehepyme’ẽ ko árape. Ehepyme’ẽta { $firstPrice }/aragua opávo pe jeporu reiha og̃uahẽvo { $endDate }.
+free-trial-start-message-weekly = Noikotevẽi jehepyme’ẽ ko árape. Ehepyme’ẽta { $firstPrice }/arapokõindygua opávo jeporu reiha og̃uahẽvo { $endDate }.
+free-trial-start-message-monthly = Noikotevẽi jehepyme’ẽ ko árape. Ehepyme’ẽta { $firstPrice }/jasygua opávo jeporu reiha og̃uahẽvo { $endDate }.
+free-trial-start-message-halfyearly = Noikotevẽi jehepyme’ẽ ko árape. Ehepyme’ẽta { $firstPrice }/poteĩ jasygua opávo jeporu reiha og̃uahẽvo { $endDate }.
 free-trial-start-message-yearly = Noikotevẽi jehepyme’ẽ ko árape. Ehepyme’ẽta { $firstPrice }/arygua opávo pe jeporu reiha og̃uahẽvo { $endDate }.
 
 ##
