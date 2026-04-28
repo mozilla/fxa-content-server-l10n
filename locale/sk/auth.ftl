@@ -226,16 +226,20 @@ freeTrialEndingReminder-content-charge-heading = Podrobnosti o poplatku
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Predplatné pre { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Predplatné produktu { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Zľava: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Zľava
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Daň: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Daň
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Celková suma k úhrade dňa { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Celková suma splatná dňa { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Spôsob platby a informácie o účte si môžete skontrolovať alebo aktualizovať <a data-l10n-name="freeTrialEndingReminder-update-billing">tu</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Svoj spôsob platby a informácie o účte si môžete skontrolovať alebo aktualizovať tu:
 # Variables:

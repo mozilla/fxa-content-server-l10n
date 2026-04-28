@@ -983,6 +983,17 @@ cancel-display-name = Zrušiť
 display-name-update-error-2 = Pri aktualizácii vášho zobrazovaného mena sa vyskytol problém
 display-name-success-alert-2 = Zobrazované meno aktualizované
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Vytvára sa prístupový kľúč…
+page-passkey-add-follow-prompts = Postupujte podľa pokynov na vašom zariadení.
+page-passkey-add-cancel = Zrušiť
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Prístupový kľúč bol vytvorený
+page-passkey-add-error-system = Systém nie je k dispozícii. Skúste to znova neskôr.
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
@@ -1106,6 +1117,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Zistite, kde sú vaše súkromné informácie zverejnené, a prevezmite nad nimi kontrolu
 # Links out to the Monitor site
 product-promo-monitor-cta = Skontrolovať
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Objavte ďalšiu vrstvu anonymného prehliadania a ochrany.
+# Links out to the VPN site
+product-promo-vpn-cta = Získajte { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1239,6 +1255,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Dosiahli ste maximálny počet prístupových kľúčov.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Váš prehliadač alebo zariadenie nepodporuje prístupové kľúče.
 
 ## Account recovery key sub-section on main Settings page
 

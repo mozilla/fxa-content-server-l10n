@@ -63,6 +63,7 @@ checkout-error-contact-support = Kontaktujte podporu, aby sme vám mohli pomôc�
 cart-error-currency-not-determined = Nepodarilo sa nám určiť menu pre tento nákup, skúste to znova.
 checkout-processing-general-error = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 cart-total-mismatch-error = Suma faktúry sa zmenila. Skúste to znova.
+cart-free-trial-mismatch-error = Váš nárok na bezplatnú skúšobnú verziu sa zmenil. Skúste to znova.
 
 ## Error pages - Payment method failure messages
 
@@ -74,6 +75,7 @@ intent-payment-error-generic = Počas spracovania platby došlo k neočakávanej
 intent-payment-error-insufficient-funds = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
 general-paypal-error = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 paypal-active-subscription-no-billing-agreement-error = Zdá sa, že sa vyskytol problém s fakturáciou vášho účtu { -brand-paypal }. Znovu povoľte automatické platby pre vaše predplatné.
+new-account-prepaid-card-free-trial-not-allowed = Predplatené karty nie je možné použiť na spustenie bezplatnej skúšobnej verzie na nových účtoch. Skúste iný spôsob platby.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
