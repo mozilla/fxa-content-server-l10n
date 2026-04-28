@@ -1086,6 +1086,11 @@ signin-password-button-label = Серсүз
 ## This will be the page shown to users to block the sign in and report it.
 
 report-signin-link-damaged-body = Сез баскан сылтамадан кайбер хәрефләр төшеп калган иде, һәм электрон почта программагыз бозган булуы мөмкин. Игътибар белән адресны копияләп, тагын бер кат тырышып карагыз.
+report-signin-header = Авторизацияләнмәгән керү хакында хәбәр итәргәме?
+report-signin-body = Сез хисабыгызга керергә тырышу хакында бер электрон хат алдыгыз. Бу гамәлне шикле дип хәбәр итәсегез киләме?
+report-signin-submit-button = Активлыкны хәбәр итү
+report-signin-support-link = Бу нидән килеп чыга?
+signin-bounced-header = Гафу. Без хисабыгызны блокладык.
 back = Кире
 
 ## SigninPasswordlessCode page
@@ -1129,6 +1134,13 @@ signin-recovery-code-confirm-button = Раслау
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Хисабыгыз биклеме?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Резерв копия аутентификация коды кирәк
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+signin-reported-header = Игътибарлылыгыз өчен рәхмәт
+signin-reported-message = Такымыбыз искәртелде. Мондый хәбәрләр безгә зарар салучыларга каршы көрәшергә ярдәм итә.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
