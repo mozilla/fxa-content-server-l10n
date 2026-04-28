@@ -1169,6 +1169,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"            Дәвам итү нәтиҗәсендә Сез:<br />\n"
+"            Pocket-ның <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Куллану Шартлары</a> һәм <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Хосусыйлык Аңлатмасы</a><br />\n"
+"            Mozilla хисап язмаларының <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Куллану Шартлары</a> һәм <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Хосусыйлык Аңлатмасы</a> белән килешәчәксез\n"
+"            "
 
 #: .es5/templates/index.mustache:18
 msgid ""
@@ -1426,7 +1431,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "5 минут эчендә %(email)s адресына җибәрелгән кодын кертегез."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1638,7 +1643,7 @@ msgstr "Раслау кодын кертегез"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Зинһар, 5 минут эчендә %(escapedEmail)s адресына җибәрелгән раслау кодын кертегез."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
