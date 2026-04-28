@@ -7,7 +7,7 @@ set -e
 
 function usage() {
     echo "syntax:"
-    echo "extract_strings.sh [--mailer-repo ../libs/accounts/email-renderer] [--auth-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--payments-repo ./fxa-payments-server] [--l10n-repo ./fxa-content-server-l10n]"
+    echo "extract_strings.sh [--mailer-repo ../libs/accounts/email-renderer] [--auth-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--payments-next-repo ../apps/payments/next] [--l10n-repo ./fxa-content-server-l10n]"
     exit 1
 }
 
@@ -27,7 +27,6 @@ fi
 MAILER_DIR="../libs/accounts/email-renderer"
 AUTH_DIR="./fxa-auth-server"
 CONTENT_DIR="./fxa-content-server"
-PAYMENTS_DIR="./fxa-payments-server"
 PAYMENTS_NEXT_DIR="../apps/payments/next"
 SETTINGS_DIR="./fxa-settings"
 REACT_DIR="./fxa-react"
@@ -49,10 +48,6 @@ case $param in
     ;;
     --content-repo)
     CONTENT_DIR="$2"
-    shift 2
-    ;;
-    --payments-repo)
-    PAYMENTS_DIR="$2"
     shift 2
     ;;
     --payments-next-repo)
@@ -87,8 +82,6 @@ printf "Checking $AUTH_DIR.. "
 check_folder $AUTH_DIR
 printf "Checking $CONTENT_DIR.. "
 check_folder $CONTENT_DIR
-printf "Checking $PAYMENTS_DIR.. "
-check_folder $PAYMENTS_DIR
 printf "Checking $PAYMENTS_NEXT_DIR.. "
 check_folder $PAYMENTS_NEXT_DIR
 printf "Checking $SETTINGS_DIR.. "
@@ -146,7 +139,6 @@ sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/
 
 # Fluent extraction
 
-cp $PAYMENTS_DIR/public/locales/en/payments.ftl $L10N_DIR/locale/templates
 cp $PAYMENTS_NEXT_DIR/public/locales/en/payments-next.ftl $L10N_DIR/locale/templates
 cp $SETTINGS_DIR/public/locales/en/settings.ftl $L10N_DIR/locale/templates
 cp $MAILER_DIR/public/locales/en/emails.ftl $L10N_DIR/locale/templates
