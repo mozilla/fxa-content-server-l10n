@@ -1114,6 +1114,8 @@ product-promo-monitor-cta = Δωρεάν σάρωση
 product-promo-vpn =
     .alt = { -product-mozilla-vpn }
 product-promo-vpn-description = Ανακαλύψτε ένα επιπλέον επίπεδο ανώνυμης περιήγησης και προστασίας.
+# Links out to the VPN site
+product-promo-vpn-cta = Λήψη του { -product-mozilla-vpn-short }
 
 ## Profile section
 
