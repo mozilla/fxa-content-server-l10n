@@ -1614,6 +1614,9 @@ pair-auth-complete-manage-devices-link = Διαχείριση συσκευών
 
 # Heading
 pair-auth-complete-send-tab-heading = Είστε έτοιμοι να στείλετε μερικές καρτέλες
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = Το { $deviceFamily } για { $deviceOS } έχει συνδεθεί.
 pair-auth-complete-send-tab-benefits = Μπορείτε να στείλετε άμεσα ανοικτές καρτέλες, κωδικούς πρόσβασης και σελιδοδείκτες μεταξύ των συσκευών σας.
 
 ## AuthTotp page

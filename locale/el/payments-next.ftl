@@ -74,6 +74,7 @@ intent-payment-error-generic = Προέκυψε μη αναμενόμενο σφ
 intent-payment-error-insufficient-funds = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκές υπόλοιπο. Δοκιμάστε μια άλλη κάρτα.
 general-paypal-error = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 paypal-active-subscription-no-billing-agreement-error = Φαίνεται ότι προέκυψε πρόβλημα με τη χρέωση του λογαριασμού { -brand-paypal } σας. Ενεργοποιήστε ξανά τις αυτόματες πληρωμές για τη συνδρομή σας.
+new-account-prepaid-card-free-trial-not-allowed = Δεν είναι δυνατή η χρήση προπληρωμένων καρτών για την έναρξη μιας δωρεάν δοκιμής σε νέους λογαριασμούς. Δοκιμάστε μια άλλη μέθοδο πληρωμής.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
