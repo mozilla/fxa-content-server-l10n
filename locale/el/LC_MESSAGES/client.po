@@ -1974,7 +1974,7 @@ msgstr "Εάν δεν το κάνετε εσείς, <a id=\"change-password\" cl
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "Είστε έτοιμοι να στείλετε μερικές καρτέλες"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
