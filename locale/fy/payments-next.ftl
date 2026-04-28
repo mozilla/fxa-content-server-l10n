@@ -63,6 +63,7 @@ checkout-error-contact-support = Nim kontakt op mei stipeôfdieling, sadat wy jo
 cart-error-currency-not-determined = Wy kinne de faluta foar dizze oankeap net bepale, probearje it opnij.
 checkout-processing-general-error = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
 cart-total-mismatch-error = It faktuerbedrach is wizige. Probearje it nochris.
+cart-free-trial-mismatch-error = De beskikberheid fan in fergeze proefperioade is foar jo wizige. Probearje it opnij.
 
 ## Error pages - Payment method failure messages
 
@@ -74,6 +75,7 @@ intent-payment-error-generic = Der is in ûnferwachte flater bard by it ferwurkj
 intent-payment-error-insufficient-funds = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
 general-paypal-error = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
 paypal-active-subscription-no-billing-agreement-error = It liket derop dat der in probleem wie mei it fakturearjen fan jo { -brand-paypal }-account. Skeakelje automatyske betellingen opnij yn foar jo abonnemint.
+new-account-prepaid-card-free-trial-not-allowed = Prepaidkaarten kinne net brûkt wurde om in fergeze proefperioade te begjinnen op nije accounts. Probearje in oare betellingsmetoade.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
