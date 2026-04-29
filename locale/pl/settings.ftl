@@ -1550,6 +1550,31 @@ pair-get-started-button = Zacznij teraz
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Kod QR
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Description shown on the choice screen
+pair-choice-description = Korzystaj z zachowanych haseł, kart, historii przeglądania i nie tylko — na wszystkich urządzeniach.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Pobierz lub otwórz { -brand-firefox(case: "acc") } na urządzeniu, na które chcesz wysłać karty
+# Legend for the radio button fieldset
+pair-choice-legend = Wybierz opcję, aby kontynuować:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Mam już { -brand-firefox(case: "acc") } na telefon
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Zacznij synchronizować od razu, jeśli już masz { -brand-firefox(case: "acc") } na swoim telefonie.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Nie mam { -brand-firefox(case: "gen") } na telefon
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Pobierz { -brand-firefox(case: "acc") } na swój telefon i zacznij synchronizować.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Kontynuuj
+# Success banner shown after signing in
+pair-signed-in-successfully = Pomyślnie zalogowano
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Konto utworzone. Synchronizacja w toku.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Hasło utworzone. Synchronizacja w toku.
+
 ## Download screen — shown after selecting "I don’t have Firefox for mobile"
 
 # Subheader for the download screen
@@ -1602,6 +1627,11 @@ service-welcome-signin-success-banner = Pomyślnie zalogowano
 set-password-heading-v2 = Utwórz hasło, aby synchronizować
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = To hasło szyfruje Twoje dane. Musi być inne niż Twoje hasło do konta { -brand-google } lub { -brand-apple }.
+
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = To hasło szyfruje synchronizowane dane i zapewnia ich bezpieczeństwo.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
