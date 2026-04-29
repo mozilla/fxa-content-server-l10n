@@ -7,7 +7,7 @@ set -e
 
 function usage() {
     echo "syntax:"
-    echo "extract_strings.sh [--mailer-repo ../libs/accounts/email-renderer] [--auth-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--payments-next-repo ../apps/payments/next] [--l10n-repo ./fxa-content-server-l10n]"
+    echo "extract_strings.sh [--mailer-repo ../libs/accounts/email-renderer] [--auth-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--payments-next-repo ../apps/payments/next] [--settings-repo ./fxa-settings] [--react-repo ./fxa-react] [--shared-repo ../libs/shared] [--l10n-repo ./fxa-content-server-l10n]"
     exit 1
 }
 
