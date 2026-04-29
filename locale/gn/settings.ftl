@@ -1700,6 +1700,12 @@ pair-password-created-now-syncing = Emoheñóima ñe’ẽñemi. Emoñondivehín
 
 # Subheader for the download screen
 pair-download-subheader = Emboguejy { -brand-firefox } pumbyrýpe g̃uarã
+# Description for the download screen
+pair-download-description = Embojuehe hag̃ua { -brand-firefox } ne pumbyry térã tablétape, emboguejyraẽ { -brand-firefox } ne pumbyrýpe. Mba’éichapa:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Jeku’e { $stepNumber }</b>: Emboguejy { -brand-firefox } emoha’ãngávo ko QR ayvu ne pumbyry popegua moha’ãngaha rupive:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Jeku’e { $stepNumber }</b>: Eiporavo “Ku’ejey embojuehe hag̃ua” embojuehe hag̃ua nde jeike { -brand-firefox } pumbyry rupive.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Eku’ejey embojuehe hag̃ua
 
