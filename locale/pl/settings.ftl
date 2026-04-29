@@ -1550,6 +1550,11 @@ pair-get-started-button = Zacznij teraz
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Kod QR
 
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Pobierz { -brand-firefox(case: "acc") } na telefon
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Połączono urządzenie
