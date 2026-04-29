@@ -1579,11 +1579,20 @@ pair-password-created-now-syncing = Hasło utworzone. Synchronizacja w toku.
 
 # Subheader for the download screen
 pair-download-subheader = Pobierz { -brand-firefox(case: "acc") } na telefon
+# Description for the download screen
+pair-download-description = Aby synchronizować { -brand-firefox(case: "acc") } na swoim telefonie lub tablecie, najpierw musisz go pobrać. Oto jak:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>{ $stepNumber }. krok</b>: pobierz { -brand-firefox(case: "acc") }, skanując ten kod QR aparatem na swoim telefonie:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>{ $stepNumber }. krok</b>: kliknij „Przejdź do synchronizacji”, aby synchronizować swojego { -brand-firefox(case: "acc") } na telefonie.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Przejdź do synchronizacji
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Połączono urządzenie
 pair-success-message-2 = Pomyślnie powiązano.
+pair-success-tab-close-message = Ta karta zostanie automatycznie zamknięta przez { -brand-firefox(case: "acc") }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1607,6 +1616,12 @@ pair-wait-for-auth-heading-text = Teraz wymagane jest zatwierdzenie <span>z inn
 
 pair-unsupported-header = Powiąż za pomocą aplikacji
 pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z poziomu aplikacji { -brand-firefox }.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Ups! Wygląda na to, że nie używasz { -brand-firefox(case: "gen") }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Przejdź na { -brand-firefox(case: "acc") } i otwórz tę stronę, aby podłączyć kolejne urządzenie.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Ups! Wygląda na to, że nie używasz { -brand-firefox(case: "gen") }.
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Ups! Coś poszło nie tak.
