@@ -985,6 +985,7 @@ page-passkey-add-cancel = Бас тарту
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Рұқсат кілті жасалды
+page-passkey-add-error-system = Жүйе қолжетімді емес. Кейінірек қайталап көріңіз.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1109,6 +1110,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Жеке ақпаратыңыздың қай жерде жарияланатынын анықтаңыз және бақылауды қолға алыңыз
 # Links out to the Monitor site
 product-promo-monitor-cta = Тегін сканерлеуді алу
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Анонимді шолу мен қорғаныстың қосымша қабатын өзіңіз үшін ашыңыз.
+# Links out to the VPN site
+product-promo-vpn-cta = { -product-mozilla-vpn-short } алу
 
 ## Profile section
 
@@ -1237,6 +1243,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Сіз рұқсат кілттердің максималды санына жеттіңіз.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Браузеріңіз немесе құрылғыңыз рұқсат кілттерін қолдамайды.
 
 ## Account recovery key sub-section on main Settings page
 
