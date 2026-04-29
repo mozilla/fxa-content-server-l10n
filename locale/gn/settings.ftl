@@ -1233,6 +1233,13 @@ passkey-row-action-create = Moheñói
 passkey-row-description = Ejapo nde jeike ndahasýi ha tahekorosã eiporúvo pumbyry térã ambue mba’e’oka ojokupytýva eike hag̃ua ne mba’etépe.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Eikuaave
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+       *[other] Eiporupáma { $count } ñe’ẽ ñemi. Embogue jeikeha emoheñói hag̃ua ipyahúva.
+    }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Ehupytýma ñe’ẽ ñemigua papapy ru’ã rehegua.
 
@@ -1674,6 +1681,8 @@ pair-choice-header-send-tab = Emboguejy térã embojuruja { -brand-firefox } mba
 pair-choice-legend = Eiporavo ambuéva eku’e jey hag̃ua:
 # Radio option: user already has Firefox for mobile — title
 pair-choice-has-mobile-title = Arekóma { -brand-firefox } pumbyrýpe g̃uarã
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Embojuehe ñepyrũntema eguerekóramo { -brand-firefox } ne pumbyry popeguápe.
 # Radio option: user does not have Firefox for mobile — title
 pair-choice-needs-mobile-title = Ndarekói { -brand-firefox } pumbyrýpe g̃uarã
 # Radio option: user does not have Firefox for mobile — description
