@@ -1747,6 +1747,9 @@ pair-unsupported-oops-mobile = ¡Cháke! Hi’ã chéve ndereiporuihína { -bran
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
 pair-unsupported-connecting-mobile-header-v2 = Embojuaju ne pumbyry nde  { -product-mozilla-account } pegua ndive
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Embojuruja { -brand-firefox } ne mohendahápe, eike <b>firefox.com/pair</b>-pe ha ejapo oĩva mba’erechahápe embojoaju hag̃ua ne pumbyry.
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = Eikuaave
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
