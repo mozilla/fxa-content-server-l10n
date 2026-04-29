@@ -1552,6 +1552,8 @@ pair-qr-code-aria-label = Kod QR
 
 ## Choice screen — "Do you have Firefox for mobile?"
 
+# Subheader shown on the choice screen
+pair-choice-subheader = Synchronizuj dane { -brand-firefox(case: "gen") }
 # Description shown on the choice screen
 pair-choice-description = Korzystaj z zachowanych haseł, kart, historii przeglądania i nie tylko — na wszystkich urządzeniach.
 # Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
@@ -1622,6 +1624,15 @@ pair-unsupported-oops-header = Ups! Wygląda na to, że nie używasz { -brand-fi
 pair-unsupported-switch-to-firefox = Przejdź na { -brand-firefox(case: "acc") } i otwórz tę stronę, aby podłączyć kolejne urządzenie.
 # Shown inline on mobile non-Firefox browsers before the download link
 pair-unsupported-oops-mobile = Ups! Wygląda na to, że nie używasz { -brand-firefox(case: "gen") }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Łączenie telefonu z { -product-mozilla-account(case: "ins", capitalization: "lower") }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Włącz { -brand-firefox(case: "acc") } na komputerze, otwórz stronę <b>firefox.com/pair</b> i postępuj zgodnie z instrukcjami na ekranie, aby połączyć swój telefon.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Więcej informacji
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Ups! Coś poszło nie tak.
