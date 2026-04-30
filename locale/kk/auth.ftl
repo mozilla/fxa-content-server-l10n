@@ -235,6 +235,7 @@ freeTrialEndingReminder-content-charge-tax-2 = Салық
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = { $serviceLastActiveDateOnly } күні төленуі тиіс жалпы сома: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = { $serviceLastActiveDateOnly } күнгі сома
 freeTrialEndingReminder-content-account-link = Төлем әдісі мен тіркелгі ақпаратын <a data-l10n-name="freeTrialEndingReminder-update-billing">осы жерден</a> қарап шығуға немесе жаңартуға болады.
 freeTrialEndingReminder-content-account-link-plaintext = Төлем әдісі мен тіркелгі ақпаратын мына жерден қарап шығуға немесе жаңартуға болады:
 # Variables:
