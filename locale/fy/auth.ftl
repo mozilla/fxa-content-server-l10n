@@ -222,16 +222,20 @@ freeTrialEndingReminder-content-charge-heading = Betellingsdetails
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Abonnemint op { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Abonnemint op { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Koarting: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Koarting
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Btw: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Btw
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Totaal ferskuldige op { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Totaal te beteljen op { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Jo kinne <a data-l10n-name="freeTrialEndingReminder-update-billing">hjir</a> jo betellingsmetoade en accountgegevens besjen of bywurkje.
 freeTrialEndingReminder-content-account-link-plaintext = Jo kinne hjir jo betellingsmetoade en accountgegevens besjen of bywurkje:
 # Variables:
