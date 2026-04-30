@@ -2005,7 +2005,7 @@ signin-passkey-fallback-continue = Pokračovat
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Zadejte potvrzovací kód
-signin-passwordless-code-subheading = S použitím tohoto kódu probíhá přihlášení pouze jedním krokem.
+signin-passwordless-code-subheading = Při použití tohoto kódu stačí k registraci jediný krok.
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
