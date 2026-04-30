@@ -935,6 +935,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Wszystkie rozszerzenia i motywy opublikowane przez Ciebie w serwisie addons.mozilla.org zostaną usunięte
 delete-account-continue-button = Kontynuuj
+delete-account-delete-button-passwordless = Usuń konto
 delete-account-password-input =
     .label = Wpisz hasło
 delete-account-cancel-button = Anuluj

@@ -2011,11 +2011,11 @@ msgstr "Nie udało się dokończyć konfiguracji. Proszę zalogować się za pom
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "Hasło utworzone. Synchronizacja w toku."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "Konto utworzone. Synchronizacja w toku."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
@@ -2023,7 +2023,7 @@ msgstr "Pomyślnie zalogowano"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "Pobierz lub otwórz Firefoksa na urządzeniu, na które chcesz wysłać karty"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
