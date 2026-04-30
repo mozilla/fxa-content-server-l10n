@@ -1592,7 +1592,7 @@ legal-terms-heading = Podmínky služby
 
 ## AuthAllow page - Part of the device pairing flow
 
-pair-auth-allow-heading-text = Přihlásili jste se právě do { -product-firefox(case: "gen") }?
+pair-auth-allow-heading-text = Přihlásili jste se právě do { -brand-firefox(case: "gen") }?
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Ano, schválit zařízení
