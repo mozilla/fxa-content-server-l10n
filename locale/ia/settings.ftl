@@ -1441,6 +1441,10 @@ oauth-error-1000 = Un error ha occurrite. Per favor claude iste scheda e retenta
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Installation de clave-contrasigno fallite o il es indisponibile. Retenta o elige un altere methodo.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Le configuration del clave-contrasigno non es disponibile in iste apparato. Le apparato ha jam essite registrate o le processo de configuration cancellate.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Le installation de clave-contrasigno era cancellate. Retenta.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1460,6 +1464,8 @@ passkey-registration-error-unexpected = Le configuration del clave-contrasigno f
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Le authentication con clave-contrasigno falleva o es indisponibile. Retenta o elige un altere methodo.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Le configuration del clave-contrasigno non es disponibile in iste apparato. Retenta o elige un altere methodo.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Le petition de clave-contrasigno exiva del tempore limite. Retenta.
 # Browser or platform does not support passkeys
