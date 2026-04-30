@@ -355,9 +355,6 @@ subscriptionPaymentProviderCancelled-content-detect = 处理您最近为 { $prod
 subscriptionPaymentProviderCancelled-content-reason-1 = 可能是您的付款方式已过期，或是当前的付款方式已失效。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = 已重新开始订阅 { $productName }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = 感谢您重新开始订阅 { $productName }！
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

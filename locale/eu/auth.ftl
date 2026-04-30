@@ -206,9 +206,6 @@ subscriptionPaymentProviderCancelled-title = Barkatu, arazoak ditugu ordainketa-
 subscriptionPaymentProviderCancelled-content-detect = Arazo bat hauteman dugu zure ordainketa-metodoarekin: { $productName }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = { $productName } harpidetza berriz aktibatua
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Eskerrik asko { $productName } harpidetza berriz aktibatzeagatik!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

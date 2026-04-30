@@ -325,9 +325,6 @@ subscriptionPaymentProviderCancelled-content-detect = Pikasëm një problem me m
 subscriptionPaymentProviderCancelled-content-reason-1 = Mundet të ketë skaduar metoda juaj e pagesës, ose metoda juaj e tanishme e pagesave të jetë e vjetruar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Pajtimi në { $productName } u riaktivizua
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Faleminderit për riaktivizimin e pajtimit tuaj në { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

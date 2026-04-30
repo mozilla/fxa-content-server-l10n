@@ -203,9 +203,6 @@ subscriptionPaymentProviderCancelled-title = Maaf, kami mengalami masalah dengan
 subscriptionPaymentProviderCancelled-content-detect = Kami mendeteksi adanya masalah dengan metode pembayaran Anda untuk { $productName }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Langganan { $productName } diaktifkan kembali
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Terima kasih telah mengaktifkan kembali langganan { $productName } Anda!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

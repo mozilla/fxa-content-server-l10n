@@ -301,9 +301,6 @@ subscriptionPaymentProviderCancelled-title = Valitettavasti valitsemasi maksutav
 subscriptionPaymentProviderCancelled-content-detect = Havaitsimme ongelman { $productName }:n kanssa käyttämäsi maksutavan kohdalla.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = { $productName } -tilaus aktivoitu uudelleen
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Kiitos että aktivoit { $productName } -tilauksen uudelleen!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

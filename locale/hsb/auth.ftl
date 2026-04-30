@@ -384,9 +384,6 @@ subscriptionPaymentProviderCancelled-content-detect = Mějachmy problem z wašej
 subscriptionPaymentProviderCancelled-content-reason-1 = Waša płaćenska metoda je snano spadnjena, abo waša aktualna płaćenska metoda je zestarjena.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Abonement { $productName } je so zaso zaktiwizował
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Wulki dźak, zo sće zaso zaktiwizował swój abonement { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

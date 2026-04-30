@@ -224,9 +224,6 @@ subscriptionPaymentProviderCancelled-subject = Навсозии маълумот
 subscriptionPaymentProviderCancelled-title = Мутаассифона, ҳангоми татбиқи тарзи пардохти шумо мушкилӣ ба миён омад
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Обунаи «{ $productName }» аз нав фаъол карда шуд
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Ташаккур барои аз нав фаъол кардани обунашавии худ дар «{ $productName }»!
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

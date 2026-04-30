@@ -294,9 +294,6 @@ subscriptionPaymentProviderCancelled-content-detect = { $productName }에 대한
 subscriptionPaymentProviderCancelled-content-reason-1 = 결제 방법이 만료되었거나 현재 결제 방법이 오래되었을 수 있습니다.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = { $productName } 구독 재활성화됨
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = { $productName } 구독을 다시 활성화해 주셔서 감사합니다!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

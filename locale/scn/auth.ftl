@@ -216,9 +216,6 @@ subscriptionPaymentProviderCancelled-title = Ni dispiaci, accamora avemu prubble
 subscriptionPaymentProviderCancelled-content-detect = Cci fu un prubblema câ to furma di pagamentu pi { $productName }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Abbunamentu a { $productName } arrè attivu
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Grazzi chi attivasti arrè u to abbunamentu a { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

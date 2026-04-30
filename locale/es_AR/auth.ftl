@@ -380,9 +380,6 @@ subscriptionPaymentProviderCancelled-content-detect = Detectamos un problema con
 subscriptionPaymentProviderCancelled-content-reason-1 = Es posible que tu método de pago haya vencido o que tu método de pago actual esté desactualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Se reactivó la suscripción a { $productName }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = ¡Gracias por reactivar tu suscripción a { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

@@ -57,6 +57,3 @@ subscriptionFirstInvoice-subject = { $productName }-ի վճարումը հաստ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Շնորհակալություն { $productName }-ին բաժանորդագրվելու համար
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = { $productName }-ի բաժանորդագրությունը վերագործարկվել է

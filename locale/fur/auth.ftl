@@ -302,9 +302,6 @@ subscriptionPaymentProviderCancelled-content-detect = O vin rilevât un probleme
 subscriptionPaymentProviderCancelled-content-reason-1 = Al è pussibil che il to metodi di paiament al sedi scjadût o che il to metodi di paiament corint nol sedi inzornât.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Abonament a { $productName } riativât
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Graciis di vê riativât il to abonament a { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

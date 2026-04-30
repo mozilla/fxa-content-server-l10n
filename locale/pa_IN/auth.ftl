@@ -229,9 +229,6 @@ subscriptionPaymentProviderCancelled-subject = { $productName } ਲਈ ਭੁਗ
 subscriptionPaymentProviderCancelled-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = { $productName } ਮੈਂਬਰੀ ਮੁੜ-ਸਰਗਰਮ ਕੀਤੀ
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = ਤੁਹਾਡੀ { $productName } ਮੈਂਬਰ ਮੁੜ-ਸਰਗਰਮ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ!
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

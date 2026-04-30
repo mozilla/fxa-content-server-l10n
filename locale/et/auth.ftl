@@ -145,9 +145,6 @@ subscriptionPaymentProviderCancelled-title = Kahjuks on meil probleeme sinu maks
 subscriptionPaymentProviderCancelled-content-detect = Toote { $productName } makseviisiga tuvastati probleem.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Teenuse { $productName } tellimus aktiveeriti uuesti
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Täname, et aktiveerisid uuesti teenuse { $productName } tellimuse!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

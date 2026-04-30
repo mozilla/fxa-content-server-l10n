@@ -378,9 +378,6 @@ subscriptionPaymentProviderCancelled-content-detect = Am detectat o problemă cu
 subscriptionPaymentProviderCancelled-content-reason-1 = Este posibil să îți fi expirat metoda de plată sau ca metoda de plată actuală să nu mai fie de actualitate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Abonamentul pentru { $productName } a fost reactivat
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Îți mulțumim că ți-ai reactivat abonamentul pentru { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

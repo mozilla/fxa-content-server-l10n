@@ -148,9 +148,6 @@ subscriptionPaymentFailed-subject = Неуспешно плащане за { $pr
 subscriptionPaymentProviderCancelled-subject = Необходимо обновяване на платежна информация за { $productName }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Абонамент за { $productName } е подновен
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Благодарим ви, че подновихте абонамента си за { $productName }
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

@@ -382,9 +382,6 @@ subscriptionPaymentProviderCancelled-content-detect = Мы обнаружили 
 subscriptionPaymentProviderCancelled-content-reason-1 = Возможно, срок действия вашего способа оплаты истёк или ваш текущий способ оплаты больше не работает.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Подписка на { $productName } активирована повторно
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Благодарим вас за повторную активацию подписки на { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

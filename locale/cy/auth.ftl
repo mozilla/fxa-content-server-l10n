@@ -388,9 +388,6 @@ subscriptionPaymentProviderCancelled-content-detect = Rydym wedi canfod anhawste
 subscriptionPaymentProviderCancelled-content-reason-1 = Mae’n bosibl bod eich dull talu wedi dod i ben, neu fod eich dull talu presennol wedi dyddio.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Ail-gychwynnwyd tanysgrifiad { $productName }
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Diolch am ail gychwyn eich tanysgrifiad { $productName }s
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

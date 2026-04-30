@@ -382,9 +382,6 @@ subscriptionPaymentProviderCancelled-content-detect = Zjistili jsme problém s v
 subscriptionPaymentProviderCancelled-content-reason-1 = Je možné, že vypršela platnost vaší platební metody, nebo jsou vaše platební údaje zastaralé.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Předplatné produktu { $productName } bylo znovu aktivované
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Děkujeme, že jste si znovu aktivovali předplatné produktu { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

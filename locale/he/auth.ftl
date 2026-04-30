@@ -374,9 +374,6 @@ subscriptionPaymentProviderCancelled-content-detect = איתרנו בעיה בא
 subscriptionPaymentProviderCancelled-content-reason-1 = יכול להיות שפג תוקף אמצעי התשלום שלך, או שאמצעי התשלום הנוכחי שלך אינו עדכני.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = המינוי עבור { $productName } הופעל מחדש
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = תודה שהפעלת מחדש את המינוי שלך ל־{ $productName }
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

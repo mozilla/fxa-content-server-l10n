@@ -259,9 +259,6 @@ subscriptionPaymentProviderCancelled-content-detect = Við höfum fundið vandam
 subscriptionPaymentProviderCancelled-content-reason-1 = Það kann að vera að greiðslumátinn þinn sé útrunninn eða að fyrirliggjandi greiðslumáti þinn sé úreltur.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Áskrift að { $productName } hefur verið endurvirkjuð
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Takk fyrir að endurvirkja { $productName } áskriftina þína!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

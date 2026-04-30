@@ -380,9 +380,6 @@ subscriptionPaymentProviderCancelled-content-detect = Wy hawwe in probleem mei j
 subscriptionPaymentProviderCancelled-content-reason-1 = Miskien is jo betellingsmetoade ferrûn, of jo aktuele betellingsmetoade is ferâldere.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Abonnemint op { $productName } opnij aktivearre
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Tank foar it opnij aktivearjen fan jo abonnemint op { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

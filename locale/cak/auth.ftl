@@ -95,9 +95,6 @@ subscriptionPaymentFailed-title = Takuyu', k'o qak'ayewal rik'in ri atojik
 subscriptionPaymentFailed-content-problem = Xk'oje' qak'ayewal rik'in ri ruk'isib'äl atojik richin { $productName }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Xtzij chik { $productName }s rutz'ib'axik ab'i'
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = ¡Matyox xatzïj chik rutz'ib'axik ab'i' pa { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

@@ -169,9 +169,6 @@ subscriptionPaymentProviderCancelled-title = Гафу итегез, сезнең
 subscriptionPaymentProviderCancelled-content-detect = { $productName } өчен түләү ысулыгыз белән бер проблема ачыкладык.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = { $productName } продуктына язылу яңадан активлаштырылды
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = { $productName } абунәгезне яңартуыгыз өчен рәхмәт!
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

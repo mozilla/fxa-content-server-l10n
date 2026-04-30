@@ -201,9 +201,6 @@ subscriptionPaymentProviderCancelled-subject = Aleqqem n telɣut n lexlaṣ tett
 subscriptionPaymentProviderCancelled-title = Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Ajerred n { $productName } yettwarmed
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Tanemmirt imi tulseḍ ajerred ɣer { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

@@ -270,9 +270,6 @@ subscriptionPaymentProviderCancelled-title = Žao nam je, imamo problem s tvojim
 subscriptionPaymentProviderCancelled-content-detect = Otkrili smo problem s tvojim načinom plaćanja za { $productName }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Pretplata na { $productName } je ponovo aktivirana
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Hvala ti na ponovnom aktiviranju tvoje pretplate na { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
