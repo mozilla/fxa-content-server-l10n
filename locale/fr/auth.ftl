@@ -372,7 +372,16 @@ subscriptionPaymentProviderCancelled-content-detect = Nous avons rencontré un p
 subscriptionPaymentProviderCancelled-content-reason-1 = Il se peut que votre mode de paiement ait expiré ou que votre mode de paiement actuel soit obsolète.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Votre abonnement de { $productName } a été réactivé
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = Votre essai de { $productName } a été réactivé
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Merci d’avoir réactivé votre abonnement à { $productName } !
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = Merci d’avoir réactivé votre essai de { $productName } !
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20

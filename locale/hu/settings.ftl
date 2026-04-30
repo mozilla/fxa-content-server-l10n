@@ -1442,6 +1442,10 @@ oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = A jelkulcs beállítása sikertelen vagy nem érhető el. Próbálja újra, vagy válasszon másik módszert.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = A jelszóbeállítás nem érhető el ennél az eszköznél. Vagy az eszköz már regisztrálva lett, vagy a telepítési folyamat megszakításra került.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A jelkulcsbeállítás meg lett szakítva. Próbálja újra.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1461,6 +1465,8 @@ passkey-registration-error-unexpected = A jelkulcs beállítása sikertelen. Pr�
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = A jelkulccsal történő bejelentkezés sikertelen vagy nem érhető el. Próbálja újra, vagy válasszon másik módszert.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = A jelszóbeállítás nem érhető el ennél az eszköznél. Próbálja újra, vagy válasszon másik módszert.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = A jelkulcskérés túllépte az időkorlátot. Próbálja újra.
 # Browser or platform does not support passkeys

@@ -1437,6 +1437,10 @@ oauth-error-1000 = Något gick fel. Stäng den här fliken och försök igen.
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Inställning av lösenordsnyckel misslyckades eller är otillgänglig. Försök igen eller välj en annan metod.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Installation av lösenordsnyckel är inte tillgänglig med den här enheten. Antingen har enheten redan registrerats eller så avbröts installationen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Installationen av lösenordsnyckel avbröts. Försök igen.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1456,6 +1460,8 @@ passkey-registration-error-unexpected = Inställning av lösenordsnyckel misslyc
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Inloggning med lösenordsnyckel misslyckades eller är otillgänglig. Försök igen eller välj en annan metod.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Installation av lösenordsnyckel är inte tillgänglig med den här enheten. Försök igen eller välj en annan metod.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Begäran om lösenordsnyckel har gått ut. Försök igen.
 # Browser or platform does not support passkeys

@@ -380,7 +380,16 @@ subscriptionPaymentProviderCancelled-content-detect = Abbiamo rilevato un proble
 subscriptionPaymentProviderCancelled-content-reason-1 = È possibile che il metodo di pagamento in uso sia scaduto o il metodo di pagamento corrente non sia aggiornato.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Il tuo abbonamento a { $productName } è stato riattivato
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = La tua prova di { $productName } è stata riattivata
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Grazie per aver riattivato il tuo abbonamento a { $productName }!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = Grazie per aver riattivato la tua prova di { $productName }.
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20

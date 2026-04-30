@@ -1436,6 +1436,10 @@ oauth-error-1000 = Algo no funcionó. Cerrá esta pestaña y probá de nuevo.
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = La configuración de la clave de acceso falló o no está disponible. Probá de nuevo o elegí otro método.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = La configuración de la clave de acceso no está disponible para este dispositivo. O el dispositivo ya fue registrado o el proceso de configuración fue cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Se canceló la configuración de la clave de acceso. Probá de nuevo.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1455,6 +1459,8 @@ passkey-registration-error-unexpected = Falló la configuración de la clave de 
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Falló el inicio de sesión con clave de acceso o no está disponible. Probá de nuevo o elegí otro método.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = La configuración de la clave de acceso no está disponible para este dispositivo. Probá de nuevo o elegí otro método.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Se agotó el tiempo de espera para el pedido de clave de acceso. Probá de nuevo.
 # Browser or platform does not support passkeys

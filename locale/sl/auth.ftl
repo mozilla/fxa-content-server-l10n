@@ -379,7 +379,16 @@ subscriptionPaymentProviderCancelled-content-detect = Zaznali smo težavo z vaš
 subscriptionPaymentProviderCancelled-content-reason-1 = Morda je vašemu plačilnemu sredstvu potekla veljavnost ali pa je trenutni način plačila zastarel.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Vaša naročnina na { $productName } je ponovno aktivirana
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = Vaše preskusno obdobje { $productName } je ponovno aktivirano
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Hvala, ker ste ponovno aktivirali svojo naročnino na { $productName }!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = Hvala, ker ste ponovno aktivirali preskusno različico { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20

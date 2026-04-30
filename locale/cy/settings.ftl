@@ -1460,6 +1460,10 @@ oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Methodd gosod y cyfrinallwedd neu nid yw ar gael. Ceisiwch eto neu dewiswch ddull arall.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Nid yw gosodiad paskey ar gael gyda'r ddyfais hon. Naill ai mae'r ddyfais eisoes wedi'i chofrestru neu cafodd y broses osod ei chanslo.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Wedi diddymu gosod y cyfrinallwedd. Ceisiwch eto.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1479,6 +1483,8 @@ passkey-registration-error-unexpected = Wedi methu gosod y cyfrinallwedd. Ceisiw
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Wedi methu mewngofnodi gyda'r cyfrinallwedd neu nid yw ar gael. Ceisiwch eto neu dewiswch ddull arall.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Nid yw gosodiad paskey ar gael gyda'r ddyfais hon. Ceisiwch eto neu dewiswch ddull arall.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Daeth y terfyn amser ar y cais am gyfrinallwedd. Ceisiwch eto.
 # Browser or platform does not support passkeys

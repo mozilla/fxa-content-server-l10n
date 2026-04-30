@@ -1452,6 +1452,10 @@ oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Nastavitev gesla ni uspela ali pa geslo ni na voljo. Poskusite znova ali izberite drugo metodo.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Nastavitev gesla ni na voljo za to napravo. Naprava je že registrirana ali pa je bil postopek nastavitve preklican.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavitev gesla je bila preklicana. Poskusite znova.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1471,6 +1475,8 @@ passkey-registration-error-unexpected = Nastavitev gesla ni uspela. Poskusite zn
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Prijava z geslom je spodletela ali pa je nedosegljiva. Poskusite znova ali izberite drugo metodo.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Nastavitev gesla ni na voljo za to napravo. Poskusite znova ali izberite drug način.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Časovna omejitev za zahtevanje gesla je potekla. Prosimo, poskusite znova.
 # Browser or platform does not support passkeys

@@ -388,7 +388,16 @@ subscriptionPaymentProviderCancelled-content-detect = Rydym wedi canfod anhawste
 subscriptionPaymentProviderCancelled-content-reason-1 = Mae’n bosibl bod eich dull talu wedi dod i ben, neu fod eich dull talu presennol wedi dyddio.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Mae eich tanysgrifiad { $productName } wedi'i ailysgogi
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = Mae eich treial { $productName } wedi'i ailgychwyn
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Diolch am ail gychwyn eich tanysgrifiad { $productName }s
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = Diolch am ailgychwyn eich treial { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
