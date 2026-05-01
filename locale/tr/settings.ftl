@@ -406,6 +406,8 @@ password-strength-inline-passwords-match = Parolalar eşleşiyor
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Sizin telefonunuz, sizin kurallarınız.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Uygulamayı indirmek için okutun
 
 ## Notification Promo Banner component
 
@@ -1094,6 +1096,7 @@ product-promo-monitor-description-v2 = Kişisel bilgilerinizin nerede ele geçir
 product-promo-monitor-cta = Ücretsiz taramayı başlat
 product-promo-vpn =
     .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Anonim gezinti ve korumayı keşfedin.
 
 ## Profile section
 
@@ -1596,6 +1599,10 @@ pair-qr-code-aria-label = QR Kodu
 
 ## Choice screen — "Do you have Firefox for mobile?"
 
+# Subheader shown on the choice screen
+pair-choice-subheader = { -brand-firefox } deneyiminizi eşitleyin
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Sekmeleri göndermek istediğiniz cihazda { -brand-firefox }’u indirin veya açın
 # Legend for the radio button fieldset
 pair-choice-legend = Devam etmek için bir seçenek seçin:
 # Radio option: user already has Firefox for mobile — title
@@ -1621,6 +1628,10 @@ pair-password-created-now-syncing = Parola oluşturuldu. Artık eşitleme yapıy
 pair-download-subheader = Mobil cihazlar için { -brand-firefox }’u indirin
 # Description for the download screen
 pair-download-description = { -brand-firefox }’u telefonunuz veya tabletinizle eşitlemek için öncelikle mobil { -brand-firefox }’u indirmelisiniz. İndirmesi çok kolay:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>{ $stepNumber }. adım</b>: Bu QR kodunu mobil cihazınızın kamerasına okutarak { -brand-firefox }’u indirin:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>{ $stepNumber }. adım</b>: { -brand-firefox }’u mobil cihazınızla eşitlemek için “Eşitlemeye devam et”i seçin.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Eşitlemeye devam et
 
@@ -1654,12 +1665,22 @@ pair-unsupported-header = Uygulama kullanarak eşleştir
 pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-firefox } uygulaması içinden eşleştirme yapmalısınız.
 # Shown as heading when a desktop user visits from a non-Firefox browser
 pair-unsupported-oops-header = Görünüşe göre { -brand-firefox } kullanmıyorsunuz.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = { -brand-firefox }’a geçin ve başka bir cihaz bağlamak için bu sayfayı açın.
 # Shown inline on mobile non-Firefox browsers before the download link
 pair-unsupported-oops-mobile = Görünüşe göre { -brand-firefox } kullanmıyorsunuz.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
 pair-unsupported-connecting-mobile-header-v2 = Mobil cihazınızı { -product-mozilla-account }nıza bağlama
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Bilgisayarınızda { -brand-firefox }’u açın, <b>firefox.com/pair</b> adresine gidin ve mobil cihazınızı bağlamak için ekrandaki yönergeleri izleyin.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Daha fazla bilgi al
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Ne yazık ki bir hata oluştu.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
 ## ServiceWelcome page

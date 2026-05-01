@@ -1367,6 +1367,10 @@ oauth-error-1000 = משהו השתבש. נא לסגור לשונית זו ולנ
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = הגדרת מפתח הגישה נכשלה או שאינה זמינה. נא לנסות שוב או לבחור בשיטה אחרת.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = הגדרת מפתחות גישה אינה זמינה במכשיר זה. ייתכן שהמכשיר כבר נרשם או שתהליך ההגדרה בוטל.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = הגדרת מפתח הגישה בוטלה. נא לנסות שוב.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1386,6 +1390,8 @@ passkey-registration-error-unexpected = הגדרת מפתח הגישה נכשל�
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = הכניסה באמצעות מפתח הגישה נכשלה או שאינה זמינה. נא לנסות שוב או לבחור בשיטה אחרת.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = הגדרת מפתח הגישה אינה זמינה עם מכשיר זה. נא לנסות שוב או לבחור בשיטה אחרת.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = תם הזמן שהוקצב לבקשת מפתח הגישה. נא לנסות שוב.
 # Browser or platform does not support passkeys
