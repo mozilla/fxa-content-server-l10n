@@ -224,16 +224,20 @@ freeTrialEndingReminder-content-charge-heading = Detalii tarif
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Abonament { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Abonament { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Reducere: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Reducere
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Taxe: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Taxe și impozite
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Total de plată la data de { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Total scadent la data de { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Poți revedea sau îți poți actualiza metoda de plată și informațiile din cont <a data-l10n-name="freeTrialEndingReminder-update-billing">aici</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Poți revedea sau îți poți actualiza metoda de plată și informațiile din cont aici:
 # Variables:
@@ -376,6 +380,9 @@ subscriptionPaymentProviderCancelled-title = Ne pare rău, întâmpinăm problem
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Am detectat o problemă cu metoda ta de plată pentru { $productName }.
 subscriptionPaymentProviderCancelled-content-reason-1 = Este posibil să îți fi expirat metoda de plată sau ca metoda de plată actuală să nu mai fie de actualitate.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Abonamentul tău { $productName } a fost reactivat
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Îți mulțumim că ți-ai reactivat abonamentul pentru { $productName }!
