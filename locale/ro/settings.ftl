@@ -960,6 +960,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Orice extensie și temă pe care le-ai publicat pe addons.mozilla.org vor fi șterse
 delete-account-continue-button = Continuă
+delete-account-delete-button-passwordless = Șterge contul
 delete-account-password-input =
     .label = Introdu parola
 delete-account-cancel-button = Anulează
@@ -975,6 +976,17 @@ submit-display-name = Salvează
 cancel-display-name = Anulează
 display-name-update-error-2 = A apărut o problemă la actualizarea numelui tău afișat
 display-name-success-alert-2 = Nume afișat actualizat
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Se creează cheia de acces…
+page-passkey-add-follow-prompts = Urmează instrucțiunile de pe dispozitiv.
+page-passkey-add-cancel = Anulează
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Cheia de acces a fost creată
+page-passkey-add-error-system = Sistem indisponibil. Te rugăm să încerci mai târziu.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1099,6 +1111,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Află unde sunt expuse informațiile tale private și preia controlul
 # Links out to the Monitor site
 product-promo-monitor-cta = Obține o scanare gratuită
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Descoperă un nivel suplimentar de navigare anonimă și de protecție.
+# Links out to the VPN site
+product-promo-vpn-cta = Obține { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1217,6 +1234,8 @@ passkey-row-enabled = Activată
 passkey-row-not-set = Nu este setată
 passkey-row-action-create = Creează
 passkey-row-description = Simplifică intrarea în cont și securizeaz-o folosindu-ți telefonul sau alt dispozitiv acceptat ca să intri în cont.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Află mai multe
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1639,10 +1658,51 @@ pair-get-started-button = Începe
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = Cod QR
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Sincronizează-ți experiența cu { -brand-firefox }
+# Description shown on the choice screen
+pair-choice-description = Vezi parolele salvate, filele, istoricul de navigare și multe altele — pe toate dispozitivele.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Descarcă sau deschide { -brand-firefox } pe dispozitivul unde vrei să trimiți filele
+# Legend for the radio button fieldset
+pair-choice-legend = Selectează o opțiune pentru a continua:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Am deja { -brand-firefox } pentru mobil
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Începe sincronizarea acum dacă ai deja { -brand-firefox } pe dispozitivul mobil.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Nu am { -brand-firefox } pentru mobil
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Descarcă { -brand-firefox } pe dispozitivul mobil, apoi începe sincronizarea.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Continuă
+# Success banner shown after signing in
+pair-signed-in-successfully = Autentificare reușită!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Contul a fost creat. Acum te sincronizezi.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Parola a fost creată. Acum te sincronizezi.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Descarcă { -brand-firefox } pentru mobil
+# Description for the download screen
+pair-download-description = Pentru a sincroniza { -brand-firefox } pe telefon sau tabletă, trebuie mai întâi să descarci { -brand-firefox } pentru mobil. Iată cum:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Pasul { $stepNumber }</b>: Descarcă { -brand-firefox } scanând acest cod QR cu camera dispozitivului mobil:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Pasul { $stepNumber }</b>: Selectează „Continuă cu sincronizarea” pentru sincronizarea experienței tale { -brand-firefox } pe dispozitivul mobil.
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Continuă cu sincronizarea
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Dispozitiv conectat
 pair-success-message-2 = Asociere reușită.
+pair-success-tab-close-message = Fila va fi închisă automat de { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1666,6 +1726,25 @@ pair-wait-for-auth-heading-text = Acum este necesară aprobarea <span>de pe cel�
 
 pair-unsupported-header = Asociere folosind o aplicație
 pair-unsupported-message = Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație { -brand-firefox }.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Ups! Se pare că nu folosești { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Treci pe { -brand-firefox } și deschide această pagină ca să conectezi alt dispozitiv.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Ups! Se pare că nu folosești { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Dispozitivul tău este în curs de conectare cu { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Deschide { -brand-firefox } pe calculator, intră pe <b>firefox.com/pair</b> și urmează instrucțiunile de pe ecran ca să îți conectezi dispozitivul mobil.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Află mai multe
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Ups! Ceva nu a funcționat.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Te rugăm să închizi această filă și să încerci din nou.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1923,6 +2002,7 @@ signin-passwordless-code-instruction =
         [few] Introdu codul care a fost trimis la <email>{ $email }</email> în termen de { $expirationMinutes } minute.
        *[other] Introdu codul care a fost trimis la <email>{ $email }</email> în termen de { $expirationMinutes } de minute.
     }
+signin-passwordless-code-input-label-v2 = Introdu codul de 6 cifre
 signin-passwordless-code-confirm-button = Confirmă
 signin-passwordless-code-required-error = Necesită cod de confirmare
 signin-passwordless-code-expired = A expirat codul?

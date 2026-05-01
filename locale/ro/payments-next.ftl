@@ -353,9 +353,31 @@ free-trial-content-charge-info-no-tax-month = Vei fi taxat(ă) cu { $amount } pe
 free-trial-content-charge-info-no-tax-halfyear = Vei fi taxat(ă) cu { $amount } la fiecare șase luni după ce se încheie perioada gratuită de probă, la data de { $date }.
 free-trial-content-charge-info-no-tax-year = Vei fi taxat(ă) cu { $amount } pe an după ce se încheie perioada gratuită de probă, la data de { $date }.
 free-trial-content-charge-info-no-tax-default = Vei fi taxat(ă) cu { $amount } după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-trial-ends = Perioada de probă gratuită se încheie pe { $date }. Actualizează-ți metoda de plată pentru a păstra accesul după perioada de probă gratuită.
+free-trial-content-trial-active = Perioada de probă gratuită este activă.
+free-trial-content-action-error = A apărut o eroare neașteptată. Te rugăm să încerci din nou.
+free-trial-content-button-resume-trial = Reia perioada de probă
+free-trial-content-button-resume-trial-aria = Reia perioada de probă pentru { $productName }
+free-trial-content-button-cancel-trial = Anulează perioada de probă
+free-trial-content-button-cancel-trial-aria = Anulează perioada de probă pentru { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Ultima factură • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } taxe
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
 
+free-trial-content-link-view-invoice = Vezi factura
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Vezi factura pentru { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-payment-failed = Perioada de probă gratuită s-a încheiat pe <bold>{ $date }</bold>. Nu am reușit să îți procesăm plata pentru începerea abonamentului. Te rugăm să îți actualizezi metodele de plată pentru activarea abonamentului și restabilirea accesului la servicii.
+free-trial-content-payment-failed-no-date = Nu am reușit să îți procesăm plata pentru începerea abonamentului. Te rugăm să îți actualizezi metodele de plată pentru activarea abonamentului și restabilirea accesului la servicii.
+free-trial-content-button-update-payment = Actualizează metoda de plată
 
 # Component - Header
 
@@ -434,6 +456,44 @@ purchase-details-credit-applied-label = Credit aplicat
 purchase-details-total-due-label = Total de plată
 next-plan-details-hide-button = Ascunde detaliile
 next-plan-details-show-button = Afișează detaliile
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Începe perioada de probă gratuită de { $trialDayLength } zi
+        [few] Începe perioada de probă gratuită de { $trialDayLength } zile
+       *[other] Începe perioada de probă gratuită de { $trialDayLength } de zile
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] A început perioada de probă gratuită de { $trialDayLength } zi
+        [few] A început perioada de probă gratuită de { $trialDayLength } zile
+       *[other] A început perioada de probă gratuită de { $trialDayLength } de zile
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Nu trebuie să plătești nimic azi. Ți se va percepe { $firstPrice }/zi după sfârșitul perioadei de probă gratuită, la data de { $endDate }.
+free-trial-start-message-weekly = Nu trebuie să plătești nimic azi. Ți se va percepe { $firstPrice }/săptămână după sfârșitul perioadei de probă gratuită, la data de { $endDate }.
+free-trial-start-message-monthly = Nu trebuie să plătești nimic azi. Ți se va percepe { $firstPrice }/lună după sfârșitul perioadei de probă gratuită, la data de { $endDate }.
+free-trial-start-message-halfyearly = Nu trebuie să plătești nimic azi. Ți se va percepe { $firstPrice }/6 lluni după sfârșitul perioadei de probă gratuită, la data de { $endDate }.
+free-trial-start-message-yearly = Nu trebuie să plătești nimic azi. Ți se va percepe { $firstPrice }/an după sfârșitul perioadei de probă gratuită, la data de { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Prima plată: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Ți se va factura { $firstPrice } pe { $endDate }, apoi în fiecare zi după aceea până ce anulezi.
+free-trial-first-charge-message-weekly = Ți se va factura { $firstPrice } pe { $endDate }, apoi în fiecare săptămână după aceea până ce anulezi.
+free-trial-first-charge-message-monthly = Ți se va factura { $firstPrice } pe { $endDate }, apoi în fiecare lună după aceea până ce anulezi.
+free-trial-first-charge-message-halfyearly = Ți se va factura { $firstPrice } pe { $endDate }, apoi la fiecare 6 luni după aceea până ce anulezi.
+free-trial-first-charge-message-yearly = Ți se va factura { $firstPrice } pe { $endDate }, apoi în fiecare an după aceea până ce anulezi.
 
 ##
 
