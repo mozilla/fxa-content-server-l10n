@@ -941,6 +941,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = addons.mozilla.org’da yayımladığınız tüm eklentiler ve temalar silinecektir
 delete-account-continue-button = Devam
+delete-account-delete-button-passwordless = Hesabı sil
 delete-account-password-input =
     .label = Parolanızı yazın
 delete-account-cancel-button = İptal
@@ -956,6 +957,17 @@ submit-display-name = Kaydet
 cancel-display-name = İptal
 display-name-update-error-2 = Görünen adınız güncellenirken bir sorun oluştu
 display-name-success-alert-2 = Görünen ad güncellendi
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Geçiş anahtarı oluşturuluyor…
+page-passkey-add-follow-prompts = Cihazınızdaki yönergeleri izleyin.
+page-passkey-add-cancel = Vazgeç
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Geçiş anahtarı oluşturuldu
+page-passkey-add-error-system = Sistem kullanılamıyor. Lütfen daha sonra yeniden deneyin.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1080,6 +1092,8 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Kişisel bilgilerinizin nerede ele geçirildiğini öğrenin
 # Links out to the Monitor site
 product-promo-monitor-cta = Ücretsiz taramayı başlat
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
 
 ## Profile section
 
@@ -1200,6 +1214,11 @@ passkey-row-action-create = Oluştur
 passkey-row-info-link-2 = Daha fazla bilgi alın
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Maksimum geçiş anahtarı sayısına ulaştınız.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Tarayıcınız veya cihazınız geçiş anahtarlarını desteklemiyor.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1517,6 +1536,12 @@ pair-auth-complete-sync-benefits-text = Artık açık sekmelerinize, parolaları
 pair-auth-complete-see-tabs-button = Eşitlenmiş cihazlardan sekmeleri gör
 pair-auth-complete-manage-devices-link = Cihazları yönet
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Sekme göndermeye hazırsınız
+pair-auth-complete-send-tab-benefits = Açık sekmeleri, parolaları ve yer imlerini cihazlarınız arasında anında gönderebilirsiniz.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1543,9 +1568,17 @@ auth-totp-code-required-error = Kimlik doğrulama kodu gerekli
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Şimdi <span>diğer cihazınızdan</span> onay vermeniz gerekiyor
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Cihaz eşleştirme başarısız oldu
+pair-failure-message-v2 = Kurulum tamamlanamadı. Lütfen e-postanızla giriş yapın.
+pair-failure-try-again-link = Yeniden dene
+
 ## Pair index page
 
 pair-sync-header = { -brand-firefox }’u telefonunuz veya tabletinizle eşitleyin
+pair-cad-header-v2 = Başka bir cihaz bağla
 pair-already-have-firefox-paragraph = Telefonunuzda veya tabletinizde zaten { -brand-firefox } var mı?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Cihazınızı eşitleyin
@@ -1563,6 +1596,14 @@ pair-qr-code-aria-label = QR Kodu
 
 ## Choice screen — "Do you have Firefox for mobile?"
 
+# Legend for the radio button fieldset
+pair-choice-legend = Devam etmek için bir seçenek seçin:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Mobil cihazımda { -brand-firefox } zaten yüklü
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Mobil cihazınızda { -brand-firefox } zaten yüklüyse eşitlemeyi hemen başlatabilirsiniz.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Mobil cihazımda { -brand-firefox } yüklü değil
 # Radio option: user does not have Firefox for mobile — description
 pair-choice-needs-mobile-description = Mobil cihazınıza { -brand-firefox }’u indirip eşitlemeyi başlatın.
 # Continue button on choice screen (disabled until a radio option is selected)
@@ -1576,6 +1617,10 @@ pair-password-created-now-syncing = Parola oluşturuldu. Artık eşitleme yapıy
 
 ## Download screen — shown after selecting "I don’t have Firefox for mobile"
 
+# Subheader for the download screen
+pair-download-subheader = Mobil cihazlar için { -brand-firefox }’u indirin
+# Description for the download screen
+pair-download-description = { -brand-firefox }’u telefonunuz veya tabletinizle eşitlemek için öncelikle mobil { -brand-firefox }’u indirmelisiniz. İndirmesi çok kolay:
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Eşitlemeye devam et
 
