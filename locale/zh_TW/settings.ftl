@@ -1396,6 +1396,10 @@ oauth-error-1000 = 有些東西不對勁，請關閉此分頁再試一次。
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Passkey 設定失敗或無法使用，請再試一次或改用其他方式。
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = 此裝置無法設定 Passkey。可能是此裝置已經註冊過，或已取消設定過程。
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Passkey 設定已取消，請再試一次。
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
