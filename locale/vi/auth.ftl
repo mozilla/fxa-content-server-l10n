@@ -375,7 +375,16 @@ subscriptionPaymentProviderCancelled-content-detect = Chúng tôi đã phát hi�
 subscriptionPaymentProviderCancelled-content-reason-1 = Có thể phương thức thanh toán của bạn đã hết hạn hoặc phương thức thanh toán hiện tại của bạn không chính xác.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Gói đăng ký { $productName } của bạn đã được kích hoạt lại
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = Dùng thử { $productName } của bạn đã được kích hoạt lại
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Cảm ơn bạn đã kích hoạt lại thuê bao { $productName } của bạn!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = Cảm ơn bạn đã kích hoạt lại bản dùng thử { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
