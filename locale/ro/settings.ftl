@@ -1236,6 +1236,22 @@ passkey-row-action-create = Creează
 passkey-row-description = Simplifică intrarea în cont și securizeaz-o folosindu-ți telefonul sau alt dispozitiv acceptat ca să intri în cont.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Află mai multe
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Ai folosit { $count } cheia de acces. Șterge-o ca să creezi una nouă.
+        [few] Ai folosit toate cele { $count } chei de acces. Șterge una ca să creezi una nouă.
+       *[other] Ai folosit toate cele { $count } de chei de acces. Șterge una ca să creezi una nouă.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Ai atins numărul maxim de chei de acces.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Browserul sau dispozitivul nu acceptă chei de acces.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1426,6 +1442,10 @@ oauth-error-1000 = Ceva nu a mers. Închide fila și încearcă din nou.
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Setarea cheii de acces a eșuat sau nu este disponibilă. Încearcă iar sau alege altă metodă.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Configurarea de chei de acces nu este disponibilă pe acest dispozitiv. Ori dispozitivul a fost deja înregistrat, ori a fost anulată procedura de configurare.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Setarea cheii de acces a fost anulată. Încearcă din nou.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1445,6 +1465,8 @@ passkey-registration-error-unexpected = Setarea cheii de acces a eșuat. Încear
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Autentificarea cu cheie de acces a eșuat sau nu este disponibilă. Încearcă din nou sau alege altă metodă.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Configurarea de chei de acces nu este disponibilă pe acest dispozitiv. Te rugăm să încerci din nou sau să alegi altă metodă.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Timpul de așteptare pentru cheia de acces a expirat. Te rugăm să încerci din nou.
 # Browser or platform does not support passkeys
