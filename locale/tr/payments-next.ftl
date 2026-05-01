@@ -137,6 +137,7 @@ subscription-management-page-banner-warning-title-no-payment-method = Ödeme yö
 subscription-management-page-banner-warning-link-no-payment-method = Ödeme yöntemi ekle
 subscription-management-subscriptions-heading = Abonelikler
 subscription-management-free-trial-heading = Ücretsiz denemeler
+subscription-management-your-free-trials-aria = Ücretsiz denemeleriniz
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Atla
 subscription-management-nav-free-trials = Ücretsiz denemeler

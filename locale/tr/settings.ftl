@@ -1561,10 +1561,29 @@ pair-get-started-button = Başlayın
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR Kodu
 
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Mobil cihazınıza { -brand-firefox }’u indirip eşitlemeyi başlatın.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Devam et
+# Success banner shown after signing in
+pair-signed-in-successfully = Başarıyla giriş yapıldı!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Hesap oluşturuldu. Artık eşitleme yapıyorsunuz.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Parola oluşturuldu. Artık eşitleme yapıyorsunuz.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Eşitlemeye devam et
+
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Cihaz bağlandı
 pair-success-message-2 = Eşleştirme başarılı.
+pair-success-tab-close-message = Bu sekme { -brand-firefox } tarafından otomatik olarak kapatılacaktır.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1588,6 +1607,15 @@ pair-wait-for-auth-heading-text = Şimdi <span>diğer cihazınızdan</span> onay
 
 pair-unsupported-header = Uygulama kullanarak eşleştir
 pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-firefox } uygulaması içinden eşleştirme yapmalısınız.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Görünüşe göre { -brand-firefox } kullanmıyorsunuz.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Görünüşe göre { -brand-firefox } kullanmıyorsunuz.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Mobil cihazınızı { -product-mozilla-account }nıza bağlama
+pair-unsupported-desktop-firefox-fallback-message-v2 = Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1817,6 +1845,7 @@ signin-passkey-fallback-continue = Devam et
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Onay kodunu girin
+signin-passwordless-code-input-label-v2 = 6 basamaklı kodu girin
 signin-passwordless-code-confirm-button = Onayla
 signin-passwordless-code-required-error = Onay kodu gerekli
 signin-passwordless-code-expired = Kodun süresi mi doldu?

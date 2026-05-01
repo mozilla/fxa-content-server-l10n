@@ -207,12 +207,15 @@ freeTrialEndingReminder-content-trial-ending-plaintext = Ücretsiz denemeniz { $
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = { $productName } aboneliği: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = { $productName } aboneliği
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = İndirim: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = İndirim
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Vergi: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Vergi
 freeTrialEndingReminder-content-closing = Saygılarımızla,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -327,7 +330,13 @@ subscriptionPaymentProviderCancelled-title = Ödeme yönteminizle ilgili bir sor
 subscriptionPaymentProviderCancelled-content-detect = { $productName } ödeme yönteminizle ilgili bir sorun tespit ettik.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = { $productName } denemeniz yeniden etkinleştirildi
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = { $productName } aboneliğinizi yeniden etkinleştirdiğiniz için teşekkür ederiz!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = { $productName } deneme sürümünüzü yeniden etkinleştirdiğiniz için teşekkür ederiz!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20

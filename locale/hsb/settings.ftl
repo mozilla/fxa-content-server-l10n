@@ -1452,6 +1452,10 @@ oauth-error-1000 = Něšto je so nimokuliło. Prošu začińće tutón rajtark a
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Konfiguracija hesłoweho kluča njeje so poradźiła abo njeje k dispoziciji. Spytajće hišće raz abo wubjerće druhu metodu.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Pak je grat hižo zregistrowany pak konfiguraciski proces je so přetorhnył.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija hesłoweho kluča je so přetorhnyła. Spytajće hišće raz.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1471,6 +1475,8 @@ passkey-registration-error-unexpected = Konfiguracija hesłoweho kluča njeje so
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Přizjewjenje z hesłowym klučom njeje so poradźiło abo njeje k dispoziciji. Spytajće hišće raz abo wubjerće druhu metodu.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Spytajće prošu hišće raz abo wubjerće druhu metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Překročenje časa při naprašowanju hesłoweho kluča. Spytajće prošu hišće raz.
 # Browser or platform does not support passkeys

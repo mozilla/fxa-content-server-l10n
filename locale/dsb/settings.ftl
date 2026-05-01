@@ -1452,6 +1452,10 @@ oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik 
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Konfiguracija gronidłowego kluca njejo se raźiła abo njejo k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Pak jo rěd južo zregistrěrowany pak proces konfiguracije jo se pśetergnuł.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija gronidłowego kluca jo se pśetergnuła. Wopytajśo hyšći raz.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1471,6 +1475,8 @@ passkey-registration-error-unexpected = Konfiguracija gronidłowego kluca njejo 
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Pśizjawjenje z gronidłowym klucom njejo se raźiło abo njejo k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Pśekšocenje casa pśi napšašowanju gronidłowego kluca. Wopytajśo pšosym hyšći raz.
 # Browser or platform does not support passkeys

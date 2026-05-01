@@ -384,7 +384,16 @@ subscriptionPaymentProviderCancelled-content-detect = Smy měli problem z wašej
 subscriptionPaymentProviderCancelled-content-reason-1 = Waša płaśeńska metoda jo snaź spadnuła, abo waša aktualna płaśeńska metoda jo zestarjona.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Waš abonement { $productName } jo se reaktiwěrował
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = Waša testowa wersija { $productName } jo se reaktiwěrowała
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Wjeliki źěk, až sćo zasej zaktiwěrował swój abonement { $productName }!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = Wjeliki źěk, až sćo reaktiwěrował swóju testowu wersiju { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
