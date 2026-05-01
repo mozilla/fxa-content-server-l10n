@@ -28,6 +28,7 @@ location-banner-currency-change = Moneda nu este acceptată. Pentru a continua, 
 upgrade-page-payment-information = Informații pentru plăți
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Planul tău va fi modificat imediat și astăzi ți se va percepe o sumă proporțională cu restul acestui ciclu de facturare. Începând cu { $nextInvoiceDate } ți se va percepe suma totală.
+upgrade-page-acknowledgment-from-trial = Prin upgrade, perioada activă de probă gratuită va înceta imediat și vei fi taxat(ă) pentru noul plan începând de astăzi.
 
 ## Authentication Error page
 
@@ -62,6 +63,7 @@ checkout-error-contact-support = Te rugăm să contactezi serviciul de asistenț
 cart-error-currency-not-determined = Nu am putut determina moneda pentru această achiziție. Te rugăm să încerci din nou.
 checkout-processing-general-error = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
 cart-total-mismatch-error = Suma facturii s-a modificat. Te rugăm să încerci din nou.
+cart-free-trial-mismatch-error = Eligibilitatea ta pentru perioada de probă gratuită s-a modificat. Te rugăm să încerci din nou.
 
 ## Error pages - Payment method failure messages
 
@@ -73,6 +75,7 @@ intent-payment-error-generic = A apărut o eroare neașteptată la procesarea pl
 intent-payment-error-insufficient-funds = Se pare că nu ai fonduri suficiente pe card. Încearcă alt card.
 general-paypal-error = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
 paypal-active-subscription-no-billing-agreement-error = Se pare că a apărut o problemă la facturarea contului tău { -brand-paypal }. Te rugăm să reactivezi plățile automate pentru abonament.
+new-account-prepaid-card-free-trial-not-allowed = Nu se pot folosi cartele preplătite pentru începerea unei perioade gratuite de probă pe conturi noi. Te rugăm să încerci o altă metodă de plată.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -140,8 +143,11 @@ interstitial-offer-error-button-contact-support = Contactează serviciul de asis
 subscription-management-page-banner-warning-title-no-payment-method = Nicio metodă de plată adăugată
 subscription-management-page-banner-warning-link-no-payment-method = Adaugă o metodă de plată
 subscription-management-subscriptions-heading = Abonamente
+subscription-management-free-trial-heading = Perioade de probă gratuite
+subscription-management-your-free-trials-aria = Perioadele tale de probă gratuite
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Sari la
+subscription-management-nav-free-trials = Perioade de probă gratuite
 subscription-management-nav-payment-details = Detalii de plată
 subscription-management-nav-active-subscriptions = Abonamente active
 subscription-management-payment-details-heading = Detalii de plată
@@ -321,6 +327,32 @@ next-coupon-promo-code = Cod promoțional
 next-coupon-promo-code-applied = Cod promoțional aplicat
 next-coupon-remove = Elimină
 next-coupon-submit = Aplică
+
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Perioada de probă gratuită expiră pe { $date }.
+free-trial-content-trial-cancelled = Perioada ta de probă gratuită a fost anulată.
+
+# Charge info strings - with tax, per interval
+
+free-trial-content-charge-info-with-tax-day = Vei fi taxat(ă) cu { $amount } + { $tax } taxe pe zi după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-with-tax-week = Vei fi taxat(ă) cu { $amount } + { $tax } taxe pe săptămână după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-with-tax-month = Vei fi taxat(ă) cu { $amount } + { $tax } taxe pe lună după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Vei fi taxat(ă) cu { $amount } + { $tax } taxe la fiecare șase luni după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-with-tax-year = Vei fi taxat(ă) cu { $amount } + { $tax } taxe pe an după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-with-tax-default = Vei fi taxat(ă) cu { $amount } + { $tax } taxe după ce se încheie perioada gratuită de probă, la data de { $date }.
+
+# Charge info strings - no tax, per interval
+
+free-trial-content-charge-info-no-tax-day = Vei fi taxat(ă) cu { $amount } pe zi după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-no-tax-week = Vei fi taxat(ă) cu { $amount } pe săptămână după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-no-tax-month = Vei fi taxat(ă) cu { $amount } pe lună după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Vei fi taxat(ă) cu { $amount } la fiecare șase luni după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-no-tax-year = Vei fi taxat(ă) cu { $amount } pe an după ce se încheie perioada gratuită de probă, la data de { $date }.
+free-trial-content-charge-info-no-tax-default = Vei fi taxat(ă) cu { $amount } după ce se încheie perioada gratuită de probă, la data de { $date }.
 
 ##
 

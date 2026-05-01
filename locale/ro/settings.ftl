@@ -1578,6 +1578,15 @@ pair-auth-complete-sync-benefits-text = Acum poți accesa filele deschise, parol
 pair-auth-complete-see-tabs-button = Vezi file de pe dispozitivele sincronizate
 pair-auth-complete-manage-devices-link = Gestionează dispozitivele
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Ești gata să trimiți niște file
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } pentru { $deviceOS } este conectat.
+pair-auth-complete-send-tab-benefits = Poți trimite instant file deschise, parole și marcaje între dispozitive.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1604,9 +1613,17 @@ auth-totp-code-required-error = Necesită cod de autentificare
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Acum este necesară aprobarea <span>de pe celălalt dispozitiv</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Asociere dispozitive eșuată
+pair-failure-message-v2 = Configurarea nu a putut fi finalizată. Te rugăm să te autentifici cu adresa de e-mail.
+pair-failure-try-again-link = Încearcă din nou
+
 ## Pair index page
 
 pair-sync-header = Sincronizează { -brand-firefox } pe telefon sau tabletă
+pair-cad-header-v2 = Conectează alt dispozitiv
 pair-already-have-firefox-paragraph = Ai deja { -brand-firefox } pe telefon sau tabletă?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincronizează-ți dispozitivul

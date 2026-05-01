@@ -98,6 +98,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Dacă nu tu ai făcut asta, atunci resetează-ți parola imediat pe:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Resetează-ți și autentificarea în doi pași pe:
+automated-email-sign-in =
+    Acesta este un mesaj automat; dacă nu ai autorizat tu așa ceva, atunci te rugăm să<a data-l10n-name="securitySettingsLink">revezi setările de securitate din cont</a>.
+    Pentru informații suplimentare, intră pe <a data-l10n-name="supportLink">{ -brand-mozilla } Asistență</a>.
+automated-email-sign-in-plaintext = Dacă nu ai autorizat tu așa ceva, te rugăm să îți revezi setările de securitate din cont la:
 brand-banner-message = Știai că ne-am schimbat numele din { -product-firefox-accounts } în { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Află mai multe</a>
 change-password-plaintext = Dacă suspectezi că cineva încearcă să îți intre în cont, te rugăm să îți modifici parola.
 manage-account = Gestionează contul
@@ -261,6 +265,15 @@ postAddLinkedAccount-subject-2 = Cont nou asociat cu { -product-mozilla-account 
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Contul tău { $providerName } a fost asociat cu { -product-mozilla-account }
 postAddLinkedAccount-action = Gestionează contul
+postAddPasskey-subject = Cheia de acces a fost creată
+postAddPasskey-preview = Acum poți utiliza dispozitivul pentru autentificare
+postAddPasskey-title = Ai creat o cheie de acces
+postAddPasskey-description = Acum o poți utiliza ca să te autentifici în toate serviciile tale { -product-mozilla-account }.
+postAddPasskey-sync-note = De reținut: tot vei avea nevoie de parolă ca să intri în datele sincronizate { -brand-firefox }.
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = Află mai multe
+postAddPasskey-requested-from = Ai făcut cererea de pe:
+postAddPasskey-action = Gestionează contul
 postAddRecoveryPhone-subject = Număr de telefon de recuperare adăugat
 postAddRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
 postAddRecoveryPhone-title-v2 = Ai adăugat un număr de telefon pentru recuperare
@@ -329,6 +342,12 @@ postRemoveAccountRecovery-title-3 = Ți-ai șters cheia de recuperare a contului
 postRemoveAccountRecovery-body-part1 = Ai nevoie de cheia de recuperare a contului ca să restaurezi datele de navigare criptate dacă uiți parola.
 postRemoveAccountRecovery-body-part2 = Dacă nu ai făcut-o deja, creează o cheie nouă de recuperare a contului în setările contului pentru a preveni pierderea parolelor salvate, a marcajelor, a istoricului de navigare și a altor date.
 postRemoveAccountRecovery-action = Gestionează contul
+postRemovePasskey-subject = Cheia de acces a fost ștearsă
+postRemovePasskey-preview = A fost eliminată o cheie de acces din contul tău
+postRemovePasskey-title = Ți-ai șters cheia de acces
+postRemovePasskey-description = Vei avea nevoie de altă metodă pentru autentificare.
+postRemovePasskey-requested-from = Ai făcut cererea de pe:
+postRemovePasskey-action = Gestionează contul
 postRemoveRecoveryPhone-subject = Numărul de telefon de recuperare a fost eliminat
 postRemoveRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
 postRemoveRecoveryPhone-title = Numărul de telefon de recuperare a fost eliminat
