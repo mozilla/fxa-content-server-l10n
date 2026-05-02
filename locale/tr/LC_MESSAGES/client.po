@@ -1957,7 +1957,7 @@ msgstr "Siz giriş yapmadıysanız <a id=\"change-password\" class=\"link-blue\"
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "Sekme göndermeye hazırsınız"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
@@ -1965,6 +1965,9 @@ msgid ""
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
 msgstr ""
+"\n"
+"          <span>%(deviceFamily)s -  %(deviceOS)s</span> bağlandı.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."

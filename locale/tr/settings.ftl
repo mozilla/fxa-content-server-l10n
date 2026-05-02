@@ -69,6 +69,11 @@ recovery-key-pdf-download-error = Hesap kurtarma anahtarınız indirilirken bir 
 ## ButtonPasskeySignin
 
 button-passkey-signin = Geçiş anahtarıyla giriş yap
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Güvenli giriş yapılıyor…
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -1097,6 +1102,8 @@ product-promo-monitor-cta = Ücretsiz taramayı başlat
 product-promo-vpn =
     .alt = { -product-mozilla-vpn }
 product-promo-vpn-description = Anonim gezinti ve korumayı keşfedin.
+# Links out to the VPN site
+product-promo-vpn-cta = { -product-mozilla-vpn-short }’i edinin
 
 ## Profile section
 
@@ -1898,6 +1905,7 @@ back = Geri dön
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
+signin-passkey-fallback-header = Girişi tamamla
 signin-passkey-fallback-password-label = Parola
 signin-passkey-fallback-go-to-settings = Ayarlara git
 signin-passkey-fallback-continue = Devam et

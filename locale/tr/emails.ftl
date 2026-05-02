@@ -311,6 +311,7 @@ postChangeRecoveryPhone-requested-device = Bu cihazdan istediniz:
 postChangeTwoStepAuthentication-preview = Hesabınız korunuyor
 postChangeTwoStepAuthentication-subject = İki aşamalı kimlik doğrulama güncellendi
 postChangeTwoStepAuthentication-title = İki aşamalı kimlik doğrulama güncellendi
+postChangeTwoStepAuthentication-use-new-account = Artık kimlik doğrulama uygulamanızdaki yeni { -product-mozilla-account } kodunu kullanmanız gerekiyor. Eskisi artık çalışmayacağı için onu silebilirsiniz.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = İşlemi yapan cihaz:
 postChangeTwoStepAuthentication-action = Hesabı yönet
@@ -465,6 +466,9 @@ verifyPrimary-subject = Ana e-posta adresini onayla
 verifyPrimary-action-2 = E-postanızı doğrulayın
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Cihaz doğrulandıktan sonra, bu cihazdan ikinci e-posta ekleme gibi hesap değişiklikleri yapmak mümkün olacaktır.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = İkinci e-postanızı onaylamak için bu kodu kullanabilirsiniz: { $code }
 verifySecondaryCode-preview = Kodun geçerlilik süresi 5 dakikadır.
 verifySecondaryCode-title-2 = İkinci e-postayı onayla
 verifySecondaryCode-action-2 = E-postanızı doğrulayın
