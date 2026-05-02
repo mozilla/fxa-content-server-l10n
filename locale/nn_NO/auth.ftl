@@ -229,6 +229,7 @@ freeTrialEndingReminder-content-charge-discount-2 = Rabatt
 # Variables:
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Moms: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Skatt
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
