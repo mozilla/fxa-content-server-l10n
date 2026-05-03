@@ -224,7 +224,7 @@ freeTrialEndingReminder-content-charge-heading = Podrobnosti o poplatcích
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = Předplatné { $productName }: { $invoiceSubtotal }
-freeTrialEndingReminder-content-charge-subscription-2 = Předplatné za { $productName }
+freeTrialEndingReminder-content-charge-subscription-2 = Předplatné produktu { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Sleva: { $invoiceDiscountAmount }
