@@ -381,6 +381,9 @@ subscriptionPaymentProviderCancelled-content-reason-1 = Det kan være at betalin
 subscriptionReactivation-subject-2 = Ditt abonnement på { $productName } er reaktivert
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = Ditt prøveabonnement på { $productName } er reaktivert
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Takk for at du reaktiverte abonnementet på { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
