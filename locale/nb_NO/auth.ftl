@@ -233,6 +233,7 @@ freeTrialEndingReminder-content-charge-tax-2 = Moms
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Totalt å betale { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Totalt å betale den { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Du kan se gjennom eller oppdatere betalingsmåten og kontoinformasjonen din <a data-l10n-name="freeTrialEndingReminder-update-billing">her</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Du kan se gjennom eller oppdatere betalingsmåten og kontoinformasjonen din her:
 # Variables:
@@ -375,6 +376,9 @@ subscriptionPaymentProviderCancelled-title = Beklager, vi har problemer med beta
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Vi har oppdaget et problem med betalingsmåten din for { $productName }.
 subscriptionPaymentProviderCancelled-content-reason-1 = Det kan være at betalingsmåten din er utløpt, eller at den nåværende betalingsmåten din er utdatert.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Ditt abonnement på { $productName } er reaktivert
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Takk for at du reaktiverte abonnementet på { $productName }!
