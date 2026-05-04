@@ -1437,6 +1437,10 @@ oauth-error-1000 = Oĩ ndoikóiva. Emboty ko tendayke ha eha’ã jey.
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Pe ñe’ẽ ñemi ñemboheko ndoikói térã ndojeporukuaái. Eha’ãjey ag̃ave térã eiporavo ambue.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Ñe’ẽ ñemi ñemoheñói ndereiporukuaamo’ãi ko mba’e’okápe. Ikatu pe mba’e’oka oñemboheraguapýma térã ikatu ojehejareíma pe iñemboheko.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Ojehejarei ñe’ẽ ñemi ñemboheko. Eha’ãjey ag̃ave.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
