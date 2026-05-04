@@ -379,7 +379,16 @@ subscriptionPaymentProviderCancelled-content-detect = Roguerekókuri apañuái n
 subscriptionPaymentProviderCancelled-content-reason-1 = Ikatuhína pe nde jehepyme’ẽrã ndoikovéima térã pe ehepyme’ẽha ko’ag̃aguáva ndahekopyahúi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Ne ñemboheraguapy { $productName } eiporukuaa jeýma
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = Ne ñeha’ã { $productName } rehegua eiporukuaa jeýma
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = ¡Aguyje emyandyjeýre ne mboheraguapy { $productName }-pe!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = ¡Aguyje emyandy jeýre ne mboheraguapy { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20

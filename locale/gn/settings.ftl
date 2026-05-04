@@ -1456,6 +1456,8 @@ passkey-registration-error-unexpected = Ñe’ẽ ñemi jeikeha ñemboheko ndoik
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Pe ñe’ẽ ñemi jeikeha ñemboheko ndoikói. Eha’ãjey ag̃ave térã eiporavo ambue mba’e.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Ñe’ẽ ñemi jeikeha ñemboheko noĩri ko mba’e’okápe. Ikatu eha’ã jey térã eiporavo ambue mba’e.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Opáma ejerure hag̃ua ñemigua. Eha’ãjey ag̃ave.
 # Browser or platform does not support passkeys
