@@ -956,6 +956,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Eventuelle utvidelser og temaer som du har publisert til addons.mozilla.org blir slettet
 delete-account-continue-button = Fortsett
+delete-account-delete-button-passwordless = Slett konto
 delete-account-password-input =
     .label = Skriv inn passord
 delete-account-cancel-button = Avbryt
@@ -971,6 +972,17 @@ submit-display-name = Lagre
 cancel-display-name = Avbryt
 display-name-update-error-2 = Det oppstod et problem med å oppdatere visningsnavnet ditt.
 display-name-success-alert-2 = Visningsnavn oppdatert
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Oppretter passnøkkel…
+page-passkey-add-follow-prompts = Følg instruksjonene på enheten din.
+page-passkey-add-cancel = Avbryt
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Passnøkkel opprettet
+page-passkey-add-error-system = Systemet er ikke tilgjengelig. Prøv igjen senere.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1095,6 +1107,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = Finn ut hvor din private informasjon er eksponert og ta kontroll
 # Links out to the Monitor site
 product-promo-monitor-cta = Få gratis skanning
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Oppdag et nytt lag med anonym surfing og beskyttelse.
+# Links out to the VPN site
+product-promo-vpn-cta = Få { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1223,6 +1240,11 @@ passkey-row-max-limit-banner =
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Du har nådd det maksimale antallet passnøkler.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Nettleseren eller enheten din støtter ikke passnøkler.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1600,9 +1622,14 @@ auth-totp-code-required-error = Autentiseringskode kreves
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Godkjenning kreves nå <span>fra den andre enheten din</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-try-again-link = Prøv igjen
+
 ## Pair index page
 
 pair-sync-header = Synkroniser { -brand-firefox } på telefonen eller nettbrettet ditt
+pair-cad-header-v2 = Koble til en annen enhet
 pair-already-have-firefox-paragraph = Har du allerede { -brand-firefox } på en telefon eller et nettbrett?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkroniser enheten din
@@ -1617,6 +1644,13 @@ pair-take-your-data-message = Ta med deg faner, bokmerker og passord hvor enn du
 pair-get-started-button = Kom i gang
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-kode
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Synkroniser { -brand-firefox }-opplevelsen din
+# Description shown on the choice screen
+pair-choice-description = Se lagrede passord, faner, nettleserhistorikk og mer — på tvers av alle enhetene dine.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1906,6 +1940,7 @@ signin-passwordless-code-instruction =
         [one] Skriv inn koden som ble sendt til <email>{ $email }</email> innen { $expirationMinutes } minutt.
        *[other] Skriv inn koden som ble sendt til <email>{ $email }</email> innen { $expirationMinutes } minutter.
     }
+signin-passwordless-code-input-label-v2 = Skriv inn 6-sifret kode
 signin-passwordless-code-confirm-button = Bekreft
 signin-passwordless-code-required-error = Bekreftelseskode kreves
 signin-passwordless-code-expired = Har koden utløpt?
