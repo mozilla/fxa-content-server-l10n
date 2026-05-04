@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = Reanudar prueba
 free-trial-content-button-resume-trial-aria = Reanudar prueba de { $productName }
 free-trial-content-button-cancel-trial = Cancelar prueba
 free-trial-content-button-cancel-trial-aria = Cancelar prueba de { $productName }
+free-trial-content-button-cancel-subscription = Cancelar suscripción
+free-trial-content-button-cancel-subscription-aria = Cancelar suscripción por { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Ver factura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Ver factura de { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Tu prueba gratuita terminó el <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = No pudimos procesar tu pago. Actualiza tu método de pago para restaurar el acceso. El procesamiento puede tardar hasta 24 horas y puede variar según el banco o el método de pago.
 free-trial-content-button-update-payment = Actualizar método de pago
 
 # Component - Header
@@ -713,6 +718,7 @@ manage-payment-method-intent-error-try-again = Hmm. Hubo un problema al autoriza
 manage-payment-method-intent-error-get-in-touch = Hmm. Hubo un problema al autorizar el pago. Ponete en contacto con el emisor de tu tarjeta.
 manage-payment-method-intent-error-insufficient-funds = Parece que la tarjeta no tiene fondos suficientes. Probá otra tarjeta.
 manage-payment-method-intent-error-generic = Ocurrió un error inesperado al procesar tu pago. Intentá nuevamente.
+manage-payment-method-tax-address-required = No pudimos determinar tu ubicación de facturación. Verificá la información de tu método de pago y volvé a intentarlo.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)

@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = Testversion fortsetzen
 free-trial-content-button-resume-trial-aria = Testversion für { $productName } fortsetzen
 free-trial-content-button-cancel-trial = Testversion kündigen
 free-trial-content-button-cancel-trial-aria = Testversion für { $productName } kündigen
+free-trial-content-button-cancel-subscription = Abonnement kündigen
+free-trial-content-button-cancel-subscription-aria = Abonnement für { $productName } kündigen
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Rechnung ansehen
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Rechnung für { $productName } ansehen
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Ihre kostenlose Testversion endete am <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Wir konnten Ihre Zahlung nicht verarbeiten. Aktualisieren Sie Ihre Zahlungsmethode, um den Zugriff wiederherzustellen. Die Bearbeitung kann bis zu 24 Stunden dauern und je nach Bank oder Zahlungsmethode unterschiedlich sein.
 free-trial-content-button-update-payment = Zahlungsmethode aktualisieren
 
 # Component - Header
@@ -713,6 +718,7 @@ manage-payment-method-intent-error-try-again = Hmm. Beim Autorisieren Ihrer Zahl
 manage-payment-method-intent-error-get-in-touch = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
 manage-payment-method-intent-error-insufficient-funds = Es sieht so aus, als ob Ihre Karte nicht genügend Guthaben hat. Versuchen Sie es mit einer anderen Karte.
 manage-payment-method-intent-error-generic = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
+manage-payment-method-tax-address-required = Wir konnten Ihren Abrechnungsstandort nicht feststellen. Bitte überprüfen Sie die Informationen Ihrer Zahlungsmethode und versuchen Sie es erneut.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)

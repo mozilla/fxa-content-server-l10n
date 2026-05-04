@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = Riprendi la versione di prova
 free-trial-content-button-resume-trial-aria = Riprendi il periodo di prova per { $productName }
 free-trial-content-button-cancel-trial = Annulla prova
 free-trial-content-button-cancel-trial-aria = Annulla il periodo di prova per { $productName }
+free-trial-content-button-cancel-subscription = Annulla abbonamento
+free-trial-content-button-cancel-subscription-aria = Annulla abbonamento a { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Visualizza fattura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Visualizza fattura per { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = La tua prova gratuita è terminata il <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Impossibile elaborare il pagamento. Aggiorna il metodo di pagamento per ripristinare l’accesso. L’elaborazione può richiedere fino a 24 ore e può variare in base alla banca o al metodo di pagamento.
 free-trial-content-button-update-payment = Aggiorna metodo di pagamento
 
 # Component - Header
@@ -713,6 +718,7 @@ manage-payment-method-intent-error-try-again = Uhm… Si è verificato un proble
 manage-payment-method-intent-error-get-in-touch = Uhm… Si è verificato un problema durante l’autorizzazione del pagamento. Contatta l’emittente della carta.
 manage-payment-method-intent-error-insufficient-funds = Questa carta non dispone di credito sufficiente. Prova con un’altra carta.
 manage-payment-method-intent-error-generic = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
+manage-payment-method-tax-address-required = Non è stato possibile determinare la località di fatturazione. Verificare le informazioni relative al metodo di pagamento e riprovare.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
