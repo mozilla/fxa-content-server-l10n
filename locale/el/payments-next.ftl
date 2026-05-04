@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = Συνέχιση δοκιμής
 free-trial-content-button-resume-trial-aria = Συνέχιση δωρεάν δοκιμής για το { $productName }
 free-trial-content-button-cancel-trial = Ακύρωση δοκιμής
 free-trial-content-button-cancel-trial-aria = Ακύρωση δωρεάν δοκιμής για το { $productName }
+free-trial-content-button-cancel-subscription = Ακύρωση συνδρομής
+free-trial-content-button-cancel-subscription-aria = Ακύρωση συνδρομής για το { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,8 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Προβολή παραστατικού
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Προβολή παραστατικού για το { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Η δωρεάν δοκιμαστική περίοδος έληξε στις <bold>{ $date }</bold>.
 free-trial-content-button-update-payment = Ενημέρωση μεθόδου πληρωμής
 
 # Component - Header
