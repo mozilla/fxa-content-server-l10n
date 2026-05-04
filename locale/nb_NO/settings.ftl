@@ -1651,6 +1651,19 @@ pair-qr-code-aria-label = QR-kode
 pair-choice-subheader = Synkroniser { -brand-firefox }-opplevelsen din
 # Description shown on the choice screen
 pair-choice-description = Se lagrede passord, faner, nettleserhistorikk og mer — på tvers av alle enhetene dine.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Fortsett
+# Success banner shown after signing in
+pair-signed-in-successfully = Du er logget inn!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Konto opprettet. Du synkroniserer nå.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Passord opprettet. Du synkroniserer nå.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Last ned { -brand-firefox } for mobil
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1679,6 +1692,10 @@ pair-wait-for-auth-heading-text = Godkjenning kreves nå <span>fra den andre enh
 
 pair-unsupported-header = Paring via en app
 pair-unsupported-message = Brukte du systemkameraet? Du må koble til fra en { -brand-firefox }-app.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Ups! Det ser ut som om du ikke bruker { -brand-firefox }.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Ups! Det ser ut som om du ikke bruker { -brand-firefox }.
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = Les mer
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
