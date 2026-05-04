@@ -1442,6 +1442,10 @@ oauth-error-1000 = Der is wat misgien. Slút dit ljepblêd en probearje it opnij
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Ynstellen fan wachtwurd mislearre of is net beskikber. Probearje it opnij of kies in oare metoade.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Ynstellen fan wachtwurdkaai is net beskikber op dit apparaat. It apparaat is al registrearre, of it ynstelproses is annulearre.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Ynstellen fan wachtwurdkaai is annulearre. Probearje it opnij.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1461,6 +1465,8 @@ passkey-registration-error-unexpected = Ynstellen fan wachtwurdkaai mislearre. P
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Oanmelding mei wachtwurdkaai mislearre of is net beskikber. Probearje it opnij of kies in oare metoade.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = It ynstellen fan in wachtwurdkaai is net beskikber op dit apparaat. Probearje it opnij of kies in oare metoade.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Wachtwurdkaaifersyk ferrûn. Probearje it opnij.
 # Browser or platform does not support passkeys

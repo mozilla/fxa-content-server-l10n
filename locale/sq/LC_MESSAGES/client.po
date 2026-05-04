@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 20:36+0000\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
@@ -107,19 +109,6 @@ msgstr "Llogari e panjohur. <a href=\"/signup\">Regjistrohuni</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Llogaria s’ekziston më. Të rikrijohet?"
 
-#: .es5/views/support.js:237 .es5/templates/support.mustache:10
-msgid "Other"
-msgstr "Tjetër"
-
-#: .es5/views/support.js:238
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Faleminderit që u lidhët me Asistencën e Mozilla-s rreth <b>%(escapedLowercaseTopic)s</b>. Do të lidhemi me ju me email sa më shpejt që të jetë e mundur."
-
-#: .es5/views/support.js:240
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr ""
-"Faleminderit që lidheni me Asistencën e Mozilla-s rreth <b>%(escapedLowercaseTopic)s</b> për <b>%(escapedSelectedProduct)s</b>. Do të lidhemi me ju përmesh email-i sa më shpejt që të jetë e mundur."
-
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
@@ -212,26 +201,6 @@ msgstr "U shtyp"
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr "Llogaria u ripohua me sukses"
-
-#: .es5/models/support-form.js:23
-msgid "payment & billing"
-msgstr "pagesë & faturim"
-
-#: .es5/models/support-form.js:23
-msgid "account issues"
-msgstr "probleme llogarish"
-
-#: .es5/models/support-form.js:23
-msgid "technical issues"
-msgstr "çështje teknike"
-
-#: .es5/models/support-form.js:23
-msgid "provide feedback / request features"
-msgstr "jepni mendime / kërkoni veçori"
-
-#: .es5/models/support-form.js:23
-msgid "not listed"
-msgstr "jo në listë"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -831,10 +800,12 @@ msgid "Invalid Token"
 msgstr "Token i Pavlefshëm"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
-"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të %(serviceName)s"
-" (%(serviceUri)s)."
+"Duke vazhduar më tej, pajtoheni me <a id=\"service-tos\" href=\"%(termsUri)s\">Kushtet e Shërbimit</a> dhe<a id=\"service-pp\" href=\"%(privacyUri)s\">Shënimet Mbi Privatësinë</a> të "
+"%(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -900,7 +871,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Ju lutemi, që të rimerrni hyrjen te llogaria juaj Mozilla, jepni kyçin njëpërdorimsh të rimarrjes së llogarisë që keni depozituar në një vend të parrezik."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">SHËNIM:</span> Nëse ricaktoni fjalëkalimin tuaj dhe s’keni të ruajtur kyç rimarrjeje llogarie, disa nga të dhënat tuaja do të fshihen (përfshi të dhëna të njëkohësuara nga "
 "shërbyesi, të tilla si historik dhe shfletues)."
@@ -1106,34 +1078,43 @@ msgstr "Fjalëkalimi"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Duke vazhduar, pajtoheni me:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Shënim Privatësie</a><br /> të Pocket-it\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive Mozilla\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Shënim Privatësie</a><br /> të Pocket-it\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive "
+"Mozilla\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Duke vazhduar, pajtoheni me:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Shënim Privatësie</a> të Shërbimeve të Pajtimeve Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> Llogarish Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Shënim Privatësie</a> të Shërbimeve të Pajtimeve Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> Llogarish "
+"Mozilla\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Duke vazhduar, pajtoheni me <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënimin mbi Privatësinë</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Duke vazhduar, pajtoheni me <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënimin mbi "
+"Privatësinë</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1179,27 +1160,32 @@ msgstr "Një llogari Mozilla ju lejon gjithashtu përdorim më tepër produktesh
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Duke vazhduar, pajtoheni me:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Shënim Privatësie</a><br /> të Pocket-it\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Kushte Shërbimi</a> dhe <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Shënim "
+"Privatësie</a><br /> të Pocket-it\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> të Llogarive "
+"Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Duke vazhduar, pajtoheni me:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Kushte Shërbimi</a> dhe  <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Shënim Privatësie</a> të Shërbimeve të Pajtimeve Mozilla<br />\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Kushte Shërbimi</a> dhe  <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Shënim Privatësie</a> të Shërbimeve të Pajtimeve Mozilla<br />\n"
 "            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Kushte Shërbimi</a> dhe <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Shënim Privatësie</a> Llogarish Mozilla\n"
 "                    "
 
@@ -1318,11 +1304,11 @@ msgstr "%(serviceName)s dëshiron të dhënat vijuese prej llogarisë suaj:"
 msgid "Accept"
 msgstr "Pranojeni"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Anuloje"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
+#: .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr "Shënim mbi Privatësinë"
 
@@ -1507,78 +1493,6 @@ msgstr "Zgjidhni çfarë të njëkohësohet"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Krijoni llogari"
-
-#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Stema Mozilla m"
-
-#: .es5/templates/support.mustache:2
-msgid "Mozilla account"
-msgstr "Llogari Mozilla"
-
-#: .es5/templates/support.mustache:3
-msgid "Account Home"
-msgstr "Kreu i Llogarive"
-
-#: .es5/templates/support.mustache:4
-msgid "Subscriptions"
-msgstr "Pajtime"
-
-#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
-msgid "Contact Us"
-msgstr "Lidhuni Me Ne"
-
-#: .es5/templates/support.mustache:7
-msgid "What are you contacting us about?"
-msgstr "Për çfarë po lidheni me ne?"
-
-#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
-msgid "Please select one"
-msgstr "Ju lutemi, përzgjidhni një"
-
-#: .es5/templates/support.mustache:11
-msgid "What do you need help with?"
-msgstr "Për çfarë ju duhet ndihmë?"
-
-#: .es5/templates/support.mustache:13
-msgid "Payment & billing"
-msgstr "Pagesë & faturim"
-
-#: .es5/templates/support.mustache:14
-msgid "Account issues"
-msgstr "Probleme llogarish"
-
-#: .es5/templates/support.mustache:15
-msgid "Technical issues"
-msgstr "Çështje teknike"
-
-#: .es5/templates/support.mustache:16
-msgid "Provide feedback / request features"
-msgstr "Jepni mendime / kërkoni veçori"
-
-#: .es5/templates/support.mustache:17
-msgid "Not listed"
-msgstr "Jo në listë"
-
-#: .es5/templates/support.mustache:18
-msgid "Do you need help with a specific app or service? (optional)"
-msgstr "Ju duhet ndihmë me një aplikacion ose shërbim të caktuar? (në daçi)"
-
-#: .es5/templates/support.mustache:20
-msgid "Subject (optional)"
-msgstr "Subjekt (në daçi)"
-
-#: .es5/templates/support.mustache:21
-msgid "Description of issue"
-msgstr "Përshkrim i problemit"
-
-#: .es5/templates/support.mustache:23
-msgid "Send"
-msgstr "Dërgoje"
-
-#: .es5/templates/support.mustache:24
-msgid "Terms of Service"
-msgstr "Kushte Shërbimi"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1831,6 +1745,10 @@ msgstr "<span class=\"number\">4</span>Hyni në llogarinë tuaj"
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Pse më duhet ta krijoj këtë llogari? <a %(escapedSuggestionAttrs)s>Zbulojeni këtu</a>"
 
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Stema Mozilla m"
+
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
 msgstr "Më 1 nëntor llogaritë Firefox do të riemërtohen llogari Mozilla"
@@ -1906,18 +1824,6 @@ msgstr "Jo në fjalëkalim të përdorur rëndom"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Rrini i parrezik &mdash; mos ripërdorni fjalëkalime. Shihni më tepër ndihmëza si të <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">krijohen fjalëkalime të fuqishëm</a>."
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Hëm, po kemi probleme me sistemin tonë. Po punojnë për ta ndrequr dhe kërkojmë ndjesë për sikletin. Ju lutemi, riprovoni më vonë."
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr "Mesazhi juaj iu dërgua Asistencës"
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
-msgstr "Mbrapsht te Pajtime"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

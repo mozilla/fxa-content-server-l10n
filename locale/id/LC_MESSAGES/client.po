@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 20:36+0000\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
@@ -107,18 +109,6 @@ msgstr "Akun tidak dikenal. <a href=\"/signup\">Daftar</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Akun sudah tidak ada. Buat ulang?"
 
-#: .es5/views/support.js:237 .es5/templates/support.mustache:10
-msgid "Other"
-msgstr "Lainnya"
-
-#: .es5/views/support.js:238
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Terima kasih telah menghubungi Dukungan Mozilla tentang <b>%(escapedLowercaseTopic)s</b>. Kami akan menghubungi Anda via surel secepatnya."
-
-#: .es5/views/support.js:240
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "Terima kasih telah menghubungi Dukungan Mozilla mengenai <b>%(escapedLowercaseTopic)s</b> untuk <b>%(escapedSelectedProduct)s</b>. Kami akan menghubungi anda melalui surel secepatnya."
-
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
@@ -211,26 +201,6 @@ msgstr "Tercetak"
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr "Akun berhasil dikonfirmasi"
-
-#: .es5/models/support-form.js:23
-msgid "payment & billing"
-msgstr "pembayaran & penagihan"
-
-#: .es5/models/support-form.js:23
-msgid "account issues"
-msgstr "masalah akun"
-
-#: .es5/models/support-form.js:23
-msgid "technical issues"
-msgstr "masalah teknis"
-
-#: .es5/models/support-form.js:23
-msgid "provide feedback / request features"
-msgstr "berikan umpan balik / sarankan fitur"
-
-#: .es5/models/support-form.js:23
-msgid "not listed"
-msgstr "tidak terdaftar"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -830,8 +800,12 @@ msgid "Invalid Token"
 msgstr "Token Tidak Valid"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Dengan melanjutkan, Anda menyetujui <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Dengan melanjutkan, Anda menyetujui <a id=\"service-tos\" href=\"%(termsUri)s\">Ketentuan Layanan</a> dan <a id=\"service-pp\" href=\"%(privacyUri)s\">Privasi</a> dari %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -897,10 +871,11 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Masukkan kunci pemulihan akun sekali pakai yang Anda simpan di tempat yang aman untuk mendapatkan kembali akses ke akun Mozilla Anda."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
-"<span class=\"note\">CATATAN:</span> Jika Anda mengatur ulang sandi dan tidak mempunyai kunci pemulihan akun tersimpan, beberapa data Anda akan terhapus (termasuk data server tersinkroninasi seperti"
-" riwayat dan markah)."
+"<span class=\"note\">CATATAN:</span> Jika Anda mengatur ulang sandi dan tidak mempunyai kunci pemulihan akun tersimpan, beberapa data Anda akan terhapus (termasuk data server tersinkroninasi "
+"seperti riwayat dan markah)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -943,8 +918,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>INGAT:</span> Saat Anda menyetel ulang sandi, Anda menyetel ulang akun Anda. Anda mungkin kehilangan beberapa informasi pribadi Anda (termasuk riwayat, markah, dan kata sandi). Itu karena kami"
-" mengenkripsi data Anda dengan kata sandi Anda untuk melindungi privasi Anda. Anda akan tetap memegang langganan apa pun yang mungkin Anda miliki dan data Pocket tidak akan terpengaruh."
+"<span>INGAT:</span> Saat Anda menyetel ulang sandi, Anda menyetel ulang akun Anda. Anda mungkin kehilangan beberapa informasi pribadi Anda (termasuk riwayat, markah, dan kata sandi). Itu karena "
+"kami mengenkripsi data Anda dengan kata sandi Anda untuk melindungi privasi Anda. Anda akan tetap memegang langganan apa pun yang mungkin Anda miliki dan data Pocket tidak akan terpengaruh."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1103,7 +1078,8 @@ msgstr "Sandi"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1112,15 +1088,19 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Bila melanjutkan, Anda setuju dengan <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Bila melanjutkan, Anda setuju dengan <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan "
+"Privasi</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1166,7 +1146,8 @@ msgstr "Akun Mozilla juga membuka akses ke lebih banyak produk perlindungan priv
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
@@ -1175,7 +1156,8 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
@@ -1295,11 +1277,11 @@ msgstr "%(serviceName)s menginginkan informasi tersebut dari akun Anda:"
 msgid "Accept"
 msgstr "Terima"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Batal"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
+#: .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr "Kebijakan Privasi"
 
@@ -1480,78 +1462,6 @@ msgstr "Pilih yang ingin disinkronkan"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Buat akun"
-
-#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Logo m Mozilla"
-
-#: .es5/templates/support.mustache:2
-msgid "Mozilla account"
-msgstr "Akun Mozilla"
-
-#: .es5/templates/support.mustache:3
-msgid "Account Home"
-msgstr "Beranda Akun"
-
-#: .es5/templates/support.mustache:4
-msgid "Subscriptions"
-msgstr "Langganan"
-
-#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
-msgid "Contact Us"
-msgstr "Hubungi Kami"
-
-#: .es5/templates/support.mustache:7
-msgid "What are you contacting us about?"
-msgstr "Apa yang ingin Anda tanyakan kepada kami?"
-
-#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
-msgid "Please select one"
-msgstr "Silakan pilih satu"
-
-#: .es5/templates/support.mustache:11
-msgid "What do you need help with?"
-msgstr "Anda butuh bantuan apa?"
-
-#: .es5/templates/support.mustache:13
-msgid "Payment & billing"
-msgstr "Pembayaran & penagihan"
-
-#: .es5/templates/support.mustache:14
-msgid "Account issues"
-msgstr "Masalah akun"
-
-#: .es5/templates/support.mustache:15
-msgid "Technical issues"
-msgstr "Masalah teknis"
-
-#: .es5/templates/support.mustache:16
-msgid "Provide feedback / request features"
-msgstr "Berikan umpan balik / sarankan fitur"
-
-#: .es5/templates/support.mustache:17
-msgid "Not listed"
-msgstr "Tidak terdaftar"
-
-#: .es5/templates/support.mustache:18
-msgid "Do you need help with a specific app or service? (optional)"
-msgstr "Apakah Anda memerlukan bantuan dengan aplikasi atau layanan tertentu? (opsional)"
-
-#: .es5/templates/support.mustache:20
-msgid "Subject (optional)"
-msgstr "Subjek (opsional)"
-
-#: .es5/templates/support.mustache:21
-msgid "Description of issue"
-msgstr "Deskripsi masalah"
-
-#: .es5/templates/support.mustache:23
-msgid "Send"
-msgstr "Kirim"
-
-#: .es5/templates/support.mustache:24
-msgid "Terms of Service"
-msgstr "Ketentuan Layanan"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1804,6 +1714,10 @@ msgstr "<span class=\"number\">4</span>Masuk ke akun Anda"
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Mengapa saya perlu membuat akun ini? <a %(escapedSuggestionAttrs)s>Temukan jawabannya di sini</a>"
 
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Logo m Mozilla"
+
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
 msgstr "Akun Firefox akan diganti namanya menjadi akun Mozilla pada 1 Nov"
@@ -1879,18 +1793,6 @@ msgstr "Bukan sandi yang umum digunakan"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Tetap aman &mdash; jangan gunakan ulang sandi. Lihat kiat lainnya untuk <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">membuat sandi yang kuat</a>."
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Hmm, sistem kami sedang bermasalah. Kami tengah berupaya memperbaikinya dan meminta maaf atas ketidaknyamanannya. Silakan coba kembali nanti."
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr "Pesan Anda telah dikirim ke Dukungan"
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
-msgstr "Kembali ke Langganan"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

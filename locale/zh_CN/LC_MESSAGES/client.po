@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 20:36+0000\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
@@ -107,18 +109,6 @@ msgstr "未知账户。<a href=\"/signup\">注册</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "账户已不存在。重新创建？"
 
-#: .es5/views/support.js:237 .es5/templates/support.mustache:10
-msgid "Other"
-msgstr "其他"
-
-#: .es5/views/support.js:238
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "感谢您就 <b>%(escapedLowercaseTopic)s</b> 与 Mozilla 用户支持联系。我们将尽快通过电子邮件与您联系。"
-
-#: .es5/views/support.js:240
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "感谢您就 <b>%(escapedSelectedProduct)s</b> 中的 <b>%(escapedLowercaseTopic)s</b> 与 Mozilla 用户支持联系。我们将尽快通过电子邮件与您联系。"
-
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
@@ -211,26 +201,6 @@ msgstr "已打印"
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr "账户已成功确认"
-
-#: .es5/models/support-form.js:23
-msgid "payment & billing"
-msgstr "支付和账单"
-
-#: .es5/models/support-form.js:23
-msgid "account issues"
-msgstr "账户问题"
-
-#: .es5/models/support-form.js:23
-msgid "technical issues"
-msgstr "技术问题"
-
-#: .es5/models/support-form.js:23
-msgid "provide feedback / request features"
-msgstr "提供反馈 / 请求功能"
-
-#: .es5/models/support-form.js:23
-msgid "not listed"
-msgstr "未列出"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -830,7 +800,9 @@ msgid "Invalid Token"
 msgstr "无效令牌"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: .es5/lib/strings.js:33
@@ -897,7 +869,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "请输入您存放在安全位置的一次性账户恢复密钥，以重新获得对账户的访问权限。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">注意：</span>若您重置了密码并且没有保存恢复密钥，您的某些数据将会被清除（包含历史记录、书签等已同步的服务器数据）。"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -940,7 +913,9 @@ msgstr "创建新密码"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>牢记：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务的数据也不受影响。"
+msgstr ""
+"<span>牢记：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务"
+"的数据也不受影响。"
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1099,13 +1074,15 @@ msgstr "密码"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "          继续操作即表示您同意：<br />\n"
-"          Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服务条款</a>和<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隐私声明</a><br />\n"
+"          Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服务条款</a>和<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隐私声明"
+"</a><br />\n"
 "          Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>\n"
 "        "
 
@@ -1113,19 +1090,22 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              继续操作则表示您同意：<br />\n"
-"              Mozilla 订阅服务的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服务条款</a>和<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隐私声明</a><br />\n"
+"              Mozilla 订阅服务的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服务条款</a>和<a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隐私声明</a><br />\n"
 "              Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr "继续操作则表示，您同意我们的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>。"
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
@@ -1172,13 +1152,15 @@ msgstr "Mozilla 账户还可用于访问 Mozilla 的更多隐私保护产品。"
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          继续操作即表示您同意：<br />\n"
-"          Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服务条款</a>和<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隐私声明</a><br />\n"
+"          Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服务条款</a>和<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隐私声明"
+"</a><br />\n"
 "          Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>\n"
 "        "
 
@@ -1186,13 +1168,15 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "             继续操作则表示您同意：<br />\n"
-"            Mozilla 订阅服务的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服务条款</a>和<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隐私声明</a><br />\n"
+"            Mozilla 订阅服务的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服务条款</a>和<a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隐私声明</a><br />\n"
 "            Mozilla 账户的<a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">服务条款</a>和<a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">隐私声明</a>\n"
 "          "
 
@@ -1311,11 +1295,11 @@ msgstr "%(serviceName)s 想要获知您的账户的如下信息："
 msgid "Accept"
 msgstr "接受"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "取消"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
+#: .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr "隐私权政策"
 
@@ -1359,7 +1343,9 @@ msgstr "为何需要这样操作？"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>注意：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务的数据也不受影响。"
+msgstr ""
+"<span>注意：</span>重置密码的同时也会重置账户。👉 您会永久丢失某些个人信息（⚠️ 包括历史记录、书签和密码）。这是因为我们使用您的密码来加密您的数据，以此保护您的隐私。您的订阅项目将会保留，Pocket 服务"
+"的数据也不受影响。"
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1496,78 +1482,6 @@ msgstr "选择要同步的内容"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "创建账户"
-
-#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Mozilla 的“m”字徽标"
-
-#: .es5/templates/support.mustache:2
-msgid "Mozilla account"
-msgstr "Mozilla 账户"
-
-#: .es5/templates/support.mustache:3
-msgid "Account Home"
-msgstr "账户首页"
-
-#: .es5/templates/support.mustache:4
-msgid "Subscriptions"
-msgstr "订阅"
-
-#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
-msgid "Contact Us"
-msgstr "联系我们"
-
-#: .es5/templates/support.mustache:7
-msgid "What are you contacting us about?"
-msgstr "请问您需要什么帮助？"
-
-#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
-msgid "Please select one"
-msgstr "请选择一项"
-
-#: .es5/templates/support.mustache:11
-msgid "What do you need help with?"
-msgstr "您需要什么帮助？"
-
-#: .es5/templates/support.mustache:13
-msgid "Payment & billing"
-msgstr "支付和账单"
-
-#: .es5/templates/support.mustache:14
-msgid "Account issues"
-msgstr "账户问题"
-
-#: .es5/templates/support.mustache:15
-msgid "Technical issues"
-msgstr "技术问题"
-
-#: .es5/templates/support.mustache:16
-msgid "Provide feedback / request features"
-msgstr "提供反馈 / 请求功能"
-
-#: .es5/templates/support.mustache:17
-msgid "Not listed"
-msgstr "未列出"
-
-#: .es5/templates/support.mustache:18
-msgid "Do you need help with a specific app or service? (optional)"
-msgstr "您需要特定应用或服务的帮助吗？（选填）"
-
-#: .es5/templates/support.mustache:20
-msgid "Subject (optional)"
-msgstr "主题（选填）"
-
-#: .es5/templates/support.mustache:21
-msgid "Description of issue"
-msgstr "问题描述"
-
-#: .es5/templates/support.mustache:23
-msgid "Send"
-msgstr "发送"
-
-#: .es5/templates/support.mustache:24
-msgid "Terms of Service"
-msgstr "服务条款"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1818,6 +1732,10 @@ msgstr "<span class=\"number\">4.</span> 登录您的账户"
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "我为何需要创建此账户？<a %(escapedSuggestionAttrs)s>点此了解</a>"
 
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Mozilla 的“m”字徽标"
+
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
 msgstr "11 月 1 日起，Firefox 账户将更名为 Mozilla 账户"
@@ -1893,18 +1811,6 @@ msgstr "不可以是常见密码"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "确保密码安全，不要使用重复的密码。更多提示请见<a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">创建强密码</a>。"
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "嗯…系统出了点问题。我们正在努力修复，请稍后再试。对于由此给您带来的不便，我们深表歉意。"
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr "您的消息已送达用户支持"
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
-msgstr "返回“订阅”"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

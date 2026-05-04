@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 20:36+0000\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));\n"
 "Generated-By: Pontoon\n"
@@ -107,18 +109,6 @@ msgstr "Cyfrif anhysbys. <a href=\"/signup\">Ymunwch</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Nid yw'r cyfrif yn bodoli bellach. Ei ail-greu?"
 
-#: .es5/views/support.js:237 .es5/templates/support.mustache:10
-msgid "Other"
-msgstr "Arall"
-
-#: .es5/views/support.js:238
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Diolch am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</b>. Byddwn yn cysylltu â chi trwy e-bost cyn gynted â phosibl."
-
-#: .es5/views/support.js:240
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "Diolch i chi am gysylltu â Mozilla Support am <b>%(escapedLowercaseTopic)s</b> am<b>%(escapedSelectedProduct)s</b>. Byddwn yn cysylltu â chi trwy e-bost cyn gynted â phosibl."
-
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
@@ -211,26 +201,6 @@ msgstr "Argraffwyd"
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr "Cyfrif wedi'i gadarnhau'n llwyddiannus"
-
-#: .es5/models/support-form.js:23
-msgid "payment & billing"
-msgstr "talu a bilio"
-
-#: .es5/models/support-form.js:23
-msgid "account issues"
-msgstr "materion cyfrif"
-
-#: .es5/models/support-form.js:23
-msgid "technical issues"
-msgstr "materion technegol"
-
-#: .es5/models/support-form.js:23
-msgid "provide feedback / request features"
-msgstr "darparu adborth/gofyn am nodweddion"
-
-#: .es5/models/support-form.js:23
-msgid "not listed"
-msgstr "heb ei restru"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -830,8 +800,12 @@ msgid "Invalid Token"
 msgstr "Tocyn Annilys"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -897,7 +871,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Rhowch yr allwedd adfer cyfrif defnydd unwaith y gwnaethoch ei storio mewn man diogel i adennill mynediad i'ch cyfrif Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">NOTE:</span> Os fyddwch yn ailosod eich cyfrinair ac nad oes gennych allwedd adfer wedi ei gadw, bydd rhywfaint o'ch data'n cael ei ddileu (gan gynnwys data gweinydd wedi ei "
 "gydweddu fel hanes a nodau tudalen)."
@@ -944,8 +919,8 @@ msgid ""
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 "<span>COFIWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a "
-"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data Pocket"
-" yn cael ei effeithio."
+"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data "
+"Pocket yn cael ei effeithio."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1104,34 +1079,43 @@ msgstr "Cyfrinair"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Drwy symud ymlaen, rydych yn cytuno i'r:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Amodau Gwasanaeth</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Hysbysiad Preifatrwydd</a><br />\n"
-"            Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Amodau Gwasanaeth</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Hysbysiad Preifatrwydd</a><br />\n"
+"            Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</"
+"a>\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Drwy symud ymlaen, rydych yn cytuno i'r:<br />\n"
-"              Gwasanaethau Tanysgrifio Mozilla <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Hysbysiad Preifatrwydd</a><br />\n"
-"              Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>\n"
+"              Gwasanaethau Tanysgrifio Mozilla <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Amodau Gwasanaeth</a> a "
+"<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Hysbysiad Preifatrwydd</a><br />\n"
+"              Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad "
+"Preifatrwydd</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Drwy barhau, rydych yn cytuno i'r <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a'r <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Drwy barhau, rydych yn cytuno i'r <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a'r <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad "
+"Preifatrwydd</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1177,28 +1161,34 @@ msgstr "Mae cyfrif Mozilla hefyd yn datgloi mynediad i ragor o gynnyrch sy'n dio
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Drwy symud ymlaen, rydych yn cytuno i'r:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Amodau Gwasanaeth</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Hysbysiad Preifatrwydd</a><br />\n"
-"          Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Amodau Gwasanaeth</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Hysbysiad Preifatrwydd</a><br />\n"
+"          Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</"
+"a>\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Drwy symud ymlaen, rydych yn cytuno i'r:<br />\n"
-"            Gwasanaethau Tanysgrifio Mozilla <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Hysbysiad Preifatrwydd</a><br />\n"
-"            Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</a>\n"
+"            Gwasanaethau Tanysgrifio Mozilla <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Amodau Gwasanaeth</a> a <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Hysbysiad Preifatrwydd</a><br />\n"
+"            Cyfrifon Mozilla <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Amodau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Hysbysiad Preifatrwydd</"
+"a>\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1316,11 +1306,11 @@ msgstr "Mae %(serviceName)s eisiau'r wybodaeth ganlynol o'ch cyfrif:"
 msgid "Accept"
 msgstr "Derbyn"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Diddymu"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
+#: .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr "Hysbysiad Preifatrwydd"
 
@@ -1366,8 +1356,8 @@ msgid ""
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
 "<span>SYLWCH:</span> Pan fyddwch yn ailosod eich cyfrinair, rydych yn ailosod eich cyfrif. Mae’n bosibl y byddwch yn colli rhywfaint o’ch gwybodaeth bersonol (gan gynnwys hanes, nodau tudalen, a "
-"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data Pocket"
-" yn cael ei effeithio."
+"chyfrineiriau). Mae hynny oherwydd ein bod yn amgryptio eich data gyda'ch cyfrinair er mwyn diogelu eich preifatrwydd. Byddwch yn dal i gadw unrhyw danysgrifiadau sydd gennych ac ni fydd data "
+"Pocket yn cael ei effeithio."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1506,78 +1496,6 @@ msgstr "Dewis beth i gydweddu"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Creu cyfrif"
-
-#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Logo m Mozilla"
-
-#: .es5/templates/support.mustache:2
-msgid "Mozilla account"
-msgstr "Cyfrif Mozilla"
-
-#: .es5/templates/support.mustache:3
-msgid "Account Home"
-msgstr "Cartref y Cyfrif"
-
-#: .es5/templates/support.mustache:4
-msgid "Subscriptions"
-msgstr "Tanysgrifiadau"
-
-#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
-msgid "Contact Us"
-msgstr "Cysylltu â Ni"
-
-#: .es5/templates/support.mustache:7
-msgid "What are you contacting us about?"
-msgstr "Am beth ydych chi'n cysylltu â ni?"
-
-#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
-msgid "Please select one"
-msgstr "Dewiswch un"
-
-#: .es5/templates/support.mustache:11
-msgid "What do you need help with?"
-msgstr "Gyda beth y mae angen cymorth arnoch chi?"
-
-#: .es5/templates/support.mustache:13
-msgid "Payment & billing"
-msgstr "Talu a bilio"
-
-#: .es5/templates/support.mustache:14
-msgid "Account issues"
-msgstr "Materion cyfrif"
-
-#: .es5/templates/support.mustache:15
-msgid "Technical issues"
-msgstr "Materion technegol"
-
-#: .es5/templates/support.mustache:16
-msgid "Provide feedback / request features"
-msgstr "Darparu adborth / ceisiadau nodweddion"
-
-#: .es5/templates/support.mustache:17
-msgid "Not listed"
-msgstr "Heb ei restru"
-
-#: .es5/templates/support.mustache:18
-msgid "Do you need help with a specific app or service? (optional)"
-msgstr "Oes angen help arnoch chi gydag ap neu wasanaeth penodol? (dewisol)"
-
-#: .es5/templates/support.mustache:20
-msgid "Subject (optional)"
-msgstr "Pwnc (dewisol)"
-
-#: .es5/templates/support.mustache:21
-msgid "Description of issue"
-msgstr "Disgrifiad o'r mater"
-
-#: .es5/templates/support.mustache:23
-msgid "Send"
-msgstr "Anfon"
-
-#: .es5/templates/support.mustache:24
-msgid "Terms of Service"
-msgstr "Amodau'r Gwasanaeth"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1830,6 +1748,10 @@ msgstr "<span class=\"number\">4</span>Mewngofnodwch i'ch cyfrif"
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Pam fod angen i mi greu'r cyfrif hwn? <a %(escapedSuggestionAttrs)s>Darganfod yma</a>"
 
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Logo m Mozilla"
+
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
 msgstr "Bydd cyfrifon Firefox yn cael eu hail-enwi yn gyfrifon Mozilla ar Dachwedd 1"
@@ -1907,18 +1829,6 @@ msgstr "Nid cyfrinair sy'n cael ei ddefnyddio'n aml"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Cadwch yn ddiogel &mdash; peidiwch ag ailddefnyddio cyfrineiriau. Mae rhagor o awgrymiadau yn <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\"> i greu cyfrineiriau cryf</a>."
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Hmm, rydyn ni'n cael trafferthion gyda'n system. Rydym yn ceisio'i drwsio ar eich rhan ac yn ymddiheuro am yr anghyfleustra. Rhowch gynnig arni eto'n hwyrach."
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr "Anfonwyd eich neges i'n Cefnogaeth"
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
-msgstr "Nôl i Danysgrifiadau"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
