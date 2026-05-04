@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = Poursuivre l’essai
 free-trial-content-button-resume-trial-aria = Poursuivre l’essai de { $productName }
 free-trial-content-button-cancel-trial = Annuler l’essai
 free-trial-content-button-cancel-trial-aria = Annuler l’essai de { $productName }
+free-trial-content-button-cancel-subscription = Annuler l’abonnement
+free-trial-content-button-cancel-subscription-aria = Annuler l’abonnement pour { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Voir la facture
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Voir la facture pour { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Votre essai gratuit a pris fin le <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Nous n’avons pas pu traiter votre paiement. Mettez à jour votre mode de paiement pour retrouver l’accès. Le traitement peut prendre jusqu’à 24 heures et varie selon la banque ou le mode de paiement.
 free-trial-content-button-update-payment = Mettre à jour le moyen de paiement
 
 # Component - Header
@@ -713,6 +718,7 @@ manage-payment-method-intent-error-try-again = Hum, une erreur s’est produite 
 manage-payment-method-intent-error-get-in-touch = Hum, une erreur s’est produite lors de l’autorisation du paiement. Contactez l’émetteur de votre carte.
 manage-payment-method-intent-error-insufficient-funds = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
 manage-payment-method-intent-error-generic = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
+manage-payment-method-tax-address-required = Nous n’avons pas pu déterminer votre lieu de facturation. Veuillez vérifier les informations de votre mode de paiement et réessayer.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
