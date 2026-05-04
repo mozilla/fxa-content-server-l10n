@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 20:36+0000\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
@@ -107,18 +109,6 @@ msgstr "Bilinmeyen hesap. <a href=\"/signup\">Kaydolun</a>"
 msgid "Account no longer exists. Recreate it?"
 msgstr "Bu hesap artık yok. Yeniden oluşturulsun mu?"
 
-#: .es5/views/support.js:237 .es5/templates/support.mustache:10
-msgid "Other"
-msgstr "Diğer"
-
-#: .es5/views/support.js:238
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "<b>%(escapedLowercaseTopic)s</b> hakkında Mozilla Destek ile iletişime geçtiğiniz için teşekkür ederiz. En kısa sürede size e-postayla dönüş yapacağız."
-
-#: .es5/views/support.js:240
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "<b>%(escapedSelectedProduct)s</b> için <b>%(escapedLowercaseTopic)s</b> hakkında Mozilla Destek ile iletişime geçtiğiniz için teşekkür ederiz. En kısa sürede size e-postayla dönüş yapacağız."
-
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
@@ -211,26 +201,6 @@ msgstr "Yazdırıldı"
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr "Hesap başarıyla onaylandı"
-
-#: .es5/models/support-form.js:23
-msgid "payment & billing"
-msgstr "ödeme ve faturalandırma"
-
-#: .es5/models/support-form.js:23
-msgid "account issues"
-msgstr "hesap sorunları"
-
-#: .es5/models/support-form.js:23
-msgid "technical issues"
-msgstr "teknik sorunlar"
-
-#: .es5/models/support-form.js:23
-msgid "provide feedback / request features"
-msgstr "görüş bildirme / yeni özellik talebi"
-
-#: .es5/models/support-form.js:23
-msgid "not listed"
-msgstr "başka bir konu"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -830,7 +800,9 @@ msgid "Invalid Token"
 msgstr "Geçersiz jeton"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Devam ederek %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Hizmet Koşulları</a>'nı ve <a id=\"service-pp\" href=\"%(privacyUri)s\">Gizlilik Bildirimi</a>'ni kabul "
 "etmiş oluyorsunuz."
@@ -899,7 +871,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Mozilla Hesabınıza yeniden ulaşmak için lütfen daha önce size verdiğimiz ve saklamanızı istediğimiz tek kullanımlık hesap kurtarma anahtarını yazın."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">NOT:</span> Parolanızı sıfırlarsanız ve elinizde kurtarma anahtarınız yoksa bazı verileriniz (geçmiş ve yer imleri gibi eşitlenmiş sunucu verileri dahil) silinecektir."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1103,34 +1076,43 @@ msgstr "Parola"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Devam ettiğinizde şunları kabul etmiş olursunuz:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Hizmet Koşulları</a> ve <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Gizlilik Bildirimi</a><br />\n"
-"            Mozilla Hesapları <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Hizmet Koşulları</a> ve <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Gizlilik Bildirimi</a><br />\n"
+"            Mozilla Hesapları <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</"
+"a>\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Devam ettiğinizde şunları kabul etmiş olursunuz:<br />\n"
-"              Mozilla Abonelik Hizmetleri <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Gizlilik Bildirimi</a><br />\n"
-"              Mozilla Hesaplarının <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>\n"
+"              Mozilla Abonelik Hizmetleri <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Hizmet Koşulları</a> ve <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Gizlilik Bildirimi</a><br />\n"
+"              Mozilla Hesaplarının <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik "
+"Bildirimi</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Devam ettiğinizde <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a>'nı ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>'ni kabul etmiş olursunuz."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Devam ettiğinizde <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a>'nı ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>'ni kabul "
+"etmiş olursunuz."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1176,13 +1158,15 @@ msgstr "Mozilla hesabı, gizliliğinizi koruyan diğer Mozilla ürünlerine de e
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Devam ettiğinizde şunları kabul etmiş olursunuz:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Hizmet Koşulları</a> ve <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Gizlilik Bildirimi</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Hizmet Koşulları</a> ve <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Gizlilik Bildirimi</a><br />\n"
 "          Mozilla Hesapları <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>\n"
 "        "
 
@@ -1190,14 +1174,17 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Devam ettiğinizde şunları kabul etmiş olursunuz:<br />\n"
-"            Mozilla Abonelik Hizmetleri <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Gizlilik Bildirimi</a><br />\n"
-"            Mozilla Hesaplarının <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</a>\n"
+"            Mozilla Abonelik Hizmetleri <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Hizmet Koşulları</a> ve <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Gizlilik Bildirimi</a><br />\n"
+"            Mozilla Hesaplarının <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Hizmet Koşulları</a> ve <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Gizlilik Bildirimi</"
+"a>\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1315,11 +1302,11 @@ msgstr "%(serviceName)s, hesabınızdan aşağıdaki bilgileri istiyor:"
 msgid "Accept"
 msgstr "Kabul et"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Vazgeç"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
+#: .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr "Gizlilik Bildirimi"
 
@@ -1502,78 +1489,6 @@ msgstr "Nelerin eşitleneceğini seçin"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Hesap oluştur"
-
-#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Mozilla m logosu"
-
-#: .es5/templates/support.mustache:2
-msgid "Mozilla account"
-msgstr "Mozilla hesabı"
-
-#: .es5/templates/support.mustache:3
-msgid "Account Home"
-msgstr "Hesap ana sayfası"
-
-#: .es5/templates/support.mustache:4
-msgid "Subscriptions"
-msgstr "Abonelikler"
-
-#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
-msgid "Contact Us"
-msgstr "Bize ulaşın"
-
-#: .es5/templates/support.mustache:7
-msgid "What are you contacting us about?"
-msgstr "Bizimle hangi konuda iletişime geçiyorsunuz?"
-
-#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
-msgid "Please select one"
-msgstr "Lütfen birini seçin"
-
-#: .es5/templates/support.mustache:11
-msgid "What do you need help with?"
-msgstr "Ne konuda yardıma ihtiyacınız var?"
-
-#: .es5/templates/support.mustache:13
-msgid "Payment & billing"
-msgstr "Ödeme ve faturalandırma"
-
-#: .es5/templates/support.mustache:14
-msgid "Account issues"
-msgstr "Hesap sorunları"
-
-#: .es5/templates/support.mustache:15
-msgid "Technical issues"
-msgstr "Teknik sorunlar"
-
-#: .es5/templates/support.mustache:16
-msgid "Provide feedback / request features"
-msgstr "Görüş bildirme / yeni özellik talebi"
-
-#: .es5/templates/support.mustache:17
-msgid "Not listed"
-msgstr "Başka bir konu"
-
-#: .es5/templates/support.mustache:18
-msgid "Do you need help with a specific app or service? (optional)"
-msgstr "Belirli bir uygulama veya hizmetle ilgili yardıma mı ihtiyacınız var? (isteğe bağlı)"
-
-#: .es5/templates/support.mustache:20
-msgid "Subject (optional)"
-msgstr "Konu (isteğe bağlı)"
-
-#: .es5/templates/support.mustache:21
-msgid "Description of issue"
-msgstr "Sorunun açıklaması"
-
-#: .es5/templates/support.mustache:23
-msgid "Send"
-msgstr "Gönder"
-
-#: .es5/templates/support.mustache:24
-msgid "Terms of Service"
-msgstr "Hizmet Koşulları"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1826,6 +1741,10 @@ msgstr "<span class=\"number\">4</span>Hesabınıza giriş yapın"
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Neden hesap açmam gerekiyor? <a %(escapedSuggestionAttrs)s>Buradan öğrenin</a>"
 
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Mozilla m logosu"
+
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
 msgstr "“Firefox hesapları”nın adı 1 Kasım’da “Mozilla hesapları” olarak değişecek"
@@ -1902,18 +1821,6 @@ msgstr "Yaygın olarak kullanılan bir parola olmamalı"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Güvenliğinizi korumak için aynı parolayı başka yerlerde kullanmayın. <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">Kaliteli parola oluşturma</a> ipuçlarımıza da bakın."
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Sistemimizde bir sorun yaşanıyor. Ekibimiz sorunu düzeltmeye çalışıyor. Verdiğimiz rahatsızlıktan dolayı özür dileriz. Lütfen daha sonra yeniden deneyin."
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr "Mesajınız destek ekibimize gönderildi"
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
-msgstr "Aboneliklere dön"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

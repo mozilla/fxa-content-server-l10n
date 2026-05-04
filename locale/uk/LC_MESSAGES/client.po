@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 20:36+0000\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Pontoon\n"
@@ -107,18 +109,6 @@ msgstr "Невідомий обліковий запис. <a href=\"/signup\">З
 msgid "Account no longer exists. Recreate it?"
 msgstr "Обліковий запис більше не існує. Повторно створити його?"
 
-#: .es5/views/support.js:237 .es5/templates/support.mustache:10
-msgid "Other"
-msgstr "Інше"
-
-#: .es5/views/support.js:238
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "Дякуємо за звернення до підтримки Mozilla щодо <b>%(escapedLowercaseTopic)s</b>. Ми зв'яжемося з вами електронною поштою найближчим часом."
-
-#: .es5/views/support.js:240
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "Дякуємо, що звернулися до служби підтримки Mozilla стосовно <b>%(escapedLowercaseTopic)s</b> для <b>%(escapedSelectedProduct)s</b>. Ми зв’яжемося з вами електронною поштою якнайшвидше."
-
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
@@ -211,26 +201,6 @@ msgstr "Надруковано"
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr "Обліковий запис успішно підтверджено"
-
-#: .es5/models/support-form.js:23
-msgid "payment & billing"
-msgstr "оплата і виставлення рахунків"
-
-#: .es5/models/support-form.js:23
-msgid "account issues"
-msgstr "проблеми з обліковим записом"
-
-#: .es5/models/support-form.js:23
-msgid "technical issues"
-msgstr "технічні проблеми"
-
-#: .es5/models/support-form.js:23
-msgid "provide feedback / request features"
-msgstr "надіслати відгук / запит нової функції"
-
-#: .es5/models/support-form.js:23
-msgid "not listed"
-msgstr "не в переліку"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -830,7 +800,9 @@ msgid "Invalid Token"
 msgstr "Недійсний токен"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Продовжуючи, ви погоджуєтеся з <a id=\"service-tos\" href=\"%(termsUri)s\">Умовами надання послуг</a> і <a id=\"service-pp\" href=\"%(privacyUri)s\">Положенням про приватність</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -899,7 +871,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Введіть свій одноразовий ключ відновлення, щоб поновити доступ до облікового запису Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">ПРИМІТКА:</span> Якщо ви відновите пароль без ключа відновлення, деякі дані можуть бути стерті (включаючи історію перегляду й закладки)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -1103,34 +1076,43 @@ msgstr "Пароль"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Продовжуючи, ви погоджуєтеся з:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами надання послуг</a> і <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Положенням про приватність</a> Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Облікових записів Mozilla\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами надання послуг</a> і <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Положенням про приватність</a> Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Облікових записів Mozilla\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Продовжуючи, ви погоджуєтеся з:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Положенням про приватність</a><br /> Послуг передплати Mozilla\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Облікових записів Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Умовами надання послуг</a> і <a class=\"link-grey\" "
+"id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Положенням про приватність</a><br /> Послуг передплати Mozilla\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Облікових записів Mozilla\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Продовжуючи, ви погоджуєтеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"Продовжуючи, ви погоджуєтеся з <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про "
+"приватність</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1176,28 +1158,34 @@ msgstr "Обліковий запис Mozilla також відкриває до
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Продовжуючи, ви погоджуєтеся з:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами надання послуг</a> і <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Положенням про приватність</a> Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Облікових записів Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Умовами надання послуг</a> і <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Положенням про приватність</a> Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Облікових записів Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Продовжуючи, ви погоджуєтеся з:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Положенням про приватність</a><br /> Послуг передплати Mozilla\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> Облікових записів Mozilla\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Положенням про приватність</a><br /> Послуг передплати Mozilla\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Умовами надання послуг</a> і <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Положенням про приватність</a> "
+"Облікових записів Mozilla\n"
 "          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1315,11 +1303,11 @@ msgstr "%(serviceName)s хоче отримати таку інформацію 
 msgid "Accept"
 msgstr "Погодитись"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "Скасувати"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
+#: .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr "Положення про приватність"
 
@@ -1364,8 +1352,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми шифруємо"
-" дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
+"<span>ПРИМІТКА:</span> При відновленні пароля ви скидаєте свій обліковий запис. Ви можете втратити деякі особисті дані, включно з історією, закладками та паролями. Це пов'язано з тим, що ми "
+"шифруємо дані за допомогою пароля для захисту вашої приватності. Усі ваші передплати буде збережено. На дані Pocket це теж не вплине."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1502,78 +1490,6 @@ msgstr "Виберіть що синхронізувати"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Створити обліковий запис"
-
-#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Логотип m Mozilla"
-
-#: .es5/templates/support.mustache:2
-msgid "Mozilla account"
-msgstr "Обліковий запис Mozilla"
-
-#: .es5/templates/support.mustache:3
-msgid "Account Home"
-msgstr "Домівка облікового запису"
-
-#: .es5/templates/support.mustache:4
-msgid "Subscriptions"
-msgstr "Підписки"
-
-#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
-msgid "Contact Us"
-msgstr "Зв’язок з нами"
-
-#: .es5/templates/support.mustache:7
-msgid "What are you contacting us about?"
-msgstr "Яке у вас питання до нас?"
-
-#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
-msgid "Please select one"
-msgstr "Будь ласка, виберіть причину"
-
-#: .es5/templates/support.mustache:11
-msgid "What do you need help with?"
-msgstr "З чим вам потрібна допомога?"
-
-#: .es5/templates/support.mustache:13
-msgid "Payment & billing"
-msgstr "Оплата і виставлення рахунків"
-
-#: .es5/templates/support.mustache:14
-msgid "Account issues"
-msgstr "Проблеми з обліковим записом"
-
-#: .es5/templates/support.mustache:15
-msgid "Technical issues"
-msgstr "Технічні проблеми"
-
-#: .es5/templates/support.mustache:16
-msgid "Provide feedback / request features"
-msgstr "Надіслати відгук / запит нової функції"
-
-#: .es5/templates/support.mustache:17
-msgid "Not listed"
-msgstr "Не в переліку"
-
-#: .es5/templates/support.mustache:18
-msgid "Do you need help with a specific app or service? (optional)"
-msgstr "Вам потрібна допомога з певною програмою чи службою? (необов’язково)"
-
-#: .es5/templates/support.mustache:20
-msgid "Subject (optional)"
-msgstr "Тема (необов'язково)"
-
-#: .es5/templates/support.mustache:21
-msgid "Description of issue"
-msgstr "Опис проблеми"
-
-#: .es5/templates/support.mustache:23
-msgid "Send"
-msgstr "Надіслати"
-
-#: .es5/templates/support.mustache:24
-msgid "Terms of Service"
-msgstr "Умови надання послуг"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1826,6 +1742,10 @@ msgstr "<span class=\"number\">4</span>Увійдіть до вашого обл
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Навіщо потрібно створити цей обліковий запис? <a %(escapedSuggestionAttrs)s>Дізнайтеся тут</a>"
 
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Логотип m Mozilla"
+
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
 msgstr "Облікові записи Firefox буде перейменовано на облікові записи Mozilla 1 листопада"
@@ -1902,18 +1822,6 @@ msgstr "Не часто використовуваний пароль"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Будьте в безпеці &mdash; не використовуйте паролі повторно. Перегляньте додаткові поради щодо <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">створення надійних паролів</a>."
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "Хм, у нас виникли проблеми з нашою системою. Ми працюємо над виправленням і просимо вибачити за незручності. Будь ласка, спробуйте ще раз згодом."
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr "Ваше повідомлення було надіслано службі підтримки"
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
-msgstr "Повернутися до передплат"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

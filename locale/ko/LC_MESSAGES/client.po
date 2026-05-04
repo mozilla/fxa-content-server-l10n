@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-04 20:36+0000\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
@@ -107,18 +109,6 @@ msgstr "계정을 확인할 수 없습니다. <a href=\"/signup\">가입하기</
 msgid "Account no longer exists. Recreate it?"
 msgstr "계정이 더 이상 존재하지 않습니다. 다시 만드시겠습니까?"
 
-#: .es5/views/support.js:237 .es5/templates/support.mustache:10
-msgid "Other"
-msgstr "기타"
-
-#: .es5/views/support.js:238
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
-msgstr "<b>%(escapedLowercaseTopic)s</b>에 대해 Mozilla 지원팀에 문의해주셔서 감사합니다. 가능한 빨리 이메일로 연락드리겠습니다."
-
-#: .es5/views/support.js:240
-msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. We'll contact you via email as soon as possible."
-msgstr "<b>%(escapedSelectedProduct)s</b>의 <b>%(escapedLowercaseTopic)s</b>에 대해 Mozilla 지원팀에 문의 해 주셔서 감사합니다. 가능한 한 빨리 이메일로 연락 드리겠습니다."
-
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
@@ -211,26 +201,6 @@ msgstr "인쇄됨"
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
 msgstr "성공적으로 계정이 확인되었습니다"
-
-#: .es5/models/support-form.js:23
-msgid "payment & billing"
-msgstr "결제 및 청구"
-
-#: .es5/models/support-form.js:23
-msgid "account issues"
-msgstr "계정 문제"
-
-#: .es5/models/support-form.js:23
-msgid "technical issues"
-msgstr "기술 문제"
-
-#: .es5/models/support-form.js:23
-msgid "provide feedback / request features"
-msgstr "피드백 제공 / 기능 요청"
-
-#: .es5/models/support-form.js:23
-msgid "not listed"
-msgstr "목록에 없음"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -830,8 +800,12 @@ msgid "Invalid Token"
 msgstr "유효하지 않은 토큰"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주합니다."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주합"
+"니다."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -897,7 +871,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Mozilla 계정에 다시 접근하려면 안전한 장소에 저장한 일회용 계정 복구 키를 입력하세요."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr "<span class=\"note\">참고:</span> 비밀번호를 재설정하고 계정 복구 키를 저장하지 않으면, 일부 데이터가 삭제됩니다(방문기록과 북마크같은 동기화된 서버 데이터 포함)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
@@ -940,7 +915,9 @@ msgstr "새 비밀번호 생성"
 msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
+msgstr ""
+"<span>기억하세요.</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때"
+"문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -1099,13 +1076,15 @@ msgstr "비밀번호"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            계속 진행하면 다음에 대해 동의하게 됩니다:<br />\n"
-"            Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 약관</a>과 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">개인정보 보호정책</a><br />\n"
+"            Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 약관</a>과 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">개"
+"인정보 보호정책</a><br />\n"
 "            Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
 "          "
 
@@ -1113,20 +1092,25 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              계속 진행하면 다음에 대해 동의하게 됩니다.<br />\n"
-"              Mozilla 구독 서비스 <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">개인정보 보호정책</a><br />\n"
+"              Mozilla 구독 서비스 <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">서비스 약관</a> 및 <a class=\"link-"
+"grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">개인정보 보호정책</a><br />\n"
 "              Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "계속 진행하면 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>에 동의하는 것으로 간주합니다."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgstr ""
+"계속 진행하면 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>에 동의하는 것으"
+"로 간주합니다."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1172,13 +1156,15 @@ msgstr "Mozilla 계정을 사용하면 Mozilla의 더 많은 개인 정보 보�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          계속 진행하면 다음에 대해 동의하게 됩니다:<br />\n"
-"          Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 약관</a>과 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">개인정보 보호정책</a><br />\n"
+"          Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 약관</a>과 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">개인"
+"정보 보호정책</a><br />\n"
 "          Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a>과 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
 "        "
 
@@ -1186,13 +1172,15 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            계속 진행하면 다음에 동의하게 됩니다.<br />\n"
-"            Mozilla 구독 서비스의 <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">개인정보 보호정책</a>< br />\n"
+"            Mozilla 구독 서비스의 <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">서비스 약관</a> 및 <a class=\"link-"
+"grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">개인정보 보호정책</a>< br />\n"
 "            Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">개인정보 보호정책</a>\n"
 "          "
 
@@ -1311,11 +1299,11 @@ msgstr "%(serviceName)s이 당신의 계정에서 아래와 같은 정보를 요
 msgid "Accept"
 msgstr "동의"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr "취소"
 
-#: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
+#: .es5/templates/pp.mustache:1
 msgid "Privacy Notice"
 msgstr "개인정보 보호정책"
 
@@ -1359,7 +1347,9 @@ msgstr "이런 일이 왜 일어나나요?"
 msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr "<span>안내</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
+msgstr ""
+"<span>안내</span> 비밀번호를 재설정하면 계정도 재설정됩니다. 귀하의 개인 정보(기록, 북마크, 비밀번호 포함)의 일부가 손실될 수 있습니다. 개인 정보 보호를 위해 비밀번호로 데이터를 암호화하기 때문입니"
+"다. 가지고 있는 구독과 Pocket 데이터는 계속 유지됩니다."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1496,78 +1486,6 @@ msgstr "동기화할 대상 선택"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "계정 생성"
-
-#: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Mozilla m 로고"
-
-#: .es5/templates/support.mustache:2
-msgid "Mozilla account"
-msgstr "Mozilla 계정"
-
-#: .es5/templates/support.mustache:3
-msgid "Account Home"
-msgstr "계정 홈"
-
-#: .es5/templates/support.mustache:4
-msgid "Subscriptions"
-msgstr "구독"
-
-#: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
-msgid "Contact Us"
-msgstr "문의하기"
-
-#: .es5/templates/support.mustache:7
-msgid "What are you contacting us about?"
-msgstr "무엇에 대해 문의하고 계십니까?"
-
-#: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
-msgid "Please select one"
-msgstr "하나를 선택하세요"
-
-#: .es5/templates/support.mustache:11
-msgid "What do you need help with?"
-msgstr "어떤 도움이 필요 하신가요?"
-
-#: .es5/templates/support.mustache:13
-msgid "Payment & billing"
-msgstr "결제 및 청구"
-
-#: .es5/templates/support.mustache:14
-msgid "Account issues"
-msgstr "계정 문제"
-
-#: .es5/templates/support.mustache:15
-msgid "Technical issues"
-msgstr "기술 문제"
-
-#: .es5/templates/support.mustache:16
-msgid "Provide feedback / request features"
-msgstr "의견 제공/기능 요청"
-
-#: .es5/templates/support.mustache:17
-msgid "Not listed"
-msgstr "목록 추가 안함"
-
-#: .es5/templates/support.mustache:18
-msgid "Do you need help with a specific app or service? (optional)"
-msgstr "특정 앱이나 서비스에 대한 도움이 필요하십니까? (선택 사항)"
-
-#: .es5/templates/support.mustache:20
-msgid "Subject (optional)"
-msgstr "제목(선택 사항)"
-
-#: .es5/templates/support.mustache:21
-msgid "Description of issue"
-msgstr "문제에 대한 설명"
-
-#: .es5/templates/support.mustache:23
-msgid "Send"
-msgstr "보내기"
-
-#: .es5/templates/support.mustache:24
-msgid "Terms of Service"
-msgstr "서비스 약관"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1818,6 +1736,10 @@ msgstr "<span class=\"number\">4</span> 계정에 로그인"
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "계정을 생성해야 하는 이유가 궁금하신가요? <a %(escapedSuggestionAttrs)s>여기서 이유를 알아보세요</a>"
 
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr "Mozilla m 로고"
+
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
 msgstr "Firefox 계정의 명칭이 11월 1일부터 Mozilla 계정으로 변경됩니다"
@@ -1893,18 +1815,6 @@ msgstr "흔히 사용되는 비밀번호가 아니어야 합니다"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "안전을 위해 &mdash; 비밀번호를 재사용하지 마세요. <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">강력한 비밀번호를 생성</a>하는 방법에 대해 자세히 알아보세요."
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr "음, 저희 시스템에 문제가 생겼습니다. 이를 고치는 중이며 불편함을 끼쳐 죄송합니다. 나중에 다시 시도하세요."
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr "메시지가 지원 팀에 전송되었습니다"
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
-msgstr "구독으로 돌아가기"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"

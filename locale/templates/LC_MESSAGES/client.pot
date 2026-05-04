@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-04-21 22:36+0000\n"
+"POT-Creation-Date: 2026-05-04 20:36+0000\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -124,25 +124,6 @@ msgstr ""
 msgid "Account no longer exists. Recreate it?"
 msgstr ""
 
-#: .es5/views/support.js:237
-#: .es5/templates/support.mustache:10
-msgid "Other"
-msgstr ""
-
-#: .es5/views/support.js:238
-msgid ""
-"Thank you for reaching out to Mozilla Support about "
-"<b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as "
-"possible."
-msgstr ""
-
-#: .es5/views/support.js:240
-msgid ""
-"Thank you for reaching out to Mozilla Support about "
-"<b>%(escapedLowercaseTopic)s</b> for <b>%(escapedSelectedProduct)s</b>. "
-"We'll contact you via email as soon as possible."
-msgstr ""
-
 #: .es5/views/tooltip.js:75
 #: .es5/templates/partial/account-suggestion.mustache:2
 #. aria label for banner/tooltip dismiss button
@@ -245,26 +226,6 @@ msgstr ""
 #: .es5/views/behaviors/settings.js:36
 #: .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
-
-#: .es5/models/support-form.js:23
-msgid "payment & billing"
-msgstr ""
-
-#: .es5/models/support-form.js:23
-msgid "account issues"
-msgstr ""
-
-#: .es5/models/support-form.js:23
-msgid "technical issues"
-msgstr ""
-
-#: .es5/models/support-form.js:23
-msgid "provide feedback / request features"
-msgstr ""
-
-#: .es5/models/support-form.js:23
-msgid "not listed"
 msgstr ""
 
 #: .es5/models/sync-engines.js:46
@@ -1510,14 +1471,12 @@ msgid "Accept"
 msgstr ""
 
 #: .es5/templates/permissions.mustache:4
-#: .es5/templates/support.mustache:22
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:5
 #: .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
 msgstr ""
 
 #: .es5/templates/pp.mustache:1
-#: .es5/templates/support.mustache:25
 msgid "Privacy Notice"
 msgstr ""
 
@@ -1725,82 +1684,6 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
-msgstr ""
-
-#: .es5/templates/support.mustache:1
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr ""
-
-#: .es5/templates/support.mustache:2
-msgid "Mozilla account"
-msgstr ""
-
-#: .es5/templates/support.mustache:3
-msgid "Account Home"
-msgstr ""
-
-#: .es5/templates/support.mustache:4
-msgid "Subscriptions"
-msgstr ""
-
-#: .es5/templates/support.mustache:5
-#: .es5/templates/support.mustache:6
-msgid "Contact Us"
-msgstr ""
-
-#: .es5/templates/support.mustache:7
-msgid "What are you contacting us about?"
-msgstr ""
-
-#: .es5/templates/support.mustache:8
-#: .es5/templates/support.mustache:12
-#: .es5/templates/support.mustache:19
-msgid "Please select one"
-msgstr ""
-
-#: .es5/templates/support.mustache:11
-msgid "What do you need help with?"
-msgstr ""
-
-#: .es5/templates/support.mustache:13
-msgid "Payment & billing"
-msgstr ""
-
-#: .es5/templates/support.mustache:14
-msgid "Account issues"
-msgstr ""
-
-#: .es5/templates/support.mustache:15
-msgid "Technical issues"
-msgstr ""
-
-#: .es5/templates/support.mustache:16
-msgid "Provide feedback / request features"
-msgstr ""
-
-#: .es5/templates/support.mustache:17
-msgid "Not listed"
-msgstr ""
-
-#: .es5/templates/support.mustache:18
-msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
-
-#: .es5/templates/support.mustache:20
-msgid "Subject (optional)"
-msgstr ""
-
-#: .es5/templates/support.mustache:21
-msgid "Description of issue"
-msgstr ""
-
-#: .es5/templates/support.mustache:23
-msgid "Send"
-msgstr ""
-
-#: .es5/templates/support.mustache:24
-msgid "Terms of Service"
 msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
@@ -2086,6 +1969,10 @@ msgid ""
 "out here</a>"
 msgstr ""
 
+#: .es5/templates/partial/brand-messaging.mustache:1
+msgid "Mozilla m logo"
+msgstr ""
+
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
 msgstr ""
@@ -2173,20 +2060,6 @@ msgid ""
 "Stay safe &mdash; don’t reuse passwords. See more tips to <a "
 "%(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong "
 "passwords</a>."
-msgstr ""
-
-#: .es5/templates/partial/support-form-error.mustache:1
-msgid ""
-"Hmm, we're having trouble with our system. We're working on fixing it for "
-"you and apologize for the inconvenience. Please try again later."
-msgstr ""
-
-#: .es5/templates/partial/support-form-success.mustache:1
-msgid "Your message was sent to Support"
-msgstr ""
-
-#: .es5/templates/partial/support-form-success.mustache:2
-msgid "Back to Subscriptions"
 msgstr ""
 
 #: .es5/templates/partial/third-party-auth.mustache:1
