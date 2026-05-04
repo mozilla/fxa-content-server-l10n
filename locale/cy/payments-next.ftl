@@ -372,9 +372,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Gweld anfoneb
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Gweld anfoneb { $productName }
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Daeth eich profi am ddim i ben ar <bold>{ $date }</bold>. Doedden ni ddim yn gallu prosesu eich taliad i gychwyn eich tanysgrifiad. Diweddarwch eich dull talu i gychwyn eich tanysgrifiad ac adfer mynediad i'ch gwasanaethau.
-free-trial-content-payment-failed-no-date = Doedden ni ddim yn gallu prosesu eich taliad i gychwyn eich tanysgrifiad. Diweddarwch eich dull talu i gychwyn eich tanysgrifiad ac adfer mynediad i'ch gwasanaethau.
 free-trial-content-button-update-payment = Diweddaru'r dull talu
 
 # Component - Header

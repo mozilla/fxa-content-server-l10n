@@ -377,9 +377,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Zličbowanku wobhladać
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Zličbowanku za { $productName } wobhladać
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Waš darmotny testo-wy čas je so <bold>{ $date }</bold> skónčił. Njemóžachmy waše płaćenje předźěłać, zo bychmy waš abonement započeli. Prošu aktualizujće swoju płaćensku metodu, zo byšće swój abonement aktiwizował a přistup k swojim słužbam wobnowił.
-free-trial-content-payment-failed-no-date = Njemóžachmy waše płaćenje předźěłać, zo bychmy waš abonement započeli. Prošu aktualizujće swoju płaćensku metodu, zo byšće swój abonement aktiwizował a přistup k swojim słužbam wobnowił.
 free-trial-content-button-update-payment = Płaćensku metodu aktualizować
 
 # Component - Header

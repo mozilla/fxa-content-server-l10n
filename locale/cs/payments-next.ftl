@@ -372,9 +372,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Zobrazit fakturu
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Zobrazit fakturu za { $productName }
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Vaše bezplatná zkušební verze skončila dne <bold>{ $date }</bold>. Nepodařilo se nám zpracovat vaši platbu za účelem zahájení předplatného. Aktualizujte prosím svůj způsob platby, abyste předplatné aktivovali a obnovili přístup ke službám.
-free-trial-content-payment-failed-no-date = Vaši platbu se nám nepodařilo zpracovat, a proto nebylo možné předplatné aktivovat. Aktualizujte prosím způsob platby, abyste předplatné aktivovali a obnovili přístup ke službám.
 free-trial-content-button-update-payment = Aktualizovat platební metodu
 
 # Component - Header

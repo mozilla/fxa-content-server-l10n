@@ -374,9 +374,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Ehecha kuatiañemure
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Ehecha kuatiañemure { $productName }
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Nde jeporu reigua opáma og̃uahẽvo <bold>{ $date }</bold>. Ndaikatúi rombohape nde jehepyme’ẽ romboheraguapy hag̃ua. Embohekopyahu nde jehepyme’ẽrã emyandy hag̃ua ne ñemboheraguapy ha eike jey hag̃ua ne mba’eporuitápe.
-free-trial-content-payment-failed-no-date = Ndaikatúikuri rombohape nde jehepyme’ẽ romboheraguapy hag̃ua. Embohekopyahu ne jehepyme’ẽrã emyandy hag̃ua ne ñemboheraguapy ha eike jey hag̃ua ne mba’eporuitápe.
 free-trial-content-button-update-payment = Embohekopyahu nde jehepyme’ẽrã
 
 # Component - Header

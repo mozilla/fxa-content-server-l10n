@@ -372,9 +372,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Xem hoá đơn
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Xem hoá đơn cho { $productName }
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Dùng thử miễn phí của bạn sẽ kết thúc vào <bold>{ $date }</bold>. Chúng tôi không thể xử lý thanh toán để bắt đầu gói đăng ký của bạn. Vui lòng cập nhật phương thức thanh toán để kích hoạt gói đăng ký và khôi phục quyền truy cập vào dịch vụ.
-free-trial-content-payment-failed-no-date = Chúng tôi không thể xử lý thanh toán để bắt đầu gói đăng ký của bạn. Vui lòng cập nhật phương thức thanh toán để kích hoạt gói đăng ký và khôi phục quyền truy cập vào dịch vụ.
 free-trial-content-button-update-payment = Cập nhật phương thức thanh toán
 
 # Component - Header

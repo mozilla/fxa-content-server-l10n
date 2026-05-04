@@ -372,9 +372,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Voir la facture
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Voir la facture pour { $productName }
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Votre essai gratuit a pris fin le <bold>{ $date }</bold>. Nous n’avons pas pu traiter votre paiement pour démarrer votre abonnement. Veuillez mettre à jour votre moyen de paiement pour activer votre abonnement et rétablir l’accès à vos services.
-free-trial-content-payment-failed-no-date = Nous n’avons pas pu traiter votre paiement pour démarrer votre abonnement. Veuillez mettre à jour votre moyen de paiement pour activer votre abonnement et rétablir l’accès à vos services.
 free-trial-content-button-update-payment = Mettre à jour le moyen de paiement
 
 # Component - Header

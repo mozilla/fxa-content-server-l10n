@@ -374,9 +374,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Számla megtekintése
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = { $productName } számla megtekintése
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Az ingyenes próbaidőszak ekkor ért véget: <bold>{ $date }</bold>. Nem tudtuk feldolgozni az előfizetésének elindításához szükséges befizetését. Frissítse a fizetési módot az előfizetés aktiválásához, és a szolgáltatásokhoz való hozzáférés helyreállításához.
-free-trial-content-payment-failed-no-date = Nem tudtuk feldolgozni az előfizetésének elindításához szükséges befizetését. Frissítse a fizetési módot az előfizetés aktiválásához, és a szolgáltatásokhoz való hozzáférés helyreállításához.
 free-trial-content-button-update-payment = Fizetési mód frissítése
 
 # Component - Header

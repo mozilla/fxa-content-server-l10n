@@ -372,9 +372,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = 檢視請款單
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = 檢視 { $productName } 的請款單
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = 您的免費試用期間已於 <bold>{ $date }</bold> 結束。我們無法處理您的付款方式以為您啟動訂閱。請更新付款方式以啟動訂閱，並恢復服務的使用權。
-free-trial-content-payment-failed-no-date = 我們無法處理您的付款方式以為您啟動訂閱。請更新付款方式以啟動訂閱，並恢復服務的使用權。
 free-trial-content-button-update-payment = 更新付款方式
 
 # Component - Header

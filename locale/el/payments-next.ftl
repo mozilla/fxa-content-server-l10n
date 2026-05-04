@@ -372,9 +372,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Προβολή παραστατικού
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Προβολή παραστατικού για το { $productName }
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Η δωρεάν δοκιμαστική περίοδος έληξε στις <bold>{ $date }</bold>. Δεν ήταν δυνατή η επεξεργασία της πληρωμής σας για να ξεκινήσει η συνδρομή σας. Ενημερώστε τη μέθοδο πληρωμής σας για να ενεργοποιήσετε τη συνδρομή σας και να ανακτήσετε την πρόσβαση στις υπηρεσίες σας.
-free-trial-content-payment-failed-no-date = Δεν ήταν δυνατή η επεξεργασία της πληρωμής σας για να ξεκινήσει η συνδρομή σας. Ενημερώστε τη μέθοδο πληρωμής σας για να ενεργοποιήσετε τη συνδρομή σας και να ανακτήσετε την πρόσβαση στις υπηρεσίες σας.
 free-trial-content-button-update-payment = Ενημέρωση μεθόδου πληρωμής
 
 # Component - Header

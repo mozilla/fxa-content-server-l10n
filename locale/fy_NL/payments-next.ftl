@@ -372,9 +372,6 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Faktuer besjen
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Faktuer foar { $productName } besjen
-# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-payment-failed = Jo fergeze proefperioade is einige op <bold>{ $date }</bold>. Wy koene jo betelling net ferwurkje om jo abonnemint te starten. Wurkje jo betellingsmetoade by om jo abonnemint te aktivearjen en de tagong ta jo tsjinsten te werstellen.
-free-trial-content-payment-failed-no-date = Wy koene jo betelling net ferwurkje om jo abonnemint te starten. Wurkje jo betellingsmetoade by om jo abonnemint te aktivearjen en de tagong ta jo tsjinsten te werstellen.
 free-trial-content-button-update-payment = Betellingsmetoade bywurkje
 
 # Component - Header
