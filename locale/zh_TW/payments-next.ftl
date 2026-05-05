@@ -374,6 +374,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = 檢視請款單
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = 檢視 { $productName } 的請款單
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = 您的免費試用已於 <bold>{ $date }</bold> 結束。
+free-trial-content-could-not-process-payment = 無法處理您的付款，請更新付款方式以恢復使用權限。視銀行或付款方式而定，處理過程可能需要最多 24 小時。
 free-trial-content-button-update-payment = 更新付款方式
 
 # Component - Header
@@ -707,6 +710,7 @@ manage-payment-method-intent-error-try-again = 取得款項授權時發生問題
 manage-payment-method-intent-error-get-in-touch = 取得款項授權時發生問題，請與您的發卡單位聯繫。
 manage-payment-method-intent-error-insufficient-funds = 您的卡片額度不足，請改用其他卡片。
 manage-payment-method-intent-error-generic = 處理付款時發生未知錯誤，請再試一次。
+manage-payment-method-tax-address-required = 無法偵測您的帳務所在地點，請確認您的付款方式正確後再試一次。
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
