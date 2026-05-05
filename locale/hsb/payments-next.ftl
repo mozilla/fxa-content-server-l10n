@@ -363,6 +363,8 @@ free-trial-content-button-resume-trial = Z testowym časom pokročować
 free-trial-content-button-resume-trial-aria = Z testowym časom za { $productName } pokročować
 free-trial-content-button-cancel-trial = Testowy čas wupowědźić
 free-trial-content-button-cancel-trial-aria = Testowy čas za { $productName } wupowědźić
+free-trial-content-button-cancel-subscription = Abonement wupowědźić
+free-trial-content-button-cancel-subscription-aria = Abonement za { $productName } wupowědźić
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -377,6 +379,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Zličbowanku wobhladać
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Zličbowanku za { $productName } wobhladać
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Waš darmotny test je <bold>{ $date }</bold> spadnył.
+free-trial-content-could-not-process-payment = Njemóžachmy waše płaćenje předźěłać. Aktualizujće swoju płaćensku metodu, zo byšće přistup wobnowił. Předźěłanje móže do 24 hodźin trać a móže po bance abo płaćenskej metodźe wariěrować.
 free-trial-content-button-update-payment = Płaćensku metodu aktualizować
 
 # Component - Header
