@@ -358,8 +358,8 @@ free-trial-content-button-resume-trial = Ailddechrau'r profi
 free-trial-content-button-resume-trial-aria = Ailddechrau'r profi am { $productName }
 free-trial-content-button-cancel-trial = Diddymu'r profi
 free-trial-content-button-cancel-trial-aria = Diddymu profi { $productName }
-free-trial-content-button-cancel-subscription = Canslo tanysgrifiad
-free-trial-content-button-cancel-subscription-aria = Canslo tanysgrifiad am { $productName }
+free-trial-content-button-cancel-subscription = Gorffen y tanysgrifiad
+free-trial-content-button-cancel-subscription-aria = Gorffen y tanysgrifiad am { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -375,8 +375,8 @@ free-trial-content-link-view-invoice = Gweld anfoneb
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Gweld anfoneb { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-trial-ended = Daeth eich treial am ddim i ben ar <bold>{ $date }</bold>.
-free-trial-content-could-not-process-payment = Ni allem brosesu eich taliad. Diweddarwch eich dull talu i adfer mynediad. Gall prosesu gymryd hyd at 24 awr a gall amrywio yn ôl banc neu ddull talu.
+free-trial-content-trial-ended = Daeth eich profi am ddim i ben ar <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Doedd dim modd brosesu eich taliad. Diweddarwch eich dull talu i adfer mynediad. Gall prosesu gymryd hyd at 24 awr a gall amrywio yn ôl banc neu ddull talu.
 free-trial-content-button-update-payment = Diweddaru'r dull talu
 
 # Component - Header
@@ -726,7 +726,7 @@ manage-payment-method-intent-error-try-again = Hmm. Roedd anhawster wrth  awdurd
 manage-payment-method-intent-error-get-in-touch = Hmm. Roedd anhawster wrth  awdurdodi'ch taliad. Cysylltwch â chyhoeddwr eich cerdyn.
 manage-payment-method-intent-error-insufficient-funds = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
 manage-payment-method-intent-error-generic = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
-manage-payment-method-tax-address-required = Ni allem bennu eich lleoliad bilio. Gwiriwch wybodaeth eich dull talu a rhowch gynnig arall arni.
+manage-payment-method-tax-address-required = Doedd dim modd ganfod eich lleoliad bilio. Gwiriwch fanylion eich dull talu a rhowch gynnig arall arni.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
