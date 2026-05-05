@@ -1324,7 +1324,7 @@ tfa-row-action-change = Změnit
 tfa-row-button-refresh =
     .title = Obnovit nastavení dvoufázového ověřování
 tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.
-tfa-row-enabled-description = Váš účet je chráněn dvoufázovým ověřováním. Při přihlašování k účtu { -product-mozilla-account } musíte zadat jednorázový přístupový kód z ověřovací aplikace.
+tfa-row-enabled-description = Váš účet je chráněn dvoufázovým ověřováním. Při přihlašování se do účtu { -product-mozilla-account } musíte zadat jednorázový přístupový kód z ověřovací aplikace.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Jak to chrání váš účet
