@@ -378,6 +378,7 @@ free-trial-content-link-view-invoice = Ehecha kuatiañemure
 free-trial-content-link-view-invoice-aria = Ehecha kuatiañemure { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = Nde jeporu rei opa ohupytývo <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Ndaikatúi romongu’e nde jehepyme’ẽrã. Embopyahu nde jehepyme’ẽrã eike jey hag̃ua. Pe ñemongu’e ohupytykuaa 24 aravo ha iñambuekuaa banco térã nde jehepyme’ẽrãme.
 free-trial-content-button-update-payment = Embohekopyahu nde jehepyme’ẽrã
 
 # Component - Header

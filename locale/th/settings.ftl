@@ -292,6 +292,9 @@ recovery-phone-code-image-description =
     .aria-label = รหัสที่ได้รับบนอุปกรณ์มือถือ
 confetti-falling-image-aria-label =
     .aria-label = ภาพเคลื่อนไหวของเศษกระดาษสีที่โปรยปราย
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = หน้าต่าง { -brand-firefox } ที่มีตราวงกลมแสดงเครื่องหมายถูกสีเขียวและคำว่า "VPN" ซึ่งแสดงว่า VPN เปิดใช้งานอยู่
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
