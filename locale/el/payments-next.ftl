@@ -376,6 +376,7 @@ free-trial-content-link-view-invoice = Προβολή παραστατικού
 free-trial-content-link-view-invoice-aria = Προβολή παραστατικού για το { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = Η δωρεάν δοκιμαστική περίοδος έληξε στις <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Δεν ήταν δυνατή η επεξεργασία της πληρωμής σας. Ενημερώστε τη μέθοδο πληρωμής σας για να ανακτήσετε την πρόσβαση. Η επεξεργασία μπορεί να διαρκέσει έως και 24 ώρες και ενδέχεται να διαφέρει ανάλογα με την τράπεζα ή τη μέθοδο πληρωμής.
 free-trial-content-button-update-payment = Ενημέρωση μεθόδου πληρωμής
 
 # Component - Header
@@ -717,6 +718,7 @@ manage-payment-method-intent-error-try-again = Προέκυψε πρόβλημα
 manage-payment-method-intent-error-get-in-touch = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
 manage-payment-method-intent-error-insufficient-funds = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκές υπόλοιπο. Δοκιμάστε μια άλλη κάρτα.
 manage-payment-method-intent-error-generic = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
+manage-payment-method-tax-address-required = Δεν ήταν δυνατός ο προσδιορισμός της τοποθεσίας χρέωσής σας. Επαληθεύστε τα στοιχεία της μεθόδου πληρωμής σας και δοκιμάστε ξανά.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
