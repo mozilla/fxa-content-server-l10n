@@ -360,6 +360,8 @@ free-trial-content-button-resume-trial = Eiporukuaa jey
 free-trial-content-button-resume-trial-aria = Eiporu jey { $productName }-pe g̃uarã
 free-trial-content-button-cancel-trial = Ejoko pe jeporu
 free-trial-content-button-cancel-trial-aria = Ani eiporu { $productName } rehegua
+free-trial-content-button-cancel-subscription = Eheja ñemboheraguapy
+free-trial-content-button-cancel-subscription-aria = Eheja ñemboheraguapy { $productName }-pe g̃uarã
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -374,6 +376,8 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Ehecha kuatiañemure
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Ehecha kuatiañemure { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Nde jeporu rei opa ohupytývo <bold>{ $date }</bold>.
 free-trial-content-button-update-payment = Embohekopyahu nde jehepyme’ẽrã
 
 # Component - Header
@@ -715,6 +719,7 @@ manage-payment-method-intent-error-try-again = Épa. Oiko apañuái ehepyme’�
 manage-payment-method-intent-error-get-in-touch = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽhare ndive.
 manage-payment-method-intent-error-insufficient-funds = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
 manage-payment-method-intent-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperireve.
+manage-payment-method-tax-address-required = Ndorojuhúi ne rendaite ehepyme’ẽ hag̃ua. Ikatu ehecha jey ne marandu ehepyme’ẽ hag̃ua ha eha’ã jey ag̃ave.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
