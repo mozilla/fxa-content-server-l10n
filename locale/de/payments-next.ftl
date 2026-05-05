@@ -375,7 +375,7 @@ free-trial-content-link-view-invoice = Rechnung ansehen
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Rechnung für { $productName } ansehen
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-trial-ended = Ihre kostenlose Testversion endete am <bold>{ $date }</bold>.
+free-trial-content-trial-ended = Ihr kostenloser Test endete am <bold>{ $date }</bold>.
 free-trial-content-could-not-process-payment = Wir konnten Ihre Zahlung nicht verarbeiten. Aktualisieren Sie Ihre Zahlungsmethode, um den Zugriff wiederherzustellen. Die Bearbeitung kann bis zu 24 Stunden dauern und je nach Bank oder Zahlungsmethode unterschiedlich sein.
 free-trial-content-button-update-payment = Zahlungsmethode aktualisieren
 
