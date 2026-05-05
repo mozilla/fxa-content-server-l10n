@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = ทดลองใช้ต่อ
 free-trial-content-button-resume-trial-aria = ทดลองใช้ { $productName } ต่อ
 free-trial-content-button-cancel-trial = ยกเลิกการทดลองใช้
 free-trial-content-button-cancel-trial-aria = ยกเลิกการทดลองใช้ { $productName }
+free-trial-content-button-cancel-subscription = ยกเลิกการสมัครสมาชิก
+free-trial-content-button-cancel-subscription-aria = ยกเลิกการสมัครสมาชิกสำหรับ { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,8 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = ดูใบแจ้งหนี้
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = ดูใบแจ้งหนี้สำหรับ { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = การทดลองใช้ฟรีจะสิ้นสุดลงในวันที่ <bold>{ $date }</bold>
 free-trial-content-button-update-payment = อัปเดตวิธีชำระเงิน
 
 # Component - Header
