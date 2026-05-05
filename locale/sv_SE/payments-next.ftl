@@ -376,7 +376,7 @@ free-trial-content-link-view-invoice = Visa faktura
 free-trial-content-link-view-invoice-aria = Visa faktura för { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = Din kostnadsfria provperiod upphörde den <bold>{ $date }</bold>.
-free-trial-content-could-not-process-payment = Vi kunde inte behandla din betalning. Uppdatera din betalningsmetod för att återställa åtkomst. Behandlingen kan ta upp till 24 timmar och kan variera beroende på bank eller betalningsmetod.
+free-trial-content-could-not-process-payment = Vi kunde inte behandla din betalning. Uppdatera din betalningsmetod för att återställa åtkomsten. Bearbetningen kan ta upp till 24 timmar och kan variera beroende på bank eller betalningsmetod.
 free-trial-content-button-update-payment = Uppdatera betalningsmetod
 
 # Component - Header
@@ -718,7 +718,7 @@ manage-payment-method-intent-error-try-again = Hmm. Det gick inte att godkänna 
 manage-payment-method-intent-error-get-in-touch = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med din kortutgivare.
 manage-payment-method-intent-error-insufficient-funds = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova ett annat kort.
 manage-payment-method-intent-error-generic = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
-manage-payment-method-tax-address-required = Vi kunde inte bestämma din faktureringsplats. Vänligen kontrollera din information om betalningssätt och försök igen.
+manage-payment-method-tax-address-required = Vi kunde inte fastställa din faktureringsplats. Kontrollera din information om betalningsmetod och försök igen.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
