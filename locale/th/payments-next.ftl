@@ -376,6 +376,7 @@ free-trial-content-link-view-invoice = ดูใบแจ้งหนี้
 free-trial-content-link-view-invoice-aria = ดูใบแจ้งหนี้สำหรับ { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = การทดลองใช้ฟรีจะสิ้นสุดลงในวันที่ <bold>{ $date }</bold>
+free-trial-content-could-not-process-payment = ไม่สามารถดำเนินการชำระเงินของคุณได้ โปรดอัปเดตวิธีชำระเงินของคุณเพื่อกู้คืนสิทธิ์การเข้าถึง การดำเนินการอาจใช้เวลาถึง 24 ชั่วโมง โดยขึ้นอยู่กับธนาคารหรือวิธีชำระเงิน
 free-trial-content-button-update-payment = อัปเดตวิธีชำระเงิน
 
 # Component - Header
