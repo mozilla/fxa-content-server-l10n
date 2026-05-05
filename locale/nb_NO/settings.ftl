@@ -1633,6 +1633,9 @@ pair-wait-for-supp-heading-text = Godkjenning kreves nå <span>fra den andre enh
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Enhetsparing mislyktes
+pair-failure-message-v2 = Konfigurasjonen kunne ikke fullføres. Logg inn med e-postadressen din.
 pair-failure-try-again-link = Prøv igjen
 
 ## Pair index page
@@ -1660,10 +1663,14 @@ pair-qr-code-aria-label = QR-kode
 pair-choice-subheader = Synkroniser { -brand-firefox }-opplevelsen din
 # Description shown on the choice screen
 pair-choice-description = Se lagrede passord, faner, nettleserhistorikk og mer — på tvers av alle enhetene dine.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Last ned eller åpne { -brand-firefox } på enheten du vil sende faner til
 # Legend for the radio button fieldset
 pair-choice-legend = Velg et alternativ for å fortsette:
 # Radio option: user already has Firefox for mobile — title
 pair-choice-has-mobile-title = Jeg har allerede { -brand-firefox } for mobil
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Start synkroniseringen din nå hvis du allerede har { -brand-firefox } på mobilenheten din.
 # Radio option: user does not have Firefox for mobile — title
 pair-choice-needs-mobile-title = Jeg har ikke { -brand-firefox } for mobil
 # Radio option: user does not have Firefox for mobile — description

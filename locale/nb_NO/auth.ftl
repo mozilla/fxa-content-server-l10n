@@ -386,6 +386,9 @@ subscriptionReactivation-freeTrial-subject = Ditt prøveabonnement på { $produc
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Takk for at du reaktiverte abonnementet på { $productName }!
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = Takk for at du reaktiverte prøveperioden din for { $productName }!
+# Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Faktureringssyklusen og betalingen din vil forbli den samme. Din neste betaling vil være på { $invoiceTotal } den { $nextInvoiceDateOnly }. Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å kansellere.

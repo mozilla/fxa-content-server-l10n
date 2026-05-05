@@ -63,6 +63,7 @@ checkout-error-contact-support = Ta kontakt med kundestøtte slik at vi kan hjel
 cart-error-currency-not-determined = Vi klarte ikke å bestemme valutaen for dette kjøpet. Prøv på nytt.
 checkout-processing-general-error = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
 cart-total-mismatch-error = Fakturabeløpet er endret. Prøv på nytt.
+cart-free-trial-mismatch-error = Din rett til gratis prøveperiode er endret. Prøv på nytt.
 
 ## Error pages - Payment method failure messages
 
@@ -74,6 +75,7 @@ intent-payment-error-generic = Det oppstod en uventet feil under behandlingen av
 intent-payment-error-insufficient-funds = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
 general-paypal-error = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
 paypal-active-subscription-no-billing-agreement-error = Det ser ut til at det oppstod et problem med faktureringen av { -brand-paypal }-kontoen din. Aktiver automatisk betalinger for abonnementet ditt på nytt.
+new-account-prepaid-card-free-trial-not-allowed = Forhåndsbetalte kort kan ikke brukes til å starte en gratis prøveperiode på nye kontoer. Prøv en annen betalingsmåte.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

@@ -381,6 +381,7 @@ free-trial-content-link-view-invoice = Zliceńku se woglědaś
 free-trial-content-link-view-invoice-aria = Zliceńku za { $productName } se woglědaś
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = Waš dermotny test jo spadnuł <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Njejsmy mógli wašo płaśenje pśeźěłaś. Aktualizěrujśo swóju płaśeńsku metodu, aby pśistup wótnowił. Pśeźěłanje móžo do 24 góźin traś a móžo pó bance abo płaśeńskej metoźe wariěrowaś.
 free-trial-content-button-update-payment = Płaśeńsku metodu aktualizěrowaś
 
 # Component - Header
@@ -726,6 +727,7 @@ manage-payment-method-intent-error-try-again = Hmm. Pśi awtorizěrowanju wašog
 manage-payment-method-intent-error-get-in-touch = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Stajśo se z wudawarjom swójeje kórty do zwiska.
 manage-payment-method-intent-error-insufficient-funds = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 manage-payment-method-intent-error-generic = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
+manage-payment-method-tax-address-required = Njejsmy mógli waše wótliceńske stojnišćo zwěsćiś. Pšosym pśeglědujśo informacije swójeje płaśeńskeje metody a wopytajśo hyšći raz.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
