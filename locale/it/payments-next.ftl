@@ -376,7 +376,7 @@ free-trial-content-link-view-invoice = Visualizza fattura
 free-trial-content-link-view-invoice-aria = Visualizza fattura per { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = La tua prova gratuita è terminata il <bold>{ $date }</bold>.
-free-trial-content-could-not-process-payment = Impossibile elaborare il pagamento. Aggiorna il metodo di pagamento per ripristinare l’accesso. L’elaborazione può richiedere fino a 24 ore e può variare in base alla banca o al metodo di pagamento.
+free-trial-content-could-not-process-payment = Non siamo riusciti a elaborare il tuo pagamento. Aggiorna il metodo di pagamento per riottenere l’accesso. L’elaborazione può richiedere fino a 24 ore e i tempi possono variare a seconda della banca o del metodo utilizzato.
 free-trial-content-button-update-payment = Aggiorna metodo di pagamento
 
 # Component - Header
@@ -718,7 +718,7 @@ manage-payment-method-intent-error-try-again = Uhm… Si è verificato un proble
 manage-payment-method-intent-error-get-in-touch = Uhm… Si è verificato un problema durante l’autorizzazione del pagamento. Contatta l’emittente della carta.
 manage-payment-method-intent-error-insufficient-funds = Questa carta non dispone di credito sufficiente. Prova con un’altra carta.
 manage-payment-method-intent-error-generic = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
-manage-payment-method-tax-address-required = Non è stato possibile determinare la località di fatturazione. Verificare le informazioni relative al metodo di pagamento e riprovare.
+manage-payment-method-tax-address-required = Non è stato possibile determinare la località di fatturazione. Verifica le informazioni relative al metodo di pagamento e riprova.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
