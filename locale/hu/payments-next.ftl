@@ -361,7 +361,7 @@ free-trial-content-button-resume-trial-aria = Próbaidőszak folytatása: { $pro
 free-trial-content-button-cancel-trial = Próbaidőszak lemondása
 free-trial-content-button-cancel-trial-aria = Próbaidőszak lemondása: { $productName }
 free-trial-content-button-cancel-subscription = Előfizetés lemondása
-free-trial-content-button-cancel-subscription-aria = Előfizetés megszüntetése ennyiért: { $productName }
+free-trial-content-button-cancel-subscription-aria = { $productName } előfizetés lemondása
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
