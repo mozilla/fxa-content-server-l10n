@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = Pokračovať v skúšobnej verzii
 free-trial-content-button-resume-trial-aria = Obnoviť skúšobnú verziu pre produkt { $productName }
 free-trial-content-button-cancel-trial = Zrušiť skúšobnú verziu
 free-trial-content-button-cancel-trial-aria = Zrušiť skúšobnú verziu pre produkt { $productName }
+free-trial-content-button-cancel-subscription = Zrušiť predplatné
+free-trial-content-button-cancel-subscription-aria = Zrušiť predplatné pre { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Zobraziť faktúru
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Zobraziť faktúru za { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Vaša bezplatná skúšobná doba skončila dňa <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Vašu platbu sa nepodarilo spracovať. Aktualizujte spôsob platby, aby ste obnovili prístup. Spracovanie môže trvať až 24 hodín a môže sa líšiť v závislosti od banky alebo spôsobu platby.
 free-trial-content-button-update-payment = Aktualizovať spôsob platby
 
 # Component - Header
@@ -717,6 +722,7 @@ manage-payment-method-intent-error-try-again = Hmm. Pri autorizácii vašej plat
 manage-payment-method-intent-error-get-in-touch = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obráťte sa na vydavateľa karty.
 manage-payment-method-intent-error-insufficient-funds = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
 manage-payment-method-intent-error-generic = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
+manage-payment-method-tax-address-required = Nepodarilo sa nám určiť miesto vašej fakturácie. Overte si informácie o spôsobe platby a skúste to znova.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)

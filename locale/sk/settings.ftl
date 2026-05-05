@@ -1447,6 +1447,10 @@ oauth-error-1000 = Niečo sa pokazilo. Prosím, zatvorte túto kartu a skúste t
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Nastavenie prístupového kľúča zlyhalo alebo nie je k dispozícii. Skúste to znova alebo vyberte inú metódu.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Nastavenie prístupového kľúča nie je s týmto zariadením k dispozícii. Zariadenie už bolo zaregistrované alebo bol proces nastavenia zrušený.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavenie prístupového kľúča bolo zrušené. Skúste to znova.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1466,6 +1470,8 @@ passkey-registration-error-unexpected = Nastavenie prístupového kľúča zlyha
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Prihlásenie pomocou prístupového kľúča zlyhalo alebo nie je k dispozícii. Skúste to znova alebo vyberte inú metódu.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Nastavenie prístupového kľúča nie je s týmto zariadením k dispozícii. Skúste to znova alebo vyberte iný spôsob.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Časový limit žiadosti o prístupový kľúč vypršal. Skúste to znova.
 # Browser or platform does not support passkeys
