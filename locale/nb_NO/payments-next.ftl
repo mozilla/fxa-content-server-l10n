@@ -376,6 +376,7 @@ free-trial-content-link-view-invoice = Vis faktura
 free-trial-content-link-view-invoice-aria = Vis faktura for { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = Din gratis prøveperiode ble avsluttet <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Vi kunne ikke behandle betalingen din. Oppdater betalingsmåten din for å gjenopprette tilgangen. Behandlingen kan ta opptil 24 timer og kan variere etter bank eller betalingsmåte.
 free-trial-content-button-update-payment = Oppdater betalingsmåte
 
 # Component - Header
@@ -715,6 +716,7 @@ manage-payment-method-intent-error-try-again = Hmm. Det oppstod et problem med �
 manage-payment-method-intent-error-get-in-touch = Hmm. Det oppstod et problem med å godkjenne betalingen din. Ta kontakt med kortutstederen din.
 manage-payment-method-intent-error-insufficient-funds = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
 manage-payment-method-intent-error-generic = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
+manage-payment-method-tax-address-required = Vi kunne ikke fastslå faktureringsadressen din. Kontroller betalingsinformasjonen din og prøv igjen.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
