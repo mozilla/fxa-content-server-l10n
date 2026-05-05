@@ -378,6 +378,7 @@ free-trial-content-link-view-invoice = Vider le factura
 free-trial-content-link-view-invoice-aria = Vider le factura pro { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = Tu prova gratuite expirava le <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Impossibile tractar tu pagamento. Actualisa tu methodo de pagamento pro restaurar le accesso. Le tractamento pote prender usque 24 horas e pote variar per banca o methodo de pagamento.
 free-trial-content-button-update-payment = Actualisar methodo de pagamento
 
 # Component - Header
@@ -719,6 +720,7 @@ manage-payment-method-intent-error-try-again = Hmm. Il habeva un problema durant
 manage-payment-method-intent-error-get-in-touch = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Contacta tu emissor de carta.
 manage-payment-method-intent-error-insufficient-funds = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 manage-payment-method-intent-error-generic = Un error impreviste ha occurrite durante le elaboration de tu pagamento, retenta.
+manage-payment-method-tax-address-required = Impossibile definir tu position de facturation. Verifica le informationes de tu methodo de pagamento e retenta.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
