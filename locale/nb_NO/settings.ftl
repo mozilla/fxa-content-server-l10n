@@ -1596,6 +1596,14 @@ pair-auth-complete-sync-benefits-text = Nå kan du få tilgang til åpne faner, 
 pair-auth-complete-see-tabs-button = Se faner fra synkroniserte enheter
 pair-auth-complete-manage-devices-link = Behandle enheter
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Du er klar til å sende noen faner
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } for { $deviceOS } er tilkoblet.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1651,6 +1659,14 @@ pair-qr-code-aria-label = QR-kode
 pair-choice-subheader = Synkroniser { -brand-firefox }-opplevelsen din
 # Description shown on the choice screen
 pair-choice-description = Se lagrede passord, faner, nettleserhistorikk og mer — på tvers av alle enhetene dine.
+# Legend for the radio button fieldset
+pair-choice-legend = Velg et alternativ for å fortsette:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Jeg har allerede { -brand-firefox } for mobil
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Jeg har ikke { -brand-firefox } for mobil
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Last ned { -brand-firefox } på mobilenheten din, og start deretter synkroniseringen.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Fortsett
 # Success banner shown after signing in
@@ -1664,11 +1680,14 @@ pair-password-created-now-syncing = Passord opprettet. Du synkroniserer nå.
 
 # Subheader for the download screen
 pair-download-subheader = Last ned { -brand-firefox } for mobil
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Fortsett til synkronisering
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Enhet tilkoblet
 pair-success-message-2 = Paring vellykket.
+pair-success-tab-close-message = Denne fanen vil bli lukket automatisk av { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1694,8 +1713,17 @@ pair-unsupported-header = Paring via en app
 pair-unsupported-message = Brukte du systemkameraet? Du må koble til fra en { -brand-firefox }-app.
 # Shown as heading when a desktop user visits from a non-Firefox browser
 pair-unsupported-oops-header = Ups! Det ser ut som om du ikke bruker { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Bytt til { -brand-firefox } og åpne denne siden for å koble til en annen enhet.
 # Shown inline on mobile non-Firefox browsers before the download link
 pair-unsupported-oops-mobile = Ups! Det ser ut som om du ikke bruker { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Koble din mobilenhet til din { -product-mozilla-account }
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Åpne { -brand-firefox } på datamaskinen din, gå til <b>firefox.com/pair</b>, og følg instruksjonene på skjermen for å koble til mobilenheten din.
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = Les mer
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.

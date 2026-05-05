@@ -1907,7 +1907,7 @@ msgstr "Du er logget inn!"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "Last ned eller åpne Firefox på enheten du vil sende faner til"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
