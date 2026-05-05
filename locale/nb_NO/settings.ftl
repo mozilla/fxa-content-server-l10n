@@ -1603,6 +1603,7 @@ pair-auth-complete-send-tab-heading = Du er klar til å sende noen faner
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } for { $deviceOS } er tilkoblet.
+pair-auth-complete-send-tab-benefits = Du kan umiddelbart sende åpne faner, passord og bokmerker mellom enheter.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1680,6 +1681,12 @@ pair-password-created-now-syncing = Passord opprettet. Du synkroniserer nå.
 
 # Subheader for the download screen
 pair-download-subheader = Last ned { -brand-firefox } for mobil
+# Description for the download screen
+pair-download-description = For å synkronisere { -brand-firefox } på telefonen eller nettbrettet ditt, må du først laste ned { -brand-firefox } for mobil. Slik gjør du det:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Trinn { $stepNumber }</b>: Last ned { -brand-firefox } ved å skanne denne QR-koden med kameraet på mobilenheten din:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Trinn { $stepNumber }</b>: Velg «Fortsett til synkroniseringe» for å synkronisere { -brand-firefox }-opplevelsen på mobilenheten din.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Fortsett til synkronisering
 
