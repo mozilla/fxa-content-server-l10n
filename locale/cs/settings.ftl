@@ -1308,7 +1308,7 @@ se-resend-code-2 =
     poště, můžete ho nechat <button>znovu odeslat</button>.
 # Button to make secondary email the primary
 se-make-primary = Nastavit jako hlavní
-se-default-content = Získejte přístup ke svému účtu, pokud se vám nepodaří přihlásit svým hlavním e-mailem.
+se-default-content = Získejte přístup do svého účtu, pokud se vám nepodaří přihlásit svým hlavním e-mailem.
 se-content-note-1 = Poznámka: záložní e-mailová adresa neumožní obnovit vaše informace — na to budete potřebovat <a>obnovovací klíč k účtu</a>.
 # Default value for the secondary email
 se-secondary-email-none = Žádná
