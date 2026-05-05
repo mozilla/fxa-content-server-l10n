@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = 恢復試用
 free-trial-content-button-resume-trial-aria = 恢復試用 { $productName }
 free-trial-content-button-cancel-trial = 取消試用
 free-trial-content-button-cancel-trial-aria = 取消試用 { $productName }
+free-trial-content-button-cancel-subscription = 取消訂閱
+free-trial-content-button-cancel-subscription-aria = 取消 { $productName } 訂閱
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
