@@ -1852,7 +1852,7 @@ confirm-reset-password-otp-different-account-link = სხვა ანგარ
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = პაროლის განულება
-confirm-totp-reset-password-subheader-v2 = ორბიჯიანი დამოწმების კოდის შეიყვანა
+confirm-totp-reset-password-subheader-v2 = ორბიჯიანი დამოწმების კოდის შეყვანა
 confirm-totp-reset-password-instruction-v2 = გამოიყენეთ <strong>დამმოწმებელი პროგრამა</strong> პაროლის აღსადგენად.
 confirm-totp-reset-password-trouble-code = ვერ ახერხებთ კოდის შეყვანას?
 confirm-totp-reset-password-confirm-button = დასტური
@@ -2166,7 +2166,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } ეცდებ
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-header = შესვლა
-signin-totp-code-subheader-v2 = ორბიჯიანი დამოწმების კოდის შეიყვანა
+signin-totp-code-subheader-v2 = ორბიჯიანი დამოწმების კოდის შეყვანა
 signin-totp-code-instruction-v4 = გამოიყენეთ <strong>დამმოწმებელი პროგრამა</strong> შესვლის დასამოწმებლად.
 signin-totp-code-input-label-v4 = შეიყვანეთ 6-ნიშნა კოდი
 # Shown to users when they need to re-enter their authentication code, for their current device
