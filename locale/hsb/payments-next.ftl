@@ -727,6 +727,7 @@ manage-payment-method-intent-error-try-again = Hmm. Při awtorizowanju wašeho p
 manage-payment-method-intent-error-get-in-touch = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
 manage-payment-method-intent-error-insufficient-funds = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 manage-payment-method-intent-error-generic = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
+manage-payment-method-tax-address-required = Njemóžachmy waše wotličenske stejnišćo zwěsćić. Prošu přepruwujće informacije swojeje płaćenskeje metody a spytajće hišće raz.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
