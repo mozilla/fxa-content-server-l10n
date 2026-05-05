@@ -1700,7 +1700,7 @@ msgstr "Nainstalujte si Firefox na své zařízení a spusťte ho"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr "Přihlaste se ke svému účtu"
+msgstr "Přihlaste se do svého účtu"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
@@ -1716,7 +1716,7 @@ msgstr "<span class=\"number\">3</span>Nainstalujte si Firefox na své zařízen
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr "<span class=\"number\">4</span>Přihlaste se ke svému účtu"
+msgstr "<span class=\"number\">4</span>Přihlaste se do svého účtu"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"

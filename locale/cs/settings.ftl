@@ -1238,7 +1238,7 @@ passkey-row-header = Přístupové klíče
 passkey-row-enabled = Povolený
 passkey-row-not-set = Nenastavený
 passkey-row-action-create = Vytvořit
-passkey-row-description = Usnadněte si přihlašování a přihlašte se ke svému účtu pomocí svého telefonu nebo jiného podporovaného zařízení.
+passkey-row-description = Usnadněte si přihlašování a přihlaste se do svého účtu pomocí svého telefonu nebo jiného podporovaného zařízení.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Zjistit více
 # Shown as a warning banner when the user has registered the maximum number of passkeys.
@@ -1974,7 +1974,7 @@ signin-account-locked-banner-link = Před přihlášením si obnovte heslo
 
 report-signin-link-damaged-body = V odkazu, na který jste klepli, chyběly znaky a váš e-mailový klient jej mohl poškodit. Pečlivě si adresu zkopírujte a zkuste to znovu.
 report-signin-header = Nahlásit neoprávněné přihlášení?
-report-signin-body = Obdrželi jste e-mail o pokusu o přihlášení k vašemu účtu. Chcete tuto aktivitu nahlásit jako podezřelou?
+report-signin-body = Obdrželi jste e-mail o pokusu o přihlášení do vašeho účtu. Chcete tuto aktivitu nahlásit jako podezřelou?
 report-signin-submit-button = Nahlásit aktivitu
 report-signin-support-link = Proč se to stalo?
 report-signin-error = Omlouváme se, ale při odesílání hlášení nastal problém.
