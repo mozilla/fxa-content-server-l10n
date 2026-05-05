@@ -1205,7 +1205,7 @@ msgstr "Potvrzení záložních ověřovacích kódů"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "Abyste zajistili, že budete moci znovu získat přístup ke svému účtu, v případě ztráty zařízení zadejte jeden z uložených záložních ověřovacích kódů."
+msgstr "Abyste zajistili, že budete moci znovu získat přístup do svého účtu, v případě ztráty zařízení zadejte jeden z uložených záložních ověřovacích kódů."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
@@ -1319,7 +1319,7 @@ msgstr "Nahlásit neoprávněné přihlášení?"
 
 #: .es5/templates/report_sign_in.mustache:5
 msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Obdrželi jste e-mail o pokusu o přihlášení k vašemu účtu. Chcete tuto aktivitu nahlásit jako podezřelou?"
+msgstr "Obdrželi jste e-mail o pokusu o přihlášení do vašeho účtu. Chcete tuto aktivitu nahlásit jako podezřelou?"
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
@@ -1511,7 +1511,7 @@ msgstr "Potvrzení přihlášení"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr "Máte-li podezření, že se někdo pokouší neoprávněně získat přístup k vašemu účtu, <a id=\"change-password\" href=\"/settings/change_password\">změňte si prosím své heslo</a>."
+msgstr "Máte-li podezření, že se někdo pokouší neoprávněně získat přístup do vašeho účtu, <a id=\"change-password\" href=\"/settings/change_password\">změňte si prosím své heslo</a>."
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
