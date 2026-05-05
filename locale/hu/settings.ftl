@@ -1513,7 +1513,7 @@ connect-another-device-ios-complete-setup-message = Jelentkezzen be a { -brand-f
 cookies-disabled-header = Helyi tároló és sütik szükségesek
 cookies-disabled-enable-prompt-2 = Kérjük, engedélyezze a sütiket és a helyi tárolást a böngészőjében, hogy elérje a { -product-mozilla-account }ját. Ezzel lehetővé válik olyan funkciók, mint az adatok megjegyzése a munkamenetek között.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
-cookies-disabled-button-try-again = Próbálja újra
+cookies-disabled-button-try-again = Újrapróbálkozás
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = További tudnivalók
 
@@ -1659,7 +1659,7 @@ pair-wait-for-supp-heading-text = Most jóváhagyás szükséges <span>a másik 
 # v2: Updated wording to align with the legacy Backbone pair/failure copy.
 pair-failure-header-v2 = Nem sikerült az eszközpárosítás
 pair-failure-message-v2 = A telepítés nem fejezhető be. Jelentkezzen be az e-mail-címével.
-pair-failure-try-again-link = Próbálja újra
+pair-failure-try-again-link = Újrapróbálkozás
 
 ## Pair index page
 

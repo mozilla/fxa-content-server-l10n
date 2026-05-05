@@ -35,7 +35,7 @@ upgrade-page-acknowledgment-from-trial = A csomagváltással az aktív ingyenes 
 ## Authentication Error page
 
 auth-error-page-title = Nem tudtuk bejelentkeztetni
-checkout-error-boundary-retry-button = Próbálja újra
+checkout-error-boundary-retry-button = Újrapróbálkozás
 checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
 amex-logo-alt-text = { -brand-amex } logó
 diners-logo-alt-text = { -brand-diner } logó

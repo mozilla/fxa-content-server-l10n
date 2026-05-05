@@ -105,7 +105,7 @@ payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 ## Component - PaymentErrorView
 
-payment-error-retry-button = Próbálja újra
+payment-error-retry-button = Újrapróbálkozás
 payment-error-manage-subscription-button = Saját feliratkozások kezelése
 
 ## Component - PaymentErrorView - IAP upgrade errors
