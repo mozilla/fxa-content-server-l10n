@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = Proefperiode hervatten
 free-trial-content-button-resume-trial-aria = Proefperiode voor { $productName } hervatten
 free-trial-content-button-cancel-trial = Proefperiode opzeggen
 free-trial-content-button-cancel-trial-aria = Proefperiode voor { $productName } opzeggen
+free-trial-content-button-cancel-subscription = Abonnement opzeggen
+free-trial-content-button-cancel-subscription-aria = Abonnement voor { $productName } opzeggen
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Factuur bekijken
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Factuur voor { $productName } bekijken
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Uw gratis proefperiode is afgelopen op <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = We konden uw betaling niet verwerken. Werk uw betalingsmethode bij om toegang te herstellen. De verwerking kan tot 24 uur duren en kan verschillen per bank of betalingsmethode.
 free-trial-content-button-update-payment = Betalingsmethode bijwerken
 
 # Component - Header
@@ -713,6 +718,7 @@ manage-payment-method-intent-error-try-again = Hmm. Er is een probleem opgetrede
 manage-payment-method-intent-error-get-in-touch = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Neem contact op met uw kaartverstrekker.
 manage-payment-method-intent-error-insufficient-funds = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
 manage-payment-method-intent-error-generic = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
+manage-payment-method-tax-address-required = We kunnen uw factureringslocatie niet bepalen. Controleer de gegevens van uw betalingsmethode en probeer het opnieuw.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
