@@ -329,6 +329,7 @@ next-coupon-submit = Bruk
 ## $tax (Number) - The tax amount. It will be formatted as currency.
 
 free-trial-content-trial-expires = Gratis prøveperiode går ut { $date }.
+free-trial-content-trial-cancelled = Prøveperioden din er avslutta.
 
 # Charge info strings - with tax, per interval
 
