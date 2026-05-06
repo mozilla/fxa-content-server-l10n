@@ -397,6 +397,12 @@ password-strength-inline-not-common = ไม่ใช่รหัสผ่าน
 password-strength-inline-confirmed-must-match = รหัสยืนยันตรงกับรหัสผ่านใหม่
 password-strength-inline-passwords-match = รหัสผ่านตรงกัน
 
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = สแกนเพื่อดาวน์โหลดแอป
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = สร้าง
