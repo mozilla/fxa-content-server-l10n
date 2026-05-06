@@ -222,6 +222,7 @@ freeTrialEndingReminder-content-charge-heading = Belastningsdetaljar
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
 freeTrialEndingReminder-content-charge-subscription = { $productName }-abonnement: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Abonnement på { $productName }
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Rabatt: { $invoiceDiscountAmount }
@@ -234,6 +235,7 @@ freeTrialEndingReminder-content-charge-tax-2 = Skatt
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Totalt å betale { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Totalt å betale den { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Du kan sjå gjennom eller oppdatere betalingsmåten og kontoinformasjonen din <a data-l10n-name="freeTrialEndingReminder-update-billing">her</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Du kan sjå gjennom eller oppdatere betalingsmåten og kontoinformasjonen din her:
 # Variables:
@@ -376,6 +378,12 @@ subscriptionPaymentProviderCancelled-title = Beklagar, vi har problem med betali
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Vi har oppdaga eit problem med betalingsmåten din for { $productName }.
 subscriptionPaymentProviderCancelled-content-reason-1 = Det kan vere at betalingsmåten din er utgått, eller at den noverande betalingsmåten din er utdatert.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Abonnement ditt på { $productName } er aktivert på nytt
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = Prøveabonnement ditt på { $productName } er aktivert på nytt
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Takk for at du reaktiverte abonnementet på { $productName }!
