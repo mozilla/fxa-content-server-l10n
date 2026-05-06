@@ -290,6 +290,12 @@ recovery-phone-image-description =
     .aria-label = อุปกรณ์มือถือที่รับรหัสจากข้อความตัวอักษร
 recovery-phone-code-image-description =
     .aria-label = รหัสที่ได้รับบนอุปกรณ์มือถือ
+backup-recovery-phone-image-aria-label =
+    .aria-label = อุปกรณ์มือถือที่มีความสามารถในการส่งข้อความ SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = หน้าจออุปกรณ์ที่แสดงรหัส
+sync-clouds-image-aria-label =
+    .aria-label = ก้อนเมฆที่มีไอคอนซิงค์
 confetti-falling-image-aria-label =
     .aria-label = ภาพเคลื่อนไหวของเศษกระดาษสีที่โปรยปราย
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
