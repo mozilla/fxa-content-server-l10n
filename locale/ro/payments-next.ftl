@@ -376,6 +376,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Vezi factura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Vezi factura pentru { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Perioada de probă gratuită a expirat pe <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Nu am putut procesa plata. Actualizează-ți metoda de plată pentru restabilirea accesului. Procesarea poate dura până la 24 de ore și poate varia în funcție de bancă sau metoda de plată.
 free-trial-content-button-update-payment = Actualizează metoda de plată
 
 # Component - Header
@@ -719,6 +722,7 @@ manage-payment-method-intent-error-try-again = Hmm. A apărut o problemă la aut
 manage-payment-method-intent-error-get-in-touch = Hmm. A apărut o problemă la autorizarea plății tale. Contactează emitentul cardului.
 manage-payment-method-intent-error-insufficient-funds = Se pare că nu ai fonduri suficiente pe card. Încearcă alt card.
 manage-payment-method-intent-error-generic = A apărut o eroare neașteptată la procesarea plății. Te rugăm să încerci din nou.
+manage-payment-method-tax-address-required = Nu ți-am putut determina adresa de facturare. Te rugăm să îți verifici informațiile despre metodele de plată și să încerci din nou.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
