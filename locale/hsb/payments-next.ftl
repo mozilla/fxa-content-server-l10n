@@ -262,6 +262,7 @@ next-payment-confirm-checkbox-error = Dyrbiće to dokónčić, prjedy hač móž
 
 next-new-user-submit = Nětko abonować
 next-pay-with-heading-paypal = Z { -brand-paypal } płaćić
+free-trial-ineligible-notice = Waše konto njeda so za darmotny test wubrać. Móžeće ze zapłaćenym abonementom pokročować.
 
 ## Churn flow - cancel
 
