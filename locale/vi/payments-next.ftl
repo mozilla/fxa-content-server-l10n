@@ -358,6 +358,8 @@ free-trial-content-button-resume-trial = Tiếp tục dùng thử
 free-trial-content-button-resume-trial-aria = Tiếp tục dùng thử cho { $productName }
 free-trial-content-button-cancel-trial = Huỷ bỏ dùng thử
 free-trial-content-button-cancel-trial-aria = Huỷ bỏ dùng thử cho { $productName }
+free-trial-content-button-cancel-subscription = Huỷ đăng ký
+free-trial-content-button-cancel-subscription-aria = Huỷ gói đăng ký cho { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -372,6 +374,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Xem hoá đơn
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Xem hoá đơn cho { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Thời gian dùng thử miễn phí của bạn sẽ hết hạn vào <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Chúng tôi không thể xử lý thanh toán của bạn. Vui lòng cập nhật phương thức thanh toán để khôi phục quyền truy cập. Quá trình xử lý có thể mất đến 24 giờ và có thể khác nhau tuỳ thuộc vào ngân hàng hoặc phương thức thanh toán.
 free-trial-content-button-update-payment = Cập nhật phương thức thanh toán
 
 # Component - Header
@@ -705,6 +710,7 @@ manage-payment-method-intent-error-try-again = Hmm. Đã xảy ra sự cố khi 
 manage-payment-method-intent-error-get-in-touch = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
 manage-payment-method-intent-error-insufficient-funds = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
 manage-payment-method-intent-error-generic = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
+manage-payment-method-tax-address-required = Chúng tôi không thể xác định địa điểm thanh toán của bạn. Vui lòng kiểm tra lại thông tin phương thức thanh toán và thử lại.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
