@@ -259,6 +259,7 @@ next-payment-confirm-checkbox-error = Ezt be kell fejeznie, mielőtt továbblép
 
 next-new-user-submit = Előfizetés most
 next-pay-with-heading-paypal = Fizetés { -brand-paypal }lal
+free-trial-ineligible-notice = A fiókja nem jogosult az ingyenes próbaverzióra. Fizetett előfizetéssel folytathatja.
 
 ## Churn flow - cancel
 

@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = È necessario selezionare questa opzione p
 
 next-new-user-submit = Abbonati adesso
 next-pay-with-heading-paypal = Paga con { -brand-paypal }
+free-trial-ineligible-notice = Il tuo account non è idoneo per una prova gratuita. Puoi continuare con un abbonamento a pagamento.
 
 ## Churn flow - cancel
 

@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Sie müssen dieses Kästchen aktivieren, b
 
 next-new-user-submit = Jetzt abonnieren
 next-pay-with-heading-paypal = Mit { -brand-paypal } bezahlen
+free-trial-ineligible-notice = Ihr Konto steht nicht für eine kostenlose Testversion zur Verfügung. Sie können mit einem kostenpflichtigen Abonnement fortfahren.
 
 ## Churn flow - cancel
 

@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Mae angen i chi gwblhau hyn cyn symud ymla
 
 next-new-user-submit = Tanysgrifiwch Nawr
 next-pay-with-heading-paypal = Talu gyda { -brand-paypal }
+free-trial-ineligible-notice = Nid yw eich cyfrif yn gymwys ar gyfer treial am ddim. Gallwch barhau â thanysgrifiad taledig.
 
 ## Churn flow - cancel
 

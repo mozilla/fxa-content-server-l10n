@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = To morate dokončati, preden nadaljujete
 
 next-new-user-submit = Naroči se zdaj
 next-pay-with-heading-paypal = Plačaj s { -brand-paypal }om
+free-trial-ineligible-notice = Vaš račun ne izpolnjuje pogojev za brezplačen preskus. Nadaljujete lahko s plačljivo naročnino.
 
 ## Churn flow - cancel
 
