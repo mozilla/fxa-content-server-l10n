@@ -978,11 +978,13 @@ display-name-success-alert-2 = Visingsnamn oppdatert
 ## PagePasskeyAdd - Loading page shown during passkey creation
 
 page-passkey-add-creating-heading = Opprettar passnøkkel…
+page-passkey-add-follow-prompts = Følg instruksjonane på eininga di.
 page-passkey-add-cancel = Avbryt
 
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Passnøkkel oppretta
+page-passkey-add-error-system = Systemet er ikkje tilgjengeleg. Prøv igjen seinare.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1592,6 +1594,15 @@ pair-auth-complete-sync-benefits-text = No får du tilgang til opne faner, passo
 pair-auth-complete-see-tabs-button = Vis faner frå andre einingar
 pair-auth-complete-manage-devices-link = Handsam einingar
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Du er klar for å sende nokre faner
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } for { $deviceOS } er tilkopla.
+pair-auth-complete-send-tab-benefits = Du kan straks sende opne faner, passord og bokmerke mellom einingar.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1620,6 +1631,9 @@ pair-wait-for-supp-heading-text = Godkjenning er no påkravd <span>frå den andr
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Einingssamankopling mislykkast
+pair-failure-message-v2 = Konfigurasjonen kunne ikkje fullførast. Logg på med e-posten din.
 pair-failure-try-again-link = Prøv igjen
 
 ## Pair index page

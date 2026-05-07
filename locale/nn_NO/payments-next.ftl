@@ -342,6 +342,7 @@ free-trial-content-button-resume-trial = Ta opp att prøveperiode
 free-trial-content-button-resume-trial-aria = Ta opp att prøveperiode for { $productName }
 free-trial-content-button-cancel-trial = Avslutt prøveperiode
 free-trial-content-button-cancel-trial-aria = Avslutt prøveperiode for { $productName }
+free-trial-content-button-cancel-subscription = Avslutt abonnement
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -435,6 +436,11 @@ purchase-details-credit-applied-label = Kreditt brukt
 purchase-details-total-due-label = Totalt uteståande
 next-plan-details-hide-button = Gøym detaljar
 next-plan-details-show-button = Vis detaljar
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Første betaling: { $endDate }
 
 ##
 
