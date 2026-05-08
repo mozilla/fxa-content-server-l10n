@@ -1764,7 +1764,7 @@ pair-unsupported-connecting-mobile-instructions-v2 = Otevřete { -brand-firefox 
 pair-unsupported-learn-more-link-v2 = Zjistit více
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
 # Matches the legacy Backbone "Oops! Something went wrong." message.
-pair-unsupported-desktop-firefox-fallback-header-v2 = Jejda. Něco je špatně.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Jejda! Něco se pokazilo.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Zavřete prosím tento panel a zkuste to znovu.
 
 ## ServiceWelcome page

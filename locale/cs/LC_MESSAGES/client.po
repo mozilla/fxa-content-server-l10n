@@ -1906,7 +1906,7 @@ msgstr "Přihlášení bylo úspěšné!"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr "Stáhněte nebo otevřete Firefox na zařízení, kam chcete odeslat panely"
+msgstr "Stáhněte si nebo spusťte prohlížeč Firefox na zařízení, na které chcete panely odeslat"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
