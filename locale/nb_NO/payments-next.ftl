@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Du må fullføre dette før du går videre
 
 next-new-user-submit = Abonner nå
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
+free-trial-ineligible-notice = Kontoen din er ikke kvalifisert for en gratis prøveperiode. Du kan fortsette med et betalt abonnement.
 
 ## Churn flow - cancel
 
