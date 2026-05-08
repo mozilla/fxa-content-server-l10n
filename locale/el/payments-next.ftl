@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε
 
 next-new-user-submit = Εγγραφή τώρα
 next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
+free-trial-ineligible-notice = Ο λογαριασμός σας δεν πληροί τις προϋποθέσεις για δωρεάν δοκιμή. Μπορείτε να συνεχίσετε με μια επί πληρωμή συνδρομή.
 
 ## Churn flow - cancel
 
