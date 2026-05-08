@@ -237,7 +237,7 @@ freeTrialEndingReminder-content-charge-tax-2 = Daň
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Celková částka splatná k { $serviceLastActiveDateOnly }: { $invoiceTotal }
-freeTrialEndingReminder-content-charge-total-2 = Celkem splatné { $serviceLastActiveDateOnly }
+freeTrialEndingReminder-content-charge-total-2 = Celková suma splatná dne { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = <a data-l10n-name="freeTrialEndingReminder-update-billing">Zde</a> si můžete zkontrolovat nebo aktualizovat způsob platby a údaje o účtu.
 freeTrialEndingReminder-content-account-link-plaintext = Zde můžete zkontrolovat nebo aktualizovat svůj způsob platby a údaje o účtu:
 # Variables:
