@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = 需要勾選此欄位才能繼續前往下
 
 next-new-user-submit = 立刻訂閱
 next-pay-with-heading-paypal = 使用 { -brand-paypal } 付款
+free-trial-ineligible-notice = 您的帳號無法免費試用，可以付費訂閱。
 
 ## Churn flow - cancel
 
