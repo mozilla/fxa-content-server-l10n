@@ -1723,7 +1723,7 @@ pair-continue-to-sync-button = Pokračovat se synchronizací
 
 pair-success-header-2 = Zařízení připojeno
 pair-success-message-2 = Párování dokončeno.
-pair-success-tab-close-message = Tento panel bude automaticky zavřen do { -brand-firefox }.
+pair-success-tab-close-message = Tento panel { -brand-firefox } automaticky zavře.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
