@@ -1118,7 +1118,7 @@ product-promo-monitor-description-v2 = Zjistěte, kde jsou vaše soukromé infor
 product-promo-monitor-cta = Zkontrolovat
 product-promo-vpn =
     .alt = { -product-mozilla-vpn }
-product-promo-vpn-description = Objevte přidanou vrstvu anonymního prohlížení a ochrany.
+product-promo-vpn-description = Objevte další úroveň anonymního prohlížení a ochrany.
 # Links out to the VPN site
 product-promo-vpn-cta = Získejte { -product-mozilla-vpn-short }
 

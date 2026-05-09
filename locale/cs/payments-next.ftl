@@ -63,7 +63,7 @@ checkout-error-contact-support = Kontaktujte prosím podporu, abychom vám mohli
 cart-error-currency-not-determined = Měnu tohoto nákupu se nám nepodařilo určit, zkuste to prosím znovu.
 checkout-processing-general-error = Při zpracování vaší platby došlo k neočekávané chybě, zkuste to prosím znovu.
 cart-total-mismatch-error = Fakturovaná částka se změnila. Zkuste to prosím znovu.
-cart-free-trial-mismatch-error = Váš nárok na bezplatnou zkušební verzi se změnil. Zkuste to prosím znovu.
+cart-free-trial-mismatch-error = Podmínky pro získání bezplatné zkušební verze se změnily. Zkuste to prosím znovu.
 
 ## Error pages - Payment method failure messages
 
@@ -75,7 +75,7 @@ intent-payment-error-generic = Při zpracování platby došlo k neočekávané 
 intent-payment-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste použít jinou.
 general-paypal-error = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
 paypal-active-subscription-no-billing-agreement-error = Vypadá to, že došlo k problému s účtováním vašeho účtu { -brand-paypal }. Znovu prosím povolte automatické platby za předplatné.
-new-account-prepaid-card-free-trial-not-allowed = Předplacenou kartu nelze použít k bezplatné zkušební verzi nového účtu. Zkuste prosím jiný způsob platby.
+new-account-prepaid-card-free-trial-not-allowed = Předplacené karty nelze použít k zahájení bezplatné zkušební verze u nových účtů. Zkuste prosím použít jiný způsob platby.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -257,7 +257,7 @@ next-payment-confirm-checkbox-error = Pro pokračování je třeba toto dokonči
 
 next-new-user-submit = Předplatit
 next-pay-with-heading-paypal = Zaplatit přes { -brand-paypal }
-free-trial-ineligible-notice = Váš účet nemá nárok na bezplatnou zkušební verzi. Můžete pokračovat s placeným předplatným.
+free-trial-ineligible-notice = Váš účet nesplňuje podmínky pro bezplatnou zkušební verzi. Můžete pokračovat s placeným předplatným.
 
 ## Churn flow - cancel
 
@@ -376,8 +376,8 @@ free-trial-content-link-view-invoice = Zobrazit fakturu
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Zobrazit fakturu za { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
-free-trial-content-trial-ended = Vaše bezplatná zkušební verze skončila <bold>{ $date }</bold>.
-free-trial-content-could-not-process-payment = Vaši platbu se nepodařilo zpracovat. Pro obnovení aktualizujte svou platební metodu. Zpracování může trvat až 24 hodin a může se lišit v závislosti na bance nebo metodě platby.
+free-trial-content-trial-ended = Vaše bezplatná zkušební verze skončila dne <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Vaši platbu se nám nepodařilo zpracovat. Chcete-li obnovit přístup, aktualizujte svůj způsob platby. Zpracování může trvat až 24 hodin a doba zpracování se může lišit v závislosti na bance nebo způsobu platby.
 free-trial-content-button-update-payment = Aktualizovat platební metodu
 
 # Component - Header
@@ -721,7 +721,7 @@ manage-payment-method-intent-error-try-again = Hmm. Došlo k problému s autoriz
 manage-payment-method-intent-error-get-in-touch = Hmm. Došlo k problému s autorizací vaší platby. Obraťte se na svého vydavatele karty.
 manage-payment-method-intent-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste jinou kartu.
 manage-payment-method-intent-error-generic = Při zpracování vaší platby došlo k neočekávané chybě, zkuste to prosím znovu.
-manage-payment-method-tax-address-required = Nepodařilo se nám určit vaše fakturační místo. Ověřte prosím zadané údaje o způsobu platby a zkuste to znovu.
+manage-payment-method-tax-address-required = Nepodařilo se nám určit místo fakturace. Zkontrolujte prosím údaje o způsobu platby a zkuste to znovu.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
