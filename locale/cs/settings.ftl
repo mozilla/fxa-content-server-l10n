@@ -1246,9 +1246,9 @@ passkey-row-info-link-2 = Zjistit více
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner =
     { $count ->
-        [one] Už jste použili všech { $count } přístupových klíčů. Smažte přístupový kód, pokud chcete vytvořit nový.
-        [few] Už jste použili všech { $count } přístupových klíčů. Smažte přístupový kód, pokud chcete vytvořit nový.
-       *[other] Už jste použili všech { $count } přístupových klíčů. Smažte přístupový kód, pokud chcete vytvořit nový.
+        [one] Už jste použili { $count } přístupový klíč. Smažte přístupový klíč, pokud chcete vytvořit nový.
+        [few] Už jste použili všech { $count } přístupových klíčů. Smažte přístupový klíč, pokud chcete vytvořit nový.
+       *[other] Už jste použili všech { $count } přístupových klíčů. Smažte přístupový klíč, pokud chcete vytvořit nový.
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Dosáhli jste maximálního počtu přístupových klíčů.
@@ -1444,7 +1444,7 @@ passkey-registration-error-not-allowed = Nastavení přístupového klíče selh
 # Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
 # Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
 # the far more likely cause when the user has existing passkeys, so we state it plainly.
-passkey-registration-error-not-allowed-existing = Nastavení přístupového klíče není na tomto zařízení dostupné. Zařízení již bylo zaregistrováno nebo byl proces nastavení přerušen.
+passkey-registration-error-not-allowed-existing = Nastavení přístupového klíče není u tohoto zařízení k dispozici. Zařízení je buď již zaregistrováno, nebo byl proces nastavení zrušen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1465,7 +1465,7 @@ passkey-registration-error-unexpected = Nastavení přístupového klíče selha
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Přihlášení pomocí přístupového klíče selhalo nebo je nedostupné. Zkuste to znovu nebo zvolte jiný způsob.
 # User already registered a device
-passkey-authentication-error-not-allowed-existing = Nastavení přístupového klíče není na tomto zařízení dostupné. Zkuste to prosím znovu nebo zvolte jiný způsob.
+passkey-authentication-error-not-allowed-existing = Nastavení přístupového klíče není u tohoto zařízení k dispozici. Zkuste to prosím znovu nebo zvolte jinou metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Vypršel časový limit požadavku na přístupový klíč. Zkuste to prosím znovu.
 # Browser or platform does not support passkeys
@@ -1624,8 +1624,8 @@ pair-auth-complete-manage-devices-link = Správa zařízení
 pair-auth-complete-send-tab-heading = Jste připraveni odeslat několik panelů
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
-pair-auth-complete-send-tab-device-connected = { $deviceFamily } za { $deviceOS } je připojen.
-pair-auth-complete-send-tab-benefits = Otevřené panely, hesla a záložky si můžete mezi zařízeními okamžitě posílat.
+pair-auth-complete-send-tab-device-connected = { $deviceFamily } pro { $deviceOS } je připojený.
+pair-auth-complete-send-tab-benefits = Můžete si mezi zařízeními okamžitě sdílet otevřené panely, hesla a záložky.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1656,8 +1656,8 @@ pair-wait-for-supp-heading-text = Je požadováno schválení <span>z vašeho da
 ## PairFailure - a view which displays on failure of the device pairing process
 
 # v2: Updated wording to align with the legacy Backbone pair/failure copy.
-pair-failure-header-v2 = Párování se zařízením selhalo
-pair-failure-message-v2 = Nastavení se nepodařilo dokončit. Přihlaste se prosím pomocí svého e-mailu.
+pair-failure-header-v2 = Párování zařízení se nezdařilo
+pair-failure-message-v2 = Nastavení se nepodařilo dokončit. Přihlaste se prosím pomocí své e-mailové adresy.
 pair-failure-try-again-link = Zkusit znovu
 
 ## Pair index page
@@ -1682,21 +1682,21 @@ pair-qr-code-aria-label = QR kód
 ## Choice screen — "Do you have Firefox for mobile?"
 
 # Subheader shown on the choice screen
-pair-choice-subheader = Synchronizujte své { -brand-firefox } prostředí
+pair-choice-subheader = Synchronizujte si svůj { -brand-firefox(case: "acc") }
 # Description shown on the choice screen
-pair-choice-description = Zobrazte si svá uložená hesla, panely, historii prohlížení a další — na všech svých zařízeních.
+pair-choice-description = Prohlížejte si uložená hesla, otevřené panely, historii prohlížení a další údaje — na všech svých zařízeních.
 # Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
-pair-choice-header-send-tab = Stáhněte nebo otevřete { -brand-firefox } na zařízení, kam chcete posílat panely
+pair-choice-header-send-tab = Stáhněte si nebo otevřete { -brand-firefox(case: "acc") } na zařízení, na které chcete panely odeslat
 # Legend for the radio button fieldset
 pair-choice-legend = Pro pokračování zvolte:
 # Radio option: user already has Firefox for mobile — title
-pair-choice-has-mobile-title = Už mám { -brand-firefox } pro mobil
+pair-choice-has-mobile-title = Už mám { -brand-firefox } pro mobilní zařízení
 # Radio option: user already has Firefox for mobile — description
 pair-choice-has-mobile-description = Pokud už máte aplikaci { -brand-firefox } na svém mobilním zařízení, spusťte synchronizaci.
 # Radio option: user does not have Firefox for mobile — title
-pair-choice-needs-mobile-title = Nemám { -brand-firefox } pro mobil
+pair-choice-needs-mobile-title = Nemám { -brand-firefox } pro mobilní zařízení
 # Radio option: user does not have Firefox for mobile — description
-pair-choice-needs-mobile-description = Stáhněte si aplikaci { -brand-firefox } do svého mobilního zařízení a poté spusťte synchronizaci.
+pair-choice-needs-mobile-description = Stáhněte si aplikaci { -brand-firefox } do svého mobilního zařízení, a poté spusťte synchronizaci.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Pokračovat
 # Success banner shown after signing in
@@ -1709,7 +1709,7 @@ pair-password-created-now-syncing = Heslo vytvořeno. Nyní probíhá synchroniz
 ## Download screen — shown after selecting "I don’t have Firefox for mobile"
 
 # Subheader for the download screen
-pair-download-subheader = Stáhnout { -brand-firefox } pro mobil
+pair-download-subheader = Stáhněte si { -brand-firefox(case: "acc") } pro mobilní zařízení
 # Description for the download screen
 pair-download-description = Pro synchronizaci aplikace { -brand-firefox } do svého telefonu nebo tabletu si nejdříve stáhněte aplikaci { -brand-firefox } pro mobil. Jak na to:
 # Step 1: scan QR code. $stepNumber is the step number (1)
