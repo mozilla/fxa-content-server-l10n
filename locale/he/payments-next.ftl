@@ -253,6 +253,7 @@ next-payment-confirm-checkbox-error = עליך להשלים זאת לפני שי
 
 next-new-user-submit = הרשמה כמינוי כעת
 next-pay-with-heading-paypal = תשלום באמצעות { -brand-paypal }
+free-trial-ineligible-notice = החשבון שלך אינו זכאי לתקופת ניסיון חינמית. באפשרותך להמשיך עם מינוי בתשלום.
 
 ## Churn flow - cancel
 
