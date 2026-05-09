@@ -1717,7 +1717,7 @@ pair-download-step-scan-qr = <b>Krok { $stepNumber }</b>: Stáhněte si aplikaci
 # Step 2: continue to sync. $stepNumber is the step number (2)
 pair-download-step-continue-sync = <b>Krok { $stepNumber }</b>: Zvolte „Pokračovat“ pro synchronizaci { -brand-firefox } s vaším mobilním zařízením.
 # Button on the download screen that opens about:preferences for pairing
-pair-continue-to-sync-button = Pokračovat k synchronizaci
+pair-continue-to-sync-button = Pokračovat se synchronizací
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
