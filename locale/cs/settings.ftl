@@ -1748,11 +1748,11 @@ pair-wait-for-auth-heading-text = Je požadováno schválení <span>z vašeho da
 pair-unsupported-header = Spárovat pomocí aplikace
 pair-unsupported-message = Použili jste systémový fotoaparát? Párování je potřeba zahájit z { -brand-firefox(case: "gen") }.
 # Shown as heading when a desktop user visits from a non-Firefox browser
-pair-unsupported-oops-header = Jejda! Zdá se, že { -brand-firefox } nepoužíváte.
+pair-unsupported-oops-header = Jejda! Zdá se, že nepoužíváte { -brand-firefox(case: "acc") }.
 # Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
-pair-unsupported-switch-to-firefox = Přejděte na { -brand-firefox }, otevřete tuto stránku pro připojení dalšího zařízení.
+pair-unsupported-switch-to-firefox = Přepněte na { -brand-firefox } a otevřete tuto stránku, abyste připojili další zařízení.
 # Shown inline on mobile non-Firefox browsers before the download link
-pair-unsupported-oops-mobile = Jejda! Zdá se, že { -brand-firefox } nepoužíváte.
+pair-unsupported-oops-mobile = Jejda! Zdá se, že nepoužíváte { -brand-firefox(case: "acc") }.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
