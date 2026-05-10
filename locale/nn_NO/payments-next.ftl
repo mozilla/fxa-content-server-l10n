@@ -458,6 +458,17 @@ purchase-details-total-due-label = Totalt uteståande
 next-plan-details-hide-button = Gøym detaljar
 next-plan-details-show-button = Vis detaljar
 
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+       *[other] Start din { $trialDayLength }-dagars gratis prøveperiode
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+       *[other] Din { $trialDayLength }-dagars gratis prøveperiode har starta
+    }
+
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 

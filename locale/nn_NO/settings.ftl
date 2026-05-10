@@ -1233,6 +1233,13 @@ passkey-row-action-create = Opprett
 passkey-row-description = Gjer innlogging enklare og sikrare ved å bruke telefonen din eller ei anna støtta eining for å få tilgang til kontoen din.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Les meir
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+       *[other] Du har brukt alle { $count } passnøklane. Slett ein passnøkkel for å opprette ein ny.
+    }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Du har nådd det maksimale talet på passnøklar.
 
@@ -1742,6 +1749,10 @@ pair-unsupported-oops-header = Ops! Det ser ut som om du ikkje brukar { -brand-f
 pair-unsupported-switch-to-firefox = Byt til { -brand-firefox } og opne denne sida for å kople til ei anna eining.
 # Shown inline on mobile non-Firefox browsers before the download link
 pair-unsupported-oops-mobile = Ops! Det ser ut som om du ikkje brukar { -brand-firefox }.
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = Kople mobileininga di til { -product-mozilla-account }en din
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
 pair-unsupported-connecting-mobile-instructions-v2 = Opne { -brand-firefox } på datamaskina di, gå til <b>firefox.com/pair</b>, og følg instruksjonane på skjermen for å kople til mobileininga di.
