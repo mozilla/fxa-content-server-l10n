@@ -350,6 +350,9 @@ free-trial-content-charge-info-no-tax-day = Du vil bli belasta { $amount } per d
 free-trial-content-charge-info-no-tax-week = Du vil bli belasta { $amount } per veke etter at prøveperioden blir avslutta { $date }.
 free-trial-content-charge-info-no-tax-month = Du vil bli belasta { $amount } per månad etter at prøveperioden blir avslutta { $date }.
 free-trial-content-charge-info-no-tax-halfyear = Du vil bli belasta { $amount } kvar sjette månad etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-no-tax-year = Du vil bli belasta { $amount } per år etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-no-tax-default = Du vil bli belasta { $amount } etter at prøveperioden blir avslutta { $date }.
+free-trial-content-trial-ends = Prøveperioden din blir avslutta { $date }. Oppdater betalingsmåten din for å behalde tilgang etter at prøveperioden er over.
 free-trial-content-trial-active = Gratis prøveperiode er aktiv.
 free-trial-content-action-error = Det oppstod ein uventa feil. Prøv på nytt.
 free-trial-content-button-resume-trial = Ta opp att prøveperiode
@@ -357,6 +360,7 @@ free-trial-content-button-resume-trial-aria = Ta opp att prøveperiode for { $pr
 free-trial-content-button-cancel-trial = Avslutt prøveperiode
 free-trial-content-button-cancel-trial-aria = Avslutt prøveperiode for { $productName }
 free-trial-content-button-cancel-subscription = Avslutt abonnement
+free-trial-content-button-cancel-subscription-aria = Avslutt abonnementet for { $productName }
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -371,6 +375,9 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Vis faktura
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = Vis faktura for { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Din gratis prøveperiode vart avslutta <bold>{ $date }</bold>.
+free-trial-content-could-not-process-payment = Vi kunne ikkje behandle betalinga di. Oppdater betalingsmåten din for å gjenopprette tilgangen. Behandlinga kan ta opptil 24 timar og kan variere etter bank eller betalingsmåte.
 free-trial-content-button-update-payment = Oppdater betalingsmåte
 
 # Component - Header

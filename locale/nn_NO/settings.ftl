@@ -1710,6 +1710,9 @@ pair-wait-for-auth-heading-text = Godkjenning er no påkravd <span>frå den andr
 
 pair-unsupported-header = Paring via ein app
 pair-unsupported-message = Brukte du systemkameraet? Du må pare med ein { -brand-firefox }-app.
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = Opne { -brand-firefox } på datamaskina di, gå til <b>firefox.com/pair</b>, og følg instruksjonane på skjermen for å kople til mobileininga di.
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = Les meir
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
