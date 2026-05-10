@@ -819,19 +819,32 @@ nav-email-comm = การติดต่อสื่อสารทางอี
 
 page-2fa-change-title = เปลี่ยนการยืนยันตัวตนสองขั้นตอน
 page-2fa-change-success = อัปเดตการยืนยันตัวตนสองขั้นตอนแล้ว
+page-2fa-change-totpinfo-error = เกิดข้อผิดพลาดขณะแทนที่แอปยืนยันตัวตนสองขั้นตอนของคุณ โปรดลองอีกครั้งในภายหลัง
+page-2fa-change-qr-instruction = <strong>ขั้นตอนที่ 1:</strong> สแกนรหัส QR นี้ด้วยแอปยืนยันตัวตนแอปใดก็ได้ เช่น Duo หรือ Google Authenticator ซึ่งจะเป็นการสร้างการเชื่อมต่อใหม่ และการเชื่อมต่อเดิมจะใช้งานไม่ได้อีกต่อไป
 
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = รหัสยืนยันตัวตนสำรอง
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = มีปัญหาขณะแทนที่รหัสยืนยันตัวตนสำรองของคุณ
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = มีปัญหาขณะสร้างรหัสยืนยันตัวตนสำรองของคุณ
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = อัปเดตรหัสยืนยันตัวตนสำรองเรียบร้อยแล้ว
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = สร้างรหัสยืนยันตัวตนสำรองเรียบร้อยแล้ว
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = เก็บรหัสเหล่านี้ไว้ในที่ที่คุณจะจำได้ รหัสเดิมของคุณจะถูกแทนที่หลังจากคุณทำขั้นตอนถัดไปเสร็จสิ้นแล้ว
 
 ## Page2faSetup
 
 page-2fa-setup-title = การยืนยันตัวตนสองขั้น
+page-2fa-setup-totpinfo-error = เกิดข้อผิดพลาดขณะตั้งค่าการยืนยันตัวตนสองขั้นตอน โปรดลองอีกครั้งในภายหลัง
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = รหัสไม่ถูกต้อง โปรดลองอีกครั้ง
+page-2fa-setup-success = เปิดใช้งานการยืนยันตัวตนสองขั้นตอนเรียบร้อยแล้ว
 
 ## Avatar change page
 
