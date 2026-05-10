@@ -555,7 +555,7 @@ msgstr "ต้องการ URL ที่ถูกต้อง"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr "อีเมลยืนยันของคุณถูกตีกลับ พิมพ์อีเมลผิด?"
+msgstr "อีเมลยืนยันของคุณเพิ่งถูกตีกลับ ระบุอีเมลผิดหรือไม่?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
