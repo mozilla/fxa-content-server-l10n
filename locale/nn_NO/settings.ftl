@@ -1701,6 +1701,10 @@ pair-password-created-now-syncing = Passord oppretta. Du synkroniserer no.
 pair-download-subheader = Last ned { -brand-firefox } for mobil
 # Description for the download screen
 pair-download-description = For å synkronisere { -brand-firefox } på telefonen eller nettbrettet ditt, må du først laste ned { -brand-firefox } for mobil. Slik gjer du det:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>Steg { $stepNumber }</b>: Last ned { -brand-firefox } ved å skanne denne QR-koden med kameraet på mobileininga di:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>Steg { $stepNumber }</b>: Vel «Hald fram til synkroniseringe» for å synkronisere { -brand-firefox }-opplevinga på mobileininga di.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Hald fram til synkronisering
 
@@ -1708,6 +1712,7 @@ pair-continue-to-sync-button = Hald fram til synkronisering
 
 pair-success-header-2 = Eining tilkopla
 pair-success-message-2 = Paring vellykka.
+pair-success-tab-close-message = Denne fana vil bli attlaten automatisk av { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1731,6 +1736,12 @@ pair-wait-for-auth-heading-text = Godkjenning er no påkravd <span>frå den andr
 
 pair-unsupported-header = Paring via ein app
 pair-unsupported-message = Brukte du systemkameraet? Du må pare med ein { -brand-firefox }-app.
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = Ops! Det ser ut som om du ikkje brukar { -brand-firefox }.
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = Byt til { -brand-firefox } og opne denne sida for å kople til ei anna eining.
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = Ops! Det ser ut som om du ikkje brukar { -brand-firefox }.
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
 pair-unsupported-connecting-mobile-instructions-v2 = Opne { -brand-firefox } på datamaskina di, gå til <b>firefox.com/pair</b>, og følg instruksjonane på skjermen for å kople til mobileininga di.
