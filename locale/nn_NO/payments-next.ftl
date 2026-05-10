@@ -75,6 +75,7 @@ intent-payment-error-generic = Det oppstod ein uventa feil under behandling av b
 intent-payment-error-insufficient-funds = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
 general-paypal-error = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
 paypal-active-subscription-no-billing-agreement-error = Det ser ut til at det oppstod eit problem med faktureringa av { -brand-paypal }-kontoen din. Aktiver automatisk betalingar for abonnementet ditt på nytt.
+new-account-prepaid-card-free-trial-not-allowed = Førehandsbetalte kort kan ikkje brukast til å starte ein gratis prøveperiode på nye kontoar. Prøv ein annan betalingsmåte.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
