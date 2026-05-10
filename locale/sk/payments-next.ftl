@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Pred pokračovaním musíte dokončiť tot
 
 next-new-user-submit = Predplatiť
 next-pay-with-heading-paypal = Zaplatiť cez { -brand-paypal }
+free-trial-ineligible-notice = Váš účet nie je oprávnený na bezplatnú skúšobnú verziu. Môžete pokračovať s plateným predplatným.
 
 ## Churn flow - cancel
 
