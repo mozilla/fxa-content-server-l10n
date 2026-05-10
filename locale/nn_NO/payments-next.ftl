@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 next-new-user-submit = Abonner no
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
+free-trial-ineligible-notice = Kontoen din er ikkje kvalifisert for ein gratis prøveperiode. Du kan halde fram med eit betalt abonnement.
 
 ## Churn flow - cancel
 
@@ -336,9 +337,19 @@ free-trial-content-trial-cancelled = Prøveperioden din er avslutta.
 
 # Charge info strings - with tax, per interval
 
+free-trial-content-charge-info-with-tax-day = Du vil bli belasta { $amount } + { $tax } moms per dag etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-with-tax-week = Du vil bli belasta { $amount } + { $tax } moms per veke etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-with-tax-month = Du vil bli belasta { $amount } + { $tax } moms per månad etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Du vil bli belasta { $amount } + { $tax } moms kvar sjette månad etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-with-tax-year = Du vil bli belasta { $amount } + { $tax } moms per år etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-with-tax-default = Du vil bli belasta { $amount } + { $tax } moms etter at prøveperioden blir avslutta { $date }.
 
 # Charge info strings - no tax, per interval
 
+free-trial-content-charge-info-no-tax-day = Du vil bli belasta { $amount } per dag etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-no-tax-week = Du vil bli belasta { $amount } per veke etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-no-tax-month = Du vil bli belasta { $amount } per månad etter at prøveperioden blir avslutta { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Du vil bli belasta { $amount } kvar sjette månad etter at prøveperioden blir avslutta { $date }.
 free-trial-content-trial-active = Gratis prøveperiode er aktiv.
 free-trial-content-action-error = Det oppstod ein uventa feil. Prøv på nytt.
 free-trial-content-button-resume-trial = Ta opp att prøveperiode
