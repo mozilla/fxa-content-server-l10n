@@ -819,6 +819,7 @@ nav-email-comm = การติดต่อสื่อสารทางอี
 
 page-2fa-change-title = เปลี่ยนการยืนยันตัวตนสองขั้นตอน
 page-2fa-change-success = อัปเดตการยืนยันตัวตนสองขั้นตอนแล้ว
+page-2fa-change-success-additional-message = เพื่อปกป้องอุปกรณ์ที่เชื่อมต่อทั้งหมดของคุณ คุณควรลงชื่อออกจากทุกอุปกรณ์ที่คุณใช้บัญชีนี้ จากนั้นลงชื่อเข้าอีกครั้งโดยใช้การยืนยันตัวตนสองขั้นตอนที่คุณตั้งค่าใหม่
 page-2fa-change-totpinfo-error = เกิดข้อผิดพลาดขณะแทนที่แอปยืนยันตัวตนสองขั้นตอนของคุณ โปรดลองอีกครั้งในภายหลัง
 page-2fa-change-qr-instruction = <strong>ขั้นตอนที่ 1:</strong> สแกนรหัส QR นี้ด้วยแอปยืนยันตัวตนแอปใดก็ได้ เช่น Duo หรือ Google Authenticator ซึ่งจะเป็นการสร้างการเชื่อมต่อใหม่ และการเชื่อมต่อเดิมจะใช้งานไม่ได้อีกต่อไป
 
@@ -837,6 +838,11 @@ tfa-create-code-success-alert = สร้างรหัสยืนยันต
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
 tfa-replace-code-download-description = เก็บรหัสเหล่านี้ไว้ในที่ที่คุณจะจำได้ รหัสเดิมของคุณจะถูกแทนที่หลังจากคุณทำขั้นตอนถัดไปเสร็จสิ้นแล้ว
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = ยืนยันว่าคุณบันทึกรหัสแล้วโดยการป้อนรหัสใดรหัสหนึ่ง ทั้งนี้รหัสยืนยันตัวตนสำรองเดิมของคุณจะถูกปิดใช้งานเมื่อขั้นตอนนี้เสร็จสมบูรณ์
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = รหัสยืนยันตัวตนสำรองไม่ถูกต้อง
 
 ## Page2faSetup
 
@@ -845,6 +851,7 @@ page-2fa-setup-totpinfo-error = เกิดข้อผิดพลาดขณ
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = รหัสไม่ถูกต้อง โปรดลองอีกครั้ง
 page-2fa-setup-success = เปิดใช้งานการยืนยันตัวตนสองขั้นตอนเรียบร้อยแล้ว
+page-2fa-setup-success-additional-message = เพื่อปกป้องอุปกรณ์ที่เชื่อมต่อทั้งหมดของคุณ คุณควรลงชื่อออกจากทุกอุปกรณ์ที่คุณใช้บัญชีนี้ จากนั้นลงชื่อเข้าอีกครั้งโดยใช้การยืนยันตัวตนสองขั้นตอน
 
 ## Avatar change page
 
