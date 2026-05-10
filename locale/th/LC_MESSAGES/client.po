@@ -639,7 +639,7 @@ msgstr "จำเป็นต้องใช้รหัสยืนยันต
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr "รหัสยืนยันตัวตนไม่ถูกต้อง"
+msgstr "รหัสยืนยันตัวตนสำรองไม่ถูกต้อง"
 
 #: .es5/lib/auth-errors.js:576
 msgid "Account recovery key required"
