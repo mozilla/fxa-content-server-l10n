@@ -28,6 +28,7 @@ location-banner-currency-change = Valutaendring er ikkje støtta. For å halde f
 upgrade-page-payment-information = Betalingsinformasjon
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Planen din vert omg[ande endra, og du vil bli belasta eit justert beløp for resten av denne faktureringssyklusen. Frå og med { $nextInvoiceDate } vert du belasta med heile beløpet.
+upgrade-page-acknowledgment-from-trial = Ved oppgradering blir den aktive prøveperioden avslutta umiddelbart, og du vil bli belasta for det nye abonnementet ditt i dag.
 
 ## Authentication Error page
 
@@ -62,6 +63,7 @@ checkout-error-contact-support = Kontakt brukarstøtte, slik at vi kan hjelpe de
 cart-error-currency-not-determined = Vi klarte ikkje å bestemme valutaen for dette kjøpet, prøv på nytt.
 checkout-processing-general-error = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
 cart-total-mismatch-error = Fakturabeløpet er endra. Prøv på nytt.
+cart-free-trial-mismatch-error = Din rett til gratis prøveperiode er endra. Prøv på nytt.
 
 ## Error pages - Payment method failure messages
 
