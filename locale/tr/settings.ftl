@@ -1315,6 +1315,12 @@ tfa-row-verify-session-info = İki aşamalı doğrulamayı ayarlamak için mevcu
 
 # This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
 terms-privacy-agreement-intro-3 = Devam ettiğinizde aşağıdakileri kabul etmiş olursunuz:
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Hizmet Koşulları</termsLink> ve <privacyLink>Gizlilik Bildirimi</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos> ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Devam ederek <mozillaAccountsTos>Hizmet Koşulları</mozillaAccountsTos>’nı ve <mozillaAccountsPrivacy>Gizlilik Bildirimi</mozillaAccountsPrivacy>’ni kabul etmiş olursunuz.
 
@@ -1350,6 +1356,9 @@ auth-error-125 = Bu istek güvenlik nedeniyle engellendi
 auth-error-129-2 = Geçersiz bir telefon numarası yazdınız. Lütfen kontrol edip yeniden deneyin.
 auth-error-138-2 = Onaylanmamış oturum
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Bu e-posta başka bir hesapta kayıtlı. Daha sonra yeniden deneyin veya başka bir e-posta adresi kullanın.
 auth-error-155 = TOTP jetonu bulunamadı
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Yedek kimlik doğrulama kodu bulunamadı
@@ -1927,6 +1936,17 @@ signin-passwordless-code-resend-link = E-posta ile yeni kod gönder.
 signin-passwordless-code-resend-error = Bir sorun oluştu. Yeni kod gönderilemedi.
 signin-passwordless-code-other-account-link = Farklı bir hesap kullan
 
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Bu kodu kullandığınızda tek adımda kaydolabilirsiniz.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Hesabınızda iki aşamalı doğrulama etkin. Lütfen parolanızla giriş yapın.
+
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
@@ -2052,6 +2072,8 @@ signin-totp-code-header = Giriş yap
 signin-totp-code-subheader-v2 = İki aşamalı kimlik doğrulama kodunuzu yazın
 signin-totp-code-instruction-v4 = Giriş işleminizi onaylamak için <strong>kimlik doğrulama uygulamanızı</strong> kontrol edin.
 signin-totp-code-input-label-v4 = 6 basamaklı kodu yazın
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Neden kimliğinizi doğrulamanız isteniyor?
 signin-totp-code-aal-sign-out = Bu cihazdaki oturumu kapat
 signin-totp-code-aal-sign-out-error = Üzgünüz, çıkış yapılırken bir sorun oluştu
 # Form button to confirm if the authentication code entered by the user is valid

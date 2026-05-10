@@ -1233,6 +1233,13 @@ passkey-row-action-create = Opprett
 passkey-row-description = Gjer innlogging enklare og sikrare ved å bruke telefonen din eller ei anna støtta eining for å få tilgang til kontoen din.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Les meir
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Du har nådd det maksimale talet på passnøklar.
+
+## Error / limit messages
+
+# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
+passkey-row-webauthn-not-supported = Nettlesaren eller eininga di støttar ikkje passnøklar.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1423,6 +1430,10 @@ oauth-error-1000 = Noko gjekk gale. Lat att fana og prøv på nytt.
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Oppsett av passnøkkel mislykkast eller er ikkje tilgjengeleg. Prøv igjen eller vel ein annan metode.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Oppsett av passnøkkel er ikkje tilgjengeleg på denne eininga. Anten er eininga allereie registrert, eller så vart oppsettet avbrote.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Oppsett av passnøkkel vart avbrote. Prøv igjen.
 # Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
@@ -1442,6 +1453,8 @@ passkey-registration-error-unexpected = Mislykka oppsett av passnøkkel. Prøv i
 
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Innlogging med passnøkkel mislykkast eller er ikkje tilgjengeleg. Prøv igjen eller vel ein annan metode.
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Oppsett av passnøkkel er ikkje tilgjengeleg på denne eininga. Prøv igjen eller vel ein annan metode.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Førespurnaden om passnøkkel vart tidsavbroten. Prøv igjen.
 # Browser or platform does not support passkeys
@@ -1661,12 +1674,18 @@ pair-qr-code-aria-label = QR-kode
 pair-choice-subheader = Synkroniser { -brand-firefox } eopplevinga di
 # Description shown on the choice screen
 pair-choice-description = Sjå lagra passord, faner, nettlesarlogg og meir – på alle einingane dine.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Last ned eller opne { -brand-firefox } på eininga du vil sende faner til
 # Legend for the radio button fieldset
 pair-choice-legend = Vel eit alternativ for å halde fram:
 # Radio option: user already has Firefox for mobile — title
 pair-choice-has-mobile-title = Eg har allereie { -brand-firefox } for mobil
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Start synkroniseringa di no om du allereie har { -brand-firefox } på mobileininga di.
 # Radio option: user does not have Firefox for mobile — title
 pair-choice-needs-mobile-title = Eg har ikkje { -brand-firefox } for mobil
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Last ned { -brand-firefox } på mobileininga di, og start deretter synkroniseringa.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Hald fram
 # Success banner shown after signing in
@@ -1680,6 +1699,8 @@ pair-password-created-now-syncing = Passord oppretta. Du synkroniserer no.
 
 # Subheader for the download screen
 pair-download-subheader = Last ned { -brand-firefox } for mobil
+# Description for the download screen
+pair-download-description = For å synkronisere { -brand-firefox } på telefonen eller nettbrettet ditt, må du først laste ned { -brand-firefox } for mobil. Slik gjer du det:
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Hald fram til synkronisering
 

@@ -189,6 +189,11 @@ alert-dialog-title = Uyarı penceresi
 
 ## Already Canceling
 
+already-canceling-title = Aboneliğiniz iptal edilecek
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = { $productName } ürününe { $date } tarihine kadar erişebileceksiniz.
+already-canceling-turn-back-on = Aboneliğinizi bitmeden önce istediğiniz zaman yenileyebilirsiniz.
 already-canceling-button-back-to-subscriptions = Aboneliklere dön
 
 ## Navigation breadcrumbs
@@ -219,6 +224,8 @@ subscription-content-no-longer-use-message = Fatura döneminizin son günü olan
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
+cancel-subscription-button-cancel-subscription = Aboneliği iptal et
+    .aria-label = { $productName } aboneliğinizi iptal edin
 cancel-subscription-button-keep-subscription = Aboneliği sürdür
 
 ## Component - Payment Consent Checkbox
@@ -249,11 +256,15 @@ churn-cancel-flow-button-contact-support = Destek birimiyle iletişime geç
 ## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
 churn-cancel-flow-subscription-active-title = { $productName } aboneliğiniz etkin
+churn-cancel-flow-button-go-to-product-page = { $productName } ürününe git
 churn-cancel-flow-cancel-success-title = Ayrılmanıza üzüldük
 
 ## Churn flow - stay subscribed
 
 churn-stay-subscribed-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Aboneliğinizi sürdürerek %{ $discountPercent } tasarruf edin
+churn-stay-subscribed-button-stay-subscribed-and-save = Aboneliğinizi sürdürerek tasarruf edin
 churn-stay-subscribed-title-offer-expired = Bu teklifin süresi doldu
 
 ## $productName (String) - The name of the product associated with the subscription.
@@ -296,6 +307,8 @@ free-trial-content-button-resume-trial = Denemeyi sürdür
 free-trial-content-button-resume-trial-aria = { $productName } denemesini sürdür
 free-trial-content-button-cancel-trial = Denemeyi iptal et
 free-trial-content-button-cancel-trial-aria = { $productName } denemesini iptal et
+free-trial-content-button-cancel-subscription = Aboneliği iptal et
+free-trial-content-button-cancel-subscription-aria = { $productName } aboneliğini iptal et
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -310,6 +323,8 @@ free-trial-content-last-bill-no-tax = { $invoiceTotal }
 free-trial-content-link-view-invoice = Faturayı görüntüle
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 free-trial-content-link-view-invoice-aria = { $productName } faturasını görüntüle
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Ücretsiz denemeniz <bold>{ $date }</bold> tarihinde sona erdi.
 free-trial-content-button-update-payment = Ödeme yöntemini güncelle
 
 # Component - Header
@@ -380,6 +395,11 @@ purchase-details-credit-applied-label = Uygulanan kredi
 purchase-details-total-due-label = Toplam tutar
 next-plan-details-hide-button = Ayrıntıları gizle
 next-plan-details-show-button = Ayrıntıları göster
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = İlk ödeme: { $endDate }
 
 ##
 
@@ -454,6 +474,7 @@ churn-error-page-title-discount-already-applied = İndirim kodu zaten uygulanmı
 churn-error-page-button-manage-subscriptions = Abonelikleri yönet
 churn-error-page-button-contact-support = Destek birimiyle iletişime geç
 churn-error-page-button-try-again = Yeniden dene
+churn-error-page-title-customer-mismatch = Kupon kullanılamıyor
 churn-error-page-button-sign-in = Giriş yap
 churn-error-page-title-general-error = Aboneliğiniz yenilenirken bir sorun oluştu
 churn-error-page-message-general-error = Destek ekibiyle iletişime geçin veya yeniden deneyin.

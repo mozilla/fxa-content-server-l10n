@@ -472,6 +472,15 @@ free-trial-start-message-yearly = Inga betaling er påkravd i dag. Du vil bli be
 # $endDate (String) - The date of the first charge after the free trial ends
 free-trial-first-charge-title = Første betaling: { $endDate }
 
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = Du vil bli belasta { $firstPrice } { $endDate }, og deretter dagleg fram til du avsluttar.
+free-trial-first-charge-message-weekly = Du vil bli belasta { $firstPrice } { $endDate }, og deretter kvar veke fram til du avsluttar.
+free-trial-first-charge-message-monthly = Du vil bli belasta { $firstPrice } { $endDate }, og deretter månadleg fram til du avsluttar.
+free-trial-first-charge-message-halfyearly = Du vil bli belasta { $firstPrice } { $endDate }, og deretter kvar 6. månad fram til du avsluttar.
+free-trial-first-charge-message-yearly = Du vil bli belasta { $firstPrice } { $endDate }, og deretter årleg fram til du avsluttar.
+
 ##
 
 next-coupon-success = Planen din vert fornya automatisk til listeprisen.
@@ -697,6 +706,7 @@ manage-payment-method-intent-error-try-again = Hmm. Det oppstod eit problem med 
 manage-payment-method-intent-error-get-in-touch = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta kontakt med kortutskrivaren din.
 manage-payment-method-intent-error-insufficient-funds = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
 manage-payment-method-intent-error-generic = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
+manage-payment-method-tax-address-required = Vi kunne ikkje fastslå faktureringsadressa di. Kontroller betalingsinformasjonen din og prøv igjen.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
