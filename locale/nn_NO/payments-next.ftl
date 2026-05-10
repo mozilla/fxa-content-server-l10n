@@ -458,6 +458,15 @@ purchase-details-total-due-label = Totalt uteståande
 next-plan-details-hide-button = Gøym detaljar
 next-plan-details-show-button = Vis detaljar
 
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Inga betaling er påkravd i dag. Du vil bli belasta { $firstPrice }/dag etter at gratisperioden vert avslutta { $endDate }.
+free-trial-start-message-weekly = Inga betaling er påkravd i dag. Du vil bli belasta { $firstPrice }/veke etter at gratisperioden vert avslutta { $endDate }.
+free-trial-start-message-monthly = Inga betaling er påkravd i dag. Du vil bli belasta { $firstPrice }/månad etter at gratisperioden vert avslutta { $endDate }.
+free-trial-start-message-halfyearly = Inga betaling er påkravd i dag. Du vil bli belasta { $firstPrice }/6 månadar etter at gratistilbodet vert avslutta den { $endDate }.
+free-trial-start-message-yearly = Inga betaling er påkravd i dag. Du vil bli belasta { $firstPrice }/år etter at gratisperioden vert avslutta { $endDate }.
+
 ##
 
 # $endDate (String) - The date of the first charge after the free trial ends
