@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = คุณจะต้องทำเคร
 
 next-new-user-submit = สมัครสมาชิกเลย
 next-pay-with-heading-paypal = ชำระเงินด้วย { -brand-paypal }
+free-trial-ineligible-notice = บัญชีของคุณไม่เข้าเงื่อนไขสำหรับการทดลองใช้งานฟรี คุณสามารถดำเนินการต่อได้ด้วยการสมัครสมาชิกแบบชำระเงิน
 
 ## Churn flow - cancel
 
