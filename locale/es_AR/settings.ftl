@@ -1236,8 +1236,8 @@ passkey-row-info-link-2 = Conocer más
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner =
     { $count ->
-        [one] Usaste todas las { $count } claves de acceso. Eliminá una clave de acceso para crear una nueva.
-       *[other] Usaste todas las { $count } claves de acceso. Eliminá una clave de acceso para crear una nueva.
+        [one] Usaste la clave de acceso. Borrá la clave de acceso para crear una nueva.
+       *[other] Usaste todas las { $count } claves de acceso. Borrá una clave de acceso para crear una nueva.
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Alcanzaste el número máximo de claves de acceso.
@@ -1620,7 +1620,7 @@ pair-auth-complete-send-tab-heading = Estás listo para enviar algunas pestañas
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } para { $deviceOS } está conectado.
-pair-auth-complete-send-tab-benefits = Eres libre de enviar instantáneamente pestañas abiertas, contraseñas y marcadores entre dispositivos.
+pair-auth-complete-send-tab-benefits = Tenés la libertad de enviar instantáneamente pestañas abiertas, contraseñas y marcadores entre dispositivos.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1743,11 +1743,11 @@ pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde el otro di
 pair-unsupported-header = Conectar usando una aplicación
 pair-unsupported-message = ¿Usaste la cámara del sistema? Tenés que emparejarla desde una aplicación de { -brand-firefox }.
 # Shown as heading when a desktop user visits from a non-Firefox browser
-pair-unsupported-oops-header = ¡Ups! Parece que no está usando { -brand-firefox }.
+pair-unsupported-oops-header = ¡Epa! Parece que no estás usando { -brand-firefox }.
 # Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
 pair-unsupported-switch-to-firefox = Cambiá a { -brand-firefox } y abrí esta página para conectar otro dispositivo.
 # Shown inline on mobile non-Firefox browsers before the download link
-pair-unsupported-oops-mobile = ¡Ups! Parece que no está usando { -brand-firefox }.
+pair-unsupported-oops-mobile = ¡Epa! Parece que no estás usando { -brand-firefox }.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
