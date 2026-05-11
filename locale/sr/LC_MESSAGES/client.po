@@ -1843,7 +1843,7 @@ msgstr "Ако то нисте били ви, <a id=\"change-password\" class=\"
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "Спремни сте да пошаљете неке језичке"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
