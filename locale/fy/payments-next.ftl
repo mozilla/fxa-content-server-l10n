@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Jo moatte dit foltôgje eardat jo fierder 
 
 next-new-user-submit = No abonnearje
 next-pay-with-heading-paypal = Betelje mei { -brand-paypal }
+free-trial-ineligible-notice = Jo account komt net yn oanmerking foar in fergeze proefperioade. Jo kinne trochgean mei in betelle abonnemint.
 
 ## Churn flow - cancel
 

@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Precisa de concluir isto antes de continua
 
 next-new-user-submit = Subscrever agora
 next-pay-with-heading-paypal = Pagar com o { -brand-paypal }
+free-trial-ineligible-notice = A sua conta não é elegível para um teste gratuito. Pode continuar com uma subscrição paga.
 
 ## Churn flow - cancel
 
