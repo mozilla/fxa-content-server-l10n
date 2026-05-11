@@ -391,7 +391,7 @@ subscriptionReactivation-freeTrial-subject = Ваша пробни период 
 subscriptionReactivation-title = Хвала што сте поново активирали вашу { $productName } претплату!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-freeTrial-title = Хвала вам што сте се поново активирали ваш %(productName)s пробни период!
+subscriptionReactivation-freeTrial-title = Хвала вам што сте се поново активирали ваш { $productName } пробни период!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
