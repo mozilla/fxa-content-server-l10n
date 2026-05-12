@@ -958,6 +958,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Bliver alle udvidelser og temaer, du har udgivet via addons.mozilla.org, slettet
 delete-account-continue-button = Fortsæt
+delete-account-delete-button-passwordless = Slet konto
 delete-account-password-input =
     .label = Indtast adgangskode
 delete-account-cancel-button = Annuller
@@ -973,6 +974,17 @@ submit-display-name = Gem
 cancel-display-name = Annuller
 display-name-update-error-2 = Der opstod et problem med at opdatere dit vist navn
 display-name-success-alert-2 = Vist navn opdateret
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Opretter adgangsnøgle…
+page-passkey-add-follow-prompts = Følg vejledningen på din enhed.
+page-passkey-add-cancel = Annuller
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Adgangsnøgle oprettet
+page-passkey-add-error-system = Systemet er ikke tilgængeligt. Prøv igen senere.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
