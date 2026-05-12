@@ -1238,7 +1238,7 @@ passkey-row-info-link-2 = Les meir
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner =
     { $count ->
-       *[other] Du har brukt alle { $count } passnøklane. Slett ein passnøkkel for å opprette ein ny.
+       *[other] Du har brukt alle dei { $count } passnøklane. Slett ein passnøkkel for å opprette ein ny.
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Du har nådd det maksimale talet på passnøklar.
