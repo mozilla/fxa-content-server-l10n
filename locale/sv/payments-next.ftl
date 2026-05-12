@@ -257,6 +257,7 @@ next-payment-confirm-checkbox-error = Du måste slutföra detta innan du går vi
 
 next-new-user-submit = Prenumerera nu
 next-pay-with-heading-paypal = Betala med { -brand-paypal }
+free-trial-ineligible-notice = Ditt konto är inte kvalificerat för en gratis provperiod. Du kan fortsätta med en betald prenumeration.
 
 ## Churn flow - cancel
 
