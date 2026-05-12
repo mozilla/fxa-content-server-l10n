@@ -1711,11 +1711,11 @@ pair-password-created-now-syncing = Heslo vytvořeno. Nyní probíhá synchroniz
 # Subheader for the download screen
 pair-download-subheader = Stáhněte si { -brand-firefox(case: "acc") } pro mobilní zařízení
 # Description for the download screen
-pair-download-description = Pro synchronizaci aplikace { -brand-firefox } do svého telefonu nebo tabletu si nejdříve stáhněte aplikaci { -brand-firefox } pro mobil. Jak na to:
+pair-download-description = Pro synchronizaci aplikace { -brand-firefox } do svého telefonu nebo tabletu si nejdříve stáhněte aplikaci { -brand-firefox } pro mobilní zařízení. Jak na to:
 # Step 1: scan QR code. $stepNumber is the step number (1)
 pair-download-step-scan-qr = <b>Krok { $stepNumber }</b>: Stáhněte si aplikaci { -brand-firefox } naskenováním tohoto QR kódu pomocí fotoaparátu svého mobilního zařízení:
 # Step 2: continue to sync. $stepNumber is the step number (2)
-pair-download-step-continue-sync = <b>Krok { $stepNumber }</b>: Zvolte „Pokračovat“ pro synchronizaci { -brand-firefox } s vaším mobilním zařízením.
+pair-download-step-continue-sync = <b>Krok { $stepNumber }</b>: Zvolte „Pokračovat“ pro synchronizaci aplikace { -brand-firefox } s vaším mobilním zařízením.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Pokračovat se synchronizací
 
@@ -1756,7 +1756,7 @@ pair-unsupported-oops-mobile = Jejda! Zdá se, že nepoužíváte { -brand-firef
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
-pair-unsupported-connecting-mobile-header-v2 = Propojování vašeho mobilního zařízení s vaším { -product-mozilla-account }
+pair-unsupported-connecting-mobile-header-v2 = Propojení mobilního zařízení s vaším { -product-mozilla-account(case: "ins", capitalization: "lower") }
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
 pair-unsupported-connecting-mobile-instructions-v2 = Otevřete { -brand-firefox } na svém počítači, navštivte <b>firefox.com/pair</b> a postupujte podle pokynů na obrazovce pro připojení svého mobilního zařízení.
