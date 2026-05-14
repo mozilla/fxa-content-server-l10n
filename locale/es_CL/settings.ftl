@@ -1242,11 +1242,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Has alcanzado el número máximo de llaves de acceso.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Tu navegador o dispositivo no admite llaves de acceso.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Clave de recuperación de cuenta
@@ -1440,8 +1435,6 @@ passkey-registration-error-not-allowed = La configuración de la llave de acceso
 passkey-registration-error-not-allowed-existing = La creación de la llave de acceso no está disponible para este dispositivo. Es posible que el dispositivo ya esté registrado o que el proceso de configuración se haya cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Se canceló la configuración de la llave de acceso. Vuelve a intentarlo.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Aquí no hay soporte de llaves de acceso. Prueba con otro método o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = No se pueden configurar llaves de acceso en esta página. Usa el sitio seguro y vuelve a intentarlo.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1461,8 +1454,6 @@ passkey-authentication-error-not-allowed = La conexión mediante llave de acceso
 passkey-authentication-error-not-allowed-existing = La configuración de la llave de acceso no está disponible en este dispositivo. Por favor, vuelve a intentarlo o elige otro método.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Se agotó el tiempo de espera para la solicitud de la llave de acceso. Por favor, vuelve a intentarlo.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = No hay soporte de llaves de acceso. Prueba con otro método o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = No se pueden usar llaves de acceso en esta página. Comprueba que estás en el sitio seguro correcto y vuelve a intentarlo.
 # Unexpected credential state during authentication
@@ -2038,25 +2029,6 @@ signup-passwordless-code-subheading = Registrarse solo requiere un paso al usar 
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = La autenticación de dos factores está habilitada en tu cuenta. Por favor, conéctate con tu contraseña.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Verifica esta conexión <span>para continuar con la configuración de la cuenta</span>
-signin-push-code-heading-w-custom-service = Verifica esta conexión <span>para continuar con { $serviceName }</span>
-signin-push-code-instruction = Por favor, verifica tus otros dispositivos y aprueba esta conexión desde tu navegador { -brand-firefox }.
-signin-push-code-did-not-recieve = ¿No recibiste la notificación?
-signin-push-code-send-email-link = Enviar código por correo electrónico
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Confirma tu conexión
-signin-push-code-confirm-description = Hemos detectado una conexión desde el siguiente dispositivo. Si corresponde a ti, por favor, aprueba la conexión
-signin-push-code-confirm-verifying = Verificando
-signin-push-code-confirm-login = Confirmar conexión
-signin-push-code-confirm-wasnt-me = No fui yo, cambiar la contraseña.
-signin-push-code-confirm-login-approved = Tu conexión ha sido aprobada. Cierra esta ventana.
-signin-push-code-confirm-link-error = El enlace está dañado. Por favor, vuelve a intentarlo.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

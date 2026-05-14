@@ -1248,11 +1248,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Ai atins numărul maxim de chei de acces.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Browserul sau dispozitivul nu acceptă chei de acces.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Cheie de recuperare a contului
@@ -1448,8 +1443,6 @@ passkey-registration-error-not-allowed = Setarea cheii de acces a eșuat sau nu 
 passkey-registration-error-not-allowed-existing = Configurarea de chei de acces nu este disponibilă pe acest dispozitiv. Ori dispozitivul a fost deja înregistrat, ori a fost anulată procedura de configurare.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Setarea cheii de acces a fost anulată. Încearcă din nou.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Cheile de acces nu sunt acceptate aici. Încearcă altă metodă sau alt dispozitiv.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Nu poți seta chei de acces pe această pagină. Folosește site-ul securizat și încearcă din nou.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1469,8 +1462,6 @@ passkey-authentication-error-not-allowed = Autentificarea cu cheie de acces a e�
 passkey-authentication-error-not-allowed-existing = Configurarea de chei de acces nu este disponibilă pe acest dispozitiv. Te rugăm să încerci din nou sau să alegi altă metodă.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Timpul de așteptare pentru cheia de acces a expirat. Te rugăm să încerci din nou.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Nu sunt acceptate chei de acces. Încearcă altă metodă sau alt dispozitiv.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Nu poți folosi chei de acces pe această pagină. Verifică dacă ești pe site-ul securizat corect și încearcă din nou.
 # Unexpected credential state during authentication
@@ -2049,25 +2040,6 @@ signup-passwordless-code-subheading = Îți faci cont dintr-un singur pas când 
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Ai activată autentificarea în doi pași în cont. Te rugăm să te conectezi cu parola.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Verifică această autentificare în cont <span>pentru a continua cu setările contului</span>
-signin-push-code-heading-w-custom-service = Verifică această autentificare în cont <span>pentru a continua cu { $serviceName }</span>
-signin-push-code-instruction = Te rugăm să verifici celelalte dispozitive și să aprobi această autentificare în cont din browserul { -brand-firefox }.
-signin-push-code-did-not-recieve = Nu ai primit notificarea?
-signin-push-code-send-email-link = Trimite codul pe e-mail
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Confirmă intrarea în cont
-signin-push-code-confirm-description = Am depistat o tentativă de intrare în cont de pe următorul dispozitiv. Dacă ai fost tu, te rugăm să aprobi autentificarea în cont
-signin-push-code-confirm-verifying = Se verifică
-signin-push-code-confirm-login = Confirmă intrarea în cont
-signin-push-code-confirm-wasnt-me = Nu am fost eu. Schimbă parola.
-signin-push-code-confirm-login-approved = Intrarea în cont a fost aprobată. Te rugăm să închizi această fereastră.
-signin-push-code-confirm-link-error = Linkul este corupt. Te rugăm să încerci din nou.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

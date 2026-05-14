@@ -1246,11 +1246,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Tu ha attingite le numero maxime de claves-contrasigno.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Tu navigator o apparato non supporta clave-contrasigno
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Clave de recuperation del conto
@@ -1447,8 +1442,6 @@ passkey-registration-error-not-allowed = Installation de clave-contrasigno falli
 passkey-registration-error-not-allowed-existing = Le configuration del clave-contrasigno non es disponibile in iste apparato. Le apparato ha jam essite registrate o le processo de configuration cancellate.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Le installation de clave-contrasigno era cancellate. Retenta.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Le claves-contrasigno non es supportate ci. Tenta un altere methodo o apparato.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Le claves-contrasigno non pote esser configurate sur iste pagina. Usa le sito secur e retenta.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1468,8 +1461,6 @@ passkey-authentication-error-not-allowed = Le authentication con clave-contrasig
 passkey-authentication-error-not-allowed-existing = Le configuration del clave-contrasigno non es disponibile in iste apparato. Retenta o elige un altere methodo.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Le petition de clave-contrasigno exiva del tempore limite. Retenta.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Le claves-contrasigno non es supportate. Tenta un altere methodo o apparato.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Le claves-contrasigno non pote esser usate sur iste pagina. Verifica que tu es sur le sito secur correcte e retenta.
 # Unexpected credential state during authentication
@@ -2040,25 +2031,6 @@ signup-passwordless-code-subheading = Le inscription emplea un sol passo quando 
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Le authentication a duo passos es activate sur tu conto. Accede con tu contrasigno.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Verifica iste accesso <span>pro continuar a configurar le conto</span>
-signin-push-code-heading-w-custom-service = Verifica iste accesso <span>pro continuar a { $serviceName }</span>
-signin-push-code-instruction = Verifica tu altere apparatos e approba iste accesso ab tu navigator { -brand-firefox }.
-signin-push-code-did-not-recieve = Non ha tu recipite le aviso?
-signin-push-code-send-email-link = Inviar codice per email
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Confirma tu accesso
-signin-push-code-confirm-description = Nos detectava un tentativa de accesso ab le sequente apparato. Si il era tu, per favor approba le accesso
-signin-push-code-confirm-verifying = Verificante
-signin-push-code-confirm-login = Confirmar accesso
-signin-push-code-confirm-wasnt-me = Iste non era io, cambiar contrasigno.
-signin-push-code-confirm-login-approved = Tu accesso ha essite approbate. Claude iste fenestra.
-signin-push-code-confirm-link-error = Ligamine damnificate. Retenta.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

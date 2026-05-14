@@ -1256,11 +1256,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Dosiahli ste maximálny počet prístupových kľúčov.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Váš prehliadač alebo zariadenie nepodporuje prístupové kľúče.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Kľúč na obnovenie účtu
@@ -1453,8 +1448,6 @@ passkey-registration-error-not-allowed = Nastavenie prístupového kľúča zlyh
 passkey-registration-error-not-allowed-existing = Nastavenie prístupového kľúča nie je s týmto zariadením k dispozícii. Zariadenie už bolo zaregistrované alebo bol proces nastavenia zrušený.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavenie prístupového kľúča bolo zrušené. Skúste to znova.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Prístupové kľúče tu nie sú podporované. Skúste iný spôsob alebo zariadenie.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Na tejto stránke nie je možné nastaviť prístupové kľúče. Použite zabezpečenú stránku a skúste to znova.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1474,8 +1467,6 @@ passkey-authentication-error-not-allowed = Prihlásenie pomocou prístupového k
 passkey-authentication-error-not-allowed-existing = Nastavenie prístupového kľúča nie je s týmto zariadením k dispozícii. Skúste to znova alebo vyberte iný spôsob.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Časový limit žiadosti o prístupový kľúč vypršal. Skúste to znova.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Prístupové kľúče nie sú podporované. Skúste iný spôsob alebo zariadenie.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Na tejto stránke nie je možné použiť prístupové kľúče. Skontrolujte, či ste na správnej zabezpečenej stránke a skúste to znova.
 # Unexpected credential state during authentication
@@ -2054,25 +2045,6 @@ signup-passwordless-code-subheading = Registrácia s týmto kódom má iba jeden
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Vo vašom účte je povolené dvojstupňové overenie. Prihláste sa pomocou hesla.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Overte toto prihlásenie <span>a pokračujte do nastavení účtu</span>
-signin-push-code-heading-w-custom-service = Overte toto prihlásenie <span>a pokračujte do služby { $serviceName }</span>
-signin-push-code-instruction = Skontrolujte svoje ostatné zariadenia a schváľte toto prihlásenie zo svojho prehliadača { -brand-firefox }.
-signin-push-code-did-not-recieve = Nedostali ste notifikáciu?
-signin-push-code-send-email-link = Odoslať kód na e‑mail
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Potvrďte svoje prihlásenie
-signin-push-code-confirm-description = Zistili sme pokus o prihlásenie z nasledujúceho zariadenia. Ak ste to boli vy, potvrďte prihlásenie
-signin-push-code-confirm-verifying = Overuje sa
-signin-push-code-confirm-login = Potvrdiť prihlásenie
-signin-push-code-confirm-wasnt-me = Toto som nebol ja, zmeniť heslo.
-signin-push-code-confirm-login-approved = Vaše prihlásenie bolo schválené. Zatvorte toto okno.
-signin-push-code-confirm-link-error = Odkaz je poškodený. Skúste to znova.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

@@ -1225,11 +1225,6 @@ passkey-row-info-link-2 = Daha fazla bilgi alın
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Maksimum geçiş anahtarı sayısına ulaştınız.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Tarayıcınız veya cihazınız geçiş anahtarlarını desteklemiyor.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Hesap kurtarma anahtarı
@@ -1946,25 +1941,6 @@ signup-passwordless-code-subheading = Bu kodu kullandığınızda tek adımda ka
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Hesabınızda iki aşamalı doğrulama etkin. Lütfen parolanızla giriş yapın.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = <span>Hesap ayarlarına devam etmek için</span> bu hesabı doğrulayın
-signin-push-code-heading-w-custom-service = <span>{ $serviceName } hizmetine devam etmek için</span> bu hesabı doğrulayın
-signin-push-code-instruction = Lütfen diğer cihazlarınızı kontrol ederek { -brand-firefox } tarayıcınızdan bu girişi doğrulayın.
-signin-push-code-did-not-recieve = Bildirim almadınız mı?
-signin-push-code-send-email-link = Kodu e-posta ile gönder
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Girişinizi onaylayın
-signin-push-code-confirm-description = Aşağıdaki cihazdan giriş yapılmaya çalışıldığını tespit ettik. Siz yaptıysanız lütfen girişi onaylayın
-signin-push-code-confirm-verifying = Doğrulanıyor
-signin-push-code-confirm-login = Girişi onayla
-signin-push-code-confirm-wasnt-me = Bu ben değilim, parolayı değiştir.
-signin-push-code-confirm-login-approved = Girişiniz onaylandı. Lütfen bu pencereyi kapatın.
-signin-push-code-confirm-link-error = Bağlantı bozulmuş. Lütfen yeniden deneyin.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

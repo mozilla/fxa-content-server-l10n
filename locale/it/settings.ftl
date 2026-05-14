@@ -1236,11 +1236,6 @@ passkey-row-max-limit-banner = Hai utilizzato tutte le { $count } passkey. Elimi
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Hai raggiunto il numero massimo di passkey.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Il tuo browser o dispositivo non supporta le passkey.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Chiave di recupero dell’account
@@ -1428,8 +1423,6 @@ passkey-registration-error-not-allowed = La configurazione della passkey non è 
 passkey-registration-error-not-allowed-existing = La configurazione della passkey non è disponibile con questo dispositivo. Potrebbe essere già stato registrato oppure la procedura di configurazione è stata annullata.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = La configurazione della passkey è stata annullata. Riprova.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Le passkey non sono supportate. Prova con un altro metodo o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Non è possibile impostare passkey in questa pagina. Utilizza il sito sicuro e riprova.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1449,8 +1442,6 @@ passkey-authentication-error-not-allowed = Accesso con passkey non riuscito o no
 passkey-authentication-error-not-allowed-existing = La configurazione della passkey non è possibile con questo dispositivo. Prova di nuovo oppure seleziona un metodo alternativo.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Richiesta passkey scaduta. Riprova.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Le passkey non sono supportate. Prova con un altro metodo o dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Non è possibile utilizzare passkey in questa pagina. Verifica di essere sul sito sicuro corretto e riprova.
 # Unexpected credential state during authentication
@@ -2021,25 +2012,6 @@ signup-passwordless-code-subheading = La registrazione richiede un solo passaggi
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = L’autenticazione in due passaggi è attiva sul tuo account. Accedi con la tua password.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Verifica queste credenziali <span>per passare alle impostazioni dell’account</span>
-signin-push-code-heading-w-custom-service = Verifica questo accesso <span>per continuare su { $serviceName }</span>
-signin-push-code-instruction = Controlla gli altri dispositivi e approva questo accesso dal browser { -brand-firefox }.
-signin-push-code-did-not-recieve = Non hai ricevuto la notifica?
-signin-push-code-send-email-link = Invia codice per email
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Conferma il tuo accesso
-signin-push-code-confirm-description = È stato rilevato un tentativo di accesso dal seguente dispositivo. Se sei stato tu, conferma l’accesso
-signin-push-code-confirm-verifying = Verifica in corso
-signin-push-code-confirm-login = Conferma l’accesso
-signin-push-code-confirm-wasnt-me = Non sono stato io, cambia la password.
-signin-push-code-confirm-login-approved = Il tuo accesso è stato approvato. Chiudi questa finestra.
-signin-push-code-confirm-link-error = Il link è danneggiato. Riprova.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

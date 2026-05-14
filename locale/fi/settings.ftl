@@ -1674,25 +1674,6 @@ signin-passwordless-code-other-account-link = Käytä toista tiliä
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Kaksivaiheinen todennus on käytössä tililläsi. Kirjaudu sisään salasanallasi.
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Vahvista tämä kirjautuminen <span>jatkaaksesi tilin asetuksiin</span>
-signin-push-code-heading-w-custom-service = Vahvista tämä kirjautuminen <span>jatkaaksesi palveluun { $serviceName }</span>
-signin-push-code-instruction = Tarkista muut laitteesi ja hyväksy tämä kirjautuminen { -brand-firefox }-selaimestasi.
-signin-push-code-did-not-recieve = Etkö saanut ilmoitusta?
-signin-push-code-send-email-link = Lähetä koodi sähköpostitse
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Vahvista kirjautumisesi
-signin-push-code-confirm-description = Havaitsimme kirjautumisyrityksen seuraavasta laitteesta. Jos se olit sinä, hyväksy kirjautuminen
-signin-push-code-confirm-verifying = Vahvistetaan
-signin-push-code-confirm-login = Vahvista kirjautuminen
-signin-push-code-confirm-wasnt-me = Tämä en ollut minä, vaihda salasana.
-signin-push-code-confirm-login-approved = Kirjautumisesi on hyväksytty. Sulje tämä ikkuna.
-signin-push-code-confirm-link-error = Linkki on vaurioitunut. Yritä uudelleen.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.

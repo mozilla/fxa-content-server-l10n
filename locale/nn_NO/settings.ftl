@@ -1243,11 +1243,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Du har nådd det maksimale talet på passnøklar.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Nettlesaren eller eininga di støttar ikkje passnøklar.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Kontogjenopprettingsnøkkel
@@ -1443,8 +1438,6 @@ passkey-registration-error-not-allowed = Oppsett av passnøkkel mislykkast eller
 passkey-registration-error-not-allowed-existing = Oppsett av passnøkkel er ikkje tilgjengeleg på denne eininga. Anten er eininga allereie registrert, eller så vart oppsettet avbrote.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Oppsett av passnøkkel vart avbrote. Prøv igjen.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Passnøklar er ikkje støtta her. Prøv ein annan metode eller eining.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Passnøklar kan ikkje setjast opp på denne sida. Bruk den sikre nettstaden og prøv igjen.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1464,8 +1457,6 @@ passkey-authentication-error-not-allowed = Innlogging med passnøkkel mislykkast
 passkey-authentication-error-not-allowed-existing = Oppsett av passnøkkel er ikkje tilgjengeleg på denne eininga. Prøv igjen eller vel ein annan metode.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Førespurnaden om passnøkkel vart tidsavbroten. Prøv igjen.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Passnøklar blir ikkje støtta. Prøv ein annan metode eller eining.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Passnøklar kan ikkje brukast på denne sida. Kontroller at du er på rett, sikker nettstad, og prøv igjen.
 # Unexpected credential state during authentication
@@ -2041,25 +2032,6 @@ signup-passwordless-code-subheading = Registreringa går raskt om du brukar denn
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Tostegs-autentisering er aktivert på kontoen din. Logg inn med passordet ditt.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Stadfest denne innlogginga <span>for å halde fram til kontoinnstillingane</span>
-signin-push-code-heading-w-custom-service = Stadfest denne innlogginga <span>for å halde fram til { $serviceName }</span>
-signin-push-code-instruction = Kontroller dei andre einingane dine og godkjenn denne innlogginga frå { -brand-firefox }-nettlesaren din.
-signin-push-code-did-not-recieve = Har du ikkje motteke varselet?
-signin-push-code-send-email-link = Send kode på e-post
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Stadfest innlogginga di
-signin-push-code-confirm-description = Vi oppdaga eit innloggingsforsøk frå følgjande eining. Viss dette var deg, ver vennleg og godkjenn innlogginga
-signin-push-code-confirm-verifying = Kontrollerer
-signin-push-code-confirm-login = Stadfest pålogging
-signin-push-code-confirm-wasnt-me = Dette var ikkje meg, byt passord.
-signin-push-code-confirm-login-approved = Innlogginga di er godkjend. lat att dette vindauget.
-signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

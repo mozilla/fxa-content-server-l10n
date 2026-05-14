@@ -1243,11 +1243,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = You’ve reached the maximum number of passkeys.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Your browser or device doesn’t support passkeys.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Account recovery key
@@ -1443,8 +1438,6 @@ passkey-registration-error-not-allowed = Passkey setup failed or is unavailable.
 passkey-registration-error-not-allowed-existing = Passkey setup isn’t available with this device. Either the device has already been registered or the setup process was cancelled.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Passkey setup was cancelled. Try again.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Passkeys aren’t supported here. Try another method or device.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Passkeys can’t be set up on this page. Use the secure site and try again.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1464,8 +1457,6 @@ passkey-authentication-error-not-allowed = Sign-in with passkey failed or is una
 passkey-authentication-error-not-allowed-existing = Passkey setup isn’t available with this device. Please try again or choose another method.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Passkey request timed out. Please try again.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Passkeys aren’t supported. Try another method or device.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Passkeys can’t be used on this page. Check you’re on the correct secure site and try again.
 # Unexpected credential state during authentication
@@ -2041,25 +2032,6 @@ signup-passwordless-code-subheading = Sign-up only takes a single step when you 
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Two-step authentication is enabled on your account. Please sign in with your password.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Verify this login <span>to continue to account settings</span>
-signin-push-code-heading-w-custom-service = Verify this login <span>to continue to { $serviceName }</span>
-signin-push-code-instruction = Please check your other devices and approve this login from your { -brand-firefox } browser.
-signin-push-code-did-not-recieve = Didn’t receive the notification?
-signin-push-code-send-email-link = Email code
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Confirm your login
-signin-push-code-confirm-description = We detected a login attempt from the following device. If this was you, please approve the login
-signin-push-code-confirm-verifying = Verifying
-signin-push-code-confirm-login = Confirm login
-signin-push-code-confirm-wasnt-me = This wasn’t me, change password.
-signin-push-code-confirm-login-approved = Your login has been approved. Please close this window.
-signin-push-code-confirm-link-error = Link is damaged. Please try again.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

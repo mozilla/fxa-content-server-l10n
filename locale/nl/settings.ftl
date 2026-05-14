@@ -1244,11 +1244,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = U hebt het maximale aantal wachtwoordsleutels bereikt.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Uw browser of apparaat ondersteunt geen wachtwoordsleutels.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Accountherstelsleutel
@@ -1444,8 +1439,6 @@ passkey-registration-error-not-allowed = Instellen van wachtwoordsleutel mislukt
 passkey-registration-error-not-allowed-existing = Instellen van wachtwoordsleutel is niet beschikbaar op dit apparaat. Het apparaat is al geregistreerd, of het instelproces is geannuleerd.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Instellen van wachtwoordsleutel is geannuleerd. Probeer het opnieuw.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Wachtwoordsleutels worden hier niet ondersteund. Probeer een andere methode of een ander apparaat.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Wachtwoordsleutels kunnen niet op deze pagina worden ingesteld. Gebruik de beveiligde website en probeer het opnieuw.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1465,8 +1458,6 @@ passkey-authentication-error-not-allowed = Aanmelding met wachtwoordsleutel is m
 passkey-authentication-error-not-allowed-existing = Instellen van wachtwoordsleutel is niet beschikbaar op dit apparaat. Probeer het opnieuw of kies een andere methode.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Wachtwoordsleutelverzoek verlopen. Probeer het opnieuw.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Wachtwoordsleutels worden niet ondersteund. Probeer een andere methode of een ander apparaat.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Wachtwoordsleutels kunnen niet op deze pagina worden gebruikt. Controleer of u de juiste beveiligde website gebruikt en probeer het opnieuw.
 # Unexpected credential state during authentication
@@ -2039,25 +2030,6 @@ signup-passwordless-code-subheading = Registratie vereist slechts één stap als
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Authenticatie in twee stappen is ingeschakeld voor uw account. Meld u aan met uw wachtwoord.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Verifieer deze aanmelding <span>om door te gaan naar uw accountinstellingen</span>
-signin-push-code-heading-w-custom-service = Verifieer deze aanmelding <span>om door te gaan naar { $serviceName }</span>
-signin-push-code-instruction = Controleer uw andere apparaten en keur deze aanmelding goed vanuit uw { -brand-firefox }-browser.
-signin-push-code-did-not-recieve = Hebt u de melding niet ontvangen?
-signin-push-code-send-email-link = Verzend de code via e-mail
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Bevestig uw aanmelding
-signin-push-code-confirm-description = We hebben een aanmeldpoging vanaf het volgende apparaat gedetecteerd. Als u dit was, keur dan de aanmelding goed
-signin-push-code-confirm-verifying = Verifiëren
-signin-push-code-confirm-login = Aanmelding bevestigen
-signin-push-code-confirm-wasnt-me = Dit was ik niet, wijzig wachtwoord.
-signin-push-code-confirm-login-approved = Uw aanmelding is goedgekeurd. Sluit dit venster.
-signin-push-code-confirm-link-error = Koppeling is beschadigd. Probeer het opnieuw.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

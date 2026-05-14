@@ -706,13 +706,6 @@ signin-password-button-label = ഒളിവാക്കു്
 report-signin-header = അംഗീകൃതമല്ലാത്ത പ്രവേശനം റിപ്പോർട്ട് ചെയ്യണോ?
 back = തിരികെ
 
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = പ്രവേശനം ഉറപ്പിക്കുക
-signin-push-code-confirm-verifying = ഉറപ്പിക്കുന്നു
-signin-push-code-confirm-login = പ്രവേശനം തീൎച്ചപ്പെടുത്തുക
-signin-push-code-confirm-link-error = കണ്ണി കേടായി. ദയവായി വീണ്ടും ശ്രമിക്കുക
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.

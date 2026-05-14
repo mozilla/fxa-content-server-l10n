@@ -1,7 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title-2 = Входите в { -product-mozilla-account(case: "nominative") }?
-session-verify-send-push-body-2 = Нажмите здесь, чтобы подтвердить, что это вы
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment

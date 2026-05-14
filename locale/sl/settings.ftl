@@ -1258,11 +1258,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Dosegli ste največje dovoljeno število ključev.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Vaš brskalnik ali naprava ne podpira gesel.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Ključ za obnovitev računa
@@ -1458,8 +1453,6 @@ passkey-registration-error-not-allowed = Nastavitev gesla ni uspela ali pa geslo
 passkey-registration-error-not-allowed-existing = Nastavitev gesla ni na voljo za to napravo. Naprava je že registrirana ali pa je bil postopek nastavitve preklican.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavitev gesla je bila preklicana. Poskusite znova.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Gesla tukaj niso podprta. Poskusite z drugo metodo ali napravo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Na tej strani ni mogoče nastaviti gesel. Uporabite varno spletno mesto in poskusite znova.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1479,8 +1472,6 @@ passkey-authentication-error-not-allowed = Prijava z geslom je spodletela ali pa
 passkey-authentication-error-not-allowed-existing = Nastavitev gesla ni na voljo za to napravo. Poskusite znova ali izberite drug način.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Časovna omejitev za zahtevanje gesla je potekla. Prosimo, poskusite znova.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Gesla niso podprta. Poskusite z drugo metodo ali napravo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Gesli na tej strani ni mogoče uporabiti. Preverite, ali ste na pravem varnem spletnem mestu, in poskusite znova.
 # Unexpected credential state during authentication
@@ -2060,25 +2051,6 @@ signup-passwordless-code-subheading = Če uporabite to kodo, boste opravili samo
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Overitev v dveh korakih je v vašem računu omogočena. Prijavite se s svojim geslom.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Potrdite to prijavo <span>za nadaljevanje v nastavitve računa</span>
-signin-push-code-heading-w-custom-service = Potrdite to prijavo <span>za nadaljevanje v { $serviceName }</span>
-signin-push-code-instruction = Preverite druge svoje naprave in odobrite to prijavo iz svojega brskalnika { -brand-firefox }.
-signin-push-code-did-not-recieve = Niste prejeli obvestila?
-signin-push-code-send-email-link = Pošlji kodo
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Potrdite prijavo
-signin-push-code-confirm-description = Z naslednje naprave smo zaznali poskus prijave. Če ste bili to vi, odobrite prijavo
-signin-push-code-confirm-verifying = Potrjevanje
-signin-push-code-confirm-login = Potrdi prijavo
-signin-push-code-confirm-wasnt-me = To nisem bil/-a jaz, spremeni geslo.
-signin-push-code-confirm-login-approved = Vaša prijava je bila odobrena. Zaprite to okno.
-signin-push-code-confirm-link-error = Povezava je poškodovana. Poskusite znova.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

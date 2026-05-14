@@ -1242,11 +1242,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Sie haben die maximale Anzahl an Zugangsschlüsseln erreicht.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Ihr Browser oder Gerät unterstützt keine Zugangsschlüssel.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Kontowiederherstellungsschlüssel
@@ -1442,8 +1437,6 @@ passkey-registration-error-not-allowed = Einrichtung des Zugangsschlüssels fehl
 passkey-registration-error-not-allowed-existing = Die Passkey-Einrichtung ist für dieses Gerät nicht verfügbar. Entweder war das Gerät bereits registriert oder der Einrichtungsprozess wurde abgebrochen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Einrichtung des Zugangsschlüssels wurde abgebrochen. Erneut versuchen
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Zugangsschlüssel werden hier nicht unterstützt. Versuchen Sie es mit einer anderen Methode oder einem anderen Gerät.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Auf dieser Seite können keine Zugangsschlüssel eingerichtet werden. Verwenden Sie die sichere Website und versuchen Sie es erneut.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1463,8 +1456,6 @@ passkey-authentication-error-not-allowed = Anmeldung mit Zugangsschlüssel fehlg
 passkey-authentication-error-not-allowed-existing = Die Passkey-Einrichtung ist bei diesem Gerät nicht verfügbar. Bitte versuchen Sie es erneut oder wählen Sie eine andere Methode.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Zeitüberschreitung bei Zugangsschlüssel-Anfrage. Bitte versuchen Sie es erneut.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Zugangsschlüssel werden nicht unterstützt. Versuchen Sie es mit einer anderen Methode oder einem anderen Gerät.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Zugangsschlüssel können auf dieser Seite nicht verwendet werden. Überprüfen Sie, ob Sie sich auf der korrekten sicheren Website befinden und versuchen Sie es erneut.
 # Unexpected credential state during authentication
@@ -2035,25 +2026,6 @@ signup-passwordless-code-subheading = Die Registrierung dauert nur einen Schritt
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Die Zwei-Schritt-Authentifizierung ist für Ihr Konto aktiviert. Bitte melden Sie sich mit Ihrem Passwort an.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Bestätigen Sie diese Zugangsdaten, <span>um mit den Kontoeinstellungen fortzufahren</span>
-signin-push-code-heading-w-custom-service = Bestätigen Sie diese Zugangsdaten, <span>um mit { $serviceName } fortzufahren</span>
-signin-push-code-instruction = Bitte überprüfen Sie Ihre anderen Geräte und genehmigen Sie diese Zugangsdaten in Ihrem { -brand-firefox }-Browser.
-signin-push-code-did-not-recieve = Haben Sie die Benachrichtigung nicht erhalten?
-signin-push-code-send-email-link = E-Mail-Code
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Bestätigen Sie Ihre Zugangsdaten
-signin-push-code-confirm-description = Wir haben einen Anmeldeversuch von folgendem Gerät erkannt. Wenn Sie das waren, genehmigen Sie bitte die Anmeldung
-signin-push-code-confirm-verifying = Verifizieren
-signin-push-code-confirm-login = Anmeldung bestätigen
-signin-push-code-confirm-wasnt-me = Das war nicht ich, Passwort ändern.
-signin-push-code-confirm-login-approved = Ihr Anmeldung wurde genehmigt. Bitte schließen Sie dieses Fenster.
-signin-push-code-confirm-link-error = Link ist beschädigt. Bitte versuchen Sie es erneut.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

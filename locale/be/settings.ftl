@@ -1162,11 +1162,6 @@ signin-bounced-help = Калі гэта сапраўдны адрас элект
 signin-bounced-create-new-account = Больш не валодаеце гэтым адрасам? Стварыце новы ўліковы запіс
 back = Назад
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-send-email-link = Выслаць код на эл. пошту
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.

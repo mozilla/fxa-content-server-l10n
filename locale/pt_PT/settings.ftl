@@ -1242,11 +1242,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Atingiu o número máximo de palavras-passe.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = O seu navegador ou dispositivo não suporta palavras-passe.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Chave de recuperação da conta
@@ -1440,8 +1435,6 @@ passkey-registration-error-not-allowed = A configuração da palavra-passe falho
 passkey-registration-error-not-allowed-existing = A configuração por palavra-passe não está disponível para este dispositivo. Ou o dispositivo já está registado ou o processo de configuração foi cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A configuração da chave de acesso foi cancelada. Tente novamente.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Chaves de acesso não são suportadas aqui. Tente outro método ou dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Não podem ser configuradas chaves de acesso nesta página. Utilize o site seguro e tente novamente.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1461,8 +1454,6 @@ passkey-authentication-error-not-allowed = A autenticação com a chave de acess
 passkey-authentication-error-not-allowed-existing = A configuração por palavra-passe não está disponível para este dispositivo. Por favor, tente novamente ou escolha outro método.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = O pedido de chave expirou. Por favor, tente novamente.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Não são suportadas chaves de acesso. Tente outro método ou dispositivo.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Não podem ser utilizadas chaves de acesso nesta página. Verifique se está no site seguro correto e tente novamente.
 # Unexpected credential state during authentication
@@ -2035,25 +2026,6 @@ signup-passwordless-code-subheading = O registo é apenas um único passo quando
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = A autenticação de dois passos está ativada na sua conta. Por favor, inicie sessão com a sua palavra-passe.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Confirme este início de sessão <span>para continuar para as definições da conta</span>
-signin-push-code-heading-w-custom-service = Confirme este início de sessão <span>para continuar para { $serviceName }</span>
-signin-push-code-instruction = Por favor, verifique os seus outros dispositivos e aprove este início de sessão no seu { -brand-firefox }.
-signin-push-code-did-not-recieve = Não recebeu a notificação?
-signin-push-code-send-email-link = Enviar código por e-mail
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Confirme o seu início de sessão
-signin-push-code-confirm-description = Detetámos uma tentativa de início de sessão a partir do seguinte dispositivo. Se foi você, por favor, aprove o início sessão
-signin-push-code-confirm-verifying = A confirmar
-signin-push-code-confirm-login = Confirmar início de sessão
-signin-push-code-confirm-wasnt-me = Não foi eu. Alterar a palavra-passe.
-signin-push-code-confirm-login-approved = O seu início de sessão foi aprovado. Feche esta janela.
-signin-push-code-confirm-link-error = A ligação está danificada. Tente novamente.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

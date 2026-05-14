@@ -1270,11 +1270,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Rydych chi wedi cyrraedd y nifer uchaf o gyfrinallweddi
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Dyw eich porwr neu ddyfais ddim yn cefnogi cyfrineiriau.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Allwedd adfer cyfrif
@@ -1466,8 +1461,6 @@ passkey-registration-error-not-allowed = Methodd gosod y cyfrinallwedd neu nid y
 passkey-registration-error-not-allowed-existing = Dyw gosod cyfrinallwedd ddim yn bosib gyda'r ddyfais hon. Naill ai mae'r ddyfais eisoes wedi'i chofrestru neu cafodd y broses osod ei diddymu.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Wedi diddymu gosod y cyfrinallwedd. Ceisiwch eto.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Dyw cyfrinallweddi ddim yn cael eu cefnogi yma. Rhowch gynnig ar ddull neu ddyfais arall.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Does dim modd gosod cyfrinallweddi  ar y dudalen hon. Defnyddiwch y wefan ddiogel a cheisiwch eto.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1487,8 +1480,6 @@ passkey-authentication-error-not-allowed = Wedi methu mewngofnodi gyda'r cyfrina
 passkey-authentication-error-not-allowed-existing = Dyw gosod cyfrinallwedd ddim yn bosib gyda'r ddyfais hon. Ceisiwch eto neu dewiswch ddull arall.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Daeth y terfyn amser ar y cais am gyfrinallwedd. Ceisiwch eto.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Dyw cyfrinallweddi ddim yn cael eu cefnogi. Rhowch gynnig ar ddull neu ddyfais arall.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Does dim modd defnyddio cyfrinallweddi ar y dudalen hon. Gwiriwch eich bod ar y wefan ddiogel gywir a rhowch gynnig arall arni. diogel cywir a rhowch gynnig arall arni.
 # Unexpected credential state during authentication
@@ -2071,25 +2062,6 @@ signup-passwordless-code-subheading = Dim ond un cam y mae cofrestru'n ei gymryd
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Mae dilysu dau gam wedi'i alluogi ar eich cyfrif. Mewngofnodwch gyda'ch cyfrinair.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Dilyswch y mewngofnodi hwn <span>i barhau i'r gosodiadau cyfrif</span>
-signin-push-code-heading-w-custom-service = Dilyswch y mewngofnodiad hwn <span>i barhau i { $serviceName }</span>
-signin-push-code-instruction = Gwiriwch eich dyfeisiau eraill a chymeradwywch y mewngofnodi hwn o'ch porwr { -brand-firefox }.
-signin-push-code-did-not-recieve = Heb dderbyn yr hysbysiad?
-signin-push-code-send-email-link = Cod e-bost
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Cadarnhewch eich mewngofnodi
-signin-push-code-confirm-description = Rydym wedi canfod ymgais mewngofnodi o'r ddyfais ganlynol. Os mai chi oedd hwn, cymeradwywch y mewngofnodi
-signin-push-code-confirm-verifying = Dilysu
-signin-push-code-confirm-login = Cadarnhau mewngofnodi
-signin-push-code-confirm-wasnt-me = Nid fi oedd hwn, newidiwch y cyfrinair.
-signin-push-code-confirm-login-approved = Mae eich mewngofnodi wedi'i gymeradwyo. Caewch y ffenestr hon.
-signin-push-code-confirm-link-error = Dolen wedi'i difrodi. Ceisiwch eto.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

@@ -1219,11 +1219,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Bạn đã đạt đến số lượng passkey tối đa.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Trình duyệt hoặc thiết bị của bạn không hỗ trợ passkey.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Khóa khôi phục tài khoản
@@ -1417,8 +1412,6 @@ passkey-registration-error-not-allowed = Thiết lập mật khẩu không thàn
 passkey-registration-error-not-allowed-existing = Thiết lập passkey không khả dụng với thiết bị này. Có thể thiết bị đã được đăng ký hoặc quá trình thiết lập đã bị huỷ bỏ.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Đã huỷ quá trình thiết lập passkey. Thử lại.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Passkey không được hỗ trợ ở đây. Hãy thử phương pháp hoặc thiết bị khác.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Không thể thiết lập passkey trên trang này. Vui lòng sử dụng trang web an toàn và thử lại.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1438,8 +1431,6 @@ passkey-authentication-error-not-allowed = Đăng nhập bằng passkey không t
 passkey-authentication-error-not-allowed-existing = Thiết lập passkey không khả dụng với thiết bị này. Vui lòng thử lại hoặc chọn phương pháp khác.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Yêu cầu passkey đã hết hạn. Vui lòng thử lại.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Passkey không được hỗ trợ. Hãy thử phương pháp hoặc thiết bị khác.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Không thể sử dụng passkey trên trang này. Hãy kiểm tra xem bạn đã truy cập đúng trang web an toàn chưa và thử lại.
 # Unexpected credential state during authentication
@@ -2003,25 +1994,6 @@ signup-passwordless-code-subheading = Việc đăng ký chỉ mất một bướ
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Xác thực hai bước đã được bật trên tài khoản của bạn. Vui lòng đăng nhập bằng mật khẩu của bạn.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Xác minh đăng nhập này <span>để tiếp tục cài đặt tài khoản</span>
-signin-push-code-heading-w-custom-service = Xác minh đăng nhập này <span>để tiếp tục đến với { $serviceName }</span>
-signin-push-code-instruction = Vui lòng kiểm tra các thiết bị khác của bạn và phê duyệt thông tin đăng nhập này từ trình duyệt { -brand-firefox } của bạn.
-signin-push-code-did-not-recieve = Không nhận được thông báo?
-signin-push-code-send-email-link = Mã từ email
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Xác nhận đăng nhập của bạn
-signin-push-code-confirm-description = Chúng tôi đã phát hiện lần thử đăng nhập từ thiết bị sau. Nếu đây là bạn, vui lòng phê duyệt đăng nhập
-signin-push-code-confirm-verifying = Đang xác minh
-signin-push-code-confirm-login = Xác nhận đăng nhập
-signin-push-code-confirm-wasnt-me = Không phải tôi, hãy đổi mật khẩu.
-signin-push-code-confirm-login-approved = Đăng nhập của bạn đã được phê duyệt. Hãy đóng cửa sổ này lại.
-signin-push-code-confirm-link-error = Liên kết đã bị hỏng. Hãy thử lại.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

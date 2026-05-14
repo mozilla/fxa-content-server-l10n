@@ -1,7 +1,5 @@
 ## Non-email strings
 
-session-verify-send-push-title-2 = Đăng nhập vào { -product-mozilla-account } của bạn?
-session-verify-send-push-body-2 = Nhấp vào đây để xác minh đó là bạn
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment

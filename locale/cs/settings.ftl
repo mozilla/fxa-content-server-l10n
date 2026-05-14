@@ -1253,11 +1253,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Dosáhli jste maximálního počtu přístupových klíčů.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Váš prohlížeč nebo zařízení nepodporuje přístupové klíče.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Obnovovací klíč k účtu
@@ -1447,8 +1442,6 @@ passkey-registration-error-not-allowed = Nastavení přístupového klíče selh
 passkey-registration-error-not-allowed-existing = Nastavení přístupového klíče není u tohoto zařízení k dispozici. Zařízení je buď již zaregistrováno, nebo byl proces nastavení zrušen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Přístupové klíče zde nejsou podporovány. Zkuste jinou metodu nebo zařízení.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Přístupové klíče na této stránce nelze nastavit. Použijte zabezpečený server a zkuste to znovu.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1468,8 +1461,6 @@ passkey-authentication-error-not-allowed = Přihlášení pomocí přístupovéh
 passkey-authentication-error-not-allowed-existing = Nastavení přístupového klíče není u tohoto zařízení k dispozici. Zkuste to prosím znovu nebo zvolte jinou metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Vypršel časový limit požadavku na přístupový klíč. Zkuste to prosím znovu.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Přístupové klíče nejsou podporovány. Zkuste jinou metodu nebo zařízení.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Na této stránce nelze použít přístupové klíče. Zkontrolujte, zda jste na správné zabezpečené stránce, a zkuste to znovu.
 # Unexpected credential state during authentication
@@ -2043,25 +2034,6 @@ signup-passwordless-code-subheading = Při použití tohoto kódu stačí k regi
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = U vašeho účtu je zapnuto dvoufázové ověřování. Přihlaste se, prosím, pomocí svého hesla.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = <span>Pro pokračování do nastavení účtu</span> ověřte toto přihlášení
-signin-push-code-heading-w-custom-service = Ověřit toto přihlášení <span>a pokračovat do služby { $serviceName }</span>
-signin-push-code-instruction = Zkontrolujte prosím svá ostatní zařízení a schvalte toto přihlášení z prohlížeče { -brand-firefox }.
-signin-push-code-did-not-recieve = Nedostali jste oznámení?
-signin-push-code-send-email-link = Odeslat kód na e-mail
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Potvrďte své přihlášení
-signin-push-code-confirm-description = Zjistili jsme pokus o přihlášení z následujícího zařízení. Pokud jste to byli vy, potvrďte přihlášení
-signin-push-code-confirm-verifying = Ověřuje se
-signin-push-code-confirm-login = Potvrdit přihlášení
-signin-push-code-confirm-wasnt-me = Toto nebylo mé přihlášení, změnit heslo.
-signin-push-code-confirm-login-approved = Vaše přihlášení bylo schváleno. Zavřete prosím toto okno.
-signin-push-code-confirm-link-error = Odkaz je poškozen. Zkuste to prosím znovu.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

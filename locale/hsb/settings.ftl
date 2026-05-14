@@ -1258,11 +1258,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Sće maksimalnu ličbu hesłowych klučow docpěł.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Waš wobhladowak abo grat hesłowe kluče njepodpěruje.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Kontowy wobnowjenski kluč
@@ -1458,8 +1453,6 @@ passkey-registration-error-not-allowed = Konfiguracija hesłoweho kluča njeje s
 passkey-registration-error-not-allowed-existing = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Pak je grat hižo zregistrowany pak konfiguraciski proces je so přetorhnył.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija hesłoweho kluča je so přetorhnyła. Spytajće hišće raz.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Hesłowe kluče so tu njepodpěruja. Spytajće druhu metodu abo grat.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Hesłowe kluče njedadźa so na tutej stronje konfigurować. Wužiwajće wěste sydło a spytajće hišće raz.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1479,8 +1472,6 @@ passkey-authentication-error-not-allowed = Přizjewjenje z hesłowym klučom nje
 passkey-authentication-error-not-allowed-existing = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Spytajće prošu hišće raz abo wubjerće druhu metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Překročenje časa při naprašowanju hesłoweho kluča. Spytajće prošu hišće raz.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Hesłowe kluče so njepodpěruja. Spytajće druhu metodu abo grat.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Hesłowe kluče njedadźa so na tutej stronje wužiwać. Přepruwujće, hač sće na korektnym wěstym sydle a spytajće hišće raz.
 # Unexpected credential state during authentication
@@ -2062,25 +2053,6 @@ signup-passwordless-code-subheading = Registrowanje jenož jedyn krok traje, hdy
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Dwukročelowa awtentifikacija je za waše konto zmóžnjena. Prošu přizjewće so ze swojim hesłom.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Přepruwujće tute přizjewjenje, <span>zo byšće z kontowymi nastajenjemi pokročował</span>
-signin-push-code-heading-w-custom-service = Přepruwujće tute přizjewjenje, <span>zo byšće z { $serviceName } pokročował</span>
-signin-push-code-instruction = Prošu kontrolujće swoje druhe graty a schwalće tute přizjewjenje ze swojeho wobhladowaka { -brand-firefox }.
-signin-push-code-did-not-recieve = Njejsće tutu zdźělenku dóstał?
-signin-push-code-send-email-link = Kod z e-mejlu pósłać
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Wobkrućće swoje přizjewjenje
-signin-push-code-confirm-description = Smy přizjewjenski pospyt ze slědowaceho grata wotkryli. Jeli sće to wy był, schwalće prošu přizjewjenje
-signin-push-code-confirm-verifying = Přepruwuje so
-signin-push-code-confirm-login = Přizjewjenje wobkrućić
-signin-push-code-confirm-wasnt-me = Ja njejsym był to, změńće hesło.
-signin-push-code-confirm-login-approved = Waše přizjewjenje je so schwaliło. Prošu začińće tute wokno.
-signin-push-code-confirm-link-error = Wotkaz je wobškodźeny. Spytajće prošu hišće raz.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

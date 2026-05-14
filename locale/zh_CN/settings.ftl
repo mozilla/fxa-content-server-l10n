@@ -1751,25 +1751,6 @@ signin-passkey-fallback-continue = 继续
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = 验证此次登录<span>以继续进行账户设置</span>
-signin-push-code-heading-w-custom-service = 验证此次登录<span>以进入 { $serviceName }</span>
-signin-push-code-instruction = 请在您的其他设备上，批准此次来自 { -brand-firefox } 浏览器的登录。
-signin-push-code-did-not-recieve = 没有收到通知？
-signin-push-code-send-email-link = 通过邮件发送验证码
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = 请确认登录
-signin-push-code-confirm-description = 我们发现来自以下设备的登录尝试。如果是您在操作，请批准此次登录。
-signin-push-code-confirm-verifying = 正在验证
-signin-push-code-confirm-login = 确认登录
-signin-push-code-confirm-wasnt-me = 非本人操作，更改密码。
-signin-push-code-confirm-login-approved = 已批准登录，请关闭此窗口。
-signin-push-code-confirm-link-error = 链接已损坏，请重试。
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.

@@ -1385,8 +1385,6 @@ oauth-error-1000 = Diç shkoi ters. Ju lutemi, mbylleni këtë skedë dhe riprov
 passkey-registration-error-not-allowed = Ujdisja e kyçkalimit dështoi, ose s’është e mundshme. Riprovoni, ose zgjidhni tjetër metodë.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Ujdisja e kyçkalimit qe anuluar. Riprovoni.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Këtu s’mbulohen kyçkalime. Provoni metodë ose pajisje tjetër.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Në këtë faqe s’mund të ujdisen kyçkalime. Përdorni sajtin e siguruar dhe riprovoni.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1404,8 +1402,6 @@ passkey-registration-error-unexpected = Ujdisja e kyçkalimit dështoi. Riprovon
 passkey-authentication-error-not-allowed = Hyrja me kyçkalim dështoi, ose s’është e përdorshme. Riprovoni, ose zgjidhni tjetër metodë.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Kërkesës për kyçkalim i mbaroi koha. Ju lutemi, riprovoni.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Nuk mbulohen kyçkalime. Provoni metodë ose pajisje tjetër.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Në këtë faqe s’mund të përdoren kyçkalime. Kontrolloni nëse jeni në sajtin e saktë të siguruar dhe riprovoni.
 # Unexpected credential state during authentication
@@ -1903,25 +1899,6 @@ signup-passwordless-code-subheading = Regjistrimi zë vetëm një hap, kur përd
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Mirëfilltësimi dyhapësh është i aktivizuar në llogarinë tuaj. Ju lutemi, bëni hyrjen me fjalëkalimin tuaj.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = <span>Që të vazhdoni te rregullimet e llogarisë</span>, verifikoni këtë hyrje
-signin-push-code-heading-w-custom-service = <span>Që të vazhdohet te { $serviceName }</span>, verifikoni këtë hyrje
-signin-push-code-instruction = Ju lutemi, shihni te pajisjet tuaja të tjera dhe miratoni këtë hyrje që nga shfletuesi juaj { -brand-firefox }.
-signin-push-code-did-not-recieve = S’e morët njoftimin?
-signin-push-code-send-email-link = Kod email
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Ripohoni hyrjen tuaj
-signin-push-code-confirm-description = Pikasëm një përpjekje për hyrje që nga pajisja vijuese. Nëse qetë ju, ju lutemi, miratoni hyrjen.
-signin-push-code-confirm-verifying = Po verifikohet
-signin-push-code-confirm-login = Ripohoni hyrjen
-signin-push-code-confirm-wasnt-me = S’qeshë unë, ndryshojeni fjalëkalimin.
-signin-push-code-confirm-login-approved = Hyrja juaj u miratua. Ju lutemi, mbylleni këtë dritare.
-signin-push-code-confirm-link-error = Lidhja është e dëmtuar. Ju lutemi, riprovoni
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

@@ -1258,11 +1258,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Sćo dojśpił maksimalnu licbu gronidłowych klucow.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Waš wobglědowak abo rěd gronidłowy kluce njepódpěra.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Kontowy wótnowjeński kluc
@@ -1458,8 +1453,6 @@ passkey-registration-error-not-allowed = Konfiguracija gronidłowego kluca njejo
 passkey-registration-error-not-allowed-existing = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Pak jo rěd južo zregistrěrowany pak proces konfiguracije jo se pśetergnuł.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija gronidłowego kluca jo se pśetergnuła. Wopytajśo hyšći raz.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Gronidłowe kluce se how njepódpěraju. Wopytajśo drugu metodu abo rěd.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Gronidłowe kluce njedaju se na toś tom boku konfigurěrowaś. Wužywajśo wěste sedło a wopytajśo hyšći raz.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1479,8 +1472,6 @@ passkey-authentication-error-not-allowed = Pśizjawjenje z gronidłowym klucom n
 passkey-authentication-error-not-allowed-existing = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Pśekšocenje casa pśi napšašowanju gronidłowego kluca. Wopytajśo pšosym hyšći raz.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Gronidłowe kluce se njepódpěraju. Wopytajśo drugu metodu abo rěd.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Gronidłowe kluce njedaju se na toś tom boku wužywaś. Pśeglědajśo, lěc sćo na korektnem wěstem sedle a wopytajśo hyšći raz.
 # Unexpected credential state during authentication
@@ -2062,25 +2053,6 @@ signup-passwordless-code-subheading = Registrěrowanje jano jaden kšac trajo, g
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Dwójokšacowa awtentifikacija jo za wašo konto zmóžnjona. Pšosym pśizjawśo se ze swójim gronidłom.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Pśeglědujśo toś to pśizjawjenje, <span>aby z kontowymi nastajenjami pókšacował</span>
-signin-push-code-heading-w-custom-service = Pśeglědujśo toś to pśizjawjenje, <span>aby z { $serviceName } pókšacował</span>
-signin-push-code-instruction = Pšosym kontrolěrujśo swóje druge rědy a pśizwólśo toś to pśizjawjenje ze swójogo wobglědowaka { -brand-firefox }.
-signin-push-code-did-not-recieve = Njejsćo toś tu powěźeńku dostał?
-signin-push-code-send-email-link = Kod z e-mailu pósłaś
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Wobkšuśćo swójo pśizjawjenje
-signin-push-code-confirm-description = Smy namakali pśizjawjeński wopyt ze slědujucego rěda. Jolic sćo to wy był, pśizwólśo pšosym pśizjawjenje
-signin-push-code-confirm-verifying = Pśespytujo se
-signin-push-code-confirm-login = Pśizjawjenje wobkšuśiś
-signin-push-code-confirm-wasnt-me = Ja njejsom był to, změńśo gronidło.
-signin-push-code-confirm-login-approved = Wašo pśizjawjenje jo se pśizwóliło. Pšosym zacyńśo toś to wokno.
-signin-push-code-confirm-link-error = Wótkaz jo wobškóźony. Wopytajśo pšosym hyšći raz.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with

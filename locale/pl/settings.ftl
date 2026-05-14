@@ -1882,25 +1882,6 @@ signin-passwordless-code-resend-link = Wyślij nowy.
 signin-passwordless-code-resend-error = Coś się nie powiodło. Nie można wysłać nowego kodu.
 signin-passwordless-code-other-account-link = Użyj innego konta
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Zweryfikuj to logowanie, <span>aby przejść do ustawień konta</span>
-signin-push-code-heading-w-custom-service = Zweryfikuj to logowanie, <span>aby przejść do usługi { $serviceName }</span>
-signin-push-code-instruction = Sprawdź inne swoje urządzenia i zatwierdź to logowanie w przeglądarce { -brand-firefox }.
-signin-push-code-did-not-recieve = Powiadomienie nie doszło?
-signin-push-code-send-email-link = Wyślij kod na e-mail
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Potwierdź logowanie
-signin-push-code-confirm-description = Wykryliśmy próbę logowania z poniższego urządzenia. Jeśli to Ty, zatwierdź logowanie
-signin-push-code-confirm-verifying = Weryfikowanie
-signin-push-code-confirm-login = Potwierdź logowanie
-signin-push-code-confirm-wasnt-me = To nie ja, zmień hasło.
-signin-push-code-confirm-login-approved = Logowanie zostało zatwierdzone. Zamknij to okno.
-signin-push-code-confirm-link-error = Odnośnik jest uszkodzony. Proszę spróbować ponownie.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.

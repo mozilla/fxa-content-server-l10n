@@ -1240,11 +1240,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Vous avez atteint le nombre maximal de clés d’accès.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Votre navigateur ou votre appareil ne prend pas en charge les clés d’accès.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Clé de récupération de compte
@@ -1436,8 +1431,6 @@ passkey-registration-error-not-allowed = La configuration de la clé d’accès 
 passkey-registration-error-not-allowed-existing = La configuration d’une clé d’accès n’est pas possible avec cet appareil. Soit l’appareil est déjà enregistré, soit le processus de configuration a été annulé.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = La configuration de la clé d’accès a été annulée. Veuillez réessayer.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Les clés d’accès ne sont pas prises en charge ici. Essayez une autre méthode ou un autre appareil.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Les clés d’accès ne peuvent pas être configurées sur cette page. Utilisez le site sécurisé puis réessayez.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1457,8 +1450,6 @@ passkey-authentication-error-not-allowed = La connexion par clé d’accès a é
 passkey-authentication-error-not-allowed-existing = La configuration d’une clé d’accès n’est pas possible avec cet appareil. Veuillez réessayer ou choisir une autre méthode.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Délai de requête de la clé d’accès dépassé. Veuillez réessayer.
-# Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Les clés d’accès ne sont pas prises en charge. Essayez une autre méthode ou un autre appareil.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Les clés d’accès ne peuvent pas être utilisées sur cette page. Vérifiez que vous vous trouvez sur le bon site sécurisé et réessayez.
 # Unexpected credential state during authentication
@@ -2029,25 +2020,6 @@ signup-passwordless-code-subheading = L’inscription ne se fait qu’en une seu
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = L’authentification en deux étapes est activée sur votre compte. Veuillez vous connecter avec votre mot de passe.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Vérifiez cet identifiant <span>pour accéder aux paramètres du compte</span>
-signin-push-code-heading-w-custom-service = Vérifiez cet identifiant <span>pour continuer vers { $serviceName }</span>
-signin-push-code-instruction = Consultez vos autres appareils pour approuver cette connexion depuis votre navigateur { -brand-firefox }.
-signin-push-code-did-not-recieve = Vous n’avez pas reçu de notification ?
-signin-push-code-send-email-link = Envoyer un code par e-mail
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Confirmez votre identifiant
-signin-push-code-confirm-description = Nous avons détecté une tentative de connexion depuis l’appareil suivant. S’il s’agit de vous, veuillez approuver la connexion
-signin-push-code-confirm-verifying = Vérification
-signin-push-code-confirm-login = Confirmer la connexion
-signin-push-code-confirm-wasnt-me = Il ne s’agissait pas de moi, changer le mot de passe.
-signin-push-code-confirm-login-approved = Votre connexion a été approuvée. Veuillez fermer cette fenêtre.
-signin-push-code-confirm-link-error = Le lien est altéré. Veuillez réessayer.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
