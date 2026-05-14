@@ -288,6 +288,10 @@ checkmark-success-icon-aria-label =
 checkmark-enabled-icon-aria-label =
     .aria-label = Enabled
 
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Chevron right
+
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Close message
@@ -1394,11 +1398,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = You’ve reached the maximum number of passkeys.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Your browser or device doesn’t support passkeys.
-
 ##
 
 ## Account recovery key sub-section on main Settings page
@@ -1559,6 +1558,7 @@ auth-error-226 = Passkey limit reached
 auth-error-227 = Passkey authentication failed
 auth-error-228 = Passkey registration failed
 auth-error-238 = Passkey challenge failed
+auth-error-239 = Sorry, we couldn’t delete your account. Please try again, or contact support if the problem persists.
 auth-error-999 = Unexpected error
 auth-error-1001 = Login attempt cancelled
 auth-error-1002 = Session expired. Sign in to continue.
@@ -1602,8 +1602,13 @@ passkey-registration-error-not-allowed-existing = Passkey setup isn’t availabl
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Passkey setup was canceled. Try again.
 
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Passkeys aren’t supported here. Try another method or device.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Passkey setup was canceled. Try again.
+
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Your browser or device doesn’t support passkeys.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Learn more
 
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Passkeys can’t be set up on this page. Use the secure site and try again.
@@ -1632,7 +1637,7 @@ passkey-authentication-error-not-allowed-existing = Passkey setup isn’t availa
 passkey-authentication-error-timeout = Passkey request timed out. Please try again.
 
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Passkeys aren’t supported. Try another method or device.
+passkey-authentication-error-not-supported-v2 = Your browser or device doesn’t support passkeys.
 
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Passkeys can’t be used on this page. Check you’re on the correct secure site and try again.
@@ -2262,24 +2267,6 @@ signup-passwordless-code-subheading = Sign-up only takes a single step when you 
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Two-step authentication is enabled on your account. Please sign in with your password.
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Verify this login <span>to continue to account settings</span>
-signin-push-code-heading-w-custom-service = Verify this login <span>to continue to { $serviceName }</span>
-signin-push-code-instruction = Please check your other devices and approve this login from your { -brand-firefox } browser.
-signin-push-code-did-not-recieve = Didn’t receive the notification?
-signin-push-code-send-email-link = Email code
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Confirm your login
-signin-push-code-confirm-description = We detected a login attempt from the following device. If this was you, please approve the login
-signin-push-code-confirm-verifying = Verifying
-signin-push-code-confirm-login = Confirm login
-signin-push-code-confirm-wasnt-me = This wasn’t me, change password.
-signin-push-code-confirm-login-approved = Your login has been approved. Please close this window.
-signin-push-code-confirm-link-error = Link is damaged. Please try again.
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
