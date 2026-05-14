@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Activé
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Cœur à droite
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Fermer le message
@@ -1392,6 +1395,7 @@ auth-error-226 = Limite de clés d’accès atteinte
 auth-error-227 = Échec de l’authentification par clé d’accès
 auth-error-228 = Échec de l’enregistrement de la clé d’accès
 auth-error-238 = Échec de la vérification de la clé d’accès
+auth-error-239 = Désolé, nous n’avons pas pu supprimer votre compte. Veuillez essayer à nouveau, ou contacter l’assistance si le problème persiste.
 auth-error-999 = Erreur inattendue
 auth-error-1001 = Tentative de connexion annulée
 auth-error-1002 = Votre session a expiré. Connectez-vous pour continuer.
@@ -1431,6 +1435,12 @@ passkey-registration-error-not-allowed = La configuration de la clé d’accès 
 passkey-registration-error-not-allowed-existing = La configuration d’une clé d’accès n’est pas possible avec cet appareil. Soit l’appareil est déjà enregistré, soit le processus de configuration a été annulé.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = La configuration de la clé d’accès a été annulée. Veuillez réessayer.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = La configuration de la clé d’accès a été annulée. Veuillez réessayer.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Votre navigateur ou votre appareil ne prend pas en charge les clés d’accès.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = En savoir plus
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Les clés d’accès ne peuvent pas être configurées sur cette page. Utilisez le site sécurisé puis réessayez.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1450,6 +1460,8 @@ passkey-authentication-error-not-allowed = La connexion par clé d’accès a é
 passkey-authentication-error-not-allowed-existing = La configuration d’une clé d’accès n’est pas possible avec cet appareil. Veuillez réessayer ou choisir une autre méthode.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Délai de requête de la clé d’accès dépassé. Veuillez réessayer.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Votre navigateur ou votre appareil ne prend pas en charge les clés d’accès.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Les clés d’accès ne peuvent pas être utilisées sur cette page. Vérifiez que vous vous trouvez sur le bon site sécurisé et réessayez.
 # Unexpected credential state during authentication

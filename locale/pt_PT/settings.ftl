@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Ativado
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Chevron à direita
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Fechar mensagem
@@ -1396,6 +1399,7 @@ auth-error-226 = Limite de palavras-passe atingido
 auth-error-227 = Falha na autenticação da palavra-passe
 auth-error-228 = O registo da chave falhou
 auth-error-238 = O desafio da chave de acesso falhou
+auth-error-239 = Desculpe, não conseguimos apagar a sua conta. Por favor, tente novamente ou contacte o suporte se o problema continuar.
 auth-error-999 = Erro inesperado
 auth-error-1001 = Tentativa de início de sessão cancelada
 auth-error-1002 = A sessão expirou. Inicie sessão para continuar.
@@ -1435,6 +1439,12 @@ passkey-registration-error-not-allowed = A configuração da palavra-passe falho
 passkey-registration-error-not-allowed-existing = A configuração por palavra-passe não está disponível para este dispositivo. Ou o dispositivo já está registado ou o processo de configuração foi cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A configuração da chave de acesso foi cancelada. Tente novamente.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = A configuração da chave de acesso foi cancelada. Tente novamente.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = O seu navegador ou dispositivo não suporta palavras-passe.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Saber mais
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Não podem ser configuradas chaves de acesso nesta página. Utilize o site seguro e tente novamente.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1454,6 +1464,8 @@ passkey-authentication-error-not-allowed = A autenticação com a chave de acess
 passkey-authentication-error-not-allowed-existing = A configuração por palavra-passe não está disponível para este dispositivo. Por favor, tente novamente ou escolha outro método.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = O pedido de chave expirou. Por favor, tente novamente.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = O seu navegador ou dispositivo não suporta palavras-passe.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Não podem ser utilizadas chaves de acesso nesta página. Verifique se está no site seguro correto e tente novamente.
 # Unexpected credential state during authentication

@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Engedélyezve
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Sablon jobbra
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Üzenet bezárása
@@ -1404,6 +1407,7 @@ auth-error-226 = A jelkulcsok korlátja elérve
 auth-error-227 = A jelkulcsos hitelesítés sikertelen
 auth-error-228 = A jelkulcs regisztrációja sikertelen
 auth-error-238 = A jelkulcs kihívása sikertelen
+auth-error-239 = Sajnáljuk, nem tudtuk törölni a fiókját. Próbálja újra, vagy lépjen kapcsolatba az ügyfélszolgálattal, ha a probléma továbbra is fennáll.
 auth-error-999 = Nem várt hiba
 auth-error-1001 = Bejelentkezési kísérlet megszakítva
 auth-error-1002 = A munkamenet lejárt. Jelentkezzen be a folytatáshoz.
@@ -1443,6 +1447,12 @@ passkey-registration-error-not-allowed = A jelkulcs beállítása sikertelen vag
 passkey-registration-error-not-allowed-existing = A jelkulcsbeállítás nem érhető el ennél az eszköznél. Vagy az eszköz már regisztrálva lett, vagy a telepítési folyamat megszakításra került.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A jelkulcsbeállítás meg lett szakítva. Próbálja újra.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = A jelkulcsbeállítás meg lett szakítva. Próbálja újra.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = A böngészője vagy az eszköze nem támogatja a jelkulcsokat.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = További tudnivalók
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Ezen az oldalon nem állíthatók be jelkulcsok. Használja a biztonságos webhelyet, és próbálja újra.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1462,6 +1472,8 @@ passkey-authentication-error-not-allowed = A jelkulccsal történő bejelentkez�
 passkey-authentication-error-not-allowed-existing = A jelkulcsbeállítás nem érhető el ennél az eszköznél. Próbálja újra, vagy válasszon másik módszert.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = A jelkulcskérés túllépte az időkorlátot. Próbálja újra.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = A böngészője vagy az eszköze nem támogatja a jelkulcsokat.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Ezen az oldalon nem használhatók jelkulcsok. Ellenőrizze, hogy a megfelelő biztonságos webhelyen jár-e, és próbálja újra.
 # Unexpected credential state during authentication

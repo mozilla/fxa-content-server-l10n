@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Aktivera
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Chevron höger
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Stäng meddelande
@@ -1399,6 +1402,7 @@ auth-error-226 = Gränsvärdet för lösenordsnycklar har nåtts
 auth-error-227 = Autentisering av lösenordsnyckel misslyckades
 auth-error-228 = Registrering av lösenordsnyckel misslyckades
 auth-error-238 = Utmaning för lösenordsnyckel misslyckades
+auth-error-239 = Tyvärr, vi kunde inte ta bort ditt konto. Försök igen eller kontakta supporten om problemet kvarstår.
 auth-error-999 = Oväntat fel
 auth-error-1001 = Inloggningsförsök avbröts
 auth-error-1002 = Sessionen upphörde. Logga in för att fortsätta.
@@ -1438,6 +1442,12 @@ passkey-registration-error-not-allowed = Inställning av lösenordsnyckel missly
 passkey-registration-error-not-allowed-existing = Installation av lösenordsnyckel är inte tillgänglig med den här enheten. Antingen har enheten redan registrerats eller så avbröts installationen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Installationen av lösenordsnyckel avbröts. Försök igen.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Installationen av lösenordsnyckel avbröts. Försök igen.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Din webbläsare eller enhet stöder inte lösenordsnycklar.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Läs mer
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Lösenordsnyckel kan inte konfigureras på den här sidan. Använd den säkra webbplatsen och försök igen.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1457,6 +1467,8 @@ passkey-authentication-error-not-allowed = Inloggning med lösenordsnyckel missl
 passkey-authentication-error-not-allowed-existing = Installation av lösenordsnyckel är inte tillgänglig med den här enheten. Försök igen eller välj en annan metod.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Begäran om lösenordsnyckel har gått ut. Försök igen.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Din webbläsare eller enhet stöder inte lösenordsnycklar.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Lösenordsnycklar kan inte användas på den här sidan. Kontrollera att du är på rätt säker webbplats och försök igen.
 # Unexpected credential state during authentication

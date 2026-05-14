@@ -254,6 +254,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Povoleno
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Šipka vpravo
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Zavřít zprávu
@@ -1403,6 +1406,7 @@ auth-error-226 = Dosažen limit přístupových klíčů
 auth-error-227 = Ověření přístupovým klíčem selhalo
 auth-error-228 = Registrace přístupového klíče selhala
 auth-error-238 = Ověření pomocí přístupového klíče se nezdařilo
+auth-error-239 = Je nám líto, ale váš účet se nepodařilo smazat. Zkuste to znovu nebo kontaktujte podporu, pokud problém přetrvává.
 auth-error-999 = Neočekávaná chyba
 auth-error-1001 = Pokus o přihlášení zrušen
 auth-error-1002 = Relace vypršela. Pro pokračování se přihlaste.
@@ -1442,6 +1446,12 @@ passkey-registration-error-not-allowed = Nastavení přístupového klíče selh
 passkey-registration-error-not-allowed-existing = Nastavení přístupového klíče není u tohoto zařízení k dispozici. Zařízení je buď již zaregistrováno, nebo byl proces nastavení zrušen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Váš prohlížeč nebo zařízení nepodporuje přístupové klíče.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Zjistit více
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Přístupové klíče na této stránce nelze nastavit. Použijte zabezpečený server a zkuste to znovu.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1461,6 +1471,8 @@ passkey-authentication-error-not-allowed = Přihlášení pomocí přístupovéh
 passkey-authentication-error-not-allowed-existing = Nastavení přístupového klíče není u tohoto zařízení k dispozici. Zkuste to prosím znovu nebo zvolte jinou metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Vypršel časový limit požadavku na přístupový klíč. Zkuste to prosím znovu.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Váš prohlížeč nebo zařízení nepodporuje přístupové klíče.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Na této stránce nelze použít přístupové klíče. Zkontrolujte, zda jste na správné zabezpečené stránce, a zkuste to znovu.
 # Unexpected credential state during authentication

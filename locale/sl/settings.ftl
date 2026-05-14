@@ -257,6 +257,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Omogočeno
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Ševron desno
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Zapri sporočilo
@@ -1414,6 +1417,7 @@ auth-error-226 = Dosežena omejitev gesel
 auth-error-227 = Overjanje gesla ni uspelo
 auth-error-228 = Registracija gesla ni uspela
 auth-error-238 = Izziv gesla je spodletel
+auth-error-239 = Žal vašega računa nismo mogli izbrisati. Poskusite znova ali pa se obrnite na podporo, če se težava ponovi.
 auth-error-999 = Nepričakovana napaka
 auth-error-1001 = Poskus prijave preklican
 auth-error-1002 = Seja je potekla. Za nadaljevanje se prijavite.
@@ -1453,6 +1457,12 @@ passkey-registration-error-not-allowed = Nastavitev gesla ni uspela ali pa geslo
 passkey-registration-error-not-allowed-existing = Nastavitev gesla ni na voljo za to napravo. Naprava je že registrirana ali pa je bil postopek nastavitve preklican.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavitev gesla je bila preklicana. Poskusite znova.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Nastavitev gesla je bila preklicana. Poskusite znova.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Vaš brskalnik ali naprava ne podpira gesel.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Več o tem
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Na tej strani ni mogoče nastaviti gesel. Uporabite varno spletno mesto in poskusite znova.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1472,6 +1482,8 @@ passkey-authentication-error-not-allowed = Prijava z geslom je spodletela ali pa
 passkey-authentication-error-not-allowed-existing = Nastavitev gesla ni na voljo za to napravo. Poskusite znova ali izberite drug način.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Časovna omejitev za zahtevanje gesla je potekla. Prosimo, poskusite znova.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Vaš brskalnik ali naprava ne podpira gesel.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Gesli na tej strani ni mogoče uporabiti. Preverite, ali ste na pravem varnem spletnem mestu, in poskusite znova.
 # Unexpected credential state during authentication

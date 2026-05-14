@@ -263,6 +263,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Galluogwyd
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Chevron iawn
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Cau neges
@@ -1422,6 +1425,7 @@ auth-error-226 = Wedi cyrraedd terfyn y cyfrinallwedd
 auth-error-227 = Wedi methu dilysu'r cyfrinallwedd
 auth-error-228 = Wedi methu cofrestri'r cyfrinallwedd
 auth-error-238 = Methodd her y cyfrinallwedd
+auth-error-239 = Mae'n ddrwg gennym, ni allem ddileu eich cyfrif. Ceisiwch eto, neu cysylltwch â'r tîm cymorth os yw'r broblem yn parhau.
 auth-error-999 = Gwall anhysbys
 auth-error-1001 = Diddymwyd yr ymgais i fewngofnodi
 auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodwch i barhau.
@@ -1461,6 +1465,12 @@ passkey-registration-error-not-allowed = Methodd gosod y cyfrinallwedd neu nid y
 passkey-registration-error-not-allowed-existing = Dyw gosod cyfrinallwedd ddim yn bosib gyda'r ddyfais hon. Naill ai mae'r ddyfais eisoes wedi'i chofrestru neu cafodd y broses osod ei diddymu.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Wedi diddymu gosod y cyfrinallwedd. Ceisiwch eto.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Wedi diddymu gosod y cyfrinallwedd. Ceisiwch eto.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Dyw eich porwr neu ddyfais ddim yn cefnogi cyfrineiriau.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Dysgu rhagor
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Does dim modd gosod cyfrinallweddi  ar y dudalen hon. Defnyddiwch y wefan ddiogel a cheisiwch eto.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1480,6 +1490,8 @@ passkey-authentication-error-not-allowed = Wedi methu mewngofnodi gyda'r cyfrina
 passkey-authentication-error-not-allowed-existing = Dyw gosod cyfrinallwedd ddim yn bosib gyda'r ddyfais hon. Ceisiwch eto neu dewiswch ddull arall.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Daeth y terfyn amser ar y cais am gyfrinallwedd. Ceisiwch eto.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Dyw eich porwr neu ddyfais ddim yn cefnogi cyfrineiriau.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Does dim modd defnyddio cyfrinallweddi ar y dudalen hon. Gwiriwch eich bod ar y wefan ddiogel gywir a rhowch gynnig arall arni. diogel cywir a rhowch gynnig arall arni.
 # Unexpected credential state during authentication
