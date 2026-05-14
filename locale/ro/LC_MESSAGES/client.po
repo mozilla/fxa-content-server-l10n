@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-14 20:37+0000\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "Generated-By: Pontoon\n"
@@ -79,7 +81,7 @@ msgstr "Notificările privind contul vor fi de acum trimise și la %(secondaryEm
 msgid "Secondary email confirmed"
 msgstr "Adresă de e-mail secundară confirmată"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7 .es5/templates/push/completed.mustache:1
+#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7
 msgid "Sign-in confirmed"
 msgstr "Autentificare confirmată"
 
@@ -798,7 +800,9 @@ msgid "Invalid Token"
 msgstr "Jeton nevalid"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Prin continuare, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Condițiile de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Notificarea privind "
 "confidenţialitatea</a> %(serviceName)s (%(serviceUri)s)."
@@ -823,7 +827,7 @@ msgstr "%(country)s (locație estimată)"
 msgid "IP address: %(ip)s"
 msgstr "Adresă IP: %(ip)s"
 
-#: .es5/lib/strings.js:43 .es5/templates/push/confirm_login.mustache:2
+#: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Pentru un plus de securitate, te rugăm să confirmi această autentificare pentru a începe sincronizarea cu dispozitivul:"
 
@@ -867,7 +871,8 @@ msgid "Please enter the one time use account recovery key you stored in a safe p
 msgstr "Te rugăm să introduci cheia de recuperare a contului de unică folosință pe care ai păstrat-o într-un loc sigur ca să recuperezi accesul la contul tău Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
+msgid ""
+"<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
 msgstr ""
 "<span class=\"note\">OBS:</span> Dacă resetezi parola și ai cheia de recuperare a contului salvată, unele date vor fi șterse (inclusiv datele sincronizate de pe server, precum istoricul și "
 "marcajele)."
@@ -1073,36 +1078,43 @@ msgstr "Parolă"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Prin continuare, ești de acord cu:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Prin continuare, ești de acord cu:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente "
+"abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Prin continuare, ești de acord cu <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> și <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>."
+"Prin continuare, ești de acord cu <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1148,28 +1160,34 @@ msgstr "Un cont Mozilla deblochează și accesul la mai multe produse de la Mozi
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Prin continuare, ești de acord cu:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "               Prin continuare, ești de acord cu:<br />\n"
-"               <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"               <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente "
+"abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/"
+"privacy\">Notificarea privind confidențialitatea</a>\n"
 "            "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1336,8 +1354,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>NOTĂ:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (inclusiv istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru "
-"a-ți proteja confidențialitatea. Vei avea în continuare orice abonamente existente, iar datele din Pocket nu vor fi afectate."
+"<span>NOTĂ:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (inclusiv istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru a-"
+"ți proteja confidențialitatea. Vei avea în continuare orice abonamente existente, iar datele din Pocket nu vor fi afectate."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1435,7 +1453,7 @@ msgstr "Deschide aplicația de autentificare și introdu codul de securitate fur
 msgid "Trouble entering code?"
 msgstr "Ai probleme cu introducerea codului?"
 
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
+#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
 msgid "Authorize this sign-in"
 msgstr "Autorizează această autentificare"
 
@@ -1494,42 +1512,6 @@ msgstr "Introdu parola pentru a-ți vedea cheia de recuperare a contului."
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
 msgstr "Introdu parola"
-
-#: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
-msgid "Successfully connected"
-msgstr "Conectare realizată cu succes"
-
-#: .es5/templates/push/completed.mustache:3
-msgid "Please close this page and continue on the other device."
-msgstr "Te rugăm să închizi pagina și să continui pe celălalt dispozitiv."
-
-#: .es5/templates/push/confirm_login.mustache:1
-msgid "New sign-in to Firefox"
-msgstr "Autentificare nouă în Firefox"
-
-#: .es5/templates/push/confirm_login.mustache:3
-msgid "Confirm sign-in"
-msgstr "Confirmă autentificarea"
-
-#: .es5/templates/push/confirm_login.mustache:4
-msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr "Dacă suspectezi că cineva încearcă să obțină acces la contul tău, <a id=\"change-password\" href=\"/settings/change_password\">te rugăm să îți schimbi parola.</a>"
-
-#: .es5/templates/push/send_login.mustache:2
-msgid "Send login push notification"
-msgstr "Trimite o notificare push pentru conectare"
-
-#: .es5/templates/push/send_login.mustache:3
-msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr "Verifică-ți dispozitivele Firefox conectate pentru a vedea fila de confirmare a autentificării pe care ți-am trimis-o."
-
-#: .es5/templates/push/send_login.mustache:4
-msgid "Resend tab"
-msgstr "Retrimite fila"
-
-#: .es5/templates/push/send_login.mustache:5
-msgid "Tab not arriving? Send an email instead"
-msgstr "Nu ajunge fila? Trimite un mesaj pe e-mail în schimb"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
@@ -1745,8 +1727,8 @@ msgstr "Află mai multe"
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr ""
-"Am redenumit conturile Firefox cu conturi Mozilla. Te vei autentifica în continuare în cont cu același nume de utilizator și aceeași adresă și nu mai sunt alte modificări aduse produselor pe care le"
-" utilizezi."
+"Am redenumit conturile Firefox cu conturi Mozilla. Te vei autentifica în continuare în cont cu același nume de utilizator și aceeași adresă și nu mai sunt alte modificări aduse produselor pe care "
+"le utilizezi."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
@@ -1851,6 +1833,10 @@ msgstr "Dacă nu ai fost tu., <a id=\"change-password\" class=\"link-blue\">schi
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
 msgstr "Ești gata să trimiți niște file"
+
+#: .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
+msgid "Successfully connected"
+msgstr "Conectare realizată cu succes"
 
 #: .es5/templates/pair/auth_complete.mustache:3
 msgid ""
