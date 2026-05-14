@@ -235,6 +235,7 @@ churn-stay-subscribed-title-offer-expired = Tämä tarjous on päättynyt
 churn-stay-subscribed-subtitle-offer-expired = Haluatko jatkaa tuotteen { $productName } käyttämistä?
 churn-stay-subscribed-title-subscription-renewed = Tilaus uusittu
 churn-stay-subscribed-title-subscription-active = { $productName }-tilauksesi on aktiivinen
+churn-stay-subscribed-button-go-to-subscriptions = Siirry tilauksiin
 
 ## Component - CouponForm
 
@@ -260,6 +261,8 @@ free-trial-content-trial-expires = Ilmainen kokeilujaksosi päättyy { $date }.
 # Charge info strings - no tax, per interval
 
 free-trial-content-action-error = Tapahtui odottamaton virhe. Yritä uudelleen.
+free-trial-content-button-cancel-trial = Peru kokeilujakso
+free-trial-content-button-cancel-subscription = Peru tilaus
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.

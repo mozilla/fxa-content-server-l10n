@@ -386,6 +386,8 @@ password-strength-inline-passwords-match = Salasanat täsmäävät
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Sinun puhelin. Sinun säännöt.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = Skannaa saadaksesi sovelluksen
 
 ## Notification Promo Banner component
 
@@ -844,6 +846,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = Kaikki addons.mozilla.org-palveluun julkaisemasi laajennukset ja teemat poistetaan
 delete-account-continue-button = Jatka
+delete-account-delete-button-passwordless = Poista tili
 delete-account-password-input =
     .label = Kirjoita salasana
 delete-account-cancel-button = Peruuta
@@ -859,6 +862,10 @@ submit-display-name = Tallenna
 cancel-display-name = Peruuta
 display-name-update-error-2 = Näyttönimeäsi päivitettäessä tapahtui virhe
 display-name-success-alert-2 = Näyttönimi päivitetty
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-cancel = Peruuta
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -963,6 +970,10 @@ product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 # Links out to the Monitor site
 product-promo-monitor-cta = Hanki ilmainen tarkistus
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+# Links out to the VPN site
+product-promo-vpn-cta = Hanki { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1056,6 +1067,8 @@ row-defaults-status = Ei mitään
 
 ## UnitRowPasskey
 
+passkey-row-enabled = Käytössä
+passkey-row-not-set = Ei asetettu
 passkey-row-action-create = Luo
 
 ## Account recovery key sub-section on main Settings page
@@ -1143,6 +1156,8 @@ tfa-row-cannot-disable-2 = Kaksivaiheista todennusta ei voitu poistaa käytöst�
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = Jatkamalla hyväksyt:
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Jatkamalla hyväksyt <mozillaAccountsTos>käyttöehdot</mozillaAccountsTos> ja <mozillaAccountsPrivacy>tietosuojakäytännön</mozillaAccountsPrivacy>.
 
@@ -1372,9 +1387,14 @@ auth-totp-code-required-error = Todennuskoodi vaaditaan
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Hyväksyntä vaaditaan nyt <span>joltakin muulta laitteeltasi</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-try-again-link = Yritä uudelleen
+
 ## Pair index page
 
 pair-sync-header = Synkronoi { -brand-firefox } puhelimella tai tabletilla
+pair-cad-header-v2 = Yhdistä toinen laite
 pair-already-have-firefox-paragraph = Löytyykö { -brand-firefox } jo puhelimestasi tai tabletistasi?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkronoi laitteesi
@@ -1389,6 +1409,28 @@ pair-take-your-data-message = Ota välilehdet, kirjanmerkit ja salasanat mukaan 
 pair-get-started-button = Aloita
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR-koodi
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Legend for the radio button fieldset
+pair-choice-legend = Jatka valitsemalla vaihtoehto:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Minulla on jo { -brand-firefox } mobiililaitteille
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Minulla ei ole { -brand-firefox }ia mobiililaitteille
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Jatka
+# Success banner shown after signing in
+pair-signed-in-successfully = Kirjautuminen onnistui!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Tili luotu. Synkronoit nyt.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Salasana luotu. Synkronoit nyt.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Lataa { -brand-firefox } mobiililaitteille
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1417,6 +1459,8 @@ pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <span>joltain muult
 
 pair-unsupported-header = Muodosta pari sovelluksella
 pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostaminen tulee tehdä { -brand-firefox }-sovelluksesta.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Lue lisää
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1616,6 +1660,7 @@ signin-passkey-fallback-continue = Jatka
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Kirjoita vahvistuskoodi
+signin-passwordless-code-input-label-v2 = Kirjoita 6-numeroinen koodi
 signin-passwordless-code-confirm-button = Vahvista
 signin-passwordless-code-required-error = Vahvistuskoodi vaaditaan
 signin-passwordless-code-expired = Vanheniko koodi?
