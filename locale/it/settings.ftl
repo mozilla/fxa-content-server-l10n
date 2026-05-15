@@ -253,7 +253,7 @@ checkmark-enabled-icon-aria-label =
     .aria-label = Attivo
 # Used to indicate that an action will navigate forward or open a detail view
 chevron-right-icon-aria-label =
-    .aria-label = Chevron a destra
+    .aria-label = Freccia a destra
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Chiudi messaggio
@@ -1387,7 +1387,7 @@ auth-error-226 = Raggiunto il limite di passkey
 auth-error-227 = Autenticazione con passkey non riuscita
 auth-error-228 = Registrazione passkey non riuscita
 auth-error-238 = Verifica passkey non riuscita
-auth-error-239 = Siamo spiacenti, non è stato possibile eliminare il tuo account. Riprova o contatta il supporto se il problema persiste.
+auth-error-239 = Ci dispiace, non siamo riusciti a eliminare il tuo account. Riprova oppure contatta l’assistenza se il problema persiste.
 auth-error-999 = Errore imprevisto
 auth-error-1001 = Tentativo di accesso annullato
 auth-error-1002 = La sessione è scaduta. Accedi per continuare.
