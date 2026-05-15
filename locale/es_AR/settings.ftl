@@ -253,7 +253,7 @@ checkmark-enabled-icon-aria-label =
     .aria-label = Habilitado
 # Used to indicate that an action will navigate forward or open a detail view
 chevron-right-icon-aria-label =
-    .aria-label = Cheurón a la derecha
+    .aria-label = Comillas angulares a la derecha
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Cerrar mensaje
@@ -1401,7 +1401,7 @@ auth-error-226 = Se alcanzó el límite de claves de acceso
 auth-error-227 = Falló la autenticación de clave de acceso
 auth-error-228 = Falló el registro de la clave de acceso
 auth-error-238 = Falló la verificación de la clave de acceso
-auth-error-239 = Lo sentimos, no pudimos eliminar tu cuenta. Intente nuevamente o contacte a soporte si el problema persiste.
+auth-error-239 = Lo sentimos, no pudimos borrar tu cuenta. Probá de nuevo o contactá a soporte si el problema persiste.
 auth-error-999 = Error inesperado
 auth-error-1001 = Intento de inicio de sesión de cancelado
 auth-error-1002 = La sesión caducó. Iniciá sesión de nuevo para conituar.
@@ -1444,7 +1444,7 @@ passkey-registration-error-timeout = Se canceló la configuración de la clave d
 # User clicked the in-page Cancel link while the ceremony was still pending
 passkey-registration-canceled = Se canceló la configuración de la clave de acceso. Probá de nuevo.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
-passkey-registration-error-not-supported-v2 = Su navegador o dispositivo no soporta claves de acceso.
+passkey-registration-error-not-supported-v2 = Tu navegador o dispositivo no soporta claves de acceso.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Conocer más
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
@@ -1467,7 +1467,7 @@ passkey-authentication-error-not-allowed-existing = La configuración de la clav
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Se agotó el tiempo de espera para el pedido de clave de acceso. Probá de nuevo.
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported-v2 = Su navegador o dispositivo no soporta claves de acceso.
+passkey-authentication-error-not-supported-v2 = Tu navegador o dispositivo no soporta claves de acceso.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = No se pueden usar claves de acceso en esta página. Fíjate si estás en el sitio seguro correcto y probá de nuevo.
 # Unexpected credential state during authentication
