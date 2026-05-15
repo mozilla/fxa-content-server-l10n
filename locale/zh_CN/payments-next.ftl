@@ -201,6 +201,7 @@ already-canceling-title = 您的订阅即将结束
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 already-canceling-message = 您可以在 { $date } 前继续使用 { $productName }。
+already-canceling-turn-back-on = 您可以在订阅结束前随时重新开启订阅。
 already-canceling-button-back-to-subscriptions = 返回“订阅”
 
 ## Navigation breadcrumbs
