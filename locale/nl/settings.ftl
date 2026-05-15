@@ -1400,6 +1400,7 @@ auth-error-226 = Wachtwoordsleutellimiet bereikt
 auth-error-227 = Wachtwoordsleutelauthenticatie mislukt
 auth-error-228 = Registratie wachtwoordsleutel mislukt
 auth-error-238 = Wachtwoordsleutel-uitdaging mislukt
+auth-error-239 = Sorry, we konden uw account niet verwijderen. Probeer het opnieuw, of neem contact op met de ondersteuningsafdeling als het probleem aanhoudt.
 auth-error-999 = Onverwachte fout
 auth-error-1001 = Aanmeldingspoging geannuleerd
 auth-error-1002 = Sessie verlopen. Meld u aan om door te gaan.
@@ -1439,6 +1440,12 @@ passkey-registration-error-not-allowed = Instellen van wachtwoordsleutel mislukt
 passkey-registration-error-not-allowed-existing = Instellen van wachtwoordsleutel is niet beschikbaar op dit apparaat. Het apparaat is al geregistreerd, of het instelproces is geannuleerd.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Instellen van wachtwoordsleutel is geannuleerd. Probeer het opnieuw.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Instellen van wachtwoordsleutel is geannuleerd. Probeer het opnieuw.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Uw browser of apparaat ondersteunt geen wachtwoordsleutels.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Meer info
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Wachtwoordsleutels kunnen niet op deze pagina worden ingesteld. Gebruik de beveiligde website en probeer het opnieuw.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1458,6 +1465,8 @@ passkey-authentication-error-not-allowed = Aanmelding met wachtwoordsleutel is m
 passkey-authentication-error-not-allowed-existing = Instellen van wachtwoordsleutel is niet beschikbaar op dit apparaat. Probeer het opnieuw of kies een andere methode.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Wachtwoordsleutelverzoek verlopen. Probeer het opnieuw.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Uw browser of apparaat ondersteunt geen wachtwoordsleutels.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Wachtwoordsleutels kunnen niet op deze pagina worden gebruikt. Controleer of u de juiste beveiligde website gebruikt en probeer het opnieuw.
 # Unexpected credential state during authentication
