@@ -66,6 +66,15 @@ recovery-key-pdf-support = Więcej informacji o kluczu odzyskiwania konta
 # Error message displayed in an alert bar if the PDF download failed.
 recovery-key-pdf-download-error = Przepraszamy, wystąpił problem podczas pobierania klucza odzyskiwania konta.
 
+## ButtonPasskeySignin
+
+button-passkey-signin = Zaloguj się za pomocą klucza dostępu
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Bezpieczne logowanie…
+
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
@@ -252,6 +261,9 @@ usa-flag-icon-aria-label =
 # Used for loading arrow icon
 icon-loading-arrow-aria-label =
     .aria-label = Wczytywanie
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Klucz dostępu
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -1184,6 +1196,10 @@ row-defaults-action-add = Dodaj
 row-defaults-action-change = Zmień
 row-defaults-action-disable = Wyłącz
 row-defaults-status = Brak
+
+## UnitRowPasskey
+
+passkey-row-header = Klucze dostępu
 
 ## Account recovery key sub-section on main Settings page
 
