@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Aktivert
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Pil mot høgre
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Lat att melding
@@ -1399,6 +1402,7 @@ auth-error-226 = Passnøkkelgrensa er nådd
 auth-error-227 = Mislykka passnøkkelautentisering
 auth-error-228 = Mislykka registrering av passnøkkel
 auth-error-238 = Mislykka passnøkkelutfordring
+auth-error-239 = Beklagar, vi kunne ikkje slette kontoen din. Prøv på nytt, eller kontakt brukarstøtte viss problemet held fram.
 auth-error-999 = Uventa feil
 auth-error-1001 = Innloggingsforsøket avbrote
 auth-error-1002 = Økta er slutt. Logg inn for å halde fram.
@@ -1438,6 +1442,12 @@ passkey-registration-error-not-allowed = Oppsett av passnøkkel mislykkast eller
 passkey-registration-error-not-allowed-existing = Oppsett av passnøkkel er ikkje tilgjengeleg på denne eininga. Anten er eininga allereie registrert, eller så vart oppsettet avbrote.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Oppsett av passnøkkel vart avbrote. Prøv igjen.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Oppsett av passnøkkel vart avbrote. Prøv igjen.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Nettlesaren eller eininga di støttar ikkje passnøklar.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Les meir
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Passnøklar kan ikkje setjast opp på denne sida. Bruk den sikre nettstaden og prøv igjen.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1457,6 +1467,8 @@ passkey-authentication-error-not-allowed = Innlogging med passnøkkel mislykkast
 passkey-authentication-error-not-allowed-existing = Oppsett av passnøkkel er ikkje tilgjengeleg på denne eininga. Prøv igjen eller vel ein annan metode.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Førespurnaden om passnøkkel vart tidsavbroten. Prøv igjen.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Nettlesaren eller eininga di støttar ikkje passnøklar.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Passnøklar kan ikkje brukast på denne sida. Kontroller at du er på rett, sikker nettstad, og prøv igjen.
 # Unexpected credential state during authentication
