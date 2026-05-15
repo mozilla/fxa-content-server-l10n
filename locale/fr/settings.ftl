@@ -253,7 +253,7 @@ checkmark-enabled-icon-aria-label =
     .aria-label = Activé
 # Used to indicate that an action will navigate forward or open a detail view
 chevron-right-icon-aria-label =
-    .aria-label = Cœur à droite
+    .aria-label = Chevron vers la droite
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Fermer le message
