@@ -257,6 +257,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Zmóžnjony
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Špicna pazorka napšawo
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Powěźeńku zacyniś
@@ -1414,6 +1417,7 @@ auth-error-226 = Limit za gronidłowy kluc dojśpity
 auth-error-227 = Awtentifikacija gronidłowego kluca njejo se raźiła
 auth-error-228 = Registracija gronidłowego kluca njejo se raźiła
 auth-error-238 = Pśeglědanje gronidłowego kluca njejo se raźiło
+auth-error-239 = Bóžko njejsmy mógli wašo konto wulašowaś. Pšosym wopytajśo hyšći raz abo stajśo se z teamom pomocy do zwiska, jolic problem dalej eksistěrujo.
 auth-error-999 = Njewótcakowana zmólka
 auth-error-1001 = Pśizjawjeński wopyt pśetergnjony
 auth-error-1002 = Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował.
@@ -1453,6 +1457,12 @@ passkey-registration-error-not-allowed = Konfiguracija gronidłowego kluca njejo
 passkey-registration-error-not-allowed-existing = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Pak jo rěd južo zregistrěrowany pak proces konfiguracije jo se pśetergnuł.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija gronidłowego kluca jo se pśetergnuła. Wopytajśo hyšći raz.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Konfiguracija gronidłowego kluca jo se pśetergnuła. Wopytajśo hyšći raz.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Waš wobglědowak abo rěd gronidłowy kluce njepódpěra.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Dalšne informacije
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Gronidłowe kluce njedaju se na toś tom boku konfigurěrowaś. Wužywajśo wěste sedło a wopytajśo hyšći raz.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1472,6 +1482,8 @@ passkey-authentication-error-not-allowed = Pśizjawjenje z gronidłowym klucom n
 passkey-authentication-error-not-allowed-existing = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Pśekšocenje casa pśi napšašowanju gronidłowego kluca. Wopytajśo pšosym hyšći raz.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Waš wobglědowak abo rěd gronidłowy kluce njepódpěra.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Gronidłowe kluce njedaju se na toś tom boku wužywaś. Pśeglědajśo, lěc sćo na korektnem wěstem sedle a wopytajśo hyšći raz.
 # Unexpected credential state during authentication

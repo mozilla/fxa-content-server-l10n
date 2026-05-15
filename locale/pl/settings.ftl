@@ -1646,6 +1646,7 @@ service-welcome-signup-success-banner = Potwierdzono { -product-mozilla-account(
 service-welcome-signin-success-banner = Pomyślnie zalogowano
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Teraz: Włącz VPN
+service-welcome-vpn-description = Kolejny krok do zwiększenia prywatności w przeglądarce. Przejdź do otwartego panelu i włącz tę opcję.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a

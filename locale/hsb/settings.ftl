@@ -1417,6 +1417,7 @@ auth-error-226 = Limit za hesłowy kluč docpěty
 auth-error-227 = Awtentifikacija hesłoweho kluča njeje so poradźiła
 auth-error-228 = Registracija hesłoweho kluča njeje so poradźiła
 auth-error-238 = Přepruwowanje hesłoweho kluča njeje so poradźiło
+auth-error-239 = Bohužel njemóžachmy waše konto zhašeć. Prošu spytajće hišće raz abo stajće so z teamom pomocy do zwiska, jeli problem dale eksistuje.
 auth-error-999 = Njewočakowany zmylk
 auth-error-1001 = Přizjewjenski pospyt přetorhnjeny
 auth-error-1002 = Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował.
