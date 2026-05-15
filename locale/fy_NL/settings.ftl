@@ -1404,6 +1404,7 @@ auth-error-226 = Wachtwurdkaailimyt berikt
 auth-error-227 = Wachtwurdkaaiautentikaasje mislearre
 auth-error-228 = Registraasje wachtwurdkaai mislearre
 auth-error-238 = Wachtwurdkaai-útdaging mislearre
+auth-error-239 = Sorry, wy koene jo account net fuortsmite. Probearje it opnij, of nim kontakt op mei de stipe as it probleem oanhâldt.
 auth-error-999 = Unferwachte flater
 auth-error-1001 = Oanmeldbesykjen annulearre
 auth-error-1002 = Sesje ferrûn. Meld jo oan om troch te gean.
