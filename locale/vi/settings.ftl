@@ -239,6 +239,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Đã bật
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Mũi tên phải
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Đóng thông báo
@@ -1373,6 +1376,7 @@ auth-error-226 = Đã đạt giới hạn passkey
 auth-error-227 = Xác thực bằng passkey không thành công
 auth-error-228 = Đăng ký passkey không thành công
 auth-error-238 = Xác thực passkey thất bại
+auth-error-239 = Rất tiếc, chúng tôi không thể xóa tài khoản của bạn. Vui lòng thử lại hoặc liên hệ với bộ phận hỗ trợ nếu sự cố vẫn tiếp diễn.
 auth-error-999 = Lỗi không xác định
 auth-error-1001 = Đã hủy đăng nhập
 auth-error-1002 = Phiên đã hết hạn. Đăng nhập để tiếp tục.
@@ -1412,6 +1416,12 @@ passkey-registration-error-not-allowed = Thiết lập mật khẩu không thàn
 passkey-registration-error-not-allowed-existing = Thiết lập passkey không khả dụng với thiết bị này. Có thể thiết bị đã được đăng ký hoặc quá trình thiết lập đã bị huỷ bỏ.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Đã huỷ quá trình thiết lập passkey. Thử lại.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Đã huỷ quá trình thiết lập passkey. Thử lại.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Trình duyệt hoặc thiết bị của bạn không hỗ trợ passkey.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Tìm hiểu thêm
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Không thể thiết lập passkey trên trang này. Vui lòng sử dụng trang web an toàn và thử lại.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1431,6 +1441,8 @@ passkey-authentication-error-not-allowed = Đăng nhập bằng passkey không t
 passkey-authentication-error-not-allowed-existing = Thiết lập passkey không khả dụng với thiết bị này. Vui lòng thử lại hoặc chọn phương pháp khác.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Yêu cầu passkey đã hết hạn. Vui lòng thử lại.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Trình duyệt hoặc thiết bị của bạn không hỗ trợ passkey.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Không thể sử dụng passkey trên trang này. Hãy kiểm tra xem bạn đã truy cập đúng trang web an toàn chưa và thử lại.
 # Unexpected credential state during authentication
