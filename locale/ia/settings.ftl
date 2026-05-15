@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Activate
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Croc a dextra
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Clauder message
@@ -1403,6 +1406,7 @@ auth-error-226 = Limite de claves-contrasigno attingite
 auth-error-227 = Authentication de clave-contrasigno fallite
 auth-error-228 = Registration de clave-contrasigno fallite
 auth-error-238 = Verification de clave-contrasigno fallite
+auth-error-239 = Desolate, nos non poteva deler tu conto. Retenta, o contacta le assistentia si le problema persiste.
 auth-error-999 = Error inexpectate
 auth-error-1001 = Tentativa de apertura de session cancellate
 auth-error-1002 = Session expirate. Reaperi session pro continuar.
