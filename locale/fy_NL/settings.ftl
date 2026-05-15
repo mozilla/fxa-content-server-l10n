@@ -1444,6 +1444,12 @@ passkey-registration-error-not-allowed = Ynstellen fan wachtwurd mislearre of is
 passkey-registration-error-not-allowed-existing = Ynstellen fan wachtwurdkaai is net beskikber op dit apparaat. It apparaat is al registrearre, of it ynstelproses is annulearre.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Ynstellen fan wachtwurdkaai is annulearre. Probearje it opnij.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Ynstellen fan wachtwurdkaai is annulearre. Probearje it opnij.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Jo browser of apparaat stipet gjin wachtwurdkaaien.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Mear ynfo
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Wachtwurdkaaien kinne net op dizze side ynsteld wurde. Brûk de befeilige website en probearje it opnij.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1463,6 +1469,8 @@ passkey-authentication-error-not-allowed = Oanmelding mei wachtwurdkaai mislearr
 passkey-authentication-error-not-allowed-existing = It ynstellen fan in wachtwurdkaai is net beskikber op dit apparaat. Probearje it opnij of kies in oare metoade.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Wachtwurdkaaifersyk ferrûn. Probearje it opnij.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Jo browser of apparaat stipet gjin wachtwurdkaaien.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Wachtwurdkaaien kinne net op dizze side brûkt wurde. Kontrolearje oft jo op de krekte befeilige website binne en probearje it opnij.
 # Unexpected credential state during authentication
