@@ -1453,6 +1453,12 @@ passkey-registration-error-not-allowed = Konfiguracija hesłoweho kluča njeje s
 passkey-registration-error-not-allowed-existing = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Pak je grat hižo zregistrowany pak konfiguraciski proces je so přetorhnył.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija hesłoweho kluča je so přetorhnyła. Spytajće hišće raz.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Konfiguracija hesłoweho kluča je so přetorhnyła. Spytajće hišće raz.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Waš wobhladowak abo grat hesłowe kluče njepodpěruje.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Dalše informacije
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Hesłowe kluče njedadźa so na tutej stronje konfigurować. Wužiwajće wěste sydło a spytajće hišće raz.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1472,6 +1478,8 @@ passkey-authentication-error-not-allowed = Přizjewjenje z hesłowym klučom nje
 passkey-authentication-error-not-allowed-existing = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Spytajće prošu hišće raz abo wubjerće druhu metodu.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Překročenje časa při naprašowanju hesłoweho kluča. Spytajće prošu hišće raz.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Waš wobhladowak abo grat hesłowe kluče njepodpěruje.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Hesłowe kluče njedadźa so na tutej stronje wužiwać. Přepruwujće, hač sće na korektnym wěstym sydle a spytajće hišće raz.
 # Unexpected credential state during authentication
