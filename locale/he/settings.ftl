@@ -1330,6 +1330,7 @@ auth-error-226 = הגעת למכסת מפתחות הגישה
 auth-error-227 = אימות מפתח הגישה נכשל
 auth-error-228 = רישום מפתח הגישה נכשל
 auth-error-238 = אתגר מפתח הגישה נכשל
+auth-error-239 = לא הצלחנו למחוק את החשבון שלך, עמך הסליחה. נא לנסות שוב, או ליצור קשר עם התמיכה אם הבעיה נמשכת.
 auth-error-999 = שגיאה בלתי צפויה
 auth-error-1001 = ניסיון ההתחברות בוטל
 auth-error-1002 = פג תוקף ההפעלה. יש להתחבר כדי להמשיך.
@@ -1368,6 +1369,12 @@ passkey-registration-error-not-allowed = הגדרת מפתח הגישה נכשל
 passkey-registration-error-not-allowed-existing = הגדרת מפתחות גישה אינה זמינה במכשיר זה. ייתכן שהמכשיר כבר נרשם או שתהליך ההגדרה בוטל.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = הגדרת מפתח הגישה בוטלה. נא לנסות שוב.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = הגדרת מפתח הגישה בוטלה. נא לנסות שוב.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = הדפדפן או המכשיר שלך אינם תומכים במפתחות גישה (passkeys).
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = מידע נוסף
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = לא ניתן להגדיר מפתחות גישה בדף זה. יש להשתמש באתר המאובטח ולנסות שוב.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1387,6 +1394,8 @@ passkey-authentication-error-not-allowed = הכניסה באמצעות מפתח 
 passkey-authentication-error-not-allowed-existing = הגדרת מפתח הגישה אינה זמינה עם מכשיר זה. נא לנסות שוב או לבחור בשיטה אחרת.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = תם הזמן שהוקצב לבקשת מפתח הגישה. נא לנסות שוב.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = הדפדפן או המכשיר שלך אינם תומכים במפתחות גישה (passkeys).
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = לא ניתן להשתמש במפתחות גישה בדף זה. יש לוודא שהינך באתר המאובטח הנכון ולנסות שוב.
 # Unexpected credential state during authentication
