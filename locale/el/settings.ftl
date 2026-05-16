@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Ενεργό
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Δεξί βέλος
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Κλείσιμο μηνύματος
@@ -1401,6 +1404,7 @@ auth-error-226 = Έχετε φτάσει το όριο κλειδιών πρόσ
 auth-error-227 = Αποτυχία ταυτοποίησης με κλειδί πρόσβασης
 auth-error-228 = Αποτυχία καταχώρησης κλειδιού πρόσβασης
 auth-error-238 = Αποτυχία ελέγχου κλειδιού πρόσβασης
+auth-error-239 = Δυστυχώς, δεν ήταν δυνατή η διαγραφή του λογαριασμού σας. Δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη αν το πρόβλημα παραμένει.
 auth-error-999 = Απροσδόκητο σφάλμα
 auth-error-1001 = Η προσπάθεια σύνδεσης ακυρώθηκε
 auth-error-1002 = Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε.
