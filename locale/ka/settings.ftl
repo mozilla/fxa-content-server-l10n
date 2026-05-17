@@ -253,6 +253,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = ჩართულია
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = ისარი მარჯვნივ
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = შეტყობინების დახურვა
@@ -1434,6 +1437,10 @@ oauth-error-1000 = რაღაც ხარვეზია. გთხოვთ 
 
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = საშვის გამართვა ვერ მოხერხდა ან მიუწვდომელია. სცადეთ ხელახლა ან აირჩიეთ სხვა საშუალება.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = საშვის გამართვა მიუწვდომელია ამ მოწყობილობაზე. ან მოწყობილობა უკვე აღრიცხულია ან გამართვა შეწყვეტილია.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = საშვის გამართვა გაუქმებულია. სცადეთ ხელახლა.
 # User clicked the in-page Cancel link while the ceremony was still pending
@@ -1461,6 +1468,8 @@ passkey-authentication-error-not-allowed = საშვით შესვლი
 passkey-authentication-error-not-allowed-existing = საშვის გამართვა მიუწვდომელია. სცადეთ ხელახლა ან აირჩიეთ სხვა საშუალება.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = საშვის მოთხოვნის ვადა ამოიწურა. გთხოვთ, კვლავ სცადოთ.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = თქვენს ბრაუზერსა თუ მოწყობილობაზე მხარდაუჭერელია საშვები.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = საშვების გამოყენება ვერ ხერხდება ამ გვერდზე. დარწმუნდით საიტის დაცულობაში და კვლავ სცადეთ.
 # Unexpected credential state during authentication
