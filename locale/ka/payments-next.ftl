@@ -479,10 +479,19 @@ free-trial-success-title =
 
 free-trial-start-message-daily = ჯერ არაფრის გადახდა არაა საჭირო. თქვენ ჩამოგეჭრებათ { $firstPrice } დღეში, როცა ამოიწურება უფასო საცდელი ვადა თარიღიდან { $endDate }.
 free-trial-start-message-weekly = ჯერ არაფრის გადახდა არაა საჭირო. თქვენ ჩამოგეჭრებათ { $firstPrice } კვირაში, როცა ამოიწურება უფასო საცდელი ვადა თარიღიდან { $endDate }.
+free-trial-start-message-monthly = ჯერ არაფრის გადახდა არაა საჭირო. თქვენ ჩამოგეჭრებათ { $firstPrice } თვეში, როცა ამოიწურება უფასო საცდელი ვადა თარიღიდან { $endDate }.
+free-trial-start-message-halfyearly = ჯერ არაფრის გადახდა არაა საჭირო. თქვენ ჩამოგეჭრებათ { $firstPrice } 6 თვეში, როცა ამოიწურება უფასო საცდელი ვადა თარიღიდან { $endDate }.
+free-trial-start-message-yearly = ჯერ არაფრის გადახდა არაა საჭირო. თქვენ ჩამოგეჭრებათ { $firstPrice } წელიწადში, როცა ამოიწურება უფასო საცდელი ვადა თარიღიდან { $endDate }.
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = პირველი ჩამოჭრა: { $endDate }
 
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date of the first charge after the free trial ends
 
+free-trial-first-charge-message-daily = თქვენ ჩამოგეჭრებათ { $firstPrice } თარიღზე { $endDate }, შემდეგ კი ყოველდღიურად, სანამ არ გააუქმებთ.
 free-trial-first-charge-message-weekly = თქვენ ჩამოგეჭრებათ { $firstPrice } თარიღზე { $endDate }, შემდეგ კი ყოველკვირეულად, სანამ არ გააუქმებთ.
 free-trial-first-charge-message-monthly = თქვენ ჩამოგეჭრებათ { $firstPrice } თარიღზე { $endDate }, შემდეგ კი ყოველთვიურად, სანამ არ გააუქმებთ.
 free-trial-first-charge-message-halfyearly = თქვენ ჩამოგეჭრებათ { $firstPrice } თარიღზე { $endDate }, შემდეგ კი ყოველ 6 თვეში, სანამ არ გააუქმებთ.
@@ -585,6 +594,8 @@ churn-error-page-message-discount-already-applied = ამ ფასდაკლ
 churn-error-page-button-manage-subscriptions = გამოწერების მართვა
 churn-error-page-button-contact-support = დაკავშირება მხარდაჭერისთვის
 churn-error-page-button-try-again = ხელახლა ცდა
+churn-error-page-title-customer-mismatch = ფასდაკლების ბარათის განაღდება ვერ ხერხდება
+churn-error-page-message-customer-mismatch = ეს ფასდაკლების ბარათი გამოცემულია სხვა გამოწერისთვის და მისი განაღდება მხოლოდ პირველ მიმღებს შეუძლია.
 churn-error-page-button-sign-in = შესვლა
 churn-error-page-title-general-error = ხარვეზი წარმოიშვა თქვენი გამოწერის გაახლებისას
 churn-error-page-message-general-error = დაუკავშირდით მხარდაჭერის გუნდს ან კვლავ სცადეთ.
@@ -711,3 +722,18 @@ manage-payment-method-intent-error-try-again = ჰმ. რაღაც ხარ
 manage-payment-method-intent-error-get-in-touch = ჰმ. რაღაც ხარვეზი იყო, თქვენი გადახდის დამოწმებისას. დაუკავშირდით თქვენი ბარათის გამომშვებს.
 manage-payment-method-intent-error-insufficient-funds = როგორც ჩანს, თქვენს საკრედიტო ბარათზე არასაკმარისი თანხაა. სცადეთ სხვა ბარათი.
 manage-payment-method-intent-error-generic = მოულოდნელი შეცდომა წარმოიშვა თქვენი გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = თქვენ დაგეზოგებათ { $discountPercent }% მომდევნო ჩამოჭრილიდან { $nextInvoiceTotal } + { $taxDue } გადასახადი ბარათზე დაბოლოებით { $last4 } თარიღისთვის { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = თქვენ დაგეზოგებათ { $discountPercent }% მომდევნო ჩამოჭრილიდან { $nextInvoiceTotal } + { $taxDue } გადასახადი, როცა გამოყენებული იქნება { $paymentMethod }, თარიღისთვის { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = თქვენ დაგეზოგებათ { $discountPercent }% მომდევნო ჩამოჭრილიდან { $nextInvoiceTotal } + { $taxDue } გადასახადი თარიღისთვის { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = თქვენ დაგეზოგებათ { $discountPercent }% მომდევნო ჩამოჭრილიდან { $nextInvoiceTotal } ბარათზე დაბოლოებით { $last4 } თარიღისთვის { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = თქვენ დაგეზოგებათ { $discountPercent }% მომდევნო ჩამოჭრილიდან { $nextInvoiceTotal }, როცა გამოყენებული იქნება { $paymentMethod }, თარიღისთვის { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = თქვენ დაგეზოგებათ { $discountPercent }% მომდევნო ჩამოჭრილიდან { $nextInvoiceTotal } თარიღისთვის { $currentPeriodEnd }.
+next-charge-with-tax-card = მომდევნო ჩამოსაჭრელი თანხა იქნება { $nextInvoiceTotal } + { $taxDue } გადასახადი ბარათიდან დაბოლოებით { $last4 } თარიღისთვის { $currentPeriodEnd }.
