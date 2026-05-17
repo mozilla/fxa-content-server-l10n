@@ -200,6 +200,12 @@ fraudulentAccountDeletion-contact = თუ თქვენ გაქვთ შ�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = თუ გაქვთ კითხვები, გთხოვთ, დაუკავშირდეთ ჩვენი მხარდაჭერის გუნდს: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = თქვენი { $productName } უფასო საცდელი დროით მალე ამოიწურება
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = { $productName } პროდუქტის ძვირფასო მომხმარებელო,
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია
