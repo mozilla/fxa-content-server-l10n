@@ -210,6 +210,24 @@ freeTrialEndingReminder-content-greeting = { $productName } პროდუქ�
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = თქვენი უფასო საცდელი დროის ამოწურვის თარიღია <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = თქვენი უფასო საცდელი დროის ამოწურვის თარიღია { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = ჩამოჭრის შესახებ
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = გამოწერილი { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = გამოწერილი { $productName }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = ფასდაკლება: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = ფასდაკლება
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = გადასახადი: { $invoiceTaxAmount }
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = ბოლო ვადა { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = შეგიძლიათ გადახედოთ ან განაახლოთ თქვენი გადახდის საშუალება და ანგარიშის მონაცემები <a data-l10n-name="freeTrialEndingReminder-update-billing">აქედან</a>.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = თქვენ მიერ გამოწერილი { $productName } გაუქმებულია
