@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Ynskeakele
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Puntheak nei rjochts
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Berjocht slute
@@ -1248,11 +1251,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Jo hawwe it maksimale oantal wachtwurdkaaien berikt.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Jo browser of apparaat stipet gjin wachtwurdkaaien.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Accountwerstelkaai
@@ -1409,6 +1407,7 @@ auth-error-226 = Wachtwurdkaailimyt berikt
 auth-error-227 = Wachtwurdkaaiautentikaasje mislearre
 auth-error-228 = Registraasje wachtwurdkaai mislearre
 auth-error-238 = Wachtwurdkaai-útdaging mislearre
+auth-error-239 = Sorry, wy koene jo account net fuortsmite. Probearje it opnij, of nim kontakt op mei de stipe as it probleem oanhâldt.
 auth-error-999 = Unferwachte flater
 auth-error-1001 = Oanmeldbesykjen annulearre
 auth-error-1002 = Sesje ferrûn. Meld jo oan om troch te gean.
@@ -1448,8 +1447,12 @@ passkey-registration-error-not-allowed = Ynstellen fan wachtwurd mislearre of is
 passkey-registration-error-not-allowed-existing = Ynstellen fan wachtwurdkaai is net beskikber op dit apparaat. It apparaat is al registrearre, of it ynstelproses is annulearre.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Ynstellen fan wachtwurdkaai is annulearre. Probearje it opnij.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Wachtwurdkaaien wurde hjir net stipe. Probearje in oare metoade of apparaat.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Ynstellen fan wachtwurdkaai is annulearre. Probearje it opnij.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Jo browser of apparaat stipet gjin wachtwurdkaaien.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Mear ynfo
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Wachtwurdkaaien kinne net op dizze side ynsteld wurde. Brûk de befeilige website en probearje it opnij.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1470,7 +1473,7 @@ passkey-authentication-error-not-allowed-existing = It ynstellen fan in wachtwur
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Wachtwurdkaaifersyk ferrûn. Probearje it opnij.
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Wachtwurdkaaien wurde net stipe. Probearje in oare metoade of apparaat.
+passkey-authentication-error-not-supported-v2 = Jo browser of apparaat stipet gjin wachtwurdkaaien.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Wachtwurdkaaien kinne net op dizze side brûkt wurde. Kontrolearje oft jo op de krekte befeilige website binne en probearje it opnij.
 # Unexpected credential state during authentication
@@ -2043,25 +2046,6 @@ signup-passwordless-code-subheading = Registraasje duorret mar ien stap as jo di
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Twa-stapsautentikaasje is ynskeakele op jo account. Meld jo oan mei jo wachtwurd.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Ferifiearje dizze oanmelding <span>om troch te gean nei jo accountynstellingen</span>
-signin-push-code-heading-w-custom-service = Ferifiearje dizze oanmelding <span>om troch te gean nei { $serviceName }</span>
-signin-push-code-instruction = Kontrolearje jo oare apparaten en kar dizze oanmelding goed fan jo { -brand-firefox }-browser út.
-signin-push-code-did-not-recieve = Hawwe jo de melding net ûntfongen?
-signin-push-code-send-email-link = Ferstjoer de koade fia e-mail
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Befêstigje jo oanmelding
-signin-push-code-confirm-description = Wy hawwe in oanmeldbesykjen fan it folgjende apparaat ôf detektearre. As jo dit wiene, kar dan de oanmelding goed
-signin-push-code-confirm-verifying = Ferifiearje
-signin-push-code-confirm-login = Oanmelding befêstigje
-signin-push-code-confirm-wasnt-me = Dit wie ik net, wizigje wachtwurd.
-signin-push-code-confirm-login-approved = Jo oanmelding is goedkard. Slút dit finster.
-signin-push-code-confirm-link-error = Keppeling is skansearre. Probearje it nochris.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
