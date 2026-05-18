@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Aktivera
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Chevron höger
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Stäng meddelande
@@ -1243,11 +1246,6 @@ passkey-row-max-limit-banner =
 # Tooltip shown on the disabled Create button when the passkey limit is reached
 passkey-row-max-limit-disabled-reason = Du har nått det maximala antalet lösenordsnycklar.
 
-## Error / limit messages
-
-# Shown as an error banner when the user's browser or device does not support passkeys (WebAuthn Level 3).
-passkey-row-webauthn-not-supported = Din webbläsare eller enhet stöder inte lösenordsnycklar.
-
 ## Account recovery key sub-section on main Settings page
 
 rk-header-1 = Nyckel för kontoåterställning
@@ -1404,6 +1402,7 @@ auth-error-226 = Gränsvärdet för lösenordsnycklar har nåtts
 auth-error-227 = Autentisering av lösenordsnyckel misslyckades
 auth-error-228 = Registrering av lösenordsnyckel misslyckades
 auth-error-238 = Utmaning för lösenordsnyckel misslyckades
+auth-error-239 = Tyvärr, vi kunde inte ta bort ditt konto. Försök igen eller kontakta supporten om problemet kvarstår.
 auth-error-999 = Oväntat fel
 auth-error-1001 = Inloggningsförsök avbröts
 auth-error-1002 = Sessionen upphörde. Logga in för att fortsätta.
@@ -1443,8 +1442,12 @@ passkey-registration-error-not-allowed = Inställning av lösenordsnyckel missly
 passkey-registration-error-not-allowed-existing = Installation av lösenordsnyckel är inte tillgänglig med den här enheten. Antingen har enheten redan registrerats eller så avbröts installationen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Installationen av lösenordsnyckel avbröts. Försök igen.
-# Browser or platform does not support passkeys or the requested options (e.g., UV, discoverable credential)
-passkey-registration-error-not-supported = Lösenordsnycklar stöds inte här. Prova en annan metod eller enhet.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Installationen av lösenordsnyckel avbröts. Försök igen.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Din webbläsare eller enhet stöder inte lösenordsnycklar.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Läs mer
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Lösenordsnyckel kan inte konfigureras på den här sidan. Använd den säkra webbplatsen och försök igen.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1465,7 +1468,7 @@ passkey-authentication-error-not-allowed-existing = Installation av lösenordsny
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Begäran om lösenordsnyckel har gått ut. Försök igen.
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported = Lösenordsnycklar stöds inte. Prova en annan metod eller enhet.
+passkey-authentication-error-not-supported-v2 = Din webbläsare eller enhet stöder inte lösenordsnycklar.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Lösenordsnycklar kan inte användas på den här sidan. Kontrollera att du är på rätt säker webbplats och försök igen.
 # Unexpected credential state during authentication
@@ -2041,25 +2044,6 @@ signup-passwordless-code-subheading = Registrering går snabbt när du använder
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Tvåstegsautentisering är aktiverad på ditt konto. Logga in med ditt lösenord.
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-signin-push-code-heading-w-default-service = Verifiera denna inloggning <span>för att fortsätta till kontoinställningarna</span>
-signin-push-code-heading-w-custom-service = Verifiera denna inloggning <span>för att fortsätta till { $serviceName }</span>
-signin-push-code-instruction = Kontrollera dina andra enheter och godkänn den här inloggningen från din { -brand-firefox }-webbläsare.
-signin-push-code-did-not-recieve = Har du inte fått aviseringen?
-signin-push-code-send-email-link = E-posta kod
-
-## SigninPushCodeConfirmPage
-
-signin-push-code-confirm-instruction = Bekräfta din inloggning
-signin-push-code-confirm-description = Vi upptäckte ett inloggningsförsök från följande enhet. Om det var du, vänligen godkänn inloggningen
-signin-push-code-confirm-verifying = Verifierar
-signin-push-code-confirm-login = Bekräfta inloggning
-signin-push-code-confirm-wasnt-me = Det här var inte jag, ändra lösenord.
-signin-push-code-confirm-login-approved = Din inloggning har godkänts. Stäng det här fönstret.
-signin-push-code-confirm-link-error = Länken är skadad. Försök igen.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
