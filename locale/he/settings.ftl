@@ -235,6 +235,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = מופעל
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = חץ שמאלה
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = סגירת הודעה
