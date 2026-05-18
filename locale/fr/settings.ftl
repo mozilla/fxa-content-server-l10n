@@ -983,6 +983,7 @@ page-passkey-add-cancel = Annuler
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Clé d’accès créée
+page-passkey-add-error-system-v2 = Un problème est survenu lors de la création de votre clé d’accès. Réessayer plus tard.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

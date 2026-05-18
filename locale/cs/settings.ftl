@@ -994,6 +994,7 @@ page-passkey-add-cancel = Zrušit
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Přístupový klíč byl vytvořen
+page-passkey-add-error-system-v2 = Při vytváření vašeho přístupového klíče se vyskytl problém. Zkuste to znovu později.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

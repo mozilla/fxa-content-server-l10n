@@ -1005,6 +1005,7 @@ page-passkey-add-cancel = Diddymu
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Cyfrinallwedd wedi'i greu
+page-passkey-add-error-system-v2 = Bu problem wrth greu eich cyfrinair. Ceisiwch eto yn nes ymlaen.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

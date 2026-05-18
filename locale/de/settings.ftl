@@ -985,6 +985,7 @@ page-passkey-add-cancel = Abbrechen
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Zugangsschlüssel erstellt
+page-passkey-add-error-system-v2 = Beim Erstellen Ihres Zugangsschlüssels ist ein Problem aufgetreten. Versuchen Sie es später erneut.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
