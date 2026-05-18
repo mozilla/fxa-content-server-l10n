@@ -984,7 +984,6 @@ page-passkey-add-cancel = Annuller
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Adgangsnøgle oprettet
-page-passkey-add-error-system = Systemet er ikke tilgængeligt. Prøv igen senere.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

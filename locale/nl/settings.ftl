@@ -987,7 +987,6 @@ page-passkey-add-cancel = Annuleren
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Wachtwoordsleutel aangemaakt
-page-passkey-add-error-system = Systeem niet beschikbaar. Probeer het later nog eens.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

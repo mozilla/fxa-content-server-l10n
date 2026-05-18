@@ -989,7 +989,6 @@ page-passkey-add-cancel = Бас тарту
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Рұқсат кілті жасалды
-page-passkey-add-error-system = Жүйе қолжетімді емес. Кейінірек қайталап көріңіз.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

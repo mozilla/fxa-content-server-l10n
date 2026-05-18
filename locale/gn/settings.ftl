@@ -984,7 +984,6 @@ page-passkey-add-cancel = Eheja
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Ñe’ẽ ñemi mboheñoipyre
-page-passkey-add-error-system = Apopyvusu ndoikói, eha’ã jey ag̃amieve.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

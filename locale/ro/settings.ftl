@@ -986,7 +986,6 @@ page-passkey-add-cancel = Anulează
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Cheia de acces a fost creată
-page-passkey-add-error-system = Sistem indisponibil. Te rugăm să încerci mai târziu.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

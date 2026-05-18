@@ -967,7 +967,6 @@ page-passkey-add-cancel = Huỷ bỏ
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Đã tạo passkey
-page-passkey-add-error-system = Hệ thống không khả dụng. Hãy thử lại sau.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

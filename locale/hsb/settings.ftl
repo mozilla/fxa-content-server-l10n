@@ -997,7 +997,6 @@ page-passkey-add-cancel = Přetorhnyć
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Hesłowy kluč je so wutworił
-page-passkey-add-error-system = System k dispoziciji njeje. Spytajće pozdźišo hišće raz.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

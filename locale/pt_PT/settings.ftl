@@ -985,7 +985,6 @@ page-passkey-add-cancel = Cancelar
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Chave criada
-page-passkey-add-error-system = Sistema não disponível. Tente novamente mais tarde.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

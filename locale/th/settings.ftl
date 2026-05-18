@@ -965,7 +965,6 @@ page-passkey-add-cancel = ยกเลิก
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = พาสคีย์ถูกสร้างแล้ว
-page-passkey-add-error-system = ระบบไม่พร้อมใช้งาน โปรดลองใหม่ในภายหลัง
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

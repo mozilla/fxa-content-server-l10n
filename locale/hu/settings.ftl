@@ -991,7 +991,6 @@ page-passkey-add-cancel = Mégse
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Jelkulcs létrehozva
-page-passkey-add-error-system = A rendszer nem érhető el. Próbálja újra később.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

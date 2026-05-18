@@ -992,7 +992,6 @@ page-passkey-add-cancel = Откажи
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Приступни кључ је направљен
-page-passkey-add-error-system = Систем није доступан. Покушајте поново касније.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

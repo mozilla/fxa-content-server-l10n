@@ -974,7 +974,6 @@ page-passkey-add-cancel = Vazgeç
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Geçiş anahtarı oluşturuldu
-page-passkey-add-error-system = Sistem kullanılamıyor. Lütfen daha sonra yeniden deneyin.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

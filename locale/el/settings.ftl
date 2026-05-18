@@ -989,7 +989,6 @@ page-passkey-add-cancel = Ακύρωση
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Δημιουργήθηκε κλειδί πρόσβασης
-page-passkey-add-error-system = Το σύστημα δεν είναι διαθέσιμο. Δοκιμάστε ξανά αργότερα.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

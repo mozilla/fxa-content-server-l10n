@@ -991,7 +991,6 @@ page-passkey-add-cancel = Annulearje
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Wachtwurdkaai oanmakke
-page-passkey-add-error-system = Systeem net beskikber. Probearje it letter nochris.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

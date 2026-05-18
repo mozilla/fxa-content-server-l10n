@@ -989,7 +989,6 @@ page-passkey-add-cancel = გაუქმება
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = საშვი შექმნილია
-page-passkey-add-error-system = სისტემა მიუწვდომელია, სცადეთ მოგვიანებით
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

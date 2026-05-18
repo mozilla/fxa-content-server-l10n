@@ -963,7 +963,6 @@ page-passkey-add-cancel = 取消
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = 已建立 Passkey
-page-passkey-add-error-system = 系統無法使用，請稍後再試。
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

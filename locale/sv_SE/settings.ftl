@@ -987,7 +987,6 @@ page-passkey-add-cancel = Avbryt
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Lösenordsnyckel skapad
-page-passkey-add-error-system = Systemet är inte tillgängligt. Försök igen senare.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account

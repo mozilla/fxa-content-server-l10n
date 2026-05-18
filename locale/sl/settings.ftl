@@ -997,7 +997,6 @@ page-passkey-add-cancel = Prekliči
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Geslo ustvarjeno
-page-passkey-add-error-system = Sistem ni na voljo. Poskusite znova pozneje.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
