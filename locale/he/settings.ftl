@@ -945,6 +945,7 @@ page-passkey-add-cancel = ביטול
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = מפתח הגישה נוצר
+page-passkey-add-error-system-v2 = הייתה בעיה ביצירת מפתח הגישה שלך. נא לנסות שוב מאוחר יותר.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
