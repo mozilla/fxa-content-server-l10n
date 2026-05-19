@@ -328,6 +328,9 @@ subscriptionPaymentProviderCancelled-title = Ödeme yönteminizle ilgili bir sor
 subscriptionPaymentProviderCancelled-content-detect = { $productName } ödeme yönteminizle ilgili bir sorun tespit ettik.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = { $productName } aboneliğiniz yeniden etkinleştirildi
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-freeTrial-subject = { $productName } denemeniz yeniden etkinleştirildi
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

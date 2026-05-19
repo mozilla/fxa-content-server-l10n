@@ -1404,11 +1404,19 @@ oauth-error-1000 = Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp yenid
 
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Geçiş anahtarı kurulumu iptal edildi. Yeniden deneyin.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Geçiş anahtarı kurulumu iptal edildi. Yeniden deneyin.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Tarayıcınız veya cihazınız geçiş anahtarlarını desteklemiyor.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Daha fazla bilgi al
 
 # Authentication errors
 
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Geçiş anahtarı isteği zaman aşımına uğradı. Lütfen yeniden deneyin.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Tarayıcınız veya cihazınız geçiş anahtarlarını desteklemiyor.
 
 ## Connect Another Device page
 
