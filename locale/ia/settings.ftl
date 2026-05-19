@@ -989,6 +989,7 @@ page-passkey-add-cancel = Cancellar
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Clave-contrasigno create
+page-passkey-add-error-system-v2 = Il habeva un problema a crear tu clave-contrasigno. Retenta plus tarde.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
