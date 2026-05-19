@@ -985,6 +985,7 @@ page-passkey-add-cancel = Avbryt
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Passnøkkel opprettet
+page-passkey-add-error-system-v2 = Det oppstod et problem med å opprette passnøkkelen din. Prøv igjen senere.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
