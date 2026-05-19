@@ -990,6 +990,7 @@ page-passkey-add-cancel = Отменить
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Ключ доступа создан
+page-passkey-add-error-system-v2 = При создании вашего ключа доступа произошла ошибка. Подождите некоторое время и попробуйте снова.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
