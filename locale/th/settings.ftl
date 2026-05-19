@@ -241,7 +241,7 @@ checkmark-enabled-icon-aria-label =
     .aria-label = เปิดใช้งาน
 # Used to indicate that an action will navigate forward or open a detail view
 chevron-right-icon-aria-label =
-    .aria-label = หัวลูกศรชี้ไปทางขวา
+    .aria-label = ลูกศรชี้ไปทางซ้าย
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = ปิดข้อความ
@@ -965,6 +965,7 @@ page-passkey-add-cancel = ยกเลิก
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = พาสคีย์ถูกสร้างแล้ว
+page-passkey-add-error-system-v2 = เกิดปัญหาในการสร้างพาสคีย์ของคุณ โปรดลองใหม่อีกครั้งในภายหลัง
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
