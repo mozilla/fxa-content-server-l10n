@@ -1331,7 +1331,13 @@ auth-error-215 = 恢复电话号码不存在
 auth-error-216 = 已达到信息数量上限
 auth-error-218 = 由于缺少备用验证码，无法移除恢复电话号码。
 auth-error-219 = 此电话号码已用于注册过多账户，请尝试使用其他号码。
+auth-error-224 = 未找到通行密钥
+auth-error-225 = 已经注册过通行密钥
+auth-error-226 = 通行密钥数量已达限制
+auth-error-227 = 通行密钥身份验证失败
 auth-error-228 = 通行密钥注册失败
+auth-error-238 = 通行密钥质询失败
+auth-error-239 = 抱歉，我们无法删除您的账户，请重试。如果问题仍然存在，请联系技术支持。
 auth-error-999 = 意外错误
 auth-error-1001 = 登录尝试已取消
 auth-error-1002 = 会话已过期。请登录以继续操作。
@@ -1356,6 +1362,36 @@ auth-error-1067 = 您输入的邮箱地址可能有误
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = 手机尾号为 { $lastFourPhoneNumber }
 oauth-error-1000 = 出了点问题。请关闭此标签页，然后再试一次。
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = 通行密钥设置失败或不可用，请重试或选择其他方法。
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = 已取消设置通行密钥，请重试。
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = 无法在此页面设置通行密钥，请在安全网站上重试。
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = 此通行密钥已经注册过。请使用它来登录，或添加其他通行密钥。
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = 无法访问身份验证器，请重试或选择其他方法。
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = 此设备不支持设置通行密钥。请尝试其他方法，或换用其他设备。
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = 通行密钥设置失败，请重试或选择其他方法。
+
+# Authentication errors
+
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = 密钥请求超时，请重试。
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = 无法在此页面使用通行密钥。请确认您访问的是正确的安全站点，然后重试。
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = 您的通行密钥存在问题，请重试或使用其他登录方法。
 
 ## Connect Another Device page
 
