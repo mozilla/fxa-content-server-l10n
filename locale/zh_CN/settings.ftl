@@ -1334,10 +1334,9 @@ auth-error-219 = 此电话号码已用于注册过多账户，请尝试使用其
 auth-error-224 = 未找到通行密钥
 auth-error-225 = 已经注册过通行密钥
 auth-error-226 = 通行密钥数量已达限制
-auth-error-227 = 通行密钥身份验证失败
 auth-error-228 = 通行密钥注册失败
 auth-error-238 = 通行密钥质询失败
-auth-error-239 = 抱歉，我们无法删除您的账户，请重试。如果问题仍然存在，请联系技术支持。
+auth-error-239 = 抱歉，我们无法删除您的账户，请重试。如果问题依然存在，请联系技术支持。
 auth-error-999 = 意外错误
 auth-error-1001 = 登录尝试已取消
 auth-error-1002 = 会话已过期。请登录以继续操作。
@@ -1405,7 +1404,7 @@ passkey-authentication-error-timeout = 密钥请求超时，请重试。
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported-v2 = 您的浏览器或设备不支持通行密钥。
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
-passkey-authentication-error-security = 无法在此页面使用通行密钥。请确认您访问的是正确的安全站点，然后重试。
+passkey-authentication-error-security = 无法在此页面使用通行密钥。请确认您访问的是正确的安全网站，然后重试。
 # Unexpected credential state during authentication
 passkey-authentication-error-invalid-state = 您的通行密钥存在问题，请重试或使用其他登录方式。
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)

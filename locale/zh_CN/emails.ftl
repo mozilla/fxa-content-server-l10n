@@ -255,6 +255,9 @@ postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-accoun
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 账户已关联到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理账户
+# Links out to a support article about passkeys and { -brand-firefox } sync
+postAddPasskey-learn-more = 详细了解
+postAddPasskey-action = 管理账户
 postAddRecoveryPhone-subject = 已添加恢复电话号码
 postAddRecoveryPhone-preview = 账户受两步验证保护
 postAddRecoveryPhone-title-v2 = 您已添加恢复电话号码
@@ -323,6 +326,11 @@ postRemoveAccountRecovery-title-3 = 您已删除账户恢复密钥。
 postRemoveAccountRecovery-body-part1 = 在忘记密码的情况下，需要使用账户恢复密钥来恢复加密的浏览数据。
 postRemoveAccountRecovery-body-part2 = 请在账户设置中创建新的账户恢复密钥，以免丢失您保存的密码、书签、浏览历史等数据。
 postRemoveAccountRecovery-action = 管理账户
+postRemovePasskey-subject = 通行密钥已删除
+postRemovePasskey-title = 您删除了通行密钥
+postRemovePasskey-description = 您将需要使用其他方式登录。
+postRemovePasskey-requested-from = 您已从以下位置请求：
+postRemovePasskey-action = 管理账户
 postRemoveRecoveryPhone-subject = 已移除恢复电话号码
 postRemoveRecoveryPhone-preview = 账户受两步验证保护
 postRemoveRecoveryPhone-title = 已移除恢复电话号码
