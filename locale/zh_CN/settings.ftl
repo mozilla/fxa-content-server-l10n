@@ -1188,6 +1188,8 @@ passkey-row-info-link-2 = 详细了解
 # Variables:
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner = 您已使用全部 { $count } 个通行密钥，请删除一个以创建新的通行密钥。
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = 您已达到通行密钥数量上限。
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1329,6 +1331,7 @@ auth-error-215 = 恢复电话号码不存在
 auth-error-216 = 已达到信息数量上限
 auth-error-218 = 由于缺少备用验证码，无法移除恢复电话号码。
 auth-error-219 = 此电话号码已用于注册过多账户，请尝试使用其他号码。
+auth-error-228 = 通行密钥注册失败
 auth-error-999 = 意外错误
 auth-error-1001 = 登录尝试已取消
 auth-error-1002 = 会话已过期。请登录以继续操作。
