@@ -915,6 +915,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = 您发布到 addons.mozilla.org 的所有扩展和主题都将被删除。
 delete-account-continue-button = 继续
+delete-account-delete-button-passwordless = 删除账户
 delete-account-password-input =
     .label = 请输入密码
 delete-account-cancel-button = 取消
@@ -930,6 +931,17 @@ submit-display-name = 保存
 cancel-display-name = 取消
 display-name-update-error-2 = 更新您的显示名称时出现问题
 display-name-success-alert-2 = 显示名称已更新
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = 正在创建通行密钥…
+page-passkey-add-follow-prompts = 请按照您设备上的提示操作。
+page-passkey-add-cancel = 取消
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = 通行密钥创建成功
+page-passkey-add-error-system-v2 = 创建通行密钥时出现问题，请稍后再试。
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1054,6 +1066,10 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = 扫描隐私信息泄露，掌控属于您的秘密
 # Links out to the Monitor site
 product-promo-monitor-cta = 免费扫描
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+# Links out to the VPN site
+product-promo-vpn-cta = 获取 { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -1126,7 +1142,20 @@ tfa-row-backup-phone-description-v2 = 在无法使用身份验证应用时，这
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = 了解 SIM 卡交换攻击的风险
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = 创建时间：{ $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = 上次使用：{ $lastUsedDate }
+passkey-sub-row-delete-title = 删除通行密钥
+passkey-delete-modal-heading = 确定要删除通行密钥吗？
+passkey-delete-modal-content = 此通行密钥将从您的账户移除。您将需要使用其他方式登录。
 passkey-delete-modal-cancel-button = 取消
+passkey-delete-modal-confirm-button = 删除通行密钥
+passkey-delete-success = 通行密钥已删除
 
 ## Switch component
 
