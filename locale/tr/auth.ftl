@@ -111,6 +111,7 @@ subscription-charges-invoice-date-plaintext = Tarih: { $invoiceDateOnly }
 subscription-charges-list-price = Liste fiyatı
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Liste fiyatı: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Kullanılmayan süreden kaynaklanan kredi
 subscription-charges-subtotal = <b>Ara toplam</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ara toplam: { $invoiceSubtotal }
