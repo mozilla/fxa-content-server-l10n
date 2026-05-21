@@ -445,6 +445,15 @@ free-trial-success-title = 您的 { $trialDayLength } 天免费试用已开始
 # $endDate (String) - The date of the first charge after the free trial ends
 free-trial-first-charge-title = 首次收费日：{ $endDate }
 
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = 将于 { $endDate } 向您收取 { $firstPrice }，此后每天收费一次，直到您取消。
+free-trial-first-charge-message-weekly = 将于 { $endDate } 向您收取 { $firstPrice }，此后每周收费一次，直到您取消。
+free-trial-first-charge-message-monthly = 将于 { $endDate } 向您收取 { $firstPrice }，此后每月收费一次，直到您取消。
+free-trial-first-charge-message-halfyearly = 将于 { $endDate } 向您收取 { $firstPrice }，此后每半年收费一次，直到您取消。
+free-trial-first-charge-message-yearly = 将于 { $endDate } 向您收取 { $firstPrice }，此后每年收费一次，直到您取消。
+
 ##
 
 next-coupon-success = 您的方案将自动按标价续订。
