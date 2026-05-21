@@ -1651,6 +1651,11 @@ passkey-authentication-error-not-readable = We couldn’t access the authenticat
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Something went wrong. Try again or choose another sign-in method.
 
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Passkey not recognized. Use another sign-in method.
+
 ## Connect Another Device page
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = You’re signed into { -brand-firefox }
@@ -2207,11 +2212,10 @@ back = Back
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
-signin-passkey-fallback-header = Finish sign-in
+signin-passkey-fallback-header = Finish sign in
 signin-passkey-fallback-heading = Enter your password to sync
 signin-passkey-fallback-body = To keep your data safe, you need to enter your password when you use this passkey.
 signin-passkey-fallback-password-label = Password
-signin-passkey-fallback-go-to-settings = Go to settings
 signin-passkey-fallback-continue = Continue
 
 # This Source Code Form is subject to the terms of the Mozilla Public
