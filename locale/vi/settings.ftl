@@ -1966,7 +1966,6 @@ signin-passkey-fallback-header = Hoàn tất đăng nhập
 signin-passkey-fallback-heading = Nhập mật khẩu của bạn để đồng bộ
 signin-passkey-fallback-body = Để bảo vệ dữ liệu của bạn, bạn cần nhập mật khẩu khi sử dụng passkey này.
 signin-passkey-fallback-password-label = Mật khẩu
-signin-passkey-fallback-go-to-settings = Đi đến cài đặt
 signin-passkey-fallback-continue = Tiếp tục
 
 # This Source Code Form is subject to the terms of the Mozilla Public

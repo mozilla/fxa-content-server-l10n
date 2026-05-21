@@ -1648,7 +1648,6 @@ back = Edellinen
 signin-passkey-fallback-header = Viimeistele kirjautuminen
 signin-passkey-fallback-heading = Kirjoita salasanasi synkronoidaksesi
 signin-passkey-fallback-password-label = Salasana
-signin-passkey-fallback-go-to-settings = Siirry asetuksiin
 signin-passkey-fallback-continue = Jatka
 
 # This Source Code Form is subject to the terms of the Mozilla Public

@@ -2013,7 +2013,6 @@ signin-passkey-fallback-header = Pśizjawjenje dokóńcyś
 signin-passkey-fallback-heading = Zapódajśo swójo gronidło, aby synchronizěrował
 signin-passkey-fallback-body = Aby swóje daty wěste wobchował, musyśo swójo gronidło zapódaś, gaž toś ten gronidłowy kluc wužywaśo.
 signin-passkey-fallback-password-label = Gronidło
-signin-passkey-fallback-go-to-settings = K nastajenjam
 signin-passkey-fallback-continue = Dalej
 
 # This Source Code Form is subject to the terms of the Mozilla Public

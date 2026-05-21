@@ -1989,7 +1989,6 @@ signin-passkey-fallback-header = Finalizează autentificarea
 signin-passkey-fallback-heading = Introdu parola pentru sincronizare
 signin-passkey-fallback-body = Pentru a-ți păstra datele în siguranță, trebuie să introduci parola când folosești această cheie de acces.
 signin-passkey-fallback-password-label = Parolă
-signin-passkey-fallback-go-to-settings = Mergi la setări
 signin-passkey-fallback-continue = Continuă
 
 # This Source Code Form is subject to the terms of the Mozilla Public

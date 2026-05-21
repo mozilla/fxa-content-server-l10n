@@ -1997,7 +1997,6 @@ signin-passkey-fallback-header = დაასრულეთ შესვლა
 signin-passkey-fallback-heading = დასინქრონებისთვის მიუთითეთ პაროლი.
 signin-passkey-fallback-body = თქვენი მონაცემების უსაფრთხოებისთვის ამ საშვის გამოყენებისას პაროლი უნდა შეიყვანოთ.
 signin-passkey-fallback-password-label = პაროლი
-signin-passkey-fallback-go-to-settings = პარამეტრებზე გადასვლა
 signin-passkey-fallback-continue = განაგრძეთ
 
 # This Source Code Form is subject to the terms of the Mozilla Public

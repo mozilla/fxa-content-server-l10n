@@ -2005,7 +2005,6 @@ signin-passkey-fallback-header = Dokončiť prihlásenie
 signin-passkey-fallback-heading = Zadajte heslo pre synchronizáciu
 signin-passkey-fallback-body = Pre zachovanie bezpečnosti vašich údajov je potrebné pri použití tohto prístupového kľúča zadať heslo.
 signin-passkey-fallback-password-label = Heslo
-signin-passkey-fallback-go-to-settings = Prejsť do nastavení
 signin-passkey-fallback-continue = Pokračovať
 
 # This Source Code Form is subject to the terms of the Mozilla Public

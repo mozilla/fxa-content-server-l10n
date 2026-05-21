@@ -1994,7 +1994,6 @@ signin-passkey-fallback-header = Aanmelding voltooien
 signin-passkey-fallback-heading = Voer uw wachtwoord in om te synchroniseren
 signin-passkey-fallback-body = Om uw gegevens veilig te houden, dient u uw wachtwoord in te voeren wanneer u deze wachtwoordsleutel gebruikt.
 signin-passkey-fallback-password-label = Wachtwoord
-signin-passkey-fallback-go-to-settings = Naar Instellingen
 signin-passkey-fallback-continue = Doorgaan
 
 # This Source Code Form is subject to the terms of the Mozilla Public

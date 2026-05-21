@@ -1852,7 +1852,6 @@ signin-passkey-fallback-header = Përfundoni hyrjen
 signin-passkey-fallback-heading = Që të bëhet njëkohësimi, jepni fjalëkalimin tuaj
 signin-passkey-fallback-body = Që të ruhen të parrezik të dhënat tuaja, ju duhet të jepni fjalëkalimin tuaj, kur përdorni këtë kyçkalim.
 signin-passkey-fallback-password-label = Fjalëkalim
-signin-passkey-fallback-go-to-settings = Kalo te rregullimet
 signin-passkey-fallback-continue = Vazhdo
 
 # This Source Code Form is subject to the terms of the Mozilla Public

@@ -1996,7 +1996,6 @@ signin-passkey-fallback-header = Кіруді аяқтау
 signin-passkey-fallback-heading = Синхрондау үшін пароліңізді енгізіңіз
 signin-passkey-fallback-body = Деректеріңіздің қауіпсіздігін қамтамасыз ету үшін, осы рұқсат кілтін пайдаланған кезде пароліңізді енгізуіңіз керек.
 signin-passkey-fallback-password-label = Пароль
-signin-passkey-fallback-go-to-settings = Баптауларға өту
 signin-passkey-fallback-continue = Жалғастыру
 
 # This Source Code Form is subject to the terms of the Mozilla Public

@@ -1912,7 +1912,6 @@ signin-passkey-fallback-header = סיום הכניסה
 signin-passkey-fallback-heading = נא להכניס את הססמה שלך כדי לסנכרן
 signin-passkey-fallback-body = כדי לשמור על בטיחות הנתונים שלך, עליך להכניס את הססמה שלך בעת שימוש במפתח גישה זה.
 signin-passkey-fallback-password-label = ססמה
-signin-passkey-fallback-go-to-settings = מעבר להגדרות
 signin-passkey-fallback-continue = המשך
 
 # This Source Code Form is subject to the terms of the Mozilla Public

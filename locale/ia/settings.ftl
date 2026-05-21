@@ -1995,7 +1995,6 @@ signin-passkey-fallback-header = Completar accesso
 signin-passkey-fallback-heading = Insere tu contrasigno pro synchronisar
 signin-passkey-fallback-body = Pro mantener tu datos secur, tu debe inserer tu contrasigno quando tu usa iste clave-contrasigno.
 signin-passkey-fallback-password-label = Contrasigno
-signin-passkey-fallback-go-to-settings = Ir a parametros
 signin-passkey-fallback-continue = Continuar
 
 # This Source Code Form is subject to the terms of the Mozilla Public

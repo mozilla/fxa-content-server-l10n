@@ -1999,7 +1999,6 @@ signin-passkey-fallback-header = Bejelentkezés befejezése
 signin-passkey-fallback-heading = Adja meg a jelszavát a szinkronizáláshoz
 signin-passkey-fallback-body = Hogy adatait biztonságban tartsa, meg kell adnia a jelszavát, amikor ezt a jelkulcsot használja.
 signin-passkey-fallback-password-label = Jelszó
-signin-passkey-fallback-go-to-settings = Ugrás a beállításokhoz
 signin-passkey-fallback-continue = Folytatás
 
 # This Source Code Form is subject to the terms of the Mozilla Public

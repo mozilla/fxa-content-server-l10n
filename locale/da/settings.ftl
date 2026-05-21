@@ -1981,7 +1981,6 @@ signin-passkey-fallback-header = Færdiggør login
 signin-passkey-fallback-heading = Indtast din adgangskode for at synkronisere
 signin-passkey-fallback-body = For at beskytte dine data skal du indtaste din adgangskode, når du bruger denne adgangsnøgle.
 signin-passkey-fallback-password-label = Adgangskode
-signin-passkey-fallback-go-to-settings = Gå til indstillinger
 signin-passkey-fallback-continue = Fortsæt
 
 # This Source Code Form is subject to the terms of the Mozilla Public

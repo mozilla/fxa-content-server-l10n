@@ -1918,7 +1918,6 @@ back = Geri dön
 
 signin-passkey-fallback-header = Girişi tamamla
 signin-passkey-fallback-password-label = Parola
-signin-passkey-fallback-go-to-settings = Ayarlara git
 signin-passkey-fallback-continue = Devam et
 
 # This Source Code Form is subject to the terms of the Mozilla Public

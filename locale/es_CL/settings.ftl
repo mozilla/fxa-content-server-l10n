@@ -1993,7 +1993,6 @@ signin-passkey-fallback-header = Terminar de conectarse
 signin-passkey-fallback-heading = Ingresa tu contraseña para sincronizar
 signin-passkey-fallback-body = Para mantener tus datos seguros, deberás ingresar tu contraseña cuando utilices esta llave de acceso.
 signin-passkey-fallback-password-label = Contraseña
-signin-passkey-fallback-go-to-settings = Ir a ajustes
 signin-passkey-fallback-continue = Continuar
 
 # This Source Code Form is subject to the terms of the Mozilla Public

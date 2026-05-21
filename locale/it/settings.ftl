@@ -1976,7 +1976,6 @@ signin-passkey-fallback-header = Completa l’accesso
 signin-passkey-fallback-heading = Inserisci la password per sincronizzare
 signin-passkey-fallback-body = Per mantenere i tuoi dati al sicuro, devi inserire la tua password quando utilizzi questa passkey.
 signin-passkey-fallback-password-label = Password
-signin-passkey-fallback-go-to-settings = Vai alle impostazioni
 signin-passkey-fallback-continue = Continua
 
 # This Source Code Form is subject to the terms of the Mozilla Public

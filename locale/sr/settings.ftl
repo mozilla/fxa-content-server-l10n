@@ -2000,7 +2000,6 @@ signin-passkey-fallback-header = Завршите пријављивање
 signin-passkey-fallback-heading = Унесите лозинку за усклађивање
 signin-passkey-fallback-body = Да бисте сачували безбедност својих података, потребно је да унесете лозинку када користите овај приступни кључ.
 signin-passkey-fallback-password-label = Лозинка
-signin-passkey-fallback-go-to-settings = Идите у подешавања
 signin-passkey-fallback-continue = Настави
 
 # This Source Code Form is subject to the terms of the Mozilla Public

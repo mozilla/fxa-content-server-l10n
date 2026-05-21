@@ -1999,7 +1999,6 @@ signin-passkey-fallback-header = Завершить вход
 signin-passkey-fallback-heading = Введите свой пароль для синхронизации
 signin-passkey-fallback-body = Для обеспечения безопасности ваших данных вам необходимо ввести пароль, когда вы используете этот ключ доступа.
 signin-passkey-fallback-password-label = Пароль
-signin-passkey-fallback-go-to-settings = Перейти в настройки
 signin-passkey-fallback-continue = Продолжить
 
 # This Source Code Form is subject to the terms of the Mozilla Public

@@ -1881,7 +1881,6 @@ back = Wstecz
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
 signin-passkey-fallback-password-label = Hasło
-signin-passkey-fallback-go-to-settings = Przejdź do ustawień
 signin-passkey-fallback-continue = Kontynuuj
 
 # This Source Code Form is subject to the terms of the Mozilla Public
