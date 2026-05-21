@@ -435,6 +435,16 @@ purchase-details-total-due-label = 合计应付
 next-plan-details-hide-button = 隐藏详细信息
 next-plan-details-show-button = 显示详细信息
 
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title = 开始 { $trialDayLength } 天免费试用
+free-trial-success-title = 您的 { $trialDayLength } 天免费试用已开始
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = 首次收费日：{ $endDate }
+
 ##
 
 next-coupon-success = 您的方案将自动按标价续订。
