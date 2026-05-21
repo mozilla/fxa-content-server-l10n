@@ -1476,6 +1476,10 @@ passkey-authentication-error-invalid-state = Mit Ihrem Zugangsschlüssel ist etw
 passkey-authentication-error-not-readable = Wir konnten nicht auf die Authentifizierungsmethode zugreifen. Versuchen Sie es erneut oder wählen Sie eine andere Anmeldemethode.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Es trat ein Problem auf. Versuchen Sie es erneut oder wählen Sie eine andere Anmeldemethode.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Zugangsschlüssel nicht erkannt. Eine andere Anmeldemethode verwenden.
 
 ## Connect Another Device page
 

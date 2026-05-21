@@ -1492,6 +1492,10 @@ passkey-authentication-error-invalid-state = Prišlo je do napake z vašim geslo
 passkey-authentication-error-not-readable = Nismo mogli dostopati do overitelja. Poskusite znova ali uporabite drug način prijave.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Nekaj je šlo narobe. Poskusite znova ali izberite drug način prijave.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Geslo ni prepoznano. Uporabite drug način prijave.
 
 ## Connect Another Device page
 

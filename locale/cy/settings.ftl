@@ -1500,6 +1500,10 @@ passkey-authentication-error-invalid-state = Aeth rhywbeth o'i le gyda'ch cyfrin
 passkey-authentication-error-not-readable = Doedd dim modd cael mynediad i'r dilysydd. Ceisiwch eto neu defnyddiwch ddull mewngofnodi arall.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Aeth rhywbeth o'i le. Ceisiwch eto neu dewiswch ddull mewngofnodi arall.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Paskey heb ei adnabod. Defnyddiwch ddull mewngofnodi arall.
 
 ## Connect Another Device page
 

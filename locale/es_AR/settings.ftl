@@ -1476,6 +1476,10 @@ passkey-authentication-error-invalid-state = Algo salió mal con tu clave de acc
 passkey-authentication-error-not-readable = No pudimos acceder al autenticador. Probá de nuevo o usá otro método de inicio de sesión.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Algo salió mal. Probá de nuevo o elegí otro método de inicio de sesión.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Clave de acceso no reconocida. Usar otro método de inicio de sesión.
 
 ## Connect Another Device page
 

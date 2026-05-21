@@ -1482,6 +1482,10 @@ passkey-authentication-error-invalid-state = Hiba történt a jelkulcsával. Pr�
 passkey-authentication-error-not-readable = Nem tudtuk elérni a hitelesítőt. Próbálja újra, vagy használjon másik bejelentkezési módszert.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Hiba történt. Próbálja újra, vagy válasszon másik bejelentkezési módszert.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = A jelkulcs nem felismerhető. Használjon másik bejelentkezési módot.
 
 ## Connect Another Device page
 
