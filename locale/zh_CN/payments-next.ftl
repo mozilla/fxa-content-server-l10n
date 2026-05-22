@@ -75,6 +75,7 @@ intent-payment-error-generic = 处理付款时发生意外错误，请重试。
 intent-payment-error-insufficient-funds = 您的卡余额不足，请改用其他卡。
 general-paypal-error = 处理付款时发生意外错误，请重试。
 paypal-active-subscription-no-billing-agreement-error = 从您的 { -brand-paypal } 账户扣款时出现问题，请为您的订阅重新启用自动付款。
+new-account-prepaid-card-free-trial-not-allowed = 新账户不再接受使用预付卡开始免费试用，请尝试其他付款方式。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -376,6 +377,7 @@ free-trial-content-link-view-invoice = 查看发票
 free-trial-content-link-view-invoice-aria = 查看 { $productName } 的发票
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = 您的免费试用于 <bold>{ $date }</bold> 结束。
+free-trial-content-could-not-process-payment = 无法处理您的付款，请更新您的付款方式以恢复使用。处理过程最多需要 24 小时，具体可能因银行和付款方式而异。
 free-trial-content-button-update-payment = 更新付款方式
 
 # Component - Header
@@ -709,6 +711,7 @@ manage-payment-method-intent-error-try-again = 呃，您的付款授权有问题
 manage-payment-method-intent-error-get-in-touch = 呃，您的付款授权有问题。请与您的发卡机构联系。
 manage-payment-method-intent-error-insufficient-funds = 您的卡余额不足，请改用其他卡。
 manage-payment-method-intent-error-generic = 处理付款时发生意外错误，请重试。
+manage-payment-method-tax-address-required = 我们无法确定您的账单地址，请检查您的付款方式信息并重试。
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)

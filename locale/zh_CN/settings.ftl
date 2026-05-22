@@ -1662,11 +1662,16 @@ pair-password-created-now-syncing = 密码已创建，同步已开始。
 
 # Subheader for the download screen
 pair-download-subheader = 下载移动版 { -brand-firefox }
+# Description for the download screen
+pair-download-description = 若要在手机或平板电脑上同步 { -brand-firefox }，请先下载移动版 { -brand-firefox }。操作方法如下：
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>第 { $stepNumber } 步</b>：使用您移动设备上的相机扫描此二维码，下载 { -brand-firefox }：
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = 设备已连接
 pair-success-message-2 = 配对成功。
+pair-success-tab-close-message = { -brand-firefox } 将自动关闭此标签页。
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1694,6 +1699,8 @@ pair-wait-for-auth-heading-text =
 
 pair-unsupported-header = 请使用应用程序配对
 pair-unsupported-message = 您用的是系统相机？配对必须通过 { -brand-firefox } 应用程序扫码完成。
+# Shown as heading when a desktop user visits from a non-Firefox browser
+pair-unsupported-oops-header = 哎呀！您使用的好像不是 { -brand-firefox }。
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = 详细了解
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
