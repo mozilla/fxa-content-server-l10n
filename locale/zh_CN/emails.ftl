@@ -94,6 +94,7 @@ automated-email-reset-pwd-two-factor = 如非本人操作，请立即<a data-l10
 automated-email-reset-pwd-plaintext-v3 = 如非本人操作，请立即在此重设密码：
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = 同时在此重设两步验证：
+automated-email-sign-in-plaintext = 如果您并未授权此操作，请检查账户安全设置：
 brand-banner-message = 您知道我们已由 { -product-firefox-accounts }更名为 { -product-mozilla-accounts }吗？<a data-l10n-name="learnMore">详细了解</a>
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
 manage-account = 管理账户
@@ -256,6 +257,7 @@ postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-accoun
 postAddLinkedAccount-title-2 = 您的 { $providerName } 账户已关联到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理账户
 postAddPasskey-subject = 通行密钥已创建
+postAddPasskey-preview = 您现在可以使用您的设备来登录
 postAddPasskey-title = 您已创建通行密钥
 postAddPasskey-description = 您现可用它来登录所有 { -product-mozilla-account } 服务。
 postAddPasskey-sync-note = 请注意：您仍需输入密码才能访问 { -brand-firefox } 同步数据。
