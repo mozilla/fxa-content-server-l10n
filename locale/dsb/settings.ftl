@@ -1492,6 +1492,10 @@ passkey-authentication-error-invalid-state = Něco njejo se raźiło z wašym gr
 passkey-authentication-error-not-readable = Njejsmy mógli pśistup k awtentifikatoroju dostaś. Wopytajśo hyšći raz abo wubjeŕśo drugu pśizjawjeńsku metodu.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Něco njejo se raźiło. Wopytajśo hyšći raz abo wubjeŕśo drugu pśizjawjeńsku metodu.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Gronidłowy kluc njejo se spóznał. Wužywajśo drugu pśizjawjeńsku metodu.
 
 ## Connect Another Device page
 
