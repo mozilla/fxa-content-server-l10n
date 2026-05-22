@@ -1812,6 +1812,9 @@ msgid ""
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
 msgstr ""
+"\n"
+"          <span>%(deviceOS)s 版 %(deviceFamily)s</span> 已连接。\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."

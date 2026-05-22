@@ -255,8 +255,13 @@ postAddLinkedAccount-subject-2 = 新账户已关联到 { -product-mozilla-accoun
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = 您的 { $providerName } 账户已关联到 { -product-mozilla-account }
 postAddLinkedAccount-action = 管理账户
+postAddPasskey-subject = 通行密钥已创建
+postAddPasskey-title = 您已创建通行密钥
+postAddPasskey-description = 您现可用它来登录所有 { -product-mozilla-account } 服务。
+postAddPasskey-sync-note = 请注意：您仍需输入密码才能访问 { -brand-firefox } 同步数据。
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = 详细了解
+postAddPasskey-requested-from = 您已从以下位置请求：
 postAddPasskey-action = 管理账户
 postAddRecoveryPhone-subject = 已添加恢复电话号码
 postAddRecoveryPhone-preview = 账户受两步验证保护

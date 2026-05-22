@@ -1554,8 +1554,6 @@ pair-auth-complete-manage-devices-link = 管理设备
 
 ## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
 
-# Heading
-pair-auth-complete-send-tab-heading = 已准备好发送标签页
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceOS } 版 { $deviceFamily } 已连接。
