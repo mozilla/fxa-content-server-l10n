@@ -1465,7 +1465,7 @@ passkey-authentication-error-unexpected = Si è verificato un errore. Riprova o 
 # Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
 # that no longer exists on the account (e.g., the user deleted the passkey
 # from their account but the authenticator still has the credential).
-passkey-authentication-error-not-found = Chiave di accesso non riconosciuta. Utilizza un altro metodo di accesso.
+passkey-authentication-error-not-found = Passkey non riconosciuta. Utilizza un altro metodo di accesso.
 
 ## Connect Another Device page
 
