@@ -1487,6 +1487,10 @@ passkey-authentication-error-invalid-state = Vyskytol sa problém s vaším prí
 passkey-authentication-error-not-readable = Nepodarilo sa nám získať prístup k overovaču. Skúste to znova alebo použite iný spôsob prihlásenia.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Vyskytla sa chyba. Skúste to znova alebo vyberte iný spôsob prihlásenia.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Prístupový kľúč nebol rozpoznaný. Použite iný spôsob prihlásenia.
 
 ## Connect Another Device page
 
