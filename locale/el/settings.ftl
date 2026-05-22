@@ -1479,6 +1479,10 @@ passkey-authentication-error-invalid-state = Κάτι πήγε στραβά με
 passkey-authentication-error-not-readable = Δεν ήταν δυνατή η πρόσβαση στην εφαρμογή ελέγχου ταυτότητάς σας. Δοκιμάστε ξανά ή χρησιμοποιήστε άλλη μέθοδο σύνδεσης.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή επιλέξτε άλλη μέθοδο σύνδεσης.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Δεν αναγνωρίστηκε το κλειδί πρόσβασης. Χρησιμοποιήστε άλλη μέθοδο σύνδεσης.
 
 ## Connect Another Device page
 
