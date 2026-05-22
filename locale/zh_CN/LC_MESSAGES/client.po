@@ -1869,7 +1869,7 @@ msgstr "登录成功！"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "在您要发送标签页的设备上下载或打开 Firefox"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
