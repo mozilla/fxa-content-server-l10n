@@ -253,7 +253,7 @@ checkmark-enabled-icon-aria-label =
     .aria-label = Engedélyezve
 # Used to indicate that an action will navigate forward or open a detail view
 chevron-right-icon-aria-label =
-    .aria-label = Sablon jobbra
+    .aria-label = Jobbra mutató szimbólum
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Üzenet bezárása
@@ -1485,7 +1485,7 @@ passkey-authentication-error-unexpected = Hiba történt. Próbálja újra, vagy
 # Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
 # that no longer exists on the account (e.g., the user deleted the passkey
 # from their account but the authenticator still has the credential).
-passkey-authentication-error-not-found = A jelkulcs nem felismerhető. Használjon másik bejelentkezési módot.
+passkey-authentication-error-not-found = A jelkulcs nem ismerhető fel. Használjon másik bejelentkezési módot.
 
 ## Connect Another Device page
 
