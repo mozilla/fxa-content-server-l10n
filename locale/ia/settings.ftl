@@ -1481,6 +1481,10 @@ passkey-authentication-error-invalid-state = Alco errate eveniva con tu clave-co
 passkey-authentication-error-not-readable = Nos non poteva acceder al authenticator. Retenta o usa un altere methodo de authentication.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Alco errate eveniva. Retenta o elige un altere methodo de authentication.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Clave-contrasigno non recognoscite. Usa un altere metodo de accesso
 
 ## Connect Another Device page
 
