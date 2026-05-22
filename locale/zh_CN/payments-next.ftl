@@ -464,6 +464,7 @@ free-trial-success-title = 您的 { $trialDayLength } 天免费试用已开始
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
+free-trial-start-message-daily = 今天无需付费。{ $endDate } 免费使用期结束后，才会向您收费 { $firstPrice }/天。
 free-trial-start-message-weekly = 今天无需付费。{ $endDate } 免费试用期结束后，才会向您收费 { $firstPrice }/周。
 free-trial-start-message-monthly = 今天无需付费。{ $endDate } 免费试用期结束后，才会向您收费 { $firstPrice }/月。
 free-trial-start-message-halfyearly = 今天无需付费。{ $endDate } 免费试用期结束后，才会向您收费 { $firstPrice }/半年。

@@ -1857,11 +1857,11 @@ msgstr "无法完成设置，请通过邮箱地址登录。"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "密码已创建，同步已开始。"
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "账户已创建，同步已开始。"
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
