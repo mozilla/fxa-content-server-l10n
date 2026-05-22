@@ -336,10 +336,15 @@ free-trial-content-trial-cancelled = 已取消您的免费试用。
 
 # Charge info strings - with tax, per interval
 
+free-trial-content-charge-info-with-tax-day = { $date } 免费使用期结束后，将每天向您收费 { $amount } + 税款 { $tax }。
+free-trial-content-charge-info-with-tax-week = { $date } 免费试用期结束后，将每周向您收费 { $amount } + 税款 { $tax }。
+free-trial-content-charge-info-with-tax-month = { $date } 免费试用期结束后，将每月向您收费 { $amount } + 税款 { $tax }。
+free-trial-content-charge-info-with-tax-halfyear = { $date } 免费试用期结束后，将每半年向您收费 { $amount } + 税款 { $tax }。
+free-trial-content-charge-info-with-tax-year = { $date } 免费试用期结束后，将每年向您收费 { $amount } + 税款 { $tax }。
 
 # Charge info strings - no tax, per interval
 
-free-trial-content-charge-info-no-tax-default = { $date } 免费使用期结束后，将向您收费 { $amount }。
+free-trial-content-charge-info-no-tax-default = { $date } 免费试用期结束后，将向您收费 { $amount }。
 free-trial-content-trial-ends = 您的免费试用将于 { $date } 结束。若希望在免费使用结束后继续使用，请更新您的付款方式。
 free-trial-content-trial-active = 您的免费试用已生效。
 free-trial-content-action-error = 发生意外错误，请重试。
@@ -347,6 +352,7 @@ free-trial-content-button-resume-trial = 恢复试用
 free-trial-content-button-resume-trial-aria = 恢复试用 { $productName }
 free-trial-content-button-cancel-trial = 取消试用
 free-trial-content-button-cancel-trial-aria = 取消试用 { $productName }
+free-trial-content-button-cancel-subscription = 取消订阅
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -451,10 +457,11 @@ free-trial-success-title = 您的 { $trialDayLength } 天免费试用已开始
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
-free-trial-start-message-weekly = 今天无需付费。{ $endDate } 免费使用期结束时，才会向您收费 { $firstPrice }/周。
-free-trial-start-message-monthly = 今天无需付费。{ $endDate } 免费使用期结束时，才会向您收费 { $firstPrice }/月。
-free-trial-start-message-halfyearly = 今天无需付费。{ $endDate } 免费使用期结束时，才会向您收费 { $firstPrice }/半年。
-free-trial-start-message-yearly = 今天无需付费。{ $endDate } 免费使用期结束时，才会向您收费 { $firstPrice }/年。
+free-trial-start-message-daily = 今天无需付费。{ $endDate } 免费试用期结束时，才会向您收费 { $firstPrice }/天。
+free-trial-start-message-weekly = 今天无需付费。{ $endDate } 免费试用期结束时，才会向您收费 { $firstPrice }/周。
+free-trial-start-message-monthly = 今天无需付费。{ $endDate } 免费试用期结束时，才会向您收费 { $firstPrice }/月。
+free-trial-start-message-halfyearly = 今天无需付费。{ $endDate } 免费试用期结束时，才会向您收费 { $firstPrice }/半年。
+free-trial-start-message-yearly = 今天无需付费。{ $endDate } 免费试用期结束时，才会向您收费 { $firstPrice }/年。
 
 ##
 
