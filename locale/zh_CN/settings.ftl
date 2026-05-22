@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = 重领互联网的行动号召
 
+## Dark mode toggle
+
+dark-mode-toggle-light = 明亮
+dark-mode-toggle-dark = 深邃
+dark-mode-toggle-system = 系统
+dark-mode-toggle-label = 切换主题
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -386,6 +393,14 @@ password-strength-inline-not-email = 不包含您的邮箱地址
 password-strength-inline-not-common = 不是常见密码
 password-strength-inline-confirmed-must-match = 再次输入的密码与新密码一致
 password-strength-inline-passwords-match = 密码符合
+
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = 您的手机，您做主。
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = 扫码下载应用
 
 ## Notification Promo Banner component
 
@@ -1650,6 +1665,12 @@ pair-wait-for-auth-heading-text =
 
 pair-unsupported-header = 请使用应用程序配对
 pair-unsupported-message = 您用的是系统相机？配对必须通过 { -brand-firefox } 应用程序扫码完成。
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = 详细了解
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = 哎呀！出了点问题。
+pair-unsupported-desktop-firefox-fallback-message-v2 = 请关闭此标签页并重试。
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -1862,6 +1883,7 @@ back = 上一步
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
+signin-passkey-fallback-header = 完成登录
 signin-passkey-fallback-password-label = 密码
 signin-passkey-fallback-continue = 继续
 
