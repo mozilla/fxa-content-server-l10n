@@ -1477,6 +1477,10 @@ passkey-authentication-error-invalid-state = Noko gjekk gale med passnøkkelen d
 passkey-authentication-error-not-readable = Vi klarte ikkje å få tilgang til autentiseringseininga. Prøv igjen eller bruk ein annan innloggingsmetode.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Noko gjekk gale. Prøv igjen eller vel ein annan innloggingsmetode.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Passnøkkelen vart ikkje gjenkjend. Bruk ein annan innloggingsmetode.
 
 ## Connect Another Device page
 

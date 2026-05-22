@@ -98,6 +98,7 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Bu işlemi siz yapmadıysanız hemen parolanızı sıfırlayın:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Ayrıca iki aşamalı doğrulamayı da sıfırlayın:
+automated-email-sign-in-plaintext = Bu işlemi siz onaylamadıysanız lütfen hesap güvenlik ayarlarınızı kontrol edin:
 brand-banner-message = { -product-firefox-accounts } adını { -product-mozilla-accounts } olarak değiştirdiğimizi biliyor muydunuz? <a data-l10n-name="learnMore">Bilgi alın</a>
 change-password-plaintext = Birisinin hesabınızı ele geçirmeye çalıştığını düşünüyorsanız lütfen parolanızı değiştirin.
 manage-account = Hesabı yönet
