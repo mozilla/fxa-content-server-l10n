@@ -1573,6 +1573,8 @@ pair-auth-complete-manage-devices-link = 管理设备
 
 ## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
 
+# Heading
+pair-auth-complete-send-tab-heading = 现在可以发送标签页
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceOS } 版 { $deviceFamily } 已连接。
@@ -1701,6 +1703,17 @@ pair-unsupported-header = 请使用应用程序配对
 pair-unsupported-message = 您用的是系统相机？配对必须通过 { -brand-firefox } 应用程序扫码完成。
 # Shown as heading when a desktop user visits from a non-Firefox browser
 pair-unsupported-oops-header = 哎呀！您使用的好像不是 { -brand-firefox }。
+# Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
+pair-unsupported-switch-to-firefox = 请换用 { -brand-firefox } 打开此页面，以连接其他设备。
+# Shown inline on mobile non-Firefox browsers before the download link
+pair-unsupported-oops-mobile = 哎呀！您使用的好像不是 { -brand-firefox }。
+# v2: Heading for the mobile instructional message, shown on all mobile devices
+# (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
+# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
+pair-unsupported-connecting-mobile-header-v2 = 将移动设备与 { -product-mozilla-account }连接
+# v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
+# URL so the domain does not wrap to a new line on narrow screens.
+pair-unsupported-connecting-mobile-instructions-v2 = 在您的计算机上打开 { -brand-firefox }，访问 <b>firefox.com/pair</b>，按屏幕上的指示来连接移动设备。
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = 详细了解
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
@@ -1925,6 +1938,8 @@ back = 上一步
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
 signin-passkey-fallback-header = 完成登录
+signin-passkey-fallback-heading = 输入密码进行同步
+signin-passkey-fallback-body = 为确保您的数据安全，使用此通行密钥时需输入密码。
 signin-passkey-fallback-password-label = 密码
 signin-passkey-fallback-continue = 继续
 
@@ -1937,6 +1952,13 @@ signin-passkey-fallback-continue = 继续
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = 输入确认码
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction = 请在 { $expirationMinutes } 分钟内输入发送到 <email>{ $email }</email> 的验证码。
 signin-passwordless-code-input-label-v2 = 请输入 6 位验证码
 signin-passwordless-code-confirm-button = 确认
 signin-passwordless-code-required-error = 请输入确认码
