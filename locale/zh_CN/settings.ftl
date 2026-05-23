@@ -1952,6 +1952,7 @@ signin-passkey-fallback-continue = 继续
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = 输入确认码
+signin-passwordless-code-subheading = 使用此验证码，只需一步即可登录。
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -1968,6 +1969,11 @@ signin-passwordless-code-resend-countdown = { $seconds } 秒后可重新发送
 signin-passwordless-code-resend-link = 重新发送确认码
 signin-passwordless-code-resend-error = 出了点问题，无法发送新确认码。
 signin-passwordless-code-other-account-link = 换个账户登录
+
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = 使用此验证码，只需一步即可完成注册。
 
 ## Error messages
 

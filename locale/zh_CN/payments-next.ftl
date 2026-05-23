@@ -726,6 +726,7 @@ next-charge-next-charge-with-discount-and-tax = 下次于 { $currentPeriodEnd } 
 next-charge-with-discount-no-tax-card = 下次于 { $currentPeriodEnd } 向尾号 { $last4 } 的卡片收取 { $nextInvoiceTotal } 时，您将享受 { $discountPercent }% 优惠。
 next-charge-with-discount-no-tax-payment-method = 下次于 { $currentPeriodEnd } 通过 { $paymentMethod } 付款方式收取 { $nextInvoiceTotal } 时，您将享受 { $discountPercent }% 优惠。
 next-charge-with-discount-no-tax = 下次于 { $currentPeriodEnd } 收取 { $nextInvoiceTotal } 时，您将享受 { $discountPercent }% 优惠。
+next-charge-with-tax-card = 下次将于 { $currentPeriodEnd } 向尾号为 { $last4 } 的卡收取 { $nextInvoiceTotal } + 税款 { $taxDue }。
 next-charge-with-tax-payment-method = 下次将于 { $currentPeriodEnd } 通过 { $paymentMethod } 付款方式收取 { $nextInvoiceTotal } + 税款 { $taxDue }。
 next-charge-with-tax = 下次将于 { $currentPeriodEnd } 收取 { $nextInvoiceTotal } + 税款 { $taxDue }。
 next-charge-no-tax-card = 下次将于 { $currentPeriodEnd } 向尾号为 { $last4 } 的卡收取 { $nextInvoiceTotal }。

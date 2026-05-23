@@ -94,6 +94,9 @@ automated-email-reset-pwd-two-factor = 如非本人操作，请立即<a data-l10
 automated-email-reset-pwd-plaintext-v3 = 如非本人操作，请立即在此重设密码：
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = 同时在此重设两步验证：
+automated-email-sign-in =
+    这是一封自动发送的邮件。若您并未授权进行此操作，请<a data-l10n-name="securitySettingsLink">检查您的账户安全设置</a>。
+    有关更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 技术支持</a>。
 automated-email-sign-in-plaintext = 如果您并未授权此操作，请检查账户安全设置：
 brand-banner-message = 您知道我们已由 { -product-firefox-accounts }更名为 { -product-mozilla-accounts }吗？<a data-l10n-name="learnMore">详细了解</a>
 change-password-plaintext = 如果您怀疑有人在试图访问您的账户，请更改您的密码。
