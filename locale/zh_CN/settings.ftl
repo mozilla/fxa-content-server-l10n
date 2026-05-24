@@ -298,6 +298,9 @@ sync-clouds-image-aria-label =
     .aria-label = 带同步图标的云朵图案
 confetti-falling-image-aria-label =
     .aria-label = 五彩纸屑飘落动画
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = 带有圆形标记的 { -brand-firefox } 窗口，标记中显示绿色勾号和“VPN”，表示 VPN 已启用。
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
