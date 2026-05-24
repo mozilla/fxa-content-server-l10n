@@ -236,6 +236,7 @@ freeTrialEndingReminder-content-cancel-link-plaintext = 为避免收费，请于
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-thanks = 感谢您使用 { $productName }。如果您对试用或订阅有任何疑问，请<a data-l10n-name="freeTrialEndingReminder-contact-support">联系我们</a>。
 freeTrialEndingReminder-content-thanks-plaintext = 感谢您使用 { $productName }。如果您对试用或订阅有任何疑问，请联系我们。
+freeTrialEndingReminder-content-closing = 专此
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-signature = { $productName } 团队

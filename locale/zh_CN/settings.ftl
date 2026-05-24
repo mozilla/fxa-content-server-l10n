@@ -239,6 +239,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = 已启用
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = 表示展开的右箭头
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = 关闭消息
@@ -1677,6 +1680,10 @@ pair-download-subheader = 下载移动版 { -brand-firefox }
 pair-download-description = 若要在手机或平板电脑上同步 { -brand-firefox }，请先下载移动版 { -brand-firefox }。操作方法如下：
 # Step 1: scan QR code. $stepNumber is the step number (1)
 pair-download-step-scan-qr = <b>第 { $stepNumber } 步</b>：使用您移动设备上的相机扫描此二维码，下载 { -brand-firefox }：
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>第 { $stepNumber } 步</b>：选择“开始同步”在移动设备上同步您的 { -brand-firefox } 体验。
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = 开始同步
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
