@@ -1207,7 +1207,7 @@ passkey-row-header = 通行密钥
 passkey-row-enabled = 已启用
 passkey-row-not-set = 未设置
 passkey-row-action-create = 创建
-passkey-row-description = 使用手机或其他支持的设备登录账户，让登录过程更便捷、安全。
+passkey-row-description = 使用手机或其他支持的设备登录账户，登录过程更便捷、安全。
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = 详细了解
 # Shown as a warning banner when the user has registered the maximum number of passkeys.
@@ -1589,7 +1589,7 @@ pair-auth-complete-send-tab-heading = 现在可以发送标签页
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceOS } 版 { $deviceFamily } 已连接。
-pair-auth-complete-send-tab-benefits = 您可随时在设备间发送打开的标签页、密码、书签等。
+pair-auth-complete-send-tab-benefits = 您可随时在设备间发送打开的标签页、密码、书签。
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
