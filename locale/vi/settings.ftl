@@ -1451,6 +1451,10 @@ passkey-authentication-error-invalid-state = Đã xảy ra lỗi với passkey c
 passkey-authentication-error-not-readable = Chúng tôi không thể truy cập vào hệ thống xác thực. Vui lòng thử lại hoặc sử dụng phương thức đăng nhập khác.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Đã xảy ra lỗi. Vui lòng thử lại hoặc chọn phương thức đăng nhập khác.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Không nhận dạng được passkey. Vui lòng sử dụng phương thức đăng nhập khác.
 
 ## Connect Another Device page
 
