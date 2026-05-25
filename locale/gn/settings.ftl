@@ -1402,6 +1402,7 @@ auth-error-226 = Ojehupyty ñe’ẽ ñemi ru’ã
 auth-error-227 = Ndoikói pe ñe’ẽ ñemi ñemoneĩ
 auth-error-228 = Ndoikói pe ñe’ẽ ñemi ñembokuatia
 auth-error-238 = Ndoikói ñe’ẽ ñemi raperã
+auth-error-239 = Rombyasy, ndaikatúikuri rombogue ne mba’ete. Eha’ã jey térã eñe’ẽ pytyvõhára ndive ndopáirõ apañuái.
 auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1001 = Ojejokóma tembiapo ñepyrũ
 auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
@@ -1476,6 +1477,10 @@ passkey-authentication-error-invalid-state = Oĩ osẽvaíva ne ñe’ẽ ñemi 
 passkey-authentication-error-not-readable = Ndoroikekuaái moañetehápe. Eha’ã pyahu jey térã eiporavo ambueháicha eike hag̃ua.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Oĩ osẽvaíva. Eha’ãjey térã eiporavo ambue mba’e eikekuaa hag̃ua.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Ñe’ẽ ñemi ojekuaa’ỹva. Eiporu ambue mba’e eike hag̃ua.
 
 ## Connect Another Device page
 
