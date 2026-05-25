@@ -259,6 +259,7 @@ next-payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 next-new-user-submit = Eñemboheraguapy Ko’ág̃a
 next-pay-with-heading-paypal = Ehepyme’ẽ { -brand-paypal } ndive
+free-trial-ineligible-notice = Ne mba’ete ndojeporavokuaái jeporu reigua. Eku’e jeykuaa mboheraguapy jehepyme’ẽva ndive.
 
 ## Churn flow - cancel
 

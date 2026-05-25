@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Myandypyre
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Comilla angular akatúa gotyo
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Emboty ñe’ẽmondo
@@ -984,6 +987,7 @@ page-passkey-add-cancel = Eheja
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Ñe’ẽ ñemi mboheñoipyre
+page-passkey-add-error-system-v2 = Oiko apañuái emoheñoinguévo ne ñe’ẽ ñemi. Eha’ã jey ag̃ave.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
