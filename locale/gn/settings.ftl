@@ -1441,6 +1441,12 @@ passkey-registration-error-not-allowed = Pe ñe’ẽ ñemi ñemboheko ndoikói 
 passkey-registration-error-not-allowed-existing = Ñe’ẽ ñemi ñemoheñói ndereiporukuaamo’ãi ko mba’e’okápe. Ikatu pe mba’e’oka oñemboheraguapýma térã ikatu ojehejareíma pe iñemboheko.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Ojehejarei ñe’ẽ ñemi ñemboheko. Eha’ãjey ag̃ave.
+# User clicked the in-page Cancel link while the ceremony was still pending
+passkey-registration-canceled = Ojehejarei ñe’ẽ ñemi ñemboheko. Eha’ãjey ag̃ave.
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Ne kundahára térã mba’e’oka ndaipu’akái ñe’ẽ ñemíme.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Eikuaave
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Ndaikatúi emboheko ñe’ẽ ñemi ko kuatiaroguepegua. Eiporu tenda hekorosãva ha eha’ãjey.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1460,6 +1466,8 @@ passkey-authentication-error-not-allowed = Pe ñe’ẽ ñemi jeikeha ñemboheko
 passkey-authentication-error-not-allowed-existing = Ñe’ẽ ñemi jeikeha ñemboheko noĩri ko mba’e’okápe. Ikatu eha’ã jey térã eiporavo ambue mba’e.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Opáma ejerure hag̃ua ñemigua. Eha’ãjey ag̃ave.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Ne kundahára térã mba’e’oka ndaipu’akái ñe’ẽ ñemíme.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Ndaikatúi eiporu ñe’ẽ ñemieta ko kuatiaroguepegua. Ehecha eĩha tenda hekorosãvape ha eha’ãjey.
 # Unexpected credential state during authentication
