@@ -1477,6 +1477,10 @@ passkey-authentication-error-invalid-state = Något gick fel med lösenordsnycke
 passkey-authentication-error-not-readable = Vi kunde inte komma åt autentiseringen. Försök igen eller använd en annan inloggningsmetod.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Något gick fel. Försök igen eller välj en annan inloggningsmetod.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Lösenordsnyckel känns inte igen. Använd en annan inloggningsmetod.
 
 ## Connect Another Device page
 
@@ -1996,7 +2000,6 @@ signin-passkey-fallback-header = Slutför inloggningen
 signin-passkey-fallback-heading = Ange ditt lösenord för att synkronisera
 signin-passkey-fallback-body = För att skydda din data måste du ange ditt lösenord när du använder denna lösenordsnyckel.
 signin-passkey-fallback-password-label = Lösenord
-signin-passkey-fallback-go-to-settings = Gå till inställningar
 signin-passkey-fallback-continue = Fortsätt
 
 # This Source Code Form is subject to the terms of the Mozilla Public

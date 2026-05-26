@@ -1998,7 +1998,6 @@ signin-passkey-fallback-header = Oanmelding foltôgje
 signin-passkey-fallback-heading = Fier jo wachtwurd yn om te syngronisearjen
 signin-passkey-fallback-body = Om jo gegevens feilich te hâlden, moatte jo jo wachtwurd ynfiere as jo dizze wachtwurdkaai brûke.
 signin-passkey-fallback-password-label = Wachtwurd
-signin-passkey-fallback-go-to-settings = Nei Ynstellingen
 signin-passkey-fallback-continue = Trochgean
 
 # This Source Code Form is subject to the terms of the Mozilla Public
