@@ -582,6 +582,15 @@ cs-disconnect-suspicious-advice-heading = Dispositivo sospetto disconnesso
 cs-disconnect-suspicious-advice-content-2 = Se il dispositivo disconnesso è effettivamente sospetto, ti consigliamo di modificare la password dell’{ -product-mozilla-account } nelle impostazioni del tuo account per mantenere le tue informazioni al sicuro. Ti consigliamo anche modificare qualsiasi altra password salvata in { -brand-firefox } digitando about:logins nelle barra degli indirizzi.
 cs-sign-out-button = Disconnetti
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = VPN integrata in { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Raccolta e utilizzo dati

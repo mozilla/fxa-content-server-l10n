@@ -596,6 +596,15 @@ cs-disconnect-suspicious-advice-heading = Dyfais amheus wedi'i datgysylltu
 cs-disconnect-suspicious-advice-content-2 = Os yw'r ddyfais sydd wedi'i datgysylltu yn wir amheus, i gadw'ch manylion yn ddiogel, dylech newid cyfrinair eich cyfrif { -product-mozilla-account } yng ngosodiadau eich cyfrif. Dylech hefyd newid unrhyw gyfrineiriau eraill a gadwyd gennych yn { -brand-firefox } trwy deipio about:logins yn y bar cyfeiriad.
 cs-sign-out-button = Allgofnodi
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = VPN integredig { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Casglu a'r Defnydd o Ddata

@@ -591,6 +591,15 @@ cs-disconnect-suspicious-advice-content-2 =
     Doporučujeme také změnit všechna hesla uložená ve { -brand-firefox(case: "loc") }, která najdete po zadání about:logins do adresního řádku.
 cs-sign-out-button = Odhlásit se
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = Vestavěná VPN aplikace { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Sběr dat a jejich použití

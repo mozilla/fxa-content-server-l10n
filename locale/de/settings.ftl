@@ -584,6 +584,15 @@ cs-disconnect-suspicious-advice-heading = Verdächtiges Gerät getrennt
 cs-disconnect-suspicious-advice-content-2 = Wenn das getrennte Gerät wirklich verdächtig ist, sollten Sie zum Schutz Ihrer Daten Ihr { -product-mozilla-account }-Passwort in Ihren Kontoeinstellungen ändern. Sie sollten auch alle anderen Passwörter, die Sie in { -brand-firefox } gespeichert haben, ändern, indem Sie about:logins in die Adressleiste eingeben.
 cs-sign-out-button = Abmelden
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = integriertes VPN von { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Datenerfassung und -nutzung
