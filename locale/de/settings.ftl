@@ -591,7 +591,7 @@ cs-sign-out-button = Abmelden
 # the device's refresh token is authorized for Firefox’s built-in VPN.
 # In this context, "VPN" is a VPN service built into the Firefox browser, and
 # generally isn’t localized differently than "VPN".
-cs-scope-firefox-vpn = integriertes VPN von { -brand-firefox }
+cs-scope-firefox-vpn = Integriertes VPN von { -brand-firefox }
 
 ## Data collection section
 
