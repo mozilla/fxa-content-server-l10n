@@ -570,6 +570,15 @@ cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-disconnect-suspicious-advice-content-2 = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-mozilla-account }的密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-sign-out-button = 登出
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = { -brand-firefox } 內建的 VPN 功能
+
 ## Data collection section
 
 dc-heading = 資料收集與使用
