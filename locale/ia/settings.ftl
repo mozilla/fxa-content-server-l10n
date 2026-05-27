@@ -588,6 +588,15 @@ cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnectite
 cs-disconnect-suspicious-advice-content-2 = Si le apparato disconnectite es in effecto suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de { -product-mozilla-account } in tu parametros de conto. Tu deberea etiam cambiar omne altere contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
 cs-sign-out-button = Clauder session
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = VPN integrate de { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Recolta e uso de datos
