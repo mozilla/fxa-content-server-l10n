@@ -210,6 +210,11 @@ freeTrialEndingReminder-content-greeting = { $productName } პროდუქ�
 #   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-trial-ending = თქვენი უფასო საცდელი დროის ამოწურვის თარიღია <strong>{ $serviceLastActiveDateOnly }</strong>.
 freeTrialEndingReminder-content-trial-ending-plaintext = თქვენი უფასო საცდელი დროის ამოწურვის თარიღია { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = თუ მანამდე არ გააუქმებთ, თქვენი გამოწერა თავისთავად დაიწყება და ჩამოგეჭრებათ <strong>{ $invoiceTotal }</strong> ანგარიშზე მითითებული გადახდის საშუალებიდან თარიღზე <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-auto-charge-plaintext = თუ მანამდე არ გააუქმებთ, თქვენი გამოწერა თავისთავად დაიწყება და ჩამოგეჭრებათ { $invoiceTotal } ანგარიშზე მითითებული გადახდის საშუალებიდან თარიღზე { $serviceLastActiveDateOnly }.
 freeTrialEndingReminder-content-charge-heading = ჩამოჭრის შესახებ
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -307,9 +312,26 @@ subscriptionDowngrade-content-charge-info = მომდევნო საა�
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = თუ იქნება ახალი პროგრამა თქვენთვის, რომ შეძლოთ გამოიყენოთ { $productName }, მიიღებთ ცალკე წერილს ელფოსტაზე ჩამოტვირთვის მითითებებით.
 subscriptionDowngrade-content-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = თქვენ მიერ გამოწერილი { $productName } მალე გაუქმდება ვადის გასვლით
+subscriptionEndingReminder-title = თქვენ მიერ გამოწერილი { $productName } მალე გაუქმდება ვადის გასვლით
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = { $productName } თქვენთვის მიუწვდომელი გახდება თარიღზე <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line2-v2 = თუ გსურთ, კვლავ გამოიყენოთ { $productName }, შეგიძლიათ დატოვოთ გამოწერილი <a data-l10n-name="subscriptionEndingReminder-subscription-management">გამოწერების სამართავიდან</a> თარიღამდე <strong>{ $serviceLastActiveDateOnly }</strong>. თუ დახმარება გესაჭიროებათ, <a data-l10n-name="subscriptionEndingReminder-contact-support">დაუკავშირდით ჩვენს მხარდაჭერის გუნდს</a>.
+subscriptionEndingReminder-content-line1-plaintext = { $productName } თქვენთვის მიუწვდომელი გახდება თარიღზე { $serviceLastActiveDateOnly }.
 subscriptionEndingReminder-content-line2-plaintext-v2 = თუ გსურთ, კვლავ გამოიყენოთ { $productName }, შეგიძლიათ დატოვოთ გამოწერა თარიღამდე { $serviceLastActiveDateOnly }. თუ დახმარება გესაჭიროებათ, დაუკავშირდით ჩვენს მხარდაჭერის გუნდს.
+subscriptionEndingReminder-content-closing = გმადლობთ, რომ ღირსეული გამომწერი ხართ!
 subscriptionEndingReminder-churn-title = გსურთ წვდომის შენარჩუნება?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">მოქმედებს შეკვეცილი ვადები და შეზღუდვები</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = მოქმედებს შეკვეცილი პირობები და შეზღუდვები: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = მიმართეთ ჩვენს მხარდაჭერის გუნდს: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = თქვენი { $productName } გამოწერა გაუქმებულია
@@ -356,7 +378,16 @@ subscriptionPaymentProviderCancelled-content-detect = ხარვეზი ა�
 subscriptionPaymentProviderCancelled-content-reason-1 = სავარაუდოდ, თქვენი გადახდის საშუალება ვადაგასულია ან მოძველებულია.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = თქვენ მიერ გამოწერილი { $productName } კვლავ ამოქმედდა
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-subject = თქვენი საცდელი { $productName } კვლავ ამოქმედდა
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = გმადლობთ, რომ კვლავ გამოიწერეთ { $productName }!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-freeTrial-title = გმადლობთ, რომ კვლავ აამოქმედეთ საცდელად { $productName }!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
@@ -368,6 +399,28 @@ subscriptionRenewalReminder-title = თქვენი გამოწერა 
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = { $productName } პროდუქტის ძვირფასო მომხმარებელო,
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = თქვენს მიმდინარე გამოწერაზე მითითებულია, რომ თავისთავად განახლდება { $reminderLength } დღეში.
+subscriptionRenewalReminder-content-discount-change = თქვენს მომდევნო ზედნადებში ასახულია ფასების ცვლილება, ვინაიდან წინა ფასდაკლება დასრულდა და ახალი ფასდაკლება ამოქმედდა.
+subscriptionRenewalReminder-content-discount-ending = ვინაიდან წინა ფასდაკლება დასრულდა, თქვენი გამოწერა განახლდება ჩვეული ღირებულებით.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს ყოველდღიურ გამოწერას და ჩამოგეჭრებათ { $invoiceTotalExcludingTax } + { $invoiceTax } გადასახადი თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-with-tax-week = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს ყოველკვირეულ გამოწერას და ჩამოგეჭრებათ { $invoiceTotalExcludingTax } + { $invoiceTax } გადასახადი თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-with-tax-month = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს ყოველთვიურ გამოწერას და ჩამოგეჭრებათ { $invoiceTotalExcludingTax } + { $invoiceTax } გადასახადი თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს 6-თვიან გამოწერას და ჩამოგეჭრებათ { $invoiceTotalExcludingTax } + { $invoiceTax } გადასახადი თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-with-tax-year = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს ყოველწლიურ გამოწერას და ჩამოგეჭრებათ { $invoiceTotalExcludingTax } + { $invoiceTax } გადასახადი თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-with-tax-default = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს გამოწერას და ჩამოგეჭრებათ { $invoiceTotalExcludingTax } + { $invoiceTax } გადასახადი თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს ყოველდღიურ გამოწერას და ჩამოგეჭრებათ { $invoiceTotal } თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-invoice-total-week = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს ყოველკვირეულ გამოწერას და ჩამოგეჭრებათ { $invoiceTotal } თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-invoice-total-month = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს ყოველთვიურ გამოწერას და ჩამოგეჭრებათ { $invoiceTotal } თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს 6-თვიან გამოწერას და ჩამოგეჭრებათ { $invoiceTotal } თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-invoice-total-year = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს ყოველწლიურ გამოწერას და ჩამოგეჭრებათ { $invoiceTotal } თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
+subscriptionRenewalReminder-content-charge-invoice-total-default = მოცემული დროისთვის { -brand-mozilla } განაახლებს თქვენს გამოწერას და ჩამოგეჭრებათ { $invoiceTotal } თქვენს ანგარიშზე მითითებული გადახდის საშუალებიდან.
 subscriptionRenewalReminder-content-closing = პატივისცემით,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

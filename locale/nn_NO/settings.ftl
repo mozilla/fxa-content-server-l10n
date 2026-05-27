@@ -586,6 +586,15 @@ cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
 cs-disconnect-suspicious-advice-content-2 = Om den fråkopla eininga verkelig er mistenkjeleg, bør du endre passordet for { -product-mozilla-account } i kontoinnstillingane dine for å halde informasjonen din trygg. Du bør også endre eventuelle andre passord du har lagra i { -brand-firefox } ved å skrive about:logins i adresselinja.
 cs-sign-out-button = Logg ut
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = Innebygd VPN frå { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Datainnsamling og bruk
