@@ -20,6 +20,9 @@ next-payment-method-first-approve = Per prima cosa devi approvare il tuo abbonam
 
 ## Error page
 
+error-page-account-not-found-heading = Account non trovato
+error-page-account-not-found-message = L’account associato alla sessione non esiste. Utilizza un altro account o creane uno nuovo per iscriverti.
+error-page-account-not-found-continue-button = Continua
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Seleziona il tuo Paese e inserisci il tuo codice postale <p>per continuare con il pagamento per { $productName }</p>
 location-banner-info = Non è stato possibile rilevare automaticamente la tua posizione

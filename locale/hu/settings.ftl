@@ -1044,6 +1044,29 @@ recent-activity-account-recovery-codes-signin-complete = Bejelentkezés a helyre
 recent-activity-password-reset-otp-sent = Jelszó-visszaállítási megerősítő kód elküldve
 recent-activity-password-reset-otp-verified = Jelszó-visszaállítási megerősítő kód ellenőrizve
 recent-activity-must-reset-password = Jelszó-visszaállítás szükséges
+recent-activity-account-recovery-phone-replace-complete = Helyreállítási telefonszám lecserélve
+recent-activity-account-recovery-phone-replace-failure = A helyreállítási telefon cseréje nem sikerült
+recent-activity-account-two-factor-replace-success = Kétlépcsős hitelesítés lecserélve
+recent-activity-account-two-factor-replace-failure = A kétlépcsős hitelesítés csere sikertelen
+recent-activity-account-recovery-phone-setup-failed = A helyreállítási telefon beállítása sikertelen
+recent-activity-account-recovery-phone-reset-password-complete = Jelszó-visszaállítás a telefonszám-helyreállítás befejeztével
+recent-activity-account-recovery-phone-reset-password-failed = A jelszó-visszaállítás a helyreállítási telefonszámmal sikertelen
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Fiókmódosítási engedély kérve
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Fiókmódosítás engedélyezve
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = A fiókmódosítás engedélyezése sikertelen
+recent-activity-account-passkey-registration-success = A jelszó hozzáadva
+recent-activity-account-passkey-registration-failure = A jelkulcs regisztrációja sikertelen
+recent-activity-account-passkey-removed = A jelszó eltávolítva
+recent-activity-account-passkey-authentication-success = Bejelentkezés a jelkulcs megtörténtével
+recent-activity-account-passkey-authentication-failure = Nem sikerült bejelentkezni a jelkulccsal
+recent-activity-account-passwordless-login-otp-sent = Jelszó nélküli bejelentkezési kód elküldve
+recent-activity-account-passwordless-login-otp-failed = A jelszó nélküli bejelentkezési kód sikertelen
+recent-activity-account-passwordless-login-otp-verified = Jelszó nélküli bejelentkezési kód ellenőrizve
+recent-activity-account-passwordless-registration-complete = A jelszó nélküli fiókregisztráció befejeződött
+recent-activity-account-recovery-codes-set = Helyreállítási kódok beállítva
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Egyéb fióktevékenység
 

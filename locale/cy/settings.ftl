@@ -1058,6 +1058,29 @@ recent-activity-account-recovery-codes-signin-complete = Cwblhawyd y mewngofnodi
 recent-activity-password-reset-otp-sent = Ailosod y cod cadarnhau cyfrinair a anfonwyd
 recent-activity-password-reset-otp-verified = Ailosod y cod cadarnhau cyfrinair wedi'i wirio
 recent-activity-must-reset-password = Mae angen ailosod cyfrinair
+recent-activity-account-recovery-phone-replace-complete = Ffôn adfer wedi'i ddisodli
+recent-activity-account-recovery-phone-replace-failure = Wedi methu ailosod ffôn adfer
+recent-activity-account-two-factor-replace-success = Dilysiad dau gam wedi'i ddisodli
+recent-activity-account-two-factor-replace-failure = Methodd amnewid dilysu dau gam
+recent-activity-account-recovery-phone-setup-failed = Methodd gosod ffôn adfer
+recent-activity-account-recovery-phone-reset-password-complete = Cwblhawyd ailosod cyfrinair gyda ffôn adfer
+recent-activity-account-recovery-phone-reset-password-failed = Wedi methu ailosod cyfrinair gyda ffôn adfer
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Gofynnwyd am awdurdodiad newid cyfrif
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Newid cyfrif wedi'i awdurdodi
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Wedi methu awdurdodiad newid cyfrif
+recent-activity-account-passkey-registration-success = Ychwanegwyd paskey
+recent-activity-account-passkey-registration-failure = Wedi methu cofrestri'r cyfrinallwedd
+recent-activity-account-passkey-removed = Tynnu'r tocyn
+recent-activity-account-passkey-authentication-success = Mewngofnodi gyda'r cyfrinair wedi'i gwblhau
+recent-activity-account-passkey-authentication-failure = Methodd mewngofnodi gyda'r allwedd
+recent-activity-account-passwordless-login-otp-sent = Anfonwyd cod mewngofnodi heb gyfrinair
+recent-activity-account-passwordless-login-otp-failed = Methodd y cod mewngofnodi heb gyfrinair
+recent-activity-account-passwordless-login-otp-verified = Cod mewngofnodi heb gyfrinair wedi'i ddilysu
+recent-activity-account-passwordless-registration-complete = Cwblhau cofrestriad cyfrif heb gyfrinair
+recent-activity-account-recovery-codes-set = Gosod codau adfer
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Gweithgarwch cyfrif arall
 

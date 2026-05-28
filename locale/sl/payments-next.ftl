@@ -20,6 +20,9 @@ next-payment-method-first-approve = Najprej morate odobriti svojo naročnino
 
 ## Error page
 
+error-page-account-not-found-heading = Računa ni bilo mogoče najti
+error-page-account-not-found-message = Račun, ki je povezan z vašo sejo, ne obstaja. Uporabite drug račun ali odprite novega.
+error-page-account-not-found-continue-button = Nadaljuj
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Izberite svojo državo in vnesite poštno številko, <p>za nadaljevanje blagajne za { $productName }</p>
 location-banner-info = Vaše lokacije nismo mogli zaznati samodejno

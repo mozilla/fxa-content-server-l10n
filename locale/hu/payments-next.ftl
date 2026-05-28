@@ -20,6 +20,9 @@ next-payment-method-first-approve = Először jóvá kell hagynia az előfizeté
 
 ## Error page
 
+error-page-account-not-found-heading = A fiók nem található
+error-page-account-not-found-message = A munkamenetéhez tartozó fiók nem létezik. Az előfizetéshez használjon egy másik fiókot, vagy hozzon létre egy újat.
+error-page-account-not-found-continue-button = Folytatás
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Válassza ki az országot, és adja meg az irányítószámát, <p> hogy folytassa a(z) { $productName } kifizetését</p>
 location-banner-info = Nem tudtuk automatikusan észlelni a tartózkodási helyét.

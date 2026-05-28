@@ -1036,6 +1036,29 @@ recent-activity-account-recovery-codes-signin-complete = Connexion avec les code
 recent-activity-password-reset-otp-sent = Code de confirmation de réinitialisation du mot de passe envoyé
 recent-activity-password-reset-otp-verified = Code de confirmation de réinitialisation du mot de passe vérifié
 recent-activity-must-reset-password = Réinitialisation du mot de passe nécessaire
+recent-activity-account-recovery-phone-replace-complete = Le numéro de téléphone de récupération a été remplacé
+recent-activity-account-recovery-phone-replace-failure = Le remplacement du numéro de téléphone a échoué
+recent-activity-account-two-factor-replace-success = Authentification en deux étapes remplacée
+recent-activity-account-two-factor-replace-failure = Échec du remplacement de l’authentification en deux étapes
+recent-activity-account-recovery-phone-setup-failed = Lors de la récupération, la configuration du téléphone a échoué
+recent-activity-account-recovery-phone-reset-password-complete = Réinitialisation du mot de passe avec récupération du numéro de téléphone terminée
+recent-activity-account-recovery-phone-reset-password-failed = Échec de la réinitialisation du mot de passe avec le numéro de téléphone de récupération
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Autorisation de modification de compte demandée
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Modification du compte autorisée
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Échec de l’autorisation de modification du compte
+recent-activity-account-passkey-registration-success = Clé d’accès ajoutée
+recent-activity-account-passkey-registration-failure = Échec de l’enregistrement de la clé d’accès
+recent-activity-account-passkey-removed = Clé d’accès supprimée
+recent-activity-account-passkey-authentication-success = Connexion avec la clé d’accès effectuée
+recent-activity-account-passkey-authentication-failure = Échec de la connexion avec la clé d’accès
+recent-activity-account-passwordless-login-otp-sent = Code de connexion sans mot de passe envoyé
+recent-activity-account-passwordless-login-otp-failed = Échec de la connexion sans mot de passe
+recent-activity-account-passwordless-login-otp-verified = Code de connexion sans mot de passe vérifié
+recent-activity-account-passwordless-registration-complete = Enregistrement du compte sans mot de passe terminé
+recent-activity-account-recovery-codes-set = Codes de secours définis
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Autre activité du compte
 

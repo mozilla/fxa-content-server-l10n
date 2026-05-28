@@ -1040,6 +1040,29 @@ recent-activity-account-recovery-codes-signin-complete = Inloggning med återst�
 recent-activity-password-reset-otp-sent = Bekräftelsekod för återställning av lösenord skickad
 recent-activity-password-reset-otp-verified = Bekräftelsekod för återställning av lösenord verifierad
 recent-activity-must-reset-password = Lösenordsåterställning krävs
+recent-activity-account-recovery-phone-replace-complete = Återställningstelefon ersatt
+recent-activity-account-recovery-phone-replace-failure = Byte av återställningstelefon misslyckades
+recent-activity-account-two-factor-replace-success = Tvåstegsautentisering ersatt
+recent-activity-account-two-factor-replace-failure = Ersättning av tvåstegsautentisering misslyckades
+recent-activity-account-recovery-phone-setup-failed = Konfiguration av återställningstelefon misslyckades
+recent-activity-account-recovery-phone-reset-password-complete = Lösenordsåterställning med återställningstelefon slutförd
+recent-activity-account-recovery-phone-reset-password-failed = Lösenordsåterställning med återställningstelefon misslyckades
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Auktorisering för kontoändring begärdes
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Kontoändring tillåten
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Auktorisering av kontoändring misslyckades
+recent-activity-account-passkey-registration-success = Lösenordsnyckel tillagd
+recent-activity-account-passkey-registration-failure = Registrering av lösenordsnyckel misslyckades
+recent-activity-account-passkey-removed = Lösenordsnyckel borttagen
+recent-activity-account-passkey-authentication-success = Inloggning med lösenordsnyckel slutförd
+recent-activity-account-passkey-authentication-failure = Inloggning med lösenord misslyckades
+recent-activity-account-passwordless-login-otp-sent = Lösenordslös inloggningskod skickad
+recent-activity-account-passwordless-login-otp-failed = Lösenordslös inloggningskod misslyckades
+recent-activity-account-passwordless-login-otp-verified = Lösenordslös inloggningskod verifierad
+recent-activity-account-passwordless-registration-complete = Lösenordslös kontoregistrering slutförd
+recent-activity-account-recovery-codes-set = Återställningskoder inställda
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 

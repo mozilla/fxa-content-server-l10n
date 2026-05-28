@@ -1050,6 +1050,29 @@ recent-activity-account-recovery-codes-signin-complete = Prijava z obnovitvenimi
 recent-activity-password-reset-otp-sent = Potrditvena koda za ponastavitev gesla poslana
 recent-activity-password-reset-otp-verified = Potrditvena koda za ponastavitev gesla potrjena
 recent-activity-must-reset-password = Zahtevana je ponastavitev gesla
+recent-activity-account-recovery-phone-replace-complete = Telefonska številka za obnovitev zamenjana
+recent-activity-account-recovery-phone-replace-failure = Zamenjava telefonske številke za obnovitev ni uspela
+recent-activity-account-two-factor-replace-success = Overitev v dveh korakih je zamenjana
+recent-activity-account-two-factor-replace-failure = Zamenjava overjanja v dveh korakih ni uspela
+recent-activity-account-recovery-phone-setup-failed = Nastavitev obnovitvene telefonske številke ni uspela
+recent-activity-account-recovery-phone-reset-password-complete = Ponastavitev gesla s številko za obnovitev končana
+recent-activity-account-recovery-phone-reset-password-failed = Ponastavitev gesla s telefonsko številko za obnovitev ni uspela
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Zahtevano je pooblastilo za spremembe računa
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Sprememba računa je dovoljena
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Pooblastitev sprememb računa ni uspela
+recent-activity-account-passkey-registration-success = Geslo dodano
+recent-activity-account-passkey-registration-failure = Registracija ključa za dostop ni uspela
+recent-activity-account-passkey-removed = Geslo odstranjeno
+recent-activity-account-passkey-authentication-success = Prijava z geslom je zaključena
+recent-activity-account-passkey-authentication-failure = Prijava z geslom ni uspela
+recent-activity-account-passwordless-login-otp-sent = Koda za prijavo brez gesla poslana
+recent-activity-account-passwordless-login-otp-failed = Koda za prijavo brez gesla ni uspela
+recent-activity-account-passwordless-login-otp-verified = Koda za prijavo brez gesla je preverjena
+recent-activity-account-passwordless-registration-complete = Registracija računa brez gesla končana
+recent-activity-account-recovery-codes-set = Kode za obnovitev so nastavljene
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Drugačna dejavnost v računu
 
