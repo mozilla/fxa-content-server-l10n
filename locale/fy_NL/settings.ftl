@@ -1482,6 +1482,10 @@ passkey-authentication-error-invalid-state = Der is wat misgien mei jo wachtwurd
 passkey-authentication-error-not-readable = Wy krije gjin tagong krije ta de authenticator. Probearje it opnij of brûk in oare oanmeldingsmetoade.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Der is wat misgien. Probearje it opnij of brûk in oare oanmeldingsmetoade.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Wachtwurdkaai wurdt net werkend. Brûk in oare oanmeldmetoade.
 
 ## Connect Another Device page
 
