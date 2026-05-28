@@ -17,6 +17,9 @@ next-payment-method-header = 选择付款方式
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = 请先核准您的订阅
+
+## Error page
+
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = 请选择您的国家/地区，并输入邮政编码<p>以继续为 { $productName } 付款</p>
 location-banner-info = 无法自动检测您的位置

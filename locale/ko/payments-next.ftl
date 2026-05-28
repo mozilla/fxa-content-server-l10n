@@ -17,6 +17,9 @@ next-payment-method-header = 지불 방법 선택
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = 먼저 구독을 승인해야 합니다.
+
+## Error page
+
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = { $productName }에 대한 결제를 계속하려면 <p>국가와 우편 번호를 입력하세요.</p>
 location-banner-info = 사용자 위치를 자동으로 감지할 수 없습니다.

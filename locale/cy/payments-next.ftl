@@ -17,6 +17,9 @@ next-payment-method-header = Dewiswch eich dull talu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tanysgrifiad
+
+## Error page
+
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Dewiswch eich gwlad a rhowch eich cod post <p>i barhau i'r ddesg i dalu am { $productName }</p>
 location-banner-info = Nid oeddem yn gallu canfod eich lleoliad yn awtomatig

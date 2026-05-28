@@ -17,6 +17,9 @@ next-payment-method-header = Alege metoda de plată
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Mai întâi va trebui să aprobi abonamentul
+
+## Error page
+
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Selectează țara și introdu codul poștal <p>pentru a continua cu finalizarea comenzii pentru { $productName }</p>
 location-banner-info = Nu ți-am putut depista locația automat

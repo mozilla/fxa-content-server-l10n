@@ -17,6 +17,9 @@ next-payment-method-header = Төлем әдісін таңдаңыз
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Алдымен жазылуыңызды растауыңыз керек
+
+## Error page
+
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = <p>{ $productName } сатып алуды жалғастыру үшін</p> еліңізді таңдап, пошта индексін көрсетіңіз.
 location-banner-info = Біз сіздің орналасқан жеріңізді автоматты түрде анықтай алмадық

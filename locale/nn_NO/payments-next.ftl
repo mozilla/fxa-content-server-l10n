@@ -17,6 +17,9 @@ next-payment-method-header = Vel betalingsmåte
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
+
+## Error page
+
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Vel land og skriv inn postnummer <p>for å halde fram til kassa for { $productName }</p>
 location-banner-info = Vi klarte ikkje å oppdage plasseringa di automatisk

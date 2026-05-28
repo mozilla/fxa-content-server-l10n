@@ -17,6 +17,9 @@ next-payment-method-header = Choose your payment method
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = First you’ll need to approve your subscription
+
+## Error page
+
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Select your country and enter your postal code <p>to continue to checkout for { $productName }</p>
 location-banner-info = We weren’t able to detect your location automatically

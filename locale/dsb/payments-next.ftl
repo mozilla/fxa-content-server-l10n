@@ -17,6 +17,9 @@ next-payment-method-header = Wubjeŕśo swóju płaśeńsku metodu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Nejpjerwjej musyśo swój abonement wobkšuśiś
+
+## Error page
+
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Wubjeŕśo swój kraj a zapódajśo swóju postowu licbu <p>, aby z kasu za { $productName } pókšacował</p>
 location-banner-info = Njejsmy mógli wašo stojnišćo awtomatiski namakaś
