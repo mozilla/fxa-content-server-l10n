@@ -18,6 +18,9 @@ next-payment-method-first-approve = ראשית יש לאשר את המינוי �
 
 ## Error page
 
+error-page-account-not-found-heading = החשבון לא נמצא
+error-page-account-not-found-message = החשבון המשויך להפעלה שלך אינו קיים. נא להשתמש בחשבון אחר או ליצור חשבון חדש כדי להירשם.
+error-page-account-not-found-continue-button = המשך
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = יש לבחור את המדינה שלך ולהכניס את המיקוד שלך <p>כדי להמשיך לתשלום עבור { $productName }</p>
 location-banner-info = לא הצלחנו לזהות את המיקום שלך באופן אוטומטי
