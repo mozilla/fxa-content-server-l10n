@@ -1042,6 +1042,8 @@ recent-activity-account-recovery-codes-signin-complete = Accesso completate con 
 recent-activity-password-reset-otp-sent = Remontar le codice de confirmation de contrasigno inviate
 recent-activity-password-reset-otp-verified = Remontar le codice de confirmation de contrasigno verificate
 recent-activity-must-reset-password = Remontage obligatori del contrasigno
+recent-activity-account-recovery-phone-replace-complete = Numero de telephono de recuperation substituite
+recent-activity-account-passkey-authentication-success = Accesso con clave-contrasigno completate
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altere activitate de conto
 
