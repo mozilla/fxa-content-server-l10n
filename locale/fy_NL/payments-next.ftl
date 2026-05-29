@@ -20,6 +20,8 @@ next-payment-method-first-approve = Jo moatte earst jo abonnemint goedkarre
 
 ## Error page
 
+error-page-account-not-found-heading = Account net fûn
+error-page-account-not-found-continue-button = Trochgean
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Selektearje jo lân en fier jo postkoade yn <p>om troch te gean mei ôfrekkenjen foar { $productName }</p>
 location-banner-info = Wy koene jo lokaasje net automatysk detektearje
