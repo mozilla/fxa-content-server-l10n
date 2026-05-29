@@ -1048,6 +1048,9 @@ recent-activity-account-two-factor-replace-success = Authentication a duo passos
 recent-activity-account-two-factor-replace-failure = Substituitution del authentication a duo passos fallite
 recent-activity-account-recovery-phone-setup-failed = Configuration del numero de telephono de recuperation fallite
 recent-activity-account-recovery-phone-reset-password-complete = Remontage del contrasigno con numero de telefono de recuperation completate
+recent-activity-account-recovery-phone-reset-password-failed = Remontage del contrasigno con numero de telephono de recuperation fallite
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Autorisation de cambio conto demandate.
 # The user successfully entered the code emailed to authorize a sensitive account change.
 recent-activity-account-mfa-otp-verified = Cambio conto autorisate.
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
@@ -1058,6 +1061,9 @@ recent-activity-account-passkey-removed = Clave-contrasigno removite
 recent-activity-account-passkey-authentication-success = Accesso con clave-contrasigno completate
 recent-activity-account-passkey-authentication-failure = Accesso con clave-contrasigno fallite
 recent-activity-account-passwordless-login-otp-sent = Codice de accesso sin contrasigno inviate
+recent-activity-account-passwordless-login-otp-failed = Codice de accesso sin contrasigno fallite
+recent-activity-account-passwordless-login-otp-verified = Codice de accesso sin contrasigno verificate
+recent-activity-account-passwordless-registration-complete = Registration de conto sin contrasigno completate
 recent-activity-account-recovery-codes-set = Codices de recuperation configurate
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altere activitate de conto
