@@ -1043,6 +1043,10 @@ recent-activity-password-reset-otp-sent = Remontar le codice de confirmation de 
 recent-activity-password-reset-otp-verified = Remontar le codice de confirmation de contrasigno verificate
 recent-activity-must-reset-password = Remontage obligatori del contrasigno
 recent-activity-account-recovery-phone-replace-complete = Numero de telephono de recuperation substituite
+recent-activity-account-recovery-phone-replace-failure = Substitution del numero de telephono de recuperation fallite
+recent-activity-account-two-factor-replace-success = Authentication a duo passos substituite
+recent-activity-account-two-factor-replace-failure = Substituitution del authentication a duo passos fallite
+recent-activity-account-recovery-phone-setup-failed = Configuration del numero de telephono de recuperation fallite
 recent-activity-account-passkey-authentication-success = Accesso con clave-contrasigno completate
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altere activitate de conto
