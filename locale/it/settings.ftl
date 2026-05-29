@@ -1036,29 +1036,29 @@ recent-activity-account-recovery-codes-signin-complete = L’accesso è stato co
 recent-activity-password-reset-otp-sent = Inviato codice di conferma per reimpostare la password
 recent-activity-password-reset-otp-verified = Verificato codice di conferma per reimpostare la password
 recent-activity-must-reset-password = È richiesta la reimpostazione della password
-recent-activity-account-recovery-phone-replace-complete = Telefono di recupero sostituito
-recent-activity-account-recovery-phone-replace-failure = Sostituzione del telefono di recupero non riuscita
-recent-activity-account-two-factor-replace-success = Autenticazione in due passaggi sostituita
+recent-activity-account-recovery-phone-replace-complete = Sostituito telefono per il recupero dell’account
+recent-activity-account-recovery-phone-replace-failure = Sostituzione del telefono per il recupero dell’account non riuscita
+recent-activity-account-two-factor-replace-success = Sostituita autenticazione in due passaggi
 recent-activity-account-two-factor-replace-failure = Sostituzione dell’autenticazione in due passaggi non riuscita
-recent-activity-account-recovery-phone-setup-failed = Configurazione del telefono di recupero non riuscita
-recent-activity-account-recovery-phone-reset-password-complete = Reimpostazione della password con recupero del telefono completata
-recent-activity-account-recovery-phone-reset-password-failed = Reimpostazione password con telefono di recupero non riuscita
+recent-activity-account-recovery-phone-setup-failed = Configurazione del telefono per il recupero dell’account non riuscita
+recent-activity-account-recovery-phone-reset-password-complete = Reimpostazione della password con telefono per il recupero dell’account completata
+recent-activity-account-recovery-phone-reset-password-failed = Reimpostazione password con telefono per il recupero dell’account non riuscita
 # A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
-recent-activity-account-mfa-otp-sent = È richiesta l’autorizzazione per modificare l’account
+recent-activity-account-mfa-otp-sent = Richiesta autorizzazione per modificare l’account
 # The user successfully entered the code emailed to authorize a sensitive account change.
-recent-activity-account-mfa-otp-verified = Modifica dell’account autorizzata
+recent-activity-account-mfa-otp-verified = Autorizzata modifica dell’account
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
 recent-activity-account-mfa-otp-failed = Autorizzazione alla modifica dell’account non riuscita
-recent-activity-account-passkey-registration-success = Chiave di accesso aggiunta
+recent-activity-account-passkey-registration-success = Aggiunta passkey
 recent-activity-account-passkey-registration-failure = Registrazione passkey non riuscita
-recent-activity-account-passkey-removed = Chiave di accesso rimossa
+recent-activity-account-passkey-removed = Rimossa passkey
 recent-activity-account-passkey-authentication-success = Accesso con passkey completato
 recent-activity-account-passkey-authentication-failure = Accesso con passkey non riuscito
-recent-activity-account-passwordless-login-otp-sent = È stato inviato un codice di accesso senza password
+recent-activity-account-passwordless-login-otp-sent = Inviato codice di accesso senza password
 recent-activity-account-passwordless-login-otp-failed = Codice di accesso senza password non riuscito
 recent-activity-account-passwordless-login-otp-verified = Codice di accesso senza password verificato
-recent-activity-account-passwordless-registration-complete = Registrazione dell’account senza password completata
-recent-activity-account-recovery-codes-set = Codici di recupero impostati
+recent-activity-account-passwordless-registration-complete = Completata registrazione dell’account senza password
+recent-activity-account-recovery-codes-set = Impostati codici di recupero
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altre attività dell’account
 
