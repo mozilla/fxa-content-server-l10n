@@ -21,7 +21,7 @@ next-payment-method-first-approve = Zuerst müssen Sie Ihren Dauerauftrag genehm
 ## Error page
 
 error-page-account-not-found-heading = Konto nicht gefunden
-error-page-account-not-found-message = Das mit Ihrer Sitzung verknüpfte Konto existiert nicht. Bitte verwenden Sie ein anderes Benutzerkonto oder erstellen Sie ein neues, um es zu abonnieren.
+error-page-account-not-found-message = Das mit Ihrer Sitzung verknüpfte Konto existiert nicht. Bitte verwenden Sie zum Abonnieren ein anderes Benutzerkonto oder erstellen Sie ein neues.
 error-page-account-not-found-continue-button = Weiter
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Wählen Sie Ihr Land aus und geben Sie Ihre Postleitzahl ein, <p>um mit der Zahlung für { $productName } fortzufahren</p>
