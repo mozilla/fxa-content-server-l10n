@@ -20,6 +20,8 @@ next-payment-method-first-approve = 請先授權付款訂閱
 
 ## Error page
 
+error-page-account-not-found-heading = 找不到帳號
+error-page-account-not-found-continue-button = 繼續
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = 選擇您所在的國家並輸入您的郵遞區號，<p>即可繼續為 { $productName } 結帳</p>
 location-banner-info = 無法自動偵測您的位置
