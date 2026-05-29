@@ -1038,19 +1038,19 @@ recent-activity-account-recovery-codes-signin-complete = Anmeldung mit Wiederher
 recent-activity-password-reset-otp-sent = Bestätigungscode zum Zurücksetzen des Passworts gesendet
 recent-activity-password-reset-otp-verified = Bestätigungscode zum Zurücksetzen des Passworts verifiziert
 recent-activity-must-reset-password = Zurücksetzen des Passworts erforderlich
-recent-activity-account-recovery-phone-replace-complete = Telefonnummer für das Wiederherstellen ersetzt
+recent-activity-account-recovery-phone-replace-complete = Telefonnummer für die Kontowiederherstellung ersetzt
 recent-activity-account-recovery-phone-replace-failure = Das Ersetzen der Telefonnummer ist fehlgeschlagen
 recent-activity-account-two-factor-replace-success = Zwei-Schritt-Authentifizierung ersetzt
 recent-activity-account-two-factor-replace-failure = Ersetzen der Zwei-Schritt-Authentifizierung fehlgeschlagen
-recent-activity-account-recovery-phone-setup-failed = Einrichtung der Telefonnummer zur Wiederherstellung fehlgeschlagen
-recent-activity-account-recovery-phone-reset-password-complete = Das Zurücksetzen des Passworts wurde mit der Wiederherstellung der Telefonnummer abgeschlossen
-recent-activity-account-recovery-phone-reset-password-failed = Zurücksetzen des Passworts mit der Wiederherstellungsnummer fehlgeschlagen
+recent-activity-account-recovery-phone-setup-failed = Einrichtung der Telefonnummer zur Kontowiederherstellung fehlgeschlagen
+recent-activity-account-recovery-phone-reset-password-complete = Das Zurücksetzen des Passworts mit der für die Kontowiederherstellung angegebenen Telefonnummer wurde abgeschlossen
+recent-activity-account-recovery-phone-reset-password-failed = Das Zurücksetzen des Passworts mit der für die Kontowiederherstellung angegebenen Telefonnummer ist fehlgeschlagen
 # A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
-recent-activity-account-mfa-otp-sent = Autorisierung zu Kontoänderung angefordert
+recent-activity-account-mfa-otp-sent = Autorisierung zur Kontoänderung angefordert
 # The user successfully entered the code emailed to authorize a sensitive account change.
 recent-activity-account-mfa-otp-verified = Kontoänderung autorisiert
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
-recent-activity-account-mfa-otp-failed = Die Autorisierung des Kontos ändern fehlgeschlagen
+recent-activity-account-mfa-otp-failed = Autorisierung zur Kontoänderung fehlgeschlagen
 recent-activity-account-passkey-registration-success = Zugangsschlüssel hinzugefügt
 recent-activity-account-passkey-registration-failure = Registrierung des Zugangsschlüssels fehlgeschlagen
 recent-activity-account-passkey-removed = Zugangsschlüssel entfernt
@@ -1060,7 +1060,7 @@ recent-activity-account-passwordless-login-otp-sent = Passwortloser Anmeldecode 
 recent-activity-account-passwordless-login-otp-failed = Passwortloser Anmeldecode fehlgeschlagen
 recent-activity-account-passwordless-login-otp-verified = Passwortloser Anmeldecode verifiziert
 recent-activity-account-passwordless-registration-complete = Registrierung des passwortlosen Kontos abgeschlossen
-recent-activity-account-recovery-codes-set = Wiederherstellungscodes gesetzt
+recent-activity-account-recovery-codes-set = Wiederherstellungscodes erstellt
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Andere Kontoaktivitäten
 
