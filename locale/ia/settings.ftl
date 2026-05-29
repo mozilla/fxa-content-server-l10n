@@ -1047,11 +1047,17 @@ recent-activity-account-recovery-phone-replace-failure = Substitution del numero
 recent-activity-account-two-factor-replace-success = Authentication a duo passos substituite
 recent-activity-account-two-factor-replace-failure = Substituitution del authentication a duo passos fallite
 recent-activity-account-recovery-phone-setup-failed = Configuration del numero de telephono de recuperation fallite
+recent-activity-account-recovery-phone-reset-password-complete = Remontage del contrasigno con numero de telefono de recuperation completate
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Cambio conto autorisate.
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Autorisation de cambio conto fallite
 recent-activity-account-passkey-registration-success = Clave-contrasigno addite
 recent-activity-account-passkey-registration-failure = Registration de clave-contrasigno fallite
 recent-activity-account-passkey-removed = Clave-contrasigno removite
 recent-activity-account-passkey-authentication-success = Accesso con clave-contrasigno completate
 recent-activity-account-passkey-authentication-failure = Accesso con clave-contrasigno fallite
+recent-activity-account-passwordless-login-otp-sent = Codice de accesso sin contrasigno inviate
 recent-activity-account-recovery-codes-set = Codices de recuperation configurate
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altere activitate de conto
