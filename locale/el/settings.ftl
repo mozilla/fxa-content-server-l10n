@@ -1042,6 +1042,9 @@ recent-activity-account-recovery-codes-signin-complete = Η σύνδεση με 
 recent-activity-password-reset-otp-sent = Έγινε αποστολή του κωδικού επιβεβαίωσης επαναφοράς κωδικού πρόσβασης
 recent-activity-password-reset-otp-verified = Έγινε επαλήθευση του κωδικού επιβεβαίωσης επαναφοράς κωδικού πρόσβασης
 recent-activity-must-reset-password = Ζητήθηκε επαναφορά του κωδικού πρόσβασης
+recent-activity-account-recovery-phone-replace-complete = Το τηλέφωνο ανάκτησης αντικαταστάθηκε
+recent-activity-account-passkey-registration-success = Προστέθηκε κλειδί πρόσβασης
+recent-activity-account-passkey-registration-failure = Αποτυχία καταχώρησης κλειδιού πρόσβασης
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Άλλη δραστηριότητα λογαριασμού
 
