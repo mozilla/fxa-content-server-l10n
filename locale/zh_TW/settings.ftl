@@ -1023,11 +1023,20 @@ recent-activity-account-two-factor-replace-failure = 兩階段驗證取代失敗
 recent-activity-account-recovery-phone-setup-failed = 救援電話號碼設定失敗
 recent-activity-account-recovery-phone-reset-password-complete = 透過救援電話號碼重設密碼完成
 recent-activity-account-recovery-phone-reset-password-failed = 透過救援電話號碼重設密碼失敗
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = 已請求帳號變更授權
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = 已授權帳號變更
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = 帳號變更授權失敗
 recent-activity-account-passkey-registration-success = 已新增 Passkey
 recent-activity-account-passkey-registration-failure = Passkey 註冊失敗
 recent-activity-account-passkey-removed = 已移除 Passkey
 recent-activity-account-passkey-authentication-success = 使用 Passkey 登入完成
 recent-activity-account-passkey-authentication-failure = 使用 Passkey 登入失敗
+recent-activity-account-passwordless-login-otp-sent = 已傳送無密碼登入代碼
+recent-activity-account-passwordless-login-otp-verified = 無密碼登入代碼驗證成功
+recent-activity-account-passwordless-registration-complete = 無密碼帳號註冊成功
 recent-activity-account-recovery-codes-set = 已設定救援碼
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他帳號活動
