@@ -20,6 +20,9 @@ next-payment-method-first-approve = Алдымен жазылуыңызды ра
 
 ## Error page
 
+error-page-account-not-found-heading = Тіркелгі табылмады
+error-page-account-not-found-message = Сеансыңызбен байланысты тіркелгі жоқ. Жазылу үшін басқа тіркелгіні пайдаланыңыз немесе жаңасын жасаңыз.
+error-page-account-not-found-continue-button = Жалғастыру
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = <p>{ $productName } сатып алуды жалғастыру үшін</p> еліңізді таңдап, пошта индексін көрсетіңіз.
 location-banner-info = Біз сіздің орналасқан жеріңізді автоматты түрде анықтай алмадық

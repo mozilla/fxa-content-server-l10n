@@ -1042,6 +1042,29 @@ recent-activity-account-recovery-codes-signin-complete = Қалпына келт
 recent-activity-password-reset-otp-sent = Парольді қалпына келтіруді растау коды жіберілді
 recent-activity-password-reset-otp-verified = Парольді қалпына келтіруді растау коды расталды
 recent-activity-must-reset-password = Парольді қалпына келтіру қажет
+recent-activity-account-recovery-phone-replace-complete = Қалпына келтіру телефоны алмастырылды
+recent-activity-account-recovery-phone-replace-failure = Қалпына келтіру телефонын алмастыру сәтсіз аяқталды
+recent-activity-account-two-factor-replace-success = Екі қадамды аутентификация алмастырылды
+recent-activity-account-two-factor-replace-failure = Екі қадамды аутентификацияны алмастыру сәтсіз аяқталды
+recent-activity-account-recovery-phone-setup-failed = Қалпына келтіру телефонын баптау сәтсіз аяқталды
+recent-activity-account-recovery-phone-reset-password-complete = Қалпына келтіру телефоны арқылы парольді қалпына келтіру аяқталды
+recent-activity-account-recovery-phone-reset-password-failed = Қалпына келтіру телефоны арқылы парольді қалпына келтіру сәтсіз аяқталды
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Тіркелгіні өзгерту авторизациясы сұралды
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Тіркелгіні өзгерту авторизацияланды
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Тіркелгіні өзгерту авторизациясы сәтсіз аяқталды
+recent-activity-account-passkey-registration-success = Рұқсат кілті қосылды
+recent-activity-account-passkey-registration-failure = Рұқсат кілтін тіркеу сәтсіз аяқталды
+recent-activity-account-passkey-removed = Рұқсат кілті өшірілді
+recent-activity-account-passkey-authentication-success = Рұқсат кілтімен кіру аяқталды
+recent-activity-account-passkey-authentication-failure = Рұқсат кілтімен кіру сәтсіз аяқталды
+recent-activity-account-passwordless-login-otp-sent = Парольсіз кіру коды жіберілді
+recent-activity-account-passwordless-login-otp-failed = Парольсіз кіру коды сәтсіз аяқталды
+recent-activity-account-passwordless-login-otp-verified = Парольсіз кіру коды расталды
+recent-activity-account-passwordless-registration-complete = Парольсіз тіркелгіні тіркеу аяқталды
+recent-activity-account-recovery-codes-set = Қалпына келтіру кодтары орнатылды
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Тіркелгінің басқа белсенділігі
 
