@@ -1071,7 +1071,7 @@ recent-activity-account-passkey-authentication-failure = Přizjewjenje z hesłow
 recent-activity-account-passwordless-login-otp-sent = Přizjewjenski kod bjez hesła pósłany
 recent-activity-account-passwordless-login-otp-failed = Přizjewjenski kod bjez hesła je so nimokulił
 recent-activity-account-passwordless-login-otp-verified = Přizjewjenski kod bjez hesła přepruwowany
-recent-activity-account-passwordless-registration-complete = Kontowa registracije bjez hesła dokónčena
+recent-activity-account-passwordless-registration-complete = Kontowa registracija bjez hesła dokónčena
 recent-activity-account-recovery-codes-set = Wobnowjenske kody nastajene
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druha kontowa aktiwita

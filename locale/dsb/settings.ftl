@@ -1056,6 +1056,23 @@ recent-activity-account-two-factor-replace-success = Dwójokšacowa awtentifikac
 recent-activity-account-two-factor-replace-failure = Wuměnjenje dwójokšacoweje awtentifikacije njejo se raźiło
 recent-activity-account-recovery-phone-setup-failed = Konfiguracija wótnowjeńskego telefonowego numera njejo se raźiła
 recent-activity-account-recovery-phone-reset-password-complete = Slědkstajenje gronidła z wótnowjeńskim telefonowym numerom dokóńcone
+recent-activity-account-recovery-phone-reset-password-failed = Slědkstajenje gronidła z wótnowjeńskim telefonowym numerom njejo se raźiło
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Awtorizěrowanje kontoweje změny trjebne
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Kontowa změna awtorizěrowana
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Awtorizěrowanje kontoweje změny njejo se raźiło
+recent-activity-account-passkey-registration-success = Gronidłowy kluc pśidany
+recent-activity-account-passkey-registration-failure = Registracija gronidłowego kluca njejo se raźiła
+recent-activity-account-passkey-removed = Gronidłowy kluc jo se wótwónoźeł
+recent-activity-account-passkey-authentication-success = Pśizjawjenje z gronidłowym klucom jo dokóńcone
+recent-activity-account-passkey-authentication-failure = Pśizjawjenje z gronidłowym klucom njejo se raźiło
+recent-activity-account-passwordless-login-otp-sent = Pśizjawjeński kod bźez gronidła pósłany
+recent-activity-account-passwordless-login-otp-failed = Pśizjawjeński kod bźez gronidła njejo se raźił
+recent-activity-account-passwordless-login-otp-verified = Pśizjawjeński kod bźez gronidła jo se pśeglědał
+recent-activity-account-passwordless-registration-complete = Kontowa registracija bźez gronidła dokóńcona
+recent-activity-account-recovery-codes-set = Wótnowjeńske kody nastajone
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga kontowa aktiwita
 
