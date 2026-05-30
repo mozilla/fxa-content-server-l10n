@@ -108,6 +108,9 @@ subscription-charges-invoice-number = <b>Fatura numarası:</b> { $invoiceNumber 
 subscription-charges-invoice-number-plaintext = Fatura numarası: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Tarih:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Tarih: { $invoiceDateOnly }
+subscription-charges-prorated-price = Orantılı fiyat
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Orantılı fiyat: { $remainingAmountTotal }
 subscription-charges-list-price = Liste fiyatı
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Liste fiyatı: { $offeringPrice }
@@ -201,7 +204,11 @@ freeTrialEndingReminder-subject = Ücretsiz { $productName } denemeniz yakında 
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-greeting = Değerli { $productName } müşterisi,
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Ücretsiz deneme süreniz <strong>{ $serviceLastActiveDateOnly }</strong> tarihinde sona erecek.
 freeTrialEndingReminder-content-trial-ending-plaintext = Ücretsiz denemeniz { $serviceLastActiveDateOnly } tarihinde bitecek.
+freeTrialEndingReminder-content-charge-heading = Ücret ayrıntıları
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
