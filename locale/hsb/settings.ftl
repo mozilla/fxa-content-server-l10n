@@ -1050,12 +1050,25 @@ recent-activity-account-recovery-codes-signin-complete = Přizjewjenje z wobnowj
 recent-activity-password-reset-otp-sent = Wobkrućenski kod za wróćostajenje hesła je so pósłał
 recent-activity-password-reset-otp-verified = Wobkrućenski kod za wróćostajenje hesła je so přepruwował
 recent-activity-must-reset-password = Wróćostajenje hesło trěbne
+recent-activity-account-recovery-phone-replace-complete = Wobnowjenske telefonowe čisło je wuměnjene
+recent-activity-account-recovery-phone-replace-failure = Wuměnjenje wobnowjenskeho telefonoweho čisło je so nimokuliło.
 recent-activity-account-two-factor-replace-success = Dwukročelowa awtentifikacija je wuměnjena
+recent-activity-account-two-factor-replace-failure = Wuměnjenje dwukročeloweje awtentifikacije je so nimokuliło
+recent-activity-account-recovery-phone-setup-failed = Konfiguracija wobnowjenskeho telefonoweho čisła je so nimokuliła
+recent-activity-account-recovery-phone-reset-password-complete = Wróćostajenje hesła z wobnowjenskim telefonowym čisłom dokónčene
+recent-activity-account-recovery-phone-reset-password-failed = Wróćostajenje hesła z wobnowjenskim telefonowym čisłom je so nimokuliło
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Awtorizowanje kontoweje změny trěbne
 # The user successfully entered the code emailed to authorize a sensitive account change.
 recent-activity-account-mfa-otp-verified = Kontowa změna awtorizowana
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Awtorizowanje kontoweje změny je so nimokuliło
 recent-activity-account-passkey-registration-success = Hesłowy kluč přidaty
 recent-activity-account-passkey-registration-failure = Registracija hesłoweho kluča njeje so poradźiła
 recent-activity-account-passkey-removed = Hesłowy kluč je so wotstronił
+recent-activity-account-passkey-authentication-success = Přizjewjenje z hesłowym klučom je dokónčene
+recent-activity-account-passkey-authentication-failure = Přizjewjenje z hesłowym klučom je so nimokuliło
+recent-activity-account-passwordless-login-otp-sent = Přizjewjenski kod bjez hesła pósłany
 recent-activity-account-recovery-codes-set = Wobnowjenske kody nastajene
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druha kontowa aktiwita
