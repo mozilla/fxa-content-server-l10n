@@ -1048,23 +1048,23 @@ recent-activity-password-reset-otp-sent = Potvrzovací kód pro obnovu hesla byl
 recent-activity-password-reset-otp-verified = Potvrzovací kód pro obnovení hesla byl ověřen
 recent-activity-must-reset-password = Je vyžadována obnova hesla
 recent-activity-account-recovery-phone-replace-complete = Telefon pro obnovení vyměněn
-recent-activity-account-recovery-phone-replace-failure = Telefon pro obnovení se nezdařil
+recent-activity-account-recovery-phone-replace-failure = Náhrada telefonu pro obnovení se nezdařila
 recent-activity-account-two-factor-replace-success = Dvoufázové ověřování bylo nahrazeno
 recent-activity-account-two-factor-replace-failure = Nahrazení dvoufázového ověřování se nezdařilo
 recent-activity-account-recovery-phone-setup-failed = Nastavení telefonu pro obnovení se nezdařilo
-recent-activity-account-recovery-phone-reset-password-complete = Heslo bylo obnoveno po dokončení nastavení telefonního čísla
-recent-activity-account-recovery-phone-reset-password-failed = Obnovení hesla pomocí telefonního čísla pro obnovení selhalo
+recent-activity-account-recovery-phone-reset-password-complete = Obnovení hesla pomocí záložního telefonního čísla bylo dokončeno
+recent-activity-account-recovery-phone-reset-password-failed = Obnovení hesla pomocí záložního telefonního čísla se nezdařilo
 # A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
-recent-activity-account-mfa-otp-sent = Vyžádána autorizace změny účtu
+recent-activity-account-mfa-otp-sent = Žádost o schválení změny účtu
 # The user successfully entered the code emailed to authorize a sensitive account change.
-recent-activity-account-mfa-otp-verified = Změna účtu povolena
+recent-activity-account-mfa-otp-verified = Změna účtu byla schválena
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
 recent-activity-account-mfa-otp-failed = Autorizace změny účtu selhala
 recent-activity-account-passkey-registration-success = Přístupový klíč byl přidán
 recent-activity-account-passkey-registration-failure = Registrace přístupového klíče selhala
 recent-activity-account-passkey-removed = Přístupový klíč byl odebrán
-recent-activity-account-passkey-authentication-success = Přihlášení pomocí klíče bylo dokončeno
-recent-activity-account-passkey-authentication-failure = Přihlášení pomocí klíče selhalo
+recent-activity-account-passkey-authentication-success = Přihlášení pomocí přístupového klíče bylo dokončeno
+recent-activity-account-passkey-authentication-failure = Přihlášení pomocí přístupového klíče selhalo
 recent-activity-account-passwordless-login-otp-sent = Přihlašovací kód bez hesla byl odeslán
 recent-activity-account-passwordless-login-otp-failed = Chyba kódu pro přihlášení bez hesla
 recent-activity-account-passwordless-login-otp-verified = Kód pro přihlášení bez hesla byl ověřen
