@@ -1035,6 +1035,7 @@ recent-activity-account-passkey-removed = 已移除 Passkey
 recent-activity-account-passkey-authentication-success = 使用 Passkey 登入完成
 recent-activity-account-passkey-authentication-failure = 使用 Passkey 登入失敗
 recent-activity-account-passwordless-login-otp-sent = 已傳送無密碼登入代碼
+recent-activity-account-passwordless-login-otp-failed = 無密碼登入代碼驗證失敗
 recent-activity-account-passwordless-login-otp-verified = 無密碼登入代碼驗證成功
 recent-activity-account-passwordless-registration-complete = 無密碼帳號註冊成功
 recent-activity-account-recovery-codes-set = 已設定救援碼
