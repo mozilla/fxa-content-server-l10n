@@ -992,7 +992,7 @@ page-passkey-add-cancel = Annuler
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Clé d’accès créée
-page-passkey-add-error-system-v2 = Un problème est survenu lors de la création de votre clé d’accès. Réessayer plus tard.
+page-passkey-add-error-system-v2 = Un problème est survenu lors de la création de votre clé d’accès. Réessayez plus tard.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1036,13 +1036,13 @@ recent-activity-account-recovery-codes-signin-complete = Connexion avec les code
 recent-activity-password-reset-otp-sent = Code de confirmation de réinitialisation du mot de passe envoyé
 recent-activity-password-reset-otp-verified = Code de confirmation de réinitialisation du mot de passe vérifié
 recent-activity-must-reset-password = Réinitialisation du mot de passe nécessaire
-recent-activity-account-recovery-phone-replace-complete = Le numéro de téléphone de récupération a été remplacé
-recent-activity-account-recovery-phone-replace-failure = Le remplacement du numéro de téléphone a échoué
+recent-activity-account-recovery-phone-replace-complete = Le numéro de téléphone de secours a été remplacé
+recent-activity-account-recovery-phone-replace-failure = Échec du remplacement du numéro de téléphone de secours
 recent-activity-account-two-factor-replace-success = Authentification en deux étapes remplacée
 recent-activity-account-two-factor-replace-failure = Échec du remplacement de l’authentification en deux étapes
-recent-activity-account-recovery-phone-setup-failed = Lors de la récupération, la configuration du téléphone a échoué
-recent-activity-account-recovery-phone-reset-password-complete = Réinitialisation du mot de passe avec récupération du numéro de téléphone terminée
-recent-activity-account-recovery-phone-reset-password-failed = Échec de la réinitialisation du mot de passe avec le numéro de téléphone de récupération
+recent-activity-account-recovery-phone-setup-failed = Échec de la configuration du téléphone de secours
+recent-activity-account-recovery-phone-reset-password-complete = Réinitialisation du mot de passe avec le numéro de téléphone de secours
+recent-activity-account-recovery-phone-reset-password-failed = Échec de la réinitialisation du mot de passe avec le numéro de téléphone de secours
 # A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
 recent-activity-account-mfa-otp-sent = Autorisation de modification de compte demandée
 # The user successfully entered the code emailed to authorize a sensitive account change.

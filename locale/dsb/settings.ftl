@@ -1050,6 +1050,12 @@ recent-activity-account-recovery-codes-signin-complete = Pśizjawjenje z wótnow
 recent-activity-password-reset-otp-sent = Wobkšuśeński kod za slědkstajenje gronidła jo se pósłał
 recent-activity-password-reset-otp-verified = Wobkšuśeński kod za slědkstajenje gronidła jo se pśeglědał
 recent-activity-must-reset-password = Slědkstajenje gronidła trjebne
+recent-activity-account-recovery-phone-replace-complete = Wótnowjeński telefonowy numer wuměnjony
+recent-activity-account-recovery-phone-replace-failure = Wuměnjenje wótnowjeńskego telefonowego numera njejo se raźiło
+recent-activity-account-two-factor-replace-success = Dwójokšacowa awtentifikacija jo se wuměniła
+recent-activity-account-two-factor-replace-failure = Wuměnjenje dwójokšacoweje awtentifikacije njejo se raźiło
+recent-activity-account-recovery-phone-setup-failed = Konfiguracija wótnowjeńskego telefonowego numera njejo se raźiła
+recent-activity-account-recovery-phone-reset-password-complete = Slědkstajenje gronidła z wótnowjeńskim telefonowym numerom dokóńcone
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga kontowa aktiwita
 
