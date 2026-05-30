@@ -1050,6 +1050,13 @@ recent-activity-account-recovery-codes-signin-complete = Přizjewjenje z wobnowj
 recent-activity-password-reset-otp-sent = Wobkrućenski kod za wróćostajenje hesła je so pósłał
 recent-activity-password-reset-otp-verified = Wobkrućenski kod za wróćostajenje hesła je so přepruwował
 recent-activity-must-reset-password = Wróćostajenje hesło trěbne
+recent-activity-account-two-factor-replace-success = Dwukročelowa awtentifikacija je wuměnjena
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Kontowa změna awtorizowana
+recent-activity-account-passkey-registration-success = Hesłowy kluč přidaty
+recent-activity-account-passkey-registration-failure = Registracija hesłoweho kluča njeje so poradźiła
+recent-activity-account-passkey-removed = Hesłowy kluč je so wotstronił
+recent-activity-account-recovery-codes-set = Wobnowjenske kody nastajene
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druha kontowa aktiwita
 

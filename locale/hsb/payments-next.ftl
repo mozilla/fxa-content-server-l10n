@@ -20,6 +20,8 @@ next-payment-method-first-approve = Najprjedy dyrbiće swój abonement wobkrući
 
 ## Error page
 
+error-page-account-not-found-heading = Konto njeje so namakało
+error-page-account-not-found-continue-button = Dale
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Wubjerće swój kraj a zapodajće swoje póstowe wodźenske čisło <p>, zo byšće z pokładnju za { $productName } pokročował</p>
 location-banner-info = Njemóžachmy waše stejnišćo awtomatisce namakać
