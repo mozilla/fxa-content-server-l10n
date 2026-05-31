@@ -1065,10 +1065,10 @@ recent-activity-account-passkey-registration-failure = Registrace přístupovéh
 recent-activity-account-passkey-removed = Přístupový klíč byl odebrán
 recent-activity-account-passkey-authentication-success = Přihlášení pomocí přístupového klíče bylo dokončeno
 recent-activity-account-passkey-authentication-failure = Přihlášení pomocí přístupového klíče selhalo
-recent-activity-account-passwordless-login-otp-sent = Přihlašovací kód bez hesla byl odeslán
-recent-activity-account-passwordless-login-otp-failed = Chyba kódu pro přihlášení bez hesla
-recent-activity-account-passwordless-login-otp-verified = Kód pro přihlášení bez hesla byl ověřen
-recent-activity-account-passwordless-registration-complete = Registrace účtu bez hesla dokončena
+recent-activity-account-passwordless-login-otp-sent = Byl odeslán kód pro přihlášení bez hesla
+recent-activity-account-passwordless-login-otp-failed = Selhal kód pro přihlášení bez hesla
+recent-activity-account-passwordless-login-otp-verified = Ověřen kód pro přihlášení bez hesla
+recent-activity-account-passwordless-registration-complete = Registrace účtu bez hesla byla dokončena
 recent-activity-account-recovery-codes-set = Obnovovací kódy jsou nastaveny
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Jiná aktivita u účtu
