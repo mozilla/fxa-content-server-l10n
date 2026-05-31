@@ -1042,6 +1042,15 @@ recent-activity-account-recovery-phone-replace-complete = Teléfono de recuperac
 recent-activity-account-recovery-phone-replace-failure = Falló el reemplazo del teléfono de recuperación
 recent-activity-account-two-factor-replace-success = Autenticación en dos pasos reemplazada
 recent-activity-account-two-factor-replace-failure = Falló el reemplazo de la autenticación en dos pasos
+recent-activity-account-recovery-phone-setup-failed = Falló la configuración del teléfono de recuperación
+recent-activity-account-recovery-phone-reset-password-complete = Restablecimiento de contraseña con teléfono de recuperación completado
+recent-activity-account-recovery-phone-reset-password-failed = Falló el restablecimiento de contraseña con el teléfono de recuperación
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Autorización para modificación en la cuenta solicitada
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Modificación de cuenta autorizada
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Falló la autorización de modificación de la cuenta
 recent-activity-account-passkey-registration-success = Llave de acceso añadida
 recent-activity-account-passkey-registration-failure = Falló el registro de la llave de acceso
 recent-activity-account-passkey-removed = Llave de acceso removida
