@@ -1038,6 +1038,7 @@ recent-activity-account-recovery-codes-signin-complete = Se completó la conexi�
 recent-activity-password-reset-otp-sent = Código de confirmación de restablecimiento de contraseña enviado
 recent-activity-password-reset-otp-verified = Código de confirmación de restablecimiento de contraseña verificado
 recent-activity-must-reset-password = Restablecimiento de contraseña requerido
+recent-activity-account-recovery-codes-set = Códigos de recuperación establecidos
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Otra actividad de la cuenta
 
