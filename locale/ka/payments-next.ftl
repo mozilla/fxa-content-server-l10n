@@ -20,6 +20,9 @@ next-payment-method-first-approve = ჯერ უნდა დაამოწმ
 
 ## Error page
 
+error-page-account-not-found-heading = ანგარიში არ მოიძებნა
+error-page-account-not-found-message = თქვენს სეანსთან დაკავშირებული ანგარიში არ არსებობს. გთხოვთ გამოიყენოთ სხვა ანგარიში ან შექმნათ ახალი გამოსაწერად.
+error-page-account-not-found-continue-button = განაგრძეთ
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = აირჩიეთ თქვენი ქვეყანა და შეიყვანეთ საფოსტო კოდი <p>გადახდისთვის, რომ შეიძინოთ { $productName }</p>
 location-banner-info = თქვენი ადგილმდებარეობის თვითდადგენა ვერ მოხერხდა
