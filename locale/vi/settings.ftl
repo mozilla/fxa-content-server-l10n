@@ -574,6 +574,15 @@ cs-disconnect-suspicious-advice-heading = Đã ngắt kết nối thiết bị k
 cs-disconnect-suspicious-advice-content-2 = Nếu thiết bị bị ngắt kết nối thực sự đáng ngờ, để giữ an toàn cho thông tin của bạn, bạn nên thay đổi mật khẩu { -product-mozilla-account } trong cài đặt tài khoản của mình. Bạn cũng nên thay đổi bất kỳ mật khẩu nào khác mà bạn đã lưu trong { -brand-firefox } bằng cách nhập about:logins vào thanh địa chỉ.
 cs-sign-out-button = Đăng xuất
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = VPN tích hợp sẵn của { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Thu thập và sử dụng dữ liệu
@@ -1011,6 +1020,29 @@ recent-activity-account-recovery-codes-signin-complete = Đã hoàn tất đăng
 recent-activity-password-reset-otp-sent = Đã gửi mã xác minh để đặt lại mật khẩu
 recent-activity-password-reset-otp-verified = Đã xác minh mã để đặt lại mật khẩu
 recent-activity-must-reset-password = Yêu cầu đặt lại mật khẩu
+recent-activity-account-recovery-phone-replace-complete = Đã thay thế số điện thoại khôi phục
+recent-activity-account-recovery-phone-replace-failure = Thay thế số điện thoại khôi phục không thành công
+recent-activity-account-two-factor-replace-success = Đã thay thế xác thực hai bước
+recent-activity-account-two-factor-replace-failure = Thay thế xác thực hai bước không thành công
+recent-activity-account-recovery-phone-setup-failed = Thiết lập số điện thoại khôi phục không thành công
+recent-activity-account-recovery-phone-reset-password-complete = Đã hoàn tất đặt lại mật khẩu với số điện thoại khôi phục
+recent-activity-account-recovery-phone-reset-password-failed = Đặt lại mật khẩu với số điện thoại khôi phục không thành công
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Đã yêu cầu ủy quyền về thay đổi của tài khoản
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Đã ủy quyền thay đổi của tài khoản
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Uỷ quyền về thay đổi của tài khoản không thành công
+recent-activity-account-passkey-registration-success = Đã thêm passkey
+recent-activity-account-passkey-registration-failure = Đăng ký passkey không thành công
+recent-activity-account-passkey-removed = Đã xoá passkey
+recent-activity-account-passkey-authentication-success = Đã hoàn tất đăng nhập bằng passkey
+recent-activity-account-passkey-authentication-failure = Đăng nhập với passkey không thành công
+recent-activity-account-passwordless-login-otp-sent = Đã gửi mã đăng nhập không cần mật khẩu
+recent-activity-account-passwordless-login-otp-failed = Mã đăng nhập không cần mật khẩu không thành công
+recent-activity-account-passwordless-login-otp-verified = Đã xác minh mã đăng nhập không cần mật khẩu
+recent-activity-account-passwordless-registration-complete = Đã hoàn tất đăng ký tài khoản không cần mật khẩu
+recent-activity-account-recovery-codes-set = Đã thiết lập mã khôi phục
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Hoạt động tài khoản khác
 

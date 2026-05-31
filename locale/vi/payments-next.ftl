@@ -20,6 +20,9 @@ next-payment-method-first-approve = Trước tiên, bạn sẽ cần phê duyệ
 
 ## Error page
 
+error-page-account-not-found-heading = Không tìm thấy tài khoản
+error-page-account-not-found-message = Tài khoản liên kết với phiên của bạn không tồn tại. Vui lòng sử dụng tài khoản khác hoặc tạo tài khoản mới để đăng ký.
+error-page-account-not-found-continue-button = Tiếp tục
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Chọn quốc gia của bạn và nhập mã bưu chính <p>để tiếp tục thanh toán cho { $productName }</p>
 location-banner-info = Chúng tôi không thể tự động phát hiện vị trí của bạn.
