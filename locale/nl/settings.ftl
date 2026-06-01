@@ -1040,6 +1040,7 @@ recent-activity-account-recovery-codes-signin-complete = Aanmelden met herstelco
 recent-activity-password-reset-otp-sent = Bevestigingscode voor wachtwoordherinitialisatie verzonden
 recent-activity-password-reset-otp-verified = Bevestigingscode van wachtwoordherinitialisatie geverifieerd
 recent-activity-must-reset-password = Wachtwoordherinitialisatie nodig
+recent-activity-account-recovery-phone-replace-complete = Hersteltelefoonnummer vervangen
 recent-activity-account-passkey-registration-success = Wachtwoordsleutel toegevoegd
 recent-activity-account-passkey-registration-failure = Registratie wachtwoordsleutel mislukt
 recent-activity-account-passkey-removed = Wachtwoordsleutel verwijderd
