@@ -21,7 +21,7 @@ next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tan
 ## Error page
 
 error-page-account-not-found-heading = Cyfrif heb ei ganfod
-error-page-account-not-found-message = Nid yw'r cyfrif sy'n gysylltiedig â'ch sesiwn yn bodoli. Defnyddiwch gyfrif gwahanol neu crëwch un newydd i danysgrifio.
+error-page-account-not-found-message = Dyw'r cyfrif sy'n gysylltiedig â'ch sesiwn ddim yn bodoli. Defnyddiwch gyfrif gwahanol neu crëwch un newydd i danysgrifio.
 error-page-account-not-found-continue-button = Parhau
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Dewiswch eich gwlad a rhowch eich cod post <p>i barhau i'r ddesg i dalu am { $productName }</p>
