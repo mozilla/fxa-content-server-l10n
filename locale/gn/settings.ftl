@@ -1047,6 +1047,12 @@ recent-activity-account-two-factor-replace-failure = Ojavy moneĩmby mokõi jeku
 recent-activity-account-recovery-phone-setup-failed = Ojavy pumbyry guerujeyrã ñemboheko
 recent-activity-account-recovery-phone-reset-password-complete = Ñe’ẽñemi ñemyatyrõ pumbyry guerujeyrã henyhẽma
 recent-activity-account-recovery-phone-reset-password-failed = Ñe’ẽñemi ñemyatyrõ pumbyry guerujeyrã ndive
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Ñemoneĩ mba’ete jerurepyre moambuerã
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Mba’ete moambuerã moneĩmbyre
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Ojavy moneĩmby mba’ete moambuepyrã
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Mba’ete rembiapo ambuéva
 
