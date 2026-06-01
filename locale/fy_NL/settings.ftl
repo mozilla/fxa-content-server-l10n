@@ -1044,6 +1044,12 @@ recent-activity-account-recovery-codes-signin-complete = Oanmelden mei werstelko
 recent-activity-password-reset-otp-sent = Befêstigingskoade foar wachtwurdwerinisjalisaasje ferstjoerd
 recent-activity-password-reset-otp-verified = Befêstigingskoade fan wachtwurdwerinisjalisaasje ferifiearre
 recent-activity-must-reset-password = Wachtwurd opnij ynstelle fereaske
+recent-activity-account-recovery-phone-replace-complete = Wersteltelefoannûmer ferfongen
+recent-activity-account-passkey-registration-success = Wachtwurdkaai tafoege
+recent-activity-account-passkey-registration-failure = Registraasje wachtwurdkaai mislearre
+recent-activity-account-passkey-removed = Wachtwurdkaai fuortsmiten
+recent-activity-account-passkey-authentication-success = Oanmelden mei wachtwurdkaai foltôge
+recent-activity-account-passkey-authentication-failure = Oanmelden mei wachtwurdkaai mislearre
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Oare accountaktiviteit
 
