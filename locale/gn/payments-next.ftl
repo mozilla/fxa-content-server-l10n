@@ -21,6 +21,7 @@ next-payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
 ## Error page
 
 error-page-account-not-found-heading = Mba’ete ojejuhu’ỹva
+error-page-account-not-found-message = Pe mba’ete joajupyre eikeuaaha ndaipóri. Eiporu peteĩ mba’ete ambuéva térã emoheñói ipyahúva eñemboheraguapy hag̃ua.
 error-page-account-not-found-continue-button = Eku’ejey
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Eiporavo ne retã ha emoinge nde código postal <p>eñepyrũ hag̃ua ehepyme’ẽ { $productName }</p> rehegua
