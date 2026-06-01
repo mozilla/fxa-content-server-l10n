@@ -1040,7 +1040,9 @@ recent-activity-account-recovery-codes-signin-complete = Innlogging med gjennopp
 recent-activity-password-reset-otp-sent = Stadfestingskode for tilbakestilling av passord sendt
 recent-activity-password-reset-otp-verified = Stadfestingskode for tilbakestilling av passord  stadfesta
 recent-activity-must-reset-password = Tilbakestilling av passord påkravd
+recent-activity-account-passkey-registration-success = Passnøkkel lagt til
 recent-activity-account-passkey-registration-failure = Mislykka registrering av passnøkkel
+recent-activity-account-passkey-removed = Passnøkkel fjerna
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
