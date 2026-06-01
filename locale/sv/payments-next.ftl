@@ -17,6 +17,12 @@ next-payment-method-header = Välj din betalningsmetod
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Först måste du godkänna din prenumeration
+
+## Error page
+
+error-page-account-not-found-heading = Kontot hittades inte
+error-page-account-not-found-message = Kontot som är kopplat till din session finns inte. Använd ett annat konto eller skapa ett nytt för att prenumerera.
+error-page-account-not-found-continue-button = Fortsätt
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Välj ditt land och ange ditt postnummer <p>för att fortsätta till kassan för { $productName }</p>
 location-banner-info = Vi kunde inte identifiera din plats automatiskt

@@ -590,6 +590,15 @@ cs-disconnect-suspicious-advice-content-2 =
     wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy’t jo yn { -brand-firefox } bewarre hawwe wizigje troch yn de adresbalke about:logins yn te typen.
 cs-sign-out-button = Ofmelde
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = De ynboude VPN fan { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Gegevenssamling en gebrûk
@@ -1035,6 +1044,12 @@ recent-activity-account-recovery-codes-signin-complete = Oanmelden mei werstelko
 recent-activity-password-reset-otp-sent = Befêstigingskoade foar wachtwurdwerinisjalisaasje ferstjoerd
 recent-activity-password-reset-otp-verified = Befêstigingskoade fan wachtwurdwerinisjalisaasje ferifiearre
 recent-activity-must-reset-password = Wachtwurd opnij ynstelle fereaske
+recent-activity-account-recovery-phone-replace-complete = Wersteltelefoannûmer ferfongen
+recent-activity-account-passkey-registration-success = Wachtwurdkaai tafoege
+recent-activity-account-passkey-registration-failure = Registraasje wachtwurdkaai mislearre
+recent-activity-account-passkey-removed = Wachtwurdkaai fuortsmiten
+recent-activity-account-passkey-authentication-success = Oanmelden mei wachtwurdkaai foltôge
+recent-activity-account-passkey-authentication-failure = Oanmelden mei wachtwurdkaai mislearre
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Oare accountaktiviteit
 
