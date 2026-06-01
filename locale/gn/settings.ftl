@@ -1040,6 +1040,10 @@ recent-activity-account-recovery-codes-signin-complete = Ojavy emba’apóvo nde
 recent-activity-password-reset-otp-sent = Ohóma ayvu ñemoneĩ oiko jey hag̃ua ñe’ẽñemi
 recent-activity-password-reset-otp-verified = Ojehechajey ayvu ñemoneĩ oikoporã hag̃ua ñe’ẽñemi
 recent-activity-must-reset-password = Tekotevẽ emoĩporã ñe’ẽñemi
+recent-activity-account-recovery-phone-replace-complete = Pumbyry guerujeyrã moambuepyre
+recent-activity-account-recovery-phone-replace-failure = Ojavy pumbyry guerujeyrã myengovia
+recent-activity-account-two-factor-replace-success = Oñemyengovia moneĩmby mokõi jeku’egua
+recent-activity-account-two-factor-replace-failure = Ojavy moneĩmby mokõi jeku’egua myengovia
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Mba’ete rembiapo ambuéva
 
