@@ -1038,6 +1038,29 @@ recent-activity-account-recovery-codes-signin-complete = Início de sessão com 
 recent-activity-password-reset-otp-sent = Código de confirmação de reposição de palavra-passe enviado
 recent-activity-password-reset-otp-verified = Código de confirmação da reposição da palavra-passe verificado
 recent-activity-must-reset-password = Reposição de palavra-passe requerida
+recent-activity-account-recovery-phone-replace-complete = Telefone de recuperação substituído
+recent-activity-account-recovery-phone-replace-failure = A substituição do telefone de recuperação falhou
+recent-activity-account-two-factor-replace-success = Autenticação de dois passos substituída
+recent-activity-account-two-factor-replace-failure = Falha na substituição da autenticação de dois passos
+recent-activity-account-recovery-phone-setup-failed = A configuração do telefone de recuperação falhou
+recent-activity-account-recovery-phone-reset-password-complete = Reposição de palavra-passe com a recuperação do telefone concluída
+recent-activity-account-recovery-phone-reset-password-failed = A redefinição da palavra-passe com o telefone de recuperação falhou
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Solicitada uma autorização para alterar a conta
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Alteração de conta autorizada
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = A autorização para alterar a conta falhou
+recent-activity-account-passkey-registration-success = Chave de acesso adicionada
+recent-activity-account-passkey-registration-failure = O registo da chave falhou
+recent-activity-account-passkey-removed = Chave removida
+recent-activity-account-passkey-authentication-success = Início de sessão com a chave de acesso concluído
+recent-activity-account-passkey-authentication-failure = A autenticação com a chave de acesso falhou
+recent-activity-account-passwordless-login-otp-sent = Código de início de sessão sem palavra-passe enviado
+recent-activity-account-passwordless-login-otp-failed = O código de início de sessão sem palavra-passe falhou
+recent-activity-account-passwordless-login-otp-verified = Código de início de sessão sem palavra-passe verificado
+recent-activity-account-passwordless-registration-complete = Registo de conta sem palavra-passe concluído
+recent-activity-account-recovery-codes-set = Códigos de recuperação definidos
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Outra atividade da conta
 
