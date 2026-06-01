@@ -1044,6 +1044,9 @@ recent-activity-account-recovery-phone-replace-complete = Pumbyry guerujeyrã mo
 recent-activity-account-recovery-phone-replace-failure = Ojavy pumbyry guerujeyrã myengovia
 recent-activity-account-two-factor-replace-success = Oñemyengovia moneĩmby mokõi jeku’egua
 recent-activity-account-two-factor-replace-failure = Ojavy moneĩmby mokõi jeku’egua myengovia
+recent-activity-account-recovery-phone-setup-failed = Ojavy pumbyry guerujeyrã ñemboheko
+recent-activity-account-recovery-phone-reset-password-complete = Ñe’ẽñemi ñemyatyrõ pumbyry guerujeyrã henyhẽma
+recent-activity-account-recovery-phone-reset-password-failed = Ñe’ẽñemi ñemyatyrõ pumbyry guerujeyrã ndive
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Mba’ete rembiapo ambuéva
 
