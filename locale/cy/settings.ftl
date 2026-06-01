@@ -1070,8 +1070,8 @@ recent-activity-account-mfa-otp-sent = Wedi gofyn am awdurdodiad newid cyfrif
 # The user successfully entered the code emailed to authorize a sensitive account change.
 recent-activity-account-mfa-otp-verified = Newid cyfrif wedi'i awdurdodi
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
-recent-activity-account-mfa-otp-failed = Wedi methu awdurdodiad newid cyfrif
-recent-activity-account-passkey-registration-success = Ychwanegwyd cyfrinallwedd
+recent-activity-account-mfa-otp-failed = Wedi methu awdurdodi newid cyfrif
+recent-activity-account-passkey-registration-success = Wedi ychwanegu cyfrinallwedd
 recent-activity-account-passkey-registration-failure = Wedi methu cofrestri'r cyfrinallwedd
 recent-activity-account-passkey-removed = Tynnu'r cyfrinallwedd
 recent-activity-account-passkey-authentication-success = Mewngofnodi gyda'r cyfrinallwedd wedi'i gwblhau
