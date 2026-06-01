@@ -1053,6 +1053,14 @@ recent-activity-account-mfa-otp-sent = Ñemoneĩ mba’ete jerurepyre moambuerã
 recent-activity-account-mfa-otp-verified = Mba’ete moambuerã moneĩmbyre
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
 recent-activity-account-mfa-otp-failed = Ojavy moneĩmby mba’ete moambuepyrã
+recent-activity-account-passkey-registration-success = Ñe’ẽ ñemi juajupyre
+recent-activity-account-passkey-registration-failure = Ndoikói ñe’ẽ ñemi mboheraguapy
+recent-activity-account-passkey-removed = Ñe’ẽ ñemi guerovapyre
+recent-activity-account-passkey-authentication-success = Eike ñe’ẽ ñemi oĩmbáva ndive
+recent-activity-account-passkey-authentication-failure = Ndoikói nde jeike ñe’ẽ ñemi ndive
+recent-activity-account-passwordless-login-otp-sent = Ayvu jeikerã ñe’ẽñemi’ỹre mondopyre
+recent-activity-account-passwordless-login-otp-failed = Ndoikói ayvu jeikerã ñe’ẽñemi’ỹre
+recent-activity-account-passwordless-login-otp-verified = Ayvu jeikerã ñe’ẽñemi’ỹre hechajeypyre
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Mba’ete rembiapo ambuéva
 
