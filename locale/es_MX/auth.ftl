@@ -93,6 +93,10 @@ payment-method-payment-provider-plaintext = Método de pago: { $paymentProviderN
 ##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
 payment-provider-card-name-ending-in-plaintext = Método de pago: { $cardName } termina en { $lastFour }
+payment-provider-card-ending-in-plaintext = Método de pago: Tarjeta terminada en { $lastFour }
+payment-provider-card-ending-in = <b>Método de pago:</b> Tarjeta terminada en { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Método de pago:</b> { $cardName } con terminación { $lastFour }
+subscription-charges-invoice-summary = Resumen de la factura
 
 # Variables:
 
@@ -100,6 +104,11 @@ payment-provider-card-name-ending-in-plaintext = Método de pago: { $cardName } 
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Número de factura:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Número de factura: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Fecha:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Fecha: { $invoiceDateOnly }
+subscription-charges-prorated-price = Precio prorrateado
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
 
@@ -152,6 +161,9 @@ fraudulentAccountDeletion-contact = Si tienes preguntas, por favor contacta a nu
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tienes preguntas, por favor contacta a nuestro equipo de soporte: { $mozillaSupportUrl }
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-subject = Tu prueba gratuita de { $productName } terminará pronto
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Se ha cancelado tu suscripción a { $productName }.
