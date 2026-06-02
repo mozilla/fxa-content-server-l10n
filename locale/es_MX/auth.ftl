@@ -109,12 +109,36 @@ subscription-charges-invoice-number-plaintext = Número de factura: { $invoiceNu
 subscription-charges-invoice-date = <b>Fecha:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Fecha: { $invoiceDateOnly }
 subscription-charges-prorated-price = Precio prorrateado
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Precio prorrateado: { $remainingAmountTotal }
+subscription-charges-list-price = Precio de lista
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Precio de lista: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Crédito por tiempo no utilizado
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Crédito por tiempo no utilizado: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
 
 ## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 ## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
 
+subscription-charges-one-time-discount = Descuento único
+subscription-charges-one-time-discount-plaintext = Descuento único: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] Descuento por { $discountDuration } mes
+       *[other] Descuento por { $discountDuration } meses
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Descuento por { $discountDuration } mes: { $invoiceDiscountAmount }
+       *[other] Descuento por { $discountDuration } meses: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Descuento
+subscription-charges-discount-plaintext = Descuento: { $invoiceDiscountAmount }
+subscription-charges-taxes = Impuestos y comisiones
 subscription-charges-credit-applied = Crédito aplicado
 # $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-applied-plaintext = Crédito aplicado: { $creditApplied }
@@ -164,6 +188,42 @@ fraudulentAccountDeletion-contact-plaintext = Si tienes preguntas, por favor con
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-subject = Tu prueba gratuita de { $productName } terminará pronto
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-greeting = Hola de parte del equipo de { $productName },
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Tu prueba gratuita tiene programado finalizar el <strong>{ $serviceLastActiveDateOnly }</strong>.
+freeTrialEndingReminder-content-trial-ending-plaintext = Tu prueba gratuita tiene programado finalizar el { $serviceLastActiveDateOnly }.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = A menos que canceles antes de esa fecha, tu suscripción iniciará automáticamente y realizaremos el cargo de { $invoiceTotal } a tu método de pago registrado el { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-auto-charge-plaintext = A menos que canceles antes de esa fecha, tu suscripción iniciará automáticamente y realizaremos el cargo de { $invoiceTotal } a tu método de pago registrado el { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-charge-heading = Detalles del cargo
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = Suscripción a { $productName }: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = Suscripción a { $productName }
+# Variables:
+#   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
+freeTrialEndingReminder-content-charge-discount = Descuento: { $invoiceDiscountAmount }
+freeTrialEndingReminder-content-charge-discount-2 = Descuento
+# Variables:
+#   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
+freeTrialEndingReminder-content-charge-tax = Impuestos: { $invoiceTaxAmount }
+freeTrialEndingReminder-content-charge-tax-2 = Impuestos
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Total a pagar el { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-account-link = Para consultar o modificar tu método de pago y los datos de tu cuenta, ingresa <a data-l10n-name="freeTrialEndingReminder-update-billing">aquí</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Aquí es posible revisar o actualizar el método de pago y la información de la cuenta:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Para evitar cargos, cancela antes del <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Cancelar suscripción</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Para evitar cargos, cancela antes del { $serviceLastActiveDateOnly }:
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Se ha cancelado tu suscripción a { $productName }.
