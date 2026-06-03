@@ -590,6 +590,15 @@ cs-disconnect-suspicious-advice-heading = Podozrivé zariadenie je odpojené
 cs-disconnect-suspicious-advice-content-2 = Ak je odpojené zariadenie skutočne podozrivé, mali by ste si v nastaveniach účtu zmeniť heslo pre { -product-mozilla-account(case: "acc", capitalization: "lower") }, aby boli vaše informácie v bezpečí. Mali by ste tiež zmeniť všetky ostatné heslá, ktoré ste uložili v prehliadači { -brand-firefox }, zadaním about:logins do panela s adresou.
 cs-sign-out-button = Odhlásiť sa
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = Vstavaná VPN prehliadača { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Zhromažďovanie a používanie údajov
@@ -1039,6 +1048,12 @@ recent-activity-account-recovery-codes-signin-complete = Prihláste sa pomocou o
 recent-activity-password-reset-otp-sent = Potvrdzovací kód pre zmenu hesla bol odoslaný
 recent-activity-password-reset-otp-verified = Potvrdzovací kód pre zmenu hesla bol overený
 recent-activity-must-reset-password = Vyžaduje sa zmena hesla
+recent-activity-account-recovery-phone-replace-complete = Obnovenie pomocou telefónu bolo nahradené
+recent-activity-account-recovery-phone-replace-failure = Nahradenie obnovenia pomocou telefónu zlyhalo
+recent-activity-account-two-factor-replace-success = Dvojstupňové overenie nahradené
+recent-activity-account-two-factor-replace-failure = Nahradenie dvojstupňového overenia zlyhalo
+recent-activity-account-recovery-phone-setup-failed = Obnovenie pomocou telefónu zlyhalo
+recent-activity-account-recovery-phone-reset-password-complete = Obnovenie hesla pomocou telefónu na obnovenie bolo dokončené
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Iná aktivita účtu
 

@@ -20,6 +20,9 @@ next-payment-method-first-approve = Najprv musíte schváliť svoje predplatné
 
 ## Error page
 
+error-page-account-not-found-heading = Účet nebol nájdený
+error-page-account-not-found-message = Účet priradený k vašej relácii neexistuje. Na prihlásenie k predplatnému použite iný účet alebo si vytvorte nový.
+error-page-account-not-found-continue-button = Pokračovať
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = <p>Ak chcete pokračovať v platbe za produkt { $productName }</p>, vyberte svoju krajinu a zadajte svoje poštové smerovacie číslo
 location-banner-info = Nepodarilo sa nám automaticky zistiť vašu polohu
