@@ -198,7 +198,7 @@ freeTrialEndingReminder-content-trial-ending-plaintext = Tu prueba gratuita tien
 # Variables:
 #   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
-freeTrialEndingReminder-content-auto-charge = A menos que canceles antes de esa fecha, tu suscripción iniciará automáticamente y realizaremos el cargo de { $invoiceTotal } a tu método de pago registrado el { $serviceLastActiveDateOnly }.
+freeTrialEndingReminder-content-auto-charge = A menos que canceles antes de esa fecha, tu suscripción iniciará automáticamente y realizaremos el cargo de <strong>{ $invoiceTotal }</strong> a tu método de pago registrado el { $serviceLastActiveDateOnly }.
 freeTrialEndingReminder-content-auto-charge-plaintext = A menos que canceles antes de esa fecha, tu suscripción iniciará automáticamente y realizaremos el cargo de { $invoiceTotal } a tu método de pago registrado el { $serviceLastActiveDateOnly }.
 freeTrialEndingReminder-content-charge-heading = Detalles del cargo
 # Variables:
