@@ -218,6 +218,7 @@ freeTrialEndingReminder-content-charge-tax-2 = Impuestos
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Total a pagar el { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Total a pagar el { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Para consultar o modificar tu método de pago y los datos de tu cuenta, ingresa <a data-l10n-name="freeTrialEndingReminder-update-billing">aquí</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Aquí es posible revisar o actualizar el método de pago y la información de la cuenta:
 # Variables:
