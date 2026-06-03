@@ -1054,6 +1054,7 @@ recent-activity-account-two-factor-replace-success = Dvojstupňové overenie nah
 recent-activity-account-two-factor-replace-failure = Nahradenie dvojstupňového overenia zlyhalo
 recent-activity-account-recovery-phone-setup-failed = Obnovenie pomocou telefónu zlyhalo
 recent-activity-account-recovery-phone-reset-password-complete = Obnovenie hesla pomocou telefónu na obnovenie bolo dokončené
+recent-activity-account-recovery-phone-reset-password-failed = Obnovenie hesla pomocou telefónu na obnovenie zlyhalo
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Iná aktivita účtu
 
