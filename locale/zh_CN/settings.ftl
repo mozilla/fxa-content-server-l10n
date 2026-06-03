@@ -1020,6 +1020,8 @@ recent-activity-password-reset-otp-verified = 验证重置密码的确认码
 recent-activity-must-reset-password = 需要重置密码
 recent-activity-account-recovery-phone-replace-complete = 已更换恢复电话号码
 recent-activity-account-recovery-phone-replace-failure = 更换恢复电话号码失败
+recent-activity-account-two-factor-replace-success = 更换两步验证
+recent-activity-account-two-factor-replace-failure = 两步验证更换失败
 recent-activity-account-recovery-phone-setup-failed = 恢复电话号码设置失败
 recent-activity-account-recovery-phone-reset-password-complete = 使用恢复电话号码重设密码完成
 recent-activity-account-recovery-phone-reset-password-failed = 使用恢复电话号码重设密码失败
@@ -1029,6 +1031,16 @@ recent-activity-account-mfa-otp-sent = 请求账户更改授权
 recent-activity-account-mfa-otp-verified = 授权账户更改
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
 recent-activity-account-mfa-otp-failed = 账户更改授权失败
+recent-activity-account-passkey-registration-success = 添加通行密钥
+recent-activity-account-passkey-registration-failure = 通行密钥注册失败
+recent-activity-account-passkey-removed = 移除通行密钥
+recent-activity-account-passkey-authentication-success = 使用通行密钥完成登录
+recent-activity-account-passkey-authentication-failure = 使用通行密钥登录失败
+recent-activity-account-passwordless-login-otp-sent = 无密码登录验证码已发送
+recent-activity-account-passwordless-login-otp-failed = 无密码登录验证码验证失败
+recent-activity-account-passwordless-login-otp-verified = 无密码登录验证码验证成功
+recent-activity-account-passwordless-registration-complete = 无密码账户注册完成
+recent-activity-account-recovery-codes-set = 设置恢复验证码
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他账户活动
 

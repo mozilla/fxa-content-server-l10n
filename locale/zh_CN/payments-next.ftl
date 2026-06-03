@@ -21,6 +21,7 @@ next-payment-method-first-approve = 请先核准您的订阅
 ## Error page
 
 error-page-account-not-found-heading = 未找到账户
+error-page-account-not-found-message = 不存在与您的会话关联的账户。请使用其他账户，或创建新账户来订阅。
 error-page-account-not-found-continue-button = 继续
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = 请选择您的国家/地区，并输入邮政编码<p>以继续为 { $productName } 付款</p>
