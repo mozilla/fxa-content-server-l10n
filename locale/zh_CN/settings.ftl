@@ -1020,6 +1020,15 @@ recent-activity-password-reset-otp-verified = 验证重置密码的确认码
 recent-activity-must-reset-password = 需要重置密码
 recent-activity-account-recovery-phone-replace-complete = 已更换恢复电话号码
 recent-activity-account-recovery-phone-replace-failure = 更换恢复电话号码失败
+recent-activity-account-recovery-phone-setup-failed = 恢复电话号码设置失败
+recent-activity-account-recovery-phone-reset-password-complete = 使用恢复电话号码重设密码完成
+recent-activity-account-recovery-phone-reset-password-failed = 使用恢复电话号码重设密码失败
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = 请求账户更改授权
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = 授权账户更改
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = 账户更改授权失败
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他账户活动
 
