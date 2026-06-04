@@ -1041,11 +1041,28 @@ recent-activity-password-reset-otp-sent = Bevestigingscode voor wachtwoordherini
 recent-activity-password-reset-otp-verified = Bevestigingscode van wachtwoordherinitialisatie geverifieerd
 recent-activity-must-reset-password = Wachtwoordherinitialisatie nodig
 recent-activity-account-recovery-phone-replace-complete = Hersteltelefoonnummer vervangen
+recent-activity-account-recovery-phone-replace-failure = Vervanging van hersteltelefoonnummer mislukt
+recent-activity-account-two-factor-replace-success = Authenticatie in twee stappen vervangen
+recent-activity-account-two-factor-replace-failure = Vervanging van authenticatie in twee stappen mislukt
+recent-activity-account-recovery-phone-setup-failed = Instellen hersteltelefoonnummer mislukt
+recent-activity-account-recovery-phone-reset-password-complete = Wachtwoordherinitialisatie met hersteltelefoonnummer voltooid
+recent-activity-account-recovery-phone-reset-password-failed = Wachtwoordherinitialisatie met hersteltelefoonnummer mislukt
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Autorisatie voor accountwijziging aangevraagd
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Accountwijziging geautoriseerd
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Autorisatie voor accountwijziging mislukt
 recent-activity-account-passkey-registration-success = Wachtwoordsleutel toegevoegd
 recent-activity-account-passkey-registration-failure = Registratie wachtwoordsleutel mislukt
 recent-activity-account-passkey-removed = Wachtwoordsleutel verwijderd
 recent-activity-account-passkey-authentication-success = Aanmelden met wachtwoordsleutel voltooid
 recent-activity-account-passkey-authentication-failure = Aanmelding met wachtwoordsleutel mislukt
+recent-activity-account-passwordless-login-otp-sent = Code voor aanmelden zonder wachtwoord verzonden
+recent-activity-account-passwordless-login-otp-failed = Code voor aanmelden zonder wachtwoord mislukt
+recent-activity-account-passwordless-login-otp-verified = Code voor aanmelden zonder wachtwoord geverifieerd
+recent-activity-account-passwordless-registration-complete = Wachtwoordloze accountregistratie voltooid
+recent-activity-account-recovery-codes-set = Herstelcodes ingesteld
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Overige accountactiviteit
 
