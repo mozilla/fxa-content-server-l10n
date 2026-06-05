@@ -1063,6 +1063,10 @@ recent-activity-account-passkey-removed = Wachtwurdkaai fuortsmiten
 recent-activity-account-passkey-authentication-success = Oanmelden mei wachtwurdkaai foltôge
 recent-activity-account-passkey-authentication-failure = Oanmelden mei wachtwurdkaai mislearre
 recent-activity-account-passwordless-login-otp-sent = Koade foar oanmelden sûnder wachtwurd ferstjoerd
+recent-activity-account-passwordless-login-otp-failed = Koade foar oanmelden sûnder wachtwurd mislearre
+recent-activity-account-passwordless-login-otp-verified = Koade foar oanmelden sûnder wachtwurd ferifiearre
+recent-activity-account-passwordless-registration-complete = Wachtwurdleaze accountregistraasje foltôge
+recent-activity-account-recovery-codes-set = Werstelkoaden ynsteld
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Oare accountaktiviteit
 
