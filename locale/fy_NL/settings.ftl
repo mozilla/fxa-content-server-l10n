@@ -1045,11 +1045,24 @@ recent-activity-password-reset-otp-sent = Befêstigingskoade foar wachtwurdwerin
 recent-activity-password-reset-otp-verified = Befêstigingskoade fan wachtwurdwerinisjalisaasje ferifiearre
 recent-activity-must-reset-password = Wachtwurd opnij ynstelle fereaske
 recent-activity-account-recovery-phone-replace-complete = Wersteltelefoannûmer ferfongen
+recent-activity-account-recovery-phone-replace-failure = Ferfanging fan wersteltelefoannûmer mislearre
+recent-activity-account-two-factor-replace-success = Autentikaasje yn twa stappen ferfongen
+recent-activity-account-two-factor-replace-failure = Autentikaasje yn twa stappen mislearre
+recent-activity-account-recovery-phone-setup-failed = Ynstellen wersteltelefoannûmer mislearre
+recent-activity-account-recovery-phone-reset-password-complete = Wachtwurdwerinisjalisaasje mei wersteltelefoannûmer foltôge
+recent-activity-account-recovery-phone-reset-password-failed = Wachtwurdwerinisjalisaasje mei wersteltelefoannûmer mislearre
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Autorisaasje foar accountwiziging oanfrege
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Accoantwiziging autorisearre
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Autorisaasje foar accountwiziging mislearre
 recent-activity-account-passkey-registration-success = Wachtwurdkaai tafoege
 recent-activity-account-passkey-registration-failure = Registraasje wachtwurdkaai mislearre
 recent-activity-account-passkey-removed = Wachtwurdkaai fuortsmiten
 recent-activity-account-passkey-authentication-success = Oanmelden mei wachtwurdkaai foltôge
 recent-activity-account-passkey-authentication-failure = Oanmelden mei wachtwurdkaai mislearre
+recent-activity-account-passwordless-login-otp-sent = Koade foar oanmelden sûnder wachtwurd ferstjoerd
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Oare accountaktiviteit
 
