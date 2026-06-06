@@ -1038,6 +1038,18 @@ recent-activity-account-recovery-codes-signin-complete = Innlogging med gjenoppr
 recent-activity-password-reset-otp-sent = Bekreftelseskode for tilbakestilling av passord sendt
 recent-activity-password-reset-otp-verified = Bekreftelseskode for tilbakestilling av passord bekreftet
 recent-activity-must-reset-password = Tilbakestilling av passord kreves
+recent-activity-account-recovery-phone-replace-complete = Gjenopprettingstelefon erstattet
+recent-activity-account-recovery-phone-replace-failure = Erstatning av gjenopprettingstelefon mislyktes
+recent-activity-account-two-factor-replace-success = Totrinns-autentisering erstattet
+recent-activity-account-two-factor-replace-failure = Erstatning av totrinns-autentisering mislyktes
+recent-activity-account-recovery-phone-setup-failed = Oppsett av gjenopprettingstelefon mislyktes
+recent-activity-account-recovery-phone-reset-password-complete = Tilbakestilling av passord med gjenopprettingstelefon fullført
+recent-activity-account-recovery-phone-reset-password-failed = Tilbakestilling av passord med gjenopprettingstelefon mislyktes
+recent-activity-account-passkey-registration-success = Passnøkkel lagt til
+recent-activity-account-passkey-registration-failure = Registrering av passnøkkel mislyktes
+recent-activity-account-passkey-removed = Passnøkkel fjernet
+recent-activity-account-passkey-authentication-success = Pålogging med passnøkkel fullført
+recent-activity-account-passkey-authentication-failure = Pålogging med passnøkkel mislyktes
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annen kontoaktivitet
 

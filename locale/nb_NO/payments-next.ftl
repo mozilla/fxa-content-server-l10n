@@ -21,6 +21,7 @@ next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 ## Error page
 
 error-page-account-not-found-heading = Fant ikke kontoen
+error-page-account-not-found-message = Kontoen som er knyttet til økten din, finnes ikke. Bruk en annen konto eller opprett en ny for å abonnere.
 error-page-account-not-found-continue-button = Fortsett
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Velg landet ditt og skriv inn postnummeret ditt <p>for å fortsette å betale for { $productName }</p>
