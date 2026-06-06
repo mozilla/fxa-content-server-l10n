@@ -1047,6 +1047,8 @@ recent-activity-account-mfa-otp-verified = Kontoendring autorisert
 recent-activity-account-passkey-registration-success = Passnøkkel lagt til
 recent-activity-account-passkey-registration-failure = Mislykka registrering av passnøkkel
 recent-activity-account-passkey-removed = Passnøkkel fjerna
+recent-activity-account-passkey-authentication-success = Innlogging med passnøkkel fullført
+recent-activity-account-passkey-authentication-failure = Mislykka innlogging med passnøkkel
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
