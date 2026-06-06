@@ -1040,7 +1040,10 @@ recent-activity-account-recovery-codes-signin-complete = Innlogging med gjennopp
 recent-activity-password-reset-otp-sent = Stadfestingskode for tilbakestilling av passord sendt
 recent-activity-password-reset-otp-verified = Stadfestingskode for tilbakestilling av passord  stadfesta
 recent-activity-must-reset-password = Tilbakestilling av passord påkravd
+recent-activity-account-recovery-phone-replace-complete = Gjenopprettingstelefonen er erstatta
 recent-activity-account-recovery-phone-reset-password-complete = Tilbakestilling av passord med gjenopprettingstelefon fullført
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Kontoendring autorisert
 recent-activity-account-passkey-registration-success = Passnøkkel lagt til
 recent-activity-account-passkey-registration-failure = Mislykka registrering av passnøkkel
 recent-activity-account-passkey-removed = Passnøkkel fjerna
