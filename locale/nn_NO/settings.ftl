@@ -1041,6 +1041,7 @@ recent-activity-password-reset-otp-sent = Stadfestingskode for tilbakestilling a
 recent-activity-password-reset-otp-verified = Stadfestingskode for tilbakestilling av passord  stadfesta
 recent-activity-must-reset-password = Tilbakestilling av passord påkravd
 recent-activity-account-recovery-phone-replace-complete = Gjenopprettingstelefonen er erstatta
+recent-activity-account-two-factor-replace-success = Tostegs-autentisering erstatta
 recent-activity-account-recovery-phone-setup-failed = MIslykka oppsett av gjenopprettingstelefon
 recent-activity-account-recovery-phone-reset-password-complete = Tilbakestilling av passord med gjenopprettingstelefon fullført
 recent-activity-account-recovery-phone-reset-password-failed = Mislykka tilbakestilling av passord med gjenopprettingstelefon
