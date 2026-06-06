@@ -20,6 +20,8 @@ next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 
 ## Error page
 
+error-page-account-not-found-heading = Fant ikke kontoen
+error-page-account-not-found-continue-button = Fortsett
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Velg landet ditt og skriv inn postnummeret ditt <p>for å fortsette å betale for { $productName }</p>
 location-banner-info = Vi klarte ikke å oppdage posisjonen din automatisk
