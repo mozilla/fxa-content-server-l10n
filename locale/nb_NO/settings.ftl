@@ -1045,11 +1045,22 @@ recent-activity-account-two-factor-replace-failure = Erstatning av totrinns-aute
 recent-activity-account-recovery-phone-setup-failed = Oppsett av gjenopprettingstelefon mislyktes
 recent-activity-account-recovery-phone-reset-password-complete = Tilbakestilling av passord med gjenopprettingstelefon fullført
 recent-activity-account-recovery-phone-reset-password-failed = Tilbakestilling av passord med gjenopprettingstelefon mislyktes
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Godkjennelse for kontoendring er forespurt
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Kontoendring godkjent
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Godkjenning av kontoendring mislyktes
 recent-activity-account-passkey-registration-success = Passnøkkel lagt til
 recent-activity-account-passkey-registration-failure = Registrering av passnøkkel mislyktes
 recent-activity-account-passkey-removed = Passnøkkel fjernet
 recent-activity-account-passkey-authentication-success = Pålogging med passnøkkel fullført
 recent-activity-account-passkey-authentication-failure = Pålogging med passnøkkel mislyktes
+recent-activity-account-passwordless-login-otp-sent = Kode for passordløs innlogging sendt
+recent-activity-account-passwordless-login-otp-failed = Sending av kode for passordløs innlogging mislyktes
+recent-activity-account-passwordless-login-otp-verified = Kode for passordløs innlogging bekreftet
+recent-activity-account-passwordless-registration-complete = Registrering av passordløs konto fullført
+recent-activity-account-recovery-codes-set = Gjenopprettingskoder satt opp
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annen kontoaktivitet
 
