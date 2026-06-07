@@ -1041,17 +1041,22 @@ recent-activity-password-reset-otp-sent = Stadfestingskode for tilbakestilling a
 recent-activity-password-reset-otp-verified = Stadfestingskode for tilbakestilling av passord  stadfesta
 recent-activity-must-reset-password = Tilbakestilling av passord påkravd
 recent-activity-account-recovery-phone-replace-complete = Gjenopprettingstelefonen er erstatta
+recent-activity-account-recovery-phone-replace-failure = Erstatning av gjenopprettingstelefon mislykkast
 recent-activity-account-two-factor-replace-success = Tostegs-autentisering erstatta
+recent-activity-account-two-factor-replace-failure = Erstatning av tostegs-autentisering mislykkast
 recent-activity-account-recovery-phone-setup-failed = MIslykka oppsett av gjenopprettingstelefon
 recent-activity-account-recovery-phone-reset-password-complete = Tilbakestilling av passord med gjenopprettingstelefon fullført
 recent-activity-account-recovery-phone-reset-password-failed = Mislykka tilbakestilling av passord med gjenopprettingstelefon
 # The user successfully entered the code emailed to authorize a sensitive account change.
 recent-activity-account-mfa-otp-verified = Kontoendring autorisert
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Godkjenning av kontoendring mislykkast
 recent-activity-account-passkey-registration-success = Passnøkkel lagt til
 recent-activity-account-passkey-registration-failure = Mislykka registrering av passnøkkel
 recent-activity-account-passkey-removed = Passnøkkel fjerna
 recent-activity-account-passkey-authentication-success = Innlogging med passnøkkel fullført
 recent-activity-account-passkey-authentication-failure = Mislykka innlogging med passnøkkel
+recent-activity-account-passwordless-login-otp-sent = Kode for passordlaus innlogging send
 recent-activity-account-recovery-codes-set = Gjenopprettingskodar innstilte
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
