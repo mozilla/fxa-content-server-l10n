@@ -1047,6 +1047,8 @@ recent-activity-account-two-factor-replace-failure = Erstatning av tostegs-auten
 recent-activity-account-recovery-phone-setup-failed = MIslykka oppsett av gjenopprettingstelefon
 recent-activity-account-recovery-phone-reset-password-complete = Tilbakestilling av passord med gjenopprettingstelefon fullført
 recent-activity-account-recovery-phone-reset-password-failed = Mislykka tilbakestilling av passord med gjenopprettingstelefon
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Det er bedt om godkjenning for kontoendring
 # The user successfully entered the code emailed to authorize a sensitive account change.
 recent-activity-account-mfa-otp-verified = Kontoendring autorisert
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
@@ -1057,6 +1059,9 @@ recent-activity-account-passkey-removed = Passnøkkel fjerna
 recent-activity-account-passkey-authentication-success = Innlogging med passnøkkel fullført
 recent-activity-account-passkey-authentication-failure = Mislykka innlogging med passnøkkel
 recent-activity-account-passwordless-login-otp-sent = Kode for passordlaus innlogging send
+recent-activity-account-passwordless-login-otp-failed = Kode for passordlaus innlogging mislykkast
+recent-activity-account-passwordless-login-otp-verified = Kode for passordlaus innlogging stadfesta
+recent-activity-account-passwordless-registration-complete = Registrering av passordlaus konto fullført
 recent-activity-account-recovery-codes-set = Gjenopprettingskodar innstilte
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
