@@ -1634,13 +1634,21 @@ passkey-registration-error-not-allowed-existing = Passkey setup isn’t availabl
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Passkey setup was canceled. Try again.
 
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Passkey setup was canceled. Try again.
+passkey-registration-canceled-v2 = Passkey setup timed out or was cancelled.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Learn more
 
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Your browser or device doesn’t support passkeys.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Learn more
+
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Passkey setup couldn’t be completed. Try a different method or device.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Learn more
 
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Passkeys can’t be set up on this page. Use the secure site and try again.
