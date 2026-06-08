@@ -1467,8 +1467,6 @@ passkey-registration-error-not-allowed = La configuration de la clé d’accès 
 passkey-registration-error-not-allowed-existing = La configuration d’une clé d’accès n’est pas possible avec cet appareil. Soit l’appareil est déjà enregistré, soit le processus de configuration a été annulé.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = La configuration de la clé d’accès a été annulée. Veuillez réessayer.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = La configuration de la clé d’accès a été annulée. Veuillez réessayer.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Votre navigateur ou votre appareil ne prend pas en charge les clés d’accès.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

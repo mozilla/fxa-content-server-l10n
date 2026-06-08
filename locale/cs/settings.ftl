@@ -1478,8 +1478,6 @@ passkey-registration-error-not-allowed = Nastavení přístupového klíče selh
 passkey-registration-error-not-allowed-existing = Nastavení přístupového klíče není u tohoto zařízení k dispozici. Zařízení je buď již zaregistrováno, nebo byl proces nastavení zrušen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Váš prohlížeč nebo zařízení nepodporuje přístupové klíče.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

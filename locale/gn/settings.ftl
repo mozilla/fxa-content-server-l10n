@@ -1474,8 +1474,6 @@ passkey-registration-error-not-allowed = Pe ñe’ẽ ñemi ñemboheko ndoikói 
 passkey-registration-error-not-allowed-existing = Ñe’ẽ ñemi ñemoheñói ndereiporukuaamo’ãi ko mba’e’okápe. Ikatu pe mba’e’oka oñemboheraguapýma térã ikatu ojehejareíma pe iñemboheko.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Ojehejarei ñe’ẽ ñemi ñemboheko. Eha’ãjey ag̃ave.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Ojehejarei ñe’ẽ ñemi ñemboheko. Eha’ãjey ag̃ave.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Ne kundahára térã mba’e’oka ndaipu’akái ñe’ẽ ñemíme.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

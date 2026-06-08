@@ -1475,8 +1475,6 @@ passkey-registration-error-not-allowed = Instellen van wachtwoordsleutel mislukt
 passkey-registration-error-not-allowed-existing = Instellen van wachtwoordsleutel is niet beschikbaar op dit apparaat. Het apparaat is al geregistreerd, of het instelproces is geannuleerd.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Instellen van wachtwoordsleutel is geannuleerd. Probeer het opnieuw.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Instellen van wachtwoordsleutel is geannuleerd. Probeer het opnieuw.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Uw browser of apparaat ondersteunt geen wachtwoordsleutels.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

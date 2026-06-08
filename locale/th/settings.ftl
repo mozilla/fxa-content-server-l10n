@@ -1409,8 +1409,6 @@ passkey-registration-error-not-allowed = การตั้งค่าพาส
 passkey-registration-error-not-allowed-existing = การตั้งค่าพาสคีย์ไม่พร้อมใช้งานกับอุปกรณ์นี้ เนื่องจากอุปกรณ์ถูกลงทะเบียนไว้อยู่แล้ว หรือกระบวนการตั้งค่าถูกยกเลิก
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = การตั้งค่าพาสคีย์ถูกยกเลิก โปรดลองอีกครั้ง
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = การตั้งค่าพาสคีย์ถูกยกเลิก โปรดลองอีกครั้ง
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = เบราว์เซอร์หรืออุปกรณ์ของคุณไม่รองรับพาสคีย์
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

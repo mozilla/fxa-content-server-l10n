@@ -1473,8 +1473,6 @@ passkey-registration-error-not-allowed = Einrichtung des Zugangsschlüssels fehl
 passkey-registration-error-not-allowed-existing = Die Passkey-Einrichtung ist für dieses Gerät nicht verfügbar. Entweder war das Gerät bereits registriert oder der Einrichtungsprozess wurde abgebrochen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Einrichtung des Zugangsschlüssels wurde abgebrochen. Erneut versuchen
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Einrichtung des Zugangsschlüssels wurde abgebrochen. Versuchen Sie es erneut.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Ihr Browser oder Gerät unterstützt keine Zugangsschlüssel.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

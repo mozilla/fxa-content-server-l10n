@@ -1478,8 +1478,6 @@ passkey-registration-error-not-allowed = Installation de clave-contrasigno falli
 passkey-registration-error-not-allowed-existing = Le configuration del clave-contrasigno non es disponibile in iste apparato. Le apparato ha jam essite registrate o le processo de configuration cancellate.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Le installation de clave-contrasigno era cancellate. Retenta.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Le installation de clave-contrasigno era cancellate. Retenta.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Tu navigator o apparato non supporta clave-contrasigno
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

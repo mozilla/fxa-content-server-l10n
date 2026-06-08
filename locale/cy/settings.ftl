@@ -1497,8 +1497,6 @@ passkey-registration-error-not-allowed = Methodd gosod y cyfrinallwedd neu nid y
 passkey-registration-error-not-allowed-existing = Dyw gosod cyfrinallwedd ddim yn bosib gyda'r ddyfais hon. Naill ai mae'r ddyfais eisoes wedi'i chofrestru neu cafodd y broses osod ei diddymu.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Wedi diddymu gosod y cyfrinallwedd. Ceisiwch eto.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Wedi diddymu gosod y cyfrinallwedd. Ceisiwch eto.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Dyw eich porwr neu ddyfais ddim yn cefnogi cyfrinallweddi.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

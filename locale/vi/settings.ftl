@@ -1448,8 +1448,6 @@ passkey-registration-error-not-allowed = Thiết lập mật khẩu không thàn
 passkey-registration-error-not-allowed-existing = Thiết lập passkey không khả dụng với thiết bị này. Có thể thiết bị đã được đăng ký hoặc quá trình thiết lập đã bị huỷ bỏ.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Đã huỷ quá trình thiết lập passkey. Thử lại.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Đã huỷ quá trình thiết lập passkey. Thử lại.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Trình duyệt hoặc thiết bị của bạn không hỗ trợ passkey.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

@@ -1489,8 +1489,6 @@ passkey-registration-error-not-allowed = Konfiguracija hesłoweho kluča njeje s
 passkey-registration-error-not-allowed-existing = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Pak je grat hižo zregistrowany pak konfiguraciski proces je so přetorhnył.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija hesłoweho kluča je so přetorhnyła. Spytajće hišće raz.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Konfiguracija hesłoweho kluča je so přetorhnyła. Spytajće hišće raz.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Waš wobhladowak abo grat hesłowe kluče njepodpěruje.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

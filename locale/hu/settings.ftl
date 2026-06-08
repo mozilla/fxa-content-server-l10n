@@ -1479,8 +1479,6 @@ passkey-registration-error-not-allowed = A jelkulcs beállítása sikertelen vag
 passkey-registration-error-not-allowed-existing = A jelkulcsbeállítás nem érhető el ennél az eszköznél. Vagy az eszköz már regisztrálva lett, vagy a telepítési folyamat megszakításra került.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A jelkulcsbeállítás meg lett szakítva. Próbálja újra.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = A jelkulcsbeállítás meg lett szakítva. Próbálja újra.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = A böngészője vagy az eszköze nem támogatja a jelkulcsokat.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

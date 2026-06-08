@@ -1404,8 +1404,6 @@ passkey-registration-error-not-allowed = הגדרת מפתח הגישה נכשל
 passkey-registration-error-not-allowed-existing = הגדרת מפתחות גישה אינה זמינה במכשיר זה. ייתכן שהמכשיר כבר נרשם או שתהליך ההגדרה בוטל.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = הגדרת מפתח הגישה בוטלה. נא לנסות שוב.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = הגדרת מפתח הגישה בוטלה. נא לנסות שוב.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = הדפדפן או המכשיר שלך אינם תומכים במפתחות גישה (passkeys).
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

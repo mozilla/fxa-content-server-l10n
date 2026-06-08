@@ -1450,8 +1450,6 @@ passkey-registration-error-not-allowed = Подешавање приступно
 passkey-registration-error-not-allowed-existing = Подешавање приступног кључа није доступно на овом уређају. Или је уређај већ регистрован или је процес подешавања отказан.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Подешавање приступног кључа је отказано. Покушајте поново.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Подешавање приступног кључа је отказано. Покушајте поново.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Ваш прегледач или уређај не подржава приступне кључеве.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

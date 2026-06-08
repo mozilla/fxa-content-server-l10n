@@ -1476,8 +1476,6 @@ passkey-registration-error-not-allowed = Рұқсат кілтін баптау 
 passkey-registration-error-not-allowed-existing = Бұл құрылғыда рұқсат кілттерін баптау мүмкін емес. Құрылғы тіркелген немесе орнату процесінен бас тартылған болуы мүмкін.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Рұқсат кілтін баптаудан бас тартылды. Қайталап көріңіз.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Рұқсат кілтін баптаудан бас тартылды. Қайталап көріңіз.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Браузеріңіз немесе құрылғыңыз рұқсат кілттерін қолдамайды.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

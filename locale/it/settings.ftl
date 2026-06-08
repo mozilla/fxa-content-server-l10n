@@ -1459,8 +1459,6 @@ passkey-registration-error-not-allowed = La configurazione della passkey non è 
 passkey-registration-error-not-allowed-existing = La configurazione della passkey non è disponibile con questo dispositivo. Potrebbe essere già stato registrato oppure la procedura di configurazione è stata annullata.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = La configurazione della passkey è stata annullata. Riprova.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = La configurazione della passkey è stata annullata. Riprova.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Il tuo browser o dispositivo non supporta le passkey.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

@@ -1462,8 +1462,6 @@ passkey-registration-error-not-allowed = Oppsett av passnøkkel mislyktes eller 
 passkey-registration-error-not-allowed-existing = Oppsett av passnøkkel er ikke tilgjengelig på denne enheten. Enten er enheten allerede registrert, eller så ble oppsettet avbrutt.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Oppsett av passnøkkel ble avbrutt. Prøv igjen.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Oppsett av passnøkkel ble avbrutt. Prøv igjen.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Nettleseren eller enheten din støtter ikke passnøkler.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

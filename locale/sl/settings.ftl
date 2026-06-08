@@ -1487,8 +1487,6 @@ oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 passkey-registration-error-not-allowed-existing = Nastavitev gesla ni na voljo za to napravo. Naprava je že registrirana ali pa je bil postopek nastavitve preklican.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavitev ključa za dostop je bila preklicana. Poskusite znova.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Nastavitev ključa za dostop je bila preklicana. Poskusite znova.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Vaš brskalnik ali naprava ne podpira ključev za dostop.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

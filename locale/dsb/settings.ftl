@@ -1489,8 +1489,6 @@ passkey-registration-error-not-allowed = Konfiguracija gronidłowego kluca njejo
 passkey-registration-error-not-allowed-existing = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Pak jo rěd južo zregistrěrowany pak proces konfiguracije jo se pśetergnuł.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija gronidłowego kluca jo se pśetergnuła. Wopytajśo hyšći raz.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = Konfiguracija gronidłowego kluca jo se pśetergnuła. Wopytajśo hyšći raz.
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Waš wobglědowak abo rěd gronidłowy kluce njepódpěra.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.

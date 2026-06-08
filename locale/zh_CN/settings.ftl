@@ -1435,8 +1435,6 @@ passkey-registration-error-not-allowed = 通行密钥设置失败或不可用，
 passkey-registration-error-not-allowed-existing = 此设备无法设置通行密钥，因为此设备已经注册过，或设置过程被取消。
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = 已取消设置通行密钥，请重试。
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = 通行密钥设置已取消，请重试。
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = 您的浏览器或设备不支持通行密钥。
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
