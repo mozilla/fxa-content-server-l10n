@@ -1471,10 +1471,19 @@ passkey-registration-error-not-allowed = La configuración de la llave de acceso
 passkey-registration-error-not-allowed-existing = La creación de la llave de acceso no está disponible para este dispositivo. Es posible que el dispositivo ya esté registrado o que el proceso de configuración se haya cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Se canceló la configuración de la llave de acceso. Vuelve a intentarlo.
+passkey-registration-canceled-v2 = La configuración de la llave de acceso ha caducado o se ha cancelado.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Aprender más
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Tu navegador o dispositivo no admite llaves de acceso.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Aprender más
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = No se pudo completar la configuración de la llave de acceso. Intenta con otro método o dispositivo.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Más información
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = No se pueden configurar llaves de acceso en esta página. Usa el sitio seguro y vuelve a intentarlo.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
