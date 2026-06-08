@@ -1478,10 +1478,19 @@ passkey-registration-error-not-allowed = Nastavení přístupového klíče selh
 passkey-registration-error-not-allowed-existing = Nastavení přístupového klíče není u tohoto zařízení k dispozici. Zařízení je buď již zaregistrováno, nebo byl proces nastavení zrušen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavení přístupového klíče bylo zrušeno. Zkuste to znovu.
+passkey-registration-canceled-v2 = Časový limit nastavení přístupového klíče vypršel nebo bylo zrušeno.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Zjistit více
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Váš prohlížeč nebo zařízení nepodporuje přístupové klíče.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Zjistit více
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Nastavení přístupového klíče se nepodařilo dokončit. Zkuste jinou metodu nebo zařízení.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Zjistit více
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Přístupové klíče na této stránce nelze nastavit. Použijte zabezpečený server a zkuste to znovu.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)

@@ -1487,10 +1487,19 @@ oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 passkey-registration-error-not-allowed-existing = Nastavitev gesla ni na voljo za to napravo. Naprava je že registrirana ali pa je bil postopek nastavitve preklican.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavitev ključa za dostop je bila preklicana. Poskusite znova.
+passkey-registration-canceled-v2 = Nastavitev gesla je potekla ali je bila preklicana.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Več o tem
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Vaš brskalnik ali naprava ne podpira ključev za dostop.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Več o tem
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Nastavitev gesla ni bila končana. Poskusite z drugo metodo ali napravo.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Več o tem
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Na tej strani ni mogoče nastaviti gesel. Uporabite varno spletno mesto in poskusite znova.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)

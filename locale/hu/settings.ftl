@@ -1479,10 +1479,19 @@ passkey-registration-error-not-allowed = A jelkulcs beállítása sikertelen vag
 passkey-registration-error-not-allowed-existing = A jelkulcsbeállítás nem érhető el ennél az eszköznél. Vagy az eszköz már regisztrálva lett, vagy a telepítési folyamat megszakításra került.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A jelkulcsbeállítás meg lett szakítva. Próbálja újra.
+passkey-registration-canceled-v2 = A jelszóbeállítás túllépte az időkorlátot vagy megszakításra került.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = További tudnivalók
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = A böngészője vagy az eszköze nem támogatja a jelkulcsokat.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = További tudnivalók
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = A jelszó beállítása nem fejezhető be. Próbálkozzon másik módszerrel vagy eszközzel.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = További tudnivalók
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Ezen az oldalon nem állíthatók be jelkulcsok. Használja a biztonságos webhelyet, és próbálja újra.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)

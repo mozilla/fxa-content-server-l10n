@@ -1473,10 +1473,19 @@ passkey-registration-error-not-allowed = La configuración de la clave de acceso
 passkey-registration-error-not-allowed-existing = La configuración de la clave de acceso no está disponible para este dispositivo. O el dispositivo ya fue registrado o el proceso de configuración fue cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Se canceló la configuración de la clave de acceso. Probá de nuevo.
+passkey-registration-canceled-v2 = Se agotó el tiempo de espera para la instalación de la clave de acceso o fue cancelada.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Conocer más
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Tu navegador o dispositivo no soporta claves de acceso.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Conocer más
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = La configuración de la clave de acceso no pudo completarse. Probá un método o dispositivo diferente.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Conocer más
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = No se pueden configurar claves de acceso en esta página. Usá el sitio seguro y probá de nuevo.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)

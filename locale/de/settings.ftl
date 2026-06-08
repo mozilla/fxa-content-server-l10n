@@ -1473,10 +1473,19 @@ passkey-registration-error-not-allowed = Einrichtung des Zugangsschlüssels fehl
 passkey-registration-error-not-allowed-existing = Die Passkey-Einrichtung ist für dieses Gerät nicht verfügbar. Entweder war das Gerät bereits registriert oder der Einrichtungsprozess wurde abgebrochen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Einrichtung des Zugangsschlüssels wurde abgebrochen. Erneut versuchen
+passkey-registration-canceled-v2 = Zeitüberschreitung beim Erstellen des Zugangsschlüssels oder wurde abgebrochen.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Weitere Informationen
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Ihr Browser oder Gerät unterstützt keine Zugangsschlüssel.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Weitere Informationen
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Die Einrichtung des Zugangsschlüssels konnte nicht abgeschlossen werden. Probieren Sie eine andere Methode oder ein Gerät aus.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Weitere Informationen
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Auf dieser Seite können keine Zugangsschlüssel eingerichtet werden. Verwenden Sie die sichere Website und versuchen Sie es erneut.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)

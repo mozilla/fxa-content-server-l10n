@@ -1467,10 +1467,19 @@ passkey-registration-error-not-allowed = La configuration de la clé d’accès 
 passkey-registration-error-not-allowed-existing = La configuration d’une clé d’accès n’est pas possible avec cet appareil. Soit l’appareil est déjà enregistré, soit le processus de configuration a été annulé.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = La configuration de la clé d’accès a été annulée. Veuillez réessayer.
+passkey-registration-canceled-v2 = La configuration de la clé a expiré ou a été annulée.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = En savoir plus
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Votre navigateur ou votre appareil ne prend pas en charge les clés d’accès.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = En savoir plus
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = La configuration de la clé d’accès n’a pas pu être terminée. Essayez une méthode ou un appareil différent.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = En savoir plus
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Les clés d’accès ne peuvent pas être configurées sur cette page. Utilisez le site sécurisé puis réessayez.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
