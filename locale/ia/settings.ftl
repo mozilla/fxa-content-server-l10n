@@ -1478,10 +1478,19 @@ passkey-registration-error-not-allowed = Installation de clave-contrasigno falli
 passkey-registration-error-not-allowed-existing = Le configuration del clave-contrasigno non es disponibile in iste apparato. Le apparato ha jam essite registrate o le processo de configuration cancellate.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Le installation de clave-contrasigno era cancellate. Retenta.
+passkey-registration-canceled-v2 = Configuration de contrasigno expirate o era cancellate.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Pro saper plus
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Tu navigator o apparato non supporta clave-contrasigno
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Pro saper plus
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Impossibile completar configuration de clave-contrasigno. Tenta un methodo o apparato differente.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Pro saper plus
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Le claves-contrasigno non pote esser configurate sur iste pagina. Usa le sito secur e retenta.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
