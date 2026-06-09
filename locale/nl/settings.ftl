@@ -1475,10 +1475,19 @@ passkey-registration-error-not-allowed = Instellen van wachtwoordsleutel mislukt
 passkey-registration-error-not-allowed-existing = Instellen van wachtwoordsleutel is niet beschikbaar op dit apparaat. Het apparaat is al geregistreerd, of het instelproces is geannuleerd.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Instellen van wachtwoordsleutel is geannuleerd. Probeer het opnieuw.
+passkey-registration-canceled-v2 = Instellen van wachtwoordsleutel verlopen of geannuleerd.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Meer info
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Uw browser of apparaat ondersteunt geen wachtwoordsleutels.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Meer info
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Het instellen van de wachtwoordsleutel kon niet worden voltooid. Probeer een andere methode of een ander apparaat.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Meer info
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Wachtwoordsleutels kunnen niet op deze pagina worden ingesteld. Gebruik de beveiligde website en probeer het opnieuw.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
