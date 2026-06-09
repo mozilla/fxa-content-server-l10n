@@ -1474,7 +1474,7 @@ passkey-registration-error-not-allowed = Inställning av lösenordsnyckel missly
 passkey-registration-error-not-allowed-existing = Installation av lösenordsnyckel är inte tillgänglig med den här enheten. Antingen har enheten redan registrerats eller så avbröts installationen.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Installationen av lösenordsnyckel avbröts. Försök igen.
-passkey-registration-canceled-v2 = Tidsgränsen för installationen av lösenordsnyckeln gick eller avbröts.
+passkey-registration-canceled-v2 = Tidsgränsen för installationen av lösenordsnyckeln gick ut eller avbröts.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Läs mer
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
