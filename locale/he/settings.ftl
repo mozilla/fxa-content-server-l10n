@@ -1404,10 +1404,19 @@ passkey-registration-error-not-allowed = הגדרת מפתח הגישה נכשל
 passkey-registration-error-not-allowed-existing = הגדרת מפתחות גישה אינה זמינה במכשיר זה. ייתכן שהמכשיר כבר נרשם או שתהליך ההגדרה בוטל.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = הגדרת מפתח הגישה בוטלה. נא לנסות שוב.
+passkey-registration-canceled-v2 = זמן ההמתנה להגדרת מפתח הגישה פג או שהתהליך בוטל.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = מידע נוסף
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = הדפדפן או המכשיר שלך אינם תומכים במפתחות גישה (passkeys).
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = מידע נוסף
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = לא ניתן היה להשלים את הגדרת מפתח הגישה. נא לנסות שיטה או מכשיר אחרים.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = מידע נוסף
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = לא ניתן להגדיר מפתחות גישה בדף זה. יש להשתמש באתר המאובטח ולנסות שוב.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
