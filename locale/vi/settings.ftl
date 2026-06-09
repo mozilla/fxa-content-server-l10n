@@ -1448,10 +1448,19 @@ passkey-registration-error-not-allowed = Thiết lập mật khẩu không thàn
 passkey-registration-error-not-allowed-existing = Thiết lập passkey không khả dụng với thiết bị này. Có thể thiết bị đã được đăng ký hoặc quá trình thiết lập đã bị huỷ bỏ.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Đã huỷ quá trình thiết lập passkey. Thử lại.
+passkey-registration-canceled-v2 = Quá trình thiết lập passkey đã hết hạn hoặc bị hủy.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Tìm hiểu thêm
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Trình duyệt hoặc thiết bị của bạn không hỗ trợ passkey.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Tìm hiểu thêm
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Không thể hoàn tất thiết lập passkey. Hãy thử phương pháp hoặc thiết bị khác.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Tìm hiểu thêm
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Không thể thiết lập passkey trên trang này. Vui lòng sử dụng trang web an toàn và thử lại.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
