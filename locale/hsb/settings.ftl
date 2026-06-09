@@ -1489,12 +1489,17 @@ passkey-registration-error-not-allowed = Konfiguracija hesłoweho kluča njeje s
 passkey-registration-error-not-allowed-existing = Konfiguracija hesłoweho kluča z tutym gratom k dispoziciji njeje. Pak je grat hižo zregistrowany pak konfiguraciski proces je so přetorhnył.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija hesłoweho kluča je so přetorhnyła. Spytajće hišće raz.
+passkey-registration-canceled-v2 = Konfiguracija hesłoweho kluča je čas překročiła abo je so přetorhnyła.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Dalše informacije
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Waš wobhladowak abo grat hesłowe kluče njepodpěruje.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Dalše informacije
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Konfiguracija hesłoweho kluča njeda so dokónčić. Spytajće druhu metodu abo druhi grat.
 # Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
 passkey-registration-error-could-not-complete-link = Dalše informacije
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
