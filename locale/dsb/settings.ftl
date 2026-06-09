@@ -1489,10 +1489,19 @@ passkey-registration-error-not-allowed = Konfiguracija gronidłowego kluca njejo
 passkey-registration-error-not-allowed-existing = Konfiguracija gronidłowego kluca njejo z toś tym rědom k dispoziciji. Pak jo rěd južo zregistrěrowany pak proces konfiguracije jo se pśetergnuł.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Konfiguracija gronidłowego kluca jo se pśetergnuła. Wopytajśo hyšći raz.
+passkey-registration-canceled-v2 = Konfiguracija gronidłowego kluca jo cas pśekšocyła abo jo se pśetergnuła.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Dalšne informacije
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Waš wobglědowak abo rěd gronidłowy kluce njepódpěra.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Dalšne informacije
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Konfiguracija gronidłowego kluca njedajo se dokóńcyś. Wopytajśo drugu metodu abo drugi rěd.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Dalšne informacije
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Gronidłowe kluce njedaju se na toś tom boku konfigurěrowaś. Wužywajśo wěste sedło a wopytajśo hyšći raz.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
