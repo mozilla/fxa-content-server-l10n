@@ -1473,7 +1473,7 @@ passkey-registration-error-not-allowed = La configuración de la clave de acceso
 passkey-registration-error-not-allowed-existing = La configuración de la clave de acceso no está disponible para este dispositivo. O el dispositivo ya fue registrado o el proceso de configuración fue cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Se canceló la configuración de la clave de acceso. Probá de nuevo.
-passkey-registration-canceled-v2 = Se agotó el tiempo de espera para la instalación de la clave de acceso o fue cancelada.
+passkey-registration-canceled-v2 = La configuración de la clave de acceso se quedó sin tiempo o se ha cancelado.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Conocer más
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
