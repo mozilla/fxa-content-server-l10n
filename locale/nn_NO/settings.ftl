@@ -1474,12 +1474,17 @@ passkey-registration-error-not-allowed = Oppsett av passnøkkel mislykkast eller
 passkey-registration-error-not-allowed-existing = Oppsett av passnøkkel er ikkje tilgjengeleg på denne eininga. Anten er eininga allereie registrert, eller så vart oppsettet avbrote.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Oppsett av passnøkkel vart avbrote. Prøv igjen.
+passkey-registration-canceled-v2 = Oppsett av passnøkkel fekk tidsavbrot eller vart avbrote.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Les meir
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Nettlesaren eller eininga di støttar ikkje passnøklar.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Les meir
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Oppsett av passnøkkel kunne ikkje fullførast. Prøv ein annan metode eller ei anna eining.
 # Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
 passkey-registration-error-could-not-complete-link = Les meir
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
