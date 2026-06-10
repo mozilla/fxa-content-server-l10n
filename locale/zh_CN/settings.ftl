@@ -1435,10 +1435,19 @@ passkey-registration-error-not-allowed = 通行密钥设置失败或不可用，
 passkey-registration-error-not-allowed-existing = 此设备无法设置通行密钥，因为此设备已经注册过，或设置过程被取消。
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = 已取消设置通行密钥，请重试。
+passkey-registration-canceled-v2 = 通行密钥设置超时或已取消。
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = 详细了解
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = 您的浏览器或设备不支持通行密钥。
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = 详细了解
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = 无法完成通行密钥设置，请尝试其他方式或设备。
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = 详细了解
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = 无法在此页面设置通行密钥，请在安全网站上重试。
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
