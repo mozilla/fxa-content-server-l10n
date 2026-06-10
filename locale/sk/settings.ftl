@@ -1055,6 +1055,22 @@ recent-activity-account-two-factor-replace-failure = Nahradenie dvojstupňového
 recent-activity-account-recovery-phone-setup-failed = Obnovenie pomocou telefónu zlyhalo
 recent-activity-account-recovery-phone-reset-password-complete = Obnovenie hesla pomocou telefónu na obnovenie bolo dokončené
 recent-activity-account-recovery-phone-reset-password-failed = Obnovenie hesla pomocou telefónu na obnovenie zlyhalo
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Vyžiadaná autorizácia zmeny účtu
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Zmena účtu autorizovaná
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Autorizácia zmeny účtu zlyhala
+recent-activity-account-passkey-registration-success = Prístupový kľúč bol pridaný
+recent-activity-account-passkey-registration-failure = Registrácia prístupového kľúča zlyhala
+recent-activity-account-passkey-removed = Prístupový kľúč bol odstránený
+recent-activity-account-passkey-authentication-success = Prihlásenie pomocou prístupového kľúča bolo dokončené
+recent-activity-account-passkey-authentication-failure = Prihlásenie pomocou prístupového kľúča zlyhalo
+recent-activity-account-passwordless-login-otp-sent = Kód na prihlásenie bez hesla bol odoslaný
+recent-activity-account-passwordless-login-otp-failed = Kód na prihlásenie bez hesla zlyhal
+recent-activity-account-passwordless-login-otp-verified = Kód na prihlásenie bez hesla bol overený
+recent-activity-account-passwordless-registration-complete = Registrácia účtu bez hesla dokončená
+recent-activity-account-recovery-codes-set = Obnovovacie kódy boli vytvorené
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Iná aktivita účtu
 
@@ -1468,10 +1484,18 @@ passkey-registration-error-not-allowed = Nastavenie prístupového kľúča zlyh
 passkey-registration-error-not-allowed-existing = Nastavenie prístupového kľúča nie je s týmto zariadením k dispozícii. Zariadenie už bolo zaregistrované alebo bol proces nastavenia zrušený.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavenie prístupového kľúča bolo zrušené. Skúste to znova.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Ďalšie informácie
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Váš prehliadač alebo zariadenie nepodporuje prístupové kľúče.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Ďalšie informácie
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Nastavenie prístupového kľúča sa nepodarilo dokončiť. Skúste iný spôsob alebo zariadenie.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Ďalšie informácie
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Na tejto stránke nie je možné nastaviť prístupové kľúče. Použite zabezpečenú stránku a skúste to znova.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
