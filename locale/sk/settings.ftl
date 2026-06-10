@@ -1484,6 +1484,7 @@ passkey-registration-error-not-allowed = Nastavenie prístupového kľúča zlyh
 passkey-registration-error-not-allowed-existing = Nastavenie prístupového kľúča nie je s týmto zariadením k dispozícii. Zariadenie už bolo zaregistrované alebo bol proces nastavenia zrušený.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Nastavenie prístupového kľúča bolo zrušené. Skúste to znova.
+passkey-registration-canceled-v2 = Časový limit nastavenia prístupového kľúča uplynul alebo nastavenie bolo zrušené.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Ďalšie informácie
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
