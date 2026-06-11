@@ -1476,10 +1476,19 @@ passkey-registration-error-not-allowed = Рұқсат кілтін баптау 
 passkey-registration-error-not-allowed-existing = Бұл құрылғыда рұқсат кілттерін баптау мүмкін емес. Құрылғы тіркелген немесе орнату процесінен бас тартылған болуы мүмкін.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Рұқсат кілтін баптаудан бас тартылды. Қайталап көріңіз.
+passkey-registration-canceled-v2 = Рұқсат кілтін орнату уақыты аяқталды немесе тоқтатылды.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Көбірек білу
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Браузеріңіз немесе құрылғыңыз рұқсат кілттерін қолдамайды.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Көбірек білу
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Рұқсат кілтін орнатуды аяқтау мүмкін емес. Басқа әдісті немесе құрылғыны қолданып көріңіз.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Көбірек білу
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Бұл бетте рұқсат кілттерін баптау мүмкін емес. Қауіпсіз сайтты пайдаланып, қайталап көріңіз.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
