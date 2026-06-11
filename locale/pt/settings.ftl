@@ -1471,12 +1471,19 @@ passkey-registration-error-not-allowed = A configuração da palavra-passe falho
 passkey-registration-error-not-allowed-existing = A configuração por palavra-passe não está disponível para este dispositivo. Ou o dispositivo já está registado ou o processo de configuração foi cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A configuração da chave de acesso foi cancelada. Tente novamente.
-# User clicked the in-page Cancel link while the ceremony was still pending
-passkey-registration-canceled = A configuração da chave de acesso foi cancelada. Tente novamente.
+passkey-registration-canceled-v2 = A configuração da chave de acesso expirou ou foi cancelada.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Saber mais
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = O seu navegador ou dispositivo não suporta palavras-passe.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Saber mais
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Não foi possível concluir a configuração da chave de acesso. Experimente um método ou dispositivo diferente.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Saber mais
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Não podem ser configuradas chaves de acesso nesta página. Utilize o site seguro e tente novamente.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
