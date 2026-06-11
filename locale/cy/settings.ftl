@@ -1497,7 +1497,7 @@ passkey-registration-error-not-allowed = Methodd gosod y cyfrinallwedd neu nid y
 passkey-registration-error-not-allowed-existing = Dyw gosod cyfrinallwedd ddim yn bosib gyda'r ddyfais hon. Naill ai mae'r ddyfais eisoes wedi'i chofrestru neu cafodd y broses osod ei diddymu.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Wedi diddymu gosod y cyfrinallwedd. Ceisiwch eto.
-passkey-registration-canceled-v2 = Daeth yr amser gosod paskey i ben neu cafodd ei ganslo.
+passkey-registration-canceled-v2 = Daeth yr amser gosod cyfrinallwedd i ben neu cafodd ei diddymu.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Dysgu rhagor
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
@@ -1507,7 +1507,7 @@ passkey-registration-error-not-supported-link = Dysgu rhagor
 # Generic fallback shown when passkey setup fails for an indeterminate reason.
 # Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
 # "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
-passkey-registration-error-could-not-complete = Ni fu modd cwblhau gosod y tocyn. Rhowch gynnig ar ddull neu ddyfais wahanol.
+passkey-registration-error-could-not-complete = Doedd dim modd cwblhau gosod y cyfrinallwedd. Rhowch gynnig ar ddull neu ddyfais wahanol.
 # Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
 passkey-registration-error-could-not-complete-link = Dysgu rhagor
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
