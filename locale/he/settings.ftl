@@ -229,6 +229,9 @@ backup-recovery-sms-disabled-icon-aria-label =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = דגל קנדי
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = סימון
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = הצלחה
