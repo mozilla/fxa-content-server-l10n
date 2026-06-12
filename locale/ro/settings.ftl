@@ -583,6 +583,15 @@ cs-disconnect-suspicious-advice-heading = Dispozitiv suspect deconectat
 cs-disconnect-suspicious-advice-content-2 = Dacă dispozitivul deconectat este într-adevăr suspect, pentru a-ți păstra în siguranță informațiile, ar trebui să îți schimbi parola { -product-mozilla-account } în setările contului. Ar trebui să schimbi și orice alte parole pe care le-ai salvat în { -brand-firefox } tastând about:logins în bara de adrese.
 cs-sign-out-button = Ieși din cont
 
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = VPN încorporat în { -brand-firefox }
+
 ## Data collection section
 
 dc-heading = Colectarea și utilizarea datelor
@@ -1029,6 +1038,13 @@ recent-activity-account-recovery-codes-signin-complete = Autentificare cu coduri
 recent-activity-password-reset-otp-sent = Codul de confirmare a resetării parolei a fost trimis
 recent-activity-password-reset-otp-verified = Codul de confirmare a resetării parolei a fost verificat
 recent-activity-must-reset-password = Necesită resetarea parolei
+recent-activity-account-recovery-phone-replace-complete = Numărul de telefon de recuperare a fost schimbat
+recent-activity-account-passkey-registration-success = Cheie de acces adăugată
+recent-activity-account-passkey-registration-failure = Înregistrarea cheii de acces a eșuat
+recent-activity-account-passkey-removed = Cheia de acces a fost eliminată
+recent-activity-account-passkey-authentication-success = Autentificare cu cheia de acces finalizată
+recent-activity-account-passkey-authentication-failure = Autentificare cu cheia de acces eșuată
+recent-activity-account-recovery-codes-set = Coduri de recuperare setate
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Alte activități din cont
 
@@ -1442,6 +1458,14 @@ passkey-registration-error-not-allowed = Setarea cheii de acces a eșuat sau nu 
 passkey-registration-error-not-allowed-existing = Configurarea de chei de acces nu este disponibilă pe acest dispozitiv. Ori dispozitivul a fost deja înregistrat, ori a fost anulată procedura de configurare.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Setarea cheii de acces a fost anulată. Încearcă din nou.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Află mai multe
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Browserul sau dispozitivul nu acceptă chei de acces.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Află mai multe
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Află mai multe
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Nu poți seta chei de acces pe această pagină. Folosește site-ul securizat și încearcă din nou.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
@@ -1461,6 +1485,8 @@ passkey-authentication-error-not-allowed = Autentificarea cu cheie de acces a e�
 passkey-authentication-error-not-allowed-existing = Configurarea de chei de acces nu este disponibilă pe acest dispozitiv. Te rugăm să încerci din nou sau să alegi altă metodă.
 # The ceremony timed out before the user responded
 passkey-authentication-error-timeout = Timpul de așteptare pentru cheia de acces a expirat. Te rugăm să încerci din nou.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Browserul sau dispozitivul nu acceptă chei de acces.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Nu poți folosi chei de acces pe această pagină. Verifică dacă ești pe site-ul securizat corect și încearcă din nou.
 # Unexpected credential state during authentication

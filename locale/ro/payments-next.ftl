@@ -20,6 +20,8 @@ next-payment-method-first-approve = Mai întâi va trebui să aprobi abonamentul
 
 ## Error page
 
+error-page-account-not-found-heading = Contul nu a fost găsit
+error-page-account-not-found-continue-button = Continuă
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Selectează țara și introdu codul poștal <p>pentru a continua cu finalizarea comenzii pentru { $productName }</p>
 location-banner-info = Nu ți-am putut depista locația automat
