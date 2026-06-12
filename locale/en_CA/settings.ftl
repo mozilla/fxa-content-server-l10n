@@ -1055,6 +1055,7 @@ recent-activity-account-passkey-registration-success = Passkey added
 recent-activity-account-passkey-registration-failure = Passkey registration failed
 recent-activity-account-passkey-removed = Passkey removed
 recent-activity-account-passkey-authentication-success = Sign-in with passkey completed
+recent-activity-account-passkey-authentication-failure = Sign-in with passkey failed
 recent-activity-account-passwordless-login-otp-sent = Passwordless sign-in code sent
 recent-activity-account-passwordless-login-otp-failed = Passwordless sign-in code failed
 recent-activity-account-passwordless-login-otp-verified = Passwordless sign-in code verified
