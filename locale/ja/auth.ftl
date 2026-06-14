@@ -25,6 +25,11 @@ recovery-phone-signin-sms-short-body = { -brand-mozilla } コード: { $code }
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
 recovery-phone-reset-password-sms-body = { -brand-mozilla } の回復用コードは { $code } です。5 分間有効です。
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } コード: { $code }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } ロゴ">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } ロゴ">
 subplat-automated-email = これは自動で配信されたメールです。心当たりがない場合は、何も行わないでください。
