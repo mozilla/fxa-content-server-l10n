@@ -1,5 +1,11 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-something-went-wrong-heading = Något gick fel
+app-something-went-wrong-message = Vi har underrättats om problemet. Uppdatera sidan för att försöka igen.
+# $errorId (String) - Unique identifier for the error report, used to look it up in our monitoring system
+app-error-id = Fel-ID: { $errorId }
+# Expandable toggle that reveals technical details about the error
+app-error-details-summary = Detaljer om felet
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Felaktig begäran: Ogiltiga frågeparametrar
 
