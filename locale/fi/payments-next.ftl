@@ -18,6 +18,8 @@ next-payment-method-first-approve = Sinun on ensin hyväksyttävä tilauksesi
 
 ## Error page
 
+error-page-account-not-found-heading = Tiliä ei löytynyt
+error-page-account-not-found-continue-button = Jatka
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Valitse maasi ja anna postinumerosi <p>jatkaaksesi tuotteen { $productName } kanssa kassalle</p>
 location-banner-info = Emme pystyneet tunnistamaan sijaintiasi automaattisesti

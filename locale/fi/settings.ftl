@@ -1070,6 +1070,8 @@ row-defaults-status = Ei mitään
 passkey-row-enabled = Käytössä
 passkey-row-not-set = Ei asetettu
 passkey-row-action-create = Luo
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Lue lisää
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1223,6 +1225,22 @@ auth-error-1067 = Kirjoititko sähköpostiosoitteesi väärin?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numero, joka päättyy { $lastFourPhoneNumber }
 oauth-error-1000 = Jokin meni pieleen. Sulje tämä välilehti ja yritä uudelleen.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+
+# Registration errors
+
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Lue lisää
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Lue lisää
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Lue lisää
+
+# Authentication errors
+
 
 ## Connect Another Device page
 

@@ -1818,6 +1818,9 @@ msgid ""
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
 msgstr ""
+"\n"
+"          <span>%(deviceFamily)s käyttöjärjestelmälle %(deviceOS)s</span> on yhdistetty.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
@@ -1833,6 +1836,9 @@ msgid ""
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
 msgstr ""
+"\n"
+"          Synkronointi laitteen kanssa aktiivinen: <span>%(deviceFamily)s käyttöjärjestelmälle %(deviceOS)s</span>\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
