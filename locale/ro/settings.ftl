@@ -251,6 +251,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Activat
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Săgeată la dreapta
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Închide mesajul
@@ -995,6 +998,7 @@ page-passkey-add-cancel = Anulează
 ## Success / Error messages (shown in alert bar after returning to settings)
 
 page-passkey-add-success = Cheia de acces a fost creată
+page-passkey-add-error-system-v2 = A apărut o problemă la crearea cheii de acces. Încercă din nou mai târziu.
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1039,11 +1043,27 @@ recent-activity-password-reset-otp-sent = Codul de confirmare a resetării parol
 recent-activity-password-reset-otp-verified = Codul de confirmare a resetării parolei a fost verificat
 recent-activity-must-reset-password = Necesită resetarea parolei
 recent-activity-account-recovery-phone-replace-complete = Numărul de telefon de recuperare a fost schimbat
+recent-activity-account-recovery-phone-replace-failure = Înlocuirea numărului de telefon de recuperare a eșuat
+recent-activity-account-two-factor-replace-success = Autentificare în doi pași înlocuită
+recent-activity-account-two-factor-replace-failure = Înlocuirea autentificării în doi pași a eșuat
+recent-activity-account-recovery-phone-setup-failed = Configurarea numărului de telefon de recuperare a eșuat
+recent-activity-account-recovery-phone-reset-password-complete = Resetarea parolei cu numărul de telefon de recuperare a fost finalizată
+recent-activity-account-recovery-phone-reset-password-failed = Resetarea parolei cu numărul de telefon de recuperare a eșuat
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Necesită autorizație pentru modificarea contului
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Modificare de cont autorizată
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Autorizarea modificării contului a eșuat
 recent-activity-account-passkey-registration-success = Cheie de acces adăugată
 recent-activity-account-passkey-registration-failure = Înregistrarea cheii de acces a eșuat
 recent-activity-account-passkey-removed = Cheia de acces a fost eliminată
 recent-activity-account-passkey-authentication-success = Autentificare cu cheia de acces finalizată
 recent-activity-account-passkey-authentication-failure = Autentificare cu cheia de acces eșuată
+recent-activity-account-passwordless-login-otp-sent = Cod de autentificare fără parolă trimis
+recent-activity-account-passwordless-login-otp-failed = Codul de autentificare fără parolă a eșuat
+recent-activity-account-passwordless-login-otp-verified = Cod de autentificare fără parolă verificat
+recent-activity-account-passwordless-registration-complete = Înregistrarea contului fără parolă a fost finalizată
 recent-activity-account-recovery-codes-set = Coduri de recuperare setate
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Alte activități din cont
@@ -1419,6 +1439,7 @@ auth-error-226 = S-a atins limita de chei de acces
 auth-error-227 = Autentificarea cu cheie de acces a eșuat
 auth-error-228 = Înregistrarea cheii de acces a eșuat
 auth-error-238 = Verificarea cheii de acces a eșuat
+auth-error-239 = Ne pare rău, nu ți-am putut șterge contul. Te rugăm să încerci din nou sau să contactezi asistența dacă problema persistă.
 auth-error-999 = Eroare neașteptată
 auth-error-1001 = Încercare de autentificare anulată
 auth-error-1002 = Sesiune expirată. Intră în cont pentru a continua.
