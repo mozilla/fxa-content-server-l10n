@@ -1,5 +1,11 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-something-went-wrong-heading = Prišlo je do napake
+app-something-went-wrong-message = Obveščeni smo o težavi. Osvežite stran za ponoven poskus.
+# $errorId (String) - Unique identifier for the error report, used to look it up in our monitoring system
+app-error-id = ID napake: { $errorId }
+# Expandable toggle that reveals technical details about the error
+app-error-details-summary = Podrobnosti napake
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Nepravilna zahteva: neveljavni parametri poizvedbe
 

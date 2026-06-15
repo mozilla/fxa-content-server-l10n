@@ -353,6 +353,8 @@ input-phone-number-country-united-states = Stati Uniti
 input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Indietro
+# Generic error shown when the legal document fails to load
+app-general-err-message = Si è verificato un problema. Riprova più tardi.
 
 ## LinkDamaged component
 
