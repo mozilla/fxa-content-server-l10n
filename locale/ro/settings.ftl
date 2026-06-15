@@ -1458,12 +1458,17 @@ passkey-registration-error-not-allowed = Setarea cheii de acces a eșuat sau nu 
 passkey-registration-error-not-allowed-existing = Configurarea de chei de acces nu este disponibilă pe acest dispozitiv. Ori dispozitivul a fost deja înregistrat, ori a fost anulată procedura de configurare.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Setarea cheii de acces a fost anulată. Încearcă din nou.
+passkey-registration-canceled-v2 = Configurarea cheii de acces a expirat sau a fost anulată.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Află mai multe
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Browserul sau dispozitivul nu acceptă chei de acces.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Află mai multe
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Configurarea cheii de acces nu a putut fi finalizată. Încercă altă metodă sau un alt dispozitiv.
 # Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
 passkey-registration-error-could-not-complete-link = Află mai multe
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
@@ -1495,6 +1500,10 @@ passkey-authentication-error-invalid-state = Ceva nu a mers cu cheia ta de acces
 passkey-authentication-error-not-readable = Nu am putut accesa aplicația de autentificare. Încearcă din nou sau folosește altă metodă de autentificare.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
 passkey-authentication-error-unexpected = Ceva nu a mers. Încearcă din nou sau folosește altă metodă de autentificare.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Cheia de acces nu a fost recunoscută. Folosește altă metodă de autentificare.
 
 ## Connect Another Device page
 
