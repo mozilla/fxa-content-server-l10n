@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Generell applikasjonsfeil
-app-general-err-message = Noko gjekk gale. Prøv igjen seinare.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Dårleg førespurnad: Ugyldige søkjeparametrar
 

@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Γενικό σφάλμα εφαρμογής
-app-general-err-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Εσφαλμένο αίτημα: Μη έγκυρες παράμετροι ερωτήματος
 

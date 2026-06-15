@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Error general del application
-app-general-err-message = Alco errate eveniva. Reproba plus tarde.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Mal requesta: parametros de consulta non valide
 

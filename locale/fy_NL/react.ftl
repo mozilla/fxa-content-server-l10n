@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Algemiene tapassingsflater
-app-general-err-message = Der is wat misgien. Probearje it letter opnij.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Unjildige oanfraach: ûnjildige queryparameters
 

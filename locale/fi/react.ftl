@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Yleinen sovellusvirhe
-app-general-err-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Virheellinen pyyntö: Virheelliset kyselyparametrit
 

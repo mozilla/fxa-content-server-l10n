@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Allgemeiner Anwendungsfehler
-app-general-err-message = Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Fehlerhafte Anfrage: Ungültige Anfrageparameter
 

@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Powšykna nałožeńska zmólka
-app-general-err-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Špatne napšašowanje: Njepłaśiwe napšašowańske parametry
 

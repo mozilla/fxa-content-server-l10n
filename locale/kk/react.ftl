@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Жалпы қолданба қатесі
-app-general-err-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Қате сұраныс: Жарамсыз сұраныс параметрлері
 

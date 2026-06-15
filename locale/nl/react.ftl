@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Algemene toepassingsfout
-app-general-err-message = Er is iets misgegaan. Probeer het later opnieuw.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Ongeldige aanvraag: ongeldige queryparameters
 

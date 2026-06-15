@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Lỗi ứng dụng
-app-general-err-message = Có gì đó không ổn. Vui lòng thử lại sau.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Yêu cầu không hợp lệ: Tham số truy vấn không hợp lệ
 

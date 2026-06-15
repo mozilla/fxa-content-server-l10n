@@ -1,7 +1,5 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-general-err-heading = Obecná chyba aplikace
-app-general-err-message = Něco se pokazilo. Zkuste to prosím znovu později.
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Špatný požadavek: neplatné parametry v dotazu
 
