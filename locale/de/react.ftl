@@ -1,6 +1,6 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
-app-something-went-wrong-heading = Irgendetwas ist schiefgegangen
+app-something-went-wrong-heading = Etwas ist schiefgegangen
 app-something-went-wrong-message = Wir wurden über das Problem informiert. Aktualisieren Sie die Seite, um es erneut zu versuchen.
 # $errorId (String) - Unique identifier for the error report, used to look it up in our monitoring system
 app-error-id = Fehler-ID: { $errorId }
