@@ -365,6 +365,8 @@ input-phone-number-country-united-states = Yr Unol Daleithiau
 input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Nôl
+# Generic error shown when the legal document fails to load
+app-general-err-message = Aeth rhywbeth o'i le. Ceisiwch eto.
 
 ## LinkDamaged component
 
