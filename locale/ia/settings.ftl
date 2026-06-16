@@ -353,6 +353,8 @@ input-phone-number-country-united-states = Statos Unite
 input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Retro
+# Generic error shown when the legal document fails to load
+app-general-err-message = Alco errate eveniva. Reproba plus tarde.
 
 ## LinkDamaged component
 
