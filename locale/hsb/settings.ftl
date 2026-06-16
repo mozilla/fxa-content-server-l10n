@@ -359,6 +359,8 @@ input-phone-number-country-united-states = Zjednoćene staty
 input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Wróćo
+# Generic error shown when the legal document fails to load
+app-general-err-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
 
 ## LinkDamaged component
 
