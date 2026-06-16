@@ -1,5 +1,11 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-something-went-wrong-heading = 有些東西不對勁
+app-something-went-wrong-message = 系統已自動通知我們這個問題，請重新整理頁面後再試一次。
+# $errorId (String) - Unique identifier for the error report, used to look it up in our monitoring system
+app-error-id = 錯誤 ID：{ $errorId }
+# Expandable toggle that reveals technical details about the error
+app-error-details-summary = 錯誤詳細資訊
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = 請求錯誤：查詢參數無效
 
