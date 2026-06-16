@@ -1,7 +1,7 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
 app-something-went-wrong-heading = Si è verificato un errore
-app-something-went-wrong-message = Siamo stati informati del problema. Aggiorna la pagina per riprovare.
+app-something-went-wrong-message = Abbiamo ricevuto una segnalazione del problema. Ricarica la pagina per riprovare.
 # $errorId (String) - Unique identifier for the error report, used to look it up in our monitoring system
 app-error-id = ID errore: { $errorId }
 # Expandable toggle that reveals technical details about the error
