@@ -1,5 +1,10 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-something-went-wrong-heading = Coś się nie powiodło
+# $errorId (String) - Unique identifier for the error report, used to look it up in our monitoring system
+app-error-id = Identyfikator błędu: { $errorId }
+# Expandable toggle that reveals technical details about the error
+app-error-details-summary = Informacje o błędzie
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Błędne żądanie: nieprawidłowe parametry zapytania
 
