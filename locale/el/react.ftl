@@ -1,5 +1,8 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-something-went-wrong-heading = Κάτι πήγε στραβά
+# Expandable toggle that reveals technical details about the error
+app-error-details-summary = Λεπτομέρειες σφάλματος
 # Specific handling for issues when bad or missing query parameters are detected
 app-query-parameter-err-heading = Εσφαλμένο αίτημα: Μη έγκυρες παράμετροι ερωτήματος
 

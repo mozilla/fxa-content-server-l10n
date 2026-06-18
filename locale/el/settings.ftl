@@ -353,6 +353,8 @@ input-phone-number-country-united-states = Ηνωμένες Πολιτείες
 input-phone-number-country-canada = Καναδάς
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Πίσω
+# Generic error shown when the legal document fails to load
+app-general-err-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 
 ## LinkDamaged component
 
