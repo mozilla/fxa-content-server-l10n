@@ -1051,6 +1051,8 @@ recent-activity-account-two-factor-replace-failure = Η αντικατάστασ
 recent-activity-account-recovery-phone-setup-failed = Η ρύθμιση του τηλεφώνου ανάκτησης απέτυχε
 recent-activity-account-recovery-phone-reset-password-complete = Η επαναφορά του κωδικού πρόσβασης με τηλέφωνο ανάκτησης ολοκληρώθηκε
 recent-activity-account-recovery-phone-reset-password-failed = Η επαναφορά του κωδικού πρόσβασης με τηλέφωνο ανάκτησης απέτυχε
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Ζητήθηκε έγκριση αλλαγής λογαριασμού
 # The user successfully entered the code emailed to authorize a sensitive account change.
 recent-activity-account-mfa-otp-verified = Εγκρίθηκε αλλαγή στον λογαριασμό
 recent-activity-account-passkey-registration-success = Προστέθηκε κλειδί πρόσβασης
