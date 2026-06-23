@@ -1055,6 +1055,8 @@ recent-activity-account-recovery-phone-reset-password-failed = Η επαναφο
 recent-activity-account-mfa-otp-sent = Ζητήθηκε έγκριση αλλαγής λογαριασμού
 # The user successfully entered the code emailed to authorize a sensitive account change.
 recent-activity-account-mfa-otp-verified = Εγκρίθηκε αλλαγή στον λογαριασμό
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Η έγκριση της αλλαγής στον λογαριασμό απέτυχε
 recent-activity-account-passkey-registration-success = Προστέθηκε κλειδί πρόσβασης
 recent-activity-account-passkey-registration-failure = Αποτυχία καταχώρησης κλειδιού πρόσβασης
 recent-activity-account-passkey-removed = Το κλειδί πρόσβασης αφαιρέθηκε
