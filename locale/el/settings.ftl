@@ -1478,12 +1478,17 @@ passkey-registration-error-not-allowed = Η ρύθμιση του κλειδιο
 passkey-registration-error-not-allowed-existing = Η ρύθμιση του κλειδιού πρόσβασης δεν είναι διαθέσιμη με αυτήν τη συσκευή. Είτε η συσκευή έχει ήδη καταχωρηθεί είτε η διαδικασία ρύθμισης ακυρώθηκε.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Η ρύθμιση του κλειδιού πρόσβασης ακυρώθηκε. Δοκιμάστε ξανά.
+passkey-registration-canceled-v2 = Έγινε υπέρβαση του χρονικού ορίου ή ακύρωση της ρύθμισης κλειδιού πρόσβασης.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Μάθετε περισσότερα
 # Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
 passkey-registration-error-not-supported-v2 = Το πρόγραμμα περιήγησης ή η συσκευή σας δεν υποστηρίζει κλειδιά πρόσβασης.
 # Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
 passkey-registration-error-not-supported-link = Μάθετε περισσότερα
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Δεν ήταν δυνατή η ολοκλήρωση της ρύθμισης του κλειδιού πρόσβασης. Δοκιμάστε μια άλλη μέθοδο ή συσκευή.
 # Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
 passkey-registration-error-could-not-complete-link = Μάθετε περισσότερα
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
