@@ -1017,6 +1017,14 @@ recent-activity-account-recovery-codes-signin-complete = Kurtarma kodlarıyla gi
 recent-activity-password-reset-otp-sent = Parola sıfırlama onay kodu gönderildi
 recent-activity-password-reset-otp-verified = Parola sıfırlama onay kodu doğrulandı
 recent-activity-must-reset-password = Parola sıfırlama gerekli
+recent-activity-account-recovery-phone-replace-complete = Kurtarma telefonu değiştirildi
+recent-activity-account-two-factor-replace-success = İki aşamalı kimlik doğrulama değiştirildi
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Hesap değiştirme izni istendi
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Hesap değiştirmeye izin verildi
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Hesap değiştirme yetkilendirmesi başarısız oldu
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Diğer hesap etkinlikleri
 

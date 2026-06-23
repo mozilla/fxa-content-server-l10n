@@ -20,6 +20,8 @@ next-payment-method-first-approve = Öncelikle aboneliğinizi onaylamanız gerek
 
 ## Error page
 
+error-page-account-not-found-heading = Hesap bulunamadı
+error-page-account-not-found-continue-button = Devam et
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = <p>{ $productName } ödemesine devam etmek için ülkenizi seçip posta kodunuzu girin</p>
 location-banner-info = Konumunuzu otomatik olarak tespit edemedik
@@ -398,6 +400,19 @@ purchase-details-credit-applied-label = Uygulanan kredi
 purchase-details-total-due-label = Toplam tutar
 next-plan-details-hide-button = Ayrıntıları gizle
 next-plan-details-show-button = Ayrıntıları göster
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] { $trialDayLength } günlük ücretsiz denemenizi başlatın
+       *[other] { $trialDayLength } günlük ücretsiz denemenizi başlatın
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] { $trialDayLength } günlük ücretsiz denemeniz başladı
+       *[other] { $trialDayLength } günlük ücretsiz denemeniz başladı
+    }
 
 ##
 
