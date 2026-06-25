@@ -945,13 +945,13 @@ add-secondary-email-step-2 = Vaihe 2/2
 verify-secondary-email-page-title =
     .title = Toissijainen sähköposti
 verify-secondary-email-verification-code-2 =
-    .label = Kirjoita vahvistuskoodi
+    .label = Syötä vahvistuskoodi
 verify-secondary-email-cancel-button = Peruuta
 verify-secondary-email-verify-button-2 = Vahvista
 # This string is an instruction in a form.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-verify-secondary-email-please-enter-code-2 = Kirjoita osoitteeseen <strong>{ $email }</strong> lähetetty vahvistuskoodi viiden minuutin kuluessa.
+verify-secondary-email-please-enter-code-2 = Syötä osoitteeseen <strong>{ $email }</strong> lähetetty vahvistuskoodi viiden minuutin kuluessa.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -1100,7 +1100,7 @@ unit-row-recovery-key-delete-icon-button-title = Poista tilin palautusavain
 se-heading = Toissijainen sähköposti
     .header = Toissijainen sähköposti
 se-cannot-refresh-email = Valitettavasti sähköpostiosoitteen päivittämisessä ilmeni ongelma.
-se-cannot-resend-code-3 = Valitettavasti vahvistuskoodin lähettämisessä uudelleen ilmeni ongelma
+se-cannot-resend-code-3 = Valitettavasti vahvistuskoodin uudelleenlähetyksessä kohdattiin ongelma
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
