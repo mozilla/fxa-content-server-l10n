@@ -728,11 +728,11 @@ modal-mfa-protected-resend-code-link = Lähetä uusi koodi sähköpostiin.
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Vahvista sähköposti
-mvs-enter-verification-code-2 = Kirjoita vahvistuskoodi
+mvs-enter-verification-code-2 = Syötä vahvistuskoodi
 # This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
 # Variables:
 #   email (String) - the user's email
-mvs-enter-verification-code-desc-2 = Kirjoita osoitteeseen <email>{ $email }</email> lähetetty vahvistuskoodi viiden minuutin kuluessa.
+mvs-enter-verification-code-desc-2 = Syötä osoitteeseen <email>{ $email }</email> lähetetty vahvistuskoodi viiden minuutin kuluessa.
 msv-cancel-button = Peruuta
 msv-submit-button-2 = Vahvista
 
