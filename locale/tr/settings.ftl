@@ -347,6 +347,8 @@ input-phone-number-country-united-states = Amerika Birleşik Devletleri
 input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Geri
+# Generic error shown when the legal document fails to load
+app-general-err-message = Bir şeyler yanlış gitti. Lütfen daha sonra yeniden deneyin.
 
 ## LinkDamaged component
 
@@ -703,6 +705,7 @@ flow-setup-2fa-backup-code-dl-button-continue = İleri
 ##
 
 flow-setup-2fa-inline-complete-success-banner = İki aşamalı kimlik doğrulama etkinleştirildi
+flow-setup-2fa-inline-complete-success-banner-description = Bağlı cihazlarınızın hepsini korumak için bu hesabı kullandığınız her yerde oturumunuzu kapatmalı ve ardından yeni iki aşamalı kimlik doğrulamanızla yeniden giriş yapmalısınız.
 flow-setup-2fa-inline-complete-backup-code = Yedek kimlik doğrulama kodları
 flow-setup-2fa-inline-complete-backup-phone = Kurtarma telefonu
 # $count (Number) - an integer representing the number of backup
