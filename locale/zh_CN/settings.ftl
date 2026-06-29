@@ -341,6 +341,8 @@ input-phone-number-country-united-states = 美国
 input-phone-number-country-canada = 加拿大
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 后退
+# Generic error shown when the legal document fails to load
+app-general-err-message = 出了点问题，请稍后再试。
 
 ## LinkDamaged component
 
