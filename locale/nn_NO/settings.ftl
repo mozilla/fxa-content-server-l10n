@@ -162,7 +162,9 @@ device-info-ip-address = IP-adresse: { $ipAddress }
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
 firefox-promo-banner-mobile-heading = Få { -brand-firefox } same kvar du er
+firefox-promo-banner-mobile-description = Synkroniser fanene, bokmerka og passorda dine på tvers av einingane dine. I tillegg held alt fram med å vere trygt kryptert.
 firefox-promo-banner-mobile-cta = Kople til ei eining
+firefox-promo-banner-switch-description = Når du byter til { -brand-firefox }, kan du ta med deg bokmerka, passorda, historikken, og meir, slik at du kan surfe utan å gå glipp av noko.
 firefox-promo-banner-switch-cta = Byt til { -brand-firefox }
 
 ## FormPasswordInlineCriteria
@@ -1245,6 +1247,7 @@ passkey-sub-row-created-date = Oppretta: { $createdDate }
 passkey-sub-row-last-used-date = Sist brukt: { $lastUsedDate }
 passkey-sub-row-delete-title = Slett passnøkkel
 passkey-delete-modal-heading = Slette passnøkkelen?
+passkey-delete-modal-content-v2 = Denne tilgangsnøkkelen vil bli fjerna frå kontoen din. Du må logge på med ein annan metode (passord, ein annan tilgangsnøkkel eller ein tilknytt konto).
 passkey-delete-modal-cancel-button = Avbryt
 passkey-delete-modal-confirm-button = Slett passnøkkel
 passkey-delete-success = Passnøkkel sletta
