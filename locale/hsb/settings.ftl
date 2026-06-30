@@ -168,7 +168,9 @@ device-info-ip-address = IP-adresa: { $ipAddress }
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
 firefox-promo-banner-mobile-heading = Wobstarajće sej { -brand-firefox }, hdźežkuli sće
+firefox-promo-banner-mobile-description = Synchronizujće swoje rajtarki, zapołožki a hesła přez graty. Nimo toho wšitko wěsće zaklučowane wostawa.
 firefox-promo-banner-mobile-cta = Grat zwjazać
+firefox-promo-banner-switch-heading = Spěšnje přeńć. Lochko so zažiwić.
 firefox-promo-banner-switch-cta = K { -brand-firefox } přeńć
 
 ## FormPasswordInlineCriteria
