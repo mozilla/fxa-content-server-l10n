@@ -160,6 +160,16 @@ device-info-browser-os = { $browserName } в { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-адрес: { $ipAddress }
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-mobile-heading = Установите { -brand-firefox }, где бы вы ни находились
+firefox-promo-banner-mobile-description = Синхронизируйте свои вкладки, закладки и пароли между своими устройствами. Кроме того, всё остаётся надёжно зашифрованным.
+firefox-promo-banner-mobile-cta = Подключить устройство
+firefox-promo-banner-switch-heading = Быстро переключается. Легко осваивается.
+firefox-promo-banner-switch-description = При переходе на { -brand-firefox }, вы можете перенести свои закладки, пароли, историю и многое другое, чтобы начать сёрфинг, не теряя ни секунды.
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
