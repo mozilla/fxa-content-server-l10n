@@ -166,7 +166,7 @@ firefox-promo-banner-mobile-description = Synchronisez vos onglets, marque-pages
 firefox-promo-banner-mobile-cta = Connecter un appareil
 firefox-promo-banner-switch-heading = C’est rapide. Installation facile.
 firefox-promo-banner-switch-description = Lorsque vous passez à { -brand-firefox }, vous pouvez emporter vos marque-pages, mots de passe, historique et plus encore pour reprendre votre navigation en toute sérénité.
-firefox-promo-banner-switch-cta = Utiliser { -brand-firefox }
+firefox-promo-banner-switch-cta = Passer à { -brand-firefox }
 
 ## FormPasswordInlineCriteria
 
