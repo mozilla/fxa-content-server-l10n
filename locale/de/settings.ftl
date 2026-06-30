@@ -165,7 +165,7 @@ firefox-promo-banner-mobile-heading = Holen Sie sich { -brand-firefox }, egal wo
 firefox-promo-banner-mobile-description = Synchronisieren Sie Ihre Tabs, Lesezeichen und Passwörter auf allen Ihren Geräten. Außerdem bleibt alles sicher verschlüsselt.
 firefox-promo-banner-mobile-cta = Ein Gerät verbinden
 firefox-promo-banner-switch-heading = Schnell zu wechseln. Einfache Eingewöhnung.
-firefox-promo-banner-switch-description = Wenn Sie zu { -brand-firefox } wechseln, können Sie Ihre Lesezeichen, Passwörter, Chronik und mehr mitnehmen, um ohne einen Schlag zu surfen.
+firefox-promo-banner-switch-description = Wenn Sie zu { -brand-firefox } wechseln, können Sie Ihre Lesezeichen, Passwörter, Chronik und mehr mitnehmen, damit Sie nahtlos weiter surfen können.
 firefox-promo-banner-switch-cta = Zu { -brand-firefox } wechseln
 
 ## FormPasswordInlineCriteria
