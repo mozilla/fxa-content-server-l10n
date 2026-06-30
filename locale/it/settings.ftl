@@ -161,10 +161,10 @@ device-info-ip-address = Indirizzo IP: { $ipAddress }
 ## Shown at the top of settings to promote installing Firefox on mobile (when
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
-firefox-promo-banner-mobile-heading = Ottieni { -brand-firefox } ovunque ti trovi
-firefox-promo-banner-mobile-description = Sincronizza schede, segnalibri e password su tutti i tuoi dispositivi. Inoltre, tutto rimane crittato in modo sicuro.
+firefox-promo-banner-mobile-heading = Usa { -brand-firefox } ovunque ti trovi
+firefox-promo-banner-mobile-description = Sincronizza schede, segnalibri e password su tutti i tuoi dispositivi. Tutti i tuoi dati sono protetti da crittografia.
 firefox-promo-banner-mobile-cta = Connetti un dispositivo
-firefox-promo-banner-switch-heading = Veloce da cambiare. Facile da sistemare.
+firefox-promo-banner-switch-heading = Basta un attimo per cambiare. Ambientarsi è semplice.
 firefox-promo-banner-switch-description = Passando a { -brand-firefox }, puoi portare i tuoi segnalibri, le password, la cronologia e altro ancora per iniziare a navigare senza perdere un colpo.
 firefox-promo-banner-switch-cta = Passa a { -brand-firefox }
 
