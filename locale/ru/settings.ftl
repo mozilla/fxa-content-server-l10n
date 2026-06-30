@@ -1241,7 +1241,6 @@ passkey-sub-row-created-date = Создан: { $createdDate }
 passkey-sub-row-last-used-date = Последнее использование: { $lastUsedDate }
 passkey-sub-row-delete-title = Удалить ключ доступа
 passkey-delete-modal-heading = Удалить ваш ключ доступа?
-passkey-delete-modal-content = Этот ключ доступа будет удалён из вашего аккаунта. Вам нужно войти, используя другой способ.
 passkey-delete-modal-cancel-button = Отмена
 passkey-delete-modal-confirm-button = Удалить ключ доступа
 passkey-delete-success = Ключ доступа удалён

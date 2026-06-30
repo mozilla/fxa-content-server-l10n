@@ -1200,7 +1200,6 @@ passkey-sub-row-created-date = Oluşturma: { $createdDate }
 passkey-sub-row-last-used-date = Son kullanım: { $lastUsedDate }
 passkey-sub-row-delete-title = Geçiş anahtarını sil
 passkey-delete-modal-heading = Geçiş anahtarınız silinsin mi?
-passkey-delete-modal-content = Bu geçiş anahtarı hesabınızdan silinecektir. Bundan sonra farklı bir yolla giriş yapmanız gerekecektir.
 passkey-delete-modal-cancel-button = Vazgeç
 passkey-delete-modal-confirm-button = Geçiş anahtarını sil
 passkey-delete-success = Geçiş anahtarı silindi

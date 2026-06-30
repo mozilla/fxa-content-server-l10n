@@ -1213,7 +1213,6 @@ passkey-sub-row-created-date = Đã tạo: { $createdDate }
 passkey-sub-row-last-used-date = Sử dụng lần cuối: { $lastUsedDate }
 passkey-sub-row-delete-title = Xoá passkey
 passkey-delete-modal-heading = Xoá passkey của bạn?
-passkey-delete-modal-content = Passkey này sẽ bị xóa khỏi tài khoản của bạn. Bạn cần đăng nhập bằng phương thức khác.
 passkey-delete-modal-cancel-button = Hủy bỏ
 passkey-delete-modal-confirm-button = Xoá passkey
 passkey-delete-success = Đã xoá passkey

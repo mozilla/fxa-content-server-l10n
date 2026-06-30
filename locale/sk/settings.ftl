@@ -1247,7 +1247,6 @@ passkey-sub-row-created-date = Vytvorený: { $createdDate }
 passkey-sub-row-last-used-date = Naposledy použitý: { $lastUsedDate }
 passkey-sub-row-delete-title = Odstrániť prístupový kľúč
 passkey-delete-modal-heading = Odstrániť prístupový kľúč?
-passkey-delete-modal-content = Tento prístupový kľúč bude z vášho účtu odstránený. Budete sa musieť prihlásiť iným spôsobom.
 passkey-delete-modal-cancel-button = Zrušiť
 passkey-delete-modal-confirm-button = Odstrániť prístupový kľúč
 passkey-delete-success = Prístupový kľúč bol odstránený

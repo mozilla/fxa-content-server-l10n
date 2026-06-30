@@ -1235,7 +1235,6 @@ passkey-sub-row-created-date = Creada: { $createdDate }
 passkey-sub-row-last-used-date = Último uso: { $lastUsedDate }
 passkey-sub-row-delete-title = Borrar clave de acceso
 passkey-delete-modal-heading = ¿Borrar la clave de acceso?
-passkey-delete-modal-content = Esta clave de acceso será eliminada de tu cuenta. Tendrás que iniciar sesión de una forma diferente.
 passkey-delete-modal-cancel-button = Cancelar
 passkey-delete-modal-confirm-button = Borrar clave de acceso
 passkey-delete-success = Clave de acceso eliminada

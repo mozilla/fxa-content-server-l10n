@@ -1237,7 +1237,6 @@ passkey-sub-row-created-date = Heñói: { $createdDate }
 passkey-sub-row-last-used-date = Jeporu ramovéva: { $lastUsedDate }
 passkey-sub-row-delete-title = Emboguete ñe’ẽñemi
 passkey-delete-modal-heading = ¿Emboguete pe ñe’ẽñemi?
-passkey-delete-modal-content = Ko mba’e ñemi oñemboguéta ne mba’etégui. Eikejeyva’erã ñanduti rendápe ambueháicha.
 passkey-delete-modal-cancel-button = Eheja
 passkey-delete-modal-confirm-button = Emboguete ñe’ẽñemi
 passkey-delete-success = Ñe’ẽñemi mboguetepyre

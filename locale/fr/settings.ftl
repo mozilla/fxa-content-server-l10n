@@ -1233,7 +1233,6 @@ passkey-sub-row-created-date = Créée le : { $createdDate }
 passkey-sub-row-last-used-date = Dernière utilisation : { $lastUsedDate }
 passkey-sub-row-delete-title = Supprimer la clé d’accès
 passkey-delete-modal-heading = Supprimer votre clé d’accès ?
-passkey-delete-modal-content = Cette clé d’accès sera supprimée de votre compte. Vous devrez utiliser une méthode différente pour vous connecter.
 passkey-delete-modal-cancel-button = Annuler
 passkey-delete-modal-confirm-button = Supprimer la clé d’accès
 passkey-delete-success = Clé d’accès supprimée

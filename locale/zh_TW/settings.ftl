@@ -1209,7 +1209,6 @@ passkey-sub-row-created-date = 建立於：{ $createdDate }
 passkey-sub-row-last-used-date = 最後使用於：{ $lastUsedDate }
 passkey-sub-row-delete-title = 刪除 passkey
 passkey-delete-modal-heading = 要刪除您的 passkey 嗎？
-passkey-delete-modal-content = 將從您的帳號移除這把 passkey。您將需要改用其他方式登入。
 passkey-delete-modal-cancel-button = 取消
 passkey-delete-modal-confirm-button = 刪除 passkey
 passkey-delete-success = 已刪除 passkey

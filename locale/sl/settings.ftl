@@ -1249,7 +1249,6 @@ passkey-sub-row-created-date = Ustvarjen: { $createdDate }
 passkey-sub-row-last-used-date = Nazadnje uporabljen: { $lastUsedDate }
 passkey-sub-row-delete-title = Izbriši ključ za dostop
 passkey-delete-modal-heading = Želite izbrisati svoj ključ za dostop?
-passkey-delete-modal-content = Ta ključ za dostop bo odstranjen iz vašega računa. Prijavljati se boste morali na drug način.
 passkey-delete-modal-cancel-button = Prekliči
 passkey-delete-modal-confirm-button = Izbriši ključ za dostop
 passkey-delete-success = Ključ za dostop izbrisan

@@ -1235,7 +1235,6 @@ passkey-sub-row-created-date = Erstellt: { $createdDate }
 passkey-sub-row-last-used-date = Zuletzt verwendet: { $lastUsedDate }
 passkey-sub-row-delete-title = Zugangsschlüssel löschen
 passkey-delete-modal-heading = Ihren Zugangsschlüssel löschen?
-passkey-delete-modal-content = Dieser Zugangsschlüssel wird von Ihrem Konto entfernt. Sie müssen sich auf andere Weise anmelden.
 passkey-delete-modal-cancel-button = Abbrechen
 passkey-delete-modal-confirm-button = Zugangsschlüssel löschen
 passkey-delete-success = Zugangsschlüssel gelöscht

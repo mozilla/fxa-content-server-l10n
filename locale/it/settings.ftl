@@ -1233,7 +1233,6 @@ passkey-sub-row-created-date = Creata: { $createdDate }
 passkey-sub-row-last-used-date = Ultimo utilizzo: { $lastUsedDate }
 passkey-sub-row-delete-title = Elimina passkey
 passkey-delete-modal-heading = Eliminare la passkey?
-passkey-delete-modal-content = Questa passkey verrà rimossa dal tuo account. Dovrai accedere in un altro modo.
 passkey-delete-modal-cancel-button = Annulla
 passkey-delete-modal-confirm-button = Elimina passkey
 passkey-delete-success = Passkey eliminata

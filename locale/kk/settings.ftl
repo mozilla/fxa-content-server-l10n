@@ -1239,7 +1239,6 @@ passkey-sub-row-created-date = Жасалған: { $createdDate }
 passkey-sub-row-last-used-date = Соңғы рет қолданылған: { $lastUsedDate }
 passkey-sub-row-delete-title = Рұқсат кілтін өшіру
 passkey-delete-modal-heading = Рұқсат кілтіңізді өшіру керек пе?
-passkey-delete-modal-content = Бұл рұқсат кілті сіздің тіркелгіңізден өшіріледі. Басқа әдіспен кіруіңіз керек болады.
 passkey-delete-modal-cancel-button = Бас тарту
 passkey-delete-modal-confirm-button = Рұқсат кілтін өшіру
 passkey-delete-success = Рұқсат кілті өшірілді

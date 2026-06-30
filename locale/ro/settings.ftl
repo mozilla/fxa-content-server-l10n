@@ -1238,7 +1238,6 @@ passkey-sub-row-created-date = Creat la: { $createdDate }
 passkey-sub-row-last-used-date = Ultima utilizare: { $lastUsedDate }
 passkey-sub-row-delete-title = Șterge cheia de acces
 passkey-delete-modal-heading = Ștergi cheia de acces?
-passkey-delete-modal-content = Cheia de acces va fi eliminată din cont. Va trebui să te autentifici altfel.
 passkey-delete-modal-cancel-button = Anulează
 passkey-delete-modal-confirm-button = Șterge cheia de acces
 passkey-delete-success = Cheia de acces a fost ștearsă
