@@ -314,7 +314,7 @@ postChangeTwoStepAuthentication-subject = 已更新兩階段驗證設定
 postChangeTwoStepAuthentication-title = 已更新兩階段驗證設定
 postChangeTwoStepAuthentication-use-new-account = 現在起，您需要使用驗證程式當中新的 { -product-mozilla-account } 項目，舊的項目無法再使用，可以移除。
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postChangeTwoStepAuthentication-from-device = 您從下列位置要求：
+postChangeTwoStepAuthentication-from-device = 您從下列位置提出要求：
 postChangeTwoStepAuthentication-action = 管理帳號
 postChangeTwoStepAuthentication-how-protects-link = 此功能如何保護您的帳號
 postChangeTwoStepAuthentication-how-protects-plaintext = 此功能如何保護您的帳號：
@@ -340,14 +340,14 @@ postRemovePasskey-subject = 已刪除 passkey
 postRemovePasskey-preview = 已從您的帳號移除 Passkey
 postRemovePasskey-title = 您已刪除 Passkey
 postRemovePasskey-description = 您將需要使用其他方式登入。
-postRemovePasskey-requested-from = 您從下列位置要求：
+postRemovePasskey-requested-from = 您從下列位置提出要求：
 postRemovePasskey-action = 管理帳號
 postRemoveRecoveryPhone-subject = 已移除救援電話號碼
 postRemoveRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳號
 postRemoveRecoveryPhone-title = 已移除救援電話號碼
 postRemoveRecoveryPhone-description-v2 = 已從兩階段驗證設定中移除您的救援手機號碼。
 postRemoveRecoveryPhone-description-extra = 萬一無法使用驗證器取得驗證碼，還是可以使用備用驗證碼登入。
-postRemoveRecoveryPhone-requested-device = 您從下列位置要求：
+postRemoveRecoveryPhone-requested-device = 您從下列位置提出要求：
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址
 # Variables:
