@@ -171,6 +171,7 @@ firefox-promo-banner-mobile-heading = Wobstarajće sej { -brand-firefox }, hdźe
 firefox-promo-banner-mobile-description = Synchronizujće swoje rajtarki, zapołožki a hesła přez graty. Nimo toho wšitko wěsće zaklučowane wostawa.
 firefox-promo-banner-mobile-cta = Grat zwjazać
 firefox-promo-banner-switch-heading = Spěšnje přeńć. Lochko so zažiwić.
+firefox-promo-banner-switch-description = Hdyž k { -brand-firefox } přeńdźeće, móžeće swoje zapołožki, hesła, historiju a wjace sobu přinjesć, zo byšće móhł njepřestawajcy dale přehladować.
 firefox-promo-banner-switch-cta = K { -brand-firefox } přeńć
 
 ## FormPasswordInlineCriteria
@@ -1259,6 +1260,7 @@ passkey-sub-row-created-date = Wutworjeny: { $createdDate }
 passkey-sub-row-last-used-date = Posledni raz wužity: { $lastUsedDate }
 passkey-sub-row-delete-title = Hesłowy kluč zhašeć
 passkey-delete-modal-heading = Waš hesłowy kluč zhašeć?
+passkey-delete-modal-content-v2 = Tutón hesłowy kluč so z wašeho konta wotstroni. Dyrbiće so z pomocu druheje metody (hesło, druhi hesłowy kluč abo zwjazane konto) přizjewić.
 passkey-delete-modal-cancel-button = Přetorhnyć
 passkey-delete-modal-confirm-button = Hesłowy kluč zhašeć
 passkey-delete-success = Hesłowy kluč je so zhašał
