@@ -157,6 +157,17 @@ device-info-browser-os = { $browserName } su { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Indirizzo IP: { $ipAddress }
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-mobile-heading = Ottieni { -brand-firefox } ovunque ti trovi
+firefox-promo-banner-mobile-description = Sincronizza schede, segnalibri e password su tutti i tuoi dispositivi. Inoltre, tutto rimane crittato in modo sicuro.
+firefox-promo-banner-mobile-cta = Connetti un dispositivo
+firefox-promo-banner-switch-heading = Veloce da cambiare. Facile da sistemare.
+firefox-promo-banner-switch-description = Passando a { -brand-firefox }, puoi portare i tuoi segnalibri, le password, la cronologia e altro ancora per iniziare a navigare senza perdere un colpo.
+firefox-promo-banner-switch-cta = Passa a { -brand-firefox }
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -1233,6 +1244,7 @@ passkey-sub-row-created-date = Creata: { $createdDate }
 passkey-sub-row-last-used-date = Ultimo utilizzo: { $lastUsedDate }
 passkey-sub-row-delete-title = Elimina passkey
 passkey-delete-modal-heading = Eliminare la passkey?
+passkey-delete-modal-content-v2 = Questa passkey verrà rimossa dal tuo account. Dovrai accedere utilizzando un metodo diverso (password, un’altra passkey o un account collegato).
 passkey-delete-modal-cancel-button = Annulla
 passkey-delete-modal-confirm-button = Elimina passkey
 passkey-delete-success = Passkey eliminata

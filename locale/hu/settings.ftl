@@ -157,6 +157,17 @@ device-info-browser-os = { $browserName } ezen: { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-cím: { $ipAddress }
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-mobile-heading = { -brand-firefox }, bárhol is legyen
+firefox-promo-banner-mobile-description = Szinkronizálja lapjait, könyvjelzőit és jelszavait az eszközei között. Ráadásul minden biztonságosan titkosítva marad.
+firefox-promo-banner-mobile-cta = Csatlakoztasson egy eszközt
+firefox-promo-banner-switch-heading = Gyors váltás. Könnyű beilleszkedni.
+firefox-promo-banner-switch-description = Ha erre vált: { -brand-firefox }, akkor elhozhatja a könyvjelzőit, jelszavait, előzményeit és egyebeket, így zökkenőmentesen elkezdheti a böngészést.
+firefox-promo-banner-switch-cta = Váltás erre: { -brand-firefox }
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -1241,6 +1252,7 @@ passkey-sub-row-created-date = Létrehozva: { $createdDate }
 passkey-sub-row-last-used-date = Utoljára használva: { $lastUsedDate }
 passkey-sub-row-delete-title = Jelkulcs törlése
 passkey-delete-modal-heading = Törli a jelkulcsot?
+passkey-delete-modal-content-v2 = Ez a jelkulcs eltávolításra kerül a fiókjából. Másik módszerrel kell bejelentkeznie (jelszó, másik jelkulcs vagy összekapcsolt fiók használatával).
 passkey-delete-modal-cancel-button = Mégse
 passkey-delete-modal-confirm-button = Jelkulcs törlése
 passkey-delete-success = Jelkulcs törölve
