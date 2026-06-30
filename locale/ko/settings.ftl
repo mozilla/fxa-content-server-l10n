@@ -91,6 +91,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = 인터넷을 되찾기 위한 조치 알림
 
+## Dark mode toggle
+
+dark-mode-toggle-light = 밝은
+dark-mode-toggle-dark = 어두운
+dark-mode-toggle-system = 시스템
+dark-mode-toggle-label = 테마 전환
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -389,6 +396,17 @@ password-strength-inline-not-email = 이메일 주소가 아님
 password-strength-inline-not-common = 흔히 사용되는 비밀번호가 아님
 password-strength-inline-confirmed-must-match = 새 비밀번호 확인이 새 비밀번호와 일치
 password-strength-inline-passwords-match = 비밀번호가 일치함
+
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = 나의 폰, 나의 규칙.
+# Appears next to a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description = 스캔하여 앱 다운로드
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = { -brand-firefox } 모바일 앱을 다운로드하는 QR 코드입니다. 스캔하려면 휴대전화의 카메라를 화면 오른쪽 하단에 두세요.
 
 ## Notification Promo Banner component
 
@@ -918,6 +936,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = addons.mozilla.org에 게시한 모든 확장기능과 테마는 삭제됩니다.
 delete-account-continue-button = 계속하기
+delete-account-delete-button-passwordless = 계정 삭제
 delete-account-password-input =
     .label = 비밀번호 입력
 delete-account-cancel-button = 취소
@@ -933,6 +952,16 @@ submit-display-name = 저장
 cancel-display-name = 취소
 display-name-update-error-2 = 표시 이름을 업데이트하는 데 문제가 발생했습니다.
 display-name-success-alert-2 = 표시 이름 업데이트됨
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = 패스키 생성 중…
+page-passkey-add-follow-prompts = 기기에 표시되는 메시지를 따르세요.
+page-passkey-add-cancel = 취소
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = 패스키 생성됨
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -1057,6 +1086,11 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = 개인 정보가 유출된 곳을 찾아 제어하세요.
 # Links out to the Monitor site
 product-promo-monitor-cta = 무료 검사 받기
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = 추가된 익명 탐색 및 보호 계층을 확인하세요.
+# Links out to the VPN site
+product-promo-vpn-cta = { -product-mozilla-vpn-short } 받기
 
 ## Profile section
 
@@ -1169,6 +1203,14 @@ passkey-row-enabled = 사용함
 passkey-row-not-set = 설정되지 않음
 passkey-row-action-create = 생성
 passkey-row-description = 휴대전화나 기타 지원되는 장치를 사용하여 계정에 로그인하여 더 쉽고 안전하게 로그인하세요.
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = 더 알아보기
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner = 패스키 { $count }개를 모두 썼습니다. 새 패스키를 만드려면 패스키를 삭제하세요.
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = 최대 패스키 수에 도달했습니다.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1526,6 +1568,14 @@ pair-auth-complete-sync-benefits-text = 이제 모든 장치에서 열려 있는
 pair-auth-complete-see-tabs-button = 동기화된 기기의 탭 보기
 pair-auth-complete-manage-devices-link = 기기 관리
 
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = 탭을 보낼 준비가 되었습니다.
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceOS } { $deviceFamily } 기기가 연결되었습니다.
+
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
@@ -1552,9 +1602,17 @@ auth-totp-code-required-error = 인증 코드 필요함
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = 이제 <span>다른 기기</span>에서 승인이 필요합니다.
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = 기기 페어링에 실패함
+pair-failure-message-v2 = 설정을 완료할 수 없습니다. 이메일로 로그인하세요.
+pair-failure-try-again-link = 다시 시도
+
 ## Pair index page
 
 pair-sync-header = 스마트폰이나 태블릿에서 { -brand-firefox }를 동기화하세요.
+pair-cad-header-v2 = 다른 기기 연결
 pair-already-have-firefox-paragraph = 이미 스마트폰이나 태블릿에 { -brand-firefox }가 설치되어 있나요?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = 기기 동기화
@@ -1569,6 +1627,11 @@ pair-take-your-data-message = { -brand-firefox }를 사용하는 어디에서나
 pair-get-started-button = 시작하기
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR 코드
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = { -brand-firefox } 사용 경험을 동기화하세요.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
