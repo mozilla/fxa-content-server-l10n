@@ -165,7 +165,7 @@ firefox-promo-banner-mobile-heading = Usa { -brand-firefox } ovunque ti trovi
 firefox-promo-banner-mobile-description = Sincronizza schede, segnalibri e password su tutti i tuoi dispositivi. Tutti i tuoi dati sono protetti da crittografia.
 firefox-promo-banner-mobile-cta = Connetti un dispositivo
 firefox-promo-banner-switch-heading = Basta un attimo per cambiare. Ambientarsi è semplice.
-firefox-promo-banner-switch-description = Passando a { -brand-firefox }, puoi portare i tuoi segnalibri, le password, la cronologia e altro ancora per iniziare a navigare senza perdere un colpo.
+firefox-promo-banner-switch-description = Quando passi a { -brand-firefox }, puoi portare con te segnalibri, password, cronologia e molto altro per iniziare a navigare senza perdere un colpo.
 firefox-promo-banner-switch-cta = Passa a { -brand-firefox }
 
 ## FormPasswordInlineCriteria
