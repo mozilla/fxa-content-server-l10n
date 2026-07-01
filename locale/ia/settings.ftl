@@ -161,6 +161,11 @@ device-info-ip-address = Adresse IP: { $ipAddress }
 ## Shown at the top of settings to promote installing Firefox on mobile (when
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
+firefox-promo-banner-mobile-heading = Obtene { -brand-firefox } ubicunque tu es
+firefox-promo-banner-mobile-description = Synchronisa tu schedas, marcapaginas, e contrasignos a transverso tu apparatos. In addition, omne cosa remane cryptate con securitate.
+firefox-promo-banner-mobile-cta = Connecter un apparato
+firefox-promo-banner-switch-heading = Veloce a cambiar. Facile a configurar.
+firefox-promo-banner-switch-description = Quando tu passa a { -brand-firefox }, tu pote apportar tu marcapaginas, contrasignos, chronologia de exploration e plus assi que tu pote comenciar a navigar sin perder un pulsation.
 firefox-promo-banner-switch-cta = Passar a { -brand-firefox }
 
 ## FormPasswordInlineCriteria
@@ -1245,6 +1250,7 @@ passkey-sub-row-created-date = Create le: { $createdDate }
 passkey-sub-row-last-used-date = Usate le ultime vice le: { $lastUsedDate }
 passkey-sub-row-delete-title = Deler clave-contrasigno
 passkey-delete-modal-heading = Deler tu clave-contrasigno?
+passkey-delete-modal-content-v2 = Iste clave-contrasigno sera removite de tu conto. Tu debera acceder per un methodo differente (contrasigno, un altere clave-contrasigno, o conto ligate).
 passkey-delete-modal-cancel-button = Cancellar
 passkey-delete-modal-confirm-button = Deler clave-contrasigno
 passkey-delete-success = Clave-contrasigno delite
