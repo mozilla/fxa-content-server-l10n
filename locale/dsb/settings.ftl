@@ -171,6 +171,8 @@ firefox-promo-banner-mobile-heading = Wobstarajśo se { -brand-firefox }, źožk
 firefox-promo-banner-mobile-description = Synchronizěrujśo swóje rejtariki, cytańske znamjenja a gronidła pśez rědy. Mimo togo wšykno wěsće skoděrowane wóstawa.
 firefox-promo-banner-mobile-cta = Rěd zwězaś
 firefox-promo-banner-switch-heading = Malsnje pśejś. Lažko se zažywiś.
+firefox-promo-banner-switch-description = Gaž k { -brand-firefox } pśejźośo, móžośo swóje cytańske znamjenja, gronidła, historiju a wěcej sobu pśinjasć, aby mógł njepśestawajucy dalej pśeglědowaś.
+firefox-promo-banner-switch-cta = K { -brand-firefox } pśejś
 
 ## FormPasswordInlineCriteria
 
@@ -1258,6 +1260,7 @@ passkey-sub-row-created-date = Napórany: { $createdDate }
 passkey-sub-row-last-used-date = Slědny raz wužyty: { $lastUsedDate }
 passkey-sub-row-delete-title = Gronidłowy kluc lašowaś
 passkey-delete-modal-heading = Gronidłowy kluc lašowaś?
+passkey-delete-modal-content-v2 = Toś ten gronidłowy kluc se z wašogo konta wótwónoźijo. Musyśo se z pomocu drugeje metody (gronidło, drugi gronidłowy kluc abo zwězane konto) pśizjawiś.
 passkey-delete-modal-cancel-button = Pśetergnuś
 passkey-delete-modal-confirm-button = Gronidłowy kluc lašowaś
 passkey-delete-success = Gronidłowy kluc jo se wulašował
