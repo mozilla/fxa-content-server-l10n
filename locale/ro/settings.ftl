@@ -157,6 +157,17 @@ device-info-browser-os = { $browserName } pe { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adresă IP: { $ipAddress }
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-mobile-heading = Obține { -brand-firefox } oriunde te afli
+firefox-promo-banner-mobile-description = Sincronizează-ți filele, marcajele și parolele pe toate dispozitivele. În plus, totul rămâne criptat în siguranță.
+firefox-promo-banner-mobile-cta = Conectează un dispozitiv
+firefox-promo-banner-switch-heading = Schimbare rapidă. Acomodare ușoară.
+firefox-promo-banner-switch-description = Când treci la { -brand-firefox }, poți să-ți iei marcajele, parolele, istoricul și multe altele, astfel încât să poți începe navigarea fără probleme.
+firefox-promo-banner-switch-cta = Treci pe { -brand-firefox }
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -1240,6 +1251,7 @@ passkey-sub-row-created-date = Creat la: { $createdDate }
 passkey-sub-row-last-used-date = Ultima utilizare: { $lastUsedDate }
 passkey-sub-row-delete-title = Șterge cheia de acces
 passkey-delete-modal-heading = Ștergi cheia de acces?
+passkey-delete-modal-content-v2 = Cheia de acces va fi eliminată din cont. Va trebui să te conectezi folosind o altă metodă (parolă, o altă cheie de acces sau un cont conectat).
 passkey-delete-modal-cancel-button = Anulează
 passkey-delete-modal-confirm-button = Șterge cheia de acces
 passkey-delete-success = Cheia de acces a fost ștearsă
