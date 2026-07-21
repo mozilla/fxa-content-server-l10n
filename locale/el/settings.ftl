@@ -1263,6 +1263,9 @@ passkey-rename-modal-heading = Μετονομασία κλειδιού πρόσ�
 passkey-rename-input-label = Όνομα κλειδιού πρόσβασης
 passkey-rename-save-button = Αποθήκευση
 passkey-rename-cancel-button = Ακύρωση
+passkey-rename-error-too-long = Το όνομα πρέπει να περιέχει λιγότερους από 256 χαρακτήρες.
+passkey-rename-error-duplicate = Υπάρχει ήδη κλειδί πρόσβασης με αυτό το όνομα.
+passkey-rename-success = Το κλειδί πρόσβασης μετονομάστηκε
 
 ## Switch component
 
