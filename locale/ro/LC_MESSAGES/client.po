@@ -101,7 +101,7 @@ msgstr "Acum poți aduce modificări contului tău Firefox."
 
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Cont necunoscut. <a href=\"/signup\">Înscrie-te</a>"
+msgstr "Cont necunoscut. <a href=\"/signup\">Fă-ți un cont</a>"
 
 #: .es5/views/sign_up_password.js:66
 msgid "Account no longer exists. Recreate it?"
