@@ -371,7 +371,7 @@ input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Înapoi
 # Generic error shown when the legal document fails to load
-app-general-err-message = Ceva nu a funcționat. Te rugăm să încerci mai târziu.
+app-general-err-message = Ceva nu a funcționat. Te rugăm să încerci din nou mai târziu.
 
 ## LinkDamaged component
 
@@ -1616,7 +1616,7 @@ index-email-bounced = Mesajul de confirmare pe e-mail tocmai a fost returnat. Ai
 
 ## InlineRecoveryKeySetup page component
 
-inline-recovery-key-setup-create-error = Ups! Nu am putut crea cheia de recuperare a contului. Te rugăm să încerci mai târziu.
+inline-recovery-key-setup-create-error = Ups! Nu am putut crea cheia de recuperare a contului. Te rugăm să încerci din nou mai târziu.
 inline-recovery-key-setup-recovery-created = Cheia de recuperare a contului a fost creată
 inline-recovery-key-setup-download-header = Securizează-ți contul
 inline-recovery-key-setup-download-subheader = Descarcă și salveaz-o acum
