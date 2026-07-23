@@ -271,6 +271,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Ayvu
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = Mbosako’i
 error-icon-aria-label =
     .aria-label = Javy
 # Used as information icon for informative messaging
