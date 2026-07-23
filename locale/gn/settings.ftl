@@ -1262,6 +1262,7 @@ passkey-rename-input-label = Ñe’ẽ ñemi jeikeha réra
 passkey-rename-save-button = Ñongatu
 passkey-rename-cancel-button = Eheja
 passkey-rename-error-empty = Ehai peteĩ téra ko ñe’ẽ ñemíme g̃uarã
+passkey-rename-error-too-long = Pe téra oguerekova’erã michĩvérõ 256 tairenda.
 
 ## Switch component
 
