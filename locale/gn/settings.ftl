@@ -1261,6 +1261,7 @@ passkey-rename-modal-heading = Emboherajey ñe’ẽ ñemi jeikeha
 passkey-rename-input-label = Ñe’ẽ ñemi jeikeha réra
 passkey-rename-save-button = Ñongatu
 passkey-rename-cancel-button = Eheja
+passkey-rename-error-empty = Ehai peteĩ téra ko ñe’ẽ ñemíme g̃uarã
 
 ## Switch component
 
