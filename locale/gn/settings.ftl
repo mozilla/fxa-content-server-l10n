@@ -1256,6 +1256,8 @@ passkey-delete-modal-cancel-button = Eheja
 passkey-delete-modal-confirm-button = Emboguete ñe’ẽñemi
 passkey-delete-success = Ñe’ẽñemi mboguetepyre
 passkey-delete-error = Iñapysẽ apañuái emboguévo ne ñe’ẽ ñemi jeikeha. Eha’ã jey ag̃amieve.
+passkey-sub-row-rename-title = Emboherajey ñe’ẽ ñemi jeikeha
+passkey-rename-modal-heading = Emboherajey ñe’ẽ ñemi jeikeha
 
 ## Switch component
 
