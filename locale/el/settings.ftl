@@ -1072,7 +1072,7 @@ recent-activity-account-mfa-otp-verified = Εγκρίθηκε αλλαγή στ�
 # The user entered an incorrect or expired code when trying to authorize a sensitive account change.
 recent-activity-account-mfa-otp-failed = Η έγκριση της αλλαγής στον λογαριασμό απέτυχε
 recent-activity-account-passkey-registration-success = Προστέθηκε κλειδί πρόσβασης
-recent-activity-account-passkey-registration-failure = Αποτυχία καταχώρησης κλειδιού πρόσβασης
+recent-activity-account-passkey-registration-failure = Αποτυχία καταχώρισης κλειδιού πρόσβασης
 recent-activity-account-passkey-removed = Το κλειδί πρόσβασης αφαιρέθηκε
 recent-activity-account-passkey-authentication-success = Η σύνδεση με κλειδί πρόσβασης ολοκληρώθηκε
 recent-activity-account-passkey-authentication-failure = Η σύνδεση με κλειδί πρόσβασης απέτυχε
@@ -1453,12 +1453,12 @@ auth-error-214 = Ο αριθμός τηλεφώνου ανάκτησης υπά�
 auth-error-215 = Ο αριθμός τηλεφώνου ανάκτησης δεν υπάρχει
 auth-error-216 = Έχετε φτάσει το όριο των μηνυμάτων κειμένου
 auth-error-218 = Δεν είναι δυνατή η αφαίρεση του τηλεφώνου ανάκτησης, δεν υπάρχουν εφεδρικοί κωδικοί ταυτοποίησης.
-auth-error-219 = Αυτός ο αριθμός τηλεφώνου έχει καταχωρηθεί σε πάρα πολλούς λογαριασμούς. Δοκιμάστε έναν άλλο αριθμό.
+auth-error-219 = Αυτός ο αριθμός τηλεφώνου έχει καταχωριστεί σε πάρα πολλούς λογαριασμούς. Δοκιμάστε έναν άλλο αριθμό.
 auth-error-224 = Δεν βρέθηκε το κλειδί πρόσβασης
-auth-error-225 = Έχει ήδη καταχωρηθεί κλειδί πρόσβασης
+auth-error-225 = Το κλειδί πρόσβασης έχει ήδη καταχωριστεί
 auth-error-226 = Έχετε φτάσει το όριο κλειδιών πρόσβασης
 auth-error-227 = Αποτυχία ταυτοποίησης με κλειδί πρόσβασης
-auth-error-228 = Αποτυχία καταχώρησης κλειδιού πρόσβασης
+auth-error-228 = Αποτυχία καταχώρισης κλειδιού πρόσβασης
 auth-error-238 = Αποτυχία ελέγχου κλειδιού πρόσβασης
 auth-error-239 = Δυστυχώς, δεν ήταν δυνατή η διαγραφή του λογαριασμού σας. Δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη αν το πρόβλημα παραμένει.
 auth-error-999 = Μη αναμενόμενο σφάλμα
@@ -1497,7 +1497,7 @@ passkey-registration-error-not-allowed = Η ρύθμιση του κλειδιο
 # Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
 # Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
 # the far more likely cause when the user has existing passkeys, so we state it plainly.
-passkey-registration-error-not-allowed-existing = Η ρύθμιση του κλειδιού πρόσβασης δεν είναι διαθέσιμη με αυτήν τη συσκευή. Είτε η συσκευή έχει ήδη καταχωρηθεί είτε η διαδικασία ρύθμισης ακυρώθηκε.
+passkey-registration-error-not-allowed-existing = Η ρύθμιση του κλειδιού πρόσβασης δεν είναι διαθέσιμη με αυτήν τη συσκευή. Είτε η συσκευή έχει ήδη καταχωριστεί είτε η διαδικασία ρύθμισης ακυρώθηκε.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Η ρύθμιση του κλειδιού πρόσβασης ακυρώθηκε. Δοκιμάστε ξανά.
 passkey-registration-canceled-v2 = Έγινε υπέρβαση του χρονικού ορίου ή ακύρωση της ρύθμισης κλειδιού πρόσβασης.
@@ -1516,7 +1516,7 @@ passkey-registration-error-could-not-complete-link = Μάθετε περισσό
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
 passkey-registration-error-security = Δεν είναι δυνατή η ρύθμιση κλειδιών πρόσβασης σε αυτήν τη σελίδα. Χρησιμοποιήστε τον ασφαλή ιστότοπο και δοκιμάστε ξανά.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
-passkey-registration-error-invalid-state = Αυτό το κλειδί πρόσβασης έχει ήδη καταχωρηθεί. Χρησιμοποιήστε το για σύνδεση ή προσθέστε ένα άλλο κλειδί πρόσβασης.
+passkey-registration-error-invalid-state = Αυτό το κλειδί πρόσβασης έχει ήδη καταχωριστεί. Χρησιμοποιήστε το για σύνδεση ή προσθέστε ένα άλλο κλειδί πρόσβασης.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-registration-error-not-readable = Δεν ήταν δυνατή η πρόσβαση στην εφαρμογή ελέγχου ταυτότητας. Δοκιμάστε ξανά ή επιλέξτε άλλη μέθοδο.
 # Attestation constraints or device-specific restrictions can't be met
