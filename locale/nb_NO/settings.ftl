@@ -1517,6 +1517,10 @@ passkey-registration-error-unexpected = Oppsett av passnøkkel mislyktes. Prøv 
 
 # Authentication errors
 
+# Shown as a warning (not error) banner when a passkey sign-in is cancelled, no passkey is
+# available on this device, or the authenticator can't satisfy the request. Copy stays neutral and
+# points the user to another way to sign in.
+passkey-authentication-trouble-heading = Kunne ikke logge inn med en passnøkkel
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Innlogging med passnøkkel mislyktes eller er ikke tilgjengelig. Prøv igjen eller velg en annen metode.
 # User already registered a device
