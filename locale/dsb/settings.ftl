@@ -1544,6 +1544,13 @@ passkey-registration-error-unexpected = Konfiguracija gronidłowego kluca njejo 
 
 # Authentication errors
 
+# Shown as a warning (not error) banner when a passkey sign-in is cancelled, no passkey is
+# available on this device, or the authenticator can't satisfy the request. Copy stays neutral and
+# points the user to another way to sign in.
+passkey-authentication-trouble-heading = Pśizjawjenje z gronidłowym klucom njejo móžne
+# Shown when a passkey sign-in doesn't complete. "Try again" means retry signing in with the
+# passkey; "another sign-in option" means one of the other sign-in methods offered alongside it.
+passkey-authentication-trouble-description = Wopytajśo hyšći raz abo wužywajśo drugu pśizjawjeńsku móžnosć.
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Pśizjawjenje z gronidłowym klucom njejo se raźiło abo njejo k dispoziciji. Wopytajśo hyšći raz abo wubjeŕśo drugu metodu.
 # User already registered a device
