@@ -1264,8 +1264,10 @@ passkey-rename-save-button = Ñongatu
 passkey-rename-cancel-button = Eheja
 passkey-rename-error-empty = Ehai peteĩ téra ko ñe’ẽ ñemíme g̃uarã
 passkey-rename-error-too-long = Pe téra oguerekova’erã michĩvérõ 256 tairenda.
+passkey-rename-error-invalid = Oñemoneĩ tai, papapy, kyta aty ha ta’ãngachu’i añónte.
 passkey-rename-error-duplicate = Oĩma ñe’ẽ ñemi ko térape ojehaipyréva
 passkey-rename-success = Ñe’ẽ ñemi mboherapyre
+passkey-rename-error = Iñapysẽ apañuái emboherajeývo upe ñe’ẽ ñemi jeikeha. Eha’ã jey ag̃ave.
 
 ## Switch component
 
@@ -1526,6 +1528,13 @@ passkey-registration-error-unexpected = Ñe’ẽ ñemi jeikeha ñemboheko ndoik
 
 # Authentication errors
 
+# Shown as a warning (not error) banner when a passkey sign-in is cancelled, no passkey is
+# available on this device, or the authenticator can't satisfy the request. Copy stays neutral and
+# points the user to another way to sign in.
+passkey-authentication-trouble-heading = Ndaikatúi eike ñe’ẽ ñemi jeikaha ndive
+# Shown when a passkey sign-in doesn't complete. "Try again" means retry signing in with the
+# passkey; "another sign-in option" means one of the other sign-in methods offered alongside it.
+passkey-authentication-trouble-description = Eha’ẽ jey térã eiporu ambue mba’e eike hag̃ua.
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = Pe ñe’ẽ ñemi jeikeha ñemboheko ndoikói. Eha’ãjey ag̃ave térã eiporavo ambue mba’e.
 # User already registered a device
