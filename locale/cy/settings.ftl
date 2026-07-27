@@ -1555,7 +1555,7 @@ passkey-registration-error-unexpected = Wedi methu gosod y cyfrinallwedd. Ceisiw
 # Shown as a warning (not error) banner when a passkey sign-in is cancelled, no passkey is
 # available on this device, or the authenticator can't satisfy the request. Copy stays neutral and
 # points the user to another way to sign in.
-passkey-authentication-trouble-heading = Methu â mewngofnodi gyda chyfrinair
+passkey-authentication-trouble-heading = Methu mewngofnodi gyda chyfrinallwedd
 # Shown when a passkey sign-in doesn't complete. "Try again" means retry signing in with the
 # passkey; "another sign-in option" means one of the other sign-in methods offered alongside it.
 passkey-authentication-trouble-description = Ceisiwch eto neu defnyddiwch opsiwn mewngofnodi arall.
