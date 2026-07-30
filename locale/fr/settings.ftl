@@ -393,6 +393,8 @@ link-expired-new-link-button = Recevoir un nouveau lien
 
 # immediately before remember-password-signin-link
 remember-password-text = Vous vous souvenez de votre mot de passe ?
+# shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
+remember-password-passkey-text = Vous avez une clé d’accès ou vous souvenez du mot de passe ?
 # link navigates to the sign in page
 remember-password-signin-link = Connectez-vous
 
@@ -510,7 +512,15 @@ flow-recovery-key-hint-unsafe-char-error = L’indice ne peut pas contenir de ca
 password-reset-warning-icon = Avertissement
 password-reset-chevron-expanded = Réduire l’avertissement
 password-reset-chevron-collapsed = Développer l’avertissement
+password-reset-warning-review-sign-in-options = Vérifiez les options de connexion pour conserver les données du navigateur
 password-reset-warning-have-key = Vous disposez d’une clé de récupération de compte ?
+# "it" refers to the user's account recovery key.
+password-reset-warning-use-key-link-v2 = Utilisez-le pour réinitialiser votre mot de passe et conserver les données de votre navigateur
+password-reset-warning-signed-in-device = Toujours connecté sur un autre appareil ?
+password-reset-warning-signed-in-device-description = Les données de votre navigateur sont peut-être disponibles. Réinitialisez votre mot de passe, puis connectez-vous sur cet appareil pour restaurer et synchroniser vos données.
+password-reset-warning-restore-data-link = Découvrez comment restaurer les données du navigateur depuis un appareil connecté
+password-reset-warning-new-device = Vous utilisez un nouvel appareil mais ne pouvez pas accéder à vos anciens appareils ?
+password-reset-warning-new-device-description = Après la réinitialisation de votre mot de passe, les données de navigation chiffrées sur les serveurs de { -brand-firefox } ne seront plus disponibles sur cet appareil.
 
 ## Alert Bar
 
@@ -1942,6 +1952,7 @@ confirm-totp-reset-password-use-different-account = Utiliser un autre compte
 ## ResetPassword start page
 
 password-reset-flow-heading = Réinitialiser le mot de passe
+password-reset-body-3 = La réinitialisation de votre mot de passe peut affecter les données synchronisées du navigateur.
 password-reset-email-input =
     .label = Saisissez votre adresse e-mail
 password-reset-submit-button-2 = Continuer
@@ -2063,6 +2074,7 @@ signin-passkey-fallback-heading = Saisissez votre mot de passe pour synchroniser
 signin-passkey-fallback-body = Pour protéger vos données, vous devez saisir votre mot de passe lorsque vous utilisez cette clé d’accès.
 signin-passkey-fallback-password-label = Mot de passe
 signin-passkey-fallback-continue = Continuer
+signin-passkey-fallback-forgot-password-link = Mot de passe oublié ?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this

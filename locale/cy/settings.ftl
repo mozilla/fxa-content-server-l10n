@@ -405,6 +405,8 @@ link-expired-new-link-button = Derbyn dolen newydd
 
 # immediately before remember-password-signin-link
 remember-password-text = Yn cofio eich cyfrinair?
+# shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
+remember-password-passkey-text = Oes gennych chi gyfrinair neu cofiwch eich cyfrinair?
 # link navigates to the sign in page
 remember-password-signin-link = Mewngofnodi
 
@@ -522,7 +524,15 @@ flow-recovery-key-hint-unsafe-char-error = Ni all yr awgrym gynnwys nodau unicod
 password-reset-warning-icon = Rhybudd
 password-reset-chevron-expanded = Cau'r rhybudd
 password-reset-chevron-collapsed = Ehangu'r rhybudd
+password-reset-warning-review-sign-in-options = Adolygu opsiynau mewngofnodi i gadw data porwr
 password-reset-warning-have-key = Oes gennych chi allwedd adfer cyfrif?
+# "it" refers to the user's account recovery key.
+password-reset-warning-use-key-link-v2 = Defnyddiwch ef i ailosod eich cyfrinair a chadw data eich porwr
+password-reset-warning-signed-in-device = Wedi mewngofnodi ar ddyfais arall o hyd?
+password-reset-warning-signed-in-device-description = Mae'n bosibl bod data eich porwr ar gael. Ailosodwch eich cyfrinair, yna mewngofnodwch ar y ddyfais honno i adfer a chysoni eich data.
+password-reset-warning-restore-data-link = Dysgwch sut i adfer data porwr o ddyfais sydd wedi'i mewngofnodi
+password-reset-warning-new-device = Defnyddio dyfais newydd ond methu cael mynediad i'ch hen rai?
+password-reset-warning-new-device-description = Ar ôl i chi ailosod eich cyfrinair, ni fydd data porwr wedi'i amgryptio ar weinyddion { -brand-firefox } ar gael ar y ddyfais hon.
 
 ## Alert Bar
 
@@ -1972,6 +1982,7 @@ confirm-totp-reset-password-use-different-account = Defnyddiwch gyfrif gwahanol
 ## ResetPassword start page
 
 password-reset-flow-heading = Ailosod eich cyfrinair
+password-reset-body-3 = Gall ailosod eich cyfrinair effeithio ar ddata porwr sydd wedi'i gysoni.
 password-reset-email-input =
     .label = Rhowch eich e-bost
 password-reset-submit-button-2 = Parhau
@@ -2097,6 +2108,7 @@ signin-passkey-fallback-heading = Rhowch eich cyfrinair i gydweddu
 signin-passkey-fallback-body = Er mwyn cadw'ch data'n ddiogel, mae angen i chi roi'ch cyfrinair pan fyddwch chi'n defnyddio'r cyfrinallwedd hon.
 signin-passkey-fallback-password-label = Cyfrinallwedd
 signin-passkey-fallback-continue = Parhau
+signin-passkey-fallback-forgot-password-link = Wedi anghofio'r cyfrinair?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this

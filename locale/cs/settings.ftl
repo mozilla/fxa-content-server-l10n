@@ -396,6 +396,8 @@ link-expired-new-link-button = Získat nový odkaz
 
 # immediately before remember-password-signin-link
 remember-password-text = Pamatujete si své heslo?
+# shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
+remember-password-passkey-text = Máte přístupový kód nebo si pamatujete heslo?
 # link navigates to the sign in page
 remember-password-signin-link = Přihlásit se
 
@@ -513,7 +515,15 @@ flow-recovery-key-hint-unsafe-char-error = Nápověda nemůže obsahovat nebezpe
 password-reset-warning-icon = Varování
 password-reset-chevron-expanded = Skrýt varování
 password-reset-chevron-collapsed = Rozbalit varování
+password-reset-warning-review-sign-in-options = Podívejte se na možnosti přihlášení pro uchování dat prohlížeče
 password-reset-warning-have-key = Máte k účtu obnovovací klíč?
+# "it" refers to the user's account recovery key.
+password-reset-warning-use-key-link-v2 = Použijte jej k obnovení hesla a uchování dat prohlížeče
+password-reset-warning-signed-in-device = Jste stále přihlášeni na jiném zařízení?
+password-reset-warning-signed-in-device-description = Data o prohlížeči mohou být dostupná. Obnovte heslo a poté se na tomto zařízení přihlaste pro obnovu a synchronizaci svých dat.
+password-reset-warning-restore-data-link = Přečtěte si, jak obnovit data prohlížeče na zařízení, ve kterém jste přihlášeni
+password-reset-warning-new-device = Používáte nové zařízení, ale nemáte přístup ke svým starým?
+password-reset-warning-new-device-description = Po obnovení vašeho hesla nebudou na tomto zařízení dostupná šifrovaná data uložená na { -brand-firefox } serverech.
 
 ## Alert Bar
 
@@ -1953,6 +1963,7 @@ confirm-totp-reset-password-use-different-account = Použít jiný účet
 ## ResetPassword start page
 
 password-reset-flow-heading = Obnovení hesla
+password-reset-body-3 = Obnovení hesla může ovlivnit synchronizovaná data prohlížeče.
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
 password-reset-submit-button-2 = Pokračovat
@@ -2075,6 +2086,7 @@ signin-passkey-fallback-heading = Pro synchronizaci zadejte své heslo
 signin-passkey-fallback-body = Aby byla vaše data v bezpečí, musíte při použití tohoto přístupového klíče zadat své heslo.
 signin-passkey-fallback-password-label = Heslo
 signin-passkey-fallback-continue = Pokračovat
+signin-passkey-fallback-forgot-password-link = Zapomněli jste heslo?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
