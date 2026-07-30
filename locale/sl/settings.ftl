@@ -95,7 +95,7 @@ choose-newsletters-option-reclaim-the-internet =
 
 dark-mode-toggle-light = Svetla
 dark-mode-toggle-dark = Temna
-dark-mode-toggle-system = Sistem
+dark-mode-toggle-system = Sistemska
 dark-mode-toggle-label = Preklopi temo
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
@@ -167,12 +167,11 @@ device-info-ip-address = Naslov IP: { $ipAddress }
 ## Shown at the top of settings to promote installing Firefox on mobile (when
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
-firefox-promo-banner-mobile-heading = Prejmite { -brand-firefox } ne glede na to, ali ste
+firefox-promo-banner-mobile-heading = Prenesite { -brand-firefox(sklon: "tozilnik") } ne glede na to, kje ste
 firefox-promo-banner-mobile-description = Sinhronizirajte zavihke, zaznamke in gesla med svojimi napravami. Poleg tega vse ostane varno šifrirano.
 firefox-promo-banner-mobile-cta = Povežite napravo
-firefox-promo-banner-switch-heading = Hitro preklop. Enostaven za namestitev.
 firefox-promo-banner-switch-description = Ko preklopite na { -brand-firefox }, lahko s seboj prihranite zaznamke, gesla, zgodovino in drugo, tako da lahko brskate, ne da bi zamudili trenutek.
-firefox-promo-banner-switch-cta = Preklopi na { -brand-firefox }
+firefox-promo-banner-switch-cta = Preklopi na { -brand-firefox(sklon: "tozilnik") }
 
 ## FormPasswordInlineCriteria
 
@@ -335,7 +334,7 @@ confetti-falling-image-aria-label =
     .aria-label = Animirani padajoči konfeti
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
-    .aria-label = Okno { -brand-firefox } z krožno značko, ki prikazuje zeleno kljukico, in “VPN”, ki kaže, da je VPN aktiven.
+    .aria-label = Okno { -brand-firefox(sklon: "rodilnik") } z okroglo značko, ki prikazuje zeleno kljukico, in "VPN", ki kaže, da je VPN aktiven.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -443,7 +442,7 @@ promo-qr-mobile-heading = Vaš telefon. Vaša pravila.
 promo-qr-mobile-description = Skenirajte za prenos aplikacije
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
-    .alt = Koda QR za prenos mobilne aplikacije { -brand-firefox }. Nastavite kamero telefona v spodnji desni kot zaslona, da jo preberete.
+    .alt = Koda QR za prenos mobilne aplikacije { -brand-firefox }. Usmerite kamero telefona v spodnji desni kot zaslona, da jo preberete.
 
 ## Notification Promo Banner component
 
@@ -451,7 +450,7 @@ account-recovery-notification-cta = Ustvari
 account-recovery-notification-header-value = Ne izgubite podatkov, če pozabite geslo
 account-recovery-notification-header-description = Ustvarite ključ, ki omogoča obnovitev sinhroniziranih podatkov iz računa v primeru, da kadarkoli pozabite geslo.
 recovery-phone-promo-cta = Dodaj telefonsko številko za obnovitev
-recovery-phone-promo-heading = Dodatno zaščitite svoj račun s telefonsko številko za obnovitev
+recovery-phone-promo-heading = Dodatno zavarujte svoj račun s telefonsko številko za obnovitev
 recovery-phone-promo-description = Zdaj se lahko prijavite z enkratnim geslom preko sporočila SMS, če ne morete uporabiti aplikacije za overjanje v dveh korakih.
 recovery-phone-promo-info-link = Preberite več o tveganju pri obnovi in zamenjavi SIM-kartice
 promo-banner-dismiss-button =
@@ -615,7 +614,7 @@ cs-sign-out-button = Odjava
 # the device's refresh token is authorized for Firefox’s built-in VPN.
 # In this context, "VPN" is a VPN service built into the Firefox browser, and
 # generally isn’t localized differently than "VPN".
-cs-scope-firefox-vpn = { -brand-firefox }ov vgrajen VPN
+cs-scope-firefox-vpn = { -brand-firefox }ov vgrajeni VPN
 
 ## Data collection section
 
