@@ -504,18 +504,13 @@ flow-recovery-key-hint-char-limit-error = La pista debe contener menos de 255 ca
 flow-recovery-key-hint-unsafe-char-error = La pista no puede contener caracteres Unicode inseguros. Solo se permiten letras, números, signos de puntuación y símbolos.
 
 ## ResetPasswordWarning component
-## Warning shown to sync users that reset their password without using an account recovery key
+## Warning shown to users resetting their password without an account recovery key,
+## surfacing options to keep their browser data
 
 password-reset-warning-icon = Advertencia
 password-reset-chevron-expanded = Contraer advertencia
 password-reset-chevron-collapsed = Expandir advertencia
-password-reset-data-may-not-be-recovered = Es posible que no se recuperen los datos del navegador
-password-reset-previously-signed-in-device-2 = ¿Tenés algún dispositivo en el que iniciaste sesión anteriormente?
-password-reset-data-may-be-saved-locally-2 = Los datos de tu navegador pueden estar guardados en ese dispositivo. Restablecé tu contraseña e iniciá sesión ahí para restaurar y sincronizar tus datos.
-password-reset-no-old-device-2 = ¿Tenés un dispositivo nuevo pero no tenés acceso a los anteriores?
-password-reset-encrypted-data-cannot-be-recovered-2 = Lo sentimos, pero los datos cifrados del navegador en los servidores de { -brand-firefox } no pueden recuperarse.
 password-reset-warning-have-key = ¿Tenés una clave de recuperación de cuenta?
-password-reset-warning-use-key-link = Usala ahora para restablecer tu contraseña y mantener tus datos
 
 ## Alert Bar
 
@@ -1953,9 +1948,6 @@ confirm-totp-reset-password-use-different-account = Usar una cuenta diferente
 ## ResetPassword start page
 
 password-reset-flow-heading = Restablecé tu contraseña
-password-reset-body-2 =
-    Te pediremos un par de cosas que solo vos sepás para mantener tu cuenta
-    segura.
 password-reset-email-input =
     .label = Ingresá tu correo electrónico
 password-reset-submit-button-2 = Continuar

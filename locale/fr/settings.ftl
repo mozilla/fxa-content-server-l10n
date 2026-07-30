@@ -504,18 +504,13 @@ flow-recovery-key-hint-char-limit-error = L’indice doit contenir moins de 225�
 flow-recovery-key-hint-unsafe-char-error = L’indice ne peut pas contenir de caractères Unicode non sûrs. Seuls les lettres, les nombres, les signes de ponctuation et les symboles sont autorisés.
 
 ## ResetPasswordWarning component
-## Warning shown to sync users that reset their password without using an account recovery key
+## Warning shown to users resetting their password without an account recovery key,
+## surfacing options to keep their browser data
 
 password-reset-warning-icon = Avertissement
 password-reset-chevron-expanded = Réduire l’avertissement
 password-reset-chevron-collapsed = Développer l’avertissement
-password-reset-data-may-not-be-recovered = Les données de votre navigateur pourraient ne pas été récupérées
-password-reset-previously-signed-in-device-2 = Vous disposez d’un appareil sur lequel vous vous êtes déjà connecté·e ?
-password-reset-data-may-be-saved-locally-2 = Les données de votre navigateur sont peut-être enregistrées sur cet appareil. Réinitialisez votre mot de passe, puis connectez-vous pour restaurer et synchroniser vos données.
-password-reset-no-old-device-2 = Vous avez un nouvel appareil mais vous n’avez plus accès à vos anciens appareils ?
-password-reset-encrypted-data-cannot-be-recovered-2 = Nous sommes désolés, mais vos données de navigateur chiffrées sur les serveurs de { -brand-firefox } ne peuvent pas être récupérées.
 password-reset-warning-have-key = Vous disposez d’une clé de récupération de compte ?
-password-reset-warning-use-key-link = Utilisez-la maintenant pour réinitialiser votre mot de passe et conserver vos données
 
 ## Alert Bar
 
@@ -1947,7 +1942,6 @@ confirm-totp-reset-password-use-different-account = Utiliser un autre compte
 ## ResetPassword start page
 
 password-reset-flow-heading = Réinitialiser le mot de passe
-password-reset-body-2 = Nous vous demanderons d’effectuer certaines opérations pour assurer la sécurité de votre compte.
 password-reset-email-input =
     .label = Saisissez votre adresse e-mail
 password-reset-submit-button-2 = Continuer

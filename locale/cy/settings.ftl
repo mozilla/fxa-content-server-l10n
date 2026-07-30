@@ -516,18 +516,13 @@ flow-recovery-key-hint-char-limit-error = Rhaid i'r awgrym gynnwys llai na 255 n
 flow-recovery-key-hint-unsafe-char-error = Ni all yr awgrym gynnwys nodau unicode anniogel. Dim ond llythrennau, rhifau, atalnodau a symbolau a ganiateir.
 
 ## ResetPasswordWarning component
-## Warning shown to sync users that reset their password without using an account recovery key
+## Warning shown to users resetting their password without an account recovery key,
+## surfacing options to keep their browser data
 
 password-reset-warning-icon = Rhybudd
 password-reset-chevron-expanded = Cau'r rhybudd
 password-reset-chevron-collapsed = Ehangu'r rhybudd
-password-reset-data-may-not-be-recovered = Mae'n bosibl na fydd data eich porwr yn cael ei adfer
-password-reset-previously-signed-in-device-2 = Oes gennych chi unrhyw ddyfais lle rydych wedi mewngofnodi o'r blaen?
-password-reset-data-may-be-saved-locally-2 = Mae'n bosibl fod data eich porwr wedi'i gadw ar y ddyfais honno. Ailosodwch eich cyfrinair, yna mewngofnodwch yno i adfer a chydweddu eich data.
-password-reset-no-old-device-2 = Oes gennych chi ddyfais newydd ond heb fynediad i unrhyw un o'ch rhai blaenorol?
-password-reset-encrypted-data-cannot-be-recovered-2 = Ymddiheuriadau, ond nid oes modd adfer data eich porwr sydd wedi'i amgryptio ar weinyddion { -brand-firefox }.
 password-reset-warning-have-key = Oes gennych chi allwedd adfer cyfrif?
-password-reset-warning-use-key-link = Defnyddiwch ef nawr i ailosod eich cyfrinair a chadw'ch data
 
 ## Alert Bar
 
@@ -1977,7 +1972,6 @@ confirm-totp-reset-password-use-different-account = Defnyddiwch gyfrif gwahanol
 ## ResetPassword start page
 
 password-reset-flow-heading = Ailosod eich cyfrinair
-password-reset-body-2 = Byddwn yn gofyn am ychydig o bethau dim ond chi sy'n eu gwybod yn i gadw'ch cyfrif yn ddiogel.
 password-reset-email-input =
     .label = Rhowch eich e-bost
 password-reset-submit-button-2 = Parhau

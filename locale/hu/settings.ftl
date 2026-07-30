@@ -504,18 +504,13 @@ flow-recovery-key-hint-char-limit-error = A tippnek 255 karakternél rövidebbne
 flow-recovery-key-hint-unsafe-char-error = A tipp nem tartalmazhat nem biztonságos Unicode karaktereket. Csak betűk, számok, írásjelek és szimbólumok engedélyezettek.
 
 ## ResetPasswordWarning component
-## Warning shown to sync users that reset their password without using an account recovery key
+## Warning shown to users resetting their password without an account recovery key,
+## surfacing options to keep their browser data
 
 password-reset-warning-icon = Figyelmeztetés
 password-reset-chevron-expanded = Figyelmeztetés összecsukása
 password-reset-chevron-collapsed = Figyelmeztetés kinyitása
-password-reset-data-may-not-be-recovered = Előfordulhat, hogy a böngészési adatok nem állíthatók helyre
-password-reset-previously-signed-in-device-2 = Van olyan eszköze, amelyre korábban bejelentkezett?
-password-reset-data-may-be-saved-locally-2 = Előfordulhat, hogy a böngésző adatai vannak mentve azon az eszközön. Állítsa vissza a jelszavát, majd jelentkezzen be ott az adatai helyreállításához és szinkronizálásához.
-password-reset-no-old-device-2 = Új eszköze van, de a korábbiakhoz már nem fér hozzá?
-password-reset-encrypted-data-cannot-be-recovered-2 = Sajnáljuk, de a { -brand-firefox } kiszolgálókon lévő titkosított böngészőadatai nem állíthatók helyre.
 password-reset-warning-have-key = Van fiók-helyreállítási kulcsa?
-password-reset-warning-use-key-link = Használja most a jelszó helyreállításához és az adatok megtartásához
 
 ## Alert Bar
 
@@ -1959,7 +1954,6 @@ confirm-totp-reset-password-use-different-account = Másik fiók használata
 ## ResetPassword start page
 
 password-reset-flow-heading = Jelszó visszaállítása
-password-reset-body-2 = Kérdezünk néhány dolgot, melyet csak Ön tud, hogy biztonságban tartsa a fiókját.
 password-reset-email-input =
     .label = Adja meg az e-mail-címét
 password-reset-submit-button-2 = Folytatás

@@ -504,18 +504,13 @@ flow-recovery-key-hint-char-limit-error = Der Hinweis muss weniger als 255 Zeich
 flow-recovery-key-hint-unsafe-char-error = Der Hinweis darf keine unsicheren Unicode-Zeichen enthalten. Nur Buchstaben, Zahlen, Satzzeichen und Symbole sind erlaubt.
 
 ## ResetPasswordWarning component
-## Warning shown to sync users that reset their password without using an account recovery key
+## Warning shown to users resetting their password without an account recovery key,
+## surfacing options to keep their browser data
 
 password-reset-warning-icon = Warnung
 password-reset-chevron-expanded = Warnung einklappen
 password-reset-chevron-collapsed = Warnung ausklappen
-password-reset-data-may-not-be-recovered = Ihre Browser-Daten werden möglicherweise nicht wiederhergestellt
-password-reset-previously-signed-in-device-2 = Haben Sie ein Gerät auf dem Sie sich zuvor angemeldet haben?
-password-reset-data-may-be-saved-locally-2 = Möglicherweise sind Ihre Browser-Daten auf diesem Gerät gespeichert. Setzen Sie Ihr Passwort zurück und melden Sie sich dort an, um Ihre Daten wiederherzustellen und zu synchronisieren.
-password-reset-no-old-device-2 = Sie haben ein neues Gerät, aber Sie haben keinen Zugriff auf Ihre alten?
-password-reset-encrypted-data-cannot-be-recovered-2 = Es tut uns leid, aber Ihre verschlüsselten Browser-Daten auf { -brand-firefox }-Servern können nicht wiederhergestellt werden.
 password-reset-warning-have-key = Haben Sie einen Kontowiederherstellungsschlüssel?
-password-reset-warning-use-key-link = Verwenden Sie ihn jetzt, um Ihr Passwort zurückzusetzen und Ihre Daten zu behalten
 
 ## Alert Bar
 
@@ -1953,7 +1948,6 @@ confirm-totp-reset-password-use-different-account = Ein anderes Konto verwenden
 ## ResetPassword start page
 
 password-reset-flow-heading = Setzen Sie Ihr Passwort zurück
-password-reset-body-2 = Wir bitten Sie um ein paar Dinge, die nur Sie wissen, um Ihr Konto zu schützen.
 password-reset-email-input =
     .label = E-Mail-Adresse eingeben
 password-reset-submit-button-2 = Weiter
