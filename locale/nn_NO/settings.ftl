@@ -2073,6 +2073,7 @@ signin-passkey-fallback-heading = Skriv inn passordet ditt for å synkronisere
 signin-passkey-fallback-body = For å halde dataa dine trygge, må du oppgi passordet ditt når du brukar denne passnøkkelen.
 signin-passkey-fallback-password-label = Passord
 signin-passkey-fallback-continue = Hald fram
+signin-passkey-fallback-forgot-password-link = Gløymt passordet?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
