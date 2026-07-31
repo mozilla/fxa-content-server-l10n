@@ -48,7 +48,7 @@ msgstr "Errore 502"
 
 #: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
-msgstr "Il server è occupato, riprova più tardi"
+msgstr "Il server è occupato, riprova a breve"
 
 #: server/templates/pages/src/503.html:4
 msgid ""

@@ -258,11 +258,11 @@ msgstr "Il link su cui hai fatto clic per verificare il tuo indirizzo di posta e
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
-msgstr "Hai effettuato troppi tentativi errati. Riprova più tardi."
+msgstr "Hai effettuato troppi tentativi. Riprova più tardi."
 
 #: .es5/lib/auth-errors.js:27
 msgid "You've tried too many times. Try again %(retryAfterLocalized)s."
-msgstr "Hai effettuato troppi tentativi errati. Riprova %(retryAfterLocalized)s."
+msgstr "Hai effettuato troppi tentativi. Riprova %(retryAfterLocalized)s."
 
 #: .es5/lib/auth-errors.js:35 .es5/lib/oauth-errors.js:51
 msgid "Invalid token"
@@ -478,16 +478,16 @@ msgstr "Codice di conferma non valido o scaduto"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
-msgstr "Il server è occupato, riprova tra qualche secondo"
+msgstr "Il server è occupato, riprova a breve"
 
 #: .es5/lib/auth-errors.js:290
 msgid "Feature not enabled"
-msgstr "Caratteristica non attiva"
+msgstr "Funzionalità non attiva"
 
 #: .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:310 .es5/lib/oauth-errors.js:111 .es5/lib/oauth-errors.js:115 .es5/lib/oauth-errors.js:119
 #: .es5/lib/profile-errors.js:37 .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr "Il sistema non è disponibile, riprova tra qualche secondo"
+msgstr "Il sistema non è disponibile, riprova a breve"
 
 #: .es5/lib/auth-errors.js:302
 msgid "This endpoint is no longer supported"
@@ -619,7 +619,7 @@ msgstr "È necessario inserire il codice di autorizzazione"
 
 #: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
-msgstr "Il link non è valido"
+msgstr "Link danneggiato"
 
 #: .es5/lib/auth-errors.js:533
 msgid "Phone number required"
@@ -743,7 +743,7 @@ msgstr "Token scaduto"
 
 #: .es5/lib/oauth-errors.js:127
 msgid "Something went wrong. Please close this tab and try again."
-msgstr "Qualcosa è andato storto. Chiudi questa scheda e riprova."
+msgstr "Si è verificato un problema. Chiudi questa scheda e riprova."
 
 #: .es5/lib/oauth-errors.js:146
 msgid "no message"
@@ -813,11 +813,11 @@ msgstr "Ricevi le ultime notizie su Mozilla e Firefox."
 
 #: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
 msgid "%(city)s, %(country)s (estimated)"
-msgstr "%(city)s, %(country)s (approssimativi)"
+msgstr "%(city)s, %(country)s (stimato)"
 
 #: .es5/lib/strings.js:41
 msgid "%(country)s (estimated)"
-msgstr "%(country)s (approssimativo)"
+msgstr "%(country)s (stimato)"
 
 #: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
@@ -860,7 +860,7 @@ msgstr "Ripristina la password con la chiave di recupero dell’account"
 #: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
-msgstr "Verrai reindirizzato su %(serviceName)s"
+msgstr "Continua su %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
@@ -974,7 +974,7 @@ msgstr "Controlla la tua casella di posta %(escapedEmail)s, ti abbiamo inviato u
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "Controlla la tua casella di posta %(escapedEmail)s, ti abbiamo inviato un link per confermare la registrazione"
+msgstr "Controlla la tua casella di posta %(escapedEmail)s, ti abbiamo inviato un link per confermare l’accesso"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
 #: .es5/templates/sign_in_unblock.mustache:9
@@ -992,7 +992,7 @@ msgstr "Email per la reimpostazione della password inviata"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Per impostare una nuova password fai clic sul link inviato a %(email)s entro un'ora."
+msgstr "Per impostare una nuova password fai clic sul link inviato a %(email)s entro un’ora."
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
@@ -1023,7 +1023,7 @@ msgstr "Invia email con nuovo codice."
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
 #: .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
-msgstr "Connetti nuovo dispositivo"
+msgstr "Connetti un altro dispositivo"
 
 #: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
@@ -1043,7 +1043,7 @@ msgstr "Hai effettuato l’accesso a Firefox"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
-msgstr "Per completare la configurazione accedi al tuo account Firefox"
+msgstr "Per completare la configurazione accedi a questo Firefox"
 
 #: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
 msgid "Still adding devices?"
@@ -1093,8 +1093,8 @@ msgid ""
 msgstr ""
 "\n"
 "              Proseguendo confermi di accettare:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Informativa sulla privacy</a> dei servizi in abbonamento Mozilla< br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> per Mozilla account\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Informativa sulla privacy</a> dei servizi in abbonamento Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> degli account Mozilla\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
@@ -1168,8 +1168,8 @@ msgid ""
 msgstr ""
 "\n"
 "              Proseguendo confermi di accettare:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Informativa sulla privacy</a> dei servizi in abbonamento Mozilla< br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> per Mozilla account\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Informativa sulla privacy</a> dei servizi in abbonamento Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condizioni di utilizzo del servizio</a> e <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Informativa sulla privacy</a> degli account Mozilla\n"
 "            "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
@@ -1235,7 +1235,7 @@ msgstr "Scansiona il codice QR nella tua applicazione di autenticazione, poi ins
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
-msgstr "Scansione del codice non riuscita?"
+msgstr "Non riesci a scansionare il codice?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
@@ -1247,7 +1247,7 @@ msgstr "Digita questa chiave segreta nell’app di autenticazione."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr "Scegli scansione codice QR."
+msgstr "Vuoi scansionare il codice QR?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
@@ -1325,11 +1325,11 @@ msgstr "Hai ricevuto un’email relativa a un tentativo di accesso al tuo accoun
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr "Segnala attività sospetta"
+msgstr "Segnala attività"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr "Che cosa sta succedendo?"
+msgstr "Perché succede questo?"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
@@ -1461,8 +1461,7 @@ msgstr "Ripeti password"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
-"Per accedere ai dati crittografati che memorizzi con noi, hai bisogno di questa password.<br class=\"mb-3\">Un ripristino significa potenzialmente perdere tutti i dati, come password e segnalibri."
+msgstr "Per accedere ai dati crittati che memorizzi con noi, hai bisogno di questa password.<br class=\"mb-3\">Un ripristino significa potenzialmente perdere dati come password e segnalibri."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
@@ -1486,7 +1485,7 @@ msgstr "Sincronizza questo dispositivo"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:1
 msgid "Step 1 of 2: Re-enter password"
-msgstr "Passo 1 di 2: reinserisci la password"
+msgstr "Passaggio 1 di 2: reinserisci la password"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
@@ -1733,11 +1732,11 @@ msgstr "%(family)s su %(OS)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr "%(city)s, %(region)s, %(country)s (stimati)"
+msgstr "%(city)s, %(region)s, %(country)s (stimato)"
 
 #: .es5/templates/partial/device-being-paired.mustache:7
 msgid "%(region)s, %(country)s (estimated)"
-msgstr "%(region)s, %(country)s (stimati)"
+msgstr "%(region)s, %(country)s (stimato)"
 
 #: .es5/templates/partial/device-being-paired.mustache:9
 msgid "%(country)s"
@@ -1824,11 +1823,14 @@ msgid ""
 "\n"
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
-msgstr "           <span>%(deviceFamily)s per %(deviceOS)s</span> è connesso.         "
+msgstr ""
+"\n"
+"          <span>%(deviceFamily)s per %(deviceOS)s</span> è connesso.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr "Puoi inviare immediatamente schede aperte, password e segnalibri da un dispositivo all'altro."
+msgstr "Puoi inviare immediatamente schede aperte, password e segnalibri da un dispositivo all’altro."
 
 #: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1839,7 +1841,10 @@ msgid ""
 "\n"
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
-msgstr "           Stai sincronizzando con: <span>%(deviceFamily)s su %(deviceOS)s</span>         "
+msgstr ""
+"\n"
+"          Stai sincronizzando con: <span>%(deviceFamily)s su %(deviceOS)s</span>\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
@@ -1935,7 +1940,7 @@ msgstr "<b>Passaggio 2</b>: seleziona “Continua con la sincronizzazione” per
 
 #: .es5/templates/pair/index.mustache:29
 msgid "Continue to sync"
-msgstr "Continua la sincronizzazione"
+msgstr "Continua con la sincronizzazione"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
