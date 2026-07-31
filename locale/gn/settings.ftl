@@ -516,6 +516,9 @@ password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
 # "it" refers to the user's account recovery key.
 password-reset-warning-use-key-link-v2 = Eiporu egueru jey hag̃ua ne ñe’ẽñemi ha ani ogue ne mba’ekuaarã
 password-reset-warning-signed-in-device = ¿Erekóiti eikehague ambue mba’e’okápe?
+password-reset-warning-signed-in-device-description = Mba’ekuaarãita ne kundaharagua ojeporukuaa. Erujey ne ñe’ẽñemi, upéi eike mba’e’okápe erujey ha embojuehe hag̃ua ne mba’ekuaarã.
+password-reset-warning-restore-data-link = Eikuaa mba’éicha erujeýta kundahára mba’ekuaarã eikehaguépe
+password-reset-warning-new-device = ¿Eiporu mba’e’oka pyahu katu ndaikatúi eike ymaveguápe?
 
 ## Alert Bar
 
