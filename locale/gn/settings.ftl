@@ -1959,6 +1959,7 @@ confirm-totp-reset-password-use-different-account = Eiporu ambuéva mba’ete
 ## ResetPassword start page
 
 password-reset-flow-heading = Embojevyjey ne ñe’ẽñemi
+password-reset-body-3 = Erujeyvo ñe’ẽñemi ombyaikuaa kundahára mba’ekuaarã ojuehepyre.
 password-reset-email-input =
     .label = Ehai ne ñandutiveve
 password-reset-submit-button-2 = Ku’ejey
