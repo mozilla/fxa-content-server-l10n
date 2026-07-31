@@ -393,6 +393,8 @@ link-expired-new-link-button = Ereko juajuha pyahu
 
 # immediately before remember-password-signin-link
 remember-password-text = ¿Nemandu’áke ñe’ẽñemíre?
+# shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
+remember-password-passkey-text = ¿Erekópa ñe’ẽ ñemi térã nemandu’a ne ñe’ẽñemíre?
 # link navigates to the sign in page
 remember-password-signin-link = Eñepyrũ tembiapo
 
@@ -511,6 +513,9 @@ password-reset-warning-icon = Jesarekorã
 password-reset-chevron-expanded = Ñemongyhyje
 password-reset-chevron-collapsed = Emyasãi mongyhyje
 password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
+# "it" refers to the user's account recovery key.
+password-reset-warning-use-key-link-v2 = Eiporu egueru jey hag̃ua ne ñe’ẽñemi ha ani ogue ne mba’ekuaarã
+password-reset-warning-signed-in-device = ¿Erekóiti eikehague ambue mba’e’okápe?
 
 ## Alert Bar
 
