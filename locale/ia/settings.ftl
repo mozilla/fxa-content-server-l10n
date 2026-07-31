@@ -2074,6 +2074,7 @@ signin-passkey-fallback-heading = Insere tu contrasigno pro synchronisar
 signin-passkey-fallback-body = Pro mantener tu datos secur, tu debe inserer tu contrasigno quando tu usa iste clave-contrasigno.
 signin-passkey-fallback-password-label = Contrasigno
 signin-passkey-fallback-continue = Continuar
+signin-passkey-fallback-forgot-password-link = Contrasigno oblidate?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
