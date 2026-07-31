@@ -519,6 +519,7 @@ password-reset-warning-signed-in-device = ¿Erekóiti eikehague ambue mba’e’
 password-reset-warning-signed-in-device-description = Mba’ekuaarãita ne kundaharagua ojeporukuaa. Erujey ne ñe’ẽñemi, upéi eike mba’e’okápe erujey ha embojuehe hag̃ua ne mba’ekuaarã.
 password-reset-warning-restore-data-link = Eikuaa mba’éicha erujeýta kundahára mba’ekuaarã eikehaguépe
 password-reset-warning-new-device = ¿Eiporu mba’e’oka pyahu katu ndaikatúi eike ymaveguápe?
+password-reset-warning-new-device-description = Eru rire jey ne ñe’ẽñemi, mba’ekuaarãita ipapapýva mohendahavusu { -brand-firefox } ndojeporukuaamo’ãi ko mba’e’okápe.
 
 ## Alert Bar
 
@@ -2081,6 +2082,7 @@ signin-passkey-fallback-heading = Ehai ñe’ẽñemi embojuehe hag̃ua
 signin-passkey-fallback-body = Ereko hag̃ua mba’ekuaarã tekosãme, eikotevẽ ehai ñe’ẽñemi eiporu vove ko ñe’ẽ ñemi.
 signin-passkey-fallback-password-label = Ñe’ẽñemi
 signin-passkey-fallback-continue = Ku’ejey
+signin-passkey-fallback-forgot-password-link = ¿Nderesarái ñe’ẽñemígui?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
