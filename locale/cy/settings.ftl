@@ -406,7 +406,7 @@ link-expired-new-link-button = Derbyn dolen newydd
 # immediately before remember-password-signin-link
 remember-password-text = Yn cofio eich cyfrinair?
 # shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
-remember-password-passkey-text = Oes gennych chi gyfrinair neu cofiwch eich cyfrinair?
+remember-password-passkey-text = Oes gennych chi gyfrinallwedd neu'n cofio'ch cyfrinair?
 # link navigates to the sign in page
 remember-password-signin-link = Mewngofnodi
 
@@ -524,7 +524,7 @@ flow-recovery-key-hint-unsafe-char-error = Ni all yr awgrym gynnwys nodau unicod
 password-reset-warning-icon = Rhybudd
 password-reset-chevron-expanded = Cau'r rhybudd
 password-reset-chevron-collapsed = Ehangu'r rhybudd
-password-reset-warning-review-sign-in-options = Adolygu opsiynau mewngofnodi i gadw data porwr
+password-reset-warning-review-sign-in-options = Adolygwch ddewisiadau mewngofnodi i gadw data porwr
 password-reset-warning-have-key = Oes gennych chi allwedd adfer cyfrif?
 # "it" refers to the user's account recovery key.
 password-reset-warning-use-key-link-v2 = Defnyddiwch ef i ailosod eich cyfrinair a chadw data eich porwr
