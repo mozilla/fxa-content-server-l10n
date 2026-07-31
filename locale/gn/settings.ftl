@@ -512,6 +512,7 @@ flow-recovery-key-hint-unsafe-char-error = Pe jehoha ndorekoiva’erã taichagua
 password-reset-warning-icon = Jesarekorã
 password-reset-chevron-expanded = Ñemongyhyje
 password-reset-chevron-collapsed = Emyasãi mongyhyje
+password-reset-warning-review-sign-in-options = Ehecha jeike poravorã ha eñongatu kundahára mba’ekuaarã
 password-reset-warning-have-key = ¿Eguereko mba’ete jeguerujeyrã?
 # "it" refers to the user's account recovery key.
 password-reset-warning-use-key-link-v2 = Eiporu egueru jey hag̃ua ne ñe’ẽñemi ha ani ogue ne mba’ekuaarã
