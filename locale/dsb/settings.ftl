@@ -399,6 +399,8 @@ link-expired-new-link-button = Nowy wótkaz dostaś
 
 # immediately before remember-password-signin-link
 remember-password-text = Gronidło se spomniś?
+# shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
+remember-password-passkey-text = Maśo gronidłowy kluc abo wěsćo swójo gronidło?
 # link navigates to the sign in page
 remember-password-signin-link = Pśizjawiś
 
@@ -516,7 +518,12 @@ flow-recovery-key-hint-unsafe-char-error = Pokaz njesmějo njewěste znamuška U
 password-reset-warning-icon = Warnowanje
 password-reset-chevron-expanded = Warnowanje schowaś
 password-reset-chevron-collapsed = Warnowanje pokazaś
+password-reset-warning-review-sign-in-options = Pśeglědujśo swóje pśizjawjeńske nastajenja, aby daty wobglědowaka wobchował
 password-reset-warning-have-key = Maśo kontowy wótnowjeński kluc?
+# "it" refers to the user's account recovery key.
+password-reset-warning-use-key-link-v2 = Wužywajśo jen, aby swójo gronidło slědk stajił a daty swójogo wobglědowaka wobchował
+password-reset-warning-signed-in-device = Sćo na drugem rěźe pśizjawjony?
+password-reset-warning-signed-in-device-description = Daty wašogo wobglědowaka su snaź  k dispoziciji. Stajśo swójo gronidło slědk, pśizjawśo se pón na tom rěźe, aby swóje daty wótnowił a synchronizěrował.
 
 ## Alert Bar
 
@@ -2090,6 +2097,7 @@ signin-passkey-fallback-heading = Zapódajśo swójo gronidło, aby synchronizě
 signin-passkey-fallback-body = Aby swóje daty wěste wobchował, musyśo swójo gronidło zapódaś, gaž toś ten gronidłowy kluc wužywaśo.
 signin-passkey-fallback-password-label = Gronidło
 signin-passkey-fallback-continue = Dalej
+signin-passkey-fallback-forgot-password-link = Sćo gronidło zabył?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
