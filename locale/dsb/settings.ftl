@@ -524,6 +524,9 @@ password-reset-warning-have-key = Maśo kontowy wótnowjeński kluc?
 password-reset-warning-use-key-link-v2 = Wužywajśo jen, aby swójo gronidło slědk stajił a daty swójogo wobglědowaka wobchował
 password-reset-warning-signed-in-device = Sćo na drugem rěźe pśizjawjony?
 password-reset-warning-signed-in-device-description = Daty wašogo wobglědowaka su snaź  k dispoziciji. Stajśo swójo gronidło slědk, pśizjawśo se pón na tom rěźe, aby swóje daty wótnowił a synchronizěrował.
+password-reset-warning-restore-data-link = Zgóńśo, kak móžośo daty wobglědowaka z pśizjawjonego rěda wótnowiś
+password-reset-warning-new-device = Wužywaśo nowy rěd, ale njamaśo pśistup k swójim starym?
+password-reset-warning-new-device-description = Za tym až sćo swójo gronidło slědk stajił, njebudu skoděrowane daty wobglědowaka na serwerach { -brand-firefox } na toś tom rěźe k dispoziciji.
 
 ## Alert Bar
 
@@ -1971,6 +1974,7 @@ confirm-totp-reset-password-use-different-account = Druge konto wužywaś
 ## ResetPassword start page
 
 password-reset-flow-heading = Stajśo swójo gronidło slědk
+password-reset-body-3 = Gaž swójo gronidło slědk stajaśo, móžo to synchronizěrowane daty wobglědowaka wobwliwowaś.
 password-reset-email-input =
     .label = Zapódajśo swóju e-mailowu adresu
 password-reset-submit-button-2 = Dalej
