@@ -511,6 +511,7 @@ password-reset-warning-icon = Προειδοποίηση
 password-reset-chevron-expanded = Σύμπτυξη προειδοποίησης
 password-reset-chevron-collapsed = Ανάπτυξη προειδοποίησης
 password-reset-warning-have-key = Διαθέτετε κλειδί ανάκτησης λογαριασμού;
+password-reset-warning-new-device = Χρησιμοποιείτε μια νέα συσκευή, αλλά δεν έχετε πρόσβαση στις παλιές σας;
 
 ## Alert Bar
 
@@ -2075,6 +2076,7 @@ signin-passkey-fallback-heading = Εισαγάγετε τον κωδικό πρ�
 signin-passkey-fallback-body = Για την προστασία των δεδομένων σας, θα πρέπει να εισάγετε τον κωδικό πρόσβασής σας όταν χρησιμοποιείτε αυτό το κλειδί πρόσβασης.
 signin-passkey-fallback-password-label = Κωδικός πρόσβασης
 signin-passkey-fallback-continue = Συνέχεια
+signin-passkey-fallback-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
