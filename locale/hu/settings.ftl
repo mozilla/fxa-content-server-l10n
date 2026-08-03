@@ -516,7 +516,7 @@ password-reset-warning-review-sign-in-options = Tekintse át a bejelentkezési b
 password-reset-warning-have-key = Van fiók-helyreállítási kulcsa?
 # "it" refers to the user's account recovery key.
 password-reset-warning-use-key-link-v2 = Használja a jelszó helyreállítására és a böngésző adatainak megtartására
-password-reset-warning-signed-in-device = Még mindig bejelentkezett egy másik eszközön?
+password-reset-warning-signed-in-device = Még mindig be van jelentkezve egy másik eszközön?
 password-reset-warning-signed-in-device-description = A böngészője adatai elérhetők lehetnek. Állítsa vissza a jelszavát, majd jelentkezzen be az eszközön az adatai visszaállításához és szinkronizálásához.
 password-reset-warning-restore-data-link = Ismerje meg, hogyan állíthatja vissza a böngészőadatokat bejelentkezett eszközről
 password-reset-warning-new-device = Új eszközt használ, de nem éri el a régieit?
