@@ -516,7 +516,11 @@ password-reset-warning-review-sign-in-options = Ελέγξτε τις επιλο
 password-reset-warning-have-key = Διαθέτετε κλειδί ανάκτησης λογαριασμού;
 # "it" refers to the user's account recovery key.
 password-reset-warning-use-key-link-v2 = Χρησιμοποιήστε το για να επαναφέρετε τον κωδικό πρόσβασής σας και να διατηρήσετε τα δεδομένα σας του προγράμματος περιήγησης
+password-reset-warning-signed-in-device = Έχετε συνδεθεί και σε μια άλλη συσκευή;
+password-reset-warning-signed-in-device-description = Τα δεδομένα του προγράμματος περιήγησής σας ενδέχεται να είναι διαθέσιμα. Κάντε επαναφορά του κωδικού πρόσβασής σας και συνδεθείτε σε αυτήν τη συσκευή για να ανακτήσετε και να συγχρονίσετε τα δεδομένα σας.
+password-reset-warning-restore-data-link = Μάθετε πώς να κάνετε επαναφορά των δεδομένων του προγράμματος περιήγησης από μια συνδεδεμένη συσκευή
 password-reset-warning-new-device = Χρησιμοποιείτε μια νέα συσκευή, αλλά δεν έχετε πρόσβαση στις παλιές σας;
+password-reset-warning-new-device-description = Αφού κάνετε επαναφορά του κωδικού πρόσβασής σας, τα κρυπτογραφημένα δεδομένα του προγράμματος περιήγησης στους διακομιστές του { -brand-firefox } δεν θα είναι διαθέσιμα σε αυτήν τη συσκευή.
 
 ## Alert Bar
 
@@ -1957,6 +1961,7 @@ confirm-totp-reset-password-use-different-account = Χρήση διαφορετ�
 ## ResetPassword start page
 
 password-reset-flow-heading = Επαναφορά κωδικού πρόσβασης
+password-reset-body-3 = Η επαναφορά του κωδικού πρόσβασής σας ενδέχεται να επηρεάσει τα συγχρονισμένα δεδομένα του προγράμματος περιήγησης.
 password-reset-email-input =
     .label = Εισαγάγετε το email σας
 password-reset-submit-button-2 = Συνέχεια
