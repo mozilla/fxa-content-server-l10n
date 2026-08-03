@@ -393,6 +393,8 @@ link-expired-new-link-button = Λήψη νέου συνδέσμου
 
 # immediately before remember-password-signin-link
 remember-password-text = Απομνημόνευση κωδικού πρόσβασης;
+# shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
+remember-password-passkey-text = Έχετε κλειδί πρόσβασης ή θυμάστε τον κωδικό πρόσβασής σας;
 # link navigates to the sign in page
 remember-password-signin-link = Σύνδεση
 
@@ -510,7 +512,10 @@ flow-recovery-key-hint-unsafe-char-error = Η υπόδειξη δεν μπορε
 password-reset-warning-icon = Προειδοποίηση
 password-reset-chevron-expanded = Σύμπτυξη προειδοποίησης
 password-reset-chevron-collapsed = Ανάπτυξη προειδοποίησης
+password-reset-warning-review-sign-in-options = Ελέγξτε τις επιλογές σύνδεσης για να διατηρήσετε τα δεδομένα του προγράμματος περιήγησης
 password-reset-warning-have-key = Διαθέτετε κλειδί ανάκτησης λογαριασμού;
+# "it" refers to the user's account recovery key.
+password-reset-warning-use-key-link-v2 = Χρησιμοποιήστε το για να επαναφέρετε τον κωδικό πρόσβασής σας και να διατηρήσετε τα δεδομένα σας του προγράμματος περιήγησης
 password-reset-warning-new-device = Χρησιμοποιείτε μια νέα συσκευή, αλλά δεν έχετε πρόσβαση στις παλιές σας;
 
 ## Alert Bar
