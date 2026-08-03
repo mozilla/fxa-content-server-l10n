@@ -516,7 +516,7 @@ password-reset-warning-review-sign-in-options = Vérifiez les options de connexi
 password-reset-warning-have-key = Vous disposez d’une clé de récupération de compte ?
 # "it" refers to the user's account recovery key.
 password-reset-warning-use-key-link-v2 = Utilisez-le pour réinitialiser votre mot de passe et conserver les données de votre navigateur
-password-reset-warning-signed-in-device = Toujours connecté sur un autre appareil ?
+password-reset-warning-signed-in-device = Toujours connecté·e sur un autre appareil ?
 password-reset-warning-signed-in-device-description = Les données de votre navigateur sont peut-être disponibles. Réinitialisez votre mot de passe, puis connectez-vous sur cet appareil pour restaurer et synchroniser vos données.
 password-reset-warning-restore-data-link = Découvrez comment restaurer les données du navigateur depuis un appareil connecté
 password-reset-warning-new-device = Vous utilisez un nouvel appareil mais ne pouvez pas accéder à vos anciens appareils ?
