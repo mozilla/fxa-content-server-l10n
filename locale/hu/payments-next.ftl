@@ -44,7 +44,6 @@ auth-error-page-title = Nem tudtuk bejelentkeztetni
 checkout-error-boundary-retry-button = Újrapróbálkozás
 checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
 amex-logo-alt-text = { -brand-amex } logó
-diners-logo-alt-text = { -brand-diner } logó
 discover-logo-alt-text = { -brand-discover } logó
 jcb-logo-alt-text = { -brand-jcb } logó
 mastercard-logo-alt-text = { -brand-mastercard } logó
