@@ -393,6 +393,8 @@ link-expired-new-link-button = Recibir enlace nuevo
 
 # immediately before remember-password-signin-link
 remember-password-text = ¿Recuerdas tu contraseña?
+# shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
+remember-password-passkey-text = ¿Tienes una llave de acceso o recuerdas tu contraseña?
 # link navigates to the sign in page
 remember-password-signin-link = Conectarse
 
@@ -510,7 +512,11 @@ flow-recovery-key-hint-unsafe-char-error = La sugerencia no puede contener carac
 password-reset-warning-icon = Advertencia
 password-reset-chevron-expanded = Contraer advertencia
 password-reset-chevron-collapsed = Expandir advertencia
+password-reset-warning-review-sign-in-options = Revisa las opciones de conexión para conservar los datos del navegador
 password-reset-warning-have-key = ¿Tienes una clave de recuperación de cuenta?
+# "it" refers to the user's account recovery key.
+password-reset-warning-use-key-link-v2 = Úsala para restablecer tu contraseña y conservar tus datos del navegador
+password-reset-warning-signed-in-device = ¿Sigues conectado en otro dispositivo?
 
 ## Alert Bar
 
