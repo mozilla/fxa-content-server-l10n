@@ -339,9 +339,15 @@ confetti-falling-image-aria-label =
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
     .aria-label = Wokno { -brand-firefox } z kulojtym znamješkom ze zelenej hóčku a „VPN“, kotrež  pokazuje, zo VPN je aktiwny.
+sync-devices-image-aria-label =
+    .aria-label = Wokno desktopoweho wobhladowaka a mobilny telefon, kotrejž so wobaj synchronizujetej, z maskotku { -brand-firefox } pódla njeju
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = Logo { -brand-firefox }
+# This id is referenced by `PasswordSuccessImage` but was never added here, so
+# the aria-label has been falling back to English in every locale.
+password-success-image-aria-label =
+    .aria-label = Ilustracija wuspěšneje hesłoweje změny.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
