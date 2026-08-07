@@ -155,7 +155,7 @@ device-info-block-location-unknown = Ubicación desconocida
 device-info-browser-os = { $browserName } en { $genericOSName }
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
-device-info-browser-device = { $browserName } el { $deviceName }
+device-info-browser-device = { $browserName } en { $deviceName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Dirección IP: { $ipAddress }
@@ -334,7 +334,7 @@ confetti-falling-image-aria-label =
 vpn-welcome-image-aria-label =
     .aria-label = Ventana de { -brand-firefox } con una insignia circular que muestra una marca de verificación verde y "VPN", que indica que la VPN está activa.
 sync-devices-image-aria-label =
-    .aria-label = Una ventana del navegador de escritorio y un teléfono móvil, ambos sincronizados, con la mascota { -brand-firefox } al lado de ellos
+    .aria-label = Una ventana del navegador de escritorio y un teléfono móvil, ambos sincronizados, con la mascota de { -brand-firefox } al lado de ellos
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = Logo de { -brand-firefox }
@@ -1873,7 +1873,7 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Cerrá esta pestaña y pr
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-supplicant-approve-sign-in-heading = Un último paso para sincronizar
-pair2-supplicant-approve-sign-in-instruction = Apruebe el inicio de sesión en su computadora.
+pair2-supplicant-approve-sign-in-instruction = Aprobá el inicio de sesión en tu computadora.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Cancelar
 

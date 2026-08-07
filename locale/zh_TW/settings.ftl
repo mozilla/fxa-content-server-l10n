@@ -321,9 +321,15 @@ confetti-falling-image-aria-label =
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
     .aria-label = 包含圓形徽章，顯示綠色勾勾與「VPN」文字的 { -brand-firefox } 視窗，表示已開啟 VPN。
+sync-devices-image-aria-label =
+    .aria-label = 同步中的桌面版瀏覽器視窗與手機，周圍有 { -brand-firefox } 的吉祥物
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = { -brand-firefox } 圖示
+# This id is referenced by `PasswordSuccessImage` but was never added here, so
+# the aria-label has been falling back to English in every locale.
+password-success-image-aria-label =
+    .aria-label = 表示已成功更改密碼的插圖。
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1825,6 +1831,9 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = 請關閉這個分頁然�
 ## shown on their computer. It waits for them to approve the sign-in on the
 ## computer, and shows that computer's details so they can verify the request.
 
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-supplicant-approve-sign-in-heading = 完成最後一步即可開始同步
+pair2-supplicant-approve-sign-in-instruction = 請到您的電腦上確認登入。
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = 取消
 
