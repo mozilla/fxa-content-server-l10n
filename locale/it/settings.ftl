@@ -334,14 +334,14 @@ confetti-falling-image-aria-label =
 vpn-welcome-image-aria-label =
     .aria-label = Finestra di { -brand-firefox } con un badge circolare che mostra un segno di spunta verde e la scritta “VPN”, per indicare che la VPN è attiva.
 sync-devices-image-aria-label =
-    .aria-label = Una finestra del browser desktop e un telefono cellulare, entrambi sincronizzati, con la mascotte { -brand-firefox } al loro fianco
+    .aria-label = Una finestra del browser su desktop e uno smartphone che si stanno sincronizzando, con la mascotte di { -brand-firefox } accanto
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = Logo di { -brand-firefox }
 # This id is referenced by `PasswordSuccessImage` but was never added here, so
 # the aria-label has been falling back to English in every locale.
 password-success-image-aria-label =
-    .aria-label = Illustrazione che rappresenta una modifica corretta della password.
+    .aria-label = Illustrazione che indica il successo del cambio password.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
