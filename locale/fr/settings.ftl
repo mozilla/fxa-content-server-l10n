@@ -1866,7 +1866,7 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Veuillez fermer cet ongle
 ## computer, and shows that computer's details so they can verify the request.
 
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-supplicant-approve-sign-in-heading = Une dernière étape pour synchroniser
+pair2-supplicant-approve-sign-in-heading = Une dernière étape pour lancer la synchronisation
 pair2-supplicant-approve-sign-in-instruction = Approuvez la connexion sur votre ordinateur.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Annuler
