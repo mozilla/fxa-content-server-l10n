@@ -346,7 +346,7 @@ confetti-falling-image-aria-label =
 vpn-welcome-image-aria-label =
     .aria-label = Ffenestr { -brand-firefox } gyda bathodyn crwn yn dangos marc gwirio gwyrdd a “VPN,” yn dangos bod y VPN yn weithredol.
 sync-devices-image-aria-label =
-    .aria-label = Ffenestr porwr bwrdd gwaith a ffôn symudol, y ddau yn cysoni, gyda'r masgot { -brand-firefox } wrth eu hochr
+    .aria-label = Ffenestr porwr bwrdd gwaith a ffôn symudol, y ddau yn cydweddu, gyda'r masgot { -brand-firefox } wrth eu hochr
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = Logo { -brand-firefox }
@@ -1896,7 +1896,7 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Caewch y tab hwn a cheisi
 ## computer, and shows that computer's details so they can verify the request.
 
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-supplicant-approve-sign-in-heading = Un cam olaf i gysoni
+pair2-supplicant-approve-sign-in-heading = Un cam olaf i gydweddu
 pair2-supplicant-approve-sign-in-instruction = Cymeradwyo'r mewngofnodi ar eich cyfrifiadur.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Diddymu
