@@ -334,7 +334,7 @@ confetti-falling-image-aria-label =
 vpn-welcome-image-aria-label =
     .aria-label = Fenêtre { -brand-firefox } avec un badge circulaire comportant une coche verte et « VPN » indiquant que le VPN est actif.
 sync-devices-image-aria-label =
-    .aria-label = Une fenêtre de navigateur et un téléphone mobile, qui se synchronisent tous les deux, avec la mascotte { -brand-firefox } à côté d’elles
+    .aria-label = Une fenêtre de navigateur sur ordinateur et un téléphone mobile en cours de synchronisation, accompagnés de la mascotte { -brand-firefox }
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = Logo { -brand-firefox }
