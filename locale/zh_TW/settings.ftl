@@ -141,6 +141,9 @@ device-info-block-location-unknown = 未知地點
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $genericOSName } 上的 { $browserName }
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
+device-info-browser-device = { $deviceName } 上的 { $browserName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP 位置：{ $ipAddress }
@@ -318,6 +321,9 @@ confetti-falling-image-aria-label =
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
     .aria-label = 包含圓形徽章，顯示綠色勾勾與「VPN」文字的 { -brand-firefox } 視窗，表示已開啟 VPN。
+# Aria label for the Firefox logo and wordmark shown together as a brand lockup
+firefox-wordmark-image-aria-label =
+    .aria-label = { -brand-firefox } 圖示
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1813,6 +1819,14 @@ pair-unsupported-learn-more-link-v2 = 更多資訊
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = 喔喔，有些東西不對勁！
 pair-unsupported-desktop-firefox-fallback-message-v2 = 請關閉這個分頁然後再試一次。
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It waits for them to approve the sign-in on the
+## computer, and shows that computer's details so they can verify the request.
+
+# Dismisses the pairing attempt
+pair2-supplicant-approve-sign-in-cancel-button = 取消
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
