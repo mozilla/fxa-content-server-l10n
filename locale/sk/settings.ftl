@@ -1508,7 +1508,7 @@ auth-error-1062 = Neplatné presmerovanie
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
 auth-error-1064 = Nesprávne zadaný e‑mail? { $domain } nie je platná e‑mailová služba
 auth-error-1066 = Na vytvorenie účtu nie je možné použiť e‑mailovú masku.
-auth-error-1067 = Nesprávna e-mailová adresa?
+auth-error-1067 = Nesprávna e‑mailová adresa?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
