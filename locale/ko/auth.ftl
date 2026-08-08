@@ -394,6 +394,7 @@ subscriptionRenewalReminder-content-greeting = { $productName } 고객님께,
 # Variables
 #   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
 subscriptionRenewalReminder-content-intro = 현재 구독은 { $reminderLength }일 후 자동 갱신으로 설정되었습니다.
+subscriptionRenewalReminder-content-discount-change = 이전 할인이 종료되고 새로운 할인이 적용되었기 때문에, 다음 청구서에 가격 변동이 반영됩니다.
 subscriptionRenewalReminder-content-discount-ending = 이전 할인이 종료되어 구독이 표준 가격으로 갱신됩니다.
 # Variables
 #   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
