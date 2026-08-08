@@ -330,6 +330,9 @@ confetti-falling-image-aria-label =
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
     .aria-label = Le fenestra de { -brand-firefox } con un insignia circular monstra un quadrato de controlo verde e “VPN,” monstrante que le VPN es active.
+# Aria label for the Firefox logo and wordmark shown together as a brand lockup
+firefox-wordmark-image-aria-label =
+    .aria-label = Logo de { -brand-firefox }
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1858,6 +1861,14 @@ pair-unsupported-learn-more-link-v2 = Pro saper plus
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Oppla! Alco errate eveniva.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Claude iste scheda e reproba.
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It waits for them to approve the sign-in on the
+## computer, and shows that computer's details so they can verify the request.
+
+# Dismisses the pairing attempt
+pair2-supplicant-approve-sign-in-cancel-button = Cancellar
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
