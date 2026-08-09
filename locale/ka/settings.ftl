@@ -335,6 +335,11 @@ confetti-falling-image-aria-label =
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
     .aria-label = { -brand-firefox } ფანჯარა წრიული სამკერდით, რომელზეც ჩანს მწვანე მონიშვნა და „VPN“, მიუთითებს, რომ VPN მოქმედია.
+sync-devices-image-aria-label =
+    .aria-label = კომპიუტერის ბრაუზერის ფანჯარა და მობილური ტელეფონი, ორივე დასინქრონებულია და თილისმა { -brand-firefox } მათ გვერდითაა
+# Aria label for the Firefox logo and wordmark shown together as a brand lockup
+firefox-wordmark-image-aria-label =
+    .aria-label = { -brand-firefox }-ლოგო
 # This id is referenced by `PasswordSuccessImage` but was never added here, so
 # the aria-label has been falling back to English in every locale.
 password-success-image-aria-label =
@@ -2103,6 +2108,7 @@ signin-passkey-fallback-heading = დასინქრონებისთვ�
 signin-passkey-fallback-body = თქვენი მონაცემების უსაფრთხოებისთვის ამ საშვის გამოყენებისას პაროლი უნდა შეიყვანოთ.
 signin-passkey-fallback-password-label = პაროლი
 signin-passkey-fallback-continue = განაგრძეთ
+signin-passkey-fallback-forgot-password-link = დაგავიწყდათ პაროლი?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
