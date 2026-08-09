@@ -134,7 +134,7 @@ msgstr "없음"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:41
 msgid "Last checked: %(lastCheckTime)s"
-msgstr "마지막 확인: %(lastCheckTime)s"
+msgstr "최근 확인: %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"

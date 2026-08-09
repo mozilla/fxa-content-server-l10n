@@ -1179,7 +1179,7 @@ passkey-sub-row-created-date = 생성: { $createdDate }
 # This is a string that shows when the user's passkey was last used.
 # Variables:
 #   $lastUsedDate (String) - a localized date string
-passkey-sub-row-last-used-date = 마지막 사용: { $lastUsedDate }
+passkey-sub-row-last-used-date = 최근 사용: { $lastUsedDate }
 passkey-sub-row-delete-title = 패스키 삭제
 passkey-delete-modal-heading = 패스키를 삭제 하시겠습니까?
 passkey-delete-modal-cancel-button = 취소
