@@ -153,6 +153,9 @@ device-info-block-location-unknown = Loco incognite
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $browserName } sur { $genericOSName }
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
+device-info-browser-device = { $browserName } sur { $deviceName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adresse IP: { $ipAddress }
@@ -1867,6 +1870,7 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Claude iste scheda e repr
 ## shown on their computer. It waits for them to approve the sign-in on the
 ## computer, and shows that computer's details so they can verify the request.
 
+pair2-supplicant-approve-sign-in-instruction = Approba le accesso sur tu computator.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Cancellar
 
