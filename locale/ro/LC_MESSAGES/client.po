@@ -1130,7 +1130,7 @@ msgstr "Continuă către <div class=\"graphic %(serviceLogo)s\">%(serviceName)s<
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr "Creați o mască de e-mail"
+msgstr "Creează o mască de e-mail"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
