@@ -1152,6 +1152,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"            Si tu procede, tu accepta <br /> \n"
+"            le <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">conditiones de uso del servicio</a> e le <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">aviso de confidentialitate</a> de Pocket<br />\n"
+"            le <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">conditiones de uso del servicio</a> e le <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">aviso de confidentialitate</a> de Mozilla Accounts\n"
+"          "
 
 #: .es5/templates/index.mustache:18
 msgid ""
