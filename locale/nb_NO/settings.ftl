@@ -521,6 +521,7 @@ password-reset-warning-icon = Advarsel
 password-reset-chevron-expanded = Skjul advarsel
 password-reset-chevron-collapsed = Vis advarsel
 password-reset-warning-have-key = Har du en kontogjenopprettingsnøkkel?
+password-reset-warning-signed-in-device = Fortsatt logget inn på en annen enhet?
 
 ## Alert Bar
 
@@ -1848,6 +1849,9 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Lukk denne fanen og prøv
 ## shown on their computer. It waits for them to approve the sign-in on the
 ## computer, and shows that computer's details so they can verify the request.
 
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-supplicant-approve-sign-in-heading = Et siste trinn for å synkronisere
+pair2-supplicant-approve-sign-in-instruction = Godkjenn innloggingen på datamaskinen din.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Avbryt
 
