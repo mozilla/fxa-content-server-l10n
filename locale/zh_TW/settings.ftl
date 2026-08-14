@@ -365,10 +365,6 @@ input-phone-number-country-list-aria-label = 選擇國家
 input-phone-number-enter-number = 請輸入手機號碼
 input-phone-number-country-united-states = 美國
 input-phone-number-country-canada = 加拿大
-# Back button on legal/terms or legal/privacy that takes users to the previous page
-legal-back-button = 上一頁
-# Generic error shown when the legal document fails to load
-app-general-err-message = 某些東西不對勁，請稍候再試一次。
 
 ## LinkDamaged component
 
@@ -1637,23 +1633,6 @@ inline-totp-setup-security-code-placeholder = 驗證碼
 inline-totp-setup-code-required-error = 需要輸入驗證碼
 tfa-qr-code-alt = 使用代碼 { $code } 在支援的應用程式中設定兩階段驗證。
 inline-totp-setup-page-title = 兩階段驗證
-
-## Legal page. This page contains simply a header and links to pages that display
-## content from https://github.com/mozilla/legal-docs
-
-legal-header = 法律資訊
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-terms-of-service-link = 服務條款
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-privacy-link = 隱私權公告
-
-## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-privacy-heading = 隱私權公告
-
-## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-terms-heading = 服務條款
 
 ## AuthAllow page - Part of the device pairing flow
 

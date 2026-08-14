@@ -383,10 +383,6 @@ input-phone-number-country-list-aria-label = Izberite državo
 input-phone-number-enter-number = Vnesite telefonsko številko
 input-phone-number-country-united-states = Združene države Amerike
 input-phone-number-country-canada = Kanada
-# Back button on legal/terms or legal/privacy that takes users to the previous page
-legal-back-button = Nazaj
-# Generic error shown when the legal document fails to load
-app-general-err-message = Prišlo je do napake. Poskusite znova pozneje.
 
 ## LinkDamaged component
 
@@ -1693,23 +1689,6 @@ inline-totp-setup-security-code-placeholder = Overitvena koda
 inline-totp-setup-code-required-error = Zahtevana je overitvena koda
 tfa-qr-code-alt = S pomočjo kode { $code } nastavite dvostopenjsko overjanje v podprtih aplikacijah.
 inline-totp-setup-page-title = Overitev v dveh korakih
-
-## Legal page. This page contains simply a header and links to pages that display
-## content from https://github.com/mozilla/legal-docs
-
-legal-header = Pravno obvestilo
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-terms-of-service-link = Pogoji uporabe
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-privacy-link = Obvestilo o zasebnosti
-
-## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-privacy-heading = Obvestilo o zasebnosti
-
-## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-terms-heading = Pogoji uporabe
 
 ## AuthAllow page - Part of the device pairing flow
 

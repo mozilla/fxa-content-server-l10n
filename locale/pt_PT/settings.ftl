@@ -377,10 +377,6 @@ input-phone-number-country-list-aria-label = Selecione o país
 input-phone-number-enter-number = Inserir número de telefone
 input-phone-number-country-united-states = Estados Unidos da América
 input-phone-number-country-canada = Canadá
-# Back button on legal/terms or legal/privacy that takes users to the previous page
-legal-back-button = Voltar
-# Generic error shown when the legal document fails to load
-app-general-err-message = Algo correu mal. Tente novamente mais tarde.
 
 ## LinkDamaged component
 
@@ -1677,23 +1673,6 @@ tfa-qr-code-alt =
     Utilize o código { $code } para configurar a autenticação de dois fatores nas 
     aplicações suportadas.
 inline-totp-setup-page-title = Autenticação de dois passos
-
-## Legal page. This page contains simply a header and links to pages that display
-## content from https://github.com/mozilla/legal-docs
-
-legal-header = Informação legal
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-terms-of-service-link = Termos do Serviço
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-privacy-link = Informação de Privacidade
-
-## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-privacy-heading = Informação de privacidade
-
-## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-terms-heading = Termos do Serviço
 
 ## AuthAllow page - Part of the device pairing flow
 

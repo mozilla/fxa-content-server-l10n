@@ -377,10 +377,6 @@ input-phone-number-country-list-aria-label = Válasszon országot
 input-phone-number-enter-number = Adja meg a telefonszámot
 input-phone-number-country-united-states = Egyesült Államok
 input-phone-number-country-canada = Kanada
-# Back button on legal/terms or legal/privacy that takes users to the previous page
-legal-back-button = Vissza
-# Generic error shown when the legal document fails to load
-app-general-err-message = Hiba történt, próbálja újra később.
 
 ## LinkDamaged component
 
@@ -1683,23 +1679,6 @@ inline-totp-setup-security-code-placeholder = Hitelesítési kód
 inline-totp-setup-code-required-error = Hitelesítési kód szükséges
 tfa-qr-code-alt = Használja a(z) { $code } kódot a kétlépcsős hitelesítés beállításához a támogatott alkalmazásokban.
 inline-totp-setup-page-title = Kétlépcsős hitelesítés
-
-## Legal page. This page contains simply a header and links to pages that display
-## content from https://github.com/mozilla/legal-docs
-
-legal-header = Jogi információk
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-terms-of-service-link = Szolgáltatási feltételek
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-privacy-link = Adatvédelmi nyilatkozat
-
-## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-privacy-heading = Adatvédelmi nyilatkozat
-
-## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-terms-heading = Szolgáltatási feltételek
 
 ## AuthAllow page - Part of the device pairing flow
 

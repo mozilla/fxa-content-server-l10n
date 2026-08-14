@@ -389,10 +389,6 @@ input-phone-number-country-list-aria-label = Dewis gwlad
 input-phone-number-enter-number = Rhowch rif ffôn
 input-phone-number-country-united-states = Yr Unol Daleithiau
 input-phone-number-country-canada = Canada
-# Back button on legal/terms or legal/privacy that takes users to the previous page
-legal-back-button = Nôl
-# Generic error shown when the legal document fails to load
-app-general-err-message = Aeth rhywbeth o'i le. Ceisiwch eto.
 
 ## LinkDamaged component
 
@@ -1701,23 +1697,6 @@ inline-totp-setup-security-code-placeholder = Cod dilysu
 inline-totp-setup-code-required-error = Mae angen cod dilysu
 tfa-qr-code-alt = Defnyddiwch y cod { $code } i osod dilysiad dau gam mewn rhaglenni sy'n ei gefnogi.
 inline-totp-setup-page-title = Dilysu dau gam
-
-## Legal page. This page contains simply a header and links to pages that display
-## content from https://github.com/mozilla/legal-docs
-
-legal-header = Cyfreithiol
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-terms-of-service-link = Amodau Gwasanaeth
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-privacy-link = Hysbysiad Preifatrwydd
-
-## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-privacy-heading = Hysbysiad Preifatrwydd
-
-## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-terms-heading = Amodau Gwasanaeth
 
 ## AuthAllow page - Part of the device pairing flow
 

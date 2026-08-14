@@ -380,10 +380,6 @@ input-phone-number-country-list-aria-label = Vyberte zemi
 input-phone-number-enter-number = Zadejte telefonní číslo
 input-phone-number-country-united-states = Spojené státy
 input-phone-number-country-canada = Kanada
-# Back button on legal/terms or legal/privacy that takes users to the previous page
-legal-back-button = Zpět
-# Generic error shown when the legal document fails to load
-app-general-err-message = Něco se pokazilo. Zkuste to prosím znovu později.
 
 ## LinkDamaged component
 
@@ -1682,23 +1678,6 @@ inline-totp-setup-security-code-placeholder = Ověřovací kód
 inline-totp-setup-code-required-error = Je vyžadován ověřovací kód
 tfa-qr-code-alt = Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód { $code }.
 inline-totp-setup-page-title = Dvoufázové ověřování
-
-## Legal page. This page contains simply a header and links to pages that display
-## content from https://github.com/mozilla/legal-docs
-
-legal-header = Právní informace
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-terms-of-service-link = Podmínky služby
-# Links to our internal "Firefox Cloud" /legal/terms page
-legal-privacy-link = Zásady ochrany osobních údajů
-
-## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-privacy-heading = Zásady ochrany osobních údajů
-
-## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
-
-legal-terms-heading = Podmínky služby
 
 ## AuthAllow page - Part of the device pairing flow
 
