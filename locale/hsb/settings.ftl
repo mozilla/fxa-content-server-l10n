@@ -1893,6 +1893,8 @@ pair2-authority-continue-on-mobile-cancel-button = Přetorhnyć
 ## Users see this on their computer when Firefox is needed to continue pairing.
 ## It points them at firefox.com/pair and offers a download link for Firefox.
 
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = { -brand-firefox } za synchronizaciju wočinić
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = { -brand-firefox } scahnyć
 
