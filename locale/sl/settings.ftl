@@ -589,7 +589,7 @@ cs-refresh-button =
     .title = Osveži povezane storitve
 # Button under the "Connected services" header that starts the flow to pair
 # another device to the user's account.
-cs-connect-device-button = Povežite napravo
+cs-connect-device-button = Poveži napravo
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manjkajoči ali podvojeni elementi?
 cs-disconnect-sync-heading = Odklopi od Synca
@@ -1934,7 +1934,7 @@ pair2-authority-sync-success-sync-settings-button = Nastavitve sinhronizacije
 pair2-authority-timeout-and-cancel-timeout-heading = Še vedno želite povezati napravo?
 pair2-authority-timeout-and-cancel-timeout-description = Kaže, da nam je potekla časovna omejitev. Poskusite znova, če še vedno želite povezati mobilno napravo in sinhronizirati podatke v storitvi { -brand-firefox }.
 # Shown when the pairing attempt was canceled, on either device
-pair2-authority-timeout-and-cancel-canceled-heading = Preklican
+pair2-authority-timeout-and-cancel-canceled-heading = Preklicano
 pair2-authority-timeout-and-cancel-canceled-description = Če si premislite ali želite povezati drugo napravo, poskusite znova.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Poskusi znova
@@ -2014,7 +2014,7 @@ pair2-supplicant-timeout-and-cancel-timeout-heading = Kaže, da nam je potekla �
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-timeout-description = Če želite povezati mobilno napravo in sinhronizirati vaše podatke v storitvi { -brand-firefox }, v računalniku obiščite <b>firefox.com/pair</b>.
 # Shown after the pairing attempt was canceled
-pair2-supplicant-timeout-and-cancel-canceled-heading = Preklican
+pair2-supplicant-timeout-and-cancel-canceled-heading = Preklicano
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = Če želite kadarkoli povezati napravo, v računalniku obiščite <b>firefox.com/pair</b>.
 
@@ -2249,7 +2249,7 @@ signin-passkey-fallback-heading = Vnesite geslo za sinhronizacijo
 signin-passkey-fallback-body = Da ohranite svoje podatke varne, morate pri uporabi tega gesla vnesti svoje geslo.
 signin-passkey-fallback-password-label = Geslo
 signin-passkey-fallback-continue = Nadaljuj
-signin-passkey-fallback-forgot-password-link = Pozabljeno geslo?
+signin-passkey-fallback-forgot-password-link = Ste pozabili geslo?
 
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
