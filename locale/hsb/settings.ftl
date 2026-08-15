@@ -1876,12 +1876,16 @@ pair2-authority-approve-sign-in-heading = Přizjewjenje schwalić?
 # Submit button confirming that the user started the pairing and approves the
 # other device being added to their account
 pair2-authority-approve-sign-in-confirm-button = Haj, přizjewjenje schwalić
+# "Not you?" asks whether someone other than the user started this sign-in.
+# The text inside <changePassword> links to the page for changing the password.
+pair2-authority-approve-sign-in-change-password = To wy njejsće? <changePassword>Změńće swoje hesło</changePassword>
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
 ## their phone. It confirms the flow has moved to the mobile device and waits
 ## for the remaining steps to be completed there.
 
+pair2-authority-continue-on-mobile-heading = Na swojim mobilnym graće pokročować
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Přetorhnyć
 
