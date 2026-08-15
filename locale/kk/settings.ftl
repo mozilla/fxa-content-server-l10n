@@ -1928,6 +1928,15 @@ pair2-supplicant-download-firefox-continue-button = { -brand-firefox } ішін�
 ## scan with the mobile device comes from.
 
 pair2-supplicant-ready-to-scan-heading = Құрылғыны байланыстыру үшін
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = Көбірек білу
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device once pairing has completed: the device
+## is signed in and syncing with the computer they paired it with.
+
+# Opens the view listing tabs open on the user's other synced devices
+pair2-supplicant-sync-success-view-tabs-button = Синхрондалған беттерді қарау
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
