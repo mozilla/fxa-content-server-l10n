@@ -1919,6 +1919,15 @@ pair2-supplicant-connect-this-device-cancel-button = Бас тарту
 ## sends them off to install the browser.
 
 pair2-supplicant-download-firefox-heading = Бұл құрылғыда { -brand-firefox } алу
+# Primary action. Sends the user to the Firefox download page.
+pair2-supplicant-download-firefox-continue-button = { -brand-firefox } ішінде жалғастыру
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+pair2-supplicant-ready-to-scan-heading = Құрылғыны байланыстыру үшін
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
