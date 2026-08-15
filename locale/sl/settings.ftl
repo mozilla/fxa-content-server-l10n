@@ -161,7 +161,7 @@ device-info-block-location-unknown = Neznana lokacija
 device-info-browser-os = { $browserName } v { $genericOSName }
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
-device-info-browser-device = { $browserName } dne { $deviceName }
+device-info-browser-device = { $browserName } na napravi { $deviceName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Naslov IP: { $ipAddress }
@@ -408,7 +408,7 @@ link-expired-new-link-button = Prejmi novo povezavo
 # immediately before remember-password-signin-link
 remember-password-text = Se spomnite gesla?
 # shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
-remember-password-passkey-text = Imate ključ ali si ga spomnite?
+remember-password-passkey-text = Imate ključ za dostop ali se spomnite gesla?
 # link navigates to the sign in page
 remember-password-signin-link = Prijava
 
@@ -462,7 +462,7 @@ account-recovery-notification-header-value = Ne izgubite podatkov, če pozabite 
 account-recovery-notification-header-description = Ustvarite ključ, ki omogoča obnovitev sinhroniziranih podatkov iz računa v primeru, da kadarkoli pozabite geslo.
 recovery-phone-promo-cta = Dodaj telefonsko številko za obnovitev
 recovery-phone-promo-heading = Dodatno zavarujte svoj račun s telefonsko številko za obnovitev
-recovery-phone-promo-description = Zdaj se lahko prijavite z enkratnim geslom preko sporočila SMS, če ne morete uporabiti aplikacije za overjanje v dveh korakih.
+recovery-phone-promo-description = Zdaj se lahko, če ne morete uporabiti aplikacije za overjanje v dveh korakih, prijavite z enkratnim geslom prek sporočila SMS.
 recovery-phone-promo-info-link = Preberite več o tveganju pri obnovi in zamenjavi SIM-kartice
 promo-banner-dismiss-button =
     .aria-label = Skrij pasico
@@ -532,9 +532,9 @@ password-reset-warning-have-key = Imate ključ za obnovitev računa?
 password-reset-warning-use-key-link-v2 = Uporabite ga za ponastavitev gesla in ohranitev podatkov brskalnika
 password-reset-warning-signed-in-device = Ste še vedno prijavljeni v drugi napravi?
 password-reset-warning-signed-in-device-description = Podatki brskalnika so morda na voljo. Ponastavite geslo in se prijavite v tej napravi za obnovitev in sinhronizacijo podatkov.
-password-reset-warning-restore-data-link = Naučite se, kako obnoviti podatke brskalnika iz prijavljene naprave
+password-reset-warning-restore-data-link = Naučite se, kako obnoviti podatke brskalnika iz naprave, v kateri ste prijavljeni
 password-reset-warning-new-device = Uporabljate novo napravo, vendar nimate dostopa do starih?
-password-reset-warning-new-device-description = Ko ponastavite geslo, šifrirani podatki brskalnika v strežnikih { -brand-firefox } ne bodo na voljo v tej napravi.
+password-reset-warning-new-device-description = Po ponastavitvi gesla šifrirani podatki brskalnika iz { -brand-firefox }ovih strežnikov ne bodo na voljo v tej napravi.
 
 ## Alert Bar
 
@@ -849,7 +849,7 @@ modal-default-confirm-button = Potrdi
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Vnesite potrditveno kodo
-modal-mfa-protected-subtitle = Pomagajte nam preveriti, da ste vi spremenili podatke o računu
+modal-mfa-protected-subtitle = Pomagajte se nam prepričati, da ste podatke o računu spremenili vi
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -1088,8 +1088,8 @@ recent-activity-account-recovery-phone-replace-complete = Telefonska številka z
 recent-activity-account-recovery-phone-replace-failure = Menjava telefonske številke za obnovitev ni uspela
 recent-activity-account-two-factor-replace-success = Overitev v dveh korakih je zamenjana
 recent-activity-account-two-factor-replace-failure = Zamenjava overjanja v dveh korakih ni uspela
-recent-activity-account-recovery-phone-setup-failed = Nastavitev obnovitvene telefonske številke ni uspela
-recent-activity-account-recovery-phone-reset-password-complete = Ponastavitev gesla s številko za obnovitev končana
+recent-activity-account-recovery-phone-setup-failed = Nastavitev telefonske številke za obnovitev ni uspela
+recent-activity-account-recovery-phone-reset-password-complete = Ponastavitev gesla s telefonsko številko za obnovitev dokončana
 recent-activity-account-recovery-phone-reset-password-failed = Ponastavitev gesla s telefonsko številko za obnovitev ni uspela
 # A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
 recent-activity-account-mfa-otp-sent = Zahtevano je pooblastilo za spremembe računa
@@ -1585,7 +1585,7 @@ passkey-authentication-error-not-supported-v2 = Vaš brskalnik ali naprava ne po
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
 passkey-authentication-error-security = Gesli na tej strani ni mogoče uporabiti. Preverite, ali ste na pravem varnem spletnem mestu, in poskusite znova.
 # Unexpected credential state during authentication
-passkey-authentication-error-invalid-state = Prišlo je do napake z vašim geslom. Poskusite znova ali uporabite drug način prijave.
+passkey-authentication-error-invalid-state = Pri uporabi ključa za dostop je prišlo do napake. Poskusite znova ali uporabite drug način prijave.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-authentication-error-not-readable = Nismo mogli dostopati do overitelja. Poskusite znova ali uporabite drug način prijave.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
@@ -1724,7 +1724,7 @@ pair-auth-complete-send-tab-heading = Pripravljeni ste na pošiljanje zavihkov
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } za { $deviceOS } je povezan.
-pair-auth-complete-send-tab-benefits = Brezplačno lahko takojšnje pošiljanje odprtih zavihkov, gesel in zaznamkov med napravami.
+pair-auth-complete-send-tab-benefits = Takoj lahko začnete pošiljati odprte zavihke, gesla in zaznamke med napravami.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1781,17 +1781,17 @@ pair-qr-code-aria-label = Koda QR
 ## Choice screen — "Do you have Firefox for mobile?"
 
 # Subheader shown on the choice screen
-pair-choice-subheader = Sinhronizirajte svojo izkušnjo s { -brand-firefox }
+pair-choice-subheader = Sinhronizirajte svojo izkušnjo s { -brand-firefox(sklon: "orodnik") }
 # Description shown on the choice screen
 pair-choice-description = Oglejte si shranjena gesla, zavihke, zgodovino brskanja in drugo – v vseh svojih napravah.
 # Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
-pair-choice-header-send-tab = Prenesite ali odprite { -brand-firefox } na napravi, v katero želite pošiljati zavihke
+pair-choice-header-send-tab = Prenesite ali odprite { -brand-firefox(sklon: "tozilnik") } na napravi, na katero želite pošiljati zavihke
 # Legend for the radio button fieldset
 pair-choice-legend = Izberite možnost, s katero želite nadaljevati:
 # Radio option: user already has Firefox for mobile — title
-pair-choice-has-mobile-title = { -brand-firefox } za mobilno napravo že imam
+pair-choice-has-mobile-title = { -brand-firefox(sklon: "tozilnik") } za mobilne naprave že imam
 # Radio option: user already has Firefox for mobile — description
-pair-choice-has-mobile-description = Začnite sinhronizacijo zdaj, če { -brand-firefox } že uporabljate na mobilni napravi.
+pair-choice-has-mobile-description = Če že imate { -brand-firefox(sklon: "tozilnik") } na mobilni napravi, kar začnite s sinhronizacijo.
 # Radio option: user does not have Firefox for mobile — title
 pair-choice-needs-mobile-title = Nimam { -brand-firefox } za mobilno napravo
 # Radio option: user does not have Firefox for mobile — description
