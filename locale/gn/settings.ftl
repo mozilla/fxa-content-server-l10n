@@ -1940,11 +1940,50 @@ pair2-supplicant-approve-sign-in-cancel-button = Eheja
 
 # "this device" is the mobile device the user is holding, not the computer
 # whose details are shown below the heading
-pair2-supplicant-connect-this-device-heading = ¿Embojuaju ne mba’e’oka mba’etére?
+pair2-supplicant-connect-this-device-heading = ¿Embojuaju ko mba’e’oka ne mba’etére?
 # Confirms the pairing attempt
 pair2-supplicant-connect-this-device-connect-button = Jeike
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Eheja
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing reaches a device that
+## does not have Firefox installed yet. It explains what syncing gets them and
+## sends them off to install the browser.
+
+pair2-supplicant-download-firefox-heading = Ereko { -brand-firefox } ko mba’e’okápe
+# Primary action. Sends the user to the Firefox download page.
+pair2-supplicant-download-firefox-continue-button = Eku’ejey { -brand-firefox } ndive
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+pair2-supplicant-ready-to-scan-heading = Embojuaju hag̃ua mba’e’oka
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = Eikuaave
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device once pairing has completed: the device
+## is signed in and syncing with the computer they paired it with.
+
+pair2-supplicant-sync-success-heading = Ne mba’e’oka ojuajuhína
+# Opens the view listing tabs open on the user's other synced devices
+pair2-supplicant-sync-success-view-tabs-button = Ehecha tendayke mbojuajupyre
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button = Sync ñemboheko
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = Ha’ete opámava ñeha’ãrõ
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = Hejapyre
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
