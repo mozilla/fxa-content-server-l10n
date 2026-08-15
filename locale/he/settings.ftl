@@ -555,6 +555,9 @@ cs-cannot-disconnect = הלקוח לא נמצא, לא ניתן להתנתק
 cs-logged-out-2 = נותקת מ־{ $service }
 cs-refresh-button =
     .title = ריענון שירותים מחוברים
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = חיבור מכשיר
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = פריטים חסרים או כפולים?
 cs-disconnect-sync-heading = ניתוק מ־Sync
@@ -982,6 +985,8 @@ page-passkey-add-error-system-v2 = הייתה בעיה ביצירת מפתח ה�
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = פעילות אחרונה בחשבון
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = להציג יותר
 recent-activity-account-create-v2 = החשבון נוצר
 recent-activity-account-disable-v2 = החשבון הושבת
 recent-activity-account-enable-v2 = החשבון הופעל
@@ -1766,6 +1771,47 @@ pair-unsupported-learn-more-link-v2 = מידע נוסף
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = אופס! משהו השתבש.
 pair-unsupported-desktop-firefox-fallback-message-v2 = נא לסגור לשונית זו ולנסות שוב.
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = לאשר את הכניסה?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = כן, לאשר את הכניסה
+# "Not you?" asks whether someone other than the user started this sign-in.
+# The text inside <changePassword> links to the page for changing the password.
+pair2-authority-approve-sign-in-change-password = פעולה זו לא בוצעה על ידך? <changePassword>יש לשנות את הססמה שלך</changePassword>
+
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+pair2-authority-continue-on-mobile-heading = המשך במכשיר הנייד שלך
+pair2-authority-continue-on-mobile-description = יש לבצע את השלבים בטלפון או במחשב הלוח שלך.
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = ביטול
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = יש לפתוח את { -brand-firefox } כדי לסנכרן
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction = כדי להגדיר סנכרון בין מכשירים, יש לפתוח את { -brand-firefox } במכשיר זה ולבקר באתר <b>firefox.com/pair</b>
+# Links out to the Firefox download page
+pair2-authority-download-firefox-cta = הורדת { -brand-firefox }
+
+## ScanQR page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer. It shows a QR code that they scan with
+## their phone or tablet to connect the two devices and start syncing.
+
+pair2-authority-scan-qr-heading = יש לסרוק כדי לחבר את המכשיר הנייד שלך
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
