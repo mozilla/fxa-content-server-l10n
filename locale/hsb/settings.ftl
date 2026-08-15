@@ -1866,6 +1866,17 @@ pair-unsupported-learn-more-link-v2 = Dalše informacije
 pair-unsupported-desktop-firefox-fallback-header-v2 = Hopla! Něšto je so nimokuliło.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Prošu začińće tutón rajtark a spytajće hišće raz.
 
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = Přizjewjenje schwalić?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = Haj, přizjewjenje schwalić
+
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
 ## their phone. It confirms the flow has moved to the mobile device and waits
@@ -1881,17 +1892,32 @@ pair2-authority-continue-on-mobile-cancel-button = Přetorhnyć
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = { -brand-firefox } scahnyć
 
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and offers the follow-up actions.
+
+# "syncing" here means copying data between the user's devices
+pair2-authority-sync-success-heading = Synchronizujeće
+# Opens the tabs that are open on the user's other synced devices
+pair2-authority-sync-success-view-tabs-button = Synchronizowane rajtarki pokazać
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button = Nastajenja synchronizacije
+
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
 ## either because it timed out or because it was canceled. Both cases offer to
 ## start pairing over again.
 
+# Shown when the pairing attempt expired before it was approved
+pair2-authority-timeout-and-cancel-timeout-heading = Chceće hišće grat zwjazać?
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-canceled-heading = Přetorhnjeny
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Hišće raz spytać
 # Abandons pairing without retrying
 pair2-authority-timeout-and-cancel-cancel-button = Přetorhnyć
+# Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
+pair2-authority-timeout-and-cancel-sync-settings-button = Nastajenja synchronizacije
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -1910,10 +1936,21 @@ pair2-supplicant-approve-sign-in-cancel-button = Přetorhnyć
 ## device to their account, and shows that computer's details so they can
 ## verify the request.
 
+# "this device" is the mobile device the user is holding, not the computer
+# whose details are shown below the heading
+pair2-supplicant-connect-this-device-heading = Tutón grat z wašim kontom zwjazać?
 # Confirms the pairing attempt
 pair2-supplicant-connect-this-device-connect-button = Zwjazać
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Přetorhnyć
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing reaches a device that
+## does not have Firefox installed yet. It explains what syncing gets them and
+## sends them off to install the browser.
+
+# Primary action. Sends the user to the Firefox download page.
+pair2-supplicant-download-firefox-continue-button = Z { -brand-firefox } pokročować
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -1929,6 +1966,10 @@ pair2-supplicant-ready-to-scan-learn-more-link = Dalše informacije
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Waš grat je zwjazany
+# Opens the view listing tabs open on the user's other synced devices
+pair2-supplicant-sync-success-view-tabs-button = Synchronizowane rajtarki pokazać
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button = Nastajenja synchronizacije
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
