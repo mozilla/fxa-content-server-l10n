@@ -1916,10 +1916,10 @@ pair2-authority-sync-success-sync-settings-button = Configuración de Sync
 
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = ¿Todavía querés conectar un dispositivo?
-pair2-authority-timeout-and-cancel-timeout-description = Parece que se agotó el tiempo. Intente nuevamente si aún quiere conectar su dispositivo móvil y sincronizar sus datos de { -brand-firefox }.
+pair2-authority-timeout-and-cancel-timeout-description = Parece que se agotó el tiempo. Probá de nuevo si todavía querés conectar tu dispositivo móvil y sincronizar tus datos de { -brand-firefox }.
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-canceled-heading = Cancelado
-pair2-authority-timeout-and-cancel-canceled-description = Si cambia de opinión o quiere conectar un dispositivo diferente, intente nuevamente.
+pair2-authority-timeout-and-cancel-canceled-description = Si cambiás de opinión o querés conectar un dispositivo diferente, probá de nuevo.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Intentar nuevamente
 # Abandons pairing without retrying
