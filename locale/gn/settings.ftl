@@ -581,6 +581,9 @@ cs-cannot-disconnect = Joguahára ndojejuhúi, ndaikatúi osẽ
 cs-logged-out-2 = Osẽma { $service }-gui.
 cs-refresh-button =
     .title = Embohekopyahu mba’epytyvõrã mbojuajupyre
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Embojuaju mba’e’oka
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ¿Mba’eporu oĩ’ỹva térã ikõiva?
 cs-disconnect-sync-heading = Sync-gui ñesẽ
@@ -1032,6 +1035,8 @@ page-passkey-add-error-system-v2 = Oiko apañuái emoheñoinguévo ne ñe’ẽ 
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Mba’ete rembiapo ramoguavéva
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Ehechaukave
 recent-activity-account-create-v2 = Mba’ete moheñoimbyre
 recent-activity-account-disable-v2 = Mba’ete pe’apyre
 recent-activity-account-enable-v2 = Mba’ete mbojurujapyre
