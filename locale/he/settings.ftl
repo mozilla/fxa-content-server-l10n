@@ -1812,6 +1812,33 @@ pair2-authority-download-firefox-cta = הורדת { -brand-firefox }
 ## their phone or tablet to connect the two devices and start syncing.
 
 pair2-authority-scan-qr-heading = יש לסרוק כדי לחבר את המכשיר הנייד שלך
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-scan-qr-instruction = יש לסרוק את קוד ה־QR באמצעות הטלפון או מחשב הלוח שלך כדי לסנכרן את הסימניות, הלשוניות שלך ועוד ב־{ -brand-firefox }.
+# Accessible label describing the QR code image shown on this page
+pair2-authority-scan-qr-code-aria-label = קוד QR לחיבור המכשיר הנייד שלך
+# Link to a support article for users having trouble scanning the QR code
+pair2-authority-scan-qr-help-link = קבלת עזרה בסריקה
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and offers the follow-up actions.
+
+pair2-authority-sync-success-description = הלשוניות, הסימניות, הססמאות שלך ועוד מוכנים בכל המכשירים שלך.
+# Opens the tabs that are open on the user's other synced devices
+pair2-authority-sync-success-view-tabs-button = הצגת הלשוניות המסונכרנות
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button = הגדרות סנכרון
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when pairing stopped without succeeding,
+## either because it timed out or because it was canceled. Both cases offer to
+## start pairing over again.
+
+# Shown when the pairing attempt expired before it was approved
+pair2-authority-timeout-and-cancel-timeout-heading = עדיין רוצה לחבר מכשיר?
+pair2-authority-timeout-and-cancel-timeout-description = נראה שזמן הפעולה פג. יש לנסות שוב אם עדיין ברצונך לחבר את המכשיר הנייד שלך ולסנכרן את נתוני ה־{ -brand-firefox } שלך.
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-canceled-heading = בוטל
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
