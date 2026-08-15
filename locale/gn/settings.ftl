@@ -1852,6 +1852,17 @@ pair-unsupported-desktop-firefox-fallback-header-v2 = ¡Oops! Oĩ mba’e asẽv
 pair-unsupported-desktop-firefox-fallback-message-v2 = Emboty ko tendayke ha eha’ã jey.
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = ¿Emoneĩ jeike?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = Héẽ, emoneĩ jeike ñepyrũ
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
 ## shown on their computer. It waits for them to approve the sign-in on the
 ## computer, and shows that computer's details so they can verify the request.
