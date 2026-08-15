@@ -1793,9 +1793,9 @@ pair-choice-has-mobile-title = { -brand-firefox(sklon: "tozilnik") } za mobilne 
 # Radio option: user already has Firefox for mobile — description
 pair-choice-has-mobile-description = Če že imate { -brand-firefox(sklon: "tozilnik") } na mobilni napravi, kar začnite s sinhronizacijo.
 # Radio option: user does not have Firefox for mobile — title
-pair-choice-needs-mobile-title = Nimam { -brand-firefox } za mobilno napravo
+pair-choice-needs-mobile-title = Nimam { -brand-firefox(sklon: "rodilnik") } za mobilno napravo
 # Radio option: user does not have Firefox for mobile — description
-pair-choice-needs-mobile-description = Prenesite { -brand-firefox } na mobilno napravo in zaženite sinhronizacijo.
+pair-choice-needs-mobile-description = Prenesite { -brand-firefox(sklon: "tozilnik") } na svojo mobilno napravo, nato pa zaženite sinhronizacijo.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Nadaljuj
 # Success banner shown after signing in
@@ -1872,13 +1872,13 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Zaprite ta zavihek in pos
 ## sign-in, and shows the requesting device's details so they can verify it.
 
 # Asks the user to confirm the sign-in that another one of their devices just started
-pair2-authority-approve-sign-in-heading = Odobrim prijavo?
+pair2-authority-approve-sign-in-heading = Ali želite odobriti prijavo?
 # Submit button confirming that the user started the pairing and approves the
 # other device being added to their account
 pair2-authority-approve-sign-in-confirm-button = Da, odobri prijavo
 # "Not you?" asks whether someone other than the user started this sign-in.
 # The text inside <changePassword> links to the page for changing the password.
-pair2-authority-approve-sign-in-change-password = Ali niste vi? <changePassword>Spremenite geslo</changePassword>
+pair2-authority-approve-sign-in-change-password = Niste bili vi? <changePassword>Spremenite geslo</changePassword>
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
@@ -1886,7 +1886,7 @@ pair2-authority-approve-sign-in-change-password = Ali niste vi? <changePassword>
 ## for the remaining steps to be completed there.
 
 pair2-authority-continue-on-mobile-heading = Nadaljujte na mobilni napravi
-pair2-authority-continue-on-mobile-description = Sledite korakom na telefonu ali tablici.
+pair2-authority-continue-on-mobile-description = Sledite navodilom na telefonu ali tablici.
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Prekliči
 
@@ -1899,7 +1899,7 @@ pair2-authority-download-firefox-heading = Odprite { -brand-firefox } za sinhron
 # "firefox.com/pair" is a URL and should not be translated
 pair2-authority-download-firefox-instruction = Če želite nastaviti sinhronizacijo med napravami, v tej napravi odprite { -brand-firefox } in obiščite <b>firefox.com/pair</b>
 # Links out to the Firefox download page
-pair2-authority-download-firefox-cta = Prenesi { -brand-firefox }
+pair2-authority-download-firefox-cta = Prenesi { -brand-firefox(sklon: "tozilnik") }
 
 ## ScanQR page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer. It shows a QR code that they scan with
@@ -1921,7 +1921,7 @@ pair2-authority-scan-qr-help-link = Pridobite pomoč pri branju
 pair2-authority-sync-success-heading = Izvajate sinhronizacijo
 pair2-authority-sync-success-description = Vaši zavihki, zaznamki, gesla in drugo so pripravljeni v vaših napravah.
 # Opens the tabs that are open on the user's other synced devices
-pair2-authority-sync-success-view-tabs-button = Ogled sinhroniziranih zavihkov
+pair2-authority-sync-success-view-tabs-button = Prikaži sinhronizirane zavihke
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button = Nastavitve sinhronizacije
 
@@ -1949,8 +1949,8 @@ pair2-authority-timeout-and-cancel-sync-settings-button = Nastavitve sinhronizac
 ## computer, and shows that computer's details so they can verify the request.
 
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-supplicant-approve-sign-in-heading = Še zadnji korak do sinhronizacije
-pair2-supplicant-approve-sign-in-instruction = Odobrite prijavo v računalniku.
+pair2-supplicant-approve-sign-in-heading = Še zadnji korak pred sinhronizacijo
+pair2-supplicant-approve-sign-in-instruction = Odobrite prijavo na računalniku.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Prekliči
 
@@ -1978,7 +1978,7 @@ pair2-supplicant-download-firefox-heading = Prejmite { -brand-firefox } za to na
 # <linkExternal> is an anchor tag linking to a page explaining what sync does.
 pair2-supplicant-download-firefox-description = Prenesite { -brand-firefox } in sinhronizirajte zaznamke, zgodovino in drugo med napravami. <linkExternal>Več o tem</linkExternal>
 # Primary action. Sends the user to the Firefox download page.
-pair2-supplicant-download-firefox-continue-button = Nadaljuj čez { -brand-firefox }
+pair2-supplicant-download-firefox-continue-button = Nadaljuj v { -brand-firefox(sklon: "mestnik") }
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -1999,7 +1999,7 @@ pair2-supplicant-ready-to-scan-learn-more-link = Več o tem
 pair2-supplicant-sync-success-heading = Vaša naprava je povezana
 pair2-supplicant-sync-success-description = Vaši zaznamki, zavihki in drugo bo v { -brand-firefox } ostalo sinhronizirano.
 # Opens the view listing tabs open on the user's other synced devices
-pair2-supplicant-sync-success-view-tabs-button = Ogled sinhroniziranih zavihkov
+pair2-supplicant-sync-success-view-tabs-button = Prikaži sinhronizirane zavihke
 # Opens the browser's sync settings, where the user chooses what to sync
 pair2-supplicant-sync-success-sync-settings-button = Nastavitve sinhronizacije
 
