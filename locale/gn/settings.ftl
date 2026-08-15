@@ -1884,6 +1884,27 @@ pair2-authority-download-firefox-heading = Embojuruja { -brand-firefox } embojue
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Emboguejy { -brand-firefox }
 
+## ScanQR page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer. It shows a QR code that they scan with
+## their phone or tablet to connect the two devices and start syncing.
+
+pair2-authority-scan-qr-heading = Emoha’ãnga eike hag̃ua ambue mba’e’okápe
+# Accessible label describing the QR code image shown on this page
+pair2-authority-scan-qr-code-aria-label = QR ayvu eike hag̃ua ne mba’e’okápe
+# Link to a support article for users having trouble scanning the QR code
+pair2-authority-scan-qr-help-link = Eñepytyvõta emoha’ãnga hag̃ua
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and offers the follow-up actions.
+
+# "syncing" here means copying data between the user's devices
+pair2-authority-sync-success-heading = Embojuajuhína
+# Opens the tabs that are open on the user's other synced devices
+pair2-authority-sync-success-view-tabs-button = Ehecha tendayke mbojuajupyre
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button = Sync ñemboheko
+
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
 ## shown on their computer. It waits for them to approve the sign-in on the
