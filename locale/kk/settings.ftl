@@ -1884,6 +1884,13 @@ pair2-authority-continue-on-mobile-cancel-button = Бас тарту
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = Синхрондау үшін { -brand-firefox } ашыңыз
 
+## ScanQR page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer. It shows a QR code that they scan with
+## their phone or tablet to connect the two devices and start syncing.
+
+# Link to a support article for users having trouble scanning the QR code
+pair2-authority-scan-qr-help-link = Сканерлеу бойынша көмек алыңыз
+
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
 ## shown on their computer. It waits for them to approve the sign-in on the
@@ -1894,6 +1901,24 @@ pair2-supplicant-approve-sign-in-heading = Синхрондауға дейін �
 pair2-supplicant-approve-sign-in-instruction = Компьютеріңізде кіруді мақұлдаңыз.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Бас тарту
+
+## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It asks them to confirm connecting the mobile
+## device to their account, and shows that computer's details so they can
+## verify the request.
+
+# Confirms the pairing attempt
+pair2-supplicant-connect-this-device-connect-button = Байланысу
+# Dismisses the pairing attempt
+pair2-supplicant-connect-this-device-cancel-button = Бас тарту
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing reaches a device that
+## does not have Firefox installed yet. It explains what syncing gets them and
+## sends them off to install the browser.
+
+pair2-supplicant-download-firefox-heading = Бұл құрылғыда { -brand-firefox } алу
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
