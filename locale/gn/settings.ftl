@@ -1861,6 +1861,28 @@ pair2-authority-approve-sign-in-heading = ¿Emoneĩ jeike?
 # Submit button confirming that the user started the pairing and approves the
 # other device being added to their account
 pair2-authority-approve-sign-in-confirm-button = Héẽ, emoneĩ jeike ñepyrũ
+# "Not you?" asks whether someone other than the user started this sign-in.
+# The text inside <changePassword> links to the page for changing the password.
+pair2-authority-approve-sign-in-change-password = ¿Ndaha’éi nde? <changePassword>Emoambue ne ñe’ẽñemi</changePassword>
+
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+pair2-authority-continue-on-mobile-heading = Eime ne mba’e’oka oku’évape
+pair2-authority-continue-on-mobile-description = Esegi jeku’e nde pumbyry térã tablétape.
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = Eheja
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = Embojuruja { -brand-firefox } embojuehe hag̃ua
+# Links out to the Firefox download page
+pair2-authority-download-firefox-cta = Emboguejy { -brand-firefox }
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
