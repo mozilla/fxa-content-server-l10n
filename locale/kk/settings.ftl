@@ -581,6 +581,9 @@ cs-cannot-disconnect = Клиент табылмады, ажырату мүмк�
 cs-logged-out-2 = { $service } жүйесінен шықтыңыз
 cs-refresh-button =
     .title = Байланыстырылған қызметтерді жаңарту
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Құрылғыны байланыстыру
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Жоқ немесе қайталанған элемент?
 cs-disconnect-sync-heading = Синхрондаумен байланысты үзу
@@ -1034,6 +1037,8 @@ page-passkey-add-error-system-v2 = Рұқсат кілтіңізді жасау 
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Тіркелгінің жуырдағы белсенділігі
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Көбірек көрсету
 recent-activity-account-create-v2 = Тіркелгі жасалды
 recent-activity-account-disable-v2 = Тіркелгі сөндірілді
 recent-activity-account-enable-v2 = Тіркелгі іске қосылды
@@ -1847,6 +1852,37 @@ pair-unsupported-learn-more-link-v2 = Көбірек білу
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Бірнәрсе қате кетті.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Бұл бетті жауып, әрекетті қайталап көріңіз.
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = Кіруді растау керек пе?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = Иә, кіруді растау
+# "Not you?" asks whether someone other than the user started this sign-in.
+# The text inside <changePassword> links to the page for changing the password.
+pair2-authority-approve-sign-in-change-password = Сіз емессіз бе? <changePassword>Пароліңізді өзгертіңіз</changePassword>
+
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+pair2-authority-continue-on-mobile-heading = Мобильді құрылғыңызда жалғастырыңыз
+pair2-authority-continue-on-mobile-description = Телефоныңыз немесе планшетіңізде қадамдарды орындаңыз.
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = Бас тарту
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = Синхрондау үшін { -brand-firefox } ашыңыз
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
