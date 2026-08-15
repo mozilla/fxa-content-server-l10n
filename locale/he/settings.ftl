@@ -1839,6 +1839,13 @@ pair2-authority-timeout-and-cancel-timeout-heading = עדיין רוצה לחב�
 pair2-authority-timeout-and-cancel-timeout-description = נראה שזמן הפעולה פג. יש לנסות שוב אם עדיין ברצונך לחבר את המכשיר הנייד שלך ולסנכרן את נתוני ה־{ -brand-firefox } שלך.
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-canceled-heading = בוטל
+pair2-authority-timeout-and-cancel-canceled-description = אם תשנה את דעתך או שתרצה לחבר מכשיר אחר, ניתן לנסות שוב.
+# Restarts the pairing flow
+pair2-authority-timeout-and-cancel-try-again-button = ניסיון חוזר
+# Abandons pairing without retrying
+pair2-authority-timeout-and-cancel-cancel-button = ביטול
+# Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
+pair2-authority-timeout-and-cancel-sync-settings-button = הגדרות סנכרון
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -1850,6 +1857,70 @@ pair2-supplicant-approve-sign-in-heading = שלב אחרון לסנכרון
 pair2-supplicant-approve-sign-in-instruction = אישור הכניסה במחשב שלך.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = ביטול
+
+## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It asks them to confirm connecting the mobile
+## device to their account, and shows that computer's details so they can
+## verify the request.
+
+# "this device" is the mobile device the user is holding, not the computer
+# whose details are shown below the heading
+pair2-supplicant-connect-this-device-heading = לחבר את המכשיר הזה לחשבון שלך?
+# Confirms the pairing attempt
+pair2-supplicant-connect-this-device-connect-button = חיבור
+# Dismisses the pairing attempt
+pair2-supplicant-connect-this-device-cancel-button = ביטול
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing reaches a device that
+## does not have Firefox installed yet. It explains what syncing gets them and
+## sends them off to install the browser.
+
+pair2-supplicant-download-firefox-heading = קבלת { -brand-firefox } במכשיר זה
+# "sync" is a verb here, referring to syncing data between the user's devices.
+# <linkExternal> is an anchor tag linking to a page explaining what sync does.
+pair2-supplicant-download-firefox-description = ניתן להוריד את { -brand-firefox } כדי לסנכרן סימניות, היסטוריה ועוד בין מכשירים. <linkExternal>מידע נוסף</linkExternal>
+# Primary action. Sends the user to the Firefox download page.
+pair2-supplicant-download-firefox-continue-button = המשך ב־{ -brand-firefox }
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+pair2-supplicant-ready-to-scan-heading = כדי לחבר מכשיר
+# <b> emphasises the address the user types on their computer. It is not a link,
+# and the address itself must not be translated.
+pair2-supplicant-ready-to-scan-instruction = במחשב שלך, יש לפתוח את { -brand-firefox } ולבקר ב־<b>firefox.com/pair</b>, ולעקוב אחרי ההנחיות שמופיעות על המסך כדי לחבר את המכשיר הנייד הזה.
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = מידע נוסף
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device once pairing has completed: the device
+## is signed in and syncing with the computer they paired it with.
+
+pair2-supplicant-sync-success-heading = המכשיר שלך מחובר
+pair2-supplicant-sync-success-description = הסימניות, הלשוניות ועוד שלך יישארו מסונכרנים ב־{ -brand-firefox }.
+# Opens the view listing tabs open on the user's other synced devices
+pair2-supplicant-sync-success-view-tabs-button = הצגת הלשוניות המסונכרנות
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button = הגדרות סנכרון
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = נראה שזמן הפעולה פג
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-timeout-description = כדי לחבר את המכשיר הנייד שלך ולסנכרן את נתוני ה־{ -brand-firefox } שלך, יש לבקר באתר <b>firefox.com/pair</b> במחשב שלך.
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = בוטל
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = כדי לחבר מכשיר בכל עת, יש לבקר באתר <b>firefox.com/pair</b> במחשב שלך.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
