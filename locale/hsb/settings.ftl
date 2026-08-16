@@ -2011,6 +2011,8 @@ pair2-supplicant-sync-success-sync-settings-button = Nastajenja synchronizacije
 
 # Shown when the pairing attempt expired before it completed. "we" is Firefox.
 pair2-supplicant-timeout-and-cancel-timeout-heading = Zda so, zo smy čas překročili
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-timeout-description = Zo byšće swój mobilny grat zwjazał a swoje daty { -brand-firefox } synchronizował, wopytajće <b>firefox.com/pair</b> na swojim ličaku.
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Přetorhnjeny
 # "firefox.com/pair" is a URL and should not be translated

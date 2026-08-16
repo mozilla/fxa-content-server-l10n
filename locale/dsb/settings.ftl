@@ -587,6 +587,9 @@ cs-cannot-disconnect = Klient njejo sr namakał, zwisk njedajo se źěliś
 cs-logged-out-2 = Wót { $service } wótzjawjony
 cs-refresh-button =
     .title = Zwězane słužby aktualizěrowaś
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Rěd zwězaś
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Felujuce abo dwójne elementy?
 cs-disconnect-sync-heading = Ze Sync źěliś
@@ -1042,6 +1045,8 @@ page-passkey-add-error-system-v2 = Pśi napóranju wašogo gronidłowego kluca j
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Nejnowša kontowa aktiwita
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Wěcej pokazaś
 recent-activity-account-create-v2 = Konto załožone
 recent-activity-account-disable-v2 = Konto znjemóžnjone
 recent-activity-account-enable-v2 = Konto zmóžnjone
@@ -1860,6 +1865,17 @@ pair-unsupported-learn-more-link-v2 = Dalšne informacije
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Hopla! Něco njejo se raźiło.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = Pśizjawjenje pśizwóliś?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = Jo, pśizjawjenje pśizwóliś
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
