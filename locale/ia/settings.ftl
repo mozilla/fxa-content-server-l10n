@@ -579,6 +579,9 @@ cs-cannot-disconnect = Cliente non trovate, impossibile disconnecter
 cs-logged-out-2 = Session { $service } claudite.
 cs-refresh-button =
     .title = Actualisar le servicios connectite
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Connecter un apparato
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Elementos mancante o duplicate?
 cs-disconnect-sync-heading = Disconnecter se de Sync
@@ -1034,6 +1037,8 @@ page-passkey-add-error-system-v2 = Il habeva un problema a crear tu clave-contra
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Activitate de conto recente
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Monstrar plus
 recent-activity-account-create-v2 = Conto create.
 recent-activity-account-disable-v2 = Conto disactivate.
 recent-activity-account-enable-v2 = Conto activate.
@@ -1850,6 +1855,26 @@ pair-unsupported-learn-more-link-v2 = Pro saper plus
 pair-unsupported-desktop-firefox-fallback-header-v2 = Oppla! Alco errate eveniva.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Claude iste scheda e reproba.
 
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = Cancellar
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when pairing stopped without succeeding,
+## either because it timed out or because it was canceled. Both cases offer to
+## start pairing over again.
+
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-canceled-heading = Cancellate
+# Restarts the pairing flow
+pair2-authority-timeout-and-cancel-try-again-button = Retentar
+# Abandons pairing without retrying
+pair2-authority-timeout-and-cancel-cancel-button = Cancellar
+
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
 ## shown on their computer. It waits for them to approve the sign-in on the
@@ -1860,6 +1885,34 @@ pair2-supplicant-approve-sign-in-heading = Un ultime passo pro synchronisar
 pair2-supplicant-approve-sign-in-instruction = Approba le accesso sur tu computator.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Cancellar
+
+## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It asks them to confirm connecting the mobile
+## device to their account, and shows that computer's details so they can
+## verify the request.
+
+# Confirms the pairing attempt
+pair2-supplicant-connect-this-device-connect-button = Connecter
+# Dismisses the pairing attempt
+pair2-supplicant-connect-this-device-cancel-button = Cancellar
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = Pro saper plus
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = Cancellate
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
