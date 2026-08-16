@@ -1898,6 +1898,16 @@ pair2-authority-download-firefox-heading = { -brand-firefox } za synchronizaciju
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = { -brand-firefox } scahnyć
 
+## ScanQR page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer. It shows a QR code that they scan with
+## their phone or tablet to connect the two devices and start syncing.
+
+pair2-authority-scan-qr-heading = Skenujće, zo byšće ze swojim mobilnym gratom zwjazał
+# Accessible label describing the QR code image shown on this page
+pair2-authority-scan-qr-code-aria-label = QR-kod za zwjazowanje z wašim mobilnym gratom
+# Link to a support article for users having trouble scanning the QR code
+pair2-authority-scan-qr-help-link = Pomoc za skenowanje dóstać
+
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer once the mobile device has been paired.
 ## It confirms that sync is on and offers the follow-up actions.
