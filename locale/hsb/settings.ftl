@@ -1906,6 +1906,8 @@ pair2-authority-download-firefox-cta = { -brand-firefox } scahnyć
 ## their phone or tablet to connect the two devices and start syncing.
 
 pair2-authority-scan-qr-heading = Skenujće, zo byšće ze swojim mobilnym gratom zwjazał
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-scan-qr-instruction = Skenujće QR-kod ze swojim telefonom abo tabletom, zo byšće swoje zapołožki, rajtarki { -brand-firefox } a wjace synchronizował.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR-kod za zwjazowanje z wašim mobilnym gratom
 # Link to a support article for users having trouble scanning the QR code
@@ -1917,6 +1919,7 @@ pair2-authority-scan-qr-help-link = Pomoc za skenowanje dóstać
 
 # "syncing" here means copying data between the user's devices
 pair2-authority-sync-success-heading = Synchronizujeće
+pair2-authority-sync-success-description = Waše rajtarki, zapołožki, hesła a wjace su hotowe na wašich gratach.
 # Opens the tabs that are open on the user's other synced devices
 pair2-authority-sync-success-view-tabs-button = Synchronizowane rajtarki pokazać
 # Opens the browser settings that control what is synced
@@ -1929,8 +1932,10 @@ pair2-authority-sync-success-sync-settings-button = Nastajenja synchronizacije
 
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = Chceće hišće grat zwjazać?
+pair2-authority-timeout-and-cancel-timeout-description = Zda so, zo smy čas překročili. Spytajće hišće raz, jeli hišće chceće swój mobilny grat zwjazać a swoje daty { -brand-firefox } synchronizować.
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-canceled-heading = Přetorhnjeny
+pair2-authority-timeout-and-cancel-canceled-description = Jeli swoje měnjenje měnjeće abo chceće druhi grat zwjazać, spytajće hišće raz.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Hišće raz spytać
 # Abandons pairing without retrying
@@ -1969,6 +1974,9 @@ pair2-supplicant-connect-this-device-cancel-button = Přetorhnyć
 ## sends them off to install the browser.
 
 pair2-supplicant-download-firefox-heading = Wobstarajće sej { -brand-firefox } na tutym graće
+# "sync" is a verb here, referring to syncing data between the user's devices.
+# <linkExternal> is an anchor tag linking to a page explaining what sync does.
+pair2-supplicant-download-firefox-description = Sćehńće { -brand-firefox }, zo byšće zapołožki, historiju a wjace na swojich gratach synchronizował. <linkExternal>Dalše informacije</linkExternal>
 # Primary action. Sends the user to the Firefox download page.
 pair2-supplicant-download-firefox-continue-button = Z { -brand-firefox } pokročować
 
@@ -1978,6 +1986,9 @@ pair2-supplicant-download-firefox-continue-button = Z { -brand-firefox } pokroč
 ## scan with the mobile device comes from.
 
 pair2-supplicant-ready-to-scan-heading = Grat zwjazać
+# <b> emphasises the address the user types on their computer. It is not a link,
+# and the address itself must not be translated.
+pair2-supplicant-ready-to-scan-instruction = Wočińće { -brand-firefox } na swojim ličaku a wopytajće <b>firefox.com/pair</b> a slědujće instrukcijam na wobrazowce, zo byšće swój mobilny grat zwjazał.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Dalše informacije
 
@@ -1986,6 +1997,7 @@ pair2-supplicant-ready-to-scan-learn-more-link = Dalše informacije
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Waš grat je zwjazany
+pair2-supplicant-sync-success-description = Waše zapołožki, rajtarki a wjace w { -brand-firefox } synchronizowane wostanu.
 # Opens the view listing tabs open on the user's other synced devices
 pair2-supplicant-sync-success-view-tabs-button = Synchronizowane rajtarki pokazać
 # Opens the browser's sync settings, where the user chooses what to sync
@@ -2001,6 +2013,8 @@ pair2-supplicant-sync-success-sync-settings-button = Nastajenja synchronizacije
 pair2-supplicant-timeout-and-cancel-timeout-heading = Zda so, zo smy čas překročili
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Přetorhnjeny
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = Zo byšće grat kóždy čas zwjazał, wopytajće <b>firefox.com/pair</b> na swojim ličaku.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
