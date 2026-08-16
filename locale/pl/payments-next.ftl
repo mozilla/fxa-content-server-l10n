@@ -17,6 +17,7 @@ next-payment-method-first-approve = Najpierw musisz zatwierdzić subskrypcję
 
 ## Error page
 
+error-page-account-not-found-heading = Nie odnaleziono konta
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Wybierz swój kraj i wprowadź kod pocztowy, <p>aby przejść do zapłaty za { $productName }</p>
 location-banner-info = Nie udało nam się automatycznie wykryć Twojej lokalizacji
