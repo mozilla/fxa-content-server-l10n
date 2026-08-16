@@ -1895,6 +1895,8 @@ pair2-authority-download-firefox-cta = { -brand-firefox } жүктеп алу
 pair2-authority-scan-qr-heading = Мобильді құрылғыңызды байланыстыру үшін сканерлеңіз
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-scan-qr-instruction = { -brand-firefox } бетбелгілер, беттер және т.б. синхрондау үшін QR кодын телефоныңызбен немесе планшетіңізбен сканерлеңіз.
+# Accessible label describing the QR code image shown on this page
+pair2-authority-scan-qr-code-aria-label = Мобильді құрылғыңызды байланыстыру үшін QR коды
 # Link to a support article for users having trouble scanning the QR code
 pair2-authority-scan-qr-help-link = Сканерлеу бойынша көмек алыңыз
 
@@ -1902,6 +1904,9 @@ pair2-authority-scan-qr-help-link = Сканерлеу бойынша көмек
 ## Users see this on their computer once the mobile device has been paired.
 ## It confirms that sync is on and offers the follow-up actions.
 
+# "syncing" here means copying data between the user's devices
+pair2-authority-sync-success-heading = Сіз синхрондаудасыз
+pair2-authority-sync-success-description = Сіздің браузер беттері, бетбелгілер, парольдер және т.б. барлық құрылғыларыңызда дайын.
 # Opens the tabs that are open on the user's other synced devices
 pair2-authority-sync-success-view-tabs-button = Синхрондалған беттерді қарау
 # Opens the browser settings that control what is synced
@@ -1956,6 +1961,9 @@ pair2-supplicant-connect-this-device-cancel-button = Бас тарту
 ## sends them off to install the browser.
 
 pair2-supplicant-download-firefox-heading = Бұл құрылғыда { -brand-firefox } алу
+# "sync" is a verb here, referring to syncing data between the user's devices.
+# <linkExternal> is an anchor tag linking to a page explaining what sync does.
+pair2-supplicant-download-firefox-description = Құрылғылар арасында бетбелгілерді, тарихты және т.б. синхрондау үшін { -brand-firefox } жүктеп алыңыз. <linkExternal>Көбірек білу</linkExternal>
 # Primary action. Sends the user to the Firefox download page.
 pair2-supplicant-download-firefox-continue-button = { -brand-firefox } ішінде жалғастыру
 
@@ -1965,6 +1973,9 @@ pair2-supplicant-download-firefox-continue-button = { -brand-firefox } ішін�
 ## scan with the mobile device comes from.
 
 pair2-supplicant-ready-to-scan-heading = Құрылғыны байланыстыру үшін
+# <b> emphasises the address the user types on their computer. It is not a link,
+# and the address itself must not be translated.
+pair2-supplicant-ready-to-scan-instruction = Компьютеріңізде { -brand-firefox } ашып, <b>firefox.com/pair</b> сайтына өтіп, осы мобильді құрылғыны байланыстыру үшін экрандағы нұсқауларды орындаңыз.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Көбірек білу
 
