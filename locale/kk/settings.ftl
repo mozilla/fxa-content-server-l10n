@@ -1883,11 +1883,18 @@ pair2-authority-continue-on-mobile-cancel-button = Бас тарту
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = Синхрондау үшін { -brand-firefox } ашыңыз
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction = Құрылғылар арасында синхрондауды баптау үшін осы құрылғыда { -brand-firefox } ашып, <b>firefox.com/pair</b> сайтына кіріңіз.
+# Links out to the Firefox download page
+pair2-authority-download-firefox-cta = { -brand-firefox } жүктеп алу
 
 ## ScanQR page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer. It shows a QR code that they scan with
 ## their phone or tablet to connect the two devices and start syncing.
 
+pair2-authority-scan-qr-heading = Мобильді құрылғыңызды байланыстыру үшін сканерлеңіз
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-scan-qr-instruction = { -brand-firefox } бетбелгілер, беттер және т.б. синхрондау үшін QR кодын телефоныңызбен немесе планшетіңізбен сканерлеңіз.
 # Link to a support article for users having trouble scanning the QR code
 pair2-authority-scan-qr-help-link = Сканерлеу бойынша көмек алыңыз
 
@@ -1966,8 +1973,26 @@ pair2-supplicant-ready-to-scan-learn-more-link = Көбірек білу
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Сіздің құрылғыңыз байланысқан
+pair2-supplicant-sync-success-description = Сіздің бетбелгілер, беттер және т.б. { -brand-firefox } ішінде синхрондалған күйінде қалады.
 # Opens the view listing tabs open on the user's other synced devices
 pair2-supplicant-sync-success-view-tabs-button = Синхрондалған беттерді қарау
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button = Синхрондау баптаулары
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = Бөлінген уақыт өтіп кеткен сияқты
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-timeout-description = Мобильді құрылғыңызды қосу және { -brand-firefox } деректеріңізді синхрондау үшін компьютеріңізден <b>firefox.com/pair</b> сайтына кіріңіз.
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = Бас тартылған
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = Құрылғыны кез келген уақытта қосу үшін компьютеріңізден <b>firefox.com/pair</b> сайтына кіріңіз.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
