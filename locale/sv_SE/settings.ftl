@@ -2001,7 +2001,7 @@ pair2-supplicant-timeout-and-cancel-timeout-description = För att ansluta din m
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Avbruten
 # "firefox.com/pair" is a URL and should not be translated
-pair2-supplicant-timeout-and-cancel-canceled-description = Om du vill ansluta en enhet när som helst besöker du <b>firefox.com/pair</b> på din dator.
+pair2-supplicant-timeout-and-cancel-canceled-description = När du vill ansluta en enhet besöker du <b>firefox.com/pair</b> på din dator.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
