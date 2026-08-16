@@ -1911,6 +1911,26 @@ pair2-authority-sync-success-heading = Вы синхронизируетесь
 pair2-authority-sync-success-description = Ваши вкладки, закладки, пароли и многое другое готовы для всех ваших устройств.
 # Opens the tabs that are open on the user's other synced devices
 pair2-authority-sync-success-view-tabs-button = Просмотреть синхронизированные вкладки
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button = Настройки синхронизации
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when pairing stopped without succeeding,
+## either because it timed out or because it was canceled. Both cases offer to
+## start pairing over again.
+
+# Shown when the pairing attempt expired before it was approved
+pair2-authority-timeout-and-cancel-timeout-heading = Всё ещё хотите подключить устройство?
+pair2-authority-timeout-and-cancel-timeout-description = Похоже, у нас истекло время ожидания. Попробуйте ещё раз, если вы по-прежнему хотите подключить свое мобильное устройство и синхронизировать данные { -brand-firefox }.
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-canceled-heading = Отменено
+pair2-authority-timeout-and-cancel-canceled-description = Если вы передумаете или захотите подключить другое устройство, попробуйте ещё раз.
+# Restarts the pairing flow
+pair2-authority-timeout-and-cancel-try-again-button = Попробовать снова
+# Abandons pairing without retrying
+pair2-authority-timeout-and-cancel-cancel-button = Отмена
+# Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
+pair2-authority-timeout-and-cancel-sync-settings-button = Настройки синхронизации
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -1922,6 +1942,70 @@ pair2-supplicant-approve-sign-in-heading = Последний шаг до син
 pair2-supplicant-approve-sign-in-instruction = Подтвердите вход на вашем компьютере.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Отмена
+
+## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It asks them to confirm connecting the mobile
+## device to their account, and shows that computer's details so they can
+## verify the request.
+
+# "this device" is the mobile device the user is holding, not the computer
+# whose details are shown below the heading
+pair2-supplicant-connect-this-device-heading = Подключить это устройство к вашему аккаунту?
+# Confirms the pairing attempt
+pair2-supplicant-connect-this-device-connect-button = Подключить
+# Dismisses the pairing attempt
+pair2-supplicant-connect-this-device-cancel-button = Отменить
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing reaches a device that
+## does not have Firefox installed yet. It explains what syncing gets them and
+## sends them off to install the browser.
+
+pair2-supplicant-download-firefox-heading = Установите { -brand-firefox } на это устройство
+# "sync" is a verb here, referring to syncing data between the user's devices.
+# <linkExternal> is an anchor tag linking to a page explaining what sync does.
+pair2-supplicant-download-firefox-description = Скачайте { -brand-firefox }, чтобы синхронизировать закладки, историю и многое другое между устройствами. <linkExternal>Подробнее</linkExternal>
+# Primary action. Sends the user to the Firefox download page.
+pair2-supplicant-download-firefox-continue-button = Продолжить в { -brand-firefox }
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+pair2-supplicant-ready-to-scan-heading = Чтобы подключить устройство
+# <b> emphasises the address the user types on their computer. It is not a link,
+# and the address itself must not be translated.
+pair2-supplicant-ready-to-scan-instruction = Откройте { -brand-firefox } на своём компьютере, посетите <b>firefox.com/pair</b> и следуйте инструкциям на экране, чтобы подключить мобильное устройство.
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = Подробнее
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device once pairing has completed: the device
+## is signed in and syncing with the computer they paired it with.
+
+pair2-supplicant-sync-success-heading = Ваше устройство подключено
+pair2-supplicant-sync-success-description = Ваши закладки, вкладки и другое будут синхронизироваться в { -brand-firefox }.
+# Opens the view listing tabs open on the user's other synced devices
+pair2-supplicant-sync-success-view-tabs-button = Просмотреть синхронизированные вкладки
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button = Настройки синхронизации
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = Похоже, у нас истекло время ожидания
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-timeout-description = Чтобы подключить мобильное устройство и синхронизировать данные { -brand-firefox }, посетите <b>firefox.com/pair</b> на вашем компьютере.
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = Отменено
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = Чтобы подключить устройство в любое время, посетите <b>firefox.com/pair</b> на вашем компьютере.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
