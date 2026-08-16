@@ -1716,6 +1716,78 @@ pair-unsupported-learn-more-link-v2 = Daha fazla bilgi al
 pair-unsupported-desktop-firefox-fallback-header-v2 = Ne yazık ki bir hata oluştu.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and offers the follow-up actions.
+
+# Opens the tabs that are open on the user's other synced devices
+pair2-authority-sync-success-view-tabs-button = Eşitlenen sekmeleri göster
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button = Eşitleme ayarları
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when pairing stopped without succeeding,
+## either because it timed out or because it was canceled. Both cases offer to
+## start pairing over again.
+
+# Shown when the pairing attempt expired before it was approved
+pair2-authority-timeout-and-cancel-timeout-heading = Hâlâ cihaz bağlamak istiyor musunuz?
+# Restarts the pairing flow
+pair2-authority-timeout-and-cancel-try-again-button = Yeniden dene
+# Abandons pairing without retrying
+pair2-authority-timeout-and-cancel-cancel-button = Vazgeç
+# Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
+pair2-authority-timeout-and-cancel-sync-settings-button = Eşitleme ayarları
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It waits for them to approve the sign-in on the
+## computer, and shows that computer's details so they can verify the request.
+
+# Dismisses the pairing attempt
+pair2-supplicant-approve-sign-in-cancel-button = Vazgeç
+
+## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It asks them to confirm connecting the mobile
+## device to their account, and shows that computer's details so they can
+## verify the request.
+
+# "this device" is the mobile device the user is holding, not the computer
+# whose details are shown below the heading
+pair2-supplicant-connect-this-device-heading = Bu cihaz hesabınıza bağlansın mı?
+# Confirms the pairing attempt
+pair2-supplicant-connect-this-device-connect-button = Bağla
+# Dismisses the pairing attempt
+pair2-supplicant-connect-this-device-cancel-button = Vazgeç
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing reaches a device that
+## does not have Firefox installed yet. It explains what syncing gets them and
+## sends them off to install the browser.
+
+# Primary action. Sends the user to the Firefox download page.
+pair2-supplicant-download-firefox-continue-button = { -brand-firefox } ile devam et
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device once pairing has completed: the device
+## is signed in and syncing with the computer they paired it with.
+
+pair2-supplicant-sync-success-heading = Cihazınız bağlandı
+# Opens the view listing tabs open on the user's other synced devices
+pair2-supplicant-sync-success-view-tabs-button = Eşitlenen sekmeleri göster
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button = Eşitleme ayarları
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = Zaman aşımına uğradık
+
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
@@ -1733,6 +1805,11 @@ service-welcome-vpn-heading = Sonraki: VPN’i açın
 set-password-heading-v2 = Eşitleme için parola oluşturun
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Bu işlem verilerinizi şifreler. { -brand-google } veya { -brand-apple } hesabınızın parolasından farklı olmalıdır.
+
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Bu parola, eşitlenen verilerinizi şifreleyerek güvende tutar.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1931,6 +2008,7 @@ back = Geri dön
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
 signin-passkey-fallback-header = Girişi tamamla
+signin-passkey-fallback-heading = Eşitlemek için parolanızı yazın
 signin-passkey-fallback-password-label = Parola
 signin-passkey-fallback-continue = Devam et
 signin-passkey-fallback-forgot-password-link = Parolanızı unuttunuz mu?
