@@ -1891,6 +1891,33 @@ pair2-authority-download-firefox-heading = Синхрондау үшін { -bran
 # Link to a support article for users having trouble scanning the QR code
 pair2-authority-scan-qr-help-link = Сканерлеу бойынша көмек алыңыз
 
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and offers the follow-up actions.
+
+# Opens the tabs that are open on the user's other synced devices
+pair2-authority-sync-success-view-tabs-button = Синхрондалған беттерді қарау
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button = Синхрондау баптаулары
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when pairing stopped without succeeding,
+## either because it timed out or because it was canceled. Both cases offer to
+## start pairing over again.
+
+# Shown when the pairing attempt expired before it was approved
+pair2-authority-timeout-and-cancel-timeout-heading = Әлі де құрылғыны қосқыңыз келе ме?
+pair2-authority-timeout-and-cancel-timeout-description = Байланыс орнатуға бөлінген уақыт өтіп кеткен сияқты. Мобильді құрылғыңызды қосып, { -brand-firefox } деректеріңізді синхрондағыңыз келсе, қайталап көріңіз.
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-canceled-heading = Бас тартылған
+pair2-authority-timeout-and-cancel-canceled-description = Егер ойыңызды өзгертсеңіз немесе басқа құрылғыны қосқыңыз келсе, қайталап көріңіз.
+# Restarts the pairing flow
+pair2-authority-timeout-and-cancel-try-again-button = Қайтадан көру
+# Abandons pairing without retrying
+pair2-authority-timeout-and-cancel-cancel-button = Бас тарту
+# Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
+pair2-authority-timeout-and-cancel-sync-settings-button = Синхрондау баптаулары
+
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
 ## shown on their computer. It waits for them to approve the sign-in on the
@@ -1908,6 +1935,9 @@ pair2-supplicant-approve-sign-in-cancel-button = Бас тарту
 ## device to their account, and shows that computer's details so they can
 ## verify the request.
 
+# "this device" is the mobile device the user is holding, not the computer
+# whose details are shown below the heading
+pair2-supplicant-connect-this-device-heading = Бұл құрылғыны тіркелгіңізге байланыстыру керек пе?
 # Confirms the pairing attempt
 pair2-supplicant-connect-this-device-connect-button = Байланысу
 # Dismisses the pairing attempt
@@ -1935,6 +1965,7 @@ pair2-supplicant-ready-to-scan-learn-more-link = Көбірек білу
 ## Users see this on their mobile device once pairing has completed: the device
 ## is signed in and syncing with the computer they paired it with.
 
+pair2-supplicant-sync-success-heading = Сіздің құрылғыңыз байланысқан
 # Opens the view listing tabs open on the user's other synced devices
 pair2-supplicant-sync-success-view-tabs-button = Синхрондалған беттерді қарау
 
