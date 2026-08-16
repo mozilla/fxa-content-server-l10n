@@ -1886,6 +1886,7 @@ pair2-authority-approve-sign-in-change-password = To wy njejsće? <changePasswor
 ## for the remaining steps to be completed there.
 
 pair2-authority-continue-on-mobile-heading = Na swojim mobilnym graće pokročować
+pair2-authority-continue-on-mobile-description = Slědujće krokam na swojim telefonje abo tableće.
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Přetorhnyć
 
@@ -1895,6 +1896,8 @@ pair2-authority-continue-on-mobile-cancel-button = Přetorhnyć
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = { -brand-firefox } za synchronizaciju wočinić
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction = Zo byšće synchronizaciju na gratach konfigurował, wočińće { -brand-firefox } na tutym graće a wopytajće <b>firefox.com/pair</b>
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = { -brand-firefox } scahnyć
 
@@ -1965,6 +1968,7 @@ pair2-supplicant-connect-this-device-cancel-button = Přetorhnyć
 ## does not have Firefox installed yet. It explains what syncing gets them and
 ## sends them off to install the browser.
 
+pair2-supplicant-download-firefox-heading = Wobstarajće sej { -brand-firefox } na tutym graće
 # Primary action. Sends the user to the Firefox download page.
 pair2-supplicant-download-firefox-continue-button = Z { -brand-firefox } pokročować
 
@@ -1993,6 +1997,8 @@ pair2-supplicant-sync-success-sync-settings-button = Nastajenja synchronizacije
 ## are informational and offer no on-screen action, so the copy points the user
 ## back to their computer to start again.
 
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = Zda so, zo smy čas překročili
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Přetorhnjeny
 
