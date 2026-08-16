@@ -514,6 +514,9 @@ cs-cannot-disconnect = ਕਲਾਈਂਟ ਨਹੀਂ ਲੱਭਿਆ, ਡਿ�
 cs-logged-out-2 = { $service } ਚੋਂ ਲਾਗ ਆਉਟ ਕੀਤਾ
 cs-refresh-button =
     .title = ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = ਗੁੰਮ ਜਾਂ ਡੁਪਲੀਕੇਟ ਚੀਜ਼ਾਂ ਹਨ?
 cs-disconnect-sync-heading = ਸਿੰਕ ਤੋਂ ਡਿਸ-ਕਨੈਕਟ ਕਰੋ
@@ -884,6 +887,8 @@ display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱ�
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = ਸੱਜੀ ਖਾਤਾ ਸਰਗਰਮੀ
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = ਹੋਰ ਵੇਖਾਓ
 recent-activity-account-create-v2 = ਖਾਤਾ ਬਣਾਇਆ
 recent-activity-account-disable-v2 = ਖਾਤਾ ਅਸਮਰੱਥ ਕੀਤਾ
 recent-activity-account-enable-v2 = ਖਾਤਾ ਸਮਰੱਥ ਕੀਤਾ
@@ -1401,6 +1406,47 @@ pair-wait-for-auth-heading-text = ਹੁਣ <span>ਤੁਹਾਡੇ ਹੋਰ �
 
 pair-unsupported-header = ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ
 pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰਾ ਵਰਤਿਆ ਸੀ? ਤੁਹਾਨੂੰ { -brand-firefox } ਐਪ ਤੋਂ ਪੇਅਰ ਕਰਨਾ ਪਵੇਗਾ।
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = ਸਾਈਨ ਇਨ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨਾ ਹੈ?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = ਹਾਂ, ਸਾਈਨ ਇਨ ਮਨਜ਼ੂਰ ਹੈ
+# "Not you?" asks whether someone other than the user started this sign-in.
+# The text inside <changePassword> links to the page for changing the password.
+pair2-authority-approve-sign-in-change-password = ਤੁਸੀਂ ਨਹੀ ਸੀ?<changePassword>ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲੋ</changePassword>
+
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+pair2-authority-continue-on-mobile-heading = ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+pair2-authority-continue-on-mobile-description = ਆਪਣੇ ਫ਼ੋਨ ਜਾਂ ਟੈਬਲੇਟ ਉੱਤੇ ਅਗਲੇਰੀ ਕਾਰਵਾਈ ਜਾਰੀ ਰੱਖੋ।
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = ਰੱਦ ਕਰੋ
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = ਸਿੰਕ ਲਈ { -brand-firefox } ਨੂੰ ਖੋਲ੍ਹੋ
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction = ਡਿਵਾਈਸ ਵਿਚਾਲੇ ਸਿੰਕ ਨੂੰ ਸੈਟਅੱਪ ਕਰਨ ਲਈ, ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ { -brand-firefox } ਨੂੰ ਖੋਲ੍ਹੋ ਅਤੇ <b>firefox.com/pair</b> ਨੂੰ ਖੋਲ੍ਹੋ
+# Links out to the Firefox download page
+pair2-authority-download-firefox-cta = { -brand-firefox } ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ
+
+## ScanQR page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer. It shows a QR code that they scan with
+## their phone or tablet to connect the two devices and start syncing.
+
+pair2-authority-scan-qr-heading = ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰਨ ਲਈ ਸਕੈਨ ਕਰੋ
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
