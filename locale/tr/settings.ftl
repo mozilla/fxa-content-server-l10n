@@ -551,6 +551,9 @@ cs-cannot-disconnect = İstemci bulunamadı, bağlantı kesilemiyor
 cs-logged-out-2 = { $service } oturumu kapatıldı
 cs-refresh-button =
     .title = Bağlı hizmetleri yenile
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Cihaz bağla
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Eksik veya çift kayıtlar mı var?
 cs-disconnect-sync-heading = Sync bağlantısını kes
@@ -999,6 +1002,8 @@ page-passkey-add-error-system-v2 = Geçiş anahtarınız oluşturulurken bir sor
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Son hesap etkinlikleri
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Daha fazla göster
 recent-activity-account-create-v2 = Hesap oluşturuldu
 recent-activity-account-disable-v2 = Hesap devre dışı bırakıldı
 recent-activity-account-enable-v2 = Hesap etkinleştirildi
@@ -1716,6 +1721,25 @@ pair-unsupported-learn-more-link-v2 = Daha fazla bilgi al
 pair-unsupported-desktop-firefox-fallback-header-v2 = Ne yazık ki bir hata oluştu.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+pair2-authority-continue-on-mobile-heading = Mobil cihazınızdan devam edin
+pair2-authority-continue-on-mobile-description = Telefonunuzda veya tabletinizde gösterilen adımları izleyin.
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = Vazgeç
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = Eşitlemek için { -brand-firefox } tarayıcısını açın
+# Links out to the Firefox download page
+pair2-authority-download-firefox-cta = { -brand-firefox }’u indir
+
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer once the mobile device has been paired.
 ## It confirms that sync is on and offers the follow-up actions.
@@ -1732,6 +1756,9 @@ pair2-authority-sync-success-sync-settings-button = Eşitleme ayarları
 
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = Hâlâ cihaz bağlamak istiyor musunuz?
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-canceled-heading = Vazgeçildi
+pair2-authority-timeout-and-cancel-canceled-description = Fikrinizi değiştirirseniz veya başka bir cihaz bağlamak isterseniz yeniden deneyin.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Yeniden dene
 # Abandons pairing without retrying
@@ -1787,6 +1814,8 @@ pair2-supplicant-sync-success-sync-settings-button = Eşitleme ayarları
 
 # Shown when the pairing attempt expired before it completed. "we" is Firefox.
 pair2-supplicant-timeout-and-cancel-timeout-heading = Zaman aşımına uğradık
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = Vazgeçildi
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
