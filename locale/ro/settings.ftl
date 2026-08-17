@@ -584,6 +584,9 @@ cs-cannot-disconnect = Clientul nu a fost găsit, imposibil de deconectat
 cs-logged-out-2 = Deconectat de la { $service }
 cs-refresh-button =
     .title = Reîmprospătează serviciile conectate
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Conectează un dispozitiv
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Obiecte lipsă sau duplicate?
 cs-disconnect-sync-heading = Deconectare de la Sync
@@ -1037,6 +1040,8 @@ page-passkey-add-error-system-v2 = A apărut o problemă la crearea cheii de acc
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Activitate recentă în cont
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Afișează mai mult
 recent-activity-account-create-v2 = Cont creat
 recent-activity-account-disable-v2 = Cont dezactivat
 recent-activity-account-enable-v2 = Cont activat
