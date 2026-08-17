@@ -1969,6 +1969,7 @@ pair2-supplicant-ready-to-scan-learn-more-link = Eikuaave
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Ne mba’e’oka ojuajuhína
+pair2-supplicant-sync-success-description = Techaukahaita, tendayke a hetave ojuehepaite { -brand-firefox } ndive.
 # Opens the view listing tabs open on the user's other synced devices
 pair2-supplicant-sync-success-view-tabs-button = Ehecha tendayke mbojuajupyre
 # Opens the browser's sync settings, where the user chooses what to sync
@@ -1984,6 +1985,8 @@ pair2-supplicant-sync-success-sync-settings-button = Sync ñemboheko
 pair2-supplicant-timeout-and-cancel-timeout-heading = Ha’ete opámava ñeha’ãrõ
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Hejapyre
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = Eike hag̃ua mba’e’okápe eikese vove, eho <b>firefox.com/pair</b> ne mohendaha guive.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
