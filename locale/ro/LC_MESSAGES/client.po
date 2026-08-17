@@ -491,7 +491,7 @@ msgstr "Sistem indisponibil; încearcă din nou mai târziu"
 
 #: .es5/lib/auth-errors.js:302
 msgid "This endpoint is no longer supported"
-msgstr "Acest punct terminal nu mai este suportat"
+msgstr "Acest punct terminal nu mai are suport"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
