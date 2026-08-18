@@ -39,6 +39,9 @@ button-back-title = חזרה
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = הורדה והמשך
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = אירעה שגיאה בהורדת מפתח שחזור החשבון, עמך הסליחה.
@@ -730,6 +733,13 @@ flow-setup-2fa-prompt-heading = הגדרת אימות דו־שלבי
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = ‏{ $serviceName } דורש שיוגדר אימות דו־שלבי כדי לשמור על אבטחת החשבון שלך.
+# Success banner shown at the top of the page when the user signed in with a passkey.
+flow-setup-2fa-prompt-passkey-success-banner = ההתחברות בוצעה בהצלחה באמצעות מפתח גישה
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = ‏{ $serviceName } דורש גם אימות דו־שלבי עבור { -product-mozilla-account(case: "the") } שלך. לאחר ההגדרה, לא יהיה בו צורך יותר בעת כניסה באמצעות מפתח גישה.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = באפשרותך להשתמש בכל אחת מ<authenticationAppsLink>יישומוני האימות האלו</authenticationAppsLink> כדי להמשיך.
 flow-setup-2fa-prompt-continue-button = המשך

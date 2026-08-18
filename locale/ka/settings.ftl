@@ -1874,7 +1874,7 @@ pair2-authority-continue-on-mobile-cancel-button = გაუქმება
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = გახსენით { -brand-firefox } დასინქრონებისთვის
 # "firefox.com/pair" is a URL and should not be translated
-pair2-authority-download-firefox-instruction = მოწყობილობებს შორის სინქრონიზაციისთვის გაუშვით { -brand-firefox } ამ მოწყობილობაზე და გახსენით <b>firefox.com/pair</b>
+pair2-authority-download-firefox-instruction = მოწყობილობებს შორის სინქრონიზაციისთვის გახსენით { -brand-firefox } ამ მოწყობილობაზე და ინახულეთ გვერდი <b>firefox.com/pair</b>
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = ჩამოტვირთეთ { -brand-firefox }
 
@@ -1896,6 +1896,29 @@ pair2-authority-scan-qr-help-link = დახმარება წაკით�
 
 # "syncing" here means copying data between the user's devices
 pair2-authority-sync-success-heading = დასინქრონებულია
+pair2-authority-sync-success-description = თქვენი ჩანართები, სანიშნები, პაროლები თუ სხვ. მზადაა სარგებლობისთვის თქვენს მოწყობილობებზე.
+# Opens the tabs that are open on the user's other synced devices
+pair2-authority-sync-success-view-tabs-button = დასინქ. ჩანართების ნახვა
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button = სინქრონიზაციის პარამეტრები
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when pairing stopped without succeeding,
+## either because it timed out or because it was canceled. Both cases offer to
+## start pairing over again.
+
+# Shown when the pairing attempt expired before it was approved
+pair2-authority-timeout-and-cancel-timeout-heading = კიდევ გსურთ მოწყობილობის დაკავშირება?
+pair2-authority-timeout-and-cancel-timeout-description = როგორც ჩანს, დრო ამოიწურა. სცადეთ ხელახლა, თუ კვლავ გსურთ თქვენი მობილური მოწყობილობის დაკავშირება, რომ დაასინქრონოთ { -brand-firefox } მონაცემებიანად.
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-canceled-heading = გაუქმდა
+pair2-authority-timeout-and-cancel-canceled-description = თუ გადაიფიქრებთ ან გსურთ სხვა მოწყობილობის დაკავშირება, კვლავ სცადეთ.
+# Restarts the pairing flow
+pair2-authority-timeout-and-cancel-try-again-button = ხელახლა ცდა
+# Abandons pairing without retrying
+pair2-authority-timeout-and-cancel-cancel-button = გაუქმება
+# Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
+pair2-authority-timeout-and-cancel-sync-settings-button = სინქრონიზაციის პარამეტრები
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -1907,6 +1930,70 @@ pair2-supplicant-approve-sign-in-heading = ბოლო ნაბიჯი დ�
 pair2-supplicant-approve-sign-in-instruction = დაადასტურეთ შესვლა თქვენს კომპიუტერზე.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = გაუქმება
+
+## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It asks them to confirm connecting the mobile
+## device to their account, and shows that computer's details so they can
+## verify the request.
+
+# "this device" is the mobile device the user is holding, not the computer
+# whose details are shown below the heading
+pair2-supplicant-connect-this-device-heading = დაუკავშირდეს ეს მოწყობილობა თქვენს ანგარიშს?
+# Confirms the pairing attempt
+pair2-supplicant-connect-this-device-connect-button = დაკავშირება
+# Dismisses the pairing attempt
+pair2-supplicant-connect-this-device-cancel-button = გაუქმება
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing reaches a device that
+## does not have Firefox installed yet. It explains what syncing gets them and
+## sends them off to install the browser.
+
+pair2-supplicant-download-firefox-heading = გადმოწერეთ { -brand-firefox } ამ მოწყობილობაზე
+# "sync" is a verb here, referring to syncing data between the user's devices.
+# <linkExternal> is an anchor tag linking to a page explaining what sync does.
+pair2-supplicant-download-firefox-description = ჩამოტვირთეთ { -brand-firefox } სანიშნების, ისტორიისა თუ სხვა მონაცემების დასინქრონებისთვის სხვადასხვა მოწყობილობებზე. <linkExternal>ვრცლად</linkExternal>
+# Primary action. Sends the user to the Firefox download page.
+pair2-supplicant-download-firefox-continue-button = გასაგრძელებლად გამოიყენეთ { -brand-firefox }
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+pair2-supplicant-ready-to-scan-heading = რომ დაკავშირდეს მოწყობილობა
+# <b> emphasises the address the user types on their computer. It is not a link,
+# and the address itself must not be translated.
+pair2-supplicant-ready-to-scan-instruction = თქვენს კომპიუტერზე, გახსენით { -brand-firefox }, მოინახულეთ გვერდი <b>firefox.com/pair</b> და მიჰყევით ეკრანზე მითითებებს ამ მობილური მოწყობილობის დასაკავშირებლად.
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = ვრცლად
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device once pairing has completed: the device
+## is signed in and syncing with the computer they paired it with.
+
+pair2-supplicant-sync-success-heading = მოწყობილობა დაკავშირებულია
+pair2-supplicant-sync-success-description = თქვენს სანიშნებს, ჩანართებს თუ სხვა მონაცემებს ასინქრონებს { -brand-firefox }.
+# Opens the view listing tabs open on the user's other synced devices
+pair2-supplicant-sync-success-view-tabs-button = დასინქ. ჩანართების ნახვა
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button = სინქრონიზაციის პარამეტრები
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = როგორც ჩანს, დრო ამოიწურა
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-timeout-description = მობილური მოწყობილობის დასაკავშირებლად, რომ დასინქრონდეს { -brand-firefox } მონაცემებიანად, ინახულეთ გვერდი <b>firefox.com/pair</b> თქვენს კომპიუტერში.
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = გაუქმებული
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = მოწყობილობის დასაკავშირებლად ნებისმიერ დროს, ინახულეთ გვერდი <b>firefox.com/pair</b> თქვენს კომპიუტერში.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
