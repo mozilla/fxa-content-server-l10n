@@ -1965,6 +1965,9 @@ pair2-supplicant-download-firefox-continue-button = Eku’ejey { -brand-firefox 
 ## scan with the mobile device comes from.
 
 pair2-supplicant-ready-to-scan-heading = Embojuaju hag̃ua mba’e’oka
+# <b> emphasises the address the user types on their computer. It is not a link,
+# and the address itself must not be translated.
+pair2-supplicant-ready-to-scan-instruction = Ne mohendahápe embojuruja { -brand-firefox }, eike <b>firefox.com/pair</b>-pe ha ejapo oĩva mba’erechahápe embojoaju hag̃ua ne pumbyry.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Eikuaave
 
@@ -1987,6 +1990,8 @@ pair2-supplicant-sync-success-sync-settings-button = Sync ñemboheko
 
 # Shown when the pairing attempt expired before it completed. "we" is Firefox.
 pair2-supplicant-timeout-and-cancel-timeout-heading = Ha’ete opámava ñeha’ãrõ
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-timeout-description = Embojoaju hag̃ua ne pumbyry ha embojuehe ne mba’ekuaarãita { -brand-firefox }, eike <b>firefox.com/pair</b> ne mohendahápe.
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Hejapyre
 # "firefox.com/pair" is a URL and should not be translated
