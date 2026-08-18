@@ -1881,6 +1881,8 @@ pair2-authority-continue-on-mobile-cancel-button = Eheja
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = Embojuruja { -brand-firefox } embojuehe hag̃ua
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction = Emboheko hag̃ua ñembojuehe mba’e’oka pa’ũme, embojuruja { -brand-firefox } ko mba’e’okápe ha eike <b>firefox.com/pair</b>-pe
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Emboguejy { -brand-firefox }
 
@@ -1889,6 +1891,8 @@ pair2-authority-download-firefox-cta = Emboguejy { -brand-firefox }
 ## their phone or tablet to connect the two devices and start syncing.
 
 pair2-authority-scan-qr-heading = Emoha’ãnga eike hag̃ua ambue mba’e’okápe
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-scan-qr-instruction = Emoha’ãnga QR ayvu ne pumbyry térã tablétape embojuehe hag̃ua { -brand-firefox } rechaukaha ha hetave.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR ayvu eike hag̃ua ne mba’e’okápe
 # Link to a support article for users having trouble scanning the QR code

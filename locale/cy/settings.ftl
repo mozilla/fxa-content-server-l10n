@@ -1883,7 +1883,7 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Caewch y tab hwn a cheisi
 pair2-authority-approve-sign-in-heading = Cymeradwyo mewngofnodi?
 # Submit button confirming that the user started the pairing and approves the
 # other device being added to their account
-pair2-authority-approve-sign-in-confirm-button = Iawn, cymeradwyo mewngofnodi
+pair2-authority-approve-sign-in-confirm-button = Iawn, cymeradwyo'r mewngofnodi
 # "Not you?" asks whether someone other than the user started this sign-in.
 # The text inside <changePassword> links to the page for changing the password.
 pair2-authority-approve-sign-in-change-password = Nid chi? <changePassword>Newidiwch eich cyfrinair</changePassword>
@@ -1929,7 +1929,7 @@ pair2-authority-scan-qr-help-link = Cael help i sganio
 pair2-authority-sync-success-heading = Rydych wrthi'n cydweddu
 pair2-authority-sync-success-description = Mae eich tabiau, nodau tudalen, cyfrineiriau, a mwy yn barod ar draws eich dyfeisiau.
 # Opens the tabs that are open on the user's other synced devices
-pair2-authority-sync-success-view-tabs-button = Gweld tabiau wedi'u cysdweddu
+pair2-authority-sync-success-view-tabs-button = Gweld tabiau wedi'u cydweddu
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button = Gosodiadau cydweddu
 
@@ -2007,9 +2007,9 @@ pair2-supplicant-ready-to-scan-learn-more-link = Dysgu rhagor
 pair2-supplicant-sync-success-heading = Mae eich dyfais wedi'i gysylltu
 pair2-supplicant-sync-success-description = Bydd eich nodau tudalen, tabiau a mwy yn aros wedi'u cydweddu yn { -brand-firefox }.
 # Opens the view listing tabs open on the user's other synced devices
-pair2-supplicant-sync-success-view-tabs-button = Gweld tabiau wedi'u cysoni
+pair2-supplicant-sync-success-view-tabs-button = Gweld tabiau wedi'u cydweddu
 # Opens the browser's sync settings, where the user chooses what to sync
-pair2-supplicant-sync-success-sync-settings-button = Gosodiadau cysoni
+pair2-supplicant-sync-success-sync-settings-button = Gosodiadau cydweddu
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2018,9 +2018,9 @@ pair2-supplicant-sync-success-sync-settings-button = Gosodiadau cysoni
 ## back to their computer to start again.
 
 # Shown when the pairing attempt expired before it completed. "we" is Firefox.
-pair2-supplicant-timeout-and-cancel-timeout-heading = Mae'n edrych fel ein bod ni wedi dod i amser
+pair2-supplicant-timeout-and-cancel-timeout-heading = Mae'n edrych fel bod ein amser wedi dod i ben
 # "firefox.com/pair" is a URL and should not be translated
-pair2-supplicant-timeout-and-cancel-timeout-description = I gysylltu eich dyfais symudol a chysoni eich data { -brand-firefox }, ewch i <b>firefox.com/pair</b> ar eich cyfrifiadur.
+pair2-supplicant-timeout-and-cancel-timeout-description = I gysylltu eich dyfais symudol a chydweddu eich data { -brand-firefox }, ewch i <b>firefox.com/pair</b> ar eich cyfrifiadur.
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Diddymwyd
 # "firefox.com/pair" is a URL and should not be translated
