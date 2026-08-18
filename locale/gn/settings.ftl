@@ -1914,6 +1914,7 @@ pair2-authority-sync-success-sync-settings-button = Sync ñemboheko
 pair2-authority-timeout-and-cancel-timeout-heading = ¿Embojuajuse gueteri ne mba’e’oka?
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-canceled-heading = Hejapyre
+pair2-authority-timeout-and-cancel-canceled-description = Remoambuérõ ne remiandu térã embojoajusérõ ambue mba’e’oka, eha’ã jey.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Eha’ã jey
 # Abandons pairing without retrying
@@ -1952,6 +1953,9 @@ pair2-supplicant-connect-this-device-cancel-button = Eheja
 ## sends them off to install the browser.
 
 pair2-supplicant-download-firefox-heading = Ereko { -brand-firefox } ko mba’e’okápe
+# "sync" is a verb here, referring to syncing data between the user's devices.
+# <linkExternal> is an anchor tag linking to a page explaining what sync does.
+pair2-supplicant-download-firefox-description = Emboguejy { -brand-firefox } embojuehe hag̃ua techaukaha, tembiasakue ha hetave mba’e’oka pa’ũme. <linkExternal>Eikuaave</linkExternal>
 # Primary action. Sends the user to the Firefox download page.
 pair2-supplicant-download-firefox-continue-button = Eku’ejey { -brand-firefox } ndive
 

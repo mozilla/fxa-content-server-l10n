@@ -1883,10 +1883,10 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Caewch y tab hwn a cheisi
 pair2-authority-approve-sign-in-heading = Cymeradwyo mewngofnodi?
 # Submit button confirming that the user started the pairing and approves the
 # other device being added to their account
-pair2-authority-approve-sign-in-confirm-button = Ie, cymeradwyo mewngofnodi
+pair2-authority-approve-sign-in-confirm-button = Iawn, cymeradwyo mewngofnodi
 # "Not you?" asks whether someone other than the user started this sign-in.
 # The text inside <changePassword> links to the page for changing the password.
-pair2-authority-approve-sign-in-change-password = Nid chi? <changePassword>Newid eich cyfrinair</changePassword>
+pair2-authority-approve-sign-in-change-password = Nid chi? <changePassword>Newidiwch eich cyfrinair</changePassword>
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
@@ -1903,7 +1903,7 @@ pair2-authority-continue-on-mobile-cancel-button = Diddymu
 ## It points them at firefox.com/pair and offers a download link for Firefox.
 
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-authority-download-firefox-heading = Agor { -brand-firefox } i gysoni
+pair2-authority-download-firefox-heading = Agor { -brand-firefox } i gydweddu
 # "firefox.com/pair" is a URL and should not be translated
 pair2-authority-download-firefox-instruction = I osod cysoni ar draws dyfeisiau, agorwch { -brand-firefox } ar y ddyfais hon ac ewch i <b>firefox.com/pair</b>
 # Links out to the Firefox download page
