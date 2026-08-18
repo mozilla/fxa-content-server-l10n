@@ -43,6 +43,9 @@ button-back-title = Atrás
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = Descargar y continuar
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Disculpá, hubo un problema al actualizar la clave de la recuperación de la cuenta.
@@ -752,6 +755,13 @@ flow-setup-2fa-prompt-heading = Configurar la autenticación de dos pasos
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } requiere que configurés la autenticación de dos pasos para mantener tu cuenta segura.
+# Success banner shown at the top of the page when the user signed in with a passkey.
+flow-setup-2fa-prompt-passkey-success-banner = Se inició sesión correctamente con la clave de acceso
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = { $serviceName } también requiere autenticación de dos pasos para tu { -product-mozilla-account }. Después de la configuración, ya no la necesitarás cuando inicies sesión con una clave de acceso.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Podés usar cualquiera de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink> para continuar.
 flow-setup-2fa-prompt-continue-button = Continuar

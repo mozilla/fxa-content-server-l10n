@@ -43,6 +43,9 @@ button-back-title = Vissza
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = Letöltés és folytatás
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Sajnos probléma merült fel a fiók-helyreállítási kulcs letöltése során.
@@ -758,6 +761,13 @@ flow-setup-2fa-prompt-heading = Állítsa be a kétlépcsős hitelesítést
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = A(z) { $serviceName } szolgáltatáshoz be kell állítania a kétlépcsős hitelesítést, hogy biztonságban tartsa a fiókját.
+# Success banner shown at the top of the page when the user signed in with a passkey.
+flow-setup-2fa-prompt-passkey-success-banner = Sikeresen bejelentkezett a jelkulccsal
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = A(z) { $serviceName } is kétlépcsős hitelesítést igényel a(z) { -product-mozilla-account } eszközéhez. A beállítás után nem lesz rá szüksége, ha jelkulccsal jelentkezik be.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = A folytatáshoz <authenticationAppsLink>ezen hitelesítő alkalmazások</authenticationAppsLink> bármelyikét használhatja.
 flow-setup-2fa-prompt-continue-button = Folytatás
