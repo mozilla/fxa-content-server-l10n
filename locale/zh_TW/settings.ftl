@@ -739,6 +739,11 @@ flow-setup-2fa-prompt-heading = 設定兩階段驗證
 flow-setup-2fa-prompt-description = { $serviceName } 要求您設定兩階段驗證，以確保帳號安全。
 # Success banner shown at the top of the page when the user signed in with a passkey.
 flow-setup-2fa-prompt-passkey-success-banner = 成功使用 Passkey 登入
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = { $serviceName } 要求對您的 { -product-mozilla-account }進行兩階段驗證。設定完成後，如果使用 Passkey 登入則不需要再進行兩階段驗證。
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = 您可以使用<authenticationAppsLink>下列驗證程式</authenticationAppsLink>當中的任一種來設定。
 flow-setup-2fa-prompt-continue-button = 繼續
