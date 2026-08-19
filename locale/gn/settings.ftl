@@ -757,6 +757,8 @@ flow-setup-2fa-prompt-heading = Emboheko ñemoneĩ mokõi jeku’épe
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } ojerure emohenda hag̃ua mokõi tape ñemoneĩrã ereko hag̃ua ne mba’ete tekorosãme.
+# Success banner shown at the top of the page when the user signed in with a passkey.
+flow-setup-2fa-prompt-passkey-success-banner = Hendýma ñe’ẽ ñemi jeikerã ndive
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Eiporukuaa oimeraẽva <authenticationAppsLink>ko’ã tembiporu’i ñemoneĩrã</authenticationAppsLink> eku’ejey hag̃ua.
 flow-setup-2fa-prompt-continue-button = Ku’ejey
@@ -1888,6 +1890,7 @@ pair2-authority-scan-qr-help-link = Eñepytyvõta emoha’ãnga hag̃ua
 
 # "syncing" here means copying data between the user's devices
 pair2-authority-sync-success-heading = Embojuajuhína
+pair2-authority-sync-success-description = Nde rendayke, techaukaha, ñe’ẽñemi ha hetave ojeporukuaáma opaite mba’e’okápe.
 # Opens the tabs that are open on the user's other synced devices
 pair2-authority-sync-success-view-tabs-button = Ehecha tendayke mbojuajupyre
 # Opens the browser settings that control what is synced
