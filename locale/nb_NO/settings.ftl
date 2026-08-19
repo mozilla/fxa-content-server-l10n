@@ -1826,6 +1826,9 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Lukk denne fanen og prøv
 
 # Asks the user to confirm the sign-in that another one of their devices just started
 pair2-authority-approve-sign-in-heading = Godkjenn pålogging?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = Ja, godkjenn pålogging
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
