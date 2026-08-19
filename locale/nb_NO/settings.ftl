@@ -1829,6 +1829,26 @@ pair2-authority-approve-sign-in-heading = Godkjenn pålogging?
 # Submit button confirming that the user started the pairing and approves the
 # other device being added to their account
 pair2-authority-approve-sign-in-confirm-button = Ja, godkjenn pålogging
+# "Not you?" asks whether someone other than the user started this sign-in.
+# The text inside <changePassword> links to the page for changing the password.
+pair2-authority-approve-sign-in-change-password = Ikke deg? <changePassword>Endre passordet ditt</changePassword>
+
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+pair2-authority-continue-on-mobile-heading = Fortsett på mobilenheten din
+pair2-authority-continue-on-mobile-description = Følg stegene på telefonen eller nettbrettet ditt.
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = Avbryt
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = Åpne { -brand-firefox } for å synkronisere
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
