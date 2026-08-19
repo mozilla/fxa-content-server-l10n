@@ -1933,7 +1933,7 @@ pair2-supplicant-approve-sign-in-cancel-button = Annuler
 # whose details are shown below the heading
 pair2-supplicant-connect-this-device-heading = Connecter cet appareil à votre compte ?
 # Confirms the pairing attempt
-pair2-supplicant-connect-this-device-connect-button = Se connecter
+pair2-supplicant-connect-this-device-connect-button = Connexion
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Annuler
 
@@ -1966,9 +1966,9 @@ pair2-supplicant-ready-to-scan-learn-more-link = En savoir plus
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Votre appareil est connecté
-pair2-supplicant-sync-success-description = Vos marque-pages, onglets et autres resteront synchronisés en { -brand-firefox }.
+pair2-supplicant-sync-success-description = Vos marque-pages, onglets et autres données resteront synchronisés dans { -brand-firefox }.
 # Opens the view listing tabs open on the user's other synced devices
-pair2-supplicant-sync-success-view-tabs-button = Afficher les onglets synchronisés
+pair2-supplicant-sync-success-view-tabs-button = Voir les onglets synchronisés
 # Opens the browser's sync settings, where the user chooses what to sync
 pair2-supplicant-sync-success-sync-settings-button = Paramètres de synchronisation
 
