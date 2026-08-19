@@ -43,6 +43,9 @@ button-back-title = Terug
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = Downloaden en doorgaan
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Sorry, er is een probleem opgetreden bij het downloaden van uw accountherstelsleutel.
@@ -754,6 +757,13 @@ flow-setup-2fa-prompt-heading = Authenticatie in twee stappen instellen
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } vereist dat u authenticatie in twee stappen instelt om uw account veilig te houden.
+# Success banner shown at the top of the page when the user signed in with a passkey.
+flow-setup-2fa-prompt-passkey-success-banner = Met succes aangemeld met toegangssleutel
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = { $serviceName } vereist ook authenticatie in twee stappen voor uw { -product-mozilla-account }. Na het instellen hebt u deze niet meer nodig als u zich aanmeldt met een toegangssleutel.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = U kunt elk van <authenticationAppsLink>deze authenticator-apps</authenticationAppsLink> gebruiken om verder te gaan.
 flow-setup-2fa-prompt-continue-button = Doorgaan
@@ -1852,8 +1862,40 @@ pair2-authority-approve-sign-in-change-password = Bent u dit niet? <changePasswo
 ## their phone. It confirms the flow has moved to the mobile device and waits
 ## for the remaining steps to be completed there.
 
+pair2-authority-continue-on-mobile-heading = Doorgaan op uw mobiele apparaat
+pair2-authority-continue-on-mobile-description = Volg de stappen op uw telefoon of tablet.
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Annuleren
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = Open { -brand-firefox } om te synchroniseren
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction = Open { -brand-firefox } op dit apparaat en bezoek <b>firefox.com/pair</b> om synchronisatie tussen apparaten in te stellen
+# Links out to the Firefox download page
+pair2-authority-download-firefox-cta = { -brand-firefox } downloaden
+
+## ScanQR page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer. It shows a QR code that they scan with
+## their phone or tablet to connect the two devices and start syncing.
+
+pair2-authority-scan-qr-heading = Scan om uw mobiele apparaat te verbinden
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-scan-qr-instruction = Scan de QR-code met uw telefoon of tablet om uw { -brand-firefox }-bladwijzers, tabbladen en meer te synchroniseren.
+# Accessible label describing the QR code image shown on this page
+pair2-authority-scan-qr-code-aria-label = QR-code om uw mobiele apparaat te verbinden
+# Link to a support article for users having trouble scanning the QR code
+pair2-authority-scan-qr-help-link = Hulp bij scannen ontvangen
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and offers the follow-up actions.
+
+# "syncing" here means copying data between the user's devices
+pair2-authority-sync-success-heading = U synchroniseert
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
