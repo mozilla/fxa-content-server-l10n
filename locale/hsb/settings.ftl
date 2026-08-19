@@ -767,6 +767,11 @@ flow-setup-2fa-prompt-heading = Dwukročelowu awtentifikaciju konfigurować
 flow-setup-2fa-prompt-description = { $serviceName } žada, zo dwukročelowu awtentifikaciju konfigurujeće, zo by waše konto wěste wostało.
 # Success banner shown at the top of the page when the user signed in with a passkey.
 flow-setup-2fa-prompt-passkey-success-banner = Wuspěšnje z hesłowym klučom přizjewjeny
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = { $serviceName } sej tež dwukročelowu awtentifikaciju za waše { -product-mozilla-account } wužaduje. Po konfiguraciji njetrjebaće ju, hdyž so z hesłowym klučom přizjewjeće.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Móžeće <authenticationAppsLink>tute awtentifikaciske nałoženja</authenticationAppsLink> wužiwać, zo byšće pokročował.
 flow-setup-2fa-prompt-continue-button = Dale
