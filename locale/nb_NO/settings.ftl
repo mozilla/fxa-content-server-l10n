@@ -559,6 +559,9 @@ cs-cannot-disconnect = Klienten ble ikke funnet, kan ikke koble fra
 cs-logged-out-2 = Logget ut av { $service }
 cs-refresh-button =
     .title = Oppdater tilkoblede tjenester
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Koble til en enhet
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglende eller duplikatelement?
 cs-disconnect-sync-heading = Koble fra Sync
@@ -1010,6 +1013,8 @@ page-passkey-add-error-system-v2 = Det oppstod et problem med å opprette passn�
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Nylig kontoaktivitet
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Vis mer
 recent-activity-account-create-v2 = Konto opprettet
 recent-activity-account-disable-v2 = Konto deaktivert
 recent-activity-account-enable-v2 = Konto aktivert
@@ -1813,6 +1818,14 @@ pair-unsupported-learn-more-link-v2 = Les mer
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Ups! Noe gikk galt.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Lukk denne fanen og prøv igjen.
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = Godkjenn pålogging?
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
