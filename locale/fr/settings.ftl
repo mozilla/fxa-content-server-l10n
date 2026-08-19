@@ -1880,17 +1880,17 @@ pair2-authority-scan-qr-instruction = Scannez le code QR avec votre téléphone 
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = Code QR pour connecter votre appareil mobile
 # Link to a support article for users having trouble scanning the QR code
-pair2-authority-scan-qr-help-link = Obtenir de l’aide sur l’analyse
+pair2-authority-scan-qr-help-link = Obtenir de l’aide pour scanner le code QR
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer once the mobile device has been paired.
 ## It confirms that sync is on and offers the follow-up actions.
 
 # "syncing" here means copying data between the user's devices
-pair2-authority-sync-success-heading = Synchronisation synchronisée
+pair2-authority-sync-success-heading = La synchronisation est activée
 pair2-authority-sync-success-description = Vos onglets, marque-pages, mots de passe et bien plus sont prêts sur tous vos appareils.
 # Opens the tabs that are open on the user's other synced devices
-pair2-authority-sync-success-view-tabs-button = Afficher les onglets synchronisés
+pair2-authority-sync-success-view-tabs-button = Voir les onglets synchronisés
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button = Paramètres de synchronisation
 
