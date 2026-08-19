@@ -761,6 +761,11 @@ flow-setup-2fa-prompt-heading = Екі қадамды аутентификаци
 flow-setup-2fa-prompt-description = { $serviceName } тіркелгіңіздің қауіпсіздігін қамтамасыз ету үшін екі сатылы аутентификацияны орнатуды талап етеді.
 # Success banner shown at the top of the page when the user signed in with a passkey.
 flow-setup-2fa-prompt-passkey-success-banner = Рұқсат кілтімен кіру сәтті орындалды
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = { $serviceName } сонымен қатар { -product-mozilla-account } үшін екі сатылы аутентификацияны қажет етеді. Баптағаннан кейін, рұқсат кілтімен кірген кезде ол енді қажет болмайды.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Жалғастыру үшін <authenticationAppsLink>осы аутентификация қолданбаларының</authenticationAppsLink> кез келгенін пайдалана аласыз.
 flow-setup-2fa-prompt-continue-button = Жалғастыру
