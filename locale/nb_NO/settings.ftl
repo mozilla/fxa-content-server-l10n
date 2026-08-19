@@ -1849,6 +1849,8 @@ pair2-authority-continue-on-mobile-cancel-button = Avbryt
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = Åpne { -brand-firefox } for å synkronisere
+# Links out to the Firefox download page
+pair2-authority-download-firefox-cta = Last ned { -brand-firefox }
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
