@@ -761,6 +761,11 @@ flow-setup-2fa-prompt-heading = Configurar authentication a duo passos
 flow-setup-2fa-prompt-description = { $serviceName } te require le authentication a duo passos pro tener secur tu conto.
 # Success banner shown at the top of the page when the user signed in with a passkey.
 flow-setup-2fa-prompt-passkey-success-banner = Firmate con sucesso con clave-contrasigno
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = { $serviceName } alsi require le authentication a duo passos pro tu { -product-mozilla-account }. Post le installation, tu non plus lo debera accedente con un clave-contrasigno.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Tu pote usar qualcunque de <authenticationAppsLink>iste applicationes de authentication</authenticationAppsLink> pro proceder.
 flow-setup-2fa-prompt-continue-button = Continuar
