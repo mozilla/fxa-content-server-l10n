@@ -754,7 +754,7 @@ flow-setup-2fa-prompt-heading = Configurer l’authentification en deux étapes
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } vous demande de configurer l’authentification en deux étapes pour protéger votre compte.
 # Success banner shown at the top of the page when the user signed in with a passkey.
-flow-setup-2fa-prompt-passkey-success-banner = Connecté·e avec la clé d’accès avec succès
+flow-setup-2fa-prompt-passkey-success-banner = Connexion réussie avec la clé d’accès
 # Body copy shown when the user signed in with a passkey and the service still
 # requires two-step authentication setup.
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
