@@ -767,6 +767,11 @@ flow-setup-2fa-prompt-heading = Dwójokšacowu awtentifikaciju konfigurěrowaś
 flow-setup-2fa-prompt-description = { $serviceName } pomina, až dwójokšacowu awtentifikaciju konfigurěrujośo, aby wašo konto wěste wóstało.
 # Success banner shown at the top of the page when the user signed in with a passkey.
 flow-setup-2fa-prompt-passkey-success-banner = Wuspěšnje z gronidłowym klucom pśizjawjony
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = { $serviceName } se teke dwójokšacowu awtentifikaciju za wašo { -product-mozilla-account } pomina. Pó konfiguraciji njetrjebaśo ju, gaž se z gronidłowym klucom pśizjawjaśo.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Móžośo <authenticationAppsLink>toś te awtentifikaciske nałoženja</authenticationAppsLink> wužywaś, aby pókšacował.
 flow-setup-2fa-prompt-continue-button = Dalej
@@ -1093,6 +1098,12 @@ recent-activity-account-passwordless-login-otp-failed = Pśizjawjeński kod bźe
 recent-activity-account-passwordless-login-otp-verified = Pśizjawjeński kod bźez gronidła jo se pśeglědał
 recent-activity-account-passwordless-registration-complete = Kontowa registracija bźez gronidła dokóńcona
 recent-activity-account-recovery-codes-set = Wótnowjeńske kody nastajone
+# A passkey is a sign-in method that replaces a password. This string is shown when a passkey was set up so it can also unlock the user's synced browser data (bookmarks, history, open tabs), which previously required their password.
+recent-activity-account-passkey-wrap-created = Gronidłowy kluc jo se za synchronizaciju zmóžnił
+# A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
+recent-activity-account-passkey-wrap-creation-failure = Konfiguracija synchronizacije z gronidłowym klucom njejo se raźiła
+# A passkey is a sign-in method that replaces a password. Resetting a forgotten password re-encrypts the user's synced browser data, which their passkeys can no longer unlock. This string is shown when that happened and the passkeys need to be set up for syncing again.
+recent-activity-account-passkey-wrap-invalidated = Synchronizaciski pśistup z gronidłowym klucom jo se pó slědkstajenju gronidła wótwónoźeł
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga kontowa aktiwita
 
