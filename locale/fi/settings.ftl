@@ -43,6 +43,9 @@ button-back-title = Takaisin
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = Lataa ja jatka
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Valitettavasti tilin palautusavaimen lataamisessa oli ongelma.
@@ -134,6 +137,9 @@ device-info-block-location-unknown = Tuntematon sijainti
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $browserName } alustalla { $genericOSName }
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
+device-info-browser-device = { $browserName } laitteella { $deviceName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-osoite: { $ipAddress }
@@ -238,6 +244,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Koodi
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = Muokkaa
 error-icon-aria-label =
     .aria-label = Virhe
 # Used as information icon for informative messaging
@@ -289,6 +298,9 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Laitteen näyttö ja koodeja
 sync-clouds-image-aria-label =
     .aria-label = Pilviä, joissa on synkronointikuvake
+# Aria label for the Firefox logo and wordmark shown together as a brand lockup
+firefox-wordmark-image-aria-label =
+    .aria-label = { -brand-firefox }in logo
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -510,6 +522,9 @@ cs-cannot-disconnect = Asiakasta ei löydy, yhteyttä ei voi katkaista
 cs-logged-out-2 = Kirjautunut ulos palvelusta { $service }
 cs-refresh-button =
     .title = Päivitä yhdistetyt palvelut
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Yhdistä laite
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Puuttuuko jokin tai onko jokin kahteen kertaan?
 cs-disconnect-sync-heading = Katkaise yhteys Sync-palveluun
@@ -885,6 +900,8 @@ page-passkey-add-error-system-v2 = Todentamisavaimen luomisessa oli ongelma. Yri
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Viimeaikaiset tilitapahtumat
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Näytä lisää
 recent-activity-account-create-v2 = Tili luotu
 recent-activity-account-disable-v2 = Tili poistettu käytöstä
 recent-activity-account-enable-v2 = Tili otettu käyttöön
@@ -1069,6 +1086,8 @@ passkey-delete-modal-heading = Poistetaanko todennusavain?
 passkey-delete-modal-cancel-button = Peruuta
 passkey-delete-modal-confirm-button = Poista todentamisavain
 passkey-delete-success = Todentamisavain poistettu
+passkey-rename-save-button = Tallenna
+passkey-rename-cancel-button = Peruuta
 
 ## Switch component
 
@@ -1403,9 +1422,12 @@ pair-auth-complete-manage-devices-link = Hallinnoi laitteita
 
 ## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
 
+# Heading
+pair-auth-complete-send-tab-heading = Olet valmis lähettämään välilehtiä
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } käyttöjärjestelmälle { $deviceOS } on yhdistetty.
+pair-auth-complete-send-tab-benefits = Voit lähettää avoimia välilehtiä, salasanoja ja kirjanmerkkejä laitteiden välillä välittömästi.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1435,6 +1457,9 @@ pair-wait-for-supp-heading-text = Hyväksyntä vaaditaan nyt <span>joltakin muul
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Laitteen pariliitos epäonnistui
+pair-failure-message-v2 = Määritystä ei voitu suorittaa loppuun. Kirjaudu sisään sähköpostiosoitteellasi.
 pair-failure-try-again-link = Yritä uudelleen
 
 ## Pair index page
@@ -1462,12 +1487,16 @@ pair-qr-code-aria-label = QR-koodi
 pair-choice-subheader = Synkronoi { -brand-firefox }-kokemuksesi
 # Description shown on the choice screen
 pair-choice-description = Tarkastele tallennettuja salasanoja, välilehtiä, selaushistoriaa ja muuta – kaikilla laitteillasi.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Lataa tai avaa { -brand-firefox } laitteella, jolle haluat lähettää välilehtiä
 # Legend for the radio button fieldset
 pair-choice-legend = Jatka valitsemalla vaihtoehto:
 # Radio option: user already has Firefox for mobile — title
 pair-choice-has-mobile-title = Minulla on jo { -brand-firefox } mobiililaitteille
 # Radio option: user does not have Firefox for mobile — title
 pair-choice-needs-mobile-title = Minulla ei ole { -brand-firefox }ia mobiililaitteille
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Lataa { -brand-firefox } mobiililaitteellesi ja aloita synkronointi.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Jatka
 # Success banner shown after signing in
@@ -1521,6 +1550,41 @@ pair-unsupported-learn-more-link-v2 = Lue lisää
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Oho! Jotain meni pieleen.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Sulje tämä välilehti ja yritä uudelleen.
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = Hyväksytäänkö sisäänkirjautuminen?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = Kyllä, hyväksy kirjautuminen
+
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+pair2-authority-continue-on-mobile-heading = Jatka mobiililaitteellasi
+pair2-authority-continue-on-mobile-description = Noudata puhelimesi tai tabletin ohjeita.
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = Peruuta
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = Avaa { -brand-firefox } synkronointia varten
+
+## ScanQR page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer. It shows a QR code that they scan with
+## their phone or tablet to connect the two devices and start syncing.
+
+# Accessible label describing the QR code image shown on this page
+pair2-authority-scan-qr-code-aria-label = QR-koodi mobiililaitteen yhdistämiseksi
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
