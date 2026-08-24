@@ -2,20 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-24 20:10+0000\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/confirm_reset_password.js:170
-msgid "Password reset"
-msgstr "Ristabilìs la password"
-
-#: .es5/views/confirm_reset_password.js:185
-msgid "Password reset successfully. Sign in to continue."
-msgstr "Password ristabilide cun sucès. Jentre par continuâ."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
@@ -99,10 +93,6 @@ msgstr "Conetût"
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "Cumò al è dut pront par modificâ il to account Firefox."
 
-#: .es5/views/reset_password.js:92
-msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr "Account no cognossût. <a href=\"/signup\">Regjistriti</a>"
-
 #: .es5/views/sign_up_password.js:66
 msgid "Account no longer exists. Recreate it?"
 msgstr "Chest account nol esist plui. Tornâ a creâlu?"
@@ -124,7 +114,7 @@ msgstr "Continue su %(serviceName)s"
 msgid "Your account has been locked for security reasons"
 msgstr "L'account al è stât blocât par resons di sigurece"
 
-#: .es5/views/mixins/account-reset-mixin.js:40 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
+#: .es5/views/mixins/account-reset-mixin.js:40
 msgid "Reset password"
 msgstr "Ristabilìs la password"
 
@@ -798,7 +788,9 @@ msgid "Invalid Token"
 msgstr "Gjeton no valit"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Continuant tu confermis di acetâ lis <a id=\"service-tos\" href=\"%(termsUri)s\">Cundizions di utilizazion dal servizi</a> e la <a id=\"service-pp\" href=\"%(privacyUri)s\">Informative su la "
 "riservatece</a> di %(serviceName)s (%(serviceUri)s)."
@@ -839,51 +831,6 @@ msgstr "Erôr 500"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "Orpo, alc al è lât strucj. Nus è rivade a segnalazion dal probleme e o lavorarìn par comedâlu."
 
-#: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
-msgid "Reset password link expired"
-msgstr "Chest colegament par ristabilî la password al è scjadût"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
-msgid "The link you clicked to reset your password is expired."
-msgstr "Il colegament doprât par ristabilî la tô password al è scjadût."
-
-#: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
-msgid "Receive new link"
-msgstr "Mandimi un gnûf link"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:5
-msgid "Reset password with account recovery key"
-msgstr "Ripristine la password cu la clâf di recupar dal account"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
-#: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
-#: .es5/templates/reset_password.mustache:2 .es5/templates/sign_in_password.mustache:6 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Continue su %(serviceName)s"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:7
-msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr "Inserìs la clâf di recupar dal account, che si pues doprâ une volte sole e che tu âs memorizât intun puest sigûr, par tornâ a vê l'acès al to account Mozilla."
-
-#: .es5/templates/account_recovery_confirm_key.mustache:8
-msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr ""
-"<span class=\"note\">NOTE:</span> se tu ristabilissis la password e no tu âs salvât la clâf di recupar dal account, cualchi dât al vignarà eliminât (includûts i dâts sincronizâts sul servidôr come "
-"cronologjie e segnelibris)."
-
-#: .es5/templates/account_recovery_confirm_key.mustache:9
-msgid "Enter account recovery key"
-msgstr "Inserìs la clâf di recupar dal account"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:10
-msgid "Confirm account recovery key"
-msgstr "Conferme la clâf di recupar dal account"
-
-#: .es5/templates/account_recovery_confirm_key.mustache:11
-msgid "Don't have an account recovery key?"
-msgstr "No âstu une clâf di recupar dal account?"
-
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
 msgstr "Sielç ce sincronizâ:"
@@ -895,43 +842,6 @@ msgstr "Sincronize selezionâts"
 #: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
 msgid "Don’t sync this device"
 msgstr "No sta sincronizâ chest dispositîf"
-
-#: .es5/templates/complete_reset_password.mustache:5
-msgid "Reset password link damaged"
-msgstr "Chest link par ristabilî la password al è danezât"
-
-#: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Al colegament che tu âs doprât i mancjave cualchi caratar, al è probabil che il probleme al sedi stât causât dal to client di pueste eletroniche. Torne prove copiant cun atenzion la direzion."
-
-#: .es5/templates/complete_reset_password.mustache:8
-msgid "Create new password"
-msgstr "Cree gnove password"
-
-#: .es5/templates/complete_reset_password.mustache:9
-msgid ""
-"<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
-"your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr ""
-"<span>VISITI:</span> se tu tornis a configurâ la tô password, tu ristabilissis ancje il contignût dal to account. Tu podaressis pierdi cualchi informazion personâl (come la cronologjie, i "
-"segnelibris e lis passwords) viodût che i dâts a son criptâts doprant la tô password; chest per garantî la tô riservatece. Dut câs tu conservarâs ducj i abonaments esistents e i dâts di Pocket no "
-"vignaran tocjâts."
-
-#: .es5/templates/complete_reset_password.mustache:11
-msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Tu âs ripristinât cun sucès il to account doprant la clâf di recupar dal account. Cree une gnove password par meti al sigûr i tiei dâts e tegnile intun puest sigûr."
-
-#: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Gnove password"
-
-#: .es5/templates/complete_reset_password.mustache:14
-msgid "Re-enter password"
-msgstr "Torne inserìs la password"
-
-#: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
-msgid "Remember password? Sign in"
-msgstr "Visâsi la password? Jentre"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -957,6 +867,10 @@ msgstr "Fâs clic achì par ricevi un gnûf colegament pe conferme"
 msgid "Confirmation link damaged"
 msgstr "Il colegament di conferme al è danezât"
 
+#: .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
+msgstr "Al colegament che tu âs doprât i mancjave cualchi caratar, al è probabil che il probleme al sedi stât causât dal to client di pueste eletroniche. Torne prove copiant cun atenzion la direzion."
+
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
 msgstr "Erôr te conferme"
@@ -977,8 +891,7 @@ msgstr "Controle la tô e-mail pal colegament di conferme mandât&nbsp;a %(escap
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Controle la tô e-mail pal colegament di conferme di acès mandât a %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/confirm_reset_password.mustache:4 .es5/templates/sign_in_unblock.mustache:6
-#: .es5/templates/sign_in_unblock.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9
 msgid "Not in inbox or spam folder? Resend"
 msgstr "No ise te pueste in jentrade o te cartele spam/malvolude? Torne mande"
 
@@ -986,14 +899,6 @@ msgstr "No ise te pueste in jentrade o te cartele spam/malvolude? Torne mande"
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr "Indaûr"
-
-#: .es5/templates/confirm_reset_password.mustache:1
-msgid "Reset email sent"
-msgstr "E-mail par ristabilî la password inviade"
-
-#: .es5/templates/confirm_reset_password.mustache:2
-msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Fâs clic sul colegament mandât vie e-mail a %(email)s dentri de prossime ore par creâ une gnove password."
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
@@ -1066,6 +971,13 @@ msgstr "Gjestìs il to account"
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
 msgstr "Inserìs la password <span class=\"card-subheader\" id=\"subheader\">pal to account Mozilla</span>"
 
+#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13
+#: .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_password.mustache:6
+#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Continue su %(serviceName)s"
+
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
 msgstr "Password"
@@ -1074,8 +986,10 @@ msgstr "Password"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1083,8 +997,10 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 
@@ -1139,8 +1055,10 @@ msgstr "Un account Mozilla al sbloche ancje l'acès a altris prodots di Mozilla 
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 
@@ -1148,8 +1066,10 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1312,22 +1232,6 @@ msgstr "Segnale ativitât suspiete"
 msgid "Why is this happening?"
 msgstr "Ce staial sucedint?"
 
-#: .es5/templates/reset_password.mustache:3
-msgid ""
-"<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
-"data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
-msgstr ""
-"<span>NOTE:</span> cuant che tu azeris la tô password, tu azeris ancje il contignût dal to account. Tu podaressis pierdi cualchi informazion personâl (come cronologjie, segnelibris e passwords). "
-"Chest a sucêt parcè che o criptìn i tiei dâts cu la tô password, par protezi la tô riservatece. Tu mantignarâs distès ducj i abonaments in vore e i dâts di Pocket no vignaran modificâts."
-
-#: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
-msgstr "E-mail"
-
-#: .es5/templates/reset_password.mustache:6
-msgid "Begin reset"
-msgstr "Scomence azerament"
-
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
 msgstr "Ativitât resinte"
@@ -1442,7 +1346,8 @@ msgstr "Ripet password"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "Ti covente cheste password par acedi a ducj i dâts cifrâts che tu archiviis cun nô.<br class=\"mb-3\">Un ripristinament al significhe la pierdite potenziâl di dâts come passwords e segnelibris."
+msgstr ""
+"Ti covente cheste password par acedi a ducj i dâts cifrâts che tu archiviis cun nô.<br class=\"mb-3\">Un ripristinament al significhe la pierdite potenziâl di dâts come passwords e segnelibris."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
@@ -1538,6 +1443,10 @@ msgstr "Cronologjie, segnelibris, credenziâls e altris dâts personâi sincroni
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
 msgstr "Password vecje"
+
+#: .es5/templates/post_verify/password/force_password_change.mustache:8
+msgid "New password"
+msgstr "Gnove password"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
@@ -1730,6 +1639,10 @@ msgstr "Posizion no cognossude"
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
 msgstr "Direzion IP: %(ipAddress)s"
+
+#: .es5/templates/partial/email-autocomplete-domains.mustache:1
+msgid "Email"
+msgstr "E-mail"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
