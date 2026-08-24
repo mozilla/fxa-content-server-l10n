@@ -1710,7 +1710,7 @@ msgstr "¿Por qué preguntamos?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
-msgstr "% %(family)s en %(OS)s"
+msgstr "%(family)s en %(OS)s"
 
 #: .es5/templates/partial/device-being-paired.mustache:3
 msgid "%(city)s, %(region)s, %(country)s (estimated)"

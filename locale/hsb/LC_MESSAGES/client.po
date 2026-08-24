@@ -73,7 +73,7 @@ msgstr "Primarna e-mejlowa adresa je wokrućena"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Kontowe zdźělenki so tež na %(secondaryEmailVerified)s% pósćelu."
+msgstr "Kontowe zdźělenki so tež na %(secondaryEmailVerified)s pósćelu."
 
 #: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
@@ -114,7 +114,7 @@ msgstr "Začinić"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Kontowe zdźělenki so tež na %(secondaryEmail)s% pósćelu."
+msgstr "Kontowe zdźělenki so tež na %(secondaryEmail)s pósćelu."
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "

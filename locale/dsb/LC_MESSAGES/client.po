@@ -73,7 +73,7 @@ msgstr "Primarna e-mailowa adresa jo wokšuśona"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Kontowe powěźeńki se teke na %(secondaryEmailVerified)s% pósćelu."
+msgstr "Kontowe powěźeńki se teke na %(secondaryEmailVerified)s pósćelu."
 
 #: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
@@ -114,7 +114,7 @@ msgstr "Zacyniś"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Kontowe powěźeńki se teke na %(secondaryEmail)s% pósćelu."
+msgstr "Kontowe powěźeńki se teke na %(secondaryEmail)s pósćelu."
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
