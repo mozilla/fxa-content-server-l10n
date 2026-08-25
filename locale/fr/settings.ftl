@@ -1848,9 +1848,9 @@ pair2-authority-continue-on-mobile-cancel-button = Annuler
 ## It points them at firefox.com/pair and offers a download link for Firefox.
 
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-authority-download-firefox-heading = Ouvrir { -brand-firefox } à synchroniser
+pair2-authority-download-firefox-heading = Ouvrez { -brand-firefox } pour synchroniser vos données
 # "firefox.com/pair" is a URL and should not be translated
-pair2-authority-download-firefox-instruction = Pour configurer la synchronisation entre les appareils, ouvrez { -brand-firefox } sur cet appareil et visitez <b>firefox.com/pair</b>
+pair2-authority-download-firefox-instruction = Pour configurer la synchronisation entre des appareils, ouvrez { -brand-firefox } sur cet appareil et consultez <b>firefox.com/pair</b>
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Télécharger { -brand-firefox }
 
@@ -1858,9 +1858,9 @@ pair2-authority-download-firefox-cta = Télécharger { -brand-firefox }
 ## Users see this on their computer. It shows a QR code that they scan with
 ## their phone or tablet to connect the two devices and start syncing.
 
-pair2-authority-scan-qr-heading = Scannez pour connecter votre appareil mobile
+pair2-authority-scan-qr-heading = Scannez le code QR pour connecter votre appareil mobile
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-authority-scan-qr-instruction = Scannez le code QR avec votre téléphone ou votre tablette pour synchroniser vos { -brand-firefox } marque-pages, onglets et plus encore.
+pair2-authority-scan-qr-instruction = Scannez le code QR avec votre téléphone ou votre tablette pour synchroniser vos marque-pages, vos onglets et d’autres données de { -brand-firefox }.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = Code QR pour connecter votre appareil mobile
 # Link to a support article for users having trouble scanning the QR code
@@ -1885,7 +1885,7 @@ pair2-authority-sync-success-sync-settings-button = Paramètres de synchronisati
 
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = Vous souhaitez toujours connecter un appareil ?
-pair2-authority-timeout-and-cancel-timeout-description = Il semblerait que le délai d’attente ait expiré. Réessayez si vous souhaitez toujours connecter votre appareil mobile et synchroniser vos { -brand-firefox } données.
+pair2-authority-timeout-and-cancel-timeout-description = Le délai d’attente semble avoir expiré. Réessayez si vous souhaitez toujours connecter votre appareil mobile et synchroniser vos données { -brand-firefox }.
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-canceled-heading = Annulé
 pair2-authority-timeout-and-cancel-canceled-description = Si vous changez d’avis ou si vous souhaitez connecter un autre appareil, réessayez.
@@ -1917,7 +1917,7 @@ pair2-supplicant-approve-sign-in-cancel-button = Annuler
 # whose details are shown below the heading
 pair2-supplicant-connect-this-device-heading = Connecter cet appareil à votre compte ?
 # Confirms the pairing attempt
-pair2-supplicant-connect-this-device-connect-button = Connexion
+pair2-supplicant-connect-this-device-connect-button = Connecter
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Annuler
 
@@ -1926,10 +1926,10 @@ pair2-supplicant-connect-this-device-cancel-button = Annuler
 ## does not have Firefox installed yet. It explains what syncing gets them and
 ## sends them off to install the browser.
 
-pair2-supplicant-download-firefox-heading = Obtenir { -brand-firefox } sur cet appareil
+pair2-supplicant-download-firefox-heading = Installer { -brand-firefox } sur cet appareil
 # "sync" is a verb here, referring to syncing data between the user's devices.
 # <linkExternal> is an anchor tag linking to a page explaining what sync does.
-pair2-supplicant-download-firefox-description = Téléchargez { -brand-firefox } pour synchroniser les marque-pages, l’historique et d’autres informations entre vos appareils. <linkExternal>En savoir plus</linkExternal>
+pair2-supplicant-download-firefox-description = Téléchargez { -brand-firefox } pour synchroniser les marque-pages, l’historique et d’autres données entre vos appareils. <linkExternal>En savoir plus</linkExternal>
 # Primary action. Sends the user to the Firefox download page.
 pair2-supplicant-download-firefox-continue-button = Continuer dans { -brand-firefox }
 
@@ -1938,10 +1938,10 @@ pair2-supplicant-download-firefox-continue-button = Continuer dans { -brand-fire
 ## to open firefox.com/pair on their computer, which is where the QR code they
 ## scan with the mobile device comes from.
 
-pair2-supplicant-ready-to-scan-heading = Pour connecter un appareil
+pair2-supplicant-ready-to-scan-heading = Comment connecter un appareil
 # <b> emphasises the address the user types on their computer. It is not a link,
 # and the address itself must not be translated.
-pair2-supplicant-ready-to-scan-instruction = Sur votre ordinateur, ouvrez { -brand-firefox } et accédez à <b>firefox.com/pair</b>, et suivez les instructions à l’écran pour connecter cet appareil mobile.
+pair2-supplicant-ready-to-scan-instruction = Sur votre ordinateur, ouvrez { -brand-firefox } et consultez <b>firefox.com/pair</b> puis suivez les instructions à l’écran pour connecter cet appareil mobile.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = En savoir plus
 
