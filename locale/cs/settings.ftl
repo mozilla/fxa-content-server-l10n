@@ -769,7 +769,7 @@ flow-setup-2fa-prompt-passkey-success-banner = Přihlášení pomocí klíče by
 # requires two-step authentication setup.
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
-flow-setup-2fa-prompt-passkey-description = { $serviceName } také vyžaduje dvoufázové ověření pro vaše { -product-mozilla-account }. Po nastavení už ho nebudete potřebovat pro přihlašování pomocí hesla.
+flow-setup-2fa-prompt-passkey-description = Služba { $serviceName } také vyžaduje dvoufázové ověření pro váš { -product-mozilla-account(case: "acc", capitalization: "lower") }. Po dokončení nastavení už ho nebudete potřebovat, když se přihlásíte pomocí přístupového klíče.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Pro pokračování můžete použít kteroukoliv z <authenticationAppsLink>těchto ověřovacích aplikací</authenticationAppsLink>.
 flow-setup-2fa-prompt-continue-button = Pokračovat
@@ -1096,11 +1096,11 @@ recent-activity-account-passwordless-login-otp-verified = Ověřen kód pro při
 recent-activity-account-passwordless-registration-complete = Registrace účtu bez hesla byla dokončena
 recent-activity-account-recovery-codes-set = Obnovovací kódy jsou nastaveny
 # A passkey is a sign-in method that replaces a password. This string is shown when a passkey was set up so it can also unlock the user's synced browser data (bookmarks, history, open tabs), which previously required their password.
-recent-activity-account-passkey-wrap-created = Přístupový klíč pro synchronizaci povolen
+recent-activity-account-passkey-wrap-created = Přístupový klíč byl povolen pro synchronizaci
 # A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
 recent-activity-account-passkey-wrap-creation-failure = Nastavení synchronizace s přístupovým klíčem selhalo
 # A passkey is a sign-in method that replaces a password. Resetting a forgotten password re-encrypts the user's synced browser data, which their passkeys can no longer unlock. This string is shown when that happened and the passkeys need to be set up for syncing again.
-recent-activity-account-passkey-wrap-invalidated = Přístup k synchronizaci hesla byl po obnovení hesla odebrán
+recent-activity-account-passkey-wrap-invalidated = Po resetování hesla byl zrušen přístup k synchronizaci pomocí přístupového klíče
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Jiná aktivita u účtu
 
