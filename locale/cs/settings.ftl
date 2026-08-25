@@ -1998,11 +1998,11 @@ pair2-supplicant-sync-success-sync-settings-button = Nastavení synchronizace
 # Shown when the pairing attempt expired before it completed. "we" is Firefox.
 pair2-supplicant-timeout-and-cancel-timeout-heading = Zdá se, že vypršel časový limit
 # "firefox.com/pair" is a URL and should not be translated
-pair2-supplicant-timeout-and-cancel-timeout-description = Pro připojení svého mobilního zařízení a synchronizaci dat o aplikaci { -brand-firefox } navštivte na svém počítači <b>firefox.com/pair</b>.
+pair2-supplicant-timeout-and-cancel-timeout-description = Chcete-li připojit své mobilní zařízení a synchronizovat data { -brand-firefox(case: "gen") }, přejděte na svém počítači na stránku <b>firefox.com/pair</b>.
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Zrušeno
 # "firefox.com/pair" is a URL and should not be translated
-pair2-supplicant-timeout-and-cancel-canceled-description = Pro připojení svého zařízení prosím navštivte <b>firefox.com/pair</b> na vašem počítači.
+pair2-supplicant-timeout-and-cancel-canceled-description = Pro připojení svého zařízení prosím navštivte <b>firefox.com/pair</b> na svém počítači.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
