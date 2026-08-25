@@ -1893,7 +1893,7 @@ pair2-authority-download-firefox-cta = Stáhnout { -brand-firefox }
 
 pair2-authority-scan-qr-heading = Naskenujte a připojte své mobilní zařízení
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-authority-scan-qr-instruction = Naskenujte QR kód svým telefonem nebo tabletem a synchronizujte své záložky, panely a další data v aplikaci { -brand-firefox }.
+pair2-authority-scan-qr-instruction = Naskenujte QR kód svým telefonem nebo tabletem a synchronizujte své záložky, panely a další data ve { -brand-firefox(case: "loc") }.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR kód pro připojení vašeho mobilního zařízení
 # Link to a support article for users having trouble scanning the QR code
@@ -1918,7 +1918,7 @@ pair2-authority-sync-success-sync-settings-button = Nastavení synchronizace
 
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = Stále chcete připojit zařízení?
-pair2-authority-timeout-and-cancel-timeout-description = Zdá se, že vypršel časový limit. Zkuste to znovu, pokud stále chcete připojit své mobilní zařízení a synchronizovat svá data { -brand-firefox }.
+pair2-authority-timeout-and-cancel-timeout-description = Zdá se, že vypršel časový limit. Zkuste to znovu, pokud stále chcete připojit své mobilní zařízení a synchronizovat svá data { -brand-firefox(case: "gen") }.
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-canceled-heading = Zrušeno
 pair2-authority-timeout-and-cancel-canceled-description = Pokud změníte názor nebo chcete připojit jiné zařízení, zkuste to znovu.
@@ -1959,10 +1959,10 @@ pair2-supplicant-connect-this-device-cancel-button = Zrušit
 ## does not have Firefox installed yet. It explains what syncing gets them and
 ## sends them off to install the browser.
 
-pair2-supplicant-download-firefox-heading = Získejte { -brand-firefox } na tomto zařízení
+pair2-supplicant-download-firefox-heading = Získejte { -brand-firefox(case: "acc") } na tomto zařízení
 # "sync" is a verb here, referring to syncing data between the user's devices.
 # <linkExternal> is an anchor tag linking to a page explaining what sync does.
-pair2-supplicant-download-firefox-description = Stáhněte si aplikaci { -brand-firefox } pro synchronizaci záložek, historie a dalšího data mezi zařízeními. <linkExternal>Zjistit více</linkExternal>
+pair2-supplicant-download-firefox-description = Stáhněte si { -brand-firefox(case: "acc") } pro synchronizaci záložek, historie a dalšího dat mezi zařízeními. <linkExternal>Zjistit více</linkExternal>
 # Primary action. Sends the user to the Firefox download page.
 pair2-supplicant-download-firefox-continue-button = Pokračujte za { -brand-firefox(case: "gen") }
 
@@ -1974,7 +1974,7 @@ pair2-supplicant-download-firefox-continue-button = Pokračujte za { -brand-fire
 pair2-supplicant-ready-to-scan-heading = Pro připojení zařízení
 # <b> emphasises the address the user types on their computer. It is not a link,
 # and the address itself must not be translated.
-pair2-supplicant-ready-to-scan-instruction = Na počítači otevřete { -brand-firefox }, přejděte na <b>firefox.com/pair</b> a postupujte podle pokynů na obrazovce pro připojení tohoto mobilního zařízení.
+pair2-supplicant-ready-to-scan-instruction = Na počítači otevřete { -brand-firefox(case: "acc") }, přejděte na <b>firefox.com/pair</b> a podle pokynů na obrazovce připojte toto mobilní zařízení.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Zjistit více
 
@@ -1983,7 +1983,7 @@ pair2-supplicant-ready-to-scan-learn-more-link = Zjistit více
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Vaše zařízení je připojeno
-pair2-supplicant-sync-success-description = Vaše záložky, panely a další obsah zůstanou synchronizované i přes aplikaci { -brand-firefox }.
+pair2-supplicant-sync-success-description = Vaše záložky, panely a další obsah zůstanou synchronizované i ve { -brand-firefox(case: "loc") }.
 # Opens the view listing tabs open on the user's other synced devices
 pair2-supplicant-sync-success-view-tabs-button = Zobrazit synchronizované panely
 # Opens the browser's sync settings, where the user chooses what to sync
