@@ -1093,9 +1093,9 @@ msgid ""
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
-"               Pokračováním souhlasíte s:<br /> <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/ terms/subscription-services/\">Podmínkami poskytování "
+"               Pokračováním souhlasíte s:<br /> <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Podmínkami poskytování "
 "služby</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zásadami ochrany osobních údajů</a> pro služby předplatného "
-"Mozilly<br />  <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/ terms/services/\">Podmínkami poskytování služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
+"Mozilly<br />  <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami poskytování služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">oznámení o ochraně osobních údajů</a> pro Účty Mozilla             "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
@@ -1169,9 +1169,9 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
-"               Pokračováním souhlasíte s:<br /> <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/ terms/subscription-services/\">Podmínkami poskytování "
+"               Pokračováním souhlasíte s:<br /> <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Podmínkami poskytování "
 "služby</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zásadami ochrany osobních údajů</a> pro služby předplatného "
-"Mozilly<br />  <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/ terms/services/\">Podmínkami poskytování služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
+"Mozilly<br />  <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami poskytování služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">oznámení o ochraně osobních údajů</a> pro Účty Mozilla             "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
