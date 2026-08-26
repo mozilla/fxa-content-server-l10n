@@ -18,12 +18,12 @@ resend-success-banner-description = Προσθέστε το { $accountsEmail } �
 brand-banner-dismiss-button-2 =
     .aria-label = Κλείσιμο μηνύματος
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = Οι { -product-firefox-accounts(case: "nom", capitalization: "lower") } θα γίνουν { -product-mozilla-accounts(case: "nom", capitalization: "lower") } την 1η Νοεμβρίου
+brand-prelaunch-title = Οι { -product-firefox-accounts(capitalization: "lower", case: "nom") } θα γίνουν { -product-mozilla-accounts(capitalization: "lower", case: "nom") } την 1η Νοεμβρίου
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που χρησιμοποιείτε.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Έχουμε μετονομάσει τους { -product-firefox-accounts(case: "acc", capitalization: "lower") } σε { -product-mozilla-accounts(case: "acc", capitalization: "lower") }. Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που χρησιμοποιείτε.
+brand-postlaunch-title = Έχουμε μετονομάσει τους { -product-firefox-accounts(capitalization: "lower", case: "acc") } σε { -product-mozilla-accounts(capitalization: "lower", case: "acc") }. Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που χρησιμοποιείτε.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Μάθετε περισσότερα
 # Alt text for close banner image
@@ -197,21 +197,18 @@ form-verify-totp-disabled-button-title-numeric = Εισαγάγετε τον { $
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
 form-verify-totp-disabled-button-title-alphanumeric = Εισαγάγετε τον κωδικό { $codeLength } χαρακτήρων για να συνεχίσετε
-
-# GetDataTrio component, part of Account Recovery Key flow
-
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Κλειδί ανάκτησης λογαριασμού { -brand-firefox }
 get-data-trio-title-backup-verification-codes = Εφεδρικοί κωδικοί ταυτοποίησης
 get-data-trio-download-2 =
-    .title = Λήψη
     .aria-label = Λήψη
+    .title = Λήψη
 get-data-trio-copy-2 =
-    .title = Αντιγραφή
     .aria-label = Αντιγραφή
+    .title = Αντιγραφή
 get-data-trio-print-2 =
-    .title = Εκτύπωση
     .aria-label = Εκτύπωση
+    .title = Εκτύπωση
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -275,10 +272,6 @@ icon-loading-arrow-aria-label =
 # Used for passkey icon
 icon-passkey-aria-label =
     .aria-label = Κλειδί πρόσβασης
-
-## Images - these are all aria labels used for illustrations
-## Aria labels are used as alternate text that can be read aloud by screen readers.
-
 hearts-broken-image-aria-label =
     .aria-label = Ένας υπολογιστής, ένα κινητό τηλέφωνο και μια εικόνα ραγισμένης καρδιάς στο καθένα
 hearts-verified-image-aria-label =
@@ -527,9 +520,6 @@ avatar-default-avatar =
 
 ##
 
-
-# BentoMenu component
-
 bento-menu-title-3 = Προϊόντα { -brand-mozilla }
 bento-menu-tagline = Περισσότερα προϊόντα από τη { -brand-mozilla } που προστατεύουν το απόρρητό σας
 bento-menu-vpn-2 = { -product-mozilla-vpn }
@@ -594,11 +584,11 @@ cs-disconnect-sync-opt-not-say = Προτιμώ να μην πω
 
 cs-disconnect-advice-confirm = Εντάξει, το κατάλαβα
 cs-disconnect-lost-advice-heading = Αποσυνδέθηκε απολεσθείσα ή κλεμμένη συσκευή
-cs-disconnect-lost-advice-content-3 = Εφόσον η συσκευή σας χάθηκε ή κλάπηκε, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } στις ρυθμίσεις λογαριασμού σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αναζητήσετε πληροφορίες από τον κατασκευαστή της συσκευής σας σχετικά με την απομακρυσμένη διαγραφή δεδομένων.
+cs-disconnect-lost-advice-content-3 = Εφόσον η συσκευή σας χάθηκε ή κλάπηκε, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του { -product-mozilla-account(capitalization: "lower", case: "gen") } στις ρυθμίσεις λογαριασμού σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αναζητήσετε πληροφορίες από τον κατασκευαστή της συσκευής σας σχετικά με την απομακρυσμένη διαγραφή δεδομένων.
 cs-disconnect-suspicious-advice-heading = Η ύποπτη συσκευή αποσυνδέθηκε
 cs-disconnect-suspicious-advice-content-2 =
     Αν η αποσυνδεδεμένη συσκευή είναι πράγματι ύποπτη, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του
-    { -product-mozilla-account(case: "gen", capitalization: "lower") } σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αλλάξετε όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα «about:logins».
+    { -product-mozilla-account(capitalization: "lower", case: "gen") } σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αλλάξετε όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα «about:logins».
 cs-sign-out-button = Αποσύνδεση
 
 ## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
@@ -613,18 +603,15 @@ cs-scope-firefox-vpn = Το ενσωματωμένο VPN του { -brand-firefox
 ## Data collection section
 
 dc-heading = Συλλογή και χρήση δεδομένων
-dc-subheader-moz-accounts = { -product-mozilla-accounts(case: "nom", capitalization: "upper") }
+dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "upper", case: "nom") }
 dc-subheader-ff-browser = Πρόγραμμα περιήγησης { -brand-firefox }
-dc-subheader-content-2 = Να επιτρέπεται στους { -product-mozilla-accounts(case: "acc", capitalization: "lower") } η αποστολή τεχνικών δεδομένων και δεδομένων αλληλεπίδρασης στη { -brand-mozilla }.
+dc-subheader-content-2 = Να επιτρέπεται στους { -product-mozilla-accounts(capitalization: "lower", case: "acc") } η αποστολή τεχνικών δεδομένων και δεδομένων αλληλεπίδρασης στη { -brand-mozilla }.
 dc-subheader-ff-content = Για να ελέγξετε ή να ενημερώσετε τις ρυθμίσεις των τεχνικών δεδομένων και των δεδομένων αλληλεπίδρασης του προγράμματος περιήγησης { -brand-firefox }, ανοίξτε τις ρυθμίσεις του { -brand-firefox } και μεταβείτε στην ενότητα «Απόρρητο και ασφάλεια».
-dc-opt-out-success-2 = Επιτυχής απενεργοποίηση. Οι { -product-mozilla-accounts(case: "nom", capitalization: "lower") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
-dc-opt-in-success-2 = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-mozilla-accounts(case: "acc", capitalization: "lower") }.
+dc-opt-out-success-2 = Επιτυχής απενεργοποίηση. Οι { -product-mozilla-accounts(capitalization: "lower", case: "nom") } δεν θα στέλνουν τεχνικά δεδομένα ή δεδομένα αλληλεπίδρασης στη { -brand-mozilla }.
+dc-opt-in-success-2 = Ευχαριστούμε! Η κοινοποίηση αυτών των δεδομένων μάς βοηθά να βελτιώσουμε τους { -product-mozilla-accounts(capitalization: "lower", case: "acc") }.
 dc-opt-in-out-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά την αλλαγή της προτίμησής σας για τη συλλογή δεδομένων
 dc-learn-more = Μάθετε περισσότερα
-
-# DropDownAvatarMenu component
-
-drop-down-menu-title-2 = Μενού { -product-mozilla-account(case: "gen", capitalization: "lower") }
+drop-down-menu-title-2 = Μενού { -product-mozilla-account(capitalization: "lower", case: "gen") }
 # This is displayed in the Settings menu after user's click on their profile icon.
 # Following this string on a new line will be their display name (user's name or email)
 drop-down-menu-signed-in-as-v2 = Συνδεθήκατε ως
@@ -777,9 +764,6 @@ flow-setup-phone-confirm-code-resend-code-button = Αποστολή νέου κ�
 flow-setup-phone-confirm-code-resend-code-success = Ο κωδικός απεστάλη
 flow-setup-phone-confirm-code-success-message-v2 = Προστέθηκε τηλέφωνο ανάκτησης
 flow-change-phone-confirm-code-success-message = Το τηλέφωνο ανάκτησης άλλαξε
-
-## FlowSetupPhoneConfirmCode
-
 flow-setup-phone-submit-number-heading = Επαληθεύστε τον αριθμό τηλεφώνου σας
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Θα λάβετε ένα μήνυμα κειμένου από τη { -brand-mozilla } με έναν κωδικό για την επαλήθευση του αριθμού σας. Μην μοιραστείτε αυτόν τον κωδικό με κανέναν.
@@ -799,8 +783,8 @@ header-menu-closed = Μενού πλοήγησης ιστοτόπου
 header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
 header-back-to-settings-link =
-    .title = Επιστροφή στις ρυθμίσεις { -product-mozilla-account(case: "gen", capitalization: "lower") }
-header-title-2 = { -product-mozilla-account(case: "nom", capitalization: "upper") }
+    .title = Επιστροφή στις ρυθμίσεις { -product-mozilla-account(capitalization: "lower", case: "gen") }
+header-title-2 = { -product-mozilla-account(capitalization: "upper", case: "nom") }
 header-help = Βοήθεια
 
 ## Linked Accounts section
@@ -966,8 +950,8 @@ delete-account-header =
     .title = Διαγραφή λογαριασμού
 delete-account-step-1-2 = Βημα 1 απο 2
 delete-account-step-2-2 = Βημα 2 απο 2
-delete-account-confirm-title-4 = Ίσως έχετε συνδέσει τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας με ένα ή περισσότερα από τα εξής προϊόντα ή υπηρεσίες της { -brand-mozilla }, που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
-delete-account-product-mozilla-account = { -product-mozilla-account(case: "nom", capitalization: "upper") }
+delete-account-confirm-title-4 = Ίσως έχετε συνδέσει τον { -product-mozilla-account(capitalization: "lower", case: "acc") } σας με ένα ή περισσότερα από τα εξής προϊόντα ή υπηρεσίες της { -brand-mozilla }, που σας προστατεύουν και σας βοηθούν με τις εργασίες σας στο διαδίκτυο:
+delete-account-product-mozilla-account = { -product-mozilla-account(capitalization: "upper", case: "nom") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
@@ -1152,7 +1136,7 @@ verify-secondary-email-resend-code-button = Εκ νέου αποστολή κω�
 # Link to delete account on main Settings page
 delete-account-link = Διαγραφή λογαριασμού
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
-inactive-update-status-success-alert = Έγινε επιτυχής σύνδεση. Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } και τα δεδομένα σας θα παραμείνουν ενεργά.
+inactive-update-status-success-alert = Έγινε επιτυχής σύνδεση. Ο { -product-mozilla-account(capitalization: "lower", case: "nom") } και τα δεδομένα σας θα παραμείνουν ενεργά.
 
 ## Product promotion
 
@@ -1379,7 +1363,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Δυστυχώς, προέκυψε πρόβλημα κατά την ανανέωση
     της ταυτοποίησης δύο παραγόντων.
-tfa-row-enabled-description = Ο λογαριασμός σας προστατεύεται από ταυτοποίηση δύο παραγόντων. Θα πρέπει να εισαγάγετε έναν κωδικό μίας χρήσης από την εφαρμογή ελέγχου ταυτότητάς σας κατά τη σύνδεση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας.
+tfa-row-enabled-description = Ο λογαριασμός σας προστατεύεται από ταυτοποίηση δύο παραγόντων. Θα πρέπει να εισαγάγετε έναν κωδικό μίας χρήσης από την εφαρμογή ελέγχου ταυτότητάς σας κατά τη σύνδεση στον { -product-mozilla-account(capitalization: "lower", case: "acc") } σας.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Πώς προστατεύεται ο λογαριασμός σας
@@ -1405,7 +1389,7 @@ terms-privacy-agreement-intro-3 = Συνεχίζοντας, συμφωνείτε
 # $serviceName is customizable via Strapi and will be localized separately
 terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Όροι υπηρεσίας</termsLink> και <privacyLink>Σημείωση απορρήτου</privacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(case: "nom", capitalization: "upper") }: <mozillaAccountsTos>Όροι υπηρεσίας</mozillaAccountsTos> και <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "upper", case: "nom") }: <mozillaAccountsTos>Όροι υπηρεσίας</mozillaAccountsTos> και <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Συνεχίζοντας, αποδέχεστε τους <mozillaAccountsTos>Όρους υπηρεσίας</mozillaAccountsTos> και τη <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy>.
 
@@ -1493,9 +1477,6 @@ oauth-error-1000 = Κάτι πήγε στραβά. Κλείστε αυτήν τ�
 ## Passkey error messages
 ## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
 
-
-# Registration errors
-
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Η ρύθμιση του κλειδιού πρόσβασης απέτυχε ή δεν είναι διαθέσιμη. Δοκιμάστε ξανά ή επιλέξτε άλλη μέθοδο.
 # Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
@@ -1527,9 +1508,6 @@ passkey-registration-error-not-readable = Δεν ήταν δυνατή η πρό
 passkey-registration-error-constraint = Η ρύθμιση του κλειδιού πρόσβασης δεν είναι διαθέσιμη με αυτήν τη συσκευή. Δοκιμάστε μια άλλη μέθοδο ή συσκευή.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
 passkey-registration-error-unexpected = Η ρύθμιση του κλειδιού πρόσβασης απέτυχε. Δοκιμάστε ξανά ή επιλέξτε άλλη μέθοδο.
-
-# Authentication errors
-
 # Shown as a warning (not error) banner when a passkey sign-in is cancelled, no passkey is
 # available on this device, or the authenticator can't satisfy the request. Copy stays neutral and
 # points the user to another way to sign in.
@@ -1594,7 +1572,7 @@ connect-another-device-ios-complete-setup-message = Συνδεθείτε στο 
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Απαιτούνται cookie και τοπική αποθήκευση
-cookies-disabled-enable-prompt-2 = Ενεργοποιήστε τα cookie και τον τοπικό χώρο αποθήκευσης στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Με αυτόν τον τρόπο, θα ενεργοποιήσετε λειτουργίες όπως η απομνημόνευση της σύνδεσής σας μεταξύ των συνεδριών.
+cookies-disabled-enable-prompt-2 = Ενεργοποιήστε τα cookie και τον τοπικό χώρο αποθήκευσης στο πρόγραμμα περιήγησής σας για να αποκτήσετε πρόσβαση στον { -product-mozilla-account(capitalization: "lower", case: "acc") } σας. Με αυτόν τον τρόπο, θα ενεργοποιήσετε λειτουργίες όπως η απομνημόνευση της σύνδεσής σας μεταξύ των συνεδριών.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Δοκιμή ξανά
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1603,7 +1581,7 @@ cookies-disabled-learn-more = Μάθετε περισσότερα
 ## Index / home page
 
 index-header = Εισαγάγετε το email σας
-index-sync-header = Συνέχεια στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
+index-sync-header = Συνέχεια στον { -product-mozilla-account(capitalization: "lower", case: "acc") } σας
 index-sync-subheader = Συγχρονίστε τους κωδικούς πρόσβασης, τις καρτέλες και τους σελιδοδείκτες σας οπουδήποτε χρησιμοποιείτε το { -brand-firefox }.
 index-relay-header = Δημιουργία μάσκας email
 index-relay-subheader = Εισαγάγετε τη διεύθυνση email όπου θα θέλατε να προωθούνται τα email από τη μάσκα email σας.
@@ -1611,7 +1589,7 @@ index-relay-subheader = Εισαγάγετε τη διεύθυνση email όπ�
 index-subheader-with-servicename = Συνέχεια στο { $serviceName }
 index-subheader-default = Συνέχεια στις ρυθμίσεις λογαριασμού
 index-cta = Εγγραφή ή σύνδεση
-index-account-info = Ένας { -product-mozilla-account(case: "nom", capitalization: "lower") } ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της { -brand-mozilla } που προστατεύουν το απόρρητό σας.
+index-account-info = Ένας { -product-mozilla-account(capitalization: "lower", case: "nom") } ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της { -brand-mozilla } που προστατεύουν το απόρρητό σας.
 index-email-input =
     .label = Εισαγάγετε το email σας
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
@@ -1860,6 +1838,22 @@ pair2-authority-continue-on-mobile-cancel-button = Ακύρωση
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Λήψη του { -brand-firefox }
 
+## ScanQR page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer. It shows a QR code that they scan with
+## their phone or tablet to connect the two devices and start syncing.
+
+# Link to a support article for users having trouble scanning the QR code
+pair2-authority-scan-qr-help-link = Λήψη βοήθειας με τη σάρωση
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and offers the follow-up actions.
+
+# "syncing" here means copying data between the user's devices
+pair2-authority-sync-success-heading = Γίνεται συγχρονισμός
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button = Ρυθμίσεις συγχρονισμού
+
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
 ## either because it timed out or because it was canceled. Both cases offer to
@@ -1891,18 +1885,40 @@ pair2-supplicant-approve-sign-in-cancel-button = Ακύρωση
 
 # Confirms the pairing attempt
 pair2-supplicant-connect-this-device-connect-button = Σύνδεση
+# Dismisses the pairing attempt
+pair2-supplicant-connect-this-device-cancel-button = Ακύρωση
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = Μάθετε περισσότερα
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device once pairing has completed: the device
 ## is signed in and syncing with the computer they paired it with.
 
+pair2-supplicant-sync-success-heading = Η συσκευή σας έχει συνδεθεί
+# Opens the view listing tabs open on the user's other synced devices
+pair2-supplicant-sync-success-view-tabs-button = Προβολή συγχρονισμένων καρτελών
 # Opens the browser's sync settings, where the user chooses what to sync
 pair2-supplicant-sync-success-sync-settings-button = Ρυθμίσεις συγχρονισμού
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = Ακυρώθηκε
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
-service-welcome-signup-success-banner = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } επιβεβαιώθηκε
+service-welcome-signup-success-banner = Ο { -product-mozilla-account(capitalization: "lower", case: "nom") } επιβεβαιώθηκε
 service-welcome-signin-success-banner = Επιτυχής σύνδεση!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Επόμενο: Ενεργοποιήστε το VPN
@@ -1910,9 +1926,6 @@ service-welcome-vpn-description = Ένα ακόμα βήμα για την εν�
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading-v2 = Δημιουργία κωδικού πρόσβασης για συγχρονισμό
 # "This" refers to the heading, "Create password to sync"
@@ -1958,14 +1971,11 @@ complete-reset-pw-recovery-key-link = Χρήση κλειδιού ανάκτησ
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Έγινε επαναφορά του κωδικού πρόσβασής σας.
-reset-password-complete-banner-message = Μην ξεχάσετε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού από τις ρυθμίσεις του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας για να αποτρέψετε μελλοντικά προβλήματα σύνδεσης.
+reset-password-complete-banner-message = Μην ξεχάσετε να δημιουργήσετε ένα νέο κλειδί ανάκτησης λογαριασμού από τις ρυθμίσεις του { -product-mozilla-account(capitalization: "lower", case: "gen") } σας για να αποτρέψετε μελλοντικά προβλήματα σύνδεσης.
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
-
-# ConfirmBackupCodeResetPassword page
-
 confirm-backup-code-reset-password-input-label = Εισαγάγετε τον κωδικό 10 χαρακτήρων
 confirm-backup-code-reset-password-confirm-button = Επιβεβαίωση
 confirm-backup-code-reset-password-subheader = Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης
@@ -2016,9 +2026,6 @@ reset-password-confirmed-cta = Συνέχεια στο { $serviceName }
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
 
 password-reset-recovery-method-header = Επαναφέρετε τον κωδικό πρόσβασής σας
 password-reset-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκτησης
@@ -2079,7 +2086,7 @@ signin-link-expired-message-2 = Ο σύνδεσμος στον οποίο κάν
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header-2 = Εισαγάγετε τον κωδικό πρόσβασης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
+signin-password-needed-header-2 = Εισαγάγετε τον κωδικό πρόσβασης <span>για τον { -product-mozilla-account(capitalization: "lower", case: "acc") } σας</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Συνέχεια στο { $serviceName }
@@ -2129,11 +2136,6 @@ signin-passkey-fallback-body = Για την προστασία των δεδο�
 signin-passkey-fallback-password-label = Κωδικός πρόσβασης
 signin-passkey-fallback-continue = Συνέχεια
 signin-passkey-fallback-forgot-password-link = Ξεχάσατε τον κωδικό πρόσβασής σας;
-
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2257,7 +2259,7 @@ signin-reported-message = Η ομάδα μας έχει ειδοποιηθεί. 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-signin-token-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
+signin-token-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(capitalization: "lower", case: "acc") } σας</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction-v2 = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο <email>{ $email }</email>, εντός 5 λεπτών.
 signin-token-code-input-label-v2 = Εισαγάγετε τον εξαψήφιο κωδικό
@@ -2327,15 +2329,12 @@ signin-unblock-desktop-relay = Το { -brand-firefox } θα προσπαθήσε
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
-
-# and a confirmation code has been sent to their email address.
-
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Εισαγωγή κωδικού επιβεβαίωσης
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-confirm-signup-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
+confirm-signup-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(capitalization: "lower", case: "acc") } σας</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction-v2 = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο <email>{ $email }</email>, εντός 5 λεπτών.
 confirm-signup-code-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
@@ -2374,7 +2373,7 @@ signup-change-email-link = Αλλαγή email
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = Ο συγχρονισμός είναι ενεργός
-signup-confirmed-sync-success-banner = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } επιβεβαιώθηκε
+signup-confirmed-sync-success-banner = Ο { -product-mozilla-account(capitalization: "lower", case: "nom") } επιβεβαιώθηκε
 signup-confirmed-sync-button = Έναρξη περιήγησης
 # Shown when payment methods are also synced
 signup-confirmed-sync-description-with-payment-v2 = Οι κωδικοί πρόσβασης, οι μέθοδοι πληρωμής, οι διευθύνσεις, οι σελιδοδείκτες, το ιστορικό σας και πολλά άλλα μπορούν να συγχρονίζονται σε όποια συσκευή χρησιμοποιείτε το { -brand-firefox }.
