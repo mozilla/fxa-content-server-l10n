@@ -1828,6 +1828,7 @@ pair2-authority-approve-sign-in-confirm-button = Ja, godkjenn innlogging
 ## for the remaining steps to be completed there.
 
 pair2-authority-continue-on-mobile-heading = Hald fram på mobileininga di
+pair2-authority-continue-on-mobile-description = Følg stega på telefonen eller nettbrettet ditt.
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Avbryt
 
@@ -1845,6 +1846,10 @@ pair2-authority-download-firefox-cta = Last ned { -brand-firefox }
 ## their phone or tablet to connect the two devices and start syncing.
 
 pair2-authority-scan-qr-heading = Skann for å kople til mobileininga di
+# Accessible label describing the QR code image shown on this page
+pair2-authority-scan-qr-code-aria-label = QR-kode for å kople til mobileininga di
+# Link to a support article for users having trouble scanning the QR code
+pair2-authority-scan-qr-help-link = Få hjelp med skanning
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer once the mobile device has been paired.
@@ -1862,8 +1867,11 @@ pair2-authority-sync-success-sync-settings-button = Synkroniseringsinnstillingar
 ## either because it timed out or because it was canceled. Both cases offer to
 ## start pairing over again.
 
+# Shown when the pairing attempt expired before it was approved
+pair2-authority-timeout-and-cancel-timeout-heading = Vil du framleis kople til ei eining?
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-canceled-heading = Avbrote
+pair2-authority-timeout-and-cancel-canceled-description = Viss du ombestemmer deg eller vil kople til ei anna eining, kan du prøve på nytt.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Prøv igjen
 # Abandons pairing without retrying
@@ -1876,6 +1884,9 @@ pair2-authority-timeout-and-cancel-sync-settings-button = Synkroniseringsinnstil
 ## shown on their computer. It waits for them to approve the sign-in on the
 ## computer, and shows that computer's details so they can verify the request.
 
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-supplicant-approve-sign-in-heading = Eit siste steg for å synkronisere
+pair2-supplicant-approve-sign-in-instruction = Godkjenn innlogginga på datamaskina di.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Avbryt
 
@@ -1899,12 +1910,15 @@ pair2-supplicant-connect-this-device-cancel-button = Avbryt
 ## sends them off to install the browser.
 
 pair2-supplicant-download-firefox-heading = Få { -brand-firefox } på denne eininga
+# Primary action. Sends the user to the Firefox download page.
+pair2-supplicant-download-firefox-continue-button = Hald fram i { -brand-firefox }
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
 ## to open firefox.com/pair on their computer, which is where the QR code they
 ## scan with the mobile device comes from.
 
+pair2-supplicant-ready-to-scan-heading = For å kople til ei eining
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Les meir
 
@@ -2025,6 +2039,7 @@ confirm-totp-reset-password-use-different-account = Bruk ein annan konto
 ## ResetPassword start page
 
 password-reset-flow-heading = Tilbakestill passordet ditt
+password-reset-body-3 = Tilbakestilling av passordet kan påverke synkroniserte nettlesardata.
 password-reset-email-input =
     .label = Skriv inn e-postadressa di
 password-reset-submit-button-2 = Hald fram
