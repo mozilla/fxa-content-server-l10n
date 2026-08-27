@@ -1403,11 +1403,11 @@ terms-privacy-agreement-intro-3 = Συνεχίζοντας, αποδέχεστε
 # This item is part of a bulleted list and follows terms-privacy-agreement-intro
 # $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
 # $serviceName is customizable via Strapi and will be localized separately
-terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Όροι υπηρεσίας</termsLink> και <privacyLink>Σημείωση απορρήτου</privacyLink>
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>Όροι παροχής υπηρεσιών</termsLink> και <privacyLink>Δήλωση απορρήτου</privacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "upper", case: "nom") }: <mozillaAccountsTos>Όροι υπηρεσίας</mozillaAccountsTos> και <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "upper", case: "nom") }: <mozillaAccountsTos>Όροι παροχής υπηρεσιών</mozillaAccountsTos> και <mozillaAccountsPrivacy>Δήλωση απορρήτου</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
-terms-privacy-agreement-default-2 = Συνεχίζοντας, αποδέχεστε τους <mozillaAccountsTos>Όρους υπηρεσίας</mozillaAccountsTos> και τη <mozillaAccountsPrivacy>Σημείωση απορρήτου</mozillaAccountsPrivacy>.
+terms-privacy-agreement-default-2 = Συνεχίζοντας, αποδέχεστε τους <mozillaAccountsTos>Όρους παροχής υπηρεσιών</mozillaAccountsTos> και τη <mozillaAccountsPrivacy>Δήλωση απορρήτου</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)

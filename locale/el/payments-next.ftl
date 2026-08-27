@@ -256,7 +256,7 @@ next-payment-confirm-with-legal-links-static-3 = Εξουσιοδοτώ τη { -
 ## $endDate (Date) - The end date of the free trial
 
 checkbox-payment-required-no-charge = Απαιτείται μια μέθοδος πληρωμής για την έναρξη της δωρεάν δοκιμαστικής περιόδου. Δεν θα χρεωθείτε μέχρι τις { $endDate }.
-checkbox-confirm-free-trial-with-legal-links = Εξουσιοδοτώ τη { -brand-mozilla } να χρεώσει το αναγραφόμενο ποσό στη μέθοδο πληρωμής μου μετά το πέρας της δωρεάν δοκιμαστικής περιόδου στις { $endDate }, σύμφωνα με τους <termsOfServiceLink>Όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>Σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
+checkbox-confirm-free-trial-with-legal-links = Εξουσιοδοτώ τη { -brand-mozilla } να χρεώσει το αναγραφόμενο ποσό στη μέθοδο πληρωμής μου μετά το πέρας της δωρεάν δοκιμαστικής περιόδου στις { $endDate }, σύμφωνα με τους <termsOfServiceLink>Όρους παροχής υπηρεσιών</termsOfServiceLink> και τη <privacyNoticeLink>Δήλωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
 next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε αυτήν τη διαδικασία πριν προχωρήσετε
 
 ## Checkout Form
@@ -626,7 +626,7 @@ next-sub-guarantee = Εγγύηση επιστροφής χρημάτων 30 η�
 # This heading is followed by links to Terms of Service and Privacy Notice
 next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "upper", case: "nom") }
 next-terms = Όροι υπηρεσίας
-next-privacy = Σημείωση απορρήτου
+next-privacy = Δήλωση απορρήτου
 terms-and-privacy-stripe-label = Η { -brand-mozilla } χρησιμοποιεί το { -brand-name-stripe } για την ασφαλή επεξεργασία των πληρωμών.
 terms-and-privacy-stripe-link = Πολιτική απορρήτου του { -brand-name-stripe }
 terms-and-privacy-paypal-label = Η { -brand-mozilla } χρησιμοποιεί το { -brand-paypal } για την ασφαλή επεξεργασία των πληρωμών.
