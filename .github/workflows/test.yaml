@@ -5,12 +5,16 @@ on:
       - main
     paths:
       - '.github/workflows/test.yaml'
+      - 'package.json'
+      - 'package-lock.json'
       - 'locale/**/*.po'
   pull_request:
     branches:
       - main
     paths:
       - '.github/workflows/test.yaml'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 jobs:
   run-test:

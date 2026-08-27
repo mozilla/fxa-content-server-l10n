@@ -7,6 +7,8 @@ on:
       - main
     paths:
       - '.github/workflows/l10n_extract.yaml'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 jobs:
   extract:
