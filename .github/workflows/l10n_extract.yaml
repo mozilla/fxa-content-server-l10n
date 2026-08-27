@@ -64,6 +64,7 @@ jobs:
             --shared-repo ./libs/shared \
             --l10n-repo ../fxa-l10n
       - name: Commit changes and open pull request
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           # Only try to commit if there are pending changes
           cd fxa-l10n
