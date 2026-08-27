@@ -788,7 +788,7 @@ msgstr "Μη έγκυρο διακριτικό"
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Συνεχίζοντας, συμφωνείτε με <a id=\"service-tos\" href=\"%(termsUri)s\">τους Όρους υπηρεσίας</a> και <a id=\"service-pp\" href=\"%(privacyUri)s\">την Πολιτική απορρήτου</a> της υπηρεσίας "
+"Συνεχίζοντας, αποδέχεστε τους <a id=\"service-tos\" href=\"%(termsUri)s\">Όρους υπηρεσίας</a> και την <a id=\"service-pp\" href=\"%(privacyUri)s\">Πολιτική απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -1000,6 +1000,11 @@ msgid ""
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              Συνεχίζοντας, αποδέχεστε:<br />\n"
+"              τους <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Σημείωση απορρήτου</a> των συνδρομητικών υπηρεσιών της Mozilla<br />\n"
+"              τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Σημείωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
@@ -1007,6 +1012,8 @@ msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
 msgstr ""
+"Συνεχίζοντας, αποδέχεστε τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Σημείωση απορρήτου</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1056,6 +1063,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"          Συνεχίζοντας, αποδέχεστε:<br />\n"
+"          τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Όρους υπηρεσίας</a> και τη <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Σημείωση απορρήτου</a> του Pocket<br />\n"
+"          τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Σημείωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
@@ -1065,6 +1077,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Συνεχίζοντας, αποδέχεστε:<br />\n"
+"            τους <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Σημείωση απορρήτου</a> των συνδρομητικών υπηρεσιών της Mozilla<br />\n"
+"            τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Σημείωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"          "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
