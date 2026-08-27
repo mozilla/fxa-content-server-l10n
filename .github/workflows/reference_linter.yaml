@@ -5,12 +5,14 @@ on:
       - main
     paths:
       - '.github/linter_config.yml'
+      - '.github/workflows/reference_linter.yaml'
       - 'locale/en/**.ftl'
   pull_request:
     branches:
       - main
     paths:
       - '.github/linter_config.yml'
+      - '.github/workflows/reference_linter.yaml'
       - 'locale/en/**.ftl'
   workflow_dispatch:
 jobs:
