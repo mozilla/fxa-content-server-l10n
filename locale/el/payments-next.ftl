@@ -8,7 +8,7 @@ not-found-page-button-terms-manage-subscriptions = Διαχείριση συνδ
 
 ## Page
 
-checkout-signin-or-create = 1. Συνδεθείτε ή δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
+checkout-signin-or-create = 1. Συνδεθείτε ή δημιουργήστε έναν { -product-mozilla-account(capitalization: "lower", case: "acc") }
 # This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
 checkout-signin-options-or = ή
 continue-signin-with-google-button = Συνέχεια με { -brand-google }
@@ -251,7 +251,7 @@ cancel-subscription-button-keep-subscription = Διατήρηση συνδρομ
 
 ## Component - Payment Consent Checkbox
 
-next-payment-confirm-with-legal-links-static-3 = Εξουσιοδοτώ τη { -brand-mozilla } να χρεώνει το αναγραφόμενο ποσό στη μέθοδο πληρωμής μου, σύμφωνα με τους <termsOfServiceLink>Όρους υπηρεσίας</termsOfServiceLink> και τη <privacyNoticeLink>Σημείωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
+next-payment-confirm-with-legal-links-static-3 = Εξουσιοδοτώ τη { -brand-mozilla } να χρεώνει το αναγραφόμενο ποσό στη μέθοδο πληρωμής μου, σύμφωνα με τους <termsOfServiceLink>Όρους παροχής υπηρεσιών</termsOfServiceLink> και τη <privacyNoticeLink>Δήλωση απορρήτου</privacyNoticeLink>, μέχρι να ακυρώσω τη συνδρομή μου.
 
 ## $endDate (Date) - The end date of the free trial
 
@@ -340,18 +340,12 @@ next-coupon-submit = Εφαρμογή
 
 free-trial-content-trial-expires = Η δωρεάν δοκιμαστική περίοδος λήγει στις { $date }.
 free-trial-content-trial-cancelled = Η δωρεάν δοκιμαστική περίοδος έχει ακυρωθεί.
-
-# Charge info strings - with tax, per interval
-
 free-trial-content-charge-info-with-tax-day = Θα χρεώνεστε { $amount } + { $tax } (φόρος) ανά ημέρα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-with-tax-week = Θα χρεώνεστε { $amount } + { $tax } (φόρος) ανά εβδομάδα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-with-tax-month = Θα χρεώνεστε { $amount } + { $tax } (φόρος) ανά μήνα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-with-tax-halfyear = Θα χρεώνεστε { $amount } + { $tax } (φόρος) ανά εξάμηνο μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-with-tax-year = Θα χρεώνεστε { $amount } + { $tax } (φόρος) ανά έτος μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-with-tax-default = Θα χρεωθείτε { $amount } + { $tax } (φόρος) μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
-
-# Charge info strings - no tax, per interval
-
 free-trial-content-charge-info-no-tax-day = Θα χρεώνεστε { $amount } ανά ημέρα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-no-tax-week = Θα χρεώνεστε { $amount } ανά εβδομάδα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
 free-trial-content-charge-info-no-tax-month = Θα χρεώνεστε { $amount } ανά μήνα μετά τη λήξη της δωρεάν δοκιμαστικής περιόδου στις { $date }.
@@ -385,17 +379,14 @@ free-trial-content-link-view-invoice-aria = Προβολή παραστατικ�
 free-trial-content-trial-ended = Η δωρεάν δοκιμαστική περίοδος έληξε στις <bold>{ $date }</bold>.
 free-trial-content-could-not-process-payment = Δεν ήταν δυνατή η επεξεργασία της πληρωμής σας. Ενημερώστε τη μέθοδο πληρωμής σας για να ανακτήσετε την πρόσβαση. Η επεξεργασία μπορεί να διαρκέσει έως και 24 ώρες και ενδέχεται να διαφέρει ανάλογα με την τράπεζα ή τη μέθοδο πληρωμής.
 free-trial-content-button-update-payment = Ενημέρωση μεθόδου πληρωμής
-
-# Component - Header
-
 payments-header-help =
-    .title = Βοήθεια
-    .aria-label = Βοήθεια
     .alt = Βοήθεια
+    .aria-label = Βοήθεια
+    .title = Βοήθεια
 payments-header-bento =
-    .title = Προϊόντα { -brand-mozilla }
-    .aria-label = Προϊόντα { -brand-mozilla }
     .alt = Λογότυπο { -brand-mozilla }
+    .aria-label = Προϊόντα { -brand-mozilla }
+    .title = Προϊόντα { -brand-mozilla }
 payments-header-bento-close =
     .alt = Κλείσιμο
 payments-header-bento-tagline = Περισσότερα προϊόντα από τη { -brand-mozilla } που προστατεύουν το απόρρητό σας
@@ -406,7 +397,7 @@ payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-made-by-mozilla = Από τη { -brand-mozilla }
 payments-header-avatar =
-    .title = Μενού { -product-mozilla-account(case: "gen", capitalization: "lower") }
+    .title = Μενού { -product-mozilla-account(capitalization: "lower", case: "gen") }
 payments-header-avatar-icon =
     .alt = Εικόνα προφίλ λογαριασμού
 payments-header-avatar-expanded-signed-in-as = Έγινε σύνδεση ως
@@ -435,8 +426,8 @@ interstitial-offer-button-keep-subscription = Διατήρηση συνδρομ�
 ##
 
 payments-client-loading-spinner =
-    .aria-label = Φόρτωση…
     .alt = Φόρτωση…
+    .aria-label = Φόρτωση…
 
 ## Payment method management page - Stripe
 
@@ -633,7 +624,7 @@ next-sub-guarantee = Εγγύηση επιστροφής χρημάτων 30 η�
 
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
-next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: "nom", capitalization: "upper") }
+next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "upper", case: "nom") }
 next-terms = Όροι υπηρεσίας
 next-privacy = Σημείωση απορρήτου
 terms-and-privacy-stripe-label = Η { -brand-mozilla } χρησιμοποιεί το { -brand-name-stripe } για την ασφαλή επεξεργασία των πληρωμών.
