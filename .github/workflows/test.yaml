@@ -4,7 +4,13 @@ on:
     branches:
       - main
     paths:
+      - '.github/workflows/test.yaml'
       - 'locale/**/*.po'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/test.yaml'
   workflow_dispatch:
 jobs:
   run-test:
