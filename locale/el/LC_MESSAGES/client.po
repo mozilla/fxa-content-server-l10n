@@ -1065,8 +1065,8 @@ msgid ""
 msgstr ""
 "\n"
 "          Συνεχίζοντας, αποδέχεστε:<br />\n"
-"          τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Όρους υπηρεσίας</a> και τη <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Σημείωση απορρήτου</a> του Pocket<br />\n"
-"          τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους υπηρεσίας</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Σημείωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"          τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Δήλωση απορρήτου</a> του Pocket<br />\n"
+"          τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
