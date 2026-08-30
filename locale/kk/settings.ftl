@@ -75,6 +75,20 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Интернетті қалпына келтіруге арналған әрекет ескертулері
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = { -brand-firefox } ішінде жалғастыру
+pair-continue-in-firefox-description = Жұптастыру { -brand-firefox } ішінде орындалады. Құрылғыны қосуды аяқтау үшін оны ашыңыз.
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = { -brand-firefox } ішінде жалғастыру
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = { -brand-firefox } ашылуда
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = { -brand-firefox } жоқ па? Оны қазір алыңыз
+
 ## Dark mode toggle
 
 dark-mode-toggle-light = Ашық түсті

@@ -75,6 +75,20 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = 採取行動奪回網路環境
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = 到 { -brand-firefox } 繼續
+pair-continue-in-firefox-description = 需於 { -brand-firefox } 進行配對，請開啟 { -brand-firefox } 完成連結此裝置。
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = 到 { -brand-firefox } 繼續
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = 正在開啟 { -brand-firefox }
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = 沒有 { -brand-firefox } 嗎？立即安裝
+
 ## Dark mode toggle
 
 dark-mode-toggle-light = 亮色
