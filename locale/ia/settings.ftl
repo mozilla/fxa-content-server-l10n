@@ -75,6 +75,15 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Avisos de action pro reprender le controlo de internet
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = Continuar in { -brand-firefox }
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = Continuar in { -brand-firefox }
+
 ## Dark mode toggle
 
 dark-mode-toggle-light = Clar
