@@ -75,6 +75,20 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Rhybuddion gweithredu i adennill y rhyngrwyd
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = Parhau yn { -brand-firefox }
+pair-continue-in-firefox-description = Mae paru yn digwydd mewn { -brand-firefox }. Agorwch ef i orffen cysylltu'r ddyfais hon.
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = Parhau yn { -brand-firefox }
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = Yn agor { -brand-firefox }
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = Dim { -brand-firefox }? Ei gael yn awr
+
 ## Dark mode toggle
 
 dark-mode-toggle-light = Golau

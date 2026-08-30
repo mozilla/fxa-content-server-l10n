@@ -75,6 +75,20 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Felhívások az internet visszaszerzésére
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = Folytatás a { -brand-firefox }ban
+pair-continue-in-firefox-description = A párosítás { -brand-firefox } múlva megtörténik. Nyissa meg az eszköz csatlakoztatásának befejezéséhez.
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = Folytatás a { -brand-firefox }ban
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = Nyitás: { -brand-firefox }
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = Nincs { -brand-firefox }ja? Szerezze be most
+
 ## Dark mode toggle
 
 dark-mode-toggle-light = Világos

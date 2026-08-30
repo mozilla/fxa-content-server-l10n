@@ -75,6 +75,20 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Pozivi k ukrepanju za povrnitev interneta
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = Nadaljuj v { -brand-firefox(sklon: "mestnik") }
+pair-continue-in-firefox-description = Seznanjanje bo izvedeno čez { -brand-firefox }. Odprite ga za dokončanje povezovanja naprave.
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = Nadaljuj v { -brand-firefox(sklon: "mestnik") }
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = Odpiranje { -brand-firefox }
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = Nimate { -brand-firefox }? Pridobite ga zdaj
+
 ## Dark mode toggle
 
 dark-mode-toggle-light = Svetla
