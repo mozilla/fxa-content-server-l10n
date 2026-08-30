@@ -197,21 +197,18 @@ form-verify-totp-disabled-button-title-numeric = Skriv inn { $codeLength }-sifre
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
 form-verify-totp-disabled-button-title-alphanumeric = Skriv inn koden på { $codeLength } tegn for å fortsette
-
-# GetDataTrio component, part of Account Recovery Key flow
-
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-kontogjenopprettingsnøkkel
 get-data-trio-title-backup-verification-codes = Reserve-autentiseringskoder
 get-data-trio-download-2 =
-    .title = Last ned
     .aria-label = Last ned
+    .title = Last ned
 get-data-trio-copy-2 =
-    .title = Kopier
     .aria-label = Kopier
+    .title = Kopier
 get-data-trio-print-2 =
-    .title = Skriv ut
     .aria-label = Skriv ut
+    .title = Skriv ut
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -275,10 +272,6 @@ icon-loading-arrow-aria-label =
 # Used for passkey icon
 icon-passkey-aria-label =
     .aria-label = Passnøkkel
-
-## Images - these are all aria labels used for illustrations
-## Aria labels are used as alternate text that can be read aloud by screen readers.
-
 hearts-broken-image-aria-label =
     .aria-label = En datamaskin og en mobiltelefon og et bilde av et knust hjerte på hver av dem
 hearts-verified-image-aria-label =
@@ -523,9 +516,6 @@ avatar-default-avatar =
 
 ##
 
-
-# BentoMenu component
-
 bento-menu-title-3 = { -brand-mozilla }-produkter
 bento-menu-tagline = Flere produkter fra { -brand-mozilla } som beskytter personvernet ditt
 bento-menu-vpn-2 = { -product-mozilla-vpn }
@@ -616,9 +606,6 @@ dc-opt-out-success-2 = Fravalget vellykket. { -product-mozilla-accounts } sender
 dc-opt-in-success-2 = Takk! Deling av disse data hjelper oss med å forbedre { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Dessverre oppstod det et problem under endring av innstillingene for datainnsamling
 dc-learn-more = Les mer
-
-# DropDownAvatarMenu component
-
 drop-down-menu-title-2 = { -product-mozilla-account }-meny
 # This is displayed in the Settings menu after user's click on their profile icon.
 # Following this string on a new line will be their display name (user's name or email)
@@ -774,9 +761,6 @@ flow-setup-phone-confirm-code-resend-code-button = Send koden på nytt
 flow-setup-phone-confirm-code-resend-code-success = Kode sendt
 flow-setup-phone-confirm-code-success-message-v2 = Gjenopprettingstelefon lagt til
 flow-change-phone-confirm-code-success-message = Gjenopprettingstelefon endret
-
-## FlowSetupPhoneConfirmCode
-
 flow-setup-phone-submit-number-heading = Bekreft telefonnummeret ditt
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Du vil motta en tekstmelding fra { -brand-mozilla } med en kode for å bekrefte nummeret ditt. Ikke del denne koden med noen.
@@ -1480,9 +1464,6 @@ oauth-error-1000 = Noe gikk galt. Lukk denne fanen og prøv på nytt.
 ## Passkey error messages
 ## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
 
-
-# Registration errors
-
 # User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
 passkey-registration-error-not-allowed = Oppsett av passnøkkel mislyktes eller er ikke tilgjengelig. Prøv igjen eller velg en annen metode.
 # Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
@@ -1514,9 +1495,6 @@ passkey-registration-error-not-readable = Vi fikk ikke tilgang til autentisering
 passkey-registration-error-constraint = Oppsett av passnøkkel er ikke tilgjengelig på denne enheten. Prøv en annen metode eller enhet.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
 passkey-registration-error-unexpected = Oppsett av passnøkkel mislyktes. Prøv igjen eller velg en annen metode.
-
-# Authentication errors
-
 # Shown as a warning (not error) banner when a passkey sign-in is cancelled, no passkey is
 # available on this device, or the authenticator can't satisfy the request. Copy stays neutral and
 # points the user to another way to sign in.
@@ -1955,9 +1933,6 @@ service-welcome-vpn-description = Ett steg til for å forbedre nettleserens pers
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
 set-password-heading-v2 = Opprett passord for å synkronisere
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Dette krypterer dataene dine. Det må være forskjellig fra passordet til { -brand-google }- eller { -brand-apple }-kontoen din.
@@ -2007,9 +1982,6 @@ reset-password-complete-banner-message = Ikke glem å generere en ny kontogjenop
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake til å bruke et e-postalias etter at du har logget inn.
-
-# ConfirmBackupCodeResetPassword page
-
 confirm-backup-code-reset-password-input-label = Skriv inn kode på 10 tegn
 confirm-backup-code-reset-password-confirm-button = Bekreft
 confirm-backup-code-reset-password-subheader = Skriv inn reserve-autentiseringskode
@@ -2060,9 +2032,6 @@ reset-password-confirmed-cta = Fortsett til { $serviceName }
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
 
 password-reset-recovery-method-header = Tilbakestill passord
 password-reset-recovery-method-subheader = Velg en gjenopprettingsmetode
@@ -2173,11 +2142,6 @@ signin-passkey-fallback-body = For å holde dataene dine trygge, må du oppgi pa
 signin-passkey-fallback-password-label = Passord
 signin-passkey-fallback-continue = Fortsett
 signin-passkey-fallback-forgot-password-link = Glemt passord?
-
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2370,9 +2334,6 @@ signin-unblock-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbak
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
-
-
-# and a confirmation code has been sent to their email address.
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Skriv inn bekreftelseskode
