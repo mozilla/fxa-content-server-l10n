@@ -80,14 +80,14 @@ choose-newsletters-option-reclaim-the-internet =
 ## It hands the pairing link to the Firefox app, and offers the app store when
 ## Firefox is not installed on the device.
 
-pair-continue-in-firefox-heading = Pokračujte za { -brand-firefox(case: "gen") }
-pair-continue-in-firefox-description = Párování proběhne za { -brand-firefox }. Jeho otevřením dokončíte připojování tohoto zařízení.
+pair-continue-in-firefox-heading = Pokračujte ve { -brand-firefox(case: "loc") }
+pair-continue-in-firefox-description = Párování se dokončí v aplikaci { -brand-firefox }. Otevřete ji a připojte toto zařízení.
 # Opens the Firefox app on this device
-pair-continue-in-firefox-button = Pokračujte za { -brand-firefox(case: "gen") }
+pair-continue-in-firefox-button = Pokračovat ve { -brand-firefox(case: "loc") }
 # Shown while waiting for the Firefox app to take over
-pair-continue-in-firefox-opening = Otevřít { -brand-firefox }
+pair-continue-in-firefox-opening = Otevírá se { -brand-firefox }
 # Sends the user to the App Store or Play Store to install Firefox
-pair-continue-in-firefox-get-firefox-link = Nemáte { -brand-firefox }? Stáhnout
+pair-continue-in-firefox-get-firefox-link = Nemáte { -brand-firefox(case: "acc") }? Stáhněte si ho nyní
 
 ## Dark mode toggle
 
