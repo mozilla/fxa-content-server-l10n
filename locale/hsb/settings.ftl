@@ -81,6 +81,13 @@ choose-newsletters-option-reclaim-the-internet =
 ## Firefox is not installed on the device.
 
 pair-continue-in-firefox-heading = Z { -brand-firefox } pokročować
+pair-continue-in-firefox-description = Koplowanje so w { -brand-firefox } stawa. Wočińće jón, zo byšće zwjazowanje tutoho grata dokónčił.
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = Z { -brand-firefox } pokročować
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = { -brand-firefox } so wočinja
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = Nimaće { -brand-firefox }? Wobstarajće sej jón
 
 ## Dark mode toggle
 
