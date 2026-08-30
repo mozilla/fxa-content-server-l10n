@@ -67,6 +67,20 @@ choose-newsletters-option-latest-news =
 choose-newsletters-option-test-pilot =
     .label = גישה מוקדמת לבדיקת מוצרים חדשים
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = המשך ב־{ -brand-firefox }
+pair-continue-in-firefox-description = הצימוד מתבצע ב־{ -brand-firefox }. יש לפתוח אותו כדי לסיים לחבר את המכשיר הזה.
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = המשך ב־{ -brand-firefox }
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = בתהליך פתיחת { -brand-firefox }
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = אין לך את { -brand-firefox }? ניתן לקבל אותו כעת
+
 ## Dark mode toggle
 
 dark-mode-toggle-light = בהיר
