@@ -85,9 +85,9 @@ pair-continue-in-firefox-description = Die Kopplung erfolgt in { -brand-firefox 
 # Opens the Firefox app on this device
 pair-continue-in-firefox-button = Auf { -brand-firefox } fortfahren
 # Shown while waiting for the Firefox app to take over
-pair-continue-in-firefox-opening = Öffnen von { -brand-firefox }
+pair-continue-in-firefox-opening = { -brand-firefox } wird geöffnet
 # Sends the user to the App Store or Play Store to install Firefox
-pair-continue-in-firefox-get-firefox-link = Sie haben { -brand-firefox } nicht? Laden Sie es jetzt
+pair-continue-in-firefox-get-firefox-link = Sie nuetzen { -brand-firefox } noch nicht? Laden Sie ihn jetzt herunter.
 
 ## Dark mode toggle
 
