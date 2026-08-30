@@ -81,13 +81,13 @@ choose-newsletters-option-reclaim-the-internet =
 ## Firefox is not installed on the device.
 
 pair-continue-in-firefox-heading = Continua in { -brand-firefox }
-pair-continue-in-firefox-description = L’associazione avviene tra { -brand-firefox }. Aprirlo per completare la connessione del dispositivo.
+pair-continue-in-firefox-description = L’associazione avviene in { -brand-firefox }. Aprilo per completare la connessione di questo dispositivo.
 # Opens the Firefox app on this device
 pair-continue-in-firefox-button = Continua in { -brand-firefox }
 # Shown while waiting for the Firefox app to take over
-pair-continue-in-firefox-opening = Apertura { -brand-firefox }
+pair-continue-in-firefox-opening = Apertura di { -brand-firefox }
 # Sends the user to the App Store or Play Store to install Firefox
-pair-continue-in-firefox-get-firefox-link = Non hai { -brand-firefox }? Scaricalo ora
+pair-continue-in-firefox-get-firefox-link = Non hai { -brand-firefox }? Installalo ora
 
 ## Dark mode toggle
 
