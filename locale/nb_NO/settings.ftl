@@ -1076,6 +1076,10 @@ recent-activity-account-passwordless-login-otp-failed = Sending av kode for pass
 recent-activity-account-passwordless-login-otp-verified = Kode for passordløs innlogging bekreftet
 recent-activity-account-passwordless-registration-complete = Registrering av passordløs konto fullført
 recent-activity-account-recovery-codes-set = Gjenopprettingskoder satt opp
+# A passkey is a sign-in method that replaces a password. This string is shown when a passkey was set up so it can also unlock the user's synced browser data (bookmarks, history, open tabs), which previously required their password.
+recent-activity-account-passkey-wrap-created = Passnøkkel aktivert for synkronisering
+# A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
+recent-activity-account-passkey-wrap-creation-failure = Synkroniseringsoppsett med passnøkkel mislyktes
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annen kontoaktivitet
 
