@@ -72,6 +72,18 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = ਇੰਟਰਨੈੱਟ ਉੱਤੇ ਦਾਅਵਾ ਕਰਨ ਲਈ ਕਾਰਵਾਈ ਚੇਤਾਵਨੀਆਂ
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = { -brand-firefox } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+pair-continue-in-firefox-description = { -brand-firefox } ਰਾਹੀਂ ਪੇਅਰ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਸ ਡਿਵਾਈਸ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਨੂੰ ਪੂਰਾ ਕਰਨ ਵਾਸਤੇ ਇਸ ਨੂੰ ਖੋਲ੍ਹੋ।
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = { -brand-firefox } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = { -brand-firefox } ਨੂੰ ਖੋਲ੍ਹਿਆ ਜਾ ਰਿਾਹ ਹੈ
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
