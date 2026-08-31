@@ -75,6 +75,19 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Handlingsvarsler for å vinne tilbake internett
 
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = Fortsett i { -brand-firefox }
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = Fortsett i { -brand-firefox }
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = Åpner { -brand-firefox }
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = Har du ikke { -brand-firefox }? Skaff deg det nå
+
 ## Dark mode toggle
 
 dark-mode-toggle-light = Lyst
@@ -502,6 +515,8 @@ password-reset-warning-have-key = Har du en kontogjenopprettingsnøkkel?
 # "it" refers to the user's account recovery key.
 password-reset-warning-use-key-link-v2 = Bruk den for å tilbakestille passordet ditt og beholde dine nettleserdata
 password-reset-warning-signed-in-device = Fortsatt logget inn på en annen enhet?
+password-reset-warning-restore-data-link = Les om hvordan du gjenoppretter nettleserdata fra en pålogget enhet
+password-reset-warning-new-device = Bruker du en ny enhet, men får ikke tilgang til de gamle?
 
 ## Alert Bar
 
