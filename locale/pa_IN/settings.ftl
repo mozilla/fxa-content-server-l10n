@@ -83,6 +83,8 @@ pair-continue-in-firefox-description = { -brand-firefox } ਰਾਹੀਂ ਪੇ
 pair-continue-in-firefox-button = { -brand-firefox } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 # Shown while waiting for the Firefox app to take over
 pair-continue-in-firefox-opening = { -brand-firefox } ਨੂੰ ਖੋਲ੍ਹਿਆ ਜਾ ਰਿਾਹ ਹੈ
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = ਕੀ { -brand-firefox } ਨਹੀਂ ਹੈ? ਹੁਣੇ ਲਵੋ
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 

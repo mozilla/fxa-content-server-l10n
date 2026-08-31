@@ -1939,6 +1939,17 @@ pair2-supplicant-ready-to-scan-learn-more-link = Les mer
 pair2-supplicant-sync-success-heading = Enheten din er tilkoblet
 # Opens the view listing tabs open on the user's other synced devices
 pair2-supplicant-sync-success-view-tabs-button = Vis synkroniserte faner
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button = Synkroniseringsinnstillinger
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-canceled-heading = Avbrutt
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
