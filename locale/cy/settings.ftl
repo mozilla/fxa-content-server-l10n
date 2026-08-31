@@ -81,13 +81,13 @@ choose-newsletters-option-reclaim-the-internet =
 ## Firefox is not installed on the device.
 
 pair-continue-in-firefox-heading = Parhau yn { -brand-firefox }
-pair-continue-in-firefox-description = Mae paru yn digwydd mewn { -brand-firefox }. Agorwch ef i orffen cysylltu'r ddyfais hon.
+pair-continue-in-firefox-description = Mae paru'n digwydd o fewn { -brand-firefox }. Agorwch y rhaglen i orffen cysylltu'r ddyfais hon.
 # Opens the Firefox app on this device
 pair-continue-in-firefox-button = Parhau yn { -brand-firefox }
 # Shown while waiting for the Firefox app to take over
 pair-continue-in-firefox-opening = Yn agor { -brand-firefox }
 # Sends the user to the App Store or Play Store to install Firefox
-pair-continue-in-firefox-get-firefox-link = Dim { -brand-firefox }? Ei gael yn awr
+pair-continue-in-firefox-get-firefox-link = Dim { -brand-firefox }? Nawr yw'r amser i'w gael
 
 ## Dark mode toggle
 
