@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 20:10+0000\n"
+"POT-Creation-Date: 2026-08-31 20:16+0000\n"
 "PO-Revision-Date: 2014-09-03 08:41+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,14 +121,6 @@ msgstr ""
 msgid "Reset password"
 msgstr ""
 
-#: .es5/views/mixins/last-checked-time-mixin.js:37
-msgid "none"
-msgstr ""
-
-#: .es5/views/mixins/last-checked-time-mixin.js:41
-msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
-
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
 msgstr ""
@@ -163,10 +155,6 @@ msgstr ""
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
-msgstr ""
-
-#: .es5/views/mixins/recovery-key-mixin.js:28
-msgid "Firefox Account Recovery Key"
 msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:46
@@ -896,8 +884,8 @@ msgstr ""
 msgid "Not in inbox or spam folder? Resend"
 msgstr ""
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6
+#: .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr ""
 
@@ -1095,7 +1083,7 @@ msgid "Print"
 msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
 msgid "Continue"
 msgstr ""
 
@@ -1189,12 +1177,8 @@ msgstr ""
 msgid "Accept"
 msgstr ""
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
-msgstr ""
-
-#: .es5/templates/pp.mustache:1
-msgid "Privacy Notice"
 msgstr ""
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
@@ -1231,34 +1215,6 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
-
-#: .es5/templates/security_events.mustache:1
-msgid "Recent Activity"
-msgstr ""
-
-#: .es5/templates/security_events.mustache:2
-msgid "Security Events"
-msgstr ""
-
-#: .es5/templates/security_events.mustache:3
-msgid "Event Name"
-msgstr ""
-
-#: .es5/templates/security_events.mustache:4
-msgid "Confirmed"
-msgstr ""
-
-#: .es5/templates/security_events.mustache:5
-msgid "Created At"
-msgstr ""
-
-#: .es5/templates/security_events.mustache:7
-msgid "Delete events"
-msgstr ""
-
-#: .es5/templates/security_events.mustache:8
-msgid "Back to settings"
 msgstr ""
 
 #: .es5/templates/sign_in_bounced.mustache:1
@@ -1367,18 +1323,6 @@ msgstr ""
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
-msgstr ""
-
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:1
-msgid "Step 1 of 2: Re-enter password"
-msgstr ""
-
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:2
-msgid "Enter your password to view your account recovery key."
-msgstr ""
-
-#: .es5/templates/settings/account_recovery/confirm_password.mustache:3
-msgid "Enter Password"
 msgstr ""
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
@@ -1636,10 +1580,6 @@ msgstr ""
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr ""
-
-#: .es5/templates/partial/email-autocomplete-domains.mustache:1
-msgid "Email"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
