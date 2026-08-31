@@ -2,6 +2,13 @@ name: Extract Strings
 on:
   schedule:
     - cron: '0 20 * * 1,4' # At 13:00 PDT on Mondays, Thursdays
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/l10n_extract.yaml'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 jobs:
   extract:
@@ -14,7 +21,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: 18
+          node-version: 24
       - name: Install global npm packages
         run: |
           npm install -g grunt-cli
@@ -42,10 +49,10 @@ jobs:
           yarn workspace fxa-settings grunt merge-ftl
           yarn workspace fxa-auth-server grunt merge-ftl
           yarn workspace fxa-react grunt merge-ftl
-        
+
           # Create ftls for nx apps
           npx grunt --gruntfile='apps/payments/next/Gruntfile.js' merge-ftl
-          
+
           # Create ftls for nx libs
           npx grunt --gruntfile='libs/accounts/email-renderer/gruntfile.js' l10n-merge
 
@@ -59,6 +66,7 @@ jobs:
             --shared-repo ./libs/shared \
             --l10n-repo ../fxa-l10n
       - name: Commit changes and open pull request
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           # Only try to commit if there are pending changes
           cd fxa-l10n
