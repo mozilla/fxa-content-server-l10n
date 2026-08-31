@@ -36,7 +36,7 @@ jobs:
           moz-fluent-lint ./locale/en --config .github/linter_config.yml
       - name: Check for unchanged IDs
         run: |
-            diff=$( git diff --name-only --diff-filter=M ${{ github.event.pull_request.base.sha }} $GITHUB_SHA -- 'locale/en/*.ftl' )
+            diff=$( git diff --name-only --diff-filter=M ${{ github.event.pull_request.base.sha }} $GITHUB_SHA -- 'locale/templates/*.ftl' )
             for file in $diff; do
               mkdir -p "temp_base/$(dirname "$file")" "temp_head/$(dirname "$file")"
               git show ${{ github.event.pull_request.base.sha }}:"$file" > "temp_base/$file"
