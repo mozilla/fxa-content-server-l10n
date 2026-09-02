@@ -81,6 +81,7 @@ choose-newsletters-option-reclaim-the-internet =
 ## Firefox is not installed on the device.
 
 pair-continue-in-firefox-heading = Doorgaan in { -brand-firefox }
+pair-continue-in-firefox-description = Koppelen vindt plaats in { -brand-firefox }. Open het om het verbinden met dit apparaat te voltooien.
 # Opens the Firefox app on this device
 pair-continue-in-firefox-button = Doorgaan in { -brand-firefox }
 # Shown while waiting for the Firefox app to take over
