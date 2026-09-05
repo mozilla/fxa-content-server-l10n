@@ -16,6 +16,11 @@ next-payment-method-header = Odaberi način plaćanja
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprije moraš odobriti tvoju pretplatu
 
+## Error page
+
+error-page-account-not-found-heading = Račun nije pronađen
+error-page-account-not-found-continue-button = Nastavi
+
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Informacije o plaćanju
@@ -95,17 +100,37 @@ not-found-title-subscriptions = Pretplata nije pronađena
 not-found-description-subscriptions = Nismo uspjeli pronaći tvoju pretplatu. Pokušaj ponovo ili kontaktiraj podršku.
 not-found-button-back-to-subscriptions = Natrag na pretplate
 
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Ova je ponuda istekla
+churn-cancel-flow-error-button-continue-to-cancel = Nastavi za prekidanje
+churn-cancel-flow-error-page-button-back-to-subscriptions = Natrag na pretplate
+
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Stranica nije pronađena
+not-found-loyalty-discount-description = Stranica koju tražiš ne postoji.
+not-found-loyalty-discount-button-back-to-subscriptions = Natrag na pretplate
+
 ## Error page
 
+interstitial-offer-error-subscription-not-found-heading = Nismo mogli pronaći aktivnu pretplatu
+interstitial-offer-error-general-heading = Ponuda nije dostupna
+interstitial-offer-error-button-back-to-subscriptions = Natrag na pretplate
+interstitial-offer-error-button-cancel-subscription = Nastavi za prekidanje
 interstitial-offer-error-button-sign-in = Prijavi se
+interstitial-offer-error-button-contact-support = Kontaktiraj podršku
 
 ## Page - Subscription Management
 
 subscription-management-page-banner-warning-title-no-payment-method = Nije dodan nijedan način plaćanja
 subscription-management-page-banner-warning-link-no-payment-method = Dodaj način plaćanja
 subscription-management-subscriptions-heading = Pretplate
+subscription-management-free-trial-heading = Besplatna probna razdoblja
+subscription-management-your-free-trials-aria = Tvoja besplatna probna razdoblja
 # Heading for mobile only quick links menu
 subscription-management-jump-to-heading = Skoči na
+subscription-management-nav-free-trials = Besplatna probna razdoblja
 subscription-management-nav-payment-details = Podaci o plaćanju
 subscription-management-nav-active-subscriptions = Aktivne pretplate
 subscription-management-payment-details-heading = Podaci o plaćanju
@@ -124,6 +149,7 @@ subscription-management-card-ending-in = Kartica završava sa { $last4 }
 subscription-management-card-expires-date = Isteče { $expirationDate }
 subscription-management-active-subscriptions-heading = Aktivne pretplate
 subscription-management-you-have-no-active-subscriptions = Nemaš aktivnih pretplata
+subscription-management-new-subs-will-appear-here = Nove pretplate će se ovdje pojaviti.
 subscription-management-your-active-subscriptions-aria = Tvoje aktivne pretplate
 subscription-management-button-support = Dobij pomoć
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -198,14 +224,19 @@ next-pay-with-heading-paypal = Plati s { -brand-paypal }
 
 ## Churn flow - cancel
 
+churn-cancel-flow-success-title = Još si uvijek pretplaćen(a)
 churn-cancel-flow-button-back-to-subscriptions = Natrag na pretplate
 churn-cancel-flow-action-error = Dogodila se neočekivana greška. Pokušaj ponovo.
+churn-cancel-flow-button-stay-subscribed-and-save = Ostani pretplaćen(a) i uštedi
+churn-cancel-flow-button-cancel-subscription = Otkaži pretplatu
 churn-cancel-flow-button-manage-subscriptions = Upravljaj pretplatama
 churn-cancel-flow-button-contact-support = Kontaktiraj podršku
 
 ## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
 churn-cancel-flow-subscription-active-title = Tvoja pretplata na { $productName } je aktivna
+churn-cancel-flow-button-go-to-product-page = Idi na { $productName }
+churn-cancel-flow-cancel-success-title = Žao nam je što nas napuštaš
 
 ## $productName (String) - The name of the product associated with the subscription.
 
@@ -229,17 +260,14 @@ next-coupon-submit = Primijeni
 
 ##
 
-
-# Component - Header
-
 payments-header-help =
-    .title = Pomoć
-    .aria-label = Pomoć
     .alt = Pomoć
+    .aria-label = Pomoć
+    .title = Pomoć
 payments-header-bento =
-    .title = { -brand-mozilla } proizvodi
-    .aria-label = { -brand-mozilla } proizvodi
     .alt = { -brand-mozilla } logotip
+    .aria-label = { -brand-mozilla } proizvodi
+    .title = { -brand-mozilla } proizvodi
 payments-header-bento-close =
     .alt = Zatvori
 payments-header-bento-firefox-desktop = { -brand-firefox } preglednik za desktop
@@ -258,8 +286,8 @@ payments-header-avatar-expanded-sign-out = Odjavi se
 ##
 
 payments-client-loading-spinner =
-    .aria-label = Učitavanje …
     .alt = Učitavanje …
+    .aria-label = Učitavanje …
 
 ## Payment method management page - Stripe
 
