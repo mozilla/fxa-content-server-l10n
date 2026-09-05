@@ -238,6 +238,12 @@ churn-cancel-flow-subscription-active-title = Tvoja pretplata na { $productName 
 churn-cancel-flow-button-go-to-product-page = Idi na { $productName }
 churn-cancel-flow-cancel-success-title = Žao nam je što nas napuštaš
 
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-button-no-thanks = Ne, hvala
+    .aria-label = Natrag na stranicu s pretplatama
+churn-stay-subscribed-title-offer-expired = Ova je ponuda istekla
+
 ## $productName (String) - The name of the product associated with the subscription.
 
 churn-stay-subscribed-subtitle-offer-expired = Želiš nastaviti koristiti { $productName }?
@@ -258,8 +264,30 @@ next-coupon-promo-code-applied = Kod kupona primjenjen
 next-coupon-remove = Ukloni
 next-coupon-submit = Primijeni
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-button-cancel-subscription = Otkaži pretplatu
+free-trial-content-button-cancel-subscription-aria = Otkaži pretplatu na { $productName }
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill = Zadnji račun • { $billedOnDate }
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } poreza
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Prikaži račun
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Prikaži račun za { $productName }
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Tvoje besplatno probno razdoblje je završilo <bold>{ $date }</bold>.
+free-trial-content-button-update-payment = Aktualiziraj način plaćanja
 payments-header-help =
     .alt = Pomoć
     .aria-label = Pomoć
@@ -282,6 +310,21 @@ payments-header-avatar-icon =
     .alt = Slika profila računa
 payments-header-avatar-expanded-signed-in-as = Prijavljen/a kao
 payments-header-avatar-expanded-sign-out = Odjavi se
+
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Žao nam je što nas napuštaš
+interstitial-offer-button-back-to-subscriptions = Natrag na pretplate
+interstitial-offer-action-error = Dogodila se neočekivana greška. Pokušaj ponovo.
+interstitial-offer-cancel-subscription-button = Otkaži pretplatu
+
+## Daily/Weekly/Monthly refers to the user's current subscription interval
+
+interstitial-offer-button-keep-current-interval-daily = Zadrži dnevnu pretplatu
+interstitial-offer-button-keep-current-interval-weekly = Zadrži tjednu pretplatu
+interstitial-offer-button-keep-current-interval-halfyearly = Zadrži polugodišnju pretplatu
+interstitial-offer-button-keep-current-interval-monthly = Zadrži mjesečnu pretplatu
+interstitial-offer-button-keep-subscription = Zadrži pretplatu
 
 ##
 
@@ -308,6 +351,11 @@ purchase-details-subtotal-label = Međuzbroj
 purchase-details-total-due-label = Ukupno za platiti
 next-plan-details-hide-button = Sakrij podatke
 next-plan-details-show-button = Pokaži podatke
+
+##
+
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Prva naplata: { $endDate }
 
 ##
 
@@ -395,6 +443,8 @@ paypal-unavailable-error = { -brand-paypal } trenutačno nije dostupan. Koristi 
 ## Churn flow - Error page
 
 churn-error-page-button-sign-in = Prijavi se
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Idi na { $productName }
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-still-active = Tvoja pretplata na { $productName } je još uvijek aktivna
 
