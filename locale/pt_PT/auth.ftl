@@ -111,9 +111,9 @@ subscription-charges-prorated-price-plaintext = Preço rateado: { $remainingAmou
 subscription-charges-list-price = Preço de tabela
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Preço de tabela: { $offeringPrice }
-subscription-charges-credit-from-unused-time = Crédito de tempo não utilizado
+subscription-charges-credit-from-unused-time = Crédito pelo tempo não usado
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
-subscription-charges-credit-from-unused-time-plaintext = Crédito de tempo não utilizado: { $unusedAmountTotal }
+subscription-charges-credit-from-unused-time-plaintext = Crédito pelo tempo não usado: { $unusedAmountTotal }
 subscription-charges-subtotal = <b>Subtotal</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
@@ -126,7 +126,7 @@ subscription-charges-one-time-discount-plaintext = Desconto único: { $invoiceDi
 subscription-charges-repeating-discount =
     { $discountDuration ->
         [one] { $discountDuration }-mês de desconto
-       *[other] { $discountDuration }-mês de desconto
+       *[other] { $discountDuration }-meses de desconto
     }
 subscription-charges-repeating-discount-plaintext =
     { $discountDuration ->
