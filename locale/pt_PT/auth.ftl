@@ -105,9 +105,9 @@ subscription-charges-invoice-number = <b>Nº da fatura:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Data:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Data: { $invoiceDateOnly }
-subscription-charges-prorated-price = Preço proporcional
+subscription-charges-prorated-price = Preço rateado
 # $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
-subscription-charges-prorated-price-plaintext = Preço proporcional: { $remainingAmountTotal }
+subscription-charges-prorated-price-plaintext = Preço rateado: { $remainingAmountTotal }
 subscription-charges-list-price = Preço de tabela
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Preço de tabela: { $offeringPrice }
