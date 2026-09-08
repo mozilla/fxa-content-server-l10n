@@ -434,6 +434,24 @@ password-strength-inline-passwords-match = Le password corrispondono
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Il tuo telefono. Le tue regole.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Riprendi da dove eri rimasto, ovunque tu vada
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Le tue schede e altro ancora, a portata di mano sul tuo telefono
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Il browser di cui ti fidi, sul tuo telefono
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Stesso { -brand-firefox }. Schermo diverso.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = La tua privacy non dovrebbe fermarsi qui
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = Mantieni la tua navigazione per te
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Il tuo telefono potrebbe consumare un po’ meno rumore
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Naviga con te in modo più tranquillo
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Scansiona per scaricare l’app mobile
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = Codice QR per ottenere l’app mobile di { -brand-firefox }. Scarica l’app inquadrando con la fotocamera del tuo telefono l’angolo in basso a destra dello schermo per scansionarlo.

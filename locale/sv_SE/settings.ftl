@@ -434,6 +434,24 @@ password-strength-inline-passwords-match = Lösenorden matchar
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Din telefon. Dina regler.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Fortsätt där du slutade, vart du än går
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Dina flikar och mer, redo på telefonen
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Webbläsaren du litar på, till din telefon
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Samma { -brand-firefox }. Annan skärm.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = Din integritet bör inte sluta här
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = Håll mer av din surfning för dig själv
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Din telefon kan använda lite mindre ljud
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Surfa på ett lugnare sätt
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Skanna för att ladda ner app för mobil
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = QR-kod för att ladda ner mobilappen { -brand-firefox }. Placera telefonens kamera i det nedre högra hörnet av skärmen för att skanna den.

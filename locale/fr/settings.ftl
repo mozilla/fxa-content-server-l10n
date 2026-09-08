@@ -434,6 +434,24 @@ password-strength-inline-passwords-match = Les mots de passe correspondent
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Votre téléphone. Vos règles.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Reprenez là où vous en étiez, où que vous alliez
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Vos onglets et plus encore, sur votre téléphone
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Le navigateur auquel vous faites confiance, sur votre téléphone
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Identique { -brand-firefox }. Écran différent.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = Le respect de votre vie privée ne devrait pas s’arrêter là
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = Navigation privée pour vous
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Votre téléphone aurait besoin d’un peu moins de bruit
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Naviguez plus sereinement avec vous
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Scanner pour télécharger une application mobile
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = Code QR pour télécharger l’application mobile { -brand-firefox }. Placez l’appareil photo de votre téléphone dans le coin inférieur droit de votre écran pour le scanner.

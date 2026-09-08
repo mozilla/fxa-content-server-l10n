@@ -440,6 +440,24 @@ password-strength-inline-passwords-match = Gesli se ujemata
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Vaš telefon. Vaša pravila.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Nadaljujte, kjer ste končali in kamorkoli greste
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Vaši zavihki in še več – pripravljeni na telefonu
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Brskalnika, ki mu zaupate, na telefonu
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Enako { -brand-firefox }. Drugačen zaslon.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = Vaša zasebnost se ne bi smela ustaviti tukaj
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = Obdržite večji del brskanja zase
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Vaš telefon bi lahko porabil manj hrupa
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Vzemite umirjeno brskanje z vami
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Skenirajte za prenos mobilne aplikacije
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = Koda QR za prenos mobilne aplikacije { -brand-firefox }. Usmerite kamero telefona v spodnji desni kot zaslona, da jo preberete.
