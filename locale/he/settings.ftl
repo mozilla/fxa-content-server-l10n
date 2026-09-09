@@ -424,6 +424,18 @@ promo-qr-mobile-heading-treatment-a = להמשיך מהמקום שבו שהפס�
 promo-qr-mobile-heading-treatment-b = הלשוניות שלך ועוד, מוכנים בטלפון שלך
 # Value proposition variant. Refers to using the same trusted browser on a phone.
 promo-qr-mobile-heading-treatment-c = הדפדפן שנתת בו אמון, בטלפון שלך
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = אותו ה־{ -brand-firefox }. מסך שונה.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = הפרטיות שלך לא צריכה להיעצר כאן
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = לשמור יותר מהגלישה שלך לעצמך
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = הטלפון שלך יכול להיות קצת יותר נקי מהסחות דעת
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = דרך רגועה יותר לגלוש
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = יש לסרוק כדי להוריד את היישומון לנייד
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = קוד QR להורדת היישומון { -brand-firefox } לנייד. יש למקם את מצלמת הטלפון שלך בפינה הימנית התחתונה של המסך כדי לסרוק אותו.
