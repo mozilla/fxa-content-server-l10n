@@ -43,6 +43,9 @@ button-back-title = Tilbage
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = Hent og fortsæt
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Der opstod desværre et problem med at hente din genoprettelsesnøgle til kontoen.
@@ -71,6 +74,20 @@ choose-newsletters-option-test-pilot =
 # "Action alerts" can be interpreted as "Calls to action"
 choose-newsletters-option-reclaim-the-internet =
     .label = Opfordringer til handling for at tage kontrollen over internettet tilbage
+
+## ContinueInFirefox component - Part of the desktop-to-mobile pairing flow
+## Shown when the pairing QR code is opened in a browser other than Firefox.
+## It hands the pairing link to the Firefox app, and offers the app store when
+## Firefox is not installed on the device.
+
+pair-continue-in-firefox-heading = Fortsæt i { -brand-firefox }
+pair-continue-in-firefox-description = Parring sker i { -brand-firefox }. Åbn den for at afslutte tilslutningen af denne enhed.
+# Opens the Firefox app on this device
+pair-continue-in-firefox-button = Fortsæt i { -brand-firefox }
+# Shown while waiting for the Firefox app to take over
+pair-continue-in-firefox-opening = Åbner { -brand-firefox }
+# Sends the user to the App Store or Play Store to install Firefox
+pair-continue-in-firefox-get-firefox-link = Har du ikke { -brand-firefox }? Hent den nu
 
 ## Dark mode toggle
 
@@ -417,6 +434,24 @@ password-strength-inline-passwords-match = Adgangskoderne er ens
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Din telefon. Dine regler.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Fortsæt hvor du slap, uanset hvor du går hen
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Dine faneblade med mere, klar på din telefon
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Den browser, du har tillid til, på din telefon
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Samme { -brand-firefox }. En anden skærm.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = Beskyttelse af dit privatliv bør ikke stoppe her
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = Hold mere af din browsing for dig selv
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Din telefon kunne godt bruge lidt mindre støj
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Tag en roligere måde at browse på med dig
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Skan for at hente mobilappen
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = QR-kode til at hente mobilappen { -brand-firefox }. Placer din telefons kamera i nederste højre hjørne af skærmen for at skanne den.
@@ -550,6 +585,9 @@ cs-cannot-disconnect = Klienten blev ikke fundet, kunne ikke afbryde forbindelse
 cs-logged-out-2 = Logget ud af { $service }
 cs-refresh-button =
     .title = Opdater forbundne tjenester
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Opret forbindelse til en enhed
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Manglende eller gentagne elementer?
 cs-disconnect-sync-heading = Afbryd forbindelsen til Sync
@@ -736,6 +774,8 @@ flow-setup-2fa-prompt-heading = Opsæt totrinsgodkendelse
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } kræver, at du opsætter totrinsgodkendelse for at holde din konto sikker.
+# Success banner shown at the top of the page when the user signed in with a passkey.
+flow-setup-2fa-prompt-passkey-success-banner = Logget ind med adgangsnøgle
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Du kan anvende enhver af <authenticationAppsLink>disse godkendelsesapps</authenticationAppsLink> for at fortsætte.
 flow-setup-2fa-prompt-continue-button = Fortsæt
