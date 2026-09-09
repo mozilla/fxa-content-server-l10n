@@ -447,11 +447,11 @@ promo-qr-mobile-heading-treatment-e = A sua privacidade não deve parar aqui
 # Value proposition variant. Refers to keeping browsing activity private.
 promo-qr-mobile-heading-treatment-f = Mantenha mais da sua navegação para si
 # Value proposition variant. "noise" refers to distractions and clutter.
-promo-qr-mobile-heading-treatment-g = O seu telemóvel poderia usar um pouco menos de som
+promo-qr-mobile-heading-treatment-g = O seu telemóvel merece ter um pouco menos de distrações
 # Value proposition variant. Refers to a calmer browsing experience on the phone.
-promo-qr-mobile-heading-treatment-h = Leve uma forma mais silenciosa de navegar consigo
+promo-qr-mobile-heading-treatment-h = Tenha uma forma mais calma de navegar consigo
 # Appears below a QR code that a user can scan to download the Firefox mobile app
-promo-qr-mobile-description-v2 = Digitalize para transferir a aplicação móvel
+promo-qr-mobile-description-v2 = Digitalize para transferir a app para telemóvel
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = Código QR para transferir a aplicação móvel { -brand-firefox }. Posicione a câmara do seu telemóvel no canto inferior direito do seu ecrã para digitalizar o mesmo.
