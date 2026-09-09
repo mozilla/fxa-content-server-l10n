@@ -440,6 +440,16 @@ password-strength-inline-passwords-match = Hesle stej jenakej
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Waš telefon. Waše prawidła.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Čińće tam dale, hdźežkuli sće
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Waše rajtarki a wjace, hotowe na wašim telefonje
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Wobhladowak, kotremuž dowěrjeće, na wašim telefonje
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Samsny { -brand-firefox }. Druha wobrazowka.
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Skenujće, zo byšće mobilne nałoženje sćahnył
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = QR-kod za sćahowanje mobilneho nałoženja { -brand-firefox }. Pozicioněrujće kameru swojeho telefona w róžku deleka naprawo swojeje wobrazowki, aby jón skenował.
