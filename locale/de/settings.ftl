@@ -447,9 +447,9 @@ promo-qr-mobile-heading-treatment-e = Ihre Privatsphäre sollte hier nicht aufh�
 # Value proposition variant. Refers to keeping browsing activity private.
 promo-qr-mobile-heading-treatment-f = Mehr Privatsphäre beim Surfen
 # Value proposition variant. "noise" refers to distractions and clutter.
-promo-qr-mobile-heading-treatment-g = Ihr Telefon könnte etwas weniger Störgeräusche vertragen
+promo-qr-mobile-heading-treatment-g = Weniger Ablenkung würde Ihrem Smartphone guttun
 # Value proposition variant. Refers to a calmer browsing experience on the phone.
-promo-qr-mobile-heading-treatment-h = Surfen Sie beruhigter
+promo-qr-mobile-heading-treatment-h = Entspannter surfen – auch unterwegs
 # Appears below a QR code that a user can scan to download the Firefox mobile app
 promo-qr-mobile-description-v2 = Zum Herunterladen der App für Mobilgeräte scannen
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
