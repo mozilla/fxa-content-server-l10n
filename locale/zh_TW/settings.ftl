@@ -422,6 +422,12 @@ password-strength-inline-passwords-match = 密碼符合
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = 您的手機，由您掌控。
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = 無論走到哪，都能接續先前的瀏覽進度
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = 分頁與更多內容，隨時可在手機上開啟
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = 在手機上也使用您信賴的瀏覽器
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = 用來下載 { -brand-firefox } 行動應用程式的 QR Code。請開啟您手機的攝影鏡頭，並對準螢幕右下角即可掃描。
