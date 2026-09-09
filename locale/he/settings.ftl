@@ -418,6 +418,12 @@ password-strength-inline-passwords-match = הססמאות תואמות
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = הטלפון שלך. החוקים שלך.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = להמשיך מהמקום שבו שהפסקת, לא משנה לאן תלכו.
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = הלשוניות שלך ועוד, מוכנים בטלפון שלך
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = הדפדפן שנתת בו אמון, בטלפון שלך
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = קוד QR להורדת היישומון { -brand-firefox } לנייד. יש למקם את מצלמת הטלפון שלך בפינה הימנית התחתונה של המסך כדי לסרוק אותו.
