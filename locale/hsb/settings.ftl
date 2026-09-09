@@ -448,6 +448,14 @@ promo-qr-mobile-heading-treatment-b = Waše rajtarki a wjace, hotowe na wašim t
 promo-qr-mobile-heading-treatment-c = Wobhladowak, kotremuž dowěrjeće, na wašim telefonje
 # Value proposition variant. "Different screen" refers to the phone rather than the desktop.
 promo-qr-mobile-heading-treatment-d = Samsny { -brand-firefox }. Druha wobrazowka.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = Waša priwatnosć njeměła so tu kónčić.
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = Wobchowajće wjace swojeho přehladowanja
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Waš telefon móhł trochu mjenje šuma wužiwać
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Přehladujće na wotpjate wašnje
 # Appears below a QR code that a user can scan to download the Firefox mobile app
 promo-qr-mobile-description-v2 = Skenujće, zo byšće mobilne nałoženje sćahnył
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
