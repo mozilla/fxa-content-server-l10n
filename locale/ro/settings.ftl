@@ -437,6 +437,24 @@ password-strength-inline-passwords-match = Parolele se potrivesc
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Telefonul tău. Regulile tale.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Continuă de unde ai rămas, oriunde ai fi
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Filele și multe altele - gata pe telefon
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Browserul în care ai încredere, pe telefon
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Același { -brand-firefox }. Alt ecran.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = Confidențialitatea ta nu ar trebui să se oprească aici
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = Păstrează-ți navigarea mai privată
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Telefonul ar putea avea mai puțin zgomot de fundal
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Ia cu tine o experiență de navigare mai liniștită
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Scanează pentru descărcarea aplicației mobile
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = Cod QR pentru descărcarea aplicației mobile { -brand-firefox }. Poziționează camera telefonului în colțul din dreapta jos al ecranului pentru a-l scana.
