@@ -131,13 +131,13 @@ subscription-charges-repeating-discount =
 subscription-charges-repeating-discount-plaintext =
     { $discountDuration ->
         [one] Desconto no mês de { $discountDuration }: { $invoiceDiscountAmount }
-       *[other] Desconto no mês de { $discountDuration }: { $invoiceDiscountAmount }
+       *[other] Desconto nos meses de { $discountDuration }: { $invoiceDiscountAmount }
     }
 subscription-charges-discount = Desconto
 subscription-charges-discount-plaintext = Desconto: { $invoiceDiscountAmount }
-subscription-charges-taxes = Impostos e taxas
+subscription-charges-taxes = Impostos & taxas
 # $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
-subscriptionCharges-content-tax-plaintext = Impostos e taxas: { $invoiceTaxAmount }
+subscriptionCharges-content-tax-plaintext = Impostos & taxas: { $invoiceTaxAmount }
 subscription-charges-total = <b>Total</b>
 # $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
 subscription-charges-total-plaintext = Total: { $invoiceTotal }
@@ -229,8 +229,8 @@ freeTrialEndingReminder-content-charge-tax-2 = Imposto
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
-freeTrialEndingReminder-content-charge-total = Total para { $serviceLastActiveDateOnly }: { $invoiceTotal }
-freeTrialEndingReminder-content-charge-total-2 = Total devido em { $serviceLastActiveDateOnly }
+freeTrialEndingReminder-content-charge-total = Total a pagar em { $serviceLastActiveDateOnly }: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Total a pagar em { $serviceLastActiveDateOnly }
 freeTrialEndingReminder-content-account-link = Pode rever ou atualizar o seu método de pagamento e as informações da conta <a data-l10n-name="freeTrialEndingReminder-update-billing">aqui</a>.
 freeTrialEndingReminder-content-account-link-plaintext = Pode rever ou atualizar o seu método de pagamento e as informações da conta aqui:
 # Variables:
