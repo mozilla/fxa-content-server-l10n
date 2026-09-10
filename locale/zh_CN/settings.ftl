@@ -396,6 +396,8 @@ password-strength-inline-passwords-match = 密码符合
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = 您的手机，您做主。
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = 随时随地从上次看到的地方接续浏览
 # Value proposition variant. Refers to using the same trusted browser on a phone.
 promo-qr-mobile-heading-treatment-c = 值得信赖的浏览器，手机也能用
 # Appears below a QR code that a user can scan to download the Firefox mobile app
