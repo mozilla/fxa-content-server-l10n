@@ -231,15 +231,15 @@ freeTrialEndingReminder-content-charge-tax-2 = Imposto
 #   $invoiceTotal (String) - The total amount due, e.g. $9.99
 freeTrialEndingReminder-content-charge-total = Total a pagar em { $serviceLastActiveDateOnly }: { $invoiceTotal }
 freeTrialEndingReminder-content-charge-total-2 = Total a pagar em { $serviceLastActiveDateOnly }
-freeTrialEndingReminder-content-account-link = Pode rever ou atualizar o seu método de pagamento e as informações da conta <a data-l10n-name="freeTrialEndingReminder-update-billing">aqui</a>.
-freeTrialEndingReminder-content-account-link-plaintext = Pode rever ou atualizar o seu método de pagamento e as informações da conta aqui:
+freeTrialEndingReminder-content-account-link = Pode rever ou atualizar o seu método de pagamento e informações da conta <a data-l10n-name="freeTrialEndingReminder-update-billing">aqui</a>.
+freeTrialEndingReminder-content-account-link-plaintext = Pode rever ou atualizar o seu método de pagamento e informações da conta aqui:
 # Variables:
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-cancel-link = Para evitar ser cobrado, cancele antes de <strong>{ $serviceLastActiveDateOnly }</strong>: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Cancelar subscrição</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Para evitar ser cobrado, cancele antes de { $serviceLastActiveDateOnly }:
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-freeTrialEndingReminder-content-thanks = Obrigado por experimentar o { $productName }. Se tiver quaisquer questões sobre o seu teste ou subscrição, por favor, <a data-l10n-name="freeTrialEndingReminder-contact-support">contacte-nos</a>.
+freeTrialEndingReminder-content-thanks = Obrigado por experimentar o { $productName }. Se tiver quaisquer questões sobre o seu teste ou subscrição, por favor <a data-l10n-name="freeTrialEndingReminder-contact-support">contacte-nos</a>.
 freeTrialEndingReminder-content-thanks-plaintext = Obrigado por experimentar o { $productName }. Se tiver quaisquer questões sobre o seu teste ou subscrição, por favor, contacte-nos.
 freeTrialEndingReminder-content-closing = Com os melhores cumprimentos,
 # Variables:
