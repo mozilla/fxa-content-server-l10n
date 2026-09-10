@@ -319,7 +319,7 @@ subscriptionEndingReminder-title = A sua subscrição { $productName } vai expir
 subscriptionEndingReminder-content-line1 = O seu acesso a { $productName } vai terminar em <strong>{ $serviceLastActiveDateOnly }</strong>.
 subscriptionEndingReminder-content-line2-v2 = Se quiser continuar a utilizar o { $productName }, pode manter a sua subscrição na <a data-l10n-name="subscriptionEndingReminder-subscription-management">Gestão de subscrições</a> antes de <strong>{ $serviceLastActiveDateOnly }</strong> . Se precisar de ajuda, <a data-l10n-name="subscriptionEndingReminder-contact-support">contacte a nossa equipa de suporte</a>.
 subscriptionEndingReminder-content-line1-plaintext = O seu acesso a { $productName } terminará em { $serviceLastActiveDateOnly }.
-subscriptionEndingReminder-content-line2-plaintext-v2 = Se quiser continuar a usar o { $productName }, pode manter a sua subscrição na Gestão de subscrições antes de { $serviceLastActiveDateOnly }. Se precisar de ajuda, entre em contacto com a nossa equipa de apoio.
+subscriptionEndingReminder-content-line2-plaintext-v2 = Se quiser continuar a usar o { $productName }, pode manter a sua subscrição na Gestão de Subscrições antes de { $serviceLastActiveDateOnly }. Se precisar de ajuda, entre em contacto com a nossa equipa de suporte.
 subscriptionEndingReminder-content-closing = Obrigado por ser um subscritor valorizado!
 subscriptionEndingReminder-churn-title = Pretende manter o acesso?
 subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Aplicam-se termos e restrições limitados</a>
