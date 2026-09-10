@@ -434,6 +434,14 @@ password-strength-inline-passwords-match = Οι κωδικοί πρόσβαση�
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Το τηλέφωνό σας. Οι κανόνες σας.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Συνεχίστε από εκεί που σταματήσατε, όπου κι αν πάτε
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Οι καρτέλες σας και πολλά άλλα, έτοιμα στο τηλέφωνό σας
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Το πρόγραμμα περιήγησης που εμπιστεύεστε, στο τηλέφωνό σας
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Το ίδιο { -brand-firefox }. Σε διαφορετική οθόνη.
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = Κωδικός QR για λήψη του { -brand-firefox } για κινητές συσκευές. Τοποθετήστε την κάμερα του τηλεφώνου σας στην κάτω δεξιά γωνία της οθόνης για σάρωση.
