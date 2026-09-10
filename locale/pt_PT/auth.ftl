@@ -241,10 +241,10 @@ freeTrialEndingReminder-content-cancel-link-plaintext = Para evitar ser cobrado,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-thanks = Obrigado por experimentar o { $productName }. Se tiver quaisquer questões sobre o seu teste ou subscrição, por favor <a data-l10n-name="freeTrialEndingReminder-contact-support">contacte-nos</a>.
 freeTrialEndingReminder-content-thanks-plaintext = Obrigado por experimentar o { $productName }. Se tiver quaisquer questões sobre o seu teste ou subscrição, por favor, contacte-nos.
-freeTrialEndingReminder-content-closing = Com os melhores cumprimentos,
+freeTrialEndingReminder-content-closing = Atenciosamente,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-freeTrialEndingReminder-content-signature = A equipa do(a) { $productName }
+freeTrialEndingReminder-content-signature = A equipa { $productName }
 # Variables:
 #  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
 freeTrialEndingReminder-content-support-plaintext = Contacte-nos: { $subscriptionSupportUrlWithUtm }
