@@ -442,6 +442,16 @@ promo-qr-mobile-heading-treatment-b = Οι καρτέλες σας και πολ
 promo-qr-mobile-heading-treatment-c = Το πρόγραμμα περιήγησης που εμπιστεύεστε, στο τηλέφωνό σας
 # Value proposition variant. "Different screen" refers to the phone rather than the desktop.
 promo-qr-mobile-heading-treatment-d = Το ίδιο { -brand-firefox }. Σε διαφορετική οθόνη.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = Η προστασία του απορρήτου σας δεν πρέπει να σταματά εδώ
+# Value proposition variant. Refers to keeping browsing activity private.
+promo-qr-mobile-heading-treatment-f = Κρατήστε την περιήγησή σας πιο ιδιωτική
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Λιγότερη φασαρία στο τηλέφωνό σας δεν θα έβλαπτε
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Απολαύστε πιο ήρεμη περιήγηση εν κινήσει
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Κάντε σάρωση για λήψη της εφαρμογής για κινητά τηλέφωνα
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = Κωδικός QR για λήψη του { -brand-firefox } για κινητές συσκευές. Τοποθετήστε την κάμερα του τηλεφώνου σας στην κάτω δεξιά γωνία της οθόνης για σάρωση.
