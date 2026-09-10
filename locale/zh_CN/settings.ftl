@@ -396,6 +396,8 @@ password-strength-inline-passwords-match = 密码符合
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = 您的手机，您做主。
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = 值得信赖的浏览器，手机也能用
 # Appears below a QR code that a user can scan to download the Firefox mobile app
 promo-qr-mobile-description-v2 = 扫码下载移动版应用
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
