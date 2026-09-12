@@ -2004,11 +2004,11 @@ pair2-supplicant-sync-success-sync-settings-button = Nastavitve sinhronizacije
 # Shown when the pairing attempt expired before it completed. "we" is Firefox.
 pair2-supplicant-timeout-and-cancel-timeout-heading = Kaže, da nam je potekla časovna omejitev
 # "firefox.com/pair" is a URL and should not be translated
-pair2-supplicant-timeout-and-cancel-timeout-description = Če želite povezati mobilno napravo in sinhronizirati vaše podatke v storitvi { -brand-firefox }, v računalniku obiščite <b>firefox.com/pair</b>.
+pair2-supplicant-timeout-and-cancel-timeout-description = Če želite povezati mobilno napravo in sinhronizirati podatke { -brand-firefox(sklon: "rodilnik") }, z računalnikom obiščite <b>firefox.com/pair</b>.
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Preklicano
 # "firefox.com/pair" is a URL and should not be translated
-pair2-supplicant-timeout-and-cancel-canceled-description = Če želite kadarkoli povezati napravo, v računalniku obiščite <b>firefox.com/pair</b>.
+pair2-supplicant-timeout-and-cancel-canceled-description = Napravo lahko kadarkoli povežete tako, da z računalnikom obiščete <b>firefox.com/pair</b>.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
