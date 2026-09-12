@@ -1965,7 +1965,7 @@ pair2-supplicant-connect-this-device-cancel-button = Prekliči
 pair2-supplicant-download-firefox-heading = Prenesite { -brand-firefox(sklon: "tozilnik") } na to napravo
 # "sync" is a verb here, referring to syncing data between the user's devices.
 # <linkExternal> is an anchor tag linking to a page explaining what sync does.
-pair2-supplicant-download-firefox-description = Prenesite { -brand-firefox } in sinhronizirajte zaznamke, zgodovino in drugo med napravami. <linkExternal>Več o tem</linkExternal>
+pair2-supplicant-download-firefox-description = Prenesite { -brand-firefox(sklon: "tozilnik") } in sinhronizirajte zaznamke, zgodovino ter druge podatke med napravami. <linkExternal>Več o tem</linkExternal>
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Nadaljuj v { -brand-firefox(sklon: "mestnik") }
@@ -1980,7 +1980,7 @@ pair2-supplicant-download-firefox-opening-button = Odpiranje { -brand-firefox(sk
 pair2-supplicant-ready-to-scan-heading = Da povežete napravo
 # <b> emphasises the address the user types on their computer. It is not a link,
 # and the address itself must not be translated.
-pair2-supplicant-ready-to-scan-instruction = V računalniku odprite { -brand-firefox } in obiščite <b>firefox.com/pair</b> ter sledite navodilom na zaslonu za povezavo te mobilne naprave.
+pair2-supplicant-ready-to-scan-instruction = Na računalniku odprite { -brand-firefox(sklon: "tozilnik") }, obiščite <b>firefox.com/pair</b> in po navodilih na zaslonu povežite mobilno napravo.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Več o tem
 
