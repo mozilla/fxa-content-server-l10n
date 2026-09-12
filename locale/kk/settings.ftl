@@ -420,6 +420,8 @@ password-strength-inline-passwords-match = Парольдер өзара сәй�
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Сіздің телефоныңыз. Сіздің ережелеріңіз.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Қайда барсаңыз да, тоқтаған жеріңізден жалғастырыңыз
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = { -brand-firefox } мобильді қолданбасын жүктеу үшін QR коды. Телефоныңыздың камерасын сканерлеу үшін экранның төменгі оң жақ бұрышына бағыттаңыз.
