@@ -414,6 +414,8 @@ promo-qr-mobile-heading-treatment-a = Tiếp tục từ nơi bạn đã dừng l
 promo-qr-mobile-heading-treatment-b = Các thẻ yêu thích và nhiều nội dung khác, sẵn sàng trên điện thoại của bạn
 # Value proposition variant. Refers to using the same trusted browser on a phone.
 promo-qr-mobile-heading-treatment-c = Trình duyệt bạn tin dùng, trên điện thoại của bạn
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = Cùng trình duyệt { -brand-firefox }. Nhưng ở trên di động.
 # Value proposition variant. "stop here" means privacy protection should continue onto the phone.
 promo-qr-mobile-heading-treatment-e = Quyền riêng tư của bạn không nên dừng lại tại đây
 # Value proposition variant. Refers to keeping browsing activity private.
