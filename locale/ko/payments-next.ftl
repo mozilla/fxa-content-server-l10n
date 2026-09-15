@@ -377,6 +377,7 @@ free-trial-content-link-view-invoice = 청구서 보기
 free-trial-content-link-view-invoice-aria = { $productName } 청구서 보기
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = 무료 평가판이 <bold>{ $date }</bold>에 종료됩니다.
+free-trial-content-could-not-process-payment = 결제를 처리하지 못했습니다. 계속 이용하려면 결제 수단을 변경하세요. 처리에는 최대 24시간이 걸릴 수 있으며 은행이나 결제 수단에 따라 달라질 수 있습니다.
 free-trial-content-button-update-payment = 결제 수단 변경
 payments-header-help =
     .alt = 도움말
@@ -404,6 +405,12 @@ payments-header-avatar-expanded-sign-out = 로그아웃
 
 ## Interstitial Offer
 
+interstitial-offer-success-cancel-title = 가신다니 아쉽습니다.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = { $productName } 구독이 취소되었습니다. { $date }까지 { $productName }에 계속 접근할 수 있습니다.
+interstitial-offer-turn-back-on = 구독이 종료되기 전에는 언제든 다시 활성화할 수 있습니다.
+interstitial-offer-cancel-success-dialog-aside = 질문이 있으신가요? <LinkExternal>{ -brand-mozilla } 지원</LinkExternal>을 방문하세요.
 interstitial-offer-button-back-to-subscriptions = 구독으로 돌아가기
 interstitial-offer-cancel-subscription-button = 구독 취소
 
