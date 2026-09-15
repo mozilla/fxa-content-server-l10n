@@ -705,6 +705,7 @@ manage-payment-method-intent-error-card-declined = 거래를 처리할 수 없�
 manage-payment-method-intent-error-expired-card-error = 신용 카드 유효 기간이 만료된 것 같습니다. 다른 카드를 사용해보세요.
 manage-payment-method-intent-error-try-again = 결제를 승인하는 동안 문제가 발생했습니다. 다시 시도하거나 카드사에 연락하세요.
 manage-payment-method-intent-error-get-in-touch = 결제를 승인하는 동안 문제가 발생했습니다. 카드사에 연락하세요.
+manage-payment-method-intent-error-insufficient-funds = 카드 잔액이 부족한 것 같습니다. 다른 카드를 사용해보세요.
 manage-payment-method-intent-error-generic = 결제를 처리하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
 manage-payment-method-tax-address-required = 결제 위치를 확인할 수 없습니다. 결제 수단 정보를 확인하시고 다시 시도하십시오.
 
