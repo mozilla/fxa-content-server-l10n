@@ -1877,6 +1877,8 @@ pair2-authority-download-firefox-cta = Last ned { -brand-firefox }
 ## their phone or tablet to connect the two devices and start syncing.
 
 pair2-authority-scan-qr-heading = Skann for å kople til mobileininga di
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-scan-qr-instruction = Skann QR-koden med telefonen eller nettbrettet for å synkronisere bokmerka, fanene og meir i { -brand-firefox }.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR-kode for å kople til mobileininga di
 # Link to a support article for users having trouble scanning the QR code
@@ -1954,6 +1956,9 @@ pair2-supplicant-download-firefox-opening-button = Opnar { -brand-firefox }…
 ## scan with the mobile device comes from.
 
 pair2-supplicant-ready-to-scan-heading = For å kople til ei eining
+# <b> emphasises the address the user types on their computer. It is not a link,
+# and the address itself must not be translated.
+pair2-supplicant-ready-to-scan-instruction = Opne { -brand-firefox } på datamaskina, gå til <b>firefox.com/pair</b> og følg instruksjonane på skjermen for å kople til denne mobileininga.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Les meir
 
@@ -1962,6 +1967,7 @@ pair2-supplicant-ready-to-scan-learn-more-link = Les meir
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Eininga di er tilkopla
+pair2-supplicant-sync-success-description = Bokmerka dine, fanene, og meir, vil halde seg synkroniserte i { -brand-firefox }.
 # Opens the view listing tabs open on the user's other synced devices
 pair2-supplicant-sync-success-view-tabs-button = Vis synkroniserte faner
 # Opens the browser's sync settings, where the user chooses what to sync
@@ -1973,8 +1979,12 @@ pair2-supplicant-sync-success-sync-settings-button = Synkroniseringsinnstillinga
 ## are informational and offer no on-screen action, so the copy points the user
 ## back to their computer to start again.
 
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-timeout-description = For å kople til mobileininga di og synkronisere { -brand-firefox }-dataa dine, gå til <b>firefox.com/pair</b> på datamaskina di.
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Avbrote
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = For å kople til ei eining når som helst, gå til <b>firefox.com/pair</b> på datamaskina di.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
