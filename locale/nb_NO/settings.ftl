@@ -1931,6 +1931,8 @@ pair2-supplicant-download-firefox-heading = Få { -brand-firefox } på denne enh
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Fortsett i { -brand-firefox }
+# Replaces the button label while waiting for the Firefox app to take over
+pair2-supplicant-download-firefox-opening-button = Åpner { -brand-firefox }…
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -1959,6 +1961,8 @@ pair2-supplicant-sync-success-sync-settings-button = Synkroniseringsinnstillinge
 
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-canceled-heading = Avbrutt
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = For å koble til en enhet når som helst, gå til <b>firefox.com/pair</b> på datamaskinen din.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
