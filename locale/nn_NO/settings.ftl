@@ -1869,6 +1869,8 @@ pair2-authority-continue-on-mobile-cancel-button = Avbryt
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = Opne { -brand-firefox } for å synkronisere
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction = For å setje opp synkronisering på tvers av einingar, opne { -brand-firefox } på denne eininga og gå til <b>firefox.com/pair</b>
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Last ned { -brand-firefox }
 
@@ -1890,6 +1892,7 @@ pair2-authority-scan-qr-help-link = Få hjelp med skanning
 
 # "syncing" here means copying data between the user's devices
 pair2-authority-sync-success-heading = Du synkroniserer
+pair2-authority-sync-success-description = Faner, bokmerke, passord og meir, er klare på tvers av einingane dine.
 # Opens the tabs that are open on the user's other synced devices
 pair2-authority-sync-success-view-tabs-button = Vis synkroniserte faner
 # Opens the browser settings that control what is synced
@@ -1944,6 +1947,9 @@ pair2-supplicant-connect-this-device-cancel-button = Avbryt
 ## the browser.
 
 pair2-supplicant-download-firefox-heading = Få { -brand-firefox } på denne eininga
+# "sync" is a verb here, referring to syncing data between the user's devices.
+# <linkExternal> is an anchor tag linking to a page explaining what sync does.
+pair2-supplicant-download-firefox-description = Last ned { -brand-firefox } for å synkronisere bokmerke, historikk og meir, på tvers av eningar. <linkExternal>Lær meir</linkExternal>
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Hald fram i { -brand-firefox }
