@@ -430,6 +430,12 @@ promo-qr-mobile-heading-treatment-d = Same { -brand-firefox }. Ulik skjerm.
 promo-qr-mobile-heading-treatment-e = Personvernet ditt bør ikkje stoppe her
 # Value proposition variant. Refers to keeping browsing activity private.
 promo-qr-mobile-heading-treatment-f = Surf meir privat
+# Value proposition variant. "noise" refers to distractions and clutter.
+promo-qr-mobile-heading-treatment-g = Telefonen din kunne ha trunge litt mindre støy
+# Value proposition variant. Refers to a calmer browsing experience on the phone.
+promo-qr-mobile-heading-treatment-h = Surf på ein rolegare måte
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Skann for å laste ned mobilappen
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = QR-kode for å laste ned { -brand-firefox }-mobilappen. Hald kameraet på telefonen over nedre høgre hjørne av skjermen for å skanne han.
@@ -510,8 +516,10 @@ password-reset-warning-have-key = Har du ein kontogjenopprettingsnøkkel?
 # "it" refers to the user's account recovery key.
 password-reset-warning-use-key-link-v2 = Bruk det for å tilbakestille passordet ditt og behalde nettlesardataa dine
 password-reset-warning-signed-in-device = Framleis logga inn på ei anna eining?
+password-reset-warning-signed-in-device-description = Nettlesardataa dine kan vere tilgjengelege. Tilbakestill passordet ditt, og logg deretter på den eininga for å gjenopprette og synkronisere dataa dine.
 password-reset-warning-restore-data-link = Les om korleis du gjenopprettar nettlesardata frå ei pålogga eining
 password-reset-warning-new-device = Brukar du ei ny eining, men får ikkje tilgang til dei gamle?
+password-reset-warning-new-device-description = Etter at du har tilbakestilt passordet ditt, vil ikkje krypterte nettlesardata på { -brand-firefox }-serverar vere tilgjengelege på denne eininga.
 
 ## Alert Bar
 
@@ -752,6 +760,11 @@ flow-setup-2fa-prompt-heading = Set opp tostegs-autentisering
 flow-setup-2fa-prompt-description = { $serviceName } krev at du konfigurerer tostegs-autentisering for å halde kontoen din trygg.
 # Success banner shown at the top of the page when the user signed in with a passkey.
 flow-setup-2fa-prompt-passkey-success-banner = Vellykka pålogging med passnøkkel
+# Body copy shown when the user signed in with a passkey and the service still
+# requires two-step authentication setup.
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-passkey-description = { $serviceName } krev også tostegs-autentisering for { -product-mozilla-account }. Etter oppsettet treng du ikkje lenger den når du loggar på med ein passnøkkel.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Du kan bruke kven som helst av <authenticationAppsLink>desse autentiseringsappane</authenticationAppsLink> for å halde fram.
 flow-setup-2fa-prompt-continue-button = Hald fram
