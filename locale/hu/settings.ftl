@@ -1915,13 +1915,9 @@ pair2-authority-sync-success-sync-settings-button = Szinkronizálási beállít�
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = Még mindig csatlakoztatni szeretne egy eszközt?
 pair2-authority-timeout-and-cancel-timeout-description = Úgy tűnik, túlléptük az időkorlátot. Próbálja újra, ha továbbra is csatlakoztatni szeretné mobileszközét, és szinkronizálni szeretné a { -brand-firefox } adatait:.
-# Shown when the pairing attempt was canceled, on either device
-pair2-authority-timeout-and-cancel-canceled-heading = Megszakítva
 pair2-authority-timeout-and-cancel-canceled-description = Ha meggondolja magát, vagy egy másik eszközt szeretne csatlakoztatni, próbálja újra.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Újrapróbálkozás
-# Abandons pairing without retrying
-pair2-authority-timeout-and-cancel-cancel-button = Mégse
 # Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
 pair2-authority-timeout-and-cancel-sync-settings-button = Szinkronizálási beállítások
 
@@ -1999,8 +1995,6 @@ pair2-supplicant-sync-success-sync-settings-button = Szinkronizálási beállít
 pair2-supplicant-timeout-and-cancel-timeout-heading = Úgy tűnik, túlléptük az időkorlátot
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-timeout-description = A mobileszköz csatlakoztatásához és a { -brand-firefox } adatainak szinkronizálásához keresse fel a <b>firefox.com/pair</b> oldalt a számítógépén.
-# Shown after the pairing attempt was canceled
-pair2-supplicant-timeout-and-cancel-canceled-heading = Megszakítva
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = Eszköz csatlakoztatásához keresse fel a <b>firefox.com/pair</b> oldalt a számítógépén.
 

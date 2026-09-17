@@ -1914,13 +1914,9 @@ pair2-authority-sync-success-sync-settings-button = Nastavení synchronizace
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = Stále chcete připojit zařízení?
 pair2-authority-timeout-and-cancel-timeout-description = Zdá se, že vypršel časový limit. Zkuste to znovu, pokud stále chcete připojit své mobilní zařízení a synchronizovat svá data { -brand-firefox(case: "gen") }.
-# Shown when the pairing attempt was canceled, on either device
-pair2-authority-timeout-and-cancel-canceled-heading = Zrušeno
 pair2-authority-timeout-and-cancel-canceled-description = Pokud změníte názor nebo chcete připojit jiné zařízení, zkuste to znovu.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Zkusit znovu
-# Abandons pairing without retrying
-pair2-authority-timeout-and-cancel-cancel-button = Zrušit
 # Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
 pair2-authority-timeout-and-cancel-sync-settings-button = Nastavení synchronizace
 
@@ -1998,8 +1994,6 @@ pair2-supplicant-sync-success-sync-settings-button = Nastavení synchronizace
 pair2-supplicant-timeout-and-cancel-timeout-heading = Zdá se, že vypršel časový limit
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-timeout-description = Chcete-li připojit své mobilní zařízení a synchronizovat data { -brand-firefox(case: "gen") }, přejděte na svém počítači na stránku <b>firefox.com/pair</b>.
-# Shown after the pairing attempt was canceled
-pair2-supplicant-timeout-and-cancel-canceled-heading = Zrušeno
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = Pro připojení svého zařízení prosím navštivte <b>firefox.com/pair</b> na svém počítači.
 
