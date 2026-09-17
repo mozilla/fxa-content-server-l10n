@@ -1627,6 +1627,19 @@ index-account-delete-success = Konto erfolgreich gelöscht
 # Displayed when users try to sign up for an account and their confirmation code email bounces
 index-email-bounced = Ihre Bestätigungs-E-Mail kam gerade zurück. Stimmt Ihre E-Mail-Adresse?
 
+## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
+
+# Browser tab title.
+inline-passwordless-sync-setup-page-title = Passwort beim nächsten Mal überspringen?
+# Success banner after signing in.
+inline-passwordless-sync-setup-success-banner = Bei { -brand-firefox } angemeldet
+inline-passwordless-sync-setup-heading = Passwort beim nächsten Mal überspringen?
+inline-passwordless-sync-setup-description = Verwenden Sie diesen Zugangsschlüssel, um sich schneller anzumelden.
+inline-passwordless-sync-setup-enable-button = Zugangsschlüssel aktivieren
+# Button label while the passkey is stored.
+inline-passwordless-sync-setup-enabling = Wird aktiviert…
+inline-passwordless-sync-setup-not-now-button = Nicht jetzt
+
 ## InlineRecoveryKeySetup page component
 
 inline-recovery-key-setup-create-error = Hoppla! Wir konnten Ihren Kontowiederherstellungsschlüssel nicht erstellen. Bitte versuchen Sie es später erneut.
@@ -1909,6 +1922,8 @@ pair2-authority-sync-success-sync-settings-button = Synchronisationseinstellunge
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = Möchten Sie trotzdem ein Gerät verbinden?
 pair2-authority-timeout-and-cancel-timeout-description = Anscheinend trat eine Zeitüberschreitung auf. Versuchen Sie es erneut, wenn Sie Ihr Mobilgerät weiterhin verbinden und Ihre Daten von { -brand-firefox } synchronisieren möchten.
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-cancelled-heading = Abgesagt
 pair2-authority-timeout-and-cancel-canceled-description = Wenn Sie Ihre Meinung ändern oder ein anderes Gerät verbinden möchten, versuchen Sie es erneut.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Erneut versuchen
@@ -1989,6 +2004,8 @@ pair2-supplicant-sync-success-sync-settings-button = Synchronisationseinstellung
 pair2-supplicant-timeout-and-cancel-timeout-heading = Zeitüberschreitung
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-timeout-description = Um Ihr Mobilgerät zu verbinden und Ihre { -brand-firefox }-Daten zu synchronisieren, besuchen Sie <b>firefox.com/pair</b> auf Ihrem Computer.
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-cancelled-heading = Abgesagt
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = Um jederzeit ein Gerät zu verbinden, besuchen Sie <b>firefox.com/pair</b> auf Ihrem Computer.
 
