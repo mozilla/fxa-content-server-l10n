@@ -2,18 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-17 20:17+0000\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
-
-#. submit button
-#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:10
-msgid "Sign in"
-msgstr "Đăng nhập"
 
 #: .es5/views/index.js:156
 msgid "Account deleted successfully"
@@ -107,14 +103,6 @@ msgstr "Thông báo tài khoản bây giờ cũng sẽ được gửi đến %(s
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "Tiếp tục đến %(serviceName)s"
-
-#: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
-msgid "Your account has been locked for security reasons"
-msgstr "Tài khoản của bạn đã bị khóa vì lý do bảo mật"
-
-#: .es5/views/mixins/account-reset-mixin.js:40
-msgid "Reset password"
-msgstr "Đặt lại mật khẩu"
 
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
@@ -304,6 +292,10 @@ msgstr "Nội dung yêu cầu quá lớn"
 msgid "The request was blocked for security reasons"
 msgstr "Yêu cầu đã bị chặn vì lý do bảo mật"
 
+#: .es5/lib/auth-errors.js:113
+msgid "Your account has been locked for security reasons"
+msgstr "Tài khoản của bạn đã bị khóa vì lý do bảo mật"
+
 #: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
 msgstr "Mã xác minh không hợp lệ"
@@ -430,9 +422,7 @@ msgstr "Không xác định được người dùng để đăng ký."
 
 #: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
-msgstr ""
-""
-"Không xác định được đăng ký."
+msgstr "Không xác định được đăng ký."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
@@ -776,7 +766,9 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -804,6 +796,10 @@ msgstr "Địa chỉ IP: %(ip)s"
 #: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Để bảo mật hơn, vui lòng xác nhận đăng nhập này để bắt đầu đồng bộ hóa với thiết bị này:"
+
+#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+msgid "Sign in"
+msgstr "Đăng nhập"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -953,66 +949,6 @@ msgstr "Bạn muốn nhận các thẻ, dấu trang và mật khẩu của mình
 msgid "Manage your account"
 msgstr "Quản lý tài khoản của bạn"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "Nhập mật khẩu của bạn <span class=\"card-subheader\" id=\"subheader\">cho tài khoản Mozilla của bạn</span>"
-
-#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13
-#: .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Tiếp tục đến %(serviceName)s"
-
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
-msgid "Password"
-msgstr "Mật khẩu"
-
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:15
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"\n"
-"            Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
-"          "
-
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
-msgid ""
-"\n"
-"              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"            "
-msgstr ""
-"\n"
-"              Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
-"            "
-
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-"Bằng cách tiếp tục, bạn đồng ý với <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">chính sách riêng tư</a>."
-
-#: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "Sử dụng một tài khoản khác"
-
-#: .es5/templates/force_auth.mustache:14 .es5/templates/sign_in_password.mustache:19
-msgid "Forgot password?"
-msgstr "Quên mật khẩu?"
-
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
 msgstr "Tiếp tục với tài khoản Mozilla của bạn"
@@ -1025,9 +961,15 @@ msgstr "Đồng bộ hóa mật khẩu, thẻ và dấu trang của bạn ở m�
 msgid "Enter your email"
 msgstr "Nhập email của bạn"
 
-#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+#: .es5/templates/index.mustache:5
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Tiếp tục đến <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Tiếp tục đến %(serviceName)s"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
@@ -1049,29 +991,46 @@ msgstr "Tài khoản Mozilla cũng mở khóa quyền truy cập vào nhiều s�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Bằng cách tiếp tục, bạn đã đồng ý với:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a>của Tài khoản Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a>của Tài khoản Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
 "            "
+
+#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
+msgstr ""
+"Bằng cách tiếp tục, bạn đồng ý với <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">chính sách riêng tư</a>."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1284,6 +1243,10 @@ msgstr "Nhập mã bảo mật"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Mở ứng dụng xác thực của bạn và nhập mã bảo mật mà ứng dụng cung cấp."
 
+#: .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Sử dụng một tài khoản khác"
+
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "Khó khăn khi nhập mã?"
@@ -1308,6 +1271,10 @@ msgstr "Đặt mật khẩu của bạn"
 msgid "Change email"
 msgstr "Thay đổi email"
 
+#: .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
+msgid "Password"
+msgstr "Mật khẩu"
+
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "Nhập lại mật khẩu"
@@ -1327,6 +1294,42 @@ msgstr "Chọn những gì để đồng bộ hóa"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Tạo tài khoản"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to the:<br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+"\n"
+"            Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"          "
+
+#: .es5/templates/sign_up_password.mustache:17
+msgid ""
+"\n"
+"              By proceeding, you agree to the:<br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            "
+msgstr ""
+"\n"
+"              Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"            "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

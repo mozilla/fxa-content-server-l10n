@@ -2,18 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-17 20:17+0000\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
-
-#. submit button
-#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:10
-msgid "Sign in"
-msgstr "登入"
 
 #: .es5/views/index.js:156
 msgid "Account deleted successfully"
@@ -107,14 +103,6 @@ msgstr "現在起，與帳號相關的通知也將發送到 %(secondaryEmail)s�
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "繼續前往 %(serviceName)s"
-
-#: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
-msgid "Your account has been locked for security reasons"
-msgstr "由於安全性因素，您的帳號已被鎖定"
-
-#: .es5/views/mixins/account-reset-mixin.js:40
-msgid "Reset password"
-msgstr "重設密碼"
 
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
@@ -303,6 +291,10 @@ msgstr "請求內容太大"
 #: .es5/lib/auth-errors.js:109 .es5/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
 msgstr "因為安全性因素，已封鎖請求"
+
+#: .es5/lib/auth-errors.js:113
+msgid "Your account has been locked for security reasons"
+msgstr "由於安全性因素，您的帳號已被鎖定"
 
 #: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
@@ -774,7 +766,9 @@ msgid "Invalid Token"
 msgstr "Token 無效"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "若繼續，代表您同意 %(serviceName)s（%(serviceUri)s）的<a id=\"service-tos\" href=\"%(termsUri)s\">服務條款</a>及<a id=\"service-pp\" href=\"%(privacyUri)s\">隱私權公告</a>"
 
 #: .es5/lib/strings.js:33
@@ -800,6 +794,10 @@ msgstr "IP 地址：%(ip)s"
 #: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "為了加強保護，請確認這次登入後才會開始與這部裝置同步："
+
+#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+msgid "Sign in"
+msgstr "登入"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -949,62 +947,6 @@ msgstr "想要在其他台裝置上，也能獲得相同的分頁、書籤、網
 msgid "Manage your account"
 msgstr "管理帳號"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr "請輸入您的密碼 <span class=\"card-subheader\" id=\"subheader\">Mozilla 帳號</span>"
-
-#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13
-#: .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "繼續前往 %(serviceName)s"
-
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
-msgid "Password"
-msgstr "密碼"
-
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:15
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"若繼續，代表您同意：<br />\n"
-"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服務條款</a>與<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隱私權公告</a><br />\n"
-"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">隱私權公告</a>"
-
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
-msgid ""
-"\n"
-"              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"            "
-msgstr ""
-"若繼續，代表您同意：<br />\n"
-"Mozilla 訂閱服務的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服務條款</a>與<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隱私權公告</a><br />\n"
-"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">隱私權公告</a>"
-
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-"若繼續，代表您同意<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">隱私權公告</a>。"
-
-#: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "使用另一個帳號"
-
-#: .es5/templates/force_auth.mustache:14 .es5/templates/sign_in_password.mustache:19
-msgid "Forgot password?"
-msgstr "忘記密碼？"
-
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
 msgstr "繼續前往 Mozilla 帳號"
@@ -1017,9 +959,15 @@ msgstr "在使用 Firefox 的所有地方同步您的密碼、分頁、書籤。
 msgid "Enter your email"
 msgstr "請輸入您的電子郵件地址"
 
-#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+#: .es5/templates/index.mustache:5
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "繼續前往 <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "繼續前往 %(serviceName)s"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
@@ -1041,25 +989,42 @@ msgstr "註冊 Mozilla 帳號，即可使用 Mozilla 更多隱私保護相關產
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "若繼續，代表您同意：<br />\n"
-"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服務條款</a>與<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隱私權公告</a><br />\n"
-"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">隱私權公告</a>"
+"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服務條款</a>與<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隱私權公告</"
+"a><br />\n"
+"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/"
+"privacy/mozilla-accounts/\">隱私權公告</a>"
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "若繼續，代表您同意：<br />\n"
-"Mozilla 訂閱服務的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服務條款</a>與<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隱私權公告</a><br />\n"
-"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">隱私權公告</a>"
+"Mozilla 訂閱服務的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服務條款</a>與<a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隱私權公告</a><br />\n"
+"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/"
+"privacy/mozilla-accounts/\">隱私權公告</a>"
+
+#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
+msgstr ""
+"若繼續，代表您同意<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>及<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla."
+"org/privacy/mozilla-accounts/\">隱私權公告</a>。"
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1272,6 +1237,10 @@ msgstr "請輸入安全碼"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "請開啟您的兩階段驗證程式，並輸入其提供的安全碼"
 
+#: .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "使用另一個帳號"
+
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "輸入代碼時遇到問題嗎？"
@@ -1296,6 +1265,10 @@ msgstr "請設定密碼"
 msgid "Change email"
 msgstr "更改電子郵件地址"
 
+#: .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
+msgid "Password"
+msgstr "密碼"
+
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "重複輸入密碼"
@@ -1315,6 +1288,38 @@ msgstr "選擇要同步的內容"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "建立帳號"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to the:<br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+"若繼續，代表您同意：<br />\n"
+"Pocket 的<a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">服務條款</a>與<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">隱私權公告</"
+"a><br />\n"
+"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/"
+"privacy/mozilla-accounts/\">隱私權公告</a>"
+
+#: .es5/templates/sign_up_password.mustache:17
+msgid ""
+"\n"
+"              By proceeding, you agree to the:<br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            "
+msgstr ""
+"若繼續，代表您同意：<br />\n"
+"Mozilla 訂閱服務的<a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">服務條款</a>與<a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">隱私權公告</a><br />\n"
+"Mozilla 帳號的<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">服務條款</a>與<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/"
+"privacy/mozilla-accounts/\">隱私權公告</a>"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"

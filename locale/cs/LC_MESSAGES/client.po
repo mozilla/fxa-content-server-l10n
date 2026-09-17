@@ -2,18 +2,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-17 20:17+0000\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Pontoon\n"
-
-#. submit button
-#: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
-#: .es5/templates/sign_in_password.mustache:10
-msgid "Sign in"
-msgstr "Přihlásit se"
 
 #: .es5/views/index.js:156
 msgid "Account deleted successfully"
@@ -107,14 +103,6 @@ msgstr "Upozornění o účtu budou posílána také na adresu %(secondaryEmail)
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "Pokračovat na %(serviceName)s"
-
-#: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
-msgid "Your account has been locked for security reasons"
-msgstr "Váš účet byl z bezpečnostních důvodů zamčen"
-
-#: .es5/views/mixins/account-reset-mixin.js:40
-msgid "Reset password"
-msgstr "Obnovit heslo"
 
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
@@ -303,6 +291,10 @@ msgstr "Tělo požadavku je příliš velké"
 #: .es5/lib/auth-errors.js:109 .es5/lib/profile-errors.js:53
 msgid "The request was blocked for security reasons"
 msgstr "Z bezpečnostních důvodů byl požadavek zablokován"
+
+#: .es5/lib/auth-errors.js:113
+msgid "Your account has been locked for security reasons"
+msgstr "Váš účet byl z bezpečnostních důvodů zamčen"
 
 #: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
@@ -774,7 +766,9 @@ msgid "Invalid Token"
 msgstr "Neplatný token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Pokračování souhlasíte s <a id=\"service-tos\" href=\"%(termsUri)s\">podmínkami poskytování služby</a> a <a id=\"service-pp\" href=\"%(privacyUri)s\">zásadami ochrany osobních údajů</a> "
 "%(serviceName)s (%(serviceUri)s)."
@@ -802,6 +796,10 @@ msgstr "IP adresa: %(ip)s"
 #: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Pro lepší zabezpečení prosím potvrďte toto přihlášení před začátkem synchronizace tohoto zařízení:"
+
+#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+msgid "Sign in"
+msgstr "Přihlásit se"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
@@ -951,67 +949,6 @@ msgstr "Chcete mít své panely, záložky a hesla na dalším zařízení?"
 msgid "Manage your account"
 msgstr "Správa účtu"
 
-#: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
-msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
-"Zadejte heslo <span class=\"card-subheader\" id=\"subheader\">ke svému účtu Mozilla</span>\n"
-"        "
-
-#: .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13
-#: .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_password.mustache:6
-#: .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Pokračovat na %(serviceName)s"
-
-#: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
-msgid "Password"
-msgstr "Heslo"
-
-#: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:15
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"\n"
-"            Pokračováním vyjadřujete souhlas s:<br />\n"
-" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Podmínkami služby Pocket</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">zásadámi ochrany osobních údajů</a><br />\n"
-" <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">zásadami ochrany osobních údajů</a> účtů Mozilla\n"
-"          "
-
-#: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
-msgid ""
-"\n"
-"              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"            "
-msgstr ""
-"               Pokračováním souhlasíte s:<br /> <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Podmínkami poskytování "
-"služby</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zásadami ochrany osobních údajů</a> pro služby předplatného "
-"Mozilly<br />  <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami poskytování služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">oznámení o ochraně osobních údajů</a> pro Účty Mozilla             "
-
-#: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-"Pokračováním souhlasíte s <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">podmínkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">zásadami ochrany osobních údajů</a>."
-
-#: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "Použít jiný účet"
-
-#: .es5/templates/force_auth.mustache:14 .es5/templates/sign_in_password.mustache:19
-msgid "Forgot password?"
-msgstr "Zapomněli jste heslo?"
-
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
 msgstr "Pokračovat na účet Mozilla"
@@ -1024,9 +961,15 @@ msgstr "Synchronizujte svá hesla, panely a záložky všude, kde používáte F
 msgid "Enter your email"
 msgstr "Zadejte svou e-mailovou adresu"
 
-#: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
+#: .es5/templates/index.mustache:5
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Pokračovat na <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
+
+#: .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2
+#: .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
+#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+msgid "Continue to %(serviceName)s"
+msgstr "Pokračovat na %(serviceName)s"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
@@ -1048,28 +991,43 @@ msgstr "Účet Mozilla odemyká přístup i k dalším soukromí chránícím pr
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "            Pokračováním vyjadřujete souhlas s:<br />\n"
-" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Podmínkami služby Pocket</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">zásadámi ochrany osobních údajů</a><br />\n"
-" <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">zásadami ochrany osobních údajů</a> účtů Mozilla\n"
+" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Podmínkami služby Pocket</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">zásadámi "
+"ochrany osobních údajů</a><br />\n"
+" <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/"
+"privacy/mozilla-accounts/\">zásadami ochrany osobních údajů</a> účtů Mozilla\n"
 "          "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "               Pokračováním souhlasíte s:<br /> <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Podmínkami poskytování "
 "služby</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zásadami ochrany osobních údajů</a> pro služby předplatného "
 "Mozilly<br />  <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami poskytování služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">oznámení o ochraně osobních údajů</a> pro Účty Mozilla             "
+
+#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
+#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
+msgid ""
+"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
+msgstr ""
+"Pokračováním souhlasíte s <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">podmínkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">zásadami ochrany osobních údajů</a>."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1282,6 +1240,10 @@ msgstr "Zadejte bezpečnostní kód"
 msgid "Open your authentication app and enter the security code it provides."
 msgstr "Otevřete svou ověřovací aplikaci a opište z ní bezpečnostní kód."
 
+#: .es5/templates/sign_in_totp_code.mustache:6
+msgid "Use a different account"
+msgstr "Použít jiný účet"
+
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "Problém se zadáváním kódu?"
@@ -1306,13 +1268,18 @@ msgstr "Nastavte si heslo"
 msgid "Change email"
 msgstr "Změnit e-mail"
 
+#: .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
+msgid "Password"
+msgstr "Heslo"
+
 #: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
 msgid "Repeat password"
 msgstr "Zopakujte heslo"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "Toto heslo budete potřebovat pro přístup ke všech šifrovaným datům, které si u nás uložíte.<br class=\"mb-3\">Při jeho obnovení může dojít ke ztrátě všech těchto dat včetně hesel nebo záložek."
+msgstr ""
+"Toto heslo budete potřebovat pro přístup ke všech šifrovaným datům, které si u nás uložíte.<br class=\"mb-3\">Při jeho obnovení může dojít ke ztrátě všech těchto dat včetně hesel nebo záložek."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
@@ -1325,6 +1292,39 @@ msgstr "Vyberte obsah synchronizace"
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
 msgstr "Vytvořit účet"
+
+#: .es5/templates/sign_up_password.mustache:15
+msgid ""
+"\n"
+"            By proceeding, you agree to the:<br />\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          "
+msgstr ""
+"\n"
+"            Pokračováním vyjadřujete souhlas s:<br />\n"
+" <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Podmínkami služby Pocket</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">zásadámi "
+"ochrany osobních údajů</a><br />\n"
+" <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/"
+"privacy/mozilla-accounts/\">zásadami ochrany osobních údajů</a> účtů Mozilla\n"
+"          "
+
+#: .es5/templates/sign_up_password.mustache:17
+msgid ""
+"\n"
+"              By proceeding, you agree to the:<br />\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            "
+msgstr ""
+"               Pokračováním souhlasíte s:<br /> <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Podmínkami poskytování "
+"služby</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">zásadami ochrany osobních údajů</a> pro služby předplatného "
+"Mozilly<br />  <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Podmínkami poskytování služby</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">oznámení o ochraně osobních údajů</a> pro Účty Mozilla             "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
