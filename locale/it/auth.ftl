@@ -287,6 +287,10 @@ subscriptionCancellation-content-continue = Il servizio continuerà fino alla fi
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionCancellation-freeTrial-subject = La versione di prova gratuita di { $productName } è stata annullata
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = La versione di prova gratuita di { $productName } è stata annullata. Potrai accedere al servizio fino al { $trialEndDateOnly }. Non ti verrà addebitato alcun importo.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = Sei passato a { $productName }
