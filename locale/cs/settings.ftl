@@ -424,17 +424,17 @@ password-strength-inline-passwords-match = Hesla se shodují
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Váš telefon. Vaše pravidla.
 # Value proposition variant. Refers to resuming browsing on another device.
-promo-qr-mobile-heading-treatment-a = Pokračujte, kde jste skončili, ať jste kdekoli
+promo-qr-mobile-heading-treatment-a = Pokračujte tam, kde jste přestali, ať už jste kdekoli
 # Value proposition variant. "tabs" are the open pages in a browser.
-promo-qr-mobile-heading-treatment-b = Vaše panely a další, připraveno ve vašem telefonu
+promo-qr-mobile-heading-treatment-b = Vaše panely a další funkce – vše připraveno ve vašem telefonu
 # Value proposition variant. Refers to using the same trusted browser on a phone.
-promo-qr-mobile-heading-treatment-c = Prohlížeč pro svůj telefon, kterému důvěřujete
+promo-qr-mobile-heading-treatment-c = Prohlížeč, kterému důvěřujete, přímo ve vašem telefonu
 # Value proposition variant. "Different screen" refers to the phone rather than the desktop.
-promo-qr-mobile-heading-treatment-d = To samé { -brand-firefox }. Jiná obrazovka.
+promo-qr-mobile-heading-treatment-d = Stejný { -brand-firefox }. Jiná obrazovka.
 # Value proposition variant. "stop here" means privacy protection should continue onto the phone.
-promo-qr-mobile-heading-treatment-e = Vaše soukromí by zde nemělo skončit
+promo-qr-mobile-heading-treatment-e = Vaše soukromí by tím nemělo končit
 # Value proposition variant. Refers to keeping browsing activity private.
-promo-qr-mobile-heading-treatment-f = Nechte si více části svého prohlížení pro sebe
+promo-qr-mobile-heading-treatment-f = Nechte si více svého prohlížení pro sebe
 # Value proposition variant. "noise" refers to distractions and clutter.
 promo-qr-mobile-heading-treatment-g = Váš telefon by mohl mít o něco méně šumu
 # Value proposition variant. Refers to a calmer browsing experience on the phone.
