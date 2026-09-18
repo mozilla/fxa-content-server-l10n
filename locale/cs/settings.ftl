@@ -436,11 +436,11 @@ promo-qr-mobile-heading-treatment-e = Vaše soukromí by tím nemělo končit
 # Value proposition variant. Refers to keeping browsing activity private.
 promo-qr-mobile-heading-treatment-f = Nechte si více svého prohlížení pro sebe
 # Value proposition variant. "noise" refers to distractions and clutter.
-promo-qr-mobile-heading-treatment-g = Váš telefon by mohl mít o něco méně šumu
+promo-qr-mobile-heading-treatment-g = Tvůj telefon by snesl trochu méně rušení
 # Value proposition variant. Refers to a calmer browsing experience on the phone.
-promo-qr-mobile-heading-treatment-h = Vezměte si s sebou klidnější způsob prohlížení
+promo-qr-mobile-heading-treatment-h = Vezměte si s sebou klidnější způsob procházení webu
 # Appears below a QR code that a user can scan to download the Firefox mobile app
-promo-qr-mobile-description-v2 = Naskenujte a stáhněte si mobilní aplikaci
+promo-qr-mobile-description-v2 = Naskenujte tento kód a stáhněte si mobilní aplikaci
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = QR kód ke stažení mobilní aplikace { -brand-firefox }. Nasměrujte fotoaparát telefonu do pravého dolního rohu obrazovky a naskenujte jej.
@@ -1100,9 +1100,9 @@ recent-activity-account-passkey-wrap-created = Přístupový klíč byl povolen 
 # A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
 recent-activity-account-passkey-wrap-creation-failure = Nastavení synchronizace s přístupovým klíčem selhalo
 # A passkey is a sign-in method that replaces a password. This string is shown when a passkey that could unlock the user's synced browser data had that access turned off, leaving the passkey itself usable for signing in.
-recent-activity-account-passkey-wrap-deleted = Přístup k synchronizaci byl odebrán
+recent-activity-account-passkey-wrap-deleted = Přístup k synchronizaci pomocí přístupového klíče byl odstraněn
 # A passkey is a sign-in method that replaces a password. This string is shown when an attempt to turn off a passkey's access to the user's synced browser data did not complete.
-recent-activity-account-passkey-wrap-deletion-failure = Odstranění synchronizačního přístupu se nezdařilo
+recent-activity-account-passkey-wrap-deletion-failure = Odstranění přístupu k synchronizaci pomocí přístupového klíče se nezdařilo
 # A passkey is a sign-in method that replaces a password. Resetting a forgotten password re-encrypts the user's synced browser data, which their passkeys can no longer unlock. This string is shown when that happened and the passkeys need to be set up for syncing again.
 recent-activity-account-passkey-wrap-invalidated = Po resetování hesla byl zrušen přístup k synchronizaci pomocí přístupového klíče
 # Security event was recorded, but the activity details are unknown or not shown to user
@@ -1635,12 +1635,12 @@ index-email-bounced = Odeslaná potvrzující e-mailová zpráva se právě vrá
 ## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
 
 # Browser tab title.
-inline-passwordless-sync-setup-page-title = Přeskočit heslo příště?
+inline-passwordless-sync-setup-page-title = Chcete příště přeskočit zadávání hesla?
 # Success banner after signing in.
-inline-passwordless-sync-setup-success-banner = Přihlášení k { -brand-firefox }
-inline-passwordless-sync-setup-heading = Přeskočit heslo příště?
-inline-passwordless-sync-setup-description = Používejte tento přístupový kód pro rychlejší přihlašování.
-inline-passwordless-sync-setup-enable-button = Povolit přístupový kód
+inline-passwordless-sync-setup-success-banner = Přihlášeno k aplikaci { -brand-firefox }
+inline-passwordless-sync-setup-heading = Chcete příště přeskočit zadávání hesla?
+inline-passwordless-sync-setup-description = Tento přístupový kód vám umožní rychlejší přihlášení.
+inline-passwordless-sync-setup-enable-button = Povolit přístupový klíč
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Zapínání…
 inline-passwordless-sync-setup-not-now-button = Teď ne
