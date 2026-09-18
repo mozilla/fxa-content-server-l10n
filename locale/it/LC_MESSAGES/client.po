@@ -55,7 +55,7 @@ msgstr "Ora sei pronto per modificare il tuo account Mozilla."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
-msgstr "Indirizzo email primario confermato"
+msgstr "Indirizzo email principale confermato"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -200,7 +200,7 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
-msgstr "Indirizzo email primario verificato correttamente"
+msgstr "Indirizzo email principale verificato correttamente"
 
 #: .es5/models/auth_brokers/base.js:92
 msgid "Secondary email verified successfully"
@@ -823,7 +823,7 @@ msgstr "Non sincronizzare questo dispositivo"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "L’indirizzo email primario è già stato confermato"
+msgstr "L’indirizzo email principale è già stato confermato"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
