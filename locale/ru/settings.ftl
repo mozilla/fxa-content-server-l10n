@@ -1632,6 +1632,11 @@ index-account-delete-success = Аккаунт успешно удалён
 # Displayed when users try to sign up for an account and their confirmation code email bounces
 index-email-bounced = Ваше письмо для подтверждения только что вернулось. Опечатка в электронной почте?
 
+## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
+
+# Browser tab title.
+inline-passwordless-sync-setup-page-title = Пропустить пароль в следующий раз?
+
 ## InlineRecoveryKeySetup page component
 
 inline-recovery-key-setup-create-error = Ой! Мы не смогли создать ключ восстановления вашего аккаунта. Подождите некоторое время и попробуйте снова.
