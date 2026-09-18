@@ -1641,6 +1641,10 @@ inline-passwordless-sync-setup-page-title = De folgjende kear it wachtwurd oersl
 inline-passwordless-sync-setup-success-banner = Oanmeld by { -brand-firefox }
 inline-passwordless-sync-setup-heading = De folgjende kear it wachtwurd oerslaan?
 inline-passwordless-sync-setup-description = Brûk dizze wachtwurdkaai om jo flugger oan te melden.
+inline-passwordless-sync-setup-enable-button = Wachtwurdkaai ynskeakelje
+# Button label while the passkey is stored.
+inline-passwordless-sync-setup-enabling = Ynskeakelje…
+inline-passwordless-sync-setup-not-now-button = No net
 
 ## InlineRecoveryKeySetup page component
 
@@ -1924,6 +1928,8 @@ pair2-authority-sync-success-sync-settings-button = Syngronisaasje-ynstellingen
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = Wolle jo dochs in apparaat ferbine?
 pair2-authority-timeout-and-cancel-timeout-description = It liket derop dat de tiid ferrûn is. Probearje it nochris as jo jo mobyl apparaat noch ferbine wolle en jo { -brand-firefox }-gegevens syngronisearje wolle.
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-cancelled-heading = Annulearre
 pair2-authority-timeout-and-cancel-canceled-description = As jo fan gedachten feroarje of in oar apparaat ferbine wolle, probearje it dan opnij.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Opnij probearje
@@ -1968,6 +1974,8 @@ pair2-supplicant-download-firefox-description = Download { -brand-firefox } om b
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Trochgean yn { -brand-firefox }
+# Replaces the button label while waiting for the Firefox app to take over
+pair2-supplicant-download-firefox-opening-button = { -brand-firefox } iepenje…
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2002,6 +2010,8 @@ pair2-supplicant-sync-success-sync-settings-button = Syngronisaasje-ynstellingen
 pair2-supplicant-timeout-and-cancel-timeout-heading = It liket derop dat der in time-out bard is
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-timeout-description = Besykje <b>firefox.com/pair</b> op jo kompjûter om jo mobile apparaat te ferbinen en jo { -brand-firefox }-gegevens te syngronisearjen.
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-cancelled-heading = Annulearre
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = Besykje <b>firefox.com/pair</b> op jo kompjûter om op elk winske momint in apparaat te ferbinen.
 
