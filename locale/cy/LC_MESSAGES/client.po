@@ -1015,7 +1015,7 @@ msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
 msgstr ""
-"Drwy barhau, rydych yn cytuno i <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">>Delerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
+"Drwy barhau, rydych yn cytuno i <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Delerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a>."
 
 #: .es5/templates/inline_recovery_setup.mustache:1
