@@ -1632,8 +1632,11 @@ index-email-bounced = Το email επιβεβαίωσής σας μόλις επ
 
 ## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
 
+# Browser tab title.
+inline-passwordless-sync-setup-page-title = Παράλειψη του κωδικού πρόσβασης την επόμενη φορά;
 # Success banner after signing in.
 inline-passwordless-sync-setup-success-banner = Συνδεθήκατε στο { -brand-firefox }
+inline-passwordless-sync-setup-heading = Παράλειψη του κωδικού πρόσβασης την επόμενη φορά;
 inline-passwordless-sync-setup-description = Χρησιμοποιήστε αυτό το κλειδί πρόσβασης για ταχύτερη σύνδεση.
 inline-passwordless-sync-setup-enable-button = Ενεργοποίηση κλειδιού πρόσβασης
 # Button label while the passkey is stored.
