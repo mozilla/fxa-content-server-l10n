@@ -1893,10 +1893,25 @@ pair2-authority-sync-success-sync-settings-button = 동기화 설정
 
 # Shown when the pairing attempt expired before it was approved
 pair2-authority-timeout-and-cancel-timeout-heading = 그래도 연결하시겠습니까?
+pair2-authority-timeout-and-cancel-timeout-description = 시간이 초과된 것 같습니다. 여전히 모바일 기기를 연결하고 { -brand-firefox } 데이터를 동기화하고 싶으시면 다시 시도하세요.
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-cancelled-heading = 취소됨
+pair2-authority-timeout-and-cancel-canceled-description = 마음을 바꾸었거나 다른 기기도 연결하고 싶다면 다시 시도하세요.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = 다시 시도
 # Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
 pair2-authority-timeout-and-cancel-sync-settings-button = 동기화 설정
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It waits for them to approve the sign-in on the
+## computer, and shows that computer's details so they can verify the request.
+
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-supplicant-approve-sign-in-heading = 동기화를 위한 마지막 단계
+pair2-supplicant-approve-sign-in-instruction = 컴퓨터에서 로그인을 승인하세요.
+# Dismisses the pairing attempt
+pair2-supplicant-approve-sign-in-cancel-button = 취소
 
 ## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -1907,6 +1922,8 @@ pair2-authority-timeout-and-cancel-sync-settings-button = 동기화 설정
 # "this device" is the mobile device the user is holding, not the computer
 # whose details are shown below the heading
 pair2-supplicant-connect-this-device-heading = 이 기기를 계정에 연결하시겠습니까?
+# Confirms the pairing attempt
+pair2-supplicant-connect-this-device-connect-button = 연결
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = 취소
 
@@ -1917,6 +1934,14 @@ pair2-supplicant-connect-this-device-cancel-button = 취소
 ## the browser.
 
 pair2-supplicant-download-firefox-heading = 이 기기에 { -brand-firefox } 다운로드
+# "sync" is a verb here, referring to syncing data between the user's devices.
+# <linkExternal> is an anchor tag linking to a page explaining what sync does.
+pair2-supplicant-download-firefox-description = { -brand-firefox }를 다운로드하여 북마크, 기록 등을 여러 기기에 동기화하세요. <linkExternal>더 알아보기</linkExternal>
+# Primary action. Opens the Firefox app to finish pairing, or sends the user to
+# the Firefox download page when there is no pairing link to hand over.
+pair2-supplicant-download-firefox-continue-button = { -brand-firefox }에서 계속
+# Replaces the button label while waiting for the Firefox app to take over
+pair2-supplicant-download-firefox-opening-button = { -brand-firefox } 실행 중…
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -1935,10 +1960,26 @@ pair2-supplicant-ready-to-scan-learn-more-link = 더 알아보기
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = 기기가 연결되었습니다
+pair2-supplicant-sync-success-description = 북마크, 탭 등이 { -brand-firefox }에서 동기화된 상태로 유지됩니다.
 # Opens the view listing tabs open on the user's other synced devices
 pair2-supplicant-sync-success-view-tabs-button = 동기화된 탭 보기
 # Opens the browser's sync settings, where the user chooses what to sync
 pair2-supplicant-sync-success-sync-settings-button = 동기화 설정
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = 시간이 초과된 것 같습니다
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-timeout-description = 모바일 기기를 연결하고 { -brand-firefox } 데이터를 동기화하려면, 컴퓨터에서 <b>firefox.com/pair</b>에 접속하세요.
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-cancelled-heading = 취소됨
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-canceled-description = 언제든 기기에 연결하려면, 컴퓨터에서 <b>firefox.com/pair</b>에 접속하세요.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2038,6 +2079,7 @@ confirm-totp-reset-password-use-different-account = 다른 계정 사용
 ## ResetPassword start page
 
 password-reset-flow-heading = 비밀번호 재설정
+password-reset-body-3 = 비밀번호를 재설정하면 동기화된 브라우저 데이터에 영향을 줄 수 있습니다.
 password-reset-email-input =
     .label = 이메일 입력
 password-reset-submit-button-2 = 계속
