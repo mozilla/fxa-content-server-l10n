@@ -1630,6 +1630,13 @@ index-account-delete-success = Επιτυχής διαγραφή λογαρια�
 # Displayed when users try to sign up for an account and their confirmation code email bounces
 index-email-bounced = Το email επιβεβαίωσής σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;
 
+## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
+
+inline-passwordless-sync-setup-enable-button = Ενεργοποίηση κλειδιού πρόσβασης
+# Button label while the passkey is stored.
+inline-passwordless-sync-setup-enabling = Ενεργοποίηση…
+inline-passwordless-sync-setup-not-now-button = Όχι τώρα
+
 ## InlineRecoveryKeySetup page component
 
 inline-recovery-key-setup-create-error = Ωχ! Δεν ήταν δυνατή η δημιουργία του κλειδιού ανάκτησης του λογαριασμού σας. Δοκιμάστε ξανά αργότερα.
