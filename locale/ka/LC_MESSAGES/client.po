@@ -296,7 +296,7 @@ msgstr "თქვენი ანგარიშთან წვდომა შ
 
 #: .es5/lib/auth-errors.js:117 .es5/lib/auth-errors.js:506
 msgid "Invalid authorization code"
-msgstr "დაშვების არასწორი კოდი"
+msgstr "დამოწმების არასწორი კოდი"
 
 #: .es5/lib/auth-errors.js:121
 msgid "Invalid phone number"
@@ -581,7 +581,7 @@ msgstr "ეს აუცილებელი ველია"
 
 #: .es5/lib/auth-errors.js:502
 msgid "Authorization code required"
-msgstr "დაშვების კოდი აუცილებელია"
+msgstr "დამოწმების კოდი აუცილებელია"
 
 #: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
