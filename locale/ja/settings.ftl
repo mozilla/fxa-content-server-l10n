@@ -957,6 +957,10 @@ tfa-row-backup-phone-add-cta = 追加
 tfa-row-backup-phone-delete-title-v2 = 回復用電話番号を削除します
 # "this" refers to recovery phone
 tfa-row-backup-phone-description-v2 = 認証アプリを使用できない場合でも簡単にアカウントを回復できる方法です。
+passkey-sub-row-delete-title = パスキーを削除
+passkey-delete-modal-heading = パスキーを削除しますか？
+passkey-delete-modal-confirm-button = パスキーを削除
+passkey-delete-success = パスキーが削除されました
 
 ## Switch component
 
