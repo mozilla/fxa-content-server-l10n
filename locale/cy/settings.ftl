@@ -1925,6 +1925,18 @@ pair2-authority-scan-qr-instruction = Sganiwch y cod QR gyda'ch ffôn neu dabled
 pair2-authority-scan-qr-code-aria-label = Cod QR i gysylltu eich dyfais symudol
 # Link to a support article for users having trouble scanning the QR code
 pair2-authority-scan-qr-help-link = Cael help i sganio
+# Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
+pair2-authority-scan-qr-skip-button = Hepgor am nawr
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and links to sync settings.
+
+pair2-authority-sync-success-heading-v2 = Mae eich dyfais wedi'i gysylltu
+# "Syncing" here means copying data between the user's devices
+pair2-authority-sync-success-description-v2 = Mae cysoni ar y gweill. Gall gymryd peth amser i'ch data synced ymddangos. Mae croeso i chi barhau i bori.
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button-v2 = Rheoli gosodiadau cydweddu
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
@@ -2000,6 +2012,10 @@ pair2-supplicant-ready-to-scan-learn-more-link = Dysgu rhagor
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Mae eich dyfais wedi'i gysylltu
+# "Syncing" here means copying data between the user's devices
+pair2-supplicant-sync-success-description-v2 = Mae cysoni ar y gweill. Gall gymryd peth amser i'ch data synced ymddangos. Mae croeso i chi barhau i bori.
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button-v2 = Rheoli gosodiadau cydweddu
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,

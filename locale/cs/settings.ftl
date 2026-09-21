@@ -1906,6 +1906,18 @@ pair2-authority-scan-qr-instruction = Naskenujte QR kód svým telefonem nebo ta
 pair2-authority-scan-qr-code-aria-label = QR kód pro připojení vašeho mobilního zařízení
 # Link to a support article for users having trouble scanning the QR code
 pair2-authority-scan-qr-help-link = Získat pomoc se skenováním
+# Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
+pair2-authority-scan-qr-skip-button = Nyní přeskočit
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and links to sync settings.
+
+pair2-authority-sync-success-heading-v2 = Vaše zařízení je připojeno
+# "Syncing" here means copying data between the user's devices
+pair2-authority-sync-success-description-v2 = Probíhá synchronizace. Zobrazení synchronizovaných dat může chvíli trvat. Neváhejte a pokračujte v prohlížení.
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button-v2 = Spravovat nastavení synchronizace
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
@@ -1981,6 +1993,10 @@ pair2-supplicant-ready-to-scan-learn-more-link = Zjistit více
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Vaše zařízení je připojeno
+# "Syncing" here means copying data between the user's devices
+pair2-supplicant-sync-success-description-v2 = Probíhá synchronizace. Zobrazení synchronizovaných dat může chvíli trvat. Neváhejte a pokračujte v prohlížení.
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button-v2 = Spravovat nastavení synchronizace
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
