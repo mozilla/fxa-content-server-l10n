@@ -114,6 +114,12 @@ device-info-browser-os = { $genericOSName } の { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP アドレス: { $ipAddress }
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-mobile-cta = 端末を接続
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -425,6 +431,9 @@ cs-cannot-disconnect = クライアントが見つからないため、切断で
 cs-logged-out-2 = { $service } からログアウトしました
 cs-refresh-button =
     .title = 接続済みサービスをリフレッシュ
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = 端末を接続
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = 項目が不足または重複していますか？
 cs-disconnect-sync-heading = Sync から切断
@@ -986,6 +995,8 @@ passkey-row-header = パスキー
 passkey-row-not-set = 未設定
 passkey-row-action-create = 作成
 passkey-row-description = スマートフォンなどの対応デバイスを使ってアカウントにログインすれば、より簡単で安全にログインできます。
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = 詳細情報
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1122,6 +1133,16 @@ auth-error-1062 = リダイレクトが無効です
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = 末尾が { $lastFourPhoneNumber } の電話番号
 oauth-error-1000 = エラーが発生しました。このタブを閉じて、もう一度試してください。
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = 詳細情報
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = 詳細情報
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = 詳細情報
 
 ## Connect Another Device page
 
@@ -1308,6 +1329,16 @@ pair-wait-for-auth-heading-text = <span>他の端末から</span> の承認が�
 
 pair-unsupported-header = アプリを使用してペアリング
 pair-unsupported-message = システムカメラを使用しましたか？ { -brand-firefox } アプリ内からペアリングする必要があります。
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = 詳細情報
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = 詳細情報
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
