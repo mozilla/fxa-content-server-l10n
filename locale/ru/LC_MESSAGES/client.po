@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-21 20:16+0000\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Pontoon\n"
@@ -12,10 +14,6 @@ msgstr ""
 #: .es5/views/index.js:156
 msgid "Account deleted successfully"
 msgstr "Аккаунт успешно удалён"
-
-#: .es5/views/inline_totp_setup.js:127
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Используйте код %(code)s для настройки двухэтапной аутентификации в поддерживаемых приложениях."
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -130,33 +128,9 @@ msgstr "Скрыть пароль"
 msgid "Show password"
 msgstr "Показать пароль"
 
-#: .es5/views/mixins/recovery-codes-mixin.js:68
-msgid "Firefox Backup Authentication Codes"
-msgstr "Резервные коды аутентификации Firefox"
-
-#: .es5/views/mixins/recovery-codes-mixin.js:124
-msgid "Two-step authentication enabled"
-msgstr "Двухэтапная аутентификация включена"
-
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Письмо отправлено повторно. Добавьте accounts@firefox.com в свои контакты, чтобы обеспечить его корректную доставку."
-
-#: .es5/views/mixins/save-options-mixin.js:52
-msgid "Copied"
-msgstr "Скопировано"
-
-#: .es5/views/mixins/save-options-mixin.js:54
-msgid "Failed to copy. Please manually copy."
-msgstr "Не удалось скопировать. Пожалуйста, скопируйте вручную."
-
-#: .es5/views/mixins/save-options-mixin.js:69
-msgid "Downloaded"
-msgstr "Скачано"
-
-#: .es5/views/mixins/save-options-mixin.js:80
-msgid "Printed"
-msgstr "Распечатано"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -583,7 +557,7 @@ msgstr "Это обязательное поле"
 msgid "Authorization code required"
 msgstr "Требуется ввести код авторизации"
 
-#: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:510
 msgid "Link damaged"
 msgstr "Ссылка повреждена"
 
@@ -764,7 +738,9 @@ msgid "Invalid Token"
 msgstr "Некорректный токен"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Продолжая, вы принимаете <a id=\"service-tos\" href=\"%(termsUri)s\">Условия использования</a> и <a id=\"service-pp\" href=\"%(privacyUri)s\">Уведомление о конфиденциальности</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -845,7 +821,7 @@ msgstr "Щёлкните здесь, чтобы получить новую сс
 msgid "Confirmation link damaged"
 msgstr "Ссылка для подтверждения повреждена"
 
-#: .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+#: .es5/templates/complete_sign_up.mustache:12
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз."
 
@@ -869,12 +845,11 @@ msgstr "Поищите письмо со ссылкой подтверждени
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Поищите письмо со ссылкой подтверждения входа, отправленное на %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Нет в папке «Входящие» или «Спам»? Отправить снова"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6
-#: .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr "Назад"
 
@@ -886,21 +861,19 @@ msgstr "Введите код подтверждения <span class=\"card-subh
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Введите код, отправленный на %(escapedEmail)s, в течение 5 минут."
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Введите код из 6 цифр"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Подтвердить"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Code expired?"
 msgstr "Срок кода истёк?"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
 msgstr "Отправить новый код по электронной почте."
 
@@ -961,9 +934,8 @@ msgstr "Введите ваш адрес электронной почты"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Перейти в <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2
-#: .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Продолжить с %(serviceName)s"
 
@@ -987,123 +959,45 @@ msgstr "Аккаунт Mozilla также открывает доступ к д�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Продолжая, вы соглашаетесь с:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Условия службы</a> и <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Уведомление о конфиденциальности</a><br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> Аккаунтов Mozilla и <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Условия службы</a> и <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Уведомление о конфиденциальности</a><br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> Аккаунтов Mozilla и <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Продолжая, вы соглашаетесь с:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Условия предоставления услуг подписки Mozilla</a> и <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Уведомление о конфиденциальности</a>< br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> Аккаунтов Mozilla и <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Условия предоставления услуг подписки Mozilla</a> и <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Уведомление о конфиденциальности</a>< br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> Аккаунтов Mozilla и <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>\n"
 "          "
 
 #: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
 msgstr ""
 "Продолжая, вы принимаете <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> и <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>."
-
-#: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save backup authentication codes"
-msgstr "Сохраните резервные коды аутентификации"
-
-#: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "Храните эти одноразовые коды в безопасном месте, на случай, если у вас не будет доступа к мобильному устройству."
-
-#: .es5/templates/inline_recovery_setup.mustache:5
-msgid "Download"
-msgstr "Скачать"
-
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
-msgid "Copy"
-msgstr "Копировать"
-
-#: .es5/templates/inline_recovery_setup.mustache:7
-msgid "Print"
-msgstr "Печать"
-
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
-msgid "Continue"
-msgstr "Продолжить"
-
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-msgid "Cancel setup"
-msgstr "Отменить настройку"
-
-#: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm backup authentication code"
-msgstr "Подтвердите резервный код аутентификации"
-
-#: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "Чтобы убедиться, что вы сможете восстановить доступ к своему аккаунту в случае утери устройства, введите один из сохранённых резервных кодов аутентификации."
-
-#: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Backup authentication code"
-msgstr "Резервный код аутентификации"
-
-#: .es5/templates/inline_totp_setup.mustache:1
-msgid "Enable two-step authentication"
-msgstr "Включить двухэтапную аутентификацию"
-
-#: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Добавьте в свой аккаунт ещё один уровень защиты, включив использование защитных кодов от одного из <a %(escapedTotpSupportAttributes)s>этих приложений для авторизации</a>."
-
-#: .es5/templates/inline_totp_setup.mustache:7
-msgid "Scan authentication code"
-msgstr "Сканировать код аутентификации"
-
-#: .es5/templates/inline_totp_setup.mustache:10
-msgid "Enter code manually"
-msgstr "Введите код вручную"
-
-#: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Отсканируйте QR-код в своём приложении для аутентификации и введите предоставленный им защитный код."
-
-#: .es5/templates/inline_totp_setup.mustache:13
-msgid "Can’t scan code?"
-msgstr "Не можете отсканировать код?"
-
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "По завершении оно начнёт генерировать коды безопасности, которые вы сможете ввести."
-
-#: .es5/templates/inline_totp_setup.mustache:16
-msgid "Type this secret key into your authentication app."
-msgstr "Наберите этот секретный ключ в своём приложении для аутентификации."
-
-#: .es5/templates/inline_totp_setup.mustache:17
-msgid "Scan QR code instead?"
-msgstr "Вместо этого сканировать QR-код?"
-
-#: .es5/templates/inline_totp_setup.mustache:19
-msgid "Security code"
-msgstr "Защитный код"
-
-#: .es5/templates/inline_totp_setup.mustache:20
-msgid "Ready"
-msgstr "Готово"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1147,6 +1041,10 @@ msgstr "Сделано"
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Теперь вы готовы использовать <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+msgid "Continue"
+msgstr "Продолжить"
+
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
 msgstr "Продолжить в мою учётную запись"
@@ -1158,70 +1056,6 @@ msgstr "Ваш аккаунт готов!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "Сгенерировать новый ключ восстановления аккаунта"
-
-#: .es5/templates/report_sign_in.mustache:4
-msgid "Report unauthorized sign-in?"
-msgstr "Сообщить о несанкционированном входе?"
-
-#: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Вы получили письмо о попытке доступа к вашему аккаунту. Хотите ли вы сообщить об этой подозрительной активности?"
-
-#: .es5/templates/report_sign_in.mustache:6
-msgid "Report activity"
-msgstr "Сообщить о подозрительной активности"
-
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
-msgid "Why is this happening?"
-msgstr "Почему это происходит?"
-
-#: .es5/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Извините. Мы заблокировали ваш аккаунт."
-
-#: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Подтверждение по электронной почте, которое мы отправили на %(email)s, было возвращено, поэтому мы заблокировали аккаунт для защиты ваших данных Firefox."
-
-#: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Если это действительный адрес электронной почты, <a %(escapedSupportLinkAttrs)s>сообщите нам об этом</a>, и мы поможем разблокировать ваш аккаунт."
-
-#: .es5/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr "Больше не владеете этой электронной почтой? Создайте новый аккаунт"
-
-#: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter backup authentication code"
-msgstr "Введите резервный код аутентификации"
-
-#: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "Пожалуйста, введите резервный код аутентификации, который был предоставлен вам во время настройки двухэтапной аутентификации."
-
-#: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit backup authentication code"
-msgstr "Введите 10-значный резервный код аутентификации"
-
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Are you locked out?"
-msgstr "Аккаунт заблокирован?"
-
-#: .es5/templates/sign_in_reported.mustache:1
-msgid "Thank you for your vigilance"
-msgstr "Спасибо за вашу бдительность"
-
-#: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Наша команда оповещена. Ваши сообщения помогают нам бороться со злоумышленниками."
-
-#: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr "Введите код подтверждения <span class=\"card-subheader\">своего аккаунта Mozilla</span>"
-
-#: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr "Введите код, отправленный на %(email)s, в течение 5 минут."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1238,18 +1072,6 @@ msgstr "Использовать другой аккаунт"
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "Проблемы с вводом кода?"
-
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-msgid "Authorize this sign-in"
-msgstr "Разрешить этот вход"
-
-#: .es5/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Поищите письмо с кодом авторизации, отправленное на %(email)s."
-
-#: .es5/templates/sign_in_unblock.mustache:4
-msgid "Enter authorization code"
-msgstr "Введите код авторизации"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
@@ -1289,28 +1111,36 @@ msgstr "Создать аккаунт"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Продолжая, вы соглашаетесь с:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Условия службы</a> и <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Уведомление о конфиденциальности</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> Аккаунтов Mozilla и <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Условия службы</a> и <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Уведомление о конфиденциальности</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> Аккаунтов Mozilla и <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>\n"
 "          "
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Продолжая, вы соглашаетесь с:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Условия предоставления услуг подписки Mozilla</a> и <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Уведомление о конфиденциальности</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> Аккаунтов Mozilla и <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Условия предоставления услуг подписки Mozilla</a> и <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Уведомление о конфиденциальности</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Условия использования</a> Аккаунтов Mozilla и <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Уведомление о конфиденциальности</a>\n"
 "            "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
@@ -1325,7 +1155,7 @@ msgstr "Синхронизировать это устройство"
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
 msgstr "Пожалуйста, создайте пароль, чтобы продолжить Синхронизацию Firefox. Ваши данные зашифрованы паролем для защиты вашей конфиденциальности."
 
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9
 msgid "Create password"
 msgstr "Создать пароль"
 
@@ -1414,26 +1244,6 @@ msgstr "Получайте практические знания в свой п�
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
 msgstr "Подписать %(email)s"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "В ссылке, по которой вы щёлкнули, отсутствовали символы, и она могла быть повреждена вашим почтовым клиентом."
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Mozilla account"
-msgstr "Создать аккаунт Mozilla"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
-msgid "Continue to %(productName)s"
-msgstr "Перейти к %(productName)s"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
-msgid "Enter a password"
-msgstr "Введите пароль"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
-msgid "Confirm password"
-msgstr "Подтвердите пароль"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-21 20:16+0000\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
@@ -12,10 +14,6 @@ msgstr ""
 #: .es5/views/index.js:156
 msgid "Account deleted successfully"
 msgstr "Đã xóa tài khoản thành công"
-
-#: .es5/views/inline_totp_setup.js:127
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Sử dụng mã %(code)s để thiết lập xác thực hai bước trong các ứng dụng được hỗ trợ."
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -130,33 +128,9 @@ msgstr "Ẩn mật khẩu"
 msgid "Show password"
 msgstr "Hiện mật khẩu"
 
-#: .es5/views/mixins/recovery-codes-mixin.js:68
-msgid "Firefox Backup Authentication Codes"
-msgstr "Mã xác thực dự phòng Firefox"
-
-#: .es5/views/mixins/recovery-codes-mixin.js:124
-msgid "Two-step authentication enabled"
-msgstr "Đã bật xác thực hai bước"
-
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Email đã được gửi lại. Vui lòng thêm accounts@firefox.com vào danh bạ của bạn để nhận email suôn sẻ."
-
-#: .es5/views/mixins/save-options-mixin.js:52
-msgid "Copied"
-msgstr "Đã sao chép"
-
-#: .es5/views/mixins/save-options-mixin.js:54
-msgid "Failed to copy. Please manually copy."
-msgstr "Sao chép thất bại. Vui lòng sao chép theo cách thủ công."
-
-#: .es5/views/mixins/save-options-mixin.js:69
-msgid "Downloaded"
-msgstr "Đã tải xuống"
-
-#: .es5/views/mixins/save-options-mixin.js:80
-msgid "Printed"
-msgstr "Đã in"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -420,9 +394,7 @@ msgstr "Không xác định được người dùng để đăng ký."
 
 #: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
-msgstr ""
-""
-"Không xác định được đăng ký."
+msgstr "Không xác định được đăng ký."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
@@ -585,7 +557,7 @@ msgstr "Đây là một trường bắt buộc"
 msgid "Authorization code required"
 msgstr "Yêu cầu mã xác minh"
 
-#: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:510
 msgid "Link damaged"
 msgstr "Liên kết bị hỏng"
 
@@ -766,7 +738,9 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -847,7 +821,7 @@ msgstr "Nhấp vào đây để nhận liên kết xác minh mới"
 msgid "Confirmation link damaged"
 msgstr "Liên kết xác minh bị hỏng"
 
-#: .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+#: .es5/templates/complete_sign_up.mustache:12
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Liên kết bạn nhấp vào bị thiếu ký tự và có thể đã bị ứng dụng email khách của bạn phá vỡ. Sao chép địa chỉ một cách cẩn thận và thử lại."
 
@@ -871,12 +845,11 @@ msgstr "Kiểm tra email của bạn để tìm liên kết xác minh đã đư�
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Kiểm tra liên kết đã được gửi đến email %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Không có trong hộp thư đến hoặc thư mục spam? Gửi lại"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6
-#: .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr "Quay lại"
 
@@ -888,21 +861,19 @@ msgstr "Nhập mã xác minh <span class=\"card-subheader\" id=\"subheader\"> ch
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Nhập mã vừa được gửi đến %(escapedEmail)s trong vòng 5 phút."
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Nhập mã gồm 6 chữ số"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Xác nhận"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Code expired?"
 msgstr "Mã đã hết hạn?"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
 msgstr "Gửi mã mới qua email."
 
@@ -963,9 +934,8 @@ msgstr "Nhập email của bạn"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Tiếp tục đến <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2
-#: .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Tiếp tục đến %(serviceName)s"
 
@@ -989,123 +959,45 @@ msgstr "Tài khoản Mozilla cũng mở khóa quyền truy cập vào nhiều s�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Bằng cách tiếp tục, bạn đã đồng ý với:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a>của Tài khoản Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a>của Tài khoản Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
 "            "
 
 #: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">chính sách riêng tư</a>."
-
-#: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save backup authentication codes"
-msgstr "Lưu mã xác thực dự phòng"
-
-#: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "Lưu trữ các mã sử dụng một lần này ở nơi an toàn khi bạn không có thiết bị di động."
-
-#: .es5/templates/inline_recovery_setup.mustache:5
-msgid "Download"
-msgstr "Tải về"
-
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
-msgid "Copy"
-msgstr "Sao chép"
-
-#: .es5/templates/inline_recovery_setup.mustache:7
-msgid "Print"
-msgstr "In"
-
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
-msgid "Continue"
-msgstr "Tiếp tục"
-
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-msgid "Cancel setup"
-msgstr "Hủy thiết lập"
-
-#: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm backup authentication code"
-msgstr "Xác nhận mã xác thực dự phòng"
-
-#: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "Để đảm bảo rằng bạn có thể lấy lại quyền truy cập vào tài khoản của mình, trong trường hợp đã mất thiết bị, vui lòng nhập một trong các mã xác thực dự phòng đã lưu của bạn."
-
-#: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Backup authentication code"
-msgstr "Mã xác thực dự phòng"
-
-#: .es5/templates/inline_totp_setup.mustache:1
-msgid "Enable two-step authentication"
-msgstr "Bật xác thực hai bước"
-
-#: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Thêm lớp bảo mật vào tài khoản của bạn bằng cách yêu cầu mã bảo vệ từ một trong <a %(escapedTotpSupportAttributes)s>các ứng dụng xác thực này</a>."
-
-#: .es5/templates/inline_totp_setup.mustache:7
-msgid "Scan authentication code"
-msgstr "Quét mã xác thực"
-
-#: .es5/templates/inline_totp_setup.mustache:10
-msgid "Enter code manually"
-msgstr "Nhập mã thủ công"
-
-#: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Quét mã QR trong ứng dụng xác thực của bạn và sau đó nhập mã bảo mật mà nó cung cấp."
-
-#: .es5/templates/inline_totp_setup.mustache:13
-msgid "Can’t scan code?"
-msgstr "Không thể quét mã?"
-
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "Sau khi hoàn thành, nó sẽ bắt đầu tạo mã bảo mật để bạn nhập."
-
-#: .es5/templates/inline_totp_setup.mustache:16
-msgid "Type this secret key into your authentication app."
-msgstr "Nhập khóa bí mật này vào ứng dụng xác thực của bạn."
-
-#: .es5/templates/inline_totp_setup.mustache:17
-msgid "Scan QR code instead?"
-msgstr "Thay vào đó, sử dụng quét mã QR?"
-
-#: .es5/templates/inline_totp_setup.mustache:19
-msgid "Security code"
-msgstr "Mã bảo mật"
-
-#: .es5/templates/inline_totp_setup.mustache:20
-msgid "Ready"
-msgstr "Sẵn sàng"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1149,6 +1041,10 @@ msgstr "Thành công"
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Bây giờ bạn đã sẵn sàng để sử dụng <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+msgid "Continue"
+msgstr "Tiếp tục"
+
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
 msgstr "Tiếp tục đến tài khoản của tôi"
@@ -1160,70 +1056,6 @@ msgstr "Tài khoản của bạn đã sẵn sàng!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "Tạo một khóa khôi phục tài khoản mới"
-
-#: .es5/templates/report_sign_in.mustache:4
-msgid "Report unauthorized sign-in?"
-msgstr "Báo cáo đăng nhập không được phép?"
-
-#: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Bạn đã nhận được email về việc cố gắng truy cập vào tài khoản của bạn. Bạn có muốn báo cáo hoạt động này là đáng ngờ không?"
-
-#: .es5/templates/report_sign_in.mustache:6
-msgid "Report activity"
-msgstr "Báo cáo hoạt động"
-
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
-msgid "Why is this happening?"
-msgstr "Tại sao chuyện này xảy ra?"
-
-#: .es5/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Rất tiếc. Chúng tôi đã khóa tài khoản&nbsp;của bạn."
-
-#: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Email xác nhận chúng tôi gửi tới %(email)s đã được trả lại và chúng tôi đã khóa tài khoản của bạn để bảo vệ dữ liệu Firefox của bạn."
-
-#: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Nếu đây là địa chỉ email hợp lệ, <a %(escapedSupportLinkAttrs)s>hãy cho chúng tôi biết</a> và chúng tôi có thể giúp mở khóa tài khoản của bạn."
-
-#: .es5/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr "Không còn sở hữu email đó nữa? Tạo tài khoản mới"
-
-#: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter backup authentication code"
-msgstr "Nhập mã xác thực dự phòng"
-
-#: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "Vui lòng nhập mã xác thực dự phòng đã được cung cấp cho bạn trong quá trình thiết lập xác thực hai bước."
-
-#: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit backup authentication code"
-msgstr "Nhập mã xác thực dự phòng 10 chữ số"
-
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Are you locked out?"
-msgstr "Bạn đang bị khóa?"
-
-#: .es5/templates/sign_in_reported.mustache:1
-msgid "Thank you for your vigilance"
-msgstr "Cảm ơn vì sự cảnh giác của bạn"
-
-#: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Nhóm của chúng tôi đã được thông báo. Các báo cáo như thế này giúp chúng tôi chống lại những kẻ xâm nhập."
-
-#: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr "Nhập mã xác minh <span class=\"card-subheader\">cho tài khoản Mozilla của bạn</span>"
-
-#: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr "Nhập mã vừa được gửi đến %(email)s trong vòng 5 phút."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1240,18 +1072,6 @@ msgstr "Sử dụng một tài khoản khác"
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "Khó khăn khi nhập mã?"
-
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-msgid "Authorize this sign-in"
-msgstr "Cho phép đăng nhập này"
-
-#: .es5/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Kiểm tra email của bạn để xem mã xác minh được gửi tới %(email)s."
-
-#: .es5/templates/sign_in_unblock.mustache:4
-msgid "Enter authorization code"
-msgstr "Nhập mã xác minh"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
@@ -1289,28 +1109,36 @@ msgstr "Tạo tài khoản"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
 "          "
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
 "            "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
@@ -1325,7 +1153,7 @@ msgstr "Đồng bộ hóa thiết bị này"
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
 msgstr "Vui lòng tạo mật khẩu để tiếp tục đồng bộ hóa Firefox. Dữ liệu của bạn được mã hóa bằng mật khẩu để bảo vệ quyền riêng tư của bạn."
 
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9
 msgid "Create password"
 msgstr "Tạo mật khẩu"
 
@@ -1415,26 +1243,6 @@ msgstr "Nhận kiến thức thực tế trong hộp thư đến của bạn v�
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
 msgstr "Theo dõi %(email)s"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "Liên kết bạn nhấp vào đã thiếu ký tự và có thể đã bị ứng dụng email của bạn phá vỡ."
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Mozilla account"
-msgstr "Tạo tài khoản Mozilla"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
-msgid "Continue to %(productName)s"
-msgstr "Tiếp tục đến %(productName)s"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
-msgid "Enter a password"
-msgstr "Nhập mật khẩu"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
-msgid "Confirm password"
-msgstr "Xác nhận mật khẩu"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"

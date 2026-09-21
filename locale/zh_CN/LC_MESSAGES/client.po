@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-21 20:16+0000\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
@@ -12,10 +14,6 @@ msgstr ""
 #: .es5/views/index.js:156
 msgid "Account deleted successfully"
 msgstr "已成功删除账户"
-
-#: .es5/views/inline_totp_setup.js:127
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "使用验证码 %(code)s 在支持的应用程序中设置两步验证。"
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -130,33 +128,9 @@ msgstr "隐藏密码"
 msgid "Show password"
 msgstr "显示密码"
 
-#: .es5/views/mixins/recovery-codes-mixin.js:68
-msgid "Firefox Backup Authentication Codes"
-msgstr "Firefox 备用验证码"
-
-#: .es5/views/mixins/recovery-codes-mixin.js:124
-msgid "Two-step authentication enabled"
-msgstr "已启用两步验证"
-
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "电子邮件已重发。建议将 accounts@firefox.com 添加到您的通讯录以确保顺畅接收。"
-
-#: .es5/views/mixins/save-options-mixin.js:52
-msgid "Copied"
-msgstr "已复制"
-
-#: .es5/views/mixins/save-options-mixin.js:54
-msgid "Failed to copy. Please manually copy."
-msgstr "无法复制。请手动进行复制。"
-
-#: .es5/views/mixins/save-options-mixin.js:69
-msgid "Downloaded"
-msgstr "已下载"
-
-#: .es5/views/mixins/save-options-mixin.js:80
-msgid "Printed"
-msgstr "已打印"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -583,7 +557,7 @@ msgstr "这是必填项"
 msgid "Authorization code required"
 msgstr "需要授权码"
 
-#: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:510
 msgid "Link damaged"
 msgstr "链接不完整"
 
@@ -764,7 +738,9 @@ msgid "Invalid Token"
 msgstr "无效令牌"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "继续提交即代表您同意 %(serviceName)s (%(serviceUri)s) 的 <a id=\"service-tos\" href=\"%(termsUri)s\">服务条款</a>和<a id=\"service-pp\" href=\"%(privacyUri)s\">隐私声明</a>。"
 
 #: .es5/lib/strings.js:33
@@ -843,7 +819,7 @@ msgstr "点击这里获取新的验证链接"
 msgid "Confirmation link damaged"
 msgstr "验证链接无效"
 
-#: .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+#: .es5/templates/complete_sign_up.mustache:12
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "您点击的链接缺少字符，可能是您的邮件客户端损坏了该链接。请确保复制了完整的网址，然后再试一次。"
 
@@ -867,12 +843,11 @@ msgstr "验证链接已发动到 %(escapedEmail)s，请注意查收 "
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "检查您的电子邮箱，登录确认链接已发送到 %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
 msgid "Not in inbox or spam folder? Resend"
 msgstr "不在收件箱和垃圾邮件箱？重新发送"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6
-#: .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr "返回"
 
@@ -884,21 +859,19 @@ msgstr "<span class=\"card-subheader\" id=\"subheader\">Mozilla 账户</span>请
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "请在 5 分钟内输入发送到 %(escapedEmail)s 的验证码。"
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "请输入 6 位验证码"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "确认"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Code expired?"
 msgstr "验证码已过期？"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
 msgstr "重新发送验证码。"
 
@@ -959,9 +932,8 @@ msgstr "请输入邮箱地址"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "继续前往 <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2
-#: .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "以进入 %(serviceName)s"
 
@@ -985,8 +957,10 @@ msgstr "Mozilla 账户还可用于访问 Mozilla 的更多隐私保护产品。"
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 
@@ -994,102 +968,18 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
 #: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
 msgstr ""
-
-#: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save backup authentication codes"
-msgstr "保存备用验证码"
-
-#: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "请妥善保管下列一次性恢复码，以便在移动设备不可用时使用。"
-
-#: .es5/templates/inline_recovery_setup.mustache:5
-msgid "Download"
-msgstr "下载"
-
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
-msgid "Copy"
-msgstr "复制"
-
-#: .es5/templates/inline_recovery_setup.mustache:7
-msgid "Print"
-msgstr "打印"
-
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
-msgid "Continue"
-msgstr "继续"
-
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-msgid "Cancel setup"
-msgstr "取消设置"
-
-#: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm backup authentication code"
-msgstr "确认备用验证码"
-
-#: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "为确保您在设备丢失的情况下仍能登录您的账户，请输入此前保存的备用验证码中的任意一个。"
-
-#: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Backup authentication code"
-msgstr "备用验证码"
-
-#: .es5/templates/inline_totp_setup.mustache:1
-msgid "Enable two-step authentication"
-msgstr "启用两步验证"
-
-#: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "通过须额外输入一组由<a %(escapedTotpSupportAttributes)s>身份验证应用</a>所生成的安全码，让您的账户安全级别更上一层楼。"
-
-#: .es5/templates/inline_totp_setup.mustache:7
-msgid "Scan authentication code"
-msgstr "扫描验证码"
-
-#: .es5/templates/inline_totp_setup.mustache:10
-msgid "Enter code manually"
-msgstr "手动输入安全码"
-
-#: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "请使用您的身份验证应用扫描二维码，并输入其提供的安全码。"
-
-#: .es5/templates/inline_totp_setup.mustache:13
-msgid "Can’t scan code?"
-msgstr "无法扫描二维码？"
-
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "输入完成后，将自动生成供您输入的安全码。"
-
-#: .es5/templates/inline_totp_setup.mustache:16
-msgid "Type this secret key into your authentication app."
-msgstr "在您的身份验证应用中输入此密钥。"
-
-#: .es5/templates/inline_totp_setup.mustache:17
-msgid "Scan QR code instead?"
-msgstr "改为扫描二维码？"
-
-#: .es5/templates/inline_totp_setup.mustache:19
-msgid "Security code"
-msgstr "安全码"
-
-#: .es5/templates/inline_totp_setup.mustache:20
-msgid "Ready"
-msgstr "准备就绪"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1133,6 +1023,10 @@ msgstr "成功"
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "已可使用 <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+msgid "Continue"
+msgstr "继续"
+
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
 msgstr "继续前往我的账户"
@@ -1144,70 +1038,6 @@ msgstr "您的账户准备好了！"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "生成新的账户恢复密钥"
-
-#: .es5/templates/report_sign_in.mustache:4
-msgid "Report unauthorized sign-in?"
-msgstr "报告未授权的登录？"
-
-#: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "您收到一封邮件，提醒您有人尝试访问您的账户。要将此次登录举报为可疑活动吗？"
-
-#: .es5/templates/report_sign_in.mustache:6
-msgid "Report activity"
-msgstr "举报事件"
-
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
-msgid "Why is this happening?"
-msgstr "为何需要这样操作？"
-
-#: .es5/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "很抱歉，我们已锁定您的账户。"
-
-#: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "我们发往 %(email)s 的确认邮件已被退回，我们已锁定您的账户以保护您的 Firefox 数据。"
-
-#: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "如果这是一个有效的邮箱地址，<a %(escapedSupportLinkAttrs)s>告诉我们</a>，我们可以帮助您解锁账户。"
-
-#: .es5/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr "不再拥有该邮箱？创建一个新账户吧"
-
-#: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter backup authentication code"
-msgstr "请输入备用验证码"
-
-#: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "请输入设置两步验证时提供给您的备用验证码。"
-
-#: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit backup authentication code"
-msgstr "请输入 10 位备用验证码"
-
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Are you locked out?"
-msgstr "无法通过验证？"
-
-#: .es5/templates/sign_in_reported.mustache:1
-msgid "Thank you for your vigilance"
-msgstr "感谢您的反馈"
-
-#: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "我们已收到您的反馈，感谢您帮助我们防范入侵者。"
-
-#: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr "<span class=\"card-subheader\">Mozilla 账户</span>请输入确认码"
-
-#: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr "请在 5 分钟内输入发送到 %(email)s 的验证码。"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1224,18 +1054,6 @@ msgstr "换个账户登录"
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "输入安全码时遇到问题？"
-
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-msgid "Authorize this sign-in"
-msgstr "授权此次登录"
-
-#: .es5/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "检查您的电子邮箱，授权码已发送到 %(email)s。"
-
-#: .es5/templates/sign_in_unblock.mustache:4
-msgid "Enter authorization code"
-msgstr "请输入授权码"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
@@ -1273,8 +1091,10 @@ msgstr "创建账户"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
@@ -1282,8 +1102,10 @@ msgstr ""
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 
@@ -1299,7 +1121,7 @@ msgstr "同步此设备"
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
 msgstr "请创建密码以继续使用 Firefox 同步。数据将使用您的密码进行加密，以保护您的隐私。"
 
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9
 msgid "Create password"
 msgstr "创建密码"
 
@@ -1387,26 +1209,6 @@ msgstr "将发送关于下列项目的实用小知识给您："
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
 msgstr "订阅 %(email)s"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "您点击的链接缺少字符，有可能是邮件客户端破坏了该链接。"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Mozilla account"
-msgstr "创建 Mozilla 账户"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
-msgid "Continue to %(productName)s"
-msgstr "继续前往 %(productName)s"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
-msgid "Enter a password"
-msgstr "请输入密码"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
-msgid "Confirm password"
-msgstr "确认密码"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
