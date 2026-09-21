@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-21 20:16+0000\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
@@ -12,10 +14,6 @@ msgstr ""
 #: .es5/views/index.js:156
 msgid "Account deleted successfully"
 msgstr "Επιτυχής διαγραφή λογαριασμού"
-
-#: .es5/views/inline_totp_setup.js:127
-msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Χρησιμοποιήστε τον κωδικό %(code)s για να ρυθμίσετε την ταυτοποίηση δύο παραγόντων στις υποστηριζόμενες εφαρμογές."
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -130,33 +128,9 @@ msgstr "Απόκρυψη κωδικού πρόσβασης"
 msgid "Show password"
 msgstr "Εμφάνιση κωδικού πρόσβασης"
 
-#: .es5/views/mixins/recovery-codes-mixin.js:68
-msgid "Firefox Backup Authentication Codes"
-msgstr "Εφεδρικοί κωδικοί ταυτοποίησης Firefox"
-
-#: .es5/views/mixins/recovery-codes-mixin.js:124
-msgid "Two-step authentication enabled"
-msgstr "Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε"
-
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
 msgstr "Το email απεστάλη ξανά. Προσθέστε το accounts@firefox.com στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση."
-
-#: .es5/views/mixins/save-options-mixin.js:52
-msgid "Copied"
-msgstr "Έγινε αντιγραφή"
-
-#: .es5/views/mixins/save-options-mixin.js:54
-msgid "Failed to copy. Please manually copy."
-msgstr "Η αντιγραφή απέτυχε. Κάντε χειροκίνητη αντιγραφή."
-
-#: .es5/views/mixins/save-options-mixin.js:69
-msgid "Downloaded"
-msgstr "Έγινε λήψη"
-
-#: .es5/views/mixins/save-options-mixin.js:80
-msgid "Printed"
-msgstr "Έγινε εκτύπωση"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -583,7 +557,7 @@ msgstr "Αυτό είναι ένα υποχρεωτικό πεδίο"
 msgid "Authorization code required"
 msgstr "Απαιτείται κωδικός ταυτοποίησης"
 
-#: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
+#: .es5/lib/auth-errors.js:510
 msgid "Link damaged"
 msgstr "Κατεστραμμένος σύνδεσμος"
 
@@ -764,7 +738,9 @@ msgid "Invalid Token"
 msgstr "Μη έγκυρο διακριτικό"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Συνεχίζοντας, αποδέχεστε τους <a id=\"service-tos\" href=\"%(termsUri)s\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"service-pp\" href=\"%(privacyUri)s\">Δήλωση απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -845,7 +821,7 @@ msgstr "Κάντε κλικ εδώ για να λάβετε έναν νέο σύ
 msgid "Confirmation link damaged"
 msgstr "Ο σύνδεσμος επιβεβαίωσης καταστράφηκε"
 
-#: .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
+#: .es5/templates/complete_sign_up.mustache:12
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
 msgstr "Ο σύνδεσμος στον οποίο κάνατε κλικ δεν είχε κάποιους χαρακτήρες και ενδέχεται να έχει καταστραφεί από το πρόγραμμα email σας. Αντιγράψτε προσεκτικά τη διεύθυνση και δοκιμάστε ξανά."
 
@@ -869,12 +845,11 @@ msgstr "Ελέγξτε το email σας για τον σύνδεσμο επιβ
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
 msgstr "Ελέγξτε το email σας για τον σύνδεσμο επιβεβαίωσης σύνδεσης, που απεστάλη στο %(escapedEmail)s"
 
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13 .es5/templates/sign_in_unblock.mustache:6 .es5/templates/sign_in_unblock.mustache:9
+#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Όχι στα εισερχόμενα ή στον φάκελο ανεπιθύμητων; Αποστολή ξανά"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/sign_in_bounced.mustache:6 .es5/templates/sign_in_recovery_code.mustache:6
-#: .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
 msgid "Back"
 msgstr "Πίσω"
 
@@ -886,21 +861,19 @@ msgstr "Εισαγάγετε τον κωδικό επιβεβαίωσης <span 
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο %(escapedEmail)s, εντός 5 λεπτών."
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Εισαγάγετε τον εξαψήφιο κωδικό"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
-#: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Επιβεβαίωση"
 
-#: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
+#: .es5/templates/confirm_signup_code.mustache:5
 msgid "Code expired?"
 msgstr "Έληξε ο κωδικός;"
 
-#: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
 msgstr "Αποστολή νέου κωδικού."
 
@@ -961,9 +934,8 @@ msgstr "Εισαγάγετε το email σας"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Συνέχεια στο <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2 .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2
-#: .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11 .es5/templates/sign_in_recovery_code.mustache:2 .es5/templates/sign_in_totp_code.mustache:2
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Συνέχεια στην υπηρεσία %(serviceName)s"
 
@@ -987,125 +959,45 @@ msgstr "Ένας λογαριασμός Mozilla ξεκλειδώνει επίσ�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Συνεχίζοντας, αποδέχεστε:<br />\n"
-"          τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Δήλωση απορρήτου</a> του Pocket<br />\n"
-"          τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"          τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Δήλωση απορρήτου</a> του Pocket<br />\n"
+"          τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Συνεχίζοντας, αποδέχεστε:<br />\n"
-"            τους <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Δήλωση απορρήτου</a> των συνδρομητικών υπηρεσιών της Mozilla<br />\n"
-"            τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"            τους <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-"
+"grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Δήλωση απορρήτου</a> των συνδρομητικών υπηρεσιών της Mozilla<br />\n"
+"            τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
 "          "
 
 #: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
 msgstr ""
 "Συνεχίζοντας, αποδέχεστε τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-"
 "pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a>."
-
-#: .es5/templates/inline_recovery_setup.mustache:1
-msgid "Save backup authentication codes"
-msgstr "Αποθήκευση εφεδρικών κωδικών ταυτοποίησης"
-
-#: .es5/templates/inline_recovery_setup.mustache:3
-msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr "Αποθηκεύστε αυτούς τους κωδικούς μίας χρήσης σε ένα ασφαλές μέρος για την περίπτωση που δεν θα έχετε την κινητή συσκευή σας."
-
-#: .es5/templates/inline_recovery_setup.mustache:5
-msgid "Download"
-msgstr "Λήψη"
-
-#: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
-msgid "Copy"
-msgstr "Αντιγραφή"
-
-#: .es5/templates/inline_recovery_setup.mustache:7
-msgid "Print"
-msgstr "Εκτύπωση"
-
-#: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
-msgid "Continue"
-msgstr "Συνέχεια"
-
-#: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
-msgid "Cancel setup"
-msgstr "Ακύρωση ρύθμισης"
-
-#: .es5/templates/inline_recovery_setup.mustache:12
-msgid "Confirm backup authentication code"
-msgstr "Επιβεβαίωση εφεδρικού κωδικού ταυτοποίησης"
-
-#: .es5/templates/inline_recovery_setup.mustache:14
-msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
-"Για να διασφαλίσετε ότι θα μπορέσετε να αποκτήσετε ξανά πρόσβαση στον λογαριασμό σας, σε περίπτωση που χάσετε τη συσκευή σας, εισαγάγετε έναν από τους αποθηκευμένους εφεδρικούς κωδικούς "
-"ταυτοποίησης."
-
-#: .es5/templates/inline_recovery_setup.mustache:15
-msgid "Backup authentication code"
-msgstr "Εφεδρικός κωδικός ταυτοποίησης"
-
-#: .es5/templates/inline_totp_setup.mustache:1
-msgid "Enable two-step authentication"
-msgstr "Ενεργοποίηση ταυτοποίησης δύο παραγόντων"
-
-#: .es5/templates/inline_totp_setup.mustache:3
-msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Προσθέστε ένα επιπλέον επίπεδο ασφαλείας στον λογαριασμό σας με κωδικούς ασφαλείας από μία από <a %(escapedTotpSupportAttributes)s>αυτές τις εφαρμογές ταυτοποίησης</a>."
-
-#: .es5/templates/inline_totp_setup.mustache:7
-msgid "Scan authentication code"
-msgstr "Σαρώστε τον κωδικό ελέγχου ταυτότητας"
-
-#: .es5/templates/inline_totp_setup.mustache:10
-msgid "Enter code manually"
-msgstr "Εισαγάγετε τον κωδικό χειροκίνητα"
-
-#: .es5/templates/inline_totp_setup.mustache:12
-msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Σαρώστε τον κωδικό QR στην εφαρμογή ταυτοποίησής σας και, έπειτα, εισαγάγετε τον κωδικό ασφαλείας που σας παρέχει."
-
-#: .es5/templates/inline_totp_setup.mustache:13
-msgid "Can’t scan code?"
-msgstr "Αδυναμία σάρωσης κωδικού;"
-
-#: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
-msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "Αφού ολοκληρωθεί, θα αρχίσει η δημιουργία των κωδικών ασφαλείας σας."
-
-#: .es5/templates/inline_totp_setup.mustache:16
-msgid "Type this secret key into your authentication app."
-msgstr "Πληκτρολογήστε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησης."
-
-#: .es5/templates/inline_totp_setup.mustache:17
-msgid "Scan QR code instead?"
-msgstr "Εναλλακτικά, θέλετε να σαρώστε έναν κωδικό QR;"
-
-#: .es5/templates/inline_totp_setup.mustache:19
-msgid "Security code"
-msgstr "Κωδικός ασφαλείας"
-
-#: .es5/templates/inline_totp_setup.mustache:20
-msgid "Ready"
-msgstr "Έτοιμο"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1149,6 +1041,10 @@ msgstr "Επιτυχία"
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Μπορείτε να χρησιμοποιήσετε το <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+msgid "Continue"
+msgstr "Συνέχεια"
+
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
 msgstr "Συνέχεια στον λογαριασμό μου"
@@ -1160,70 +1056,6 @@ msgstr "Ο λογαριασμός σας είναι έτοιμος!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού"
-
-#: .es5/templates/report_sign_in.mustache:4
-msgid "Report unauthorized sign-in?"
-msgstr "Αναφορά μη εξουσιοδοτημένης σύνδεσης;"
-
-#: .es5/templates/report_sign_in.mustache:5
-msgid "You received an email about attempted access to your account. Would you like to report this activity as suspicious?"
-msgstr "Λάβατε ένα email σχετικά με κάποια απόπειρα πρόσβασης στον λογαριασμό σας. Θα θέλατε να αναφέρετε αυτήν τη δραστηριότητα ως ύποπτη;"
-
-#: .es5/templates/report_sign_in.mustache:6
-msgid "Report activity"
-msgstr "Αναφορά δραστηριότητας"
-
-#: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
-msgid "Why is this happening?"
-msgstr "Γιατί συμβαίνει αυτό;"
-
-#: .es5/templates/sign_in_bounced.mustache:1
-msgid "Sorry. We’ve locked your&nbsp;account."
-msgstr "Συγγνώμη. Έχουμε κλειδώσει&nbsp;τον λογαριασμό σας."
-
-#: .es5/templates/sign_in_bounced.mustache:2
-msgid "The confirmation email we sent to %(email)s was returned and we’ve locked your account to protect your Firefox data."
-msgstr "Το email επιβεβαίωσης που στείλαμε στο %(email)s επιστράφηκε και έχουμε κλειδώσει τον λογαριασμό σας για να προστατέψουμε τα δεδομένα του Firefox σας."
-
-#: .es5/templates/sign_in_bounced.mustache:3
-msgid "If this is a valid email address, <a %(escapedSupportLinkAttrs)s>let us know</a> and we can help unlock your account."
-msgstr "Αν αυτή είναι μια έγκυρη διεύθυνση email, <a %(escapedSupportLinkAttrs)s>ενημερώστε μας</a> και θα σας βοηθήσουμε να ξεκλειδώσετε τον λογαριασμό σας."
-
-#: .es5/templates/sign_in_bounced.mustache:5
-msgid "No longer own that email? Create a new account"
-msgstr "Δεν είστε πλέον κάτοχος αυτού του email; Δημιουργήστε έναν νέο λογαριασμό"
-
-#: .es5/templates/sign_in_recovery_code.mustache:1
-msgid "Enter backup authentication code"
-msgstr "Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης"
-
-#: .es5/templates/sign_in_recovery_code.mustache:3
-msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "Εισαγάγετε έναν από τους εφεδρικούς κωδικούς ταυτοποίησης που λάβατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων."
-
-#: .es5/templates/sign_in_recovery_code.mustache:4
-msgid "Enter 10-digit backup authentication code"
-msgstr "Εισαγάγετε 10ψήφιο εφεδρικό κωδικό ταυτοποίησης"
-
-#: .es5/templates/sign_in_recovery_code.mustache:7
-msgid "Are you locked out?"
-msgstr "Έχετε κλειδωθεί;"
-
-#: .es5/templates/sign_in_reported.mustache:1
-msgid "Thank you for your vigilance"
-msgstr "Σας ευχαριστούμε για την εγρήγορσή σας"
-
-#: .es5/templates/sign_in_reported.mustache:2
-msgid "Our team has been notified. Reports like this help us fend off intruders."
-msgstr "Η ομάδα μας έχει ειδοποιηθεί. Αναφορές σαν κι αυτή μάς βοηθούν να αποτρέπουμε εισβολείς."
-
-#: .es5/templates/sign_in_token_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr "Εισαγάγετε τον κωδικό επιβεβαίωσης <span class=\"card-subheader\">για τον λογαριασμό Mozilla σας</span>"
-
-#: .es5/templates/sign_in_token_code.mustache:2
-msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr "Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο %(email)s, εντός 5 λεπτών."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1240,18 +1072,6 @@ msgstr "Χρήση διαφορετικού λογαριασμού"
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
 msgstr "Πρόβλημα με την εισαγωγή του κωδικού;"
-
-#: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2
-msgid "Authorize this sign-in"
-msgstr "Εξουσιοδότηση σύνδεσης"
-
-#: .es5/templates/sign_in_unblock.mustache:3
-msgid "Check your email for the authorization code sent to %(email)s."
-msgstr "Ελέγξτε το email σας για τον κωδικό ταυτοποίησης που απεστάλη στο %(email)s."
-
-#: .es5/templates/sign_in_unblock.mustache:4
-msgid "Enter authorization code"
-msgstr "Εισαγάγετε τον κωδικό ταυτοποίησης"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
@@ -1291,28 +1111,36 @@ msgstr "Δημιουργία λογαριασμού"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Συνεχίζοντας, αποδέχεστε:<br />\n"
-"            τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Δήλωση απορρήτου</a> του Pocket<br />\n"
-"            τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"            τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/"
+"privacy/\">Δήλωση απορρήτου</a> του Pocket<br />\n"
+"            τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
 "          "
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Συνεχίζοντας, αποδέχεστε:<br />\n"
-"              τους <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Δήλωση απορρήτου</a> των συνδρομητικών υπηρεσιών της Mozilla<br />\n"
-"              τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
+"              τους <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-"
+"grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Δήλωση απορρήτου</a> των συνδρομητικών υπηρεσιών της Mozilla<br />\n"
+"              τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
 "            "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
@@ -1327,7 +1155,7 @@ msgstr "Συγχρονισμός συσκευής"
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
 msgstr "Δημιουργήστε έναν κωδικό πρόσβασης για να συνεχίσετε στο Firefox Sync. Τα δεδομένα σας κρυπτογραφούνται με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας."
 
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
+#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9
 msgid "Create password"
 msgstr "Δημιουργία κωδικού πρόσβασης"
 
@@ -1417,26 +1245,6 @@ msgstr "Λάβετε πρακτικές γνώσεις στα εισερχόμε
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
 msgstr "Εγγραφή στο %(email)s"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
-msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr "Ο επιλεγμένος σύνδεσμος δεν περιείχε τους απαραίτητους χαρακτήρες και ίσως αλλοιώθηκε από το πρόγραμμα email σας."
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
-msgid "Create a Mozilla account"
-msgstr "Δημιουργία λογαριασμού Mozilla"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
-msgid "Continue to %(productName)s"
-msgstr "Συνέχεια στο %(productName)s"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:7
-msgid "Enter a password"
-msgstr "Εισαγάγετε έναν κωδικό πρόσβασης"
-
-#: .es5/templates/post_verify/finish_account_setup/set_password.mustache:8
-msgid "Confirm password"
-msgstr "Επιβεβαίωση κωδικού πρόσβασης"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
