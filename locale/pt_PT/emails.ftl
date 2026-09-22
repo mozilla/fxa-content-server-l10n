@@ -261,12 +261,10 @@ postAddLinkedAccount-subject-2 = Nova conta associada à sua { -product-mozilla-
 postAddLinkedAccount-title-2 = A sua conta { $providerName } foi associada à sua { -product-mozilla-account }
 postAddLinkedAccount-action = Gerir conta
 postAddPasskey-subject = Chave criada
-postAddPasskey-preview = Agora pode utilizar o seu dispositivo para iniciar sessão
-postAddPasskey-title = Criou uma chave de acesso
-postAddPasskey-description = Agora pode utilizá-lo para iniciar sessão em todos os seus { -product-mozilla-account } serviços.
-postAddPasskey-sync-note = Por favor, note que a sua palavra-passe irá continuar a ser necessária para aceder aos seus { -brand-firefox } dados de sincronização.
-# Links out to a support article about passkeys and { -brand-firefox } sync
-postAddPasskey-learn-more = Saber mais
+postAddPasskey-preview = Pode agora utilizar o seu dispositivo para iniciar sessão
+postAddPasskey-title = Criou uma chave-passe
+postAddPasskey-description = Agora pode utilizá-la para iniciar sessão em todos os seus serviços { -product-mozilla-account }.
+postAddPasskey-sync-note = Por favor, note que a sua palavra-passe irá continuar a ser requerida para aceder aos seus dados de sincronização do { -brand-firefox } .
 postAddPasskey-requested-from = Pediu isto de:
 postAddPasskey-action = Gerir conta
 postAddRecoveryPhone-subject = Telefone de recuperação adicionado
