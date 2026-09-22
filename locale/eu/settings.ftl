@@ -1309,6 +1309,10 @@ pair2-authority-scan-qr-skip-button = Saltatu oraingoz
 ## It confirms that sync is on and links to sync settings.
 
 pair2-authority-sync-success-heading-v2 = Zure gailua konektatuta dago
+# "Syncing" here means copying data between the user's devices
+pair2-authority-sync-success-description-v2 = Sinkronizazioa lanean ari da. Denbora pixka bat har lezake sinkronizatutako datuak agertu arte. Jarraitu nabigatzen lasai.
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button-v2 = Kudeatu sinkronizazio-ezarpenak
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing reaches a device that
@@ -1318,6 +1322,15 @@ pair2-authority-sync-success-heading-v2 = Zure gailua konektatuta dago
 
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = { -brand-firefox } irekitzen…
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device once pairing has completed: the device
+## is signed in and syncing with the computer they paired it with.
+
+# "Syncing" here means copying data between the user's devices
+pair2-supplicant-sync-success-description-v2 = Sinkronizazioa lanean ari da. Denbora pixka bat har lezake sinkronizatutako datuak agertu arte. Jarraitu nabigatzen lasai.
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button-v2 = Kudeatu sinkronizazio-ezarpenak
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
