@@ -1914,6 +1914,10 @@ pair2-authority-scan-qr-skip-button = Saltar pro iste momento
 ## It confirms that sync is on and links to sync settings.
 
 pair2-authority-sync-success-heading-v2 = Tu apparato es connexe
+# "Syncing" here means copying data between the user's devices
+pair2-authority-sync-success-description-v2 = Le synchronisation es in curso. Il pote passar un poco pro apparer tu datos synchronisate. Senti te libere de continuar a navigar.
+# Opens the browser settings that control what is synced
+pair2-authority-sync-success-sync-settings-button-v2 = Gerer configurationes del synchronisation
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
@@ -1989,6 +1993,10 @@ pair2-supplicant-ready-to-scan-learn-more-link = Pro saper plus
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = Tu apparato es connexe
+# "Syncing" here means copying data between the user's devices
+pair2-supplicant-sync-success-description-v2 = Le synchronisation es in curso. Il pote passar un poco pro apparer tu datos synchronisate. Senti te libere de continuar a navigar.
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button-v2 = Gerer parametros de synchronisation
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
