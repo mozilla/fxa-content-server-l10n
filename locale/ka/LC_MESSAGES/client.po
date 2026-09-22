@@ -803,19 +803,19 @@ msgstr "შესვლა უკვე დამოწმებულია"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "დამადასტურებელი ბმული ვადაგასულია"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "ბმული, რომელიც გამოიყენეთ ელფოსტის დასადასტურებლად, ვადაგასულია."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "დააჭირეთ ახალი დამადასტურებელი ბმულის მისაღებად"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "დამადასტურებელი ბმული დაზიანებულია"
 
 #: .es5/templates/complete_sign_up.mustache:12
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -823,7 +823,7 @@ msgstr "ბმულს, რომელზეც გადახვედით
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "დადასტურების შეცდომა"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -835,7 +835,7 @@ msgstr "დაადასტურეთ ეს შესვლა"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "შეამოწმეთ თქვენი ელფოსტა %(escapedEmail)s, რომელზეც გამოგზავნილია დამადასტურებელი ბმული&nbsp;"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -855,7 +855,7 @@ msgstr "შეიყვანეთ დამადასტურებელ�
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "გთხოვთ, 5 წუთის განმავლობაში მიუთითოთ დამადასტურებელი კოდი, რომელიც მოგივათ მისამართზე %(escapedEmail)s."
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
@@ -867,11 +867,11 @@ msgstr "დადასტურება"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "კოდი ვადაგასულია?"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "ახალი კოდის გამოგზავნა."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
 #: .es5/templates/pair/unsupported.mustache:1
@@ -880,19 +880,19 @@ msgstr "სხვა მოწყობილობასთან დაკა�
 
 #: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "თქვენ შესული ხართ Firefox-ში"
 
 #: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
-msgstr ""
+msgstr "ელფოსტა დადასტურებულია"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
-msgstr ""
+msgstr "მოწყობილობები ეკრანებზე გამოსახული გულებით"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
-msgstr ""
+msgstr "თქვენ შესული ხართ Firefox-ში"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
