@@ -1906,6 +1906,14 @@ pair2-authority-scan-qr-instruction = Scande le codice QR con tu telephono o tab
 pair2-authority-scan-qr-code-aria-label = Codice QR pro connecter tu apparato mobile
 # Link to a support article for users having trouble scanning the QR code
 pair2-authority-scan-qr-help-link = Obtener auxilio per le scansion
+# Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
+pair2-authority-scan-qr-skip-button = Saltar pro iste momento
+
+## SyncSuccess page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer once the mobile device has been paired.
+## It confirms that sync is on and links to sync settings.
+
+pair2-authority-sync-success-heading-v2 = Tu apparato es connexe
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
