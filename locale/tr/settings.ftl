@@ -137,6 +137,9 @@ device-info-block-location-unknown = Bilinmeyen konum
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $browserName } - { $genericOSName }
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
+device-info-browser-device = { $browserName } - { $deviceName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP adresi: { $ipAddress }
@@ -145,7 +148,10 @@ device-info-ip-address = IP adresi: { $ipAddress }
 ## Shown at the top of settings to promote installing Firefox on mobile (when
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
+firefox-promo-banner-mobile-heading = Nerede olursanız olun { -brand-firefox } yanınızda
+firefox-promo-banner-mobile-description = Sekmelerinizi, yer imlerinizi ve parolalarınızı tüm cihazlarınız arasında eşitleyin. Üstelik tüm verileriniz güvenle şifrelenmiş olarak saklanır.
 firefox-promo-banner-mobile-cta = Cihaz bağlayın
+firefox-promo-banner-switch-description = { -brand-firefox }’a geçtiğinizde yer imlerinizi, parolalarınızı, geçmişinizi ve diğer verilerinizi aktararak hiç ara vermeden gezinmeye devam edebilirsiniz.
 firefox-promo-banner-switch-cta = { -brand-firefox }’a geçin
 
 ## FormPasswordInlineCriteria
@@ -239,6 +245,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Etkin
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Sağ ok
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Mesajı kapat
@@ -405,6 +414,11 @@ password-strength-inline-passwords-match = Parolalar eşleşiyor
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Sizin telefonunuz, sizin kurallarınız.
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Mobil uygulamayı indirmek için okutun
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = { -brand-firefox } mobil uygulamasını indirmek için QR kodu. Kodu okutmak için telefonunuzun kamerasını ekranınızın sağ alt köşesine doğrultun.
 
 ## Notification Promo Banner component
 
