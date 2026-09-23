@@ -1659,7 +1659,7 @@ inline-passwordless-sync-setup-page-title = Hepgor y cyfrinair tro nesaf?
 inline-passwordless-sync-setup-success-banner = Wedi mewngofnodi i { -brand-firefox }
 inline-passwordless-sync-setup-heading = Hepgor y cyfrinair tro nesaf?
 inline-passwordless-sync-setup-description = Defnyddiwch y cyfrinair hwn i fewngofnodi'n gyflymach.
-inline-passwordless-sync-setup-enable-button = Galluogi cyfrinair
+inline-passwordless-sync-setup-enable-button = Galluogi cyfrinallwedd
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Wrthi'n galluogi…
 inline-passwordless-sync-setup-not-now-button = Nid nawr
