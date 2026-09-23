@@ -1626,7 +1626,7 @@ inline-passwordless-sync-setup-heading = Hoppe over passordet neste gang?
 inline-passwordless-sync-setup-description = Bruk denne passnøkkelen for å logge på raskere.
 inline-passwordless-sync-setup-enable-button = Aktiver passnøkkel
 # Button label while the passkey is stored.
-inline-passwordless-sync-setup-enabling = Slår på
+inline-passwordless-sync-setup-enabling = Aktiverer…
 inline-passwordless-sync-setup-not-now-button = Ikke nå
 
 ## InlineRecoveryKeySetup page component
