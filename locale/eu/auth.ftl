@@ -158,6 +158,8 @@ subscriptionSupport-plaintext = Zure harpidetzari buruzko galderarik ba al duzu?
 subscriptionSupportContact = Eskarrikasko { $productName }-n harpidetzeagatik. Zure harpidetzari buruz galderarik baduzu edo { $productName }ri buruz informazio gehiago nahi baduzu, jarri harremanetan <a data-l10n-name="subscriptionSupportUrl"> gurekin</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Eskarrikasko { $productName }-n harpidetzeagatik. Zure harpidetzari buruz galderarik baduzu edo { $productName }-ri buruz informazio gehiago nahi baduzu, jarri harremanetan gurekin.
+# After the colon, there's a link to https://payments.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Kudeatu zure harpidetza:
 subscriptionUpdateBillingEnsure = Zure ordainketa-metodoa eta kontuaren informazioa eguneratuta daudela <a data-l10n-name="updateBillingUrl"> hemen ziurtatu dezakezu</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Zure ordainketa-metodoa eta kontuaren informazioa eguneratuta daudela hemen ziurtatu dezakezu:
@@ -167,6 +169,7 @@ subscriptionUpdateBillingTry-plaintext = Zure ordainketa egiten saiatuko gara be
 subscriptionUpdatePayment = Zure zerbitzua etenik ez izateko, mesedez <a data-l10n-name="updateBillingUrl">eguneratu zure ordainketa-informazioa</a> ahalik eta azkarren.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Zure zerbitzua etenik ez izateko, mesedez eguneratu zure ordainketa-informazioa ahalik eta azkarren.
+view-invoice-link-action = Ikusi faktura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
