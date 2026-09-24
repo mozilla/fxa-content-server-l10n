@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 20:16+0000\n"
+"POT-Creation-Date: 2026-09-24 20:17+0000\n"
 "Language: fy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -991,7 +991,7 @@ msgstr ""
 "mozilla.org/privacy/mozilla-accounts/\">Privacyferklearring</a> fan Mozilla Accounts\n"
 "          "
 
-#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
+#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
@@ -1073,7 +1073,7 @@ msgstr "In oar account brûke"
 msgid "Trouble entering code?"
 msgstr "Problemen by it ynfieren fan de koade?"
 
-#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
 msgstr "Stel jo wachtwurd yn"
 
@@ -1081,15 +1081,15 @@ msgstr "Stel jo wachtwurd yn"
 msgid "Change email"
 msgstr "E-mailadres wizigje"
 
-#: .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
+#: .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Wachtwurd"
 
-#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Repeat password"
 msgstr "Nochris it wachtwurd"
 
-#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 "Jo hawwe dit wachtwurd nedich om tagong te krijen ta kodearre gegevens dy’t jo by ús bewarje.<br class=\"mb-3\">In nije inisjalisaasje betsjut mooglik ferlies fan gegevens lykas wachtwurden en "
@@ -1099,7 +1099,7 @@ msgstr ""
 msgid "Get more from Mozilla:"
 msgstr "Helje mear út Mozilla:"
 
-#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
 msgstr "Kies wat jo syngronisearje wolle"
 
@@ -1150,14 +1150,6 @@ msgstr "Wolle jo dit apparaat mei jo account syngronisearje?"
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "Dit apparaat syngronisearje"
-
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
-msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr "Meitsje in wachtwurd oan om troch te gean nei Firefox-syngronisaasje. Jo gegevens wurde fersifere mei jo wachtwurd om jo privacy te beskermjen."
-
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9
-msgid "Create password"
-msgstr "Wachtwurd oanmeitsje"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"

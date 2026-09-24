@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-21 20:16+0000\n"
+"POT-Creation-Date: 2026-09-24 20:17+0000\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -991,7 +991,7 @@ msgstr ""
 "mozilla.org/privacy/mozilla-accounts/\">Informação de Privacidade</a> das Contas Mozilla\n"
 "          "
 
-#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19 .es5/templates/post_verify/third_party_auth/set_password.mustache:10
+#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
@@ -1073,7 +1073,7 @@ msgstr "Utilizar uma conta diferente"
 msgid "Trouble entering code?"
 msgstr "Problemas ao inserir o código?"
 
-#: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
+#: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
 msgstr "Definir a sua palavra-passe"
 
@@ -1081,15 +1081,15 @@ msgstr "Definir a sua palavra-passe"
 msgid "Change email"
 msgstr "Alterar email"
 
-#: .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
+#: .es5/templates/sign_up_password.mustache:4
 msgid "Password"
 msgstr "Palavra-passe"
 
-#: .es5/templates/sign_up_password.mustache:5 .es5/templates/post_verify/third_party_auth/set_password.mustache:4
+#: .es5/templates/sign_up_password.mustache:5
 msgid "Repeat password"
 msgstr "Repita a palavra-passe"
 
-#: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
+#: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
 msgstr ""
 "Precisa desta palavra-passe para aceder a quaisquer dados encriptados que guarde connosco.<br class=\"mb-3\">Uma reposição significa a perda potencial dos dados, tais como palavras-passe e "
@@ -1099,7 +1099,7 @@ msgstr ""
 msgid "Get more from Mozilla:"
 msgstr "Obtenha mais da Mozilla:"
 
-#: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
+#: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
 msgstr "Escolha o que sincronizar"
 
@@ -1150,14 +1150,6 @@ msgstr "Deseja sincronizar este dispositivo com a sua conta?"
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
 msgstr "Sincronizar este dispositivo"
-
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
-msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr "Por favor, crie uma palavra-passe para continuar com o Firefox Sync. Os seus dados são encriptados com a sua palavra-passe para proteger a sua privacidade."
-
-#: .es5/templates/post_verify/third_party_auth/set_password.mustache:9
-msgid "Create password"
-msgstr "Criar palavra-passe"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1463,7 +1455,10 @@ msgid ""
 "\n"
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
-msgstr "           <span>%(deviceFamily)s para %(deviceOS)s</span> está ligado.         "
+msgstr ""
+"\n"
+"          <span>%(deviceFamily)s para %(deviceOS)s</span> está ligado.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
