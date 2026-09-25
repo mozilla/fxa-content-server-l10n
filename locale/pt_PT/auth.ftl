@@ -414,10 +414,10 @@ subscriptionRenewalReminder-content-charge-with-tax-default = Nessa altura, a { 
 #   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 subscriptionRenewalReminder-content-charge-invoice-total-day = Nessa altura, a { -brand-mozilla } irá renovar a sua subscrição diária e será efetuado um débito de { $invoiceTotal } ao método de pagamento da sua conta.
 subscriptionRenewalReminder-content-charge-invoice-total-week = Nessa altura, a { -brand-mozilla } irá renovar a sua subscrição semanal e será efetuada um débito de { $invoiceTotal } ao método de pagamento da sua conta.
-subscriptionRenewalReminder-content-charge-invoice-total-month = Nessa altura, { -brand-mozilla } irá renovar a sua subscrição mensal e será efetuada uma cobrança de { $invoiceTotal } ao método de pagamento da sua conta.
-subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Nessa altura, { -brand-mozilla } irá renovar a sua subscrição de seis meses e será efetuada uma cobrança de { $invoiceTotal } ao método de pagamento da sua conta.
-subscriptionRenewalReminder-content-charge-invoice-total-year = Nessa altura, { -brand-mozilla } irá renovar a sua subscrição anual e será efetuada uma cobrança de { $invoiceTotal } ao método de pagamento da sua conta.
-subscriptionRenewalReminder-content-charge-invoice-total-default = Nessa altura, { -brand-mozilla } irá renovar a sua subscrição e será efetuada uma cobrança de { $invoiceTotal } ao método de pagamento da sua conta.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Nessa altura, a { -brand-mozilla } irá renovar a sua subscrição mensal e será efetuada uma cobrança de { $invoiceTotal } ao método de pagamento da sua conta.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Nessa altura, a { -brand-mozilla } irá renovar a sua subscrição de seis meses e será efetuada uma cobrança de { $invoiceTotal } ao método de pagamento da sua conta.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Nessa altura, a { -brand-mozilla } irá renovar a sua subscrição anual e será efetuada uma cobrança de { $invoiceTotal } ao método de pagamento da sua conta.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Nessa altura, a { -brand-mozilla } irá renovar a sua subscrição e será efetuada uma cobrança de { $invoiceTotal } ao método de pagamento da sua conta.
 subscriptionRenewalReminder-content-closing = Com os melhores cumprimentos,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
