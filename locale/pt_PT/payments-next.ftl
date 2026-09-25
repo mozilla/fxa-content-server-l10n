@@ -410,9 +410,9 @@ interstitial-offer-success-cancel-title = Lamentamos vê-lo partir
 # $date (Date) - Last day of product access
 interstitial-offer-cancel-success-dialog-msg = A sua subscrição de { $productName } foi cancelada. Ainda terá acesso a { $productName } até { $date }.
 interstitial-offer-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento antes desta terminar.
-interstitial-offer-cancel-success-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
+interstitial-offer-cancel-success-dialog-aside = Tem questões? Visite o Suporte <LinkExternal>{ -brand-mozilla }</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Voltar para subscrições
-interstitial-offer-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+interstitial-offer-action-error = Ocorreu um erro inesperado. Por favor tente novamente.
 interstitial-offer-cancel-subscription-button = Cancelar subscrição
 
 ## Daily/Weekly/Monthly refers to the user's current subscription interval
@@ -577,28 +577,28 @@ subscription-content-link-churn-intervention-terms-aria = Ver termos e restriç�
 
 dialog-close = Fechar janela
 button-back-to-subscriptions = Voltar para subscrições
-subscription-content-cancel-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
-paypal-unavailable-error = { -brand-paypal } está atualmente indisponível. Por favor, use outra opção de pagamento ou tente novamente mais tarde.
+subscription-content-cancel-action-error = Ocorreu um erro inesperado. Por favor tente novamente.
+paypal-unavailable-error = O { -brand-paypal } está atualmente indisponível. Por favor use outra opção de pagamento ou tente novamente mais tarde.
 
 ## Churn flow - Error page
 
 churn-error-page-title-discount-already-applied = Código de desconto já aplicado
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-message-discount-already-applied = Este desconto foi aplicado a uma subscrição de { $productName } da sua conta. Se ainda precisar de ajuda, entre em contacto com a nossa equipa de apoio.
+churn-error-page-message-discount-already-applied = Este desconto foi aplicado a uma subscrição de { $productName } para a sua conta. Se ainda precisar de ajuda, contacte a nossa equipa de Suporte.
 churn-error-page-button-manage-subscriptions = Gerir subscrições
-churn-error-page-button-contact-support = Contactar o apoio
+churn-error-page-button-contact-support = Contactar Suporte
 churn-error-page-button-try-again = Tentar novamente
-churn-error-page-title-customer-mismatch = O cupão não pode ser trocado
-churn-error-page-message-customer-mismatch = Este cupão foi emitido para uma subscrição diferente e apenas pode ser trocado pelo destinatário original.
+churn-error-page-title-customer-mismatch = O cupão não pode ser resgatado
+churn-error-page-message-customer-mismatch = Este cupão foi emitido para uma subscrição diferente e apenas pode ser utilizado pelo destinatário original.
 churn-error-page-button-sign-in = Iniciar sessão
 churn-error-page-title-general-error = Ocorreu um problema com a renovação da sua subscrição
 churn-error-page-message-general-error = Entre em contacto com o suporte ou tente novamente.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Ir para { $productName }
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-title-subscription-not-active = Este desconto apenas está disponível para { $productName } subscritores atuais
+churn-error-page-title-subscription-not-active = Este desconto destina-se apenas a atuais subscritores de { $productName }
 # $productName (String) - The name of the product associated with the subscription.
-churn-error-page-title-subscription-still-active = A sua subscrição { $productName } ainda está ativa
+churn-error-page-title-subscription-still-active = A sua subscrição de { $productName } ainda está ativa
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -615,7 +615,7 @@ next-subscription-create-title = Configurar a sua subscrição.
 next-subscription-success-title = Confirmação de subscrição
 next-subscription-processing-title = A confirmar a subscrição…
 next-subscription-error-title = Erro ao confirmar a subscrição…
-subscription-title-sub-exists = Já está subscrito
+subscription-title-sub-exists = Já subscreveu
 subscription-title-plan-change-heading = Rever a sua alteração
 subscription-title-not-supported = Esta alteração do plano de subscrição não é suportada
 next-sub-guarantee = Garantia de devolução do dinheiro em 30 dias
@@ -641,7 +641,7 @@ upgrade-purchase-details-promo-code = Código promocional
 upgrade-purchase-details-tax-label = Impostos e taxas
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
 upgrade-purchase-details-credit-to-account = Crédito emitido para a conta
-upgrade-purchase-details-credit-will-be-applied = O crédito será aplicado à sua conta e utilizado para futuras faturas.
+upgrade-purchase-details-credit-will-be-applied = O crédito será aplicado à sua conta e usado para futuras faturas.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -656,11 +656,11 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (anualmente)
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
 # Checkout start
-metadata-title-checkout-start = Sair | { $productTitle }
+metadata-title-checkout-start = Finalizar compra | { $productTitle }
 metadata-description-checkout-start = Introduza os seus dados de pagamento para concluir a sua compra.
 # Checkout processing
 metadata-title-checkout-processing = A processar | { $productTitle }
-metadata-description-checkout-processing = Por favor, aguarde enquanto terminamos de processar o seu pagamento.
+metadata-description-checkout-processing = Por favor aguarde enquanto terminamos de processar o seu pagamento.
 # Checkout error
 metadata-title-checkout-error = Erro | { $productTitle }
 metadata-description-checkout-error = Ocorreu um erro ao processar a sua subscrição. Se o problema continuar, por favor, contacte o suporte.
