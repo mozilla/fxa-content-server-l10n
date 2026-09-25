@@ -21,7 +21,7 @@ next-payment-method-first-approve = Primeiro, precisa de aprovar a sua subscriç
 ## Error page
 
 error-page-account-not-found-heading = Conta não encontrada
-error-page-account-not-found-message = A conta associada à sua sessão não existe. Por favor, utilize uma conta diferente ou crie uma nova para subscrever.
+error-page-account-not-found-message = A conta associada à sua sessão não existe. Por favor use uma conta diferente ou crie uma nova para subscrever.
 error-page-account-not-found-continue-button = Continuar
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Selecione o seu país e introduza o seu código postal <p>para continuar a finalização da compra para { $productName }</p>
@@ -34,11 +34,11 @@ location-banner-currency-change = Alteração da moeda não suportada. Para cont
 upgrade-page-payment-information = Informação de pagamento
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = O seu plano será alterado imediatamente e ser-lhe-á debitado hoje um valor proporcional para o resto deste ciclo de faturação. A partir de { $nextInvoiceDate } ser-lhe-á cobrado o valor total.
-upgrade-page-acknowledgment-from-trial = Ao atualizar, o seu teste gratuito ativo irá terminar imediatamente e você será cobrado pelo seu novo plano hoje.
+upgrade-page-acknowledgment-from-trial = Ao atualizar, o seu teste gratuito ativo irá terminar imediatamente e será cobrado pelo seu novo plano hoje.
 
 ## Authentication Error page
 
-auth-error-page-title = Não conseguimos iniciar a sua sessão
+auth-error-page-title = Não Conseguimos Iniciar a Sua Sessão
 checkout-error-boundary-retry-button = Tentar novamente
 checkout-error-boundary-basic-error-message = Algo correu mal. Tente novamente ou <contactSupportLink>contacte o apoio.</contactSupportLink>
 amex-logo-alt-text = Logótipo de { -brand-amex }
@@ -59,7 +59,7 @@ google-pay-logo-alt-text = Logótipo de { -brand-google-pay }
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gerir a minha subscrição
-next-iap-blocked-contact-support = Tem uma subscrição móvel na aplicação que está em conflito com este produto — por favor, contacte o suporte para que possamos ajudar.
+next-iap-blocked-contact-support = Tem uma subscrição móvel integrada na app que está em conflito com este produto — por favor contacte o suporte para que o possamos ajudar.
 next-payment-error-retry-button = Tentar novamente
 next-basic-error-message = Algo correu mal. Tente novamente mais tarde.
 checkout-error-contact-support-button = Contactar o apoio
@@ -67,19 +67,19 @@ checkout-error-not-eligible = Não é elegível a subscrever este produto. Por f
 checkout-error-already-subscribed = Já subscreveu este produto.
 checkout-error-contact-support = Por favor, contacte o apoio para que possamos ajudar.
 cart-error-currency-not-determined = Não conseguimos determinar a moeda para esta compra, por favor tente novamente.
-checkout-processing-general-error = Ocorreu um erro inesperado ao processar o seu pagamento, por favor, tente novamente.
-cart-total-mismatch-error = O valor da fatura foi alterado. Por favor, tente novamente.
-cart-free-trial-mismatch-error = O seu elegibilidade para o teste gratuito foi alterado. Por favor, tente novamente.
+checkout-processing-general-error = Ocorreu um erro inesperado ao processar o seu pagamento, por favor tente novamente.
+cart-total-mismatch-error = O valor da fatura foi alterado. Por favor tente novamente.
+cart-free-trial-mismatch-error = O seu elegibilidade para o teste gratuito foi alterada. Por favor tente novamente.
 
 ## Error pages - Payment method failure messages
 
 intent-card-error = Não foi possível processar sua transação. Verifique as informações do seu cartão de crédito e tente novamente.
 intent-expired-card-error = Parece que o seu cartão de crédito expirou. Tente outro cartão.
-intent-payment-error-try-again = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Tente novamente mais tarde ou entre em contacto com o emissor do seu cartão.
+intent-payment-error-try-again = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Tente novamente ou entre em contacto com o emissor do seu cartão.
 intent-payment-error-get-in-touch = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Entre em contacto com o emissor do seu cartão.
-intent-payment-error-generic = Ocorreu um erro inesperado ao processar o seu pagamento, por favor, tente novamente.
+intent-payment-error-generic = Ocorreu um erro inesperado ao processar o seu pagamento, por favor tente novamente.
 intent-payment-error-insufficient-funds = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
-general-paypal-error = Ocorreu um erro inesperado ao processar o seu pagamento, por favor, tente novamente.
+general-paypal-error = Ocorreu um erro inesperado ao processar o seu pagamento, por favor tente novamente.
 paypal-active-subscription-no-billing-agreement-error = Parece que houve um problema ao faturar a sua conta { -brand-paypal }. Por favor, reative os pagamentos automáticos para a sua subscrição.
 new-account-prepaid-card-free-trial-not-allowed = Cartões pré-pagos não podem ser utilizados para iniciar um teste gratuito em novas contas. Por favor, tente um método de pagamento diferente.
 
@@ -187,7 +187,7 @@ subscription-management-iap-sub-expires-on-expiry-date = Expira a { $date }
 subscription-management-button-manage-subscription-aria = Gerir subscrição para { $productName }
 subscription-management-button-manage-subscription-1 = Gerir subscrição
 error-payment-method-banner-title-expired-card = Cartão expirado
-error-payment-method-banner-message-add-new-card = Adicione um novo cartão ou método de pagamento para evitar a interrupção nas suas subscrições.
+error-payment-method-banner-message-add-new-card = Adicione um novo cartão ou método de pagamento para evitar interrupção nas suas subscrições.
 error-payment-method-banner-label-update-payment-method = Atualizar método de pagamento
 error-payment-method-expired-card = O seu cartão expirou. Por favor adicione um novo cartão ou método de pagamento para evitar interrupção nas suas subscrições.
 error-payment-method-banner-title-invalid-payment-information = Informação de pagamento inválida
