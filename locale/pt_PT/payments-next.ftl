@@ -1,7 +1,7 @@
 loyalty-discount-terms-heading = Termos e restrições
-loyalty-discount-terms-support = Contactar o apoio
+loyalty-discount-terms-support = Contactar Suporte
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-loyalty-discount-terms-contact-support-product-aria = Contactar o apoio para { $productName }
+loyalty-discount-terms-contact-support-product-aria = Contactar Suporte para { $productName }
 not-found-page-title-terms = Página não encontrada
 not-found-page-description-terms = A página que está à procura não existe.
 not-found-page-button-terms-manage-subscriptions = Gerir subscrições
@@ -340,18 +340,12 @@ next-coupon-submit = Aplicar
 
 free-trial-content-trial-expires = O seu teste gratuito expira em { $date }.
 free-trial-content-trial-cancelled = O seu teste gratuito foi cancelado.
-
-# Charge info strings - with tax, per interval
-
 free-trial-content-charge-info-with-tax-day = Irá ser cobrado um valor de { $amount } + { $tax } de impostos por dia após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-week = Irá ser cobrado { $amount } + { $tax } de impostos por semana após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-month = Irá ser cobrado { $amount } + { $tax } de impostos por mês após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-halfyear = Irá ser cobrado { $amount } + { $tax } de impostos todos os semestres após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-year = Irá ser cobrado { $amount } + { $tax } de impostos por ano após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-default = Irá ser cobrado { $amount } + { $tax } de impostos depois do teste gratuito terminar em { $date }.
-
-# Charge info strings - no tax, per interval
-
 free-trial-content-charge-info-no-tax-day = Irá ser cobrado { $amount } por dia após o teste gratuito terminar em { $date }.
 free-trial-content-charge-info-no-tax-week = Irá ser cobrado { $amount } por semana após o teste gratuito terminar em { $date }.
 free-trial-content-charge-info-no-tax-month = Irá ser cobrado { $amount } por mês após o teste gratuito terminar em { $date }.
@@ -385,17 +379,14 @@ free-trial-content-link-view-invoice-aria = Ver fatura para { $productName }
 free-trial-content-trial-ended = O seu teste gratuito terminou em <bold>{ $date }</bold>.
 free-trial-content-could-not-process-payment = Não conseguimos processar o seu pagamento. Atualize o seu método de pagamento para restaurar o acesso. O processamento pode demorar até 24 horas e depende do banco ou método de pagamento.
 free-trial-content-button-update-payment = Atualizar método de pagamento
-
-# Component - Header
-
 payments-header-help =
-    .title = Ajuda
-    .aria-label = Ajuda
     .alt = Ajuda
+    .aria-label = Ajuda
+    .title = Ajuda
 payments-header-bento =
-    .title = Produtos da { -brand-mozilla }
-    .aria-label = Produtos da { -brand-mozilla }
     .alt = Logótipo da { -brand-mozilla }
+    .aria-label = Produtos da { -brand-mozilla }
+    .title = Produtos da { -brand-mozilla }
 payments-header-bento-close =
     .alt = Fechar
 payments-header-bento-tagline = Mais produtos da { -brand-mozilla } que protegem a sua privacidade
@@ -435,8 +426,8 @@ interstitial-offer-button-keep-subscription = Manter subscrição
 ##
 
 payments-client-loading-spinner =
-    .aria-label = A carregar…
     .alt = A carregar…
+    .aria-label = A carregar…
 
 ## Payment method management page - Stripe
 
