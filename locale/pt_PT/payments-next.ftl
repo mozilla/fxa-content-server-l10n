@@ -663,13 +663,13 @@ metadata-title-checkout-processing = A processar | { $productTitle }
 metadata-description-checkout-processing = Por favor aguarde enquanto terminamos de processar o seu pagamento.
 # Checkout error
 metadata-title-checkout-error = Erro | { $productTitle }
-metadata-description-checkout-error = Ocorreu um erro ao processar a sua subscrição. Se o problema continuar, por favor, contacte o suporte.
+metadata-description-checkout-error = Ocorreu um erro ao processar a sua subscrição. Se o problema persistir, por favor contacte o suporte.
 # Checkout success
 metadata-title-checkout-success = Sucesso | { $productTitle }
-metadata-description-checkout-success = Parabéns! Concluiu com sucesso a sua compra.
+metadata-description-checkout-success = Parabéns! Concluiu a sua compra com sucesso.
 # Checkout needs_input
-metadata-title-checkout-needs-input = Ação necessária | { $productTitle }
-metadata-description-checkout-needs-input = Por favor, conclua a ação necessária para continuar com o pagamento.
+metadata-title-checkout-needs-input = Ação requerida | { $productTitle }
+metadata-description-checkout-needs-input = Por favor conclua a ação requerida para continuar com o pagamento.
 # Upgrade start
 metadata-title-upgrade-start = Atualizar | { $productTitle }
 metadata-description-upgrade-start = Introduza os seus detalhes de pagamento para concluir a sua atualização.
