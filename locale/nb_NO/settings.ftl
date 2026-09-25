@@ -1998,6 +1998,17 @@ pair2-supplicant-timeout-and-cancel-cancelled-heading = Avbrutt
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = For å koble til en enhet når som helst, gå til <b>firefox.com/pair</b> på datamaskinen din.
 
+## Permissions page
+## Users see this page during sign-in or sign-up when a relying party is not a
+## trusted Mozilla application, or when it asks for consent explicitly.
+## The page informs the user which profile information the relying party can
+## read. It does not offer a choice.
+
+permissions-label-email = E-postadresse
+permissions-label-display-name = Visningsnavn
+permissions-continue-button = Fortsett
+permissions-cancel-button = Avbryt
+
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
