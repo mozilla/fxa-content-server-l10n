@@ -343,18 +343,18 @@ free-trial-content-trial-cancelled = O seu teste gratuito foi cancelado.
 free-trial-content-charge-info-with-tax-day = Irá ser-lhe cobrado um valor de { $amount } + { $tax } de imposto por dia após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-week = Irá ser-lhe cobrado { $amount } + { $tax } de imposto por semana após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-month = Irá ser-lhe cobrado { $amount } + { $tax } de imposto por mês após o fim do teste gratuito em { $date }.
-free-trial-content-charge-info-with-tax-halfyear = Irá ser cobrado { $amount } + { $tax } de impostos todos os semestres após o fim do teste gratuito em { $date }.
-free-trial-content-charge-info-with-tax-year = Irá ser cobrado { $amount } + { $tax } de impostos por ano após o fim do teste gratuito em { $date }.
-free-trial-content-charge-info-with-tax-default = Irá ser cobrado { $amount } + { $tax } de impostos depois do teste gratuito terminar em { $date }.
-free-trial-content-charge-info-no-tax-day = Irá ser cobrado { $amount } por dia após o teste gratuito terminar em { $date }.
-free-trial-content-charge-info-no-tax-week = Irá ser cobrado { $amount } por semana após o teste gratuito terminar em { $date }.
-free-trial-content-charge-info-no-tax-month = Irá ser cobrado { $amount } por mês após o teste gratuito terminar em { $date }.
-free-trial-content-charge-info-no-tax-halfyear = Irá ser cobrado { $amount } todos os semestres depois do teste gratuito terminar em { $date }.
-free-trial-content-charge-info-no-tax-year = Irá ser cobrado { $amount } por ano após o teste gratuito terminar em { $date }.
-free-trial-content-charge-info-no-tax-default = Irá ser cobrado { $amount } depois do teste gratuito terminar em { $date }.
+free-trial-content-charge-info-with-tax-halfyear = Irá ser-lhe cobrado { $amount } + { $tax } de imposto todos os semestres após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-year = Irá ser-lhe cobrado { $amount } + { $tax } de imposto por ano após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-default = Irá ser-lhe cobrado { $amount } + { $tax } de imposto depois do teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-day = Irá ser-lhe cobrado { $amount } por dia após o teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-week = Irá ser-lhe cobrado { $amount } por semana após o teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-month = Irá ser-lhe cobrado { $amount } por mês após o teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-halfyear = Irá ser-lhe cobrado { $amount } todos os semestres depois do teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-year = Irá ser-lhe cobrado { $amount } por ano após o teste gratuito terminar em { $date }.
+free-trial-content-charge-info-no-tax-default = Irá ser-lhe cobrado { $amount } depois do teste gratuito terminar em { $date }.
 free-trial-content-trial-ends = O seu teste gratuito termina em { $date }. Atualize o seu método de pagamento para manter o acesso após o seu teste gratuito.
 free-trial-content-trial-active = O seu teste gratuito está ativo.
-free-trial-content-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+free-trial-content-action-error = Ocorreu um erro inesperado. Por favor tente novamente.
 free-trial-content-button-resume-trial = Retomar teste
 free-trial-content-button-resume-trial-aria = Retomar teste para { $productName }
 free-trial-content-button-cancel-trial = Cancelar teste
@@ -367,7 +367,7 @@ free-trial-content-button-cancel-subscription-aria = Cancelar subscrição para 
 ## $taxDue (Number) - The tax amount. It will be formatted as currency.
 
 free-trial-content-last-bill = Última fatura • { $billedOnDate }
-free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impostos
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } imposto
 free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
 ##
@@ -377,7 +377,7 @@ free-trial-content-link-view-invoice = Ver fatura
 free-trial-content-link-view-invoice-aria = Ver fatura para { $productName }
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = O seu teste gratuito terminou em <bold>{ $date }</bold>.
-free-trial-content-could-not-process-payment = Não conseguimos processar o seu pagamento. Atualize o seu método de pagamento para restaurar o acesso. O processamento pode demorar até 24 horas e depende do banco ou método de pagamento.
+free-trial-content-could-not-process-payment = Não conseguimos processar o seu pagamento. Atualize o seu método de pagamento para restaurar o acesso. O processamento pode demorar até 24 horas e pode variar do banco ou método de pagamento.
 free-trial-content-button-update-payment = Atualizar método de pagamento
 payments-header-help =
     .alt = Ajuda
@@ -409,7 +409,7 @@ interstitial-offer-success-cancel-title = Lamentamos vê-lo partir
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 interstitial-offer-cancel-success-dialog-msg = A sua subscrição de { $productName } foi cancelada. Ainda terá acesso a { $productName } até { $date }.
-interstitial-offer-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento, antes desta terminar.
+interstitial-offer-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento antes desta terminar.
 interstitial-offer-cancel-success-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Voltar para subscrições
 interstitial-offer-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
