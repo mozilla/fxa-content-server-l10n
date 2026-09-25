@@ -1670,7 +1670,7 @@ inline-passwordless-sync-setup-success-alert = Mae'r cyfrinallwedd hwn yn barod 
 inline-passwordless-sync-setup-error-cancelled = Wnaeth cadarnhau'r cyfrinallwedd ddim gorffen
 inline-passwordless-sync-setup-error-cancelled-description = Cadarnhewch gyda'ch cyfrinallwedd i hepgor y cyfrinair tro nesaf.
 # Error shown in the Settings alert bar when storing the passkey failed. The user is already signed in; only the password-free setup failed, so the next sign-in still asks for a password.
-inline-passwordless-sync-setup-error-generic = Aeth rhywbeth o'i le, bydd angen i chi nodi'ch cyfrinair y tro nesaf o hyd
+inline-passwordless-sync-setup-error-generic = Aeth rhywbeth o'i le, bydd dal angen i chi roi'ch cyfrinair y tro nesaf
 
 ## InlineRecoveryKeySetup page component
 
