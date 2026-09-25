@@ -80,7 +80,7 @@ intent-payment-error-get-in-touch = Hmm. Ocorreu um problema ao autorizar o seu 
 intent-payment-error-generic = Ocorreu um erro inesperado ao processar o seu pagamento, por favor tente novamente.
 intent-payment-error-insufficient-funds = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
 general-paypal-error = Ocorreu um erro inesperado ao processar o seu pagamento, por favor tente novamente.
-paypal-active-subscription-no-billing-agreement-error = Parece que houve um problema ao faturar a sua conta { -brand-paypal }. Por favor, reative os pagamentos automáticos para a sua subscrição.
+paypal-active-subscription-no-billing-agreement-error = Parece que ocorreu um problema da cobrança na sua conta { -brand-paypal }. Por favor,reative os pagamentos automáticos da sua subscrição.
 new-account-prepaid-card-free-trial-not-allowed = Cartões pré-pagos não podem ser utilizados para iniciar um teste gratuito em novas contas. Por favor, tente um método de pagamento diferente.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
