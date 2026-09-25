@@ -136,13 +136,13 @@ not-found-loyalty-discount-button-back-to-subscriptions = Voltar para subscriç�
 interstitial-offer-error-subscription-not-found-heading = Não conseguimos encontrar uma subscrição ativa
 interstitial-offer-error-subscription-not-found-message = Parece que esta subscrição pode já não estar ativa.
 interstitial-offer-error-customer-mismatch-heading = Esta subscrição não está associada à sua conta
-interstitial-offer-error-customer-mismatch-message = Certifique-se que está autenticado com a conta correta, ou entre em contacto com o Apoio se precisar de ajuda.
+interstitial-offer-error-customer-mismatch-message = Certifique-se que está autenticado com a conta correta, ou entre em contacto com o Suporte se precisar de ajuda.
 interstitial-offer-error-general-heading = A oferta não está disponível
 interstitial-offer-error-general-message = Parece que esta oferta não está disponível neste momento.
 interstitial-offer-error-button-back-to-subscriptions = Voltar para subscrições
-interstitial-offer-error-button-cancel-subscription = Continuar a cancelar
+interstitial-offer-error-button-cancel-subscription = Continuar para cancelar
 interstitial-offer-error-button-sign-in = Iniciar sessão
-interstitial-offer-error-button-contact-support = Contactar o apoio
+interstitial-offer-error-button-contact-support = Contactar Suporte
 
 ## Page - Subscription Management
 
@@ -152,22 +152,22 @@ subscription-management-subscriptions-heading = Subscrições
 subscription-management-free-trial-heading = Testes gratuitos
 subscription-management-your-free-trials-aria = Os seus testes gratuitos
 # Heading for mobile only quick links menu
-subscription-management-jump-to-heading = Ir para
+subscription-management-jump-to-heading = Saltar para
 subscription-management-nav-free-trials = Testes gratuitos
 subscription-management-nav-payment-details = Detalhes de pagamento
 subscription-management-nav-active-subscriptions = Subscrições ativas
 subscription-management-payment-details-heading = Detalhes de pagamento
-subscription-management-email-label = Email
-subscription-management-credit-balance-label = Balanço creditado
+subscription-management-email-label = E-mail
+subscription-management-credit-balance-label = Saldo de crédito
 subscription-management-credit-balance-message = O crédito será aplicado automaticamente a faturas futuras
 subscription-management-payment-method-label = Método de pagamento
 subscription-management-button-add-payment-method-aria = Adicionar método de pagamento
 subscription-management-button-add-payment-method = Adicionar
-subscription-management-page-warning-message-no-payment-method = Por favor, adicione um método de pagamento para evitar interrupção nas suas subscrições.
+subscription-management-page-warning-message-no-payment-method = Por favor adicione um método de pagamento para evitar interrupção nas suas subscrições.
 subscription-management-button-manage-payment-method-aria = Gerir método de pagamento
 subscription-management-button-manage-payment-method = Gerir
 # $last4 (String) - Last four numbers of credit card
-subscription-management-card-ending-in = Cartão que terminar em { $last4 }
+subscription-management-card-ending-in = Cartão que termina em { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expira em { $expirationDate }
 subscription-management-active-subscriptions-heading = Subscrições ativas
@@ -177,10 +177,10 @@ subscription-management-your-active-subscriptions-aria = As suas subscrições a
 subscription-management-button-support = Obter ajuda
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obter ajuda para { $productName }
-subscription-management-your-apple-iap-subscriptions-aria = As suas { -brand-apple } subscrições na aplicação
-subscription-management-apple-in-app-purchase-2 = { -brand-apple } compras na aplicação
-subscription-management-your-google-iap-subscriptions-aria = As suas { -brand-google } subscrições na aplicação
-subscription-management-google-in-app-purchase-2 = { -brand-google } compras na aplicação
+subscription-management-your-apple-iap-subscriptions-aria = As suas subscrições integradas na App da { -brand-apple }
+subscription-management-apple-in-app-purchase-2 = Compra integrada na app da { -brand-apple }
+subscription-management-your-google-iap-subscriptions-aria = As suas subscrições integradas na App da { -brand-google }
+subscription-management-google-in-app-purchase-2 = Compra integrada na app da { -brand-google }
 # $date (String) - Date of next bill
 subscription-management-iap-sub-expires-on-expiry-date = Expira a { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -189,7 +189,7 @@ subscription-management-button-manage-subscription-1 = Gerir subscrição
 error-payment-method-banner-title-expired-card = Cartão expirado
 error-payment-method-banner-message-add-new-card = Adicione um novo cartão ou método de pagamento para evitar a interrupção nas suas subscrições.
 error-payment-method-banner-label-update-payment-method = Atualizar método de pagamento
-error-payment-method-expired-card = O seu cartão expirou. Por favor, adicione um novo cartão ou método de pagamento para evitar a interrupção nas suas subscrições.
+error-payment-method-expired-card = O seu cartão expirou. Por favor adicione um novo cartão ou método de pagamento para evitar interrupção nas suas subscrições.
 error-payment-method-banner-title-invalid-payment-information = Informação de pagamento inválida
 error-payment-method-banner-message-account-issue = Existe um problema com a sua conta.
 subscription-management-button-manage-payment-method-1 = Gerir método de pagamento
