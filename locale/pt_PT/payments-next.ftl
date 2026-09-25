@@ -81,7 +81,7 @@ intent-payment-error-generic = Ocorreu um erro inesperado ao processar o seu pag
 intent-payment-error-insufficient-funds = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
 general-paypal-error = Ocorreu um erro inesperado ao processar o seu pagamento, por favor tente novamente.
 paypal-active-subscription-no-billing-agreement-error = Parece que ocorreu um problema da cobrança na sua conta { -brand-paypal }. Por favor,reative os pagamentos automáticos da sua subscrição.
-new-account-prepaid-card-free-trial-not-allowed = Cartões pré-pagos não podem ser utilizados para iniciar um teste gratuito em novas contas. Por favor, tente um método de pagamento diferente.
+new-account-prepaid-card-free-trial-not-allowed = Cartões pré-pagos não podem ser usados para iniciar um teste gratuito em novas contas. Por favor tente um método de pagamento diferente.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -115,14 +115,14 @@ next-payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
 ## Not found page
 
 not-found-title-subscriptions = Subscrição não encontrada
-not-found-description-subscriptions = Não conseguimos encontrar a sua subscrição. Por favor, tente novamente ou contacte o suporte.
+not-found-description-subscriptions = Não conseguimos encontrar a sua subscrição. Por favor tente novamente ou contacte o suporte.
 not-found-button-back-to-subscriptions = Voltar para subscrições
 
 ## Error page - churn cancel flow
 
 churn-cancel-flow-error-offer-expired-title = Esta oferta expirou
-churn-cancel-flow-error-offer-expired-message = Atualmente não existem ofertas disponíveis para esta subscrição. Pode continuar com o cancelamento se quiser.
-churn-cancel-flow-error-button-continue-to-cancel = Continuar a cancelar
+churn-cancel-flow-error-offer-expired-message = Atualmente não existem descontos disponíveis para esta subscrição. Pode continuar com o cancelamento se quiser.
+churn-cancel-flow-error-button-continue-to-cancel = Continuar para cancelar
 churn-cancel-flow-error-page-button-back-to-subscriptions = Voltar para subscrições
 
 ## Loyalty discount - Not found page
@@ -304,7 +304,7 @@ churn-stay-subscribed-action-error = Ocorreu um erro inesperado. Por favor, tent
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-stay-subscribed-button-stay-subscribed-and-save-discount = Mantenha-se subscrito e poupe { $discountPercent }%
 churn-stay-subscribed-button-stay-subscribed-and-save = Manter a subscrição e guardar
-churn-stay-subscribed-button-no-thanks = Não, obrigado
+churn-stay-subscribed-button-no-thanks = Não obrigado
     .aria-label = Voltar à página de Subscrições
 churn-stay-subscribed-link-terms-and-restrictions = Aplicam-se termos limitados e restrições
 churn-stay-subscribed-title-offer-expired = Esta oferta expirou
@@ -312,7 +312,7 @@ churn-stay-subscribed-title-offer-expired = Esta oferta expirou
 ## $productName (String) - The name of the product associated with the subscription.
 
 churn-stay-subscribed-subtitle-offer-expired = Deseja continuar a usar { $productName }?
-churn-stay-subscribed-message-access-will-continue = O seu acesso a { $productName } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão.
+churn-stay-subscribed-message-access-will-continue = O seu acesso a { $productName } irá continuar, e o seu ciclo de faturação e de pagamento irão ficar os mesmos.
 churn-stay-subscribed-title-subscription-renewed = Subscrição renovada
 churn-stay-subscribed-title-subscription-active = A sua subscrição { $productName } está ativa
 churn-stay-subscribed-thanks-valued-subscriber = Obrigado por ser um subscritor valorizado!
@@ -320,7 +320,7 @@ churn-stay-subscribed-button-go-to-product-page = Ir para { $productName }
 churn-stay-subscribed-button-go-to-subscriptions = Ir para Subscrições
 churn-stay-subscribed-button-stay-subscribed = Manter a subscrição
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
-churn-stay-subscribed-after = Depois disto, a sua subscrição será renovada automaticamente pela taxa padrão, a menos que você cancele.
+churn-stay-subscribed-after = Depois disto, a sua subscrição será renovada automaticamente pela taxa padrão, a menos que cancele.
 
 ## Component - CouponForm
 
@@ -340,9 +340,9 @@ next-coupon-submit = Aplicar
 
 free-trial-content-trial-expires = O seu teste gratuito expira em { $date }.
 free-trial-content-trial-cancelled = O seu teste gratuito foi cancelado.
-free-trial-content-charge-info-with-tax-day = Irá ser cobrado um valor de { $amount } + { $tax } de impostos por dia após o fim do teste gratuito em { $date }.
-free-trial-content-charge-info-with-tax-week = Irá ser cobrado { $amount } + { $tax } de impostos por semana após o fim do teste gratuito em { $date }.
-free-trial-content-charge-info-with-tax-month = Irá ser cobrado { $amount } + { $tax } de impostos por mês após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-day = Irá ser-lhe cobrado um valor de { $amount } + { $tax } de imposto por dia após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-week = Irá ser-lhe cobrado { $amount } + { $tax } de imposto por semana após o fim do teste gratuito em { $date }.
+free-trial-content-charge-info-with-tax-month = Irá ser-lhe cobrado { $amount } + { $tax } de imposto por mês após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-halfyear = Irá ser cobrado { $amount } + { $tax } de impostos todos os semestres após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-year = Irá ser cobrado { $amount } + { $tax } de impostos por ano após o fim do teste gratuito em { $date }.
 free-trial-content-charge-info-with-tax-default = Irá ser cobrado { $amount } + { $tax } de impostos depois do teste gratuito terminar em { $date }.
