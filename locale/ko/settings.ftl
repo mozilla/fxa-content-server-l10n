@@ -1968,6 +1968,10 @@ pair2-supplicant-ready-to-scan-learn-more-link = 더 알아보기
 ## is signed in and syncing with the computer they paired it with.
 
 pair2-supplicant-sync-success-heading = 기기가 연결되었습니다
+# "Syncing" here means copying data between the user's devices
+pair2-supplicant-sync-success-description-v2 = 동기화가 진행 중입니다. 동기화된 데이터가 나타날 때까지 시간이 걸릴 수 있습니다. 계속 브라우징해도 됩니다.
+# Opens the browser's sync settings, where the user chooses what to sync
+pair2-supplicant-sync-success-sync-settings-button-v2 = 동기화 설정 관리
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -1983,6 +1987,19 @@ pair2-supplicant-timeout-and-cancel-timeout-description = 모바일 기기를 �
 pair2-supplicant-timeout-and-cancel-cancelled-heading = 취소됨
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = 언제든 기기에 연결하려면, 컴퓨터에서 <b>firefox.com/pair</b>에 접속하세요.
+
+## Permissions page
+## Users see this page during sign-in or sign-up when a relying party is not a
+## trusted Mozilla application, or when it asks for consent explicitly.
+## The page informs the user which profile information the relying party can
+## read. It does not offer a choice.
+
+# Variable $serviceName is the name of the relying party, e.g. "321Done"
+permissions-heading = { $serviceName } 접근 요청:
+permissions-label-email = 이메일 주소
+permissions-label-display-name = 표시 이름
+permissions-continue-button = 계속
+permissions-cancel-button = 취소
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
