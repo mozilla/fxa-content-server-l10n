@@ -1482,6 +1482,7 @@ auth-error-228 = Рұқсат кілтін тіркеу сәтсіз аяқта�
 auth-error-233 = Рұқсат кілтін жасау үшін құрылғыңызда немесе қауіпсіздік кілтінде экран құлпын, PIN кодын, саусақ ізін немесе бетті тануды орнатыңыз. Содан кейін қайталап көріңіз.
 auth-error-238 = Рұқсат кілтін тексеру сәтсіз аяқталды
 auth-error-239 = Кешіріңіз, тіркелгіңізді өшіру мүмкін болмады. Қайталап көріңіз немесе, мәселе шешілмесе, қолдау қызметіне хабарласыңыз.
+auth-error-240 = Бұл тіркелгі сөндірілген
 auth-error-999 = Күтпеген қате
 auth-error-1001 = Кіру талабынан бас тартылды
 auth-error-1002 = Сессия мерзімі бітті. Жалғастыру үшін кіріңіз.
@@ -2010,6 +2011,19 @@ pair2-supplicant-timeout-and-cancel-timeout-description = Мобильді құ�
 pair2-supplicant-timeout-and-cancel-cancelled-heading = Бас тартылған
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = Құрылғыны кез келген уақытта қосу үшін компьютеріңізден <b>firefox.com/pair</b> сайтына кіріңіз.
+
+## Permissions page
+## Users see this page during sign-in or sign-up when a relying party is not a
+## trusted Mozilla application, or when it asks for consent explicitly.
+## The page informs the user which profile information the relying party can
+## read. It does not offer a choice.
+
+# Variable $serviceName is the name of the relying party, e.g. "321Done"
+permissions-heading = { $serviceName } келесіге қол жеткізуді қалайды:
+permissions-label-email = Эл. пошта адресі
+permissions-label-display-name = Көрсетілетін аты
+permissions-continue-button = Жалғастыру
+permissions-cancel-button = Бас тарту
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
