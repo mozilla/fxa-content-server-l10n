@@ -213,7 +213,7 @@ already-canceling-title = A sua subscrição está marcada para terminar
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 already-canceling-message = Irá continuar a ter acesso a { $productName } até { $date }.
-already-canceling-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento, antes desta terminar.
+already-canceling-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento antes desta terminar.
 already-canceling-button-back-to-subscriptions = Voltar para subscrições
 
 ## Navigation breadcrumbs
