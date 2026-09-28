@@ -2010,6 +2010,17 @@ pair2-supplicant-timeout-and-cancel-cancelled-heading = Geannuleerd
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = Bezoek <b>firefox.com/pair</b> op uw computer om op elk gewenst moment een apparaat te verbinden.
 
+## Permissions page
+## Users see this page during sign-in or sign-up when a relying party is not a
+## trusted Mozilla application, or when it asks for consent explicitly.
+## The page informs the user which profile information the relying party can
+## read. It does not offer a choice.
+
+permissions-label-email = E-mailadres
+permissions-label-display-name = Weergavenaam
+permissions-continue-button = Doorgaan
+permissions-cancel-button = Annuleren
+
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
