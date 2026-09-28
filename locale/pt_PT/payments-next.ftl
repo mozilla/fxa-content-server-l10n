@@ -256,7 +256,7 @@ next-payment-confirm-with-legal-links-static-3 = Eu autorizo a { -brand-mozilla 
 ## $endDate (Date) - The end date of the free trial
 
 checkbox-payment-required-no-charge = É necessário um método de pagamento para iniciar o seu teste gratuito. Não será cobrado até { $endDate }.
-checkbox-confirm-free-trial-with-legal-links = Eu autorizo { -brand-mozilla } a cobrar o meu método de pagamento pelo valor mostrado após o fim do teste gratuito em { $endDate }, de acordo com os <termsOfServiceLink>Termos do serviço</termsOfServiceLink> e a <privacyNoticeLink>Aviso de privacidade</privacyNoticeLink>, até que eu cancelar a minha subscrição.
+checkbox-confirm-free-trial-with-legal-links = Eu autorizo { -brand-mozilla } a cobrar o meu método de pagamento pelo valor mostrado após o fim do teste gratuito em { $endDate }, de acordo com os <termsOfServiceLink>Termos do Serviço</termsOfServiceLink> e a <privacyNoticeLink>Aviso de Privacidade</privacyNoticeLink>, até eu cancelar a minha subscrição.
 next-payment-confirm-checkbox-error = Precisa de concluir isto antes de continuar
 
 ## Checkout Form
