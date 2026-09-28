@@ -219,11 +219,11 @@ already-canceling-button-back-to-subscriptions = Voltar para subscrições
 ## Navigation breadcrumbs
 
 # Link title - Account settings
-subscription-management-breadcrumb-account-home = Página inicial da conta
+subscription-management-breadcrumb-account-home = Página Inicial da Conta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subscrições
 # Link title - Payment method management
-subscription-management-breadcrumb-payment-2 = Gerir métodos de pagamento
+subscription-management-breadcrumb-payment-2 = Gerir Métodos de Pagamento
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Voltar para { $page }
 
@@ -233,7 +233,7 @@ subscription-cancellation-dialog-title = Lamentamos vê-lo partir
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = A sua subscrição de { $name } foi cancelada. Ainda terá acesso a { $name } até { $date }.
-subscription-cancellation-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
+subscription-cancellation-dialog-aside = Tem questões? Visite o Suporte <LinkExternal>{ -brand-mozilla }</LinkExternal>.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 cancel-subscription-heading = Cancelar { $productName } subscrição
 
@@ -241,7 +241,7 @@ cancel-subscription-heading = Cancelar { $productName } subscrição
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Deixará de poder utilizar { $productName } depois de { $currentPeriodEnd }, o último dia do seu ciclo de faturação.
-subscription-content-cancel-access-message = Cancelar o meu acesso e a minha informação guardada em { $productName } em { $currentPeriodEnd }
+subscription-content-cancel-access-message = Cancelar o meu acesso e a minha informação guardada no { $productName } em { $currentPeriodEnd }
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
