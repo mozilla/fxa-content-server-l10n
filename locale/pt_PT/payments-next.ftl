@@ -269,25 +269,25 @@ free-trial-ineligible-notice = A sua conta não é elegível para um teste gratu
 
 churn-cancel-flow-success-title = Ainda está subscrito
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
-churn-cancel-flow-success-message = A sua subscrição irá continuar e irá poupar { $discountPercent }% na sua próxima fatura.
+churn-cancel-flow-success-message = A sua subscrição irá continuar, e irá poupar { $discountPercent }% na sua próxima fatura.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-churn-cancel-flow-thanks-valued-subscriber = Obrigado por utilizar { $productName }!
+churn-cancel-flow-thanks-valued-subscriber = Obrigado por usar { $productName }!
 churn-cancel-flow-button-back-to-subscriptions = Voltar para subscrições
-churn-cancel-flow-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+churn-cancel-flow-action-error = Ocorreu um erro inesperado. Por favor tente novamente.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
-churn-cancel-flow-button-stay-subscribed-and-save-discount = Mantenha-se subscrito e poupe { $discountPercent }%
-churn-cancel-flow-button-stay-subscribed-and-save = Manter a subscrição e guardar
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Manter a subscrição e poupar { $discountPercent }%
+churn-cancel-flow-button-stay-subscribed-and-save = Manter a subscrição e poupar
 churn-cancel-flow-button-cancel-subscription = Cancelar subscrição
 churn-cancel-flow-link-terms-and-restrictions = Aplicam-se termos limitados e restrições
 churn-cancel-flow-discount-already-applied-title = Código de desconto já aplicado
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-churn-cancel-flow-discount-already-applied-message = Este desconto foi aplicado a uma subscrição de { $productName } da sua conta. Se ainda precisar de ajuda, entre em contacto com a nossa equipa de apoio.
+churn-cancel-flow-discount-already-applied-message = Este desconto foi aplicado a uma subscrição de { $productName } para a sua conta. Se ainda precisar de ajuda, contacte a nossa equipa de Suporte.
 churn-cancel-flow-button-manage-subscriptions = Gerir subscrições
-churn-cancel-flow-button-contact-support = Contactar o apoio
+churn-cancel-flow-button-contact-support = Contactar Suporte
 
 ## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
-churn-cancel-flow-subscription-active-title = A sua subscrição { $productName } está ativa
+churn-cancel-flow-subscription-active-title = A sua subscrição de { $productName } está ativa
 churn-cancel-flow-button-go-to-product-page = Ir para { $productName }
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
 churn-cancel-flow-after = Depois disto, a sua subscrição será renovada automaticamente pela taxa padrão, a menos que você cancele.
@@ -295,15 +295,15 @@ churn-cancel-flow-cancel-success-title = Lamentamos vê-lo partir
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 # $date (Date) - Last day of product access
 churn-cancel-flow-cancel-success-dialog-msg = A sua subscrição de { $productName } foi cancelada. Ainda terá acesso a { $productName } até { $date }.
-churn-cancel-flow-cancel-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento, antes desta terminar.
-churn-cancel-flow-cancel-success-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
+churn-cancel-flow-cancel-turn-back-on = Pode ativar novamente a sua subscrição a qualquer momento antes desta terminar.
+churn-cancel-flow-cancel-success-dialog-aside = Tem questões? Visite o Suporte da <LinkExternal>{ -brand-mozilla }</LinkExternal>.
 
 ## Churn flow - stay subscribed
 
-churn-stay-subscribed-action-error = Ocorreu um erro inesperado. Por favor, tente novamente.
+churn-stay-subscribed-action-error = Ocorreu um erro inesperado. Por favor tente novamente.
 # $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
 churn-stay-subscribed-button-stay-subscribed-and-save-discount = Mantenha-se subscrito e poupe { $discountPercent }%
-churn-stay-subscribed-button-stay-subscribed-and-save = Manter a subscrição e guardar
+churn-stay-subscribed-button-stay-subscribed-and-save = Manter a subscrição e poupar
 churn-stay-subscribed-button-no-thanks = Não obrigado
     .aria-label = Voltar à página de Subscrições
 churn-stay-subscribed-link-terms-and-restrictions = Aplicam-se termos limitados e restrições
@@ -442,11 +442,11 @@ manage-stripe-payments-title = Gerir métodos de pagamento
 next-plan-details-header = Detalhes do produto
 next-plan-details-list-price = Preço de tabela
 # $productName (String) - The name of the product, e.g. Mozilla VPN
-plan-details-product-prorated-price = Preço proporcional para { $productName }
+plan-details-product-prorated-price = Preço rateado para { $productName }
 next-plan-details-tax = Impostos e Taxas
 next-plan-details-total-label = Total
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
-purchase-details-unused-time-label = Crédito de tempo não utilizado
+purchase-details-unused-time-label = Crédito pelo tempo não usado
 purchase-details-subtotal-label = Subtotal
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = Crédito aplicado
@@ -459,23 +459,23 @@ next-plan-details-show-button = Mostrar detalhes
 
 free-trial-start-title =
     { $trialDayLength ->
-        [one] Comece os seus { $trialDayLength } dias de teste gratuito
+        [one] Comece o seu { $trialDayLength } dia de teste gratuito
        *[other] Comece os seus { $trialDayLength } dias de teste gratuito
     }
 free-trial-success-title =
     { $trialDayLength ->
-        [one] O seu teste gratuito de { $trialDayLength } dias começou
+        [one] O seu teste gratuito de { $trialDayLength } dia começou
        *[other] O seu teste gratuito de { $trialDayLength } dias começou
     }
 
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date the free trial ends
 
-free-trial-start-message-daily = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/dia após o teste gratuito terminar em { $endDate }.
-free-trial-start-message-weekly = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/semana depois do teste gratuito terminar em { $endDate }.
-free-trial-start-message-monthly = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/mês após o fim do teste gratuito em { $endDate }.
-free-trial-start-message-halfyearly = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/6 meses após o teste gratuito terminar em { $endDate }.
-free-trial-start-message-yearly = Nenhum pagamento requerido hoje. Irá ser cobrado { $firstPrice }/ano após o teste gratuito terminar em { $endDate }.
+free-trial-start-message-daily = Nenhum pagamento requerido hoje. Irá ser-lhe cobrado { $firstPrice }/dia após o teste gratuito terminar em { $endDate }.
+free-trial-start-message-weekly = Nenhum pagamento requerido hoje. Irá ser-lhe cobrado { $firstPrice }/semana depois do teste gratuito terminar em { $endDate }.
+free-trial-start-message-monthly = Nenhum pagamento requerido hoje. Irá ser-lhe cobrado { $firstPrice }/mês após o fim do teste gratuito em { $endDate }.
+free-trial-start-message-halfyearly = Nenhum pagamento requerido hoje. Irá ser-lhe cobrado { $firstPrice }/6 meses após o teste gratuito terminar em { $endDate }.
+free-trial-start-message-yearly = Nenhum pagamento requerido hoje. Irá ser-lhe cobrado { $firstPrice }/ano após o teste gratuito terminar em { $endDate }.
 
 ##
 
