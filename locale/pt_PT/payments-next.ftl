@@ -485,10 +485,10 @@ free-trial-first-charge-title = Primeira cobrança: { $endDate }
 ## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
 ## $endDate (String) - The date of the first charge after the free trial ends
 
-free-trial-first-charge-message-daily = Será debitado { $firstPrice } a { $endDate } e depois diariamente até cancelar.
-free-trial-first-charge-message-weekly = Irá ser debitado { $firstPrice } a { $endDate } e, depois, semanalmente, até cancelar.
-free-trial-first-charge-message-monthly = Irá ser debitado { $firstPrice } a { $endDate } e depois mensalmente a partir de então até cancelar.
-free-trial-first-charge-message-halfyearly = Irá ser debitado { $firstPrice } em { $endDate } e depois a cada 6 meses até cancelar.
+free-trial-first-charge-message-daily = Ser-lhe-á debitado { $firstPrice } em { $endDate }, e a partir daí diariamente até cancelar.
+free-trial-first-charge-message-weekly = Ser-lhe-á debitado { $firstPrice } em { $endDate }, e a partir daí semanalmente até cancelar.
+free-trial-first-charge-message-monthly = Ser-lhe-á debitado { $firstPrice } em { $endDate }, e a partir daí mensalmente até cancelar.
+free-trial-first-charge-message-halfyearly = Ser-lhe-á debitado { $firstPrice } em { $endDate }, e a partir daí a cada 6 meses até cancelar.
 free-trial-first-charge-message-yearly = Irá ser debitado { $firstPrice } a { $endDate } e depois anualmente até cancelar.
 
 ##
@@ -709,13 +709,13 @@ stay-subscribed-error-general = Houve um problema com a renovação da sua subsc
 
 ## Manage Payment Method Error Messages
 
-manage-payment-method-intent-error-card-declined = Não foi possível processar sua transação. Verifique as informações do seu cartão de crédito e tente novamente.
+manage-payment-method-intent-error-card-declined = Não foi possível processar sua transação. Por favor verifique as informações do seu cartão de crédito e tente novamente.
 manage-payment-method-intent-error-expired-card-error = Parece que o seu cartão de crédito expirou. Tente outro cartão.
-manage-payment-method-intent-error-try-again = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Tente novamente mais tarde ou entre em contacto com o emissor do seu cartão.
+manage-payment-method-intent-error-try-again = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Tente novamente ou entre em contacto com o emissor do seu cartão.
 manage-payment-method-intent-error-get-in-touch = Hmm. Ocorreu um problema ao autorizar o seu pagamento. Entre em contacto com o emissor do seu cartão.
 manage-payment-method-intent-error-insufficient-funds = Parece que o seu cartão não possui fundos suficientes. Tente outro cartão.
-manage-payment-method-intent-error-generic = Ocorreu um erro inesperado ao processar o seu pagamento, por favor, tente novamente.
-manage-payment-method-tax-address-required = Não conseguimos determinar a sua localização de pagamento. Por favor, verifique as informações do seu método de pagamento e tente novamente.
+manage-payment-method-intent-error-generic = Ocorreu um erro inesperado ao processar o seu pagamento, por favor tente novamente.
+manage-payment-method-tax-address-required = Não conseguimos determinar a sua localização de pagamento. Por favor verifique as informações do seu método de pagamento e tente novamente.
 
 ## $currentPeriodEnd (Date) - The date of the next charge.
 ## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
@@ -724,12 +724,12 @@ manage-payment-method-tax-address-required = Não conseguimos determinar a sua l
 ## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
 ## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
 
-next-charge-with-discount-and-tax-card = Irá poupar { $discountPercent }% no seu próximo débito de { $nextInvoiceTotal } + { $taxDue } de impostos para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
-next-charge-with-discount-and-tax-payment-method = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de impostos no seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
-next-charge-next-charge-with-discount-and-tax = Irá guardar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de impostos em { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-card = Irá poupar { $discountPercent }% no seu próximo débito de { $nextInvoiceTotal } no cartão que termina em { $last4 } em { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-payment-method = Irá poupar { $discountPercent }% no seu próximo débito de { $nextInvoiceTotal } para o seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
-next-charge-with-discount-no-tax = Irá poupar { $discountPercent }% no seu próximo débito de { $nextInvoiceTotal } em { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-card = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
+next-charge-with-discount-and-tax-payment-method = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto no seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
+next-charge-next-charge-with-discount-and-tax = Irá poupar { $discountPercent }% na próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto em { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-card = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
+next-charge-with-discount-no-tax-payment-method = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto no seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
+next-charge-with-discount-no-tax = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } em { $currentPeriodEnd }.
 next-charge-with-tax-card = O seu próximo débito será de { $nextInvoiceTotal } + { $taxDue } impostos para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
 next-charge-with-tax-payment-method = O seu próximo débito será de { $nextInvoiceTotal } + { $taxDue } impostos para o seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
 next-charge-with-tax = O seu próximo débito será de { $nextInvoiceTotal } + { $taxDue } impostos em { $currentPeriodEnd }.
