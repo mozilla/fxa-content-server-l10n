@@ -489,7 +489,7 @@ free-trial-first-charge-message-daily = Ser-lhe-á debitado { $firstPrice } em {
 free-trial-first-charge-message-weekly = Ser-lhe-á debitado { $firstPrice } em { $endDate }, e a partir daí semanalmente até cancelar.
 free-trial-first-charge-message-monthly = Ser-lhe-á debitado { $firstPrice } em { $endDate }, e a partir daí mensalmente até cancelar.
 free-trial-first-charge-message-halfyearly = Ser-lhe-á debitado { $firstPrice } em { $endDate }, e a partir daí a cada 6 meses até cancelar.
-free-trial-first-charge-message-yearly = Irá ser debitado { $firstPrice } a { $endDate } e depois anualmente até cancelar.
+free-trial-first-charge-message-yearly = Irá ser-lhe debitado { $firstPrice } a { $endDate }, e depois anualmente até cancelar.
 
 ##
 
@@ -516,9 +516,9 @@ select-tax-location-error-invalid-postal-code = Por favor, introduza um código 
 select-tax-location-successfully-updated = A sua localização foi atualizada.
 select-tax-location-error-location-not-updated = Não foi possível atualizar a sua localização. Por favor, tente novamente.
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
-select-tax-location-invalid-currency-change = A sua conta é faturada em { $currencyDisplayName }. Selecione um país que utilize o { $currencyDisplayName }.
+select-tax-location-invalid-currency-change = A sua conta é faturada em { $currencyDisplayName }. Selecione um país que use { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Selecione um país que corresponda à moeda das suas subscrições ativas.
-select-tax-location-new-tax-rate-info = Atualizar a sua localização irá aplicar a nova taxa de impostos a todas as subscrições ativas na sua conta, a começar pelo seu próximo ciclo de faturação.
+select-tax-location-new-tax-rate-info = Atualizar a sua localização irá aplicar a nova taxa de imposto a todas as subscrições ativas na sua conta, a começar pelo seu próximo ciclo de faturação.
 signin-form-continue-button = Continuar
 signin-form-email-input = Introduza o seu email
 signin-form-email-input-missing = Por favor, introduza o seu e-mail
@@ -531,9 +531,9 @@ next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail 
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = Deseja continuar a usar { $productName }?
-stay-subscribed-access-will-continue = O seu acesso a { $productName } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão.
+stay-subscribed-access-will-continue = O seu acesso a { $productName } irá continuar, e o seu ciclo de faturação e de pagamento irão permanecer como estão.
 subscription-content-button-resubscribe = Resubscrever
-    .aria-label = Resubscrever a { $productName }
+    .aria-label = Resubscrever o { $productName }
 resubscribe-success-dialog-title = Obrigado! Está tudo feito.
 
 ## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
