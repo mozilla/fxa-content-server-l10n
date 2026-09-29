@@ -149,7 +149,7 @@ device-info-ip-address = Endereço de IP: { $ipAddress }
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
 firefox-promo-banner-mobile-heading = Obtenha o { -brand-firefox } onde quer que esteja
-firefox-promo-banner-mobile-description = Sincronize os seus separadores, marcadores e palavras-passe entre os seus dispositivos. Além disso, tudo permanece encriptado com segurança.
+firefox-promo-banner-mobile-description = Sincronize os seus separadores, marcadores, e palavras-passe entre os seus dispositivos. Adicionalmente, tudo permanece encriptado com segurança.
 firefox-promo-banner-mobile-cta = Ligar um dispositivo
 firefox-promo-banner-switch-heading = Rápido para mudar. Fácil de instalar.
 firefox-promo-banner-switch-description = Ao mudar para { -brand-firefox }, pode trazer os seus marcadores, palavras-passe, histórico e muito mais, para que possa navegar sem perder o ritmo.
