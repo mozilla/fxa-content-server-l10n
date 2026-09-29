@@ -423,7 +423,7 @@ promo-qr-mobile-heading = O seu telefone. As suas regras.
 # Value proposition variant. Refers to resuming browsing on another device.
 promo-qr-mobile-heading-treatment-a = Continue de onde ficou, onde quer que vá
 # Value proposition variant. "tabs" are the open pages in a browser.
-promo-qr-mobile-heading-treatment-b = Os seus separadores e mais, prontos no seu telemóvel
+promo-qr-mobile-heading-treatment-b = Os seus separadores e muito mais, prontos no seu telemóvel
 # Value proposition variant. Refers to using the same trusted browser on a phone.
 promo-qr-mobile-heading-treatment-c = O navegador que confia, no seu telemóvel
 # Value proposition variant. "Different screen" refers to the phone rather than the desktop.
@@ -1904,7 +1904,7 @@ pair2-authority-download-firefox-cta = Transferir { -brand-firefox }
 
 pair2-authority-scan-qr-heading = Digitalize para associar o seu dispositivo móvel
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-authority-scan-qr-instruction = Digitalize o código QR com o seu telemóvel ou tablet para sincronizar os seus { -brand-firefox } marcadores, separadores, e mais.
+pair2-authority-scan-qr-instruction = Digitalize o código QR com o seu telemóvel ou tablet para sincronizar os seus { -brand-firefox } marcadores, separadores, e muito mais.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = Código QR para ligar o seu dispositivo móvel
 # Link to a support article for users having trouble scanning the QR code
