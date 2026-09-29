@@ -271,7 +271,7 @@ icon-loading-arrow-aria-label =
     .aria-label = A carregar
 # Used for passkey icon
 icon-passkey-aria-label =
-    .aria-label = Chave de acesso
+    .aria-label = Chave-passe
 hearts-broken-image-aria-label =
     .aria-label = Um computador e um telemóvel, e a imagem de um coração quebrado em cada um
 hearts-verified-image-aria-label =
@@ -306,15 +306,15 @@ backup-authentication-codes-image-aria-label =
 sync-clouds-image-aria-label =
     .aria-label = Nuvens com um ícone de sincronização
 confetti-falling-image-aria-label =
-    .aria-label = Animação da descarga de uma rede
+    .aria-label = Animação de confetes a cair
 # In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
 vpn-welcome-image-aria-label =
-    .aria-label = { -brand-firefox } janela com uma medalha circular a mostrar uma marca de verificação verde e “VPN”, a mostrar que a VPN está ativa.
+    .aria-label = Janela { -brand-firefox } com um emblema circular que apresenta uma marca de verificação verde e “VPN,” a mostrar que a VPN está ativa.
 sync-devices-image-aria-label =
     .aria-label = Uma janela de navegador de computador e um telemóvel, ambos a sincronizar, com a mascote { -brand-firefox } ao lado deles
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
-    .aria-label = Logótipo de { -brand-firefox }
+    .aria-label = Logótipo do { -brand-firefox }
 # This id is referenced by `PasswordSuccessImage` but was never added here, so
 # the aria-label has been falling back to English in every locale.
 password-success-image-aria-label =
@@ -379,7 +379,7 @@ link-expired-new-link-button = Receber nova ligação
 # immediately before remember-password-signin-link
 remember-password-text = Memorizar a sua palavra-passe?
 # shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
-remember-password-passkey-text = Tem uma chave de acesso ou lembra-se da sua palavra-passe?
+remember-password-passkey-text = Tem uma chave-passe ou lembra-se da sua palavra-passe?
 # link navigates to the sign in page
 remember-password-signin-link = Iniciar sessão
 
@@ -407,7 +407,7 @@ password-info-balloon-reset-risk-info = Uma reposição significa a perda potenc
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
-password-strength-long-instruction = Escolha uma palavra-passe forte que não tenha utilizado em outros sites. Certifique-se que cumpre os requisitos de segurança:
+password-strength-long-instruction = Escolha uma palavra-passe forte que não tenha utilizado noutros sites. Certifique-se que cumpre os requisitos de segurança:
 password-strength-short-instruction = Escolha uma palavra-passe forte:
 password-strength-inline-min-length = Pelo menos 8 caracteres
 password-strength-inline-not-email = Não é o seu endereço de e-mail
@@ -440,7 +440,7 @@ promo-qr-mobile-heading-treatment-h = Tenha uma forma mais calma de navegar cons
 promo-qr-mobile-description-v2 = Digitalize para transferir a app para telemóvel
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
-    .alt = Código QR para transferir a aplicação móvel { -brand-firefox }. Posicione a câmara do seu telemóvel no canto inferior direito do seu ecrã para digitalizar o mesmo.
+    .alt = Código QR para transferir a aplicação móvel { -brand-firefox }. Posicione a câmara do seu telemóvel no canto inferior direito do seu ecrã para o digitalizar.
 
 ## Notification Promo Banner component
 
@@ -449,10 +449,10 @@ account-recovery-notification-header-value = Não perca os seus dados se se esqu
 account-recovery-notification-header-description = Crie uma chave de recuperação da conta para restaurar os seus dados de navegação sincronizados caso se esqueça da sua palavra-passe.
 recovery-phone-promo-cta = Adicionar telefone de recuperação
 recovery-phone-promo-heading = Adicione uma proteção adicional à sua conta, com um telefone de recuperação
-recovery-phone-promo-description = Agora pode iniciar sessão com uma palavra-passe única via SMS, se não puder utilizar a sua aplicação de autenticação de dois passos.
+recovery-phone-promo-description = Agora pode iniciar sessão com uma palavra-passe de utilização única enviada por SMS se não conseguir usar a sua app de autenticação de dois passos.
 recovery-phone-promo-info-link = Saber mais acerca da recuperação e risco de troca de SIM
 promo-banner-dismiss-button =
-    .aria-label = Ignorar banner
+    .aria-label = Dispensar banner
 
 ## Ready component
 
@@ -516,12 +516,12 @@ password-reset-chevron-collapsed = Expandir aviso
 password-reset-warning-review-sign-in-options = Rever as opções de início de sessão para manter os dados do navegador
 password-reset-warning-have-key = Tem uma chave de recuperação da conta?
 # "it" refers to the user's account recovery key.
-password-reset-warning-use-key-link-v2 = Utilize-o para repor a sua palavra-passe e manter os seus dados do navegador
+password-reset-warning-use-key-link-v2 = Use-o para repor a sua palavra-passe e manter os seus dados do navegador
 password-reset-warning-signed-in-device = Ainda com sessão iniciada noutro dispositivo?
-password-reset-warning-signed-in-device-description = Os dados do seu navegador podem estar disponíveis. Redefina a sua palavra-passe e inicie sessão nesse dispositivo para restaurar e sincronizar os seus dados.
+password-reset-warning-signed-in-device-description = Os dados do seu navegador podem estar disponíveis. Redefina a sua palavra-passe, depois inicie sessão nesse dispositivo para restaurar e sincronizar os seus dados.
 password-reset-warning-restore-data-link = Saiba como restaurar os dados do navegador a partir de um dispositivo autenticado
-password-reset-warning-new-device = Está a utilizar um dispositivo novo mas não pode aceder aos seus antigos?
-password-reset-warning-new-device-description = Depois de repor a sua palavra-passe, os dados encriptados do navegador em { -brand-firefox } servidores não estarão disponíveis neste dispositivo.
+password-reset-warning-new-device = Está a usar um dispositivo novo mas não pode aceder aos seus antigos?
+password-reset-warning-new-device-description = Depois de repor a sua palavra-passe, os dados encriptados do navegador nos servidores { -brand-firefox } não estarão disponíveis neste dispositivo.
 
 ## Alert Bar
 
