@@ -672,28 +672,28 @@ metadata-title-checkout-needs-input = Ação requerida | { $productTitle }
 metadata-description-checkout-needs-input = Por favor conclua a ação requerida para continuar com o pagamento.
 # Upgrade start
 metadata-title-upgrade-start = Atualizar | { $productTitle }
-metadata-description-upgrade-start = Introduza os seus detalhes de pagamento para concluir a sua atualização.
+metadata-description-upgrade-start = Introduza os detalhes do seu pagamento para concluir a sua atualização.
 # Upgrade processing
 metadata-title-upgrade-processing = A processar | { $productTitle }
-metadata-description-upgrade-processing = Por favor, aguarde enquanto terminamos de processar o seu pagamento.
+metadata-description-upgrade-processing = Por favor aguarde enquanto terminamos de processar o seu pagamento.
 # Upgrade error
 metadata-title-upgrade-error = Erro | { $productTitle }
-metadata-description-upgrade-error = Ocorreu um erro ao processar a sua atualização. Se o problema continuar, por favor, contacte o suporte.
+metadata-description-upgrade-error = Ocorreu um erro ao processar a sua atualização. Se o problema continuar, por favor contacte o suporte.
 # Upgrade success
 metadata-title-upgrade-success = Sucesso | { $productTitle }
 metadata-description-upgrade-success = Parabéns! Concluiu com sucesso a sua atualização.
 # Upgrade needs_input
-metadata-title-upgrade-needs-input = Ação necessária | { $productTitle }
-metadata-description-upgrade-needs-input = Por favor, conclua a ação necessária para continuar com o pagamento.
+metadata-title-upgrade-needs-input = Ação requerida | { $productTitle }
+metadata-description-upgrade-needs-input = Por favor conclua a ação requerida para continuar com o pagamento.
 # Default
 metadata-title-default = Página não encontrada | { $productTitle }
-metadata-description-default = A página solicitada não foi encontrada.
+metadata-description-default = A página que solicitou não foi encontrada.
 
 ## Coupon Error Messages
 
-next-coupon-error-cannot-redeem = O código que introduziu não pode ser trocado — a sua conta tem uma subscrição anterior de um dos nossos serviços.
+next-coupon-error-cannot-redeem = O código que introduziu não pode ser resgatado — a sua conta tem uma subscrição anterior de um dos nossos serviços.
 next-coupon-error-expired = O código que introduziu expirou.
-next-coupon-error-generic = Ocorreu um erro ao processar o código. Por favor, tente novamente.
+next-coupon-error-generic = Ocorreu um erro ao processar o código. Por favor tente novamente.
 next-coupon-error-invalid = O código que introduziu é inválido.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = O código que introduziu chegou ao seu limite.
@@ -703,7 +703,7 @@ next-coupon-error-limit-reached = O código que introduziu chegou ao seu limite.
 stay-subscribed-error-expired = Esta oferta expirou.
 stay-subscribed-error-discount-used = Código de desconto já aplicado.
 # $productTitle (String) - The name of the product
-stay-subscribed-error-not-current-subscriber = Este desconto apenas está disponível para os atuais { $productTitle } subscritores.
+stay-subscribed-error-not-current-subscriber = Este desconto está apenas disponível para os subscritores atuais de { $productTitle }.
 stay-subscribed-error-still-active = A sua subscrição de { $productTitle } ainda está ativa.
 stay-subscribed-error-general = Houve um problema com a renovação da sua subscrição.
 
