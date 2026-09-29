@@ -541,8 +541,8 @@ resubscribe-success-dialog-title = Obrigado! Está tudo feito.
 ## $last4 (String) - The last four digits of the default payment method card.
 ## $currentPeriodEnd (Date) - The date of the next charge.
 
-stay-subscribed-next-charge-with-tax = O seu próximo débito será de { $nextInvoiceTotal } + { $taxDue } impostos em { $currentPeriodEnd }.
-stay-subscribed-next-charge-no-tax = O seu próximo débito será de { $nextInvoiceTotal } em { $currentPeriodEnd }.
+stay-subscribed-next-charge-with-tax = A sua próxima cobrança será de { $nextInvoiceTotal } + { $taxDue } de imposto em { $currentPeriodEnd }.
+stay-subscribed-next-charge-no-tax = A sua próxima cobrança será de { $nextInvoiceTotal } em { $currentPeriodEnd }.
 
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
@@ -553,20 +553,20 @@ stay-subscribed-next-charge-no-tax = O seu próximo débito será de { $nextInvo
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-coupon-will-be-applied = { $promotionName } de desconto será aplicado
+subscription-content-coupon-will-be-applied = Será aplicado o desconto { $promotionName }
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Última fatura • { $billedOnDate }
-subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } impostos
+subscription-content-last-bill-with-tax = { $invoiceTotal } + { $taxDue } de imposto
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Ver fatura
 subscription-management-link-view-invoice-aria = Ver fatura para { $productName }
 subscription-content-expires-on-expiry-date = Expira a { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Próxima fatura • { $billedOnDate }
-subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } impostos
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + { $taxDue } de imposto
 subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
-subscription-content-button-stay-subscribed = Manter a subscrição
-    .aria-label = Manter a subscrição em { $productName }
+subscription-content-button-stay-subscribed = Manter Subscrição
+    .aria-label = Manter Subscrição de { $productName }
 subscription-content-button-cancel-subscription = Cancelar subscrição
     .aria-label = Cancelar a sua subscrição para { $productName }
 # Link to the terms and restrictions for a coupon offer.
