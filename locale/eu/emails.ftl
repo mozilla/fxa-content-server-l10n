@@ -102,6 +102,22 @@ device-all = { $uaBrowser } nabegatzailea { $uaOS }{ $uaOSVersion }-n
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } nabegatzailea { $uaOS }-n
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (gutxi gorabehera)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (gutxi gorabehera)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (gutxi gorabehera)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (gutxi gorabehera)
 cadReminderFirst-subject-1 = Gogoratu! Sinkroniza dezagun { -brand-firefox }
 cadReminderFirst-action = Sinkronizatu beste gailu bat
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
@@ -172,9 +188,17 @@ newDeviceLogin-change-password = Ez zara zu? <a data-l10n-name="passwordChangeLi
 newDeviceLogin-change-password-plain = Ez zara zu? Alda ezazu pasahitza:
 newDeviceLogin-action = Kudeatu kontua
 passwordChangeRequired-subject = Aktibitate susmagarria detektatu da
+passwordChangeRequired-preview = Aldatu zure pasahitza berehala
+passwordChangeRequired-title-2 = Berrezarri pasahitza
+passwordChangeRequired-action = Berrezarri pasahitza
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 passwordChanged-subject = Pasahitza eguneratuta
 passwordChanged-title = Pasahitza ondo aldatu da
 passwordChanged-description-2 = Zure { -product-mozilla-account }-ko pasahitza ondo aldatu da ondorengo gailutik:
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+password-forgot-otp-subject-2 = Erabili { $code } zure pasahitza aldatzeko
+password-forgot-otp-preview = Kode hau 10 minutu barru iraungiko da
 password-forgot-otp-title = Pasahitza ahaztu duzu?
 password-forgot-otp-request = Zure { -product-mozilla-account } pasahitza aldatzeko eskaera jaso dugu hemendik:
 password-forgot-otp-code-2 = Hau zu bazara, hona hemen zure berrespen-kodea aurrera egiteko:
@@ -191,6 +215,9 @@ passwordResetAccountRecovery-information = Sinkronizatutako gailu guztietatan am
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Sinkronizatutako gailu guztietatan amaitu dugu saioa. Kontua berreskuratzeko gako berri bat sortu dugu erabili zenuena ordezkatzeko. Zure kontuaren ezarpenetan alda dezakezu:
 passwordResetAccountRecovery-action-4 = Kudeatu kontua
+passwordResetRecoveryPhone-subject = Berreskuratze-telefonoa erabilita
+passwordResetRecoveryPhone-preview = Egiaztatu ziurtatzeko zu izan zarela
+passwordResetRecoveryPhone-title = Zure berreskuratze-telefonoa erabili da pasahitz-berrezartzea berresteko
 passwordResetRecoveryPhone-device = Berreskuratze-telefonoa hemendik erabilita:
 passwordResetRecoveryPhone-action = Kudeatu kontua
 passwordResetWithRecoveryKeyPrompt-subject = Zure pasahitza berrezarri egin da
@@ -217,6 +244,8 @@ postAddLinkedAccount-action = Kudeatu kontua
 postAddPasskey-subject = Sarbide-gakoa sortuta
 postAddPasskey-preview = Orain zure gailua erabil dezakezu saioa hasteko
 postAddPasskey-title = Sarbide-gakoa sortu duzu
+postAddPasskey-description = Orain zure { -product-mozilla-account } zerbitzu guztietan saioa hasteko erabil dezakezu.
+postAddPasskey-sync-note = Kontuan izan pasahitza beharko duzula oraindik zure { -brand-firefox } sinkronizazio-datuetarako sarbidea izateko.
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Argibide gehiago
 postAddPasskey-requested-from = Hemendik eskatu duzu hau:
