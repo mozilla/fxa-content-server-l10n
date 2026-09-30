@@ -906,7 +906,7 @@ page-2fa-setup-totpinfo-error = Ocorreu um erro ao configurar a autenticação d
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Esse código não está correto. Tente novamente.
 page-2fa-setup-success = A autenticação de dois passos foi ativada
-page-2fa-setup-success-additional-message = Para proteger todos os seus dispositivos ligados, deve terminar sessão em todos os lugares em que estiver a utilizar esta conta e depois iniciar sessão novamente utilizando a autenticação de dois passos.
+page-2fa-setup-success-additional-message = Para proteger todos os seus dispositivos ligados, deve terminar sessão em todos os lugares em que estiver a usar esta conta, e depois iniciar sessão novamente utilizando a autenticação de dois passos.
 
 ## Avatar change page
 
@@ -1087,7 +1087,7 @@ recent-activity-account-passwordless-login-otp-verified = Código de início de 
 recent-activity-account-passwordless-registration-complete = Registo de conta sem palavra-passe concluído
 recent-activity-account-recovery-codes-set = Códigos de recuperação definidos
 # A passkey is a sign-in method that replaces a password. This string is shown when a passkey was set up so it can also unlock the user's synced browser data (bookmarks, history, open tabs), which previously required their password.
-recent-activity-account-passkey-wrap-created = Chave de acesso ativada para sincronização
+recent-activity-account-passkey-wrap-created = Chave-passe ativada para sincronização
 # A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
 recent-activity-account-passkey-wrap-creation-failure = A configuração da sincronização com a chave de acesso falhou
 # A passkey is a sign-in method that replaces a password. This string is shown when a passkey that could unlock the user's synced browser data had that access turned off, leaving the passkey itself usable for signing in.
