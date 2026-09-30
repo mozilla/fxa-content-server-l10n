@@ -1089,13 +1089,13 @@ recent-activity-account-recovery-codes-set = Códigos de recuperação definidos
 # A passkey is a sign-in method that replaces a password. This string is shown when a passkey was set up so it can also unlock the user's synced browser data (bookmarks, history, open tabs), which previously required their password.
 recent-activity-account-passkey-wrap-created = Chave-passe ativada para sincronização
 # A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
-recent-activity-account-passkey-wrap-creation-failure = A configuração da sincronização com a chave de acesso falhou
+recent-activity-account-passkey-wrap-creation-failure = A configuração da sincronização com a chave-passe falhou
 # A passkey is a sign-in method that replaces a password. This string is shown when a passkey that could unlock the user's synced browser data had that access turned off, leaving the passkey itself usable for signing in.
 recent-activity-account-passkey-wrap-deleted = Removido acesso da chave-passe à sincronização
 # A passkey is a sign-in method that replaces a password. This string is shown when an attempt to turn off a passkey's access to the user's synced browser data did not complete.
 recent-activity-account-passkey-wrap-deletion-failure = Falha na remoção do acesso da chave-passe à sincronização
 # A passkey is a sign-in method that replaces a password. Resetting a forgotten password re-encrypts the user's synced browser data, which their passkeys can no longer unlock. This string is shown when that happened and the passkeys need to be set up for syncing again.
-recent-activity-account-passkey-wrap-invalidated = Acesso à sincronização da chave removido após a reposição da palavra-passe
+recent-activity-account-passkey-wrap-invalidated = Acesso à sincronização da chave-passe removido após a reposição da palavra-passe
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Outra atividade da conta
 
@@ -1174,7 +1174,7 @@ inactive-update-status-success-alert = Sessão iniciada com sucesso. A sua { -pr
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description-v2 = Encontre onde a sua informação privada está exposta e assuma o controlo
+product-promo-monitor-description-v2 = Descubra onde a sua informação privada está exposta e assuma o controlo
 # Links out to the Monitor site
 product-promo-monitor-cta = Obter verificação gratuita
 product-promo-vpn =
@@ -1266,16 +1266,15 @@ passkey-sub-row-created-date = Criado: { $createdDate }
 # Variables:
 #   $lastUsedDate (String) - a localized date string
 passkey-sub-row-last-used-date = Última utilização: { $lastUsedDate }
-passkey-sub-row-delete-title = Eliminar chave de acesso
-passkey-delete-modal-heading = Apagar a sua chave?
-passkey-delete-modal-content-v2 = Esta chave será removida da sua conta. Terá de iniciar sessão utilizando um método diferente (palavra-passe, outra chave de acesso ou conta associada).
+passkey-sub-row-delete-title = Apagar chave-passe
+passkey-delete-modal-heading = Apagar a sua chave-passe?
+passkey-delete-modal-content-v2 = Esta chave-passe será removida da sua conta. Terá de iniciar sessão usando um método diferente (palavra-passe, outra chave-passe, ou conta associada).
 passkey-delete-modal-cancel-button = Cancelar
-passkey-delete-modal-confirm-button = Eliminar chave de acesso
-passkey-delete-success = Chave eliminada
-passkey-delete-error = Ocorreu um problema ao eliminar a sua chave. Tente novamente dentro de alguns minutos.
-passkey-sub-row-rename-title = Renomear chave de acesso
-passkey-rename-modal-heading = Renomear chave de acesso
-passkey-rename-modal-description = Digite um novo nome para esta chave.
+passkey-delete-modal-confirm-button = Apagar chave-passe
+passkey-delete-success = Chave-passe apagada
+passkey-delete-error = Ocorreu um problema ao apagar a sua chave-passe. Tente novamente dentro de alguns minutos.
+passkey-sub-row-rename-title = Renomear chave-passe
+passkey-rename-modal-heading = Renomear chave-passe
 passkey-rename-input-label = Nome da chave
 passkey-rename-save-button = Guardar
 passkey-rename-cancel-button = Cancelar
