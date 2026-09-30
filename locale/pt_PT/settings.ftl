@@ -874,9 +874,9 @@ nav-email-comm = Comunicações por e-mail
 
 page-2fa-change-title = Alterar autenticação de dois passos
 page-2fa-change-success = A autenticação de dois passos foi atualizada
-page-2fa-change-success-additional-message = Para proteger todos os seus dispositivos associados, termine sessão em todos os lugares em que estiver a utilizar esta conta e depois inicie sessão novamente utilizando a sua nova autenticação de dois passos.
+page-2fa-change-success-additional-message = Para proteger todos os seus dispositivos associados, deve terminar sessão em todos os lugares em que estiver a usar esta conta, e depois inicie sessão novamente usando a sua nova autenticação de dois passos.
 page-2fa-change-totpinfo-error = Ocorreu um erro ao substituir a sua aplicação de autenticação de dois passos. Tente novamente mais tarde.
-page-2fa-change-qr-instruction = <strong>Etapa 1:</strong> Digitalize este código QR utilizando qualquer aplicação de autenticação, como o Duo ou o Google Authenticator. Isto cria uma nova ligação. Quaisquer ligações antigas deixarão de funcionar.
+page-2fa-change-qr-instruction = <strong>Passo 1:</strong> Digitalize este código QR utilizando qualquer aplicação de autenticação, como o Duo ou o Google Authenticator. Isto cria uma nova ligação, quaisquer ligações antigas deixarão de funcionar.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -892,16 +892,16 @@ tfa-replace-code-success-alert-4 = Códigos de autenticação de recuperação a
 tfa-create-code-success-alert = Códigos de autenticação de recuperação criados
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
-tfa-replace-code-download-description = Mantenha-os num local que irá memorizar. Os seus códigos antigos serão substituídos depois de concluir o próximo passo.
+tfa-replace-code-download-description = Mantenha-os num local de que se lembre. Os seus códigos antigos serão substituídos depois de concluir o próximo passo.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
-tfa-replace-code-confirm-description = Confirme que guardou os seus códigos ao introduzir um. Os seus códigos de autenticação de recuperação antigos serão desativados assim que esta etapa for concluída.
+tfa-replace-code-confirm-description = Confirme que guardou os seus códigos ao introduzir um. Os seus códigos de autenticação de recuperação antigos serão desativados assim que este passo for concluído.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Código de autenticação de recuperação incorreto
 
 ## Page2faSetup
 
-page-2fa-setup-title = Autenticação de dois fatores
+page-2fa-setup-title = Autenticação de dois passos
 page-2fa-setup-totpinfo-error = Ocorreu um erro ao configurar a autenticação de dois passos. Tente novamente mais tarde.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Esse código não está correto. Tente novamente.
@@ -1318,11 +1318,11 @@ passkey-row-info-link-2 = Saber mais
 #   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
 passkey-row-max-limit-banner =
     { $count ->
-        [one] Utilizou todas as { $count } palavras-passe. Elimine uma chave de acesso para criar uma nova.
-       *[other] Utilizou todas as { $count } palavras-passe. Elimine uma chave de acesso para criar uma nova.
+        [one] Usou todas as { $count } chaves-passe. Apague uma chave-passe para criar uma nova.
+       *[other] Usou todas as { $count } chaves-passe. Apague uma chave-passe para criar uma nova.
     }
 # Tooltip shown on the disabled Create button when the passkey limit is reached
-passkey-row-max-limit-disabled-reason = Atingiu o número máximo de palavras-passe.
+passkey-row-max-limit-disabled-reason = Atingiu o número máximo de chaves-passe.
 
 ## Account recovery key sub-section on main Settings page
 
