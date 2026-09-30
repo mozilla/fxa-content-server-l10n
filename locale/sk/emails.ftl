@@ -275,7 +275,7 @@ postAddPasskey-learn-more = Ďalšie informácie
 postAddPasskey-requested-from = Požiadali ste o to z:
 postAddPasskey-action = Spravovať účet
 postAddRecoveryPhone-subject = Obnovenie pomocou telefónu bolo pridané
-postAddRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
+postAddRecoveryPhone-preview = Účet chránený dvojstupňovým overením
 postAddRecoveryPhone-title-v2 = Pridali ste telefónne číslo na obnovenie účtu
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -291,7 +291,7 @@ postAddTwoStepAuthentication-title-2 = Zapli ste dvojstupňové overenie
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Požiadali ste o to z:
 postAddTwoStepAuthentication-action = Spravovať účet
-postAddTwoStepAuthentication-code-required-v4 = Pri každom prihlásení sa teraz vyžadujú bezpečnostné kódy z vašej aplikácie na overenie totožnosti.
+postAddTwoStepAuthentication-code-required-v4 = Pri každom prihlásení sa teraz vyžadujú bezpečnostné kódy z vašej overovacej aplikácie.
 postAddTwoStepAuthentication-recovery-method-codes = Ako spôsob obnovenia prístupu ste tiež pridali záložné overovacie kódy.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -311,14 +311,14 @@ postChangePrimary-title = Nová hlavná e‑mailová adresa
 postChangePrimary-description-2 = Úspešne ste zmenili svoju hlavnú e‑mailovú adresu na { $email }. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k { -product-mozilla-account(capitalization: "lower", case: "dat") } a na zasielanie bezpečnostných upozornení a potvrdení.
 postChangePrimary-action = Spravovať účet
 postChangeRecoveryPhone-subject = Obnovenie pomocou telefónu bolo aktualizované
-postChangeRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
+postChangeRecoveryPhone-preview = Účet chránený dvojstupňovým overením
 postChangeRecoveryPhone-title = Zmenili ste si telefón na obnovenie účtu
 postChangeRecoveryPhone-description = Teraz máte nové telefónne číslo na obnovenie účtu. Vaše predchádzajúce telefónne číslo bolo odstránené.
 postChangeRecoveryPhone-requested-device = Požiadali ste o to z:
 postChangeTwoStepAuthentication-preview = Váš účet je chránený
 postChangeTwoStepAuthentication-subject = Dvojstupňové overenie aktualizované
 postChangeTwoStepAuthentication-title = Dvojstupňové overenie bolo aktualizované
-postChangeTwoStepAuthentication-use-new-account = Teraz musíte vo svojej aplikácii na overenie totožnosti použiť nový záznam pre { -product-mozilla-account(case: "acc") }. Starší záznam už nebude fungovať a môžete ho odstrániť.
+postChangeTwoStepAuthentication-use-new-account = Teraz musíte vo svojej overovacej aplikácii použiť nový záznam pre { -product-mozilla-account(case: "acc") }. Starší záznam už nebude fungovať a môžete ho odstrániť.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Požiadali ste o to z:
 postChangeTwoStepAuthentication-action = Spravovať účet
@@ -349,7 +349,7 @@ postRemovePasskey-description = Na prihlásenie budete musieť použiť iný sp�
 postRemovePasskey-requested-from = Požiadali ste o to z:
 postRemovePasskey-action = Spravovať účet
 postRemoveRecoveryPhone-subject = Obnovenie pomocou telefónu bolo zrušené
-postRemoveRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
+postRemoveRecoveryPhone-preview = Účet chránený dvojstupňovým overením
 postRemoveRecoveryPhone-title = Obnovenie pomocou telefónu bolo zrušené
 postRemoveRecoveryPhone-description-v2 = Telefón na obnovenie účtu bol odstránený z nastavení dvojstupňového overenia.
 postRemoveRecoveryPhone-description-extra = Ak nemôžete použiť aplikáciu na overenie totožnosti, na prihlásenie môžete použiť svoje záložné overovacie kódy.
