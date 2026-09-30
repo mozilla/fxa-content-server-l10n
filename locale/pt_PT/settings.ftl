@@ -1778,21 +1778,21 @@ pair-qr-code-aria-label = Código QR
 ## Choice screen — "Do you have Firefox for mobile?"
 
 # Subheader shown on the choice screen
-pair-choice-subheader = Sincronize a sua experiência com { -brand-firefox }
+pair-choice-subheader = Sincronize a sua experiência { -brand-firefox }
 # Description shown on the choice screen
-pair-choice-description = Consulte as suas palavras-passe guardadas, separadores, histórico de navegação e muito mais — em todos os seus dispositivos.
+pair-choice-description = Veja as suas palavras-passe guardadas, separadores, histórico de navegação e muito mais — em todos os seus dispositivos.
 # Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
-pair-choice-header-send-tab = Transferir ou abrir { -brand-firefox } no dispositivo para onde deseja enviar separadores
+pair-choice-header-send-tab = Transfira ou abra o { -brand-firefox } no dispositivo para onde deseja enviar separadores
 # Legend for the radio button fieldset
 pair-choice-legend = Selecione uma opção para continuar:
 # Radio option: user already has Firefox for mobile — title
-pair-choice-has-mobile-title = Eu já tenho { -brand-firefox } para dispositivos móveis
+pair-choice-has-mobile-title = Já tenho o { -brand-firefox } para telemóvel
 # Radio option: user already has Firefox for mobile — description
-pair-choice-has-mobile-description = Comece a sua sincronização agora se já tem { -brand-firefox } no seu dispositivo móvel.
+pair-choice-has-mobile-description = Comece a sua sincronização agora se já tem o { -brand-firefox } no seu dispositivo móvel.
 # Radio option: user does not have Firefox for mobile — title
-pair-choice-needs-mobile-title = Eu não tenho { -brand-firefox } para dispositivos móveis
+pair-choice-needs-mobile-title = Não tenho o { -brand-firefox } para telemóvel
 # Radio option: user does not have Firefox for mobile — description
-pair-choice-needs-mobile-description = Transfira o { -brand-firefox } para o seu dispositivo móvel e inicie a sua sincronização.
+pair-choice-needs-mobile-description = Transfira o { -brand-firefox } para o seu dispositivo móvel, depois inicie a sua sincronização.
 # Continue button on choice screen (disabled until a radio option is selected)
 pair-choice-continue-button = Continuar
 # Success banner shown after signing in
@@ -1805,11 +1805,11 @@ pair-password-created-now-syncing = Palavra-passe criada. Está agora a sincroni
 ## Download screen — shown after selecting "I don’t have Firefox for mobile"
 
 # Subheader for the download screen
-pair-download-subheader = Transferir o { -brand-firefox } para dispositivos móveis
+pair-download-subheader = Transferir o { -brand-firefox } para telemóvel
 # Description for the download screen
-pair-download-description = Para sincronizar { -brand-firefox } no seu telefone ou tablet, primeiro precisa de transferir { -brand-firefox } para dispositivos móveis. Eis como:
+pair-download-description = Para sincronizar o { -brand-firefox } no seu telefone ou tablet, primeiro precisa de transferir o { -brand-firefox } para telemóvel. Eis como:
 # Step 1: scan QR code. $stepNumber is the step number (1)
-pair-download-step-scan-qr = <b>Passo { $stepNumber }</b>: Transfira { -brand-firefox } ao digitalizar este código QR com a câmara do seu dispositivo móvel:
+pair-download-step-scan-qr = <b>Passo { $stepNumber }</b>: Transfira o { -brand-firefox } ao digitalizar este código QR com a câmara do seu dispositivo móvel:
 # Step 2: continue to sync. $stepNumber is the step number (2)
 pair-download-step-continue-sync = <b>Passo { $stepNumber }</b>: Selecione “Continuar para sincronizar” para sincronizar a sua experiência { -brand-firefox } no seu dispositivo móvel.
 # Button on the download screen that opens about:preferences for pairing
@@ -1819,7 +1819,7 @@ pair-continue-to-sync-button = Continuar para sincronizar
 
 pair-success-header-2 = Dispositivo ligado
 pair-success-message-2 = O emparelhamento foi bem-sucedido.
-pair-success-tab-close-message = Este separador será fechado automaticamente por { -brand-firefox }.
+pair-success-tab-close-message = Este separador será fechado automaticamente pelo { -brand-firefox }.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1844,24 +1844,24 @@ pair-wait-for-auth-heading-text = A aprovação agora é necessária <span>do se
 pair-unsupported-header = Emparelhar usando uma aplicação
 pair-unsupported-message = Utilizou a câmara do sistema? Deve emparelhar a partir de uma aplicação { -brand-firefox }.
 # Shown as heading when a desktop user visits from a non-Firefox browser
-pair-unsupported-oops-header = Ops! Parece que não está a utilizar { -brand-firefox }.
+pair-unsupported-oops-header = Oops! Parece que não está a usar o { -brand-firefox }.
 # Shown below the heading on desktop non-Firefox, prompting the user to switch browsers
-pair-unsupported-switch-to-firefox = Mude para { -brand-firefox } e abra esta página para ligar outro dispositivo.
+pair-unsupported-switch-to-firefox = Mude para o { -brand-firefox } e abra esta página para ligar outro dispositivo.
 # Shown inline on mobile non-Firefox browsers before the download link
-pair-unsupported-oops-mobile = Ops! Parece que não está a utilizar { -brand-firefox }.
+pair-unsupported-oops-mobile = Oops! Parece que não está a usar o { -brand-firefox }.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
 # Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
-pair-unsupported-connecting-mobile-header-v2 = A ligar o seu dispositivo móvel ao seu { -product-mozilla-account }
+pair-unsupported-connecting-mobile-header-v2 = A ligar o seu dispositivo móvel à sua { -product-mozilla-account }
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
-pair-unsupported-connecting-mobile-instructions-v2 = Abra o { -brand-firefox } no seu computador, visite <b>firefox.com/pair</b> e siga as instruções no ecrã para ligar o seu dispositivo móvel.
+pair-unsupported-connecting-mobile-instructions-v2 = Abra o { -brand-firefox } no seu computador, visite <b>firefox.com/pair</b>, e siga as instruções no ecrã para ligar o seu dispositivo móvel.
 # v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
 pair-unsupported-learn-more-link-v2 = Saber mais
 # v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
 # Matches the legacy Backbone "Oops! Something went wrong." message.
-pair-unsupported-desktop-firefox-fallback-header-v2 = Ups! Algo correu mal.
-pair-unsupported-desktop-firefox-fallback-message-v2 = Por favor, feche este separador e tente novamente.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Oops! Algo correu mal.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Por favor feche este separador e tente novamente.
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer, which is already signed in, after their
@@ -1883,7 +1883,7 @@ pair2-authority-approve-sign-in-change-password = Não é você? <changePassword
 ## for the remaining steps to be completed there.
 
 pair2-authority-continue-on-mobile-heading = Continue no seu dispositivo móvel
-pair2-authority-continue-on-mobile-description = Siga os passos no seu telemóvel ou tablet.
+pair2-authority-continue-on-mobile-description = Siga os passos no seu telefone ou tablet.
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Cancelar
 
@@ -1892,9 +1892,9 @@ pair2-authority-continue-on-mobile-cancel-button = Cancelar
 ## It points them at firefox.com/pair and offers a download link for Firefox.
 
 # "sync" is a verb here, referring to syncing data between the user's devices
-pair2-authority-download-firefox-heading = Abrir { -brand-firefox } para sincronizar
+pair2-authority-download-firefox-heading = Abrir o { -brand-firefox } para sincronizar
 # "firefox.com/pair" is a URL and should not be translated
-pair2-authority-download-firefox-instruction = Para configurar a sincronização entre dispositivos, abra { -brand-firefox } neste dispositivo e visite <b>firefox.com/pair</b>
+pair2-authority-download-firefox-instruction = Para configurar a sincronização entre dispositivos, abra o { -brand-firefox } neste dispositivo e visite <b>firefox.com/pair</b>
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Transferir { -brand-firefox }
 
