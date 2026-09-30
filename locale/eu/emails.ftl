@@ -191,6 +191,8 @@ passwordResetAccountRecovery-information = Sinkronizatutako gailu guztietatan am
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Sinkronizatutako gailu guztietatan amaitu dugu saioa. Kontua berreskuratzeko gako berri bat sortu dugu erabili zenuena ordezkatzeko. Zure kontuaren ezarpenetan alda dezakezu:
 passwordResetAccountRecovery-action-4 = Kudeatu kontua
+passwordResetRecoveryPhone-device = Berreskuratze-telefonoa hemendik erabilita:
+passwordResetRecoveryPhone-action = Kudeatu kontua
 passwordResetWithRecoveryKeyPrompt-subject = Zure pasahitza berrezarri egin da
 passwordResetWithRecoveryKeyPrompt-title = Zure pasahitza berrezarri egin da
 # Details of the device and date/time where the password was reset
@@ -212,6 +214,9 @@ postAddLinkedAccount-subject-2 = Kontu berria zure { -product-mozilla-account }-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Zure { $providerName } kontuarekin lotu da zure { -product-mozilla-account }
 postAddLinkedAccount-action = Kudeatu kontua
+postAddPasskey-subject = Sarbide-gakoa sortuta
+postAddPasskey-preview = Orain zure gailua erabil dezakezu saioa hasteko
+postAddPasskey-title = Sarbide-gakoa sortu duzu
 # Links out to a support article about passkeys and { -brand-firefox } sync
 postAddPasskey-learn-more = Argibide gehiago
 postAddPasskey-requested-from = Hemendik eskatu duzu hau:
@@ -240,6 +245,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Autentifikazio-kodeen babes
 postAddTwoStepAuthentication-recovery-method-phone = { $maskedPhoneNumber } ere gehitu duzu berreskuratze-telefono gisa.
 postAddTwoStepAuthentication-how-protects-link = Honek nola babesten duen zure kontua
 postAddTwoStepAuthentication-how-protects-plaintext = Honek nola babesten duen zure kontua:
+postAddTwoStepAuthentication-device-sign-out-message = Konektatutako zure gailu guztiak babesteko, kontu hau darabilzun gailu guztietan saioa amaitu behar zenuke eta gero saioa berriro hasi bi urratseko autentifikazioa erabiliz.
 postChangeAccountRecovery-subject = Kontuaren berreskuratze-gakoa aldatuta
 postChangeAccountRecovery-title = Kontua berreskuratzeko gakoa aldatu duzu
 postChangeAccountRecovery-body-part1 = Orain kontua berreskuratzeko gako berri bat duzu. Zure aurreko gakoa ezabatu egin da.
@@ -259,11 +265,17 @@ postChangeRecoveryPhone-requested-device = Honi eskatu diozu:
 postChangeTwoStepAuthentication-preview = Zure kontua babestuta dago
 postChangeTwoStepAuthentication-subject = Bi urratseko autentifikazioa eguneratuta
 postChangeTwoStepAuthentication-title = Bi urratseko autentifikazioa eguneratu egin da
+postChangeTwoStepAuthentication-use-new-account = Orain zure autentifikazio-aplikazioko { -product-mozilla-account } sarrera berria erabili behar duzu. Zaharrak ez du gehiago funtzionatuko eta ken dezakezu.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Hemendik eskatu duzu hau:
 postChangeTwoStepAuthentication-action = Kudeatu kontua
 postChangeTwoStepAuthentication-how-protects-link = Honek nola babesten duen zure kontua
 postChangeTwoStepAuthentication-how-protects-plaintext = Honek nola babesten duen zure kontua:
+postChangeTwoStepAuthentication-device-sign-out-message = Konektatutako zure gailu guztiak babesteko, kontu hau darabilzun gailu guztietan saioa amaitu behar zenuke eta gero saioa berriro hasi bi urratseko autentifikazio berria erabiliz.
+postConsumeRecoveryCode-title-3 = Zure autentifikazio-kodearen babeskopia erabili da pasahitz-berrezartzea berresteko
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kodea hemendik erabilita:
 postConsumeRecoveryCode-action = Kudeatu kontua
 postConsumeRecoveryCode-subject-v3 = Autentifikazio-kodearen babeskopia erabilita
 postConsumeRecoveryCode-preview = Egiaztatu ziurtatzeko zu izan zarela
@@ -380,11 +392,22 @@ verifyAccountChange-title = Zure kontuaren informazioa aldatzen ari zara?
 verifyAccountChange-safe = Lagundu iezaguzu zure kontua seguru mantentzen aldaketa hau onartuz hemen:
 verifyAccountChange-prompt = Hala bada, hona hemen zure baimen-kodea:
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Minutu barru iraungiko da.
+       *[other] { $expirationTime } minutu barru iraungiko da.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Hasi duzu saioa { $clientName }-(e)n?
 verifyLogin-description-2 = Lagundu iezaguzu zure kontua seguru mantentzen saioa hasi duzula baieztatuz:
 verifyLogin-subject-2 = Berretsi saio-hasiera
 verifyLogin-action = Berretsi saio-hasiera
+# Variables:
+#  $code (String) - The confirmation code for sign-in
+verifyLoginCode-subject-line-3 = Erabili { $code } saioa hasteko
+verifyLoginCode-preview = Kode hau 5 minutu barru iraungiko da.
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Hasi duzu saioa { $serviceName }-(e)n?
@@ -398,6 +421,10 @@ verifyPrimary-subject = Berretsi helbide elektroniko lehenetsia
 verifyPrimary-action-2 = Berretsi helbide elektronikoa
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Berretsi ondoren, kontu-aldaketak egin ahal izango dira gailu honetatik bigarren mailako mezu elektroniko bat gehitzea, esaterako.
+# Variables:
+#  $code (String) - The confirmation code for secondary email
+verifySecondaryCode-subject-2 = Erabili { $code } zure ordezko helbide elektronikoa berresteko
+verifySecondaryCode-preview = Kode hau 5 minutu barru iraungiko da.
 verifySecondaryCode-title-2 = Berretsi bigarren helbide elektronikoa
 verifySecondaryCode-action-2 = Berretsi helbide elektronikoa
 # Variables:
@@ -405,6 +432,10 @@ verifySecondaryCode-action-2 = Berretsi helbide elektronikoa
 verifySecondaryCode-explainer-2 = { $email } bigarren helbide elektroniko gisa erabiltzeko eskaera egin da { -product-mozilla-account } honetatik:
 verifySecondaryCode-prompt-2 = Sartu baieztapen-kode hau:
 verifySecondaryCode-expiry-notice-2 = 5 minututan iraungiko da. Behin baieztatuta, helbide hau segurtasun jakinarazpenak eta berrespenak jasotzen hasiko da.
+# Variables:
+#  $code (String) - comfirmation code for the account
+verifyShortCode-subject-4 = Erabili { $code } zure kontua berresteko
+verifyShortCode-preview-2 = Kode hau 5 minutu barru iraungiko da
 verifyShortCode-title-3 = Ireki internet { -brand-mozilla }z
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Berretsi kontua eta atera etekinik handiena { -brand-mozilla }-ri saioa hasten duzun toki guztietan:
