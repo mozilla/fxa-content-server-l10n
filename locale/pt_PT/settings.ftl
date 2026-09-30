@@ -749,23 +749,24 @@ flow-setup-2fa-inline-complete-backup-code-info =
        *[other] { $count } códigos restantes
     }
 flow-setup-2fa-inline-complete-backup-code-description = Este é o método de recuperação mais seguro se não conseguir iniciar sessão com o seu dispositivo móvel ou aplicação de autenticação.
+flow-setup-2fa-inline-complete-backup-phone-description = Este é o método de recuperação mais fácil se não conseguir iniciar sessão com a sua aplicação de autenticação.
 flow-setup-2fa-inline-complete-learn-more-link = Como isto protege a sua conta
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Continuar para { $serviceName }
-flow-setup-2fa-prompt-heading = Configurar autenticação em duas etapas
+flow-setup-2fa-prompt-heading = Configurar autenticação de dois passos
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
-flow-setup-2fa-prompt-description = { $serviceName } requer que configure a autenticação de dois passos para manter a sua conta segura.
+flow-setup-2fa-prompt-description = O { $serviceName } requer que configure a autenticação de dois passos para manter a sua conta segura.
 # Success banner shown at the top of the page when the user signed in with a passkey.
-flow-setup-2fa-prompt-passkey-success-banner = Sessão iniciada com sucesso com a chave
+flow-setup-2fa-prompt-passkey-success-banner = Sessão iniciada com sucesso através da chave-passe
 # Body copy shown when the user signed in with a passkey and the service still
 # requires two-step authentication setup.
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
-flow-setup-2fa-prompt-passkey-description = { $serviceName } também requer autenticação de dois passos para o seu { -product-mozilla-account }. Depois da configuração, deixará de precisar da mesma quando iniciar sessão com uma chave de acesso.
+flow-setup-2fa-prompt-passkey-description = O { $serviceName } também requer autenticação de dois passos para a sua { -product-mozilla-account }. Depois da configuração, deixará de precisar da mesma quando iniciar sessão com uma chave-passe.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-flow-setup-2fa-prompt-use-authenticator-apps = Pode utilizar qualquer uma das <authenticationAppsLink>estas aplicações de autenticação</authenticationAppsLink> para continuar.
+flow-setup-2fa-prompt-use-authenticator-apps = Pode utilizar qualquer uma <authenticationAppsLink>destas aplicações de autenticação</authenticationAppsLink> para continuar.
 flow-setup-2fa-prompt-continue-button = Continuar
 
 ## FlowSetupPhoneConfirmCode
