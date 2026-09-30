@@ -420,6 +420,16 @@ password-strength-inline-passwords-match = Ñe’ẽñemi ojueheguáva
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Ne pumbyry. Nde rekoguata.
+# Value proposition variant. Refers to resuming browsing on another device.
+promo-qr-mobile-heading-treatment-a = Eku’ejey epytahague guive, tereime reimehápe
+# Value proposition variant. "tabs" are the open pages in a browser.
+promo-qr-mobile-heading-treatment-b = Ne rendaykeita ha hetave, tysýi ne pumbyrýpe
+# Value proposition variant. Refers to using the same trusted browser on a phone.
+promo-qr-mobile-heading-treatment-c = Pe kundahára ejeroviaha, ne pumbyrýpe avei
+# Value proposition variant. "Different screen" refers to the phone rather than the desktop.
+promo-qr-mobile-heading-treatment-d = { -brand-firefox } tee. Mba’erechaha ambuéva.
+# Value proposition variant. "stop here" means privacy protection should continue onto the phone.
+promo-qr-mobile-heading-treatment-e = Ne rekoñemi ndopakuaái ko’ápe
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
     .alt = QR ayvu emboguejy hag̃ua pumbyry rembiporu’i { -brand-firefox }. Emoĩ ne pumbyry ra’ãnganohẽha iguy akatúa gotyo emoha’ãngakuaa hag̃ua.
