@@ -89,10 +89,29 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Ekintza hau baimendu ez bazenuen, berrezarri zure pasahitza orain { $resetLink } helbidean
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Hau ez baduzu zuk egin, orduan <a data-l10n-name="resetLink">berrezarri zure pasahitza</a> eta <a data-l10n-name="twoFactorSettingsLink">berrezarri bi urratseko autentifikazioa</a> berehala.
+    Informazio gehiagorako, bisitatu <a data-l10n-name="supportLink">{ -brand-mozilla } laguntza</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Hau ez baduzu zuk egin, orduan berrezarri zure pasahitza berehala hemen:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Halaber, berrezarri bi urratseko autentifikazioa hemen:
+automated-email-sign-in =
+    Mezu elektroniko automatiko bat da hau; ekintza hau ez baduzu baimendu, orduan <a data-l10n-name="securitySettingsLink">berrikusi zure kontuaren segurtasun-ezarpenak</a>.
+    Informazio gehiagorako, bisitatu <a data-l10n-name="supportLink">{ -brand-mozilla } laguntza</a>.
+automated-email-sign-in-plaintext = Ekintza hau ez baduzu baimendu, berrikusi zure kontuaren segurtasun-ezarpenak hemen:
 brand-banner-message = Ba al zenekien gure izena { -product-firefox-accounts } izatetik { -product-mozilla-accounts } izatera aldatu dugula? <a data-l10n-name="learnMore">Lortu informazio gehiago</a>
 change-password-plaintext = Inor zure kontuan sartzen saiatzen ari dela susmatzen baduzu, mesedez aldatu zure pasahitza.
 manage-account = Kudeatu kontua
 manage-account-plaintext = { manage-account }:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Informazio gehiagorako, bisitatu <a data-l10n-name="supportLink">{ -brand-mozilla } laguntza</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Informazio gehiagorako, bisitatu { -brand-mozilla } laguntza: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -190,6 +209,10 @@ newDeviceLogin-action = Kudeatu kontua
 passwordChangeRequired-subject = Aktibitate susmagarria detektatu da
 passwordChangeRequired-preview = Aldatu zure pasahitza berehala
 passwordChangeRequired-title-2 = Berrezarri pasahitza
+passwordChangeRequired-suspicious-activity-3 = Zure kontua blokeatu dugu jarduera susmagarritik seguru mantentzeko. Zure gailu guztietako saioa amaitu egin da eta sinkronizatutako datu oro ezabatu egin dira badaezpadako neurri gisa.
+passwordChangeRequired-sign-in-3 = Zure kontuan berriro saioa hasteko, pasahitza berrezarri behar duzu.
+passwordChangeRequired-different-password-2 = <b>Garrantzitsua:</b> aukeratu aurretik erabili ez duzun pasahitz sendo bat.
+passwordChangeRequired-different-password-plaintext-2 = Garrantzitsua: aukeratu aurretik erabili ez duzun pasahitz sendo bat.
 passwordChangeRequired-action = Berrezarri pasahitza
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 passwordChanged-subject = Pasahitza eguneratuta
