@@ -1511,7 +1511,7 @@ passkey-registration-error-not-allowed = A configuração da chave-passe falhou 
 # Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
 # Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
 # the far more likely cause when the user has existing passkeys, so we state it plainly.
-passkey-registration-error-not-allowed-existing = A configuração da chave-passe não está disponível neste dispositivo. Ou o dispositivo já está registado ou o processo de configuração foi cancelado.
+passkey-registration-error-not-allowed-existing = A configuração da chave-passe não está disponível com este dispositivo. Ou o dispositivo já está registado ou o processo de configuração foi cancelado.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = A configuração da chave-passe foi cancelada. Tente novamente.
 passkey-registration-canceled-v2 = A configuração da chave-passe expirou ou foi cancelada.
@@ -1534,7 +1534,7 @@ passkey-registration-error-invalid-state = Esta chave-passe já está registada.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-registration-error-not-readable = Não conseguimos aceder ao autenticador. Tente novamente ou escolha outro método.
 # Attestation constraints or device-specific restrictions can't be met
-passkey-registration-error-constraint = A configuração por chave-passe não está disponível neste dispositivo. Tente outro método ou dispositivo.
+passkey-registration-error-constraint = A configuração por chave-passe não está disponível com este dispositivo. Tente outro método ou dispositivo.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
 passkey-registration-error-unexpected = A configuração da chave-passe falhou. Tente novamente ou escolha outro método.
 # Shown as a warning (not error) banner when a passkey sign-in is cancelled, no passkey is
@@ -1550,17 +1550,17 @@ passkey-authentication-trouble-link = Como utilizar chaves-passe
 # User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
 passkey-authentication-error-not-allowed = A autenticação com a chave-passe falhou ou está indisponível. Tente novamente ou escolha outro método.
 # User already registered a device
-passkey-authentication-error-not-allowed-existing = A configuração por palavra-passe não está disponível para este dispositivo. Por favor, tente novamente ou escolha outro método.
+passkey-authentication-error-not-allowed-existing = A configuração por chave-passe não está disponível com este dispositivo. Por favor tente novamente ou escolha outro método.
 # The ceremony timed out before the user responded
-passkey-authentication-error-timeout = O pedido de chave expirou. Por favor, tente novamente.
+passkey-authentication-error-timeout = O pedido de chave-passe expirou. Por favor tente novamente.
 # Shown in a warning (not error) banner when the passkey sign-in ceremony times out.
-passkey-authentication-error-timeout-v2 = O início de sessão com a chave expirou. Tente novamente.
+passkey-authentication-error-timeout-v2 = O início de sessão com chave-passe expirou. Tente novamente.
 # Browser or platform does not support passkeys
-passkey-authentication-error-not-supported-v2 = O seu navegador ou dispositivo não suporta palavras-passe.
+passkey-authentication-error-not-supported-v2 = O seu navegador ou dispositivo não suporta chaves-passe.
 # RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
-passkey-authentication-error-security = Não podem ser utilizadas chaves de acesso nesta página. Verifique se está no site seguro correto e tente novamente.
+passkey-authentication-error-security = Não podem ser utilizadas chaves-passe nesta página. Verifique se está no site seguro correto e tente novamente.
 # Unexpected credential state during authentication
-passkey-authentication-error-invalid-state = Algo não correu bem com a sua chave. Tente novamente ou utilize outro método de início de sessão.
+passkey-authentication-error-invalid-state = Algo não correu bem com a sua chave-passe. Tente novamente ou utilize outro método de início de sessão.
 # Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
 passkey-authentication-error-not-readable = Não conseguimos aceder ao autenticador. Tente novamente ou utilize outro método de início de sessão.
 # Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
