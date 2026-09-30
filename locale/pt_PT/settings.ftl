@@ -1902,7 +1902,7 @@ pair2-authority-download-firefox-cta = Transferir { -brand-firefox }
 ## Users see this on their computer. It shows a QR code that they scan with
 ## their phone or tablet to connect the two devices and start syncing.
 
-pair2-authority-scan-qr-heading = Digitalize para associar o seu dispositivo móvel
+pair2-authority-scan-qr-heading = Digitalize para ligar o seu dispositivo móvel
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-scan-qr-instruction = Digitalize o código QR com o seu telemóvel ou tablet para sincronizar os seus { -brand-firefox } marcadores, separadores, e muito mais.
 # Accessible label describing the QR code image shown on this page
@@ -1928,7 +1928,7 @@ pair2-authority-sync-success-sync-settings-button-v2 = Gerir definições de sin
 ## start pairing over again.
 
 # Shown when the pairing attempt expired before it was approved
-pair2-authority-timeout-and-cancel-timeout-heading = Ainda pretende ligar um dispositivo?
+pair2-authority-timeout-and-cancel-timeout-heading = Ainda quer ligar um dispositivo?
 pair2-authority-timeout-and-cancel-timeout-description = Parece que expirámos. Tente novamente se ainda quiser ligar o seu dispositivo móvel e sincronizar os seus dados do { -brand-firefox }.
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-cancelled-heading = Cancelado
@@ -2172,11 +2172,11 @@ reset-password-recovery-phone-resend-success = Código enviado
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 reset-password-recovery-phone-locked-out-link = Está bloqueado?
 reset-password-recovery-phone-send-code-error-heading = Ocorreu um problema ao enviar o código
-reset-password-recovery-phone-code-verification-error-heading = Ocorreu um problema ao confirmar o seu código
+reset-password-recovery-phone-code-verification-error-heading = Ocorreu um problema ao verificar o seu código
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = Por favor tente mais tarde.
 reset-password-recovery-phone-invalid-code-error-description = O código é inválido ou expirou.
-reset-password-recovery-phone-invalid-code-error-link = Em vez disso, utilizar códigos de autenticação de recuperação?
+reset-password-recovery-phone-invalid-code-error-link = Em vez disso, usar códigos de autenticação de recuperação?
 reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
 reset-password-complete-new-password-saved = Nova palavra-passe guardada!
 reset-password-complete-recovery-key-created = Nova chave de recuperação da conta criada. Transferir e guardar agora.
@@ -2211,9 +2211,9 @@ signin-password-button-label = Palavra-passe
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = O { -brand-firefox } vai tentar redirecionar para a utilização de uma máscara de e-mail após o seu início de sessão.
-signin-code-expired-error = O código expirou. Por favor, inicie novamente a sessão.
+signin-code-expired-error = O código expirou. Por favor inicie sessão novamente.
 # Error message displayed when OAuth native flow recovery fails
-signin-recovery-error = Algo correu mal. Por favor, inicie novamente a sessão.
+signin-recovery-error = Algo correu mal. Por favor inicie sessão novamente.
 signin-account-locked-banner-heading = Repor a sua palavra-passe
 signin-account-locked-banner-description = Bloqueámos a sua conta para a manter segura de atividades suspeitas.
 # This link points to https://accounts.firefox.com/reset_password
@@ -2243,7 +2243,7 @@ back = Voltar
 
 signin-passkey-fallback-header = Concluir início de sessão
 signin-passkey-fallback-heading = Introduza a sua palavra-passe para sincronizar
-signin-passkey-fallback-body = Para manter os seus dados seguros, tem de introduzir a sua palavra-passe ao utilizar esta chave de acesso.
+signin-passkey-fallback-body = Para manter os seus dados seguros, tem de introduzir a sua palavra-passe ao usar esta chave-passe.
 signin-passkey-fallback-password-label = Palavra-passe
 signin-passkey-fallback-continue = Continuar
 signin-passkey-fallback-forgot-password-link = Esqueceu-se da palavra-passe?
@@ -2251,8 +2251,8 @@ signin-passkey-fallback-forgot-password-link = Esqueceu-se da palavra-passe?
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
-signin-passwordless-code-heading = Inserir código de confirmação
-signin-passwordless-code-subheading = Iniciar sessão é apenas um passo quando utiliza este código.
+signin-passwordless-code-heading = Insira código de confirmação
+signin-passwordless-code-subheading = O início de sessão é feito num único passo quando se utiliza este código.
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -2264,7 +2264,7 @@ signin-passwordless-code-instruction =
         [one] Digite o código que foi enviado para <email>{ $email }</email> dentro de { $expirationMinutes } minuto.
        *[other] Digite o código que foi enviado para <email>{ $email }</email> dentro de { $expirationMinutes } minutos.
     }
-signin-passwordless-code-input-label-v2 = Inserir código de 6 dígitos
+signin-passwordless-code-input-label-v2 = Insera código de 6 dígitos
 signin-passwordless-code-confirm-button = Confirmar
 signin-passwordless-code-required-error = É necessário o código de confirmação
 signin-passwordless-code-expired = Código expirado?
@@ -2276,7 +2276,7 @@ signin-passwordless-code-resend-countdown =
     }
 signin-passwordless-code-resend-link = Enviar novo código por e-mail.
 signin-passwordless-code-resend-error = Algo correu mal. Não foi possível enviar um novo código.
-signin-passwordless-code-other-account-link = Utilizar uma conta diferente
+signin-passwordless-code-other-account-link = Usar uma conta diferente
 
 ## SignupPasswordlessCode page
 ## Users are prompted to enter a code sent to their email to create a new account without a password.
