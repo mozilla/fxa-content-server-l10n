@@ -26,7 +26,7 @@ msgstr "صفحه پیدا نشد"
 msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
-msgstr ""
+msgstr "صفحه‌ای که درخواست کرده‌اید پیدا نشد. این موضوع به ما اطلاع داده شده است          و پیوندهای خراب را اصلاح خواهیم کرد."
 
 #: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
@@ -34,43 +34,43 @@ msgstr "خانه"
 
 #: server/templates/pages/src/500.html:3
 msgid "500 Error"
-msgstr "خطا 500"
+msgstr "خطای ۵۰۰"
 
 #: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
-msgstr ""
+msgstr "متأسفانه مشکلی پیش آمده است. این موضوع به ما اطلاع داده شده است          و برای رفع آن تلاش خواهیم کرد."
 
 #: server/templates/pages/src/502.html:3
 msgid "502 Error"
-msgstr "خطا 502"
+msgstr "خطای ۵۰۲"
 
 #: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
-msgstr "کارگزار مشغول است، لطفا بعدا دوباره تلاش کنید"
+msgstr "کارگزار مشغول است، لطفاً بعداً دوباره تلاش کنید"
 
 #: server/templates/pages/src/503.html:4
 msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
-msgstr ""
+msgstr "در حال حاضر فشار زیادی بر سامانه وارد است و تلاش می‌کنیم            هرچه سریع‌تر آن را به حالت عادی برگردانیم."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "در حال بارگیری"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "حساب‌های Mozilla به جاوااسکریپت نیاز دارند."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "حساب Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
-msgstr ""
+msgstr "به‌روزرسانی Firefox لازم است"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid ""
@@ -79,7 +79,8 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"حساب Mozilla شما از قابلیت‌هایی استفاده می‌کند که                        در نسخه Firefox شما پشتیبانی نمی‌شوند. لطفاً برای                        ادامه، جدیدترین نسخه Firefox را بارگیری و نصب کنید."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
-msgstr ""
+msgstr "بارگیری جدیدترین نسخه"
