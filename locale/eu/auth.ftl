@@ -158,6 +158,7 @@ subscriptionSupport-plaintext = Zure harpidetzari buruzko galderarik ba al duzu?
 subscriptionSupportContact = Eskarrikasko { $productName }-n harpidetzeagatik. Zure harpidetzari buruz galderarik baduzu edo { $productName }ri buruz informazio gehiago nahi baduzu, jarri harremanetan <a data-l10n-name="subscriptionSupportUrl"> gurekin</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Eskarrikasko { $productName }-n harpidetzeagatik. Zure harpidetzari buruz galderarik baduzu edo { $productName }-ri buruz informazio gehiago nahi baduzu, jarri harremanetan gurekin.
+subscription-support-get-help = Jaso harpidetzari buruzko laguntza
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Kudeatu zure harpidetza</a>
 # After the colon, there's a link to https://payments.firefox.com/subscriptions
 subscription-support-manage-your-subscription-plaintext = Kudeatu zure harpidetza:
@@ -201,6 +202,21 @@ freeTrialEndingReminder-subject = Zure { $productName } doako proba laster amait
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-greeting = { $productName } bezero agurgarria,
 # Variables:
+#   $serviceLastActiveDateOnly (String) - The date the free trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-trial-ending = Zure doako proba <strong>{ $serviceLastActiveDateOnly }</strong> datan amaituko da.
+freeTrialEndingReminder-content-trial-ending-plaintext = Zure doako proba { $serviceLastActiveDateOnly } datan amaituko da.
+# Variables:
+#   $invoiceTotal (String) - The total amount that will be charged, e.g. $9.99
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+freeTrialEndingReminder-content-auto-charge = Ez baduzu aurretik bertan behera uzten, harpidetza automatikoki hasiko da eta <strong>{ $invoiceTotal }</strong> kobratuko dizugu zure kontuan ezarritako ordainketa-metodoa erabilita <strong>{ $serviceLastActiveDateOnly }</strong> egunean.
+freeTrialEndingReminder-content-auto-charge-plaintext = Ez baduzu aurretik bertan behera uzten, harpidetza automatikoki hasiko da eta { $invoiceTotal } kobratuko dizugu zure kontuan ezarritako ordainketa-metodoa erabilita { $serviceLastActiveDateOnly } egunean.
+freeTrialEndingReminder-content-charge-heading = Prezioaren xehetasunak
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = { $productName } harpidetza: { $invoiceSubtotal }
+freeTrialEndingReminder-content-charge-subscription-2 = { $productName } harpidetza
+# Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
 freeTrialEndingReminder-content-charge-discount = Deskontua: { $invoiceDiscountAmount }
 freeTrialEndingReminder-content-charge-discount-2 = Deskontua
@@ -208,6 +224,17 @@ freeTrialEndingReminder-content-charge-discount-2 = Deskontua
 #   $invoiceTaxAmount (String) - The tax amount, e.g. $1.20
 freeTrialEndingReminder-content-charge-tax = Zergak: { $invoiceTaxAmount }
 freeTrialEndingReminder-content-charge-tax-2 = Zergak
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the charge will occur, e.g. January 20, 2016
+#   $invoiceTotal (String) - The total amount due, e.g. $9.99
+freeTrialEndingReminder-content-charge-total = Guztira { $serviceLastActiveDateOnly } egunera arte ordaintzeko: { $invoiceTotal }
+freeTrialEndingReminder-content-charge-total-2 = Guztira { $serviceLastActiveDateOnly } egunera arte ordaintzeko
+freeTrialEndingReminder-content-account-link = Zure ordainketa-metodoa eta kontuaren informazioa <a data-l10n-name="freeTrialEndingReminder-update-billing">hemen</a> berrikus eta egunera dezakezu.
+freeTrialEndingReminder-content-account-link-plaintext = Zure ordainketa-metodoa eta kontuaren informazioa hemen berrikus eta egunera dezakezu:
+# Variables:
+#   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
+freeTrialEndingReminder-content-cancel-link = Kobratzea ekiditeko, utzi harpidetza bertan behera <strong>{ $serviceLastActiveDateOnly }</strong> egunaren aurretik: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Utzi harpidetza</a>
+freeTrialEndingReminder-content-cancel-link-plaintext = Kobratzea ekiditeko, utzi harpidetza bertan behera { $serviceLastActiveDateOnly } egunaren aurretik:
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Zure { $productName } harpidetza bertan behera utzi da
