@@ -43,9 +43,21 @@ button-back-title = Atzera
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = Deskargatu eta jarraitu
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Arazo bat izan da kontua berreskuratzeko gakoa deskargatzean.
+
+## ButtonPasskeySignin
+
+button-passkey-signin = Hasi saioa sarbide-gakoa erabilita
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Modu seguruan saioa hasten…
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -63,6 +75,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Ekintza alertak Internet berreskuratzeko
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Argia
+dark-mode-toggle-dark = Iluna
+dark-mode-toggle-system = Sistema
+dark-mode-toggle-label = Txandakatu itxura
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -71,6 +90,12 @@ datablock-copy =
     .message = Kopiatuta
 datablock-print =
     .message = Inprimatuta
+
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Kopiatuta
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -97,6 +122,12 @@ device-info-browser-os = { $browserName } { $genericOSName }-(e)n
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP helbidea: { $ipAddress }
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-mobile-cta = Konektatu gailua
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -109,6 +140,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Berretsi pasahitza
 form-password-with-inline-criteria-reset-submit-button = Sortu pasahitz berria
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Pasahitza
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Errepikatu pasahitza
+form-password-with-inline-criteria-set-password-submit-button = Hasi sinkronizatzen
 form-password-with-inline-criteria-match-error = Pasahitzak ez datoz bat
 form-password-with-inline-criteria-sr-too-short-message = Psahitzak gutxienez 8 karaktere izan behar ditu.
 form-password-with-inline-criteria-sr-not-email-message = Pasahitzak ezin du zure posta elektronikoa izan.
@@ -189,6 +225,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Kodea
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = Editatu
 error-icon-aria-label =
     .aria-label = Errorea
 # Used as information icon for informative messaging
@@ -197,6 +236,12 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Estatu Batuetako bandera
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Kargatzen
+# Used for passkey icon
+icon-passkey-aria-label =
+    .aria-label = Sarbide-gakoa
 hearts-broken-image-aria-label =
     .aria-label = Ordenagailu bat eta telefono mugikor bat eta bihotz hautsi baten irudia bakoitzean
 hearts-verified-image-aria-label =
@@ -228,6 +273,9 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Telefono mugikorra SMS testu-mezuen gaitasunak dituena
 backup-authentication-codes-image-aria-label =
     .aria-label = Gailuaren pantaila kodeekin
+# Aria label for the Firefox logo and wordmark shown together as a brand lockup
+firefox-wordmark-image-aria-label =
+    .aria-label = { -brand-firefox } logoa
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -300,6 +348,8 @@ confirmation-link-reused-message = Berrespen-lotura hori erabilita dago eta behi
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Hautatu hizkuntza
+locale-toggle-browser-default = Nabigatzailearen lehenetsia
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Eskaera okerra
 
@@ -316,10 +366,13 @@ password-strength-inline-min-length = Gutxienez 8 karaktere
 password-strength-inline-not-email = Ezin da zure helbide elektronikoa izan
 password-strength-inline-not-common = Ezin da askotan erabilitako pasahitza izan
 password-strength-inline-confirmed-must-match = Berrespena pasahitz berriarekin bat dator
+password-strength-inline-passwords-match = Pasahitzak bat datoz
 
 ## PromoQrMobile component
 ## Promotional aside encouraging users to download the Firefox mobile app via QR code.
 
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = Zure telefonoa. Zure arauak.
 # Value proposition variant. Refers to resuming browsing on another device.
 promo-qr-mobile-heading-treatment-a = Zoazen tokira zoazela, jarraitu utzi zenuen lekutik
 # Value proposition variant. "tabs" are the open pages in a browser.
@@ -344,6 +397,10 @@ promo-qr-mobile-description-v2 = Eskaneatu mugikorrerako aplikazioa deskargatzek
 account-recovery-notification-cta = Sortu
 account-recovery-notification-header-value = Ez galdu zure datuak pasahitza ahazten baduzu
 account-recovery-notification-header-description = Sortu kontua berreskuratzeko gako bat, zure sinkronizazioaren arakatze-datuak leheneratu ahal izateko pasahitza ahazten baduzu.
+recovery-phone-promo-cta = Gehitu berreskuratze-telefonoa
+recovery-phone-promo-heading = Gehitu aparteko babesa zure kontuan berreskuratze-telefonoa erabilita
+promo-banner-dismiss-button =
+    .aria-label = Baztertu iragarki-banda
 
 ## Ready component
 
@@ -554,6 +611,28 @@ flow-recovery-key-info-cta-text-v3 = Hasi erabiltzen
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Utzi
 
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+flow-setup-2fa-backup-code-confirm-code-input = Sartu 10 karaktereko kodea
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Amaitu
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-button-continue = Jarraitu
+
+##
+
+flow-setup-2fa-inline-complete-success-banner = Bi urratseko autentifikazioa gaituta
+flow-setup-2fa-inline-complete-backup-phone = Berreskuratze-telefonoa
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Jarraitu { $serviceName } zerbitzura
+flow-setup-2fa-prompt-heading = Konfiguratu bi urratseko autentifikazioa
+flow-setup-2fa-prompt-continue-button = Jarraitu
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -570,6 +649,7 @@ flow-setup-phone-confirm-code-expired = Kodea iraungita?
 flow-setup-phone-confirm-code-resend-code-button = Birbidali kodea
 flow-setup-phone-confirm-code-resend-code-success = Kodea bidalia
 flow-setup-phone-confirm-code-success-message-v2 = Berreskuratze telefonoa gehitu da
+flow-change-phone-confirm-code-success-message = Berreskuratze-telefonoa aldatuta
 flow-setup-phone-submit-number-heading = Egiaztatu zure telefono zenbakia
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = { -brand-mozilla } erabiltzailearen testu-mezu bat jasoko duzu zure zenbakia egiaztatzeko kode batekin. Ez partekatu kode hau inorekin.
@@ -588,6 +668,8 @@ header-menu-open = Itxi menua
 header-menu-closed = Gunearen nabigazio-menua
 header-back-to-top-link =
     .title = Itzuli gora
+header-back-to-settings-link =
+    .title = Itzuli { -product-mozilla-account } ezarpenetara
 header-title-2 = { -product-mozilla-account }
 header-help = Laguntza
 
@@ -608,6 +690,15 @@ nav-linked-accounts = { la-heading }
 modal-close-title = Itxi
 modal-cancel-button = Utzi
 modal-default-confirm-button = Berretsi
+
+## ModalMfaProtected
+
+modal-mfa-protected-title = Idatzi berrespen-kodea
+modal-mfa-protected-cancel-button = Utzi
+modal-mfa-protected-confirm-button = Berretsi
+modal-mfa-protected-code-expired = Kodea iraungita?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Bidali kode berria posta elektronikora.
 
 ## Modal Verify Session
 
@@ -630,6 +721,11 @@ nav-data-collection = Datuen bilketa eta erabilera
 nav-paid-subs = Ordainpeko harpidetzak
 nav-email-comm = Posta bidezko komunikazioak
 
+## Page2faChange
+
+page-2fa-change-title = Aldatu bi urratseko autentifikazioa
+page-2fa-change-success = Bi urratseko autentifikazioa eguneratu egin da
+
 ## Two Step Authentication - replace backup authentication code
 
 # Error shown when API call fails while replacing existing backup codes
@@ -638,6 +734,10 @@ tfa-replace-code-error-3 = Arazoa egon da zure autentikazio-kode segurtasun kopi
 tfa-create-code-error = Arazoa egon da zure autentikazio-kode segurtasun kopia sortzean.
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Eguneratu dira babeskopiko autentifikazio-kodeak
+
+## Page2faSetup
+
+page-2fa-setup-title = Bi urratseko autentifikazioa
 
 ## Avatar change page
 
@@ -775,6 +875,8 @@ recent-activity-account-recovery-phone-removed = Berreskuratze telefonoa kendu d
 recent-activity-account-recovery-codes-replaced = Berreskuratzeko kodeak ordezkatu dira
 recent-activity-account-recovery-codes-created = Berreskuratzeko kodeak sortu dira
 recent-activity-account-recovery-codes-signin-complete = Saio hasiera berreskuratze kodeaz amaituta
+recent-activity-account-passkey-registration-success = Sarbide-gakoa gehituta
+recent-activity-account-passkey-removed = Sarbide-gakoa kenduta
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Beste kontuaren jarduera
 
@@ -803,6 +905,7 @@ settings-recovery-phone-remove-success = Berreskuratu kendutako telefonoa
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Gehitu berreskuratze telefonoa
+page-change-recovery-phone = Aldatu berreskuratze-telefonoa
 page-setup-recovery-phone-back-button-title = Itzuli ezarpenetara
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Aldatu telefono zenbakia
@@ -839,6 +942,7 @@ verify-secondary-email-please-enter-code-2 = 5 minuturen buruan idatzi <strong>{
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 verify-secondary-email-success-alert-2 = { $email } ondo gehituta
+verify-secondary-email-resend-code-button = Birbidali berrespen-kodea
 
 ##
 
@@ -853,6 +957,10 @@ product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 # Links out to the Monitor site
 product-promo-monitor-cta = Lortu eskaneatzea doan
+product-promo-vpn =
+    .alt = { -product-mozilla-vpn }
+# Links out to the VPN site
+product-promo-vpn-cta = Eskuratu { -product-mozilla-vpn-short }
 
 ## Profile section
 
@@ -929,6 +1037,22 @@ tfa-row-backup-phone-description-v2 = Hau da berreskuratzeko metodorik errazena 
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
 tfa-row-backup-phone-sim-swap-risk-link = Lortu informazio gehiago SIM trukatzeko arriskuari buruz
+# This is a string that shows when the user's passkey was created.
+# Variables:
+#   $createdDate (String) - a localized date string
+passkey-sub-row-created-date = Sortuta: { $createdDate }
+# This is a string that shows when the user's passkey was last used.
+# Variables:
+#   $lastUsedDate (String) - a localized date string
+passkey-sub-row-last-used-date = Azkenekoz erabilia: { $lastUsedDate }
+passkey-sub-row-delete-title = Ezabatu sarbide-gakoa
+passkey-delete-modal-heading = Ezabatu zure sarbide-gakoa?
+passkey-delete-modal-cancel-button = Utzi
+passkey-delete-modal-confirm-button = Ezabatu sarbide-gakoa
+passkey-delete-success = Sarbide-gakoa ezabatuta
+passkey-delete-error = Arazo bat egon da zure sarbide-gakoa ezabatzean. Saiatu berriro minutu batzuk barru.
+passkey-sub-row-rename-title = Berrizendatu sarbide-gakoa
+passkey-rename-modal-heading = Berrizendatu sarbide-gakoa
 
 ## Switch component
 

@@ -458,6 +458,7 @@ subscriptionUpgrade-upgrade-info-2 = { $productName } produktura aldatu zara.
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-prorated-1 = Behin ordaintzeko { $invoiceAmountDue }-ko kuota kobratu zaizu fakturazio-epe honen gainerakoari dagokion zure harpidetzaren prezio altuagoa islatzeko ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Kontuan { $paymentProrated } zenbatekodun kreditua jaso duzu.
 subscriptionUpgrade-content-subscription-next-bill-change = Hurrengo fakturatik hasita, zure harpidetzaren prezioa aldatu egingo da.
 subscriptionUpgrade-content-old-price-day = Aurreko prezioa eguneko { $paymentAmountOld } zen.
 subscriptionUpgrade-content-old-price-week = Aurreko prezioa asteko { $paymentAmountOld } zen.
