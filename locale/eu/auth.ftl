@@ -426,6 +426,8 @@ subscriptionReplaced-subject = Zure harpidetza eguneratu egin da maila-aldaketar
 subscriptionReplaced-title = Zure harpidetza eguneratu egin da
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Zure { $productName } banakako harpidetza ordezkatu egin da eta zure pakete berriaren barruan dago orain.
+subscriptionReplaced-content-credit = Aurreko harpidetzan erabili gabeko denborari dagokion kreditua jasoko duzu. Kreditu hau automatikoki aplikatuko da zure kontuan eta etorkizuneko karguetarako erabiliko da.
+subscriptionReplaced-content-no-action = Zure aldetik ez duzu ezer egin behar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } ordainketa jaso da
@@ -440,6 +442,10 @@ subscriptionSubsequentInvoice-content-your-next-invoice = Zure hurrengo faktura 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName }-era berritu zara
 subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = { $productName } produktura aldatu zara.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -451,8 +457,20 @@ subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Behin ordaintzeko { $invoiceAmountDue }-ko kuota kobratu zaizu fakturazio-epe honen gainerakoari dagokion zure harpidetzaren prezio altuagoa islatzeko ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-subscription-next-bill-change = Hurrengo fakturatik hasita, zure harpidetzaren prezioa aldatu egingo da.
 subscriptionUpgrade-content-old-price-day = Aurreko prezioa eguneko { $paymentAmountOld } zen.
+subscriptionUpgrade-content-old-price-week = Aurreko prezioa asteko { $paymentAmountOld } zen.
+subscriptionUpgrade-content-old-price-month = Aurreko prezioa hilean { $paymentAmountOld } zen.
+subscriptionUpgrade-content-old-price-halfyear = Aurreko prezioa sei hilean behin { $paymentAmountOld } zen.
+subscriptionUpgrade-content-old-price-year = Aurreko prezioa urtean { $paymentAmountOld } zen.
+subscriptionUpgrade-content-old-price-default = Aurreko prezioa fakturazio-tarte bakoitzean { $paymentAmountOld } zen.
+subscriptionUpgrade-content-old-price-day-tax = Aurreko prezioa eguneko { $paymentAmountOld } + zergetako { $paymentTaxOld } zen.
+subscriptionUpgrade-content-old-price-week-tax = Aurreko prezioa asteko { $paymentAmountOld } + zergetako { $paymentTaxOld } zen.
+subscriptionUpgrade-content-old-price-month-tax = Aurreko prezioa hilean { $paymentAmountOld } + zergetako { $paymentTaxOld } zen.
+subscriptionUpgrade-content-old-price-halfyear-tax = Aurreko prezioa sei hilean behin { $paymentAmountOld } + zergetako { $paymentTaxOld } zen.
+subscriptionUpgrade-content-old-price-year-tax = Aurreko prezioa urtean { $paymentAmountOld } + zergetako { $paymentTaxOld } zen.
+subscriptionUpgrade-content-old-price-default-tax = Aurreko prezioa fakturazio-tarte bakoitzean { $paymentAmountOld } + zergetako { $paymentTaxOld } zen.
 subscriptionUpgrade-content-new-price-day = Aurrerantzean, eguneko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
 subscriptionUpgrade-content-new-price-week = Aurrerantzean, asteko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
 subscriptionUpgrade-content-new-price-month = Aurrerantzean, hilean { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
