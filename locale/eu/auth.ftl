@@ -147,6 +147,8 @@ subscription-charges-credit-applied-plaintext = Aplikatutako kreditua: { $credit
 subscription-charges-amount-paid = <b>Ordaindutako zenbatekoa</b>
 # $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
 subscription-charges-amount-paid-plaintext = Ordaindutako zenbatekoa: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Kontuan { $creditReceived } zenbatekodun kreditua jaso duzu eta zure etorkizuneko fakturetan aplikatuko da.
 
 ##
 
@@ -399,6 +401,15 @@ subscriptionRenewalReminder-content-greeting = { $productName } bezero agurgarri
 subscriptionRenewalReminder-content-intro = Zure uneko harpidetza automatikoki berritzear da { $reminderLength } egun barru.
 subscriptionRenewalReminder-content-discount-change = Zure hurrengo fakturak prezioaren aldaketa bat du, aurretik zuen deskontua amaitu eta deskontu berri bat aplikatu delako.
 subscriptionRenewalReminder-content-discount-ending = Aurreko deskontua amaitu denez, zure harpidetza prezio arruntean berrituko da.
+# Variables
+#   $invoiceTotalExcludingTax (String) - The amount of the subscription invoice before tax, including currency, e.g. $10.00
+#   $invoiceTax (String) - The tax amount of the subscription invoice, including currency, e.g. $1.29
+subscriptionRenewalReminder-content-charge-with-tax-day = Ordua iristean, { -brand-mozilla }(e)k zure eguneko harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-with-tax-week = Ordua iristean, { -brand-mozilla }(e)k zure asteko harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-with-tax-month = Ordua iristean, { -brand-mozilla }(e)k zure hileko harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-with-tax-halfyear = Ordua iristean, { -brand-mozilla }(e)k zure sei hilabeteko harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-with-tax-year = Ordua iristean, { -brand-mozilla }(e)k zure urteko harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-with-tax-default = Ordua iristean, { -brand-mozilla }(e)k zure harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
 subscriptionRenewalReminder-content-closing = Adeitasunez
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -425,8 +436,12 @@ subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-existing = Aurretik duzun harpidetzaren batek bat-etortze partziala badu aldaketa honekin, guk kudeatuko dugu hori eta mezu elektroniko bereizia bidaliko dizugu xehetasunekin. Zure plan berriak instalazioa eskatzen duten produktuak baditu, mezu elektroniko bereizia bidaliko dizugu konfiguratzeko jarraibideekin.
 subscriptionUpgrade-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
+subscriptionsPaymentExpired-subject-2 = Zure harpidetzetan erabiltzen den ordainketa-metodoa iraungita edo iraungitzear dago
 subscriptionsPaymentExpired-title-2 = Zure ordainketa-metodoa iraungita edo iraungitzear dago
+subscriptionsPaymentExpired-content-2 = Ondorengo harpidetzetan ordainketak egiteko erabiltzen duzun ordainketa-metodoa iraungita edo iraungitzear dago
 subscriptionsPaymentProviderCancelled-subject = Ordainketa-informazioaren eguneratzea beharrezkoa da { -brand-mozilla } harpidetzetan
 subscriptionsPaymentProviderCancelled-title = Barkatu, arazoak ditugu ordainketa-metodoarekin
 subscriptionsPaymentProviderCancelled-content-detected = Arazo bat hauteman dugu zure ordainketa-metodoarekin hurrengo harpidetzetan.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Baliteke zure ordainketa-metodoa iraungi izana edo zaharkituta egotea.
