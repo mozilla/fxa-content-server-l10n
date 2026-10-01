@@ -410,10 +410,22 @@ subscriptionRenewalReminder-content-charge-with-tax-month = Ordua iristean, { -b
 subscriptionRenewalReminder-content-charge-with-tax-halfyear = Ordua iristean, { -brand-mozilla }(e)k zure sei hilabeteko harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
 subscriptionRenewalReminder-content-charge-with-tax-year = Ordua iristean, { -brand-mozilla }(e)k zure urteko harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
 subscriptionRenewalReminder-content-charge-with-tax-default = Ordua iristean, { -brand-mozilla }(e)k zure harpidetza berritu eta { $invoiceTotalExcludingTax } + zergetako { $invoiceTax } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+subscriptionRenewalReminder-content-charge-invoice-total-day = Ordua iristean, { -brand-mozilla }(e)k zure eguneko harpidetza berritu eta { $invoiceTotal } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-invoice-total-week = Ordua iristean, { -brand-mozilla }(e)k zure asteko harpidetza berritu eta { $invoiceTotal } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-invoice-total-month = Ordua iristean, { -brand-mozilla }(e)k zure hileko harpidetza berritu eta { $invoiceTotal } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-invoice-total-halfyear = Ordua iristean, { -brand-mozilla }(e)k zure sei hilabeteko harpidetza berritu eta { $invoiceTotal } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-invoice-total-year = Ordua iristean, { -brand-mozilla }(e)k zure urteko harpidetza berritu eta { $invoiceTotal } kobratuko du zure kontuko ordainketa-metodoa erabilita.
+subscriptionRenewalReminder-content-charge-invoice-total-default = Ordua iristean, { -brand-mozilla }(e)k zure harpidetza berritu eta { $invoiceTotal } kobratuko du zure kontuko ordainketa-metodoa erabilita.
 subscriptionRenewalReminder-content-closing = Adeitasunez
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } taldea
+subscriptionReplaced-subject = Zure harpidetza eguneratu egin da maila-aldaketaren parte gisa
+subscriptionReplaced-title = Zure harpidetza eguneratu egin da
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Zure { $productName } banakako harpidetza ordezkatu egin da eta zure pakete berriaren barruan dago orain.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } ordainketa jaso da
@@ -421,6 +433,9 @@ subscriptionSubsequentInvoice-title = Eskerrik asko harpidedun izateagatik!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = { $productName }-ren azken ordainketa jaso dugu.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Zure hurrengo faktura { $nextInvoiceDateOnly } egunean igorriko da.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName }-era berritu zara
@@ -436,6 +451,9 @@ subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-new-price-day = Hemendik aurrera eguneko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-week = Hemendik aurrera asteko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-month = Hemendik aurrera hileko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
 subscriptionUpgrade-existing = Aurretik duzun harpidetzaren batek bat-etortze partziala badu aldaketa honekin, guk kudeatuko dugu hori eta mezu elektroniko bereizia bidaliko dizugu xehetasunekin. Zure plan berriak instalazioa eskatzen duten produktuak baditu, mezu elektroniko bereizia bidaliko dizugu konfiguratzeko jarraibideekin.
 subscriptionUpgrade-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
 subscriptionsPaymentExpired-subject-2 = Zure harpidetzetan erabiltzen den ordainketa-metodoa iraungita edo iraungitzear dago
