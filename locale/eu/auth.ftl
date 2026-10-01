@@ -346,12 +346,23 @@ subscriptionFirstInvoice-content-processing = Ordainketa prozesatzen ari da eta 
 subscriptionFirstInvoice-content-install-2 = { $productName } erabiltzen hasteko mezu elektroniko bat jasoko duzu.
 subscriptionFirstInvoice-content-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Zure hurrengo faktura { $nextInvoiceDateOnly } egunean igorriko da.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = { $productName } produkturako ordainketa-metodoa iraungita edo iraungitzear dago
+subscriptionPaymentExpired-title-2 = Zure ordainketa-metodoa iraungita edo iraungitzear dago
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = { $productName } produkturako darabilzun ordainketa-metodoa iraungita edo iraungitzear dago.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ordainketak huts egin du
 subscriptionPaymentFailed-title = Barkatu, arazoak ditugu ordainketarekin
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Arazo bat izan dugu { $productName }-ren azken ordainketarekin.
+subscriptionPaymentFailed-content-outdated-1 = Baliteke zure ordainketa-metodoa iraungi izana edo zaharkituta egotea.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Ordainketa-informazioa eguneratu behar da { $productName }-rako
@@ -359,9 +370,19 @@ subscriptionPaymentProviderCancelled-title = Barkatu, arazoak ditugu ordainketa-
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Arazo bat hauteman dugu zure ordainketa-metodoarekin: { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Baliteke zure ordainketa-metodoa iraungi izana edo zaharkituta egotea.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject-2 = Zure { $productName } harpidetza berriz aktibatu da
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-free-trial-subject = Zure { $productName } doako proba berriz aktibatu da
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Eskerrik asko { $productName } harpidetza berriz aktibatzeagatik!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-free-trial-title = Eskerrik asko zure { $productName } doako proba berriz aktibatzeagatik!
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
@@ -373,6 +394,11 @@ subscriptionRenewalReminder-title = Zure harpidetza laster berrituko da
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = { $productName } bezero agurgarria:
+# Variables
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-intro = Zure uneko harpidetza automatikoki berritzear da { $reminderLength } egun barru.
+subscriptionRenewalReminder-content-discount-change = Zure hurrengo fakturak prezioaren aldaketa bat du, aurretik zuen deskontua amaitu eta deskontu berri bat aplikatu delako.
+subscriptionRenewalReminder-content-discount-ending = Aurreko deskontua amaitu denez, zure harpidetza prezio arruntean berrituko da.
 subscriptionRenewalReminder-content-closing = Adeitasunez
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
