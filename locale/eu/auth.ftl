@@ -235,6 +235,17 @@ freeTrialEndingReminder-content-account-link-plaintext = Zure ordainketa-metodoa
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-cancel-link = Kobratzea ekiditeko, utzi harpidetza bertan behera <strong>{ $serviceLastActiveDateOnly }</strong> egunaren aurretik: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Utzi harpidetza</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Kobratzea ekiditeko, utzi harpidetza bertan behera { $serviceLastActiveDateOnly } egunaren aurretik:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = Eskerrik asko { $productName } probatzeagatik. Zure probarako aldi edo harpidetzari buruzko galderarik baduzu, <a data-l10n-name="freeTrialEndingReminder-contact-support">jarri gurekin harremanetan</a>.
+freeTrialEndingReminder-content-thanks-plaintext = Eskerrik asko { $productName } probatzeagatik. Zure probarako aldi edo harpidetzari buruzko galderarik baduzu, jarri gurekin harremanetan.
+freeTrialEndingReminder-content-closing = Adeitasunez,
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-signature = { $productName } taldea
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+freeTrialEndingReminder-content-support-plaintext = Jarri gurekin harremanetan: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Zure { $productName } harpidetza bertan behera utzi da
@@ -271,6 +282,13 @@ subscriptionCancellation-outstanding-content-2 = { $productName } harpidetza ber
 # Variables
 #   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
 subscriptionCancellation-content-continue = Zure zerbitzuak uneko fakturazio-aldia amaitu arte jarraituko du, hau da, { $serviceLastActiveDateOnly }.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-freeTrial-subject = Zure { $productName } doako proba bertan behera utzi da
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $trialEndDateOnly (String) - The date when the free trial ends, e.g. 01/20/2016
+subscriptionCancellation-freeTrial-content = Zure { $productName } doako proba bertan behera utzi da. Erabiltzeko aukera { $trialEndDateOnly } egunean amaituko da. Ez zaizu ezer kobratuko.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-subject = { $productName }-ra aldatu zara
@@ -289,6 +307,26 @@ subscriptionDowngrade-content-charge-info = Zure hurrengo fakturatik hasita, zur
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = { $productName } erabili ahal izateko instalatu behar duzun software berria badago, mezu elektroniko bat jasoko duzu deskargatzeko argibideekin.
 subscriptionDowngrade-content-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionEndingReminder-subject = Zure { $productName } harpidetza laster iraungiko da
+subscriptionEndingReminder-title = Zure { $productName } harpidetza laster iraungiko da
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = { $productName } erabiltzeko aukera <strong>{ $serviceLastActiveDateOnly }</strong> egunean amaituko da.
+subscriptionEndingReminder-content-line2-v2 = { $productName } erabiltzen jarraitu nahi baduzu, <a data-l10n-name="subscriptionEndingReminder-subscription-management">harpidetza-kudeaketan</a> harpide zaitezke <strong>{ $serviceLastActiveDateOnly }</strong> egunaren aurretik. Laguntza behar izanez gero, <a data-l10n-name="subscriptionEndingReminder-contact-support">jarri harremanetan gure laguntza-taldearekin</a>.
+subscriptionEndingReminder-content-line1-plaintext = { $productName } erabiltzeko aukera { $serviceLastActiveDateOnly } egunean amaituko da.
+subscriptionEndingReminder-content-line2-plaintext-v2 = { $productName } erabiltzen jarraitu nahi baduzu, harpidetza-kudeaketan harpide zaitezke { $serviceLastActiveDateOnly } egunaren aurretik. Laguntza behar izanez gero, jarri harremanetan gure laguntza-taldearekin.
+subscriptionEndingReminder-content-closing = Eskerrik asko harpidedun izateagatik!
+subscriptionEndingReminder-churn-title = Erabiltzeko aukera mantendu nahi duzu?
+subscriptionEndingReminder-churn-terms = <a data-l10n-name="subscriptionEndingReminder-churn-terms">Termino mugatu eta murrizketak aplikatzen dira</a>
+# Variables:
+#  $churnTermsUrlWithUtm (String) - URL to the terms and restrictions page applied to this promotion
+subscriptionEndingReminder-churn-terms-plaintext = Termino mugatu eta murrizketak aplikatzen dira: { $churnTermsUrlWithUtm }
+# Variables:
+#  $subscriptionSupportUrlWithUtm (String) - URL to the subscription products support page
+subscriptionEndingReminder-content-support-plaintext = Jarri harremanetan gure laguntza-taldearekin: { $subscriptionSupportUrlWithUtm }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Zure { $productName } harpidetza bertan behera utzi da
