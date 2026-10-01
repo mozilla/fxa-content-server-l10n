@@ -137,6 +137,8 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Кисәтү
+authenticator-app-aria-label =
+    .aria-label = Аутентификация кушымтасы
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Канада байрагы
@@ -1071,6 +1073,15 @@ signin-recovery-code-confirm-button = Раслау
 signin-recovery-code-support-link = Хисабыгыз биклеме?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Резерв копия аутентификация коды кирәк
+
+## SigninRecoveryPhone page
+
+signin-recovery-phone-input-label = 6-цифрлы кодны кертегез
+signin-recovery-phone-code-submit-button = Раслау
+signin-recovery-phone-resend-code-button = Кодны яңадан җибәрү
+signin-recovery-phone-resend-success = Код җибәрелде
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Зинһар соңрак тырышып карагыз.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
