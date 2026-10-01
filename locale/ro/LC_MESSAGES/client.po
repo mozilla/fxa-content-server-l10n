@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 20:18+0000\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "Generated-By: Pontoon\n"
@@ -61,7 +63,7 @@ msgstr "Notificările privind contul vor fi de acum trimise și la %(secondaryEm
 msgid "Secondary email confirmed"
 msgstr "Adresă de e-mail secundară confirmată"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7
+#: .es5/views/ready.js:69
 msgid "Sign-in confirmed"
 msgstr "Autentificare confirmată"
 
@@ -736,7 +738,9 @@ msgid "Invalid Token"
 msgstr "Jeton nevalid"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Prin continuare, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Condițiile de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Notificarea privind "
 "confidenţialitatea</a> %(serviceName)s (%(serviceUri)s)."
@@ -749,7 +753,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-a
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Primește cele mai recente știri despre Mozilla și Firefox."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (locație estimată)"
 
@@ -765,7 +769,7 @@ msgstr "Adresă IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Pentru un plus de securitate, te rugăm să confirmi această autentificare pentru a începe sincronizarea cu dispozitivul:"
 
-#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+#: .es5/lib/strings.js:49
 msgid "Sign in"
 msgstr "Autentificare"
 
@@ -845,7 +849,7 @@ msgstr "Verifică-ți e-mailul pentru linkul de confirmare a autentificării, tr
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Nu e în căsuța poștală sau în dosarul de spam? Retrimite"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14
 msgid "Back"
 msgstr "Înapoi"
 
@@ -857,11 +861,11 @@ msgstr "Introdu codul de confirmare <span class=\"card-subheader\" id=\"subheade
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Introdu codul trimis la %(escapedEmail)s în 5 minute."
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Introdu codul de 6 cifre"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Confirmă"
 
@@ -872,47 +876,6 @@ msgstr "Codul a expirat?"
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
 msgstr "Trimite codul nou prin e-mail."
-
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
-#: .es5/templates/pair/unsupported.mustache:1
-msgid "Connect another device"
-msgstr "Conectează alt dispozitiv"
-
-#: .es5/templates/connect_another_device.mustache:3
-msgid "You’re signed into Firefox"
-msgstr "Te-ai autentificat în Firefox"
-
-#: .es5/templates/connect_another_device.mustache:5
-msgid "Email confirmed"
-msgstr "Adresă de e-mail confirmată"
-
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
-msgid "Devices with hearts on their screens"
-msgstr "Dispozitive cu inimioare pe ecrane"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "You’re signed in to Firefox"
-msgstr "Te-ai autentificat în Firefox"
-
-#: .es5/templates/connect_another_device.mustache:15
-msgid "Sign in to this Firefox to complete set-up"
-msgstr "Intră în cont în acest browser Firefox pentru a finaliza configurarea"
-
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
-msgid "Still adding devices?"
-msgstr "Adaugi și alte dispozitive?"
-
-#: .es5/templates/connect_another_device.mustache:20
-msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Intră în contul Firefox de pe alt dispozitiv pentru a finaliza configurarea"
-
-#: .es5/templates/connect_another_device.mustache:22
-msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr "Vrei să îți salvezi filele, marcajele și parolele pe un alt dispozitiv?"
-
-#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "Gestionează-ți contul"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
@@ -930,8 +893,7 @@ msgstr "Introdu adresa de e-mail"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Continuă către <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Continuă cu %(serviceName)s"
 
@@ -955,28 +917,36 @@ msgstr "Un cont Mozilla deblochează și accesul la mai multe produse de la Mozi
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Prin continuare, ești de acord cu:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Condițiile de utilizare a serviciilor</a> de conturi Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Notificarea privind confidențialitatea</a>\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Condițiile de utilizare a serviciilor</a> de conturi Mozilla și <a class=\"link-grey\" "
+"id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Notificarea privind confidențialitatea</a>\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Prin continuare, ești de acord cu:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> de abonamente Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Condițiile de utilizare a serviciilor</a> de conturi Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Notificarea privind confidențialitatea</a>\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> de abonamente "
+"Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Condițiile de utilizare a serviciilor</a> de conturi Mozilla și <a class=\"link-grey\" "
+"id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Notificarea privind confidențialitatea</a>\n"
 "          "
 
 #: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19
@@ -1017,7 +987,7 @@ msgstr "%(serviceName)s dorește următoarele informații din contul tău:"
 msgid "Accept"
 msgstr "Acceptă"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4
 msgid "Cancel"
 msgstr "Anulează"
 
@@ -1025,11 +995,15 @@ msgstr "Anulează"
 msgid "Success"
 msgstr "Succes"
 
+#: .es5/templates/ready.mustache:2
+msgid "Manage your account"
+msgstr "Gestionează-ți contul"
+
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Acum ești gata să folosești <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 msgid "Continue"
 msgstr "Continuă"
 
@@ -1044,22 +1018,6 @@ msgstr "Contul tău este gata!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "Generează o cheie nouă de recuperare a contului"
-
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr "Introdu codul de securitate"
-
-#: .es5/templates/sign_in_totp_code.mustache:3
-msgid "Open your authentication app and enter the security code it provides."
-msgstr "Deschide aplicația de autentificare și introdu codul de securitate furnizat."
-
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "Folosește un alt cont"
-
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Trouble entering code?"
-msgstr "Ai probleme cu introducerea codului?"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
@@ -1097,28 +1055,36 @@ msgstr "Creează cont"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Prin continuare, ești de acord cu:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor </a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Condițiile de utilizare a serviciilor</a> de conturi Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Notificarea privind confidențialitatea</a>\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor </a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://"
+"getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Condițiile de utilizare a serviciilor</a> de conturi Mozilla și <a class=\"link-grey\" "
+"id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Notificarea privind confidențialitatea</a>\n"
 "          "
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Prin continuare, ești de acord cu:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> de abonamente Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Condițiilor de utilizare a serviciilor</a> de conturi Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Notificarea privind confidențialitatea</a>\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> de abonamente "
+"Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Condițiilor de utilizare a serviciilor</a> de conturi Mozilla și <a class=\"link-"
+"grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Notificarea privind confidențialitatea</a>\n"
 "            "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
@@ -1216,86 +1182,6 @@ msgstr "Obține cunoștințe practice direct în căsuța ta poștală despre:"
 msgid "Subscribe %(email)s"
 msgstr "Abonează %(email)s"
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:1
-msgid "Device connected!"
-msgstr "Dispozitiv conectat!"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:4
-msgid "Connect another one"
-msgstr "Conectează încă unul"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5
-msgid "Use SMS instead"
-msgstr "Folosește SMS în schimb"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:6
-msgid "I'm done for now"
-msgstr "Am terminat deocamdată"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
-msgid "Sync Firefox between devices"
-msgstr "Sincronizează Firefox între dispozitive"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr "Sincronizează marcajele, istoricul și parolele din Firefox pe dispozitivele tale mobile. Durează numai câteva minute."
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
-msgid "Get started"
-msgstr "Să începem"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
-msgid "I'll do this later, send me a reminder"
-msgstr "O fac mai târziu, trimite-mi un memento"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera app"
-msgstr "Descarcă Firefox cu aplicația ta de cameră foto"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr "Instalarea browserului Firefox și sincronizarea lui între cel puțin două dispozitive te protejează și împotriva pierderilor de date."
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
-msgid "Ready to scan"
-msgstr "Gata de scanare"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Conectează-ți dispozitivul mobil</h1><p>cu un cod QR pe care l-am creat special pentru tine</p>"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "Open the camera app on your device"
-msgstr "Deschide aplicația de cameră foto de pe dispozitiv"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
-msgid "Point the camera at the QR code and tap the link that appears"
-msgstr "Îndreaptă camera spre codul QR și atinge linkul care apare"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
-msgid "Install Firefox and open it on your device"
-msgstr "Instalează Firefox și deschide-l pe dispozitiv"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
-msgid "Sign into your account"
-msgstr "Intră în cont"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
-msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr "<span class=\"number\">1</span>Deschide aplicația de cameră foto de pe dispozitiv"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>Îndreaptă camera spre codul QR și atinge linkul care apare"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr "<span class=\"number\">3</span>Instalează Firefox și deschide-l pe dispozitiv"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
-msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr "<span class=\"number\">4</span>Intră în cont"
-
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "De ce trebuie să creez acest cont? <a %(escapedSuggestionAttrs)s>Află aici</a>"
@@ -1312,15 +1198,15 @@ msgstr "Conturile Firefox vor fi redenumite conturi Mozilla de pe 1 noiembrie"
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "Vei intra în cont cu același nume de utilizator și aceeași parolă și nu mai sunt alte modificări aduse produselor pe care le utilizezi."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
 msgstr "Află mai multe"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr ""
-"Am redenumit conturile Firefox cu conturi Mozilla. Te vei autentifica în continuare în cont cu același nume de utilizator și aceeași adresă și nu mai sunt alte modificări aduse produselor pe care le"
-" utilizezi."
+"Am redenumit conturile Firefox cu conturi Mozilla. Te vei autentifica în continuare în cont cu același nume de utilizator și aceeași adresă și nu mai sunt alte modificări aduse produselor pe care "
+"le utilizezi."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
@@ -1337,30 +1223,6 @@ msgstr "Ce vârstă ai?"
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
 msgstr "De ce întrebăm?"
-
-#: .es5/templates/partial/device-being-paired.mustache:2
-msgid "%(family)s on %(OS)s"
-msgstr "%(family)s pe %(OS)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:3
-msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr "%(city)s, %(region)s, %(country)s (locație estimată)"
-
-#: .es5/templates/partial/device-being-paired.mustache:7
-msgid "%(region)s, %(country)s (estimated)"
-msgstr "%(region)s, %(country)s (locație estimată)"
-
-#: .es5/templates/partial/device-being-paired.mustache:9
-msgid "%(country)s"
-msgstr "%(country)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:11
-msgid "Location unknown"
-msgstr "Locație necunoscută"
-
-#: .es5/templates/partial/device-being-paired.mustache:12
-msgid "IP address: %(ipAddress)s"
-msgstr "Adresă IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
@@ -1393,219 +1255,3 @@ msgstr "Continuă cu Google"
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
 msgstr "Continuă cu Apple"
-
-#: .es5/templates/partial/unsupported-pair.mustache:1
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr "Conectarea dispozitivului mobil la contul Mozilla"
-
-#: .es5/templates/partial/unsupported-pair.mustache:2
-msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr "Deschide Firefox pe calculator, accesează <b class=\"whitespace-nowrap\">firefox.com/asociere</b> și urmează instrucțiunile de pe ecran pentru a conecta dispozitivul mobil."
-
-#: .es5/templates/pair/auth_allow.mustache:1
-msgid "Did you just sign in to Firefox?"
-msgstr "Tocmai te-ai autentificat în Firefox?"
-
-#: .es5/templates/pair/auth_allow.mustache:2
-msgid " %(email)s "
-msgstr " %(email)s "
-
-#: .es5/templates/pair/auth_allow.mustache:3
-msgid "location balloon"
-msgstr "balon de locație"
-
-#: .es5/templates/pair/auth_allow.mustache:4
-msgid "Yes, approve device"
-msgstr "Da, aprobă dispozitivul"
-
-#: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr "Dacă nu ai fost tu., <a id=\"change-password\" class=\"link-blue\">schimbă-ți parola</a>"
-
-#: .es5/templates/pair/auth_complete.mustache:1
-msgid "You’re ready to send some tabs"
-msgstr "Ești gata să trimiți niște file"
-
-#: .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
-msgid "Successfully connected"
-msgstr "Conectare realizată cu succes"
-
-#: .es5/templates/pair/auth_complete.mustache:3
-msgid ""
-"\n"
-"          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
-"        "
-msgstr ""
-"\n"
-"          <span>%(deviceFamily)s pentru %(deviceOS)s</span> este conectat.\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:4
-msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr "Poți trimite instant file deschise, parole și marcaje între dispozitive."
-
-#: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
-msgid "Device connected"
-msgstr "Dispozitiv conectat"
-
-#: .es5/templates/pair/auth_complete.mustache:8
-msgid ""
-"\n"
-"          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
-"        "
-msgstr ""
-"\n"
-"          Acum te sincronizezi cu: <span>%(deviceFamily)s pe %(deviceOS)s</span>\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:9
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr "Acum poți accesa filele deschise, parolele și marcajele pe toate dispozitivele tale."
-
-#: .es5/templates/pair/auth_complete.mustache:10
-msgid "See tabs from synced devices"
-msgstr "Vezi file de pe dispozitivele sincronizate"
-
-#: .es5/templates/pair/auth_complete.mustache:12
-msgid "Manage devices"
-msgstr "Gestionează dispozitivele"
-
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "Acum este necesară aprobarea <small class=\"card-subheader\">de pe celălalt dispozitiv</small>"
-
-#: .es5/templates/pair/failure.mustache:1
-msgid "Device pairing failed"
-msgstr "Asociere dispozitive eșuată"
-
-#: .es5/templates/pair/failure.mustache:2
-msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr "Configurarea nu a putut fi finalizată. Te rugăm să te autentifici cu adresa de e-mail."
-
-#: .es5/templates/pair/index.mustache:1
-msgid "Password created. You’re now syncing."
-msgstr "Parola a fost creată. Acum te sincronizezi."
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Account created. You’re now syncing."
-msgstr "Contul a fost creat. Acum te sincronizezi."
-
-#: .es5/templates/pair/index.mustache:5
-msgid "Signed in successfully!"
-msgstr "Autentificare reușită!"
-
-#: .es5/templates/pair/index.mustache:11
-msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr "Descarcă sau deschide Firefox pe dispozitivul unde vrei să trimiți filele"
-
-#: .es5/templates/pair/index.mustache:14
-msgid "Sync your Firefox experience"
-msgstr "Sincronizează-ți experiența cu Firefox"
-
-#: .es5/templates/pair/index.mustache:15
-msgid "Download Firefox for mobile"
-msgstr "Descarcă Firefox pentru mobil"
-
-#: .es5/templates/pair/index.mustache:17
-msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr "Vezi parolele salvate, filele, istoricul de navigare și multe altele — pe toate dispozitivele."
-
-#: .es5/templates/pair/index.mustache:18
-msgid "Select an option to continue:"
-msgstr "Selectează o opțiune pentru a continua:"
-
-#: .es5/templates/pair/index.mustache:19
-msgid "I already have Firefox for mobile"
-msgstr "Am deja Firefox pentru mobil"
-
-#: .es5/templates/pair/index.mustache:20
-msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "Începe sincronizarea acum dacă ai deja Firefox pe dispozitivul mobil."
-
-#: .es5/templates/pair/index.mustache:21
-msgid "I don’t have Firefox for mobile"
-msgstr "Nu am Firefox pentru mobil"
-
-#: .es5/templates/pair/index.mustache:22
-msgid "Download Firefox on your mobile device, then start your sync."
-msgstr "Descarcă Firefox pe dispozitivul mobil, apoi începe sincronizarea."
-
-#: .es5/templates/pair/index.mustache:24 .es5/templates/pair/index.mustache:30
-msgid "Not now"
-msgstr "Nu acum"
-
-#: .es5/templates/pair/index.mustache:25
-msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr "Pentru a sincroniza Firefox pe telefon sau tabletă, trebuie mai întâi să descarci Firefox pentru mobil. Iată cum:"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>Pasul 1</b>: Descarcă Firefox scanând acest cod QR cu camera dispozitivului mobil:"
-
-#: .es5/templates/pair/index.mustache:27
-msgid "QR code (located in the middle of the screen)"
-msgstr "Cod QR (situat în mijlocul ecranului)"
-
-#: .es5/templates/pair/index.mustache:28
-msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr "<b>Pasul 2</b>: Selectează „Continuă cu sincronizarea” pentru sincronizarea experienței tale Firefox pe dispozitivul mobil."
-
-#: .es5/templates/pair/index.mustache:29
-msgid "Continue to sync"
-msgstr "Continuă cu sincronizarea"
-
-#: .es5/templates/pair/success.mustache:2
-msgid "Device successfully paired"
-msgstr "Dispozitiv asociat cu succes"
-
-#: .es5/templates/pair/success.mustache:3
-msgid "Pairing was successful."
-msgstr "Asociere reușită."
-
-#: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr "Confirmă asocierea <span class=\"card-subheader\">pentru <span class=\"break-all\">%(email)s</span></span>"
-
-#: .es5/templates/pair/supp_allow.mustache:2
-msgid "Confirm pairing"
-msgstr "Confirmă asocierea"
-
-#: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
-msgid "Oops! It looks like you’re not using Firefox."
-msgstr "Ups! Se pare că nu folosești Firefox."
-
-#: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
-msgid "Attention:"
-msgstr "Atenție:"
-
-#: .es5/templates/pair/unsupported.mustache:5
-msgid "Switch to Firefox and open this page to connect another device."
-msgstr "Treci pe Firefox și deschide această pagină ca să conectezi alt dispozitiv."
-
-#: .es5/templates/pair/unsupported.mustache:6
-msgid "Download Firefox"
-msgstr "Descarcă Firefox"
-
-#: .es5/templates/pair/unsupported.mustache:7
-msgid "Opens in new window"
-msgstr "Se deschide în fereastră nouă"
-
-#: .es5/templates/pair/unsupported.mustache:9
-msgid "Pair using an app"
-msgstr "Asociere folosind o aplicație"
-
-#: .es5/templates/pair/unsupported.mustache:10
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Ai folosit camera sistemului? Trebuie să efectuezi o asociere dintr-o aplicație Firefox."
-
-#: .es5/templates/pair/unsupported.mustache:14
-msgid "Download Firefox now"
-msgstr "Descarcă Firefox acum"
-
-#: .es5/templates/pair/unsupported.mustache:17
-msgid "Oops! Something went wrong."
-msgstr "Ups! Ceva nu a funcționat."
-
-#: .es5/templates/pair/unsupported.mustache:18
-msgid "Please close this tab and try again."
-msgstr "Te rugăm să închizi această filă și să încerci din nou."

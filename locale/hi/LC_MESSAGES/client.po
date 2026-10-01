@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-24 20:17+0000\n"
+"POT-Creation-Date: 2026-10-01 20:18+0000\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,7 +63,7 @@ msgstr "खाता अधिसूचनाएँ अब %(secondaryEmailVerif
 msgid "Secondary email confirmed"
 msgstr ""
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7
+#: .es5/views/ready.js:69
 msgid "Sign-in confirmed"
 msgstr "साइन इन पुष्टि हो गई"
 
@@ -751,7 +751,7 @@ msgstr ""
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "मोज़िला और फ़ायरफ़ॉक्स के विषय में नवीनतम समाचार प्राप्त करें."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (अनुमान)"
 
@@ -767,7 +767,7 @@ msgstr "IP एड्रेस: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "अतिरिक्त सुरक्षा के लिए , कृपया इस साइन-इन की पुष्टि करें ताकि यह डिवाइस सिंक करना शुरू कर सके:"
 
-#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+#: .es5/lib/strings.js:49
 msgid "Sign in"
 msgstr "साइन इन"
 
@@ -847,7 +847,7 @@ msgstr "%(escapedEmail)s पर भेजे गए साइन-इन पु�
 msgid "Not in inbox or spam folder? Resend"
 msgstr "इनबॉक्स या स्पैम फ़ोल्डर में नहीं? पुन: भेजें"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14
 msgid "Back"
 msgstr "पीछे"
 
@@ -859,11 +859,11 @@ msgstr ""
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr ""
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "6-अंकों का कोड दर्ज करें"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "पुष्टि"
 
@@ -873,47 +873,6 @@ msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
-msgstr ""
-
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
-#: .es5/templates/pair/unsupported.mustache:1
-msgid "Connect another device"
-msgstr "अन्य उपकरण से जोड़े"
-
-#: .es5/templates/connect_another_device.mustache:3
-msgid "You’re signed into Firefox"
-msgstr ""
-
-#: .es5/templates/connect_another_device.mustache:5
-msgid "Email confirmed"
-msgstr ""
-
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
-msgid "Devices with hearts on their screens"
-msgstr ""
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "You’re signed in to Firefox"
-msgstr ""
-
-#: .es5/templates/connect_another_device.mustache:15
-msgid "Sign in to this Firefox to complete set-up"
-msgstr "सम्पूर्ण सेट-अप के लिए इस Firefox में साइन इन करें"
-
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
-msgid "Still adding devices?"
-msgstr "अभी भी उपकरण जोड़ रहे हैं?"
-
-#: .es5/templates/connect_another_device.mustache:20
-msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "सेट-अप पूर्ण करने के लिए अन्य उपकरण पर Firefox में साइन इन करें"
-
-#: .es5/templates/connect_another_device.mustache:22
-msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
-
-#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Manage your account"
 msgstr ""
 
 #: .es5/templates/index.mustache:1
@@ -932,8 +891,7 @@ msgstr "अपना ईमेल प्रविष्ट करें"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "जारी रखें %(serviceName)s"
 
@@ -1011,7 +969,7 @@ msgstr "%(serviceName)s आपके खाते से निम्न जा�
 msgid "Accept"
 msgstr "स्वीकार"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4
 msgid "Cancel"
 msgstr "रद्द"
 
@@ -1019,11 +977,15 @@ msgstr "रद्द"
 msgid "Success"
 msgstr "सफल"
 
+#: .es5/templates/ready.mustache:2
+msgid "Manage your account"
+msgstr ""
+
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 msgid "Continue"
 msgstr "जारी रखें"
 
@@ -1038,22 +1000,6 @@ msgstr "आपका खाता तैयार है!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr ""
-
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr "सुरक्षा कोड दर्ज करें"
-
-#: .es5/templates/sign_in_totp_code.mustache:3
-msgid "Open your authentication app and enter the security code it provides."
-msgstr "अपना प्रमाणीकरण ऐप खोलें और जो इसके द्वारा प्रदान किया गया सुरक्षा कोड दर्ज करें."
-
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "भिन्न खाता उपयोग करें"
-
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Trouble entering code?"
-msgstr "कोड दर्ज करने में परेशानी?"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
@@ -1202,86 +1148,6 @@ msgstr ""
 msgid "Subscribe %(email)s"
 msgstr ""
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:1
-msgid "Device connected!"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:4
-msgid "Connect another one"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5
-msgid "Use SMS instead"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:6
-msgid "I'm done for now"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
-msgid "Sync Firefox between devices"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
-msgid "Get started"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
-msgid "I'll do this later, send me a reminder"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera app"
-msgstr "अपने कैमरा ऐप से Firefox डाउनलोड करें"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
-msgid "Ready to scan"
-msgstr "स्कैन करने के लिए तैयार"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "Open the camera app on your device"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
-msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
-msgid "Install Firefox and open it on your device"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
-msgid "Sign into your account"
-msgstr "अपने खाते में साइन इन करें"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
-msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
-msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
-
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr ""
@@ -1298,7 +1164,7 @@ msgstr ""
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr ""
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
 msgstr ""
 
@@ -1321,30 +1187,6 @@ msgstr "आपकी उम्र क्या है?"
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
 msgstr ""
-
-#: .es5/templates/partial/device-being-paired.mustache:2
-msgid "%(family)s on %(OS)s"
-msgstr "%(OS)s पर %(family)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:3
-msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr "%(city)s, %(region)s, %(country)s, (अनुमानित)"
-
-#: .es5/templates/partial/device-being-paired.mustache:7
-msgid "%(region)s, %(country)s (estimated)"
-msgstr "%(region)s, %(country)s (अनुमानित)"
-
-#: .es5/templates/partial/device-being-paired.mustache:9
-msgid "%(country)s"
-msgstr "%(country)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:11
-msgid "Location unknown"
-msgstr "अज्ञात स्थान"
-
-#: .es5/templates/partial/device-being-paired.mustache:12
-msgid "IP address: %(ipAddress)s"
-msgstr "आईपी ​​पता: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
@@ -1376,214 +1218,4 @@ msgstr ""
 
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
-msgstr ""
-
-#: .es5/templates/partial/unsupported-pair.mustache:1
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
-
-#: .es5/templates/partial/unsupported-pair.mustache:2
-msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
-
-#: .es5/templates/pair/auth_allow.mustache:1
-msgid "Did you just sign in to Firefox?"
-msgstr ""
-
-#: .es5/templates/pair/auth_allow.mustache:2
-msgid " %(email)s "
-msgstr " %(email)s "
-
-#: .es5/templates/pair/auth_allow.mustache:3
-msgid "location balloon"
-msgstr ""
-
-#: .es5/templates/pair/auth_allow.mustache:4
-msgid "Yes, approve device"
-msgstr ""
-
-#: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
-
-#: .es5/templates/pair/auth_complete.mustache:1
-msgid "You’re ready to send some tabs"
-msgstr ""
-
-#: .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
-msgid "Successfully connected"
-msgstr ""
-
-#: .es5/templates/pair/auth_complete.mustache:3
-msgid ""
-"\n"
-"          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
-"        "
-msgstr ""
-
-#: .es5/templates/pair/auth_complete.mustache:4
-msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr ""
-
-#: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
-msgid "Device connected"
-msgstr "डिवाइस कनेक्ट किया गया"
-
-#: .es5/templates/pair/auth_complete.mustache:8
-msgid ""
-"\n"
-"          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
-"        "
-msgstr ""
-
-#: .es5/templates/pair/auth_complete.mustache:9
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
-
-#: .es5/templates/pair/auth_complete.mustache:10
-msgid "See tabs from synced devices"
-msgstr ""
-
-#: .es5/templates/pair/auth_complete.mustache:12
-msgid "Manage devices"
-msgstr "उपकरणों को प्रबंधित करें"
-
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
-
-#: .es5/templates/pair/failure.mustache:1
-msgid "Device pairing failed"
-msgstr ""
-
-#: .es5/templates/pair/failure.mustache:2
-msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:1
-msgid "Password created. You’re now syncing."
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Account created. You’re now syncing."
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:5
-msgid "Signed in successfully!"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:11
-msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:14
-msgid "Sync your Firefox experience"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:15
-msgid "Download Firefox for mobile"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:17
-msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:18
-msgid "Select an option to continue:"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:19
-msgid "I already have Firefox for mobile"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:20
-msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:21
-msgid "I don’t have Firefox for mobile"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:22
-msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:24 .es5/templates/pair/index.mustache:30
-msgid "Not now"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:25
-msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:26
-msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:27
-msgid "QR code (located in the middle of the screen)"
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:28
-msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
-
-#: .es5/templates/pair/index.mustache:29
-msgid "Continue to sync"
-msgstr ""
-
-#: .es5/templates/pair/success.mustache:2
-msgid "Device successfully paired"
-msgstr ""
-
-#: .es5/templates/pair/success.mustache:3
-msgid "Pairing was successful."
-msgstr "जोड़ी सफल रही।"
-
-#: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
-
-#: .es5/templates/pair/supp_allow.mustache:2
-msgid "Confirm pairing"
-msgstr "जोड़ी बनाने की पुष्टि करें"
-
-#: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
-msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
-msgid "Attention:"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:5
-msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:6
-msgid "Download Firefox"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:7
-msgid "Opens in new window"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:9
-msgid "Pair using an app"
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:10
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:14
-msgid "Download Firefox now"
-msgstr "Firefox अभी डाउनलोड करें"
-
-#: .es5/templates/pair/unsupported.mustache:17
-msgid "Oops! Something went wrong."
-msgstr ""
-
-#: .es5/templates/pair/unsupported.mustache:18
-msgid "Please close this tab and try again."
 msgstr ""

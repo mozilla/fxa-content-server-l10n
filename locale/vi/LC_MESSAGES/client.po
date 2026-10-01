@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 20:18+0000\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
@@ -61,7 +63,7 @@ msgstr "Thông báo tài khoản bây giờ cũng sẽ được gửi đến %(s
 msgid "Secondary email confirmed"
 msgstr "Email phụ đã xác minh"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7
+#: .es5/views/ready.js:69
 msgid "Sign-in confirmed"
 msgstr "Đã xác nhận đăng nhập"
 
@@ -392,9 +394,7 @@ msgstr "Không xác định được người dùng để đăng ký."
 
 #: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
-msgstr ""
-""
-"Không xác định được đăng ký."
+msgstr "Không xác định được đăng ký."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
@@ -738,7 +738,9 @@ msgid "Invalid Token"
 msgstr "Mã không hợp lệ"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Bằng cách tiếp tục, bạn đồng ý với<a id=\"service-tos\" href=\"%(termsUri)s\">Điều khoản dịch vụ</a> và <a id=\"service-pp\" href=\"%(privacyUri)s\">Thông báo bảo mật</a> của %(serviceName)s "
 "(%(serviceUri)s)."
@@ -751,7 +753,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-a
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Nhận tin tức mới nhất về Mozilla và Firefox."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (ước tính)"
 
@@ -767,7 +769,7 @@ msgstr "Địa chỉ IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Để bảo mật hơn, vui lòng xác nhận đăng nhập này để bắt đầu đồng bộ hóa với thiết bị này:"
 
-#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+#: .es5/lib/strings.js:49
 msgid "Sign in"
 msgstr "Đăng nhập"
 
@@ -847,7 +849,7 @@ msgstr "Kiểm tra liên kết đã được gửi đến email %(escapedEmail)s
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Không có trong hộp thư đến hoặc thư mục spam? Gửi lại"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14
 msgid "Back"
 msgstr "Quay lại"
 
@@ -859,11 +861,11 @@ msgstr "Nhập mã xác minh <span class=\"card-subheader\" id=\"subheader\"> ch
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Nhập mã vừa được gửi đến %(escapedEmail)s trong vòng 5 phút."
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Nhập mã gồm 6 chữ số"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Xác nhận"
 
@@ -874,47 +876,6 @@ msgstr "Mã đã hết hạn?"
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
 msgstr "Gửi mã mới qua email."
-
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
-#: .es5/templates/pair/unsupported.mustache:1
-msgid "Connect another device"
-msgstr "Kết nối với thiết bị khác"
-
-#: .es5/templates/connect_another_device.mustache:3
-msgid "You’re signed into Firefox"
-msgstr "Bạn đã đăng nhập vào Firefox"
-
-#: .es5/templates/connect_another_device.mustache:5
-msgid "Email confirmed"
-msgstr "Đã xác minh email"
-
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
-msgid "Devices with hearts on their screens"
-msgstr "Thiết bị có trái tim trên màn hình của họ"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "You’re signed in to Firefox"
-msgstr "Bạn đã đăng nhập vào Firefox"
-
-#: .es5/templates/connect_another_device.mustache:15
-msgid "Sign in to this Firefox to complete set-up"
-msgstr "Đăng nhập vào Firefox để hoàn tất thiết lập"
-
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
-msgid "Still adding devices?"
-msgstr "Vẫn đang thêm thiết bị?"
-
-#: .es5/templates/connect_another_device.mustache:20
-msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Đăng nhập vào Firefox trên thiết bị khác để hoàn tất thiết lập"
-
-#: .es5/templates/connect_another_device.mustache:22
-msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr "Bạn muốn nhận các thẻ, dấu trang và mật khẩu của mình trên một thiết bị khác?"
-
-#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "Quản lý tài khoản của bạn"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
@@ -932,8 +893,7 @@ msgstr "Nhập email của bạn"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Tiếp tục đến <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Tiếp tục đến %(serviceName)s"
 
@@ -957,28 +917,36 @@ msgstr "Tài khoản Mozilla cũng mở khóa quyền truy cập vào nhiều s�
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Bằng cách tiếp tục, bạn đã đồng ý với:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a>của Tài khoản Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a>của Tài khoản Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "              Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
 "            "
 
 #: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19
@@ -1019,7 +987,7 @@ msgstr "%(serviceName)s muốn nhận các thông tin sau từ tài khoản củ
 msgid "Accept"
 msgstr "Chấp nhận"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
@@ -1027,11 +995,15 @@ msgstr "Hủy bỏ"
 msgid "Success"
 msgstr "Thành công"
 
+#: .es5/templates/ready.mustache:2
+msgid "Manage your account"
+msgstr "Quản lý tài khoản của bạn"
+
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Bây giờ bạn đã sẵn sàng để sử dụng <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 msgid "Continue"
 msgstr "Tiếp tục"
 
@@ -1046,22 +1018,6 @@ msgstr "Tài khoản của bạn đã sẵn sàng!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "Tạo một khóa khôi phục tài khoản mới"
-
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr "Nhập mã bảo mật"
-
-#: .es5/templates/sign_in_totp_code.mustache:3
-msgid "Open your authentication app and enter the security code it provides."
-msgstr "Mở ứng dụng xác thực của bạn và nhập mã bảo mật mà ứng dụng cung cấp."
-
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "Sử dụng một tài khoản khác"
-
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Trouble entering code?"
-msgstr "Khó khăn khi nhập mã?"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
@@ -1099,28 +1055,36 @@ msgstr "Tạo tài khoản"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Điều khoản dịch vụ</a> và <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">thông báo về quyền riêng tư</a> của Pocket<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
 "          "
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Bằng cách tiếp tục, bạn đã đồng ý:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">thông báo về quyền riêng tư</a> của Dịch vụ gói đăng ký Mozilla<br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Điều khoản dịch vụ</a> và <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">thông báo về quyền riêng tư</a> của Tài khoản Mozilla\n"
 "            "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
@@ -1218,86 +1182,6 @@ msgstr "Nhận kiến thức thực tế trong hộp thư đến của bạn v�
 msgid "Subscribe %(email)s"
 msgstr "Theo dõi %(email)s"
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:1
-msgid "Device connected!"
-msgstr "Đã kết nối thiết bị!"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:4
-msgid "Connect another one"
-msgstr "Kết nối thiết bị khác"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5
-msgid "Use SMS instead"
-msgstr "Sử dụng SMS thay thế"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:6
-msgid "I'm done for now"
-msgstr "Tôi đã xong"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
-msgid "Sync Firefox between devices"
-msgstr "Đồng bộ hóa Firefox giữa các thiết bị"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr "Đồng bộ hóa dấu trang, lịch sử và mật khẩu với Firefox trên thiết bị di động của bạn. Nó chỉ mất một vài phút."
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
-msgid "Get started"
-msgstr "Bắt đầu"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
-msgid "I'll do this later, send me a reminder"
-msgstr "Tôi sẽ làm điều này sau, gửi cho tôi một lời nhắc nhở"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera app"
-msgstr "Tải xuống Firefox bằng cách quét mã QR"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr "Cài đặt Firefox và đồng bộ hóa giữa ít nhất hai thiết bị cũng bảo vệ chống mất dữ liệu của bạn."
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
-msgid "Ready to scan"
-msgstr "Sẵn sàng để quét"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Kết nối thiết bị di động của bạn</h1><p>bằng mã QR mà chúng tôi đã tạo chỉ dành cho bạn</p>"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "Open the camera app on your device"
-msgstr "Mở ứng dụng máy ảnh trên thiết bị của bạn"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
-msgid "Point the camera at the QR code and tap the link that appears"
-msgstr "Hướng camera vào mã QR và chạm vào liên kết mà nó xuất hiện"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
-msgid "Install Firefox and open it on your device"
-msgstr "Cài đặt Firefox và mở nó trên thiết bị của bạn"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
-msgid "Sign into your account"
-msgstr "Đăng nhập vào tài khoản của bạn"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
-msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr "<span class=\"number\">1</span>Mở ứng dụng máy ảnh trên thiết bị của bạn"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>Đưa camera vào mã QR và chạm vào liên kết mà nó xuất hiện"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr "<span class=\"number\">3</span>Cài đặt Firefox và mở nó trên thiết bị của bạn"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
-msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr "<span class=\"number\">4</span>Đăng nhập vào tài khoản của bạn"
-
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Tại sao tôi cần tạo tài khoản này? <a %(escapedSuggestionAttrs)s>Tìm hiểu tại đây</a>"
@@ -1314,7 +1198,7 @@ msgstr "Tài khoản Firefox sẽ được đổi tên thành Tài khoản Mozil
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "Bạn sẽ vẫn đăng nhập với tên người dùng và mật khẩu hiện tại và không có thay đổi nào khác đối với các sản phẩm bạn sử dụng."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
 msgstr "Tìm hiểu thêm"
 
@@ -1338,30 +1222,6 @@ msgstr "Bạn bao nhiêu tuổi?"
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
 msgstr "Tại sao chúng tôi hỏi?"
-
-#: .es5/templates/partial/device-being-paired.mustache:2
-msgid "%(family)s on %(OS)s"
-msgstr "%(family)s trên %(OS)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:3
-msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr "%(city)s, %(region)s, %(country)s (ước tính)"
-
-#: .es5/templates/partial/device-being-paired.mustache:7
-msgid "%(region)s, %(country)s (estimated)"
-msgstr "%(region)s, %(country)s (ước tính)"
-
-#: .es5/templates/partial/device-being-paired.mustache:9
-msgid "%(country)s"
-msgstr "%(country)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:11
-msgid "Location unknown"
-msgstr "Vị trí không xác định"
-
-#: .es5/templates/partial/device-being-paired.mustache:12
-msgid "IP address: %(ipAddress)s"
-msgstr "Địa chỉ IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
@@ -1394,219 +1254,3 @@ msgstr "Tiếp tục với Google"
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
 msgstr "Tiếp tục với Apple"
-
-#: .es5/templates/partial/unsupported-pair.mustache:1
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr "Kết nối thiết bị di động của bạn với tài khoản Mozilla của bạn"
-
-#: .es5/templates/partial/unsupported-pair.mustache:2
-msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr "Mở Firefox trên máy tính, truy cập <b class=\"whitespace-nowrap\">firefox.com/pair</b>, và làm theo hướng dẫn trên màn hình để kết nối đến thiết bị di động của bạn."
-
-#: .es5/templates/pair/auth_allow.mustache:1
-msgid "Did you just sign in to Firefox?"
-msgstr "Bạn vừa đăng nhập vào Firefox?"
-
-#: .es5/templates/pair/auth_allow.mustache:2
-msgid " %(email)s "
-msgstr " %(email)s "
-
-#: .es5/templates/pair/auth_allow.mustache:3
-msgid "location balloon"
-msgstr "bong bóng vị trí"
-
-#: .es5/templates/pair/auth_allow.mustache:4
-msgid "Yes, approve device"
-msgstr "Có, phê duyệt thiết bị"
-
-#: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr "Nếu đây không phải là bạn, <a id=\"change-password\" class=\"link-blue\">thay đổi mật khẩu của bạn</a> "
-
-#: .es5/templates/pair/auth_complete.mustache:1
-msgid "You’re ready to send some tabs"
-msgstr "Bạn đã sẵn sàng để gửi một số thẻ rồi"
-
-#: .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
-msgid "Successfully connected"
-msgstr "Kết nối thành công"
-
-#: .es5/templates/pair/auth_complete.mustache:3
-msgid ""
-"\n"
-"          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
-"        "
-msgstr ""
-"\n"
-"          <span>%(deviceFamily)s cho %(deviceOS)s</span> đã được kết nối.\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:4
-msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr "Bạn có thể dễ dàng gửi ngay lập tức các thẻ đang mở, mật khẩu và dấu trang giữa các thiết bị."
-
-#: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
-msgid "Device connected"
-msgstr "Thiết bị đã kết nối"
-
-#: .es5/templates/pair/auth_complete.mustache:8
-msgid ""
-"\n"
-"          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
-"        "
-msgstr ""
-"\n"
-"          Bây giờ bạn đã bắt đầu đồng bộ với: <span>%(deviceFamily)s trên %(deviceOS)s</span>\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:9
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr "Giờ đây, bạn có thể truy cập các thẻ đang mở, mật khẩu và dấu trang trên tất cả các thiết bị của mình."
-
-#: .es5/templates/pair/auth_complete.mustache:10
-msgid "See tabs from synced devices"
-msgstr "Xem các thẻ từ các thiết bị được đồng bộ hóa"
-
-#: .es5/templates/pair/auth_complete.mustache:12
-msgid "Manage devices"
-msgstr "Quản lý thiết bị"
-
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "Hiện cần phê duyệt <small class=\"card-subheader\">từ thiết bị khác của bạn</small>"
-
-#: .es5/templates/pair/failure.mustache:1
-msgid "Device pairing failed"
-msgstr "Không thể ghép nối thiết bị"
-
-#: .es5/templates/pair/failure.mustache:2
-msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr "Không thể hoàn tất quá trình thiết lập. Vui lòng đăng nhập bằng email của bạn."
-
-#: .es5/templates/pair/index.mustache:1
-msgid "Password created. You’re now syncing."
-msgstr "Mật khẩu đã được tạo. Bây giờ bạn có thể đồng bộ hoá dữ liệu."
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Account created. You’re now syncing."
-msgstr "Đã tạo tài khoản. Bây giờ bạn có thể đồng bộ hoá dữ liệu."
-
-#: .es5/templates/pair/index.mustache:5
-msgid "Signed in successfully!"
-msgstr "Đã đăng nhập thành công!"
-
-#: .es5/templates/pair/index.mustache:11
-msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr "Tải xuống hoặc mở Firefox trên thiết bị mà bạn muốn gửi các thẻ đến"
-
-#: .es5/templates/pair/index.mustache:14
-msgid "Sync your Firefox experience"
-msgstr "Đồng bộ hóa trải nghiệm Firefox của bạn"
-
-#: .es5/templates/pair/index.mustache:15
-msgid "Download Firefox for mobile"
-msgstr "Tải xuống Firefox dành cho di động"
-
-#: .es5/templates/pair/index.mustache:17
-msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr "Xem mật khẩu, thẻ, lịch sử duyệt web đã lưu của bạn và hơn thế nữa — trên mọi thiết bị của bạn."
-
-#: .es5/templates/pair/index.mustache:18
-msgid "Select an option to continue:"
-msgstr "Chọn một tùy chọn để tiếp tục:"
-
-#: .es5/templates/pair/index.mustache:19
-msgid "I already have Firefox for mobile"
-msgstr "Tôi đã có Firefox trên di động"
-
-#: .es5/templates/pair/index.mustache:20
-msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "Bắt đầu đồng bộ hóa ngay bây giờ nếu bạn đã có Firefox trên thiết bị di động của mình."
-
-#: .es5/templates/pair/index.mustache:21
-msgid "I don’t have Firefox for mobile"
-msgstr "Tôi chưa có Firefox trên di động"
-
-#: .es5/templates/pair/index.mustache:22
-msgid "Download Firefox on your mobile device, then start your sync."
-msgstr "Tải xuống Firefox trên thiết bị di động của bạn, sau đó bắt đầu đồng bộ hóa."
-
-#: .es5/templates/pair/index.mustache:24 .es5/templates/pair/index.mustache:30
-msgid "Not now"
-msgstr "Không phải bây giờ"
-
-#: .es5/templates/pair/index.mustache:25
-msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr "Để đồng bộ hóa Firefox trên điện thoại hoặc máy tính bảng, trước tiên bạn cần tải xuống Firefox dành cho di động. Đây là cách thực hiện:"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>Bước 1</b>: Tải xuống Firefox bằng cách quét mã QR này bằng máy ảnh trên thiết bị di động của bạn:"
-
-#: .es5/templates/pair/index.mustache:27
-msgid "QR code (located in the middle of the screen)"
-msgstr "Mã QR (nằm ở giữa màn hình)"
-
-#: .es5/templates/pair/index.mustache:28
-msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr "<b>Bước 2</b>: Chọn \"Tiếp tục đồng bộ hoá\" để đồng bộ hóa trải nghiệm Firefox trên thiết bị di động của bạn."
-
-#: .es5/templates/pair/index.mustache:29
-msgid "Continue to sync"
-msgstr "Tiếp tục đồng bộ hoá"
-
-#: .es5/templates/pair/success.mustache:2
-msgid "Device successfully paired"
-msgstr "Thiết bị được ghép nối thành công"
-
-#: .es5/templates/pair/success.mustache:3
-msgid "Pairing was successful."
-msgstr "Ghép nối thành công."
-
-#: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr "Xác nhận ghép nối <span class=\"card-subheader\">cho <span class=\"break-all\">%(email)s</span></span>"
-
-#: .es5/templates/pair/supp_allow.mustache:2
-msgid "Confirm pairing"
-msgstr "Xác nhận ghép nối"
-
-#: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
-msgid "Oops! It looks like you’re not using Firefox."
-msgstr "Ôi! Có vẻ như bạn không sử dụng Firefox."
-
-#: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
-msgid "Attention:"
-msgstr "Chú ý:"
-
-#: .es5/templates/pair/unsupported.mustache:5
-msgid "Switch to Firefox and open this page to connect another device."
-msgstr "Chuyển sang Firefox và mở trang này để kết nối thiết bị khác."
-
-#: .es5/templates/pair/unsupported.mustache:6
-msgid "Download Firefox"
-msgstr "Tải xuống Firefox"
-
-#: .es5/templates/pair/unsupported.mustache:7
-msgid "Opens in new window"
-msgstr "Mở trong cửa sổ mới"
-
-#: .es5/templates/pair/unsupported.mustache:9
-msgid "Pair using an app"
-msgstr "Ghép nối bằng ứng dụng"
-
-#: .es5/templates/pair/unsupported.mustache:10
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Bạn đã sử dụng máy ảnh hệ thống? Bạn phải ghép nối từ trong ứng dụng Firefox."
-
-#: .es5/templates/pair/unsupported.mustache:14
-msgid "Download Firefox now"
-msgstr "Tải xuống Firefox ngay"
-
-#: .es5/templates/pair/unsupported.mustache:17
-msgid "Oops! Something went wrong."
-msgstr "Oops! Có gì đó không ổn."
-
-#: .es5/templates/pair/unsupported.mustache:18
-msgid "Please close this tab and try again."
-msgstr "Vui lòng đóng thẻ này và thử lại."

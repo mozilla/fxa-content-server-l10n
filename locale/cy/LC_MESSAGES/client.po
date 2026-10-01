@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 20:18+0000\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))));\n"
 "Generated-By: Pontoon\n"
@@ -61,7 +63,7 @@ msgstr "Bydd hysbysiadau cyfrifon hefyd nawr yn cael eu hanfon at %(secondaryEma
 msgid "Secondary email confirmed"
 msgstr "Ail e-bost wedi'i gadarnhau"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7
+#: .es5/views/ready.js:69
 msgid "Sign-in confirmed"
 msgstr "Mewngofnodi wedi ei gadarnhau"
 
@@ -736,8 +738,12 @@ msgid "Invalid Token"
 msgstr "Tocyn Annilys"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Drwy barhau, rydych yn cytuno i'r <a id=\"service-tos\" href=\"%(termsUri)s\">Amodau Gwasanaeth</a> a<a id=\"service-pp\" href=\"%(privacyUri)s\">Hysbysiad Preifatrwydd</a> %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -747,7 +753,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-a
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "Derbyniwch y newyddion diweddaraf am Mozilla a Firefox."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s, %(country)s (amcan)"
 
@@ -763,7 +769,7 @@ msgstr "Cyfeiriad IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "Er mwyn cryfhau eich diogelwch, cadarnhewch y mewngofnodi er mwyn cychwyn cydweddu gyda'r ddyfais hon:"
 
-#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+#: .es5/lib/strings.js:49
 msgid "Sign in"
 msgstr "Mewngofnodi"
 
@@ -843,7 +849,7 @@ msgstr "Edrychwch yn eich e-bost am ddolen cadarnhau mewngofnodi anfonwyd at %(e
 msgid "Not in inbox or spam folder? Resend"
 msgstr "Ddim yn y blwch derbyn na'r sbam? Ailanfon"
 
-#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
+#: .es5/templates/confirm.mustache:14
 msgid "Back"
 msgstr "Nôl"
 
@@ -855,11 +861,11 @@ msgstr "Rhowch god cadarnhau <span class=\"card-subheader\" id=\"subheader\"> ar
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "Rhowch y cod anfonwyd i %(escapedEmail)s o fewn 5 munud."
 
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
 msgstr "Rhowch y cod 6 nod"
 
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
 msgstr "Cadarnhau"
 
@@ -870,47 +876,6 @@ msgstr "Cod wedi dod i ben?"
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
 msgstr "E-bostiwch cod newydd."
-
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
-#: .es5/templates/pair/unsupported.mustache:1
-msgid "Connect another device"
-msgstr "Cysylltu i ddyfais arall"
-
-#: .es5/templates/connect_another_device.mustache:3
-msgid "You’re signed into Firefox"
-msgstr "Rydych wedi mewngofnodi i Firefox"
-
-#: .es5/templates/connect_another_device.mustache:5
-msgid "Email confirmed"
-msgstr "E-bost wedi'i gadarnhau"
-
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
-msgid "Devices with hearts on their screens"
-msgstr "Dyfeisiau gyda chalonnau ar eu sgriniau"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "You’re signed in to Firefox"
-msgstr "Rydych wedi mewngofnodi i Firefox"
-
-#: .es5/templates/connect_another_device.mustache:15
-msgid "Sign in to this Firefox to complete set-up"
-msgstr "Mewngofnodwch i'r Firefox hwn i gwblhau'r gosod"
-
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
-msgid "Still adding devices?"
-msgstr "Dal i ychwanegu dyfeisiau?"
-
-#: .es5/templates/connect_another_device.mustache:20
-msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "Mewngofnodwch i Firefox ar ddyfais arall i gwblhau'r gosod"
-
-#: .es5/templates/connect_another_device.mustache:22
-msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr "Eisiau cael eich tabiau, nodau tudalen, a chyfrineiriau ar ddyfais arall?"
-
-#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "Rheoli eich cyfrif"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
@@ -928,8 +893,7 @@ msgstr "Rhowch eich e-bost"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Parhau i <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "Ymlaen i %(serviceName)s"
 
@@ -953,28 +917,36 @@ msgstr "Mae cyfrif Mozilla hefyd yn datgloi mynediad i ragor o gynnyrch sy'n dio
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          Drwy barhau, rydych yn cytuno i'r:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Delerau Gwasanaeth</a> Pocket <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Hysbysiad Preifatrwydd</a><br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a> Cyfrifon Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Delerau Gwasanaeth</a> Pocket <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Hysbysiad Preifatrwydd</a><br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla."
+"org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a> Cyfrifon Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Drwy barhau, rydych yn cytuno i'r:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Hysbysiad Preifatrwydd</a><br /> Gwasanaethau Tanysgrifio Mozilla\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a> Cyfrifon Mozilla\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Hysbysiad Preifatrwydd</a><br /> Gwasanaethau Tanysgrifio Mozilla\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a> Cyfrifon Mozilla\n"
 "          "
 
 #: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19
@@ -1015,7 +987,7 @@ msgstr "Mae %(serviceName)s eisiau'r wybodaeth ganlynol o'ch cyfrif:"
 msgid "Accept"
 msgstr "Derbyn"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4
 msgid "Cancel"
 msgstr "Diddymu"
 
@@ -1023,11 +995,15 @@ msgstr "Diddymu"
 msgid "Success"
 msgstr "Llwyddiant"
 
+#: .es5/templates/ready.mustache:2
+msgid "Manage your account"
+msgstr "Rheoli eich cyfrif"
+
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "Rydych nawr yn barod i ddefnyddio <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 msgid "Continue"
 msgstr "Ymlaen"
 
@@ -1042,22 +1018,6 @@ msgstr "Mae eich gwasanaeth yn barod!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "Cynhyrchwch allwedd adfer cyfrif newydd"
-
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr "Rhowch y cod dilysu"
-
-#: .es5/templates/sign_in_totp_code.mustache:3
-msgid "Open your authentication app and enter the security code it provides."
-msgstr "Agorwch eich ap dilysu a rhowch y cod diogelwch mae'n ei ddarparu."
-
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "Defnyddiwch gyfrif gwahanol"
-
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Trouble entering code?"
-msgstr "Trafferth cyflwyno cod?"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
@@ -1097,28 +1057,36 @@ msgstr "Creu cyfrif"
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            Drwy barhau, rydych yn cytuno i:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Delerau Gwasanaeth</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Hysbysiad Preifatrwydd Pocket</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a> Cyfrifon Mozilla\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Delerau Gwasanaeth</a> a <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Hysbysiad Preifatrwydd Pocket</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a> Cyfrifon Mozilla\n"
 "            "
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid ""
 "\n"
 "              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
 "\n"
 "              Drwy barhau, rydych yn cytuno i'r:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Hysbysiad Preifatrwydd</a><br /> Gwasanaethau Tanysgrifio Mozilla\n"
-"               <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a> Cyfrifon Mozilla\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Hysbysiad Preifatrwydd</a><br /> Gwasanaethau Tanysgrifio Mozilla\n"
+"               <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Telerau Gwasanaeth</a> a <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www."
+"mozilla.org/privacy/mozilla-accounts/\">Hysbysiad Preifatrwydd</a> Cyfrifon Mozilla\n"
 "            "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
@@ -1216,86 +1184,6 @@ msgstr "Derbyniwch wybodaeth ymarferol yn eich blwch derbyn am:"
 msgid "Subscribe %(email)s"
 msgstr "Tanysgrifiwch i %(email)s"
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:1
-msgid "Device connected!"
-msgstr "Dyfais wedi'i chysylltu!"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:4
-msgid "Connect another one"
-msgstr "Cysylltu un arall"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5
-msgid "Use SMS instead"
-msgstr "Defnyddiwch SMS yn lle hynny"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:6
-msgid "I'm done for now"
-msgstr "Rwy wedi gorffen am y tro"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
-msgid "Sync Firefox between devices"
-msgstr "Cydweddu Firefox rhwng dyfeisiau"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr "Cydweddwch nodau tudalen, hanes, a chyfrineiriau i Firefox ar eich dyfeisiau symudol. Dim ond ychydig funudau y mae'n ei gymryd."
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
-msgid "Get started"
-msgstr "Cychwyn arni"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
-msgid "I'll do this later, send me a reminder"
-msgstr "Fe wna i hyn yn nes ymlaen, anfonwch nodyn atgoffa ata i"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera app"
-msgstr "Llwytho Firefox i lawr gyda'ch ap camera"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr "Mae gosod Firefox a chydweddu rhwng o leiaf dau ddyfais hefyd yn diogelu rhag colli eich data."
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
-msgid "Ready to scan"
-msgstr "Yn barod i sganio"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Cysylltwch eich dyfais symudol</h1><p>â chod QR rydyn ni wedi'i greu ar eich cyfer chi yn unig</p>"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "Open the camera app on your device"
-msgstr "Agorwch yr ap camera ar eich dyfais"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
-msgid "Point the camera at the QR code and tap the link that appears"
-msgstr "Pwyntiwch y camera at y cod QR a thapio'r ddolen sy'n ymddangos"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
-msgid "Install Firefox and open it on your device"
-msgstr "Gosod Firefox a'i hagor ar eich dyfais"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
-msgid "Sign into your account"
-msgstr "Mewngofnodwch i'ch cyfrif"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
-msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr "<span class=\"number\">1</span>Agorwch yr ap camera ar eich dyfais"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>Pwyntiwch y camera at y cod QR a thapio'r ddolen sy'n ymddangos"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr "<span class=\"number\">3</span>Gosodwch Firefox a'i hagor ar eich dyfais"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
-msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr "<span class=\"number\">4</span>Mewngofnodwch i'ch cyfrif"
-
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
 msgstr "Pam fod angen i mi greu'r cyfrif hwn? <a %(escapedSuggestionAttrs)s>Darganfod yma</a>"
@@ -1312,7 +1200,7 @@ msgstr "Bydd cyfrifon Firefox yn cael eu hail-enwi yn gyfrifon Mozilla ar Dachwe
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynnyrch rydych chi'n eu defnyddio."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
 msgstr "Dysgu rhagor"
 
@@ -1337,30 +1225,6 @@ msgstr "Beth yw eich oed?"
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
 msgstr "Pam rydyn ni'n gofyn?"
-
-#: .es5/templates/partial/device-being-paired.mustache:2
-msgid "%(family)s on %(OS)s"
-msgstr "%(family)s ar %(OS)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:3
-msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr "%(city)s, %(region)s, %(country)s (amcan)"
-
-#: .es5/templates/partial/device-being-paired.mustache:7
-msgid "%(region)s, %(country)s (estimated)"
-msgstr "%(region)s, %(country)s (amcan)"
-
-#: .es5/templates/partial/device-being-paired.mustache:9
-msgid "%(country)s"
-msgstr "%(country)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:11
-msgid "Location unknown"
-msgstr "Lleoliad anhysbys"
-
-#: .es5/templates/partial/device-being-paired.mustache:12
-msgid "IP address: %(ipAddress)s"
-msgstr "Cyfeiriad IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
@@ -1393,217 +1257,3 @@ msgstr "Parhau gyda Google"
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
 msgstr "Parhau gydag Apple"
-
-#: .es5/templates/partial/unsupported-pair.mustache:1
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr "Wrthi'n cysylltu eich dyfais symudol gyda'ch cyfrif Mozilla"
-
-#: .es5/templates/partial/unsupported-pair.mustache:2
-msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr "Agorwch Firefox ar eich cyfrifiadur, ewch i <b class=\"whitespace-nowrap\">firefox.com/pair</b>, a dilynwch y cyfarwyddiadau ar y sgrin i gysylltu eich dyfais symudol."
-
-#: .es5/templates/pair/auth_allow.mustache:1
-msgid "Did you just sign in to Firefox?"
-msgstr "Ydych chi newydd fewngofnodi i Firefox?"
-
-#: .es5/templates/pair/auth_allow.mustache:2
-msgid " %(email)s "
-msgstr "%(email)s"
-
-#: .es5/templates/pair/auth_allow.mustache:3
-msgid "location balloon"
-msgstr "balŵn lleoliad"
-
-#: .es5/templates/pair/auth_allow.mustache:4
-msgid "Yes, approve device"
-msgstr "Iawn, cymeradwyo dyfais"
-
-#: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr "Os nad chi oedd hwn, <a id=\"change-password\" class=\"link-blue\">newidiwch eich cyfrinair</a>"
-
-#: .es5/templates/pair/auth_complete.mustache:1
-msgid "You’re ready to send some tabs"
-msgstr "Rydych chi'n barod i anfon rhai tabiau"
-
-#: .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
-msgid "Successfully connected"
-msgstr "Wedi'i gysylltu'n llwyddiannus"
-
-#: .es5/templates/pair/auth_complete.mustache:3
-msgid ""
-"\n"
-"          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
-"        "
-msgstr ""
-"           Mae <span>%(deviceFamily)s ar gyfer %(deviceOS)s</span> wedi ei gysylltu.\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:4
-msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr "Mae croeso i chi anfon tabiau agored, cyfrineiriau a nodau tudalen rhwng dyfeisiau ar unwaith."
-
-#: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
-msgid "Device connected"
-msgstr "Dyfais wedi'i gysylltu"
-
-#: .es5/templates/pair/auth_complete.mustache:8
-msgid ""
-"\n"
-"          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
-"        "
-msgstr ""
-"           Rydych nawr yn cydweddu â: <span>%(deviceFamily)s ar %(deviceOS)s</span>\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:9
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr "Nawr gallwch chi gael mynediad i'ch tabiau agored, cyfrineiriau a nodau tudalen ar eich holl ddyfeisiau."
-
-#: .es5/templates/pair/auth_complete.mustache:10
-msgid "See tabs from synced devices"
-msgstr "Gweld tabiau o ddyfeisiau wedi'u cydweddu"
-
-#: .es5/templates/pair/auth_complete.mustache:12
-msgid "Manage devices"
-msgstr "Rheoli dyfeisiau"
-
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "Mae angen cymeradwyaeth nawr <small class=\"card-subheader\">o'ch dyfais arall</small>"
-
-#: .es5/templates/pair/failure.mustache:1
-msgid "Device pairing failed"
-msgstr "Methodd paru dyfais"
-
-#: .es5/templates/pair/failure.mustache:2
-msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr "Nid oedd modd cwblhau'r gosodiad. Mewngofnodwch gyda'ch e-bost."
-
-#: .es5/templates/pair/index.mustache:1
-msgid "Password created. You’re now syncing."
-msgstr "Cyfrinair wedi'i greu. Rydych chi nawr yn cydweddu."
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Account created. You’re now syncing."
-msgstr "Cyfrif wedi'i greu. Rydych chi nawr yn cydweddu."
-
-#: .es5/templates/pair/index.mustache:5
-msgid "Signed in successfully!"
-msgstr "Wedi mewngofnodi'n llwyddiannus!"
-
-#: .es5/templates/pair/index.mustache:11
-msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr "Llwythwch i lawr neu agor Firefox ar y ddyfais lle rydych chi am anfon tabiau"
-
-#: .es5/templates/pair/index.mustache:14
-msgid "Sync your Firefox experience"
-msgstr "Cydweddu eich profiad Firefox"
-
-#: .es5/templates/pair/index.mustache:15
-msgid "Download Firefox for mobile"
-msgstr "Llwytho Firefox i lawr ar gyfer symudol"
-
-#: .es5/templates/pair/index.mustache:17
-msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr "Gweld eich cyfrineiriau wedi'u cadw, tabiau, hanes pori a mwy - ar draws eich holl ddyfeisiau."
-
-#: .es5/templates/pair/index.mustache:18
-msgid "Select an option to continue:"
-msgstr "Dewiswch ddewis i barhau:"
-
-#: .es5/templates/pair/index.mustache:19
-msgid "I already have Firefox for mobile"
-msgstr "Mae gen i Firefox symudol eisoes"
-
-#: .es5/templates/pair/index.mustache:20
-msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "Cychwynnwch gydweddu nawr os oes gennych chi Firefox eisoes ar eich dyfais symudol."
-
-#: .es5/templates/pair/index.mustache:21
-msgid "I don’t have Firefox for mobile"
-msgstr "Does gen i ddim Firefox symudol"
-
-#: .es5/templates/pair/index.mustache:22
-msgid "Download Firefox on your mobile device, then start your sync."
-msgstr "Llwythwch i lawr Firefox symudol, yna dechreuwch eich cydweddu."
-
-#: .es5/templates/pair/index.mustache:24 .es5/templates/pair/index.mustache:30
-msgid "Not now"
-msgstr "Nid nawr"
-
-#: .es5/templates/pair/index.mustache:25
-msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr "I gydweddu Firefox ar eich ffôn neu dabled, yn gyntaf mae angen i chi lwytho i lawr Firefox symudol. Dyma sut mae gwneud:"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>Cam 1</b>: Llwythwch i lawr Firefox drwy sganio'r cod QR hwn gyda'r camera ar eich dyfais symudol:"
-
-#: .es5/templates/pair/index.mustache:27
-msgid "QR code (located in the middle of the screen)"
-msgstr "Cod QR (i'w weld ar ganol y sgrin)"
-
-#: .es5/templates/pair/index.mustache:28
-msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr "<b>Cam 2</b>: Dewiswch \"Parhau i gydweddu\" i gydweddu eich profiad Firefox ar eich dyfais symudol."
-
-#: .es5/templates/pair/index.mustache:29
-msgid "Continue to sync"
-msgstr "Parhau i gydweddu"
-
-#: .es5/templates/pair/success.mustache:2
-msgid "Device successfully paired"
-msgstr "Dyfais wedi'i baru'n llwyddiannus"
-
-#: .es5/templates/pair/success.mustache:3
-msgid "Pairing was successful."
-msgstr "Paru'n llwyddiant."
-
-#: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr "Cadarnhau paru <span class=\"card-subheader\">ar gyfer <span class=\"break-all\">%(email)s</span></span>"
-
-#: .es5/templates/pair/supp_allow.mustache:2
-msgid "Confirm pairing"
-msgstr "Cadarnhau paru"
-
-#: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
-msgid "Oops! It looks like you’re not using Firefox."
-msgstr "Wps! Mae'n edrych fel nad ydych chi'n defnyddio Firefox."
-
-#: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
-msgid "Attention:"
-msgstr "Sylw:"
-
-#: .es5/templates/pair/unsupported.mustache:5
-msgid "Switch to Firefox and open this page to connect another device."
-msgstr "Newidiwch i Firefox ac agorwch y dudalen hon i gysylltu dyfais arall."
-
-#: .es5/templates/pair/unsupported.mustache:6
-msgid "Download Firefox"
-msgstr "Llwytho Firefox i Lawr"
-
-#: .es5/templates/pair/unsupported.mustache:7
-msgid "Opens in new window"
-msgstr "Yn agor mewn ffenestr newydd"
-
-#: .es5/templates/pair/unsupported.mustache:9
-msgid "Pair using an app"
-msgstr "Paru gan ddefnyddio ap"
-
-#: .es5/templates/pair/unsupported.mustache:10
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "Oeddech chi'n defnyddio camera'r system? Rhaid i chi baru o fewn ap Firefox."
-
-#: .es5/templates/pair/unsupported.mustache:14
-msgid "Download Firefox now"
-msgstr "Llwythwch Firefox i Lawr nawr"
-
-#: .es5/templates/pair/unsupported.mustache:17
-msgid "Oops! Something went wrong."
-msgstr "Wps! Aeth rhywbeth o'i le."
-
-#: .es5/templates/pair/unsupported.mustache:18
-msgid "Please close this tab and try again."
-msgstr "Caewch y tab hwn a cheisiwch eto."
