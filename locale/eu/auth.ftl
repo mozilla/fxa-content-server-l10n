@@ -451,9 +451,20 @@ subscriptionUpgrade-title = Eskerrik asko eguneratzeagatik!
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-new-price-day = Hemendik aurrera eguneko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
-subscriptionUpgrade-content-new-price-week = Hemendik aurrera asteko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
-subscriptionUpgrade-content-new-price-month = Hemendik aurrera hileko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-subscription-next-bill-change = Hurrengo fakturatik hasita, zure harpidetzaren prezioa aldatu egingo da.
+subscriptionUpgrade-content-old-price-day = Aurreko prezioa eguneko { $paymentAmountOld } zen.
+subscriptionUpgrade-content-new-price-day = Aurrerantzean, eguneko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-week = Aurrerantzean, asteko { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-month = Aurrerantzean, hilean { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-halfyear = Aurrerantzean, sei hilean behin { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-year = Aurrerantzean, urtean { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-default = Aurrerantzean, fakturazio-tarte bakoitzean { $paymentAmountNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-day-dtax = Aurrerantzean, eguneko { $paymentAmountNew } + zergetako { $paymentTaxNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-week-tax = Aurrerantzean, asteko { $paymentAmountNew } + zergetako { $paymentTaxNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-month-tax = Aurrerantzean, hilean { $paymentAmountNew } + zergetako { $paymentTaxNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-halfyear-tax = Aurrerantzean, sei hilean behin { $paymentAmountNew } + zergetako { $paymentTaxNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-year-tax = Aurrerantzean, urtean { $paymentAmountNew } + zergetako { $paymentTaxNew } kobratuko zaizu, deskontuak salbu.
+subscriptionUpgrade-content-new-price-default-tax = Aurrerantzean, fakturazio-tarte bakoitzean { $paymentAmountNew } + zergetako { $paymentTaxNew } kobratuko zaizu, deskontuak salbu.
 subscriptionUpgrade-existing = Aurretik duzun harpidetzaren batek bat-etortze partziala badu aldaketa honekin, guk kudeatuko dugu hori eta mezu elektroniko bereizia bidaliko dizugu xehetasunekin. Zure plan berriak instalazioa eskatzen duten produktuak baditu, mezu elektroniko bereizia bidaliko dizugu konfiguratzeko jarraibideekin.
 subscriptionUpgrade-auto-renew = Zure harpidetzak fakturazio-aldi bakoitza automatikoki berrituko du bertan behera uztea erabakitzen ez baduzu.
 subscriptionsPaymentExpired-subject-2 = Zure harpidetzetan erabiltzen den ordainketa-metodoa iraungita edo iraungitzear dago
