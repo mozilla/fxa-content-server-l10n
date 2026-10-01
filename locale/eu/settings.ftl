@@ -1775,6 +1775,9 @@ back = Atzera
 
 signin-passwordless-code-input-label-v2 = Idatzi 6 digituko kodea
 signin-passwordless-code-confirm-button = Berretsi
+signin-passwordless-code-required-error = Berrespen-kodea behar da
+signin-passwordless-code-expired = Kodea iraungita?
+signin-passwordless-code-other-account-link = Erabili beste kontu bat
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -1922,6 +1925,7 @@ confirm-signup-code-heading-2 = Sartu <span>zure { -product-mozilla-account }</s
 confirm-signup-code-input-label = Sartu 6 digituko kodea
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Berretsi
+confirm-signup-code-sync-button = Hasi sinkronizatzen
 confirm-signup-code-code-expired = Kodea iraungita?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Posta elektroniko kode berria.
@@ -1936,6 +1940,15 @@ confirm-signup-code-desktop-relay = { -brand-firefox } saioa hasi ondoren posta 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Sortu pasahitza
 signup-relay-info = Pasahitz bat behar da maskaratutako mezu elektronikoak modu seguruan kudeatzeko eta { -brand-mozilla }-ren segurtasun-tresnetara atzitzeko.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Aldatu helbide elektronikoa
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
+signup-confirmed-sync-button = Hasi nabigatzen
+signup-confirmed-sync-add-device-link = Gehitu beste gailu bat
+signup-confirmed-sync-manage-sync-button = Kudeatu sinkronizazioa
+signup-confirmed-sync-set-password-success-banner = Sinkronizatzeko pasahitza sortuta
