@@ -1053,6 +1053,16 @@ passkey-delete-success = Sarbide-gakoa ezabatuta
 passkey-delete-error = Arazo bat egon da zure sarbide-gakoa ezabatzean. Saiatu berriro minutu batzuk barru.
 passkey-sub-row-rename-title = Berrizendatu sarbide-gakoa
 passkey-rename-modal-heading = Berrizendatu sarbide-gakoa
+passkey-rename-modal-description = Idatzi izen berria sarbide-gako honentzat.
+passkey-rename-input-label = Sarbide-gakoaren izena
+passkey-rename-save-button = Gorde
+passkey-rename-cancel-button = Utzi
+passkey-rename-error-empty = Idatzi izena sarbide-gako honentzat
+passkey-rename-error-too-long = Izenak 256 karaktere baino gutxiago izan behar ditu.
+passkey-rename-error-invalid = Bakarrik letrak, zenbakiak, puntuazio-markak eta sinboloak onartzen dira.
+passkey-rename-error-duplicate = Badago lehendik ere izen bereko sarbide-gako bat
+passkey-rename-success = Sarbide-gakoa berrizendatuta
+passkey-rename-error = Arazo bat egon da zure sarbide-gakoa berrizendatzean. Saiatu berriro minutu batzuk barru.
 
 ## Switch component
 
@@ -1071,6 +1081,13 @@ row-defaults-action-add = Gehitu
 row-defaults-action-change = Aldatu
 row-defaults-action-disable = Desgaitu
 row-defaults-status = Bat ere ez
+
+## UnitRowPasskey
+
+passkey-row-header = Sarbide-gakoak
+passkey-row-enabled = Gaituta
+passkey-row-not-set = Ezarri gabe
+passkey-row-action-create = Sortu
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1229,6 +1246,26 @@ auth-error-1067 = Gaizki idatzitako helbidea?
 recovery-phone-number-ending-digits = { $lastFourPhoneNumber }z amaitzen den zenbakia
 oauth-error-1000 = Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro.
 
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+passkey-registration-canceled-v2 = Sarbide-gakoaren konfigurazioa denboraz kanpo edo bertan behera utzi da.
+# Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
+passkey-registration-canceled-link = Argibide gehiago
+# Browser or platform does not support passkeys or the requested options (e.g., user verification, discoverable credential).
+passkey-registration-error-not-supported-v2 = Zure nabigatzaile edo gailuak ez ditu sarbide-gakoak onartzen.
+# Link label appended after passkey-registration-error-not-supported-v2, opens a SUMO support article.
+passkey-registration-error-not-supported-link = Argibide gehiago
+# Generic fallback shown when passkey setup fails for an indeterminate reason.
+# Keep the tone neutral; do not imply the device is unsupported or that the user cancelled.
+# "method" here means an alternative way to create the passkey (e.g. another password manager or security key), not a different account or sign-in option.
+passkey-registration-error-could-not-complete = Sarbide-gakoen konfigurazioa ezin da burutu. Saiatu beste metodo edo gailu batekin.
+# Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
+passkey-registration-error-could-not-complete-link = Argibide gehiago
+# Label for the support link in the passkey sign-in trouble message; opens a SUMO article about
+# using passkeys.
+passkey-authentication-trouble-link = Nola erabili sarbide-gakoak
+
 ## Connect Another Device page
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
@@ -1287,6 +1324,10 @@ index-email-bounced = Zure berrespen-mezu elektronikoa itzuli berri da. Helbide 
 
 ## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
 
+inline-passwordless-sync-setup-enable-button = Gaitu sarbide-gakoa
+# Button label while the passkey is stored.
+inline-passwordless-sync-setup-enabling = Gaitzen…
+inline-passwordless-sync-setup-not-now-button = Une honetan ez
 # Success message shown in the Settings alert bar after the passkey was stored.
 inline-passwordless-sync-setup-success-alert = Sarbide-gakoa prest dago sinkronizazioaren saio-hasierarako
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
@@ -1337,6 +1378,7 @@ inline-totp-setup-security-code-placeholder = autentifikazio-kode
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Autentifikazioa kodea beharrezkoa
 tfa-qr-code-alt = Erabili { $code } kodea onartzen diren aplikazioetan bi urratseko autentifikazioa konfiguratzeko.
+inline-totp-setup-page-title = Bi urratseko autentifikazioa
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -1359,6 +1401,11 @@ pair-auth-complete-now-syncing-device-text = Honekin sinkronizatzen ari zara: { 
 pair-auth-complete-sync-benefits-text = Orain irekitako fitxak, pasahitzak eta laster-markak atzi ditzakezu gailu guztietan.
 pair-auth-complete-see-tabs-button = Ikusi sinkronizatutako gailuetako fitxak
 pair-auth-complete-manage-devices-link = Kudeatu gailuak
+
+## Alternate "Send Tab" variant — shown when the pair was initiated from a Send Tab entrypoint (toolbar icon, app menu, etc.)
+
+# Heading
+pair-auth-complete-send-tab-heading = Fitxak bidaltzeko prest zaude
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1386,9 +1433,14 @@ auth-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Onarpena behar da <span>beste gailutik</span>
 
+## PairFailure - a view which displays on failure of the device pairing process
+
+pair-failure-try-again-link = Saiatu berriro
+
 ## Pair index page
 
 pair-sync-header = Sinkronizatu { -brand-firefox } zure telefonoan edo tabletan
+pair-cad-header-v2 = Konektatu beste gailu bat
 pair-already-have-firefox-paragraph = Dagoeneko { -brand-firefox } duzu telefono edo tablet batean?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sinkronizatu zure gailua
@@ -1403,6 +1455,31 @@ pair-take-your-data-message = Eraman zure fitxak, laster-markak eta pasahitzak {
 pair-get-started-button = Hasi erabiltzen
 # This is the aria label on the QR code image
 pair-qr-code-aria-label = QR kodea
+
+## Choice screen — "Do you have Firefox for mobile?"
+
+# Subheader shown on the choice screen
+pair-choice-subheader = Sinkronizatu zure { -brand-firefox } esperientzia
+# Description shown on the choice screen
+pair-choice-description = Ikusi gordetako pasahitzak, fitxak, nabigazio-historia eta gehiago — zure gailu guztietan.
+# Heading shown on the choice screen when the user arrived via a Send Tab entrypoint
+pair-choice-header-send-tab = Deskargatu edo ireki { -brand-firefox } fitxak bidali nahi dituzun gailuan
+# Legend for the radio button fieldset
+pair-choice-legend = Hautatu aukera bat jarraitzeko:
+# Radio option: user already has Firefox for mobile — title
+pair-choice-has-mobile-title = Dagoeneko badut mugikorrerako { -brand-firefox }
+# Radio option: user already has Firefox for mobile — description
+pair-choice-has-mobile-description = Hasi sinkronizazioa orain zure gailu mugikorrean dagoeneko { -brand-firefox } baduzu.
+# Radio option: user does not have Firefox for mobile — title
+pair-choice-needs-mobile-title = Ez daukat mugikorrerako { -brand-firefox }
+# Radio option: user does not have Firefox for mobile — description
+pair-choice-needs-mobile-description = Deskargatu { -brand-firefox } zure gailu mugikorrean, eta hasi sinkronizazioa.
+# Continue button on choice screen (disabled until a radio option is selected)
+pair-choice-continue-button = Jarraitu
+# Success banner shown after signing in
+pair-signed-in-successfully = Saioa ondo hasi da!
+# Success banner shown after signing up and verifying email via a Send Tab flow
+pair-account-created-now-syncing = Kontua sortuta. Sinkronizatzen ari zara orain.
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1432,10 +1509,18 @@ pair-wait-for-auth-heading-text = Onarpena behar da <span>beste gailutik</span>
 pair-unsupported-header = Parekatzea aplikazioa erabiliz
 pair-unsupported-message = Sistemako kamera darabilzu? { -brand-firefox } aplikazio batetik parekatu behar duzu.
 
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when Firefox is needed to continue pairing.
+## It points them at firefox.com/pair and offers a download link for Firefox.
+
+# Links out to the Firefox download page
+pair2-authority-download-firefox-cta = Deskargatu { -brand-firefox }
+
 ## ScanQR page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer. It shows a QR code that they scan with
 ## their phone or tablet to connect the two devices and start syncing.
 
+pair2-authority-scan-qr-heading = Eskaneatu zure gailu mugikorra konektatzeko
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Saltatu oraingoz
 
@@ -1449,23 +1534,74 @@ pair2-authority-sync-success-description-v2 = Sinkronizazioa lanean ari da. Denb
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button-v2 = Kudeatu sinkronizazio-ezarpenak
 
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer when pairing stopped without succeeding,
+## either because it timed out or because it was canceled. Both cases offer to
+## start pairing over again.
+
+# Shown when the pairing attempt was canceled, on either device
+pair2-authority-timeout-and-cancel-cancelled-heading = Bertan behera utzita
+# Restarts the pairing flow
+pair2-authority-timeout-and-cancel-try-again-button = Saiatu berriro
+# Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
+pair2-authority-timeout-and-cancel-sync-settings-button = Sinkronizazio-ezarpenak
+
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It waits for them to approve the sign-in on the
+## computer, and shows that computer's details so they can verify the request.
+
+# Dismisses the pairing attempt
+pair2-supplicant-approve-sign-in-cancel-button = Utzi
+
+## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## shown on their computer. It asks them to confirm connecting the mobile
+## device to their account, and shows that computer's details so they can
+## verify the request.
+
+# Confirms the pairing attempt
+pair2-supplicant-connect-this-device-connect-button = Konektatu
+# Dismisses the pairing attempt
+pair2-supplicant-connect-this-device-cancel-button = Utzi
+
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing reaches a device that
 ## does not have Firefox installed yet. It explains what syncing gets them and
 ## either opens the Firefox app to finish pairing or sends them off to install
 ## the browser.
 
+pair2-supplicant-download-firefox-heading = Eskuratu { -brand-firefox } gailu honetan
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = { -brand-firefox } irekitzen…
+
+## ReadyToScan page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device before pairing starts. It tells them
+## to open firefox.com/pair on their computer, which is where the QR code they
+## scan with the mobile device comes from.
+
+pair2-supplicant-ready-to-scan-heading = Gailu bat konektatzeko
+# Opens a Mozilla support article about setting up sync
+pair2-supplicant-ready-to-scan-learn-more-link = Argibide gehiago
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device once pairing has completed: the device
 ## is signed in and syncing with the computer they paired it with.
 
+pair2-supplicant-sync-success-heading = Zure gailua konektatuta dago
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = Sinkronizazioa lanean ari da. Denbora pixka bat har lezake sinkronizatutako datuak agertu arte. Jarraitu nabigatzen lasai.
 # Opens the browser's sync settings, where the user chooses what to sync
 pair2-supplicant-sync-success-sync-settings-button-v2 = Kudeatu sinkronizazio-ezarpenak
+
+## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing ends without connecting,
+## either because the attempt timed out or because it was canceled. Both states
+## are informational and offer no on-screen action, so the copy points the user
+## back to their computer to start again.
+
+# Shown after the pairing attempt was canceled
+pair2-supplicant-timeout-and-cancel-cancelled-heading = Bertan behera utzita
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
@@ -1479,6 +1615,11 @@ permissions-label-email = Helbide elektronikoa
 permissions-label-display-name = Bistaratzeko izena
 permissions-continue-button = Jarraitu
 permissions-cancel-button = Utzi
+
+## ServiceWelcome page
+## Shown to users after signup/signin for services like VPN
+
+service-welcome-signin-success-banner = Saioa ondo hasi da!
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1520,6 +1661,7 @@ reset-password-complete-banner-message = Ez ahaztu kontua berreskuratzeko gako b
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
+confirm-backup-code-reset-password-confirm-button = Berretsi
 
 ## Confirm Reset Password With Code
 
@@ -1561,8 +1703,16 @@ reset-password-complete-header = Zure pasahitza berrezarri egin da
 # $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
 
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+password-reset-recovery-method-header = Berrezarri pasahitza
+password-reset-recovery-method-subheader = Aukeratu berreskuratzeko metodoa
+password-reset-recovery-method-phone = Berreskuratze-telefonoa
+
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Berrezarri pasahitza
 reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
 reset-password-complete-new-password-saved = Pasahitz berria gorde da!
 reset-password-complete-recovery-key-created = Kontua berreskuratzeko gako berria sortu da. Deskargatu eta gorde ezazu orain.
@@ -1619,6 +1769,12 @@ signin-bounced-message = { $email } helbidera bidali zen berrespen mezua itzuli 
 signin-bounced-help = Helbide elektroniko hau baliozkoa bada, <linkExternal>esaguzu</linkExternal> eta zure kontua desblokeatzen lagunduko dizugu.
 signin-bounced-create-new-account = Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat
 back = Atzera
+
+## SigninPasswordlessCode page
+## Users are prompted to enter a code sent to their email for passwordless authentication.
+
+signin-passwordless-code-input-label-v2 = Idatzi 6 digituko kodea
+signin-passwordless-code-confirm-button = Berretsi
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
