@@ -19,7 +19,7 @@ msgstr "%(permissionName)s (لازم است)"
 
 #: .es5/views/permissions.js:34
 msgid "Email address"
-msgstr "آدرس پست‌الکترونیکی"
+msgstr "نشانی رایانامه"
 
 #: .es5/views/permissions.js:38
 msgid "Display name"
@@ -39,19 +39,19 @@ msgstr "هم‌گام‌سازی فایرفاکس لحظاتی دیگر ادام
 
 #: .es5/views/ready.js:48 .es5/views/ready.js:53
 msgid "Your password has been reset"
-msgstr "کلمه عبور شو از نو تنظیم شد"
+msgstr "گذرواژه شو از نو تنظیم شد"
 
 #: .es5/views/ready.js:49 .es5/views/ready.js:54
 msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "برپاسازی را با وارد کردن گذرواژه جدید در سایز دستگاه‌های فایرفاکس خود تکمیل کنید."
+msgstr "برپاسازی را با وارد کردن گذرواژه جدید در سایر دستگاه‌های فایرفاکس خود تکمیل کنید."
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "اکنون آماده‌اید تا تغییرات موردنظر خود را در حساب موزیلا انجام دهید."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "رایانامه اصلی تأیید شد"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -59,11 +59,11 @@ msgstr "حالا اعلان‌های مرتبط با حساب به %(secondaryEm
 
 #: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "رایانامه ثانویه تأیید شد"
 
 #: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7
 msgid "Sign-in confirmed"
-msgstr "ورود تایید شد"
+msgstr "ورود تأیید شد"
 
 #: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
@@ -71,7 +71,7 @@ msgstr "حالا شما برای استفاده از %(serviceName)s آماده 
 
 #: .es5/views/ready.js:74
 msgid "Account confirmed"
-msgstr ""
+msgstr "حساب تأیید شد"
 
 #: .es5/views/ready.js:79
 msgid "Connected"
@@ -96,11 +96,11 @@ msgstr "اعلان‌های حساب شما از هم‌اکنون به %(second
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
-msgstr "ادامه به %(serviceName)s"
+msgstr "ادامه به %(serviceName)s "
 
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
-msgstr "بازکردن Gmail"
+msgstr "باز کردن Gmail"
 
 #: .es5/views/mixins/open-webmail-mixin.js:27
 msgid "Open Hotmail"
@@ -128,11 +128,11 @@ msgstr "نمایش گذرواژه"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "ارسال مجدد ایمیل. اضافه کردنaccounts@firefox.com در لیست مخاطبین خودتون برای اینکه مطمئنید به شید به راحتی به مقصد میرسه."
+msgstr "ارسال مجدد رایانامه. اضافه کردنaccounts@firefox.com در لیست مخاطبین خودتون برای اینکه مطمئنید به شید به راحتی به مقصد میرسه."
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "حساب با موفقیت تأیید شد"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -148,7 +148,7 @@ msgstr "گذرواژه‌ها"
 
 #: .es5/models/sync-engines.js:58
 msgid "Add-ons"
-msgstr "افزونه‌ها"
+msgstr "برافزا"
 
 #: .es5/models/sync-engines.js:62
 msgid "Open Tabs"
@@ -164,7 +164,7 @@ msgstr "نشانی‌ها"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "روش‌های پرداخت"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -172,15 +172,15 @@ msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
-msgstr "رایانامه اصلی با موفقیت تایید شد"
+msgstr "رایانامه اصلی با موفقیت تأیید شد"
 
 #: .es5/models/auth_brokers/base.js:92
 msgid "Secondary email verified successfully"
-msgstr "رایانامه ثانوی با موفقیت تایید شد"
+msgstr "رایانامه ثانوی با موفقیت تأیید شد"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
-msgstr "تنظیم مجدد کلمه عبور با موفقیت انجام شد"
+msgstr "بازنشانی گذرواژه موفقیت‌آمیز بود"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
@@ -188,7 +188,7 @@ msgstr "خطای غیرمترقبه"
 
 #: .es5/lib/auth-errors.js:22
 msgid "The link you clicked to verify your email is expired."
-msgstr "پیوندی که برای تایید ایمیل خود روی آن کلیک کردید منقضی شده است."
+msgstr "پیوندی که برای تأیید رایانامه خود روی آن کلیک کردید منقضی شده است."
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
@@ -220,7 +220,7 @@ msgstr "حساب ناشناخته"
 
 #: .es5/lib/auth-errors.js:55
 msgid "Incorrect email case"
-msgstr "بزرگی و کوچکی حروف ایمیل نادرست است"
+msgstr "بزرگی و کوچکی حروف رایانامه نادرست است"
 
 #: .es5/lib/auth-errors.js:59
 msgid "Incorrect password"
@@ -228,11 +228,11 @@ msgstr "گذرواژه نادرست است"
 
 #: .es5/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr "حساب تایید نشده"
+msgstr "حساب تأیید نشده"
 
 #: .es5/lib/auth-errors.js:67
 msgid "Invalid verification code"
-msgstr "کد تایید نامعتبر"
+msgstr "کد تأیید نامعتبر"
 
 #: .es5/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
@@ -240,11 +240,11 @@ msgstr "JSON نامعتبر در متن درخواست"
 
 #: .es5/lib/auth-errors.js:75
 msgid "Invalid parameter: %(param)s"
-msgstr "پارامتر نا معتبر : %(param)s"
+msgstr "پارامتر نامعتبر : %(param)s"
 
 #: .es5/lib/auth-errors.js:79
 msgid "Missing parameter: %(param)s"
-msgstr "پارامتر گم شده: %(param)s"
+msgstr "پارامتر گم‌شده: %(param)s"
 
 #: .es5/lib/auth-errors.js:83
 msgid "Invalid request signature"
@@ -288,7 +288,7 @@ msgstr "پست‌الکترونیکی شما هم‌اکنون برگشت خور
 
 #: .es5/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr "پست‌الکترونیکی تایید شما هم‌اکنون برگشت خورد. پست‌الکترونیکی خود را اشتباه تایپ کردید؟"
+msgstr "پست‌الکترونیکی تأیید شما هم‌اکنون برگشت خورد. پست‌الکترونیکی خود را اشتباه تایپ کردید؟"
 
 #: .es5/lib/auth-errors.js:146
 msgid "Unable to deliver email"
@@ -296,11 +296,11 @@ msgstr "امکان ارسال پست‌الکترونیکی وجود ندارد"
 
 #: .es5/lib/auth-errors.js:150
 msgid "This email was already verified by another user"
-msgstr "این رایانامه پیش از این توسط کاربر دیگری تایید شده است"
+msgstr "این رایانامه پیش از این توسط کاربر دیگری تأیید شده است"
 
 #: .es5/lib/auth-errors.js:154
 msgid "Unverified session"
-msgstr "ارتباط تایید نشده"
+msgstr "ارتباط تأیید نشده"
 
 #: .es5/lib/auth-errors.js:158
 msgid "Secondary email must be different than your account email"
@@ -308,11 +308,11 @@ msgstr "رایانامه کمکی باید با رایانامه حساب‌کا
 
 #: .es5/lib/auth-errors.js:166
 msgid "You have reached the maximum allowed secondary emails"
-msgstr "شما به حداکثر مجازِ ایمیل‌های ثانویه رسیده‌اید"
+msgstr "شما به حداکثر مجازِ رایانامه‌های ثانویه رسیده‌اید"
 
 #: .es5/lib/auth-errors.js:170
 msgid "This email already exists on your account"
-msgstr "این ایمیل از پیش در حساب شما ثبت شده است"
+msgstr "این رایانامه از پیش در حساب شما ثبت شده است"
 
 #: .es5/lib/auth-errors.js:178
 msgid "Primary account email required for sign-in"
@@ -332,7 +332,7 @@ msgstr "کد ورود نامعتبر"
 
 #: .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an unverified email"
-msgstr "نمی‌توان رایانامه اصلی را به یک رایانامهٔ تایید نشده تغییر داد"
+msgstr "نمی‌توان رایانامه اصلی را به یک رایانامهٔ تأیید نشده تغییر داد"
 
 #: .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:206
 msgid "Can not change primary email to an email that does not belong to this account"
@@ -352,7 +352,7 @@ msgstr "یک کد معتبر ضروریه"
 
 #: .es5/lib/auth-errors.js:218
 msgid "This verification code has expired"
-msgstr "این کد تاییدیه منقضی شده است"
+msgstr "این کد تأییدیه منقضی شده است"
 
 #: .es5/lib/auth-errors.js:222
 msgid "A TOTP token already exists for this account"
@@ -364,7 +364,7 @@ msgstr "رمز TOTP پیدا نشد"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "کد احراز هویت پشتیبان پیدا نشد"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
@@ -372,11 +372,11 @@ msgstr "دستورهای دستگاه در دسترس نیست"
 
 #: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "کلید بازیابی حساب پیدا نشد"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "کلید بازیابی حساب نامعتبر است"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
@@ -412,11 +412,11 @@ msgstr "بروزرسانی رد شد لطفا مجددا تلاش کنید"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "کد تأیید نامعتبر است یا منقضی شده است"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
-msgstr "کارگزار مشغول است، کمی بعد مجددا تلاش کنید"
+msgstr "کارگزار مشغول است، لطفا بعدا دوباره تلاش کنید"
 
 #: .es5/lib/auth-errors.js:290
 msgid "Feature not enabled"
@@ -433,7 +433,7 @@ msgstr "از این مقصد دیگر پشتیبانی نمی‌شود"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "برای تکمیل راه‌اندازی حساب، لطفاً برای ادامه <a href=\"/reset_password\">گذرواژه را بازنشانی کنید</a>."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -477,7 +477,7 @@ msgstr "گذرواژه معتبر لازم است"
 
 #: .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
 msgid "Valid email required"
-msgstr "ایمیل معتبر مورد نیاز است"
+msgstr "رایانامه معتبر مورد نیاز است"
 
 #: .es5/lib/auth-errors.js:365
 msgid "A usable image was not found"
@@ -493,19 +493,19 @@ msgstr "آدرس اینترنتی معتبر لازم است"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "رایانامه تأیید شما به‌تازگی برگشت خورده است. آیا نشانی رایانامه را اشتباه وارد کرده‌اید؟"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
-msgstr "یک ایمیل معتبر وارد کنید. firefox.com سرویس ایمیل ارائه نمی‌کند."
+msgstr "یک رایانامه معتبر وارد کنید. firefox.com سرویس رایانامه ارائه نمی‌کند."
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "حساب‌های موزیلا فقط می‌توانند در IFRAME سایت‌های تأییدشده قرار بگیرند"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
-msgstr "پیوندِ تایید معیوب است"
+msgstr "پیوندِ تأیید معیوب است"
 
 #: .es5/lib/auth-errors.js:431
 msgid "The image dimensions must be at least 100x100px"
@@ -513,7 +513,7 @@ msgstr "ابعاد تصویر باید حداقل ۱۰۰×۱۰۰ پیکسل با
 
 #: .es5/lib/auth-errors.js:435
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr "ثبت‌نام به زودی برای فایرفاکس iOS خواهد آمد"
+msgstr "ثبت‌نام به‌زودی برای فایرفاکس iOS خواهد آمد"
 
 #: .es5/lib/auth-errors.js:446
 msgid "You must enter your age to sign up"
@@ -529,11 +529,11 @@ msgstr "این حساب دیگر وجود ندارد."
 
 #: .es5/lib/auth-errors.js:469
 msgid "Invalid property in resume token: %(property)s"
-msgstr "موارد نامعتبر در رزومه نشانه: %(property)s"
+msgstr "موارد نامعتبر در نشانه رزومه: %(property)s"
 
 #: .es5/lib/auth-errors.js:473
 msgid "Missing property in resume token: %(property)s"
-msgstr "موارد گم‌شده در رزومه نشانه: %(property)s"
+msgstr "موارد گم‌شده در نشانه رزومه: %(property)s"
 
 #: .es5/lib/auth-errors.js:477
 msgid "Invalid data attribute: %(property)s"
@@ -545,7 +545,7 @@ msgstr "متغیر داده ذکر نشده: %(property)s"
 
 #: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
-msgstr "پیوند تایید قبلا استفاده شده است، و تنها می‌توان یکبار از آن استفاده کرد."
+msgstr "پیوند تأیید قبلا استفاده شده است، و تنها می‌توان یکبار از آن استفاده کرد."
 
 #: .es5/lib/auth-errors.js:498
 msgid "This is a required field"
@@ -573,19 +573,19 @@ msgstr "کد ارزیابی دو مرحله‌ای غیرمعتبر"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "کد احراز هویت پشتیبان لازم است"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "کد احراز هویت پشتیبان نامعتبر است"
 
 #: .es5/lib/auth-errors.js:576
 msgid "Account recovery key required"
-msgstr ""
+msgstr "کلید بازیابی حساب لازم است"
 
 #: .es5/lib/auth-errors.js:580
 msgid "Please enter verification code"
-msgstr "لطفا کد تاییدیه رو وارد کنید"
+msgstr "لطفا کد تأییدیه رو وارد کنید"
 
 #: .es5/lib/auth-errors.js:591
 msgid "Invalid redirect"
@@ -593,7 +593,7 @@ msgstr "مسیر غیرمعتبر"
 
 #: .es5/lib/auth-errors.js:602
 msgid "Mistyped email? %(domain)s does not offer email."
-msgstr "ایمیل را اشتباه وارد کردید؟ %(domain)s امکانات ایمیل فراهم نمی‌کند."
+msgstr "رایانامه را اشتباه وارد کردید؟ %(domain)s امکانات رایانامه فراهم نمی‌کند."
 
 #: .es5/lib/auth-errors.js:606
 msgid "The image file size is too large to be uploaded."
@@ -601,11 +601,11 @@ msgstr "حجم این تصویر برای آپلود خیلی بزرگ است."
 
 #: .es5/lib/auth-errors.js:610
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "نقاب‌های رایانامه را نمی‌توان برای ایجاد حساب استفاده کرد."
 
 #: .es5/lib/auth-errors.js:682
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
-msgstr "حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تایید شده قرار بگیرند"
+msgstr "حساب‌های فایرفاکس تنها می‌توانند در یک IFRAME در سایت‌های تأیید شده قرار بگیرند"
 
 #: .es5/lib/config-loader.js:100
 msgid "Missing configuration"
@@ -621,7 +621,7 @@ msgstr "رایانامه را اشتباه وارد کردید؟"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "دسترسی زودهنگام برای آزمایش محصولات جدید"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -629,15 +629,15 @@ msgstr "دریافت آخرین اخبار از موزیلا و فایرفاکس
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "به سالم نگه‌داشتن اینترنت کمک کنید"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
-msgstr "به صورت آنلاین امن‌تر و باهوش‌تر بمانید"
+msgstr "به‌صورت آنلاین امن‌تر و باهوش‌تر بمانید"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "اخبار و به‌روزرسانی‌های امنیت و حریم خصوصی"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -701,7 +701,7 @@ msgstr "یک کاربر متفاوت وارد شده است"
 
 #: .es5/lib/oauth-errors.js:184
 msgid "Unverified user or session"
-msgstr "جلسه یا کاربر تایید نشده"
+msgstr "جلسه یا کاربر تأیید نشده"
 
 #: .es5/lib/oauth-errors.js:189
 msgid "Invalid id_token_hint"
@@ -738,12 +738,12 @@ msgstr "نشانه نامعتبر"
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"با ادامه دادن شما<a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a>و<a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
+"با ادامه دادن، شما <a id=\"service-tos\" href=\"%(termsUri)s\">شرایط استفاده از سرویس</a> و <a id=\"service-pp\" href=\"%(privacyUri)s\">اطلاعیه‌ی حریم‌خصوصی</a>مربوط به %(serviceName)s "
 "(%(serviceUri)s)را می‌پذیرید."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">راهنما</a>"
 
 #: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
@@ -759,11 +759,11 @@ msgstr "%(country)s (تخمینی)"
 
 #: .es5/lib/strings.js:42
 msgid "IP address: %(ip)s"
-msgstr "آدرس IP: %(ip)s"
+msgstr "نشانی IP: %(ip)s"
 
 #: .es5/lib/strings.js:43
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
-msgstr "برای امنیت بیشتر، لطفا این ورود را تایید کنید تا همگام‌سازی با این دستگاه آغاز شود:"
+msgstr "برای امنیت بیشتر، لطفا این ورود را برای شروع همگام‌سازی با این دستگاه تأیید کنید:"
 
 #: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
 msgid "Sign in"
@@ -779,7 +779,7 @@ msgstr "خطا ۵۰۰"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "اوه عزیزم، یک اشتباهی رُخ داده. ما مطلع شدیم و در روی یک اصلاحیه کار خواهیم کرد."
+msgstr "اوه عزیزم، یک مشکلی پیش آمد. ما مطلع شده‌ایم و روی رفع مشکل کار خواهیم کرد."
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -795,51 +795,51 @@ msgstr "این دستگاه را همگام‌سازی نکنید"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
-msgstr "رایانامهٔ اصلی قبلا تایید شده است"
+msgstr "رایانامهٔ اصلی قبلا تأیید شده است"
 
 #: .es5/templates/complete_sign_up.mustache:3
 msgid "Sign-in already confirmed"
-msgstr "ورود پیش از این تایید شده"
+msgstr "ورود پیش از این تأیید شده"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "پیوند تأیید منقضی شده است"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "پیوندی که برای تأیید رایانامه خود روی آن کلیک کردید منقضی شده است."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "برای دریافت یک پیوند تأیید جدید اینجا کلیک کنید"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "پیوند تأیید خراب است"
 
 #: .es5/templates/complete_sign_up.mustache:12
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "تعدادی از حروف پیوندی که بر روی آن کلیک کردید حذف شده‌اند، و ممکن است توسط کارگیر ایمیل شما خراب شده باشند. با دقت از آدرس رونوشت بگیرید، و مجددا تلاش کنید."
+msgstr "تعدادی از حروف پیوندی که بر روی آن کلیک کردید حذف شده‌اند، و ممکن است توسط کارگیر رایانامه شما خراب شده باشند. با دقت از آدرس رونوشت بگیرید، و مجددا تلاش کنید."
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "خطا در تأیید"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
-msgstr "حساب خود را تایید کنید"
+msgstr "حساب خود را تأیید کنید"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr "تایید این ورود"
+msgstr "تأیید این ورود"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "رایانامه خود را برای یافتن پیوند تأییدی که به %(escapedEmail)s ارسال شده است بررسی کنید"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "پست الکترونیکی که به آدرس %(escapedEmail)s ارسال شده است را برای تایید ورود خود بررسی کنید"
+msgstr "رایانامه که به آدرس %(escapedEmail)s ارسال شده است را برای تأیید ورود خود بررسی کنید"
 
 #: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
 msgid "Not in inbox or spam folder? Resend"
@@ -851,11 +851,11 @@ msgstr "بازگشت"
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "کد تأیید <span class=\"card-subheader\" id=\"subheader\"> حساب موزیلا خود را وارد کنید</span>"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "کدی را که در عرض ۵ دقیقه به %(escapedEmail)s ارسال شده است وارد کنید."
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
@@ -863,36 +863,36 @@ msgstr "کد ۶ رقمی را وارد کنید"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
-msgstr "تایید"
+msgstr "تأیید"
 
 #: .es5/templates/confirm_signup_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "کد منقضی شده است؟"
 
 #: .es5/templates/confirm_signup_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "ارسال کد جدید به رایانامه."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
 #: .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
-msgstr "اتصالِ دستگاهی دیگر"
+msgstr "اتصال یک دستگاه دیگر"
 
 #: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "وارد فایرفاکس شده‌اید"
 
 #: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
-msgstr ""
+msgstr "رایانامه تأیید شد"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
-msgstr ""
+msgstr "دستگاه‌هایی با قلب روی صفحه‌نمایش"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
-msgstr ""
+msgstr "وارد فایرفاکس شده‌اید"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
@@ -908,27 +908,27 @@ msgstr "برای تکمیل برپاسازی در فایرفاکس بر روی �
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "می‌خواهید زبانه‌ها، نشانک‌ها و گذرواژه‌های خود را روی دستگاه دیگری داشته باشید؟"
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
-msgstr ""
+msgstr "مدیریت حساب"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "ادامه به حساب موزیلا"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "گذرواژه‌ها، زبانه‌ها و نشانک‌های خود را در همه دستگاه‌هایی که از فایرفاکس استفاده می‌کنید همگام کنید."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
 msgid "Enter your email"
-msgstr "ایمیل خود را وارد کنید"
+msgstr "رایانامه خود را وارد کنید"
 
 #: .es5/templates/index.mustache:5
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "ادامه به <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
@@ -937,19 +937,19 @@ msgstr "ادامه دهید به %(serviceName)s"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "ایجاد نقاب رایانامه"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "لطفاً نشانی رایانامه‌ای را وارد کنید که می‌خواهید رایانامه‌های نقاب‌شده شما به آن ارسال شوند."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "ثبت‌نام یا ورود"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "حساب موزیلا همچنین دسترسی به محصولات بیشتری از موزیلا را که از حریم خصوصی محافظت می‌کنند فراهم می‌کند."
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -959,6 +959,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"          با ادامه دادن، با موارد زیر موافقت می‌کنید:<br />\n"
+"          پاکت: <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">شرایط استفاده از خدمات</a> و <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">اعلامیه حریم خصوصی</a><br />\n"
+"          حساب‌های موزیلا: <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">شرایط استفاده از خدمات</a> و <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">اعلامیه حریم خصوصی</a>\n"
+"        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
@@ -968,12 +973,19 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            با ادامه دادن، با موارد زیر موافقت می‌کنید:<br />\n"
+"            خدمات اشتراکی موزیلا: <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">شرایط استفاده از خدمات</a> و <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">اعلامیه حریم خصوصی</a><br />\n"
+"            حساب‌های موزیلا: <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">شرایط استفاده از خدمات</a> و <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">اعلامیه حریم خصوصی</a>\n"
+"          "
 
 #: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
 msgstr ""
+"با ادامه دادن، با <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">شرایط استفاده از خدمات</a> و <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">اعلامیه حریم خصوصی</a> موافقت می‌کنید."
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1003,7 +1015,7 @@ msgstr "%(serviceName)s اطلاعات مقابل را از حساب شما می
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr "تایید"
+msgstr "تأیید"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
@@ -1015,7 +1027,7 @@ msgstr "موفقیت"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "اکنون آماده استفاده از <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> هستید"
 
 #: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
 msgid "Continue"
@@ -1031,7 +1043,7 @@ msgstr "حساب شما آماده است!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "ایجاد یک کلید بازیابی جدید برای حساب"
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1051,11 +1063,11 @@ msgstr "در وارد کردن کد مشکلی دارید؟"
 
 #: .es5/templates/sign_up_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "گذرواژه خود را تنظیم کنید"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
-msgstr "تغییر ایمیل"
+msgstr "تغییر رایانامه"
 
 #: .es5/templates/sign_up_password.mustache:4
 msgid "Password"
@@ -1067,11 +1079,11 @@ msgstr "تکرار گذرواژه"
 
 #: .es5/templates/sign_up_password.mustache:6
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "برای دسترسی به داده‌های رمزگذاری‌شده‌ای که نزد ما ذخیره می‌کنید به این گذرواژه نیاز دارید.<br class=\"mb-3\">بازنشانی گذرواژه ممکن است باعث از دست رفتن داده‌هایی مانند گذرواژه‌ها و نشانک‌ها شود."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "از موزیلا بیشتر دریافت کنید:"
 
 #: .es5/templates/sign_up_password.mustache:10
 msgid "Choose what to sync"
@@ -1089,6 +1101,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            با ادامه دادن، با موارد زیر موافقت می‌کنید:<br />\n"
+"            پاکت: <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">شرایط استفاده از خدمات</a> و <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">اعلامیه حریم خصوصی</a><br />\n"
+"            حساب‌های موزیلا: <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">شرایط استفاده از خدمات</a> و <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">اعلامیه حریم خصوصی</a>\n"
+"          "
 
 #: .es5/templates/sign_up_password.mustache:17
 msgid ""
@@ -1098,6 +1115,11 @@ msgid ""
 "              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "            "
 msgstr ""
+"\n"
+"              با ادامه دادن، با موارد زیر موافقت می‌کنید:<br />\n"
+"              خدمات اشتراکی موزیلا: <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">شرایط استفاده از خدمات</a> و <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">اعلامیه حریم خصوصی</a><br />\n"
+"              حساب‌های موزیلا: <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">شرایط استفاده از خدمات</a> و <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">اعلامیه حریم خصوصی</a>\n"
+"            "
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1109,11 +1131,11 @@ msgstr "همگام‌سازی این دستگاه"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
-msgstr ""
+msgstr "افزودن نشانی رایانامه ثانویه"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "افزودن یک رایانامه ثانویه به شما کمک می‌کند اگر دسترسی‌تان به حساب مسدود شد و نتوانستید به %(escapedEmail)s دسترسی پیدا کنید، دوباره وارد حساب شوید."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
@@ -1125,11 +1147,11 @@ msgstr "شاید بعداً"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "کد تأیید را وارد کنید"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "لطفاً کد تأییدی را که در عرض ۵ دقیقه به %(escapedEmail)s ارسال شده است وارد کنید."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1137,24 +1159,24 @@ msgstr "به کد دیگری احتیاج دارید؟ ارسال مجدد"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
-msgstr ""
+msgstr "استفاده از رایانامه‌ای دیگر"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
-msgstr ""
+msgstr "لطفاً گذرواژه خود را تغییر دهید"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:2
 msgid "to continue to %(serviceName)s"
-msgstr ""
+msgstr "برای ادامه به %(serviceName)s"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "رفتار مشکوکی در حساب موزیلای شما شناسایی کردیم. برای محافظت از حساب، لطفاً یک گذرواژه جدید ایجاد کنید. از این گذرواژه برای ورود دوباره به همه خدمات حساب موزیلا استفاده خواهید کرد."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
+msgstr "تاریخچه، نشانک‌ها، ورودها و دیگر داده‌های شخصی همگام‌شده از بین نخواهند رفت."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:7
 msgid "Old password"
@@ -1166,7 +1188,7 @@ msgstr "گذرواژه جدید"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:9
 msgid "Re-enter new password"
-msgstr ""
+msgstr "گذرواژه جدید را دوباره وارد کنید"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:10
 msgid "Change password"
@@ -1178,19 +1200,19 @@ msgstr "این فایرفاکس متصل شده است"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
 msgid "Sign up for more"
-msgstr ""
+msgstr "برای دریافت موارد بیشتر ثبت‌نام کنید"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
 msgid "Practical knowledge is coming to your inbox."
-msgstr ""
+msgstr "دانش کاربردی به صندوق ورودی شما خواهد آمد."
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
 msgid "Get practical knowledge in your inbox about:"
-msgstr ""
+msgstr "دانش کاربردی درباره موارد زیر را در صندوق ورودی خود دریافت کنید:"
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "اشتراک %(email)s"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:1
 msgid "Device connected!"
@@ -1206,103 +1228,103 @@ msgstr "استفاده از SMS"
 
 #: .es5/templates/post_verify/cad_qr/connected.mustache:6
 msgid "I'm done for now"
-msgstr ""
+msgstr "فعلاً تمام شد"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:1
 msgid "Sync Firefox between devices"
-msgstr ""
+msgstr "همگام‌سازی فایرفاکس بین دستگاه‌ها"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:2
 msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr ""
+msgstr "نشانک‌ها، تاریخچه و گذرواژه‌های خود را در فایرفاکس روی دستگاه‌های همراهتان همگام کنید. فقط چند دقیقه زمان می‌برد."
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:3
 msgid "Get started"
-msgstr ""
+msgstr "شروع کنید"
 
 #: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
 msgid "I'll do this later, send me a reminder"
-msgstr ""
+msgstr "بعداً این کار را انجام می‌دهم؛ به من یادآوری کنید"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
 msgid "Download Firefox with your camera app"
-msgstr ""
+msgstr "فایرفاکس را با برنامه دوربین خود دریافت کنید"
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
 msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr ""
+msgstr "نصب فایرفاکس و همگام‌سازی بین دست‌کم دو دستگاه نیز از از دست رفتن داده‌های شما جلوگیری می‌کند."
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr ""
+msgstr "آماده اسکن هستید"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr ""
+msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">دستگاه همراه خود را متصل کنید</h1><p>با کد QR که مخصوص شما ایجاد کرده‌ایم</p>"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
 msgid "Open the camera app on your device"
-msgstr ""
+msgstr "برنامه دوربین را در دستگاه خود باز کنید"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
 msgid "Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "دوربین را به سمت کد QR بگیرید و روی پیوندی که ظاهر می‌شود ضربه بزنید"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
 msgid "Install Firefox and open it on your device"
-msgstr ""
+msgstr "فایرفاکس را نصب کنید و آن را در دستگاه خود باز کنید"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
 msgid "Sign into your account"
-msgstr ""
+msgstr "وارد حساب خود شوید"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
 msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
+msgstr "<span class=\"number\">۱</span>برنامه دوربین را در دستگاه خود باز کنید"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
 msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
+msgstr "<span class=\"number\">۲</span>دوربین را به سمت کد QR بگیرید و روی پیوندی که ظاهر می‌شود ضربه بزنید"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
 msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
+msgstr "<span class=\"number\">۳</span>فایرفاکس را نصب کنید و آن را در دستگاه خود باز کنید"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
 msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
+msgstr "<span class=\"number\">۴</span>وارد حساب خود شوید"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "چرا باید این حساب را ایجاد کنم؟ <a %(escapedSuggestionAttrs)s>اینجا ببینید</a>"
 
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "آرم m موزیلا"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "نام حساب‌های فایرفاکس در ۱ نوامبر به حساب‌های موزیلا تغییر خواهد کرد"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "همچنان با همان نام کاربری و گذرواژه وارد خواهید شد و هیچ تغییر دیگری در محصولاتی که استفاده می‌کنید ایجاد نمی‌شود."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "بیشتر بدانید"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "نام حساب‌های فایرفاکس را به حساب‌های موزیلا تغییر داده‌ایم. همچنان با همان نام کاربری و گذرواژه وارد خواهید شد و هیچ تغییر دیگری در محصولاتی که استفاده می‌کنید ایجاد نمی‌شود."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "بستن بنر"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "چند سال دارید؟ برای دانستن اینکه چرا سن شما را می‌پرسیم، پیوند «چرا می‌پرسیم» را در زیر دنبال کنید."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1310,7 +1332,7 @@ msgstr "شما چند سال دارید؟"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "چرا می‌پرسیم؟"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"
@@ -1334,27 +1356,27 @@ msgstr "مکان ناشناخته"
 
 #: .es5/templates/partial/device-being-paired.mustache:12
 msgid "IP address: %(ipAddress)s"
-msgstr "آدرس آی پی: %(ipAddress)s"
+msgstr "نشانی IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "الزامات گذرواژه"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "حداقل ۸ نویسه"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "نشانی رایانامه شما نباشد"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "گذرواژه رایج نباشد"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "ایمن بمانید &mdash; از گذرواژه‌ها دوباره استفاده نکنید. نکات بیشتری برای <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">ایجاد گذرواژه‌های قوی</a> ببینید."
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
@@ -1370,35 +1392,35 @@ msgstr "با اپل ادامه دهید"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "اتصال دستگاه همراه شما به حساب موزیلا"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "فایرفاکس را در رایانه خود باز کنید، به <b class=\"whitespace-nowrap\">firefox.com/pair</b> بروید و دستورالعمل‌های روی صفحه را برای اتصال دستگاه همراه خود دنبال کنید."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
-msgstr ""
+msgstr "آیا همین الان وارد فایرفاکس شدید؟"
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "حباب مکان"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "بله، دستگاه را تأیید می‌کنم"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "اگر این کار شما نبوده است، <a id=\"change-password\" class=\"link-blue\">گذرواژه خود را تغییر دهید</a> "
 
 #: .es5/templates/pair/auth_complete.mustache:1
 msgid "You’re ready to send some tabs"
-msgstr ""
+msgstr "آماده‌اید چند زبانه را ارسال کنید"
 
 #: .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
 msgid "Successfully connected"
@@ -1410,10 +1432,13 @@ msgid ""
 "          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
 "        "
 msgstr ""
+"\n"
+"          <span>%(deviceFamily)s برای %(deviceOS)s</span> متصل است.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr ""
+msgstr "می‌توانید فوراً زبانه‌های باز، گذرواژه‌ها و نشانک‌ها را بین دستگاه‌ها ارسال کنید."
 
 #: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1425,14 +1450,17 @@ msgid ""
 "          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "        "
 msgstr ""
+"\n"
+"          اکنون با <span>%(deviceFamily)s روی %(deviceOS)s</span> در حال همگام‌سازی هستید.\n"
+"        "
 
 #: .es5/templates/pair/auth_complete.mustache:9
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "اکنون می‌توانید به زبانه‌های باز، گذرواژه‌ها و نشانک‌های خود در همه دستگاه‌هایتان دسترسی داشته باشید."
 
 #: .es5/templates/pair/auth_complete.mustache:10
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "زبانه‌های دستگاه‌های همگام‌شده را ببینید"
 
 #: .es5/templates/pair/auth_complete.mustache:12
 msgid "Manage devices"
@@ -1440,87 +1468,87 @@ msgstr "مدیریت دستگاه‌ ها"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "اکنون تأیید <small class=\"card-subheader\">از دستگاه دیگر شما</small> لازم است"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "جفت‌سازی دستگاه ناموفق بود"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "راه‌اندازی کامل نشد. لطفاً با رایانامه خود وارد شوید."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Password created. You’re now syncing."
-msgstr ""
+msgstr "گذرواژه ایجاد شد. اکنون در حال همگام‌سازی هستید."
 
 #: .es5/templates/pair/index.mustache:3
 msgid "Account created. You’re now syncing."
-msgstr ""
+msgstr "حساب ایجاد شد. اکنون در حال همگام‌سازی هستید."
 
 #: .es5/templates/pair/index.mustache:5
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "ورود با موفقیت انجام شد!"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr ""
+msgstr "فایرفاکس را در دستگاهی که می‌خواهید زبانه‌ها را به آن ارسال کنید دریافت یا باز کنید"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "تجربه فایرفاکس خود را همگام کنید"
 
 #: .es5/templates/pair/index.mustache:15
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "فایرفاکس را برای موبایل دریافت کنید"
 
 #: .es5/templates/pair/index.mustache:17
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "گذرواژه‌های ذخیره‌شده، زبانه‌ها، تاریخچه مرور و موارد دیگر را در همه دستگاه‌های خود ببینید."
 
 #: .es5/templates/pair/index.mustache:18
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "برای ادامه یک گزینه را انتخاب کنید:"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "من از قبل فایرفاکس برای موبایل را دارم"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "اگر از قبل فایرفاکس را در دستگاه همراه خود دارید، همین حالا همگام‌سازی را شروع کنید."
 
 #: .es5/templates/pair/index.mustache:21
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "من فایرفاکس برای موبایل ندارم"
 
 #: .es5/templates/pair/index.mustache:22
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "فایرفاکس را در دستگاه همراه خود دریافت کنید، سپس همگام‌سازی را شروع کنید."
 
 #: .es5/templates/pair/index.mustache:24 .es5/templates/pair/index.mustache:30
 msgid "Not now"
-msgstr ""
+msgstr "فعلاً نه"
 
 #: .es5/templates/pair/index.mustache:25
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "برای همگام‌سازی فایرفاکس در تلفن یا تبلت خود، ابتدا باید فایرفاکس برای موبایل را دریافت کنید. روش کار این است:"
 
 #: .es5/templates/pair/index.mustache:26
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>مرحله ۱</b>: با اسکن این کد QR با دوربین دستگاه همراه خود، فایرفاکس را دریافت کنید:"
 
 #: .es5/templates/pair/index.mustache:27
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "کد QR (در وسط صفحه)"
 
 #: .es5/templates/pair/index.mustache:28
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>مرحله ۲</b>: برای همگام‌سازی تجربه فایرفاکس در دستگاه همراه خود، «ادامه همگام‌سازی» را انتخاب کنید."
 
 #: .es5/templates/pair/index.mustache:29
 msgid "Continue to sync"
-msgstr ""
+msgstr "ادامه همگام‌سازی"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -1532,31 +1560,31 @@ msgstr "جفت سازی موفقیت آمیز بود."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "جفت‌سازی <span class=\"card-subheader\">برای <span class=\"break-all\">%(email)s</span> را تأیید کنید</span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
-msgstr "تایید جفت شدن"
+msgstr "تأیید جفت شدن"
 
 #: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "اوه! به نظر می‌رسد از فایرفاکس استفاده نمی‌کنید."
 
 #: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
-msgstr ""
+msgstr "توجه:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "به فایرفاکس بروید و این صفحه را باز کنید تا دستگاه دیگری را متصل کنید."
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
-msgstr ""
+msgstr "دریافت فایرفاکس"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
-msgstr ""
+msgstr "در پنجره جدید باز می‌شود"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
@@ -1568,12 +1596,12 @@ msgstr "آیا از دوربین سیستم استفاده کردید؟ شما �
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "فایرفاکس را همین حالا دریافت کنید"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "اوه! مشکلی پیش آمد."
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "لطفاً این زبانه را ببندید و دوباره تلاش کنید."
