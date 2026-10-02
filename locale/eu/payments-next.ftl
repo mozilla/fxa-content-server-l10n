@@ -193,6 +193,17 @@ subscription-cancellation-dialog-aside = Galderak dituzu? Bisitatu <LinkExternal
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 cancel-subscription-heading = Utzi bertan behera { $productName } harpidetza
 
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+subscription-content-no-longer-use-message = Ezin izango duzu { $productName } erabili zure fakturazio-zikloaren azken egunaren ondoren, { $currentPeriodEnd }.
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = Utzi harpidetza
+    .aria-label = Utzi bertan behera zure { $productName } harpidetza
+cancel-subscription-button-keep-subscription = Mantendu harpidetza
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = Baimena ematen diot { -brand-mozilla }-ri nire ordainketa-metodoari kobratzeko erakutsitako zenbatekoa, <termsOfServiceLink>Zerbitzu-baldintzen arabera</termsOfServiceLink> eta <privacyNoticeLink>Pribatutasun-oharra</privacyNoticeLink>, nire harpidetza bertan behera utzi arte.
@@ -206,6 +217,31 @@ next-payment-confirm-checkbox-error = Hau osatu behar duzu aurrera egin aurretik
 next-new-user-submit = Harpidetu orain
 next-pay-with-heading-paypal = Ordaindu { -brand-paypal } erabiliz
 
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = Oraindik harpidetuta zaude
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-thanks-valued-subscriber = Eskerrik asko { $productName } erabiltzeagatik!
+churn-cancel-flow-button-back-to-subscriptions = Itzuli harpidetzetara
+churn-cancel-flow-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-cancel-flow-button-stay-subscribed-and-save-discount = Jarraitu harpidetuta eta aurreztu %{ $discountPercent }
+churn-cancel-flow-button-stay-subscribed-and-save = Jarraitu harpidetuta eta aurreztu
+churn-cancel-flow-button-cancel-subscription = Utzi harpidetza
+churn-cancel-flow-link-terms-and-restrictions = Mugatutako baldintza eta murriztapenak aplikatzen dira
+churn-cancel-flow-discount-already-applied-title = Deskontu-kodea dagoeneko aplikatuta
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+churn-cancel-flow-discount-already-applied-message = Deskontua zure { $productName } kontuko harpidetza batera aplikatuta dago. Oraindik ere laguntza behar baduzu, jarri gurekin harremanetan.
+churn-cancel-flow-button-manage-subscriptions = Kudeatu harpidetzak
+churn-cancel-flow-button-contact-support = Jarri laguntzarekin harremanetan
+
+## $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+churn-cancel-flow-subscription-active-title = Zure { $productName } harpidetza aktibo dago
+churn-cancel-flow-button-go-to-product-page = Joan { $productName } produktura
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-cancel-flow-after = Horren ondoren, zure harpidetza automatikoki berrituko da kuota arruntarekin, harik eta ez duzun bertan behera uzten.
+
 ## Component - CouponForm
 
 next-coupon-enter-code =
@@ -217,8 +253,21 @@ next-coupon-promo-code-applied = Promozio kodea aplikatuta
 next-coupon-remove = Kendu
 next-coupon-submit = Aplikatu
 
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill-with-tax = { $invoiceTotal } + zergetako { $taxDue }
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-link-view-invoice = Ikusi faktura
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+free-trial-content-link-view-invoice-aria = Ikusi { $productName } produkturako faktura
+# $date (Date) - The date the free trial ended (e.g., January 16, 2026)
+free-trial-content-trial-ended = Zure doako proba <bold>{ $date }</bold> egunean amaitu zen.
+free-trial-content-button-update-payment = Eguneratu ordainketa-metodoa
 payments-header-help =
     .alt = Laguntza
     .aria-label = Laguntza
@@ -243,6 +292,13 @@ payments-header-avatar-icon =
 payments-header-avatar-expanded-signed-in-as = Saioa hasita:
 payments-header-avatar-expanded-sign-out = Amaitu saioa
 
+## Interstitial Offer
+
+interstitial-offer-success-cancel-title = Sentitzen dugu zu joaten ikusteak
+interstitial-offer-button-back-to-subscriptions = Itzuli harpidetzetara
+interstitial-offer-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
+interstitial-offer-cancel-subscription-button = Utzi harpidetza
+
 ##
 
 payments-client-loading-spinner =
@@ -255,6 +311,10 @@ next-plan-details-header = Produktuaren xehetasuna
 next-plan-details-list-price = Prezio zerrenda
 next-plan-details-tax = Zergak eta Tasak
 next-plan-details-total-label = Guztira
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Erabili gabeko denboraren kreditua
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Aplikatutako kreditua
 next-plan-details-hide-button = Ezkutatu xehetasunak
 next-plan-details-show-button = Erakutsi xehetasunak
 
@@ -290,6 +350,20 @@ next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } eta { -b
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut.
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla } segurtasun eta pribatutasun albisteak eta eguneraketak jaso nahi ditut.
 next-new-user-subscribe-product-assurance = Zure posta elektronikoa zure kontua sortzeko soilik erabiltzen dugu. Ez diogu inoiz hirugarren bati salduko.
+
+## $productName (String) - The name of the subscribed product.
+
+subscription-content-button-resubscribe = Berritu harpidetza
+    .aria-label = Berritu { $productName } produkturako harpidetza
+resubscribe-success-dialog-title = Eskerrik asko! Dena prest daukazu.
+
+## Churn flow - Error page
+
+churn-error-page-button-sign-in = Hasi saioa
+churn-error-page-title-general-error = Arazo bat gertatu da zure harpidetza berritzean
+churn-error-page-message-general-error = Jarri laguntzarekin harremanetan edo saiatu berriro.
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = Joan { $productName } produktura
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -338,3 +412,11 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (astero)
 upgrade-purchase-details-new-plan-monthly = { $productName } (hilero)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-hilabete)
 upgrade-purchase-details-new-plan-yearly = { $productName } (urtero)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+# Checkout error
+metadata-title-checkout-error = Errorea | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = Ekintza beharrezkoa | { $productTitle }
