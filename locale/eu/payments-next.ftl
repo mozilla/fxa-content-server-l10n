@@ -441,6 +441,7 @@ metadata-title-default = Ez da orria aurkitu | { $productTitle }
 ## Coupon Error Messages
 
 next-coupon-error-expired = Sartu duzun kodea iraungi egin da.
+next-coupon-error-generic = Errore bat gertatu da kodea prozesatzean. Saiatu berriro mesedez.
 next-coupon-error-invalid = Sartu duzun kodea baliogabea da.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Sartu duzun kodea bere mugara iritsi da.
@@ -449,6 +450,7 @@ next-coupon-error-limit-reached = Sartu duzun kodea bere mugara iritsi da.
 
 stay-subscribed-error-expired = Eskaintza hau iraungita dago.
 stay-subscribed-error-discount-used = Deskontu-kodea dagoeneko aplikatuta.
+stay-subscribed-error-still-active = Zure { $productTitle } harpidetza oraindik aktibo dago.
 
 ## Manage Payment Method Error Messages
 
