@@ -140,9 +140,24 @@ interstitial-offer-error-subscription-not-found-heading = Ezin izan dugu harpide
 interstitial-offer-error-subscription-not-found-message = Badirudi harpidetza hau ez dagoela aktibo jada.
 interstitial-offer-error-customer-mismatch-heading = Harpidetza hau ez dago zure kontuarekin lotuta
 interstitial-offer-error-customer-mismatch-message = Ziurtatu kontu egokiarekin hasi duzula saioa, edo laguntza behar baduzu, jarri gurekin harremanetan.
+interstitial-offer-error-button-back-to-subscriptions = Itzuli harpidetzetara
+interstitial-offer-error-button-cancel-subscription = Jarraitu bertan behera uzteko
+interstitial-offer-error-button-sign-in = Hasi saioa
+interstitial-offer-error-button-contact-support = Jarri laguntzarekin harremanetan
 
 ## Page - Subscription Management
 
+subscription-management-page-banner-warning-title-no-payment-method = Ez da ordainketa-metodoa gehitu
+subscription-management-page-banner-warning-link-no-payment-method = Gehitu ordainketa-metodoa
+subscription-management-subscriptions-heading = Harpidetzak
+subscription-management-free-trial-heading = Doako probak
+subscription-management-your-free-trials-aria = Zure doako probak
+# Heading for mobile only quick links menu
+subscription-management-jump-to-heading = Jauzi hona
+subscription-management-nav-free-trials = Doako probak
+subscription-management-nav-payment-details = Ordainketaren xehetasunak
+subscription-management-nav-active-subscriptions = Harpidetza aktiboak
+subscription-management-payment-details-heading = Ordainketaren xehetasunak
 error-payment-method-banner-message-add-new-card = Gehitu txartel edo ordainketa-metodo berria zure harpidetzan etenaldia ekiditeko.
 error-payment-method-banner-label-update-payment-method = Eguneratu ordainketa-metodoa
 error-payment-method-expired-card = Zure txartela iraungi egin da. Gehitu txartel edo ordainketa-metodo berria zure harpidetzan etenaldia ekiditeko.
@@ -241,6 +256,32 @@ churn-cancel-flow-subscription-active-title = Zure { $productName } harpidetza a
 churn-cancel-flow-button-go-to-product-page = Joan { $productName } produktura
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
 churn-cancel-flow-after = Horren ondoren, zure harpidetza automatikoki berrituko da kuota arruntarekin, harik eta ez duzun bertan behera uzten.
+churn-cancel-flow-cancel-turn-back-on = Amaitu aurretik noiznahi berraktiba dezakezu zure harpidetza.
+churn-cancel-flow-cancel-success-dialog-aside = Galderak dituzu? Bisitatu <LinkExternal>{ -brand-mozilla } laguntza</LinkExternal>.
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'Stay subscribed and save 10%', discountPercent = 10)
+churn-stay-subscribed-button-stay-subscribed-and-save-discount = Jarraitu harpidetuta eta aurreztu %{ $discountPercent }
+churn-stay-subscribed-button-stay-subscribed-and-save = Jarraitu harpidetuta eta aurreztu
+churn-stay-subscribed-button-no-thanks = Ez, eskerrik asko
+    .aria-label = Itzuli harpidetzen orrira
+churn-stay-subscribed-link-terms-and-restrictions = Mugatutako baldintza eta murriztapenak aplikatzen dira
+churn-stay-subscribed-title-offer-expired = Eskaintza hau iraungita dago
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = { $productName } erabiltzen jarraitu nahi duzu?
+churn-stay-subscribed-message-access-will-continue = { $productName } erabiltzen jarraitu ahal izango duzu eta zure fakturazio-ziklo eta ordainketek berdin jarraituko dute.
+churn-stay-subscribed-title-subscription-renewed = Harpidetza berrituta
+churn-stay-subscribed-title-subscription-active = Zure { $productName } harpidetza aktibo dago
+churn-stay-subscribed-thanks-valued-subscriber = Eskerrik asko harpidedun izateagatik!
+churn-stay-subscribed-button-go-to-product-page = Joan { $productName } produktura
+churn-stay-subscribed-button-go-to-subscriptions = Joan harpidetzetara
+churn-stay-subscribed-button-stay-subscribed = Jarraitu harpidetua
+# The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
+churn-stay-subscribed-after = Horren ondoren, zure harpidetza automatikoki berrituko da kuota arruntarekin, harik eta ez duzun bertan behera uzten.
 
 ## Component - CouponForm
 
@@ -253,10 +294,21 @@ next-coupon-promo-code-applied = Promozio kodea aplikatuta
 next-coupon-remove = Kendu
 next-coupon-submit = Aplikatu
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-trial-expires = Zure doako proba { $date } egunean iraungiko da.
+free-trial-content-trial-cancelled = Zure doako proba bertan behera utzi da.
+free-trial-content-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
+free-trial-content-button-cancel-subscription = Utzi harpidetza
+
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
 ## $taxDue (Number) - The tax amount. It will be formatted as currency.
 
+free-trial-content-last-bill = Azken faktura • { $billedOnDate }
 free-trial-content-last-bill-with-tax = { $invoiceTotal } + zergetako { $taxDue }
 free-trial-content-last-bill-no-tax = { $invoiceTotal }
 
@@ -295,6 +347,8 @@ payments-header-avatar-expanded-sign-out = Amaitu saioa
 ## Interstitial Offer
 
 interstitial-offer-success-cancel-title = Sentitzen dugu zu joaten ikusteak
+interstitial-offer-turn-back-on = Amaitu aurretik noiznahi berraktiba dezakezu zure harpidetza.
+interstitial-offer-cancel-success-dialog-aside = Galderak dituzu? Bisitatu <LinkExternal>{ -brand-mozilla } laguntza</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Itzuli harpidetzetara
 interstitial-offer-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
 interstitial-offer-cancel-subscription-button = Utzi harpidetza
@@ -353,12 +407,41 @@ next-new-user-subscribe-product-assurance = Zure posta elektronikoa zure kontua 
 
 ## $productName (String) - The name of the subscribed product.
 
+resubscribe-dialog-title = { $productName } erabiltzen jarraitu nahi duzu?
 subscription-content-button-resubscribe = Berritu harpidetza
     .aria-label = Berritu { $productName } produkturako harpidetza
 resubscribe-success-dialog-title = Eskerrik asko! Dena prest daukazu.
 
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+# • is acting as a separator between "Last bill" and the billing date.
+subscription-content-last-bill = Azken faktura • { $billedOnDate }
+subscription-content-last-bill-with-tax = { $invoiceTotal } + zergetako { $taxDue }
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-view-invoice = Ikusi faktura
+subscription-management-link-view-invoice-aria = Ikusi { $productName } produkturako faktura
+# • is acting as a separator between "Next bill" and the next billing date.
+subscription-content-next-bill = Hurrengo faktura • { $billedOnDate }
+subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + zergetako { $taxDue }
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
+
+##
+
+button-back-to-subscriptions = Itzuli harpidetzetara
+subscription-content-cancel-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
+
 ## Churn flow - Error page
 
+churn-error-page-title-discount-already-applied = Deskontu-kodea dagoeneko aplikatuta
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-message-discount-already-applied = Deskontua zure { $productName } kontuko harpidetza batera aplikatuta dago. Oraindik ere laguntza behar baduzu, jarri gurekin harremanetan.
 churn-error-page-button-manage-subscriptions = Kudeatu harpidetzak
 churn-error-page-button-contact-support = Jarri laguntzarekin harremanetan
 churn-error-page-button-try-again = Saiatu berriro
@@ -367,6 +450,8 @@ churn-error-page-title-general-error = Arazo bat gertatu da zure harpidetza berr
 churn-error-page-message-general-error = Jarri laguntzarekin harremanetan edo saiatu berriro.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Joan { $productName } produktura
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-still-active = Zure { $productName } harpidetza oraindik aktibo dago
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -421,6 +506,7 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (urtero)
 
 # Checkout processing
 metadata-title-checkout-processing = Prozesatzen | { $productTitle }
+metadata-description-checkout-processing = Itxaron zure ordainketa prozesatzen amaitzen dugun bitartean mesedez.
 # Checkout error
 metadata-title-checkout-error = Errorea | { $productTitle }
 # Checkout success
@@ -429,6 +515,7 @@ metadata-title-checkout-success = Dena ondo | { $productTitle }
 metadata-title-checkout-needs-input = Ekintza beharrezkoa | { $productTitle }
 # Upgrade processing
 metadata-title-upgrade-processing = Prozesatzen | { $productTitle }
+metadata-description-upgrade-processing = Itxaron zure ordainketa prozesatzen amaitzen dugun bitartean mesedez.
 # Upgrade error
 metadata-title-upgrade-error = Errorea | { $productTitle }
 # Upgrade success
@@ -437,6 +524,7 @@ metadata-title-upgrade-success = Dena ondo | { $productTitle }
 metadata-title-upgrade-needs-input = Ekintza beharrezkoa | { $productTitle }
 # Default
 metadata-title-default = Ez da orria aurkitu | { $productTitle }
+metadata-description-default = Eskatu duzun orria ez da aurkitu.
 
 ## Coupon Error Messages
 
@@ -451,9 +539,11 @@ next-coupon-error-limit-reached = Sartu duzun kodea bere mugara iritsi da.
 stay-subscribed-error-expired = Eskaintza hau iraungita dago.
 stay-subscribed-error-discount-used = Deskontu-kodea dagoeneko aplikatuta.
 stay-subscribed-error-still-active = Zure { $productTitle } harpidetza oraindik aktibo dago.
+stay-subscribed-error-general = Arazo bat gertatu da zure harpidetza berritzean.
 
 ## Manage Payment Method Error Messages
 
+manage-payment-method-intent-error-card-declined = Ezin izan da zure transakzioa prozesatu. Egiaztatu kreditu-txartelaren informazioa eta saiatu berriro.
 manage-payment-method-intent-error-expired-card-error = Badirudi zure kreditu-txartela iraungi egin dela. Probatu beste txartel batekin.
 manage-payment-method-intent-error-try-again = Hmm. Arazo bat izan da zure ordainketa baimentzean. Saiatu berriro edo jarri harremanetan txartelaren jaulkitzailearekin.
 manage-payment-method-intent-error-get-in-touch = Hmm. Arazo bat izan da zure ordainketa baimentzean. Jarri harremanetan zure txartelaren jaulkitzailearekin.
