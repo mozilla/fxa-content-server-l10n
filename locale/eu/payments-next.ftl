@@ -138,13 +138,60 @@ not-found-loyalty-discount-button-back-to-subscriptions = Itzuli harpidetzetara
 
 interstitial-offer-error-subscription-not-found-heading = Ezin izan dugu harpidetza aktiborik aurkitu
 interstitial-offer-error-subscription-not-found-message = Badirudi harpidetza hau ez dagoela aktibo jada.
+interstitial-offer-error-customer-mismatch-heading = Harpidetza hau ez dago zure kontuarekin lotuta
+interstitial-offer-error-customer-mismatch-message = Ziurtatu kontu egokiarekin hasi duzula saioa, edo laguntza behar baduzu, jarri gurekin harremanetan.
 
 ## Page - Subscription Management
 
+error-payment-method-banner-message-add-new-card = Gehitu txartel edo ordainketa-metodo berria zure harpidetzan etenaldia ekiditeko.
+error-payment-method-banner-label-update-payment-method = Eguneratu ordainketa-metodoa
+error-payment-method-expired-card = Zure txartela iraungi egin da. Gehitu txartel edo ordainketa-metodo berria zure harpidetzan etenaldia ekiditeko.
+error-payment-method-banner-title-invalid-payment-information = Ordainketaren informazio baliogabea
+error-payment-method-banner-message-account-issue = Arazo bat dago zure kontuarekin.
+subscription-management-button-manage-payment-method-1 = Kudeatu ordainketa-metodoa
+subscription-management-error-apple-pay = Arazo bat dago zure { -brand-apple-pay } kontuarekin. Mesedez konpondu arazoa zure harpidetza aktiboak mantentzeko.
+subscription-management-error-google-pay = Arazo bat dago zure { -brand-google-pay } kontuarekin. Mesedez konpondu arazoa zure harpidetza aktiboak mantentzeko.
+subscription-management-error-link = Arazo bat dago zure { -brand-link } kontuarekin. Mesedez konpondu arazoa zure harpidetza aktiboak mantentzeko.
+subscription-management-error-paypal-billing-agreement = Arazo bat dago zure { -brand-paypal } kontuarekin. Mesedez konpondu arazoa zure harpidetza aktiboak mantentzeko.
+subscription-management-error-payment-method = Arazo bat dago zure ordainketa-metodoarekin. Mesedez konpondu arazoa zure harpidetza aktiboak mantentzeko.
+manage-payment-methods-heading = Kudeatu ordainketa-metodoak
+paypal-payment-management-page-invalid-header = Fakturazio-informazio baliogabea
+paypal-payment-management-page-invalid-description = Badirudi errore bat dagoela zure { -brand-paypal } kontuarekin. Ordainketa-arazo hau konpontzeko beharrezko urratsak eman behar dituzu.
 # Page - Not Found
 page-not-found-title = Ez da orria aurkitu
 page-not-found-description = Eskatu duzun orria ez dago. Abisua jaso dugu eta hautsita egon daitezkeen estekak konponduko ditugu.
 page-not-found-back-button = Joan atzera
+alert-dialog-title = Alerta-koadroa
+
+## Already Canceling
+
+already-canceling-title = Zure harpidetza amaitzear da
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+already-canceling-message = { $productName } erabiltzen jarraitzeko aukera izango duzu { $date } egunera arte.
+already-canceling-turn-back-on = Amaitu aurretik noiznahi berraktiba dezakezu zure harpidetza.
+already-canceling-button-back-to-subscriptions = Itzuli harpidetzetara
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Kontuaren hasiera-orria
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Harpidetzak
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Kudeatu ordainketa-metodoak
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Itzuli { $page } orrira
+
+## CancelSubscription
+
+subscription-cancellation-dialog-title = Sentitzen dugu bazoazela
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Zure { $name } harpidetza bertan behera utzi da. { $name } erabiltzen jarraitzeko aukera izango duzu { $date } egunera arte.
+subscription-cancellation-dialog-aside = Galderak dituzu? Bisitatu <LinkExternal>{ -brand-mozilla } laguntza</LinkExternal>.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = Utzi bertan behera { $productName } harpidetza
 
 ## Component - Payment Consent Checkbox
 
