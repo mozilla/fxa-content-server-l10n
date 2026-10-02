@@ -1,4 +1,10 @@
 loyalty-discount-terms-heading = Baldintzak eta murriztapenak
+loyalty-discount-terms-support = Jarri laguntzarekin harremanetan
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = Jarri { $productName } produktuko laguntzarekin harremanetan
+not-found-page-title-terms = Ez da orria aurkitu
+not-found-page-description-terms = Bilatzen ari zaren orria ez da aurkitu.
+not-found-page-button-terms-manage-subscriptions = Kudeatu harpidetzak
 
 ## Page
 
@@ -14,10 +20,14 @@ next-payment-method-first-approve = Lehenik eta behin zure harpidetza onartu beh
 
 ## Error page
 
+error-page-account-not-found-heading = Ez da kontua aurkitu
+error-page-account-not-found-message = Zure saioarekin lotutako kontua ez dago. Harpidetzeko, erabili beste kontu bat edo sortu berria.
+error-page-account-not-found-continue-button = Jarraitu
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Hautatu zure herrialdea eta idatzi zure posta kodea <p>{ $productName } </p>-ren ordainketarekin jarraitzeko
 location-banner-info = Ezin izan dugu zure kokapena automatikoki detektatu
 location-required-disclaimer = Informazio hau zergak eta moneta-aldaketa kalkulatzeko bakarrik erabiltzen dugu.
+location-banner-currency-change = Ezin da moneta aldatu. Jarraitzeko, hautatu zure fakturatze-monetarekin bat datorren herrialde bat.
 
 ## Page - Upgrade page
 
@@ -27,11 +37,26 @@ upgrade-page-acknowledgment =
     Zure plana berehala aldatuko da, eta proportzioan kobratuko dizugu
     zenbatekoa. gaurtik fakturazio-ziklo honen gainerako. { $nextInvoiceDate }
     hasita kopuru osoa kobratuko dizute.
+upgrade-page-acknowledgment-from-trial = Mailaz igota, zure doako proba berehala amaituko da eta plan berria gaur kobratuko zaizu.
 
 ## Authentication Error page
 
+auth-error-page-title = Ezin izan dugu zure saioa hasi
 checkout-error-boundary-retry-button = Saiatu berriro
 checkout-error-boundary-basic-error-message = Zerbait gaizki joan da. Mesedez, saiatu berriro edo <contactSupportLink>jarri laguntzarekin harremanetan.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } logoa
+diners-logo-alt-text2 = { -brand-diners } logoa
+discover-logo-alt-text = { -brand-discover } logoa
+jcb-logo-alt-text = { -brand-jcb } logoa
+mastercard-logo-alt-text = { -brand-mastercard } logoa
+paypal-logo-alt-text = { -brand-paypal } logoa
+unionpay-logo-alt-text = { -brand-unionpay } logoa
+visa-logo-alt-text = { -brand-visa } logoa
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Markarik gabeko logoa
+link-logo-alt-text = { -brand-link } logoa
+apple-pay-logo-alt-text = { -brand-apple-pay } logoa
+google-pay-logo-alt-text = { -brand-google-pay } logoa
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
