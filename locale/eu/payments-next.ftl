@@ -359,6 +359,9 @@ resubscribe-success-dialog-title = Eskerrik asko! Dena prest daukazu.
 
 ## Churn flow - Error page
 
+churn-error-page-button-manage-subscriptions = Kudeatu harpidetzak
+churn-error-page-button-contact-support = Jarri laguntzarekin harremanetan
+churn-error-page-button-try-again = Saiatu berriro
 churn-error-page-button-sign-in = Hasi saioa
 churn-error-page-title-general-error = Arazo bat gertatu da zure harpidetza berritzean
 churn-error-page-message-general-error = Jarri laguntzarekin harremanetan edo saiatu berriro.
@@ -416,7 +419,41 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (urtero)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout processing
+metadata-title-checkout-processing = Prozesatzen | { $productTitle }
 # Checkout error
 metadata-title-checkout-error = Errorea | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Dena ondo | { $productTitle }
 # Checkout needs_input
 metadata-title-checkout-needs-input = Ekintza beharrezkoa | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Prozesatzen | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Errorea | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Dena ondo | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Ekintza beharrezkoa | { $productTitle }
+# Default
+metadata-title-default = Ez da orria aurkitu | { $productTitle }
+
+## Coupon Error Messages
+
+next-coupon-error-expired = Sartu duzun kodea iraungi egin da.
+next-coupon-error-invalid = Sartu duzun kodea baliogabea da.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Sartu duzun kodea bere mugara iritsi da.
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = Eskaintza hau iraungita dago.
+stay-subscribed-error-discount-used = Deskontu-kodea dagoeneko aplikatuta.
+
+## Manage Payment Method Error Messages
+
+manage-payment-method-intent-error-expired-card-error = Badirudi zure kreditu-txartela iraungi egin dela. Probatu beste txartel batekin.
+manage-payment-method-intent-error-try-again = Hmm. Arazo bat izan da zure ordainketa baimentzean. Saiatu berriro edo jarri harremanetan txartelaren jaulkitzailearekin.
+manage-payment-method-intent-error-get-in-touch = Hmm. Arazo bat izan da zure ordainketa baimentzean. Jarri harremanetan zure txartelaren jaulkitzailearekin.
+manage-payment-method-intent-error-insufficient-funds = Badirudi zure txartelak ez duela nahikoa funtsik. Probatu beste txartel batekin.
+manage-payment-method-intent-error-generic = Ustekabeko errore bat gertatu da ordainketa prozesatzean, saiatu berriro mesedez.
