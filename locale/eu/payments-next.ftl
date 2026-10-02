@@ -62,6 +62,7 @@ google-pay-logo-alt-text = { -brand-google-pay } logoa
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Kudeatu nire harpidetza
+next-iap-blocked-contact-support = Produktu honekin gatazkan dagoen mugikorreko aplikazio barruko harpidetza bat duzu — jarri gurekin harremanetan laguntza jaso ahal izateko.
 next-payment-error-retry-button = Saiatu berriro
 next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
 checkout-error-contact-support-button = Laguntza kontaktua
@@ -70,6 +71,20 @@ checkout-error-already-subscribed = Produktu honetara harpidetuta zaude dagoenek
 checkout-error-contact-support = Mesedez, jarri harremanetan laguntzarekin lagundu ahal izateko.
 cart-error-currency-not-determined = Ezin izan dugu erosketa honen moneta zehaztu, saiatu berriro mesedez.
 checkout-processing-general-error = Ustekabeko errore bat gertatu da ordainketa prozesatzen ari zaren bitartean. Saiatu berriro.
+cart-total-mismatch-error = Fakturaren zenbatekoa aldatu egin da. Saiatu berriro mesedez.
+cart-free-trial-mismatch-error = Doako probaren zure hautagarritasuna aldatu egin da. Saiatu berriro mesedez.
+
+## Error pages - Payment method failure messages
+
+intent-card-error = Ezin izan da zure transakzioa prozesatu. Egiaztatu kreditu-txartelaren informazioa eta saiatu berriro.
+intent-expired-card-error = Badirudi zure kreditu-txartela iraungi egin dela. Probatu beste txartel batekin.
+intent-payment-error-try-again = Hmm. Arazo bat izan da zure ordainketa baimentzean. Saiatu berriro edo jarri harremanetan txartelaren jaulkitzailearekin.
+intent-payment-error-get-in-touch = Hmm. Arazo bat izan da zure ordainketa baimentzean. Jarri harremanetan zure txartelaren jaulkitzailearekin.
+intent-payment-error-generic = Ustekabeko errore bat gertatu da ordainketa prozesatzean, saiatu berriro mesedez.
+intent-payment-error-insufficient-funds = Badirudi zure txartelak ez duela nahikoa funtsik. Probatu beste txartel batekin.
+general-paypal-error = Ustekabeko errore bat gertatu da ordainketa prozesatzean, saiatu berriro mesedez.
+paypal-active-subscription-no-billing-agreement-error = Badirudi arazo bat egon dela zure { -brand-paypal } kontua kobratzean. Gaitu berriro zure harpidetzarako ordainketa automatikoak mesedez.
+new-account-prepaid-card-free-trial-not-allowed = Ezin dira aurreordainketa-txartelak erabili doako proba hasteko kontu berrietan. Erabili beste ordainketa-metodo bat mesedez.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -99,6 +114,30 @@ next-payment-confirmation-download-button = Jarraitu deskargara
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 }-z amaitzen den txartela
+
+## Not found page
+
+not-found-title-subscriptions = Ez da harpidetza aurkitu
+not-found-description-subscriptions = Ezin izan dugu zure harpidetza aurkitu. Saiatu berriro edo jarri laguntzarekin harremanetan.
+not-found-button-back-to-subscriptions = Itzuli harpidetzetara
+
+## Error page - churn cancel flow
+
+churn-cancel-flow-error-offer-expired-title = Eskaintza hau iraungi egin da
+churn-cancel-flow-error-offer-expired-message = Une honetan ez dago deskonturik erabilgarri harpidetza honetarako. Nahi baduzu, bertan behera uzteko aukerarekin jarrai dezakezu.
+churn-cancel-flow-error-button-continue-to-cancel = Jarraitu bertan behera uzteko
+churn-cancel-flow-error-page-button-back-to-subscriptions = Itzuli harpidetzetara
+
+## Loyalty discount - Not found page
+
+not-found-loyalty-discount-title = Ez da orria aurkitu
+not-found-loyalty-discount-description = Bilatzen ari zaren orria ez dago.
+not-found-loyalty-discount-button-back-to-subscriptions = Itzuli harpidetzetara
+
+## Error page
+
+interstitial-offer-error-subscription-not-found-heading = Ezin izan dugu harpidetza aktiborik aurkitu
+interstitial-offer-error-subscription-not-found-message = Badirudi harpidetza hau ez dagoela aktibo jada.
 
 ## Page - Subscription Management
 
