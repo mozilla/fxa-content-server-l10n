@@ -158,9 +158,25 @@ subscription-management-nav-free-trials = Doako probak
 subscription-management-nav-payment-details = Ordainketaren xehetasunak
 subscription-management-nav-active-subscriptions = Harpidetza aktiboak
 subscription-management-payment-details-heading = Ordainketaren xehetasunak
-error-payment-method-banner-message-add-new-card = Gehitu txartel edo ordainketa-metodo berria zure harpidetzan etenaldia ekiditeko.
+subscription-management-email-label = Helbide elektronikoa
+subscription-management-payment-method-label = Ordainketa-metodoa
+subscription-management-button-add-payment-method-aria = Gehitu ordainketa-metodoa
+subscription-management-button-add-payment-method = Gehitu
+subscription-management-page-warning-message-no-payment-method = Gehitu ordainketa-metodoa zure harpidetzetan etenaldia ekiditeko.
+subscription-management-button-manage-payment-method-aria = Kudeatu ordainketa-metodoa
+subscription-management-button-manage-payment-method = Kudeatu
+subscription-management-active-subscriptions-heading = Harpidetza aktiboak
+subscription-management-you-have-no-active-subscriptions = Ez duzu harpidetza aktiborik
+subscription-management-new-subs-will-appear-here = Harpidetza berriak hemen agertuko dira.
+subscription-management-your-active-subscriptions-aria = Zure harpidetza aktiboak
+subscription-management-button-support = Lortu laguntza
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Lortu { $productName } produkturako laguntza
+subscription-management-button-manage-subscription-1 = Kudeatu harpidetza
+error-payment-method-banner-title-expired-card = Iraungitako txartela
+error-payment-method-banner-message-add-new-card = Gehitu txartel edo ordainketa-metodo berria zure harpidetzetan etenaldia ekiditeko.
 error-payment-method-banner-label-update-payment-method = Eguneratu ordainketa-metodoa
-error-payment-method-expired-card = Zure txartela iraungi egin da. Gehitu txartel edo ordainketa-metodo berria zure harpidetzan etenaldia ekiditeko.
+error-payment-method-expired-card = Zure txartela iraungi egin da. Gehitu txartel edo ordainketa-metodo berria zure harpidetzetan etenaldia ekiditeko.
 error-payment-method-banner-title-invalid-payment-information = Ordainketaren informazio baliogabea
 error-payment-method-banner-message-account-issue = Arazo bat dago zure kontuarekin.
 subscription-management-button-manage-payment-method-1 = Kudeatu ordainketa-metodoa
@@ -256,6 +272,7 @@ churn-cancel-flow-subscription-active-title = Zure { $productName } harpidetza a
 churn-cancel-flow-button-go-to-product-page = Joan { $productName } produktura
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
 churn-cancel-flow-after = Horren ondoren, zure harpidetza automatikoki berrituko da kuota arruntarekin, harik eta ez duzun bertan behera uzten.
+churn-cancel-flow-cancel-success-title = Sentitzen dugu zu joaten ikusteak
 churn-cancel-flow-cancel-turn-back-on = Amaitu aurretik noiznahi berraktiba dezakezu zure harpidetza.
 churn-cancel-flow-cancel-success-dialog-aside = Galderak dituzu? Bisitatu <LinkExternal>{ -brand-mozilla } laguntza</LinkExternal>.
 
@@ -408,6 +425,7 @@ next-new-user-subscribe-product-assurance = Zure posta elektronikoa zure kontua 
 ## $productName (String) - The name of the subscribed product.
 
 resubscribe-dialog-title = { $productName } erabiltzen jarraitu nahi duzu?
+stay-subscribed-access-will-continue = { $productName } erabiltzen jarraitu ahal izango duzu eta zure fakturazio-ziklo eta ordainketek berdin jarraituko dute.
 subscription-content-button-resubscribe = Berritu harpidetza
     .aria-label = Berritu { $productName } produkturako harpidetza
 resubscribe-success-dialog-title = Eskerrik asko! Dena prest daukazu.
