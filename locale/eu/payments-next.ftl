@@ -1,3 +1,5 @@
+loyalty-discount-terms-heading = Baldintzak eta murriztapenak
+
 ## Page
 
 checkout-signin-or-create = 1. saioa hasi { -product-mozilla-account } kontuan
@@ -106,17 +108,14 @@ next-coupon-submit = Aplikatu
 
 ##
 
-
-# Component - Header
-
 payments-header-help =
-    .title = Laguntza
-    .aria-label = Laguntza
     .alt = Laguntza
+    .aria-label = Laguntza
+    .title = Laguntza
 payments-header-bento =
-    .title = { -brand-mozilla } produktuak
-    .aria-label = { -brand-mozilla } produktuak
     .alt = { -brand-mozilla } logoa
+    .aria-label = { -brand-mozilla } produktuak
+    .title = { -brand-mozilla } produktuak
 payments-header-bento-close =
     .alt = Itxi
 payments-header-bento-tagline = Zure pribatutasuna babesten duten { -brand-mozilla }ren produktu gehiago
@@ -136,8 +135,8 @@ payments-header-avatar-expanded-sign-out = Amaitu saioa
 ##
 
 payments-client-loading-spinner =
-    .aria-label = Kargatzen…
     .alt = Kargatzen…
+    .aria-label = Kargatzen…
 
 ## Component - PurchaseDetails
 
