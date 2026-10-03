@@ -31,7 +31,7 @@ brand-close-banner =
     .alt = بستن بنر
 # Alt text for 'm' logo in banner header
 brand-m-logo =
-    .alt = آرم { -brand-mozilla }
+    .alt = آرم { -brand-mozilla } m
 
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
