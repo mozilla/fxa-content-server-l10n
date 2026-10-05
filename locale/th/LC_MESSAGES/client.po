@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-05 15:36+0000\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
@@ -61,7 +63,7 @@ msgstr "การแจ้งเตือนบัญชีจะถูกส่
 msgid "Secondary email confirmed"
 msgstr "ยืนยันอีเมลสำรองแล้ว"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7
+#: .es5/views/ready.js:69
 msgid "Sign-in confirmed"
 msgstr "ยืนยันการลงชื่อเข้าแล้ว"
 
@@ -81,12 +83,8 @@ msgstr "เชื่อมต่อแล้ว"
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "ตอนนี้คณพร้อมแล้วที่จะเปลี่ยนแปล Firefox Account ของคุณ"
 
-#: .es5/views/sign_up_password.js:66
-msgid "Account no longer exists. Recreate it?"
-msgstr "บัญชีไม่มีอีกต่อไป สร้างใหม่?"
-
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
+#: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "ปิด"
 
@@ -97,26 +95,6 @@ msgstr "การแจ้งเตือนบัญชีจะถูกส่
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
-
-#: .es5/views/mixins/open-webmail-mixin.js:22
-msgid "Open Gmail"
-msgstr "เปิด Gmail"
-
-#: .es5/views/mixins/open-webmail-mixin.js:27
-msgid "Open Hotmail"
-msgstr "เปิด Hotmail"
-
-#: .es5/views/mixins/open-webmail-mixin.js:32
-msgid "Open Yahoo"
-msgstr "เปิด Yahoo"
-
-#: .es5/views/mixins/open-webmail-mixin.js:37
-msgid "Open Outlook"
-msgstr "เปิด Outlook"
-
-#: .es5/views/mixins/open-webmail-mixin.js:42
-msgid "Open Restmail"
-msgstr "เปิด Restmail"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -736,8 +714,11 @@ msgid "Invalid Token"
 msgstr "โทเคนไม่ถูกต้อง"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"การดำเนินการหมายถึงคุณยอมรับ<a id=\"service-tos\" href=\"%(termsUri)s\">เงื่อนไขการใช้บริการ</a>และ<a id=\"service-pp\" href=\"%(privacyUri)s\">ประกาศความเป็นส่วนบุคคล</a>ของ%(serviceName)s (%(serviceUri)s)"
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -747,7 +728,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-a
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "สมัครรับข่าวสารล่าสุดเกี่ยวกับ Mozilla และ Firefox"
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "%(city)s %(country)s (โดยประมาณ)"
 
@@ -763,7 +744,7 @@ msgstr "ที่อยู่ IP: %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "เพื่อความปลอดภัยเพิ่มเติม โปรดยืนยันการลงชื่อเข้านี้เพื่อเริ่มซิงค์กับอุปกรณ์นี้:"
 
-#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+#: .es5/lib/strings.js:49
 msgid "Sign in"
 msgstr "ลงชื่อเข้า"
 
@@ -778,18 +759,6 @@ msgstr "ข้อผิดพลาด 500"
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "เราทราบถึงความผิดพลาดแล้วและจะดำเนินการแก้ไขต่อไป"
-
-#: .es5/templates/choose_what_to_sync.mustache:1
-msgid "Choose what to sync:"
-msgstr "เลือกสิ่งที่ต้องการซิงค์:"
-
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Sync selections"
-msgstr "เลือกการซิงค์"
-
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
-msgid "Don’t sync this device"
-msgstr "ไม่ต้องซิงค์อุปกรณ์นี้"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -823,95 +792,6 @@ msgstr "ลิงก์ที่คุณคลิกมีอักขระไ
 msgid "Confirmation error"
 msgstr "การยืนยันผิดพลาด"
 
-#: .es5/templates/confirm.mustache:3
-msgid "Confirm your account"
-msgstr "ยืนยันบัญชีของคุณ"
-
-#: .es5/templates/confirm.mustache:5
-msgid "Confirm this sign-in"
-msgstr "ยืนยันการลงชื่อเข้านี้"
-
-#: .es5/templates/confirm.mustache:7
-msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr "ตรวจสอบอีเมลของคุณสำหรับลิงก์ยืนยันที่ส่ง&nbsp;ไปยัง %(escapedEmail)s"
-
-#: .es5/templates/confirm.mustache:9
-msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "ตรวจสอบลิงก์ยืนยันการลงชื่อเข้าใช้ที่ส่งไปยัง %(escapedEmail)s ในอีเมลของคุณ"
-
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
-msgid "Not in inbox or spam folder? Resend"
-msgstr "ไม่อยู่ในโฟลเดอร์กล่องขาเข้าหรือสแปม? ส่งใหม่"
-
-#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
-msgid "Back"
-msgstr "ย้อนกลับ"
-
-#: .es5/templates/confirm_signup_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr "ใส่รหัสยืนยัน<span class=\"card-subheader\" id=\"subheader\">สำหรับบัญชี Mozilla ของคุณ</span>"
-
-#: .es5/templates/confirm_signup_code.mustache:2
-msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "ใส่รหัสที่ส่งไปยัง %(escapedEmail)s ภายใน 5 นาที"
-
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "ใส่รหัส 6 หลัก"
-
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "ยืนยัน"
-
-#: .es5/templates/confirm_signup_code.mustache:5
-msgid "Code expired?"
-msgstr "รหัสหมดอายุ?"
-
-#: .es5/templates/confirm_signup_code.mustache:6
-msgid "Email new code."
-msgstr "ส่งรหัสใหม่ทางอีเมล"
-
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
-#: .es5/templates/pair/unsupported.mustache:1
-msgid "Connect another device"
-msgstr "เชื่อมต่ออุปกรณ์อื่น"
-
-#: .es5/templates/connect_another_device.mustache:3
-msgid "You’re signed into Firefox"
-msgstr "คุณได้ลงชื่อเข้า Firefox แล้ว"
-
-#: .es5/templates/connect_another_device.mustache:5
-msgid "Email confirmed"
-msgstr "ยืนยันอีเมลแล้ว"
-
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
-msgid "Devices with hearts on their screens"
-msgstr "อุปกรณ์ต่างๆ ซึ่งมีรูปหัวใจปรากฏอยู่บนหน้าจอของแต่ละเครื่อง"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "You’re signed in to Firefox"
-msgstr "คุณได้ลงชื่อเข้าใช้ Firefox แล้ว"
-
-#: .es5/templates/connect_another_device.mustache:15
-msgid "Sign in to this Firefox to complete set-up"
-msgstr "ลงชื่อเข้าใช้ Firefox นี้เพื่อการติดตั้งที่สมบูรณ์"
-
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
-msgid "Still adding devices?"
-msgstr "ต้องการเพิ่มอุปกรณ์?"
-
-#: .es5/templates/connect_another_device.mustache:20
-msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "ลงชื่อเข้าใช้ Firefox บนอุปกรณ์อื่นเพื่อการติดตั้งที่สมบูรณ์"
-
-#: .es5/templates/connect_another_device.mustache:22
-msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr "ต้องการเห็นแท็บ ที่คั่นหน้า และรหัสผ่านของคุณบนอุปกรณ์อื่นหรือไม่?"
-
-#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "จัดการบัญชีของคุณ"
-
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
 msgstr "เข้าสู่บัญชี Mozilla ของคุณ"
@@ -928,8 +808,7 @@ msgstr "ใส่อีเมลของคุณ"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "ไปยัง <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> ต่อ"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "ดำเนินการต่อไปยัง %(serviceName)s"
 
@@ -953,8 +832,10 @@ msgstr "บัญชี Mozilla ยังสามารถใช้เข้า
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 
@@ -962,12 +843,14 @@ msgstr ""
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 
-#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/index.mustache:20
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
@@ -1003,7 +886,7 @@ msgstr "%(serviceName)s ต้องการข้อมูลดังต่�
 msgid "Accept"
 msgstr "ยอมรับ"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -1011,11 +894,15 @@ msgstr "ยกเลิก"
 msgid "Success"
 msgstr "สำเร็จ"
 
+#: .es5/templates/ready.mustache:2
+msgid "Manage your account"
+msgstr "จัดการบัญชีของคุณ"
+
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "ตอนนี้คุณพร้อมที่จะใช้ <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> แล้ว"
 
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 msgid "Continue"
 msgstr "ดำเนินการต่อ"
 
@@ -1030,80 +917,6 @@ msgstr "บัญชีของคุณพร้อมแล้ว!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "สร้างคีย์กู้คืนบัญชีใหม่"
-
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr "ใส่รหัสความปลอดภัย"
-
-#: .es5/templates/sign_in_totp_code.mustache:3
-msgid "Open your authentication app and enter the security code it provides."
-msgstr "เปิดแอปยืนยันตัวตนของคุณและใส่รหัสความปลอดภัยที่ได้มา"
-
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "ใช้บัญชีอื่น"
-
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Trouble entering code?"
-msgstr "มีปัญหาในการใส่รหัสใช่หรือไม่?"
-
-#: .es5/templates/sign_up_password.mustache:1
-msgid "Set your password"
-msgstr "ตั้งรหัสผ่านของคุณ"
-
-#: .es5/templates/sign_up_password.mustache:2
-msgid "Change email"
-msgstr "เปลี่ยนอีเมล"
-
-#: .es5/templates/sign_up_password.mustache:4
-msgid "Password"
-msgstr "รหัสผ่าน"
-
-#: .es5/templates/sign_up_password.mustache:5
-msgid "Repeat password"
-msgstr "ทวนรหัสผ่าน"
-
-#: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "คุณต้องใช้รหัสผ่านนี้เพื่อเข้าถึงข้อมูลใด ๆ ที่เข้ารหัสที่คุณเก็บไว้กับเรา<br class=\"mb-3\">การตั้งค่าใหม่อาจทำให้ข้อมูลต่าง ๆ เช่น รหัสผ่าน และที่คั่นหน้า สูญหาย"
-
-#: .es5/templates/sign_up_password.mustache:7
-msgid "Get more from Mozilla:"
-msgstr "รับข้อมูลเพิ่มเติมจาก Mozilla:"
-
-#: .es5/templates/sign_up_password.mustache:10
-msgid "Choose what to sync"
-msgstr "เลือกสิ่งที่จะซิงค์"
-
-#: .es5/templates/sign_up_password.mustache:14
-msgid "Create account"
-msgstr "สร้างบัญชี"
-
-#: .es5/templates/sign_up_password.mustache:15
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-
-#: .es5/templates/sign_up_password.mustache:17
-msgid ""
-"\n"
-"              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"            "
-msgstr ""
-
-#: .es5/templates/would-you-like-to-sync.mustache:1
-msgid "Would you like to sync this device to your account?"
-msgstr "คุณต้องการซิงค์อุปกรณ์นี้กับบัญชีของคุณหรือไม่?"
-
-#: .es5/templates/would-you-like-to-sync.mustache:2
-msgid "Sync this device"
-msgstr "ซิงค์อุปกรณ์นี้"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1128,6 +941,14 @@ msgstr "ใส่รหัสยืนยัน"
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "โปรดใส่รหัสยืนยันที่ส่งไปยัง %(escapedEmail)s ภายใน 5 นาที"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "ใส่รหัส 6 หลัก"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+msgid "Confirm"
+msgstr "ยืนยัน"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1190,90 +1011,6 @@ msgstr "รับความรู้ที่เป็นประโยชน
 msgid "Subscribe %(email)s"
 msgstr "สมัครสมาชิก %(email)s"
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:1
-msgid "Device connected!"
-msgstr "เชื่อมต่ออุปกรณ์แล้ว!"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:4
-msgid "Connect another one"
-msgstr "เชื่อมต่ออุปกรณ์อื่น"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5
-msgid "Use SMS instead"
-msgstr "ใช้ SMS แทน"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:6
-msgid "I'm done for now"
-msgstr "ฉันทำเสร็จแล้ว"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
-msgid "Sync Firefox between devices"
-msgstr "ซิงค์ Firefox ระหว่างอุปกรณ์"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr "ซิงค์ที่คั่นหน้า ประวัติ และรหัสผ่านกับ Firefox บนอุปกรณ์มือถือของคุณ การซิงค์ใช้เวลาเพียงไม่กี่นาทีเท่านั้น"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
-msgid "Get started"
-msgstr "เริ่มต้นใช้งาน"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
-msgid "I'll do this later, send me a reminder"
-msgstr "ฉันจะทำสิ่งนี้ในภายหลัง ส่งการแจ้งเตือนให้ฉัน"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera app"
-msgstr "ดาวน์โหลด Firefox ด้วยแอปกล้องของคุณ"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr "การติดตั้ง Firefox และการซิงค์ระหว่างอุปกรณ์อย่างน้อยสองเครื่องยังช่วยป้องกันการสูญเสียข้อมูลของคุณได้ด้วย"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
-msgid "Ready to scan"
-msgstr "พร้อมที่จะสแกน"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">เชื่อมต่ออุปกรณ์มือถือของคุณ</h1><p>ด้วยรหัส QR ที่เราสร้างให้คุณ</p>"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "Open the camera app on your device"
-msgstr "เปิดแอปกล้องบนอุปกรณ์ของคุณ"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
-msgid "Point the camera at the QR code and tap the link that appears"
-msgstr "เล็งกล้องไปที่รหัส QR แล้วแตะลิงก์ที่ปรากฏ"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
-msgid "Install Firefox and open it on your device"
-msgstr "ติดตั้ง Firefox และเปิดบนอุปกรณ์ของคุณ"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
-msgid "Sign into your account"
-msgstr "ลงชื่อเข้าบัญชีของคุณ"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
-msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr "<span class=\"number\">1</span>เปิดแอปกล้องบนอุปกรณ์ของคุณ"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr "<span class=\"number\">2</span>เล็งกล้องไปที่รหัส QR แล้วแตะลิงก์ที่ปรากฏ"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr "<span class=\"number\">3</span>ติดตั้ง Firefox และเปิดบนอุปกรณ์ของคุณ"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
-msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr "<span class=\"number\">4</span>ลงชื่อเข้าบัญชีของคุณ"
-
-#: .es5/templates/partial/account-suggestion.mustache:1
-msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr "ทำไมฉันต้องสร้างบัญชีนี้? <a %(escapedSuggestionAttrs)s>ค้นพบได้ที่นี่</a>"
-
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
 msgstr "โลโก้รูปตัว m ของ Mozilla"
@@ -1286,7 +1023,7 @@ msgstr "บัญชี Firefox จะถูกเปลี่ยนชื่อ
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "คุณจะยังลงชื่อเข้าด้วยชื่อผู้ใช้และรหัสผ่านเดียวกันอยู่ และจะไม่มีการเปลี่ยนแปลงอื่นใดกับผลิตภัณฑ์ที่คุณใช้"
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
 msgstr "เรียนรู้เพิ่มเติม"
 
@@ -1309,30 +1046,6 @@ msgstr "คุณอายุเท่าไร?"
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
 msgstr "ทำไมเราจึงต้องถาม?"
-
-#: .es5/templates/partial/device-being-paired.mustache:2
-msgid "%(family)s on %(OS)s"
-msgstr "%(family)s บน %(OS)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:3
-msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr "%(city)s %(region)s %(country)s (โดยประมาณ)"
-
-#: .es5/templates/partial/device-being-paired.mustache:7
-msgid "%(region)s, %(country)s (estimated)"
-msgstr "%(region)s %(country)s (โดยประมาณ)"
-
-#: .es5/templates/partial/device-being-paired.mustache:9
-msgid "%(country)s"
-msgstr "%(country)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:11
-msgid "Location unknown"
-msgstr "ไม่ทราบตำแหน่งที่ตั้ง"
-
-#: .es5/templates/partial/device-being-paired.mustache:12
-msgid "IP address: %(ipAddress)s"
-msgstr "ที่อยู่ IP: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
@@ -1365,219 +1078,3 @@ msgstr "ดำเนินการต่อด้วย Google"
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
 msgstr "ดำเนินการต่อด้วย Apple"
-
-#: .es5/templates/partial/unsupported-pair.mustache:1
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr "กำลังเชื่อมต่ออุปกรณ์มือถือของคุณกับบัญชี Mozilla ของคุณ"
-
-#: .es5/templates/partial/unsupported-pair.mustache:2
-msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr "ให้เปิด Firefox บนคอมพิวเตอร์ของคุณ เข้าไปที่ <b class=\"whitespace-nowrap\">firefox.com/pair</b> แล้วทำตามคำแนะนำบนหน้าจอเพื่อเชื่อมต่ออุปกรณ์มือถือของคุณ"
-
-#: .es5/templates/pair/auth_allow.mustache:1
-msgid "Did you just sign in to Firefox?"
-msgstr "คุณเพิ่งลงชื่อเข้าใช้ Firefox หรือไม่?"
-
-#: .es5/templates/pair/auth_allow.mustache:2
-msgid " %(email)s "
-msgstr " %(email)s "
-
-#: .es5/templates/pair/auth_allow.mustache:3
-msgid "location balloon"
-msgstr "บอลลูนบอกตำแหน่ง"
-
-#: .es5/templates/pair/auth_allow.mustache:4
-msgid "Yes, approve device"
-msgstr "ใช่ อนุมัติอุปกรณ์"
-
-#: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr "ถ้านี่ไม่ใช่คุณ ให้<a id=\"change-password\" class=\"link-blue\">เปลี่ยนรหัสผ่านของคุณ</a> "
-
-#: .es5/templates/pair/auth_complete.mustache:1
-msgid "You’re ready to send some tabs"
-msgstr "คุณพร้อมที่จะส่งแท็บแล้ว"
-
-#: .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
-msgid "Successfully connected"
-msgstr "เชื่อมต่อสำเร็จแล้ว"
-
-#: .es5/templates/pair/auth_complete.mustache:3
-msgid ""
-"\n"
-"          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
-"        "
-msgstr ""
-"\n"
-"          <span>%(deviceFamily)s สำหรับ %(deviceOS)s</span> ถูกเชื่อมต่อแล้ว\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:4
-msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr "คุณสามารถส่งแท็บที่เปิดอยู่ รหัสผ่าน และที่คั่นหน้า ระหว่างอุปกรณ์ต่าง ๆ ได้ทันที"
-
-#: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
-msgid "Device connected"
-msgstr "อุปกรณ์ที่เชื่อมต่อแล้ว"
-
-#: .es5/templates/pair/auth_complete.mustache:8
-msgid ""
-"\n"
-"          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
-"        "
-msgstr ""
-"\n"
-"          ขณะนี้คุณกำลังซิงค์กับ: <span>%(deviceFamily)s ใน %(deviceOS)s</span>\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:9
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr "ตอนนี้คุณสามารถเข้าถึงแท็บที่เปิดอยู่ รหัสผ่าน และที่คั่นหน้าของคุณได้แล้วจากอุปกรณ์ทุกเครื่องของคุณ"
-
-#: .es5/templates/pair/auth_complete.mustache:10
-msgid "See tabs from synced devices"
-msgstr "ดูแท็บจากอุปกรณ์ที่ซิงค์"
-
-#: .es5/templates/pair/auth_complete.mustache:12
-msgid "Manage devices"
-msgstr "จัดการอุปกรณ์"
-
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "ขณะนี้จำเป็นต้องได้รับการอนุมัติ<small class=\"card-subheader\">จากอุปกรณ์เครื่องอื่นของคุณ</small>"
-
-#: .es5/templates/pair/failure.mustache:1
-msgid "Device pairing failed"
-msgstr "การจับคู่อุปกรณ์ล้มเหลว"
-
-#: .es5/templates/pair/failure.mustache:2
-msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr "ไม่สามารถดำเนินการตั้งค่าให้เสร็จสมบูรณ์ได้ โปรดลงชื่อเข้าด้วยอีเมลของคุณ"
-
-#: .es5/templates/pair/index.mustache:1
-msgid "Password created. You’re now syncing."
-msgstr "รหัสผ่านถูกสร้างแล้ว ขณะนี้กำลังซิงค์ข้อมูล"
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Account created. You’re now syncing."
-msgstr "บัญชีถูกสร้างแล้ว ขณะนี้กำลังซิงค์ข้อมูล"
-
-#: .es5/templates/pair/index.mustache:5
-msgid "Signed in successfully!"
-msgstr "ลงชื่อเข้าสำเร็จแล้ว!"
-
-#: .es5/templates/pair/index.mustache:11
-msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr "ดาวน์โหลดหรือเปิด Firefox บนอุปกรณ์ที่คุณต้องการส่งแท็บ"
-
-#: .es5/templates/pair/index.mustache:14
-msgid "Sync your Firefox experience"
-msgstr "ซิงค์ข้อมูลใน Firefox ของคุณให้ตรงกัน"
-
-#: .es5/templates/pair/index.mustache:15
-msgid "Download Firefox for mobile"
-msgstr "ดาวน์โหลด Firefox สำหรับมือถือ"
-
-#: .es5/templates/pair/index.mustache:17
-msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr "ดูรหัสผ่านที่บันทึก แท็บ ประวัติการเรียกดู และอื่นๆ ของคุณ — จากทุกอุปกรณ์ของคุณ"
-
-#: .es5/templates/pair/index.mustache:18
-msgid "Select an option to continue:"
-msgstr "เลือกตัวเลือกเพื่อดำเนินการต่อ:"
-
-#: .es5/templates/pair/index.mustache:19
-msgid "I already have Firefox for mobile"
-msgstr "ฉันมี Firefox สำหรับมือถือแล้ว"
-
-#: .es5/templates/pair/index.mustache:20
-msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "เริ่มต้นซิงค์ได้เลยหากคุณมี Firefox อยู่บนอุปกรณ์มือถือแล้ว"
-
-#: .es5/templates/pair/index.mustache:21
-msgid "I don’t have Firefox for mobile"
-msgstr "ฉันไม่มี Firefox สำหรับมือถือ"
-
-#: .es5/templates/pair/index.mustache:22
-msgid "Download Firefox on your mobile device, then start your sync."
-msgstr "ดาวน์โหลด Firefox บนอุปกรณ์มือถือของคุณ แล้วเริ่มต้นซิงค์"
-
-#: .es5/templates/pair/index.mustache:24 .es5/templates/pair/index.mustache:30
-msgid "Not now"
-msgstr "ยังไม่ทำตอนนี้"
-
-#: .es5/templates/pair/index.mustache:25
-msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr "หากต้องการซิงค์ Firefox บนโทรศัพท์หรือแท็บเล็ตของคุณ คุณจะต้องดาวน์โหลด Firefox สำหรับมือถือก่อน โดยมีวิธีต่อไปนี้"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>ขั้นที่ 1</b>: ดาวน์โหลด Firefox โดยสแกนคิวอาร์โค้ดนี้ด้วยกล้องบนอุปกรณ์มือถือของคุณ:"
-
-#: .es5/templates/pair/index.mustache:27
-msgid "QR code (located in the middle of the screen)"
-msgstr "คิวอาร์โค้ด (อยู่ตรงกลางในหน้าจอ)"
-
-#: .es5/templates/pair/index.mustache:28
-msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr "<b>ขั้นที่ 2</b>: เลือก \"ซิงค์ต่อไป\" เพื่อซิงค์ข้อมูลใน Firefox ของคุณบนอุปกรณ์มือถือของคุณ"
-
-#: .es5/templates/pair/index.mustache:29
-msgid "Continue to sync"
-msgstr "ซิงค์ต่อไป"
-
-#: .es5/templates/pair/success.mustache:2
-msgid "Device successfully paired"
-msgstr "จับคู่อุปกรณ์สำเร็จแล้ว"
-
-#: .es5/templates/pair/success.mustache:3
-msgid "Pairing was successful."
-msgstr "การจับคู่สำเร็จแล้ว"
-
-#: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr "ยืนยันการจับคู่<span class=\"card-subheader\">สำหรับ <span class=\"break-all\">%(email)s</span></span>"
-
-#: .es5/templates/pair/supp_allow.mustache:2
-msgid "Confirm pairing"
-msgstr "ยืนยันการจับคู่"
-
-#: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
-msgid "Oops! It looks like you’re not using Firefox."
-msgstr "อ้าว! ดูเหมือนว่าคุณจะไม่ได้ใช้ Firefox นะ"
-
-#: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
-msgid "Attention:"
-msgstr "คำเตือน:"
-
-#: .es5/templates/pair/unsupported.mustache:5
-msgid "Switch to Firefox and open this page to connect another device."
-msgstr "สลับไปใช้ Firefox แล้วเปิดหน้านี้ เพื่อเชื่อมต่ออุปกรณ์อีกเครื่อง"
-
-#: .es5/templates/pair/unsupported.mustache:6
-msgid "Download Firefox"
-msgstr "ดาวน์โหลด Firefox"
-
-#: .es5/templates/pair/unsupported.mustache:7
-msgid "Opens in new window"
-msgstr "จะเปิดในหน้าต่างใหม่"
-
-#: .es5/templates/pair/unsupported.mustache:9
-msgid "Pair using an app"
-msgstr "จับคู่โดยใช้แอป"
-
-#: .es5/templates/pair/unsupported.mustache:10
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "คุณใช้กล้องระบบหรือไม่? คุณต้องจับคู่จากภายในแอพ Firefox"
-
-#: .es5/templates/pair/unsupported.mustache:14
-msgid "Download Firefox now"
-msgstr "ดาวน์โหลด Firefox ตอนนี้"
-
-#: .es5/templates/pair/unsupported.mustache:17
-msgid "Oops! Something went wrong."
-msgstr "อ้าว! มีบางอย่างผิดพลาด"
-
-#: .es5/templates/pair/unsupported.mustache:18
-msgid "Please close this tab and try again."
-msgstr "กรุณาปิดแท็บนี้แล้วลองใหม่อีกครั้ง"
