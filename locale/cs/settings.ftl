@@ -1999,9 +1999,9 @@ pair2-supplicant-download-firefox-learn-more-link = Zjistit více
 
 pair2-supplicant-connect-hint-heading-v2 = Dokončete párování v aplikaci
 # <b> emphasises the name of the button the user taps in Firefox
-pair2-supplicant-connect-hint-step-app-menu = Klepněte na <b>nabídku aplikace</b> na liště
+pair2-supplicant-connect-hint-step-app-menu = Na liště klepněte na <b>nabídku aplikace</b>
 # <b> emphasises the name of the menu item the user taps in Firefox
-pair2-supplicant-connect-hint-step-sign-in = Klepněte na <b>přihlásit se</b> a naskenujte kód
+pair2-supplicant-connect-hint-step-sign-in = Klepněte na <b>Přihlásit se</b>, a poté naskenujte kód
 # Opens a Mozilla support article about connecting a device without a QR code
 pair2-supplicant-connect-hint-learn-more-link = Zjistit více
 
@@ -2059,8 +2059,8 @@ permissions-cancel-button = Zrušit
 ## Users are sent here when suspicious activity on the account requires a new password before they can continue.
 
 force-password-change-heading = Změňte si prosím heslo
-force-password-change-info = Zjistili jsme podezřelé chování vašeho { -product-mozilla-account }. Pro ochranu vašeho účtu si prosím vytvořte nové heslo. Toto heslo budete používat pro opětovné přihlášení do všech služeb v aplikaci { -product-mozilla-account }.
-force-password-change-data-info = Synchronizovaná historie, záložky, přihlášení a další osobní údaje nebudou smazány.
+force-password-change-info = Na vašem { -product-mozilla-account(case: "gen") } jsme zaznamenali podezřelou aktivitu. Vytvořte si prosím nové heslo, abychom váš účet ochránili. Pomocí tohoto hesla se znovu přihlásíte ke všem službám svého { -product-mozilla-account(case: "gen") }.
+force-password-change-data-info = O synchronizovanou historii, záložky, přihlašovací údaje ani další osobní data nepřijdete.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
