@@ -1988,6 +1988,15 @@ pair2-supplicant-download-firefox-have-firefox-button = Io jam ha { -brand-firef
 # Opens a page explaining what sync does
 pair2-supplicant-download-firefox-learn-more-link = Pro saper plus
 
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## with the phone's camera app instead of with Firefox. They already have
+## Firefox installed, so it tells them how to scan the code again from inside
+## Firefox.
+
+# Opens a Mozilla support article about connecting a device without a QR code
+pair2-supplicant-connect-hint-learn-more-link = Pro saper plus
+
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
 ## to open firefox.com/pair on their computer, which is where the QR code they
