@@ -1972,7 +1972,7 @@ pair2-supplicant-connect-this-device-cancel-button = Abbrechen
 
 pair2-supplicant-download-firefox-heading-v2 = { -brand-firefox } auf diesem Gerät öffnen
 # "sync" is a verb here, referring to syncing data between the user's devices.
-pair2-supplicant-download-firefox-description-v2 = Laden Sie { -brand-firefox } herunter, um Lesezeichen, Chronik und mehr zwischen Geräten zu synchronisieren.
+pair2-supplicant-download-firefox-description-v2 = Laden Sie { -brand-firefox } herunter, um Lesezeichen, Chronik und mehr geräteübergreifend zu synchronisieren.
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Auf { -brand-firefox } fortfahren
@@ -1982,7 +1982,7 @@ pair2-supplicant-download-firefox-opening-button = { -brand-firefox } wird geöf
 pair2-supplicant-download-firefox-download-button = { -brand-firefox } herunterladen
 # Secondary action shown in Safari on iOS, below the download button. Opens the
 # Firefox app when it is already installed.
-pair2-supplicant-download-firefox-have-firefox-button = Ich habe bereits { -brand-firefox }
+pair2-supplicant-download-firefox-have-firefox-button = { -brand-firefox } ist bereits installiert
 # Opens a page explaining what sync does
 pair2-supplicant-download-firefox-learn-more-link = Weitere Informationen
 
