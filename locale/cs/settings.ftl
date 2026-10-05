@@ -170,6 +170,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Potvrdit heslo
 form-password-with-inline-criteria-reset-submit-button = Vytvořit nové heslo
+form-password-with-inline-criteria-old-password-label =
+    .label = Staré heslo
+form-password-with-inline-criteria-change-password-submit-button = Změna hesla
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = Heslo
 form-password-with-inline-criteria-set-password-confirm-password-label =
@@ -1972,11 +1975,35 @@ pair2-supplicant-connect-this-device-cancel-button = Zrušit
 ## not Firefox. It offers to open the Firefox app to finish pairing, and to
 ## install it first when the user does not have it yet.
 
+pair2-supplicant-download-firefox-heading-v2 = Otevřít { -brand-firefox } na tomto zařízení
+# "sync" is a verb here, referring to syncing data between the user's devices.
+pair2-supplicant-download-firefox-description-v2 = Stáhněte si aplikaci { -brand-firefox } pro synchronizaci záložek, historie a dalšího data mezi zařízeními.
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Pokračujte za { -brand-firefox(case: "gen") }
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = Spouští se { -brand-firefox }…
+# Primary action shown in Safari on iOS. Opens the App Store page for Firefox.
+pair2-supplicant-download-firefox-download-button = Stáhnout { -brand-firefox }
+# Secondary action shown in Safari on iOS, below the download button. Opens the
+# Firefox app when it is already installed.
+pair2-supplicant-download-firefox-have-firefox-button = Již mám { -brand-firefox }
+# Opens a page explaining what sync does
+pair2-supplicant-download-firefox-learn-more-link = Zjistit více
+
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## with the phone's camera app instead of with Firefox. They already have
+## Firefox installed, so it tells them how to scan the code again from inside
+## Firefox.
+
+pair2-supplicant-connect-hint-heading-v2 = Dokončete párování v aplikaci
+# <b> emphasises the name of the button the user taps in Firefox
+pair2-supplicant-connect-hint-step-app-menu = Klepněte na <b>nabídku aplikace</b> na liště
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair2-supplicant-connect-hint-step-sign-in = Klepněte na <b>přihlásit se</b> a naskenujte kód
+# Opens a Mozilla support article about connecting a device without a QR code
+pair2-supplicant-connect-hint-learn-more-link = Zjistit více
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2027,6 +2054,13 @@ permissions-label-email = E-mailová adresa
 permissions-label-display-name = Zobrazované jméno
 permissions-continue-button = Pokračovat
 permissions-cancel-button = Zrušit
+
+## ForcePasswordChange page
+## Users are sent here when suspicious activity on the account requires a new password before they can continue.
+
+force-password-change-heading = Změňte prosím své heslo
+force-password-change-info = Zjistili jsme podezřelé chování vašeho { -product-mozilla-account }. Pro ochranu vašeho účtu si prosím vytvořte nové heslo. Toto heslo budete používat pro opětovné přihlášení do všech služeb v aplikaci { -product-mozilla-account }.
+force-password-change-data-info = Synchronizovaná historie, záložky, přihlášení a další osobní údaje nebudou smazány.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
