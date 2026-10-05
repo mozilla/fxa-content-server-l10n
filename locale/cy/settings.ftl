@@ -1875,7 +1875,6 @@ pair-unsupported-switch-to-firefox = Newidiwch i { -brand-firefox } ac agorwch y
 pair-unsupported-oops-mobile = Wps! Mae'n edrych yn debyg nad ydych chi'n defnyddio { -brand-firefox }.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
-# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
 pair-unsupported-connecting-mobile-header-v2 = Yn cysylltu eich dyfais symudol â'ch { -product-mozilla-account }
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
@@ -1988,15 +1987,10 @@ pair2-supplicant-connect-this-device-connect-button = Cysylltu
 pair2-supplicant-connect-this-device-cancel-button = Diddymu
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
-## Users see this on their mobile device when pairing reaches a device that
-## does not have Firefox installed yet. It explains what syncing gets them and
-## either opens the Firefox app to finish pairing or sends them off to install
-## the browser.
+## Users see this on their mobile device when pairing reaches a browser that is
+## not Firefox. It offers to open the Firefox app to finish pairing, and to
+## install it first when the user does not have it yet.
 
-pair2-supplicant-download-firefox-heading = Cael { -brand-firefox } ar y ddyfais hon
-# "sync" is a verb here, referring to syncing data between the user's devices.
-# <linkExternal> is an anchor tag linking to a page explaining what sync does.
-pair2-supplicant-download-firefox-description = Llwythwch { -brand-firefox } i lawr i gydweddu nodau tudalen, hanes, a mwy ar draws dyfeisiau. <linkExternal>Dysgu rhagor</linkExternal>
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Parhau yn { -brand-firefox }

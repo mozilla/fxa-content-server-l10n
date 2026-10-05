@@ -1851,7 +1851,6 @@ pair-unsupported-switch-to-firefox = Wechseln Sie zu { -brand-firefox } und öff
 pair-unsupported-oops-mobile = Hoppla! Anscheinend verwenden Sie { -brand-firefox } nicht.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
-# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
 pair-unsupported-connecting-mobile-header-v2 = Verbinden Ihres Mobilgerätes mit Ihrem { -product-mozilla-account }
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
@@ -1964,15 +1963,10 @@ pair2-supplicant-connect-this-device-connect-button = Verbinden
 pair2-supplicant-connect-this-device-cancel-button = Abbrechen
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
-## Users see this on their mobile device when pairing reaches a device that
-## does not have Firefox installed yet. It explains what syncing gets them and
-## either opens the Firefox app to finish pairing or sends them off to install
-## the browser.
+## Users see this on their mobile device when pairing reaches a browser that is
+## not Firefox. It offers to open the Firefox app to finish pairing, and to
+## install it first when the user does not have it yet.
 
-pair2-supplicant-download-firefox-heading = Holen Sie sich { -brand-firefox } auf dieses Gerät
-# "sync" is a verb here, referring to syncing data between the user's devices.
-# <linkExternal> is an anchor tag linking to a page explaining what sync does.
-pair2-supplicant-download-firefox-description = Laden Sie { -brand-firefox } herunter, um Lesezeichen, Chronik und mehr zwischen Geräten zu synchronisieren. <linkExternal>Weitere Informationen</linkExternal>
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Auf { -brand-firefox } fortfahren

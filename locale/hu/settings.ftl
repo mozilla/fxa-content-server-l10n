@@ -1857,7 +1857,6 @@ pair-unsupported-switch-to-firefox = Váltson a { -brand-firefox }ra, és nyissa
 pair-unsupported-oops-mobile = Hoppá! Úgy tűnik, hogy nem a { -brand-firefox }ot használja.
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
-# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
 pair-unsupported-connecting-mobile-header-v2 = A mobileszköze összekapcsolása a { -product-mozilla-account }jával
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
@@ -1970,15 +1969,10 @@ pair2-supplicant-connect-this-device-connect-button = Kapcsolódás
 pair2-supplicant-connect-this-device-cancel-button = Mégse
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
-## Users see this on their mobile device when pairing reaches a device that
-## does not have Firefox installed yet. It explains what syncing gets them and
-## either opens the Firefox app to finish pairing or sends them off to install
-## the browser.
+## Users see this on their mobile device when pairing reaches a browser that is
+## not Firefox. It offers to open the Firefox app to finish pairing, and to
+## install it first when the user does not have it yet.
 
-pair2-supplicant-download-firefox-heading = A { -brand-firefox } beszerzése erre az eszközre
-# "sync" is a verb here, referring to syncing data between the user's devices.
-# <linkExternal> is an anchor tag linking to a page explaining what sync does.
-pair2-supplicant-download-firefox-description = Töltse le a { -brand-firefox }ot, és szinkronizálja a könyvjelzőket, előzményeket és egyebeket az eszközök között. <linkExternal>Tudjon meg többet</linkExternal>
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Folytatás a { -brand-firefox }ban

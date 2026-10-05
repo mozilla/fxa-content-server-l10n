@@ -1811,7 +1811,6 @@ pair-unsupported-switch-to-firefox = 切換至 { -brand-firefox } 並開啟此�
 pair-unsupported-oops-mobile = 喔喔，看來您使用的不是 { -brand-firefox }。
 # v2: Heading for the mobile instructional message, shown on all mobile devices
 # (Firefox and non-Firefox) when the URL is NOT a system camera pair URL.
-# Aligned with legacy Backbone copy (see templates/partial/unsupported-pair.mustache).
 pair-unsupported-connecting-mobile-header-v2 = 使用您的 { -product-mozilla-account }連線到行動裝置
 # v2: Instructions shown below the mobile heading. `<b>` wraps the firefox.com/pair
 # URL so the domain does not wrap to a new line on narrow screens.
@@ -1924,15 +1923,10 @@ pair2-supplicant-connect-this-device-connect-button = 連線
 pair2-supplicant-connect-this-device-cancel-button = 取消
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
-## Users see this on their mobile device when pairing reaches a device that
-## does not have Firefox installed yet. It explains what syncing gets them and
-## either opens the Firefox app to finish pairing or sends them off to install
-## the browser.
+## Users see this on their mobile device when pairing reaches a browser that is
+## not Firefox. It offers to open the Firefox app to finish pairing, and to
+## install it first when the user does not have it yet.
 
-pair2-supplicant-download-firefox-heading = 在此裝置安裝 { -brand-firefox }
-# "sync" is a verb here, referring to syncing data between the user's devices.
-# <linkExternal> is an anchor tag linking to a page explaining what sync does.
-pair2-supplicant-download-firefox-description = 下載 { -brand-firefox } 即可在不同裝置間同步書籤、瀏覽紀錄與更多資料。 <linkExternal>了解更多資訊</linkExternal>
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = 到 { -brand-firefox } 繼續
