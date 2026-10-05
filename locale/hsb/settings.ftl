@@ -1999,6 +1999,15 @@ pair2-supplicant-download-firefox-have-firefox-button = Mam hižo { -brand-firef
 # Opens a page explaining what sync does
 pair2-supplicant-download-firefox-learn-more-link = Dalše informacije
 
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## with the phone's camera app instead of with Firefox. They already have
+## Firefox installed, so it tells them how to scan the code again from inside
+## Firefox.
+
+# Opens a Mozilla support article about connecting a device without a QR code
+pair2-supplicant-connect-hint-learn-more-link = Dalše informacije
+
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
 ## to open firefox.com/pair on their computer, which is where the QR code they
@@ -2048,6 +2057,13 @@ permissions-label-email = E-mejlowa adresa
 permissions-label-display-name = Pokazowane mjeno
 permissions-continue-button = Dale
 permissions-cancel-button = Přetorhnyć
+
+## ForcePasswordChange page
+## Users are sent here when suspicious activity on the account requires a new password before they can continue.
+
+force-password-change-heading = Změńće prošu swoje hesło
+force-password-change-info = Smy podhladne zadźerženje we wašim konće { -product-mozilla-account } zwěsćili. Zo byšće swoje konto škitał, wutworće prošu nowe hesło. Wužiwajće te hesło, zo byšće so zaso pola słužbow swojeho konta { -product-mozilla-account } přizjewił.
+force-password-change-data-info = Synchronizowana historija, zapołožki, přizjewjenja a druhe wosobinske daty so njezhubja.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
