@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-05 15:36+0000\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
@@ -61,7 +63,7 @@ msgstr "התרעות על החשבון תישלחנה מעתה גם אל %(secon
 msgid "Secondary email confirmed"
 msgstr "כתובת הדוא״ל המשנית עברה אימות"
 
-#: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7
+#: .es5/views/ready.js:69
 msgid "Sign-in confirmed"
 msgstr "ההתחברות אומתה"
 
@@ -81,12 +83,8 @@ msgstr "מחובר"
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "כעת באפשרותך לבצע שינויים בחשבון ה־Firefox שלך."
 
-#: .es5/views/sign_up_password.js:66
-msgid "Account no longer exists. Recreate it?"
-msgstr "החשבון כבר אינו קיים. האם ליצור אותו מחדש?"
-
 #. aria label for banner/tooltip dismiss button
-#: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
+#: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "סגירה"
 
@@ -97,26 +95,6 @@ msgstr "התרעות על החשבון תישלחנה מעתה גם אל %(secon
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
 msgstr "המשך אל %(serviceName)s"
-
-#: .es5/views/mixins/open-webmail-mixin.js:22
-msgid "Open Gmail"
-msgstr "פתיחת Gmail"
-
-#: .es5/views/mixins/open-webmail-mixin.js:27
-msgid "Open Hotmail"
-msgstr "פתיחת Hotmail"
-
-#: .es5/views/mixins/open-webmail-mixin.js:32
-msgid "Open Yahoo"
-msgstr "פתיחת Yahoo"
-
-#: .es5/views/mixins/open-webmail-mixin.js:37
-msgid "Open Outlook"
-msgstr "פתיחת Outlook"
-
-#: .es5/views/mixins/open-webmail-mixin.js:42
-msgid "Open Restmail"
-msgstr "פתיחת Restmail"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -736,7 +714,9 @@ msgid "Invalid Token"
 msgstr "אסימון לא חוקי"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "המשך התהליך מהווה הסכמה ל<a id=\"service-tos\" href=\"%(termsUri)s\">תנאי השירות</a> ול<a id=\"service-pp\" href=\"%(privacyUri)s\">הצהרת הפרטיות</a> של %(serviceName)s‏ (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -747,7 +727,7 @@ msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-a
 msgid "Get the latest news about Mozilla and Firefox."
 msgstr "קבלו את החדשות העדכניות ביותר על Mozilla ו־Firefox."
 
-#: .es5/lib/strings.js:40 .es5/templates/partial/device-being-paired.mustache:5
+#: .es5/lib/strings.js:40
 msgid "%(city)s, %(country)s (estimated)"
 msgstr "‏%(city)s,‏ %(country)s (משוער)"
 
@@ -763,7 +743,7 @@ msgstr "כתובת IP:‏ %(ip)s"
 msgid "For added security, please confirm this sign-in to begin syncing with this device:"
 msgstr "לצורך אבטחה מוגברת, נא לאשר התחברות זו על מנת להתחיל בסנכרון עם מכשיר זה:"
 
-#: .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16
+#: .es5/lib/strings.js:49
 msgid "Sign in"
 msgstr "התחברות"
 
@@ -778,18 +758,6 @@ msgstr "שגיאה 500"
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "שוד ושבר, משהו השתבש. אנו מודעים לבעיה ופועלים לתיקונה."
-
-#: .es5/templates/choose_what_to_sync.mustache:1
-msgid "Choose what to sync:"
-msgstr "נא לבחור את הפריטים שיסונכרנו:"
-
-#: .es5/templates/choose_what_to_sync.mustache:4
-msgid "Sync selections"
-msgstr "בחירת פריטים לסנכרון"
-
-#: .es5/templates/choose_what_to_sync.mustache:5 .es5/templates/would-you-like-to-sync.mustache:3
-msgid "Don’t sync this device"
-msgstr "לא לסנכרן את המכשיר הזה"
 
 #: .es5/templates/complete_sign_up.mustache:1
 msgid "Primary email already confirmed"
@@ -823,95 +791,6 @@ msgstr "לקישור שלחצת חסרים תווים, ויתכן שנפגם ע�
 msgid "Confirmation error"
 msgstr "שגיאת אימות"
 
-#: .es5/templates/confirm.mustache:3
-msgid "Confirm your account"
-msgstr "אימות החשבון שלך"
-
-#: .es5/templates/confirm.mustache:5
-msgid "Confirm this sign-in"
-msgstr "אישור התחברות זו"
-
-#: .es5/templates/confirm.mustache:7
-msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr "נא לחפש בתיבת הדואר הנכנס שלך קישור אימות שנשלח אל %(escapedEmail)s"
-
-#: .es5/templates/confirm.mustache:9
-msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
-msgstr "נא לבדוק את הדוא״ל שלך לאישור הכניסה שנשלח ל־%(escapedEmail)s"
-
-#: .es5/templates/confirm.mustache:12 .es5/templates/confirm.mustache:13
-msgid "Not in inbox or spam folder? Resend"
-msgstr "לא בתיקיית הדואר הנכנס או הספאם? שליחה חוזרת"
-
-#: .es5/templates/confirm.mustache:14 .es5/templates/pair/index.mustache:7 .es5/templates/pair/index.mustache:8
-msgid "Back"
-msgstr "חזרה"
-
-#: .es5/templates/confirm_signup_code.mustache:1
-msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr "נא להכניס את קוד האימות <span class=\"card-subheader\" id=\"subheader\">עבור חשבון ה־Mozilla שלך</span>"
-
-#: .es5/templates/confirm_signup_code.mustache:2
-msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "נא להכניס את הקוד שנשלח אל %(escapedEmail)s תוך 5 דקות."
-
-#: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "נא להזין קוד בן 6 ספרות"
-
-#: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "אישור"
-
-#: .es5/templates/confirm_signup_code.mustache:5
-msgid "Code expired?"
-msgstr "פג תוקף הקוד?"
-
-#: .es5/templates/confirm_signup_code.mustache:6
-msgid "Email new code."
-msgstr "שליחת קוד חדש בדוא״ל."
-
-#: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:9 .es5/templates/pair/index.mustache:13
-#: .es5/templates/pair/unsupported.mustache:1
-msgid "Connect another device"
-msgstr "חיבור מכשיר נוסף"
-
-#: .es5/templates/connect_another_device.mustache:3
-msgid "You’re signed into Firefox"
-msgstr ""
-
-#: .es5/templates/connect_another_device.mustache:5
-msgid "Email confirmed"
-msgstr "כתובת הדוא״ל אומתה"
-
-#: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
-msgid "Devices with hearts on their screens"
-msgstr "מכשירים עם לבבות על המסכים שלהם"
-
-#: .es5/templates/connect_another_device.mustache:11
-msgid "You’re signed in to Firefox"
-msgstr ""
-
-#: .es5/templates/connect_another_device.mustache:15
-msgid "Sign in to this Firefox to complete set-up"
-msgstr "יש להיכנס ל־Firefox זה כדי להשלים את ההתקנה"
-
-#: .es5/templates/connect_another_device.mustache:18 .es5/templates/post_verify/cad_qr/connected.mustache:3
-msgid "Still adding devices?"
-msgstr "עדיין מתבצעת הוספת מכשירים?"
-
-#: .es5/templates/connect_another_device.mustache:20
-msgid "Sign in to Firefox on another device to complete set-up"
-msgstr "יש להיכנס ל־Firefox במכשיר נוסף כדי להשלים את ההתקנה"
-
-#: .es5/templates/connect_another_device.mustache:22
-msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr "רוצה לקבל את הלשוניות, הסימניות והססמאות שלך במכשיר נוסף?"
-
-#: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "ניהול החשבון שלך"
-
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
 msgstr "המשך אל חשבון ה־Mozilla שלך"
@@ -928,8 +807,7 @@ msgstr "נא להכניס את כתובת הדוא״ל שלך"
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr "המשך אל <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
-#: .es5/templates/index.mustache:7 .es5/templates/sign_in_totp_code.mustache:2 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
+#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
 msgid "Continue to %(serviceName)s"
 msgstr "המשך אל %(serviceName)s"
 
@@ -953,31 +831,39 @@ msgstr "חשבון Mozilla גם פותח גישה למוצרים נוספים ה
 msgid ""
 "\n"
 "          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/"
+"\">Privacy Notice</a><br />\n"
+"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "        "
 msgstr ""
 "\n"
 "          המשך התהליך מהווה הסכמה ל:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">הצהרת הפרטיות</a> של Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">הצהרת הפרטיות</a> של חשבונות Mozilla\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">הצהרת "
+"הפרטיות</a> של Pocket<br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/"
+"privacy/mozilla-accounts/\">הצהרת הפרטיות</a> של חשבונות Mozilla\n"
 "        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
 "\n"
 "            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
+"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a "
+"class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
+"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
+"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
 "          "
 msgstr ""
 "\n"
 "            המשך התהליך מהווה הסכמה ל:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">הצהרת הפרטיות</a> של שירותי המינויים של Mozilla<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">הצהרת הפרטיות</a> של Mozilla Accounts\n"
+"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"moz-"
+"subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">הצהרת הפרטיות</a> של שירותי המינויים של Mozilla<br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/"
+"privacy/mozilla-accounts/\">הצהרת הפרטיות</a> של Mozilla Accounts\n"
 "          "
 
-#: .es5/templates/index.mustache:20 .es5/templates/sign_up_password.mustache:19
+#: .es5/templates/index.mustache:20
 msgid ""
 "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
@@ -1015,7 +901,7 @@ msgstr "%(serviceName)s מעוניין בגישה לפריטי המידע הבא
 msgid "Accept"
 msgstr "אישור"
 
-#: .es5/templates/permissions.mustache:4 .es5/templates/pair/supp_allow.mustache:3
+#: .es5/templates/permissions.mustache:4
 msgid "Cancel"
 msgstr "ביטול"
 
@@ -1023,11 +909,15 @@ msgstr "ביטול"
 msgid "Success"
 msgstr "הצלחה"
 
+#: .es5/templates/ready.mustache:2
+msgid "Manage your account"
+msgstr "ניהול החשבון שלך"
+
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 msgstr ""
 
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:23
+#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
 msgid "Continue"
 msgstr "המשך"
 
@@ -1042,90 +932,6 @@ msgstr "החשבון שלך מוכן!"
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
 msgstr "יצירת מפתח שחזור חשבון חדש"
-
-#: .es5/templates/sign_in_totp_code.mustache:1
-msgid "Enter security code"
-msgstr "נא להזין קוד אבטחה"
-
-#: .es5/templates/sign_in_totp_code.mustache:3
-msgid "Open your authentication app and enter the security code it provides."
-msgstr "נא לפתוח את יישומון האימות שלך ולהקליד את קוד האבטחה שמופיע בו."
-
-#: .es5/templates/sign_in_totp_code.mustache:6
-msgid "Use a different account"
-msgstr "שימוש בחשבון אחר"
-
-#: .es5/templates/sign_in_totp_code.mustache:7
-msgid "Trouble entering code?"
-msgstr "מתקשה בהזנת הקוד?"
-
-#: .es5/templates/sign_up_password.mustache:1
-msgid "Set your password"
-msgstr "הגדרת הססמה שלך"
-
-#: .es5/templates/sign_up_password.mustache:2
-msgid "Change email"
-msgstr "שינוי כתובת דוא״ל"
-
-#: .es5/templates/sign_up_password.mustache:4
-msgid "Password"
-msgstr "ססמה"
-
-#: .es5/templates/sign_up_password.mustache:5
-msgid "Repeat password"
-msgstr "חזרה על הססמה"
-
-#: .es5/templates/sign_up_password.mustache:6
-msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "הססמה הזו תשמש אותך כדי לגשת לכל הנתונים המוצפנים שלך המאוחסנים אצלנו.<br class=\"mb-3\">איפוס הססמה עלול לגרום לאיבוד נתונים כמו ססמאות וסימניות."
-
-#: .es5/templates/sign_up_password.mustache:7
-msgid "Get more from Mozilla:"
-msgstr "קבלו יותר מ־Mozilla:"
-
-#: .es5/templates/sign_up_password.mustache:10
-msgid "Choose what to sync"
-msgstr "נא לבחור את הפריטים שיסונכרנו"
-
-#: .es5/templates/sign_up_password.mustache:14
-msgid "Create account"
-msgstr "יצירת חשבון"
-
-#: .es5/templates/sign_up_password.mustache:15
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"\n"
-"            המשך התהליך מהווה הסכמה ל:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">הצהרת הפרטיות</a> של Pocket<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">הצהרת הפרטיות</a> של חשבונות Mozilla\n"
-"          "
-
-#: .es5/templates/sign_up_password.mustache:17
-msgid ""
-"\n"
-"              By proceeding, you agree to the:<br />\n"
-"              Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"              Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"            "
-msgstr ""
-"\n"
-"              המשך התהליך מהווה הסכמה ל:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">הצהרת הפרטיות</a> של שירותי המינויים של Mozilla<br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">הצהרת הפרטיות</a> של Mozilla Accounts\n"
-"            "
-
-#: .es5/templates/would-you-like-to-sync.mustache:1
-msgid "Would you like to sync this device to your account?"
-msgstr "האם ברצונך לסנכרן מכשיר זה לחשבון שלך?"
-
-#: .es5/templates/would-you-like-to-sync.mustache:2
-msgid "Sync this device"
-msgstr "סנכרון מכשיר זה"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1150,6 +956,14 @@ msgstr "נא להכניס את קוד האימות"
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
 msgstr "נא להכניס את קוד האימות שנשלח אל %(escapedEmail)s תוך 5 דקות."
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
+msgid "Enter 6-digit code"
+msgstr "נא להזין קוד בן 6 ספרות"
+
+#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
+msgid "Confirm"
+msgstr "אישור"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
@@ -1212,90 +1026,6 @@ msgstr "אפשר לקבל ידע חיוני ישירות לתיבת הדוא״ל
 msgid "Subscribe %(email)s"
 msgstr "להירשם אל %(email)s"
 
-#: .es5/templates/post_verify/cad_qr/connected.mustache:1
-msgid "Device connected!"
-msgstr "המכשיר מחובר!"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:4
-msgid "Connect another one"
-msgstr "חיבור מכשיר נוסף"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:5
-msgid "Use SMS instead"
-msgstr "שימוש ב־SMS במקום"
-
-#: .es5/templates/post_verify/cad_qr/connected.mustache:6
-msgid "I'm done for now"
-msgstr "סיימתי לבינתיים"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:1
-msgid "Sync Firefox between devices"
-msgstr "סנכרון Firefox בין מכשירים"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:2
-msgid "Sync bookmarks, history, and passwords to Firefox on your mobile devices. It only takes a few minutes."
-msgstr "סנכרון סימניות, היסטוריה וססמאות ל־Firefox שבמכשירים הניידים שלך. זה לוקח רק כמה דקות."
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:3
-msgid "Get started"
-msgstr "תחילת עבודה"
-
-#: .es5/templates/post_verify/cad_qr/get_started.mustache:4 .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:4
-msgid "I'll do this later, send me a reminder"
-msgstr "אעשה זאת בהמשך, נא לשלוח לי תזכורת"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:1
-msgid "Download Firefox with your camera app"
-msgstr "הורדת Firefox באמצעות יישומון המצלמה שלך"
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:2
-msgid "Installing Firefox and syncing between at least two devices also protects against losing your data."
-msgstr "התקנת Firefox וסנכרון בין שני מכשירים לפחות מגן גם מפני אובדן הנתונים שלך."
-
-#: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
-msgid "Ready to scan"
-msgstr "מוכן לסריקה"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
-msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
-msgstr "ניתן <h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">לחבר את המכשיר הנייד שלך</h1><p>עם QR שיצרנו במיוחד עבורך</p>"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:2
-msgid "Open the camera app on your device"
-msgstr "נא לפתוח את יישומון המצלמה במכשיר שלך"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:3
-msgid "Point the camera at the QR code and tap the link that appears"
-msgstr "לכוון את המצלמה לקוד ה־QR ולגעת בקישור שמופיע"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:4
-msgid "Install Firefox and open it on your device"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:5
-msgid "Sign into your account"
-msgstr "להיכנס לחשבון שלך"
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:6
-msgid "<span class=\"number\">1</span>Open the camera app on your device"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:7
-msgid "<span class=\"number\">2</span>Point the camera at the QR code and tap the link that appears"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:8
-msgid "<span class=\"number\">3</span>Install Firefox and open it on your device"
-msgstr ""
-
-#: .es5/templates/post_verify/cad_qr/scan_code.mustache:9
-msgid "<span class=\"number\">4</span>Sign into your account"
-msgstr ""
-
-#: .es5/templates/partial/account-suggestion.mustache:1
-msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr "מדוע עליי ליצור חשבון זה? <a %(escapedSuggestionAttrs)s>מידע נוסף כאן</a>"
-
 #: .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
 msgstr "הסמל של Mozilla - האות m"
@@ -1308,7 +1038,7 @@ msgstr "חשבונות Firefox ישונו לחשבונות Mozilla ב־1 בנו�
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
 msgstr "הכניסה לחשבון עדיין תהיה עם אותם פרטי שם משתמש וססמה, ואין שינויים אחרים במוצרים שבהם אתם משתמשים."
 
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
+#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
 msgid "Learn more"
 msgstr "מידע נוסף"
 
@@ -1331,30 +1061,6 @@ msgstr "מהו גילך?"
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
 msgstr "למה אנחנו שואלים?"
-
-#: .es5/templates/partial/device-being-paired.mustache:2
-msgid "%(family)s on %(OS)s"
-msgstr "%(family)s על %(OS)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:3
-msgid "%(city)s, %(region)s, %(country)s (estimated)"
-msgstr "‏%(city)s, ‏%(region)s, ‏%(country)s (משוער)"
-
-#: .es5/templates/partial/device-being-paired.mustache:7
-msgid "%(region)s, %(country)s (estimated)"
-msgstr "‏%(region)s, ‏%(country)s (משוער)"
-
-#: .es5/templates/partial/device-being-paired.mustache:9
-msgid "%(country)s"
-msgstr "%(country)s"
-
-#: .es5/templates/partial/device-being-paired.mustache:11
-msgid "Location unknown"
-msgstr "מיקום לא ידוע"
-
-#: .es5/templates/partial/device-being-paired.mustache:12
-msgid "IP address: %(ipAddress)s"
-msgstr "כתובת IP: ‏%(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
@@ -1387,219 +1093,3 @@ msgstr "המשך עם Google"
 #: .es5/templates/partial/third-party-auth.mustache:4
 msgid "Continue with Apple"
 msgstr "המשך עם Apple"
-
-#: .es5/templates/partial/unsupported-pair.mustache:1
-msgid "Connecting your mobile device with your Mozilla account"
-msgstr "חיבור המכשיר הנייד שלך עם חשבון ה־Mozilla שלך"
-
-#: .es5/templates/partial/unsupported-pair.mustache:2
-msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr "יש לפתוח את Firefox במחשב שלך, לבקר ב־<b class=\"whitespace-nowrap\">firefox.com/pair</b>, ולעקוב אחרי ההנחיות שמופיעות על המסך כדי לחבר את המכשיר הנייד."
-
-#: .es5/templates/pair/auth_allow.mustache:1
-msgid "Did you just sign in to Firefox?"
-msgstr "האם זה עתה התחברת ל־Firefox?"
-
-#: .es5/templates/pair/auth_allow.mustache:2
-msgid " %(email)s "
-msgstr " %(email)s "
-
-#: .es5/templates/pair/auth_allow.mustache:3
-msgid "location balloon"
-msgstr "בלון מיקום"
-
-#: .es5/templates/pair/auth_allow.mustache:4
-msgid "Yes, approve device"
-msgstr "כן, לאשר את המכשיר"
-
-#: .es5/templates/pair/auth_allow.mustache:5
-msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr "אם לא ביצעת פעולה זו, יש <a id=\"change-password\" class=\"link-blue\">לשנות את הססמה שלך</a>"
-
-#: .es5/templates/pair/auth_complete.mustache:1
-msgid "You’re ready to send some tabs"
-msgstr "ניתן לשלוח כמה לשוניות"
-
-#: .es5/templates/pair/auth_complete.mustache:2 .es5/templates/pair/auth_complete.mustache:7
-msgid "Successfully connected"
-msgstr "מחובר בהצלחה"
-
-#: .es5/templates/pair/auth_complete.mustache:3
-msgid ""
-"\n"
-"          <span>%(deviceFamily)s for %(deviceOS)s</span> is connected.\n"
-"        "
-msgstr ""
-"\n"
-"          <span>%(deviceFamily)s עבור %(deviceOS)s</span> מחובר.\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:4
-msgid "You’re free to instantly send open tabs, passwords, and bookmarks between devices."
-msgstr "באפשרותך לשלוח לשוניות פתוחות, ססמאות וסימניות בין מכשירים, באופן מיידי."
-
-#: .es5/templates/pair/auth_complete.mustache:6 .es5/templates/pair/success.mustache:1
-msgid "Device connected"
-msgstr "המכשיר מחובר"
-
-#: .es5/templates/pair/auth_complete.mustache:8
-msgid ""
-"\n"
-"          You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
-"        "
-msgstr ""
-"\n"
-"          כעת בסנכרון עם: <span>%(deviceFamily)s ב־%(deviceOS)s</span>\n"
-"        "
-
-#: .es5/templates/pair/auth_complete.mustache:9
-msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr "כעת באפשרותך לגשת ללשוניות הפתוחות, הססמאות והסימניות שלך בכל המכשירים שלך."
-
-#: .es5/templates/pair/auth_complete.mustache:10
-msgid "See tabs from synced devices"
-msgstr "הצגת לשוניות ממכשירים מסונכרנים"
-
-#: .es5/templates/pair/auth_complete.mustache:12
-msgid "Manage devices"
-msgstr "ניהול מכשירים"
-
-#: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
-msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "נדרש אישור <small class=\"card-subheader\">מהמכשיר האחר שלך</small>"
-
-#: .es5/templates/pair/failure.mustache:1
-msgid "Device pairing failed"
-msgstr "צימוד המכשיר נכשל"
-
-#: .es5/templates/pair/failure.mustache:2
-msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr "לא ניתן היה להשלים את ההגדרה. נא להתחבר עם הדוא״ל שלך."
-
-#: .es5/templates/pair/index.mustache:1
-msgid "Password created. You’re now syncing."
-msgstr "הססמה נוצרה. כעת הינך במצב סנכרון."
-
-#: .es5/templates/pair/index.mustache:3
-msgid "Account created. You’re now syncing."
-msgstr "החשבון נוצר. כעת הינך במצב סנכרון."
-
-#: .es5/templates/pair/index.mustache:5
-msgid "Signed in successfully!"
-msgstr "התחברת בהצלחה!"
-
-#: .es5/templates/pair/index.mustache:11
-msgid "Download or open Firefox on the device where you want to send tabs"
-msgstr "יש להוריד או לפתוח את Firefox במכשיר שאליו ברצונך לשלוח לשוניות"
-
-#: .es5/templates/pair/index.mustache:14
-msgid "Sync your Firefox experience"
-msgstr "סנכרון חווית המשתמש שלך ב־Firefox"
-
-#: .es5/templates/pair/index.mustache:15
-msgid "Download Firefox for mobile"
-msgstr "הורדת Firefox לנייד"
-
-#: .es5/templates/pair/index.mustache:17
-msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr "צפייה בססמאות השמורות, הלשוניות, היסטוריית הגלישה שלך ועוד - בכל המכשירים שלך."
-
-#: .es5/templates/pair/index.mustache:18
-msgid "Select an option to continue:"
-msgstr "נא לבחור באפשרות כדי להמשיך:"
-
-#: .es5/templates/pair/index.mustache:19
-msgid "I already have Firefox for mobile"
-msgstr "כבר יש לי Firefox בנייד"
-
-#: .es5/templates/pair/index.mustache:20
-msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr "ניתן להתחיל בסנכרון עכשיו אם כבר יש לך Firefox במכשיר הנייד שלך."
-
-#: .es5/templates/pair/index.mustache:21
-msgid "I don’t have Firefox for mobile"
-msgstr "אין לי Firefox בנייד"
-
-#: .es5/templates/pair/index.mustache:22
-msgid "Download Firefox on your mobile device, then start your sync."
-msgstr "יש להוריד את Firefox למכשיר הנייד שלך, ואז להתחיל לסנכרן."
-
-#: .es5/templates/pair/index.mustache:24 .es5/templates/pair/index.mustache:30
-msgid "Not now"
-msgstr "לא כעת"
-
-#: .es5/templates/pair/index.mustache:25
-msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr "כדי לסנכרן את Firefox בטלפון או במחשב הלוח שלך, תחילה יהיה עליך להוריד את Firefox לנייד באופן הבא:"
-
-#: .es5/templates/pair/index.mustache:26
-msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>שלב 1</b>: יש להוריד את Firefox על־ידי סריקת קוד QR זה עם המצלמה במכשיר הנייד שלך:"
-
-#: .es5/templates/pair/index.mustache:27
-msgid "QR code (located in the middle of the screen)"
-msgstr "קוד QR (ממוקם באמצע המסך)"
-
-#: .es5/templates/pair/index.mustache:28
-msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr "<b>שלב 2</b>: יש לבחור באפשרות ״המשך לסנכרון״ כדי לסנכרן את חוויית המשתמש שלך ב־Firefox למכשיר הנייד שלך."
-
-#: .es5/templates/pair/index.mustache:29
-msgid "Continue to sync"
-msgstr "המשך לסנכרון"
-
-#: .es5/templates/pair/success.mustache:2
-msgid "Device successfully paired"
-msgstr "צימוד המכשיר בוצע בהצלחה"
-
-#: .es5/templates/pair/success.mustache:3
-msgid "Pairing was successful."
-msgstr "הצימוד בוצע בהצלחה."
-
-#: .es5/templates/pair/supp_allow.mustache:1
-msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
-
-#: .es5/templates/pair/supp_allow.mustache:2
-msgid "Confirm pairing"
-msgstr "אישור צימוד"
-
-#: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
-msgid "Oops! It looks like you’re not using Firefox."
-msgstr "אופס! נראה שאינכם משתמשים ב־Firefox."
-
-#: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
-msgid "Attention:"
-msgstr "לתשומת ליבך:"
-
-#: .es5/templates/pair/unsupported.mustache:5
-msgid "Switch to Firefox and open this page to connect another device."
-msgstr "יש לעבור ל־Firefox ולפתוח את דף זה כדי לחבר מכשיר נוסף."
-
-#: .es5/templates/pair/unsupported.mustache:6
-msgid "Download Firefox"
-msgstr "הורדת Firefox"
-
-#: .es5/templates/pair/unsupported.mustache:7
-msgid "Opens in new window"
-msgstr "נפתח בחלון חדש"
-
-#: .es5/templates/pair/unsupported.mustache:9
-msgid "Pair using an app"
-msgstr "ביצוע צימוד באמצעות יישומון"
-
-#: .es5/templates/pair/unsupported.mustache:10
-msgid "Did you use the system camera? You must pair from within a Firefox app."
-msgstr "האם השתמשת במצלמת המערכת? יש לבצע צימוד מתוך היישום Firefox."
-
-#: .es5/templates/pair/unsupported.mustache:14
-msgid "Download Firefox now"
-msgstr "הורדת Firefox כעת"
-
-#: .es5/templates/pair/unsupported.mustache:17
-msgid "Oops! Something went wrong."
-msgstr "אופס! משהו השתבש."
-
-#: .es5/templates/pair/unsupported.mustache:18
-msgid "Please close this tab and try again."
-msgstr "נא לסגור לשונית זו ולנסות שוב."
