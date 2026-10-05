@@ -143,6 +143,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Potwierdź hasło
 form-password-with-inline-criteria-reset-submit-button = Utwórz nowe hasło
+form-password-with-inline-criteria-old-password-label =
+    .label = Poprzednie hasło
+form-password-with-inline-criteria-change-password-submit-button = Zmień hasło
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = Hasło
 form-password-with-inline-criteria-set-password-confirm-password-label =
@@ -1665,6 +1668,13 @@ pair2-supplicant-connect-this-device-heading = Czy połączyć to urządzenie z�
 pair2-supplicant-connect-this-device-connect-button = Połącz
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Anuluj
+
+## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when pairing reaches a browser that is
+## not Firefox. It offers to open the Firefox app to finish pairing, and to
+## install it first when the user does not have it yet.
+
+pair2-supplicant-download-firefox-heading-v2 = Uruchom { -brand-firefox(case: "acc") } na tym urządzeniu
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
