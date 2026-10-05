@@ -1977,7 +1977,7 @@ pair2-supplicant-connect-this-device-cancel-button = Zrušit
 
 pair2-supplicant-download-firefox-heading-v2 = Otevřít { -brand-firefox } na tomto zařízení
 # "sync" is a verb here, referring to syncing data between the user's devices.
-pair2-supplicant-download-firefox-description-v2 = Stáhněte si aplikaci { -brand-firefox } pro synchronizaci záložek, historie a dalšího data mezi zařízeními.
+pair2-supplicant-download-firefox-description-v2 = Stáhněte si { -brand-firefox(case: "acc") } a synchronizujte záložky, historii a další data mezi zařízeními.
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Pokračujte za { -brand-firefox(case: "gen") }
@@ -2058,7 +2058,7 @@ permissions-cancel-button = Zrušit
 ## ForcePasswordChange page
 ## Users are sent here when suspicious activity on the account requires a new password before they can continue.
 
-force-password-change-heading = Změňte prosím své heslo
+force-password-change-heading = Změňte si prosím heslo
 force-password-change-info = Zjistili jsme podezřelé chování vašeho { -product-mozilla-account }. Pro ochranu vašeho účtu si prosím vytvořte nové heslo. Toto heslo budete používat pro opětovné přihlášení do všech služeb v aplikaci { -product-mozilla-account }.
 force-password-change-data-info = Synchronizovaná historie, záložky, přihlášení a další osobní údaje nebudou smazány.
 
