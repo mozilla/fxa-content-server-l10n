@@ -1995,6 +1995,11 @@ pair2-supplicant-download-firefox-learn-more-link = Μάθετε περισσό�
 ## Firefox installed, so it tells them how to scan the code again from inside
 ## Firefox.
 
+pair2-supplicant-connect-hint-heading-v2 = Ολοκλήρωση σύζευξης στην εφαρμογή
+# <b> emphasises the name of the button the user taps in Firefox
+pair2-supplicant-connect-hint-step-app-menu = Πατήστε το <b>μενού εφαρμογής</b> στη γραμμή εργαλείων
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair2-supplicant-connect-hint-step-sign-in = Επιλέξτε <b>Σύνδεση</b> και σαρώστε τον κωδικό
 # Opens a Mozilla support article about connecting a device without a QR code
 pair2-supplicant-connect-hint-learn-more-link = Μάθετε περισσότερα
 
@@ -2052,6 +2057,8 @@ permissions-cancel-button = Ακύρωση
 ## Users are sent here when suspicious activity on the account requires a new password before they can continue.
 
 force-password-change-heading = Αλλάξτε τον κωδικό πρόσβασής σας
+force-password-change-info = Ανιχνεύσαμε ύποπτη συμπεριφορά στον { -product-mozilla-account(capitalization: "lower", case: "acc") } σας. Για την προστασία του λογαριασμού σας, δημιουργήστε έναν νέο κωδικό πρόσβασης. Θα πρέπει να τον χρησιμοποιήσετε για να συνδεθείτε ξανά σε όλες τις υπηρεσίες του { -product-mozilla-account(capitalization: "lower", case: "gen") } σας.
+force-password-change-data-info = Το συγχρονισμένο ιστορικό, οι σελιδοδείκτες, οι συνδέσεις και άλλα προσωπικά δεδομένα δεν θα χαθούν.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2519,3 +2526,10 @@ signup-confirmed-sync-description-v2 = Οι κωδικοί πρόσβασης, �
 signup-confirmed-sync-add-device-link = Προσθήκη άλλης συσκευής
 signup-confirmed-sync-manage-sync-button = Διαχείριση συγχρονισμού
 signup-confirmed-sync-set-password-success-banner = Ο κωδικός πρόσβασης συγχρονισμού δημιουργήθηκε
+
+## UpdateFirefox page
+## Shown when the browser is too old to use a Mozilla account
+
+update-firefox-heading = Απαιτείται ενημέρωση του { -brand-firefox }
+update-firefox-description = O { -product-mozilla-account(capitalization: "lower", case: "nom") } σας αξιοποιεί λειτουργίες που δεν υποστηρίζονται στην έκδοση του { -brand-firefox } που χρησιμοποιείτε. Κάντε λήψη και εγκατάσταση της πιο πρόσφατης έκδοσης του { -brand-firefox } για να συνεχίσετε.
+update-firefox-download-button = Λήψη τελευταίας έκδοσης
