@@ -1973,6 +1973,9 @@ pair2-supplicant-connect-this-device-cancel-button = Ακύρωση
 ## not Firefox. It offers to open the Firefox app to finish pairing, and to
 ## install it first when the user does not have it yet.
 
+pair2-supplicant-download-firefox-heading-v2 = Ανοίξτε το { -brand-firefox } σε αυτήν τη συσκευή
+# "sync" is a verb here, referring to syncing data between the user's devices.
+pair2-supplicant-download-firefox-description-v2 = Κάντε λήψη του { -brand-firefox } για συγχρονισμό σελιδοδεικτών, ιστορικού και άλλων δεδομένων στις συσκευές σας.
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Συνέχεια στο { -brand-firefox }
