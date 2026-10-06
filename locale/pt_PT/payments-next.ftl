@@ -727,7 +727,6 @@ manage-payment-method-tax-address-required = Não conseguimos determinar a sua l
 next-charge-with-discount-and-tax-card = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
 next-charge-with-discount-and-tax-payment-method = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto no seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
 next-charge-next-charge-with-discount-and-tax = Irá poupar { $discountPercent }% na próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto em { $currentPeriodEnd }.
-next-charge-with-discount-no-tax-card = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto para o cartão que termina em { $last4 } em { $currentPeriodEnd }.
 next-charge-with-discount-no-tax-payment-method = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } + { $taxDue } de imposto no seu método de pagamento de { $paymentMethod } em { $currentPeriodEnd }.
 next-charge-with-discount-no-tax = Irá poupar { $discountPercent }% na sua próxima cobrança de { $nextInvoiceTotal } em { $currentPeriodEnd }.
 next-charge-with-tax-card = A sua próxima cobrança será de { $nextInvoiceTotal } + { $taxDue } de imposto a efetuar no cartão terminado em { $last4 } em { $currentPeriodEnd }.
