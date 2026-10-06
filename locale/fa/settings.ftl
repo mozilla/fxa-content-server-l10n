@@ -317,7 +317,7 @@ sync-devices-image-aria-label =
     .aria-label = پنجرهٔ مرورگر رایانه و یک تلفن همراه که هر دو در حال همگام‌سازی‌اند و نماد { -brand-firefox } هم کنارشان است
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
-    .aria-label = لوگوی { -brand-firefox }
+    .aria-label = آرم { -brand-firefox }
 # This id is referenced by `PasswordSuccessImage` but was never added here, so
 # the aria-label has been falling back to English in every locale.
 password-success-image-aria-label =
