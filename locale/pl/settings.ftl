@@ -90,6 +90,8 @@ datablock-print =
 datablock-copy-success =
     { $count ->
         [one] Skopiowano kod
+        [few] Skopiowano kody
+        [many] Skopiowano kody
        *[other] Skopiowano kody
     }
 datablock-download-success =
@@ -130,6 +132,9 @@ device-info-block-location-unknown = Nieznane położenie
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $browserName } w systemie { $genericOSName }
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
+device-info-browser-device = { $browserName } na urządzeniu { $deviceName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adres IP: { $ipAddress }
@@ -382,6 +387,11 @@ password-strength-inline-passwords-match = Hasła są zgodne
 
 # "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
 promo-qr-mobile-heading = Twój telefon. Twoje zasady.
+# Appears below a QR code that a user can scan to download the Firefox mobile app
+promo-qr-mobile-description-v2 = Zeskanuj, aby pobrać aplikację mobilną
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = Kod QR do pobrania aplikacji mobilnej { -brand-firefox }. Skieruj aparat telefonu na prawy dolny róg ekranu, aby zeskanować kod.
 
 ## Notification Promo Banner component
 
