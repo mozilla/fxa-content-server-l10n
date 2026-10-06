@@ -2065,6 +2065,8 @@ permissions-cancel-button = Zrušiť
 ## Users are sent here when suspicious activity on the account requires a new password before they can continue.
 
 force-password-change-heading = Zmeňte si heslo
+force-password-change-info = Vo vašom { -product-mozilla-account(capitalization: "lower", case: "loc") } sme zaznamenali podozrivú aktivitu. V záujme ochrany účtu si vytvorte nové heslo. Pomocou neho sa znova prihlásite do všetkých služieb  { -product-mozilla-account(capitalization: "lower", case: "gen") }.
+force-password-change-data-info = Synchronizovaná história, záložky, prihlásenia a ďalšie osobné údaje sa nestratia.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2543,3 +2545,10 @@ signup-confirmed-sync-description-v2 = Vaše heslá, adresy, záložky, históri
 signup-confirmed-sync-add-device-link = Pridať ďalšie zariadenie
 signup-confirmed-sync-manage-sync-button = Spravovať synchronizáciu
 signup-confirmed-sync-set-password-success-banner = Synchronizačné heslo vytvorené
+
+## UpdateFirefox page
+## Shown when the browser is too old to use a Mozilla account
+
+update-firefox-heading = Je potrebné aktualizovať { -brand-firefox(case: "acc") }
+update-firefox-description = Váš { -product-mozilla-account(capitalization: "lower") } používa funkcie, ktoré vaša verzia prehliadača { -brand-firefox } nepodporuje. Ak chcete pokračovať, stiahnite si a nainštalujte najnovšiu verziu prehliadača { -brand-firefox }.
+update-firefox-download-button = Stiahnuť najnovšiu verziu
