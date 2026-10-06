@@ -167,6 +167,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Επιβεβαίωση κωδικού πρόσβασης
 form-password-with-inline-criteria-reset-submit-button = Δημιουργία νέου κωδικού πρόσβασης
+form-password-with-inline-criteria-old-password-label =
+    .label = Παλιός κωδικός πρόσβασης
+form-password-with-inline-criteria-change-password-submit-button = Αλλαγή κωδικού πρόσβασης
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = Κωδικός πρόσβασης
 form-password-with-inline-criteria-set-password-confirm-password-label =
@@ -1975,6 +1978,22 @@ pair2-supplicant-connect-this-device-cancel-button = Ακύρωση
 pair2-supplicant-download-firefox-continue-button = Συνέχεια στο { -brand-firefox }
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = Άνοιγμα του { -brand-firefox }…
+# Primary action shown in Safari on iOS. Opens the App Store page for Firefox.
+pair2-supplicant-download-firefox-download-button = Λήψη του { -brand-firefox }
+# Secondary action shown in Safari on iOS, below the download button. Opens the
+# Firefox app when it is already installed.
+pair2-supplicant-download-firefox-have-firefox-button = Διαθέτω ήδη το { -brand-firefox }
+# Opens a page explaining what sync does
+pair2-supplicant-download-firefox-learn-more-link = Μάθετε περισσότερα
+
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## with the phone's camera app instead of with Firefox. They already have
+## Firefox installed, so it tells them how to scan the code again from inside
+## Firefox.
+
+# Opens a Mozilla support article about connecting a device without a QR code
+pair2-supplicant-connect-hint-learn-more-link = Μάθετε περισσότερα
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2025,6 +2044,11 @@ permissions-label-email = Διεύθυνση email
 permissions-label-display-name = Εμφανιζόμενο όνομα
 permissions-continue-button = Συνέχεια
 permissions-cancel-button = Ακύρωση
+
+## ForcePasswordChange page
+## Users are sent here when suspicious activity on the account requires a new password before they can continue.
+
+force-password-change-heading = Αλλάξτε τον κωδικό πρόσβασής σας
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
