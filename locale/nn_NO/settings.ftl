@@ -2495,4 +2495,4 @@ signup-confirmed-sync-set-password-success-banner = Synkroniseringspassord oppre
 ## Shown when the browser is too old to use a Mozilla account
 
 update-firefox-heading = { -brand-firefox }-oppdatering påkravd
-update-firefox-download-button = Last ned nyaste versjon
+update-firefox-download-button = Last ned den nyaste versjonen

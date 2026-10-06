@@ -92,4 +92,4 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
-msgstr "Last ned siste"
+msgstr "Last ned den nyaste versjonen"
