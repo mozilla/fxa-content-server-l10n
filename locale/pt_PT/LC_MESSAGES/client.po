@@ -31,7 +31,7 @@ msgstr "Imagem da conta"
 
 #: .es5/views/ready.js:43
 msgid "Welcome back"
-msgstr "Bem-vindo(a) de volta"
+msgstr "Boas-vindas novamente"
 
 #: .es5/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
