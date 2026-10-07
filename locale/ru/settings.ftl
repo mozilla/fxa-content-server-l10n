@@ -2539,3 +2539,8 @@ signup-confirmed-sync-set-password-success-banner = Пароль синхрон�
 ## Shown when the browser is too old to use a Mozilla account
 
 update-firefox-heading = Требуется обновление { -brand-firefox }
+update-firefox-description =
+    Аккаунт { -product-mozilla-account } использует функции, которые
+    не поддерживаются в вашей версии { -brand-firefox }. Пожалуйста,
+    загрузите и установите последнюю версию { -brand-firefox } для продолжения.
+update-firefox-download-button = Скачать последнюю версию
