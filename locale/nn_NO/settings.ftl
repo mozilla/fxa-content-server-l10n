@@ -167,6 +167,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Stadfest passord
 form-password-with-inline-criteria-reset-submit-button = Lag nytt passord
+form-password-with-inline-criteria-old-password-label =
+    .label = Gammalt passord
+form-password-with-inline-criteria-change-password-submit-button = Endre passord
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = Passord
 form-password-with-inline-criteria-set-password-confirm-password-label =
@@ -1968,11 +1971,19 @@ pair2-supplicant-connect-this-device-cancel-button = Avbryt
 ## not Firefox. It offers to open the Firefox app to finish pairing, and to
 ## install it first when the user does not have it yet.
 
+pair2-supplicant-download-firefox-heading-v2 = Opne { -brand-firefox } på denne eininga
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Hald fram i { -brand-firefox }
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = Opnar { -brand-firefox }…
+# Primary action shown in Safari on iOS. Opens the App Store page for Firefox.
+pair2-supplicant-download-firefox-download-button = Last ned { -brand-firefox }
+# Secondary action shown in Safari on iOS, below the download button. Opens the
+# Firefox app when it is already installed.
+pair2-supplicant-download-firefox-have-firefox-button = Eg har allereie { -brand-firefox }
+# Opens a page explaining what sync does
+pair2-supplicant-download-firefox-learn-more-link = Les meir
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
