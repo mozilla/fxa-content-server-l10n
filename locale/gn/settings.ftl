@@ -1644,6 +1644,8 @@ inline-passwordless-sync-setup-success-alert = Ko ñe’ẽ ñemi oĩma eike ha 
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Nahu’ãi upe ñe’ẽ ñemi ñemoneĩ
 inline-passwordless-sync-setup-error-cancelled-description = Emoneĩ ñe’ẽ ñemi emboyke hag̃ua ñe’ẽñemi eiporujeývo.
+# Error shown in the Settings alert bar when storing the passkey failed. The user is already signed in; only the password-free setup failed, so the next sign-in still asks for a password.
+inline-passwordless-sync-setup-error-generic = Oĩ osẽvaíva, emoingeva’erã katuete ne ñe’ẽñemi eiporujeýtavo upéi
 
 ## InlineRecoveryKeySetup page component
 
@@ -1912,6 +1914,7 @@ pair2-authority-scan-qr-skip-button = Ehasa ko’ág̃a
 ## Users see this on their computer once the mobile device has been paired.
 ## It confirms that sync is on and links to sync settings.
 
+pair2-authority-sync-success-heading-v2 = Ne mba’e’oka ojuajuhína
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button-v2 = Eñangareko mbojueherã ñembohekóre
 
@@ -1965,6 +1968,23 @@ pair2-supplicant-connect-this-device-cancel-button = Eheja
 pair2-supplicant-download-firefox-continue-button = Eku’ejey { -brand-firefox } ndive
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = Ijurujahína { -brand-firefox }…
+# Primary action shown in Safari on iOS. Opens the App Store page for Firefox.
+pair2-supplicant-download-firefox-download-button = Emboguejy { -brand-firefox }
+# Secondary action shown in Safari on iOS, below the download button. Opens the
+# Firefox app when it is already installed.
+pair2-supplicant-download-firefox-have-firefox-button = Aguerekóma { -brand-firefox }
+# Opens a page explaining what sync does
+pair2-supplicant-download-firefox-learn-more-link = Eikuaave
+
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## with the phone's camera app instead of with Firefox. They already have
+## Firefox installed, so it tells them how to scan the code again from inside
+## Firefox.
+
+pair2-supplicant-connect-hint-heading-v2 = Emohu’ã tembiporu’i mbojuehe
+# Opens a Mozilla support article about connecting a device without a QR code
+pair2-supplicant-connect-hint-learn-more-link = Eikuaave
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2478,3 +2498,8 @@ signup-confirmed-sync-description-v2 = Ñe’ẽñemi, kundaharape, techaukaha, 
 signup-confirmed-sync-add-device-link = Embojuaju ambue mba’e’oka
 signup-confirmed-sync-manage-sync-button = Eñangareko ñembojuehére
 signup-confirmed-sync-set-password-success-banner = Ñe’ẽñemi ñembojuehe moheñoipyre
+
+## UpdateFirefox page
+## Shown when the browser is too old to use a Mozilla account
+
+update-firefox-download-button = Emboguejy mbohekopyahu ramovegua
