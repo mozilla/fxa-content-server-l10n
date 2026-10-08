@@ -1283,6 +1283,7 @@ passkey-sub-row-created-date = Vytvorený: { $createdDate }
 passkey-sub-row-last-used-date = Naposledy použitý: { $lastUsedDate }
 passkey-sub-row-delete-title = Odstrániť prístupový kľúč
 passkey-delete-modal-heading = Odstrániť prístupový kľúč?
+passkey-delete-modal-content-v3 = Tento prístupový kľúč sa odstráni z vášho účtu. Na prihlásenie budete musieť použiť heslo, iný prístupový kľúč alebo prepojený účet.
 passkey-delete-modal-cancel-button = Zrušiť
 passkey-delete-modal-confirm-button = Odstrániť prístupový kľúč
 passkey-delete-success = Prístupový kľúč bol odstránený
@@ -1645,15 +1646,23 @@ index-email-bounced = Váš potvrdzujúci e‑mail sa práve vrátil. Nesprávne
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = Nabudúce sa prihlásiť bez hesla?
+# Success banner after signing in.
+inline-passwordless-sync-setup-success-banner-v2 = Prihlásenie bolo úspešné a synchronizácia je zapnutá
 inline-passwordless-sync-setup-heading = Nabudúce sa prihlásiť bez hesla?
 inline-passwordless-sync-setup-description = S týmto prístupovým kľúčom sa prihlásite rýchlejšie.
 inline-passwordless-sync-setup-enable-button = Povoliť prístupový kľúč
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Aktivuje sa…
 inline-passwordless-sync-setup-not-now-button = Teraz nie
+# Success message shown in the Settings alert bar after the passkey was stored with the ability to sign-in and also sync data without a password.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-success-alert-v2 = Tento prístupový kľúč umožňuje prihlásenie so synchronizáciou
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Prístupový kľúč sa nepodarilo potvrdiť
 inline-passwordless-sync-setup-error-cancelled-description = Overte sa prístupovým kľúčom, aby ste nabudúce nemuseli zadávať heslo.
+# Error shown in the Settings alert bar when storing the passkey failed for password-free sign-in for sync. The user will be able to sign-in with the passkey but still need to enter their password to sync.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-error-generic-v2 = Tento prístupový kľúč sa nepodarilo nastaviť na prihlásenie so synchronizáciou. Nabudúce budete musieť zadať heslo.
 
 ## InlineRecoveryKeySetup page component
 
@@ -1913,6 +1922,8 @@ pair2-authority-scan-qr-heading = Skenovaním pripojte svoje mobilné zariadenie
 pair2-authority-scan-qr-instruction = Naskenujte QR kód telefónom alebo tabletom a synchronizujte záložky, karty a ďalšie položky vo { -brand-firefox(case: "loc") }.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR kód na pripojenie vášho mobilného zariadenia
+# Link to a support article on connecting a mobile device without scanning the QR code
+pair2-authority-scan-qr-other-ways-link = Ďalšie možnosti prihlásenia
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Teraz preskočiť
 
@@ -2047,6 +2058,7 @@ pair2-supplicant-timeout-and-cancel-canceled-description = Ak chcete kedykoľvek
 permissions-heading = { $serviceName } požaduje prístup k:
 permissions-label-email = E‑mailová adresa
 permissions-label-display-name = Zobrazované meno
+permissions-label-avatar = Profilový obrázok
 permissions-continue-button = Pokračovať
 permissions-cancel-button = Zrušiť
 
@@ -2155,6 +2167,7 @@ confirm-totp-reset-password-use-different-account = Použiť iný účet
 ## ResetPassword start page
 
 password-reset-flow-heading = Zmena hesla
+password-reset-forgot-heading = Zabudli ste heslo?
 password-reset-email-input =
     .label = Zadajte svoju e‑mailovú adresu
 password-reset-submit-button-2 = Pokračovať

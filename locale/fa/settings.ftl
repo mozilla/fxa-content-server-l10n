@@ -2023,6 +2023,7 @@ pair2-supplicant-timeout-and-cancel-canceled-description = هر وقت خواس�
 permissions-heading = { $serviceName } می‌خواهد به این موارد دسترسی داشته باشد:
 permissions-label-email = نشانی رایانامه
 permissions-label-display-name = نام نمایشی
+permissions-label-avatar = تصویرِ حساب
 permissions-continue-button = ادامه
 permissions-cancel-button = انصراف
 
@@ -2131,6 +2132,7 @@ confirm-totp-reset-password-use-different-account = استفاده از حساب
 ## ResetPassword start page
 
 password-reset-flow-heading = بازنشانی گذرواژه
+password-reset-forgot-heading = گذرواژه را فراموش کرده‌اید؟
 password-reset-email-input =
     .label = رایانامه‌تان را وارد کنید
 password-reset-submit-button-2 = ادامه
