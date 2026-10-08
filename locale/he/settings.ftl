@@ -2082,9 +2082,13 @@ confirm-totp-reset-password-use-different-account = שימוש בחשבון אח
 
 password-reset-flow-heading = איפוס הססמה שלך
 password-reset-forgot-heading = שכחת את הססמה שלך?
+# The text inside <signInLink> links to the email-first sign-in page.
+password-reset-alternatives-body = <signInLink>ניתן לנסות להיכנס במקום זאת באמצעות { -brand-google }, ‏{ -brand-apple } או מפתח גישה.</signInLink> אפשר גם להכניס את כתובת הדוא״ל שלך ונשלח לך קוד לאיפוס הססמה שלך.
 password-reset-email-input =
     .label = נא להכניס את כתובת הדוא״ל שלך
 password-reset-submit-button-2 = המשך
+# Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
+password-reset-data-recovery-warning = איפוס הססמה שלך עשוי להשפיע על האפשרות לשחזר נתוני דפדפן מסונכרנים. <learnMoreLink>מידע נוסף</learnMoreLink>
 
 ## ResetPasswordConfirmed
 
