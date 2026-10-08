@@ -1271,7 +1271,6 @@ passkey-sub-row-created-date = Creada: { $createdDate }
 passkey-sub-row-last-used-date = Último uso: { $lastUsedDate }
 passkey-sub-row-delete-title = Borrar clave de acceso
 passkey-delete-modal-heading = ¿Borrar la clave de acceso?
-passkey-delete-modal-content-v2 = Esta clave de acceso será eliminada de tu cuenta. Tendrás que iniciar sesión con un método diferente (contraseña, otra clave de acceso o cuenta vinculada).
 passkey-delete-modal-cancel-button = Cancelar
 passkey-delete-modal-confirm-button = Borrar clave de acceso
 passkey-delete-success = Clave de acceso eliminada
@@ -1635,21 +1634,15 @@ index-email-bounced = El correo electrónico de confirmación fue devuelto. ¿Ha
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = ¿Omitir la contraseña la próxima vez?
-# Success banner after signing in.
-inline-passwordless-sync-setup-success-banner = Sesión iniciada en { -brand-firefox }
 inline-passwordless-sync-setup-heading = ¿Omitir la contraseña la próxima vez?
 inline-passwordless-sync-setup-description = Usá esta clave de acceso para iniciar sesión más rápido.
 inline-passwordless-sync-setup-enable-button = Habilitar clave de acceso
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Habilitando…
 inline-passwordless-sync-setup-not-now-button = No ahora
-# Success message shown in the Settings alert bar after the passkey was stored.
-inline-passwordless-sync-setup-success-alert = Esta clave de acceso está lista para iniciar sesión de forma sincronizada
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = La confirmación de la clave de acceso no terminó
 inline-passwordless-sync-setup-error-cancelled-description = Confirmá con tu clave de acceso para omitir la contraseña la próxima vez.
-# Error shown in the Settings alert bar when storing the passkey failed. The user is already signed in; only the password-free setup failed, so the next sign-in still asks for a password.
-inline-passwordless-sync-setup-error-generic = Algo salió mal, tendrás que ingresar tu contraseña la próxima vez
 
 ## InlineRecoveryKeySetup page component
 
@@ -1909,8 +1902,6 @@ pair2-authority-scan-qr-heading = Escanear para conectar tu dispositivo móvil
 pair2-authority-scan-qr-instruction = Escaneá el código QR con tu teléfono o tablet para sincronizar tus marcadores de{ -brand-firefox }, pestañas y más.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = Código QR para conectar tu dispositivo móvil
-# Link to a support article for users having trouble scanning the QR code
-pair2-authority-scan-qr-help-link = Ayuda para escanear
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Saltar por ahora
 
@@ -2019,8 +2010,6 @@ pair2-supplicant-ready-to-scan-learn-more-link = Conocer más
 pair2-supplicant-sync-success-heading = Tu dispositivo está conectado
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = La sincronización está en curso. Es posible que los datos sincronizados tarden un poco en aparecer. Mientras tanto, podés seguir navegando.
-# Opens the browser's sync settings, where the user chooses what to sync
-pair2-supplicant-sync-success-sync-settings-button-v2 = Administrar configuración de sincronización
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2155,7 +2144,6 @@ confirm-totp-reset-password-use-different-account = Usar una cuenta diferente
 ## ResetPassword start page
 
 password-reset-flow-heading = Restablecé tu contraseña
-password-reset-body-3 = Restablecer tu contraseña puede afectar los datos sincronizados del navegador.
 password-reset-email-input =
     .label = Ingresá tu correo electrónico
 password-reset-submit-button-2 = Continuar

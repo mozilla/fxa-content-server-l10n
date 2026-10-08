@@ -1281,7 +1281,6 @@ passkey-sub-row-created-date = Vytvořeno: { $createdDate }
 passkey-sub-row-last-used-date = Naposledy použito: { $lastUsedDate }
 passkey-sub-row-delete-title = Smazat přístupový klíč
 passkey-delete-modal-heading = Smazat přístupový klíč?
-passkey-delete-modal-content-v2 = Tento přístupový klíč bude z vašeho účtu odstraněn. Budete se muset přihlásit jiným způsobem (heslem, jiným přístupovým klíčem nebo propojeným účtem).
 passkey-delete-modal-cancel-button = Zrušit
 passkey-delete-modal-confirm-button = Smazat přístupový klíč
 passkey-delete-success = Přístupový klíč byl smazán
@@ -1640,21 +1639,15 @@ index-email-bounced = Odeslaná potvrzující e-mailová zpráva se právě vrá
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = Chcete příště přeskočit zadávání hesla?
-# Success banner after signing in.
-inline-passwordless-sync-setup-success-banner = Přihlášeno k aplikaci { -brand-firefox }
 inline-passwordless-sync-setup-heading = Chcete příště přeskočit zadávání hesla?
 inline-passwordless-sync-setup-description = Tento přístupový kód vám umožní rychlejší přihlášení.
 inline-passwordless-sync-setup-enable-button = Povolit přístupový klíč
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Zapínání…
 inline-passwordless-sync-setup-not-now-button = Teď ne
-# Success message shown in the Settings alert bar after the passkey was stored.
-inline-passwordless-sync-setup-success-alert = Tento přístupový kód je připraven pro přihlášení pomocí synchronizace
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Potvrzení přístupového klíče nebylo dokončeno
 inline-passwordless-sync-setup-error-cancelled-description = Potvrďte svou totožnost přístupovým klíčem, abyste příště nemuseli zadávat heslo.
-# Error shown in the Settings alert bar when storing the passkey failed. The user is already signed in; only the password-free setup failed, so the next sign-in still asks for a password.
-inline-passwordless-sync-setup-error-generic = Něco se pokazilo. Příště budete muset zadat heslo
 
 ## InlineRecoveryKeySetup page component
 
@@ -1914,8 +1907,6 @@ pair2-authority-scan-qr-heading = Naskenujte a připojte své mobilní zařízen
 pair2-authority-scan-qr-instruction = Naskenujte QR kód svým telefonem nebo tabletem a synchronizujte své záložky, panely a další data ve { -brand-firefox(case: "loc") }.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR kód pro připojení vašeho mobilního zařízení
-# Link to a support article for users having trouble scanning the QR code
-pair2-authority-scan-qr-help-link = Získat pomoc se skenováním
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Nyní přeskočit
 
@@ -2024,8 +2015,6 @@ pair2-supplicant-ready-to-scan-learn-more-link = Zjistit více
 pair2-supplicant-sync-success-heading = Vaše zařízení je připojeno
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = Probíhá synchronizace. Zobrazení synchronizovaných dat může chvíli trvat. Mezitím můžete klidně pokračovat v prohlížení.
-# Opens the browser's sync settings, where the user chooses what to sync
-pair2-supplicant-sync-success-sync-settings-button-v2 = Spravovat nastavení synchronizace
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2160,7 +2149,6 @@ confirm-totp-reset-password-use-different-account = Použít jiný účet
 ## ResetPassword start page
 
 password-reset-flow-heading = Obnovení hesla
-password-reset-body-3 = Obnovení hesla může ovlivnit synchronizovaná data prohlížeče.
 password-reset-email-input =
     .label = Zadejte svoji e-mailovou adresu
 password-reset-submit-button-2 = Pokračovat

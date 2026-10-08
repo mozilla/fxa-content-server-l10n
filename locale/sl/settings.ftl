@@ -1285,7 +1285,6 @@ passkey-sub-row-created-date = Ustvarjen: { $createdDate }
 passkey-sub-row-last-used-date = Nazadnje uporabljen: { $lastUsedDate }
 passkey-sub-row-delete-title = Izbriši ključ za dostop
 passkey-delete-modal-heading = Želite izbrisati svoj ključ za dostop?
-passkey-delete-modal-content-v2 = To geslo bo odstranjeno iz vašega računa. Prijaviti se boste morali na drug način (geslo, drugo geslo ali povezan račun).
 passkey-delete-modal-cancel-button = Prekliči
 passkey-delete-modal-confirm-button = Izbriši ključ za dostop
 passkey-delete-success = Ključ za dostop izbrisan
@@ -1651,21 +1650,15 @@ index-email-bounced = Vaša potrditvena e-pošta se je pravkar vrnila. Ste se za
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = Želite naslednjič preskočiti geslo?
-# Success banner after signing in.
-inline-passwordless-sync-setup-success-banner = Prijavljen v { -brand-firefox }
 inline-passwordless-sync-setup-heading = Želite naslednjič preskočiti geslo?
 inline-passwordless-sync-setup-description = Uporabite to geslo za hitrejšo prijavo.
 inline-passwordless-sync-setup-enable-button = Omogoči geslo
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Omogočanje …
 inline-passwordless-sync-setup-not-now-button = Ne zdaj
-# Success message shown in the Settings alert bar after the passkey was stored.
-inline-passwordless-sync-setup-success-alert = To geslo je pripravljeno za sinhronizacijo prijavo
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Potrjevanje gesla se ni končalo
 inline-passwordless-sync-setup-error-cancelled-description = Potrdite s svojim ključem, da naslednjič gesla izpustite.
-# Error shown in the Settings alert bar when storing the passkey failed. The user is already signed in; only the password-free setup failed, so the next sign-in still asks for a password.
-inline-passwordless-sync-setup-error-generic = Nekaj je šlo narobe. Geslo boste naslednjič vseeno morali vnesti
 
 ## InlineRecoveryKeySetup page component
 
@@ -1925,8 +1918,6 @@ pair2-authority-scan-qr-heading = Skenirajte za povezavo mobilne naprave
 pair2-authority-scan-qr-instruction = Skenirajte kodo QR s telefonom ali tablico za sinhronizacijo zaznamkov, zavihkov in drugih podatkov v storitvi { -brand-firefox }.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = Koda QR za povezavo mobilne naprave
-# Link to a support article for users having trouble scanning the QR code
-pair2-authority-scan-qr-help-link = Pridobite pomoč pri branju
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Preskoči za zdaj
 
@@ -2035,8 +2026,6 @@ pair2-supplicant-ready-to-scan-learn-more-link = Več o tem
 pair2-supplicant-sync-success-heading = Vaša naprava je povezana
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = Sinhronizacija je v teku. Lahko traja nekaj časa, preden se vaši sinhronizirani podatki pojavijo. Lahko nadaljujte z brskanjem.
-# Opens the browser's sync settings, where the user chooses what to sync
-pair2-supplicant-sync-success-sync-settings-button-v2 = Nastavitve sinhronizacije
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2171,7 +2160,6 @@ confirm-totp-reset-password-use-different-account = Uporabi drug račun
 ## ResetPassword start page
 
 password-reset-flow-heading = Ponastavite geslo
-password-reset-body-3 = Ponastavitev gesla lahko vpliva na sinhronizirane podatke brskalnika.
 password-reset-email-input =
     .label = Vnesite e-poštni naslov
 password-reset-submit-button-2 = Nadaljuj

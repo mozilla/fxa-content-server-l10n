@@ -1271,7 +1271,6 @@ passkey-sub-row-created-date = Criado: { $createdDate }
 passkey-sub-row-last-used-date = Última utilização: { $lastUsedDate }
 passkey-sub-row-delete-title = Apagar chave-passe
 passkey-delete-modal-heading = Apagar a sua chave-passe?
-passkey-delete-modal-content-v2 = Esta chave-passe será removida da sua conta. Terá de iniciar sessão usando um método diferente (palavra-passe, outra chave-passe, ou conta associada).
 passkey-delete-modal-cancel-button = Cancelar
 passkey-delete-modal-confirm-button = Apagar chave-passe
 passkey-delete-success = Chave-passe apagada
@@ -1633,21 +1632,15 @@ index-email-bounced = A sua mensagem de confirmação foi devolvida. Digitou mal
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = Saltar a palavra-passe da próxima vez?
-# Success banner after signing in.
-inline-passwordless-sync-setup-success-banner = Sessão iniciada no { -brand-firefox }
 inline-passwordless-sync-setup-heading = Saltar a palavra-passe da próxima vez?
 inline-passwordless-sync-setup-description = Use esta chave-passe para iniciar sessão mais rapidamente.
 inline-passwordless-sync-setup-enable-button = Ativar chave-passe
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = A ativar…
 inline-passwordless-sync-setup-not-now-button = Agora não
-# Success message shown in the Settings alert bar after the passkey was stored.
-inline-passwordless-sync-setup-success-alert = Esta palavra-chave está pronta para o início de sessão de sincronização
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = A confirmação da palavra-chave não foi concluída
 inline-passwordless-sync-setup-error-cancelled-description = Confirme com a sua palavra-chave para saltar a palavra-passe da próxima vez.
-# Error shown in the Settings alert bar when storing the passkey failed. The user is already signed in; only the password-free setup failed, so the next sign-in still asks for a password.
-inline-passwordless-sync-setup-error-generic = Algo correu mal, ainda precisará de introduzir a sua palavra-passe da próxima vez
 
 ## InlineRecoveryKeySetup page component
 
@@ -1909,8 +1902,6 @@ pair2-authority-scan-qr-heading = Digitalize para ligar o seu dispositivo móvel
 pair2-authority-scan-qr-instruction = Digitalize o código QR com o seu telemóvel ou tablet para sincronizar os seus { -brand-firefox } marcadores, separadores, e muito mais.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = Código QR para ligar o seu dispositivo móvel
-# Link to a support article for users having trouble scanning the QR code
-pair2-authority-scan-qr-help-link = Obter ajuda para digitalizar
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Saltar por agora
 
@@ -2019,8 +2010,6 @@ pair2-supplicant-ready-to-scan-learn-more-link = Saber mais
 pair2-supplicant-sync-success-heading = O seu dispositivo está ligado
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = A sincronização está em curso. Pode demorar algum tempo para os seus dados sincronizados aparecerem. Sinta-se à vontade para continuar a navegar.
-# Opens the browser's sync settings, where the user chooses what to sync
-pair2-supplicant-sync-success-sync-settings-button-v2 = Gerir definições de sincronização
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2155,7 +2144,6 @@ confirm-totp-reset-password-use-different-account = Utilizar uma conta diferente
 ## ResetPassword start page
 
 password-reset-flow-heading = Redefinir a sua palavra-passe
-password-reset-body-3 = A reposição da sua palavra-passe pode afetar os dados sincronizados do navegador.
 password-reset-email-input =
     .label = Inserir o seu e-mail
 password-reset-submit-button-2 = Continuar

@@ -1273,7 +1273,6 @@ passkey-sub-row-created-date = Skapad: { $createdDate }
 passkey-sub-row-last-used-date = Senast använd: { $lastUsedDate }
 passkey-sub-row-delete-title = Ta bort lösenordsnyckel
 passkey-delete-modal-heading = Ta bort din lösenordsnyckel?
-passkey-delete-modal-content-v2 = Denna lösenordsnyckel tas bort från ditt konto. Du måste logga in med en annan metod (lösenord, en annan lösenordsnyckel eller länkat konto).
 passkey-delete-modal-cancel-button = Avbryt
 passkey-delete-modal-confirm-button = Ta bort lösenordsnyckel
 passkey-delete-success = Lösenordsnyckel borttagen
@@ -1636,21 +1635,15 @@ index-email-bounced = Ditt bekräftelsemejl har just returnerats. Har du skrivit
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = Slipp lösenordet nästa gång?
-# Success banner after signing in.
-inline-passwordless-sync-setup-success-banner = Inloggad på { -brand-firefox }
 inline-passwordless-sync-setup-heading = Slippa lösenordet nästa gång?
 inline-passwordless-sync-setup-description = Använd denna nyckel för att logga in snabbare.
 inline-passwordless-sync-setup-enable-button = Aktivera lösenordsnyckel
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Aktiverar…
 inline-passwordless-sync-setup-not-now-button = Inte nu
-# Success message shown in the Settings alert bar after the passkey was stored.
-inline-passwordless-sync-setup-success-alert = Denna lösenordsnyckel är redo för synkroniserad inloggning
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Bekräftelse av lösenordsnyckel slutfördes inte
 inline-passwordless-sync-setup-error-cancelled-description = Bekräfta med din lösenordsnyckel för att hoppa över lösenordet nästa gång.
-# Error shown in the Settings alert bar when storing the passkey failed. The user is already signed in; only the password-free setup failed, so the next sign-in still asks for a password.
-inline-passwordless-sync-setup-error-generic = Något gick fel, du behöver fortfarande ange ditt lösenord nästa gång
 
 ## InlineRecoveryKeySetup page component
 
@@ -1910,8 +1903,6 @@ pair2-authority-scan-qr-heading = Skanna för att ansluta din mobila enhet
 pair2-authority-scan-qr-instruction = Skanna QR-koden med din telefon eller surfplatta för att synkronisera dina { -brand-firefox }-bokmärken, flikar och mer.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR-kod för att ansluta din mobila enhet
-# Link to a support article for users having trouble scanning the QR code
-pair2-authority-scan-qr-help-link = Få hjälp med att skanna
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Hoppa över nu
 
@@ -2020,8 +2011,6 @@ pair2-supplicant-ready-to-scan-learn-more-link = Läs mer
 pair2-supplicant-sync-success-heading = Din enhet är ansluten
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = Synkronisering pågår. Det kan ta en stund innan din synkroniserade data visas. Fortsätt gärna surfa.
-# Opens the browser's sync settings, where the user chooses what to sync
-pair2-supplicant-sync-success-sync-settings-button-v2 = Hantera synkroniseringsinställningar
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2156,7 +2145,6 @@ confirm-totp-reset-password-use-different-account = Använd ett annat konto
 ## ResetPassword start page
 
 password-reset-flow-heading = Återställ ditt lösenord
-password-reset-body-3 = Återställning av lösenordet kan påverka synkroniserad webbläsardata.
 password-reset-email-input =
     .label = Ange din e-postadress
 password-reset-submit-button-2 = Fortsätt
