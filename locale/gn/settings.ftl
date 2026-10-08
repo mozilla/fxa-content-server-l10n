@@ -167,6 +167,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Emoneĩ ñe'ẽñemi
 form-password-with-inline-criteria-reset-submit-button = Emoheñói ñe’ẽñemi pyahu
+form-password-with-inline-criteria-old-password-label =
+    .label = Ñe’ẽñemi itujáva
+form-password-with-inline-criteria-change-password-submit-button = Emoambue ñe’ẽñemi
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = Ñe’ẽñemi
 form-password-with-inline-criteria-set-password-confirm-password-label =
@@ -1087,6 +1090,10 @@ recent-activity-account-recovery-codes-set = Ayvu guerujeyrãva mboajepyre
 recent-activity-account-passkey-wrap-created = Ñe’ẽ ñemi oikóva embojuehe hag̃ua
 # A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
 recent-activity-account-passkey-wrap-creation-failure = Ndoikói Sync ñemboheko ñe’ẽ ñemi ndive
+# A passkey is a sign-in method that replaces a password. This string is shown when a passkey that could unlock the user's synced browser data had that access turned off, leaving the passkey itself usable for signing in.
+recent-activity-account-passkey-wrap-deleted = Oñembogue Sync-pe jeike ñe’ẽ ñemi ndive
+# A passkey is a sign-in method that replaces a password. This string is shown when an attempt to turn off a passkey's access to the user's synced browser data did not complete.
+recent-activity-account-passkey-wrap-deletion-failure = Ojavy emboguévo ñembojuehépe jeike ñe’ẽ ñemi ndive
 # A passkey is a sign-in method that replaces a password. Resetting a forgotten password re-encrypts the user's synced browser data, which their passkeys can no longer unlock. This string is shown when that happened and the passkeys need to be set up for syncing again.
 recent-activity-account-passkey-wrap-invalidated = Ojepe’a ñembojuehe ñe’ẽ ñemi ndive ñe’ẽñemi oikojey rire
 # Security event was recorded, but the activity details are unknown or not shown to user
@@ -1471,6 +1478,7 @@ auth-error-228 = Ndoikói pe ñe’ẽ ñemi ñembokuatia
 auth-error-233 = Ejapo hag̃ua ñe’ẽ ñemi jeikaha, emboheko mba’erechaha jokoha, PIN, kuãhũ térã tova jeikuaaha ne mba’e’okápe térã ñe’ẽ ñemi rekorosãrã. Ejapo rire, ehaʼã jey.
 auth-error-238 = Ndoikói ñe’ẽ ñemi raperã
 auth-error-239 = Rombyasy, ndaikatúikuri rombogue ne mba’ete. Eha’ã jey térã eñe’ẽ pytyvõhára ndive ndopáirõ apañuái.
+auth-error-240 = Ko mba’ete oñemboguéma
 auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1001 = Ojejokóma tembiapo ñepyrũ
 auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
