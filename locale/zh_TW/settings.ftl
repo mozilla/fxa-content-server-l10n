@@ -2117,9 +2117,13 @@ confirm-totp-reset-password-use-different-account = 使用另一個帳號
 
 password-reset-flow-heading = 重設您的密碼
 password-reset-forgot-heading = 忘記密碼了嗎？
+# The text inside <signInLink> links to the email-first sign-in page.
+password-reset-alternatives-body = <signInLink>可試著改用 { -brand-google }、{ -brand-apple } 帳號或 Passkey 登入。</signInLink>或輸入您的電子郵件地址，我們會傳送重設密碼用的驗證碼。
 password-reset-email-input =
     .label = 請輸入您的電子郵件地址
 password-reset-submit-button-2 = 繼續
+# Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
+password-reset-data-recovery-warning = 重設密碼可能會影響您能否復原已同步的瀏覽器資料。<learnMoreLink>更多資訊</learnMoreLink>
 
 ## ResetPasswordConfirmed
 
