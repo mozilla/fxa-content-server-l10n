@@ -1954,6 +1954,25 @@ pair2-supplicant-download-firefox-continue-button = { -brand-firefox }에서 계
 pair2-supplicant-download-firefox-opening-button = { -brand-firefox } 실행 중…
 # Primary action shown in Safari on iOS. Opens the App Store page for Firefox.
 pair2-supplicant-download-firefox-download-button = { -brand-firefox } 다운로드
+# Secondary action shown in Safari on iOS, below the download button. Opens the
+# Firefox app when it is already installed.
+pair2-supplicant-download-firefox-have-firefox-button = 이미 { -brand-firefox }가 있습니다
+# Opens a page explaining what sync does
+pair2-supplicant-download-firefox-learn-more-link = 더 알아보기
+
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## with the phone's camera app instead of with Firefox. They already have
+## Firefox installed, so it tells them how to scan the code again from inside
+## Firefox.
+
+pair2-supplicant-connect-hint-heading-v2 = 앱에서 페어링 완료하기
+# <b> emphasises the name of the button the user taps in Firefox
+pair2-supplicant-connect-hint-step-app-menu = 툴바에서 <b>앱 메뉴</b>를 누르세요
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair2-supplicant-connect-hint-step-sign-in = <b>로그인</b>을 누른 다음 코드를 스캔하세요
+# Opens a Mozilla support article about connecting a device without a QR code
+pair2-supplicant-connect-hint-learn-more-link = 더 알아보기
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2000,8 +2019,16 @@ pair2-supplicant-timeout-and-cancel-canceled-description = 언제든 기기에 �
 permissions-heading = { $serviceName } 접근 요청:
 permissions-label-email = 이메일 주소
 permissions-label-display-name = 표시 이름
+permissions-label-avatar = 계정 사진
 permissions-continue-button = 계속
 permissions-cancel-button = 취소
+
+## ForcePasswordChange page
+## Users are sent here when suspicious activity on the account requires a new password before they can continue.
+
+force-password-change-heading = 비밀번호를 변경하세요
+force-password-change-info = { -product-mozilla-account } 계정에서 의심스러운 행동이 감지되었습니다. 계정을 보호하려면 비밀번호를 변경하세요. 이 비밀번호를 사용하여 모든 { -product-mozilla-account } 계정에 다시 로그인 하세요.
+force-password-change-data-info = 동기화 된 방문 기록, 북마크, 로그인 및 기타 개인 데이터는 손실되지 않습니다.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2101,9 +2128,14 @@ confirm-totp-reset-password-use-different-account = 다른 계정 사용
 ## ResetPassword start page
 
 password-reset-flow-heading = 비밀번호 재설정
+password-reset-forgot-heading = 비밀번호를 잊으셨나요?
+# The text inside <signInLink> links to the email-first sign-in page.
+password-reset-alternatives-body = <signInLink>{ -brand-google }, { -brand-apple } 또는 대신 암호 키로 로그인해 보세요.</signInLink> 또는 이메일을 입력하면 비밀번호를 재설정할 수 있는 코드를 보내드립니다.
 password-reset-email-input =
     .label = 이메일 입력
 password-reset-submit-button-2 = 계속
+# Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
+password-reset-data-recovery-warning = 비밀번호를 재설정하면 동기화된 브라우저 데이터를 복구할 수 있는지 여부에 영향을 미칠 수 있습니다. <learnMoreLink>자세히 알아보기</learnMoreLink>
 
 ## ResetPasswordConfirmed
 
@@ -2448,3 +2480,10 @@ signup-confirmed-sync-description-v2 = 비밀번호, 주소, 북마크, 기록 �
 signup-confirmed-sync-add-device-link = 다른 기기 추가
 signup-confirmed-sync-manage-sync-button = 동기화 관리
 signup-confirmed-sync-set-password-success-banner = 동기화 비밀번호 생성됨
+
+## UpdateFirefox page
+## Shown when the browser is too old to use a Mozilla account
+
+update-firefox-heading = { -brand-firefox } 업데이트 필요
+update-firefox-description = { -product-mozilla-account }가 현재 { -brand-firefox } 버전에서 지원하지 않는 기능을 사용하고 있습니다. 계속하려면 최신 버전의 { -brand-firefox }를 다운로드하여 설치하세요.
+update-firefox-download-button = 최신 다운로드
