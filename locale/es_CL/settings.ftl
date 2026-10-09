@@ -2531,3 +2531,5 @@ signup-confirmed-sync-set-password-success-banner = Contraseña de sincronizaci�
 ## Shown when the browser is too old to use a Mozilla account
 
 update-firefox-heading = Actualización requerida de { -brand-firefox }
+update-firefox-description = Tu { -product-mozilla-account } usa funcionalidades que no están disponibles en tu versión de { -brand-firefox }. Por favor, descarga e instala la última versión de { -brand-firefox } para continuar.
+update-firefox-download-button = Bajar la última versión
