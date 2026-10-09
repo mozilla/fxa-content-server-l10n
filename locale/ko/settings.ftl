@@ -155,6 +155,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = 비밀번호 확인
 form-password-with-inline-criteria-reset-submit-button = 새로운 비밀번호 생성
+form-password-with-inline-criteria-old-password-label =
+    .label = 이전 비밀번호
+form-password-with-inline-criteria-change-password-submit-button = 비밀번호 변경
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = 비밀번호
 form-password-with-inline-criteria-set-password-confirm-password-label =
@@ -1244,6 +1247,7 @@ passkey-sub-row-created-date = 생성: { $createdDate }
 passkey-sub-row-last-used-date = 최근 사용: { $lastUsedDate }
 passkey-sub-row-delete-title = 패스키 삭제
 passkey-delete-modal-heading = 패스키를 삭제 하시겠습니까?
+passkey-delete-modal-content-v3 = 이 패스키는 계정에서 삭제됩니다. 비밀번호나 다른 패스키 또는 연결된 계정을 사용하여 로그인해야 합니다.
 passkey-delete-modal-cancel-button = 취소
 passkey-delete-modal-confirm-button = 패스키 삭제
 passkey-delete-success = 패스키 삭제됨
@@ -1603,15 +1607,23 @@ index-email-bounced = 확인 이메일이 반송되었습니다. 이메일을 �
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = 다음에 비밀번호를 건너뛰시겠습니까?
+# Success banner after signing in.
+inline-passwordless-sync-setup-success-banner-v2 = 로그인되어 있으며 동기화가 켜져 있습니다
 inline-passwordless-sync-setup-heading = 다음에 비밀번호를 건너뛰시겠습니까?
 inline-passwordless-sync-setup-description = 이 패스키를 사용하여 더 빠르게 로그인하십시오.
 inline-passwordless-sync-setup-enable-button = 패스키 활성화
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = 활성화 중…
 inline-passwordless-sync-setup-not-now-button = 지금 안 함
+# Success message shown in the Settings alert bar after the passkey was stored with the ability to sign-in and also sync data without a password.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-success-alert-v2 = 이 패스키는 동기화 로그인에 사용됩니다
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = 패스키 확인이 완료되지 않음
 inline-passwordless-sync-setup-error-cancelled-description = 다음에 비밀번호를 건너 뛰려면 패스키로 확인하세요.
+# Error shown in the Settings alert bar when storing the passkey failed for password-free sign-in for sync. The user will be able to sign-in with the passkey but still need to enter their password to sync.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-error-generic-v2 = 동기화 로그인에 이 패스키를 활성화할 수 없습니다. 다음 번에 비밀번호가 필요합니다.
 
 ## InlineRecoveryKeySetup page component
 
@@ -1871,6 +1883,8 @@ pair2-authority-scan-qr-heading = 스캔하여 모바일 기기 연결
 pair2-authority-scan-qr-instruction = 폰이나 태블릿으로 QR 코드를 스캔하여 { -brand-firefox } 북마크, 탭 등을 동기화하세요.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = 모바일 기기와 연결하기 위한 QR 코드
+# Link to a support article on connecting a mobile device without scanning the QR code
+pair2-authority-scan-qr-other-ways-link = 다른 로그인 방법
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = 지금은 건너뛰기
 
@@ -1930,11 +1944,16 @@ pair2-supplicant-connect-this-device-cancel-button = 취소
 ## not Firefox. It offers to open the Firefox app to finish pairing, and to
 ## install it first when the user does not have it yet.
 
+pair2-supplicant-download-firefox-heading-v2 = 이 기기에서 { -brand-firefox } 열기
+# "sync" is a verb here, referring to syncing data between the user's devices.
+pair2-supplicant-download-firefox-description-v2 = { -brand-firefox }를 다운로드하여 기기 간에 북마크, 방문 기록 등을 동기화합니다.
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = { -brand-firefox }에서 계속
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = { -brand-firefox } 실행 중…
+# Primary action shown in Safari on iOS. Opens the App Store page for Firefox.
+pair2-supplicant-download-firefox-download-button = { -brand-firefox } 다운로드
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
