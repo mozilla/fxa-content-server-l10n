@@ -1272,6 +1272,7 @@ passkey-sub-row-created-date = შექმნილი: { $createdDate }
 passkey-sub-row-last-used-date = ბოლო გამოყენება: { $lastUsedDate }
 passkey-sub-row-delete-title = საშვის წაშლა
 passkey-delete-modal-heading = წაიშალოს საშვი?
+passkey-delete-modal-content-v3 = ეს საშვი ამოიშლება თქვენი ანგარიშიდან. დაგჭირდებათ ანგარიშზე შესვლა სხვა პაროლით, სხვა საშვით ან მიბმული ანგარიშით.
 passkey-delete-modal-cancel-button = გაუქმება
 passkey-delete-modal-confirm-button = საშვის წაშლა
 passkey-delete-success = საშვი წაიშალა
@@ -1633,15 +1634,23 @@ index-email-bounced = დადასტურების გამოგზა
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = გსურთ პაროლის არიდება შემდეგ ჯერზე?
+# Success banner after signing in.
+inline-passwordless-sync-setup-success-banner-v2 = შესული ხართ და დასინქრონება ჩართულია
 inline-passwordless-sync-setup-heading = გსურთ პაროლის არიდება შემდეგ ჯერზე?
 inline-passwordless-sync-setup-description = გამოიყენეთ ეს საშვი ანგარიშზე უფრო სწრაფი შესვლისთვის.
 inline-passwordless-sync-setup-enable-button = საშვის ჩართვა
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = ირთვება…
 inline-passwordless-sync-setup-not-now-button = ახლა არა
+# Success message shown in the Settings alert bar after the passkey was stored with the ability to sign-in and also sync data without a password.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-success-alert-v2 = ეს საშვი ამოქმედებულია სინქრონიზაციაში შესვლისთვის
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = საშვის დადასტურება არ დასრულებულა
 inline-passwordless-sync-setup-error-cancelled-description = დაამოწმეთ თქვენი საშვი შემდეგი შესვლისას პაროლის ასარიდებლად
+# Error shown in the Settings alert bar when storing the passkey failed for password-free sign-in for sync. The user will be able to sign-in with the passkey but still need to enter their password to sync.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-error-generic-v2 = ამ საშვის ამოქმედება სინქრონიზაციისთვის ვერ ხერხდება. შემდეგ ჯერზე პაროლით მოგიწევთ შესვლა.
 
 ## InlineRecoveryKeySetup page component
 
@@ -1901,6 +1910,8 @@ pair2-authority-scan-qr-heading = წააკითხეთ მობილუ
 pair2-authority-scan-qr-instruction = წააკითხეთ QR-კოდი ტელეფონით ან პლანშეტით, რომ დაასინქრონოთ { -brand-firefox } არსებული სანიშნებით, ჩანართებითა თუ სხვ.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR-კოდი მობილურ მოწყობილობასთან დასაკავშირებლად
+# Link to a support article on connecting a mobile device without scanning the QR code
+pair2-authority-scan-qr-other-ways-link = სხვა გზები შესვლისთვის
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = ამჟამად გამოტოვება
 
@@ -2011,6 +2022,7 @@ pair2-supplicant-timeout-and-cancel-canceled-description = მოწყობი
 permissions-heading = { $serviceName } ითხოვს წვდომას:
 permissions-label-email = ელფოსტის მისამართი
 permissions-label-display-name = გამოსაჩენი სახელი
+permissions-label-avatar = ანგარიშის სურათი
 permissions-continue-button = განაგრძეთ
 permissions-cancel-button = გაუქმება
 
@@ -2112,9 +2124,14 @@ confirm-totp-reset-password-use-different-account = სხვა ანგარ
 ## ResetPassword start page
 
 password-reset-flow-heading = პაროლის განულება
+password-reset-forgot-heading = დაგავიწყდათ პაროლი?
+# The text inside <signInLink> links to the email-first sign-in page.
+password-reset-alternatives-body = <signInLink>ანგარიშზე სხვა გზით შესასვლელად მოსინჯეთ { -brand-google }, { -brand-apple } ან საშვი.</signInLink> ანდაც შეიყვანეთ თქვენი ელფოსტა და გამოგიგზავნით კოდს პაროლის აღსადგენად.
 password-reset-email-input =
     .label = შეიყვანეთ თქვენი ელფოსტა
 password-reset-submit-button-2 = განაგრძეთ
+# Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
+password-reset-data-recovery-warning = პაროლის განულებამ შესაძლოა იმოქმედოს დასინქრონებული მონაცემების აღდგენის შესაძლებლობაზე. <learnMoreLink>ვრცლად</learnMoreLink>
 
 ## ResetPasswordConfirmed
 
