@@ -2174,7 +2174,7 @@ confirm-totp-reset-password-use-different-account = Druhe konto wužiwać
 password-reset-flow-heading = Stajće swoje hesło wróćo
 password-reset-forgot-heading = Sće swoje hesło zabył?
 # The text inside <signInLink> links to the email-first sign-in page.
-password-reset-alternatives-body = <signInLink>Spytajće sej z { -brand-google }, { -brand-apple } abo hesłowym klučom město toho přizjewić.</signInLink> Abo zapodajće swoju e-mejlowu adresu a budźemy was kode słać, zo byšće swoje hesło wróćo stajił.
+password-reset-alternatives-body = <signInLink>Spytajće sej z { -brand-google }, { -brand-apple } abo hesłowym klučom město toho přizjewić.</signInLink> Abo zapodajće swoju e-mejlowu adresu a budźemy wam kode słać, zo byšće swoje hesło wróćo stajił.
 password-reset-email-input =
     .label = Zapodajće swoju e-mejlowu adresu
 password-reset-submit-button-2 = Dale
