@@ -2157,7 +2157,7 @@ password-reset-email-input =
     .label = Saisissez votre adresse e-mail
 password-reset-submit-button-2 = Continuer
 # Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
-password-reset-data-recovery-warning = La réinitialisation de votre mot de passe peut empêcher la récupération des données synchronisées du navigateur. <learnMoreLink>En savoir plus</learnMoreLink>
+password-reset-data-recovery-warning = La réinitialisation de votre mot de passe peut empêcher la récupération des données synchronisées de votre navigateur. <learnMoreLink>En savoir plus</learnMoreLink>
 
 ## ResetPasswordConfirmed
 
