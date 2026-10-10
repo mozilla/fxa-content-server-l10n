@@ -877,7 +877,7 @@ msv-submit-button-2 = Potvrdiť
 
 nav-settings = Nastavenia
 nav-profile = Profil
-nav-security = Bezpečnosť
+nav-security = Zabezpečenie
 nav-connected-services = Pripojené služby
 nav-data-collection = Zhromažďovanie a používanie údajov
 nav-paid-subs = Predplatné
@@ -1216,7 +1216,7 @@ progress-bar-aria-label-v2 = Krok { $currentStep } z { $numberOfSteps }.
 
 ## Security section of Setting
 
-security-heading = Bezpečnosť
+security-heading = Zabezpečenie
 security-password =
     .header = Heslo
 # This is a string that shows when the user's password was created.
