@@ -1285,6 +1285,7 @@ passkey-sub-row-created-date = Napórany: { $createdDate }
 passkey-sub-row-last-used-date = Slědny raz wužyty: { $lastUsedDate }
 passkey-sub-row-delete-title = Gronidłowy kluc lašowaś
 passkey-delete-modal-heading = Gronidłowy kluc lašowaś?
+passkey-delete-modal-content-v3 = Toś ten gronidłowy kluc se z wašogo konta wótwónoźijo. Musyśo se z pomocu gronidła, drugego gronidłowego kluca abo zwězanego konta pśizjawiś.
 passkey-delete-modal-cancel-button = Pśetergnuś
 passkey-delete-modal-confirm-button = Gronidłowy kluc lašowaś
 passkey-delete-success = Gronidłowy kluc jo se wulašował
@@ -1650,12 +1651,17 @@ index-email-bounced = Waša wobkšuśeńska mejlka jo se rowno wrośiła. Jo e-m
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = Gronidło pśiducy raz pśeskócyś?
+# Success banner after signing in.
+inline-passwordless-sync-setup-success-banner-v2 = Sćo pśizjawjony a synchronizacija jo zmóžnjona
 inline-passwordless-sync-setup-heading = Gronidło pśiducy raz pśeskócyś?
 inline-passwordless-sync-setup-description = Wužywajśo toś ten gronidłowy kluc, aby se malsnjej pśizjawił.
 inline-passwordless-sync-setup-enable-button = Gronidłowy kluc zmóžniś
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Zmóžnja se…
 inline-passwordless-sync-setup-not-now-button = Nic něnto
+# Success message shown in the Settings alert bar after the passkey was stored with the ability to sign-in and also sync data without a password.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-success-alert-v2 = Toś ten gronidłowy kluc jo za pśizjawjenje synchronizacije zmóžnjony
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Wobkšuśenje gronidłowego kluca se njekóńcy
 inline-passwordless-sync-setup-error-cancelled-description = Wobkšuśćo ze swójim gronidłowym klucom, aby gronidło pśiducy raz pśeskócył.
