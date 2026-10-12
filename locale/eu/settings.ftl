@@ -1050,6 +1050,7 @@ passkey-sub-row-created-date = Sortuta: { $createdDate }
 passkey-sub-row-last-used-date = Azkenekoz erabilia: { $lastUsedDate }
 passkey-sub-row-delete-title = Ezabatu sarbide-gakoa
 passkey-delete-modal-heading = Ezabatu zure sarbide-gakoa?
+passkey-delete-modal-content-v3 = Sarbide-gako hau zure kontutik kendu egingo da. Pasahitza, beste sarbide-gako bat edo lotutako kontu bat erabiliz hasi beharko duzu saioa.
 passkey-delete-modal-cancel-button = Utzi
 passkey-delete-modal-confirm-button = Ezabatu sarbide-gakoa
 passkey-delete-success = Sarbide-gakoa ezabatuta
@@ -1327,6 +1328,8 @@ index-email-bounced = Zure berrespen-mezu elektronikoa itzuli berri da. Helbide 
 
 ## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
 
+# Success banner after signing in.
+inline-passwordless-sync-setup-success-banner-v2 = Saioa hasita duzu eta sinkronizazioa aktibo dago
 inline-passwordless-sync-setup-enable-button = Gaitu sarbide-gakoa
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Gaitzen…
