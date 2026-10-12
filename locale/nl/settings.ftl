@@ -1651,6 +1651,9 @@ inline-passwordless-sync-setup-success-alert-v2 = Deze wachtwoordsleutel is inge
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Bevestiging van wachtwoordsleutel niet voltooid
 inline-passwordless-sync-setup-error-cancelled-description = Bevestig met uw wachtwoordsleutel om het wachtwoord de volgende keer over te slaan.
+# Error shown in the Settings alert bar when storing the passkey failed for password-free sign-in for sync. The user will be able to sign-in with the passkey but still need to enter their password to sync.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-error-generic-v2 = We konden deze wachtwoordsleutel niet inschakelen voor aanmelden met synchronisatie. De volgende keer hebt u uw wachtwoord nodig.
 
 ## InlineRecoveryKeySetup page component
 
@@ -2161,6 +2164,8 @@ password-reset-alternatives-body = <signInLink>Probeer u aan te melden met { -br
 password-reset-email-input =
     .label = Voer uw e-mailadres in
 password-reset-submit-button-2 = Doorgaan
+# Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
+password-reset-data-recovery-warning = Het opnieuw instellen van uw wachtwoord kan invloed hebben op of u gesynchroniseerde browsergegevens kunt herstellen. <learnMoreLink>Meer info</learnMoreLink>
 
 ## ResetPasswordConfirmed
 
