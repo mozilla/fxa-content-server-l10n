@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "Kontot har tagits bort"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (krävs)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "E-postadress"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "Visningsnamn"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "Kontobild"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "Välkommen tillbaka"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync återupptas om ett ögonblick"
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "Ditt lösenord har återställts"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Slutför konfigurationen genom att ange det nya lösenordet på dina andra Firefox-enheter."
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr "Du är nu redo att göra ändringar i ditt Mozilla-konto."
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr "Primär e-postadress bekräftad"
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Kontoaviseringar skickas nu också till %(secondaryEmailVerified)s."
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr "Sekundär e-postadress bekräftad"
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "Inloggning bekräftad"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "Du kan nu använda %(serviceName)s"
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr "Kontot bekräftat"
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "Ansluten"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Du kan nu göra ändringar i ditt Firefox-konto."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "Stäng"
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Kontoaviseringar kommer nu också att skickas till %(secondaryEmail)s."
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "Fortsätt till %(serviceName)s"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "Dölj lösenord"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Visa lösenord"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Mejl skickat igen. Lägg till accounts@firefox.com till dina kontakter för att säkerställa en smidig leverans."
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr "Betalningsmetoder"
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "Primär e-post verifierades framgångsrikt"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "Sekundär e-post bekräftades framgångsrikt"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "Ogiltigt dataattribut: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Saknat dataattribut: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Den bekräftelselänken har redan använts och kan bara användas en gång."
 
@@ -590,10 +500,6 @@ msgstr "Saknar konfiguration"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "Ogiltig konfiguration"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "Skrev du fel e-postadress?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,8 +618,12 @@ msgid "Invalid Token"
 msgstr "Ogiltig token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Genom att fortsätta godkänner du <a id=\"service-tos\" href=\"%(termsUri)s\">användarvillkoren</a> och <a id=\"service-pp\" href=\"%(privacyUri)s\">sekretesspolicy</a> för %(serviceName)s "
+"(%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -755,110 +665,6 @@ msgstr "500 Fel"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "Oj, något gick snett. Vi har blivit underrättade och försöker lösa problemet."
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "Primär e-post redan bekräftad"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "Inloggning redan bekräftad"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr "Bekräftelselänken har löpt ut"
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr "Länken du klickade på för att bekräfta din e-postadress har upphört att gälla."
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr "Klicka här för att få en ny bekräftelselänk"
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr "Bekräftelselänken är trasig"
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Länken du klickade på saknade vissa tecken och kan ha förvrängts av ditt e-postprogram. Kopiera adressen noggrant och försök igen."
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr "Bekräftelsefel"
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr "Fortsätt till ditt Mozilla-konto"
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Synkronisera dina lösenord, flikar och bokmärken överallt där du använder Firefox."
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "Ange din e-postadress"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Fortsätt till <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Fortsätt till %(serviceName)s"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr "Skapa ett e-postalias"
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "Vänligen ange e-postadressen dit du vill vidarebefordra e-postmeddelanden från din maskerade e-post."
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr "Registrera dig eller logga in"
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Ett Mozilla-konto låser också upp åtkomst till mer integritetsskyddande produkter från Mozilla."
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-"\n"
-"          Genom att fortsätta godkänner du:<br />\n"
-"          Pockets <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">användarvillkor</a> och <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">sekretessmeddelande</a><br />\n"
-"          Mozilla-kontons <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">användarvillkor</a> och <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">sekretessmeddelande</a>\n"
-"        "
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"\n"
-"            Genom att fortsätta godkänner du:<br />\n"
-"            Mozilla prenumerationstjänsters <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">användarvillkor</a> och <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">sekretessmeddelande</a><br />\n"
-"            Mozilla-kontons <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">användarvillkor</a> och <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">sekretessmeddelande</a>\n"
-"          "
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-"Genom att fortsätta godkänner du <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">användarvillkoren</a> och <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">sekretessmeddelandet</a>."
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Få den fulla Sync upplevelsen."
@@ -876,90 +682,6 @@ msgstr "Ladda ner Firefox för Android."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Ladda ner Firefox för mobila enheter."
-
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "Begäran om behörighet"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s vill ha följande information från ditt konto:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "Godkänn"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "Klart"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "Hantera ditt konto"
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Du är nu redo att använda <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "Fortsätt"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "Fortsätt till mitt konto"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "Ditt konto är klart!"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr "Skapa en ny kontoåterställningsnyckel"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr "Lägg till en sekundär e-postadress"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Genom att lägga till ett sekundär e-post hjälper det dig att få åtkomst till ditt konto om du är utelåst och inte kan komma åt %(escapedEmail)s."
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Sekundär e-post"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "Kanske senare"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "Ange bekräftelsekod"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Ange bekräftelsekoden som skickades till %(escapedEmail)s inom 5 minuter."
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "Ange 6-siffrig kod"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "Bekräfta"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "Behöver du en annan kod? Skicka igen"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr "Använd en annan e-postadress"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -996,62 +718,6 @@ msgstr "Ange nytt lösenord igen"
 msgid "Change password"
 msgstr "Byt lösenord"
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "Firefox är ansluten"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr "Registrera dig för mer"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr "Praktisk kunskap kommer till din inkorg."
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr "Få praktisk kunskap i din inkorg om:"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr "Prenumerera %(email)s"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Mozilla m logotyp"
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr "Firefox-konton kommer att döpas om till Mozilla-konton den 1 november"
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Du kommer fortfarande att logga in med samma användarnamn och lösenord, och det finns inga andra ändringar av de produkter du använder."
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr "Läs mer"
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Vi har bytt namn på Firefox-konton till Mozilla-konton. Du kommer fortfarande att logga in med samma användarnamn och lösenord, och det finns inga andra ändringar av de produkter du använder."
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr "Stäng banner"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "Hur gammal är du? För att lära dig varför vi frågar efter din ålder, följ länken \"varför frågar vi\" nedan."
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "Hur gammal är du?"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr "Varför frågar vi?"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr "Lösenordskrav"
@@ -1071,15 +737,3 @@ msgstr "Inte ett vanligt använt lösenord"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Håll dig säker &mdash; återanvänd inte lösenord. Se fler tips för att <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">skapa starka lösenord</a>."
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr "eller"
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr "Fortsätt med Google"
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
-msgstr "Fortsätt med Apple"

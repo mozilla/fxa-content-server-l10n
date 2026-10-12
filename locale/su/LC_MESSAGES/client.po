@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: su\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "Mupus akun ngahasil"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (diperlukeun)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "Alamat surélék"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "Ngaran pidangan"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "Gambar akun"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "Wangsul wilujeng sumping"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync rék dihanca deui"
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "Sandi anjeun geus disetél ulang"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Lengekepan panataharan kalawan ngasupkeun sandi anyar di parangkat Firefox anjeun lianna."
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr "Anjeun ayeuna siap nyieun parobahan kana akun Firefox anjeun."
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr "Surélék utama geus divérifikasi"
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Iber akun bakal dikirim ogé ka %(secondaryEmailVerified)s."
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr "Surélék sékunder geus divérifikasi"
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "Peta asup dikonfirmasi"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "Ayeuna anjeun geus siap ngagunakeun %(serviceName)s"
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr "Akun geus dikonfirmasi"
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "Nyambung"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Anjeun ayeuna siap nyieun parobahan kana Firefox Account anjeun."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "Tutup"
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Iber akun ogé ayeuna bakal dikirim ka %(secondaryEmail)s."
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "Laju ka %(serviceName)s"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "Sumputkeun sandi"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Témbongkeun sandi"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Surélék dikirim deui. Tambahkeun accounts@firefox.com kana kontak anjeun pikeun muguhkeun pangirimanna lancar."
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr "Cara Mayar"
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "Surélék utama ngahasil divérifikasi"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "Surélék sékundér ngahasil divérifikasi"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "Atribut data teu sah: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Leungiteun atribut data: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Tutumbu konfirmasi éta geus dipaké, kur bisa dipaké sakali."
 
@@ -590,10 +500,6 @@ msgstr "Leungiteun konfigurasi"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "Konfigurasi teu sah"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "Salah ngetik surélék?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,7 +618,9 @@ msgid "Invalid Token"
 msgstr "Token teu sah"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Lamun neruskeun, hartina anjeun sapuk kana <a id=\"service-tos\" href=\"%(termsUri)s\">Katangtuan Layanan</a> jeung<a id=\"service-pp\" href=\"%(privacyUri)s\">Wawar Privasi</a> %(serviceName)s "
 "(%(serviceUri)s)."
@@ -757,98 +665,6 @@ msgstr "Éror 500"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "Duh lur, aya nu salah ieu téh. Kami geus diwawaran sarta bakal digawé pikeun menerkeunana."
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "Surélék utama geus dikonfirmasi"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "Peta asup geus dikonfirmasi"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr "Tutumbu vérifikasi kadaluwarsa"
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr "Tutumbu nu diklik ku anjeun pikeun mérivikasi surélék anjeun geus kadaluwarsa."
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr "Klik didieu pikeun narima tutumbu konfirmasi anyar"
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr "Tutumbu konfirmasi ruksak"
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Tutumbu nu diklik ku anjeun teu mibanda karakter, jeung deuih meureun geus dipiceun ku klien surélék anjeun. Tiron alamat kalawan ati-ati, sarta pecakan deui."
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr "Galat konfirmasi"
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr "Tuluykeun kana akun Mozilla anjeun"
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Singkronkeun sandi anjeun, tab, jeung tetengger di mana waé anjeun ngagunakeun Firefox."
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "Asupkeun surélék anjeun"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Tuluykeun kana <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Laju ka %(serviceName)s"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr ""
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr "Daptar anyar atawa asup"
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Akun Mozilla ogé muka konci aksés kana leuwih réa produk anu ngajaga privasi tina Mozilla."
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Meunangkeun pangalaman Sync sagemblengna"
@@ -867,90 +683,6 @@ msgstr "Undeur Firefox jang Android."
 msgid "Download Firefox for mobile devices."
 msgstr "Undeur Firefox jang paranti ider."
 
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "Pundut idin"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s mikahayang éta informasi ti akun anjeun:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "Tampa"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "Bolay"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "Suksés"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr ""
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Anjeun ayeuna geus siap ngagunakeun <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "Tuluykeun"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "Tuluykeun ka akun kuring"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "Akun anjeun geus siap!"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr "Pangjieunkeun konci pamulihan anyar"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr "Tambahan surél sékundér"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Nambahkeun surél sékundér mantuan balik deui ka akun anjeun upama kakonci sarta teu bisa muka %(escapedEmail)s."
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Surélék sékundér"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "Moal waka"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "Asupkeun sandi konfirmasi"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Prak asupkeun kodeu konfirmasi anu dikirim kana %(escapedEmail)s dina 5 menit."
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "Asupkeun kodeu 6-digit"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "Konfirmasi"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "Butuh kodeu lianna? Kirim ulang"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr "Paké surél anu béda"
-
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
 msgstr "Mangga ganti kecap sandi anjeun"
@@ -963,8 +695,8 @@ msgstr "pikeun laju ka %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
-"Kami ngambeu ayana paripolah anu picurigaeun dina akun Firefox anjeun. Pikeun ngajaga akun anjeun, mangga jieun kecap sandi anyar. Anjeun bakal maké ieu kecap sandi pikeun asup deui ka sakur layanan"
-" akun Mozilla anjeun."
+"Kami ngambeu ayana paripolah anu picurigaeun dina akun Firefox anjeun. Pikeun ngajaga akun anjeun, mangga jieun kecap sandi anyar. Anjeun bakal maké ieu kecap sandi pikeun asup deui ka sakur "
+"layanan akun Mozilla anjeun."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -986,62 +718,6 @@ msgstr "Asupkeun deui kecap sandi anyar"
 msgid "Change password"
 msgstr "Ganti kecap sandi"
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "Firefox geus nyambung"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr "Daptar pikeun leuwih lengkep"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr "Kanyaho praktis datang ka koropak anjeun."
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr "Tampa kanyaho praktis dina koropak anjeun ngeunaan:"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr "Daptar %(email)s"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Logo Mozilla m"
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr "Akun Firefox bakal diganti ngaranna jadi akun Mozilla dina tanggal 1 Nov"
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Anjeun masih bakal asup maké ngaran pamaké jeung sandi anu sarua, sarta euweuh parobahan séjén kana produk anu dipaké ku anjeun."
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr "Lenyepan"
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Kami geus ngaganti ngaran akun Firefox kana akun Mozilla. Anjeun masih bakal bisa asup maké ngaran pamaké  jeung sandi anu sarua, sarta euweuh parobahan séjén kana produk dianggo ku anjeun."
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr "Tutup Banner"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "Sabaraha umur Anjeun? Pikeun diajar naha urang nanyakeun umur anjeun, tuturkeun rarambat “naha urang nanyakeun” di handap."
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "Baraha umur anjeun?"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr "Naha urang nanya?"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr "Butuh kecap sandi"
@@ -1061,15 +737,3 @@ msgstr "Lain sandi nu biasa dipaké"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Tetep aman & mdash; ulah maké deui sandi. Tempo deui tips pikeun <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">nyieun sandi anu kuat</a>."
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr "atawa"
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr "Tuluykeun ku Google"
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
-msgstr "Tuluykeun ku Apple"

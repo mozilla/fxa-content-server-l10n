@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "계정이 성공적으로 삭제됨"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (필수)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "이메일 주소"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "표시 이름"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "계정 사진"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "환영합니다"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync가 곧 다시 계속됩니다."
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "비밀번호가 재설정 되었습니다"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "다른 Firefox 기기에서 새 비밀번호를 입력해 설정을 완료하세요."
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr "이제 Mozilla 계정을 변경할 준비가 되었습니다."
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr "기본 이메일 확인됨"
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "계정 알림은 이제 %(secondaryEmailVerified)s로도 보내집니다."
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr "보조 이메일 확인됨"
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "로그인 확인됨"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "%(serviceName)s를 지금부터 사용할 수 있습니다."
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr "계정 확인됨"
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "연결됨"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Firefox Account를 변경할 수 있는 준비가 다 되었습니다."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "닫기"
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "계정 알림이 이제 %(secondaryEmail)s에도 전송됩니다."
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "%(serviceName)s(으)로 이동"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "비밀번호 숨기기"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "비밀번호 보기"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "이메일이 재전송되었습니다. 원활한 전송을 위해 연락처에 accounts@firefox.com을 추가해주세요."
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr "지불 수단"
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "기본 이메일 검증 성공"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "보조 이메일 검증 성공"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "올바르지 않은 데이터 속성: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "누락된 데이터 속성: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "이 승인 링크는 이미 사용되었습니다."
 
@@ -590,10 +500,6 @@ msgstr "누락된 설정"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "잘못된 설정"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "이메일을 잘못 입력했나요?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,8 +618,12 @@ msgid "Invalid Token"
 msgstr "유효하지 않은 토큰"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주합니다."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"계속 진행하면 <a id=\"service-tos\" href=\"%(termsUri)s\">이용 약관</a>과 %(serviceName)s (%(serviceUri)s)의 <a id=\"service-pp\" href=\"%(privacyUri)s\">개인정보 보호정책</a>에 동의한 것으로 간주합"
+"니다."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -755,110 +665,6 @@ msgstr "500 에러"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "아, 뭔가가 잘 못 되었습니다. 이 상황을 인지했으며 고치기위해 노력하겠습니다."
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "기본 이메일이 이미 승인됨"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "이 로그인은 이미 승인됨"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr "인증 링크가 만료됨"
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr "클릭하신 이메일 인증 링크가 만료되었습니다."
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr "새 인증 링크를 받으려면 여기를 클릭하세요"
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr "인증 링크가 손상됨"
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "클릭한 링크에 빠진 글자가 있습니다, 이메일 클라이언트가 링크를 손상시켰을 수 있습니다. 주소를 다시 복사해서 시도해 주세요."
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr "인증 오류"
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr "Mozilla 계정으로 계속"
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Firefox를 사용하는 어디서든 탭, 비밀번호, 그리고 북마크를 동기화합니다."
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "이메일 입력"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> 서비스로 계속"
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s(으)로 이동"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr "이메일 마스크 생성"
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "마스킹된 이메일에서 이메일을 전달할 이메일 주소를 입력하세요."
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr "가입 또는 로그인"
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Mozilla 계정을 사용하면 Mozilla의 더 많은 개인 정보 보호 제품에 접근할 수 있습니다."
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-"\n"
-"          계속 진행하면 다음에 대해 동의하게 됩니다:<br />\n"
-"          Pocket의 <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">서비스 약관</a>과 <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">개인정보 보호정책</a><br />\n"
-"          Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">서비스 약관</a>과 <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">개인정보 보호정책</a>\n"
-"        "
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"\n"
-"            계속 진행하면 다음에 대해 동의하게 됩니다.<br />\n"
-"             Mozilla 구독 서비스 <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">개인정보 보호정책</a><br />\n"
-"            Mozilla 계정의 <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">서비스 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">개인정보 보호정책</a>\n"
-"           "
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-"계속 진행하면 <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">서비스 이용 약관</a> 및 <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">개인정보 보호정책</a>에 동의하는 것으로 간주합니다."
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "완전한 동기화를 경험하세요."
@@ -876,90 +682,6 @@ msgstr "Android용 Firefox를 다운받으세요."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "모바일용 Firefox를 다운받으세요."
-
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "권한 요청"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s이 당신의 계정에서 아래와 같은 정보를 요청합니다:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "동의"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "취소"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "성공"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "계정 관리"
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> 서비스를 사용할 준비가 되었습니다"
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "계속"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "내 계정으로 이동"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "계정생성완료!"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr "새 계정 복구 키 생성"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr "보조 이메일 주소 추가"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "보조 이메일을 추가하면 계정이 잠겨 있어 %(escapedEmail)s에 접근 할 수 없는 경우 계정으로 돌아오는데 도움이됩니다."
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "보조 이메일"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "나중에요"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "인증 코드를 입력하세요"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "5분 이내에 %(escapedEmail)s로 전송된 인증 코드를 입력하세요."
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "6자리 숫자 코드 입력"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "확인"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "다른 코드가 필요하신가요? 다시 보내기"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr "다른 이메일 사용"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -994,62 +716,6 @@ msgstr "비밀번호 재입력"
 msgid "Change password"
 msgstr "비밀번호 변경"
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "이 Firefox는 연결되었습니다"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr "가입하기"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr "유용한 지식을 받은 편지함에서 받을 수 있습니다."
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr "받은 편지함에서 유용한 지식을 얻으십시오:"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr "%(email)s 구독하기"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Mozilla m 로고"
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr "Firefox 계정의 명칭이 11월 1일부터 Mozilla 계정으로 변경됩니다"
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "여전히 같은 사용자 이름과 비밀번호로 로그인할 수 있으며, 사용 중인 제품에 다른 영향은 없습니다."
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr "더 알아보기"
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Firefox 계정의 이름을 Mozilla 계정으로 변경했습니다. 동일한 사용자 이름과 비밀번호로 계속 로그인할 수 있으며, 사용하는 제품에는 다른 변경 사항이 없습니다."
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr "배너 닫기"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "나이가 어떻게 되시나요? 나이를 묻는 이유를 알아보시려면, 아래의 “왜 이것을 확인하나요?” 링크를 확인하세요."
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "몇살이세요?"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr "왜 이것을 확인하나요?"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr "비밀번호 생성 규칙"
@@ -1069,15 +735,3 @@ msgstr "흔히 사용되는 비밀번호가 아니어야 합니다"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "안전을 위해 &mdash; 비밀번호를 재사용하지 마세요. <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">강력한 비밀번호를 생성</a>하는 방법에 대해 자세히 알아보세요."
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr "또는"
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr "Google로 로그인"
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
-msgstr "Apple로 로그인"

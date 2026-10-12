@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "Account eliminât cun sucès"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (obligatori)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "Direzion e-mail"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "Non visualizât"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "Imagjin pal account"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "Bentornât"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Chi di pôc Firefox Sync si ripiarà"
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "La tô password e je date ristabilide"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Par completâ la configurazion inserìs la gnove password su ducj chei altris dispositîfs colegâts cun Firefox."
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr "Cumò al è dut pront par fâ modifichis al to account Mozilla."
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr "E-mail primarie confermade"
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Di ca indenant iis notifichis dal to account a vignaran mandadis ancje a%(secondaryEmailVerified)s."
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr "E-mail secondarie confermade"
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "Acès confermât"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "Cumò tu puedis doprâ %(serviceName)s"
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr "Account confermât"
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "Conetût"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Cumò al è dut pront par modificâ il to account Firefox."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "Siere"
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Di ca indenant lis notifichis dal to account a vignaran mandadis ancje a %(secondaryEmail)s."
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "Continue su %(serviceName)s"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "Plate password"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Mostre password"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "E-mail tornade a mandâ. Zonte accounts@firefox.com ai tiei contats par garantî une consegne cence problemis."
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr "Metodis di paiament"
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "E-mail primarie verificade cun sucès"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "E-mail secondarie verificade cun sucès"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "Atribût dâts no valit: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Al mancje l'atribût dai dâts: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Chel colegament di conferme al è za stât doprât e al è pussibil doprâlu dome une volte."
 
@@ -590,10 +500,6 @@ msgstr "E mancje la configurazion"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "La configurazion no je valide"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "Erôrs di batidure te e-mail?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,7 +618,9 @@ msgid "Invalid Token"
 msgstr "Gjeton no valit"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Continuant tu confermis di acetâ lis <a id=\"service-tos\" href=\"%(termsUri)s\">Cundizions di utilizazion dal servizi</a> e la <a id=\"service-pp\" href=\"%(privacyUri)s\">Informative su la "
 "riservatece</a> di %(serviceName)s (%(serviceUri)s)."
@@ -757,98 +665,6 @@ msgstr "Erôr 500"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "Orpo, alc al è lât strucj. Nus è rivade a segnalazion dal probleme e o lavorarìn par comedâlu."
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "E-mail primarie za confermade"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "Acès za confermât"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr "Colegament di conferme scjadût"
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr "Il colegament doprât par confermâ la e-mail al è scjadût."
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr "Fâs clic achì par ricevi un gnûf colegament pe conferme"
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr "Il colegament di conferme al è danezât"
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Al colegament che tu âs doprât i mancjave cualchi caratar, al è probabil che il probleme al sedi stât causât dal to client di pueste eletroniche. Torne prove copiant cun atenzion la direzion."
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr "Erôr te conferme"
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr "Continue su to account Mozilla"
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Sincronize passwords, schedis e segnelibris dapardut là che tu dopris Firefox."
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "Inserìs la tô e-mail"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Continue su <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Continue su %(serviceName)s"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr "Cree une mascare di e-mail"
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "Indiche la direzion de e-mail là che tu vuelis mandâ indenant lis e-mails de tô mascare e-mail."
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr "Regjistriti o jentre"
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Un account Mozilla al sbloche ancje l'acès a altris prodots di Mozilla che a protezin la riservatece."
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Sfrute dut il potenziâl di Sync."
@@ -866,90 +682,6 @@ msgstr "Discjame Firefox par Android."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Discjame Firefox par dispositîfs mobii."
-
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "Richieste di permès"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s al vûl chestis informazions dal to account:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "Acete"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "Anule"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "Operazion lade a bon fin"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "Gjestìs il to account"
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Cumò al è dut pront par doprâ <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "Continue"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "Continue sul gno account"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "Il to account al è pront!"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr "Gjenere une gnove clâf di recupar dal account"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr "Zonte une direzion e-mail secondarie"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "La zonte di une e-mail secondarie ti jude a tornâ tal to account se tu restis taiât fûr e no tu puedis acedi a %(escapedEmail)s."
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "E-mail secondarie"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "Magari plui indevant"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "Inserìs il codiç di conferme"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Inserìs dentri di 5 minûts il codiç di conferme che al è stât inviât a %(escapedEmail)s."
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "Inserìs il codiç a 6 cifris"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "Conferme"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "Ti covential un altri codiç? Mande di gnûf"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr "Dopre une altre e-mail"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -986,62 +718,6 @@ msgstr "Conferme la gnove password"
 msgid "Change password"
 msgstr "Cambie la password"
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "Chest Firefox al è conetût"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr "Regjistriti par savê di plui"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr "Nozions pratichis a son daûr a rivâ te tô casele di pueste."
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr "Ricêf cognossincis pratichis te tô casele di pueste in merit a:"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr "Iscriviti a %(email)s"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Logo cu la m di Mozilla"
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr "I accounts di Firefox a cambiaran non in accounts di Mozilla dal 1ⁿ di Novembar"
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Dut câs tu jentrarâs cul stes non utent e password e no saran fatis altris modifichis ai prodots che tu dopris."
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr "Plui informazions"
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "O vin cambiât il non dai accounts Firefox in accounts Mozilla. Dut câs tu jentrarâs cul stes non utent e password e no saran fatis altris modifichis ai prodots che tu dopris."
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr "Siere strisson"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "Trops agns âstu? Par savê parcè che ti domandìn la tô etât, va daûr dal colegament “Parcè domandìno” chi sot."
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "Trops agns âstu?"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr "Parcè ti domandìno?"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr "Recuisîts de password"
@@ -1061,15 +737,3 @@ msgstr "No une password di ûs comun"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Reste al sigûr, no sta tornâ a doprâ lis passwords. Viôt altris sugjeriments par <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">creâ passwords complessis</a>."
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr "opûr"
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr "Continue cun Google"
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
-msgstr "Continue cun Apple"

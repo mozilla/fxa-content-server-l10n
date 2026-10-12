@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "アカウントの削除が完了しました"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (必須)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "メールアドレス"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "表示名"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "アカウント写真"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "お帰りなさい"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync はすぐに再開されます"
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "パスワードは変更されました"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "他の端末上の Firefox でも新しいパスワードを入力して、設定を完了してください。"
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr "Mozilla アカウントに変更を加える準備ができました。"
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr "優先メールアドレスを確認しました"
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "アカウント通知は今後 %(secondaryEmailVerified)s にも送られます。"
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr "予備のメールアドレスを確認しました"
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "ログインが確認されました"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "%(serviceName)s が使えるようになりました"
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr "アカウントを確認しました"
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "接続済み"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "あなたは Firefox アカウントに変更を加える準備ができました。"
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "閉じる"
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "今後はアカウント通知を %(secondaryEmail)s にもお送りします。"
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "%(serviceName)s の利用を続ける"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "パスワードを隠す"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "パスワードを表示"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "メールを再送信しました。確実に受信できるよう accounts@firefox.com を連絡先に追加しておいてください。"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr "決済方法"
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "優先メールアドレスの確認が完了しました"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "予備アドレスの確認が完了しました"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "不正なデータ属性: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "不足しているデータ属性: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "確認リンクは一度のみ使用でき、このリンクは既に使用されています。"
 
@@ -590,10 +500,6 @@ msgstr "見当たらない設定"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "無効な設定"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "アドレスを打ち間違えた場合"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,8 +618,12 @@ msgid "Invalid Token"
 msgstr "不正なトークン"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなされます。"
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"続けることで、%(serviceName)s (%(serviceUri)s) の <a id=\"service-tos\" href=\"%(termsUri)s\">利用規約</a> と <a id=\"service-pp\" href=\"%(privacyUri)s\">プライバシー通知</a> に同意したものとみなさ"
+"れます。"
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -755,98 +665,6 @@ msgstr "500 エラー"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "申し訳ありませんが、何か問題が発生しました。サーバー管理者が通知を受け取り、修正に取りかかります。"
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "優先メールアドレスは既に確認されています"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "ログインは既に確認されています"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr "確認リンクの有効期限が切れています"
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr "クリックされたメールアドレス確認リンクの有効期限が切れています。"
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr "クリックすると確認リンクを再発行できます"
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr "確認リンクが壊れています"
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。"
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr "確認エラー"
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr "Mozilla アカウントへ進む"
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Firefox を使用しているすべての場所で、パスワード、タブ、ブックマークを同期しましょう。"
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "メールアドレスを入力"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> へ進む"
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s へ進む"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr "メールマスクを作成する"
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "メールマスクから転送するメールアドレスを設定してください。"
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr "ログインまたはアカウント登録"
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Mozilla アカウントを使用すると、さらにプライバシーを保護する他の Mozilla 製品にもアクセスできます。"
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "完全な Sync 体験を手に入れましょう。"
@@ -865,90 +683,6 @@ msgstr "Android 版 Firefox をダウンロード。"
 msgid "Download Firefox for mobile devices."
 msgstr "携帯端末向け Firefox をダウンロード。"
 
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "許可を申請"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s はあなたのアカウントから以下の情報を求めています:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "承認"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "成功"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "アカウント管理"
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> を使用する準備が整いました"
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "続ける"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "自分のアカウントへ進む"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "アカウントの準備が整いました。"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr "新しいアカウント回復用キーを生成する"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr "予備のメールアドレスを追加"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "予備のメールを追加することで、ロックアウトされて %(escapedEmail)s にアクセスできない場合に、アカウントに戻ることができます。"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "予備アドレス"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "後で考えます"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "確認コードの入力"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "5 分以内に %(escapedEmail)s に送信された確認コードを入力してください。"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "6 桁のコードを入力"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "確認"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "別のコードが必要ですか？ 再送信します"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr "別のメールアドレスを使用"
-
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
 msgstr "パスワードを変更してください"
@@ -960,7 +694,9 @@ msgstr "%(serviceName)s へ進む"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr "Mozilla アカウントで疑わしい動作が検出されました。アカウントを保護するために、新しいパスワードを作成してください。すべての Mozilla アカウントサービスに、このパスワードを使用して再度ログインしてください。"
+msgstr ""
+"Mozilla アカウントで疑わしい動作が検出されました。アカウントを保護するために、新しいパスワードを作成してください。すべての Mozilla アカウントサービスに、このパスワードを使用して再度ログインしてくだ"
+"さい。"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -982,62 +718,6 @@ msgstr "新しいパスワードを再入力"
 msgid "Change password"
 msgstr "パスワードを変更"
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "この Firefox は接続されています"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr "アカウント登録しましょう"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr "実用的な知識が受信トレイに送られます。"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr "実践的な知識をあなたの受信トレイにお届けします:"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr "%(email)s を購読"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Mozilla m ロゴ"
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr "Firefox アカウントが 11 月 1 日から Mozilla アカウントに名称変更されます"
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "これまでと同じユーザー名とパスワードでログインできます。ご使用の製品にその他の変更はありません。"
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr "詳細情報"
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Firefox アカウントを Mozilla アカウントに名称変更しました。これまでと同じユーザー名とパスワードでログインできます。ご使用の製品にその他の変更はありません。"
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr "バナーを閉じる"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "年齢を教えてください。年齢をお尋ねする理由については、以下の「この質問の理由」のリンクをクリックしてください。"
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "あなたの年齢は何歳ですか？"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr "この質問の理由"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr "パスワードの条件"
@@ -1057,15 +737,3 @@ msgstr "よく使われるパスワードと一致しないこと"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "安全のため、パスワードを再利用してはいけません。<a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">強力なパスワードを作成する</a>ためのヒントをご覧ください。"
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr "または"
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr "Google で続ける"
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
-msgstr "Apple で続ける"

@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "ఖాతా విజయవంతంగా తొలగించబడింది"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (తప్పనిసరి)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "ఈమెయిల్ చిరునామా"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "చూపించే పేరు"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "ఖాతా ముఖచిత్రం"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "తిరిగి స్వాగతం"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync కొంతసేపట్లో ప్రారంభం అవుతుంది"
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "మీ సంకేతపదం రీసెట్ చేయబడింది"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "మీ ఇతర పరికరాలలో కొత్త పాస్‌వర్డ్ నమోదు చేసి ఏర్పాటు పూర్తి చేయండి."
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr ""
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "ఖాతా నోటిఫికేషన్లు కూడా ఇప్పుడు %(secondaryEmailVerified)s కు పంపబడతాయి."
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr ""
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "సైన్ ఇన్ ధ్రువీకరించబడింది"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "మీరు ఇప్పుడు %(serviceName)s ఉపయోగించడానికి సిద్ధంగా ఉన్నారు"
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr ""
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "అనుసంధానమైంది"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "మీ Firefox ఖాతాలో మీరు ఇప్పుడు మార్పులు చేసుకోవచ్చు."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr ""
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr ""
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "%(serviceName)sకు కొనసాగు"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "సంకేతపదాన్ని దాచు"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "సంకేతపదం చూపించు"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr ""
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "ప్రాథమిక ఇమెయిల్ విజయవంతంగా ధృవీకరించబడింది"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "రెండవ ఈమెయిలు విజయవంతంగా తనిఖీ చేయబడింది"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట�
 msgid "Missing data attribute: %(property)s"
 msgstr "చెల్లని డేటా ఎట్ట్రిబ్యూట్: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "ఆ నిర్ధారణ లింక్ ను ఇప్పటికే ఉపయోగించబడినది, మరియు ఒకసారి మాత్రమే ఉపయోగించవచ్చు."
 
@@ -590,10 +500,6 @@ msgstr "ఆకృతీకరణలు తప్పినది"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "ఆకృతీకరణలు సరిఅయినవి కాదు"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "ఈమెయిలు తప్పుగా టైపుచేసారా?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,7 +618,9 @@ msgid "Invalid Token"
 msgstr "చెల్లని టోకేను"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "కొనసాగింతే, మీరు మా <a id=\"service-tos\" href=\"%(termsUri)s\">సేవా షరతులు</a> మరియు <a id=\"service-pp\" href=\"%(privacyUri)s\">గోప్యతా నోటీసు</a> యొక్క %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -755,98 +663,6 @@ msgstr "500 లోపం"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "అయ్యో, ఏదో తప్పు జరిగింది. మాకు నోటేసు అందింది మరియు మేము దేనిని పరిష్కరిస్తున్నాము."
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "ప్రాథమిక ఇమెయిల్ ఇప్పటికే నిర్ధారించబడింది"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "సైన్ ఇన్ ఇప్పటికే ధృవీకరించబడింది"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr ""
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr ""
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr ""
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr ""
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "మీరు క్లిక్ చేసిన లింక్ పాత్రలు లేదు, మరియు మీ ఇమెయిల్ క్లయింట్ ద్వారా తెగిపోయింది ఉండవచ్చు. జాగ్రత్తగా చిరునామాను కాపీ, మళ్ళీ ప్రయత్నించండి."
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr ""
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr ""
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "మీ ఈమెయిలును ఇవ్వండి"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "%(serviceName)s కు కొనసాగు"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr ""
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr ""
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "పూర్తి సింక్ అనుభవం."
@@ -864,90 +680,6 @@ msgstr "Android కోసం Firefoxను దింపుకోండి."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "మొబైల్ పరికరాల కోసం Firefoxను దించుకోండి."
-
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "అనుమతి కోసం అభ్యర్ధించు"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s మీ ఖాతా నుండి కింది సమాచారాన్ని కోరుకుంటున్నారు:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "అంగీకరించు"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "రద్దుచేయి"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "విజయవంతం అయింది"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr ""
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "కొనసాగించు"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "నా ఖాతాకు కొనసాగు"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "మీ ఖాతా సిద్ధంగా ఉంది!"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr ""
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr ""
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "రెండవ ఈమెయిలు"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "బహుశా తర్వాత"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr ""
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "6-అంకెల సంకేతాన్ని ఇవ్వండి"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "నిర్ధారించు"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr ""
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr ""
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -982,62 +714,6 @@ msgstr ""
 msgid "Change password"
 msgstr ""
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "ఈ Firefox సంధానమయ్యింది"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr ""
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr ""
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr ""
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr ""
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr ""
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr ""
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr ""
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "మీ వయస్సు ఎంత?"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr ""
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr ""
@@ -1056,16 +732,4 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr ""
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr ""
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
 msgstr ""

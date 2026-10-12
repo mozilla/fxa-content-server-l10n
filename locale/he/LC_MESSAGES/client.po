@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "החשבון נמחק בהצלחה"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (נדרש)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "כתובת דוא״ל"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "שם תצוגה"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "תמונת חשבון"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "ברוכים השבים"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync יחדש את פעולתו בעוד מספר רגעים"
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "הססמה שלך אופסה"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "ניתן להשלים את ההתקנה על ידי הקלדת הססמה החדשה במכשירי ה־Firefox הנוספים שלך."
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr "כעת באפשרותך לבצע שינויים בחשבון ה־Mozilla שלך."
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr "כתובת הדוא״ל הראשית עברה אימות"
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "התרעות על החשבון תישלחנה מעתה גם אל %(secondaryEmailVerified)s."
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr "כתובת הדוא״ל המשנית עברה אימות"
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "ההתחברות אומתה"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "כעת ניתן להשתמש ב־%(serviceName)s."
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr "החשבון מאומת"
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "מחובר"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "כעת באפשרותך לבצע שינויים בחשבון ה־Firefox שלך."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "סגירה"
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "התרעות על החשבון תישלחנה מעתה גם אל %(secondaryEmail)s."
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "המשך אל %(serviceName)s"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "הסתרת ססמה"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "הצגת ססמה"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "הודעת הדוא״ל נשלחה מחדש. מומלץ להוסיף את accounts@firefox.com לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה."
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr "אמצעי תשלום"
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "כתובת הדוא״ל הראשית אומתה בהצלחה"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "כתובת הדוא״ל המשנית אומתה בהצלחה"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "מאפיין הנתונים שגוי: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "מאפיין הנתונים חסר: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת."
 
@@ -590,10 +500,6 @@ msgstr "תצורה חסרה"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "תצורה פגומה"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "טעות בהקלדת כתובת הדוא״ל?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,7 +618,9 @@ msgid "Invalid Token"
 msgstr "אסימון לא חוקי"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr "המשך התהליך מהווה הסכמה ל<a id=\"service-tos\" href=\"%(termsUri)s\">תנאי השירות</a> ול<a id=\"service-pp\" href=\"%(privacyUri)s\">הצהרת הפרטיות</a> של %(serviceName)s‏ (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -755,110 +663,6 @@ msgstr "שגיאה 500"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "שוד ושבר, משהו השתבש. אנו מודעים לבעיה ופועלים לתיקונה."
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "כתובת הדוא״ל הראשית כבר עברה אימות"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "ההתחברות כבר אושרה"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr "פג תוקף קישור האימות"
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr "פג תוקפו של הקישור עליו לחצת לאימות כתובת הדוא״ל שלך."
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr "נא ללחוץ כאן לקבלת קישור לקוד אימות חדש"
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr "קישור האימות פגום"
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "לקישור שלחצת חסרים תווים, ויתכן שנפגם על ידי לקוח הדואר האלקטרוני שלך. יש להעתיק את כתובת הקישור בזהירות, ולבדוק שנית."
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr "שגיאת אימות"
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr "המשך אל חשבון ה־Mozilla שלך"
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "סנכרון הססמאות, הלשוניות פתוחות והסימניות שלך בכל מקום בו יש לך את Firefox."
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "נא להכניס את כתובת הדוא״ל שלך"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "המשך אל <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "המשך אל %(serviceName)s"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr "יצירת מסכת דוא״ל"
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "נא לספק את כתובת הדוא״ל שאליה ברצונך להעביר הודעות דוא״ל מהדוא״ל המסוכה שלך."
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr "הרשמה או התחברות"
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "חשבון Mozilla גם פותח גישה למוצרים נוספים המגנים על הפרטיות, מבית Mozilla."
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-"\n"
-"          המשך התהליך מהווה הסכמה ל:<br />\n"
-"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">תנאי השירות</a> ו<a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">הצהרת הפרטיות</a> של Pocket<br />\n"
-"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">הצהרת הפרטיות</a> של חשבונות Mozilla\n"
-"        "
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"\n"
-"            המשך התהליך מהווה הסכמה ל:<br />\n"
-"            <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">הצהרת הפרטיות</a> של שירותי המינויים של Mozilla<br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ו<a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">הצהרת הפרטיות</a> של Mozilla Accounts\n"
-"          "
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-"בחירה להמשיך בתהליך מהווה הסכמה ל<a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">תנאי השירות</a> ול<a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">הצהרת הפרטיות</a>."
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "קבלת החוויה המלאה של Sync."
@@ -876,90 +680,6 @@ msgstr "הורידו את Firefox עבור Android."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "הורידו את Firefox למכשירים ניידים."
-
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "בקשה להרשאות"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s מעוניין בגישה לפריטי המידע הבאים מהחשבון שלך:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "אישור"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "ביטול"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "הצלחה"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "ניהול החשבון שלך"
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "המשך"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "המשך לחשבון שלי"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "החשבון שלך מוכן!"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr "יצירת מפתח שחזור חשבון חדש"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr "הוספת כתובת דוא״ל משנית"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "הוספת כתובת דוא״ל משנית עוזרת לך לחזור לחשבון שלך אם ננעלת ואין לך גישה ל־%(escapedEmail)s."
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "כתובת דוא״ל משנית"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "אולי אחר כך"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "נא להכניס את קוד האימות"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "נא להכניס את קוד האימות שנשלח אל %(escapedEmail)s תוך 5 דקות."
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "נא להזין קוד בן 6 ספרות"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "אישור"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "שליחת קוד נוסף"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr "שימוש בדוא״ל שונה"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -994,62 +714,6 @@ msgstr "נא להכניס שוב את הססמה החדשה"
 msgid "Change password"
 msgstr "שינוי ססמה"
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "‏Firefox זה מחובר"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr "הרשמה לעוד"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr "ידע חיוני בדרכו אל תיבת הדוא״ל שלך."
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr "אפשר לקבל ידע חיוני ישירות לתיבת הדוא״ל שלך על:"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr "להירשם אל %(email)s"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "הסמל של Mozilla - האות m"
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr "חשבונות Firefox ישונו לחשבונות Mozilla ב־1 בנובמבר"
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "הכניסה לחשבון עדיין תהיה עם אותם פרטי שם משתמש וססמה, ואין שינויים אחרים במוצרים שבהם אתם משתמשים."
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr "מידע נוסף"
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "שינינו את חשבונות Firefox לחשבונות Mozilla. הכניסה לחשבון עדיין תהיה עם אותם פרטי שם משתמש וססמה, ואין שינויים אחרים במוצרים שבהם אתם משתמשים."
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr "סגירת באנר"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "מהו גילך? כדי ללמוד מדוע אנו מבקשים זאת, יש לעקוב אחר הקישור ״למה אנחנו שואלים״ שלמטה."
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "מהו גילך?"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr "למה אנחנו שואלים?"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr "דרישות ססמה"
@@ -1069,15 +733,3 @@ msgstr "לא ססמה נפוצה"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "שמרו על עצמכם &mdash; אל תשתמשו באותה הססמה במקומות שונים. ניתן לעיין בעצות נוספות <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">ליצירת ססמאות חזקות</a>."
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr "או"
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr "המשך עם Google"
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
-msgstr "המשך עם Apple"

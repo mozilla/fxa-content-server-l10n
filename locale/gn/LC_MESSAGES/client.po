@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: gn\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "Mba’ete oñemboguete apañuai’ỹre"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (orekova’erã)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "Ñandutiveve kundaharape"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "Téra ehechauka hag̃ua"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "Mba’ete ra’ãnga"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "Eg̃uahẽporãjey"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Firefox Sync oku’ejeýta ag̃aite"
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "Oikojeýma ne ñe’ẽñemi"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Embohekopa emoingévo pe ñe’ẽñemi pyahu ne ambue mba’e’oka Firefox peguápe."
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr "Ko’ág̃a emoambuekuaáma nde Mozilla mba’etépe."
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr "Ñandutiveve tuichavéva moneĩmbyre"
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Umi marandu’i mba’ete rehegua oñemondóta %(secondaryEmailVerified)s."
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr "Ñandutiveve mokõiguáva moneĩmbyre"
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "Tembiapo ñepyrũ moneĩmbyre"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "Ikatúma eiporu %(serviceName)s"
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr "Mba’ete moneĩmbyre"
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "Jeikepyre"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Emoambuekuaáma nde Firefox mba’etépe."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "Mboty"
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Ñandutiveve marandu’i ko’ág̃a oñemondóta avei %(secondaryEmail)s-pe."
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "Emba’apo %(serviceName)s ndive"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "Emokañy ñe’ẽñemi"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Ñe’ẽñemi jehechauka"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Ñanduti veve mondojeypyre. Embojuaju accounts@firefox.com ne ñomongetahápe og̃uahẽ hag̃ua apañuai’ỹre."
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr "Mba’éicha ehepyme’ẽta"
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "Ojehechajey ñanduti veve mba’eguasuvéva"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "Ñanduti veve mokõiguáva ojehechajeýva apañuai’ỹre"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "Mba’ekuaarã rekome’ẽ oiko’ỹva: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Mba’ekuaarã rekome’ẽ oĩmba’ỹva: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Ojeporúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu."
 
@@ -590,10 +500,6 @@ msgstr "Oikotevẽ ñemboheko"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "Ñemboheko ndoikói"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "¿Ñanduti veve ojehaivai?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,8 +618,12 @@ msgid "Invalid Token"
 msgstr "Token oiko’ỹva"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Eku’ejeývo, emoneĩ <a id=\"service-tos\" href=\"%(termsUri)s\">Mba’epytyvõrã ñemboguata</a> ha ko <a id=\"service-pp\" href=\"%(privacyUri)s\">Marandu ñemiguáva</a> %(serviceName)s (%(serviceUri)s) mba’éva."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Eku’ejeývo, emoneĩ <a id=\"service-tos\" href=\"%(termsUri)s\">Mba’epytyvõrã ñemboguata</a> ha ko <a id=\"service-pp\" href=\"%(privacyUri)s\">Marandu ñemiguáva</a> %(serviceName)s (%(serviceUri)s) "
+"mba’éva."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -755,100 +665,6 @@ msgstr "500 Javy"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "¡Ups! Ha’ete oikóva apañuái. Ko’ág̃a roikuaáma ha rohecháma mba’éichapa romoĩporãta."
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "Ñandutiveve ypygua ha hechapyre"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "Tembiapo ñepyrũ moneĩmbyre"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr "Juajuha ñemoneĩha ndoikovéima"
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr "Pe juajuha emoneĩhague ñanduti veve ndoikovéima."
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr "Eikutu ápe og̃uahẽ hag̃ua ndéve juajuha pyahu ñemoneĩrã"
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr "Juajuha hechajeyha oñembyai"
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Pe juajuha eiporavóva ndorekopái tai ha ikatu ne ñanduti veve poruhára ombyai. Emonguatia pe kundaharape mbeguemi ha eha’ã jey uperire."
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr "Ñemoneĩha jejavy"
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr "Eikejey Mozilla mba’ete ndive"
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Embojuehe ñe’ẽñemi, tendayke ha techaukaha oimeraẽva tenda eiporuhápe Firefox."
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "Emoinge ne ñanduti veve"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Eku’ejey <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>-pe"
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Emba’apo %(serviceName)s ndive"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr "Emoheñói ñanduti veve rovara’ãnga"
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "Ikatúpa, eme’ẽ ne ñanditi veve réra eipotahápe og̃uahẽ ñanditi veve ne ñanditi veve hovamo’ãva guive."
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr "Emoinge térã eñemboheraguapy"
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Mozilla mba’ete ombojurujakuaa heta apopyrépe jeike Mozilla ñemigua omo’ãvape."
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-"Eku’ejeývo, emoneĩ ko’ã <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Mba’epytyvõrã ñemboguata</a> ha <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Temiñemi Porureko</a>."
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Eguereko Sync jehasakue tuichaháicha."
@@ -866,90 +682,6 @@ msgstr "¡Emboguejy Firefox Android peg̃uarã!"
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Emboguejy Firefox pumbyrýpe g̃uarã."
-
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "Ejerure ñemoneĩ"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "%(serviceName)s oipota ko marandu ne mba’etégui:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "Moneĩ"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "Heja"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "Oĩporã"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "Eñangareko mba’etére"
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Ko’ág̃a eiporukuaáma <div class=\"graphic %(serviceLogo)s\"> %(serviceName)s</div>"
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "Ku’ejey"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "Aimevéta che mba’etépe"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "¡Ne mba’ete oĩmbáma!"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr "Emoheñói mba’ete mba’eñemi jeguerujeyrã pyahu"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr "Embojuaju ñanduti veve mokõiháva"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Embojuaju ñanduti veve mokõiháva oipytyvõ oujeývo ne mba’etépe ojejoko mba’éramo ha ndaikatúi eike %(escapedEmail)s-pe."
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Ñanduti veve mokõiháva"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "Ikatu ag̃amieve"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "Emoinge ayvu jehechajeyrã"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Imoinge ñemoneĩrã ayvu oñemondóva %(escapedEmail)s-pe 5 aravo’i oútavape."
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "Emoinge ayvu 6 taíva"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "Moneĩ"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "¿Eikotevẽ ambue ayvu? Emondojey"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr "Emoambue ñanduti veve jeporu"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -984,62 +716,6 @@ msgstr "emoingejey ñe’ẽñemi pyahu"
 msgid "Change password"
 msgstr "Emoambue ñe’ẽñemi"
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "Ko Firefox oĩ ñandutípe"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr "Eñemboheraguapy erekove hag̃ua"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr "Roguerahauka marandu tekotevẽva ne ñe’ẽmondo g̃uahẽhápe."
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr "Eikuaa mba’e iporãva ne ñe’ẽmondo g̃uahẽhápe ãvare:"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr "Mboheraguapy %(email)s"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Mozilla m ra’ãnga’i"
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr "Umi Firefox mba’ete hérata ko’ág̃a Mozilla mba’ete 1 jasypateĩ guive"
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Emoñepyrũjeýta tembiapo nde poruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi."
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr "Kuaave"
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Romoambue Firefox mba’ete réra ko’ág̃a guive ojehero Mozilla. Emoñepyrũjeýta tembiapo nde poruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi."
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr "Emboty Banner"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "¿Mboy arýpa ereko? Mba’érepa roporandu mboy arýpa ereko, eike juajuha “mba’ére roporandu” eku’ejeývo."
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "¿Mboy ary eguereko?"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr "¿Mba’ére roporandu?"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr "Ñe’ẽñemi oikotevẽva"
@@ -1059,15 +735,3 @@ msgstr "Ndaha’éi ñe’ẽñemi ojeporumeméva"
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
 msgstr "Eiko apañuai’ỹre &mdash; ani eiporujey ñe’ẽñemi. Eporandu ñe’ẽporãre <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">emoheñói ñe’ẽñemi</a> peg̃uarã."
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr "térã"
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr "Eiporumeméke Google"
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
-msgstr "Eiporumeméke Apple"

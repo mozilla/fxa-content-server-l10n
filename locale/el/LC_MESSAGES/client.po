@@ -2,97 +2,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-12 20:18+0000\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
-
-#: .es5/views/index.js:156
-msgid "Account deleted successfully"
-msgstr "Επιτυχής διαγραφή λογαριασμού"
-
-#: .es5/views/permissions.js:29
-msgid "%(permissionName)s (required)"
-msgstr "%(permissionName)s (απαιτείται)"
-
-#: .es5/views/permissions.js:34
-msgid "Email address"
-msgstr "Διεύθυνση email"
-
-#: .es5/views/permissions.js:38
-msgid "Display name"
-msgstr "Εμφανιζόμενο όνομα"
-
-#: .es5/views/permissions.js:41
-msgid "Account picture"
-msgstr "Εικόνα λογαριασμού"
-
-#: .es5/views/ready.js:43
-msgid "Welcome back"
-msgstr "Καλώς ορίσατε και πάλι"
-
-#: .es5/views/ready.js:44
-msgid "Firefox Sync will resume momentarily"
-msgstr "Το Firefox Sync θα συνεχίσει εντός ολίγου"
-
-#: .es5/views/ready.js:48 .es5/views/ready.js:53
-msgid "Your password has been reset"
-msgstr "Έγινε επαναφορά του κωδικού πρόσβασής σας"
-
-#: .es5/views/ready.js:49 .es5/views/ready.js:54
-msgid "Complete set-up by entering the new password on your other Firefox devices."
-msgstr "Ολοκληρώστε τη ρύθμιση εισάγοντας τον νέο κωδικό πρόσβασης στις άλλες σας συσκευές με το Firefox."
-
-#: .es5/views/ready.js:57
-msgid "You are now ready to make changes to your Mozilla account."
-msgstr "Μπορείτε πλέον να κάνετε αλλαγές στον λογαριασμό Mozilla σας."
-
-#: .es5/views/ready.js:59
-msgid "Primary email confirmed"
-msgstr "Το κύριο email επιβεβαιώθηκε"
-
-#: .es5/views/ready.js:62
-msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
-msgstr "Οι ειδοποιήσεις λογαριασμού θα αποστέλλονται πλέον και στο %(secondaryEmailVerified)s."
-
-#: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
-msgid "Secondary email confirmed"
-msgstr "Το δευτερεύον email επιβεβαιώθηκε"
-
-#: .es5/views/ready.js:69
-msgid "Sign-in confirmed"
-msgstr "Η σύνδεση επιβεβαιώθηκε"
-
-#: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
-msgid "You are now ready to use %(serviceName)s"
-msgstr "Μπορείτε τώρα να χρησιμοποιήσετε το %(serviceName)s"
-
-#: .es5/views/ready.js:74
-msgid "Account confirmed"
-msgstr "Ο λογαριασμός επιβεβαιώθηκε"
-
-#: .es5/views/ready.js:79
-msgid "Connected"
-msgstr "Σε σύνδεση"
-
-#: .es5/views/ready.js:177
-msgid "You are now ready to make changes to your Firefox Account."
-msgstr "Τώρα μπορείτε να κάνετε αλλαγές στον λογαριασμό Firefox σας."
 
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
 msgstr "Κλείσιμο"
-
-#: .es5/views/post_verify/verified.js:37
-msgid "Account notifications will now also be sent to %(secondaryEmail)s."
-msgstr "Οι ειδοποιήσεις λογαριασμού θα αποστέλλονται πλέον και στο %(secondaryEmail)s."
-
-#: .es5/views/post_verify/verified.js:38
-msgid "Continue to %(serviceName)s "
-msgstr "Συνέχεια στο %(serviceName)s "
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -101,10 +23,6 @@ msgstr "Απόκρυψη κωδικού πρόσβασης"
 #: .es5/views/mixins/password-mixin.js:154 .es5/views/mixins/password-mixin.js:155 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
 msgstr "Εμφάνιση κωδικού πρόσβασης"
-
-#: .es5/views/mixins/resend-mixin.js:46
-msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr "Το email απεστάλη ξανά. Προσθέστε το accounts@firefox.com στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση."
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
@@ -145,14 +63,6 @@ msgstr "Μέθοδοι πληρωμής"
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
 msgstr "Firefox"
-
-#: .es5/models/auth_brokers/base.js:88
-msgid "Primary email verified successfully"
-msgstr "Επιτυχής επαλήθευση κύριου email"
-
-#: .es5/models/auth_brokers/base.js:92
-msgid "Secondary email verified successfully"
-msgstr "Επιτυχής επαλήθευση δευτερεύοντος email"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -519,7 +429,7 @@ msgstr "Μη έγκυρη ιδιότητα δεδομένων: %(property)s"
 msgid "Missing data attribute: %(property)s"
 msgstr "Απουσία ιδιότητας δεδομένων: %(property)s"
 
-#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
+#: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548
 msgid "That confirmation link was already used, and can only be used once."
 msgstr "Αυτός ο σύνδεσμος επιβεβαίωσης έχει χρησιμοποιηθεί ήδη και μπορεί να χρησιμοποιηθεί μόνο μία φορά."
 
@@ -590,10 +500,6 @@ msgstr "Απουσία ρύθμισης"
 #: .es5/lib/config-loader.js:104
 msgid "Invalid configuration"
 msgstr "Μη έγκυρη ρύθμιση"
-
-#: .es5/lib/email-domain-validator.js:51
-msgid "Mistyped email?"
-msgstr "Εσφαλμένο email;"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
@@ -712,7 +618,9 @@ msgid "Invalid Token"
 msgstr "Μη έγκυρο διακριτικό"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Συνεχίζοντας, αποδέχεστε τους <a id=\"service-tos\" href=\"%(termsUri)s\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"service-pp\" href=\"%(privacyUri)s\">Δήλωση απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -757,110 +665,6 @@ msgstr "Σφάλμα 500"
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
 msgstr "Αγαπητέ χρήση, κάτι πήγε στραβά. Έχουμε ειδοποιηθεί και θα αρχίσουμε να εργαζόμαστε πάνω σε μια διόρθωση."
 
-#: .es5/templates/complete_sign_up.mustache:1
-msgid "Primary email already confirmed"
-msgstr "Το κύριο email έχει ήδη επαληθευτεί"
-
-#: .es5/templates/complete_sign_up.mustache:3
-msgid "Sign-in already confirmed"
-msgstr "Η είσοδος έχει ήδη επιβεβαιωθεί"
-
-#: .es5/templates/complete_sign_up.mustache:6
-msgid "Confirmation link expired"
-msgstr "Ο σύνδεσμος επιβεβαίωσης έληξε"
-
-#: .es5/templates/complete_sign_up.mustache:7
-msgid "The link you clicked to confirm your email is expired."
-msgstr "Ο σύνδεσμος που επιλέξατε για την επιβεβαίωση του email σας έχει λήξει."
-
-#: .es5/templates/complete_sign_up.mustache:8
-msgid "Click here to receive a new confirmation link"
-msgstr "Κάντε κλικ εδώ για να λάβετε έναν νέο σύνδεσμο επιβεβαίωσης"
-
-#: .es5/templates/complete_sign_up.mustache:11
-msgid "Confirmation link damaged"
-msgstr "Ο σύνδεσμος επιβεβαίωσης καταστράφηκε"
-
-#: .es5/templates/complete_sign_up.mustache:12
-msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Ο σύνδεσμος στον οποίο κάνατε κλικ δεν είχε κάποιους χαρακτήρες και ενδέχεται να έχει καταστραφεί από το πρόγραμμα email σας. Αντιγράψτε προσεκτικά τη διεύθυνση και δοκιμάστε ξανά."
-
-#: .es5/templates/complete_sign_up.mustache:14
-msgid "Confirmation error"
-msgstr "Σφάλμα επιβεβαίωσης"
-
-#: .es5/templates/index.mustache:1
-msgid "Continue to your Mozilla account"
-msgstr "Συνέχεια στον λογαριασμό Mozilla σας"
-
-#: .es5/templates/index.mustache:2
-msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr "Συγχρονίστε τους κωδικούς πρόσβασης, τις καρτέλες και τους σελιδοδείκτες σας οπουδήποτε χρησιμοποιείτε το Firefox."
-
-#: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
-msgid "Enter your email"
-msgstr "Εισαγάγετε το email σας"
-
-#: .es5/templates/index.mustache:5
-msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Συνέχεια στο <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/index.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:2 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:2
-msgid "Continue to %(serviceName)s"
-msgstr "Συνέχεια στην υπηρεσία %(serviceName)s"
-
-#: .es5/templates/index.mustache:8
-msgid "Create an email mask"
-msgstr "Δημιουργία μάσκας email"
-
-#: .es5/templates/index.mustache:9
-msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr "Εισαγάγετε τη διεύθυνση email όπου θα θέλατε να προωθούνται τα email από τη μάσκα email σας."
-
-#: .es5/templates/index.mustache:12
-msgid "Sign up or sign in"
-msgstr "Εγγραφή ή σύνδεση"
-
-#: .es5/templates/index.mustache:14
-msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr "Ένας λογαριασμός Mozilla ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της Mozilla που προστατεύουν το απόρρητό σας."
-
-#: .es5/templates/index.mustache:16
-msgid ""
-"\n"
-"          By proceeding, you agree to the:<br />\n"
-"          Pocket <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Terms of Service</a> and <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Privacy Notice</a><br />\n"
-"          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"        "
-msgstr ""
-"\n"
-"          Συνεχίζοντας, αποδέχεστε:<br />\n"
-"          τους <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Δήλωση απορρήτου</a> του Pocket<br />\n"
-"          τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
-"        "
-
-#: .es5/templates/index.mustache:18
-msgid ""
-"\n"
-"            By proceeding, you agree to the:<br />\n"
-"            Mozilla Subscription Services <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Privacy Notice</a><br />\n"
-"            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>\n"
-"          "
-msgstr ""
-"\n"
-"            Συνεχίζοντας, αποδέχεστε:<br />\n"
-"            τους <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Δήλωση απορρήτου</a> των συνδρομητικών υπηρεσιών της Mozilla<br />\n"
-"            τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a> των λογαριασμών Mozilla\n"
-"          "
-
-#: .es5/templates/index.mustache:20
-msgid ""
-"By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" "
-"href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Privacy Notice</a>."
-msgstr ""
-"Συνεχίζοντας, αποδέχεστε τους <a class=\"link-grey\" id=\"fxa-tos\" href=\"https://www.mozilla.org/about/legal/terms/services/\">Όρους παροχής υπηρεσιών</a> και τη <a class=\"link-grey\" id=\"fxa-"
-"pp\" href=\"https://www.mozilla.org/privacy/mozilla-accounts/\">Δήλωση απορρήτου</a>."
-
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
 msgstr "Λάβετε την πλήρη εμπειρία του Sync."
@@ -878,90 +682,6 @@ msgstr "Λήψη του Firefox για Android."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Λήψη του Firefox για κινητές συσκευές."
-
-#: .es5/templates/permissions.mustache:1
-msgid "Request for permission"
-msgstr "Αίτημα για δικαίωμα"
-
-#: .es5/templates/permissions.mustache:2
-msgid "%(serviceName)s wants the following information from your account:"
-msgstr "Το %(serviceName)s θέλει τις ακόλουθες πληροφορίες από τον λογαριασμό σας:"
-
-#: .es5/templates/permissions.mustache:3
-msgid "Accept"
-msgstr "Αποδοχή"
-
-#: .es5/templates/permissions.mustache:4
-msgid "Cancel"
-msgstr "Ακύρωση"
-
-#: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
-msgid "Success"
-msgstr "Επιτυχία"
-
-#: .es5/templates/ready.mustache:2
-msgid "Manage your account"
-msgstr "Διαχείριση του λογαριασμού σας"
-
-#: .es5/templates/ready.mustache:4
-msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr "Μπορείτε να χρησιμοποιήσετε το <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-
-#: .es5/templates/ready.mustache:7 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7
-msgid "Continue"
-msgstr "Συνέχεια"
-
-#: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
-msgid "Continue to my account"
-msgstr "Συνέχεια στον λογαριασμό μου"
-
-#: .es5/templates/ready.mustache:14
-msgid "Your account is ready!"
-msgstr "Ο λογαριασμός σας είναι έτοιμος!"
-
-#: .es5/templates/ready.mustache:15
-msgid "Generate a new account recovery key"
-msgstr "Δημιουργία νέου κλειδιού ανάκτησης λογαριασμού"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
-msgid "Add a secondary email address"
-msgstr "Προσθήκη δευτερεύουσας διεύθυνσης email"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
-msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr "Η προσθήκη ενός δευτερεύοντος email θα σας βοηθήσει να ανακτήσετε τον λογαριασμό σας, εάν κλειδωθείτε και δεν έχετε πρόσβαση στο %(escapedEmail)s."
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
-msgid "Secondary email"
-msgstr "Δευτερεύον email"
-
-#: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:8 .es5/templates/post_verify/newsletters/add_newsletters.mustache:9
-msgid "Maybe later"
-msgstr "Ίσως αργότερα"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
-msgid "Enter confirmation code"
-msgstr "Εισαγωγή κωδικού επιβεβαίωσης"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
-msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr "Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο %(escapedEmail)s εντός 5 λεπτών."
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
-msgid "Enter 6-digit code"
-msgstr "Εισαγάγετε τον εξαψήφιο κωδικό"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
-msgid "Confirm"
-msgstr "Επιβεβαίωση"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
-msgid "Need another code? Resend"
-msgstr "Χρειάζεστε άλλο κωδικό; Αποστολή νέου"
-
-#: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
-msgid "Use a different email"
-msgstr "Χρήση διαφορετικού email"
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
 msgid "Please change your password"
@@ -998,64 +718,6 @@ msgstr "Εισαγάγετε ξανά τον νέο κωδικό πρόσβασ�
 msgid "Change password"
 msgstr "Αλλαγή κωδικού πρόσβασης"
 
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:1
-msgid "This Firefox is connected"
-msgstr "Έγινε σύνδεση αυτού του Firefox"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:3
-msgid "Sign up for more"
-msgstr "Εγγραφή για περισσότερα"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:4
-msgid "Practical knowledge is coming to your inbox."
-msgstr "Πρακτικές γνώσεις στα εισερχόμενά σας."
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:6
-msgid "Get practical knowledge in your inbox about:"
-msgstr "Λάβετε πρακτικές γνώσεις στα εισερχόμενά σας σχετικά με:"
-
-#: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
-msgid "Subscribe %(email)s"
-msgstr "Εγγραφή στο %(email)s"
-
-#: .es5/templates/partial/brand-messaging.mustache:1
-msgid "Mozilla m logo"
-msgstr "Λογότυπο «m» της Mozilla"
-
-#: .es5/templates/partial/brand-messaging.mustache:2
-msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr "Οι λογαριασμοί Firefox θα γίνουν λογαριασμοί Mozilla την 1η Νοεμβρίου"
-
-#: .es5/templates/partial/brand-messaging.mustache:3
-msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr "Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που χρησιμοποιείτε."
-
-#: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7
-msgid "Learn more"
-msgstr "Μάθετε περισσότερα"
-
-#: .es5/templates/partial/brand-messaging.mustache:6
-msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
-"Έχουμε μετονομάσει τους λογαριασμούς Firefox σε λογαριασμούς Mozilla. Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που "
-"χρησιμοποιείτε."
-
-#: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
-msgid "Close Banner"
-msgstr "Κλείσιμο μηνύματος"
-
-#: .es5/templates/partial/coppa-age-input.mustache:1
-msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr "Πόσων ετών είστε; Για να μάθετε γιατί ρωτάμε την ηλικία σας, ακολουθήστε τον σύνδεσμο «Γιατί ρωτάμε;»."
-
-#: .es5/templates/partial/coppa-age-input.mustache:2
-msgid "How old are you?"
-msgstr "Ποια είναι η ηλικία σας;"
-
-#: .es5/templates/partial/coppa-age-input.mustache:4
-msgid "Why do we ask?"
-msgstr "Γιατί ρωτάμε;"
-
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
 msgstr "Απαιτήσεις κωδικού πρόσβασης"
@@ -1077,15 +739,3 @@ msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedC
 msgstr ""
 "Μείνετε ασφαλείς &mdash; μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">δημιουργία ισχυρών κωδικών "
 "πρόσβασης</a>."
-
-#: .es5/templates/partial/third-party-auth.mustache:1
-msgid "or"
-msgstr "ή"
-
-#: .es5/templates/partial/third-party-auth.mustache:3
-msgid "Continue with Google"
-msgstr "Συνέχεια με Google"
-
-#: .es5/templates/partial/third-party-auth.mustache:4
-msgid "Continue with Apple"
-msgstr "Συνέχεια με Apple"
