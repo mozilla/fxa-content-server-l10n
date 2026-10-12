@@ -169,6 +169,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = დაადასტურეთ პაროლი
 form-password-with-inline-criteria-reset-submit-button = შეიყვანეთ ახალი პაროლი
+form-password-with-inline-criteria-old-password-label =
+    .label = ძველი პაროლი
+form-password-with-inline-criteria-change-password-submit-button = პაროლის შეცვლა
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = პაროლი
 form-password-with-inline-criteria-set-password-confirm-password-label =
@@ -1971,11 +1974,35 @@ pair2-supplicant-connect-this-device-cancel-button = გაუქმება
 ## not Firefox. It offers to open the Firefox app to finish pairing, and to
 ## install it first when the user does not have it yet.
 
+pair2-supplicant-download-firefox-heading-v2 = გახსენით { -brand-firefox } ამ მოწყობილობაზე
+# "sync" is a verb here, referring to syncing data between the user's devices.
+pair2-supplicant-download-firefox-description-v2 = ჩამოტვირთეთ { -brand-firefox } სანიშნების, ისტორიისა და ა. შ. დასინქრონებისთვის სხვადასხვა მოწყობილობაზე.
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = გასაგრძელებლად გამოიყენეთ { -brand-firefox }
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = იხსნება { -brand-firefox }…
+# Primary action shown in Safari on iOS. Opens the App Store page for Firefox.
+pair2-supplicant-download-firefox-download-button = ჩამოტვირთეთ { -brand-firefox }
+# Secondary action shown in Safari on iOS, below the download button. Opens the
+# Firefox app when it is already installed.
+pair2-supplicant-download-firefox-have-firefox-button = უკვე მაქვს { -brand-firefox }
+# Opens a page explaining what sync does
+pair2-supplicant-download-firefox-learn-more-link = ვრცლად
+
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device after scanning the pairing QR code
+## with the phone's camera app instead of with Firefox. They already have
+## Firefox installed, so it tells them how to scan the code again from inside
+## Firefox.
+
+pair2-supplicant-connect-hint-heading-v2 = მიერთების დასრულება პროგრამაში
+# <b> emphasises the name of the button the user taps in Firefox
+pair2-supplicant-connect-hint-step-app-menu = შეეხეთ <b>პროგრამის მენიუს</b> ხელსაწყოთა ზოლზე
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair2-supplicant-connect-hint-step-sign-in = შეეხეთ <b>შესვლას</b> და წააკითხეთ კოდი
+# Opens a Mozilla support article about connecting a device without a QR code
+pair2-supplicant-connect-hint-learn-more-link = ვრცლად
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2025,6 +2052,12 @@ permissions-label-display-name = გამოსაჩენი სახელ�
 permissions-label-avatar = ანგარიშის სურათი
 permissions-continue-button = განაგრძეთ
 permissions-cancel-button = გაუქმება
+
+## ForcePasswordChange page
+## Users are sent here when suspicious activity on the account requires a new password before they can continue.
+
+force-password-change-heading = გთხოვთ, შეცვალოთ თქვენი პაროლი
+force-password-change-data-info = დასინქრონებული ისტორია, სანიშნები, ანგარიშები და სხვა პირადი მონაცემები არ დაიკარგება.
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2496,3 +2529,9 @@ signup-confirmed-sync-description-v2 = თქვენი პაროლებ�
 signup-confirmed-sync-add-device-link = სხვა მოწყობილობის დამატება
 signup-confirmed-sync-manage-sync-button = სინქრონიზაციის მართვა
 signup-confirmed-sync-set-password-success-banner = დასინქრონების პაროლი შეიქმნა
+
+## UpdateFirefox page
+## Shown when the browser is too old to use a Mozilla account
+
+update-firefox-heading = { -brand-firefox } საჭიროებს განახლებას
+update-firefox-download-button = უახლესის ჩამოტვირთვა
