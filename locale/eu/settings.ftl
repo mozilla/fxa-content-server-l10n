@@ -674,10 +674,15 @@ flow-setup-2fa-inline-complete-backup-code-info =
         [one] Kode { $count } faltan
        *[other] { $count } kode faltan
     }
+flow-setup-2fa-inline-complete-backup-code-description = Hau da berreskuratzeko metodo seguruena ezin baduzu saiorik hasi zure gailu mugikor edo autentifikazio-aplikazioarekin.
+flow-setup-2fa-inline-complete-backup-phone-description = Hau da berreskuratzeko metodo seguruena ezin baduzu saiorik hasi zure autentifikazio-aplikazioarekin.
+flow-setup-2fa-inline-complete-learn-more-link = Honek nola babesten duen zure kontua
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Jarraitu { $serviceName } zerbitzura
 flow-setup-2fa-prompt-heading = Konfiguratu bi urratseko autentifikazioa
+# Success banner shown at the top of the page when the user signed in with a passkey.
+flow-setup-2fa-prompt-passkey-success-banner = Sarbide-gako bidez saioa ondo hasita
 flow-setup-2fa-prompt-continue-button = Jarraitu
 
 ## FlowSetupPhoneConfirmCode
@@ -741,6 +746,7 @@ modal-default-confirm-button = Berretsi
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Idatzi berrespen-kodea
+modal-mfa-protected-input-label = Idatzi 6 digituko kodea
 modal-mfa-protected-cancel-button = Utzi
 modal-mfa-protected-confirm-button = Berretsi
 modal-mfa-protected-code-expired = Kodea iraungita?
@@ -775,16 +781,25 @@ page-2fa-change-success = Bi urratseko autentifikazioa eguneratu egin da
 
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Segurtasuneko autentifikazio-kodeak
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Arazo bat gertatu da zure segurtasuneko autentifikazio-kodeak ordezkatzean
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Arazo bat gertatu da zure segurtasuneko autentifikazio-kodeak sortzean
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Segurtasuneko autentifikazio-kodeak eguneratuta
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Segurtasuneko autentifikazio-kodeak sortuta
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Segurtasuneko autentifikazio-kode okerra
 
 ## Page2faSetup
 
 page-2fa-setup-title = Bi urratseko autentifikazioa
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Kodea ez da zuzena. Saiatu berriro.
+page-2fa-setup-success = Bi urratseko autentifikazioa gaitu da
 
 ## Avatar change page
 
@@ -860,6 +875,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = { -brand-firefox } datuak sinkronizatzen
 delete-account-product-firefox-addons = { -brand-firefox } gehigarriak
 delete-account-acknowledge = Mesedez aitor ezazu kontua ezabatzeak ondorengoa eragingo duela:
+delete-account-chk-box-1-v4 =
+    .label = Dauzkazun ordainpeko harpidetzak bertan behera utziko dira
 delete-account-chk-box-2 =
     .label = { -brand-mozilla } produktuetan gordeta duzun informazio eta eginbideak gal litzakezu
 delete-account-chk-box-3 =
@@ -867,6 +884,7 @@ delete-account-chk-box-3 =
 delete-account-chk-box-4 =
     .label = addons.mozilla.org gunean argitaratu duzun edozein hedapen eta itxura ezabatu egingo da
 delete-account-continue-button = Jarraitu
+delete-account-delete-button-passwordless = Ezabatu kontua
 delete-account-password-input =
     .label = Idatzi pasahitza
 delete-account-cancel-button = Utzi
@@ -883,11 +901,23 @@ cancel-display-name = Utzi
 display-name-update-error-2 = Arazoa egon da zure bistaratzeko izena eguneratzean
 display-name-success-alert-2 = Bistaratze-izena eguneratua
 
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = Sarbide-gakoa sortzen…
+page-passkey-add-follow-prompts = Jarraitu zure gailuko gonbitak.
+page-passkey-add-cancel = Utzi
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = Sarbide-gakoa sortuta
+
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Kontuaren azken jarduerak
+# Clicking this button reveals the older account activity that is hidden at first.
+recent-activity-show-more-button = Erakutsi gehiago
 recent-activity-account-create-v2 = Kontua sortua
 recent-activity-account-disable-v2 = Kontu desgaitua
 recent-activity-account-enable-v2 = Kontu gaitua
@@ -922,6 +952,10 @@ recent-activity-account-recovery-phone-removed = Berreskuratze telefonoa kendu d
 recent-activity-account-recovery-codes-replaced = Berreskuratzeko kodeak ordezkatu dira
 recent-activity-account-recovery-codes-created = Berreskuratzeko kodeak sortu dira
 recent-activity-account-recovery-codes-signin-complete = Saio hasiera berreskuratze kodeaz amaituta
+recent-activity-password-reset-otp-sent = Pasahitza berrezartzeko berrespen-kodea bidalita
+recent-activity-password-reset-otp-verified = Pasahitza berrezartzeko berrespen-kodea egiaztatuta
+recent-activity-must-reset-password = Pasahitz-berrezartzea behar da
+recent-activity-account-recovery-phone-replace-complete = Berreskuratze-telefonoa ordezkatuta
 recent-activity-account-passkey-registration-success = Sarbide-gakoa gehituta
 recent-activity-account-passkey-removed = Sarbide-gakoa kenduta
 # Security event was recorded, but the activity details are unknown or not shown to user
@@ -1560,6 +1594,22 @@ pair-wait-for-auth-heading-text = Onarpena behar da <span>beste gailutik</span>
 
 pair-unsupported-header = Parekatzea aplikazioa erabiliz
 pair-unsupported-message = Sistemako kamera darabilzu? { -brand-firefox } aplikazio batetik parekatu behar duzu.
+# v2: "Learn more" link below the mobile instructions; links to a Mozilla support article.
+pair-unsupported-learn-more-link-v2 = Argibide gehiago
+# v2: Fallback shown to a desktop Firefox user who somehow reaches /pair/unsupported.
+# Matches the legacy Backbone "Oops! Something went wrong." message.
+pair-unsupported-desktop-firefox-fallback-header-v2 = Ene! Zerbait gaizki joan da.
+pair-unsupported-desktop-firefox-fallback-message-v2 = Itxi fitxa hau eta saiatu berriz.
+
+## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer after scanning the pairing QR code with
+## their phone. It confirms the flow has moved to the mobile device and waits
+## for the remaining steps to be completed there.
+
+pair2-authority-continue-on-mobile-heading = Jarraitu zure gailu mugikorrean
+pair2-authority-continue-on-mobile-description = Jarraitu urratsak zure telefono edo tabletan.
+# Dismisses the pairing attempt
+pair2-authority-continue-on-mobile-cancel-button = Utzi
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when Firefox is needed to continue pairing.
@@ -1804,6 +1854,15 @@ password-reset-recovery-method-phone = Berreskuratze-telefonoa
 ## ResetPasswordRecoveryPhone page
 
 reset-password-recovery-phone-flow-heading = Berrezarri pasahitza
+reset-password-recovery-phone-input-label = Idatzi 6 digituko kodea
+reset-password-recovery-phone-code-submit-button = Berretsi
+reset-password-recovery-phone-resend-code-button = Birbidali kodea
+reset-password-recovery-phone-resend-success = Kodea bidalita
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Blokeatuta zaude?
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Saiatu berriro geroago.
+reset-password-recovery-phone-invalid-code-error-link = Erabili segurtasuneko autentifikazio-kodeak horren ordez?
 reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
 reset-password-complete-new-password-saved = Pasahitz berria gorde da!
 reset-password-complete-recovery-key-created = Kontua berreskuratzeko gako berria sortu da. Deskargatu eta gorde ezazu orain.
@@ -1841,6 +1900,7 @@ signin-password-button-label = Pasahitza
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
+signin-account-locked-banner-heading = Berrezarri pasahitza
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1861,9 +1921,17 @@ signin-bounced-help = Helbide elektroniko hau baliozkoa bada, <linkExternal>esag
 signin-bounced-create-new-account = Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat
 back = Atzera
 
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+signin-passkey-fallback-password-label = Pasahitza
+signin-passkey-fallback-continue = Jarraitu
+signin-passkey-fallback-forgot-password-link = Pasahitza ahaztu duzu?
+
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
+signin-passwordless-code-heading = Idatzi berrespen-kodea
 signin-passwordless-code-input-label-v2 = Idatzi 6 digituko kodea
 signin-passwordless-code-confirm-button = Berretsi
 signin-passwordless-code-required-error = Berrespen-kodea behar da
