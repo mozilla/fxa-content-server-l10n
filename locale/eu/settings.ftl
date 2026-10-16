@@ -506,6 +506,9 @@ cs-cannot-disconnect = Ez da bezeroa aurkitu, ezin da deskonektatu
 cs-logged-out-2 = { $service } zerbitzutik saioa amaituta.
 cs-refresh-button =
     .title = Berritu konektatutako zerbitzuak
+# Button under the "Connected services" header that starts the flow to pair
+# another device to the user's account.
+cs-connect-device-button = Konektatu gailua
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Faltan edo bikoiztuta dauden elementuak?
 cs-disconnect-sync-heading = Deskonektatu sinkronizaziotik
@@ -547,6 +550,15 @@ cs-disconnect-suspicious-advice-content-2 =
     kontuaren ezarpenetan. Era berean, { -brand-firefox }(e)n gordetako beste edozein
     pasahitz ere aldatu beharko zenuke, helbide-barran about:logins idatziz.
 cs-sign-out-button = Amaitu saioa
+
+## Sub-rows shown beneath a connected browser entry to indicate which Mozilla
+## services that browser is currently authorized to access via its refresh token.
+
+# Shown as a read-only sub-row under a browser device entry to indicate that
+# the device's refresh token is authorized for Firefox’s built-in VPN.
+# In this context, "VPN" is a VPN service built into the Firefox browser, and
+# generally isn’t localized differently than "VPN".
+cs-scope-firefox-vpn = { -brand-firefox }(r)en integratutako VPNa
 
 ## Data collection section
 
@@ -614,10 +626,29 @@ flow-recovery-key-info-cta-text-v3 = Hasi erabiltzen
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Utzi
 
+## FlowSetup2faApp
+
+flow-setup-2fa-qr-heading = Konektatu zure autentifikazio-aplikaziora
+flow-setup-2fa-scan-qr-instead-button = Eskaneatu QR kodea horren ordez?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Autentifikazio-aplikazioei buruzko argibide gehiago
+flow-setup-2fa-button = Jarraitu
+flow-setup-2fa-input-label = Idatzi 6 digituko kodea
+flow-setup-2fa-code-error = Kodea baliogabea da edo iraungita dago. Egiaztatu zure autentifikazio-aplikazioa eta saiatu berriro.
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+flow-setup-2fa-backup-choice-heading = Aukeratu berreskuratzeko metodoa
+flow-setup-2fa-backup-choice-phone-title = Berreskuratze-telefonoa
+flow-setup-2fa-backup-choice-phone-badge = Errazena
+flow-setup-2fa-backup-choice-phone-info = Jaso berreskuratze-kodea testu-mezu bidez. Une honetan AEBtan eta Kanadan erabilgarri soilik.
+
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Idatzi autentifikazio-kodearen babeskopia
 flow-setup-2fa-backup-code-confirm-code-input = Sartu 10 karaktereko kodea
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Amaitu
@@ -1831,7 +1862,7 @@ signin-passwordless-code-other-account-link = Erabili beste kontu bat
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Hasi saioa
-signin-recovery-method-subheader = Aukeratu berreskuratze metodoa
+signin-recovery-method-subheader = Aukeratu berreskuratzeko metodoa
 signin-recovery-method-details = Ziurtatu zure berreskuratzeko metodoak erabiltzen ari zarela.
 signin-recovery-method-phone = Berreskuratze telefonoa
 signin-recovery-method-code-v2 = Autentifikazio-kodearen babes-kopia
