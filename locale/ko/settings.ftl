@@ -1869,8 +1869,6 @@ pair2-authority-continue-on-mobile-cancel-button = 취소
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = 동기화를 위해 { -brand-firefox } 열기
-# "firefox.com/pair" is a URL and should not be translated
-pair2-authority-download-firefox-instruction = 기기 간 동기화를 설정하려면 이 기기에서 { -brand-firefox }를 열고 <b>firefox.com/pair</b>를 방문하세요.
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = { -brand-firefox } 다운로드
 

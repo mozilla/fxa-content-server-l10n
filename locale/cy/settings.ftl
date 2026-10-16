@@ -1921,8 +1921,6 @@ pair2-authority-continue-on-mobile-cancel-button = Diddymu
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = Agor { -brand-firefox } i gydweddu
-# "firefox.com/pair" is a URL and should not be translated
-pair2-authority-download-firefox-instruction = I allu cydweddu ar draws dyfeisiau, agorwch { -brand-firefox } ar y ddyfais hon ac ewch i <b>firefox.com/pair</b>
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Llwytho { -brand-firefox } i lawr
 
