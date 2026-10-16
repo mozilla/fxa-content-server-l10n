@@ -175,7 +175,7 @@ form-verify-totp-disabled-button-title-numeric = Jarraitzeko, idatzi { $codeLeng
 form-verify-totp-disabled-button-title-alphanumeric = Jarraitzeko, idatzi { $codeLength } karaktere kodea
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }  kontua berreskuratzeko gakoa
-get-data-trio-title-backup-verification-codes = Autentifikazio-kodearen babes-kopia
+get-data-trio-title-backup-verification-codes = Segurtasuneko autentifikazio-kodeak
 get-data-trio-download-2 =
     .aria-label = Deskargatu
     .title = Deskargatu
@@ -201,9 +201,9 @@ icon-warning-aria-label =
 authenticator-app-aria-label =
     .aria-label = Autentifikatzaileen aplikazioa
 backup-codes-icon-aria-label-v2 =
-    .aria-label = Autentifikazio-kodearen babes-kopia gaitua
+    .aria-label = Segurtasuneko autentifikazio-kodeak gaituta
 backup-codes-disabled-icon-aria-label-v2 =
-    .aria-label = Autentifikazio-kodearen babes-kopia desgaitua
+    .aria-label = Segurtasuneko autentifikazio-kodeak desgaituta
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Berreskuratze SMS gaitua
@@ -643,7 +643,7 @@ flow-setup-2fa-backup-choice-heading = Aukeratu berreskuratzeko metodoa
 flow-setup-2fa-backup-choice-phone-title = Berreskuratze-telefonoa
 flow-setup-2fa-backup-choice-phone-badge = Errazena
 flow-setup-2fa-backup-choice-phone-info = Jaso berreskuratze-kodea testu-mezu bidez. Une honetan AEBtan eta Kanadan erabilgarri soilik.
-flow-setup-2fa-backup-choice-code-title = Autentifikazio-kodeen babeskopiak
+flow-setup-2fa-backup-choice-code-title = Segurtasuneko autentifikazio-kodeak
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -658,12 +658,22 @@ flow-setup-2fa-backup-code-confirm-button-finish = Amaitu
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Gorde segurtasuneko autentifikazio-kodeak
+flow-setup-2fa-backup-code-dl-save-these-codes = Gorde hauek gogoratzeko moduko leku batean. Ez baduzu autentifikazio-aplikazioa alboan, segurtasuneko kode bat erabili beharko duzu saioa hasteko.
 flow-setup-2fa-backup-code-dl-button-continue = Jarraitu
 
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Bi urratseko autentifikazioa gaituta
+flow-setup-2fa-inline-complete-backup-code = Segurtasuneko autentifikazio-kodeak
 flow-setup-2fa-inline-complete-backup-phone = Berreskuratze-telefonoa
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Kode { $count } faltan
+       *[other] { $count } kode faltan
+    }
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Jarraitu { $serviceName } zerbitzura
@@ -766,11 +776,11 @@ page-2fa-change-success = Bi urratseko autentifikazioa eguneratu egin da
 ## Two Step Authentication - replace backup authentication code
 
 # Error shown when API call fails while replacing existing backup codes
-tfa-replace-code-error-3 = Arazoa egon da zure autentikazio-kode segurtasun kopia ordezkatzean.
+tfa-replace-code-error-3 = Arazo bat gertatu da zure segurtasuneko autentifikazio-kodeak ordezkatzean
 # Error shown when API call fails while creating new backup codes (user had none)
-tfa-create-code-error = Arazoa egon da zure autentikazio-kode segurtasun kopia sortzean.
+tfa-create-code-error = Arazo bat gertatu da zure segurtasuneko autentifikazio-kodeak sortzean
 # Success message shown in alert bar after successfully replacing existing backup codes
-tfa-replace-code-success-alert-4 = Eguneratu dira babeskopiko autentifikazio-kodeak
+tfa-replace-code-success-alert-4 = Segurtasuneko autentifikazio-kodeak eguneratuta
 
 ## Page2faSetup
 
@@ -932,9 +942,9 @@ recovery-phone-remove-header = Kendu berreskuratze telefono zenbakia
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Honek <strong>{ $formattedFullPhoneNumber }</strong> kenduko du berreskuratzeko telefono gisa.
-settings-recovery-phone-remove-recommend = Metodo hau mantentzea gomendatzen dugu, babeskopiko autentifikazio-kodeak gordetzea baino errazagoa delako.
+settings-recovery-phone-remove-recommend = Metodo hau mantentzea gomendatzen dugu, segurtasuneko autentifikazio-kodeak gordetzea baino errazagoa delako.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Ezabatzen baduzu, ziurtatu gordetako babeskopiko autentifikazio-kodeak dituzula. <linkExternal>Konparatu berreskuratzeko metodoak</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Ezabatzen baduzu, ziurtatu segurtasuneko autentifikazio-kodeak gordeta dituzula. <linkExternal>Konparatu berreskuratzeko metodoak</linkExternal>
 settings-recovery-phone-remove-button = Kendu telefono zenbakia
 settings-recovery-phone-remove-cancel = Utzi
 settings-recovery-phone-remove-success = Berreskuratu kendutako telefonoa
@@ -1036,7 +1046,7 @@ signout-sync-session-expired = Arazoren bat izan da. Mesedez, amaitu saioa nabig
 
 ## SubRow component
 
-tfa-row-backup-codes-title = Autentifikazio-kodearen babes-kopia
+tfa-row-backup-codes-title = Segurtasuneko autentifikazio-kodeak
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ez dago koderik erabilgarri
@@ -1067,7 +1077,7 @@ tfa-row-backup-phone-add-cta = Gehitu
 tfa-row-backup-phone-delete-button = Kendu
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Kendu berreskuratze telefonoa
-tfa-row-backup-phone-delete-restriction-v2 = Berreskuratzeko telefonoa kendu nahi baduzu, gehitu babeskopiko autentifikazio-kodeak edo desgaitu bi urratseko autentifikazioa lehenik zure kontutik kanpo gelditzea saihesteko.
+tfa-row-backup-phone-delete-restriction-v2 = Berreskuratzeko telefonoa kendu nahi baduzu, gehitu segurtasuneko autentifikazio-kodeak edo desgaitu bi urratseko autentifikazioa lehenik zure kontutik kanpo gelditzea saihesteko.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description-v2 = Hau da berreskuratzeko metodorik errazena zure autentifikatzaile aplikazioa erabili ezin baduzu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1206,7 +1216,7 @@ tfa-row-disable-modal-heading = Bi urratseko autentifikazioa desgaitu?
 tfa-row-disable-modal-confirm = Desgaitu
 tfa-row-disable-modal-explain-1 =
     Ezin izango duzu ekintza hau desegin.
-    Zuk ere aukera daukazu <linkExternal>zure ordezko autentifikazio-kodeak ordezkatzeko</linkExternal>.
+    <linkExternal>Segurtasuneko autentifikazio-kodeak ordezkatzeko</linkExternal> aukera ere baduzu.
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Bi urratseko autentifikazioa desgaituta
 tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
@@ -1256,7 +1266,7 @@ auth-error-206 = Ezin da pasahitza sortu, pasahitza ezarrita dago jada
 auth-error-214 = Dagoeneko badago berreskuratzeko telefono-zenbakia
 auth-error-215 = Berreskuratzeko telefono-zenbakia ez dago
 auth-error-216 = Testu-mezuen mugara iritsi da
-auth-error-218 = Ezin izan da berreskuratzeko telefonoa kendu, babeskopiko autentifikazio-kodeak falta dira.
+auth-error-218 = Ezin izan da berreskuratzeko telefonoa kendu, segurtasuneko autentifikazio-kodeak falta dira.
 auth-error-219 = Telefono-zenbaki hau kontu gehiegirekin erregistratu da. Mesedez, saiatu beste zenbaki batekin.
 auth-error-240 = Kontu hau desgaitu egin da
 auth-error-999 = Espero gabeko errorea
@@ -1868,7 +1878,7 @@ signin-recovery-method-header = Hasi saioa
 signin-recovery-method-subheader = Aukeratu berreskuratzeko metodoa
 signin-recovery-method-details = Ziurtatu zure berreskuratzeko metodoak erabiltzen ari zarela.
 signin-recovery-method-phone = Berreskuratze telefonoa
-signin-recovery-method-code-v2 = Autentifikazio-kodearen babes-kopia
+signin-recovery-method-code-v2 = Segurtasuneko autentifikazio-kodeak
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
@@ -1877,7 +1887,7 @@ signin-recovery-method-code-info-v2 =
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Arazo bat izan da kodea berreskuratzeko telefonora bidaltzean
-signin-recovery-method-send-code-error-description = Saiatu berriro geroago edo erabili ordezko autentifikazio-kodeak.
+signin-recovery-method-send-code-error-description = Saiatu berriro geroago edo erabili segurtasuneko autentifikazio-kodeak.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1924,7 +1934,7 @@ signin-recovery-phone-code-verification-error-heading = Arazoa egon da zure kode
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Saiatu berriro geroago.
 signin-recovery-phone-invalid-code-error-description = Kodea baliogabea da edo iraungi da.
-signin-recovery-phone-invalid-code-error-link = Erabili babeskopiako autentifikazio-kodeak horren ordez?
+signin-recovery-phone-invalid-code-error-link = Erabili segurtasuneko autentifikazio-kodeak horren ordez?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = Saioa hasi da. Baliteke mugak aplikatzea berreskuratzeko telefonoa berriro erabiltzen baduzu.
