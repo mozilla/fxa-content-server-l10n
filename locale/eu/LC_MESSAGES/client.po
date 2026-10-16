@@ -457,7 +457,7 @@ msgstr "Bi urratseko autentifikazio kode baliogabea"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
-msgstr "Beharrezkoa da autentifikazio-kodearen babeskopia"
+msgstr "Segurtasuneko autentifikazio-kodea behar da"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"

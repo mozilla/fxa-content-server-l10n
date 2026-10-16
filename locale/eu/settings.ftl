@@ -643,12 +643,15 @@ flow-setup-2fa-backup-choice-heading = Aukeratu berreskuratzeko metodoa
 flow-setup-2fa-backup-choice-phone-title = Berreskuratze-telefonoa
 flow-setup-2fa-backup-choice-phone-badge = Errazena
 flow-setup-2fa-backup-choice-phone-info = Jaso berreskuratze-kodea testu-mezu bidez. Une honetan AEBtan eta Kanadan erabilgarri soilik.
+flow-setup-2fa-backup-choice-code-title = Autentifikazio-kodeen babeskopiak
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
-flow-setup-2fa-backup-code-confirm-heading = Idatzi autentifikazio-kodearen babeskopia
+flow-setup-2fa-backup-code-confirm-heading = Idatzi segurtasuneko autentifikazio-kodea
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Berretsi kodeak gorde dituzula bat eskuz sartuz. Kode hauek gabe, litekeena da ezingo duzula saiorik hasi autentifikazio-aplikaziorik gabe.
 flow-setup-2fa-backup-code-confirm-code-input = Sartu 10 karaktereko kodea
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Amaitu
@@ -1895,7 +1898,7 @@ signin-recovery-code-phone-link = Erabili berreskuratze telefonoa
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Blokeatuta zaude?
 # Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Beharrezkoa da autentifikazio-kodearen babeskopia
+signin-recovery-code-required-error = Segurtasuneko autentifikazio-kodea behar da
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
