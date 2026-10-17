@@ -1615,6 +1615,8 @@ pair2-authority-continue-on-mobile-cancel-button = Utzi
 ## Users see this on their computer when Firefox is needed to continue pairing.
 ## It points them at firefox.com/pair and offers a download link for Firefox.
 
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction-v2 = Gailuen arteko sinkronizazioa konfiguratzeko, ireki { -brand-firefox } gailu honetan eta bisitatu <b>firefox.com/pair</b>.
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Deskargatu { -brand-firefox }
 
