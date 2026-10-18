@@ -1645,6 +1645,13 @@ pair-choice-continue-button = Jarraitu
 pair-signed-in-successfully = Saioa ondo hasi da!
 # Success banner shown after signing up and verifying email via a Send Tab flow
 pair-account-created-now-syncing = Kontua sortuta. Sinkronizatzen ari zara orain.
+# Success banner shown after creating a password for a passwordless account via a Send Tab flow
+pair-password-created-now-syncing = Pasahitza sortuta. Sinkronizatzen ari zara orain.
+
+## Download screen — shown after selecting "I don’t have Firefox for mobile"
+
+# Subheader for the download screen
+pair-download-subheader = Deskargatu mugikorrerako { -brand-firefox }
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1685,6 +1692,11 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Itxi fitxa hau eta saiatu
 ## mobile device scans the pairing QR code. It asks them to approve the
 ## sign-in, and shows the requesting device's details so they can verify it.
 
+# Asks the user to confirm the sign-in that another one of their devices just started
+pair2-authority-approve-sign-in-heading = Onartu saio-hasiera?
+# Submit button confirming that the user started the pairing and approves the
+# other device being added to their account
+pair2-authority-approve-sign-in-confirm-button = Bai, saio-hasiera onartu
 # "Not you?" asks whether someone other than the user started this sign-in.
 # The text inside <changePassword> links to the page for changing the password.
 pair2-authority-approve-sign-in-change-password = Ez zara zu? <changePassword>Aldatu zure pasahitza</changePassword>
@@ -1854,6 +1866,11 @@ force-password-change-data-info = Sinkronizatutako historia, laster-markak, saio
 
 service-welcome-signin-success-banner = Saioa ondo hasi da!
 
+## SetPassword page for passwordless flow
+## Users who signed in via passwordless OTP and need to create a password for Sync
+
+set-password-passwordless-info = Pasahitz honek sinkronizatutako zure datuak zifratu eta seguru mantentzen ditu.
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1894,7 +1911,12 @@ reset-password-complete-banner-message = Ez ahaztu kontua berreskuratzeko gako b
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
+confirm-backup-code-reset-password-input-label = Idatzi 10 karaktereko kodea
 confirm-backup-code-reset-password-confirm-button = Berretsi
+confirm-backup-code-reset-password-subheader = Idatzi segurtasuneko autentifikazio-kodea
+confirm-backup-code-reset-password-instruction = Sartu bi urratseko autentifikazioa konfiguratzean gorde dituzun erabilera bakarreko kodeetako bat.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Blokeatuta zaude?
 
 ## Confirm Reset Password With Code
 
@@ -1946,7 +1968,19 @@ reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
 
 password-reset-recovery-method-header = Berrezarri pasahitza
 password-reset-recovery-method-subheader = Aukeratu berreskuratzeko metodoa
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Ziurta gaitezen zu ari zarela zure berreskuratzeko metodoak erabiltzen.
 password-reset-recovery-method-phone = Berreskuratze-telefonoa
+password-reset-recovery-method-code = Segurtasuneko autentifikazio-kodeak
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] Kode { $numBackupCodes } gelditzen da
+       *[other] { $numBackupCodes } kode gelditzen dira
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Arazo bat egon da kodea berreskuratzeko telefonora bidaltzean
+password-reset-recovery-method-send-code-error-description = Saiatu berriro geroago edo erabili segurtasuneko autentifikazio-kodeak.
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1959,8 +1993,11 @@ reset-password-recovery-phone-resend-code-button = Birbidali kodea
 reset-password-recovery-phone-resend-success = Kodea bidalita
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 reset-password-recovery-phone-locked-out-link = Blokeatuta zaude?
+reset-password-recovery-phone-send-code-error-heading = Arazoa egon da zure kodea bidaltzean.
+reset-password-recovery-phone-code-verification-error-heading = Arazoa egon da zure kodea egiaztatzean
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = Saiatu berriro geroago.
+reset-password-recovery-phone-invalid-code-error-description = Kodea baliogabea da edo iraungi da.
 reset-password-recovery-phone-invalid-code-error-link = Erabili segurtasuneko autentifikazio-kodeak horren ordez?
 reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
 reset-password-complete-new-password-saved = Pasahitz berria gorde da!
@@ -1999,6 +2036,9 @@ signin-password-button-label = Pasahitza
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
+signin-code-expired-error = Kodea iraungi da. Hasi saioa berriro mesedez.
+# Error message displayed when OAuth native flow recovery fails
+signin-recovery-error = Zerbait gaizki joan da. Hasi saioa berriro mesedez.
 signin-account-locked-banner-heading = Berrezarri pasahitza
 
 ## ReportSignin Page
@@ -2036,6 +2076,7 @@ signin-passwordless-code-input-label-v2 = Idatzi 6 digituko kodea
 signin-passwordless-code-confirm-button = Berretsi
 signin-passwordless-code-required-error = Berrespen-kodea behar da
 signin-passwordless-code-expired = Kodea iraungita?
+signin-passwordless-code-resend-link = Bidali kode berria posta elektronikora.
 signin-passwordless-code-other-account-link = Erabili beste kontu bat
 
 ## Signin recovery method page
@@ -2142,6 +2183,8 @@ signin-totp-code-header = Hasi saioa
 signin-totp-code-subheader-v2 = Sartu bi urratseko autentifikazio kodea
 signin-totp-code-instruction-v4 = Egiaztatu zure <strong>autentifikazio-aplikazioa</strong> saioa hastea berresteko.
 signin-totp-code-input-label-v4 = Sartu 6 digituko kodea
+signin-totp-code-aal-sign-out = Amaitu gailu honetako saioa
+signin-totp-code-aal-sign-out-error = Barkatu, arazo bat gertatu da zure saioa amaitzean
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Berretsi
 signin-totp-code-other-account-link = Erabili beste kontu bat
@@ -2207,6 +2250,7 @@ signup-change-email-link = Aldatu helbide elektronikoa
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Sinkronizazioa aktibo dago
 signup-confirmed-sync-button = Hasi nabigatzen
 signup-confirmed-sync-add-device-link = Gehitu beste gailu bat
 signup-confirmed-sync-manage-sync-button = Kudeatu sinkronizazioa
