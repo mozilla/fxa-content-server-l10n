@@ -249,6 +249,9 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Gaituta
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Xebroia eskuinerantz
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Itxi mezua
@@ -303,6 +306,10 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Telefono mugikorra SMS testu-mezuen gaitasunak dituena
 backup-authentication-codes-image-aria-label =
     .aria-label = Gailuaren pantaila kodeekin
+sync-clouds-image-aria-label =
+    .aria-label = Hodeiak sinkronizatzeko ikono batekin
+confetti-falling-image-aria-label =
+    .aria-label = Konfeti biziduna erortzen
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = { -brand-firefox } logoa
@@ -392,6 +399,7 @@ password-info-balloon-reset-risk-info = Berrezartze batek pasahitzak eta laster-
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-short-instruction = Hautatu pasahitz sendoa:
 password-strength-inline-min-length = Gutxienez 8 karaktere
 password-strength-inline-not-email = Ezin da zure helbide elektronikoa izan
 password-strength-inline-not-common = Ezin da askotan erabilitako pasahitza izan
@@ -421,6 +429,9 @@ promo-qr-mobile-heading-treatment-g = Zure telefonoak distrazio gutxiago ere iza
 promo-qr-mobile-heading-treatment-h = Aukeratu nabigatzeko modu lasaiago bat
 # Appears below a QR code that a user can scan to download the Firefox mobile app
 promo-qr-mobile-description-v2 = Eskaneatu mugikorrerako aplikazioa deskargatzeko
+# Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
+promo-qr-mobile-qr-alt =
+    .alt = Mugikorrerako { -brand-firefox } aplikazioa deskargatzeko QR kodea. Eskaneatzeko, kokatu zure telefonoaren kamera zure pantailaren beheko eskuineko izkinan.
 
 ## Notification Promo Banner component
 
@@ -492,6 +503,8 @@ password-reset-warning-icon = Abisua
 password-reset-chevron-expanded = Tolestu abisua
 password-reset-chevron-collapsed = Zabaldu abisua
 password-reset-warning-have-key = Kontua berreskuratzeko gakoa baduzu?
+password-reset-warning-signed-in-device = Beste gailu batean saioa hasita duzu oraindik?
+password-reset-warning-new-device = Gailu berria darabilzu baina ez duzu gailu zaharretarako sarbiderik?
 
 ## Alert Bar
 
@@ -519,6 +532,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla }(e)k egina
 
 connect-another-fx-mobile = Eskuratu mugikor edo tabletarako { -brand-firefox }
 connect-another-find-fx-mobile-2 = Bilatu { -brand-firefox } { -google-play }(e)n eta { -app-store }(e)n.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Deskargatu { -brand-firefox } { -google-play }(e)n
+connect-another-app-store-image-3 =
+    .alt = Deskargatu { -brand-firefox } { -app-store }(e)n
 
 ## Connected services section
 
@@ -656,10 +675,18 @@ flow-recovery-key-info-cancel-link = Utzi
 ## FlowSetup2faApp
 
 flow-setup-2fa-qr-heading = Konektatu zure autentifikazio-aplikaziora
+# DEV NOTE: "2a" in the id should be "2fa". This typo is kept intentionally to
+# avoid losing existing translations; fix it when creating a new version of
+# this string.
+flow-setup-2a-qr-instruction = <strong>1. urratsa:</strong> eskaneatu QR kode hau edozein autentifikazio-aplikazio erabiliz, adibidez Duo edo Google Authenticator.
+flow-setup-2fa-cant-scan-qr-button = Ezin duzu QR kodea eskaneatu?
+flow-setup-2fa-manual-key-heading = Idatzi kodea eskuz
+flow-setup-2fa-manual-key-instruction = <strong>1. urratsa:</strong> idatzi kodea hau zuk hobetsitako autentifikazio-aplikazioa erabiliz.
 flow-setup-2fa-scan-qr-instead-button = Eskaneatu QR kodea horren ordez?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Autentifikazio-aplikazioei buruzko argibide gehiago
 flow-setup-2fa-button = Jarraitu
+flow-setup-2fa-step-2-instruction = <strong>2. urratsa:</strong> idatzi zure autentifikazio-aplikazioko kodea.
 flow-setup-2fa-input-label = Idatzi 6 digituko kodea
 flow-setup-2fa-code-error = Kodea baliogabea da edo iraungita dago. Egiaztatu zure autentifikazio-aplikazioa eta saiatu berriro.
 
@@ -671,6 +698,7 @@ flow-setup-2fa-backup-choice-phone-title = Berreskuratze-telefonoa
 flow-setup-2fa-backup-choice-phone-badge = Errazena
 flow-setup-2fa-backup-choice-phone-info = Jaso berreskuratze-kodea testu-mezu bidez. Une honetan AEBtan eta Kanadan erabilgarri soilik.
 flow-setup-2fa-backup-choice-code-title = Segurtasuneko autentifikazio-kodeak
+flow-setup-2fa-backup-choice-code-info = Sortu eta gorde erabilpen bakarreko autentifikazio-kodeak.
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -805,6 +833,7 @@ nav-email-comm = Posta bidezko komunikazioak
 
 page-2fa-change-title = Aldatu bi urratseko autentifikazioa
 page-2fa-change-success = Bi urratseko autentifikazioa eguneratu egin da
+page-2fa-change-qr-instruction = <strong>1. urratsa:</strong> eskaneatu QR kode hau edozein autentifikazio-aplikazio erabiliz, adibidez Duo edo Google Authenticator. Honek konexio berri bat sortzen du eta konexio zaharrek ez dute gehiago funtzionatuko.
 
 ## Two Step Authentication - replace backup authentication code
 
