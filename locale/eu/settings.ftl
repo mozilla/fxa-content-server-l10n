@@ -91,6 +91,25 @@ datablock-copy =
 datablock-print =
     .message = Inprimatuta
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] Kodea kopiatuta
+       *[other] Kodeak kopiatuta
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kodea deskargatuta
+       *[other] Kodeak deskargatuta
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kodea inprimatuta
+       *[other] Kodeak inprimatuta
+    }
+
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -118,6 +137,9 @@ device-info-block-location-unknown = Kokapen ezezaguna
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $browserName } { $genericOSName }-(e)n
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
+device-info-browser-device = { $browserName } { $deviceName }(e)n
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP helbidea: { $ipAddress }
@@ -126,7 +148,10 @@ device-info-ip-address = IP helbidea: { $ipAddress }
 ## Shown at the top of settings to promote installing Firefox on mobile (when
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
+firefox-promo-banner-mobile-heading = Eskuratu { -brand-firefox } zauden tokian zaudela
+firefox-promo-banner-mobile-description = Sinkronizatu fitxak, laster-markak eta pasahitzak zure gailu guztien artean. Gainera, dena modu seguruan zifratuta mantentzen da.
 firefox-promo-banner-mobile-cta = Konektatu gailua
+firefox-promo-banner-switch-heading = Aldatzeko azkarra. Bertan gelditzeko erraza.
 
 ## FormPasswordInlineCriteria
 
