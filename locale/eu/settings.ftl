@@ -152,6 +152,8 @@ firefox-promo-banner-mobile-heading = Eskuratu { -brand-firefox } zauden tokian 
 firefox-promo-banner-mobile-description = Sinkronizatu fitxak, laster-markak eta pasahitzak zure gailu guztien artean. Gainera, dena modu seguruan zifratuta mantentzen da.
 firefox-promo-banner-mobile-cta = Konektatu gailua
 firefox-promo-banner-switch-heading = Aldatzeko azkarra. Bertan gelditzeko erraza.
+firefox-promo-banner-switch-description = { -brand-firefox }(e)ra aldatzean, zure laster-markak, pasahitzak, historia eta gehiago ekar ditzakezu, eta nabigatzen jarraitu erritmoa moteldu gabe.
+firefox-promo-banner-switch-cta = Aldatu { -brand-firefox }(e)ra
 
 ## FormPasswordInlineCriteria
 
