@@ -1226,6 +1226,8 @@ passkey-row-header = Sarbide-gakoak
 passkey-row-enabled = Gaituta
 passkey-row-not-set = Ezarri gabe
 passkey-row-action-create = Sortu
+# External link to a support article about passkeys.
+passkey-row-info-link-2 = Argibide gehiago
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1293,6 +1295,7 @@ tfa-row-enabled = Gaituta
 tfa-row-disabled-status = Desgaituta
 tfa-row-action-add = Gehitu
 tfa-row-action-disable = Desgaitu
+tfa-row-action-change = Aldatu
 tfa-row-button-refresh =
     .title = Berritu bi urratseko autentifikazioa
 tfa-row-cannot-refresh = Barkatu, arazoa egon da bi urratseko autentifikazioa berritzean.
@@ -1314,6 +1317,14 @@ tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list of <serviceName>: Terms of Service, Privacy Notice
+terms-privacy-agreement-intro-3 = Jarraitzearekin bat, ondorengoak onartzen dituzu:
+# This item is part of a bulleted list and follows terms-privacy-agreement-intro
+# $serviceName (String) - The name of the service (e.g., "Mozilla Subscription Services")
+# $serviceName is customizable via Strapi and will be localized separately
+terms-privacy-agreement-customized-terms = { $serviceName }: <termsLink>zerbitzuaren baldintzak</termsLink> eta <privacyLink>pribatutasun-oharra</privacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla-2 = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Zzerbitzuaren baldintzak</mozillaAccountsTos> eta <mozillaAccountsPrivacy>pribatutasun-oharra</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Aurrera eginez gero, <mozillaAccountsTos>Zerbitzu-baldintzak</mozillaAccountsTos> eta <mozillaAccountsPrivacy>Pribatutasun-oharra</mozillaAccountsPrivacy> onartzen dituzu.
 
@@ -1343,8 +1354,12 @@ auth-error-114-generic = Gehiegitan saiatu zara. Mesedez, saiatu berriro geroago
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Gehiegitan saiatu zara. Mesedez, saiatu berriro { $retryAfter }.
 auth-error-125 = Eskaera blokeatu egin da segurtasun-arrazoiak tarteko
+auth-error-129-2 = Telefono zenbaki baliogabea idatzi duzu. Egiazta ezazu eta saiatu berriro.
 auth-error-138-2 = Berretsi gabeko saioa
 auth-error-139 = Helbide elektroniko alternatiboak zure kontuaren helbide elektronikoaren desberdina izan behar du
+# (Email) address has been added as a secondary email for another account and cannot be used to register a new account.
+# The reservation may be temporary. If the reservation is not confirmed before the reservation expires (~10 min), the email will become available again.
+auth-error-144 = Helbide elektroniko hau beste kontu batek erreserbatu du. Saiatu berriro geroago edo erabili beste helbide elektroniko bat.
 auth-error-155 = Ez da TOTP tokena aurkitu
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = Autentifikazio-kodearen babes-kopia ez da aurkitu
@@ -1358,6 +1373,12 @@ auth-error-215 = Berreskuratzeko telefono-zenbakia ez dago
 auth-error-216 = Testu-mezuen mugara iritsi da
 auth-error-218 = Ezin izan da berreskuratzeko telefonoa kendu, segurtasuneko autentifikazio-kodeak falta dira.
 auth-error-219 = Telefono-zenbaki hau kontu gehiegirekin erregistratu da. Mesedez, saiatu beste zenbaki batekin.
+auth-error-224 = Ez da sarbide-gakoa aurkitu
+auth-error-225 = Sarbide-gakoa erregistratuta dago jada
+auth-error-226 = Sarbide-gakoen mugara heldu da
+auth-error-227 = Sarbide-gakoa autentifikatzeak huts egin du
+auth-error-228 = Sarbide-gakoa erregistratzeak huts egin du
+auth-error-233 = Sarbide-gako bat sortzeko, konfiguratu pantailaren blokeoa, PINa, hatz-marka, edo aurpegiaren ezagutza zure gailuan edo segurtasun-giltzan. Gero saiatu berriro.
 auth-error-240 = Kontu hau desgaitu egin da
 auth-error-999 = Espero gabeko errorea
 auth-error-1001 = Saio-hasiera saiakera utzita
@@ -1577,6 +1598,8 @@ pair-wait-for-supp-heading-text = Onarpena behar da <span>beste gailutik</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+# v2: Updated wording to align with the legacy Backbone pair/failure copy.
+pair-failure-header-v2 = Gailua parekatzeak huts egin du
 pair-failure-try-again-link = Saiatu berriro
 
 ## Pair index page
@@ -1657,6 +1680,15 @@ pair-unsupported-learn-more-link-v2 = Argibide gehiago
 pair-unsupported-desktop-firefox-fallback-header-v2 = Ene! Zerbait gaizki joan da.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Itxi fitxa hau eta saiatu berriz.
 
+## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
+## Users see this on their computer, which is already signed in, after their
+## mobile device scans the pairing QR code. It asks them to approve the
+## sign-in, and shows the requesting device's details so they can verify it.
+
+# "Not you?" asks whether someone other than the user started this sign-in.
+# The text inside <changePassword> links to the page for changing the password.
+pair2-authority-approve-sign-in-change-password = Ez zara zu? <changePassword>Aldatu zure pasahitza</changePassword>
+
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
 ## their phone. It confirms the flow has moved to the mobile device and waits
@@ -1671,6 +1703,8 @@ pair2-authority-continue-on-mobile-cancel-button = Utzi
 ## Users see this on their computer when Firefox is needed to continue pairing.
 ## It points them at firefox.com/pair and offers a download link for Firefox.
 
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-authority-download-firefox-heading = Sinkronizatzeko, ireki { -brand-firefox }
 # "firefox.com/pair" is a URL and should not be translated
 pair2-authority-download-firefox-instruction-v2 = Gailuen arteko sinkronizazioa konfiguratzeko, ireki { -brand-firefox } gailu honetan eta bisitatu <b>firefox.com/pair</b>.
 # Links out to the Firefox download page
@@ -1681,6 +1715,8 @@ pair2-authority-download-firefox-cta = Deskargatu { -brand-firefox }
 ## their phone or tablet to connect the two devices and start syncing.
 
 pair2-authority-scan-qr-heading = Eskaneatu zure gailu mugikorra konektatzeko
+# Accessible label describing the QR code image shown on this page
+pair2-authority-scan-qr-code-aria-label = Zure gailu mugikorra konektatzeko QR kodea
 # Link to a support article on connecting a mobile device without scanning the QR code
 pair2-authority-scan-qr-other-ways-link = Saioa hasteko beste modu batzuk
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
@@ -1735,6 +1771,9 @@ pair2-supplicant-connect-this-device-cancel-button = Utzi
 pair2-supplicant-download-firefox-heading-v2 = Ireki { -brand-firefox } gailu honetan
 # "sync" is a verb here, referring to syncing data between the user's devices.
 pair2-supplicant-download-firefox-description-v2 = Deskargatu { -brand-firefox } gailuen artean laster-markak, historia eta gehiago sinkronizatzeko.
+# Primary action. Opens the Firefox app to finish pairing, or sends the user to
+# the Firefox download page when there is no pairing link to hand over.
+pair2-supplicant-download-firefox-continue-button = Jarraitu { -brand-firefox }(e)n
 # Replaces the button label while waiting for the Firefox app to take over
 pair2-supplicant-download-firefox-opening-button = { -brand-firefox } irekitzen…
 # Primary action shown in Safari on iOS. Opens the App Store page for Firefox.
@@ -1912,6 +1951,8 @@ password-reset-recovery-method-phone = Berreskuratze-telefonoa
 ## ResetPasswordRecoveryPhone page
 
 reset-password-recovery-phone-flow-heading = Berrezarri pasahitza
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Idatzi berreskuratze-kodea
 reset-password-recovery-phone-input-label = Idatzi 6 digituko kodea
 reset-password-recovery-phone-code-submit-button = Berretsi
 reset-password-recovery-phone-resend-code-button = Birbidali kodea
@@ -1982,6 +2023,7 @@ back = Atzera
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
+signin-passkey-fallback-header = Amaitu saio-hasiera
 signin-passkey-fallback-password-label = Pasahitza
 signin-passkey-fallback-continue = Jarraitu
 signin-passkey-fallback-forgot-password-link = Pasahitza ahaztu duzu?
