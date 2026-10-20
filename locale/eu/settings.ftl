@@ -504,7 +504,9 @@ password-reset-chevron-expanded = Tolestu abisua
 password-reset-chevron-collapsed = Zabaldu abisua
 password-reset-warning-have-key = Kontua berreskuratzeko gakoa baduzu?
 password-reset-warning-signed-in-device = Beste gailu batean saioa hasita duzu oraindik?
+password-reset-warning-restore-data-link = Ikasi nola berreskuratu nabigatzailearen datuak saioa hasita duen gailu batetik
 password-reset-warning-new-device = Gailu berria darabilzu baina ez duzu gailu zaharretarako sarbiderik?
+password-reset-warning-new-device-description = Zure pasahitza berrezarri ondoren, { -brand-firefox } zerbitzarietan zifratuta dauden nabigatzailearen datuak ez dira erabilgarri egongo gailu honetan.
 
 ## Alert Bar
 
