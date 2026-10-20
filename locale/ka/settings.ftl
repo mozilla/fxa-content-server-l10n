@@ -1899,6 +1899,8 @@ pair2-authority-continue-on-mobile-cancel-button = გაუქმება
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = გახსენით { -brand-firefox } დასინქრონებისთვის
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction-v2 = მოწყობილობებს შორის სინქრონიზაციისთვის გახსენით { -brand-firefox } ამ მოწყობილობაზე და ინახულეთ გვერდი <b>firefox.com/pair</b>.
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = ჩამოტვირთეთ { -brand-firefox }
 
@@ -2036,6 +2038,8 @@ pair2-supplicant-timeout-and-cancel-timeout-description = მობილურ�
 pair2-supplicant-timeout-and-cancel-cancelled-heading = გაუქმებულია
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = მოწყობილობის დასაკავშირებლად ნებისმიერ დროს, ინახულეთ გვერდი <b>firefox.com/pair</b> თქვენს კომპიუტერში.
+# Shown when the mobile browser is already signed in to an account, so pairing cannot sign it in to another one
+pair2-supplicant-timeout-and-cancel-signed-in-heading = ეს მოწყობილობა უკვე შესულია
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
