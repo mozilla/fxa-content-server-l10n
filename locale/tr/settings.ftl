@@ -151,6 +151,7 @@ device-info-ip-address = IP adresi: { $ipAddress }
 firefox-promo-banner-mobile-heading = Nerede olursanız olun { -brand-firefox } yanınızda
 firefox-promo-banner-mobile-description = Sekmelerinizi, yer imlerinizi ve parolalarınızı tüm cihazlarınız arasında eşitleyin. Üstelik tüm verileriniz güvenle şifrelenmiş olarak saklanır.
 firefox-promo-banner-mobile-cta = Cihaz bağlayın
+firefox-promo-banner-switch-heading = Hızlıca geçiş yapın, kolayca alışın.
 firefox-promo-banner-switch-description = { -brand-firefox }’a geçtiğinizde yer imlerinizi, parolalarınızı, geçmişinizi ve diğer verilerinizi aktararak hiç ara vermeden gezinmeye devam edebilirsiniz.
 firefox-promo-banner-switch-cta = { -brand-firefox }’a geçin
 
@@ -166,6 +167,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Parolayı onaylayın
 form-password-with-inline-criteria-reset-submit-button = Yeni parola oluştur
+form-password-with-inline-criteria-old-password-label =
+    .label = Eski parola
+form-password-with-inline-criteria-change-password-submit-button = Parolayı değiştir
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = Parola
 form-password-with-inline-criteria-set-password-confirm-password-label =
