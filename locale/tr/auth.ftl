@@ -237,6 +237,10 @@ freeTrialEndingReminder-content-account-link-plaintext = Ödeme yönteminizi ve 
 #   $serviceLastActiveDateOnly (String) - The date the trial ends, e.g. January 20, 2016
 freeTrialEndingReminder-content-cancel-link = Ücret ödememek için <strong>{ $serviceLastActiveDateOnly }</strong> tarihinden önce iptal edin: <a data-l10n-name="freeTrialEndingReminder-cancel-subscription">Aboneliği iptal et</a>
 freeTrialEndingReminder-content-cancel-link-plaintext = Ücret ödemek istemiyorsanız { $serviceLastActiveDateOnly } tarihinden önce iptal edin:
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+freeTrialEndingReminder-content-thanks = { $productName } ürününü denediğiniz için teşekkür ederiz. Deneme süreniz veya aboneliğinizle ilgili herhangi bir sorunuz olursa lütfen <a data-l10n-name="freeTrialEndingReminder-contact-support">bizimle iletişime geçin</a>.
+freeTrialEndingReminder-content-thanks-plaintext = { $productName } ürününü denediğiniz için teşekkür ederiz. Deneme süreniz veya aboneliğinizle ilgili herhangi bir sorunuz olursa lütfen bizimle iletişime geçin.
 freeTrialEndingReminder-content-closing = Saygılarımızla,
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -309,6 +313,10 @@ subscriptionDowngrade-content-auto-renew = İptal etmediğiniz sürece aboneliğ
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionEndingReminder-subject = { $productName } aboneliğiniz yakında bitecek
 subscriptionEndingReminder-title = { $productName } aboneliğiniz yakında bitecek
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionEndingReminder-content-line1 = { $productName } erişiminiz <strong>{ $serviceLastActiveDateOnly }</strong> tarihinde sona erecektir.
 subscriptionEndingReminder-content-line1-plaintext = { $productName } erişiminiz { $serviceLastActiveDateOnly } tarihinde sona erecektir.
 subscriptionEndingReminder-content-closing = Abone olduğunuz için teşekkürler!
 # Variables:
