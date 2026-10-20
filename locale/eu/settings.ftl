@@ -1055,6 +1055,12 @@ recent-activity-password-reset-otp-sent = Pasahitza berrezartzeko berrespen-kode
 recent-activity-password-reset-otp-verified = Pasahitza berrezartzeko berrespen-kodea egiaztatuta
 recent-activity-must-reset-password = Pasahitz-berrezartzea behar da
 recent-activity-account-recovery-phone-replace-complete = Berreskuratze-telefonoa ordezkatuta
+recent-activity-account-recovery-phone-replace-failure = Berreskuratze-telefonoa ordezkatzeak huts egin du
+recent-activity-account-two-factor-replace-success = Bi urratseko autentifikazioa ordezkatuta
+recent-activity-account-two-factor-replace-failure = Bi urratseko autentifikazioa ordezkatzeak huts egin du
+recent-activity-account-recovery-phone-setup-failed = Berreskuratze-telefonoaren konfigurazioak huts egin du
+recent-activity-account-recovery-phone-reset-password-complete = Pasahitz-berrezartzea berreskuratze-telefonoa erabiliz burututa
+recent-activity-account-recovery-phone-reset-password-failed = Pasahitz-berrezartzeak berreskuratze-telefonoa erabiliz huts egin du
 recent-activity-account-passkey-registration-success = Sarbide-gakoa gehituta
 recent-activity-account-passkey-removed = Sarbide-gakoa kenduta
 # Security event was recorded, but the activity details are unknown or not shown to user
