@@ -161,6 +161,8 @@ subscription-management-nav-payment-details = Ordainketaren xehetasunak
 subscription-management-nav-active-subscriptions = Harpidetza aktiboak
 subscription-management-payment-details-heading = Ordainketaren xehetasunak
 subscription-management-email-label = Helbide elektronikoa
+subscription-management-credit-balance-label = Saldo hartzekoduna
+subscription-management-credit-balance-message = Kreditua automatikoki aplikatuko da etorkizuneko fakturetan
 subscription-management-payment-method-label = Ordainketa-metodoa
 subscription-management-button-add-payment-method-aria = Gehitu ordainketa-metodoa
 subscription-management-button-add-payment-method = Gehitu
@@ -178,6 +180,7 @@ subscription-management-your-active-subscriptions-aria = Zure harpidetza aktiboa
 subscription-management-button-support = Lortu laguntza
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Lortu { $productName } produkturako laguntza
+subscription-management-your-apple-iap-subscriptions-aria = Zure { -brand-apple } aplikazio barneko harpidetzak
 subscription-management-button-manage-subscription-1 = Kudeatu harpidetza
 error-payment-method-banner-title-expired-card = Iraungitako txartela
 error-payment-method-banner-message-add-new-card = Gehitu txartel edo ordainketa-metodo berria zure harpidetzetan etenaldia ekiditeko.
