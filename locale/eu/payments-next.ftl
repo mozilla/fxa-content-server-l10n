@@ -184,6 +184,10 @@ subscription-management-your-apple-iap-subscriptions-aria = Zure { -brand-apple 
 subscription-management-apple-in-app-purchase-2 = { -brand-apple } aplikazio barneko erosketa
 subscription-management-your-google-iap-subscriptions-aria = Zure { -brand-google } aplikazio barneko harpidetzak
 subscription-management-google-in-app-purchase-2 = { -brand-google } aplikazio barneko erosketa
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = Iraungitze-data: { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Kudeatu { $productName } produkturako harpidetza
 subscription-management-button-manage-subscription-1 = Kudeatu harpidetza
 error-payment-method-banner-title-expired-card = Iraungitako txartela
 error-payment-method-banner-message-add-new-card = Gehitu txartel edo ordainketa-metodo berria zure harpidetzetan etenaldia ekiditeko.
@@ -240,6 +244,7 @@ cancel-subscription-heading = Utzi bertan behera { $productName } harpidetza
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
 subscription-content-no-longer-use-message = Ezin izango duzu { $productName } erabili zure fakturazio-zikloaren azken egunaren ondoren, { $currentPeriodEnd }.
+subscription-content-cancel-access-message = Utzi bertan behera { $productName } produkturako nire sarbidea eta gordetako nire informazioa { $currentPeriodEnd } datan
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 
@@ -253,6 +258,7 @@ next-payment-confirm-with-legal-links-static-3 = Baimena ematen diot { -brand-mo
 
 ## $endDate (Date) - The end date of the free trial
 
+checkbox-payment-required-no-charge = Ordainketa-metodoa beharrezkoa da zure doako proba hasteko. Ez zaizu ezer kobratuko { $endDate } egunera arte.
 next-payment-confirm-checkbox-error = Hau osatu behar duzu aurrera egin aurretik
 
 ## Checkout Form
@@ -263,6 +269,8 @@ next-pay-with-heading-paypal = Ordaindu { -brand-paypal } erabiliz
 ## Churn flow - cancel
 
 churn-cancel-flow-success-title = Oraindik harpidetuta zaude
+# $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g, 'you’ll save 10% on your next bill', discountPercent = 10)
+churn-cancel-flow-success-message = Zure harpidetzak jarraitu egingo du eta %{ $discountPercent } aurreztuko duzu zure hurrengo fakturan.
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 churn-cancel-flow-thanks-valued-subscriber = Eskerrik asko { $productName } erabiltzeagatik!
 churn-cancel-flow-button-back-to-subscriptions = Itzuli harpidetzetara
@@ -285,6 +293,9 @@ churn-cancel-flow-button-go-to-product-page = Joan { $productName } produktura
 # The sentence before this informs the customer that they will save a discount on their next bill (e.g. You will save 10% on your next charge of $12 to your PayPal payment method on March 6, 2026.)
 churn-cancel-flow-after = Horren ondoren, zure harpidetza automatikoki berrituko da kuota arruntarekin, harik eta ez duzun bertan behera uzten.
 churn-cancel-flow-cancel-success-title = Sentitzen dugu zu joaten ikusteak
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+churn-cancel-flow-cancel-success-dialog-msg = Zure { $productName } harpidetza bertan behera utzi da. { $productName } erabiltzen jarraitzeko aukera izango duzu { $date } egunera arte.
 churn-cancel-flow-cancel-turn-back-on = Amaitu aurretik noiznahi berraktiba dezakezu zure harpidetza.
 churn-cancel-flow-cancel-success-dialog-aside = Galderak dituzu? Bisitatu <LinkExternal>{ -brand-mozilla } laguntza</LinkExternal>.
 
@@ -330,6 +341,13 @@ next-coupon-submit = Aplikatu
 
 free-trial-content-trial-expires = Zure doako proba { $date } egunean iraungiko da.
 free-trial-content-trial-cancelled = Zure doako proba bertan behera utzi da.
+free-trial-content-charge-info-with-tax-day = Doako proba { $date } egunean amaitu ondoren, eguneko { $amount } + zergetako { $tax } kobratuko zaizu.
+free-trial-content-charge-info-with-tax-week = Doako proba { $date } egunean amaitu ondoren, asteko { $amount } + zergetako { $tax } kobratuko zaizu.
+free-trial-content-charge-info-with-tax-month = Doako proba { $date } egunean amaitu ondoren, hilean { $amount } + zergetako { $tax } kobratuko zaizu.
+free-trial-content-charge-info-with-tax-halfyear = Doako proba { $date } egunean amaitu ondoren, sei hilean behin { $amount } + zergetako { $tax } kobratuko zaizu.
+free-trial-content-charge-info-with-tax-year = Doako proba { $date } egunean amaitu ondoren, urtean { $amount } + zergetako { $tax } kobratuko zaizu.
+free-trial-content-charge-info-with-tax-default = Doako proba { $date } egunean amaitu ondoren, { $amount } + zergetako { $tax } kobratuko zaizu.
+free-trial-content-charge-info-no-tax-day = Doako proba { $date } egunean amaitu ondoren, eguneko { $amount } kobratuko zaizu.
 free-trial-content-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
 free-trial-content-button-cancel-subscription = Utzi harpidetza
 
