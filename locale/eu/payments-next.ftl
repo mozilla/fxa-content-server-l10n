@@ -348,8 +348,20 @@ free-trial-content-charge-info-with-tax-halfyear = Doako proba { $date } egunean
 free-trial-content-charge-info-with-tax-year = Doako proba { $date } egunean amaitu ondoren, urtean { $amount } + zergetako { $tax } kobratuko zaizu.
 free-trial-content-charge-info-with-tax-default = Doako proba { $date } egunean amaitu ondoren, { $amount } + zergetako { $tax } kobratuko zaizu.
 free-trial-content-charge-info-no-tax-day = Doako proba { $date } egunean amaitu ondoren, eguneko { $amount } kobratuko zaizu.
+free-trial-content-charge-info-no-tax-week = Doako proba { $date } egunean amaitu ondoren, asteko { $amount } kobratuko zaizu.
+free-trial-content-charge-info-no-tax-month = Doako proba { $date } egunean amaitu ondoren, hilean { $amount } kobratuko zaizu.
+free-trial-content-charge-info-no-tax-halfyear = Doako proba { $date } egunean amaitu ondoren, sei hilean behin { $amount } kobratuko zaizu.
+free-trial-content-charge-info-no-tax-year = Doako proba { $date } egunean amaitu ondoren, urtean { $amount } kobratuko zaizu.
+free-trial-content-charge-info-no-tax-default = Doako proba { $date } egunean amaitu ondoren, { $amount } kobratuko zaizu.
+free-trial-content-trial-ends = Doako proba { $date } egunean amaitzen da. Eguneratu zure ordainketa-metodoa doako probaren ondoren sarbidea izaten jarraitzeko.
+free-trial-content-trial-active = Zure doako proba aktibo dago.
 free-trial-content-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
+free-trial-content-button-resume-trial = Berrekin probaldia
+free-trial-content-button-resume-trial-aria = Berrekin { $productName } produktuaren probaldia
+free-trial-content-button-cancel-trial = Utzi bertan behera probaldia
+free-trial-content-button-cancel-trial-aria = Utzi bertan behera { $productName } produktuaren probaldia
 free-trial-content-button-cancel-subscription = Utzi harpidetza
+free-trial-content-button-cancel-subscription-aria = Utzi bertan behera { $productName } produktuaren harpidetza
 
 ## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
 ## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
@@ -366,6 +378,7 @@ free-trial-content-link-view-invoice = Ikusi faktura
 free-trial-content-link-view-invoice-aria = Ikusi { $productName } produkturako faktura
 # $date (Date) - The date the free trial ended (e.g., January 16, 2026)
 free-trial-content-trial-ended = Zure doako proba <bold>{ $date }</bold> egunean amaitu zen.
+free-trial-content-could-not-process-payment = Ezin izan dugu zure ordainketa prozesatu. Sarbidea berreskuratzeko, eguneratu zure ordainketa-metodoa. Prozesatzeak 24 ordura arte har litzake eta aldakorra izan liteke banku edo ordainketa-metodoaren arabera.
 free-trial-content-button-update-payment = Eguneratu ordainketa-metodoa
 payments-header-help =
     .alt = Laguntza
@@ -394,6 +407,9 @@ payments-header-avatar-expanded-sign-out = Amaitu saioa
 ## Interstitial Offer
 
 interstitial-offer-success-cancel-title = Sentitzen dugu zu joaten ikusteak
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+# $date (Date) - Last day of product access
+interstitial-offer-cancel-success-dialog-msg = Zure { $productName } harpidetza bertan behera utzi da. { $productName } erabiltzen jarraitzeko aukera izango duzu { $date } egunera arte.
 interstitial-offer-turn-back-on = Amaitu aurretik noiznahi berraktiba dezakezu zure harpidetza.
 interstitial-offer-cancel-success-dialog-aside = Galderak dituzu? Bisitatu <LinkExternal>{ -brand-mozilla } laguntza</LinkExternal>.
 interstitial-offer-button-back-to-subscriptions = Itzuli harpidetzetara
@@ -426,12 +442,17 @@ manage-stripe-payments-title = Kudeatu ordainketa-metodoak
 
 next-plan-details-header = Produktuaren xehetasuna
 next-plan-details-list-price = Prezio zerrenda
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = { $productName } produkturako salneurri proportzionala
 next-plan-details-tax = Zergak eta Tasak
 next-plan-details-total-label = Guztira
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
 purchase-details-unused-time-label = Erabili gabeko denboraren kreditua
+purchase-details-subtotal-label = Subtotala
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = Aplikatutako kreditua
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Ordaintzeko guztira
 next-plan-details-hide-button = Ezkutatu xehetasunak
 next-plan-details-show-button = Erakutsi xehetasunak
 
