@@ -181,6 +181,9 @@ subscription-management-button-support = Lortu laguntza
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Lortu { $productName } produkturako laguntza
 subscription-management-your-apple-iap-subscriptions-aria = Zure { -brand-apple } aplikazio barneko harpidetzak
+subscription-management-apple-in-app-purchase-2 = { -brand-apple } aplikazio barneko erosketa
+subscription-management-your-google-iap-subscriptions-aria = Zure { -brand-google } aplikazio barneko harpidetzak
+subscription-management-google-in-app-purchase-2 = { -brand-google } aplikazio barneko erosketa
 subscription-management-button-manage-subscription-1 = Kudeatu harpidetza
 error-payment-method-banner-title-expired-card = Iraungitako txartela
 error-payment-method-banner-message-add-new-card = Gehitu txartel edo ordainketa-metodo berria zure harpidetzetan etenaldia ekiditeko.
