@@ -2,19 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr "Облікові записи Mozilla"
 
-#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/index.html:3
 msgid "Mozilla logo"
 msgstr "Логотип Mozilla"
 
@@ -30,37 +31,9 @@ msgstr ""
 "Запитану вами сторінку не знайдено. Ми отримали сповіщення та\n"
 "          виправимо усі пошкоджені посилання."
 
-#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
+#: server/templates/pages/src/404.html:5
 msgid "Home"
 msgstr "Домівка"
-
-#: server/templates/pages/src/500.html:3
-msgid "500 Error"
-msgstr "Помилка 500"
-
-#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
-msgid ""
-"Oh dear, something went wrong there. We've been notified and\n"
-"          will get working on a fix."
-msgstr ""
-"Ой, щось пішло не так. Ми отримали сповіщення і\n"
-"          почнемо працювати над виправленням."
-
-#: server/templates/pages/src/502.html:3
-msgid "502 Error"
-msgstr "Помилка 502"
-
-#: server/templates/pages/src/503.html:3
-msgid "Server busy, try again soon"
-msgstr "Сервер зайнятий, спробуйте знову пізніше"
-
-#: server/templates/pages/src/503.html:4
-msgid ""
-"We are currently under heavy strain and are working to return\n"
-"            the system to normal as soon as possible."
-msgstr ""
-"Ми зараз перевантажені й працюємо над якнайшвидшим\n"
-"            поверненням системи до нормального стану."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -69,27 +42,3 @@ msgstr "Завантаження"
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "Для облікових записів Mozilla потрібен JavaScript."
-
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Mozilla account"
-msgstr "Обліковий запис Mozilla"
-
-#: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox update required"
-msgstr "Необхідно оновити Firefox"
-
-#: server/templates/pages/src/update_firefox.html:4
-msgid ""
-"Your Mozilla account makes use of features that are\n"
-"                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
-"                        continue."
-msgstr ""
-"Ваш обліковий запис Mozilla має функції, які не\n"
-"                        підтримуються вашою версією Firefox.\n"
-"                        Завантажте й встановіть найновішу\n"
-"                        версію Firefox, щоб продовжити."
-
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Download latest"
-msgstr "Завантажити найновішу версію"

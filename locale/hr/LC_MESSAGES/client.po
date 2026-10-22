@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Pontoon\n"
@@ -616,8 +618,11 @@ msgid "Invalid Token"
 msgstr "Nevažeći token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
-msgstr "Ako nastaviš, prihvaćaš <a id=\"service-tos\" href=\"%(termsUri)s\">uvjete usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">napomene o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
+msgstr ""
+"Ako nastaviš, prihvaćaš <a id=\"service-tos\" href=\"%(termsUri)s\">uvjete usluge</a> i <a id=\"service-pp\" href=\"%(privacyUri)s\">napomene o privatnosti</a> od %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
@@ -676,39 +681,6 @@ msgstr "Preuzmi Firefox za Android."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Preuzmi Firefox za mobilne uređaje."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
-msgid "Please change your password"
-msgstr "Promijeni lozinku"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:2
-msgid "to continue to %(serviceName)s"
-msgstr "za nastavak na %(serviceName)s"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:5
-msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr "Otkrili smo sumnjivo ponašanje na tvom Mozilla računu. Za zaštitu tvog računa, stvori novu lozinku. Koristit ćeš ovu lozinku za ponovnu prijavu na sve tvoje usluge Mozilla računa."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr "Sinkronizirana povijest, zabilješke, prijave i ostali osobni podaci neće biti izgubljeni."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Stara lozinka"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Nova lozinka"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:9
-msgid "Re-enter new password"
-msgstr "Ponovo upiši novu lozinku"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:10
-msgid "Change password"
-msgstr "Promjena lozinke"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"

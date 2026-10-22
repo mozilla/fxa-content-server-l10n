@@ -2,19 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: rm\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr "Contos Mozilla"
 
-#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/index.html:3
 msgid "Mozilla logo"
 msgstr "Logo da Mozilla"
 
@@ -30,37 +31,9 @@ msgstr ""
 "La pagina che ti has dumandà n'è betg vegnida chattada. Nus essan infurmads\n"
 "          e vegnin a curreger eventuals defects da colliaziuns."
 
-#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
+#: server/templates/pages/src/404.html:5
 msgid "Home"
 msgstr "Chasa"
-
-#: server/templates/pages/src/500.html:3
-msgid "500 Error"
-msgstr "Errur 500"
-
-#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
-msgid ""
-"Oh dear, something went wrong there. We've been notified and\n"
-"          will get working on a fix."
-msgstr ""
-"Oh, qua è cumparì in problem. Nus essan infurmads\n"
-"          e lavurain per curreger l'errur."
-
-#: server/templates/pages/src/502.html:3
-msgid "502 Error"
-msgstr "Errur 502"
-
-#: server/templates/pages/src/503.html:3
-msgid "Server busy, try again soon"
-msgstr "Il server è surchargià, emprova bainprest anc ina giada"
-
-#: server/templates/pages/src/503.html:4
-msgid ""
-"We are currently under heavy strain and are working to return\n"
-"            the system to normal as soon as possible."
-msgstr ""
-"Actualmain è il sistem surchargià. Nus lavurain per ch'il sistem stettia\n"
-"          bainprest puspè a disposiziun sco usità."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -69,27 +42,3 @@ msgstr "Chargiar"
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "Ils contos Mozilla pretendan JavaScript."
-
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Mozilla account"
-msgstr "conto Mozilla"
-
-#: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox update required"
-msgstr "In'actualisaziun da Firefox è necessaria"
-
-#: server/templates/pages/src/update_firefox.html:4
-msgid ""
-"Your Mozilla account makes use of features that are\n"
-"                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
-"                        continue."
-msgstr ""
-"Tes conto Mozilla fa diever da differentas funcziunalitads che\n"
-"                        na vegnan betg sustegnidas da tia versiun da Firefox. Telechargia\n"
-"                        per plaschair la versiun la pli nova da Firefox per\n"
-"                        cuntinuar."
-
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Download latest"
-msgstr "Telechargiar la pli nova"

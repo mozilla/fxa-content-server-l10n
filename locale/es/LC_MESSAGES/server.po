@@ -2,19 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr "Cuentas de Mozilla"
 
-#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/index.html:3
 msgid "Mozilla logo"
 msgstr "Logotipo de Mozilla"
 
@@ -30,37 +31,9 @@ msgstr ""
 "No se ha encontrado la página que has solicitado. Hemos sido notificados y\n"
 "arreglaremos cualquier enlace que pueda estar roto."
 
-#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
+#: server/templates/pages/src/404.html:5
 msgid "Home"
 msgstr "Inicio"
-
-#: server/templates/pages/src/500.html:3
-msgid "500 Error"
-msgstr "Error 500"
-
-#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
-msgid ""
-"Oh dear, something went wrong there. We've been notified and\n"
-"          will get working on a fix."
-msgstr ""
-"¡Ups! Parece que hubo un problema. Nos ha llegado la notificación y\n"
-" estamos buscando una solución."
-
-#: server/templates/pages/src/502.html:3
-msgid "502 Error"
-msgstr "Error 502"
-
-#: server/templates/pages/src/503.html:3
-msgid "Server busy, try again soon"
-msgstr "Servidor ocupado, vuelve a intentarlo en unos segundos"
-
-#: server/templates/pages/src/503.html:4
-msgid ""
-"We are currently under heavy strain and are working to return\n"
-"            the system to normal as soon as possible."
-msgstr ""
-"Estamos ahora mismo bajo mucha presión y trabajando para\n"
-"             restablecer el sistema lo antes posible."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -69,27 +42,3 @@ msgstr "Cargando"
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "Cuentas de Mozilla requiere JavaScript."
-
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Mozilla account"
-msgstr "Cuenta de Mozilla"
-
-#: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox update required"
-msgstr "Se necesita actualizar Firefox"
-
-#: server/templates/pages/src/update_firefox.html:4
-msgid ""
-"Your Mozilla account makes use of features that are\n"
-"                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
-"                        continue."
-msgstr ""
-"Tu cuenta de Mozilla usa características que\n"
-"                        no admite tu versión de Firefox. Por favor,\n"
-"                        descarga e instala la última versión de Firefox para\n"
-"                        continuar."
-
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Download latest"
-msgstr "Descargar la última versión"

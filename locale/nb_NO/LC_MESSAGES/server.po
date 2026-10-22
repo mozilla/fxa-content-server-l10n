@@ -2,19 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr "Mozilla-kontoer"
 
-#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/index.html:3
 msgid "Mozilla logo"
 msgstr "Mozilla-logo"
 
@@ -30,37 +31,9 @@ msgstr ""
 "Den forespurte siden ble ikke funnet. Vi har blitt varslet,\n"
 "          og vil fikse de lenker som ikke virker."
 
-#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
+#: server/templates/pages/src/404.html:5
 msgid "Home"
 msgstr "Hjem"
-
-#: server/templates/pages/src/500.html:3
-msgid "500 Error"
-msgstr "500-feil"
-
-#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
-msgid ""
-"Oh dear, something went wrong there. We've been notified and\n"
-"          will get working on a fix."
-msgstr ""
-"Å nei, noe gikk galt. Vi har blitt informert og\n"
-"          vil gå i gang med å løse problemet."
-
-#: server/templates/pages/src/502.html:3
-msgid "502 Error"
-msgstr "Feil 502"
-
-#: server/templates/pages/src/503.html:3
-msgid "Server busy, try again soon"
-msgstr "Server opptatt, prøv igjen senere"
-
-#: server/templates/pages/src/503.html:4
-msgid ""
-"We are currently under heavy strain and are working to return\n"
-"            the system to normal as soon as possible."
-msgstr ""
-"Vi er for tiden under stor belastning og arbeider for at systemet\n"
-"            så snart som mulig skal fungere normalt igjen."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -69,27 +42,3 @@ msgstr "Laster"
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "Mozilla-kontoer krever JavaScript."
-
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Mozilla account"
-msgstr "Mozilla-konto"
-
-#: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox update required"
-msgstr "Firefox-oppdatering kreves"
-
-#: server/templates/pages/src/update_firefox.html:4
-msgid ""
-"Your Mozilla account makes use of features that are\n"
-"                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
-"                        continue."
-msgstr ""
-"Din Mozilla-konto bruker funksjoner som ikke er\n"
-"                        støttet i din versjon av Firefox. Last ned\n"
-"                        og installer den siste versjonen av Firefox for å\n"
-"                        fortsette."
-
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Download latest"
-msgstr "Last ned siste"
