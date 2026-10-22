@@ -2,19 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr "Mozilla тіркелгілері"
 
-#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/index.html:3
 msgid "Mozilla logo"
 msgstr "Mozilla логотипі"
 
@@ -30,37 +31,9 @@ msgstr ""
 "Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық,\n"
 "          және қате бола алатын сілтемелерді жөндейміз."
 
-#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
+#: server/templates/pages/src/404.html:5
 msgid "Home"
 msgstr "Үй"
-
-#: server/templates/pages/src/500.html:3
-msgid "500 Error"
-msgstr "500 қатесі"
-
-#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
-msgid ""
-"Oh dear, something went wrong there. We've been notified and\n"
-"          will get working on a fix."
-msgstr ""
-"Әттеген-ай, бірнәрсе қате кетіп қалды. Ол туралы біз хабарды алдық,\n"
-"          және оны түзетуге кірістік."
-
-#: server/templates/pages/src/502.html:3
-msgid "502 Error"
-msgstr "502 қатесі"
-
-#: server/templates/pages/src/503.html:3
-msgid "Server busy, try again soon"
-msgstr "Сервер бос емес, біраздан кейін қайталап көріңіз"
-
-#: server/templates/pages/src/503.html:4
-msgid ""
-"We are currently under heavy strain and are working to return\n"
-"            the system to normal as soon as possible."
-msgstr ""
-"Біз ағымдағы уақытта тым көп сұраным алудамыз, және де\n"
-"            жүйемізді мүмкіндігінше тезірек қалпына келтіруге жұмыс істеп жатырмыз."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -69,27 +42,3 @@ msgstr "Жүктелу"
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "Mozilla тіркелгілері JavaScript-ті талап етеді."
-
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Mozilla account"
-msgstr "Mozilla тіркелгісі"
-
-#: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox update required"
-msgstr "Firefox жаңартуы қажет"
-
-#: server/templates/pages/src/update_firefox.html:4
-msgid ""
-"Your Mozilla account makes use of features that are\n"
-"                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
-"                        continue."
-msgstr ""
-"Mozilla тіркелгілері сіздің ағымдағы Firefox нұсқасы қолдау\n"
-"                        көрсетпейтін мүмкіндіктерді қолданады.\n"
-"                        Жалғастыру үшін Firefox соңғы нұсқасын жүктеп алып,\n"
-"                        орнатыңыз."
-
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Download latest"
-msgstr "Соңғы нұсқасын жүктеп алу"

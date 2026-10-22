@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "Generated-By: Pontoon\n"
@@ -616,7 +618,9 @@ msgid "Invalid Token"
 msgstr "Jeton nevalid"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Prin continuare, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Condițiile de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Notificarea privind "
 "confidenţialitatea</a> %(serviceName)s (%(serviceUri)s)."
@@ -678,41 +682,6 @@ msgstr "Descarcă Firefox pentru Android."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Descarcă Firefox pentru dispozitive mobile."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
-msgid "Please change your password"
-msgstr "Te rugăm să îți schimbi parola"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:2
-msgid "to continue to %(serviceName)s"
-msgstr "pentru a continua pe %(serviceName)s"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:5
-msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
-"Am detectat un comportament suspect în contul tău Mozilla. Pentru a-ți proteja contul, te rugăm să creezi o parolă nouă. O vei folosi pentru a te conecta din nou la toate serviciile contului tău "
-"Mozilla."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr "Istoricul, marcajele, datele de autentificare și alte date personale sincronizate nu se vor pierde."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Parola veche"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Parola nouă"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:9
-msgid "Re-enter new password"
-msgstr "Reintrodu noua parolă"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:10
-msgid "Change password"
-msgstr "Schimbă parola"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"

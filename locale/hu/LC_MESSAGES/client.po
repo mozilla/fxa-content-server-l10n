@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
@@ -616,7 +618,9 @@ msgid "Invalid Token"
 msgstr "Érvénytelen token"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "A folytatással elfogadja a %(serviceName)s (%(serviceUri)s) <a id=\"service-tos\" href=\"%(termsUri)s\">Felhasználási feltételeit</a> és az <a id=\"service-pp\" href=\"%(privacyUri)s\">Adatvédelmi "
 "irányelveket</a>."
@@ -678,41 +682,6 @@ msgstr "Töltse le a Firefox for Androidot."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "A Firefox letöltése mobileszközökre."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
-msgid "Please change your password"
-msgstr "Változtassa meg a jelszavát"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:2
-msgid "to continue to %(serviceName)s"
-msgstr "ahhoz, hogy továbbmenjen erre: %(serviceName)s"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:5
-msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
-"Gyanús viselkedést észleltünk Mozilla-fiókjában. Fiókja védelme érdekében hozzon létre egy új jelszót. Ezt a jelszót fogja használni, hogy újra bejelentkezzen az összes Mozilla-fiókhoz kapcsolódó "
-"szolgáltatásba."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr "A szinkronizált előzmények, könyvjelzők, bejelentkezések és egyéb személyes adatok nem vesznek el."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Régi jelszó"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Új jelszó"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:9
-msgid "Re-enter new password"
-msgstr "Új jelszó megerősítése"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:10
-msgid "Change password"
-msgstr "Jelszó megváltoztatása"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"

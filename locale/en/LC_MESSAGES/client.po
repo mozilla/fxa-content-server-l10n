@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-12 20:18+0000\n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "PO-Revision-Date: 2014-09-03 08:41+0000\n"
 "Last-Translator: Zachary <zcarter@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -682,39 +682,6 @@ msgstr ""
 
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
-msgstr ""
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
-msgid "Please change your password"
-msgstr ""
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:2
-msgid "to continue to %(serviceName)s"
-msgstr ""
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:5
-msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr ""
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr ""
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr ""
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:9
-msgid "Re-enter new password"
-msgstr ""
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:10
-msgid "Change password"
 msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1

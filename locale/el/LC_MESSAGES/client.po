@@ -2,9 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
@@ -616,7 +618,9 @@ msgid "Invalid Token"
 msgstr "Μη έγκυρο διακριτικό"
 
 #: .es5/lib/strings.js:26
-msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
+msgid ""
+"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
+"(%(serviceUri)s)."
 msgstr ""
 "Συνεχίζοντας, αποδέχεστε τους <a id=\"service-tos\" href=\"%(termsUri)s\">Όρους παροχής υπηρεσιών</a> και τη <a id=\"service-pp\" href=\"%(privacyUri)s\">Δήλωση απορρήτου</a> της υπηρεσίας "
 "%(serviceName)s(%(serviceUri)s)."
@@ -678,41 +682,6 @@ msgstr "Λήψη του Firefox για Android."
 #: .es5/templates/marketing_snippet.mustache:10
 msgid "Download Firefox for mobile devices."
 msgstr "Λήψη του Firefox για κινητές συσκευές."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:1 .es5/templates/post_verify/password/force_password_change.mustache:4
-msgid "Please change your password"
-msgstr "Αλλάξτε τον κωδικό πρόσβασής σας"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:2
-msgid "to continue to %(serviceName)s"
-msgstr "για να συνεχίσετε στο %(serviceName)s"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:5
-msgid ""
-"We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
-"Ανιχνεύσαμε ύποπτη συμπεριφορά στον λογαριασμό Mozilla σας. Για την προστασία του λογαριασμού σας, δημιουργήστε έναν νέο κωδικό πρόσβασης. Θα τον χρησιμοποιήσετε για την επανασύνδεση σε όλες τις "
-"υπηρεσίες του λογαριασμού Mozilla σας."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:6
-msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
-msgstr "Το συγχρονισμένο ιστορικό, οι σελιδοδείκτες, οι συνδέσεις και άλλα προσωπικά δεδομένα δεν θα χαθούν."
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:7
-msgid "Old password"
-msgstr "Παλιός κωδικός πρόσβασης"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:8
-msgid "New password"
-msgstr "Νέος κωδικός πρόσβασης"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:9
-msgid "Re-enter new password"
-msgstr "Εισαγάγετε ξανά τον νέο κωδικό πρόσβασης"
-
-#: .es5/templates/post_verify/password/force_password_change.mustache:10
-msgid "Change password"
-msgstr "Αλλαγή κωδικού πρόσβασης"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"

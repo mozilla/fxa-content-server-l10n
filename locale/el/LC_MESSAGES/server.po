@@ -2,19 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
 msgstr "Λογαριασμοί Mozilla"
 
-#: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
-#: server/templates/pages/src/update_firefox.html:2
+#: server/templates/pages/src/404.html:2 server/templates/pages/src/index.html:3
 msgid "Mozilla logo"
 msgstr "Λογότυπο Mozilla"
 
@@ -30,37 +31,9 @@ msgstr ""
 "Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα\n"
 "          διορθώσουμε τυχόν συνδέσμους που ίσως έχουν χαλάσει."
 
-#: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
+#: server/templates/pages/src/404.html:5
 msgid "Home"
 msgstr "Αρχική"
-
-#: server/templates/pages/src/500.html:3
-msgid "500 Error"
-msgstr "Σφάλμα 500"
-
-#: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
-msgid ""
-"Oh dear, something went wrong there. We've been notified and\n"
-"          will get working on a fix."
-msgstr ""
-"Ωχ, κάτι πήγε στραβά. Έχουμε ειδοποιηθεί και θα αρχίσουμε\n"
-"          να εργαζόμαστε για να το διορθώσουμε."
-
-#: server/templates/pages/src/502.html:3
-msgid "502 Error"
-msgstr "Σφάλμα 502"
-
-#: server/templates/pages/src/503.html:3
-msgid "Server busy, try again soon"
-msgstr "Απασχολημένος διακομιστής, δοκιμάστε ξανά σύντομα"
-
-#: server/templates/pages/src/503.html:4
-msgid ""
-"We are currently under heavy strain and are working to return\n"
-"            the system to normal as soon as possible."
-msgstr ""
-"Αυτήν τη στιγμή, έχουμε μεγάλο φόρτο εργασίας και εργαζόμαστε ώστε να επαναφέρουμε\n"
-"            το σύστημα στην κανονική του λειτουργία το συντομότερο δυνατόν."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -69,27 +42,3 @@ msgstr "Φόρτωση"
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
 msgstr "Για τη χρήση των λογαριασμών Mozilla είναι απαραίτητη η ενεργοποίηση της JavaScript."
-
-#: server/templates/pages/src/update_firefox.html:1
-msgid "Mozilla account"
-msgstr "Λογαριασμός Mozilla"
-
-#: server/templates/pages/src/update_firefox.html:3
-msgid "Firefox update required"
-msgstr "Απαιτείται ενημέρωση του Firefox"
-
-#: server/templates/pages/src/update_firefox.html:4
-msgid ""
-"Your Mozilla account makes use of features that are\n"
-"                        not supported in your version of Firefox. Please\n"
-"                        download and install the latest version of Firefox to\n"
-"                        continue."
-msgstr ""
-"Ο λογαριασμός Mozilla σας χρησιμοποιεί λειτουργίες που δεν\n"
-"                        υποστηρίζονται στην έκδοση του Firefox σας.\n"
-"                        Κάντε λήψη και εγκατάσταση της πιο πρόσφατης\n"
-"                        έκδοσης του Firefox για να συνεχίσετε."
-
-#: server/templates/pages/src/update_firefox.html:5
-msgid "Download latest"
-msgstr "Λήψη τελευταίας έκδοσης"
