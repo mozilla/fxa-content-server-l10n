@@ -2251,7 +2251,7 @@ reset-password-complete-recovery-key-download-info = Mae'r allwedd hon yn hanfod
 ## Shown when the server fails to handle a request
 
 server-error-heading = Gwall 500
-server-error-description = O diar, aeth rhywbeth o'i le yno. Rydym wedi cael ein hysbysu a byddwn yn dechrau gweithio ar atgyweiriad.
+server-error-description = O diar, aeth rhywbeth o'i le yno. Rydym wedi cael ein hysbysu a byddwn yn dechrau gweithio ar ei drwsio.
 server-error-home-button = Cartref
 
 ## CompleteSignin component
