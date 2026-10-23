@@ -313,6 +313,10 @@ confetti-falling-image-aria-label =
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = { -brand-firefox } logoa
+# This id is referenced by `PasswordSuccessImage` but was never added here, so
+# the aria-label has been falling back to English in every locale.
+password-success-image-aria-label =
+    .aria-label = Pasahitza ondo aldatu dela irudikatzen duen ilustrazioa.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -372,6 +376,8 @@ link-expired-new-link-button = Jaso lotura berria
 
 # immediately before remember-password-signin-link
 remember-password-text = Gogoratu pasahitza?
+# shown in the password reset flow when the account may have a passkey; immediately before remember-password-signin-link
+remember-password-passkey-text = Sarbide-gakoa duzu edo pasahitza gogoratzen duzu?
 # link navigates to the sign in page
 remember-password-signin-link = Hasi saioa
 
@@ -399,6 +405,7 @@ password-info-balloon-reset-risk-info = Berrezartze batek pasahitzak eta laster-
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Hautatu aurretik beste guneetan erabili ez duzun pasahitz sendo bat. Ziurtatu segurtasun-eskakizunak betetzen dituela:
 password-strength-short-instruction = Hautatu pasahitz sendoa:
 password-strength-inline-min-length = Gutxienez 8 karaktere
 password-strength-inline-not-email = Ezin da zure helbide elektronikoa izan
