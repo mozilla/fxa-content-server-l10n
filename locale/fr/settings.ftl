@@ -2217,7 +2217,7 @@ reset-password-complete-recovery-key-download-info = Cette clé est essentielle 
 ## Shown when the server fails to handle a request
 
 server-error-heading = Erreur 500
-server-error-description = Oups, une erreur s’est produite. Nous avons été informés et allons mettre au point un correctif.
+server-error-description = Une erreur s’est produite. Nous en avons été avertis et allons mettre au point un correctif.
 server-error-home-button = Accueil
 
 ## CompleteSignin component
