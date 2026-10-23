@@ -1934,6 +1934,9 @@ pair2-supplicant-connect-hint-learn-more-link = Argibide gehiago
 ## scan with the mobile device comes from.
 
 pair2-supplicant-ready-to-scan-heading = Gailu bat konektatzeko
+# <b> emphasises the address the user types on their computer. It is not a link,
+# and the address itself must not be translated.
+pair2-supplicant-ready-to-scan-instruction = Zure ordenagailuan, ireki { -brand-firefox }, zoaz <b>firefox.com/pair</b> helbidera, eta jarraitu gailu mugikor hau konektatzeko pantailako argibideak.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Argibide gehiago
 
@@ -1951,6 +1954,8 @@ pair2-supplicant-sync-success-description-v2 = Sinkronizazioa lanean ari da. Den
 ## in to an account. All states are informational and offer no on-screen action,
 ## so the copy points the user back to their computer to start again.
 
+# Shown when the pairing attempt expired before it completed. "we" is Firefox.
+pair2-supplicant-timeout-and-cancel-timeout-heading = Badirudi denbora-muga gainditu dugula
 # Shown after the pairing attempt was canceled
 pair2-supplicant-timeout-and-cancel-cancelled-heading = Bertan behera utzita
 # Shown when the mobile browser is already signed in to an account, so pairing cannot sign it in to another one
@@ -1982,7 +1987,11 @@ force-password-change-data-info = Sinkronizatutako historia, laster-markak, saio
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
 
+service-welcome-signup-success-banner = { -product-mozilla-account } berretsita
 service-welcome-signin-success-banner = Saioa ondo hasi da!
+# In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
+service-welcome-vpn-heading = Hurrengoa: aktibatu VPNa
+service-welcome-vpn-description = Urrats bat gehiago zure nabigatzailearen pribatutasunari bultzada emateko. Zoaz irekita dagoen panelera eta aktiba ezazu.
 
 ## SetPassword page for passwordless flow
 ## Users who signed in via passwordless OTP and need to create a password for Sync
@@ -2197,11 +2206,23 @@ signin-passkey-fallback-forgot-password-link = Pasahitza ahaztu duzu?
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Idatzi berrespen-kodea
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationMinutes (Number) - the expiration time in minutes
+signin-passwordless-code-instruction =
+    { $expirationMinutes ->
+        [one] Idatzi <email>{ $email }</email> helbidera bidali den kodea minutu bateko epean.
+       *[other] Idatzi <email>{ $email }</email> helbidera bidali den kodea { $expirationMinutes } minutuko epean.
+    }
 signin-passwordless-code-input-label-v2 = Idatzi 6 digituko kodea
 signin-passwordless-code-confirm-button = Berretsi
 signin-passwordless-code-required-error = Berrespen-kodea behar da
 signin-passwordless-code-expired = Kodea iraungita?
 signin-passwordless-code-resend-link = Bidali kode berria posta elektronikora.
+signin-passwordless-code-resend-error = Zerbait gaizki joan da. Ezin izan da kode berri bat bidali.
 signin-passwordless-code-other-account-link = Erabili beste kontu bat
 
 ## Signin recovery method page
@@ -2308,6 +2329,8 @@ signin-totp-code-header = Hasi saioa
 signin-totp-code-subheader-v2 = Sartu bi urratseko autentifikazio kodea
 signin-totp-code-instruction-v4 = Egiaztatu zure <strong>autentifikazio-aplikazioa</strong> saioa hastea berresteko.
 signin-totp-code-input-label-v4 = Sartu 6 digituko kodea
+# Shown to users when they need to re-enter their authentication code, for their current device
+signin-totp-code-aal-banner-header = Zergatik eskatzen zaizu autentifikatzea?
 signin-totp-code-aal-sign-out = Amaitu gailu honetako saioa
 signin-totp-code-aal-sign-out-error = Barkatu, arazo bat gertatu da zure saioa amaitzean
 # Form button to confirm if the authentication code entered by the user is valid
@@ -2369,6 +2392,8 @@ confirm-signup-code-desktop-relay = { -brand-firefox } saioa hasi ondoren posta 
 
 signup-heading-v2 = Sortu pasahitza
 signup-relay-info = Pasahitz bat behar da maskaratutako mezu elektronikoak modu seguruan kudeatzeko eta { -brand-mozilla }-ren segurtasun-tresnetara atzitzeko.
+signup-sync-info = Sinkronizatu zure pasahitzak, laster-markak eta gehiago { -brand-firefox } erabiltzen duzun toki guztietan.
+signup-sync-info-with-payment = Sinkronizatu zure pasahitzak, ordainketa-metodoak, laster-markak eta gehiago { -brand-firefox } erabiltzen duzun toki guztietan.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Aldatu helbide elektronikoa
 
@@ -2376,7 +2401,11 @@ signup-change-email-link = Aldatu helbide elektronikoa
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = Sinkronizazioa aktibo dago
+signup-confirmed-sync-success-banner = { -product-mozilla-account } berretsita
 signup-confirmed-sync-button = Hasi nabigatzen
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Zure pasahitzak, ordainketa-metodoak, helbideak, laster-markak, historia eta gehiago { -brand-firefox } erabiltzen duzun toki guztietan sinkroniza daiteke.
+signup-confirmed-sync-description-v2 = Zure pasahitzak, helbideak, laster-markak, historia eta gehiago { -brand-firefox } erabiltzen duzun toki guztietan sinkroniza daiteke.
 signup-confirmed-sync-add-device-link = Gehitu beste gailu bat
 signup-confirmed-sync-manage-sync-button = Kudeatu sinkronizazioa
 signup-confirmed-sync-set-password-success-banner = Sinkronizatzeko pasahitza sortuta
