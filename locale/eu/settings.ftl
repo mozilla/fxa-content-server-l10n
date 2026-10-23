@@ -2056,6 +2056,13 @@ reset-password-complete-recovery-key-download-info =
     datuak berreskuratzeko pasahitza ahazten baduzu. <b>Deskargatu eta gorde ezazu
     modu seguruan orain, ezin izango baikara orri honetara berriro sartu geroago</b>
 
+## ServerError page
+## Shown when the server fails to handle a request
+
+server-error-heading = 500 errorea
+server-error-description = Ai ene, zerbait gaizki joan da. Jaso dugu abisua eta arazoa konpontzen saiatuko gara.
+server-error-home-button = Hasiera
+
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
