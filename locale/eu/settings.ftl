@@ -1094,6 +1094,10 @@ recent-activity-account-passkey-wrap-created = Sarbide-gakoa sinkronizaziorako g
 recent-activity-account-passkey-wrap-creation-failure = Sarbide-gako bidezko sinkronizazioaren konfigurazioak huts egin du
 # A passkey is a sign-in method that replaces a password. This string is shown when a passkey that could unlock the user's synced browser data had that access turned off, leaving the passkey itself usable for signing in.
 recent-activity-account-passkey-wrap-deleted = Sarbide-gako bidezko sinkronizaziorako sarbidea kenduta
+# A passkey is a sign-in method that replaces a password. This string is shown when an attempt to turn off a passkey's access to the user's synced browser data did not complete.
+recent-activity-account-passkey-wrap-deletion-failure = Sarbide-gako bidezko sinkronizaziorako sarbidea kentzeak huts egin du
+# A passkey is a sign-in method that replaces a password. Resetting a forgotten password re-encrypts the user's synced browser data, which their passkeys can no longer unlock. This string is shown when that happened and the passkeys need to be set up for syncing again.
+recent-activity-account-passkey-wrap-invalidated = Sarbide-gako bidezko sinkronizaziorako sarbidea kenduta pasahitza berrezarri ondoren
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Beste kontuaren jarduera
 
@@ -1172,6 +1176,7 @@ inactive-update-status-success-alert = Behar bezala hasi da saioa. Zure { -produ
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Aurkitu zure informazio pribatua non agertzen den eta hartu kontrola
 # Links out to the Monitor site
 product-promo-monitor-cta = Lortu eskaneatzea doan
 product-promo-vpn =
@@ -1488,6 +1493,8 @@ oauth-error-1000 = Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro.
 ## Passkey error messages
 ## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
 
+# The ceremony timed out before the user responded
+passkey-registration-error-timeout = Sarbide-gakoaren konfigurazioa utzi egin da. Saiatu berriro.
 passkey-registration-canceled-v2 = Sarbide-gakoaren konfigurazioa denboraz kanpo edo bertan behera utzi da.
 # Link label appended after passkey-registration-canceled-v2, opens a SUMO support article.
 passkey-registration-canceled-link = Argibide gehiago
@@ -1501,9 +1508,32 @@ passkey-registration-error-not-supported-link = Argibide gehiago
 passkey-registration-error-could-not-complete = Sarbide-gakoen konfigurazioa ezin da burutu. Saiatu beste metodo edo gailu batekin.
 # Link label appended after passkey-registration-error-could-not-complete, opens a SUMO support article.
 passkey-registration-error-could-not-complete-link = Argibide gehiago
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe, wrong domain)
+passkey-registration-error-security = Sarbide-gakoak ezin dira orri honetan konfiguratu. Erabili gune segurua eta saiatu berriro.
+# A credential for this RP already exists on the authenticator (excludeCredentials match)
+passkey-registration-error-invalid-state = Sarbide-gako hau erregistratuta dago jada. Erabil ezazu saioa hasteko edo gehitu beste sarbide-gako bat.
+# Attestation constraints or device-specific restrictions can't be met
+passkey-registration-error-constraint = Sarbide-gakoaren konfigurazioa ez dago gailu honetarako erabilgarri. Probatu beste metodo edo gailu bat.
+# Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
+passkey-registration-error-unexpected = Sarbide-gakoaren konfigurazioak huts egin du. Saiatu berriro edo aukeratu beste metodo bat.
+# Shown as a warning (not error) banner when a passkey sign-in is cancelled, no passkey is
+# available on this device, or the authenticator can't satisfy the request. Copy stays neutral and
+# points the user to another way to sign in.
+passkey-authentication-trouble-heading = Ezin izan da sarbide-gako bidez saioa hasi
+# Shown when a passkey sign-in doesn't complete. "Try again" means retry signing in with the
+# passkey; "another sign-in option" means one of the other sign-in methods offered alongside it.
+passkey-authentication-trouble-description = Saiatu berriro edo erabili saioa hasteko beste aukera bat.
 # Label for the support link in the passkey sign-in trouble message; opens a SUMO article about
 # using passkeys.
 passkey-authentication-trouble-link = Nola erabili sarbide-gakoak
+# User already registered a device
+passkey-authentication-error-not-allowed-existing = Sarbide-gakoaren konfigurazioa ez dago gailu honetarako erabilgarri. Saiatu berriro edo aukeratu beste metodo bat.
+# The ceremony timed out before the user responded
+passkey-authentication-error-timeout = Sarbide-gakoaren eskaeraren denbora-muga gaindituta. Saiatu berriro mesedez.
+# Shown in a warning (not error) banner when the passkey sign-in ceremony times out.
+passkey-authentication-error-timeout-v2 = Sarbide-gako bidezko saio-hasieraren denbora-muga gaindituta. Saiatu berriro.
+# Browser or platform does not support passkeys
+passkey-authentication-error-not-supported-v2 = Zure nabigatzaile edo gailuak ez ditu sarbide-gakoak onartzen.
 
 ## Connect Another Device page
 
@@ -1829,8 +1859,10 @@ pair2-authority-sync-success-sync-settings-button-v2 = Kudeatu sinkronizazio-eza
 ## either because it timed out or because it was canceled. Both cases offer to
 ## start pairing over again.
 
+pair2-authority-timeout-and-cancel-timeout-description = Badirudi denbora-muga gainditu dugula. Saiatu berriro oraindik ere zure gailu mugikorra konektatu eta zure { -brand-firefox } datuak sinkronizatu nahi badituzu.
 # Shown when the pairing attempt was canceled, on either device
 pair2-authority-timeout-and-cancel-cancelled-heading = Bertan behera utzita
+pair2-authority-timeout-and-cancel-canceled-description = Iritziz aldatzen baduzu edo beste gailu bat konektatu nahi baduzu, saiatu berriro.
 # Restarts the pairing flow
 pair2-authority-timeout-and-cancel-try-again-button = Saiatu berriro
 # Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
@@ -1841,6 +1873,9 @@ pair2-authority-timeout-and-cancel-sync-settings-button = Sinkronizazio-ezarpena
 ## shown on their computer. It waits for them to approve the sign-in on the
 ## computer, and shows that computer's details so they can verify the request.
 
+# "sync" is a verb here, referring to syncing data between the user's devices
+pair2-supplicant-approve-sign-in-heading = Sinkronizatzeko azken urrats bat
+pair2-supplicant-approve-sign-in-instruction = Onartu saio-hasiera zure ordenagailuan.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Utzi
 
@@ -1850,6 +1885,9 @@ pair2-supplicant-approve-sign-in-cancel-button = Utzi
 ## device to their account, and shows that computer's details so they can
 ## verify the request.
 
+# "this device" is the mobile device the user is holding, not the computer
+# whose details are shown below the heading
+pair2-supplicant-connect-this-device-heading = Konektatu gailu hau zure kontura?
 # Confirms the pairing attempt
 pair2-supplicant-connect-this-device-connect-button = Konektatu
 # Dismisses the pairing attempt
