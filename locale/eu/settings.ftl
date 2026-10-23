@@ -447,6 +447,8 @@ account-recovery-notification-header-value = Ez galdu zure datuak pasahitza ahaz
 account-recovery-notification-header-description = Sortu kontua berreskuratzeko gako bat, zure sinkronizazioaren arakatze-datuak leheneratu ahal izateko pasahitza ahazten baduzu.
 recovery-phone-promo-cta = Gehitu berreskuratze-telefonoa
 recovery-phone-promo-heading = Gehitu aparteko babesa zure kontuan berreskuratze-telefonoa erabilita
+recovery-phone-promo-description = Orain SMS bidez aldi bakarreko pasahitzarekin has dezakezu saioa ezin baduzu zure bi urratseko autentifikazio-aplikazioa erabili.
+recovery-phone-promo-info-link = Berreskuratzeari eta SIM swap arriskuari buruzko argibide gehiago
 promo-banner-dismiss-button =
     .aria-label = Baztertu iragarki-banda
 
@@ -715,6 +717,8 @@ flow-setup-2fa-backup-choice-phone-info = Jaso berreskuratze-kodea testu-mezu bi
 flow-setup-2fa-backup-choice-code-title = Segurtasuneko autentifikazio-kodeak
 flow-setup-2fa-backup-choice-code-badge = Seguruena
 flow-setup-2fa-backup-choice-code-info = Sortu eta gorde erabilpen bakarreko autentifikazio-kodeak.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Berreskuratzeari eta SIM swap arriskuari buruzko argibide gehiago
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -1068,8 +1072,28 @@ recent-activity-account-two-factor-replace-failure = Bi urratseko autentifikazio
 recent-activity-account-recovery-phone-setup-failed = Berreskuratze-telefonoaren konfigurazioak huts egin du
 recent-activity-account-recovery-phone-reset-password-complete = Pasahitz-berrezartzea berreskuratze-telefonoa erabiliz burututa
 recent-activity-account-recovery-phone-reset-password-failed = Pasahitz-berrezartzeak berreskuratze-telefonoa erabiliz huts egin du
+# A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
+recent-activity-account-mfa-otp-sent = Kontu-aldaketarako baimena eskatuta
+# The user successfully entered the code emailed to authorize a sensitive account change.
+recent-activity-account-mfa-otp-verified = Kontu-aldaketa baimenduta
+# The user entered an incorrect or expired code when trying to authorize a sensitive account change.
+recent-activity-account-mfa-otp-failed = Kontu-aldaketarako baimena emateak huts egin du
 recent-activity-account-passkey-registration-success = Sarbide-gakoa gehituta
+recent-activity-account-passkey-registration-failure = Sarbide-gakoa erregistratzeak huts egin du
 recent-activity-account-passkey-removed = Sarbide-gakoa kenduta
+recent-activity-account-passkey-authentication-success = Sarbide-gako bidezko saio-hasiera burututa
+recent-activity-account-passkey-authentication-failure = Sarbide-gako bidezko saio-hasierak huts egin du
+recent-activity-account-passwordless-login-otp-sent = Pasahitz gabeko saio-hasierarako kodea bidalita
+recent-activity-account-passwordless-login-otp-failed = Pasahitz gabeko saio-hasierarako kodeak huts egin du
+recent-activity-account-passwordless-login-otp-verified = Pasahitz gabeko saio-hasierarako kodea egiaztatuta
+recent-activity-account-passwordless-registration-complete = Pasahitz gabeko kontuaren erregistroa burututa
+recent-activity-account-recovery-codes-set = Berreskuratze-kodeak ezarrita
+# A passkey is a sign-in method that replaces a password. This string is shown when a passkey was set up so it can also unlock the user's synced browser data (bookmarks, history, open tabs), which previously required their password.
+recent-activity-account-passkey-wrap-created = Sarbide-gakoa sinkronizaziorako gaituta
+# A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
+recent-activity-account-passkey-wrap-creation-failure = Sarbide-gako bidezko sinkronizazioaren konfigurazioak huts egin du
+# A passkey is a sign-in method that replaces a password. This string is shown when a passkey that could unlock the user's synced browser data had that access turned off, leaving the passkey itself usable for signing in.
+recent-activity-account-passkey-wrap-deleted = Sarbide-gako bidezko sinkronizaziorako sarbidea kenduta
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Beste kontuaren jarduera
 
