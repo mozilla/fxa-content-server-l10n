@@ -2178,7 +2178,9 @@ reset-password-complete-recovery-key-download-info = 萬一您忘記密碼時，
 ## ServerError page
 ## Shown when the server fails to handle a request
 
-server-error-heading = 錯誤 500
+server-error-heading = 500 錯誤
+server-error-description = 抱歉，有些東西怪怪的，我們已經通知相關人員，將會修復此問題。
+server-error-home-button = 首頁
 
 ## CompleteSignin component
 
