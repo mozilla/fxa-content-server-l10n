@@ -2226,7 +2226,7 @@ reset-password-complete-recovery-key-download-info =
 ## Shown when the server fails to handle a request
 
 server-error-heading = Error 500
-server-error-description = Oh querido, algo salió mal allí. Hemos sido notificados y trabajaremos para solucionarlo.
+server-error-description = ¡Ups! Algo resultó mal. Nos llegó la notificación y estamos buscando una solución.
 server-error-home-button = Inicio
 
 ## CompleteSignin component

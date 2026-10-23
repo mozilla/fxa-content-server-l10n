@@ -2209,7 +2209,7 @@ reset-password-complete-recovery-key-download-info = Questa chiave è essenziale
 ## Shown when the server fails to handle a request
 
 server-error-heading = Errore 500
-server-error-description = Oddio, qualcosa è andato storto. Abbiamo ricevuto una notifica e lavoreremo per risolvere il problema.
+server-error-description = Si è verificato un comportamento anomalo dell’applicazione. Ci è stata inviata la segnalazione del problema e cercheremo di risolverlo quanto prima.
 server-error-home-button = Pagina iniziale
 
 ## CompleteSignin component

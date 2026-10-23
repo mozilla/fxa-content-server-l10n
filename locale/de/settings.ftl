@@ -2223,7 +2223,7 @@ reset-password-complete-recovery-key-download-info = Dieser Schlüssel wird für
 ## Shown when the server fails to handle a request
 
 server-error-heading = Fehler 500
-server-error-description = Oje, da ist etwas schiefgegangen. Wir wurden benachrichtigt und arbeiten an einer Lösung.
+server-error-description = Oje, etwas ist schiefgegangen. Wir wurden darüber informiert und arbeiten an einer Lösung.
 server-error-home-button = Startseite
 
 ## CompleteSignin component
