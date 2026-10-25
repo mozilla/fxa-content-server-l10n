@@ -2229,6 +2229,7 @@ reset-password-complete-recovery-key-download-info =
 ## Shown when the server fails to handle a request
 
 server-error-heading = Σφάλμα 500
+server-error-description = Ωχ, κάτι πήγε στραβά. Έχουμε ενημερωθεί και θα ξεκινήσουμε αμέσως να το διορθώνουμε.
 server-error-home-button = Αρχική
 
 ## CompleteSignin component

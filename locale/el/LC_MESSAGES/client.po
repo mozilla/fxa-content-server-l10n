@@ -659,7 +659,7 @@ msgstr "Σφάλμα 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr "Αγαπητέ χρήση, κάτι πήγε στραβά. Έχουμε ειδοποιηθεί και θα αρχίσουμε να εργαζόμαστε πάνω σε μια διόρθωση."
+msgstr "Ωχ, κάτι πήγε στραβά. Έχουμε ενημερωθεί και θα ξεκινήσουμε αμέσως να το διορθώνουμε."
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
