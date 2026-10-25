@@ -239,9 +239,9 @@ passwordResetAccountRecovery-information = Odhlásili sme vás zo všetkých va�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Odhlásili sme vás zo všetkých vašich synchronizovaných zariadení. Vytvorili sme nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste používali. Môžete ho zmeniť v nastaveniach účtu:
 passwordResetAccountRecovery-action-4 = Spravovať účet
-passwordResetRecoveryPhone-subject = Bolo použité obnovenie pomocou telefónu
+passwordResetRecoveryPhone-subject = Bol použitý telefón obnovenie prístupu k účtu
 passwordResetRecoveryPhone-preview = Skontrolujte, či ste to boli vy
-passwordResetRecoveryPhone-title = Na potvrdenie zmeny hesla bol použitý telefón na obnovenie prístupu
+passwordResetRecoveryPhone-title = Na potvrdenie zmeny hesla bol použitý telefón na obnovenie prístupu k účtu
 passwordResetRecoveryPhone-device = Obnovenie pomocou telefónu bolo použité na zariadení:
 passwordResetRecoveryPhone-action = Spravovať účet
 passwordResetWithRecoveryKeyPrompt-subject = Vaše heslo bolo zmenené
@@ -310,7 +310,7 @@ postChangePrimary-title = Nová hlavná e‑mailová adresa
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Úspešne ste zmenili svoju hlavnú e‑mailovú adresu na { $email }. Táto adresa bude odteraz slúžiť ako vaše prihlasovacie meno k { -product-mozilla-account(capitalization: "lower", case: "dat") } a na zasielanie bezpečnostných upozornení a potvrdení.
 postChangePrimary-action = Spravovať účet
-postChangeRecoveryPhone-subject = Telefónne číslo na obnovenie prístupu bolo aktualizované
+postChangeRecoveryPhone-subject = Telefónne číslo na obnovenie prístupu k účtu bolo aktualizované
 postChangeRecoveryPhone-preview = Účet chránený dvojstupňovým overením
 postChangeRecoveryPhone-title = Zmenili ste si telefónne číslo na obnovenie prístupu
 postChangeRecoveryPhone-description = Teraz máte nové telefónne číslo na obnovenie prístupu. Vaše predchádzajúce telefónne číslo bolo odstránené.
