@@ -1066,23 +1066,23 @@ recent-activity-account-secondary-email-removed = Alternatívna e‑mailová adr
 recent-activity-account-emails-swapped = Hlavná a alternatívna e‑mailová adresa boli vzájomne vymenené
 recent-activity-session-destroy = Odhlásený z relácie
 recent-activity-account-recovery-phone-send-code = Kód bol odoslaný na telefónne číslo na obnovenie prístupu
-recent-activity-account-recovery-phone-setup-complete = Obnovenie pomocou telefónu bolo nastavené
-recent-activity-account-recovery-phone-signin-complete = Prihlásenie pomocou telefónu na obnovenie bolo dokončené
-recent-activity-account-recovery-phone-signin-failed = Prihlásenie pomocou telefónu na obnovenie zlyhalo
-recent-activity-account-recovery-phone-removed = Obnovenie pomocou telefónu bolo zrušené
+recent-activity-account-recovery-phone-setup-complete = Nastavenie telefónu na obnovenie prístupu bolo dokončené
+recent-activity-account-recovery-phone-signin-complete = Prihlásenie pomocou telefónu na obnovenie prístupu bolo dokončené
+recent-activity-account-recovery-phone-signin-failed = Prihlásenie pomocou telefónu na obnovenie prístupu zlyhalo
+recent-activity-account-recovery-phone-removed = Telefónne číslo na obnovenie prístupu bolo odstránené
 recent-activity-account-recovery-codes-replaced = Obnovovacie kódy boli vymenené
 recent-activity-account-recovery-codes-created = Boli vytvorené obnovovacie kódy
 recent-activity-account-recovery-codes-signin-complete = Prihláste sa pomocou obnovovacích kódov
 recent-activity-password-reset-otp-sent = Potvrdzovací kód pre zmenu hesla bol odoslaný
 recent-activity-password-reset-otp-verified = Potvrdzovací kód pre zmenu hesla bol overený
 recent-activity-must-reset-password = Vyžaduje sa zmena hesla
-recent-activity-account-recovery-phone-replace-complete = Obnovenie pomocou telefónu bolo nahradené
-recent-activity-account-recovery-phone-replace-failure = Nahradenie obnovenia pomocou telefónu zlyhalo
+recent-activity-account-recovery-phone-replace-complete = Telefónne číslo na obnovenie prístupu bolo vymenené
+recent-activity-account-recovery-phone-replace-failure = Výmena telefónu na obnovenie prístupu zlyhala
 recent-activity-account-two-factor-replace-success = Dvojstupňové overenie nahradené
 recent-activity-account-two-factor-replace-failure = Nahradenie dvojstupňového overenia zlyhalo
-recent-activity-account-recovery-phone-setup-failed = Obnovenie pomocou telefónu zlyhalo
-recent-activity-account-recovery-phone-reset-password-complete = Obnovenie hesla pomocou telefónu na obnovenie bolo dokončené
-recent-activity-account-recovery-phone-reset-password-failed = Obnovenie hesla pomocou telefónu na obnovenie zlyhalo
+recent-activity-account-recovery-phone-setup-failed = Nastavenie telefónu na obnovenie prístupu zlyhalo
+recent-activity-account-recovery-phone-reset-password-complete = Obnovenie hesla pomocou telefónu na obnovenie prístupu bolo dokončené
+recent-activity-account-recovery-phone-reset-password-failed = Obnovenie hesla pomocou telefónu na obnovenie prístupu zlyhalo
 # A code was emailed to the user to authorize a sensitive account change (e.g. removing 2FA, deleting the account).
 recent-activity-account-mfa-otp-sent = Vyžiadaná autorizácia zmeny účtu
 # The user successfully entered the code emailed to authorize a sensitive account change.
@@ -1123,16 +1123,16 @@ recovery-key-create-back-button-title = Späť na nastavenia
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
-recovery-phone-remove-header = Odstránenie možnosti obnovy pomocou telefónu
+recovery-phone-remove-header = Odstránenie telefónneho čísla na obnovenie prístupu
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = Týmto odstránite číslo <strong>{ $formattedFullPhoneNumber }</strong> ako telefónne číslo na obnovenie účtu.
+settings-recovery-phone-remove-info = Týmto odstránite číslo <strong>{ $formattedFullPhoneNumber }</strong> ako telefónne číslo na obnovenie prístupu k účtu.
 settings-recovery-phone-remove-recommend = Odporúčame vám ponechať si túto metódu, pretože je jednoduchšia ako ukladanie záložných overovacích kódov.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
 settings-recovery-phone-remove-recovery-methods = Ak ho vymažete, uistite sa, že máte stále uložené záložné overovacie kódy. <linkExternal>Porovnať spôsoby obnovenia prístupu</linkExternal>
 settings-recovery-phone-remove-button = Odstrániť telefónne číslo
 settings-recovery-phone-remove-cancel = Zrušiť
-settings-recovery-phone-remove-success = Obnovenie pomocou telefónu bolo zrušené
+settings-recovery-phone-remove-success = Telefónne číslo na obnovenie prístupu bolo odstránené
 
 ## PageSetupRecoveryPhone
 
