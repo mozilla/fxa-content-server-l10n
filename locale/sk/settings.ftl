@@ -456,8 +456,8 @@ promo-qr-mobile-qr-alt =
 account-recovery-notification-cta = Vytvoriť
 account-recovery-notification-header-value = Ak zabudnete heslo, neprídete o svoje údaje
 account-recovery-notification-header-description = Vytvorte si kľúč na obnovenie účtu na obnovenie synchronizovaných údajov prehliadania, ak niekedy zabudnete svoje heslo.
-recovery-phone-promo-cta = Pridajte obnovenie pomocou telefónu
-recovery-phone-promo-heading = Pridajte svojmu účtu dodatočnú ochranu vďaka obnoveniu pomocou telefónu
+recovery-phone-promo-cta = Pridať telefón na obnovenie prístupu
+recovery-phone-promo-heading = Pridajte svojmu účtu dodatočnú ochranu pomocou telefónu na obnovenie prístupu
 recovery-phone-promo-description = Ak nemôžete použiť overovaciu aplikáciu, teraz sa môžete prihlásiť jednorazovým heslom zaslaným cez SMS.
 recovery-phone-promo-info-link = Ďalšie informácie o obnovení a rizikách pri výmene SIM karty
 promo-banner-dismiss-button =
@@ -718,7 +718,7 @@ flow-setup-2fa-code-error = Neplatný alebo vypršaný kód. Skontrolujte overov
 
 flow-setup-2fa-backup-choice-heading = Vyberte spôsob obnovenia prístupu
 flow-setup-2fa-backup-choice-description = To vám umožní prihlásiť sa, ak nemáte prístup k mobilnému zariadeniu alebo overovacej aplikácii.
-flow-setup-2fa-backup-choice-phone-title = Obnovenie pomocou telefónu
+flow-setup-2fa-backup-choice-phone-title = Telefón na obnovenie prístupu
 flow-setup-2fa-backup-choice-phone-badge = Najjednoduchšie
 flow-setup-2fa-backup-choice-phone-info = Získajte kód na obnovenie prostredníctvom textovej správy. Momentálne k dispozícii v USA a Kanade.
 flow-setup-2fa-backup-choice-code-title = Záložné overovacie kódy
@@ -749,7 +749,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Pokračovať
 flow-setup-2fa-inline-complete-success-banner = Dvojstupňové overenie bolo povolené
 flow-setup-2fa-inline-complete-success-banner-description = Ak chcete chrániť všetky pripojené zariadenia, mali by ste sa odhlásiť všade, kde používate tento účet, a potom sa znova prihlásiť pomocou nového dvojstupňového overenia.
 flow-setup-2fa-inline-complete-backup-code = Záložné overovacie kódy
-flow-setup-2fa-inline-complete-backup-phone = Obnovenie pomocou telefónu
+flow-setup-2fa-inline-complete-backup-phone = Telefón na obnovenie prístupu
 # $count (Number) - an integer representing the number of backup
 # authentication codes remaining
 flow-setup-2fa-inline-complete-backup-code-info =
@@ -795,8 +795,8 @@ flow-setup-phone-confirm-code-button = Potvrdiť
 flow-setup-phone-confirm-code-expired = Platnosť kódu vypršala?
 flow-setup-phone-confirm-code-resend-code-button = Znova odoslať kód
 flow-setup-phone-confirm-code-resend-code-success = Kód bol odoslaný
-flow-setup-phone-confirm-code-success-message-v2 = Obnovenie pomocou telefónu bolo pridané
-flow-change-phone-confirm-code-success-message = Obnovenie pomocou telefónu bolo zmenené
+flow-setup-phone-confirm-code-success-message-v2 = Telefónne číslo na obnovenie prístupu bolo pridané
+flow-change-phone-confirm-code-success-message = Telefónne číslo na obnovenie prístupu bolo zmenené
 flow-setup-phone-submit-number-heading = Overte svoje telefónne číslo
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Dostanete textovú správy od { -brand-mozilla(case: "gen") } s kódom na overenie vášho čísla. S nikým tento kód nezdieľajte.
@@ -804,7 +804,7 @@ flow-setup-phone-verify-number-instruction = Dostanete textovú správy od { -br
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = Obnovenie pomocou telefónu je k dispozícii iba v Spojených štátoch a Kanade. VoIP čísla a telefónne masky sa neodporúčajú.
+flow-setup-phone-submit-number-info-message-v2 = Telefón na obnovenie prístupu je k dispozícii iba v Spojených štátoch a Kanade. Čísla VoIP a masky telefónov sa neodporúčajú.
 flow-setup-phone-submit-number-legal = Poskytnutím svojho čísla súhlasíte s jeho uložením, aby sme vám mohli posielať textové správy na overenie účtu. Môžu sa účtovať poplatky za správy a dáta.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Odoslať kód
@@ -1065,7 +1065,7 @@ recent-activity-account-secondary-email-added = Bola pridaná alternatívna e‑
 recent-activity-account-secondary-email-removed = Alternatívna e‑mailová adresa bola odstránená
 recent-activity-account-emails-swapped = Hlavná a alternatívna e‑mailová adresa boli vzájomne vymenené
 recent-activity-session-destroy = Odhlásený z relácie
-recent-activity-account-recovery-phone-send-code = Kód na obnovenie bol odoslaný na telefónne číslo
+recent-activity-account-recovery-phone-send-code = Kód bol odoslaný na telefónne číslo na obnovenie prístupu
 recent-activity-account-recovery-phone-setup-complete = Obnovenie pomocou telefónu bolo nastavené
 recent-activity-account-recovery-phone-signin-complete = Prihlásenie pomocou telefónu na obnovenie bolo dokončené
 recent-activity-account-recovery-phone-signin-failed = Prihlásenie pomocou telefónu na obnovenie zlyhalo
@@ -2396,7 +2396,7 @@ signin-recovery-code-required-error = Vyžaduje sa záložný overovací kód
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-use-phone-failure = Pri odosielaní kódu na váš telefón na obnovenie sa vyskytol problém
+signin-recovery-code-use-phone-failure = Pri odosielaní kódu na váš telefón na obnovenie prístupu sa vyskytol problém
 signin-recovery-code-use-phone-failure-description = Skúste to znova neskôr.
 
 ## SigninRecoveryPhone page
@@ -2421,7 +2421,7 @@ signin-recovery-phone-invalid-code-error-description = Kód je neplatný alebo j
 signin-recovery-phone-invalid-code-error-link = Chcete namiesto toho použiť záložné overovacie kódy?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
-signin-recovery-phone-success-message = Úspešne ste sa prihlásili. Ak znova použijete telefón na obnovenie, môžu platiť limity.
+signin-recovery-phone-success-message = Úspešné prihlásenie. Ak znova použijete telefón na obnovenie prístupu, môžu sa uplatňovať obmedzenia.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
