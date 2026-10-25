@@ -1483,7 +1483,7 @@ auth-error-206 = Nie je možné vytvoriť heslo, heslo je už nastavené
 auth-error-214 = Telefónne číslo na obnovenie už existuje
 auth-error-215 = Telefónne číslo na obnovenie neexistuje
 auth-error-216 = Bol dosiahnutý limit textových správ
-auth-error-218 = Obnovenie pomocou telefónu nie je možné odstrániť, chýbajú záložné overovacie kódy.
+auth-error-218 = Telefón na obnovenie prístupu sa nepodarilo odstrániť, chýbajú záložné overovacie kódy.
 auth-error-219 = Toto telefónne číslo bolo zaregistrované s príliš veľkým počtom účtov. Skúste iné číslo.
 auth-error-224 = Prístupový kľúč sa nenašiel
 auth-error-225 = Prístupový kľúč je už zaregistrovaný
@@ -2204,7 +2204,7 @@ password-reset-recovery-method-code-info =
        *[other] Zostáva { $numBackupCodes } kódov
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-password-reset-recovery-method-send-code-error-heading = Pri odosielaní kódu na váš telefón na obnovenie sa vyskytol problém
+password-reset-recovery-method-send-code-error-heading = Pri odosielaní kódu na váš telefón na obnovenie prístupu sa vyskytol problém
 password-reset-recovery-method-send-code-error-description = Skúste to znova neskôr alebo použite záložné overovacie kódy.
 
 ## ResetPasswordRecoveryPhone page
@@ -2370,7 +2370,7 @@ signin-recovery-method-code-info-v2 =
        *[other] Zostáva { $numBackupCodes } kódov
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-signin-recovery-method-send-code-error-heading = Pri odosielaní kódu na váš telefón na obnovenie sa vyskytol problém
+signin-recovery-method-send-code-error-heading = Pri odosielaní kódu na váš telefón na obnovenie prístupu sa vyskytol problém
 signin-recovery-method-send-code-error-description = Skúste to znova neskôr alebo použite záložné overovacie kódy.
 
 ## SigninRecoveryCode page
