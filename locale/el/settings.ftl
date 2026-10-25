@@ -150,7 +150,7 @@ device-info-ip-address = Διεύθυνση IP: { $ipAddress }
 
 firefox-promo-banner-mobile-heading = Αποκτήστε το { -brand-firefox } σε όλες τις συσκευές σας
 firefox-promo-banner-mobile-description = Συγχρονίστε τις καρτέλες, τους σελιδοδείκτες και τους κωδικούς πρόσβασής σας με τις συσκευές σας. Επιπλέον, όλα παραμένουν κρυπτογραφημένα.
-firefox-promo-banner-mobile-cta = Συνδέστε μια συσκευή
+firefox-promo-banner-mobile-cta = Σύνδεση συσκευής
 firefox-promo-banner-switch-heading = Γρήγορη μετάβαση. Εύκολη ρύθμιση.
 firefox-promo-banner-switch-description = Όταν κάνετε τη μετάβαση στο { -brand-firefox }, μπορείτε να μεταφέρετε τους σελιδοδείκτες, τους κωδικούς πρόσβασης, το ιστορικό σας και πολλά άλλα, ώστε να κάνετε περιήγηση όπως πριν.
 firefox-promo-banner-switch-cta = Μετάβαση στο { -brand-firefox }
@@ -576,7 +576,7 @@ cs-refresh-button =
     .title = Ανανέωση συνδεδεμένων υπηρεσιών
 # Button under the "Connected services" header that starts the flow to pair
 # another device to the user's account.
-cs-connect-device-button = Συνδέστε μια συσκευή
+cs-connect-device-button = Σύνδεση συσκευής
 # Link text to a support page on missing or duplicate devices
 cs-missing-device-help = Απουσία ή διπλή παρουσία στοιχείων;
 cs-disconnect-sync-heading = Αποσύνδεση από το Sync
