@@ -1323,7 +1323,7 @@ row-defaults-status = Žiadne
 
 passkey-row-header = Prístupové kľúče
 passkey-row-enabled = Povolený
-passkey-row-not-set = Nenastavený
+passkey-row-not-set = Nie sú nastavené
 passkey-row-action-create = Vytvoriť
 passkey-row-description = Zjednodušte si prihlasovanie a zabezpečte ho pomocou telefónu alebo iného podporovaného zariadenia na prístup do svojho účtu.
 # External link to a support article about passkeys.
