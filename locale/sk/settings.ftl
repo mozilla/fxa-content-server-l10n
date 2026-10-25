@@ -1070,9 +1070,9 @@ recent-activity-account-recovery-phone-setup-complete = Nastavenie telefónu na 
 recent-activity-account-recovery-phone-signin-complete = Prihlásenie pomocou telefónu na obnovenie prístupu bolo dokončené
 recent-activity-account-recovery-phone-signin-failed = Prihlásenie pomocou telefónu na obnovenie prístupu zlyhalo
 recent-activity-account-recovery-phone-removed = Telefónne číslo na obnovenie prístupu bolo odstránené
-recent-activity-account-recovery-codes-replaced = Obnovovacie kódy boli vymenené
-recent-activity-account-recovery-codes-created = Boli vytvorené obnovovacie kódy
-recent-activity-account-recovery-codes-signin-complete = Prihláste sa pomocou obnovovacích kódov
+recent-activity-account-recovery-codes-replaced = Kódy na obnovenie boli vymenené
+recent-activity-account-recovery-codes-created = Kódy na obnovenie boli vytvorené
+recent-activity-account-recovery-codes-signin-complete = Prihláste sa pomocou kódov na obnovenie
 recent-activity-password-reset-otp-sent = Potvrdzovací kód pre zmenu hesla bol odoslaný
 recent-activity-password-reset-otp-verified = Potvrdzovací kód pre zmenu hesla bol overený
 recent-activity-must-reset-password = Vyžaduje sa zmena hesla
@@ -1098,7 +1098,7 @@ recent-activity-account-passwordless-login-otp-sent = Kód na prihlásenie bez h
 recent-activity-account-passwordless-login-otp-failed = Kód na prihlásenie bez hesla zlyhal
 recent-activity-account-passwordless-login-otp-verified = Kód na prihlásenie bez hesla bol overený
 recent-activity-account-passwordless-registration-complete = Registrácia účtu bez hesla dokončená
-recent-activity-account-recovery-codes-set = Obnovovacie kódy boli vytvorené
+recent-activity-account-recovery-codes-set = Kódy na obnovenie boli vytvorené
 # A passkey is a sign-in method that replaces a password. This string is shown when a passkey was set up so it can also unlock the user's synced browser data (bookmarks, history, open tabs), which previously required their password.
 recent-activity-account-passkey-wrap-created = Prístupový kľúč bol povolený na synchronizáciu
 # A passkey is a sign-in method that replaces a password. This string is shown when an attempt to set a passkey up to unlock the user's synced browser data did not complete.
@@ -2211,7 +2211,7 @@ password-reset-recovery-method-send-code-error-description = Skúste to znova ne
 
 reset-password-recovery-phone-flow-heading = Zmeniť heslo
 # A recovery code in context of this page is a one time code sent to the user's phone
-reset-password-recovery-phone-heading = Zadajte obnovovací kód
+reset-password-recovery-phone-heading = Zadajte kód na obnovenie
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 reset-password-recovery-phone-instruction-v3 = Na telefónne číslo končiace číslicami <span>{ $lastFourPhoneDigits }</span> bol prostredníctvom textovej správy odoslaný šesťmiestny kód. Platnosť tohto kódu vyprší po 5 minútach. Nezdieľajte tento kód s nikým.
@@ -2403,7 +2403,7 @@ signin-recovery-code-use-phone-failure-description = Skúste to znova neskôr.
 
 signin-recovery-phone-flow-heading = Prihlásenie
 # A recovery code in context of this page is a one time code sent to the user's phone
-signin-recovery-phone-heading = Zadajte obnovovací kód
+signin-recovery-phone-heading = Zadajte kód na obnovenie
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 signin-recovery-phone-instruction-v3 = Na telefónne číslo končiace číslicami <span>{ $lastFourPhoneDigits }</span> bol prostredníctvom textovej správy odoslaný šesťmiestny kód. Platnosť tohto kódu vyprší po 5 minútach. Nezdieľajte tento kód s nikým.
