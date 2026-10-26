@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-22 20:16+0000\n"
+"POT-Creation-Date: 2026-10-26 20:17+0000\n"
 "Language: fy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11,11 +11,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1
 msgid "Mozilla accounts"
 msgstr "Mozilla-accounts"
 
-#: server/templates/pages/src/404.html:2 server/templates/pages/src/index.html:3
+#: server/templates/pages/src/404.html:2
 msgid "Mozilla logo"
 msgstr "Mozilla-logo"
 
@@ -32,11 +32,3 @@ msgstr "De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen 
 #: server/templates/pages/src/404.html:5
 msgid "Home"
 msgstr "Start"
-
-#: server/templates/pages/src/index.html:2
-msgid "Loading"
-msgstr "Lade"
-
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
-msgstr "Mozilla-accounts fereaskje JavaScript."
