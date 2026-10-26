@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-22 20:16+0000\n"
+"POT-Creation-Date: 2026-10-26 20:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.10.0-rc1\n"
 
-#: server/templates/pages/src/404.html:1 server/templates/pages/src/index.html:1
+#: server/templates/pages/src/404.html:1
 msgid "Mozilla accounts"
 msgstr ""
 
-#: server/templates/pages/src/404.html:2 server/templates/pages/src/index.html:3
+#: server/templates/pages/src/404.html:2
 msgid "Mozilla logo"
 msgstr ""
 
@@ -32,12 +32,4 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:5
 msgid "Home"
-msgstr ""
-
-#: server/templates/pages/src/index.html:2
-msgid "Loading"
-msgstr ""
-
-#: server/templates/pages/src/index.html:4
-msgid "Mozilla accounts require JavaScript."
 msgstr ""
