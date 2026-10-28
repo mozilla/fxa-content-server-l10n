@@ -1464,6 +1464,7 @@ auth-error-226 = Sarbide-gakoen mugara heldu da
 auth-error-227 = Sarbide-gakoa autentifikatzeak huts egin du
 auth-error-228 = Sarbide-gakoa erregistratzeak huts egin du
 auth-error-233 = Sarbide-gako bat sortzeko, konfiguratu pantailaren blokeoa, PINa, hatz-marka, edo aurpegiaren ezagutza zure gailuan edo segurtasun-giltzan. Gero saiatu berriro.
+auth-error-238 = Sarbide-gakoaren erronkak huts egin du
 auth-error-240 = Kontu hau desgaitu egin da
 auth-error-999 = Espero gabeko errorea
 auth-error-1001 = Saio-hasiera saiakera utzita
@@ -1493,6 +1494,12 @@ oauth-error-1000 = Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro.
 ## Passkey error messages
 ## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
 
+# User cancelled or dismissed the browser prompt, or the authenticator could not satisfy the options
+passkey-registration-error-not-allowed = Sarbide-gakoaren konfigurazioak huts egin du edo ez dago erabilgarri. Saiatu berriro edo aukeratu beste metodo bat.
+# Shown on NotAllowedError when the account already has passkeys (excludeCredentials was sent).
+# Firefox collapses user-cancel and duplicate-authenticator into the same error, but duplicate is
+# the far more likely cause when the user has existing passkeys, so we state it plainly.
+passkey-registration-error-not-allowed-existing = Sarbide-gakoaren konfigurazioa ez dago gailu honetarako erabilgarri. Gailua dagoneko erregistratuta edo konfigurazio-prozesua bertan behera utzita dago.
 # The ceremony timed out before the user responded
 passkey-registration-error-timeout = Sarbide-gakoaren konfigurazioa utzi egin da. Saiatu berriro.
 passkey-registration-canceled-v2 = Sarbide-gakoaren konfigurazioa denboraz kanpo edo bertan behera utzi da.
@@ -1512,6 +1519,8 @@ passkey-registration-error-could-not-complete-link = Argibide gehiago
 passkey-registration-error-security = Sarbide-gakoak ezin dira orri honetan konfiguratu. Erabili gune segurua eta saiatu berriro.
 # A credential for this RP already exists on the authenticator (excludeCredentials match)
 passkey-registration-error-invalid-state = Sarbide-gako hau erregistratuta dago jada. Erabil ezazu saioa hasteko edo gehitu beste sarbide-gako bat.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-registration-error-not-readable = Ezin izan dugu autentifikatzailea atzitu. Saiatu berriro edo erabili beste metodo bat.
 # Attestation constraints or device-specific restrictions can't be met
 passkey-registration-error-constraint = Sarbide-gakoaren konfigurazioa ez dago gailu honetarako erabilgarri. Probatu beste metodo edo gailu bat.
 # Catch-all for unexpected errors during registration (TypeError, DataError, EncodingError, OperationError, UnknownError)
@@ -1526,6 +1535,8 @@ passkey-authentication-trouble-description = Saiatu berriro edo erabili saioa ha
 # Label for the support link in the passkey sign-in trouble message; opens a SUMO article about
 # using passkeys.
 passkey-authentication-trouble-link = Nola erabili sarbide-gakoak
+# User cancelled or dismissed the browser prompt, or no passkey is available / verification failed
+passkey-authentication-error-not-allowed = Sarbide-gako bidezko saio-hasierak huts egin du edo ez dago erabilgarri. Saiatu berriro edo aukeratu beste metodo bat.
 # User already registered a device
 passkey-authentication-error-not-allowed-existing = Sarbide-gakoaren konfigurazioa ez dago gailu honetarako erabilgarri. Saiatu berriro edo aukeratu beste metodo bat.
 # The ceremony timed out before the user responded
@@ -1534,6 +1545,18 @@ passkey-authentication-error-timeout = Sarbide-gakoaren eskaeraren denbora-muga 
 passkey-authentication-error-timeout-v2 = Sarbide-gako bidezko saio-hasieraren denbora-muga gaindituta. Saiatu berriro.
 # Browser or platform does not support passkeys
 passkey-authentication-error-not-supported-v2 = Zure nabigatzaile edo gailuak ez ditu sarbide-gakoak onartzen.
+# RP ID / origin mismatch, or insecure context (e.g., embedded iframe)
+passkey-authentication-error-security = Sarbide-gakoak ezin dira orri honetan erabili. Egiaztatu gune seguru zuzenean zaudela eta saiatu berriro.
+# Unexpected credential state during authentication
+passkey-authentication-error-invalid-state = Zerbait gaizki joan da zure sarbide-gakoarekin. Saiatu berriro edo erabili saioa hasteko beste metodo bat.
+# Authenticator I/O failure (e.g., security key disconnected mid-ceremony)
+passkey-authentication-error-not-readable = Ezin izan dugu autentifikatzailea atzitu. Saiatu berriro edo erabili saioa hasteko beste metodo bat.
+# Catch-all for unexpected errors during authentication (TypeError, DataError, EncodingError, ConstraintError, OperationError, UnknownError)
+passkey-authentication-error-unexpected = Zerbait gaizki joan da. Saiatu berriro edo aukeratu saioa hasteko beste metodo bat.
+# Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
+# that no longer exists on the account (e.g., the user deleted the passkey
+# from their account but the authenticator still has the credential).
+passkey-authentication-error-not-found = Sarbide-gakoa ez da ezagutzen. Erabili saioa hasteko beste metodo bat.
 
 ## Connect Another Device page
 
@@ -1593,8 +1616,12 @@ index-email-bounced = Zure berrespen-mezu elektronikoa itzuli berri da. Helbide 
 
 ## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
 
+# Browser tab title.
+inline-passwordless-sync-setup-page-title = Saltatu pasahitza hurrengoan?
 # Success banner after signing in.
 inline-passwordless-sync-setup-success-banner-v2 = Saioa hasita duzu eta sinkronizazioa aktibo dago
+inline-passwordless-sync-setup-heading = Saltatu pasahitza hurrengoan?
+inline-passwordless-sync-setup-description = Erabili sarbide-gako hau saioa azkarrago hasteko.
 inline-passwordless-sync-setup-enable-button = Gaitu sarbide-gakoa
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Gaitzen…
@@ -1679,6 +1706,10 @@ pair-auth-complete-manage-devices-link = Kudeatu gailuak
 
 # Heading
 pair-auth-complete-send-tab-heading = Fitxak bidaltzeko prest zaude
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-send-tab-device-connected = { $deviceOS } sistemarako { $deviceFamily } konektatuta dago.
+pair-auth-complete-send-tab-benefits = Aukera duzu irekitako fitxak, pasahitzak eta laster-markak gailuen artean berehala bidaltzeko.
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1710,6 +1741,7 @@ pair-wait-for-supp-heading-text = Onarpena behar da <span>beste gailutik</span>
 
 # v2: Updated wording to align with the legacy Backbone pair/failure copy.
 pair-failure-header-v2 = Gailua parekatzeak huts egin du
+pair-failure-message-v2 = Ezin izan da konfigurazioa osatu. Hasi saioa zure helbide elektronikoarekin mesedez.
 pair-failure-try-again-link = Saiatu berriro
 
 ## Pair index page
@@ -1762,11 +1794,16 @@ pair-password-created-now-syncing = Pasahitza sortuta. Sinkronizatzen ari zara o
 
 # Subheader for the download screen
 pair-download-subheader = Deskargatu mugikorrerako { -brand-firefox }
+# Description for the download screen
+pair-download-description = { -brand-firefox } zure telefono edo tabletan sinkronizatzeko, lehenik eta behin mugikorrerako { -brand-firefox } deskargatu behar duzu. Hona hemen nola:
+# Button on the download screen that opens about:preferences for pairing
+pair-continue-to-sync-button = Jarraitu sinkronizatzeko
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Gailua konektatua
 pair-success-message-2 = Parekatzea ondo egin da.
+pair-success-tab-close-message = Fitxa hau automatikoki itxiko du { -brand-firefox }(e)k.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -2232,6 +2269,7 @@ back = Atzera
 
 signin-passkey-fallback-header = Amaitu saio-hasiera
 signin-passkey-fallback-heading = Idatzi zure pasahitza sinkronizatzeko
+signin-passkey-fallback-body = Zure datuak seguru mantentzeko, zure pasahitza idatzi behar duzu sarbide-gako hau erabiltzean.
 signin-passkey-fallback-password-label = Pasahitza
 signin-passkey-fallback-continue = Jarraitu
 signin-passkey-fallback-forgot-password-link = Pasahitza ahaztu duzu?
@@ -2240,6 +2278,7 @@ signin-passkey-fallback-forgot-password-link = Pasahitza ahaztu duzu?
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
 
 signin-passwordless-code-heading = Idatzi berrespen-kodea
+signin-passwordless-code-subheading = Saio-hasierak urrats bakarra behar du kode hau erabiltzen duzunean.
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
