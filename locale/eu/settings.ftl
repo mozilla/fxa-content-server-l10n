@@ -1398,6 +1398,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Bi urratseko autentifikazioa desgaituta
 tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
+tfa-row-verify-session-info = Zure uneko saioa berretsi behar duzu bi urratseko autentifikazioa konfiguratzeko
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1465,6 +1466,7 @@ auth-error-227 = Sarbide-gakoa autentifikatzeak huts egin du
 auth-error-228 = Sarbide-gakoa erregistratzeak huts egin du
 auth-error-233 = Sarbide-gako bat sortzeko, konfiguratu pantailaren blokeoa, PINa, hatz-marka, edo aurpegiaren ezagutza zure gailuan edo segurtasun-giltzan. Gero saiatu berriro.
 auth-error-238 = Sarbide-gakoaren erronkak huts egin du
+auth-error-239 = Sentitzen dugu, ezin izan dugu zure kontua ezabatu. Saiatu berriro mesedez, edo jarri harremanetan laguntzarekin arazoak irauten badu.
 auth-error-240 = Kontu hau desgaitu egin da
 auth-error-999 = Espero gabeko errorea
 auth-error-1001 = Saio-hasiera saiakera utzita
@@ -2298,6 +2300,17 @@ signin-passwordless-code-resend-link = Bidali kode berria posta elektronikora.
 signin-passwordless-code-resend-error = Zerbait gaizki joan da. Ezin izan da kode berri bat bidali.
 signin-passwordless-code-other-account-link = Erabili beste kontu bat
 
+## SignupPasswordlessCode page
+## Users are prompted to enter a code sent to their email to create a new account without a password.
+
+signup-passwordless-code-subheading = Erregistroak urrats bakarra behar du kode hau erabiltzen duzunean.
+
+## Error messages
+
+# Shown when a user with 2FA enabled tries to use passwordless flow
+# They are redirected to password signin instead
+signin-passwordless-totp-required = Bi urratseko autentifikazioa gaituta dago zure kontuan. Hasi saioa zure pasahitzarekin mesedez.
+
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -2380,6 +2393,8 @@ signin-reported-message = Gure taldeari jakinarazi zaio. Horrelako txostenek arr
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Sartu zure { -product-mozilla-account }</span> berrespen-kodea<span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Idatzi <email>{ $email }</email> helbidera bidali den kodea 5 minutuko epean.
 signin-token-code-input-label-v2 = Sartu 6 digituko kodea
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Berretsi
@@ -2404,6 +2419,7 @@ signin-totp-code-instruction-v4 = Egiaztatu zure <strong>autentifikazio-aplikazi
 signin-totp-code-input-label-v4 = Sartu 6 digituko kodea
 # Shown to users when they need to re-enter their authentication code, for their current device
 signin-totp-code-aal-banner-header = Zergatik eskatzen zaizu autentifikatzea?
+signin-totp-code-aal-banner-content = Bi urratseko autentifikazioa konfiguratuta duzu zure kontuan baina oraindik ez duzu kode bidez saiorik hasi gailu honetan.
 signin-totp-code-aal-sign-out = Amaitu gailu honetako saioa
 signin-totp-code-aal-sign-out-error = Barkatu, arazo bat gertatu da zure saioa amaitzean
 # Form button to confirm if the authentication code entered by the user is valid
