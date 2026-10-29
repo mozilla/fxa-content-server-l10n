@@ -14,17 +14,10 @@ jobs:
   extract:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Linux packages
-        run: |
-          sudo apt update
-          sudo apt install gettext -y
       - name: Set up Node
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 24
-      - name: Install global npm packages
-        run: |
-          npm install -g grunt-cli
       - name: Clone l10n repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -35,17 +28,13 @@ jobs:
           repository: "mozilla/fxa"
           fetch-depth: 1
           path: "fxa-code"
-      - name: Install npm packages
-        run: |
-          cd fxa-l10n
-          npm install
       - name: Extract strings
         run: |
           cd fxa-code
           _scripts/l10n/clone.sh
 
           # Create ftls for yarn workspaces
-          yarn workspaces focus fxa-content-server fxa-auth-server fxa-settings
+          yarn workspaces focus fxa-auth-server fxa-settings
           yarn workspace fxa-settings grunt merge-ftl
           yarn workspace fxa-auth-server grunt merge-ftl
           yarn workspace fxa-react grunt merge-ftl
@@ -60,7 +49,6 @@ jobs:
             --mailer-repo ./libs/accounts/email-renderer \
             --auth-repo ./packages/fxa-auth-server \
             --payments-next-repo ./apps/payments/next \
-            --content-repo ./packages/fxa-content-server \
             --settings-repo ./packages/fxa-settings \
             --react-repo ./packages/fxa-react \
             --shared-repo ./libs/shared \
