@@ -1321,8 +1321,19 @@ passkey-row-header = Sarbide-gakoak
 passkey-row-enabled = Gaituta
 passkey-row-not-set = Ezarri gabe
 passkey-row-action-create = Sortu
+passkey-row-description = Egin saio-hasiera errazago eta seguruago zure kontura sartzeko telefonoa edo onartutako beste gailu bat erabiliz.
 # External link to a support article about passkeys.
 passkey-row-info-link-2 = Argibide gehiago
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Sarbide-gako guztiak erabili dituzu ({ $count }). Berri bat sortzeko, ezabatu lehendik dagoen sarbide-gakoetako bat.
+       *[other] Sarbide-gako guztiak erabili dituzu ({ $count }). Berri bat sortzeko, ezabatu lehendik dagoen sarbide-gakoetako bat.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Sarbide-gakoen gehienezko kopurura heldu zara.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1808,6 +1819,10 @@ pair-password-created-now-syncing = Pasahitza sortuta. Sinkronizatzen ari zara o
 pair-download-subheader = Deskargatu mugikorrerako { -brand-firefox }
 # Description for the download screen
 pair-download-description = { -brand-firefox } zure telefono edo tabletan sinkronizatzeko, lehenik eta behin mugikorrerako { -brand-firefox } deskargatu behar duzu. Hona hemen nola:
+# Step 1: scan QR code. $stepNumber is the step number (1)
+pair-download-step-scan-qr = <b>{ $stepNumber }. urratsa</b>: Deskargatu { -brand-firefox } QR kode hau zure gailu mugikorreko kamerarekin eskaneatuz:
+# Step 2: continue to sync. $stepNumber is the step number (2)
+pair-download-step-continue-sync = <b>{ $stepNumber }. urratsa</b>: Hautatu "Jarraitu sinkronizatzeko" zure { -brand-firefox } esperientzia gailu mugikorrean sinkronizatzeko.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Jarraitu sinkronizatzeko
 
@@ -2306,6 +2321,12 @@ signin-passwordless-code-input-label-v2 = Idatzi 6 digituko kodea
 signin-passwordless-code-confirm-button = Berretsi
 signin-passwordless-code-required-error = Berrespen-kodea behar da
 signin-passwordless-code-expired = Kodea iraungita?
+# { $seconds } - countdown timer showing seconds until user can request a new code
+signin-passwordless-code-resend-countdown =
+    { $seconds ->
+        [one] Bidali kodea posta elektronikoz segundo { $seconds } barru
+       *[other] Bidali kodea posta elektronikoz { $seconds } segundo barru
+    }
 signin-passwordless-code-resend-link = Bidali kode berria posta elektronikora.
 signin-passwordless-code-resend-error = Zerbait gaizki joan da. Ezin izan da kode berri bat bidali.
 signin-passwordless-code-other-account-link = Erabili beste kontu bat
@@ -2411,6 +2432,13 @@ signin-token-code-confirm-button = Berretsi
 signin-token-code-code-expired = Kodea iraungita?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Posta elektroniko kode berria.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+signin-token-code-resend-code-countdown =
+    { $seconds ->
+        [one] Bidali kodea posta elektronikoz segundo { $seconds } barru
+       *[other] Bidali kodea posta elektronikoz { $seconds } segundo barru
+    }
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Berrespen kodea beharrezkoa da
 signin-token-code-resend-error = Zerbait gaizki joan da. Ezin izan da kode berri bat bidali.
@@ -2471,6 +2499,8 @@ confirm-signup-code-page-title = Sartu baieztapen-kodea
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Sartu <span>zure { -product-mozilla-account }</span>ko  berrespen-kodea
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Idatzi <email>{ $email }</email> helbidera bidali den kodea 5 minutuko epean.
 confirm-signup-code-input-label = Sartu 6 digituko kodea
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Berretsi
@@ -2478,6 +2508,13 @@ confirm-signup-code-sync-button = Hasi sinkronizatzen
 confirm-signup-code-code-expired = Kodea iraungita?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Posta elektroniko kode berria.
+# Countdown message shown when user must wait before resending code
+# { $seconds } represents the number of seconds remaining
+confirm-signup-code-resend-code-countdown =
+    { $seconds ->
+        [one] Bidali kodea posta elektronikoz segundo { $seconds } barru
+       *[other] Bidali kodea posta elektronikoz { $seconds } segundo barru
+    }
 confirm-signup-code-success-alert = Kontua behar bezala berretsi da
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Berrespen kodea beharrezkoa da
