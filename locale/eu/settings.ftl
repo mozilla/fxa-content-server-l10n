@@ -1190,6 +1190,7 @@ product-promo-monitor-description-v2 = Aurkitu zure informazio pribatua non ager
 product-promo-monitor-cta = Lortu eskaneatzea doan
 product-promo-vpn =
     .alt = { -product-mozilla-vpn }
+product-promo-vpn-description = Aurkitu nabigatze anonimo eta babesaren aparteko geruza bat.
 # Links out to the VPN site
 product-promo-vpn-cta = Eskuratu { -product-mozilla-vpn-short }
 
