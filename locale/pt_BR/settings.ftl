@@ -1000,6 +1000,12 @@ passkey-delete-success = Chave de acesso excluída
 passkey-delete-error = Houve um problema ao excluir sua chave de acesso. Tente novamente em alguns minutos.
 passkey-sub-row-rename-title = Renomear chave de acesso
 passkey-rename-modal-heading = Renomear chave de acesso
+passkey-rename-modal-description = Digite outro nome para esta chave de acesso.
+passkey-rename-input-label = Nome da chave de acesso
+passkey-rename-error-empty = Digite um nome para esta chave de acesso
+passkey-rename-error-duplicate = Já existe uma chave de acesso com este nome
+passkey-rename-success = Chave de acesso renomeada
+passkey-rename-error = Houve um problema ao renomear sua chave de acesso. Tente novamente em alguns minutos.
 
 ## Switch component
 
@@ -1018,6 +1024,20 @@ row-defaults-action-add = Adicionar
 row-defaults-action-change = Alterar
 row-defaults-action-disable = Desativar
 row-defaults-status = Nenhum
+
+## UnitRowPasskey
+
+passkey-row-header = Chaves de acesso
+# Shown as a warning banner when the user has registered the maximum number of passkeys.
+# Variables:
+#   $count (Number) - the maximum number of passkeys allowed (defaults to 10 allowed)
+passkey-row-max-limit-banner =
+    { $count ->
+        [one] Você usou { $count } chave de acesso. Exclua para criar outra.
+       *[other] Você usou todas as { $count } chaves de acesso. Exclua uma para criar outra.
+    }
+# Tooltip shown on the disabled Create button when the passkey limit is reached
+passkey-row-max-limit-disabled-reason = Você atingiu o número máximo de chaves de acesso.
 
 ## Account recovery key sub-section on main Settings page
 
@@ -1143,6 +1163,12 @@ auth-error-215 = Não existe o número de telefone de recuperação
 auth-error-216 = Atingiu o limite de mensagens de texto
 auth-error-218 = Não foi possível remover o celular de recuperação de conta, faltam códigos de autenticação de backup.
 auth-error-219 = Este número de celular foi registrado em contas demais. Tente outro número.
+auth-error-224 = Chave de acesso não encontrada
+auth-error-225 = Chave de acesso já registrada
+auth-error-226 = Atingido o limite de chaves de acesso
+auth-error-227 = Falha na autenticação com chave de acesso
+auth-error-228 = Falha ao registrar chave de acesso
+auth-error-238 = Falha na verificação de chave de acesso
 auth-error-999 = Erro não esperado
 auth-error-1001 = Tentativa de acesso cancelada
 auth-error-1002 = A sessão expirou. Entre novamente para continuar.
@@ -1167,6 +1193,13 @@ auth-error-1067 = Digitou errado o email?
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Número terminado em { $lastFourPhoneNumber }
 oauth-error-1000 = Algo deu errado. Feche esta aba e tente novamente.
+
+## Passkey error messages
+## Surfaced when a WebAuthn ceremony (registration or sign-in) fails.
+
+# Label for the support link in the passkey sign-in trouble message; opens a SUMO article about
+# using passkeys.
+passkey-authentication-trouble-link = Como usar chaves de acesso
 
 ## Connect Another Device page
 
@@ -1223,6 +1256,10 @@ index-email-input =
 index-account-delete-success = Conta excluída com sucesso
 # Displayed when users try to sign up for an account and their confirmation code email bounces
 index-email-bounced = Seu email de confirmação foi devolvido. Digitou errado o email?
+
+## Page offering to store a passkey so that later Firefox Sync sign-ins skip the password.
+
+inline-passwordless-sync-setup-enable-button = Ativar chave de acesso
 
 ## InlineRecoveryKeySetup page component
 
