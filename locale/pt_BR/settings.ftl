@@ -151,6 +151,8 @@ device-info-ip-address = Endereço IP: { $ipAddress }
 firefox-promo-banner-mobile-heading = Use o { -brand-firefox } onde quer que esteja
 firefox-promo-banner-mobile-description = Sincronize suas abas, favoritos e senhas entre seus dispositivos. Tudo isso é protegido com criptografia.
 firefox-promo-banner-mobile-cta = Conectar um dispositivo
+firefox-promo-banner-switch-heading = Rápido trocar. Fácil de se adaptar.
+firefox-promo-banner-switch-cta = Mude para o { -brand-firefox }
 
 ## FormPasswordInlineCriteria
 
@@ -164,10 +166,14 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Confirmar senha
 form-password-with-inline-criteria-reset-submit-button = Criar nova senha
+form-password-with-inline-criteria-old-password-label =
+    .label = Senha antiga
+form-password-with-inline-criteria-change-password-submit-button = Alterar senha
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = Senha
 form-password-with-inline-criteria-set-password-confirm-password-label =
     .label = Repetir senha
+form-password-with-inline-criteria-set-password-submit-button = Iniciar sincronização
 form-password-with-inline-criteria-match-error = As senhas não coincidem
 form-password-with-inline-criteria-sr-too-short-message = A senha deve ter pelo menos 8 caracteres.
 form-password-with-inline-criteria-sr-not-email-message = A senha não pode ter seu endereço de email
@@ -242,12 +248,18 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Ativado
+# Used to indicate that an action will navigate forward or open a detail view
+chevron-right-icon-aria-label =
+    .aria-label = Seta para direita
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = Fechar mensagem
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = Código
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = Editar
 error-icon-aria-label =
     .aria-label = Erro
 # Used as information icon for informative messaging
@@ -256,6 +268,9 @@ info-icon-aria-label =
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Bandeira dos Estados Unidos
+# Used for loading arrow icon
+icon-loading-arrow-aria-label =
+    .aria-label = Carregando
 # Used for passkey icon
 icon-passkey-aria-label =
     .aria-label = Chave de acesso
@@ -290,6 +305,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Dispositivo móvel com recursos de mensagens de texto SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = Tela de dispositivo com códigos
+sync-clouds-image-aria-label =
+    .aria-label = Nuvens com um ícone de sincronização
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
