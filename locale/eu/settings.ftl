@@ -310,6 +310,11 @@ sync-clouds-image-aria-label =
     .aria-label = Hodeiak sinkronizatzeko ikono batekin
 confetti-falling-image-aria-label =
     .aria-label = Konfeti biziduna erortzen
+# In this context, “VPN” is a VPN service built into the Firefox browser, and generally isn't localized differently than “VPN”
+vpn-welcome-image-aria-label =
+    .aria-label = { -brand-firefox } leihoa bereizgarri zirkular batekin, hautamarka berde bat eta "VPN" testua erakutsiz, VPNa aktibo dagoela adieraziz.
+sync-devices-image-aria-label =
+    .aria-label = Mahaigaineko nabigatzaile baten leihoa eta telefono mugikor bat, biak sinkronizatzen, { -brand-firefox } maskota aldamenean dutela
 # Aria label for the Firefox logo and wordmark shown together as a brand lockup
 firefox-wordmark-image-aria-label =
     .aria-label = { -brand-firefox } logoa
@@ -511,8 +516,12 @@ flow-recovery-key-hint-unsafe-char-error = Aholkuak ezin ditu Unicode karaktere 
 password-reset-warning-icon = Abisua
 password-reset-chevron-expanded = Tolestu abisua
 password-reset-chevron-collapsed = Zabaldu abisua
+password-reset-warning-review-sign-in-options = Berrikusi saioa hasteko aukerak nabigatzailearen datuak mantentzeko
 password-reset-warning-have-key = Kontua berreskuratzeko gakoa baduzu?
+# "it" refers to the user's account recovery key.
+password-reset-warning-use-key-link-v2 = Erabil ezazu zure pasahitza berrezarri eta nabigatzailearen zure datuak gordetzeko
 password-reset-warning-signed-in-device = Beste gailu batean saioa hasita duzu oraindik?
+password-reset-warning-signed-in-device-description = Baliteke zure nabigatzailearen datuak erabilgarri egotea. Berrezarri pasahitza eta ondoren hasi saioa bertan zure datuak leheneratu eta sinkronizatzeko.
 password-reset-warning-restore-data-link = Ikasi nola berreskuratu nabigatzailearen datuak saioa hasita duen gailu batetik
 password-reset-warning-new-device = Gailu berria darabilzu baina ez duzu gailu zaharretarako sarbiderik?
 password-reset-warning-new-device-description = Zure pasahitza berrezarri ondoren, { -brand-firefox } zerbitzarietan zifratuta dauden nabigatzailearen datuak ez dira erabilgarri egongo gailu honetan.
