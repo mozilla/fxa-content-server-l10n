@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # syntax:
-# extract_strings.sh [--mailer-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--l10n-repo ./fxa-content-server-l10n]
+# extract_strings.sh [--mailer-repo ../libs/accounts/email-renderer] [--l10n-repo ./fxa-content-server-l10n]
 
 set -e
 
 function usage() {
     echo "syntax:"
-    echo "extract_strings.sh [--mailer-repo ../libs/accounts/email-renderer] [--auth-repo ./fxa-auth-server] [--content-repo ./fxa-content-server] [--payments-next-repo ../apps/payments/next] [--settings-repo ./fxa-settings] [--react-repo ./fxa-react] [--shared-repo ../libs/shared] [--l10n-repo ./fxa-content-server-l10n]"
+    echo "extract_strings.sh [--mailer-repo ../libs/accounts/email-renderer] [--auth-repo ./fxa-auth-server] [--payments-next-repo ../apps/payments/next] [--settings-repo ./fxa-settings] [--react-repo ./fxa-react] [--shared-repo ../libs/shared] [--l10n-repo ./fxa-content-server-l10n]"
     exit 1
 }
 
@@ -26,7 +26,6 @@ fi
 
 MAILER_DIR="../libs/accounts/email-renderer"
 AUTH_DIR="./fxa-auth-server"
-CONTENT_DIR="./fxa-content-server"
 PAYMENTS_NEXT_DIR="../apps/payments/next"
 SETTINGS_DIR="./fxa-settings"
 REACT_DIR="./fxa-react"
@@ -44,10 +43,6 @@ case $param in
     ;;
      --auth-repo)
     AUTH_DIR="$2"
-    shift 2
-    ;;
-    --content-repo)
-    CONTENT_DIR="$2"
     shift 2
     ;;
     --payments-next-repo)
@@ -80,8 +75,6 @@ printf "Checking $MAILER_DIR.. "
 check_folder $MAILER_DIR
 printf "Checking $AUTH_DIR.. "
 check_folder $AUTH_DIR
-printf "Checking $CONTENT_DIR.. "
-check_folder $CONTENT_DIR
 printf "Checking $PAYMENTS_NEXT_DIR.. "
 check_folder $PAYMENTS_NEXT_DIR
 printf "Checking $SETTINGS_DIR.. "
@@ -95,48 +88,6 @@ check_folder $L10N_DIR
 
 set -x
 
-
-# Gettext extraction
-
-# Extract the hash of the pot files content without the POT-Creation-Date line.
-# This is used to avoid copying over the templates if the actual content
-# was not updated by the l10n-extract script
-OLD_HASHES=$(python $L10N_DIR/scripts/pot_checksum.py $L10N_DIR/locale/templates/)
-(cd $CONTENT_DIR && npx grunt l10n-extract)
-NEW_HASHES=$(python $L10N_DIR/scripts/pot_checksum.py $CONTENT_DIR/locale/templates/)
-if [ "$NEW_HASHES" = "$OLD_HASHES" ];
-then
-    echo ".pot files have no updated content"
-else
-    cp -r $CONTENT_DIR/locale/templates/* $L10N_DIR/locale/templates
-
-    # Merge updates to all locales
-    (cd $L10N_DIR && ./scripts/merge_po.sh ./locale)
-fi
-
-# Some locales must be copied over to a different locale code
-# See details in https://github.com/mozilla/fxa-content-server-l10n/pull/79#issuecomment-149281761
-cp -r $L10N_DIR/locale/es_ES/* $L10N_DIR/locale/es
-sed -i'' -e 's/Language: es_ES/Language: es/g' "$L10N_DIR/locale/es/LC_MESSAGES/client.po"
-sed -i'' -e 's/Language: es_ES/Language: es/g' "$L10N_DIR/locale/es/LC_MESSAGES/server.po"
-
-cp -r $L10N_DIR/locale/fy_NL/* $L10N_DIR/locale/fy
-sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/client.po"
-sed -i'' -e 's/Language: fy_NL/Language: fy/g' "$L10N_DIR/locale/fy/LC_MESSAGES/server.po"
-
-cp -r $L10N_DIR/locale/hi_IN/* $L10N_DIR/locale/hi
-sed -i'' -e 's/Language: hi_IN/Language: hi/g' "$L10N_DIR/locale/hi/LC_MESSAGES/client.po"
-sed -i'' -e 's/Language: hi_IN/Language: hi/g' "$L10N_DIR/locale/hi/LC_MESSAGES/server.po"
-
-cp -r $L10N_DIR/locale/pt_PT/* $L10N_DIR/locale/pt
-sed -i'' -e 's/Language: pt_PT/Language: pt/g' "$L10N_DIR/locale/pt/LC_MESSAGES/client.po"
-sed -i'' -e 's/Language: pt_PT/Language: pt/g' "$L10N_DIR/locale/pt/LC_MESSAGES/server.po"
-
-cp -r $L10N_DIR/locale/sv_SE/* $L10N_DIR/locale/sv
-sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/client.po"
-sed -i'' -e 's/Language: sv_SE/Language: sv/g' "$L10N_DIR/locale/sv/LC_MESSAGES/server.po"
-
-
 # Fluent extraction
 
 cp $PAYMENTS_NEXT_DIR/public/locales/en/payments-next.ftl $L10N_DIR/locale/templates
@@ -148,8 +99,6 @@ cp $SHARED_DIR/l10n/src/lib/branding.ftl $L10N_DIR/locale/templates
 
 # Pontoon will read from the "templates" directory but we must copy the FTL files
 # into "en" to ensure users with English will always see good fallback text.
-# We can remove the "templates" directory once we are off of gettext entirely -
-# then, Pontoon will read from the "en" directory.
 cp $L10N_DIR/locale/templates/*.ftl $L10N_DIR/locale/en
 
 set +x
