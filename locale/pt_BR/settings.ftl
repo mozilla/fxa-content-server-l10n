@@ -43,6 +43,9 @@ button-back-title = Voltar
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = Baixar e continuar
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Desculpe, houve um problema ao baixar a chave de recuperação de conta.
@@ -50,6 +53,11 @@ recovery-key-pdf-download-error = Desculpe, houve um problema ao baixar a chave 
 ## ButtonPasskeySignin
 
 button-passkey-signin = Entrar com chave de acesso
+# This is a loading state indicating that we are waiting for the user to
+# interact with their authenticator to approve the sign-in. They should see a
+# device prompt/pop-up with authentication options (or message indicating that
+# no passkeys are available).
+button-passkey-signin-loading = Entrando na conta com segurança…
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -67,6 +75,13 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Avisos de ações para recuperar o controle da internet
 
+## Dark mode toggle
+
+dark-mode-toggle-light = Claro
+dark-mode-toggle-dark = Escuro
+dark-mode-toggle-system = Sistema
+dark-mode-toggle-label = Ativar/desativar tema
+
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -75,6 +90,25 @@ datablock-copy =
     .message = Copiado
 datablock-print =
     .message = Impresso
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] Código copiado
+       *[other] Códigos copiados
+    }
+datablock-download-success =
+    { $count ->
+        [one] Código baixada
+       *[other] Códigos baixado
+    }
+datablock-print-success =
+    { $count ->
+        [one] Código impresso
+       *[other] Códigos impressos
+    }
 
 ##
 
@@ -103,6 +137,9 @@ device-info-block-location-unknown = Local desconhecido
 # Variable { $browserName } is the browser that created the request (e.g., Firefox)
 # Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
 device-info-browser-os = { $browserName } em { $genericOSName }
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $deviceName } is the user-chosen name of the device that created the request (e.g., Laurel's MacBook Pro)
+device-info-browser-device = { $browserName } em { $deviceName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Endereço IP: { $ipAddress }
@@ -111,6 +148,7 @@ device-info-ip-address = Endereço IP: { $ipAddress }
 ## Shown at the top of settings to promote installing Firefox on mobile (when
 ## the user is on Firefox) or switching to Firefox (on other browsers).
 
+firefox-promo-banner-mobile-heading = Use o { -brand-firefox } onde quer que esteja
 firefox-promo-banner-mobile-description = Sincronize suas abas, favoritos e senhas entre seus dispositivos. Tudo isso é protegido com criptografia.
 firefox-promo-banner-mobile-cta = Conectar um dispositivo
 
