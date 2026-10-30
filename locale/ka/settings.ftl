@@ -403,6 +403,20 @@ locale-toggle-browser-default = ბრაუზერის ნაგული�
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = გაუმართავი მოთხოვნა
 
+## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when they open the pairing link
+## outside the Firefox app. It tells them how to finish pairing in Firefox.
+
+pair-unsupported-hint-heading = მიერთების დასრულება პროგრამაში
+# Shown first when the page is open inside another app, which the user must close
+pair-unsupported-hint-step-close-page = გვერდის დახურვა
+# <b> emphasises the name of the button the user taps in Firefox
+pair-unsupported-hint-step-app-menu = შეეხეთ <b>აპის მენიუს</b>
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair-unsupported-hint-step-sign-in = <b>შედით</b>, შემდეგ კი წააკითხეთ კოდი
+# Opens a Mozilla support article about connecting a device without a QR code
+pair-unsupported-hint-learn-more-link = ვრცლად
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -1698,6 +1712,13 @@ inline-totp-setup-security-code-placeholder = შესვლის დამო
 inline-totp-setup-code-required-error = საჭიროა დამოწმების კოდი
 tfa-qr-code-alt = გამოიყენეთ კოდი { $code } ორბიჯიანი დამოწმების გასამართად მხარდაჭერილ პროგრამებში.
 inline-totp-setup-page-title = ორბიჯიანი დამოწმება
+
+## PageNotFound page
+## Shown when the requested page does not exist
+
+page-not-found-heading = გვერდი ვერ მოიძებნა
+page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი, ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.
+page-not-found-home-button = მთავარი
 
 ## AuthAllow page - Part of the device pairing flow
 
