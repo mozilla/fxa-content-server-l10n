@@ -179,6 +179,11 @@ fraudulentAccountDeletion-contact-plaintext = ਜੇ ਤੁਹਾਨੂੰ ਕ�
 # Variables:
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 freeTrialEndingReminder-content-greeting = ਸਤਿਕਾਰਯੋਗ { $productName } ਗਾਹਕ,
+freeTrialEndingReminder-content-charge-heading = ਖ਼ਰਚਿਆਂ ਦੇ ਵੇਰਵੇ
+# Variables:
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#   $invoiceSubtotal (String) - The subtotal amount of the subscription, e.g. $12.99
+freeTrialEndingReminder-content-charge-subscription = { $productName } ਮੈਂਬਰੀ: { $invoiceSubtotal }
 freeTrialEndingReminder-content-charge-subscription-2 = { $productName } ਮੈਂਬਰੀ
 # Variables:
 #   $invoiceDiscountAmount (String) - The discount amount, as a negative number, e.g. -$3.00
