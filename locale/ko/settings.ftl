@@ -1687,6 +1687,8 @@ inline-totp-setup-page-title = 2단계 인증
 ## Shown when the requested page does not exist
 
 page-not-found-heading = 페이지를 찾을 수 없음
+page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 잘못된 모든 링크를 수정할 예정입니다.
+page-not-found-home-button = 홈
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -2281,6 +2283,16 @@ signin-passkey-fallback-body = 데이터를 안전하게 지키기 위해, 이 �
 signin-passkey-fallback-password-label = 비밀번호
 signin-passkey-fallback-continue = 계속
 signin-passkey-fallback-forgot-password-link = 비밀번호를 잊으셨나요?
+# Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync, so the user must enter their password.
+signin-passkey-fallback-no-prf-heading = 이 기기에 비밀번호 필요함
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync.
+signin-passkey-fallback-no-prf-description = 이 브라우저나 기기는 패스키를 사용하여 Sync에 로그인 할 수 없습니다.
+# Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
+signin-passkey-fallback-unwrap-failed-heading = 패스키로 동기화를 잠금 해제할 수 없음
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync.
+signin-passkey-fallback-unwrap-failed-description = 문제가 발생했습니다. 이번에는 비밀번호가 필요합니다.
+# Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
+signin-passkey-fallback-wrap-unusable-link = 더 알아보기
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
