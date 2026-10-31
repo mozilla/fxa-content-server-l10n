@@ -669,23 +669,32 @@ metadata-title-checkout-error = Errorea | { $productTitle }
 metadata-description-checkout-error = Errorea gertatu da zure harpidetza prozesatzean. Arazoak jarraitzen badu, jarri laguntzarekin harremanetan.
 # Checkout success
 metadata-title-checkout-success = Dena ondo | { $productTitle }
+metadata-description-checkout-success = Zorionak! Erosketa burutu berri duzu.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Ekintza beharrezkoa | { $productTitle }
+metadata-description-checkout-needs-input = Burutu mesedez beharrezko ekintza zure ordainketarekin jarraitzeko.
+# Upgrade start
+metadata-title-upgrade-start = Igo mailaz | { $productTitle }
+metadata-description-upgrade-start = Idatzi ordainketa-xehetasunak zure maila igoera burutzeko.
 # Upgrade processing
 metadata-title-upgrade-processing = Prozesatzen | { $productTitle }
 metadata-description-upgrade-processing = Itxaron zure ordainketa prozesatzen amaitzen dugun bitartean mesedez.
 # Upgrade error
 metadata-title-upgrade-error = Errorea | { $productTitle }
+metadata-description-upgrade-error = Errorea gertatu da zure maila igoera prozesatzean. Arazoak jarraitzen badu, jarri laguntzarekin harremanetan.
 # Upgrade success
 metadata-title-upgrade-success = Dena ondo | { $productTitle }
+metadata-description-upgrade-success = Zorionak! Maila igoera burutu berri duzu.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Ekintza beharrezkoa | { $productTitle }
+metadata-description-upgrade-needs-input = Burutu mesedez beharrezko ekintza zure ordainketarekin jarraitzeko.
 # Default
 metadata-title-default = Ez da orria aurkitu | { $productTitle }
 metadata-description-default = Eskatu duzun orria ez da aurkitu.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Idatzi duzun kodea ezin da trukatu — zure kontuak gure zerbitzuetarako aurreko harpidetza bat du.
 next-coupon-error-expired = Sartu duzun kodea iraungi egin da.
 next-coupon-error-generic = Errore bat gertatu da kodea prozesatzean. Saiatu berriro mesedez.
 next-coupon-error-invalid = Sartu duzun kodea baliogabea da.
@@ -696,6 +705,8 @@ next-coupon-error-limit-reached = Sartu duzun kodea bere mugara iritsi da.
 
 stay-subscribed-error-expired = Eskaintza hau iraungita dago.
 stay-subscribed-error-discount-used = Deskontu-kodea dagoeneko aplikatuta.
+# $productTitle (String) - The name of the product
+stay-subscribed-error-not-current-subscriber = Deskontua uneko { $productTitle } harpidedunentzat dago erabilgarri soilik.
 stay-subscribed-error-still-active = Zure { $productTitle } harpidetza oraindik aktibo dago.
 stay-subscribed-error-general = Arazo bat gertatu da zure harpidetza berritzean.
 
@@ -707,3 +718,24 @@ manage-payment-method-intent-error-try-again = Hmm. Arazo bat izan da zure ordai
 manage-payment-method-intent-error-get-in-touch = Hmm. Arazo bat izan da zure ordainketa baimentzean. Jarri harremanetan zure txartelaren jaulkitzailearekin.
 manage-payment-method-intent-error-insufficient-funds = Badirudi zure txartelak ez duela nahikoa funtsik. Probatu beste txartel batekin.
 manage-payment-method-intent-error-generic = Ustekabeko errore bat gertatu da ordainketa prozesatzean, saiatu berriro mesedez.
+manage-payment-method-tax-address-required = Ezin izan dugu zure fakturazio-kokalekua zehaztu. Egiaztatu zure ordainketa-metodoaren informazioa eta saiatu berriro mesedez.
+
+## $currentPeriodEnd (Date) - The date of the next charge.
+## $discountPercent (Number) - The discount amount between 1 and 100 as an integer (e.g. "You will save 10% on your next charge of $12.00 on December 25, 2025.", discountPercent = 10)
+## $last4 (String) - The last four digits of the default payment method card.
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $paymentMethod (String) - The name of the default payment method - "Google Pay", "Apple Pay", "PayPal", "Link".
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+
+next-charge-with-discount-and-tax-card = %{ $discountPercent } aurreztuko duzu zure hurrengo { $nextInvoiceTotal } + zergetako { $taxDue } zenbatekoaren kobrantzan, { $last4 } digituekin amaitzen den txartelean { $currentPeriodEnd } egunean.
+next-charge-with-discount-and-tax-payment-method = %{ $discountPercent } aurreztuko duzu zure hurrengo { $nextInvoiceTotal } + zergetako { $taxDue } zenbatekoaren kobrantzan, zure { $paymentMethod } ordainketa-metodoan { $currentPeriodEnd } egunean.
+next-charge-next-charge-with-discount-and-tax = %{ $discountPercent } aurreztuko duzu zure hurrengo { $nextInvoiceTotal } + zergetako { $taxDue } zenbatekoaren kobrantzan, { $currentPeriodEnd } egunean.
+next-charge-with-discount-no-tax-card = %{ $discountPercent } aurreztuko duzu zure hurrengo { $nextInvoiceTotal } zenbatekoaren kobrantzan, { $last4 } digituekin amaitzen den txartelean { $currentPeriodEnd } egunean.
+next-charge-with-discount-no-tax-payment-method = %{ $discountPercent } aurreztuko duzu zure hurrengo { $nextInvoiceTotal } zenbatekoaren kobrantzan, zure { $paymentMethod } ordainketa-metodoan { $currentPeriodEnd } egunean.
+next-charge-with-discount-no-tax = %{ $discountPercent } aurreztuko duzu zure hurrengo { $nextInvoiceTotal } zenbatekoaren kobrantzan, { $currentPeriodEnd } egunean.
+next-charge-with-tax-card = Zure hurrengo kobrantza { $nextInvoiceTotal } + zergetako { $taxDue } izango da, { $last4 } digituekin amaitzen den txartelean { $currentPeriodEnd } egunean.
+next-charge-with-tax-payment-method = Zure hurrengo kobrantza { $nextInvoiceTotal } + zergetako { $taxDue } izango da, { $paymentMethod } ordainketa-metodoan { $currentPeriodEnd } egunean.
+next-charge-with-tax = Zure hurrengo kobrantza { $nextInvoiceTotal } + zergetako { $taxDue } izango da { $currentPeriodEnd } egunean.
+next-charge-no-tax-card = Zure hurrengo kobrantza { $nextInvoiceTotal } izango da, { $last4 } digituekin amaitzen den txartelean { $currentPeriodEnd } egunean.
+next-charge-no-tax-payment-method = Zure hurrengo kobrantza { $nextInvoiceTotal } izango da, { $paymentMethod } ordainketa-metodoan { $currentPeriodEnd } egunean.
+next-charge-no-tax = Zure hurrengo kobrantza { $nextInvoiceTotal } izango da { $currentPeriodEnd } egunean.
