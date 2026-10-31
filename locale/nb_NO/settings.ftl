@@ -408,6 +408,10 @@ error-bad-request = Ugyldig forespørsel
 pair-unsupported-hint-heading = Fullfør sammenkoblingen i appen
 # Shown first when the page is open inside another app, which the user must close
 pair-unsupported-hint-step-close-page = Lukk denne siden
+# <b> emphasises the name of the button the user taps in Firefox
+pair-unsupported-hint-step-app-menu = Trykk på <b>appmenyen</b>
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair-unsupported-hint-step-sign-in = <b>Logg inn</b>, og skann deretter koden
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Les mer
 
@@ -1699,6 +1703,8 @@ inline-totp-setup-page-title = Totrinns-autentisering
 ## PageNotFound page
 ## Shown when the requested page does not exist
 
+page-not-found-heading = Fant ikke siden
+page-not-found-description = Den forespurte siden ble ikke funnet. Vi har blitt varslet, og vil fikse de lenker som ikke virker.
 page-not-found-home-button = Hjem
 
 ## AuthAllow page - Part of the device pairing flow
@@ -2042,6 +2048,8 @@ pair2-supplicant-timeout-and-cancel-cancelled-heading = Avbrutt
 pair2-supplicant-timeout-and-cancel-canceled-description = For å koble til en enhet når som helst, gå til <b>firefox.com/pair</b> på datamaskinen din.
 # Shown when the mobile browser is already signed in to an account, so pairing cannot sign it in to another one
 pair2-supplicant-timeout-and-cancel-signed-in-heading = Denne enheten er allerede logget inn
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-signed-in-description = For å koble til kontoen din på datamaskinen må du logge ut av { -brand-firefox } på denne enheten og deretter gå til <b>firefox.com/pair</b> på datamaskinen for å fullføre påloggingen.
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
@@ -2163,6 +2171,8 @@ confirm-totp-reset-password-use-different-account = Bruk en annen konto
 
 password-reset-flow-heading = Tilbakestill passordet ditt
 password-reset-forgot-heading = Glemt passord ditt?
+# The text inside <signInLink> links to the email-first sign-in page.
+password-reset-alternatives-body = <signInLink>Prøv å logge inn med { -brand-google }, { -brand-apple } eller en passnøkkel i stedet.</signInLink> Eller skriv inn e-postadressen din, så sender vi deg en kode for å tilbakestille passordet.
 password-reset-email-input =
     .label = Skriv inn e-postadressen din
 password-reset-submit-button-2 = Fortsett
