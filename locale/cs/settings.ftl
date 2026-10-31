@@ -414,7 +414,7 @@ pair-unsupported-hint-step-close-page = Zavřít tuto stránku
 # <b> emphasises the name of the button the user taps in Firefox
 pair-unsupported-hint-step-app-menu = Klepněte na <b>nabídku aplikace</b>
 # <b> emphasises the name of the menu item the user taps in Firefox
-pair-unsupported-hint-step-sign-in = <b>Přihlaste se</b> a poté naskenujte kód
+pair-unsupported-hint-step-sign-in = <b>Přihlaste se</b>, a poté naskenujte kód
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Zjistit více
 
@@ -1719,7 +1719,7 @@ inline-totp-setup-page-title = Dvoufázové ověřování
 ## PageNotFound page
 ## Shown when the requested page does not exist
 
-page-not-found-heading = Stránka nenalezena
+page-not-found-heading = Stránka nebyla nalezena
 page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme upozorněni a všechny odkazy, které mohou být nefunkční, opravíme.
 page-not-found-home-button = Domů
 
