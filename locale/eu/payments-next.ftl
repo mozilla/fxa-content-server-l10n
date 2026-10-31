@@ -266,6 +266,7 @@ next-payment-confirm-checkbox-error = Hau osatu behar duzu aurrera egin aurretik
 
 next-new-user-submit = Harpidetu orain
 next-pay-with-heading-paypal = Ordaindu { -brand-paypal } erabiliz
+free-trial-ineligible-notice = Zure kontua ez da doako probarako hautagarri. Ordainpeko harpidetzarekin jarri zenezake.
 
 ## Churn flow - cancel
 
@@ -456,6 +457,28 @@ purchase-details-credit-applied-label = Aplikatutako kreditua
 purchase-details-total-due-label = Ordaintzeko guztira
 next-plan-details-hide-button = Ezkutatu xehetasunak
 next-plan-details-show-button = Erakutsi xehetasunak
+
+## $trialDayLength (Number) - The number of days in the free trial
+
+free-trial-start-title =
+    { $trialDayLength ->
+        [one] Hasi zure egun bateko doako proba
+       *[other] Hasi zure { $trialDayLength } eguneko doako proba
+    }
+free-trial-success-title =
+    { $trialDayLength ->
+        [one] Zure egun bateko doako proba hasi da
+       *[other] Zure { $trialDayLength } eguneko doako proba hasi da
+    }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date the free trial ends
+
+free-trial-start-message-daily = Ez da ezer ordaindu behar gaur. Doako proba { $endDate } egunean amaitu ondoren, eguneko { $firstPrice } kobratuko zaizu.
+free-trial-start-message-weekly = Ez da ezer ordaindu behar gaur. Doako proba { $endDate } egunean amaitu ondoren, asteko { $firstPrice } kobratuko zaizu.
+free-trial-start-message-monthly = Ez da ezer ordaindu behar gaur. Doako proba { $endDate } egunean amaitu ondoren, hilean { $firstPrice } kobratuko zaizu.
+free-trial-start-message-halfyearly = Ez da ezer ordaindu behar gaur. Doako proba { $endDate } egunean amaitu ondoren, sei hilean behin { $firstPrice } kobratuko zaizu.
+free-trial-start-message-yearly = Ez da ezer ordaindu behar gaur. Doako proba { $endDate } egunean amaitu ondoren, urtean { $firstPrice } kobratuko zaizu.
 
 ##
 
