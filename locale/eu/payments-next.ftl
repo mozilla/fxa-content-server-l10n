@@ -581,6 +581,7 @@ subscription-content-link-churn-intervention-terms-aria = Ikusi kupoiaren termin
 dialog-close = Itxi elkarrizketa-koadroa
 button-back-to-subscriptions = Itzuli harpidetzetara
 subscription-content-cancel-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
+paypal-unavailable-error = { -brand-paypal } ez dago erabilgarri orain. Erabili beste ordainketa-aukera bat edo saiatu berriro geroago mesedez.
 
 ## Churn flow - Error page
 
@@ -590,11 +591,15 @@ churn-error-page-message-discount-already-applied = Deskontua zure { $productNam
 churn-error-page-button-manage-subscriptions = Kudeatu harpidetzak
 churn-error-page-button-contact-support = Jarri laguntzarekin harremanetan
 churn-error-page-button-try-again = Saiatu berriro
+churn-error-page-title-customer-mismatch = Ezin da kupoia trukatu
+churn-error-page-message-customer-mismatch = Kupoi hau beste harpidetza baterako jaulki zen eta jatorrizko hartzailearekin truka daiteke soilik.
 churn-error-page-button-sign-in = Hasi saioa
 churn-error-page-title-general-error = Arazo bat gertatu da zure harpidetza berritzean
 churn-error-page-message-general-error = Jarri laguntzarekin harremanetan edo saiatu berriro.
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-button-go-to-product-page = Joan { $productName } produktura
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-title-subscription-not-active = Deskontua uneko { $productName } harpidedunentzat dago erabilgarri soilik
 # $productName (String) - The name of the product associated with the subscription.
 churn-error-page-title-subscription-still-active = Zure { $productName } harpidetza oraindik aktibo dago
 
@@ -615,6 +620,7 @@ next-subscription-processing-title = Harpidetza baieztatzen…
 next-subscription-error-title = Errorea harpidetza baieztatzen…
 subscription-title-sub-exists = Bazadude harpidetua
 subscription-title-plan-change-heading = Berrikusi zure aldaketa
+subscription-title-not-supported = Ez da onartzen harpidetza-planaren aldaketa hau
 next-sub-guarantee = 30 eguneko dirua itzultzeko bermea
 
 ## Component - TermsAndPrivacy
@@ -636,6 +642,9 @@ upgrade-purchase-details-current-plan-label = Uneko plana
 upgrade-purchase-details-new-plan-label = Plan berria
 upgrade-purchase-details-promo-code = Sustapen kodea
 upgrade-purchase-details-tax-label = Zergak eta Tasak
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Kreditua kontura jaulki da
+upgrade-purchase-details-credit-will-be-applied = Kreditua zure kontuan aplikatuko da eta etorkizuneko fakturetan erabiliko da.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -649,11 +658,15 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (urtero)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Ordainketa | { $productTitle }
+metadata-description-checkout-start = Idatzi ordainketa-xehetasunak zure erosketa burutzeko.
 # Checkout processing
 metadata-title-checkout-processing = Prozesatzen | { $productTitle }
 metadata-description-checkout-processing = Itxaron zure ordainketa prozesatzen amaitzen dugun bitartean mesedez.
 # Checkout error
 metadata-title-checkout-error = Errorea | { $productTitle }
+metadata-description-checkout-error = Errorea gertatu da zure harpidetza prozesatzean. Arazoak jarraitzen badu, jarri laguntzarekin harremanetan.
 # Checkout success
 metadata-title-checkout-success = Dena ondo | { $productTitle }
 # Checkout needs_input
