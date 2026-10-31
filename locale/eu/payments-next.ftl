@@ -482,6 +482,20 @@ free-trial-start-message-yearly = Ez da ezer ordaindu behar gaur. Doako proba { 
 
 ##
 
+# $endDate (String) - The date of the first charge after the free trial ends
+free-trial-first-charge-title = Lehen kobrantza: { $endDate }
+
+## $firstPrice (String) - The total price of the first charge for the subscription after the free trial ends
+## $endDate (String) - The date of the first charge after the free trial ends
+
+free-trial-first-charge-message-daily = { $firstPrice } fakturatuko zaizu { $endDate } egunean, eta eguneko ondoren, harpidetza bertan behera utzi arte.
+free-trial-first-charge-message-weekly = { $firstPrice } fakturatuko zaizu { $endDate } egunean, eta asteko ondoren, harpidetza bertan behera utzi arte.
+free-trial-first-charge-message-monthly = { $firstPrice } fakturatuko zaizu { $endDate } egunean, eta hilean ondoren, harpidetza bertan behera utzi arte.
+free-trial-first-charge-message-halfyearly = { $firstPrice } fakturatuko zaizu { $endDate } egunean, eta sei hilean behin ondoren, harpidetza bertan behera utzi arte.
+free-trial-first-charge-message-yearly = { $firstPrice } fakturatuko zaizu { $endDate } egunean, eta urtean ondoren, harpidetza bertan behera utzi arte.
+
+##
+
 next-coupon-success = Zure plana automatikoki berrituko da zerrendako prezioan.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Zure plana automatikoki berrituko da { $couponDurationDate } ondoren zerrendako prezioan.
@@ -504,6 +518,10 @@ select-tax-location-error-missing-postal-code = Mesedez sartu zure posta-kodea
 select-tax-location-error-invalid-postal-code = Idatzi baliozko posta-kodea
 select-tax-location-successfully-updated = Zure kokapena eguneratu da.
 select-tax-location-error-location-not-updated = Ezin izan da zure kokapena eguneratu. Mesedez, saiatu berriro.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Zure kontua { $currencyDisplayName } dibisan fakturatzen da. Hautatu { $currencyDisplayName } dibisa darabilen herrialde bat.
+select-tax-location-invalid-currency-change-default = Hautatu zure harpidetza aktiboen dibisarekin bat datorren herrialde bat
+select-tax-location-new-tax-rate-info = Zure kokalekua eguneratuz gero, zerga-tasa berria aplikatuko zaie zure kontuko harpidetza aktibo guztiei, hurrengo fakturazio-ziklotik hasita.
 signin-form-continue-button = Jarraitu
 signin-form-email-input = Idatzi zure helbide elektronikoa
 signin-form-email-input-missing = Idatzi zure helbide elektronikoa mesedez
@@ -521,6 +539,14 @@ subscription-content-button-resubscribe = Berritu harpidetza
     .aria-label = Berritu { $productName } produkturako harpidetza
 resubscribe-success-dialog-title = Eskerrik asko! Dena prest daukazu.
 
+## $nextInvoiceTotal (String) - The total amount of the next invoice, formatted according to the user's locale and currency.
+## $taxDue (String) - The tax amount of the next invoice, formatted according to the user's locale and currency.
+## $last4 (String) - The last four digits of the default payment method card.
+## $currentPeriodEnd (Date) - The date of the next charge.
+
+stay-subscribed-next-charge-with-tax = Zure hurrengo kobrantza { $nextInvoiceTotal } + zergetako { $taxDue } izango da { $currentPeriodEnd } egunean.
+stay-subscribed-next-charge-no-tax = Zure hurrengo kobrantza { $nextInvoiceTotal } izango da { $currentPeriodEnd } egunean.
+
 ## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
 ## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
 ## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
@@ -530,12 +556,14 @@ resubscribe-success-dialog-title = Eskerrik asko! Dena prest daukazu.
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-will-be-applied = { $promotionName } deskontua aplikatuko da
 # • is acting as a separator between "Last bill" and the billing date.
 subscription-content-last-bill = Azken faktura • { $billedOnDate }
 subscription-content-last-bill-with-tax = { $invoiceTotal } + zergetako { $taxDue }
 subscription-content-last-bill-no-tax = { $invoiceTotal }
 subscription-content-view-invoice = Ikusi faktura
 subscription-management-link-view-invoice-aria = Ikusi { $productName } produkturako faktura
+subscription-content-expires-on-expiry-date = Iraungitze-data: { $date }
 # • is acting as a separator between "Next bill" and the next billing date.
 subscription-content-next-bill = Hurrengo faktura • { $billedOnDate }
 subscription-content-next-bill-with-tax-1 = { $nextInvoiceTotal } + zergetako { $taxDue }
@@ -544,9 +572,13 @@ subscription-content-button-stay-subscribed = Jarraitu harpidetua
     .aria-label = Jarraitu { $productName }(r)a harpidetua
 subscription-content-button-cancel-subscription = Utzi harpidetza
     .aria-label = Utzi { $productName }(e)ko zure harpidetza
+# Link to the terms and restrictions for a coupon offer.
+subscription-content-link-churn-intervention-terms-apply = Baldintzak aplikatzen dira
+subscription-content-link-churn-intervention-terms-aria = Ikusi kupoiaren termino eta murriztapenak
 
 ##
 
+dialog-close = Itxi elkarrizketa-koadroa
 button-back-to-subscriptions = Itzuli harpidetzetara
 subscription-content-cancel-action-error = Espero gabeko errorea gertatu da. Saiatu berriro geroago.
 
