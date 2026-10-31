@@ -401,6 +401,16 @@ locale-toggle-browser-default = Nettleser-standard
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig forespørsel
 
+## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when they open the pairing link
+## outside the Firefox app. It tells them how to finish pairing in Firefox.
+
+pair-unsupported-hint-heading = Fullfør sammenkoblingen i appen
+# Shown first when the page is open inside another app, which the user must close
+pair-unsupported-hint-step-close-page = Lukk denne siden
+# Opens a Mozilla support article about connecting a device without a QR code
+pair-unsupported-hint-learn-more-link = Les mer
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -2023,6 +2033,7 @@ pair2-supplicant-timeout-and-cancel-canceled-description = For å koble til en e
 permissions-heading = { $serviceName } ønsker tilgang til:
 permissions-label-email = E-postadresse
 permissions-label-display-name = Visningsnavn
+permissions-label-avatar = Kontobilde
 permissions-continue-button = Fortsett
 permissions-cancel-button = Avbryt
 
@@ -2188,6 +2199,13 @@ reset-password-complete-recovery-key-download-info =
     datagjenoppretting hvis du glemmer passordet ditt. <b>Last ned og lagre den sikkert
     nå, da du ikke vil kunne få tilgang til denne siden igjen senere.</b>
 
+## ServerError page
+## Shown when the server fails to handle a request
+
+server-error-heading = Feil 500
+server-error-description = Oi da, noe gikk galt. Vi har fått beskjed om problemet og skal jobbe med å løse det.
+server-error-home-button = Hjem
+
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
@@ -2253,6 +2271,16 @@ signin-passkey-fallback-body = For å holde dataene dine trygge, må du oppgi pa
 signin-passkey-fallback-password-label = Passord
 signin-passkey-fallback-continue = Fortsett
 signin-passkey-fallback-forgot-password-link = Glemt passord?
+# Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync, so the user must enter their password.
+signin-passkey-fallback-no-prf-heading = Passord kreves på denne enheten
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync.
+signin-passkey-fallback-no-prf-description = Denne nettleseren eller enheten kan ikke bruke passnøkkelen din til å logge på for å synkronisere på egenhånd.
+# Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
+signin-passkey-fallback-unwrap-failed-heading = Passnøkkelen din kunne ikke låse opp synkroniseringen
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync.
+signin-passkey-fallback-unwrap-failed-description = Noe gikk galt, så du trenger passordet ditt denne gangen.
+# Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
+signin-passkey-fallback-wrap-unusable-link = Les mer
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
