@@ -1720,7 +1720,7 @@ inline-totp-setup-page-title = Dvoufázové ověřování
 ## Shown when the requested page does not exist
 
 page-not-found-heading = Stránka nebyla nalezena
-page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme upozorněni a všechny odkazy, které mohou být nefunkční, opravíme.
+page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme o tom informováni a opravíme všechny nefunkční odkazy.
 page-not-found-home-button = Domů
 
 ## AuthAllow page - Part of the device pairing flow
@@ -2321,11 +2321,11 @@ signin-passkey-fallback-forgot-password-link = Zapomněli jste heslo?
 # Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync, so the user must enter their password.
 signin-passkey-fallback-no-prf-heading = Na tomto zařízení je vyžadováno heslo
 # Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync.
-signin-passkey-fallback-no-prf-description = Tento prohlížeč nebo zařízení nemůže pro přihlášení ke synchronizaci použít vlastní klíč.
+signin-passkey-fallback-no-prf-description = Tento prohlížeč nebo zařízení nedokáže k přihlášení k synchronizaci použít samotný přístupový klíč.
 # Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
 signin-passkey-fallback-unwrap-failed-heading = Váš přístupový kód nemohl odemknout synchronizaci
 # Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync.
-signin-passkey-fallback-unwrap-failed-description = Něco se pokazilo, tentokrát budete potřebovat heslo.
+signin-passkey-fallback-unwrap-failed-description = Něco se nezdařilo, takže tentokrát budete muset zadat heslo.
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = Zjistit více
 
