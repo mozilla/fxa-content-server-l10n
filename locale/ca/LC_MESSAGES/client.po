@@ -2,11 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-22 20:16+0000\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Pontoon\n"
@@ -14,7 +12,7 @@ msgstr ""
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75
 msgid "Close"
-msgstr ""
+msgstr "Tanca"
 
 #: .es5/views/mixins/password-mixin.js:134 .es5/views/mixins/password-mixin.js:135
 msgid "Hide password"
@@ -26,7 +24,7 @@ msgstr "Mostra la contrasenya"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "El compte s'ha confirmat correctament"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -58,7 +56,7 @@ msgstr "Adreces"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Formes de pagament"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -186,7 +184,7 @@ msgstr "Un altre usuari ja ha verificat aquesta adreça electrònica"
 
 #: .es5/lib/auth-errors.js:154
 msgid "Unverified session"
-msgstr ""
+msgstr "Sessió no verificada"
 
 #: .es5/lib/auth-errors.js:158
 msgid "Secondary email must be different than your account email"
@@ -194,11 +192,11 @@ msgstr "L'adreça electrònica secundària ha de ser diferent de l'adreça elect
 
 #: .es5/lib/auth-errors.js:166
 msgid "You have reached the maximum allowed secondary emails"
-msgstr ""
+msgstr "Heu arribat al màxim de correus electrònics secundaris permesos"
 
 #: .es5/lib/auth-errors.js:170
 msgid "This email already exists on your account"
-msgstr ""
+msgstr "Aquesta adreça electrònica ja existeix al vostre compte"
 
 #: .es5/lib/auth-errors.js:178
 msgid "Primary account email required for sign-in"
@@ -250,7 +248,7 @@ msgstr "No s'ha trobat el testimoni TOTP"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "No s'ha trobat el codi d'autenticació de la còpia de seguretat"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
@@ -258,11 +256,11 @@ msgstr "L'ordre del dispositiu no està disponible"
 
 #: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "No s'ha trobat la clau de recuperació"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "La clau de recuperació del compte no és vàlida"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
@@ -395,7 +393,7 @@ msgstr "L'enllaç de verificació està malmès"
 
 #: .es5/lib/auth-errors.js:431
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "Les dimensions de la imatge han de ser com a mínim 100x100px"
 
 #: .es5/lib/auth-errors.js:435
 msgid "Signup is coming soon to Firefox for iOS"
@@ -467,7 +465,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:576
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Cal una clau de recuperació del compte"
 
 #: .es5/lib/auth-errors.js:580
 msgid "Please enter verification code"
@@ -607,20 +605,18 @@ msgstr "El paràmetre no és vàlid en el cos de la sol·licitud: %(param)s"
 
 #: .es5/lib/profile-errors.js:29
 msgid "Unsupported image provider"
-msgstr ""
+msgstr "Proveïdor d'imatges no suportat"
 
 #: .es5/lib/profile-errors.js:33
 msgid "Image processing error"
-msgstr ""
+msgstr "Error en processar la imatge"
 
 #: .es5/lib/profile-errors.js:45
 msgid "Invalid Token"
 msgstr "El testimoni no és vàlid"
 
 #: .es5/lib/strings.js:26
-msgid ""
-"By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s "
-"(%(serviceUri)s)."
+msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
 
 #: .es5/lib/strings.js:33
@@ -653,7 +649,7 @@ msgstr "Inicia la sessió"
 
 #: .es5/templates/400.mustache:1
 msgid "Bad Request"
-msgstr ""
+msgstr "Sol·licitud incorrecta"
 
 #: .es5/templates/500.mustache:1
 msgid "500 Error"
@@ -683,19 +679,19 @@ msgstr "Baixeu el Firefox per a dispositius mòbils."
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Requisits de la contrasenya"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "8 caràcters com a mínim"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "No pot ser la vostra adreça electrònica"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "No pot ser una contrasenya d'ús comú"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
