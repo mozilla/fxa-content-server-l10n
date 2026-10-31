@@ -1281,6 +1281,7 @@ passkey-sub-row-created-date = Opprettet: { $createdDate }
 passkey-sub-row-last-used-date = Sist brukt: { $lastUsedDate }
 passkey-sub-row-delete-title = Slett passnøkkel
 passkey-delete-modal-heading = Slette passnøkkelen din?
+passkey-delete-modal-content-v3 = Denne passnøkkelen vil bli fjernet fra kontoen din. Du må logge på med et passord, en annen passnøkkel eller en tilknyttet konto.
 passkey-delete-modal-cancel-button = Avbryt
 passkey-delete-modal-confirm-button = Slett passnøkkel
 passkey-delete-success = Passnøkkel slettet
@@ -1633,15 +1634,23 @@ index-email-bounced = Bekreftelsesmeldingen kom i retur. Feilstavet e-postadress
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = Hopp over passordet neste gang?
+# Success banner after signing in.
+inline-passwordless-sync-setup-success-banner-v2 = Du er logget på, og synkronisering er på
 inline-passwordless-sync-setup-heading = Hoppe over passordet neste gang?
 inline-passwordless-sync-setup-description = Bruk denne passnøkkelen for å logge på raskere.
 inline-passwordless-sync-setup-enable-button = Slå på passnøkkel
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Slår på…
 inline-passwordless-sync-setup-not-now-button = Ikke nå
+# Success message shown in the Settings alert bar after the passkey was stored with the ability to sign-in and also sync data without a password.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-success-alert-v2 = Denne passnøkkelen er aktivert for pålogging og synkronisering.
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Bekreftelsen med passnøkkelen ble ikke fullført
 inline-passwordless-sync-setup-error-cancelled-description = Bekreft med passnøkkelen din for å slippe å skrive inn passordet neste gang.
+# Error shown in the Settings alert bar when storing the passkey failed for password-free sign-in for sync. The user will be able to sign-in with the passkey but still need to enter their password to sync.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-error-generic-v2 = Vi kunne ikke aktivere denne passnøkkelen for pålogging og synkronisering. Du må bruke passordet ditt neste gang.
 
 ## InlineRecoveryKeySetup page component
 
@@ -1686,6 +1695,11 @@ inline-totp-setup-security-code-placeholder = Autentiseringskode
 inline-totp-setup-code-required-error = Autentiseringskode kreves
 tfa-qr-code-alt = Bruk koden { $code } for å sette opp totrinns-autentisering i støttede apper.
 inline-totp-setup-page-title = Totrinns-autentisering
+
+## PageNotFound page
+## Shown when the requested page does not exist
+
+page-not-found-home-button = Hjem
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -1887,6 +1901,8 @@ pair2-authority-continue-on-mobile-cancel-button = Avbryt
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = Åpne { -brand-firefox } for å synkronisere
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction-v2 = For å konfigurere synkronisering på tvers av enheter, åpne { -brand-firefox } på denne enheten og gå til <b>firefox.com/pair</b>.
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Last ned { -brand-firefox }
 
@@ -1899,6 +1915,8 @@ pair2-authority-scan-qr-heading = Skann for å koble til mobilenheten din
 pair2-authority-scan-qr-instruction = Skann QR-koden med telefonen eller nettbrettet ditt for å synkronisere bokmerker, faner og mer fra { -brand-firefox }.
 # Accessible label describing the QR code image shown on this page
 pair2-authority-scan-qr-code-aria-label = QR-kode for å koble til mobilenheten din
+# Link to a support article on connecting a mobile device without scanning the QR code
+pair2-authority-scan-qr-other-ways-link = Andre måter å logge inn på
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Hopp over foreløpig
 
@@ -2022,6 +2040,8 @@ pair2-supplicant-timeout-and-cancel-timeout-description = For å koble til mobil
 pair2-supplicant-timeout-and-cancel-cancelled-heading = Avbrutt
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = For å koble til en enhet når som helst, gå til <b>firefox.com/pair</b> på datamaskinen din.
+# Shown when the mobile browser is already signed in to an account, so pairing cannot sign it in to another one
+pair2-supplicant-timeout-and-cancel-signed-in-heading = Denne enheten er allerede logget inn
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
@@ -2142,9 +2162,12 @@ confirm-totp-reset-password-use-different-account = Bruk en annen konto
 ## ResetPassword start page
 
 password-reset-flow-heading = Tilbakestill passordet ditt
+password-reset-forgot-heading = Glemt passord ditt?
 password-reset-email-input =
     .label = Skriv inn e-postadressen din
 password-reset-submit-button-2 = Fortsett
+# Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
+password-reset-data-recovery-warning = Tilbakestilling av passordet ditt kan påvirke om du kan gjenopprette synkroniserte nettleserdata. <learnMoreLink>Les mer</learnMoreLink>
 
 ## ResetPasswordConfirmed
 
