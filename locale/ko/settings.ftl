@@ -389,6 +389,20 @@ locale-toggle-browser-default = 기본 브라우저
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 잘못된 요청
 
+## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when they open the pairing link
+## outside the Firefox app. It tells them how to finish pairing in Firefox.
+
+pair-unsupported-hint-heading = 앱에서 페어링 완료하기
+# Shown first when the page is open inside another app, which the user must close
+pair-unsupported-hint-step-close-page = 이 페이지 닫기
+# <b> emphasises the name of the button the user taps in Firefox
+pair-unsupported-hint-step-app-menu = <b>앱 메뉴</b>를 탭
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair-unsupported-hint-step-sign-in = <b>로그인</b> 후, 코드 스캔
+# Opens a Mozilla support article about connecting a device without a QR code
+pair-unsupported-hint-learn-more-link = 더 알아보기
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -1668,6 +1682,11 @@ inline-totp-setup-security-code-placeholder = 인증 코드
 inline-totp-setup-code-required-error = 인증 코드 필요함
 tfa-qr-code-alt = 지원되는 애플리케이션에서 2단계 인증을 설정하려면 { $code } 코드를 사용하세요.
 inline-totp-setup-page-title = 2단계 인증
+
+## PageNotFound page
+## Shown when the requested page does not exist
+
+page-not-found-heading = 페이지를 찾을 수 없음
 
 ## AuthAllow page - Part of the device pairing flow
 
