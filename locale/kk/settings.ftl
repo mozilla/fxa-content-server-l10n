@@ -401,6 +401,14 @@ locale-toggle-browser-default = Үнсіз келісім бойынша бра�
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Жарамсыз сұраным
 
+## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when they open the pairing link
+## outside the Firefox app. It tells them how to finish pairing in Firefox.
+
+pair-unsupported-hint-heading = Жұптауды қолданбада аяқтаңыз
+# Shown first when the page is open inside another app, which the user must close
+pair-unsupported-hint-step-close-page = Бұл бетті жабу
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
