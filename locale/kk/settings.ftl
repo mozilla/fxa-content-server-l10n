@@ -408,6 +408,8 @@ error-bad-request = Жарамсыз сұраным
 pair-unsupported-hint-heading = Жұптауды қолданбада аяқтаңыз
 # Shown first when the page is open inside another app, which the user must close
 pair-unsupported-hint-step-close-page = Бұл бетті жабу
+# Opens a Mozilla support article about connecting a device without a QR code
+pair-unsupported-hint-learn-more-link = Көбірек білу
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -1708,6 +1710,13 @@ inline-totp-setup-code-required-error = Аутентификация коды к
 tfa-qr-code-alt = Қолдауы бар қолданбаларда екі қадамды аутентификацияны орнату үшін { $code } кодын пайдаланыңыз.
 inline-totp-setup-page-title = Екі сатылы аутентификация
 
+## PageNotFound page
+## Shown when the requested page does not exist
+
+page-not-found-heading = Бет табылмады
+page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.
+page-not-found-home-button = Үй беті
+
 ## AuthAllow page - Part of the device pairing flow
 
 pair-auth-allow-heading-text = { -brand-firefox } ішіне жаңа кірдіңіз бе?
@@ -2232,6 +2241,12 @@ reset-password-complete-recovery-key-download-info =
     Бұл кілт парольді ұмытып қалсаңыз,
     деректерді қалпына келтіру үшін өте маңызды. <b>Оны қазір жүктеп алыңыз және қауіпсіз сақтаңыз,
     себебі бұл бетке кейінірек қайта қол жеткізе алмайсыз.</b>
+
+## ServerError page
+## Shown when the server fails to handle a request
+
+server-error-heading = 500 қатесі
+server-error-description = Әттеген-ай, бірнәрсе қате кетіп қалды. Ол туралы біз хабарды алдық, және оны түзетуге кірістік.
 
 ## CompleteSignin component
 
