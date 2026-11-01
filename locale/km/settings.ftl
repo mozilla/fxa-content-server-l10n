@@ -154,6 +154,8 @@ pair-unsupported-hint-heading = បញ្ចប់ការផ្គូផ្គ
 pair-unsupported-hint-step-close-page = បិទទំព័រនេះ
 # <b> emphasises the name of the button the user taps in Firefox
 pair-unsupported-hint-step-app-menu = ចុច <b>ម៉ឺនុយកម្មវិធី</b>
+# Opens a Mozilla support article about connecting a device without a QR code
+pair-unsupported-hint-learn-more-link = ស្វែងយល់​បន្ថែម
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
