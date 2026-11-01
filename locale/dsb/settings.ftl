@@ -414,6 +414,8 @@ error-bad-request = Špatne napšašowanje
 pair-unsupported-hint-heading = Koplowanje w nałoženju dokóńcyś
 # Shown first when the page is open inside another app, which the user must close
 pair-unsupported-hint-step-close-page = Toś ten bok zacyniś
+# <b> emphasises the name of the button the user taps in Firefox
+pair-unsupported-hint-step-app-menu = Pótusniśo <b>meni nałoženja</b>
 # <b> emphasises the name of the menu item the user taps in Firefox
 pair-unsupported-hint-step-sign-in = <b>Pśizjawśo se</b> a scannujśo pón kode
 # Opens a Mozilla support article about connecting a device without a QR code
@@ -2331,6 +2333,12 @@ signin-passkey-fallback-body = Aby swóje daty wěste wobchował, musyśo swójo
 signin-passkey-fallback-password-label = Gronidło
 signin-passkey-fallback-continue = Dalej
 signin-passkey-fallback-forgot-password-link = Sćo gronidło zabył?
+# Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync, so the user must enter their password.
+signin-passkey-fallback-no-prf-heading = Gronidło jo na toś tom rěźe trjebne
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync.
+signin-passkey-fallback-no-prf-description = Toś ten wobglědowak abo rěd njamóžo waš gronidłowy kluc wužywaś, aby se za synchronizaciju pśizjawił.
+# Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
+signin-passkey-fallback-unwrap-failed-heading = Waš gronidłowy kluc njejo mógł synchronizaciju wótwóriś
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = Dalšne informacije
 
