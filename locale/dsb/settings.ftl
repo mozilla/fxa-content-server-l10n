@@ -2339,6 +2339,8 @@ signin-passkey-fallback-no-prf-heading = Gronidło jo na toś tom rěźe trjebne
 signin-passkey-fallback-no-prf-description = Toś ten wobglědowak abo rěd njamóžo waš gronidłowy kluc wužywaś, aby se za synchronizaciju pśizjawił.
 # Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
 signin-passkey-fallback-unwrap-failed-heading = Waš gronidłowy kluc njejo mógł synchronizaciju wótwóriś
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync.
+signin-passkey-fallback-unwrap-failed-description = Něco njejo se raźiło, togodla trjebaśo tenraz swójo gronidło.
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = Dalšne informacije
 
