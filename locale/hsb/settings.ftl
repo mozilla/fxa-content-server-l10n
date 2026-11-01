@@ -414,6 +414,8 @@ error-bad-request = Špatne naprašowanje
 pair-unsupported-hint-heading = Koplowanje w nałoženju dokónčić
 # Shown first when the page is open inside another app, which the user must close
 pair-unsupported-hint-step-close-page = Tutu stronu začinić
+# <b> emphasises the name of the button the user taps in Firefox
+pair-unsupported-hint-step-app-menu = Podótkńće so <b>nałoženskeho menija</b>
 # <b> emphasises the name of the menu item the user taps in Firefox
 pair-unsupported-hint-step-sign-in = <b>Přizjewće so</b> a skenujće potom kode
 # Opens a Mozilla support article about connecting a device without a QR code
