@@ -407,6 +407,18 @@ locale-toggle-browser-default = Standard wobglědowaka
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne napšašowanje
 
+## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when they open the pairing link
+## outside the Firefox app. It tells them how to finish pairing in Firefox.
+
+pair-unsupported-hint-heading = Koplowanje w nałoženju dokóńcyś
+# Shown first when the page is open inside another app, which the user must close
+pair-unsupported-hint-step-close-page = Toś ten bok zacyniś
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair-unsupported-hint-step-sign-in = <b>Pśizjawśo se</b> a scannujśo pón kode
+# Opens a Mozilla support article about connecting a device without a QR code
+pair-unsupported-hint-learn-more-link = Dalšne informacije
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -1713,6 +1725,13 @@ inline-totp-setup-code-required-error = Awtentifikaciski kod trjebny
 tfa-qr-code-alt = Wužywajśo kod { $code }, aby zarědował dwukšacowu awtentifikaciju w pódpěranych nałoženjach.
 inline-totp-setup-page-title = Dwójokšacowa awtentifikacija
 
+## PageNotFound page
+## Shown when the requested page does not exist
+
+page-not-found-heading = Bok njejo se namakał
+page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Smy powěsć dostali a pórěźamy njepłaśiwe wótkaze.
+page-not-found-home-button = Startowy bok
+
 ## AuthAllow page - Part of the device pairing flow
 
 pair-auth-allow-heading-text = Sćo se rowno pśizjawił pla { -brand-firefox }?
@@ -2312,6 +2331,8 @@ signin-passkey-fallback-body = Aby swóje daty wěste wobchował, musyśo swójo
 signin-passkey-fallback-password-label = Gronidło
 signin-passkey-fallback-continue = Dalej
 signin-passkey-fallback-forgot-password-link = Sćo gronidło zabył?
+# Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
+signin-passkey-fallback-wrap-unusable-link = Dalšne informacije
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
