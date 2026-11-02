@@ -2309,7 +2309,7 @@ signin-passkey-fallback-forgot-password-link = Mot de passe oublié ?
 # Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync, so the user must enter their password.
 signin-passkey-fallback-no-prf-heading = Mot de passe nécessaire sur cet appareil
 # Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync.
-signin-passkey-fallback-no-prf-description = Ce navigateur ou cet appareil ne peut pas utiliser votre clé d’accès pour se connecter et synchroniser tout seul.
+signin-passkey-fallback-no-prf-description = Ce navigateur ou cet appareil ne peut pas utiliser uniquement votre clé d’accès pour l’accès à la synchronisation.
 # Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
 signin-passkey-fallback-unwrap-failed-heading = Votre clé d’accès n’a pas pu déverrouiller la synchronisation
 # Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync.
