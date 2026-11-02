@@ -1699,6 +1699,13 @@ inline-totp-setup-code-required-error = Authenticatiecode vereist
 tfa-qr-code-alt = Gebruik de code { $code } om authenticatie in twee stappen in ondersteunde toepassingen in te schakelen.
 inline-totp-setup-page-title = Authenticatie in twee stappen
 
+## PageNotFound page
+## Shown when the requested page does not exist
+
+page-not-found-heading = Pagina niet gevonden
+page-not-found-description = De opgevraagde pagina is niet gevonden. We zijn op de hoogte en zullen koppelingen die mogelijk niet werken herstellen.
+page-not-found-home-button = Startpagina
+
 ## AuthAllow page - Part of the device pairing flow
 
 pair-auth-allow-heading-text = Hebt u zich zojuist aangemeld bij { -brand-firefox }?
