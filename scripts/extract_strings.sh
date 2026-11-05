@@ -101,4 +101,13 @@ cp $SHARED_DIR/l10n/src/lib/branding.ftl $L10N_DIR/locale/templates
 # into "en" to ensure users with English will always see good fallback text.
 cp $L10N_DIR/locale/templates/*.ftl $L10N_DIR/locale/en
 
+# Some locales must be copied over to a different locale code
+# See details in https://github.com/mozilla/fxa-content-server-l10n/pull/79#issuecomment-149281761
+# Copy FTL files only until the unmaintained .po files are removed.
+cp $L10N_DIR/locale/es_ES/*.ftl $L10N_DIR/locale/es
+cp $L10N_DIR/locale/fy_NL/*.ftl $L10N_DIR/locale/fy
+cp $L10N_DIR/locale/hi_IN/*.ftl $L10N_DIR/locale/hi
+cp $L10N_DIR/locale/pt_PT/*.ftl $L10N_DIR/locale/pt
+cp $L10N_DIR/locale/sv_SE/*.ftl $L10N_DIR/locale/sv
+
 set +x
