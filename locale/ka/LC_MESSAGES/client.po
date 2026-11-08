@@ -693,8 +693,8 @@ msgstr "თქვენი ელფოსტის გარდა"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "ხშირად გამოყენებულის გარდა"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "დაიცავით უსაფრთხოება &mdash; ნუ გამოიყენებთ ერთსა და იმავე პაროლებს. ვრცლად იხილეთ რჩევები <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">მძლავრი პაროლის შესადგენად</a>."
