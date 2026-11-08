@@ -43,6 +43,7 @@
 -product-mozilla-monitor = Mozilla Monitor
 -product-mozilla-monitor-short = Monitor
 -product-firefox-relay = Firefox Relay
+-product-firefox-relay-short = Relay
 -brand-apple = Apple
 -brand-apple-pay = Apple Pay
 -brand-google = Google
@@ -53,6 +54,8 @@
 -brand-diners = Diners Club
 -brand-discover = Discover
 -brand-jcb = JCB
+# Link payment processor (by Stripe)
+-brand-link = Link
 -brand-mastercard = Mastercard
 -brand-unionpay = UnionPay
 -brand-visa = Visa
