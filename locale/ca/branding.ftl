@@ -22,7 +22,11 @@
 # "Firefox accounts" refers to the service
 -product-firefox-accounts = Comptes del Firefox
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
--product-mozilla-account = Compte de Mozilla
+-product-mozilla-account =
+    { $capitalization ->
+        [uppercase] Compte de Mozilla
+       *[lowercase] compte de Mozilla
+    }
 # "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
 # "accounts" should be lowercase in almost all cases. Uppercase is reserved for special use cases where headline case is necessary, for example legal document names and references.
 -product-mozilla-accounts =
