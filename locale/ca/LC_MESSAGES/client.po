@@ -657,7 +657,7 @@ msgstr "Error 500"
 
 #: .es5/templates/500.mustache:2
 msgid "Oh dear, something went wrong there. We've been notified and will get working on a fix."
-msgstr ""
+msgstr "Ha fallat alguna cosa. Se'ns ha notificat i ens posarem a treballar per a solucionar-ho."
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
