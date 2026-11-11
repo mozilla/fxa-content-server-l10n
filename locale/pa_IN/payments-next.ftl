@@ -1,3 +1,11 @@
+loyalty-discount-terms-heading = ਨਿਯਮ ਅਤੇ ਪਾਬੰਦੀਆਂ
+loyalty-discount-terms-support = ਸਹਿਯੋਗ ਲਈ ਸੰਪਰਕ ਕਰੋ
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+loyalty-discount-terms-contact-support-product-aria = { $productName } ਲਈ ਸਹਿਯੋਗ ਨਾਲ ਸੰਪਰਕ ਕਰੋ
+not-found-page-title-terms = ਸਫਾ ਨਹੀ ਲੱਭਾ
+not-found-page-description-terms = ਜੋ ਸਫ਼ਾ ਤਸੀ ਲੱਭ ਰਹੇ ਹੋ, ਉਹ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
+not-found-page-button-terms-manage-subscriptions = ਮੈਂਬਰੀ ਇੰਤਜ਼ਾਮ
+
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account } ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ ਜਾਂ ਬਣਾਓ
@@ -10,18 +18,28 @@ next-payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣ
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 
+## Error page
+
+error-page-account-not-found-heading = ਖਾਤਾ ਨਹੀਂ ਲੱਭਿਆ
+error-page-account-not-found-continue-button = ਜਾਰੀ ਰੱਖੋ
+location-banner-info = ਅਸੀਂ ਆਪਣੇ-ਆਪ ਤੁਹਾਡੇ ਟਿਕਾਣਾ ਨਹੀਂ ਲੱਭ ਸਕੇ ਸਾਂ
+
 ## Page - Upgrade page
 
 upgrade-page-payment-information = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
 
 ## Authentication Error page
 
+auth-error-page-title = ਅਸੀਂ ਤੁਹਾਨੂੰ ਸਾਈਨ ਇਨ ਨਹੀਂ ਕਰ ਸਕੇ
 checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+checkout-error-boundary-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ <contactSupportLink>ਸਹਿਯੋਗ ਟੀਮ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।</contactSupportLink>
 amex-logo-alt-text = { -brand-amex } ਲੋਗੋ
 diners-logo-alt-text2 = { -brand-diners } ਲੋਗੋ
 discover-logo-alt-text = { -brand-discover } ਲੋਗੋ
 jcb-logo-alt-text = { -brand-jcb } ਲੋਗੋ
 mastercard-logo-alt-text = { -brand-mastercard } ਲੋਗੋ
+paypal-logo-alt-text = { -brand-paypal } ਲੋਗੋ
+unionpay-logo-alt-text = { -brand-unionpay } ਲੋਗੋ
 visa-logo-alt-text = { -brand-visa } ਲੋਗੋ
 link-logo-alt-text = { -brand-link } ਲੋਗੋ
 apple-pay-logo-alt-text = { -brand-apple-pay } ਲੋਗੋ
@@ -34,6 +52,7 @@ next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ 
 next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 checkout-error-contact-support-button = ਸਹਿਯੋਗ ਲਈ ਸੰਪਰਕ ਕਰੋ
+checkout-error-already-subscribed = ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਇਸ ਉਤਪਾਦ ਦੇ ਮੈਂਬਰ ਹੋ।
 
 ## Error pages - Payment method failure messages
 
@@ -69,6 +88,7 @@ next-payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4
 ## Page - Subscription Management
 
 subscription-management-subscriptions-heading = ਮੈਂਬਰੀਆਂ
+subscription-management-payment-method-label = ਭੁਗਤਾਨ ਦਾ ਢੰਗ
 subscription-management-button-add-payment-method-aria = ਭੁਗਤਾਨ ਢੰਗ ਨੂੰ ਜੋੜੋ
 subscription-management-button-add-payment-method = ਜੋੜੋ
 subscription-management-button-manage-payment-method-aria = ਭੁਗਤਾਨ ਢੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ
@@ -77,23 +97,52 @@ subscription-management-button-manage-payment-method = ਬੰਦੋਬਸਤ
 subscription-management-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = ਮਿਆਦ { $expirationDate }
+subscription-management-active-subscriptions-heading = ਸਰਗਰਮ ਮੈਂਬਰੀਆਂ
 subscription-management-button-support = ਮਦਦ ਲਵੋ
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName } ਲਈ ਮਦਦ ਲਵੋ
+# $date (String) - Date of next bill
+subscription-management-iap-sub-expires-on-expiry-date = { $date } ਦੀ ਮਿਆਦ ਪੁੱਗਣੀ ਹੈ
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } ਲਈ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+subscription-management-button-manage-subscription-1 = ਮੈਂਬਰੀ ਇੰਤਜ਼ਾਮ
+error-payment-method-banner-title-expired-card = ਮਿਆਦ ਪੁੱਗਿਆ ਕਾਰਡ
+error-payment-method-banner-label-update-payment-method = ਭੁਗਤਾਨ ਢੰਗ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ
+error-payment-method-banner-title-invalid-payment-information = ਗਲਤ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ
+error-payment-method-banner-message-account-issue = ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਮਸਲਾ ਹੈ।
+subscription-management-button-manage-payment-method-1 = ਭੁਗਤਾਨ ਢੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ
+manage-payment-methods-heading = ਭੁਗਤਾਨ ਢੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ
 # Page - Not Found
 page-not-found-title = ਸਫਾ ਨਹੀ ਲੱਭਾ
 page-not-found-back-button = ਪਿੱਛੇ ਜਾਓ
 
+## Already Canceling
+
+already-canceling-title = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਛੇਤੀ ਹੀ ਖਤਮ ਹੋਣ ਵਾਲੀ ਹੈ
+already-canceling-button-back-to-subscriptions = ਮੈਂਬਰੀ ਉੱਤੇ ਵਾਪਸ ਜਾਓ
+
 ## Navigation breadcrumbs
 
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = ਖਾਤੇ ਦਾ ਮੁੱਖ ਸਫ਼ਾ
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = ਮੈਂਬਰੀ
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = ਭੁਗਤਾਨ ਢੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = { $page } ਉੱਤੇ ਵਾਪਸ ਜਾਓ
 
 ## CancelSubscription
 
 subscription-cancellation-dialog-title = ਸਾਨੂੰ ਅਫਸੋਸ ਹੈ ਕਿ ਤੁਸੀਂ ਛੱਡ ਰਹੇ ਹੋ
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+cancel-subscription-heading = { $productName } ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕਰੋ
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+
+cancel-subscription-button-cancel-subscription = ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕਰੋ
+    .aria-label = { $productName } ਲਈ ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕਰੋ
+cancel-subscription-button-keep-subscription = ਮੈਂਬਰੀ ਰੱਖੋ
 
 ## $endDate (Date) - The end date of the free trial
 
@@ -117,25 +166,22 @@ next-coupon-submit = ਲਾਗੂ ਕਰੋ
 
 ##
 
-
-# Component - Header
-
 payments-header-help =
-    .title = ਮਦਦ
-    .aria-label = ਮਦਦ
     .alt = ਮਦਦ
+    .aria-label = ਮਦਦ
+    .title = ਮਦਦ
 payments-header-bento =
-    .title = { -brand-mozilla } ਉਤਪਾਦ
-    .aria-label = { -brand-mozilla } ਉਤਪਾਦ
     .alt = { -brand-mozilla } ਲੋਗੋ
+    .aria-label = { -brand-mozilla } ਉਤਪਾਦ
+    .title = { -brand-mozilla } ਉਤਪਾਦ
 payments-header-bento-close =
     .alt = ਬੰਦ ਕਰੋ
 
 ##
 
 payments-client-loading-spinner =
-    .aria-label = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
     .alt = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
+    .aria-label = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 
 ## Component - PurchaseDetails
 
