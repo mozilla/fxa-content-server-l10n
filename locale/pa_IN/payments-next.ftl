@@ -153,6 +153,25 @@ next-payment-confirm-checkbox-error = ਅੱਗੇ ਜਾਣ ਤੋਂ ਪਹਿ
 next-new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
 next-pay-with-heading-paypal = { -brand-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
 
+## Churn flow - cancel
+
+churn-cancel-flow-success-title = ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਮੈਂਬਰ ਹੋ
+
+## Churn flow - stay subscribed
+
+churn-stay-subscribed-button-stay-subscribed-and-save = ਮੈਂਬਰ ਬਣੇ ਰਹੋ ਅਤੇ ਬੱਚਤ ਕਰੋ
+churn-stay-subscribed-button-no-thanks = ਨਹੀਂ, ਧੰਨਵਾਦ
+    .aria-label = ਮੈਂਬਰੀ ਸਫ਼ੇ ਉੱਤੇ ਵਾਪਸ ਜਾਓ
+churn-stay-subscribed-link-terms-and-restrictions = ਸੀਮਤ ਨਿਯਮ ਅਤੇ ਪਾਬੰਦੀਆਂ ਲਾਗੂ ਹਨ
+churn-stay-subscribed-title-offer-expired = ਇਹ ਪੇਸ਼ਕਸ਼ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
+
+## $productName (String) - The name of the product associated with the subscription.
+
+churn-stay-subscribed-subtitle-offer-expired = ਕੀ { $productName } ਨੂੰ ਵਰਤਣਾ ਜਾਰੀ ਰੱਖਣਾ ਹੈ?
+churn-stay-subscribed-button-go-to-product-page = { $productName } ਉੱਤੇ ਜਾਓ
+churn-stay-subscribed-button-go-to-subscriptions = ਮੈਂਬਰੀ ਉੱਤੇ ਜਾਓ
+churn-stay-subscribed-button-stay-subscribed = ਮੈਂਬਰ ਬਣੇ ਰਹੋ
+
 ## Component - CouponForm
 
 next-coupon-enter-code =
@@ -164,8 +183,23 @@ next-coupon-promo-code-applied = ਪ੍ਰੋਮੋ ਕੋਡ ਲਾਗੂ ਕ�
 next-coupon-remove = ਹਟਾਓ
 next-coupon-submit = ਲਾਗੂ ਕਰੋ
 
+## $amount (Number) - The charge amount excluding tax. It will be formatted as currency.
+## $date (Date) - The date the free trial ends or expires (e.g., September 8, 2026)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $tax (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-button-cancel-trial-aria = { $productName } ਲਈ ਟਰਾਇਲ ਨੂੰ ਰੱਦ ਕਰੋ
+free-trial-content-button-cancel-subscription = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
+
+## $billedOnDate (Date) - The date of the last bill (e.g., July 20, 2025)
+## $invoiceTotal (Number) - The invoice total amount excluding tax. It will be formatted as currency.
+## $taxDue (Number) - The tax amount. It will be formatted as currency.
+
+free-trial-content-last-bill-no-tax = { $invoiceTotal }
+
 ##
 
+free-trial-content-button-update-payment = ਭੁਗਤਾਨ ਢੰਗ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ
 payments-header-help =
     .alt = ਮਦਦ
     .aria-label = ਮਦਦ
@@ -177,18 +211,33 @@ payments-header-bento =
 payments-header-bento-close =
     .alt = ਬੰਦ ਕਰੋ
 
+## Interstitial Offer
+
+interstitial-offer-button-back-to-subscriptions = ਮੈਂਬਰੀ ਉੱਤੇ ਵਾਪਸ ਜਾਓ
+interstitial-offer-cancel-subscription-button = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
+
 ##
 
 payments-client-loading-spinner =
     .alt = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
     .aria-label = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 
+## Payment method management page - Stripe
+
+# Save button for saving a new payment method
+payment-method-management-save-method = ਭੁਗਤਾਨ ਢੰਗ ਨੂੰ ਸੰਭਾਲੋ
+manage-stripe-payments-title = ਭੁਗਤਾਨ ਢੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ
+
 ## Component - PurchaseDetails
 
 next-plan-details-header = ਉਤਪਾਦ ਦੇ ਵੇਰਵੇ
 next-plan-details-list-price = ਭਾਅ ਸੂਚੀ
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = { $productName } ਲਈ ਅਨੁਪਾਤ ਮੁਤਾਬਕ ਕੀਮਤ
 next-plan-details-tax = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ
 next-plan-details-total-label = ਕੁੱਲ ਜੋੜ
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = ਅਣਵਰਤੇ ਸਮੇਂ ਲਈ ਕਰੈਡਿਟ
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = ਕਰੈਡਿਟ ਲਾਗੂ ਕੀਤਾ
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
@@ -237,6 +286,8 @@ resubscribe-success-dialog-title = ਧੰਨਵਾਦ! ਤੁਸੀਂ ਸਭ �
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-last-bill-no-tax = { $invoiceTotal }
+subscription-content-next-bill-no-tax-1 = { $nextInvoiceTotal }
 subscription-content-button-stay-subscribed = ਮੈਂਬਰ ਬਣੇ ਰਹੋ
     .aria-label = { $productName } ਲਈ ਮੈਂਬਰ ਬਣੇ ਰਹੋ
 subscription-content-button-cancel-subscription = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
@@ -245,6 +296,12 @@ subscription-content-button-cancel-subscription = ਮੈਂਬਰੀ ਰੱਦ �
 ##
 
 dialog-close = ਡਾਈਲਾਗ ਨੂੰ ਬੰਦ ਕਰੋ
+
+## Churn flow - Error page
+
+churn-error-page-button-sign-in = ਸਾਈਨ ਇਨ
+# $productName (String) - The name of the product associated with the subscription.
+churn-error-page-button-go-to-product-page = { $productName } ਉੱਤੇ ਜਾਓ
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -280,3 +337,44 @@ terms-and-privacy-paypal-link = { -brand-paypal } ਪਰਦੇਦਾਰੀ ਨ�
 upgrade-purchase-details-current-plan-label = ਮੌਜੂਦਾ ਪਲਾਨ
 upgrade-purchase-details-new-plan-label = ਨਵਾਂ ਪਲਾਨ
 upgrade-purchase-details-promo-code = ਪਰਚਾਰ ਕੋਡ
+upgrade-purchase-details-tax-label = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
+upgrade-purchase-details-new-plan-daily = { $productName } (ਰੋਜ਼ਾਨਾ)
+upgrade-purchase-details-new-plan-weekly = { $productName } (ਹਫ਼ਤੇਵਾਰ)
+upgrade-purchase-details-new-plan-monthly = { $productName } (ਮਹੀਨੇਵਾਰ)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-ਮਹੀਨੇ)
+upgrade-purchase-details-new-plan-yearly = { $productName } (ਸਾਲਾਨਾ)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+# Checkout error
+metadata-title-checkout-error = ਗਲਤੀ | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = ਸਫ਼ਲ | { $productTitle }
+metadata-description-checkout-success = ਵਧਾਈਆਂ! ਤੁਸੀਂ ਆਪਣੀ ਖਰੀਦ ਕਾਮਯਾਬੀ ਨਾਲ ਪੂਰੀ ਕਰ ਲਈ ਹੈ।
+# Checkout needs_input
+metadata-title-checkout-needs-input = ਕਾਰਵਾਈ ਦੀ ਲੋੜ ਹੈ | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = ਅੱਪਗਰੇਡ | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = ਕਾਰਵਾਈ ਜਾਰੀ ਹੈ | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = ਗਲਤੀ | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = ਸਫ਼ਲ | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = ਕਾਰਵਾਈ ਦੀ ਲੋੜ ਹੈ | { $productTitle }
+# Default
+metadata-title-default = ਸਫ਼ਾ ਨਹੀਂ ਲੱਭਿਆ | { $productTitle }
+
+## Coupon Error Messages
+
+next-coupon-error-invalid = ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤਾ ਕੋਡ ਗ਼ੈਰ-ਵਾਜਬ ਹੈ।
+
+## Stay Subscribed Error Messages
+
+stay-subscribed-error-expired = ਇਹ ਪੇਸ਼ਕਸ਼ ਦੀ ਮਿਆਦ ਪੁੱਗੀ।

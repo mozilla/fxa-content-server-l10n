@@ -43,6 +43,9 @@ button-back-title = ਪਿੱਛੇ
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a plain text file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+recovery-key-download-button-v4 = ਡਾਊਨਲੋਡ ਅਤੇ ਜਾਰੀ ਰੱਖੋ
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਡਾਊਨਲੋਡ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
@@ -71,6 +74,12 @@ choose-newsletters-option-test-pilot =
 # "Action alerts" can be interpreted as "Calls to action"
 choose-newsletters-option-reclaim-the-internet =
     .label = ਇੰਟਰਨੈੱਟ ਉੱਤੇ ਦਾਅਵਾ ਕਰਨ ਲਈ ਕਾਰਵਾਈ ਚੇਤਾਵਨੀਆਂ
+
+## Dark mode toggle
+
+dark-mode-toggle-light = ਹਲਕਾ
+dark-mode-toggle-dark = ਗੂੜ੍ਹਾ
+dark-mode-toggle-system = ਸਿਸਟਮ
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -134,6 +143,13 @@ device-info-browser-device = { $deviceName } ਉੱਤੇ { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP ਸਿਰਨਾਵਾਂ: { $ipAddress }
 
+## Firefox Promo Banner component
+## Shown at the top of settings to promote installing Firefox on mobile (when
+## the user is on Firefox) or switching to Firefox (on other browsers).
+
+firefox-promo-banner-mobile-cta = ਡਿਵਾਈਸ ਨੂੰ ਕਨੈਕਟ ਕਰੋ
+firefox-promo-banner-switch-cta = { -brand-firefox } ਲਈ ਬਦਲੋ
+
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -146,6 +162,9 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = ਪਾਸਵਰਡ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 form-password-with-inline-criteria-reset-submit-button = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
+form-password-with-inline-criteria-old-password-label =
+    .label = ਪੁਰਾਣਾ ਪਾਸਵਰਡ
+form-password-with-inline-criteria-change-password-submit-button = ਪਾਸਵਰਡ ਨੂੰ ਬਦਲੋ
 form-password-with-inline-criteria-set-password-new-password-label =
     .label = ਪਾਸਵਰਡ
 form-password-with-inline-criteria-set-password-confirm-password-label =
@@ -231,6 +250,9 @@ close-icon-aria-label =
 # Used to decorate a code you enter for verification purposes
 code-icon-aria-label =
     .aria-label = ਕੋਡ
+# Used to decorate an edit or rename control
+edit-icon-aria-label =
+    .aria-label = ਸੋਧੋ
 error-icon-aria-label =
     .aria-label = ਗਲਤੀ
 # Used as information icon for informative messaging
@@ -363,6 +385,16 @@ locale-toggle-browser-default = ਬਰਾਊਜ਼ਰ ਮੂਲ
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = ਖ਼ਰਾਬ ਬੇਨਤੀ
 
+## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when they open the pairing link
+## outside the Firefox app. It tells them how to finish pairing in Firefox.
+
+pair-unsupported-hint-heading = ਐਪ ਵਿੱਚ ਪੇਅਰ ਕਰਨ ਨੂੰ ਪੂਰਾ ਕਰੋ
+# Shown first when the page is open inside another app, which the user must close
+pair-unsupported-hint-step-close-page = ਇਸ ਸਫ਼ੇ ਨੂੰ ਬੰਦ ਕਰੋ
+# Opens a Mozilla support article about connecting a device without a QR code
+pair-unsupported-hint-learn-more-link = ਹੋਰ ਜਾਣੋ
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -378,6 +410,12 @@ password-strength-inline-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰ�
 password-strength-inline-not-common = ਕੋਈ ਆਮ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ
 password-strength-inline-confirmed-must-match = ਨਵੇਂ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹੋਣ ਦੀ ਤਸਦੀਕ
 password-strength-inline-passwords-match = ਪਾਸਵਰਡ ਮਿਲਦੇ ਹਨ
+
+## PromoQrMobile component
+## Promotional aside encouraging users to download the Firefox mobile app via QR code.
+
+# "Your phone. Your rules." refers to the user being able to control what browser they use on their own phone.
+promo-qr-mobile-heading = ਤੁਹਾਡਾ ਫ਼ੋਨ। ਤੁਹਾਡੇ ਨਿਯਮ।
 
 ## Notification Promo Banner component
 
@@ -732,6 +770,7 @@ nav-security = ਸੁਰੱਖਿਆ
 nav-connected-services = ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ
 nav-data-collection = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋਂ
 nav-paid-subs = ਭੁਗਤਾਨ ਕੀਤੀਆਂ ਮੈਂਬਰੀਆਂ
+nav-email-prefs = ਈਮੇਲ ਪਸੰਦਾਂ
 
 ## Page2faChange
 
@@ -834,6 +873,7 @@ delete-account-product-firefox-sync = { -brand-firefox } ਡਾਟਾ ਸਿੰ�
 delete-account-product-firefox-addons = { -brand-firefox } ਐਡ-ਆਨ
 delete-account-acknowledge = ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਹਟਾਉਣ ਦੀ ਤਸਦੀਕ ਕਰੋ:
 delete-account-continue-button = ਜਾਰੀ ਰੱਖੋ
+delete-account-delete-button-passwordless = ਖਾਤੇ ਨੂੰ ਹਟਾਓ
 delete-account-password-input =
     .label = ਪਾਸਵਰਡ ਭਰੋ
 delete-account-cancel-button = ਰੱਦ ਕਰੋ
@@ -849,6 +889,15 @@ submit-display-name = ਸੰਭਾਲੋ
 cancel-display-name = ਰੱਦ ਕਰੋ
 display-name-update-error-2 = ਤੁਹਾਡੇ ਦਿਸਣ ਵਾਲੇ ਨਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ
 display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ
+
+## PagePasskeyAdd - Loading page shown during passkey creation
+
+page-passkey-add-creating-heading = ਪਾਸ-ਕੀ ਬਣਾਈ ਜਾ ਰਹੀ ਹੈ…
+page-passkey-add-cancel = ਰੱਦ ਕਰੋ
+
+## Success / Error messages (shown in alert bar after returning to settings)
+
+page-passkey-add-success = ਪਾਸ-ਕੀ ਬਣਾਈ ਗਈ
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -889,6 +938,8 @@ recent-activity-account-recovery-codes-replaced = ਰਿਕਵਰੀ ਕੋਡ�
 recent-activity-account-recovery-codes-created = ਰਿਕਵਰੀ ਕੋਡ ਬਣਾਏ ਗਏ
 recent-activity-account-recovery-codes-signin-complete = ਰਿਕਵਰੀ ਕੋਡਾਂ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਨਾ ਪੂਰਾ ਹੋਇਆ
 recent-activity-must-reset-password = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
+recent-activity-account-passkey-removed = ਪਾਸ-ਕੀ ਨੂੰ ਹਟਾਇਆ
+recent-activity-account-passkey-authentication-success = ਪਾਸ-ਕੀ ਨਾਲ ਸਾਈਨ-ਇਨ ਕਰਨਾ ਪੂਰਾ ਹੋਇਆ
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = ਹੋਰ ਖਾਤਾ ਸਰਗਰਮੀ
 
