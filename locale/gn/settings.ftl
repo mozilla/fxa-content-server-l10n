@@ -401,6 +401,16 @@ locale-toggle-browser-default = Kundahára ypyguáva
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mba’ejerure ojavýva
 
+## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
+## Users see this on their mobile device when they open the pairing link
+## outside the Firefox app. It tells them how to finish pairing in Firefox.
+
+pair-unsupported-hint-heading = Emohu’ã tembiporu’i mbojuehe
+# Shown first when the page is open inside another app, which the user must close
+pair-unsupported-hint-step-close-page = Emboty ko kuatiarogue
+# Opens a Mozilla support article about connecting a device without a QR code
+pair-unsupported-hint-learn-more-link = Eikuaave
+
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -868,6 +878,7 @@ nav-security = Tekorosã
 nav-connected-services = Mba’epytyvõrã mbojuajupyre
 nav-data-collection = Ñembyaty ha mba’ekuaarã jeporu
 nav-paid-subs = Ñemboheraguapy ñehepyme’ẽgua
+nav-email-prefs = Ñanduti veve erohoryvéva
 
 ## Page2faChange
 
@@ -1629,6 +1640,8 @@ index-email-bounced = Ne ñanduti veve ñemoneĩrã ojevyjeýma. ¿Ikatu ehaivai
 
 # Browser tab title.
 inline-passwordless-sync-setup-page-title = ¿Ehejarei ñe’ẽñemi eiporujeývo?
+# Success banner after signing in.
+inline-passwordless-sync-setup-success-banner-v2 = Emoñepyrũ tembiapo ha hendýma ñembojuehe
 inline-passwordless-sync-setup-heading = ¿Ehejarei ñe’ẽñemi eiporujeývo?
 inline-passwordless-sync-setup-description = Eiporu ko ñe’ẽ ñemi eike pya’eve hag̃ua.
 inline-passwordless-sync-setup-enable-button = Ejora ñe’ẽ ñemi jeikeha
