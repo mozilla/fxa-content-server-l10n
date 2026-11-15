@@ -406,6 +406,12 @@ error-bad-request = Ugyldig førespurnad
 ## outside the Firefox app. It tells them how to finish pairing in Firefox.
 
 pair-unsupported-hint-heading = Fullfør samankoplinga i appen
+# Shown first when the page is open inside another app, which the user must close
+pair-unsupported-hint-step-close-page = Lat att denne sida
+# <b> emphasises the name of the button the user taps in Firefox
+pair-unsupported-hint-step-app-menu = Trykk på <b>appmenyen</b>
+# <b> emphasises the name of the menu item the user taps in Firefox
+pair-unsupported-hint-step-sign-in = <b>Logg inn</b>, og skann deretter koden
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Les meir
 
@@ -881,6 +887,7 @@ nav-security = Sikkerheit
 nav-connected-services = Tilkopla tenester
 nav-data-collection = Datainnsamling og bruk
 nav-paid-subs = Betalte abonnement
+nav-email-prefs = E-postinnstillingar
 
 ## Page2faChange
 
@@ -1280,6 +1287,7 @@ passkey-sub-row-created-date = Oppretta: { $createdDate }
 passkey-sub-row-last-used-date = Sist brukt: { $lastUsedDate }
 passkey-sub-row-delete-title = Slett passnøkkel
 passkey-delete-modal-heading = Slette passnøkkelen?
+passkey-delete-modal-content-v3 = Denne passnøkkelen vil bli fjerna frå kontoen din. Du må logge på med eit passord, ein annan passnøkkel eller ein tilknytt konto.
 passkey-delete-modal-cancel-button = Avbryt
 passkey-delete-modal-confirm-button = Slett passnøkkel
 passkey-delete-success = Passnøkkel sletta
@@ -1650,6 +1658,9 @@ inline-passwordless-sync-setup-enable-button = Slå på passnøkkel
 # Button label while the passkey is stored.
 inline-passwordless-sync-setup-enabling = Slår på…
 inline-passwordless-sync-setup-not-now-button = Ikkje no
+# Success message shown in the Settings alert bar after the passkey was stored with the ability to sign-in and also sync data without a password.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-success-alert-v2 = Denne passnøkkelen er aktivert for pålogging og synkronisering.
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Stadfestinga med passnøkkelen vart ikkje fullført
 inline-passwordless-sync-setup-error-cancelled-description = Stadfest med passnøkkelen din for å sleppe å skrive inn passordet neste gong.
