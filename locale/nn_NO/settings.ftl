@@ -1664,6 +1664,9 @@ inline-passwordless-sync-setup-success-alert-v2 = Denne passnøkkelen er aktiver
 # Error banner shown on the page when the passkey confirmation prompt was dismissed or timed out. The button below it tries again.
 inline-passwordless-sync-setup-error-cancelled = Stadfestinga med passnøkkelen vart ikkje fullført
 inline-passwordless-sync-setup-error-cancelled-description = Stadfest med passnøkkelen din for å sleppe å skrive inn passordet neste gong.
+# Error shown in the Settings alert bar when storing the passkey failed for password-free sign-in for sync. The user will be able to sign-in with the passkey but still need to enter their password to sync.
+# "sync sign-in" refers to a sign-in with the additional ability to sync data without entering a password.
+inline-passwordless-sync-setup-error-generic-v2 = Vi klarte ikkje å aktivere denne passnøkkelen for pålogging og synkronisering. Du må bruke passordet ditt neste gong.
 
 ## InlineRecoveryKeySetup page component
 
@@ -2238,6 +2241,8 @@ signin-link-expired-message-2 = Lenka du klikka på har gått ut, eller er aller
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Skriv inn passordet ditt <span>for { -product-mozilla-account }en din</span>
+# Submit button label when the sign-in turns Sync on (user was sent here to set up Sync, e.g. from pairing)
+signin-button-start-syncing = Start synkronisering
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Hald fram til { $serviceName }
@@ -2287,6 +2292,12 @@ signin-passkey-fallback-body = For å halde dataa dine trygge, må du oppgi pass
 signin-passkey-fallback-password-label = Passord
 signin-passkey-fallback-continue = Hald fram
 signin-passkey-fallback-forgot-password-link = Gløymt passordet?
+# Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync, so the user must enter their password.
+signin-passkey-fallback-no-prf-heading = Passord trengst på denne eininga
+# Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
+signin-passkey-fallback-unwrap-failed-heading = Passnøkkelen din kunne ikkje låse opp synkroniseringa
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync.
+signin-passkey-fallback-unwrap-failed-description = Noko gjekk gale, så du treng passordet ditt denne gongen.
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = Les meir
 
