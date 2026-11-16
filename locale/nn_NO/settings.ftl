@@ -1716,6 +1716,7 @@ inline-totp-setup-page-title = Tostegs-autentisering
 ## Shown when the requested page does not exist
 
 page-not-found-heading = Fann ikkje sida
+page-not-found-description = Fann ikkje sida du ba om. Vi er varsla, og vil fikse lenkene som ikkje fungerer.
 page-not-found-home-button = Heim
 
 ## AuthAllow page - Part of the device pairing flow
@@ -1918,6 +1919,8 @@ pair2-authority-continue-on-mobile-cancel-button = Avbryt
 
 # "sync" is a verb here, referring to syncing data between the user's devices
 pair2-authority-download-firefox-heading = Opne { -brand-firefox } for å synkronisere
+# "firefox.com/pair" is a URL and should not be translated
+pair2-authority-download-firefox-instruction-v2 = For å konfigurere synkronisering på tvers av einingar, opne { -brand-firefox } på denne eininga og gå til <b>firefox.com/pair</b>.
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Last ned { -brand-firefox }
 
@@ -2041,6 +2044,10 @@ pair2-supplicant-timeout-and-cancel-timeout-description = For å kople til mobil
 pair2-supplicant-timeout-and-cancel-cancelled-heading = Annulert
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-canceled-description = For å kople til ei eining når som helst, gå til <b>firefox.com/pair</b> på datamaskina di.
+# Shown when the mobile browser is already signed in to an account, so pairing cannot sign it in to another one
+pair2-supplicant-timeout-and-cancel-signed-in-heading = Denne eininga er allereie logga inn
+# "firefox.com/pair" is a URL and should not be translated
+pair2-supplicant-timeout-and-cancel-signed-in-description = For å kople til kontoen din på datamaskina må du logge ut av { -brand-firefox } på denne eininga og deretter gå til <b>firefox.com/pair</b> på datamaskina for å fullføre innlogginga.
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
