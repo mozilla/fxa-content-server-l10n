@@ -2169,9 +2169,13 @@ confirm-totp-reset-password-use-different-account = Bruk ein annan konto
 
 password-reset-flow-heading = Tilbakestill passordet ditt
 password-reset-forgot-heading = Gløymt passordet ditt?
+# The text inside <signInLink> links to the email-first sign-in page.
+password-reset-alternatives-body = <signInLink>Prøv å logge inn med { -brand-google }, { -brand-apple } eller ein passnøkkel i staden.</signInLink> Eller skriv inn e-postadressa di, så sender vi deg ein kode for å tilbakestille passordet.
 password-reset-email-input =
     .label = Skriv inn e-postadressa di
 password-reset-submit-button-2 = Hald fram
+# Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
+password-reset-data-recovery-warning = Tilbakestilling av passordet ditt kan påverke om du kan gjenopprette synkroniserte nettlesardata. <learnMoreLink>Les meir</learnMoreLink>
 
 ## ResetPasswordConfirmed
 
@@ -2230,6 +2234,7 @@ reset-password-complete-recovery-key-download-info =
 ## Shown when the server fails to handle a request
 
 server-error-heading = Feil 500
+server-error-description = Oi då, noko gjekk gale. Vi har fått beskjed om problemet og skal jobbe med å løyse det.
 server-error-home-button = Heim
 
 ## CompleteSignin component
@@ -2301,6 +2306,8 @@ signin-passkey-fallback-continue = Hald fram
 signin-passkey-fallback-forgot-password-link = Gløymt passordet?
 # Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync, so the user must enter their password.
 signin-passkey-fallback-no-prf-heading = Passord trengst på denne eininga
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but this browser or device can’t use it to unlock sync.
+signin-passkey-fallback-no-prf-description = Denne nettlesaren eller eininga kan ikkje bruke passnøkkelen din til å logge på for å synkronisere på eiga hand.
 # Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
 signin-passkey-fallback-unwrap-failed-heading = Passnøkkelen din kunne ikkje låse opp synkroniseringa
 # Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync.
