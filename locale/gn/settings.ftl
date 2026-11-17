@@ -1977,6 +1977,7 @@ pair2-supplicant-connect-this-device-cancel-button = Eheja
 ## not Firefox. It offers to open the Firefox app to finish pairing, and to
 ## install it first when the user does not have it yet.
 
+pair2-supplicant-download-firefox-heading-v2 = Embojuruja { -brand-firefox } ko mba’e’okápe
 # Primary action. Opens the Firefox app to finish pairing, or sends the user to
 # the Firefox download page when there is no pairing link to hand over.
 pair2-supplicant-download-firefox-continue-button = Eku’ejey { -brand-firefox } ndive
@@ -2279,6 +2280,8 @@ signin-passkey-fallback-no-prf-heading = Eikoteve ñe’ẽñemi ko mba’e’ok
 signin-passkey-fallback-no-prf-description = Ko kundahára térã mba’e’oka ndoiporukuaái ne ñe’ẽ ñemi eike hag̃ua ha oñembojuehe ha’eño.
 # Banner heading on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync, so the user must enter their password this time.
 signin-passkey-fallback-unwrap-failed-heading = Pe ñe’ẽ ñemi nombojurujái ñembojuehe
+# Banner text on the enter-password page after a passkey sign-in to sync. The passkey is set up for sync, but an error stopped it from unlocking sync.
+signin-passkey-fallback-unwrap-failed-description = Oĩ osẽ vaíva, upévare eikotevẽta ko’ág̃a ne ñe’ẽñemi.
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = Eikuaave
 
