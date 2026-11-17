@@ -406,6 +406,8 @@ error-bad-request = Mba’ejerure ojavýva
 pair-unsupported-hint-heading = Emohu’ã tembiporu’i mbojuehe
 # Shown first when the page is open inside another app, which the user must close
 pair-unsupported-hint-step-close-page = Emboty ko kuatiarogue
+# <b> emphasises the name of the button the user taps in Firefox
+pair-unsupported-hint-step-app-menu = Eikutu <b>tembiporu’i poravoha</b>
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Eikuaave
 
