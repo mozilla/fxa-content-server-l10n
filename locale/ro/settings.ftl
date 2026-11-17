@@ -286,8 +286,6 @@ signin-recovery-code-image-description =
     .aria-label = Document care conține text ascuns.
 signin-totp-code-image-label =
     .aria-label = Un dispozitiv cu un cod ascuns de 6 cifre.
-confirm-signup-aria-label =
-    .aria-label = Un plic care conține un link
 # Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
 # Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
 security-shield-aria-label =
