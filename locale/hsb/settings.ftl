@@ -373,6 +373,9 @@ signin-link-damaged-header = Wobkrućenski wotkaz je wobškodźeny
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Wotkaz je wobškodźeny
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = Wotkaz jako wobškodźeny zdźělić
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Wotkazej, na kotryž sće kliknył, znamješka faluja, a je snano přez waš e-mejlowy program wobškodźeny. Kopěrujće adresu kedźbliwje a spytajće hišće raz.
 
@@ -404,6 +407,9 @@ locale-toggle-select-label = Rěč wubrać
 locale-toggle-browser-default = Standard wobhladowaka
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne naprašowanje
+# Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+error-bad-request-page-title = Špatne naprašowanje
 
 ## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when they open the pairing link
@@ -491,6 +497,15 @@ ready-continue = Dale
 sign-in-complete-header = Přizjewjenje je so wobkrućiło
 sign-up-complete-header = Konto je wobkrućene
 primary-email-verified-header = Primarna e-mejlowa adresa je wokrućena
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = Přizjewjenje je so wobkrućiło
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = Konto je wobkrućene
+# Browser tab title for the page confirming the user’s primary email address.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+primary-email-verified-page-title = Primarna e-mejlowa adresa je wobkrućena
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -1244,6 +1259,9 @@ security-set-password = Nastajće hesło, zo byšće wěste wěstotne funkcije k
 security-recent-activity-link = Najnowšu kontowu aktiwitu pokazać
 signout-sync-header = Posedźenje je spadnyło
 signout-sync-session-expired = Bohužel něšto je so nimokuliło. Prošu wotzjewće so z menija wobhladowaka a spytajće hišće raz.
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = Posedźenje je spadnjene
 
 ## SubRow component
 
@@ -1629,6 +1647,9 @@ connect-another-device-not-now-link = Nic nětko
 connect-another-device-android-complete-setup-message = Přizjewće so pola { -brand-firefox } za Android, zo byšće zarjadowanje dokónčił
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
 connect-another-device-ios-complete-setup-message = Přizjewće so pola { -brand-firefox } za iOS, zo byšće zarjadowanje dokónčił
+# Browser tab title for the page that invites the user to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+connect-another-device-page-title = Z druhim gratom zwjazać
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -1639,9 +1660,15 @@ cookies-disabled-enable-prompt-2 = Prošu zmóžńće placki a lokalny składowa
 cookies-disabled-button-try-again = Hišće raz spytać
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Dalše informacije
+# Browser tab title for the page shown when cookies or local storage are disabled in the browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+cookies-disabled-page-title = Placki a lokalny składowak su trěbne
 
 ## Index / home page
 
+# Browser tab title for the page where the user enters their email to sign in or create an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+index-page-title = Přizjewić abo konto załožić
 index-header = Zapodajće swoju e-mejlowu adresu
 index-sync-header = Dale k swojemu kontu { -product-mozilla-account }
 index-sync-subheader = Synchronizujće swoje hesła, rajtarki a zapołožki wšudźe, hdźež { -brand-firefox } wužiwaće.
@@ -1689,6 +1716,12 @@ inline-recovery-key-setup-download-header = Zawěsćće swoje konto
 inline-recovery-key-setup-download-subheader = Sćehńće a składujće jón nětko
 inline-recovery-key-setup-download-info = Składujće tutón kluč na městnje, na kotrež so dopominaće – njemóžeće so k tutej stronje pozdźišo wróćić.
 inline-recovery-key-setup-hint-header = Wěstotne poručenje
+# Browser tab title for the page where the user creates an account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-create-page-title = Kontowy wobnowjenski kluč wutworić
+# Browser tab title for the page where the user downloads their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-download-page-title = Sćehńće swój kontowy wobnowjenski kluč
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
