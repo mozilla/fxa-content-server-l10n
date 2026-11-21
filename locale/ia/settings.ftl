@@ -485,6 +485,12 @@ ready-continue = Continuar
 sign-in-complete-header = Apertura de session confirmate
 sign-up-complete-header = Conto confirmate
 primary-email-verified-header = Email primari confirmate
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = Accesso confirmate
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = Conto confirmate
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
