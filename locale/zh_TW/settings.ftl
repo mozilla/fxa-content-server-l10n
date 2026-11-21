@@ -1735,6 +1735,9 @@ inline-totp-setup-enrol-page-title = 連結您的驗證程式
 page-not-found-heading = 找不到頁面
 page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。
 page-not-found-home-button = 首頁
+# Browser tab title for the page shown when the requested page does not exist.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+page-not-found-page-title = 找不到頁面
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -1745,6 +1748,9 @@ pair-auth-allow-confirm-button = 是我，確認此裝置
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
 pair-auth-allow-refuse-device-link = 如果您沒有登入，<a>請立即更改密碼</a>
+# Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-allow-page-title = 核准 { -brand-firefox } 登入
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1766,6 +1772,12 @@ pair-auth-complete-send-tab-heading = 已經準備就緒，可以傳送分頁
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = 已連結 { $deviceOS } 上的 { $deviceFamily }。
 pair-auth-complete-send-tab-benefits = 您可在不同裝置間，自由且即時地傳送開啟分頁、密碼與書籤。
+# Browser tab title for the page shown when a device has been connected after pairing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-page-title = 裝置已連線
+# Browser tab title for the page shown when a device has been connected after pairing started from a send tab button.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-send-tab-page-title = 已可傳送分頁
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1784,6 +1796,9 @@ auth-totp-input-label = 請輸入六位數的驗證碼
 auth-totp-confirm-button = 確認
 # Error displayed in a tooltip when the form is submitted without a code
 auth-totp-code-required-error = 需要輸入驗證碼
+# Browser tab title for the page where the user enters a two-step authentication code to continue pairing a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+auth-totp-page-title = 與兩階段驗證程式配對
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1792,6 +1807,9 @@ auth-totp-code-required-error = 需要輸入驗證碼
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = 請到另一台裝置進行確認
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-supp-page-title = 到您的另一台裝置上核准
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1799,6 +1817,9 @@ pair-wait-for-supp-heading-text = 請到另一台裝置進行確認
 pair-failure-header-v2 = 裝置配對失敗
 pair-failure-message-v2 = 無法完成設定，請使用您的信箱登入。
 pair-failure-try-again-link = 重試
+# Browser tab title for the page shown when device pairing fails.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-failure-page-title = 裝置配對失敗
 
 ## Pair index page
 
@@ -1858,12 +1879,24 @@ pair-download-step-scan-qr = <b>第 { $stepNumber } 步</b>：使用行動裝置
 pair-download-step-continue-sync = <b>第 { $stepNumber } 步</b>：選擇「繼續同步」後，即可在您的行動裝置上同步 { -brand-firefox } 使用體驗。
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = 繼續同步
+# Browser tab title for the page where the user chooses how to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-page-title = 連結另一部裝置
+# Browser tab title for the page where the user chooses how to set up another device to send tabs to.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-send-tab-page-title = 將分頁傳送至其他裝置
+# Browser tab title for the page that explains how to download { -brand-firefox } on a mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-download-page-title = 下載 { -brand-firefox } 行動版
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = 裝置已連線
 pair-success-message-2 = 配對成功。
 pair-success-tab-close-message = { -brand-firefox } 會自動關閉此分頁。
+# Browser tab title for the page shown when a device has been paired successfully.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-success-page-title = 裝置已連線
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1874,6 +1907,9 @@ pair-success-tab-close-message = { -brand-firefox } 會自動關閉此分頁。
 pair-supp-allow-heading-text = 確認配對 <span>{ $email }</span>
 pair-supp-allow-confirm-button = 確認配對
 pair-supp-allow-cancel-link = 取消
+# Browser tab title for the page where the user confirms pairing a device with their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-supp-allow-page-title = 確認配對
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1882,6 +1918,9 @@ pair-supp-allow-cancel-link = 取消
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = 請到另一台裝置進行確認
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-auth-page-title = 到您的另一台裝置上核准
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
@@ -1905,6 +1944,18 @@ pair-unsupported-learn-more-link-v2 = 更多資訊
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = 喔喔，有些東西不對勁！
 pair-unsupported-desktop-firefox-fallback-message-v2 = 請關閉這個分頁然後再試一次。
+# Browser tab title for the page shown to a desktop user who is not using { -brand-firefox } and must switch browsers to pair a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-desktop-non-firefox-page-title = 必須使用 { -brand-firefox }
+# Browser tab title for the page shown when a mobile user scans the pairing code with the system camera and must pair from within a { -brand-firefox } app instead.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-system-camera-page-title = 使用應用程式配對
+# Browser tab title for the page that explains how to connect a mobile device by starting from { -brand-firefox } on a computer.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-mobile-page-title = 連結您的行動裝置
+# Browser tab title for the page shown to a desktop { -brand-firefox } user when something went wrong and device pairing cannot continue.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-desktop-firefox-fallback-page-title = 有些東西不對勁
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer, which is already signed in, after their
@@ -1919,6 +1970,9 @@ pair2-authority-approve-sign-in-confirm-button = 好，允許登入
 # "Not you?" asks whether someone other than the user started this sign-in.
 # The text inside <changePassword> links to the page for changing the password.
 pair2-authority-approve-sign-in-change-password = 不是您操作的？<changePassword>請更改密碼</changePassword>
+# Browser tab title for the page where the user approves a sign-in requested from their mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-approve-sign-in-page-title = 核准登入
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
@@ -1929,6 +1983,9 @@ pair2-authority-continue-on-mobile-heading = 到您的行動裝置繼續
 pair2-authority-continue-on-mobile-description = 請到手機或平板電腦上進行下列操作。
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = 取消
+# Browser tab title for the page telling the user to continue connecting their device on their mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-continue-on-mobile-page-title = 到您的行動裝置繼續
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when Firefox is needed to continue pairing.
@@ -1940,6 +1997,9 @@ pair2-authority-download-firefox-heading = 開啟 { -brand-firefox } 即可同�
 pair2-authority-download-firefox-instruction-v2 = 若要與其他裝置同步，請在此裝置開啟 { -brand-firefox }，然後造訪 <b>firefox.com/pair</b>。
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = 下載 { -brand-firefox }
+# Browser tab title for the page telling the user to open { -brand-firefox } on this device to start syncing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-download-firefox-page-title = 開啟 { -brand-firefox } 即可同步
 
 ## ScanQR page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer. It shows a QR code that they scan with
@@ -1954,6 +2014,9 @@ pair2-authority-scan-qr-code-aria-label = 連結您行動裝置的 QR Code
 pair2-authority-scan-qr-other-ways-link = 其他登入方式
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = 先略過
+# Browser tab title for the page showing a QR code the user scans with their mobile device to connect it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-scan-qr-page-title = 掃描後即可連結您的行動裝置
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer once the mobile device has been paired.
@@ -1964,6 +2027,9 @@ pair2-authority-sync-success-heading-v2 = 已連結您的裝置
 pair2-authority-sync-success-description-v2 = 正在同步中。可能需要一些時間才會顯示同步過來的資料，請繼續上網。
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button-v2 = 管理同步設定
+# Browser tab title for the page shown when a mobile device has been connected and syncing has started.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-sync-success-page-title = 裝置已連線
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
@@ -1980,6 +2046,12 @@ pair2-authority-timeout-and-cancel-canceled-description = 若您改變心意，�
 pair2-authority-timeout-and-cancel-try-again-button = 重試
 # Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
 pair2-authority-timeout-and-cancel-sync-settings-button = 同步設定
+# Browser tab title for the page shown on the computer when the device pairing attempt timed out.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-timeout-page-title = 連線逾時
+# Browser tab title for the page shown on the computer when the device pairing attempt was cancelled.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-cancelled-page-title = 已取消配對
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -1991,6 +2063,9 @@ pair2-supplicant-approve-sign-in-heading = 完成最後一步即可開始同步
 pair2-supplicant-approve-sign-in-instruction = 請到您的電腦上確認登入。
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = 取消
+# Browser tab title for the page shown on the mobile device while the user approves the sign-in on their computer. "sync" is a verb, referring to syncing data between the user’s devices.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-approve-sign-in-page-title = 完成最後一步即可開始同步
 
 ## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -2005,6 +2080,9 @@ pair2-supplicant-connect-this-device-heading = 要將此裝置連結到您的帳
 pair2-supplicant-connect-this-device-connect-button = 連線
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = 取消
+# Browser tab title for the page shown on the mobile device where the user confirms connecting it to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-connect-this-device-page-title = 連結此裝置
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing reaches a browser that is
@@ -2026,6 +2104,15 @@ pair2-supplicant-download-firefox-download-button = 下載 { -brand-firefox }
 pair2-supplicant-download-firefox-have-firefox-button = 我已經安裝 { -brand-firefox }
 # Opens a page explaining what sync does
 pair2-supplicant-download-firefox-learn-more-link = 更多資訊
+# Browser tab title for the page shown on the mobile device asking the user to open { -brand-firefox } on it to continue pairing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-download-firefox-page-title = 到此裝置開啟 { -brand-firefox }
+
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+
+# Browser tab title for the page shown on the mobile device telling the user to finish pairing in the { -brand-firefox } app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-connect-hint-page-title = 到 App 中完成配對
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2038,6 +2125,9 @@ pair2-supplicant-ready-to-scan-heading = 連結裝置
 pair2-supplicant-ready-to-scan-instruction = 於您的電腦使用 { -brand-firefox }，造訪 <b>firefox.com/pair</b>，然後依照畫面上的指示連結您的行動裝置。
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = 更多資訊
+# Browser tab title for the page shown on the mobile device before pairing starts, telling the user to open firefox.com/pair on their computer.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-ready-to-scan-page-title = 準備好了，開始掃描！
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device once pairing has completed: the device
@@ -2046,6 +2136,9 @@ pair2-supplicant-ready-to-scan-learn-more-link = 更多資訊
 pair2-supplicant-sync-success-heading = 已連結您的裝置
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = 正在同步中。可能需要一些時間才會顯示同步過來的資料，請繼續上網。
+# Browser tab title for the page shown on the mobile device when it has been connected and syncing has started.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-sync-success-page-title = 裝置已連線
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2065,6 +2158,15 @@ pair2-supplicant-timeout-and-cancel-canceled-description = 歡迎隨時在您的
 pair2-supplicant-timeout-and-cancel-signed-in-heading = 此裝置已經登入
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-signed-in-description = 若要連結您的桌面版帳號，請先在此裝置登出 { -brand-firefox }，再使用電腦開啟 <b>firefox.com/pair</b> 完成登入。
+# Browser tab title for the page shown on the mobile device when the device pairing attempt timed out.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-timeout-page-title = 連線逾時
+# Browser tab title for the page shown on the mobile device when the device pairing attempt was cancelled.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-cancelled-page-title = 已取消配對
+# Browser tab title for the page shown on the mobile device when it is already signed in to an account and cannot be paired.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-signed-in-page-title = 裝置已登入
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
@@ -2079,6 +2181,9 @@ permissions-label-display-name = 顯示名稱
 permissions-label-avatar = 帳號圖片
 permissions-continue-button = 繼續
 permissions-cancel-button = 取消
+# Browser tab title for the page where the user reviews the profile information an app or service is asking to access.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+permissions-page-title = 確認權限
 
 ## ForcePasswordChange page
 ## Users are sent here when suspicious activity on the account requires a new password before they can continue.
@@ -2086,6 +2191,9 @@ permissions-cancel-button = 取消
 force-password-change-heading = 請更改密碼
 force-password-change-info = 我們偵測到您的 { -product-mozilla-account }有可疑活動。為了保護您的帳號，請更改密碼。之後必須使用這組密碼重新登入所有 { -product-mozilla-account }相關服務。
 force-password-change-data-info = 不會失去同步的瀏覽紀錄、書籤、登入資訊與其他個人資料。
+# Browser tab title for the page where the user must change their password because of suspicious activity on their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+force-password-change-page-title = 更改密碼
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2095,6 +2203,9 @@ service-welcome-signin-success-banner = 登入成功！
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = 下一步：開啟 VPN
 service-welcome-vpn-description = 讓您瀏覽器的隱私保護再進一步。請到開啟的面板中打開此功能。
+# Browser tab title for the page telling the user to turn on VPN as their next step after signing up or signing in. "VPN" is a VPN service built into the Firefox browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+service-welcome-vpn-page-title = 開啟 VPN
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -2107,6 +2218,9 @@ set-password-info-v2 = 將會加密您的資料，必須與您的 { -brand-googl
 ## Users who signed in via passwordless OTP and need to create a password for Sync
 
 set-password-passwordless-info = 此密碼用於加密同步資料，確保資料安全。
+# Browser tab title for the page where the user creates a password so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+set-password-page-title = 設定同步密碼
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -2127,6 +2241,9 @@ account-recovery-confirm-key-hint = 您當時設定的保存提示是：
 account-recovery-confirm-key-button-2 = 繼續
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link-2 = 找不到您的帳號救援金鑰嗎？
+# Browser tab title for the page where the user enters their account recovery key to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+account-recovery-confirm-key-page-title = 使用救援金鑰重設密碼
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
