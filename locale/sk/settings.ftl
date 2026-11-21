@@ -1734,6 +1734,12 @@ inline-recovery-setup-confirm-code-page-title = Overenie záložného kódu
 # Browser tab title for the page where the user enters a phone number to use as a recovery phone.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-phone-number-page-title = Pridanie telefónu na obnovenie prístupu
+# Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-code-page-title = Potvrdenie telefónu na obnovenie prístupu
+# Browser tab title for the page confirming that two-step authentication is now on for the account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-complete-page-title = Dvojstupňové overenie zapnuté
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1769,6 +1775,12 @@ inline-totp-setup-security-code-placeholder = Overovací kód
 inline-totp-setup-code-required-error = Vyžaduje sa overovací kód
 tfa-qr-code-alt = Pomocou kódu { $code } nastavte dvojstupňové overenie v podporovaných aplikáciách.
 inline-totp-setup-page-title = Dvojstupňové overenie
+# Browser tab title for the first page of two-step authentication setup, which introduces the feature.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-intro-page-title = Nastavenie dvojstupňového overenia
+# Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-enrol-page-title = Pripojenie overovacej aplikácie
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
@@ -1776,6 +1788,9 @@ inline-totp-setup-page-title = Dvojstupňové overenie
 page-not-found-heading = Stránka nebola nájdená
 page-not-found-description = Požadovaná stránka neexistuje. O probléme už vieme a prípadné nefunkčné odkazy opravíme.
 page-not-found-home-button = Domov
+# Browser tab title for the page shown when the requested page does not exist.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+page-not-found-page-title = Stránka nebola nájdená
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -1786,6 +1801,9 @@ pair-auth-allow-confirm-button = Áno, schváliť zariadenie
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
 pair-auth-allow-refuse-device-link = Ak ste to neboli vy, <a>zmeňte si heslo</a>
+# Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-allow-page-title = Schválenie prihlásenia do { -brand-firefox(case: "gen") }
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1807,6 +1825,12 @@ pair-auth-complete-send-tab-heading = Ste pripravení odoslať niekoľko kariet
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } pre { $deviceOS } je pripojený.
 pair-auth-complete-send-tab-benefits = Medzi zariadeniami si môžete posielať otvorené karty, heslá a záložky.
+# Browser tab title for the page shown when a device has been connected after pairing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-page-title = Zariadenie pripojené
+# Browser tab title for the page shown when a device has been connected after pairing started from a send tab button.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-send-tab-page-title = Pripravené na odoslanie kariet
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1825,6 +1849,9 @@ auth-totp-input-label = Zadajte šesťmiestny kód
 auth-totp-confirm-button = Potvrdiť
 # Error displayed in a tooltip when the form is submitted without a code
 auth-totp-code-required-error = Vyžaduje sa overovací kód
+# Browser tab title for the page where the user enters a two-step authentication code to continue pairing a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+auth-totp-page-title = Párovanie s dvojstupňovým overením
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1833,6 +1860,9 @@ auth-totp-code-required-error = Vyžaduje sa overovací kód
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Vyžaduje sa schválenie <span>z vášho ďalšieho zariadenia</span>
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-supp-page-title = Schválenie na druhom zariadení
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1840,6 +1870,9 @@ pair-wait-for-supp-heading-text = Vyžaduje sa schválenie <span>z vášho ďal�
 pair-failure-header-v2 = Párovanie zariadenia zlyhalo
 pair-failure-message-v2 = Nastavenie nebolo možné dokončiť. Prihláste sa pomocou svojho e‑mailu.
 pair-failure-try-again-link = Skúsiť znova
+# Browser tab title for the page shown when device pairing fails.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-failure-page-title = Párovanie zariadenia zlyhalo
 
 ## Pair index page
 
@@ -1899,12 +1932,24 @@ pair-download-step-scan-qr = <b>Krok { $stepNumber }</b>: Stiahnite si { -brand-
 pair-download-step-continue-sync = <b>Krok { $stepNumber }</b>: Ak chcete synchronizovať prostredie { -brand-firefox(case: "gen") } na svojom mobilnom zariadení, vyberte možnosť „Pokračovať so synchronizáciou“.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Pokračovať so synchronizáciou
+# Browser tab title for the page where the user chooses how to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-page-title = Pripojenie ďalšieho zariadenia
+# Browser tab title for the page where the user chooses how to set up another device to send tabs to.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-send-tab-page-title = Odoslanie kariet do iného zariadenia
+# Browser tab title for the page that explains how to download { -brand-firefox } on a mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-download-page-title = Stiahnutie { -brand-firefox(case: "gen") } pre mobilné zariadenia
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Zariadenie bolo pripojené
 pair-success-message-2 = Párovanie bolo úspešné.
 pair-success-tab-close-message = Túto kartu { -brand-firefox } automaticky zatvorí.
+# Browser tab title for the page shown when a device has been paired successfully.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-success-page-title = Zariadenie pripojené
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1915,6 +1960,9 @@ pair-success-tab-close-message = Túto kartu { -brand-firefox } automaticky zatv
 pair-supp-allow-heading-text = Potvrďte párovanie <span>pre { $email }</span>
 pair-supp-allow-confirm-button = Potvrdiť párovanie
 pair-supp-allow-cancel-link = Zrušiť
+# Browser tab title for the page where the user confirms pairing a device with their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-supp-allow-page-title = Potvrdenie párovania
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1923,6 +1971,9 @@ pair-supp-allow-cancel-link = Zrušiť
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Vyžaduje sa schválenie <span>z vášho ďalšieho zariadenia</span>
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-auth-page-title = Schválenie na druhom zariadení
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
@@ -1946,6 +1997,18 @@ pair-unsupported-learn-more-link-v2 = Ďalšie informácie
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Ups! Niečo sa pokazilo.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Zatvorte túto kartu a skúste to znova.
+# Browser tab title for the page shown to a desktop user who is not using { -brand-firefox } and must switch browsers to pair a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-desktop-non-firefox-page-title = Vyžaduje sa { -brand-firefox }
+# Browser tab title for the page shown when a mobile user scans the pairing code with the system camera and must pair from within a { -brand-firefox } app instead.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-system-camera-page-title = Spárovanie cez aplikáciu
+# Browser tab title for the page that explains how to connect a mobile device by starting from { -brand-firefox } on a computer.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-mobile-page-title = Pripojenie mobilného zariadenia
+# Browser tab title for the page shown to a desktop { -brand-firefox } user when something went wrong and device pairing cannot continue.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-desktop-firefox-fallback-page-title = Niečo sa pokazilo
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer, which is already signed in, after their
@@ -1960,6 +2023,9 @@ pair2-authority-approve-sign-in-confirm-button = Áno, schváliť prihlásenie
 # "Not you?" asks whether someone other than the user started this sign-in.
 # The text inside <changePassword> links to the page for changing the password.
 pair2-authority-approve-sign-in-change-password = Nie vy? <changePassword>Zmeňte si heslo</changePassword>
+# Browser tab title for the page where the user approves a sign-in requested from their mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-approve-sign-in-page-title = Schválenie prihlásenia
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
@@ -1970,6 +2036,9 @@ pair2-authority-continue-on-mobile-heading = Pokračujte na svojom mobilnom zari
 pair2-authority-continue-on-mobile-description = Postupujte podľa krokov na telefóne alebo tablete.
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Zrušiť
+# Browser tab title for the page telling the user to continue connecting their device on their mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-continue-on-mobile-page-title = Pokračujte na svojom mobilnom zariadení
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when Firefox is needed to continue pairing.
@@ -1981,6 +2050,9 @@ pair2-authority-download-firefox-heading = Otvorte { -brand-firefox(case: "acc")
 pair2-authority-download-firefox-instruction-v2 = Ak chcete synchronizovať svoje zariadenia, otvorte na tomto zariadení { -brand-firefox } a prejdite na <b>firefox.com/pair</b>.
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Stiahnuť { -brand-firefox(case: "acc") }
+# Browser tab title for the page telling the user to open { -brand-firefox } on this device to start syncing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-download-firefox-page-title = Otvorte { -brand-firefox(case: "acc") } a synchronizujte
 
 ## ScanQR page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer. It shows a QR code that they scan with
@@ -1995,6 +2067,9 @@ pair2-authority-scan-qr-code-aria-label = QR kód na pripojenie vášho mobilné
 pair2-authority-scan-qr-other-ways-link = Ďalšie možnosti prihlásenia
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Teraz preskočiť
+# Browser tab title for the page showing a QR code the user scans with their mobile device to connect it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-scan-qr-page-title = Naskenovaním pripojte mobilné zariadenie
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer once the mobile device has been paired.
@@ -2005,6 +2080,9 @@ pair2-authority-sync-success-heading-v2 = Vaše zariadenie je pripojené
 pair2-authority-sync-success-description-v2 = Synchronizácia prebieha. Môže chvíľu trvať, kým sa zobrazia synchronizované údaje. Zatiaľ môžete pokračovať v prehliadaní.
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button-v2 = Spravovať nastavenia synchronizácie
+# Browser tab title for the page shown when a mobile device has been connected and syncing has started.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-sync-success-page-title = Zariadenie pripojené
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
@@ -2021,6 +2099,12 @@ pair2-authority-timeout-and-cancel-canceled-description = Ak si to rozmyslíte a
 pair2-authority-timeout-and-cancel-try-again-button = Skúsiť znova
 # Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
 pair2-authority-timeout-and-cancel-sync-settings-button = Nastavenia synchronizácie
+# Browser tab title for the page shown on the computer when the device pairing attempt timed out.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-timeout-page-title = Čas pripojenia vypršal
+# Browser tab title for the page shown on the computer when the device pairing attempt was cancelled.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-cancelled-page-title = Párovanie zrušené
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -2032,6 +2116,9 @@ pair2-supplicant-approve-sign-in-heading = Posledný krok k synchronizácii
 pair2-supplicant-approve-sign-in-instruction = Schváľte prihlásenie na počítači.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Zrušiť
+# Browser tab title for the page shown on the mobile device while the user approves the sign-in on their computer. "sync" is a verb, referring to syncing data between the user’s devices.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-approve-sign-in-page-title = Posledný krok k synchronizácii
 
 ## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -2046,6 +2133,9 @@ pair2-supplicant-connect-this-device-heading = Pripojiť toto zariadenie k váš
 pair2-supplicant-connect-this-device-connect-button = Pripojiť
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Zrušiť
+# Browser tab title for the page shown on the mobile device where the user confirms connecting it to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-connect-this-device-page-title = Pripojenie zariadenia
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing reaches a browser that is
@@ -2067,6 +2157,9 @@ pair2-supplicant-download-firefox-download-button = Stiahnuť { -brand-firefox(c
 pair2-supplicant-download-firefox-have-firefox-button = { -brand-firefox(case: "acc") } už mám
 # Opens a page explaining what sync does
 pair2-supplicant-download-firefox-learn-more-link = Ďalšie informácie
+# Browser tab title for the page shown on the mobile device asking the user to open { -brand-firefox } on it to continue pairing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-download-firefox-page-title = Spustite { -brand-firefox(case: "acc") } v tomto zariadení
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
