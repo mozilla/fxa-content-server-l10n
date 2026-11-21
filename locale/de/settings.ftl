@@ -403,7 +403,7 @@ locale-toggle-browser-default = Browser-Standard
 error-bad-request = Fehlerhafte Anfrage
 # Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-error-bad-request-page-title = Fehlerhafte Anfrage
+error-bad-request-page-title = Ungültige Anfrage
 
 ## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when they open the pairing link
@@ -879,7 +879,7 @@ modal-mfa-protected-code-expired = Code abgelaufen?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Neuen Code per E-Mail senden.
 # Error shown when the code is correct but the device clock is too far ahead of the server time.
-modal-mfa-protected-clock-skew-error = Die Uhr Ihres Geräts ist falsch. Korrigieren Sie Datum und Uhrzeit Ihres Geräts und versuchen Sie es erneut.
+modal-mfa-protected-clock-skew-error = Die Uhrzeit Ihres Geräts stimmt nicht. Korrigieren Sie Datum und Uhrzeit auf Ihrem Gerät und versuchen Sie es erneut.
 
 ## Modal Verify Session
 
@@ -1704,28 +1704,28 @@ inline-recovery-key-setup-download-info = Speichern Sie diesen Schlüssel an ein
 inline-recovery-key-setup-hint-header = Sicherheitsempfehlung
 # Browser tab title for the page where the user creates an account recovery key.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-key-setup-create-page-title = Einen Kontowiederherstellungsschlüssel erstellen
+inline-recovery-key-setup-create-page-title = Kontowiederherstellungsschlüssel erstellen
 # Browser tab title for the page where the user downloads their account recovery key.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-key-setup-download-page-title = Laden Sie Ihren Kontowiederherstellungsschlüssel herunter
+inline-recovery-key-setup-download-page-title = Ihren Kontowiederherstellungsschlüssel herunterladen
 # Browser tab title for the page where the user adds a hint for their account recovery key.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-key-setup-hint-page-title = Einen Wiederherstellungsschlüssel-Hinweis hinzufügen
+inline-recovery-key-setup-hint-page-title = Hinweis zum Wiederherstellungsschlüssel hinzufügen
 # Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-choice-page-title = Wählen Sie eine Kontowiederherstellungsmethode
+inline-recovery-setup-choice-page-title = Eine Kontowiederherstellungsmethode wählen
 # Browser tab title for the page where the user saves their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-download-codes-page-title = Speichern Sie Ihre Wiederherstellungscodes
+inline-recovery-setup-download-codes-page-title = Wiederherstellungscodes speichern
 # Browser tab title for the page where the user confirms one of their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-confirm-code-page-title = Einen Wiederherstellungscode bestätigen
 # Browser tab title for the page where the user enters a phone number to use as a recovery phone.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-number-page-title = Eine Telefonnummer zur Wiederherstellung hinzufügen
+inline-recovery-setup-phone-number-page-title = Telefonnummer zur Kontowiederherstellung hinzufügen
 # Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-code-page-title = Bestätigen Sie Ihre Telefonnummer
+inline-recovery-setup-phone-code-page-title = Telefonnummer bestätigen
 # Browser tab title for the page confirming that two-step authentication is now on for the account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-complete-page-title = Zwei-Schritt-Authentifizierung aktiviert
@@ -1769,7 +1769,7 @@ inline-totp-setup-page-title = Zwei-Schritt-Authentifizierung
 inline-totp-setup-intro-page-title = Zwei-Schritt-Authentifizierung einrichten
 # Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-totp-setup-enrol-page-title = Verbinden Sie Ihre Authentifizierungs-App
+inline-totp-setup-enrol-page-title = Authentifizierungs-App verbinden
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
@@ -1792,7 +1792,7 @@ pair-auth-allow-confirm-button = Ja, Gerät freischalten
 pair-auth-allow-refuse-device-link = Wenn Sie das nicht waren, <a>ändern Sie Ihr Passwort</a>
 # Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-auth-allow-page-title = Anmeldung mit { -brand-firefox } genehmigen
+pair-auth-allow-page-title = { -brand-firefox }-Anmeldung bestätigen
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1819,7 +1819,7 @@ pair-auth-complete-send-tab-benefits = Sie können sofort offene Tabs, Passwört
 pair-auth-complete-page-title = Gerät verbunden
 # Browser tab title for the page shown when a device has been connected after pairing started from a send tab button.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-auth-complete-send-tab-page-title = Bereit zum Senden von Tabs
+pair-auth-complete-send-tab-page-title = Tabs können gesendet werden
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1851,7 +1851,7 @@ auth-totp-page-title = Mit Zwei-Schritt-Authentifizierung koppeln
 pair-wait-for-supp-heading-text = Freischaltung ist jetzt erforderlich <span>von Ihrem anderen Gerät</span>
 # Browser tab title for the page that asks the user to approve device pairing on their other device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-wait-for-supp-page-title = Auf Ihrem anderen Gerät freischalten
+pair-wait-for-supp-page-title = Auf anderem Gerät bestätigen
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1926,7 +1926,7 @@ pair-continue-to-sync-button = Weiter zur Synchronisierung
 pair-choice-page-title = Weiteres Gerät verbinden
 # Browser tab title for the page where the user chooses how to set up another device to send tabs to.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-choice-send-tab-page-title = Tabs an ein anderes Gerät senden
+pair-choice-send-tab-page-title = Tabs an anderes Gerät senden
 # Browser tab title for the page that explains how to download { -brand-firefox } on a mobile device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-download-page-title = { -brand-firefox } für Mobilgeräte herunterladen
@@ -1962,7 +1962,7 @@ pair-supp-allow-page-title = Kopplung bestätigen
 pair-wait-for-auth-heading-text = Freischaltung ist jetzt erforderlich <span>von Ihrem anderen Gerät</span>
 # Browser tab title for the page that asks the user to approve device pairing on their other device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-wait-for-auth-page-title = Auf Ihrem anderen Gerät freischalten
+pair-wait-for-auth-page-title = Auf anderem Gerät bestätigen
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
