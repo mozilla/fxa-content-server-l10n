@@ -1713,9 +1713,24 @@ inline-recovery-key-setup-create-page-title = Crear un clave de recuperation del
 # Browser tab title for the page where the user downloads their account recovery key.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-key-setup-download-page-title = Discargar tu clave de recuperation del conto
+# Browser tab title for the page where the user adds a hint for their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-hint-page-title = Adder un suggestion de clave de recuperation
 # Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-choice-page-title = Eliger un methodo de recuperation
+# Browser tab title for the page where the user saves their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-download-codes-page-title = Reserva tu codices de salveguarda
+# Browser tab title for the page where the user confirms one of their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-confirm-code-page-title = Confirmar un codice de salveguarda
+# Browser tab title for the page where the user enters a phone number to use as a recovery phone.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-number-page-title = Adde un numero de telephono de recuperation
+# Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-code-page-title = Confirma tu numero de telephono de recuperation
 # Browser tab title for the page confirming that two-step authentication is now on for the account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-complete-page-title = Authentication a duo passos active
@@ -1757,6 +1772,9 @@ inline-totp-setup-page-title = Authentication a duo passos
 # Browser tab title for the first page of two-step authentication setup, which introduces the feature.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-totp-setup-intro-page-title = Configurar authentication a duo passos
+# Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-enrol-page-title = Connecte tu application de authentication
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
@@ -1777,6 +1795,9 @@ pair-auth-allow-confirm-button = Si, approbar apparato
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
 pair-auth-allow-refuse-device-link = Si non era tu, <a>cambia la contrasigno</a>
+# Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-allow-page-title = Approbar accesso a { -brand-firefox }
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1801,6 +1822,9 @@ pair-auth-complete-send-tab-benefits = Tu es libere de instantaneemente inviar s
 # Browser tab title for the page shown when a device has been connected after pairing.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-auth-complete-page-title = Apparato connexe
+# Browser tab title for the page shown when a device has been connected after pairing started from a send tab button.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-send-tab-page-title = Preste a inviar schedas
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1819,6 +1843,9 @@ auth-totp-input-label = Insere le codice de 6 digitos
 auth-totp-confirm-button = Confirmar
 # Error displayed in a tooltip when the form is submitted without a code
 auth-totp-code-required-error = Codice de authentication requirite
+# Browser tab title for the page where the user enters a two-step authentication code to continue pairing a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+auth-totp-page-title = Accopular con authentication a duo passos
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1827,6 +1854,9 @@ auth-totp-code-required-error = Codice de authentication requirite
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Approbation necessari ora <span>ab tu altere apparato</span>
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-supp-page-title = Approbar sur tu altere apparato
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
