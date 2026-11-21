@@ -369,7 +369,7 @@ signin-link-damaged-header = Il link di conferma è danneggiato
 report-signin-link-damaged-header = Link danneggiato
 # Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-report-signin-link-damaged-page-title = Segnala link danneggiato
+report-signin-link-damaged-page-title = Segnala link non funzionante
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Nel link su cui hai fatto clic mancano alcuni caratteri, probabilmente è un problema causato dal client di posta elettronica. Riprova assicurandoti di selezionare e copiare con cura il link.
 
@@ -877,7 +877,7 @@ modal-mfa-protected-code-expired = Codice scaduto?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Invia email con nuovo codice.
 # Error shown when the code is correct but the device clock is too far ahead of the server time.
-modal-mfa-protected-clock-skew-error = L’orologio del dispositivo è errato. Correggere data e ora del dispositivo, quindi riprovare.
+modal-mfa-protected-clock-skew-error = L’orologio del dispositivo non è sincronizzato. Correggi la data e l’ora del dispositivo, quindi riprova.
 
 ## Modal Verify Session
 
@@ -1702,16 +1702,16 @@ inline-recovery-key-setup-hint-page-title = Aggiungi un suggerimento per la chia
 inline-recovery-setup-choice-page-title = Scegli un metodo di recupero
 # Browser tab title for the page where the user saves their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-download-codes-page-title = Salva i tuoi codici di backup
+inline-recovery-setup-download-codes-page-title = Salva i codici di backup
 # Browser tab title for the page where the user confirms one of their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-confirm-code-page-title = Conferma un codice di backup
 # Browser tab title for the page where the user enters a phone number to use as a recovery phone.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-number-page-title = Aggiungi un numero di telefono di recupero
+inline-recovery-setup-phone-number-page-title = Aggiungi un telefono per il recupero dell’account
 # Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-code-page-title = Conferma il numero di telefono di recupero
+inline-recovery-setup-phone-code-page-title = Conferma il telefono per il recupero dell’account
 # Browser tab title for the page confirming that two-step authentication is now on for the account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-complete-page-title = Autenticazione in due passaggi attiva
@@ -1752,7 +1752,7 @@ tfa-qr-code-alt = Utilizza il codice { $code } per impostare l’autenticazione 
 inline-totp-setup-page-title = Autenticazione in due passaggi
 # Browser tab title for the first page of two-step authentication setup, which introduces the feature.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-totp-setup-intro-page-title = Configura l’autenticazione in due passaggi
+inline-totp-setup-intro-page-title = Configura autenticazione in due passaggi
 # Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-totp-setup-enrol-page-title = Connetti l’app di autenticazione
@@ -1778,7 +1778,7 @@ pair-auth-allow-confirm-button = Sì, approva il dispositivo
 pair-auth-allow-refuse-device-link = Se questa operazione non è stata eseguita da te, <a>cambia la password</a>
 # Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-auth-allow-page-title = Approva { -brand-firefox } accessi
+pair-auth-allow-page-title = Autorizza l’accesso a { -brand-firefox }
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1974,7 +1974,7 @@ pair-unsupported-desktop-firefox-fallback-header-v2 = Oops, si è verificato un 
 pair-unsupported-desktop-firefox-fallback-message-v2 = Chiudi questa scheda e riprova.
 # Browser tab title for the page shown to a desktop user who is not using { -brand-firefox } and must switch browsers to pair a device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-unsupported-desktop-non-firefox-page-title = { -brand-firefox } richiesti
+pair-unsupported-desktop-non-firefox-page-title = { -brand-firefox } obbligatorio
 # Browser tab title for the page shown when a mobile user scans the pairing code with the system camera and must pair from within a { -brand-firefox } app instead.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-unsupported-system-camera-page-title = Associa utilizzando un’app
