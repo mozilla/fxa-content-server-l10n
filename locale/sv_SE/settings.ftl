@@ -1930,7 +1930,7 @@ pair-choice-page-title = Anslut en annan enhet
 pair-choice-send-tab-page-title = Skicka flikar till en annan enhet
 # Browser tab title for the page that explains how to download { -brand-firefox } on a mobile device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-download-page-title = Hämta { -brand-firefox } för mobil
+pair-download-page-title = Ladda ned { -brand-firefox } för mobilen
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -1990,9 +1990,6 @@ pair-unsupported-desktop-firefox-fallback-message-v2 = Stäng den här fliken oc
 # Browser tab title for the page shown to a desktop user who is not using { -brand-firefox } and must switch browsers to pair a device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-unsupported-desktop-non-firefox-page-title = { -brand-firefox } krävs
-# Browser tab title for the page shown when a mobile user scans the pairing code with the system camera and must pair from within a { -brand-firefox } app instead.
-# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-unsupported-system-camera-page-title = Parkoppling via en app
 # Browser tab title for the page that explains how to connect a mobile device by starting from { -brand-firefox } on a computer.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-unsupported-mobile-page-title = Anslut din mobila enhet
