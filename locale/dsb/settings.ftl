@@ -1833,6 +1833,9 @@ pair-auth-complete-send-tab-benefits = Móžośo ned wócynjone rejtariki, groni
 # Browser tab title for the page shown when a device has been connected after pairing.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-auth-complete-page-title = Rěd jo zwězany
+# Browser tab title for the page shown when a device has been connected after pairing started from a send tab button.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-send-tab-page-title = Gótowy za słanje rejtarikow
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1851,6 +1854,9 @@ auth-totp-input-label = 6-městnowy kod zapódaś
 auth-totp-confirm-button = Wobkšuśiś
 # Error displayed in a tooltip when the form is submitted without a code
 auth-totp-code-required-error = Awtentifikaciski kod trjebny
+# Browser tab title for the page where the user enters a two-step authentication code to continue pairing a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+auth-totp-page-title = Z dwójokšacoweju awtentifikaciju koplowaś
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1859,6 +1865,9 @@ auth-totp-code-required-error = Awtentifikaciski kod trjebny
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Pśizwólenje jo něnto <span>wót wašogo drugego rěda</span> trjebne
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-supp-page-title = Na wašom drugem rěźe pśizwóliś
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1866,6 +1875,9 @@ pair-wait-for-supp-heading-text = Pśizwólenje jo něnto <span>wót wašogo dru
 pair-failure-header-v2 = Koplowanje rědow njejo se raźiło
 pair-failure-message-v2 = Instalaciski proces njedajo se dokóńcyś. Pšosym pśizjawśo se ze swójeju e-mailoweju adresu.
 pair-failure-try-again-link = Hyšći raz wopytaś
+# Browser tab title for the page shown when device pairing fails.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-failure-page-title = Koplowanje rědow njejo se raźiło
 
 ## Pair index page
 
@@ -1925,12 +1937,24 @@ pair-download-step-scan-qr = <b>Kšac { $stepNumber }</b>: Scannujśo toś ten Q
 pair-download-step-continue-sync = <b>Kšac { $stepNumber }</b>: Wubjeŕśo „Dalej k synchronizaciji“, aby swóje dožywjenje { -brand-firefox } na swójom mobilnem rěźe synchronizěrował.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Dalej k synchronizaciji
+# Browser tab title for the page where the user chooses how to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-page-title = Drugi rěd zwězaś
+# Browser tab title for the page where the user chooses how to set up another device to send tabs to.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-send-tab-page-title = Rejtariki na drugi rěd pósłaś
+# Browser tab title for the page that explains how to download { -brand-firefox } on a mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-download-page-title = { -brand-firefox } za mobilne rědy ześěgnuś
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Rěd jo zwězany
 pair-success-message-2 = Koplowanje jo se raźiło.
 pair-success-tab-close-message = Toś ten rejtarik se awtomatiski pśez { -brand-firefox } zacynijo.
+# Browser tab title for the page shown when a device has been paired successfully.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-success-page-title = Rěd jo zwězany
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1941,6 +1965,9 @@ pair-success-tab-close-message = Toś ten rejtarik se awtomatiski pśez { -brand
 pair-supp-allow-heading-text = Wobkšuśćo koplowanje <span>za { $email }</span>
 pair-supp-allow-confirm-button = Koplowanje wobkšuśiś
 pair-supp-allow-cancel-link = Pśetergnuś
+# Browser tab title for the page where the user confirms pairing a device with their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-supp-allow-page-title = Koplowanje wobkšuśiś
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1949,6 +1976,9 @@ pair-supp-allow-cancel-link = Pśetergnuś
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Pśizwólenje jo něnto <span>wót wašogo drugego rěda</span> trjebne
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-auth-page-title = Na wašom drugem rěźe pśizwóliś
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
@@ -1972,6 +2002,18 @@ pair-unsupported-learn-more-link-v2 = Dalšne informacije
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Hopla! Něco njejo se raźiło.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
+# Browser tab title for the page shown to a desktop user who is not using { -brand-firefox } and must switch browsers to pair a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-desktop-non-firefox-page-title = { -brand-firefox } trjebny
+# Browser tab title for the page shown when a mobile user scans the pairing code with the system camera and must pair from within a { -brand-firefox } app instead.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-system-camera-page-title = Z nałoženim koplowaś
+# Browser tab title for the page that explains how to connect a mobile device by starting from { -brand-firefox } on a computer.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-mobile-page-title = Waš mobilny rěd zwězaś
+# Browser tab title for the page shown to a desktop { -brand-firefox } user when something went wrong and device pairing cannot continue.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-desktop-firefox-fallback-page-title = Něco njejo se raźiło
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer, which is already signed in, after their
@@ -1986,6 +2028,9 @@ pair2-authority-approve-sign-in-confirm-button = Jo, pśizjawjenje pśizwóliś
 # "Not you?" asks whether someone other than the user started this sign-in.
 # The text inside <changePassword> links to the page for changing the password.
 pair2-authority-approve-sign-in-change-password = To njejsćo wy? <changePassword>Změńśo swójo gronidło</changePassword>
+# Browser tab title for the page where the user approves a sign-in requested from their mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-approve-sign-in-page-title = Pśizjawjenje pśizwóliś
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
@@ -1996,6 +2041,9 @@ pair2-authority-continue-on-mobile-heading = Na swójom mobilnem rěźe pókšac
 pair2-authority-continue-on-mobile-description = Slědujśo kšacam na swójom telefonje abo tableśe.
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Pśetergnuś
+# Browser tab title for the page telling the user to continue connecting their device on their mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-continue-on-mobile-page-title = Na swójom mobilnem rěźe pókšacowaś
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when Firefox is needed to continue pairing.
@@ -2007,6 +2055,9 @@ pair2-authority-download-firefox-heading = { -brand-firefox } za synchronizaciju
 pair2-authority-download-firefox-instruction-v2 = Aby synchronizaciju na rědach konfigurěrował, wócyńśo { -brand-firefox } na toś tom rěźe a woglědajśo se k <b>firefox.com/pair</b>.
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = { -brand-firefox } ześěgnuś
+# Browser tab title for the page telling the user to open { -brand-firefox } on this device to start syncing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-download-firefox-page-title = { -brand-firefox } za synchronizaciju wócyniś
 
 ## ScanQR page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer. It shows a QR code that they scan with
@@ -2021,6 +2072,9 @@ pair2-authority-scan-qr-code-aria-label = QR-kod za zwězowanje z wašym mobilny
 pair2-authority-scan-qr-other-ways-link = Druge móžnosći pśizjawjenja
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Tuchylu pśeskócyś
+# Browser tab title for the page showing a QR code the user scans with their mobile device to connect it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-scan-qr-page-title = Za zwězowanje ze swójom rědom scannowaś
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer once the mobile device has been paired.
@@ -2031,6 +2085,9 @@ pair2-authority-sync-success-heading-v2 = Waš rěd jo zwězany
 pair2-authority-sync-success-description-v2 = Synchronizacija jo pó droze. Móžo chylku traś, daniž se waše synchronizěrowane daty njezjawiju. Móžośo ga dalej pśeglědowaś.
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button-v2 = Nastajenja synchronizacije zastojaś
+# Browser tab title for the page shown when a mobile device has been connected and syncing has started.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-sync-success-page-title = Rěd jo zwězany
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
@@ -2047,6 +2104,12 @@ pair2-authority-timeout-and-cancel-canceled-description = Jolic swójo měnjenje
 pair2-authority-timeout-and-cancel-try-again-button = Hyšći raz wopytaś
 # Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
 pair2-authority-timeout-and-cancel-sync-settings-button = Nastajenja synchronizacije
+# Browser tab title for the page shown on the computer when the device pairing attempt timed out.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-timeout-page-title = Cas zwiska pśekšocony
+# Browser tab title for the page shown on the computer when the device pairing attempt was cancelled.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-cancelled-page-title = Koplowanje pśetergnjone
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -2058,6 +2121,9 @@ pair2-supplicant-approve-sign-in-heading = Jaden slědny kšac k synchronizaciji
 pair2-supplicant-approve-sign-in-instruction = Zwólśo do pśizjawjenja na swójom licadle.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Pśetergnuś
+# Browser tab title for the page shown on the mobile device while the user approves the sign-in on their computer. "sync" is a verb, referring to syncing data between the user’s devices.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-approve-sign-in-page-title = Jaden slědny kšac k synchronizaciji
 
 ## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -2072,6 +2138,9 @@ pair2-supplicant-connect-this-device-heading = Toś ten rěd z wašym kontom zw�
 pair2-supplicant-connect-this-device-connect-button = Zwězaś
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Pśetergnuś
+# Browser tab title for the page shown on the mobile device where the user confirms connecting it to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-connect-this-device-page-title = Toś ten rěd zwězaś
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing reaches a browser that is
@@ -2093,6 +2162,15 @@ pair2-supplicant-download-firefox-download-button = { -brand-firefox } ześěgnu
 pair2-supplicant-download-firefox-have-firefox-button = Mam južo { -brand-firefox }
 # Opens a page explaining what sync does
 pair2-supplicant-download-firefox-learn-more-link = Dalšne informacije
+# Browser tab title for the page shown on the mobile device asking the user to open { -brand-firefox } on it to continue pairing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-download-firefox-page-title = Na toś tom rěźe { -brand-firefox } wócyniś
+
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+
+# Browser tab title for the page shown on the mobile device telling the user to finish pairing in the { -brand-firefox } app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-connect-hint-page-title = Koplowanje w nałoženju dokóńcyś
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2105,6 +2183,9 @@ pair2-supplicant-ready-to-scan-heading = Rěd zwězaś
 pair2-supplicant-ready-to-scan-instruction = Wócyńśo { -brand-firefox } na swójom licadle a woglědajśo se k <b>firefox.com/pair</b> a slědujśo instrukcijam na wobrazowce, aby swój mobilny rěd zwězał.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Dalšne informacije
+# Browser tab title for the page shown on the mobile device before pairing starts, telling the user to open firefox.com/pair on their computer.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-ready-to-scan-page-title = Gótowy za scannowanje
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device once pairing has completed: the device
@@ -2113,6 +2194,9 @@ pair2-supplicant-ready-to-scan-learn-more-link = Dalšne informacije
 pair2-supplicant-sync-success-heading = Waš rěd jo zwězany
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = Synchronizacija jo pó droze. Móžo chylku traś, daniž se waše synchronizěrowane daty njezjawiju. Móžośo ga dalej pśeglědowaś.
+# Browser tab title for the page shown on the mobile device when it has been connected and syncing has started.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-sync-success-page-title = Rěd jo zwězany
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2132,6 +2216,15 @@ pair2-supplicant-timeout-and-cancel-canceled-description = Aby rěd kuždy cas z
 pair2-supplicant-timeout-and-cancel-signed-in-heading = Rěd jo južo pśizjawjony
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-signed-in-description = Aby se ze swójim desktopowym kontom zwězał, wótzjawśo se wót { -brand-firefox } na toś tom rěźe a woglědajśo se pón k <b>firefox.com/pair</b> na swójom licadle, aby pśizjawjenje dokóńcył.
+# Browser tab title for the page shown on the mobile device when the device pairing attempt timed out.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-timeout-page-title = Cas zwiska pśekšocony
+# Browser tab title for the page shown on the mobile device when the device pairing attempt was cancelled.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-cancelled-page-title = Koplowanje pśetergnjone
+# Browser tab title for the page shown on the mobile device when it is already signed in to an account and cannot be paired.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-signed-in-page-title = Rěd jo južo pśizjawjony
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
@@ -2146,6 +2239,9 @@ permissions-label-display-name = Zwobraznjeńske mě
 permissions-label-avatar = Kontowy wobraz
 permissions-continue-button = Dalej
 permissions-cancel-button = Pśetergnuś
+# Browser tab title for the page where the user reviews the profile information an app or service is asking to access.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+permissions-page-title = Pšawa pśeglědowaś
 
 ## ForcePasswordChange page
 ## Users are sent here when suspicious activity on the account requires a new password before they can continue.
@@ -2153,6 +2249,9 @@ permissions-cancel-button = Pśetergnuś
 force-password-change-heading = Změńśo pšosym swójo gronidło
 force-password-change-info = Smy zwěsćili suspektne zaźaržanje we wašom konśe { -product-mozilla-account }. Aby swójo konto šćitał, napórajśo pšosym nowe gronidło. Wužywajśo to gronidło, aby se zasej pla słužbow swójogo konta { -product-mozilla-account } pśizjawił.
 force-password-change-data-info = Synchronizěrowana historija, cytańske znamjenja, pśizjawjenja a druge wósobinske daty se njezgubiju.
+# Browser tab title for the page where the user must change their password because of suspicious activity on their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+force-password-change-page-title = Změńśo swójo gronidło
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2162,6 +2261,9 @@ service-welcome-signin-success-banner = Wuspěšnje pśizjawjony!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Pśiducy kšac: VPN zmóžniś
 service-welcome-vpn-description = Dalšny kšac, aby se priwatnosć wašogo wobglědowaka skšuśiła. Pśejźćo k wócynjonemu woknu a zmóžniśo jen.
+# Browser tab title for the page telling the user to turn on VPN as their next step after signing up or signing in. "VPN" is a VPN service built into the Firefox browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+service-welcome-vpn-page-title = VPN zmóžniś
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -2174,6 +2276,9 @@ set-password-info-v2 = To waše daty koděrujo. Musy se wót kontowego gronidła
 ## Users who signed in via passwordless OTP and need to create a password for Sync
 
 set-password-passwordless-info = Toś to gronidło waše synchronizěrowane daty koděrujo a wobchowajo je wěsće.
+# Browser tab title for the page where the user creates a password so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+set-password-page-title = Napórajśo gronidło za synchronizaciju
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -2194,6 +2299,9 @@ account-recovery-confirm-key-hint = Waš składowański pokaz jo:
 account-recovery-confirm-key-button-2 = Dalej
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link-2 = Njamóžośo swój kontowy wótnowjeński kluc namakaś?
+# Browser tab title for the page where the user enters their account recovery key to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+account-recovery-confirm-key-page-title = Gronidło z wótnowjeńskim klucom slědk stajiś
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -2215,12 +2323,18 @@ reset-password-complete-banner-message = Njezabywajśo nowy kontowy wótnowjeńs
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
+# Browser tab title for the page where the user creates a new password while resetting it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-reset-password-page-title = Nowe gronidło napóraś
 confirm-backup-code-reset-password-input-label = 10-městnowy kod zapódaś
 confirm-backup-code-reset-password-confirm-button = Wobkšuśiś
 confirm-backup-code-reset-password-subheader = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 confirm-backup-code-reset-password-instruction = Zapódajśo jaden z kodow za jadnorazowe wužywanje, gaž dwójokšacowu awtentifikaciju konfigurěrujośo.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = Sćo se wuzamknuł?
+# Browser tab title for the page where the user enters a backup authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-backup-code-reset-password-page-title = Gronidło ze zawěsćeńskim kodom slědk stajiś
 
 ## Confirm Reset Password With Code
 
@@ -2238,6 +2352,9 @@ confirm-reset-password-otp-submit-button = Dalej
 confirm-reset-password-otp-resend-code-button = Kod znowego słaś
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Wužywajśo druge konto
+# Browser tab title for the page where the user enters the confirmation code emailed to them to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-reset-password-with-code-page-title = Glědajśo do swójich mejlkow, aby swójo gronidło slědk stajił
 
 ## PasswordResetConfirmTotp Page
 
@@ -2248,6 +2365,9 @@ confirm-totp-reset-password-trouble-code = Maśo problemy pśi zapódawanju koda
 confirm-totp-reset-password-confirm-button = Wobkšuśiś
 confirm-totp-reset-password-input-label-v2 = 6-městnowy kod zapódaś
 confirm-totp-reset-password-use-different-account = Druge konto wužywaś
+# Browser tab title for the page where the user enters a two-step authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-totp-reset-password-page-title = Gronidło z dwójokšacoweju awtentifikaciju slědk stajiś
 
 ## ResetPassword start page
 
@@ -2260,12 +2380,18 @@ password-reset-email-input =
 password-reset-submit-button-2 = Dalej
 # Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
 password-reset-data-recovery-warning = Slědkstajenje wašogo gronidła móžo se na to wustatkowaś, lěc móžośo synchronizěrowane daty wobglědowaka wótnowiś. <learnMoreLink>Dalšne informacije</learnMoreLink>
+# Browser tab title for the page where the user starts a password reset by entering their email.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-flow-page-title = Stajśo swójo gronidło slědk
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Wašo gronidło jo se slědk stajiło
 # $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Dalej k { $serviceName }
+# Browser tab title for the page confirming that the user’s password was reset.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-confirmed-page-title = Gronidło jo se slědk stajiło
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
@@ -2287,6 +2413,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Pśi słanju koda na waš wótnowjeński telefon jo problem nastał
 password-reset-recovery-method-send-code-error-description = Pšosym wopytajśo pózdźej hyšći raz abo wužywajśo swóje awtentifikaciske kody za zawěsćenje.
+# Browser tab title for the page where the user chooses a recovery method to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-recovery-method-page-title = Gronidło z wótnowjeńskeju metodu slědk stajiś
 
 ## ResetPasswordRecoveryPhone page
 
@@ -2660,3 +2789,6 @@ signup-confirmed-sync-set-password-success-banner = Gronidło za synchronizaciju
 update-firefox-heading = Aktualizacija { -brand-firefox } trjebna
 update-firefox-description = Wašo konto { -product-mozilla-account } funkcije wužywa, kótarež waša wersija { -brand-firefox } njepódpěra. Pšosym ześěgniśo a instalěrujśo nejnowšu wersiju { -brand-firefox }, aby pókšacował.
 update-firefox-download-button = Nejnowšu wersiju ześěgnuś
+# Browser tab title for the page shown when the browser is too old to use a Mozilla account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+update-firefox-page-title = Aktualizacija { -brand-firefox } trjebna
