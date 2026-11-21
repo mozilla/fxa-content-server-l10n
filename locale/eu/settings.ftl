@@ -1729,6 +1729,12 @@ inline-recovery-setup-confirm-code-page-title = Berretsi segurtasuneko kodea
 # Browser tab title for the page where the user enters a phone number to use as a recovery phone.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-phone-number-page-title = Gehitu berreskuratze-telefonoa
+# Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-code-page-title = Berretsi zure berreskuratze-telefonoa
+# Browser tab title for the page confirming that two-step authentication is now on for the account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-complete-page-title = Bi urratseko autentifikazioa gaituta
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1764,6 +1770,12 @@ inline-totp-setup-security-code-placeholder = autentifikazio-kode
 inline-totp-setup-code-required-error = Autentifikazioa kodea beharrezkoa
 tfa-qr-code-alt = Erabili { $code } kodea onartzen diren aplikazioetan bi urratseko autentifikazioa konfiguratzeko.
 inline-totp-setup-page-title = Bi urratseko autentifikazioa
+# Browser tab title for the first page of two-step authentication setup, which introduces the feature.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-intro-page-title = Konfiguratu bi urratseko autentifikazioa
+# Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-enrol-page-title = Konektatu zure autentifikazio-aplikaziora
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
@@ -1771,6 +1783,9 @@ inline-totp-setup-page-title = Bi urratseko autentifikazioa
 page-not-found-heading = Ez da orria aurkitu
 page-not-found-description = Eskatu duzun orria ez dago. Abisua jaso dugu eta hautsita egon daitezkeen estekak konponduko ditugu.
 page-not-found-home-button = Hasiera
+# Browser tab title for the page shown when the requested page does not exist.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+page-not-found-page-title = Ez da orria aurkitu
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -1781,6 +1796,9 @@ pair-auth-allow-confirm-button = Bai, onartu gailua
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
 pair-auth-allow-refuse-device-link = Hau ez bazara, <a>aldatu pasahitza</a>
+# Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-allow-page-title = Onartu { -brand-firefox } saio-hasiera
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1802,6 +1820,12 @@ pair-auth-complete-send-tab-heading = Fitxak bidaltzeko prest zaude
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceOS } sistemarako { $deviceFamily } konektatuta dago.
 pair-auth-complete-send-tab-benefits = Aukera duzu irekitako fitxak, pasahitzak eta laster-markak gailuen artean berehala bidaltzeko.
+# Browser tab title for the page shown when a device has been connected after pairing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-page-title = Gailua konektatua
+# Browser tab title for the page shown when a device has been connected after pairing started from a send tab button.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-send-tab-page-title = Fitxak bidaltzeko prest
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1820,6 +1844,9 @@ auth-totp-input-label = Sartu 6 digituko kodea
 auth-totp-confirm-button = Berretsi
 # Error displayed in a tooltip when the form is submitted without a code
 auth-totp-code-required-error = Autentifikazioa kodea beharrezkoa
+# Browser tab title for the page where the user enters a two-step authentication code to continue pairing a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+auth-totp-page-title = Parekatu bi urratseko autentifikazioa erabiliz
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1828,6 +1855,9 @@ auth-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Onarpena behar da <span>beste gailutik</span>
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-supp-page-title = Onartu zure beste gailuan
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1835,6 +1865,9 @@ pair-wait-for-supp-heading-text = Onarpena behar da <span>beste gailutik</span>
 pair-failure-header-v2 = Gailua parekatzeak huts egin du
 pair-failure-message-v2 = Ezin izan da konfigurazioa osatu. Hasi saioa zure helbide elektronikoarekin mesedez.
 pair-failure-try-again-link = Saiatu berriro
+# Browser tab title for the page shown when device pairing fails.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-failure-page-title = Gailua parekatzeak huts egin du
 
 ## Pair index page
 
@@ -1894,12 +1927,24 @@ pair-download-step-scan-qr = <b>{ $stepNumber }. urratsa</b>: Deskargatu { -bran
 pair-download-step-continue-sync = <b>{ $stepNumber }. urratsa</b>: Hautatu "Jarraitu sinkronizatzeko" zure { -brand-firefox } esperientzia gailu mugikorrean sinkronizatzeko.
 # Button on the download screen that opens about:preferences for pairing
 pair-continue-to-sync-button = Jarraitu sinkronizatzeko
+# Browser tab title for the page where the user chooses how to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-page-title = Konektatu beste gailu bat
+# Browser tab title for the page where the user chooses how to set up another device to send tabs to.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-send-tab-page-title = Bidali fitxak beste gailu batera
+# Browser tab title for the page that explains how to download { -brand-firefox } on a mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-download-page-title = Deskargatu mugikorrerako { -brand-firefox }
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Gailua konektatua
 pair-success-message-2 = Parekatzea ondo egin da.
 pair-success-tab-close-message = Fitxa hau automatikoki itxiko du { -brand-firefox }(e)k.
+# Browser tab title for the page shown when a device has been paired successfully.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-success-page-title = Gailua konektatua
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1910,6 +1955,9 @@ pair-success-tab-close-message = Fitxa hau automatikoki itxiko du { -brand-firef
 pair-supp-allow-heading-text = Berretsi <span>for { $email }</span>-kin parekatzea
 pair-supp-allow-confirm-button = Berretsi parekatzea
 pair-supp-allow-cancel-link = Utzi
+# Browser tab title for the page where the user confirms pairing a device with their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-supp-allow-page-title = Berretsi parekatzea
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1918,6 +1966,9 @@ pair-supp-allow-cancel-link = Utzi
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-auth-heading-text = Onarpena behar da <span>beste gailutik</span>
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-auth-page-title = Onartu zure beste gailuan
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
@@ -1941,6 +1992,18 @@ pair-unsupported-learn-more-link-v2 = Argibide gehiago
 # Matches the legacy Backbone "Oops! Something went wrong." message.
 pair-unsupported-desktop-firefox-fallback-header-v2 = Ene! Zerbait gaizki joan da.
 pair-unsupported-desktop-firefox-fallback-message-v2 = Itxi fitxa hau eta saiatu berriz.
+# Browser tab title for the page shown to a desktop user who is not using { -brand-firefox } and must switch browsers to pair a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-desktop-non-firefox-page-title = { -brand-firefox } behar da
+# Browser tab title for the page shown when a mobile user scans the pairing code with the system camera and must pair from within a { -brand-firefox } app instead.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-system-camera-page-title = Parekatzea aplikazioa erabiliz
+# Browser tab title for the page that explains how to connect a mobile device by starting from { -brand-firefox } on a computer.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-mobile-page-title = Konektatu zure gailu mugikorra
+# Browser tab title for the page shown to a desktop { -brand-firefox } user when something went wrong and device pairing cannot continue.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-unsupported-desktop-firefox-fallback-page-title = Zerbait gaizki joan da
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer, which is already signed in, after their
@@ -1955,6 +2018,9 @@ pair2-authority-approve-sign-in-confirm-button = Bai, saio-hasiera onartu
 # "Not you?" asks whether someone other than the user started this sign-in.
 # The text inside <changePassword> links to the page for changing the password.
 pair2-authority-approve-sign-in-change-password = Ez zara zu? <changePassword>Aldatu zure pasahitza</changePassword>
+# Browser tab title for the page where the user approves a sign-in requested from their mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-approve-sign-in-page-title = Onartu saio-hasiera
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
@@ -1965,6 +2031,9 @@ pair2-authority-continue-on-mobile-heading = Jarraitu zure gailu mugikorrean
 pair2-authority-continue-on-mobile-description = Jarraitu urratsak zure telefono edo tabletan.
 # Dismisses the pairing attempt
 pair2-authority-continue-on-mobile-cancel-button = Utzi
+# Browser tab title for the page telling the user to continue connecting their device on their mobile device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-continue-on-mobile-page-title = Jarraitu zure gailu mugikorrean
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when Firefox is needed to continue pairing.
@@ -1976,6 +2045,9 @@ pair2-authority-download-firefox-heading = Sinkronizatzeko, ireki { -brand-firef
 pair2-authority-download-firefox-instruction-v2 = Gailuen arteko sinkronizazioa konfiguratzeko, ireki { -brand-firefox } gailu honetan eta bisitatu <b>firefox.com/pair</b>.
 # Links out to the Firefox download page
 pair2-authority-download-firefox-cta = Deskargatu { -brand-firefox }
+# Browser tab title for the page telling the user to open { -brand-firefox } on this device to start syncing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-download-firefox-page-title = Ireki { -brand-firefox } sinkronizatzeko
 
 ## ScanQR page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer. It shows a QR code that they scan with
@@ -1990,6 +2062,9 @@ pair2-authority-scan-qr-code-aria-label = Zure gailu mugikorra konektatzeko QR k
 pair2-authority-scan-qr-other-ways-link = Saioa hasteko beste modu batzuk
 # Button shown below the QR code card. Leaves the pairing flow and takes the user to their account settings.
 pair2-authority-scan-qr-skip-button = Saltatu oraingoz
+# Browser tab title for the page showing a QR code the user scans with their mobile device to connect it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-scan-qr-page-title = Eskaneatu zure gailu mugikorra konektatzeko
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer once the mobile device has been paired.
@@ -2000,6 +2075,9 @@ pair2-authority-sync-success-heading-v2 = Zure gailua konektatuta dago
 pair2-authority-sync-success-description-v2 = Sinkronizazioa lanean ari da. Denbora pixka bat har lezake sinkronizatutako datuak agertu arte. Jarraitu nabigatzen lasai.
 # Opens the browser settings that control what is synced
 pair2-authority-sync-success-sync-settings-button-v2 = Kudeatu sinkronizazio-ezarpenak
+# Browser tab title for the page shown when a mobile device has been connected and syncing has started.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-sync-success-page-title = Gailua konektatuta
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer when pairing stopped without succeeding,
@@ -2016,6 +2094,12 @@ pair2-authority-timeout-and-cancel-canceled-description = Iritziz aldatzen baduz
 pair2-authority-timeout-and-cancel-try-again-button = Saiatu berriro
 # Takes the user to their Sync settings. "Sync" names the Firefox feature here, not the action.
 pair2-authority-timeout-and-cancel-sync-settings-button = Sinkronizazio-ezarpenak
+# Browser tab title for the page shown on the computer when the device pairing attempt timed out.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-timeout-page-title = Konexioaren denbora-muga gainditu da
+# Browser tab title for the page shown on the computer when the device pairing attempt was cancelled.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-cancelled-page-title = Parekatzea bertan behera utzita
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -2027,6 +2111,9 @@ pair2-supplicant-approve-sign-in-heading = Sinkronizatzeko azken urrats bat
 pair2-supplicant-approve-sign-in-instruction = Onartu saio-hasiera zure ordenagailuan.
 # Dismisses the pairing attempt
 pair2-supplicant-approve-sign-in-cancel-button = Utzi
+# Browser tab title for the page shown on the mobile device while the user approves the sign-in on their computer. "sync" is a verb, referring to syncing data between the user’s devices.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-approve-sign-in-page-title = Sinkronizatzeko azken urrats bat
 
 ## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -2041,6 +2128,9 @@ pair2-supplicant-connect-this-device-heading = Konektatu gailu hau zure kontura?
 pair2-supplicant-connect-this-device-connect-button = Konektatu
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Utzi
+# Browser tab title for the page shown on the mobile device where the user confirms connecting it to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-connect-this-device-page-title = Konektatu gailu honetara
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing reaches a browser that is
@@ -2062,6 +2152,15 @@ pair2-supplicant-download-firefox-download-button = Deskargatu { -brand-firefox 
 pair2-supplicant-download-firefox-have-firefox-button = Dagoeneko badut { -brand-firefox }
 # Opens a page explaining what sync does
 pair2-supplicant-download-firefox-learn-more-link = Argibide gehiago
+# Browser tab title for the page shown on the mobile device asking the user to open { -brand-firefox } on it to continue pairing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-download-firefox-page-title = Ireki { -brand-firefox } gailu honetan
+
+## PairConnectHint page - Part of the desktop-to-mobile pairing flow
+
+# Browser tab title for the page shown on the mobile device telling the user to finish pairing in the { -brand-firefox } app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-connect-hint-page-title = Bukatu parekatze-prozesua aplikazioan
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2074,6 +2173,9 @@ pair2-supplicant-ready-to-scan-heading = Gailu bat konektatzeko
 pair2-supplicant-ready-to-scan-instruction = Zure ordenagailuan, ireki { -brand-firefox }, zoaz <b>firefox.com/pair</b> helbidera, eta jarraitu gailu mugikor hau konektatzeko pantailako argibideak.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Argibide gehiago
+# Browser tab title for the page shown on the mobile device before pairing starts, telling the user to open firefox.com/pair on their computer.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-ready-to-scan-page-title = Eskaneatzeko prest
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device once pairing has completed: the device
@@ -2082,6 +2184,9 @@ pair2-supplicant-ready-to-scan-learn-more-link = Argibide gehiago
 pair2-supplicant-sync-success-heading = Zure gailua konektatuta dago
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = Sinkronizazioa lanean ari da. Denbora pixka bat har lezake sinkronizatutako datuak agertu arte. Jarraitu nabigatzen lasai.
+# Browser tab title for the page shown on the mobile device when it has been connected and syncing has started.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-sync-success-page-title = Gailua konektatua
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2101,6 +2206,15 @@ pair2-supplicant-timeout-and-cancel-canceled-description = Edonoiz gailu bat kon
 pair2-supplicant-timeout-and-cancel-signed-in-heading = Gailuak saioa hasita du jada
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-signed-in-description = Mahaigaineko zure kontua lotzeko, amaitu saioa gailu honetako { -brand-firefox }(e)n, gero joan <b>firefox.com/pair</b> helbidera eta hasi saioa zure ordenagailuan.
+# Browser tab title for the page shown on the mobile device when the device pairing attempt timed out.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-timeout-page-title = Konexioaren denbora-muga gainditu da
+# Browser tab title for the page shown on the mobile device when the device pairing attempt was cancelled.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-cancelled-page-title = Parekatzea bertan behera utzita
+# Browser tab title for the page shown on the mobile device when it is already signed in to an account and cannot be paired.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-signed-in-page-title = Gailuan dagoeneko saioa hasita
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
@@ -2115,6 +2229,9 @@ permissions-label-display-name = Bistaratzeko izena
 permissions-label-avatar = Kontuaren argazkia
 permissions-continue-button = Jarraitu
 permissions-cancel-button = Utzi
+# Browser tab title for the page where the user reviews the profile information an app or service is asking to access.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+permissions-page-title = Berrikusi baimenak
 
 ## ForcePasswordChange page
 ## Users are sent here when suspicious activity on the account requires a new password before they can continue.
@@ -2122,6 +2239,9 @@ permissions-cancel-button = Utzi
 force-password-change-heading = Aldatu zure pasahitza mesedez
 force-password-change-info = Portaera susmagarria antzeman dugu zure { -product-mozilla-account } kontuan. Kontua babesteko, sortu pasahitz berria mesedez. Pasahitz hau zure { -product-mozilla-account } zerbitzu guztietan saioa berriro hasteko erabiliko duzu.
 force-password-change-data-info = Sinkronizatutako historia, laster-markak, saio-hasierak eta bestelako datuak ez dira galduko.
+# Browser tab title for the page where the user must change their password because of suspicious activity on their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+force-password-change-page-title = Aldatu zure pasahitza
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2131,6 +2251,9 @@ service-welcome-signin-success-banner = Saioa ondo hasi da!
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = Hurrengoa: aktibatu VPNa
 service-welcome-vpn-description = Urrats bat gehiago zure nabigatzailearen pribatutasunari bultzada emateko. Zoaz irekita dagoen panelera eta aktiba ezazu.
+# Browser tab title for the page telling the user to turn on VPN as their next step after signing up or signing in. "VPN" is a VPN service built into the Firefox browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+service-welcome-vpn-page-title = Aktibatu VPNa
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -2143,6 +2266,9 @@ set-password-info-v2 = Honek zure datuak zifratzen ditu. Zure { -brand-google } 
 ## Users who signed in via passwordless OTP and need to create a password for Sync
 
 set-password-passwordless-info = Pasahitz honek sinkronizatutako zure datuak zifratu eta seguru mantentzen ditu.
+# Browser tab title for the page where the user creates a password so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+set-password-page-title = Sortu pasahitza sinkronizatzeko
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -2163,6 +2289,9 @@ account-recovery-confirm-key-hint = Zure biltegiratzeko aholkua hau da:
 account-recovery-confirm-key-button-2 = Jarraitu
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link-2 = Ez da aurkitzen zure kontua berreskuratzeko gakoa
+# Browser tab title for the page where the user enters their account recovery key to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+account-recovery-confirm-key-page-title = Berrezarri pasahitza berreskuratzeko gakoa erabiliz
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -2184,12 +2313,18 @@ reset-password-complete-banner-message = Ez ahaztu kontua berreskuratzeko gako b
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
+# Browser tab title for the page where the user creates a new password while resetting it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-reset-password-page-title = Sortu pasahitz berria
 confirm-backup-code-reset-password-input-label = Idatzi 10 karaktereko kodea
 confirm-backup-code-reset-password-confirm-button = Berretsi
 confirm-backup-code-reset-password-subheader = Idatzi segurtasuneko autentifikazio-kodea
 confirm-backup-code-reset-password-instruction = Sartu bi urratseko autentifikazioa konfiguratzean gorde dituzun erabilera bakarreko kodeetako bat.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = Blokeatuta zaude?
+# Browser tab title for the page where the user enters a backup authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-backup-code-reset-password-page-title = Berrezarri pasahitza segurtasuneko kodea erabiliz
 
 ## Confirm Reset Password With Code
 
@@ -2207,6 +2342,9 @@ confirm-reset-password-otp-submit-button = Jarraitu
 confirm-reset-password-otp-resend-code-button = Birbidali kodea
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Erabili beste kontu bat
+# Browser tab title for the page where the user enters the confirmation code emailed to them to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-reset-password-with-code-page-title = Egiaztatu posta elektronikoa zure pasahitza berrezartzeko
 
 ## PasswordResetConfirmTotp Page
 
@@ -2217,6 +2355,9 @@ confirm-totp-reset-password-trouble-code = Arazoak kodea sartzean?
 confirm-totp-reset-password-confirm-button = Berretsi
 confirm-totp-reset-password-input-label-v2 = Sartu 6 digituko kodea
 confirm-totp-reset-password-use-different-account = Erabili beste kontu bat
+# Browser tab title for the page where the user enters a two-step authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-totp-reset-password-page-title = Pasahitza berrezarri bi urratseko autentifikazioa erabiliz
 
 ## ResetPassword start page
 
@@ -2229,12 +2370,18 @@ password-reset-email-input =
 password-reset-submit-button-2 = Jarraitu
 # Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
 password-reset-data-recovery-warning = Pasahitza berrezartzeak eragina izan lezake sinkronizatutako nabigatzaile-datuak berreskuratzeko aukeran. <learnMoreLink>Argibide gehiago</learnMoreLink>
+# Browser tab title for the page where the user starts a password reset by entering their email.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-flow-page-title = Berrezarri pasahitza
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Zure pasahitza berrezarri egin da
 # $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
+# Browser tab title for the page confirming that the user’s password was reset.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-confirmed-page-title = Pasahitz-berrezartzea burututa
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
@@ -2254,6 +2401,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Arazo bat egon da kodea berreskuratzeko telefonora bidaltzean
 password-reset-recovery-method-send-code-error-description = Saiatu berriro geroago edo erabili segurtasuneko autentifikazio-kodeak.
+# Browser tab title for the page where the user chooses a recovery method to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-recovery-method-page-title = Berrezarri pasahitza berreskuratzeko metodoa erabiliz
 
 ## ResetPasswordRecoveryPhone page
 
@@ -2275,6 +2425,9 @@ reset-password-recovery-phone-code-verification-error-heading = Arazoa egon da z
 reset-password-recovery-phone-general-error-description = Saiatu berriro geroago.
 reset-password-recovery-phone-invalid-code-error-description = Kodea baliogabea da edo iraungi da.
 reset-password-recovery-phone-invalid-code-error-link = Erabili segurtasuneko autentifikazio-kodeak horren ordez?
+# Browser tab title for the page where the user enters a code sent to their recovery phone to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-recovery-phone-page-title = Berrezarri pasahitza berreskuratze-telefonoa erabiliz
 reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
 reset-password-complete-new-password-saved = Pasahitz berria gorde da!
 reset-password-complete-recovery-key-created = Kontua berreskuratzeko gako berria sortu da. Deskargatu eta gorde ezazu orain.
@@ -2282,6 +2435,9 @@ reset-password-complete-recovery-key-download-info =
     Gako hau ezinbestekoa da 
     datuak berreskuratzeko pasahitza ahazten baduzu. <b>Deskargatu eta gorde ezazu
     modu seguruan orain, ezin izango baikara orri honetara berriro sartu geroago</b>
+# Browser tab title for the page where the user adds a hint for their new account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-with-recovery-key-verified-hint-page-title = Gehitu berreskuratze-gakoaren iradokizuna
 
 ## ServerError page
 ## Shown when the server fails to handle a request
@@ -2289,6 +2445,9 @@ reset-password-complete-recovery-key-download-info =
 server-error-heading = 500 errorea
 server-error-description = Ai ene, zerbait gaizki joan da. Jaso dugu abisua eta arazoa konpontzen saiatuko gara.
 server-error-home-button = Hasiera
+# Browser tab title for the page shown when the server fails to handle a request.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+server-error-page-title = Zerbitzariaren errorea
 
 ## CompleteSignin component
 
@@ -2301,9 +2460,24 @@ complete-signin-error-header = Berrespen-errorea
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Berrespen-lotura iraungita
 signin-link-expired-message-2 = Sakatu duzun esteka iraungi egin da edo dagoeneko erabili da.
+# Browser tab title for the page shown when something went wrong while confirming a sign-in from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-error-page-title = Saio-hasiera berresteko errorea
+# Browser tab title for the page shown while a sign-in is being confirmed from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-validating-page-title = Saio-hasiera berresten
 
 ## Signin page
 
+# Browser tab title for the page where the user enters their password to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-password-page-title = Idatzi zure pasahitza
+# Browser tab title for the sign-in page shown when the user already has a saved session on this device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-cached-page-title = Hasi saioa
+# Browser tab title for the page where the user picks how to sign in when their account has no password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-alternative-auth-page-title = Aukeratu saio-hasiera metodoa
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Sartu <span>zure { -product-mozilla-account }</span> pasahitza
 # Submit button label when the sign-in turns Sync on (user was sent here to set up Sync, e.g. from pairing)
@@ -2340,6 +2514,9 @@ report-signin-body = Mezu bat jaso duzu zure kontuan saio hasiera saiakera bati 
 report-signin-submit-button = Eman jardueraren berri
 report-signin-support-link = Zergatik ari da hau gertatzen?
 report-signin-error = Arazo bat izan da txostena bidaltzean.
+# Browser tab title for the page where the user can report a sign-in attempt to their account that they did not make.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-page-title = Eman baimenik gabeko saio-hasiera baten berri
 signin-bounced-header = Barkatu. Zure kontua blokeatu dugu.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } helbidera bidali zen berrespen mezua itzuli egin zen eta zure kontua blokeatu dugu zure { -brand-firefox } datuak babesteko.
@@ -2347,6 +2524,9 @@ signin-bounced-message = { $email } helbidera bidali zen berrespen mezua itzuli 
 signin-bounced-help = Helbide elektroniko hau baliozkoa bada, <linkExternal>esaguzu</linkExternal> eta zure kontua desblokeatzen lagunduko dizugu.
 signin-bounced-create-new-account = Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat
 back = Atzera
+# Browser tab title for the page telling the user their account is locked because a confirmation email sent to them was returned.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-bounced-page-title = Kontua blokeatuta
 
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
@@ -2367,6 +2547,9 @@ signin-passkey-fallback-unwrap-failed-heading = Zure sarbide-gakoak ezin izan du
 signin-passkey-fallback-unwrap-failed-description = Zerbait gaizki joan da, beraz zure pasahitza beharko duzu hurrengo aldian.
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = Argibide gehiago
+# Browser tab title for the page where the user enters their password after using a passkey to sign in, so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passkey-fallback-page-title = Idatzi zure pasahitza sinkronizatzeko
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2408,6 +2591,12 @@ signup-passwordless-code-subheading = Erregistroak urrats bakarra behar du kode 
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Bi urratseko autentifikazioa gaituta dago zure kontuan. Hasi saioa zure pasahitzarekin mesedez.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passwordless-code-page-title = Hasi saioa posta elektronikora bidalitako kodea erabiliz
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-passwordless-code-page-title = Eman izena posta elektronikora bidalitako kodea erabiliz
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
