@@ -355,6 +355,9 @@ signin-link-damaged-header = 驗證鏈結無效
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = 鏈結毀損
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = 回報鏈結毀損
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 您點擊的鏈結可能缺少了一些字元，或您的收信軟體修改了郵件內容。請確認您複製了完整的網址，再次開啟確認鏈結。
 
@@ -386,6 +389,9 @@ locale-toggle-select-label = 選擇語言
 locale-toggle-browser-default = 瀏覽器預設值
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 請求錯誤
+# Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+error-bad-request-page-title = 請求錯誤
 
 ## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when they open the pairing link
@@ -473,6 +479,15 @@ ready-continue = 繼續
 sign-in-complete-header = 登入完成
 sign-up-complete-header = 帳號已確認
 primary-email-verified-header = 已驗證主要電子郵件地址
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = 已確認登入
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = 已確認帳號
+# Browser tab title for the page confirming the user’s primary email address.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+primary-email-verified-page-title = 已驗證主要電子郵件地址
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -1210,6 +1225,9 @@ security-set-password = 設定密碼，方可使用同步功能與其他帳號�
 security-recent-activity-link = 檢視近期帳號活動
 signout-sync-header = 登入階段已過期
 signout-sync-session-expired = 抱歉，有些東西不對勁，請從瀏覽器選單登出後再試一次。
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = 登入階段已過期
 
 ## SubRow component
 
@@ -1573,6 +1591,9 @@ connect-another-device-not-now-link = 現在不要
 connect-another-device-android-complete-setup-message = 登入 { -brand-firefox } for Android 完成設定
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
 connect-another-device-ios-complete-setup-message = 登入 { -brand-firefox } for iOS 完成設定
+# Browser tab title for the page that invites the user to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+connect-another-device-page-title = 連結其他裝置
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -1583,9 +1604,15 @@ cookies-disabled-enable-prompt-2 = 請開啟瀏覽器的 Cookie 與本機儲存�
 cookies-disabled-button-try-again = 重試
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = 了解更多
+# Browser tab title for the page shown when cookies or local storage are disabled in the browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+cookies-disabled-page-title = 必須開啟 Cookie 與本機儲存空間功能
 
 ## Index / home page
 
+# Browser tab title for the page where the user enters their email to sign in or create an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+index-page-title = 登入或註冊帳號
 index-header = 輸入您的電子郵件地址
 index-sync-header = 繼續前往您的 { -product-mozilla-account }
 index-sync-subheader = 在使用 { -brand-firefox } 的所有地方同步您的密碼、分頁、書籤。
@@ -1633,6 +1660,33 @@ inline-recovery-key-setup-download-header = 讓您的帳號更安全
 inline-recovery-key-setup-download-subheader = 立即下載保存
 inline-recovery-key-setup-download-info = 未來無法再回到這個頁面，請務必將這把金鑰保存在之後還找得到的地方。
 inline-recovery-key-setup-hint-header = 安全性建議
+# Browser tab title for the page where the user creates an account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-create-page-title = 產生帳號救援金鑰
+# Browser tab title for the page where the user downloads their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-download-page-title = 下載您的帳號救援金鑰
+# Browser tab title for the page where the user adds a hint for their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-hint-page-title = 新增救援金鑰提示
+# Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-choice-page-title = 選擇救援方式
+# Browser tab title for the page where the user saves their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-download-codes-page-title = 儲存您的備用驗證碼
+# Browser tab title for the page where the user confirms one of their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-confirm-code-page-title = 確認備用驗證碼
+# Browser tab title for the page where the user enters a phone number to use as a recovery phone.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-number-page-title = 新增救援電話號碼
+# Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-code-page-title = 確認您的救援電話號碼
+# Browser tab title for the page confirming that two-step authentication is now on for the account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-complete-page-title = 已開啟兩階段驗證
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1668,6 +1722,12 @@ inline-totp-setup-security-code-placeholder = 驗證碼
 inline-totp-setup-code-required-error = 需要輸入驗證碼
 tfa-qr-code-alt = 使用代碼 { $code } 在支援的應用程式中設定兩階段驗證。
 inline-totp-setup-page-title = 兩階段驗證
+# Browser tab title for the first page of two-step authentication setup, which introduces the feature.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-intro-page-title = 設定兩階段驗證
+# Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-enrol-page-title = 連結您的驗證程式
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
