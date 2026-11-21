@@ -2084,6 +2084,9 @@ pair2-authority-timeout-and-cancel-sync-settings-button = Configurationes del sy
 # Browser tab title for the page shown on the computer when the device pairing attempt timed out.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair2-authority-timeout-and-cancel-timeout-page-title = Connexion expirate
+# Browser tab title for the page shown on the computer when the device pairing attempt was cancelled.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-authority-timeout-and-cancel-cancelled-page-title = Accopulamento cancellate
 
 ## ApproveSignIn page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
