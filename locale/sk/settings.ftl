@@ -2604,6 +2604,9 @@ signin-passwordless-totp-required = Vo vašom účte je povolené dvojstupňové
 # Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 signin-passwordless-code-page-title = Prihlásenie e‑mailovým kódom
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-passwordless-code-page-title = Registrácia e‑mailovým kódom
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -2625,6 +2628,9 @@ signin-recovery-method-code-info-v2 =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Pri odosielaní kódu na váš telefón na obnovenie prístupu sa vyskytol problém
 signin-recovery-method-send-code-error-description = Skúste to znova neskôr alebo použite záložné overovacie kódy.
+# Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-method-page-title = Prihlásenie pomocou obnovenia prístupu
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2651,6 +2657,9 @@ signin-recovery-code-required-error = Vyžaduje sa záložný overovací kód
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Pri odosielaní kódu na váš telefón na obnovenie prístupu sa vyskytol problém
 signin-recovery-code-use-phone-failure-description = Skúste to znova neskôr.
+# Browser tab title for the page where the user enters a backup authentication code to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-code-page-title = Prihlásenie záložným kódom
 
 ## SigninRecoveryPhone page
 
@@ -2675,11 +2684,17 @@ signin-recovery-phone-invalid-code-error-link = Chcete namiesto toho použiť z�
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = Úspešné prihlásenie. Ak znova použijete telefón na obnovenie prístupu, môžu sa uplatňovať obmedzenia.
+# Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-phone-page-title = Prihlásenie cez telefón na obnovenie prístupu
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Ďakujeme za vašu ostražitosť
 signin-reported-message = Náš tím bol informovaný. Podobné hlásenia nám pomáhajú odrážať narušiteľov.
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = Prihlásenie nahlásené
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -2713,6 +2728,9 @@ signin-token-code-resend-error = Niečo sa pokazilo. Nový kód sa nepodarilo od
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-token-code-instruction-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = Potvrdenie prihlásenia kódom z e‑mailu
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
