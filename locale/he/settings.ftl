@@ -2587,6 +2587,9 @@ signin-recovery-phone-page-title = כניסה באמצעות טלפון שחזו
 
 signin-reported-header = תודה על הערנות שלך
 signin-reported-message = נשלחה הודעה לצוות שלנו. דיווחים כאלה מסייעים לנו להישמר מתוקפים.
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = דווח על ניסיון כניסה
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -2618,6 +2621,9 @@ signin-token-code-resend-error = משהו השתבש. לא ניתן היה לש�
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-token-code-instruction-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = אימות כניסה באמצעות קוד מהדוא״ל
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -2642,6 +2648,9 @@ signin-totp-code-required-error = נדרש קוד אימות
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-totp-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
+# Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-totp-code-page-title = כניסה באמצעות אימות דו־שלבי
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -2661,10 +2670,16 @@ signin-unblock-support-link = מדוע זה קורה?
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-unblock-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסכת דוא״ל לאחר ההתחברות.
+# Browser tab title for the page where the user enters the authorization code emailed to them to approve a blocked sign-in attempt.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-unblock-page-title = אישור כניסה זו
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
+# Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-signup-code-page-title-2 = אימות כתובת הדוא״ל שלך
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -2702,6 +2717,9 @@ signup-sync-info = סנכרון הססמאות, הסימניות ועוד, בכ�
 signup-sync-info-with-payment = סנכרון הססמאות, אמצעי התשלום, הסימניות ועוד, בכל מקום בו יש לך את { -brand-firefox }.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = שינוי כתובת דוא״ל
+# Browser tab title for the page where the user creates a password to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-page-title = יצירת החשבון שלך
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
@@ -2715,6 +2733,9 @@ signup-confirmed-sync-description-v2 = ניתן לסנכרן את הססמאות
 signup-confirmed-sync-add-device-link = הוספת מכשיר נוסף
 signup-confirmed-sync-manage-sync-button = ניהול סנכרון
 signup-confirmed-sync-set-password-success-banner = ססמת הסנכרון נוצרה
+# Browser tab title for the page confirming that sync is turned on after the user confirmed their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-confirmed-sync-page-title = הסנכרון מופעל
 
 ## UpdateFirefox page
 ## Shown when the browser is too old to use a Mozilla account
@@ -2724,3 +2745,6 @@ update-firefox-description =
     { -product-mozilla-account(case: "the") } שלך עושה שימוש בתכונות שאינן נתמכות בגרסת ה־{ -brand-firefox } שלך. נא
     להוריד ולהתקין את הגרסה האחרונה של { -brand-firefox } כדי להמשיך.
 update-firefox-download-button = הורדת העדכני ביותר
+# Browser tab title for the page shown when the browser is too old to use a Mozilla account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+update-firefox-page-title = נדרש עדכון ל־{ -brand-firefox }
