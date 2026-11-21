@@ -370,6 +370,9 @@ signin-link-damaged-header = Ссылка для подтверждения по
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Ссылка повреждена
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = Сообщить о повреждённой ссылке
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = В ссылке, по которой вы щёлкнули, отсутствуют символы, и возможно она была повреждена вашим почтовым клиентом. Внимательно скопируйте адрес и попробуйте ещё раз.
 
@@ -401,6 +404,9 @@ locale-toggle-select-label = Выберите язык
 locale-toggle-browser-default = Браузер по умолчанию
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неверный запрос
+# Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+error-bad-request-page-title = Ошибочный запрос
 
 ## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when they open the pairing link
@@ -488,6 +494,15 @@ ready-continue = Продолжить
 sign-in-complete-header = Вход подтверждён
 sign-up-complete-header = Аккаунт подтверждён
 primary-email-verified-header = Основная электронная почта подтверждена
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = Вход подтверждён
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = Аккаунт подтверждён
+# Browser tab title for the page confirming the user’s primary email address.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+primary-email-verified-page-title = Основная электронная почта подтверждена
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -868,6 +883,8 @@ modal-mfa-protected-confirm-button = Подтвердить
 modal-mfa-protected-code-expired = Срок действия кода истёк?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Отправить новый код по электронной почте.
+# Error shown when the code is correct but the device clock is too far ahead of the server time.
+modal-mfa-protected-clock-skew-error = Часы вашего устройства установлены неправильно. Исправьте дату и время устройства и попробуйте снова.
 
 ## Modal Verify Session
 
@@ -1237,6 +1254,9 @@ security-set-password = Установите пароль для синхрон�
 security-recent-activity-link = Просмотр последних действий в аккаунте
 signout-sync-header = Время сессии истекло
 signout-sync-session-expired = Извините, что-то пошло не так. Пожалуйста, выйдите из меню браузера и попробуйте ещё раз.
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = Время сессии истекло
 
 ## SubRow component
 
@@ -1618,6 +1638,9 @@ connect-another-device-not-now-link = Не сейчас
 connect-another-device-android-complete-setup-message = Войдите в { -brand-firefox } для Android, чтобы завершить настройку
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
 connect-another-device-ios-complete-setup-message = Войдите в { -brand-firefox } для iOS, чтобы завершить настройку
+# Browser tab title for the page that invites the user to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+connect-another-device-page-title = Подключить другое устройство
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
