@@ -373,6 +373,9 @@ signin-link-damaged-header = Wobkšuśeński wótkaz jo wobškóźony
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Wótkaz jo wobškóźony
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = Wótkaz ako wobškóźony k wěsći daś
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Wótkazoju, na kótaryž sćo kliknuł, znamuška feluju, a jo snaź pśez waš e-mailowy program wobškóźony. Kopěrujśo adresu kradosćiwje a wopytajśo hyšći raz.
 
@@ -404,6 +407,9 @@ locale-toggle-select-label = Rěc wubraś
 locale-toggle-browser-default = Standard wobglědowaka
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne napšašowanje
+# Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+error-bad-request-page-title = Špatne napšašowanje
 
 ## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when they open the pairing link
@@ -491,6 +497,15 @@ ready-continue = Dalej
 sign-in-complete-header = Pśizjawjenje jo se wobkšuśiło
 sign-up-complete-header = Konto jo wobkšuśone
 primary-email-verified-header = Primarna e-mailowa adresa jo wokšuśona
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = Pśizjawjenje jo se wobkšuśiło
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = Konto jo wobkšuśone
+# Browser tab title for the page confirming the user’s primary email address.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+primary-email-verified-page-title = Primarna e-mailowa adresa jo wobkšuśona
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -875,6 +890,8 @@ modal-mfa-protected-confirm-button = Wobkšuśiś
 modal-mfa-protected-code-expired = Kod jo spadnuł?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Nowy kod pśez e-mail pósłaś.
+# Error shown when the code is correct but the device clock is too far ahead of the server time.
+modal-mfa-protected-clock-skew-error = Cas wašogo rěda jo wopacny.  Korigěrujśo datum a cas swójogo rěda a wopytajśo pón hyšći raz.
 
 ## Modal Verify Session
 
@@ -1244,6 +1261,9 @@ security-set-password = Nastajśo gronidło, aby wěste wěstotne funkcije konta
 security-recent-activity-link = Nejnowšu kontowu aktiwitu pokazaś
 signout-sync-header = Pósejźenje jo spadnuło
 signout-sync-session-expired = Bóžko něco njejo se raźiło. Pšosym wótzjawśo se z menija wobglědowaka a wopytajśo hyšći raz.
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = Pósejźenje jo spadnuło
 
 ## SubRow component
 
@@ -1629,6 +1649,9 @@ connect-another-device-not-now-link = Nic něnto
 connect-another-device-android-complete-setup-message = Pśizjawśo se pla { -brand-firefox } za Android, aby zarědowanje dokóńcył
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
 connect-another-device-ios-complete-setup-message = Pśizjawśo se pla { -brand-firefox } za iOS, aby zarědowanje dokóńcył
+# Browser tab title for the page that invites the user to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+connect-another-device-page-title = Drugi rěd zwězaś
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -1639,9 +1662,15 @@ cookies-disabled-enable-prompt-2 = Pšosym zmóžniśo cookieje a lokalny skład
 cookies-disabled-button-try-again = Hyšći raz wopytaś
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Dalšne informacije
+# Browser tab title for the page shown when cookies or local storage are disabled in the browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+cookies-disabled-page-title = Cookieje a lokalny składowak su trjebne
 
 ## Index / home page
 
+# Browser tab title for the page where the user enters their email to sign in or create an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+index-page-title = Pśizjawiś abo konto załožyś
 index-header = Zapódajśo swóju e-mailowu adresu
 index-sync-header = Dalej k swójomu kontoju { -product-mozilla-account }
 index-sync-subheader = Synchronizěrujśo swóje gronidła, rejtariki a cytańske znamjenja wšuźi, źož { -brand-firefox } wužywaśo.
@@ -1689,6 +1718,33 @@ inline-recovery-key-setup-download-header = Zawěsććo swójo konto
 inline-recovery-key-setup-download-subheader = Ześěgniśo a składujśo jen něnto
 inline-recovery-key-setup-download-info = Składujśo toś ten kluc na městnje, na kótarež se dopominaśo – njamóžośo se k toś tomu bokoju pózdźej wrośiś.
 inline-recovery-key-setup-hint-header = Wěstotne pórucenje
+# Browser tab title for the page where the user creates an account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-create-page-title = Kontowy wótnowjeński kluc napóraś
+# Browser tab title for the page where the user downloads their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-download-page-title = Ześěgniśo swój kontowy wótnowjeński kluc
+# Browser tab title for the page where the user adds a hint for their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-hint-page-title = Pokaz na wótnowjeński kluc pśidaś
+# Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-choice-page-title = Wubjeŕśo wótnowjeńsku metodu
+# Browser tab title for the page where the user saves their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-download-codes-page-title = Składujśo swóje zawěsćeńske kody
+# Browser tab title for the page where the user confirms one of their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-confirm-code-page-title = Zawěsćeński kode wobkšuśiś
+# Browser tab title for the page where the user enters a phone number to use as a recovery phone.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-number-page-title = Wótnowjeński telefon pśidaś
+# Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-code-page-title = Waš wótnowjeński telefon wobkšuśiś
+# Browser tab title for the page confirming that two-step authentication is now on for the account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-complete-page-title = Dwójokšacowa awtentifikacija
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1724,6 +1780,12 @@ inline-totp-setup-security-code-placeholder = Awtentificěrowański kod
 inline-totp-setup-code-required-error = Awtentifikaciski kod trjebny
 tfa-qr-code-alt = Wužywajśo kod { $code }, aby zarědował dwukšacowu awtentifikaciju w pódpěranych nałoženjach.
 inline-totp-setup-page-title = Dwójokšacowa awtentifikacija
+# Browser tab title for the first page of two-step authentication setup, which introduces the feature.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-intro-page-title = Dwójokšacowu awtentifikaciju konfigurěrowaś
+# Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-enrol-page-title = Wašo nałoženje awtentifikacije zwězaś
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
@@ -1731,6 +1793,9 @@ inline-totp-setup-page-title = Dwójokšacowa awtentifikacija
 page-not-found-heading = Bok njejo se namakał
 page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Smy powěsć dostali a pórěźamy njepłaśiwe wótkaze.
 page-not-found-home-button = Startowy bok
+# Browser tab title for the page shown when the requested page does not exist.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+page-not-found-page-title = Bok njejo se namakał
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -1741,6 +1806,9 @@ pair-auth-allow-confirm-button = Jo, rěd pśizwóliś
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
 pair-auth-allow-refuse-device-link = Jolic njejsćo to był wy, <a>změńśo swójo gronidło</a>
+# Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-allow-page-title = Pśizjawjenje { -brand-firefox } pśizwóliś
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1762,6 +1830,9 @@ pair-auth-complete-send-tab-heading = Sćo gótowy, aby někotare rejtariki pós
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-send-tab-device-connected = { $deviceFamily } za { $deviceOS } jo zwězany.
 pair-auth-complete-send-tab-benefits = Móžośo ned wócynjone rejtariki, gronidła a cytańske znamjenja mjazy rědami pósłaś.
+# Browser tab title for the page shown when a device has been connected after pairing.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-page-title = Rěd jo zwězany
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
