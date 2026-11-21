@@ -2616,6 +2616,9 @@ signin-recovery-method-code-info-v2 =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Arazo bat izan da kodea berreskuratzeko telefonora bidaltzean
 signin-recovery-method-send-code-error-description = Saiatu berriro geroago edo erabili segurtasuneko autentifikazio-kodeak.
+# Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-method-page-title = Hasi saioa berreskuratzeko metodoa erabiliz
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2642,6 +2645,9 @@ signin-recovery-code-required-error = Segurtasuneko autentifikazio-kodea behar d
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Arazo bat izan da kodea berreskuratzeko telefonora bidaltzean
 signin-recovery-code-use-phone-failure-description = Saiatu berriro geroago.
+# Browser tab title for the page where the user enters a backup authentication code to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-code-page-title = Hasi saioa segurtasuneko kodea erabiliz
 
 ## SigninRecoveryPhone page
 
@@ -2666,11 +2672,17 @@ signin-recovery-phone-invalid-code-error-link = Erabili segurtasuneko autentifik
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = Saioa hasi da. Baliteke mugak aplikatzea berreskuratzeko telefonoa berriro erabiltzen baduzu.
+# Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-phone-page-title = Hasi saioa berreskuratze-telefonoa erabiliz
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Eskerrik asko zure zaintzagatik
 signin-reported-message = Gure taldeari jakinarazi zaio. Horrelako txostenek arrotzak kanpo mantentzen laguntzen digu.
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = Saio-hasieraren berri emanda
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -2702,6 +2714,9 @@ signin-token-code-resend-error = Zerbait gaizki joan da. Ezin izan da kode berri
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-token-code-instruction-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = Berretsi saio-hasiera posta elektronikora bidalitako kodea erabiliz
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -2726,6 +2741,9 @@ signin-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-totp-code-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
+# Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-totp-code-page-title = Hasi saioa bi urratseko autentifikazioa erabiliz
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -2745,10 +2763,16 @@ signin-unblock-support-link = Zergatik ari da hau gertatzen?
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-unblock-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
+# Browser tab title for the page where the user enters the authorization code emailed to them to approve a blocked sign-in attempt.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-unblock-page-title = Baimendu saio-hasiera hau
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
+# Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-signup-code-page-title-2 = Berretsi helbide elektronikoa
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -2786,6 +2810,9 @@ signup-sync-info = Sinkronizatu zure pasahitzak, laster-markak eta gehiago { -br
 signup-sync-info-with-payment = Sinkronizatu zure pasahitzak, ordainketa-metodoak, laster-markak eta gehiago { -brand-firefox } erabiltzen duzun toki guztietan.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Aldatu helbide elektronikoa
+# Browser tab title for the page where the user creates a password to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-page-title = Sortu zure kontua
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
@@ -2799,6 +2826,9 @@ signup-confirmed-sync-description-v2 = Zure pasahitzak, helbideak, laster-markak
 signup-confirmed-sync-add-device-link = Gehitu beste gailu bat
 signup-confirmed-sync-manage-sync-button = Kudeatu sinkronizazioa
 signup-confirmed-sync-set-password-success-banner = Sinkronizatzeko pasahitza sortuta
+# Browser tab title for the page confirming that sync is turned on after the user confirmed their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-confirmed-sync-page-title = Sinkronizazioa aktibo dago
 
 ## UpdateFirefox page
 ## Shown when the browser is too old to use a Mozilla account
@@ -2806,3 +2836,6 @@ signup-confirmed-sync-set-password-success-banner = Sinkronizatzeko pasahitza so
 update-firefox-heading = { -brand-firefox } eguneratu behar da
 update-firefox-description = Zure { -product-mozilla-account } zerbitzuak darabilzun { -brand-firefox } bertsioak onartzen ez dituen eginbideak erabiltzen ditu. Jarraitzeko, deskargatu eta instalatu { -brand-firefox }(e)n azken bertsioa mesedez.
 update-firefox-download-button = Deskargatu azkena
+# Browser tab title for the page shown when the browser is too old to use a Mozilla account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+update-firefox-page-title = { -brand-firefox } eguneratu behar da
