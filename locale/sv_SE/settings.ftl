@@ -881,7 +881,7 @@ modal-mfa-protected-code-expired = Har koden upphört?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Mejla ny kod.
 # Error shown when the code is correct but the device clock is too far ahead of the server time.
-modal-mfa-protected-clock-skew-error = Enhetens klocka är fel. Korrigera datum och tid på enheten och försök igen.
+modal-mfa-protected-clock-skew-error = Klockan på din enhet går fel. Ställ in rätt datum och tid och försök igen.
 
 ## Modal Verify Session
 
@@ -1711,7 +1711,7 @@ inline-recovery-key-setup-create-page-title = Skapa en kontoåterställningsnyck
 inline-recovery-key-setup-download-page-title = Ladda ner din kontoåterställningsnyckel
 # Browser tab title for the page where the user adds a hint for their account recovery key.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-key-setup-hint-page-title = Lägg till ett tips för återställningsnyckel
+inline-recovery-key-setup-hint-page-title = Lägg till ledtråd för återställningsnyckel
 # Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-choice-page-title = Välj en återställningsmetod
