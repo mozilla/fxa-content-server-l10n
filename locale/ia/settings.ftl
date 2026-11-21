@@ -2119,6 +2119,9 @@ pair2-supplicant-ready-to-scan-heading = Connecter un apparato
 pair2-supplicant-ready-to-scan-instruction = Sur tu computator, aperi { -brand-firefox } e va a <b>firefox.com/par</b>, e seque le instructiones sur le schermo pro connecter iste apparato mobile.
 # Opens a Mozilla support article about setting up sync
 pair2-supplicant-ready-to-scan-learn-more-link = Pro saper plus
+# Browser tab title for the page shown on the mobile device before pairing starts, telling the user to open firefox.com/pair on their computer.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-ready-to-scan-page-title = Preste a scander
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device once pairing has completed: the device
@@ -2127,6 +2130,9 @@ pair2-supplicant-ready-to-scan-learn-more-link = Pro saper plus
 pair2-supplicant-sync-success-heading = Tu apparato es connexe
 # "Syncing" here means copying data between the user's devices
 pair2-supplicant-sync-success-description-v2 = Le synchronisation es in curso. Il pote passar un poco pro apparer tu datos synchronisate. Senti te libere de continuar a navigar.
+# Browser tab title for the page shown on the mobile device when it has been connected and syncing has started.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-sync-success-page-title = Apparato connexe
 
 ## TimeoutAndCancel page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing ends without connecting,
@@ -2146,6 +2152,9 @@ pair2-supplicant-timeout-and-cancel-canceled-description = Pro connecter un appa
 pair2-supplicant-timeout-and-cancel-signed-in-heading = Iste apparato es jam connexe
 # "firefox.com/pair" is a URL and should not be translated
 pair2-supplicant-timeout-and-cancel-signed-in-description = Pro connecter te a tu conto de scriptorio, claude  connexion de { -brand-firefox } sur iste apparato, pois visita <b>firefox.com/par</b> sur tu computator a completa le accesso.
+# Browser tab title for the page shown on the mobile device when the device pairing attempt timed out.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-timeout-and-cancel-timeout-page-title = Connexion expirate
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
