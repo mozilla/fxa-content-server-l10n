@@ -856,6 +856,8 @@ modal-mfa-protected-confirm-button = 確認
 modal-mfa-protected-code-expired = 驗證碼失效？
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = 重寄新驗證碼。
+# Error shown when the code is correct but the device clock is too far ahead of the server time.
+modal-mfa-protected-clock-skew-error = 您的裝置時間不正確。請調整裝置的日期與時間，然後再試一次。
 
 ## Modal Verify Session
 
@@ -2265,12 +2267,18 @@ reset-password-complete-banner-message = 別忘記到 { -product-mozilla-account
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使用您的轉寄信箱帶您回到原網站。
+# Browser tab title for the page where the user creates a new password while resetting it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-reset-password-page-title = 設定新密碼
 confirm-backup-code-reset-password-input-label = 請輸入 10 字元長的驗證碼
 confirm-backup-code-reset-password-confirm-button = 確認
 confirm-backup-code-reset-password-subheader = 請輸入備用驗證碼
 confirm-backup-code-reset-password-instruction = 請輸入設定兩階段驗證時保存的任一組備用驗證碼。
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = 被鎖住了嗎？
+# Browser tab title for the page where the user enters a backup authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-backup-code-reset-password-page-title = 使用備用驗證碼重設密碼
 
 ## Confirm Reset Password With Code
 
@@ -2288,6 +2296,9 @@ confirm-reset-password-otp-submit-button = 繼續
 confirm-reset-password-otp-resend-code-button = 重寄確認碼
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = 使用另一個帳號
+# Browser tab title for the page where the user enters the confirmation code emailed to them to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-reset-password-with-code-page-title = 請收信來重設密碼
 
 ## PasswordResetConfirmTotp Page
 
@@ -2298,6 +2309,9 @@ confirm-totp-reset-password-trouble-code = 輸入代碼時遇到問題嗎？
 confirm-totp-reset-password-confirm-button = 確認
 confirm-totp-reset-password-input-label-v2 = 請輸入六位數的驗證碼
 confirm-totp-reset-password-use-different-account = 使用另一個帳號
+# Browser tab title for the page where the user enters a two-step authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-totp-reset-password-page-title = 使用兩階段驗證重設密碼
 
 ## ResetPassword start page
 
@@ -2310,12 +2324,18 @@ password-reset-email-input =
 password-reset-submit-button-2 = 繼續
 # Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
 password-reset-data-recovery-warning = 重設密碼可能會影響您能否復原已同步的瀏覽器資料。<learnMoreLink>更多資訊</learnMoreLink>
+# Browser tab title for the page where the user starts a password reset by entering their email.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-flow-page-title = 重設您的密碼
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = 已重設您的密碼
 # $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = 繼續前往 { $serviceName }
+# Browser tab title for the page confirming that the user’s password was reset.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-confirmed-page-title = 密碼重設完成
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
@@ -2331,6 +2351,9 @@ password-reset-recovery-method-code-info = 剩餘 { $numBackupCodes } 組備用�
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = 傳送代碼到您的救援電話號碼時遇到問題
 password-reset-recovery-method-send-code-error-description = 請稍後再試，或使用您的備用驗證碼。
+# Browser tab title for the page where the user chooses a recovery method to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-recovery-method-page-title = 透過帳號救援方式重設密碼
 
 ## ResetPasswordRecoveryPhone page
 
@@ -2352,10 +2375,16 @@ reset-password-recovery-phone-code-verification-error-heading = 確認您輸入�
 reset-password-recovery-phone-general-error-description = 請稍候再試。
 reset-password-recovery-phone-invalid-code-error-description = 此救援碼無效，或已失效。
 reset-password-recovery-phone-invalid-code-error-link = 要改用備用驗證碼嗎？
+# Browser tab title for the page where the user enters a code sent to their recovery phone to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-recovery-phone-page-title = 透過救援電話號碼重設密碼
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-complete-new-password-saved = 已儲存新密碼！
 reset-password-complete-recovery-key-created = 已建立新的帳號救援金鑰，請立即下載並儲存。
 reset-password-complete-recovery-key-download-info = 萬一您忘記密碼時，必須使用這把金鑰才可以救回資料。<b>本頁面之後不會再顯示，請立即下載金鑰，並儲存在安全的地方。</b>
+# Browser tab title for the page where the user adds a hint for their new account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-with-recovery-key-verified-hint-page-title = 新增救援金鑰提示
 
 ## ServerError page
 ## Shown when the server fails to handle a request
@@ -2363,6 +2392,9 @@ reset-password-complete-recovery-key-download-info = 萬一您忘記密碼時，
 server-error-heading = 500 錯誤
 server-error-description = 抱歉，有些東西怪怪的，我們已經通知相關人員，將會修復此問題。
 server-error-home-button = 首頁
+# Browser tab title for the page shown when the server fails to handle a request.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+server-error-page-title = 伺服器錯誤
 
 ## CompleteSignin component
 
@@ -2375,9 +2407,24 @@ complete-signin-error-header = 確認過程發生錯誤
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = 驗證鏈結已失效
 signin-link-expired-message-2 = 您點擊的鏈結已失效，或已經被使用過。
+# Browser tab title for the page shown when something went wrong while confirming a sign-in from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-error-page-title = 登入確認錯誤
+# Browser tab title for the page shown while a sign-in is being confirmed from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-validating-page-title = 正在確認登入
 
 ## Signin page
 
+# Browser tab title for the page where the user enters their password to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-password-page-title = 請輸入您的密碼
+# Browser tab title for the sign-in page shown when the user already has a saved session on this device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-cached-page-title = 登入
+# Browser tab title for the page where the user picks how to sign in when their account has no password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-alternative-auth-page-title = 選擇登入方式
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = 請輸入您的密碼 <span>{ -product-mozilla-account }</span>
 # Submit button label when the sign-in turns Sync on (user was sent here to set up Sync, e.g. from pairing)
@@ -2414,6 +2461,9 @@ report-signin-body = 您將會收到嘗試登入帳號的相關資訊的電子�
 report-signin-submit-button = 回報可疑行為
 report-signin-support-link = 為什麼會發生？
 report-signin-error = 很抱歉，送出報告時發生問題。
+# Browser tab title for the page where the user can report a sign-in attempt to their account that they did not make.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-page-title = 回報未經授權的登入
 signin-bounced-header = 抱歉，我們鎖定了您的帳號。
 # $email (string) - The user's email.
 signin-bounced-message = 先前寄到 { $email } 的確認信被退回。為了保護您 { -brand-firefox } 的資料，已暫時鎖定您的帳號。
@@ -2421,6 +2471,9 @@ signin-bounced-message = 先前寄到 { $email } 的確認信被退回。為了�
 signin-bounced-help = 若這是有效的電子郵件地址，<linkExternal>請讓我們知道</linkExternal>，我們將協助您解鎖帳號。
 signin-bounced-create-new-account = 那個信箱已經停用了嗎？請註冊新帳號
 back = 返回
+# Browser tab title for the page telling the user their account is locked because a confirmation email sent to them was returned.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-bounced-page-title = 帳號已鎖定
 
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
@@ -2441,6 +2494,9 @@ signin-passkey-fallback-unwrap-failed-heading = 無法使用您的 Passkey 來�
 signin-passkey-fallback-unwrap-failed-description = 某些東西怪怪的，這次需要輸入密碼。
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = 更多資訊
+# Browser tab title for the page where the user enters their password after using a passkey to sign in, so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passkey-fallback-page-title = 請輸入您的密碼以進行同步
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2474,6 +2530,12 @@ signup-passwordless-code-subheading = 使用這組代碼，只需要簡單一步
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = 您的帳號已開啟兩階段驗證，請使用密碼登入。
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passwordless-code-page-title = 使用電子郵件接收代碼登入
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-passwordless-code-page-title = 使用電子郵件接收代碼註冊
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -2489,6 +2551,9 @@ signin-recovery-method-code-info-v2 = 剩餘 { $numBackupCodes } 組備用驗證
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = 傳送代碼到您的救援電話號碼時遇到問題
 signin-recovery-method-send-code-error-description = 請稍後再試，或使用您的備用驗證碼。
+# Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-method-page-title = 使用救援方式登入
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2515,6 +2580,9 @@ signin-recovery-code-required-error = 需要使用備用驗證碼
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = 傳送代碼到您的救援電話號碼時遇到問題
 signin-recovery-code-use-phone-failure-description = 請稍候再試。
+# Browser tab title for the page where the user enters a backup authentication code to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-code-page-title = 使用備用驗證碼登入
 
 ## SigninRecoveryPhone page
 
@@ -2539,11 +2607,17 @@ signin-recovery-phone-invalid-code-error-link = 要改用備用驗證碼嗎？
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = 成功登入。若您再次使用救援電話號碼登入，可能會遇到帳號限制。
+# Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-phone-page-title = 使用救援電話號碼登入
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = 感謝您提高警覺
 signin-reported-message = 已通知我們的營運團隊。像這樣的回報可以幫助我們阻擋入侵者。
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = 已回報可疑登入
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -2571,6 +2645,9 @@ signin-token-code-resend-error = 有些東西怪怪的，無法寄出新的確�
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-token-code-instruction-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使用您的轉寄信箱帶您回到原網站。
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = 使用電子郵件接收代碼確認登入
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -2595,6 +2672,9 @@ signin-totp-code-required-error = 需要輸入驗證碼
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-totp-code-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使用您的轉寄信箱帶您回到原網站。
+# Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-totp-code-page-title = 透過兩階段驗證登入
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -2614,10 +2694,16 @@ signin-unblock-support-link = 為什麼會發生？
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-unblock-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使用您的轉寄信箱帶您回到原網站。
+# Browser tab title for the page where the user enters the authorization code emailed to them to approve a blocked sign-in attempt.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-unblock-page-title = 核准此次登入
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
+# Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-signup-code-page-title-2 = 確認您的電子郵件地址
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -2651,6 +2737,9 @@ signup-sync-info = 在使用 { -brand-firefox } 的所有地方同步您的密�
 signup-sync-info-with-payment = 在使用 { -brand-firefox } 的所有地方同步您的密碼、付款方式、書籤與更多資料。
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改電子郵件地址
+# Browser tab title for the page where the user creates a password to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-page-title = 註冊帳號
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
@@ -2664,6 +2753,9 @@ signup-confirmed-sync-description-v2 = 隨時隨地使用 { -brand-firefox } 都
 signup-confirmed-sync-add-device-link = 新增另一台裝置
 signup-confirmed-sync-manage-sync-button = 管理同步
 signup-confirmed-sync-set-password-success-banner = 已設定同步密碼
+# Browser tab title for the page confirming that sync is turned on after the user confirmed their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-confirmed-sync-page-title = 已開啟同步
 
 ## UpdateFirefox page
 ## Shown when the browser is too old to use a Mozilla account
@@ -2671,3 +2763,6 @@ signup-confirmed-sync-set-password-success-banner = 已設定同步密碼
 update-firefox-heading = 需要更新 { -brand-firefox }
 update-firefox-description = { -product-mozilla-account }需要用到您目前版本的 { -brand-firefox } 仍不支援的功能，請下載安裝最新版 { -brand-firefox } 再繼續。
 update-firefox-download-button = 下載最新版本
+# Browser tab title for the page shown when the browser is too old to use a Mozilla account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+update-firefox-page-title = 需要更新 { -brand-firefox }
