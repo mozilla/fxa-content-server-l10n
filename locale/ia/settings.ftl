@@ -367,6 +367,9 @@ signin-link-damaged-header = Ligamine de confirmation damnificate
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Ligamine damnificate
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = Reportar ligamine damnificate
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Il manca characteres in le ligamine sur le qual tu ha cliccate. Pote esser que tu programma de e-mail lo ha corrumpite. Copia minutiosemente le adresse, e tenta de novo.
 
@@ -398,6 +401,9 @@ locale-toggle-select-label = Eliger le lingua
 locale-toggle-browser-default = Navigator predefinite
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mal requesta
+# Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+error-bad-request-page-title = Mal requesta
 
 ## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when they open the pairing link
@@ -876,6 +882,8 @@ modal-mfa-protected-confirm-button = Confirmar
 modal-mfa-protected-code-expired = Codice expirate?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Inviar per email nove codice.
+# Error shown when the code is correct but the device clock is too far ahead of the server time.
+modal-mfa-protected-clock-skew-error = Corrige data e hora de tu apparato, pois retenta.
 
 ## Modal Verify Session
 
@@ -2681,6 +2689,9 @@ signup-sync-info = Synchronisa tu contrasignos, marcapaginas e altero ubique tu 
 signup-sync-info-with-payment = Synchronisa tu contrasignos, methodos de pagamento, marcapaginas e altero ubique tu usa { -brand-firefox }.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar email
+# Browser tab title for the page where the user creates a password to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-page-title = Crea tu conto
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
