@@ -419,6 +419,15 @@ ready-continue = Kontynuuj
 sign-in-complete-header = Potwierdzono logowanie
 sign-up-complete-header = Potwierdzono konto
 primary-email-verified-header = Potwierdzono główny adres e-mail
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = Potwierdzono logowanie
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = Potwierdzono konto
+# Browser tab title for the page confirming the user’s primary email address.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+primary-email-verified-page-title = Potwierdzono główny adres e-mail
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -1102,6 +1111,9 @@ security-set-password = Ustaw hasło, aby synchronizować i korzystać z czę�
 security-recent-activity-link = Ostatnie działania na koncie
 signout-sync-header = Sesja wygasła
 signout-sync-session-expired = Coś się nie powiodło. Proszę wylogować się z menu przeglądarki i spróbować ponownie.
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = Sesja wygasła
 
 ## SubRow component
 
@@ -1376,6 +1388,9 @@ connect-another-device-not-now-link = Nie teraz
 connect-another-device-android-complete-setup-message = Zaloguj się do { -brand-firefox(case: "gen") } na Androida, aby dokończyć konfigurację
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
 connect-another-device-ios-complete-setup-message = Zaloguj się do { -brand-firefox(case: "gen") } na iOS, aby dokończyć konfigurację
+# Browser tab title for the page that invites the user to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+connect-another-device-page-title = Połącz inne urządzenie
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -1853,6 +1868,9 @@ reset-password-complete-banner-message = Nie zapomnij utworzyć nowego klucza od
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
+# Browser tab title for the page where the user creates a new password while resetting it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-reset-password-page-title = Utwórz nowe hasło
 confirm-backup-code-reset-password-input-label = Wpisz 10-znakowy kod
 confirm-backup-code-reset-password-confirm-button = Potwierdź
 confirm-backup-code-reset-password-subheader = Wpisz zapasowy kod uwierzytelniania
@@ -1984,6 +2002,12 @@ signin-link-expired-message-2 = Kliknięty odnośnik wygasł lub został już wy
 
 ## Signin page
 
+# Browser tab title for the page where the user enters their password to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-password-page-title = Wpisz hasło
+# Browser tab title for the sign-in page shown when the user already has a saved session on this device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-cached-page-title = Zaloguj się
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Wpisz hasło <span>do { -product-mozilla-account(capitalization: "lower", case: "gen") }</span>
 # Submit button label when the sign-in turns Sync on (user was sent here to set up Sync, e.g. from pairing)
@@ -2191,6 +2215,9 @@ signin-unblock-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odes�
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
+# Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-signup-code-page-title-2 = Potwierdź adres e-mail
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
