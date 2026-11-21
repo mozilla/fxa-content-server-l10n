@@ -1793,7 +1793,7 @@ pair-auth-allow-confirm-button = Ja, godkänn enhet
 pair-auth-allow-refuse-device-link = Om det inte var du, <a>ändra du ditt lösenord</a>
 # Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-auth-allow-page-title = Godkänn inloggning för { -brand-firefox }
+pair-auth-allow-page-title = Godkänn { -brand-firefox } inloggning
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1841,7 +1841,7 @@ auth-totp-confirm-button = Bekräfta
 auth-totp-code-required-error = Autentiseringskod krävs
 # Browser tab title for the page where the user enters a two-step authentication code to continue pairing a device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-auth-totp-page-title = Para med tvåstegsautentisering
+auth-totp-page-title = Parkoppla med tvåstegsautentisering
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1852,7 +1852,7 @@ auth-totp-page-title = Para med tvåstegsautentisering
 pair-wait-for-supp-heading-text = Godkännande krävs nu <span>från din andra enhet</span>
 # Browser tab title for the page that asks the user to approve device pairing on their other device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-wait-for-supp-page-title = Godkänn på den andra enheten
+pair-wait-for-supp-page-title = Godkänn på din andra enhet
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
