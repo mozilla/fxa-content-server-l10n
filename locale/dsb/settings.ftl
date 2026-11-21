@@ -2437,6 +2437,9 @@ reset-password-recovery-phone-code-verification-error-heading = Pśi pśeglědow
 reset-password-recovery-phone-general-error-description = Wopytajśo pšosym pózdźej hyšći raz.
 reset-password-recovery-phone-invalid-code-error-description = Kod jo njepłaśiwy abo zestarjety.
 reset-password-recovery-phone-invalid-code-error-link = Awtentifikaciske kody za zawěsćenje město togo wužywaś?
+# Browser tab title for the page where the user enters a code sent to their recovery phone to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-recovery-phone-page-title = Gronidło z wótnowjeńskim telefonom slědk stajiś
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-complete-new-password-saved = Nowe gronidło jo se składło!
 reset-password-complete-recovery-key-created = Nowy kontowy wótnowjeński kluc jo se napórał. Ześěgniśo a składujśo jen něnto.
@@ -2444,6 +2447,9 @@ reset-password-complete-recovery-key-download-info =
     Toś ten kluc jo bytostny za
     datowe wótnowjenje, jolic swójo gronidło zabywaśo. <b>Ześěgniśo a składujśo jen něnto wěsće
     dokulaž pózdźej k toś tomu bokoju wěcej pśistup njamaśo.</b>
+# Browser tab title for the page where the user adds a hint for their new account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-with-recovery-key-verified-hint-page-title = Pokaz na wótnowjeński kluc pśidaś
 
 ## ServerError page
 ## Shown when the server fails to handle a request
@@ -2451,6 +2457,9 @@ reset-password-complete-recovery-key-download-info =
 server-error-heading = Zmólka 500
 server-error-description = Mój Bog, něco jo kśiwje šło. Smy se informěrowali a dajomy se do wótwónoźowanja problema.
 server-error-home-button = Startowy bok
+# Browser tab title for the page shown when the server fails to handle a request.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+server-error-page-title = Serwerowa zmólka
 
 ## CompleteSignin component
 
@@ -2463,9 +2472,24 @@ complete-signin-error-header = Wobkšuśeńska zmólka
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Wobkšuśeński wótkaz jo pśepadnuł
 signin-link-expired-message-2 = Wótkaz, na kótaryž sćo kliknuł, jo spadnjony abo jo se južo wužywał.
+# Browser tab title for the page shown when something went wrong while confirming a sign-in from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-error-page-title = Wobkšuśeńska zmólka pśizjawjenja
+# Browser tab title for the page shown while a sign-in is being confirmed from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-validating-page-title = Pśizjawjenje se wobkšuśujo
 
 ## Signin page
 
+# Browser tab title for the page where the user enters their password to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-password-page-title = Zapódajśo swójo gronidło
+# Browser tab title for the sign-in page shown when the user already has a saved session on this device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-cached-page-title = Pśizjawiś
+# Browser tab title for the page where the user picks how to sign in when their account has no password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-alternative-auth-page-title = Wubjeŕśo pśizjawjeńsku metodu
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Zapódajśo swójo gronidło <span>za swójo { -product-mozilla-account(capitalization: "lower", case: "acc") }</span>
 # Submit button label when the sign-in turns Sync on (user was sent here to set up Sync, e.g. from pairing)
@@ -2502,6 +2526,9 @@ report-signin-body = Sćo mejlku wó wopytanem pśistupu na swójo konto dostał
 report-signin-submit-button = Aktiwitu k wěsći daś
 report-signin-support-link = Cogodla se to stawa?
 report-signin-error = Pśi slanju wašeje rozpšawy jo bóžko nastał problem.
+# Browser tab title for the page where the user can report a sign-in attempt to their account that they did not make.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-page-title = Njeawtorizěrowane pśizjawjenje k wěsći daś
 signin-bounced-header = Bóžko jo wašo konto zastajone.
 # $email (string) - The user's email.
 signin-bounced-message = Wobkśuśeńska mejlka, kótaruž smy na { $email } pósłali, jo se wrośiła a smy wašo konto zastajili, aby my waše daty { -brand-firefox } šćitali.
@@ -2509,6 +2536,9 @@ signin-bounced-message = Wobkśuśeńska mejlka, kótaruž smy na { $email } pó
 signin-bounced-help = Jolic to jo płaśiwa adresa, <linkExternal>informěrujśo nas</linkExternal> a móžomy pomagaś, wašo konto wótwóriś.
 signin-bounced-create-new-account = Toś ta e-mailowa wěcej wam njesłuša? Załožćo konto
 back = Slědk
+# Browser tab title for the page telling the user their account is locked because a confirmation email sent to them was returned.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-bounced-page-title = Konto jo zastajone
 
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
@@ -2529,6 +2559,9 @@ signin-passkey-fallback-unwrap-failed-heading = Waš gronidłowy kluc njejo móg
 signin-passkey-fallback-unwrap-failed-description = Něco njejo se raźiło, togodla trjebaśo tenraz swójo gronidło.
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = Dalšne informacije
+# Browser tab title for the page where the user enters their password after using a passkey to sign in, so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passkey-fallback-page-title = Zapódajśo swójo gronidło, aby synchronizěrował
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2574,6 +2607,12 @@ signup-passwordless-code-subheading = Registrěrowanje jano jaden kšac trajo, g
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Dwójokšacowa awtentifikacija jo za wašo konto zmóžnjona. Pšosym pśizjawśo se ze swójim gronidłom.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passwordless-code-page-title = Z e-mejlowym kodom pśizjawiś
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-passwordless-code-page-title = Z e-mejlowym kodom registrěrowaś
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -2595,6 +2634,9 @@ signin-recovery-method-code-info-v2 =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Pśi słanju koda na waš wótnowjeński telefon jo problem nastał
 signin-recovery-method-send-code-error-description = Pšosym wopytajśo pózdźej hyšći raz abo wužywajśo swóje awtentifikaciske kody za zawěsćenje.
+# Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-method-page-title = Z wótnowjeńskeju metodu pśizjawiś
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2621,6 +2663,9 @@ signin-recovery-code-required-error = Awtentifikaciski kod za zawěsćenje trjeb
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Pśi słanju koda na waš wótnowjeński telefon jo problem nastał
 signin-recovery-code-use-phone-failure-description = Wopytajśo pšosym pózdźej hyšći raz.
+# Browser tab title for the page where the user enters a backup authentication code to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-code-page-title = Ze zawěsćeńskim kodom pśizjawiś
 
 ## SigninRecoveryPhone page
 
@@ -2645,11 +2690,17 @@ signin-recovery-phone-invalid-code-error-link = Awtentifikaciske kody za zawěs�
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = Wuspěšnje pśizjawjeny. Dajo snaź wobgranicowanja, jolic waš wótnowjeński telefon znowego wužywaśo.
+# Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-phone-page-title = Z wótnowjeńskim telefonom pśizjawiś
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Źěkujomy se za wašu stražniwosć
 signin-reported-message = Naš team jo powěźeńku dostał. Rozpšawy ako toś ta nam pomagaju, zadobywarje wótwoboraś.
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = Pśizjawjenje jo se k wěsći dało
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -2683,6 +2734,9 @@ signin-token-code-resend-error = Něco njejo se raźiło. Nowy code njedajo se s
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-token-code-instruction-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = Pśizjawjenje z e-mejlowym kodom wobkšuśiś
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -2707,6 +2761,9 @@ signin-totp-code-required-error = Awtentifikaciski kod trjebny
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-totp-code-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
+# Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-totp-code-page-title = Z dwójokšacoweju awtentifikaciju pśizjawiś
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -2726,10 +2783,16 @@ signin-unblock-support-link = Cogodla se to stawa?
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-unblock-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
+# Browser tab title for the page where the user enters the authorization code emailed to them to approve a blocked sign-in attempt.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-unblock-page-title = Toś to pśizjawjenje awtorizěrowaś
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
+# Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-signup-code-page-title-2 = Wašu e-mailowu adresu wobkšuśiś
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -2769,6 +2832,9 @@ signup-sync-info = Synchronizěrujśo swóje gronidła, cytańske znamjenja a w�
 signup-sync-info-with-payment = Synchronizěrujśo swóje gronidła, płaśeńske metody, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailowu adresu změniś
+# Browser tab title for the page where the user creates a password to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-page-title = Wašo konto załožyś
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
@@ -2782,6 +2848,9 @@ signup-confirmed-sync-description-v2 = Waše gronidła, adrese, cytańske znamje
 signup-confirmed-sync-add-device-link = Drugi rěd pśidaś
 signup-confirmed-sync-manage-sync-button = Synchronizaciju zastojaś
 signup-confirmed-sync-set-password-success-banner = Gronidło za synchronizaciju napórane
+# Browser tab title for the page confirming that sync is turned on after the user confirmed their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-confirmed-sync-page-title = Synchronizacija jo zmóžnjona
 
 ## UpdateFirefox page
 ## Shown when the browser is too old to use a Mozilla account

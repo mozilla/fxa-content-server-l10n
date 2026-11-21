@@ -373,6 +373,9 @@ signin-link-damaged-header = Potvrdzovací odkaz je poškodený
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Odkaz je poškodený
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = Poškodený odkaz na nahlásenie
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Odkaz, na ktorý ste klikli, neobsahuje všetky potrebné znaky. Je možné, že nebol korektne spracovaný vašim e‑mailovým klientom. Skopírujte adresu do prehliadača a skúste to znova.
 
@@ -404,6 +407,9 @@ locale-toggle-select-label = Zvoľte jazyk
 locale-toggle-browser-default = Predvolený jazyk prehliadača
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Nesprávna požiadavka
+# Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+error-bad-request-page-title = Neplatná požiadavka
 
 ## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when they open the pairing link
@@ -491,6 +497,15 @@ ready-continue = Pokračovať
 sign-in-complete-header = Prihlásenie potvrdené
 sign-up-complete-header = Účet bol potvrdený
 primary-email-verified-header = Hlavná e‑mailová adresa bola potvrdená
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = Prihlásenie potvrdené
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = Účet potvrdený
+# Browser tab title for the page confirming the user’s primary email address.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+primary-email-verified-page-title = Hlavná e‑mailová adresa potvrdená
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -873,6 +888,8 @@ modal-mfa-protected-confirm-button = Potvrdiť
 modal-mfa-protected-code-expired = Platnosť kódu vypršala?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Odoslať e‑mailom nový kód.
+# Error shown when the code is correct but the device clock is too far ahead of the server time.
+modal-mfa-protected-clock-skew-error = Hodiny vo vašom zariadení nie sú nastavené správne. Upravte dátum a čas zariadenia a skúste to znova.
 
 ## Modal Verify Session
 
@@ -1242,6 +1259,9 @@ security-set-password = Nastavte si heslo na synchronizáciu a používanie urč
 security-recent-activity-link = Zobraziť nedávnu aktivitu účtu
 signout-sync-header = Relácia vypršala
 signout-sync-session-expired = Prepáčte, niečo sa pokazilo. Odhláste sa v ponuke prehliadača a skúste to znova.
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = Platnosť relácie uplynula
 
 ## SubRow component
 
@@ -1624,6 +1644,9 @@ connect-another-device-not-now-link = Teraz nie
 connect-another-device-android-complete-setup-message = Prihláste sa do { -brand-firefox(case: "gen") } pre Android a dokončite nastavenie
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
 connect-another-device-ios-complete-setup-message = Prihláste sa do { -brand-firefox(case: "gen") } pre iOS a dokončite nastavenie
+# Browser tab title for the page that invites the user to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+connect-another-device-page-title = Pripojenie ďalšieho zariadenia
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -1634,9 +1657,15 @@ cookies-disabled-enable-prompt-2 = Aby ste mohli používať váš { -product-mo
 cookies-disabled-button-try-again = Skúsiť znova
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Ďalšie informácie
+# Browser tab title for the page shown when cookies or local storage are disabled in the browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+cookies-disabled-page-title = Cookies a lokálne úložisko požadované
 
 ## Index / home page
 
+# Browser tab title for the page where the user enters their email to sign in or create an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+index-page-title = Prihlásenie alebo vytvorenie účtu
 index-header = Zadajte e‑mailovú adresu
 index-sync-header = Pokračovať do vášho { -product-mozilla-account(capitalization: "lower", case: "gen") }
 index-sync-subheader = Synchronizujte svoje heslá, karty a záložky všade, kde používate { -brand-firefox }.
@@ -1684,6 +1713,27 @@ inline-recovery-key-setup-download-header = Zabezpečte svoj účet
 inline-recovery-key-setup-download-subheader = Stiahnuť a uložiť
 inline-recovery-key-setup-download-info = Uložte si tento kľúč niekde, kde si ho zapamätáte – neskôr sa na túto stránku už nebudete môcť vrátiť.
 inline-recovery-key-setup-hint-header = Bezpečnostné odporúčanie
+# Browser tab title for the page where the user creates an account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-create-page-title = Vytvorenie kľúča na obnovenie účtu
+# Browser tab title for the page where the user downloads their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-download-page-title = Stiahnutie kľúča na obnovenie účtu
+# Browser tab title for the page where the user adds a hint for their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-hint-page-title = Pridanie pomôcky ku kľúču na obnovenie
+# Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-choice-page-title = Výber spôsobu obnovenia prístupu
+# Browser tab title for the page where the user saves their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-download-codes-page-title = Uloženie záložných kódov
+# Browser tab title for the page where the user confirms one of their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-confirm-code-page-title = Overenie záložného kódu
+# Browser tab title for the page where the user enters a phone number to use as a recovery phone.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-number-page-title = Pridanie telefónu na obnovenie prístupu
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

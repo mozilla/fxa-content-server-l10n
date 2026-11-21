@@ -2736,7 +2736,7 @@ signin-token-code-resend-error = Něšto je so nimokuliło. Nowy kod njeda so s�
 signin-token-code-instruction-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 # Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-token-code-page-title = Z e-mejlowym kodom wobkrućić
+signin-token-code-page-title = Přizjewjenje z e-mejlowym kodom wobkrućić
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
