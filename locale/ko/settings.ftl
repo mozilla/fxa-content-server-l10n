@@ -355,6 +355,9 @@ signin-link-damaged-header = 확인 링크가 손상됨
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = 링크 손상됨
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = 손상된 링크 신고
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 클릭하신 링크에 누락된 문자가 있습니다. 이메일 클라이언트에 의해 깨졌을 수 있습니다. 주소를 주의 깊게 복사한 후 다시 시도하세요.
 
@@ -386,6 +389,9 @@ locale-toggle-select-label = 언어 선택
 locale-toggle-browser-default = 기본 브라우저
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 잘못된 요청
+# Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+error-bad-request-page-title = 잘못된 요청
 
 ## PairUnsupportedHint - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when they open the pairing link
@@ -473,6 +479,15 @@ ready-continue = 계속
 sign-in-complete-header = 로그인 확인됨
 sign-up-complete-header = 계정 확인됨
 primary-email-verified-header = 기본 이메일 확인됨
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = 로그인 확인됨
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = 계정 확인됨
+# Browser tab title for the page confirming the user’s primary email address.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+primary-email-verified-page-title = 기본 이메일 확인됨
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -1212,6 +1227,9 @@ security-set-password = 특정 계정 보안 기능을 사용하고 동기화하
 security-recent-activity-link = 최근 계정 활동 보기
 signout-sync-header = 세션이 만료됨
 signout-sync-session-expired = 죄송합니다. 오류가 발생했습니다. 브라우저 메뉴에서 로그아웃하고 다시 시도하세요.
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = 세션이 만료됨
 
 ## SubRow component
 
@@ -1585,6 +1603,9 @@ connect-another-device-not-now-link = 나중에
 connect-another-device-android-complete-setup-message = Android용 { -brand-firefox }에 로그인하여 설정을 완료하세요.
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
 connect-another-device-ios-complete-setup-message = iOS용 { -brand-firefox }에 로그인하여 설정을 완료하세요.
+# Browser tab title for the page that invites the user to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+connect-another-device-page-title = 다른 기기 연결
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -1595,9 +1616,15 @@ cookies-disabled-enable-prompt-2 = 브라우저에서 쿠키와 로컬 스토리
 cookies-disabled-button-try-again = 다시 시도
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = 더 알아보기
+# Browser tab title for the page shown when cookies or local storage are disabled in the browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+cookies-disabled-page-title = 쿠키와 로컬 저장소가 필요합니다
 
 ## Index / home page
 
+# Browser tab title for the page where the user enters their email to sign in or create an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+index-page-title = 로그인 또는 계정 생성
 index-header = 이메일 입력
 index-sync-header = { -product-mozilla-account }로 계속 진행하세요.
 index-sync-subheader = { -brand-firefox }를 사용하는 모든 곳에서 비밀번호, 탭, 북마크를 동기화하세요.
@@ -1645,6 +1672,21 @@ inline-recovery-key-setup-download-header = 계정을 보호하세요.
 inline-recovery-key-setup-download-subheader = 지금 다운로드하고 저장하세요.
 inline-recovery-key-setup-download-info = 이 키를 기억할 수 있는 곳에 저장하세요. 나중에 이 페이지로 돌아올 수 없습니다.
 inline-recovery-key-setup-hint-header = 보안 관련 권장 사항
+# Browser tab title for the page where the user creates an account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-create-page-title = 계정 복구 키 생성
+# Browser tab title for the page where the user downloads their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-download-page-title = 계정 복구 키 다운로드
+# Browser tab title for the page where the user adds a hint for their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-hint-page-title = 복구 키 힌트 추가
+# Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-choice-page-title = 복구 방법 선택
+# Browser tab title for the page where the user saves their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-download-codes-page-title = 백업 코드를 저장하세요
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
