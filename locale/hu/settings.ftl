@@ -885,7 +885,7 @@ modal-mfa-protected-code-expired = A kód lejárt?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Új kód elküldése e-mailben.
 # Error shown when the code is correct but the device clock is too far ahead of the server time.
-modal-mfa-protected-clock-skew-error = A készülék órája hibás. Javítsa az eszköz dátumát és idejét, majd próbálja újra.
+modal-mfa-protected-clock-skew-error = Az eszköz órája nincs megfelelően beállítva. Javítsa az eszköz dátumát és idejét, majd próbálja újra.
 
 ## Modal Verify Session
 
@@ -1713,25 +1713,25 @@ inline-recovery-key-setup-hint-header = Biztonsági javaslat
 inline-recovery-key-setup-create-page-title = Fiók-helyreállítási kulcs létrehozása
 # Browser tab title for the page where the user downloads their account recovery key.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-key-setup-download-page-title = Töltse le a fiók-helyreállítási kulcsot
+inline-recovery-key-setup-download-page-title = Fiók-helyreállítási kulcs letöltése
 # Browser tab title for the page where the user adds a hint for their account recovery key.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-key-setup-hint-page-title = Helyreállítási kulcs tipp hozzáadása
+inline-recovery-key-setup-hint-page-title = Helyreállítási kulcs tippjének hozzáadása
 # Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-choice-page-title = Válasszon helyreállítási módot
 # Browser tab title for the page where the user saves their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-download-codes-page-title = Mentse el a tartalék kódjait
+inline-recovery-setup-download-codes-page-title = Tartalék kódok mentése
 # Browser tab title for the page where the user confirms one of their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-confirm-code-page-title = Erősítsen meg egy tartalék kódot
+inline-recovery-setup-confirm-code-page-title = Tartalék kód megerősítése
 # Browser tab title for the page where the user enters a phone number to use as a recovery phone.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-phone-number-page-title = Helyreállítási telefonszám hozzáadása
 # Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-code-page-title = Erősítse meg a helyreállítási telefonszámát
+inline-recovery-setup-phone-code-page-title = Helyreállítási telefonszám megerősítése
 # Browser tab title for the page confirming that two-step authentication is now on for the account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-complete-page-title = Kétlépcsős hitelesítés bekapcsolva
@@ -1772,10 +1772,10 @@ tfa-qr-code-alt = Használja a(z) { $code } kódot a kétlépcsős hitelesítés
 inline-totp-setup-page-title = Kétlépcsős hitelesítés
 # Browser tab title for the first page of two-step authentication setup, which introduces the feature.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-totp-setup-intro-page-title = Állítsa be a kétlépcsős hitelesítést
+inline-totp-setup-intro-page-title = Kétlépcsős hitelesítés beállítása
 # Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-totp-setup-enrol-page-title = Csatlakoztassa a hitelesítő alkalmazást
+inline-totp-setup-enrol-page-title = Hitelesítő alkalmazás csatlakoztatása
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
