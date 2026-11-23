@@ -2375,6 +2375,9 @@ password-reset-flow-page-title = პაროლის განულება
 reset-password-complete-header = თქვენი პაროლი აღდგა.
 # $serviceName is a product name such as Monitor, Relay
 reset-password-confirmed-cta = განაგრძეთ და იხილეთ { $serviceName }
+# Browser tab title for the page confirming that the user’s password was reset.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-confirmed-page-title = პაროლის განულება დასრულდა
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
@@ -2394,6 +2397,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = ხარვეზი წარმოიშვა კოდის გამოგზავნისას თქვენს აღდგენის ტელეფონზე
 password-reset-recovery-method-send-code-error-description = გთხოვთ, სცადოთ მოგვიანებით ან გამოიყენოთ დამოწმების სამარქაფო კოდები.
+# Browser tab title for the page where the user chooses a recovery method to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-recovery-method-page-title = პაროლის განულება აღდგენის გზით
 
 ## ResetPasswordRecoveryPhone page
 
@@ -2415,6 +2421,9 @@ reset-password-recovery-phone-code-verification-error-heading = ხარვე�
 reset-password-recovery-phone-general-error-description = გთხოვთ სცადოთ მოგვიანებით.
 reset-password-recovery-phone-invalid-code-error-description = კოდი უმართებულო ან ვადაგასულია.
 reset-password-recovery-phone-invalid-code-error-link = სანაცვლოდ გამოიყენებთ დამოწმების სამარქაფო კოდებს?
+# Browser tab title for the page where the user enters a code sent to their recovery phone to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-recovery-phone-page-title = პაროლის განულება აღდგენის ტელეფონით
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
 reset-password-complete-new-password-saved = ახალი პაროლი შენახულია!
 reset-password-complete-recovery-key-created = შექმნილია ანგარიშის აღდგენის გასაღები. ჩამოტვირთეთ და შეინახეთ ახლავე
@@ -2422,6 +2431,9 @@ reset-password-complete-recovery-key-download-info =
     ეს გასაღები გადამწყვეტია
     მონაცემთა აღდგენისთვის, თუ დაგავიწყდებათ პაროლი. <b>ჩამოტვირთეთ და შეინახეთ უსაფრთხოდ
     ახლავე, ვინაიდან მოგვიანებით ვეღარ შეძლებთ ამ გვერდთან წვდომას.</b>
+# Browser tab title for the page where the user adds a hint for their new account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-with-recovery-key-verified-hint-page-title = დაამატეთ მინიშნება აღდგენის გასაღებს
 
 ## ServerError page
 ## Shown when the server fails to handle a request
@@ -2429,6 +2441,9 @@ reset-password-complete-recovery-key-download-info =
 server-error-heading = 500 შეცდომა
 server-error-description = ვწუხვართ, რაღაც ხარვეზი წარმოიშვა. ჩვენ უკვე გვეცნობა ამის შესახებ და დავიწყებთ მუშაობას მის გამოსასწორებლად.
 server-error-home-button = საწყისი გვერდი
+# Browser tab title for the page shown when the server fails to handle a request.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+server-error-page-title = სერვერის შეცდომა
 
 ## CompleteSignin component
 
@@ -2441,9 +2456,24 @@ complete-signin-error-header = დადასტურების შეცდ
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = დასადასტურებელი ბმული ვადაგასულია
 signin-link-expired-message-2 = ბმული, რომელზეც გადახვედით ვადაგასულია ან უკვე გამოყენებულია.
+# Browser tab title for the page shown when something went wrong while confirming a sign-in from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-error-page-title = შესვლის დადასტურების შეცდომა
+# Browser tab title for the page shown while a sign-in is being confirmed from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-validating-page-title = შესვლა მოწმდება
 
 ## Signin page
 
+# Browser tab title for the page where the user enters their password to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-password-page-title = მიუთითეთ თქვენი პაროლი
+# Browser tab title for the sign-in page shown when the user already has a saved session on this device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-cached-page-title = შესვლა
+# Browser tab title for the page where the user picks how to sign in when their account has no password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-alternative-auth-page-title = შესვლის ხერხის არჩევა
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = შეიყვანეთ პაროლი <span>თქვენი { -product-mozilla-account(case: "ben") }</span>
 # Submit button label when the sign-in turns Sync on (user was sent here to set up Sync, e.g. from pairing)
@@ -2480,6 +2510,9 @@ report-signin-body = ესაა შეტყობინება თქვე
 report-signin-submit-button = საეჭვო მოქმედების მოხსენება
 report-signin-support-link = რის გამოა ეს?
 report-signin-error = სამწუხაროდ, ხარვეზი წარმოიშვა მოხსენებისას.
+# Browser tab title for the page where the user can report a sign-in attempt to their account that they did not make.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-page-title = უნებართვო შესვლის მოხსენება
 signin-bounced-header = ვწუხვართ. თქვენი ანგარიში ჩაკეტილია.
 # $email (string) - The user's email.
 signin-bounced-message = დასადასტურებელი ბმულის { $email } ელფოსტაზე გამოგზავნა ვერ მოხერხდა და თქვენი ანგარიში ჩაიკეტა { -brand-firefox }-მონაცემთა უსაფრთხოებისთვის.
@@ -2487,6 +2520,9 @@ signin-bounced-message = დასადასტურებელი ბმუ
 signin-bounced-help = თუ ელფოსტის მითითებული მისამართი მართებულია, <linkExternal>გვაცნობეთ</linkExternal> და დაგეხმარებით თქვენს ანგარიშთან წვდომის დაბრუნებაში.
 signin-bounced-create-new-account = აღარ ფლობთ ელფოსტის ამ მისამართს? შექმენით ახალი ანგარიში
 back = უკან
+# Browser tab title for the page telling the user their account is locked because a confirmation email sent to them was returned.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-bounced-page-title = ანგარიში ჩაიკეტა
 
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
@@ -2507,6 +2543,9 @@ signin-passkey-fallback-unwrap-failed-heading = თქვენი საშვ�
 signin-passkey-fallback-unwrap-failed-description = რაღაც ხარვეზი წარმოიქმნა, ასე რომ, ამჯერად პაროლი დაგჭირდებათ.
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = ვრცლად
+# Browser tab title for the page where the user enters their password after using a passkey to sign in, so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passkey-fallback-page-title = მიუთითეთ თქვენი პაროლი დასინქრონებისთვის
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2548,6 +2587,12 @@ signup-passwordless-code-subheading = ანგარიშის შექმ�
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = ორბიჯიანი დამოწმება ჩართულია თქვენს ანგარიშზე. გთხოვთ, შეხვიდეთ ანგარიშზე თქვენი პაროლით.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passwordless-code-page-title = შესვლა ელფოსტის კოდით
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-passwordless-code-page-title = შექმნა ელფოსტის კოდით
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -2567,6 +2612,9 @@ signin-recovery-method-code-info-v2 =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = ხარვეზი წარმოიშვა კოდის გამოგზავნისას თქვენს აღდგენის ტელეფონზე
 signin-recovery-method-send-code-error-description = გთხოვთ, სცადოთ მოგვიანებით ან გამოიყენოთ დამოწმების სამარქაფო კოდები.
+# Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-method-page-title = შესვლა აღდგენის გზით
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2593,6 +2641,9 @@ signin-recovery-code-required-error = შესვლის დამოწმ�
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = ხარვეზი წარმოიშვა კოდის გამოგზავნისას თქვენს აღდგენის ტელეფონზე
 signin-recovery-code-use-phone-failure-description = გთხოვთ სცადოთ მოგვიანებით.
+# Browser tab title for the page where the user enters a backup authentication code to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-code-page-title = შესვლა სამარქაფო კოდით
 
 ## SigninRecoveryPhone page
 
@@ -2617,11 +2668,17 @@ signin-recovery-phone-invalid-code-error-link = სანაცვლოდ გ�
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = შესვლა წარმატებულია. შეზღუდვები შეიძლება ახლდეს, თუ კვლავ გამოიყენებთ აღდგენის ტელეფონს.
+# Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-phone-page-title = შესვლა აღდგენის ტელეფონით
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = გმადლობთ ყურადღებისთვის
 signin-reported-message = ჩვენი გუნდი უკვე გაფრთხილებულია. ამგვარი მოხსენებები გვეხმარება დამრღვევების გამოვლენასა და თავდაცვაში.
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = შესვლის მოხსენება გაგზავნილია
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -2653,6 +2710,9 @@ signin-token-code-resend-error = Რაღაც ხარვეზი წარ
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-token-code-instruction-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = შესვლის დადასტურება ელფოსტის კოდით
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -2677,6 +2737,9 @@ signin-totp-code-required-error = შესვლის დამოწმებ
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-totp-code-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
+# Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-totp-code-page-title = შესვლა ორბიჯიანი დამოწმებით
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -2696,10 +2759,16 @@ signin-unblock-support-link = რის გამოა ეს?
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-unblock-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
+# Browser tab title for the page where the user enters the authorization code emailed to them to approve a blocked sign-in attempt.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-unblock-page-title = ამ შესვლის დამოწმება
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
+# Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-signup-code-page-title-2 = ელფოსტის დადასტურება
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -2737,6 +2806,9 @@ signup-sync-info = დაასინქრონეთ თქვენი პ�
 signup-sync-info-with-payment = დაასინქრონეთ თქვენი პაროლები, გადახდის საშუალებები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ელფოსტის შეცვლა
+# Browser tab title for the page where the user creates a password to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-page-title = ანგარიშის შექმნა
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
@@ -2750,6 +2822,9 @@ signup-confirmed-sync-description-v2 = თქვენი პაროლებ�
 signup-confirmed-sync-add-device-link = სხვა მოწყობილობის დამატება
 signup-confirmed-sync-manage-sync-button = სინქრონიზაციის მართვა
 signup-confirmed-sync-set-password-success-banner = დასინქრონების პაროლი შეიქმნა
+# Browser tab title for the page confirming that sync is turned on after the user confirmed their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-confirmed-sync-page-title = სინქრონიზაცია ჩართულია
 
 ## UpdateFirefox page
 ## Shown when the browser is too old to use a Mozilla account
