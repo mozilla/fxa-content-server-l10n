@@ -1724,10 +1724,10 @@ inline-recovery-setup-choice-page-title = Výběr způsobu obnovení
 inline-recovery-setup-download-codes-page-title = Uložení záložních kódů
 # Browser tab title for the page where the user confirms one of their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-confirm-code-page-title = Potvrďte záložní kód
+inline-recovery-setup-confirm-code-page-title = Potvrzení záložních kódů
 # Browser tab title for the page where the user enters a phone number to use as a recovery phone.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-number-page-title = Přidat telefonní číslo pro obnovení
+inline-recovery-setup-phone-number-page-title = Přidání telefonního čísla pro obnovení
 # Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-phone-code-page-title = Potvrďte své telefonní číslo pro obnovení
