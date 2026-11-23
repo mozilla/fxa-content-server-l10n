@@ -2235,6 +2235,9 @@ permissions-page-title = ნებართვების გადახედ
 force-password-change-heading = გთხოვთ, შეცვალოთ თქვენი პაროლი
 force-password-change-info = თქვენს { -product-mozilla-account(case: "loc") } საეჭვო მოქმედება შევნიშნეთ. თქვენი ანგარიშის დასაცავად გთხოვთ, შექმნათ ახალი პაროლი. ამ პაროლით შეძლებთ დაიბრუნოთ თქვენი { -product-mozilla-account(case: "gen") } ყველა მოქმედი მომსახურება.
 force-password-change-data-info = დასინქრონებული ისტორია, სანიშნები, ანგარიშები და სხვა პირადი მონაცემები არ დაიკარგება.
+# Browser tab title for the page where the user must change their password because of suspicious activity on their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+force-password-change-page-title = შეცვალეთ თქვენი პაროლი
 
 ## ServiceWelcome page
 ## Shown to users after signup/signin for services like VPN
@@ -2244,6 +2247,9 @@ service-welcome-signin-success-banner = შესვლა წარმატე
 # In this context, "VPN" is a VPN service built into the Firefox browser, and generally isn't localized differently than "VPN"
 service-welcome-vpn-heading = შემდეგ: ჩართეთ VPN
 service-welcome-vpn-description = კიდევ ერთი ნაბიჯი თქვენი ბრაუზერის პირადულობის ასამაღლებლად. გადადით გახსნილ არეში და ჩართეთ.
+# Browser tab title for the page telling the user to turn on VPN as their next step after signing up or signing in. "VPN" is a VPN service built into the Firefox browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+service-welcome-vpn-page-title = ჩაირთოს VPN
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -2256,6 +2262,9 @@ set-password-info-v2 = ამით დაიშიფრება თქვე�
 ## Users who signed in via passwordless OTP and need to create a password for Sync
 
 set-password-passwordless-info = ეს პაროლი შიფრავს თქვენს დასინქრონებულ მონაცემებს და ინახავს უსაფრთხოდ.
+# Browser tab title for the page where the user creates a password so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+set-password-page-title = პაროლის შექმნა დასინქრონებისთვის
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -2276,6 +2285,9 @@ account-recovery-confirm-key-hint = თქვენი შესანახი�
 account-recovery-confirm-key-button-2 = გაგრძელება
 # Link that leads to the password reset page (without recovery code)
 account-recovery-lost-recovery-key-link-2 = ვერ იპოვეთ ანგარიშის აღდგენის გასაღები?
+# Browser tab title for the page where the user enters their account recovery key to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+account-recovery-confirm-key-page-title = პაროლის განულება აღდგენის გასაღებით
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -2297,12 +2309,18 @@ reset-password-complete-banner-message = არ დაგავიწყდე�
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
+# Browser tab title for the page where the user creates a new password while resetting it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-reset-password-page-title = შექმენით ახალი პაროლი
 confirm-backup-code-reset-password-input-label = შეიყვანეთ 10-ნიშნა კოდი
 confirm-backup-code-reset-password-confirm-button = თანხმობა
 confirm-backup-code-reset-password-subheader = შეიყვანეთ შესვლის სამარქაფო კოდი
 confirm-backup-code-reset-password-instruction = შეიყვანეთ რომელიმე ერთჯერადი კოდი, რომელიც შეინახეთ ორბიჯიანი დამოწმების გამართვისას.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = ვერ ახერხებთ შესვლას?
+# Browser tab title for the page where the user enters a backup authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-backup-code-reset-password-page-title = პაროლის აღდგენა სამარქაფო კოდით
 
 ## Confirm Reset Password With Code
 
@@ -2320,6 +2338,9 @@ confirm-reset-password-otp-submit-button = გაგრძელება
 confirm-reset-password-otp-resend-code-button = კოდის კვლავ გაგზავნა
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = სხვა ანგარიშის გამოყენება
+# Browser tab title for the page where the user enters the confirmation code emailed to them to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-reset-password-with-code-page-title = შეამოწმეთ თქვენი ელფოსტა პაროლის გასანულებლად
 
 ## PasswordResetConfirmTotp Page
 
@@ -2330,6 +2351,9 @@ confirm-totp-reset-password-trouble-code = ვერ ახერხებთ �
 confirm-totp-reset-password-confirm-button = დასტური
 confirm-totp-reset-password-input-label-v2 = შეიყვანეთ 6-ნიშნა კოდი
 confirm-totp-reset-password-use-different-account = სხვა ანგარიშის გამოყენება
+# Browser tab title for the page where the user enters a two-step authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-totp-reset-password-page-title = პაროლის განულება ორბიჯიანი დამოწმებით
 
 ## ResetPassword start page
 
@@ -2342,6 +2366,9 @@ password-reset-email-input =
 password-reset-submit-button-2 = განაგრძეთ
 # Small print below the Continue button. <learnMoreLink> links to a support article about password resets.
 password-reset-data-recovery-warning = პაროლის განულებამ შესაძლოა იმოქმედოს დასინქრონებული მონაცემების აღდგენის შესაძლებლობაზე. <learnMoreLink>ვრცლად</learnMoreLink>
+# Browser tab title for the page where the user starts a password reset by entering their email.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-flow-page-title = პაროლის განულება
 
 ## ResetPasswordConfirmed
 
