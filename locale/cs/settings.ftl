@@ -1999,7 +1999,7 @@ pair-unsupported-desktop-non-firefox-page-title = Vyžadován { -brand-firefox }
 pair-unsupported-system-camera-page-title = Párování pomocí aplikace
 # Browser tab title for the page that explains how to connect a mobile device by starting from { -brand-firefox } on a computer.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-unsupported-mobile-page-title = Připojte své mobilní zařízení
+pair-unsupported-mobile-page-title = Připojení vašeho mobilního zařízení
 # Browser tab title for the page shown to a desktop { -brand-firefox } user when something went wrong and device pairing cannot continue.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-unsupported-desktop-firefox-fallback-page-title = Něco se pokazilo
@@ -2019,7 +2019,7 @@ pair2-authority-approve-sign-in-confirm-button = Ano, schválit přihlášení
 pair2-authority-approve-sign-in-change-password = Nejste to vy? <changePassword>Změňte si své heslo</changePassword>
 # Browser tab title for the page where the user approves a sign-in requested from their mobile device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair2-authority-approve-sign-in-page-title = Schválit přihlášení
+pair2-authority-approve-sign-in-page-title = Potvrzení přihlášení
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
