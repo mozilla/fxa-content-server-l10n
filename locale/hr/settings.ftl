@@ -322,6 +322,9 @@ signin-link-damaged-header = Poveznica potvrde je oštećena
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Poveznica je oštećena
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = Prijavi oštećenu poveznicu
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Poveznici na koju si kliknuo/la nedostaju neki znakovi ili ju je tvoj klijent e-pošte pokvario. Kopiraj poveznicu i pokušaj ponovo.
 
@@ -351,6 +354,9 @@ locale-toggle-select-label = Odaberi jezik
 locale-toggle-browser-default = Zadana postavka preglednika
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Neispravan zahtjev
+# Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+error-bad-request-page-title = Loš zahtjev
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -392,6 +398,15 @@ ready-continue = Nastavi
 sign-in-complete-header = Prijava je potvrđena
 sign-up-complete-header = Račun potvrđen
 primary-email-verified-header = Primarna e-mail adresa potvrđena
+# Browser tab title for the page confirming the user’s sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-in-complete-page-title = Prijava je potvrđena
+# Browser tab title for the page confirming the user’s new account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+sign-up-complete-page-title = Račun je potvrđen
+# Browser tab title for the page confirming the user’s primary email address.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+primary-email-verified-page-title = Primarna e-mail adresa je potvrđena
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -648,6 +663,11 @@ modal-close-title = Zatvori
 modal-cancel-button = Odustani
 modal-default-confirm-button = Potvrdi
 
+## ModalMfaProtected
+
+# Error shown when the code is correct but the device clock is too far ahead of the server time.
+modal-mfa-protected-clock-skew-error = Sat na tvom uređaju je pogrešan. Ispravi datum i vrijeme na uređaju, zatim pokušaj ponovo.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Potvrdi svoju e-mail adresu
@@ -890,6 +910,9 @@ security-set-password = Postavi lozinku za sinkronizaciju i korištenje određen
 security-recent-activity-link = Pogledaj nedavnu aktivnost računa
 signout-sync-header = Sesija je istekla
 signout-sync-session-expired = Oprosti, nešto nije u redu. Odjavi se u izborniku preglednika i pokušaj ponovo.
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = Sesija je istekla
 
 ## SubRow component
 
@@ -1068,6 +1091,9 @@ connect-another-device-not-now-link = Ne sada
 connect-another-device-android-complete-setup-message = Prijavi se na { -brand-firefox } za Android za dovršavanje postavljanja
 # This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
 connect-another-device-ios-complete-setup-message = Prijavi se na { -brand-firefox } za iOS za dovršavanje postavljanja
+# Browser tab title for the page that invites the user to connect another device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+connect-another-device-page-title = Poveži jedan drugi uređaj
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -1076,9 +1102,15 @@ connect-another-device-ios-complete-setup-message = Prijavi se na { -brand-firef
 cookies-disabled-button-try-again = Pokušaj ponovo
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Saznaj više
+# Browser tab title for the page shown when cookies or local storage are disabled in the browser.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+cookies-disabled-page-title = Potrebni su kolačići i lokalna memorija
 
 ## Index / home page
 
+# Browser tab title for the page where the user enters their email to sign in or create an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+index-page-title = Prijavi se ili stvori račun
 index-header = Upiši svoju e-mail adresu
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Nastavi na { $serviceName }
@@ -1091,6 +1123,24 @@ index-email-input =
 
 inline-recovery-key-setup-download-header = Zaštiti svoj račun
 inline-recovery-key-setup-download-subheader = Preuzmi i spremi sada
+# Browser tab title for the page where the user creates an account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-create-page-title = Stvori ključ za obnavljanje računa
+# Browser tab title for the page where the user downloads their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-download-page-title = Preuzmi tvoj ključ za obnavljanje računa
+# Browser tab title for the page where the user adds a hint for their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-hint-page-title = Dodaj savjet za ključ za obnavljanje
+# Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-choice-page-title = Odaberi način obnavljanja
+# Browser tab title for the page where the user saves their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-download-codes-page-title = Spremi svoje rezervne kodove
+# Browser tab title for the page where the user confirms one of their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-confirm-code-page-title = Potvrdite rezervni kod
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
