@@ -90,16 +90,12 @@ set -x
 
 # Fluent extraction
 
-cp $PAYMENTS_NEXT_DIR/public/locales/en/payments-next.ftl $L10N_DIR/locale/templates
-cp $SETTINGS_DIR/public/locales/en/settings.ftl $L10N_DIR/locale/templates
-cp $MAILER_DIR/public/locales/en/emails.ftl $L10N_DIR/locale/templates
-cp $AUTH_DIR/public/locales/en/auth.ftl $L10N_DIR/locale/templates
-cp $REACT_DIR/public/locales/en/react.ftl $L10N_DIR/locale/templates
-cp $SHARED_DIR/l10n/src/lib/branding.ftl $L10N_DIR/locale/templates
-
-# Pontoon will read from the "templates" directory but we must copy the FTL files
-# into "en" to ensure users with English will always see good fallback text.
-cp $L10N_DIR/locale/templates/*.ftl $L10N_DIR/locale/en
+cp $PAYMENTS_NEXT_DIR/public/locales/en/payments-next.ftl $L10N_DIR/locale/en
+cp $SETTINGS_DIR/public/locales/en/settings.ftl $L10N_DIR/locale/en
+cp $MAILER_DIR/public/locales/en/emails.ftl $L10N_DIR/locale/en
+cp $AUTH_DIR/public/locales/en/auth.ftl $L10N_DIR/locale/en
+cp $REACT_DIR/public/locales/en/react.ftl $L10N_DIR/locale/en
+cp $SHARED_DIR/l10n/src/lib/branding.ftl $L10N_DIR/locale/en
 
 # Some locales must be copied over to a different locale code
 # See details in https://github.com/mozilla/fxa-content-server-l10n/pull/79#issuecomment-149281761
