@@ -2000,9 +2000,24 @@ complete-signin-error-header = ਤਸਦੀਕ ਲਈ ਗਲਤੀ
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = ਤਸਦੀਕੀ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗੀ
 signin-link-expired-message-2 = ਤੁਹਾਡੇ ਵਲੋਂ ਕਲਿੱਕ ਕੀਤੇ ਲਿੰਕ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਸੀ ਜਾਂ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਜਾ ਚੁੱਕਾ ਹੈ।
+# Browser tab title for the page shown when something went wrong while confirming a sign-in from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-error-page-title = ਸਾਈਨ-ਇਨ ਤਸਦੀਕ ਗਲਤੀ
+# Browser tab title for the page shown while a sign-in is being confirmed from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-validating-page-title = ਸਾਈਨ ਇਨ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 
 ## Signin page
 
+# Browser tab title for the page where the user enters their password to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-password-page-title = ਆਪਣਾ ਪਾਸਵਰਡ ਭਰੋ
+# Browser tab title for the sign-in page shown when the user already has a saved session on this device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-cached-page-title = ਸਾਈਨ ਇਨ
+# Browser tab title for the page where the user picks how to sign in when their account has no password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-alternative-auth-page-title = ਸਾਈਨ-ਇਨ ਦੇ ਢੰਗ ਨੂੰ ਚੁਣੋ
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = <span>ਆਪਣੇ { -product-mozilla-account }</span> ਲਈ ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ
 # $serviceName - the name of the service which the user authenticating for
@@ -2031,6 +2046,9 @@ report-signin-body = ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਦੀ ਪ�
 report-signin-submit-button = ਸਰਗਰਮੀ ਦੀ ਜਾਣਕਾਰੀ ਦਿਓ
 report-signin-support-link = ਇਹ ਕਿਓ ਵਾਪਰਿਆ ਹੈ?
 report-signin-error = ਅਫ਼ਸੋਸ, ਰਿਪੋਰਟ ਭੇਜਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ।
+# Browser tab title for the page where the user can report a sign-in attempt to their account that they did not make.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-page-title = ਅਣ-ਅਧਿਕਾਰਤ ਸਾਈਨ-ਇਨ ਬਾਰੇ ਇਤਲਾਹ ਦਿਓ
 signin-bounced-header = ਅਫ਼ਸੋਸ। ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕੀਤਾ ਹੈ।
 # $email (string) - The user's email.
 signin-bounced-message = ਸਾਡੇ ਵਲੋਂ { $email } ਨੂੰ ਭੇਜੀ ਤਸਦੀਕੀ ਈਮੇਲ ਬੇਰੰਗ ਪਰਤ ਆਈ ਅਤੇ ਤੁਹਾਡੇ { -brand-firefox } ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਜ਼ਬਤ ਕਰ ਲਿਆ ਹੈ।
@@ -2038,12 +2056,18 @@ signin-bounced-message = ਸਾਡੇ ਵਲੋਂ { $email } ਨੂੰ ਭੇ�
 signin-bounced-help = ਜੇ ਇਹ ਵਾਜਬ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਹੈ ਤਾਂ <linkExternal>ਸਾਨੂੰ ਦੱਸੋ</linkExternal> ਅਤੇ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਬਹਾਲ ਕਰਨ ਲਈ ਮਦਦ ਕਰ ਸਕਦੇ ਹਾਂ।
 signin-bounced-create-new-account = ਉਹ ਈਮੇਲ ਹੁਣ ਤੁਹਾਡਾ ਨਹੀਂ ਹੈ? ਨਵਾਂ ਖਾਤਾ ਬਣਾਓ
 back = ਪਿੱਛੇ
+# Browser tab title for the page telling the user their account is locked because a confirmation email sent to them was returned.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-bounced-page-title = ਖਾਤਾ ਲਾਕ ਹੈ
 
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
 
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = ਹੋਰ ਜਾਣੋ
+# Browser tab title for the page where the user enters their password after using a passkey to sign in, so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passkey-fallback-page-title = ਸਿੰਕ ਕਰਨ ਲਈ ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2063,6 +2087,15 @@ signin-passwordless-code-resend-link = ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕ�
 signin-passwordless-code-resend-error = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਨਵਾਂ ਕੋਡ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
 signin-passwordless-code-other-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 
+## Error messages
+
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passwordless-code-page-title = ਈਮੇਲ ਕੋਡ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-passwordless-code-page-title = ਈਮੇਲ ਕੋਡ ਨਾਲ ਸਾਈਨ ਅੱਪ ਕਰੋ
+
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -2078,6 +2111,9 @@ signin-recovery-method-code-info-v2 =
         [one] { $numBackupCodes } ਕੋਡ ਬਾਕੀ ਹੈ
        *[other] { $numBackupCodes } ਕੋਡ ਬਾਕੀ ਹਨ
     }
+# Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-method-page-title = ਰਿਕਵਰੀ ਢੰਗ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2098,6 +2134,9 @@ signin-recovery-code-support-link = ਕੀ ਤੁਸੀਂ ਲਾਕ-ਆਉਟ �
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 signin-recovery-code-use-phone-failure-description = ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।
+# Browser tab title for the page where the user enters a backup authentication code to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-code-page-title = ਬੈਕਅੱਪ ਕੋਡ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ
 
 ## SigninRecoveryPhone page
 
@@ -2116,11 +2155,17 @@ signin-recovery-phone-code-verification-error-heading = ਤੁਹਾਡੇ ਕ�
 signin-recovery-phone-general-error-description = ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।
 signin-recovery-phone-invalid-code-error-description = ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ ਹੈ।
 signin-recovery-phone-invalid-code-error-link = ਇਸ ਦੀ ਬਜਾਏ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਵਰਤਣਾ ਹੈ?
+# Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-phone-page-title = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = ਤੁਹਾਡੀ ਸਾਵਧਾਨੀ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ
 signin-reported-message = ਸਾਡੀ ਟੀਮ ਨੂੰ ਜਾਣਕਾਰੀ ਦਿੱਤੀ ਜਾ ਚੁੱਕੀ ਹੈ। ਇਸ ਵਰਗੀਆਂ ਰਿਪੋਰਟਾਂ ਸਾਨੂੰ ਘੁਸਪੈਠੀਆਂ ਤੋਂ ਬਚਾਉਣ ਲਈ ਮਦਦ ਕਰਦੀਆਂ ਹਨ।
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = ਸਾਈਨ-ਇਨ ਬਾਰੇ ਇਤਲਾਹ ਦਿਓ
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -2146,6 +2191,9 @@ signin-token-code-resend-code-countdown =
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 signin-token-code-resend-error = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਨਵਾਂ ਕੋਡ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = ਈਮੇਲ ਕੋਡ ਨਾਲ ਸਾਈਨ ਇਨ ਦੀ ਤਸਦੀਕ ਕਰੋ
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -2162,6 +2210,9 @@ signin-totp-code-other-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵ
 signin-totp-code-recovery-code-link = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਹੈ?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
+# Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-totp-code-page-title = ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -2177,10 +2228,16 @@ signin-unblock-code-incorrect-length = ਪਰਮਾਣੀਕਰਨ ਕੋਡ 8 �
 signin-unblock-code-incorrect-format-2 = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਵਿੱਚ ਸਿਰਫ਼ ਅੱਖਰ ਅਤੇ/ਜਾਂ ਅੰਕ ਹੀ ਹੋ ਸਕਦੇ ਹਨ
 signin-unblock-resend-code-button = ਇਨਬਾਕਸ ਜਾਂ ਸਪੈਮ ਫੋਲਡਰ ਵਿੱਚ ਨਹੀਂ? ਮੁੜ ਭੇਜੋ
 signin-unblock-support-link = ਇਹ ਕਿਓ ਵਾਪਰਿਆ ਹੈ?
+# Browser tab title for the page where the user enters the authorization code emailed to them to approve a blocked sign-in attempt.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-unblock-page-title = ਇਸ ਸਾਇਨ ਇਨ ਨੂੰ ਪਰਮਾਣਿਤ ਕਰੋ
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
+# Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-signup-code-page-title-2 = ਆਪਣਾ ਈਮੇਲ ਤਸਦੀਕ ਕਰੋ
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -2202,6 +2259,9 @@ confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ �
 signup-heading-v2 = ਪਾਸਵਰਡ ਬਣਾਓ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ਈਮੇਲ ਬਦਲੋ
+# Browser tab title for the page where the user creates a password to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-page-title = ਆਪਣਾ ਖਾਤਾ ਬਣਾਓ
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
@@ -2212,9 +2272,15 @@ signup-confirmed-sync-button = ਬਰਾਊਜ਼ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰ�
 signup-confirmed-sync-add-device-link = ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਜੋੜੋ
 signup-confirmed-sync-manage-sync-button = ਸਿੰਕ ਦਾ ਇੰਤਜ਼ਾਮ
 signup-confirmed-sync-set-password-success-banner = ਸਿੰਕ ਕਰਨ ਵਾਲਾ ਪਾਸਵਰਡ ਬਣਾਇਆ
+# Browser tab title for the page confirming that sync is turned on after the user confirmed their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-confirmed-sync-page-title = ਸਿੰਕ ਕਰਨਾ ਚਾਲੂ ਹੈ
 
 ## UpdateFirefox page
 ## Shown when the browser is too old to use a Mozilla account
 
 update-firefox-heading = { -brand-firefox } ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 update-firefox-download-button = ਨਵਾਂ ਡਾਊਨਲੋਡ ਕਰੋ
+# Browser tab title for the page shown when the browser is too old to use a Mozilla account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+update-firefox-page-title = { -brand-firefox } ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
