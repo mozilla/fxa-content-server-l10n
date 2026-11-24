@@ -1740,16 +1740,16 @@ inline-recovery-key-setup-hint-page-title = Ychwanegu awgrym allwedd adfer
 inline-recovery-setup-choice-page-title = Dewiswch ddull adfer
 # Browser tab title for the page where the user saves their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-download-codes-page-title = Arbedwch eich codau wrth gefn
+inline-recovery-setup-download-codes-page-title = Cadw eich codau wrth gefn
 # Browser tab title for the page where the user confirms one of their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-confirm-code-page-title = Cadarnhewch god wrth gefn
+inline-recovery-setup-confirm-code-page-title = Cadarnhau'r cod wrth gefn
 # Browser tab title for the page where the user enters a phone number to use as a recovery phone.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-phone-number-page-title = Ychwanegu ffôn adfer
 # Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-code-page-title = Cadarnhewch eich ffôn adfer
+inline-recovery-setup-phone-code-page-title = Cadarnhau'r ffôn adfer
 # Browser tab title for the page confirming that two-step authentication is now on for the account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-complete-page-title = Dilysiad dau gam ymlaen
@@ -1793,7 +1793,7 @@ inline-totp-setup-page-title = Dilysu dau gam
 inline-totp-setup-intro-page-title = Gosod dilysu dau gam
 # Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-totp-setup-enrol-page-title = Cysylltwch eich app dilysu
+inline-totp-setup-enrol-page-title = Cysylltwch eich ap dilysu
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
@@ -1816,7 +1816,7 @@ pair-auth-allow-confirm-button = Iawn, yn cymeradwyo'r ddyfais
 pair-auth-allow-refuse-device-link = Os nad chi oedd hwn, <a>newidiwch eich cyfrinair</a>
 # Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-auth-allow-page-title = Cymeradwyo mewngofnodi { -brand-firefox }
+pair-auth-allow-page-title = Cymeradwyo mewngofnodi i { -brand-firefox }
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1864,7 +1864,7 @@ auth-totp-confirm-button = Cadarnhau
 auth-totp-code-required-error = Mae angen cod dilysu
 # Browser tab title for the page where the user enters a two-step authentication code to continue pairing a device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-auth-totp-page-title = Pâr gyda dilysu dau gam
+auth-totp-page-title = Paru gyda dilysu dau gam
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1885,7 +1885,7 @@ pair-failure-message-v2 = Doedd dim modd cwblhau'r gosod. Mewngofnodwch gyda'ch 
 pair-failure-try-again-link = Ceisiwch eto
 # Browser tab title for the page shown when device pairing fails.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-failure-page-title = Methodd paru dyfais
+pair-failure-page-title = Methodd y paru dyfais
 
 ## Pair index page
 
@@ -1953,7 +1953,7 @@ pair-choice-page-title = Cysylltu dyfais arall
 pair-choice-send-tab-page-title = Anfon tabiau i ddyfais arall
 # Browser tab title for the page that explains how to download { -brand-firefox } on a mobile device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-download-page-title = Llwythwch { -brand-firefox } i lawr ar gyfer ffôn symudol
+pair-download-page-title = Llwythwch { -brand-firefox } i lawr ar gyfer symudol
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -2649,7 +2649,7 @@ signin-recovery-method-send-code-error-heading = Bu problem wrth anfon cod i'ch 
 signin-recovery-method-send-code-error-description = Ceisiwch eto yn nes ymlaen neu defnyddiwch eich codau dilysu wrth gefn.
 # Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-recovery-method-page-title = Mewngofnodwch gyda dull adfer
+signin-recovery-method-page-title = Mewngofnodi gyda dull adfer
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2678,7 +2678,7 @@ signin-recovery-code-use-phone-failure = Bu problem wrth anfon cod i'ch ffôn ad
 signin-recovery-code-use-phone-failure-description = Ceisiwch eto'n ddiweddarach.
 # Browser tab title for the page where the user enters a backup authentication code to sign in.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-recovery-code-page-title = Mewngofnodwch gyda chod wrth gefn
+signin-recovery-code-page-title = Mewngofnodi gyda chod wrth gefn
 
 ## SigninRecoveryPhone page
 
@@ -2705,7 +2705,7 @@ signin-recovery-phone-invalid-code-error-link = Defnyddio codau dilysu wrth gefn
 signin-recovery-phone-success-message = Wedi mewngofnodi yn llwyddiannus. Gall terfynau fod yn berthnasol os byddwch yn defnyddio'ch ffôn adfer eto.
 # Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-recovery-phone-page-title = Mewngofnodwch gyda ffôn adfer
+signin-recovery-phone-page-title = Mewngofnod gyda ffôn adfer
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -2778,7 +2778,7 @@ signin-totp-code-required-error = Mae angen cod dilysu
 signin-totp-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio e-bost arallenw ar ôl i chi fewngofnodi.
 # Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-totp-code-page-title = Mewngofnodwch gyda dilysiad dau gam
+signin-totp-code-page-title = Mewngofnodi gyda dilysiad dau gam
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -2807,7 +2807,7 @@ signin-unblock-page-title = Awdurdodi'r mewngofnod hwn
 
 # Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-confirm-signup-code-page-title-2 = Cadarnhewch eich e-bost
+confirm-signup-code-page-title-2 = Cadarnhau eich e-bost
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
