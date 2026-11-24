@@ -1457,6 +1457,9 @@ third-party-auth-callback-message = Pričekaj, preusmjeravamo te na ovlaštenu a
 
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Nastavi
+# Browser tab title for the page where the user enters their account recovery key to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+account-recovery-confirm-key-page-title = Resetiraj lozinku pomoću ključa za obnavljanje
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1471,6 +1474,12 @@ complete-reset-password-error-alert = Žao nam je. Došlo je do greške prilikom
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Tvoja je lozinka resetirana.
+# Browser tab title for the page where the user creates a new password while resetting it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-reset-password-page-title = Stvori novu lozinku
+# Browser tab title for the page where the user enters a backup authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-backup-code-reset-password-page-title = Resetiraj lozinku pomoću rezervnog koda
 
 ## Confirm Reset Password With Code
 
@@ -1488,6 +1497,9 @@ confirm-reset-password-otp-submit-button = Nastavi
 confirm-reset-password-otp-resend-code-button = Ponovo pošalji kod
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Koristi jedan drugi račun
+# Browser tab title for the page where the user enters the confirmation code emailed to them to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-reset-password-with-code-page-title = Provjeri e-poštu za resetiranje lozinke
 
 ## PasswordResetConfirmTotp Page
 
@@ -1495,6 +1507,9 @@ confirm-totp-reset-password-header = Resetiraj tvoju lozinku
 confirm-totp-reset-password-confirm-button = Potvrdi
 confirm-totp-reset-password-input-label-v2 = Upiši šesteroznamenkasti kod
 confirm-totp-reset-password-use-different-account = Koristi jedan drugi račun
+# Browser tab title for the page where the user enters a two-step authentication code to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-totp-reset-password-page-title = Resetiraj lozinku s dvofaktorskom autentifikacijom
 
 ## ResetPassword start page
 
@@ -1502,15 +1517,41 @@ password-reset-flow-heading = Resetiraj tvoju lozinku
 password-reset-email-input =
     .label = Upiši tvoju e-mail adresu
 password-reset-submit-button-2 = Nastavi
+# Browser tab title for the page where the user starts a password reset by entering their email.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-flow-page-title = Resetiraj lozinku
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Tvoja je lozinka resetirana
+# Browser tab title for the page confirming that the user’s password was reset.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-confirmed-page-title = Resetiranje lozinke je završeno
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+# Browser tab title for the page where the user chooses a recovery method to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+password-reset-recovery-method-page-title = Resetiraj lozinku s jednim načinom obnavljanja
 
 ## ResetPasswordRecoveryPhone page
 
+# Browser tab title for the page where the user enters a code sent to their recovery phone to reset their password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-recovery-phone-page-title = Resetiraj lozinku s telefonskim brojem za obnavljanje
 reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
 reset-password-complete-new-password-saved = Nova lozinka je spremljena!
+# Browser tab title for the page where the user adds a hint for their new account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+reset-password-with-recovery-key-verified-hint-page-title = Dodaj savjet za ključ za obnavljanje
+
+## ServerError page
+## Shown when the server fails to handle a request
+
+# Browser tab title for the page shown when the server fails to handle a request.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+server-error-page-title = Greška servera
 
 ## CompleteSignin component
 
@@ -1520,9 +1561,24 @@ error-label = Greška:
 complete-signin-error-header = Greška potvrde
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Poveznica potvrde je oštećena
+# Browser tab title for the page shown when something went wrong while confirming a sign-in from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-error-page-title = Greška u potvrdi prijave
+# Browser tab title for the page shown while a sign-in is being confirmed from an emailed link.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+complete-signin-validating-page-title = Potvrđivanje prijave
 
 ## Signin page
 
+# Browser tab title for the page where the user enters their password to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-password-page-title = Upiši lozinku
+# Browser tab title for the sign-in page shown when the user already has a saved session on this device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-cached-page-title = Prijavi se
+# Browser tab title for the page where the user picks how to sign in when their account has no password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-alternative-auth-page-title = Odaberi način prijave
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Upiši svoju lozinku <span>za tvoj { -product-mozilla-account }</span>
 # $serviceName - the name of the service which the user authenticating for
@@ -1543,15 +1599,40 @@ signin-password-button-label = Lozinka
 report-signin-header = Prijaviti neautoriziranu prijavu?
 report-signin-submit-button = Prijavi aktivnost
 report-signin-support-link = Zašto se ovo događa?
+# Browser tab title for the page where the user can report a sign-in attempt to their account that they did not make.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-page-title = Prijavi neovlaštenu prijavu
 # $email (string) - The user's email.
 signin-bounced-message = Potvrdni e-mail koji smo poslali na { $email } je vraćen i zaključali smo tvoj račun, kako bismo zaštitili tvoje { -brand-firefox } podatke.
 back = Natrag
+# Browser tab title for the page telling the user their account is locked because a confirmation email sent to them was returned.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-bounced-page-title = Račun je zaključan
+
+## SigninPasskeyFallback page
+## Users who authenticate with a passkey to access Sync must also enter their password.
+
+# Browser tab title for the page where the user enters their password after using a passkey to sign in, so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passkey-fallback-page-title = Unesi lozinku za sinkronizaciju
+
+## Error messages
+
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passwordless-code-page-title = Prijavi se s kodom e-pošte
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-passwordless-code-page-title = Registriraj se s kodom e-pošte
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Prijavi se
+# Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-method-page-title = Prijavi se s načinom obnavljanja
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1562,6 +1643,9 @@ signin-recovery-code-heading = Prijavi se
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdi
 signin-recovery-code-use-phone-failure-description = Pokušaj ponovo kasnije.
+# Browser tab title for the page where the user enters a backup authentication code to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-code-page-title = Prijavi se s rezervnim kodom
 
 ## SigninRecoveryPhone page
 
@@ -1574,6 +1658,15 @@ signin-recovery-phone-send-code-error-heading = Došlo je do greške prilikom sl
 signin-recovery-phone-code-verification-error-heading = Došlo je do greške prilikom provjere tvog koda
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Pokušaj ponovo kasnije.
+# Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-phone-page-title = Prijavi se s telefonskim brojem za obnavljanje
+
+## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
+
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = Prijava je prijavljena
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -1591,6 +1684,9 @@ signin-token-code-code-expired = Kod je istekao?
 signin-token-code-resend-code-link = Pošalji e-mailom novi kod.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Potreban je potvrdni kod
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = Potvrdi prijavu s kodom e-pošte
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1608,6 +1704,9 @@ signin-totp-code-required-error = Potreban je kod autentifikacije
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-totp-code-desktop-relay = { -brand-firefox } će te pokušati vratiti na karticu kako bi koristio/la masku e-mail adrese nakon što se prijaviš.
+# Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-totp-code-page-title = Prijavi se s dvofaktorskom autentifikacijom
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1627,6 +1726,9 @@ signin-unblock-support-link = Zašto se ovo događa?
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-unblock-desktop-relay = { -brand-firefox } će te pokušati vratiti na karticu kako bi koristio/la masku e-mail adrese nakon što se prijaviš.
+# Browser tab title for the page where the user enters the authorization code emailed to them to approve a blocked sign-in attempt.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-unblock-page-title = Autoriziraj ovu prijavu
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
