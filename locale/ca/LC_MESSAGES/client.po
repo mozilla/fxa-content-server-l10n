@@ -481,7 +481,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:606
 msgid "The image file size is too large to be uploaded."
-msgstr ""
+msgstr "La mida de la imatge és massa gran per pujar-la."
 
 #: .es5/lib/auth-errors.js:610
 msgid "Email masks can’t be used to create an account."
