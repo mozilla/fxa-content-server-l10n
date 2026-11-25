@@ -1845,7 +1845,7 @@ auth-totp-page-title = Associer avec l’authentification en deux étapes
 pair-wait-for-supp-heading-text = L’approbation est maintenant nécessaire <span>sur votre autre appareil</span>
 # Browser tab title for the page that asks the user to approve device pairing on their other device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-wait-for-supp-page-title = Approuver sur votre autre appareil
+pair-wait-for-supp-page-title = Approuver sur l’autre appareil
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1956,7 +1956,7 @@ pair-supp-allow-page-title = Confirmer l’association
 pair-wait-for-auth-heading-text = L’approbation est maintenant nécessaire <span>sur votre autre appareil</span>
 # Browser tab title for the page that asks the user to approve device pairing on their other device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-wait-for-auth-page-title = Approuver sur votre autre appareil
+pair-wait-for-auth-page-title = Approuver sur l’autre appareil
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
@@ -1988,7 +1988,7 @@ pair-unsupported-desktop-non-firefox-page-title = { -brand-firefox } requis
 pair-unsupported-system-camera-page-title = Associer en utilisant une application
 # Browser tab title for the page that explains how to connect a mobile device by starting from { -brand-firefox } on a computer.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-unsupported-mobile-page-title = Connectez votre appareil mobile
+pair-unsupported-mobile-page-title = Connecter votre appareil mobile
 # Browser tab title for the page shown to a desktop { -brand-firefox } user when something went wrong and device pairing cannot continue.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-unsupported-desktop-firefox-fallback-page-title = Une erreur s’est produite
@@ -2008,7 +2008,7 @@ pair2-authority-approve-sign-in-confirm-button = Oui, approuver la connexion
 pair2-authority-approve-sign-in-change-password = Ce n’est pas vous ? <changePassword>Changez votre mot de passe</changePassword>
 # Browser tab title for the page where the user approves a sign-in requested from their mobile device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair2-authority-approve-sign-in-page-title = Accepter la connexion
+pair2-authority-approve-sign-in-page-title = Approuver la connexion
 
 ## ContinueOnMobile page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their computer after scanning the pairing QR code with
@@ -2101,7 +2101,7 @@ pair2-supplicant-approve-sign-in-instruction = Approuvez la connexion sur votre 
 pair2-supplicant-approve-sign-in-cancel-button = Annuler
 # Browser tab title for the page shown on the mobile device while the user approves the sign-in on their computer. "sync" is a verb, referring to syncing data between the user’s devices.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair2-supplicant-approve-sign-in-page-title = Une dernière étape pour lancer la synchronisation
+pair2-supplicant-approve-sign-in-page-title = Dernière étape pour lancer la synchronisation
 
 ## ConnectThisDevice page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device after scanning the pairing QR code
@@ -2148,7 +2148,7 @@ pair2-supplicant-download-firefox-page-title = Ouvrir { -brand-firefox } sur cet
 
 # Browser tab title for the page shown on the mobile device telling the user to finish pairing in the { -brand-firefox } app.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair2-supplicant-connect-hint-page-title = Finalisez l’association dans l’application
+pair2-supplicant-connect-hint-page-title = Terminez l’association dans l’application
 
 ## ReadyToScan page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device before pairing starts. It tells them
@@ -2534,7 +2534,7 @@ signin-passkey-fallback-unwrap-failed-description = Une erreur s’est produite.
 signin-passkey-fallback-wrap-unusable-link = En savoir plus
 # Browser tab title for the page where the user enters their password after using a passkey to sign in, so they can sync.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-passkey-fallback-page-title = Saisissez votre mot de passe pour synchroniser
+signin-passkey-fallback-page-title = Mot de passe requis pour synchroniser
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2578,10 +2578,10 @@ signup-passwordless-code-subheading = L’inscription ne se fait qu’en une seu
 signin-passwordless-totp-required = L’authentification en deux étapes est activée sur votre compte. Veuillez vous connecter avec votre mot de passe.
 # Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-passwordless-code-page-title = Se connecter avec le code de l’adresse e-mail
+signin-passwordless-code-page-title = Connexion avec un code reçu par e-mail
 # Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signup-passwordless-code-page-title = S’inscrire avec le code de l’adresse e-mail
+signup-passwordless-code-page-title = Inscription avec un code reçu par e-mail
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -2603,7 +2603,7 @@ signin-recovery-method-send-code-error-heading = Un problème est survenu lors d
 signin-recovery-method-send-code-error-description = Veuillez réessayer plus tard ou utiliser vos codes d’authentification de secours.
 # Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-recovery-method-page-title = Se connecter avec une méthode de récupération
+signin-recovery-method-page-title = Connexion par méthode de récupération
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2632,7 +2632,7 @@ signin-recovery-code-use-phone-failure = Un problème est survenu lors de l’en
 signin-recovery-code-use-phone-failure-description = Veuillez réessayer plus tard.
 # Browser tab title for the page where the user enters a backup authentication code to sign in.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-recovery-code-page-title = Connectez-vous avec un code de secours
+signin-recovery-code-page-title = Connexion avec un code de secours
 
 ## SigninRecoveryPhone page
 
@@ -2659,7 +2659,7 @@ signin-recovery-phone-invalid-code-error-link = Utiliser plutôt des codes d’a
 signin-recovery-phone-success-message = Connexion réussie. Des limites peuvent s’appliquer si vous utilisez à nouveau votre numéro de téléphone de secours.
 # Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-recovery-phone-page-title = Connectez-vous avec un numéro de téléphone de récupération
+signin-recovery-phone-page-title = Connexion avec le numéro de secours
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
