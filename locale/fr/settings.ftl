@@ -1763,7 +1763,7 @@ inline-totp-setup-page-title = Authentification en deux étapes
 inline-totp-setup-intro-page-title = Configurer l’authentification en deux étapes
 # Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-totp-setup-enrol-page-title = Connectez votre application d’authentification
+inline-totp-setup-enrol-page-title = Connecter votre application d’authentification
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
@@ -1813,7 +1813,7 @@ pair-auth-complete-send-tab-benefits = Vous pouvez envoyer instantanément vos o
 pair-auth-complete-page-title = Appareil connecté
 # Browser tab title for the page shown when a device has been connected after pairing started from a send tab button.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair-auth-complete-send-tab-page-title = Prêtez-vous à envoyer des onglets
+pair-auth-complete-send-tab-page-title = Envoyer des onglets
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
