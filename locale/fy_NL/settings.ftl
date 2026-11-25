@@ -367,6 +367,9 @@ signin-link-damaged-header = Befêstigingskeppeling skansearre
 # The user followed a link to report an invalid signin attempt that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Keppeling skansearre
+# Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+report-signin-link-damaged-page-title = Meldingskeppeling skansearre
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = De keppeling wêrop jo klikt hawwe miste tekens en is mooglik skansearre rekke troch jo e-mailclient. Kopiearje foarsichtich it adres en probearje it opnij.
 
@@ -881,6 +884,8 @@ modal-mfa-protected-confirm-button = Befêstigje
 modal-mfa-protected-code-expired = Koade ferrûn?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Nije koade ferstjoere.
+# Error shown when the code is correct but the device clock is too far ahead of the server time.
+modal-mfa-protected-clock-skew-error = De klok fan jo apparaat is net krekt. Korrizjearje de datum en tiid fan jo apparaat en probearje it dan opnij.
 
 ## Modal Verify Session
 
@@ -2293,6 +2298,9 @@ reset-password-complete-recovery-key-download-info = Dizze kaai is essinsjeel fo
 server-error-heading = Flater 500
 server-error-description = Och heden, der gie wat mis. Wy binne op ’e hichte brocht en wurkje oan in oplossing.
 server-error-home-button = Startside
+# Browser tab title for the page shown when the server fails to handle a request.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+server-error-page-title = Serverflater
 
 ## CompleteSignin component
 
@@ -2308,6 +2316,15 @@ signin-link-expired-message-2 = De keppeling wêrop jo klikt hawwe is ferrûn of
 
 ## Signin page
 
+# Browser tab title for the page where the user enters their password to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-password-page-title = Fier jo wachtwurd yn
+# Browser tab title for the sign-in page shown when the user already has a saved session on this device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-cached-page-title = Oanmelde
+# Browser tab title for the page where the user picks how to sign in when their account has no password.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-alternative-auth-page-title = Kies in oanmeldmetoade
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Fier jo wachtwurd <span>foar jo { -product-mozilla-account }</span> yn
 # Submit button label when the sign-in turns Sync on (user was sent here to set up Sync, e.g. from pairing)
@@ -2351,6 +2368,9 @@ signin-bounced-message = De befêstigingsmail dy’t wy nei { $email } ferstjoer
 signin-bounced-help = As dit in jildich e-mailadres is, <linkExternal>lit dit dan witte</linkExternal> en wy helpe jo account te ûntskoatteljen.
 signin-bounced-create-new-account = Hawwe jo dat e-mailadres net mear? Meitsje in nije account
 back = Tebek
+# Browser tab title for the page telling the user their account is locked because a confirmation email sent to them was returned.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-bounced-page-title = Account beskoattele
 
 ## SigninPasskeyFallback page
 ## Users who authenticate with a passkey to access Sync must also enter their password.
@@ -2371,6 +2391,9 @@ signin-passkey-fallback-unwrap-failed-heading = Jo wachtwurdkaai kin de syngroni
 signin-passkey-fallback-unwrap-failed-description = Der gie wat mis, dus jo hawwe diskear jo wachtwurd nedich.
 # Link in a banner explaining why a passkey couldn’t be used to sign in to sync. Opens a support article about troubleshooting passkeys.
 signin-passkey-fallback-wrap-unusable-link = Mear ynfo
+# Browser tab title for the page where the user enters their password after using a passkey to sign in, so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passkey-fallback-page-title = Fier jo wachtwurd yn om te syngronisearjen
 
 ## SigninPasswordlessCode page
 ## Users are prompted to enter a code sent to their email for passwordless authentication.
@@ -2412,6 +2435,12 @@ signup-passwordless-code-subheading = Registraasje duorret mar ien stap as jo di
 # Shown when a user with 2FA enabled tries to use passwordless flow
 # They are redirected to password signin instead
 signin-passwordless-totp-required = Twa-stapsautentikaasje is ynskeakele op jo account. Meld jo oan mei jo wachtwurd.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign in to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-passwordless-code-page-title = Oanmelde mei e-mailkoade
+# Browser tab title for the page where the user enters the confirmation code emailed to them to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-passwordless-code-page-title = Registrearje mei e-mailkoade
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -2431,6 +2460,9 @@ signin-recovery-method-code-info-v2 =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Der is in probleem bard by it ferstjoeren fan in koade nei jo wersteltelefoannûmer
 signin-recovery-method-send-code-error-description = Probearje it letter opnij of brûk jo reservekopy-autentikaasjekoaden.
+# Browser tab title for the page where the user chooses a recovery method to sign in when they cannot use their authenticator app.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-method-page-title = Oanmelde mei in werstelmetoade
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -2457,6 +2489,9 @@ signin-recovery-code-required-error = Reserve-autentikaasjekoade fereaske
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Der is in probleem bard by it ferstjoeren fan in koade nei jo wersteltelefoannûmer
 signin-recovery-code-use-phone-failure-description = Probearje it letter noch ris.
+# Browser tab title for the page where the user enters a backup authentication code to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-code-page-title = Oanmelde mei in reservekoade
 
 ## SigninRecoveryPhone page
 
@@ -2481,11 +2516,17 @@ signin-recovery-phone-invalid-code-error-link = Reserve-autentikaasjekoaden yn s
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = Mei súkses oanmeld. Der kinne beheiningen fan tapassing wêze as jo jo wersteltelefoannûmer opnij brûke.
+# Browser tab title for the page where the user enters a code sent to their recovery phone to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-recovery-phone-page-title = Oanmelde mei in wersteltelefoannûmer
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
 signin-reported-header = Tank foar jo wachens
 signin-reported-message = Us team is op ’e hichte brocht. Rapporten as dizze helpe ús ynkringers tsjin te hâlden.
+# Browser tab title for the page confirming the user reported a sign-in attempt that was not them.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-reported-page-title = Oanmelding rapportearre
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
