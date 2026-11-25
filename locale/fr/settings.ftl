@@ -2202,7 +2202,7 @@ pair2-supplicant-timeout-and-cancel-timeout-page-title = Délai de connexion dé
 pair2-supplicant-timeout-and-cancel-cancelled-page-title = Association annulée
 # Browser tab title for the page shown on the mobile device when it is already signed in to an account and cannot be paired.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair2-supplicant-timeout-and-cancel-signed-in-page-title = L’appareil est déjà connecté
+pair2-supplicant-timeout-and-cancel-signed-in-page-title = Appareil déjà connecté
 
 ## Permissions page
 ## Users see this page during sign-in or sign-up when a relying party is not a
@@ -2256,7 +2256,7 @@ set-password-info-v2 = Cela permet de chiffrer vos données. Il doit être diff�
 set-password-passwordless-info = Ce mot de passe chiffre vos données synchronisées et assure leur sécurité.
 # Browser tab title for the page where the user creates a password so they can sync.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-set-password-page-title = Créez un mot de passe pour la synchronisation
+set-password-page-title = Créer un mot de passe pour la synchronisation
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -2279,7 +2279,7 @@ account-recovery-confirm-key-button-2 = Continuer
 account-recovery-lost-recovery-key-link-2 = Vous ne trouvez pas la clé de récupération de votre compte ?
 # Browser tab title for the page where the user enters their account recovery key to reset their password.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-account-recovery-confirm-key-page-title = Réinitialiser le mot de passe avec une clé de récupération
+account-recovery-confirm-key-page-title = Réinitialiser le mot de passe avec la clé de récupération
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -2332,7 +2332,7 @@ confirm-reset-password-otp-resend-code-button = Renvoyer le code
 confirm-reset-password-otp-different-account-link = Utiliser un autre compte
 # Browser tab title for the page where the user enters the confirmation code emailed to them to reset their password.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-confirm-reset-password-with-code-page-title = Consultez votre boîte de réception pour réinitialiser votre mot de passe
+confirm-reset-password-with-code-page-title = Consultez vos e-mails pour réinitialiser votre mot de passe
 
 ## PasswordResetConfirmTotp Page
 
@@ -2360,7 +2360,7 @@ password-reset-submit-button-2 = Continuer
 password-reset-data-recovery-warning = La réinitialisation de votre mot de passe peut empêcher la récupération des données synchronisées de votre navigateur. <learnMoreLink>En savoir plus</learnMoreLink>
 # Browser tab title for the page where the user starts a password reset by entering their email.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-password-reset-flow-page-title = Réinitialisez votre mot de passe
+password-reset-flow-page-title = Réinitialiser le mot de passe
 
 ## ResetPasswordConfirmed
 
@@ -2415,7 +2415,7 @@ reset-password-recovery-phone-invalid-code-error-description = Le code est inval
 reset-password-recovery-phone-invalid-code-error-link = Utiliser plutôt des codes d’authentification de secours ?
 # Browser tab title for the page where the user enters a code sent to their recovery phone to reset their password.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-reset-password-recovery-phone-page-title = Réinitialiser le mot de passe avec le numéro de téléphone de récupération
+reset-password-recovery-phone-page-title = Réinitialiser le mot de passe avec le téléphone de secours
 reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-complete-new-password-saved = Nouveau mot de passe enregistré !
 reset-password-complete-recovery-key-created = Nouvelle clé de récupération de compte créée. Téléchargez-la et stockez-la maintenant.
@@ -2701,7 +2701,7 @@ signin-token-code-resend-error = Une erreur s’est produite. Impossible d’env
 signin-token-code-instruction-desktop-relay = Une fois connecté·e, { -brand-firefox } tentera de vous renvoyer vers l’onglet d’origine pour utiliser un alias de messagerie.
 # Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-token-code-page-title = Confirmer la connexion avec le code de l’adresse e-mail
+signin-token-code-page-title = Confirmer la connexion avec un code reçu par e-mail
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
