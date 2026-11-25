@@ -2163,7 +2163,7 @@ pair2-supplicant-ready-to-scan-instruction = Sur votre ordinateur, ouvrez { -bra
 pair2-supplicant-ready-to-scan-learn-more-link = En savoir plus
 # Browser tab title for the page shown on the mobile device before pairing starts, telling the user to open firefox.com/pair on their computer.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair2-supplicant-ready-to-scan-page-title = Prêt·e à scanner
+pair2-supplicant-ready-to-scan-page-title = Prêt pour le scan
 
 ## SyncSuccess page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device once pairing has completed: the device
