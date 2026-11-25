@@ -1714,9 +1714,27 @@ inline-recovery-key-setup-create-page-title = In accountwerstelkaai oanmeitsje
 # Browser tab title for the page where the user downloads their account recovery key.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-key-setup-download-page-title = Jo accountwerstelkaai downloade
+# Browser tab title for the page where the user adds a hint for their account recovery key.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-key-setup-hint-page-title = In werstelkaaihint tafoegje
 # Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-choice-page-title = Kies in werstelmetoade
+# Browser tab title for the page where the user saves their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-download-codes-page-title = Jo reservekopykoaden bewarje
+# Browser tab title for the page where the user confirms one of their backup authentication codes.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-confirm-code-page-title = In reservekopykoade befêstigje
+# Browser tab title for the page where the user enters a phone number to use as a recovery phone.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-number-page-title = In wersteltelefoannûmer tafoegje
+# Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-phone-code-page-title = Befêstigje jo wersteltelefoannûmer
+# Browser tab title for the page confirming that two-step authentication is now on for the account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-recovery-setup-complete-page-title = Autentikaasje yn twa stappen ynskeakele
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1752,6 +1770,12 @@ inline-totp-setup-security-code-placeholder = Autentikaasjekoade
 inline-totp-setup-code-required-error = Autentikaasjekoade fereaske
 tfa-qr-code-alt = Brûk de koade { $code } om autentikaasje yn twa stappen yn stipe tapassingen yn te skeakeljen.
 inline-totp-setup-page-title = Autentikaasje yn twa stappen
+# Browser tab title for the first page of two-step authentication setup, which introduces the feature.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-intro-page-title = Autentikaasje yn twa stappen ynstelle
+# Browser tab title for the page where the user connects an authenticator app to their account during two-step authentication setup.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+inline-totp-setup-enrol-page-title = Ferbyn jo autentikaasje-app
 
 ## PageNotFound page
 ## Shown when the requested page does not exist
@@ -1772,6 +1796,9 @@ pair-auth-allow-confirm-button = Ja, apparaat goedkarre
 # "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
 # The text with the <link> tags links to a `reset password` page
 pair-auth-allow-refuse-device-link = As dit jo net wiene, <a>wizigje dan jo wachtwurd</a>
+# Browser tab title for the page where the user approves a { -brand-firefox } sign-in on a new device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-allow-page-title = { -brand-firefox }-oanmelding goedkarre
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -1796,6 +1823,9 @@ pair-auth-complete-send-tab-benefits = Jo binne frij om iepen ljepblêden, wacht
 # Browser tab title for the page shown when a device has been connected after pairing.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-auth-complete-page-title = Apparaat ferbûn
+# Browser tab title for the page shown when a device has been connected after pairing started from a send tab button.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-auth-complete-send-tab-page-title = Ree foar it ferstjoeren fan ljepblêden
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1814,6 +1844,9 @@ auth-totp-input-label = Fier 6-siferige koade yn
 auth-totp-confirm-button = Befêstigje
 # Error displayed in a tooltip when the form is submitted without a code
 auth-totp-code-required-error = Autentikaasjekoade fereaske
+# Browser tab title for the page where the user enters a two-step authentication code to continue pairing a device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+auth-totp-page-title = Keppeljen mei autentikaasje yn twa stappen
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1822,6 +1855,9 @@ auth-totp-code-required-error = Autentikaasjekoade fereaske
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
 pair-wait-for-supp-heading-text = Goedkarring <span>fan jo oare apparaat ôf</span> no fereaske
+# Browser tab title for the page that asks the user to approve device pairing on their other device.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-wait-for-supp-page-title = Befêstigje op jo oare apparaat
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1894,6 +1930,9 @@ pair-continue-to-sync-button = Trochgean om te syngronisearjen
 # Browser tab title for the page where the user chooses how to connect another device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-choice-page-title = In oar apparaat ferbine
+# Browser tab title for the page where the user chooses how to set up another device to send tabs to.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-choice-send-tab-page-title = Ljepblêden nei in oar apparaat fersrjoere
 # Browser tab title for the page that explains how to download { -brand-firefox } on a mobile device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 pair-download-page-title = { -brand-firefox } foar mobyl downloade
@@ -2558,6 +2597,9 @@ signin-token-code-resend-error = Der is wat misgien. Der koe gjin nije koade fer
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-token-code-instruction-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
+# Browser tab title for the page where the user enters the confirmation code emailed to them to confirm a sign-in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-token-code-page-title = Oanmelding befêstigje mei e-mailkoade
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -2582,6 +2624,9 @@ signin-totp-code-required-error = Autentikaasjekoade fereaske
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-totp-code-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
+# Browser tab title for the page where the user enters a two-step authentication code from their authenticator app to sign in.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-totp-code-page-title = Oanmelde mei autentikaasje yn twa stappen
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -2601,10 +2646,16 @@ signin-unblock-support-link = Werom bart dit?
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-unblock-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
+# Browser tab title for the page where the user enters the authorization code emailed to them to approve a blocked sign-in attempt.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signin-unblock-page-title = Dizze oanmelding autorisearje
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
+# Browser tab title for the page where the user enters the confirmation code emailed to them to finish signing up.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+confirm-signup-code-page-title-2 = Befêstigje jo e-mailadres
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -2642,6 +2693,9 @@ signup-sync-info = Syngronisearje jo wachtwurden, blêdwizers en mear, oeral wê
 signup-sync-info-with-payment = Syngronisearje jo wachtwurden, betellingsmetoaden, blêdwizers en mear, oeral wêr't jo { -brand-firefox } brûke.
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailadres wizigje
+# Browser tab title for the page where the user creates a password to sign up for an account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-page-title = Jo account oanmeitsje
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
@@ -2655,6 +2709,9 @@ signup-confirmed-sync-description-v2 = Jo wachtwurden, adressen, blêdwizers, sk
 signup-confirmed-sync-add-device-link = Noch in apparaat tafoegje
 signup-confirmed-sync-manage-sync-button = Syngronisaasje beheare
 signup-confirmed-sync-set-password-success-banner = Syngronisaasjewachtwurd oanmakke
+# Browser tab title for the page confirming that sync is turned on after the user confirmed their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signup-confirmed-sync-page-title = Syngronisaasje is ynskeakele
 
 ## UpdateFirefox page
 ## Shown when the browser is too old to use a Mozilla account
@@ -2662,3 +2719,6 @@ signup-confirmed-sync-set-password-success-banner = Syngronisaasjewachtwurd oanm
 update-firefox-heading = { -brand-firefox } moat bywurke wurde
 update-firefox-description = Jo { -product-mozilla-account } makket gebrûk fan funksjes dy't net stipe wurde yn jo ferzje fan { -brand-firefox }. Download en ynstallearje de lêste ferzje fan { -brand-firefox } om troch te gean.
 update-firefox-download-button = Nijste ferzje downloade
+# Browser tab title for the page shown when the browser is too old to use a Mozilla account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+update-firefox-page-title = { -brand-firefox } moat bywurke wurde
