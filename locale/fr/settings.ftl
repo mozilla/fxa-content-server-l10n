@@ -369,7 +369,7 @@ signin-link-damaged-header = Lien de confirmation altéré
 report-signin-link-damaged-header = Lien endommagé
 # Browser tab title for the page shown when the user followed a link to report an unauthorized sign-in, but the link was damaged.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-report-signin-link-damaged-page-title = Signaler un lien altéré
+report-signin-link-damaged-page-title = Signaler un lien endommagé
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Le lien sur lequel vous avez cliqué était incomplet, probablement à cause de votre client de messagerie. Veuillez vous assurer de copier l’adresse complète puis réessayez.
 
@@ -877,7 +877,7 @@ modal-mfa-protected-code-expired = Code expiré ?
 # Link to resend a new code to the user's email.
 modal-mfa-protected-resend-code-link = Envoyez un nouveau code.
 # Error shown when the code is correct but the device clock is too far ahead of the server time.
-modal-mfa-protected-clock-skew-error = L’heure de votre périphérique est incorrecte. Corrigez la date et l’heure de votre appareil, puis réessayez.
+modal-mfa-protected-clock-skew-error = L’horloge de votre appareil est mal réglée. Corrigez la date et l’heure, puis réessayez.
 
 ## Modal Verify Session
 
@@ -1648,7 +1648,7 @@ cookies-disabled-page-title = Cookies et stockage local nécessaires
 
 # Browser tab title for the page where the user enters their email to sign in or create an account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-index-page-title = Connectez-vous ou créez un compte
+index-page-title = Se connecter ou créer un compte
 index-header = Saisissez votre adresse e-mail
 index-sync-header = Continuer vers votre { -product-mozilla-account }
 index-sync-subheader = Synchronisez vos mots de passe, onglets et marque-pages partout où vous utilisez { -brand-firefox }.
@@ -1707,22 +1707,22 @@ inline-recovery-key-setup-download-page-title = Télécharger la clé de récup�
 inline-recovery-key-setup-hint-page-title = Ajouter un indice de clé de récupération
 # Browser tab title for the page where the user chooses a recovery method during two-step authentication setup.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-choice-page-title = Choisissez une méthode de récupération
+inline-recovery-setup-choice-page-title = Choisir une méthode de récupération
 # Browser tab title for the page where the user saves their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-download-codes-page-title = Enregistrez vos codes de secours
+inline-recovery-setup-download-codes-page-title = Enregistrer vos codes de secours
 # Browser tab title for the page where the user confirms one of their backup authentication codes.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 inline-recovery-setup-confirm-code-page-title = Confirmer un code de secours
 # Browser tab title for the page where the user enters a phone number to use as a recovery phone.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-number-page-title = Ajouter un numéro de téléphone de récupération
+inline-recovery-setup-phone-number-page-title = Ajouter un numéro de téléphone de secours
 # Browser tab title for the page where the user enters the code sent to their recovery phone to confirm it.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-phone-code-page-title = Confirmez votre numéro de téléphone de récupération
+inline-recovery-setup-phone-code-page-title = Confirmer le numéro de secours
 # Browser tab title for the page confirming that two-step authentication is now on for the account.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-inline-recovery-setup-complete-page-title = Authentification en deux étapes pour
+inline-recovery-setup-complete-page-title = Authentification en deux étapes activée
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
