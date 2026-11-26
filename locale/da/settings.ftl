@@ -1586,7 +1586,7 @@ passkey-authentication-error-unexpected = Noget gik galt. Prøv igen, eller væl
 # Server returned 404 PASSKEY_NOT_FOUND — the assertion was for a credential
 # that no longer exists on the account (e.g., the user deleted the passkey
 # from their account but the authenticator still has the credential).
-passkey-authentication-error-not-found = Adgangsnøglen genkendes ikke. Brug en anden login-metode.
+passkey-authentication-error-not-found = Adgangsnøglen genkendes ikke. Brug en anden loginmetode.
 
 ## Connect Another Device page
 
