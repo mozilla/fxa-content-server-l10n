@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Mannammu na lijami nova ô to nnirizzu di p
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Junci { $accountsEmail } ê to cuntatti pi nun aviri prubblemi câ cunzigna.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Chiuji bannera
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = I { -product-firefox-accounts } addivèntanu { -product-mozilla-accounts } dû 1ᵘ di nuvèmmiru
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Trasi sempri cû stissu nomu utenti e a stissa chiavi, e nun cc’è nuḍḍu autru canciamentu nnî prudutti chi usi.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Canciamu u nomu dî { -product-firefox-accounts } a { -product-mozilla-accounts }. Trasi sempri cû stissu nomu utenti e a stissa chiavi, e nun cc’è nuḍḍu autru canciamentu nnî prudutti chi usi.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Cchiù nfurmazzioni
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Chiuji bannera
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Mercu di { -brand-mozilla } m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -46,22 +23,6 @@ button-back-title = Nn’arrè
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Ni dispiaci, cci fu un prubblema nnô scarricamentu dâ to chiavi di ricùpiru dû cuntu.
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Ricivi cchiù assai di { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Ricivi l’ùrtimi nutizzi e attualizzi ncapu ê prudutti
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Accessu ’n antiprima pi pruvari i prudutti novi
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Abbisi di azzioni pi pigghiàriti arrè u cuntrollu dâ riti
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -296,24 +257,10 @@ remember-password-text = Ti ricordi a to chiavi?
 # link navigates to the sign in page
 remember-password-signin-link = Trasi
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = U nnirizzu di posta elittrònica primariu già fu cunfirmatu
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = A trasuta già fu cunfirmata
-confirmation-link-reused-message = Sta lijami di cunferma fu già usata, e po èssiri usata na vota sula.
-
 ## Locale Toggle Component
 
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Dumanna nun vàlita
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Ti serbi sta chiavi pi accèdiri a tutti i dati crittati chi sarbi cu nuiautri.
-password-info-balloon-reset-risk-info = Risittari u cuntu veni a diri chi putissi pèrdiri dati a tipu chiavi e nzingalibbra.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

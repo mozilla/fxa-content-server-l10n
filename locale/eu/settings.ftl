@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Lotura berri bat bidali da zure helbide ele
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Gehitu { $accountsEmail } zure kontaktuetara arazorik gabeko bidalketarako.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Itxi iragarki-banda
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } berrizendatuko da azaroaren batean { -product-mozilla-accounts }
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Erabiltzaile-izen eta pasahitz berarekin hasiko duzu saioa oraindik, eta ez dago beste aldaketarik erabiltzen dituzun produktuetan.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = { -product-firefox-accounts } { -product-mozilla-accounts } izena jarri diegu. Erabiltzaile-izen eta pasahitz berarekin hasiko duzu saioa oraindik, eta ez dago beste aldaketarik erabiltzen dituzun produktuetan.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Argibide gehiago
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Itxi pankarta
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } logoa
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Hasi saioa sarbide-gakoa erabilita
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Modu seguruan saioa hasten…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Lortu gehiago { -brand-mozilla }-tik:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Lortu gure azken berriak eta produktuen eguneraketak
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Produktu berriak probatzeko sarbidea goiztiarra
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Ekintza alertak Internet berreskuratzeko
 
 ## Dark mode toggle
 
@@ -387,14 +348,6 @@ remember-password-passkey-text = Sarbide-gakoa duzu edo pasahitza gogoratzen duz
 # link navigates to the sign in page
 remember-password-signin-link = Hasi saioa
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Helbide elektroniko nagusia dagoeneko berretsita
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Saio-hasiera dagoeneko berretsita
-confirmation-link-reused-message = Berrespen-lotura hori erabilita dago eta behin bakarrik erabil daiteke.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Hautatu hizkuntza
@@ -418,12 +371,6 @@ pair-unsupported-hint-step-app-menu = Sakatu <b>aplikazio-menua</b>
 pair-unsupported-hint-step-sign-in = <b>Hasi saioa</b>, gero eskaneatu kodea
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Argibide gehiago
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Pasahitz hau behar duzu gurekin gordetzen dituzun datu enkriptatuak atzitzeko.
-password-info-balloon-reset-risk-info = Berrezartze batek pasahitzak eta laster-markak bezalako datuak galdu ahal izatea esan nahi du.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

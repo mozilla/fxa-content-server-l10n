@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Ένας νέος σύνδεσμος στά
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Προσθέστε το { $accountsEmail } στις επαφές σας για να εξασφαλίσετε την ομαλή παράδοση.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Κλείσιμο μηνύματος
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = Οι { -product-firefox-accounts(capitalization: "lower", case: "nom") } θα γίνουν { -product-mozilla-accounts(capitalization: "lower", case: "nom") } την 1η Νοεμβρίου
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που χρησιμοποιείτε.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Έχουμε μετονομάσει τους { -product-firefox-accounts(capitalization: "lower", case: "acc") } σε { -product-mozilla-accounts(capitalization: "lower", case: "acc") }. Θα συνεχίσετε να συνδέεστε με το ίδιο όνομα χρήστη και κωδικό πρόσβασης και δεν θα γίνουν άλλες αλλαγές στα προϊόντα που χρησιμοποιείτε.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Μάθετε περισσότερα
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Κλείσιμο μηνύματος
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Λογότυπο «m» της { -brand-mozilla }
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Σύνδεση με κλειδί πρόσβασης
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Ασφαλής σύνδεση…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Περισσότερα από τη { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Λάβετε τα τελευταία νέα και ενημερώσεις προϊόντων
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Πρώιμη πρόσβαση σε δοκιμές νέων προϊόντων
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Ειδοποιήσεις για δράσεις που αφορούν την ανάκτηση του ελέγχου του διαδικτύου
 
 ## Dark mode toggle
 
@@ -384,14 +345,6 @@ remember-password-passkey-text = Έχετε κλειδί πρόσβασης ή �
 # link navigates to the sign in page
 remember-password-signin-link = Σύνδεση
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Το κύριο email έχει ήδη επιβεβαιωθεί
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
-confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβαίωσης έχει ήδη χρησιμοποιηθεί και μπορεί να χρησιμοποιηθεί μόνο μία φορά.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Επιλογή γλώσσας
@@ -415,12 +368,6 @@ pair-unsupported-hint-step-app-menu = Πατήστε το <b>μενού εφαρ
 pair-unsupported-hint-step-sign-in = <b>Συνδεθείτε</b> και σαρώστε τον κωδικό
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Μάθετε περισσότερα
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Χρειάζεστε αυτόν τον κωδικό πρόσβασης για την πρόσβαση σε τυχόν κρυπτογραφημένα δεδομένα που έχετε αποθηκεύσει σε εμάς.
-password-info-balloon-reset-risk-info = Η επαναφορά κωδικού πρόσβασης σημαίνει πιθανή απώλεια δεδομένων, όπως κωδικών πρόσβασης και σελιδοδεικτών.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

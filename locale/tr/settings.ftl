@@ -10,29 +10,6 @@ resend-link-success-banner-heading = E-postanıza yeni bir bağlantı gönderild
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Sorunsuz ulaşması için { $accountsEmail } adresini kişi listenize ekleyebilirsiniz.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Duyuruyu kapat
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts }nın adı 1 Kasım’da { -product-mozilla-accounts } olarak değiştirilecek
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Aynı kullanıcı adı ve parolanızı kullanmaya devam edeceksiniz. Kullandığınız ürünlerde başka hiçbir değişiklik olmayacak.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = “{ -product-firefox-accounts }”nın adını “{ -product-mozilla-accounts }” olarak değiştirdik. Aynı kullanıcı adı ve parolanızı kullanmaya devam edebilirsiniz. Kullandığınız ürünlerde herhangi bir değişiklik olmayacak.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Daha fazla bilgi alın
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Duyuruyu kapat
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m logosu
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Geçiş anahtarıyla giriş yap
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Güvenli giriş yapılıyor…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = { -brand-mozilla } bültenlerine kaydolun:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = En son haberlerden ve ürün güncellemelerinden haberdar olun
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Yeni ürünleri test etmek için erken erişim
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = İnternete sahip çıkmak için harekete geçme çağrıları
 
 ## Dark mode toggle
 
@@ -384,14 +345,6 @@ remember-password-passkey-text = Geçiş anahtarınız var mı veya parolanızı
 # link navigates to the sign in page
 remember-password-signin-link = Giriş yap
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Ana e-posta zaten onaylanmış
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Giriş zaten onaylanmış
-confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Dil seçin
@@ -409,12 +362,6 @@ pair-unsupported-hint-step-close-page = Bu sayfayı kapatın
 pair-unsupported-hint-step-app-menu = <b>Uygulama menüsüne</b> dokunun
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Daha fazla bilgi al
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Bizde depolanan şifrelenmiş verilerinize erişmek için bu parolaya ihtiyacınız olacak.
-password-info-balloon-reset-risk-info = Sıfırlama yaparsanız parolalar ve yer imleri gibi verileriniz kaybolabilir.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

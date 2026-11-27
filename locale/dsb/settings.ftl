@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Nowy wótkaz jo se pósłał na wašu e-mai
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Pśidajśo swójim kontaktam { $accountsEmail }, aby dodaśe bźez problemow zawěsćił.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Chórgoj zacyniś
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } se 1. nowembra do { -product-mozilla-accounts } pśemjenijo
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Pśizjawijośo se ze samskim wužywaŕskim mjenim a gronidłom a njebudu dalšne změny na produktach, kótarež wužywaśo.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Smy { -product-firefox-accounts } do { -product-mozilla-accounts } pśemjenili. Pśizjawijośo se ze samskim wužywaŕskim mjenim a gronidłom a njebudu dalšne změny na produktach, kótarež wužywaśo.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Dalšne informacije
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Chórgoj zacyniś
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logo m { -brand-mozilla }
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Z gronidłowym klucom pśizjawiś
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Pśizjawja se wěsće…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Wobstarajśo se wěcej wót { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Wobstarajśo se nejnowše nowosći  a produktowe aktualizacije
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Docasny pśistup, aby nowe produkty testował
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Napominanja k akciji, aby internet slědk dostał
 
 ## Dark mode toggle
 
@@ -393,14 +354,6 @@ remember-password-passkey-text = Maśo gronidłowy kluc abo wěsćo swójo groni
 # link navigates to the sign in page
 remember-password-signin-link = Pśizjawiś
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Primarna e-mailowa adresa jo južo wokšuśona
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Pśizjawjenje jo se južo wobkšuśiło
-confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo wužył a dajo se jano jaden raz wužywaś.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Rěc wubraś
@@ -424,12 +377,6 @@ pair-unsupported-hint-step-app-menu = Pótusniśo <b>meni nałoženja</b>
 pair-unsupported-hint-step-sign-in = <b>Pśizjawśo se</b> a scannujśo pón kode
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Dalšne informacije
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Trjebaśo toś to gronidł za pśistup k skoděrowanym datam, kótarež pla nas składujośo.
-password-info-balloon-reset-risk-info = Slědkstajenje groni, až se snaź daty ako gronidła a cytańske znamjenja zgubiju.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

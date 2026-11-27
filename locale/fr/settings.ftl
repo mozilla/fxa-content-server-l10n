@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Un nouveau lien a été envoyé à votre ad
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Ajoutez { $accountsEmail } à vos contacts pour assurer la bonne réception des messages.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Fermer la bannière
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = Les { -product-firefox-accounts } seront renommés { -product-mozilla-accounts } le 1er novembre
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Vous pourrez toujours vous connecter avec le même nom d’utilisateur et le même mot de passe, et il n’y aura aucun autre changement concernant les produits que vous utilisez.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Nous avons renommé les { -product-firefox-accounts } en { -product-mozilla-accounts }. Vous pourrez toujours vous connecter avec le même nom d’utilisateur et le même mot de passe, et il n’y aura aucun autre changement concernant les produits que vous utilisez.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = En savoir plus
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Fermer la bannière
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logo { -brand-mozilla } m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Se connecter avec une clé d’accès
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Connexion sécurisée…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Recevez plus d’informations de la part de { -brand-mozilla } :
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Recevoir nos dernières actualités et actualités produit
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Accès en avant-première pour tester de nouveaux produits
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Actions pour reprendre le contrôle d’Internet
 
 ## Dark mode toggle
 
@@ -387,14 +348,6 @@ remember-password-passkey-text = Vous avez une clé d’accès ou vous souvenez 
 # link navigates to the sign in page
 remember-password-signin-link = Connectez-vous
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Adresse e-mail principale déjà confirmée
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Connexion déjà confirmée
-confirmation-link-reused-message = Ce lien de confirmation a déjà été utilisé et ne peut être utilisé qu’une seule fois.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Choisir la langue
@@ -418,12 +371,6 @@ pair-unsupported-hint-step-app-menu = Appuyez sur le <b>menu de l’application<
 pair-unsupported-hint-step-sign-in = <b>Connectez-vous</b>, puis scannez le code
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = En savoir plus
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.
-password-info-balloon-reset-risk-info = Une réinitialisation implique potentiellement la perte de données telles que les mots de passe et les marque-pages.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

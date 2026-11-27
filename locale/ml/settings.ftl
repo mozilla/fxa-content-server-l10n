@@ -10,26 +10,6 @@ resend-link-success-banner-heading = താങ്ങളുടെ ഇതപാല
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = തടസ്സമില്ലാത്ത വിതരണത്തിനു് { $accountsEmail }-നെ താങ്ങളുടെ വിളിപ്പട്ടികയിലോട്ടു് ചേൎക്കുക
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = പടക്കൊടി അടയ്ക്കുക
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = നവമ്പർ ഒന്നാംതീയതിക്കു് { -product-firefox-accounts }-ന്റെ പേരു് { -product-mozilla-accounts }-ആയി തീരും.
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = താങ്ങൾ അതേ ഒളിവാക്കും ഉപയോക്തൃപ്പേരുകൊണ്ടു് പ്രവേശിക്കും, താങ്ങളൾ ഉപയോഗിക്കുന്ന ഉൽപ്പന്നങ്ങളിൽ ഒരു മാറ്റാവുമുണ്ടാവത്തില്ല.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = കൂടുതല്‍ അറിയുക
-# Alt text for close banner image
-brand-close-banner =
-    .alt = പടക്കൊടി അടയ്ക്കുക
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m അടയാളം
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -43,12 +23,6 @@ button-back-title = പുറകോട്ടു്
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം ഇറക്കിവയ്ക്കുന്നതിലു് എന്തോ കുഴപ്പമുണ്ടായി.
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = { -brand-mozilla }-ൽ നിന്നു് ഇനിയും നേടുക
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -237,13 +211,6 @@ link-expired-new-link-button = പുതിയ കണ്ണിക്കായി
 remember-password-text = ഒളിവാക്കു് ഓൎമ്മയുണ്ടോ?
 # link navigates to the sign in page
 remember-password-signin-link = പ്രവേശിക്കുക
-
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = പ്രാഥമിക ഇതപാൽ മുൻപേ ഉറപ്പിച്ചതാണു്
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = പ്രവേശനം ഉറപ്പിച്ചു
 
 ## Locale Toggle Component
 

@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Te email-i juaj u dërgua një lidhje e re.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Shtoni te kontaktet tuaja { $accountsEmail }, që të sigurohet dërgim i rrjedhshëm.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Mbylle banderolën
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = Më 1 nëntor { -product-firefox-accounts } do të riemërtohen { -product-mozilla-accounts }
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Do të bëni hyrjen me të njëjtin emër përdoruesi dhe fjalëkalim dhe s’do të ketë ndryshime të tjera te produktet që përdorni.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = I riemërtuam { -product-firefox-accounts } si { -product-mozilla-accounts }. Prapë do të bëni hyrjen me të njëjtin emër përdoruesi dhe fjalëkalim dhe s’ka ndryshime të tjera te produktet që përdorni.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Mësoni më tepër
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Mbylle Banderolën
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Stemë { -brand-mozilla } m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -55,22 +32,6 @@ button-passkey-signin = Hyni me kyçkalim
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Po hyhet në mënyrë të siguruar…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Merrni më tepër nga { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Merrni lajmet dhe përditësimet tona më të reja rreth produktesh
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Mundësi për të testuar që herët produkte të reja
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Thirrje për veprim për të rifituar internetin
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -340,26 +301,12 @@ remember-password-text = E mbani mend fjalëkalimin tuaj?
 # link navigates to the sign in page
 remember-password-signin-link = Hyni
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Email-i parësor tashmë i verifikuar
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Hyrje tashmë e ripohuar
-confirmation-link-reused-message = Ajo lidhje ripohimi qe përdorur tashmë dhe mund të përdoret vetëm një herë.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Përzgjidhni gjuhë
 locale-toggle-browser-default = Parazgjedhje shfletuesi
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Kërkesë e Gabuar
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Ky fjalëkalim ju duhet për të hyrë në çfarëdo të dhënash të fshehtëzuara që depozitoni me ne.
-password-info-balloon-reset-risk-info = Ricaktimi do të thotë humbje potenciale të dhënash të tilla si fjalëkalime dhe faqerojtës.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

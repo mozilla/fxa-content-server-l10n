@@ -10,29 +10,6 @@ resend-link-success-banner-heading = En ny lenke ble sendt til e-posten din.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Legg til { $accountsEmail } i kontaktene dine for å sikre en problemfri levering.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Lukk banner
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } vil bli omdøpt til { -product-mozilla-accounts } 1. november
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Du vil fortsatt logge inn med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Vi har endret navn på { -product-firefox-accounts } til { -product-mozilla-accounts }. Du vil fortsatt logge på med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Les mer
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Lukk banner
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m-logo
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Logg inn med passnøkkel
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Logger inn sikkert …
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Få mer fra { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Få våre siste nyheter og produktoppdateringer
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Tidlig tilgang til å teste nye produkter
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Handlingsvarsler for å vinne tilbake internett
 
 ## Dark mode toggle
 
@@ -384,14 +345,6 @@ remember-password-passkey-text = Har du en passnøkkel, eller husker du passorde
 # link navigates to the sign in page
 remember-password-signin-link = Logg inn
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Primær e-post allerede bekreftet
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Innlogging allerede bekreftet
-confirmation-link-reused-message = Den bekreftelseslenken ble allerede brukt, og kan bare brukes én gang.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Velg språk
@@ -412,12 +365,6 @@ pair-unsupported-hint-step-app-menu = Trykk på <b>appmenyen</b>
 pair-unsupported-hint-step-sign-in = <b>Logg inn</b>, og skann deretter koden
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Les mer
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Du trenger dette passordet for å få tilgang til krypterte data du lagrer hos oss.
-password-info-balloon-reset-risk-info = En tilbakestilling betyr potensielt tap av data som passord og bokmerker.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

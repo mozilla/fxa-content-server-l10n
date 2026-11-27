@@ -10,29 +10,6 @@ resend-link-success-banner-heading = ਤੁਹਾਡੀ ਈਮੇਲ ਉੱਤ�
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = ਸੁਚਾਰੂ ਡਿਲਵਰੀ ਯਕੀਨੀ ਬਣਾਉਣ ਵਾਸਤੇ { $accountsEmail } ਨੂੰ ਆਪਣੇ ਸੰਪਰਕਾਂ ਵਿੱਚ ਜੋੜੋ।
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = ਬੈਨਰ ਬੰਦ ਕਰੋ
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = 1 ਨਵੰਬਰ ਨੂੰ { -product-firefox-accounts } ਦਾ ਨਾਂ ਬਦਲ ਕੇ { -product-mozilla-accounts } ਕੀਤਾ ਜਾਵੇਗਾ
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਉਸੇ ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤੋਂਗੇ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੇ ਜਾਂਦੇ ਉਤਪਾਦਾਂ ਵਿੱਚ ਹੋਰ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਆਵੇਗੀ।
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = { -product-firefox-accounts } ਖਾਤਿਆਂ ਦਾ ਨਾਂ ਬਦਲ ਕੇ { -product-mozilla-accounts } ਖਾਤੇ ਕਰ ਦਿੱਤਾ ਹੈ। ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਉਸੇ ਵਰਤੋਂਕਾਰ-ਨਾਂ ਅਤੇ ਪਾਸਵਰਡ ਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤੋਂਗੇ ਅਤੇ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੇ ਜਾਂਦੇ ਉਤਪਾਦਾਂ ਵਿੱਚ ਹੋਰ ਕੋਈ ਤਬਦੀਲੀ ਨਹੀਂ ਆਵੇਗੀ।
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = ਹੋਰ ਜਾਣੋ
-# Alt text for close banner image
-brand-close-banner =
-    .alt = ਬੈਨਰ ਬੰਦ ਕਰੋ
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m ਲੋਗੋ
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = ਪਾਸ-ਕੀ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਸਾਈਨ ਇਨ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = { -brand-mozilla } ਤੋਂ ਹੋਰ ਲਵੋ:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = ਸਾਡੀਆਂ ਨਵੀਆਂ ਖ਼ਬਰਾਂ ਅਤੇ ਉਤਪਾਦ ਅੱਪਡੇਟ ਲਵੋ
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = ਨਵੇਂ ਉਤਪਾਦਾਂ ਨੂੰ ਟੈਸਟ ਕਰਨ ਲਈ ਛੇਤੀ ਪਹੁੰਚ
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = ਇੰਟਰਨੈੱਟ ਉੱਤੇ ਦਾਅਵਾ ਕਰਨ ਲਈ ਕਾਰਵਾਈ ਚੇਤਾਵਨੀਆਂ
 
 ## Dark mode toggle
 
@@ -371,14 +332,6 @@ remember-password-text = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਯਾ�
 # link navigates to the sign in page
 remember-password-signin-link = ਸਾਈਨ ਇਨ
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = ਮੁੱਢਲਾ ਈਮੇਲ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = ਸਾਈਨ-ਇਨ ਨੂੰ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ
-confirmation-link-reused-message = ਇਹ ਪੁਸ਼ਟੀ ਲਿੰਕ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਗਿਆ ਸੀ, ਅਤੇ ਸਿਰਫ਼ ਇੱਕ ਵਾਰ ਹੀ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = ਭਾਸ਼ਾ ਨੂੰ ਚੁਣੋ
@@ -398,12 +351,6 @@ pair-unsupported-hint-heading = ਐਪ ਵਿੱਚ ਪੇਅਰ ਕਰਨ ਨ�
 pair-unsupported-hint-step-close-page = ਇਸ ਸਫ਼ੇ ਨੂੰ ਬੰਦ ਕਰੋ
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = ਹੋਰ ਜਾਣੋ
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = ਸਾਡੇ ਕੋਲ ਸੰਭਾਲੇ ਹੋਏ ਤੁਹਾਡੇ ਕਿਸੇ ਵੀ ਇੰਕ੍ਰਿਪਟ ਹੋਏ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਤੁਹਾਨੂੰ ਇਹ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ।
-password-info-balloon-reset-risk-info = ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦਾ ਅਰਥ ਹੈ ਕਿ ਪਾਸਵਰਡ ਤੇ ਬੁੱਕਮਾਰਕਾਂ ਵਰਗੇ ਡੇਟੇ ਨੂੰ ਸੰਭਾਵਿਤ ਤੌਰ ਉੱਤੇ ਗੁਆ ਦੇਣਾ।
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

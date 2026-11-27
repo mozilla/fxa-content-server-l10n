@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Na tvoju e-mail adresu je poslana nova pove
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Dodaj { $accountsEmail } svojim kontaktima kako bi se osigurala ispravna isporuka.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Zatvori natpis
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } će se preimenovati u { -product-mozilla-accounts } 1. studenoga
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom i ništa se neće promijeniti u proizvodima koje koristiš.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Preimenovali smo { -product-firefox-accounts } u { -product-mozilla-accounts }. I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom te nema drugih promjena u proizvodima koje koristiš.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Saznaj više
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Zatvori natpis
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m logotip
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -55,22 +32,6 @@ button-passkey-signin = Prijavi se s lozinkom
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Sigurna prijava …
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Dobij više uz { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Dobij naše najnovije vijesti i aktualiziranja proizvoda
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Rani pristup za testiranje novih proizvoda
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Upozorenja radnji za vraćanje interneta
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -340,14 +301,6 @@ remember-password-text = Zapamtiti tvoju lozinku?
 # link navigates to the sign in page
 remember-password-signin-link = Prijavi se
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Primarna e-mail adresa je već potvrđena
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Prijava je već potvrđena
-confirmation-link-reused-message = Ta poveznica za potvrdu već je korištena i može se koristiti samo jednom.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Odaberi jezik
@@ -357,12 +310,6 @@ error-bad-request = Neispravan zahtjev
 # Browser tab title for the page shown when the URL or network request is malformed, e.g. a required query parameter is invalid.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 error-bad-request-page-title = Loš zahtjev
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Ovu lozinku trebaš za pristup svim šifriranim podacima koje kod nas spremaš.
-password-info-balloon-reset-risk-info = Resetiranje znači potencijalno gubljenje podataka poput lozinki i zabilješki.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

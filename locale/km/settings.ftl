@@ -10,22 +10,9 @@ resend-link-success-banner-heading = បញ្ជាប់ថ្មីមួយ�
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = បន្ថែម { $accountsEmail } ទៅក្នុងទំនាក់ទំនងរបស់អ្នក ដើម្បីធានាបាននូវការបញ្ជូនដ៏រលូន។
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } នឹងអាចប្ដូរឈ្មោះ { -product-mozilla-accounts } នៅថ្ងៃទី ១ ខែវិច្ឆិកា
-
 ## ButtonPasskeySignin
 
 button-passkey-signin = បញ្ជាប់ចូលជាមួយសោសម្ងាត់
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = អាក់សេសមុនគេ ដើម្បីសាកល្បងផលិតផលថ្មី
 
 ## Firefox Promo Banner component
 ## Shown at the top of settings to promote installing Firefox on mobile (when

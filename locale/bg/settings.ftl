@@ -3,12 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Научете повече
-
 ## Ready component
 
 ready-continue = Продължаване

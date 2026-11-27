@@ -7,29 +7,6 @@
 
 resend-code-success-banner-heading = Se envió un nuevo código a tu correo electrónico.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Cerrar banner
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } será renombrado { -product-mozilla-accounts } en el 1º de noviembre
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Todavía iniciaras a tu sesión con el mismo nombre de usuario y contraseña, y no hay más cambios a los productos que ya utilizas.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Hemos cambiado al nombre { -product-firefox-accounts } a { -product-mozilla-accounts }. Seguirás iniciando tu sesión con el mismo nombre de usuario y contraseña, sin ningún cambio más a los productos que utilizas.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Aprender más
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Cerrar el banner
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } logotipo m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -43,15 +20,6 @@ button-back-title = Atrás
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Perdón, hubo un problema al descargar tu clave de recuperación de la cuenta
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Obtenga más de { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Acceso temprano a probar nuevos productos
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -254,24 +222,10 @@ remember-password-text = ¿Recordar tu contraseña?
 # link navigates to the sign in page
 remember-password-signin-link = Iniciar sesión
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = El correo principal ya fue confirmado
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Inicio de sesión ya confirmado
-confirmation-link-reused-message = Ya se ha usado ese enlace de confirmación y es de un solo uso.
-
 ## Locale Toggle Component
 
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud errónea
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Necesitas esta contraseña para acceder a los datos cifrados que almacenas con nosotros.
-password-info-balloon-reset-risk-info = Un reinicio significa la posibilidad de perder datos como contraseñas y marcadores.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

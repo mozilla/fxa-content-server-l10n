@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Нова веза је послата на 
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Додајте { $accountsEmail } у своје контакте како бисте осигурали несметану доставу.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Затвори врпцу
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } ће бити преименован у { -product-mozilla-accounts } 1. новембра
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = И даље ћете се пријављивати истим корисничким именом и лозинком, а нема других измена у производима које користите.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Преименовали смо { -product-firefox-accounts } у { -product-mozilla-accounts }. И даље ћете се пријављивати истим корисничким именом и лозинком, а нема других измена у производима које користите.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Сазнајте више
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Затвори врпцу
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m логотип
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -55,22 +32,6 @@ button-passkey-signin = Пријави се приступним кључем
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Безбедно пријављивање…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Добијајте више од { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Примајте наше најновије вести и ажурирања производа
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Рани приступ за тестирање нових производа
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Обавештења о акцијама за повратак интернета
 
 ## Dark mode toggle
 
@@ -353,26 +314,12 @@ remember-password-text = Запамтити вашу лозинку?
 # link navigates to the sign in page
 remember-password-signin-link = Пријави ме
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Примарна адреса е-поште је већ потврђена
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Пријава је већ потврђена
-confirmation-link-reused-message = Ова веза за потврду је већ искоришћена, може се искористити само једном.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Изаберите језик
 locale-toggle-browser-default = Подразумевано у прегледнику
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Лош захтев
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Потребна вам је ова лозинка да приступите вашим шифрованим подацима који се чувају код нас.
-password-info-balloon-reset-risk-info = Ресетовањем можете да изгубите податке као што су лозинке и обележивачи.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

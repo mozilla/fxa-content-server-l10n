@@ -10,29 +10,6 @@ resend-link-success-banner-heading = 新しいリンクをメールに送信し�
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = 確実に受信できるよう { $accountsEmail } を連絡先に追加しておいてください。
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = バナーを閉じる
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts }が 11 月 1 日から { -product-mozilla-accounts }に名称変更されます
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = これまでと同じユーザー名とパスワードでログインできます。ご使用の製品にその他の変更はありません。
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = { -product-firefox-accounts }を { -product-mozilla-accounts }に名称変更しました。これまでと同じユーザー名とパスワードでログインできます。ご使用の製品にその他の変更はありません。
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = 詳細情報
-# Alt text for close banner image
-brand-close-banner =
-    .alt = バナーを閉じる
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m ロゴ
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -50,22 +27,6 @@ recovery-key-pdf-download-error = 申し訳ありませんが、アカウント�
 ## ButtonPasskeySignin
 
 button-passkey-signin = パスキーでログイン
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = { -brand-mozilla } からの詳細:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = 最新ニュースと製品アップデートを入手
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = 新製品をテストするための早期アクセス
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = インターネットを取り戻すために行動を起こしましょう
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -282,26 +243,12 @@ remember-password-text = パスワードを思い出しましたか？
 # link navigates to the sign in page
 remember-password-signin-link = ログイン
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = 優先メールアドレスは既に確認されています
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = ログインは既に確認されています
-confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = 言語を選択
 locale-toggle-browser-default = ブラウザーの設定に従う
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 不正なリクエスト
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = このパスワードは、格納されたアカウント情報の暗号化されたデータにアクセスするために必要です。
-password-info-balloon-reset-risk-info = リセットすることにより、パスワードやブックマークなどのデータが失われる可能性があります。
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

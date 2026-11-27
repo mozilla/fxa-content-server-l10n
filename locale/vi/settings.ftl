@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Một liên kết mới đã được gửi
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Thêm { $accountsEmail } vào liên hệ của bạn để đảm bảo quá trình gửi diễn ra suôn sẻ.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Đóng biểu ngữ
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } sẽ được đổi tên thành { -product-mozilla-accounts } vào ngày 1 tháng 11
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Bạn sẽ vẫn đăng nhập với tên người dùng và mật khẩu hiện tại và không có thay đổi nào khác đối với các sản phẩm bạn sử dụng.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Chúng tôi đã đổi tên { -product-firefox-accounts } thành { -product-mozilla-accounts }. Bạn sẽ vẫn đăng nhập với tên người dùng và mật khẩu hiện tại và không có thay đổi nào khác đối với các sản phẩm bạn sử dụng.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Tìm hiểu thêm
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Đóng biểu ngữ
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logo m của { -brand-mozilla }
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Đăng nhập bằng passkey
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Đang đăng nhập an toàn…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Nhận thêm từ { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Nhận tin tức và cập nhật sản phẩm mới nhất của chúng tôi
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Truy cập sớm để kiểm tra sản phẩm mới
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Cảnh báo hành động để lấy lại môi trường trực tuyến
 
 ## Dark mode toggle
 
@@ -372,14 +333,6 @@ remember-password-passkey-text = Bạn có passkey hoặc nhớ mật khẩu c�
 # link navigates to the sign in page
 remember-password-signin-link = Đăng nhập
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Email chính đã được xác minh trước đó
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Đăng nhập đã được xác nhận trước đó
-confirmation-link-reused-message = Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Chọn ngôn ngữ
@@ -400,12 +353,6 @@ pair-unsupported-hint-step-app-menu = Nhấn vào <b>menu ứng dụng</b>
 pair-unsupported-hint-step-sign-in = <b>Đăng nhập</b>, sau đó quét mã
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Tìm hiểu thêm
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Bạn cần mật khẩu này để truy cập mọi dữ liệu được mã hóa mà bạn lưu trữ với chúng tôi.
-password-info-balloon-reset-risk-info = Đặt lại có nghĩa là có khả năng mất dữ liệu như mật khẩu và dấu trang.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

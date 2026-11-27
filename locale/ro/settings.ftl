@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Ți-am trimis un link nou pe adresa ta de e
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Adaugă { $accountsEmail } la contacte ca să te asiguri de o livrare fără probleme.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Închide bannerul
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } va fi redenumit { -product-mozilla-accounts } începând cu 1 nov
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Te vei autentifica în cont cu același nume de utilizator și aceeași parolă și nu mai sunt alte modificări aduse produselor pe care le utilizezi.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Am redenumit { -product-firefox-accounts } cu { -product-mozilla-accounts }. Te vei autentifica în continuare în cont cu același nume de utilizator și aceeași adresă și nu mai sunt alte modificări aduse produselor pe care le utilizezi.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Află mai multe
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Închide bannerul
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logo { -brand-mozilla } m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Autentificare cu cheie de acces
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Autentificare securizată…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Obține mai multe de la { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Obține cele mai recente știri și actualizări de produse
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Acces timpuriu pentru a testa produse noi
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Alerte de acțiune pentru revendicarea internetului
 
 ## Dark mode toggle
 
@@ -387,14 +348,6 @@ remember-password-passkey-text = Ai o cheie de acces sau îți amintești parola
 # link navigates to the sign in page
 remember-password-signin-link = Intră în cont
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Adresă de e-mail primară deja confirmată
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Autentificare deja confirmată
-confirmation-link-reused-message = Linkul de confirmare a fost deja folosit și nu poate fi reutilizat.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Selectează limba
@@ -415,12 +368,6 @@ pair-unsupported-hint-step-app-menu = Atinge <b>meniul aplicației</b>
 pair-unsupported-hint-step-sign-in = <b>Intră în cont</b> și apoi scanează codul
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Află mai multe
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Ai nevoie de această parolă pentru a accesa orice date criptate pe care le stochezi la noi.
-password-info-balloon-reset-risk-info = O resetare înseamnă pierderea potențială a unor date precum parole și marcaje.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

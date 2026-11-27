@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Электрондық поштаңызға
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Дұрыс жеткізуді қамтамасыз ету үшін контактілеріңізге { $accountsEmail } қосыңыз.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Баннерді жабу
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } атауы 1 қарашада { -product-mozilla-accounts } болып өзгертіледі
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Сіз әлі де дәл сол пайдаланушы аты мен пароліңізбен кіресіз және сіз пайдаланатын өнімдерде басқа өзгерістер болмайды.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = { -product-firefox-accounts } атын { -product-mozilla-accounts } өзгерттік. Сіз әлі де дәл сол пайдаланушы аты мен пароліңізбен кіресіз және сіз пайдаланатын өнімдерде басқа өзгерістер болмайды.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Көбірек білу
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Баннерді жабу
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m логотипі
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Рұқсат кілтімен кіру
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Қауіпсіз кіру…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = { -brand-mozilla }-дан көбірек алыңыз:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Біздің соңғы жаңалықтарымыз бен өнім жаңартуларымызды алыңыз
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Жаңа өнімдерді сынауға ерте қол жеткізу
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Интернетті қалпына келтіруге арналған әрекет ескертулері
 
 ## Dark mode toggle
 
@@ -384,14 +345,6 @@ remember-password-passkey-text = Қол жеткізу кілтіңіз бар �
 # link navigates to the sign in page
 remember-password-signin-link = Кіру
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Біріншілік эл. пошта адресі расталған болып тұр
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Кіру расталған болып тұр
-confirmation-link-reused-message = Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Тілді таңдау
@@ -412,12 +365,6 @@ pair-unsupported-hint-step-app-menu = <b>Қолданба мәзірін</b> ш�
 pair-unsupported-hint-step-sign-in = <b>Кіріңіз</b>, содан кейін кодты сканерлеңіз
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Көбірек білу
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін сізге бұл пароль керек.
-password-info-balloon-reset-risk-info = Қалпына келтіру әрекеті парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

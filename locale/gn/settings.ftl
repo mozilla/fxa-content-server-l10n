@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Oñemondo juajuha ne ñanduti vevépe.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuai’ỹre.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Emboty banner
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } hérata { -product-mozilla-accounts }  1 jasypateĩ guive
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Emoñepyrũta gueteri tembiapo nde poruhára réra ha ñe’ẽñemi eiporumeméva ndive, ha naiñambuéi apopyre eiporuvavoi.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Romoambue { -product-firefox-accounts } mba’ete réra ko’ág̃a guive { -product-mozilla-accounts }. Emoñepyrũjeýta tembiapo nde poruhára réra ha ñe’ẽñemi eiporúva ndive, ha naiñambuéi apopyre eiporúva.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Kuaave
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Emboty Banner
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m ra’ãnga’i
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Eikekuaa ñe’ẽñemi reheve
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Eikekuaa tekorosãme…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Eguerekove { -brand-mozilla }-gui:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Og̃uahẽta marandu ha mbohekopyahu apopyre rehegua
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Eike pya’e eiporu hag̃ua apopyre pyahu
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Nehenói tembiaporã Ñanduti mopu’ãjeyrã
 
 ## Dark mode toggle
 
@@ -384,14 +345,6 @@ remember-password-passkey-text = ¿Erekópa ñe’ẽ ñemi térã nemandu’a n
 # link navigates to the sign in page
 remember-password-signin-link = Eñepyrũ tembiapo
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Ñanduti veve tuichavéva moneĩmbyre
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Tembiapo ñepyrũ moneĩmbyre
-confirmation-link-reused-message = Ojeporúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Eiporavo ñe’ẽ
@@ -412,12 +365,6 @@ pair-unsupported-hint-step-app-menu = Eikutu <b>tembiporu’i poravoha</b>
 pair-unsupported-hint-step-sign-in = <b>Eike</b> ha emoha’ãnga ayvu
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Eikuaave
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Eikotevẽ ñe’ẽñemi eike hag̃ua oimeraẽva mba’ekuaarã ipapapýva embyatýva orendive.
-password-info-balloon-reset-risk-info = Ñemoñepyrũjey he’ise okañykuaaha mba’ekuaarã ikatúva ñe’ẽñemi ha techaukaha.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

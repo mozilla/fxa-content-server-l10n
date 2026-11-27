@@ -10,29 +10,6 @@ resend-link-success-banner-heading = 이메일로 새 링크를 발송했습니�
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = 원활한 전송을 위해 { $accountsEmail } 주소를 연락처에 추가하세요.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = 배너 닫기
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts }는 11월 1일에 { -product-mozilla-accounts }로 이름이 변경됩니다.
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = 동일한 사용자 이름과 비밀번호로 계속 로그인할 수 있으며, 사용하는 제품에는 다른 변경 사항이 없습니다.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = { -product-firefox-accounts }의 이름을 { -product-mozilla-accounts }으로 변경했습니다. 동일한 사용자 이름과 비밀번호로 계속 로그인할 수 있으며, 사용하는 제품에는 다른 변경 사항이 없습니다.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = 더 알아보기
-# Alt text for close banner image
-brand-close-banner =
-    .alt = 배너 닫기
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m 로고
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = 패스키로 로그인
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = 안전하게 로그인하는 중…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = { -brand-mozilla }에서 더 많은 정보를 얻으세요:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = 최신 소식과 제품 업데이트를 받아보세요
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = 신제품 테스트를 위한 조기 액세스
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = 인터넷을 되찾기 위한 조치 알림
 
 ## Dark mode toggle
 
@@ -375,14 +336,6 @@ remember-password-passkey-text = 패스키가 있거나 비밀번호를 기억�
 # link navigates to the sign in page
 remember-password-signin-link = 로그인
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = 기본 이메일이 이미 승인됨
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = 이 로그인은 이미 승인됨
-confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 승인 링크는 단 한 번만 사용할 수 있습니다.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = 언어 선택
@@ -406,12 +359,6 @@ pair-unsupported-hint-step-app-menu = <b>앱 메뉴</b>를 탭
 pair-unsupported-hint-step-sign-in = <b>로그인</b> 후, 코드 스캔
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = 더 알아보기
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = 여기에 저장한 암호화된 데이터에 접근하려면 이 비밀번호가 필요합니다.
-password-info-balloon-reset-risk-info = 재설정은 비밀번호와 북마크 같은 데이터가 손실될 수 있음을 의미합니다.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

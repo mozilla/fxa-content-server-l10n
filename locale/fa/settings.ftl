@@ -10,29 +10,6 @@ resend-link-success-banner-heading = یک پیوند جدید به رایانا�
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = { $accountsEmail } را به مخاطبین خود اضافه کنید تا از تحویل روان رایانامه‌ها اطمینان حاصل کنید.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = بستن بنر
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } در تاریخ ۱ نوامبر به { -product-mozilla-accounts } تغییر نام خواهد یافت.
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = شما همچنان با همان نام‌کاربری و گذرواژه وارد حساب خود خواهید شد و هیچ تغییر دیگری در محصولات استفاده‌ شده شما وجود نخواهد داشت.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = ما نام { -product-firefox-accounts } را به { -product-mozilla-accounts } تغییر داده‌ایم. شما همچنان با همان نام‌کاربری و گذرواژه وارد حساب خود خواهید شد و هیچ تغییر دیگری در محصولات استفاده‌ شده شما وجود نخواهد داشت.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = بیشتر بدانید
-# Alt text for close banner image
-brand-close-banner =
-    .alt = بستن بنر
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = آرم { -brand-mozilla } m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = ورود با کلید عبور
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = در حال ورود امن…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = بیشتر از { -brand-mozilla } دریافت کنید:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = اخبار و به‌روزرسانی‌های محصول جدید ما
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = دسترسی اولیه به آزمایش محصولات جدید
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = هشدارهای عملی برای بازپس‌گیری اینترنت
 
 ## Dark mode toggle
 
@@ -384,14 +345,6 @@ remember-password-passkey-text = کلید عبور دارید یا گذرواژ�
 # link navigates to the sign in page
 remember-password-signin-link = ورود
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = رایانامهٔ اصلی قبلاً تأیید شده است
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = ورود قبلاً تأیید شده است
-confirmation-link-reused-message = این پیوند تأیید قبلاً استفاده شده و فقط یک بار قابل استفاده است.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = انتخاب زبان
@@ -412,12 +365,6 @@ pair-unsupported-hint-step-app-menu = روی <b>منوی برنامه</b> بزن
 pair-unsupported-hint-step-sign-in = <b>وارد شوید</b> و سپس کد را پویش کنید
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = بیشتر بدانید
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = برای دسترسی به هر دادهٔ رمزگذاری‌شده‌ای که نزد ما نگه می‌دارید، به این گذرواژه نیاز دارید.
-password-info-balloon-reset-risk-info = بازنشانی ممکن است به از دست رفتن داده‌هایی مثل گذرواژه‌ها و نشانک‌ها منجر شود.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

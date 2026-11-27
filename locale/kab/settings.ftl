@@ -8,33 +8,11 @@
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Rnu { $accountsEmail } ɣer yinermisen-ik akken ad tḍemneḍ armas yelhan n yiznan.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Mdel aɣarrac
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Issin ugar
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Mdel aɣarrac
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = alugu n { -brand-mozilla } m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
 button-back-aria-label = Uɣal
 button-back-title = Uɣal
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Awi ugar seg { -brand-mozilla }:
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -190,14 +168,6 @@ link-expired-new-link-button = Awi aseɣwen amaynut
 remember-password-text = Cfu ɣef awal uffir?
 # link navigates to the sign in page
 remember-password-signin-link = Kcem
-
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Imayl amezwaru ittwasentem yakan
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Tuqqna tettwasentem yakan
-confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwet n tikkelt.
 
 ## Locale Toggle Component
 

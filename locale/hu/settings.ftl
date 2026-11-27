@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Új hivatkozás lett küldve az e-mail-cím
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Adja hozzá az { $accountsEmail } címet a névjegyei közé, a sima kézbesítés érdekében.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Banner bezárása
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = A { -product-firefox-accounts } új neve { -product-mozilla-accounts } lesz november 1-jén
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Továbbra is ugyanazzal a felhasználónévvel és jelszóval fog bejelentkezni, és nincs más változás a használt termékekben.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Átneveztük a { -product-firefox-accounts }at { -product-mozilla-accounts }ra. Továbbra is ugyanazzal a felhasználónévvel és jelszóval fog bejelentkezni, és nincs más változás a használt termékekben.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = További tudnivalók
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Banner bezárása
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m logó
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Jelentkezzen be jelkulcs segítségével
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Biztonságos bejelentkezés…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Kapjon többet a { -brand-mozilla(ending: "accented") }ból:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Iratkozzon fel a legfrissebb híreinkre és termékeinkre
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Korai hozzáférés az új termékek teszteléséhez
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Felhívások az internet visszaszerzésére
 
 ## Dark mode toggle
 
@@ -387,14 +348,6 @@ remember-password-passkey-text = Van jelkulcsa, vagy emlékszik a jelszavára?
 # link navigates to the sign in page
 remember-password-signin-link = Bejelentkezés
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Az elsődleges e-mail már meg lett erősítve
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = A bejelentkezés már meg lett erősítve
-confirmation-link-reused-message = A megerősítési hivatkozás már volt használva, és csak egyszer használható.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Válasszon nyelvet
@@ -418,12 +371,6 @@ pair-unsupported-hint-step-app-menu = Koppintson az <b>alkalmazásmenüre</b>
 pair-unsupported-hint-step-sign-in = <b>Jelentkezzen be</b>, majd olvassa le a kódot
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = További tudnivalók
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Erre a jelszóra van szüksége a nálunk tárolt titkosított adatok eléréséhez.
-password-info-balloon-reset-risk-info = Az alaphelyzetbe állítás azt jelenti, hogy elvesztheti az adatait, például a jelszavait és könyvjelzőit.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

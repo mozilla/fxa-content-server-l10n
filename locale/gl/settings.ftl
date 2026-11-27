@@ -3,29 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Pechar o cartel
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } pasará a chamarse { -product-mozilla-accounts } o 1 de novembro.
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Seguirá iniciando sesión co mesmo nome de usuario e contrasinal, e non haberá outros cambios nos servizos que está a utilizar.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Cambiamos o nome de { -product-firefox-accounts } a { -product-mozilla-accounts }. Seguirá iniciando sesión co mesmo nome de usuario e contrasinal e non haberá outros cambios nos servizos que está a utilizar.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Máis información.
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Pechar o cartel.
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logotipo do m de { -brand-mozilla }
-
 ## ButtonDownloadRecoveryKey
 ## Clicking on this button downloads a plain text file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -33,19 +10,6 @@ brand-m-logo =
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Produciuse un problema ao descargar a chave de recuperación da súa conta.
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Obteña máis de { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Acceso anticipado para probar novos produtos
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Alertas de acción para recuperar Internet
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -152,23 +116,10 @@ report-signin-link-damaged-header = A ligazón está danada
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Á ligazón que premeu faltábanlle caracteres, pode que o seu cliente de correo electrónico a rompese. Probe a copiar o enderezo de novo, con coidado.
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = O correo electrónico principal xa está confirmado
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Xa se confirmou o inicio de sesión
-confirmation-link-reused-message = Esa ligazón de confirmación xa se usou e só pode usarse unha vez.
-
 ## Locale Toggle Component
 
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitude incorrecta
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Necesita este contrasinal para acceder aos datos cifrados que almacene connosco.
 
 ## User's avatar
 

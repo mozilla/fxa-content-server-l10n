@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Пайванди нав ба почтаи �
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Барои таъмин кардани интиқоли мунтазами паёмҳои электронӣ, «{ $accountsEmail }»-ро ба тамосҳои худ илова намоед.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Пӯшидани баннер
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = Дар санаи 1-уми ноябри соли ҷорӣ номи маҳсули «{ -product-firefox-accounts }» ба номи «{ -product-mozilla-accounts }» иваз карда мешавад
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Шумо ҳамоно бо ҳамон номи корбар ва ниҳонвожаи худ ворид мешавед, ва ягон тағйироти дигар дар маҳсулоте, ки шумо истифода мебаред, пешбинӣ нашудааст.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Мо номи маҳсули «{ -product-firefox-accounts }»-ро ба номи «{ -product-mozilla-accounts }» иваз кардем. Шумо ҳамоно бо ҳамон номи корбар ва ниҳонвожаи худ ворид мешавед, ва ягон тағйироти дигар дар маҳсулоте, ки шумо истифода мебаред, пешбинӣ нашудааст.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Маълумоти бештар
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Пӯшидани баннер
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Тамғаи «m - { -brand-mozilla }»
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -46,22 +23,6 @@ button-back-title = Ба қафо
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Мутаассифона, ҳангоми боргирӣ кардани калиди барқарорсозии ҳисоби шумо мушкилие ба миён омад.
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Аз «{ -brand-mozilla }» ҳарчи бештар ба даст оред:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Хабарҳо ва навигариҳои охирини маҳсулоти моро қабул намоед
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Дастрасии пешакӣ барои озмоиши маҳсулоти нав
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Огоҳиҳои фаврӣ барои барқарорсозии дастрасӣ ба Интернет
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -304,11 +265,6 @@ report-signin-link-damaged-header = Пайванд вайрон шуд
 
 # link navigates to the sign in page
 remember-password-signin-link = Ворид шудан
-
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Почтаи электронии асосӣ алакай тасдиқ карда шуд
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

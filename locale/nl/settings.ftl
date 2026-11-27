@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Er is een nieuwe koppeling naar uw e-mailad
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Voeg { $accountsEmail } toe aan uw contacten om een probleemloze levering te garanderen.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Banner sluiten
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } wordt op 1 november omgedoopt naar { -product-mozilla-accounts }
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = U meldt nog steeds aan met dezelfde gebruikersnaam en hetzelfde wachtwoord, en er zijn geen andere wijzigingen in de producten die u gebruikt.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = We hebben { -product-firefox-accounts } hernoemd naar { -product-mozilla-accounts }. U meldt nog steeds aan met dezelfde gebruikersnaam en hetzelfde wachtwoord, en er zijn geen andere wijzigingen in de producten die u gebruikt.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Meer info
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Banner sluiten
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m-logo
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Aanmelden met wachtwoordsleutel
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Veilig aanmelden…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Meer van { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Ontvang ons laatste nieuws en productupdates
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Vroege toegang om nieuwe producten te testen
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Actiewaarschuwingen om het internet terug te eisen
 
 ## Dark mode toggle
 
@@ -387,14 +348,6 @@ remember-password-passkey-text = Hebt u een wachtwoordsleutel of weet u uw wacht
 # link navigates to the sign in page
 remember-password-signin-link = Aanmelden
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Primair e-mailadres al bevestigd
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Aanmelding is al bevestigd
-confirmation-link-reused-message = Die bevestigingskoppeling is al gebruikt, en kan maar één keer worden gebruikt.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Taal selecteren
@@ -418,12 +371,6 @@ pair-unsupported-hint-step-app-menu = Tik op het <b>app-menu</b>
 pair-unsupported-hint-step-sign-in = <b>Aanmelden</b> en scan de code
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Meer info
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = U hebt dit wachtwoord nodig om toegang te verkrijgen tot alle versleutelde gegevens die u bij ons opslaat.
-password-info-balloon-reset-risk-info = Een herinitialisatie betekent mogelijk verlies van gegevens, zoals wachtwoorden en bladwijzers.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

@@ -8,39 +8,11 @@
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Тартмагызга килеп җитсен өчен, { $accountsEmail } адресын контактларыгызга өстәгез.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Баннерны ябу
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Күбрәк белү
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Баннерны ябу
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m логотибы
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
 button-back-aria-label = Кире
 button-back-title = Кире
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = { -brand-mozilla } хәбәрләренә язылыгыз:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Иң соңгы яңалыкларыбыз һәм продукт яңартуларыбыз турында хәбәрдар булыгыз
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Яңа продуктларны иртәрәк сынап карау мөмкинлеге
 
 ## Dark mode toggle
 
@@ -211,13 +183,6 @@ link-expired-new-link-button = Яңа сылтама алу
 remember-password-text = Серсүзегез исегездәме?
 # link navigates to the sign in page
 remember-password-signin-link = Керү
-
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Беренчел эл. почта адресы расланды инде
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Керү расланды инде
 
 ## Locale Toggle Component
 

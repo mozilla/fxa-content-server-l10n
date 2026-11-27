@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Anfonwyd dolen newydd i'ch e-bost.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Ychwanegu { $accountsEmail } i'ch cysylltiadau i sicrhau anfon llwyddiannus.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Caewch y faner
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = Bydd { -product-firefox-accounts } yn cael ei ailenwi yn { -product-mozilla-accounts } ar Dachwedd 1
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynnyrch rydych chi'n eu defnyddio.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Rydym wedi ailenwi { -product-firefox-accounts } i { -product-mozilla-accounts }. Byddwch yn dal i fewngofnodi gyda'r un enw defnyddiwr a chyfrinair, ac nid oes unrhyw newidiadau eraill i'r cynnyrch rydych chi'n eu defnyddio.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Dysgu rhagor
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Caewch y Faner
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logo m { -brand-mozilla }
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Mewngofnodwch gyda chyfrinallwedd
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Wrthi'n mewngofnodi'n ddiogel…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Cael mwy gan { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Cael ein newyddion diweddaraf a diweddariadau cynnyrch
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Mynediad cynnar i brofi cynnyrch newydd
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Rhybuddion gweithredu i adennill y rhyngrwyd
 
 ## Dark mode toggle
 
@@ -399,14 +360,6 @@ remember-password-passkey-text = Oes gennych chi gyfrinallwedd neu'n cofio'ch cy
 # link navigates to the sign in page
 remember-password-signin-link = Mewngofnodi
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Mae'r prif e-bost wedi ei ddilysu eisoes
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Mae'r mewngofnod eisoes wedi ei gadarnhau
-confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Dewiswch iaith
@@ -430,12 +383,6 @@ pair-unsupported-hint-step-app-menu = Tapiwch y <b>dewislen ap</b>
 pair-unsupported-hint-step-sign-in = <b>Mewngofnodwch</b>, yna sganiwch y cod
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Dysgu rhagor
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Mae angen y cyfrinair hwn arnoch i gael mynediad at unrhyw ddata wedi'i amgryptio rydych yn ei storio gyda ni.
-password-info-balloon-reset-risk-info = Mae ailosod yn golygu o bosibl golli data fel cyfrineiriau a nodau tudalen.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

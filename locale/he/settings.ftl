@@ -10,25 +10,6 @@ resend-link-success-banner-heading = קישור חדש נשלח לדוא״ל ש�
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = מומלץ להוסיף את { $accountsEmail } לרשימת אנשי הקשר שלך כדי לוודא העברה חלקה.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } ישונו ל{ -product-mozilla-accounts } ב־1 בנובמבר
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = הכניסה לחשבון עדיין תהיה עם אותם פרטי שם משתמש וססמה, ואין שינויים אחרים במוצרים שבהם אתם משתמשים.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = שינינו את { -product-firefox-accounts } ל{ -product-mozilla-accounts }. הכניסה לחשבון עדיין תהיה עם אותם פרטי שם משתמש וססמה, ואין שינויים אחרים במוצרים שבהם אתם משתמשים.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = מידע נוסף
-# Alt text for close banner image
-brand-close-banner =
-    .alt = סגירת באנר
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = סמל ה־m של { -brand-mozilla }
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -54,18 +35,6 @@ button-passkey-signin = כניסה באמצעות מפתח גישה
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = בתהליך התחברות מאובטחת…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = קבלו יותר מ־{ -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = קבלת חדשות ועדכונים למוצרים שלנו
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = גישה מוקדמת לבדיקת מוצרים חדשים
 
 ## Dark mode toggle
 
@@ -371,14 +340,6 @@ remember-password-passkey-text = יש לך מפתח גישה או שנזכרת �
 # link navigates to the sign in page
 remember-password-signin-link = כניסה
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = כתובת הדוא״ל הראשית כבר עברה אימות
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = ההתחברות כבר אושרה
-confirmation-link-reused-message = נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = בחירת שפה
@@ -402,12 +363,6 @@ pair-unsupported-hint-step-app-menu = יש להקיש על <b>תפריט היי�
 pair-unsupported-hint-step-sign-in = <b>יש להתחבר</b>, ולאחר מכן לסרוק את הקוד
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = מידע נוסף
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = יש לך צורך בססמה זו כדי לגשת לכל מידע מוצפן שבחרת לאחסן אצלנו.
-password-info-balloon-reset-risk-info = איפוס פירושו פוטנציאל לאבד נתונים כמו ססמאות וסימניות.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

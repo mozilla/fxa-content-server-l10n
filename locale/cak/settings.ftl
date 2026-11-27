@@ -66,14 +66,6 @@ reset-pwd-link-damaged-header = Titzolïx ruwäch ri man ütz ta ruximonel ewan 
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = K'a k'o na taq tz'ib' nrajo' ri ximonel xapïtz' ruma ri' toq rik'in jub'a' xq'at ruma ri ataqoya'l richin winäq. Tachajij ruwachib'enik ri ochochib'äl richin natojtob'ej chik.
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Xjikib'äx yan ri nab'ey taqoya'l
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Xjikib'äx yan rutikirisaxik molojri'ïl
-confirmation-link-reused-message = Chi ri ruximonel jikib'anïk xokisäx yan, xa xe tikirel nokisäx jun mul.
-
 ## Ready component
 
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email

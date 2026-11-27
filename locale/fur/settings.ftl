@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Al è stât inviât un gnûf colegament ae 
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Zonte { $accountsEmail } ai tiei contats par garantî une consegne cence fastidis.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Siere strisson
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = I { -product-firefox-accounts } a cambiaran non in { -product-mozilla-accounts } dal 1ⁿ di Novembar
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Dut câs tu jentrarâs cul stes non utent e password e no saran fatis altris modifichis ai prodots che tu dopris.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = O vin cambiât non ai { -product-firefox-accounts } in { -product-mozilla-accounts }. Dut câs tu jentrarâs cul stes non e password e no saran fatis altris modifichis ai prodots che tu dopris.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Plui informazions
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Siere strisson
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logo cu la m di  { -brand-mozilla }
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -46,22 +23,6 @@ button-back-title = Indaûr
 # Error message shown in a banner if the account recovery key download failed.
 # The id keeps "pdf" from when this was a PDF, to preserve existing translations.
 recovery-key-pdf-download-error = Nus displâs, al è vignût fûr un probleme tal discjariâ la tô clâf di recupar dal account.
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Oten di plui di { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Ricêf lis ultimis notiziis e i inzornaments sui prodots
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Acès in anteprime par provâ gnûfs prodots
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Avîs ae azion par tornâ a cjapâ in man il control di internet
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -322,26 +283,12 @@ remember-password-text = Visâsi la password?
 # link navigates to the sign in page
 remember-password-signin-link = Jentre
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = E-mail primarie za confermade
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Acès za confermât
-confirmation-link-reused-message = Chel colegament di conferme al è za stât doprât e al è pussibil doprâlu dome une volte.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Selezione lenghe
 locale-toggle-browser-default = Predefinide dal navigadôr
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richieste sbaliade
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Ti covente cheste password par acedi ai dâts cifrâts che o salvìn par te.
-password-info-balloon-reset-risk-info = Un ripristinament al podarès compuartâ la pierdite di dâts come passwords e segnelibris.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

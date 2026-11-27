@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Na váš e-mail byl odeslán nový odkaz.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Pro jistotu si přidejte adresu { $accountsEmail } do svých kontaktů.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Zavřít oznámení
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } bude 1. listopadu přejmenován na { -product-mozilla-accounts }
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Stále se budete přihlašovat stejným uživatelským jménem a heslem a nedojde k žádným dalším změnám v používaných produktech.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Přejmenovali jsme { -product-firefox-accounts } na { -product-mozilla-accounts }. Stále se budete přihlašovat pod stejným uživatelským jménem a heslem a nedojde k žádným dalším změnám v používaných produktech.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Zjistit více
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Zavřít oznámení
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logo { -brand-mozilla } m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Přihlaste se pomocí přístupového klíče
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Bezpečné přihlašování…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Získejte více od { -brand-mozilla(case: "gen") }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Získejte naše nejnovější zprávy a aktualizace produktů
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Brzký přístup k testování nových produktů
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Výzvy na opětovné získání internetu
 
 ## Dark mode toggle
 
@@ -390,14 +351,6 @@ remember-password-passkey-text = Máte přístupový kód nebo si pamatujete hes
 # link navigates to the sign in page
 remember-password-signin-link = Přihlásit se
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Hlavní adresa už byla ověřena
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Přihlášení už bylo potvrzeno
-confirmation-link-reused-message = Každý potvrzovací odkaz lze použít pouze jednou a tento už byl použit.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Vyberte jazyk
@@ -421,12 +374,6 @@ pair-unsupported-hint-step-app-menu = Klepněte na <b>nabídku aplikace</b>
 pair-unsupported-hint-step-sign-in = <b>Přihlaste se</b>, a poté naskenujte kód
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Zjistit více
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Toto heslo potřebujete pro přístup ke všem zašifrovaným datům, která u nás ukládáte.
-password-info-balloon-reset-risk-info = Reset znamená potenciální ztrátu dat, jako jsou hesla a záložky.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Un nove ligamine ha essite inviate a tu ema
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Adde { $accountsEmail } a tu contactos pro assecurar le livration.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Clauder bandiera
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = Le { -product-firefox-accounts } sera renominate { -product-mozilla-accounts } desde le 1 de novembre
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Tu ancora accedera con le mesme nomine de usator e contrasigno, e il non ha alcun altere cambiamentos al productos que tu usa.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Nos ha renominate { -product-firefox-accounts } a { -product-mozilla-accounts }. Tu ancora accedera con le mesme nomine de usator e contrasigno, e il non ha alcun altere cambiamentos al productos que tu usa.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Pro saper plus
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Clauder bandiera
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logo con le m de  { -brand-mozilla }
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Accede con clave-contrasigno
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Accedente con securitate…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Obtene plus de { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Recipe le ultime actualisationes de tu novas e productos
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Accesso precoce pro verificar nove productos
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Avisos de action pro reprender le controlo de internet
 
 ## Dark mode toggle
 
@@ -387,14 +348,6 @@ remember-password-passkey-text = Ha tu un clave-contrasigno o te memora tu de tu
 # link navigates to the sign in page
 remember-password-signin-link = Aperir session
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Email primari ja confirmate
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Session ja confirmate
-confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Eliger le lingua
@@ -418,12 +371,6 @@ pair-unsupported-hint-step-app-menu = Tocca le <b>menu del applicationes</b>
 pair-unsupported-hint-step-sign-in = <b>Accede</b>, pois scande le codice
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Pro saper plus
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Te besonia iste contrasigno pro acceder ulle datos cryptate que tu immagazina con nos.
-password-info-balloon-reset-risk-info = Un remontage significa potentialmente perder datos como contrasignos e marcapaginas.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

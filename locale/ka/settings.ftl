@@ -10,31 +10,6 @@ resend-link-success-banner-heading = ახალი ბმული გამ�
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = დაამატეთ { $accountsEmail } ნაცნობ მისამართებში შეტყობინებების შეუფერხებლად მიღებისთვის.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = სარკმლის დახურვა
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts } 1 ნოემბრიდან.
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = კვლავ შეგეძლებათ შეხვიდეთ მომხმარებლის იმავე სახელითა და პაროლით, სხვა ცვლილება არ შეეხება პროდუქტებს, რომელთაც იყენებთ.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title =
-    { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts }.
-    კვლავ შეგეძლებათ შეხვიდეთ მომხმარებლის იმავე სახელითა და პაროლით, სხვა ცვლილება არ შეეხება პროდუქტებს, რომელთაც იყენებთ.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = ვრცლად
-# Alt text for close banner image
-brand-close-banner =
-    .alt = სარკმლის დახურვა
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla }-m-ლოგო
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -60,22 +35,6 @@ button-passkey-signin = შესვლა საშვით
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = უსაფრთხო შესვლა…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = მიიღეთ მეტი { -brand-mozilla }-სგან:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = გაეცანით ჩვენს ბოლო სიახლეებსა და განახლებულ პროდუქტებს.
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = ადრეული წვდომა ახალი პროდუქტების გამოსაცდელად
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = სამოქმედო ცნობები ინტერნეტის დასაბრუნებლად
 
 ## Dark mode toggle
 
@@ -389,14 +348,6 @@ remember-password-passkey-text = გაქვთ საშვი, თუ გა�
 # link navigates to the sign in page
 remember-password-signin-link = შესვლა
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = მთავარი ელფოსტა უკვე დამოწმებულია
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = შესვლა უკვე დამოწმებულია
-confirmation-link-reused-message = დადასტურების ბმული უკვე გამოყენებულია, მისი გამოყენება მხოლოდ ერთხელ შეიძლება.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = ენის არჩევა
@@ -420,12 +371,6 @@ pair-unsupported-hint-step-app-menu = შეეხეთ <b>აპის მე�
 pair-unsupported-hint-step-sign-in = <b>შედით</b>, შემდეგ კი წააკითხეთ კოდი
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = ვრცლად
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = პაროლი გესაჭიროებათ იმ დაშიფრულ მონაცემებთან წვდომისთვის, რომელთაც ჩვენთან ინახავთ.
-password-info-balloon-reset-risk-info = განულების შედეგად, სავარაუდოდ, დაკარგავთ შენახულ მონაცემებს, მათ შორის პაროლებსა და სანიშნებს.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

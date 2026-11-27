@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Na vaš e-poštni naslov je bila poslana no
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Dodajte { $accountsEmail } med stike, da zagotovite nemoteno dostavo.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Zapri pasico
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts(zacetnica: "velika") } se bodo s 1. novembrom preimenovali v { -product-mozilla-accounts(sklon: "tozilnik") }
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Še vedno se boste prijavljali z istim uporabniškim imenom in geslom, izdelki, ki jih uporabljate, pa se ne bodo spremenili.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = { -product-firefox-accounts(sklon: "tozilnik") } smo preimenovali v { -product-mozilla-accounts(sklon: "tozilnik") }. Prijavite se lahko z istim uporabniškim imenom in geslom kot doslej, prav tako pa se niso spremenili izdelki, ki jih uporabljate.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Več o tem
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Zapri pasico
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logotip { -brand-mozilla(sklon: "rodilnik") } "m"
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Prijava s ključem za dostop
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Varno prijavljanje …
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Izkoristite { -brand-mozilla(sklon: "tozilnik") }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Bodite na tekočem z našimi novicami in posodobitvami izdelkov
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Zgodnji dostop za preizkušanje novih izdelkov
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Pozivi k ukrepanju za povrnitev interneta
 
 ## Dark mode toggle
 
@@ -393,14 +354,6 @@ remember-password-passkey-text = Imate ključ za dostop ali se spomnite gesla?
 # link navigates to the sign in page
 remember-password-signin-link = Prijava
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Glavni e-poštni naslov je že potrjen
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Prijava je že potrjena
-confirmation-link-reused-message = Ta potrditvena povezava je bila že uporabljena, uporabiti pa jo je mogoče le enkrat.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Izberi jezik
@@ -424,12 +377,6 @@ pair-unsupported-hint-step-app-menu = Tapnite <b>meni aplikacij</b>
 pair-unsupported-hint-step-sign-in = <b>Prijavite se</b> in preberite kodo
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Več o tem
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = To geslo potrebujete za dostop do šifriranih podatkov, ki jih shranjujete pri nas.
-password-info-balloon-reset-risk-info = Ponastavitev lahko povzroči izgubo podatkov, kot so gesla in zaznamki.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

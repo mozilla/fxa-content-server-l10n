@@ -10,29 +10,6 @@ resend-link-success-banner-heading = 已將新鏈結寄送到您的信箱。
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = 請將 { $accountsEmail } 加到通訊錄以確保收信正常。
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = 關閉橫幅
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = 11 月 1 日起，{ -product-firefox-accounts }將更名為 { -product-mozilla-accounts }
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = 您仍可使用相同的帳號與密碼登入，能使用的產品服務內容也維持不變。
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = 我們已將 { -product-firefox-accounts }更名為 { -product-mozilla-accounts }。您仍可使用相同的帳號與密碼登入，能使用的產品服務內容也維持不變。
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = 更多資訊
-# Alt text for close banner image
-brand-close-banner =
-    .alt = 關閉橫幅
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = { -brand-mozilla } m 標誌
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = 使用 Passkey 登入
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = 正在安全地登入…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = 獲得 { -brand-mozilla } 的更多消息：
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = 獲得我們的最新消息與最新產品資訊
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = 搶先體驗最新產品
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = 採取行動奪回網路環境
 
 ## Dark mode toggle
 
@@ -375,14 +336,6 @@ remember-password-passkey-text = 之前打過 Passkey，或還記得密碼嗎？
 # link navigates to the sign in page
 remember-password-signin-link = 登入
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = 主要電子郵件地址已經驗證過了
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = 已確認過此次登入
-confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被使用過了。
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = 選擇語言
@@ -406,12 +359,6 @@ pair-unsupported-hint-step-app-menu = 點擊<b>應用程式選單</b>
 pair-unsupported-hint-step-sign-in = <b>登入</b>，然後掃描 QR Code
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = 更多資訊
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = 需要使用此密碼才能存取所有您儲存在我們這的加密資料。
-password-info-balloon-reset-risk-info = 進行重設，可能會失去網頁密碼、書籤等資料。
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

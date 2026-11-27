@@ -10,29 +10,6 @@ resend-link-success-banner-heading = Se envió un nuevo enlace a tu correo elect
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 resend-success-banner-description = Agregá { $accountsEmail } a tus contactos para asegurar una entrega sin problemas.
 
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-# This aria-label applies to the dismiss/close button of the banner
-# This text is for screen-readers
-brand-banner-dismiss-button-2 =
-    .aria-label = Cerrar banner
-# This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = { -product-firefox-accounts } pasará a llamarse { -product-mozilla-accounts } el 1 de noviembre
-# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Seguirás iniciando sesión con el mismo nombre de usuario y contraseña, y no hay otros cambios en los productos que usás.
-# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
-# no action is required on their part
-brand-postlaunch-title = Cambiamos el nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }. Seguirás iniciando sesión con el mismo nombre de usuario y contraseña, y no hay otros cambios en los productos que usás.
-# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
-brand-learn-more = Conocer más
-# Alt text for close banner image
-brand-close-banner =
-    .alt = Cerrar banner
-# Alt text for 'm' logo in banner header
-brand-m-logo =
-    .alt = Logotipo de { -brand-mozilla } m
-
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
@@ -58,22 +35,6 @@ button-passkey-signin = Iniciar sesión con clave de acceso
 # device prompt/pop-up with authentication options (or message indicating that
 # no passkeys are available).
 button-passkey-signin-loading = Iniciar sesión de forma segura…
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-# Prompt above a checklist of newsletters
-choose-newsletters-prompt-2 = Obtené más de { -brand-mozilla }:
-# Newsletter checklist item
-choose-newsletters-option-latest-news =
-    .label = Recibí nuestras últimas noticias y actualizaciones de productos
-# Newsletter checklist item
-choose-newsletters-option-test-pilot =
-    .label = Acceso anticipado para probar nuevos productos
-# Newsletter checklist item. This for a Mozilla Foundation newsletters,
-# "Action alerts" can be interpreted as "Calls to action"
-choose-newsletters-option-reclaim-the-internet =
-    .label = Alertas de acción para recuperar Internet
 
 ## Dark mode toggle
 
@@ -387,14 +348,6 @@ remember-password-passkey-text = ¿Tenés una clave de acceso o recordás tu con
 # link navigates to the sign in page
 remember-password-signin-link = Iniciar sesión
 
-## LinkUsed component
-
-# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
-primary-email-confirmation-link-reused = Correo electrónico principal ya fue confirmado
-# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
-signin-confirmation-link-reused = Inicio de sesión ya confirmado
-confirmation-link-reused-message = Ese enlace de confirmación ya fue utilizado y se puede usar una sola vez.
-
 ## Locale Toggle Component
 
 locale-toggle-select-label = Seleccionar idioma
@@ -418,12 +371,6 @@ pair-unsupported-hint-step-app-menu = Tocá el <b>menú de la aplicación</b>
 pair-unsupported-hint-step-sign-in = <b>Iniciá sesión</b> y escaneá el código
 # Opens a Mozilla support article about connecting a device without a QR code
 pair-unsupported-hint-learn-more-link = Conocer más
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-password-info-balloon-why-password-info = Necesitás esta contraseña para acceder a cualquier dato cifrado que almacenés con nosotros.
-password-info-balloon-reset-risk-info = Un reinicio significa la posibilidad de perder datos como contraseñas y marcadores.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
