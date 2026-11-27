@@ -1195,6 +1195,9 @@ security-set-password = Ορίστε έναν κωδικό πρόσβασης γ
 security-recent-activity-link = Προβολή πρόσφατης δραστηριότητας λογαριασμού
 signout-sync-header = Η συνεδρία έληξε
 signout-sync-session-expired = Δυστυχώς, κάτι πήγε στραβά. Αποσυνδεθείτε από το μενού του προγράμματος περιήγησης και δοκιμάστε ξανά.
+# Browser tab title for the page telling the user their session expired and they need to sign out from the browser menu.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+signout-sync-page-title = Η συνεδρία έληξε
 
 ## SubRow component
 
@@ -1783,6 +1786,9 @@ pair-wait-for-supp-heading-text = Απαιτείται τώρα έγκριση <
 pair-failure-header-v2 = Η σύζευξη συσκευής απέτυχε
 pair-failure-message-v2 = Δεν ήταν δυνατή η ολοκλήρωση της ρύθμισης. Συνδεθείτε με το email σας.
 pair-failure-try-again-link = Δοκιμή ξανά
+# Browser tab title for the page shown when device pairing fails.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair-failure-page-title = Η σύζευξη συσκευής απέτυχε
 
 ## Pair index page
 
@@ -2148,6 +2154,9 @@ set-password-info-v2 = Αυτός κρυπτογραφεί τα δεδομένα
 ## Users who signed in via passwordless OTP and need to create a password for Sync
 
 set-password-passwordless-info = Αυτός ο κωδικός πρόσβασης κρυπτογραφεί και τα προστατεύει τα συγχρονισμένα δεδομένα σας.
+# Browser tab title for the page where the user creates a password so they can sync.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+set-password-page-title = Δημιουργία κωδικού πρόσβασης για συγχρονισμό
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
