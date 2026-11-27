@@ -2122,6 +2122,9 @@ pair2-supplicant-connect-this-device-heading = ¿Conectar este dispositivo a tu 
 pair2-supplicant-connect-this-device-connect-button = Conectar
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Cancelar
+# Browser tab title for the page shown on the mobile device where the user confirms connecting it to their account.
+# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
+pair2-supplicant-connect-this-device-page-title = Conectar este dispositivo
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing reaches a browser that is
@@ -2462,7 +2465,7 @@ complete-signin-validating-page-title = Confirmando inicio de sesión
 
 # Browser tab title for the page where the user enters their password to sign in.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-signin-password-page-title = Ingrese su contraseña
+signin-password-page-title = Ingresá tu contraseña
 # Browser tab title for the sign-in page shown when the user already has a saved session on this device.
 # Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
 signin-cached-page-title = Iniciar sesión
