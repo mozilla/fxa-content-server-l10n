@@ -2122,9 +2122,6 @@ pair2-supplicant-connect-this-device-heading = ¿Conectar este dispositivo a tu 
 pair2-supplicant-connect-this-device-connect-button = Conectar
 # Dismisses the pairing attempt
 pair2-supplicant-connect-this-device-cancel-button = Cancelar
-# Browser tab title for the page shown on the mobile device where the user confirms connecting it to their account.
-# Shown in the browser tab, followed by “– Mozilla accounts”. Keep it short, since tabs cut off long titles.
-pair2-supplicant-connect-this-device-page-title = Conectar este dispositivo
 
 ## DownloadFirefox page - Part of the desktop-to-mobile pairing flow
 ## Users see this on their mobile device when pairing reaches a browser that is
