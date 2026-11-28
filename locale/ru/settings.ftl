@@ -411,7 +411,7 @@ promo-qr-mobile-heading-treatment-h = Спокойный веб-сёрфинг �
 promo-qr-mobile-description-v2 = Отсканируйте, чтобы скачать мобильное приложение
 # Note that for RTL languages, this should be translated as "the lower-left corner of your screen," instead of "the lower-right corner."
 promo-qr-mobile-qr-alt =
-    .alt = QR-код, чтобы загрузить мобильное приложение { -brand-firefox }. Наведите камеру телефона на правый нижний угол экрана, чтобы отсканировать его.
+    .alt = QR-код, чтобы скачать мобильное приложение { -brand-firefox }. Наведите камеру телефона на правый нижний угол экрана, чтобы отсканировать его.
 
 ## Notification Promo Banner component
 
